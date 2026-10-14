@@ -1,0 +1,95 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究001：「危険の時代」ハザードモデルによる長期存続確率と介入効果 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="001">研究001：「危険の時代」ハザードモデルによる長期存続確率と介入効果</h1>
+<p>再現：<code>cd research/001-time-of-perils &amp;&amp; python3 sim.py</code>（seed=20261014, N=200,000, 要 numpy/matplotlib）→ <code>results.json</code>, <code>fig_survival.png</code>, <code>fig_posterior_tail.png</code></p>
+<h2 id="1">1. 背景</h2>
+<ul>
+<li>【事実（Ord 2020, 第1章 PDF）】今世紀の存続リスクは約1/6、20世紀は約1/100。このリスク水準は何世紀も続けられず、「危険の時代」は少数世紀で終わるか破局するかのどちらかと主張。</li>
+<li>【事実（Snyder-Beattie et al. 2019）】自然要因による絶滅の年率は 1/87,000 未満（相対尤度0.1基準）。人為リスクには適用できない。</li>
+<li>【推測】Ordの「危険の時代」論は定性的で、(a) リスク強度を下げる介入と (b) 危険の時代を早く終わらせる介入の比較、(c) 推定値の不確実性の影響、を同一モデルで定量化した資料は今回の調査範囲では見つけていない（網羅的調査ではない）。</li>
+</ul>
+<h2 id="2">2. モデル</h2>
+<p>年率ハザード h(t) = h0·exp(−t/τ) + h_nat、生存確率 S(T) = E[exp(−∫h)]。
+- h0 中央値 = 1−(5/6)^(1/100) = 0.00182/年（Ordの1/6を年率換算）
+- τ 中央値 = 200年【推測：Ordの「少数世紀」を指数減衰に置換】
+- h_nat = 1/87,000/年（Snyder-Beattieの<strong>上限</strong>を保守的に固定値として使用）
+- 不確実性：h0, τ を対数正規（σ=1.0, 独立）【推測】</p>
+<h2 id="3-resultsjson">3. 結果（results.json）</h2>
+<table>
+<thead>
+<tr>
+<th>T(年)</th>
+<th>点推定</th>
+<th>不確実性込み(中央値一致)</th>
+<th>A: h0半減</th>
+<th>B: τ半減</th>
+<th>C: 自然床=0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>0.865</td>
+<td>0.826</td>
+<td><strong>0.903</strong></td>
+<td>0.854</td>
+<td>0.827</td>
+</tr>
+<tr>
+<td>1,000</td>
+<td>0.688</td>
+<td>0.625</td>
+<td>0.753</td>
+<td>0.737</td>
+<td>0.632</td>
+</tr>
+<tr>
+<td>10,000</td>
+<td>0.619</td>
+<td>0.545</td>
+<td>0.659</td>
+<td>0.659</td>
+<td>0.611</td>
+</tr>
+<tr>
+<td>100,000</td>
+<td>0.220</td>
+<td>0.194</td>
+<td>0.234</td>
+<td>0.234</td>
+<td>0.611</td>
+</tr>
+<tr>
+<td>1,000,000</td>
+<td>7.1e-6</td>
+<td>6.2e-6</td>
+<td>7.5e-6</td>
+<td>7.5e-6</td>
+<td>0.611</td>
+</tr>
+</tbody>
+</table>
+<p>図：<code>fig_survival.png</code>（生存曲線）、<code>fig_posterior_tail.png</code>（1万年生存で重み付けした log10(h0·τ) 分布）</p>
+<h2 id="4">4. 独自仮説と検証</h2>
+<p><strong>H1【独自仮説】推定の不確実性を考慮すると、点推定より長期生存確率は高くなる（ジェンセンの不等式、exp(−x)が凸）。</strong>
+- 検証：専門家の数値を「中央値」と解釈するとσ↑で S(1万年) は 0.619→0.545(σ=1)→0.503(σ=2) と<strong>低下</strong>。「平均」と解釈すると 0.619→0.702(σ=1)→0.823(σ=2) と<strong>上昇</strong>。
+- 判定：<strong>条件付きで棄却</strong>。結論は推定値の統計的意味（中央値か平均か）に完全に依存し、符号すら反転する。→ 文献推定値を合算するときにはこの区別を明記する必要がある（新しい方法論的規則としてREADMEに追加候補）。</p>
+<p><strong>H2【独自仮説】長期生存を決めるのは累積危険量 h0·τ だけであり、「強度半減」と「期間半減」は長期的に等価だが、直近では強度削減が優る。</strong>
+- 検証：T≥1万年で A と B は一致（0.659 vs 0.659、10万年では小数6桁まで一致）。T=100年では A=0.903 &gt; B=0.854。T≫τ で累積ハザード→h0·τ となる解析結果と整合。
+- 判定：<strong>支持</strong>（ただしモデル構造による自明な部分を含む。非自明なのは「同じ費用で強度と期間のどちらを削れるか」という費用関数で、未解決）。</p>
+<p><strong>H3【独自仮説】自然ハザードを上限値で置くと、10万年以降の生存は人為リスクではなく自然床が支配する。</strong>
+- 検証：C（自然床=0）は10万年で0.611、ベースライン0.194。100万年では A/B 介入の効果はほぼ消え（7.5e-6）、自然床のみが効く。
+- 判定：<strong>支持、ただし強い留保</strong>。1/87,000 は上限であり真の値は桁違いに小さい可能性がある【事実（同論文：Homo属基準で &lt;1/870,000）】。その場合 h_nat=1/870,000 では10万年生存の床は e^(-0.115)≈0.89 となる【計算】。</p>
+<p><strong>補足</strong>：1万年生存で重み付けすると、h0·τ 下位25%のパラメータ領域が生存質量の38.1%を占める（事前では25%）。生存世界は「楽観パラメータ世界」に偏るが、極端には集中しない。</p>
+<h2 id="5">5. 批判的検証（限界）</h2>
+<ul>
+<li>指数減衰は仮定。危険が下がらない（τ→∞）シナリオや、技術進歩で新リスクが出る増加型を含んでいない。</li>
+<li>h0 と τ を独立としたが、【推測】リスクが高い世界ほど危険の時代も長い（正相関）可能性があり、その場合不確実性の影響は大きくなる。</li>
+<li>「存続破局」に回復不能な崩壊を含むOrdの定義と、絶滅のみのSnyder-Beattieを混ぜている。</li>
+<li>Ordの推定は個人の主観。XPTでは専門家と超予測者が大きく不一致【事実（forecastingresearch.org/xpt）】。</li>
+</ul>
+<h2 id="6">6. 結論</h2>
+<ol>
+<li>【計算結果】Ord推定を年率化し危険の時代τ=200年と置くと、1万年生存確率は 0.54〜0.66（不確実性の解釈・介入により変動）。</li>
+<li>【独自仮説・支持】長期的には「強度」と「期間」の削減は等価、100年スケールでは強度削減が4.9ポイント優位。</li>
+<li>【独自仮説・条件付き棄却】不確実性が存続確率を上げるか下げるかは、推定値が中央値か平均かで反転する。</li>
+<li>【推測】10万年超の存続には自然リスクの床（=地球単一拠点への依存）の低減が必要になる可能性があるが、床の真値に強く依存する。</li>
+</ol><footer><hr><small>自動生成</small></footer></body></html>

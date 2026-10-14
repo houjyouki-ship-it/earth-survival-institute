@@ -1,0 +1,34 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>設立計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="earth-survival-institute">地球存続研究所（Earth Survival Institute）設立計画</h1>
+<h2 id="_1">目的</h2>
+<p>地球上の生命・人類文明・人類が生んだ知性の絶滅を阻止し、可能な限り長期の存続確率を高めるための、<strong>検証可能な</strong>知見を蓄積する。</p>
+<h2 id="_2">研究方針</h2>
+<ol>
+<li>脅威を時間軸（直近100年／1万年／10億年以上）で分類し、文献推定値と不確実性を明示する（<code>threats/taxonomy.md</code>）。</li>
+<li>課題は「重要度 × 扱いやすさ（計算機で検証可能か）× 未解決度」で優先順位を付ける（<code>priorities.md</code>）。</li>
+<li>各回で必ず1つ以上、再現可能な成果物（乱数シード固定のスクリプト＋出力＋図）を作る。</li>
+<li>独自仮説は反証可能な形で書き、同じ回のうちに数値で検証し、棄却された結果も残す。</li>
+<li>外部への操作は公開情報の閲覧のみ。実験は計算機シミュレーションのみ。</li>
+</ol>
+<h2 id="_3">ディレクトリ構成</h2>
+<pre><code>README.md            本計画
+threats/taxonomy.md  存続リスク分類表（出典・不確実性つき）
+priorities.md        研究課題候補と優先順位
+research/NNN-slug/   各研究（report.md, *.py, results.json, fig_*.png）
+open_problems.md     未解決問題リスト（各回で更新）
+next_plan.md         次回計画
+log.md               実施記録（回ごとに追記）
+</code></pre>
+<h2 id="_4">毎回の研究サイクル</h2>
+<ol>
+<li><code>log.md</code>・<code>next_plan.md</code>・<code>open_problems.md</code>・直近の <code>research/*/report.md</code> を読む。</li>
+<li>前回スクリプトを再実行し、<code>results.json</code> が再現することを確認する。</li>
+<li>文献を調べ、URLを実際に開けたものだけ引用する。</li>
+<li>仮説 → シミュレーション → 批判的検証（感度分析・反例探索）。</li>
+<li>成果物を保存し、open_problems / next_plan / log を更新する。</li>
+</ol>
+<h2 id="_5">記述ルール</h2>
+<ul>
+<li>すべての主張にラベルを付ける：<strong>【事実（出典）】</strong> 実在確認した文献に書かれていること／<strong>【推測】</strong> 筆者の判断・外挿／<strong>【独自仮説】</strong> 本研究所が提案し検証対象とする命題。</li>
+<li>数値は出典か <code>results.json</code> のどちらかに遡れること。捏造しない。</li>
+<li>「〜が重要だ」式の一般論のみの段落は書かない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
