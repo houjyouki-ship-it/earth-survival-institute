@@ -43,4 +43,13 @@
 <li>研究005を実施：<code>research/005-nuclear-winter-bottleneck/</code>（sim.py seed 20261014、約2.5秒）→ results.json, fig_population_calories.png, fig_r_and_delta.png, fig_r_star_scan.png, report.md, stdout.txt。別ディレクトリ再実行で runtime_seconds 以外は一致。</li>
 <li>主要数値：飢餓死者割合 3.8%（5 Tg）〜79.7%（150 Tg）。r_yield_95 = 4.4〜22年。150 Tg の1600 kcal超代理 = 7.2年（ALLFED 6.5年に近い）。δ_cap(150)=9.0、δ_frag(150)=3.93。E_extinct（&lt;5000）・E_collapse（&lt;10%P0）は全シナリオで否。</li>
 <li>研究004接続：加法回復の符号反転点 r* を (50, 75)年に狭めた。H11 支持（r≪50、S(1e4)相対変化最大+1.6%）。H12 支持（δ_cap(150)=9≥2）。</li>
+</ul>
+<h2 id="6-2026-10-14">第6回 2026-10-14</h2>
+<ul>
+<li>研究005を再実行。<code>/tmp/rep005</code> との比較で results.json は runtime_seconds 以外一致。</li>
+<li>文献再確認：Xia Nature Food ページ、XPT 概要、ALLFED preprint を本回 curl で取得（200）。数値は研究004/005の検証済み入力を再利用。</li>
+<li>研究006を実施：<code>research/006-lethal-shock-delta-k/</code>（sim.py seed=20261014, N=30,000, ~6.5秒）→ results.json, fig_S_vs_phi.png, fig_P_endpoints_vs_phi.png, fig_delta_k_multipliers.png, report.md, stdout.txt。<code>/tmp/rep006</code> 再実行で runtime 以外一致。</li>
+<li>モデル：減衰共通ショック＋要因別 δ_k（war/bio/tech）＋致死割合 φ（Xia 飢死割合）。E[S(100)]=5/6 再較正。終端：S_ord / S_joint / E_extinct / E_collapse。</li>
+<li>主要数値：S_noshock(1e4)=0.5625。代表（λ0=1,δ=2,r=20,factor）S_joint(1e4)=0.5692（φによらず）。uniform 対照 0.5776。全格子で非致死が基線より S を上げる。P(E_extinct)=0（全格子）、P(E_collapse)≤2.3e-4。</li>
+<li>判定：H13 <strong>条件付き棄却</strong>（前提不成立：r=10–20 では非致死δが S を下げない。致死追加低下≈0）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,120 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究006：致死ショック＋要因別 δ_k - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="006-_k">研究006：致死ショック＋要因別 δ_k</h1>
+<p>再現：<code>cd research/006-lethal-shock-delta-k &amp;&amp; python3 sim.py &gt; stdout.txt</code>（seed=20261014、N=30,000、所要約6.5秒、要 numpy/matplotlib）→ <code>results.json</code>, <code>fig_S_vs_phi.png</code>, <code>fig_P_endpoints_vs_phi.png</code>, <code>fig_delta_k_multipliers.png</code>。<code>/tmp/rep006</code> で再実行し、<code>results.json</code> の差は <code>runtime_seconds</code> のみ（数値一致）。</p>
+<p>位置づけ：研究005の Xia 型人口致死モジュールと研究004の減衰共通ショック（非致死・脆弱化）を結合し、要因別 δ_k と致死割合 φ を入れたモンテカルロである。仮説 H13 は実行前に <code>sim.py</code> 冒頭へ記載した（第三者タイムスタンプはない）。</p>
+<h2 id="0">0. 入力と終端定義</h2>
+<h3 id="_1">文献（本回実際に開いたもの）</h3>
+<ul>
+<li>【事実（Xia et al. 2022, Nature Food）】https://www.nature.com/articles/s43016-022-00573-0 ：煤シナリオの飢餓人口・P0=67億（研究005で Table1 から導いた飢死割合 3.8%〜79.7% を再利用）。</li>
+<li>【事実（XPT 概要）】https://forecastingresearch.org/xpt ：大災害→絶滅の中央値比帯の参照（研究004の q_ext/cat：超予測者合計≈1/9.05、専門家合計=6/20=0.30）。H13 の φ 帯〜0.02–0.3 の根拠。</li>
+<li>【事実（ALLFED preprint）】https://allfed.info/images/pdfs/PREPRINT%201%20-%20integrated%20assessment%20paper%20ALLFED.pdf ：150 Tg 回復時間の文脈（研究005の r_yield 較正と整合）。本回は数値を再推定せず 005 の r_yield_95 を人口回復に使用。</li>
+<li>二次入力：<code>research/004-common-shock-copula/results.json</code>（Ord 表・I_add・較正）、<code>research/005-nuclear-winter-bottleneck/results.json</code>（δ_frag(150)≈3.93、死者割合）。</li>
+</ul>
+<h3 id="ord-ord-2020-61004">Ord 要因（【事実】Ord 2020 表6.1・研究004と同値）</h3>
+<p>unaligned_AI 1/10、engineered_pandemics 1/30、unforeseen_anthropogenic 1/30、other_anthropogenic 1/50、nuclear_war 1/1000、climate_change 1/1000、other_environmental 1/1000。自然床 H_NAT=1/87,000（Snyder-Beattie 上限、研究001–004と同型）。人為 B は各格子で E[S(100)]=5/6 になるよう再較正。</p>
+<h3 id="_k">ショック種別と δ_k【独自仮説・事前登録】</h3>
+<p>減衰共通ショック λ(t)=λ0 e^{-t/τ}（τ=200）。種別混合 w_war=0.4, w_bio=0.3, w_tech=0.3。倍率行列は <code>fig_delta_k_multipliers.png</code> および <code>sim.py</code> 冒頭（戦争→核1.0、パンデミック→バイオ1.0、技術連鎖→AI1.0 など）。自然リスクは増幅しない。対照：全要因を均等増幅する uniform δ。</p>
+<h3 id="_2">致死 φ【独自仮説】</h3>
+<p>確率 φ で Xia 型一括人口打撃（重症度混合：5/16/27/37/47/150 Tg を 0.05/0.10/0.25/0.25/0.20/0.15）。打撃後も δ 脆弱化を適用し、人口はシナリオ別 r_yield で P0 へ回復。1−φ は非致死（δ のみ）。</p>
+<h3 id="_3">終端</h3>
+<table>
+<thead>
+<tr>
+<th>記号</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ord E1 / S_ord</td>
+<td>ハザード積分生存（較正済み）</td>
+</tr>
+<tr>
+<td>S_joint</td>
+<td>S_ord × 1_{P≥5000}（絶滅経路を同時に落とす）</td>
+</tr>
+<tr>
+<td>E_extinct</td>
+<td>P&lt;5000（XPT）</td>
+</tr>
+<tr>
+<td>E_collapse</td>
+<td>P&lt;0.1·P0【独自仮説】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="1">1. モデルと格子</h2>
+<p>加法回復：要因 k の乗数 (M_k(t)=1+\delta\sum_j m_{\mathrm{type}_j,k}\,e^{-(t-s_j)/r})。各 B_k を Ord 周辺に合わせたのち、共通スケール α で E[S(100)]=5/6。格子：λ0∈{0.3,1.0}/世紀、δ∈{1, 2, δ_frag150≈3.93}、r∈{10,20}年、φ∈{0,0.02,0.05,0.1,0.2,0.3}、mode∈{factor,uniform}。</p>
+<h2 id="2-resultsjson">2. 主要数値【計算・results.json のみ】</h2>
+<p>ショックなし解析値：S(100)=<strong>0.8333</strong>、S(1000)=<strong>0.6257</strong>、S(1e4)=<strong>0.5625</strong>。</p>
+<p>代表セル（いずれも S(100)=0.8333 に較正済み）：</p>
+<table>
+<thead>
+<tr>
+<th>セル</th>
+<th>S_ord(1e4)=S_joint(φ=0)</th>
+<th>S_joint(φ=0.3)</th>
+<th>P_ext(φ=0.3)</th>
+<th>P_col(φ=0.3)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>λ0=1, δ=2, r=20, factor</td>
+<td><strong>0.5692</strong></td>
+<td>0.5692</td>
+<td>0</td>
+<td><strong>0.00023</strong></td>
+</tr>
+<tr>
+<td>同上 uniform</td>
+<td><strong>0.5776</strong></td>
+<td>0.5776</td>
+<td>0</td>
+<td>0.00020</td>
+</tr>
+<tr>
+<td>λ0=0.3, δ=2, r=20, factor</td>
+<td><strong>0.5645</strong></td>
+<td>0.5645</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>λ0=1, δ_frag150, r=20, factor</td>
+<td><strong>0.5745</strong></td>
+<td>0.5745</td>
+<td>0</td>
+<td>0.00013</td>
+</tr>
+<tr>
+<td>λ0=1, δ=2, r=10, factor</td>
+<td><strong>0.5672</strong></td>
+<td>0.5672</td>
+<td>0</td>
+<td>0.00013</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>全格子で非致死（φ=0）の S_joint(1e4) は基線 0.5625 より<strong>高い</strong>（最大でも uniform δ=2 で ≈0.578）。r≪r*∈(50,75) の Jensen/回復効果（004/005）と同型。</li>
+<li>要因別 δ_k は均等増幅より長期 S をやや低くする（例：0.569 vs 0.578）が、差は小さい。</li>
+<li><strong>E_extinct は全格子・全 φ で 0</strong>。単発 Xia 打撃では 150 Tg でも生存率≈20%（≈13億人）で、減衰ショックの期待回数≈2（λ0=1・1万年）では絶滅閾値に届かない（005と整合）。</li>
+<li><strong>E_collapse</strong> は最大でも ≈2.3×10^{-4}（複数重症の稀な重なり）。φ を上げても S_joint の追加低下は <strong>0</strong>（max_addon=0）。</li>
+</ul>
+<h2 id="3-h13">3. H13 判定：条件付き棄却</h2>
+<p>登録文：φ∈[~0.02,0.3] なら、非致死δのみに対する S_joint(1e4) の追加低下 ≤ その非致死δがショックなしから落とした幅。</p>
+<ul>
+<li>前件「非致死δが基線から落とす」が <strong>24/24 格子で偽</strong>（すべて上昇）。</li>
+<li>致死追加低下は ≈0 で「致死が非致死より害が大きい」状況にはないが、登録不等式の比較対象（非致死の低下幅）が存在しない。</li>
+<li>したがって <strong>条件付き棄却（前提不成立）</strong>。精神（致死アドオンが非致死δ効果を超えて支配しない）には反しないが、事前登録の含意としては支持できない。</li>
+</ul>
+<h2 id="4">4. 批判的限界</h2>
+<ol>
+<li>ショック期待回数が少なく、Xia 単発では E_extinct が構造的にほぼ起きない。制度崩壊や地域分断は未モデル。</li>
+<li>種別→要因の倍率と w_type・重症度混合はすべて【独自仮説】。</li>
+<li>S_joint は絶滅のみをハザード生存に掛け合わせる。E_collapse を失敗に含めると定義が変わる。</li>
+<li>r∈{10,20} のみ。恒久乗法や r&gt;r* では非致死が S を下げる可能性があり、そのとき H13 を再検定すべき。</li>
+<li>Ord 存続破局と人口閾値は別概念の併記であり、同一視していない。</li>
+</ol>
+<h2 id="5-1">5. 結論（1段落）</h2>
+<p>005の人口致死と004の共通ショックを要因別 δ_k と致死割合 φ で結合すると、較正後の長期 Ord 生存は非致死の回復つき脆弱化が支配し（S(1e4)≈0.56–0.58）、XPT 比帯の φ を載せても Xia 型打撃では絶滅は起きず崩壊も稀で、S_joint の追加低下は実質ゼロである。H13は「非致死が既に落とす幅」を前提とするため、本格子（r≪r*）では前提不成立として条件付き棄却する。次は r&gt;r* や恒久乗法での再検定、またはレジリエント食・地域分割による崩壊定義の感受性が課題となる。</p><footer><hr><small>自動生成</small></footer></body></html>

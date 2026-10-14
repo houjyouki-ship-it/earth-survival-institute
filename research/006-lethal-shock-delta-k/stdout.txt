@@ -1,0 +1,48 @@
+=== 006 lethal-shock-delta-k ===
+seed=20261014 N=30000 runtime=6.5s
+S_noshock_1e4=0.5625
+H13 verdict: 条件付き棄却
+前提不成立: 全格子で非致死δ（r=10–20≪r*）が S_joint(1e4) を基線から下げずむしろ上げる（004/005同型）。致死φ帯の追加低下は≈0（E_extinct≈0、E_collapseは最大でもごく小）で『致死が支配的』ではないが、登録した『追加低下≤非致死が落とした幅』は前件が空のため支持できない。
+n_nl_raises_S=24 n_nl_drops_S=0 max_addon=0.0000
+
+lam1.0_d2.0_r20.0_factor:
+  φ=0.0: S_joint_1e4=0.5692 S_ord=0.5692 P_ext=0.0000 P_col=0.0000
+  φ=0.02: S_joint_1e4=0.5692 S_ord=0.5692 P_ext=0.0000 P_col=0.0000
+  φ=0.05: S_joint_1e4=0.5692 S_ord=0.5692 P_ext=0.0000 P_col=0.0000
+  φ=0.1: S_joint_1e4=0.5692 S_ord=0.5692 P_ext=0.0000 P_col=0.0000
+  φ=0.2: S_joint_1e4=0.5692 S_ord=0.5692 P_ext=0.0000 P_col=0.0000
+  φ=0.3: S_joint_1e4=0.5692 S_ord=0.5692 P_ext=0.0000 P_col=0.0002
+
+lam1.0_d2.0_r20.0_uniform:
+  φ=0.0: S_joint_1e4=0.5776 S_ord=0.5776 P_ext=0.0000 P_col=0.0000
+  φ=0.02: S_joint_1e4=0.5776 S_ord=0.5776 P_ext=0.0000 P_col=0.0000
+  φ=0.05: S_joint_1e4=0.5776 S_ord=0.5776 P_ext=0.0000 P_col=0.0000
+  φ=0.1: S_joint_1e4=0.5776 S_ord=0.5776 P_ext=0.0000 P_col=0.0000
+  φ=0.2: S_joint_1e4=0.5776 S_ord=0.5776 P_ext=0.0000 P_col=0.0001
+  φ=0.3: S_joint_1e4=0.5776 S_ord=0.5776 P_ext=0.0000 P_col=0.0002
+
+lam0.3_d2.0_r20.0_factor:
+  φ=0.0: S_joint_1e4=0.5645 S_ord=0.5645 P_ext=0.0000 P_col=0.0000
+  φ=0.02: S_joint_1e4=0.5645 S_ord=0.5645 P_ext=0.0000 P_col=0.0000
+  φ=0.05: S_joint_1e4=0.5645 S_ord=0.5645 P_ext=0.0000 P_col=0.0000
+  φ=0.1: S_joint_1e4=0.5645 S_ord=0.5645 P_ext=0.0000 P_col=0.0000
+  φ=0.2: S_joint_1e4=0.5645 S_ord=0.5645 P_ext=0.0000 P_col=0.0000
+  φ=0.3: S_joint_1e4=0.5645 S_ord=0.5645 P_ext=0.0000 P_col=0.0000
+
+lam1.0_d3.9300956585724784_r20.0_factor:
+  φ=0.0: S_joint_1e4=0.5745 S_ord=0.5745 P_ext=0.0000 P_col=0.0000
+  φ=0.02: S_joint_1e4=0.5745 S_ord=0.5745 P_ext=0.0000 P_col=0.0000
+  φ=0.05: S_joint_1e4=0.5745 S_ord=0.5745 P_ext=0.0000 P_col=0.0000
+  φ=0.1: S_joint_1e4=0.5745 S_ord=0.5745 P_ext=0.0000 P_col=0.0000
+  φ=0.2: S_joint_1e4=0.5745 S_ord=0.5745 P_ext=0.0000 P_col=0.0000
+  φ=0.3: S_joint_1e4=0.5745 S_ord=0.5745 P_ext=0.0000 P_col=0.0001
+
+lam1.0_d2.0_r10.0_factor:
+  φ=0.0: S_joint_1e4=0.5672 S_ord=0.5672 P_ext=0.0000 P_col=0.0000
+  φ=0.02: S_joint_1e4=0.5672 S_ord=0.5672 P_ext=0.0000 P_col=0.0000
+  φ=0.05: S_joint_1e4=0.5672 S_ord=0.5672 P_ext=0.0000 P_col=0.0000
+  φ=0.1: S_joint_1e4=0.5672 S_ord=0.5672 P_ext=0.0000 P_col=0.0000
+  φ=0.2: S_joint_1e4=0.5672 S_ord=0.5672 P_ext=0.0000 P_col=0.0001
+  φ=0.3: S_joint_1e4=0.5672 S_ord=0.5672 P_ext=0.0000 P_col=0.0001
+
+Wrote results to /workspace/earth-survival-institute/research/006-lethal-shock-delta-k

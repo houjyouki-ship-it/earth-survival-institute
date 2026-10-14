@@ -1,22 +1,19 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="6">次回（第6回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="7">次回（第7回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
 <li>README.md、log.md、open_problems.md、priorities.md</li>
-<li>research/005-nuclear-winter-bottleneck/{report.md, results.json, sim.py}</li>
-<li>まず <code>cd research/005-nuclear-winter-bottleneck &amp;&amp; python3 sim.py &gt; /tmp/o5.txt</code> を別ディレクトリで再実行し、results.json が runtime 以外一致することを確認（約3秒）。</li>
+<li>research/006-lethal-shock-delta-k/{report.md, results.json, sim.py}</li>
+<li>まず <code>cd research/006-lethal-shock-delta-k &amp;&amp; python3 sim.py &gt; /tmp/o6.txt</code> を別ディレクトリで再実行し、results.json が runtime 以外一致することを確認（約7秒）。</li>
 </ul>
-<h2 id="006-_kaiopen_problems-17-21">主課題：研究006「致死ショック＋要因別 δ_k：核の冬が核・AI・バイオハザードをどれだけ上げるか」（open_problems 17, 21）</h2>
-<ol>
-<li>研究005の人口モジュール（致死）と研究004の共通ショック（非致死・脆弱化）を結合：ショックの一部割合 φ が「Xia型の人口打撃」を起こし、残りは非致死の δ 増幅のみ。</li>
-<li>要因別 δ_k：戦争ショック → 核リスクを強く、バイオ・AI は弱く、など（感度グリッド）。写像は【独自仮説】として事前登録。</li>
-<li>終端を併記：E_extinct（&lt;5000）、E_collapse（&lt;10%P0）、Ord E1（ハザード積分）。</li>
-<li>事前登録候補 H13「φ が XPT 大災害→絶滅比程度（〜0.02–0.3）なら、S(1e4) への追加低下は非致死δモデルの効果と同程度以下」。</li>
-</ol>
-<h2 id="_2">予備課題（時間があれば）</h2>
-<ul>
-<li>研究004＋003の σ 重ね（open_problems 19）。</li>
-<li>レジリエント食オンの感度（open_problems 22）。</li>
-<li>r* の解析条件（open_problems 15）。</li>
-</ul>
+<h2 id="open_problems-1">主課題候補（open_problems から1つ選定）</h2>
+<p>優先候補 A：<em><em>研究007「r&gt;r</em> 領域での H13 再検定＋恒久乗法」**（open_problems 15, 23）
+1. 研究006格子は r∈{10,20}≪r</em> のため非致死δが S を上げ、H13 前提が空だった。
+2. r∈{75,100,200,∞}（恒久加法／乗法）で非致死が S(1e4) を基線から落とす領域を作り、φ帯で致死アドオンを再測。
+3. 事前登録 H13b：その領域では addon ≤ non-lethal drop が成り立つ、など。</p>
+<p>優先候補 B：<strong>レジリエント食感度</strong>（open_problems 22）— ALLFED を005人口モジュールに入れ δ_frag・r・H11 の変化。
+優先候補 C：<strong>σ 重ね</strong>（open_problems 19）— 004共通ショック×003の認識的不確実性。
+優先候補 D：<strong>地域人口</strong>（open_problems 20）— Xia 国別入力で E_collapse 定義の感受性。</p>
+<h2 id="_2">推奨</h2>
+<p>第6回の直接の穴埋めとして <em><em>A（H13b / r&gt;r</em>）</em>* を主課題とする。時間があれば B を短く併記。</p>
 <h2 id="_3">成果物</h2>
-<p>research/006-lethal-shock-delta-k/ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/007-.../ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>

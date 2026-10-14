@@ -1,4 +1,7 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="5">未解決問題（第5回時点）</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="6">未解決問題（第6回時点）</h1>
+<p>解決・縮小したもの（第6回）：
+- 17. 要因別 δ_k とショック致死性の結合：研究006で実装。factor vs uniform の S(1e4) 差は小（例 0.569 vs 0.578）。Xia 型 φ∈[0,0.3] では E_extinct=0、E_collapse≤2.3e-4、S_joint 追加低下≈0。H13 は前提不成立で条件付き棄却。
+- 21. δ_cap/δ_frag→004δ の写像：006で δ_frag150≈3.93 を加法δ格子に入れて動作確認。関数形の事前登録検証はなお粗い（同一性仮定はしていない）。</p>
 <p>解決・縮小したもの（第5回）：
 - 3 / 9. 脆弱化 δ・回復時間 r の下からの推定：Xia 2022 の煤量シナリオで r_yield_95∈[4.4,22]年、δ_cap(150)=9、δ_frag(150)=3.93（研究005）。人口&lt;5000 には至らない。
 - 15. 脆弱化の符号反転点 r*：研究004の加法モデルを再スキャンし、調べた (λ₀,δ) すべてで <strong>(50, 75)年</strong>（研究005）。</p>
@@ -6,24 +9,26 @@
 <ol>
 <li>Ord の1/6のような個人推定は、自分の主観分布の中央値なのか平均なのか。XPTの個人別回答分布（公開データがあれば）から、集団の平均と中央値の比を取れるか。— 第3回：平均較正版ではS(1e4)≈0.55でσ依存がほぼ消えることを確認。個人データの取得は未着手。</li>
 <li>h0–τ 相関の<strong>符号</strong>を決める手がかり：過去の技術リスクで「強度」と「制御までの期間」の関係を示すデータはあるか。</li>
-<li><strong>脆弱化パラメータ δ</strong> と発生率 <strong>c</strong>：第5回で核の冬由来の下界（δ_cap, δ_frag）と r を得た。他要因（パンデミック大災害、気候災害）での較正、学習による減少モデルは未着手。</li>
+<li><strong>脆弱化パラメータ δ</strong> と発生率 <strong>c</strong>：第5–6回で核の冬由来の下界と要因別δ_k・致死結合を実施。他要因（パンデミック大災害、気候）での較正、学習による減少モデルは未着手。</li>
 <li>（旧4と統合）大災害／絶滅比の回答者ごとの分布。</li>
 <li>H4の符号反転条件は指数減衰以外でも成り立つか。第3回で構造比較はしたが、ρスキャンの再実行は未了。新h₀換算の反転点も未再探索。</li>
 <li>新リスクの振幅が既存リスクの強さと連動すると ρ効果がほぼ消えた（研究002）。連動の度合いをパラメータ化して事前登録で検証する。</li>
 <li>強度削減と期間短縮の費用関数（001 H2 の非自明部分）— 未着手。</li>
 <li>自然ハザードの真の床（1/87,000〜1/870,000 以下）を幅のあるシナリオにする — 未着手（査読2.2）。</li>
-<li>大規模死者（Xia 2022）から「回復不能な崩壊」確率への写像。— 第5回：人口閾値（5000 / 10%P0）では全シナリオ非絶滅。制度崩壊→存続破局の別写像は未着手。</li>
-<li>リスク間相関（AI・バイオ・核）：第4回でOrd表からは識別不能・長期への幅を定量化。要因別 δ_k は未実施。</li>
+<li>大規模死者（Xia 2022）から「回復不能な崩壊」確率への写像。— 第5–6回：人口閾値ではほぼ非絶滅。制度崩壊→存続破局の別写像は未着手。</li>
+<li>リスク間相関（AI・バイオ・核）：第4回でOrd表からは識別不能。第6回で要因別δ_kを入れたが、経験的相関の識別は未了。</li>
 <li>生物人類と独立した「知性」の存続経路のリスクが文献上ほぼ未定量。</li>
 <li>【新規・第3回】多状態終端（絶滅／不可逆崩壊／知性消滅）と、反復災害＋終端の共有フレイルティ（Liu et al. 2004 型）。全文PDFの取得と実装。</li>
 <li>【新規・第3回】dt収束比較を共通乱数のペア差でやり直し、信頼区間を出す（査読2.6）。</li>
 <li>【新規・第3回】指数減衰以外（べき減衰・一定成分の混合）での「危険の時代」仮説の評価 — Thorstad 批判との接続。</li>
-<li>脆弱化の符号反転点 r* — 第5回で (50,75)年に縮小。τ・λ₀ 依存の解析式は未了。</li>
+<li>脆弱化の符号反転点 r* — 第5回で (50,75)年に縮小。τ・λ₀ 依存の解析式は未了。<em><em>第7回候補：r&gt;r</em> または恒久乗法で H13 を再検定。</em>*</li>
 <li>【新規・第4回】一定ショック率モデルで、経路境界 λln(1+δ)=1/τ のすぐ下での収束の遅さ（T=1e5でも未収束）。境界での漸近挙動の解析。</li>
-<li>【新規・第4回】要因別 δ_k（戦争→核リスクが強く上がる、など）と、ショック自体の致死性（大災害の一部が存続破局になる）を入れたモデル。— 第5回は核の冬の人口致死を別モジュールで扱い、004のショックは非致死のまま接続。</li>
+<li>要因別 δ_k＋致死 — 第6回で主実施。残：倍率の経験的較正、E_collapse を S に含める定義、ショック率を上げたときの積み上げ致死。</li>
 <li>【新規・第4回】Ord『The Precipice』本文で要因の合算（1/6）がどう説明されているかの一次確認。</li>
 <li>【新規・第4回】研究004に研究003の認識的不確実性（σ）を重ねたとき、共通ショックの効果と H1 型の中央値／平均の問題がどう相互作用するか。</li>
 <li>【新規・第5回】地域分割・貿易停止を動的に残した人口モデル（Xiaの国別 Table を入力）で、E_collapse の定義を変えたときの感受性。</li>
-<li>【新規・第5回】δ_cap / δ_frag を研究004の乗法δへ写す関数形の事前登録検証（現状は同一性を仮定していない）。</li>
+<li>δ_cap/δ_frag→乗法δ 写像 — 第6回で格子投入。関数形の事前登録（例：δ_mult=f(δ_frag)）は未了。</li>
 <li>【新規・第5回】レジリエント食（ALLFED）を入れたときの δ_frag・r の変化と、H11 の頑健性。</li>
+<li>【新規・第6回】H13 を r&gt;r*（または恒久乗法）で再登録：非致死が実際に S を下げる領域での致死アドオン比較。</li>
+<li>【新規・第6回】期待ショック数を増やしたとき（λ0 大・τ大・一定率）の積み上げ致死と E_extinct 感受性。</li>
 </ol><footer><hr><small>自動生成</small></footer></body></html>
