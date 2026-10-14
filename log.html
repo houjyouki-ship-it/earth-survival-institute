@@ -35,4 +35,12 @@
 <li>研究004を実施：<code>research/004-common-shock-copula/</code>（sim.py seed 20261014、約13秒、results.json は別ディレクトリ再実行でバイト一致）→ fig_union_correlation.png, fig_longterm_thresholds.png, report.md, stdout.txt。</li>
 <li>主要数値：Ord各行の独立合算 0.1785（1 in 5.6、「~1 in 6」の丸め幅内）。ちょうど1/6にするガウスコピュラ ρ≈0.206。減衰共通ショックで1/6を再現する組（λ₀=1,δ=2／λ₀=3,δ=1）では S(1e4)=0.38／0.21（ショックなし0.5625）。回復時間 r≤50年では逆に S(1e4) が 0.564〜0.585 に上がる。一定ショック率では生存の境界が平均条件 λδ&lt;1/τ ではなく経路条件 λln(1+δ)&lt;1/τ で決まる（δ=1, λ=0.611/世紀で平均ハザードは増大するが S は0.122で頭打ち）。</li>
 <li>判定：H7a 支持、H7b 棄却（登録範囲で最大低下0.036）、H7c 恒久乗法で支持・回復つきでは符号反転、H8' 棄却（専門家/超予測者のq比は最大3.7倍）、H10 支持（境界のすぐ下は未収束で留保）。</li>
+</ul>
+<h2 id="5-2026-10-14">第5回 2026-10-14</h2>
+<ul>
+<li>研究004を <code>/tmp/rep004</code> で再実行（約14秒）。results.json はバイト一致。</li>
+<li>文献：Xia et al. 2022（Nature Food 本文・UCAR PDF・補足PDF）を取得して Table 1・Table 2・作物カロリー記述を確認。ALLFED preprint（レジリエント食・6.5年で1600 kcal超）を取得して本文確認。</li>
+<li>研究005を実施：<code>research/005-nuclear-winter-bottleneck/</code>（sim.py seed 20261014、約2.5秒）→ results.json, fig_population_calories.png, fig_r_and_delta.png, fig_r_star_scan.png, report.md, stdout.txt。別ディレクトリ再実行で runtime_seconds 以外は一致。</li>
+<li>主要数値：飢餓死者割合 3.8%（5 Tg）〜79.7%（150 Tg）。r_yield_95 = 4.4〜22年。150 Tg の1600 kcal超代理 = 7.2年（ALLFED 6.5年に近い）。δ_cap(150)=9.0、δ_frag(150)=3.93。E_extinct（&lt;5000）・E_collapse（&lt;10%P0）は全シナリオで否。</li>
+<li>研究004接続：加法回復の符号反転点 r* を (50, 75)年に狭めた。H11 支持（r≪50、S(1e4)相対変化最大+1.6%）。H12 支持（δ_cap(150)=9≥2）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
