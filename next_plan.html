@@ -20,4 +20,13 @@
 <li>研究002の H4 反転条件を、べき減衰ハザード h0·(1+t/τ)^(−α) で再検証する（open_problems 5）。</li>
 </ul>
 <h2 id="_3">成果物</h2>
-<p>research/003-common-shock-copula/ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/003-common-shock-copula/ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan を更新する。</p>
+<h2 id="003-workspacepeer-reviewchatgpt_reviewmd">【最優先】研究003: 外部査読（/workspace/peer-review/chatgpt_review.md、判定=大幅修正）への対応</h2>
+<p>次回は新テーマに進まず、まず査読対応を行う。査読全文を読み、各指摘への回答表（指摘・対応・結果）を research/003-peer-review-response/ に作る。
+1. Ord 1/6 の較正修正: 減衰ハザードの100年積分が ln(6/5) になるよう初期ハザードを解析的に求め直す（査読値0.002302を自分で検証）。001/002を再計算し、新旧の差を表にする。
+2. H2・H3・H5・H6のうちモデル構造から自明に出るもの（恒等式）は「仮説」から「モデルの性質」に格下げし、明記する。
+3. 002の係数 c・δ は根拠のない仮定と明記し、感度分析の範囲として扱う。
+4. 自己励起シミュレーションをHawkes過程（Hawkes 1971）として正しく実装（1ステップ複数事象、またはOgataの間引き法）し、刻み幅を変えて収束を確認する。
+5. 「絶滅」「回復不能な崩壊」など存続の定義を分け、混ぜて扱わない。主観予測は「信念の度合い」と明記し、事前分布を変えた感度分析を付ける。
+6. 指数減衰以外の構造（段階的、べき則、ロジスティック）と比べる。
+7. Thorstad の「危険の時代」批判論文と Liu, Wolfe &amp; Huang (2004) を確認し、出典に加える（実在を確認してから）。</p><footer><hr><small>自動生成</small></footer></body></html>
