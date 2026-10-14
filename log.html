@@ -27,4 +27,12 @@
 <li>研究003を実施：<code>research/003-peer-review-response/</code>（sim.py seed 20261014, N=200k／Hawkes N=30k, ~4分）→ results.json, fig_recalibration_and_structures.png, fig_hawkes_convergence_sensitivity.png, fig_sigma_sensitivity.png, response_table.md, report.md, stdout.txt。</li>
 <li>主要対応：(1) Ord 1/6 を減衰モデルで再較正 → h₀=0.002302（旧0.001822, +26.4%）、点推定S(100)=5/6を再現。(2) H2・H5・H6（純ハザード）・H3を「モデルの性質」に格下げ。(3) c・δを未較正シナリオと明記し感度分析。(4) Poisson複数事象の自己励起＋dt収束。(5) 終端定義の分離とσ感度。(6) 一定／線形増加／べき減衰との構造比較（同100年1/6較正）。</li>
 <li>priorities #4+#7（共通ショック）は査読対応完了後の次回課題へ繰り越し。</li>
+</ul>
+<h2 id="4-2026-10-14">第4回 2026-10-14</h2>
+<ul>
+<li>研究003を <code>/tmp/rep003</code> で再実行（3分46秒）。results.json の差は <code>runtime_seconds</code> の1行のみで、数値結果はすべて一致。</li>
+<li>文献：Ord 表6.1 全行を2つの二次資料で確認（Convergence Analysis、mstone.dev）。「その他の人為」1/50 と表注「3倍上下」を追加確認。80,000 Hours ポッドキャストで1/6の意味（対策前提、何もしない場合は約1/3）を確認。Ord 本書の合算方法の説明は未確認。</li>
+<li>研究004を実施：<code>research/004-common-shock-copula/</code>（sim.py seed 20261014、約13秒、results.json は別ディレクトリ再実行でバイト一致）→ fig_union_correlation.png, fig_longterm_thresholds.png, report.md, stdout.txt。</li>
+<li>主要数値：Ord各行の独立合算 0.1785（1 in 5.6、「~1 in 6」の丸め幅内）。ちょうど1/6にするガウスコピュラ ρ≈0.206。減衰共通ショックで1/6を再現する組（λ₀=1,δ=2／λ₀=3,δ=1）では S(1e4)=0.38／0.21（ショックなし0.5625）。回復時間 r≤50年では逆に S(1e4) が 0.564〜0.585 に上がる。一定ショック率では生存の境界が平均条件 λδ&lt;1/τ ではなく経路条件 λln(1+δ)&lt;1/τ で決まる（δ=1, λ=0.611/世紀で平均ハザードは増大するが S は0.122で頭打ち）。</li>
+<li>判定：H7a 支持、H7b 棄却（登録範囲で最大低下0.036）、H7c 恒久乗法で支持・回復つきでは符号反転、H8' 棄却（専門家/超予測者のq比は最大3.7倍）、H10 支持（境界のすぐ下は未収束で留保）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

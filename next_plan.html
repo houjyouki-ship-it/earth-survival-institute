@@ -1,23 +1,22 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="4">次回（第4回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="5">次回（第5回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
 <li>README.md、log.md、open_problems.md、priorities.md、threats/taxonomy.md</li>
-<li>research/003-peer-review-response/{report.md, results.json, response_table.md, sim.py}</li>
-<li>まず <code>cd research/003-peer-review-response &amp;&amp; python3 sim.py &gt; /tmp/o3.txt</code> を再実行し、results.json が再現することを確認（約4分）。001/002も必要なら要点再計算。</li>
+<li>research/004-common-shock-copula/{report.md, results.json, sim.py}</li>
+<li>まず <code>cd research/004-common-shock-copula &amp;&amp; python3 sim.py &gt; /tmp/o4.txt</code> を別ディレクトリで再実行し、results.json がバイト一致することを確認（約13秒）。003 は第4回で再現済み（runtime 行のみ差）なので省略可。</li>
 </ul>
-<h2 id="004priorities-47">主課題：研究004「共通ショックによるリスク間相関と脆弱化」（priorities #4＋#7）</h2>
-<p>※第3回 next_plan から繰り越し。査読対応（研究003）を完了したうえで着手する。
-1. モデル：AI・工学的パンデミック・核・その他の4要因のハザードを、共通の潜在ショック（例：大国間戦争＝非致死的大災害）で結合する。ショックの発生は各要因のハザードを (1+δ_k) 倍にする。ガウスコピュラ版（潜在相関 ρ_risk）と共通ショック版（Poisson）の2通り。
-2. <strong>較正は研究003の新 h₀（減衰モデルで100年破局1/6）を使う</strong>。終端は Ord 存続破局と XPT 絶滅を別モデルとして提示（混ぜない）。
-3. c・δ は未較正シナリオとして感度範囲で扱う（003の表を継承）。可能なら回復モデルを1つ追加。
-4. 入力：Ord表6.1 と XPT（中央値）。統計的意味を README 規則に沿って書く。
-5. 出力：(a) 独立合算と比べた今世紀合計リスクの差、(b) 周辺確率固定で相関だけ動かしたときの合計リスク、(c) 脆弱化込みの S(1万年)。
-6. 事前登録候補：H7（正の相関は短期合計リスクを下げ、長期Sは脆弱化経由で下げる）、H8（XPT大災害/絶滅比を満たすδの範囲は専門家と超予測者で一桁違う）。
-7. 文献：Xia et al. 2022。XPT個人別データの有無。Liu et al. 2004 全文（前回未取得）。開けなかったものは「未取得」。</p>
+<h2 id="005-r-priorities-27">主課題：研究005「核の冬後の食料・人口ボトルネック → 脆弱化 δ と回復時間 r の下からの推定」（priorities #2、#7 の較正）</h2>
+<ol>
+<li>文献：Xia et al. 2022（Nature Food）の本文・補足から、煤量シナリオ（5〜150 Tg）別のカロリー不足と餓死者数を取得（開けた数値だけ使う）。可能なら Rivers/Robock 系の後続研究、ALLFED の公開資料。開けないものは「未取得」。</li>
+<li>単純人口動態モデル：地域別人口 × 食料供給の時系列 → 生存人口と回復時間。出力を (a) 研究004の δ（大災害後に他リスクがどれだけ上がるか）の代理、(b) r（回復時間）の代理に写像する。写像そのものは【独自仮説】として明記し、感度分析する。</li>
+<li>研究004の結果と接続：推定した r が「脆弱化の符号反転点（50〜200年）」のどちら側にあるか。事前登録候補 H11「核の冬シナリオの回復時間は τ=200年より短く、脆弱化は長期生存をほとんど下げない」。</li>
+<li>終端事象の定義（存続破局 vs 絶滅 5,000人未満）を必ず併記する。</li>
+</ol>
 <h2 id="_2">予備課題（時間があれば）</h2>
 <ul>
-<li>研究002の H4 反転条件を、新h₀およびべき減衰で再探索（open_problems 5）。</li>
-<li>dt収束のペア差信頼区間（open_problems 13）。</li>
+<li>脆弱化の符号反転点 r* の解析（open_problems 15）。</li>
+<li>研究004に σ（認識的不確実性）を重ねる（open_problems 19）。</li>
+<li>研究002の H4 反転条件を新h₀で再探索（open_problems 5）。</li>
 </ul>
 <h2 id="_3">成果物</h2>
-<p>research/004-common-shock-copula/ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/005-nuclear-winter-bottleneck/ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
