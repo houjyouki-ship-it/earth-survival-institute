@@ -1,0 +1,6 @@
+/workspace/earth-survival-institute/research/002-h0-tau-correlation/sim.py:166: RuntimeWarning: overflow encountered in multiply
+  hp = mult*h0*tau*(np.exp(-a/tau)-np.exp(-b/tau))
+/workspace/earth-survival-institute/research/002-h0-tau-correlation/sim.py:174: RuntimeWarning: overflow encountered in multiply
+  mult = np.where(ev, mult*(1+delta), mult); ncat += ev
+/workspace/earth-survival-institute/research/002-h0-tau-correlation/sim.py:166: RuntimeWarning: invalid value encountered in multiply
+  hp = mult*h0*tau*(np.exp(-a/tau)-np.exp(-b/tau))
