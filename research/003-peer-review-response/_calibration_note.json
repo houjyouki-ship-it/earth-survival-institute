@@ -1,0 +1,12 @@
+{
+  "verified_2026-10-14": true,
+  "tau": 200,
+  "h_nat": 1.1494252873563218e-05,
+  "h0_old_constant_hazard": 0.001821554520072044,
+  "h0_recalibrated_exp_decay": 0.002302239500722991,
+  "ratio_new_over_old": 1.2638872322262062,
+  "S100_old": 0.8654595890316991,
+  "S100_new": 0.8333333333333334,
+  "reviewer_claimed_h0": 0.002302,
+  "thorstad_pdf": "https://www.globalprioritiesinstitute.org/wp-content/uploads/David-Thorstad-Existential-risk-pessimism1.pdf"
+}
