@@ -1,15 +1,23 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="2">次回（第2回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="3">次回（第3回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>log.md, open_problems.md, research/001-time-of-perils/{report.md,results.json,sim.py}</li>
-<li>まず <code>python3 research/001-time-of-perils/sim.py</code> を再実行し results.json が一致することを確認。</li>
+<li>README.md（方法論規則）, log.md, open_problems.md, priorities.md, threats/taxonomy.md（A' XPT表）</li>
+<li>research/002-h0-tau-correlation/{report.md, results.json, sim.py}</li>
+<li>まず <code>cd research/002-h0-tau-correlation &amp;&amp; python3 sim.py &gt; /tmp/o.txt</code> を再実行（約3.5分）し、results.json がバイト一致することを確認。001も同様に確認。</li>
 </ul>
-<h2 id="_2">発展させること</h2>
+<h2 id="003priorities-47">主課題：研究003「共通ショックによるリスク間相関と脆弱化」（priorities #4＋#7）</h2>
 <ol>
-<li><strong>研究002：h0–τ 相関と増加型ハザード</strong>。sim.py を拡張し、(a) h0とτの相関係数ρ∈[−0.8,0.8]、(b) 新技術で一時的にハザードが上昇するパルス項、を導入。S(1万年)の感度を表にする。</li>
-<li><strong>リスク間相関</strong>（priorities #4）：Ord表6.1の各要素を共通ショック（例：大国間戦争）で結合したコピュラモデルを作り、独立合算1/6との差を出す。</li>
-<li>文献調査：XPTの最終推定値（専門家/超予測者別のAI・核・合計の数値）を本文から取得し、taxonomy.mdの直近100年欄に追記。Ord以外の第2の推定系列とする。</li>
-<li>H1の扱いを方法論規則としてREADMEに明文化（推定値の統計的意味を必ず記載）。</li>
+<li>モデル：AI・工学的パンデミック・核・その他の4要因のハザードを、共通の潜在ショック（例：大国間戦争＝非致死的大災害）で結合する。ショックの発生は各要因のハザードを (1+δ_k) 倍にする。ガウスコピュラ版（潜在相関 ρ_risk）と共通ショック版（Poisson）の2通りで作る。</li>
+<li>入力：Ord表6.1（存続破局）と XPT（絶滅・大災害の中央値、超予測者／専門家）の2系列。統計的意味（個人推定／中央値）を README の規則に沿って書く。</li>
+<li>出力：(a) 独立合算と比べた今世紀の合計リスクの差、(b) 「要因別の周辺確率を固定したまま」相関だけで合計リスクがどれだけ動くか、(c) 研究002の脆弱化モデルを要因別に拡張したときの S(1万年)。</li>
+<li>事前登録する仮説の候補：</li>
+<li>H7：要因別の周辺確率を固定すると、正の相関は今世紀の合計リスク（どれか1つが起きる確率）を<strong>下げる</strong>（重複が増えるため＝S(100)は上がる）。一方、脆弱化を入れた長期の S(1万年) は<strong>下げる</strong>（短期と長期で符号が逆になる）。</li>
+<li>H8：XPT の「大災害／絶滅」比を満たす共通ショックモデルの δ の範囲を逆算すると、δ は c=3.33（専門家）と c=9.05（超予測者）で一桁異なる。</li>
+<li>文献：Xia et al. 2022 の死者数シナリオを大災害の重みとして使えるか確認。XPTの個人別データが公開されているか調べる（あれば中央値と平均の比を出す）。開けなかったものは「未取得」と書く。</li>
 </ol>
+<h2 id="_2">予備課題（時間があれば）</h2>
+<ul>
+<li>研究002の H4 反転条件を、べき減衰ハザード h0·(1+t/τ)^(−α) で再検証する（open_problems 5）。</li>
+</ul>
 <h2 id="_3">成果物</h2>
-<p>research/002-*/ に report.md、sim.py、results.json、図2枚以上。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/003-common-shock-copula/ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>

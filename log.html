@@ -8,4 +8,14 @@
 <li>主要数値：S(100y)=0.826, S(1e4y)=0.545（不確実性込み）。H1 条件付き棄却、H2 支持、H3 留保つき支持。</li>
 <li>環境メモ：matplotlib を <code>pip install --user --break-system-packages</code> で導入。</li>
 <li>open_problems.md、next_plan.md を作成。</li>
+</ul>
+<h2 id="2-2026-10-14">第2回 2026-10-14</h2>
+<ul>
+<li>研究001を再実行し、results.json が既存とバイト単位で一致（<code>cmp</code> で差分なし）。</li>
+<li>文献：XPT報告書PDF（https://forecastingresearch.org/pdf/existential-risk-persuasion-tournament.pdf ）を取得して本文を読み、Table 1–3 の中央値（超予測者／領域専門家／一般x-risk専門家；AI・核・病原体・非人為・合計、絶滅と大災害）を threats/taxonomy.md の A' 表に追記。概要ページ https://forecastingresearch.org/xpt も確認。</li>
+<li>README に方法論規則を追記（推定値の統計的意味の明記、中央値は加算不可、事象定義の併記）。</li>
+<li>研究002を実施：sim.py（seed 20261014, N=200,000／脆弱化モデル N=100,000）→ results.json, fig_S_vs_rho.png, fig_pulse_sensitivity.png, fig_damage_model.png, stdout.txt。別ディレクトリで再実行して results.json がバイト一致することを確認。</li>
+<li>主要数値：S(1万年) = 0.594（ρ=−0.8）／0.545（ρ=0）／0.524（ρ=+0.8）。パルス A=h0, w=100 で S(1万年) 0.545→0.454。脆弱化モデル（c=3.33, δ=1）ではパルスなしの S(1万年) が 0.395。</li>
+<li>判定：H4 条件付き支持（h0 が Ord の約2.07倍を超えると符号反転）、H5 現象は支持・機構は棄却（効果は log(h0τ) の分散縮小による）、H6 純ハザードでは支持（自明）・脆弱化モデルでは「面積のみ」を棄却（同面積でも相対損失 17.6〜32.0%）。</li>
+<li>priorities.md を更新（#7 脆弱化を新設し、#4 と統合して第3回の課題に）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
