@@ -1,0 +1,176 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究005：核の冬後の食料・人口ボトルネック → δ・r の下からの推定 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="005-r">研究005：核の冬後の食料・人口ボトルネック → δ・r の下からの推定</h1>
+<p>再現：<code>cd research/005-nuclear-winter-bottleneck &amp;&amp; python3 sim.py &gt; stdout.txt</code>（seed=20261014、所要約2.5秒、要 numpy/matplotlib）→ <code>results.json</code>, <code>fig_population_calories.png</code>, <code>fig_r_and_delta.png</code>, <code>fig_r_star_scan.png</code>。<code>/tmp</code> の別ディレクトリで再実行し、<code>results.json</code> の差は <code>runtime_seconds</code> の1行のみ（数値結果は一致）。</p>
+<p>位置づけ：Xia 2022 の公開数値を入力にした<strong>単純</strong>人口・カロリーモデルと、研究004の回復つき脆弱化モデルへの写像である。現実の核戦争後の人口予測ではない【推測】。仮説 H11・H12 は実行前に <code>sim.py</code> 冒頭へ記載した（第三者タイムスタンプはない）。</p>
+<h2 id="0">0. 入力と終端定義</h2>
+<h3 id="_1">文献（今回実際に開いたもの）</h3>
+<ul>
+<li>【事実（Xia et al. 2022, Nature Food）】https://www.nature.com/articles/s43016-022-00573-0 および UCAR OpenSky PDF https://opensky.ucar.edu/system/files/2024-08/articles_25657.pdf 、補足 https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43016-022-00573-0/MediaObjects/43016_2022_573_MOESM1_ESM.pdf</li>
+<li>Table 1（Partial Livestock・貿易停止・Year 2）：煤 5/16/27/37/47/150 Tg で「食料なし」人口 2.55億 / 9.26億 / 14.26億 / 20.81億 / 25.12億 / 53.41億。2010年対象国人口 <strong>67億</strong>。生存最小カロリー <strong>1911 kcal/人/日</strong>。</li>
+<li>Table 2 Global Partial Livestock Year 2 カロリー変化：+13.5% / −5.7% / −17.4% / −28.1% / −36.7% / −77.1%。</li>
+<li>作物カロリー：5 Tg で years 1–5 に −7%；47 Tg で最大〜−50%；150 Tg で years 3–4 に〜−90%。気候擾乱は約10年、ピークは最初の数年。</li>
+<li>【事実（ALLFED preprint）】https://allfed.info/images/pdfs/PREPRINT%201%20-%20integrated%20assessment%20paper%20ALLFED.pdf ：150 Tg・レジリエント食なしでは 1600 kcal を超えるまで <strong>6.5年</strong>。レジリエント食ありで約 2700 kcal を維持可能。月48でレジリエント食がフルスケール。</li>
+</ul>
+<h3 id="_2">終端事象（併記）</h3>
+<table>
+<thead>
+<tr>
+<th>記号</th>
+<th>定義</th>
+<th>出典・位置づけ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E_extinct</td>
+<td>人口 &lt; 5,000</td>
+<td>XPT の絶滅定義（研究004・taxonomy と同一）</td>
+</tr>
+<tr>
+<td>E_collapse</td>
+<td>人口 &lt; 0.1·P₀</td>
+<td>【独自仮説】深刻な文明崩壊の代理（Ord の存続破局そのものではない）</td>
+</tr>
+<tr>
+<td>存続破局 (E1)</td>
+<td>Ord の主観カテゴリ</td>
+<td>研究004接続部でのみ使用</td>
+</tr>
+</tbody>
+</table>
+<p>Xia Table 1 の「食料なし」は飢餓死の危険人口であり、即時の E_extinct ではない【事実】。</p>
+<h2 id="1">1. 単純人口動態モデル</h2>
+<h3 id="_3">仮定（すべて【独自仮説】）</h3>
+<ol>
+<li>Year 0 戦争、Year 1 備蓄、Year 2 末に Table 1 の飢餓人口を一括減算。</li>
+<li>相対カロリー生産 (y(t))：Year 2 は Table 2 Global PL、ピークは Xia 作物ノート（150 Tg で 0.10）、その後指数回復（e-folding <code>tau_y</code> はシナリオ別 4〜8年）。</li>
+<li>人口は年次ロジスティック：目標容量 (K(t)=P_0\,y(t))、成長率 (g=0.01)/年。</li>
+<li><strong>写像</strong>：(r_{\mathrm{yield},95}=) いったん 0.95 未満に落ちたあと 0.95 に戻る年；(\delta_{\mathrm{cap}}=(1-y_{\mathrm{peak}})/y_{\mathrm{peak}})；(\delta_{\mathrm{frag}}=)（飢餓死者割合）/（生存者割合）。</li>
+</ol>
+<h3 id="_4">主な数値結果【計算】</h3>
+<table>
+<thead>
+<tr>
+<th>煤 (Tg)</th>
+<th>飢死%</th>
+<th>Y2生存率</th>
+<th>y_peak</th>
+<th>r_yield_95</th>
+<th>r_pop90</th>
+<th>r→1600kcal</th>
+<th>δ_cap</th>
+<th>δ_frag</th>
+<th>E_extinct</th>
+<th>E_collapse</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>3.8</td>
+<td>0.962</td>
+<td>0.930</td>
+<td>4.4</td>
+<td>5</td>
+<td>2.0</td>
+<td>0.08</td>
+<td>0.04</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>16</td>
+<td>13.8</td>
+<td>0.862</td>
+<td>0.850</td>
+<td>8.5</td>
+<td>3</td>
+<td>2.0</td>
+<td>0.18</td>
+<td>0.16</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>27</td>
+<td>21.3</td>
+<td>0.787</td>
+<td>0.700</td>
+<td>13.8</td>
+<td>5</td>
+<td>2.0</td>
+<td>0.43</td>
+<td>0.27</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>37</td>
+<td>31.1</td>
+<td>0.689</td>
+<td>0.550</td>
+<td>18.9</td>
+<td>6</td>
+<td>2.0</td>
+<td>0.82</td>
+<td>0.45</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>47</td>
+<td>37.5</td>
+<td>0.625</td>
+<td>0.500</td>
+<td>22.0</td>
+<td>5</td>
+<td>2.0</td>
+<td>1.00</td>
+<td>0.60</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>150</td>
+<td>79.7</td>
+<td>0.203</td>
+<td>0.10</td>
+<td>18.0</td>
+<td>4</td>
+<td><strong>7.2</strong></td>
+<td><strong>9.0</strong></td>
+<td><strong>3.93</strong></td>
+<td>否</td>
+<td>否</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>150 Tg の「1600 kcal 超」代理時刻 <strong>7.2年</strong> は、ALLFED の 6.5年と近い【計算／事実の照合】。</li>
+<li>全シナリオで E_extinct（&lt;5000）も E_collapse（&lt;10% P₀）も<strong>起きない</strong>。150 Tg でも Y2 生存率 20%（約13.6億人）が底。【計算】直接死を追加減算しても 150 Tg の Pmin≈13.2億で同様。</li>
+<li>人口の「90%までの戻り」は 3〜6年と短い。カロリー容量が先に戻るため、ロジスティックが急回復する【モデルの性質】。<strong>制度・知識・資本の回復はこのモデルに入っていない</strong>【限界】。</li>
+</ul>
+<p>感度（47・150 Tg；<code>tau_y</code>×0.5/1/1.5、<code>g</code>∈{0.005,0.01,0.02}）：<code>r_yield_95</code> は <code>tau_y</code> にほぼ比例し、最大でも約33年（150 Tg・tau×1.5）。いずれも 50年未満【計算】。</p>
+<h2 id="2-004">2. 研究004への接続と仮説判定</h2>
+<p>研究004の加法回復 (M=1+\delta\sum e^{-(t-s_j)/r}) を<strong>同じ厳密積分</strong>で再実行（N=50,000、S(100)=5/6 再較正）。ショックなし解析値 S(1e4)=<strong>0.5625</strong>。</p>
+<h3 id="r">r*（符号反転点）の精密化【計算】</h3>
+<p>λ₀∈{0.3,1}、δ∈{1, δ_cap(150)=9, δ_frag(47)=0.60, δ_frag(150)=3.93} のすべてで、dS=S(1e4)−0.5625 が正→負に変わる区間は <strong>(50, 75)年</strong>。研究004の「50〜200年」を <strong>50〜75年</strong> に狭めた。</p>
+<h3 id="h11">H11：支持【計算】</h3>
+<ul>
+<li>全シナリオの <code>r_yield_95</code> ∈ [4.4, 22]年 ≪ r* 下限50年 ≪ τ=200年。</li>
+<li>λ₀=0.3 と各シナリオの δ_frag・実測 r を入れると、S(1e4) の相対変化は最大 <strong>+1.6%</strong>（150 Tg）。登録条件「ほとんど下げない（|相対|&lt;5%）」を満たす。符号はわずかに<strong>正</strong>（研究004の r≤50 の Jensen 効果と同型）。</li>
+</ul>
+<h3 id="h12">H12：支持【計算】</h3>
+<ul>
+<li>δ_cap(150)=9.0 ≥ 2；δ_cap(47)=1.0。150 Tg では 004 で「1/6付近にする」δ≈2 を大きく超える下界になる。</li>
+<li>ただし H11 と合わせると、「大きな δ でも回復が速い（r≈20年）なら長期Sはほぼ落ちない」。<strong>δ の大きさ単独では長期害を読めない</strong>【推測】。</li>
+</ul>
+<h2 id="3">3. 批判的限界</h2>
+<ol>
+<li>単一グローバルプール＋ロジスティックは、地域分断・難民・国家崩壊を無視。Xia の「貿易停止」の被害を Y2 一括減算でしか取り込んでいない。</li>
+<li>(y(t)) の <code>tau_y</code> は Xia/ALLFED からの【独自仮説】較正。気候論文の温度時系列を直接は使っていない。</li>
+<li>δ_frag / δ_cap → 研究004の乗法・加法 δ への写像は同一性を保証しない【独自仮説】。</li>
+<li>レジリエント食（ALLFED）を入れると飢餓自体が大幅に減る可能性があり、その場合 δ_frag は小さくなる【事実（ALLFED）／推測】。</li>
+<li>Ord 存続破局確率そのものは、人口が 5000 を切るかでは測れない。</li>
+</ol>
+<h2 id="4-1">4. 結論（1段落）</h2>
+<p>Xia 2022 の煤量シナリオを単純人口・カロリーモデルに入れると、食料生産の 95% 回復は <strong>4〜22年</strong>、150 Tg でも人口は億単位で残り絶滅閾値には達しない。研究004の回復つき脆弱化にこの r と死者割合由来の δ を入れると、符号反転点は <strong>50〜75年</strong> にあり、核の冬スケールの r はその下側にあるため長期生存はほとんど下がらない（H11 支持）。一方ピークカロリー不足から作る δ_cap は 150 Tg で 9 にもなり得る（H12 支持）が、<strong>回復の速さの方が長期Sを支配する</strong>。</p><footer><hr><small>自動生成</small></footer></body></html>

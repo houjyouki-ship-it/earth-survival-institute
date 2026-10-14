@@ -1,0 +1,22 @@
+=== 005 nuclear-winter-bottleneck ===
+seed=20261014 runtime=2.4s
+S_noshock_1e4=0.5625
+
+Scenario summary (no blast subtraction):
+   Tg   dead%   P2/P0  y_peak   r_y95  r_pop90  r_1600   δ_cap  δ_frag extinct coll10%
+    5    3.8%   0.962   0.930     4.4      5.0     2.0    0.08    0.04   False   False
+   16   13.8%   0.862   0.850     8.5      3.0     2.0    0.18    0.16   False   False
+   27   21.3%   0.787   0.700    13.8      5.0     2.0    0.43    0.27   False   False
+   37   31.1%   0.689   0.550    18.9      6.0     2.0    0.82    0.45   False   False
+   47   37.5%   0.625   0.500    22.0      5.0     2.0    1.00    0.60   False   False
+  150   79.7%   0.203   0.100    18.0      4.0     7.2    9.00    3.93   False   False
+
+H11: 支持 max_r_yield= 21.950000000000003 all_|rel|<5%= True
+H12: 支持 delta_caps= {'5': 0.07526881720430102, '16': 0.17647058823529416, '27': 0.42857142857142866, '37': 0.818181818181818, '47': 1.0, '150': 9.0}
+r* brackets: {'lam0.3_d1': (50.0, 75.0), 'lam1_d1': (50.0, 75.0), 'lam0.3_dCap150': (50.0, 75.0), 'lam0.3_dFrag47': (50.0, 75.0), 'lam0.3_dFrag150': (50.0, 75.0)}
+  soot=5: rel_S=+0.0001 (δ_frag=0.04, r=4.4)
+  soot=16: rel_S=+0.0005 (δ_frag=0.16, r=8.5)
+  soot=27: rel_S=+0.0012 (δ_frag=0.27, r=13.8)
+  soot=37: rel_S=+0.0021 (δ_frag=0.45, r=18.9)
+  soot=47: rel_S=+0.0030 (δ_frag=0.60, r=22.0)
+  soot=150: rel_S=+0.0163 (δ_frag=3.93, r=18.0)
