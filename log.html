@@ -52,4 +52,13 @@
 <li>モデル：減衰共通ショック＋要因別 δ_k（war/bio/tech）＋致死割合 φ（Xia 飢死割合）。E[S(100)]=5/6 再較正。終端：S_ord / S_joint / E_extinct / E_collapse。</li>
 <li>主要数値：S_noshock(1e4)=0.5625。代表（λ0=1,δ=2,r=20,factor）S_joint(1e4)=0.5692（φによらず）。uniform 対照 0.5776。全格子で非致死が基線より S を上げる。P(E_extinct)=0（全格子）、P(E_collapse)≤2.3e-4。</li>
 <li>判定：H13 <strong>条件付き棄却</strong>（前提不成立：r=10–20 では非致死δが S を下げない。致死追加低下≈0）。</li>
+</ul>
+<h2 id="7-2026-10-14">第7回 2026-10-14</h2>
+<ul>
+<li>研究006を <code>/tmp/rep006</code> で再実行（約8秒）。results.json は runtime_seconds 以外一致。</li>
+<li>文献：Our World in Data「Population Growth」（https://ourworldindata.org/population-growth ）を開き、世界人口増加率のピーク 2.3%/年（1963年）を確認 → 人口回復のロジスティック成長率 g の基準値に使用。</li>
+<li>研究007を実施：<code>research/007-h13b-beyond-rstar/</code>（sim.py seed=20261014, N=20,000, 約5.5秒）→ results.json, fig_S_vs_recovery.png, fig_Dstar_scan.png, report.md, stdout.txt。<code>/tmp/rep007</code> 再実行で runtime 以外一致。</li>
+<li>006の欠陥修正：致死打撃後の人口回復を作物収量回復（r_yield）から出生制約つきロジスティック成長に変更。</li>
+<li>主要数値：r* は要因別 δ_k 版でも9組すべて (50,75)年。非致死低下 drop_nl は λ0=1,δ=2 で r=200 0.024／恒久乗法 0.106、λ0=3 恒久乗法で 0.295。Xia 重症度では P(E_extinct)=0（全条件）。P(E_collapse) は logistic で 4.4倍（λ0=1,φ=0.3）〜7.5倍（λ0=3）。</li>
+<li>判定：H13b 支持（336/336、絶滅 addon=0）。ただし崩壊を失敗に数えると 10/336 で反例（r=75〜100、最大比6.8）。H15 部分支持（10倍は棄却、絶滅&lt;1e-3 は支持）。H16 主セル（恒久乗法）で支持（D*&gt;0.999999）。ただし λ0=3・r=200 では D*=0.999。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

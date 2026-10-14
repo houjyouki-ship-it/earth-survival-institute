@@ -1,0 +1,134 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究007：r&gt;r*・恒久乗法での H13 再検定（H13b）、人口回復の人口学的制約（H15）、臨界致死割合（H16） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="007rr-h13-h13bh15h16">研究007：r&gt;r*・恒久乗法での H13 再検定（H13b）、人口回復の人口学的制約（H15）、臨界致死割合（H16）</h1>
+<p>再現：<code>cd research/007-h13b-beyond-rstar &amp;&amp; python3 sim.py &gt; stdout.txt</code>（seed=20261014、N=20,000、約5.5秒）→ <code>results.json</code>, <code>fig_S_vs_recovery.png</code>, <code>fig_Dstar_scan.png</code>。<code>/tmp/rep007</code> で再実行し、<code>results.json</code> は <code>runtime_seconds</code> 以外一致。仮説 H13b/H15/H16 は実行前に <code>sim.py</code> 冒頭へ記載した（第三者タイムスタンプはない）。</p>
+<h2 id="0">0. 位置づけと入力</h2>
+<ul>
+<li>研究006は r∈{10,20}≪r* のため非致死δが S を上げ、H13 は前提不成立だった。本回は r∈{20,50,75,100,200,∞}（加法）と恒久乗法 <code>mult_perm</code>、λ0∈{0.3,1,3}/世紀、δ∈{1,2,δ_frag150≈3.93} の63セルを走査（要因別 δ_k・型混合・Xia重症度は006の事前登録値をそのまま使用）。全セルで E[S(100)]=0.8333 に再較正（確認済み：0.83333〜0.83333）。</li>
+<li><strong>006の欠陥の修正</strong>：006は致死打撃後の人口回復に 005 の作物収量回復時間 r_yield（4〜22年）を流用していた。人口は出生でしか戻らないため、ロジスティック成長 (dP/dt=gP(1-P/P_0)) に置き換えた。</li>
+<li>【事実（Our World in Data, https://ourworldindata.org/population-growth ）】世界人口の年増加率は1963年の2.3%でピーク（同ページ図の注記）、本文では「1960年代に2%超でピーク」。→ g=0.023 を基準、g=0.01 と 0.04 は感度【推測】。</li>
+<li>共通乱数：ショック時刻・型・重症度・致死一様乱数を λ0 ごとに1回引き、φ間で致死集合を入れ子にした（006より差の分散が小さい）。</li>
+</ul>
+<h2 id="1-resultsjson">1. 主要数値【計算・results.json】</h2>
+<p>ショックなし基線 S(1e4)=<strong>0.5625</strong>。非致死δ（φ=0）による低下 drop_nl = 0.5625 − S_ord(1e4)：</p>
+<table>
+<thead>
+<tr>
+<th>(λ0, δ)</th>
+<th>r=20</th>
+<th>r=50</th>
+<th>r=75</th>
+<th>r=100</th>
+<th>r=200</th>
+<th>r=∞</th>
+<th>恒久乗法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(0.3, 2)</td>
+<td>−0.0021</td>
+<td>−0.0014</td>
+<td>+0.0003</td>
+<td>+0.0022</td>
+<td>+0.0082</td>
+<td>+0.0275</td>
+<td>+0.0311</td>
+</tr>
+<tr>
+<td>(1, 2)</td>
+<td>−0.0065</td>
+<td>−0.0039</td>
+<td>+0.0013</td>
+<td>+0.0068</td>
+<td>+0.0237</td>
+<td>+0.0755</td>
+<td><strong>+0.1061</strong></td>
+</tr>
+<tr>
+<td>(3, 2)</td>
+<td>−0.0169</td>
+<td>−0.0095</td>
+<td>+0.0026</td>
+<td>+0.0145</td>
+<td>+0.0498</td>
+<td>+0.1487</td>
+<td><strong>+0.2953</strong></td>
+</tr>
+<tr>
+<td>(3, 3.93)</td>
+<td>−0.0273</td>
+<td>−0.0141</td>
+<td>+0.0036</td>
+<td>+0.0200</td>
+<td>+0.0664</td>
+<td>+0.1860</td>
+<td>+0.3541</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>r* の頑健性</strong>：要因別 δ_k 版でも、9組の (λ0,δ) すべてで符号反転が <strong>(50, 75)年</strong> に入った（研究005の加法共通ショック版と同じ区間）。λ0 を10倍、δ を4倍変えても区間が動かないので、r* は主に τ=200 と較正窓100年で決まっているとみられる【推測】。</li>
+<li><strong>Xia 型重症度では絶滅は一度も起きない</strong>：全 λ0・φ・人口モデルで P(E_extinct)=0（N=20,000、つまり 95% 上限 ≈1.5e-4）。</li>
+<li>P(E_collapse)（P&lt;10%P0 を一度でも割る）：λ0=1・φ=0.3 で yield 0.00025 → logistic g=0.023 で 0.0011（<strong>4.4倍</strong>）、g=0.01 で 0.00195。λ0=3・φ=0.3 では 0.0014 → 0.01045（7.5倍）、g=0.01 で 0.02155。</li>
+</ul>
+<h2 id="2">2. 仮説判定</h2>
+<h3 id="h13b">H13b：<strong>支持</strong></h3>
+<p>非致死が S を有意に下げるセル（drop_nl&gt;2SE）は 63 中 42（r≥75 と恒久乗法。λ0=0.3 の r=75 は有意でない）。336 検定（φ∈{0.1,0.3}×人口モデル4）すべてで addon ≤ drop_nl。絶滅終端での addon は<strong>すべて 0</strong>（比の最大 0.0）。
+- 批判：これは「致死が小さい」からではなく「Xia の最悪 79.7% 死でも、2回目の打撃が人口回復前に来ないと絶滅閾値に届かない」構造による自明に近い支持。H13b は Xia 重症度の範囲に限った命題である。
+- <strong>崩壊を失敗に数えると反例が出る</strong>：S_strict（P&lt;10%P0 を失敗扱い）では 336 中 10 検定で addon_collapse &gt; drop_nl（最大比 6.8倍）。いずれも r=75〜100（drop_nl が小さい境界付近）で、λ0=3・φ=0.3・遅い人口回復 g≤0.023 の組。r* 付近では非致死の正味効果がほぼ打ち消し合うため、致死の崩壊チャネルの方が大きくなる。</p>
+<h3 id="h15">H15：<strong>部分支持</strong></h3>
+<ul>
+<li>前半（崩壊が10倍以上）：<strong>棄却</strong>。λ0=1・φ=0.3 での比は 4.4倍（λ0=3 では 7.5倍、g=0.01 なら λ0=1 で 7.8倍）。人口学的制約は崩壊確率を数倍に上げるが、登録した10倍には届かない。</li>
+<li>後半（絶滅&lt;1e-3）：<strong>支持</strong>（全条件で 0）。</li>
+</ul>
+<h3 id="h16">H16：<strong>主セルで支持、副セルでは棄却に近い</strong></h3>
+<p>1回あたり致死割合 D を固定して走査（φ=0.3）：</p>
+<table>
+<thead>
+<tr>
+<th>セル（δ=2）</th>
+<th>drop_nl</th>
+<th>D* (g=0.023)</th>
+<th>D=0.999999 時の addon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>λ0=1, 恒久乗法（登録した主セル）</td>
+<td>0.1061</td>
+<td><strong>届かない</strong>（&gt;0.999999）</td>
+<td>0.0352</td>
+</tr>
+<tr>
+<td>λ0=1, 加法 r=200</td>
+<td>0.0237</td>
+<td>0.9999</td>
+<td>0.0563</td>
+</tr>
+<tr>
+<td>λ0=3, 恒久乗法</td>
+<td>0.2953</td>
+<td>届かない</td>
+<td>0.0952</td>
+</tr>
+<tr>
+<td>λ0=3, 加法 r=200</td>
+<td>0.0498</td>
+<td><strong>0.999</strong>（登録の閾値&gt;0.999を満たさない）</td>
+<td>0.2553</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>主セルでは D*&gt;0.999 で登録どおり支持。ただし λ0=3・r=200 では D*=0.999（生存者0.1%）で致死チャネルが非致死を上回るので、「生存者が1000人に1人を下回る打撃は起こり得ない」が結論を支える前提になっている。</li>
+<li><strong>独自の観察</strong>：恒久乗法で addon が頭打ちになるのは、絶滅が起きる経路（多くのショックを受けた経路）は、すでにハザードで生存が削られているため。λ0=1, D=0.999999 で addon=0.0352 は、独立と仮定した積 S_ord×P_ext=0.4564×0.1171≈0.053 の約66%。加法 r=200 では約89%（0.0563 / (0.5388×0.1171)）。経路の重なりが大きいほど、致死チャネルの寄与はハザード側に吸収される。</li>
+<li>P_ext の頭打ち（λ0=1 で≈0.12）は、1−D≥1e-6 では 6.7×10^9×(1−D)≥6700&gt;5000 となり<strong>1回では絶滅しない</strong>ため（2回目の打撃が人口回復前に必要）。</li>
+</ul>
+<h2 id="3">3. 限界</h2>
+<ol>
+<li>ロジスティック回復は年齢構成・出生力の低下・アリー効果を無視している。崩壊後に g=2.3% が出る保証はない（g=0.01 で感度を見たのはそのため）。</li>
+<li>致死打撃の後も、ハザード回復は人口と独立。人口が少ないときに人為リスクが下がる（主体が減る）／上がる（制度が弱る）は未モデル。</li>
+<li>D 走査は全打撃で同じ D という極端な仮定。Xia 重症度に裾を足したほうが現実的。</li>
+<li>要因別倍率・型混合・重症度ミックスは006の【独自仮説】のまま。</li>
+</ol>
+<h2 id="4">4. 結論</h2>
+<p>要因別 δ_k でも r* は (50,75) 年にとどまり、r≥75 や恒久乗法では非致死の脆弱化が S(1e4) を最大0.30（λ0=3・恒久乗法）下げる。この領域で、Xia 型の致死打撃が絶滅経由で加える低下は0なので、H13b は支持された。しかしこれは、2回目の打撃が人口回復前に来ないと絶滅しないという構造によるもので、(a) 崩壊を失敗に数える、(b) r* 付近、(c) 1回で生存者が0.1%以下になる打撃を許す、のいずれかで致死チャネルが非致死を上回り得る。人口回復を収量ではなく出生で制約すると崩壊確率は4〜8倍になる（H15 前半は棄却）。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,3576 @@
+{
+ "seed": 20261014,
+ "study": "007-h13b-beyond-rstar",
+ "N": 20000,
+ "tau": 200.0,
+ "T": 10000.0,
+ "S_noshock_1e4": 0.562485215457423,
+ "preregistered": {
+  "H13b": "drop_nl>2SE のセルで、Xia重症度・φ∈{0.1,0.3}・全人口モデルにつき addon ≤ drop_nl（予測: 全セル成立）",
+  "H15": "logistic g=0.023 で λ0=1, φ=0.3 の P(E_collapse) が yield の≥10倍、かつ P(E_extinct)<1e-3（λ0≤3, φ≤0.3, Xia）",
+  "H16": "恒久乗法 λ0=1 δ=2 φ=0.3 g=0.023 で addon=drop_nl となる臨界 D* > 0.999"
+ },
+ "pop_growth_source": {
+  "url": "https://ourworldindata.org/population-growth",
+  "fact": "世界人口増加率は1963年に2.3%/年でピーク（OWID図注記）。g=0.01, 0.04 は感度用の【推測】"
+ },
+ "population": {
+  "lam0.3_phi0.0_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.0_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.0_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.0_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.1_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.1_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.1_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.1_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam0.3_phi0.3_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 5e-05
+  },
+  "lam0.3_phi0.3_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0001
+  },
+  "lam0.3_phi0.3_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0001
+  },
+  "lam0.3_phi0.3_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0001
+  },
+  "lam1.0_phi0.0_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam1.0_phi0.0_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam1.0_phi0.0_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam1.0_phi0.0_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam1.0_phi0.1_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam1.0_phi0.1_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0002
+  },
+  "lam1.0_phi0.1_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00015
+  },
+  "lam1.0_phi0.1_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00015
+  },
+  "lam1.0_phi0.3_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00025
+  },
+  "lam1.0_phi0.3_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00195
+  },
+  "lam1.0_phi0.3_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0011
+  },
+  "lam1.0_phi0.3_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0009
+  },
+  "lam3.0_phi0.0_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam3.0_phi0.0_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam3.0_phi0.0_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam3.0_phi0.0_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0
+  },
+  "lam3.0_phi0.1_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00025
+  },
+  "lam3.0_phi0.1_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00215
+  },
+  "lam3.0_phi0.1_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00125
+  },
+  "lam3.0_phi0.1_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.00065
+  },
+  "lam3.0_phi0.3_yield": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.0014
+  },
+  "lam3.0_phi0.3_logit_g0.01": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.02155
+  },
+  "lam3.0_phi0.3_logit_g0.023": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.01045
+  },
+  "lam3.0_phi0.3_logit_g0.04": {
+   "P_extinct": 0.0,
+   "P_collapse": 0.006
+  }
+ },
+ "hazard_cells": {
+  "lam0.3_d1_add_r20": {
+   "lam0": 0.3,
+   "delta": 1.0,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333336,
+   "S_ord_1e4": 0.5635853503095675,
+   "SE": 3.2882184264897335e-05,
+   "drop_nl": -0.001100134852144441,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.7652434579122172e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.525636176943881e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.525636176943881e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.525636176943881e-05
+    }
+   }
+  },
+  "lam0.3_d1_add_r50": {
+   "lam0": 0.3,
+   "delta": 1.0,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5632226610937212,
+   "SE": 7.071596792392904e-05,
+   "drop_nl": -0.000737445636298184,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.7026292644297374e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.394924840802534e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.394924840802534e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.394924840802534e-05
+    }
+   }
+  },
+  "lam0.3_d1_add_r75": {
+   "lam0": 0.3,
+   "delta": 1.0,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333336,
+   "S_ord_1e4": 0.5622992289594375,
+   "SE": 9.515585881143911e-05,
+   "drop_nl": 0.00018598649798551303,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.6586384469658807e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.303471549006231e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.303471549006231e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.303471549006231e-05
+    }
+   }
+  },
+  "lam0.3_d1_add_r100": {
+   "lam0": 0.3,
+   "delta": 1.0,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5612967014498997,
+   "SE": 0.00011509689682260111,
+   "drop_nl": 0.0011885140075232892,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.6214472912392345e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.226301694696792e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.226301694696792e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.226301694696792e-05
+    }
+   }
+  },
+  "lam0.3_d1_add_r200": {
+   "lam0": 0.3,
+   "delta": 1.0,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333336,
+   "S_ord_1e4": 0.5579701526297169,
+   "SE": 0.00016809480957477344,
+   "drop_nl": 0.0045150628277060845,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.519086436276541e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.0143827384371354e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.0143827384371354e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.0143827384371354e-05
+    }
+   }
+  },
+  "lam0.3_d1_add_rinf": {
+   "lam0": 0.3,
+   "delta": 1.0,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5466373666386879,
+   "SE": 0.0003127598468747275,
+   "drop_nl": 0.015847848818735133,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.2273707263299882e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.413065614107031e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.413065614107031e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.413065614107031e-05
+    }
+   }
+  },
+  "lam0.3_d1_mult_perm": {
+   "lam0": 0.3,
+   "delta": 1.0,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333336,
+   "S_ord_1e4": 0.5452175137164349,
+   "SE": 0.00034942755802932997,
+   "drop_nl": 0.01726770174098813,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.0248526204321053e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.897210006414656e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.897210006414656e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.897210006414656e-05
+    }
+   }
+  },
+  "lam0.3_d2_add_r20": {
+   "lam0": 0.3,
+   "delta": 2.0,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333336,
+   "S_ord_1e4": 0.5646316598672889,
+   "SE": 6.43411152907496e-05,
+   "drop_nl": -0.0021464444098658886,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.719937084505097e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.430442079785994e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.430442079785994e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.430442079785994e-05
+    }
+   }
+  },
+  "lam0.3_d2_add_r50": {
+   "lam0": 0.3,
+   "delta": 2.0,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5639021474797297,
+   "SE": 0.00013553690343521066,
+   "drop_nl": -0.0014169320223066384,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.6014818878722824e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.1834719735102475e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.1834719735102475e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.1834719735102475e-05
+    }
+   }
+  },
+  "lam0.3_d2_add_r75": {
+   "lam0": 0.3,
+   "delta": 2.0,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5621593356251434,
+   "SE": 0.00018026024607470032,
+   "drop_nl": 0.0003258798322796075,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.5203863657296744e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.015224125315525e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.015224125315525e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.015224125315525e-05
+    }
+   }
+  },
+  "lam0.3_d2_add_r100": {
+   "lam0": 0.3,
+   "delta": 2.0,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5603036801964708,
+   "SE": 0.00021609164166742732,
+   "drop_nl": 0.0021815352609522165,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.4530001259085617e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.8757641075601324e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.8757641075601324e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.8757641075601324e-05
+    }
+   }
+  },
+  "lam0.3_d2_add_r200": {
+   "lam0": 0.3,
+   "delta": 2.0,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5543027251020484,
+   "SE": 0.00030862861819578495,
+   "drop_nl": 0.00818249035537466,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.2726065318415077e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.503621014077298e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.503621014077298e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.503621014077298e-05
+    }
+   }
+  },
+  "lam0.3_d2_add_rinf": {
+   "lam0": 0.3,
+   "delta": 2.0,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5350187006940188,
+   "SE": 0.0005429008132295688,
+   "drop_nl": 0.027466514763404226,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 1.7963276764261574e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.528075960366449e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.528075960366449e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.528075960366449e-05
+    }
+   }
+  },
+  "lam0.3_d2_mult_perm": {
+   "lam0": 0.3,
+   "delta": 2.0,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5314118016213086,
+   "SE": 0.0006303407442472768,
+   "drop_nl": 0.031073413836114394,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 1.199904101897675e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.0265161413758363e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.0265161413758363e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.0265161413758363e-05
+    }
+   }
+  },
+  "lam0.3_d3.93_add_r20": {
+   "lam0": 0.3,
+   "delta": 3.9300956585724784,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5665146248918062,
+   "SE": 0.00012143999022918478,
+   "drop_nl": -0.004029409434383124,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.63734196988427e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.2571006436717325e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.2571006436717325e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.2571006436717325e-05
+    }
+   }
+  },
+  "lam0.3_d3.93_add_r50": {
+   "lam0": 0.3,
+   "delta": 3.9300956585724784,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5650765966464756,
+   "SE": 0.0002469536689200222,
+   "drop_nl": -0.002591381189052555,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.426909729422208e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.81940477842165e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.81940477842165e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.81940477842165e-05
+    }
+   }
+  },
+  "lam0.3_d3.93_add_r75": {
+   "lam0": 0.3,
+   "delta": 3.9300956585724784,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333336,
+   "S_ord_1e4": 0.5619847351639171,
+   "SE": 0.000322246209254039,
+   "drop_nl": 0.0005004802935059116,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.2891487527081322e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.534670815069859e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.534670815069859e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.534670815069859e-05
+    }
+   }
+  },
+  "lam0.3_d3.93_add_r100": {
+   "lam0": 0.3,
+   "delta": 3.9300956585724784,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5587965628776621,
+   "SE": 0.0003808362062295414,
+   "drop_nl": 0.0036886525797609204,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.1780064435667724e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.3057523207687934e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.3057523207687934e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.3057523207687934e-05
+    }
+   }
+  },
+  "lam0.3_d3.93_add_r200": {
+   "lam0": 0.3,
+   "delta": 3.9300956585724784,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5489031560243322,
+   "SE": 0.0005255673373250192,
+   "drop_nl": 0.013582059433090876,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 1.8941473725641055e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.723934990281176e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.723934990281176e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.723934990281176e-05
+    }
+   }
+  },
+  "lam0.3_d3.93_add_rinf": {
+   "lam0": 0.3,
+   "delta": 3.9300956585724784,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5198242941223491,
+   "SE": 0.0008537829274593483,
+   "drop_nl": 0.04266092133507393,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 1.2349043473164821e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.388577370723497e-05
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.388577370723497e-05
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.388577370723497e-05
+    }
+   }
+  },
+  "lam0.3_d3.93_mult_perm": {
+   "lam0": 0.3,
+   "delta": 3.9300956585724784,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5138409419577822,
+   "SE": 0.000991397194596133,
+   "drop_nl": 0.048644273499640844,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.236780483910907e-06
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.4570090521987408e-06
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.4570090521987408e-06
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.4570090521987408e-06
+    }
+   }
+  },
+  "lam1.0_d1_add_r20": {
+   "lam0": 1.0,
+   "delta": 1.0,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5659361570395367,
+   "SE": 5.8215053529755434e-05,
+   "drop_nl": -0.0034509415821136757,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011257851910011865
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.436885907599462e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.436885907599462e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001394167817109072
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0010819587559407011
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006104636310201883
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004995255173185723
+    }
+   }
+  },
+  "lam1.0_d1_add_r50": {
+   "lam0": 1.0,
+   "delta": 1.0,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5646345613989217,
+   "SE": 0.00012206868145584919,
+   "drop_nl": -0.002149345941498626,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011162003443201687
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.357951562412752e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.357951562412752e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013679195244758712
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0010557858691237585
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005958534456037434
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004876557532713657
+    }
+   }
+  },
+  "lam1.0_d1_add_r75": {
+   "lam0": 1.0,
+   "delta": 1.0,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5617141438482335,
+   "SE": 0.00016218780146081137,
+   "drop_nl": 0.0007710716091895442,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011058038438044552
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.275605554515348e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.275605554515348e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013460083996992385
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0010352941234702479
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005843977807707698
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00047834868809451645
+    }
+   }
+  },
+  "lam1.0_d1_add_r100": {
+   "lam0": 1.0,
+   "delta": 1.0,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5586134045351426,
+   "SE": 0.000194403335128432,
+   "drop_nl": 0.0038718109222803943,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010958458333267538
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.197446048122254e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.197446048122254e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013264349873146563
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0010174004572755639
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005743912817325086
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00047022179297870917
+    }
+   }
+  },
+  "lam1.0_d1_add_r200": {
+   "lam0": 1.0,
+   "delta": 1.0,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5485506121482039,
+   "SE": 0.0002780279187226655,
+   "drop_nl": 0.01393460330921914,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001065539016089703
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.961303654618055e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.961303654618055e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001270221480474662
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0009671945723582369
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005463144230851159
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004474379990286315
+    }
+   }
+  },
+  "lam1.0_d1_add_rinf": {
+   "lam0": 1.0,
+   "delta": 1.0,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5155492341337015,
+   "SE": 0.0004928773730453896,
+   "drop_nl": 0.046935981323721565,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 9.701801154820654e-05
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.225013606408767e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.225013606408767e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011055374867585379
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000825811883633898
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00046732002013479234
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000383511198912893
+    }
+   }
+  },
+  "lam1.0_d1_mult_perm": {
+   "lam0": 1.0,
+   "delta": 1.0,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5015684520040252,
+   "SE": 0.0006876870312814488,
+   "drop_nl": 0.060916763453397804,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 9.388792445813769e-05
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.103878576179891e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.103878576179891e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001012976423546551
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007086441028733401
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004066826374729984
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00033905372026937715
+    }
+   }
+  },
+  "lam1.0_d2_add_r20": {
+   "lam0": 1.0,
+   "delta": 2.0,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5690242326712428,
+   "SE": 0.00011081976684900842,
+   "drop_nl": -0.0065390172138197755,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011262362595217103
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.43445007608389e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.43445007608389e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001382963492017023
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.001068496766316492
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000602996129659851
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004934825691481741
+    }
+   }
+  },
+  "lam1.0_d2_add_r50": {
+   "lam0": 1.0,
+   "delta": 2.0,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5664157994196405,
+   "SE": 0.00022330065093012987,
+   "drop_nl": -0.00393058396221746,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011080406062868604
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.285776578657536e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.285776578657536e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013352691862295025
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.001021980158390641
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005770570850850333
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004724579834216797
+    }
+   }
+  },
+  "lam1.0_d2_add_r75": {
+   "lam0": 1.0,
+   "delta": 2.0,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5611558965582283,
+   "SE": 0.00029081139023817313,
+   "drop_nl": 0.0013293188991947424,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010892202155802613
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.137496640935782e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.137496640935782e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00012969618645427314
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0009870527734045947
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005575559080608907
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004566590708066139
+    }
+   }
+  },
+  "lam1.0_d2_add_r100": {
+   "lam0": 1.0,
+   "delta": 2.0,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5557348179465744,
+   "SE": 0.00034357768971011483,
+   "drop_nl": 0.006750397510848605,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010716042028721606
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.999936764133524e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.999936764133524e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00012635184809754239
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0009573266027371335
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005409564217895984
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004432204710288813
+    }
+   }
+  },
+  "lam1.0_d2_add_r200": {
+   "lam0": 1.0,
+   "delta": 2.0,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5387553927693502,
+   "SE": 0.0004751309071540091,
+   "drop_nl": 0.023729822688072777,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010195682446011034
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.596733882193923e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.596733882193923e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001170633812913755
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0008770685708594008
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004961533481109521
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004070001912291453
+    }
+   }
+  },
+  "lam1.0_d2_add_rinf": {
+   "lam0": 1.0,
+   "delta": 2.0,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.4869501825116862,
+   "SE": 0.0007802870504864288,
+   "drop_nl": 0.07553503294573682,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.661939259479212e-05
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 6.421840282463545e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 6.421840282463545e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 9.200672460929188e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006718187578117515
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003817893230958499
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00031490617225902247
+    }
+   }
+  },
+  "lam1.0_d2_mult_perm": {
+   "lam0": 1.0,
+   "delta": 2.0,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.45643135548951486,
+   "SE": 0.0011596570810940958,
+   "drop_nl": 0.10605385996790817,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.657705434931168e-05
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 6.080937577905281e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 6.080937577905281e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 6.711198470301021e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00043115464143141563
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00026022793876625264
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0002300241191296132
+    }
+   }
+  },
+  "lam1.0_d3.93_add_r20": {
+   "lam0": 1.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5741679445721269,
+   "SE": 0.00019957789079924114,
+   "drop_nl": -0.011682729114703916,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011263848957079791
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.425880642690964e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.425880642690964e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013634077577566147
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00104578506491822
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005904192542756681
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004833401514789408
+    }
+   }
+  },
+  "lam1.0_d3.93_add_r50": {
+   "lam0": 1.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5691354443833112,
+   "SE": 0.00037832724135201316,
+   "drop_nl": -0.00665022892588818,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010939704317220691
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.163994359823536e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.163994359823536e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000128388770518067
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0009707851344770761
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000548660247779841
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00044961057514565015
+    }
+   }
+  },
+  "lam1.0_d3.93_add_r75": {
+   "lam0": 1.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5604290865398288,
+   "SE": 0.00047891545526738093,
+   "drop_nl": 0.0020561289175942132,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010627344838577173
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.919764837126215e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.919764837126215e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00012235361481407477
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0009177347684516779
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005190924879348336
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004257503639137759
+    }
+   }
+  },
+  "lam1.0_d3.93_add_r100": {
+   "lam0": 1.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5518250190358598,
+   "SE": 0.0005547691875114686,
+   "drop_nl": 0.01066019642156324,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010344392685678863
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.700433846672432e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.700433846672432e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011725160911994228
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0008741382891399947
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004947966944819948
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004061647424376794
+    }
+   }
+  },
+  "lam1.0_d3.93_add_r200": {
+   "lam0": 1.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5261340154148296,
+   "SE": 0.0007343640041756882,
+   "drop_nl": 0.0363512000425934,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 9.542370173947196e-05
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.083892818949356e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.083892818949356e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00010371554287508082
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007622855277018664
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004325106647016252
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003560469146412961
+    }
+   }
+  },
+  "lam1.0_d3.93_add_rinf": {
+   "lam0": 1.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.45458056794329876,
+   "SE": 0.0011019726404722036,
+   "drop_nl": 0.10790464751412426,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.377737106929185e-05
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.443733080593647e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.443733080593647e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.100741201234742e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005092932355961682
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0002920517185521046
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00024347947915929992
+    }
+   }
+  },
+  "lam1.0_d3.93_mult_perm": {
+   "lam0": 1.0,
+   "delta": 3.9300956585724784,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.4112270876377224,
+   "SE": 0.00160949458076352,
+   "drop_nl": 0.1512581278197006,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.995218566785873e-05
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.620476282992754e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.620476282992754e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.6573133014852528e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00021094888681725467
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00014011675435468706
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013413273674423858
+    }
+   }
+  },
+  "lam3.0_d1_add_r20": {
+   "lam0": 3.0,
+   "delta": 1.0,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5720656136749079,
+   "SE": 9.33856635887619e-05,
+   "drop_nl": -0.009580398217484909,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00014150119818534174
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0012109318467074647
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000702045337427381
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003669269824118805
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007851089162776891
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.01210052366044572
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005865458481799239
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00337524630523099
+    }
+   }
+  },
+  "lam3.0_d1_add_r50": {
+   "lam0": 3.0,
+   "delta": 1.0,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5682492449345519,
+   "SE": 0.00018412248986143348,
+   "drop_nl": -0.00576402947712884,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013902006617944773
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0011843902517963286
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006846849267586439
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003596300689299429
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000764660751034268
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.011798706419820396
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005717117894246198
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.003297277008558401
+    }
+   }
+  },
+  "lam3.0_d1_add_r75": {
+   "lam0": 3.0,
+   "delta": 1.0,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5607838530976912,
+   "SE": 0.00023764386031745768,
+   "drop_nl": 0.0017013623597318395,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013622637914219567
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.001157603899657959
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006679720363512826
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00035192163400705285
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007454238069087458
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.011509236882709314
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0055757092189239596
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0032202819494121216
+    }
+   }
+  },
+  "lam3.0_d1_add_r100": {
+   "lam0": 3.0,
+   "delta": 1.0,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5531411122851949,
+   "SE": 0.0002791627530640084,
+   "drop_nl": 0.009344103172228113,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013358182367949093
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0011328929094529133
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006527204352230607
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003447319399025041
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000727980703284017
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.011245360890123183
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005447016575778903
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0031496159174380024
+    }
+   }
+  },
+  "lam3.0_d1_add_r200": {
+   "lam0": 3.0,
+   "delta": 1.0,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5293114581432797,
+   "SE": 0.00038163253307406457,
+   "drop_nl": 0.03317375731414329,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001257547337705335
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.001061449045336127
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006089970439755259
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00032374100496088403
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006782852479554392
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.010489714807545361
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005079073646484521
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.002946173072131364
+    }
+   }
+  },
+  "lam3.0_d1_add_rinf": {
+   "lam0": 3.0,
+   "delta": 1.0,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.45667708236882015,
+   "SE": 0.000611672340720732,
+   "drop_nl": 0.10580813308860287,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001030402920899881
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0008616732794505601
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0004879434545973991
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00026419446288774055
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005421192956722843
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00840206827510582
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.004065244126203916
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0023804578114296326
+    }
+   }
+  },
+  "lam3.0_d1_mult_perm": {
+   "lam0": 3.0,
+   "delta": 1.0,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.3650038032736278,
+   "SE": 0.0012306157216985995,
+   "drop_nl": 0.19748141218379522,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.242624818063281e-05
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005318710157915697
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00028285722019031235
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00016031936560497394
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00032480813824405623
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00468760176840872
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0022839334232471727
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0014294301934006288
+    }
+   }
+  },
+  "lam3.0_d2_add_r20": {
+   "lam0": 3.0,
+   "delta": 2.0,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5794248358748844,
+   "SE": 0.0001662680797576064,
+   "drop_nl": -0.016939620417461332,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00014212049628186166
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0012120030659518238
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007011202901861269
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003678442096769981
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007832460740609144
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.012082438553700127
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005855065972296423
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00337506931559954
+    }
+   }
+  },
+  "lam3.0_d2_add_r50": {
+   "lam0": 3.0,
+   "delta": 2.0,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5720028456983923,
+   "SE": 0.00030416050238875645,
+   "drop_nl": -0.0095176302409693,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013786276091816573
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0011684166443209757
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000672847376396121
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003556522096202392
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007502739350139133
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.011591393022674746
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005614339897208937
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0032476157856430334
+    }
+   }
+  },
+  "lam3.0_d2_add_r75": {
+   "lam0": 3.0,
+   "delta": 2.0,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5598582315820239,
+   "SE": 0.00037994442706988825,
+   "drop_nl": 0.0026269838753991692,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013344999392618593
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0011273258679925825
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006473432886253254
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00034368807310216715
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007211519118703091
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.011150104845453116
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005399202929559173
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0031298751402718842
+    }
+   }
+  },
+  "lam3.0_d2_add_r100": {
+   "lam0": 3.0,
+   "delta": 2.0,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5479728876256289,
+   "SE": 0.0004366024469397197,
+   "drop_nl": 0.014512327831794125,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00012942051842372617
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0010906954498437487
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006248387816765434
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000332914491523926
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006956135340556413
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.01076117867395095
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0052098972131284635
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0030254275349755775
+    }
+   }
+  },
+  "lam3.0_d2_add_r200": {
+   "lam0": 3.0,
+   "delta": 2.0,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5126432181428504,
+   "SE": 0.0005691186591755912,
+   "drop_nl": 0.04984199731457262,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011800499343234221
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0009893650255850283
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000563101055947224
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0003028270432810898
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006260034399197096
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.009695657250673227
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.004692130338559728
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0027377205065252604
+    }
+   }
+  },
+  "lam3.0_d2_add_rinf": {
+   "lam0": 3.0,
+   "delta": 2.0,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.41377287316649974,
+   "SE": 0.0008263515166195036,
+   "drop_nl": 0.14871234229092328,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.772539923714125e-05
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000731420976973866
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00040772994048594207
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00022513123402305655
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00045276526454605904
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.007021730425263536
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0033966854169071793
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.002009864031153934
+    }
+   }
+  },
+  "lam3.0_d2_mult_perm": {
+   "lam0": 3.0,
+   "delta": 2.0,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.26716441156612697,
+   "SE": 0.0016162972951153935,
+   "drop_nl": 0.29532080389129606,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 3.629349218644609e-05
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00028684053709486653
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011913525945978222
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 8.139417166893069e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00016581923763084831
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0021663390202727464
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0010849737813497544
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007055272973582969
+    }
+   }
+  },
+  "lam3.0_d3.93_add_r20": {
+   "lam0": 3.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r20",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5897579373745011,
+   "SE": 0.0002703444414853335,
+   "drop_nl": -0.02727272191707808,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0001429084061559162
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0012132949460348708
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000699662422106467
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00036900482356677715
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007805718578265254
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.012054281378029282
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005839355950943715
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.003374197580877403
+    }
+   }
+  },
+  "lam3.0_d3.93_add_r50": {
+   "lam0": 3.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r50",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5765354925997672,
+   "SE": 0.0004495490375787995,
+   "drop_nl": -0.014050277142344192,
+   "nl_drops_significantly": false,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013635213357918505
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0011494155458145721
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006587130567291003
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00035078285495121947
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0007333726467112267
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.01134408639213844
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005492244486029055
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0031885500731404577
+    }
+   }
+  },
+  "lam3.0_d3.93_add_r75": {
+   "lam0": 3.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r75",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.5588989086240854,
+   "SE": 0.0005411114814152821,
+   "drop_nl": 0.0035863068333376047,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00013019293795997122
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0010937828801189273
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006244190914228159
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00033439055371014376
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006945408491070571
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.010751474155965762
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.005203954543208168
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0030297416020514632
+    }
+   }
+  },
+  "lam3.0_d3.93_add_r100": {
+   "lam0": 3.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r100",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.5424855030297188,
+   "SE": 0.0006072261776751609,
+   "drop_nl": 0.019999712427704264,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00012478255915996696
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.001045935462506057
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005951937482275758
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00032017078073178976
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006616312441344985
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.010247080673113427
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.004958937450265028
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.002893759010335431
+    }
+   }
+  },
+  "lam3.0_d3.93_add_r200": {
+   "lam0": 3.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_r200",
+   "S100_check": 0.8333333333333334,
+   "S_ord_1e4": 0.4960670843497889,
+   "SE": 0.0007541013631878775,
+   "drop_nl": 0.06641813110763412,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00011012378744402378
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0009192197106790077
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005184093588513006
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00028219283644983475
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005756935347144713
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.008923909327454032
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.004317233647882641
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.002535087472366319
+    }
+   }
+  },
+  "lam3.0_d3.93_add_rinf": {
+   "lam0": 3.0,
+   "delta": 3.9300956585724784,
+   "recov": "add_rinf",
+   "S100_check": 0.8333333333333333,
+   "S_ord_1e4": 0.3764396720933241,
+   "SE": 0.0009991151731923204,
+   "drop_nl": 0.18604554336409895,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 7.450389756352799e-05
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0006236888303769549
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00034165934781372434
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00019252296102548725
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00037991482362797037
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00588803530017854
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.002849389909697832
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0017040185656616068
+    }
+   }
+  },
+  "lam3.0_d3.93_mult_perm": {
+   "lam0": 3.0,
+   "delta": 3.9300956585724784,
+   "recov": "mult_perm",
+   "S100_check": 0.8333333333333336,
+   "S_ord_1e4": 0.208398491979614,
+   "SE": 0.0018174179667771785,
+   "drop_nl": 0.354086723477809,
+   "nl_drops_significantly": true,
+   "addon": {
+    "phi0.1_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 2.1289065067496254e-05
+    },
+    "phi0.1_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.000178221609348173
+    },
+    "phi0.1_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 5.159395087626251e-05
+    },
+    "phi0.1_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 4.715992139398569e-05
+    },
+    "phi0.3_yield": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 9.128769672905515e-05
+    },
+    "phi0.3_logit_g0.01": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0011191006076531032
+    },
+    "phi0.3_logit_g0.023": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.0005659547519024886
+    },
+    "phi0.3_logit_g0.04": {
+     "addon_extinct": 0.0,
+     "addon_collapse": 0.00036333396414069623
+    }
+   }
+  }
+ },
+ "r_star": {
+  "lam0.3_d1": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.001100134852144441,
+    "add_r50": -0.000737445636298184,
+    "add_r75": 0.00018598649798551303,
+    "add_r100": 0.0011885140075232892,
+    "add_r200": 0.0045150628277060845,
+    "add_rinf": 0.015847848818735133,
+    "mult_perm": 0.01726770174098813
+   }
+  },
+  "lam0.3_d2": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.0021464444098658886,
+    "add_r50": -0.0014169320223066384,
+    "add_r75": 0.0003258798322796075,
+    "add_r100": 0.0021815352609522165,
+    "add_r200": 0.00818249035537466,
+    "add_rinf": 0.027466514763404226,
+    "mult_perm": 0.031073413836114394
+   }
+  },
+  "lam0.3_d3.93": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.004029409434383124,
+    "add_r50": -0.002591381189052555,
+    "add_r75": 0.0005004802935059116,
+    "add_r100": 0.0036886525797609204,
+    "add_r200": 0.013582059433090876,
+    "add_rinf": 0.04266092133507393,
+    "mult_perm": 0.048644273499640844
+   }
+  },
+  "lam1.0_d1": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.0034509415821136757,
+    "add_r50": -0.002149345941498626,
+    "add_r75": 0.0007710716091895442,
+    "add_r100": 0.0038718109222803943,
+    "add_r200": 0.01393460330921914,
+    "add_rinf": 0.046935981323721565,
+    "mult_perm": 0.060916763453397804
+   }
+  },
+  "lam1.0_d2": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.0065390172138197755,
+    "add_r50": -0.00393058396221746,
+    "add_r75": 0.0013293188991947424,
+    "add_r100": 0.006750397510848605,
+    "add_r200": 0.023729822688072777,
+    "add_rinf": 0.07553503294573682,
+    "mult_perm": 0.10605385996790817
+   }
+  },
+  "lam1.0_d3.93": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.011682729114703916,
+    "add_r50": -0.00665022892588818,
+    "add_r75": 0.0020561289175942132,
+    "add_r100": 0.01066019642156324,
+    "add_r200": 0.0363512000425934,
+    "add_rinf": 0.10790464751412426,
+    "mult_perm": 0.1512581278197006
+   }
+  },
+  "lam3.0_d1": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.009580398217484909,
+    "add_r50": -0.00576402947712884,
+    "add_r75": 0.0017013623597318395,
+    "add_r100": 0.009344103172228113,
+    "add_r200": 0.03317375731414329,
+    "add_rinf": 0.10580813308860287,
+    "mult_perm": 0.19748141218379522
+   }
+  },
+  "lam3.0_d2": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.016939620417461332,
+    "add_r50": -0.0095176302409693,
+    "add_r75": 0.0026269838753991692,
+    "add_r100": 0.014512327831794125,
+    "add_r200": 0.04984199731457262,
+    "add_rinf": 0.14871234229092328,
+    "mult_perm": 0.29532080389129606
+   }
+  },
+  "lam3.0_d3.93": {
+   "bracket": [
+    "add_r50",
+    "add_r75"
+   ],
+   "drop_nl_by_recov": {
+    "add_r20": -0.02727272191707808,
+    "add_r50": -0.014050277142344192,
+    "add_r75": 0.0035863068333376047,
+    "add_r100": 0.019999712427704264,
+    "add_r200": 0.06641813110763412,
+    "add_rinf": 0.18604554336409895,
+    "mult_perm": 0.354086723477809
+   }
+  }
+ },
+ "H13b": {
+  "n_tests": 336,
+  "n_ok": 336,
+  "n_ok_if_collapse_counts": 326,
+  "n_cells_nl_drops": 42,
+  "n_cells_total": 63,
+  "max_ratio_addon_over_drop": 0.0,
+  "max_ratio_collapse_addon_over_drop": 6.764718178274112,
+  "verdict": "支持",
+  "violations": [],
+  "collapse_violations_sample": [
+   {
+    "key": "lam1.0_d1_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.01",
+    "drop_nl": 0.0007710716091895442,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.0010352941234702479,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d1_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.01",
+    "drop_nl": 0.0017013623597318395,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.011509236882709314,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d1_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.023",
+    "drop_nl": 0.0017013623597318395,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.0055757092189239596,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d1_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.04",
+    "drop_nl": 0.0017013623597318395,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.0032202819494121216,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d1_add_r100",
+    "phi": 0.3,
+    "pop": "logit_g0.01",
+    "drop_nl": 0.009344103172228113,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.011245360890123183,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d2_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.01",
+    "drop_nl": 0.0026269838753991692,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.011150104845453116,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d2_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.023",
+    "drop_nl": 0.0026269838753991692,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.005399202929559173,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d2_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.04",
+    "drop_nl": 0.0026269838753991692,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.0031298751402718842,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d3.93_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.01",
+    "drop_nl": 0.0035863068333376047,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.010751474155965762,
+    "ok_if_collapse_counts": false
+   },
+   {
+    "key": "lam3.0_d3.93_add_r75",
+    "phi": 0.3,
+    "pop": "logit_g0.023",
+    "drop_nl": 0.0035863068333376047,
+    "addon": 0.0,
+    "ok": true,
+    "addon_collapse": 0.005203954543208168,
+    "ok_if_collapse_counts": false
+   }
+  ]
+ },
+ "H15": {
+  "P_collapse_yield": 0.00025,
+  "P_collapse_logit023": 0.0011,
+  "ratio": 4.4,
+  "max_P_extinct_all": 0.0,
+  "part1_collapse_x10": false,
+  "part2_extinct_lt_1e-3": true,
+  "verdict": "部分支持"
+ },
+ "H16": {
+  "cells": {
+   "lam1.0_mult_perm_d2": {
+    "drop_nl": 0.10605385996790817,
+    "scan": [
+     {
+      "pop": "logit_g0.023",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99,
+      "P_extinct": 0.0009,
+      "addon": 9.005642123695552e-05
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999,
+      "P_extinct": 0.0134,
+      "addon": 0.0025137621835929634
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9999,
+      "P_extinct": 0.082,
+      "addon": 0.022691623713937497
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99999,
+      "P_extinct": 0.1068,
+      "addon": 0.03137431776771851
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999999,
+      "P_extinct": 0.1171,
+      "addon": 0.035176861723352736
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99,
+      "P_extinct": 0.00215,
+      "addon": 0.000287222429995412
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999,
+      "P_extinct": 0.02105,
+      "addon": 0.004678081282122808
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9999,
+      "P_extinct": 0.10945,
+      "addon": 0.03231156118086531
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99999,
+      "P_extinct": 0.11985,
+      "addon": 0.03626472621626032
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999999,
+      "P_extinct": 0.12125,
+      "addon": 0.03685828359546223
+     }
+    ],
+    "D_star": {
+     "logit_g0.023": null,
+     "logit_g0.01": null
+    }
+   },
+   "lam1.0_add_r200_d2": {
+    "drop_nl": 0.023729822688072777,
+    "scan": [
+     {
+      "pop": "logit_g0.023",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99,
+      "P_extinct": 0.0009,
+      "addon": 0.0003784404976089991
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999,
+      "P_extinct": 0.0134,
+      "addon": 0.005934895264997408
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9999,
+      "P_extinct": 0.082,
+      "addon": 0.03878122660240741
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99999,
+      "P_extinct": 0.1068,
+      "addon": 0.05112240163180318
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999999,
+      "P_extinct": 0.1171,
+      "addon": 0.05630549419284165
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99,
+      "P_extinct": 0.00215,
+      "addon": 0.0009333964178152277
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999,
+      "P_extinct": 0.02105,
+      "addon": 0.009594606225036715
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9999,
+      "P_extinct": 0.10945,
+      "addon": 0.052438477535571404
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99999,
+      "P_extinct": 0.11985,
+      "addon": 0.05770954476811187
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999999,
+      "P_extinct": 0.12125,
+      "addon": 0.05844470175424151
+     }
+    ],
+    "D_star": {
+     "logit_g0.023": 0.9999,
+     "logit_g0.01": 0.9999
+    }
+   },
+   "lam3.0_mult_perm_d2": {
+    "drop_nl": 0.29532080389129606,
+    "scan": [
+     {
+      "pop": "logit_g0.023",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9,
+      "P_extinct": 0.0001,
+      "addon": 3.696752663573402e-30
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99,
+      "P_extinct": 0.04325,
+      "addon": 0.00198690507363753
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999,
+      "P_extinct": 0.20445,
+      "addon": 0.02238838823339323
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9999,
+      "P_extinct": 0.4287,
+      "addon": 0.06848843143886454
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99999,
+      "P_extinct": 0.499,
+      "addon": 0.08731896033646142
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999999,
+      "P_extinct": 0.52615,
+      "addon": 0.09516222226333407
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9,
+      "P_extinct": 0.00065,
+      "addon": 5.88018648268164e-07
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99,
+      "P_extinct": 0.0859,
+      "addon": 0.005868465697754725
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999,
+      "P_extinct": 0.2593,
+      "addon": 0.03268150160401366
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9999,
+      "P_extinct": 0.5067,
+      "addon": 0.08957176555195044
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99999,
+      "P_extinct": 0.5335,
+      "addon": 0.097549036263122
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999999,
+      "P_extinct": 0.53635,
+      "addon": 0.0984583814344231
+     }
+    ],
+    "D_star": {
+     "logit_g0.023": null,
+     "logit_g0.01": null
+    }
+   },
+   "lam3.0_add_r200_d2": {
+    "drop_nl": 0.04984199731457262,
+    "scan": [
+     {
+      "pop": "logit_g0.023",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9,
+      "P_extinct": 0.0001,
+      "addon": 3.316040696844163e-05
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99,
+      "P_extinct": 0.04325,
+      "addon": 0.018326192445910387
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999,
+      "P_extinct": 0.20445,
+      "addon": 0.09387659748323302
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.9999,
+      "P_extinct": 0.4287,
+      "addon": 0.20480684953980993
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.99999,
+      "P_extinct": 0.499,
+      "addon": 0.24118143171406844
+     },
+     {
+      "pop": "logit_g0.023",
+      "D": 0.999999,
+      "P_extinct": 0.52615,
+      "addon": 0.25532572717460944
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.7971641791044776,
+      "P_extinct": 0.0,
+      "addon": 0.0
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9,
+      "P_extinct": 0.00065,
+      "addon": 0.0002413059604467299
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99,
+      "P_extinct": 0.0859,
+      "addon": 0.037795916657298236
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999,
+      "P_extinct": 0.2593,
+      "addon": 0.12077738768519485
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.9999,
+      "P_extinct": 0.5067,
+      "addon": 0.2452210874442614
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.99999,
+      "P_extinct": 0.5335,
+      "addon": 0.2592171849166406
+     },
+     {
+      "pop": "logit_g0.01",
+      "D": 0.999999,
+      "P_extinct": 0.53635,
+      "addon": 0.26072470954503635
+     }
+    ],
+    "D_star": {
+     "logit_g0.023": 0.999,
+     "logit_g0.01": 0.999
+    }
+   }
+  },
+  "D_star_primary": null,
+  "verdict": "支持",
+  "note": "D_star=None は走査範囲（≤0.999999）で addon が drop_nl に届かないことを意味する"
+ },
+ "runtime_seconds": 5.392023324966431
+}
