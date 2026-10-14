@@ -88,19 +88,22 @@ for k in ks:
     kscan[k] = {"median_peril_S": math.exp(-k*h0_ord*TAU_MED),
                 **{f"S1e4_rho{rho}": S_mc(1e4, *draw(rho, k=k))[0] for rho in [-0.8, 0.0, 0.8]}}
 res["h0_scale_scan_S1e4"] = kscan
-def gap(k):
-    return S_mc(1e4, *draw(0.8, k=k))[0] - S_mc(1e4, *draw(-0.8, k=k))[0]
-lo_k, hi_k = 0.5, 10.0
-if gap(lo_k)*gap(hi_k) < 0:
+def find_flip(sigma, lo_k=0.3, hi_k=30.0):
+    gap = lambda k: S_mc(1e4, *draw(0.8, sigma=sigma, k=k))[0] - S_mc(1e4, *draw(-0.8, sigma=sigma, k=k))[0]
+    if gap(lo_k)*gap(hi_k) >= 0: return None
     for _ in range(40):
         mid = math.sqrt(lo_k*hi_k)
         if gap(mid)*gap(lo_k) > 0: lo_k = mid
         else: hi_k = mid
-    kstar = math.sqrt(lo_k*hi_k)
-    res["H4_sign_flip_k"] = kstar
-    res["H4_sign_flip_median_cum_hazard"] = kstar*h0_ord*TAU_MED
-else:
-    res["H4_sign_flip_k"] = None
+    return math.sqrt(lo_k*hi_k)
+kstar = find_flip(SIGMA)
+res["H4_sign_flip_k"] = kstar
+res["H4_sign_flip_median_cum_hazard"] = kstar*h0_ord*TAU_MED if kstar else None
+res["H4_sign_flip_by_sigma"] = {}
+for s_ in [0.5, 1.0, 2.0]:
+    kk = find_flip(s_)
+    res["H4_sign_flip_by_sigma"][s_] = {"k": kk, "median_cum_hazard": kk*h0_ord*TAU_MED if kk else None,
+                                        "median_peril_S": math.exp(-kk*h0_ord*TAU_MED) if kk else None}
 # 文献アンカー別（Ord / XPT超予測者 / XPT専門家）
 anch = {}
 for name, hm in [("Ord_1/6", h0_ord), ("XPT_superforecasters_1pct", h0_xpt_sf), ("XPT_experts_6pct", h0_xpt_exp)]:
@@ -170,11 +173,14 @@ def damage_run(c, delta, pulse_spec, seed=SEED+1):
         Hstep = hp + dP
         logS -= Hstep
         if delta > 0:
-            ev = r2.random(N_DAMAGE) < -np.expm1(-c*Hstep)
+            u = r2.random(N_DAMAGE)              # 共通乱数（シナリオ間で同じ系列）
+            alive = logS > -50.0                 # 生存重み<2e-22 の世界は凍結（数値オーバーフロー防止。結果への寄与は無視できる）
+            ev = (u < -np.expm1(-c*Hstep)) & alive
             mult = np.where(ev, mult*(1+delta), mult); ncat += ev
         if int(b) in targets:
-            out[f"S_{int(b)}"] = float(np.mean(np.exp(logS - h_nat*b)))
-    out["mean_catastrophes_unweighted"] = float(ncat.mean())
+            x = np.exp(logS - h_nat*b)
+            out[f"S_{int(b)}"] = float(x.mean()); out[f"SE_{int(b)}"] = float(x.std(ddof=1)/math.sqrt(x.size))
+            out[f"mean_catastrophes_survivor_weighted_{int(b)}"] = float((ncat*x).sum()/x.sum())
     return out
 dmg = {"grid_steps": int(grid.size-1)}
 # 検証: δ=0 は解析式と一致するはず
@@ -232,10 +238,10 @@ fig, ax = plt.subplots(figsize=(9, 4.3))
 names = [n for n in specs if n != "none"]
 x = np.arange(len(names))
 for j, key in enumerate(["c3.33_delta1.0", "c9.05_delta1.0", "c3.33_delta0.5"]):
-    ax.bar(x+(j-1)*0.27, [dmg[key]["none"]["S_10000"]-dmg[key][n]["S_10000"] for n in names], 0.27, label=key)
-ax.axhline(base[10000]-S_mc(1e4, h0i, taui, P=h0_ord*100)[0], color="k", lw=1, ls="--", label="pure hazard (delta=0)")
+    ax.bar(x+(j-1)*0.27, [1-dmg[key][n]["S_10000"]/dmg[key]["none"]["S_10000"] for n in names], 0.27, label=key)
+ax.axhline(1-math.exp(-h0_ord*100), color="k", lw=1, ls="--", label="pure hazard: 1-exp(-A*w)")
 ax.set_xticks(x); ax.set_xticklabels(names, rotation=25, ha="right", fontsize=8)
-ax.set_ylabel("loss in S(10,000 y) due to pulse"); ax.set_title("Damage (self-exciting) model: same-area pulses")
+ax.set_ylabel("relative loss 1 - S_pulse/S_none at 10,000 y"); ax.set_title("Damage (self-exciting) model: same-area pulses")
 ax.legend(fontsize=8); plt.tight_layout(); plt.savefig("fig_damage_model.png", dpi=130)
 
 print(json.dumps(res, indent=1, ensure_ascii=False))
