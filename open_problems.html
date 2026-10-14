@@ -1,18 +1,24 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="2">未解決問題（第2回時点）</h1>
-<p>解決・縮小したもの（第2回）：
-- 旧1「推定値は中央値か平均か」→ README に方法論規則として明文化。XPT は質問ごとの回答者中央値と確認した。Ord は個人推定で、分布上の意味は不明のまま（下の1へ）。
-- 旧2「h0–τ の相関構造」→ 感度は定量化した（Ordアンカーで S(1万年) 0.524〜0.594）。符号を決める実証は未解決（下の2へ）。</p>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="3">未解決問題（第3回時点）</h1>
+<p>解決・縮小したもの（第3回）：
+- Ord 1/6 の減衰モデルへの誤った組み込み → 解析較正で修正（h₀=0.002302）。不確実性込みの平均較正も実施。
+- H2・H5・H6（純ハザード）・H3 を仮説と性質の混同から分離し、モデルの性質に格下げ。
+- 自己励起の「刻み最大1回」→ Poisson複数回＋dt∈{1,0.1,0.01} で収束を確認（主要Sはdt=1で十分）。
+- 指数減衰以外の構造比較（一定・線形増加・べき減衰）を同一100年較正で実施 → 長期Sは構造依存が極大と判明。
+- Thorstad 2022・Hawkes 1971 を本文で確認。Liu et al. 2004 は要旨のみ。</p>
 <h2 id="_1">残っている問い・新しい問い</h2>
 <ol>
-<li>Ord の1/6のような個人推定は、自分の主観分布の中央値なのか平均なのか。XPT の個人別回答分布（公開データがあれば）から、集団の平均と中央値の比を取れるか。</li>
-<li>h0–τ 相関の<strong>符号</strong>を決める手がかり：過去の技術リスク（核・フロン・病原体研究規制）で「リスク強度」と「制御までの期間」の関係を示すデータはあるか。</li>
-<li><strong>脆弱化パラメータ δ</strong>（非致死的大災害がその後の存続リスクを何倍にするか）。研究002では δ=1 で S(1万年) が 0.545→0.395 に下がった。最も結果を動かす未定量パラメータ【推測】。</li>
-<li>大災害の発生率 c（大災害／絶滅比）：XPTの中央値比 3.3〜9.1 は個人の条件付き確率ではない。回答者ごとの比の分布が必要。</li>
-<li>H4の符号反転条件（中央値世界の危険期生存 ≈0.42〜0.50）は、指数減衰以外のハザード形（べき減衰、τ→∞ の成分を持つ混合）でも成り立つか。</li>
-<li>新リスクの振幅が既存リスクの強さと連動すると ρ効果がほぼ消えた（研究002 3.3、探索的）。連動の度合いをパラメータ化して事前登録で検証する。</li>
+<li>Ord の1/6のような個人推定は、自分の主観分布の中央値なのか平均なのか。XPTの個人別回答分布（公開データがあれば）から、集団の平均と中央値の比を取れるか。— 第3回：平均較正版ではS(1e4)≈0.55でσ依存がほぼ消えることを確認。個人データの取得は未着手。</li>
+<li>h0–τ 相関の<strong>符号</strong>を決める手がかり：過去の技術リスクで「強度」と「制御までの期間」の関係を示すデータはあるか。</li>
+<li><strong>脆弱化パラメータ δ</strong> と発生率 <strong>c</strong>：第3回で感度範囲を明示（S(1e4)=0.21〜0.50）。実証的な較正（Xia 2022の大規模死者→回復不能確率、など）は未着手。回復・一時増加・学習による減少モデルも未着手（査読2.4）。</li>
+<li>（旧4と統合）大災害／絶滅比の回答者ごとの分布。</li>
+<li>H4の符号反転条件は指数減衰以外でも成り立つか。第3回で構造比較はしたが、ρスキャンの再実行は未了。新h₀換算の反転点も未再探索。</li>
+<li>新リスクの振幅が既存リスクの強さと連動すると ρ効果がほぼ消えた（研究002）。連動の度合いをパラメータ化して事前登録で検証する。</li>
 <li>強度削減と期間短縮の費用関数（001 H2 の非自明部分）— 未着手。</li>
-<li>自然ハザードの真の床（1/87,000〜1/870,000 以下）。10万年以降の結論を支配する — 未着手。</li>
-<li>大規模死者（Xia 2022 の50億人超）から「回復不能な崩壊」確率への写像（priorities #2）。脆弱化モデルの δ と同じ問いの別の面。</li>
-<li>リスク間相関（AI・バイオ・核）：XPT の要因別中央値は加算不可なので、独立合算の誤差は共通ショックモデルで評価する必要がある（第3回の課題）。</li>
+<li>自然ハザードの真の床（1/87,000〜1/870,000 以下）を幅のあるシナリオにする — 未着手（査読2.2）。</li>
+<li>大規模死者（Xia 2022）から「回復不能な崩壊」確率への写像。</li>
+<li>リスク間相関（AI・バイオ・核）：共通ショック／コピュラ（査読対応のため第3回から繰り越し。第4回の主課題候補）。</li>
 <li>生物人類と独立した「知性」の存続経路のリスクが文献上ほぼ未定量。</li>
+<li>【新規・第3回】多状態終端（絶滅／不可逆崩壊／知性消滅）と、反復災害＋終端の共有フレイルティ（Liu et al. 2004 型）。全文PDFの取得と実装。</li>
+<li>【新規・第3回】dt収束比較を共通乱数のペア差でやり直し、信頼区間を出す（査読2.6）。</li>
+<li>【新規・第3回】指数減衰以外（べき減衰・一定成分の混合）での「危険の時代」仮説の評価 — Thorstad 批判との接続。</li>
 </ol><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,402 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究003：外部査読（大幅修正）への対応 — 再較正・恒等式の格下げ・Hawkes風脆弱化・構造比較 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="003-hawkes">研究003：外部査読（大幅修正）への対応 — 再較正・恒等式の格下げ・Hawkes風脆弱化・構造比較</h1>
+<p>再現：<code>cd research/003-peer-review-response &amp;&amp; python3 sim.py &gt; stdout.txt</code>（seed=20261014, N=200,000／脆弱化 N=30,000（dt=0.01 は先頭12,000世界）、所要約4分、要 numpy/matplotlib）→ <code>results.json</code>, <code>fig_recalibration_and_structures.png</code>, <code>fig_hawkes_convergence_sensitivity.png</code>, <code>fig_sigma_sensitivity.png</code>。回答表：<code>response_table.md</code>。</p>
+<p>位置づけ：<strong>探索的な修正研究</strong>（事前登録の独立した証明はない。査読 軽微4）。本研究所のモデルは「仮定した数学的世界の性質」を調べるもので、現実の存続確率の予測ではない【推測（査読の最終コメントを受け入れる）】。</p>
+<h2 id="0">0. 再現確認</h2>
+<ul>
+<li>研究001・002を <code>/tmp</code> の別ディレクトリで再実行し、<code>results.json</code> が既存とバイト一致（<code>cmp</code> で差分なし。002 は 3分33秒）。</li>
+<li>本研究の「旧 h₀・σ=1」ベースライン（S(100)=0.82607, S(1e4)=0.54479）は研究001の <code>baseline</code> と一致。</li>
+</ul>
+<h2 id="1-2223">1. 終端事象の定義（査読 2.2）と信念の度合い（2.3）</h2>
+<table>
+<thead>
+<tr>
+<th>記号</th>
+<th>事象</th>
+<th>文献値の統計的意味</th>
+<th>本研究での扱い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E1 存続破局</td>
+<td>人類の長期的可能性の不可逆な喪失（回復不能な崩壊を含む）</td>
+<td>【事実（Ord 2020）】今世紀1/6、<strong>個人の主観推定</strong></td>
+<td><strong>主モデルの唯一の終端事象</strong></td>
+</tr>
+<tr>
+<td>E2 絶滅（XPT）</td>
+<td>世界人口5,000人未満</td>
+<td>【事実（Karger et al. 2023）】2100年まで、回答者<strong>中央値</strong></td>
+<td>本研究では使わない。E1 と直接比較しない</td>
+</tr>
+<tr>
+<td>E3 自然絶滅</td>
+<td>自然要因による人類絶滅</td>
+<td>【事実（Snyder-Beattie et al. 2019）】年率<strong>上限</strong> &lt;1/87,000</td>
+<td>h_nat として固定。上限を床として使う強い仮定（下の限界参照）</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Ord の1/6と、h₀・τ にかける対数正規の σ は、<strong>研究者の信念の度合い</strong>（認識的不確実性）であり、世界ごとの物理的なばらつきでも観測頻度でもない【推測】。</li>
+</ul>
+<h2 id="2-ord-16-21">2. Ord 1/6 の再較正（査読 2.1）</h2>
+<p>減衰ハザード h(t)=h₀e^(−t/τ)+h_nat のもとで
+S(100)=exp[−h₀τ(1−e^(−100/τ))−100·h_nat]=5/6
+⇒ <strong>h₀ = [ln(6/5) − 100·h_nat] / [τ(1−e^(−100/τ))]</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>h₀</th>
+<th>点推定 S(100)</th>
+<th>100年破局確率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>旧（一定ハザード換算 1−(5/6)^(1/100)）</td>
+<td>0.00182155</td>
+<td>0.86546</td>
+<td>13.45%</td>
+</tr>
+<tr>
+<td><strong>新（減衰モデルで解析較正）</strong></td>
+<td><strong>0.00230224</strong></td>
+<td><strong>0.83333</strong></td>
+<td><strong>16.67%</strong></td>
+</tr>
+<tr>
+<td>査読値</td>
+<td>0.002302</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【計算】新/旧 = 1.2639（+26.4%）。査読値との差は 2.4×10⁻⁷（丸めの範囲）。<strong>査読の指摘は正しい</strong>。</li>
+<li>旧方式の誤りは、一定ハザードと減衰ハザードで100年積分が違う（τ(1−e^(−0.5))≈78.7年 対 100年）のに同じ h₀ を使ったこと。</li>
+</ul>
+<h3 id="001002-recalc_001_002_key">001/002 主要結果の新旧比較（<code>recalc_001_002_key</code>）</h3>
+<table>
+<thead>
+<tr>
+<th>指標</th>
+<th>旧 h₀</th>
+<th>新 h₀</th>
+<th>差</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>点推定 S(100)</td>
+<td>0.8655</td>
+<td>0.8333</td>
+<td>−0.032</td>
+</tr>
+<tr>
+<td>点推定 S(1e3)</td>
+<td>0.6884</td>
+<td>0.6257</td>
+<td>−0.063</td>
+</tr>
+<tr>
+<td>点推定 S(1e4)</td>
+<td>0.6192</td>
+<td>0.5625</td>
+<td>−0.057</td>
+</tr>
+<tr>
+<td>点推定 S(1e5)</td>
+<td>0.2201</td>
+<td>0.1999</td>
+<td>−0.020</td>
+</tr>
+<tr>
+<td>σ=1（中央値アンカー）S(100)</td>
+<td>0.8261</td>
+<td>0.7906</td>
+<td>−0.035</td>
+</tr>
+<tr>
+<td>σ=1 S(1e4)</td>
+<td>0.5448</td>
+<td>0.5011</td>
+<td>−0.044</td>
+</tr>
+<tr>
+<td>σ=1 S(1e5)</td>
+<td>0.1936</td>
+<td>0.1781</td>
+<td>−0.016</td>
+</tr>
+<tr>
+<td>介入A（h₀半減）S(100) / S(1e4)</td>
+<td>0.903 / 0.659</td>
+<td>0.881 / 0.623</td>
+<td></td>
+</tr>
+<tr>
+<td>介入B（τ半減）S(100) / S(1e4)</td>
+<td>0.854 / 0.659</td>
+<td>0.824 / 0.623</td>
+<td></td>
+</tr>
+<tr>
+<td>脆弱化 c=3.33, δ=1 の S(1e4)</td>
+<td>0.395（002、旧h₀、刻み最大1回、1000年以降10年刻み）</td>
+<td>0.345（新h₀、Poisson、dt=1）</td>
+<td>−0.050</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【計算】脆弱化の差 −0.050 の内訳：同じ新 h₀・dt=1 で旧方式（刻み最大1回）だと 0.344（SE 0.002）、Poisson 方式で 0.343〜0.345。<strong>差のほぼ全部は h₀ の再較正による</strong>もので、多重事象の扱いによる差は dt=1 ではモンテカルロ誤差の範囲。</li>
+</ul>
+<h3 id="mean_calibrated_uncertain">不確実性込みの平均較正（<code>mean_calibrated_uncertain</code>）</h3>
+<p>査読の提案どおり、σ&gt;0 で<strong>平均</strong> E[S(100)]=5/6 となるよう h₀ 中央値を二分法で求めた。
+| σ | h₀ 中央値 | 点較正比 | S(1e3) | S(1e4) | S(1e5) |
+|---|---|---|---|---|---|
+| 0.5 | 0.002127 | 0.924 | 0.623 | 0.554 | 0.197 |
+| 1.0 | 0.001722 | 0.748 | 0.636 | 0.554 | 0.197 |
+| 1.5 | 0.001294 | 0.562 | 0.659 | 0.564 | 0.200 |
+- 【計算】100年予測の<strong>平均</strong>を固定すると、S(1e4) は σ によらず 0.55〜0.56 にほぼ収まる。σ への強い依存（下の §3）は主に「1/6 を中央値と読むか平均と読むか」から来る（研究001 H1 の再確認）。</p>
+<h2 id="3-sigma_prior_sensitivity">3. σ事前の感度（中央値アンカー、<code>sigma_prior_sensitivity</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>σ</th>
+<th>旧 S(1e4)</th>
+<th>新 S(1e4)</th>
+<th>新 S(100)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5</td>
+<td>0.590</td>
+<td>0.535</td>
+<td>0.821</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>0.545</td>
+<td>0.501</td>
+<td>0.790</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>0.518</td>
+<td>0.483</td>
+<td>0.757</td>
+</tr>
+<tr>
+<td>- 【推測】中央値アンカーでは σ が大きいほど S(100) も 5/6 から離れる。σ は信念の度合いの仮定なので、§2 の平均較正版と並べて示すのが妥当。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-25">4. 仮説から「モデルの性質」への格下げ（査読 2.5）</h2>
+<table>
+<thead>
+<tr>
+<th>旧ラベル</th>
+<th>内容</th>
+<th>新しい扱い</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>001 H2</td>
+<td>h₀半減と τ半減は長期で等価</td>
+<td><strong>モデルの性質（恒等式）</strong></td>
+<td>∫₀^∞ h₀e^(−t/τ)dt = h₀τ。T≫τ で一致するのは数式から自明。新 h₀ でも S(1e5) は A・B で小数7桁まで一致（0.2214738）。<strong>非自明な残り</strong>：有限T での差（新 h₀ の点推定 S(100) は A 0.912 対 B 0.864）と費用関数（未着手）</td>
+</tr>
+<tr>
+<td>002 H5</td>
+<td>ρ効果は log(h₀τ) の分散で決まる</td>
+<td><strong>モデルの性質（恒等式）</strong></td>
+<td>二変量対数正規では Var[log(h₀τ)] = 2σ²(1+ρ)。長期 S は h₀τ だけで決まるので、同じ積分布なら同じ S。<strong>残り</strong>：有限期間の差と、「強いが短い」群の寄与の分解（査読 2.5 の後半。未実施）</td>
+</tr>
+<tr>
+<td>002 H6（純ハザード部分）</td>
+<td>同面積パルスは同じ損失</td>
+<td><strong>モデルの性質（恒等式）</strong></td>
+<td>加法パルスが T までに出終われば S_none/S_pulse = e^(Aw)。数値計算は実装の検算であって仮説の検証ではない</td>
+</tr>
+<tr>
+<td>001 H3</td>
+<td>10万年以降は自然床が支配</td>
+<td><strong>仮定した床の下でのモデルの性質</strong></td>
+<td>h_nat を固定すると T≫τ で人為項は h₀τ で頭打ちになり、e^(−h_nat·T) だけが残る。結論は床の値（上限1/87,000）の仮定そのもの</td>
+</tr>
+<tr>
+<td>001 H1</td>
+<td>不確実性で長期生存が上がる</td>
+<td><strong>維持（条件付き棄却のまま）</strong></td>
+<td>中央値／平均のどちらで読むかという解釈の問題であり、§2・§3 で再確認</td>
+</tr>
+<tr>
+<td>002 H4</td>
+<td>ρ効果の符号反転</td>
+<td><strong>維持（実質的な数理的分析）</strong></td>
+<td>ただし反転点 k≈2.07 は有効数字を落として「約2」とし、普遍性は未証明（査読 軽微3）。新 h₀ では k の基準が 1.264 倍ずれるため、反転点は旧 Ord 換算で k≈2.07 → 新 h₀ 換算で約1.64 と読み替える【計算：2.07/1.264。再探索は未実施】</td>
+</tr>
+<tr>
+<td>002 H6（脆弱化部分）</td>
+<td>同面積でも時期で損失が変わる</td>
+<td><strong>維持。ただし c・δ に条件付き</strong></td>
+<td>§5 参照</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-hawkes-24-26">5. Hawkes風の脆弱化モデル（査読 2.4, 2.6）</h2>
+<ul>
+<li>モデル：区間 [t, t+dt] で存続破局の累積 ΔH = m·h₀τ(e^(−t/τ)−e^(−(t+dt)/τ)) を生存対数から引き、非致死的大災害の回数 n~Poisson(c·ΔH) を引いて m ← m(1+δ)^n とする（1刻みで複数回の事象を許す）。</li>
+<li>【事実（Hawkes 1971, Biometrika 58:83–90）】自己励起過程は強度 λ(t)=ν+∫g(t−u)dN(u)、定常には ∫g&lt;1 が必要。【推測】本モデルは減衰カーネル g ではなく<strong>乗法的で恒久的な励起</strong>なので、古典的な Hawkes 過程そのものではなく「Hawkes風」の離散近似。</li>
+<li><strong>c・δ は実証的に未較正のシナリオパラメータ</strong>（XPT の大災害／絶滅比 3.33・9.05 は感度範囲の目安にすぎず、発生率の倍率ではない。査読どおり −ln(1−0.06)/−ln(1−0.20) ≈ 3.61 という読み替えもありうる）。</li>
+</ul>
+<h3 id="h0-1">検証（新 h₀, σ=1）</h3>
+<ul>
+<li>δ=0：dt=1, 0.1, 0.01 のすべてで解析解との差が ≤1.2×10⁻¹⁴（同じ世界パラメータ）。</li>
+<li>収束（c=3.33, δ=1）：
+| dt | N | S(100) | S(1000) | S(1e4) | 平均大災害数(1000年) |
+|---|---|---|---|---|---|
+| 1 | 30,000 | 0.6662 (SE 0.0020) | 0.3916 (0.0023) | 0.3428 (0.0020) | 19.1 |
+| 0.1 | 30,000 | 0.6653 (0.0020) | 0.3948 (0.0023) | 0.3459 (0.0020) | 20.0 |
+| 0.01 | 12,000 | 0.6676 (0.0031) | 0.3960 (0.0036) | —（計算量のため T=1000 まで） | 21.2 |</li>
+<li>【計算】S は dt によらず SE の約1.5倍以内で一致し、<strong>主要結果は dt=1 で収束済み</strong>と判断する。全世界での平均大災害数は dt を細かくすると少し増える（19.1→21.2）が、増えるのは主に生存重みがほぼ0の世界であり、S には効かない。</li>
+<li>限界：dt 間の比較は乱数系列が独立（ペア差・共通乱数ではない）。査読 2.6 の「ペア差の信頼区間」は未実施。</li>
+</ul>
+<h3 id="c-dt1-n30000-s1e4se0002">c・δ の感度（dt=1, N=30,000, S(1e4)、SE≈0.002）</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>δ=0</th>
+<th>δ=0.5</th>
+<th>δ=1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>c=1</td>
+<td>0.500</td>
+<td>0.467</td>
+<td>0.446</td>
+</tr>
+<tr>
+<td>c=3.33</td>
+<td>0.500</td>
+<td>0.395</td>
+<td>0.345</td>
+</tr>
+<tr>
+<td>c=9.05</td>
+<td>0.500</td>
+<td>0.275</td>
+<td>0.209</td>
+</tr>
+<tr>
+<td>- 【計算】脆弱化なしの 0.500 に対して、S(1e4) は c·δ によって 0.21〜0.47 と2倍以上動く。<strong>002 の「0.544→0.395」は c・δ の選び方しだいの数字</strong>であり、結論として示すべきは範囲。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 未実施：回復モデル・一時的な増加・学習による減少（査読 2.4 の後半）→ 次回。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-27-10016">6. ハザード構造の比較（査読 2.7）— どれも100年破局1/6に較正</h2>
+<table>
+<thead>
+<tr>
+<th>構造</th>
+<th>人為ハザード</th>
+<th>パラメータ</th>
+<th>S(100)</th>
+<th>S(1e4)</th>
+<th>S(1e5)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>指数減衰</td>
+<td>h₀e^(−t/200)</td>
+<td>h₀=0.002302</td>
+<td>0.8333</td>
+<td><strong>0.5625</strong></td>
+<td>0.1999</td>
+</tr>
+<tr>
+<td>一定</td>
+<td>h</td>
+<td>h=0.001812</td>
+<td>0.8333</td>
+<td><strong>1.2×10⁻⁸</strong></td>
+<td>6.6×10⁻⁸⁰</td>
+</tr>
+<tr>
+<td>線形増加（100年で2倍）</td>
+<td>a(1+t/100)</td>
+<td>a=0.001208</td>
+<td>0.8333</td>
+<td><strong>≈2.7×10⁻²⁶⁸</strong></td>
+<td>0</td>
+</tr>
+<tr>
+<td>べき減衰 α=1</td>
+<td>h₀/(1+t/200)</td>
+<td>h₀=0.002234</td>
+<td>0.8333</td>
+<td><strong>0.1538</strong></td>
+<td>0.0197</td>
+</tr>
+<tr>
+<td>- 【計算】100年先の予測を同じにそろえても、1万年生存は<strong>0から0.56まで</strong>動く。べき減衰（累積ハザードが対数的に増え続ける）でも指数減衰の約1/4。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【独自仮説→本回で支持】「長期の存続確率はハザードの関数形で決まり、100年の較正だけでは決まらない」。001 の 0.54〜0.66 という数字は「指数減衰で危険の時代が終わる」という仮定を置いたときの条件付きの値である。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【事実（Thorstad 2022, GPI Working Paper 1-2022）】天文学的価値（astronomical value）を救うには「短い危険期」と「その後の非常に低いリスク」の両方が必要で、Thorstad はそれを支える議論（知恵、存続リスクのクズネッツ曲線、宇宙進出）はどれも決定的でないと論じる。本研究の指数減衰はまさにこの危険の時代仮説を数式にしたもので、構造比較はその仮定への依存の強さを数値で示している【推測】。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="7">7. 文献（実際に開けたものだけ）</h2>
+<ul>
+<li>【取得・本文確認】Thorstad, D. (2022) "Existential risk pessimism and the time of perils", GPI Working Paper No.1-2022. https://www.globalprioritiesinstitute.org/wp-content/uploads/David-Thorstad-Existential-risk-pessimism1.pdf （解説：https://reflectivealtruism.com/2022/11/30/existential-risk-pessimism-and-the-time-of-perils-part-i-the-problem/ ）</li>
+<li>【取得・本文確認】Hawkes, A. G. (1971) "Spectra of some self-exciting and mutually exciting point processes", Biometrika 58(1):83–90, doi:10.1093/biomet/58.1.83. https://www.dcscience.net/Hawkes-Biometrika-1971.pdf</li>
+<li>【要旨のみ確認、全文PDFは未取得】Liu, L., Wolfe, R. A., Huang, X. (2004) "Shared frailty models for recurrent events and a terminal event", Biometrics 60(3):747–756, doi:10.1111/j.0006-341X.2004.00225.x. https://onlinelibrary.wiley.com/doi/10.1111/j.0006-341X.2004.00225.x （要旨：反復事象と終端事象を共有ガンマフレイルティで結合し、モンテカルロEM で推定）。University of Michigan のリポジトリからのPDF取得は HTML が返り失敗。</li>
+<li>Ord 2020、Karger et al. 2023（XPT）、Snyder-Beattie et al. 2019 は taxonomy.md の既存出典。</li>
+</ul>
+<h2 id="8">8. 限界</h2>
+<ul>
+<li>h_nat=1/87,000 は上限で、点推定ではない。幅を持ったシナリオ化（査読 2.2）は未実施。</li>
+<li>終端事象は E1 のみ。絶滅・不可逆崩壊・知性消滅を別々の終端にする多状態モデル（Liu et al. 型）は未実施。</li>
+<li>c・δ・σ はすべて未較正の仮定。</li>
+<li>dt 収束の比較は独立な乱数系列による。dt=0.01 は世界数と計算期間を減らしている。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

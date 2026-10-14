@@ -18,4 +18,13 @@
 <li>主要数値：S(1万年) = 0.594（ρ=−0.8）／0.545（ρ=0）／0.524（ρ=+0.8）。パルス A=h0, w=100 で S(1万年) 0.545→0.454。脆弱化モデル（c=3.33, δ=1）ではパルスなしの S(1万年) が 0.395。</li>
 <li>判定：H4 条件付き支持（h0 が Ord の約2.07倍を超えると符号反転）、H5 現象は支持・機構は棄却（効果は log(h0τ) の分散縮小による）、H6 純ハザードでは支持（自明）・脆弱化モデルでは「面積のみ」を棄却（同面積でも相対損失 17.6〜32.0%）。</li>
 <li>priorities.md を更新（#7 脆弱化を新設し、#4 と統合して第3回の課題に）。</li>
+</ul>
+<h2 id="3-2026-10-14">第3回 2026-10-14</h2>
+<ul>
+<li>【最優先】共通ショックテーマには進まず、外部査読（<code>/workspace/peer-review/chatgpt_review.md</code>、判定=大幅修正）への対応を実施。</li>
+<li>研究001・002を別ディレクトリで再実行し、results.json がバイト一致することを確認（002は3分33秒）。</li>
+<li>文献：Thorstad 2022 PDF（GPI）、Hawkes 1971 PDF を取得して本文確認。Liu, Wolfe &amp; Huang 2004 は Wiley 要旨を確認、全文PDFは未取得。</li>
+<li>研究003を実施：<code>research/003-peer-review-response/</code>（sim.py seed 20261014, N=200k／Hawkes N=30k, ~4分）→ results.json, fig_recalibration_and_structures.png, fig_hawkes_convergence_sensitivity.png, fig_sigma_sensitivity.png, response_table.md, report.md, stdout.txt。</li>
+<li>主要対応：(1) Ord 1/6 を減衰モデルで再較正 → h₀=0.002302（旧0.001822, +26.4%）、点推定S(100)=5/6を再現。(2) H2・H5・H6（純ハザード）・H3を「モデルの性質」に格下げ。(3) c・δを未較正シナリオと明記し感度分析。(4) Poisson複数事象の自己励起＋dt収束。(5) 終端定義の分離とσ感度。(6) 一定／線形増加／べき減衰との構造比較（同100年1/6較正）。</li>
+<li>priorities #4+#7（共通ショック）は査読対応完了後の次回課題へ繰り越し。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
