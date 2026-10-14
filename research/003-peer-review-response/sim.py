@@ -355,6 +355,24 @@ leg = legacy_max1(h0_h, tau_h, 3.33, 1.0, 1.0, 10000.0, rleg)
 hawkes["legacy_max1_per_step_c3.33_delta1_dt1"] = {str(k): v for k, v in leg.items()}
 res["hawkes_fragility"] = hawkes
 
+# ---------- 不確実性込みの平均較正（査読 2.1 後半）----------
+# E_σ[S(100)] = 5/6 となる h0 中央値を二分法で求める（共通乱数）。
+def mean_calibrate(sigma, n=N, seed=SEED + 21):
+    r = np.random.default_rng(seed)
+    z1 = r.normal(size=n); z2 = r.normal(size=n)
+    tau = TAU_MED * np.exp(sigma * z2)
+    f = lambda m: float(np.mean(np.exp(-(H_peril_exp(100.0, m * np.exp(sigma * z1), tau) + H_NAT * 100)))) - 5 / 6
+    lo, hi = 1e-5, 0.05
+    for _ in range(80):
+        mid = math.sqrt(lo * hi)
+        if f(mid) > 0: lo = mid
+        else: hi = mid
+    m = math.sqrt(lo * hi)
+    h0s = m * np.exp(sigma * z1)
+    return {"h0_median": m, "ratio_vs_point_new": m / h0_new,
+            **{f"S_{T}": S_mc(T, h0s, tau)[0] for T in TS_MAIN}}
+res["mean_calibrated_uncertain"] = {s: mean_calibrate(s) for s in [0.5, 1.0, 1.5]}
+
 # ---------- 文献取得状況 ----------
 res["literature_checked"] = {
     "Thorstad_2022_Existential_Risk_Pessimism_and_Time_of_Perils": {
