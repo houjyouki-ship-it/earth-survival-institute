@@ -1,0 +1,18 @@
+[
+ {
+  "url": "https://slab.ocadu.ca/sites/default/files/slabocaduca/MGI-Urban-world_Full%20Report_June%202012.pdf",
+  "status": "200 (curl, pdftotext)",
+  "excerpt": "Exhibit E2 Years to double per capita GDP (time to increase per capita GDP in PPP terms from $1,300 to $2,600): United Kingdom 154, United States 53, Germany 65, Japan 33, South Korea 10, China 12, India 16. SOURCE: Angus Maddison; University of Groningen"
+ },
+ {
+  "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+  "status": "200 (curl)",
+  "excerpt": "The 2023 version of this database covers 169 countries and the period up to 2022. ... Bolt and Van Zanden (2024) Journal of Economic Surveys 1-41. CC BY 4.0"
+ },
+ {
+  "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/joes.12618",
+  "status": "search-result snippet only (not opened directly)",
+  "excerpt": "pre-1820: 'indirect method' linking real wages and urbanization; original Maddison 158 pre-1820 observations vs close to 2800 in MPD 2023",
+  "note": "未直接確認のため本文では【事実】として使わない"
+ }
+]

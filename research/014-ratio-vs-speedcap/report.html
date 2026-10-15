@@ -1,0 +1,140 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究014：追いつきは「比」か「速度上限」か — 事前登録検定（open_problems 48） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="014-open_problems-48">研究014：追いつきは「比」か「速度上限」か — 事前登録検定（open_problems 48）</h1>
+<h2 id="_1">問い</h2>
+<p>研究012・013 は、手引き（primer）があると技術回復の各段の所要年数が「a 倍」になる（比のモデル）と置いた。013 では、追随国の所得倍増年数が帯によらず20〜29年でほぼ一定という探索的な兆候が出た（log 傾き 0.18±0.29、7帯、先頭年数35〜57年）。本研究では、帯の先頭年数を約30〜500年に広げ、先頭国の定義を4通りに変えて、傾き β を事前登録で検定する。β=1 なら比、β=0 なら速度上限である。そのうえで、得られた構造を読取梯子に入れ直す。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1人当たりGDP を $1,300→$2,600（PPP）にするのに要した年数：英国154年、米国53年、ドイツ65年、日本33年、韓国10年、中国12年、インド16年</td>
+<td>【事実（McKinsey Global Institute "Urban world" 2012、Exhibit E2、出典は Maddison。https://slab.ocadu.ca/sites/default/files/slabocaduca/MGI-Urban-world_Full%20Report_June%202012.pdf ）】</td>
+</tr>
+<tr>
+<td>Maddison Project Database 2023 は169か国・2022年まで。Bolt &amp; van Zanden 2024（J. Econ. Surveys）。CC BY 4.0</td>
+<td>【事実（GGDC、https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023 ）】</td>
+</tr>
+</tbody>
+</table>
+<p>データは 013 で取得した OWID の CSV（Maddison 2023）をそのまま使った。1820年以前の推計の作り方（実質賃金・都市化からの間接推計）については、検索結果の抜粋しか見ていないため、【事実】としては扱わない。</p>
+<h2 id="simpyseed20261015-seed2026101718">方法（sim.py、seed=20261015、ブートストラップ seed=20261017、約18秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（20:42 UTC、初回実行前）。登録前に見たのは、先頭国フロンティアの到達年（説明変数）だけである。</li>
+<li>帯は L=1000×2^(k/4)。条件は、先頭の到達年 FL≥1250、かつ 2L 到達 ≤2022。追随の定義は 013 と同じ。</li>
+<li>先頭国の定義：D1 英・蘭・米の最大、D2 英のみ、D3 全非産油国の最大（補間60年以下）、D4 D1 の31年平滑。</li>
+<li>帯レベル：KM 中央年数の log を log(先頭年数) に回帰した。</li>
+<li>記録レベル：右打ち切りの対数正規 AFT。log 年数 = α + β·log(先頭年数) + γ·(入帯年−1950)/50。国単位のクラスター・ブートストラップを200回行った。</li>
+<li>読取梯子：012/013 と同じ乱数を同じ順序で引いて再実装した。012・013 の D23* と相乗効果は厳密に一致した（<code>check_vs_013_ladder.reproduced_exactly=true</code>）。013 の GDP 集計（480記録、a 中央値 0.5842、傾き 0.1750）も一致した。</li>
+<li>混合型の primer：段 k の年数を min(d_k, n_k·exp(α+γ·e+s·Z)·(d_k/n_k)^β) とした。n_k は、その段を英国の所得倍増何回分とみなすか【推測】：T1→T2 0.876回、T2→T3 2.545回、T3→T4 1.713回。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H26a</td>
+<td>D1 の帯レベル β &lt; 0.5</td>
+<td><strong>0.117±0.076</strong>（15帯、先頭年数 35〜359年、1,139記録・137か国）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H26b</td>
+<td>4定義中3つ以上で β &lt; 0.5</td>
+<td>D1 0.117、D2 0.287±0.061、D3 0.131、D4 0.173 → <strong>4/4</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H26c</td>
+<td>AFT の β の95%上端 &lt; 1</td>
+<td>β=<strong>−0.085</strong> [−0.163, −0.007]。尤度比 2Δℓ は β=1 固定で 1029、β=0.5 で 450、β=0 で 12.1</td>
+<td><strong>支持</strong>（比のモデルは決定的に棄却）</td>
+</tr>
+<tr>
+<td>H26d</td>
+<td>時代係数 γ &lt; 0、区間が0を含まない</td>
+<td>γ=<strong>−0.316</strong>/50年 [−0.387, −0.220]。50年ごとに追随の倍増年数が ×0.73</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H26e</td>
+<td>混合型で Piql の D23*（primer あり）&gt; 809年</td>
+<td><strong>&gt;1600年</strong>（e=1850 でも1980 でも &gt;1600）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H26f</td>
+<td>同じく相乗効果（m23=300）&gt; +0.096</td>
+<td><strong>+0.129</strong>（e=1850 では +0.098、β を上端 −0.007 にすると +0.115）</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">主な数値</h2>
+<ul>
+<li><strong>追随国の倍増年数は、先頭国の年数にほぼ依存しない</strong>：先頭年数が 35→359年と10倍に変わっても、帯ごとの追随の中央年数は 20〜51年に収まる。帯レベルの傾き（0.12〜0.29）が正なのは、低い帯（L=1414〜2378）の追随国が34〜51年と遅いためである。これは時代（γ）で説明され、時代を統制した AFT では β≈0 になる。log L を加えても β=−0.115、L の係数は −0.055 で、ほとんど変わらない。</li>
+<li>MGI の表（英154年→米53年→日33年→中12年）も、同じ帯の通過年数が時代とともに短くなることを示しており、本結果の γ&lt;0 と整合する【推測：対応づけ】。</li>
+<li><strong>混合型の primer を梯子に入れた場合</strong>（e_ref=1974、記録の入帯年の中央値）：段ごとの実効 a の中央値は、T1→T2 0.85、T2→T3 0.22、T3→T4 1.0（上限）。Piql の D23* は &gt;1600年、T3 中央値は 157年（比のモデルの GDP 版では 274年）。d12=330 でも &gt;1600年（比のモデルでは267年）。</li>
+<li><strong>探索的（事前登録外）。結論は n_k の換算に強く依存する</strong>：n_k を c 倍すると、Piql の D23* は次のように変わる。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>c</th>
+<th>e=1974</th>
+<th>e=1850</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>&gt;1600</td>
+<td>&gt;1600</td>
+</tr>
+<tr>
+<td>2</td>
+<td>&gt;1600</td>
+<td>1065</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1111</td>
+<td>554</td>
+</tr>
+<tr>
+<td>8</td>
+<td>561</td>
+<td>457</td>
+</tr>
+<tr>
+<td>16</td>
+<td>459</td>
+<td>438（primer なしは435）</td>
+</tr>
+</tbody>
+</table>
+<p>相乗効果（m23=300）は、c=4 で +0.059（e=1974）、+0.023（e=1850）。速度上限型では、段の長さ d ではなく「その段に必要な倍増回数」が支配的な未知になる。</p>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>代理の問題（013 と同じ）</strong>【推測】：所得の追いつきには、生きた技術者、資本の輸入、交易相手が含まれる。崩壊後の社会には、これがない。速度上限（1倍増あたり中央値26年、入帯年1974年の場合。1850年なら57年）は、「教師がいる追いつき」の上限であって、手引きだけの上限ではない可能性が高い。e=1850 の感度（より孤立した時代）では相乗効果が +0.129→+0.098 に下がり、c=2 で D23* が1065年に落ちる。</li>
+<li><strong>n_k の換算</strong>：英国の1620→1948年が2.5倍増だったからといって、崩壊後の T2→T3 も2.5倍増で済むとは限らない。電子工学に必要な産業規模（人口・分業）の閾値が所得ではなく人口で決まるなら、n_k の意味自体が変わる。本研究の最大の弱点はここである。H26e（D23*&gt;809年）は、c≤2 なら両方の時代で成り立つ（c=4 では e=1850 で554年に落ちる）。H26f（相乗効果 &gt;+0.096）は c=1 でしか成り立たない（e=1850 では境界の +0.098。c=2 では +0.099〔e=1974〕と +0.057〔e=1850〕）。</li>
+<li><strong>β&lt;0 の解釈</strong>：有意にわずかに負（上端 −0.007）である。先頭が長くかかった帯（前近代の帯）の追随国が、むしろ速く通過している。前近代の推計精度、つまり1820年以前のフロンティアの到達年のずれが効いている可能性がある。平滑化した D4 の β も −0.053 だった。</li>
+<li><strong>β=1 の変種</strong>（<code>hybrid_AFT_D1_beta1</code>）は、β≈0 の切片を流用したため、全段で a≥1 となり、相乗効果が0になる。退化した確認用の変種であり、判定には使っていない。β=1 のときの正しい比較対象は、013 の比のモデル（628年）である。</li>
+<li><strong>生存者バイアス</strong>：入帯しなかった停滞国は標本に入らない（013 と同じ）。</li>
+</ul>
+<h2 id="_5">既存研究に対する新規性</h2>
+<p>MGI 2012 や The Economist は、特定の帯で倍増年数が時代とともに短くなることを示したが、追随の年数が先頭の年数に比例するかどうか（比か速度上限か）を、打ち切りと時代を統制して検定したものではない。本研究は、前近代の帯（先頭年数が最大500年）まで含めて β≈0（比のモデルは 2Δℓ=1029 で棄却）を示した。さらにそれを知識保存の評価に結びつけ、primer の価値が「段の長さ」ではなく「段に必要な倍増回数」で決まることを示した（当研究所内で初）。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<p>本研究所と長期アーカイブの設計者は、primer の効果を「回復を a 倍に縮める」という比で見積もるのをやめるべきである。その代わりに、「各段に必要な産業規模の倍増回数 × 1倍増あたり約26〜57年（AFT の中央値。入帯年1974年で26年、1850年で57年、先頭年数118年の場合）」という速度上限型で見積もり、primer の内容を、倍増回数を減らすもの（少ない産業規模で作れる読取装置の作り方）に寄せるべきである。</p>
+<h2 id="_7">成果物と再現</h2>
+<p>sim.py、results.json、stdout.txt、fig_ratio_vs_speedcap.png、fig_ladder_structures.png、PREREGISTRATION.md、sources/（MGI Exhibit E2 の抽出テキスト、GGDC のページ、excerpts.json）。データは ../013-empirical-catchup-a/sources/ の CSV を読む。<code>/tmp/rep014b/</code> に複製して再実行し、results.json は runtime 以外一致した。013 の再実行（<code>/tmp/rep014/</code>）も一致した。</p><footer><hr><small>自動生成</small></footer></body></html>

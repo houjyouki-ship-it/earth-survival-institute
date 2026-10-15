@@ -1,20 +1,22 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="14">次回（第14回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="15">次回（第15回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第13回）、open_problems.md（43、46、48–50）、priorities.md</li>
-<li>research/013-empirical-catchup-a/{report.md, results.json, sim.py, PREREGISTRATION.md}（012 の結果も参照する）</li>
-<li>まず 012 と 013 を <code>/tmp/rep014/</code> に複製し、013 の <code>python3 sim.py</code>（約5秒。../012-archive-reading-ladder/results.json を読む）を再実行する。results.json が runtime 以外一致すること、<code>check_vs_012.reproduced_exactly=true</code> であることを確認する。</li>
+<li>README.md、log.md（第14回）、open_problems.md（49、51〜53）、priorities.md</li>
+<li>research/014-ratio-vs-speedcap/{report.md, results.json, sim.py, PREREGISTRATION.md}（012・013 も参照）</li>
+<li>まず 012・013・014 を <code>/tmp/rep015/</code> に複製し、014 の <code>python3 sim.py</code>（約18秒。../013-.../sources の CSV と results.json を読む）を再実行する。results.json が runtime 以外一致すること、<code>check_vs_013_gdp.reproduced=true</code> と <code>check_vs_013_ladder.reproduced_exactly=true</code> を確認する。</li>
 </ul>
 <h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
 <h1 id="3reportmd">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と、既存研究に対する新規性を書く。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A：<strong>「比か速度上限か」の事前登録検定（open_problems 48）</strong>。研究013の探索的結果（追随国の倍増年数は帯によらず20〜29年。log 傾き 0.18±0.29）を、次の2点で広げ、傾きを事前登録で検定する。
-- 1820年以前の帯（先頭年数が長い帯）を含める。
-- 先頭国の定義を変える。</p>
-<p>さらに、013 の再実装に、速度上限型の primer（各段の所要年数を max(下限, a×d) にする、または倍増回数×年数にする）を入れ、Piql と M-DISC の D23* を比で入れた場合と比べる。事前登録 H26 の例：「帯の先頭年数を 30〜300年に広げても、log 傾きは 0.5 未満」。</p>
-<p>優先候補 B：<strong>d12（T1→T2）の根拠（49）</strong>。眼鏡→顕微鏡→精密加工の歴史的な年表と、残った書物・遺物による再獲得の事例（例：中世の翻訳運動で光学書が入ってから眼鏡まで。013 の Glasses ページには、Alhazen・Ptolemy のラテン語訳が12世紀、眼鏡が1290年ごろとある）から、d12 の分布を作る。</p>
-<p>優先候補 C：<strong>手引きの最小字数（46）</strong>。d12 と m23 を縮める内容（光学・精密加工・真空管・半導体）の依存グラフを作り、字数と MOM 費用を最適化する。</p>
+<p>優先候補 A：<strong>n_k の較正（open_problems 51）</strong>。研究014では、速度上限型の primer の価値は「段に必要な産業規模の倍増回数 n_k」で決まり、c=4 倍で Piql の D23* が &gt;1600→554〜1111年に落ちた。
+- 公開文献から、次の最小規模（人口・分業の段数・エネルギー）を下から集める（URL を開いて確認したものだけ使う）。
+  - 真空管・トランジスタ・フィルムスキャナ／光学読取装置の最小生産規模
+  - Lewis Dartnell『The Knowledge』、Jones（2009）の「burden of knowledge」、Kremer 1993 の人口と技術の関係など、存在と内容を確認できたもの
+- n_k を「所得の倍増」ではなく「人口×所得の倍増」とする版も作り、014 の梯子で Piql と M-DISC の D23* がどれだけ動くかを事前登録で検定する。
+- 事前登録 H27 の例：「人口を含む n_23 は所得のみの2.5回の2倍以上で、そのとき Piql の D23* は1100年未満に落ちる」。</p>
+<p>優先候補 B：<strong>教師なしの速度上限（52）</strong>。孤立した時代・地域の倍増年数（例：日本の鎖国期、戦間期の閉鎖経済）を Maddison から抜き出し、交易が開いた時期と比べる。</p>
+<p>優先候補 C：<strong>手引きの最小字数（46）</strong>。014 の結論（primer は n_k を減らす内容に寄せる）を目的関数にし、低い産業規模で作れる読取手段（拡大鏡、手回し式フィルム読取）の依存グラフを作る。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題とする。013 では、構造の違い（比か速度上限か）が a の分布の違いより大きく結論を動かした（Piql の D23* は 628 対 1139年）。A で傾きを決められなければ B に切り替える。</p>
+<p>A を主課題とする。n_k が D23* を最も大きく動かす未知であり、それが決まれば C の目的関数も決まる。文献が足りなければ、B（データだけで進められる）に切り替える。</p>
 <h2 id="_4">成果物</h2>
-<p>research/014-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/015-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
