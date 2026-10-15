@@ -1,0 +1,344 @@
+{
+ "D23_star": {
+  "MDISC_BD": {
+   "no_primer": "<50",
+   "MOM_primer": "<50"
+  },
+  "Piql_film_QR": {
+   "no_primer": 434.8261673887213,
+   "MOM_primer": 808.7524907839587
+  },
+  "Silica_glass": {
+   "no_primer": ">1600",
+   "MOM_primer": ">1600"
+  },
+  "DNA_silica": {
+   "no_primer": 1143.9145481711976,
+   "MOM_primer": ">1600"
+  },
+  "Microfilm_AgX": {
+   "no_primer": ">1600",
+   "MOM_primer": ">1600"
+  },
+  "Rosetta_Ni": {
+   "no_primer": ">1600",
+   "MOM_primer": ">1600"
+  },
+  "MOM_ceramic": {
+   "no_primer": ">1600",
+   "MOM_primer": ">1600"
+  }
+ },
+ "hypotheses": {
+  "H24a": [
+   true,
+   {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 434.8261673887213,
+    "Silica_glass": ">1600",
+    "MOM_ceramic": ">1600"
+   }
+  ],
+  "H24b": [
+   false,
+   {
+    "MDISC_BD": 0.06440000000000001,
+    "Piql_film_QR": 0.09597
+   }
+  ],
+  "H24c": [
+   true,
+   {
+    "cpw5.0": 1031550.0,
+    "cpw7.0": 1444170.0,
+    "primer_1e8_chars": 3900.0
+   }
+  ],
+  "H24d": [
+   false,
+   {
+    "50": 0.000280000000000058,
+    "100": 0.0014899999999999913,
+    "200": 0.010720000000000063,
+    "300": 0.028895000000000004,
+    "400": 0.050939999999999985,
+    "600": 0.09423500000000001,
+    "800": 0.12880000000000003,
+    "1200": 0.16828,
+    "1600": 0.17561500000000002
+   }
+  ],
+  "H24e": [
+   true,
+   {
+    "MDISC_BD": {
+     "rho_m23": -0.5391850188603562,
+     "rho_f": 0.45477460924485386,
+     "rho_claim": 0.31485294498045385,
+     "P_read_if_found": 0.10368
+    },
+    "Piql_film_QR": {
+     "rho_m23": -0.6024008050328505,
+     "rho_f": 0.26145448229758134,
+     "rho_claim": 0.2976202009538195,
+     "P_read_if_found": 0.592075
+    }
+   }
+  ]
+ }
+}
+m23=300: {
+ "synergy_P_read": {
+  "MDISC_BD": 0.06440000000000001,
+  "Piql_film_QR": 0.09597,
+  "Silica_glass": 0.028895000000000004,
+  "DNA_silica": 0.06648000000000004,
+  "Microfilm_AgX": 0.0,
+  "Rosetta_Ni": 0.003369999999999984,
+  "MOM_ceramic": 0.0
+ },
+ "E_T3_reduction": 141.53825123627666
+}
+no_primer m23=300 {
+ "E_T3_capped": 438.8816111042213,
+ "P_T3_le_H": 0.92235,
+ "median_T3": 365.9500924160543,
+ "P_read": {
+  "MDISC_BD": 0.0409,
+  "Piql_film_QR": 0.36385,
+  "Silica_glass": 0.549355,
+  "DNA_silica": 0.458725,
+  "Microfilm_AgX": 0.554915,
+  "Rosetta_Ni": 0.589945,
+  "MOM_ceramic": 0.599425
+ },
+ "P_read_if_found": {
+  "MDISC_BD": 0.06832,
+  "Piql_film_QR": 0.60755,
+  "Silica_glass": 0.91663,
+  "DNA_silica": 0.765345,
+  "Microfilm_AgX": 0.92578,
+  "Rosetta_Ni": 0.98404,
+  "MOM_ceramic": 0.999995
+ },
+ "P_survive_to_reader": {
+  "MDISC_BD": 0.06832,
+  "Piql_film_QR": 0.61581,
+  "Silica_glass": 0.989565,
+  "DNA_silica": 0.811215,
+  "Microfilm_AgX": 0.92578,
+  "Rosetta_Ni": 0.98404,
+  "MOM_ceramic": 0.999995
+ }
+}
+MOM m23=300 {
+ "E_T3_capped": 297.3433598679446,
+ "P_T3_le_H": 0.96459,
+ "median_T3": 219.5783998187054,
+ "P_read": {
+  "MDISC_BD": 0.1053,
+  "Piql_film_QR": 0.45982,
+  "Silica_glass": 0.57825,
+  "DNA_silica": 0.525205,
+  "Microfilm_AgX": 0.554915,
+  "Rosetta_Ni": 0.593315,
+  "MOM_ceramic": 0.599425
+ },
+ "P_read_if_found": {
+  "MDISC_BD": 0.167395,
+  "Piql_film_QR": 0.75495,
+  "Silica_glass": 0.96114,
+  "DNA_silica": 0.867805,
+  "Microfilm_AgX": 0.92578,
+  "Rosetta_Ni": 0.989265,
+  "MOM_ceramic": 0.999995
+ },
+ "P_survive_to_reader": {
+  "MDISC_BD": 0.167395,
+  "Piql_film_QR": 0.758795,
+  "Silica_glass": 0.994555,
+  "DNA_silica": 0.88888,
+  "Microfilm_AgX": 0.92578,
+  "Rosetta_Ni": 0.989265,
+  "MOM_ceramic": 0.999995
+ }
+}
+sites {
+ "corpus1_primer1": {
+  "no_primer_P_read": {
+   "MDISC_BD": 0.0409,
+   "Piql_film_QR": 0.36385,
+   "Silica_glass": 0.549355,
+   "DNA_silica": 0.458725,
+   "Microfilm_AgX": 0.554915,
+   "Rosetta_Ni": 0.589945,
+   "MOM_ceramic": 0.599425
+  },
+  "MOM_primer_P_read": {
+   "MDISC_BD": 0.1053,
+   "Piql_film_QR": 0.45982,
+   "Silica_glass": 0.57825,
+   "DNA_silica": 0.525205,
+   "Microfilm_AgX": 0.554915,
+   "Rosetta_Ni": 0.593315,
+   "MOM_ceramic": 0.599425
+  }
+ },
+ "corpus3_primer1": {
+  "no_primer_P_read": {
+   "MDISC_BD": 0.061645,
+   "Piql_film_QR": 0.547215,
+   "Silica_glass": 0.824925,
+   "DNA_silica": 0.68913,
+   "Microfilm_AgX": 0.83293,
+   "Rosetta_Ni": 0.885345,
+   "MOM_ceramic": 0.899805
+  },
+  "MOM_primer_P_read": {
+   "MDISC_BD": 0.15348,
+   "Piql_film_QR": 0.683555,
+   "Silica_glass": 0.866005,
+   "DNA_silica": 0.78388,
+   "Microfilm_AgX": 0.83293,
+   "Rosetta_Ni": 0.890205,
+   "MOM_ceramic": 0.899805
+  }
+ },
+ "corpus1_primer3": {
+  "no_primer_P_read": {
+   "MDISC_BD": 0.0409,
+   "Piql_film_QR": 0.36385,
+   "Silica_glass": 0.549355,
+   "DNA_silica": 0.458725,
+   "Microfilm_AgX": 0.554915,
+   "Rosetta_Ni": 0.589945,
+   "MOM_ceramic": 0.599425
+  },
+  "MOM_primer_P_read": {
+   "MDISC_BD": 0.132685,
+   "Piql_film_QR": 0.50053,
+   "Silica_glass": 0.59064,
+   "DNA_silica": 0.55346,
+   "Microfilm_AgX": 0.554915,
+   "Rosetta_Ni": 0.595,
+   "MOM_ceramic": 0.599425
+  }
+ },
+ "corpus3_primer3": {
+  "no_primer_P_read": {
+   "MDISC_BD": 0.061645,
+   "Piql_film_QR": 0.547215,
+   "Silica_glass": 0.824925,
+   "DNA_silica": 0.68913,
+   "Microfilm_AgX": 0.83293,
+   "Rosetta_Ni": 0.885345,
+   "MOM_ceramic": 0.899805
+  },
+  "MOM_primer_P_read": {
+   "MDISC_BD": 0.196725,
+   "Piql_film_QR": 0.748255,
+   "Silica_glass": 0.88578,
+   "DNA_silica": 0.828235,
+   "Microfilm_AgX": 0.83293,
+   "Rosetta_Ni": 0.89279,
+   "MOM_ceramic": 0.899805
+  }
+ }
+}
+sigma {
+ "0.4": {
+  "P_read_if_found_no": {
+   "MDISC_BD": 0.048105,
+   "Piql_film_QR": 0.65096,
+   "Silica_glass": 0.99224,
+   "DNA_silica": 0.83805,
+   "Microfilm_AgX": 0.92578,
+   "Rosetta_Ni": 0.98404,
+   "MOM_ceramic": 0.999995
+  },
+  "P_read_if_found_MOM": {
+   "MDISC_BD": 0.15311,
+   "Piql_film_QR": 0.795005,
+   "Silica_glass": 0.99608,
+   "DNA_silica": 0.909635,
+   "Microfilm_AgX": 0.92578,
+   "Rosetta_Ni": 0.989265,
+   "MOM_ceramic": 0.999995
+  }
+ },
+ "0.8": {
+  "P_read_if_found_no": {
+   "MDISC_BD": 0.06832,
+   "Piql_film_QR": 0.60755,
+   "Silica_glass": 0.91663,
+   "DNA_silica": 0.765345,
+   "Microfilm_AgX": 0.92578,
+   "Rosetta_Ni": 0.98404,
+   "MOM_ceramic": 0.999995
+  },
+  "P_read_if_found_MOM": {
+   "MDISC_BD": 0.167395,
+   "Piql_film_QR": 0.75495,
+   "Silica_glass": 0.96114,
+   "DNA_silica": 0.867805,
+   "Microfilm_AgX": 0.92578,
+   "Rosetta_Ni": 0.989265,
+   "MOM_ceramic": 0.999995
+  }
+ },
+ "1.2": {
+  "P_read_if_found_no": {
+   "MDISC_BD": 0.091375,
+   "Piql_film_QR": 0.57407,
+   "Silica_glass": 0.824185,
+   "DNA_silica": 0.69746,
+   "Microfilm_AgX": 0.92578,
+   "Rosetta_Ni": 0.98404,
+   "MOM_ceramic": 0.999995
+  },
+  "P_read_if_found_MOM": {
+   "MDISC_BD": 0.18368,
+   "Piql_film_QR": 0.71184,
+   "Silica_glass": 0.902185,
+   "DNA_silica": 0.81346,
+   "Microfilm_AgX": 0.92578,
+   "Rosetta_Ni": 0.989265,
+   "MOM_ceramic": 0.999995
+  }
+ }
+}
+cost {
+ "cpw5.0": {
+  "chars": 26450000000.0,
+  "MOM_tablets": 5290.0,
+  "MOM_EUR_list": 1031550.0
+ },
+ "cpw6.0": {
+  "chars": 31740000000.0,
+  "MOM_tablets": 6348.0,
+  "MOM_EUR_list": 1237860.0
+ },
+ "cpw7.0": {
+  "chars": 37030000000.0,
+  "MOM_tablets": 7406.0,
+  "MOM_EUR_list": 1444170.0
+ },
+ "primer_1e8_chars": {
+  "MOM_tablets": 20.0,
+  "MOM_EUR_list": 3900.0
+ },
+ "primer_1e7_chars": {
+  "MOM_tablets": 2.0,
+  "MOM_EUR_list": 390.0
+ },
+ "wiki_compressed_GB": 26.8,
+ "MDISC_BDXL100_discs": 1,
+ "MDISC_BD25_discs": 2,
+ "Silica_7TB_platters_fraction": 0.0038285714285714286,
+ "Piql_GB_per_reel_GitHub": 112.90322580645162,
+ "Piql_reels": 0.23737142857142857,
+ "DNA_write_USD_2013rate": 332320000.0,
+ "DNA_write_USD_2017rate": 93800000.0
+}
+D23_star_v1 {"MDISC_BD": {"no_primer": "<50", "MOM_primer": "<50"}, "Piql_film_QR": {"no_primer": 414.17486689896907, "MOM_primer": 759.9660847457706}, "Silica_glass": {"no_primer": 924.54689100242, "MOM_primer": ">1600"}, "DNA_silica": {"no_primer": 644.2837037332065, "MOM_primer": 1199.9819191949407}, "Microfilm_AgX": {"no_primer": ">1600", "MOM_primer": ">1600"}, "Rosetta_Ni": {"no_primer": ">1600", "MOM_primer": ">1600"}, "MOM_ceramic": {"no_primer": ">1600", "MOM_primer": ">1600"}}
+runtime_sec=2.4

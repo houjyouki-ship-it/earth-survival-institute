@@ -109,4 +109,23 @@
 <li>H22 支持（単一の一定率・平均減衰率の対照より、混合の drop が全セルで大きい）。</li>
 <li>H23 支持：符号反転の戦争 λ0δ 比 w*=0.612（0.590–0.622 でほぼ不変）。006配分の戦争比は0.373で、減少シナリオでは S が上がる側に入る。</li>
 <li>結論：r=20 の符号は、非減衰成分の λ0δ 比（w≷0.61）と疫病トレンドの実在性で決まる。疫病が上昇なら配分によらず S を下げる。単一 τ_s への要約は、常に drop を過小評価する。</li>
+</ul>
+<h2 id="12-2026-10-15">第12回 2026-10-15</h2>
+<ul>
+<li>再現チェック：<code>/tmp/rep012/</code> に 008・011 を複製し、011 の sim.py（約5秒）を再実行した。results.json は runtime 以外一致。</li>
+<li><strong>方針転換を実施</strong>：#7（脆弱化）の深掘りを停止し、#3（知識保存と文明回復）に移った。</li>
+<li>文献（本回すべて取得・確認。抜粋は research/012-.../sources/excerpts.json）：</li>
+<li>Wikipedia の M-DISC（NIST IR 8387「100年超」）、Arctic World Archive（Piql「500〜2000年」、GitHub 21 TB/186リール）、Microform（銀塩 約500年）、DNA digital data storage（$12,400/MB、$7,000/2 MB）、5D optical data storage、Size of Wikipedia（52.9億語、26.80 GB）</li>
+<li>Microsoft Project Silica（7 TB/板、数万〜数十万年）、Rosetta Project concept（13,000ページ、650倍）</li>
+<li>Memory of Mankind（20×20 cm に500万字、10倍レンズ、€195/枚、「知識のバックアップではない」）</li>
+<li>GitHub archive-program GUIDE.md（188リール×65,000コマ、「計算機ができるまで保管せよ」）</li>
+<li>Grass et al. 2015 要旨（Europe PMC API。70°C 1週間＝中欧2000年相当）。PubMed は 203 で読めなかった。</li>
+<li>研究012を実施：<code>research/012-archive-reading-ladder/</code>（sim.py seed=20261015、N=200,000、約2.4秒）→ results.json, stdout.txt, fig_read_prob_and_synergy.png, fig_sites_and_sensitivity.png, report.md, sources/。<code>/tmp/rep012/012/</code> で再実行し、runtime 以外一致。</li>
+<li>モデル：読取技術の階層（T0 肉眼〜T4 DNA）を回復する時間と、媒体の Weibull 寿命を比べた。T1 の手引き（primer）は回復を a 倍に早める。</li>
+<li>主要数値：</li>
+<li>臨界回復時間 D23*：M-DISC &lt;50年、Piql 435年（primer ありで809年）、DNA 1144年、Silica・MOM・マイクロフィルム・Rosetta &gt;1600年。</li>
+<li>m23=300 の primer 相乗効果（P_read）：M-DISC +0.064、Piql +0.096。</li>
+<li>Wikipedia 本文の MOM 化は €103万〜144万。1億字の primer は €3,900。</li>
+<li>判定：H24a 支持（定義を修正した v2 で判定。v1 の誤りは報告書に記録）、H24b 棄却、H24c 支持、H24d 棄却（長寿命媒体でも、1000年以内に読めるように前倒しする効果で +0.18 まで）、H24e 支持。</li>
+<li>「誰が何を変えるべきか」：記載あり（QR 形式アーカイブの運営者は、T1 の手引きを別拠点に置き、データ拠点を増やす）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,165 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究012：長期保存アーカイブの「読取技術の梯子」モデル（課題 #3 への移行・初回） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="012-3">研究012：長期保存アーカイブの「読取技術の梯子」モデル（課題 #3 への移行・初回）</h1>
+<h2 id="_1">問い</h2>
+<p>崩壊後の社会は、保存媒体を読む技術（レンズ→顕微鏡→電子工学・計算機→DNA化学）を順に取り戻す。媒体は、その読取技術が戻るまで物理的に残っていなければ役に立たない。
+1. 主な長期保存媒体は、電子工学の回復にかかる年数 m23 がどこまでなら「読めるまで残る」か（臨界値 D23*）。
+2. 人間が読める技術回復の手引き（primer、T1 = 10倍レンズで読める媒体）を加えると、短寿命のデジタル媒体を「救う」効果（相乗効果）はどれくらいか。
+3. 費用・物量はどれくらいか。</p>
+<h2 id="sourcesexcerptsjsongithub-guide-sourcesgithub_archive_guidemd">確認した事実（本回すべて開いて確認。抜粋は <code>sources/excerpts.json</code>、GitHub の Guide 全文は <code>sources/github_archive_GUIDE.md</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>媒体</th>
+<th>読取階層</th>
+<th>寿命の主張</th>
+<th>容量・費用</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M-DISC（BD）</td>
+<td>T3</td>
+<td>NIST IR 8387 が「100年超」と記載。日本向けの宣伝は「100年以上」、他地域は「数百年」</td>
+<td>25/50/100 GB。価格は通常の BD の1.5〜3倍（絶対値は未確認）</td>
+<td>【事実（https://en.wikipedia.org/wiki/M-DISC ）】</td>
+</tr>
+<tr>
+<td>Piql フィルム（AWA）</td>
+<td>QR部はT3、ガイド部はT1</td>
+<td>「少なくとも500年、最大2,000年」（最適条件）</td>
+<td>GitHub の 21 TB を186リールに保存（≈113 GB/リール）。費用は非公開</td>
+<td>【事実（https://en.wikipedia.org/wiki/Arctic_World_Archive ）】</td>
+</tr>
+<tr>
+<td>GitHub Code Vault の Guide</td>
+<td>T1</td>
+<td>—</td>
+<td>188リール（ガイド1＋データ187。README は186と記載）、1リール65,000コマ。「計算機を持たないなら、持てるまで保管せよ」「Tech Tree は技術回復を早めるためのもの」</td>
+<td>【事実（https://github.com/github/archive-program 、GUIDE.md）】</td>
+</tr>
+<tr>
+<td>Project Silica（石英ガラス）</td>
+<td>T3（偏光顕微鏡＋計算機）</td>
+<td>「数万〜数十万年」</td>
+<td>DVD 大の板で 7 TB 超</td>
+<td>【事実（https://www.microsoft.com/en-us/research/project/project-silica/ ）】</td>
+</tr>
+<tr>
+<td>5D ガラス（Southampton）</td>
+<td>T3</td>
+<td>100°C で 3,100時間の試験。「数十億年」は宣伝的な主張</td>
+<td>12 cm で最大 360 TB</td>
+<td>【事実（https://en.wikipedia.org/wiki/5D_optical_data_storage ）】</td>
+</tr>
+<tr>
+<td>DNA（シリカ封入）</td>
+<td>T4</td>
+<td>70°C 1週間で誤りなく復元。中欧で2,000年保存に熱的に相当</td>
+<td>書込 $12,400/MB（2013）、$7,000/2 MB（2017）</td>
+<td>【事実（Grass et al. 2015 要旨、https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/anie.201411378&amp;resultType=core&amp;format=json ／ https://en.wikipedia.org/wiki/DNA_digital_data_storage ）】</td>
+</tr>
+<tr>
+<td>銀塩マイクロフィルム</td>
+<td>T1</td>
+<td>適正保管で約500年</td>
+<td>価格は未確認</td>
+<td>【事実（https://en.wikipedia.org/wiki/Microform ）】</td>
+</tr>
+<tr>
+<td>Rosetta Disk（ニッケル）</td>
+<td>T2（650倍、100倍でページが見える）</td>
+<td>「1万年図書館」の試作</td>
+<td>3インチ円盤に13,000ページ超。価格は未確認</td>
+<td>【事実（https://rosettaproject.org/disk/concept/ ）】</td>
+</tr>
+<tr>
+<td>Memory of Mankind（セラミック）</td>
+<td>T1（10倍レンズ）</td>
+<td>塩鉱山内で「少なくとも100万年」</td>
+<td>20×20 cm 1枚に最大500万字。1枚分の保管が €195</td>
+<td>【事実（https://www.memory-of-mankind.com/how-is-information-kept-legible-for-1-million-years/ 、/purchase-a-mom-tablet/）】</td>
+</tr>
+<tr>
+<td>英語版 Wikipedia</td>
+<td>—</td>
+<td>—</td>
+<td>本文 52.9億語、圧縮 26.80 GB（2026年9月）</td>
+<td>【事実（https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia ）】</td>
+</tr>
+</tbody>
+</table>
+<p>【事実（MOM、/what-is-mom/）】MOM は自らを「知識のバックアップではない」と位置づけている。発見できる社会は我々と同程度の知識を持つ、という前提である。本研究の問い（崩壊後の回復を助けるか）とは目的が違う。</p>
+<h2 id="simpyseed20261015n20000024">モデル（sim.py、seed=20261015、N=200,000、約2.4秒）</h2>
+<ul>
+<li>崩壊時に T0 から再出発する。各段の所要年数は対数正規とする【推測】：T0→T1 は中央値20年、T1→T2 は30年、T2→T3 は m23（主走査軸、50〜1600年、σ=0.8）、T3→T4 は50年。</li>
+<li>媒体の寿命は Weibull（k=2）とした。中央値は「主張寿命 × 保管割引 f」。f は通常の部屋で対数一様 [0.1,1]、塩鉱山・永久凍土の金庫で [0.3,1]【推測】。</li>
+<li>primer（T1 の MOM セラミック）が発見されると、T1 以降の各段の所要年数が a 倍（対数一様 [0.2,0.7]【推測】）になる。拠点の発見確率は p∈U[0.3,0.9]【推測】で、拠点数 n なら 1−(1−p)^n。</li>
+<li>指標は2つ。P_survive は、読取階層に戻るまで媒体が残る確率（発見を条件とし、期間の上限なし）。P_read は、1000年以内に発見されて読める確率。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H24a</td>
+<td>D23*：M-DISC &lt;200、Piql 300〜1000、Silica と MOM &gt;1600年</td>
+<td>M-DISC <strong>&lt;50</strong>（m23=50 でも P_survive=0.305）。Piql <strong>435年</strong>。Silica、MOM は &gt;1600年</td>
+<td><strong>支持</strong>（※）</td>
+</tr>
+<tr>
+<td>H24b</td>
+<td>m23=300 で primer の相乗効果 ≥+0.10（M-DISC と Piql）</td>
+<td>M-DISC <strong>+0.064</strong>（0.041→0.105）、Piql <strong>+0.096</strong>（0.364→0.460）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H24c</td>
+<td>Wikipedia 本文を MOM 定価で刻むと €100万超。1億字の primer は €1万未満</td>
+<td>5,290〜7,406枚、<strong>€103万〜144万</strong>（1語5〜7字【推測】）。1億字なら20枚で <strong>€3,900</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H24d</td>
+<td>長寿命媒体（Silica）では相乗効果 &lt;0.02（全格子）</td>
+<td>m23≥300 で 0.029〜<strong>0.176</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H24e</td>
+<td>可読性を支配するのは保管割引 f より回復時間 m23</td>
+<td>Spearman ρ：m23 −0.54／−0.60、f +0.45／+0.26（M-DISC／Piql）</td>
+<td><strong>支持</strong>（M-DISC では差が小さい）</td>
+</tr>
+</tbody>
+</table>
+<p>※H24a は v1 で定義の誤りがあり、修正後に判定した。v1 は臨界値を「1000年以内に読める確率」で求めていたため、長寿命媒体では「期間切れ」と「劣化」が混ざっていた（Silica 925年、DNA 644年）。v2 では上限なしの P_survive に直した。v1 の値も <code>D23_star_v1_horizon_confounded</code> に残した。v1 の定義でも H24a の Silica 条件（&gt;1600）は満たさない。</p>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>P_survive（発見を条件、primer なし → あり）、m23=300</strong>：M-DISC 0.068→0.167、Piql 0.616→0.759、DNA 0.811→0.889、Silica 0.990→0.995。T1・T2 媒体は 0.93〜1.00。</li>
+<li><strong>primer による T3 到達の中央値の短縮</strong>：m23=300 で 366→220年、m23=800 で 866→499年。E[T3] の短縮は 63年（m23=100）〜201年（m23=800）。</li>
+<li><strong>拠点の冗長性</strong>（m23=300、P_read。primer なし → あり）：</li>
+<li>Piql：1拠点 0.364→0.460、3拠点 0.547→0.684、3拠点＋primer 3拠点 0.748</li>
+<li>M-DISC：最大でも 0.197</li>
+<li><strong>H24d が棄却された理由</strong>：長寿命媒体での primer の価値は「劣化から救う」ことではなく、「1000年以内に読めるようにする」ことだった。Silica の P_survive はほぼ変わらない（0.954→0.975、m23=800）が、P_read は +0.13 上がる。</li>
+<li><strong>物量</strong>：Wikipedia 本文（圧縮 26.8 GB）は、BDXL なら1枚、Silica なら板の0.4%、Piql なら0.24リール。MOM なら 6,348枚（1語6字）。DNA は 2017年の書込単価で約 $9,400万。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li>回復の所要年数、a、p、f はすべて【推測】である。結論は m23 の関数として示し、絶対値の確率は政策判断に使わないこと。強く言えるのは順序と臨界値の形である。M-DISC は電子工学が50年で戻っても半分以上が失われる。この結論は f の上端（=1）でも主張寿命が100〜500年なので大きくは変わらない【推測】。</li>
+<li>同じ内容で比べているので、T1 媒体は容量あたりの費用が桁違いに高い。そのため、全量を T1 で持つ選択は非現実的である（H24c）。現実的な構成は「T1 の小さな手引き＋高密度媒体の全量」である。</li>
+<li>言語・文字の断絶（数百年で読めなくなる）、拠点発見の時期、略奪は入れていない。primer の効果 a に経験的な根拠はない。崩壊後に知識が回復をどれだけ早めるかは、open_problems 43 として残す。</li>
+<li>Piql の「500〜2000年」は最適条件での主張で、独立試験は未確認である。M-DISC の寿命試験（ISO/IEC 10995 等）は加速試験で、崩壊後の無管理環境は想定外である。</li>
+</ul>
+<h2 id="_4">既存研究に対する新規性</h2>
+<p>Ord『The Precipice』や XPT は、「回復不能な崩壊」の確率を扱うが、崩壊後に保存知識がどう読まれるかは扱わない。GitHub の Guide は「計算機ができるまで保管せよ」と定性的に書く。本研究は、その戦略が成り立つ条件を、媒体寿命と技術回復時間の比として定量化した（Piql で D23*≈435年、primer ありで約809年）。primer の効果は、短寿命媒体では「救済」、長寿命媒体では「前倒し」と、性質が違うことも示した。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<p>Arctic World Archive・GitHub Archive Program のような QR 形式のアーカイブ運営者は、人間可読の技術回復手引き（読取装置の作り方を含む）を、別の T1 媒体・別の拠点にも置くべきである。また、データ本体の拠点を増やすべきである（Piql の1000年以内の可読確率は、1拠点 0.36 から、3拠点＋手引き3拠点で 0.75 に上がる。手引き1億字の MOM 定価は1拠点あたり €3,900）。</p>
+<h2 id="_6">成果物</h2>
+<p>sim.py、results.json、stdout.txt、fig_read_prob_and_synergy.png、fig_sites_and_sensitivity.png、sources/（抜粋 JSON・GitHub Guide）。<code>/tmp/rep012/012/</code> で再実行し、results.json は runtime 以外一致した。</p><footer><hr><small>自動生成</small></footer></body></html>

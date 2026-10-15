@@ -1,23 +1,18 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="12">次回（第12回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="13">次回（第13回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md、open_problems.md（特に38–42、35）、priorities.md</li>
-<li>research/011-factor-tau-s/{report.md, results.json, sim.py}</li>
-<li>まず 008 と 011 を <code>/tmp/rep012/</code> に複製し、011 の <code>python3 sim.py</code>（約3秒）を再実行する。results.json が runtime 以外一致することを確認する。</li>
+<li>README.md、log.md（第12回）、open_problems.md（43–47）、priorities.md</li>
+<li>research/012-archive-reading-ladder/{report.md, results.json, sim.py, sources/}</li>
+<li>まず 012 を <code>/tmp/rep013/</code> に複製し、<code>python3 sim.py</code>（約3秒）を再実行する。results.json が runtime 以外一致することを確認する。</li>
 </ul>
+<h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
+<h1 id="3reportmd">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」を書き、既存研究に対する新規性を記す。文献レビューや比較表も、評価スクリプトと組めば成果物として認める。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A：<strong>非減衰ショック源の比率 w の外部推定（open_problems 38）</strong>。011 で、r=20 の符号は w と w*≈0.61 の大小で決まると分かった。Ord 表6.1・XPT の要因別値から、戦争・核、疫病・工学的病原体、AI/tech の非致死ショックの λ0δ 比を作る。tech に τ_s の3シナリオ（一定・τ=200・上昇）を与え、w の事後的な幅で sign map 上の位置を出す。事前登録 H24 の例：「XPT 超予測者と専門家の両方の比率で、tech を一定とすれば w&gt;w* になる」。
-優先候補 B：<strong>疫病の発生数トレンドの実在性（39, 40）</strong>。Jones et al. 2008（Nature 451:990）など、別系列の出現率を探して開く。発生数と強度の両方が時間で変わるモデルで τ_bio を推定し直す。
-優先候補 C：#3 文明回復（知識保存の有無で回復時間がどう変わるか）。第1回以来 #7 系に集中しているので、移行候補として残す。
-優先候補 D：CoW 年次による OU (σ, θ) の尤度（35 の残り）。多変量 Hawkes による要因間相関（41）。</p>
+<p>優先候補 A：<strong>m23 と a の経験的な較正（open_problems 43）</strong>。歴史上の「失われた技術の再獲得」や「知識伝播による追いつき」の速さを公開資料から集める（例：西欧によるアラビア語訳の科学文献の吸収、明治日本の工業化、戦後の技術移転）。キャッチアップの年数から a の分布を作り、研究012の結論（Piql D23*≈435年など）がどの帯域に入るかを示す。事前登録 H25 の例：「経験的な追いつき係数の中央値は a&lt;0.5 で、研究012の a 事前分布 [0.2,0.7] の内側にある」。
+優先候補 B：<strong>手引きの最小字数（46）</strong>。BD ドライブ・フィルムスキャナ・計算機を作るのに必要な知識の依存グラフを作り、各ノードの字数を見積もる（公開教科書の目次・ページ数から）。MOM 換算の費用と、拠点数とのトレードオフを最適化する。
+優先候補 C：<strong>言語の断絶（44）</strong>。言語変化の速さ（語彙の残存率）の公開推定から、500〜1000年後の可読確率を出し、研究012に掛け合わせる。
+優先候補 D：<strong>公開価格の収集（45）</strong>。Piql・M-DISC・マイクロフィルムの価格ページを開き、容量あたりの費用表を作る。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題とする。011 で、結論を支配する未知が「非減衰成分の比率」という外部から推定しうる量に絞られたためである。A が文献不足で進まなければ B に切り替える。</p>
+<p>A を主課題とする。研究012の結論は m23 と a に最も強く依存する（H24e）。A で文献が足りなければ B に切り替える。</p>
 <h2 id="_4">成果物</h2>
-<p>research/012-.../ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan / priorities を更新する。</p>
-<h2 id="2026-10-15">【方針転換・最優先】（2026-10-15 ユーザー承認、通りすがりの提案を採用）</h2>
-<ol>
-<li>脆弱化モデル（#7）の深掘りはいったん停止。研究012からは「知識保存と文明回復」（#3）に移る。最初の問い：長期保存アーカイブの方式（例：石英ガラス、マイクロフィルム、M-DISC、ニッケル板、DNA、Arctic World Archive等）を、コスト・耐久性・崩壊後の読みやすさで比較する。</li>
-<li>毎回のreport.mdに「この結果を受けて、誰が何を変えるべきか」を一文で書く。2回続けて書けなければ方向見直しのサインとしてlog.mdに記録する。</li>
-<li>課題評価軸で「計算機で検証できるか」の比重を下げ、「対策につながるか」を追加する（priorities.mdを更新）。文献レビューや既存対策の比較も正式な研究手段として認める（ただし毎回、検証可能な成果物を1つ以上作る。比較表＋評価スクリプトでも可）。</li>
-<li>毎回、Ord・XPTなど既存研究と比べて何が新しいかを短く整理する。</li>
-</ol><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/013-.../ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
