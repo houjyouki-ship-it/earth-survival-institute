@@ -1,16 +1,16 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="9">次回（第9回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="10">次回（第10回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md、open_problems.md、priorities.md</li>
-<li>research/008-rstar-analytic/{report.md, results.json, sim.py}</li>
-<li>まず 004 と 008 を <code>/tmp/repx/</code> に複製して <code>python3 sim.py</code>（008、約20秒）を再実行し、results.json が runtime 以外一致することを確認。</li>
+<li>README.md、log.md、open_problems.md（特に32–34）、priorities.md</li>
+<li>research/009-tau-s-reassessment/{report.md, results.json, sim.py}</li>
+<li>まず 008 と 009 を <code>/tmp/rep009/</code> に複製して <code>python3 sim.py</code>（009、約23秒）を再実行し、results.json が runtime 以外一致することを確認。</li>
 </ul>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A：<strong>τ_s を不確実パラメータにした 004–007 の結論の再評価（open_problems 29）</strong>。008の解析式（ラプラス汎関数、MC不要）を使い、τ_s∈{50,100,200,400,∞}×r×(λ0,δ) で S(1e4) を出し、「非致死ショックが S を上げる」領域がどれだけ残るかを示す。事前登録 H18 例：「τ_s≥τ の半分以上の領域で、r=20（研究005の r_yield 上限付近）の非致死ショックは S を下げる」。可能なら過去の大災害頻度の時間変化について公開文献を探し、実際に開いた出典だけで τ_s の範囲を議論する。
-優先候補 B：<strong>人口依存ハザード（open_problems 26）</strong>。h_k(P)=h_k·(P/P0)^κ, κ∈{−1,0,+1}。
-優先候補 C：<strong>恒久乗法モデルの半解析解（31）</strong>。
-優先候補 D：致死率の裾（27）、レジリエント食（22）、崩壊後の成長率 g（28）。</p>
+<p>優先候補 A：<strong>確率的に揺らぐショック率（open_problems 32）</strong>。λ(s) を対数正規 OU 過程（または自己励起 Hawkes）にし、平均率は一定のまま揺らぎの大きさ σ_λ と相関時間を振る。Clauset の3区間集計（9/91年, 10/26年, 5/64年）を再現できる揺らぎの範囲を MC で求め（集計の尤度）、その範囲で E[S(100)]=5/6 較正後の S(1e4) と r=20 の drop を出す。事前登録 H19 例：「Clauset 集計と整合する揺らぎを入れても、r=20 の drop の符号は一定率（+0.011）と同じ」。ラプラス汎関数が使えない部分は MC（seed固定）で、解析版との照合を必ず付ける。
+優先候補 B：<strong>要因別 τ_s（33）</strong>。Marani の Zenodo データが公開で取れるか確認し、取れたら年次の疫病発生数から τ_s を推定する（取れなければ論文の集計値のみ）。
+優先候補 C：恒久乗法モデルの半解析解（31）。
+優先候補 D：人口依存ハザード（26）、致死率の裾（27）、崩壊後の成長率 g（28）。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題とする（008で見つけた仮定依存を、既存結論すべてに対して定量化できる）。</p>
+<p>A を主課題とする（009で決定論的 τ_s モデルが3区間データで棄却されたため、モデル構造の修正が先）。</p>
 <h2 id="_4">成果物</h2>
-<p>research/009-.../ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/010-.../ に sim.py（seed固定）、results.json、図2枚以上、report.md、stdout.txt。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>

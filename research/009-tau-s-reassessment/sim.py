@@ -24,7 +24,14 @@
 from __future__ import annotations
 import json, math, time
 import numpy as np
-from scipy import stats
+class stats:  # scipy 不使用（1自由度のみ）
+    class chi2:
+        @staticmethod
+        def ppf(q, df):
+            assert q == 0.95 and df == 1; return 3.841458820694124
+        @staticmethod
+        def sf(x, df):
+            assert df == 1; return math.erfc(math.sqrt(max(x, 0) / 2))
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
