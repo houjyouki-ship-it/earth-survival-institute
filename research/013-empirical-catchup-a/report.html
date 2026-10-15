@@ -1,0 +1,187 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究013：手引きによる技術回復の短縮係数 a と m23 の経験的較正（open_problems 43） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="013-a-m23-open_problems-43">研究013：手引きによる技術回復の短縮係数 a と m23 の経験的較正（open_problems 43）</h1>
+<h2 id="_1">問い</h2>
+<p>研究012は、T1 の手引き（primer）が見つかると以後の技術回復の各段が a 倍になるとし、a を対数一様 [0.2, 0.7]（中央値 0.375）と置いた【推測】。電子工学の回復年数 m23 も根拠のない走査軸だった。本研究では次の3点を調べる。
+1. 歴史上の「すでに誰かが到達した能力に追いつく」速さから、a の経験分布を作れるか。
+2. その分布は012の事前分布の内側に入るか。
+3. 経験分布に替えると、012の主要な数値（Piql の D23*≈809年〔primer あり〕、相乗効果 +0.096）はどれだけ動くか。</p>
+<h2 id="sourcesexcerptsjson-sourceswikitxtsourcescomin_hobijn_2010txt">確認した事実（本回すべて開いて確認。抜粋は <code>sources/excerpts.json</code>、本文は <code>sources/wiki/*.txt</code>・<code>sources/comin_hobijn_2010.txt</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1人当たりGDP（2011年国際ドル）、178系列、1〜2022年。地域集計と旧国家も含む</td>
+<td>【事実（Maddison Project Database 2023、OWID CSV https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database.csv ）】</td>
+</tr>
+<tr>
+<td>15技術・166か国の採用ラグ：平均45年、中央値32年、SD 39年。Table 2 に技術ごとの発明年と中央値がある（蒸気船1788年→123年、インターネット1983年→8年など）。「新しい技術ほど速く採用された」</td>
+<td>【事実（Comin &amp; Hobijn 2010 AER、https://dcomin.host.dartmouth.edu/files/exploration_technology.pdf ）】</td>
+</tr>
+<tr>
+<td>B-29：Boeing は1938年に着手し、1942年9月21日に初飛行。Tu-4 は鹵獲機の複製で、1947年5月19日に初飛行。900の工場・研究所が参加し、図面は10.5万枚</td>
+<td>【事実（Wikipedia: Boeing B-29 Superfortress、Tupolev Tu-4）】</td>
+</tr>
+<tr>
+<td>A-4/V-2：1936年夏に構想、1942年10月3日に初成功、1944年9月8日に実戦投入。R-1：1946年5月13日に複製を決定、1948年9月13日に初試験、1950年11月28日に配備</td>
+<td>【事実（Wikipedia: V-2 rocket、R-1 (missile)）】</td>
+</tr>
+<tr>
+<td>米国：1942年6月17日に承認、1945年7月16日に Trinity。ソ連：1949年8月29日に RDS-1。Rhodes によれば、諜報は「計画をまる2年早めた」</td>
+<td>【事実（Wikipedia: Manhattan Project、Soviet atomic bomb project）】</td>
+</tr>
+<tr>
+<td>眼鏡は中部イタリアで1290年ごろ。複合顕微鏡は1620年ごろ。Manchester Baby（最初の電子式プログラム内蔵計算機）は1948年6月21日</td>
+<td>【事実（Wikipedia: Glasses、Microscope、Manchester Baby）】</td>
+</tr>
+<tr>
+<td>Linear B は前13世紀が最後で、ギリシア文字は慣例的に前800年ごろ（フェニキア文字から派生）。その間の文字記録はない</td>
+<td>【事実（Wikipedia: Greek alphabet）】。定性的な参考にとどめ、数値には使っていない</td>
+</tr>
+</tbody>
+</table>
+<p>Roman concrete、Latin translations of the 12th century、Meiji Restoration のページも開いた。ただし、「同じ能力に到達した年」を定義できる日付が取れなかったため、数値には使っていない。</p>
+<h2 id="simpyseed20261015012-seed202610165">方法（sim.py、seed=20261015〔012と同じ〕、ブートストラップ seed=20261016、約5秒）</h2>
+<ul>
+<li><strong>GDP 倍増帯による a（主解析・事前登録）</strong>：先頭国は英・蘭・米の年ごとの最大値とする。帯 [L, 2L] は、先頭国が L に達したのが1820年以降で、2022年までに 2L に達したものに限る（10帯：L=5,657〜26,909）。追随国は、先頭国がその帯を通過し終えた後に帯へ入った国である。a = 追随国の通過年数 ÷ 先頭国の通過年数。2022年までに 2L に届かない国は右打ち切りとし、Kaplan–Meier で推定した。地域集計・旧国家・産油18か国は除外した。信頼区間は国単位のブートストラップ（400回）。この GDP 比を primer の a の代理とみなすこと自体が【推測】である。</li>
+<li><strong>感度</strong>：越境の定義を「最後に越えた年」にした場合、先頭国を英米にした場合、産油国を含めた場合、補間間隔を10年以下に限った場合（主解析では最大7年なので結果は同じ）。</li>
+<li><strong>技術事例</strong>：先駆者と追随者の「着手→初飛行・初試験・配備」の年数比を4件。開始日の不確かさは範囲で示した。Tu-4 の発注日はページに無いため、1945年1〜7月と仮定した【推測】。諜報の有無による「知識だけの効果」は1件。</li>
+<li><strong>012 の再評価</strong>：012 の読取梯子を、同じ乱数を同じ順序で引いて再実装した。012 の事前分布では、D23*（全媒体）と m23=300 の相乗効果が <strong>012 の results.json と厳密に一致</strong>した（<code>check_vs_012.reproduced_exactly=true</code>）。a の一様乱数を各分布の分位点関数で変換しているので、比較はすべて共通乱数による対比較である。a&gt;1 は1で打ち切った（primer が回復を遅らせることはない、とする【推測】）。</li>
+</ul>
+<h2 id="preregistrationmd-1842-utc">事前登録した仮説と判定（<code>PREREGISTRATION.md</code>、初回実行前の 18:42 UTC に記載）</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H25a</td>
+<td>GDP 帯の a の KM 中央値 &lt; 0.5</td>
+<td><strong>0.584</strong>（95%CI [0.504, 0.681]）。感度：最後の越境 0.520、英米先頭 0.542、産油国込み 0.577</td>
+<td><strong>棄却</strong>（どの定義でも &gt;0.5）</td>
+</tr>
+<tr>
+<td>H25b</td>
+<td>a の四分位範囲が [0.2, 0.7] の内側</td>
+<td>q25=<strong>0.378</strong>、q75=<strong>0.877</strong>。[0.2, 0.7] に入るのは 54.9%、a&gt;1（追随国のほうが遅い）は 20.2%</td>
+<td><strong>棄却</strong>（遅い側の裾が012の範囲を外れる）</td>
+</tr>
+<tr>
+<td>H25c</td>
+<td>後の帯ほど a が小さい（ρ&lt;0）</td>
+<td>帯の中央値 a と先頭到達年の Spearman ρ は <strong>+0.85</strong>（中央値が出ない帯を上端扱い）、<strong>+0.57</strong>（中央値が出る7帯のみ）。補助の Comin–Hobijn では log 採用ラグの傾きが −0.0134/年（t=−8.0、半減期 52年）</td>
+<td><strong>主仮説は棄却、補助は支持</strong></td>
+</tr>
+<tr>
+<td>H25d</td>
+<td>a を経験分布にしても Piql の D23*（primer あり）は ±20%、相乗効果は ±0.03 以内</td>
+<td>D23* 809→<strong>628年（−22.3%）</strong>、相乗効果 0.096→<strong>0.061（−0.035）</strong></td>
+<td><strong>棄却</strong>（わずかに範囲外）</td>
+</tr>
+<tr>
+<td>H25e</td>
+<td>012 の d12=30年は先駆者の T1→T2（約330年）の1/5未満。先駆者の T2→T3（328年）は [200, 600] に入る</td>
+<td>30/330=<strong>0.091</strong>、T2→T3 は <strong>328年</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>GDP 帯の a（主解析）</strong>：480 国×帯、事象230、90か国。q25/中央値/q75/q90 = 0.378 / 0.584 / 0.877 / 1.23。対数正規で近似すると μ=−0.538、σ=0.623。</li>
+<li>速い例（事象のあるもの）：日本 0.14〜0.20（1959〜65年の各帯、1帯あたり 8〜12年）、韓国 0.15〜0.74、中国 0.17〜0.25、シンガポール 0.16〜0.37。</li>
+<li>遅い例：アルゼンチン 1.37、ウルグアイ 1.32、チリ 1.12。</li>
+<li><strong>追随の速さは「比」より「速度の上限」に近い【探索的・事前登録外】</strong>：先頭国の帯の通過年数は 56年→31年と短くなったが、追随国の帯ごとの KM 中央通過年数は <strong>20〜29年でほぼ一定</strong>だった。log(追随年数) を log(先頭年数) に回帰した傾きは <strong>0.18±0.29</strong>（7帯）。純粋な比のモデル（傾き1）とは約2.8 SE 離れている。ただし、先頭年数の幅（35〜57年）が狭く、説明力は弱い。H25c が逆符号になった主な理由はこれである【推測】。</li>
+<li><strong>技術事例の a</strong>：R-1/V-2（初試験）0.37 [0.23, 0.55]、Tu-4/B-29（初飛行）0.50 [0.40, 1.15]、R-1/V-2（配備）0.55 [0.45, 0.73]、ソ連/米国の原爆 <strong>1.31</strong> [0.70, 2.24]。知識だけの効果（諜報あり÷なし、Rhodes の2年）は <strong>0.67</strong> [0.67, 0.78]。5件を対数正規で近似すると中央値 0.620、σ=0.469。</li>
+<li><strong>012 の再評価</strong>（m23=300。D23* は primer あり、primer なしの Piql は 435年）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>a の分布</th>
+<th>a の中央値</th>
+<th>Piql D23*</th>
+<th>Piql 相乗効果</th>
+<th>M-DISC 相乗効果</th>
+<th>T3 中央値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>012：logU[0.2, 0.7]</td>
+<td>0.375</td>
+<td>809</td>
+<td>+0.096</td>
+<td>+0.064</td>
+<td>220</td>
+</tr>
+<tr>
+<td>GDP 対数正規（主）</td>
+<td>0.585</td>
+<td><strong>628</strong></td>
+<td><strong>+0.061</strong></td>
+<td>+0.039</td>
+<td>274</td>
+</tr>
+<tr>
+<td>GDP KM（ノンパラ）</td>
+<td>0.584</td>
+<td>631</td>
+<td>+0.061</td>
+<td>+0.039</td>
+<td>273</td>
+</tr>
+<tr>
+<td>GDP、知識の寄与を半分（a^0.5）【推測】</td>
+<td>0.765</td>
+<td>528</td>
+<td>+0.036</td>
+<td>+0.016</td>
+<td>312</td>
+</tr>
+<tr>
+<td>技術事例</td>
+<td>0.620</td>
+<td>600</td>
+<td>+0.055</td>
+<td>+0.031</td>
+<td>282</td>
+</tr>
+<tr>
+<td>速度上限型【探索的】</td>
+<td>0.204</td>
+<td>1139</td>
+<td>+0.120</td>
+<td>+0.116</td>
+<td>167</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>d12（T1→T2 の基線）の感度</strong>：d12 を 30→100→330年（先駆者の値）にすると、Piql D23*（primer なし）は 435→342→<strong>108年</strong>になる。primer あり（GDP の a）では 628→530→267年、相乗効果は +0.061→+0.072→+0.092。DNA の D23*（primer なし）は 1144→1040→747年。</li>
+<li><strong>採用ラグ（Comin–Hobijn の当てはめ）</strong>：中央ラグは、1800年発明の技術で 118年、1950年発明の技術で 16年。</li>
+</ul>
+<h2 id="_2">批判的検討</h2>
+<ul>
+<li><strong>代理の妥当性</strong>【推測】：GDP の追いつきには、知識だけでなく、資本の輸入、貿易、生きた技術者、制度が含まれる。崩壊後の社会には教えてくれる先頭国がいないので、知識（primer）だけの a はこれより大きい（短縮が小さい）可能性が高い。一方で、追随国の遅れには、知識と関係のない障害（政治・戦争）も含まれる。両方向の偏りを数値で分けられないため、「知識の寄与が半分」の感度を併記した。</li>
+<li><strong>生存者バイアス</strong>：L に入らなかった国（停滞国）は標本に入らない。帯の中の打ち切りは KM で扱ったが、入帯そのものの遅れは扱っていない。</li>
+<li><strong>事例は少なく、選択も偏っている</strong>：4件はすべて冷戦初期のソ連の軍事事例で、国家が総力を挙げた複製である。崩壊後の社会の代表とは言えない【推測】。原爆の事例（a&gt;1）は、同じ能力でも資源の制約で追随国のほうが遅れることを示す反例として残した。</li>
+<li><strong>012 の構造の問題（H25e）</strong>：012 の「primer なし」の基線（T1→T2 の中央値 30年）は、先駆者の歴史（約330年）の 9% にすぎない。基線自体がすでに強い追いつき（遺物・残った書物）を含んでいる。d12 の不確かさが Piql D23* に与える影響（435→108年）は、a の分布を替える影響（809→628年）より大きい。012 の「Piql は primer なしで約435年」は、d12 の仮定に強く依存する。</li>
+<li><strong>比か速度上限か</strong>：追随国の倍増年数がほぼ一定（約20〜29年）であることは、a を「比」で入れる012の構造そのものを疑わせる。速度上限型（探索的）では a の中央値が 0.20 になり、結論が逆向き（短縮が大きい）に動く。T2→T3 を所得倍増回数（英国 1620→1948 で 2.55回）に換算するのは粗い【推測】。事前登録していないので、判定には使わない。</li>
+</ul>
+<h2 id="_3">既存研究に対する新規性</h2>
+<p>Comin &amp; Hobijn 2010 は採用ラグの絶対年数を推定したが、「先駆者に比べて何倍速いか」という比は扱っていない。キャッチアップ成長の文献は収束速度を扱うが、崩壊後の知識保存の評価に結びつけたものは見当たらない（網羅的な検索はしていない【推測】）。本研究は、Maddison の全系列から同一能力帯の通過年数比の分布（打ち切り込み）を初めて作り（当研究所内で）、それを読取梯子モデルに差し込んだ。その結果、次の2点を示した。
+- 経験的な a では、012 の primer 相乗効果（Piql、m23=300）が約4割小さくなる（+0.096→+0.061）。
+- 012 の基線の T1→T2 が、a 以上に結論を左右する。</p>
+<h2 id="_4">この結果を受けて、誰が何を変えるべきか</h2>
+<p>本研究所（および primer の効果を見積もるアーカイブ設計者）は、primer の短縮係数に 012 の [0.2, 0.7] ではなく、経験的な a≈0.58（四分位 0.38〜0.88、2割は短縮なし）を使い、Piql の「primer で救える上限」を 809年から約630年に下げて伝えるべきである。そのうえで、次の較正の対象を a から T1→T2（光学・精密加工の再建年数）と「比か速度上限か」の構造に移すべきである。</p>
+<h2 id="_5">成果物と再現</h2>
+<p>sim.py、results.json、stdout.txt、fig_catchup_ratio.png、fig_priors_and_reeval.png、fig_D23_by_prior.png、PREREGISTRATION.md、sources/（OWID CSV と metadata、Comin–Hobijn の PDF とテキスト、Wikipedia 本文15件、excerpts.json）。<code>/tmp/rep013b/</code> に 012 と 013 を複製して再実行し、results.json は runtime_seconds 以外一致した。012 の再現（<code>/tmp/rep013/</code>）も runtime 以外一致した。</p><footer><hr><small>自動生成</small></footer></body></html>

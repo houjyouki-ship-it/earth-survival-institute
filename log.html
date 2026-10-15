@@ -128,4 +128,23 @@
 <li>Wikipedia 本文の MOM 化は €103万〜144万。1億字の primer は €3,900。</li>
 <li>判定：H24a 支持（定義を修正した v2 で判定。v1 の誤りは報告書に記録）、H24b 棄却、H24c 支持、H24d 棄却（長寿命媒体でも、1000年以内に読めるように前倒しする効果で +0.18 まで）、H24e 支持。</li>
 <li>「誰が何を変えるべきか」：記載あり（QR 形式アーカイブの運営者は、T1 の手引きを別拠点に置き、データ拠点を増やす）。</li>
+</ul>
+<h2 id="13-2026-10-15">第13回 2026-10-15</h2>
+<ul>
+<li>再現チェック：012 を <code>/tmp/rep013/</code> に複製し、sim.py（約2.6秒）を再実行した。results.json は runtime_seconds 以外一致。</li>
+<li>文献とデータ（本回すべて取得・確認。抜粋は research/013-.../sources/excerpts.json）：</li>
+<li>Maddison Project Database 2023（OWID CSV、curl で200、21,585行）</li>
+<li>Comin &amp; Hobijn 2010 AER の PDF（Dartmouth、200）。Table 2：採用ラグは平均45年、中央値32年</li>
+<li>Wikipedia 本文（API の plaintext）：Tu-4、B-29、V-2、R-1、Manhattan Project、Soviet atomic bomb project（Rhodes「2年短縮」）、Glasses（c.1290）、Microscope（c.1620）、Manchester Baby（1948）、Greek alphabet</li>
+<li>NBER w15628 は別の論文だった（正しくは w12314）。引用していない。</li>
+<li>研究013を実施：<code>research/013-empirical-catchup-a/</code>（sim.py seed=20261015、約5秒）→ results.json, stdout.txt, fig_catchup_ratio.png, fig_priors_and_reeval.png, fig_D23_by_prior.png, report.md, PREREGISTRATION.md, sources/。<code>/tmp/rep013b/</code> で再実行し、runtime 以外一致。012 の D23*・相乗効果を同じ乱数で厳密に再現した。</li>
+<li>方法：同じ所得倍増帯を、追随国は先頭国（英・蘭・米）の何倍の年数で通過したか（a）を求めた。打ち切りは KM で扱い、90か国・480の国×帯を使った。技術複製事例は5件。012 の a 事前分布をこれらに置き換えて再評価した。</li>
+<li>主要数値：</li>
+<li>a の中央値 0.584（95%CI [0.50, 0.68]）、四分位 0.378〜0.877。a&gt;1 は20%。</li>
+<li>技術事例の a：0.37〜1.31。知識だけの効果（諜報）は 0.67。</li>
+<li>Piql の D23*（primer あり）は 809→628年、相乗効果（m23=300）は +0.096→+0.061。</li>
+<li>d12 を先駆者の330年にすると、Piql の D23*（primer なし）は 435→108年。</li>
+<li>判定：H25a 棄却、H25b 棄却、H25c 棄却（補助の Comin–Hobijn は支持）、H25d 棄却（−22%）、H25e 支持。</li>
+<li>探索的な結果（事前登録外）：追随国の倍増年数は帯によらず20〜29年でほぼ一定だった（log 傾き 0.18±0.29）。a を「比」で入れる構造が疑わしい。</li>
+<li>「誰が何を変えるべきか」：記載あり。primer の相乗効果の見積もりを約4割割り引く（Piql の上限は809年→約630年）。次の較正対象は T1→T2 と「比か速度上限か」。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,71 @@
+[
+ {
+  "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database.csv",
+  "file": "owid_gdppc_maddison.csv",
+  "retrieved": "2026-10-15 via curl (HTTP 200, 567,430 bytes, 21,585 rows)",
+  "citation": "Bolt and van Zanden – Maddison Project Database 2023 (via Our World in Data)",
+  "note": "metadata in owid_gdppc_maddison.metadata.json: international-$ at 2011 prices"
+ },
+ {
+  "url": "https://dcomin.host.dartmouth.edu/files/exploration_technology.pdf",
+  "file": "comin_hobijn_2010.pdf / .txt",
+  "citation": "Comin & Hobijn 2010, AER 100(5):2031-59",
+  "excerpt": "egarding these estimates are reported in Table 2. The average adoption lag in our sample is 45 years with a median lag of 32. This means that the average adoption path of countries in our sample over all technologies is similar to that of a country that adopts the technology 45 years after its invention.     However, there is considerable variation",
+  "table2": "sources/comin_hobijn_2010.txt lines 1139-1157"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-4",
+  "file": "wiki/Tupolev_Tu-4.txt",
+  "excerpt": "were made throughout the aircraft's service life. The Tu-4 first flew on 19 May 1947 and was flown by test pilot Nikolai Rybko. Serial production started immediately, and the type would enter large-scale service by 1949. The aircraft was first displa"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-4",
+  "excerpt": "iroshima, in accordance with the Yalta Agreement. Stalin told Tupolev to duplicate the Superfortress in as short a time as possible instead of continuing with his own comparable ANT-64/Tu-10. The reverse-engineering effort involved 900 factories and research institutes, which finished the design work during the first year, and 105,000 drawings were made. By the end of the second year, the Soviet industry would produce twenty c"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Boeing_B-29_Superfortress",
+  "file": "wiki/Boeing_B-29_Superfortress.txt",
+  "excerpt": " Doc – still fly.   == Design and development ==  Boeing began work on long-range bombers in 1938. Boeing's design study for the Model 334 was a pressurized derivative of ... subcontractors were also involved in the project. The first prototype made its maiden flight from Boeing Field, Seattle, on 21 September 1942. The combined effects of the"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/V-2_rocket",
+  "file": "wiki/V-2_rocket.txt",
+  "excerpt": "Aggregate series rockets, Braun and Walter Riedel began thinking of a much larger rocket in the summer of 1936, based on a projected 25,000 kg (55,000 lb) thrust engine.  ... -2\" as early as December 1944.   === Testing ===  The fourth flight was the first successful test flight and occurred on 3 October 1942, with rocket V-4, reaching an altitude of 84.5 kilometres (52.5  ... of the operational V-2 launches were beam-guided. The Operation Pinguin V-2 offensive began on 8 September 1944, when Lehr- und Ve"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/R-1_(missile)",
+  "file": "wiki/R-1_missile.txt",
+  "excerpt": "ions in Germany, A-4s were assembled and studied. This prompted the 13 May 1946 decree of the Soviet Council of Ministers for, in part, the development of a Soviet copy of the A-4, which would be the first domestically produced ballistic missile. A f ... ). a range slightly greater than that of the A-4. The first tests of the missile began 13 September 1948. This first series reveal ...  on the German V-2 rocket. The R-1 missile system entered into service in the Soviet Army on 28 November 1950."
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Manhattan_Project",
+  "file": "wiki/Manhattan_Project.txt",
+  "excerpt": "project be put under strict security regulations. On 17 June 1942, President Roosevelt approved the recommenda ... r detonated was an implosion-type bomb during the Trinity test, conducted at White Sands Proving Ground in New Mexico on 16 July 1"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Soviet_atomic_bomb_project",
+  "file": "wiki/Soviet_atomic_bomb_project.txt",
+  "excerpt": "ent. They add exactly what we have been missing.\" According to Richard Rhodes, \"...Kurchatov learned enough, to transform the Soviet program...information that would accelerate the Soviet program by a full two years.\" This included an alternative to  ... ariton, in the closed city of Arzamas-16 (Sarov). On 29 August 1949, the Soviet Union secretly conducted its first weapon test, RDS-1, at the Semipala"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Glasses",
+  "file": "wiki/Glasses.txt",
+  "excerpt": "optical purposes was made in 1268 by Roger Bacon. The first glasses were estimated to have been made in central Italy, most likely in Pisa or Florence, by about 1290: In a sermon delivered on 23 Febru"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Microscope",
+  "file": "wiki/Microscope.txt",
+  "excerpt": " use of lenses in eyeglasses in the 13th century. The earliest known examples of compound microscopes, which combine an objective lens near the specimen with an eyepiece to view a real image, appeared in Europe around 1620. The inventor is unknown, e"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Manchester_Baby",
+  "file": "wiki/Manchester_Baby.txt",
+  "excerpt": "lled the Small-Scale Experimental Machine (SSEM), was the first electronic stored-program computer. It was built at the Victoria University of Manchester by Frederic C. Williams, Tom Kilburn, and Geof"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Greek_alphabet",
+  "file": "wiki/Greek_alphabet.txt",
+  "excerpt": " of the Greek language, known as Mycenaean Greek. This writing system, unrelated to the Greek alphabet, last appeared in the 13th century BC. Inscription written in the Greek alphabet begin to emerge from the 8th century BC onward. While early samples of the Greek alphabet date from at least 775 BC, the oldest known substantial and comprehensible inscriptions, such as those on the Dipylon vase, the cup of Nestor, and cup of Acesander, date from c",
+  "use": "qualitative only: gap between last Linear B (13th c. BC) and Greek alphabet (conventionally c. 800 BC), alphabet derived from Phoenician"
+ }
+]

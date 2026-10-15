@@ -1,0 +1,75 @@
+check_vs_012 reproduced_exactly: True
+[GDP primary_first_UKNLUS_exoil] pairs=480 events=230 countries=90 q25=0.37838777722706357 med=0.5841988163823056 q75=0.876686236592853 q90=1.2261198105630813 P(0.2<a<=0.7)=0.549 P(a<=1)=0.798 rho=0.8545454545454544
+[GDP last_crossing] pairs=472 events=232 countries=89 q25=0.3465895812540016 med=0.5203859402747216 q75=0.7504732504664756 q90=1.0799604901732343 P(0.2<a<=0.7)=0.632 P(a<=1)=0.864 rho=0.9272727272727272
+[GDP pioneer_UK_US] pairs=643 events=354 countries=100 q25=0.322333418090938 med=0.5421800964767411 q75=0.8553972693865911 q90=1.2484602109398242 P(0.2<a<=0.7)=0.583 P(a<=1)=0.820 rho=0.9020979020979022
+[GDP include_oil] pairs=560 events=281 countries=104 q25=0.34844478956467373 med=0.576736761908551 q75=0.865274076301444 q90=1.2261198105630813 P(0.2<a<=0.7)=0.534 P(a<=1)=0.811 rho=0.8545454545454544
+[GDP gap_le_10y] pairs=480 events=230 countries=90 q25=0.37838777722706357 med=0.5841988163823056 q75=0.876686236592853 q90=1.2261198105630813 P(0.2<a<=0.7)=0.549 P(a<=1)=0.798 rho=0.8545454545454544
+primary boot95: {'q25': [0.31507988291767003, 0.4232382990038428], 'median': [0.504100193738361, 0.6807974619070523], 'q75': [0.7756149725780211, 1.0473534273324128]}
+per_band: [{"L": 5657, "frontier_year_L": 1870.0, "pioneer_years": 56.0, "n": 74, "n_events": 55, "km_median_a": 0.46498211470816386}, {"L": 6727, "frontier_year_L": 1889.0, "pioneer_years": 52.0, "n": 71, "n_events": 45, "km_median_a": 0.4270239151520802}, {"L": 8000, "frontier_year_L": 1900.0, "pioneer_years": 43.0, "n": 71, "n_events": 44, "km_median_a": 0.5379923394358959}, {"L": 9514, "frontier_year_L": 1906.0, "pioneer_years": 57.0, "n": 62, "n_events": 32, "km_median_a": 0.5029578532659774}, {"L": 11314, "frontier_year_L": 1926.0, "pioneer_years": 41.0, "n": 57, "n_events": 24, "km_median_a": 0.5898588117331878}, {"L": 13454, "frontier_year_L": 1941.0, "pioneer_years": 35.0, "n": 49, "n_events": 20, "km_median_a": 0.7708801488449029}, {"L": 16000, "frontier_year_L": 1943.0, "pioneer_years": 41.0, "n": 39, "n_events": 9, "km_median_a": 0.4866979823728554}, {"L": 19027, "frontier_year_L": 1963.0, "pioneer_years": 31.0, "n": 28, "n_events": 1, "km_median_a": null}, {"L": 22627, "frontier_year_L": 1967.0, "pioneer_years": 33.0, "n": 20, "n_events": 0, "km_median_a": null}, {"L": 26909, "frontier_year_L": 1976.0, "pioneer_years": 41.0, "n": 9, "n_events": 0, "km_median_a": null}]
+spearman defined-only: {'primary_first_UKNLUS_exoil': 0.5714285714285715, 'last_crossing': 0.7857142857142859, 'pioneer_UK_US': 0.7666666666666667, 'include_oil': 0.5714285714285715, 'gap_le_10y': 0.5714285714285715} max gap: {'primary_first_UKNLUS_exoil': 7.0, 'last_crossing': 0.0, 'pioneer_UK_US': 118.0, 'include_oil': 7.0, 'gap_le_10y': 7.0}
+follower doubling years KM: {'primary_first_UKNLUS_exoil': {'q10': 12.115965235635713, 'q25': 16.695800972769575, 'median': 26.307519025302327, 'q75': 40.96200535237972}, 'last_crossing': {'q10': 11.451009275064507, 'q25': 15.54700297205477, 'median': 22.20524358790817, 'q75': 34.89304865163194}, 'pioneer_UK_US': {'q10': 11.754498094267092, 'q25': 16.056159737154076, 'median': 26.038998423657176, 'q75': 40.014212768892776}, 'include_oil': {'q10': 10.709926311141999, 'q25': 16.04235741385719, 'median': 26.038998423657176, 'q75': 39.3848677524727}, 'gap_le_10y': {'q10': 12.115965235635713, 'q25': 16.695800972769575, 'median': 26.307519025302327, 'q75': 40.96200535237972}}
+pioneer years by band: [56.0, 52.0, 43.0, 57.0, 41.0, 35.0, 41.0, 31.0, 33.0, 41.0]
+RATE: {'UK_gdppc_1620': 1842.0000000000002, 'UK_gdppc_1948': 10753.000000000004, 'n_doublings': 2.545394249674352, 'follower_doubling_years_median': 26.307519025302327, 'a_rate_median': 0.20415551112866814, 'label': 'exploratory, not pre-registered'}
+slope ratio-vs-rate: {'primary_first_UKNLUS_exoil': {'slope': 0.17502268671740367, 'se': 0.28977055515638855, 'n_bands': 7}, 'last_crossing': {'slope': -0.0051159832800284095, 'se': 0.27421974100940494, 'n_bands': 7}, 'pioneer_UK_US': {'slope': 0.06453604214399426, 'se': 0.22224356811752577, 'n_bands': 9}, 'include_oil': {'slope': 0.3661540282156616, 'se': 0.21172059854879938, 'n_bands': 7}, 'gap_le_10y': {'slope': 0.17502268671740367, 'se': 0.28977055515638855, 'n_bands': 7}}
+band median durations: [(5657, 56.0, 26.038998423657176), (6727, 52.0, 22.20524358790817), (8000, 43.0, 23.133670595743524), (9514, 57.0, 28.66859763616071), (11314, 41.0, 24.184211281060698), (13454, 35.0, 26.9808052095716), (16000, 41.0, 19.95461727728707), (19027, 31.0, None), (22627, 33.0, None), (26909, 41.0, None)]
+GDP LN fit mu=-0.538 sigma=0.623 median=0.584
+cases: [
+{
+"name": "Tu-4 (copy of B-29): program start -> first flight",
+"pioneer_years": 4.7214611872148,
+"follower_years": 2.3826484018263727,
+"a_main": 0.5046421663442503,
+"a_range": [
+0.3987427466150476,
+1.1482011222354658
+],
+"note": "B-29: Boeing began work 1938; XB-29 order 24 Aug 1940; first flight 21 Sep 1942. Tu-4: Stalin's copy order after B-29s interned in 1944 (crews left Jan 1945; exact order date not on page -> start 1945-01..1945-07 [\u63a8\u6e2c]); first flight 19 May 1947."
+},
+{
+"name": "R-1 (copy of V-2/A-4): start -> first successful/test flight",
+"pioneer_years": 6.255479452054715,
+"follower_years": 2.333333333333485,
+"a_main": 0.3730063140990837,
+"a_range": [
+0.23172378553962952,
+0.5483126777188077
+],
+"note": "A-4: larger rocket conceived summer 1936; design/construction ordered c.1938-39; first successful flight 3 Oct 1942. R-1: decree 13 May 1946; production authorized Apr 1947; first tests 13 Sep 1948."
+},
+{
+"name": "R-1 vs V-2: start -> entry into service",
+"pioneer_years": 8.185844748858472,
+"follower_years": 4.541095890411043,
+"a_main": 0.5547498187092182,
+"a_range": [
+0.4467841802867152,
+0.7341108732560822
+],
+"note": "V-2 first operational launch 8 Sep 1944; R-1 entered service 28 Nov 1950."
+},
+{
+"name": "USSR bomb vs Manhattan: crash program -> first test",
+"pioneer_years": 3.0805936073059,
+"follower_years": 4.038356164383686,
+"a_main": 1.3109019491588787,
+"a_range": [
+0.6973388527498634,
+2.243089009115846
+],
+"note": "US: Roosevelt approved 17 Jun 1942 (alt: Briggs committee Oct 1939); Trinity 16 Jul 1945. USSR: accelerated after Aug 1945 (alt: authorized late 1942); RDS-1 29 Aug 1949."
+}
+]
+knowledge_only: {'name': "USSR bomb: with espionage vs counterfactual without (Rhodes: accelerated by 'a full two years')", 'a_main': 0.6687840290381193, 'a_range': [0.6687840290381193, 0.7755342592118061]}
+case LN: median=0.620 sigma=0.469
+Comin-Hobijn: {'slope_log_lag_per_year': -0.013446740353795636, 'se': 0.0016761656643638552, 't': -8.02232180248066, 'halving_years': 51.54759907030475, 'fitted_median_lag_1800': 117.65355369464079, 'fitted_median_lag_1950': 15.654106320990701, 'spearman': -0.9357142857142854, 'overall_mean_lag': 45, 'overall_median_lag': 32}
+pioneer: {'d12_pioneer': 330, 'd23_pioneer': 328, 'd12_prior_012_median': 30, 'ratio_012_d12_to_pioneer': 0.09090909090909091}
+D23* no primer: {'MDISC_BD': '<50', 'Piql_film_QR': 434.8261673887213, 'Silica_glass': '>1600', 'DNA_silica': 1143.9145481711976, 'Microfilm_AgX': '>1600', 'Rosetta_Ni': '>1600', 'MOM_ceramic': '>1600'}
+[012_logU_0.2_0.7] a q10/50/90=0.227/0.375/0.618 D23*primer={'MDISC_BD': '<50', 'Piql_film_QR': 809, 'Silica_glass': '>1600', 'DNA_silica': '>1600', 'Microfilm_AgX': '>1600', 'Rosetta_Ni': '>1600', 'MOM_ceramic': '>1600'} syn300 Piql=0.0960 MDISC=0.0644 Silica=0.0289 medT3=219.6
+[GDP_lognormal] a q10/50/90=0.263/0.585/1.000 D23*primer={'MDISC_BD': '<50', 'Piql_film_QR': 628, 'Silica_glass': '>1600', 'DNA_silica': '>1600', 'Microfilm_AgX': '>1600', 'Rosetta_Ni': '>1600', 'MOM_ceramic': '>1600'} syn300 Piql=0.0606 MDISC=0.0386 Silica=0.0197 medT3=273.9
+[GDP_KM_nonparam] a q10/50/90=0.248/0.584/1.000 D23*primer={'MDISC_BD': '<50', 'Piql_film_QR': 631, 'Silica_glass': '>1600', 'DNA_silica': '>1600', 'Microfilm_AgX': '>1600', 'Rosetta_Ni': '>1600', 'MOM_ceramic': '>1600'} syn300 Piql=0.0613 MDISC=0.0394 Silica=0.0197 medT3=273.1
+[GDP_lognormal_knowledge_half] a q10/50/90=0.513/0.765/1.000 D23*primer={'MDISC_BD': '<50', 'Piql_film_QR': 528, 'Silica_glass': '>1600', 'DNA_silica': 1391, 'Microfilm_AgX': '>1600', 'Rosetta_Ni': '>1600', 'MOM_ceramic': '>1600'} syn300 Piql=0.0358 MDISC=0.0162 Silica=0.0145 medT3=312.2
+[cases_lognormal] a q10/50/90=0.340/0.620/1.000 D23*primer={'MDISC_BD': '<50', 'Piql_film_QR': 600, 'Silica_glass': '>1600', 'DNA_silica': 1585, 'Microfilm_AgX': '>1600', 'Rosetta_Ni': '>1600', 'MOM_ceramic': '>1600'} syn300 Piql=0.0553 MDISC=0.0311 Silica=0.0193 medT3=282.2
+[EXPLORATORY_rate_limited] a q10/50/90=0.094/0.204/0.440 D23*primer={'MDISC_BD': '<50', 'Piql_film_QR': 1139, 'Silica_glass': '>1600', 'DNA_silica': '>1600', 'Microfilm_AgX': '>1600', 'Rosetta_Ni': '>1600', 'MOM_ceramic': '>1600'} syn300 Piql=0.1201 MDISC=0.1158 Silica=0.0307 medT3=167.2
+d12 sensitivity: {"30": {"D23_star_no_primer": {"MDISC_BD": "<50", "Piql_film_QR": 434.8261673887213, "DNA_silica": 1143.9145481711976}, "012_logU_0.2_0.7": {"D23_star_primer": {"MDISC_BD": "<50", "Piql_film_QR": 808.7524907839587, "DNA_silica": ">1600"}, "synergy_Piql_300": 0.09597}, "GDP_lognormal": {"D23_star_primer": {"MDISC_BD": "<50", "Piql_film_QR": 628.1410285131003, "DNA_silica": ">1600"}, "synergy_Piql_300": 0.060624999999999984}}, "100": {"D23_star_no_primer": {"MDISC_BD": "<50", "Piql_film_QR": 341.8840685978309, "DNA_silica": 1040.0330889755942}, "012_logU_0.2_0.7": {"D23_star_primer": {"MDISC_BD": "<50", "Piql_film_QR": 706.4320959757312, "DNA_silica": ">1600"}, "synergy_Piql_300": 0.11551499999999998}, "GDP_lognormal": {"D23_star_primer": {"MDISC_BD": "<50", "Piql_film_QR": 529.7240429064601, "DNA_silica": 1556.6259084227008}, "synergy_Piql_300": 0.07234499999999999}}, "330": {"D23_star_no_primer": {"MDISC_BD": "<50", "Piql_film_QR": 108.07201173837335, "DNA_silica": 746.5097931606407}, "012_logU_0.2_0.7": {"D23_star_primer": {"MDISC_BD": "<50", "Piql_film_QR": 429.4328553593279, "DNA_silica": ">1600"}, "synergy_Piql_300": 0.14888999999999997}, "GDP_lognormal": {"D23_star_primer": {"MDISC_BD": "<50", "Piql_film_QR": 266.67737279549186, "DNA_silica": 1243.3512729168588}, "synergy_Piql_300": 0.09245999999999999}}}
+hypotheses: {"H25a": [false, 0.5841988163823056], "H25b": [false, [0.37838777722706357, 0.876686236592853]], "H25c": [false, 0.8545454545454544], "H25d": [false, {"D23_primer_012": 808.7524907839587, "D23_primer_GDP": 628.1410285131003, "rel_change": -0.2233210584560722, "synergy_012": 0.09597, "synergy_GDP": 0.060624999999999984, "diff": -0.035345000000000015}], "H25e": [true, {"d12_pioneer": 330, "d23_pioneer": 328, "d12_prior_012_median": 30, "ratio_012_d12_to_pioneer": 0.09090909090909091}]}
+runtime_sec=5.2

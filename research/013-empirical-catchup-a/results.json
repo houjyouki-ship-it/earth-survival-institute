@@ -1,0 +1,2390 @@
+{
+ "seed": 20261015,
+ "seed_boot": 20261016,
+ "N": 200000,
+ "L_grid": [
+  2000,
+  2378,
+  2828,
+  3364,
+  4000,
+  4757,
+  5657,
+  6727,
+  8000,
+  9514,
+  11314,
+  13454,
+  16000,
+  19027,
+  22627,
+  26909,
+  32000,
+  38055,
+  45255,
+  53817,
+  64000
+ ],
+ "oil_excluded": [
+  "AGO",
+  "ARE",
+  "BHR",
+  "COG",
+  "DZA",
+  "ECU",
+  "GAB",
+  "GNQ",
+  "IRN",
+  "IRQ",
+  "KWT",
+  "LBY",
+  "NGA",
+  "OMN",
+  "QAT",
+  "SAU",
+  "TTO",
+  "VEN"
+ ],
+ "gdp_catchup": {
+  "primary_first_UKNLUS_exoil": {
+   "n_pairs": 480,
+   "n_events": 230,
+   "n_countries": 90,
+   "km_q25": 0.37838777722706357,
+   "km_median": 0.5841988163823056,
+   "km_q75": 0.876686236592853,
+   "km_q90": 1.2261198105630813,
+   "P_a_le_0.2": 0.049416499973085504,
+   "P_a_le_0.7": 0.5988004777057283,
+   "P_a_le_1.0": 0.7980876595796506,
+   "P_a_in_012_prior": 0.5493839777326428,
+   "per_band": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0,
+     "n": 74,
+     "n_events": 55,
+     "km_median_a": 0.46498211470816386,
+     "km_median_dur": 26.038998423657176,
+     "median_dur_events": 21.19952279050881
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0,
+     "n": 71,
+     "n_events": 45,
+     "km_median_a": 0.4270239151520802,
+     "km_median_dur": 22.20524358790817,
+     "median_dur_events": 19.222186389023364
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0,
+     "n": 71,
+     "n_events": 44,
+     "km_median_a": 0.5379923394358959,
+     "km_median_dur": 23.133670595743524,
+     "median_dur_events": 19.814885145615676
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0,
+     "n": 62,
+     "n_events": 32,
+     "km_median_a": 0.5029578532659774,
+     "km_median_dur": 28.66859763616071,
+     "median_dur_events": 20.737141215647284
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0,
+     "n": 57,
+     "n_events": 24,
+     "km_median_a": 0.5898588117331878,
+     "km_median_dur": 24.184211281060698,
+     "median_dur_events": 19.873408373122288
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0,
+     "n": 49,
+     "n_events": 20,
+     "km_median_a": 0.7708801488449029,
+     "km_median_dur": 26.9808052095716,
+     "median_dur_events": 18.18625737494233
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0,
+     "n": 39,
+     "n_events": 9,
+     "km_median_a": 0.4866979823728554,
+     "km_median_dur": 19.95461727728707,
+     "median_dur_events": 16.36347746174124
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0,
+     "n": 28,
+     "n_events": 1,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": 22.871081002389246
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0,
+     "n": 20,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0,
+     "n": 9,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    }
+   ],
+   "boot95": {
+    "q25": [
+     0.31507988291767003,
+     0.4232382990038428
+    ],
+    "median": [
+     0.504100193738361,
+     0.6807974619070523
+    ],
+    "q75": [
+     0.7756149725780211,
+     1.0473534273324128
+    ]
+   },
+   "spearman_band_median_a_vs_frontier_year": 0.8545454545454544,
+   "bands": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0
+    }
+   ],
+   "spearman_defined_bands_only": 0.5714285714285715,
+   "EXPLORATORY_slope_logdur_vs_logpioneer": {
+    "slope": 0.17502268671740367,
+    "se": 0.28977055515638855,
+    "n_bands": 7
+   },
+   "max_interp_gap_at_entry": 7.0,
+   "km_follower_doubling_years": {
+    "q10": 12.115965235635713,
+    "q25": 16.695800972769575,
+    "median": 26.307519025302327,
+    "q75": 40.96200535237972
+   },
+   "pioneer_years_by_band": [
+    56.0,
+    52.0,
+    43.0,
+    57.0,
+    41.0,
+    35.0,
+    41.0,
+    31.0,
+    33.0,
+    41.0
+   ],
+   "examples_fastest": [
+    {
+     "code": "MNG",
+     "L": 5657,
+     "t_L": 2006.313136000717,
+     "dur": 6.475322404855433,
+     "event": 1,
+     "a": 0.1156307572295613,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ROU",
+     "L": 6727,
+     "t_L": 1999.2438988443898,
+     "dur": 7.1655437464023635,
+     "event": 1,
+     "a": 0.13779891820004544,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "JPN",
+     "L": 5657,
+     "t_L": 1958.9817449605039,
+     "dur": 7.938289340436086,
+     "event": 1,
+     "a": 0.14175516679350153,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 6727,
+     "t_L": 1981.781941245149,
+     "dur": 7.850974589478938,
+     "event": 1,
+     "a": 0.15098028056690266,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TKM",
+     "L": 8000,
+     "t_L": 2004.2266840359048,
+     "dur": 6.541458457977569,
+     "event": 1,
+     "a": 0.15212694088319928,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "JPN",
+     "L": 6727,
+     "t_L": 1960.5450895944407,
+     "dur": 7.9814866961858115,
+     "event": 1,
+     "a": 0.15349012877280407,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ROU",
+     "L": 8000,
+     "t_L": 2001.178768487354,
+     "dur": 6.6501438121008505,
+     "event": 1,
+     "a": 0.15465450725815932,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 9514,
+     "t_L": 1985.7393008672761,
+     "dur": 9.21747557304866,
+     "event": 1,
+     "a": 0.1617100977727835,
+     "gap_at_L": 0.0
+    }
+   ],
+   "examples_slowest_events": [
+    {
+     "code": "CHL",
+     "L": 5657,
+     "t_L": 1928.6870486838145,
+     "dur": 62.87688295275666,
+     "event": 1,
+     "a": 1.122801481299226,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "LVA",
+     "L": 13454,
+     "t_L": 1978.4394943135312,
+     "dur": 42.914193369707846,
+     "event": 1,
+     "a": 1.2261198105630813,
+     "gap_at_L": 7.0
+    },
+    {
+     "code": "HRV",
+     "L": 13454,
+     "t_L": 1978.2644403171848,
+     "dur": 43.69610738289384,
+     "event": 1,
+     "a": 1.2484602109398242,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "URY",
+     "L": 8000,
+     "t_L": 1952.957502832184,
+     "dur": 56.72443644664031,
+     "event": 1,
+     "a": 1.319172940619542,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ARG",
+     "L": 8000,
+     "t_L": 1946.840217387082,
+     "dur": 58.74069993762555,
+     "event": 1,
+     "a": 1.3660627892471058,
+     "gap_at_L": 0.0
+    }
+   ],
+   "selected": [
+    {
+     "code": "BRA",
+     "L": 5657,
+     "t_L": 1972.3030779169665,
+     "dur": 32.71513371740912,
+     "event": 1,
+     "a": 0.5841988163823056,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 5657,
+     "t_L": 2003.018671259152,
+     "dur": 9.45800439513846,
+     "event": 1,
+     "a": 0.16889293562747248,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "IND",
+     "L": 5657,
+     "t_L": 2014.391574237775,
+     "dur": 7.608425762224897,
+     "event": 0,
+     "a": 0.13586474575401603,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ITA",
+     "L": 5657,
+     "t_L": 1950.2047407305456,
+     "dur": 12.424964332903528,
+     "event": 1,
+     "a": 0.221874363087563,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "JPN",
+     "L": 5657,
+     "t_L": 1958.9817449605039,
+     "dur": 7.938289340436086,
+     "event": 1,
+     "a": 0.14175516679350153,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "SGP",
+     "L": 5657,
+     "t_L": 1968.5837031720882,
+     "dur": 9.080920764006123,
+     "event": 1,
+     "a": 0.1621592993572522,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 5657,
+     "t_L": 1977.602248108499,
+     "dur": 9.792126568586127,
+     "event": 1,
+     "a": 0.17485940301046657,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ESP",
+     "L": 5657,
+     "t_L": 1961.1584178491532,
+     "dur": 11.475393594702837,
+     "event": 1,
+     "a": 0.20491774276255065,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TWN",
+     "L": 5657,
+     "t_L": 1975.0716335490047,
+     "dur": 10.410607053509239,
+     "event": 1,
+     "a": 0.18590369738409354,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "BRA",
+     "L": 6727,
+     "t_L": 1975.2993464742128,
+     "dur": 33.972025847412624,
+     "event": 1,
+     "a": 0.6533081893733197,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 6727,
+     "t_L": 2005.1620401300597,
+     "dur": 9.999994511307705,
+     "event": 1,
+     "a": 0.1923075867559174,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "IND",
+     "L": 6727,
+     "t_L": 2017.221620693039,
+     "dur": 4.778379306960915,
+     "event": 0,
+     "a": 0.09189190974924835,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ITA",
+     "L": 6727,
+     "t_L": 1952.8536504289068,
+     "dur": 14.120225230168899,
+     "event": 1,
+     "a": 0.2715427928878634,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "JPN",
+     "L": 6727,
+     "t_L": 1960.5450895944407,
+     "dur": 7.9814866961858115,
+     "event": 1,
+     "a": 0.15349012877280407,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "SGP",
+     "L": 6727,
+     "t_L": 1970.120271613943,
+     "dur": 9.748384730163252,
+     "event": 1,
+     "a": 0.18746893711852408,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 6727,
+     "t_L": 1981.781941245149,
+     "dur": 7.850974589478938,
+     "event": 1,
+     "a": 0.15098028056690266,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ESP",
+     "L": 6727,
+     "t_L": 1963.3157938847687,
+     "dur": 14.195181171647164,
+     "event": 1,
+     "a": 0.272984253300907,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TWN",
+     "L": 6727,
+     "t_L": 1976.9524776882922,
+     "dur": 9.915218572626145,
+     "event": 1,
+     "a": 0.19067728024281047,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "BRA",
+     "L": 8000,
+     "t_L": 1979.522632534212,
+     "dur": 42.47736746578789,
+     "event": 0,
+     "a": 0.9878457550183231,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 8000,
+     "t_L": 2007.3584383509337,
+     "dur": 10.667730765403803,
+     "event": 1,
+     "a": 0.24808676198613497,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ITA",
+     "L": 8000,
+     "t_L": 1956.6235436131205,
+     "dur": 15.278012491598474,
+     "event": 1,
+     "a": 0.35530261608368546,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "JPN",
+     "L": 8000,
+     "t_L": 1962.6944227674762,
+     "dur": 8.298009635807603,
+     "event": 1,
+     "a": 0.1929769682745954,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "SGP",
+     "L": 8000,
+     "t_L": 1971.822800299536,
+     "dur": 11.451009275064507,
+     "event": 1,
+     "a": 0.26630254128056996,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 8000,
+     "t_L": 1983.5719212789725,
+     "dur": 8.797686213344832,
+     "event": 1,
+     "a": 0.20459735379871702,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ESP",
+     "L": 8000,
+     "t_L": 1966.3853500274215,
+     "dur": 20.35585043502465,
+     "event": 1,
+     "a": 0.4733918705819686,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TWN",
+     "L": 8000,
+     "t_L": 1979.0810224393313,
+     "dur": 11.068553843848804,
+     "event": 1,
+     "a": 0.2574082289267164,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "BRA",
+     "L": 9514,
+     "t_L": 1999.187060614106,
+     "dur": 22.81293938589397,
+     "event": 0,
+     "a": 0.4002270067700696,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 9514,
+     "t_L": 2009.85024553143,
+     "dur": 11.785530487265305,
+     "event": 1,
+     "a": 0.20676369275904044,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "JPN",
+     "L": 9514,
+     "t_L": 1965.063052816974,
+     "dur": 11.61992563617332,
+     "event": 1,
+     "a": 0.2038583444942688,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "SGP",
+     "L": 9514,
+     "t_L": 1974.6976625297307,
+     "dur": 12.76506421930776,
+     "event": 1,
+     "a": 0.22394849507557474,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 9514,
+     "t_L": 1985.7393008672761,
+     "dur": 9.21747557304866,
+     "event": 1,
+     "a": 0.1617100977727835,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ESP",
+     "L": 9514,
+     "t_L": 1970.029445584045,
+     "dur": 19.75560613147809,
+     "event": 1,
+     "a": 0.3465895812540016,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TWN",
+     "L": 9514,
+     "t_L": 1982.9750214395474,
+     "dur": 9.96603354656827,
+     "event": 1,
+     "a": 0.1748426937994433,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "BRA",
+     "L": 11314,
+     "t_L": 2005.0182116343756,
+     "dur": 16.981788365624425,
+     "event": 0,
+     "a": 0.41418996013718107,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 11314,
+     "t_L": 2012.4766756542904,
+     "dur": 9.523324345709625,
+     "event": 0,
+     "a": 0.2322762035538933,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "SGP",
+     "L": 11314,
+     "t_L": 1977.6646239360944,
+     "dur": 12.309904591007808,
+     "event": 1,
+     "a": 0.30024157539043433,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 11314,
+     "t_L": 1987.3943746770851,
+     "dur": 12.30675244731151,
+     "event": 1,
+     "a": 0.3001646938368661,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ESP",
+     "L": 11314,
+     "t_L": 1972.633811443856,
+     "dur": 23.84832326164519,
+     "event": 1,
+     "a": 0.5816664210157364,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TWN",
+     "L": 11314,
+     "t_L": 1985.482240602514,
+     "dur": 10.748916868765946,
+     "event": 1,
+     "a": 0.2621687041162426,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "BRA",
+     "L": 13454,
+     "t_L": 2009.2713723216254,
+     "dur": 12.72862767837455,
+     "event": 0,
+     "a": 0.36367507652498715,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 13454,
+     "t_L": 2015.1620346413674,
+     "dur": 6.837965358632573,
+     "event": 0,
+     "a": 0.1953704388180735,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "SGP",
+     "L": 13454,
+     "t_L": 1979.8686563441063,
+     "dur": 13.062129136388876,
+     "event": 1,
+     "a": 0.3732036896111107,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 13454,
+     "t_L": 1989.632915834628,
+     "dur": 14.698534510993568,
+     "event": 1,
+     "a": 0.4199581288855305,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ESP",
+     "L": 13454,
+     "t_L": 1977.5109750564159,
+     "dur": 22.430456828153865,
+     "event": 1,
+     "a": 0.6408701950901105,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TWN",
+     "L": 13454,
+     "t_L": 1986.8676962609184,
+     "dur": 14.714058470917053,
+     "event": 1,
+     "a": 0.42040167059763006,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 16000,
+     "t_L": 2018.0261691163375,
+     "dur": 3.9738308836624583,
+     "event": 0,
+     "a": 0.09692270447957216,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 16000,
+     "t_L": 1992.3696074923173,
+     "dur": 18.30535734431237,
+     "event": 1,
+     "a": 0.4464721303490822,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "ESP",
+     "L": 16000,
+     "t_L": 1986.7412004624462,
+     "dur": 19.371885478932654,
+     "event": 1,
+     "a": 0.47248501168128426,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "TWN",
+     "L": 16000,
+     "t_L": 1990.14957628318,
+     "dur": 15.275105729524057,
+     "event": 1,
+     "a": 0.37256355437863553,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "CHN",
+     "L": 19027,
+     "t_L": 2021.6340335051364,
+     "dur": 0.36596649486364186,
+     "event": 0,
+     "a": 0.011805370802052963,
+     "gap_at_L": 0.0
+    },
+    {
+     "code": "KOR",
+     "L": 19027,
+     "t_L": 1994.9560701599173,
+     "dur": 22.871081002389246,
+     "event": 1,
+     "a": 0.7377768065286854,
+     "gap_at_L": 0.0
+    }
+   ]
+  },
+  "last_crossing": {
+   "n_pairs": 472,
+   "n_events": 232,
+   "n_countries": 89,
+   "km_q25": 0.3465895812540016,
+   "km_median": 0.5203859402747216,
+   "km_q75": 0.7504732504664756,
+   "km_q90": 1.0799604901732343,
+   "P_a_le_0.2": 0.06774459824461376,
+   "P_a_le_0.7": 0.699742407519637,
+   "P_a_le_1.0": 0.8641340700217461,
+   "P_a_in_012_prior": 0.6319978092750232,
+   "per_band": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0,
+     "n": 75,
+     "n_events": 55,
+     "km_median_a": 0.41347913623628024,
+     "km_median_dur": 23.154831629231694,
+     "median_dur_events": 15.582300255162636
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0,
+     "n": 74,
+     "n_events": 47,
+     "km_median_a": 0.4232382990038428,
+     "km_median_dur": 22.008391548199825,
+     "median_dur_events": 17.941243739747506
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0,
+     "n": 70,
+     "n_events": 46,
+     "km_median_a": 0.4733918705819686,
+     "km_median_dur": 20.35585043502465,
+     "median_dur_events": 17.688841862206573
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0,
+     "n": 57,
+     "n_events": 30,
+     "km_median_a": 0.3815850099493202,
+     "km_median_dur": 21.750345567111253,
+     "median_dur_events": 17.480943974715274
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0,
+     "n": 53,
+     "n_events": 24,
+     "km_median_a": 0.5031933264051587,
+     "km_median_dur": 20.630926382611506,
+     "median_dur_events": 18.045753506867754
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0,
+     "n": 47,
+     "n_events": 20,
+     "km_median_a": 0.611556161571733,
+     "km_median_dur": 21.404465655010654,
+     "median_dur_events": 18.299532216710304
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0,
+     "n": 40,
+     "n_events": 9,
+     "km_median_a": 0.6935164136806767,
+     "km_median_dur": 28.434172960907745,
+     "median_dur_events": 18.30535734431237
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0,
+     "n": 27,
+     "n_events": 1,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": 22.871081002389246
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0,
+     "n": 20,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0,
+     "n": 9,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    }
+   ],
+   "spearman_band_median_a_vs_frontier_year": 0.9272727272727272,
+   "bands": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0
+    }
+   ],
+   "spearman_defined_bands_only": 0.7857142857142859,
+   "EXPLORATORY_slope_logdur_vs_logpioneer": {
+    "slope": -0.0051159832800284095,
+    "se": 0.27421974100940494,
+    "n_bands": 7
+   },
+   "max_interp_gap_at_entry": 0.0,
+   "km_follower_doubling_years": {
+    "q10": 11.451009275064507,
+    "q25": 15.54700297205477,
+    "median": 22.20524358790817,
+    "q75": 34.89304865163194
+   },
+   "pioneer_years_by_band": [
+    56.0,
+    52.0,
+    43.0,
+    57.0,
+    41.0,
+    35.0,
+    41.0,
+    31.0,
+    33.0,
+    41.0
+   ]
+  },
+  "pioneer_UK_US": {
+   "n_pairs": 643,
+   "n_events": 354,
+   "n_countries": 100,
+   "km_q25": 0.322333418090938,
+   "km_median": 0.5421800964767411,
+   "km_q75": 0.8553972693865911,
+   "km_q90": 1.2484602109398242,
+   "P_a_le_0.2": 0.06533204997214714,
+   "P_a_le_0.7": 0.6486844790739166,
+   "P_a_le_1.0": 0.8198893084338978,
+   "P_a_in_012_prior": 0.5833524291017694,
+   "per_band": [
+    {
+     "L": 4000,
+     "frontier_year_L": 1840.0,
+     "frontier_year_2L": 1900.0,
+     "pioneer_years": 60.0,
+     "n": 81,
+     "n_events": 64,
+     "km_median_a": 0.37970874031215845,
+     "km_median_dur": 22.78252441872951,
+     "median_dur_events": 19.45533110606584
+    },
+    {
+     "L": 4757,
+     "frontier_year_L": 1854.0,
+     "frontier_year_2L": 1906.0,
+     "pioneer_years": 52.0,
+     "n": 82,
+     "n_events": 60,
+     "km_median_a": 0.4481857661499825,
+     "km_median_dur": 23.30565983979909,
+     "median_dur_events": 19.110829007240568
+    },
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0,
+     "n": 74,
+     "n_events": 55,
+     "km_median_a": 0.46498211470816386,
+     "km_median_dur": 26.038998423657176,
+     "median_dur_events": 21.19952279050881
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0,
+     "n": 71,
+     "n_events": 45,
+     "km_median_a": 0.4270239151520802,
+     "km_median_dur": 22.20524358790817,
+     "median_dur_events": 19.222186389023364
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0,
+     "n": 71,
+     "n_events": 44,
+     "km_median_a": 0.5379923394358959,
+     "km_median_dur": 23.133670595743524,
+     "median_dur_events": 19.814885145615676
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0,
+     "n": 62,
+     "n_events": 32,
+     "km_median_a": 0.5029578532659774,
+     "km_median_dur": 28.66859763616071,
+     "median_dur_events": 20.737141215647284
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0,
+     "n": 57,
+     "n_events": 24,
+     "km_median_a": 0.5898588117331878,
+     "km_median_dur": 24.184211281060698,
+     "median_dur_events": 19.873408373122288
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0,
+     "n": 49,
+     "n_events": 20,
+     "km_median_a": 0.7708801488449029,
+     "km_median_dur": 26.9808052095716,
+     "median_dur_events": 18.18625737494233
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0,
+     "n": 39,
+     "n_events": 9,
+     "km_median_a": 0.4866979823728554,
+     "km_median_dur": 19.95461727728707,
+     "median_dur_events": 16.36347746174124
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0,
+     "n": 28,
+     "n_events": 1,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": 22.871081002389246
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0,
+     "n": 20,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0,
+     "n": 9,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    }
+   ],
+   "boot95": {
+    "q25": [
+     0.28596943367486527,
+     0.379187563954391
+    ],
+    "median": [
+     0.48653466425187614,
+     0.6201813959493473
+    ],
+    "q75": [
+     0.7504732504664756,
+     0.973281589406968
+    ]
+   },
+   "spearman_band_median_a_vs_frontier_year": 0.9020979020979022,
+   "bands": [
+    {
+     "L": 4000,
+     "frontier_year_L": 1840.0,
+     "frontier_year_2L": 1900.0,
+     "pioneer_years": 60.0
+    },
+    {
+     "L": 4757,
+     "frontier_year_L": 1854.0,
+     "frontier_year_2L": 1906.0,
+     "pioneer_years": 52.0
+    },
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0
+    }
+   ],
+   "spearman_defined_bands_only": 0.7666666666666667,
+   "EXPLORATORY_slope_logdur_vs_logpioneer": {
+    "slope": 0.06453604214399426,
+    "se": 0.22224356811752577,
+    "n_bands": 9
+   },
+   "max_interp_gap_at_entry": 118.0,
+   "km_follower_doubling_years": {
+    "q10": 11.754498094267092,
+    "q25": 16.056159737154076,
+    "median": 26.038998423657176,
+    "q75": 40.014212768892776
+   },
+   "pioneer_years_by_band": [
+    60.0,
+    52.0,
+    56.0,
+    52.0,
+    43.0,
+    57.0,
+    41.0,
+    35.0,
+    41.0,
+    31.0,
+    33.0,
+    41.0
+   ]
+  },
+  "include_oil": {
+   "n_pairs": 560,
+   "n_events": 281,
+   "n_countries": 104,
+   "km_q25": 0.34844478956467373,
+   "km_median": 0.576736761908551,
+   "km_q75": 0.865274076301444,
+   "km_q90": 1.2261198105630813,
+   "P_a_le_0.2": 0.082087515083763,
+   "P_a_le_0.7": 0.6161214957332628,
+   "P_a_le_1.0": 0.811079035284499,
+   "P_a_in_012_prior": 0.5340339806494998,
+   "per_band": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0,
+     "n": 87,
+     "n_events": 65,
+     "km_median_a": 0.46498211470816386,
+     "km_median_dur": 26.038998423657176,
+     "median_dur_events": 21.19952279050881
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0,
+     "n": 84,
+     "n_events": 56,
+     "km_median_a": 0.447075838095906,
+     "km_median_dur": 23.247943580987112,
+     "median_dur_events": 18.98545421869676
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0,
+     "n": 84,
+     "n_events": 53,
+     "km_median_a": 0.5616377583244758,
+     "km_median_dur": 24.15042360795246,
+     "median_dur_events": 20.35585043502465
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0,
+     "n": 72,
+     "n_events": 37,
+     "km_median_a": 0.5029578532659774,
+     "km_median_dur": 28.66859763616071,
+     "median_dur_events": 18.382017693034413
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0,
+     "n": 66,
+     "n_events": 29,
+     "km_median_a": 0.5898588117331878,
+     "km_median_dur": 24.184211281060698,
+     "median_dur_events": 19.028221108028447
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0,
+     "n": 57,
+     "n_events": 24,
+     "km_median_a": 0.6739101233199173,
+     "km_median_dur": 23.586854316197105,
+     "median_dur_events": 17.618755516415035
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0,
+     "n": 45,
+     "n_events": 12,
+     "km_median_a": 0.4866979823728554,
+     "km_median_dur": 19.95461727728707,
+     "median_dur_events": 15.36002109301478
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0,
+     "n": 32,
+     "n_events": 4,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": 10.968155409144629
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0,
+     "n": 24,
+     "n_events": 1,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": 6.232758744143894
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0,
+     "n": 9,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    }
+   ],
+   "spearman_band_median_a_vs_frontier_year": 0.8545454545454544,
+   "bands": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0
+    }
+   ],
+   "spearman_defined_bands_only": 0.5714285714285715,
+   "EXPLORATORY_slope_logdur_vs_logpioneer": {
+    "slope": 0.3661540282156616,
+    "se": 0.21172059854879938,
+    "n_bands": 7
+   },
+   "max_interp_gap_at_entry": 7.0,
+   "km_follower_doubling_years": {
+    "q10": 10.709926311141999,
+    "q25": 16.04235741385719,
+    "median": 26.038998423657176,
+    "q75": 39.3848677524727
+   },
+   "pioneer_years_by_band": [
+    56.0,
+    52.0,
+    43.0,
+    57.0,
+    41.0,
+    35.0,
+    41.0,
+    31.0,
+    33.0,
+    41.0
+   ]
+  },
+  "gap_le_10y": {
+   "n_pairs": 480,
+   "n_events": 230,
+   "n_countries": 90,
+   "km_q25": 0.37838777722706357,
+   "km_median": 0.5841988163823056,
+   "km_q75": 0.876686236592853,
+   "km_q90": 1.2261198105630813,
+   "P_a_le_0.2": 0.049416499973085504,
+   "P_a_le_0.7": 0.5988004777057283,
+   "P_a_le_1.0": 0.7980876595796506,
+   "P_a_in_012_prior": 0.5493839777326428,
+   "per_band": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0,
+     "n": 74,
+     "n_events": 55,
+     "km_median_a": 0.46498211470816386,
+     "km_median_dur": 26.038998423657176,
+     "median_dur_events": 21.19952279050881
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0,
+     "n": 71,
+     "n_events": 45,
+     "km_median_a": 0.4270239151520802,
+     "km_median_dur": 22.20524358790817,
+     "median_dur_events": 19.222186389023364
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0,
+     "n": 71,
+     "n_events": 44,
+     "km_median_a": 0.5379923394358959,
+     "km_median_dur": 23.133670595743524,
+     "median_dur_events": 19.814885145615676
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0,
+     "n": 62,
+     "n_events": 32,
+     "km_median_a": 0.5029578532659774,
+     "km_median_dur": 28.66859763616071,
+     "median_dur_events": 20.737141215647284
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0,
+     "n": 57,
+     "n_events": 24,
+     "km_median_a": 0.5898588117331878,
+     "km_median_dur": 24.184211281060698,
+     "median_dur_events": 19.873408373122288
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0,
+     "n": 49,
+     "n_events": 20,
+     "km_median_a": 0.7708801488449029,
+     "km_median_dur": 26.9808052095716,
+     "median_dur_events": 18.18625737494233
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0,
+     "n": 39,
+     "n_events": 9,
+     "km_median_a": 0.4866979823728554,
+     "km_median_dur": 19.95461727728707,
+     "median_dur_events": 16.36347746174124
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0,
+     "n": 28,
+     "n_events": 1,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": 22.871081002389246
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0,
+     "n": 20,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0,
+     "n": 9,
+     "n_events": 0,
+     "km_median_a": null,
+     "km_median_dur": null,
+     "median_dur_events": null
+    }
+   ],
+   "spearman_band_median_a_vs_frontier_year": 0.8545454545454544,
+   "bands": [
+    {
+     "L": 5657,
+     "frontier_year_L": 1870.0,
+     "frontier_year_2L": 1926.0,
+     "pioneer_years": 56.0
+    },
+    {
+     "L": 6727,
+     "frontier_year_L": 1889.0,
+     "frontier_year_2L": 1941.0,
+     "pioneer_years": 52.0
+    },
+    {
+     "L": 8000,
+     "frontier_year_L": 1900.0,
+     "frontier_year_2L": 1943.0,
+     "pioneer_years": 43.0
+    },
+    {
+     "L": 9514,
+     "frontier_year_L": 1906.0,
+     "frontier_year_2L": 1963.0,
+     "pioneer_years": 57.0
+    },
+    {
+     "L": 11314,
+     "frontier_year_L": 1926.0,
+     "frontier_year_2L": 1967.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 13454,
+     "frontier_year_L": 1941.0,
+     "frontier_year_2L": 1976.0,
+     "pioneer_years": 35.0
+    },
+    {
+     "L": 16000,
+     "frontier_year_L": 1943.0,
+     "frontier_year_2L": 1984.0,
+     "pioneer_years": 41.0
+    },
+    {
+     "L": 19027,
+     "frontier_year_L": 1963.0,
+     "frontier_year_2L": 1994.0,
+     "pioneer_years": 31.0
+    },
+    {
+     "L": 22627,
+     "frontier_year_L": 1967.0,
+     "frontier_year_2L": 2000.0,
+     "pioneer_years": 33.0
+    },
+    {
+     "L": 26909,
+     "frontier_year_L": 1976.0,
+     "frontier_year_2L": 2017.0,
+     "pioneer_years": 41.0
+    }
+   ],
+   "spearman_defined_bands_only": 0.5714285714285715,
+   "EXPLORATORY_slope_logdur_vs_logpioneer": {
+    "slope": 0.17502268671740367,
+    "se": 0.28977055515638855,
+    "n_bands": 7
+   },
+   "max_interp_gap_at_entry": 7.0,
+   "km_follower_doubling_years": {
+    "q10": 12.115965235635713,
+    "q25": 16.695800972769575,
+    "median": 26.307519025302327,
+    "q75": 40.96200535237972
+   },
+   "pioneer_years_by_band": [
+    56.0,
+    52.0,
+    43.0,
+    57.0,
+    41.0,
+    35.0,
+    41.0,
+    31.0,
+    33.0,
+    41.0
+   ]
+  }
+ },
+ "gdp_lognormal_fit": {
+  "mu": -0.5375139150793239,
+  "sigma": 0.6228631522279972,
+  "median": 0.5841988163823056
+ },
+ "cases": [
+  {
+   "name": "Tu-4 (copy of B-29): program start -> first flight",
+   "pioneer_years": 4.7214611872148,
+   "follower_years": 2.3826484018263727,
+   "a_main": 0.5046421663442503,
+   "a_range": [
+    0.3987427466150476,
+    1.1482011222354658
+   ],
+   "note": "B-29: Boeing began work 1938; XB-29 order 24 Aug 1940; first flight 21 Sep 1942. Tu-4: Stalin's copy order after B-29s interned in 1944 (crews left Jan 1945; exact order date not on page -> start 1945-01..1945-07 [推測]); first flight 19 May 1947."
+  },
+  {
+   "name": "R-1 (copy of V-2/A-4): start -> first successful/test flight",
+   "pioneer_years": 6.255479452054715,
+   "follower_years": 2.333333333333485,
+   "a_main": 0.3730063140990837,
+   "a_range": [
+    0.23172378553962952,
+    0.5483126777188077
+   ],
+   "note": "A-4: larger rocket conceived summer 1936; design/construction ordered c.1938-39; first successful flight 3 Oct 1942. R-1: decree 13 May 1946; production authorized Apr 1947; first tests 13 Sep 1948."
+  },
+  {
+   "name": "R-1 vs V-2: start -> entry into service",
+   "pioneer_years": 8.185844748858472,
+   "follower_years": 4.541095890411043,
+   "a_main": 0.5547498187092182,
+   "a_range": [
+    0.4467841802867152,
+    0.7341108732560822
+   ],
+   "note": "V-2 first operational launch 8 Sep 1944; R-1 entered service 28 Nov 1950."
+  },
+  {
+   "name": "USSR bomb vs Manhattan: crash program -> first test",
+   "pioneer_years": 3.0805936073059,
+   "follower_years": 4.038356164383686,
+   "a_main": 1.3109019491588787,
+   "a_range": [
+    0.6973388527498634,
+    2.243089009115846
+   ],
+   "note": "US: Roosevelt approved 17 Jun 1942 (alt: Briggs committee Oct 1939); Trinity 16 Jul 1945. USSR: accelerated after Aug 1945 (alt: authorized late 1942); RDS-1 29 Aug 1949."
+  }
+ ],
+ "knowledge_only_case": {
+  "name": "USSR bomb: with espionage vs counterfactual without (Rhodes: accelerated by 'a full two years')",
+  "a_main": 0.6687840290381193,
+  "a_range": [
+   0.6687840290381193,
+   0.7755342592118061
+  ]
+ },
+ "case_lognormal_fit": {
+  "mu": -0.47817646887031506,
+  "sigma": 0.4688559382512268,
+  "median": 0.6199127920188913
+ },
+ "comin_hobijn": {
+  "slope_log_lag_per_year": -0.013446740353795636,
+  "se": 0.0016761656643638552,
+  "t": -8.02232180248066,
+  "halving_years": 51.54759907030475,
+  "fitted_median_lag_1800": 117.65355369464079,
+  "fitted_median_lag_1950": 15.654106320990701,
+  "spearman": -0.9357142857142854,
+  "overall_mean_lag": 45,
+  "overall_median_lag": 32
+ },
+ "rate_limited_exploratory": {
+  "UK_gdppc_1620": 1842.0000000000002,
+  "UK_gdppc_1948": 10753.000000000004,
+  "n_doublings": 2.545394249674352,
+  "follower_doubling_years_median": 26.307519025302327,
+  "a_rate_median": 0.20415551112866814,
+  "label": "exploratory, not pre-registered"
+ },
+ "pioneer_tiers": {
+  "T1_spectacles": 1290,
+  "T2_compound_microscope": 1620,
+  "T3_stored_program_computer": 1948,
+  "T3_alt_point_contact_transistor": 1947
+ },
+ "pioneer_durations": {
+  "d12_pioneer": 330,
+  "d23_pioneer": 328,
+  "d12_prior_012_median": 30,
+  "ratio_012_d12_to_pioneer": 0.09090909090909091
+ },
+ "reeval_012": {
+  "012_logU_0.2_0.7": {
+   "a_quantiles": {
+    "0.1": 0.22669702940558129,
+    "0.25": 0.27361406834638646,
+    "0.5": 0.3745072268594149,
+    "0.75": 0.5124826466049041,
+    "0.9": 0.6175597712566234
+   },
+   "a_mean": 0.3993086715577295,
+   "D23_star_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 808.7524907839587,
+    "Silica_glass": ">1600",
+    "DNA_silica": ">1600",
+    "Microfilm_AgX": ">1600",
+    "Rosetta_Ni": ">1600",
+    "MOM_ceramic": ">1600"
+   },
+   "synergy_P_read_m23_300": {
+    "MDISC_BD": 0.06440000000000001,
+    "Piql_film_QR": 0.09597,
+    "Silica_glass": 0.028895000000000004,
+    "DNA_silica": 0.06648000000000004,
+    "Microfilm_AgX": 0.0,
+    "Rosetta_Ni": 0.003369999999999984,
+    "MOM_ceramic": 0.0
+   },
+   "median_T3_m23_300": 219.5783998187054,
+   "E_T3_reduction": {
+    "50": 38.59106664570483,
+    "100": 62.972369930466755,
+    "200": 107.01205104491277,
+    "300": 141.53825123627666,
+    "400": 166.30928531249646,
+    "600": 193.23948923941583,
+    "800": 200.63537362884244,
+    "1200": 188.311180143652,
+    "1600": 164.4336957285933
+   },
+   "synergy_Piql_by_m23": {
+    "50": 0.01955999999999991,
+    "100": 0.03827999999999998,
+    "200": 0.07226999999999995,
+    "300": 0.09597,
+    "400": 0.11381999999999998,
+    "600": 0.13106,
+    "800": 0.13636500000000001,
+    "1200": 0.12946999999999997,
+    "1600": 0.11475
+   },
+   "synergy_MDISC_by_m23": {
+    "50": 0.08798,
+    "100": 0.08841,
+    "200": 0.07711,
+    "300": 0.06440000000000001,
+    "400": 0.05387,
+    "600": 0.03904,
+    "800": 0.029285000000000002,
+    "1200": 0.017625000000000002,
+    "1600": 0.01157
+   }
+  },
+  "GDP_lognormal": {
+   "a_quantiles": {
+    "0.1": 0.2629776407026882,
+    "0.25": 0.3839283062997452,
+    "0.5": 0.5848633776672074,
+    "0.75": 0.8911506987812532,
+    "0.9": 1.0
+   },
+   "a_mean": 0.61640921093886,
+   "D23_star_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 628.1410285131003,
+    "Silica_glass": ">1600",
+    "DNA_silica": ">1600",
+    "Microfilm_AgX": ">1600",
+    "Rosetta_Ni": ">1600",
+    "MOM_ceramic": ">1600"
+   },
+   "synergy_P_read_m23_300": {
+    "MDISC_BD": 0.038615000000000003,
+    "Piql_film_QR": 0.060624999999999984,
+    "Silica_glass": 0.019684999999999953,
+    "DNA_silica": 0.042844999999999966,
+    "Microfilm_AgX": 0.0,
+    "Rosetta_Ni": 0.0021999999999999797,
+    "MOM_ceramic": 0.0
+   },
+   "median_T3_m23_300": 273.86642757393236,
+   "E_T3_reduction": {
+    "50": 24.706932349493883,
+    "100": 40.29043055084307,
+    "200": 68.14208011596821,
+    "300": 89.44966576604321,
+    "400": 104.30564039656758,
+    "600": 119.84711051106353,
+    "800": 122.92598989304861,
+    "1200": 113.09233635748046,
+    "1600": 97.40292351492769
+   },
+   "synergy_Piql_by_m23": {
+    "50": 0.012674999999999992,
+    "100": 0.024494999999999933,
+    "200": 0.046719999999999984,
+    "300": 0.060624999999999984,
+    "400": 0.07151999999999997,
+    "600": 0.08089000000000002,
+    "800": 0.08377499999999999,
+    "1200": 0.078005,
+    "1600": 0.06805499999999999
+   },
+   "synergy_MDISC_by_m23": {
+    "50": 0.0539,
+    "100": 0.054089999999999985,
+    "200": 0.04649500000000001,
+    "300": 0.038615000000000003,
+    "400": 0.03245,
+    "600": 0.023224999999999996,
+    "800": 0.01708,
+    "1200": 0.010245,
+    "1600": 0.00675
+   }
+  },
+  "GDP_KM_nonparam": {
+   "a_quantiles": {
+    "0.1": 0.24808676198613497,
+    "0.25": 0.37838777722706357,
+    "0.5": 0.5841988163823056,
+    "0.75": 0.876686236592853,
+    "0.9": 1.0
+   },
+   "a_mean": 0.6136057894196976,
+   "D23_star_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 631.4052601136323,
+    "Silica_glass": ">1600",
+    "DNA_silica": ">1600",
+    "Microfilm_AgX": ">1600",
+    "Rosetta_Ni": ">1600",
+    "MOM_ceramic": ">1600"
+   },
+   "synergy_P_read_m23_300": {
+    "MDISC_BD": 0.03943,
+    "Piql_film_QR": 0.061319999999999986,
+    "Silica_glass": 0.019729999999999914,
+    "DNA_silica": 0.04316499999999995,
+    "Microfilm_AgX": 0.0,
+    "Rosetta_Ni": 0.0022299999999999542,
+    "MOM_ceramic": 0.0
+   },
+   "median_T3_m23_300": 273.0512819388248,
+   "E_T3_reduction": {
+    "50": 24.887264152277112,
+    "100": 40.587507632024256,
+    "200": 68.67509846999127,
+    "300": 90.21938939471448,
+    "400": 105.30128818540254,
+    "600": 121.27521619584934,
+    "800": 124.68981742732115,
+    "1200": 115.25133056653192,
+    "1600": 99.67831627860903
+   },
+   "synergy_Piql_by_m23": {
+    "50": 0.012660000000000005,
+    "100": 0.024639999999999995,
+    "200": 0.04714499999999999,
+    "300": 0.061319999999999986,
+    "400": 0.07219500000000001,
+    "600": 0.08198499999999997,
+    "800": 0.08501499999999998,
+    "1200": 0.07942999999999999,
+    "1600": 0.069755
+   },
+   "synergy_MDISC_by_m23": {
+    "50": 0.05465500000000001,
+    "100": 0.05497500000000001,
+    "200": 0.047335,
+    "300": 0.03943,
+    "400": 0.03325,
+    "600": 0.023875,
+    "800": 0.017535,
+    "1200": 0.010530000000000001,
+    "1600": 0.00692
+   }
+  },
+  "GDP_lognormal_knowledge_half": {
+   "a_quantiles": {
+    "0.1": 0.5128134560466625,
+    "0.25": 0.6196194850796415,
+    "0.5": 0.7647636090040224,
+    "0.75": 0.9440077853368662,
+    "0.9": 1.0
+   },
+   "a_mean": 0.7634234514743847,
+   "D23_star_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 527.7733200325249,
+    "Silica_glass": ">1600",
+    "DNA_silica": 1391.4972229778482,
+    "Microfilm_AgX": ">1600",
+    "Rosetta_Ni": ">1600",
+    "MOM_ceramic": ">1600"
+   },
+   "synergy_P_read_m23_300": {
+    "MDISC_BD": 0.016155000000000003,
+    "Piql_film_QR": 0.03576499999999999,
+    "Silica_glass": 0.014544999999999919,
+    "DNA_silica": 0.02823500000000001,
+    "Microfilm_AgX": 0.0,
+    "Rosetta_Ni": 0.0014699999999999713,
+    "MOM_ceramic": 0.0
+   },
+   "median_T3_m23_300": 312.175085164758,
+   "E_T3_reduction": {
+    "50": 15.24475732267723,
+    "100": 24.789966963448222,
+    "200": 41.244833647533255,
+    "300": 52.9027240338678,
+    "400": 60.07942732424192,
+    "600": 65.21228674866256,
+    "800": 63.265237756413626,
+    "1200": 52.30608018987766,
+    "1600": 40.977988649065765
+   },
+   "synergy_Piql_by_m23": {
+    "50": 0.008305000000000007,
+    "100": 0.01593499999999992,
+    "200": 0.029075000000000017,
+    "300": 0.03576499999999999,
+    "400": 0.041354999999999975,
+    "600": 0.04384499999999997,
+    "800": 0.043029999999999985,
+    "1200": 0.036570000000000005,
+    "1600": 0.02907
+   },
+   "synergy_MDISC_by_m23": {
+    "50": 0.02867,
+    "100": 0.02717499999999999,
+    "200": 0.021195000000000006,
+    "300": 0.016155000000000003,
+    "400": 0.012825000000000003,
+    "600": 0.007944999999999999,
+    "800": 0.005495,
+    "1200": 0.00303,
+    "1600": 0.001805
+   }
+  },
+  "cases_lognormal": {
+   "a_quantiles": {
+    "0.1": 0.3399369237860053,
+    "0.25": 0.4519575002109836,
+    "0.5": 0.6204435428568116,
+    "0.75": 0.8518762599406715,
+    "0.9": 1.0
+   },
+   "a_mean": 0.6449430952116691,
+   "D23_star_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 599.8396198629306,
+    "Silica_glass": ">1600",
+    "DNA_silica": 1585.2082768328776,
+    "Microfilm_AgX": ">1600",
+    "Rosetta_Ni": ">1600",
+    "MOM_ceramic": ">1600"
+   },
+   "synergy_P_read_m23_300": {
+    "MDISC_BD": 0.031114999999999997,
+    "Piql_film_QR": 0.055279999999999996,
+    "Silica_glass": 0.01925499999999991,
+    "DNA_silica": 0.04042499999999999,
+    "Microfilm_AgX": 0.0,
+    "Rosetta_Ni": 0.0020899999999999253,
+    "MOM_ceramic": 0.0
+   },
+   "median_T3_m23_300": 282.21147001010536,
+   "E_T3_reduction": {
+    "50": 22.85857902674428,
+    "100": 37.249163937431604,
+    "200": 62.70437919033594,
+    "300": 81.71781257924357,
+    "400": 94.49775463440665,
+    "600": 106.56001533696667,
+    "800": 107.19943742647172,
+    "1200": 95.03139099955763,
+    "1600": 78.99831802272968
+   },
+   "synergy_Piql_by_m23": {
+    "50": 0.012035000000000018,
+    "100": 0.02322499999999994,
+    "200": 0.04364000000000001,
+    "300": 0.055279999999999996,
+    "400": 0.06498500000000001,
+    "600": 0.07161499999999998,
+    "800": 0.073265,
+    "1200": 0.06563999999999999,
+    "1600": 0.05563499999999999
+   },
+   "synergy_MDISC_by_m23": {
+    "50": 0.04708999999999999,
+    "100": 0.04651499999999999,
+    "200": 0.038680000000000006,
+    "300": 0.031114999999999997,
+    "400": 0.025375,
+    "600": 0.017485,
+    "800": 0.012369999999999999,
+    "1200": 0.006950000000000001,
+    "1600": 0.0046099999999999995
+   }
+  },
+  "EXPLORATORY_rate_limited": {
+   "a_quantiles": {
+    "0.1": 0.09402411048793138,
+    "0.25": 0.12956523106644857,
+    "0.5": 0.20415551112866814,
+    "0.75": 0.3178794295093822,
+    "0.9": 0.44020138520517216
+   },
+   "a_mean": 0.24675878349904132,
+   "D23_star_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 1139.3828502286647,
+    "Silica_glass": ">1600",
+    "DNA_silica": ">1600",
+    "Microfilm_AgX": ">1600",
+    "Rosetta_Ni": ">1600",
+    "MOM_ceramic": ">1600"
+   },
+   "synergy_P_read_m23_300": {
+    "MDISC_BD": 0.11583500000000002,
+    "Piql_film_QR": 0.12011499999999997,
+    "Silica_glass": 0.030694999999999917,
+    "DNA_silica": 0.078065,
+    "Microfilm_AgX": 0.0,
+    "Rosetta_Ni": 0.004009999999999958,
+    "MOM_ceramic": 0.0
+   },
+   "median_T3_m23_300": 167.2246962596294,
+   "E_T3_reduction": {
+    "50": 48.35273505087052,
+    "100": 79.0074576215575,
+    "200": 135.4730704107601,
+    "300": 181.95979327492824,
+    "400": 217.92595912963384,
+    "600": 264.14281312655646,
+    "800": 286.4062524319565,
+    "1200": 293.0256158374615,
+    "1600": 278.3789345321927
+   },
+   "synergy_Piql_by_m23": {
+    "50": 0.02288000000000001,
+    "100": 0.04547499999999993,
+    "200": 0.08808000000000005,
+    "300": 0.12011499999999997,
+    "400": 0.146505,
+    "600": 0.17857,
+    "800": 0.194585,
+    "1200": 0.20028,
+    "1600": 0.19172500000000003
+   },
+   "synergy_MDISC_by_m23": {
+    "50": 0.12618000000000001,
+    "100": 0.13526,
+    "200": 0.12862,
+    "300": 0.11583500000000002,
+    "400": 0.10354999999999999,
+    "600": 0.083345,
+    "800": 0.068135,
+    "1200": 0.048105,
+    "1600": 0.035504999999999995
+   }
+  }
+ },
+ "D23_star_no_primer": {
+  "MDISC_BD": "<50",
+  "Piql_film_QR": 434.8261673887213,
+  "Silica_glass": ">1600",
+  "DNA_silica": 1143.9145481711976,
+  "Microfilm_AgX": ">1600",
+  "Rosetta_Ni": ">1600",
+  "MOM_ceramic": ">1600"
+ },
+ "check_vs_012": {
+  "D23_star_no_primer_012": {
+   "MDISC_BD": "<50",
+   "Piql_film_QR": 434.8261673887213,
+   "Silica_glass": ">1600",
+   "DNA_silica": 1143.9145481711976,
+   "Microfilm_AgX": ">1600",
+   "Rosetta_Ni": ">1600",
+   "MOM_ceramic": ">1600"
+  },
+  "D23_star_primer_012": {
+   "MDISC_BD": "<50",
+   "Piql_film_QR": 808.7524907839587,
+   "Silica_glass": ">1600",
+   "DNA_silica": ">1600",
+   "Microfilm_AgX": ">1600",
+   "Rosetta_Ni": ">1600",
+   "MOM_ceramic": ">1600"
+  },
+  "synergy_300_012": {
+   "MDISC_BD": 0.06440000000000001,
+   "Piql_film_QR": 0.09597,
+   "Silica_glass": 0.028895000000000004,
+   "DNA_silica": 0.06648000000000004,
+   "Microfilm_AgX": 0.0,
+   "Rosetta_Ni": 0.003369999999999984,
+   "MOM_ceramic": 0.0
+  },
+  "reproduced_exactly": true
+ },
+ "d12_sensitivity": {
+  "30": {
+   "D23_star_no_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 434.8261673887213,
+    "DNA_silica": 1143.9145481711976
+   },
+   "012_logU_0.2_0.7": {
+    "D23_star_primer": {
+     "MDISC_BD": "<50",
+     "Piql_film_QR": 808.7524907839587,
+     "DNA_silica": ">1600"
+    },
+    "synergy_Piql_300": 0.09597
+   },
+   "GDP_lognormal": {
+    "D23_star_primer": {
+     "MDISC_BD": "<50",
+     "Piql_film_QR": 628.1410285131003,
+     "DNA_silica": ">1600"
+    },
+    "synergy_Piql_300": 0.060624999999999984
+   }
+  },
+  "100": {
+   "D23_star_no_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 341.8840685978309,
+    "DNA_silica": 1040.0330889755942
+   },
+   "012_logU_0.2_0.7": {
+    "D23_star_primer": {
+     "MDISC_BD": "<50",
+     "Piql_film_QR": 706.4320959757312,
+     "DNA_silica": ">1600"
+    },
+    "synergy_Piql_300": 0.11551499999999998
+   },
+   "GDP_lognormal": {
+    "D23_star_primer": {
+     "MDISC_BD": "<50",
+     "Piql_film_QR": 529.7240429064601,
+     "DNA_silica": 1556.6259084227008
+    },
+    "synergy_Piql_300": 0.07234499999999999
+   }
+  },
+  "330": {
+   "D23_star_no_primer": {
+    "MDISC_BD": "<50",
+    "Piql_film_QR": 108.07201173837335,
+    "DNA_silica": 746.5097931606407
+   },
+   "012_logU_0.2_0.7": {
+    "D23_star_primer": {
+     "MDISC_BD": "<50",
+     "Piql_film_QR": 429.4328553593279,
+     "DNA_silica": ">1600"
+    },
+    "synergy_Piql_300": 0.14888999999999997
+   },
+   "GDP_lognormal": {
+    "D23_star_primer": {
+     "MDISC_BD": "<50",
+     "Piql_film_QR": 266.67737279549186,
+     "DNA_silica": 1243.3512729168588
+    },
+    "synergy_Piql_300": 0.09245999999999999
+   }
+  }
+ },
+ "hypotheses": {
+  "H25a": {
+   "claim": "pooled KM median a (primary) < 0.5",
+   "value": 0.5841988163823056,
+   "boot95": [
+    0.504100193738361,
+    0.6807974619070523
+   ],
+   "supported": false
+  },
+  "H25b": {
+   "claim": "KM q25 >= 0.2 and q75 <= 0.7",
+   "value": [
+    0.37838777722706357,
+    0.876686236592853
+   ],
+   "supported": false
+  },
+  "H25c": {
+   "claim": "Spearman(band median a, frontier year of L) < 0; aux: Comin-Hobijn slope < 0",
+   "value": 0.8545454545454544,
+   "aux_CH_slope": -0.013446740353795636,
+   "supported": false,
+   "aux_supported": true
+  },
+  "H25d": {
+   "claim": "|ΔD23*(Piql, primer)| <= 20% and |Δsynergy(Piql, m23=300)| <= 0.03 when prior -> GDP_lognormal",
+   "value": {
+    "D23_primer_012": 808.7524907839587,
+    "D23_primer_GDP": 628.1410285131003,
+    "rel_change": -0.2233210584560722,
+    "synergy_012": 0.09597,
+    "synergy_GDP": 0.060624999999999984,
+    "diff": -0.035345000000000015
+   },
+   "supported": false
+  },
+  "H25e": {
+   "claim": "012 d12 prior (30y) < 1/5 of pioneer T1->T2 (~330y) and pioneer T2->T3 (328y) in [200,600]",
+   "value": {
+    "d12_pioneer": 330,
+    "d23_pioneer": 328,
+    "d12_prior_012_median": 30,
+    "ratio_012_d12_to_pioneer": 0.09090909090909091
+   },
+   "supported": true
+  }
+ },
+ "labels": "a は【推測】による対応づけ（所得倍増帯の通過年数比を primer 短縮係数の代理とする）。a>1 は 1 に切る（primer が回復を遅らせない）【推測】。",
+ "runtime_seconds": 5.192683935165405
+}
