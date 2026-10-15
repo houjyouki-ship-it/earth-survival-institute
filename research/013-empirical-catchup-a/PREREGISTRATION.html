@@ -1,0 +1,17 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究013 事前登録（2026-10-15 UTC 実行前に記載。sim.py 初回実行前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="013-2026-10-15-utc-simpy">研究013 事前登録（2026-10-15 UTC 実行前に記載。sim.py 初回実行前）</h1>
+<p>主データ：Maddison Project Database 2023（Our World in Data の CSV 経由、sources/owid_gdppc_maddison.csv）。
+操作的定義：
+- 先頭（pioneer）＝ 英国・オランダ・米国の1人当たりGDPの年ごとの最大値（対数線形補間）。
+- 帯 [L, 2L]（倍増帯）。L は先頭が L を越えた年が 1820 年以降になる値から 2L が先頭の 2022 年値以下まで。
+- 追随国の通過年数 D_c ＝ 初めて 2L を越えた年 − 初めて L を越えた年（主定義：最初の越境。感度：最後の越境）。
+  追随国の条件：L を越えた年が、先頭が 2L を越えた年以降（＝先頭がその帯を完了した後に帯に入った国）。
+- a_c ＝ D_c / P(L)、P(L) は先頭の同じ帯の通過年数。2022 年までに 2L に達しない国は右打ち切り（Kaplan–Meier）。
+- 主解析は地域集計・湾岸等の産油国を除く（除外リストは sim.py に明記。含めた版も出す）。
+仮説：
+- H25a：プールした KM 中央値 a（主定義）&lt; 0.5。
+- H25b：プールした a の四分位範囲が研究012の事前分布 [0.2, 0.7] の内側（q25 ≥ 0.2 かつ q75 ≤ 0.7）。
+- H25c：後の帯（先頭の通過年が遅い帯）ほど a が小さい（帯ごと中央値 a と先頭の L 到達年の Spearman ρ &lt; 0）。
+  補助：Comin &amp; Hobijn 2010 Table 2 の中央採用ラグは発明年とともに減る（log ラグの回帰傾き &lt; 0）。
+- H25d：研究012のモデルで a の事前分布を経験分布（主定義の対数正規近似）に替えても、Piql の D23*（primer あり）の変化は ±20% 以内、m23=300 の Piql 相乗効果の変化は ±0.03 以内。
+- H25e：先駆者の歴史的所要年数で見ると、研究012の T1→T2 事前中央値（30年）は、眼鏡（c.1290）→複合顕微鏡（c.1620）の 約330年の 1/5 未満（＝012 の「primer なし」基線は既に強い追いつきを含む）。T2→T3 の先駆者値（1620→1948 の 328年）は 012 の m23 走査の中心帯 [200, 600] に入る。
+Thu Oct 15 18:42:32 UTC 2026</p><footer><hr><small>自動生成</small></footer></body></html>
