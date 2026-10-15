@@ -1,4 +1,6 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="9">未解決問題（第9回時点）</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="10">未解決問題（第10回時点）</h1>
+<p>解決・縮小したもの（第10回）：
+- 32. 確率的ショック率：研究010で実施。対数正規 OU の Cox 過程では、r* の符号は平均率の時間形だけで決まる（一定平均で S を上げるセルは0、τ_s=200 で r=20 の drop&lt;0）。揺らぎは恒久打撃の drop の大きさを最大で約半分にする（θ≥100）。Clauset 集計は σ を識別できない（Δℓ=1.87、σ=0 も整合）。009 の「3区間で棄却」は、事後に選んだ境界による過大評価だった。自己励起（Hawkes）型は未検討。</p>
 <p>解決・縮小したもの（第9回）：
 - 29. τ_s の再評価：研究009で実施。戦争集計（Clauset 2018）では τ_s=200 と一定率を区別できず（g の95%区間 [−0.0020, 0.0188]）、r=20 の符号は事前分布で決まる（事後平均 +0.0027 対 −0.0162）。r≥200 は τ_s≥100 で全セル S を下げる。経験的な τ_s の値は未確定のまま（→32, 33）。</p>
 <p>解決・縮小したもの（第8回）：
@@ -50,4 +52,7 @@
 <li>【新規・第9回】確率的に揺らぐショック率（Cox 過程・自己励起）：Clauset の3区間ではトレンド付きポアソンが棄却（p=0.0011、1914–1939の集中）。揺らぎを入れると較正（1/6）と長期 S の関係がどう変わるか。ラプラス汎関数は Cox 過程でも条件付きで使える【推測】。</li>
 <li>【新規・第9回】ショックの種類ごとの τ_s：戦争は定常寄り、疫病は過去減少（τ_s≈51–84年【推測：窓中心の仮定】）・将来増加（最大3倍）。要因別 τ_s を入れた研究006/007の δ_k 版での再評価。Correlates of War の年次データ、Marani の Zenodo データ（doi:10.5281/zenodo.4626111）を直接使えるか。</li>
 <li>【新規・第9回】較正源の問題：S が上がる効果は「100年で1/6」の前倒し消費による。Ord の1/6や XPT の100年予測がショックの時間構造をどう想定しているかを読まない限り、較正の自由度が結論を支配する。</li>
+<li>【新規・第10回】戦争の<strong>年次</strong>開始データ（Correlates of War 等）での OU 相関時間 θ の識別。集計3点では θ≤300 のほぼ全域が整合し、条件づけ効果（θ≥100 で大）を決められない。公開データが取得できるか確認する。</li>
+<li>【新規・第10回】揺らぎの「Jensen 緩和」（無条件で drop 半減）と「現在の低率状態」（条件付きで増加）が逆向き。どちらが優るかは θ と現在状態の推定に依存する。年次データ（35）が取れれば、現在状態の事後分布から直接評価できる。</li>
+<li>【新規・第10回】自己励起（Hawkes）型のショック率：ショック自体が次のショックを呼ぶ構造（大暴力型の集中）は OU とは機構が違い、δ（脆弱化）と識別できない可能性がある。研究003の Hawkes 実装との接続。</li>
 </ol><footer><hr><small>自動生成</small></footer></body></html>

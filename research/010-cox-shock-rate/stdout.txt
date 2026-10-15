@@ -40,3 +40,26 @@ dt check {'s1.0_t10': {'dt1_seedA': np.float64(-9.50180606537508), 'dt1_seedB': 
 fwd s0.25_t10: stat drop r20=+0.0113±0.0000 cond=+0.0113 mult0=0.998 decay r20=-0.0148  t=89s
 fwd s0.25_t30: stat drop r20=+0.0112±0.0000 cond=+0.0117 mult0=0.973 decay r20=-0.0148  t=94s
 fwd s0.25_t100: stat drop r20=+0.0113±0.0001 cond=+0.0117 mult0=0.976 decay r20=-0.0148  t=99s
+fwd s0.25_t300: stat drop r20=+0.0112±0.0001 cond=+0.0114 mult0=0.988 decay r20=-0.0148  t=104s
+fwd s0.5_t10: stat drop r20=+0.0114±0.0001 cond=+0.0113 mult0=1.002 decay r20=-0.0147  t=108s
+fwd s0.5_t30: stat drop r20=+0.0112±0.0001 cond=+0.0124 mult0=0.923 decay r20=-0.0148  t=113s
+fwd s0.5_t100: stat drop r20=+0.0113±0.0001 cond=+0.0130 mult0=0.902 decay r20=-0.0147  t=118s
+fwd s0.5_t300: stat drop r20=+0.0111±0.0002 cond=+0.0122 mult0=0.930 decay r20=-0.0147  t=122s
+fwd s1.0_t10: stat drop r20=+0.0112±0.0001 cond=+0.0115 mult0=0.967 decay r20=-0.0148  t=127s
+fwd s1.0_t30: stat drop r20=+0.0116±0.0002 cond=+0.0132 mult0=0.845 decay r20=-0.0144  t=131s
+fwd s1.0_t100: stat drop r20=+0.0109±0.0003 cond=+0.0164 mult0=0.708 decay r20=-0.0146  t=136s
+fwd s1.0_t300: stat drop r20=+0.0096±0.0004 cond=+0.0156 mult0=0.682 decay r20=-0.0147  t=140s
+fwd s1.5_t10: stat drop r20=+0.0113±0.0002 cond=+0.0116 mult0=0.970 decay r20=-0.0145  t=145s
+fwd s1.5_t30: stat drop r20=+0.0119±0.0003 cond=+0.0138 mult0=0.751 decay r20=-0.0138  t=149s
+fwd s1.5_t100: stat drop r20=+0.0097±0.0005 cond=+0.0205 mult0=0.472 decay r20=-0.0146  t=154s
+fwd s1.5_t300: stat drop r20=+0.0071±0.0006 cond=+0.0190 mult0=0.439 decay r20=-0.0150  t=159s
+fwd s2.0_t10: stat drop r20=+0.0118±0.0003 cond=+0.0126 mult0=0.941 decay r20=-0.0137  t=163s
+fwd s2.0_t30: stat drop r20=+0.0121±0.0005 cond=+0.0154 mult0=0.651 decay r20=-0.0127  t=168s
+fwd s2.0_t100: stat drop r20=+0.0092±0.0006 cond=+0.0232 mult0=0.285 decay r20=-0.0132  t=172s
+fwd s2.0_t300: stat drop r20=+0.0061±0.0006 cond=+0.0204 mult0=0.201 decay r20=-0.0133  t=177s
+H19a False
+H19b True
+H19c False
+H19d True
+H19e False
+runtime 177.4708616733551
