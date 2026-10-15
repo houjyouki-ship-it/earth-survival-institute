@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録（研究015：n_k の人口×所得較正） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="015n_k">事前登録（研究015：n_k の人口×所得較正）</h1>
+<ul>
+<li>登録時刻（UTC）: 2026-10-15T22:39:19Z</li>
+<li>本ファイル作成後に初めて <code>sim.py</code> を実行する。</li>
+<li>seed: 20261015（梯子の乱数は研究014と同シード。AFT 係数は研究014の D1 推定を固定入力として再利用）</li>
+<li>seed_boot: なし（本回はブートストラップ再推定しない）</li>
+</ul>
+<h2 id="_1">定義</h2>
+<p>技術段の梯子は研究012–014と同じ：T1 光学、T2 精密顕微鏡、T3 真空管／初期半導体相当、T4 現代光学読取。</p>
+<p>英国マイルストーン年（研究013/014と同じ）：1290, 1620, 1948, 2012。</p>
+<ul>
+<li><strong>n_k_income</strong>（014基線）: (\log_2(\mathrm{gdppc}<em>{t</em>{k+1}}/\mathrm{gdppc}_{t_k}))。Maddison/OWID <code>owid_gdppc_maddison.csv</code> の GBR。</li>
+<li><strong>n_k_pop_income</strong>: (\log_2(Y_{t_{k+1}}/Y_{t_k}))、ただし (Y = \mathrm{Population} \times \mathrm{gdppc})。人口は OWID「Population of England over history」（Bank of England 2016；1700年以前は England、以後は UK）の該当年。</li>
+<li>注: 人口系列は 1700 年で England→UK に切り替わる。1620→1948 の人口比はこの切替を含む【事実：OWID 注記】。感度として、1620 の人口を 1700 年値に置き換えた「境界補正」も記録するが、主仮説の判定には用いない。</li>
+</ul>
+<p>混合型 primer（研究014 <code>hybrid_AFT_D1_eref</code>）:
+<code>dur = n_k * exp(α + γ(e−1950)/50 + s Z) * (d/n_k)^β</code>、<code>min(dur, d)</code>。
+α,β,γ,s,e は研究014 results.json の D1（e_ref）を固定。</p>
+<p>検定媒体: <strong>Piql_film_QR</strong>（tier 3）と <strong>MDISC_BD</strong>（tier 3）。D23* は研究012–014と同じ定義（P_survive が 0.5 を下回る臨界の無 primer m23）。</p>
+<h2 id="_2">仮説（事前登録）</h2>
+<ul>
+<li><strong>H27a</strong>: (n_{23}^{\mathrm{pop\times income}} \ge 2 \times n_{23}^{\mathrm{income}})。</li>
+<li><strong>H27b</strong>: (n_k = n_k^{\mathrm{pop\times income}}) かつ hybrid_AFT_D1_eref のとき、Piql の D23*（primer あり）は <strong>1100 年未満</strong>。</li>
+<li><strong>H27c</strong>: 同じ設定で、M-DISC の D23*（primer あり）は所得のみ基線（研究014 hybrid_AFT_D1_eref）より悪化しない（数値なら ≤ 基線、または両方とも <code>&lt;50</code>）。</li>
+<li><strong>H27d</strong>（頑健性）: e=1850 の混合型でも、(n_k^{\mathrm{pop\times income}}) のとき Piql の D23* は 1100 年未満。</li>
+</ul>
+<p>棄却規則: H27a はデータ定義から計算（シミュレーション不要）。H27b–d は <code>results.json</code> の該当キーで判定。<code>&gt;1600</code> は 1600 超として 1100 未満ではない。</p>
+<h2 id="_3">探索的（事前登録外）</h2>
+<ul>
+<li>文献から真空管・初期トランジスタ・フィルムスキャナの最小生産規模を拾い、n_k の下界の質的証拠とする（数量が取れなければ「取れず」と明記）。</li>
+<li>c 倍スキャナ（全 n_k を同一倍率）との対照は報告するが、主判定は段階別 pop×income。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

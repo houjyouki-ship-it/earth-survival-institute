@@ -1,0 +1,56 @@
+NBER WORKING PAPER SERIES
+
+THE BURDEN OF KNOWLEDGE AND THE
+‘DEATH OF THE RENAISSANCE MAN’:
+IS INNOVATION GETTING HARDER?
+Benjamin F. Jones
+Working Paper 11360
+http://www.nber.org/papers/w11360
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+May 2005
+
+I wish to thank Pol Antras, Andrei Bremzen, Esther Duflo, Glenn Ellison, Amy Finkelstein, Simon Johnson,
+Joel Mokyr, Ben Olken, Michael Piore, Scott Stern and participants at various lunches and seminars for
+helpful comments. I am especially grateful to Daron Acemoglu, Abhijit Banerjee, and Sendhil Mullainathan
+for their advice and Trevor Hallstein for research assistance. The support of the Social Science Research
+Council’s Program in Applied Economics, with funding provided by the John D. and Catherine T. MacArthur
+Foundation, is gratefully acknowledged. The views expressed herein are those of the author(s) and do not
+necessarily reflect the views of the National Bureau of Economic Research.
+©2005 by Benjamin F. Jones. All rights reserved. Short sections of text, not to exceed two paragraphs, may
+be quoted without explicit permission provided that full credit, including © notice, is given to the source.
+
+The Burden of Knowledge and the ‘Death of the Renaissance Man’: Is Innovation Getting Harder?
+Benjamin F. Jones
+NBER Working Paper No. 11360
+May 2005
+JEL No. O3, O4, J2, I2
+ABSTRACT
+This paper investigates, theoretically and empirically, a possibly fundamental aspect of technological
+progress. If knowledge accumulates as technology progresses, then successive generations of
+innovators may face an increasing educational burden. Innovators can compensate in their education
+by seeking narrower expertise, but narrowing expertise will reduce their individual capacities, with
+implications for the organization of innovative activity - a greater reliance on teamwork - and
+negative implications for growth. I develop a formal model of this "knowledge burden mechanism"
+and derive six testable predictions for innovators. Over time, educational attainment will rise while
+increased specialization and teamwork follow from a sufficiently rapid increase in the burden of
+knowledge. In cross-section, the model predicts that specialization and teamwork will be greater in
+deeper areas of knowledge while, surprisingly, educational attainment will not vary across fields. I
+test these six predictions using a micro-data set of individual inventors and find evidence consistent
+with each prediction. The model thus provides a parsimonious explanation for a range of empirical
+patterns of inventive activity. Upward trends in academic collaboration and lengthening doctorates,
+which have been noted in other research, can also be explained by the model, as can much-debated
+trends relating productivity growth and patent output to aggregate inventive effort. The knowledge
+burden mechanism suggests that the nature of innovation is changing, with negative implications for
+long-run economic growth.
+Benjamin F. Jones
+Northwestern University
+Kellogg School of Management
+Department of Management and Strategy
+2001 Sheridan Road
+Evanston, IL 60208
+and NBER
+bjones@kellogg.northwesterm.edu
+
+

@@ -1,0 +1,277 @@
+POPULATION GROWTH AND TECHNOLOGICAL CHANGE:
+ONE MILLION B.C. TO 1990*
+MICHAEL KREMER
+The nonrivalry of technology, as modeled in the endogenous growth literature,
+implies that high population spurs technological change. This paper constructs and
+empirically tests a model of long-run world population growth combining this
+implication with the Malthusian assumption that technology limits population. The
+model predicts that over most of history, the growth rate of population will be
+proportional to its level. Empirical tests support this prediction and show that
+historically, among societies with no possibility for technological contact, those with
+larger initial populations have had faster technological change and population
+growth.
+
+Models of endogenous technological change, such as Aghion
+and Howitt [1992] and Grossman and Helpman [1991], typically
+imply that high population spurs technological change. This implication flows naturally from the nonrivalry of technology. As Arrow
+[1962] and Romer [1990] point out, the cost of inventing a new
+technology is independent of the number of people who use it.
+Thus, holding constant the share of resources devoted to research,
+an increase in population leads to an increase in technological
+change. However, despite its ubiquity in the theoretical literature
+on growth, this implication is typically dismissed as empirically
+undesirable.
+This paper argues that the long-run history of population
+growth and technological change is consistent with the population
+implications of models of endogenous technological change. The
+first section of the paper constructs a highly stylized model in
+which each person's chance of being lucky or smart enough to
+invent something is independent of population, all else equal, so
+that the growth rate of technology is proportional to total population. The model also makes the Malthusian [1978] assumption that
+population is limited by the available technology, so that the
+growth rate of population is proportional to the growth rate of
+*I am grateful to Gene Grossman, Charles Jones, Gregory Mankiw, Paul
+Romer, Xavier Sala-i-Martin, James Thomson, many former classmates, an anonymous referee, and especially Robert Barro and Elhanan Helpman for assistance
+with this paper. Participants in seminars at Brown University, University of
+Chicago, Harvard University, and Yale University, and at the AEA meetings and the
+NBER Economic Growth and Economic Fluctuations Meetings provided useful
+comments. Jill Woodworth provided capable research assistance. I was supported by
+a National Science Foundation graduate fellowship while writing this paper.
+
+a 1993 by the President and Fellows of Harvard College and the Massachusetts Institute of
+Technology.
+
+The Quarterly Journal of Economics, August 1993
+
+This content downloaded from 129.174.21.5 on Fri, 25 Oct 2019 20:04:08 UTC
+All use subject to https://about.jstor.org/terms
+
+682 QUARTERLY JOURNAL OF ECONOMICS
+
+technology. Combining these assumptions implies that the growth
+rate of population is proportional to the level of population.
+Figure I plots the growth rate of population against its level
+from prehistoric times to the present. The prediction that the
+
+population growth rate will be proportional to the level of population is broadly consistent with the data, at least until recently,
+
+when population growth rates have leveled off. The data, which are
+listed in Table I and discussed in Section IV, are drawn from
+McEvedy and Jones [1978], Deevey [1960], and the United Nations
+[various years]. While they are obviously subject to measurement
+error, there can be little doubt that the growth rate of population
+has increased over human history. Assuming that population has
+historically been limited by the level of technology, this much
+
+faster than exponential population growth is inconsistent with
+growth models which either assume constant exogenous technological change or generate it endogenously.
+
+The model outlined in Section I is similar to that of Lee [1988],
+who combines the Malthusian and Boserupian interpretations of
+
+population history to generate accelerating growth of population.
+Lee adopts Boserup's [1965] argument that people are forced to
+adopt new technology when population grows too high to be
+supported by existing technology. However, this view is difficult to
+reconcile with the simultaneous rise in income and rates of
+
+0.02 .
+cr
+
+0
+
+C
+
+90
+
+.01_
+
+.
+
+.I
+
+0
+
+0
+
+1
+
+~~~2
+
+3
+
+4
+
+5
+
+Population
+FIGURE I
+
+Population Growth Versus Population
+
+This content downloaded from 129.174.21.5 on Fri, 25 Oct 2019 20:04:08 UTC
+All use subject to https://about.jstor.org/terms
+
+POPULATION GROWTH AND TECHNOLOGY 683
+
+TABLE I
+POPULATION GROWTH: 1,000,000 B.C. TO 1990
+
+Year Pop. (millions) Growth rate Comments
+-1,000,000 0.125 0.00000297
+-300,000
+
+1
+
+0.00000439
+
+-25,000 3.34 0.000031
+-10,000
+-5000
+
+4
+
+0.000045
+
+5
+
+0.000336
+
+-4000
+
+7
+
+0.000693
+
+-3000
+
+14
+
+0.000657
+
+-2000
+
+27
+
+0.000616
+
+-1000
+
+50
+
+0.001386
+
+-500
+
+100
+
+0.001352
+
+-200
+
+150
+
+1
+
+170
+
+200
+400
+
+0.000623
+0.000559
+
+190
+
+190
+
+0.0
+
+0.000256
+
+600
+
+200
+
+0.000477
+
+800
+
+220
+
+0.000931
+
+1000
+
+265
+
+0.001886
+
+1100
+
+320
+
+0.001178
+
+1200 360 0.0 Mongol Invasions
+1300 360 -0.0002817 Black Death
+1400
+
+350
+
+0.0019420
+
+1500
+
+425
+
+0.002487
+
+1600 545 0.0 30 years war, Ming Collapse
+1650
+
+545
+
+1700
+
+610
+
+0.002253
+0.003316
+
+1750
+
+720
+
+0.004463
+
+1800
+
+900
+
+0.005754
+
+1850 1200 0.003964
+1875 1325 0.008164
+1900 1625 0.008306
+1920 1813 0.009164
+1930 1987 0.010772
+1940 2213 0.012832
+1950 2516 0.018226
+1960 3019 0.020151
+1970 3693 0.018646
+1980 4450 0.018101
+1990 5333
+
+The growth rate listed for period t is the average growth rate f
+at all times between different data sets would distort growth rate
+on Deevey's population estimates, although the population estimat
+Similarly, the 1900-1920 growth rate is based on the 1900-1925 a
+Jones. Population figures from 1920 to 1940 and from 1950 to 1
+United Nations Statistical Yearbook, respectively. The 1990 population estimate is from the 1991 World
+Almanac [1991], which attributes it to the U. S. Bureau of the Census.
+
+This content downloaded from 129.174.21.5 on Fri, 25 Oct 2019 20:04:08 UTC
+All use subject to https://about.jstor.org/terms
+
+
