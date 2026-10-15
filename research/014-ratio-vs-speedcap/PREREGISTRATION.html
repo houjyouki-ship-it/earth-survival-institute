@@ -1,0 +1,35 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究014 事前登録（記載：2026-10-15 20:42 UTC、sim.py の初回実行前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="014-2026-10-15-2042-utcsimpy">研究014 事前登録（記載：2026-10-15 20:42 UTC、sim.py の初回実行前）</h1>
+<h2 id="_1">登録前に見たもの（結果に関係しうる情報の開示）</h2>
+<ul>
+<li>先頭国フロンティアが各 L に到達した年（英・蘭・米の最大、英のみ）。これは説明変数（先頭の帯通過年数）で、追随国の所要年数（結果変数）は、013 で公表済みの1820年以降の帯を除いて見ていない。</li>
+<li>英国の1290・1620・1948・2012年の値（梯子の段ごとの倍増回数 n_k に使う）。</li>
+</ul>
+<h2 id="_2">問い</h2>
+<p>追随国が「先頭国がすでに通過した所得倍増帯」を通過する年数は、先頭国の年数に比例する（比のモデル、log 傾き β=1）のか、先頭の年数にほぼ依らない上限で決まる（速度上限モデル、β=0）のか。013 の探索的結果（β=0.18±0.29、7帯、先頭年数35〜57年）を、帯の先頭年数を約30〜500年に広げて検定する。</p>
+<h2 id="_3">データと定義（固定）</h2>
+<ul>
+<li>Maddison 2023（013 の sources/owid_gdppc_maddison.csv を読む）。地域集計・旧国家・産油18か国を除外（013 と同じ）。</li>
+<li>帯 L は 1000×2^(k/4)、k=0..24。帯の条件：先頭が L に到達した年 FL ≥ 1250、2L に到達した年 F2L ≤ 2022。</li>
+<li>追随国の条件・越境・打ち切りは 013 と同じ（最初の越境、入帯は F2L 以降、最初の観測がすでに L 以上なら除外）。打ち切りの所要年数が 0.5 年未満の記録は除外。</li>
+<li>先頭国の定義（4通り）：</li>
+<li>D1 主：英・蘭・米の最大</li>
+<li>D2：英のみ</li>
+<li>D3：全非集計・非産油国の最大（補間区間が60年以下の部分だけを使う）</li>
+<li>D4：D1 の log 値を中心31年移動平均した平滑フロンティア</li>
+<li>帯レベルの検定：帯ごとの KM 中央所要年数（記録5件以上、中央値が定まる帯のみ）の log を、log(先頭年数) に OLS で回帰した傾き β_band。</li>
+<li>記録レベル：右打ち切りの対数正規 AFT。log 所要年数 = α + β·log(先頭年数) + γ·(入帯年−1950)/50 + s·ε。最尤（Nelder–Mead）。国単位クラスター・ブートストラップ 200回（seed=20261017）。</li>
+</ul>
+<h2 id="_4">仮説</h2>
+<ul>
+<li>H26a（主）：D1 の β_band &lt; 0.5。</li>
+<li>H26b：β_band &lt; 0.5 が、D1〜D4 のうち3つ以上で成り立つ。</li>
+<li>H26c：D1 の AFT で、β の 95% ブートストラップ区間の上端 &lt; 1（比のモデルを棄却）。</li>
+<li>H26d：D1 の AFT で γ &lt; 0 で、95% 区間が0を含まない（後の時代ほど追いつきが速い）。</li>
+<li>H26e：混合型の primer（段 k の所要年数 = min(d_k, n_k·exp(α+γ·e_ref+s·Z)·(d_k/n_k)^β)。D1 の AFT 点推定、e_ref=記録の入帯年の中央値）で、Piql の D23*（primer あり、d12=30）が 809年を超える。</li>
+<li>H26f：同じ条件で、Piql の相乗効果（m23=300）が +0.096 を超える。</li>
+<li>n_k（英国の倍増回数）：d12=0.876（1290→1620）、d23=2.545（1620→1948）、d34=1.713（1948→2012、【推測】の対応）。</li>
+</ul>
+<h2 id="_5">判定に使わないもの（感度）</h2>
+<ul>
+<li>AFT に log L を加えたモデル、e_ref=1850/1980、d12=330、β を帯レベル推定にした混合型。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
