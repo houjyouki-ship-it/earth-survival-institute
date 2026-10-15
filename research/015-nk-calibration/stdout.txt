@@ -1,0 +1,17 @@
+check_nk_vs_014: {1: True, 2: True, 3: True}
+check_014_hybrid_ladder: {'Piql_D23': True, 'MDISC_D23': True, 'syn300_Piql': True, 'reproduced_exactly': True}
+milestones: [{'year': 1290, 'gdppc': 1004.0, 'population': 4751000.0, 'Y_pop_x_gdppc': 4770004000.0}, {'year': 1620, 'gdppc': 1842.0, 'population': 4689000.0, 'Y_pop_x_gdppc': 8637138000.0}, {'year': 1948, 'gdppc': 10753.0, 'population': 40950000.0, 'Y_pop_x_gdppc': 440335350000.0}, {'year': 2012, 'gdppc': 35243.64, 'population': 53494000.0, 'Y_pop_x_gdppc': 1885323278160.0}]
+n_k_income: {1: 0.8755137921405636, 2: 2.5453942496743514, 3: 1.7126237187899307}
+n_k_pop_income: {1: 0.8565628644505404, 2: 5.6719055173692645, 3: 2.0981373517893127}
+n_k_boundary: {1: 1.004684016177601, 2: 5.523784365642204, 3: 2.0981373517893127}
+ratio Y/income: {1: 0.9783545069647737, 2: 2.2283013792833497, 3: 1.2251011875928999}
+[income_eref] Piql D23*=>1600 MDISC=<50 syn300 Piql=0.1285 MDISC=0.0990 medT3=156.8
+[pop_income_eref] Piql D23*=>1600 MDISC=<50 syn300 Piql=0.0976 MDISC=0.0442 medT3=225.6
+[income_e1850] Piql D23*=>1600 MDISC=<50 syn300 Piql=0.0978 MDISC=0.0427 medT3=225.0
+[pop_income_e1850] Piql D23*=942.5093827821319 MDISC=<50 syn300 Piql=0.0538 MDISC=0.0123 medT3=300.4
+[boundary_pop_income_eref] Piql D23*=>1600 MDISC=<50 syn300 Piql=0.0981 MDISC=0.0444 medT3=224.8
+D23 no primer: {'Piql_film_QR': 434.8261673887213, 'MDISC_BD': '<50'}
+NK scan: {"e1973_x1": {"Piql_D23_star_primer": ">1600", "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.1285, "syn300_MDISC": 0.099}, "e1973_x2": {"Piql_D23_star_primer": ">1600", "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.09931499999999999, "syn300_MDISC": 0.04429500000000001}, "e1973_x4": {"Piql_D23_star_primer": 1110.5083819217978, "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.05894499999999997, "syn300_MDISC": 0.01355}, "e1973_x8": {"Piql_D23_star_primer": 561.3756275560135, "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.023735000000000006, "syn300_MDISC": 0.002454999999999999}, "e1850_x1": {"Piql_D23_star_primer": ">1600", "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.097835, "syn300_MDISC": 0.042699999999999995}, "e1850_x2": {"Piql_D23_star_primer": 1065.4999395884727, "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.05727500000000002, "syn300_MDISC": 0.012830000000000001}, "e1850_x4": {"Piql_D23_star_primer": 553.5927598985468, "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.022635000000000016, "syn300_MDISC": 0.002255}, "e1850_x8": {"Piql_D23_star_primer": 456.83167355018327, "MDISC_D23_star_primer": "<50", "syn300_Piql": 0.005120000000000013, "syn300_MDISC": 0.00023000000000000104}}
+eff a pop×income: {'d12': {'0.25': 0.4308624192474648, '0.5': 0.8274284954863393, '0.75': 1.0}, 'd23': {'0.25': 0.261391080149702, '0.5': 0.5306455144077364, '0.75': 1.0}, 'd34': {'0.25': 0.6171324701029208, '0.5': 1.0, '0.75': 1.0}}
+hypotheses: {"H27a": [true, {"n23_income": 2.5453942496743514, "n23_pop_income": 5.6719055173692645, "ratio": 2.2283013792833497}], "H27b": [false, {"Piql_D23_star": ">1600"}], "H27c": [true, {"MDISC_income": "<50", "MDISC_pop_income": "<50"}], "H27d": [true, {"Piql_D23_star_e1850": 942.5093827821319}]}
+runtime_sec=4.2

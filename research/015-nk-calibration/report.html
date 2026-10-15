@@ -1,0 +1,218 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究015：n_k の較正 — 所得倍増 vs 人口×所得倍増（open_problems 51） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="015n_k-vs-open_problems-51">研究015：n_k の較正 — 所得倍増 vs 人口×所得倍増（open_problems 51）</h1>
+<h2 id="_1">問い</h2>
+<p>研究014では、速度上限型 primer の価値が「段に必要な産業規模の倍増回数 n_k」で決まり、英国の所得倍増（T2→T3 で約2.55回）を代理にすると、基準の混合型で Piql の D23* は &gt;1600年、全段を4倍にすると554〜1111年に落ちた。本回は、(1) 公開文献から真空管・初期半導体・光学読取の最小規模の下界を集め、(2) n_k を「所得」ではなく「人口×所得（総経済規模 Y）」の倍増回数として再定義し、事前登録で Piql / M-DISC の D23* がどう動くかを検定する。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>England/UK 人口（Bank of England 2016 via OWID）：1290年 4.751M、1620年 4.689M、1948年 40.95M、2012年 53.494M。1700年以前は England、以後は UK</td>
+<td>【事実（https://ourworldindata.org/grapher/population-of-england-millennium 、CSV取得）】</td>
+</tr>
+<tr>
+<td>GBR 一人あたりGDP（Maddison/OWID、013と同じCSV）：1290=1004、1620=1842、1948=10753、2012=35243.64</td>
+<td>【事実（research/013…/owid_gdppc_maddison.csv）】</td>
+</tr>
+<tr>
+<td>技術の非競合性より、人口が大きいほど技術変化が速い；孤立社会では初期人口が大きいほど技術・人口成長が速い</td>
+<td>【事実（Kremer 1993 QJE；PDF https://gwern.net/doc/economics/1993-kremer.pdf ）】</td>
+</tr>
+<tr>
+<td>知識の蓄積が教育負担を増やし、専門化・チーム化が進む（「burden of knowledge」）</td>
+<td>【事実（Jones NBER WP 11360 / Restud 2009；PDF https://www.nber.org/system/files/working_papers/w11360/w11360.pdf ）】</td>
+</tr>
+<tr>
+<td>三極真空管は手作業で再構築可能；現代トランジスタは自力製造・修理がほぼ不可能、と Dartnell 側のガイドが述べる。必要材料：タングステン、ガラス、アセチレン封止、水銀真空ポンプ</td>
+<td>【事実（http://the-knowledge.org/en-gb/reinstate-global-communications/ 、WebFetch）】</td>
+</tr>
+<tr>
+<td>真空管はクリーンルーム不要の手組み立てが可能；半導体製造は危険化学物質と超清浄環境を要する</td>
+<td>【事実（http://vias.org/feee/tubes_13.html 、WebFetch）】</td>
+</tr>
+<tr>
+<td>1952年時点でトランジスタは月産約8,500本、うち Western Electric が月6,000本；当時価格は約$18（真空管は$1〜2）</td>
+<td>【事実（Radio-Electronics July 1952 再録、https://www.rfcafe.com/references/radio-electronics/transistor-production-radio-electronics-july-1952.htm ）】</td>
+</tr>
+<tr>
+<td>写真化学（塩化銀・ハイポ・コロジオン等）は前近代材料で再建可能、と Dartnell『The Knowledge』抜粋が述べる</td>
+<td>【事実（Scientific American 抜粋、https://www.scientificamerican.com/article/rebooting-civilization-survivorse28099-how-to-guide-for-restoring-technology-after-the-apocalypse-excerpt/ ）】</td>
+</tr>
+<tr>
+<td>フィルムスキャナ／光学アーカイブ読取装置の<strong>最小生産規模（人数・エネルギー）の数量</strong></td>
+<td><strong>未確認</strong>（本回、開いた公開URLからは取れず）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed202610154">方法（sim.py、seed=20261015、約4秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-15T22:39:19Z</strong>、初回 <code>sim.py</code> 実行前）。</li>
+<li>n_k_income：研究014と同じ (\log_2(\mathrm{gdppc}<em>{t+}/\mathrm{gdppc}</em>{t-}))（確認：014の n_doublings_GBR と一致）。</li>
+<li>n_k_pop_income：(\log_2(Y_{t+}/Y_{t-}))、(Y=\mathrm{pop}\times\mathrm{gdppc})。</li>
+<li>混合型 primer：研究014の D1 AFT（α,β,γ,s）と e_ref を固定入力。梯子の乱数は014と同シード・同順序。014 hybrid_AFT_D1_eref の Piql/M-DISC D23* と syn300 を厳密再現（<code>check_014_hybrid_ladder.reproduced_exactly=true</code>）。</li>
+<li>境界感度：1620年人口を1700年値に置換（England→UK 切替の影響）。主判定には使わない。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H27a</td>
+<td>(n_{23}^{Y} \ge 2\times n_{23}^{\mathrm{income}})</td>
+<td>5.672 / 2.545 = <strong>2.228</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H27b</td>
+<td>pop×income + e_ref で Piql D23* &lt; 1100年</td>
+<td><strong>&gt;1600</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H27c</td>
+<td>同設定で M-DISC D23* は所得基線より悪化しない</td>
+<td>両方とも <strong>&lt;50</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H27d</td>
+<td>e=1850 でも pop×income なら Piql D23* &lt; 1100</td>
+<td><strong>942.5年</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">主な数値</h2>
+<h3 id="n_k">n_k の再計算</h3>
+<table>
+<thead>
+<tr>
+<th>段</th>
+<th>年</th>
+<th>n_income（014）</th>
+<th>n_pop</th>
+<th>n_pop×income</th>
+<th>比（Y/income）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n12</td>
+<td>1290→1620</td>
+<td>0.876</td>
+<td>−0.019</td>
+<td>0.857</td>
+<td>0.98</td>
+</tr>
+<tr>
+<td>n23</td>
+<td>1620→1948</td>
+<td>2.545</td>
+<td>3.127</td>
+<td><strong>5.672</strong></td>
+<td><strong>2.23</strong></td>
+</tr>
+<tr>
+<td>n34</td>
+<td>1948→2012</td>
+<td>1.713</td>
+<td>0.386</td>
+<td>2.098</td>
+<td>1.23</td>
+</tr>
+</tbody>
+</table>
+<p>T1→T2 では人口がほぼ横ばい（黒死病後の回復途上）のため、Y 倍増≈所得倍増。T2→T3 では人口が約8.7倍（系列の England→UK 切替を含む）で、所得2.55回に人口3.13回が乗り、<strong>Y は約5.67回の倍増</strong>になる。</p>
+<h3 id="hybridprimer">梯子再評価（hybrid、primer あり）</h3>
+<table>
+<thead>
+<tr>
+<th>設定</th>
+<th>Piql D23*</th>
+<th>M-DISC D23*</th>
+<th>syn300 Piql</th>
+<th>syn300 M-DISC</th>
+<th>med T3 (m23=300)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>所得・e_ref（014再現）</td>
+<td>&gt;1600</td>
+<td>&lt;50</td>
+<td>+0.129</td>
+<td>+0.099</td>
+<td>157年</td>
+</tr>
+<tr>
+<td><strong>人口×所得・e_ref</strong></td>
+<td><strong>&gt;1600</strong></td>
+<td>&lt;50</td>
+<td><strong>+0.098</strong></td>
+<td>+0.044</td>
+<td>226年</td>
+</tr>
+<tr>
+<td>所得・e=1850</td>
+<td>&gt;1600</td>
+<td>&lt;50</td>
+<td>+0.098</td>
+<td>+0.043</td>
+<td>225年</td>
+</tr>
+<tr>
+<td><strong>人口×所得・e=1850</strong></td>
+<td><strong>943</strong></td>
+<td>&lt;50</td>
+<td>+0.054</td>
+<td>+0.012</td>
+<td>300年</td>
+</tr>
+<tr>
+<td>境界補正 Y・e_ref</td>
+<td>&gt;1600</td>
+<td>&lt;50</td>
+<td>+0.098</td>
+<td>+0.044</td>
+<td>225年</td>
+</tr>
+<tr>
+<td>primer なし</td>
+<td>435</td>
+<td>&lt;50</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>実効 a の中央値（pop×income・e_ref）：d12=0.83、d23=0.53、d34=1.0（所得のみでは d23 中央値0.22だった）。n23 が約2.2倍になると、速度上限の「1段あたり年数」が延び、<strong>相乗効果は残るが半減に近い</strong>（+0.129→+0.098）。D23* 自体が 1100 を切るのは、014でも示された「遅い時代」e=1850 と組んだときだけである。</p>
+<p>探索的な均一 c 倍（所得 n_k×c）は014と一致：e_ref で c=4 のとき Piql D23*=1111、c=8 で561。段階別 Y 換算（n23だけ×2.23、他は×0.98〜1.23）は、全段×2 より弱く、e_ref ではまだ &gt;1600 に留まる。</p>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>代理の問題</strong>【推測】：Y=人口×所得は「総経済規模」の代理であって、真空管工場や初期半導体ラインの<strong>物理的最小規模</strong>そのものではない。Kremer（1993）は人口→技術の方向を支持するが、崩壊後の孤立再工業化の n_k を直接は与えない。Jones（2009）の知識負担は、段が進むほど分業・チームが必要になることを示唆し、所得だけより人口（労働力プール）を含む換算を正当化する材料にはなるが、倍率の点推定ではない。</li>
+<li><strong>England/UK 切替</strong>【事実】：OWID 注記どおり 1700 年で系列が変わる。1620→1948 の人口比 8.7 はこの切替を含む。1700 境界補正でも n23^Y=5.52（比2.17）で H27a は壊れず、e_ref の Piql も &gt;1600 のまま。</li>
+<li><strong>真空管 vs トランジスタの文献</strong>【事実＋推測】：手組み立て可能な真空管（Dartnell / VIAS）と、1952年でも月数千本・高価格の初期トランジスタ（Radio-Electronics）は、T3 相当の「最小産業」が所得フロンティア到達だけでは測れないことを質的に示す。ただし<strong>何人・何kWで足りるか</strong>の公開一次数値は本回取れなかった。フィルムスキャナも同様に未確認。</li>
+<li><strong>H27b 棄却の含意</strong>：next_plan の例示「n23 が2倍以上なら Piql D23*&lt;1100」は、<strong>e_ref（教師・交易ありの現代追いつき）だけでは成り立たない</strong>。成り立つのは e=1850（より遅い速度上限）と組んだとき（H27d）。014の「教師なし」懸念（open_problems 52）と接続する。</li>
+</ul>
+<h2 id="_5">既存研究に対する新規性</h2>
+<p>所得倍増回数を文明回復のスケール代理にする議論（当研究所014）に対し、<strong>同じマイルストーン年で人口を掛けた Y 倍増を明示的に計算し、速度上限型梯子に入れて事前登録検定した例は、確認した公開文献には見当たらない</strong>（Kremer は人口→技術、Jones は知識負担で、いずれもアーカイブ可読性の D23* には接続していない）。Dartnell は真空管の手作業再建を質的に論じるが、倍増回数への換算はしていない。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：n_k の基線を所得のみ（n23≈2.55）から、少なくとも感度として <strong>pop×income（n23≈5.67）</strong> を併記する。D23* の楽観側（&gt;1600）は e_ref×所得に依存するので、政策メモでは e=1850×Y の <strong>Piql≈940年</strong> を下限側シナリオとして併記する。</li>
+<li><strong>長期アーカイブ設計者（Piql / フィルム系）</strong>：primer は「追いつきを速くする」一般論より、<strong>少ない人口でも真空管〜光学読取まで届く工程</strong>（Dartnell が示す手作業真空管、クリーンルーム不要の組立）に字数を割く。T3 の n_k を減らす内容が、e_ref でも相乗効果を保つ唯一のレバーである（014・015共通）。</li>
+<li><strong>半導体・電子史の公開データ整備</strong>：1950年代の最小ファブ人数・電力の一次表が、この種の較正のボトルネックである。フィルムスキャナの最小生産規模も同様。</li>
+</ul>
+<h2 id="_7">成果物と再現</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_nk_income_vs_popincome.png</code>、<code>fig_D23_and_synergy.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>（人口CSV、Kremer/Jones PDF、Radio-Electronics・SciAm HTML、excerpts.json）。014を <code>/tmp/rep015/</code> で再実行し runtime 以外一致・<code>check_vs_013_*=true</code>。015を <code>/tmp/rep015b/</code> で再実行し runtime 以外一致。</p><footer><hr><small>自動生成</small></footer></body></html>

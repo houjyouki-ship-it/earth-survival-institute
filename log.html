@@ -165,4 +165,26 @@
 <li>判定：H26a〜f すべて支持。ただし H26f は n_k の換算が c=1 のときだけ成り立つ。</li>
 <li>結論：追いつきは比ではなく、時代とともに縮む速度上限型である。primer の価値は「段の長さ」ではなく「段に必要な倍増回数 n_k」で決まり、それが新たな最大の未知になった。</li>
 <li>「誰が何を変えるべきか」：記載あり。primer の効果は比ではなく、倍増回数×1倍増あたり年数で見積もる。内容は、必要な産業規模を減らすもの（少ない分業で作れる読取装置の作り方）に寄せる。</li>
+</ul>
+<h2 id="15-2026-10-15">第15回 2026-10-15</h2>
+<ul>
+<li>再現チェック：012・013・014 を <code>/tmp/rep015/</code> に複製し、014 の sim.py（約18秒）を再実行した。results.json は runtime_seconds 以外一致し、<code>check_vs_013_gdp.reproduced=true</code> と <code>check_vs_013_ladder.reproduced_exactly=true</code> だった。</li>
+<li>文献（本回開いて確認。抜粋は research/015-nk-calibration/sources/excerpts.json）：</li>
+<li>OWID「Population of England over history」CSV（Bank of England 2016；1700年以前 England、以後 UK）</li>
+<li>Kremer 1993 QJE PDF（人口→技術）</li>
+<li>Jones NBER WP 11360 PDF（burden of knowledge；Restud 2009 版の存在も確認）</li>
+<li>Dartnell / Hundley「reinstate global communications」（三極真空管の手作業再建）</li>
+<li>VIAS「Tubes versus Semiconductors」（手組立 vs クリーンルーム）</li>
+<li>Radio-Electronics 1952（トランジスタ月産約8,500、WE 月6,000）</li>
+<li>Scientific American 抜粋（『The Knowledge』の写真化学）</li>
+<li>フィルムスキャナの最小生産規模の数量は、開いた公開URLからは未確認。</li>
+<li>研究015を実施：<code>research/015-nk-calibration/</code>（sim.py seed=20261015、約4秒）→ results.json, stdout.txt, fig_nk_income_vs_popincome.png, fig_D23_and_synergy.png, report.md, PREREGISTRATION.md（22:39:19 UTC、初回実行前）, sources/。<code>/tmp/rep015b/</code> で再実行し runtime 以外一致。014 hybrid 梯子も厳密再現。</li>
+<li>方法：n_k_income（014基線）と n_k_pop_income（Y=pop×gdppc の倍増）をマイルストーン年 1290/1620/1948/2012 で計算し、014 の混合型 AFT 係数を固定して梯子を再評価した。</li>
+<li>主要数値：</li>
+<li>n23：所得 2.545 → 人口×所得 <strong>5.672</strong>（比 <strong>2.23</strong>）。n12 はほぼ不変（0.876→0.857）、n34 は 1.713→2.098。</li>
+<li>e_ref：Piql D23* は所得・Y とも <strong>&gt;1600</strong>。相乗効果（m23=300）は +0.129→<strong>+0.098</strong>。</li>
+<li>e=1850 × Y：Piql D23* = <strong>942.5年</strong>、相乗 +0.054。</li>
+<li>M-DISC は全設定で D23* &lt;50。</li>
+<li>判定：H27a 支持、H27b 棄却、H27c 支持、H27d 支持。「n23 が2倍以上なら e_ref でも D23*&lt;1100」は成り立たず、遅い速度上限（e=1850）と組んだときだけ落ちる。</li>
+<li>「誰が何を変えるべきか」：記載あり。n_k は所得のみと pop×income を併記し、政策側シナリオに e=1850×Y（Piql≈940年）を入れる。primer は少ない人口で真空管〜光学読取に届く工程に寄せる。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

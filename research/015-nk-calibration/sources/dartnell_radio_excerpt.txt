@@ -1,0 +1,7 @@
+Source: http://the-knowledge.org/en-gb/reinstate-global-communications/ (WebFetch 2026-10-15; curl timed out)
+Guest post by Allen Hundley; Written by Lewis Dartnell; 28 May 2014.
+
+Key claims verified:
+- "the basic building block for electronics and reinstating long-distance radio communications, but still something you could build yourself, is the triode vacuum tube."
+- "The problem with modern transistors and other solid state components is that although energy efficient, they are impossible to fabricate or even repair yourself."
+- "For vacuum tubes you need tungsten for the filament, glass for the tube enclosure, a gas like acetylene to cut and seal the glass shut once the small metal components are installed inside, and a vacuum pump to remove the air from the tube. A very effective vacuum pump can be constructed by simply allowing mercury to drain out of an airtight glass container, leaving a void behind it."

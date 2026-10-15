@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://ourworldindata.org/grapher/population-of-england-millennium",
+    "status": "200 (CSV downloaded)",
+    "file": "population_england_millennium.csv",
+    "excerpt": "Entity=United Kingdom, Code=GBR. Note on grapher: Data prior to 1700 refers to England; data thereafter refers to the UK. Values used: Year 1290 Population=4751000; 1620=4689000; 1948=40950000; 2012=53494000. Source credited: Bank of England (2016)."
+  },
+  {
+    "url": "https://www.nber.org/system/files/working_papers/w11360/w11360.pdf",
+    "status": "200 (PDF downloaded; NBER WP 11360, May 2005; journal version Review of Economic Studies 76(1):283-317, 2009)",
+    "file": "jones2005_nber_w11360.pdf",
+    "excerpt": "If knowledge accumulates as technology progresses, then successive generations of innovators may face an increasing educational burden. Innovators can compensate in their education by seeking narrower expertise, but narrowing expertise will reduce their individual capacities, with implications for the organization of innovative activity - a greater reliance on teamwork - and negative implications for growth. ... age at first invention, specialization, and teamwork increase over time ... The knowledge burden mechanism suggests that the nature of innovation is changing, with negative implications for long-run economic growth."
+  },
+  {
+    "url": "https://gwern.net/doc/economics/1993-kremer.pdf",
+    "status": "200 (PDF; Kremer QJE 108(3):681-716, 1993)",
+    "file": "kremer1993.pdf",
+    "excerpt": "The nonrivalry of technology, as modeled in the endogenous growth literature, implies that high population spurs technological change. ... the growth rate of technology is proportional to total population. The model also makes the Malthusian assumption that population is limited by the available technology ... Combining these assumptions implies that the growth rate of population is proportional to the level of population. ... historically, among societies with no possibility for technological contact, those with larger initial populations have had faster technological change and population growth."
+  },
+  {
+    "url": "http://the-knowledge.org/en-gb/reinstate-global-communications/",
+    "status": "200 (WebFetch 2026-10-15; curl timed out)",
+    "excerpt": "And the basic building block for electronics and reinstating long-distance radio communications, but still something you could build yourself, is the triode vacuum tube. ... The problem with modern transistors and other solid state components is that although energy efficient, they are impossible to fabricate or even repair yourself. ... For vacuum tubes you need tungsten for the filament, glass for the tube enclosure, a gas like acetylene to cut and seal the glass shut once the small metal components are installed inside, and a vacuum pump to remove the air from the tube. A very effective vacuum pump can be constructed by simply allowing mercury to drain out of an airtight glass container, leaving a void behind it. Written by Lewis Dartnell / Guest post by Allen Hundley, 28 May 2014."
+  },
+  {
+    "url": "https://www.scientificamerican.com/article/rebooting-civilization-survivorse28099-how-to-guide-for-restoring-technology-after-the-apocalypse-excerpt/",
+    "status": "200 (curl + WebFetch)",
+    "file": "sciam_dartnell.html",
+    "excerpt": "Excerpt from Lewis Dartnell, The Knowledge: How to Rebuild Our World from Scratch (2014). Photography chemistry (silver chloride, hypo, collodion/gelatin plates) presented as rebuildable with pre-industrial materials; 'if you fell through a time warp back to the 1500s you'd readily be able to source all the chemicals and optical components you needed to build a rudimentary camera'. Industrial chemistry emphasized as necessary for scale-up beyond craft."
+  },
+  {
+    "url": "http://vias.org/feee/tubes_13.html",
+    "status": "200 (WebFetch; curl timed out)",
+    "excerpt": "Tubes are essentially nothing more than glass and metal, with a vacuum seal. Physical tolerances are 'loose' enough to permit hand-assembly of vacuum tubes, and the assembly work need not be done in a 'clean room' environment as is necessary for semiconductor manufacture. Semiconductor manufacture is quite complex, involving many dangerous chemical substances and necessitating super-clean assembly environments."
+  },
+  {
+    "url": "https://www.rfcafe.com/references/radio-electronics/transistor-production-radio-electronics-july-1952.htm",
+    "status": "200 (curl; reprint of July 1952 Radio-Electronics)",
+    "file": "rfcafe_transistor1952.html",
+    "excerpt": "According to reports ... nearly 8,500 transistors were being produced monthly. Six companies were actually producing transistors in commercial quantities ... Western Electric, with 6,000 transistors per month, was producing the bulk of the output. Raytheon followed with 1,000 ... Practically all the transistors now being manufactured ... are of the contact type. Only Western Electric has started manufacture of junction transistors - on an experimental basis only, with an output of less than 100 per month. ... A typical transistor cost $18 ... when a vacuum tube would set you back a buck or two."
+  },
+  {
+    "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database",
+    "status": "reused local file from research/013 .../owid_gdppc_maddison.csv",
+    "excerpt": "GBR gdppc: 1290=1004; 1620=1842; 1948=10753; 2012=35243.64 (same series as research014 n_doublings_GBR)."
+  },
+  {
+    "url": "film/optical scanner minimum industrial scale",
+    "status": "not verified — no open primary source opened with quantitative minimum fab/workforce for film scanners or optical archive readers",
+    "excerpt": "Could not verify a numeric minimum production scale for film scanners / optical readers from an opened public URL in this round."
+  }
+]
