@@ -1,0 +1,111 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究008：符号反転点 r* の解析 — なぜ (50,75) 年に固定されるのか、そして「非致死ショックが生存を上げる」結論は何に依存するのか - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="008-r-5075">研究008：符号反転点 r* の解析 — なぜ (50,75) 年に固定されるのか、そして「非致死ショックが生存を上げる」結論は何に依存するのか</h1>
+<p>再現：<code>cd research/008-rstar-analytic &amp;&amp; python3 sim.py &gt; stdout.txt</code>（seed=20261014、約20秒、<code>../004-common-shock-copula/results.json</code> を照合に読む）→ <code>results.json</code>, <code>fig_profile_and_drop.png</code>, <code>fig_rstar_scaling.png</code>。<code>/tmp/repx/</code>（004と008を複製）で再実行し、<code>results.json</code> は <code>runtime_seconds</code> 以外一致。H17a–e は実行前に <code>sim.py</code> 冒頭へ記載（第三者タイムスタンプなし）。本回は数理解析のみで、新しい外部文献は使っていない。</p>
+<h2 id="0-mc">0. 方法：MC を使わない厳密式</h2>
+<p>研究004の加法回復モデル (h(t)=B e^{-t/\tau}[1+\delta\sum_j e^{-(t-s_j)/r}]+h_{nat})、ショック強度 (\lambda(s)=\lambda_0 e^{-s/\tau_s})（004–007は (\tau_s=\tau=200)）は、ショックについて線形なので、ポアソン過程のラプラス汎関数で生存確率が<strong>厳密に</strong>書ける【計算上の恒等式】：</p>
+<p>$$
+-\log S(T)=B\,I_0(T)+\int_0^T\lambda(s)\left[1-e^{-B\delta C(s,T)}\right]ds+h_{nat}T,\quad C(s,T)=e^{-s/\tau}\frac{1-e^{-\kappa(T-s)}}{\kappa},\ \kappa=\tfrac1\tau+\tfrac1r
+$$</p>
+<p>E[S(W)]=5/6 で B を較正（W=較正窓、基準100年）し、S(1e4) を比べる。1次近似（(B\delta C\ll1)）では B が消えて</p>
+<p>$$
+\text{非致死ショックが } S(T) \text{ を下げる} \iff \frac{J(T)}{J(W)}&gt;\frac{I_0(T)}{I_0(W)},\quad J(T)=\int_0^T\lambda(s)C(s,T)\,ds
+$$</p>
+<p>となり、<strong>λ0 と δ が条件から消える</strong>。つまり r* は「ショック由来ハザードのうち較正窓の中に入る割合」と「基線ハザードのうち窓に入る割合」が等しくなる r である（図1左）。</p>
+<h2 id="1-h17e">1. 検証（H17e：支持）</h2>
+<ul>
+<li>解析式は研究004の MC（N=100,000）の S(1e4) 加法16セルを |z|≤1.45 で再現（最大 |z|=1.45：λ0=1, δ=5, r=∞）。</li>
+<li>一定ショック率（τ_s=∞）については新規 MC（N=50,000, 4セル）と |z|≤1.55 で一致。</li>
+<li>J の数値積分は閉形式と相対誤差 ~1e-14 で一致（<code>J_check</code>）。</li>
+</ul>
+<h2 id="2-resultsjson">2. 主要数値【計算・results.json】</h2>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r*_lin（τ=200, W=100, T=1e4）</td>
+<td><strong>69.5 年</strong></td>
+</tr>
+<tr>
+<td>厳密 r*（λ0∈{0.1,0.3,1,3}/世紀 × δ∈{0.5,1,2,3.93,5} の20組）</td>
+<td>69.7〜72.3 年（r*_lin からの最大ずれ 2.8 年）</td>
+</tr>
+<tr>
+<td>基線の窓比 I0(1e4)/I0(100)</td>
+<td>2.541</td>
+</tr>
+<tr>
+<td>ショック由来の窓比 J(1e4)/J(100)：r→0 / r→∞</td>
+<td>1.582 / 6.459</td>
+</tr>
+<tr>
+<td>小窓極限の閉形式（W≪τ, τ_s=τ）</td>
+<td>r*/W = 1/x, (1−e^{−x})/x = 1/2 → <strong>0.6275</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>W・τ スキャン（1次, τ_s=τ）</strong>：r*/W は W/τ だけの関数（τ=100,W=50 と τ=200,W=100 と τ=400,W=200 で r*/W=0.6952 が一致）。W/τ=0.125→0.644、0.25→0.661、0.5（基準）→0.695、1→0.762、2→0.888、W/τ→0 で 0.6275。</p>
+<p><strong>ショック率の時間尺度 τ_s（τ=200, W=100）</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>τ_s</th>
+<th>25</th>
+<th>50</th>
+<th>100</th>
+<th>200</th>
+<th>400</th>
+<th>1000</th>
+<th>∞（一定率）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r*_lin（年）</td>
+<td>650</td>
+<td>289</td>
+<td>136</td>
+<td>69.5</td>
+<td>37.7</td>
+<td>17.3</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>小窓閉形式の予測</td>
+<td>416</td>
+<td>215</td>
+<td>114</td>
+<td>62.8</td>
+<td>35.4</td>
+<td>16.7</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>一定率では λ0=1, δ=2 で r=10 でも S(1e4) が 0.0034、r=50 で 0.043 下がる（τ_s=τ では r=10 で逆に 0.011 上がる）。</p>
+<h2 id="3">3. 仮説判定</h2>
+<ul>
+<li><strong>H17a 支持</strong>：r*_lin=69.5∈(50,75)、厳密 r* は全20組で ±2.8 年以内（登録 ±10 年）。研究004/005/007が (50,75) を得たのは、λ0・δ が1次で条件から消えるため。非線形（飽和）の補正は r* を最大 +2.8 年動かすだけ。</li>
+<li><strong>H17b 支持</strong>：τ=200 で W=50/100/200 に対し r*/W = 0.661/0.695/0.762（登録 [0.4,0.8]）。r* はほぼ較正窓に比例し、比例係数は W/τ とともにゆっくり増える。</li>
+<li><strong>H17c 支持</strong>：W=100 で τ=100/200/400 に対し r* = 76.2/69.5/66.1 年（比 1.15）。τ 依存は弱い。</li>
+<li><strong>H17d 支持</strong>：一定ショック率で r*=0、τ_s を短くすると r* は単調に増加（τ_s=25 で 650 年）。</li>
+<li>【独自仮説→本回で導出】小窓極限の条件 ((1-e^{-x})/x=\tau/(\tau+\tau_s))（x=W/r*）。「1/2」は「ショック率と基線ハザードが同じ τ で減衰する」ことから来る。τ_s≥200 では1次の数値解と 10% 以内で合うが、τ_s=25 では 416 vs 650 年とずれる（W≪τ_s の前提が崩れる）。</li>
+</ul>
+<h2 id="4">4. 批判的検討：前回までの結論への影響</h2>
+<ol>
+<li><strong>研究005 H11・研究006 H13（前提不成立）の「r≪50 なら非致死ショックは S を上げる」は、τ_s=τ という仮定の産物である</strong>。これは物理的な「回復が速いから安全」ではなく、較正の効果：ショック由来ハザードが基線より速く減衰する（(e^{-2s/\tau})）ため、100年の 1/6 のうちショック分が多く窓内に入り、B が下がって窓外の基線ハザードが減る。ショック率が一定（またはハザードより遅く減衰）なら、どの r&gt;0 でも非致死ショックは長期生存を下げる。【推測】ショック率が人為ハザードと同じ速さで下がる根拠は文献上見ていないので、τ_s は未較正の自由パラメータとして扱うべき。</li>
+<li>r* の値（約70年）は回復の物理ではなく、モデル設計者が選んだ較正窓 W=100 年の約0.7倍である。「r が r* より長いか」という問いは「回復時間が較正窓の約0.7倍より長いか」に読み替えられる。</li>
+<li>研究007の要因別 δ_k 版にこの解析が厳密に当てはまるかは未検証。【推測】各要因のハザードがショックについて加法的なら同じ1次条件が成り立つので、(50,75) の一致はこれで説明できる。</li>
+<li>恒久乗法モデル（mult）は非線形でこの式の対象外。</li>
+</ol>
+<h2 id="5">5. 限界</h2>
+<ul>
+<li>解析は加法回復モデルに限る。h_nat は較正で一定として扱う。</li>
+<li>τ_s の現実的な値の根拠はない（次回の課題）。</li>
+<li>1次条件は δBC≪1 の近似。λ0≤3, δ≤5 の範囲で十分小さいことを厳密計算で確認したが、それより大きいショックは調べていない。</li>
+</ul>
+<h2 id="6">6. 結論</h2>
+<p>r* が λ0・δ によらず (50,75) 年に入るのは、1次でそれらが消え、r* が「較正窓 W とハザード減衰時間 τ の比」と「ショック率の減衰時間 τ_s」だけで決まるためである（基準ケース 69.5 年、厳密計算でも 69.7〜72.3 年）。小窓極限では r*≈0.63W の閉形式が得られる。ただしショック率が一定なら r*=0 になり、004–007で見た「速く回復する非致死ショックは長期生存を上げる」という結果は消える。今後は τ_s を明示的な不確実パラメータとして全モデルに入れる必要がある。</p><footer><hr><small>自動生成</small></footer></body></html>
