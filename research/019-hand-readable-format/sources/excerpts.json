@@ -1,0 +1,13 @@
+{
+ "https://github.com/piql/unboxing (README.md, raw.githubusercontent.com/piql/Boxing/master/README.md)": "customizeable in terms of frame geometry, number of symbols per pixel and forward-error-correction (FEC) ... Support for interleaved error correction where the data (and error correction codes) are spread across multiple barcodes ... read with ~2.7x oversampling ... reedsolomon, ldpc, bch",
+ "https://github.com/piql/unboxing/blob/master/tests/testutils/src/config_source_4kv6.h": "Generic Preservation Format v1.0 printed on a 4096x2160 raster; maxLevelsPerSymbol 4; DataCodingScheme SyncPointInserter,Modulator,Cipher,Interleaving_inner,ReedSolomon_inner,Interleaving_outer,ReedSolomon_outer; RS outer byteParityNumber 10 messageSize 197; Interleaving_outer distance 207; RS inner byteParityNumber 48 messageSize 207; Interleaving_inner distance 248; Cipher key auto",
+ "https://github.com/piql/unboxing/blob/master/tests/testutils/src/config_source_4kv11.h": "DataCodingScheme SyncPointInserter,Modulator,Cipher,Striping,FInterleave,RS_inner,XInterleave,RS_outer,CRC,PH; RS 24 parity/231, 6 parity/225",
+ "https://github.com/piql/unboxing/blob/master/src/codecs/cipher.c": "LFSR32_TAPS = 0xD0000001u; block_size = 64; if(ones < 8 || ones > (block_size - 1)*8) return DFALSE (try next key)",
+ "https://github.com/piql/unboxing/blob/master/src/codecs/reedsolomon.c": "rs_create(codec->message_size, codec->parity_size, RS_PRIM_POLY_285)",
+ "https://github.com/piql/unboxing/blob/master/thirdparty/reedsolomon/rs.c": "encode_8: LFSR-style systematic encoding per message_size block",
+ "https://en.wikipedia.org/wiki/Diffraction-limited_system": "the Abbe limit is d = λ/2NA ... NA can reach about 1.4–1.6 in modern optics",
+ "https://en.wikipedia.org/wiki/Hamming(7,4)": "Hamming introduced in 1950. Hamming's (7,4) algorithm can correct any single-bit error, or detect all single-bit and two-bit errors.",
+ "https://en.wikipedia.org/wiki/Rosetta_Project": "The disc contains over 13,000 pages of information using over 1,500 languages, which can be read after magnifying by 650 times with a microscope.",
+ "https://en.wikipedia.org/wiki/Microform": "standard microfiche ... reduction ratio of 24:1 ... Ultrafiche ... reduction rate higher than 90× ... British National Bibliography ... ultrafiche at 150x",
+ "https://en.wikipedia.org/wiki/Words_per_minute": "While proofreading materials, people are able to read English at 200 wpm on paper, and 180 wpm on a monitor."
+}

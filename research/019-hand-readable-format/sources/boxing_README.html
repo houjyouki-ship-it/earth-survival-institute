@@ -1,0 +1,105 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Boxinglib - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="boxinglib">Boxinglib</h1>
+<p><strong>boxinglib</strong> is a cross-platform software library for <strong>decoding</strong>
+high-capacity 2D barcode images. The flexbible barcode format is fully
+customizeable in terms of <strong>frame geometry</strong>, number of <strong>symbols per pixel</strong>
+and <strong>forward-error-correction</strong> (FEC) method. This makes it a sutiable choice
+for storing large amounts of any kind of digital data on storage mediums such
+paper, photographic film or similar.</p>
+<p>The 2D barcode format consists of a rectangular <strong>border frame</strong> and a <strong>content
+area</strong> inside the frame. The border has <strong>corner marks</strong> for detecting the image
+area and <strong>synchronization marks</strong> along the border for accurately tracking the
+content of the frame. The border has areas reserved for metadata in analog and
+digital format. The <strong>digital metadata section</strong> is at the bottom border and the
+<strong>analog metadata section</strong> is at the left and right borders. Metadata tags are
+fully customizeable and can be tags like a frame identification number or boxing
+format name.</p>
+<p>The content area can contain either <strong>analog images</strong> or <strong>digital data</strong>.
+Digital data is encoded with FEC and written as a image where each pixel encodes
+two or more symbols. Analog data is written as monochrome images with 8bit
+resolution.</p>
+<p>To decode the images the <strong>reading device</strong> needs to capture the 2D barcode from
+the storage medium and convert it to a digital image with 8bit resolution per
+pixel. The image should be read with ~2.7x oversampling compared to the original
+source resolution.</p>
+<p>The library is released under GPLv3 licence. If you want a closed source
+commercial licence, please contact Piql AS.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li><a href="#boxinglib">Boxinglib</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#ivm">iVM</a></li>
+<li><a href="#sample-applications">Sample Applications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ol>
+<h2 id="features">Features</h2>
+<ul>
+<li>Flexible and user configurable 2D barcode format, including bit depth,
+  geometry and forward error correction method.</li>
+<li>Support for interleaved error correction where the data (and error correction
+  codes) are spread across multiple barcodes.</li>
+<li>Support for digital or analog payload.</li>
+<li>Robust frame format with multiple features to aid tracking.</li>
+<li>Frame has support for user configurable machine readable and human readable
+  metadata.</li>
+<li>Cross-platform: Tested on Windows, Linux and OS-X.</li>
+<li>Stand alone: Minimal dependecies to other libraries or operation system
+  functions.</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>C language compiler supporting C99 (ISO/IEC 9899:1999).</p>
+<p>The following C99 header files are used:</p>
+<pre><code class="language-c">#include &lt;alloca.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;float.h&gt;
+#include &lt;limits.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;math.h&gt;
+#include &lt;stdarg.h&gt;
+#include &lt;stddef.h&gt;
+#include &lt;stdint.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+</code></pre>
+<p>A design goal is to have as few dependencies as possible.</p>
+<p>The following 3rd party libraries are included:</p>
+<ul>
+<li>glib - LGPLv2</li>
+<li>reedsolomon - GPLv3, see thirdparty/reedsolomon/gpl.txt</li>
+<li>ldpc - see thirdparty/LDPC-codes/COPYRIGHT</li>
+<li>bch - GPLv2</li>
+</ul>
+<p>The following dependencies must be installed to compile:</p>
+<ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://cmake.org/">CMake</a></li>
+<li><a href="https://libcheck.github.io/check/">libcheck</a></li>
+<li><a href="https://www.doxygen.nl/">doxygen</a> (for documentation)</li>
+</ul>
+<p>For detailed copyright and licencing description, inspect source code under
+thirdparty/.</p>
+<h2 id="installation">Installation</h2>
+<pre><code class="language-sh">git clone --recursive https://github.com/piql/unboxing
+cd unboxing
+cmake -Bbuild
+cmake --build build -j
+ctest -j4 --test-dir build
+</code></pre>
+<p>Note: If don't want to compile with tests, run: <code>cmake -Bbuild -DBUILD_TESTING=OFF</code> in the configure stage. In this case <code>doxygen</code> is not needed as a dependency.</p>
+<h2 id="ivm">iVM</h2>
+<p>The iVM virtual machine is a minimal execution environment for file format
+decoders. It's design goal is to minimize future implementation effort by
+providing an unabmbigious and compact implementation description.</p>
+<p>The boxing library is one of the formats the iVM natively supports.</p>
+<p>Targeting the iVM compiler since switching to CMake is untested.</p>
+<h2 id="sample-applications">Sample Applications</h2>
+<ul>
+<li><strong>tests/unboxingdata</strong>: Unittests for the unboxing library.</li>
+<li><strong>tests/unboxer</strong>: Command line sample application for decoding 2D barcodes.</li>
+<li><strong>tests/testdata</strong>: Sample frames in RAW and analog image formats.</li>
+</ul>
+<h2 id="contact">Contact</h2>
+<p><strong>Piql AS</strong> Grønland 56 3045 Drammen NORWAY</p>
+<p><em>office@piql.com</em> <em>+47 905 33 432</em></p><footer><hr><small>自動生成</small></footer></body></html>

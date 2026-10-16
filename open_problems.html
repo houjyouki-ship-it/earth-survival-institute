@@ -1,5 +1,6 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="17">未解決問題（第17回時点）</h1>
-<p>第17回（研究017）で 56・57 を解決・縮小：選択なしの速度上限は 014 の1.18倍 [1.08, 1.30]（H29a 棄却、016 の1.70は過大）。選択の効果は1950年以降に集中（約1.3倍）。後退が倍増より先に起きる100年累積は0.21だが、100年以内に倍増しない割合は2.3%。時代 e はデータで決まらないシナリオ変数とした。新規 58–60。
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="19">未解決問題（第19回時点）</h1>
+<p>第19回（研究019）で 62 を解決、63 を部分解決：Piql 4kv6 は LFSR 攪拌＋2段インターリーブ＋連接 RS(255,207)/RS(207,197)＋2ビット/画素（公開ソースで確認）。人手では RS 全検査 638人年/MB、省略 4.75人年/MB。手読み向けには攪拌なし・1ビット/画素・離れた3複製が 0.74人年/MB・残留 5.8e-5（p=1e-3）で最良。新規 65–68。
+第17回（研究017）で 56・57 を解決・縮小：選択なしの速度上限は 014 の1.18倍 [1.08, 1.30]（H29a 棄却、016 の1.70は過大）。選択の効果は1950年以降に集中（約1.3倍）。後退が倍増より先に起きる100年累積は0.21だが、100年以内に倍増しない割合は2.3%。時代 e はデータで決まらないシナリオ変数とした。新規 58–60。
 第16回（研究016）で 52・55 を部分解決：孤立6件の減速倍率 r の中央値は 0.87 [0.51, 5.24]（H28a・b 棄却）。孤立そのものの効果は識別できなかった。一方、孤立期の倍増は93.7年、選択なしの対照は AFT 上限の1.70倍遅い。主結果を「人口×所得 × e≈1770〜1890」（Piql D23* 600〜1400年、中心 943年）に絞った。新規 56–57。
 第15回（研究015）で 51 を部分解決：n23 の人口×所得は所得のみの2.23倍（5.67回）。e_ref では Piql D23* はなお &gt;1600（H27b 棄却）だが、e=1850 では 943年（H27d 支持）。残りは物理的最小規模の下界と教師なし速度上限（52）。新規 54–55。48 は第14回で解決。</p>
 <p>第13回（研究013）で新たに開いた問い：
@@ -105,7 +106,15 @@
 <li>
 <p>【新規・第18回】<strong>手作業の速度の一次資料</strong>。018 の画素読取 1〜20/秒、手計算1演算 5〜60 秒は推測。歴史上の人手による表の転記・暗号解読（Bletchley Park の手作業部門など）の作業記録から、読み取りと演算の速度を較正できるか。</p>
 </li>
-<li>【新規・第18回】<strong>Piql の誤り訂正と濃淡</strong>。前方誤り訂正・インターリーブの有無と方式、灰色の画素の段数を一次資料（Piql の技術文書、ISO 規格など）で確認し、劣化したフィルムで誤り訂正を手で解く費用を加える。</li>
-<li>【新規・第18回】<strong>手で読めるアーカイブの最適な書式</strong>。優先データの画素サイズ・ビット/画素・符号（反復、ハミング、なし）・ファイルの大きさを変え、「T2 社会が寿命内に読める情報量」を最大にする書式を探す。費用（フィルム面積）との釣り合いを含める。</li>
-<li>【新規・第18回】電子経路の上流倍率 U（018 で最小人口に最も効く2つのうちの1つ）。ガラス・タングステン線・水銀ポンプ・発電の最小規模の一次資料。</li>
+<li>【第19回で解決：研究019。4kv6 は Cipher（LFSR 0xD0000001）＋内インターリーブ248＋RS(255,207)＋外インターリーブ207＋RS(207,197)、最大4階調。4kv11 は RS(255,231)/RS(231,225)＋CRC64。GitHub Archive がどの版かは未確認（→65）】<strong>Piql の誤り訂正と濃淡</strong>。前方誤り訂正・インターリーブの有無と方式、灰色の画素の段数を一次資料（Piql の技術文書、ISO 規格など）で確認し、劣化したフィルムで誤り訂正を手で解く費用を加える。</li>
+<li>【第19回で部分解決：3複製・1ビット/画素・攪拌なしが 0.74人年/MB で最良。残りは 5複製・検査和つき3複製の比較（→66）と、文字（グリフ）書式（→67）】<strong>手で読めるアーカイブの最適な書式</strong>。優先データの画素サイズ・ビット/画素・符号（反復、ハミング、なし）・ファイルの大きさを変え、「T2 社会が寿命内に読める情報量」を最大にする書式を探す。費用（フィルム面積）との釣り合いを含める。</li>
+<li>
+<p>【新規・第18回】電子経路の上流倍率 U（018 で最小人口に最も効く2つのうちの1つ）。ガラス・タングステン線・水銀ポンプ・発電の最小規模の一次資料。</p>
+</li>
+<li>
+<p>【新規・第19回】GitHub Arctic Code Vault のリールが Piql のどの書式版（4kv6／4kv9／4kv11 など）で書かれたか、Cipher の鍵とメタデータの置き場所。GitHub archive-program の Representation Information（Unboxing library description）の本文で確認する。</p>
+</li>
+<li>【新規・第19回】3複製の残留誤りは p=1e-3＋バーストで 1.0e-4 の境界（種により 0.76〜1.12e-4）。5複製、3複製＋行ごとの検査和（目視で数えられる偶奇や桁和）、目視で分かる損傷を「消失」として扱う読み方を比べ、残留 1e-6 に必要な費用を出す。</li>
+<li>【新規・第19回】文字（グリフ）で刻む書式（Rosetta ディスク型、650倍で読める）と、1ビット/画素の点書式の比較。人は文字を点の集まりより速く読み、損傷が目に見える（消失になる）が、面積は数倍になる。文字の読取速度・読み誤り率の一次資料（校正読み 200語/分は紙の場合）。</li>
+<li>【新規・第19回】手読みの層と機械読みの層の配分：優先データの量（1〜100 MB）、複製数、線幅をまとめて決める最適化。リール面積の1%前後の予算で、T2 社会が寿命内に正しく読める量を最大にする。</li>
 </ol><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,139 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究019：手で読めるアーカイブ書式 — Piql の実書式は人手で読めるか（open_problems 62・63） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="019-piql-open_problems-6263">研究019：手で読めるアーカイブ書式 — Piql の実書式は人手で読めるか（open_problems 62・63）</h1>
+<h2 id="_1">問い</h2>
+<p>018 は「Piql の非圧縮データは顕微鏡＋人手で 0.37人年/MB で読める実質 T2 媒体」とした。ただし、データ部分をそのまま読める（攪拌なし・組織的符号）と仮定していた。本回は Piql の公開ソースで実際の書式を確かめ、(1) その書式を人手で読む費用、(2) 手読み向けに設計した書式の費用と残留誤り、(3) フィルム面積の費用、を比べた。</p>
+<h2 id="sources-sourcesexcerptsjson">確認した事実（本回開いて確認。ソースの写しは <code>sources/</code>、抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Piql の 2D バーコードは、フレーム形状・画素あたりシンボル数・前方誤り訂正を設定で変えられる。誤り訂正を複数フレームにまたがってインターリーブできる。読取は元の解像度の約2.7倍で標本化する。RS・LDPC・BCH を同梱</td>
+<td>【事実（https://github.com/piql/unboxing の README）】</td>
+</tr>
+<tr>
+<td>4kv6 書式：4096×2160 の画素、最大4階調（2ビット/画素）。復号の順序は 同期点→変調→<strong>Cipher（攪拌）</strong>→内インターリーブ（距離248）→<strong>内 RS(255,207)</strong>→外インターリーブ（距離207）→<strong>外 RS(207,197)</strong></td>
+<td>【事実（https://github.com/piql/unboxing/blob/master/tests/testutils/src/config_source_4kv6.h ）】</td>
+</tr>
+<tr>
+<td>4kv11 書式：RS(255,231)・RS(231,225)、CRC64、パケットヘッダ、ストライピングを追加</td>
+<td>【事実（同 config_source_4kv11.h）】</td>
+</tr>
+<tr>
+<td>Cipher は 32 ビット LFSR（タップ 0xD0000001）の鍵ストリームとの XOR。64バイト塊の1の数が 8 未満か 504 超なら次の鍵を試す</td>
+<td>【事実（同 src/codecs/cipher.c）】</td>
+</tr>
+<tr>
+<td>RS は原始多項式 285 の GF(256)、組織的符号（データの後にパリティ）</td>
+<td>【事実（同 src/codecs/reedsolomon.c、thirdparty/reedsolomon/rs.c）】</td>
+</tr>
+<tr>
+<td>回折限界 d = λ/(2NA)</td>
+<td>【事実（https://en.wikipedia.org/wiki/Diffraction-limited_system ）】</td>
+</tr>
+<tr>
+<td>ハミング(7,4) は1ビット誤りを訂正し、2ビット誤りを検出できる（1950年）</td>
+<td>【事実（https://en.wikipedia.org/wiki/Hamming(7,4) ）】</td>
+</tr>
+<tr>
+<td>Rosetta ディスクは 13,000 ページ超を、650倍の顕微鏡で読める文字として刻んでいる</td>
+<td>【事実（https://en.wikipedia.org/wiki/Rosetta_Project ）】</td>
+</tr>
+<tr>
+<td>GitHub Archive がどの版の書式（4kv6／4kv11 など）で書かれたか</td>
+<td><strong>未確認</strong>（GUIDE は「Generic 4K Frame format」とだけ書く）</td>
+</tr>
+<tr>
+<td>フィルム劣化による画素誤り率、人手の読取速度・読み誤り率</td>
+<td><strong>未確認</strong>（すべて【推測】の幅で走査）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed20261019n10000018">方法（sim.py、seed=20261019、N=100,000、約18秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T06:43:22Z</strong>、初回実行前）。</li>
+<li><strong>攪拌の再現</strong>：cipher.c を Python に移植し、GitHub GUIDE（38,590バイト）で往復を確認した。鍵ストリームの1ビットを作る手作業は「最下位ビットを見る1回＋1なら4ビット反転」で、実測の平均 <strong>3.00ビット操作</strong>。</li>
+<li><strong>RS の実装</strong>：GF(256)（多項式 285）の RS(255,207) を自前で実装し、符号化→誤り注入→復号（Berlekamp–Massey、Chien 探索、Forney）を300符号語×5条件で行い、GF 乗除算の回数を数えた。検査（48シンドローム）だけで1符号語 <strong>12,192回</strong>、誤り10個の訂正込みで約 28,500回。</li>
+<li><strong>手読み書式</strong>（1 MB のデータを実際に符号化・誤り注入・復号）：A1 生データ 1ビット/画素・二重読み、A2 離れた3複製（2本を読み、食い違えば3本目で多数決）、A3 ハミング(7,4)・1回読み、A3i 符号語の7ビットを離れた7帯に置くハミング。</li>
+<li>誤りのモデル：フィルムの独立画素誤り p∈[1e-5, 1e-2]、バースト（画素割合 1e-3、平均長100画素、区間内は確率0.5で反転）。1回読みの読み誤り 5.5e-4（[1e-4, 3e-3] の幾何中心）、二重読みの残留はその1/10、4階調の読み誤りは2値の3倍【すべて推測】。</li>
+<li>費用（1 MB のデータあたり人年、1人年=2000時間）：2値画素 0.05〜1秒、4階調は1.5〜4倍、ビット操作 0.2〜2秒、GF 乗算 15〜180秒、インターリーブ位置の転記 2〜30秒/段【すべて推測、対数一様】。</li>
+<li>再現：<code>/tmp/rep019b/</code> で再実行し、results.json は runtime 以外一致。018 も <code>/tmp/rep019/</code> で再実行して一致（Python 3.13.5）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H31a</td>
+<td>Piql 実書式を全 RS 検査つきで手読みすると 018 の ≥10倍</td>
+<td>中央値 <strong>638人年/MB</strong>（p=1e-4。018 の約1,700倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H31b</td>
+<td>RS を省いても（攪拌解除と並べ替えのみ）≥3倍</td>
+<td><strong>4.75人年/MB</strong>（12.9倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H31c</td>
+<td>ハミング・1回読みが p=1e-3 で残留 ≤1e-4、かつ費用 ≤0.37</td>
+<td>残留 9.3e-5（可）、費用 <strong>2.80人年/MB</strong>（不可）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H31d</td>
+<td>バーストでハミング（並べ替えなし）は ≤1e-4 を外し、3複製は満たす</td>
+<td>ハミング 1.4e-3（5/5の種で外れる）、3複製 <strong>1.00e-4</strong>（境界。別の種では 2/5 だけが ≤1e-4）</td>
+<td><strong>支持（ただし3複製側は境界で、頑健でない）</strong></td>
+</tr>
+<tr>
+<td>H31e</td>
+<td>最良の手読み書式で 10 MB を線幅5倍で書いても1リールの1%未満</td>
+<td>最良は3複製。線幅5倍で <strong>1.13%</strong>（2倍なら0.18%）</td>
+<td><strong>棄却（僅差）</strong></td>
+</tr>
+<tr>
+<td>H31f</td>
+<td>2シンドロームで検出→検出時だけ全復号で、p≤1e-5 なら RS 費用 ≤1/5</td>
+<td><strong>0.30</strong>（4階調の読み誤りで内符号語の16%が検出される）。p=1e-3 では 0.79</td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">主な数値</h2>
+<ul>
+<li><strong>Piql の実書式は 018 の想定より桁違いに手読みが重い</strong>。費用の内訳（データ1バイトあたり秒の中央値）は、4階調の二重読み 4.4、攪拌解除 8.4、2段の位置転記 15.4、RS 全シンドローム <strong>3,763</strong>（データ1バイトあたり GF 乗算 72.6回）。</li>
+<li>攪拌は無視できない：攪拌後の GUIDE は印字可能文字が 37.9%（原文 99.99%）で、鍵ストリームを作らないと文字として読めない。ただし鍵は通常 key=1（GUIDE でもゼロ列でも1回目で通った）で、フレームごとに同じ鍵ストリームを使い回せる【推測：鍵の保存場所はメタデータと推定、未確認】。</li>
+<li><strong>誤り訂正の効き目</strong>：Piql の連接 RS は、独立誤り p=1e-2 でも符号語の失敗が実質0（解析で 5.6e-16）、バーストでも内符号語あたりの誤りは最大4（訂正限界24）。機械で読むなら非常に頑健だが、その頑健さを手で得るには約600人年/MB かかる。</li>
+<li><strong>手読み書式の残留誤り</strong>（p=1e-3）：生データ二重読み 8.4e-3、ハミング 9.3e-5、3複製 5.8e-5。RS を省いた Piql は 4.6e-3。</li>
+<li><strong>費用</strong>：3複製 <strong>0.74人年/MB</strong>（生データ二重読みと同じ。3本目を読むのは0.3%だけ）、ハミング 2.80（14画素の読みより、24回の偶奇計算が重い）。1,000人年（100人×10年）で読める量は、3複製で約1,350 MB、RS を全検査する Piql で約1.6 MB。</li>
+<li>面積：Piql の最小線幅は 0.42 µm（1180 lp/mm）で、読むには NA≈0.65 が必要。線幅2倍なら NA 0.32、5倍なら 0.13。10 MB の3複製は線幅2倍で1リールの0.18%、5倍で1.13%。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>4kv6 が GitHub Archive の書式とは限らない</strong>【推測】：4kv11 は RS がやや軽い（内 24パリティ）が、攪拌と2段インターリーブは同じ。RS 全検査の費用は約半分になるだけで、桁は変わらない。</li>
+<li><strong>RS を省く読み方</strong>は、残留誤りが「読み誤り」で決まる（p=1e-5 でも 7e-4）。文章なら人が文脈で直せるが、仕様・数表・コードには足りない【推測】。</li>
+<li><strong>人手の速度は推測のまま</strong>（open_problems 61）。ただし H31a の結論（RS 全検査で数百人年/MB）は、速度の幅の5% 点でも約210人年/MB で変わらない。</li>
+<li><strong>3複製の境界</strong>：p=1e-3＋バーストでの 1.0e-4 は、別の種で 0.76〜1.12e-4 に揺れる。残留を1桁下げるには、5複製か、3複製＋行ごとの簡単な検査和が要る（本回は未検証）。</li>
+<li><strong>ハミングの費用はビット操作の速さに強く依存する</strong>：1回0.2〜2秒としたが、画素14個を読む時間だけで 018 の M-U（1バイト2.66秒）を超える。018 は Piql の 4.4画素/バイトを2値の速度で読むと仮定していたので、比較の基準そのものが楽観的だった。</li>
+<li><strong>面積は効かない</strong>：H31e は僅差で棄却したが、1%強でも優先 10 MB のために1リールの1%を使うのは、費用として小さい【推測】。</li>
+<li><strong>新規性</strong>：Piql の公開ソースから実際の符号化の連鎖（攪拌・2段インターリーブ・連接 RS）を読み取り、人手で読む費用を GF 演算の実数で数えたものは、確認した公開文献には見当たらない。018 の楽観（0.37人年/MB）を、実書式では 4.8〜640人年/MB に訂正した。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>018 の「Piql の非圧縮部分は実質 T2 媒体」は、<strong>実際の Piql 書式では成り立たない</strong>。攪拌・インターリーブ・連接 RS のため、誤りを検査しながら手で読むと約600人年/MB かかり、検査を省いても約5人年/MB で、残留誤りは 1e-3 級になる。一方、<strong>1ビット/画素・攪拌なし・離れた3複製</strong>の書式なら、費用は約0.7人年/MB、残留誤りは独立誤り p=1e-3 で 6e-5 になり、面積の追加は1リールの0.2〜1%で済む。手で読む層では、代数的な誤り訂正（RS・ハミング）より、複製と目視の照合のほうが安い。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>Piql・GitHub Archive Program</strong>：手引き・書式仕様・重要文書の優先 1〜10 MB を、機械用の書式とは別に、<strong>攪拌なし・1ビット/画素・線幅を2倍以上にした3複製</strong>（リールの離れた位置に置く）で書き込むべきである。018 の提言（非圧縮で別に書く）だけでは足りず、Cipher と RS を外すことが要る。</li>
+<li><strong>本研究所</strong>：018 の M-U（0.37人年/MB）を「手読み向け書式の場合」に限定し、Piql の実書式では 4.8（検査なし）〜640（全検査）人年/MB と併記する。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

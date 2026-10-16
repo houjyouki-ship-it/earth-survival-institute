@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究019 事前登録（初回実行前に記録：2026-10-16T06:43:22Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="019-2026-10-16t064322z">研究019 事前登録（初回実行前に記録：2026-10-16T06:43:22Z）</h1>
+<h2 id="_1">問い</h2>
+<p>018 の「Piql の非圧縮部分は顕微鏡＋人手で 0.37人年/MB で読める」は、データ部分を直接読める（組織的符号・攪拌なし）と仮定していた。
+本回開いた Piql の公開ソース（github.com/piql/unboxing の 4kv6/4kv9/4kv11 設定と cipher.c）では、データは
+LFSR による攪拌（Cipher）、ブロック・インターリーブ、連接 Reed–Solomon（内 RS(255,207)・外 RS(207,197)）、2ビット/画素（4階調）で書かれている。
+これを踏まえ、(1) 実際の Piql 書式を人手で読む費用、(2) 手で読むために設計した書式（1ビット/画素の生データ、離れた3複製、ハミング(7,4)、インターリーブ付きハミング）の費用と残留誤り、
+(3) フィルム面積の費用、を比べる。</p>
+<h2 id="_2">仮説（判定基準つき）</h2>
+<ul>
+<li>H31a：Piql 4kv6 書式を全符号検査（内外 RS の全シンドローム）つきで手読みする費用の中央値は、018 の M-U 中央値（0.37人年/MB）の 10倍以上。</li>
+<li>H31b：RS 検査を省いても（攪拌解除と並べ替えのみ）、費用の中央値は 018 の M-U の 3倍以上。</li>
+<li>H31c：ハミング(7,4)・1ビット/画素・1回読み（二重読みなし）は、独立画素誤り p=1e-3 で残留バイト誤り ≤1e-4 を満たし、かつ費用の中央値が 0.37人年/MB 以下。</li>
+<li>H31d：バースト誤り（平均長100画素、バースト画素割合1e-3）では、インターリーブなしのハミングは残留バイト誤り ≤1e-4 を満たさず、離れた3複製（2本読み、食い違い時のみ3本目）は満たす。</li>
+<li>H31e：最良の手読み書式で優先 10 MB を書いても、画素を線幅5倍（面積25倍）にした場合でも Piql 1リール（120 GB）の 1% 未満の面積で済む。</li>
+<li>H31f：2シンドロームで検出し、検出時だけ全復号する方式は、p≤1e-5 では RS 検査費用を全検査の 1/5 以下にするが、p≥1e-3 では 1/2 より下げられない。</li>
+</ul>
+<h2 id="_3">判定の約束</h2>
+<ul>
+<li>費用は 018 と同じ1人年=2000時間。手作業の速度はすべて【推測】の幅で対数一様に走査し（N=100,000、seed=20261019）、中央値で判定する。</li>
+<li>誤り率は実際に符号化・誤り注入・復号して数える（RS は自前実装の GF(256)、原始多項式 285＝Piql の RS_PRIM_POLY_285 と同じ）。</li>
+<li>棄却された仮説も報告する。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

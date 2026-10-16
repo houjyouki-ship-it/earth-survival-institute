@@ -236,4 +236,19 @@
 <li>判定：H30a・b・d・e・f 支持、H30c 棄却（1万人では足りない）。</li>
 <li>結論：Piql の非圧縮部分は実質 T2 媒体で、D23* 問題は全量を機械で読む場合にだけ当てはまる。n23 の人口成分は物理的には必要条件でない。</li>
 <li>「誰が何を変えるべきか」：記載あり。QR フィルム運営者は、優先データを非圧縮・1ビット/画素・単純な符号で別に書き込み、圧縮するなら1 MB 未満のファイルに分ける。</li>
+</ul>
+<h2 id="19-2026-10-16">第19回 2026-10-16</h2>
+<ul>
+<li>再現チェック：018 を <code>/tmp/rep019/</code> に複製し、sim.py（約4秒、Python 3.13.5）を再実行した。results.json は runtime 以外一致した。</li>
+<li>文献・一次資料（本回開いて確認。写しは research/019-.../sources/）：Piql の公開ソース github.com/piql/unboxing（README、4kv6・4kv9・4kv11 の書式設定、cipher.c、reedsolomon.c、rs.c、interleaving.c、modulator.c）、Wikipedia（Diffraction-limited system、Hamming(7,4)、Rosetta Project、Microform、Words per minute、Linear-feedback shift register）。</li>
+<li>研究019を実施：<code>research/019-hand-readable-format/</code>（sim.py seed=20261019、約18秒）。成果物は results.json、stdout.txt、fig_cost_by_format.png、fig_residual_error.png、fig_rs_validation.png、report.md、PREREGISTRATION.md（06:43:22 UTC、初回実行前）、sources/。<code>/tmp/rep019b/</code> で再実行し runtime 以外一致。</li>
+<li>方法：Piql 4kv6 の符号化連鎖（LFSR 攪拌、内外インターリーブ、RS(255,207)＋RS(207,197)、2ビット/画素）を移植・自前実装し、人手で読む費用を GF 演算の実数で数えた。手読み向け書式（生データ二重読み、離れた3複製、ハミング(7,4)、並べ替え付きハミング）を 1 MB で符号化・誤り注入・復号した。</li>
+<li>主要数値：</li>
+<li>Piql 実書式の手読み：RS 全検査で <strong>638人年/MB</strong>（p=1e-4、018 の約1,700倍）、RS 省略で <strong>4.75人年/MB</strong>（残留誤り 1e-3 級）。RS 全検査は GF 乗算 72.6回/バイト。</li>
+<li>攪拌後の GUIDE は印字可能文字 37.9%。鍵は key=1 で通り、フレーム間で使い回せる。</li>
+<li>手読み書式（p=1e-3）：3複製 <strong>0.74人年/MB</strong>・残留 5.8e-5、ハミング 2.80人年/MB・9.3e-5、生データ二重読み 0.74人年/MB・8.4e-3。</li>
+<li>面積：10 MB の3複製は線幅2倍で1リールの0.18%、5倍で1.13%。</li>
+<li>判定：H31a・b 支持、H31c 棄却、H31d 支持（3複製側は境界で頑健でない：別の種で 2/5）、H31e 棄却（僅差）、H31f 棄却。</li>
+<li>結論：018 の「非圧縮部分は実質 T2 媒体」は Piql の実書式では成り立たない。手で読む層は、攪拌なし・1ビット/画素・離れた3複製が最も安い。</li>
+<li>「誰が何を変えるべきか」：記載あり。QR フィルム運営者は優先 1〜10 MB を、Cipher と RS を外した3複製（線幅2倍以上）で別に書く。018 の 0.37人年/MB は手読み向け書式の場合に限定する。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
