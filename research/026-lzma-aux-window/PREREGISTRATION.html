@@ -1,0 +1,38 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究026 事前登録（open_problems 81：窓を遅い補助記憶に置く LZMA 復号） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="026-open_problems-81-lzma">研究026 事前登録（open_problems 81：窓を遅い補助記憶に置く LZMA 復号）</h1>
+<p>登録時刻：<strong>2026-10-16T22:43:35Z</strong>（tarball 再取得・計測・sim.py の初回実行前。以後、仮説文・主設定は変えない）</p>
+<h2 id="_1">問い</h2>
+<p>025 は「展開に要る RAM = 16 KiB + min(8 MiB, TAR)」とし、低 RAM 読者の q を小さく出した。しかし窓（過去の出力）は高速 RAM でなく、ドラム・ディスク・テープなど遅い補助記憶に置ける。その場合の壁は「時間」か「補助記憶の容量」か。実 repo の LZMA 一致参照の距離分布を測り、復号時間と q を出す。</p>
+<h2 id="sources">事実入力（本回開いて確認。sources/ に写し）</h2>
+<ul>
+<li>IBM 650（Wikipedia）：ドラム 12,500 rpm、1回転 4.8 ms、非最適化の平均アクセス 2.5 ms、1バンド50語・1語=5文字、4000語 ≈35 KB。</li>
+<li>Drum memory（Wikipedia）：UNIVAC File Computer のドラム1台 180,000×6ビット文字（135 KB）。</li>
+<li>IBM 305 RAMAC／History of IBM magnetic disk drives（Wikipedia）：IBM 350 は 500万×6ビット文字（8ビット換算 3.75 MB）、1レコードの平均位置決め 600 ms、転送 8,800 文字/秒。</li>
+<li>IBM 727（Wikipedia）：200 文字/インチ、75 インチ/秒、巻戻し平均 500 インチ/秒、転送 15,000 文字/秒、起動・停止 各 5 ms、2,400 フィート。</li>
+<li>IBM 709（Wikipedia）：加減算 42,000 回/秒、36ビット整数乗算 5,000 回/秒。Whirlwind I：1951年に 20,000 単一アドレス演算/秒。</li>
+<li>LZMA 参照復号器 LzmaSpec.cpp（Igor Pavlov、Public domain、LZMA SDK のミラー）。範囲復号の1ビットごとに乗算1回（(Range&gt;&gt;11)*prob）。</li>
+</ul>
+<h2 id="toolslzmaspec_instrcpplzmaspeccpp">計測（tools/lzmaspec_instr.cpp：LzmaSpec.cpp に計数だけを追加）</h2>
+<ul>
+<li>025 の compress.py と同じ手順・同じ seed で30件の tarball を再構成し（/tmp に置き保存しない）、LZMA1（.lzma、preset 6、辞書 8 MiB、lc3 lp0 pb2）で圧縮。xz -6 の LZMA2 とは塊の区切りだけが違う近似【推測】。</li>
+<li>復号して出力の SHA-256 が元の TAR と一致することを確認し、次を数える：DecodeBit 回数、直接ビット数、リテラル・一致・rep・短 rep の数、出力バイト数、各閾値 C∈{0,1K,4K,16K,64K,256K,1M,8M} で距離&gt;C の参照数（素朴）・そのバイト数・距離の和、および LRU ブロックモデル（補助記憶を B=512 B のブロックに分け、直近 K=8 ブロックを高速 RAM に保持、一致後リテラルの参照も含む）でのブロック取得回数。</li>
+</ul>
+<h2 id="_2">モデル（主設定）</h2>
+<ul>
+<li>高速 RAM：M = 16 KiB（状態）+ 4 KiB（LRU）+ C（直近の窓）。補助記憶は窓全体 min(8 MiB, TAR) を保持。</li>
+<li>CPU（709 級）：DecodeBit 1回 = 乗算1 + 加算 n_ops 回、n_ops ~ logU[8, 30]【推測】（主値15）；直接ビット1つ = 加算6回；出力1バイト = 加算 n_byte ~ logU[4, 15]【推測】（主値8）。速度係数 s ~ logU[0.25, 1]（手引きから作る機械は 709 より遅い【推測】、主値1）。</li>
+<li>補助記憶：ドラム（L=2.5 ms、転送 52,083 文字/秒＝650 の 50語×5文字/4.8 ms）、ディスク（IBM 350：L=600 ms、8,800 文字/秒）、テープ（727：1回の参照 = 2·d/(200·500) 秒 + 10 ms、d は文字数＝バイト数とみなす【推測】、転送 15,000 文字/秒）。ドラム・ディスクの時間 = LRU ブロック取得回数×L + 取得バイト/転送。テープは素朴モデルの距離和で計算。</li>
+<li>標本外の repo（025 の高層210件）には、compress.py と同じ大きさ区分（境界 0, 1e4, 1e5, 1e6, 4e6, 1.6e7, 4.1e7）ごとの、部分標本のバイトあたり率の中央値を当てる（40 MB 超は最上区分）。TAR ≤ C の repo は補助参照0。</li>
+<li>q(M, 補助, Y)：高層の星重み（025 と同じ重み w_cnt×星）。母集団の repo 数は区間の total_count。repo を「星/復号時間」の降順に選び、合計時間 ≤ Y 機械年に収まる星の割合（META は非圧縮で読めると仮定【推測】）。RAM だけで足りる repo（025 の条件）も同じ時間計算に入れる。</li>
+<li>ΔV：025 の sim.py の V_of（024 のモデル・同じ乱数系列）に q を入れる。読者 RAM ~ logU[4 KiB, 144 KiB]（025 の B シナリオ）、Y=10 機械年。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H38a：ドラム・C=64 KiB・主設定 CPU で、TAR&gt;64 KiB の部分標本 repo の ≥80% で「補助時間/CPU 時間 ≤ 0.25」。</li>
+<li>H38b：ディスク（IBM 350）・C=64 KiB で、TAR&gt;64 KiB の repo の補助時間/CPU 時間の中央値 &gt; 1。</li>
+<li>H38c：主設定 CPU の復号時間の中央値（部分標本、出力 1 MB あたり）が 5〜100 分。</li>
+<li>H38d：ドラム（容量無制限）・M=84 KiB（C=64 KiB）・Y=10 機械年で、高層星重み q ≥ 0.9。</li>
+<li>H38e：ディスク・同条件で q ≥ 0.5。</li>
+<li>H38f：テープ・同条件で q &lt; 0.3。</li>
+<li>H38g：読者 RAM logU[4,144] KiB＋ドラム補助（容量無制限、Y=10）で ΔV(P2：板) ≥ 0.06（025 は 0.012）。</li>
+<li>付記（仮説ではなく計算）：窓 8 MiB を置くのに要る台数（650 ドラム・UNIVAC ドラム・IBM 350）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
