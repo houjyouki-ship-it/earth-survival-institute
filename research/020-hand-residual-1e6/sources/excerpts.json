@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/github/archive-program/master/GUIDE.md",
+    "accessed": "2026-10-16",
+    "claim": "Representation Information on every reel lists Generic 4K Frame format description and Unboxing library description/source; GUIDE does not name 4kv6 or 4kv11.",
+    "excerpt": "Representation Information which is found following the Table of Contents at the beginning of every reel of film on the archive. This information is found on every reel so that, even if an individual reel is separated from the archive, it will still be possible to decipher its contents. That Representation Information includes, in order:\n\n1. A Guide to the GitHub Archive Program (this document)\n\n2. GitHub descriptive index, a list and brief description of all the repositories on this reel\n\n3. Representation Information description\n\n4. Digital Preservation and How to Retrieve Data, an overview of data retrieval details\n\n5. Storage Medium description\n\n6. Data Retrieval Technology\n\n7. Generic Preservation Reel Structure (reel format)\n\n8. Generic 4K Frame format description\n\n9. Unboxing library description (for the QR codes)\n\n10. Unboxing library source code\n\n11. ASCII data format specificat",
+    "4kv6_or_4kv11_mentioned": false,
+    "note": "archive-program リポジトリには Representation Information 本体（Unboxing library description の全文）はなく、GUIDE の目次のみ。鍵の置き場所も未記載。→ open_problem 65 は未確認のまま。"
+  },
+  {
+    "url": "https://www.humanfactors.com/newsletters/human_interaction_speeds.html",
+    "accessed": "2026-10-16",
+    "claim": "Proofreading on paper ~200 wpm; on monitor ~180 wpm (citing Ziefle 1998).",
+    "excerpt": "00 to 800 words per minute or faster (Bailey and Bailey, 1999). When people are proofreading (scanning) text on paper they do so at about 200 words per minute. Performing the exact same task using a monitor, they proofread about 10% slower at 180 words per minute (Ziefle, 1998). 2. Listening People comfortably can hear words that are spoken at from 150 to 16"
+  },
+  {
+    "url": "https://rosettaproject.org/disk/concept/",
+    "accessed": "2026-10-16",
+    "claim": "Rosetta Disk pages ~0.5 mm across, readable at 650X; 13,000+ pages; analog etched text (not digital).",
+    "excerpt": " format dependency. Reading the Disk requires only optical magnification. Each page is .019 inches, or half a millimeter, across. This is about equal in width to 5 human hairs, and can be read with a 650X microscope (individual pages are clearly visible with 100X magnification). The 13,000 pages in the collection contain documentation on over 1500 languages gathered from archives around the world. For each language we have several categories of data—descriptions of the speech community, maps of their location(s), and information on writing syst",
+    "reading_speed_measured": false,
+    "note": "顕微鏡下の文字読取速度の数値は未記載。"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Words_per_minute",
+    "accessed": "2026-10-16",
+    "claim": "Wikipedia cites Ziefle 1998: proofreading 200 wpm paper / 180 wpm monitor.",
+    "excerpt": "s://books.google.com/books?id=cEFKjwEACAAJ&q=ultimate+study+method|date=2016-01-20}}</ref>\n\nWhile [[proofreading]] materials, people are able to read English at 200 wpm on paper, and 180 wpm on a monitor.<ref name=Ziefle98>{{cite journal|last1=Ziefle|first1=M|title=Effects of display resolution on visual performance.|journal=Human Factors|date=Dece"
+  },
+  {
+    "url": "https://github.com/piql/unboxing",
+    "accessed": "2026-10-16",
+    "claim": "Piql unboxing ships config_source_4kv6.h … 4kv11.h; which one GitHub Archive used remains unconfirmed from public GUIDE.",
+    "excerpt": "tests/testutils/src/config_source_4kv6.h … config_source_4kv11.h present in tree (via GitHub API tree listing this session).",
+    "related_to_open_problem": 65
+  }
+]

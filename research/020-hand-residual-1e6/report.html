@@ -1,0 +1,116 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究020：手読み残留 ≤1e-6 の最安書式（open_problems 66・67） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="020-1e-6-open_problems-6667">研究020：手読み残留 ≤1e-6 の最安書式（open_problems 66・67）</h1>
+<h2 id="_1">問い</h2>
+<p>019 の離れた3複製は、独立画素誤り p=1e-3＋バースト（画素割合1e-3、平均長100）で残留バイト誤り約1e-4の境界だった。本回は、残留 ≤1e-6 を満たす最安の手読み書式を、019 と同じチャネル・費用モデルの拡張で比べた。</p>
+<h2 id="sources-sourcesexcerptsjson">確認した事実（本回開いて確認。写しは <code>sources/</code>、抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub Archive の各リール先頭に Representation Information があり、「Generic 4K Frame format description」「Unboxing library description／source code」を含む</td>
+<td>【事実（https://raw.githubusercontent.com/github/archive-program/master/GUIDE.md ）】</td>
+</tr>
+<tr>
+<td>GUIDE 本文に 4kv6／4kv11／Cipher 鍵の置き場所の記載はない。archive-program リポジトリにも Representation Information 本体は無い</td>
+<td>【事実（同 GUIDE・リポジトリ tree を本回確認）】→ <strong>65 は未確認のまま</strong></td>
+</tr>
+<tr>
+<td>紙の校正読みは約200語/分、モニタでは約180語/分（Ziefle 1998）</td>
+<td>【事実（https://www.humanfactors.com/newsletters/human_interaction_speeds.html ；Wikipedia Words per minute も同値を引用）】</td>
+</tr>
+<tr>
+<td>Rosetta ディスクは約0.5 mm角のページを650倍で読むアナログ刻印（13,000ページ超）</td>
+<td>【事実（https://rosettaproject.org/disk/concept/ ）】</td>
+</tr>
+<tr>
+<td>Rosetta／顕微鏡下の文字読取速度の実測値</td>
+<td><strong>未確認</strong>（すべて【推測】幅）</td>
+</tr>
+<tr>
+<td>フィルム劣化の画素誤り率、人手の読み誤り率</td>
+<td><strong>未確認</strong>（019 と同じ【推測】幅）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed20261020n1000002-mb68">方法（sim.py、seed=20261020、N=100,000、データ2 MB、約68秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T08:39:25Z</strong>、初回実行前）。実行後に仮説文は変更していない。</li>
+<li>チャネル・費用は019と同じ（M_SINGLE=√(1e-4·3e-3)、バースト (1e-3,100)、t_px2∈[0.05,1]秒、t_bit∈[0.2,2]秒、対数一様、1人年=2000時間）。</li>
+<li><strong>登録書式</strong>：A5（5複製・適応：先頭2本一致で打ち切り）、A3p（3複製＋256ビット行偶奇・検出専用）、A3e（3複製＋バースト可視割合 v を消失）、G（文字書式・校正200語/分×顕微鏡減速 μ∈[2,20]）。</li>
+<li><strong>探索的（事前登録外）</strong>：A5f（常時5本多数決）、A5fd（5本×二重読み）、A7f（常時7本多数決）、A3c（32バイト行XOR検査和・検出専用）。</li>
+<li>再現：<code>/tmp/rep020b/</code> で再実行し、results.json は runtime 以外一致。019 も <code>/tmp/rep020/</code> で runtime 以外一致。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>主な数値</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H32a</td>
+<td>適応A5が p=1e-3＋バーストで残留 ≤1e-6</td>
+<td>残留 <strong>2.6e-5</strong>（種5つすべて &gt;1e-6）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H32b</td>
+<td>A3e(v=0.5)が ≤1e-6 かつ費用 ≤A5</td>
+<td>残留 <strong>9.6e-5</strong>、費用0.79 &gt; A5の0.74</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H32c</td>
+<td>A3pが ≤1e-6 かつ費用 ≤A5</td>
+<td>残留 <strong>9.5e-5</strong>、費用0.94</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H32d</td>
+<td>登録書式のうち最安で ≤1e-6 を満たすのは A3e(v=0.5)</td>
+<td>登録書式で ≤1e-6 を満たすものなし</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H32e</td>
+<td>Gは人年では最良点書式より安いが面積では高い</td>
+<td>G 0.11人年/MB &lt; A5f 1.71、面積（線幅2倍・10 MB）G 1.45% &gt; A5f 0.30%</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="burst-p1e-32-mb">主な数値（burst p=1e-3、2 MB）</h2>
+<ul>
+<li><strong>適応読みの床</strong>：先頭2本が同じ誤りで一致すると追加複製を読まない。その床はおよそ maj3（A2≈1.0e-4）。適応A5は食い違いビットだけ5本になるため <strong>2.6e-5</strong> まで下がるが、1e-6には届かない。</li>
+<li><strong>消失（A3e）</strong>：vを0.3〜0.9に振っても残留は <strong>9〜11e-5</strong> で、A2と同程度。独立の読み誤り・非可視誤りが残る限り、複製3本の多数決床は壊れない。</li>
+<li><strong>行偶奇／XOR</strong>：検出専用に直すと A3p≈9.5e-5（A2並み）。不一致時に偶奇で「片側を選ぶ」実装は、偶数誤りの側を誤って選ぶため残留が <strong>2e-3</strong> まで悪化した（実装上の落とし穴として記録）。</li>
+<li><strong>探索的に ≤1e-6 を満たしたもの</strong>：</li>
+<li><strong>A5f（常時5本多数決）</strong>：残留 <strong>0</strong>（2 MB；種により0〜1.5e-6）、費用中央値 <strong>1.71人年/MB</strong></li>
+<li><strong>A7f</strong>：残留0、<strong>2.19人年/MB</strong></li>
+<li><strong>A5fd（5本×二重読み）</strong>：残留5e-7、<strong>2.93人年/MB</strong></li>
+<li>グリフ：残留はなお 4〜7e-5（読み誤り m_char と critical_px=4【推測】が支配）。人年は安いが面積は点書式の約5倍（線幅2倍・10 MBでリールの1.45%）。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>A5f の0誤りは2 MB標本</strong>：種1つで1.5e-6が出ており、真の率が1e-6前後ならポアソン揺らぎで超えうる。頑健にしたいなら A7f か A5fd。</li>
+<li><strong>人手速度・可視割合 v・グリフの critical_px は推測</strong>（61・67の一次資料は未充足）。ただし「適応では1e-6に届かない」「常時5本多数決なら届く」の符号は、速度の幅では変わらない。</li>
+<li>**GitHub Archive の書式版（65）**は公開GUIDEからは確定できず未確認。</li>
+<li><strong>新規性</strong>：手読み層で「適応複製」が二重誤一致の床を残すこと、および残留1e-6に必要な常時奇数複製の費用を、019と同じチャネルで数値化した点は、確認した公開文献には見当たらない。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>登録した「適応5複製」「消失つき3複製」「行偶奇つき3複製」は、いずれも p=1e-3＋バーストで残留 ≤1e-6 を満たさない（H32a–d 棄却）。床の正体は、先頭2本が同じ誤りで一致したときに追加複製を読まないことである。探索的には、**離れた5複製を常時多数決（適応打ち切りなし）**が、調べた条件で残留 ≤1e-6 を満たす最安（約1.7人年/MB）だった。文字書式は人年では安いが面積と残留の両方で点書式＋常時5本に劣る（速度は未実測）。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>Piql・GitHub Archive Program 等のQRフィルム運営者</strong>：手読み優先層は、019の「離れた3複製・適応」から、<strong>離れた5複製・常時多数決・1ビット/画素・攪拌なし・線幅2倍・検査和なし</strong>に上げるべきである。適応打ち切りは費用をほぼ増やさないが残留を1桁以上悪くする。1e-6を種によらず守りたいなら7複製、または5複製の各本を二重読みする。</li>
+<li><strong>本研究所</strong>：019の推奨（3複製0.74人年/MB・残留〜1e-4）は「残留1e-4級」の層に限定し、残留1e-6級には本回の A5f（約1.7人年/MB）を併記する。</li>
+</ul>
+<h2 id="_6">運営者向け一行推奨</h2>
+<p><strong>手読み層（残留≤1e-6）：離れた5複製・常時多数決・1ビット/画素・線幅2倍・検査和なし（約1.7人年/MB；頑健版は7複製）。</strong></p><footer><hr><small>自動生成</small></footer></body></html>
