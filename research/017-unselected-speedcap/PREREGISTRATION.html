@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究017 事前登録（初回 sim.py 実行前に作成） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="017-simpy">研究017 事前登録（初回 sim.py 実行前に作成）</h1>
+<p>作成時刻：2026-10-16T02:42:26Z</p>
+<h2 id="open_problems-5657">問い（open_problems 56・57）</h2>
+<p>研究014 の速度上限 AFT（1倍増あたり年数）は、所得帯 L を<strong>初めて上向きに越えた瞬間</strong>から 2L までを数えた記録だけで推定した。上向きに越えた瞬間は「成長中」であることが選ばれているので、楽観的である可能性がある（016 の探索的倍率1.70）。本回は、<strong>暦の決まった年（開始年グリッド）にいる全国</strong>から時計を始める「選択なし」の記録で同じ AFT を推定し直す。あわせて、倍増より先に大きく後退する確率（離陸失敗の代理）を推定する。</p>
+<h2 id="_1">登録前に見たもの</h2>
+<ul>
+<li>014〜016 の結果と sim.py、Maddison 2023（OWID CSV、013 で取得済み）の構造。選択なし記録の集計・推定は未実行。</li>
+</ul>
+<h2 id="_2">記録の作り方（主設計）</h2>
+<ol>
+<li>国：OWID 集計と産油国（014 と同じ OIL）を除く。系列は 014 と同じ log 線形補間の年次系列。</li>
+<li>開始年 t0 ∈ {1820, 1830, …, 2000}（10年刻み）。その国の t0 での補間値 y0 を開始所得とする。t0 が観測区間の外、または t0 を含む観測間隔が10年を超える場合は記録を作らない。</li>
+<li>014 と同じ条件をそろえる：D1 フロンティア（GBR・NLD・USA の包絡、GBR/NLD/USA 自身は除外）が t0 までに 2·y0 に達していること（追随国であること）、かつフロンティアが y0 に達した年 FL ≥ 1250。P = フロンティアの y0→2y0 の年数。</li>
+<li>結果：t0 以後に初めて y ≥ 2·y0 になるまでの年数（補間で端数年）。2022 までに達しなければ右打ち切り。打ち切り時間 &lt;0.5 年の記録は除く。</li>
+<li>同じ AFT（右打ち切り対数正規、共変量：1, log P, (t0−1950)/50）を当てる。クラスター（国）ブートストラップ B=200、seed=20261017。</li>
+<li>比較量：R(e) = 選択なし AFT の中央値年数 ÷ 014 AFT の中央値年数（P=118、時代 e）。主比較は e_ref=1973.76。</li>
+</ol>
+<h2 id="_3">仮説（反証可能）</h2>
+<ul>
+<li><strong>H29a</strong>：R(e_ref) ≥ 1.5（選択なしは 014 より 1.5倍以上遅い）、かつブートストラップ 95% 下端 &gt; 1.2。</li>
+<li><strong>H29b</strong>：選択なしの γ &lt; 0 で、ブートストラップ 95% 上端 &lt; 0（時代とともに速くなる性質は残る）。</li>
+<li><strong>H29c</strong>：選択なし AFT（e=e_ref）× 人口×所得 n_k（015）で、Piql の D23*（primer あり）&lt; 1600年。</li>
+<li><strong>H29d</strong>（頑健性）：次の4変種のうち3つ以上で H29a の点推定の判定（R(e_ref) ≥ 1.5 か否か）が主設計と同じ：(i) 開始年を25年刻み（1825, 1850, …, 2000）、(ii) t0 が実観測年のときだけ、(iii) t0 ≥ 1950 のみ、(iv) 各国の最初の記録だけ（重複なし）。</li>
+<li><strong>H29e</strong>（離陸失敗）：選択なし記録で、2·y0 に達する前に 0.75·y0 以下に落ちる事象を競合リスクとしたとき、100年以内の累積発生率（Aalen–Johansen）が 0.10 以上。</li>
+<li><strong>H29f</strong>：014 型（初回の上向き交差から数える）記録で同じ後退事象の 100 年累積発生率を求めると、H29e の値より小さい（選択が後退を見えにくくしている）。</li>
+</ul>
+<h2 id="_4">予想される偏り（事前に記載）</h2>
+<ul>
+<li>開始年の直前に暴落した国は「回復の跳ね返り」で速く倍増する → R を下げる方向【推測】。</li>
+<li>1950 年以前は観測が粗い国が多く、補間で成長が平滑化される → 後退（H29e）を過小に数える【推測】。</li>
+<li>同じ国の重複記録は独立でない → 国クラスター・ブートストラップで扱う。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

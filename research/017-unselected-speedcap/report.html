@@ -1,0 +1,150 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究017：選択なしの速度上限と離陸失敗（open_problems 56・57） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="017open_problems-5657">研究017：選択なしの速度上限と離陸失敗（open_problems 56・57）</h1>
+<h2 id="_1">問い</h2>
+<p>研究014 の速度上限（追随国の1倍増あたり年数の AFT）は、所得帯 L を<strong>初めて上向きに越えた瞬間</strong>から数えた記録だけで推定した。その瞬間は「成長中」であることが選ばれているので、楽観的かもしれない。研究016 では探索的に「選択なしの対照は1.70倍遅い」と出た。本回は、<strong>暦で決めた開始年（1820〜2000年、10年刻み）にいる全国</strong>から時計を始める選択なしの記録で同じ AFT を推定し直し、事前登録で検定した。あわせて、倍増より先に 0.75 倍以下へ後退する確率（離陸失敗の代理）を推定した。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1950年代以降、8年以上続いた急な成長加速が80件以上ある。加速の大半は標準的な決定要因と無関係で、経済改革の多くは加速を生まない</td>
+<td>【事実（Hausmann, Pritchett, Rodrik, NBER WP 10566: https://www.nber.org/papers/w10566 ）】</td>
+</tr>
+<tr>
+<td>最富裕国を除くほぼすべての国が、長期の成長の奇跡と失敗の両方を経験している。成長の開始と崩壊は非対称である</td>
+<td>【事実（Jones &amp; Olken, NBER WP 11528: https://www.nber.org/papers/w11528 ）】</td>
+</tr>
+<tr>
+<td>一人あたり GDP は Maddison Project Database 2023（OWID CSV、013 で取得したものを再利用）</td>
+<td>【事実（research/013…/sources/owid_gdppc_maddison.csv）】</td>
+</tr>
+</tbody>
+</table>
+<p>上の2本は要旨だけを確認した。本文の数値は使っていない。</p>
+<h2 id="simpyseed20261015-2026101713">方法（<code>sim.py</code>、seed=20261015・ブートストラップ 20261017、約13秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T02:42:26Z</strong>、初回実行前）。</li>
+<li>選択なしの記録：開始年 t0 にその国がいる所得 y0（補間。t0 を含む観測間隔が10年以下）から、初めて 2·y0 に届くまでの年数。2022年までに届かなければ右打ち切り。014 と条件をそろえ、フロンティア（英・蘭・米）が t0 までに 2·y0 に届いていること、FL≥1250 を課した。得られた記録は 827件・132か国である。</li>
+<li>014 の記録（1,139件）を同じコードで作り直し、AFT 係数を<strong>厳密に再現</strong>した（<code>check_014_records_refit.reproduced=true</code>）。梯子は 015 の人口×所得・e=1850（Piql 942.5年）を厳密に再現した（<code>check_015.reproduced_exactly=true</code>）。</li>
+<li>比較量は R(e)＝選択なし AFT の中央値 ÷ 014 AFT の中央値（先頭年数 P=118 年、時代 e）。後退は Aalen–Johansen の競合リスクで数えた。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<table>
+<thead>
+<tr>
+<th>量</th>
+<th>014 型（上向き交差から）</th>
+<th>選択なし（暦の開始年から）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AFT α / β / γ(50年あたり) / s</td>
+<td>3.820 / −0.085 / −0.316 / 0.599</td>
+<td>3.889 / −0.068 / <strong>−0.275</strong> [−0.355, −0.197] / 0.582</td>
+</tr>
+<tr>
+<td>中央値の倍増年数（P=118、e_ref=1974）</td>
+<td>26.2年</td>
+<td><strong>31.0年</strong></td>
+</tr>
+<tr>
+<td>中央値の倍増年数（P=118、e=1850）</td>
+<td>57.2年</td>
+<td>61.1年</td>
+</tr>
+<tr>
+<td><strong>R(e_ref)</strong></td>
+<td>—</td>
+<td><strong>1.18</strong> [1.08, 1.30]</td>
+</tr>
+<tr>
+<td>0.75倍以下への後退が倍増より先（100年累積）</td>
+<td>0.134 [0.102, 0.173]</td>
+<td><strong>0.208</strong> [0.169, 0.254]</td>
+</tr>
+<tr>
+<td>梯子：Piql D23*（primer あり、人口×所得） e_ref / e=1850</td>
+<td>&gt;1600 / 943</td>
+<td>&gt;1600 / <strong>859</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">事前登録した仮説と判定</h3>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H29a</td>
+<td>R(e_ref) ≥1.5 かつ下端 &gt;1.2</td>
+<td>1.18 [1.08, 1.30]</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H29b</td>
+<td>γ&lt;0 かつ上端 &lt;0</td>
+<td>−0.275 [−0.355, −0.197]</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H29c</td>
+<td>選択なし（e_ref）で Piql D23* &lt;1600</td>
+<td>&gt;1600</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H29d</td>
+<td>4変種中3つ以上で H29a と同じ判定</td>
+<td>4/4 で R&lt;1.5（1.14、1.18、1.22、1.40）</td>
+<td><strong>支持</strong>（棄却が頑健）</td>
+</tr>
+<tr>
+<td>H29e</td>
+<td>後退が先の100年累積 ≥0.10</td>
+<td>0.208</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H29f</td>
+<td>014 型の後退累積 &lt; 選択なし</td>
+<td>0.134 &lt; 0.208</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">探索的な結果（事前登録外）</h3>
+<ul>
+<li><strong>選択の倍率は時代で違う。</strong> 1950年以前に始まる記録だけで当てると R は 1.06（e=1850〜1930）、1950年以降だけなら 1.23〜1.33 だった。KM 中央値の比は 1980–2000 年開始で 31.7/19.0=1.67、1820–1899 年開始で 60.8/52.8=1.15 である。016 の1.70は、最近の窓に偏った5窓から出た値だった。</li>
+<li><strong>1950年以降は、どちらの設計でも時代とともに速くならない。</strong> 014 型の t0≥1950 では γ=+0.029、選択なしでは −0.095 である。全体の γ≈−0.3 は、1950年の前後の差でほぼ決まる。</li>
+<li><strong>等価時代</strong>：選択なしの e_ref は、014 の上限では e=<strong>1947</strong> に当たる（Piql D23* &gt;1600）。選択なしの AFT で時代を走査すると、Piql D23* は 1800年で663、1850年で859、1900年で1270、1950年以降は &gt;1600 だった。primer なしは435年。</li>
+<li><strong>後退は多いが、永続はまれ。</strong> 後退が先に起きた165件の後退年は、1990年代が63件、1940年代が29件、1980年代が28件に集中していた。それでも100年以内に倍増しない割合（KM）は全体で 2.3%、t0≤1922 で 3.4% だった。対数正規 AFT が予測する割合は 4.9%、12.5% で、裾をむしろ過大に見ている。</li>
+<li>産油国を含めると R=1.12、観測間隔30年まで許すと R=1.18 だった。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li><strong>016 の「1.70倍」は過大だった。</strong> 016 は対照の窓内の成長率の中央値を倍増年数に換算し、AFT の上限と比べていた。これは打ち切りを扱っておらず、5窓のうち最近の窓に偏っていた【推測：機構】。正式な推定では、選択の効果は全体で約1.2倍、1950年以降で約1.3倍である。</li>
+<li><strong>したがって、e=1850 の根拠は「選択なしの成長速度」には置けない。</strong> 選択を除いても等価時代は1947年で、016 で主結果に置いた e≈1770〜1890 には届かない。遅いシナリオの根拠として残るのは、孤立期の絶対的な倍増年数（016：93.7年、e_abs=1772、6件）と、「崩壊後の社会は1950年以前の世界に近い」という判断だけである【推測】。</li>
+<li><strong>時代パラメータ e は、データからは決まらないシナリオ変数である。</strong> γ は1950年前後の段差でほぼ決まっている。1950年以降の速さには、交易・援助・技術移転・生きた技術者が含まれる。崩壊後にそれらがどれだけ残るかは、GDP の追いつきデータからは識別できない【推測】。</li>
+<li><strong>後退の扱い。</strong> 選択なしの倍増年数は、途中の後退と回復を含めて数えている。したがって離陸失敗による遅れの大部分は、すでに R に入っている。永続的な非離陸（100年以内に倍増しない）は記録上2〜3%で、梯子が D23* を過大にしているという 016 の懸念（57）は、少なくとも近代の国家については小さい。ただし、崩壊後の社会は国家の形を保っているとは限らない【推測】。</li>
+<li><strong>偏りの方向。</strong> 開始年の直前に暴落した国は跳ね返りで速く倍増するので、R を下げる方向に働く（事前に記載）。1950年以前は観測が粗く、補間で後退を見落とすので、1820–1899 年の後退率 0.059 は過小である可能性が高い【推測】。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>成長の加速と崩壊の頻度は、Hausmann–Pritchett–Rodrik や Jones–Olken が調べている（要旨で確認）。当研究所の範囲では、次の3点が新しい。(1) 文明回復の速度上限に入る選択バイアスを、同じ AFT で「上向き交差から」と「暦の開始年から」の2設計で比べて定量化した（全体で1.18倍）。(2) 選択の効果は1950年以降に集中し、時代係数 γ が1950年前後の段差で決まることを示した。(3) 倍増より先の後退（約21%）と、永続的な非離陸（約2〜3%）を分けて、梯子への影響を評価した。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：016 の「選択なしは1.70倍遅い」を撤回し、1.18倍 [1.08, 1.30] に置き換える。主結果を一つの e に寄せることをやめ、Piql D23* を時代の類推 e の関数として示す（選択なしの AFT で 1800年：663年、1850年：859年、1900年：1270年、1950年以降：&gt;1600年）。e の選び方は「崩壊後にどれだけの交易・技術者が残るか」のシナリオとして明示する。</li>
+<li><strong>長期アーカイブ設計者（Piql などフィルム系）</strong>：崩壊後の社会が1900年以前の条件に近いなら、primer があっても T2→T3 が約660〜1270年を超えると、媒体が読めるまで残る確率は50%を切る。primer の検証は「1950年以降の追いつき」ではなく「交易と教師がない条件」を想定して行う。</li>
+</ul>
+<h2 id="_8">成果物と再現</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_unselected_speedcap.png</code>、<code>fig_takeoff_and_ladder.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。016 を <code>/tmp/rep017/</code> で再実行し、results.json は runtime 以外一致、<code>check_015.reproduced_exactly=true</code> だった。017 を <code>/tmp/rep017b/</code> で再実行し、runtime 以外一致した。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -205,4 +205,19 @@
 <li>時代の走査では、Piql D23* は 1700年で497、1800年で681、1850年で943、1900年で1586。</li>
 <li>結論：孤立そのものの減速は6件では検出できなかった（スペインと中国が速かった）。一方、014 の速度上限は離陸した国を条件にした楽観値で、選択なしの成長は1.7倍遅い。主結果は「人口×所得 × e≈1770〜1890」で、Piql D23* は約600〜1400年、中心は e=1850 の943年とした。</li>
 <li>「誰が何を変えるべきか」：記載あり。e_ref を主結果から外す。e=1850 を使う根拠を「離陸を条件にしない成長速度」に置き換える。アーカイブ設計者は、T1 層への冗長化を検討する。</li>
+</ul>
+<h2 id="17-2026-10-16">第17回 2026-10-16</h2>
+<ul>
+<li>再現チェック：013〜016 を <code>/tmp/rep017/</code> に複製し、016 の sim.py（約7秒）を再実行した。results.json は runtime 以外一致し、<code>check_015.reproduced_exactly=true</code> だった。</li>
+<li>文献（本回開いて確認。要旨のみ。抜粋は research/017-.../sources/excerpts.json）：Hausmann–Pritchett–Rodrik「Growth Accelerations」NBER WP 10566、Jones–Olken「The Anatomy of Start-Stop Growth」NBER WP 11528。</li>
+<li>研究017を実施：<code>research/017-unselected-speedcap/</code>（sim.py seed=20261015・boot 20261017、約13秒）。成果物は results.json、stdout.txt、fig_unselected_speedcap.png、fig_takeoff_and_ladder.png、report.md、PREREGISTRATION.md（02:42:26 UTC、初回実行前）、sources/。<code>/tmp/rep017b/</code> で再実行し runtime 以外一致。014 の AFT と 015 の梯子を厳密に再現した。</li>
+<li>方法：暦の開始年（1820〜2000、10年刻み）にいる全国から「次の倍増までの年数」を数える選択なし記録（827件・132か国）で、014 と同じ AFT を推定。後退（0.75倍以下）を競合リスクとして Aalen–Johansen で数えた。</li>
+<li>主要数値：</li>
+<li>選択の倍率 R(e_ref)=<strong>1.18</strong> [1.08, 1.30]（014 の 26.2年に対し 31.0年）。γ=−0.275 [−0.355, −0.197]。</li>
+<li>4変種の R は 1.14〜1.40。1950年以前だけなら 1.06、1950年以降だけなら 1.23〜1.33。</li>
+<li>後退が倍増より先に起きる100年累積：選択なし <strong>0.208</strong>、014 型 0.134。100年以内に倍増しない割合（KM）は 2.3%。</li>
+<li>Piql D23*（人口×所得）：選択なし e_ref で &gt;1600、e=1850 で 859年。等価時代は 1947年。</li>
+<li>判定：H29a 棄却、H29b 支持、H29c 棄却、H29d 支持（棄却が頑健）、H29e 支持、H29f 支持。</li>
+<li>結論：016 の「1.70倍」は過大で、選択の効果は約1.2倍にとどまる。e=1850 の根拠を選択に置くことはできず、時代 e はデータで決まらないシナリオ変数になった。後退は多いが永続的な非離陸はまれ。</li>
+<li>「誰が何を変えるべきか」：記載あり。016 の1.70を撤回し、Piql D23* を時代 e の関数として示す。primer の検証は交易・教師のない条件を想定する。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
