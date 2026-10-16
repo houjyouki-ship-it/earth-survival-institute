@@ -150,6 +150,10 @@
 <p>【新規・第24回】<strong>読取装置の製作手引きの必要量 g_req</strong>。024 では Wikipedia 18記事 0.725 MB（説明のみ）と Radiotron Designer's Handbook 4版 4.45 MB（回路設計、製作工程なし）をアンカーに logU[0.725, 8.9] MB と置いた。g_req は ΔV の感度最大（五分位差 0.089）。管・真空ポンプ・光電セル・論理回路・Piql 書式復号の最小手引きを実際に書き出す（または既存の製作記録、例：Colossus 再建記録、真空管の自作記録の字数を測る）ことで範囲を狭める。</p>
 </li>
 <li>
-<p>【新規・第24回】<strong>狙い撃ち読取装置が届ける価値の割合 q</strong>。Colossus 級は MB 級 RAM を持たず、XZ の大半を展開できない（018）。GitHub Archive の非圧縮部分（Tech Tree など）の割合、repo 単位の tar.xz の大きさの分布（小さい repo は小さな辞書で展開可）から q を推定する。ΔV は q にほぼ比例する。</p>
+<p>【第25回で部分解決：研究025。高層星重み q(64 KiB)=0.056、q(1 MiB)=0.43。4〜144 KiB の読者で ΔV(板)=0.012（024 の約1/8）、辞書 64 KiB の再圧縮なら 0.055。残り：星を価値の代理にした妥当性、2020 年時点の星、窓を補助記憶に置く遅い復号（→81）】<strong>狙い撃ち読取装置が届ける価値の割合 q</strong>。Colossus 級は MB 級 RAM を持たず、XZ の大半を展開できない（018）。GitHub Archive の非圧縮部分（Tech Tree など）の割合、repo 単位の tar.xz の大きさの分布（小さい repo は小さな辞書で展開可）から q を推定する。ΔV は q にほぼ比例する。</p>
 </li>
+<li>
+<p>【新規・第25回】<strong>辞書の大きさの最適配分</strong>。辞書 64 KiB の費用は合計 +29%（repo 中央値 +3%）。Tech Tree が索引する重要 repo だけを小辞書で二重に書く場合の費用と q の増分を、重要 repo の大きさ分布（例：Arctic Vault の Featured projects）で計算する。</p>
+</li>
+<li>【新規・第25回】<strong>窓を遅い補助記憶に置く LZMA 復号</strong>。ドラム・磁気テープ級の補助記憶に 8 MiB 窓を置き、一致参照ごとにシークする場合の復号時間を、実 repo の一致距離分布から見積もる。q(M) が RAM でなく時間で決まるかを判定する。</li>
 </ol><footer><hr><small>自動生成</small></footer></body></html>

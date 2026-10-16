@@ -1,0 +1,58 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究025：狙い撃ち読取装置が届ける価値の割合 q(M)（open_problems 79） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="025-qmopen_problems-79">研究025：狙い撃ち読取装置が届ける価値の割合 q(M)（open_problems 79）</h1>
+<p>事前登録：PREREGISTRATION.md（2026-10-16T18:46:34Z、データ収集・初回実行前）。
+データ収集：collect.py（2026-10-16T18:49:53Z〜19:28:35Z、gh CLI で GitHub 公開 API を読み取りのみ）→ data/sample.json。圧縮部分標本：compress.py → data/compress.json。解析：sim.py（seed=20261025、約4秒）→ results.json、stdout.txt、fig_q_vs_ram.png、fig_dict_cost_and_dV.png。
+再現：<code>/tmp/rep025b/</code> に 024 と並べて複製し sim.py を再実行、results.json 895キーのうち差分は runtime のみ。024 の sim.py も同時に再実行し runtime 以外一致。sim.py 内の 024 再計算（q=0.3）も ΔV(P1)=0.0859、ΔV(P2)=0.0929 で 024 と一致。</p>
+<h2 id="_1">問い</h2>
+<p>024 は、RAM の小さい狙い撃ち読取装置（T2 の手引きから作る光電読取＋真空管論理）が届ける、機械読み層の価値の割合 q を根拠なく 0.3 と置いた。ΔV は q にほぼ比例する。本回は GitHub Arctic Code Vault の実際の構成から q(M) を推定した。</p>
+<h2 id="25-sources">事実入力（本回の前半＝第25回前段で開いて確認、写しは sources/）</h2>
+<ul>
+<li>【事実（<a href="https://archiveprogram.github.com/arctic-vault/">Arctic Vault</a>）】2020-02-02 のスナップショットは既定ブランチの HEAD、100KB 超のバイナリは除外（250星以上は保持）、repo ごとに1つの TAR、21TB、186 リール。</li>
+<li>【事実（<a href="https://github.com/github/archive-program/blob/master/GUIDE.html">GUIDE.md</a>）】外側 TAR に非圧縮の META、圧縮された COMMITS、repo.tar.xz。圧縮は XZ（LZMA）。Tech Tree は「非圧縮・非符号化の人が読めるリール」。リール数は 188（ガイド1＋データ187）と書かれており、Arctic Vault ページの 186 と食い違う。</li>
+<li>【事実（xz 形式仕様、liblzma ソース <code>lzma_common.h</code>：LITERAL_CODER_SIZE 0x300）】リテラル確率表は 0x300&lt;&lt;(lc+lp) 個。xz -6 の辞書は 8 MiB。</li>
+<li>【事実（Wikipedia：EDSAC、Whirlwind I、IBM 704）】EDSAC は1952年まで 512×18ビット、Whirlwind は 2048×16ビットの設計、IBM 704 は 4096×36ビット＝18,432 バイト級。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>展開に要る RAM：R = S0 + min(D, S_tar)。S0=16 KiB（確率表 12 KiB＋状態【推測】）、D=8 MiB（xz -6）。S_tar は 2020-02-02 以前の最後のコミットの木から TAR の大きさを再構成（250星未満は 100KB 超のバイナリ拡張子を除く。拡張子判定は【推測】の近似）。</li>
+<li>標本：高層（現在の星≥250、6区間×35件＝210件）、低層 low0（0星、2019-11-13〜2020-02-01 作成、50件）、low1（1〜249星、1年以内作成、70件）。重みは星・repo 数・非圧縮バイト。2000回のブートストラップ。</li>
+<li>圧縮部分標本：大きさで層化した30件の実 tarball を LZMA2 辞書 4 KiB〜8 MiB で圧縮。</li>
+<li>024 のモデル（同じ乱数系列）に q(M) を入れ、読取装置の RAM を4つのシナリオで回した。</li>
+</ul>
+<h2 id="_3">主要結果</h2>
+<ul>
+<li>【独自推定】高層・星重みの q(M)：IBM 704 級（18 KiB）<strong>0.005</strong>［0, 0.014］、64 KiB <strong>0.056</strong>［0.029, 0.088］、144 KiB <strong>0.17</strong>［0.12, 0.23］、1 MiB <strong>0.43</strong>［0.36, 0.51］、9 MiB で 1.0。</li>
+<li>低層 low1（repo 数重み）：64 KiB <strong>0.20</strong>［0.12, 0.30］、1 MiB 0.70。low0：18 KiB で 0.11、64 KiB で 0.61。バイト重みでは 1 MiB でも 0.01〜0.11（大きい repo がバイトの大半）。</li>
+<li>TAR の大きさの中央値：高層 1.15 MB、low1 0.31 MB、low0 20 KB。木から推定した TAR と実 TAR の比の中央値 0.957。</li>
+<li>辞書の費用（部分標本30件、合計 187 MB）：8 MiB 比で 64 KiB は <strong>+29%</strong>、1 MiB は +18%、4 KiB は +38%。ただし repo ごとの中央値は <strong>+3%</strong>（p90 +19%）で、合計は重複の多い数件（例：講義資料 repo は 8 MiB で 17.9 MB、64 KiB で 34.2 MB）が支配する。</li>
+<li>ΔV（024 の主設定 m23=943、T1 板に手引き）：</li>
+<li>読取 RAM 4 KiB〜144 KiB（Whirlwind〜704 拡張級）：平均 q 0.037、<strong>ΔV=0.012</strong>（024 の 0.093 の約1/8）。</li>
+<li>同じ RAM で、運営者が辞書 64 KiB で再圧縮していた場合：q 0.18、<strong>ΔV=0.055</strong>。</li>
+<li>144 KiB〜1 MiB：q 0.29、ΔV 0.089（024 の仮定 q=0.3 とほぼ同じ）。再圧縮なら q=1.0、ΔV 0.31。</li>
+<li>128 B〜1152 B（Baby〜EDSAC 級）：q=0、ΔV=0。</li>
+</ul>
+<h2 id="_4">仮説の判定</h2>
+<ul>
+<li>H37a（高層星重み q(64 KiB)&lt;0.10）：<strong>支持</strong>（0.056）。</li>
+<li>H37b（低層 repo 重み q(64 KiB)≥0.30）：<strong>棄却</strong>（low1 0.20。low0 は 0.61 だが両方の条件）。</li>
+<li>H37c（18 KiB で全層・全重み q&lt;0.05）：<strong>棄却</strong>（low0 repo 重みが 0.11。0星の極小 repo のみ。星重みは 0.005 で実質支持）。</li>
+<li>H37d（辞書 64 KiB の費用 &lt;15%）：<strong>棄却</strong>（合計 +29%。repo 中央値 +3% なら成り立つが、登録は合計）。</li>
+<li>H37e（4〜144 KiB の読者で ΔV(板)&lt;0.03）：<strong>支持</strong>（0.012）。</li>
+<li>H37f（高層星重み q(1 MiB)≥0.30）：<strong>支持</strong>（0.43）。</li>
+</ul>
+<h2 id="_5">批判的検討（限界）</h2>
+<ul>
+<li>星は 2026 年の値で、2020 年の値ではない。削除された repo は標本に入らない（生存バイアス）。星重みは「価値」の代理にすぎない【推測】。</li>
+<li>区間内では「ランダムな作成月→ランダムなページ→最大3件」で選んだので、区間内の抽出確率は等しくない（collect.py に記録した逸脱：1件→最大3件/検索）。区間の重みは今の total_count。</li>
+<li>R は「出力をテープに流し、窓だけ RAM に置く」前提の下限。逆に、遅いランダムアクセスの補助記憶（ドラムなど）に窓を置ければ、時間と引き換えに q は上がる【推測】。処理速度は入れていない。</li>
+<li>部分標本は30件で、H37d の合計は数件に左右される。</li>
+</ul>
+<h2 id="_6">結論</h2>
+<p>024 の q=0.3 は「読取装置の RAM が 144 KiB〜1 MiB」の場合にだけ当たる。1950年代前半級（4〜144 KiB）の読者には、Arctic Vault の repo.tar.xz（8 MiB 辞書）は星重みで約4%しか開けず、手引きの価値は 024 の約1/8 になる。壁は計算力ではなく XZ の辞書の大きさで、辞書を 64 KiB にすれば同じ読者で q が約5倍（0.037→0.18）になる。その費用は repo 中央値で +3%、合計で +29%。</p>
+<h2 id="_7">誰が何を変えるべきか</h2>
+<ul>
+<li>アーカイブ運営者（GitHub Archive Program、Piql など）：次の預け入れでは、少なくとも Tech Tree が索引する重要 repo を <strong>小さい辞書（≤64 KiB、例：<code>xz --lzma2=dict=64KiB</code>）で圧縮した版</strong>か非圧縮版を別に書く。全体を再圧縮すると約3割増だが、重要 repo だけなら費用は小さい【推測】。</li>
+<li>各リールの索引に、ファイルごとの「展開に要る窓の大きさ」を人が読める形で書く（xz の Index には非圧縮サイズしかなく、辞書の大きさはブロックヘッダを読まないと分からない）。</li>
+<li>024 の提言（製作手引きを板に）は維持するが、その価値は手引きの読取装置が ≥1 MiB 級の RAM を作れるかで約8倍変わる。手引きに「RAM を増やす」章（磁気コア）を入れる意味がある。</li>
+</ul>
+<h2 id="_8">既存研究に対する新規性</h2>
+<p>018 は「XZ の大半は MB 級 RAM が要る」と定性的に述べただけだった。本回は実際の repo の標本から q(M) 曲線を出し、辞書の大きさという運営者が変えられる一つの設定が、低 RAM 読者の価値を約5倍左右することを数値で示した。</p><footer><hr><small>自動生成</small></footer></body></html>

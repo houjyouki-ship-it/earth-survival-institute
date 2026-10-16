@@ -320,4 +320,15 @@
 <li>判定：H36a・b・c・e・f 支持（b・f は境界）、H36d 棄却。</li>
 <li>結論：内容で測ると、手引きは手読み層の一般データより得になりうる（データ全体が機械読み層の約12%以上の価値を持たない限り）。ただし同じ手引きは T1 セラミック板に置くのが最も効率的で、手読み層には要約の控えを置けば足りる。</li>
 <li>「誰が何を変えるべきか」：記載あり（運営者は製作手引きを同じ金庫の板に、要約25%を手読み層に、優先データは非圧縮で書く）。</li>
+</ul>
+<h2 id="25-2026-10-16">第25回 2026-10-16</h2>
+<ul>
+<li>再現チェック：024 を <code>/tmp/rep025b/</code> に複製し <code>sim.py</code>（約2秒）を再実行、results.json は runtime 以外一致。025 の sim.py 内で 024 の q=0.3 の値（ΔV 0.0859／0.0929）も再現。</li>
+<li>文献（開いて確認。写しは research/025-.../sources/）：GitHub Archive Program の Arctic Vault ページと GUIDE.md（repo ごとの TAR、内側 repo.tar.xz、100KB 超バイナリ除外、21TB・186 リール。GUIDE は 188 リールと記載）、xz 形式仕様、liblzma ソース（LITERAL_CODER_SIZE 0x300）、Wikipedia「EDSAC」「Whirlwind I」「IBM 704」。</li>
+<li>研究025を実施：<code>research/025-q-xz-window/</code>（collect.py：GitHub 公開 API の読み取りのみ、18:49〜19:28 UTC；compress.py；sim.py seed=20261025、約4秒）。成果物は data/sample.json（330件 ok）、data/compress.json（30件）、results.json、stdout.txt、fig_q_vs_ram.png、fig_dict_cost_and_dV.png、report.md、PREREGISTRATION.md（18:46:34 UTC、収集前）、sources/。<code>/tmp/rep025b/</code> で再実行し runtime 以外一致（895キー）。前段の回はデータ収集後に中断し、本回で解析・報告を完了した。</li>
+<li>方法：展開 RAM R=16 KiB＋min(8 MiB, TAR)。2020-02-02 以前の最後のコミットの木から TAR を再構成し、星区間で層化した標本で q(M) を推定、024 のモデルに入れた。</li>
+<li>主要数値：高層星重み q は 18 KiB で 0.005、64 KiB <strong>0.056</strong>、144 KiB 0.17、1 MiB <strong>0.43</strong>。low1 の repo 重みは 64 KiB で 0.20。4〜144 KiB の読者で ΔV(板)=<strong>0.012</strong>（024 は 0.093）、辞書 64 KiB で再圧縮なら 0.055。辞書 64 KiB の費用は合計 +29%、repo 中央値 +3%。</li>
+<li>判定：H37a・e・f 支持、H37b・c・d 棄却（c は 0星の極小 repo のみが原因、d は合計が数件の重複 repo に支配）。</li>
+<li>結論：024 の q=0.3 は読取 RAM 144 KiB〜1 MiB でだけ成り立つ。低 RAM 読者の壁は XZ の 8 MiB 辞書で、運営者が変えられる。</li>
+<li>「誰が何を変えるべきか」：記載あり（重要 repo を辞書 ≤64 KiB または非圧縮で別に書く、索引に展開窓の大きさを書く、手引きに RAM 増設の章）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
