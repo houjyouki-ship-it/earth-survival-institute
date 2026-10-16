@@ -187,4 +187,22 @@
 <li>M-DISC は全設定で D23* &lt;50。</li>
 <li>判定：H27a 支持、H27b 棄却、H27c 支持、H27d 支持。「n23 が2倍以上なら e_ref でも D23*&lt;1100」は成り立たず、遅い速度上限（e=1850）と組んだときだけ落ちる。</li>
 <li>「誰が何を変えるべきか」：記載あり。n_k は所得のみと pop×income を併記し、政策側シナリオに e=1850×Y（Piql≈940年）を入れる。primer は少ない人口で真空管〜光学読取に届く工程に寄せる。</li>
+</ul>
+<h2 id="16-2026-10-16">第16回 2026-10-16</h2>
+<ul>
+<li>再現チェック：013・014・015 を <code>/tmp/rep016/</code> に複製し、015 の sim.py（約5秒）を再実行した。results.json は runtime 以外一致し、<code>check_014_hybrid_ladder.reproduced_exactly=true</code> だった。</li>
+<li>文献（本回開いて確認。Wikipedia API の本文。抜粋は research/016-.../sources/excerpts.json）：Sakoku、Francoist Spain、Sino-Soviet split、Chinese economic reform、Burmese Way to Socialism、Enver Hoxha、Economy of Albania、Economy of North Korea（このほか Autarky、Juche、Economy of Myanmar も取得した）。</li>
+<li>研究016を実施：<code>research/016-isolated-speedcap/</code>（sim.py seed=20261015・boot 20261016、約7秒）。成果物は results.json、stdout.txt、fig_isolation_slowdown.png、fig_episode_paths.png、report.md、PREREGISTRATION.md（00:37:20 UTC、初回実行前）、sources/。<code>/tmp/rep016b/</code> で再実行し、runtime 以外一致した。015 の pop×income・e=1850（Piql 942.5年）も厳密に再現した。</li>
+<li>方法：孤立6エピソード（鎖国の日本 1700–1850、自給期のスペイン 1939–59、中ソ断絶後の中国 1960–78、ビルマ式社会主義 1962–88、中国断絶後のアルバニア 1978–90、ソ連崩壊後の北朝鮮 1991–2022）の成長率を、同時期・開始所得 ×/÷1.5 以内の対照の中央値と比べ、減速倍率 r を出した。r は γ で等価時代 e_iso に換算した。</li>
+<li>主要数値：</li>
+<li>r は 0.51、0.60、0.51、1.28、1.27、21.4。中央値は <strong>0.87</strong> [0.51, 5.24]、幾何平均は 1.33。</li>
+<li>e_iso は 1995年（CI [1712, 2079]）。1件除外の r 中央値は 0.60〜1.27。</li>
+<li>孤立期の倍増年数の中央値は <strong>93.7年</strong>（AFT の 1850 年値は 57年）。</li>
+<li>判定：H28a 棄却、H28b 棄却、H28c 棄却、H28d 支持（棄却が頑健）、H28e 支持。</li>
+<li>探索的な結果（事前登録外）：</li>
+<li>絶対水準の等価時代は e_abs=<strong>1772年</strong>。このとき Piql D23*（人口×所得）は <strong>600年</strong>、相乗効果は +0.029。</li>
+<li>1900年以降の対照（選択なしの開放国）の倍増年数は、AFT の上限の <strong>1.70倍</strong>（1.24〜3.45）。e_ref に掛けると e=1890 で、Piql D23* は 1403年。</li>
+<li>時代の走査では、Piql D23* は 1700年で497、1800年で681、1850年で943、1900年で1586。</li>
+<li>結論：孤立そのものの減速は6件では検出できなかった（スペインと中国が速かった）。一方、014 の速度上限は離陸した国を条件にした楽観値で、選択なしの成長は1.7倍遅い。主結果は「人口×所得 × e≈1770〜1890」で、Piql D23* は約600〜1400年、中心は e=1850 の943年とした。</li>
+<li>「誰が何を変えるべきか」：記載あり。e_ref を主結果から外す。e=1850 を使う根拠を「離陸を条件にしない成長速度」に置き換える。アーカイブ設計者は、T1 層への冗長化を検討する。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

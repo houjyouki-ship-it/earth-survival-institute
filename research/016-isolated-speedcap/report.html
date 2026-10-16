@@ -1,0 +1,186 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究016：孤立（autarky）期の速度上限 — 「教師なし」追いつきの代理（open_problems 52・55） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="016autarky-open_problems-5255">研究016：孤立（autarky）期の速度上限 — 「教師なし」追いつきの代理（open_problems 52・55）</h1>
+<h2 id="_1">問い</h2>
+<p>研究014/015 の速度上限（1倍増あたり年数 ∝ exp(γ(e−1950)/50)、γ=−0.316/50年）は、教師・交易のある追いつきから推定した。崩壊後に近い「教師なし」の代理として、歴史上の孤立・自給期6件の所得成長を、同時期・同所得の開放国と比べた。孤立による減速倍率 r を等価時代 e_iso に換算し、015 で使った e=1850 が妥当かを事前登録で検定した。</p>
+<h2 id="sourcesexcerptsjson-sourceswikijson">確認した事実（本回開いて確認。抜粋は <code>sources/excerpts.json</code>、本文は <code>sources/wiki/*.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鎖国は 1633–1639 の勅令で成立し、1853 年以後に終わった。中国・オランダとの交易は続き、蘭学で西洋の科学・技術が流入した</td>
+<td>【事実（https://en.wikipedia.org/wiki/Sakoku ）】</td>
+</tr>
+<tr>
+<td>フランコ体制は戦後の孤立と autarky を経て、1959 年に経済を自由化した</td>
+<td>【事実（https://en.wikipedia.org/wiki/Francoist_Spain ）】</td>
+</tr>
+<tr>
+<td>1960 年、ソ連は中国から技術者約1,400人を引き揚げた（中国側記録では1,390人、600契約を破棄）</td>
+<td>【事実（https://en.wikipedia.org/wiki/Sino-Soviet_split ）】</td>
+</tr>
+<tr>
+<td>改革開放は1978年12月18日に始まった。1957–1978 年の全要素生産性の寄与は −13.2%</td>
+<td>【事実（https://en.wikipedia.org/wiki/Chinese_economic_reform ）】</td>
+</tr>
+<tr>
+<td>「ビルマ式社会主義」は 1962–1988 年の国家理念で、国際的孤立を招いた。実質一人あたり GDP（2000年米ドル）は年約1.3%で増えた</td>
+<td>【事実（https://en.wikipedia.org/wiki/Burmese_Way_to_Socialism ）】</td>
+</tr>
+<tr>
+<td>1978年7月13日、中国はアルバニアへの援助をすべて止めた。アルバニアは「欧州で最も孤立した国」だった</td>
+<td>【事実（https://en.wikipedia.org/wiki/Enver_Hoxha ）】</td>
+</tr>
+<tr>
+<td>アルバニアの共産体制は 1990 年に崩壊した</td>
+<td>【事実（https://en.wikipedia.org/wiki/Economy_of_Albania ）】</td>
+</tr>
+<tr>
+<td>北朝鮮は 1991 年のソ連崩壊で主要な外部支援を失い、制裁下で autarky を続けた</td>
+<td>【事実（https://en.wikipedia.org/wiki/Economy_of_North_Korea ）】</td>
+</tr>
+<tr>
+<td>一人あたり GDP は Maddison Project Database 2023（OWID CSV、013 で取得したものを再利用）</td>
+<td>【事実（research/013…/sources/owid_gdppc_maddison.csv）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed20261015-202610167">方法（sim.py、seed=20261015・ブートストラップ 20261016、約7秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T00:37:20Z</strong>、初回実行前）。登録前に見たのは国別の観測年の一覧だけである。</li>
+<li>孤立国の窓は観測年に合わせて内側に寄せた（日本は 1700–1850）。g_iso は窓の年平均対数成長率である。</li>
+<li>対照は、同じ窓で開始所得が ×/÷1.5 以内の国（10〜37か国）である。集計値・産油国・窓が重なる孤立国は除いた。r = 対照の中央値成長率 ÷ 孤立国の成長率（下限 0.001/年）とした。</li>
+<li>等価時代は e_iso = e_ref + 50·ln(r)/γ（e_ref=1973.76）。r* = 2.186 が e=1850 に当たる。</li>
+<li>梯子は 015 と同じ乱数・同じ混合型 primer を使った。015 の pop×income・e=1850（Piql 942.5年、相乗 +0.0538）を厳密に再現した（<code>check_015.reproduced_exactly=true</code>）。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<table>
+<thead>
+<tr>
+<th>エピソード</th>
+<th>窓</th>
+<th>孤立国 %/年</th>
+<th>対照の中央値 %/年（n）</th>
+<th>r</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>日本・鎖国</td>
+<td>1700–1850</td>
+<td>0.19</td>
+<td>−0.02（10）※下限で 0.1</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>スペイン・自給</td>
+<td>1939–1959</td>
+<td>2.83</td>
+<td>1.71（25）</td>
+<td>0.60</td>
+</tr>
+<tr>
+<td>中国・中ソ断絶後</td>
+<td>1960–1978</td>
+<td>2.78</td>
+<td>1.43（37）</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>ビルマ式社会主義</td>
+<td>1962–1988</td>
+<td>0.86</td>
+<td>1.10（34）</td>
+<td>1.28</td>
+</tr>
+<tr>
+<td>アルバニア・中国断絶後</td>
+<td>1978–1990</td>
+<td>0.62</td>
+<td>0.79（25）</td>
+<td>1.27</td>
+</tr>
+<tr>
+<td>北朝鮮・ソ連崩壊後</td>
+<td>1991–2022</td>
+<td>−1.26</td>
+<td>2.14（24）</td>
+<td>21.4</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>r の中央値は <strong>0.87</strong>（95%CI [0.51, 5.24]）、幾何平均は 1.33 [0.60, 4.49]。</li>
+<li>e_iso は <strong>1995年</strong>（CI [1712, 2079]、幾何平均なら1929年）。</li>
+<li>1エピソードを除いた6通りの r 中央値は 0.60〜1.27 で、すべて r* を下回った。</li>
+</ul>
+<h3 id="_3">事前登録した仮説と判定</h3>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H28a</td>
+<td>r&gt;1 かつ CI 下端 &gt;1</td>
+<td>0.87 [0.51, 5.24]</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H28b</td>
+<td>r ≥ r*=2.19（孤立は e=1850 並みに遅い）</td>
+<td>0.87</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H28c</td>
+<td>e_iso × 人口×所得で Piql D23* &lt;1100年</td>
+<td>&gt;1600</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H28d</td>
+<td>1件除外の6通り中5通り以上で H28b と同じ判定</td>
+<td>6/6（すべて棄却）</td>
+<td><strong>支持</strong>（棄却が頑健）</td>
+</tr>
+<tr>
+<td>H28e</td>
+<td>孤立期の倍増年数の中央値 ≥57年（AFT・1850）</td>
+<td><strong>93.7年</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">探索的な結果（事前登録外）</h3>
+<ul>
+<li><strong>相対では遅くないが、絶対では遅い。</strong> 孤立国の倍増年数の中央値は93.7年で、AFT の上限が同じ値になる時代 e_abs は <strong>1772年</strong>である。人口×所得の n_k を使うと、Piql D23* は <strong>600年</strong>、相乗効果は +0.029 になる（所得だけの n_k なら &gt;1600年）。</li>
+<li><strong>開放国の対照も AFT の上限よりかなり遅い。</strong> 1900年以降の5窓で、対照の倍増年数 ÷ その時代の AFT 上限は 1.24〜3.45（中央値 <strong>1.70</strong>）だった。e_ref にこの1.70倍を掛けると e=<strong>1890</strong>、Piql D23*（人口×所得）は <strong>1403年</strong>、相乗効果は +0.068 になる。</li>
+<li>時代の走査（人口×所得）では、Piql D23* は 1700年で497、1750年で559、1800年で681、1850年で943、1900年で1586、1950年以降は &gt;1600 だった。primer がない場合は435年である。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li><strong>H28a/b の棄却は「孤立は無害」を意味しない。</strong> 6件のうち2件（スペイン1939–59、中国1960–78）は、国家主導の重工業化が速かった例である。スペインは内戦直後の底から始まっており、回復による上振れを含む【推測】。中国の1960年は大躍進の途中で、窓の端点の影響を受ける【推測】。逆に北朝鮮は r=21 と極端だった。ばらつきが大きく、CI は [0.51, 5.24] と広い。6件では孤立の効果を識別できない、というのが正確な結論である。</li>
+<li><strong>対照も「開放」とは限らない。</strong> 対照には、閉鎖的・社会主義的な国や戦乱の国が含まれる。スペイン1939–59 の対照には BGR・RUS・POL・CUB、中国とビルマの対照には KHM・LAO・VNM・MNG・AFG がある（results.json の controls）。そのぶん対照が遅くなり、r は過小になりうる【推測】。</li>
+<li><strong>日本の対照は前工業期でほぼ停滞していた</strong>（中央値 −0.02%/年）。r は下限値0.001に依存する。鎖国期の日本は中国・オランダとの交易と蘭学を保っており、完全な孤立ではない【事実（Sakoku）】。</li>
+<li><strong>事前に書いた偏りは両方向に働く。</strong> 生きた技術者がいるので r は過小になり、計画経済の失敗が混ざるので r は過大になる。本回の結果は、この2つが打ち消し合っている可能性を排除できない。</li>
+<li><strong>最も重要な発見は、孤立の効果ではなく選択の効果である。</strong> 014 の AFT は、帯 L を越えた国の記録だけから作った。上昇局面にある国を選んでいるので、同じ所得の国一般より速い。そのため e_ref の上限（26年/倍増）は楽観的になる【推測：機構】。数値としては、対照（選択なし）が上限の1.7倍遅いことが示された。崩壊後の社会が「離陸済みの追随国」と同じ速さで進むと仮定する理由はない。</li>
+<li>PRK の Maddison 系列（1991年以降）は外部推計で、不確実性が大きい【推測】。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>貿易の開放度と成長の関係を調べた文献はあるが、本回は開いて確認していないため引用しない。当研究所の範囲では、次の3点が新しい。(1) 孤立期の成長を、文明回復の速度上限の「時代パラメータ」に換算して事前登録で検定した。(2) 014 の速度上限が、離陸した国の記録に条件づいた楽観値であること（選択なしの対照は1.7倍遅い）を示した。(3) その結果、015 で未定だった主結果（55）を「人口×所得 × e≈1770〜1890」に絞った。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：e_ref（1974年）を主結果から外す。主シナリオは人口×所得の n_k と e=1850（Piql D23*≈940年）とし、幅として e=1772〜1890（600〜1400年）を併記する。e=1850 を使う根拠は、「孤立の減速」ではなく「離陸を条件にしない成長速度」に置き換える。</li>
+<li><strong>長期アーカイブ設計者（Piql などフィルム系）</strong>：primer を同梱しても、T2→T3 の回復が約600〜1400年を超えると、媒体が読めるまで残る確率は50%を切る。primer には、少ない人口で T3 の読取装置に届く工程を入れる（015 と同じ結論）。あわせて、より低い段（光学拡大だけで読める T1 層）への冗長化を検討する。</li>
+</ul>
+<h2 id="_8">成果物と再現</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_isolation_slowdown.png</code>、<code>fig_episode_paths.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>（Wikipedia 8記事の API 本文、excerpts.json）がある。015 を <code>/tmp/rep016/</code> で再実行すると、runtime 以外一致し、<code>check_014_hybrid_ladder.reproduced_exactly=true</code> だった。016 を <code>/tmp/rep016b/</code> で再実行しても、runtime 以外一致した。</p><footer><hr><small>自動生成</small></footer></body></html>
