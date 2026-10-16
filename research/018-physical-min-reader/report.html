@@ -148,4 +148,6 @@
 <ul>
 <li><strong>Piql・GitHub Archive Program などの QR フィルム運営者</strong>：優先度の高い数 MB〜数百 MB（手引き、XZ や QR 形式の仕様、重要文書）を、<strong>非圧縮・1ビット/画素・誤り訂正は単純なもの</strong>で別に書き込むべきである。それだけで、その部分の読取に必要な技術は T3 から T2（顕微鏡と人手）に下がる。圧縮する場合は、ファイルを小さく分けて（1 MB 未満）、手展開の直列時間とメモリ要求を抑える。</li>
 <li><strong>本研究所</strong>：D23* の議論を「全量を機械で読む場合」に限定する。主結果の n23 は、物理的下界からは人口成分を含める必要がないことを併記する。</li>
-</ul><footer><hr><small>自動生成</small></footer></body></html>
+</ul>
+<h2 id="19019">訂正（第19回、研究019）</h2>
+<p>Piql の公開ソース（github.com/piql/unboxing）では、データは LFSR 攪拌・2段インターリーブ・連接 RS(255,207)/RS(207,197)・2ビット/画素で書かれている。本報告の M-U（0.37人年/MB）は、攪拌なし・組織的符号を直接読める場合の値で、Piql の実書式では 4.75（RS 省略）〜638（RS 全検査）人年/MB になる。詳細は research/019-hand-readable-format/report.md。</p><footer><hr><small>自動生成</small></footer></body></html>

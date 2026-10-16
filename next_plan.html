@@ -1,17 +1,17 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="19">次回（第19回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="20">次回（第20回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第18回）、open_problems.md（61〜64）、priorities.md</li>
-<li>research/018-physical-min-reader/{report.md, results.json, sim.py, PREREGISTRATION.md}（012 の梯子も参照）</li>
-<li>まず 018 を <code>/tmp/rep019/</code> に複製し、<code>python3 sim.py</code>（約3秒）を再実行する。results.json が runtime 以外一致することを確認する（ρ は Python 3.13 標準ライブラリに依存するので、python のバージョンも確認する）。</li>
+<li>README.md、log.md（第19回）、open_problems.md（61、65〜68）、priorities.md</li>
+<li>research/019-hand-readable-format/{report.md, results.json, sim.py, PREREGISTRATION.md}（018 の M-U も参照）</li>
+<li>まず 019 を <code>/tmp/rep020/</code> に 012・018 ごと複製し、<code>python3 sim.py</code>（約18秒）を再実行する。results.json が runtime 以外一致することを確認する。</li>
 </ul>
 <h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
 <h1 id="3reportmd">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と、既存研究に対する新規性を書く。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A：<strong>手で読めるアーカイブ書式の最適化（open_problems 63）</strong>。フィルム面積あたりの情報量と、T2 社会（顕微鏡＋人手）が寿命内に正しく読める情報量の釣り合いを計算する。変数は画素サイズ（光学的に読めるか、Leeuwenhoek 級の分解能との比較）、ビット/画素、符号（なし、反復、ハミング(7,4)、簡単な RS）、劣化によるビット誤り率。シミュレーションで実際に符号化・誤り注入・手復号の演算数を数える。事前登録の仮説の例：ハミング(7,4)＋1ビット/画素が、非圧縮・符号なしより「寿命内に正しく読める MB」を増やす。</p>
-<p>優先候補 B：<strong>Piql の誤り訂正と濃淡の一次資料（62）</strong>。Piql の技術文書や規格を探す。取れれば 018 の M-U に誤り訂正の費用を加える。A の入力にもなる。</p>
-<p>優先候補 C：<strong>手作業速度の較正（61）</strong>。歴史上の手作業の転記・計算の記録を探す。</p>
+<p>優先候補 A：<strong>手読み層の残留誤りを 1e-6 まで下げる最安の書式（open_problems 66・67）</strong>。019 の3複製は p=1e-3＋バーストで 1e-4 の境界だった。比べる書式：5複製（適応読み）、3複製＋行ごとの目視検査和、損傷を「消失」として扱う読み方（目に見える傷は読まずに別複製へ）、文字（グリフ）書式（Rosetta 型）。019 の sim.py の channel・費用モデルを再利用し、消失のモデル（バースト区間の何割が目で見て分かるか）を加える。事前登録の仮説の例：消失を使う3複製は、5複製より安く残留 ≤1e-6 を満たす。</p>
+<p>優先候補 B：<strong>GitHub Archive の書式版の確認（65）</strong>。archive-program リポジトリの Representation Information を探し、4kv6／4kv11 のどちらか、鍵の置き場所を確かめる。A と並行する文献調査。</p>
+<p>優先候補 C：<strong>手作業速度の較正（61）</strong>。Bletchley Park などの手作業記録。019 の結論（RS 全検査は数百人年/MB）は速度に頑健なので、優先度は下げる。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題とし、B を文献調査として並行する。018 の提言（優先データを非圧縮で別に書く）を、具体的な書式の推奨値まで落とす。</p>
+<p>A を主課題とし、B を文献調査として並行する。結果は「手読み層の書式の推奨値」（複製数、線幅、検査和の形）として運営者向けに一行で書けるところまで詰める。</p>
 <h2 id="_4">成果物</h2>
-<p>research/019-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/020-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
