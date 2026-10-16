@@ -1,5 +1,6 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="19">未解決問題（第19回時点）</h1>
-<p>第19回（研究019）で 62 を解決、63 を部分解決：Piql 4kv6 は LFSR 攪拌＋2段インターリーブ＋連接 RS(255,207)/RS(207,197)＋2ビット/画素（公開ソースで確認）。人手では RS 全検査 638人年/MB、省略 4.75人年/MB。手読み向けには攪拌なし・1ビット/画素・離れた3複製が 0.74人年/MB・残留 5.8e-5（p=1e-3）で最良。新規 65–68。
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>未解決問題 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="20">未解決問題（第20回時点）</h1>
+<p>第20回（研究020）で 66 を部分解決、67 を縮小：適応3/5複製・消失・行偶奇は p=1e-3＋バーストで残留 ≤1e-6 を満たさない（床は先頭2本の誤一致）。探索的に常時5本多数決（A5f）が残留 ≤1e-6 の最安（1.71人年/MB）。文字書式は人年安・面積高・残留はなお1e-5級（速度未実測）。65 は未確認のまま。新規 69–70。
+第19回（研究019）で 62 を解決、63 を部分解決：Piql 4kv6 は LFSR 攪拌＋2段インターリーブ＋連接 RS(255,207)/RS(207,197)＋2ビット/画素（公開ソースで確認）。人手では RS 全検査 638人年/MB、省略 4.75人年/MB。手読み向けには攪拌なし・1ビット/画素・離れた3複製が 0.74人年/MB・残留 5.8e-5（p=1e-3）で最良。
 第17回（研究017）で 56・57 を解決・縮小：選択なしの速度上限は 014 の1.18倍 [1.08, 1.30]（H29a 棄却、016 の1.70は過大）。選択の効果は1950年以降に集中（約1.3倍）。後退が倍増より先に起きる100年累積は0.21だが、100年以内に倍増しない割合は2.3%。時代 e はデータで決まらないシナリオ変数とした。新規 58–60。
 第16回（研究016）で 52・55 を部分解決：孤立6件の減速倍率 r の中央値は 0.87 [0.51, 5.24]（H28a・b 棄却）。孤立そのものの効果は識別できなかった。一方、孤立期の倍増は93.7年、選択なしの対照は AFT 上限の1.70倍遅い。主結果を「人口×所得 × e≈1770〜1890」（Piql D23* 600〜1400年、中心 943年）に絞った。新規 56–57。
 第15回（研究015）で 51 を部分解決：n23 の人口×所得は所得のみの2.23倍（5.67回）。e_ref では Piql D23* はなお &gt;1600（H27b 棄却）だが、e=1850 では 943年（H27d 支持）。残りは物理的最小規模の下界と教師なし速度上限（52）。新規 54–55。48 は第14回で解決。</p>
@@ -112,9 +113,15 @@
 <p>【新規・第18回】電子経路の上流倍率 U（018 で最小人口に最も効く2つのうちの1つ）。ガラス・タングステン線・水銀ポンプ・発電の最小規模の一次資料。</p>
 </li>
 <li>
-<p>【新規・第19回】GitHub Arctic Code Vault のリールが Piql のどの書式版（4kv6／4kv9／4kv11 など）で書かれたか、Cipher の鍵とメタデータの置き場所。GitHub archive-program の Representation Information（Unboxing library description）の本文で確認する。</p>
+<p>【第20回でも未確認】GitHub Arctic Code Vault のリールが Piql のどの書式版（4kv6／4kv9／4kv11 など）で書かれたか、Cipher の鍵とメタデータの置き場所。GUIDE は Representation Information に「Generic 4K Frame format」「Unboxing library description」があると書くが、版番号も鍵位置も書かない。本体はフィルム上のみで、公開リポジトリには無い。</p>
 </li>
-<li>【新規・第19回】3複製の残留誤りは p=1e-3＋バーストで 1.0e-4 の境界（種により 0.76〜1.12e-4）。5複製、3複製＋行ごとの検査和（目視で数えられる偶奇や桁和）、目視で分かる損傷を「消失」として扱う読み方を比べ、残留 1e-6 に必要な費用を出す。</li>
-<li>【新規・第19回】文字（グリフ）で刻む書式（Rosetta ディスク型、650倍で読める）と、1ビット/画素の点書式の比較。人は文字を点の集まりより速く読み、損傷が目に見える（消失になる）が、面積は数倍になる。文字の読取速度・読み誤り率の一次資料（校正読み 200語/分は紙の場合）。</li>
-<li>【新規・第19回】手読みの層と機械読みの層の配分：優先データの量（1〜100 MB）、複製数、線幅をまとめて決める最適化。リール面積の1%前後の予算で、T2 社会が寿命内に正しく読める量を最大にする。</li>
+<li>【第20回で部分解決：研究020】残留 1e-6 に必要な書式。適応5複製・消失つき3複製・行偶奇つき3複製はいずれも ≤1e-6 を満たさない（H32a–d 棄却）。床は先頭2本の誤一致。探索的に <strong>常時5本多数決（A5f）が最安で ≤1e-6</strong>（1.71人年/MB；種により0〜1.5e-6）。頑健版は7複製（2.19）または5本×二重読み（2.93）。残り：種依存の上側を閉じる標本、検査和を検出専用にしたときの理論限界。</li>
+<li>【第20回で縮小：研究020】文字書式は人年中央値0.11で点書式より安いが、面積は線幅2倍でリールの1.45%（点5複製の0.30%の約5倍）、残留は4〜7e-5で1e-6未達（H32e 支持）。校正200語/分は紙の値【事実】。顕微鏡下速度は μ∈[2,20]の【推測】のまま（→61と接続）。</li>
+<li>
+<p>【新規・第19回】手読みの層と機械読みの層の配分：優先データの量（1〜100 MB）、複製数、線幅をまとめて決める最適化。リール面積の1%前後の予算で、T2 社会が寿命内に正しく読める量を最大にする。— 第20回の A5f 費用・面積を入力にできる。</p>
+</li>
+<li>
+<p>【新規・第20回】常時5本多数決の残留の種依存（2 MBで0〜1.5e-6）。より大きい標本または解析的なバイト誤り率で、p=1e-3＋バーストでの真の率が1e-6を確実に下回るか確かめる。</p>
+</li>
+<li>【新規・第20回】行検査和を「検出専用」にしたときの最適検査（偶奇／XOR／短いCRC）と行長の組み合わせ。誤って偶奇で片側を選ぶと残留が悪化する（020で2e-3まで）。検出専用なら3複製床（〜1e-4）からどれだけ下がるか。</li>
 </ol><footer><hr><small>自動生成</small></footer></body></html>

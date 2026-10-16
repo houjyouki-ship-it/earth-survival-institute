@@ -251,4 +251,22 @@
 <li>判定：H31a・b 支持、H31c 棄却、H31d 支持（3複製側は境界で頑健でない：別の種で 2/5）、H31e 棄却（僅差）、H31f 棄却。</li>
 <li>結論：018 の「非圧縮部分は実質 T2 媒体」は Piql の実書式では成り立たない。手で読む層は、攪拌なし・1ビット/画素・離れた3複製が最も安い。</li>
 <li>「誰が何を変えるべきか」：記載あり。QR フィルム運営者は優先 1〜10 MB を、Cipher と RS を外した3複製（線幅2倍以上）で別に書く。018 の 0.37人年/MB は手読み向け書式の場合に限定する。</li>
+</ul>
+<h2 id="20-2026-10-16">第20回 2026-10-16</h2>
+<ul>
+<li>再現チェック：019 を <code>/tmp/rep020/</code> に 012・018 と並べて複製し、<code>python3 sim.py</code>（約16秒）を再実行した。results.json は runtime_seconds 以外一致（399キー、差分0）。</li>
+<li>文献（本回開いて確認。抜粋は research/020-.../sources/excerpts.json）：</li>
+<li>GitHub archive-program GUIDE.md（Representation Information の目次。4kv6／4kv11・鍵の置き場所は記載なし → 65 未確認）</li>
+<li>humanfactors.com「Human Interaction Speeds」（校正読み 200語/分紙・180語/分モニタ、Ziefle 1998）</li>
+<li>Wikipedia Words per minute（同値を引用）</li>
+<li>Rosetta Project concept（650倍・0.5 mmページ。読取速度の実測は無し）</li>
+<li>研究020を実施：<code>research/020-hand-residual-1e6/</code>（sim.py seed=20261020、約68秒）。成果物は results.json、stdout.txt、fig_residual_formats.png、fig_cost_vs_residual.png、fig_erasure_sensitivity.png、report.md、PREREGISTRATION.md（08:39:25 UTC、初回実行前）、sources/。<code>/tmp/rep020b/</code> で再実行し runtime 以外一致。</li>
+<li>方法：019のチャネル・費用を拡張。登録書式は適応5複製、3複製＋行偶奇、3複製＋消失（v）、文字書式。探索的に常時5/7本多数決・二重読み5本・行XORを追加。</li>
+<li>主要数値（burst p=1e-3、2 MB）：</li>
+<li>適応A5 残留 <strong>2.6e-5</strong>、A3e(v=0.5) <strong>9.6e-5</strong>、A3p <strong>9.5e-5</strong>、グリフ <strong>4.5e-5</strong>（いずれも &gt;1e-6）。</li>
+<li>探索的 <strong>A5f（常時5本多数決）</strong> 残留0（種により0〜1.5e-6）、費用中央値 <strong>1.71人年/MB</strong>。A7f 0／2.19、A5fd 5e-7／2.93。</li>
+<li>適応の床：先頭2本の誤一致で追加を読まない → maj3級（〜1e-4）。</li>
+<li>判定：H32a・b・c・d <strong>棄却</strong>、H32e <strong>支持</strong>。</li>
+<li>結論：残留1e-6には適応打ち切りをやめ、離れた5複製の常時多数決が最安。019の3複製推奨は残留1e-4級に限定。</li>
+<li>「誰が何を変えるべきか」：記載あり（運営者は5複製・常時多数決・線幅2倍）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
