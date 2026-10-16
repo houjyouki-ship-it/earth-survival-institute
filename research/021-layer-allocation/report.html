@@ -1,0 +1,113 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究021：手読み層の配分 — 線幅と複製数（open_problems 68・69） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="021-open_problems-6869">研究021：手読み層の配分 — 線幅と複製数（open_problems 68・69）</h1>
+<h2 id="_1">問い</h2>
+<p>(69) 常時5本多数決（A5f）の p=1e-3＋バーストでの真のバイト誤り率は 1e-6 未満か（020 は 2 MB 標本で 0〜1.5e-6）。
+(68) リール面積の予算（0.3／1／3%）と残留目標の下で、複製数 n・線幅倍率 s・読み方（1回／二重読み）をどう選べば、T2 社会（顕微鏡はあるが電子機器はない社会）が正しく読める優先データ量 D_max が最大になるか。</p>
+<h2 id="sources-sourcesexcerptsjson">確認した事実（本回開いて確認。写しは <code>sources/</code>、抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>現存する Leeuwenhoek 顕微鏡9台の光学特性。最高倍率の Utrecht 機は 266倍、開口数 0.37、実測分解能 <strong>1.35 µm</strong>（Harting 1850・Van Cittert 1932–34 は 1.42 µm）。他の機の実測分解能は 2〜4 µm、開口数 0.11〜0.32</td>
+<td>【事実（Zuylen 1981, J. Microscopy 121:309–328, Table 1。<a href="https://docs.backyardbrains.com/assets/files/1981_Zuylen_The_microscopes_Leeuwenhoek-8223514bf5c4d49541b838032778ce8b.pdf">PDF</a>）】</td>
+</tr>
+<tr>
+<td>球面・色収差を打ち消す組合せレンズは 1825年（Lister）。Abbe 以前の設計は試行錯誤</td>
+<td>【事実（https://en.wikipedia.org/wiki/Timeline_of_microscope_technology ）】</td>
+</tr>
+<tr>
+<td>一般的な乾燥対物の開口数は 0.14〜0.7</td>
+<td>【事実（https://en.wikipedia.org/wiki/Optical_microscope ）】</td>
+</tr>
+<tr>
+<td>Piql の記録密度 1180 lp/mm（1周期 0.847 µm、最小線幅 0.42 µm）</td>
+<td>【事実（018 で確認した piql.com）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed2026102130">方法（sim.py、seed=20261021、約30秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T10:41:45Z</strong>、初回実行前）。実行後に仮説文は変更していない。「Leeuwenhoek 級・c=1」の感度は初回実行後に探索的として追加した（登録仮説の判定には使っていない）。</li>
+<li><strong>解析式（新規）</strong>：各複製のバースト状態を2状態マルコフ連鎖（入る確率 f/L、出る確率 1/L）で表し、「n 本のうち何本がバースト中か」の連鎖に沿って、8ビットすべてが多数決で正しい確率を動的計画法で厳密に計算した。バースト中のビットは誤り確率1/2、それ以外は q0=p+m−2pm。</li>
+<li><strong>MC 検証</strong>：020 と同じチャネル実装で、A5f を 40 MB（020 の20倍）、ほか4条件（3本、p=4e-3、L=20、7本）を 4 MB ずつ。</li>
+<li><strong>配分</strong>：p(s)=p_ref·(s/2)^(−β)、p_ref 対数一様 [1e-4,1e-2]、β 一様 [0,2]、読み誤り m 対数一様 [1e-4,3e-3]、バースト長 100/s ビット（いずれも【推測】）。T2 の顕微鏡の分解能 d は Leeuwenhoek 実測幅 [1.35, 4] µm の対数一様【事実の幅を T2 の代表とみなすのは推測】、読み取りの余裕係数 c∈[1,2]【推測】。読める条件 s·0.847 µm ≥ c·d。条件「P(読める かつ 残留≤目標) ≥ 0.9」を満たす構成のうち、1 MB あたり面積が最小のものを選んだ（n∈{3..11}、s∈{1..10}、4,000標本）。費用・面積換算・T2 到達と寿命の分布は 018・020 と同じ。</li>
+<li>再現：020 を <code>/tmp/rep021/</code> で再実行し results.json は runtime 以外一致（552キー）。021 は <code>/tmp/rep021b/</code> で再実行し runtime 以外一致（2,661キー）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>主な数値</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H33a</td>
+<td>A5f の解析残留が基準条件で [3e-7,1e-6]、40 MB MC が解析値のポアソン95%区間内</td>
+<td>解析 <strong>6.8e-7</strong>、MC 34件（期待27.1、区間[17,38]）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H33b</td>
+<td>A5f が 1e-6 に達する p* が 2e-3 未満</td>
+<td>p* = <strong>1.28e-3</strong>（余裕1.28倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H33c</td>
+<td>T2 光学で s=2 が読める確率 &lt;0.5、P≥0.9 の最小 s ≥4</td>
+<td>P(s=2)=<strong>0.035</strong>、最小 s=<strong>7</strong>（連続値6.5）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H33d</td>
+<td>1%予算・目標1e-6 の D_max &lt;10 MB</td>
+<td>最良は n=7・s=7・1回読み、D_max=<strong>1.9 MB</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H33e</td>
+<td>1 MB 無誤り（≤1.05e-7）に A5f は不足、A7f は足りる</td>
+<td>A5f 6.8e-7、A7f <strong>4.9e-9</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">主な数値</h2>
+<ul>
+<li><strong>解析式の妥当性</strong>：5条件すべてで MC がポアソン95%区間に入った（両側 p=0.10〜0.76）。3本多数決の解析値 9.7e-5 は、020 の A3p（9.5e-5）・019 の3複製（約1e-4）とも合う。</li>
+<li><strong>A5f の内訳</strong>（基準条件）：バーストなしの床 3.0e-7、バーストの寄与 56%。読み誤り m だけで（p→0）8.8e-8 の床がある。二重読み（m/10）なら 3.0e-7。</li>
+<li><strong>A5f の余裕は薄い</strong>：p が 1.28倍（1.28e-3）で 1e-6 を超える。7本なら p*=6.7e-3。1 MB ファイルを確率0.9で無誤りにするには、5本は p≤6.1e-5、7本は p≤3.4e-3、9本は p≤9.1e-3。</li>
+<li><strong>光学が支配する</strong>：Leeuwenhoek 級の分解能では、020 推奨の線幅2倍は読める確率 3.5%。P(読める) は s=4 で0.51、s=5 で0.71、s=7 で0.94。020 の推奨（n=5, s=2）は、残留1e-6 と読めることの同時確率が <strong>0.016</strong> しかない。</li>
+<li><strong>1%予算の D_max</strong>（P≥0.9）：</li>
+<li>Leeuwenhoek 級・c∈[1,2]：散文向け（1e-4）は n=5・s=7 で <strong>2.7 MB</strong>、1e-6 は n=7・s=7 で <strong>1.9 MB</strong>、1 MB 無誤りは n=7・s=7・二重読みで 1.9 MB。</li>
+<li>探索的に、Leeuwenhoek 級・c=1：1e-6 は n=7・s=5 で 3.8 MB。改善した光学（d∈[0.5,4] µm）・c=1：1e-6 は n=7・s=4 で 5.9 MB、散文は n=5・s=4 で 8.3 MB。</li>
+<li>3%予算でも 1e-6 は 5.8 MB（Leeuwenhoek 級）。</li>
+<li><strong>読む労力は制約にならない</strong>：最良構成で 1.7〜3.9人年/MB、1.9 MB は合計 4.2人年（中央値）。T2 到達後に寿命内に読み終える確率 0.976 は、T2 到達自体の確率 0.976 とほぼ同じ。</li>
+<li><strong>機械読み層の機会費用</strong>：1% はリールの 1.2 GB に当たり、T3 経路（018：寿命内 0.26）での期待損失は 312 MB。手読み層 1.9 MB の約160倍である。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>線幅の結論は、T2 の顕微鏡を Leeuwenhoek 実測値で代表させる仮定に依存する</strong>。Utrecht 機（1.35 µm）は当時でも例外的で、他の8台は 2〜4 µm だった【事実】。崩壊後の社会が、手引きを使ってこれより良いレンズを作れるなら、s は 4〜5 に下がる（探索的感度）。逆に、手引きがなく、眼鏡程度の光学から始めるなら s=7 でも足りない可能性がある。</li>
+<li><strong>余裕係数 c</strong> は、格子の周期を分解できることと、任意の画素列を誤りなく読めることの差を表す【推測】。c=1 にすると、Leeuwenhoek 級でも s=5 で足りる。</li>
+<li><strong>線幅による画素誤りの減り方 β</strong> と、読み誤り m の幅は推測。ただし、確率条件を決めているのは主に光学（読める確率）で、n=7 と n=9 の同時確率はほぼ光学の曲線に重なる（図右）。</li>
+<li><strong>マルコフ近似</strong>：バーストの重なりと、バースト中に新しいバーストが始まる効果を無視している。MC は5条件中4条件で解析値よりやや多い（例：34対27）が、どれも区間内。真の A5f 率は 7〜9e-7 程度で、1e-6 を下回るが余裕は2倍未満と読むのが妥当【推測】。</li>
+<li><strong>機会費用の比較（160倍）は量だけの比較</strong>である。手読み層の価値は量ではなく、T3 の読取装置を再建する手引きを T2 で読めることにある（012・014 の primer 効果）。この比較は「手読み層を増やすほど得」という主張の根拠にはならない。</li>
+<li><strong>新規性</strong>：Leeuwenhoek 顕微鏡の実測分解能を、QR フィルムの手読み層の線幅に直接つないだ計算、およびバースト＋多数決のバイト誤り率の閉じた計算（マルコフ連鎖 DP）は、確認した公開資料には見当たらない。Piql・GitHub Archive の公開資料は、人手で読む層の線幅を定めていない（019・020 で確認）。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>常時5本多数決の残留は基準条件で 6.8e-7 と確定した（解析と 40 MB の MC が一致）。1e-6 は満たすが、画素誤りが 1.3倍になれば超える。より大きな問題は線幅で、Leeuwenhoek 級の顕微鏡では、これまでの推奨「線幅2倍」はほぼ読めない（3.5%）。読める確率0.9には線幅7倍が要り、面積は s² で増えるので、リールの1%で残留1e-6を守れる優先データは約2 MB にとどまる。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>Piql・GitHub Archive Program 等の QR フィルム運営者</strong>：手読み優先層は、019・020 の「線幅2倍・5複製」から、<strong>線幅5〜7倍（2.1〜3.0 µm/画素）・離れた7複製・常時多数決</strong>に変え、リールの1%なら優先データを約 2 MB に絞るべきである。【独自仮説】最初の 0.1〜0.2 MB に、さらに太い線でレンズの作り方を書いておけば、後の層を細くできる（未検証。次回課題）。</li>
+<li><strong>本研究所</strong>：020 の運営者向け一行推奨（線幅2倍）を撤回し、本回の推奨に置き換える。</li>
+</ul>
+<h2 id="020">運営者向け一行推奨（020 を更新）</h2>
+<p><strong>手読み層：線幅5〜7倍・離れた7複製・常時多数決・1ビット/画素・攪拌なし。リールの1%で約2 MB（残留≤1e-6、読める確率≥0.9、Leeuwenhoek 級の顕微鏡を想定）。</strong></p><footer><hr><small>自動生成</small></footer></body></html>

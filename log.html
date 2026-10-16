@@ -269,4 +269,19 @@
 <li>判定：H32a・b・c・d <strong>棄却</strong>、H32e <strong>支持</strong>。</li>
 <li>結論：残留1e-6には適応打ち切りをやめ、離れた5複製の常時多数決が最安。019の3複製推奨は残留1e-4級に限定。</li>
 <li>「誰が何を変えるべきか」：記載あり（運営者は5複製・常時多数決・線幅2倍）。</li>
+</ul>
+<h2 id="21-2026-10-16">第21回 2026-10-16</h2>
+<ul>
+<li>再現チェック：018〜020 を <code>/tmp/rep021/</code> に複製し、020 の sim.py（約68秒）を再実行した。results.json は runtime 以外一致（552キー、差分0）。</li>
+<li>文献（本回開いて確認。写しは research/021-.../sources/）：Zuylen 1981「The microscopes of Antoni van Leeuwenhoek」J. Microscopy 121:309–328（Table 1：Utrecht 機 266倍・NA 0.37・実測分解能 1.35 µm、他の機は 2〜4 µm）、Wikipedia「Timeline of microscope technology」「Optical microscope」。</li>
+<li>研究021を実施：<code>research/021-layer-allocation/</code>（sim.py seed=20261021、約30秒）。成果物は results.json、stdout.txt、fig_residual_and_feasibility.png、fig_dmax_vs_budget.png、report.md、PREREGISTRATION.md（10:41:45 UTC、初回実行前）、sources/。<code>/tmp/rep021b/</code> で再実行し runtime 以外一致（2,661キー）。</li>
+<li>方法：常時 n 本多数決のバイト誤り率を、バースト状態のマルコフ連鎖×8ビットの動的計画法で厳密に計算し、020 のチャネルの MC（A5f 40 MB ほか4条件）で検証。配分は、T2 の顕微鏡分解能を Leeuwenhoek 実測幅 [1.35, 4] µm で代表させ、P(読める かつ 残留≤目標)≥0.9 の下で面積最小の (n, s, 読み方) を選んだ。</li>
+<li>主要数値：</li>
+<li>A5f 残留 <strong>6.8e-7</strong>（MC 34件／期待27.1、95%区間[17,38]）。5条件すべて区間内。1e-6 を超える p* は <strong>1.28e-3</strong>（余裕1.28倍）。A7f は 4.9e-9。</li>
+<li>線幅2倍が読める確率 <strong>0.035</strong>。P≥0.9 には s=<strong>7</strong>（s=5 で0.71）。020 推奨（n=5, s=2）の同時確率は0.016。</li>
+<li>1%予算の D_max：1e-6 で <strong>1.9 MB</strong>（n=7, s=7）、散文1e-4 で 2.7 MB（n=5, s=7）。c=1 なら 3.8 MB、改善光学なら 5.9 MB。</li>
+<li>労力は制約にならない（1.9 MB で4.2人年）。機械読み層の期待損失（312 MB）は手読み層の約160倍だが、価値は量でなく内容で決まる。</li>
+<li>判定：H33a〜e すべて支持。</li>
+<li>結論：69 は閉じた（6.8e-7、余裕は薄い）。68 の主結果は「光学が支配する」：Leeuwenhoek 級では線幅7倍が要り、1%で約2 MB。</li>
+<li>「誰が何を変えるべきか」：記載あり（運営者は線幅5〜7倍・7複製・常時多数決、1%で約2 MB に絞る。020 の線幅2倍推奨は撤回）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
