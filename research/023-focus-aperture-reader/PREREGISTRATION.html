@@ -1,0 +1,25 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究023 事前登録（初回実行前に記録：2026-10-16T14:37:00Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="023-2026-10-16t143700z">研究023 事前登録（初回実行前に記録：2026-10-16T14:37:00Z）</h1>
+<h2 id="_1">問い</h2>
+<p>(A, open_problems 74) 022 の部分コヒーレント結像にデフォーカス走査を加え、焦点・開口・照明 σ を同時に選ぶ読者の余裕係数 c は、022 探索的（開口と σ のみ）の中央値 1.45 と比べてどれだけ小さいか。あわせて、フィルム先頭の試験パターンを見て開口を選ぶ手順で、何段あれば最適開口の何%以内に入るか。
+(C, open_problems 76) Svihla 1967 など Leeuwenhoek 型レンズ再現の公開記録から、022 の d'∈[1.1,1.6] µm と P_g≈0.5 の損益分岐を評価できるか。</p>
+<h2 id="_2">方法（予定）</h2>
+<ul>
+<li>単位・光学：022 と同じ（長さ λ/NA、Abbe 法・円形光源 σ、球面収差 Z(4,0) は Rayleigh RMS×R）。本回は瞳にデフォーカス Z(2,0)=√3(2ρ²−1) を RMS×D で加える（D∈{−2,−1,−0.5,0,0.5,1,2}）。計算は NPIX=96・乱数画素4枚・光源48点（022は128・8・64）。D=0 の基準セルで 022 との差を報告する。</li>
+<li>開口の絞り：開口を t 倍にすると球面収差は t⁴ 倍、長さ単位は 1/t。焦点 D は各開口で独立に選ぶ。</li>
+<li>c = 2·w*/P_res。P_res は格子測定を全開（R_lens、D=0、測定用 σ）で行う（022 explore と同じ規約）。格子上一様：σ∈{0.1,0.2,0.3,0.45,0.6}、R_lens∈{0,1,2,3,5}、σ_n∈{0.02,…,0.1}、C_th∈{0.03,…,0.2}、目標 1e-4。</li>
+<li>試験パターン：周期を対数等間隔の N 段の 50% 振幅格子。読者手順（登録）：全開から絞り候補 t を走査し、コントラスト≥C_vis の段数を最大にする t を選ぶ（同点なら最も細い分解段を優先）。最適 t* は画素誤り≤1e-4 の最小 w* を与える開口。雑音は各コントラストに加法ガウス ε〜N(0,σ_vis²)。</li>
+<li>文献：Svihla 1967 等を WebFetch/curl で探し、再現レンズの分解能 µm が公開されていれば d'・P_g に照らす。見つからなければ未確認と明記。</li>
+</ul>
+<h2 id="_3">仮説（判定基準つき）</h2>
+<ul>
+<li><strong>H35a</strong>：焦点も最適化する読者の c の中央値（目標1e-4・格子上一様）は、同じ格子での開口+σのみ最適化（D=0に固定）の中央値より <strong>5%以上小さい</strong>（比 ≤0.95）。</li>
+<li><strong>H35b</strong>：焦点+開口+σ の c 中央値は <strong>1.45 以下</strong>（022 explore の開口のみ中央値）。</li>
+<li><strong>H35c</strong>：N=5 段・C_vis=0.10・σ_vis=0.03・絞り候補 8 点の手順で、|t_chosen/t*−1|≤0.20 となる確率が、R_lens∈{1,2,3,5}×σ∈{0.2,0.3,0.45}×σ_n=0.05 のセルの <strong>80%以上</strong>。</li>
+<li><strong>H35d</strong>：N=3 段では同条件の確率が <strong>50%未満</strong>（3段では足りない）。</li>
+<li><strong>H35e（方法の検証）</strong>：D=0・σ=0.3・R=0・C_th=0.15・σ_n=0.05・目標1e-4 の c が、022 の同条件値 1.41 の <strong>±15%</strong> に入る。</li>
+</ul>
+<h2 id="_4">判定の約束</h2>
+<ul>
+<li>棄却も報告する。実行後に仮説文を書き換えない。追加の解析は「探索的」と明記する。</li>
+<li>文献の数値は実際に開いて確認した公開URLのみ。捏造しない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
