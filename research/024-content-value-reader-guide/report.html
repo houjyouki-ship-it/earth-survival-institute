@@ -1,0 +1,123 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究024：手読み層を「内容」で測る — T3 読取装置の製作手引きの価値（open_problems 73） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="024-t3-open_problems-73">研究024：手読み層を「内容」で測る — T3 読取装置の製作手引きの価値（open_problems 73）</h1>
+<h2 id="_1">問い</h2>
+<p>021〜023 で、QR フィルムの手読み層はリール面積1%で約1.9 MB（段階書式で約3.5 MB）と決まった。021 は「機械読み層の期待損失は手読み層の約160倍」と量で比べたが、手読み層の<strong>中身</strong>次第で機械読み層（120 GB/リール）が読まれる確率そのものが変わりうる。本回は、手読み層に「光電読取＋真空管論理の読取装置の製作手引き」を入れたとき、機械読み層の価値のうち寿命内・1000年以内に読まれる期待値 V がどれだけ上がるか、一般データに使う場合との損益分岐、同じ手引きを同じ金庫のセラミック板（T1）に置く場合と比べた。</p>
+<h2 id="sources">確認した事実（本回開いて確認・測定。<code>sources/</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Radiotron Designer's Handbook（真空管回路の標準参考書）：2版 58ページ、3版 352ページ、4版 1952〜60年</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Radiotron_Designer%27s_Handbook">Wikipedia: Fritz Langford-Smith</a>）】</td>
+</tr>
+<tr>
+<td>同4版（1954）の OCR 全文は 5.36 MB、空白を詰めて <strong>4.45 MB</strong>（図を含まない）、lzma で 1.10 MB</td>
+<td>【事実（<a href="https://archive.org/details/bitsavers_rcaRadiotr1954_94958503">archive.org bitsavers</a> の djvu.txt を本回測定）】</td>
+</tr>
+<tr>
+<td>真空管・真空ポンプ・光電効果・Colossus・Williams 管・磁気コア・RS 符号・LFSR・ガラス吹きなど18記事の平文合計 <strong>0.725 MB</strong></td>
+<td>【事実（英語版 Wikipedia API を本回測定。<code>text_sizes.json</code>）】</td>
+</tr>
+<tr>
+<td>Colossus の光電読取機構は Speight と Lynch が開発。General Report on Tunny は500ページ（暗号解析の報告で、製作書ではない）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Colossus_computer">Wikipedia: Colossus computer</a>）】</td>
+</tr>
+<tr>
+<td>CdS 光導電セルは応答に約10 ms（暗転時は最大約1秒）かかる</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Photoresistor">Wikipedia: Photoresistor</a>）】</td>
+</tr>
+<tr>
+<td>製作に十分な手引きの字数そのもの</td>
+<td><strong>未確認</strong>。上の2つは「説明だけ」と「回路設計の全書」のアンカーで、g_req~logU[0.725, 8.9] MB（上端は RDH4×2：管・ポンプ・ガラスの製作工程の余裕）とした【推測】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">方法</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T16:47:50Z</strong>、初回実行前）。仮説文・主設定は実行後に変えていない。</li>
+<li><code>sim.py</code>（seed=20261024、N=200,000、約1.5秒）。012 の梯子（d01・d12、d23 σ=0.8）、Piql 寿命（500〜2000年×金庫割引 [0.3,1]、Weibull k=2）、H=1000年、023 の手読み層の読取確率 0.931、018 の最小人口 N_min の式を入力にした。</li>
+<li>一般経路：T3=T2+m23·e^{0.8Z}（主設定 m23=943）。狙い撃ち経路：T2 で手引きを読み、t_build~LN(20年, 0.7) で読取装置を作る。成功確率 P_max·c^κ（c=min(1, g/g_req)）、人口条件 N_min&lt;N_T2。狙い撃ち装置が届けるのは機械読み層の価値の割合 q（XZ のメモリ壁（018）で非圧縮部分と小さいファイルだけ。主設定0.3）。V=max(q·狙い撃ち成功, 一般経路成功)。</li>
+<li>方策：P0 なし／P1(f) 手読み層の f を手引きに／P2 同じ金庫のセラミック板に全量（金庫から失われる確率 U[0.1,0.5]）／P3 板＋手読み層25%。</li>
+<li>再現：023 を <code>/tmp/rep024/</code> に 021・022 と並べて複製し <code>sim.py</code>（キャッシュあり約59秒）を再実行、results.json は runtime 以外一致（1,083キー、差分0）。024 は <code>/tmp/rep024b/</code> で再実行し runtime 以外完全一致。</li>
+</ul>
+<h2 id="m23943-q03-d19-mb">事前登録した仮説と判定（主設定 m23=943, q=0.3, D=1.9 MB）</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H36a</td>
+<td>ΔV(手読み層100%を手引き) ≥ 0.05</td>
+<td><strong>+0.086</strong>（0.224→0.310）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H36b</td>
+<td>板 P2 ≥ 手読み層 P1(f=1)</td>
+<td>0.317 対 0.310</td>
+<td><strong>支持</strong>（僅差。D=3.5 MB では逆転 0.317 対 0.331）</td>
+</tr>
+<tr>
+<td>H36c</td>
+<td>損益分岐 R*(f=0.5) ≥ 0.05</td>
+<td><strong>0.124</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H36d</td>
+<td>m23=300 では ΔV &lt; 0.02</td>
+<td><strong>0.041</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H36e</td>
+<td>感度最大の入力は g_req</td>
+<td>g_req（五分位差 0.089）＞P_max 0.068＞寿命 0.035＞κ 0.024</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H36f</td>
+<td>板があれば手読み層の手引きの追加分 &lt; 0.01</td>
+<td><strong>0.0095</strong></td>
+<td><strong>支持</strong>（境界。D=3.5 MB で 0.016、g_req 下側で 0.011 と頑健でない）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>主設定の分解</strong>：一般経路で寿命内に読める確率 0.224。手引き（1.9 MB）での狙い撃ち成功 0.373（うち一般経路が失敗する標本 0.286）。g_req≤1.9 MB の確率は 0.38、被覆率 c の中央値 0.75。人口条件はほぼ常に満たす（0.996）、T2 中央値55年、t_build 中央値20年で、時間はほとんど制約にならない。</li>
+<li><strong>q と m23 の依存</strong>（ΔV、手読み層100%）：q=0.1 で 0.007〜0.033、q=0.3 で 0.020〜0.100、q=1 で 0.068〜0.334（m23=150〜1600）。ΔV はほぼ q に比例し、一般回復が遅いほど大きい。</li>
+<li><strong>損益分岐 R</strong>*（手読み層の一般データ全体の価値／機械読み層全体の価値、これより小さければ手引きが得）：主設定で f=0.25 が 0.134、0.5 が 0.124、1.0 が 0.092。q=1 なら 0.31〜0.45。価値をバイト数に比例させると v_h=1.6e-5 で、比較にならない（量で測ると手引きが常に勝つ）。</li>
+<li><strong>板と手読み層</strong>：板だけで ΔV=+0.093、板＋手読み層25%で +0.102。手引きは板に置けば容量制約がなく、手読み層を一般データに残せる。ただし板が金庫から失われるリスクがあるので、手読み層に25%の控えを置く価値は +0.0095（R* 換算 0.04）。</li>
+<li><strong>g_req の範囲の感度</strong>：[0.725, 4.45] MB なら ΔV(P1 f=1)=0.104 で板より上、[2, 8.9] MB なら 0.061 で板（0.093）が明確に勝つ。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>q は推測で、結果をほぼ比例で支配する</strong>【推測】。Colossus 級の読取装置は MB 級の RAM を持たず、XZ の大半を展開できない（018）。q=0.3 は「非圧縮の Tech Tree と小さい repo」程度の想定で、根拠はない。手引きに磁気コアの製作まで入れれば q は上がるが g_req も増える（相殺はモデル化していない）。</li>
+<li><strong>g_req のアンカーは字数だけ</strong>【推測】。RDH4 は回路設計の参考書で、管・ポンプ・ガラスの製作は含まない。一方、受信機・音響など不要な章も多い。図は OCR 字数に入らない。図を手読み層の画素で持つと費用は増える。</li>
+<li><strong>手引きは一般経路を速めない</strong>として扱った（保守的）。012 の primer 効果 a を手引きにも与えれば ΔV は上がる。</li>
+<li><strong>P_max∈[0.3,0.9] は根拠がない</strong>【推測】。五分位で ΔV が 0.052〜0.120 と2倍以上動く（g_req に次ぐ）。</li>
+<li><strong>H36d 棄却の意味</strong>：一般回復が速い（m23=300）場合でも、寿命の短い側の標本（Piql の寿命中央値521年）で狙い撃ちが効き、ΔV は 0.04 残る。「回復が速ければ手引きは不要」は成り立たない。</li>
+<li><strong>人口は制約にならなかった</strong>のは、018 の N_min（中央値5.3万）が T2 の国の人口（0.5〜5百万【推測】）より小さいため。崩壊後の T2 社会がもっと小さい場合は再検討が要る。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>手読み層を「内容」で測ると、量で比べた 021 の結論（機械読み層の損失が160倍）は逆向きになりうる。主設定では、手読み層の半分を読取装置の手引きにすると、機械読み層の期待読取価値が +0.058 上がる。手読み層の一般データ全体が機械読み層全体の約12%以上の価値を持たない限り、手引きの方が得である（R*=0.124）。ただし、同じ手引きを同じ金庫の T1 セラミック板に置けば、容量制約なしで同程度以上の効果（+0.093）が得られ、手読み層はデータに残せる。手読み層に置く手引きは、板が失われた時の控え（25%で +0.01）としての価値にとどまる。最大の未知は手引きの必要量 g_req で、成功確率 P_max と、狙い撃ち装置が届ける価値の割合 q が続く。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>QR フィルム運営者（Piql・GitHub Archive Program など）</strong>：光電読取＋真空管論理の読取装置の製作手引き（数 MB、回路・管・真空ポンプ・光電セル・Piql 書式の復号手順）を、同じ金庫の T1 セラミック板（MOM 定価で1枚 €195、500万字）に置く。手読み層には、023 の焦点・開口の図に加え、手引きの要約（全体の約25%）を控えとして置き、残りは一般データにする。さらに、狙い撃ち装置でも読めるよう、優先データは XZ で圧縮せずに書く（q を上げる。018 の結論と同じ方向）。</li>
+<li><strong>本研究所</strong>：手読み層の評価を「量（MB）」から「機械読み層の期待読取価値への寄与」に切り替える。次は g_req（製作手引きの必要量）と q（非圧縮・小ファイルの割合）の外部根拠を取る。</li>
+</ul>
+<h2 id="_6">新規性</h2>
+<p>Ord『The Precipice』や XPT は崩壊後の知識保存の内容を扱わない。GitHub Archive の Guide は「計算機ができるまで保管せよ」と書き、Tech Tree は一般的な技術回復を狙う。本研究は、アーカイブ自身を読むための装置に絞った手引き（狙い撃ち経路）を、一般回復の経路と並べて、手読み層とセラミック板のどちらに置くかを期待読取価値と損益分岐で比べた。この比較は、確認した公開資料（GitHub GUIDE、Piql、MOM、Dartnell）には見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_gain_vs_m23.png</code>、<code>fig_breakeven_tornado.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>（text_sizes.json、Wikipedia 18記事の平文、excerpts.json）。</p><footer><hr><small>自動生成</small></footer></body></html>

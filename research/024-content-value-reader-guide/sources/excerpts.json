@@ -1,0 +1,10 @@
+{
+ "accessed": "2026-10-16",
+ "items": [
+  {"url": "https://en.wikipedia.org/wiki/Radiotron_Designer%27s_Handbook", "note": "Redirects to Fritz Langford-Smith. Lists RDH editions: 2nd ed. 1935 (58 pages); 3rd ed. 1940/1941 (352 pages); 4th ed. 1952/1953/1960. Called the 'bible' of vacuum tubes and their circuits."},
+  {"url": "https://archive.org/details/bitsavers_rcaRadiotr1954_94958503", "note": "bitsavers scan 'rca :: Radiotron Designers Handbook 1954'. OCR text file Radiotron_Designers_Handbook_1954_djvu.txt = 5,361,847 bytes; whitespace-normalized 4,454,473 UTF-8 bytes (measured this round, OCR text, figures excluded); lzma -6 1,098,396 bytes."},
+  {"url": "https://en.wikipedia.org/w/api.php (prop=extracts, explaintext)", "note": "Plain-text extracts of 18 English Wikipedia articles, total 725,209 UTF-8 bytes (per-article sizes in text_sizes.json; texts saved as wp_*.txt)."},
+  {"url": "https://en.wikipedia.org/wiki/Colossus_computer", "note": "Photoelectric reading mechanism developed by Erie Speight and Arnold Lynch; 'General Report on Tunny' is a 500-page technical report (cryptanalysis, not construction)."},
+  {"url": "https://en.wikipedia.org/wiki/Photoresistor", "note": "Photoresistors (e.g., CdS) have ~10 ms latency (dark lag up to ~1 s), less sensitive than photodiodes; used here only qualitatively: a slow photocell limits a hand-built reader's speed."}
+ ]
+}

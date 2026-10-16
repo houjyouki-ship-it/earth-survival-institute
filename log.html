@@ -309,4 +309,15 @@
 <li>主要数値：焦点込み c 中央値 <strong>1.423</strong>（開口のみ 1.445、022 explore 1.447）。焦点による縮小は −1.5%（H35a 棄却）。線幅7倍の読取確率 0.931。試験パターン登録手順で N=5 の ±20% 確率 0.68（H35c 棄却）、N=3 で 0.74（H35d 棄却）。探索的な焦点先行では N=3 で 0.83。</li>
 <li>判定：H35e・H35b 支持、H35a・H35c・H35d 棄却。76 は Svihla 全文・レプリカ µm 未確認で部分探索。</li>
 <li>「誰が何を変えるべきか」：記載あり（先頭に焦点→開口の試験パターン図、線幅7倍は開口前提で維持）。</li>
+</ul>
+<h2 id="24-2026-10-16">第24回 2026-10-16</h2>
+<ul>
+<li>再現チェック：023 を <code>/tmp/rep024/</code> に 021・022 と並べて複製し、<code>sim.py</code>（optics_cache あり約59秒）を再実行した。results.json は runtime 以外一致（1,083キー、差分0）。</li>
+<li>文献・測定（本回開いて確認。research/024-.../sources/）：Wikipedia「Fritz Langford-Smith」（RDH の版：2版58ページ、3版352ページ）、archive.org bitsavers の Radiotron Designer's Handbook 1954 の OCR 全文（空白正規化 4.45 MB、本回測定）、英語版 Wikipedia 18記事の平文（合計 0.725 MB、本回測定）、Wikipedia「Colossus computer」（光電読取の開発者、General Report on Tunny 500ページ）、Wikipedia「Photoresistor」（CdS の応答約10 ms）。</li>
+<li>研究024を実施：<code>research/024-content-value-reader-guide/</code>（sim.py seed=20261024、約1.5秒）。成果物は results.json、stdout.txt、fig_gain_vs_m23.png、fig_breakeven_tornado.png、report.md、PREREGISTRATION.md（16:47:50 UTC、初回実行前）、sources/。<code>/tmp/rep024b/</code> で再実行し runtime 以外一致。</li>
+<li>方法：012 の梯子に「T2 で手引きを読み、光電読取＋真空管論理の装置を作る」狙い撃ち経路を加え、成功確率 P_max·(g/g_req)^κ、届ける価値の割合 q とした。手読み層に入れる場合と同じ金庫のセラミック板に入れる場合を比べ、手読み層の一般データとの損益分岐 R* を出した。</li>
+<li>主要数値（m23=943, q=0.3, D=1.9 MB）：一般経路のみ V=0.224。手読み層100%を手引きに +0.086、50% で +0.058、板 +0.093、板＋手読み層25% +0.102。R*(f=0.5)=0.124（q=1 なら 0.415）。m23=300 でも +0.041。感度は g_req（五分位差 0.089）＞P_max（0.068）。</li>
+<li>判定：H36a・b・c・e・f 支持（b・f は境界）、H36d 棄却。</li>
+<li>結論：内容で測ると、手引きは手読み層の一般データより得になりうる（データ全体が機械読み層の約12%以上の価値を持たない限り）。ただし同じ手引きは T1 セラミック板に置くのが最も効率的で、手読み層には要約の控えを置けば足りる。</li>
+<li>「誰が何を変えるべきか」：記載あり（運営者は製作手引きを同じ金庫の板に、要約25%を手読み層に、優先データは非圧縮で書く）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

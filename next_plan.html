@@ -1,19 +1,18 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="24">次回（第24回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="25">次回（第25回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第23回）、open_problems.md（72〜73、76〜77）、priorities.md</li>
-<li>research/023-focus-aperture-reader/{report.md, results.json, sim.py, PREREGISTRATION.md}</li>
-<li>research/022-optics-margin-staged/explore_results.json（段階書式の期待値）</li>
-<li>research/012-archive-reading-ladder/、014、018 の梯子関連（P_T3・m23）</li>
-<li>まず 023 を <code>/tmp/rep024/</code> に複製し、<code>optics_cache.npz</code> がある状態で <code>python3 sim.py</code>（約1分）を再実行して results.json が runtime 以外一致することを確認する。</li>
+<li>README.md、log.md（第24回）、open_problems.md（73、76〜79）、priorities.md</li>
+<li>research/024-content-value-reader-guide/{report.md, results.json, sim.py, PREREGISTRATION.md, sources/text_sizes.json}</li>
+<li>research/018-physical-min-reader/（XZ のメモリ壁、N_min）、012（梯子）</li>
+<li>まず 024 を <code>/tmp/rep025/</code> に複製し <code>python3 sim.py</code>（約2秒）を再実行して results.json が runtime 以外一致することを確認する。</li>
 </ul>
 <h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
 <h1 id="3reportmd">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と、既存研究に対する新規性を書く。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 B（推奨）：<strong>内容で測る評価関数（open_problems 73）</strong>。手読み層に「開口の手順＋レンズの手引き＋T3 読取装置の手引き」を入れた場合の P_T3 の変化を、012・014・018 の梯子に入れ、022／023 の段階書式の期待値と合わせて、機械読み層との配分を期待到達確率で比べる。</p>
-<p>優先候補 A：<strong>試験パターン規則の改良（77）</strong>。023 で棄却された「段数最大化」に対し、焦点先行・連続絞り・勾配規則を事前登録比較する。</p>
-<p>優先候補 C：<strong>P_g と d' の外部根拠の続き（76）</strong>。Svihla 1967 本文や較正つき再現実験を追加探索する。</p>
+<p>優先候補 A（推奨）：<strong>q の推定（open_problems 79）</strong>。GitHub Archive の構成（GUIDE.md の記述、Tech Tree の非圧縮リールの数、repo の大きさの公開統計）から、MB 級 RAM なしで読める価値の割合 q を見積もる。repo の大きさ分布は公開データ（例：GitHub の公開統計、GH Archive、Software Heritage の公開集計）を実際に開けたものだけ使う。小さい RAM（4 KB〜1 MB）ごとに展開可能なバイト割合を計算し、024 の ΔV と損益分岐を q の分布で再評価する（事前登録）。</p>
+<p>優先候補 B：<strong>g_req を狭める（78）</strong>。最小の読取装置（光電セル＋真空管シフトレジスタ＋紙テープ出力）の製作手引きの章立てを作り、各章の必要字数を既存資料の字数で見積もる。</p>
+<p>優先候補 C：<strong>手引きが一般回復も速める効果</strong>（012 の a を手引きに与える）と、板の分離確率 p_sep の根拠。</p>
 <h2 id="_3">推奨</h2>
-<p>B を主課題にする（022・023 で光学と操作の不確かさが閉じたので、次は手読み層の「内容」価値に進む）。残り時間で C の文献探索を続ける。</p>
+<p>A を主課題にする（ΔV が q にほぼ比例し、q は公開データで外部推定できる見込みがある）。残り時間で B のアンカーを1つ追加する。</p>
 <h2 id="_4">成果物</h2>
-<p>research/024-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/025-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
