@@ -400,10 +400,11 @@ R["hypotheses"] = H
 PERIOD_UM = 1000.0 / 1180.0
 S_LIST = (1, 1.5, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 16, 20)
 Salloc = 4000
-def logu(lo, hi, n=Salloc): return np.exp(rng.uniform(np.log(lo), np.log(hi), n))
+rng_alloc = np.random.default_rng(SEED + 7)
+def logu(lo, hi, n=Salloc): return np.exp(rng_alloc.uniform(np.log(lo), np.log(hi), n))
 d_res = logu(1.35, 4.0)
 allc = np.array(cvals(COPT_JT, 1e-4))
-c_all = allc[rng.integers(0, allc.size, Salloc)]
+c_all = allc[rng_alloc.integers(0, allc.size, Salloc)]
 R["P_readable_by_s_joint"] = {str(s): float((s * PERIOD_UM >= c_all * d_res).mean()) for s in S_LIST}
 R["s_min_P90_joint"] = min([s for s in S_LIST if R["P_readable_by_s_joint"][str(s)] >= 0.9], default=None)
 

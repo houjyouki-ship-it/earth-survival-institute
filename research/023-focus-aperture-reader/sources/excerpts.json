@@ -1,0 +1,46 @@
+{
+ "zuylen1981_svihla": {
+  "url_opened": "file:research/021-layer-allocation/sources/zuylen1981.txt (PDF previously saved from https://docs.backyardbrains.com/assets/files/1981_Zuylen_The_microscopes_Leeuwenhoek-8223514bf5c4d49541b838032778ce8b.pdf)",
+  "citation": "Svihla, George (1967) The yeast cell: What did Leeuwenhoek see? The Microscope, 15, 289-300.",
+  "summary_by_zuylen": "Svihla ground and polished lenses similar to Leeuwenhoek's on an electrically driven spindle with modern abrasives, polished on pitch. Some aspherical surfaces by hand-lens exam, but observations do not suggest less than normal spherical aberration. Empirically controlled illuminating NA by source extent; candle efficient for transparent objects. NO numeric resolving power (µm) for Svihla's replicas is quoted by Zuylen.",
+  "full_text_of_svihla_1967": "NOT FOUND this round (Crossref/EuropePMC/curl searches; The Microscope 15:289-300 not open-accessed)."
+ },
+ "cocquyt2021": {
+  "url_opened": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8121416/fullTextXML",
+  "also": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8121416/",
+  "doi": "10.1126/sciadv.abf2402",
+  "facts": [
+   "Utrecht 266x instrument: measured resolving power 1.35 µm",
+   "Working aperture NA 0.37 (object-side 0.55 mm, eye-side 0.70 mm apertures)",
+   "Diffraction-limited theoretical resolve ~1.0 µm at that NA",
+   "Walther: spherical aberration prime harmful effect; balance magnification vs resolving power by careful aperture proportional to power, up to ~x270",
+   "Craftsmanship and careful aperture control, not secret aspheric technique, made the difference (neutron tomography shows ball-shaped lens)"
+  ]
+ },
+ "lensonleeuwenhoek_visibility": {
+  "url_opened": "https://lensonleeuwenhoek.net/content/visibility",
+  "facts": [
+   "Of Leeuwenhoek's surviving lenses, nine measured by van Zuylen early 1980s; resolving power range 1.16 to 4 microns."
+  ]
+ },
+ "azevedo2005": {
+  "url_opened": "http://www.microscopy-uk.org.uk/mag/artoct05/aalens.html",
+  "facts": [
+   "DIY ball-lens Leeuwenhoek-type replica ~100x initially; later higher claimed screen magnifications. No calibrated µm resolving-power measurement reported."
+  ]
+ },
+ "ford_infocus": {
+  "url_opened": "https://brianjford.com/a-07-infocus-avl.pdf",
+  "facts": [
+   "Replica/simple microscope images: fine hairs <2 µm; hyphae 0.7 µm breadth clearly resolved with 0.7 mm aperture lens",
+   "Thanks list includes Dr George Svihla (no Svihla 1967 resolution numbers)",
+   "Modern conventional resolution ~0.2 µm; Leeuwenhoek instruments less than 4x less efficient (qualitative comparison)"
+  ]
+ },
+ "quekett_replicas": {
+  "url_opened": "https://www.quekett.org/resources/article-archive/replica-leeuwenhoek-microscopes",
+  "facts": [
+   "Modern commercial/hobby replicas (e.g. Chris Kirby) exist; article describes construction, not measured resolving power in µm."
+  ]
+ }
+}
