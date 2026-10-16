@@ -1,0 +1,126 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究022：余裕係数 c の光学計算と段階書式（open_problems 71・72） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="022-c-open_problems-7172">研究022：余裕係数 c の光学計算と段階書式（open_problems 71・72）</h1>
+<h2 id="_1">問い</h2>
+<p>(71) 021 の読取条件「交互パターンの周期 2w ≥ c·d」（d は格子で測った顕微鏡の分解能）の余裕係数 c は、部分コヒーレント結像の計算で何倍か。021 の事前分布 c∈[1,2]【推測】は妥当か。
+(72) 段階書式（最初の小さな層を太い線でレンズ作りの手引きにし、本体を細くする）は、リール1%・残留1e-6 で単層より何倍の D_max を与えるか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>照明を制御できない条件での現実的な分解能は d=λ/(1.3·NA)。良い近代レンズと中心照明で 1.7 倍。古い両凸レンズで 1.5 を超えるものはごく少なく、0.5 もありうる</td>
+<td>【事実（Zuylen 1981, J. Microscopy 121, pp.325–326。021 で保存した <a href="https://docs.backyardbrains.com/assets/files/1981_Zuylen_The_microscopes_Leeuwenhoek-8223514bf5c4d49541b838032778ce8b.pdf">PDF</a> の写しを再読）】</td>
+</tr>
+<tr>
+<td>球面収差の実用限界は「像の中心強度が 80% に下がる量」（Rayleigh 限界）。3倍を超えると照明の開口を絞る必要があり、平行光なら20倍でも像は使えるが分解能は上がらない。Table 1 の計算値は 2〜5 倍の開口で出している</td>
+<td>【事実（同上 p.325）】</td>
+</tr>
+<tr>
+<td>開口 0.5 mm・NA 0.30・球面収差 2.5 倍の両凸レンズは単式顕微鏡としてほぼ最適で 1.17 µm を分解するはず。半径 0.54 mm のガラス球は 1.11 µm</td>
+<td>【事実（同上 pp.325–326）】</td>
+</tr>
+<tr>
+<td>Rayleigh 基準は極大間の谷が 26%。コンデンサーを使う場合 r=1.22λ/(NA_obj+NA_cond)。棒パターンで測る限界分解能は CTF であり MTF ではない</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Optical_resolution">Wikipedia: Optical resolution</a>）】</td>
+</tr>
+<tr>
+<td>Nobert の刻線試験板は 1840 年に始まり、1851 年に20段、1855 年に30段</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Friedrich_Adolph_Nobert">Wikipedia: Friedrich Adolph Nobert</a>）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">方法</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T12:41:17Z</strong>、初回実行前）。仮説文は実行後に変えていない。<code>explore.py</code>（絞りを最適化する読者）は初回実行後に追加した<strong>探索的</strong>解析で、登録仮説の判定には使っていない。</li>
+<li><code>sim.py</code>（seed=20261022、約340秒）：長さを λ/NA で測る。0/1 振幅透過の正方画素、円形光源（σ、Abbe 法、64点）、円形瞳＋焦点補償つき球面収差 Z(4,0)（Rayleigh 限界＝RMS 0.0754λ の R 倍）。画素中心の振幅を、瞳上の積分で作った離散畳み込み核から厳密に計算し（全透過で強度1に正規化）、128×128 乱数画素×8枚（13.1万画素）と1次元乱数バー 65,536 本で、加法ガウス雑音 σ_n と最適単一閾値での画素誤り率を求めた。格子分解能 P_res は 50% 振幅格子の像コントラストが C_th を下回らない最小周期。c=2w*/P_res（w* は誤り率≤目標の最小画素幅）。格子 σ∈{0.1,0.2,0.3,0.45,0.6}×R∈{0,1,2,3,5}×C_th∈{0.03,…,0.2}×σ_n∈{0.02,…,0.1}（625 セル、いずれも幅は【推測】）。</li>
+<li>配分と段階書式は 021 と同じ事前分布・解析式（常時多数決のマルコフ DP）・面積換算で、c だけを置き換えた。</li>
+<li>再現：021 を <code>/tmp/rep022/</code> で再実行し results.json は runtime 以外一致（2,661キー）。022 は <code>/tmp/rep022b/</code> で sim.py と explore.py を再実行し、results.json・explore_results.json とも runtime 以外一致した。</li>
+</ul>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>主な数値</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H34e</td>
+<td>収差なし・C_th=0.05 で P_res·NA/λ が 1/(1+σ) の ±15%</td>
+<td>比 1.01〜1.06（5点）</td>
+<td><strong>支持</strong>（方法の検証）</td>
+</tr>
+<tr>
+<td>H34a</td>
+<td>収差なし・σ=0.3・C_th=0.15・σ_n=0.05・1e-4 で c∈[1,2]</td>
+<td>c=<strong>1.41</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H34b</td>
+<td>2次元画素の c が1次元バーの 1.2倍以上</td>
+<td>1.41 対 1.08、<strong>1.30倍</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H34c</td>
+<td>球面収差 R=3 で c が 20% 以上大きくなる</td>
+<td>c=<strong>4.42</strong>（3.1倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H34d</td>
+<td>P(読める)≥0.9 の最小 s が 7 以上</td>
+<td>線幅20倍でも 0.80。最小の s は<strong>存在しない</strong>（625セルの15%は線幅4λ/NAまで誤り1e-4を下回らない）</td>
+<td>文言上は「7以上」を満たすが、コードの判定は「最小 s なし」で偽。<strong>条件付き支持</strong>（021 の推奨は過大どころか、固定開口の読者には不足）</td>
+</tr>
+<tr>
+<td>H34f</td>
+<td>期待読取量の損益分岐 P_g* &lt; 0.5</td>
+<td>手引き層そのものが P≥0.99 で読める線幅が存在せず、段階書式を組めない</td>
+<td><strong>棄却</strong>（登録モデルでは定義できない）</td>
+</tr>
+<tr>
+<td>H34g</td>
+<td>P≥0.9 条件では P_g≥0.8 でしか段階書式が勝たない</td>
+<td>同上の理由で段階書式は一度も勝たない</td>
+<td>形式上<strong>支持</strong>（自明。下の探索的解析では 0.45〜0.55 で勝ち、内容としては反対の結果）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">主な数値</h2>
+<ul>
+<li><strong>方法の検証</strong>：収差のない系の格子限界は Abbe の 1/(1+σ) と 1〜6% で一致した。σ=0.3 の格子限界から求めた Zuylen 型の係数 k=λ/(d·NA) は <strong>1.26</strong>（C_th=0.05）で、Zuylen の「照明を制御できない場合 1.3」と近い【計算と事実の照合。探索的】。</li>
+<li><strong>良いレンズなら c≈1.4</strong>：収差なしでは c の中央値 1.46（10〜90% 1.32〜1.97）で、021 の [1,2] に収まる。2次元の乱数画素は、斜め方向の周波数と孤立画素のため、1次元バー（c≈1.08）より 1.3 倍太い線が要る。</li>
+<li><strong>収差は c を急に大きくする</strong>（開口・焦点を固定した場合、中央値）：R=1 で 2.44、R=2 で 3.51、R=3 で 5.28、R=5 では 76% のセルで読めない。理由は、収差のある像は格子のコントラストが低いまま残る（低い C_th では格子が「分解されて見える」）のに、乱数画素では隣の画素の光が閾値を越えるため。全625セルでは中央値 3.13、[1,2] に入るのは 34% だけ。</li>
+<li><strong>登録モデルの読取確率</strong>（Leeuwenhoek 級 d∈[1.35,4] µm）：線幅7倍で 0.41、10倍で 0.55、20倍でも 0.80。</li>
+<li><strong>探索的：読者が絞りと照明を選ぶと c は戻る</strong>。開口を t 倍にすると球面収差は t⁴ 倍になる。R=5 のレンズでも開口を 0.67 倍に絞って R=1 にし、σ=0.6 で照らすのが最良で、c の中央値は全体で <strong>1.45</strong>（10〜90% 0.62〜2.03）。読める確率は線幅7倍で <strong>0.915</strong>、最小 s=7 で、021 の推奨と一致する（余裕はほぼない）。c&lt;1 のセルは、格子の測定を絞らずに行った（d を悪く測った）場合に出る。</li>
+<li><strong>探索的：段階書式</strong>（絞りを選ぶ読者、手引き 0.1 MB を線幅10倍・5複製で読める確率 0.991、面積はリールの 0.075%）：</li>
+<li>単層の D_max（P≥0.9）は <strong>1.93 MB</strong>（線幅7倍・7複製）。</li>
+<li>手引きの成功で d'∈[1.1,1.6] µm になるなら、段階書式が単層を上回るのは P_g≥<strong>0.45</strong>。P_g=0.7 で <strong>3.5 MB</strong>（1.8倍）、P_g=1 で 5.5 MB（線幅4倍、2.8倍）。</li>
+<li>悲観的な手引き効果 d'∈[1.35,2.3] µm では P_g≥0.5 で上回り、P_g=0.7 で 2.4 MB（1.26倍）。</li>
+<li>手引きの大きさ 0.03〜0.3 MB の違いは小さい（手引き層は 1% の 2〜23% を使う）。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li><strong>開口と焦点の固定は悲観的すぎる</strong>。登録モデルでは読者が収差を絞りで減らせない。Zuylen は、実際の使い手が照明や開口を絞ったと書いている【事実】。探索的解析では絞りだけで c がほぼ収差なしの値に戻るので、本当の問題は「読者が絞りを使うと知っているか」である【推測】。焦点の最適化は計算していない（さらに c を下げる可能性がある）。</li>
+<li><strong>c は d の測り方に依存する</strong>。格子を見えたと判断するコントラスト閾値 C_th を低く取るほど d が小さく測られ、c が大きくなる。歴史的な Nobert 試験板の判定基準は未確認で、C_th∈[0.03,0.2] は【推測】。</li>
+<li><strong>Nobert の刻線は位相物体に近い</strong>が、本計算は振幅格子で代用した。位相物体では見え方が変わる。</li>
+<li><strong>雑音 σ_n と最適閾値は理想化</strong>。閾値は較正パターンで学べると仮定した。人の目が画素ごとにどれだけ揺らいで判断するかの実測は見つけていない。</li>
+<li><strong>段階書式の d'（1.1〜1.6 µm）と P_g は推測</strong>。Zuylen の最適単レンズ計算値 1.11〜1.17 µm と Utrecht の実測 1.35 µm から幅を決めたが、手引きを読んだ人がそこまで到達できる確率の記録はない。習得年数は Piql の寿命（数百年以上）に比べ短いとみて入れていない【推測】。</li>
+<li><strong>新規性</strong>：Leeuwenhoek 級顕微鏡の格子分解能を、部分コヒーレント結像の計算で「乱数の2値画素を誤り率1e-4で読める線幅」に換算し、収差と絞りの効果を QR フィルムの手読み層の設計につないだ計算は、確認した公開資料（Piql、GitHub Archive Program、Zuylen 1981）には見当たらない。</li>
+</ul>
+<h2 id="_6">結論</h2>
+<p>良いレンズなら c≈1.4 で、021 の事前分布 [1,2] は妥当だった。ただし、収差のあるレンズを開けたまま使うと c は 2.4〜5 倍以上になり、線幅20倍でも読める確率は 0.8 にとどまる。読者が開口を絞れば c≈1.45 に戻り、021 の「線幅7倍・7複製・1%で約2 MB」がちょうど成り立つ。段階書式は、手引きの成功確率が約0.5以上なら単層を上回り、0.7 で 1.3〜1.8 倍になる（探索的）。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>QR フィルム運営者（Piql・GitHub Archive Program など）</strong>：手読み層の先頭に、肉眼か虫眼鏡で読める大きさで「レンズの開口を、試験パターンの画素が分かれて見えるまで絞る」図と、太さを段階的に変えた2値の試験パターンを置くべきである。これがなければ線幅7倍でも読める確率は約0.4に落ちる（計算上）。さらに、0.03〜0.1 MB のレンズ作りの手引きを線幅10倍で置き、本体を線幅4〜5倍にすると、手引きの成功確率が約0.5を超えれば単層を上回り、0.7 なら同じ1%で 2.4〜3.7 MB（単層 1.9 MB）に増やせる（探索的）。</li>
+<li><strong>本研究所</strong>：021 の一行推奨は「読者が絞りを使える」前提つきとして残し、絞りの手順と試験パターンを必須の付属物にする。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
