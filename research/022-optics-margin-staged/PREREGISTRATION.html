@@ -1,0 +1,27 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究022 事前登録（初回実行前に記録：2026-10-16T12:41:17Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="022-2026-10-16t124117z">研究022 事前登録（初回実行前に記録：2026-10-16T12:41:17Z）</h1>
+<h2 id="_1">問い</h2>
+<p>(B, open_problems 71) 021 の余裕係数 c（任意の画素列を読むのに必要な交互パターン周期 2w と、格子で測った分解能 d の比）は、部分コヒーレント結像の計算で何倍か。021 の事前分布 c∈[1,2] は妥当か。
+(A, open_problems 72) 段階書式（最初の小さな層を太い線でレンズ作りの手引きにし、後の層を細くする）は、リール1%・残留1e-6 で単層より何倍の D_max を与えるか。手引きの成功確率 P_g の損益分岐点はどこか。</p>
+<h2 id="_2">方法（予定）</h2>
+<ul>
+<li>単位：長さを λ/NA で測る（収差を波長単位で与えれば結果は NA に依らない）。物体は0/1の振幅透過の正方画素（幅 w）。照明は円形光源（コヒーレンス因子 σ、Abbe 法：光源点ごとのコヒーレント像の強度和、フィボナッチ配置64点）。瞳は円形で、球面収差を Zernike Z(4,0)（焦点補償つき）で与え、量は「Rayleigh 限界（Strehl 0.8 相当、RMS 0.0754λ、Zuylen 1981 の定義）の R 倍」とする。</li>
+<li>格子分解能 P_res：50%デューティの1次元振幅格子の像のコントラスト (max−min)/(max+min) が閾値 C_th を下回らない最小周期。C_th∈{0.03,0.05,0.10,0.15,0.20}（0.15 は Rayleigh の 26% の谷に相当）【推測】。</li>
+<li>画素の読み取り：128×128 の乱数画素（周期境界）×4枚、画素中心の強度に加法ガウス雑音 σ_n∈{0.02,0.035,0.05,0.07,0.10}（明部強度比）【推測】を加え、全体で最適な単一閾値で判定したときの画素誤り率 p_opt(w)。目標 p_opt≤1e-4（基準）と 1e-3。</li>
+<li>c = 2·w*/P_res（w* は p_opt≤目標を満たす最小の w、対数補間）。</li>
+<li>配分：021 と同じ p(s)、m、バースト、面積換算、Leeuwenhoek 実測幅 d∈logU[1.35,4] µm を使い、c だけを本回の計算分布（σ∈{0.1,…,0.6}、R∈{0,1,2,3,5}、C_th、σ_n の格子上一様）に置き換える。</li>
+<li>段階書式：手引き層 G=0.1 MB（n=5、散文 1e-4、事前分布で読める確率≥0.99 の最小線幅）＋本層（n=7、1e-6）。手引きが成功すれば d'∈logU[1.1,1.6] µm（Zuylen の最適単レンズ計算値 1.11〜1.17 µm と Utrecht 実測 1.35 µm から【推測】）、失敗すれば事前分布のまま。</li>
+</ul>
+<h2 id="_3">仮説（判定基準つき）</h2>
+<ul>
+<li><strong>H34e（方法の検証）</strong>：収差なし・C_th=0.05 で、P_res·NA/λ が 1/(1+σ) の ±15% に入る（σ=0.1〜0.6 の全点）。</li>
+<li><strong>H34a</strong>：収差なし・σ=0.3・C_th=0.15・σ_n=0.05・目標1e-4 で、2次元乱数画素の c は [1.0, 2.0] に入る。</li>
+<li><strong>H34b</strong>：同条件で、2次元乱数画素の c は1次元乱数バー（縦縞の乱数列）の c の 1.2倍以上。</li>
+<li><strong>H34c</strong>：σ=0.3 で、球面収差 R=3 は c を R=0 より 20%以上大きくする（d は同じ系の格子で測るとして）。</li>
+<li><strong>H34d</strong>：計算した c の分布と d∈logU[1.35,4] µm の下で、021 の格子 s∈{1,…,10} のうち P(読める)≥0.9 となる最小の s は 7 以上（021 の推奨線幅は過大でない）。</li>
+<li><strong>H34f</strong>：段階書式の期待読取量（MB×確率）が単層と等しくなる手引き成功確率 P_g* は 0.5 未満（リール1%、1e-6）。</li>
+<li><strong>H34g</strong>：「P(読める かつ 残留≤1e-6)≥0.9」の条件の下では、段階書式が単層の D_max を上回るのは P_g≥0.8 のときだけである。</li>
+</ul>
+<h2 id="_4">判定の約束</h2>
+<ul>
+<li>棄却も報告する。実行後に仮説文を書き換えない。追加の解析は「探索的」と明記する。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

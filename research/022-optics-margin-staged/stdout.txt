@@ -1,0 +1,104 @@
+grating...
+pixels...
+  w=0.250 done 23s
+  w=0.279 done 35s
+  w=0.312 done 47s
+  w=0.349 done 59s
+  w=0.390 done 71s
+  w=0.435 done 84s
+  w=0.486 done 96s
+  w=0.543 done 109s
+  w=0.607 done 121s
+  w=0.678 done 133s
+  w=0.758 done 146s
+  w=0.847 done 159s
+  w=0.946 done 171s
+  w=1.057 done 184s
+  w=1.181 done 197s
+  w=1.320 done 210s
+  w=1.474 done 223s
+  w=1.647 done 236s
+  w=1.840 done 249s
+  w=2.056 done 262s
+  w=2.297 done 274s
+  w=2.567 done 287s
+  w=2.868 done 300s
+  w=3.204 done 312s
+  w=3.580 done 324s
+  w=4.000 done 337s
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_function_base_impl.py:4609: RuntimeWarning: invalid value encountered in scalar subtract
+  diff_b_a = b - a
+allocation...
+/workspace/earth-survival-institute/research/022-optics-margin-staged/sim.py:304: RuntimeWarning: invalid value encountered in scalar multiply
+  rows.append(dict(s=s, P=P, D=D, EMB=P * D))
+{
+ "H34e": {
+  "points": {
+   "0.1": {
+    "P_res": 0.9204407562693305,
+    "abbe": 0.9090909090909091,
+    "ratio": 1.0124848318962636
+   },
+   "0.2": {
+    "P_res": 0.8504490429570788,
+    "abbe": 0.8333333333333334,
+    "ratio": 1.0205388515484946
+   },
+   "0.3": {
+    "P_res": 0.7936776408762041,
+    "abbe": 0.7692307692307692,
+    "ratio": 1.0317809331390653
+   },
+   "0.45": {
+    "P_res": 0.720126865902328,
+    "abbe": 0.6896551724137931,
+    "ratio": 1.0441839555583756
+   },
+   "0.6": {
+    "P_res": 0.6629229819617807,
+    "abbe": 0.625,
+    "ratio": 1.0606767711388492
+   }
+  },
+  "supported": true
+ },
+ "H34a": {
+  "c": 1.4066770592334041,
+  "supported": true
+ },
+ "H34b": {
+  "c_2d": 1.4066770592334041,
+  "c_1d": 1.0797155085640526,
+  "ratio": 1.3028219452957455,
+  "supported": true
+ },
+ "H34c": {
+  "c_R0": 1.4066770592334041,
+  "c_R3": 4.420038638898926,
+  "ratio": 3.142184348487002,
+  "supported": true
+ },
+ "H34d": {
+  "s_min": null,
+  "s_min_021": 7,
+  "supported": false
+ },
+ "H34f": {
+  "P_g_star_expected": null,
+  "P_g_min_P90": null,
+  "single_EMB": 0.9686674285714286,
+  "single_D_P90": 0.0,
+  "ratio_expected_at_Pg1": "inf",
+  "ratio_P90_at_Pg1": null,
+  "supported": false
+ },
+ "H34g": {
+  "P_g_min_P90": null,
+  "supported": true
+ }
+}
+c_distribution {"0.0001": {"p10": 1.3939463743010763, "p50": 3.129098818083205, "p90": "inf", "frac_inf": 0.152, "frac_in_1_2": 0.3376, "min": 1.2649931456693744, "max_finite": 8.599083029245378}, "0.001": {"p10": 1.3428494316658264, "p50": 2.8677716693029707, "p90": "inf", "frac_inf": 0.136, "frac_in_1_2": 0.3888, "min": 1.207566485369608, "max_finite": 8.189474203730942}}
+s_min {'c021': 7, 'c022': None, 'c022_1e-3': None} guide {'G_MB': 0.1, 's_g': None, 'P_read': 0.0, 'area_frac': inf, 'share_of_budget': inf}
+single {"c022": {"best_P90": null, "best_expected": {"s": 4, "P": 0.1635, "D": 5.924571428571428, "EMB": 0.9686674285714286}}, "c021": {"best_P90": {"s": 7, "P": 0.929, "D": 1.9345539358600585, "EMB": 1.7972006064139945}, "best_expected": {"s": 4, "P": 0.53625, "D": 5.924571428571428, "EMB": 3.1770514285714286}}}
+crossings {"base": {"P_g_star_expected": null, "P_g_min_P90": null, "single_EMB": 0.9686674285714286, "single_D_P90": 0.0, "ratio_expected_at_Pg1": "inf", "ratio_P90_at_Pg1": null}, "pessimistic_guide": {"P_g_star_expected": null, "P_g_min_P90": null, "single_EMB": 0.9686674285714286, "single_D_P90": 0.0, "ratio_expected_at_Pg1": "inf", "ratio_P90_at_Pg1": null}}
+runtime 338.4s
