@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究020 事前登録（初回実行前に記録：2026-10-16T08:39:25Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="020-2026-10-16t083925z">研究020 事前登録（初回実行前に記録：2026-10-16T08:39:25Z）</h1>
+<h2 id="_1">問い</h2>
+<p>019 の離れた3複製は、独立画素誤り p=1e-3＋バースト（画素割合1e-3、平均長100）で残留バイト誤り約1e-4の境界だった（種により0.76〜1.12e-4）。
+本回は、残留 ≤1e-6 を満たす最安の手読み書式を、019 と同じチャネル・費用モデルの拡張で比べる。</p>
+<h2 id="1">比べる書式（いずれも1ビット/画素の点書式を基線とし、最後に文字書式を感度分析）</h2>
+<ol>
+<li><strong>A5</strong>：離れた5複製・適応読み（まず2本、食い違い時だけ追加して多数決）</li>
+<li><strong>A3p</strong>：離れた3複製＋行ごとの偶奇検査和（32バイト＝256ビットごとに偶奇1ビット。目で数えられる）</li>
+<li><strong>A3e</strong>：離れた3複製＋消失読み（バースト区間のうち目視で分かる割合 v は読まず別複製へ。v∈{0.3,0.5,0.7,0.9}）</li>
+<li><strong>G</strong>：文字（グリフ）書式（Rosetta 型）。読取速度・読み誤り率は一次資料で取れない部分を【推測】幅で感度分析し、未確認と明記する。</li>
+</ol>
+<p>基線：019 の A2（3複製・適応）を同じ乱数で再計測する。</p>
+<h2 id="_2">仮説（判定基準つき）</h2>
+<ul>
+<li><strong>H32a</strong>：A5 は p=1e-3＋バーストで残留バイト誤り ≤1e-6 を満たす（1 MB シミュレーション、seed=20261020）。</li>
+<li><strong>H32b</strong>：A3e（v=0.5）は同じ条件で残留 ≤1e-6 を満たし、かつ費用中央値（人年/MB）が A5 以下。</li>
+<li><strong>H32c</strong>：A3p は同じ条件で残留 ≤1e-6 を満たし、かつ費用中央値が A5 以下。</li>
+<li><strong>H32d</strong>：残留 ≤1e-6（p=1e-3＋バースト）を満たす書式のうち、費用中央値が最小なのは A3e（v=0.5）である（A5・A3p・G の中央値より小さい）。</li>
+<li><strong>H32e</strong>：G（校正読み 200語/分【事実：Ziefle 1998 を Bailey 要約で確認】、5文字/語、顕微鏡下の減速倍率 μ∈[2,20]【推測】）は、面積を無視した人年費用では最良の点書式より安いが、フィルム面積を Piql 等価で数えると線幅2倍の点書式より高い。</li>
+</ul>
+<h2 id="_3">判定の約束</h2>
+<ul>
+<li>チャネル・読み誤り・費用の分布は 019 と同じ（M_SINGLE=√(1e-4·3e-3)、二重読み残留はその1/10、バースト (f,L)=(1e-3,100)、t_px2∈[0.05,1]秒、t_bit∈[0.2,2]秒、対数一様、N=100,000、1人年=2000時間）。</li>
+<li>残留誤りは実際に符号化・誤り注入・復号して数える（1 MB）。</li>
+<li>棄却された仮説も報告する。実行後に仮説の文言を書き換えない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
