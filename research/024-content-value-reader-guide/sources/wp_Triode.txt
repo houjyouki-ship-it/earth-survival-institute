@@ -1,0 +1,321 @@
+A triode is an electronic amplifying vacuum tube (or thermionic valve in British English) consisting of three electrodes inside an evacuated glass envelope: a heated filament or cathode, a grid, and a plate (anode). 
+Developed from Lee De Forest's 1906 Audion, a partial vacuum tube that added a grid electrode to the thermionic diode (Fleming valve), the triode was the first practical electronic amplifier and the ancestor of other types of vacuum tubes such as the tetrode and pentode. Its invention helped make amplified radio technology and long-distance telephony possible. Triodes were widely used in consumer electronics devices such as radios and televisions until the 1970s, when transistors replaced them. Today, their main remaining use is in high-power RF amplifiers in radio transmitters and industrial RF heating devices. In recent years, there has been a resurgence in demand for low-power triodes due to renewed interest in tube-type audio equipment by audiophiles who prefer the sound of tube-based electronics.
+
+
+== Name ==
+The name "triode" was coined by British physicist William Eccles some time around 1920, derived from the Greek τρίοδος, tríodos, from tri- (three) and hodós (road, way), originally meaning the place where three roads meet.
+
+
+== History ==
+
+
+=== Precursor devices ===
+
+Before thermionic valves were invented, Philipp Lenard used the principle of grid control while conducting photoelectric experiments in 1902.
+The first vacuum tube used in radio was the thermionic diode or Fleming valve, invented by John Ambrose Fleming in 1904 as a detector for radio receivers. It was an evacuated glass bulb containing two electrodes, a heated filament (cathode) and a plate (anode).
+
+
+=== Invention ===
+Triodes came about in 1906 when American engineer Lee de Forest and Austrian physicist Robert von Lieben independently patented tubes that added a third electrode, a control grid, between the filament and plate to control current. Von Lieben's partially-evacuated three-element tube, patented in March 1906, contained a trace of mercury vapor and was intended to amplify weak telephone signals. Starting in October 1906 De Forest patented a number of three-element tube designs by adding an electrode to the diode, which he called Audions, intended to be used as radio detectors. The one which became the design of the triode, in which the grid was located between the filament and plate, was patented January 29, 1907. Like the von Lieben vacuum tube, De Forest's Audions were incompletely evacuated and contained some gas at low pressure. von Lieben's vacuum tube did not see much development due to his death seven years after its invention, shortly before the outbreak of the First World War.
+De Forest's Audion did not see much use until its ability to amplify was recognized around 1912 by several researchers, who used it to build the first successful amplifying radio receivers and electronic oscillators. The many uses for amplification motivated its rapid development. By 1913, improved versions with higher vacuum were developed by Harold Arnold at American Telephone and Telegraph Company, which had purchased the rights to the Audion from De Forest, and Irving Langmuir at General Electric, who named his tube the "Pliotron", These were the first vacuum tube triodes. The name "triode" appeared later, when it became necessary to distinguish it from other kinds of vacuum tubes with more or fewer elements (diodes, tetrodes, pentodes, etc.). There were lengthy lawsuits between De Forest and von Lieben, and De Forest and the Marconi Company, who represented John Ambrose Fleming, the inventor of the diode.
+
+
+=== Wider adoption ===
+The discovery of the triode's amplifying ability in 1912 revolutionized electrical technology, creating the new field of electronics, the technology of active (amplifying) electrical devices. The triode was immediately applied to many areas of communication. During World War I, AM voice two-way radio sets were made possible in 1917 (see TM (triode)), which were simple enough that the pilot in a single-seat aircraft could use it while flying. Triode "continuous wave" radio transmitters replaced the cumbersome inefficient "damped wave" spark-gap transmitters, allowing the transmission of sound by amplitude modulation (AM). Amplifying triode radio receivers, which had the power to drive loudspeakers, replaced weak crystal radios, which had to be listened to with earphones, allowing families to listen together. This resulted in the evolution of radio from a commercial message service to the first mass communication medium, with the beginning of radio broadcasting around 1920. Triodes made transcontinental telephone service possible. Vacuum tube triode repeaters, invented at Bell Telephone after its purchase of the Audion rights, allowed telephone calls to travel beyond the unamplified limit of about 800 miles. The opening by Bell of the first transcontinental telephone line was celebrated 3 years later, on January 25, 1915. Other inventions made possible by the triode were television, public address systems, electric phonographs, and talking motion pictures.
+The triode served as the technological base from which later vacuum tubes developed, such as the tetrode (Walter Schottky, 1916) and pentode (Gilles Holst and Bernardus Dominicus Hubertus Tellegen, 1926), which remedied some of the shortcomings of the triode detailed below.
+The triode was very widely used in consumer electronics such as radios, televisions, and audio equipment until it was replaced in the 1960s by the transistor, invented in 1947, which brought the "vacuum tube era" introduced by the triode to a close.  Today, triodes are used mostly in high-power applications for which solid-state semiconductor devices are unsuitable, such as radio transmitters and industrial heating equipment. However, more recently the triode and other vacuum tube devices have been experiencing a resurgence and comeback in high-fidelity audio and musical equipment.  They also remain in use as vacuum fluorescent displays (VFDs), which come in a variety of implementations but all are essentially triode devices.
+
+
+== Construction ==
+
+All triodes have a hot cathode electrode heated by a filament, which releases electrons, and a flat metal plate electrode (anode) to which the electrons are attracted, with a grid consisting of a screen of wires between them to control the current.  These are sealed inside a glass container from which the air has been removed to a high vacuum, about 10−9 atm.  Since the filament eventually burns out, the tube has a limited lifetime and is made as a replaceable unit; the electrodes are attached to terminal pins which plug into a socket.  The operating lifetime of a triode is about 2000 hours for small tubes and 10,000 hours for power tubes.  The 6J6 dual triode was found to have a .5% failure rate per 1000 hours at IBM in 1952.
+
+
+=== Low power triodes ===
+Low power triodes have a concentric construction (see drawing right), with the grid and anode as circular or oval cylinders surrounding the cathode. The cathode is a narrow metal tube down the center.  Inside the cathode is a filament called the "heater" consisting of a narrow strip of high-resistance tungsten wire, which heats the cathode red-hot (800 - 1000 °C).  This type is called an "indirectly heated cathode".  The cathode is coated with a mixture of alkaline earth oxides such as calcium and thorium oxide, which reduces its work function so it produces more electrons.  The grid is constructed of a helix or screen of thin wires surrounding the cathode.  The anode is a cylinder or rectangular box of sheet metal surrounding the grid.  It is blackened to radiate heat and is often equipped with heat-radiating fins. The electrons travel in a radial direction, from the cathode through the grid to the anode. The elements are held in position by mica or ceramic insulators and are supported by stiff wires attached to the base, where the electrodes are brought out to connecting pins. A "getter", a small amount of shiny barium metal evaporated onto the inside of the glass, helps maintain the vacuum by absorbing gas released in the tube over time.
+
+
+=== High-power triodes ===
+High-power triodes generally use a filament which serves as the cathode (a directly heated cathode) because the emission coating on indirectly heated cathodes is destroyed by the higher ion bombardment in power tubes. A thoriated tungsten filament is most often used, in which thorium added to the tungsten diffuses to the surface and forms a monolayer which increases electron emission.  As the monolayer is removed by ion bombardment, it is continually renewed by more thorium diffusing to the surface.  These generally run at higher temperatures than indirectly heated cathodes. The envelope of the tube is often made of more durable ceramic rather than glass, and all the materials have higher melting points to withstand higher heat levels produced. Tubes with anode power dissipation over several hundred watts are usually actively cooled; the anode, made of heavy copper, projects through the wall of the tube and is attached to a large external finned metal heat sink which is cooled by forced air or water.
+
+
+=== Lighthouse tubes ===
+
+A type of low-power triode for use at ultrahigh frequencies (UHF), the lighthouse tube, has a planar construction to reduce interelectrode capacitance and lead inductance, which gives it the appearance of a "lighthouse".  The disk-shaped cathode, grid and plate form planes up the center of the tube - a little like a sandwich with spaces between the layers.  The cathode at the bottom is attached to the tube's pins, but the grid and plate are brought out to low-inductance terminals on the upper level of the tube: the grid to a metal ring halfway up, and the plate to a metal button at the top. This is one example of disk seal design. Smaller examples dispense with the octal pin base shown in the illustration and rely on contact rings for all connections, including heater and D.C. cathode.
+As well, high-frequency performance is limited by transit time: the time required for electrons to travel from cathode to anode. Transit time effects are complicated, but one simple effect is input conductance, also known as grid loading. At extreme high frequencies, electrons arriving at the grid may become out of phase with those departing towards the anode. This imbalance of charge causes the grid to exhibit a reactance that is much less than its low-frequency "open circuit" characteristic.
+Transit time effects are reduced by reduced spacings in the tube. Tubes such as the 416B (a Lighthouse design) and the 7768 (an all-ceramic miniaturised design) are specified for operation to 4 GHz. They feature greatly reduced grid-cathode spacings of the order of 0.1 mm.
+These greatly reduced grid spacings also give a much higher amplification factor than conventional axial designs. The 7768 has an amplification factor of 225, compared with 100 for the 6AV6 used in domestic radios and about the maximum possible for an axial design.
+Anode-grid capacitance is not especially low in these designs. The 6AV6 anode-grid capacitance is 2 picofarads (pF), the 7768 has a value of 1.7 pF. The close electrode spacing used in microwave tubes increases capacitances, but this increase is offset by their overall reduced dimensions compared to lower-frequency tubes.
+
+
+== Operation ==
+
+In a triode, electrons are emitted from a heated cathode by thermionic emission. The emission depends on the work function of the cathode material and its temperature in accordance with Richardson’s law. In early tubes, the filament itself served as the emitter, and this arrangement remains common in transmitting tubes. In most receiving tubes, the cathode is indirectly heated by a separate filament, allowing it to be maintained at a uniform electrical potential. The development of oxide-coated cathodes permitted substantial emission at comparatively low temperatures and became standard in receiving practice.
+The interior of the tube is evacuated so that electrons may travel from cathode to anode without significant collision with gas molecules. When a positive voltage is applied to the anode (plate), electrons are attracted across the intervening space. The resulting current is governed not only by the emission capability of the cathode but also by the space charge formed by electrons in transit between cathode and plate. Under normal operating conditions the triode operates in the space-charge-limited region.
+A grid of fine wire is placed between the cathode and plate to provide control of this current. Because it is located close to the cathode, a small change in grid voltage produces a comparatively large change in the electric field in the cathode region. The grid therefore exerts a stronger control over plate current than does the plate voltage itself. In amplifier service, the grid is ordinarily maintained slightly negative with respect to the cathode. If the grid is made sufficiently negative, the plate current is reduced to zero; this condition is termed cutoff.
+
+The plate current of a triode (
+  
+    
+      
+        
+          I
+          
+            p
+          
+        
+      
+    
+    {\displaystyle I_{p}}
+  
+) depends on both grid voltage (
+  
+    
+      
+        
+          E
+          
+            g
+          
+        
+      
+    
+    {\displaystyle E_{g}}
+  
+) and plate voltage (
+  
+    
+      
+        
+          E
+          
+            p
+          
+        
+      
+    
+    {\displaystyle E_{p}}
+  
+). Examination of the plate characteristics shows that the curves corresponding to different grid voltages are similar in form and differ chiefly by horizontal displacement. This behavior may be expressed approximately by the three-halves power relation
+
+  
+    
+      
+        
+          I
+          
+            p
+          
+        
+        =
+        k
+        (
+        
+          E
+          
+            g
+          
+        
+        +
+        
+          
+            
+              E
+              
+                p
+              
+            
+            μ
+          
+        
+        
+          )
+          
+            
+              3
+              2
+            
+          
+        
+      
+    
+    {\displaystyle I_{p}=k(E_{g}+{E_{p} \over \mu })^{3 \over 2}}
+  
+
+where 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ is the amplification factor and 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+  
+ is a constant determined by tube geometry. In this formulation, the triode behaves analogously to a diode whose effective accelerating potential is 
+
+  
+    
+      
+        
+          E
+          
+            g
+          
+        
+        +
+        
+          
+            
+              E
+              
+                p
+              
+            
+            μ
+          
+        
+      
+    
+    {\displaystyle E_{g}+{E_{p} \over \mu }}
+  
+
+The grid voltage thus enters the current law in the same manner as plate voltage, but multiplied by the factor 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+.
+This relation accounts for the similarity and displacement of the plate-characteristic curves. A change in plate voltage produces the same effect on plate current as a change in grid voltage equal to 
+  
+    
+      
+        
+          
+            
+              E
+              
+                p
+              
+            
+            
+              m
+              u
+            
+          
+        
+      
+    
+    {\displaystyle {E_{p} \over mu}}
+  
+. The amplification factor 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ therefore represents the relative effectiveness of grid voltage compared with plate voltage in controlling current. Since 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  
+ is ordinarily large, a small variation of grid voltage produces the same change in plate current as a much larger variation of plate voltage.
+Characteristic curves showing plate current as a function of plate voltage for several grid voltages illustrate this relation. A comparatively small variation of grid voltage is thus capable of controlling a substantially larger plate current, making voltage and power amplification possible.
+The grid and plate also form an interelectrode capacitance. Variations of plate voltage may therefore couple back to the grid, an effect which can introduce instability or oscillation at high frequencies unless suitable circuit measures are employed, such as in the neutrodyne.
+
+
+== Comparison of ECC81, ECC82, and ECC83 ==
+
+The ECC81 (12AT7), ECC82 (12AU7), and ECC83 (12AX7) are miniature dual triodes sharing the same nine-pin envelope and heater arrangement, but differing significantly in electrical characteristics. Typical published parameters are summarized below.
+
+
+=== Plate characteristics ===
+The plate-characteristic curves of the ECC81, ECC82, and ECC83 show systematic differences corresponding to their amplification factor and internal plate resistance. Tubes with higher amplification factor exhibit greater horizontal displacement of the grid-voltage families and comparatively flatter plate characteristics, indicating higher internal plate resistance. Tubes of lower amplification factor show more closely spaced grid curves and steeper plate characteristics.
+In the ECC83 (12AX7), the widely spaced grid-voltage curves and relatively flat characteristics reflect its high amplification factor and high internal plate resistance. The ECC82 (12AU7) exhibits more closely spaced grid curves and lower plate resistance, while the ECC81 (12AT7) combines intermediate amplification factor with comparatively high transconductance and lower plate resistance.
+Characteristic curves of this type are used by designers to determine operating points, load-line behavior, and expected voltage gain in amplifier circuits. A more detailed discussion of these characteristic plots is given in Vacuum tube characteristics.
+
+
+=== Dependence of amplification factor on structure ===
+The amplification factor μ of a triode is determined primarily by electrode geometry. Miller showed that μ depends on grid pitch, grid-wire diameter, and the spacing between grid and plate.
+Differences in internal geometry therefore account for the differing electrical characteristics of the ECC81, ECC82, and ECC83, even though the tubes share the same external envelope and heater configuration.
+
+
+== Applications ==
+
+The triode was the first non-mechanical device to provide power gain at audio and radio frequencies, and made radio practical. Triodes are used for amplifiers and oscillators. Many types are used only at low to moderate frequency and power levels. Large water-cooled triodes may be used as the final amplifier in radio transmitters, with ratings of thousands of watts. Specialized types of triode ("lighthouse" tubes, with low capacitance between elements) provide useful gain at microwave frequencies.
+Triodes continue to be used in certain high-power RF amplifiers and transmitters. High-power transmitting triodes remain in production for specialized industrial and RF applications, including radio transmitters, particle accelerators, and dielectric heating equipment. Several manufacturers continue to produce such vacuum tubes and related RF components for these purposes.
+
+
+== Characteristics and load lines ==
+
+Triode datasheets provide families of characteristic curves showing anode current (Ia) as a function of anode voltage (Va) for various fixed grid voltages (Vg). These curves describe the intrinsic behavior of the device. The external circuit imposes an additional constraint, which may be represented graphically by a load line. The intersection of the load line with a grid-voltage curve determines the operating point.
+The graphical load-line method was widely used in practical vacuum-tube design .
+For a triode with an anode load resistor Ra connected to a supply V+, the circuit relation is:
+Va = V+ − IaRa
+or equivalently:
+Ia = (V+ − Va) / Ra
+When plotted on the same axes as the characteristic curves (Ia versus Va), this equation forms a straight line known as the DC load line. It is defined by two intercepts:
+If Ia = 0, then Va = V+
+If Va = 0, then Ia = V+ / Ra
+A straight line joining these points represents all combinations of plate voltage and current consistent with the external circuit. The quiescent operating point (Q-point) is located where this line intersects the curve corresponding to the chosen grid bias.
+As described by Frederick Emmons Terman, when an alternating signal is applied to the grid, the instantaneous operating point moves along the load line. The intersections of the load line with adjacent grid-voltage curves determine the corresponding changes in plate current and voltage. In this way, voltage gain, current swing, and the limits of undistorted operation may be estimated graphically.
+For example, consider an ECC83 triode biased at Va = 200 V and Vg = −1 V. From the characteristic curves, this corresponds to an anode current of approximately 2.2 mA. With an anode load resistor Ra = 10 kΩ, the voltage drop across the resistor is 22 V at this current, requiring a supply voltage of approximately V+ = 222 V to establish the operating point.
+If a 1 V peak-to-peak signal is applied about the −1 V bias (so that Vg varies between −0.5 V and −1.5 V), the operating point moves along the load line:
+At Vg = −0.5 V, Ia ≈ 3.1 mA and Va ≈ 191 V
+At Vg = −1.5 V, Ia ≈ 1.4 mA and Va ≈ 208 V
+Thus a 1 V peak-to-peak input produces approximately 17 V peak-to-peak at the anode, corresponding to a voltage gain of about 17 under these conditions.
+In addition to graphical load-line analysis, the intrinsic amplification capability of a triode is described by its amplification factor, μ. As defined by Terman, μ is the ratio of a change in plate voltage to the corresponding change in grid voltage required to keep plate current constant:
+μ = (∂Va / ∂Vg) at constant Ia
+Geometrically, this may be determined from the characteristic curves by moving along a horizontal line (constant plate current) and comparing the spacing of adjacent grid-voltage curves. For the ECC83, μ is approximately 100. This value is a property of the tube itself and is independent of the external load.
+The slope of the load line determines how variations in grid voltage are translated into changes in current and voltage. A smaller load resistance produces greater current variation but reduced voltage swing. A larger load resistance produces greater voltage swing but smaller current variation. If the anode is connected to an ideal constant-current load, the load line becomes horizontal, since plate current is constrained while plate voltage is free to vary. In this case, small changes in grid voltage primarily produce changes in plate voltage, increasing available voltage gain. The graphical load-line method may also be used to determine the maximum undistorted power output obtainable from a triode amplifier operating in Class A, as described in the RCA Receiving Tube Manual (RC-26, 1968).
+After drawing the DC load line and locating the quiescent operating point, the allowable signal swing is determined by the points where the load line reaches limiting regions of operation (cutoff at low current and saturation or grid-current region at high current). For Class A operation, the bias point is typically chosen to permit approximately symmetrical voltage swing about the quiescent value in order to obtain maximum undistorted output.
+From the graph:
+Vpp = Va,max − Va,min
+Vrms = Vpp / (2√2)
+Po = Vrms² / Rload
+The load governing signal swing is the effective AC load presented to the plate. This need not be identical to the DC load establishing the operating point. In transformer-coupled stages, the AC load is the reflected impedance of the secondary load:
+Rreflected = (Np / Ns)² × RL
+where Np/Ns is the transformer turns ratio and RL is the secondary load resistance.
+By appropriate choice of load resistance or transformer ratio, the load line may be positioned to obtain maximum symmetrical swing and therefore maximum Class A output power.
+The load-line method may be extended to push–pull amplifiers by forming composite plate characteristics for the two tubes. As shown by B. J. Thompson, the plate-current–plate-voltage characteristics of one tube are inverted and combined algebraically with those of the other, taking account of the 180° phase relation of the applied voltages. The resulting composite characteristics represent the effective plate-to-plate current as a function of plate voltage for the pair.
+A load line is drawn through the operating point on these composite curves in the usual manner. The effective plate-to-plate load resistance is four times the resistance connected across a secondary having the same number of turns as one half of the primary. Power output, average plate current, and distortion may then be determined graphically as for a single tube.
+
+
+== Use in guitar amplifiers ==
+Dual triodes such as the 12AX7, 12AU7, and 12AT7 are widely used in the preamplifier stages of guitar amplifiers. Each envelope contains two independent triode sections, permitting multiple voltage-gain stages within a single tube.
+Guitar amplifier literature discusses substituting these dual triodes to alter gain structure and tonal response. Aspen Pittman notes that players experiment with different types in preamplifier positions to modify amplifier character. In this context, the 12AX7 is described as producing a “soft warm sound,” the 12AU7 as “cleaner,” and the 12AT7 as used in certain driver stages for a “cleaner, brighter tone.”
+Technical discussions of these tubes emphasize their different electrical properties. The 12AX7 (μ ≈ 100) is commonly used for high-gain preamplifier stages, while lower-gain types such as the 12AT7 and 12AU7 are employed where greater current capability, lower plate resistance, or increased headroom are desired, including in driver and phase-inverter stages.
+
+
+== See also ==
+Faithful amplification
+Hanso Idzerda
+List of vacuum tubes
+
+
+== References ==
+
+
+== External links ==
+
+Les lampes radio — A French page on thermionic valves. Of particular interest is the 17-minute video showing the manual production of triodes.
+Triode valve tutorial

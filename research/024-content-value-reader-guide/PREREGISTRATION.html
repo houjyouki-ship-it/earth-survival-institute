@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究024 事前登録（open_problems 73：手読み層を「内容」で測る） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="024-open_problems-73">研究024 事前登録（open_problems 73：手読み層を「内容」で測る）</h1>
+<p>登録時刻：<strong>2026-10-16T16:47:50Z</strong>（sim.py の初回実行前。以後、仮説文・主設定は変えない）</p>
+<h2 id="_1">問い</h2>
+<p>QR フィルムの手読み層（021：リール1%で約1.9 MB、022 段階書式で約3.5 MB）に「T3 読取装置（光電読取＋真空管論理）の製作手引き」を入れると、機械読み層（120 GB/リール）が寿命内・1000年以内に読まれる期待値 V はどれだけ上がるか。手読み層を一般データに使う場合と比べた損益分岐、および同じ手引きを同じ金庫のセラミック板（T1、MOM）に置く場合と比べる。</p>
+<h2 id="_2">事実入力（本回開いて確認・測定）</h2>
+<ul>
+<li>手引きの必要量 g_req のアンカー（本回測定、sources/text_sizes.json）：</li>
+<li>下端：英語版 Wikipedia 18記事（真空管、三極管、真空ポンプ、Sprengel ポンプ、光電効果、光電子増倍管、セレン、フリップフロップ、Colossus、Williams 管、磁気コア、RS 符号、LFSR、ガラス吹き、白熱電球、発電機、鉛蓄電池、紙テープ）の平文合計 <strong>0.725 MB</strong>（説明であり製作手順ではない）。</li>
+<li>上端：Radiotron Designer's Handbook 4版（1954、archive.org の OCR 全文）の空白正規化後 <strong>4.45 MB</strong>（図は含まない）。3版は352ページ、2版は58ページ（Wikipedia）。</li>
+<li>023：開口・焦点を選ぶ読者で線幅7倍の手読み層の読取確率 0.931。018：電子経路の最小人口 N_min の式と事前分布。012：梯子 d01・d12・d23（σ=0.8）、Piql 寿命 500〜2000年×保管割引 [0.3,1]、Weibull k=2、H=1000年。</li>
+</ul>
+<h2 id="_3">モデル（すべての分布は【推測】）</h2>
+<ul>
+<li>一般経路：T3 = T2 + m23·exp(0.8Z)。主設定 m23=943（015 の e=1850×Y の Piql D23*、018 と同じ）。走査 {150, 300, 600, 943, 1600}。</li>
+<li>狙い撃ち経路：手引きが読める時刻（手読み層なら T2、読める確率 P_h=0.931。セラミック板なら T1 だが着手は T2 以降、板が金庫から失われる確率 p_sep~U[0.1,0.5]）から t_build~LN(中央値20年, σ0.7) で読取装置ができる。成功確率 P_max·c^κ、c=min(1, g/g_req)、g_req~logU[0.725, 8.9] MB、P_max~U[0.3,0.9]、κ~logU[0.5,2]。人口条件 N_min(018 式) &lt; N_T2~logU[0.5M,5M]。</li>
+<li>狙い撃ち読取装置が届けるのは機械読み層の価値の割合 q（XZ のメモリ壁のため、非圧縮部分と小さなファイルだけ）。主設定 q=0.3、走査 {0.1, 0.3, 1}。</li>
+<li>V = max(q·1[狙い撃ち成功 かつ 寿命内 かつ ≤H], 1[一般経路 T3 が寿命内 かつ ≤H])（発見を条件）。</li>
+<li>方策：P0 手引きなし／P1(f) 手読み層の割合 f∈{0.25,0.5,1} を手引きに（g=f·D）／P2 セラミック板に全量／P3 板＋手読み層 f=0.25。</li>
+<li>損益分岐：手読み層の一般データ全体の価値を v_h（機械読み層全体=1）とすると、P1(f) が得になるのは v_h &lt; R*(f) = ΔV/(f·P_h)。</li>
+</ul>
+<h2 id="m23943-q03-d19-mb">仮説（主設定：m23=943, q=0.3, D=1.9 MB）</h2>
+<ul>
+<li>H36a：ΔV(P1, f=1) ≥ 0.05。</li>
+<li>H36b：V(P2) ≥ V(P1, f=1)。</li>
+<li>H36c：R*(f=0.5) ≥ 0.05（手読み層の半分のデータが機械読み層全体の5%以上の価値を持たない限り、手引きが得）。</li>
+<li>H36d：m23=300 では ΔV(P1, f=1) &lt; 0.02。</li>
+<li>H36e：ΔV(P1, f=1) の上下五分位差が最大の入力は g_req（候補：g_req, P_max, κ, t_build, N_min/N_T2, 寿命）。</li>
+<li>H36f：V(P3) − V(P2) &lt; 0.01（板があれば手読み層の手引きはほぼ不要）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

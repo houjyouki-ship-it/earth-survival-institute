@@ -1,0 +1,118 @@
+{
+ "wp": {
+  "Vacuum tube": {
+   "title": "Vacuum tube",
+   "pageid": 32496,
+   "chars": 87727,
+   "utf8_bytes": 87800
+  },
+  "Triode": {
+   "title": "Triode",
+   "pageid": 31036,
+   "chars": 26445,
+   "utf8_bytes": 26529
+  },
+  "Vacuum pump": {
+   "title": "Vacuum pump",
+   "pageid": 32500,
+   "chars": 19814,
+   "utf8_bytes": 19828
+  },
+  "Sprengel pump": {
+   "title": "Sprengel pump",
+   "pageid": 19760932,
+   "chars": 2304,
+   "utf8_bytes": 2310
+  },
+  "Photoelectric effect": {
+   "title": "Photoelectric effect",
+   "pageid": 23579,
+   "chars": 36802,
+   "utf8_bytes": 36872
+  },
+  "Photomultiplier tube": {
+   "title": "Photomultiplier tube",
+   "pageid": 177215,
+   "chars": 26277,
+   "utf8_bytes": 26305
+  },
+  "Selenium": {
+   "title": "Selenium",
+   "pageid": 27117,
+   "chars": 31274,
+   "utf8_bytes": 31387
+  },
+  "Flip-flop (electronics)": {
+   "title": "Flip-flop (electronics)",
+   "pageid": 32186638,
+   "chars": 38609,
+   "utf8_bytes": 38669
+  },
+  "Colossus computer": {
+   "title": "Colossus computer",
+   "pageid": 6229,
+   "chars": 31411,
+   "utf8_bytes": 31480
+  },
+  "Williams tube": {
+   "title": "Williams tube",
+   "pageid": 33571,
+   "chars": 8520,
+   "utf8_bytes": 8528
+  },
+  "Magnetic-core memory": {
+   "title": "Magnetic-core memory",
+   "pageid": 78029,
+   "chars": 27406,
+   "utf8_bytes": 27441
+  },
+  "Reed–Solomon error correction": {
+   "title": "Reed–Solomon error correction",
+   "pageid": 45600,
+   "chars": 194394,
+   "utf8_bytes": 195784
+  },
+  "Linear-feedback shift register": {
+   "title": "Linear-feedback shift register",
+   "pageid": 58992,
+   "chars": 36642,
+   "utf8_bytes": 36801
+  },
+  "Glassblowing": {
+   "title": "Glassblowing",
+   "pageid": 298223,
+   "chars": 18483,
+   "utf8_bytes": 18504
+  },
+  "Incandescent light bulb": {
+   "title": "Incandescent light bulb",
+   "pageid": 47139,
+   "chars": 54353,
+   "utf8_bytes": 54395
+  },
+  "Electric generator": {
+   "title": "Electric generator",
+   "pageid": 82330,
+   "chars": 22897,
+   "utf8_bytes": 22914
+  },
+  "Lead–acid battery": {
+   "title": "Lead–acid battery",
+   "pageid": 201495,
+   "chars": 41986,
+   "utf8_bytes": 42168
+  },
+  "Punched tape": {
+   "title": "Punched tape",
+   "pageid": 49761,
+   "chars": 17481,
+   "utf8_bytes": 17494
+  }
+ },
+ "wp_total": 725209,
+ "rdh4": {
+  "raw": 5345891,
+  "norm": 4438517,
+  "utf8": 4454473
+ }
+}
