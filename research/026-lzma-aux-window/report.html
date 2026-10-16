@@ -1,0 +1,59 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究026：窓を遅い補助記憶に置く LZMA 復号（open_problems 81） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="026-lzma-open_problems-81">研究026：窓を遅い補助記憶に置く LZMA 復号（open_problems 81）</h1>
+<p>事前登録：PREREGISTRATION.md（2026-10-16T22:43:35Z、計測・初回実行前）。
+計測：tools/fetch_tars.py（025 と同じ30件の tarball を GitHub 公開 codeload から読み取りのみで再構成。大きさは30件すべて 025 の compress.json と一致）→ tools/measure.py（LZMA1 preset 6・辞書 8 MiB で圧縮し、LzmaSpec.cpp に計数だけ加えた tools/lzmaspec_instr.cpp で復号。30件すべて SHA-256 一致）→ data/counts.json。解析：sim.py（seed=20261026、約1.5秒）→ results.json、stdout.txt、fig_distance_and_q_time.png、fig_capacity_and_dV.png。
+再現：025 の sim.py を <code>/tmp/rep026/</code> で再実行し results.json は runtime 以外一致（951キー）。026 の sim.py を <code>/tmp/rep026b/</code> で再実行し一致（1,808キー、差分0）。</p>
+<h2 id="_1">問い</h2>
+<p>025 は「展開に要る RAM = 16 KiB + min(8 MiB, TAR)」として、1950年代前半級（4〜144 KiB）の読者の q を約0.04 とした。窓を高速 RAM ではなくドラム・ディスク・テープに置けば RAM の壁は消えるはずで、そのとき壁は「時間」になるのか「補助記憶の容量」になるのかを、実 repo の LZMA 参照距離から決める。</p>
+<h2 id="sources">事実入力（本回開いて確認、sources/ に写し）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/IBM_650">IBM 650</a>）】ドラム 12,500 rpm・1回転 4.8 ms・非最適化の平均アクセス 2.5 ms、1バンド50語・1語5文字、4000語 ≈35 KB。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Drum_memory">Drum memory</a>）】UNIVAC File Computer のドラム1台 180,000×6ビット文字（135 KB）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/IBM_305_RAMAC">IBM 305 RAMAC</a>、<a href="https://en.wikipedia.org/wiki/History_of_IBM_magnetic_disk_drives">History of IBM magnetic disk drives</a>）】IBM 350：500万×6ビット文字（8ビット換算 3.75 MB）、平均位置決め 600 ms、転送 8,800 文字/秒。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/IBM_727">IBM 727</a>）】200 文字/インチ、75 インチ/秒、巻戻し平均 500 インチ/秒、起動・停止 各 5 ms、転送 15,000 文字/秒。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/IBM_709">IBM 709</a>）】加減算 42,000 回/秒、36ビット整数乗算 5,000 回/秒。</li>
+<li>【事実（LzmaSpec.cpp、LZMA SDK の参照復号器、Public domain）】範囲復号は1ビットごとに乗算1回。一致後のリテラルは rep0 の位置の1バイトを参照する（窓を読む必要がある）。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>計数：DecodeBit 回数、直接ビット数、一致・rep・短 rep の数と距離、閾値 C ごとの「距離&gt;C」の参照、LRU ブロックモデル（512 B ブロック、直近8ブロック＝4 KiB を高速 RAM に保持）での補助記憶の取得回数。</li>
+<li>時間【推測のモデル】：CPU = DecodeBit×(乗算1＋加算15) ＋ 直接ビット×加算6 ＋ 出力×加算8（709 級）。ドラム・ディスク＝取得回数×(L ＋ 512 B の転送)。テープ＝参照ごとに 10 ms ＋ 往復 2d/(200×500) 秒。</li>
+<li>q：025 の高層（≥250星、210件で 133,384 repo を代表）の星重み。大きさ区分ごとの部分標本の率の中央値を当て、「星/時間」の高い順に Y 機械年まで復号する。</li>
+<li>ΔV：025 と同じ 024 のモデル（同じ乱数系列）で、読者 RAM logU[4, 144] KiB。</li>
+</ul>
+<h2 id="_3">主要結果</h2>
+<ul>
+<li>【独自計測】参照距離（30 repo 合計の参照数）：&gt;1 KiB が 59%、&gt;64 KiB が <strong>22%</strong>、&gt;1 MiB が 8.7%。距離&gt;64 KiB の参照が作る出力は全体の 29%。LRU での補助取得は C=64 KiB で 1 MB あたり約 4,300 回。</li>
+<li>【独自計測】範囲復号のビット数は出力1バイトあたり中央値 1.9（0.9〜6.8）。709 級 CPU で <strong>1 MB あたり中央値 21 分</strong>（10〜70 分）。</li>
+<li>補助記憶の時間 / CPU 時間（C=64 KiB、TAR&gt;64 KiB の20件）：ドラム <strong>0.03</strong>（全件 ≤0.25）、ディスク <strong>1.7</strong>（0.5〜3.9）、テープ <strong>48</strong>（7〜128）。</li>
+<li>高層すべてを復号する総時間（C=64 KiB）：CPU のみ 144 機械年、ドラム 146、ディスク 281、テープ約 12,700。</li>
+<li>q（C=64 KiB、高速 RAM 84 KiB、Y=10 機械年）：ドラム <strong>0.90</strong>、ディスク <strong>0.79</strong>、テープ <strong>0.54</strong>（025 の窓を RAM に置く場合は同じ 84 KiB で約0.11）。CPU の係数を事前分布で振ると、ドラム 0.73〜0.91（中央値 0.82）、ディスク 0.69〜0.79、テープ 0.51〜0.54。主設定（709 と同速）は楽観側の端。</li>
+<li><strong>容量の壁</strong>【独自計算】：窓 min(8 MiB, TAR) を置ける容量 A での q は、650 ドラム（35 KB）0.05、UNIVAC ドラム（135 KB）0.17、IBM 350 1台 0.60、2台 0.71、3台 1.0。8 MiB の窓に要る台数は 650 ドラム 240台、UNIVAC ドラム 63台、IBM 350 3台。</li>
+<li>ΔV（P2：板に手引き、024 の主設定 m23=943）：窓を RAM のみ（025）0.012。容量無制限の補助：ドラム <strong>0.153</strong>、ディスク 0.123、テープ 0.089。容量つき：UNIVAC ドラム1台 <strong>0.013</strong>、8台 0.025、IBM 350 1台 0.033。</li>
+</ul>
+<h2 id="_4">仮説の判定</h2>
+<ul>
+<li>H38a（ドラムで補助/CPU≤0.25 が ≥80%）：<strong>支持</strong>（100%、中央値 0.03）。</li>
+<li>H38b（ディスクで中央値 &gt;1）：<strong>支持</strong>（1.7）。</li>
+<li>H38c（CPU 中央値 5〜100 分/MB）：<strong>支持</strong>（21 分）。</li>
+<li>H38d（ドラム q≥0.9）：<strong>支持だが境界</strong>（0.9016。CPU の不確実性の中央値では 0.82 で成り立たない）。</li>
+<li>H38e（ディスク q≥0.5）：<strong>支持</strong>（0.79）。</li>
+<li>H38f（テープ q&lt;0.3）：<strong>棄却</strong>（0.54）。星が少数の repo に集中しているため、テープでも10機械年で星の半分は届く。</li>
+<li>H38g（ドラム補助で ΔV≥0.06）：<strong>支持</strong>（0.153）。ただし容量無制限の前提つきで、現実の台数に縛ると 0.013〜0.033。</li>
+</ul>
+<h2 id="_5">批判的検討（限界）</h2>
+<ul>
+<li>時間モデルの命令数（n_ops、n_byte）と速度係数は【推測】。テープのモデルは加速・減速と、書き込みと読み出しを別の装置にする手順を省いた粗い近似で、桁の目安にすぎない。</li>
+<li>LZMA1（.lzma）で測った。xz の LZMA2 とは塊の区切りが違うだけで、一致の選び方は同じ符号化器による【推測】。</li>
+<li>標本外の repo には大きさ区分の中央値を当てた（40 MB 超は最上区分の率で外挿）。部分標本は30件。</li>
+<li>星重み・2026 年の星・生存バイアスは 025 と同じ。</li>
+<li>総時間には、補助記憶を作る時間や故障、復号結果の検査は入れていない。</li>
+</ul>
+<h2 id="_6">結論</h2>
+<p>025 の「RAM の壁」は、本当は「ランダムアクセスできる記憶の容量の壁」だった。窓をドラムに置けば時間はほとんど増えず（CPU の約3%）、ディスクでも約2倍で、CPU そのもの（1 MB あたり約20分、高層全体で約150機械年）が時間の上限を決める。代わりに、8 MiB の窓を置くには 1950年代のドラムなら63〜240台、IBM 350 級のディスクなら3台が要る。手引きから作る読取装置が届ける価値は、RAM の大きさではなく、作れるランダムアクセス記憶の容量でほぼ決まり、135 KB のドラム1台では 025 とほとんど変わらない（ΔV 0.013）。一方、テープに窓を置く方法は容量の制約がほぼなく、遅いが星重みで約半分（ΔV 0.089、024 の値と同程度）に届くので、手引きの現実的な代替路になりうる【推測】。</p>
+<h2 id="_7">誰が何を変えるべきか</h2>
+<ul>
+<li>読取装置の製作手引き（024 の板）を書く人：RAM を増やす章より先に、「窓をテープに置いて復号する手順」（2台のテープ装置で過去の出力を巻き戻して読む方法）と、ディスク級（MB 級）のランダムアクセス記憶の作り方を入れる。RAM は 20 KiB（状態 16 KiB＋ブロック置き場 4 KiB）あれば足りることを明記する。</li>
+<li>アーカイブ運営者：025 の提言（重要 repo を辞書 ≤64 KiB で別に書く）は維持する。辞書を小さくすれば補助記憶そのものが要らなくなり、この回で見た容量の壁を運営者の側で消せる。索引に「展開に要る窓の大きさ」を書く提言も同じ。</li>
+</ul>
+<h2 id="_8">既存研究に対する新規性</h2>
+<p>025 までは「展開に要る RAM」だけを見ていた。本回は、実 repo の LZMA 参照距離を参照復号器で直接数え、窓を遅い記憶に置いたときの時間を1950年代の実機の数値で見積もった。その結果、壁は時間ではなく容量であり、容量の壁はテープか小さい辞書で回避できることを数値で示した。LZMA の参照距離の分布を「崩壊後の読取装置」の設計に結びつけた先行研究は見当たらない【推測：網羅的な検索はしていない】。</p><footer><hr><small>自動生成</small></footer></body></html>

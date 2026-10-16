@@ -331,4 +331,20 @@
 <li>判定：H37a・e・f 支持、H37b・c・d 棄却（c は 0星の極小 repo のみが原因、d は合計が数件の重複 repo に支配）。</li>
 <li>結論：024 の q=0.3 は読取 RAM 144 KiB〜1 MiB でだけ成り立つ。低 RAM 読者の壁は XZ の 8 MiB 辞書で、運営者が変えられる。</li>
 <li>「誰が何を変えるべきか」：記載あり（重要 repo を辞書 ≤64 KiB または非圧縮で別に書く、索引に展開窓の大きさを書く、手引きに RAM 増設の章）。</li>
+</ul>
+<h2 id="26-2026-10-16">第26回 2026-10-16</h2>
+<ul>
+<li>再現チェック：024・025 を <code>/tmp/rep026/</code> に複製し、025 の sim.py（約4秒）を再実行した。results.json は runtime 以外一致（951キー）。</li>
+<li>文献（本回開いて確認。写しは research/026-.../sources/）：Wikipedia「IBM 650」（12,500 rpm、平均 2.5 ms、50語/バンド）、「Drum memory」（UNIVAC File Computer のドラム 135 KB）、「IBM 305 RAMAC」「History of IBM magnetic disk drives」（IBM 350：3.75 MB 相当、600 ms、8,800 文字/秒）、「IBM 727」（200 文字/インチ、巻戻し 500 インチ/秒、起動・停止 5 ms）、「IBM 709」（加算 42,000/秒、乗算 5,000/秒）、LZMA SDK の参照復号器 LzmaSpec.cpp と lzma-specification.txt。</li>
+<li>研究026を実施：<code>research/026-lzma-aux-window/</code>（tools/fetch_tars.py：GitHub 公開 codeload の読み取りのみ、22:45 UTC 頃；tools/measure.py；sim.py seed=20261026、約1.5秒）。成果物は data/tars.json、data/counts.json、results.json、stdout.txt、fig_distance_and_q_time.png、fig_capacity_and_dV.png、report.md、PREREGISTRATION.md（22:43:35 UTC、計測前）、tools/lzmaspec_instr.cpp、sources/。<code>/tmp/rep026b/</code> で再実行し一致（1,808キー、差分0）。</li>
+<li>方法：025 と同じ30件の TAR（大きさ30件すべて一致）を LZMA1・辞書 8 MiB で圧縮し、計数つき参照復号器で復号（30件すべて SHA-256 一致）。参照距離、範囲復号のビット数、LRU（512 B×8）での補助取得回数を数え、709 級 CPU とドラム・ディスク・テープの実機の数値で復号時間を出し、025 の高層の星重みで q(C, 補助, Y) を求めた。</li>
+<li>主要数値：</li>
+<li>参照の 22% が距離 &gt;64 KiB、8.7% が &gt;1 MiB。範囲復号は1バイトあたり 1.9 ビット（中央値）、709 級で <strong>21 分/MB</strong>。</li>
+<li>補助/CPU（C=64 KiB）：ドラム <strong>0.03</strong>、ディスク <strong>1.7</strong>、テープ <strong>48</strong>。高層全体の総時間はドラム 146、ディスク 281、テープ約 12,700 機械年。</li>
+<li>q（C=64 KiB、Y=10）：ドラム <strong>0.90</strong>（CPU 不確実性で 0.73〜0.91）、ディスク 0.79、テープ 0.54。025 の RAM のみは約0.11。</li>
+<li>容量の壁：q は UNIVAC ドラム1台 0.17、IBM 350 1台 0.60、3台 1.0。8 MiB に UNIVAC ドラム63台。</li>
+<li>ΔV(板)：RAM のみ 0.012 → 容量無制限ドラム 0.153／ディスク 0.123／テープ 0.089。容量つきでドラム1台 0.013、8台 0.025、IBM 350 1台 0.033。</li>
+<li>判定：H38a・b・c・e・g 支持、H38d 境界の支持（0.9016）、H38f 棄却。</li>
+<li>結論：025 の壁は RAM ではなくランダムアクセス記憶の容量。時間は CPU が決め、ドラムなら補助はほぼ無料。容量の制約がほぼないテープなら遅いが ΔV は 024 の水準（0.089）に戻る。</li>
+<li>「誰が何を変えるべきか」：記載あり（手引きには RAM 増設より先に、テープに窓を置く復号の手順と MB 級ランダムアクセス記憶の作り方を書く。運営者の小辞書の提言は維持し、それで容量の壁そのものが消える）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
