@@ -1,0 +1,82 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究016 事前登録（初回 sim.py 実行前に作成） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="016-simpy">研究016 事前登録（初回 sim.py 実行前に作成）</h1>
+<p>作成時刻：2026-10-16T00:37:20Z</p>
+<h2 id="open_problems-5255">問い（open_problems 52・55）</h2>
+<p>研究014/015 の速度上限（AFT：1倍増あたり年数 ∝ exp(γ(e−1950)/50)、γ=−0.316）は「教師・交易あり」の追いつきから推定した。崩壊後の「教師なし」に近い代理として、歴史上の<strong>孤立・自給（autarky）期</strong>の所得成長を、同時期・同所得水準の開放国と比べ、孤立による減速倍率 r を推定する。r を e_ref（1973.76）に適用した等価時代 e_iso = e_ref + 50·ln(r)/γ を求め、015 の e=1850 が妥当（または楽観／悲観）かを判定する。</p>
+<h2 id="_1">登録前に見たもの</h2>
+<ul>
+<li>Maddison 2023（OWID CSV）の<strong>国別の観測年の一覧</strong>（いつデータがあるか）のみ。孤立期の成長率・結果は未計算。</li>
+<li>エピソードの期間は、本回開いた Wikipedia 本文（sources/wiki/*.json）から決めた。</li>
+</ul>
+<h2 id="s-e">エピソード（出典の記述で決めた期間 [s, e]）</h2>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>国</th>
+<th>期間</th>
+<th>根拠（Wikipedia）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JPN_sakoku</td>
+<td>JPN</td>
+<td>1639–1853</td>
+<td>Sakoku：1633–1639 の勅令、1853 以後に終了</td>
+</tr>
+<tr>
+<td>ESP_autarky</td>
+<td>ESP</td>
+<td>1939–1959</td>
+<td>Francoist Spain：戦後の孤立と autarky、1959 に自由化</td>
+</tr>
+<tr>
+<td>CHN_postsplit</td>
+<td>CHN</td>
+<td>1960–1978</td>
+<td>Sino-Soviet split：1960 にソ連技術者撤収；Chinese economic reform：1978年12月</td>
+</tr>
+<tr>
+<td>MMR_bwts</td>
+<td>MMR</td>
+<td>1962–1988</td>
+<td>Burmese Way to Socialism：1962–1988、国際的孤立</td>
+</tr>
+<tr>
+<td>ALB_postchina</td>
+<td>ALB</td>
+<td>1978–1990</td>
+<td>Enver Hoxha：1978年7月 中国が援助停止；Economy of Albania：1990 体制崩壊</td>
+</tr>
+<tr>
+<td>PRK_postsoviet</td>
+<td>PRK</td>
+<td>1991–2022</td>
+<td>Economy of North Korea：1991 ソ連崩壊で主要な外部支援を喪失、autarky と制裁</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">方法</h2>
+<ol>
+<li>孤立国の窓は<strong>内側に寄せる</strong>：s 以上の最初の観測年 s'、e 以下の最後の観測年 e'。e'−s' &lt; 8 年なら除外。</li>
+<li>孤立国の成長率 g_iso = ln(y(e')/y(s'))/(e'−s')。</li>
+<li>対照：同じ窓 [s', e'] で、開始時の一人あたり GDP が孤立国の ×/÷1.5 以内の国。3か国未満なら ×/÷2、それでも3か国未満ならデータのある全国（フラグ付き）。対照は log 線形補間で y(s'), y(e') を求め、両端とも前後の観測が30年以内にあること。除外：OWID 集計、産油国（014 と同じ OIL リスト）、窓と重なる孤立エピソードを持つ国。</li>
+<li>減速倍率 r_i = max(g_open_median, 0.001) / max(g_iso, 0.001)（倍増年数の比。成長率の下限 0.001/年 ＝ 倍増 693 年）。</li>
+<li>主統計：r の<strong>中央値</strong>（6エピソード）。CI はエピソード単位のブートストラップ（B=4000、seed=20261016）の 2.5〜97.5%。副統計：log r の平均（幾何平均）。</li>
+<li>等価時代：e_iso = e_ref + 50·ln(r_med)/γ（γ は 014 D1 の点推定）。閾値 r* = exp(γ·(1850−e_ref)/50)（e_iso=1850 に対応）。</li>
+<li>梯子：015 と同じ乱数・同じ混合型 primer（014 の α,β,γ,s を固定）で、n_k=人口×所得（015）と所得のみの両方について e_iso（点と CI 両端）で Piql / M-DISC の D23* と相乗効果（m23=300）を出す。015 の pop_income_e1850（Piql 942.5年）を厳密再現して検証する。</li>
+</ol>
+<h2 id="_3">仮説（反証可能）</h2>
+<ul>
+<li><strong>H28a</strong>：r_med &gt; 1 かつブートストラップ 95% 下端 &gt; 1（孤立は同時期の開放国より倍増を遅くする）。</li>
+<li><strong>H28b</strong>：r_med ≥ r*（孤立の速度上限は e=1850 と同等以上に遅い。成り立てば 1850 は楽観側、成り立たなければ悲観側）。</li>
+<li><strong>H28c</strong>：e_iso（点）× 人口×所得 n_k で Piql D23* &lt; 1100年。</li>
+<li><strong>H28d</strong>：1エピソード除外（6通り）のうち5通り以上で H28b と同じ判定。</li>
+<li><strong>H28e</strong>（絶対水準）：孤立期の倍増年数の中央値 ln2/median(g_iso) ≥ 57年（014 の e=1850・先頭年数118年の AFT 中央値）。</li>
+</ul>
+<h2 id="_4">予想される偏り（事前に記載）</h2>
+<ul>
+<li>孤立国にも生きた技術者・既存資本がある → r は崩壊後の「教師なし」減速の<strong>下限</strong>側【推測】。</li>
+<li>孤立期の多くは計画経済・独裁と重なる → r は「孤立そのもの」以外の政策の失敗も含み、<strong>上方</strong>に偏る【推測】。</li>
+<li>エピソードは6件と少なく、CI は粗い。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
