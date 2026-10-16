@@ -341,3 +341,15 @@ low1 X01A/wireguard 9 ok 28160
 low1 koltyakov/gosip-docs 9 ok 277504
 low1 dallasmcgroarty/boogle 5 tree_error None
 low1 jarnawer/ansible-devcontainer-vscode 5 tree_error None
+low1 wlgys8/LitCSV 5 tree_error None
+low1 SAP/odata-vocabularies 203 ok 647680
+low1 ranikay/shiny-reticulate-app 120 ok 23552
+low1 jellyleo/activiti7 90 ok 241664
+low1 asierae/VoiceDCGAN 8 ok 1653248
+low1 eamadord/ntn-pytorch-ontological-info 8 ok 163963392
+low1 woshioll/openwrt-luci-lua 8 ok 899584
+low1 radioxoma/heval 14 ok 202240
+low1 to4iki/view-impression-sample 16 ok 64641024
+low1 alura-cursos/datomic-introducao 13 ok 1040384
+low1 hyperdivision/blockexplorers 4 ok 41984
+low1 sam17896/react-native-animations 4 ok 20063744
