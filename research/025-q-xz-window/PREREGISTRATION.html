@@ -1,0 +1,34 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究025 事前登録（open_problems 79：狙い撃ち読取装置が届ける価値の割合 q） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="025-open_problems-79-q">研究025 事前登録（open_problems 79：狙い撃ち読取装置が届ける価値の割合 q）</h1>
+<p>登録時刻：<strong>2026-10-16T18:46:34Z</strong>（データ収集・sim.py の初回実行前。以後、仮説文・主設定は変えない）</p>
+<h2 id="_1">問い</h2>
+<p>024 は q（RAM の小さい狙い撃ち読取装置が届ける、機械読み層の価値の割合）を根拠なく 0.3 と置いた。本回は GitHub Arctic Code Vault の実際の構成（repo ごとの TAR、内側が repo.tar.xz）と、2020-02-02 時点の repo の中身の大きさの標本から、読取装置の RAM M ごとに展開できる割合 q(M) を推定し、024 の ΔV を再評価する。</p>
+<h2 id="sources">事実入力（本回開いて確認。sources/）</h2>
+<ul>
+<li>Arctic Vault ページ：HEAD of the default branch、100KB 超のバイナリは除外（250星以上は保持）、repo ごとに1つの TAR、21TB、186 リール。</li>
+<li>GUIDE.md：外側 TAR に非圧縮の META、圧縮された COMMITS、repo.tar.xz。XZ（LZMA）。git 履歴は概ね含まない。</li>
+<li>xz man：プリセット -6 の辞書 8 MiB（-0 は 256 KiB、-9 は 64 MiB）、lc 既定3、lp 既定0。辞書がファイルより大きいのは無駄。</li>
+<li>liblzma ソース：リテラル確率表は 0x300&lt;&lt;(lc+lp) 個（lc=3 で 6144 個、各 16 ビット＝12 KiB）。</li>
+<li>xz 形式仕様：Index にブロックの Uncompressed Size が記録される（復号前に窓の大きさを決められる）。</li>
+<li>RAM の歴史アンカー（Wikipedia）：EDSAC 512×18ビット（1952年まで）、Whirlwind 2048×16ビット＝4 KiB、IBM 704 の 737 コア 4096×36ビット＝18,432 バイト。Baby 128 B（018）。</li>
+</ul>
+<h2 id="_2">モデル</h2>
+<ul>
+<li>repo の展開に要る RAM：R = S0 + min(D, S_tar)。S0 = 16 KiB（主設定。確率表 12 KiB＋他の状態【推測】）、D = 8 MiB（-6、主設定。感度 -0：256 KiB、-9：64 MiB）。S_tar は 2020-02-02 以前の最後のコミットの木の全ファイルを TAR にした大きさ（各ファイル 512 B ヘッダ＋512 B 単位の切り上げ＋末尾 1024 B）。250星未満は「100 KB 超かつバイナリ拡張子」のファイルを除く（拡張子判定は【推測】の近似）。</li>
+<li>q(M) = 重みつきで R ≤ M の repo の割合。重み：(i) 星（250星以上の層）、(ii) repo 数、(iii) 非圧縮バイト。</li>
+</ul>
+<h2 id="seed20261025">標本（seed=20261025）</h2>
+<ul>
+<li>高層（現在の星 ≥250、created&lt;2020-02-02、fork:false）：星の区間 [250,500), [500,1k), [1k,2k), [2k,5k), [5k,20k), [20k,∞) ごとに search の total_count を取り、各区間35件を、ランダムな作成月の検索結果からランダムに選ぶ。層全体の重みは区間の件数×平均星。</li>
+<li>低層：stars:0 かつ created 2019-11-13..2020-02-01 を50件、stars:1..249 かつ created 2019-02-03..2020-02-01 を70件。</li>
+<li>各 repo：既定ブランチの until=2020-02-02T00:00:00Z の最後のコミット → 木（recursive）。コミットが無ければ除外。木が truncated なら下限として記録。</li>
+<li>圧縮の部分標本：S_tar ≤ 40 MB の repo から大きさで層化して最大30件の tarball（スナップショットのコミット）を取得し、LZMA2 の辞書 4 KiB／64 KiB／256 KiB／1 MiB／8 MiB で圧縮したバイト数を測る。</li>
+</ul>
+<h2 id="d8-mib-s016-kib">仮説（主設定：D=8 MiB, S0=16 KiB）</h2>
+<ul>
+<li>H37a：高層の星重み q(M=64 KiB) &lt; 0.10。</li>
+<li>H37b：低層の repo 数重み q(M=64 KiB) ≥ 0.30。</li>
+<li>H37c：M = 18,432 B（IBM 704 の 4K 語）では、全層・全重みで q &lt; 0.05。</li>
+<li>H37d：辞書を 8 MiB から 64 KiB にしたときの圧縮後バイト数の増加（部分標本の合計）は &lt; 15%。</li>
+<li>H37e：読取装置の RAM が M ~ logU[4 KiB, 144 KiB]（Whirlwind〜704 拡張級。上端は【推測】）のとき、高層の星重み q で 024 のモデルを回すと、ΔV(P2：板) &lt; 0.03（024 は q=0.3 で 0.093）。</li>
+<li>H37f：高層の星重み q(M = 1 MiB + 16 KiB) ≥ 0.30。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

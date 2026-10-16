@@ -1,0 +1,62 @@
+The IBM 704 is the model name of a large digital mainframe computer introduced by IBM in 1954. Designed by John Backus and Gene Amdahl, it was the first mass-produced computer with hardware for floating-point arithmetic. The IBM 704 Manual of operation states: 
+
+The IBM 704 Electronic Data-Processing Machine is a large-scale, high-speed electronic calculator controlled by an internally stored program of the single address type.
+
+The 704 at that time was thus regarded as "pretty much the only computer that could handle complex math". The 704 was a significant improvement over the earlier IBM 701 in terms of architecture and implementation. Like the 701, the 704 used vacuum-tube logic circuitry, but increased the instruction size from 18 bits to 36 bits, the same as the memory's word size. Changes from the 701 include the use of magnetic-core memory instead of Williams tubes, floating-point arithmetic instructions, 15-bit addressing and the addition of three index registers. To support these new features, the instructions were expanded to use the full 36-bit word. The new instruction set, which is not compatible with the 701, became the base for the "scientific architecture" subclass of the IBM 700/7000 series computers.
+The 704 could execute up to 12,000 floating-point additions per second. IBM produced 123 type 704 systems between 1955 and 1960.
+
+
+== Landmarks ==
+The programming languages FORTRAN and LISP were first developed for the 704, as was the SAP assembler—Symbolic Assembly Program, later distributed by SHARE as "SHARE Assembly Program".
+MUSIC, the first computer music program, was developed on the IBM 704 by Max Mathews.
+Edward O. Thorp, a math instructor at MIT, used the IBM 704 as a research tool to investigate the probabilities of winning while developing his blackjack gaming theory. He used FORTRAN to formulate the equations of his research model.
+The IBM 704 at the MIT Computation Center was used as the official tracker for the Smithsonian Astrophysical Observatory Operation Moonwatch in the fall of 1957. IBM provided four staff scientists to aid Smithsonian Astrophysical Observatory scientists and mathematicians in the calculation of satellite orbits: Dr. Giampiero Rossoni, Dr. John Greenstadt, Thomas Apple and Richard Hatch. The machine was also an important tool for Frank Rosenblatt; in 1957 he invented the first artificial neural network, the Perceptron, and implemented it on the IBM 704 computer at Cornell Aeronautical Laboratory.
+The IBM 704 was used for flight dynamics analyses of the NRL's Vanguard rockets.
+The Los Alamos Scientific Laboratory (LASL) developed an early monitor named SLAM to enable batch processing.
+
+
+== Registers ==
+
+The IBM 704 had a 38-bit accumulator, a 36-bit multiplier/quotient register, and three 15-bit index registers. The contents of the index registers are subtracted from the base address, so the index registers are also called "decrement registers". All three index registers can participate in an instruction: the 3-bit tag field in the instruction is a bit map specifying which of the registers participate in the operation. However, when more than one index register is selected, then their contents are bit-wise ORed – not added – together before the decrement takes place. This behavior persisted in later scientific-architecture machines (such as the IBM 709 and IBM 7090) until the IBM 7094. The IBM 7094, introduced in 1962, increased the number of index registers to seven and only selected one at a time; the "or" behavior remained available in a compatibility mode of the IBM 7094.
+
+
+== Instruction and data formats ==
+There are two instruction formats, referred to as "Type A" and "Type B". Most instructions were of type B.
+Type A instructions have, in sequence, a 3-bit prefix (instruction code), a 15-bit decrement field, a 3-bit tag field, and a 15-bit address field. There are conditional jump operations based on the values in the index registers specified in the tag field. Some instructions also subtract the decrement field from the contents of the index registers. The implementation requires that the second two bits of the instruction code be non-zero, giving a total of six possible type A instructions. One (STR, instruction code binary 101) was not implemented until the IBM 709.
+Type B instructions have, in sequence, a 12-bit instruction code (with bits 2 and 3 set to 0 to distinguish them from type A instructions), a 2-bit flag field, four unused bits, a 3-bit tag field, and a 15-bit address field.
+
+Fixed-point numbers are stored in binary sign/magnitude format.
+Single-precision floating-point numbers have a magnitude sign, an 8-bit excess-128 exponent and a 27-bit fraction (no hidden bit).
+Alphanumeric characters were usually 6-bit BCD, packed six to a word.
+The instruction set implicitly subdivides the data format into the same fields as type A instructions: prefix, decrement, tag and address. Instructions exist to modify each of these fields in a data word without changing the remainder of the word, though the Store Tag instruction was not implemented on the IBM 704.
+The original implementation of Lisp uses the address and decrement fields to store the head and tail of a linked list respectively. The primitive functions car ("contents of the address part of register") and cdr ("contents of the decrement part of register") were named after these fields.
+
+
+== Memory and peripherals ==
+
+Controls are included in the 704 for: one 711 Punched Card Reader, one 716 Alphabetic Printer, one 721 Punched Card Recorder, five 727 Magnetic Tape Units and one 753 Tape Control Unit, one 733 Magnetic Drum Reader and Recorder, and one 737 Magnetic Core Storage Unit. Total weight was about 19,466 pounds (9.7 short tons; 8.8 t).
+The 704 itself came with a control console having 36 assorted control switches or buttons and 36 data-input switches, one for each bit in a register. The control console essentially allows only setting the binary values of the registers with switches and seeing the binary state of the registers displayed in the pattern of many small neon lamps, appearing much like modern LEDs. For human interaction with the computer, programs would be entered on punched cards initially rather than at the console, and human-readable output would be directed to the printer. 
+The IBM 740 Cathode Ray Tube Output Recorder was also available, which is a 21-inch vector display with a very long phosphor persistence time of 20 seconds for human viewing, together with a 7-inch display receiving the same signal as the larger display but with a fast-decaying phosphor designed to be photographed with an attached camera. 
+The 737 Magnetic Core Storage Unit serves as RAM and provides 4,096 36-bit words, the equivalent of 18,432 bytes. The 727 Magnetic Tape Units store over 5 million 6-bit characters per reel.
+
+
+== Reliability ==
+The IBM 704 was much more reliable than its predecessor, the IBM 701, which had a mean time between failure of around 30 minutes.  Being a vacuum-tube machine, however, the IBM 704 had very poor reliability by today's standards. On average, the machine failed around every 8 hours, comparable to the Manchester Mark 1 in 1949. This limited the program size that the first Fortran compilers could successfully translate because the machine would fail before a successful compilation of a large program.
+
+
+== See also ==
+GM-NAA I/O
+List of vacuum-tube computers
+
+
+== References ==
+
+
+== Further reading ==
+Charles J. Bashe, Lyle R. Johnson, John H. Palmer, Emerson W. Pugh, IBM's Early Computers (MIT Press, Cambridge, 1986)
+Steven Levy, Hackers: Heroes of the Computer Revolution
+
+
+== External links ==
+
+Oral history interview with Gene Amdahl Charles Babbage Institute, University of Minnesota, Minneapolis. Amdahl discusses his role in the design of several computers for IBM including the STRETCH, IBM 701, and IBM 704. He discusses his work with Nathaniel Rochester and IBM's management of the design process for computers.

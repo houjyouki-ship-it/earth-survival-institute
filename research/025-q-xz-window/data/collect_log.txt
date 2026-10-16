@@ -1,0 +1,15 @@
+high pdf/kdeconnect-chrome-extension 250 ok 209408
+high ozzi-/JWT4B 264 ok 246272
+high anvie/litcrypt.rs 265 ok 25600
+high Anon-Exploiter/SiteBroker 431 ok 685056
+high ApolloAuto/apollo-kernel 410 ok 1389056
+high amazon-archives/amazon-cognito-auth-js 416 ok 1573376
+high mnmldave/scraper 361 ok 1441280
+high vim-scripts/a.vim 325 ok 35328
+high mercadolibre/chico 341 ok 2788864
+high seamusabshere/data_miner 305 ok 140800
+high sbooth/Max 298 ok 7740416
+high limodou/uliweb 466 ok 2867712
+high azsk/DevOpsKit-docs 495 ok 85418496
+high dsherret/conditional-type-checks 451 ok 28160
+high JACK-THINK/SCRIPTS-BOOTLOADER-FOR-ASUS-ROUTER 445 ok 41684480
