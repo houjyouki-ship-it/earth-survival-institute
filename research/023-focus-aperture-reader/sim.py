@@ -41,7 +41,12 @@ def source_points(sigma, n=48):
     return np.stack([r * np.cos(th), r * np.sin(th)], 1)
 
 MH = 12
+_GCACHE = {}
 def grating_contrast(P, sigma, Rm, D=0.0, nx=256):
+    if not (math.isfinite(P) and P > 1e-6):
+        return 0.0
+    key = (round(P, 5), sigma, Rm, D, nx)
+    if key in _GCACHE: return _GCACHE[key]
     src = source_points(sigma)
     m = np.arange(-MH, MH + 1)
     cm = np.where(m == 0, 0.5, np.sin(np.pi * m / 2) / (np.pi * np.where(m == 0, 1, m)))
@@ -53,7 +58,9 @@ def grating_contrast(P, sigma, Rm, D=0.0, nx=256):
         E = (cm * Pm) @ ph
         I += np.abs(E) ** 2
     I /= len(src)
-    return float((I.max() - I.min()) / (I.max() + I.min() + 1e-30))
+    val = float((I.max() - I.min()) / (I.max() + I.min() + 1e-30))
+    _GCACHE[key] = val
+    return val
 
 P_SCAN = np.exp(np.linspace(np.log(0.3), np.log(4.0), 200))
 def p_res(contrasts, cth):
@@ -122,45 +129,58 @@ for sg in SIGMAS:
 R["grating_P_res"] = {f"sigma{sg}|R{Rm}|D{D}": {str(c): v for c, v in GRAT[(sg, Rm, D)]["P_res"].items()}
                       for (sg, Rm, D) in GRAT}
 
-# ---- pixel errors ----
-print("pixels...", flush=True)
-pats = [rng.integers(0, 2, (NPIX, NPIX)).astype(float) for _ in range(4)]
-PERR = {}
-ncombo = len(W_GRID) * len(SIGMAS) * len(RMULTS) * len(DEFOCUS)
-done = 0
-for wi, w in enumerate(W_GRID):
-    r = int(min(16, math.ceil(5.5 / w)))
-    for sg in SIGMAS:
-        for Rm in RMULTS:
-            for D in DEFOCUS:
-                K = kernels(w, sg, Rm, D, r)
-                I2 = np.concatenate([x.ravel() for x in image_2d(pats, K, r)])
-                A2 = np.concatenate([x.ravel() for x in pats])
-                PERR.setdefault((sg, Rm, D), []).append(p_opt(I2, A2))
-                done += 1
-    print(f"  w={w:.3f} ({done}/{ncombo}) {time.time()-t0:.0f}s", flush=True)
+# ---- pixel errors (or load optics_cache.npz) ----
+CACHE_PATH = f"{HERE}/optics_cache.npz"
+if os.path.exists(CACHE_PATH):
+    print("loading optics_cache...", flush=True)
+    Z = np.load(CACHE_PATH, allow_pickle=True)
+    WSTAR = {tuple(k): float(v) for k, v in Z["WSTAR"].item().items()}
+    CTAB = {}
+    for (sg, Rm, D, sn, tg), ws in WSTAR.items():
+        for cth in CTHS:
+            pr = GRAT[(sg, Rm, D)]["P_res"][cth]
+            CTAB[(sg, Rm, D, sn, tg, cth)] = (2 * ws / pr) if math.isfinite(ws) and math.isfinite(pr) else float("inf")
+else:
+    print("pixels...", flush=True)
+    pats = [rng.integers(0, 2, (NPIX, NPIX)).astype(float) for _ in range(4)]
+    PERR = {}
+    ncombo = len(W_GRID) * len(SIGMAS) * len(RMULTS) * len(DEFOCUS)
+    done = 0
+    for wi, w in enumerate(W_GRID):
+        r = int(min(16, math.ceil(5.5 / w)))
+        for sg in SIGMAS:
+            for Rm in RMULTS:
+                for D in DEFOCUS:
+                    K = kernels(w, sg, Rm, D, r)
+                    I2 = np.concatenate([x.ravel() for x in image_2d(pats, K, r)])
+                    A2 = np.concatenate([x.ravel() for x in pats])
+                    PERR.setdefault((sg, Rm, D), []).append(p_opt(I2, A2))
+                    done += 1
+        print(f"  w={w:.3f} ({done}/{ncombo}) {time.time()-t0:.0f}s", flush=True)
 
-def w_star(lst, sn, target):
-    p = np.array([d[sn] for d in lst])
-    ok = p <= target
-    if not ok[-1]: return float("inf")
-    i = len(ok) - 1
-    while i > 0 and ok[i - 1]: i -= 1
-    if i == 0: return float(W_GRID[0])
-    lp0, lp1 = math.log(max(p[i - 1], 1e-300)), math.log(max(p[i], 1e-300))
-    t = (math.log(target) - lp0) / (lp1 - lp0) if lp1 != lp0 else 1.0
-    return float(np.exp(np.log(W_GRID[i - 1]) + t * (np.log(W_GRID[i]) - np.log(W_GRID[i - 1]))))
+    def w_star(lst, sn, target):
+        p = np.array([d[sn] for d in lst])
+        ok = p <= target
+        if not ok[-1]: return float("inf")
+        i = len(ok) - 1
+        while i > 0 and ok[i - 1]: i -= 1
+        if i == 0: return float(W_GRID[0])
+        lp0, lp1 = math.log(max(p[i - 1], 1e-300)), math.log(max(p[i], 1e-300))
+        tt = (math.log(target) - lp0) / (lp1 - lp0) if lp1 != lp0 else 1.0
+        return float(np.exp(np.log(W_GRID[i - 1]) + tt * (np.log(W_GRID[i]) - np.log(W_GRID[i - 1]))))
 
-WSTAR = {}
-CTAB = {}
-for (sg, Rm, D), lst in PERR.items():
-    for sn in SIGN:
-        for tg in TARGETS:
-            ws = w_star(lst, sn, tg)
-            WSTAR[(sg, Rm, D, sn, tg)] = ws
-            for cth in CTHS:
-                pr = GRAT[(sg, Rm, D)]["P_res"][cth]
-                CTAB[(sg, Rm, D, sn, tg, cth)] = (2 * ws / pr) if math.isfinite(ws) and math.isfinite(pr) else float("inf")
+    WSTAR = {}
+    CTAB = {}
+    for (sg, Rm, D), lst in PERR.items():
+        for sn in SIGN:
+            for tg in TARGETS:
+                ws = w_star(lst, sn, tg)
+                WSTAR[(sg, Rm, D, sn, tg)] = ws
+                for cth in CTHS:
+                    pr = GRAT[(sg, Rm, D)]["P_res"][cth]
+                    CTAB[(sg, Rm, D, sn, tg, cth)] = (2 * ws / pr) if math.isfinite(ws) and math.isfinite(pr) else float("inf")
+    np.savez(CACHE_PATH, WSTAR=np.array(WSTAR, dtype=object))
+    print(f"saved {CACHE_PATH}", flush=True)
 
 # method check vs 022
 c022_ref = float(R022["hypotheses"]["H34a"]["c"])
@@ -252,15 +272,16 @@ print("test patterns...", flush=True)
 T_CAND = np.array([0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.82, 0.90, 1.00])
 C_VIS = 0.10
 SIG_VIS = 0.03
-N_MC = 400  # noise realizations per cell
+N_MC = 200  # noise realizations per cell
 
 def nearest_R(R_lens, t):
-    R_target = R_lens * (t ** 4)
-    # only allow Rk <= R_lens
-    cands = [Rk for Rk in RMULTS if Rk <= R_lens or (Rk == 0 and R_lens == 0)]
     if R_lens == 0: return 0.0, 1.0
+    R_target = R_lens * (t ** 4)
+    # exclude Rk=0 when lens has aberration (same rule as explore.py / wopt)
+    cands = [Rk for Rk in RMULTS if 0 < Rk <= R_lens]
+    if not cands: return R_lens, 1.0
     Rk = min(cands, key=lambda x: abs(x - R_target))
-    t_eff = (Rk / R_lens) ** 0.25 if R_lens > 0 else 1.0
+    t_eff = (Rk / R_lens) ** 0.25
     return Rk, t_eff
 
 def stages_periods(N, Pmin=0.5, Pmax=3.0):
