@@ -1,0 +1,15 @@
+[
+ {"url": "https://docs.backyardbrains.com/assets/files/1981_Zuylen_The_microscopes_Leeuwenhoek-8223514bf5c4d49541b838032778ce8b.pdf",
+  "title": "J. van Zuylen (1981) The microscopes of Antoni van Leeuwenhoek (Journal of Microscopy 121)",
+  "opened": "2026-10-16, pdftotext copy: sources/zuylen1981.txt",
+  "facts": ["Table 1: nine Leeuwenhoek microscopes; Utrecht lens magnification 266, numerical aperture 0.37, measured resolving power 1.35 um",
+            "measured resolving powers of the other instruments 2 to 4 um (e.g. 2.3, 3.3, 4, 2, 3.5, 3.0); numerical apertures 0.11 to 0.32",
+            "Utrecht: resolving power measured by Harting (1850) and Van Cittert (1932-34) 1.42 um with the same Nobert test plate; the author found 1.35 um photographing diatoms"]},
+ {"url": "https://en.wikipedia.org/wiki/Timeline_of_microscope_technology",
+  "opened": "2026-10-16",
+  "facts": ["1825: Joseph Jackson Lister develops combined lenses that cancelled spherical and chromatic aberration",
+            "1860s: Abbe sine condition; microscope design until then largely based on trial and error"]},
+ {"url": "https://en.wikipedia.org/wiki/Optical_microscope",
+  "opened": "2026-10-16 (raw wikitext)",
+  "facts": ["objective numerical aperture ranges from 0.14 to 0.7 (typical dry objectives); oil immersion up to about 1.5-1.6"]}
+]

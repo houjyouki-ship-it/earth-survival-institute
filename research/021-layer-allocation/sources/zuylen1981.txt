@@ -1,0 +1,870 @@
+Journal of Microscopy, Vol. 121, Pt 3, M a r c h 1981, p p . 309-328
+Revised paper accepted 24 September 1980
+
+The microscopes of Antoni van Leeuwenhoek
+
+by J. VAN ZUYLEN,Panweg 78, 3705 Zeist, The Netherlands
+SUMMARY
+
+The seventeenth-century Dutch microscopist, Antoni van Leeuwenhoek, was the first man
+to make a protracted study of microscopical objects, and, unlike his contemporary Robert
+Hooke, he viewed by transmitted light. Leeuwenhoek made over 500 of his own, curious,
+simple microscopes, but now only nine are known to exist. The exact nature of the lenses
+Leeuwenhoek made, has for long been a puzzle. The existing microscopes have now been
+examined in detail, and their optical characteristics measured and tabulated. It is proposed
+that the lens of highest magnification, x 266, was made using a special blown bubble technique.
+INTRODUCTION
+
+The microscopes of Antoni van Leeuwenhoek (1635-1723) were effective instruments of
+his own invention and made with his own hands. The lenses he used were much better than
+those that were standard in this time. So he was well equipped for his scientific work, the results
+of which were communicated in his many letters to the Royal Society in London.
+Leeuwenhoek never gave an account of his method of making lenses. However, he was very
+positive in saying that they were ground and polished, and that he had improved his methods by
+long practice. He also stressed that a good lens had to be well mounted to be fully effective
+(Letter a). On the other hand, he told the Uffenbach brothers that he also had a good method
+for blowing lenses (Uffenbach, 1754).
+The purpose of the present investigation is to retrace as much as possible of Leeuwenhoek’s
+methods of making lenses, and to find out how far he succeeded in approaching the theoretical
+possibilities of uncorrected lenses.
+THE STATE OF THE ART I N LEEUWENHOEK’S TIME
+
+There can be little doubt that Leeuwenhoek learned the principles of lens grinding by watching professional glass workers. On the general practice of lens makers we have some information
+from the diary of Isaac Beeckman (1580-1637), who gives a detailed account of the lessons he
+took from several professional spectacle makers and from his own experiments (De Waard,
+1945a). It was common practice to grind the glass on a metal counterpart with gradually finer
+grits. Sand was a much-used abrasive, and often the coarser grains were wiped away during
+the process of grinding, continuing with the grains that were broken between the glass and the
+tool. When the job was well done, the finely ground surface of the glass could show a glossy
+smoothness, and polishing was sometimes thought unnecessary. However, it was a tricky process
+to carry on the grinding so far, and most lenses received a polish on cloth or leather with tripoli
+or putty powder as a polishing agent. No special care was given to fit the polishing surface to the
+curvature of the glass, therefore the shape of the lens was much degraded by the polishing, It
+could be used as a spectacle lens, but as a telescope lens it was useless.
+From the correspondence of Christiaan Huygens (1625-1695) we receive a very similar
+0 1981 The Royal Microscopical Society
+20
+
+309
+
+310
+
+J. vun Zuylen
+
+picture (Huygens, 1895, 1944). The Huygens brothers sometimes let a professional spectaclemaker pre-polish a piece of glass to evaluate its quality for making a telescope lens, or even
+let him make eyelenses for their telescopes, but in that case they had to give special instructions
+for the polishing, or the lenses would be useless.
+Hooke (1665a) describes a well-polished lens: ‘. . , even in the most curious wrought Glasses
+for Microscopes, and other Optical uses, I have, when the Sun has shone well on them, discovered their surface to be variously raz’d or scratched, and to consist of an infinite of small
+broken surfaces, which reflect the light of very various and differing colours.’ In modern lens
+making this is the state of the lens just before polishing.
+It is not impossible that Leeuwenhoek, who went to Amsterdam in 1548 and lived there for
+several years, could have seen mirror making at the Amsterdam glass works. The mirror
+makers had a rather coarse way of grinding their blanks, and they polished them with soft,
+cloth-clad polishing pads and tripoli (De Waard, 1945b). En this way they produced a surface
+that was less wavy than a blown window, and a polish that did not show objectionable scratches
+or pits.
+T o summarize, amateur lens makers could learn from the professionals how to grind a lens
+and how to get a glossy surface on ground glass, but they had to find out themselves how to
+polish a surface without spoiling its shape.
+B L O W N LENSES
+
+The first to describe a workable method of making ‘blom’ lenses was Robert Hooke (1665b).
+He stressed their superiority to the compound microscope, but did not often make use of them,
+because they strained his eyes excessively. In 1678 he published a second method: make little
+spheres by heating the end of a thin glass fibre and mount them with the ‘stalk’ to one side
+(Hooke, 1678). With suitable glass (some seventeenth-century glasses would not well stand
+reheating), it has the advantage of absolutely clean glass surfaces compared with other methods
+of that time, where contamination of the glass surface was almost unavoidable.
+I n the Netherlands, small spheres were made by heating a little piece of glass at the point
+of a needle (Huygens, 1899). The inventor is not known, but the method was practised by
+Johannes Hudde as early as 1663 (Fig. 1). It is fairly certain that Leeuwenhoek only knew of
+glass spheres made by this tricky method, which gives less perfect spheres as a result of interference by the needle-point on the heated glass, and is apt to contaminate the glass surface by
+little scales of iron oxide. This may explain Leeuwenhoek’s contempt of blown lenses, and also
+why he tried to find a method that gives a better shape and does not contaminate the glass.
+LEEUWENHOEK’S MICROSCOPES
+
+In 1747,2 years after the death of Leeuwenhoek’s daughter, his microscopes were auctioned
+(Van Seters, 1933). Van Seters carefully analysed the catalogue of this auction, and concluded
+
+) :[
+
+1665
+
+1678
+
+-1
+
+Fig. 1. ‘Blown lenses’ can be made by heating a piece of glass at the point of a needle (Hudde), or by
+heating the end of a fibre of glass (Hooke). The stalk can be ground away (Hooke’s first method), or the
+sphere can be mounted with the stalk to one side (Hooke’s second method)
+
+The microscopes of Antoni vun Leeuwenhoek
+
+31 1
+
+that van Leeuwenhoek made at least 566, or by another reckoning 543, microscopes or mounted
+lenses. In the total are included twenty-six silver microscopes bequeathed to the Royal Society.
+Of all these instruments, only very few have survived; the Royal Society’s microscopes were lost
+in about 1850. The others most probably were used as toys and thrown away when they became
+defective. Of the extant instruments, only three can be traced back to the 1747 auction, as they
+have, until lately, always been in the possession of the Haaxman family, descendants of Leeuwenhoek’s sister. The authenticity of the other microscopes must be proved by secondary
+evidence, which in most cases fortunately is fairly conclusive (Van Zuylen, 1980).
+The microscopes bequeathed to the Royal Society were examined, in 1740, by Henry
+Baker (1741), who measured their magnifying power for an eye distance of 8 inches (203 mm).
+These figures of Baker have been scaled for an eye distance of 250 mm, and are plotted in Fig. 2.
+It will be seen that the values centre at a magnification of about 100 diameters, only one instrument magnifying 200 diameters. The extant instruments fit very well in this configuration
+(open dots in Fig. 2), except for the microscope in the possession of the Utrecht Universiteits
+Museum, which magnifies about 270 diameters.
+By the courtesy of the orvners, the opportunity was given of studying all the existing microscopes. Our first aim was to examine the polish of the lenses, but exact measurements of optical
+properties were included. For this purpose a special microscope was made (Fig. 3). The body
+tube of this microscope is fitted with a cross-bar bearing four miniature incandescent lamps.
+When a strongly curved lens is laid on the stage of the microscope the lamps are reflected in the
+upper surface and the distance between their images can be measured with the filar micrometer
+of the microscope. These distances allow one to calculate the radius of curvature. The distances
+between the images reflected in the lower surface can also be measured; they depend on the
+radii of both surfaces, the thickness of the lens and the refractive index. When the lens is turned
+over and the measurements repeated, the other radius is known, too, and the thickness and
+refractive index can be calculated. However, it is much better to measure the focal length
+independently rather than to calculate it from the preceding measurements.
+Focal length is measured with the same microscope. Instead of a condenser, this has a
+small collimator, consisting of a well corrected lens of 28 mm focal length, and a fine scale in its
+
+10
+
+m
+
++
+C
+
+a,
+c
+
+? 5
+
+.-
+
+c
+
+0
+0
+
+z
+
+50
+
+I
+
+150
+
+200
+
+2i o
+
+Maqnificotion
+
+Fig. 2. Distribution of magnifying powers of the microscopes bequeathed to the Royal Society as measured
+by Baker in 1740, scaled to an eye distance of 250 mm (vertical bars). T h e locus of extant microscopes is
+shown by open dots. T h e Utrecht lens, at 266 diameters, stands quite apart.
+
+312
+
+J . van Zzlylen
+
+Collimator
+
+I
+
+Fig. 3. The optical layout of the measuring microscope.
+
+focal plane. The collimator lens images this scale at infinity, and by the lens to be measured it is
+imaged again in its focal plane. The length of this image is proportional to the focal length of the
+lens, so this can be determined by a simple reading of the filar micrometer. Magnification is
+calculated by dividing 250 by the focal length expressed in millimetres.
+The diameter of the free aperture at the eye side of the lens divided by twice the focal length
+gives the numerical aperture. This sets the upper limit for the resolving power, and enables one
+to calculate a realistic value for it which can be attained with a good lens and average lighting
+conditions. Comparison with experimentally found values gives an indication of the quality of
+the lens. The formula used and the influence of aberrations will be treated in a separate section.
+Experimental values of resolving power are generally quoted from published measurements
+made by different authors. In a few cases the present author made some measurements himself,
+but he had to use high contrast test objects markedly different from the usual Nobert or Grayson
+rulings. So the quoted values are comparable only to a limited extent, and small differences
+when compared with the calculated values need not be too significant.
+The microscopes examined are listed below, and the results are given in Table 1.
+
+The microscopes of Antoni van Leeuwenhoek
+
+313
+
+Table 1. Details of nine Leeuwenhoek microscopes.
+8
+(no
+lens)
+
+1
+2
+6
+7
+3
+4
+6
+9
+2.12 3.39
+Focal length (mm)
+0.94
+2.28
+2.24 3.31 3.61
+1.5
+266
+110
+112
+118
+74
+Magnification factor
+80
+69
+167
+0.55 0.92
+0.7
+(1.45)
+1.36 0 . 7
+Free aperture (mm)
+0.87
+1.3
+(1.06)
+0.13 0.13
+Numerical aperture
+0.37
+(0.32)
+0.30
+0.11 0.12
+(0.35)
+(1.16)
+1.75
+1.63 3 . 2
+2.8 2.8
+Resolving power (pm)
+2.9
+(calculated)
+1.35
+2.3
+3.3 4
+2
+Resolving power ( pm)
+3.5
+3.0
+(measured)
+1.96 4.01
+Radius of lens eye side
+0,703* 2.26
+2.03 3.15 3.17
+1.50
+(mm)
+Radius’of lens object side
+1.91 3.06
+0,715* 2.24
+2.02 3.15 3.38
+1.48
+(mm)
+1.22
+1.04
+1.79
+1 . 5 3 2.75
+Thickness (mm)
+1.74 0.65
+Refractive index
+1.54 1.529 1.54
+1,536 1.535 1.53 1.53
+Spherical aberration
+0.16 1 . 0
+0.28 0.36
+(16)
+11
+(9.5)
+(Rayleigh limit)
+Pitchoflongscrew (mm)
+0.87 0.88
+0.86
+0.97
+0.67 0.46 0.60 0.86
+0.66
+Dimensions of lens plates 41 x 17 40 x 18 46 x 24 47 x 27 47 x 28 32 x 19 39 x 22 46 x 22 45 x 25
+
+Values in parentheses have, as a result of some disturbing circumstance, only a restricted value.
+* Surfaces are not spherical.
+
+No. 1 (Fig. 4). Brass microscope in the Museum Boerhaave at Leyden, Cat. no. M2a. It
+is one of the Haaxman microscopes. Resolving power measured by Rooseboom (1939) 4 pm,
+by Van der Star (1953) 3.3 pm. Both measurements were made with the same test rulings.
+No. 2 (Fig. 5). Brass microscope owned by Dr W. de Loos, Rotterdam. This is also a Haaxman microscope. Resolving power measured by Rooseboom (1939) 4 pm.
+No. 3 (Fig. 6). Brass microscope in the Utrechts Universiteits Museum. The holes in the
+lens mounting have a very irregular shape. Resolving power measured by Harting (1850), and
+later by Van Cittert (1932, 1933, 1934), 1.42 pm. Both used the same Nobert test plate. Using
+some diatoms the author found by photography a value of 1.35 pm. (see Figs. 7a and 7b).
+No. 4 (Fig. 8). Brass microscope in the Henri van Heurck Museum of the Koninklijke
+Maatschappij voor Dierkunde van Antwerpen at Antwerp. Resolving power measured by
+Frison (1948), using a Nobert test plate, 2.3 pm. The author found about the same value with
+a test ruling in an aluminium film on glass. The holes in the lens cell of this microscope are not
+centred to each other. This restricts the numerical aperture in one direction.
+No. 5 (Fig. 9). Brass microscope in the Deutsches Museum von Meisterwerken der Naturwissenschaft und Technik at Munich, Inv. No. 6766. The focusing screw is missing. The free
+aperture and consequently the spherical aberration are large, therefore to get a satisfactory
+image one has to use nearly parallel incident light. In this way, and using a photographically
+made test plate, the author measured a resolving power of 2 pm.
+No. 6 (Fig. 10). Silver microscope in the Museum Boerhaave at Leyden, Cat. no. M2a3.
+Resolving power, meaured by Van der Star, 3 3 pm.
+No. 7 (Fig. 11). Silver microscope belonging to Dr J. J. Willemse, Rotterdam. Resolving
+power, measured by the author, using test rulings in a thin film of aluminium on glass, 3 pm.
+No. 8 (Fig. 12). Brass microscope owned by the Museum Boerhaave at Leyden and on loan
+to the Laboratory of Microbiology at Delft. It has no lens. It is one of the Haaxman microscopes.
+No. 9 (Fig. 13). Silver microscope in the Deutsches Museum at Munich, Inv. No. 8880.
+The lens cell of this microscope is much too large for the small lens in it. The holes in the
+lens cell are eccentric to each other to such an extent that measurement of the resolving power
+is not possible. We could make a rough estimate of the focal length and approximate measurements of the radii of curvature. The lens is very strong, and one wonders if it is the original
+one. This microscope has a ‘stage’ with a triangular cross-section. The focusing screw is not
+
+3 14
+
+J . van Zuylen
+
+6
+Fig. 4. Brass microscope owned by the Museum Boerhaave, Leyden (Table 1, No. 1). Courtesy of the
+Museum Boerhaave.
+Fig. 5. Brass microscope owned by Dr W. de Loos, Rotterdam (Table 1, No. 2 ) . Courtesy of Dr W. de
+Loos .
+Fig. 6. Brass microscope owned by the Utrechts Universiteits Museum (Table 1, No. 3 ) . Courtesy of the
+Utrechts Universiteits Museum.
+
+perpendicular to the lens plate, but makes an angle of about 45’ with it (see also the microscope
+illustrated in Fig. 14).
+I n Table 1, where possible, the spherical aberration of the lenses has been calculated by
+ray tracing. The result is compared with the Rayleigh limit, the generally accepted tolerance
+for good image quality. When the spherical aberration was greater than 3 times the Rayleigh
+limit, the resolving power has been calculated for a reduced aperture, as explained in a later
+section.
+It will be seen that in Table 1, microscopes numbered 1, 2, 6 and 7 have a quite acceptable
+calculated spherical aberration. For nos. 6 and 7 the agreement between calculated and measured
+resolving power is good, for nos. 1 and 2 the differences may be significant, possibly indicating
+a somewhat faulty shape of the lens.
+H O W D I D L E E U W E N H O E K M A K E HIS L E N S E S ?
+
+All the written information on Leeuwenhoek‘s methods of lens making is in the account of
+von Uffenbach’s visit in 1710. It is of some interest that on the question ‘whether all these
+microscopes are identical ?’, von Uffenbach got the answer that he (Leeuwenhoek) had ground
+them in the same tools, but that still there was some difference between these lenses, and in those
+that were ground last, a great difference indeed; because as a result of the grinding the tool
+becomes wider and consequently the lenses greater” (Uffenbach, 1754).
+
+* Dass er [Leeuwenhoek] sie zwar aus einerley Schaalen geschliffen, dass aber jedoch an denen Glasern
+einiger Unterschied seye, und zwar an denen die er zuletzt in einer Schaale schliffe, gar ein grosser; d a m
+durch das Schleiffen werde die Schaale immer weiter und folglich die Glaser grosser.
+
+The microscopes of Antoni vaa Leeuwenhoek
+
+315
+
+From this it can be deduced that: (a) Leeuwenhoek did not correct his grinding tool for the
+wear produced during the grinding; (b) Leeuwenhoek most probably ground on a rotating
+tool, for it is known that he had a lathe (Letter b).
+The kind of lathe that is meant here, had a to-and-fro rotation of the spindle, with a cord
+wrapped round it. One end of the cord was fixed to a wooden spring, which was usually fastened
+to the ceiling, and the other end of the cord was attached to a pedal moved by one foot of the
+
+Fig. 7(a). Photograph made with the Utrecht Leeuwenhoek microscope. T h e black patches are caused by
+bubbles in the lens. Average distance of striae on left diatom 1.65 pm, locally less than 1.4 pm. Courtesy
+of the Utrechts Universiteits Museum.
+
+Fig. 7(b). Enlarged print of a part of Fig. 7(a). Magnification x 670. Magnification of negative x 266.
+
+316
+
+J. van Zuylen
+
+8
+
+9
+
+Fig. 8. Brass microscope in the Henri van Heurck Museum of the Koninklijke Maatschappij voor Dierkunde van Antwerpen, Antwerp (Table 1, No. 4). Courtesy of the Koninklijke Maatschappij voor
+Dierkunde.
+Fig. 9. Brass microscope owned by the Deutsches Museum, Munich (Table 1, No. 5). Courtesy of the
+Deutsches Museum.
+
+operator. In Leeuwenhoek’s case, the spring was fitted outside the room and put through a
+horizontal slit, so that it could move only in a horizontal plane. This unusual arrangement
+strongly suggests that the spindle was vertical, which is not very practical for turning wood or
+metal, but is positively to be preferred for grinding lenses. So it is attractive to assume that the
+lathe was used mostly for grinding lenses, the more so as Leeuwenhoek’s instruments almost
+never had metal or wooden parts made on a lathe.
+Rotating the tool considerably speeds up the grinding, but, as the outer parts of the tool
+have the greater velocity, they wear more than the centre, resulting in a flatter curvature. When
+the tool is at rest, the curvature tends to become deeper. A modern lens grinder, by judiciously
+balancing the relative motion of the lens and the tool, can cancel out both effects.
+As there is no more written information, inspection of the lenses themselves is the only
+possibility we have of learning more about Leeuwenhoek’s methods. An experienced lens
+maker is able to discern very minute defects in the polish of a glass surface, therefore it seemed
+probable that in this way some new light might be cast on Leeuwenhoek’s method of polishing.
+The author had the good luck to obtain help from Mr J. C. P. W. Gerwig, who has about 25
+years of experience as a general lens maker, and who has himself made many lenses for microscopes. Mr Gerwig and the author have examined all known Leeuwenhoek lenses, except the
+Munich lenses which have been examined by the author alone. We found that, with the exception of the Utrecht lens, all lenses were ground and polished. The polish shows differences from
+one surface to another; even on one lens the difference between both surfaces can be rather
+marked. The best surfaces are nearly acceptable by modern standards, and even the least
+successful are markedly better polished than the surfaces of Hooke’s description, or even the
+surfaces of two telescope lenses made by the Huygens brothers (dated by them 1655 and 1686),
+now in the Utrecht University Museum,
+
+The microscopes of Antoni van Leeuwenhoek
+
+317
+
+Fig. 10. Silver microscope owned by the Museum Boerhaave, Leyden (Table 1, No. 6 ) . Courtesy of the
+Museum Boerhaave.
+Fig. 11. Silver microscope owned by Dr J. J. Willemse, Rotterdam (Table 1, No. 7). Courtesy of Dr
+J. J. Willemse.
+Fig. 12. Brass microscope owned by the Museum Boerhaave, Leyden (Table 1, No. 8). Courtesy of the
+Museum Boerhaave.
+
+The Leeuwenhoek lenses show an ‘orange peel texture’: on the rather smooth surface, with
+appropriate lighting, one can see shallow pits with rounded edges. It is the kind of surface that
+results when polishing glass for a relatively short time on a rather soft, resilient material such as
+felt, cloth, or leather. A rather extreme example of this kind of surface is shown in Fig. 15.
+This is from a lens 50 years old, in a cheap pocket magnifier. To reduce costs, this kind of lens
+was ground very crudely, and afterwards polished with thick felt until the surfaces were sufficiently glossy. Even under these unfavourable circumstances most of the remaining pits are
+not very deep: interferometrically it can be found that the depth seldom exceeds one quarter
+of a wavelength of visible light (Fig. 16). Under these circumstances the sharpness of the image
+is not impaired very much, but the contrast is less than with a better quality lens.
+Leeuwenhoek’s lenses are much more carefully worked, the remaining pits are appreciably
+smaller than those shown in Fig. 15. Indeed, it is almost impossible to photograph these minute
+defects, as in observing them small movements of the lens and the eye relative to the source of
+light are essential. That the pits have not disappeared altogether indicates a rather short polishing
+time, very favourable for retaining a good shape to the surface even when the polishing tool was
+not optimal.
+T o check these statements experimentally, the author has ground and polished a lens somewhat similar to the lens of Leeuwenhoek‘s microscope M2a3 in the Museum Boerhaave at
+Leyden. To make a tool, a steel ball of 3.17 mm radius was impressed in a piece of soft aluminium
+4 mm thick. In this impression some four glass surfaces were ground as a preliminary to grinding
+the lens. The glass was 1.4 mm thick and cemented on a steel handle 3.3 mm thick and 60 mm
+long. It was crudely ground to a cylindrical form on a wet carborundum stone, and a bevel
+was ground by the same means. Thereafter each surface was ground spherical with several grades
+
+31 8
+
+J. van Zuylen
+
+Fig. 13. Silver microscope owned by the Deutsches Museim, Munich (Table 1, No. 9). Courtesy of the
+Deutsches Museum.
+Fig. 14. Silver microscope formerly in the Optisches Museum der Carl-Zeiss-Stiftung, Jena. Until 1911
+it formed a pair with the microscope shown in Fig. 13 (see Fuchs, 1957). From a photograph in the files
+of the Dutch Leeuwenhoek Commission.
+
+of carborundum powder, and fine ground with emery. During grinding the handle with the
+lens was rotated continually in the hand, and the tool was rotated occasionally on the table.
+No lathe was used. The glass was polished a few minutes on a piece of rather stiff felt lying free
+on the table. A fine grade of optical rouge was used as a polishing medium, and the lens was
+moved on the felt in a combined translation and rotation. Under these circumstances the middle
+
+Fig. 15. Orange peel texture of the lens of a 50-year-old pocket magnifier.
+
+The microscopes of Antoni van Leeuwenhoek
+
+319
+
+Fig. 16. Interferogram of an especially bad part of the lens surface used for producing Fig. 15. The black
+contour lines indicate differences of height of 0.27 pm. Black spots are pits too deep to be polished. Remnants of other pits, less than 0.27 pm deep, cause wavy appearance of the fringes.
+
+of the lens polishes faster than the outside. The operation was stopped while the centre still
+showed a pronounced orange peel texture.
+The lens serves its purpose rather well. The first ground surface has a radius of 2.94 mm,
+the second one a radius of 2.79 mm. This shows that with a non-rotating tool the radius tends
+to become shorter, and justifies our conclusion that Leewenhoek used a rotating tool.
+The lens was mounted ‘Leeuwenhoek fashion’ between two plates of copper, leaving a free
+aperture of about 1 mm diameter on both sides. As the focal length is 2.96 mm, the numerical
+aperture is 0.17. The resolving power as calculated is 2.1 pm; measured resolving power is
+2.5 pm. The contrast of the images is not too bad, and decent photographs can be made (Fig. 17).
+We conclude that a lens which is carefully ground can be polished on a rather unsuitable tool
+when the polishing is stopped at the right time. There can be little doubt that Leeuwenhoek
+tried out his polishing tools until he found the tool which suited him best, and enabled him to
+reach a good standard of polish without spoiling the shape of his surfaces, but his success mainly
+resulted from the care he took in grinding his lenses. As an abrasive he may have used sand, or
+(especially for his rock crystal lenses) emery, and as his surfaces show no bad scratches, it is
+very probable that he graded his grits by levigation.
+THE U T R E C H T L E N S
+
+The lens in the Utrecht microscope does not fit into the preceding scheme. The surfaces do
+not show any pits, they are smooth like the surfaces of a good, modern lens. On the other hand,
+the glass contains many minute bubbles, which is not the case with the lenses in the other microscopes (Fig. 18). So one may wonder why Leeuwenhoek used good glass for making his low
+power microscopes, and carefully ground and polished a high power lens from a somewhat
+defective piece of glass. The most probable answer is that he did not grind the Utrecht lens at
+all, but that it is a blown lens. This explains at the same time why the glass shows some defects
+and why the surfaces show a high quality polish.
+T o substantiate this hypothesis, we quote Leeuwenhoek’s own words to von Uffenbach:
+‘that he had succeeded, after 10 years speculation, in learning a useful1 way of blowing (lenses),
+which however were not round”.’ Von Uffenbach thought this incredible, ‘as it is impossible
+
+* Das er durch zehenjahriges Speculiren es dahin gebracht, dass er eine taugliche Art blasen gelernt,
+welche aber nicht rund waren.
+
+320
+
+J . van Zuylen
+
+Fig. 17(a). Photograph taken through a lens made in the style of Leeuwenhoek, giving a measured resolving
+power of 2.5 pm.
+
+Fig. 17(b). Enlarged print of a part of Fig. 17(a). Magnification x 215. Magnification of negative x 85.
+Average distance of the striae 3.5 pm, locally 2.8 pm.
+
+by blowing to form anything but a sphere or a rounded end*.’ He is right when the primary
+material is a glass rod or a glass fibre, and also when it is a little piece of glass or a small amount
+of glass powder. However, Leeuwenhoek was an expert glass blower (Letters c-g), and could
+just as well have used a glass tube as a starting material. The author found that good results can
+be obtained as follows: (a) take a piece of thin-walled tube, 10-20 mm diameter will do; (b) draw
+a point a both ends and close one end; (c) heat and blow to a bulb; (d) heat the closed side and
+remove as much glass as possible; (e) when done well, there remains a little knot of glass which
+nearly automatically takes the form of a lens (see Fig. 19).
+
+* Indem es unmoglich im blasen etwas anders als eine Kugel order Endung zu formieren.
+
+The microscopes of Antoni van Leeuwenhoek
+
+321
+
+Fig. 18. Photograph of both sides of the Utrecht lens, showing bubbles in the glass and irregular shape of
+the lens apertures. Courtesy of the Utrechts Universiteits Museum.
+
+When the temperature of the glass is rather low, the lens remains relatively thick, but prolonged heating tends to make the lens thinner and consequently weaker. A good glass blower
+can give the lens a variety of curvatures, from about equiconvex to nearly planoconvex. The
+curvature of each of the surfaces of the lens is strongest at the centre, gradually getting weaker
+at the outer zones, and ending in the general shape of the bulb’s surface (Fig. 20).
+Mr J. Nieuwland at Delft kindly helped in trying out the method. We found that it works
+best with soft glasses; with pyrex the results were far less satisfactory. One of our soft-glass
+lenses is 1.45 mm thick and has radii of 1.52 and 3.58 mm. The focal length is 2.23 mm. With
+a free aperture of 0.86 mm diameter at the eye side, which gives a numerical aperture of 0.19,
+this lens resolves at least 2 pm (see Fig. 21). So the method can yield useful lenses markedly
+different from spheres. It requires a skilled glass blower, and the percentage of rejects is high.
+If the Utrecht lens were made by a similar method, it is to be expected that the surfaces
+would be aspherical. T o check this, the radii of curvature at the centre of the lens and at the
+outer zones were carefully measured. The results are shown in Fig. 22 for two different diameters
+
+Fig. 19. How to blow a lens out of a piece of glass tubing.
+
+322
+
+J . van Zuylen
+
+Fig. 20. A blown glass bulb with a lens at its apex.
+
+of the surface at the eye side of the lens. The deviations from spherical do not very much exceed
+the errors of measurement, but they are all in the same direction. So we may rightly conclude
+that the Utrecht lens is aspherical, the radii of curvature increasing to the margin of the lens.
+It is nearly impossible to generate such a surface by polishing, but it is just the shape which
+can be expected when the lens is blown. It seems probable that Leeuwenhoek by preference
+used this method of blowing for making high-power lenses. For low-power lenses, grinding
+and polishing was much more suitable, as the selection of a good piece of glass gave no problems,
+and working it was a straightforward process with an excellent chance of achieving a good result.
+EVALUATION O F MEASUREMENTS
+
+A scale drawing of the optical lay-out of the measuring microscope and a concise description
+has already been given.
+The collimator has a low distortion, triplet lens. Seen through this lens the scale subtends
+an angle of 18.62". The intervals in the image of the scale at infinity were measured with a
+goniometer. Errors do not exceed 0.lo, of full scale.
+The objective of the measuring microscope has a numerical aperture of 0.10. This is, under
+average lighting conditions, good for a resolving power of about 3 pm, equivalent to about 20 pm
+in the image plane. Settings of the movable cross-hair of the filar micrometer on isolated details
+of the image have a precision of a few micrometres.
+As a rule, the lens to be measured has a higher numerical aperture than the objective of the
+microscope, hence the pupil of the latter acts as an aperture stop. Consequently, up to a focal
+length of 13.5 mm, the spherical aberration of the (biconvex) lens to be measured is smaller
+than the Rayleigh limit, and the image of the collimator scale, as seen in the microscope, is
+decently sharp. Moreover, as the working distance of the microscope is 32 mm, the aperture
+stop is rather far away from the lens by comparison with its focal length, and the scale of the
+image is nearly insensitive to changes of focus.
+
+The microscopes of Antoni van Leeuwenhoek
+
+323
+
+Fig. 21(a). Photograph made with the blown lens shown in Fig. 20 and described in the text.
+
+Fig. 21(b). Enlarged print of a part of Fig. 21(a). Magnification x 285. Magnification of negative x 112.
+
+For preference, measurements were made on a not over long part of the collimator scale,
+equivalent to an angle generally less than 8", thus diminishing the influence of distortion and
+curvature of field. The equivalent linear distance in the filar eye-piece was as a rule between
+1.5 and 4 mm, amply long enough to be measured with a precision of some tenths of a per cent.
+Values measured for the Leyden lenses agree very well with the measurements of Van der
+Star. The focal length of the Utrecht lens is too short to be measured well by this method; it
+was measured photographically, and the result agrees well with the measurements of Harting
+and Van Cittert.
+For the measurement of radii the microscope was calibrated directly on a set of steel balls,
+whose radii were measured with accurate micrometer calipers. In the microscope, the reflected
+
+324
+
+J . van Zuylen
+
+I
+
+0.72 -
+
+-E 0.71
+v
+
+2
+
+$ 0.70
+
+;,
+
+l @ @ l * l . ,
+
+40°
+
+,
+
+,I
+
+0
+
+Angle f r o m c e n t r e of lens in degrees
+
+Fig. 22. Measurements of the radii of curvature along two diameters of the eye-side surface of the Utrecht
+lens. Each point is the average of six measurements. The upper diagram relates to the diameter parallel
+to the longer side of the microscope, the lower diagram to the diameter perpendicular to it.
+
+images are markedly impaired by coma and astigmatism, but the settings of the movable crosshair repeat rather well. As the images of the lamps in the lens surfaces look much the same as
+the reflections on the steel balls, and calibrations and measurements were performed by the
+same observer, systematic errors most probably are small, and accuracy of the measured radii is
+better than 0.50,.
+The centre of the back surface and its apex are imaged by the front surface of the lens. The
+distance i; of these images is the virtual radius which is measured for the ‘through the lens
+surface’. In the following equations the symbols represent: r the radius of the front surface; r’
+the radius of the back surface (both quantities positive for a biconvex lens); f the focal length;
+d the thickness; n the refractive index of the glass. To simplify, we denote:
+
+(n- 1)d
+- =P
+nr
+Then, by simple geometrical optics we find:
+?=---++-r’-d
+
+(r‘if)+l-p
+
+d
+41-PI
+
+Rearranging the well-known formula for the focal length of a thick lens :
+
+(1) and (2) are the formulae needed to calculate d and n. There is no advantage in trying to express
+these quantitites explicitly. 7 is strongly dependent on d. Consequently the values of the back
+surface reflections give a value of d about as accurate as the measured radii.
+The refractive index is calculated from the focal length. In formula (2) only p is dependent
+on d, but a relative error in this quantity only has a reduced influence on the term in brackets. So
+an approximate value of d already gives a rather good value of n.
+T H E POWER OF UNCORRECTED S I M P L E MICROSCOPES
+
+The upper limit for the resolving power of a lens is set by the numerical aperture. Aberrations
+of the lens may degrade the resolution, and in the case of small lenses, spherical aberration is
+the most important. In this connection, the calculation by Van Cittert (1954) of the relative
+seriousness of the various aberrations is most revealing. If one assumes the surfaces of the lens
+to be truly spherical, this aberration can be calculated. Its influence on image quality can be
+
+The microscopes of Antoni van Leeuwenhoek
+
+325
+
+evaluated when the wave nature of the light is taken into account. According to wave theory
+the image of a point source is a bright disc, surroundedd by alternating dark and bright rings
+of decreasing luminosity. Not too strong spherical aberration has the result that the central
+disc loses luminosity, and the rings become brighter, thus diminishing the contrast of the image.
+The diameter of the central disc hardly depends on spherical aberration, consequently resolving
+power is not much influenced by a modest amount of it. A good practical limit for spherical
+aberration compatible with good image quality is given when the intensity of the centre of the
+disc is diminished to 80% from the value it has with a perfect lens. It is equivalent to the theoretical limit defined by Lord Rayleigh. It guarantees that the loss of contrast in most practical cases
+is hardly perceptible. When the aberration exceeds the Rayleigh limit, the loss of contrast
+gradually degrades the image.
+With a given lens, a free aperture can be found, such that spherical aberration just equals
+the Rayleigh limit. When the free aperture is made 2001, larger in diameter, the spherical aberration will be twice the Rayleigh limit. A 30°/,larger diameter brings the spherical aberration
+up to 3 times the Rayleigh limit. The increase of aperture implies an increase of resolving
+power, but due to the loss of contrast, this is not quite proportional. Experimentally, it is found
+that beyond 3 times the Rayleigh limit the loss of contrast necessitates restricting the aperture
+of the illuminating light. With approximately parallel incident light, useful images can be obtained even when the spherical aberration amounts to 20 times the Rayleigh limit, but the
+resolving power does not increase any more. Reasonable results were obtained when determining
+the numerical aperture at which the spherical aberration equals 2-5 times the Rayleigh limit,
+and when calculating the corresponding resolving power. So this is the reduced aperture that
+underlies the calculated resolving powers in Table 1.
+An experimental approach to the evaluation of simple microscopes as observational tools
+has been made by George Svihla (1967). In order to discover the meaning of Leeuwenhoek’s
+somewhat obscure description of his observation on yeast (Letter c), he ground and polished
+a number of lenses similar to those used by Leeuwenhoek. The lenses were worked on an
+electrically driven spindle with modern abrasives, and were polished on pitch. Svihla states
+that examination of his lenses with a hand lens did reveal that in some cases aspherical surfaces
+were produced. However, his observations do not suggest that his lenses had less than normal
+spherical aberration. It is very interesting that Svihla empirically hit on the necessity to control
+the numerical aperture of the illuminating light by controlling the extent of the source, and that
+a candle proved to be very efficient for the highly transparent object he was examining.
+When calculating resolving power, we must take into account that the lighting conditions
+cannot be controlled as well as with a modern compound microscope. Hence, a realistic formula
+for the smallest resolvable detail d is: d= h / l 3 NA. (With good modern lenses, and carefully
+adjusted central illumination, a factor of 1.7 can be attained; a lens of 0.65 NA resolves the
+structure of Pleurosigma angulatum, about 0.5 pm.) The formula was tested on the measurements
+of Van der Star (1953), who published the resolving power and the numerical aperture of the
+simple microscopes in the Museum Boerhaave at Leyden. Only very few of the older biconvex
+lenses surpass the factor 1.5, most of them fall markedly behind, and even a factor of 0.5 is
+possible.
+Scaling down a lens proportionally diminishes the aberrations, enabling a higher numerical
+aperture to be had. However, the free aperture of the lens must be made smaller, which sets
+a limit to the procedure. It is not practical to make the diameter of the free aperture smaller
+than 0.5 mm. It can be easily shown that with a free aperture (or generally an exit pupil) of
+this size, the magnification factor of a microscope equals a thousand times the numerical aperture,
+which is a useful limit for modern microscopes too. It guarantees that all details that can be
+resolved by the lens can also be resolved by the eye, without diffraction fringes hampering the
+observation.
+As an example, a biconvex lens with radii of 0.622 and 0.633 mm, a thickness of 1.03 mm,
+and a refractive index of 1.53, has a focal length of 0.83 mm. With a free aperture of 0.5 mm it
+has a numerical aperture of 0.30 and a spherical aberration of 2.5 times the Rayleigh limit.
+21
+
+326
+
+J . wan Zuylen
+
+So this lens is close to optimal for a simple microscope. It should resolve 1.17 pm. h glass
+sphere could do rather better. With a radius of 0 5 4 mm it can be used with a numerical aperture
+of 0.315, and hence should resolve 1.11 pm. It has, however, the short working distance of
+0.23 mm.
+Though the Utrecht lens suffers from the many bubbles in the glass, it is not far from the
+theoretical limit. In Leeuwenhoek’s time, a practical limit to perfection was the quality of
+the glass. However, as the Utrecht lens is only one of the many lenses Leeuwenhoek made, it
+is quite possible that his method of blown lenses might occasionally have given him a lens of
+still markedly better performance, as the aspherical surfaces tend to reduce spherical aberration.
+MAYALL C O P I E S
+
+After 1870, Leeuwenhoek microscopes had become very scarce. So when in the last decades
+of the nineteenth century some collectors became interested in Leeuwenhoek microscopes for
+their collections, they had to content themselves with replicas. Some of these reproductions
+originate from John Mayall, Jr, who was Secretary of the Royal Microscopical Society, an able
+microscopist, and renowned microscope antiquarian. He had facilities for repairing old microscopes and also, when an original was available, for making copies of them. For the Leeuwenhoek microscopes, the opportunity arose in 1886, when Professor A. A. W. Hubrecht paid a
+visit to London, bringing with him the Utrecht Leeuwenhoek microscope (Mayall, 1886).
+This enabled Mayall ‘to make careful1 drawings and models of the instrument’. The report on
+Hubrecht’s visit was literally repeated in the description of the Utrecht microscope Mayall
+added to the printed account of his Cantor Lectures.
+By courtesy of the owners, the author had the opportunity of studying three of these Mayall
+copies. They included one microscope from the Museum of the History of Science in Oxford,
+and two microscopes from the Whipple Museum of Science in Cambridge, inventory numbers
+975 and 1817. These microscopes are mechanically very similar. The lens plates have about the
+same shape and nearly the same dimensions of 27 x 47 mm. The object pin is turned on a lathe.
+The knob riveted to it is made in one piece with two diametrically positioned pins. One of these
+pins serves as a rivet for fastening the knob to the object pin, the other one is free, which agrees
+with Mayall’s description of the corresponding part of the Utrecht microscope, but not with the
+Utrecht original. Part of the lens plate at the object side of the Utrecht microscope shows an
+inward curvature; this non-functional peculiarity is also found in the Mayall copies. The
+focusing screws of the three microscopes proved to be interchangeable, which indicates that most
+probably they were made with the same tools.
+For the microscope Cambridge no. 975, only the focal length (5.0 mm) could be measured.
+The microscope Cambridge no. 1817 has a lens with focal length 4.49 mm, radii 4.45 and 4.11
+mm, thickness 2.15 mm, and refractive index 1.52. The free aperture has a diameter 1.63 mm,
+giving a numerical aperture 0.18. The spherical aberration equals 3.5 times the Rayleigh
+limit. Resolving power as calculated is about 2 pm. The finest available test ruling, 2.5 pm,
+was well resolved.
+The Oxford microscope has a lens with focal length 1.41 mm, radii of both sides 1.154 mm,
+thickness 1.24 111111, and refractive index 1.50. The free aperture has a diameter 0.6 mm, giving
+a numerical aperture of 0.21. The spherical aberration equals 1.5 times the Rayleigh limit,
+and the resolving power should be about 1.7 pm. Experimentally it could be checked that it
+was better than 2.5 pm.
+The lenses are all different, and they are all ground and polished. It seems probable that
+originally they were intended to be part of modern microscope objectives. This may explain
+the rather low value of the refractive index of the Oxford lens.
+ACKNOWLEDGMENTS
+
+The author wishes sincerely to thank the owners and curators in charge of the instruments
+that were examined for their helpful willingness to assist in this investigation.
+Special thanks are due to Dr P. H. Kylstra, Director of the Utrechts Universiteits Museum,
+
+The microscopes of Antoni van Leeuwenhoek
+
+327
+
+who not only provided the opportunity for undertaking the very time-consuming measurements
+described in the section of the Utrecht lens, but also promoted the investigation by placing
+several of the museum’s facilities at the aurhor’s disposal, and made himself available for helpful
+discussions.
+The author also wishes gratefully to mention the stimulating interest of Mr A. 3. F. Gogelein,
+Director of the Museum Boerhaave in Leyden, and of Drs P. van der Star, Assistant Curator
+of this Museum.
+Mr G. L’E, Turner, F.s.A., Senior Assistant Curator of the Museum of the History of
+Science in Oxford, gave valuable information on the activities of John Mayall, Jr, and enabled
+the study of three Mayall copies to be made by bringing them to Holland. He has given much
+help in the final preparation of the manuscript for publication.
+Mr 3. C. P. W. Gerwig, by his valuable assistance in scrutinizing Leeuwenhoek’s lenses,
+contributed much to substantiate the conclusions.
+REFERENCES AND NOTES
+
+An important and valuable guide to the scientific work of Van Leeuwenhoek has been published by
+Clifford Dobell (1932), Antony van Leeuwenhoek and his ‘Little Animals’, John Bale, Sons and Danielsson,
+London (reprinted Dover Publications, New York, 1960). Here will be found a guide to the many publications, in Dutch or Latin, of Leeuwenhoek’s letters (pp. 388-397). Some letters or extracts have been
+translated by Dobell and are printed in his book. A work that can be found in a number of libraries is
+Opera Omnia, seu Arcana Naturae, ope Exactissimorum Microscopiorum Detecta, experimentis variis comprobata, Epistolis, ad varios illustres Viros, . . . 4 vols, J. A. Langerak, Leyden, 1722. This contains letters
+numbered 28-146 and I-XLVI. Leeuwenhoek numbered his published letters in chronological order in
+two series, but began with No. 28 and not with No. 1. The Royal Society of London has about 200 manuscript letters, and these are referred to by Dobell in a numbered sequence beginning at No. 1. A complete
+edition of Leeuwenhoek‘s letters is in progress under the auspices of the Leeuwenhoek Commission of the
+Royal Netherlands Academy of Sciences and Letters. In this edition, which includes all the letters in the
+original Dutch together with a modern translation into English, the letters are numbered strictly in chronological order.
+The letters are referred to here by the number in this edition, and by the date and the addressee; see
+The Collected Letters of Antoni van Leeuwenhoek, edited, illustrated and annotated by a Committee of Dutch
+Scientists,. . ., vols. 1-8, Amsterdam, 1939-67. Leeuwenhoek’s own numbers, as, for example, in Opera
+Omnia, are given in square brackets.
+Baker, Henry (1741) An account of Mr. Leeuwenhoek’s microscopes. Phil. Trans. 41, pt 2, 503-519.
+De Waard, C. (1945a) Journal tenu par Isaac Beeckman de 1604 a 1634, publib auec une introduction et des
+notes par C. de Waard, Vol. 3, pp. 308f, 383f. Martinus Nijhoff, The Hague, 4 vols, 1939-1953.
+De Waard, C. (194%) Ibid., Vol. 3, p. 376.
+Frison, Edward (1948) A Leeuwenhoek microscope. An account of the almost-forgotten instrument in the
+Henri van Heurck Collection at the Natural History Museum, Antwerp, with a brief historical survey.
+The Microscope, 6, 281-287.
+Fuchs, H. (1957) Der Aufbau der Physik im Deutschen Museum. Deutsches Museum, Abhandlungen und
+Berichte, Jahrgang 25, Heft, 3, pp. 22-24.
+Harting, P. (1850) Het Mikroskoop, part 3, pp. 43-44. Van Paddenburg & Comp., Urrecht. Also published
+in a German translation, Das Mikroskop, 2nd edn (18661, part 3, p. 38. Friedrich Vieweg und Sohn,
+Brunswick.
+Hooke, R. (1665a) Microgaphia: or some Physioloxical Descriptions of Minute Bodies made by Magnifying
+Glasses, p. 4. Royal Society, London.
+Hooke, R. (1665b) Ibid., sig. Af2.
+Hooke, R. (1678) Lectures and Collections made by Robert Hooke. Royal Society, London. Reprinted in
+R. T. Gunter (1931) The Cutler Lectures of Robert Hooke. Early Science in Oxford, Vol. 8, p. 313.
+Printed for the Author, Oxford.
+Huygens, Christiaan (1895, 1944) Oeuvres complites de Christiaan Huygens, Vol. 6, p. 205; Vol. 21, p. 265.
+Martinus Nijhoff for the Dutch Society of Sciences, The Hague, 22 vols, 1888-1950.
+Huygens, Christiaan (1899) Letter of B. de Monconys, dated 1663, quoted in Oeuvres complites, Vol. 8,
+p. 91.
+Letter a. [116] 9 June 1699 to Royal Society.
+Letter b. 26 [18] 9 October 1676 to Royal Society. The remark about ‘the wooden spring of my lathe’ is
+in The Collected Letters, Vol. 2, p. 78, and in Dobell, p. 125.
+Letter c. 62 [32] 14 June 1680 to the Royal Society.
+Letter d. 113 [66] 12 January 1689 to the Royal Society.
+
+328
+
+J . van Zuylen
+
+Letter e. 120 [72] 22 April 1692 to the Royal Society.
+Letter f. 154 [93] 18 August 1695 to A. Heinsius.
+Letter g. [lo81 5 April 1697 to the Royal Society.
+Mayall, J. (1886) Mayall, in an editorial note, describes the Utrecht instrument, and reports that copies
+were made. J . roy. Microsc. SOC.series 2, 6, 1047-1049.
+Rooseboom, Maria (1939) Concerning the optical qualities of some microscopes made by Leeuwenhoek.
+J . roy. Microsc. SOC.59, 177-183.
+Svihla, George (1967) The yeast cell: What did Leeuwenhoek see? The Microscope, 15, 289-300.
+Uffenbach, Z.C. von (1754) H e w n Zacharias Conrad von Uffenbach merkwiirdige Reisen durch Niedersachsen
+Holland und Engelland, vol. 3, p. 359. Ulm. For a translation, see Dobell (1932), p. 68.
+Van Cittert, P.H. (1932) The ‘Van Leeuwenhoek Microscope’ in possession of the University of Utrecht.
+Proceedings Koninklijke Akademie v a n Wetenschappen te Amsterdam, 35, 1062-1063.
+Van Cittert, P.H. (1933) The ‘Van Leeuwenhoek Microscope’ in possession of the University of Utrecht.
+11. Proc. Kon. Akad. W e t . Amsterdam, 36, 194-196.
+Van Cittert, P.H. (1934) The optical properties of the ‘Van Leeuwenhoek‘ microscope in possession of
+the University of Utrecht. Proc. Kon. A k a d . W e t . Amsterdam, 37, 290-293.
+Van Cittert, P.H. (1954) On the use of glass globules as microscope-lenses. Proc. Kon. A k a d . W e t . Amsterdam, series B, 57, 103-111.
+Van Seters, W.H. (1933) Leeuwenhoek’s microsceopen, praepareer- en observatie-methodes. Bijdragen
+tot de Geschiedenis der Geneeskunde, 13, 217-235. See also Dobell (1932), pp. 320-322.
+Van der Star, P. (1953) Descriptive Catalogue of the Simple Microscopes i n the Rijksmuseum voor de Geschiedenis der Natuurwetenschappen at Leyden, p. 27. Communication no. 87 from the Museum, Leyden.
+Van Zuylen, J. (1980) A full account is forthcoming in Junus.
+
+
