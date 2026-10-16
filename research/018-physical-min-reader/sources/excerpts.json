@@ -1,0 +1,77 @@
+[
+ {
+  "url": "https://piql.com/technology/film/",
+  "fact": "The piqlFilm has a total storage capacity of 120GB per film. This equates to approximately 65,000 frames of film. / encoded at microscopic resolution (1180 line pairs per mm)",
+  "file": "sources/piql_film.txt"
+ },
+ {
+  "url": "https://piql.com/technology/writer/",
+  "fact": "2 MB Data density per frame; 40 MB/s Writing speed. Equals 20 frames per second",
+  "file": "sources/piql_writer.txt"
+ },
+ {
+  "url": "https://fstoppers.com/originals/how-back-your-digital-photos-film-537562",
+  "fact": "'nanodensity' capable of storing 8.8 million data points; Alfheim: manually retrieve the data ... All you need is a light source, camera, and computer",
+  "file": "sources/fstoppers_piql.txt"
+ },
+ {
+  "url": "https://cordis.europa.eu/project/id/820525/reporting",
+  "fact": "data density of up to 16m pixels per frame",
+  "file": "sources/cordis_820525.txt"
+ },
+ {
+  "url": "https://github.com/github/archive-program (GUIDE.md, saved in research/012/sources)",
+  "fact": "most of its data has been packed ... in an encoded and compressed form ... In theory it could be done without computers, but it would be very tedious and difficult; compression program XZ (LZMA); Tech Tree reel uncompressed, unencoded, human-readable; QR fields of black, white, and gray pixels",
+  "file": "../012-archive-reading-ladder/sources/github_archive_GUIDE.md"
+ },
+ {
+  "url": "https://tukaani.org/xz/man/xz.1.html",
+  "fact": "Preset table DecMem: -0 1 MiB, -6 9 MiB, -9 65 MiB; dictionary bigger than the uncompressed file wastes memory",
+  "file": "sources/xz_man_tukaani.txt"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Colossus_computer",
+  "fact": "Flowers and his team of some fifty people ... spent eleven months ... Mark 1 Colossus, contained 1,600 thermionic valves; Mark 2 containing 2,400 valves",
+  "file": "sources/Colossus_computer.txt"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Manchester_Baby",
+  "fact": "550 valves ... power consumption of 3500 watts; 32 by 32-bit words of random-access memory",
+  "file": "sources/Manchester_Baby.txt"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/ENIAC",
+  "fact": "18,000 vacuum tubes ... consumed 150 kW",
+  "file": "sources/ENIAC.txt"
+ },
+ {
+  "url": "https://www.worldradiohistory.com/ARCHIVE-RCA/RCA_Radiotron.htm",
+  "fact": "RCA Radiotron five factories ... will employ 5500 people, and have an output of 310,000 tubes a day",
+  "file": "sources/rca_radiotron.html"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Sylvania_Electric_Products",
+  "fact": "Hygrade end of 1928 daily production totaled 1,000 vacuum tubes; June 1930 capacity 20,000 tubes per day; 1933 employment 2,511 to 4,750",
+  "file": "sources/Sylvania.txt"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+  "fact": "Those that have survived are capable of magnification up to 275 times",
+  "file": "sources/Antonie_van_Leeuwenhoek.txt"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Arctic_World_Archive",
+  "fact": "guides are all readable by eye, after magnification; life span at least 500 and possibly up to 2,000 years",
+  "file": "sources/Arctic_World_Archive.txt"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Computer_(occupation)",
+  "fact": "The same calculations were frequently performed independently by separate teams to check the correctness",
+  "file": "sources/Computer_occupation.txt"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/The_Toaster_Project",
+  "fact": "nine-month project ... A toaster has about 400 components: he simplified the materials list",
+  "file": "sources/The_Toaster_Project.txt"
+ }
+]

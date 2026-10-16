@@ -220,4 +220,20 @@
 <li>判定：H29a 棄却、H29b 支持、H29c 棄却、H29d 支持（棄却が頑健）、H29e 支持、H29f 支持。</li>
 <li>結論：016 の「1.70倍」は過大で、選択の効果は約1.2倍にとどまる。e=1850 の根拠を選択に置くことはできず、時代 e はデータで決まらないシナリオ変数になった。後退は多いが永続的な非離陸はまれ。</li>
 <li>「誰が何を変えるべきか」：記載あり。016 の1.70を撤回し、Piql D23* を時代 e の関数として示す。primer の検証は交易・教師のない条件を想定する。</li>
+</ul>
+<h2 id="18-2026-10-16">第18回 2026-10-16</h2>
+<ul>
+<li>再現チェック：013〜017 を <code>/tmp/rep018/</code> に複製し、017 の sim.py（約14秒）を再実行した。results.json は runtime 以外一致し、<code>check_014_records_refit.reproduced=true</code>、<code>check_015.reproduced_exactly=true</code> だった。</li>
+<li>文献（本回開いて確認。抜粋は research/018-.../sources/excerpts.json）：piql.com（film、writer）、Fstoppers の Piql 記事、CORDIS 820525、tukaani.org の xz man（展開メモリ表）、Wikipedia（Colossus、Manchester Baby、ENIAC、Sylvania、Leeuwenhoek、Arctic World Archive、Computer (occupation)、The Toaster Project）、worldradiohistory.com の RCA Radiotron。GitHub GUIDE は 012 の保存版を再読。</li>
+<li>研究018を実施：<code>research/018-physical-min-reader/</code>（sim.py seed=20261016、約3秒）。成果物は results.json、stdout.txt、fig_manual_costs.png、fig_nmin_and_ladder.png、report.md、PREREGISTRATION.md（04:39:21 UTC、初回実行前）、sources/。<code>/tmp/rep018b/</code> で再実行し runtime 以外一致。</li>
+<li>方法：Piql 型 QR を (M-U) 顕微鏡＋人手で非圧縮を読む、(M-C) 人手で XZ/LZMA を展開する、(E) Colossus 級の光電読取＋真空管機を自作する、の3経路で人年・直列年数・最小人口を出した。圧縮率は Python 標準ライブラリで実測（ファイル中央値 ρ=3.63）し、LZMA 手展開の演算数の下限 9.8/バイトを導いた。</li>
+<li>主要数値：</li>
+<li>非圧縮の手読み：0.37人年/MB、100人で年 271 MB。1リール全体は4.4万人年。</li>
+<li>XZ の手展開：149人年/MB（非圧縮の404倍）、1 MB の直列時間 24.8年。</li>
+<li>電子経路の最小人口：中央値5.3万人（7.7千〜37万）。1620年イングランド（469万人）の約1/90。</li>
+<li>優先 10 MB を Piql 寿命内に読む確率：手作業（非圧縮）0.980、手作業（XZ）0.926、T3 経路 m23=943 で 0.260。</li>
+<li>xz -6 の展開メモリは Baby の主記憶の73,728倍。</li>
+<li>判定：H30a・b・d・e・f 支持、H30c 棄却（1万人では足りない）。</li>
+<li>結論：Piql の非圧縮部分は実質 T2 媒体で、D23* 問題は全量を機械で読む場合にだけ当てはまる。n23 の人口成分は物理的には必要条件でない。</li>
+<li>「誰が何を変えるべきか」：記載あり。QR フィルム運営者は、優先データを非圧縮・1ビット/画素・単純な符号で別に書き込み、圧縮するなら1 MB 未満のファイルに分ける。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

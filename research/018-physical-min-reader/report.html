@@ -1,0 +1,151 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究018：T3 読取の物理的最小規模 — 人手・圧縮・真空管（open_problems 54） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="018t3-open_problems-54">研究018：T3 読取の物理的最小規模 — 人手・圧縮・真空管（open_problems 54）</h1>
+<h2 id="_1">問い</h2>
+<p>015〜017 では Piql の D23*（T2→T3 回復の許容年数）が時代 e と倍増回数 n_k に依存し、データでは決まらなかった。本回は GDP を使わず、Piql 型 QR フィルムを読むのに<strong>物理的に何人・何人年が要るか</strong>を、3つの経路で下から見積もった。(M-U) 顕微鏡＋人手で非圧縮 QR を読む、(M-C) 人手で XZ/LZMA 圧縮を展開する、(E) Colossus 級の光電読取＋真空管論理機を自作する。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>piqlFilm は1本 120 GB・約65,000コマ、解像度 1180 lp/mm</td>
+<td>【事実（https://piql.com/technology/film/ ）】</td>
+</tr>
+<tr>
+<td>1コマ 2 MB、書込 40 MB/s（20コマ/秒）</td>
+<td>【事実（https://piql.com/technology/writer/ ）】</td>
+</tr>
+<tr>
+<td>1コマ 8.8M 点。Piql 側は「手で取り出すには光源・カメラ・計算機があればよい」と述べる</td>
+<td>【事実（https://fstoppers.com/originals/how-back-your-digital-photos-film-537562 ）】</td>
+</tr>
+<tr>
+<td>高解像度版は1コマ最大 16M 画素</td>
+<td>【事実（https://cordis.europa.eu/project/id/820525/reporting ）】</td>
+</tr>
+<tr>
+<td>GitHub アーカイブの大半は XZ（LZMA）で圧縮。「計算機なしでも理論上は可能だが非常に困難」。Tech Tree リールは非圧縮・人間可読。QR は黒・白・灰の画素</td>
+<td>【事実（GitHub archive-program GUIDE.md、research/012/sources に保存）】</td>
+</tr>
+<tr>
+<td>xz の展開メモリ：-0 で 1 MiB、既定 -6 で 9 MiB、-9 で 65 MiB。辞書がファイルより大きいと無駄になる</td>
+<td>【事実（https://tukaani.org/xz/man/xz.1.html ）】</td>
+</tr>
+<tr>
+<td>Colossus Mk1：約50人で11か月、真空管1,600本。Mk2 は2,400本</td>
+<td>【事実（https://en.wikipedia.org/wiki/Colossus_computer ）】</td>
+</tr>
+<tr>
+<td>Manchester Baby：真空管550本、3,500 W、主記憶 32語×32ビット</td>
+<td>【事実（https://en.wikipedia.org/wiki/Manchester_Baby ）】</td>
+</tr>
+<tr>
+<td>ENIAC：真空管18,000本、150 kW</td>
+<td>【事実（https://en.wikipedia.org/wiki/ENIAC ）】</td>
+</tr>
+<tr>
+<td>RCA Radiotron（1930）：5,500人で1日31万本。Hygrade は1928年末に1日1,000本</td>
+<td>【事実（https://www.worldradiohistory.com/ARCHIVE-RCA/RCA_Radiotron.htm 、https://en.wikipedia.org/wiki/Sylvania_Electric_Products ）】</td>
+</tr>
+<tr>
+<td>Leeuwenhoek の単レンズ顕微鏡は現存品で最大275倍</td>
+<td>【事実（https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek ）】</td>
+</tr>
+<tr>
+<td>人間計算者は同じ計算を別チームで独立に行って検算した</td>
+<td>【事実（https://en.wikipedia.org/wiki/Computer_(occupation) ）】</td>
+</tr>
+<tr>
+<td>手作業での読取速度・手計算1演算の秒数・上流産業の倍率の<strong>一次数値</strong></td>
+<td><strong>未確認</strong>（すべて【推測】の範囲で走査）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed20261016n2000003">方法（sim.py、seed=20261016、N=200,000、約3秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T04:39:21Z</strong>、初回実行前）。</li>
+<li>圧縮率 ρ を実測：Python 3.13 標準ライブラリの .py 156本を lzma preset 6 で圧縮。ファイル単位の中央値 <strong>ρ=3.63</strong>（10〜90% で 2.75〜4.68）、連結では 5.22。</li>
+<li>M-U：1バイトあたり画素 4.4（8.8M/2MB）または 8.0（16M/2MB）、読取 1〜20 画素/秒【推測】、二重読取。</li>
+<li>M-C：出力1バイトの演算数の下限 o_min = 1 + 4×8/ρ = <strong>9.8</strong>（2値判定の数は圧縮ビット数以上で、1判定に4演算以上かかる、という下限）。o は [o_min, 10 o_min]、1演算 5〜60 秒【推測】。LZMA は直前の状態に依存するので1ファイル内は並列化できない（直列1チーム3交代）。</li>
+<li>E：中核労働 = Colossus Mk1 の45.8人年 × [1,10]、真空管 550〜2,400本（予備で×3）を手作りで 0.5〜5 人日/本（RCA 量産 0.0177 人日/本の28〜282倍）、上流倍率 U∈[3,30]、10年、非農業比率 0.1〜0.4、その配分 0.5〜5%【いずれも推測】。</li>
+<li>梯子：012 の d01・d12 と Piql 寿命（500〜2000年 × 保管割引）。優先データ 10 MB（1 MB ファイル×10）、手作業に割く人数 10〜1000人。</li>
+<li>再現：<code>/tmp/rep018b/</code> で再実行し、results.json は runtime 以外一致。017 も <code>/tmp/rep018/</code> で再実行して一致（<code>check_014_records_refit.reproduced=true</code>、<code>check_015.reproduced_exactly=true</code>）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H30a</td>
+<td>非圧縮 1 MB の手読みが中央値 ≤2人年、100人で年 ≥10 MB（5% 点 ≥1 MB）</td>
+<td><strong>0.37人年/MB</strong>、年 <strong>271 MB</strong>（5% 点 61 MB）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H30b</td>
+<td>XZ 1 MB の手展開が直列 ≥5年、人年が非圧縮の ≥10倍</td>
+<td>直列 <strong>24.8年</strong>（5〜95%：4.9〜129）、<strong>404倍</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H30c</td>
+<td>Colossus 級機を10年で作る最小人口の中央値 &lt;1万人</td>
+<td><strong>5.3万人</strong>（7.7千〜37万）。1万人未満の確率 8%</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H30d</td>
+<td>xz -6 の展開メモリは Baby の主記憶の ≥10^4 倍</td>
+<td><strong>73,728倍</strong>（-0 でも8,192倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H30e</td>
+<td>優先 10 MB を寿命内に読む確率が、手作業（非圧縮）で T3 経路（m23=943）より ≥0.3 高い</td>
+<td>0.980 対 0.260（差 <strong>+0.72</strong>）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H30f</td>
+<td>最小人口の95% 点 &lt; 1620年イングランド人口 4.689M</td>
+<td><strong>37万人</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">主な数値</h2>
+<ul>
+<li>非圧縮の手読み：1 MB あたり 0.37人年（0.08〜1.6）。1リール全体（120 GB）は <strong>4.4万人年</strong>、GitHub アーカイブ全体（21 TB）は 776万人年。全量の手読みは不可能だが、MB 単位の優先データは100人規模で数日〜数か月で読める（10 MB に中央値 0.04年）。</li>
+<li>圧縮の手展開：出力 1 MB あたり 149人年、直列 24.8年。それでも Piql の寿命（数百年）より短いので、10 MB を寿命内に読む確率は <strong>0.926</strong>（非圧縮 0.980）。ただしファイルが 10 MB になると直列時間が延び 0.65 に落ちる。</li>
+<li>単発の手計算では 1 MB の展開を誤りなく終える確率はほぼ0。二重計算で食い違いを検出してやり直す運用が前提になる（このとき人年は約2倍。モデルに含めた）。</li>
+<li>電子経路の最小人口：中央値5.3万人。効いているのは配分割合（ρ_s=−0.56）、上流倍率（+0.56）、中核労働の倍率（+0.46）で、真空管の本数や手作りの手間はほとんど効かない（直接労働に占める真空管の割合は中央値13%）。</li>
+<li>探索的：上流倍率を [30,300] にしても最小人口の中央値は53万人で、97% が1620年イングランドより小さい。最小人口が1620年イングランドに達するには、上流倍率が中央値で約840倍必要になる。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>手作業の速度は推測</strong>【推測】：画素読取 1〜20/秒、1演算 5〜60 秒に一次資料はない。ただし M-U の結論（MB 単位なら読める）は、速度を10倍遅くしても 100人で年 27 MB で変わらない。M-C の「圧縮は約400倍高い」は o の下限（ρ の実測から出した値）が支えている。</li>
+<li><strong>誤り訂正を数えていない</strong>【推測】：Piql の QR が前方誤り訂正とインターリーブを使うかは、本回開けた資料では確認できなかった（検索要旨には記載があったが、本文のページは開けなかった。GUIDE の Representation Information の目録には「Generic 4K Frame format」と「Unboxing library」があるだけで、誤り訂正の明記はない）。使っている場合、フィルムが劣化して誤りが出ると手で誤り訂正符号を解く必要があり、非圧縮でも費用が数倍〜数十倍になりうる。誤りがない限り、組織的な符号ならデータ部分だけを読めると仮定した。</li>
+<li><strong>灰色の画素</strong>【事実＋推測】：GUIDE は黒・白・灰の画素と書く。2 MB/8.8M 点は約1.8ビット/画素で、多値の濃淡を目で判別する必要がある。16M 画素版なら約1ビット/画素。濃淡の判別誤りは読取速度の範囲に含めたつもりだが、検証していない。</li>
+<li><strong>H30c の棄却の意味</strong>：1万人は足りないが、5万人前後（7.7千〜37万）で足りる。これは中世の大都市1つ分の規模で、国家規模ではない【推測】。ただし、知識（primer）と設計図が手元にあることを前提にした値である。</li>
+<li><strong>メモリ壁は小さいファイルでは下がる</strong>【事実】：xz の展開メモリはファイルより大きくならない。Python のソースのファイル中央値は 15.5 KB なので、repo 単位の小さなアーカイブなら Baby の数百倍程度で済む場合がある。H30d は既定設定と 1 MiB 以上のファイルについての結論である。</li>
+<li><strong>電子経路で何が読めるか</strong>：Colossus/Baby 級は、非圧縮の QR を光電で流し読みすることはできても、MB 級の辞書を持つ XZ 展開はできない。圧縮データの機械読取には MB 級の RAM が要る。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>Piql の QR データは一律に「T3 媒体」ではない。<strong>非圧縮の部分は、Leeuwenhoek 級の顕微鏡と100人規模の人手で読める実質 T2 媒体</strong>であり、圧縮部分も小さなファイルなら手で展開できる（ただし約400倍の費用と数十年の直列時間がかかる）。012〜017 の D23* 問題は、全量（120 GB/リール）を機械で読む場合にだけ当てはまる。電子経路の物理的最小規模（中央値5.3万人）は1620年イングランドの約1/90で、015 で使った n23 の人口成分（3.13回の倍増）は、物理的には必要条件でない。</p>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Dartnell は真空管の手作業再建を、GitHub GUIDE は手作業展開が「理論上可能だが非常に困難」とだけ述べている。本回は、(1) 実測した圧縮率から LZMA 手展開の演算数の下限を出し、(2) 非圧縮と圧縮の手作業費用の比（約400倍）と直列時間を数値化し、(3) Colossus の労働量から読取機を作る最小人口を出して、015 の倍増回数と突き合わせた。確認した公開文献には、この3点を数値で示したものは見当たらない。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>Piql・GitHub Archive Program などの QR フィルム運営者</strong>：優先度の高い数 MB〜数百 MB（手引き、XZ や QR 形式の仕様、重要文書）を、<strong>非圧縮・1ビット/画素・誤り訂正は単純なもの</strong>で別に書き込むべきである。それだけで、その部分の読取に必要な技術は T3 から T2（顕微鏡と人手）に下がる。圧縮する場合は、ファイルを小さく分けて（1 MB 未満）、手展開の直列時間とメモリ要求を抑える。</li>
+<li><strong>本研究所</strong>：D23* の議論を「全量を機械で読む場合」に限定する。主結果の n23 は、物理的下界からは人口成分を含める必要がないことを併記する。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
