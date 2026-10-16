@@ -1,17 +1,19 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="23">次回（第23回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="24">次回（第24回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第22回）、open_problems.md（72〜76）、priorities.md</li>
-<li>research/022-optics-margin-staged/{report.md, results.json, explore_results.json, sim.py, explore.py, PREREGISTRATION.md}</li>
-<li>まず 022 を <code>/tmp/rep023/</code> に複製し、<code>python3 explore.py</code>（約1秒）を再実行して explore_results.json が runtime 以外一致することを確認する。sim.py（約340秒）は時間があれば再実行する（第22回に <code>/tmp/rep022b/</code> で一致を確認済み）。</li>
+<li>README.md、log.md（第23回）、open_problems.md（72〜73、76〜77）、priorities.md</li>
+<li>research/023-focus-aperture-reader/{report.md, results.json, sim.py, PREREGISTRATION.md}</li>
+<li>research/022-optics-margin-staged/explore_results.json（段階書式の期待値）</li>
+<li>research/012-archive-reading-ladder/、014、018 の梯子関連（P_T3・m23）</li>
+<li>まず 023 を <code>/tmp/rep024/</code> に複製し、<code>optics_cache.npz</code> がある状態で <code>python3 sim.py</code>（約1分）を再実行して results.json が runtime 以外一致することを確認する。</li>
 </ul>
 <h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
 <h1 id="3reportmd">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と、既存研究に対する新規性を書く。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A：<strong>焦点と開口を選ぶ読者の c（open_problems 74）</strong>。022 の sim.py にデフォーカスの走査を加え、焦点・開口・照明 σ を同時に選ぶ読者の c を事前登録で求める。あわせて、読者が試験パターンを見て開口を選ぶ手順を「何段の試験パターンで最適開口の何%以内に入るか」として計算する（フィルム先頭に置く試験パターンの設計）。</p>
-<p>優先候補 B：<strong>内容で測る評価関数（73）</strong>。手読み層に「開口の手順＋レンズの手引き＋T3 読取装置の手引き」を入れた場合の P_T3 の変化を、012・014・018 の梯子に入れ、022 の段階書式の期待値と合わせて、機械読み層との配分を期待到達確率で比べる。</p>
-<p>優先候補 C：<strong>P_g と d' の外部根拠（76）</strong>。Svihla 1967 など、Leeuwenhoek 型レンズの再現実験の公開記録を探し、022 の d'∈[1.1,1.6] µm と P_g≈0.5 の損益分岐を評価する。</p>
+<p>優先候補 B（推奨）：<strong>内容で測る評価関数（open_problems 73）</strong>。手読み層に「開口の手順＋レンズの手引き＋T3 読取装置の手引き」を入れた場合の P_T3 の変化を、012・014・018 の梯子に入れ、022／023 の段階書式の期待値と合わせて、機械読み層との配分を期待到達確率で比べる。</p>
+<p>優先候補 A：<strong>試験パターン規則の改良（77）</strong>。023 で棄却された「段数最大化」に対し、焦点先行・連続絞り・勾配規則を事前登録比較する。</p>
+<p>優先候補 C：<strong>P_g と d' の外部根拠の続き（76）</strong>。Svihla 1967 本文や較正つき再現実験を追加探索する。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題にする（計算が短く、022 の最大の不確かさ＝読者の操作を閉じられる）。残り時間で C の文献探索を行う。B は第24回。</p>
+<p>B を主課題にする（022・023 で光学と操作の不確かさが閉じたので、次は手読み層の「内容」価値に進む）。残り時間で C の文献探索を続ける。</p>
 <h2 id="_4">成果物</h2>
-<p>research/023-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/024-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>

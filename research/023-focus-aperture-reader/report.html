@@ -1,0 +1,105 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究023：焦点と開口を選ぶ読者の c、試験パターン段数（open_problems 74・76） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="023-copen_problems-7476">研究023：焦点と開口を選ぶ読者の c、試験パターン段数（open_problems 74・76）</h1>
+<h2 id="_1">問い</h2>
+<p>(74) 022 の部分コヒーレント結像にデフォーカスを加え、焦点・開口・照明 σ を同時に選ぶ読者の余裕係数 c は、022 探索的（開口と σ のみ）の中央値 1.45 と比べてどれだけ小さいか。試験パターン何段で最適開口の何%以内に入るか。
+(76) Svihla 1967 など Leeuwenhoek 型レンズ再現の公開記録から、022 の d'∈[1.1,1.6] µm と P_g≈0.5 を評価できるか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。抜粋は <code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Svihla (1967) <em>The Microscope</em> 15:289–300：Leeuwenhoek 類似レンズを電動スピンドル＋近代研磨剤で製作。手レンズでは非球面の例あり。ただし観察は通常以下の球面収差を示唆しない。照明開口を光源の広がりで制御し、ろうそくが透明物体に有効</td>
+<td>【事実（Zuylen 1981 の要約。PDF写し <code>021-.../sources/zuylen1981.txt</code> を本回再読。Svihla 本文は Crossref／EuropePMC／curl では未取得）】</td>
+</tr>
+<tr>
+<td>Utrecht 266倍機の実測分解能 1.35 µm、作動 NA 0.37、回折限界の理論値約 1.0 µm。球面収差が主害で、倍率に比例した開口制御が要点（Walther）。中性子トモグラフィでは球状レンズ</td>
+<td>【事実（<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8121416/">Cocquyt et al. 2021, Sci. Adv. eabf2402</a>、EuropePMC XML）】</td>
+</tr>
+<tr>
+<td>残存レンズ9台の Zuylen 測定は分解能 1.16〜4 µm</td>
+<td>【事実（<a href="https://lensonleeuwenhoek.net/content/visibility">Lens on Leeuwenhoek: Visibility</a>）】</td>
+</tr>
+<tr>
+<td>DIY／商用レプリカの記事はあるが、較正された µm 分解能の公表は見当たらない（Azevedo 2005；Quekett）。Ford の簡易顕微鏡写真は 0.7 µm 級の菌糸を「はっきり分解」と記述（較正表なし）</td>
+<td>【事実（<a href="http://www.microscopy-uk.org.uk/mag/artoct05/aalens.html">Azevedo 2005</a>；<a href="https://www.quekett.org/resources/article-archive/replica-leeuwenhoek-microscopes">Quekett</a>；<a href="https://brianjford.com/a-07-infocus-avl.pdf">Ford PDF</a>）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">方法</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-16T14:37:00Z</strong>、初回実行前）。仮説文は実行後に変えていない。</li>
+<li><code>sim.py</code>（seed=20261023、初回約766秒；<code>optics_cache.npz</code> ありで約56秒）：022 と同じ Abbe・円形光源・Z(4,0) 球面収差に、デフォーカス Z(2,0)×D（D∈{−2,…,2}）を追加。計算解像度は NPIX=96・画素4枚・光源48点（022は128・8・64）。開口を t 倍にすると球面収差は t⁴、長さ単位は 1/t。c の分母 P_res は全開・D=0（022 explore と同じ規約）。</li>
+<li>試験パターン：周期を対数等間隔の N 段。登録手順は「コントラスト≥0.10 の段数を最大にする開口」（同点は最細段優先）。雑音 σ_vis=0.03。絞り候補9点。</li>
+<li>再現：022 の <code>explore.py</code> を <code>/tmp/rep023/</code> で再実行し explore_results.json は runtime 以外一致。022 の <code>sim.py</code>（約340秒）は第22回 <code>/tmp/rep022b/</code> で一致確認済みのため本回スキップ。023 はキャッシュありで2回実行し runtime 以外一致。</li>
+</ul>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>主な数値</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H35e</td>
+<td>D=0・σ=0.3・R=0 の c が 022 の 1.41 の ±15%</td>
+<td>1.403／1.407（比 <strong>0.997</strong>）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H35a</td>
+<td>焦点込みの c 中央値が開口のみより 5%以上小さい</td>
+<td>1.423／1.445（比 <strong>0.985</strong>）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H35b</td>
+<td>焦点込みの c 中央値 ≤1.45</td>
+<td><strong>1.423</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H35c</td>
+<td>N=5 で |t/t*−1|≤20% が ≥80%</td>
+<td><strong>0.680</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H35d</td>
+<td>N=3 で同確率が &lt;50%</td>
+<td><strong>0.744</strong>（3段の方が高い）</td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">主な数値</h2>
+<ul>
+<li><strong>焦点の寄与は小さい</strong>：開口+σ のみの c 中央値 1.445（022 explore 1.447 に近い）。焦点も選ぶと <strong>1.423</strong>（相対 −1.5%）。必要画素幅の比の中央値は 0.986。セルの 80% で最適 D≠0 だが、022 の Z(4,0) がすでに焦点補償つきのため、追加のデフォーカス走査の利得は薄い【計算】。</li>
+<li><strong>読取確率</strong>（Leeuwenhoek 級 d、焦点込み c）：線幅7倍で <strong>0.931</strong>、最小 s=7（021／022 explore と一致）。</li>
+<li><strong>試験パターン</strong>：登録手順では N=3 で 20%以内確率 0.74、N=5 で 0.68、N=9 で 0.75。段を増やしても単調改善しない（雑音下で「見える段数最大」が過絞り側に寄る）【計算】。</li>
+<li><strong>探索的</strong>：粗パターンで焦点を先に合わせる手順では N=3 で <strong>0.83</strong>、N=5 で 0.79（登録の80%に近い）。フィルム先頭は「粗い段→焦点、細い段→開口」の2段階指示が有効と【推測】。</li>
+<li><strong>文献（76）</strong>：Svihla 1967 の µm 分解能は公開全文未確認（Zuylen 要約のみ）。Cocquyt は原機 1.35 µm・理論 1.0 µm を再確認。現代レプリカの較正 µm は見つからず。したがって d'∈[1.1,1.6] は「最良の残存機・最適単レンズ計算」側の幅としては事実と整合するが、<strong>手引きを読んだ再建者の到達分布や P_g≈0.5 の根拠にはならない</strong>（未確認と明記）。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li>NPIX=96・4枚は 022 より粗いが、基準セルで比 0.997 と一致した。</li>
+<li>試験パターンの絞り候補は離散9点で、t* も {R_read} の格子に縛られる。連続絞りなら確率は上がりうる【推測】。</li>
+<li>登録の「段数最大」規則は古典的な使い方の代理としては粗い。探索的な焦点先行手順の方が良い。</li>
+<li>Svihla 本文を開けていないため、彼のレンズの分解能を µm で引用できない。</li>
+</ul>
+<h2 id="_6">結論</h2>
+<p>焦点の同時最適化は c を中央値で約1.5%しか下げず（H35a 棄却）、開口と照明の選択が支配的である。c≈1.42 は 022 探索的の 1.45 以下（H35b 支持）。登録した試験パターン規則では5段でも最適開口の±20%に80%では届かない（H35c 棄却）。一方3段でも約74%は入り、段数不足という H35d も棄却。探索的には焦点先行＋3〜5段で約80%に達する。P_g と d' の外部根拠は Svihla 全文未確認・レプリカの µm 未公表のまま残る。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>QR フィルム運営者</strong>：手読み層の先頭に、(1) 粗い試験格子で焦点を合わせる図、(2) 3〜5段の太さ違いの2値格子で「分かれて見えるまで絞る」図、を肉眼サイズで置く。焦点より開口の指示を優先してよい（計算上の利得は開口が支配）。推奨線幅7倍・7複製は、開口を選ぶ読者前提のまま維持してよい。</li>
+<li><strong>本研究所</strong>：022 の「絞りを使う読者」前提は焦点を含めてもほぼ同じ c で成り立つ。次は内容評価（73）へ進む。d'・P_g は推測のまま感度分析で扱う。</li>
+</ul>
+<h2 id="_8">新規性</h2>
+<p>部分コヒーレント結像で球面収差＋デフォーカス＋絞りを同時最適化した余裕係数 c を、QR フィルム手読み層の試験パターン段数設計に結びつけた計算は、確認した公開資料（Zuylen 1981、Cocquyt 2021、Piql／GitHub Archive）には見当たらない。</p><footer><hr><small>自動生成</small></footer></body></html>

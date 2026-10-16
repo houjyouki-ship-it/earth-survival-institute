@@ -299,4 +299,14 @@
 <li>判定：H34a・b・c・e 支持、H34d 条件付き支持（最小 s が存在しない）、H34f 棄却（登録モデルでは段階書式が組めない）、H34g 形式上支持（自明。探索的には反対の結果）。</li>
 <li>結論：021 の c∈[1,2] は良いレンズか、開口を絞る読者のときにだけ妥当。読者が絞りを知らなければ線幅7倍でも読める確率は約0.4。</li>
 <li>「誰が何を変えるべきか」：記載あり（運営者は手読み層の先頭に「開口を絞る」図と段階的な試験パターンを肉眼サイズで置く。0.03〜0.1 MB の手引き＋本体線幅4〜5倍は P_g≳0.5 で得）。</li>
+</ul>
+<h2 id="23-2026-10-16">第23回 2026-10-16</h2>
+<ul>
+<li>再現チェック：022 を <code>/tmp/rep023/</code> に複製し、<code>explore.py</code>（約1.7秒）を再実行した。explore_results.json は runtime 以外一致。sim.py（約340秒）は第22回 <code>/tmp/rep022b/</code> で一致確認済みのため本回スキップ。</li>
+<li>文献（本回開いて確認。抜粋は research/023-.../sources/excerpts.json）：Zuylen 1981 の Svihla 1967 要約（本文は未取得）、Cocquyt et al. 2021 Sci. Adv. eabf2402（PMC8121416）、Lens on Leeuwenhoek Visibility、Azevedo 2005、Quekett レプリカ記事、Brian J Ford InFocus PDF。</li>
+<li>研究023を実施：<code>research/023-focus-aperture-reader/</code>（sim.py seed=20261023、初回約766秒；optics_cache ありで約56秒）。成果物は results.json、optics_cache.npz、stdout.txt、fig_focus_c_and_stages.png、fig_focus_benefit_readability.png、report.md、PREREGISTRATION.md（14:37:00 UTC、初回実行前）、sources/。キャッシュあり2回実行で runtime 以外一致。</li>
+<li>方法：022 の結像にデフォーカス Z(2,0) を追加し、焦点・開口・σ を同時最適化。試験パターン N 段で開口選択確率を計算。</li>
+<li>主要数値：焦点込み c 中央値 <strong>1.423</strong>（開口のみ 1.445、022 explore 1.447）。焦点による縮小は −1.5%（H35a 棄却）。線幅7倍の読取確率 0.931。試験パターン登録手順で N=5 の ±20% 確率 0.68（H35c 棄却）、N=3 で 0.74（H35d 棄却）。探索的な焦点先行では N=3 で 0.83。</li>
+<li>判定：H35e・H35b 支持、H35a・H35c・H35d 棄却。76 は Svihla 全文・レプリカ µm 未確認で部分探索。</li>
+<li>「誰が何を変えるべきか」：記載あり（先頭に焦点→開口の試験パターン図、線幅7倍は開口前提で維持）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
