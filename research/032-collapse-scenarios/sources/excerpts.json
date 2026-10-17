@@ -1,0 +1,15 @@
+{
+ "xia2022": {"url": "https://www.nature.com/articles/s43016-022-00573-0", "retrieved": "2026-10-17T10:41Z",
+  "quotes": [
+   "We estimate more than 2 billion people could die from nuclear war between India and Pakistan, and more than 5 billion could die from a war between the United States and Russia",
+   "A war between India and Pakistan ... could produce a stratospheric loading of 5–47 Tg of soot. A war between the United States, its allies and Russia ... could produce more than 150 Tg of soot",
+   "In the 150 Tg soot case, global average calorie production from crops would decrease by around 90% 3–4 years after the nuclear war.",
+   "the strongest percentage reductions over high latitudes in the Northern Hemisphere",
+   "Under the 150 Tg scenario, most nations would have calorie intake lower than resting energy expenditure. One exception is Australia.",
+   "New Zealand would also experience smaller impacts than other countries.",
+   "Under the 150 Tg case, most countries would have less than 25% of the population survive by the end of Year 2",
+   "The climatic impacts would last for about a decade but would peak in the first few years",
+   "we do not consider reduced human populations due to direct or indirect mortality"]},
+ "arctic_vault": {"url": "https://archiveprogram.github.com/arctic-vault/", "local_copy": "../031-lowtier-dependency-inclusion/sources/arctic_vault_2026-10-17b.html",
+  "quotes": ["Svalbard archipelago, closer to the North Pole than the Arctic Circle."]}
+}

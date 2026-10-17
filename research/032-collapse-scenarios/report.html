@@ -1,0 +1,128 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究032：崩壊シナリオ別に見た、アーカイブ提言（024〜031）の価値（next_plan 最優先課題） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="032024031next_plan">研究032：崩壊シナリオ別に見た、アーカイブ提言（024〜031）の価値（next_plan 最優先課題）</h1>
+<h2 id="_1">問い</h2>
+<p>024〜031 の提言（T1 セラミック板に読取装置の製作手引き、手読み層の25%の控え、小窓版 c4 の二重書き、依存上位の 0.003 リール枠）は、すべて「原因を問わず T0 から再出発し、金庫は残っていて必ず見つかる」という1つの想定（024 の想定、以下 GEN0）で評価した。崩壊の原因ごとに再出発の状態を分け、文献の起きやすさで重み付けすると、価値はどれだけ変わるか。どの崩れ方で効き、どの崩れ方で無駄になるか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>米露戦争（150 Tg 超の煤）で50億人超、印パ戦争（5〜47 Tg）で20億人超が死にうる</td>
+<td>【事実（<a href="https://www.nature.com/articles/s43016-022-00573-0">Xia et al. 2022, Nature Food</a>）】</td>
+</tr>
+<tr>
+<td>150 Tg では作物カロリーが3〜4年後に約90%減、影響は北半球の高緯度で最も強い。気候影響は約10年続く</td>
+<td>【事実（同上）】</td>
+</tr>
+<tr>
+<td>150 Tg でも豪州は例外で、ニュージーランドも影響が小さい。多くの国で2年目末の生存は人口の25%未満</td>
+<td>【事実（同上）】</td>
+</tr>
+<tr>
+<td>同論文は直接・間接の死による人口減を考慮していない</td>
+<td>【事実（同上）】</td>
+</tr>
+<tr>
+<td>GitHub Arctic Code Vault はスヴァールバル諸島（北極圏より北極点に近い）にある</td>
+<td>【事実（<a href="https://archiveprogram.github.com/arctic-vault/">Arctic Vault</a>、031 で保存した写し）】</td>
+</tr>
+<tr>
+<td>起きやすさの文献値（Ord 表6.1、XPT の中央値）</td>
+<td>【事実（threats/taxonomy.md A・A' 表、出典はそこに記載）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-20261032n2000003">方法（<code>sim.py</code>、seed 20261032、N=200,000、約3秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-17T10:42:42Z</strong>、初回実行前）。</li>
+<li>検査：024 と同じ seed・同じ順序で 024 の乱数を先頭に引き、GEN0 で 024 の値を<strong>完全に再現</strong>した（P2 の ΔV 0.0929、P3−P2 0.0095、<code>check_024.reproduced_exactly=true</code>）。</li>
+<li>シナリオは6つ：NUC_G（米露 150 Tg）、NUC_R（印パ）、BIO（工学的パンデミック）、AI（AI 由来）、CASC（気候・戦争などの複合・緩慢な崩壊）、GEN（未知・その他、従来の T0 想定）。</li>
+<li>各シナリオの結果を Dirichlet（濃度20）で引いた：絶滅／T3 保持（計算機が使える社会が残る）／T3 保持だが脆い（20〜80年のうちに金庫を読まなければ T2 に落ちる）／T2・T1・T0 から出発。平均の割合、金庫を失う確率、金庫に届く確率、m23 の倍率、T0 で識字が失われる確率（このとき T0→T1 が1〜30倍）は、すべて【推測】（sim.py の <code>SCEN</code>）。NUC_G は、生存者が南半球に偏り金庫が北緯78度にあるので、届く確率を 0.2〜0.6 と低くした【推測、Xia 2022 の地理的な偏りに基づく】。</li>
+<li>重みは3組：A_Ord（Ord の存続破局）、A_XPT_S（XPT 超予測者の大災害の中央値）、A_XPT_E（XPT 領域専門家）。BIO の大災害の値は XPT にないので、絶滅の中央値の比で AI から換算した【推測】。中央値を足しているので誤差を含む（README の規則）。核は全面戦争と地域戦争に U[0.3,0.7] で分けた。</li>
+<li>提言の価値は 024 の式の ΔV（機械読み層の期待読取価値の増分）で測った。c4 は q 0.031→0.76（028）、依存枠は q 0.101→0.704（031）。</li>
+<li>再現：<code>/tmp/rep032b/</code> で再実行し、results.json は runtime 以外完全一致。031 も <code>/tmp/rep032/</code> で再実行して一致（590キー、差分0）、030 の図の MD5 も変わらなかった。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H44a</td>
+<td>3組の重みすべてで、板の手引きの重み付き ΔV が GEN0 の30%未満</td>
+<td>A_Ord <strong>0.19</strong>、A_XPT_S <strong>0.16</strong>、A_XPT_E <strong>0.08</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H44b</td>
+<td>A_Ord で AI の寄与が10%未満</td>
+<td>重み53%に対し寄与 <strong>8.5%</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H44c</td>
+<td>1回あたりの ΔV が最大のシナリオ（GEN 以外）は CASC</td>
+<td>CASC 0.030 ＞ BIO 0.024 ＞ NUC_G 0.010</td>
+<td><strong>支持</strong>（入力から半ば決まる。下記）</td>
+</tr>
+<tr>
+<td>H44d</td>
+<td>c4／板の比がシナリオ間で1.5倍以内</td>
+<td>すべて <strong>2.43</strong></td>
+<td><strong>支持</strong>（ただし恒等式。下記）</td>
+</tr>
+<tr>
+<td>H44e</td>
+<td>感度最大の入力は T3 保持の割合</td>
+<td>最大は <strong>P_max</strong>（五分位差 0.0147）、次に金庫に届く確率（0.0068）。T3 保持は 0.0001</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H44f</td>
+<td>A_XPT_S で核の寄与が50%以上</td>
+<td><strong>19%</strong>（GEN 44%、CASC 31%）</td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>1回あたりの板の手引きの ΔV</strong>（GEN0 は 0.093）：GEN 0.042、CASC 0.030、BIO 0.024、NUC_G 0.0099、NUC_R 0.0034、AI 0.0029。</li>
+<li><strong>効かない理由の内訳</strong>：NUC_R は93%で計算機の社会が残るので、手引きは要らない。AI は80%で再建する人がいない。NUC_G は生存者が残り技術も多くが残るうえ、北の金庫に届きにくい。</li>
+<li><strong>重み付きの ΔV</strong>：A_Ord 0.0178、A_XPT_S 0.0151、A_XPT_E 0.0076（GEN0 の 19%・16%・8%）。</li>
+<li><strong>割り引きの分解</strong>：GEN（従来の T0 想定のまま、金庫の喪失・未発見・識字喪失だけを足したもの）でも GEN0 の <strong>0.45倍</strong>。シナリオの混ぜ方による分は、そこからさらに 0.43倍（A_Ord）、0.36倍（A_XPT_S）、0.18倍（A_XPT_E）。半分は「金庫は必ず残って見つかる」という仮定を外した効果。</li>
+<li><strong>悲観表</strong>（T3 保持の割合をすべて半分にし、T2・T1・T0 に移す）：GEN0 比 0.23（A_Ord）、0.28（A_XPT_S）、0.19（A_XPT_E）。それでも30%未満。</li>
+<li><strong>探索（事前登録外）</strong>：南半球に第2拠点（喪失 0.06、届く確率 0.75【推測】）を置くと、P0（手引きなし）の ΔV は重み付きで 0.081〜0.179。T3 が残る結果を除き、再建する社会だけに限っても 0.012〜0.029 で、板の手引き（0.008〜0.018）の約1.6倍。NUC_G だけなら再建分で 0.021（手引きの2.2倍）。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>H44d は検定になっていなかった</strong>。このモデルでは、4つの提言の価値がどれも「狙い撃ちの読取装置ができて、一般の回復が間に合わない」確率に比例する。c4／板の比は (0.76−0.031)/0.3=2.43 で、シナリオに関係なく決まる。シナリオで提言の順位が変わるかを調べるには、q をシナリオに依存させる必要がある（例：T3 が残る社会は普通の計算機で XZ を開けるので c4 は不要、脆い T3 の社会は小さな計算機しか残らない）。open_problems 99 に回す。</li>
+<li><strong>H44c も入力から半ば決まる</strong>。CASC には T2・T1・T0 出発の割合を最も多く与えた（合計0.43、BIO 0.25）。CASC が最大なのは、置いた割合の言い換えに近い。</li>
+<li><strong>状態の割合はすべて推測</strong>で、文献の裏付けがない。Xia 2022 は死者数を与えるが、どの技術段が残るかは与えない。H44e の棄却は「Dirichlet の揺れの中では T3 割合が効かない」という意味で、平均そのものを変えると（悲観表）比は 0.08〜0.19 から 0.19〜0.28 に動く。平均の置き方は、重みの組の選び方（0.08〜0.19）と同じくらい効く。</li>
+<li><strong>金庫に届く確率を T3 保持の社会にも当てた</strong>。T3 が残った社会がスヴァールバルに行かない理由は、移動の困難と優先度の低さ【推測】。第2拠点の探索の大きな値（再建分を含めない 0.08〜0.18）は、計算機の社会が金庫の中身を必要とする（他に写しがない）と数えている。この価値は過大かもしれないので、再建分だけの値（0.012〜0.029）を主に読む。</li>
+<li><strong>重みの作り方</strong>：XPT 専門家は AI＋核で合計の中央値（20%）に達し、CASC と GEN が0になる。足し算できない中央値を足した結果で、A_XPT_E の 8% は下限側の値として読む。</li>
+<li><strong>人口条件</strong>：024 の N_min（中央値5.3万人）を全シナリオで同じに使った。BIO で生存者が小さく散らばる場合は、手引きの狙い撃ちが人口で失敗しうるが、入れていない。</li>
+<li><strong>冶金・ガラスの段</strong>：T0 の識字喪失（T0→T1 が1〜30倍）は入れたが、冶金やガラスの段は 012 の d01・d12 にまとめたままで、別に扱っていない。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>024〜031 の提言は、どの崩れ方でもマイナスにはならないが、文献の起きやすさで重み付けると、価値は従来の単一想定の <strong>8〜19%</strong>（T3 保持を半分にした悲観表でも 19〜28%）にとどまる。理由は3つある。(1) 最も起こりやすいとされる AI と地域核戦争では、それぞれ「再建する人がいない」と「計算機の社会が残る」ので、手引きは要らない。(2) 全面核戦争では生存者が南半球に偏り、北緯78度の金庫に届きにくい。(3) 従来の想定のままでも、金庫の喪失と未発見を入れるだけで価値は半分（0.45倍）になる。提言が最も効くのは、緩慢な複合崩壊と工学的パンデミック（文明の道具は残るが人が減り、数十年で技術が落ちる場合）である。このモデルでは提言の間の順位は変わらないが、それは構造による恒等式で、まだ検証していない。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>GitHub Archive Program・Piql などの運営者</strong>：板の手引きや小窓版のような「再建する社会向け」の追加は安いので続けてよい。ただし価値の大半は「金庫に届けるか」で決まる。手引きの板と小窓版の最初の 0.003 リールを、南半球の拠点（Xia 2022 で全面核戦争の影響が最も小さい豪州・ニュージーランド）に別に置くことを、板の追加と同じかそれ以上の優先度で検討すべきである（探索的な結果。届く確率と喪失の値は推測）。</li>
+<li><strong>本研究所</strong>：今後のアーカイブ研究の ΔV は、GEN0 ではなくシナリオで重み付けた値（GEN0 の 0.08〜0.19倍）で報告する。024〜031 の数値はそのままでは過大なので、「T0 出発・金庫が必ず見つかる場合」と明記する。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord と XPT は起きやすさを原因別に出すが、崩壊後に何が残るかと、知識保存の価値への影響は扱わない。Xia 2022 は核戦争の死者と地理的な偏りを出すが、アーカイブを扱わない。本研究は、原因別の起きやすさと再出発の状態を結びつけて、知識保存の具体的な提言の期待値を重み付けし、割り引きの理由を「再建者なし」「技術が残る」「金庫に届かない」に分けた。また、第2拠点の地理（南半球）が手引きの追加と同じ程度に効くことを示した。この組み合わせは、確認した資料（Ord、XPT、Xia 2022、GitHub GUIDE）には見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_dV_by_scenario.png</code>、<code>fig_weighted_and_tornado.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：初回の実行が <code>recs(None)</code> の型エラーで止まり、結果を見る前に直した。探索の指標（<code>explore_site2_dV_P0_rebuild_only</code>、<code>explore_tab_dV_rebuild_only</code>、<code>decomp_ratio_vs_GEN</code>）は初回の結果を見た後に加えた（判定に使った値は変わっていないことを確認済み）。</p><footer><hr><small>自動生成</small></footer></body></html>

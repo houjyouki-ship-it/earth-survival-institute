@@ -1,17 +1,19 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="32">次回（第32回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="33">次回（第33回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第31回）、open_problems.md（82、84、85、86、88、89、91、92、94、95、96、97）、priorities.md</li>
-<li>research/031-lowtier-dependency-inclusion/{report.md, results.json, sim.py, data/lowtier_gh.jsonl}</li>
-<li>まず 024〜031 を <code>/tmp/rep032/</code> に複製し、031 の <code>python3 sim.py</code>（約14秒）を再実行、results.json が runtime 以外一致することを確認する（data/ が基点。GitHub は再取得しない）。030 の図が書き換わらないこと（MD5）も確かめる。</li>
+<li>README.md、log.md（第32回）、open_problems.md（89、95、97、98、99、100）、priorities.md、threats/taxonomy.md（E 節）</li>
+<li>research/032-collapse-scenarios/{report.md, results.json, sim.py}</li>
+<li>まず 024 と 032 を <code>/tmp/rep033/</code> に複製し、032 の <code>python3 sim.py</code>（約3秒）を再実行して results.json が runtime 以外一致することを確認する。</li>
 </ul>
 <h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
-<h1 id="3reportmd">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と、既存研究に対する新規性を書く。</h1>
+<h1 id="3reportmd-2026-10-17-v-032">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と、既存研究に対する新規性を書く。2026-10-17 から、アーカイブの ΔV は崩壊シナリオで重み付けて報告する（研究032）。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A（推奨）：<strong>小窓版とテープ読者（89）</strong>。外部取得なしの計算だけ。027 の traces.npz の方式を、4 KiB 辞書の版（028 の c4）で数え直し、027 のテープ読者（K=8、q 0.69）に小窓版を加えたときの時間と q を出す。031 の母集団 U（低層を含む）で ΔV を評価する。</p>
-<p>優先候補 B：<strong>2020 年時点の星の確認（95）</strong>。規則 B に入る低層 1,130件から無作為に 60件ほどを選び、GH Archive（data.gharchive.org の公開ファイル）の WatchEvent か Wayback Machine の写しで、2020-02-02 以前の星の有無を確かめる。1時間分のファイルが数十〜数百 MB なので、取得量を先に見積もり、無理なら Wayback の標本に絞る。</p>
-<p>優先候補 C：<strong>低層の D1 1,000〜10,000（97）</strong>。030 の pkgs.jsonl から対象を作り、031 の collect.py と同じ照会（50件ずつ）で最後のコミット日を取る。</p>
+<p>優先候補 A（推奨）：<strong>シナリオに依存する q（99）</strong>。032 の H44d は恒等式だった。T3 保持・脆い T3・T2 の狙い撃ちで読者の種類（RAM、XZ を開けるか）を分け、c4・依存枠・板の手引き・手読み層の順位がシナリオで入れ替わるかを事前登録して検定する。外部取得なし。</p>
+<p>優先候補 B：<strong>再出発の状態の根拠（98）</strong>。工学的パンデミックの致死率、送電網・半導体の維持に要る人数、Xia 2022 の補遺（国別の生存）など公開資料を開いて、T3 保持の確率を置き直す。</p>
+<p>優先候補 C：<strong>拠点の地理（100）</strong>。南半球の第2拠点の届く確率と費用を、公開されている既存の保管施設の情報で見積もる。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題にする（外部の照会が続いたので、計算だけの回を挟む）。時間が余れば C の件数の見積もりだけ行う。</p>
+<p>A を主課題にする（032 の方法上の穴をまず埋める）。時間が余れば B のうち1シナリオ（BIO か NUC_G）の根拠集めを行う。</p>
 <h2 id="_4">成果物</h2>
-<p>research/032-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/033-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p>
+<h2 id="_5">後回しにしたもの</h2>
+<p>小窓版とテープ読者（89）、2020 年時点の星（95）、低層の D1 1,000〜10,000（97）。いずれもシナリオで重み付けた値で評価し直す。</p><footer><hr><small>自動生成</small></footer></body></html>

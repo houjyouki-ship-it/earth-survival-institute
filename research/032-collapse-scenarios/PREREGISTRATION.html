@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究032 事前登録（2026-10-17T10:42:42Z、sim.py 初回実行前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="032-2026-10-17t104242zsimpy">研究032 事前登録（2026-10-17T10:42:42Z、sim.py 初回実行前）</h1>
+<h2 id="_1">問い</h2>
+<p>024〜031 の提言（T1 セラミック板の読取装置手引き、手読み層の控え、小窓版 c4 の二重書き、依存上位の 0.003 リール枠）は、
+すべて「原因を問わず T0 から再出発、金庫は必ず見つかる」という単一想定（以下 GENERIC）で評価した。
+崩壊シナリオ別に再出発の状態を分け、文献の起きやすさで重み付けすると、提言の価値はどれだけ変わり、どの崩れ方で効き、どの崩れ方で無駄になるか。</p>
+<h2 id="simpyseed-20261032n200000">モデル（sim.py、seed 20261032、N=200,000）</h2>
+<ul>
+<li>024 の乱数生成を同じ seed・同じ順序で先頭に置き、GENERIC（T0 出発・金庫喪失0・発見1）で 024 の P2（ΔV=+0.093, q=0.3, m23=943）を完全再現する（検査）。</li>
+<li>シナリオ s：NUC-G（米露 150 Tg）、NUC-R（印パ 5〜47 Tg）、BIO（工学的パンデミック）、AI（AI 由来）、CASC（気候・戦争などの複合・緩慢な崩壊）、GEN（未知・その他：従来の T0 想定）。</li>
+<li>各シナリオで結果の状態を Dirichlet（濃度20）で引く：絶滅（再建者なし）／T3 保持（計算機が使える社会が残る）／T3 保持だが脆い（W~U[20,80]年の間に金庫を読まなければ T2 に落ちる）／T2・T1・T0 出発。T0 出発のうち識字が失われる場合は d01 を logU[1,30] 倍。</li>
+<li>金庫喪失確率 p_lost、金庫の発見確率 p_find、m23 の倍率をシナリオごとに置く（すべて【推測】、表は sim.py の SCEN）。</li>
+<li>重み（3組）：A_Ord（Ord 表6.1 の存続破局：AI 1/10, 工学パンデミック 1/30, 核 1/1000, 気候＋環境 2/1000→CASC, 未知 1/30＋その他 1/50→GEN）、
+  A_XPT_S（XPT 超予測者の大災害中央値：AI 2.13, 核 4.0, BIO=2.13×0.01/0.38, 残り 9.05−和 を CASC と GEN に半分ずつ）、
+  A_XPT_E（XPT 領域専門家：AI 12, 核 8, BIO=12×1/3, 残り max(0, 20−和)）。核は G:R を U[0.3,0.7] で分ける。中央値を足すのは近似で、README の注意どおり誤差を含む。</li>
+<li>提言の ΔV（機械読み層の期待読取価値の増分、024 の式）：R_tab（板の手引き、024 P2 − P0, q=0.3）、R_hand25（P3 − P2）、R_c4（板あり、q 0.031→0.76：028）、R_dep（板あり、q 0.101→0.704：031 の U）。</li>
+<li>探索（判定に使わない）：南半球に第2拠点を置いた場合（p_find と p_lost を独立な2拠点で合成）の ΔV を R_tab と比べる。</li>
+</ul>
+<h2 id="_2">仮説（判定規則）</h2>
+<ul>
+<li>H44a：3組の重みすべてで、重み付き ΔV(R_tab) は GENERIC の値の 30% 未満。</li>
+<li>H44b：A_Ord で、AI は重み最大だが重み付き ΔV(R_tab) への寄与は 10% 未満。</li>
+<li>H44c：1回の発生あたりの ΔV(R_tab) が最大のシナリオは（GEN を除いて）CASC。</li>
+<li>H44d：ΔV(R_c4)/ΔV(R_tab) の比はシナリオ間（ΔV&gt;0.001 のもの）で 1.5 倍以内に収まる（重み付けは提言の順位を変えない）。</li>
+<li>H44e：A_Ord の重み付き ΔV(R_tab) の感度（五分位差）が最大の入力は「T3 保持（脆い分を含む）の割合」。</li>
+<li>H44f：A_XPT_S で、核（G＋R）の寄与が重み付き ΔV(R_tab) の 50% 以上。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
