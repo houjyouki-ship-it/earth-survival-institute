@@ -1,0 +1,34 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究028 事前登録（open_problems 80：重要 repo だけの小辞書二重書き） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="028-open_problems-80-repo">研究028 事前登録（open_problems 80：重要 repo だけの小辞書二重書き）</h1>
+<p>登録時刻：<strong>2026-10-17T02:43:42Z</strong>（データ収集・圧縮計測・sim.py の初回実行前。以後、仮説文・主設定は変えない）</p>
+<h2 id="_1">問い</h2>
+<p>025〜027 で、Arctic Vault の repo.tar.xz（xz -6、辞書 8 MiB）は RAM 4〜144 KiB の読者には星重みで約4%しか開けず、読者側の工夫（テープ8台）でも高層全体に約1,200機械年かかると分かった。運営者側で「重要 repo」を小さい辞書で別に書くと、補助記憶なしの読者の q がいくつになり、費用（リール数）がいくらかを測る。</p>
+<h2 id="_2">事実入力（本回開いて確認）</h2>
+<ul>
+<li>Arctic Vault ページ（2026-10-17 に取得、sources/arctic_vault_2026-10-17.html）：「Featured projects // 2020 Arctic Vault Program」に15件（dotnet/core, torvalds/linux, python/cpython, bitcoin/bitcoin, rails/rails, docker/machine, openssl/openssl, nodejs/node, Homebrew/brew, php/php-src, twbs/bootstrap, microsoft/TypeScript, apache/hadoop, Alamofire/Alamofire, v8/v8）。21TB・186 リール。</li>
+<li>LZMA 仕様（sources/lzma-specification.txt）：確率配列の大きさ = 1846 + 768·2^(lc+lp)（各16ビット）。</li>
+</ul>
+<h2 id="_3">データ</h2>
+<ul>
+<li>collect.py：GitHub 公開 API（gh CLI、読み取りのみ）で、2020-02-02 より前に作られ現在の星 ≥20,000 の非 fork repo の全数（検索上限内）と Featured 15件について、2020-02-02 以前の最後のコミットの木から TAR の大きさを 025 と同じ式で再構成する。木が truncated の場合は部分木を再帰的に読む。</li>
+<li>compress.py：Featured 15件と、≥20,000 星から seed=20261028 で無作為に選んだ15件の実 TAR（codeload、スナップショットのコミット）を Python lzma（liblzma）で次の5設定で圧縮し、バイト数を測る。c0：辞書 8 MiB・lc3（収蔵時の xz -6 相当）、c1：64 KiB・lc3、c2：64 KiB・lc0、c3：16 KiB・lc0、c4：4 KiB・lc0（いずれも preset 6、lp0、pb2）。非圧縮（TAR のまま）も比べる。</li>
+<li>星 &lt;20,000 の高層（250〜19,999 星）は 025 の data/sample.json（5区間×35件、重みつき）をそのまま使う。</li>
+</ul>
+<h2 id="_4">モデル（主設定）</h2>
+<ul>
+<li>展開に要る RAM：need = S0(lc) + min(d, TAR)。S0(lc3)=16 KiB（025 と同じ）、S0(lc0)=16 KiB − 2·(6144−768) B = 5,632 B【推測：同じ付帯分】。非圧縮は need=1 KiB【推測】。</li>
+<li>母集団：高層（≥250 星）の星重み。≥20,000 星は全数（各 repo の重み1）、それ未満は 025 の標本の重み。</li>
+<li>二重書きする集合 S：Featured15、星上位100・300・1000、≥20,000 星全数、≥5,000 星、高層全体。S に入った repo は「元の xz か二重書き版のどちらか」が開ければ開ける。</li>
+<li>費用：S の二重書き版のバイト数。計測した repo は実測、他は TAR×（計測標本のバイト重みの圧縮率）×（設定ごとの費用比）。1 リール = 21 TB/186。</li>
+<li>読者：RAM logU[4 KiB, 144 KiB]（025 の B）。q と ΔV(P2：板の手引き) は 025 の sim.py と同じ式・同じ乱数系列（024 の V_of）。</li>
+<li>予算つき選択：同じ予算で「星順」と「星/費用の欲張り順（読者分布で期待できる増分）」を比べる。</li>
+</ul>
+<h2 id="_5">仮説</h2>
+<ul>
+<li>H40a：Featured15 の星重みは高層全体の 2% 未満。</li>
+<li>H40b：≥20,000 星の全数の星重みは高層全体の 20% 以上。</li>
+<li>H40c：≥20,000 星全数を c2（64 KiB・lc0）で二重書きする費用は 1 リール以下。</li>
+<li>H40d：計測標本30件で、c1（64 KiB・lc3）の c0 に対する費用比の中央値が +10% 以上（025 の全体標本の中央値 +3% より大きい）。</li>
+<li>H40e：lc0 の費用は同じ辞書の lc3 に比べ中央値で +5% 以下（64 KiB で比較）。</li>
+<li>H40f：読者 B で、高層全体を最良の設定で二重書きすると ΔV(P2) ≥ 0.05、≥20,000 星全数だけで ΔV(P2) ≥ 0.03（025 の収蔵のままは 0.012）。</li>
+<li>H40g：予算 0.1 リールで、欲張り順の q の増分は星順の2倍以上。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
