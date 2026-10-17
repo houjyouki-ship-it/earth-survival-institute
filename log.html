@@ -412,4 +412,19 @@
 <li>判定：H42a・b・d・e・f・g 支持（e は TAR の置き方に頑健でない）、H42c 棄却。</li>
 <li>逸脱：TAR の実測は事前登録外（判定には不使用）。</li>
 <li>「誰が何を変えるべきか」：記載あり（小窓版の最初の 0.003 リールに依存数の上位約2,200件を入れ、星の上位を次に混ぜる。星 250 未満でも依存数の大きい repo を別に拾う。028 の高層全体 c4 の提言は維持）。</li>
+</ul>
+<h2 id="31-2026-10-17">第31回 2026-10-17</h2>
+<ul>
+<li>再現チェック：024〜030 を <code>/tmp/rep031/</code> に複製し、030 の sim.py（約6秒）と explore.py を再実行した。results.json（730キー）と explore_results.json（145キー）は runtime 以外一致。</li>
+<li>文献・データ（本回開いて確認）：Arctic Vault のページ（収蔵の3条件、sources/arctic_vault_2026-10-17b.html）、GUIDE.md（80日・365日＋星 ≥1・星 ≥250、sources/github_archive_GUIDE_2026-10-17.md）。</li>
+<li>研究031を実施：<code>research/031-lowtier-dependency-inclusion/</code>（collect.py：GitHub GraphQL 読み取りのみ、08:40〜08:50 UTC、4,655件、失敗0、見つからず46；sim.py 約14秒 seed 20261031）。成果物は data/lowtier_gh.jsonl、results.json、stdout.txt、fig_inclusion_shares.png、fig_budget_dV_U.png、report.md、PREREGISTRATION.md（08:39:35Z、照会前）。<code>/tmp/rep031b/</code> で再実行し差分0（590キー）。030 の高層の値（q 0.07517、0.003 リールの増分 0.59245）を完全に再現。</li>
+<li>方法：D1 ≥10,000 で高層の外の repo の、既定ブランチの 2020-02-02 より前の最後のコミット日に公開された収蔵規則を当て、低層を含む母集団 U で収蔵割合、q、小窓版の予算つき選択（高層のみ／収蔵済みのみ／U 全体）を比べた。</li>
+<li>主要数値：</li>
+<li>低層の依存重み：収蔵 <strong>54.3%</strong>（80日以内 20.1%、1年以内＋星 34.3%）、最後のコミットが 2019-02-02 より前 <strong>35.3%</strong>（fs.realpath 2016、unpipe・utils-merge・destroy 2018）、作成 2020 年以降 6.7%、fork 2.5%。</li>
+<li>U の依存重み：高層 44.1%、低層で収蔵 30.4%、未収蔵 <strong>25.5%</strong>（下限の規則で 44.7%）。</li>
+<li>収蔵のままの q：U で <strong>0.101</strong>（030 の高層のみ 0.075）。</li>
+<li>0.003 リール：今の GitHub から選ぶと q 増分 <strong>0.603</strong>（ΔV 0.218、うち 2,261件は未収蔵の repo）、収蔵済みからのみ 0.417、030 の高層のみ 0.261。U 全体を c4 で書く ΔV 増分の90%に 0.0032 リールで届く。</li>
+<li>判定：H43a・b・d・f 支持、H43c・e・g 棄却（H43a は下限 20% で棄却側になり頑健でない）。</li>
+<li>逸脱：stargazers の一覧が API で取れず（GraphQL 0件、REST 404）、規則 B の星を「現在の星 ≥1」に置き換えた（照会後・解析前）。</li>
+<li>「誰が何を変えるべきか」：記載あり（次の書き込みで、更新の日付を問わず依存上位を収める枠を作り、最初の 0.003 リールに約5,900件を今の GitHub から c4 で書く。030 の高層だけの提言を置き換える）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
