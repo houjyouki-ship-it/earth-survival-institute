@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究034 事前登録（2026-10-17T14:39:27Z、sim.py 初回実行前に記録） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="034-2026-10-17t143927zsimpy">研究034 事前登録（2026-10-17T14:39:27Z、sim.py 初回実行前に記録）</h1>
+<h2 id="open_problems-101">問い（open_problems 101）</h2>
+<p>032・033 は、計算機の社会がそのまま残る結果（T3 保持、st==1）でも、金庫の中身を価値1で数えた。T3 社会の手元に残る写しを入れて、金庫が加える価値を u∈[0,1] に置き直すと、第2拠点 S と「板の手引き T＋小窓版 C」の束の順位は u のどこで入れ替わるか。u はどの程度と見積もれるか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。sources/excerpts.json）</h2>
+<ul>
+<li>Software Heritage の本体は Inria（フランス）、写し（mirror）は ENEA（イタリア）、GRNET（ギリシャ）、Duisburg-Essen 大学（ドイツ）。準備中は Imdea（スペイン）。写しは本体の完全な写し。</li>
+<li>GitHub Archive Program の協力先に Software Heritage、Internet Archive、GHTorrent、GHArchive。約17,000の人気・被依存 repo の写しを Bodleian（オックスフォード）、Bibliotheca Alexandrina（エジプト）、Stanford（カリフォルニア）に置く。</li>
+<li>Internet Archive のデータセンターは主にカリフォルニア（6拠点、ほかに米国の他州・カナダ・欧州）。一部の写しを Bibliotheca Alexandrina とアムステルダムに置く。</li>
+<li>上の公開資料に、南半球の完全な写しは1つも書かれていない（記載の範囲での事実。存在しないことの証明ではない）。</li>
+</ul>
+<h2 id="_1">モデル</h2>
+<ol>
+<li>033 の sim.py をそのまま使い、V に u_T3（st==1 で金庫が中身を届けたときの価値、033 は1）と u_frag（脆い T3 で窓内に金庫に届き、普通の計算機がある社会の価値、033 は1）を加える。T・H・C は st==1 と脆い T3 の計算機経路の値を変えないので、S の Shapley は u について線形になる。u=0 と u=1 で Shapley を計算し、線形性を u=0.5 で確かめる。</li>
+<li>主比較：重み付き Shapley(S) と Shapley(T)+Shapley(C)。副比較：限界値 V(TCS)−V(TC) と束 V(TC)−V(∅)。交差点 u* を3組の重み（A_Ord、A_XPT_S、A_XPT_E）とシナリオごとに出す。主設定は u_T3=u、u_frag=1。感度は u_frag=u。</li>
+<li>u の見積もり（すべての係数は【推測】、場所は事実）：地域 EU（SWH 4拠点・Internet Archive Europe・Bodleian）、NA（GitHub 本体【場所は推測】・Internet Archive・Stanford）、EG（Bibliotheca Alexandrina）。シナリオごとの地域生存率 p_reg〜U(lo,hi)（NUC_G 0.05–0.5、NUC_R 0.9–1.0、BIO 0.6–0.98、AI 0.1–0.9、CASC 0.4–0.9、GEN 0.3–0.9）、地域内の各拠点の稼働 s_site〜U(0.7,0.99)。網羅率 c_SWH〜U(0.8,0.99)、c_GH〜U(0.85,0.99)、c_IA〜U(0,0.3)、c_hits〜U(0.2,0.6)。分散した clone で補えない割合 f_orph〜logU(0.003,0.3)。u = f_orph × Π_k(1 − c_k·A_k)（独立）。感度：入れ子（1 − max_k c_k A_k）、f_orph=1（clone なし）。外側の係数の不確かさ 4,000 組。</li>
+<li>seed 20261034（u の見積もり）、033 部分は 033 の seed をそのまま使い、u=1 で 033 の Shapley を完全に再現することを確かめる。</li>
+</ol>
+<h2 id="_2">仮説（判定規則）</h2>
+<ul>
+<li>H46a：A_XPT_S で、u=1 では Shapley(S) &gt; T+C、u=0 では Shapley(S) &lt; T+C（交差点 u* が (0,1) にある）。</li>
+<li>H46b：3組の重みすべてで u* ≤ 0.2（または u=0 でも S ≥ T+C なら u*=0 とみなし支持）。</li>
+<li>H46c：見積もった u の中央値（外側の不確かさの中央値）が、6シナリオすべて 0.1 未満。</li>
+<li>H46d：A_XPT_S で、外側の不確かさのもとで P(Shapley(S) &gt; T+C) &lt; 0.5。</li>
+<li>H46e：u の中央値が NUC_G で BIO の3倍以上。</li>
+<li>H46f：u_frag=u にすると、A_XPT_S の重み付き Shapley(S)（u を見積もりの中央値にしたとき）が主設定より 20% 以上下がる。</li>
+</ul>
+<h2 id="_3">逸脱の扱い</h2>
+<p>初回実行後に加えた指標は「探索」と明記し、判定には使わない。
+注意：033 の結果（T3 を除いた S、束の値）は登録前に見ている。H46a・b の予測はその数値を見たうえでのもの。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,11 @@
+{
+ "retrieved_utc": "2026-10-17T14:37Z",
+ "items": [
+  {"url": "https://www.softwareheritage.org/mirrors/", "excerpt": "A mirror is a complete copy of the Software Heritage Archive, operated by a partner institution. ... Enea (Italy) ... GRnet (Greece) ... The University of Duisburg-Essen (Germany) ... Coming soon: Imdea Software, Spain", "also": "mirrors kept mostly up to date, lag of less than a few hours; minimum operation three years"},
+  {"url": "https://en.wikipedia.org/wiki/Software_Heritage", "excerpt": "Headquarters Inria, Rocquencourt, France ... mirror program was established in 2018, joined by ENEA and FossID as of October 2020 ... As of October 2020, Software Heritage's repository held over 143 million software projects ... 9.1 billion unique source files"},
+  {"url": "https://archiveprogram.github.com/", "excerpt": "Our partners include the Long Now Foundation, Software Heritage, the Internet Archive, Microsoft Research's Project Silica, the Arctic World Archive, GHTorrent, and GHArchive. ... collaborating with the Bodleian Library in Oxford, the Bibliotheca Alexandrina in Egypt, and Stanford Libraries in California to store copies of 17,000 of GitHub's most popular and most-depended-upon projects"},
+  {"url": "https://en.wikipedia.org/wiki/GitHub_Archive_Program", "excerpt": "GitHub's Arctic Cold Vault is a 'cold layer' of archiving. The 'hot' (accessible online repositories) and 'warm' (e.g. Internet Archive) layers of GitHub's code archives both have the weakness of being founded upon electronics."},
+  {"url": "https://en.wikipedia.org/wiki/Internet_Archive", "excerpt": "data centers in three Californian cities ... copies of parts of its collection at more distant locations, including the Bibliotheca Alexandrina in Egypt and a facility in Amsterdam ... As of 2025 ... operates six data centers, mainly in California, with smaller ones in other U.S. states, Canada and Europe ... a copy hosted in Vancouver stored more than 145 petabytes"}
+ ],
+ "not_found_in_these_sources": "No full institutional copy in the southern hemisphere is listed in these pages (absence in listing, not proof of absence). GitHub's own data-center locations were not checked (treated as North America, guess)."
+}
