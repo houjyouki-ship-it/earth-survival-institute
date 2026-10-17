@@ -1,0 +1,34 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究027 事前登録（open_problems 83：テープに窓を置く LZMA 復号の手順と時間） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="027-open_problems-83-lzma">研究027 事前登録（open_problems 83：テープに窓を置く LZMA 復号の手順と時間）</h1>
+<p>登録時刻：<strong>2026-10-17T00:41:32Z</strong>（参照トレースの計測・sim.py の初回実行前。以後、仮説文・主設定は変えない）</p>
+<h2 id="_1">問い</h2>
+<p>026 はテープを「遠い参照ごとに 10 ms ＋ 距離 d の往復を巻戻し速度 500 インチ/秒で走る」と粗く置き、q=0.54（C=64 KiB、10機械年）を得た。巻戻し速度は先頭へ戻すときの平均値で、途中の位置合わせ（スペース・バックスペース）に使える保証はない。実際の参照順序と頭（ヘッド）の位置を追う手順で、時間と q が何倍変わるかを決める。</p>
+<h2 id="sourcesibm_727wiki026">事実入力（sources/IBM_727.wiki、026 で開いて確認した写し）</h2>
+<ul>
+<li>IBM 727：200 文字/インチ、テープ速度 75 インチ/秒、巻戻し平均 500 インチ/秒、転送 15,000 文字/秒、起動 5 ms・停止 5 ms、リール 2,400 フィート。</li>
+<li>CPU 時間・高層母集団・q と ΔV の式は 026 の sim.py と同一（同じ乱数系列）。</li>
+</ul>
+<h2 id="_2">計測</h2>
+<ul>
+<li>026 の tools/fetch_tars.py と同じ手順で30件の TAR を /tmp に再構成し、SHA-256 が 026 の data/tars.json と一致することを確認する。</li>
+<li>026 の計数つき参照復号器に、距離 &gt;16 KiB の参照（一致・rep・短 rep・一致後リテラル）ごとに (出力位置, 距離, 長さ) を2進で書き出す処理だけを加える（tools/lzmaspec_trace.cpp）。出力の SHA-256 一致を確認する。</li>
+</ul>
+<h2 id="_3">モデル（主設定）</h2>
+<ul>
+<li>高速 RAM：直近 C=64 KiB の窓＋512 B ブロック×8 の LRU（026 と同じ）。LRU を外れたブロックはテープから読む。Python で再計算した LRU 取得回数が 026 の counts.json と一致することを検証とする。</li>
+<li>テープ操作【推測のモデル】：1回の移動・読み・書きごとに起動＋停止 10 ms。読み書きは 75 インチ/秒。位置合わせ（読まずに進む・戻る）は主設定で 75 インチ/秒【推測】、楽観設定で 500 インチ/秒。先頭に近い目標へは「先頭まで 500 インチ/秒で巻戻し＋前進」も選べる（速い方）。ブロック間の隙間は主設定 0、感度 0.75 インチ【推測】。</li>
+<li>書き込み：出力は RAM の窓から 32 KiB ごとにまとめて書く（その駆動装置の末尾まで頭を戻してから）。</li>
+<li>手順：</li>
+<li>N0：026 の素朴モデル（遠い参照ごとに 10 ms＋2d/(200·500) 秒＋長さ/15,000 秒）をトレースから再計算。</li>
+<li>S1：1台。出力テープそのものを戻って読み、末尾へ戻って書く。</li>
+<li>SK：K 台（K∈{2,3,4,8}）。出力を長さ L（L∈{64 KiB, 256 KiB, 1 MiB, 4 MiB}）の区画に分け、区画 j を装置 j mod K の末尾に追記する。各装置の頭の位置を追い、読むたびに移動距離を払う。</li>
+<li>標本外の repo への外挿、q（高層星重み、Y=10 機械年、C=64 KiB）、ΔV（読者 RAM logU[4,144] KiB、P2：板）は 026 と同じ。テープの容量は無制限（リール交換は無視）。</li>
+</ul>
+<h2 id="_4">仮説</h2>
+<ul>
+<li>H39a：S1（主設定）の補助時間/CPU 時間の中央値（TAR&gt;64 KiB の repo）が、同じトレースの N0 の中央値の2倍以上。</li>
+<li>H39b：SK の格子（K∈{2,3,4,8}×L 4通り、主設定）で最良の構成の補助/CPU 中央値が、S1 の 1/3 以下。</li>
+<li>H39c：S1（主設定）で q &lt; 0.45（026 は 0.54）。</li>
+<li>H39d：SK の最良構成（主設定）で q ≥ 0.54。</li>
+<li>H39e（検証）：N0 の30件合計補助時間が 026 のテープ時間合計と ±5% で一致。</li>
+<li>H39f：SK の最良構成（主設定）で ΔV(P2) ≥ 0.06。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

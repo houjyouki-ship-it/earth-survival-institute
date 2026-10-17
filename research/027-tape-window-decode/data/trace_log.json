@@ -1,0 +1,215 @@
+{
+ "measured_utc": "2026-10-17T00:42:43Z",
+ "repos": [
+  {
+   "idx": 0,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 0,
+   "out": 10240
+  },
+  {
+   "idx": 1,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 0,
+   "out": 10240
+  },
+  {
+   "idx": 2,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 0,
+   "out": 10240
+  },
+  {
+   "idx": 3,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 0,
+   "out": 10240
+  },
+  {
+   "idx": 4,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 0,
+   "out": 10240
+  },
+  {
+   "idx": 5,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 9,
+   "out": 30720
+  },
+  {
+   "idx": 6,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 290,
+   "out": 61440
+  },
+  {
+   "idx": 7,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 198,
+   "out": 51200
+  },
+  {
+   "idx": 8,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 0,
+   "out": 20480
+  },
+  {
+   "idx": 9,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 62,
+   "out": 61440
+  },
+  {
+   "idx": 10,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 3215,
+   "out": 276480
+  },
+  {
+   "idx": 11,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 10488,
+   "out": 552960
+  },
+  {
+   "idx": 12,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 2371,
+   "out": 204800
+  },
+  {
+   "idx": 13,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 6598,
+   "out": 358400
+  },
+  {
+   "idx": 14,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 1356,
+   "out": 972800
+  },
+  {
+   "idx": 15,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 19132,
+   "out": 1167360
+  },
+  {
+   "idx": 16,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 23915,
+   "out": 1576960
+  },
+  {
+   "idx": 17,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 26493,
+   "out": 2242560
+  },
+  {
+   "idx": 18,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 10025,
+   "out": 1802240
+  },
+  {
+   "idx": 19,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 24958,
+   "out": 1310720
+  },
+  {
+   "idx": 20,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 58680,
+   "out": 8509440
+  },
+  {
+   "idx": 21,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 91054,
+   "out": 4495360
+  },
+  {
+   "idx": 22,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 275968,
+   "out": 6840320
+  },
+  {
+   "idx": 23,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 167690,
+   "out": 6819840
+  },
+  {
+   "idx": 24,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 218260,
+   "out": 15585280
+  },
+  {
+   "idx": 25,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 359480,
+   "out": 26275840
+  },
+  {
+   "idx": 26,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 1145784,
+   "out": 34816000
+  },
+  {
+   "idx": 27,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 190353,
+   "out": 19066880
+  },
+  {
+   "idx": 28,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 342081,
+   "out": 35051520
+  },
+  {
+   "idx": 29,
+   "roundtrip_ok": true,
+   "counts_identical_026": true,
+   "n_trace": 521628,
+   "out": 19025920
+  }
+ ]
+}
