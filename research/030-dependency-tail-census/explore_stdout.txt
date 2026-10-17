@@ -1,0 +1,233 @@
+{
+ "measured": {
+  "n": 1150,
+  "n_ok": 1148,
+  "n_no_commit": 2,
+  "n_truncated": 0,
+  "median_tar_top1000": 249856.0,
+  "median_tar_random150": 368128.0
+ },
+ "tail_regression": {
+  "n": 150,
+  "slope": 0.7358275905218664,
+  "intercept": 2.3804459531617104,
+  "resid_sd": 0.9636236769538392
+ },
+ "pred025_over_measured_median": 1.3640502911200283,
+ "T10000_measured": {
+  "as_archived_q": {
+   "stars": 0.0323257371776922,
+   "dep_D1": 0.08351844653024586,
+   "dep_log1p_D1": 0.07102872823021507
+  },
+  "share": {
+   "stars": {
+    "featured15": 0.004768454220054579,
+    "all_ge20k": 0.25103655085669974,
+    "tail": 0.05328282381102934,
+    "sample_rest": 0.695680625332271
+   },
+   "dep_D1": {
+    "featured15": 0.003368616780891518,
+    "all_ge20k": 0.08204186089609687,
+    "tail": 0.8940168194676412,
+    "sample_rest": 0.023941319636261907
+   },
+   "dep_log1p_D1": {
+    "featured15": 0.00034575219342493206,
+    "all_ge20k": 0.023865447573171272,
+    "tail": 0.17495711331295208,
+    "sample_rest": 0.8011774391138767
+   }
+  },
+  "tail_tar_median": 395652.37633404316,
+  "dep_weighted_median_tar": 265728.0,
+  "star_weighted_median_tar": 2206208.0,
+  "all_high_c4": {
+   "stars": 0.7602024817575648,
+   "dep_D1": 0.7601769058689718,
+   "dep_log1p_D1": 0.7601759273571053,
+   "dV_dep": 0.23556169275214253,
+   "dV_stars": 0.23556967620082223
+  },
+  "all_high_c4_cost_reels": 4.098626985576964,
+  "budget_c4": {
+   "0.003": {
+    "stars": {
+     "stars": 0.16027084558427968,
+     "dep_D1": 0.18596330714262316
+    },
+    "dep_D1": {
+     "stars": 0.03255521812114781,
+     "dep_D1": 0.6032162673063886
+    },
+    "mix50": {
+     "stars": 0.13230769916437918,
+     "dep_D1": 0.5809632981180913
+    },
+    "mix_vs_opt": {
+     "stars": 0.8255256823662551,
+     "dep_D1": 0.9631094677077162
+    },
+    "jacc": 0.2902075226977951,
+    "cost_dep": 0.002984849552147454,
+    "n_dep": 2528.0,
+    "top_dep": [
+     "chalk/supports-color",
+     "fsevents/fsevents",
+     "browserify/resolve",
+     "jshttp/statuses",
+     "pillarjs/send",
+     "expressjs/serve-static",
+     "epoberezkin/fast-deep-equal",
+     "paulmillr/readdirp"
+    ]
+   },
+   "0.01": {
+    "stars": {
+     "stars": 0.243674571808139,
+     "dep_D1": 0.29552561901396024
+    },
+    "dep_D1": {
+     "stars": 0.06642941621408725,
+     "dep_D1": 0.6527192725720604
+    },
+    "mix50": {
+     "stars": 0.21581704172421395,
+     "dep_D1": 0.6338607631369858
+    },
+    "mix_vs_opt": {
+     "stars": 0.8856773200534888,
+     "dep_D1": 0.971107779059806
+    },
+    "jacc": 0.39611650485436894,
+    "cost_dep": 0.009528802300003185,
+    "n_dep": 8371.363748079877,
+    "top_dep": [
+     "dkubb/adamantium",
+     "chalk/supports-color",
+     "fsevents/fsevents",
+     "browserify/resolve",
+     "jshttp/statuses",
+     "pillarjs/send",
+     "expressjs/serve-static",
+     "epoberezkin/fast-deep-equal"
+    ]
+   },
+   "0.03": {
+    "stars": {
+     "stars": 0.3628129847262253,
+     "dep_D1": 0.43451264964343495
+    },
+    "dep_D1": {
+     "stars": 0.12193666673215546,
+     "dep_D1": 0.6711879573596787
+    },
+    "mix50": {
+     "stars": 0.3463032939353934,
+     "dep_D1": 0.6537143071660488
+    },
+    "mix_vs_opt": {
+     "stars": 0.9544953144295816,
+     "dep_D1": 0.9739660850555666
+    },
+    "jacc": 0.5334160976619077,
+    "cost_dep": 0.02999999999999999,
+    "n_dep": 19001.175846479702,
+    "top_dep": [
+     "dkubb/adamantium",
+     "chalk/supports-color",
+     "fsevents/fsevents",
+     "browserify/resolve",
+     "jshttp/statuses",
+     "pillarjs/send",
+     "expressjs/serve-static",
+     "epoberezkin/fast-deep-equal"
+    ]
+   },
+   "0.1": {
+    "stars": {
+     "stars": 0.5145635894163587,
+     "dep_D1": 0.5952425000475856
+    },
+    "dep_D1": {
+     "stars": 0.21319085072343608,
+     "dep_D1": 0.6745092681787095
+    },
+    "mix50": {
+     "stars": 0.5096558768746712,
+     "dep_D1": 0.6700541217815158
+    },
+    "mix_vs_opt": {
+     "stars": 0.9904623789117024,
+     "dep_D1": 0.9933949811998531
+    },
+    "jacc": 0.7160877158936542,
+    "cost_dep": 0.10000000000000003,
+    "n_dep": 30570.561887254313,
+    "top_dep": [
+     "dkubb/adamantium",
+     "chalk/supports-color",
+     "fsevents/fsevents",
+     "browserify/resolve",
+     "jshttp/statuses",
+     "pillarjs/send",
+     "expressjs/serve-static",
+     "epoberezkin/fast-deep-equal"
+    ]
+   },
+   "0.3": {
+    "stars": {
+     "stars": 0.6336874566662194,
+     "dep_D1": 0.6558647923722518
+    },
+    "dep_D1": {
+     "stars": 0.3012606701977743,
+     "dep_D1": 0.6766225599217522
+    },
+    "mix50": {
+     "stars": 0.6328213908788021,
+     "dep_D1": 0.6735603292958134
+    },
+    "mix_vs_opt": {
+     "stars": 0.9986332918881279,
+     "dep_D1": 0.9954742410210311
+    },
+    "jacc": 0.8250283125707815,
+    "cost_dep": 0.2999999999999998,
+    "n_dep": 47354.42920079379,
+    "top_dep": [
+     "dkubb/adamantium",
+     "chalk/supports-color",
+     "fsevents/fsevents",
+     "browserify/resolve",
+     "jshttp/statuses",
+     "pillarjs/send",
+     "expressjs/serve-static",
+     "epoberezkin/fast-deep-equal"
+    ]
+   }
+  }
+ },
+ "H42e_recheck": {
+  "ratio": 2.5836517221912403,
+  "supported_if_rule_ge2": true
+ },
+ "dep_share_need0_le_M_median": 0.001308407950809558,
+ "M_median_bytes": 24769.86215537117,
+ "dep_weight_outside_high_tier_D1ge10k": {
+  "high_tier": 0.434734749868194,
+  "below250": 0.0841457751169276,
+  "created_after": 0.010369414113501677,
+  "fork": 0.0059303953476412844,
+  "gh_not_found": 0.0031401408171016806,
+  "not_queried_rm_stars_lt150": 0.46167952473663376
+ },
+ "outside_high_tier_D1ge10k": {
+  "n_repos": 4599,
+  "tar_total_bytes_est": 1168739403.3543673,
+  "c4_cost_reels_est": 0.0024743563926768464,
+  "note": "未照会の repo は作成日・fork を確認していない（上限側）"
+ },
+ "runtime_seconds": 7.798002243041992
+}

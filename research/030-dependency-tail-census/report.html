@@ -1,0 +1,97 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究030：依存の重い裾の全数調査（open_problems 90） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="030open_problems-90">研究030：依存の重い裾の全数調査（open_problems 90）</h1>
+<p>事前登録：PREREGISTRATION.md（2026-10-17T06:44:22Z、全数の収集の前）。
+データ：collect.py（packages.ecosyste.ms の公開 API、匿名・読み取りのみ、06:44〜06:50 UTC、117 registry・146ページ・失敗0、dependent_repos_count ≥1,000 の package 35,324件）→ data/pkgs.jsonl。collect_gh.py（GitHub GraphQL、gh の認証・読み取りのみ、06:46〜06:58 UTC、12,744 repo、見つからず250）→ data/repos_gh.jsonl。解析：sim.py（約6秒、seed 20261030、028 の sim.py を runpy で再利用）→ results.json、stdout.txt、fig_shares_and_tail.png、fig_budget_cross_eval_census.png。探索（登録外）：tools/measure_tar.py（GitHub REST、読み取りのみ、06:58〜07:16 UTC、1,150件）→ data/tar_measured.jsonl、explore.py → explore_results.json、explore_stdout.txt。
+再現：024〜029 を <code>/tmp/rep030/</code> に複製し、029 の sim.py・explore.py を再実行（results.json 679キー、explore_results.json 151キー、runtime 以外差分0）。030 も <code>/tmp/rep030b/</code> で再実行し差分0（730キー）。</p>
+<h2 id="_1">問い</h2>
+<p>029 では 025 標本の1件（bestiejs/json3、区間重み 556）が高層の依存重みの86%を占め、≥20,000 星の repo の割合の90%区間が 2.4〜56% と決まらなかった。依存数の大きい repo を全数で数え、標本はそれ以外にだけ使うと、割合、q、予算つき選択はどう変わるか。</p>
+<h2 id="_2">事実入力（本回開いて確認）</h2>
+<ul>
+<li>【事実（<a href="https://packages.ecosyste.ms/api/v1/registries">ecosyste.ms registries 一覧</a>、sources/registries_list.json）】registry は117件。npmjs.org の package 数 5,978,351、pypi.org 942,665 など。</li>
+<li>【事実（<a href="https://packages.ecosyste.ms/docs/api/v1/openapi.yaml">ecosyste.ms Packages API</a>、029 の sources/packages_openapi.yaml）】<code>/registries/{name}/packages</code> は sort=dependent_repos_count で並べられる。per_page=1000 が使えた。応答の repo_metadata に星・作成日・fork・大きさがある。</li>
+<li>【事実（同 API の応答、sources/npm_top2_example.json）】npm の1位は supports-color（dependent_repos_count 5,765,200、repo chalk/supports-color の星 374）、2位は fs.realpath（5,532,257、星 25）。</li>
+</ul>
+<h2 id="_3">方法</h2>
+<ul>
+<li>各 registry で、dependent_repos_count の降順に、値が 1,000 未満になるまで取った（全117件で到達。打ち切りなし。終わったページの最後の値の最大は 952）。</li>
+<li>package を GitHub repo にまとめ（repository_url）、D1 = 最大の dependent_repos_count。GraphQL で改名を解決し、星・作成日・fork を取った。</li>
+<li>全数層：高層（星 ≥250、2020-02-02 以前、fork でない）のうち、星 &lt;20,000 で D1 ≥ T の repo（主設定 T=10,000：<strong>3,872件</strong>）。≥20,000 星は 028 の全数（D1 は 029 の値と全数の値の大きい方）。</li>
+<li>標本層：025 標本の高層175件のうち全数層に入らないもの。区間の重みを (N_b − 全数層の件数) / 残りの標本数 に付け直した。</li>
+<li>新しく加わる repo の TAR は、025 の210件の回帰（log TAR = 2.95 + 0.714·log 大きさ、R² 0.57、残差 SD 1.59）に残差を足して付けた（主）。探索で、上位1,000件と無作為150件の TAR を 025 と同じ規則で実測した。</li>
+<li>読者 B（RAM 4〜144 KiB）、ΔV の式、費用、設定 c4（4 KiB 辞書・lc0）は 028・029 と同じ。</li>
+</ul>
+<h2 id="_4">主要結果</h2>
+<ul>
+<li>【独自計測】方法の検証：029 の lookup で D1 ≥10,000 だった repo（≥20,000 星 282件、標本10件）は、**全部（292/292）**全数リストに見つかった。標本からの件数の推定（Σ w·1[D1≥T]）は 3,220件で、全数 3,872件の 0.83倍。</li>
+<li>【独自計測】全数層 3,872件は星の区間にほぼ均等に散らばる（250〜499星 813件、500〜999 746件、1k〜2k 702件、2k〜5k 783件、5k〜20k 826件）。依存の上位は supports-color（星 374、D1 577万）、fsevents（568、529万）、resolve、statuses、send、serve-static で、npm の小さな部品。</li>
+<li>【独自推定】高層の依存重み（D1）の割合（T=10,000）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>層</th>
+<th>029（標本のみ）</th>
+<th>030（全数＋標本）</th>
+<th>030 の90%区間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>≥20,000 星の全数</td>
+<td>6.6%（2.4〜56%）</td>
+<td><strong>8.2%</strong></td>
+<td>8.1〜8.3%</td>
+</tr>
+<tr>
+<td>裾の全数（&lt;20,000 星、D1≥T）</td>
+<td>—</td>
+<td><strong>89.4%</strong></td>
+<td>88.2〜90.4%</td>
+</tr>
+<tr>
+<td>標本の残り</td>
+<td>—</td>
+<td>2.4%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Featured15</td>
+<td>0.28%</td>
+<td>0.34%</td>
+<td>0.33〜0.34%</td>
+</tr>
+</tbody>
+</table>
+<p>T=1,000 でも 100,000 でも ≥20,000 星の割合は 8.2〜8.3% で動かない。標本1件の最大寄与は 86%（029）→ 0.48%（030）。
+- 【独自推定】収蔵のままの q（読者 B）：星重み 0.033、依存重み 0.075（主）。探索で上位1,000件の TAR を実測に置き換えると 0.084（2.6倍）。ただし TAR を回帰の中央値で置くと 0.038、大きさそのままで 0.026 と、TAR の置き方に強く依存した。依存で重みをつけた TAR の中央値は約 266 KB（実測）で、読者 B の RAM の中央値（約 25 KB）の10倍。依存の大きい部品は小さいが、それでも 8 MiB 辞書の収蔵のままでは開けない。
+- 【独自推定】予算つき欲張り（c4、高層全体から選ぶ）：
+  - 0.003 リール（約 340 MB、2,199件）を依存で選ぶと、依存で測った q 増分 <strong>0.59</strong>、ΔV 0.207。高層全体を c4 で書く（4.1 リール、ΔV 0.236）の <strong>88%</strong> を、約1,400分の1の費用で得る。
+  - 同じ 0.003 リールを星で選ぶと、依存で測った q 増分 0.14（最適の24%）。依存で選んで星で測ると 0.028（星の最適の18%）。Jaccard 0.29。
+  - 星と依存を半々に混ぜると、0.01 リールで星の最適の 87%、依存の最適の 97%。0.1 リールで 98%／99%。0.003 リールでは星の側が 77%（実測 TAR の探索で 83%）。
+- 【独自推定、探索】D1 ≥10,000 の GitHub repo 全体の依存重みのうち、高層に入るのは <strong>43%</strong>。ecosyste.ms の星が150未満で照会しなかった repo が 46%、星 150〜249 が 8%、2020-02-02 以降の作成・fork・不明が計2%。高層の外で D1 ≥10,000 の repo は 4,599件、c4 での費用は約 0.0025 リール【推測：大きさからの回帰】。</p>
+<h2 id="_5">仮説の判定</h2>
+<ul>
+<li>H42a（全数リストの再現率 ≥90%）：<strong>支持</strong>（100%、292/292）。</li>
+<li>H42b（≥20,000 星の割合の90%区間の幅 ≤10.7 ポイント）：<strong>支持</strong>（0.21 ポイント）。</li>
+<li>H42c（≥20,000 星の割合 ≥15%）：<strong>棄却</strong>（8.2%）。029 の点推定 6.6% は外れていなかった。json3 の重みの過大は、裾の全数が本当に重いことでほぼ打ち消されていた。</li>
+<li>H42d（裾の全数が依存重みの ≥50%）：<strong>支持</strong>（89.4%）。</li>
+<li>H42e（依存重みの収蔵のままの q ≥ 星重みの2倍）：<strong>支持</strong>（2.3倍、実測 TAR の探索で 2.6倍）。ただし TAR を中央値で置くと 1.2倍で、頑健ではない。</li>
+<li>H42f（c4・0.01 リールの依存の欲張りで q 増分 ≥0.5）：<strong>支持</strong>（0.654）。</li>
+<li>H42g（半々の混合が 0.01・0.1 リールで両方の最適の ≥80%）：<strong>支持</strong>（0.867／0.967、0.985／0.989）。029 の H41g は全数補正後も成り立つ。0.003 リールでは星の側 77% で、規則の外ではわずかに下回る。</li>
+</ul>
+<h2 id="_6">批判的検討（限界）</h2>
+<ul>
+<li>dependent_repos_count は、manifest や lockfile にその package が書かれた repo の数で、間接依存を含むと思われる【推測】。fsevents（macOS 専用の任意依存）が529万あるのはそのためと考えられ、「回復した社会で役立つ度合い」を過大に見せる。直接依存だけの数は API からは取れなかった。</li>
+<li>依存数は 2026 年の値、星も 2026 年の値。2020 年の収蔵時とはずれる。</li>
+<li>高層の外（星 &lt;250）に、D1 ≥10,000 の依存重みの半分以上がある。照会しなかった repo の星は ecosyste.ms の値で、作成日と fork は確かめていない。これらが Arctic Vault の低層に実際に入っているかは確かめていない。</li>
+<li>TAR の回帰は R² 0.57 で、収蔵のままの q（H42e）はこの置き方で 0.026〜0.084 動く。上位1,000件（裾の依存重みの約89%）は実測で置き換えたが、標本層と ≥20,000 星は 028 の値のまま。</li>
+<li>逸脱：TAR の実測（tools/measure_tar.py）は事前登録になく、判定には使っていない。</li>
+</ul>
+<h2 id="_7">結論</h2>
+<p>依存の重い裾を全数で数えると、≥20,000 星の repo が高層の依存重みに占める割合は 8.2%（90%区間 8.1〜8.3%）に決まった。依存重みの89%は、星 250〜20,000 の約3,900件の小さな部品（主に npm）にある。価値を依存で測ると、選ぶべき集合は星とはほぼ別物になる。その一方で費用は非常に小さく、0.003 リール（約 340 MB）で、高層全体を小窓版で書いたときの依存の ΔV の88%が得られる。星と依存を半々に混ぜる 029 の選び方は、0.01 リール以上ならどちらで測っても最適の87%以上を保つ。依存で測る価値の半分以上は星 250 未満の repo にあり、高層だけを対象にした 028・029 の数え方からは抜けていた。</p>
+<h2 id="_8">誰が何を変えるべきか</h2>
+<ul>
+<li>Tech Tree の索引担当とアーカイブ運営者：小窓版（<code>dict=4KiB,lc=0</code>）の最初の 0.003 リール（約 340 MB）には、パッケージ管理系の依存数の上位（D1 ≥10,000）の約2,200件を入れ、星の上位はその次に混ぜる。星 250 未満でも依存数の大きい repo（約4,600件、約 0.0025 リール）は高層の外にあるので、別に拾う。028 の「高層全体を c4 で（約4 リール）」は依存で測っても ΔV 0.236 で、そのまま維持する。</li>
+<li>本研究所：今後、依存重みを使う解析では、標本ではなくこの全数リスト（data/pkgs.jsonl、data/repos_gh.jsonl）を基点にする。</li>
+</ul>
+<h2 id="_9">既存研究に対する新規性</h2>
+<p>029 は標本だけで依存重みを推定し、裾の1件で割合が決まらなかった。本回は117 registry すべての依存数の上位を 1,000 まで取って全数層を作り、標本を付け直した重みで推定した。その結果、割合を ±0.1 ポイントに決め、依存で測った価値の大半が星 250〜20,000 と星 250 未満の小さな部品にあること、その部品を小窓版で書く費用が 0.003 リール程度であることを示した。</p><footer><hr><small>自動生成</small></footer></body></html>
