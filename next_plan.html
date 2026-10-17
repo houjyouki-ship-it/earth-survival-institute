@@ -4,23 +4,24 @@
 2. 報告では軽い崩壊（計算機の社会が残る）と重い崩壊（T1・T0から再出発）を分け、提言は重い崩壊での効き方を優先して評価する。
 3. 重い崩壊では、読み取り装置より前に要る段（製鉄、ガラス、レンズ研磨など）も再出発の段として扱う。
 4. g・a・f_orphなど軽い崩壊にしか効かない課題はその後に回す。
-次回計画を書き直すときも、この節は先頭に残すこと。</p>
-<h1 id="38">次回（第38回）研究計画</h1>
+次回計画を書き直すときも、この節は先頭に残すこと。
+（第38回で上の指示どおり 98 を主課題として実施済み。研究038。指示の節は書き換えずに残している。重い崩壊の優先は続ける。）</p>
+<h1 id="39">次回（第39回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第37回）、open_problems.md（107、111、110、112、103、105）、priorities.md、threats/taxonomy.md（E 節）</li>
-<li>research/037-copy-survival-a/{report.md, results.json, sim.py}、research/035-orphan-share-distro/report.md（g の扱い）</li>
-<li>まず 024・030・032〜037 を <code>/tmp/rep038/</code> に複製し、037 の <code>python3 sim.py</code>（約37秒、ネット接続なし）を再実行して results.json が runtime 以外一致することを確かめる（564キー）。</li>
+<li>README.md、log.md（第38回）、open_problems.md（113、114、115、116、98、107、111）、priorities.md、threats/taxonomy.md（E 節）</li>
+<li>research/038-restart-state-evidence/{report.md, results.json, sim.py, explore_results.json}、research/032-collapse-scenarios/report.md</li>
+<li>まず 024・032・038 を <code>/tmp/rep039/</code> に複製し、038 の <code>python3 sim.py</code>（約7秒、ネット接続なし）を再実行して results.json が runtime 以外一致することを確かめる（674キー）。</li>
 </ul>
-<h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
-<h1 id="3reportmd-v-032-shapley-033s-u-034f_orph-037-0106-041-027-npm-a-download-037">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と既存研究に対する新規性を書く。ΔV は崩壊シナリオで重み付け（032）、提言は束か Shapley 値で比べる（033）。S の価値は u で割り引き（034）、f_orph は 037 の値（依存 0.106、星 0.41、半々 0.27）を使う。依存側の npm の項目は a の事前分布でなく download からの λ を使う（037）。</h1>
+<h2 id="2026-10-15-2026-10-17">方針（2026-10-15 承認、2026-10-17 改訂、継続中）</h2>
+<h1 id="3t1-038-032">3（知識保存と文明回復）を主軸にし、重い崩壊（T1 以下から再出発）での効き方を優先して評価する。報告は軽い崩壊と重い崩壊を分ける。毎回「誰が何を変えるべきか」と新規性を書く。状態と価値は 038 の模型（生存者×最大集団×段ごとの最小人口×人口待ち）で出し、032 の推測の状態は使わない。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A（推奨）：<strong>パッケージで欠ける価値 g（107）</strong>。037 で依存側の写しは飽和し、依存側 f_orph は g が決める（Spearman 0.94、床 0.103）。依存重みの上位の npm 部品について、公開 tarball（registry.npmjs.org の tarball、読み取りのみ）と GitHub の repo の tree（ファイル数・試験・ビルド設定・TypeScript の source の有無）を比べ、「tarball から repo を再建できる割合」を測る。g を測った値の分布に置き換え、f_orph と P(S＞T＋C) を戻す。</p>
-<p>優先候補 B：<strong>星側の文章型 repo の写しの数（111）</strong>。星重みの 57% は配布系に対応しない。一覧・教材の写しの公開の代理（Internet Archive の Wayback の取得回数、書籍化、翻訳 repo の数）を探す。</p>
-<p>優先候補 C：<strong>束と第2拠点の費用あたり（103＋100）</strong>。</p>
+<p>優先候補 A（推奨）：<strong>GEN（未知・その他）の分解（113）</strong>。038 で重い崩壊の価値の 81〜94% が GEN の1本の仮定から来た。超巨大噴火（Toba 級）、大きな小惑星・彗星、太陽嵐による送電網の喪失、急激な気候の変化などを公開資料で並べ、生存者・最大集団・設備の残り方を 038 の模型に入れ、GEN を「名前のつく原因の混合＋本当に未知の残り」に置き換える。重い崩壊の重み付きの割合（いま GEN 込み 0.03〜0.30、GEN 抜き 0.03〜0.04）がどう動くかを出す。</p>
+<p>優先候補 B：<strong>重い崩壊で効く対策の比較（115）</strong>。人口待ちが T2 までの時間の 86% を占めるので、小さな集団を閾値の上に保つ対策（避難所の規模、集団どうしの接触）と知識の保存を同じ模型で比べる。Kline &amp; Boyd の接触の効果を入れる。</p>
+<p>優先候補 C：<strong>段ごとの最小人口の根拠（114）<strong>と</strong>人口回復の速さ（116）</strong>。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題にする（037 で依存側の唯一の支配的な未知になったため。公開 tarball と repo の tree で測れる）。tarball の取得が重すぎれば上位 200 部品の標本にする。</p>
+<p>A を主課題にする（重い崩壊を優先する方針の根拠が GEN の仮定1本にかかっているため。A の結果で B の対策の重みが決まる）。資料が足りなければ、A で扱えた原因だけ置き換え、残りを「本当に未知」として感度で示す。</p>
 <h2 id="_4">成果物</h2>
-<p>research/038-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p>
+<p>research/039-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p>
 <h2 id="_5">後回しにしたもの</h2>
-<p>download の地域（112）、文章型の分類（109）、小窓版とテープ読者（89）、2020 年時点の星（95）、低層の D1 1,000〜10,000（97）、再出発の状態の根拠（98）。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>パッケージで欠ける価値 g（107）、星側の写しの数（111）、download の地域（112）、束と第2拠点の費用（103＋100）：いずれも軽い崩壊にしか効かない。</p><footer><hr><small>自動生成</small></footer></body></html>

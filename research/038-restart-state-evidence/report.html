@@ -1,0 +1,165 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究038：再出発の状態を外部の根拠で置き直す（open_problems 98、固定の最優先指示） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="038open_problems-98">研究038：再出発の状態を外部の根拠で置き直す（open_problems 98、固定の最優先指示）</h1>
+<h2 id="_1">問い</h2>
+<p>032 の「どの技術段から再出発するか」の割合はすべて推測だった。生存者の数、最大のつながった集団の大きさ、技術段を保つのに要る最小人口、人口が戻る速さを公開資料で押さえ、シナリオごとに置き直すと、重い崩壊（機械が止まり T1 以下から再出発）はどれくらい起こり、024〜032 の提言の価値はどこから来るか。重い崩壊では製鉄・ガラス・レンズの段も再出発の段として扱う。</p>
+<h2 id="sourcesexcerptsjson-sourcespages">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>、頁の写しは <code>sources/pages/</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>150 Tg：直接の死者 3.6億、2年目末に食料のない人 53.41億（家庭の廃棄をすべて食べれば 50.81億）。対象国の 2010 年の人口は 67億。この列は貿易なしで死者が最少になる場合</td>
+<td>【事実（<a href="https://www.nature.com/articles/s43016-022-00573-0/tables/1">Xia et al. 2022 表1</a>）】</td>
+</tr>
+<tr>
+<td>5 Tg：直接 0.27億・食料なし 2.55億、47 Tg：直接 1.64億・食料なし 25.12億</td>
+<td>【事実（同上）】</td>
+</tr>
+<tr>
+<td>150 Tg の想定はフランス・ドイツ・日本・英国・米国・ロシア・中国を攻撃する。豪州は例外的に摂取量が多く、ニュージーランドも影響が小さいが、難民の流入が見込まれる。死による人口減は考慮していない</td>
+<td>【事実（<a href="https://www.nature.com/articles/s43016-022-00573-0">Xia et al. 2022</a>）】</td>
+</tr>
+<tr>
+<td>Oceania の10社会の人口と海の道具の数（Malekula 1,100人で13種〜Hawaii 275,000人で71種）。人口の標準化係数 β=0.805</td>
+<td>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2894932/">Kline &amp; Boyd 2010</a> 表1）】</td>
+</tr>
+<tr>
+<td>Norse Greenland は最大 2,000〜3,000人。沼鉄を精錬したが、近くに鉱石がなく鉄は Labrador・Iceland・欧州から運んだ。L'Anse aux Meadows（30〜160人）では精錬は1回で、釘 100〜200本分</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Norse_colonization_of_North_America">Wikipedia</a>）】</td>
+</tr>
+<tr>
+<td>眼鏡は 1290 年頃に中部イタリアで作られ、1301 年に Venice に販売の組合規則、1320 年に眼鏡職人の組合</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Glasses">Wikipedia: Glasses</a>）】</td>
+</tr>
+<tr>
+<td>複合顕微鏡は 1620 年頃に欧州に現れ、1660〜70 年代まで珍品だった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Microscope">Wikipedia: Microscope</a>）】</td>
+</tr>
+<tr>
+<td>黒死病は欧州の人口の 30〜60%（推定によって 25〜60%）を殺し、欧州の人口は 16 世紀まで 14 世紀の水準に戻らなかった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Black_Death">Wikipedia: Black Death</a>）】</td>
+</tr>
+<tr>
+<td>天然痘の通常型の致死率は約30%、早期出血型はほぼ100%。スペイン風邪は世界人口の約1/3が感染</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Smallpox">Smallpox</a>、<a href="https://en.wikipedia.org/wiki/Spanish_flu">Spanish flu</a>）】</td>
+</tr>
+<tr>
+<td>TSMC の従業員 83,825人（2024）、ファウンドリ市場の約70%。TSMC Washington の 0.35〜0.16 µm の工場は 1,100人</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/TSMC">Wikipedia: TSMC</a>）】</td>
+</tr>
+<tr>
+<td>世界人口 82.32億、豪州 2,792万、ニュージーランド 536万、インドネシア 2.88億、アルゼンチン 4,647万</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population">国別人口一覧</a>）】</td>
+</tr>
+<tr>
+<td>Tasmania の植民前の人口は 3,000〜15,000人。骨器と魚の消失の意味は大きく論争中</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Aboriginal_Tasmanians">Aboriginal Tasmanians</a>）】</td>
+</tr>
+<tr>
+<td>WHO の H5N1 の頁は 404 で開けず、使っていない。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-20261038n2000007">方法（<code>sim.py</code>、seed 20261038、N=200,000、約7秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-17T22:48Z、初回実行前）。</li>
+<li>先頭は 032 の sim.py をそのまま写し、032 のシナリオ別・重み付きの値を<strong>誤差0で再現</strong>した（<code>check_032.reproduced_exactly=true</code>）。価値の式を「状態と T2 到達時刻を外から与える形」に一般化し、032 の状態を入れると 032 と差 0 になることも確かめた。</li>
+<li>状態を7つにした：絶滅／T3（半導体を作り続ける）／脆い T3／T2／T1（ガラスとレンズ）／T0（鉄はあるがレンズなし）／T00（鉄もない）。最大のつながった集団 n_max が各段の最小人口 N_k を超えるかで決める。</li>
+<li>最小人口は【推測】で、事実を上下の目安にした：N_Fe 2e3〜1e5（Greenland の 2,000〜3,000人は鉄を自給できなかった）、N_lens 3e4〜3e6、N_T2 は 024 と同じ 0.5e6〜5e6、脆い T3 を保つ N_3f 1e5〜1e7、半導体の自給 N_3 1e7〜5e8（TSMC 1社で 8.4万人・市場の7割、供給網の倍率は推測）。</li>
+<li>生存者：NUC_G は Xia 表1から生存割合 0.03〜0.19、最大集団は豪州（2,792万×0.5〜1）か別の大国（4,647万〜2.88億×0.02〜0.25）の大きい方。NUC_R は 0.60〜0.958。BIO は攻撃率 0.3〜0.95 × 致死率 0.3〜1.0（黒死病・天然痘・スペイン風邪の幅）に、確率 U[0,0.3] の極端な尾（生存 1e-7〜1e-2、根拠なし）を足した。CASC は 0.2〜0.9 で、つながった圏が 1e6〜3e8 に割れる。AI と GEN は 032 のまま。</li>
+<li>時間：各段は t_k = max(t_{k−1}+d_k, ln(N_k/n_max)/r)。段の知識の年数と、人口が閾値まで戻るのを待つ年数の遅い方。r は黒死病の回復（30〜60%の損失から 150〜250 年）から 0.0014〜0.0061/年。製鉄の段 d_Fe は d01 と同じ形（中央値20年）。</li>
+<li>新しい提言の候補として、<strong>肉眼で読める T0 手引き</strong>（製鉄・ガラス・レンズの作り方）を置き、段の年数を 0.3〜0.8 倍にした【推測】。</li>
+<li>再現：<code>/tmp/rep038b/</code> で再実行し results.json は runtime 以外一致（674キー、差分0）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H50a</td>
+<td>NUC_G の重い崩壊 &lt; 0.10</td>
+<td><strong>0.000</strong>（脆い T3 0.92、T3 0.08）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H50b</td>
+<td>BIO の重い崩壊が 032（0.13）より小さい</td>
+<td><strong>0.098</strong></td>
+<td><strong>支持</strong>（ただし全部が根拠のない尾から。下記）</td>
+</tr>
+<tr>
+<td>H50c</td>
+<td>CASC の重い崩壊が 032（0.20）より大きい</td>
+<td><strong>0.218</strong></td>
+<td><strong>支持</strong>（差はわずかで、閾値×0.3 で 0.056、×3 で 0.41）</td>
+</tr>
+<tr>
+<td>H50d</td>
+<td>重み付きの板の手引き ΔV が 032 の 0.5〜2 倍</td>
+<td>0.81／1.15／0.76 倍（0.0145／0.0174／0.0058）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H50e</td>
+<td>重い崩壊で T2 までの時間のうち人口待ちの割合の中央値 &gt; 0.5</td>
+<td><strong>0.86</strong>（BIO 0.93、CASC 0.82）</td>
+<td><strong>支持</strong>（r×3 で CASC 0.47）</td>
+</tr>
+<tr>
+<td>H50f</td>
+<td>T0 手引きが重い崩壊での板の価値を 20% 未満しか上げない</td>
+<td>15.7%／13.8%／4.9%</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H50g</td>
+<td>Kline &amp; Boyd の log-log 傾き b &lt; 0.5</td>
+<td><strong>0.27</strong>（90% CI 0.18〜0.44）</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjsonexplore_resultsjson">主な数値（results.json、explore_results.json）</h2>
+<ul>
+<li><strong>重い崩壊と軽い崩壊を分けると</strong>：</li>
+<li>軽い崩壊（計算機の社会が残る、T3 と脆い T3）：NUC_G 1.00、NUC_R 1.00、BIO 0.87、CASC 0.72。豪州だけで最大集団の中央値 2,350万人になり、N_3f（95%点 800万）を超える。</li>
+<li>重い崩壊（T1・T0・T00）：BIO 0.098（T00 0.035）、CASC 0.218、GEN 0.947、AI 0.03。重みで混ぜると A_Ord 0.30、A_XPT_S 0.19、A_XPT_E 0.031 だが、<strong>GEN を除くと 0.035／0.042／0.031</strong> しかない。</li>
+<li><strong>重い崩壊の価値は「未知・その他」から来る</strong>（探索）：板の手引きの重い崩壊分のうち GEN が A_Ord で <strong>94%</strong>、A_XPT_S で <strong>81%</strong>。名前のついたシナリオでは、極端なバイオの尾（根拠なし）と CASC の分裂が残りを作る。</li>
+<li><strong>重い崩壊では人口を待つ時間が支配的</strong>：T2 までの中央値は BIO 1,204年（段の年数だけなら 75年）、CASC 254年（39年）。人口待ちを消すと BIO の重い崩壊分の板の価値は 0.0015→0.0057 に4倍になる。</li>
+<li><strong>T0 手引きの上乗せ</strong>：重い崩壊での板の価値に対し BIO 3.1%、CASC 2.0%。人口待ちを消すと BIO 11.8%。GEN（032 のまま人口待ちなし）は 16.5% で、重み付きの 14〜16% はほぼ GEN から来る。</li>
+<li><strong>重み付きの板の手引き</strong>：A_Ord 0.0145（032 0.0178）、A_XPT_S 0.0174（0.0151）、A_XPT_E 0.0058（0.0076）。NUC_G の1回あたりの値は 0.0099→0.0206 に上がった（脆い T3 のうち、金庫に届かないまま T2 に落ちる分）。</li>
+<li><strong>Kline &amp; Boyd</strong>：b=0.27（Hawaii を除くと 0.34）。人口が 1/100 になると道具の種類は 29% に減る。Tasmania 規模（3,000〜15,000人）は Hawaii の 29〜45% の計算。標準化係数 0.805 は論文と一致し、表の写し間違いがないことを確かめた。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>H50a の支持は「豪州が1つのまとまった社会として残る」ことに依存する</strong>。Xia は食料だけを計算し、直接・間接の死による人口減、難民、放射能、送電網や燃料の途絶を扱わない。豪州を除くと NUC_G の重い崩壊は 0.029 に上がるが、なお小さい。次の大国（4,647万〜2.88億×0.02〜0.25）でも N_T2 をほぼ超えるからである。</li>
+<li><strong>BIO の重い崩壊は全部が仮定の尾から来る</strong>。尾を消すと 0.000 になる。黒死病・天然痘・スペイン風邪の幅（攻撃率×致死率）では、生存者は最低でも世界人口の約5%（約4億人）で、設備は無傷なので重い崩壊にならない。「工学的パンデミックで T0 から再出発」は、歴史の幅を大きく超える致死率と、生存者がばらばらになることの両方を仮定して初めて起こる。032 の BIO の絶滅 0.15 も、この模型では 0.024 に下がる。</li>
+<li><strong>CASC は分裂の仮定で決まる</strong>。つながった圏の下限 1e6 と閾値の置き方で重い崩壊は 0.06〜0.41 に動き、H50c は検定になっていない（閾値の言い換えに近い）。</li>
+<li><strong>閾値はすべて推測</strong>。上下の目安にした事実（Greenland は鉄を自給できなかった、TSMC は1社で8.4万人）は「その人数で足りなかった・その人数を使っている」例で、最小人口そのものではない。Kline &amp; Boyd は道具の数と人口の関係を示すが、海の道具のみ、10社会、技術の段（製鉄・レンズ）の閾値は与えない。b=0.27 の外挿で「段ごとの閾値の間隔」を決めることはしていない。</li>
+<li><strong>人口の回復速度は中世の値</strong>。知識が残る社会はもっと速く増えうる。r×3 で CASC の人口待ちの割合は 0.47 に下がり、H50e は r の置き方しだいで境界になる。ただし BIO では r×3 でも 0.79。</li>
+<li><strong>GEN と AI は 032 のまま</strong>。GEN は人口待ちを入れていないので、T0 手引きの上乗せ（16.5%）は過大側。GEN を「名前のないリスク」として持つ限り、重い崩壊の価値の8〜9割はこの1本の仮定（T0 から再出発、人口は足りる）にかかる。</li>
+<li><strong>脆い T3 の扱いも 032 のまま</strong>。20〜80 年のうちに金庫に届かなければ T2 に落ち、そこから m23（中央値943年）かけて T3 に戻るとした。2,000 万人規模の工業社会がそこまで落ちるかは確かめていない。NUC_G の値の上昇（0.0099→0.0206）はこの仮定から来る。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>外部の根拠で状態を置き直すと、名前のついた崩壊シナリオ（核・バイオ・複合崩壊）では、機械が止まって T1 以下から再出発する重い崩壊は、重み付きで 3〜4% しか起こらない。全面核戦争でも豪州の 2,000 万人規模の社会が残るので計算機は動き続け、歴史の幅の致死率のパンデミックでは数億人と無傷の設備が残る。重い崩壊が大きくなるのは、根拠のない極端な尾、社会が 100 万人単位に割れる複合崩壊、そして「未知・その他」（GEN）を T0 からの再出発と置く場合だけで、板の手引きの重い崩壊分の価値の 81〜94% は GEN から来る。重い崩壊が起きた場合、T2 に戻るまでの時間の約 86% は知識ではなく人口が閾値まで戻るのを待つ時間で、肉眼で読める製鉄・ガラス・レンズの手引きは板の価値を 2〜3%（人口待ちなしの仮定でも 12〜16%）しか上げない。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：「重い崩壊を優先する」方針の根拠は、いまは GEN（未知・その他を T0 から再出発と置く仮定）1本にかかっている。次は GEN の中身（どんな未知の原因なら 100 万人未満に割れるか）と、重い崩壊で効く対策が「知識の量」ではなく「人口がまとまって残ること」（小さな集団を閾値の上に保つ、集団どうしの接触を保つ）であることを、提言の比較に入れるべきである。032〜037 の数値は、重い崩壊の価値がほぼ GEN の仮定から来ることを明記して読む。</li>
+<li><strong>GitHub Archive Program・Piql など金庫の運営者</strong>：手引きに製鉄やガラスの段を足すより、金庫の中身が届く先（全面核戦争でも計算機が残る南半球の社会）を意識した方が効く。重い崩壊の側では、追加の字数より、読めるまで媒体が残ること（人口待ちで T2 まで中央値 250〜1,200 年）が効く。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Xia 2022 は食料と死者を国別に出すが、残る社会の技術段は扱わない。Kline &amp; Boyd 2010 は人口と道具の数の関係を示すが、崩壊後の再出発には使っていない。032 は再出発の状態を推測で置いた。本研究は、生存者の数と最大のつながった集団、段ごとの最小人口、人口回復の速さを組み合わせ、「重い崩壊は名前のついたシナリオではまれで、起きた場合は人口待ちが律速」という結論を数値で出し、知識保存の価値の大半が「未知・その他」の仮定に乗っていることを分解して示した。確認した資料（Ord、XPT、Xia 2022、Kline &amp; Boyd 2010）には、この組み合わせは見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>explore.py</code>、<code>explore_results.json</code>、<code>fig_state_shares_and_value.png</code>、<code>fig_time_to_T2_and_toolkit.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>、<code>sources/pages/</code>。
+- 逸脱：初回の実行は構文の誤り（括弧1つ）と import の写し漏れで止まり、結果を見る前に直した。<code>explore.py</code> は初回の結果を見た後に加えた（判定には使っていない）。H50f は事前登録の通り重み付きの重い崩壊分で判定した。</p><footer><hr><small>自動生成</small></footer></body></html>

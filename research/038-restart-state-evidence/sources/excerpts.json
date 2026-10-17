@@ -1,0 +1,109 @@
+{
+ "retrieved": "2026-10-17T22:40-22:47Z",
+ "xia2022": {
+  "url": "https://www.nature.com/articles/s43016-022-00573-0",
+  "table1_url": "https://www.nature.com/articles/s43016-022-00573-0/tables/1",
+  "quotes": [
+   "150 | 4,400 | 100 | 360,000,000 | 5,341,000,000",
+   "150 | 4,400 | 100 | 360,000,000 | a 5,081,000,000 (a Assuming total household waste is added to food consumption)",
+   "5 | 100 | 15 | 27,000,000 | 255,000,000",
+   "47 | 500 | 100 | 164,000,000 | 2,512,000,000",
+   "For 2010, the total population of the nations used in this study was 6,700,000,000.",
+   "the 150 Tg case is from ref. 51, which assumes attacks on France, Germany, Japan, United Kingdom, United States, Russia and China.",
+   "The last column is the case with the fewest number of deaths without international trade",
+   "Under the 150 Tg scenario, most nations would have calorie intake lower than resting energy expenditure. One exception is Australia.",
+   "New Zealand would also experience smaller impacts than other countries. But if this scenario should actually take place, Australia and New Zealand would probably see an influx of refugees",
+   "we do not consider reduced human populations due to direct or indirect mortality and possible reduced birth rate"
+  ]
+ },
+ "kline_boyd_2010": {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2894932/",
+  "quotes": [
+   "Table 1: Malekula 1100 low 13 3.2; Tikopia 1500 low 22 4.7; Santa Cruz 3600 low 24 4.0; Yap 4791 high 43 5.0; Lau Fiji 7400 high 33 5.0; Trobriand 8000 high 19 4.0; Chuuk 9200 high 40 3.8; Manus 13 000 low 28 6.6; Tonga 17 500 high 55 5.4; Hawaii 275 000 low 71 6.6",
+   "the effect of population size on the number of tools is strong and highly significant (β = 0.805, p = 0.005)",
+   "the isolated Polar Inuit lost kayaks, the leister and the bow and arrow when all knowledgeable people died during a plague"
+  ]
+ },
+ "norse_greenland": {
+  "url": "https://en.wikipedia.org/wiki/Norse_colonization_of_North_America",
+  "quotes": [
+   "The combined population peaked around 2,000–3,000.",
+   "Greenland lacked natural resources like forests and iron ore.",
+   "Bog iron was widely used and smelted in forges on Greenland, but because no ores were present near the Eastern or Western Settlements, the iron had to be shipped from Labrador, Newfoundland, Iceland, or Europe.",
+   "L'Anse aux Meadows ... was capable of housing between 30 and 160 people.",
+   "The amount and type of slag found suggests that a single smelt took place. Very little iron was manufactured, only enough for making about 100 to 200 nails."
+  ]
+ },
+ "black_death": {
+  "url": "https://en.wikipedia.org/wiki/Black_Death",
+  "quotes": [
+   "around 30% to 60% of the European population",
+   "the European population did not regain its 14th century level until the 16th century",
+   "The Black Death killed, by various estimations, from 25 to 60% of Europe's population."
+  ]
+ },
+ "smallpox": {
+  "url": "https://en.wikipedia.org/wiki/Smallpox",
+  "local_copy": "pages/Smallpox.html.gz",
+  "quotes": [
+   "Historically, ordinary smallpox had an overall fatality rate of about 30%, and the malignant and hemorrhagic forms were usually fatal.",
+   "The case fatality rate of early hemorrhagic smallpox approaches 100%."
+  ]
+ },
+ "spanish_flu": {
+  "url": "https://en.wikipedia.org/wiki/Spanish_flu",
+  "local_copy": "pages/Spanish_flu.html.gz",
+  "quotes": [
+   "The Spanish flu infected around 500 million people, about one-third of the world's population.",
+   "Tasmania remained free from it until mid-August."
+  ]
+ },
+ "tsmc": {
+  "url": "https://en.wikipedia.org/wiki/TSMC",
+  "quotes": [
+   "Number of employees 83,825 (2024)",
+   "accounting for approximately 70% of the global market share",
+   "As of 2024, the facility [TSMC Washington] employs 1100 workers and supports node sizes of 0.35, 0.30, 0.25, 0.22, 0.18, and 0.16 micrometres",
+   "The fab [JASM] is expected to directly create about 1,700 high-tech professional jobs.",
+   "In July 2023 TSMC warned that US talent was insufficient, so Taiwanese workers will need to be brought in"
+  ]
+ },
+ "glasses": {
+  "url": "https://en.wikipedia.org/wiki/Glasses",
+  "local_copy": "pages/Glasses.html.gz",
+  "quotes": [
+   "The first glasses were estimated to have been made in central Italy, most likely in Pisa or Florence, by about 1290",
+   "By 1301, there were guild regulations in Venice governing the sale of glasses and a separate guild of Venetian spectacle makers was formed in 1320."
+  ]
+ },
+ "microscope": {
+  "url": "https://en.wikipedia.org/wiki/Microscope",
+  "local_copy": "pages/Microscope.html.gz",
+  "quotes": [
+   "The earliest known examples of compound microscopes ... appeared in Europe around 1620.",
+   "The microscope was still largely a novelty until the 1660s and 1670s when naturalists in Italy, the Netherlands and England began using them"
+  ]
+ },
+ "aboriginal_tasmanians": {
+  "url": "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians",
+  "local_copy": "pages/Aboriginal_Tasmanians.html.gz",
+  "quotes": [
+   "Estimates of the population before colonisation generally range from 3,000 to 15,000 people.",
+   "The significance of the disappearance of bone tools (believed to have been primarily used for fishing) and fish in the diet is heavily debated."
+  ]
+ },
+ "population": {
+  "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population",
+  "local_copy": "pages/pop.html.gz",
+  "quotes": [
+   "World 8,232,000,000 (UN projection, 13 Jun 2025)",
+   "Australia 27,921,150",
+   "New Zealand 5,357,300",
+   "Argentina 46,466,688",
+   "Indonesia 288,315,089",
+   "Brazil 214,211,951",
+   "United States 341,784,857"
+  ]
+ },
+ "not_used": "WHO の H5N1 の fact sheet は 404 で開けず、使っていない。Iceland 入植の頁に中世の人口の数値はなく、使っていない。"
+}

@@ -1,0 +1,27 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究038 再出発の状態の外部根拠（open_problems 98、固定の最優先指示） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="038-open_problems-98">事前登録：研究038 再出発の状態の外部根拠（open_problems 98、固定の最優先指示）</h1>
+<p>記録時刻：2026-10-17T22:48Z（sim.py の初回実行前。出典は本回開いて確認済み、数値の結果は未見）</p>
+<h2 id="_1">目的</h2>
+<p>032 の再出発の状態の割合（すべて推測）を、生存者の数・最大のつながった集団の大きさ・技術段を維持する最小人口の閾値という機構で置き直す。重い崩壊では、製鉄・ガラス・レンズの段（T00→T0→T1）を再出発の段として扱い、人口が閾値まで戻るのを待つ時間を入れる。</p>
+<h2 id="simpyseed-20261038032">模型（sim.py、seed 20261038、032 の乱数列を先頭で再現）</h2>
+<ul>
+<li>状態：絶滅／T3（半導体を自前で作り続ける）／脆い T3（今ある計算機は動くが新しく作れない）／T2／T1（ガラスとレンズ）／T0（鉄はあるがレンズなし）／T00（鉄もない）。</li>
+<li>閾値（すべて対数一様、【推測】、括弧は根拠にした事実）：N_Fe 2e3〜1e5（Norse Greenland 2,000〜3,000人は沼鉄を精錬したが鉱石と鉄を輸入に頼った）、N_lens 3e4〜3e6（眼鏡は1290年頃の中部イタリア、1301年に Venice の組合規則）、N_T2 は 024 と同じ 0.5e6〜5e6、N_3f 1e5〜1e7、N_3 1e7〜5e8（TSMC 83,825人・市場の約70%、供給網の倍率は推測）。単調になるよう累積の max を取る。</li>
+<li>生存者：NUC_G は Xia 2022 表1（150 Tg、直接 3.6億、食料なし 53.41億／50.81億、対象国の人口 67億）から生存割合 0.03〜0.19、最大集団は豪州（2,792万人×0.5〜1）か別の大国（4,647万〜2.88億人×0.02〜0.25）の大きい方、設備の倍率 1〜3。NUC_R は 5〜47 Tg の行から 0.60〜0.958、つながった圏 3.4e8〜4e9。BIO は攻撃率 0.3〜0.95 × 致死率 0.3〜1.0（黒死病 30〜60%、天然痘 通常型 約30%・出血型 90〜100%、スペイン風邪の感染 約1/3）、確率 U[0,0.3] で極端な尾（生存 1e-7〜1e-2）、つながった圏 3e8〜8.2e9。CASC は 0.2〜0.9、圏 1e6〜3e8、倍率 1〜3。AI と GEN は 032 のまま（外部根拠なし／定義）。絶滅は生存者 5,000 人未満。</li>
+<li>時間：t_k = max(t_{k-1}+d_k, ln(N_k/n)/r)。r は黒死病の回復（欧州は 14 世紀の水準に 16 世紀まで戻らない、損失 30〜60%、150〜250年）から 0.0014〜0.0061/年。d_Fe は d01 と同じ形（中央値20年）。</li>
+<li>価値：032 の V_s と同じ式（板の手引き R_tab など）。重みは 032 の3組。T0 手引き（肉眼で読める製鉄・ガラス・レンズの手引き）は d_Fe と d01 を U[0.3,0.8] 倍にする（金庫が残り見つかる場合のみ）。</li>
+</ul>
+<h2 id="_2">検査</h2>
+<ul>
+<li>032 の 6 シナリオの R_tab と重み付き値を誤差 1e-12 で再現する。</li>
+<li>新しい状態で 032 の状態を与えたとき（置き換えなし）に 032 と一致する。</li>
+</ul>
+<h2 id="_3">仮説（判定規則）</h2>
+<ul>
+<li>H50a：NUC_G で重い崩壊（T1＋T0＋T00）の割合 &lt; 0.10。</li>
+<li>H50b：BIO の重い崩壊の割合は 032（0.13）より小さい。</li>
+<li>H50c：CASC の重い崩壊の割合は 032（0.20）より大きい。</li>
+<li>H50d：重み付きの板の手引き ΔV が 3 組すべてで 032 の 0.5〜2 倍の範囲。</li>
+<li>H50e：重い崩壊の標本で、T2 到達までの時間のうち人口待ちが占める割合の中央値 &gt; 0.5。</li>
+<li>H50f：T0 手引きは、重い崩壊での板の手引きの価値（重い崩壊分の V）を 20% 未満しか上げない。</li>
+<li>H50g：Kline &amp; Boyd 2010 表1 の log(道具数) 対 log(人口) の傾き b &lt; 0.5。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,71 @@
+{
+ "A_Ord": {
+  "heavy_value_share_by_scen": {
+   "AI": 0.033388123018370644,
+   "BIO": 0.021162673933361183,
+   "CASC": 0.007242946232053358,
+   "GEN": 0.9382062568162148,
+   "NUC_G": 0.0,
+   "NUC_R": 0.0
+  },
+  "heavy_value_total_approx": 0.012506683655536026,
+  "R_tab_total_approx": 0.014487237481554267,
+  "heavy_value_frac_of_R_tab": 0.8632897522015525,
+  "heavy_prob_share_by_scen": {
+   "AI": 0.05202101027581772,
+   "BIO": 0.05699495664566148,
+   "CASC": 0.007629806450838384,
+   "GEN": 0.8833542266276825,
+   "NUC_G": 0.0,
+   "NUC_R": 0.0
+  },
+  "heavy_prob_weighted_excl_GEN": 0.03517702987697713,
+  "heavy_prob_weighted": 0.3015714059753954
+ },
+ "A_XPT_S": {
+  "heavy_value_share_by_scen": {
+   "AI": 0.0228502203811222,
+   "BIO": 0.0011434221123727416,
+   "CASC": 0.16662458741548183,
+   "GEN": 0.8093817700910232,
+   "NUC_G": 0.0,
+   "NUC_R": 0.0
+  },
+  "heavy_value_total_approx": 0.00815766398662402,
+  "R_tab_total_approx": 0.017396771546637265,
+  "heavy_value_frac_of_R_tab": 0.46891826824045796,
+  "heavy_prob_share_by_scen": {
+   "AI": 0.036467698990562694,
+   "BIO": 0.0031543048592249266,
+   "CASC": 0.17979124432677326,
+   "GEN": 0.7805867518234391,
+   "NUC_G": 0.0,
+   "NUC_R": 0.0
+  },
+  "heavy_prob_weighted_excl_GEN": 0.04213523924105847,
+  "heavy_prob_weighted": 0.19203598502471653
+ },
+ "A_XPT_E": {
+  "heavy_value_share_by_scen": {
+   "AI": 0.6120556414219475,
+   "BIO": 0.38794435857805243,
+   "CASC": 0.0,
+   "GEN": 0.0,
+   "NUC_G": 0.0,
+   "NUC_R": 0.0
+  },
+  "heavy_value_total_approx": 0.000647,
+  "R_tab_total_approx": 0.00578434744493104,
+  "heavy_value_frac_of_R_tab": 0.11185358524183767,
+  "heavy_prob_share_by_scen": {
+   "AI": 0.47718707401170724,
+   "BIO": 0.5228129259882929,
+   "CASC": 0.0,
+   "GEN": 0.0,
+   "NUC_G": 0.0,
+   "NUC_R": 0.0
+  },
+  "heavy_prob_weighted_excl_GEN": 0.031177499999999997,
+  "heavy_prob_weighted": 0.031177499999999997
+ }
+}
