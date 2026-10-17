@@ -1,0 +1,40 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究037 事前登録（2026-10-17T20:43Z、package ごとの download 数の取得前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="037-2026-10-17t2043zpackage-download">研究037 事前登録（2026-10-17T20:43Z、package ごとの download 数の取得前）</h1>
+<h2 id="open_problems-106">問い（open_problems 106）</h2>
+<p>035・036 で f_orph の分散のほぼすべて（Spearman −0.84）を決めた a（手元の写しが生き残り見つかる割合、事前分布 logU[1e-5,1e-2]）を、公開集計から下から組み立てる。
+a は「N（被依存数 D1、または 星×κ）1単位あたり、地域の中で崩壊を越えて読め、見つかる写しの数」である。これを
+写しの数 C（公開 download 数から）× 機械が残る確率 p_s × 見つかる確率 p_f に分ける。</p>
+<h2 id="_1">取得前に確認した事実（本回開いて確認）</h2>
+<ul>
+<li>npm の registry 全体の last-month download は 960,444,269,343（2026-09-13〜10-12、api.npmjs.org）。API の動作確認で react・lodash・chalk の3件だけ値を見た。</li>
+<li>GitHub は 2023年初めに開発者 1億人（Octoverse 2024、035 で保存済みの HTML）。</li>
+<li>Stack Overflow 2024 調査：過去1年に JavaScript で開発した回答者 62.3%（全回答者、60,171件）。</li>
+<li>Backblaze の 2024年の全ドライブの AFR 1.57%（データセンターの HDD）。</li>
+<li>npm は ~/.npm（Windows は %LocalAppData%\npm-cache）に cache を置く（npm docs）。</li>
+</ul>
+<h2 id="_2">測るもの</h2>
+<ul>
+<li>035 の U（収蔵済み 7,555件）と 036 の ≥20,000 星 1,368件を、030 の pkgs.jsonl（registry の package、≥1,000 被依存）の rm_full_name で npm の package に対応づけ、各 repo の package の last-month download の最大値 DLmax を npm の bulk API（128件ずつ）で取る。</li>
+</ul>
+<h2 id="simpyseed-20261037036-simpy-k4000">模型（sim.py、seed 20261037、036 の sim.py を一時ディレクトリで再実行して同じ係数 K=4,000 組を使う）</h2>
+<ul>
+<li>機械の数 N_mach = 1e8 × 0.623 × f_m、f_m ~ U[0.05,0.5]【推測：GitHub アカウントのうち持続する開発機を持つ割合】。</li>
+<li>機械あたりの別々の npm package 数 n_pkg ~ logU[300,3000]【推測】。</li>
+<li>写しの数 C_i = min(N_mach, DLmax_i × N_mach × n_pkg / DL_tot)（download の割合で機械×package の組を配る）。</li>
+<li>p_s = p_keep × (1−0.0157)^t、p_keep ~ U[0.2,0.9]【推測：生き残った地域で機械が壊されず捨てられない】、t ~ U[1,20] 年【推測：必要になるまで】。</li>
+<li>p_f ~ logU[1e-3,0.3]【推測：その package の写しを持つ機械を誰かが探し当てる】。</li>
+<li>λ_{i,r} = C_i × s_r × p_s × p_f。npm に対応づいた項目では、035・036 の clone の項 (1−g)(1−e^{−N κ a s_r}) を (1−g)(1−e^{−λ}) に置き換える。対応しない項目は 035・036 の項のまま（a の事前分布）。星側の Homebrew の項は 036 のまま。</li>
+<li>暗黙の a_i = λ_{i,r} / (N_i κ s_r) を報告する。</li>
+</ul>
+<h2 id="_3">仮説（判定基準）</h2>
+<ul>
+<li>H49a：npm に対応づいた U の項目で、DLmax / D1 の中央値（依存重み付き）が 100 以上。</li>
+<li>H49b：暗黙の a の中央値（依存重み付きの項目中央値の、K 組の中央値、EU）が 8.5e-5（035 の交差点の目安）以上。</li>
+<li>H49c：依存側 f_orph（BIO＝4地域平均）の中央値が 0.11 以下。</li>
+<li>H49d：半々 f_orph（BIO）の中央値が 0.24 以下（036 の 0.291 から 0.05 以上下がる）。</li>
+<li>H49e：034 に戻した P(S＞T＋C) が A_XPT_S で 0.3 未満。</li>
+<li>H49f：新しい係数（f_m、n_pkg、p_keep、t、p_f）のうち、半々 f_orph（BIO）との |Spearman| が最大なのは p_f。</li>
+</ul>
+<h2 id="_4">変種</h2>
+<ul>
+<li>DL の和（repo の全 package の和）、p_f を1桁下げる（logU[1e-4,3e-2]）、npm 以外の項目も同じ「download の割合」を npm の中央値で当てはめる上限（探索）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
