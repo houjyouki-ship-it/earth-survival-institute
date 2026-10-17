@@ -1,0 +1,123 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究034：計算機の社会が残るとき、金庫はどれだけ価値を足すか（open_problems 101） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="034open_problems-101">研究034：計算機の社会が残るとき、金庫はどれだけ価値を足すか（open_problems 101）</h1>
+<h2 id="_1">問い</h2>
+<p>032・033 は、計算機の社会がそのまま残る結果（T3 保持）でも金庫の中身を価値1で数え、南半球の第2拠点 S の Shapley 値を水増ししていた。T3 社会の手元に残る写しを入れ、金庫が加える価値を u∈[0,1] に置き直すと、S と「板の手引き T＋小窓版 C」の束の順位は u のどこで入れ替わるか。u はどの程度と見積もれるか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Software Heritage の写しは本体の完全な写しで、ENEA（イタリア）、GRNET（ギリシャ）、Duisburg-Essen 大学（ドイツ）。準備中は Imdea（スペイン）</td>
+<td>【事実（<a href="https://www.softwareheritage.org/mirrors/">Software Heritage mirrors</a>）】</td>
+</tr>
+<tr>
+<td>本体は Inria（フランス）。2020年10月時点で1億4,300万超のプロジェクト</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Software_Heritage">Software Heritage, Wikipedia</a>）】</td>
+</tr>
+<tr>
+<td>GitHub Archive Program の協力先に Software Heritage・Internet Archive・GHTorrent・GHArchive。約17,000の人気・被依存 repo の写しを Bodleian（オックスフォード）、Bibliotheca Alexandrina（エジプト）、Stanford（カリフォルニア）に置く</td>
+<td>【事実（<a href="https://archiveprogram.github.com/">GitHub Archive Program</a>）】</td>
+</tr>
+<tr>
+<td>「hot」（オンラインの repo）と「warm」（Internet Archive など）の層はどちらも電子機器に依存する</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/GitHub_Archive_Program">Arctic World Archive, Wikipedia</a>）】</td>
+</tr>
+<tr>
+<td>Internet Archive のデータセンターは主にカリフォルニアで6拠点、ほかに米国の他州・カナダ・欧州。一部の写しを Bibliotheca Alexandrina とアムステルダムに置く</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Internet_Archive">Internet Archive, Wikipedia</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>これらの資料に、南半球の完全な写しは1つも書かれていない（載っていないというだけで、存在しないことの証明ではない）。GitHub 本体のデータセンターの場所は確認しておらず、北米と置いた【推測】。</p>
+<h2 id="simpy12">方法（<code>sim.py</code>、約12秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-17T14:39:27Z</strong>、初回実行前）。</li>
+<li>033 の sim.py を写し、V に u_T3（T3 保持で金庫が届けたときの価値）と u_frag（脆い T3 で窓内に金庫に届き、普通の計算機がある社会の価値）を足した。u=1 で 033 の全シナリオの Shapley を<strong>完全に再現</strong>し（差 &lt;1e-12）、T・H・C の Shapley は u で変わらないこと（差 0）、S の Shapley が u について線形であること（u=0.5 で誤差 3e-17）を確かめた。</li>
+<li>u の見積もり（seed 20261034、係数 4,000 組 × 地域・拠点のくじ 400 回）：地域 EU（Software Heritage 4拠点、Internet Archive Europe、Bodleian）、NA（GitHub 本体、Internet Archive、Stanford）、EG（Bibliotheca Alexandrina）。場所は上の事実、生き残る確率と網羅率はすべて【推測】（地域の生存 p_reg：NUC_G 0.05〜0.5、NUC_R 0.9〜1.0、BIO 0.6〜0.98、AI 0.1〜0.9、CASC 0.4〜0.9、GEN 0.3〜0.9。各拠点の稼働 0.7〜0.99。網羅率 Software Heritage 0.8〜0.99、GitHub 0.85〜0.99、Internet Archive 0〜0.3、17,000件 0.2〜0.6）。分散した clone（開発者の手元、パッケージの写し）で補えない割合 f_orph は 0.003〜0.3 の対数一様【推測】。u = f_orph × Π(1 − 網羅率×生存)。</li>
+<li>感度：網羅が入れ子（1 − max）、clone なし（f_orph=1）、u_frag=u。</li>
+<li>再現：<code>/tmp/rep034b/</code> で 024・032・033 と一緒に再実行し、results.json は runtime 以外完全一致（437キー）。033 も <code>/tmp/rep034/</code> で再実行して一致（682キー）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H46a</td>
+<td>A_XPT_S で u=1 なら S＞T＋C、u=0 なら S＜T＋C</td>
+<td>u=1 で S 0.191、u=0 で 0.047、T＋C 0.062</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H46b</td>
+<td>3組の重みすべてで交差点 u* ≤ 0.2</td>
+<td>A_Ord <strong>0.45</strong>、A_XPT_S 0.10、A_XPT_E 0.023</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H46c</td>
+<td>見積もった u の中央値が全シナリオで 0.1 未満</td>
+<td>0.0005（NUC_R）〜0.016（NUC_G）</td>
+<td><strong>支持</strong>（ただし f_orph の置き方しだい。下記）</td>
+</tr>
+<tr>
+<td>H46d</td>
+<td>A_XPT_S で P(S＞T＋C) &lt; 0.5</td>
+<td><strong>0.011</strong></td>
+<td><strong>支持</strong>（同上）</td>
+</tr>
+<tr>
+<td>H46e</td>
+<td>u の中央値が NUC_G で BIO の3倍以上</td>
+<td>0.0155 対 0.0019（<strong>8.1倍</strong>）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H46f</td>
+<td>u_frag=u で A_XPT_S の S が20%以上下がる</td>
+<td>18.8% 下がる</td>
+<td><strong>棄却</strong>（境界）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>交差点 u</strong><em>（重み付き Shapley(S) が Shapley(T)＋Shapley(C) と等しくなる u）：A_Ord 0.45、A_XPT_S 0.10、A_XPT_E 0.023。シナリオ別では、NUC_G と AI は u=0 でも S が上（u</em>=0）、NUC_R 0.022、BIO 0.37、CASC 0.40、GEN は u=1 でも S が下。</li>
+<li><strong>u の見積もり</strong>（中央値、5〜95%）：NUC_G 0.016（0.002〜0.13）、AI 0.0067、GEN 0.0047、CASC 0.0038、BIO 0.0019、NUC_R 0.0005。入れ子の網羅でもほぼ同じ（0.002〜0.016）。<strong>clone なしでは</strong> NUC_G 0.51、AI 0.26、GEN 0.18、CASC 0.14、BIO 0.067、NUC_R 0.019。</li>
+<li><strong>S の重み付き Shapley の置き直し</strong>（主設定の u の中央値）：A_Ord 0.094→<strong>0.050</strong>、A_XPT_S 0.191→<strong>0.049</strong>、A_XPT_E 0.157→<strong>0.032</strong>。033 の S は 1.9〜4.9 倍の水増しだった。T＋C（0.070／0.062／0.034）に対する比は 0.71／0.78／0.94。</li>
+<li><strong>P(S＞T＋C)</strong>（係数の不確かさのもとで）：主設定 0.000／0.011／0.28。clone なしでは 0.005／<strong>0.9995</strong>／<strong>1.0</strong>。</li>
+<li><strong>探索（事前登録外、判定には使わない）</strong>：</li>
+<li>交差点を作る f_orph（clone で補えない割合）：A_Ord <strong>2.7</strong>（1を超えるのでどんな値でも束が上）、A_XPT_S <strong>0.37</strong>、A_XPT_E <strong>0.087</strong>。</li>
+<li>片方だけ選ぶ比較（V(S)−V(∅) 対 V(TC)−V(∅)）の交差点：0.26／0.050／0（A_XPT_E では u=0 でも S が上）。</li>
+<li>束を入れた後の S の限界値は u=0 でも 0.070／0.068／0.042 で、束そのもの（0.047／0.040／0.021）より大きい。S は束の写しも守るので、束と S は代わりではなく補い合う。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>結論は「分散した clone がどれだけ残るか」（f_orph）でほぼ決まる</strong>。拠点の網羅と生存だけで u を見積もると（clone なし）、XPT の2組では S が束より上になる（確率 0.9995 以上）。主設定で S が下になったのは、f_orph を 0.003〜0.3 と置いたからで、これは本研究所の推測であり資料の裏付けがない。交差点の f_orph は A_XPT_S で 0.37、A_XPT_E で 0.087 なので、A_XPT_E では主設定の範囲の中で順位が入れ替わる。</li>
+<li><strong>拠点の地理は事実として効く</strong>。確認した完全な写しはすべて北半球（欧州・北米・エジプト）にある。そのため全面核戦争（NUC_G）の u は BIO の約8倍になった。ただし地域の生存確率は推測で、8倍という値そのものはこの推測から来る。</li>
+<li><strong>H46f の棄却は境界</strong>（18.8% と 20%）。脆い T3 の計算機経路にも u を当てると S はさらに約2割下がる。主設定は 033 と比べやすいように u_frag=1 にしたが、一貫させるなら u_frag=u のほうが自然【推測】。</li>
+<li><strong>u は内容の「量」しか見ていない</strong>。T3 社会が手元の写しを持っていても、使える形で探し出せるかは別の問題【推測】。逆に、T3 社会の多くは金庫の中身より新しい版を持っているので、u はさらに小さいかもしれない。</li>
+<li>交差点の比較は、Shapley の和、片方だけの値、束の上の限界値の3通りで答えが違う。どれが政策の問いに合うかは、予算が「どちらか一方」か「順番に両方」かで決まる。費用を入れた比較（103）が必要。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>金庫が計算機の社会に足す価値 u を資料の拠点配置から見積もると、分散した clone が残る限り u は 0.0005〜0.016 と小さく、033 の第2拠点 S の値は 1.9〜4.9 倍の水増しだった。置き直すと S の重み付き Shapley は 0.032〜0.050 で、板の手引きと小窓版の束（0.034〜0.070）を下回る（P(S＞束) は 0〜0.28）。ただし、この順位は「clone で補えない割合」が 9〜37% を超えると逆転し（XPT の重み）、clone を数えなければ S が上になる。確認した完全な写しがすべて北半球にあるため、全面核戦争では金庫の価値が他のシナリオより大きい。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>Software Heritage と GitHub Archive Program の運営者</strong>：完全な写しや 17,000件の写しの次の置き場所を、南半球（例：オーストラリア・ニュージーランドの大学や国立図書館）から選ぶ。確認した公開資料の範囲では南半球に完全な写しがなく、全面核戦争で金庫の価値が他より大きくなる原因がこれである。</li>
+<li><strong>本研究所</strong>：今後、第2拠点 S の価値は T3 保持の結果を u（主設定 0.0005〜0.016）で割り引いて報告する。032・033 の「S が最大」は撤回し、「束が上、ただし clone の残り方しだい」と読み替える。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord と XPT は崩壊後の技術段階も、どの写しが残るかも扱わない。GitHub Archive Program と Software Heritage は写しを増やす理由を述べるが、写しの地理的な偏りが崩壊の種類ごとに価値をどう変えるかは定量化していない。本研究は、公開されている写しの場所から崩壊シナリオごとに金庫の追加価値を見積もり、第2拠点と知識保存の束の順位が分散した clone の残り方で決まり、その分岐点が 9〜37% であることを示した。この組み合わせは、確認した資料（Ord、XPT、Xia 2022、GitHub GUIDE、Software Heritage、Internet Archive の資料）には見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_crossing_u.png</code>、<code>fig_u_estimate_and_ustar.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：初回実行後に探索の指標（<code>explore</code>：束の上の S の限界値、片方だけの比較、交差点の f_orph）を足して再実行した。仮説の判定値は変わらないことを確認した。</p><footer><hr><small>自動生成</small></footer></body></html>

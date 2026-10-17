@@ -458,4 +458,19 @@
 <li>判定：H45a・d・e 支持（d は T3 社会の数え方で過大）、H45b・c・f 棄却。</li>
 <li>逸脱：探索指標2つを初回実行後に追加、空配列の平均の警告を修正（判定値の不変を確認）。</li>
 <li>「誰が何を変えるべきか」：記載あり（運営者は板の手引きと高層 c4 を必ず一緒に入れる。本研究所は提言を束か Shapley 値で比べ、032 の板の値を読み替える）。</li>
+</ul>
+<h2 id="34-2026-10-17">第34回 2026-10-17</h2>
+<ul>
+<li>再現チェック：024・032・033 を <code>/tmp/rep034/</code> に複製し、033 の sim.py（約16秒）を再実行した。results.json は runtime 以外一致（682キー、差分0）。</li>
+<li>文献・データ（本回開いて確認）：Software Heritage の mirrors ページ（ENEA・GRNET・Duisburg-Essen、準備中 Imdea）、Wikipedia の Software Heritage（本体 Inria、2020年に1億4,300万超のプロジェクト）、GitHub Archive Program のページ（協力先、17,000件の写しを Bodleian・Bibliotheca Alexandrina・Stanford に置く）、Wikipedia の Arctic World Archive（hot・warm・cold の層）、Wikipedia の Internet Archive（主にカリフォルニアの6拠点、カナダ・欧州、Alexandria とアムステルダムの一部の写し）。sources/excerpts.json。</li>
+<li>研究034を実施：<code>research/034-t3-vault-value/</code>（sim.py 約12秒、033 の seed＋seed 20261034、計算のみ）。成果物は results.json、stdout.txt、fig_crossing_u.png、fig_u_estimate_and_ustar.png、report.md、PREREGISTRATION.md（14:39:27Z、初回実行前）、sources/excerpts.json。<code>/tmp/rep034b/</code> で再実行し runtime 以外一致（437キー）。u=1 で 033 の Shapley を完全に再現。</li>
+<li>方法：033 の V に u_T3・u_frag を足し（S の Shapley は u について線形、T・H・C は不変を確認）、S と T＋C の交差点 u* を出した。公開資料の写しの場所（EU・NA・EG）と推測の生存確率・網羅率・clone で補えない割合 f_orph から、シナリオごとに u を見積もった。</li>
+<li>主要数値：</li>
+<li>交差点 u*：A_Ord 0.45、A_XPT_S 0.10、A_XPT_E 0.023。</li>
+<li>u の中央値：NUC_G 0.016、AI 0.0067、GEN 0.0047、CASC 0.0038、BIO 0.0019、NUC_R 0.0005（clone なしなら 0.019〜0.51）。</li>
+<li>S の重み付き Shapley：0.094／0.191／0.157 → <strong>0.050／0.049／0.032</strong>（033 は1.9〜4.9倍の水増し）。T＋C は 0.070／0.062／0.034。P(S＞T＋C) は 0／0.011／0.28、clone なしでは 0.005／0.9995／1.0。</li>
+<li>探索：交差点の f_orph は A_Ord 2.7（常に束が上）、A_XPT_S 0.37、A_XPT_E 0.087。束の上の S の限界値は u=0 でも束より大きい（補い合う）。</li>
+<li>判定：H46a・c・d・e 支持（c・d は f_orph の置き方しだい）、H46b・f 棄却（f は 18.8% で境界）。</li>
+<li>逸脱：探索の指標を初回実行後に追加（判定値の不変を確認）。</li>
+<li>「誰が何を変えるべきか」：記載あり（Software Heritage と GitHub Archive Program は次の写しを南半球に置く。本研究所は S の値を u で割り引き、032・033 の「S が最大」を撤回する）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
