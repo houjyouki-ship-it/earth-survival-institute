@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究036 事前登録（2026-10-17T18:43Z、Homebrew・nixpkgs の索引と GitHub のメタデータの取得前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="036-2026-10-17t1843zhomebrewnixpkgs-github">研究036 事前登録（2026-10-17T18:43Z、Homebrew・nixpkgs の索引と GitHub のメタデータの取得前）</h1>
+<h2 id="open_problems-108107">問い（open_problems 108、107 の一部）</h2>
+<p>035 で f_orph の大半は星側（≥20,000 星 1,368件、Debian 収録 17.9%）から来た。Debian 以外の配布系（Homebrew の formula・cask、nixpkgs）がこれらをどれだけ収めるか、収めていない星重みは何でできているか（配布の対象にならない文章・一覧の repo か）を測り、f_orph の星側と 034 の順位を置き直す。</p>
+<h2 id="collectpy">取得するもの（collect.py）</h2>
+<ul>
+<li>Homebrew：https://formulae.brew.sh/api/formula.json、cask.json、analytics の install 365d（formula）と cask-install 365d。</li>
+<li>nixpkgs：channels.nixos.org の nixos-unstable の packages.json.br（meta.homepage ほか）。</li>
+<li>GitHub GraphQL（gh、読み取りのみ）：1,368件の primaryLanguage、topics、forkCount、isArchived、description。</li>
+<li>星の母集団・重みは 035 と同じ（028 の census、重み＝現在の星）。</li>
+</ul>
+<h2 id="_1">照合</h2>
+<ul>
+<li>B1：Homebrew formula の homepage・urls.stable.url・urls.head.url・head、cask の homepage・url に github.com/owner/repo（大文字小文字無視、.git を除く）。</li>
+<li>X1：nixpkgs の meta.homepage・meta.downloadPage・meta.changelog に github.com/owner/repo。</li>
+<li>収録の主定義＝Debian（035 の M1∪M3）∪ B1 ∪ X1。</li>
+<li>M4（035 の Debian 照合の再現率の確認）：B1・X1 で一致した package 名（formula 名、nix の pname）が Debian trixie の source・binary 名にあり、035 では未一致のもの。</li>
+<li>文章型（content）：primaryLanguage が null・Markdown・TeX、または repo 名・説明・topics に awesome|tutorial|interview|roadmap|book|cheatsheet|course|guide|resources|list を含み primaryLanguage が null・Markdown・HTML・TeX・Jupyter Notebook のもの。</li>
+</ul>
+<h2 id="simpyseed-20261036">模型（sim.py、seed 20261036）</h2>
+<p>035 の sim.py を一時ディレクトリで再実行し、同じ係数の組（K=4,000：v・p_m・a・g・κ・s_r）と依存側の f_orph をそのまま使う。星側の項目 i の補えない割合：
+uncovered_i = (1 − d_deb·v·P_deb(r)) × (1 − d_brew·(1−g_b)·(1 − exp(−I_i·ι·s_r·a))) × (1 − (1−g)(1 − exp(−stars_i·κ·s_r·a)))
+- I_i：Homebrew の 365日 install 数（formula と cask の合計、測定）。ι ~ logU[1, 10]：任意参加の集計から実際に写しを持つ機械の数への倍率【推測】。g_b ~ U[0.3, 0.8]：bottle（コンパイル済み）や cask（アプリ本体）で欠ける価値【推測】。
+- nixpkgs：主では手元の写しを数えない（install 数がない）。変種「nix を Debian と同じ鏡像扱い」（上限）と「Homebrew なし」。
+- 半々の重み＝0.5×依存（035 と同じ）＋0.5×星（本研究）。034 に戻す方法は 035 と同じ（clone なしの u × f_orph）。</p>
+<h2 id="_2">仮説（判定規則）</h2>
+<ul>
+<li>H48a：Debian∪Homebrew∪nixpkgs の星重みの収録が 35% 以上（035 の 17.9% の約2倍）。</li>
+<li>H48b：3つのどれにも収録されない星重みのうち、文章型が 50% 以上。</li>
+<li>H48c：M4 を加えても Debian の星重みの収録は 3 ポイント未満しか増えない（035 の照合の取りこぼしは小さい）。</li>
+<li>H48d：主の星側 f_orph の中央値（4地域平均のシナリオ BIO）が 035 の 0.47 より 0.1 以上下がる。</li>
+<li>H48e：034 に戻すと A_XPT_S で P(S＞T＋C) &lt; 0.3（035 は 0.43）。</li>
+<li>H48f：Homebrew の install 数で重みを付けると（収録された repo の中で）星との順位相関 ρ &lt; 0.3。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
