@@ -1,0 +1,207 @@
+{
+ "note": "事前登録外の探索",
+ "greedy_dV_star": {
+  "c3_16KiB_lc0@0.01": {
+   "mean_q": 0.19756187699551295,
+   "dV_P2": 0.06121079894016576,
+   "n_repos": 22123.08770138342,
+   "featured_included": 2,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  },
+  "c3_16KiB_lc0@0.1": {
+   "mean_q": 0.3869052198670614,
+   "dV_P2": 0.11987465541641198,
+   "n_repos": 82771.49043838441,
+   "featured_included": 10,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  },
+  "c3_16KiB_lc0@1.0": {
+   "mean_q": 0.5200401216877112,
+   "dV_P2": 0.16112358874989588,
+   "n_repos": 122108.8156052721,
+   "featured_included": 15,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  },
+  "c4_4KiB_lc0@0.01": {
+   "mean_q": 0.26918806621550195,
+   "dV_P2": 0.0834152052815533,
+   "n_repos": 21709.976274848108,
+   "featured_included": 2,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  },
+  "c4_4KiB_lc0@0.1": {
+   "mean_q": 0.5376156555046547,
+   "dV_P2": 0.16659502107452537,
+   "n_repos": 79016.5317696239,
+   "featured_included": 7,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  },
+  "c4_4KiB_lc0@1.0": {
+   "mean_q": 0.735750166993375,
+   "dV_P2": 0.2279924661399733,
+   "n_repos": 120231.18781936522,
+   "featured_included": 15,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  },
+  "u_uncompressed@0.01": {
+   "mean_q": 0.2304523025262082,
+   "dV_P2": 0.07139921989710826,
+   "n_repos": 9817.300837871802,
+   "featured_included": 1,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university",
+    "vinta/awesome-python"
+   ]
+  },
+  "u_uncompressed@0.1": {
+   "mean_q": 0.47381465650122884,
+   "dV_P2": 0.14679485971639047,
+   "n_repos": 40690.007289958165,
+   "featured_included": 3,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  },
+  "u_uncompressed@1.0": {
+   "mean_q": 0.8427316797109135,
+   "dV_P2": 0.2610909153496367,
+   "n_repos": 92313.36905235876,
+   "featured_included": 12,
+   "example_census_repos": [
+    "codecrafters-io/build-your-own-x",
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "freeCodeCamp/freeCodeCamp",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "nilbuild/developer-roadmap",
+    "jwasham/coding-interview-university"
+   ]
+  }
+ },
+ "alt_weights": {
+  "repo_count": {
+   "as_archived_q": 0.04543896886659761,
+   "share_featured15": 0.00011248003479382409,
+   "share_ge20k": 0.010025720434622855,
+   "c4_featured15": {
+    "mean_q": 0.04552447112744631,
+    "dV_P2": 0.014101394812420814
+   },
+   "c4_all_ge20k": {
+    "mean_q": 0.05291568444958165,
+    "dV_P2": 0.016391777544485897
+   },
+   "c4_all_high": {
+    "mean_q": 0.7601572163066056,
+    "dV_P2": 0.23555568575327882
+   },
+   "c4_greedy@0.1": {
+    "mean_q": 0.5279296140867933,
+    "dV_P2": 0.16359355587070504
+   }
+  },
+  "bytes": {
+   "as_archived_q": 0.00011890882298121167,
+   "share_featured15": 0.0011786636640908439,
+   "share_ge20k": 0.030456672530738412,
+   "c4_featured15": {
+    "mean_q": 0.0010148759005581872,
+    "dV_P2": 0.00031449253819934575
+   },
+   "c4_all_ge20k": {
+    "mean_q": 0.023270298058132667,
+    "dV_P2": 0.007210949174363296
+   },
+   "c4_all_high": {
+    "mean_q": 0.7601550003251119,
+    "dV_P2": 0.2355550001004603
+   },
+   "c4_greedy@0.1": {
+    "mean_q": 0.01861201455856287,
+    "dV_P2": 0.005767451469715024
+   }
+  }
+ },
+ "star_greedy_evaluated_by_bytes": {
+  "mean_q": 0.018338540994610596,
+  "dV_P2": 0.005682702901078307
+ },
+ "chromium_upper": {
+  "c2_64KiB_lc0": {
+   "ge20k_reels_main": 0.1022884491726619,
+   "ge20k_reels_chromium_upper": 0.21564185487026874
+  },
+  "c4_4KiB_lc0": {
+   "ge20k_reels_main": 0.12629383425214424,
+   "ge20k_reels_chromium_upper": 0.2663147566374798
+  }
+ }
+}

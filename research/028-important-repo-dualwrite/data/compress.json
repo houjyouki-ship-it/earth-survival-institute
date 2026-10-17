@@ -1,0 +1,512 @@
+{
+ "configs": {
+  "c0_8MiB_lc3": {
+   "dict": 8388608,
+   "lc": 3
+  },
+  "c1_64KiB_lc3": {
+   "dict": 65536,
+   "lc": 3
+  },
+  "c2_64KiB_lc0": {
+   "dict": 65536,
+   "lc": 0
+  },
+  "c3_16KiB_lc0": {
+   "dict": 16384,
+   "lc": 0
+  },
+  "c4_4KiB_lc0": {
+   "dict": 4096,
+   "lc": 0
+  }
+ },
+ "cap_bytes": 3000000000.0,
+ "skipped_over_cap": [],
+ "fetch_failed": [],
+ "repos": [
+  {
+   "group": "featured",
+   "full_name": "Alamofire/Alamofire",
+   "stars_now": 42391,
+   "commit": "e0a88a8b2992e6379ecdc19bc58aed6d4c42b5f8",
+   "tar_bytes_tree_est": 13950976,
+   "tar_bytes_actual": 13957120,
+   "sha256": "06bd9741dfac85e99c88571847fc831aa7a0bb9ff0e118d1158d60d085ba406b",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 907412,
+    "c1_64KiB_lc3": 1281564,
+    "c2_64KiB_lc0": 1286124,
+    "c3_16KiB_lc0": 1885556,
+    "c4_4KiB_lc0": 2131128
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "Homebrew/brew",
+   "stars_now": 50030,
+   "commit": "af700b71861beb12ac1379617baffaa16aba4e33",
+   "tar_bytes_tree_est": 6865408,
+   "tar_bytes_actual": 6809600,
+   "sha256": "278256b9c8f45529a804fdfa5a71ba7ad8b5817c2e1b36f336d75f9f2efffba8",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1262636,
+    "c1_64KiB_lc3": 1428956,
+    "c2_64KiB_lc0": 1438988,
+    "c3_16KiB_lc0": 1550860,
+    "c4_4KiB_lc0": 1744060
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "apache/hadoop",
+   "stars_now": 15693,
+   "commit": "1e3a0b0d931676b191cb4813ed1a283ebb24d4eb",
+   "tar_bytes_tree_est": 199016960,
+   "tar_bytes_actual": 199475200,
+   "sha256": "f8393e2bdf584cc8767cbe6eb37361c5c08f2471aa57b537de0139275390cebf",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 19641080,
+    "c1_64KiB_lc3": 28540452,
+    "c2_64KiB_lc0": 28774916,
+    "c3_16KiB_lc0": 32877036,
+    "c4_4KiB_lc0": 40954888
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "bitcoin/bitcoin",
+   "stars_now": 90410,
+   "commit": "e9434ee03efdfc0a5a54cf46561e95fd93cba007",
+   "tar_bytes_tree_est": 25312768,
+   "tar_bytes_actual": 25323520,
+   "sha256": "6f97f90b30356ea9ddc027871e49d24d72c298ad57e9ee84c9d88eff972c2e1d",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 5165884,
+    "c1_64KiB_lc3": 6234296,
+    "c2_64KiB_lc0": 6273176,
+    "c3_16KiB_lc0": 6787260,
+    "c4_4KiB_lc0": 7508944
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "docker-archive-public/docker.machine",
+   "stars_now": 6606,
+   "commit": "b170508bf44c3405e079e26d5fdffe35a64c6972",
+   "tar_bytes_tree_est": 20394496,
+   "tar_bytes_actual": 20398080,
+   "sha256": "76ec31ad6f8046c19712c879a95e353c3ec59e54a1ae8bee4a72dfcff2a530c4",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1690160,
+    "c1_64KiB_lc3": 2244644,
+    "c2_64KiB_lc0": 2271664,
+    "c3_16KiB_lc0": 2818996,
+    "c4_4KiB_lc0": 4055924
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "dotnet/core",
+   "stars_now": 22045,
+   "commit": "012c2430a387e318c8615e281398cddcad2ea208",
+   "tar_bytes_tree_est": 14009344,
+   "tar_bytes_actual": 14018560,
+   "sha256": "fb4811007d9d7fed8dcbbf0461f1a7a004821f078359e91c4d8db46fdf8ec14d",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1408948,
+    "c1_64KiB_lc3": 1872360,
+    "c2_64KiB_lc0": 1889136,
+    "c3_16KiB_lc0": 2305092,
+    "c4_4KiB_lc0": 2796932
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "microsoft/TypeScript",
+   "stars_now": 111502,
+   "commit": "ef8eb0c876ccb71211eb61044ddba09a4010e30a",
+   "tar_bytes_tree_est": 233015808,
+   "tar_bytes_actual": 233082880,
+   "sha256": "e36cc62dacc40b96ea41ceed455c55fd7ad59c29a2b05d45bed892d227f29d54",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 15957636,
+    "c1_64KiB_lc3": 23240036,
+    "c2_64KiB_lc0": 23447212,
+    "c3_16KiB_lc0": 26338060,
+    "c4_4KiB_lc0": 31783912
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "nodejs/node",
+   "stars_now": 122378,
+   "commit": "9528f953360c34a75b3a89839e71884908c2fe6e",
+   "tar_bytes_tree_est": 394877440,
+   "tar_bytes_actual": 394885120,
+   "sha256": "5b7d3c1f5dd8ebf0397fa9607145de6984fab89bdcf53ce5efb477128d15a4b4",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 50582992,
+    "c1_64KiB_lc3": 68568896,
+    "c2_64KiB_lc0": 68821684,
+    "c3_16KiB_lc0": 75103168,
+    "c4_4KiB_lc0": 84365400
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "openssl/openssl",
+   "stars_now": 30966,
+   "commit": "03e16083ff526d6d38de519620747aabbfc69b83",
+   "tar_bytes_tree_est": 72047616,
+   "tar_bytes_actual": 41635840,
+   "sha256": "abb3c99e233e61b2d40fb3a814bb76736a5e3c9f042205d27ddfa0dfb6047557",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 6839608,
+    "c1_64KiB_lc3": 7735616,
+    "c2_64KiB_lc0": 7802140,
+    "c3_16KiB_lc0": 8587700,
+    "c4_4KiB_lc0": 9813196
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "php/php-src",
+   "stars_now": 40447,
+   "commit": "4cbffd89d9e82d81a26746aadca27ad061cab43a",
+   "tar_bytes_tree_est": 120300032,
+   "tar_bytes_actual": 120309760,
+   "sha256": "69813c77bfceb95f5cc8dcb967377e27d8d39f9950ac73f7cce524ffdd3c3201",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 10118260,
+    "c1_64KiB_lc3": 12174308,
+    "c2_64KiB_lc0": 12322520,
+    "c3_16KiB_lc0": 13639496,
+    "c4_4KiB_lc0": 16302492
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "python/cpython",
+   "stars_now": 77647,
+   "commit": "78c7183f470b60a39ac2dd0ad1a94d49d1e0b062",
+   "tar_bytes_tree_est": 88784896,
+   "tar_bytes_actual": 88811520,
+   "sha256": "45dd62ec59a3104e85f2acc25882071603c3ebaafbd7af909c01a095ef65dc59",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 18072980,
+    "c1_64KiB_lc3": 21120736,
+    "c2_64KiB_lc0": 21250200,
+    "c3_16KiB_lc0": 22782312,
+    "c4_4KiB_lc0": 25125760
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "rails/rails",
+   "stars_now": 58846,
+   "commit": "cb6f25c7578911d21476aa65ef324a98e72008fc",
+   "tar_bytes_tree_est": 28974080,
+   "tar_bytes_actual": 28979200,
+   "sha256": "448131222e0632314f9b5d437bfd3e64b672a50813b27cff66f21a1575ce73b5",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 7969436,
+    "c1_64KiB_lc3": 10155912,
+    "c2_64KiB_lc0": 10194852,
+    "c3_16KiB_lc0": 10601672,
+    "c4_4KiB_lc0": 11214860
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "torvalds/linux",
+   "stars_now": 252180,
+   "commit": "b7c3a17c6062701d97a0959890a2c882bfaac537",
+   "tar_bytes_tree_est": 954627072,
+   "tar_bytes_actual": 954613760,
+   "sha256": "77aeed2e3d4c25a708741fe44604d4443946c68ed33bdac70f27b657268379e0",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 114471160,
+    "c1_64KiB_lc3": 144564432,
+    "c2_64KiB_lc0": 146893916,
+    "c3_16KiB_lc0": 167430052,
+    "c4_4KiB_lc0": 196233124
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "twbs/bootstrap",
+   "stars_now": 174914,
+   "commit": "ef6c13c5347637e78e0a2be53f25b09ed8aebb2a",
+   "tar_bytes_tree_est": 9298432,
+   "tar_bytes_actual": 9308160,
+   "sha256": "29f3a563359300e8f96cda83ecf38d090553c3e9f37fa20a4b5ad2c7f6918465",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1882460,
+    "c1_64KiB_lc3": 2488316,
+    "c2_64KiB_lc0": 2500112,
+    "c3_16KiB_lc0": 2692884,
+    "c4_4KiB_lc0": 2982384
+   }
+  },
+  {
+   "group": "featured",
+   "full_name": "v8/v8",
+   "stars_now": 25282,
+   "commit": "35a421a354bdeaa8414580a2931158caa728bb14",
+   "tar_bytes_tree_est": 127053312,
+   "tar_bytes_actual": 127057920,
+   "sha256": "2ebd7e24e6fd4d618c0ba404111f66011c85ab0648b646a3b19736567d19a250",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 16605252,
+    "c1_64KiB_lc3": 20790324,
+    "c2_64KiB_lc0": 20939364,
+    "c3_16KiB_lc0": 22915756,
+    "c4_4KiB_lc0": 26336336
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "kingToolbox/WindTerm",
+   "stars_now": 32451,
+   "commit": "824c7edac17108b1fac28fa3b25684fb696dcae5",
+   "tar_bytes_tree_est": 15264768,
+   "tar_bytes_actual": 15267840,
+   "sha256": "6749280533af62519a8b717855f78d45d314f4f394ed715d21657e6422407a1b",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 15125484,
+    "c1_64KiB_lc3": 15165736,
+    "c2_64KiB_lc0": 15158512,
+    "c3_16KiB_lc0": 15163248,
+    "c4_4KiB_lc0": 15184816
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "Modernizr/Modernizr",
+   "stars_now": 25679,
+   "commit": "25f2f3d0030a828f03b533f47a61da514e2e5139",
+   "tar_bytes_tree_est": 2266112,
+   "tar_bytes_actual": 2273280,
+   "sha256": "7e2114ada873bd46dff40cc841e912598419f54bea07d339e11c5735a9ea4e14",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 512132,
+    "c1_64KiB_lc3": 581888,
+    "c2_64KiB_lc0": 582952,
+    "c3_16KiB_lc0": 619152,
+    "c4_4KiB_lc0": 658600
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "toml-lang/toml",
+   "stars_now": 20634,
+   "commit": "68076ffc6d9a150d48f1df964551283542ad47bc",
+   "tar_bytes_tree_est": 1951232,
+   "tar_bytes_actual": 1955840,
+   "sha256": "324a31e190f79be1479fa0ed00802c7d54f3cff633bc499f10fc702fe25f2a31",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1609116,
+    "c1_64KiB_lc3": 1618908,
+    "c2_64KiB_lc0": 1619396,
+    "c3_16KiB_lc0": 1658652,
+    "c4_4KiB_lc0": 1675448
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "the1812/Bilibili-Evolved",
+   "stars_now": 30795,
+   "commit": "1ad75214788b426884a46228dcc461ec7c277655",
+   "tar_bytes_tree_est": 87239168,
+   "tar_bytes_actual": 87244800,
+   "sha256": "988f0bda70e67f5b3229c89f2876ed7937d16597cfe05616c48033fbd2c4fc2b",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 65428808,
+    "c1_64KiB_lc3": 68323052,
+    "c2_64KiB_lc0": 68424500,
+    "c3_16KiB_lc0": 68821368,
+    "c4_4KiB_lc0": 69483236
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "nothings/stb",
+   "stars_now": 34847,
+   "commit": "e2b8524aa271fc03fec3740a5b396df10428562e",
+   "tar_bytes_tree_est": 4691456,
+   "tar_bytes_actual": 4700160,
+   "sha256": "cc63a06938d568425ccc33964c83294189a9569f6937d834340ed346647e1026",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1104940,
+    "c1_64KiB_lc3": 1226804,
+    "c2_64KiB_lc0": 1236676,
+    "c3_16KiB_lc0": 1303148,
+    "c4_4KiB_lc0": 1464192
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "huiyadanli/RevokeMsgPatcher",
+   "stars_now": 38968,
+   "commit": "c8b8a5e44b841900147bb597eb78772c7d97e36b",
+   "tar_bytes_tree_est": 3953152,
+   "tar_bytes_actual": 3962880,
+   "sha256": "3a12c70949943e7cd387c98966078e5ae23db4de0a81f9bca7cfe458c45b49eb",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 3304324,
+    "c1_64KiB_lc3": 3393596,
+    "c2_64KiB_lc0": 3396952,
+    "c3_16KiB_lc0": 3417084,
+    "c4_4KiB_lc0": 3493952
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "supabase/supabase",
+   "stars_now": 111661,
+   "commit": "bde733e8a782ab2244001bc6efc5ec3fedfb5471",
+   "tar_bytes_tree_est": 3571712,
+   "tar_bytes_actual": 3573760,
+   "sha256": "c2253f9160879ef2d56c07d2920636c08df237a984c3fdb3e09e9acf0c1d54ee",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1364916,
+    "c1_64KiB_lc3": 1598352,
+    "c2_64KiB_lc0": 1593084,
+    "c3_16KiB_lc0": 2202728,
+    "c4_4KiB_lc0": 2232476
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "gogs/gogs",
+   "stars_now": 47874,
+   "commit": "465be9b16ee331c258a5a4fa29921953e64e5266",
+   "tar_bytes_tree_est": 33179648,
+   "tar_bytes_actual": 33187840,
+   "sha256": "8985b87413faa8ec511785d749c405a5fa80b85df207e5659c269107dfd9b67a",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 10925944,
+    "c1_64KiB_lc3": 12471560,
+    "c2_64KiB_lc0": 12530760,
+    "c3_16KiB_lc0": 12939032,
+    "c4_4KiB_lc0": 13630936
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "google/flatbuffers",
+   "stars_now": 26565,
+   "commit": "6400c9b054912ae4761ab3534248b51ffa7a6c1e",
+   "tar_bytes_tree_est": 6166016,
+   "tar_bytes_actual": 6174720,
+   "sha256": "00c6a3fb0685d3658c9f324bde113d5bfa730f14be4a3342356b15e049b4c024",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 748500,
+    "c1_64KiB_lc3": 969864,
+    "c2_64KiB_lc0": 977092,
+    "c3_16KiB_lc0": 1104816,
+    "c4_4KiB_lc0": 1284524
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "fastapi/fastapi",
+   "stars_now": 103149,
+   "commit": "55afb70b3717969565499f5dcaef54b1f0acc7da",
+   "tar_bytes_tree_est": 6518784,
+   "tar_bytes_actual": 6522880,
+   "sha256": "90d07af3e5d97f6a425b2af17c4b3f8a22202e13c2819d2d25f5a05bd41bbe09",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 4143348,
+    "c1_64KiB_lc3": 4447820,
+    "c2_64KiB_lc0": 4456840,
+    "c3_16KiB_lc0": 4498236,
+    "c4_4KiB_lc0": 4620840
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "emscripten-core/emscripten",
+   "stars_now": 27718,
+   "commit": "75341fc07510f722aef563892cd657880b0c9815",
+   "tar_bytes_tree_est": 120673280,
+   "tar_bytes_actual": 120678400,
+   "sha256": "1841529db4ee2c3751dad167345a6e3c51284cf7fcbb747757ea69122e0a3e0e",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 24474924,
+    "c1_64KiB_lc3": 28943396,
+    "c2_64KiB_lc0": 29198656,
+    "c3_16KiB_lc0": 31417548,
+    "c4_4KiB_lc0": 34927760
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "rizinorg/cutter",
+   "stars_now": 20041,
+   "commit": "37544b45d583bfed23bd17d5f9ef4516a7aafab8",
+   "tar_bytes_tree_est": 4338176,
+   "tar_bytes_actual": 4341760,
+   "sha256": "e40824766a37846602e742a6a1332dfa0bbf984ffd14d29d6b2da2d94661a059",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 1634356,
+    "c1_64KiB_lc3": 1729872,
+    "c2_64KiB_lc0": 1736004,
+    "c3_16KiB_lc0": 1807296,
+    "c4_4KiB_lc0": 1942224
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "FiloSottile/age",
+   "stars_now": 23945,
+   "commit": "a798d4ef31252a11a89f0b54f6d7656d25bea0f8",
+   "tar_bytes_tree_est": 124416,
+   "tar_bytes_actual": 133120,
+   "sha256": "ff22bde5b810d127ebd48208563abfbf22beb850575c0aeecfbf94e3107ff807",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 24688,
+    "c1_64KiB_lc3": 25020,
+    "c2_64KiB_lc0": 25072,
+    "c3_16KiB_lc0": 26428,
+    "c4_4KiB_lc0": 32480
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "schollz/croc",
+   "stars_now": 40615,
+   "commit": "57b9d830793e2838333994eba1161d115e13441b",
+   "tar_bytes_tree_est": 163840,
+   "tar_bytes_actual": 174080,
+   "sha256": "de321c8eb20b27460d47676289ac2a084f7256aa428355759cfdc16357914488",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 33924,
+    "c1_64KiB_lc3": 34660,
+    "c2_64KiB_lc0": 34808,
+    "c3_16KiB_lc0": 37104,
+    "c4_4KiB_lc0": 40880
+   }
+  },
+  {
+   "group": "random20k",
+   "full_name": "akullpp/awesome-java",
+   "stars_now": 49276,
+   "commit": "76cbdfff8b05c1095e80c91022b0fb05cfa3c4c4",
+   "tar_bytes_tree_est": 104448,
+   "tar_bytes_actual": 112640,
+   "sha256": "3742d5af2e7f37bd812877080257eed96474e7ee18545fac71b15f8a2220749f",
+   "xz_bytes": {
+    "c0_8MiB_lc3": 31400,
+    "c1_64KiB_lc3": 31520,
+    "c2_64KiB_lc0": 31696,
+    "c3_16KiB_lc0": 33628,
+    "c4_4KiB_lc0": 37140
+   }
+  }
+ ],
+ "finished": "2026-10-17T03:11:38Z",
+ "python": "3.13.5",
+ "liblzma_note": "Python lzma module"
+}
