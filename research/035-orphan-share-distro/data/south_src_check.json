@@ -1,0 +1,229 @@
+[
+ {
+  "country": "Argentina",
+  "mirror": "http://debian.unnoba.edu.ar/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:45Z"
+ },
+ {
+  "country": "Argentina",
+  "mirror": "http://mirror.sitsa.com.ar/debian/",
+  "https": "404",
+  "http": "000",
+  "t": "2026-10-17T16:44:58Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://ftp.au.debian.org/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:44:57Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://debian.mirror.digitalpacific.com.au/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:46Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://debian.mirror.serversaustralia.com.au/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:45Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://mirror.aarnet.edu.au/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:45Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://mirror.amaze.com.au/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:44:57Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://mirror.gsl.icu/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:45Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://mirror.linux.org.au/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:45Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://mirror.overthewire.com.au/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:44:57Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://mirror.realcompute.io/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:46Z"
+ },
+ {
+  "country": "Australia",
+  "mirror": "http://mirrors.xtom.au/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:45Z"
+ },
+ {
+  "country": "Brazil",
+  "mirror": "http://ftp.br.debian.org/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:44:57Z"
+ },
+ {
+  "country": "Brazil",
+  "mirror": "http://debian.c3sl.ufpr.br/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:46Z"
+ },
+ {
+  "country": "Brazil",
+  "mirror": "http://debian.pop-sc.rnp.br/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:46Z"
+ },
+ {
+  "country": "Brazil",
+  "mirror": "http://mirror.blue3.com.br/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:47Z"
+ },
+ {
+  "country": "Brazil",
+  "mirror": "http://mirrors.ic.unicamp.br/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:47Z"
+ },
+ {
+  "country": "Brazil",
+  "mirror": "http://mirror.uepg.br/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:47Z"
+ },
+ {
+  "country": "Brazil",
+  "mirror": "http://mirror.ufscar.br/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:47Z"
+ },
+ {
+  "country": "Chile",
+  "mirror": "http://ftp.cl.debian.org/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:44:59Z"
+ },
+ {
+  "country": "Chile",
+  "mirror": "http://debian-mirror.puq.apoapsis.cl/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:47Z"
+ },
+ {
+  "country": "Chile",
+  "mirror": "http://elmirror.cl/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:47Z"
+ },
+ {
+  "country": "Chile",
+  "mirror": "http://mirror.hnd.cl/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:47Z"
+ },
+ {
+  "country": "Chile",
+  "mirror": "http://mirror.insacom.cl/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:49Z"
+ },
+ {
+  "country": "New Caledonia",
+  "mirror": "http://ftp.nc.debian.org/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:44:59Z"
+ },
+ {
+  "country": "New Caledonia",
+  "mirror": "http://debian.nautile.nc/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:48Z"
+ },
+ {
+  "country": "New Caledonia",
+  "mirror": "http://mirror.lagoon.nc/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:48Z"
+ },
+ {
+  "country": "New Zealand",
+  "mirror": "http://ftp.nz.debian.org/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:45:00Z"
+ },
+ {
+  "country": "New Zealand",
+  "mirror": "http://mirror.fsmg.org.nz/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:48Z"
+ },
+ {
+  "country": "Réunion",
+  "mirror": "http://debian.mithril.re/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:45:02Z"
+ },
+ {
+  "country": "Réunion",
+  "mirror": "http://depot-debian.univ-reunion.fr/debian/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:45:01Z"
+ },
+ {
+  "country": "South Africa",
+  "mirror": "http://debian.as3741.net/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:50Z"
+ },
+ {
+  "country": "South Africa",
+  "mirror": "http://debian.envisagecloud.net.za/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:50Z"
+ },
+ {
+  "country": "South Africa",
+  "mirror": "http://debian.saix.net/",
+  "https": "000",
+  "http": "000",
+  "t": "2026-10-17T16:45:04Z"
+ },
+ {
+  "country": "Uruguay",
+  "mirror": "http://mirror.undernet.uy/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:53Z"
+ },
+ {
+  "country": "Uruguay",
+  "mirror": "http://repos.interior.edu.uy/debian/",
+  "https": "200",
+  "t": "2026-10-17T16:44:55Z"
+ }
+]
