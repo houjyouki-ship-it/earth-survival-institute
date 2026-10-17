@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究033 事前登録（2026-10-17T12:44:42Z、sim.py 初回実行前に記録） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="033-2026-10-17t124442zsimpy">研究033 事前登録（2026-10-17T12:44:42Z、sim.py 初回実行前に記録）</h1>
+<h2 id="open_problems-99">問い（open_problems 99）</h2>
+<p>032 では4つの提言の価値がすべて同じ確率に比例し、c4／板の比が 2.43 で一定だった（恒等式）。読取装置の RAM（＝q）を、再出発の状態と崩壊シナリオに依存させると、提言の順位は変わるか。</p>
+<h2 id="032">モデルの変更点（032 から）</h2>
+<ul>
+<li>q を読者の RAM M の関数にする：025 の高層・星重み q(M)（4 KiB 0、18 KiB 0.0046、64 KiB 0.056、144 KiB 0.170、1 MiB 0.432、9 MiB 1.0）を log M で線形補間。</li>
+<li>c4 ありの q：主 <code>1-(1-0.76)(1-q(M))</code>、感度 <code>max(0.76,q(M))</code>（028 の 0.76 は読者 B の値。組み合わせ方は【推測】）。</li>
+<li>読者の種類：</li>
+<li>手引きで作る読者（読者 B）：M は 4〜144 KiB の対数一様（025 の B 級）。032 は q=0.3 を板の価値に、0.031 を c4 の基準に使っており不整合だった。</li>
+<li>回収したマイコン（salvage）：M は 2 KiB〜520 KiB の対数一様（ATmega328 の 2 KB、ESP32 の 520 KiB、Wikipedia で確認）、確率 f_psram〜U(0.1,0.4) で 4〜16 MiB の PSRAM 付き【推測】。</li>
+<li>脆い T3 で窓 W 内に金庫に届いた社会：確率 f_mcu〜U(0,0.5)【推測】で普通の計算機がなくマイコンだけ（手引きなしで q_salv を読む）、残りは q=1。</li>
+<li>T2・T1・T0 出発（および窓を逃した脆い T3 は時刻 W に T2 出発）：シナリオごとの p_salv【推測：NUC_G 0.3、NUC_R 0.7、BIO 0.8、AI 0.3、CASC 0.5、GEN 0】で回収マイコンが残り、読取装置の完成時刻が電子部品の寿命 L_e〜logU(10,60) 年【推測】より前なら salvage の M を使う。このとき製作時間は t_build×U(0.2,0.6)【推測】。</li>
+<li>提言を4人の協力ゲームとして Shapley 値で比べる：T（板の手引き）、H（手読み層の25%控え）、C（高層全体 c4）、S（南半球の第2拠点、その時点の層をすべて複製。喪失 0.06・発見 0.75 は 032 と同じ【推測】）。依存枠（D）は 032 と同様、T ありでの限界値を別に出す（依存重み q_d(M)=max(0.101,q(M))、枠ありは 1-(1-0.704)(1-q_d)【推測】）。</li>
+<li>重みは 032 と同じ3組（A_Ord、A_XPT_S、A_XPT_E）。seed 20261033、N=200,000。024 の乱数列を先頭に引き、GEN0 で 032 の check（024 の P2 0.0929）を q=0.3 固定で再現することを確認する。</li>
+</ul>
+<h2 id="_1">仮説（判定規則）</h2>
+<ul>
+<li>H45a：GEN0（理想想定）で Shapley(C) &gt; Shapley(T)。</li>
+<li>H45b：GEN 以外で Shapley 合計 &gt;0.001 のシナリオのうち、少なくとも2つで {T,H,C,S} の Shapley 順位が異なる。</li>
+<li>H45c：Shapley(C)/Shapley(T) が BIO で GEN の1.5倍以上。</li>
+<li>H45d：3組の重みすべてで、重み付き Shapley が最大なのは S。</li>
+<li>H45e：3組の重みすべてで、重み付き Shapley(T) の GEN0 比が [0.04, 0.38]（032 の 0.08〜0.19 から2倍以内）。</li>
+<li>H45f：A_XPT_S で、C の重み付き Shapley のうち回収マイコン・脆い T3 のマイコン読者から来る割合が 25% 以上。</li>
+</ul>
+<h2 id="_2">逸脱の扱い</h2>
+<p>初回実行後に加えた指標は「探索」と明記し、判定には使わない。</p><footer><hr><small>自動生成</small></footer></body></html>

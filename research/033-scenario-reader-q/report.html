@@ -1,0 +1,127 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究033：読者の RAM で q を決めると、提言の順位は崩壊シナリオで変わるか（open_problems 99） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="033-ram-q-open_problems-99">研究033：読者の RAM で q を決めると、提言の順位は崩壊シナリオで変わるか（open_problems 99）</h1>
+<h2 id="_1">問い</h2>
+<p>032 では4つの提言（板の手引き T、手読み層の25%控え H、高層全体の小窓版 c4＝C、南半球の第2拠点 S）の価値がどれも同じ確率に比例し、c4／板の比が 2.43 で一定だった（恒等式）。読取装置の RAM で q を決め、その RAM を再出発の状態と崩壊シナリオに依存させると、提言の順位は変わるか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ATmega328 の SRAM は 2 KB</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/ATmega328">ATmega328, Wikipedia</a>）】</td>
+</tr>
+<tr>
+<td>ESP32 の SRAM は 520 KiB。一部の型・モジュールは 4〜16 MiB 級の PSRAM を持つ</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/ESP32">ESP32, Wikipedia</a>）】</td>
+</tr>
+<tr>
+<td>RP2040 の SRAM は 264 KB</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/RP2040">RP2040, Wikipedia</a>）】</td>
+</tr>
+<tr>
+<td>q(M)（高層・星重み）：18 KiB 0.0046、64 KiB 0.056、144 KiB 0.170、1 MiB 0.432、9 MiB 1.0</td>
+<td>本研究所 025 の results.json</td>
+</tr>
+<tr>
+<td>高層全体 c4 で読者 B の q 0.031→0.76</td>
+<td>本研究所 028</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-20261033n20000016">方法（<code>sim.py</code>、seed 20261033、N=200,000、約16秒）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-17T12:44:42Z</strong>、初回実行前）。</li>
+<li>024 の乱数列を先頭に引き、q=0.3 固定の理想想定で 024 の P2（ΔV 0.0929）を<strong>完全に再現</strong>した。025 の q(M) を log M で補間すると読者 B（4〜144 KiB）の平均 q は 0.03745（025 は 0.03744）。</li>
+<li>032 からの変更：</li>
+<li><strong>q を読者の RAM の関数にした</strong>。032 は板の価値に q=0.3、c4 の基準に q=0.031 を使っていて不整合だった。</li>
+<li>読者は3種類。手引きで作る読者 B（4〜144 KiB）。回収したマイコン（2 KiB〜520 KiB、確率 U(0.1,0.4) で 4〜16 MiB の PSRAM 付き）。脆い T3 で金庫に届いたがマイコンしか残っていない社会（確率 U(0,0.5)、手引きなしで読む）。回収マイコンの残る確率はシナリオごと（NUC_G 0.3、NUC_R 0.7、BIO 0.8、AI 0.3、CASC 0.5、GEN 0）、電子部品の寿命は 10〜60 年、回収時の製作時間は 0.2〜0.6 倍。これらはすべて【推測】。</li>
+<li>提言は補完し合う（C は手引きか手読み層がないと読取装置ができず、ほぼ無価値）。そこで1つずつの限界値ではなく、<strong>4人の協力ゲームの Shapley 値</strong>（16通りの組み合わせの平均的な限界寄与）で比べた。</li>
+<li>依存枠 D は 032 と同様に T ありでの限界値を別に出した（依存重みの q は max(0.101, q(M))【推測】）。</li>
+<li>重みは 032 と同じ3組（A_Ord、A_XPT_S、A_XPT_E）。</li>
+<li>感度：c4 の組み合わせ規則（noisy-or か max か）、読者 B を C 級（144 KiB〜1 MiB）にする、脆い T3 のマイコン経路なし、回収なし、両方なし。</li>
+<li>再現：<code>/tmp/rep033b/</code> で再実行し、results.json は runtime 以外完全一致。032 も <code>/tmp/rep033/</code> で再実行して一致。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H45a</td>
+<td>GEN0 で Shapley(C) ＞ Shapley(T)</td>
+<td>C <strong>0.134</strong>、T 0.106、H 0.023</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H45b</td>
+<td>GEN 以外の少なくとも2シナリオで順位が異なる</td>
+<td>5シナリオすべて <strong>S＞C＞T＞H</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H45c</td>
+<td>C/T が BIO で GEN の1.5倍以上</td>
+<td>BIO <strong>1.20</strong>、GEN 1.27（逆向き）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H45d</td>
+<td>3組の重みすべてで S が最大</td>
+<td>すべて S が最大（A_Ord 0.094、A_XPT_S 0.191、A_XPT_E 0.156）</td>
+<td><strong>支持</strong>（ただし過大。下記）</td>
+</tr>
+<tr>
+<td>H45e</td>
+<td>重み付き Shapley(T) の GEN0 比が [0.04, 0.38]</td>
+<td>0.29、0.26、0.14</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H45f</td>
+<td>A_XPT_S で C の価値のうちマイコン読者の割合 ≥25%</td>
+<td><strong>14.8%</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>GEN0（理想想定）</strong>：T だけの限界値は <strong>0.0116</strong>（025 の読者 B の 0.0115 と一致）。T がある上での C の限界値は <strong>0.227</strong>（028 の 0.236−0.0096 と一致）。T と C は強く補完し合う。</li>
+<li><strong>シナリオ別の C/T（Shapley 比）</strong>：1.20〜1.33 でほぼ一定（NUC_G 1.33、NUC_R 1.32、AI 1.30、GEN 1.27、CASC 1.21、BIO 1.20）。</li>
+<li><strong>重み付き</strong>（A_Ord／A_XPT_S／A_XPT_E）：</li>
+<li>T だけ：0.0036／0.0034／0.0025。032 の板の値（q=0.3、0.0178／0.0151／0.0076）の約1/3〜1/5。</li>
+<li>T＋C の束：<strong>0.047／0.040／0.021</strong>。032 の板の値の約2.6〜2.8倍。</li>
+<li>D（T ありでの依存枠）：0.037／0.032／0.016。</li>
+<li><strong>順位を変えたのは崩壊シナリオではなく、読者の RAM だった</strong>。読者 B を C 級（144 KiB〜1 MiB）にすると、すべてのシナリオと重みで T＞C になる（C/T 0.67〜0.87）。回収マイコンをなくすと C/T は 1.39〜1.58 に上がる（回収マイコンは RAM が大きく、c4 の必要が減る）。脆い T3 のマイコン経路をなくすと 1.04〜1.27 に下がる。この2つの効果がほぼ打ち消し合い、主設定では一定に見えた。</li>
+<li><strong>探索（事前登録外）</strong>：T3 がそのまま残る結果を除き、再建・衰退する社会だけで数えると、S の重み付き Shapley は 0.050／0.047／0.031 に下がる（A_XPT_S では 0.191 の約1/4）。このとき BIO では <strong>C（0.048）＞S（0.045）</strong> となり、ここだけ順位が入れ替わる。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>H45b の棄却は、032 の恒等式がまだ半分残っていることを意味する</strong>。C は T か H がないとほぼ無価値なので（C だけの限界値は 0.00002〜0.005）、Shapley は束の価値をほぼ半分ずつ分ける。だから C/T は束の中の小さな非対称（RAM の分布）でしか動かない。補完財の「順位」は、そもそも問いとしてずれている。意味があるのは「T＋C を束で入れるか」と、束と S の比較である。</li>
+<li><strong>S の優位は大半が水増し</strong>。T3 が残る社会でも金庫の中身を価値1で数えている（032 と同じ扱い）。計算機の社会が残れば手元のデータもかなり残るはずなので【推測】、主に読むべきなのは T3 を除いた値（S と束がほぼ同じ大きさ）。S の費用（新しい拠点）は T・C（板数枚、約4リール）よりずっと大きいので、費用あたりでは束が勝つ可能性が高い【推測、費用は未計算】。</li>
+<li><strong>マイコンの値は確認したが、回収の確率は推測</strong>。p_salv、電子部品の寿命、f_mcu は根拠がない。感度では順位は変わらないが（回収なし・マイコン経路なしでも S＞C＞T＞H）、BIO の探索的な逆転はこれらに依存する。</li>
+<li><strong>c4 の組み合わせ規則</strong>（noisy-or か max か）は結果をほとんど動かさなかった（Shapley の差 2% 未満）。</li>
+<li><strong>H45e の支持は、032 の割り引きが q の置き方に頑健だという意味ではない</strong>。T だけの絶対値は 032 の約1/5 に下がった。比が保たれたのは、GEN0 の T も同じ q で計算し直したから。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>q を読者の RAM で決め、RAM を再出発の状態に依存させても、板の手引き（T）・手読み層の控え（H）・小窓版（C）・第2拠点（S）の順位は、崩壊シナリオによって変わらなかった（5シナリオすべて S＞C＞T＞H）。順位を変えるのは、手引きで作る読取装置の RAM（144 KiB を超えれば T＞C）である。もっと大事な訂正は、032 が板の手引きを単独で評価していたことである。手引きだけでは 1950 年代前半級の読者は XZ をほとんど開けず、重み付きの価値は 032 の約1/5（0.0025〜0.0036）しかない。小窓版と束にすると 0.021〜0.047 になり、032 の板の値の約2.6〜2.8倍になる。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>GitHub Archive Program・Piql などの運営者</strong>：板の手引きと高層全体の小窓版（<code>dict=4KiB,lc=0</code>、約4リール）は、<strong>片方だけでは効かないので必ず一緒に入れる</strong>。手引きだけを足すなら、価値は小窓版つきの約1/20 しかない（GEN0 で 0.0116 対 0.238）。</li>
+<li><strong>本研究所</strong>：今後の提言の比較は単独の限界値ではなく、束か Shapley 値で行う。032 の「板の手引きの重み付き ΔV 0.008〜0.018」は、「小窓版なしなら 0.0025〜0.0036、小窓版つきの束なら 0.021〜0.047」と読み替える。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord と XPT は崩壊の原因別の起きやすさを出すが、崩壊後の読取技術も、知識保存の提言どうしの補完関係も扱わない。本研究は、マイコンの RAM という確認できる値で回収した電子部品の読者を定め、知識保存の4つの提言を協力ゲームとして Shapley 値で比べ、順位を決めるのが崩壊シナリオではなく読取装置の RAM であることを示した。この組み合わせは、確認した資料（Ord、XPT、Xia 2022、GitHub GUIDE、025・028 の資料）には見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_shapley_by_scenario.png</code>、<code>fig_q_ram_and_sensitivity.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：初回の実行後に、探索の指標（<code>explore_shapley_excl_T3</code>、<code>explore_bundle_TC</code>）を加え、空の配列の平均で出る警告を直した（<code>sum/N</code> に変更）。032 から写した冒頭の不要な seed 行も消した。再実行で仮説の判定値と GEN0 の値が変わらないことを確認した。</p><footer><hr><small>自動生成</small></footer></body></html>

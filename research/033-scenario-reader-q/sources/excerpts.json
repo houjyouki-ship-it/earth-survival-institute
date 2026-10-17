@@ -1,0 +1,10 @@
+{
+ "accessed_utc": "2026-10-17",
+ "items": [
+  {"url": "https://en.wikipedia.org/wiki/ATmega328", "excerpt": "32 KB ISP flash memory ... 1 KB EEPROM, 2 KB SRAM", "use": "lower end of salvaged microcontroller RAM"},
+  {"url": "https://en.wikipedia.org/wiki/ESP32", "excerpt": "Memory 520 KiB SRAM ... PSRAM 4 MiB 8 MiB ... 16 MiB (variants)", "use": "upper end of internal SRAM; some modules carry external PSRAM of MiB scale"},
+  {"url": "https://en.wikipedia.org/wiki/RP2040", "excerpt": "264 KB SRAM in six independent banks", "use": "mid-range microcontroller RAM"},
+  {"url": "research/025-q-xz-window/results.json", "excerpt": "high_star q: IBM704 18432B 0.0046, 64KiB 0.0564, 144KiB 0.170, 1MiB+S0 0.432, 9MiB 1.0", "use": "q(M) curve (internal)"},
+  {"url": "research/028-important-repo-dualwrite/report.md", "excerpt": "high tier c4: q 0.031 -> 0.76 for reader B", "use": "c4 effect (internal)"}
+ ]
+}
