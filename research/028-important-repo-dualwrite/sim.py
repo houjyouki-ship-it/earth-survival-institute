@@ -64,6 +64,13 @@ items = []
 for r in cen:
     items.append({"name": r["full_name"], "src": "census", "w": 1.0, "stars": float(r["stars_now"]), "tar": float(r["tar_bytes"]),
                   "featured": r["featured"], "ge20k": r["stars_now"] >= 20000, "ge5k": r["stars_now"] >= 5000})
+CHROM_TAR = float(os.environ.get("CHROM_TAR", 3e9))   # chromium/chromium：走査中断、TAR 不明【推測】
+for r in CEN["repos"]:
+    if r["status"] == "walk_aborted":
+        items.append({"name": r["full_name"], "src": "census", "w": 1.0, "stars": float(r["stars_now"]), "tar": CHROM_TAR,
+                      "featured": False, "ge20k": True, "ge5k": True})
+R["census"]["excluded_not_ok_stars"] = float(sum(r["stars_now"] for r in CEN["repos"] if r["status"] not in ("ok", "walk_aborted")))
+R["census"]["chromium_tar_assumed"] = CHROM_TAR
 hi = [r for r in S25["repos"] if r.get("status") == "ok" and r["stratum"] == "high" and r["bin"] != "20000-None"]
 bins = S25["bins"]; nb = {}
 for r in hi: nb[r["bin"]] = nb.get(r["bin"], 0) + 1
@@ -223,7 +230,8 @@ ax.set_xscale("log"); ax.set_xlabel("budget (reels)"); ax.set_ylabel("expected q
 plt.tight_layout(); plt.savefig(f"{HERE}/fig_budget_selection.png", dpi=120); plt.close()
 
 R["runtime_seconds"] = time.time() - t0
-json.dump(R, open(f"{HERE}/results.json", "w"), ensure_ascii=False, indent=1)
+OUTN = os.environ.get("OUT_JSON", "results.json")
+json.dump(R, open(f"{HERE}/{OUTN}", "w"), ensure_ascii=False, indent=1)
 pr = {k: R[k] for k in ("census", "star_share", "repo_count", "check_025_B", "as_archived", "best_config_all_high", "hypotheses")}
 pr["compress"] = {k: v for k, v in R["compress"].items() if k != "per_repo"}
 pr["dualwrite_summary"] = {c: {s: {k: round(v, 4) for k, v in d.items()} for s, d in DW[c].items()} for c in DW}

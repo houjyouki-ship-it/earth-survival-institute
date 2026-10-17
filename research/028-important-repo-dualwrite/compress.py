@@ -19,8 +19,14 @@ for r in pool_r:
     (skipped if r["tar_bytes"] > CAP else rand).append(r)
 sel = [("featured", r) for r in feat] + [("random20k", r) for r in rand]
 
+def commit_of(full):
+    p = subprocess.run(["gh", "api", "-X", "GET", f"repos/{full}/commits", "-f", "until=2020-02-02T00:00:00Z",
+                        "-f", "per_page=1", "-q", ".[0].sha"], capture_output=True, text=True)
+    return p.stdout.strip()
+
 def fetch(item):
     grp, r = item
+    if not r.get("commit"): r["commit"] = commit_of(r["full_name"])
     fn = f"{TMP}/{r['full_name'].replace('/', '__')}.tar"
     if not os.path.exists(fn):
         url = f"https://codeload.github.com/{r['full_name']}/tar.gz/{r['commit']}"
