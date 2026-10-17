@@ -364,4 +364,19 @@
 <li>判定：H39b・d・e・f 支持、H39a・c 棄却（026 の粗いモデルは数値としてほぼ正しかった）。</li>
 <li>逸脱：トレースが &gt;16 KiB のみのため、ΔV では C&lt;16 KiB の読者（約61%）に 025 の RAM のみの q を当てた。</li>
 <li>「誰が何を変えるべきか」：記載あり（手引きのテープ復号の章に「32〜64 KiB ずつ8台以上へ順に書き、最寄りのヘッドから読む」手順を載せる。運営者の小辞書の提言は維持）。</li>
+</ul>
+<h2 id="28-2026-10-17">第28回 2026-10-17</h2>
+<ul>
+<li>再現チェック：024〜027 を <code>/tmp/rep028/</code> に複製し、027 の sim.py（約15秒）を再実行した。results.json は runtime 以外一致（355キー）。</li>
+<li>文献・データ（本回開いて確認）：Arctic Vault ページ（2026-10-17 取得、Featured projects 15件、21TB・186 リール）、LZMA 仕様の確率配列の式（026 で取得した写し）、GitHub 検索 API（≥20,000 星・2020-02-02 以前作成の非 fork repo 1,366 件）。</li>
+<li>研究028を実施：<code>research/028-important-repo-dualwrite/</code>（collect.py：GitHub 公開 API の読み取りのみ、02:44〜03:07 UTC；compress.py：codeload の公開 tarball 30件 2.57 GB を5設定で圧縮；sim.py 約1.5秒；explore.py 事前登録外）。成果物は data/census.json、data/compress.json、results.json、explore_results.json、stdout.txt、fig_q_and_cost_dV.png、fig_budget_selection.png、report.md、PREREGISTRATION.md（02:43:42Z、収集前）、tools/census_from_log.py。<code>/tmp/rep028/</code> で再実行し runtime 以外一致（679キー＋137キー）。025 の読者 B の値も完全に再現。</li>
+<li>方法：≥20,000 星は全数、それ未満は 025 の標本で高層の星重みの母集団を作り、重要 repo の集合（Featured15、上位 N、≥20,000 星全数、≥5,000 星、高層全体）を小窓版で二重書きした場合の q、ΔV（024 の式）、費用（リール）を出した。lc=0 で確率表を小さくする設定も加えた。</li>
+<li>主要数値：</li>
+<li>費用（8 MiB 比、合計）：64 KiB +22%、16 KiB・lc0 +35%、4 KiB・lc0 +52%。lc0 の追加は中央値 +0.5%。</li>
+<li>星重み：Featured15 0.48%、≥20,000 星全数 25.2%。</li>
+<li>読者 B（4〜144 KiB）：収蔵のまま q 0.031、ΔV 0.0096。≥20,000 星全数を 4 KiB・lc0 で：0.13 リール、q 0.22、ΔV 0.068。高層全体を 4 KiB・lc0 で：4.1 リール、q 0.76、ΔV 0.236。64 KiB では高層全体でも ΔV 0.068（need 80 KiB で読者の16%しか届かない）。</li>
+<li>予算 0.1 リール（64 KiB・lc0）：欲張り q 増分 0.134、星順 0.048（2.8倍）。</li>
+<li>判定：H40a〜g すべて支持。ただし H40g は星を価値とみなす前提に強く依存（探索でバイト重みでは q 0.018）。</li>
+<li>逸脱：chromium/chromium の木の再帰走査で API 上限を使い切りかけたため収集を 03:07 に止め、ログから census.json を再構成。chromium の TAR は 3 GB と置いた（上限感度でも費用 0.27 リール）。</li>
+<li>「誰が何を変えるべきか」：記載あり（運営者は高層全体を <code>dict=4KiB,lc=0</code> で別に書く：約4〜10 リール。025 の「64 KiB」提言は弱いので置き換える。Tech Tree の索引に小窓版の場所と必要 RAM 約9.5 KiB を書く）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

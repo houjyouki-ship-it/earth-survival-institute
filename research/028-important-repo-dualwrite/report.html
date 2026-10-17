@@ -1,0 +1,91 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究028：重要 repo だけを小辞書で二重書きする費用と効果（open_problems 80） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="028-repo-open_problems-80">研究028：重要 repo だけを小辞書で二重書きする費用と効果（open_problems 80）</h1>
+<p>事前登録：PREREGISTRATION.md（2026-10-17T02:43:42Z、データ収集・圧縮計測・初回実行前）。
+データ：collect.py（GitHub 公開 API の読み取りのみ、02:44〜03:07 UTC）→ data/collect_log.txt → tools/census_from_log.py → data/census.json。圧縮計測：compress.py（codeload の公開 tarball、03:06〜03:12 UTC）→ data/compress.json。解析：sim.py（約1.5秒）→ results.json、stdout.txt、fig_q_and_cost_dV.png、fig_budget_selection.png。探索（登録外）：explore.py → explore_results.json。
+再現：024〜028 を <code>/tmp/rep028/</code> に複製し、027 の sim.py（約15秒）と 028 の sim.py・explore.py を再実行。027 results.json（355キー）、028 results.json（679キー）、explore_results.json（137キー）はいずれも runtime 以外一致。sim.py 内で 025 の読者 B の値（q 0.0374、ΔV 0.011544）を完全に再現。</p>
+<h2 id="_1">問い</h2>
+<p>025〜027 で、Arctic Vault の repo.tar.xz（辞書 8 MiB）は RAM 4〜144 KiB の読者には星重みで約4%しか開けず、読者側の工夫（テープ8台）でも高層全体に約1,200機械年かかると分かった。運営者側で重要 repo を小さい辞書で別に書くと、補助記憶なしの読者の q と ΔV はいくつになり、何リール増えるか。</p>
+<h2 id="_2">事実入力（本回開いて確認）</h2>
+<ul>
+<li>【事実（<a href="https://archiveprogram.github.com/arctic-vault/">Arctic Vault</a>、2026-10-17 取得の HTML、sources/arctic_vault_2026-10-17.html）】Featured projects は15件（dotnet/core、torvalds/linux、python/cpython、bitcoin/bitcoin、rails/rails、docker/machine、openssl/openssl、nodejs/node、Homebrew/brew、php/php-src、twbs/bootstrap、microsoft/TypeScript、apache/hadoop、Alamofire/Alamofire、v8/v8）。21TB を 186 リール。</li>
+<li>【事実（LZMA 仕様 lzma-specification.txt、026 で取得した写し）】確率配列 = 1846 + 768·2^(lc+lp) 個。lc を 3→0 にすると 10,752 B 減る。</li>
+<li>【事実（GitHub 検索 API、本回）】2020-02-02 より前に作られた非 fork・現在 ≥20,000 星の repo は 1,366 件。</li>
+</ul>
+<h2 id="_3">方法</h2>
+<ul>
+<li>母集団：高層（≥250 星）。≥20,000 星は全数（1,338 件で木を再構成、29 件はスナップショット前のコミットが取れず除外＝星 101 万、chromium/chromium は走査を中断し TAR=3 GB と置いた【推測】）、それ未満は 025 の標本（175 件）の重み。</li>
+<li>圧縮計測：Featured 15件＋≥20,000 星の無作為15件、合計 2.57 GB の実 TAR を、c0 8 MiB・lc3（収蔵時相当）、c1 64 KiB・lc3、c2 64 KiB・lc0、c3 16 KiB・lc0、c4 4 KiB・lc0 で圧縮。</li>
+<li>need = S0(lc) + min(辞書, TAR)（S0：lc3 16 KiB、lc0 5.5 KiB）。非圧縮は 1 KiB【推測】。読者 RAM は logU[4 KiB, 144 KiB]。ΔV は 024 の式（板の手引き、m23=943）。</li>
+</ul>
+<h2 id="_4">主要結果</h2>
+<ul>
+<li>【独自計測】圧縮費用（c0 比、30件合計／中央値）：64 KiB・lc3 <strong>+22%／+17%</strong>、64 KiB・lc0 +23%／+17%、16 KiB・lc0 +35%／+27%、4 KiB・lc0 <strong>+52%／+42%</strong>。lc0 の追加費用は中央値 <strong>+0.5%</strong>。Featured の中央値 +27%（64 KiB）は無作為側 +6% より大きい（大きく重複の多いソースほど遠い一致を失う）。例：linux 955 MB の TAR は 64 KiB で +26%、4 KiB・lc0 で +71%。</li>
+<li>【独自推定】星重みの割合：Featured15 <strong>0.48%</strong>、上位100 7.0%、上位1000 22%、≥20,000 星全数 <strong>25.2%</strong>、≥5,000 星 56%。高層全体の TAR は約 1.96 TB（Arctic Vault 21TB の約9%）。</li>
+<li>収蔵のまま（本回の母集団）：q 0.031、ΔV <strong>0.0096</strong>。</li>
+<li>二重書き（読者 B、費用はリール）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>集合</th>
+<th>64 KiB・lc0（c2）</th>
+<th>16 KiB・lc0（c3）</th>
+<th>4 KiB・lc0（c4）</th>
+<th>非圧縮</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Featured15</td>
+<td>q 0.032、ΔV 0.010、0.003</td>
+<td>0.034、0.010、0.004</td>
+<td>0.035、0.011、0.004</td>
+<td>0.036、0.011、0.020</td>
+</tr>
+<tr>
+<td>≥20,000 星全数</td>
+<td>0.080、0.025、0.10</td>
+<td>0.16、0.050、0.11</td>
+<td><strong>0.22、0.068、0.13</strong></td>
+<td>0.28、0.087、0.53</td>
+</tr>
+<tr>
+<td>高層全体</td>
+<td>0.22、0.068、3.4</td>
+<td>0.53、0.165、3.7</td>
+<td><strong>0.76、0.236、4.1</strong></td>
+<td>1.0、0.310、17.3</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>予算つき選択（c2、0.1 リール）：星順 q 増分 0.048、欲張り順 <strong>0.134</strong>（2.8倍）。c4 なら星順 0.16、欲張り 0.51（探索：ΔV 0.167）。</li>
+<li>探索（登録外）：欲張り順は awesome 系の一覧や教材（build-your-own-x、public-apis など）から入る。重みを非圧縮バイトにすると、星で選んだ同じ集合の q は 0.018 に落ちるが、高層全体を c4 で書く案は重みによらず q 0.76。chromium の TAR を API の大きさ（全履歴、上限）にしても ≥20,000 星全数の費用は c4 で 0.27 リール。025 の30件の圧縮率（大きな重複 repo が支配）を使うと費用は約2.4倍（高層全体 c4 で 9.8 リール）。</li>
+</ul>
+<h2 id="_5">仮説の判定</h2>
+<ul>
+<li>H40a（Featured15 の星重み &lt;2%）：<strong>支持</strong>（0.48%）。</li>
+<li>H40b（≥20,000 星全数 ≥20%）：<strong>支持</strong>（25.2%）。</li>
+<li>H40c（≥20,000 星全数を c2 で ≤1 リール）：<strong>支持</strong>（0.10。025 の圧縮率で 0.28、chromium 上限で 0.22）。</li>
+<li>H40d（c1 の費用中央値 ≥+10%）：<strong>支持</strong>（+17%。025 の全体標本の +3% は小さい repo が多いため）。</li>
+<li>H40e（lc0 の追加費用 ≤+5%）：<strong>支持</strong>（+0.5%）。</li>
+<li>H40f（高層全体の最良設定で ΔV ≥0.05、≥20,000 星で ≥0.03）：<strong>支持</strong>。最良は非圧縮（0.31）だが 17 リール要る。圧縮版の最良 c4 でも 0.236／0.068。</li>
+<li>H40g（0.1 リールで欲張り ≥ 星順の2倍）：<strong>支持</strong>（2.8倍）。ただし星を価値とみなす前提に強く依存する（探索 b）。</li>
+</ul>
+<h2 id="_6">批判的検討（限界）</h2>
+<ul>
+<li>64 KiB 辞書（025 の提言）は need 80 KiB で、4〜144 KiB の読者の16%しか届かない。辞書の大きさより先に、確率表（lc）と辞書の合計を読者の RAM より小さくすることが効く。025 の「64 KiB で再圧縮」という提言は弱すぎた。</li>
+<li>星は 2026 年の値。星は「人気」で、文明の回復に役立つ度合いではない。Featured（linux、cpython、openssl など基盤）は星ではわずか0.48%だが、実用の価値は大きいはず【推測】。欲張り選択の 2.8 倍は、この重みに強く依存する。</li>
+<li>費用の外挿は、計測30件の圧縮率をすべての repo に当てた。025 の30件では約2.4倍高くなり、どちらが代表的かは未確定。</li>
+<li>読者は補助記憶なしの B だけを扱った。027 のテープ読者（q 0.69）と組み合わせた場合は計算していない。</li>
+<li>逸脱：collect.py は chromium/chromium の木の再帰走査で API の上限を使い切りかけたため、03:07 UTC に止め、出力ログから census.json を再構成した（tools/census_from_log.py）。docker/machine は改名先 docker-archive-public/docker.machine で取得した。</li>
+</ul>
+<h2 id="_7">結論</h2>
+<p>重要 repo の二重書きは安い。≥20,000 星の全数（1,337 件、高層の星重みの25%）を 4 KiB 辞書・lc0 で書いても約0.13 リール（186 リールの0.07%）で、補助記憶のない 1950 年代前半級の読者の q は 0.031→0.22、ΔV は 0.0096→0.068 になる。高層全体（約13万件）でも約4 リール（+2.2%）で q 0.76、ΔV 0.236 となり、024 が q=0.3 と仮定した値（0.093）を大きく超える。決め手は「辞書を小さく」だけでなく、「lc=0 で確率表を小さく」することで、その費用は +0.5% しかない。Featured15 だけを書く案は、星で測るとほぼ効果がない（q +0.004）。</p>
+<h2 id="_8">誰が何を変えるべきか</h2>
+<ul>
+<li>アーカイブ運営者（GitHub Archive Program、Piql）：次の預け入れでは、少なくとも ≥250 星の高層全体を <code>xz --lzma2=preset=6,dict=4KiB,lc=0,lp=0</code> 相当で別に書く（約4 リール、圧縮率の不確実性で最大約10 リール）。予算が 0.1 リール級なら ≥20,000 星の全数を同じ設定で書く。025 の「64 KiB」は提言として弱いので置き換える。</li>
+<li>Tech Tree の索引：重要 repo には「小窓版」の場所と、展開に要る RAM（4 KiB 辞書・lc0 で約 9.5 KiB）を書く。</li>
+<li>選ぶ基準：星順の欲張りは一覧や教材に偏るので、Tech Tree の担当者は依存関係（例：多くの repo が依存する基盤）で重みをつけ直すべき【推測】。重みに頑健なのは高層全体を書く案。</li>
+</ul>
+<h2 id="_9">既存研究に対する新規性</h2>
+<p>025 は辞書 64 KiB の費用を repo の小標本で測っただけで、重要 repo の大きさ分布、確率表の大きさ、読者の RAM 分布と費用の関係を扱っていなかった。本回は ≥20,000 星の全数と Featured の実 TAR から、設定ごとの費用（リール）と ΔV の関係を出し、「lc=0＋4 KiB 辞書で高層全体を約4 リール」という具体的で安い設定を示した。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,27 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究029 事前登録（open_problems 87：価値の重みを星から依存関係へ） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="029-open_problems-87">研究029 事前登録（open_problems 87：価値の重みを星から依存関係へ）</h1>
+<p>登録時刻：2026-10-17T04:37:35Z（依存データの収集・解析の前。ecosyste.ms の API は requests・linux・awesome の3件だけ試験的に開いて形式を確認した）</p>
+<h2 id="_1">データ</h2>
+<ul>
+<li>公開 API：packages.ecosyste.ms の <code>/api/v1/packages/lookup?repository_url=https://github.com/&lt;owner&gt;/&lt;repo&gt;&amp;sort=dependent_repos_count&amp;order=desc</code>（匿名、上限 5,000/時。並列4以下）。</li>
+<li>対象：028 の census.json の全 repo（≥20,000 星、status ok と walk_aborted）と、025 の標本の高層 repo（028 の sim.py の items と同じもの）。</li>
+<li>1 repo あたり記録：返った packages の数、dependent_repos_count の最大値（D1、主指標）、dependent_packages_count の最大値（D3）、生態系ごとの最大 dependent_repos_count の和（D2、感度）、最大の package の名前と生態系。</li>
+<li>依存数は 2026 年の値で、2020 年の収蔵時点のものではない【限界として明記】。</li>
+</ul>
+<h2 id="_2">重み</h2>
+<ul>
+<li>主：w_dep = repo 数重み w × D1。感度：w × log1p(D1)、w × D2、w × D3。</li>
+<li>読者 B、ΔV の式、費用、設定（c2/c3/c4/非圧縮）、集合（Featured15、上位N、≥20,000 星全数、≥5,000 星、高層全体）は 028 の sim.py をそのまま再利用（runpy）。</li>
+<li>標本の不確実性：025 標本の項目を区間内で復元抽出するブートストラップ（2,000回、seed 20261029）で依存重みの割合の 90% 区間を出す。</li>
+</ul>
+<h2 id="_3">仮説（判定規則）</h2>
+<ul>
+<li>H41a：≥20,000 星（lookup 成功）で Spearman ρ(星, D1) &lt; 0.3。</li>
+<li>H41b：≥20,000 星のうち D1=0（package なしを含む）の割合 ≥ 50%。</li>
+<li>H41c：依存重み（主）で ≥20,000 星全数の割合 ≥ 50%（星重みでは 25.2%）。</li>
+<li>H41d：依存重み（主）で Featured15 の割合 ≥ 5%（星重みでは 0.48%）。</li>
+<li>H41e：c4・0.1 リールで、星重みで選んだ欲張り集合を依存重みで評価した q 増分が、依存重みで選んだ欲張り集合の q 増分の ≤ 50%。かつ両集合（census の repo）の Jaccard 係数 &lt; 0.2。</li>
+<li>H41f：高層全体を c4 で二重書きしたとき、依存重みでの q ≥ 0.6。</li>
+<li>H41g：星と依存の正規化重みを半々に混ぜた欲張り（c4・0.1 リール）が、星重みと依存重みのそれぞれで自分の最適の ≥ 80% の q 増分を得る。</li>
+</ul>
+<h2 id="_4">逸脱の扱い</h2>
+<p>API 上限・障害で取得できなかった repo は欠測として数を報告し、D1=0 とした場合と除外した場合の両方を出す。</p><footer><hr><small>自動生成</small></footer></body></html>

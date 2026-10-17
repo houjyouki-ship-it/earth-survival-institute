@@ -1,0 +1,32 @@
+[
+ {
+  "ecosystem": "pypi",
+  "name": "requests",
+  "repository_url": "https://github.com/psf/requests",
+  "dependent_packages_count": 32025,
+  "dependent_repos_count": 679836,
+  "downloads": 1202777296,
+  "downloads_period": "last-month",
+  "registry_url": "https://pypi.org/project/requests/"
+ },
+ {
+  "ecosystem": "conda",
+  "name": "requests",
+  "repository_url": "https://github.com/psf/requests",
+  "dependent_packages_count": 1430,
+  "dependent_repos_count": 3789,
+  "downloads": null,
+  "downloads_period": null,
+  "registry_url": "https://anaconda.org/conda-forge/requests"
+ },
+ {
+  "ecosystem": "conda",
+  "name": "requests",
+  "repository_url": "https://github.com/psf/requests",
+  "dependent_packages_count": 200,
+  "dependent_repos_count": 3789,
+  "downloads": 8577342,
+  "downloads_period": "total",
+  "registry_url": "https://anaconda.org/anaconda/requests"
+ }
+]
