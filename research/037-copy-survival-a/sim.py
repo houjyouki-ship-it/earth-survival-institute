@@ -101,7 +101,7 @@ VAR = {"main": model("max"), "sum": model("sum"), "pf_low": model("max", NG_low)
        "explore_impute_nonnpm": model("max", mUx=mImp, DLUx=imp)}
 R["f_orph"] = {k: {wk: {s: summ(x[wk][s]) for s in SCEN} for wk in ("dep", "star", "mix")} for k, x in VAR.items()}
 R["plug_034"] = {k: {wk: plug(x[wk]) for wk in ("dep", "star", "mix")} for k, x in VAR.items()}
-R["ref_036"] = {"dep_BIO": r36["f_orph"]["main"]["mix"]["BIO"]["median"], "mix_BIO": r36["f_orph"]["main"]["mix"]["BIO"]["median"],
+R["ref_036"] = {"mix_BIO": r36["f_orph"]["main"]["mix"]["BIO"]["median"],
                 "star_BIO": r36["f_orph"]["main"]["star"]["BIO"]["median"], "dep_BIO_035": n35["R"]["f_orph"]["main"]["dep"]["BIO"]["median"],
                 "plug_mix": {a: r36["plug_034"]["main"]["mix"][a]["P_S_gt_TC"] for a in n35["WTS"]}}
 # 暗黙の a（EU、依存重みの中央値）
@@ -117,6 +117,19 @@ R["lambda_EU_weighted_median"] = summ(np.array([wmed(LU[k] * P["s_EU"][k], v[pos
 fm = VAR["main"]["mix"]["BIO"]
 R["spearman_mix_BIO"] = {**{k: spearman(NG[k], fm) for k in NG}, **{k: spearman(P[k], fm) for k in ("a", "g", "kappa", "p_m")}}
 R["spearman_dep_BIO"] = {**{k: spearman(NG[k], VAR["main"]["dep"]["BIO"]) for k in NG}, "g": spearman(P["g"], VAR["main"]["dep"]["BIO"]), "a": spearman(P["a"], VAR["main"]["dep"]["BIO"])}
+
+# ---------- 3b. 探索（事前登録外、初回結果の後に追加。判定には使わない） ----------
+pf_star = np.array([NG["p_f"][k] / max(wmed(LU[k] * P["s_EU"][k], v[pos]), 1e-300) for k in range(K)])   # λ_EU の中央値が 1 になる p_f
+NG_inf = dict(NG); NG_inf["p_f"] = np.full(K, 1e12)
+VINF = model("max", NG_inf)
+unmS = ~mS & ~d_deb & ~d_brew
+R["explore"] = {"p_f_for_lambda1_EU": summ(pf_star),
+                "dep_floor_lambda_inf_BIO": summ(VINF["dep"]["BIO"]), "mix_lambda_inf_BIO": summ(VINF["mix"]["BIO"]),
+                "plug_lambda_inf_mix": plug(VINF["mix"]),
+                "star_weight_not_npm_deb_brew": float(w[unmS].sum()),
+                "star_weight_npm_mapped_not_deb_brew": float(w[mS & ~d_deb & ~d_brew].sum()),
+                "dep_weight_not_npm": float(vn[~mU].sum()),
+                "spearman_star_BIO": {"a": spearman(P["a"], VAR["main"]["star"]["BIO"]), "kappa": spearman(P["kappa"], VAR["main"]["star"]["BIO"]), "g": spearman(P["g"], VAR["main"]["star"]["BIO"])}}
 
 # ---------- 4. 仮説 ----------
 FD = R["f_orph"]["main"]["dep"]["BIO"]["median"]; FM = R["f_orph"]["main"]["mix"]["BIO"]["median"]
@@ -168,4 +181,4 @@ print(json.dumps({k: R[k] for k in ("measure", "a_implied", "copies_C_weighted_m
 print("f_orph BIO", {k: {wk: round(R["f_orph"][k][wk]["BIO"]["median"], 4) for wk in ("dep", "star", "mix")} for k in VAR})
 print("f_orph NUC_G", {k: {wk: round(R["f_orph"][k][wk]["NUC_G"]["median"], 4) for wk in ("dep", "star", "mix")} for k in VAR})
 print("plug mix", {k: {a: round(R["plug_034"][k]["mix"][a]["P_S_gt_TC"], 3) for a in n35["WTS"]} for k in VAR})
-print("ref 036", R["ref_036"]); print("runtime", R["runtime_s"])
+print("ref 036", R["ref_036"]); print("explore", json.dumps(R["explore"], default=float)); print("runtime", R["runtime_s"])

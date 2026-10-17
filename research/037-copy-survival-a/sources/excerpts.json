@@ -1,0 +1,7 @@
+{
+ "npm_downloads_api": {"urls": ["https://api.npmjs.org/downloads/point/last-month", "https://api.npmjs.org/downloads/point/last-month/<pkg1,pkg2,...>"], "opened": "2026-10-17 20:40Z〜21:10Z", "facts": "registry 全体 960,444,269,343（2026-09-13〜2026-10-12）。本研究の 9,048 package の値は data/npm_dl.json（sha256 は data/sha256.txt）"},
+ "octoverse_2024": {"url": "https://github.blog/news-insights/octoverse/octoverse-2024/", "file": "../035-orphan-share-distro/sources/octoverse_2024_2026-10-17.html", "quote": "In early 2023, we celebrated reaching 100 million total developers on GitHub"},
+ "stackoverflow_2024": {"url": "https://survey.stackoverflow.co/2024/technology", "file": "sources/stackoverflow_survey_2024_technology.html", "facts": "Most popular technologies, Language, All Respondents: JS 62.3%, PY 51%（Responses 60,171）"},
+ "backblaze_2024": {"url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-2024/", "file": "sources/backblaze_drive_stats_2024.html", "quote": "The 2024 AFR for all drives listed was 1.57%, this is down from 1.70% in 2023."},
+ "npm_cache_docs": {"url": "https://docs.npmjs.com/cli/v10/commands/npm-cache", "file": "sources/npm_cache_docs.html", "quote": "Default: Windows: %LocalAppData%\\npm-cache , Posix: ~/.npm"}
+}

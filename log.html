@@ -504,4 +504,20 @@
 <li>判定：H48a・c・f 支持（a は境界に近い）、H48b・d・e 棄却（b は分類規則の誤りが主因）。</li>
 <li>逸脱：Homebrew の集計を事前登録で「任意参加」と誤記（実際は opt-out）。nixpkgs の取り直し、GraphQL の欠けの取り直し、型エラーの修正は結果を見る前。explore は初回結果の後。</li>
 <li>「誰が何を変えるべきか」：記載あり（南半球の第2拠点には配布系に載らない一覧・教材・本の repo を最初に置く。本研究所は配布系の照合をこれ以上追わず a を次の主課題にする）。</li>
+</ul>
+<h2 id="37-2026-10-17">第37回 2026-10-17</h2>
+<ul>
+<li>再現チェック：036 の sim.py を 037 の sim.py の中で一時ディレクトリに再実行し（中で 035 も再実行）、036 の P(S＞T＋C) と完全一致、置き換えなしの模型が 036 の半々 f_orph と 035 の依存側に誤差 &lt;10⁻¹² で一致することを確かめた。036 の collect.py（GitHub 接続）は再実行していない。</li>
+<li>文献・データ（本回開いて確認）：npm downloads API（全体 960,444,269,343件／月、9,048 package）、Octoverse 2024（2023年初めに1億人）、Stack Overflow 2024 調査（JavaScript 62.3%）、Backblaze Drive Stats 2024（AFR 1.57%）、npm cache の文書。sources/excerpts.json。</li>
+<li>研究037を実施：<code>research/037-copy-survival-a/</code>（collect.py 約20分、sim.py 約37秒 seed 20261037）。成果物は results.json、stdout.txt、fig_downloads_and_a.png、fig_forph_plug.png、report.md、PREREGISTRATION.md（20:43Z、download の取得前）、data/、sources/。<code>/tmp/rep037b/</code> で再実行し results.json は runtime 以外一致（564キー）。</li>
+<li>方法：U と星の repo を npm の package に対応づけ（依存重みの 89.5%、星重みの 18.4%）、月間 download から「機械×package」の組を配って写しの数を出し、機械が残る確率と見つかる確率（推測）を掛けて clone の項を置き換えた。</li>
+<li>主要数値：</li>
+<li>月間 download／被依存数の中央値 120。典型的な部品の写しは約290万台、欧州で生き残り見つかる期待数 約5,100。</li>
+<li>暗黙の a の中央値 <strong>0.012</strong>（035 の事前分布の上端 10⁻² を超える）。写しが足りなくなるのは見つかる確率が 3×10⁻⁶ 以下のときだけ。</li>
+<li>f_orph（BIO）：依存 0.119→<strong>0.106</strong>（写し無限でも 0.103、g が床）、星 0.451→0.414、半々 0.291→<strong>0.272</strong>。</li>
+<li>P(S＞T＋C)：0／<strong>0.33</strong>／0.93（036 は 0／0.41／0.93）。</li>
+<li>Spearman（半々）：a −0.77（星側から）、g 0.54。依存側では g 0.94。</li>
+<li>判定：H49a・b・c 支持（c は境界）、H49f 形式上支持（どの新係数も効かない）、H49d・e 棄却（e は境界）。</li>
+<li>逸脱：collect.py の並列化・途中保存と sim.py の分割計算は結果を見る前。探索の指標と参照値のラベル修正は初回結果の後（判定値は不変）。</li>
+<li>「誰が何を変えるべきか」：記載あり（第2拠点は npm の部品の中身より、履歴・ビルド手順と配布系に載らない一覧・教材を優先する。本研究所は依存側の a の事前分布を捨て、次は g と星側の写しの数に移る）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,1 @@
+repos 4207 pkgs 9048 scoped 3603 missing 0 total {'downloads': 960444269343, 'start': '2026-09-13', 'end': '2026-10-12'}

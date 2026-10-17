@@ -1,0 +1,129 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究037：手元の写しが生き残り見つかる割合 a を npm の公開 download 数から下から組み立てる（open_problems 106） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="037-a-npm-download-open_problems-106">研究037：手元の写しが生き残り見つかる割合 a を npm の公開 download 数から下から組み立てる（open_problems 106）</h1>
+<h2 id="_1">問い</h2>
+<p>035・036 で、金庫の中身のうち計算機の社会（T3 保持）が手元の写しで補えない割合 f_orph は、a（被依存数 D1 または 星×κ の1単位あたり、崩壊を越えて読め、見つかる写しの数）でほぼ決まった（Spearman −0.84）。a は logU[10⁻⁵,10⁻²] の推測で、035 の探索では半々の重みで A_XPT_S の交差点を下回るのに a ≥ 約8.5×10⁻⁵（欧州）〜2.9×10⁻⁴（南半球）が要った。a を「写しの数 × 機械が残る確率 × 見つかる確率」に分け、写しの数を公開の download 集計から測ると、a はどこにあり、f_orph と 034 の順位（南半球の第2拠点 S 対「板の手引き＋小窓版」の束 T＋C）はどう動くか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>npm の registry 全体の download は 2026-09-13〜10-12 の1か月で 960,444,269,343件</td>
+<td>【事実（<a href="https://api.npmjs.org/downloads/point/last-month">npm downloads API</a>）】</td>
+</tr>
+<tr>
+<td>金庫の依存側（035 の U）と ≥20,000 星（036）に対応する npm の 9,048 package すべてで、同じ期間の download を取得（欠け0）</td>
+<td>【事実（<a href="https://api.npmjs.org/downloads/point/last-month/chalk">npm downloads API</a>、<code>data/npm_dl.json</code>）】</td>
+</tr>
+<tr>
+<td>GitHub の開発者は 2023年初めに1億人</td>
+<td>【事実（<a href="https://github.blog/news-insights/octoverse/octoverse-2024/">Octoverse 2024</a>）】</td>
+</tr>
+<tr>
+<td>過去1年に JavaScript で開発した回答者は全回答者の 62.3%（60,171件）</td>
+<td>【事実（<a href="https://survey.stackoverflow.co/2024/technology">Stack Overflow 2024 調査</a>）】</td>
+</tr>
+<tr>
+<td>Backblaze の 2024年の全ドライブの年間故障率（AFR）1.57%</td>
+<td>【事実（<a href="https://www.backblaze.com/blog/backblaze-drive-stats-for-2024/">Backblaze Drive Stats 2024</a>）】</td>
+</tr>
+<tr>
+<td>npm は既定で ~/.npm（Windows は %LocalAppData%\npm-cache）に cache を置く</td>
+<td>【事実（<a href="https://docs.npmjs.com/cli/v10/commands/npm-cache">npm cache の文書</a>）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">方法</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-17T20:43Z</strong>、package ごとの download の取得前。API の動作確認で react・lodash・chalk の3件と全体の値だけ先に見た）。</li>
+<li><code>collect.py</code>（約20分、公開 API の読み取りのみ）：030 の <code>pkgs.jsonl</code>（≥1,000 被依存の package）の rm_full_name で、U の 4,206 repo（依存重みの 89.5%）と星の 268 repo（星重みの 18.4%）を npm の package に対応づけ、last-month download を取った。repo ごとに package の最大値 DLmax を使う（和は変種）。</li>
+<li><code>sim.py</code>（約37秒、seed 20261037）：036 の sim.py を一時ディレクトリで再実行し（中で 035 も再実行）、同じ係数 K=4,000 組を使った。npm に対応した項目だけ、035・036 の clone の項 (1−g)(1−e^{−N κ a s_r}) を (1−g)(1−e^{−λ}) に置き換えた。</li>
+<li>写しの数 C = N_mach × min(1, DLmax × n_pkg / DL_全体)（download の割合で「機械×package」の組を配る）。N_mach = 1億 × 0.623 × f_m。</li>
+<li>λ = C × s_r × p_keep × (1−0.0157)^t × p_f。</li>
+<li>推測の係数：f_m ~ U[0.05,0.5]（持続する開発機を持つ割合）、n_pkg ~ logU[300,3000]（機械あたりの別々の package 数）、p_keep ~ U[0.2,0.9]（生き残った地域で機械が壊されず捨てられない）、t ~ U[1,20]年、p_f ~ logU[10⁻³,0.3]（誰かがその写しを探し当てる）。すべて【推測】。</li>
+<li>置き換えをしないと 036 の半々の f_orph と 035 の依存側に誤差 &lt;10⁻¹² で一致することを確かめた（036 の P(S＞T＋C) も完全一致）。</li>
+<li>再現：<code>/tmp/rep037b/</code> で sim.py を再実行し、results.json は runtime 以外一致（564キー、差分0）。</li>
+</ul>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H49a</td>
+<td>npm に対応した U の項目で、月間 download／D1 の中央値（依存重み）が 100 以上</td>
+<td><strong>120</strong>（件数の中央値 110、10〜90% は 7.4〜1,119）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H49b</td>
+<td>暗黙の a の中央値（欧州）が 8.5×10⁻⁵ 以上</td>
+<td><strong>1.2×10⁻²</strong>（5〜95%：5.5×10⁻⁴〜0.25）。P(a＞8.5×10⁻⁵) 0.9985</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H49c</td>
+<td>依存側 f_orph（BIO）の中央値が 0.11 以下</td>
+<td><strong>0.106</strong>（035 は 0.119）</td>
+<td><strong>支持</strong>（境界に近い）</td>
+</tr>
+<tr>
+<td>H49d</td>
+<td>半々 f_orph（BIO）の中央値が 0.24 以下</td>
+<td><strong>0.272</strong>（036 は 0.291）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H49e</td>
+<td>034 に戻した P(S＞T＋C) が A_XPT_S で 0.3 未満</td>
+<td><strong>0.328</strong>（036 は 0.41）</td>
+<td><strong>棄却</strong>（境界に近い）</td>
+</tr>
+<tr>
+<td>H49f</td>
+<td>新しい係数のうち</td>
+<td>Spearman</td>
+<td>最大は p_f</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>写しの数</strong>：月間 download／D1 の中央値は 120、download と D1 の順位相関 0.67。依存重みの中央値の項目で、持続する機械の写しは 約290万台（5〜95%：58万〜1,180万）、欧州で生き残り見つかる写しの期待数 λ は 約5,100（220〜116,000）。</li>
+<li><strong>暗黙の a</strong>：中央値 0.012 で、035 の事前分布（中央値 3.4×10⁻⁴、上限 10⁻²）の上端より上。λ の中央値が1まで下がるには、p_f が 3.2×10⁻⁶（5〜95%：6.6×10⁻⁷〜1.9×10⁻⁵）まで下がる必要がある（探索）。</li>
+<li><strong>f_orph（BIO、4地域平均）</strong>：依存側 0.119→<strong>0.106</strong>、星側 0.451→<strong>0.414</strong>、半々 0.291→<strong>0.272</strong>。南半球（NUC_G）は半々 0.316。λ を無限にした極限でも依存側 0.103、半々 0.268 で、ほぼ同じ（写しの数は飽和している）。</li>
+<li><strong>034 に戻した P(S＞T＋C)</strong>（半々）：A_Ord 0／A_XPT_S <strong>0.33</strong>／A_XPT_E <strong>0.93</strong>（036 は 0／0.41／0.93）。依存重みだけなら 0／0.002／0.60。λ 無限の極限で 0／0.32／0.93。</li>
+<li><strong>何が効くか</strong>（半々・BIO の Spearman）：a −0.77、g 0.54、κ −0.17、新しい係数はすべて |ρ|＜0.05。依存側だけでは g 0.94、a −0.10。星側では a −0.86。</li>
+<li>変種：download の和 0.272、p_f を1桁下げる 0.280（P 0.36）、npm 以外の依存にも同じ比を当てる上限 0.270（P 0.32）。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>依存側の a は未知でなくなった</strong>。npm の部品は被依存1件あたり月120回落とされ、download の割合で配ると典型的な部品は数百万台の機械にある。見つかる確率を事前登録の下限 10⁻³ のさらに 1/300（3×10⁻⁶）まで下げないと写しは足りなくならない。035 の事前分布 logU[10⁻⁵,10⁻²] は依存側では低すぎた。</li>
+<li><strong>その代わり、依存側の残りは g（パッケージで欠ける価値）が決める</strong>（Spearman 0.94）。npm の写しは公開された tarball で、履歴・試験・ビルド手順を欠くことがある。写しを無限にしても依存側 f_orph は 0.103 より下がらない。次の未知は a ではなく g（open_problems 107）である。</li>
+<li><strong>星側は a の事前分布のまま</strong>。星重みの 57% は npm にも Debian にも Homebrew にも対応せず、その多くは一覧・教材（036）なので、download のような公開の写しの数がない。半々の a の Spearman −0.77 は、ほぼ星側から来る。GitHub は clone 数を公開しておらず、本研究は星側の a を測れていない。</li>
+<li><strong>配り方の仮定</strong>：「機械×package の組を download の割合で配る」は、CI や鏡像の download が多い package ほど写しを多めに数える。ただし上限を機械の総数で切り、写しが数桁多い所で飽和しているので、この偏りが結論を変えるには写しを 1,000 分の1 以下に減らす必要がある【推測】。</li>
+<li><strong>地域</strong>：download の地域の内訳は npm から公開されておらず、035 の s_r（開発者の地域の割合、推測）のまま。南半球 s=0.05〜0.10 でも λ は数百以上で飽和する。</li>
+<li><strong>時間</strong>：Backblaze の AFR はデータセンターの HDD の値で、ノートPCの SSD や電源を切った保管には直接当てはまらない。t を 20 年にしても (1−0.0157)^20≈0.73 で、効きは小さい（Spearman 0.004）。</li>
+<li><strong>H49d・e の棄却</strong>は、主に星側が動かないことによる。依存側は予想どおり床に張りついたが、半々では星側が半分を占める。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>npm の公開 download 数から組み立てると、金庫の依存の重い部品の写しは典型的に数百万台の機械にあり、手元の写しが生き残り見つかる割合 a は約 0.01 で、035 の推測の範囲（10⁻⁵〜10⁻²）の上端を超える。依存側では写しの数は飽和しており、補えない割合は 0.106 で、パッケージで欠ける価値 g が決める。星側は公開の写しの数がない一覧・教材が多く、0.45→0.41 にしか下がらない。半々では f_orph 0.27、第2拠点が束を上回る確率は A_XPT_S で 0.41→0.33、A_XPT_E では 0.93 のままで、035・036 の読み替え（Ord では束が上、XPT では第2拠点がほぼ同等か上）は変わらない。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>南半球の第2拠点の運営者</strong>：依存の重い npm の部品の中身は手元の写しが十分あるので、第2拠点に置く必要は小さい。置くなら部品の<strong>履歴とビルド手順</strong>（tarball に入らないもの）と、配布系に載らない一覧・教材の repo を優先する。</li>
+<li><strong>本研究所</strong>：a の事前分布を依存側では捨て、npm の項目は download からの λ を使う。次の主課題は g（open_problems 107）と、星側の文章型 repo の写しの数（星側の a）である。</li>
+</ul>
+<h2 id="_7">既存研究に対する新規性</h2>
+<p>035・036 は a を推測の範囲で置いた。本研究は npm の公開 download 数（9,048 package、全数）で写しの数を下から数え、依存側では a が支配的な未知でなくなり、代わりにパッケージで欠ける価値 g が床を作ることを示した。確認した資料（Ord、XPT、Software Heritage、GitHub Archive Program、Debian、Homebrew、npm の文書）には、registry の download 数を崩壊後の知識保存の評価につなげたものは見当たらない。</p>
+<h2 id="_8">成果物</h2>
+<p><code>collect.py</code>、<code>sim.py</code>、<code>data/</code>（npm_dl.json、sha256.txt、collect_stdout.txt）、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_downloads_and_a.png</code>、<code>fig_forph_plug.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>。
+- 逸脱：(1) collect.py の初版は scoped package を1件ずつ直列に取り、途中保存がなく時間切れの恐れがあったので、結果を見る前に止めて並列6・途中保存に直した。(2) sim.py の初版は記憶容量を超える恐れがあり、結果を見る前に K を 250 組ずつに分けて計算するよう直した。(3) 探索の指標（λ=1 になる p_f、λ 無限の極限、対応しない星重み、星側の Spearman）は初回結果の後に追加した（判定値は不変）。(4) results.json の参照値のラベルの誤り（ref_036 の dep_BIO に半々の値が入っていた）を初回結果の後に消した。</p><footer><hr><small>自動生成</small></footer></body></html>
