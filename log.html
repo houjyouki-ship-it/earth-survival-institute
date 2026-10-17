@@ -347,4 +347,21 @@
 <li>判定：H38a・b・c・e・g 支持、H38d 境界の支持（0.9016）、H38f 棄却。</li>
 <li>結論：025 の壁は RAM ではなくランダムアクセス記憶の容量。時間は CPU が決め、ドラムなら補助はほぼ無料。容量の制約がほぼないテープなら遅いが ΔV は 024 の水準（0.089）に戻る。</li>
 <li>「誰が何を変えるべきか」：記載あり（手引きには RAM 増設より先に、テープに窓を置く復号の手順と MB 級ランダムアクセス記憶の作り方を書く。運営者の小辞書の提言は維持し、それで容量の壁そのものが消える）。</li>
+</ul>
+<h2 id="27-2026-10-17">第27回 2026-10-17</h2>
+<ul>
+<li>再現チェック：024・025・026 を <code>/tmp/rep027/</code> に複製し、026 の sim.py（約2秒）を再実行した。results.json は runtime 以外一致（1,808キー）。</li>
+<li>計測：026 の tools/fetch_tars.py を /tmp の写しで再実行（GitHub 公開 codeload の読み取りのみ、00:40 UTC 頃）。30件の TAR の SHA-256 はすべて 026 と一致。tools/lzmaspec_trace.cpp（026 の復号器にトレース書き出しだけ追加）で復号し、30件とも SHA-256 一致・計数は 026 と完全一致。</li>
+<li>文献：本回の新規文献はなし（IBM 727 の表は 026 で開いて確認した写し sources/IBM_727.wiki を再利用）。</li>
+<li>研究027を実施：<code>research/027-tape-window-decode/</code>（sim.py seed=20261027、約15秒；explore.py 約21秒、事前登録外）。成果物は data/traces.npz、data/trace_log.json、results.json、explore_results.json、stdout.txt、explore_stdout.txt、fig_tape_procedures_q.png、fig_breakdown_dV.png、report.md、PREREGISTRATION.md（2026-10-17T00:41:32Z、計測前）、tools/。<code>/tmp/rep027b/</code> で再実行し runtime 以外一致（355キー＋67キー）。</li>
+<li>方法：距離 &gt;16 KiB の参照（約350万）の順序に沿って、IBM 727 級テープのヘッド位置を追うシミュレーション。1台（S1）と、出力を長さ L の区画に分けて K 台へ順に書く方式（SK）を比べた。</li>
+<li>主要数値：</li>
+<li>検証：Python の LRU 取得回数は 026 と120組すべて一致。N0（026 の式）はトレースから完全再現。</li>
+<li>S1：補助/CPU 中央値 <strong>34.9</strong>（N0 48.0）、q <strong>0.551</strong>（N0 0.536）。時間の99.9%はヘッド移動。</li>
+<li>最良 SK（K=8、L=64 KiB）：補助/CPU <strong>4.75</strong>、q <strong>0.691</strong>、総時間 1,175 機械年（CPU のみ 144）、ΔV(板) <strong>0.078</strong>（同じ規則で N0 0.063、RAM のみ 0.012）。</li>
+<li>感度：位置合わせ 500 インチ/秒で K8 の q 0.806、隙間 0.75 インチで 0.668。</li>
+<li>探索：K=32・L=32 KiB で q 0.770。CPU のみの上限 0.904。</li>
+<li>判定：H39b・d・e・f 支持、H39a・c 棄却（026 の粗いモデルは数値としてほぼ正しかった）。</li>
+<li>逸脱：トレースが &gt;16 KiB のみのため、ΔV では C&lt;16 KiB の読者（約61%）に 025 の RAM のみの q を当てた。</li>
+<li>「誰が何を変えるべきか」：記載あり（手引きのテープ復号の章に「32〜64 KiB ずつ8台以上へ順に書き、最寄りのヘッドから読む」手順を載せる。運営者の小辞書の提言は維持）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

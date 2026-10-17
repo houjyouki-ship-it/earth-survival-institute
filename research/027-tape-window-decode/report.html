@@ -1,0 +1,54 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究027：テープに窓を置く LZMA 復号の手順と時間（open_problems 83） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="027-lzma-open_problems-83">研究027：テープに窓を置く LZMA 復号の手順と時間（open_problems 83）</h1>
+<p>事前登録：PREREGISTRATION.md（<strong>2026-10-17T00:41:32Z</strong>、トレース計測・初回実行前）。
+計測：026 の tools/fetch_tars.py を /tmp の写しで再実行（GitHub 公開 codeload の読み取りのみ、00:40 UTC 頃）し、30件の TAR の SHA-256 が 026 の data/tars.json と30件すべて一致。tools/lzmaspec_trace.cpp（026 の計数つき参照復号器に、距離 &gt;16 KiB の参照の (出力位置, 距離, 長さ) を2進で書き出す処理だけを追加）で復号し、30件すべて出力の SHA-256 一致、計数は 026 の counts.json と完全一致（data/trace_log.json）。トレースは data/traces.npz（約350万参照、12 MB）。
+解析：sim.py（seed=20261027、約15秒）→ results.json、stdout.txt、fig_tape_procedures_q.png、fig_breakdown_dV.png。探索（事前登録外）：explore.py（約21秒）→ explore_results.json、explore_stdout.txt。
+再現：026 の sim.py を /tmp/rep027/ で再実行し results.json は runtime 以外一致（1,808キー）。027 の sim.py・explore.py を /tmp/rep027b/ で再実行し、results.json は runtime 以外一致（355キー）、explore_results.json は完全一致（67キー）。</p>
+<h2 id="_1">問い</h2>
+<p>026 はテープを「遠い参照ごとに 10 ms＋距離 d の往復を 500 インチ/秒」と置き、q=0.54（C=64 KiB、10機械年）を得た。500 インチ/秒は先頭へ戻す巻戻しの平均で、途中の位置合わせの速さではない。実際の参照の順序に沿ってヘッドの位置を追うと、時間と q はどう変わり、どんな手順なら速くなるか。</p>
+<h2 id="_2">事実入力</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/IBM_727">IBM 727</a>、sources/IBM_727.wiki）】200 文字/インチ、75 インチ/秒、巻戻し平均 500 インチ/秒、転送 15,000 文字/秒、起動・停止 各 5 ms、リール 2,400 フィート。</li>
+<li>CPU（709 級）、高層母集団、q と ΔV の式は 026 と同一。</li>
+</ul>
+<h2 id="_3">方法</h2>
+<ul>
+<li>高速 RAM：直近 C=64 KiB の窓＋512 B×8 の LRU（026 と同じ）。Python で再計算した LRU の取得回数は、4つの C（16K・64K・256K・1M）×30件の120組すべてで 026 の C++ の値と一致した。</li>
+<li>テープ操作【推測のモデル】：移動・読み・書きのたびに 10 ms。位置合わせ速度は主設定 75 インチ/秒、楽観 500 インチ/秒。先頭に近い目標には「先頭まで巻戻し＋前進」も選べる。出力は 32 KiB ごとに装置の末尾へまとめて書く（窓 64 KiB に残っている間に書けるので、遠い参照は必ず書き込み済みの範囲を指す）。</li>
+<li>手順：N0＝026 の素朴モデル。S1＝1台で出力テープを戻って読む。SK＝出力を長さ L の区画に分け、区画 j を装置 j mod K の末尾に追記（K 台への縞状の書き込み）。各装置のヘッド位置を追う。</li>
+<li>外挿・q・ΔV は 026 と同じ。ただし<strong>逸脱</strong>：トレースが距離 &gt;16 KiB だけなので、ΔV では C&lt;16 KiB の読者（読者の約61%）に 025 の RAM のみの q を当てた（026 は C=0〜4 KiB のテープの q を使った）。比較のため N0 も同じ規則で計算し直した。</li>
+</ul>
+<h2 id="_4">主要結果</h2>
+<ul>
+<li>【検証】N0 をトレースから計算した30件合計は 026 の式の値と完全一致（相対差 0）。</li>
+<li>【独自計算】<strong>S1（1台、主設定）</strong>：補助/CPU の中央値 <strong>34.9</strong>（N0 は 48.0）、30件合計では S1 15,614 時間、N0 12,712 時間（1.23倍）。q（C=64 KiB、Y=10）は <strong>0.551</strong>（N0 0.536）。時間の99.9%はヘッドの移動（移動 5,616 万秒、読み 3.6 万秒、書き 1.3 万秒）。位置合わせが 6.7倍遅い分を、LRU と「次の参照が近くにある」ことによる移動距離の短さがほぼ打ち消し、026 の粗いモデルは結果としてほぼ正しかった。</li>
+<li>【独自計算】<strong>縞状の書き込み（SK）</strong>：格子16通りの最良は <strong>K=8、L=64 KiB</strong> で、補助/CPU 中央値 <strong>4.75</strong>（S1 の 0.136倍）、q <strong>0.691</strong>、高層全体の総時間 1,175 機械年（S1 9,729、CPU のみ 144）。L が小さく K が大きいほど速い（K=2 で 16、K=4 で 7.7）。データが K 台に分かれて、各テープ上の窓の長さが 1/K になるため。</li>
+<li>感度：位置合わせ 500 インチ/秒なら S1 6.05、K8 1.04（q 0.659、0.806）。ブロック間の隙間 0.75 インチを入れると S1 45.1、K8 6.10（q 0.540、0.668）。</li>
+<li>ΔV（P2：板、読者 RAM logU[4,144] KiB、本回の規則）：RAM のみ 0.012、N0 0.063、S1 0.062、<strong>K8 0.078</strong>。026 の報告値 0.089 との差は主に上の逸脱（C&lt;16 KiB の読者）による。</li>
+<li>【探索、事前登録外】K と L を広げると、K=16・L=32 KiB で中央値 2.58・q 0.739、K=32・L=32 KiB で 1.89・q <strong>0.770</strong>。CPU のみの上限は q 0.904。台数を4倍にしても q は 0.69→0.77 と頭打ちに近づく。</li>
+</ul>
+<h2 id="_5">仮説の判定</h2>
+<ul>
+<li>H39a（S1 は N0 の2倍以上遅い）：<strong>棄却</strong>（0.73倍。合計では 1.23倍）。</li>
+<li>H39b（最良の SK は S1 の 1/3 以下）：<strong>支持</strong>（0.136）。</li>
+<li>H39c（S1 で q&lt;0.45）：<strong>棄却</strong>（0.551）。</li>
+<li>H39d（最良の SK で q≥0.54）：<strong>支持</strong>（0.691）。</li>
+<li>H39e（N0 の再計算が 026 と ±5%）：<strong>支持</strong>（完全一致。検証項目）。</li>
+<li>H39f（最良の SK で ΔV≥0.06）：<strong>支持</strong>（0.078）。</li>
+</ul>
+<h2 id="_6">批判的検討（限界）</h2>
+<ul>
+<li>最良構成は登録した格子の端（K 最大・L 最小）にあった。探索で広げたが、その結果は事前登録外。</li>
+<li>テープの長さは無制限とし、リール交換、テープの摩耗、操作員の時間を入れていない。K8 でも30件で約70万回の位置合わせが起き、テープとヘッドがそれに耐えるかは確かめていない。</li>
+<li>位置合わせ速度 75 インチ/秒とブロック間隙間は【推測】で、q は 0.54〜0.81 動く（K8）。</li>
+<li>「読みながら進む」最適化や、参照の先読みはしていない（一致後リテラルが窓のバイトに依存するので、素朴な先読みはできない）。そのぶん時間は過大側。</li>
+<li>30件の小さい repo からバイトあたりの率を外挿した点、星重み・生存バイアスは 025・026 と同じ。</li>
+</ul>
+<h2 id="_7">結論</h2>
+<p>026 のテープの見積もりは、モデルは粗かったが数値はほぼ正しかった（1台では q 0.55）。1台のテープでは時間の99.9%がヘッドの移動で、CPU の約35倍かかる。出力を 32〜64 KiB ごとに8台へ順に振り分けて書けば、各テープ上の窓が短くなり、補助時間は1台の約1/7（CPU の約5倍）に縮み、q は 0.69 に上がる。台数を32台に増やしても 0.77 で、CPU だけの上限 0.90 には届かない。</p>
+<h2 id="_8">誰が何を変えるべきか</h2>
+<ul>
+<li>読取装置の製作手引き（024 の板）を書く人：テープ復号の章では「1台のテープを巻き戻して読む」でなく、「出力を 32〜64 KiB ずつ、使えるテープ装置（8台以上）へ順番に書き、参照はそれぞれの装置のヘッド位置から最寄りを読む」手順と、装置ごとのヘッド位置の管理表を載せる。装置を増やす効果は8台を超えると小さいことも書く。</li>
+<li>アーカイブ運営者：025・026 の提言（重要 repo を辞書 ≤64 KiB で別に書く）は維持する。テープ8台でも高層全体に約1,200機械年かかり、小辞書ならこの時間そのものが要らなくなる。</li>
+</ul>
+<h2 id="_9">既存研究に対する新規性</h2>
+<p>026 までは補助記憶を「1回の参照に決まった時間」で置いていた。本回は、実 repo の LZMA 参照トレースに沿ってテープのヘッド位置を追い、複数台への縞状の書き込み（ディスクの RAID のストライピングと同じ考え）が崩壊後の読取装置で何倍効くかを、1950年代の実機の数値で示した。LZMA の窓をテープに縞状に置く復号を評価した先行研究は見当たらない【推測：網羅的な検索はしていない】。</p><footer><hr><small>自動生成</small></footer></body></html>
