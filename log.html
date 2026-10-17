@@ -395,4 +395,21 @@
 <li>判定：H41a・f・g 支持、H41b・c・d・e 棄却（c は実質「決められない」）。</li>
 <li>修正：q 計算の 0/0（全重み二重書き時）を初回実行後に直した（予算 1 リールのみ、判定に不使用）。</li>
 <li>「誰が何を変えるべきか」：記載あり（小予算なら星と依存の半々の混合で選ぶ。依存数だけでは基盤ソフトが抜ける。028 の高層全体 c4 の提言は重みに頑健なので維持）。</li>
+</ul>
+<h2 id="30-2026-10-17">第30回 2026-10-17</h2>
+<ul>
+<li>再現チェック：024〜029 を <code>/tmp/rep030/</code> に複製し、029 の sim.py（約5秒）と explore.py を再実行した。results.json（679キー）と explore_results.json（151キー）は runtime 以外一致。</li>
+<li>文献・データ（本回開いて確認）：ecosyste.ms の registries 一覧（117件、sources/registries_list.json）、<code>/registries/{name}/packages</code> の応答（npm 1位 supports-color 5,765,200、sources/npm_top2_example.json）。</li>
+<li>研究030を実施：<code>research/030-dependency-tail-census/</code>（collect.py：packages.ecosyste.ms の公開 API、匿名・読み取りのみ、06:44〜06:50 UTC、117 registry・146ページ・失敗0、package 35,324件；collect_gh.py：GitHub GraphQL 読み取りのみ、12,744 repo；sim.py 約6秒 seed 20261030；探索 tools/measure_tar.py：1,150件の TAR を実測、explore.py）。成果物は data/、results.json、explore_results.json、stdout.txt、explore_stdout.txt、fig_shares_and_tail.png、fig_budget_cross_eval_census.png、report.md、PREREGISTRATION.md（06:44:22Z、収集前）。<code>/tmp/rep030b/</code> で再実行し差分0（730キー）。</li>
+<li>方法：各 registry の依存数上位を 1,000 未満まで取り、GitHub repo にまとめ、高層で星 &lt;20,000・D1 ≥10,000 の repo（3,872件）を全数層にした。025 標本は残りだけに使い、区間の重みを付け直した。</li>
+<li>主要数値：</li>
+<li>検証：029 で D1 ≥10,000 だった292件はすべて全数リストに見つかった。標本からの件数推定は全数の0.83倍。</li>
+<li>依存重みの割合：≥20,000 星 <strong>8.2%</strong>（90%区間 8.1〜8.3%、029 は 2.4〜56%）、裾の全数 <strong>89.4%</strong>、標本の残り 2.4%。T=1,000・100,000 でも 8.2〜8.3%。</li>
+<li>収蔵のままの q：星 0.033、依存 0.075（実測 TAR で 0.084）。TAR の置き方で 0.026〜0.084。</li>
+<li>c4・0.003 リール（約 340 MB）を依存で選ぶ：q 増分 0.59、ΔV 0.207（高層全体 4.1 リールの ΔV 0.236 の88%）。星で選ぶと依存で測って最適の24%。</li>
+<li>半々の混合：0.01 リールで最適の 87%／97%、0.1 リールで 98%／99%。</li>
+<li>探索：D1 ≥10,000 の依存重みのうち高層に入るのは43%。星 250 未満が半分以上（約4,600件、約 0.0025 リール【推測】）。</li>
+<li>判定：H42a・b・d・e・f・g 支持（e は TAR の置き方に頑健でない）、H42c 棄却。</li>
+<li>逸脱：TAR の実測は事前登録外（判定には不使用）。</li>
+<li>「誰が何を変えるべきか」：記載あり（小窓版の最初の 0.003 リールに依存数の上位約2,200件を入れ、星の上位を次に混ぜる。星 250 未満でも依存数の大きい repo を別に拾う。028 の高層全体 c4 の提言は維持）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
