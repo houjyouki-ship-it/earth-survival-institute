@@ -1,0 +1,9 @@
+{
+ "debian_mirror_list": {"url": "https://www.debian.org/mirror/list", "opened": "2026-10-17 約16:39Z", "file": "sources/debian_mirror_list_2026-10-17.html",
+   "facts": "65 か国 343 件の鏡像（本研究の集計）。南半球：Argentina 2、Australia 10、Brazil 7、Chile 5、New Caledonia 3、New Zealand 2、Réunion 2、South Africa 3、Uruguay 2"},
+ "south_mirror_source_check": {"what": "各南半球鏡像の dists/trixie/main/source/Release を https（だめなら http）で取得", "time": "2026-10-17T16:44:45Z〜16:45:04Z", "file": "data/south_src_check.json", "result": "36 件中 25 件が 200"},
+ "octoverse_2024": {"url": "https://github.blog/news-insights/octoverse/octoverse-2024/", "file": "sources/octoverse_2024_2026-10-17.html",
+   "quotes": ["Brazil 27% YoY >5.4M", "Argentina 22% YoY >1.1M", "Peru 27.5% YoY >583K", "South Africa 23% YoY >664K", "the Philippines (#18) overtaking Australia (#19)", "In early 2023, we celebrated reaching 100 million total developers on GitHub"]},
+ "debian_indices": {"urls": ["https://deb.debian.org/debian/dists/trixie/main/source/Sources.xz", "https://deb.debian.org/debian/dists/trixie/main/binary-amd64/Packages.xz", "https://deb.debian.org/debian/dists/sid/main/source/Sources.xz", "https://deb.debian.org/debian/dists/sid/main/binary-amd64/Packages.xz"], "sha256": "data/sha256.txt", "fetched": "data/fetched_at.txt"},
+ "sources_debian_api_probe": {"urls": ["https://sources.debian.org/api/src/node-fs.realpath/", "https://sources.debian.org/api/src/node-fill-range/"], "facts": "node-fs.realpath（stretch〜sid）、node-fill-range（buster〜sid）が存在"}
+}

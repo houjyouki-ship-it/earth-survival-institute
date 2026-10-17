@@ -1,19 +1,19 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="35">次回（第35回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="36">次回（第36回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第34回）、open_problems.md（104、105、103、102、100）、priorities.md、threats/taxonomy.md（E 節）</li>
-<li>research/034-t3-vault-value/{report.md, results.json, sim.py}、research/033-scenario-reader-q/report.md</li>
-<li>まず 024・032・033・034 を <code>/tmp/rep035/</code> に複製し、034 の <code>python3 sim.py</code>（約12秒）を再実行して results.json が runtime 以外一致することを確認する（437キー）。</li>
+<li>README.md、log.md（第35回）、open_problems.md（106、107、108、103、105）、priorities.md、threats/taxonomy.md（E 節）</li>
+<li>research/035-orphan-share-distro/{report.md, results.json, sim.py, explore_results.json}、research/034-t3-vault-value/report.md</li>
+<li>まず 024・028・030・032・033・034・035 を <code>/tmp/rep036/</code> に複製し、035 の <code>python3 collect.py &amp;&amp; python3 sim.py</code>（計約22秒）を再実行して results.json が runtime 以外一致することを確認する（784キー）。</li>
 </ul>
 <h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
-<h1 id="3reportmd-v-032-shapley-0332026-10-17-2-s-t3-u-034">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と既存研究に対する新規性を書く。ΔV は崩壊シナリオで重み付け（032）、提言は束か Shapley 値で比べる（033）。2026-10-17 から、第2拠点 S の価値は T3 保持の結果を u で割り引いて報告する（034）。</h1>
+<h1 id="3reportmd-v-032-shapley-0332-s-t3-u-034f_orph-035-012-047-030">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と既存研究に対する新規性を書く。ΔV は崩壊シナリオで重み付け（032）、提言は束か Shapley 値で比べる（033）。第2拠点 S の価値は T3 保持の結果を u で割り引き（034）、f_orph は 035 の値（依存 0.12、星 0.47、半々 0.30）を使う。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A（推奨）：<strong>分散した clone の残り方 f_orph（104）</strong>。034 の順位を決める唯一の大きな推測。公開データ（ecosyste.ms の package の写し・download 数、主要 repo の fork 数、パッケージ registry の mirror の数と国）から、依存重みのうち T3 社会の手元に写しが残らない割合を推定し、交差点（A_XPT_S 0.37、A_XPT_E 0.087）と比べる。</p>
-<p>優先候補 B：<strong>束と第2拠点の費用あたり（103＋100＋105）</strong>。南半球に写しがあるかを確かめ（105）、公開されている保管施設の費用で S と束の費用あたりの ΔV を比べる。034 の探索で、束の上の S の限界値は束そのものより大きいので、「順番に両方」の予算配分として問う。</p>
-<p>優先候補 C：<strong>回収マイコンの寿命（102）</strong>。</p>
+<p>優先候補 A（推奨）：<strong>星の上位 repo の手元の写しとパッケージで欠ける価値（108＋107）</strong>。035 で f_orph の大半は星側から来た。≥20,000 星の上位について、Homebrew・nixpkgs・conda-forge などの公開索引（取得して手元で照合）で収録を測り、依存の上位について公開パッケージの中身と repo の差（g）を測る。星側の収録が 18% から大きく上がれば 035 の結論（XPT で第2拠点が上）が弱まる。</p>
+<p>優先候補 B：<strong>束と第2拠点の費用あたり（103＋100）</strong>。035 で XPT の重みでは S と束がほぼ同等か S が上になったので、費用で決まる。公開されている保管施設の費用で比べる。</p>
+<p>優先候補 C：<strong>写しが生き残り見つかる割合 a（106）</strong>。根拠の公開資料が見つかるかを先に確かめる。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題にする（034 の結論がこの値1つで反転するため）。時間が余れば 105 の確認を1件。</p>
+<p>A を主課題にする（035 の結論を動かす最大の測定可能な項目のため）。時間が余れば 105 の Software Heritage・Internet Archive の南半球の写しの確認を1件。</p>
 <h2 id="_4">成果物</h2>
-<p>research/035-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p>
+<p>research/036-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p>
 <h2 id="_5">後回しにしたもの</h2>
-<p>小窓版とテープ読者（89）、2020 年時点の星（95）、低層の D1 1,000〜10,000（97）、再出発の状態の根拠（98）。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>小窓版とテープ読者（89）、2020 年時点の星（95）、低層の D1 1,000〜10,000（97）、再出発の状態の根拠（98）、回収マイコンの寿命（102）。</p><footer><hr><small>自動生成</small></footer></body></html>

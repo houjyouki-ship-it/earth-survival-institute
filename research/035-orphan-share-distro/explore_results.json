@@ -1,0 +1,129 @@
+{
+ "precision": {
+  "M2_only_dep": {
+   "n_checked": 711,
+   "n_no_homepage": 345,
+   "precision_count": 0.8270042194092827,
+   "precision_weight": 0.9225851581540913,
+   "mismatch_examples": [
+    [
+     "mui/material-ui",
+     [
+      "node-base"
+     ],
+     "https://github.com/node-base/base https://salsa.debian.org/js-team/node-base.git"
+    ],
+    [
+     "storybookjs/storybook",
+     [
+      "node-channels",
+      "node-react"
+     ],
+     "https://github.com/pita/channels https://salsa.debian.org/js-team/node-channels."
+    ],
+    [
+     "nuxt/nuxt",
+     [
+      "node-config",
+      "node-webpack"
+     ],
+     "https://github.com/lorenwest/node-config https://salsa.debian.org/js-team/node-c"
+    ],
+    [
+     "ionic-team/ionic-framework",
+     [
+      "node-react",
+      "node-vue"
+     ],
+     "https://reactjs.org/ https://salsa.debian.org/js-team/node-react.git https://sal"
+    ],
+    [
+     "DefinitelyTyped/DefinitelyTyped",
+     [
+      "node-abstract-leveldown",
+      "node-accepts"
+     ],
+     "https://github.com/rvagg/node-abstract-leveldown https://salsa.debian.org/js-tea"
+    ],
+    [
+     "cypress-io/cypress",
+     [
+      "node-react"
+     ],
+     "https://reactjs.org/ https://salsa.debian.org/js-team/node-react.git https://sal"
+    ],
+    [
+     "expo/expo",
+     [
+      "node-config"
+     ],
+     "https://github.com/lorenwest/node-config https://salsa.debian.org/js-team/node-c"
+    ],
+    [
+     "parcel-bundler/parcel",
+     [
+      "node-babel-preset-env",
+      "node-events"
+     ],
+     " https://github.com/gozala/events https://salsa.debian.org/js-team/node-events.g"
+    ]
+   ]
+  },
+  "M3_only_star": {
+   "n_checked": 132,
+   "n_no_homepage": 0,
+   "precision_count": 0.9924242424242424,
+   "precision_weight": 0.9956039543919073,
+   "mismatch_examples": [
+    [
+     "Automattic/mongoose",
+     [
+      "mongoose"
+     ],
+     "http://suitesparse.com https://salsa.debian.org/science-team/suitesparse.git htt"
+    ]
+   ]
+  },
+  "dep_share_precision_adjusted": 0.7020724832345938,
+  "star_share_precision_adjusted": 0.17877906674170796
+ },
+ "a_breakeven_median_coefs": {
+  "dep_SOUTH": {
+   "f_at_a_min": 0.38011081833080135,
+   "f_at_a_1": 0.09579830453116489,
+   "a_star_A_XPT_S": 5.680492161728422e-07,
+   "a_star_A_XPT_E": null
+  },
+  "dep_EU": {
+   "f_at_a_min": 0.3734034252997856,
+   "f_at_a_1": 0.09577687314297978,
+   "a_star_A_XPT_S": 1.7604108438655513e-07,
+   "a_star_A_XPT_E": null
+  },
+  "star_SOUTH": {
+   "f_at_a_min": 0.8475107455484792,
+   "f_at_a_1": 0.2119122702498163,
+   "a_star_A_XPT_S": 0.0012742749857031326,
+   "a_star_A_XPT_E": null
+  },
+  "star_EU": {
+   "f_at_a_min": 0.8471882451211553,
+   "f_at_a_1": 0.21191227016832748,
+   "a_star_A_XPT_S": 0.00039490372295766964,
+   "a_star_A_XPT_E": null
+  },
+  "mix_SOUTH": {
+   "f_at_a_min": 0.6138107819396402,
+   "f_at_a_1": 0.1538552873904906,
+   "a_star_A_XPT_S": 0.00028585141796844734,
+   "a_star_A_XPT_E": null
+  },
+  "mix_EU": {
+   "f_at_a_min": 0.6102958352104705,
+   "f_at_a_1": 0.15384457165565363,
+   "a_star_A_XPT_S": 8.507942799627438e-05,
+   "a_star_A_XPT_E": null
+  }
+ },
+ "note": "事前登録外。a の分岐点は他の係数を中央値（v 0.85、p_m 0.55、g 0.25、κ 0.32、s_SOUTH 0.075、他 0.25）に固定した値"
+}

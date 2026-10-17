@@ -1,0 +1,116 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究035：配布系と手元の写しで、金庫の中身のどれだけを補えるか（open_problems 104・105 の一部） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="035open_problems-104105">研究035：配布系と手元の写しで、金庫の中身のどれだけを補えるか（open_problems 104・105 の一部）</h1>
+<h2 id="_1">問い</h2>
+<p>034 の順位（南半球の第2拠点 S 対「板の手引き T＋小窓版 C」の束）は、金庫の中身のうち計算機の社会（T3 保持）の手元の写しで補えない割合 f_orph でほぼ決まり、交差点は A_XPT_S で 0.37、A_XPT_E で 0.087 だった。034 は f_orph を根拠なしに logU[0.003, 0.3] と置いた。本研究は、(1) Linux 配布系 Debian が金庫の中身をどれだけ収めているか（測定）、(2) Debian の鏡像の地理（測定）、(3) 開発者の手元の写し（推測の係数）から f_orph を見積もり、034 に戻す。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debian の公式鏡像一覧は 65 か国 343 件。南半球は 9 か国 36 件（豪州 10、ブラジル 7、チリ 5、ニューカレドニア 3、南アフリカ 3、アルゼンチン・NZ・レユニオン・ウルグアイ 各2）</td>
+<td>【事実（<a href="https://www.debian.org/mirror/list">Debian mirror list</a>、本研究の集計）】</td>
+</tr>
+<tr>
+<td>南半球の 36 件のうち 25 件が、2026-10-17T16:44〜16:45Z に trixie の source の Release を返した（残り11件はこの計算機から接続できず、存在しないとは言えない）</td>
+<td>【事実（本研究の取得、<code>data/south_src_check.json</code>）】</td>
+</tr>
+<tr>
+<td>GitHub の開発者数：ブラジル &gt;5.4M、アルゼンチン &gt;1.1M、ペルー &gt;583K、南アフリカ &gt;664K、豪州は20位。2023年初めに総数1億人</td>
+<td>【事実（<a href="https://github.blog/news-insights/octoverse/octoverse-2024/">Octoverse 2024</a>）】</td>
+</tr>
+<tr>
+<td>Debian trixie main の source 37,591件、binary 75,130件、Provides 65,749件（2026-10-17 取得、sha256 は <code>data/sha256.txt</code>）</td>
+<td>【事実（<a href="https://deb.debian.org/debian/dists/trixie/main/source/Sources.xz">deb.debian.org の trixie Sources</a>、本研究の集計）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">方法</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-17T16:46Z</strong>、Debian の索引の取得と照合の前）。</li>
+<li><code>collect.py</code>（約5秒、外部接続なし）：Debian trixie・sid main の Sources と Packages（Provides 含む）を、031 の U（主規則）のうち金庫に収蔵された 7,555件（依存重み v＝w×D1）と、028 の ≥20,000 星の全数 1,368件（重み＝現在の星）に照合した。M1＝Homepage・Vcs 欄の github.com/owner/repo の一致、M2＝registry 名からの名前規則（npm→node-名 など）、M3＝repo 名そのもの。</li>
+<li><code>sim.py</code>（約17秒、seed 20261035）：項目ごとに「補えない割合」＝(1 − 収録×v×P_deb) × (1 − (1−g)(1 − e^{−N s a}))。P_deb は地域の source 付き鏡像の数（一覧の件数×25/36）と各鏡像が生き残り見つかる確率 p_m。N は依存側 D1、星側 星×κ。係数 v・p_m・a・g・κ・s は事前登録どおりの範囲の【推測】（K=4,000 組）。NUC_G は南半球、他のシナリオは4地域の平均。034 の sim.py を一時ディレクトリで再実行し（P(S＞T＋C) が 034 と完全一致）、clone なしの u（拠点がすべて失われる確率）に f_orph をかけて戻した。</li>
+<li>再現：<code>/tmp/rep035b/</code> で collect.py と sim.py を再実行し、照合ファイルはバイト一致、results.json は runtime 以外一致（784キー）。034 の再実行も一致（438キー）。031 の再実行も一致（590キー）。</li>
+</ul>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H47a</td>
+<td>Debian trixie が収蔵済み依存重みの50%以上を収める</td>
+<td><strong>72.6%</strong>（M1 だけで 41.9%、精度で割り引くと 70.2%）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H47b</td>
+<td>依存重みの収録割合が星重みより大きい</td>
+<td>依存 72.6%、星 <strong>17.9%</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H47c</td>
+<td>主の f_orph（半々）の中央値が全シナリオで 0.087 未満</td>
+<td>南半球 <strong>0.36</strong>、他 <strong>0.30</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H47d</td>
+<td>NUC_G の f_orph が他の2倍以上</td>
+<td>1.21倍</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H47e</td>
+<td>f_orph への効き（</td>
+<td>Spearman</td>
+<td>）は a が p_m より大きい</td>
+</tr>
+<tr>
+<td>H47f</td>
+<td>034 に戻すと A_XPT_E で P(S＞T＋C) &lt; 0.5</td>
+<td><strong>0.94</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>Debian の収録</strong>（trixie）：依存重み 72.6%（件数では 36.8%。重い部品ほど収められている）、高層 71.1%、低層 74.7%。npm 部分（依存重みの 89%）の 75% が収録。sid では 74.4%。星重み（≥20,000 星）は 17.9%（sid 19.9%）。収録されていない依存重みの上位は fsevents（macOS 専用）、ret.js、upath、code-point-at など。</li>
+<li><strong>f_orph の中央値（5〜95%）</strong>：依存重み 0.12（0.024〜0.22）、南半球 0.13。星重み 0.47（0.095〜0.81）、南半球 0.61。半々 0.30（0.066〜0.50）、南半球 0.36。Debian を除くと依存重みで 0.29（収録が f_orph を半分以下にする）。名前規則を使わず M1 だけなら 0.19。sid でもほぼ同じ（0.114）。</li>
+<li><strong>034 に戻した P(S＞T＋C)</strong>（半々の重み）：A_Ord <strong>0</strong>、A_XPT_S <strong>0.43</strong>、A_XPT_E <strong>0.94</strong>（034 は 0／0.011／0.28）。依存重みだけなら 0／0.012／0.69、星重みだけなら 0／0.70／0.97。S／(T＋C) の中央値は半々で 0.74／0.98／1.25。</li>
+<li><strong>探索（事前登録外、<code>explore.py</code>、判定には使わない）</strong>：</li>
+<li>名前規則の精度（Homepage に repo 名か owner 名が含まれるか）：M2 のみの一致で件数 83%、重み 92%。誤りは大きな monorepo の名前の衝突（mui/material-ui→node-base など）。M3 は 99%。</li>
+<li>他の係数を中央値に固定すると、手元の写しを無限にしても依存重みの f_orph は 0.096 より下がらず（パッケージで欠ける価値 g=0.25 が床）、A_XPT_E の交差点 0.087 に届かない。半々で A_XPT_S の交差点 0.37 を下回るには、依存先の写しのうち生き残り見つかる割合 a が 8.5×10⁻⁵（欧州）〜2.9×10⁻⁴（南半球）以上必要。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>034 の f_orph の仮置きは小さすぎた</strong>。034 は中央値約0.03 と置いたが、配布系の収録と手元の写しを数えても依存重みで約0.12、星重みで約0.47 になる。星重みが大きいのは、人気の repo（awesome 系、教材、アプリ）の多くが配布系に入らず、依存されないので手元に写しが散らばらないため。これで 034 の「束が第2拠点を上回る」は A_Ord の重みでしか保てない。</li>
+<li><strong>最大の未知は a（写しが生き残り見つかる割合）で、Debian の鏡像の生存 p_m はほぼ効かない</strong>。南半球にも source 付きの鏡像が 25件あり、1件でも残れば収録分は届くので、p_m を 0.2〜0.9 で動かしても結果は変わらない。逆に、a は 10⁻⁵〜10⁻² の推測で、ここに根拠がない。</li>
+<li><strong>H47d の棄却は模型の作りによる</strong>。全面核戦争で南半球に限ると、開発者の割合が小さいので手元の写しが減るが、鏡像は十分あるので差は 1.2倍にとどまった。他の5つのシナリオは地域の平均を同じに使ったので、シナリオ間の差は出ない（模型の制約）。</li>
+<li><strong>g（パッケージに欠ける価値）が床を作る</strong>。npm のパッケージは変換後のコードだけのことがあり、履歴や試験も欠ける。g を 0〜0.5 と置いたのは推測で、A_XPT_E の結論（手元の写しをいくら増やしても S が上）はこの床に依存する。</li>
+<li>照合は名前規則に頼る部分がある（M2 のみの一致は依存重みの約3割）。精度で割り引いても 70.2% で、H47a の結論は変わらない。Debian の版が金庫の版（2020年）と違う問題は v（0.7〜1.0）で粗く扱っただけ。</li>
+<li>星重みの母集団は ≥20,000 星の 1,368件だけで、金庫全体の星重みの代表かは確かめていない。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>Debian は金庫の中身の依存重みの約73%を収め、source 付きの鏡像は南半球にも少なくとも25件ある。そのため、依存で重みを付けると、計算機の社会が手元の写しで補えない割合 f_orph は約0.12で、034 の交差点（A_XPT_S 0.37）より小さい。しかし星で重みを付けると収録は約18%しかなく f_orph は約0.47、半々では約0.30になる。034 に戻すと、第2拠点が束を上回る確率は A_XPT_S で 0.43、A_XPT_E で 0.94 になり、034 の「束が上」は Ord の重みでしか成り立たない。残る最大の未知は、手元の写しが生き残り見つかる割合 a である。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>南半球の大学や国立図書館（第2拠点の候補）</strong>：新しい拠点を置くなら、Debian がすでに広く写している依存の部品ではなく、配布系に入っていない人気の repo（星の上位）を優先して入れる。依存の部品は Debian の鏡像（豪州・ブラジル・チリなどに25件以上）が代わりを果たしている。</li>
+<li><strong>本研究所</strong>：034 の f_orph の仮置き（logU[0.003, 0.3]）を撤回し、依存重みで約0.12、星重みで約0.47 を使う。032〜034 の順位は「Ord の重みでは束が上、XPT の重みでは第2拠点がほぼ同等か上」と読み替える。</li>
+</ul>
+<h2 id="_7">既存研究に対する新規性</h2>
+<p>Ord と XPT は崩壊後に残る写しを扱わない。Software Heritage や GitHub Archive Program の資料は写しを増やす理由を述べるが、既存の配布系（Debian）が人気・被依存の repo をどれだけ写しているかは測っていない。本研究は、金庫に入った依存の重い部品の約73%が Debian に収められ、星の上位は約18%しか収められていないことを測り、この差が第2拠点と知識保存の束の順位を決めることを示した。この組み合わせは、確認した資料（Ord、XPT、Xia 2022、GitHub GUIDE、Software Heritage、Internet Archive、Debian の鏡像一覧、Octoverse 2024）には見当たらない。</p>
+<h2 id="_8">成果物</h2>
+<p><code>collect.py</code>、<code>sim.py</code>、<code>explore.py</code>、<code>export_U.py</code>（031 から U を書き出す）、<code>data/</code>（Debian の索引、照合結果、U、南半球の鏡像の確認）、<code>results.json</code>、<code>explore_results.json</code>、<code>stdout.txt</code>、<code>explore_stdout.txt</code>、<code>fig_distro_coverage.png</code>、<code>fig_forph_and_plug.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>。
+- 逸脱：(1) 事前登録に「26件が source を返した」と書いたが、正しくは 25件（数え間違い。sim.py はファイルから数えるので判定に影響なし）。(2) 初回実行で scipy がなく停止し、Spearman を numpy の順位相関に置き換えた（結果を見る前）。(3) H47d の判定値の型（numpy の真偽値が 0.0 と出力された）を直して再実行した。値は不変。(4) explore.py は初回結果の後に追加した。</p><footer><hr><small>自動生成</small></footer></body></html>

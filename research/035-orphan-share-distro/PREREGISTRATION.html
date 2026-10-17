@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究035 事前登録（2026-10-17T16:46Z、Debian の索引の取得と照合の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="035-2026-10-17t1646zdebian">研究035 事前登録（2026-10-17T16:46Z、Debian の索引の取得と照合の前）</h1>
+<h2 id="_1">問い</h2>
+<p>034 の順位（第2拠点 S 対 板の手引き＋小窓版の束）は、金庫の中身のうち T3 社会の手元の写しで補えない割合 f_orph でほぼ決まる（交差点 A_XPT_S 0.37、A_XPT_E 0.087）。f_orph を、(1) 配布系（Debian）の収録と鏡像の地理、(2) 開発者の手元の写し、から見積もる。</p>
+<h2 id="_2">照合前に見たもの（判定には使わない事実として扱う）</h2>
+<ul>
+<li>Debian の鏡像一覧（https://www.debian.org/mirror/list）：65 か国 343 件。南半球 9 か国 36 件（AR 2、AU 10、BR 7、CL 5、NC 3、NZ 2、RE 2、ZA 3、UY 2）。うち 26 件が https で trixie の source Release を返した（data/south_src_check.json）。</li>
+<li>Octoverse 2024：Brazil &gt;5.4M、Argentina &gt;1.1M、Peru &gt;583K、South Africa &gt;664K、Australia は20位。2023 年初めに総数1億人。</li>
+<li>sources.debian.org で node-fs.realpath と node-fill-range が存在することを試験で見た（2件だけ）。</li>
+</ul>
+<h2 id="collectpy">データと照合（collect.py）</h2>
+<ul>
+<li>deb.debian.org の trixie main の Sources.xz と binary-amd64 の Packages.xz（Provides を含む）。感度に sid。</li>
+<li>母集団：031 の U（主規則）のうち金庫に収蔵された項目（arch=True）、重み v=w×D1。星の重みは 028 の ≥20,000 星の全数（1,368件）、重み＝現在の星。</li>
+<li>照合 M1：Sources の Homepage／Vcs-Git／Vcs-Browser に github.com/owner/repo（大文字小文字無視）。M2：030 の pkgs.jsonl の registry 名から名前規則（npm→node-名、@a/b→node-a-b、pypi→python-名／python3-名、rubygems→ruby-名、cargo→rust-名、go→golang-…-dev、packagist→php-名）で source・binary・Provides のどれかに一致。星側は M1 と M3（repo 名をそのまま source・binary 名として）。収録＝M1∪M2（星側 M1∪M3）。</li>
+</ul>
+<h2 id="simpyseed-20261035">模型（sim.py、seed 20261035）</h2>
+<p>uncovered_i = (1 − d_i·v·P_deb(r)) × (1 − (1−g)·(1 − exp(−N_i·s_r·a)))
+- d_i：収録（0/1、測定）。v ~ U[0.7, 1.0]：Debian の版が金庫の版の価値をどれだけ代わるか【推測】。
+- P_deb(r) = 1 − (1 − p_m)^{n_r}、n_r は地域の鏡像数（一覧の件数 × 南半球で確かめた source の割合 26/36）、p_m ~ U[0.2, 0.9]【推測】。
+- N_i：依存側は D1、星側は 星×κ（κ ~ logU[0.1, 1]【推測】）。s_r：地域の開発者の割合（SOUTH ~ U[0.05, 0.10]、ほか3地域 ~ U[0.15, 0.35]【推測、Octoverse の数値を目安】）。a ~ logU[1e-5, 1e-2]：写しが生き残り見つかる割合【推測】。g ~ U[0, 0.5]：手元の写し（パッケージ）で欠ける価値【推測】。
+- 地域：NUC_G は SOUTH のみ（Xia 2022 の豪州・NZ 例外）。他のシナリオは NA・EU・ASIA・SOUTH を等確率。
+- f_orph = Σ v_i uncovered_i / Σ v_i。主の重みは依存と星の半々（029 の推奨）。
+- 034 に戻す：034 の clone なしの u（miss）に f_orph をかけ、P(S＞T＋C) を出す。</p>
+<h2 id="_3">仮説（判定規則）</h2>
+<ul>
+<li>H47a：Debian trixie が U の収蔵済み依存重みの 50% 以上を収める（M1∪M2）。</li>
+<li>H47b：依存重みの収録割合が星重み（≥20,000 星）の収録割合より大きい。</li>
+<li>H47c：主の f_orph（半々）の中央値が全シナリオで 0.087 未満。</li>
+<li>H47d：NUC_G の f_orph 中央値が他シナリオの中央値の平均の 2倍以上。</li>
+<li>H47e：f_orph の分散への寄与（|Spearman|）は a が p_m より大きい。</li>
+<li>H47f：f_orph を 034 に戻すと、A_XPT_E で P(S＞T＋C) &lt; 0.5。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
