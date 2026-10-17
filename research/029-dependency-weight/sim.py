@@ -63,11 +63,15 @@ R["featured_D1"] = {items[k]["name"]: {"D1": D1[k], "D3": D3[k], "top_pkg": (raw
 
 WEIGHTS = {"stars": sw, "dep_D1": w * D1, "dep_log1p_D1": w * np.log1p(D1), "dep_D2": w * D2, "dep_pkgs_D3": w * D3}
 def share(swv, m): return float(swv[m].sum() / swv.sum())
+# 重みの集中：依存重みの上位寄与（標本の束は w 倍で効く）
+for lab in ("dep_D1", "dep_log1p_D1", "stars"):
+    v = {"stars": sw, "dep_D1": w * D1, "dep_log1p_D1": w * np.log1p(D1)}[lab]; oo = np.argsort(-v)
+    R.setdefault("top_contributors", {})[lab] = [{"name": items[k]["name"], "src": items[k]["src"], "w": float(w[k]),
+        "share": float(v[k] / v.sum())} for k in oo[:5]]
 R["share"] = {lab: {s: share(v, m) for s, m in SETS.items()} for lab, v in WEIGHTS.items()}
 
 # ブートストラップ（標本025 の項目を、区間ごとに復元抽出）
 rng = np.random.default_rng(20261029)
-bin_of = np.array([raw.get(i["name"], {}).get("bin", None) for i in items], dtype=object)
 S25 = G["S25"]; binmap = {r["full_name"]: r["bin"] for r in S25["repos"] if r.get("stratum") == "high"}
 bidx = {}
 for k, it in enumerate(items):
@@ -98,7 +102,9 @@ def greedy_set(c, budget, swv):
 def q_frac(frac, nc, swv):
     e1 = np.minimum(need0, nc)
     q1 = q_vec(e1, swv * frac) if (swv * frac).sum() > 0 else np.zeros(N)
-    q0 = q_vec(need0, swv * (1 - frac)); a = (swv * frac).sum() / swv.sum(); return a * q1 + (1 - a) * q0
+    a = (swv * frac).sum() / swv.sum()
+    q0 = q_vec(need0, swv * (1 - frac)) if a < 1 else np.zeros(N)   # 修正：全重みが二重書きされたとき 0/0 を避ける
+    return a * q1 + (1 - a) * q0
 def jacc(f1, f2):
     a = set(np.where((f1 > 0) & cen)[0]); b = set(np.where((f2 > 0) & cen)[0]); return len(a & b) / max(1, len(a | b))
 mix = 0.5 * sw / sw.sum() + 0.5 * WEIGHTS["dep_D1"] / WEIGHTS["dep_D1"].sum()

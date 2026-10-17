@@ -379,4 +379,20 @@
 <li>判定：H40a〜g すべて支持。ただし H40g は星を価値とみなす前提に強く依存（探索でバイト重みでは q 0.018）。</li>
 <li>逸脱：chromium/chromium の木の再帰走査で API 上限を使い切りかけたため収集を 03:07 に止め、ログから census.json を再構成。chromium の TAR は 3 GB と置いた（上限感度でも費用 0.27 リール）。</li>
 <li>「誰が何を変えるべきか」：記載あり（運営者は高層全体を <code>dict=4KiB,lc=0</code> で別に書く：約4〜10 リール。025 の「64 KiB」提言は弱いので置き換える。Tech Tree の索引に小窓版の場所と必要 RAM 約9.5 KiB を書く）。</li>
+</ul>
+<h2 id="29-2026-10-17">第29回 2026-10-17</h2>
+<ul>
+<li>再現チェック：024〜028 を <code>/tmp/rep029/</code> に複製し、028 の sim.py（約2秒）と explore.py を再実行した。results.json（679キー）と explore_results.json（137キー）は runtime 以外一致。</li>
+<li>文献・データ（本回開いて確認）：ecosyste.ms Packages API の OpenAPI 定義（sources/packages_openapi.yaml）と lookup の応答（例：pypi:requests の dependent_repos_count 679,836）。</li>
+<li>研究029を実施：<code>research/029-dependency-weight/</code>（collect.py：packages.ecosyste.ms の公開 API、匿名・読み取りのみ、04:38〜04:44 UTC、1,514件・失敗0；sim.py 約4秒；explore.py 事前登録外）。成果物は data/deps_raw.jsonl、results.json、explore_results.json、stdout.txt、explore_stdout.txt、fig_stars_vs_deps.png、fig_budget_cross_eval.png、report.md、PREREGISTRATION.md（04:37:35Z、収集前）。<code>/tmp/rep029b/</code> で再実行し差分0。</li>
+<li>方法：028 の items（≥20,000 星の全数＋025 標本）に、repo に結びつく package の最大 dependent_repos_count（D1）を付け、星重みと依存重みで割合、q、予算つき欲張り選択を比べ、交差評価した。</li>
+<li>主要数値：</li>
+<li>≥20,000 星：Spearman ρ(星, D1) <strong>0.019</strong>、D1=0 は37%、依存の94%が npm。</li>
+<li>Featured15：TypeScript 210万、rails 136万、bootstrap 87万。linux・bitcoin 1、Homebrew・hadoop・docker machine 0、cpython 111。基盤ソフトは依存数にほぼ現れない。</li>
+<li>依存重みでの ≥20,000 星の割合 6.6%（90%区間 2.4〜56%）。標本1件（bestiejs/json3）が依存重みの86%。高層の割合は標本からは決まらない。</li>
+<li>高層全体を c4：q は重みによらず 0.760（ΔV 0.236）。</li>
+<li>全数だけの探索（0.003 リール）：Jaccard 0.22、星で選び依存で評価して最適の62%、依存で選び星で評価して24%、半々の混合で 91.5%／93.7%。</li>
+<li>判定：H41a・f・g 支持、H41b・c・d・e 棄却（c は実質「決められない」）。</li>
+<li>修正：q 計算の 0/0（全重み二重書き時）を初回実行後に直した（予算 1 リールのみ、判定に不使用）。</li>
+<li>「誰が何を変えるべきか」：記載あり（小予算なら星と依存の半々の混合で選ぶ。依存数だけでは基盤ソフトが抜ける。028 の高層全体 c4 の提言は重みに頑健なので維持）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

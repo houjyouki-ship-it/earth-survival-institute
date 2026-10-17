@@ -1,0 +1,1042 @@
+{
+ "check_028": {
+  "as_archived_q": 0.031002119972077226,
+  "star_share_ge20k": 0.2518903294787849
+ },
+ "data": {
+  "n_items": 1514,
+  "n_ok": 1514,
+  "n_missing": 0,
+  "missing_names": [],
+  "n_census": 1339,
+  "n_sample025": 175
+ },
+ "ge20k": {
+  "n": 1337,
+  "spearman_stars_D1": 0.018986401719250253,
+  "spearman_stars_D3": 0.030261189132533062,
+  "frac_D1_zero": 0.3717277486910995,
+  "frac_no_package": 0.17950635751682872,
+  "frac_D1_ge100": 0.42109199700822736,
+  "frac_D1_ge10000": 0.21091997008227376,
+  "D1_quantiles": {
+   "50": 6.0,
+   "75": 4190.0,
+   "90": 97625.00000000004,
+   "99": 1672874.0000000084
+  }
+ },
+ "sample025": {
+  "n": 175,
+  "frac_D1_zero": 0.56,
+  "spearman_stars_D1": 0.162981702184107,
+  "max_D1": 2370169.0,
+  "max_name": "bestiejs/json3"
+ },
+ "top_dep_census": [
+  {
+   "name": "babel/babel",
+   "stars": 44054.0,
+   "D1": 4673471.0,
+   "D3": 197540.0,
+   "top_pkg": "npm:@babel/types"
+  },
+  {
+   "name": "postcss/postcss",
+   "stars": 28970.0,
+   "D1": 3705251.0,
+   "D3": 38375.0,
+   "top_pkg": "npm:postcss"
+  },
+  {
+   "name": "zloirock/core-js",
+   "stars": 25529.0,
+   "D1": 3461376.0,
+   "D3": 68956.0,
+   "top_pkg": "npm:core-js"
+  },
+  {
+   "name": "postcss/autoprefixer",
+   "stars": 22205.0,
+   "D1": 3254905.0,
+   "D3": 90847.0,
+   "top_pkg": "npm:autoprefixer"
+  },
+  {
+   "name": "lodash/lodash",
+   "stars": 61286.0,
+   "D1": 2831604.0,
+   "D3": 159122.0,
+   "top_pkg": "npm:lodash.memoize"
+  },
+  {
+   "name": "react/react",
+   "stars": 251175.0,
+   "D1": 2830385.0,
+   "D3": 275174.0,
+   "top_pkg": "npm:react"
+  },
+  {
+   "name": "jestjs/jest",
+   "stars": 45485.0,
+   "D1": 2802343.0,
+   "D3": 241476.0,
+   "top_pkg": "npm:@jest/types"
+  },
+  {
+   "name": "svg/svgo",
+   "stars": 22746.0,
+   "D1": 2684916.0,
+   "D3": 4475.0,
+   "top_pkg": "npm:svgo"
+  },
+  {
+   "name": "DefinitelyTyped/DefinitelyTyped",
+   "stars": 51445.0,
+   "D1": 2619172.0,
+   "D3": 257481.0,
+   "top_pkg": "npm:@types/q"
+  },
+  {
+   "name": "ReactiveX/rxjs",
+   "stars": 31696.0,
+   "D1": 2616591.0,
+   "D3": 42178.0,
+   "top_pkg": "npm:rxjs"
+  },
+  {
+   "name": "microsoft/TypeScript",
+   "stars": 111502.0,
+   "D1": 2104747.0,
+   "D3": 488056.0,
+   "top_pkg": "npm:typescript"
+  },
+  {
+   "name": "expressjs/express",
+   "stars": 69572.0,
+   "D1": 1853938.0,
+   "D3": 93237.0,
+   "top_pkg": "npm:express"
+  },
+  {
+   "name": "hapijs/joi",
+   "stars": 21166.0,
+   "D1": 1716809.0,
+   "D3": 7976.0,
+   "top_pkg": "npm:@hapi/joi"
+  },
+  {
+   "name": "prettier/prettier",
+   "stars": 52376.0,
+   "D1": 1703312.0,
+   "D3": 231277.0,
+   "top_pkg": "npm:prettier"
+  },
+  {
+   "name": "ai/nanoid",
+   "stars": 27103.0,
+   "D1": 1618762.0,
+   "D3": 7827.0,
+   "top_pkg": "npm:nanoid"
+  },
+  {
+   "name": "eslint/eslint",
+   "stars": 27563.0,
+   "D1": 1569244.0,
+   "D3": 424118.0,
+   "top_pkg": "npm:eslint"
+  },
+  {
+   "name": "immerjs/immer",
+   "stars": 28987.0,
+   "D1": 1478225.0,
+   "D3": 5437.0,
+   "top_pkg": "npm:immer"
+  },
+  {
+   "name": "remix-run/react-router",
+   "stars": 56612.0,
+   "D1": 1472795.0,
+   "D3": 23067.0,
+   "top_pkg": "npm:react-router"
+  },
+  {
+   "name": "jsdom/jsdom",
+   "stars": 21713.0,
+   "D1": 1437647.0,
+   "D3": 31840.0,
+   "top_pkg": "npm:jsdom"
+  },
+  {
+   "name": "rails/rails",
+   "stars": 58846.0,
+   "D1": 1358186.0,
+   "D3": 13637.0,
+   "top_pkg": "rubygems:activesupport"
+  },
+  {
+   "name": "socketio/socket.io",
+   "stars": 63220.0,
+   "D1": 1351985.0,
+   "D3": 10715.0,
+   "top_pkg": "npm:socket.io"
+  },
+  {
+   "name": "chalk/chalk",
+   "stars": 23327.0,
+   "D1": 1291351.0,
+   "D3": 130085.0,
+   "top_pkg": "npm:chalk"
+  },
+  {
+   "name": "motdotla/dotenv",
+   "stars": 20547.0,
+   "D1": 1228719.0,
+   "D3": 42583.0,
+   "top_pkg": "npm:dotenv"
+  },
+  {
+   "name": "remy/nodemon",
+   "stars": 26652.0,
+   "D1": 1165949.0,
+   "D3": 37791.0,
+   "top_pkg": "npm:nodemon"
+  },
+  {
+   "name": "rollup/rollup",
+   "stars": 26300.0,
+   "D1": 1133301.0,
+   "D3": 130345.0,
+   "top_pkg": "npm:rollup"
+  }
+ ],
+ "featured_D1": {
+  "torvalds/linux": {
+   "D1": 1.0,
+   "D3": 0.0,
+   "top_pkg": "bower:linux"
+  },
+  "twbs/bootstrap": {
+   "D1": 874564.0,
+   "D3": 17952.0,
+   "top_pkg": "npm:bootstrap"
+  },
+  "nodejs/node": {
+   "D1": 1249.0,
+   "D3": 174.0,
+   "top_pkg": "conda:nodejs"
+  },
+  "microsoft/TypeScript": {
+   "D1": 2104747.0,
+   "D3": 488056.0,
+   "top_pkg": "npm:typescript"
+  },
+  "bitcoin/bitcoin": {
+   "D1": 1.0,
+   "D3": 0.0,
+   "top_pkg": "pypi:oixgwsmcnwyequxsgj"
+  },
+  "python/cpython": {
+   "D1": 111.0,
+   "D3": 0.0,
+   "top_pkg": "nuget:python"
+  },
+  "rails/rails": {
+   "D1": 1358186.0,
+   "D3": 13637.0,
+   "top_pkg": "rubygems:activesupport"
+  },
+  "Homebrew/brew": {
+   "D1": 0.0,
+   "D3": 0.0,
+   "top_pkg": "go:github.com/Homebrew/brew"
+  },
+  "Alamofire/Alamofire": {
+   "D1": 29917.0,
+   "D3": 2408.0,
+   "top_pkg": "cocoapods:Alamofire"
+  },
+  "php/php-src": {
+   "D1": 187.0,
+   "D3": 21.0,
+   "top_pkg": "homebrew:php"
+  },
+  "openssl/openssl": {
+   "D1": 3674.0,
+   "D3": 305.0,
+   "top_pkg": "conda:openssl"
+  },
+  "v8/v8": {
+   "D1": 5.0,
+   "D3": 0.0,
+   "top_pkg": "homebrew:v8@3.15"
+  },
+  "dotnet/core": {
+   "D1": 89.0,
+   "D3": 5.0,
+   "top_pkg": "pypi:dotnetcore2"
+  },
+  "docker-archive-public/docker.machine": {
+   "D1": 0.0,
+   "D3": 0.0,
+   "top_pkg": "go:github.com/docker-archive-public/docker.machine"
+  },
+  "apache/hadoop": {
+   "D1": 0.0,
+   "D3": 0.0,
+   "top_pkg": "helm:bigdata-charts/hdfs"
+  }
+ },
+ "top_contributors": {
+  "dep_D1": [
+   {
+    "name": "bestiejs/json3",
+    "src": "sample025",
+    "w": 555.7142857142857,
+    "share": 0.8562837349305894
+   },
+   {
+    "name": "macournoyer/thin",
+    "src": "sample025",
+    "w": 378.8857142857143,
+    "share": 0.018604105138761307
+   },
+   {
+    "name": "SGrondin/bottleneck",
+    "src": "sample025",
+    "w": 378.8857142857143,
+    "share": 0.013611744549419278
+   },
+   {
+    "name": "algolia/docsearch",
+    "src": "sample025",
+    "w": 378.8857142857143,
+    "share": 0.0061256668391724365
+   },
+   {
+    "name": "django-extensions/django-extensions",
+    "src": "sample025",
+    "w": 192.34285714285716,
+    "share": 0.005512314969162422
+   }
+  ],
+  "dep_log1p_D1": [
+   {
+    "name": "dkubb/adamantium",
+    "src": "sample025",
+    "w": 1658.6857142857143,
+    "share": 0.057078641171196765
+   },
+   {
+    "name": "dsherret/conditional-type-checks",
+    "src": "sample025",
+    "w": 1658.6857142857143,
+    "share": 0.0512905926328262
+   },
+   {
+    "name": "stlehmann/pyads",
+    "src": "sample025",
+    "w": 1658.6857142857143,
+    "share": 0.045441904777031715
+   },
+   {
+    "name": "maccman/supermodel",
+    "src": "sample025",
+    "w": 1658.6857142857143,
+    "share": 0.036458436208885926
+   },
+   {
+    "name": "wolever/parameterized",
+    "src": "sample025",
+    "w": 986.3142857142857,
+    "share": 0.034237760502301345
+   }
+  ],
+  "stars": [
+   {
+    "name": "cheat-engine/cheat-engine",
+    "src": "sample025",
+    "w": 192.34285714285716,
+    "share": 0.015869583525561105
+   },
+   {
+    "name": "sindresorhus/quick-look-plugins",
+    "src": "sample025",
+    "w": 192.34285714285716,
+    "share": 0.015421304121300336
+   },
+   {
+    "name": "nosir/cleave.js",
+    "src": "sample025",
+    "w": 192.34285714285716,
+    "share": 0.014652825142567593
+   },
+   {
+    "name": "arialdomartini/Back-End-Developer-Interview-Questions",
+    "src": "sample025",
+    "w": 192.34285714285716,
+    "share": 0.013940175833229963
+   },
+   {
+    "name": "Qv2ray/Qv2ray",
+    "src": "sample025",
+    "w": 192.34285714285716,
+    "share": 0.01386217850098679
+   }
+  ]
+ },
+ "share": {
+  "stars": {
+   "featured15": 0.004786479827836771,
+   "top100": 0.07003149155643773,
+   "top300": 0.12346688469537037,
+   "top1000": 0.22021068378052874,
+   "all_ge20k": 0.2518903294787849,
+   "all_ge5k": 0.5581053382763904,
+   "all_high": 1.0
+  },
+  "dep_D1": {
+   "featured15": 0.0028427559762108927,
+   "top100": 0.00732577448784937,
+   "top300": 0.0221319657698819,
+   "top1000": 0.05162629226584123,
+   "all_ge20k": 0.06596242284139825,
+   "all_ge5k": 0.07953870079053743,
+   "all_high": 1.0
+  },
+  "dep_log1p_D1": {
+   "featured15": 0.0003569960304246571,
+   "top100": 0.0018996917003081325,
+   "top300": 0.005600444890090334,
+   "top1000": 0.018132310744336168,
+   "all_ge20k": 0.02383983076645776,
+   "all_ge5k": 0.10760078844907053,
+   "all_high": 1.0
+  },
+  "dep_D2": {
+   "featured15": 0.0031067527385806887,
+   "top100": 0.0074735729881508775,
+   "top300": 0.022515824558056705,
+   "top1000": 0.05207357923901919,
+   "all_ge20k": 0.0663102174465802,
+   "all_ge5k": 0.07989751319144364,
+   "all_high": 1.0
+  },
+  "dep_pkgs_D3": {
+   "featured15": 0.045182930760409,
+   "top100": 0.10779225900060994,
+   "top300": 0.23461605008164224,
+   "top1000": 0.4644116813965776,
+   "all_ge20k": 0.5739820048190452,
+   "all_ge5k": 0.6989466471554725,
+   "all_high": 1.0
+  }
+ },
+ "share_boot90": {
+  "stars": {
+   "featured15": [
+    0.004602139908888406,
+    0.004793187845745435,
+    0.004978825752046331
+   ],
+   "all_ge20k": [
+    0.24218937082228895,
+    0.2522433414838363,
+    0.2620126072206184
+   ],
+   "top1000": [
+    0.21172979154661892,
+    0.22051929830803343,
+    0.22905990680373065
+   ]
+  },
+  "dep_D1": {
+   "featured15": [
+    0.0010494730189522404,
+    0.0028765451451075318,
+    0.02410866338374903
+   ],
+   "all_ge20k": [
+    0.024351644536523828,
+    0.06674645617555391,
+    0.5594099041801868
+   ],
+   "top1000": [
+    0.01905911068517394,
+    0.052239925487783445,
+    0.437828963303137
+   ]
+  },
+  "dep_log1p_D1": {
+   "featured15": [
+    0.00029360301398511843,
+    0.0003578712928014613,
+    0.00044534538405758054
+   ],
+   "all_ge20k": [
+    0.019606509791162414,
+    0.023898279895190198,
+    0.029739710483409794
+   ],
+   "top1000": [
+    0.014912493785208617,
+    0.01817676650307433,
+    0.02261969378954206
+   ]
+  }
+ },
+ "as_archived_q": {
+  "stars": 0.031002119972077226,
+  "dep_D1": 0.0014352993228412254,
+  "dep_log1p_D1": 0.06275580934003533
+ },
+ "sets_c4": {
+  "featured15": {
+   "stars": {
+    "q": 0.034640586545606485
+   },
+   "dep_D1": {
+    "q": 0.0035962344919378167
+   },
+   "dep_log1p_D1": {
+    "q": 0.06302718165754279
+   },
+   "dV_dep_D1": 0.0011136195860177722,
+   "dV_stars": 0.010730576240738587
+  },
+  "all_ge20k": {
+   "stars": {
+    "q": 0.21894922300894196
+   },
+   "dep_D1": {
+    "q": 0.05150530772520051
+   },
+   "dep_log1p_D1": {
+    "q": 0.08079372733747546
+   },
+   "dV_dep_D1": 0.015959564340138566,
+   "dV_stars": 0.06784396443382743
+  },
+  "all_ge5k": {
+   "stars": {
+    "q": 0.4402587148415977
+   },
+   "dep_D1": {
+    "q": 0.06180389766498896
+   },
+   "dep_log1p_D1": {
+    "q": 0.1431472643063446
+   },
+   "dV_dep_D1": 0.019150965324681135,
+   "dV_stars": 0.13642545520584817
+  },
+  "all_high": {
+   "stars": {
+    "q": 0.7602006464304109
+   },
+   "dep_D1": {
+    "q": 0.7601550057419465
+   },
+   "dep_log1p_D1": {
+    "q": 0.7601568267089476
+   },
+   "dV_dep_D1": 0.23555500176365082,
+   "dV_stars": 0.2355691218007148
+  }
+ },
+ "budget_c4": {
+  "0.01": {
+   "stars": {
+    "n_repos": 21709.976274848108,
+    "cost_reels": 0.009999999999999997,
+    "dq_by": {
+     "stars": 0.23818594624342473,
+     "dep_D1": 0.040369852286406445,
+     "dep_log1p_D1": 0.1606050793266999
+    },
+    "top_census": [
+     "codecrafters-io/build-your-own-x",
+     "sindresorhus/awesome",
+     "public-apis/public-apis",
+     "freeCodeCamp/freeCodeCamp",
+     "EbookFoundation/free-programming-books",
+     "donnemartin/system-design-primer",
+     "nilbuild/developer-roadmap",
+     "jwasham/coding-interview-university",
+     "vinta/awesome-python",
+     "awesome-selfhosted/awesome-selfhosted"
+    ]
+   },
+   "dep_D1": {
+    "n_repos": 9086.667995332295,
+    "cost_reels": 0.009999999999999998,
+    "dq_by": {
+     "stars": 0.07556905069329922,
+     "dep_D1": 0.7439174635925702,
+     "dep_log1p_D1": 0.2300883405845025
+    },
+    "top_census": [
+     "babel/babel",
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "jestjs/jest",
+     "svg/svgo",
+     "DefinitelyTyped/DefinitelyTyped",
+     "ReactiveX/rxjs"
+    ]
+   },
+   "dep_log1p_D1": {
+    "n_repos": 25182.198876935763,
+    "cost_reels": 0.009999999999999998,
+    "dq_by": {
+     "stars": 0.08139596407025046,
+     "dep_D1": 0.7063314857905565,
+     "dep_log1p_D1": 0.3876007533033136
+    },
+    "top_census": [
+     "postcss/postcss",
+     "postcss/autoprefixer",
+     "svg/svgo",
+     "expressjs/express",
+     "ai/nanoid",
+     "remix-run/react-router",
+     "socketio/socket.io",
+     "chalk/chalk",
+     "motdotla/dotenv",
+     "tj/commander.js"
+    ]
+   },
+   "mix50": {
+    "n_repos": 20036.542857142857,
+    "cost_reels": 0.009991164649779723,
+    "dq_by": {
+     "stars": 0.21436519259276798,
+     "dep_D1": 0.7334408801660582,
+     "dep_log1p_D1": 0.23118404154256683
+    },
+    "top_census": [
+     "babel/babel",
+     "react/react",
+     "postcss/postcss",
+     "codecrafters-io/build-your-own-x",
+     "zloirock/core-js",
+     "sindresorhus/awesome",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "public-apis/public-apis",
+     "jestjs/jest"
+    ]
+   },
+   "jaccard_stars_dep_D1": 0.251621271076524,
+   "jaccard_stars_dep_log1p": 0.14979195561719832
+  },
+  "0.03": {
+   "stars": {
+    "n_repos": 45336.438945456204,
+    "cost_reels": 0.030000000000000016,
+    "dq_by": {
+     "stars": 0.35544665582104495,
+     "dep_D1": 0.05440786428215844,
+     "dep_log1p_D1": 0.30656391786794995
+    },
+    "top_census": [
+     "codecrafters-io/build-your-own-x",
+     "sindresorhus/awesome",
+     "public-apis/public-apis",
+     "freeCodeCamp/freeCodeCamp",
+     "EbookFoundation/free-programming-books",
+     "donnemartin/system-design-primer",
+     "nilbuild/developer-roadmap",
+     "jwasham/coding-interview-university",
+     "vinta/awesome-python",
+     "awesome-selfhosted/awesome-selfhosted"
+    ]
+   },
+   "dep_D1": {
+    "n_repos": 15425.65216278936,
+    "cost_reels": 0.03,
+    "dq_by": {
+     "stars": 0.11334548541699882,
+     "dep_D1": 0.7538842462917914,
+     "dep_log1p_D1": 0.34496525593747224
+    },
+    "top_census": [
+     "babel/babel",
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "jestjs/jest",
+     "svg/svgo",
+     "DefinitelyTyped/DefinitelyTyped",
+     "ReactiveX/rxjs"
+    ]
+   },
+   "dep_log1p_D1": {
+    "n_repos": 39392.915891045835,
+    "cost_reels": 0.03,
+    "dq_by": {
+     "stars": 0.1541025465065734,
+     "dep_D1": 0.7255766756337749,
+     "dep_log1p_D1": 0.5267223979478685
+    },
+    "top_census": [
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "svg/svgo",
+     "expressjs/express",
+     "hapijs/joi",
+     "ai/nanoid",
+     "immerjs/immer",
+     "remix-run/react-router"
+    ]
+   },
+   "mix50": {
+    "n_repos": 43881.713784595755,
+    "cost_reels": 0.030000000000000006,
+    "dq_by": {
+     "stars": 0.3480359005897739,
+     "dep_D1": 0.7418426353211856,
+     "dep_log1p_D1": 0.3614561917764389
+    },
+    "top_census": [
+     "babel/babel",
+     "react/react",
+     "postcss/postcss",
+     "codecrafters-io/build-your-own-x",
+     "zloirock/core-js",
+     "sindresorhus/awesome",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "public-apis/public-apis",
+     "jestjs/jest"
+    ]
+   },
+   "jaccard_stars_dep_D1": 0.28525641025641024,
+   "jaccard_stars_dep_log1p": 0.3027932960893855
+  },
+  "0.1": {
+   "stars": {
+    "n_repos": 79016.5317696239,
+    "cost_reels": 0.10000000000000006,
+    "dq_by": {
+     "stars": 0.5066135355325775,
+     "dep_D1": 0.7468606467412906,
+     "dep_log1p_D1": 0.5384486036534328
+    },
+    "top_census": [
+     "codecrafters-io/build-your-own-x",
+     "sindresorhus/awesome",
+     "public-apis/public-apis",
+     "freeCodeCamp/freeCodeCamp",
+     "EbookFoundation/free-programming-books",
+     "donnemartin/system-design-primer",
+     "nilbuild/developer-roadmap",
+     "jwasham/coding-interview-university",
+     "vinta/awesome-python",
+     "awesome-selfhosted/awesome-selfhosted"
+    ]
+   },
+   "dep_D1": {
+    "n_repos": 31002.28386367014,
+    "cost_reels": 0.10000000000000005,
+    "dq_by": {
+     "stars": 0.21364616939559813,
+     "dep_D1": 0.7569449959147595,
+     "dep_log1p_D1": 0.5344652994818405
+    },
+    "top_census": [
+     "babel/babel",
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "jestjs/jest",
+     "svg/svgo",
+     "DefinitelyTyped/DefinitelyTyped",
+     "ReactiveX/rxjs"
+    ]
+   },
+   "dep_log1p_D1": {
+    "n_repos": 47577.8,
+    "cost_reels": 0.0999994964782883,
+    "dq_by": {
+     "stars": 0.2653426240981091,
+     "dep_D1": 0.7471290313461239,
+     "dep_log1p_D1": 0.6299495450931907
+    },
+    "top_census": [
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "svg/svgo",
+     "ReactiveX/rxjs",
+     "expressjs/express",
+     "hapijs/joi",
+     "prettier/prettier"
+    ]
+   },
+   "mix50": {
+    "n_repos": 78236.28497465124,
+    "cost_reels": 0.1,
+    "dq_by": {
+     "stars": 0.5049131592708948,
+     "dep_D1": 0.7532028671968721,
+     "dep_log1p_D1": 0.5432487480567441
+    },
+    "top_census": [
+     "babel/babel",
+     "react/react",
+     "postcss/postcss",
+     "codecrafters-io/build-your-own-x",
+     "zloirock/core-js",
+     "sindresorhus/awesome",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "public-apis/public-apis",
+     "jestjs/jest"
+    ]
+   },
+   "jaccard_stars_dep_D1": 0.38277919863597615,
+   "jaccard_stars_dep_log1p": 0.43558282208588955
+  },
+  "0.3": {
+   "stars": {
+    "n_repos": 100182.25714285712,
+    "cost_reels": 0.29998776089337487,
+    "dq_by": {
+     "stars": 0.6336077418046074,
+     "dep_D1": 0.7549544829316425,
+     "dep_log1p_D1": 0.6230195701775346
+    },
+    "top_census": [
+     "codecrafters-io/build-your-own-x",
+     "sindresorhus/awesome",
+     "public-apis/public-apis",
+     "freeCodeCamp/freeCodeCamp",
+     "EbookFoundation/free-programming-books",
+     "donnemartin/system-design-primer",
+     "nilbuild/developer-roadmap",
+     "jwasham/coding-interview-university",
+     "vinta/awesome-python",
+     "awesome-selfhosted/awesome-selfhosted"
+    ]
+   },
+   "dep_D1": {
+    "n_repos": 47538.943847410315,
+    "cost_reels": 0.29999999999999993,
+    "dq_by": {
+     "stars": 0.30315412207385795,
+     "dep_D1": 0.758691749277278,
+     "dep_log1p_D1": 0.6587002800918247
+    },
+    "top_census": [
+     "babel/babel",
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "jestjs/jest",
+     "svg/svgo",
+     "DefinitelyTyped/DefinitelyTyped",
+     "ReactiveX/rxjs"
+    ]
+   },
+   "dep_log1p_D1": {
+    "n_repos": 51505.31438262059,
+    "cost_reels": 0.29999999999999993,
+    "dq_by": {
+     "stars": 0.3137622497865063,
+     "dep_D1": 0.7548935042769109,
+     "dep_log1p_D1": 0.6753540343204254
+    },
+    "top_census": [
+     "babel/babel",
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "jestjs/jest",
+     "svg/svgo",
+     "ReactiveX/rxjs",
+     "expressjs/express"
+    ]
+   },
+   "mix50": {
+    "n_repos": 100080.20164953248,
+    "cost_reels": 0.29999999999999993,
+    "dq_by": {
+     "stars": 0.6335726267356556,
+     "dep_D1": 0.7565573720794773,
+     "dep_log1p_D1": 0.6224018984619831
+    },
+    "top_census": [
+     "babel/babel",
+     "react/react",
+     "postcss/postcss",
+     "codecrafters-io/build-your-own-x",
+     "zloirock/core-js",
+     "sindresorhus/awesome",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "public-apis/public-apis",
+     "jestjs/jest"
+    ]
+   },
+   "jaccard_stars_dep_D1": 0.4860248447204969,
+   "jaccard_stars_dep_log1p": 0.5098039215686274
+  },
+  "1.0": {
+   "stars": {
+    "n_repos": 120231.18781936522,
+    "cost_reels": 0.9999999999999996,
+    "dq_by": {
+     "stars": 0.7047480470212978,
+     "dep_D1": 0.7570623862617896,
+     "dep_log1p_D1": 0.6644407192401834
+    },
+    "top_census": [
+     "codecrafters-io/build-your-own-x",
+     "sindresorhus/awesome",
+     "public-apis/public-apis",
+     "freeCodeCamp/freeCodeCamp",
+     "EbookFoundation/free-programming-books",
+     "donnemartin/system-design-primer",
+     "nilbuild/developer-roadmap",
+     "jwasham/coding-interview-university",
+     "vinta/awesome-python",
+     "awesome-selfhosted/awesome-selfhosted"
+    ]
+   },
+   "dep_D1": {
+    "n_repos": 54074.02857142857,
+    "cost_reels": 0.5220217810594774,
+    "dq_by": {
+     "stars": 0.36310519647652434,
+     "dep_D1": 0.7587197064191052,
+     "dep_log1p_D1": 0.6974010173689122
+    },
+    "top_census": [
+     "babel/babel",
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "jestjs/jest",
+     "svg/svgo",
+     "DefinitelyTyped/DefinitelyTyped",
+     "ReactiveX/rxjs"
+    ]
+   },
+   "dep_log1p_D1": {
+    "n_repos": 54074.02857142857,
+    "cost_reels": 0.5220217810594774,
+    "dq_by": {
+     "stars": 0.36310519647652434,
+     "dep_D1": 0.7587197064191052,
+     "dep_log1p_D1": 0.6974010173689122
+    },
+    "top_census": [
+     "babel/babel",
+     "postcss/postcss",
+     "zloirock/core-js",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "react/react",
+     "jestjs/jest",
+     "svg/svgo",
+     "DefinitelyTyped/DefinitelyTyped",
+     "ReactiveX/rxjs"
+    ]
+   },
+   "mix50": {
+    "n_repos": 120231.18781936522,
+    "cost_reels": 0.9999999999999999,
+    "dq_by": {
+     "stars": 0.7047480470212978,
+     "dep_D1": 0.7570623862617896,
+     "dep_log1p_D1": 0.6644407192401834
+    },
+    "top_census": [
+     "babel/babel",
+     "react/react",
+     "postcss/postcss",
+     "codecrafters-io/build-your-own-x",
+     "zloirock/core-js",
+     "sindresorhus/awesome",
+     "postcss/autoprefixer",
+     "lodash/lodash",
+     "public-apis/public-apis",
+     "jestjs/jest"
+    ]
+   },
+   "jaccard_stars_dep_D1": 0.6274362818590704,
+   "jaccard_stars_dep_log1p": 0.6274362818590704
+  }
+ },
+ "dV_dep_greedy_0.1": {
+  "dV_dep": 0.23500505850754097,
+  "dV_stars": 0.0758090362046275
+ },
+ "dV_star_greedy_0.1": {
+  "dV_dep": 0.23188014492207557,
+  "dV_stars": 0.16659502107452537
+ },
+ "hypotheses": {
+  "H41a": {
+   "value": 0.018986401719250253,
+   "rule": "<0.3",
+   "supported": true
+  },
+  "H41b": {
+   "value": 0.3717277486910995,
+   "rule": ">=0.5",
+   "supported": false
+  },
+  "H41c": {
+   "value": 0.06596242284139825,
+   "boot90": [
+    0.024351644536523828,
+    0.06674645617555391,
+    0.5594099041801868
+   ],
+   "rule": ">=0.5",
+   "supported": false
+  },
+  "H41d": {
+   "value": 0.0028427559762108927,
+   "rule": ">=0.05",
+   "supported": false
+  },
+  "H41e": {
+   "ratio_star_sel_eval_dep": 0.9866775667612651,
+   "jaccard": 0.38277919863597615,
+   "rule": "ratio<=0.5 and jaccard<0.2",
+   "supported": false
+  },
+  "H41f": {
+   "value": 0.7601550057419465,
+   "rule": ">=0.6",
+   "supported": true
+  },
+  "H41g": {
+   "mix_vs_star_opt": 0.9966436422589949,
+   "mix_vs_dep_opt": 0.9950562739193948,
+   "rule": "both>=0.8",
+   "supported": true
+  }
+ },
+ "runtime_seconds": 3.870342969894409
+}

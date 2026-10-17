@@ -1,0 +1,90 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究029：価値の重みを星から依存関係へ（open_problems 87） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="029open_problems-87">研究029：価値の重みを星から依存関係へ（open_problems 87）</h1>
+<p>事前登録：PREREGISTRATION.md（2026-10-17T04:37:35Z、依存データの収集前）。
+データ：collect.py（packages.ecosyste.ms の公開 lookup API、匿名・読み取りのみ、04:38〜04:44 UTC、1,514件・失敗0）→ data/deps_raw.jsonl。解析：sim.py（約4秒、028 の sim.py を runpy で再利用）→ results.json、stdout.txt、fig_stars_vs_deps.png、fig_budget_cross_eval.png。探索（登録外）：explore.py → explore_results.json、explore_stdout.txt。
+再現：024〜028 を <code>/tmp/rep029/</code> に複製し、028 の sim.py・explore.py を再実行（results.json 679キー、explore_results.json 137キー、runtime 以外差分0）。029 も <code>/tmp/rep029b/</code> で再実行し差分0。</p>
+<h2 id="_1">問い</h2>
+<p>028 は「星の数」を repo の価値とみなし、0.1 リールの欲張り選択が星順の2.8倍効くと出したが、選ばれたのは一覧や教材だった。価値を「どれだけ多くの repo がそれに依存しているか」で測ると、重要 repo の割合、選ばれる集合、q・ΔV はどう変わるか。</p>
+<h2 id="_2">事実入力（本回開いて確認）</h2>
+<ul>
+<li>【事実（<a href="https://packages.ecosyste.ms/docs/api/v1/openapi.yaml">ecosyste.ms Packages API の OpenAPI 定義</a>、sources/packages_openapi.yaml）】<code>/packages/lookup</code> は repository_url で package を引き、<code>dependent_repos_count</code>・<code>dependent_packages_count</code> を返す。sort 引数に dependent_repos_count が使える。匿名の上限は 5,000/時（応答ヘッダー）。</li>
+<li>【事実（同 API の応答、本回）】例：psf/requests の最大 package は pypi:requests で dependent_repos_count 679,836（sources/lookup_psf_requests_example.json）。</li>
+</ul>
+<h2 id="_3">方法</h2>
+<ul>
+<li>対象：028 の items（≥20,000 星の全数 1,339件と、025 標本の高層 175件、区間の重み w つき）。</li>
+<li>D1 = repo に結びつく package の dependent_repos_count の最大値（主）。感度：log1p(D1)、生態系ごとの最大の和 D2、dependent_packages_count の最大 D3、探索で生態系ごとに総量をそろえた重み。</li>
+<li>依存数は 2026 年の値で、2020 年の収蔵時ではない。</li>
+<li>読者 B（RAM 4〜144 KiB）、費用、ΔV の式、設定 c4（4 KiB 辞書・lc0）は 028 と同じ。</li>
+</ul>
+<h2 id="_4">主要結果</h2>
+<ul>
+<li>【独自計測】≥20,000 星（1,337件）：Spearman ρ(星, D1) = <strong>0.019</strong>（D3 で 0.030）。D1=0 は <strong>37%</strong>（package なし 18%）、D1 ≥10,000 は 21%、中央値 6、上位1%は 167万以上。依存の上位は babel（467万）、postcss（371万）、core-js、autoprefixer、lodash、react。星の上位（build-your-own-x、awesome など）とは別物。</li>
+<li>【独自計測】Featured15 の D1：TypeScript 210万、rails 136万（activesupport）、bootstrap 87万、Alamofire 3万、openssl 3,674、node 1,249、php-src 187、cpython 111、dotnet/core 89、v8 5、linux 1・bitcoin 1（どちらも名前の偶然一致の package）、Homebrew・docker machine・hadoop 0。<strong>OS のカーネル、言語の処理系、bitcoin のような基盤は、パッケージの依存数ではほぼ0になる。</strong></li>
+<li>【独自計測】依存重みの94%が npm、星重みの51%は D1=0 の repo にある。</li>
+<li>【独自推定】高層全体での割合（D1）：≥20,000 星全数 <strong>6.6%</strong>（ブートストラップ90%区間 <strong>2.4〜56%</strong>）、Featured15 0.28%。標本の1件 bestiejs/json3（D1 237万×区間重み556）だけで依存重みの <strong>86%</strong> を占める。log1p(D1) では ≥20,000 星 2.4%（2.0〜3.0%）、D3 では 57%、生態系正規化では 53%。<strong>高層全体の依存重みの割合は、175件の標本からは決まらない。</strong></li>
+<li>【独自推定】高層全体を c4 で二重書き：q は星重み 0.760、依存重み 0.760、log1p 0.760（ΔV 0.236）。重みの選び方に関係しない。</li>
+<li>予算つき選択（c4、高層全体、0.1 リール）：星で選んだ集合を依存で評価すると q 増分 0.747、依存で選ぶと 0.757（比0.99）。Jaccard 0.38。ただし両者とも json3 の束を含むことでほぼ決まる。逆に依存で選んだ集合を星で評価すると 0.214（星で選べば 0.507）、ΔV は 0.076（星で選べば 0.167）。依存で選ぶ欲張りは D1=0 の repo を決して選ばないので、星の評価では 0.36 で頭打ちになる。</li>
+<li>星と依存を半々に混ぜた欲張り：0.1 リールで星の最適の <strong>99.7%</strong>、依存の最適の <strong>99.5%</strong>。</li>
+<li>探索（登録外、≥20,000 星の全数だけを母集団にして標本の裾を除く。全部書いても c4 で 0.126 リール）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>予算（リール）</th>
+<th>Jaccard（星・依存）</th>
+<th>星で選び依存で評価／依存の最適</th>
+<th>依存で選び星で評価／星の最適</th>
+<th>半々の混合（星／依存の最適比）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.003</td>
+<td>0.22</td>
+<td>0.62</td>
+<td>0.24</td>
+<td>0.915／0.937</td>
+</tr>
+<tr>
+<td>0.01</td>
+<td>0.34</td>
+<td>0.74</td>
+<td>0.37</td>
+<td>0.968／0.979</td>
+</tr>
+<tr>
+<td>0.03</td>
+<td>0.50</td>
+<td>0.95</td>
+<td>0.51</td>
+<td>0.995／0.995</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">仮説の判定</h2>
+<ul>
+<li>H41a（ρ &lt; 0.3）：<strong>支持</strong>（0.019）。</li>
+<li>H41b（≥20,000 星の D1=0 が ≥50%）：<strong>棄却</strong>（37%）。</li>
+<li>H41c（依存重みで ≥20,000 星の割合 ≥50%）：<strong>棄却</strong>（6.6%）。ただし90%区間が 2.4〜56% で、実質は「決められない」。</li>
+<li>H41d（Featured15 が依存重みで ≥5%）：<strong>棄却</strong>（0.28%）。基盤が依存数に現れないため。</li>
+<li>H41e（星の選択は依存の最適の ≤50%、Jaccard &lt; 0.2）：<strong>棄却</strong>（0.99、0.38）。全数だけの探索でも 0.62、0.22 で棄却。損失は逆向き（依存で選ぶと星で大きく損をする）に大きい。</li>
+<li>H41f（高層全体の c4 で依存重みの q ≥0.6）：<strong>支持</strong>（0.760）。</li>
+<li>H41g（半々の混合が両方の最適の ≥80%）：<strong>支持</strong>（99.7%／99.5%。全数だけの探索でも 0.003 リールで 91.5%／93.7%）。</li>
+</ul>
+<h2 id="_6">批判的検討（限界）</h2>
+<ul>
+<li>依存数は npm の大きさに引っ張られ（94%）、生態系の間で比べられない。生態系ごとに総量をそろえると ≥20,000 星の割合は 6.6%→53% に変わる。どちらも「回復に役立つ度合い」の代わりとしては弱い【推測】。</li>
+<li>lookup は repository_url の一致で引くので、名前の偶然一致（linux の bower 版など）や、改名した repo の取りこぼしがありうる。D1 は最大値なので、偶然一致で小さな値が付く影響は小さい。</li>
+<li>依存重みは裾が極端に重く、区間重み w の大きい標本1件が全体を決めた。高層全体の割合や、0.1 リールの予算つき選択の評価は、この1件の有無で大きく動く。決めるには依存の上位の全数調査が要る（open_problems 90）。</li>
+<li>2026 年の依存数を使った。2020 年の収蔵時とはずれる。</li>
+<li>修正：sim.py の q 計算で、全重みが二重書きされたとき 0/0 になる不具合を初回実行後に直した（予算 1 リールの値だけに影響し、判定には使っていない）。</li>
+</ul>
+<h2 id="_7">結論</h2>
+<p>星と依存数は ≥20,000 星の repo の間でほぼ無相関（ρ 0.02）で、予算が小さいほど選ばれる repo が入れ替わる（0.003 リールで Jaccard 0.22）。損失は非対称で、依存数だけで選ぶと星で測った価値の約4分の3を失う。星で選んだ場合に依存で測って失う分はそれより小さい（0.003 リールで約4割）。依存数だけで選ぶのは危うい。linux、cpython、bitcoin、hadoop のような基盤がほぼ0と数えられるからである。2つを正規化して半々に混ぜると、どちらで測っても最適の91%以上が得られる。高層全体を c4 で書けば（約4 リール）、q は重みによらず 0.76 で、選び方の問題そのものが消える。依存で測った重要 repo の割合は、標本の裾が重すぎて今のデータでは決まらない。</p>
+<h2 id="_8">誰が何を変えるべきか</h2>
+<ul>
+<li>Tech Tree の索引担当とアーカイブ運営者：小窓版を 0.03 リール（約3.4 GB）未満の予算で選ぶなら、星と依存数の正規化重みを半々に混ぜて選ぶ（どちらで測っても損失は9%未満）。依存数だけでは選ばない（OS・処理系・基盤ソフトが抜ける）。0.13 リールあれば ≥20,000 星の全数、約4 リールあれば高層全体を書けば、重みの議論は要らない。028 の提言（高層全体を c4 で）は重みを変えても成り立つので維持する。</li>
+<li>本研究所：依存重みでの母集団の推定には、標本ではなく依存の上位の全数調査を使う。</li>
+</ul>
+<h2 id="_9">既存研究に対する新規性</h2>
+<p>028 は星だけで価値を測った。本回は ≥20,000 星の全数について公開の依存数を取り、星との無相関、基盤ソフトの抜け、重みの裾の重さによる推定不能を数値で示し、重みに頑健な選び方（半々の混合、または高層全体の書き込み）を予算ごとに示した。</p><footer><hr><small>自動生成</small></footer></body></html>

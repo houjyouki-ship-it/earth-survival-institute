@@ -1,17 +1,17 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="29">次回（第29回）研究計画</h1>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次回の計画 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="30">次回（第30回）研究計画</h1>
 <h2 id="_1">読み込むもの</h2>
 <ul>
-<li>README.md、log.md（第28回）、open_problems.md（82、84、85、86、87、88、89）、priorities.md</li>
-<li>research/028-important-repo-dualwrite/{report.md, results.json, explore_results.json, sim.py, explore.py}</li>
-<li>まず 024〜028 を <code>/tmp/rep029/</code> に並べて複製し、028 の <code>python3 sim.py</code>（約1.5秒）と <code>explore.py</code>（約2秒）を再実行、results.json と explore_results.json が runtime 以外一致することを確認する（data/census.json と data/compress.json が再現の基点。GitHub は再取得しない）。</li>
+<li>README.md、log.md（第29回）、open_problems.md（82、84、85、86、88、89、90、91、92）、priorities.md</li>
+<li>research/029-dependency-weight/{report.md, results.json, explore_results.json, sim.py, explore.py, data/deps_raw.jsonl}</li>
+<li>まず 024〜029 を <code>/tmp/rep030/</code> に複製し、029 の <code>python3 sim.py</code>（約4秒）と <code>explore.py</code>（約6秒）を再実行、results.json と explore_results.json が runtime 以外一致することを確認する（data/deps_raw.jsonl が基点。ecosyste.ms は再取得しない）。</li>
 </ul>
 <h2 id="2026-10-15">方針（2026-10-15 承認、継続中）</h2>
 <h1 id="3reportmd">3（知識保存と文明回復）を主軸にする。毎回、report.md に「誰が何を変えるべきか」と、既存研究に対する新規性を書く。</h1>
 <h2 id="_2">主課題候補</h2>
-<p>優先候補 A（推奨）：<strong>価値の重みを依存関係にする（87）</strong>。028 の欲張り選択は星重みに強く依存し、一覧や教材に偏った。公開の逆依存数（例：libraries.io や deps.dev のような公開データ、ecosyste.ms の公開 API などを実際に開いて使えるか確認する）で ≥20,000 星の repo に依存重みをつけ、028 の census.json と compress.json だけで q・ΔV・選ばれる集合の違いを計算する。データ収集は30分以内、API の上限に注意（028 では chromium の再帰走査で上限を使い切りかけた。木の走査は1 repo あたりの呼び出し数に上限を設ける）。</p>
-<p>優先候補 B：<strong>小窓版とテープ読者（89）</strong>。027 の traces.npz の方式を、4 KiB 辞書の版で数え直す（026 の計数つき復号器で 4 KiB・lc0 の xz を復号し、遠い参照がなくなることを確認）。追加の計測は30件の再圧縮のみ。</p>
-<p>優先候補 C：<strong>圧縮率の層化（88）</strong>。高層の TAR の大きさ区間ごとに10件ずつ圧縮し、費用 4〜10 リールの幅を狭める。</p>
+<p>優先候補 A（推奨）：<strong>依存の重い裾の全数調査（90）</strong>。029 では標本1件（json3）が依存重みの86%を占め、割合が決まらなかった。ecosyste.ms の <code>/registries/{registryName}/packages</code>（OpenAPI で sort・per_page を確認済み、sources/packages_openapi.yaml）で主要生態系（npm、pypi、rubygems、maven、go、cargo、packagist、nuget）の dependent_repos_count 上位を取り、GitHub repo に写して、≥250 星・2020-02-02 以前作成の repo の依存上位（例：D1 ≥10万）を全数にする。残りは 025 標本で推定。GitHub API は上位の repo の星・作成日・大きさだけ（上限に注意、木の走査はしない。TAR の大きさは API の size を上限として使い、感度を出す）。匿名上限 5,000/時。</p>
+<p>優先候補 B：<strong>小窓版とテープ読者（89）</strong>。027 の traces.npz の方式を、4 KiB 辞書の版で数え直す。</p>
+<p>優先候補 C：<strong>基盤ソフトの重み（91）</strong>。配布系での収録数を第3の重みにする。A で全数ができてから行うと効率がよい。</p>
 <h2 id="_3">推奨</h2>
-<p>A を主課題にする。公開の依存データが使えなければ B に切り替える。</p>
+<p>A を主課題にする。ecosyste.ms の registry 一覧が使えなければ、<code>/packages/critical</code> を試し、それも駄目なら B に切り替える。</p>
 <h2 id="_4">成果物</h2>
-<p>research/029-.../ に sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
+<p>research/030-.../ に collect.py、sim.py（seed 固定）、results.json、図2枚以上、report.md、stdout.txt、PREREGISTRATION.md を作る。log / open_problems / next_plan / priorities を更新する。</p><footer><hr><small>自動生成</small></footer></body></html>
