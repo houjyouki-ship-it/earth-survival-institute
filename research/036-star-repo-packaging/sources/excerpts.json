@@ -1,0 +1,12 @@
+[
+ {"url": "https://docs.brew.sh/Analytics", "fetched": "2026-10-17", "file": "brew_analytics_2026-10-17.html",
+  "excerpt": "Homebrew displays a notice before analytics are enabled so a user can opt out before sending an event. ... Disable analytics persistently with: brew analytics off ... Homebrew retains analytics events in InfluxDB for 365 days."},
+ {"url": "https://formulae.brew.sh/api/analytics/install/365d.json", "fetched": "2026-10-17", "file": "../data/an_formula_365.json",
+  "excerpt": "category formula_install, start_date 2025-10-17, end_date 2026-10-17, total_items 90032, total_count 272471673"},
+ {"url": "https://formulae.brew.sh/api/analytics/cask-install/365d.json", "fetched": "2026-10-17", "file": "../data/an_cask_365.json",
+  "excerpt": "category cask_install, total_items 26505, total_count 25251401"},
+ {"url": "https://formulae.brew.sh/api/formula.json", "fetched": "2026-10-17", "file": "../data/formula.json", "excerpt": "8,661 formulae"},
+ {"url": "https://formulae.brew.sh/api/cask.json", "fetched": "2026-10-17", "file": "../data/cask.json", "excerpt": "7,783 casks"},
+ {"url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1092090.55bfb4d7437b/packages.json.br", "fetched": "2026-10-17", "file": "../data/nix_packages.json.br",
+  "excerpt": "150,769 package attributes (redirected from channels.nixos.org/nixos-unstable/packages.json.br)"}
+]

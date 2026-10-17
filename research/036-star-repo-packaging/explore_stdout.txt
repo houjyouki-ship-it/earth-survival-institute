@@ -1,0 +1,115 @@
+{
+ "content_wide": {
+  "share_all": 0.3783461387329762,
+  "share_of_uncovered": 0.49981217209123774,
+  "uncovered_software_share": 0.316295844242508,
+  "coverage_among_software": 0.4912026387194804
+ },
+ "top50_uncovered_share_wide_content": 0.7930177767369072,
+ "renamed": {
+  "n": 0,
+  "n_new_brew_hit": 0,
+  "weight_new": 0.0,
+  "names": []
+ },
+ "nix_purl": {
+  "n_new": 0,
+  "weight_new": 0.0
+ },
+ "forks_per_star_median": {
+  "content_wide": 0.14702091801328443,
+  "software": 0.11849853728961665,
+  "uncovered_software": 0.1419001552932615,
+  "covered": 0.10594173478904921
+ }
+}
+553834 codecrafters-io/build-your-own-x Markdown pre wide | Master programming by recreating your favorite technologies from scratch.
+489505 public-apis/public-apis Python - wide | A collective list of free APIs
+457191 freeCodeCamp/freeCodeCamp TypeScript - wide | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and compu
+399231 EbookFoundation/free-programming-books Python - wide | :books: Freely available programming books
+374465 donnemartin/system-design-primer Python - wide | Learn how to design large-scale systems. Prep for the system design interview.  Includes A
+369578 nilbuild/developer-roadmap TypeScript - wide | Interactive roadmaps, guides and other educational content to help developers grow in thei
+362561 jwasham/coding-interview-university None pre wide | A complete computer science study plan to become a software engineer.
+327999 vinta/awesome-python Python - wide | The definitive list that answers "I want to do X in Python, which tool should I use?"
+327370 awesome-selfhosted/awesome-selfhosted None pre wide | A list of Free Software network services and web applications which can be hosted on your 
+286932 practical-tutorials/project-based-learning Python - wide | Curated list of project-based tutorials
+277143 996icu/996.ICU None pre wide | Repo for counting stars and contributing. Press F to pay respect to glorious developers.
+250687 trimstray/the-book-of-secret-knowledge None pre wide | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web t
+225319 TheAlgorithms/Python Python - wide | All Algorithms implemented in Python
+210056 ossu/computer-science HTML pre wide | 🎓 Path to a free self-taught education in Computer Science!
+196677 trekhleb/javascript-algorithms JavaScript - wide | 📝 Algorithms and data structures implemented in JavaScript with explanations and links to 
+194748 massgravel/Microsoft-Activation-Scripts Batchfile - - | Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS ac
+190044 ohmyzsh/ohmyzsh Shell - - | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your z
+188782 avelino/awesome-go Go - wide | A curated list of awesome Go frameworks, libraries and software
+187228 jackfrued/Python-100-Days Jupyter Notebook - wide | Python - 100天从新手到大师
+186261 CyC2018/CS-Notes None pre wide | :books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
+184829 getify/You-Dont-Know-JS None pre wide | A book series (2 published editions) on the JS language.
+182547 521xueweihan/HelloGitHub Python - wide | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on Gi
+180243 flutter/flutter Dart - - | Flutter makes it easy and fast to build beautiful apps for mobile and beyond
+175966 github/gitignore None pre wide | A collection of useful .gitignore templates
+174914 twbs/bootstrap MDX - - | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile fir
+162522 jlevy/the-art-of-command-line None pre wide | Master the command line, in one page
+159082 Snailclimb/JavaGuide JavaScript - wide | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
+148061 airbnb/javascript JavaScript - wide | JavaScript Style Guide
+143045 yangshun/tech-interview-handbook TypeScript - wide | Curated coding interview preparation materials for busy software engineers
+143043 vercel/next.js JavaScript - - | The React Framework
+141317 ytdl-org/youtube-dl Python - - | Command-line program to download videos from YouTube.com and other video sites
+141125 iptv-org/iptv TypeScript - wide | Collection of publicly available IPTV channels from all over the world
+139664 ripienaar/free-for-dev HTML pre wide | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and inf
+139403 microsoft/PowerToys C - - | Microsoft PowerToys is a collection of utilities that supercharge productivity and customi
+139273 golang/go Go - - | The Go programming language
+134001 excalidraw/excalidraw TypeScript - - | Virtual whiteboard for sketching hand-drawn like diagrams
+129229 Chalarangelo/30-seconds-of-code JavaScript - wide | Coding articles to level up your development skills
+126694 react/react-native C++ - - | A framework for building native applications using React
+122803 Hack-with-Github/Awesome-Hacking None pre wide | A collection of various awesome lists for hackers, pentesters and security researchers
+119237 justjavac/free-programming-books-zh_CN None pre wide | :books: 免费的计算机编程类中文书籍，欢迎投稿
+116315 jaywcjlove/awesome-mac Swift - wide |  This project is dedicated to collecting high-quality macOS software and organizing them 
+111661 supabase/supabase TypeScript - - | The Postgres development platform. Supabase gives you a dedicated Postgres database to bui
+110614 papers-we-love/papers-we-love Shell - wide | Papers from the computer science community to read and discuss.
+109300 axios/axios JavaScript - - | Promise based HTTP client for the browser and node.js
+106297 ruanyf/weekly None pre wide | 科技爱好者周刊，每周五发布
+105663 goldbergyoni/nodebestpractices Dockerfile - wide | ✅ The Node.js best practices list (July 2026)
+105176 microsoft/terminal C++ - - | The new Windows Terminal and the original Windows console host, all in the same place!
+103225 react/create-react-app JavaScript - - | Set up a modern web app by running one command.
+100537 mtdvio/every-programmer-should-know None pre wide | A collection of (mostly) technical things every software developer should know about
+99795 ant-design/ant-design TypeScript - - | An enterprise-class UI design language and React UI library
+{
+ "name_match_new_weight": 0.11018184358618803,
+ "name_match_new_examples": [
+  "TheAlgorithms/Python",
+  "flutter/flutter",
+  "github/gitignore",
+  "twbs/bootstrap",
+  "ytdl-org/youtube-dl",
+  "golang/go",
+  "supabase/supabase",
+  "microsoft/terminal",
+  "microsoft/playwright",
+  "laravel/laravel",
+  "macrozheng/mall",
+  "python/cpython",
+  "tensorflow/models",
+  "nestjs/nest",
+  "apache/superset"
+ ],
+ "registry_new_weight": 0.15334139869087404,
+ "registry_new_examples": [
+  "twbs/bootstrap",
+  "airbnb/javascript",
+  "vercel/next.js",
+  "ytdl-org/youtube-dl",
+  "react/react-native",
+  "axios/axios",
+  "react/create-react-app",
+  "ant-design/ant-design",
+  "mui/material-ui",
+  "microsoft/playwright",
+  "puppeteer/puppeteer",
+  "storybookjs/storybook",
+  "mermaid-js/mermaid",
+  "sveltejs/svelte",
+  "laravel/laravel"
+ ],
+ "union_plus_name_plus_registry": 0.5928522912951344,
+ "coverage_among_software_wide_plus": 0.7958053074268446
+}

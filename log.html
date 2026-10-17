@@ -489,4 +489,19 @@
 <li>判定：H47a・b・e 支持、H47c・d・f 棄却。</li>
 <li>逸脱：事前登録の「26件」は数え間違いで正しくは25件（判定に影響なし）。scipy がなく numpy の順位相関に置き換え（結果を見る前）。H47d の型を修正。explore.py は初回結果の後に追加。</li>
 <li>「誰が何を変えるべきか」：記載あり（南半球の第2拠点には、Debian に入っていない星の上位 repo を優先して置く。本研究所は 034 の f_orph の仮置きを撤回し、032〜034 の順位を「Ord では束が上、XPT では第2拠点がほぼ同等か上」と読み替える）。</li>
+</ul>
+<h2 id="36-2026-10-17">第36回 2026-10-17</h2>
+<ul>
+<li>再現チェック：024・028・030〜035 を <code>/tmp/rep036/</code> に複製し、035 の collect.py と sim.py（計約22秒）を再実行した。results.json は runtime 以外一致（784キー、差分0）。</li>
+<li>文献・データ（本回開いて確認）：Homebrew の formula API（8,661件）・cask API（7,783件）・365日の install 集計（formula 計 272,471,673件、cask 計 25,251,401件）、Homebrew Analytics の文書（opt-out、365日保持）、nixos-unstable の packages.json（150,769件）。sources/excerpts.json。GitHub GraphQL で 1,368件のメタデータ（読み取りのみ）。</li>
+<li>研究036を実施：<code>research/036-star-repo-packaging/</code>（collect.py 約19秒、sim.py 約19秒 seed 20261036、explore.py）。成果物は results.json、explore_results.json、stdout.txt、fig_coverage_content.png、fig_forph_plug.png、report.md、PREREGISTRATION.md（18:43Z、索引の取得前）、data/、sources/。<code>/tmp/rep036b/</code> で再実行し照合はバイト一致、results.json は runtime 以外一致（625キー）。Homebrew の項を消すと 035 の星側と誤差0で一致。</li>
+<li>方法：028 の ≥20,000 星 1,368件を Homebrew・nixpkgs の URL と照合し、Debian（035）と合わせた収録、文章型の割合、Homebrew の install 数を測り、035 と同じ係数の組で星側 f_orph を置き直して 034 に戻した。</li>
+<li>主要数値：</li>
+<li>収録（星重み）：Debian 17.9%、Homebrew 20.1%、nixpkgs 24.0%、和 <strong>36.8%</strong>。M4（035 の取りこぼし）は +0.69 ポイント。</li>
+<li>Homebrew の install（365日、n=278）：中央値 18,970件、星との ρ 0.22。</li>
+<li>星側 f_orph 0.472→<strong>0.451</strong>（上限の変種 0.37〜0.39）、半々 0.302→0.291。P(S＞T＋C) は 0／<strong>0.41</strong>／<strong>0.93</strong>（035 は 0／0.43／0.94）。</li>
+<li>探索：広い規則で未収録の星重みの 50.0%（上位50件の79%）が一覧・教材。registry の package も鏡像扱いにした上限で P(S＞T＋C) 0／0.20／0.89。</li>
+<li>判定：H48a・c・f 支持（a は境界に近い）、H48b・d・e 棄却（b は分類規則の誤りが主因）。</li>
+<li>逸脱：Homebrew の集計を事前登録で「任意参加」と誤記（実際は opt-out）。nixpkgs の取り直し、GraphQL の欠けの取り直し、型エラーの修正は結果を見る前。explore は初回結果の後。</li>
+<li>「誰が何を変えるべきか」：記載あり（南半球の第2拠点には配布系に載らない一覧・教材・本の repo を最初に置く。本研究所は配布系の照合をこれ以上追わず a を次の主課題にする）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
