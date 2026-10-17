@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究030 事前登録（open_problems 90：依存の重い裾の全数調査） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="030-open_problems-90">研究030 事前登録（open_problems 90：依存の重い裾の全数調査）</h1>
+<p>登録時刻：2026-10-17T06:44:22Z（全数の収集・解析の前。形式確認として registries 一覧3ページ、npmjs.org の上位リストを per_page=2・1000 で page 1・5・20 だけ開いた：1000位 134万、5000位 約5.3万、2万位 約1,400）</p>
+<h2 id="_1">問い</h2>
+<p>029 では 025 標本の1件（bestiejs/json3、区間重み 556）が高層の依存重みの86%を占め、≥20,000 星の割合が 2.4〜56% と決まらなかった。依存数の大きい repo を全数で数え、標本はそれ以外だけに使うと、割合・q・予算つき選択はどう変わるか。</p>
+<h2 id="_2">データ</h2>
+<ul>
+<li>packages.ecosyste.ms の公開 API（匿名、読み取りのみ）：<code>/registries</code>（117件）と <code>/registries/{name}/packages?sort=dependent_repos_count&amp;order=desc&amp;per_page=1000</code>。各 registry で、最後の値が T_collect=1,000 未満になるか尽きるまでページを進める。上位1件が 1,000 未満の registry は1ページで止める。</li>
+<li>package → GitHub repo：repository_url（または repo_metadata.full_name）が github.com のもの。repo ごとに D1_cen = 収集した package の dependent_repos_count の最大値。</li>
+<li>星・作成日・fork・大きさ：GitHub GraphQL（gh の認証、読み取りのみ、100件ずつ）で nameWithOwner（改名を解決）、stargazerCount、createdAt、isFork、diskUsage を取る。取れなければ repo_metadata の値を使い、数を報告する。</li>
+<li>高層の条件は 025 と同じ：現在の星 ≥250、created &lt; 2020-02-02、fork でない。</li>
+</ul>
+<h2 id="t10000-t1000100000">推定（主設定 T=10,000、感度 T=1,000・100,000）</h2>
+<ul>
+<li>全数層：高層のうち D1_cen ≥ T の repo（星 &lt;20,000 のもの＝「裾の全数」、≥20,000 星は 028 の全数に既にある）。重み w=1、D1 は D1_cen と 029 の D1 の大きい方。</li>
+<li>標本層：025 標本の高層175件のうち、裾の全数に入らないもの。区間ごとの重みを w_b' = (N_b − 裾の全数のうちその区間の件数) / (区間の残りの標本数) に付け直す（N_b は 025 の total_count_now）。</li>
+<li>TAR の大きさ（新しく加わる repo）：025 標本の高層の (api_size_kb_now, tar_bytes) で log–log 回帰し、残差を復元抽出して付ける（seed 20261030）。感度：TAR = diskUsage の上限扱い（×1）と回帰の中央値。</li>
+<li>読者 B、ΔV の式、費用、設定 c4（4 KiB 辞書・lc0）は 028/029 と同じ（runpy で再利用）。</li>
+<li>不確実性：標本層だけの区間内ブートストラップ（2,000回、seed 20261030）。</li>
+</ul>
+<h2 id="_3">仮説（判定規則）</h2>
+<ul>
+<li>H42a（方法の検証）：029 の lookup で D1 ≥ T の 025 標本の高層 repo と ≥20,000 星の census repo のうち、≥90% が全数リスト（D1_cen ≥ T）に見つかる。</li>
+<li>H42b：主設定の ≥20,000 星の依存重みの割合の 90% 区間の幅が、029（2.4〜56%、53.5 ポイント）の 1/5 以下（≤10.7 ポイント）になる。</li>
+<li>H42c：主設定の ≥20,000 星の割合（点推定）≥ 15%（029 は json3 の重みで過小だった、という予想）。</li>
+<li>H42d：裾の全数（&lt;20,000 星、D1≥T）が高層全体の依存重みの ≥ 50% を占める。</li>
+<li>H42e：依存の大きい repo は小さい（小さな npm 部品）ので、補正後の依存重みの収蔵のままの q（読者 B）は星重みの q（0.031）の ≥ 2倍。</li>
+<li>H42f：c4・0.01 リールで、補正後の依存重みで選ぶ欲張りの q 増分 ≥ 0.5。</li>
+<li>H42g：星と補正後の依存の正規化重みを半々に混ぜた欲張り（c4・0.01 リールと 0.1 リール）が、両方の重みで自分の最適の ≥ 80%（029 の H41g の再検定）。</li>
+<li>補助（判定なし）：標本による「D1≥T の高層 repo の件数」の推定（Σ w·1[D1≥T]）と全数の件数の比。</li>
+</ul>
+<h2 id="_4">逸脱の扱い</h2>
+<p>取得できなかったページ・repo は数を報告する。registry の途中で止まった場合は、その registry の最後の値を「取りこぼしうる上限」として記録する。</p><footer><hr><small>自動生成</small></footer></body></html>
