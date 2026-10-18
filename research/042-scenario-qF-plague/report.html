@@ -1,0 +1,136 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究042：崩壊後の集団は疫病の繰り返す環境か開拓地の環境か（q_F、123）と、疫病を止める知識の効き（124 の一部） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="042q_f123124">研究042：崩壊後の集団は疫病の繰り返す環境か開拓地の環境か（q_F、123）と、疫病を止める知識の効き（124 の一部）</h1>
+<h2 id="_1">問い</h2>
+<p>041 では、崩壊後の人口の増え方を「疫病の繰り返す定住社会（E、年0.2%前後）」か「近代医療なしの開拓地（F、年約2.5%）」かの混合にし、F の割合 q_F を全シナリオ共通の U(0,1) にした。q_F で n*（金庫に価値が出る単一集団の最小の大きさ）は 5,600〜27.8万人、重い崩壊での板の手引きの価値は 5倍動いた。本回は E を作る原因を分け、シナリオと集団の大きさから q_F が決まる模型に置き換える。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ペスト菌はオーストラリアを除くすべての大陸の齧歯類の自然の宿主で循環し、自然の病巣は北緯55°〜南緯40°の帯にある。今も年約600件、多いのはコンゴ民主共和国・マダガスカル・ペルー</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Plague_(disease)">Plague (disease)</a>、<a href="https://en.wikipedia.org/wiki/Sylvatic_plague">Sylvatic plague</a>）】</td>
+</tr>
+<tr>
+<td>1346〜1671年に欧州のどこかで毎年ペストがあった（Biraben、使い方に注意あり）。ロシアは 1350〜1490年に 5〜6年に1回、パリは16〜17世紀に平均約3年に1回。西欧の最後の大流行は 1720年の Marseille。消えた理由はよく分かっていない</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Black_Death">Black Death</a>、<a href="https://en.wikipedia.org/wiki/Second_plague_pandemic">Second plague pandemic</a>）】</td>
+</tr>
+<tr>
+<td>30年戦争の民間人の死因は腺ペスト 64%、飢え 12%、戦闘 3% 未満</td>
+<td>【事実（Second plague pandemic）】</td>
+</tr>
+<tr>
+<td>米国本土で最初のペストの流行は 1900年の San Francisco。否認のあいだに野生の齧歯類に足場を得て他州へ広がった可能性がある（それ以前から地リスにいた可能性もある）。検疫は2日半で解かれた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/San_Francisco_plague_of_1900%E2%80%931904">San Francisco plague of 1900–1904</a>）】</td>
+</tr>
+<tr>
+<td>麻疹の宿主は人だけ。人から人へ移る病原体は、閉じた集団が critical community size 未満になると絶える。Faroe 諸島では 1846年まで60年間麻疹がなかった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Measles">Measles</a>、<a href="https://en.wikipedia.org/wiki/Critical_community_size">Critical community size</a>）】</td>
+</tr>
+<tr>
+<td>1770年に Habsburg が Ottoman との境に cordon sanitaire を置き（旅人の隔離 21〜48日、1871年まで）、その後 Austria の領内でペストの大流行はなく、Ottoman 側は19世紀半ばまで流行が続いた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Cordon_sanitaire_(medicine)">Cordon sanitaire (medicine)</a>）】</td>
+</tr>
+<tr>
+<td>Marseille 1720：船は検疫所に入れられたが商人が積荷を求め、市の人口 9万人のうち 5万人、周辺で 5万人が死に、人口が戻ったのは 1765年</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Great_Plague_of_Marseille">Great Plague of Marseille</a>）】</td>
+</tr>
+<tr>
+<td>Eyam 1665：村が自らを封鎖し、少なくとも 260人が死んだ</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Quarantine">Quarantine</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>ここから読めること【推測】：041 の F の事例（18世紀の Quebec・米国）はペストのない土地だった。今は北米にもペストの自然の宿主があり、病巣のない大陸はオーストラリアだけである。一方、天然痘は根絶され、麻疹のような人だけの病原体は小さく分かれた集団では絶えうる。E を決める主な原因は、人だけの病原体ではなく自然の宿主を持つペストだと置く。</p>
+<h2 id="simpyseed-20261042n20000048">方法（<code>sim.py</code>、seed 20261042、N=200,000、約48秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T06:40Z、初回実行前）。</li>
+<li>040 の sim.py を 041 と同じ切り方で exec し、038〜041 の乱数・関数をそのまま使った。041 の E/F の割り当てを新しい関数に入れ、041 の U3 の重い崩壊1件あたり TAB（0.020977）を<strong>誤差0で再現</strong>（<code>check_041</code>）。</li>
+<li>人口待ちを二段にした：集団が N_urb（ペストが町に定着し繰り返すようになる大きさ、logU(1e4, 1e7)【推測】）未満のあいだは F の r、以上は E の r。</li>
+<li>標本・シナリオごとに E の原因を3つ置いた（確率はすべて【推測】）：崩壊の原因の病原体の再来 p_agent（BIO U(0,0.5)、CASC U(0,0.3)、U3 U(0,0.25)、NAT U(0,0.2)、ほか0）→常に E。ペスト以外（争い・気候・飢え）p_other（基本 U(0,0.2)、CASC U(0.1,0.5)、NUC_G U(0.05,0.3)）→常に E。ペストの病巣のある土地 f_foci ~ U(0.5,0.95)（NUC_G で最大の集団がオーストラリアの標本は 0）→N_urb 以上で E。どれもなければ常に F。r_F・r_E・Δ_K は 041 と同じ。</li>
+<li>知識（GROW(p_conv)）：040 と同じ確率で使われたとき、F の部分に Δ_K を足し、検疫で止められる原因（病原体の再来とペスト）を確率 p_conv で取り除く。ペスト以外の原因は知識で動かない。</li>
+<li>p_conv の目安：上の4例（Habsburg 成功、Marseille 失敗、San Francisco 失敗か部分的、Eyam あいまい）を成功 s=1〜3 件と数え、Beta(1+s, 1+4−s) で P(p_conv &gt; 0.77) を出した。</li>
+<li>再現：<code>/tmp/rep042b/</code> で再実行し、results.json は runtime 以外一致（286キー、差分0）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H54a</td>
+<td>U3 の重い崩壊1件あたり TAB ≥ 1.2 × 041</td>
+<td>0.0202 対 0.0210（0.96倍）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H54b</td>
+<td>トルネードで p_other の幅 ＞ f_foci の幅</td>
+<td>0.0030 対 0.0123</td>
+<td><strong>棄却</strong>（ペストのほうが4倍効く）</td>
+</tr>
+<tr>
+<td>H54c</td>
+<td>n* ≤ 041 の 17,068人</td>
+<td><strong>20,410人</strong></td>
+<td><strong>棄却</strong>（差は 1.2倍で小さい）</td>
+</tr>
+<tr>
+<td>H54d</td>
+<td>損益分岐 p_conv* ≥ 0.77</td>
+<td><strong>0.81</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H54e</td>
+<td>重み付き A_Ord・U3 の TAB が 041 の ±30% 以内</td>
+<td>0.00649 対 0.00669（0.97倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H54f</td>
+<td>N_urb を 1e4 と 1e7 に固定して U3 の TAB が 1.5倍以上違う</td>
+<td>0.0129 対 0.0292（2.27倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>重い崩壊の集団の環境（123）</strong>：人口待ちのすべてが F の標本の割合（実効の q_F）は U3 0.36、BIO 0.30、CASC 0.25、AS 0.32（041 は平均 0.5）。「F から始まり N_urb を超えて E」が U3 0.43、BIO 0.37、CASC 0.35。人口待ちのうち F の期間の割合の中央値は U3 0.28、BIO 0.04、CASC 0。重い崩壊の集団は小さくても、待ちの大半は N_urb を超えた後の上の区間で起きる。</li>
+<li><strong>U3 の重い崩壊1件あたり</strong>：TAB 0.0202（041 0.0210）。名前のつく原因の重い崩壊 0.0392（041 0.0422）、CASC 0.0432、BIO 0.0296（041 0.0344）。</li>
+<li><strong>n</strong>*：20,410人（041 17,068人）。</li>
+<li><strong>トルネード（U3 の TAB）</strong>：N_urb 1e4／1e7 で 0.0129／0.0292（幅 0.0163）、f_foci 0／1 で 0.0292／0.0168（幅 0.0123）、p_agent 0／0.25 で 0.0220／0.0182（0.0039）、p_other 0／0.2 で 0.0216／0.0186（0.0030）。</li>
+<li><strong>知識（124）</strong>：GROW(p_conv) = 0／0.1／0.25／0.5／1 で 0.0024／0.0046／0.0079／0.0134／0.0242。損益分岐 p_conv* 0.81（041 は 0.77）。名前のつく原因の重い崩壊ではどの p_conv でも TAB に届かない。p_conv の目安の平均は s=1／2／3 で 0.33／0.50／0.67、P(p_conv &gt; 0.77) は 0.011／0.084／0.33。</li>
+<li><strong>重み付き合計</strong>：A_Ord・U3 の TAB 0.00649（041 0.00669）、GROW(0.5) 0.00186（TAB の 0.29倍）。A_XPT_S・U2 の TAB 0.01157（041 0.01166）、GROW(0.5) は TAB の 0.01倍。</li>
+<li><strong>感度（判定に使わず）</strong>：病巣のない土地（f_foci=0、例えばオーストラリア）の U3 の TAB は 0.0292 で主の設定の 1.45倍。病原体の再来をすべて 0 にすると 0.0220。N_urb ≥ 1e7 では E の期間がなくなり、TAB 0.0292、p_conv* はなし（知識が勝つ余地がない）。NUC_G の標本の 67% で最大の集団がオーストラリアだが、NUC_G は重い崩壊をほとんど作らない。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>原因を分けても、重み付きの結論はほぼ動かなかった</strong>（0.97倍）。041 の U(0,1) は、たまたまこの模型の平均に近い値を与えていた。ただし中身は違う。041 は「標本ごとにずっと E かずっと F」、本回は「小さいうちは F、町ができる大きさで E」が多い。本研究所の予想（重い崩壊の集団は小さいので F が多く、TAB は上がる）は外れた。人口待ちは対数の距離で決まり、N_urb から T2 の閾値までの上の区間が長いためである。</li>
+<li><strong>最大の未知は N_urb（ペストが繰り返し始める集団の大きさ）と、集団がペストの病巣のある土地にいるか（f_foci）に移った</strong>。p_other や崩壊の原因の病原体の再来の幅は、その 1/4〜1/5 しか効かない。N_urb の事前分布 1e4〜1e7 には根拠がない【推測】。島の例（Iceland のペスト）は確かめようとしたが頁が開けず、使っていない。</li>
+<li><strong>E を一度入ったら最後まで続く状態として扱った</strong>のは悲観的かもしれない。西欧のペストは 1720年以降消え、理由は分かっていない（事実）。一方、r_E は黒死病の後の回復で較正しており、ペスト以外の悪条件もそこに入っているので、ペストの期間に重ねると二重に数えている可能性もある【推測】。</li>
+<li><strong>p_conv の目安は4例だけで、選び方も偏っている</strong>（記事になるのは大きな失敗か目立つ成功）。Habsburg の cordon は軍政の国境地帯（Military Frontier）という大きな国家の仕組みに頼っており、T1・T0 の小さな社会で同じことができるかは分からない。San Francisco と Marseille の失敗は知識の不足ではなく、商売の利害で検疫が破られた例である。「知識があれば p_conv が上がる」とは言えず、制度が守られるかの問題でもある【推測】。</li>
+<li><strong>GROW は板の手引きの代わりではなく上乗せ</strong>として測っている。p_conv=0.5 なら U3 の重い崩壊で板の手引きの 0.67倍の上乗せになり、小さくはない。ただし XPT 型の重みでは 0.01倍で、ほとんど意味がない。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>崩壊後の集団が疫病の繰り返す環境に入るかは、主にペストで決まり、ペストは集団が町を持つ大きさに育った後に効く。この仕組みを入れても、重い崩壊での金庫（板の手引き）の価値は 041 の 0.96〜0.97倍でほとんど変わらず、金庫に価値が出る最小の集団は約2万人だった。疫病を止める知識が板の手引きに勝つには検疫が 81% 以上の確率で効く必要があり、歴史の4例からの目安（平均 0.33〜0.67）はそれに届かない。結論を次に左右するのは、ペストが繰り返し始める集団の大きさ（N_urb）と、生き残る集団がペストの病巣のない土地（オーストラリアなど）にいるかどうかである。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：q_F の議論を「どのシナリオか」から「ペストが繰り返す集団の大きさ N_urb と、病巣のない土地にいるか」に移す。次は N_urb の外部根拠（中世・近世の島や小さな地域で、ペストが入っても定着しなかった例と定着した例の人口）を調べる。</li>
+<li><strong>金庫の運営者</strong>：手引きに疫病対策を入れるなら、相手はペスト（鼠と蚤の駆除、穀物の保管、交易品の隔離）に絞る。人だけの病原体は小さな集団では自然に絶えうる。南半球の第2拠点（032）の候補地として、ペストの自然の病巣がないオーストラリアは、生き残る集団が疫病の繰り返しに入りにくいという別の理由でも有利である（ただし拠点の場所と生き残る集団の場所は別の問題で、効く大きさは未確認）。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord・XPT・Beckstead 2015 は崩壊後の回復を集団の大きさや避難所で論じるが、疫病の環境を扱っていない。本研究は、ペストの自然の病巣の地理（オーストラリア以外のすべての大陸）と「米国本土では 1900年まで流行がなかった」ことから、開拓地の高い増加率がペストのない土地の条件つきだったことを指摘し、ペストが町の大きさで繰り返し始める二段の増加を金庫の価値の模型に入れた。確認した資料には、この組み合わせは見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_regime_and_nstar.png</code>、<code>fig_tornado_pconv.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：なし（初回の結果をそのまま採用）。</p><footer><hr><small>自動生成</small></footer></body></html>

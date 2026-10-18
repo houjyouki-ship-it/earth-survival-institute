@@ -588,4 +588,21 @@
 <li>判定：H53a〜f すべて支持（b は境界、c は q_F しだい）。</li>
 <li>逸脱：図の右図の q_F 別の曲線のループが空のまま（図の中身には影響なし）。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は 040 の「増殖の知識を板の手引きより先に」を取り下げ、次は q_F を決める要因を調べる。金庫の運営者は、手引きに知識を足すなら近代医療より疫病の流行を止める方法に絞る。板の手引き自体の優先度は重い崩壊でも 040 の見積もりより高い）。</li>
+</ul>
+<h2 id="42-2026-10-18">第42回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038・039・040・041 を <code>/tmp/rep042/</code> に複製し、041 の sim.py（約43秒、中で 040・039・038 を実行）を再実行した。results.json は runtime 以外一致（618キー、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 123（q_F）を主課題にし、124（p_conv）の一部を足した。</li>
+<li>文献・データ（本回開いて確認）：Wikipedia の Plague (disease)（自然の病巣はオーストラリア以外の全大陸、北緯55°〜南緯40°、年約600件）、Sylvatic plague、Black Death（Biraben：1346〜1671年に欧州のどこかで毎年）、Second plague pandemic（ロシア 5〜6年に1回、パリ約3年に1回、30年戦争の死因 64% が腺ペスト、消えた理由は不明）、San Francisco plague of 1900–1904（米国本土で最初の流行、野生の齧歯類へ）、Measles（宿主は人だけ、Faroe で60年なし）、Critical community size、Cordon sanitaire (medicine)（Habsburg 1770〜1871、以後 Austria で大流行なし）、Great Plague of Marseille（9万人中5万人、1765年に回復）、Quarantine（Eyam 1665）。Iceland のペストの頁は開けず使っていない。sources/excerpts.json。</li>
+<li>研究042を実施：<code>research/042-scenario-qF-plague/</code>（sim.py 約48秒 seed 20261042、計算のみ）。成果物は results.json、stdout.txt、fig_regime_and_nstar.png、fig_tornado_pconv.png、report.md、PREREGISTRATION.md（06:40Z、初回実行前）、sources/。041 の U3 の重い崩壊1件あたり TAB を誤差0で再現。<code>/tmp/rep042b/</code> で再実行し results.json は runtime 以外一致（286キー）。</li>
+<li>方法：E の原因を崩壊の原因の病原体の再来（p_agent）・ペスト（f_foci、集団が N_urb を超えてから E）・それ以外（p_other）に分け、人口待ちを「N_urb 未満は F、以上は E」の二段にした。知識は検疫で止められる原因だけを確率 p_conv で取り除く。p_conv の目安は制度の4例の Beta。</li>
+<li>主要数値：</li>
+<li>重い崩壊の実効の q_F（待ちのすべてが F）：U3 0.36、BIO 0.30、CASC 0.25（041 は平均 0.5）。待ちのうち F の期間の割合の中央値 U3 0.28、BIO 0.04、CASC 0。</li>
+<li>U3 の重い崩壊1件あたり TAB 0.0202（041 の 0.96倍）、名前のつく原因 0.0392。n* 20,410人（041 17,068人）。</li>
+<li>トルネード（U3 の TAB）：N_urb 1e4／1e7 で 0.0129／0.0292、f_foci 0／1 で 0.0292／0.0168、p_agent 0／0.25 で 0.0220／0.0182、p_other 0／0.2 で 0.0216／0.0186。</li>
+<li>損益分岐 p_conv* 0.81。制度の4例の目安は平均 0.33〜0.67、P(p_conv&gt;0.77) 0.011〜0.33。</li>
+<li>重み付き：A_Ord・U3 の TAB 0.00649（041 の 0.97倍）、A_XPT_S・U2 0.01157（0.99倍）。GROW(0.5) は TAB の 0.29倍／0.01倍。</li>
+<li>判定：H54d・e・f 支持、H54a・b・c 棄却（a：小さな集団でも待ちの大半は N_urb より上で起きる。b：ペストの方が4倍効く。c：差は 1.2倍）。</li>
+<li>逸脱：なし。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は q_F の議論をシナリオから N_urb と病巣の地理に移す。金庫の運営者は、疫病対策を入れるならペスト（鼠・蚤・穀物の保管・交易品の隔離）に絞る。南半球の第2拠点の候補としてオーストラリアは、ペストの病巣がない点でも有利かもしれない）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
