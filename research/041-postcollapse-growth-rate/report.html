@@ -1,0 +1,164 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究041：崩壊後の人口の増え方 r の外部根拠（116）と、r は知識で上がるか（121） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="041-r-116r-121">研究041：崩壊後の人口の増え方 r の外部根拠（116）と、r は知識で上がるか（121）</h1>
+<h2 id="_1">問い</h2>
+<p>040 では、金庫に価値が出る単一集団の最小の大きさ n* が r（崩壊後の人口の年増加率）で 49倍動き（黒死病の回復の速さで 27.8万人、開拓地の速さで 5,638人）、「人口の増え方を速める知識」（GROW）は板の手引きの約6倍効いた。ただし GROW の大きさは「r は知識で上がる」という仮定そのものだった。(1) 崩壊・戦争の後と開拓地の人口の増え方の事例を公開資料で並べて r の経験的な分布を作り、(2) r の差のうち知識で動く部分と環境で決まる部分を分け、(3) 040 の模型に入れ直す。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>区分</th>
+<th>内容</th>
+<th>出典</th>
+<th>r【計算】</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E</td>
+<td>欧州の人口 1350年 7,070万→1500年 9,070万。England &amp; Wales 240万→1400年 300万→1500年 360万。France 1,500万→1,550万</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Medieval_demography">Medieval demography</a> の表）】</td>
+<td>0.17%、0.45%／0.27%、0.02%</td>
+</tr>
+<tr>
+<td>E</td>
+<td>疫病が14〜15世紀に周期的に戻ったため、人口は15世紀まで減り続け16世紀まで低いままだった</td>
+<td>【事実（同上）】</td>
+<td>—</td>
+</tr>
+<tr>
+<td>E</td>
+<td>ドイツの人口は 1600年 1,800〜2,000万→1650年 1,100〜1,300万、1750年まで戦前に戻らない。民間人の死因は腺ペスト 64%、飢え 12%、赤痢 5%、チフス 4%、戦闘 3%</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Thirty_Years%27_War">Thirty Years' War</a>）】</td>
+<td>0.46%（0.33〜0.60%）</td>
+</tr>
+<tr>
+<td>E（参考）</td>
+<td>Iceland 1703年 50,358人→1800年 46,176人</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Demographics_of_Iceland">Demographics of Iceland</a>）】</td>
+<td>−0.09%</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Quebec の（先住民以外の）人口 1706年 16,745→1754年 55,009、1765年 69,810→1784年 113,012。1760年以降フランスからの移民は事実上止まり、高い出生率で増えた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Demographic_history_of_Quebec">Demographic history of Quebec</a>、<a href="https://en.wikipedia.org/wiki/French_Canadians">French Canadians</a>）】</td>
+<td>2.48%、2.54%</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Paraguay の戦前の人口推計には当時の標準の増加率 年1.7〜2.5% が使われた。戦争で 60〜70% が死亡</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Paraguayan_War">Paraguayan War</a>）】</td>
+<td>1.7〜2.5%</td>
+</tr>
+<tr>
+<td>F</td>
+<td>米国の人口は 1750〜1900年に25年ごとに倍になり、開拓地の時代が終わる1900年代初めまで続いた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Observations_Concerning_the_Increase_of_Mankind,_Peopling_of_Countries,_etc.">Observations Concerning the Increase of Mankind</a>）】（移民を含む）</td>
+<td>2.77%</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Pitcairn 2.98%、Tristan da Cunha 1.99%、Hutterite 3.45%（040 で確認）</td>
+<td>040</td>
+<td>—</td>
+</tr>
+<tr>
+<td>知識</td>
+<td>米国の結核の死亡率は、ストレプトマイシン（1947年）と BCG（1954年）の導入までに既に 91% 下がり、抗生物質とワクチンの寄与は19世紀以来の低下の 3.2%。19世紀末以降は上下水道・住居などの公衆衛生が重要になったとされる</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/McKeown_thesis">McKeown thesis</a>）】</td>
+<td>—</td>
+</tr>
+<tr>
+<td>環境</td>
+<td>天然痘は1980年に根絶が認定された。18世紀の欧州では年約40万人が天然痘で死んだと推定される</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Smallpox">Smallpox</a>）】</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>E は旧世界の定住社会（疫病の繰り返し・戦争あり、近代医療なし）、F は土地の余った開拓地（近代医療なし）、M は小さな集団で交易・近代医療あり。アメリカ大陸の先住民の人口崩壊（17世紀末までに少なくとも 80% 減）は、植民地化の暴力と疫病が続いて土地が空いても回復しなかった例で、r の表には入れていない。</p>
+<h2 id="simpyseed-20261041n20000046">方法（<code>sim.py</code>、seed 20261041、N=200,000、約46秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T04:38Z、初回実行前）。</li>
+<li>事例の r は資料の人口から sim.py の中で計算した（<code>results.json</code> の <code>cases</code>）。</li>
+<li>040 の sim.py を感度の節の前まで実行し、038〜040 の乱数・関数をそのまま使った。040 の U3 の重い崩壊1件あたりの板の手引きの価値（0.006741）を<strong>誤差0で再現</strong>（<code>check_040</code>）。</li>
+<li>崩壊後の r の経験的な事前分布：標本ごとに確率 q_F で F の水準 r_F ~ logU(1.7%, 2.8%)、残りは E の水準（038 の黒死病の較正、0.14〜0.61%）。主の設定は q_F ~ U(0,1)【推測：どちらの環境に近いかは分からない】。</li>
+<li>知識の効果 GROW(p_conv)：040 と同じ確率 p_grow で知識が使われたとき、F の標本は r + Δ_K（Δ_K ~ U(0, 1.0%)、M と F の差の目安）、E の標本は確率 p_conv で F の水準 + Δ_K に移る（疫病の抑え方などの知識で E が F に変わる）。p_conv = 0〜1 を走査【推測】。</li>
+<li>再現：<code>/tmp/rep041b/</code> で再実行（下記）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H53a</td>
+<td>F の事例の r の中央値 ≥ E の 5 倍</td>
+<td>2.50% 対 0.22%（11.5倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H53b</td>
+<td>M − F &lt; 0.25 ×（F − E）</td>
+<td>0.48 ポイント 対 2.28 ポイント（21%）</td>
+<td><strong>支持</strong>（境界に近い。M に Tristan の 1.99% があり M − F は不安定）</td>
+</tr>
+<tr>
+<td>H53c</td>
+<td>経験的事前で n* ≤ 1e5</td>
+<td><em><em>n</em> = 17,068人</em>*（040 の黒死病の r で 27.8万人）</td>
+<td><strong>支持</strong>（ただし q_F で 5,600〜27.8万人。下記）</td>
+</tr>
+<tr>
+<td>H53d</td>
+<td>U3 の重い崩壊1件あたり TAB ≥ 040 の 2 倍</td>
+<td><strong>0.0210</strong>（040 は 0.0067、3.1倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H53e</td>
+<td>GROW(p_conv=0) &lt; 0.25 × TAB</td>
+<td>0.0027 対 0.0210（0.13倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H53f</td>
+<td>GROW = TAB となる損益分岐の p_conv* ≥ 0.3</td>
+<td><em><em>p_conv</em> = 0.77</em>*</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>r の事例（116）</strong>：E の中央値 0.22%/年（6例、−0.09〜0.46%）、F 2.50%（5例、1.7〜2.77%）、M 2.98%（3例）。F の高い r は近代医療なしで 138〜150年続いた（Quebec 1706→1844 で年 2.70%、移民込み）。</li>
+<li>経験的事前（q_F ~ U(0,1)）の r の分位：5% 0.16%、50% 1.70%、95% 2.66%。</li>
+<li>*<em>n</em>（119 の置き直し）**：17,068人。q_F = 0／0.25／0.5／0.75／1 で 27.8万／13.3万／1.54万／5,823／5,612人。</li>
+<li><strong>U3 の重い崩壊1件あたり</strong>：TAB 0.0210、GROW(p_conv) = 0／0.1／0.25／0.5／1 で 0.0027／0.0050／0.0086／0.0146／0.0266。名前のつく原因の重い崩壊では TAB 0.042 に対し GROW は p_conv=1 でも 0.0126 で、損益分岐に届かない。CASC では TAB 0.046、GROW(1) 0.0087。</li>
+<li><strong>重み付き合計（GROW/TAB）</strong>：A_Ord・U3 で TAB 0.0067（040 は 0.0046）、GROW は p_conv=1 でも TAB の 0.55倍。A_XPT_S・U2 で TAB 0.0117（040 は 0.0114）、GROW は最大 0.03倍。</li>
+<li><strong>感度（判定に使わず）</strong>：F の上限から米国（移民込み）を外すと TAB 0.0207、p_conv* 0.76、n* 18,155人。Δ_K = 0 で p_conv* 0.98。q_F = 0 では p_conv* 0.14、q_F ≥ 0.75 ではどの p_conv でも GROW は TAB に届かない。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>r の差の大半は環境で、近代医療の知識は小さい</strong>。近代医療なしの開拓地（F）は旧世界の疫病と戦争の後（E）の約11倍の速さで増え、近代医療のある小集団（M）は F より 0.5 ポイント速いだけだった。McKeown の資料（結核の低下の 97% は抗生物質・ワクチンの前）も同じ向きである。ただし事例は少なく（E 6、F 5、M 3）、F の Quebec・米国は移民を含み、Paraguay の値は推計に使われた「標準の率」であって測った値ではない。E の France は百年戦争の時期を含む。分類は筆者の判断で、E と F の差には人口密度・戦争・土地の質の差も混ざっている【推測】。</li>
+<li><strong>040 の「人口の増え方を速める知識が板の手引きの6倍効く」は、経験的な事前では成り立たない</strong>。知識が近代医療の差（Δ_K）しか動かせないなら、GROW は板の手引きの 13% にとどまる。板の手引きを上回るには、知識が「疫病が繰り返す環境（E）」を「開拓地の環境（F）」に変える確率が 77% を超える必要がある。ドイツの30年戦争での民間人の死因の 64% は腺ペストで、検疫や鼠の駆除の知識がそれを防げたかは確かめていない【推測】。19世紀末の公衆衛生は上下水道などの設備に頼り、T1・T0 の社会で再現できるかは疑わしい【推測】。</li>
+<li><em><em>n</em> の 17,068人は q_F しだいの数字で、それ自体を目標値にすべきではない</em>*。価値の曲線は n = 1万〜10万人で緩やかなので、半分の線との交点は q_F の小さな違いで大きく動く（q_F = 0.25 で 13.3万人、0.5 で 1.54万人）。結論を左右する未知は「崩壊後の集団がどちらの環境に近いか」（q_F）に移った。</li>
+<li><strong>q_F を上げる方向の材料と下げる方向の材料がある</strong>【推測】。天然痘は根絶済み（事実）で、18世紀の欧州の大きな死因が崩壊後の世界にはない。土地は大きく余る。一方、崩壊の原因が工学的パンデミックなら病原体が繰り返す恐れがあり、生き残った集団どうしの争いは30年戦争型の環境をつくりうる。アメリカ大陸の先住民の例は、土地が空いても暴力と疫病が続けば回復しないことを示す。</li>
+<li>模型は指数的な増加で、上限（土地の収容力）を入れていない。F の事例は 140〜150年の持続を示すが、閾値までの増加がもっと長くかかる小さな集団では楽観的かもしれない。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>崩壊後の人口の増え方は、知識より環境で決まる。近代医療のない18世紀の開拓地は年約2.5%で百数十年増え続けた一方、疫病が繰り返す旧世界の社会は戦争や疫病の後に年0.2%前後でしか戻らなかった。近代医療の知識が足した分は年0.5ポイントほどだった。これを 040 の模型に入れると、重い崩壊での金庫（板の手引き）の価値は 3.1倍になり、金庫に価値が出る最小の集団は 27.8万人から約1.7万人に下がる。「人口の増え方を速める知識」は、疫病が繰り返す環境を開拓地の環境に変えられる場合（確率 77% 超）にしか板の手引きに勝たない。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：040 の「増殖の知識を板の手引きより先に」という提言を取り下げる。次は「崩壊後の集団が疫病の繰り返す環境と開拓地の環境のどちらに近いか」（q_F）を決める要因（病原体の再来、集団どうしの争い、密度）を調べる。</li>
+<li><strong>金庫の運営者</strong>：手引きの中身は、近代医療や出産の知識より、疫病の流行を止める方法（検疫・隔離・鼠や蚤の駆除・水の扱い）に絞る方が、r を変える見込みのある唯一の知識の経路である（ただし効くかは未確認）。板の手引き自体の優先度は、重い崩壊でも 040 の見積もりより高い。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord や XPT は崩壊後の回復を定性的に扱い、Beckstead 2015 も避難所の有無で論じる。本研究は、歴史上の回復と開拓地の増加率を「疫病の繰り返す定住社会／近代医療なしの開拓地／近代医療あり」に分けて並べ、r の差のうち知識で動く部分を数値で切り分け、それを金庫の価値と最小の集団の大きさの模型に入れ直した。確認した資料には、この切り分けは見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_cases_and_nstar.png</code>、<code>fig_grow_vs_tab.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：図 <code>fig_cases_and_nstar.png</code> の右図に q_F 別の曲線を足すつもりのループが空のまま残っている（図の中身には影響なし）。そのほかは初回の結果をそのまま採用。</p><footer><hr><small>自動生成</small></footer></body></html>

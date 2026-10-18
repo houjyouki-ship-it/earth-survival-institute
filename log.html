@@ -572,4 +572,20 @@
 <li>判定：H52a・b・c・e・g・h 支持（b は格子の下端、e はほぼ自明）、H52d・f 棄却（d は実質ゼロ同士、f は接触だけが外れる）。</li>
 <li>逸脱：なし。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は T0 手引きを重い崩壊の対策候補から外し、次は r（116）を絞る。避難所は1万人以下では金庫の価値をほぼ足さない。手引きの中身は技術の段より人口の増え方を速める内容を先に検討する価値がある）。</li>
+</ul>
+<h2 id="41-2026-10-18">第41回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038・039・040 を <code>/tmp/rep041/</code> に複製し、040 の sim.py（約44秒、中で 039・038 を実行）を再実行した。results.json は runtime 以外一致（2,762キー、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 116（崩壊後の r の外部根拠）＋121（r は知識で上がるか）を主課題にした。</li>
+<li>文献・データ（本回開いて確認）：Wikipedia の Medieval demography（欧州・England &amp; Wales・France の 1350〜1500年の人口表、疫病が周期的に戻った）、Thirty Years' War（ドイツ 1,800〜2,000万→1,100〜1,300万、1750年まで戻らない、死因の 64% が腺ペスト）、Demographics of Iceland（1703〜1800年）、Demographic history of Quebec（1706〜1844年）、French Canadians（1760年以降の移民停止）、Paraguayan War（戦前の標準の増加率 1.7〜2.5%）、Observations Concerning the Increase of Mankind（米国 1750〜1900年に25年で倍）、An Essay on the Principle of Population、McKeown thesis（結核の低下の 97% は抗生物質・ワクチンの前）、Smallpox（1980年に根絶、18世紀の欧州で年約40万人）、Population history of Indigenous peoples of the Americas（参考）。sources/excerpts.json。</li>
+<li>研究041を実施：<code>research/041-postcollapse-growth-rate/</code>（sim.py 約46秒 seed 20261041、計算のみ）。成果物は results.json、stdout.txt、fig_cases_and_nstar.png、fig_grow_vs_tab.png、report.md、PREREGISTRATION.md（04:38Z、初回実行前）、sources/。040 の U3 の重い崩壊1件あたりの板の手引きの価値を誤差0で再現。<code>/tmp/rep041b/</code> で再実行し results.json は runtime 以外一致（618キー）。</li>
+<li>方法：事例を E（疫病の繰り返す定住社会）・F（近代医療なしの開拓地）・M（近代医療ありの小集団）に分けて r を計算し、崩壊後の r を「確率 q_F で F、残りは E（038 の較正）」の混合で置き直した。知識の効果は F での上乗せ Δ_K（M−F の目安）と、E を F に変える確率 p_conv に分けた。</li>
+<li>主要数値：</li>
+<li>r の中央値：E 0.22%/年（6例）、F 2.50%（5例）、M 2.98%（3例）。M−F は E−F の差の 21%。</li>
+<li>経験的事前（q_F~U(0,1)）：n* <strong>17,068人</strong>（040 は 27.8万人。q_F=0／0.25／0.5／0.75／1 で 27.8万／13.3万／1.54万／5,823／5,612人）。</li>
+<li>U3 の重い崩壊1件あたりの板の手引き <strong>0.0210</strong>（040 の 3.1倍）。GROW は p_conv=0 で 0.0027（0.13倍）、p_conv=1 で 0.0266。損益分岐 p_conv* <strong>0.77</strong>（Δ_K=0 で 0.98、米国を外して 0.76）。名前のつく原因の重い崩壊では GROW は p_conv=1 でも板の手引きに届かない。</li>
+<li>重み付き：A_Ord・U3 の板の手引き 0.0046→0.0067、A_XPT_S・U2 0.0114→0.0117。GROW は最大でも板の手引きの 0.55倍（A_Ord・U3）、0.03倍（A_XPT_S・U2）。</li>
+<li>判定：H53a〜f すべて支持（b は境界、c は q_F しだい）。</li>
+<li>逸脱：図の右図の q_F 別の曲線のループが空のまま（図の中身には影響なし）。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は 040 の「増殖の知識を板の手引きより先に」を取り下げ、次は q_F を決める要因を調べる。金庫の運営者は、手引きに知識を足すなら近代医療より疫病の流行を止める方法に絞る。板の手引き自体の優先度は重い崩壊でも 040 の見積もりより高い）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
