@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究044 事前登録（初回実行前に記載） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="044">研究044 事前登録（初回実行前に記載）</h1>
+<h2 id="_1">問い</h2>
+<p>042・043 では「ペストがある」確率 f_foci ~ U(0.5, 0.95) に根拠がなく（042 のトルネードで 1.45倍）、さらに「ペストで E」と「それ以外の原因で E（p_other）」の両方に 041 の r_E（ペストの繰り返しを含む較正）を使っていて二重に数えていた（open_problems 129）。本回は (1) 自然の病巣のある国の人口の割合、(2) 病巣が根づいた後の国全体の減り（第3次パンデミックの India）、(3) 交易のつながり、から f_foci と再来の減りを置き直し、r を「開拓地の r_F − 原因ごとの減り」に分けた模型で 042・043 の閾値 N_urb を置き換える（128・126・129）。</p>
+<h2 id="sourcesexcerptsjson">データ（sources/excerpts.json の数値だけを使う）</h2>
+<ul>
+<li>病巣のある国：Mead 2011（PMC7149940、Box 41.1）と PMC10438918 が名前を挙げた国（厳しい一覧）。過去の病巣や隣接地域も足した広い一覧を感度に使う。</li>
+<li>国の人口：Wikipedia の List of countries and dependencies by population（MediaWiki API で取得、本回取得の版）。</li>
+<li>India：第3次パンデミックの死者 1,000〜1,200万（Wikipedia Third plague pandemic）、1881年の人口 2.55億（British Raj）、Haffkine の試験 1897年、WHO は 1960年まで流行中とした。</li>
+<li>注：人口の一覧は事前登録の前に取得して国ごとの値を見ているが、割合の合計はまだ計算していない。</li>
+</ul>
+<h2 id="042-seed-20261044">模型（すべて 042 の乱数をそのまま使い、新しい乱数は seed 20261044）</h2>
+<ul>
+<li>r(n) = b − d(n)。b = r_F（042）。p_other（Xo）が当たれば b = r_F − ρ·(r_F − r_E)、ρ ~ U(0.16, 0.57)（043 でペストの再来が差の 43〜84% を説明したので残りの割合）。崩壊の原因の病原体の再来（Xa）は 042 と同じく r = r_E。</li>
+<li>ペストの減り d(n)：集団の土地に病巣がある（確率 φ·S_c、φ ~ U(0.1, 0.6) は国の中で病巣の地域に住む割合【推測】、NUC_G でオーストラリアが最大の集団なら 0）なら d = D_max（n によらない）。病巣がなく、病巣の地域と交易でつながる（確率 p_link ~ U(0,1)【推測】）なら d = D_max·n/(n+N_c)、N_c ~ logU(N_lo=81,805, 1e7)（043）。どちらでもなければ d = 0。D_max = λ_max·(−ln(1−m))、λ_max ~ U(0.061, 0.118)（Sweden〜England）、m ~ U(0.10, 0.20)。</li>
+<li>r が 0.0005/年を下回る標本は 0.0005 で止める（割合を報告）。</li>
+<li>確認：同じ関数で 043 の連続版（B2、U3 の TAB 0.026808）を誤差 1e-9 以内で再現する。</li>
+</ul>
+<h2 id="_2">仮説（判定基準）</h2>
+<ul>
+<li>H56a：厳しい一覧の国の人口の割合 S_c &lt; 0.725（042 の f_foci の平均）。</li>
+<li>H56b：India の第3次パンデミックの国全体の減り（窓 25〜63年、人口 2.55億〜3億）の上端が、Sweden の再来の減り（m=0.15、0.98 ポイント）の半分（0.49 ポイント）より小さい。</li>
+<li>H56c：新しい模型の U3 の重い崩壊1件あたり TAB ≥ 1.15 × 043 の B1（0.02326）。</li>
+<li>H56d：トルネード（φ、p_link、ρ、D_max、N_c、S_c の一覧、局所の減り）で最も幅が大きいのは p_link。</li>
+<li>H56e：重み付き A_Ord・U3 の TAB が 043 の B1（0.00694）の ±30% 以内。</li>
+<li>H56f：U3 の事前での n* ≤ 6,040人（043 の B1）。</li>
+</ul>
+<h2 id="_3">注意（先に書いておく）</h2>
+<ul>
+<li>国の単位の S_c は上限側（病巣は国の中でまだら）。φ の幅は根拠が弱い。</li>
+<li>India の数字は抗菌薬の前だがワクチン・検疫・鉄道のある時代のもので、T1・T0 の社会の局所の減りの下限に近い可能性がある。主の模型では局所の減りを D_max に置き、India の幅は感度に回す。</li>
+<li>生き残る集団の地理は 038 の模型にない（NUC_G のオーストラリアだけ）。U3 などは人口に比例して住むと仮定する。
+実記載時刻（date -u）: 2026-10-18T10:39:01Z</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

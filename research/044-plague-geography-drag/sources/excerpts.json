@@ -1,0 +1,70 @@
+[
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7149940/",
+  "title": "Mead PS (2011) Plague, chapter 41 (Tropical Infectious Diseases), Box 41.1 Plague Foci",
+  "quotes": [
+   "Wild rodent plague has been reported west of the 100th meridian in 17 contiguous western states and in some areas of adjacent Canada and Mexico.",
+   "In South America, active enzootic plague foci exist in Brazil, Bolivia, Peru, and Ecuador, and have been described previously in Paraguay, Argentina, and Venezuela.",
+   "Widely scattered active plague foci exist in East and southern Africa, including Democratic Republic of the Congo (previously Zaire), Uganda, Kenya, Tanzania, Zambia, Zimbabwe, Mozambique, Botswana, South Africa, Namibia, and Angola, and on the Indian Ocean island of Madagascar.",
+   "Less active foci exist in some northern African states (e.g., Libya, Algeria).",
+   "The most important Eurasian plague hosts are gerbils (various Meriones spp.) in Iran, Kurdistan, Transcaucasia, other areas around the Caspian Sea, and the plains of southeastern Russia and Kazakhstan; marmots ( Marmota spp.) in Central Asia, including mountainous Khazakstan, northeastern China, Mongolia, Manchuria, and in Transbaikalia",
+   "In India, the gerbil, Tatera indica , has been described as the principal wild rodent maintenance host.",
+   "The principal rodent hosts in Myanmar, Vietnam, and Indonesia are R. rattus subsp. diardii and the Polynesian rat ( R. exulans ).",
+   "The last outbreak of urban plague and of person-to-person pneumonic transmission in the United States occurred in Los Angeles in 1924–1925.",
+   "plague pandemic resulted in 26 million human cases and more than 12 million deaths, most of them in India."
+  ]
+ },
+ {
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10438918/",
+  "title": "Yersinia pestis and Plague: Some Knowns and Unknowns",
+  "quotes": [
+   "In Asia, the active foci distribute in Central Asia (mainly in the Lake Balkhash region of Kazakhstan), Mongolia, China and Vietnam",
+   "in Europe and Oceania, there are no natural plague foci today"
+  ]
+ },
+ {
+  "url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+  "title": "WHO fact sheet: Plague",
+  "quotes": [
+   "As an animal disease, plague is found on all continents, except Oceania.",
+   "In Madagascar cases of bubonic plague are recorded nearly every year, during the epidemic season (between September and April)."
+  ]
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Plague_(disease)",
+  "title": "Wikipedia: Plague (disease) (MediaWiki API extract)",
+  "quotes": [
+   "in the natural foci of infection found on all continents except Australia. The natural foci of plague are situated in a broad belt in the tropical and sub-tropical latitudes and the warmer parts of the temperate latitudes around the globe, between the parallels 55° N and 40° S."
+  ]
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Third_plague_pandemic",
+  "title": "Wikipedia: Third plague pandemic (MediaWiki API extract)",
+  "quotes": [
+   "ultimately led to at least 15 million deaths worldwide, including 10~12 million in British Raj India and 2.2 million in China",
+   "According to the World Health Organization, the pandemic was considered active until 1960, when worldwide casualties dropped below 200 per year.",
+   "On 10 January 1897, Haffkine tested it on himself.",
+   "In the 30 years starting in 1926, the plague occurred in Hong Kong almost every year and killed more than 20,000 people."
+  ]
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/British_Raj",
+  "title": "Wikipedia: British Raj (MediaWiki API extract)",
+  "quotes": [
+   "The population of the Raj reached 255 million according to the first census taken in 1881 of India.",
+   "killed 10 million Indians in India alone"
+  ]
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/1994_plague_in_India",
+  "title": "Wikipedia: 1994 plague in India",
+  "quotes": [
+   "693 suspected cases and 56 deaths were reported"
+  ]
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population",
+  "title": "Wikipedia: List of countries and dependencies by population (wikitext via MediaWiki API, fetched 2026-10-18)",
+  "note": "populations in pop_by_country.json (parsed from {{n+p|...}} templates); Ecuador 18,243,816 added by hand from its row"
+ }
+]
