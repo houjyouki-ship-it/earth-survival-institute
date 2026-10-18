@@ -1,0 +1,136 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究050：大きな孤立集団での段の喪失と、舟の喪失が孤立を固定する自己強化（open_problems 139＋140） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="050open_problems-139140">研究050：大きな孤立集団での段の喪失と、舟の喪失が孤立を固定する自己強化（open_problems 139＋140）</h1>
+<h2 id="_1">問い</h2>
+<p>049 で10万人を超える孤立集団は Hawaii と Māori の2件（ともに喪失なし）しかなく、Jeffreys の事後平均 0.166 が h*（P1 で 0.097）を上回り、P(L｜1e5) も 0.20 と絞れなかった。大陸規模で長く孤立した集団を同じ規則で足すと、(1) 大きな孤立集団の喪失の率は h* を下回るか、(2) 軽い崩壊の生き残りの大きさでの E[P(L｜nmax)]（049 の探索で 0.118）はどう動くか（139）。あわせて、舟を失うとつながり χ が 0 に落ちて戻らない過程を入れると、重い崩壊はどれだけ増え、手引きの「舟と航法」の節はどれだけ取り戻すか（140）。</p>
+<h2 id="sourcesexcerptsjson28wikipedia-mediawiki-api-easter-islandinughuitchatham-islands-049">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>、引用28件すべて本文と一致。Wikipedia を MediaWiki API で取得、Easter Island・Inughuit・Chatham Islands は 049 の取得の写し）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Beringia の集団は約2万5千年前に孤立し、氷期の後の海面上昇で陸橋は再び沈んだ。Polynesia との往来があったとしても、遺伝・考古・文化・言語に説得力のある痕跡は見つかっていない。南米だけで 3,000万〜5,000万人（1億人とする推定もある）、Valley of Mexico は後期 Aztec に約100万人、Inca は多くの推定で 600万〜1,400万人。銅・銀・金の金属加工があった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Peopling_of_the_Americas">Peopling of the Americas</a>、<a href="https://en.wikipedia.org/wiki/Pre-Columbian_era">Pre-Columbian era</a>、<a href="https://en.wikipedia.org/wiki/Inca_Empire">Inca Empire</a>）】</td>
+</tr>
+<tr>
+<td>Australia の集団は東南アジアの他の地域から長く孤立していた。1788年の人口の推定は 30万〜300万（少なくとも 31万4,500）。一方、Torres 海峡を越えた New Guinea との交易は続き、遅くとも18世紀初めから Makassar の漁民が北の海岸を定期的に訪れ、丸木舟と金属の銛を取り入れた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Aboriginal_Australians">Aboriginal Australians</a>、<a href="https://en.wikipedia.org/wiki/Prehistory_of_Australia">Prehistory of Australia</a>）】</td>
+</tr>
+<tr>
+<td>New Guinea の集団は先史を通じて世界の他から比較的孤立し、高地で独自に農耕を始めた。1930年代に高地の谷に100万人を超える人が住んでいた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea">History of Papua New Guinea</a>）】</td>
+</tr>
+<tr>
+<td>Madagascar は東アフリカの沿岸の海を越えた交易の港で、10〜11世紀からアラブの商人が西岸に住み着いた。Iceland は大陸から穀物を買い、干し鱈の輸出が経済の柱になった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/History_of_Madagascar">History of Madagascar</a>、<a href="https://en.wikipedia.org/wiki/History_of_Iceland">History of Iceland</a>）】</td>
+</tr>
+<tr>
+<td>縄文の人々は約2万2千〜2万5千年前に大陸のアジアの集団から孤立したが、縄文晩期に朝鮮半島との接触が増えた。取得した本文に人口の数字はない</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/J%C5%8Dmon_people">Jōmon people</a>、<a href="https://en.wikipedia.org/wiki/J%C5%8Dmon_period">Jōmon period</a>）】</td>
+</tr>
+<tr>
+<td>舟の喪失：Easter Island では大きな木を失い航海に耐える舟を作れなくなった。Inughuit は kayak と umiak を作る知識を失い、移動と接触がさらに狭まり、後に Baffin の Inuit が舟を持ち込み直した。Chatham には外洋船に向く木がなかった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Easter_Island">Easter Island</a>、<a href="https://en.wikipedia.org/wiki/Inughuit">Inughuit</a>、<a href="https://en.wikipedia.org/wiki/Chatham_Islands">Chatham Islands</a>）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-202610502">方法（<code>sim.py</code>、seed 20261050、約2分、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T22:40Z、初回実行前）。ただし登録の前に取得した本文をキーワードで一度検索していたので、新しい例の L がすべて0になることは登録の時点でほぼ分かっていた（登録に明記）。そのため単位の数を増やさない側を主にし、例の数が変わる版を感度にした。</li>
+<li>049 を図の手前まで exec（中で 047 の前半と 046・045・044・042・040・039・038）。049 の P(L｜1e5)、h*、E_U3 を誤差0で再現してから、乱数を seed 20261050 に替えた。</li>
+<li><strong>参照の集合</strong>：049 の孤立した生き残り9件に、Americas（1492年以前、N 3,000万〜1億）、Australia 本土（30万〜300万）、New Guinea の高地（100万〜200万、上限は【推測】）を足した（主）。新しい3件の L はどれも0（単位全体で前の技術を失ったという記述なし）。Madagascar と Iceland は本文が定期的な交易を書くので外し、縄文は人口の数字がないので外した。</li>
+<li><strong>感度</strong>：S1 は Australia と New Guinea を1つの Sahul にまとめる、S2 は Americas を Andes と Mesoamerica に分けて Mesoamerica に 048 の Classic Maya の符号（0.5）を付ける、S3 は Torres 海峡の交易を理由に Australia を外す。</li>
+<li><strong>139 の計算</strong>：大きな孤立集団（N ≥ 5万）の Jeffreys の事後、049 と同じロジスティック回帰、049 の探索と同じ「生き残りで P1 の閾値の模型では軽い崩壊の標本」での E[P(L｜nmax)]（本回は登録した）。</li>
+<li><strong>140 の計算</strong>：舟の喪失 B（Inughuit・Moriori・Easter が1）を同じ形で回帰。048 の歴史の χ（平均 0.46）から各標本の χ0 を引き、12世代（約300年）の吸収的な過程にした。各世代、舟を持つ集団は λ(nmax)·(1−χ_t) の確率で舟を失い、以後 χ=0。λ は完全に孤立した集団が20世代で P(B｜N) に達する率。χ_eff（世代の平均）を P1 の M^(1−χ_eff) に入れ、シナリオごとに nmax から χ_eff を作って評価し、そのシナリオに差し込んだ。手引きの舟の節は λ を (1−e) 倍（e=0.5、1）。感度は 4世代で失う版、つながった集団も 0.1倍で失う版、舟を持つ孤立した集団が毎世代 5% で再びつながる版（ρ=0.05）。</li>
+<li>再現：024・032・038〜049 を <code>/tmp/rep050/</code> に複製し 049 を再実行（約60秒）、results.json は runtime 以外一致（葉 520個、差分0）。050 は <code>/tmp/rep050b/</code> で再実行し、results.json は runtime 以外一致（葉 540個、差分0）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H62a</td>
+<td>主の集合で大きな孤立集団の事後平均 &lt; h*（0.097）</td>
+<td><strong>0.083</strong>（0/5）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H62b</td>
+<td>S1〜S3 でも H62a</td>
+<td>S1 0.100、S2 0.143、S3 0.100</td>
+<td><strong>棄却</strong>（S1・S3 は境界）</td>
+</tr>
+<tr>
+<td>H62c</td>
+<td>主の回帰で P(L｜1e5) &lt; 0.15</td>
+<td><strong>0.118</strong>（049 は 0.195）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H62d</td>
+<td>軽い崩壊の生き残りの E[P(L｜nmax)] &lt; h*</td>
+<td><strong>0.035</strong>（049 は 0.118）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H62e</td>
+<td>舟の喪失の吸収で CASC の重い崩壊が 0.02 以上増える</td>
+<td><strong>+0.0005</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H62f</td>
+<td>吸収ありで NUC_G の重い崩壊 ≤ 0.05</td>
+<td><strong>0.0058</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H62g</td>
+<td>舟の節（e=1）で重み付きの重い崩壊の確率が 0.001 以上下がる</td>
+<td><strong>−0.000012</strong></td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>大きな孤立集団（N ≥ 5万）</strong>：主は Hawaii、Māori、Americas、Australia、New Guinea の 0/5 で事後平均 <strong>0.083</strong>（95%点 0.31、h* を超える確率 0.30）。S1（Sahul をまとめる）0/4 で 0.100、S3（Australia を外す）0/4 で 0.100、S2（Americas を分け Mesoamerica を 0.5）0.5/6 で <strong>0.143</strong>。</li>
+<li><strong>回帰（主、11件）</strong>：傾き中央値 −1.20／桁（90% −2.75〜−0.25）、P(b&lt;0) <strong>0.98</strong>（049 は 0.90）。P(L) は N=1e4 で 0.25、1e5 で <strong>0.118</strong>（95%点 0.37）、1e6 で 0.063、1e7 で <strong>0.040</strong>。S1 0.135、S2 0.190、S3 0.136（N=1e5）。</li>
+<li><strong>軽い崩壊の生き残り（nmax 中央値 2,840万人）での E[P(L｜nmax)]</strong>：主 <strong>0.035</strong>（中央値 0.006、90% 0.00004〜0.17、h* を超える確率 0.10）、S1 0.047、S3 0.046、S2 <strong>0.092</strong>（h* を超える確率 0.29）。4版すべてで h* 未満。</li>
+<li><strong>舟の喪失の回帰</strong>：P(B) は N=1e3 で 0.51、1e5 で 0.11、1e7 で 0.036。喪失3件のうち2件は本文が木の欠乏に帰す。</li>
+<li><strong>吸収的な過程</strong>：生き残りで舟を失う割合は U3 0.159、CASC 0.014、NUC_G 0.010。χ_eff の平均は U3 で 0.461→0.431、CASC で 0.461→0.459。重い崩壊は CASC 0.2284→<strong>0.2289</strong>、NUC_G 0.0058→0.0058、重み付きの重い崩壊の確率（A_Ord、h=0.195）0.07786→0.07787、A_Ord の価値は 0.005488 で不変。</li>
+<li><strong>舟の節</strong>：e=1 で吸収の分を丸ごと取り戻すが、それは重み付きの重い崩壊の確率で <strong>−0.000012</strong>、CASC で −0.0005。4世代で失う版でも CASC +0.0019、取り戻す分は重み付きで −0.000056。</li>
+<li><strong>再びつながる版（ρ=0.05）</strong>：吸収なしに比べて CASC −0.0055、NUC_G −0.0022、重み付きの重い崩壊の確率 −0.00015（舟の節の効きの約12倍）。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><em><em>数え方で h</em> をまたぐ</em><em>。大きな孤立集団の数だけで見ると、主の 0/5 は h</em> を下回るが、単位の切り方を1つ変えると 0.100 で境界の上に出て、Americas を分けて Classic Maya を部分の喪失と数えると 0.143 になる。「あと5件で決着」という 049 の見込みは、5件という数が単位の切り方で決まるので弱い決着だった。</li>
+<li><em><em>模型に入る量は版によらず h</em> 未満</em><em>。大きさの回帰を通した E[P(L｜nmax)] は4版で 0.035〜0.092 で、すべて h</em> を下回り、中央値は 0.006〜0.03。数え方が揺れても、軽い崩壊の大きな生き残りに孤立が上乗せする T0 再出発の割合は小さい、という向きは保たれる。S2 だけが h* に近い（0.092）。</li>
+<li><strong>平衡にある集団と崩壊直後の集団は違う</strong>。足した例はどれも、何千年もその大きさと技術の釣り合いの中で暮らした集団で、手に余る技術を突然抱えた集団ではない。崩壊直後の生き残りは自分の大きさに見合う以上の技術を抱えているので、喪失の率はこれより高い可能性がある（【推測】）。ただし、その分は 046・047 の閾値の模型が扱っていて、ここで測ったのは孤立による上乗せである。</li>
+<li><strong>大きな単位の喪失は書かれにくい</strong>。大陸の全体で技術が失われたという書き方は、地域の崩壊（Classic Maya、Hohokam、Cahokia）より起こりにくい。主の集合は記述の偏りで喪失を少なく見ている可能性があり、S2 はその一つの試し方にすぎない。</li>
+<li><strong>140：舟の喪失は小さな集団で起き、そこはすでに重い崩壊か絶滅</strong>。舟を失う確率は 10万人で 0.11、1,000万人で 0.04 で、CASC や NUC_G の生き残りの大きさ（中央値 数百万〜数千万人）では生き残りの 1〜1.5% しか舟を失わず、しかも χ の変化は大きな集団の閾値の判定をほとんど動かさない。U3 で舟を失う 16% の多くは、閾値の模型ですでに T2 を失っている小さな集団だと考えられる（【推測】、U3 の重い崩壊は 0.70）。</li>
+<li><strong>舟の喪失の根拠の3分の2は木がないこと</strong>。Easter と Chatham は材料の欠乏で、知識の喪失ではない。手引きの節は材料の欠乏には効かないので、e=1 は上側の読みである。</li>
+<li><strong>再びつながる力のほうが効くが、これも小さい</strong>。ρ=0.05 は根拠のない置き値で、効きも重み付きで 0.2% にすぎない。</li>
+<li><strong>049 の提言は数値で支えられなかった</strong>。049 は「重い崩壊向けの手引きの最初の節は舟と航法に」と書いたが、模型の中ではその価値は重み付きの重い崩壊の確率で 1e-5 の桁で、事前登録の基準（0.001）の100分の1。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>大陸規模の孤立集団（Americas、Australia、New Guinea の高地）を足すと、大きな孤立集団で前の技術を失った例は 0/5 のまま、回帰の P(L｜1e5) は 0.20→0.12、軽い崩壊の生き残りに孤立が上乗せする T0 再出発の割合は 0.118→0.035 に下がり、単位の切り方を変えた4版すべてで h* を下回った。数だけの判定は版によって h* をまたぐが、模型に入る量の向きは変わらない。孤立は大きな生き残りの再出発を深くしないとみてよく、h は 048 の読み方のまま据え置く。舟の喪失が孤立を固定する自己強化は、模型の中では重い崩壊をほとんど増やさず（CASC +0.0005）、手引きの舟の節の価値も無視できる大きさだった。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：孤立の線（136・139・140）は閉じる。A_Ord の主の値は 048 の歴史の h（V2 の 0.0055）のまま据え置き、重い崩壊を優先するかの判断は「1段の喪失を T0 と数えるか」という h の読み方だけに乗ると明記する。次は h の読み方そのものを、Wikipedia の有名な例でなく体系的なデータ（137、Seshat）で置き直す。</li>
+<li><strong>金庫・手引きの作り手</strong>：049 で書いた「重い崩壊向けの最初の節を舟と航法に」は取り下げる。模型では効きが 1e-5 の桁で、舟の喪失の多くは材料の欠乏による。重い崩壊向けの予算は、048 の提言どおり写しを離れた地域に散らす方に置く。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>孤立した集団での技術の喪失と集団の大きさの関係は Kline &amp; Boyd などが島で調べているが、大陸規模の孤立集団を同じ規則で足して、単位の切り方の版ごとに地球規模の崩壊の生き残りの大きさに写し、金庫の価値の分かれ目 h* と突き合わせた例は、確認した資料には見当たらない。舟の喪失を吸収的な過程にして、つながりの喪失が重い崩壊と手引きの節の価値をどれだけ動かすかを出したのも本研究所の新しい整理で、049 の定性的な提言を数値で否定した。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_large_isolates.png</code>、<code>fig_boats_chi.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>（<code>fetch.py</code>、<code>make_excerpts.py</code>、<code>excerpts.json</code>、取得した本文24件と 049 の写し3件）。
+- 逸脱：なし。事前登録の前に本文をキーワードで検索していたことは登録に明記した。</p><footer><hr><small>自動生成</small></footer></body></html>

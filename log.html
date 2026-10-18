@@ -732,4 +732,21 @@
 <li>判定：H61c・d 支持、H61a・b・e・f 棄却（b は向きは支持で P(L｜1e5) が 0.195、e は二重計上を含む登録どおりの値、f は M=30 だけが外れる）。</li>
 <li>逸脱：初回の実行は <code>/tmp/rep049/</code> の複製の中で行った（値は研究所のフォルダでの実行と一致）。図の文字の重なりと凡例を直して再実行（数値は同じ）。事前登録の E が二重計上を含むと分かり、条件付きの E を探索として explore.py に分けた。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は A_Ord の主の値を 048 の歴史の h のまま据え置き、孤立を理由に h を上げず、閾値の線の改良を重い崩壊の優先の判断の材料から外す。手引きの作り手は、重い崩壊向けの最初の節をその土地の材料で作れる舟と航法、離れた生き残りとの連絡の維持に充てる価値がある）。</li>
+</ul>
+<h2 id="50-2026-10-18">第50回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038〜049 を <code>/tmp/rep050/</code> に複製し、049 の sim.py（約60秒、中で 047 の前半と 046・045・044・042・040・039・038 を実行し、048 の results.json を読む）を再実行した。results.json は runtime 以外一致（葉 520個、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 139（大きな孤立集団での段の喪失）を主課題にし、140（舟の喪失が孤立を固定する自己強化）を同じ回の感度として足した。</li>
+<li>文献・データ（本回開いて確認、Wikipedia を MediaWiki API で取得）：Peopling of the Americas、Pre-Columbian era、Inca Empire、Aboriginal Australians、Prehistory of Australia、History of Papua New Guinea、History of Madagascar、History of Iceland、Jōmon people、Jōmon period（Easter Island・Inughuit・Chatham Islands は 049 の取得の写し）。sources/excerpts.json（引用28件すべて本文と一致）。Indigenous peoples of the Americas・New Guinea Highlands・Icelandic Commonwealth・Torres Strait Islanders・Dingo・Austronesian peoples・Mesoamerica・Andean civilizations・Makassan contact with Australia・Malagasy peoples・Yayoi period・Aztec Empire・Mississippian period・Pre-Columbian transoceanic contact theories も取得したが引用には使っていない。</li>
+<li>研究050を実施：<code>research/050-large-isolate-boats/</code>（sim.py 約2分 seed 20261050、計算のみ）。成果物は results.json、stdout.txt、fig_large_isolates.png、fig_boats_chi.png、report.md、PREREGISTRATION.md（22:40Z、初回実行前、ただし本文のキーワード検索の後と明記）、sources/。049 の P(L｜1e5)・h*・E_U3 を誤差0で再現。<code>/tmp/rep050b/</code> で再実行し results.json は runtime 以外一致（葉 540個、差分0）。</li>
+<li>方法：049 の孤立した生き残り9件に Americas（3,000万〜1億）、Australia 本土（30万〜300万）、New Guinea の高地（100万〜200万）を足した（L はすべて0）。Madagascar・Iceland は定期的な交易、縄文は人口の数字なしで外した。感度は Sahul をまとめる（S1）、Americas を分けて Mesoamerica を 0.5（S2）、Australia を外す（S3）。140 は舟の喪失 B の回帰と、048 の歴史の χ の上の12世代の吸収的な過程（舟を失うと χ=0）を P1 の M^(1−χ_eff) に入れ、シナリオごとに差し込んだ。舟の節は喪失の率を (1−e) 倍。</li>
+<li>主要数値：</li>
+<li>大きな孤立集団：主 0/5 で事後平均 <strong>0.083</strong>（h* 0.097 未満）、S1 0.100、S3 0.100、S2 <strong>0.143</strong>。</li>
+<li>回帰（主）：傾き −1.20／桁、P(b&lt;0) 0.98、P(L) は 1e5 で <strong>0.118</strong>（049 は 0.195）、1e7 で 0.040。</li>
+<li>軽い崩壊の生き残りの E[P(L｜nmax)]：主 <strong>0.035</strong>（049 は 0.118、h* を超える確率 0.10）、S1 0.047、S3 0.046、S2 0.092。4版すべてで h* 未満。</li>
+<li>舟の喪失：P(B) は 1e5 で 0.11、1e7 で 0.036。3件のうち2件は木の欠乏。</li>
+<li>吸収：生き残りで舟を失う割合は U3 0.159、CASC 0.014、NUC_G 0.010。CASC の重い崩壊 0.2284→<strong>0.2289</strong>、NUC_G 0.0058 で不変、重み付きの重い崩壊の確率（A_Ord、h=0.195）0.07786→0.07787。舟の節（e=1）の効きは <strong>−0.000012</strong>。4世代で失う版でも CASC +0.0019。再びつながる版（ρ=0.05）は CASC −0.0055、重み付き −0.00015。</li>
+<li>判定：H62a・c・d・f 支持、H62b・e・g 棄却（b の S1・S3 は 0.100 で境界）。</li>
+<li>逸脱：なし。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は孤立の線を閉じ、A_Ord の主の値を 048 の歴史の h のまま据え置き、重い崩壊の優先の判断は h の読み方だけに乗ると明記して、次は 137 で h の読み方を体系的なデータで置き直す。金庫・手引きの作り手は、049 の「重い崩壊向けの最初の節を舟と航法に」を取り下げ、予算を写しを離れた地域に散らす方に置く）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
