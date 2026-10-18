@@ -1,0 +1,24 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究047 事前登録（初回実行前に記入、2026-10-18T16:47Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="047-2026-10-18t1647z">研究047 事前登録（初回実行前に記入、2026-10-18T16:47Z）</h1>
+<h2 id="open_problems-133120">問い（open_problems 133＋120）</h2>
+<p>046 の技術段の閾値の例はすべて交易で道具や職人を入れられた開いた社会だった。閉じた集団に移す倍率 M を、閉じたか、ほぼ閉じた社会の例と Kline &amp; Boyd の接触の効果から段ごとに置くと、重い崩壊の割合（特に NUC_G＝閉じた豪州が T2 を保てるか）、重い崩壊1件あたりの板の手引きの価値、重み付きの価値、n* はどれだけ動くか。生き残った集団どうしのつながり（120）でどれだけ戻るか。</p>
+<h2 id="046-e2-seed-20261047">方法（すべて 046 の E2 の閾値の上に乗せる。新しい乱数は seed 20261047 のみ）</h2>
+<ul>
+<li>K：Kline &amp; Boyd 表1 の10社会の回帰の bootstrap（046 の explore.py と同じ式、20,000回、seed 20261047）から作った「接触の多い社会が同じ道具の数を持つ人口の倍率」の分布。標本ごとに一つ引く。M の素の値 = max(1, K)【推測：閉じた集団が開いた例より楽になることはないとする】。</li>
+<li>主の事前（P1）：M_Fe = M_lens = M_T2 = max(1,K)、ただし例の上限で切る：M_Fe·N_Fe ≤ 8万（Iceland の自給の製鉄、上端）、M_lens·N_lens ≤ 3,000万、M_T2·N_T2 ≤ 3,000万（江戸の日本：年2隻のオランダ船のほぼ閉じた社会で望遠鏡づくりが4代続いた）。</li>
+<li>変種：P0（切らない）、P2（深さの重み：M_k = max(1,K)^{a_k}、a = 0.5/1/1.5 を Fe/lens/T2 に、切る）、P3（閉じた＝接触なしは K&amp;B の「少ない接触」よりさらに悪いとして max(1,K)^2、切る）。</li>
+<li>つながり χ（120）：生き残った集団が他の集団とつながる程度。閾値の倍率を M^(1−χ) にする代わりに、nmax を max(1,K)^χ 倍（ntot で頭打ち）にする近似。χ ∈ {0, 0.25, 0.5, 0.75, 1}、全シナリオ共通。χ=1 で E2 に戻ることを確かめる。NUC_G だけ χ=0.5 の版も出す。</li>
+<li>固定 M の格子 {1,2,3,5,7,10,15,20,30}（3段とも同じ M）で NUC_G・CASC・U3 の重い崩壊の割合と重み付きの価値を出し、NUC_G の重い崩壊が 0.05 を超える M（損益分岐）を求める。</li>
+<li>確認：M=1 で 046 の E2 の U3 の TAB・重み付き A_Ord・U3 を誤差0で再現する。</li>
+</ul>
+<h2 id="_1">仮説（判定の規則）</h2>
+<ul>
+<li>H59a：P1 の重み付き A_Ord・U3 は E2 の 0.94〜1.00倍。</li>
+<li>H59b：P1 で NUC_G の重い崩壊の割合は 0.05 未満。</li>
+<li>H59c：NUC_G の重い崩壊が 0.05 を超える固定 M は 10 以上（K&amp;B の 90% 上端より上）。</li>
+<li>H59d：例の上限での切り詰め（P1 と P0 の差）は重み付き A_Ord・U3 を 1% 未満しか動かさない。</li>
+<li>H59e：P2（深さの重み）と P1 の重み付き A_Ord・U3 の差は 5% 未満。</li>
+<li>H59f：χ=0.5 で CASC の重い崩壊の割合は P1（χ=0）の 0.7倍以下になる。</li>
+<li>H59g：P1 の n* は E2 の ±10% 以内。</li>
+</ul>
+<h2 id="_2">成果物</h2>
+<p>sim.py、results.json、stdout.txt、図2枚（M の事前と例の上限／固定 M の格子と χ）、report.md、sources/。</p><footer><hr><small>自動生成</small></footer></body></html>
