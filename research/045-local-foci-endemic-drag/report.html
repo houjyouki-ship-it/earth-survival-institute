@@ -1,0 +1,282 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究045：地元に病巣がある小さな集団でのペストの減りを置き直す（130）と r の下限の止め（131） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="045130-r-131">研究045：地元に病巣がある小さな集団でのペストの減りを置き直す（130）と r の下限の止め（131）</h1>
+<h2 id="_1">問い</h2>
+<p>044 では、生き残った集団の土地にペストの病巣があるとき、減り d を第2次パンデミックの欧州の値 D_max（0.64〜2.63 ポイント/年）で集団の大きさによらず一定と置き、これがトルネードで最大だった（U3 の TAB の幅 0.0071）。本回は病巣の地域で実際に測られた減りを公開資料から出し、「地元に病巣がある」ことと「町の規模の鼠の流行が起きる」ことを分けた模型に置き換えた。あわせて 044 で U3 の 7% が当たった r の下限の止め（0.0005/年）の感度を見た（131）。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code> の引用はすべて取得した本文と一致を確認）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Madagascar 1998〜2016年、病例の出た415の commune の年の発生率は 0.03〜63/10万人（中央値 1.4、IQR 0.7〜3.2）。確定＋推定の例の致死率 18%</td>
+<td>【事実（<a href="https://wwwnc.cdc.gov/eid/article/25/2/17-1974_article">Trends of Human Plague, Madagascar, 1998–2016</a>）】</td>
+</tr>
+<tr>
+<td>腺ペストの致死率は 30〜60%、肺・敗血症型は治療しなければ必ず死ぬ</td>
+<td>【事実（<a href="https://www.who.int/news-room/fact-sheets/detail/plague">WHO fact sheet: Plague</a>）】</td>
+</tr>
+<tr>
+<td>Uganda の West Nile で受診しなかった19人のうち15人（79%）が死亡</td>
+<td>【事実（<a href="https://wwwnc.cdc.gov/eid/article/23/9/17-0789_article">Patterns of Human Plague in Uganda, 2008–2016</a>）】</td>
+</tr>
+<tr>
+<td>Madagascar では 1921年に高地に入り、1932年までに年 1,000件から 4,000件近くへ。1954〜88年は年100件未満</td>
+<td>【事実（<a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0013054">Opportunities and challenges for plague vector control in Madagascar</a>）】</td>
+</tr>
+<tr>
+<td>1921年に高地に入って以来、遠い村からは消えたことがない</td>
+<td>【事実（<a href="https://wwwnc.cdc.gov/eid/article/4/1/98-0114_article">Plague, a Reemerging Disease in Madagascar</a>）】</td>
+</tr>
+<tr>
+<td>Madagascar の人口は 1950年に 408.4万</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Demographics_of_Madagascar">Demographics of Madagascar</a>）】</td>
+</tr>
+<tr>
+<td>DRC Ituri の病巣の地域では、盗みを避けて種と食べ物を家の中に置き、捕まえた鼠30匹のうち23匹が家の中。医療に届く人口は 37%</td>
+<td>【事実（<a href="https://wwwnc.cdc.gov/eid/article/24/2/16-0122_article">Ecologic Features of Plague Outbreak Areas, DRC, 2004–2014</a>）】</td>
+</tr>
+<tr>
+<td>1910〜11年の Manchuria の肺ペストで 6万人が死亡</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Manchurian_plague">Manchurian plague</a>）】（数値は模型に入れていない）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-2026104546">方法（<code>sim.py</code>、seed 20261045、約46秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T12:39Z、初回実行前）。</li>
+<li>A1：今の病巣の地域の減り = 発生率 × 未治療の致死率（0.30／0.60／0.79）× 届け出の漏れ k（1 か 3、3 は【推測】）。</li>
+<li>A2：Madagascar 1932年 = −ln(1 − 4,000 × 致死率 / (408.4万 × h))、致死率 0.3〜1.0、高地の割合 h ∈ {1, 0.5}（0.5 は【推測】）。1950年の人口を使うので減りは下側に寄る。</li>
+<li>B：044 の sim.py をそのまま exec して乱数と関数を使い、地元に病巣があるときだけ d_loc(n) = D_end + D_max·n/(n + N_loc) に置き換えた。D_end ~ logU(1e-5, 2e-3)（A1 の中央値〜India と Madagascar 1932年の上端）、N_loc = N_c（043 の町の大きさ、044 と同じ乱数）。感度：N_loc = N_c/10、D_end = 0、D_end = 2e-3。</li>
+<li>C：止め 1e-4・5e-4・2e-3 と、止めない版（r ≤ 0 の集団は先の段に届かず、金庫の価値 0）を 044 と 045 の両方の模型で。</li>
+<li>確認：新しい関数で 044 の主の値（U3 の TAB 0.026542）と n*（5,872人）を<strong>誤差0で再現</strong>（<code>check_044_main</code>）。</li>
+<li>再現：<code>/tmp/rep045/</code> で再実行し、results.json は runtime 以外一致。044 も <code>/tmp/rep045/</code> で再実行して一致（葉 378個、差分0）。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<h3 id="a-fig_local_drag_tornadopng">A：病巣の地域で測られた減り（図 <code>fig_local_drag_tornado.png</code> 左）</h3>
+<table>
+<thead>
+<tr>
+<th>資料</th>
+<th>減り（ポイント/年）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Madagascar の今の commune の中央値（致死率 0.30、k=1）〜（0.79、k=3）</td>
+<td><strong>0.0004〜0.0033</strong></td>
+</tr>
+<tr>
+<td>Madagascar の commune の最大（0.79、k=3）</td>
+<td>0.149</td>
+</tr>
+<tr>
+<td>Madagascar 1932年（第3次パンデミックが高地に根づいた後、抗菌薬の前）</td>
+<td><strong>0.029〜0.196</strong></td>
+</tr>
+<tr>
+<td>India の第3次パンデミック（044）</td>
+<td>0.054〜0.193</td>
+</tr>
+<tr>
+<td>044 が地元の病巣に使った D_max（第2次パンデミックの欧州）</td>
+<td>0.64〜2.63</td>
+</tr>
+<tr>
+<td>- 【計算】病巣の地域で測られた減りは、いちばん悪い組み合わせでも 0.2 ポイント/年で、044 の D_max の下端の 1/3、上端の 1/13。普段の病巣の地域（中央値）では 1/200〜1/6,000。</td>
+<td></td>
+</tr>
+<tr>
+<td>- 【推測】今の値は治療と届け出の漏れのある時代のもので、未治療の致死率と漏れ k=3 で上側に直したが、家の造りや鼠の駆除の違いは直していない。Ituri の例（家の中に穀物と鼠）は、T1 の社会に近い暮らしでも普段の発生率はこの桁だと読める。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="bu3-1-tab">B：重い崩壊での金庫の価値（U3 の重い崩壊1件あたりの板の手引きの価値 TAB）</h3>
+<table>
+<thead>
+<tr>
+<th>模型</th>
+<th>U3 の TAB</th>
+<th>044 主の比</th>
+<th>重み付き A_Ord・U3</th>
+<th>A_XPT_S・U2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>044 主（地元は D_max 一定）</td>
+<td>0.0265</td>
+<td>1.00</td>
+<td>0.00744</td>
+<td>0.01171</td>
+</tr>
+<tr>
+<td><strong>045 主</strong></td>
+<td><strong>0.0293</strong></td>
+<td><strong>1.10</strong></td>
+<td><strong>0.00784</strong></td>
+<td><strong>0.01178</strong></td>
+</tr>
+<tr>
+<td>045、N_loc = N_c/10</td>
+<td>0.0282</td>
+<td>1.06</td>
+<td>0.00769</td>
+<td>0.01174</td>
+</tr>
+<tr>
+<td>045、D_end = 0</td>
+<td>0.0294</td>
+<td>1.11</td>
+<td>0.00785</td>
+<td>0.01178</td>
+</tr>
+<tr>
+<td>045、D_end = 2e-3</td>
+<td>0.0290</td>
+<td>1.09</td>
+<td>0.00779</td>
+<td>0.01177</td>
+</tr>
+<tr>
+<td>045、D_end = 2e-3 かつ N_loc = N_c/10</td>
+<td>0.0278</td>
+<td>1.05</td>
+<td>0.00762</td>
+<td>0.01173</td>
+</tr>
+<tr>
+<td>- 【計算】トルネード（045 の模型、図 <code>fig_local_drag_tornado.png</code> 右）：<strong>N_c 0.0054</strong> ＞ D_max 0.0032 ＞ p_link 0.0022 ＞ N_loc の倍率 0.0010 ＞ ρ 0.0009 ＞ φ 0.0005 ＞ D_end 0.0004。044 で2位だった φ は6位に落ちた。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【計算】n* は <strong>5,772人</strong>（044 は 5,872人、N_loc = N_c/10 で 5,808人）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="cr-131-fig_floor_nstarpng">C：r の下限の止め（131、図 <code>fig_floor_nstar.png</code> 左）</h3>
+<table>
+<thead>
+<tr>
+<th>止め</th>
+<th>044 の模型</th>
+<th>045 の模型</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1e-4</td>
+<td>0.02650</td>
+<td>0.02923</td>
+</tr>
+<tr>
+<td>5e-4（既定）</td>
+<td>0.02654</td>
+<td>0.02928</td>
+</tr>
+<tr>
+<td>2e-3</td>
+<td>0.02677</td>
+<td>0.02947</td>
+</tr>
+<tr>
+<td>止めない（r ≤ 0 は価値 0）</td>
+<td>0.02633</td>
+<td>0.02898</td>
+</tr>
+<tr>
+<td>- 【計算】どの版も既定の ±1.0% 以内。U3 で r ≤ 0 になる標本は 6.6%（045）。止めない版では、これらは r = 0 になる大きさで人口が止まり、その先の段に届かない。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【推測】それでも差が小さいのは、これらの標本が止めありでも待ちが非常に長く、もともと金庫の価値がほとんどないためと考えられる（標本ごとの内訳は未確認）。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H57a</td>
+<td>Madagascar 1932年の上端 &lt; 0.25 ポイント</td>
+<td>0.196</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H57b</td>
+<td>今の病巣の地域の最大 &lt; 0.2 ポイント</td>
+<td>0.149</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H57c</td>
+<td>U3 の TAB ≥ 1.10 × 044 主</td>
+<td>1.103倍</td>
+<td><strong>支持</strong>（境界）</td>
+</tr>
+<tr>
+<td>H57d</td>
+<td>トルネードの最大は N_c</td>
+<td>N_c（0.0054）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H57e</td>
+<td>重み付き A_Ord・U3 が 044 の ±30% 以内</td>
+<td>1.05倍</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H57f</td>
+<td>止めの4通りが ±10% 以内（両方の模型）</td>
+<td>最大 1.0%</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H57g</td>
+<td>n* が 044 の ±10% 以内</td>
+<td>0.98倍</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li>【推測】全部支持は事前の予想が保守的すぎた可能性もある。ただし H57c は 1.103倍で境界、H57b も 0.149 と閾値 0.2 に近い。</li>
+<li>【推測】本回の主な発見は、「地元に病巣があること」そのものの減りは小さく、大きな減りは町の規模の鼠と人の流行（第2次パンデミックの欧州型）が起きてから来る、という分け方。病巣の有無より、つながった集団が N_c（8.2万〜1000万人）に届くかが効く。これで不確かさは 043 の N_c にまとまった。</li>
+<li>【推測】D_end の上端（India・Madagascar 1932年）は、町と鉄道のある国の全体の値で鼠の流行の分も含むので、鼠の流行の項と二重に数えている（悲観側）。D_end を 0 にしても TAB は 0.0294 で、この重なりは結論を動かさない。</li>
+<li>【推測】村の大きさで鼠の流行が起きる場合（043 の Great Northern War の例のように 360人の村にも入る）は N_loc = N_c/10 で見たが、TAB は 0.0282 に下がるだけ。「流行は村でも起きる」と「繰り返しは村の規模では起きにくい」は両立する（043 の結論と同じ）。</li>
+<li>【推測】肺ペストの大流行（Manchuria 1910〜11年の6万人）は模型に入れていない。鉄道と都市のある数百万人の地域の出来事で、小さな集団での頻度を出す資料がない。</li>
+<li>【計算】042〜045 の4つのペストの模型の主の版で、U3 の TAB は 0.0202→0.0233→0.0265→0.0293、重み付き A_Ord・U3 は 0.00649→0.00694→0.00744→0.00784（4版で 1.21倍、1回ごとに +5〜7%）。</li>
+<li>【推測】注意すべきは、資料を足すたびに一方向（金庫の価値が上がる方）にしか動いていないこと。042 の初期の置き方が悲観に偏っていた表れと読めるが、こちらの選び方の偏りの可能性も否定できない。ただ1回の動きは +5〜7% に縮んでおり、ペストの細部をさらに詰めても重み付きの結論が大きく変わる見込みは小さい。</li>
+<li>軽い崩壊（計算機の社会が残る）は人口待ちがないので、本回の変更の影響を受けない（作りから）。</li>
+</ul>
+<h2 id="_5">新規性</h2>
+<ul>
+<li>【独自仮説→計算】Ord や XPT は崩壊後の疫病の環境を扱っていない。病巣の地域で測られた発生率と第3次パンデミックの減りを使って「病巣の有無」と「町の規模の流行」を分け、重い崩壊の金庫の価値への効きを比べたのは、本研究所の 041〜044 の流れでも本回が初めて。</li>
+</ul>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<p>本研究所はペストの模型の改良をここで止め（4版で重み付きの結論は計 1.21倍、1回ごとの動きは +5〜7% に縮んだ）、重い崩壊の次の大きな未知（技術段の最小人口 114 など）に移る。金庫の運営者は、重い崩壊向けの手引きの疫病の節を「病巣の地域を避ける」より「集団が数万人規模の町にまとまる段階で、穀物の貯えと住まいから鼠を離す」に寄せる価値がある【推測】（044 の提言の修正）。</p>
+<h2 id="_7">逸脱</h2>
+<p>図の左の目盛りの文字が重なったので、文字を斜めにする1行だけ直して再実行した（数値は同じ）。それ以外はなし。</p><footer><hr><small>自動生成</small></footer></body></html>

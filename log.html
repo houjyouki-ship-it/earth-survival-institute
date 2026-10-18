@@ -642,4 +642,22 @@
 <li>判定：H56a・b・e・f 支持、H56c（1.14倍で境界）・H56d（最大は p_link でなく D_max）棄却。</li>
 <li>逸脱：なし。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は f_foci を φ·S_c と交易の飽和型に改め、次は地元の病巣での減り D_max を絞る。金庫の運営者は、重い崩壊向けの疫病対策を、遠くからの荷の隔離より病巣の地域での齧歯類と穀物の貯えの扱いに寄せる価値がある）。</li>
+</ul>
+<h2 id="45-2026-10-18">第45回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038〜044 を <code>/tmp/rep045/</code> に複製し、044 の sim.py（約38秒、中で 042・040・039・038 を実行）を再実行した。results.json は runtime 以外一致（葉 378個、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 130（地元に病巣がある小さな集団でのペストの減り）を主課題にし、131（r の下限の止め）を同じ回の感度として足した。</li>
+<li>文献・データ（本回開いて確認）：Trends of Human Plague, Madagascar, 1998–2016（EID 2019、commune の発生率 0.03〜63/10万人、中央値 1.4）、WHO の Plague の fact sheet（腺ペストの致死率 30〜60%）、Patterns of Human Plague in Uganda, 2008–2016（EID 2017、受診しなかった19人のうち15人死亡）、Opportunities and challenges for plague vector control in Madagascar（PLOS NTD、1932年までに年4,000件近く）、Plague, a Reemerging Disease in Madagascar（EID 1998）、Demographics of Madagascar（1950年 408.4万）、Ecologic Features of Plague Outbreak Areas, DRC（EID 2018、Ituri で家の中に穀物と鼠）、Manchurian plague（6万人、模型には入れず）。PMC の DRC の版は 403 で開けず、CDC の版を使った。sources/excerpts.json（引用13件すべて本文と一致）。</li>
+<li>研究045を実施：<code>research/045-local-foci-endemic-drag/</code>（sim.py 約46秒 seed 20261045、計算のみ）。成果物は results.json、stdout.txt、fig_local_drag_tornado.png、fig_floor_nstar.png、report.md、PREREGISTRATION.md（12:39Z、初回実行前）、sources/。新しい関数で 044 の主の値と n* を誤差0で再現。<code>/tmp/rep045/</code> で再実行し results.json は runtime 以外一致。</li>
+<li>方法：地元に病巣があるときの減りを d_loc(n) = D_end + D_max·n/(n+N_loc) に置き換えた（D_end ~ logU(1e-5, 2e-3)、N_loc = N_c）。止めは 1e-4・5e-4・2e-3・止めない版。</li>
+<li>主要数値：</li>
+<li>病巣の地域で測られた減り：今の Madagascar の commune の中央値 <strong>0.0004〜0.0033 ポイント/年</strong>、最大 0.149、Madagascar 1932年 <strong>0.029〜0.196</strong>、India 0.054〜0.193。044 が使った D_max（0.64〜2.63）の 1/3 以下。</li>
+<li>U3 の重い崩壊1件あたり TAB <strong>0.0293</strong>（044 の 1.10倍）。N_loc = N_c/10 で 0.0282、D_end を上端に固定して N_loc = N_c/10 で 0.0278。</li>
+<li>トルネード：<strong>N_c 0.0054</strong> ＞ D_max 0.0032 ＞ p_link 0.0022 ＞ N_loc 0.0010 ＞ ρ 0.0009 ＞ φ 0.0005 ＞ D_end 0.0004。</li>
+<li>重み付き：A_Ord・U3 0.00784（1.05倍）、A_XPT_S・U2 0.01178。n* 5,772人。</li>
+<li>止めの感度：4通りとも ±1.0% 以内（044・045 の両方の模型）。</li>
+<li>042〜045 の主の版で重み付き A_Ord・U3 は 0.00649→0.00784（計 1.21倍、毎回上がる向き、1回ごとの動きは +5〜7%）。</li>
+<li>判定：H57a〜g すべて支持（H57c は 1.103倍で境界）。</li>
+<li>逸脱：図の目盛りの文字の重なりを直して再実行（数値は同じ）。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所はペストの模型の改良を止めて 114 などに移る。金庫の運営者は、重い崩壊向けの疫病の節を「集団が数万人規模の町にまとまる段階で穀物と住まいから鼠を離す」に寄せる価値がある）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

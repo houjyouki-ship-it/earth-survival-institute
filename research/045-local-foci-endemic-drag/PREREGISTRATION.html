@@ -1,0 +1,38 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究045 事前登録（初回実行前に記載） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="045">研究045 事前登録（初回実行前に記載）</h1>
+<h2 id="_1">問い</h2>
+<p>044 では「集団の土地に病巣がある」とき、ペストの減り d を第2次パンデミックの欧州の値 D_max（0.64〜2.6 ポイント/年）で集団の大きさによらず一定と置き、これがトルネードで最大（U3 の TAB の幅 0.0071）になった（open_problems 130）。本回は病巣の地域の資料（Madagascar の 1932年頃と 1998〜2016年、Uganda の West Nile、DRC の Ituri、India の第3次パンデミック）から「地元に病巣があるときの減り」を置き直し、あわせて r の下限の止め（0.0005/年）の感度を見る（131）。</p>
+<h2 id="sourcesexcerptsjson">データ（sources/excerpts.json の数値だけを使う）</h2>
+<ul>
+<li>Madagascar 1998〜2016：病例の出た415の commune の年の発生率 0.03〜63/10万人（中央値 1.4、IQR 0.7〜3.2）。治療ありの致死率 18%（EID 2019）。</li>
+<li>未治療の致死率：腺ペスト 30〜60%（WHO fact sheet）。Uganda West Nile で受診しなかった19人のうち15人（79%）が死亡（EID 2017）。</li>
+<li>Madagascar の第3次パンデミック：1921年に高地へ入り、1932年までに年 1,000件から 4,000件近くへ（PLOS NTD 2025）。人口は 1950年に 408.4万（Wikipedia Demographics of Madagascar、国連 WPP）。</li>
+<li>India：044 の A2（0.054〜0.193 ポイント/年）。</li>
+<li>DRC Ituri：病巣の地域の家は草ぶきで、75%以上の家に巣穴、捕まえた鼠30匹のうち23匹が家の中、穀物を家の中に置く（EID 2018）。数値は模型に入れず、地元の集落でも鼠と人が近い例として扱う。</li>
+</ul>
+<h2 id="_2">計算</h2>
+<ul>
+<li>A1：現在の病巣の地域の「人から見た減り」d_syl = 発生率 × 未治療の致死率 × 届け出の漏れの倍率 k（k ∈ {1, 3}、3 は【推測】）。中央値・IQR 上端・最大の3点。</li>
+<li>A2：Madagascar 1932年の減り = 4,000 × 致死率(0.3〜1.0) / (人口 × 高地の割合 h)。人口は 1950年の 408.4万（1932年は小さいので減りの下側）、h ∈ {1, 0.5}（0.5 は【推測】）。</li>
+<li>B：044 の模型（exec でそのまま使う）で、地元に病巣があるときの減りだけを
+  d_loc(n) = D_end + D_max·n/(n + N_loc)
+  に置き換える。D_end ~ logU(1e-5, 2e-3)（A1 の中央値付近〜India・Madagascar 1932年の上端）。N_loc = N_c（043 の町の大きさ、044 と同じ乱数）。感度：N_loc = N_c/10（村でも鼠の流行が起きやすい）、D_end = 0、D_end を上端 2e-3 に固定、044 と同じ（d = D_max）。</li>
+<li>C（131）：止め FLOOR ∈ {1e-4, 5e-4, 2e-3} と、止めない版（r ≤ 0 になる集団は先の段に届かない＝金庫の価値 0）を、044 の模型と新しい模型の両方で比べる。</li>
+<li>新しい乱数は seed 20261045。042・044 の乱数はそのまま。</li>
+</ul>
+<h2 id="_3">仮説（判定基準）</h2>
+<ul>
+<li>H57a：Madagascar 1932年の減り（全組み合わせ）の上端 &lt; 0.25 ポイント/年（第2次パンデミックの Sweden 0.98 の 1/4 未満で、India と同じ桁）。</li>
+<li>H57b：A1 の最大（63/10万 × 0.79 × k=3）&lt; 0.2 ポイント/年。</li>
+<li>H57c：新しい模型の U3 の重い崩壊1件あたり TAB ≥ 1.10 × 044 主（0.0265）。</li>
+<li>H57d：新しい模型のトルネード（φ、p_link、ρ、D_max、N_c、D_end、N_loc の倍率）で最も幅が大きいのは N_c。</li>
+<li>H57e：重み付き A_Ord・U3 の TAB が 044 主（0.00744）の ±30% 以内。</li>
+<li>H57f：止めの値（3通り）と止めない版で、U3 の TAB は（044 の模型でも新しい模型でも）主の値の ±10% 以内。</li>
+<li>H57g：新しい模型の n* が 044（5,872人）の ±10% 以内。</li>
+</ul>
+<h2 id="_4">注意（先に書いておく）</h2>
+<ul>
+<li>現代の発生率は治療・届け出・殺虫剤・鼠の駆除のある時代のもので、人と鼠の距離（家の造り）も違う。T1・T0 の社会の上限には使えず、下側の幅として扱う。</li>
+<li>Madagascar 1932年と India は鉄道・町・交易のある社会の国全体の値。小さな孤立集団の値ではない。</li>
+<li>鼠の流行が起きる集落の大きさ N_loc の直接の資料はない。N_c を流用し、1/10 を感度に置く。
+実記載時刻（date -u）: 2026-10-18T12:39:23Z</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
