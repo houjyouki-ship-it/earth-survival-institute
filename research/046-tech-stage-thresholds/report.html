@@ -1,0 +1,339 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究046：技術段の最小人口を歴史の例で置き直す（open_problems 114、120 の一部） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="046open_problems-114120">研究046：技術段の最小人口を歴史の例で置き直す（open_problems 114、120 の一部）</h1>
+<h2 id="_1">問い</h2>
+<p>038 の技術段の最小人口（製鉄 N_Fe、ガラスとレンズ N_lens、T2 の N_T2、脆い T3 の N_3f）はすべて【推測】で、閾値の置き方で CASC の重い崩壊は 0.06〜0.41 に動いていた。知識を持つ人々が小さな社会で鉄・ガラス・望遠鏡を作れたか、作り続けられたかの例を集めて閾値を置き直すと、重い崩壊の割合、重い崩壊1件あたりの板の手引きの価値、重み付きの価値、n* はどれだけ動くか。どの閾値が効くか。</p>
+<h2 id="sourcesexcerptsjson-28-html">確認した事実（本回開いて確認。<code>sources/excerpts.json</code> の引用 28件はすべて取得した本文と一致、植民地の人口表は HTML から読み取り）</h2>
+<table>
+<thead>
+<tr>
+<th>段</th>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>鉄</td>
+<td>Norse Greenland：鉱床はなく、製鉄は燃料（木炭）の不足ですぐ限界に達し、輸入にほぼ全面的に頼った</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland">Norse settlements in Greenland</a>）】</td>
+</tr>
+<tr>
+<td>鉄</td>
+<td>L'Anse aux Meadows：住居は 30〜160人分、鍛冶場と鉄滓。当時の Greenland の人口は約2,500</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows">L'Anse aux Meadows</a>）】</td>
+</tr>
+<tr>
+<td>鉄</td>
+<td>Iceland に沼鉄の大規模な「鉄の農場」があり、小さな製鉄の場所は自給できる量だけを作った</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Bog_iron">Bog iron</a>）】</td>
+</tr>
+<tr>
+<td>鉄</td>
+<td>Iceland の人口は入植以来ほぼ 3万〜8万人、1703年 50,358人</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Demographics_of_Iceland">Demographics of Iceland</a>）】</td>
+</tr>
+<tr>
+<td>鉄</td>
+<td>Saugus：北米初の一貫製鉄所、1646〜1670年頃。年30週、1日1トン。利益はほとんど出ず、1670年頃に閉鎖</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Saugus_Iron_Works_National_Historic_Site">Saugus Iron Works NHS</a>）】</td>
+</tr>
+<tr>
+<td>鉄</td>
+<td>Falling Creek（1619年〜）は 1622年の襲撃で短命に終わった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Falling_Creek_Ironworks">Falling Creek Ironworks</a>）】</td>
+</tr>
+<tr>
+<td>鉄</td>
+<td>たたら：4〜5人が72時間働き続け、砂鉄 9.1 t と木炭 11 t から玉鋼 2.3 t</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Tatara_(furnace)">Tatara (furnace)</a>）】</td>
+</tr>
+<tr>
+<td>鉄</td>
+<td>Fitzroy（Australia）：600〜700人が賃金で暮らした。1865年の製鉄の費用は輸入の銑鉄より高い。1884〜1907年は Australia で商業の製鉄なし</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Fitzroy_Iron_Works">Fitzroy Iron Works</a>、<a href="https://en.wikipedia.org/wiki/List_of_19th-century_iron_smelting_operations_in_Australia">List of 19th-century iron smelting operations in Australia</a>）】</td>
+</tr>
+<tr>
+<td>ガラス</td>
+<td>Jamestown 1608〜09年：ガラスは作れたが、1609年の冬に植民者が約500人から60人に減り、続かなかった。1621〜24年の2回目はほぼ生産なし（治安・食料・砂の質・不和）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Jamestown_Glasshouse">Jamestown Glasshouse</a>、<a href="https://en.wikipedia.org/wiki/Early_glassmaking_in_the_United_States">Early glassmaking in the United States</a>）】</td>
+</tr>
+<tr>
+<td>ガラス</td>
+<td>Salem 1639年〜：散発的に 1661年まで、または 1642〜43年に終了。Wistar のガラス工場（1739年）が初めて大規模で長続きした</td>
+<td>【事実（同上、<a href="https://en.wikipedia.org/wiki/Wistarburg_Glass_Works">Wistarburg Glass Works</a>）】</td>
+</tr>
+<tr>
+<td>光学</td>
+<td>Rittenhouse が America で最初の望遠鏡と観測所を作ったと考えられ、1769年の金星の太陽面通過を観測</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Colonial_American_astronomy">Colonial American astronomy</a>）】</td>
+</tr>
+<tr>
+<td>光学</td>
+<td>岩橋善兵衛は輸入の光学器械を調べて 1793年に最初の望遠鏡を作り、子孫が4代続けた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Iwahashi_Zenbei">Iwahashi Zenbei</a>）】</td>
+</tr>
+<tr>
+<td>人口</td>
+<td>日本は 1721年頃に約3,000万、明治維新の頃に約3,200万</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Edo_period">Edo period</a>）】</td>
+</tr>
+<tr>
+<td>人口</td>
+<td>植民地の合計：1640年 25,734、1650年 49,368、1670年 111,935、1740年 905,563、1760年 1,593,625、1770年 2,148,076。Massachusetts 1640年 8,932、Virginia 1620年 2,200</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/List_of_colonial_and_pre-Federal_U.S._historical_population">List of colonial and pre-Federal U.S. historical population</a>）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpy48">方法（<code>sim.py</code>、約48秒、ネット接続なし、新しい乱数なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T14:42Z、初回実行前）。</li>
+<li>A：例を段ごとに「試しはできた・続かなかった・一部・続いた」に分けた（図 <code>fig_cases_thresholds.png</code>）。Saugus の能力（30週 × 6〜7日 × 1 t）を当時の人口で割った。</li>
+<li>B：045 の sim.py を exec し、038 の名前空間の閾値の配列だけを差し替えた。038 の乱数 g2 と 024 の N_T2 から一様乱数を復元し（誤差0）、同じ乱数で新しい範囲に写した。</li>
+<li>E1【推測、根拠は上の表】：N_Fe ~ logU(2,500, 5万)（下は Greenland の失敗、上は Iceland と Saugus の頃の植民地）、N_lens ~ logU(1万, 100万)（下は Salem の散発的なガラス、上は Wistar の長続きした成功）。</li>
+<li>E2：E1 に加えて N_T2 ~ logU(50万, 215万)（上は Rittenhouse の頃の植民地）。</li>
+<li>閉じた集団の倍率 M ∈ {1, 3, 10}【推測】：例はすべて交易で道具や職人を入れられた社会なので、閉じた集団ではその M 倍が要るとした。N_3f・N_3 は変えていないが、段の順を保つため N_T2e より小さくはしない。</li>
+<li>C：N_Fe・N_lens・N_T2・N_3f を 038/024 の範囲の両端に固定するトルネード。</li>
+<li>確認：閾値を変えない場合に 045 の U3 の TAB（0.029275）、重み付き A_Ord・U3（0.0078369）、n*（5,772人）を<strong>誤差0で再現</strong>（<code>check_045</code>）。</li>
+<li>再現：<code>/tmp/rep046/</code> で 045 を再実行し results.json は runtime 以外一致（葉 158個、差分0）。本研究の sim.py も <code>/tmp/rep046b/</code> で再実行して一致を確かめた（log.md に記録）。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<h3 id="a-fig_cases_thresholdspng">A：例の区間（図 <code>fig_cases_thresholds.png</code>）</h3>
+<ul>
+<li>【計算】製鉄の技術そのものは 30〜160人の一時的な拠点でも使えた（L'Anse aux Meadows）。続かなかったのは約2,500人の Greenland（鉱床と燃料がない）、続いたのは 3万〜8万人の Iceland（自給の小さな製鉄）と 3,000万人の日本。</li>
+<li>【計算】Saugus の能力は年 180〜210 t で、1646年の植民地の人口（対数補間で 3.8万人）で割ると <strong>1人あたり年 4.7〜5.5 kg</strong>、Massachusetts だけなら 12.8〜15.0 kg。植民地全体が 11.2万人になった 1670年でも 1.6〜1.9 kg 分の能力があり、利益はほとんど出なかった。【推測】一貫製鉄所（高炉＋鍛造＋圧延）は 4万人規模の市場には大きすぎ、続く規模の製鉄は Iceland の農場や たたら（4〜5人、玉鋼 1 t に木炭 4.8 t）のような小さな炉だった。</li>
+<li>【計算】ガラスは 500人でも試しはでき、2,200〜2,500人では失敗、約9千人で散発的、約91万人で初めて長続きした。望遠鏡は植民地 159万〜215万人の頃に1人の職人が作り、日本では約3,000万人の社会で4代続いた。</li>
+<li>【推測】失敗の例は規模以外の原因（治安、飢え、砂の質、燃料、鉱床）と重なり、成功の例は輸入品との競争の中での最初の成功なので、「その人数で初めて作れた」とは言えない。区間は閾値の上下の目安にとどまる。</li>
+</ul>
+<h3 id="b">B：閾値を置き直した結果</h3>
+<table>
+<thead>
+<tr>
+<th>変種</th>
+<th>U3 の重い崩壊1件あたり TAB</th>
+<th>CASC の重い崩壊</th>
+<th>U3 の重い崩壊</th>
+<th>NUC_G の重い崩壊</th>
+<th>重み付き A_Ord・U3</th>
+<th>うち重い崩壊から</th>
+<th>A_XPT_S・U2</th>
+<th>n*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>045 主（038 の閾値）</td>
+<td>0.0293</td>
+<td>0.218</td>
+<td>0.694</td>
+<td>0.000</td>
+<td>0.00784</td>
+<td>0.00492</td>
+<td>0.01178</td>
+<td>5,772</td>
+</tr>
+<tr>
+<td>E1（鉄・レンズ）</td>
+<td>0.0298</td>
+<td>0.204</td>
+<td>0.690</td>
+<td>0.000</td>
+<td>0.00793</td>
+<td>0.00497</td>
+<td>0.01180</td>
+<td>5,758</td>
+</tr>
+<tr>
+<td>E2（＋T2）</td>
+<td><strong>0.0305</strong></td>
+<td><strong>0.131</strong></td>
+<td>0.671</td>
+<td>0.000</td>
+<td><strong>0.00805</strong></td>
+<td>0.00489</td>
+<td>0.01172</td>
+<td><strong>5,724</strong></td>
+</tr>
+<tr>
+<td>E2・M=3</td>
+<td>0.0283</td>
+<td>0.320</td>
+<td>0.721</td>
+<td>0.000</td>
+<td>0.00767</td>
+<td>0.00503</td>
+<td>0.01191</td>
+<td>5,824</td>
+</tr>
+<tr>
+<td>E2・M=10</td>
+<td>0.0251</td>
+<td>0.530</td>
+<td>0.769</td>
+<td><strong>0.047</strong></td>
+<td>0.00707</td>
+<td>0.00490</td>
+<td>0.01202</td>
+<td>5,982</td>
+</tr>
+<tr>
+<td>E1・M=10</td>
+<td>0.0239</td>
+<td>0.603</td>
+<td>0.783</td>
+<td><strong>0.321</strong></td>
+<td>0.00687</td>
+<td>0.00482</td>
+<td>0.01275</td>
+<td>—</td>
+</tr>
+<tr>
+<td>038 の閾値・M=10</td>
+<td>0.0234</td>
+<td>0.619</td>
+<td>0.786</td>
+<td><strong>0.357</strong></td>
+<td>0.00678</td>
+<td>0.00475</td>
+<td>0.01275</td>
+<td>—</td>
+</tr>
+<tr>
+<td>- 閾値の中央値：E1 で N_Fe 1.1万（038 1.4万）、N_lens 10万（30万）。E2 で N_T2e 104万（182万）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【計算】証拠の範囲（M=1）では、重み付きの価値は 045 の +1〜3% しか動かない。重い崩壊の割合は CASC で 0.218→0.131 と大きく動くが、重い崩壊1件あたりの価値が逆向きに上がるので、重い崩壊から来る価値（0.00492→0.00489）はほとんど変わらない。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【計算】倍率 M の方が効く：E2 で M=1→10 にすると重み付き A_Ord・U3 は −12%、CASC の重い崩壊は 0.13→0.53。NUC_G（全面核戦争）の重い崩壊は、T2 の閾値が豪州の人口（2,000万人台）に近づくと 0 から 0.05（E2）〜0.36（038 の閾値）に跳ねる。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="c-fig_variants_tornadopng">C：トルネード（図 <code>fig_variants_tornado.png</code> 右）</h3>
+<table>
+<thead>
+<tr>
+<th>閾値（範囲の両端）</th>
+<th>重み付き A_Ord・U3 の幅</th>
+<th>U3 の TAB の幅</th>
+<th>CASC の重い崩壊の幅</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N_lens（3万／300万）</td>
+<td><strong>0.00055</strong></td>
+<td><strong>0.0029</strong></td>
+<td>0.118</td>
+</tr>
+<tr>
+<td>N_T2（50万／500万）</td>
+<td>0.00041</td>
+<td>0.0024</td>
+<td><strong>0.322</strong></td>
+</tr>
+<tr>
+<td>N_3f（10万／1000万）</td>
+<td>0.00036</td>
+<td>0（重い崩壊に効かない）</td>
+<td>0</td>
+</tr>
+<tr>
+<td>N_Fe（2千／10万）</td>
+<td>0.00005</td>
+<td>0.0004</td>
+<td>0</td>
+</tr>
+<tr>
+<td>- 【計算】重み付きの価値で最も効くのは N_lens（上端 300万では N_T2 を押し上げるため）、重い崩壊の割合で最も効くのは N_T2。N_Fe はほとんど効かない（どちらの尺度でも最小）。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="explorepy">探索（事前登録の外、<code>explore.py</code>）</h3>
+<ul>
+<li>【計算】Kline &amp; Boyd 2010 表1（038 で確認済みの10社会）で log(道具の数) を log(人口) と接触の多さで回帰すると、接触の多い社会は人口が <strong>2.6倍</strong>（bootstrap 90% 0.64〜10.4倍、Hawaii を除くと 2.9倍）の社会と同じ道具の数を持つ。【推測】これを「つながりが閾値を下げる倍率」と読むと、本回の M の主の範囲（1〜10）とほぼ重なり、M=3 が中央の目安になる。10社会・海の道具だけなので弱い。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H58a：E1 で U3 の TAB は 045 の ±10% 以内</td>
+<td>1.019倍</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H58b：E1 で CASC・BIO・U3 の重い崩壊の変化はすべて 0.02 未満</td>
+<td>−0.014／−0.001／−0.004</td>
+<td><strong>支持</strong>（CASC は境界に近い）</td>
+</tr>
+<tr>
+<td>H58c：E2 で CASC の重い崩壊は 045 の 0.8倍以下</td>
+<td>0.60倍（0.131）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H58d：トルネードの最大は N_T2</td>
+<td>最大は N_lens（0.00055、N_T2 は 0.00041）</td>
+<td><strong>棄却</strong>（重い崩壊の割合では N_T2 が最大）</td>
+</tr>
+<tr>
+<td>H58e：M=1→10 の差は 045→E2 の差より大きい</td>
+<td>0.00098 ＞ 0.00021</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H58f：E2 の n* は 045 の ±20% 以内</td>
+<td>5,724人（0.99倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>例はすべて開いた社会</strong>。Iceland は Norway と交易し、植民地は英国から道具・資本・職人を入れた。崩壊後の閉じた集団の閾値を直接測った例はない。M は Kline &amp; Boyd の接触の効果で目安を付けただけで、10社会・海の道具からの外挿である。</li>
+<li><strong>成功の例は競争の中の最初の成功</strong>。輸入が安ければ作らない（Fitzroy の費用、Australia の 1884〜1907年）。続いた人口は閾値の上限の目安で、もっと小さくても作れた可能性がある。逆に、失敗の例は規模以外の原因と重なる。E1・E2 の範囲は「区間の端を例に合わせた」【推測】で、統計的な推定ではない。</li>
+<li><strong>N_lens と N_T2 の中身</strong>。T1（10倍のレンズ）に要るのはガラスと研磨だけで、Wistar の工場（瓶と窓ガラス）は上限として甘い可能性がある。T2（読取装置を作れる社会）を Rittenhouse 1人の望遠鏡で代表させたのは弱く、レンズのガラスが輸入だったかは確かめていない。</li>
+<li><strong>M を Fe・lens・T2 に同じだけ掛けた</strong>。段ごとに違うはずで、分業の深い段ほど大きいと考えるのが自然だが、根拠はない。</li>
+<li>038〜045 の模型の他の仮定（r の事前、ペスト、GEN の分解）はそのまま。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>歴史の例で技術段の閾値を置き直すと、製鉄は数万人で自給でき（Iceland）、一貫製鉄所は4万人の市場には大きすぎ（Saugus で1人あたり年 5 kg 分の能力）、ガラスが長続きしたのは約90万人、望遠鏡は約200万人の頃だった。これで閾値の範囲を下に寄せても、重み付きの金庫の価値は +1〜3%、重い崩壊1件あたりの価値は +2〜4%、n* は −1% しか動かない。重い崩壊の割合（CASC 0.22→0.13）は動くが、1件あたりの価値が逆に動いて打ち消す。結論を動かすのは閾値の中央の値よりも、開いた社会の例を閉じた集団に移すときの倍率 M で、M=10 なら重み付きの価値は −12%、全面核戦争でも豪州が T2 を保てず重い崩壊が 5〜36% 起こりうる。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：038 の閾値を E2（N_Fe logU(2,500,5万)、N_lens logU(1万,100万)、N_T2 logU(50万,215万)）に改め、次は閉じた集団の倍率 M（＝ 120 の「一つのつながった集団」）を主の未知として扱う。032〜045 の「NUC_G はほぼ軽い崩壊」は、閉じた豪州が T2 を 2,000万人未満で保てる、という仮定つきと明記する。</li>
+<li><strong>金庫・手引きの作り手（GitHub Archive Program、Piql、Memory of Mankind など）</strong>：重い崩壊向けの製鉄の節は、高炉の一貫製鉄所ではなく、数人で回せる小さな炉（沼鉄の炉、たたら）を対象に書く価値がある【推測】。Saugus や Fitzroy のような一貫製鉄所は、数万人規模の市場では採算が合わなかった。</li>
+</ul>
+<h2 id="_7">新規性</h2>
+<p>Ord 2020 や XPT は崩壊後に技術段を保つ人口を数値で扱っていない（本研究所のこれまでの読み）。Kline &amp; Boyd は道具の数と人口の関係を示したが、製鉄・ガラス・光学の段の閾値は与えない。本回は、知識を持つ移住者の植民地と孤立した島の例を段ごとの閾値の上下の目安に使い、それを金庫の価値の模型にそのまま流して、閾値の中央の値より開いた社会から閉じた集団への倍率の方が結論を動かすことを示した。</p><footer><hr><small>自動生成</small></footer></body></html>

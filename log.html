@@ -660,4 +660,23 @@
 <li>判定：H57a〜g すべて支持（H57c は 1.103倍で境界）。</li>
 <li>逸脱：図の目盛りの文字の重なりを直して再実行（数値は同じ）。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所はペストの模型の改良を止めて 114 などに移る。金庫の運営者は、重い崩壊向けの疫病の節を「集団が数万人規模の町にまとまる段階で穀物と住まいから鼠を離す」に寄せる価値がある）。</li>
+</ul>
+<h2 id="46-2026-10-18">第46回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038〜045 を <code>/tmp/rep046/</code> に複製し、045 の sim.py（約44秒、中で 044・042・040・039・038 を実行）を再実行した。results.json は runtime 以外一致（葉 158個、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 114（技術段の最小人口の根拠）を主課題にし、120 の一部（接触の効果の倍率）を探索で足した。</li>
+<li>文献・データ（本回開いて確認、Wikipedia を MediaWiki API で取得）：Norse settlements in Greenland（鉱床なし、燃料不足で製鉄が伸びず輸入にほぼ依存）、L'Anse aux Meadows（30〜160人分の住居、鍛冶場と鉄滓）、Bog iron（Iceland の「鉄の農場」と自給の小さな製鉄）、Demographics of Iceland（3万〜8万人、1703年 50,358）、Saugus Iron Works NHS（1646〜1670年頃、年30週・1日1トン、採算割れ）、Falling Creek Ironworks、Tatara (furnace)（4〜5人・72時間、木炭 11 t → 玉鋼 2.3 t）、Fitzroy Iron Works（600〜700人、輸入より高い）、List of 19th-century iron smelting operations in Australia、Jamestown Glasshouse、Early glassmaking in the United States、Wistarburg Glass Works、Colonial American astronomy（Rittenhouse）、Iwahashi Zenbei、Edo period（1721年頃 約3,000万）、Edo kiriko、List of colonial and pre-Federal U.S. historical population（表を HTML から読み取り）。sources/excerpts.json（引用28件すべて本文と一致）。</li>
+<li>研究046を実施：<code>research/046-tech-stage-thresholds/</code>（sim.py 約48秒、新しい乱数なし、計算のみ）。成果物は results.json、stdout.txt、fig_cases_thresholds.png、fig_variants_tornado.png、report.md、PREREGISTRATION.md（14:42Z、初回実行前）、explore.py・explore_results.json（事前登録の外）、sources/。閾値を変えない場合に 045 の U3 の TAB・重み付き A_Ord・U3・n* を誤差0で再現。<code>/tmp/rep046b/</code> で再実行し results.json は runtime 以外一致（葉 464個、差分0）。</li>
+<li>方法：038 の名前空間の閾値の配列だけを差し替え（038 の g2 と 024 の N_T2 から一様乱数を誤差0で復元し同じ乱数で写す）。E1：N_Fe logU(2,500,5万)、N_lens logU(1万,100万)。E2：＋N_T2 logU(50万,215万)。閉じた集団の倍率 M ∈ {1,3,10}。トルネードは各閾値を 038/024 の範囲の両端に固定。</li>
+<li>主要数値：</li>
+<li>Saugus の能力 年 180〜210 t、1646年の植民地（3.8万人）の1人あたり <strong>4.7〜5.5 kg/年</strong>（1670年 1.6〜1.9 kg）。たたらは玉鋼 1 t に木炭 4.8 t。</li>
+<li>U3 の重い崩壊1件あたり TAB：045 0.0293、E1 0.0298、E2 <strong>0.0305</strong>、E2・M=10 0.0251。</li>
+<li>CASC の重い崩壊：0.218→E1 0.204→E2 <strong>0.131</strong>→E2・M=3 0.320→E2・M=10 0.530。NUC_G：E2・M=10 0.047、038 の閾値・M=10 <strong>0.357</strong>。</li>
+<li>重み付き A_Ord・U3：0.00784→E1 0.00793→E2 <strong>0.00805</strong>（+2.7%）→E2・M=10 0.00707。重い崩壊からの分は 0.00489〜0.00503 でほぼ不変。A_XPT_S・U2 0.01172〜0.01202。</li>
+<li>n*：045 5,772人、E2 5,724人、E2・M=10 5,982人。</li>
+<li>トルネード（重み付き A_Ord・U3 の幅）：N_lens 0.00055 ＞ N_T2 0.00041 ＞ N_3f 0.00036 ＞ N_Fe 0.00005。CASC の重い崩壊の幅は N_T2 0.32、N_lens 0.12。</li>
+<li>探索：Kline &amp; Boyd の接触の多さは人口 <strong>2.6倍</strong>（bootstrap 90% 0.64〜10.4倍）に当たる。</li>
+<li>判定：H58a・b・c・e・f 支持（b の CASC は境界に近い）、H58d 棄却（最大は N_lens、重い崩壊の割合では N_T2）。</li>
+<li>逸脱：なし。探索（explore.py）は事前登録の外と明記。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は閾値を E2 に改め、閉じた集団の倍率 M を次の主の未知にし、NUC_G がほぼ軽い崩壊という結論は閉じた豪州が T2 を 2,000万人未満で保てるという仮定つきと明記する。手引きの作り手は、重い崩壊向けの製鉄の節を一貫製鉄所でなく数人で回せる小さな炉に向ける価値がある）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
