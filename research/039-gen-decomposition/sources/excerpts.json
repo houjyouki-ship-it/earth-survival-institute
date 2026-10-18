@@ -1,0 +1,21 @@
+{
+ "XPT_table2": {"url": "https://forecastingresearch.org/pdf/existential-risk-persuasion-tournament.pdf", "accessed": "2026-10-18T00:36Z", "page": "PDF p.16 (Table 2), p.17 (Table 3), p.139 (Question 7)",
+   "superforecasters_catastrophe_pct": {"AI": 2.13, "engineered_pathogen": 0.8, "natural_pathogen": 1.0, "nuclear": 4.0, "non_anthropogenic": 0.05, "total": 9.05},
+   "domain_experts_catastrophe_pct": {"AI": 12, "engineered_pathogen": 3, "natural_pathogen": 0.85, "nuclear": 8, "non_anthropogenic": 0.09, "total": 20},
+   "superforecasters_extinction_pct": {"natural_pathogen": 0.0018, "non_anthropogenic": 0.0043, "total": 1},
+   "quote_def": "be the cause of death within a 5-year period for more than 10% of humans alive at the beginning of that period",
+   "quote_q7": "non-anthropogenic causes (e.g., asteroid or comet impacts, solar flares, a supervolcanic eruption, or a stellar explosion)",
+   "note_pathogen": "Engineered and natural pathogen questions asked in a one-shot postmortem survey (N=78 superforecasters, 45 domain experts)."},
+ "Toba": {"url": "https://en.wikipedia.org/wiki/Youngest_Toba_eruption", "accessed": "2026-10-18T00:37Z",
+   "quote": "Modeling on an emission of 8.5e14 g of sulfur, which is 100 times the 1991 Pinatubo sulphur, volcanic winter has a maximum global mean cooling of 3.5 C and returns gradually within the range of natural variability 5 years after the eruption.",
+   "quote2": "The Lake Malawi studies suggest that the environmental effects of the eruption were mild and limited to less than a decade in East Africa, but these studies are questioned because of sediment mixing"},
+ "Xia2022_cooling": {"url": "https://www.nature.com/articles/s43016-022-00573-0", "accessed": "2026-10-18T00:38Z",
+   "quote": "the maximum average 2 m air temperature reductions range from 1.5 C (5 Tg soot injection) to 14.8 C (150 Tg soot injection), peaking within 1-2 years after the war, with temperature reduction lasting for more than 10 years."},
+ "Impact_event": {"url": "https://en.wikipedia.org/wiki/Impact_event", "accessed": "2026-10-18T00:37Z",
+   "quote": "Asteroids with a 1 km diameter strike Earth every 500,000 years on average. ... Large collisions - with 5 km objects - happen approximately once every twenty million years."},
+ "Chapman_Morrison_1994": {"url": "https://www.nature.com/articles/367033a0", "accessed": "2026-10-18T00:40Z",
+   "quote": "There is a 1-in-10,000 chance that a large (~2-km diameter) asteroid or comet will collide with the Earth during the next century, disrupting the ecosphere and killing a large fraction of the world's population."},
+ "Carrington_Event": {"url": "https://en.wikipedia.org/wiki/Carrington_Event", "accessed": "2026-10-18T00:37Z",
+   "quote": "In June 2013, a joint venture from researchers at Lloyd's of London and Atmospheric and Environmental Research (AER) in the US used data from the Carrington Event to estimate the cost of a similar event in the present to the US alone at US$600 billion to $2.6 trillion"},
+ "not_used": "Riley 2012 (AGU page blocked, 5.5 KB stub); probability of a Carrington-class storm not used."
+}

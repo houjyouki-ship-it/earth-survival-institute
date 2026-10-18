@@ -1,0 +1,27 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究039 事前登録（2026-10-18T00:39Z、sim.py の初回実行前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="039-2026-10-18t0039zsimpy">研究039 事前登録（2026-10-18T00:39Z、sim.py の初回実行前）</h1>
+<p>課題：open_problems 113（GEN＝未知・その他の分解）。038 では重い崩壊（T1・T0・T00）の価値の 81〜94% が GEN（T0 から再出発 0.946 と置いた1本の仮定）から来た。</p>
+<h2 id="_1">確認済みの入力（本回開いた資料）</h2>
+<ul>
+<li>XPT（Karger et al. 2023）表2（大災害＝5年で10%超死亡、2100年まで、中央値）：超予測者 AI 2.13%、工学的病原体 0.8%、自然病原体 1%、核 4%、非人為 0.05%、合計 9.05%。領域専門家 12／3／0.85／8／0.09／20%。表3（絶滅）：超予測者 非人為 0.0043%、自然病原体 0.0018%。非人為の質問は小惑星・彗星・太陽フレア・超巨大噴火・恒星爆発を例示し、自然の病原体を除く。</li>
+<li>Ord 表6.1（taxonomy.md）：未知の人為 1/30、その他の人為 1/50（ディストピア・ナノテク・逆汚染・異星人・急進的実験）、自然の合計は約 1/10,000。</li>
+<li>Toba：8.5e14 g の硫黄の模型で全球平均の最大冷却 3.5°C、5年で自然変動の範囲に戻る。Lake Malawi では冷却の痕跡なし（Wikipedia: Youngest Toba eruption）。Xia 2022：5 Tg で最大 1.5°C、150 Tg で 14.8°C の冷却。</li>
+<li>小惑星：1 km 級は平均 50万年に1回、5 km 級は約 2,000万年に1回（Wikipedia: Impact event）。約 2 km の天体が今後100年に衝突する確率 1/10,000、世界人口の大きな割合を殺す（Chapman &amp; Morrison 1994 要旨）。</li>
+<li>Carrington 級の太陽嵐：Lloyd's・AER 2013 は米国だけで 0.6〜2.6兆ドルの損失（Wikipedia: Carrington Event）。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<p>038 の sim.py の Kline &amp; Boyd より前の部分をそのまま実行し（038 の値を誤差0で再現することを確認）、GEN を次の成分に分ける。
+- A_Ord：GEN = UNK（未知の人為 1/30）＋ OTH（その他の人為 1/50 を5成分に Dirichlet(1) で分ける【推測】：ディストピア→T3 のまま閉じる（金庫の価値0）、ナノテク→AI と同じ、逆汚染→BIO（038）と同じ、異星人→AI と同じ、実験→絶滅）。
+- A_XPT_S（032 互換の D1）：GEN 1.432 = NAT_PAND 1.0 ＋ NONANTH 0.05 ＋ UNK 0.382。変種 D2（表2をそのまま）：BIO 0.8、NAT_PAND 1.0、NONANTH 0.05、残り 1.07 を CASC と UNK に半分ずつ。
+- A_XPT_E：032 の約束で GEN=0（表2でも残りは負）なので変わらない。
+- NAT_PAND：死亡割合 logU(0.10, 0.60)【推測、上端は黒死病の欧州】、絶滅の割合 0.0018（表3/表2）。NONANTH：超巨大噴火（死亡 logU(0.10, 0.37)、Xia の 5〜47 Tg の食料なし割合への内挿【推測】）、2 km 級の衝突（死亡 U(0.10, 0.90)、設備の損傷 mcap 1〜3）、太陽嵐（死亡 logU(0.10, 0.40)、mcap 1〜3）を Dirichlet(1) で混ぜ、絶滅の割合 0.086（0.0043/0.05）。最大集団は 038 の NUC_R・NUC_G と同じ形。
+- UNK の事前分布を3つ：U1＝032 のまま（T0 0.946）、U2＝類推（その錨の名前のある成分の重みで混ぜる）、U3＝無知の事前（生存割合 logU(1e-7, 1)、つながった割合 logU(1e-5, 1)）。さらに U1 の割合 h を 0〜1 で動かす（残りは U2）。</p>
+<h2 id="_3">仮説（判定規則）</h2>
+<ul>
+<li>H51a：GEN の名前のある部分（UNK 以外）の重い崩壊の割合が A_Ord・A_XPT_S（D1）とも 0.05 未満。</li>
+<li>H51b：U1 のままでも、分解で重み付きの重い崩壊の割合が A_XPT_S（D1）では 038 の半分未満（0.192→&lt;0.096）に下がり、A_Ord では半分以上残る（&gt;0.151）。</li>
+<li>H51c：U2 では重み付きの重い崩壊の割合が全錨で 0.05 未満、かつ板の手引きの重み付き価値のうち重い崩壊分が全錨で 50% 未満。</li>
+<li>H51d：U3 の UNK の重い崩壊の割合は 0.2〜0.8 の間（事前分布しだいで決まらない）。</li>
+<li>H51e：A_Ord で板の手引きの価値の過半が重い崩壊から来るには h が 0.5 を超える必要がある（h* &gt; 0.5）。</li>
+<li>H51f：A_XPT_S の重み付きの板の手引きの価値は D1 と D2（U1）で ±20% 以内。
+乱数：seed 20261390（新しい乱数）、038 の乱数列はそのまま。N=200,000。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

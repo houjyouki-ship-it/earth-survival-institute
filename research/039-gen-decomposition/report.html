@@ -1,0 +1,148 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究039：GEN（未知・その他）の分解（open_problems 113） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="039genopen_problems-113">研究039：GEN（未知・その他）の分解（open_problems 113）</h1>
+<h2 id="_1">問い</h2>
+<p>038 では、重い崩壊（機械が止まり T1・T0・T00 から再出発）の価値の 81〜94% が GEN（「未知・その他」を T0 から再出発 0.946 と置いた1本の仮定）から来た。GEN の重みの中身を公開の推定（XPT 表2・表3、Ord 表6.1）で名前のつく原因と本当に未知の残り（UNK）に分け、名前のつく原因を 038 と同じ模型（生存者×最大集団×段ごとの最小人口×人口待ち）に入れると、重い崩壊の割合と、板の手引きの価値のうち重い崩壊から来る割合はどう動くか。重い崩壊を優先する方針はどんな条件で成り立つか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大災害（5年で人類の10%超が死ぬ）の 2100 年までの確率、超予測者の中央値：AI 2.13%、工学的病原体 0.8%、自然病原体 1%、核 4%、非人為 0.05%、合計 9.05%。領域専門家 12／3／0.85／8／0.09／20%</td>
+<td>【事実（<a href="https://forecastingresearch.org/pdf/existential-risk-persuasion-tournament.pdf">XPT 報告書</a> 表2、PDF p.16）】</td>
+</tr>
+<tr>
+<td>絶滅の確率、超予測者：自然病原体 0.0018%、非人為 0.0043%、合計 1%</td>
+<td>【事実（同 表3、p.17）】</td>
+</tr>
+<tr>
+<td>非人為の質問は「小惑星・彗星の衝突、太陽フレア、超巨大噴火、恒星爆発」を例に挙げ、自然の病原体だけによる死は除く。病原体の2問は本戦後の単発調査（超予測者 78人）</td>
+<td>【事実（同 p.139、脚注31・33）】</td>
+</tr>
+<tr>
+<td>Ord：未知の人為 1/30、その他の人為 1/50（ディストピア・ナノテク・逆汚染・異星人・急進的実験）</td>
+<td>【事実（taxonomy.md A 表、Ord 表6.1）】</td>
+</tr>
+<tr>
+<td>Toba 級（硫黄 8.5e14 g の模型）：全球平均の最大冷却 3.5°C、5年で自然変動の範囲に戻る。Lake Malawi の記録には冷却の痕跡がない（堆積物の混合で弱まった可能性の指摘あり）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Youngest_Toba_eruption">Wikipedia: Youngest Toba eruption</a>）】</td>
+</tr>
+<tr>
+<td>核の冬の最大冷却：5 Tg で 1.5°C、150 Tg で 14.8°C</td>
+<td>【事実（<a href="https://www.nature.com/articles/s43016-022-00573-0">Xia et al. 2022</a>）】</td>
+</tr>
+<tr>
+<td>直径 1 km の小惑星は平均 50万年に1回、5 km は約 2,000万年に1回</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Impact_event">Wikipedia: Impact event</a>）】</td>
+</tr>
+<tr>
+<td>約 2 km の天体が今後100年に衝突する確率は 1/10,000 で、世界人口の大きな割合を殺す</td>
+<td>【事実（<a href="https://www.nature.com/articles/367033a0">Chapman &amp; Morrison 1994 要旨</a>）】</td>
+</tr>
+<tr>
+<td>Carrington 級の太陽嵐の損失は米国だけで 0.6〜2.6兆ドル（Lloyd's・AER 2013）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Carrington_Event">Wikipedia: Carrington Event</a>）】</td>
+</tr>
+<tr>
+<td>Riley 2012（Carrington 級の 10 年確率）は AGU の頁が開けず使っていない。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-20261390n20000012">方法（<code>sim.py</code>、seed 20261390、N=200,000、約12秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T00:39Z、初回実行前）。</li>
+<li>038 の sim.py の Kline &amp; Boyd より前をそのまま実行し、038 の重み付きの値と重い崩壊の割合を<strong>誤差0で再現</strong>した（<code>check_038</code>）。</li>
+<li>GEN の重みの分け方：</li>
+<li>A_Ord：UNK（未知の人為 1/30）62.5%、OTH（その他の人為 1/50）37.5%。OTH の5成分は Dirichlet(1) で分け【推測】、ディストピアは T3 のまま閉じる（金庫の価値0）、ナノテクと異星人は AI と同じ、逆汚染は BIO（038）と同じ、実験は絶滅とした【推測】。自然の 1/10,000 は無視できる大きさなので入れていない。</li>
+<li>A_XPT_S（032 の約束を保つ D1）：GEN 1.432 = 自然のパンデミック（NAT）1.0 ＋ 非人為（NON）0.05 ＋ UNK 0.382。変種 D2 は表2をそのまま使う（BIO を 032 の代理値 0.056 から 0.8 に、残り 1.07 を CASC と UNK に半分ずつ）。</li>
+<li>A_XPT_E：032 の約束では GEN=0（表2でも残りは負）で変わらない。</li>
+<li>名前のつく成分の生存者（死亡割合の幅はすべて【推測】）：NAT は logU(0.10, 0.60)（上端は黒死病の欧州）、設備は無傷。NON は超巨大噴火 logU(0.10, 0.37)（Toba の 3.5°C は Xia の 5 Tg と 47 Tg の間にあり、その食料なし割合 3.8〜37% に内挿）、2 km 級の衝突 U(0.10, 0.90) で設備の損傷あり・最大集団の下限 1e7、太陽嵐 logU(0.10, 0.40) で設備の損傷ありを Dirichlet(1) で混ぜた。絶滅の割合は XPT の比（NAT 0.0018、NON 0.086）【事実からの計算】。</li>
+<li>UNK の事前分布を3つ置いた：U1＝038 のまま（T0 から 0.946）、U2＝類推（その錨の名前のある原因と同じ混ざり方）、U3＝無知（生存割合 logU(1e-7, 1)、つながった割合 logU(1e-5, 1)）。U1 の割合 h を 0〜1 で動かす走査もした（残りは U2）。</li>
+<li>再現：<code>/tmp/rep039b/</code> で再実行し results.json は runtime 以外一致（628キー、差分0）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H51a</td>
+<td>GEN の名前のある部分の重い崩壊 &lt; 0.05</td>
+<td>A_Ord の OTH 0.032、A_XPT_S の NAT＋NON 0.00016</td>
+<td><strong>支持</strong>（ほぼ模型の作りから決まる。下記）</td>
+</tr>
+<tr>
+<td>H51b</td>
+<td>U1 でも A_XPT_S は 038 の半分未満、A_Ord は半分以上残る</td>
+<td>0.192→<strong>0.082</strong>、0.302→<strong>0.205</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H51c</td>
+<td>U2 で全錨の重い崩壊 &lt; 0.05、重い崩壊からの価値 &lt; 50%</td>
+<td>0.047／0.044／0.031、28%／14%／11%</td>
+<td><strong>支持</strong>（A_Ord は 0.047 で境界に近い）</td>
+</tr>
+<tr>
+<td>H51d</td>
+<td>U3 の UNK の重い崩壊が 0.2〜0.8</td>
+<td><strong>0.69</strong>（T00 0.42、T0 0.18、T1 0.09、絶滅 0.11）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H51e</td>
+<td>A_Ord で重い崩壊からの価値が過半になるには h &gt; 0.5 が要る</td>
+<td><em><em>h</em> = 0.20</em>*</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H51f</td>
+<td>A_XPT_S の板の手引きの価値が D1 と D2 で ±20% 以内</td>
+<td>D2/D1 = <strong>0.82</strong></td>
+<td><strong>支持</strong>（境界に近い）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjsonexplore_resultsjson">主な数値（results.json、explore_results.json）</h2>
+<ul>
+<li><strong>GEN の中身</strong>：A_XPT_S では GEN の 70% が自然のパンデミック、3% が非人為、本当に未知は 27%（D2 では UNK の重みは全体の 5.9%）。A_Ord では 62.5% が「未知の人為」で、自然の原因はほぼ入っていない。</li>
+<li><strong>名前のつく成分の再出発の深さ</strong>：自然のパンデミック、超巨大噴火、太陽嵐は重い崩壊 0（最大集団の中央値 9億〜11億人）。2 km 級の衝突は 1.0%（つながった圏を 1e7 まで割った場合）。Ord のその他の人為は 3.2%（絶滅 52%）。</li>
+<li><strong>重み付きの重い崩壊の割合</strong>（038 → U1／U2／U3）：A_Ord 0.302 → 0.205／0.047／0.161、A_XPT_S 0.192 → 0.082／0.044／0.071（D2 0.085／0.030／0.070）、A_XPT_E 0.031（不変）。</li>
+<li><strong>板の手引きの重み付き価値</strong>：A_Ord 0.0145 → 0.0103／0.0036／0.0046、A_XPT_S 0.0174 → 0.0127／0.0114／0.0113。</li>
+<li><strong>価値のうち重い崩壊から来る割合</strong>：A_Ord 0.86 → 0.79／0.28／0.36、A_XPT_S 0.47 → 0.26／0.14／0.15、A_XPT_E 0.11。重い崩壊からの価値の絶対値は A_Ord で 0.0010〜0.0082（事前分布だけで8倍）、A_XPT_S で 0.0016〜0.0033。</li>
+<li><strong>h の走査</strong>：A_Ord では本当に未知の人為リスクの <strong>20%</strong> が T0 から再出発すれば、価値の過半が重い崩壊から来る。A_XPT_S では h=1 でも 26%（D2 32%）で、どの h でも過半にならない。</li>
+<li><strong>無知の事前（U3）</strong>：重い崩壊は 69% と多いが、最大集団の中央値が 8,149人と小さく人口待ちが長いので、UNK 1件あたりの板の手引きの価値は 0.0093 で U1（0.042）の約 1/4.5。</li>
+<li>探索（判定に使わず）：表2・表3の中央値を引き算すると、超予測者の「説明されない残り」は大災害 1.07 ポイント、絶滅 0.53 ポイントで、比は 0.50（名前のつく原因は 0.002〜0.18）。領域専門家は大災害の残りが −3.94 ポイントで負になる。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>H51a はほぼ模型の作りから決まる</strong>。名前のつく自然の原因の死亡割合を 10〜90% と置けば、世界人口 82億の模型では最大集団が 1,000万人を割ることはまずない。2 km 級の衝突で「つながった圏が 1e7 まで割れる」と置いて初めて 1% が出る。分裂の仮定を強めれば数字は上がるが、その根拠はない。</li>
+<li><strong>XPT の分解は中央値の引き算に頼る</strong>。README の規則どおり中央値は足せない。領域専門家で残りが負になることがその証拠で、A_XPT_S の「本当に未知 27%」も幅のある値として読むべきである。探索の「残りの半分が絶滅」は、未知の部分が T0 再出発より絶滅に寄る、という逆向きの読みも許す【推測】。</li>
+<li><strong>Ord の重みは「存続の破局」</strong>（絶滅と回復不能な崩壊）の確率で、定義上、回復する再出発を含まない。032 からこの重みを「崩壊の起こりやすさの相対値」として借りており、A_Ord の結論はこの読み替えに乗っている。</li>
+<li><strong>「重い崩壊からの価値の割合」は構造的に高く出る</strong>。計算機の社会が残る場合、板の手引きの価値はほぼ0（T3 がすでにある）なので、重い崩壊が少しでもあれば割合は上がる。優先順位の議論には絶対値（0.0010〜0.0082）も並べて読むべきである。</li>
+<li><strong>A_Ord の結論は「未知の人為リスク」が何に似るかだけで決まる</strong>。h* = 0.20 は小さく見えるが、名前のつく人為リスク（AI・バイオ・核）で T0 から再出発するのは 3〜4% しかない。未知の人為リスクがその5倍以上の割合で重い崩壊になる、という主張には今のところ外部の根拠がない。</li>
+<li><strong>U3 は「重い崩壊が多い」と「価値が小さい」を同時に示す</strong>。生存者が数千人規模に割れると、人口が閾値まで戻る待ち時間が媒体の寿命を超える。重い崩壊の中でも、金庫に価値があるのは「数十万人以上のまとまりが残る」浅い重い崩壊だけで、これは 115（人口のまとまりの対策）と直結する。</li>
+<li>成分の死亡割合、Dirichlet の分け方、OTH の類推の写し方はすべて推測で、本回はこれらの感度を回していない。自然の成分の最大集団の中央値（9億〜11億人）は 038 の段の閾値の幅（N_3 の上限 5e8）より大きいので、生存の幅を多少動かしても重い崩壊は出にくいと見込むが【推測】、確かめていない。本回の数値の幅を作っているのは UNK の事前分布である。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>GEN の重みを公開の推定で分けると、XPT 超予測者では GEN の 7 割は自然のパンデミックで、重い崩壊をまず作らない。本当に未知の残りを 038 のまま T0 再出発としても、重み付きの重い崩壊は 0.19 から 0.08 に下がり、板の手引きの価値のうち重い崩壊から来るのは 26〜32% にとどまる。Ord の重みでは GEN の 6 割強が「未知の人為リスク」で、その中身を公開資料で分けることはできない。未知の人為リスクの 20% 以上が T0 から再出発するなら重い崩壊が価値の過半を占め、名前のつくリスクと同じ振る舞いなら 28% に下がる。重い崩壊を優先する方針は、Ord 型の「未知の人為リスクは深い崩壊を起こしやすい」という仮定を採るときだけ成り立ち、XPT 超予測者の重みでは成り立たない。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：重い崩壊を優先する方針は、無条件ではなく「未知の人為リスクの 2 割以上が T0 から再出発する」という仮定つきの判断として扱う。報告には A_Ord と A_XPT_S の両方の読みを並べる。重い崩壊の側の対策評価（115）では、価値が出るのは数十万人以上のまとまりが残る場合だけなので、人口のまとまりを保つ対策を知識の量と同じ模型で比べる。</li>
+<li><strong>金庫の運営者（GitHub Archive Program・Piql など）</strong>：重い崩壊向けの追加（製鉄・ガラスの手引き）の優先度は、どのリスク推定を信じるかで 8 倍変わる。追加の判断は、XPT 型の重みで見ても損をしない手（届く先、媒体の寿命、小窓版）を先にする。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>XPT は原因別の大災害・絶滅の確率を出すが、崩壊後にどの技術段から再出発するかは扱わない。Ord は未知の人為リスクを1つの数にまとめる。038 は GEN を1本の仮定で置いた。本研究は、XPT 表2・表3と Ord 表6.1 の内訳で「未知・その他」を名前のつく原因と本当に未知の残りに分け、それぞれを生存者と最大集団の模型に入れて、重い崩壊を優先する判断が成り立つための条件（A_Ord で h ≥ 0.20、XPT 超予測者ではどの h でも不成立）を数値で出した。確認した資料には、この分解は見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>explore.py</code>、<code>explore_results.json</code>、<code>fig_gen_components.png</code>、<code>fig_h_scan.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：NAT は BIO の金庫の係数（喪失 0.01〜0.05）、NON は GEN の係数を使った。事前登録には書いていないが、初回実行の前に決めた。初回の後、<code>evaluate</code> の中の使われていない1行と注釈を消して再実行し、results.json が初回と一致する（628キー、差分0）ことを確かめた。<code>explore.py</code> は初回の結果を見た後に加えた（判定には使っていない）。</p><footer><hr><small>自動生成</small></footer></body></html>
