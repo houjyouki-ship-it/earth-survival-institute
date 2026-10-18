@@ -1,0 +1,43 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究050 事前登録（初回実行前に記入、2026-10-18T22:40Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="050-2026-10-18t2240z">研究050 事前登録（初回実行前に記入、2026-10-18T22:40Z）</h1>
+<p>注意：本回取得した Wikipedia の本文は、この事前登録の前にキーワードで一度ざっと検索した（どの例が「孤立」と書かれ、人口が書かれているかを見るため）。そのため L の値（すべて0になる見込み）は登録の時点でほぼ分かっている。選び方の規則と感度の版はその上で、結果を有利にしない側（例の数を増やさない側）を主に置いた。</p>
+<h2 id="open_problems-139140">問い（open_problems 139＋140）</h2>
+<p>139：049 で10万人を超える孤立集団は Hawaii と Māori の2件（ともに喪失なし）しかなく、P(L｜1e5) が 0.20 と絞れない。open_problems 139 が名を挙げた大陸規模の孤立集団（コロンブス以前のアメリカ大陸、オーストラリア本土、New Guinea の高地、Madagascar、縄文の日本）と Iceland を同じ規則で足すと、(1) 大きな孤立集団の喪失の率の Jeffreys の事後平均は h*（P1 で 0.097）を下回るか、(2) 049 の回帰の P(L｜1e5) と、軽い崩壊の生き残りでの E[P(L｜nmax)]（049 の探索で 0.118）はどう動くか。
+140：049 で孤立した小集団が失った技術の多くは舟だった。舟を失うとつながり χ が 0 に落ちて戻らない（吸収的な）過程を 048 の歴史の χ の上に載せると、CASC・NUC_G の重い崩壊はどれだけ増えるか。手引きの「舟と航法」の節（舟の喪失の率を下げる）はそれをどれだけ取り戻すか。</p>
+<h2 id="_1">参照の集合（規則）</h2>
+<ul>
+<li>049 の孤立した生き残り9件はそのまま使う（符号も 049 のまま）。</li>
+<li>新しい候補：Americas（1492年以前）、Australia 本土（1788年以前）、New Guinea の高地、Madagascar、縄文、Iceland（1262年以前）。</li>
+<li>入れる条件（049 と同じ）：本回取得した本文が、その集団を外から孤立していた（isolated）と書き、外との定期的な交易を書いていない。かつ本文に人口の数字があり、それが 5万人以上。</li>
+<li>本文が外との定期的な交易や船の往来を書く例（Madagascar、Iceland）は孤立の集合から外し、対照として記録する。</li>
+<li>本文に人口の数字がない例（縄文）は回帰と大きな集団の数から外し、記録だけする。</li>
+<li>Australia 本土は「孤立」と書かれる一方、Torres 海峡を越えた New Guinea との交易と、18世紀からの Makassar の来訪が書かれている。主の集合に入れるが（交易の相手 New Guinea 自体が外から孤立し、Makassar は 1700年前後以降の短い期間）、感度 S3 で外す。</li>
+<li>単位：Americas は主で1つの単位（例の数を増やさない側）。感度 S2 で Andes（Inca）と Mesoamerica の2単位に分け、Mesoamerica は 048 の Classic Maya の符号（L_top 0.5）を受けて L=0.5 とする。感度 S1 で Australia と New Guinea を1つの Sahul の単位にまとめる。</li>
+<li>人口 N：本文の数字の幅（下限・上限、対数一様）。Americas は南米だけで 3,000万〜1億（本文）を下限側に使い (3e7, 1e8)。Australia (3e5, 3e6)。New Guinea の高地 (1e6, 2e6)（本文「100万人を超える」、上限は【推測】）。Andes (6e6, 1.4e7)。Mesoamerica は本文の Valley of Mexico の約100万を下限に (1e6, 1e7)（上限は【推測】）。Sahul は Australia＋New Guinea の高地の和。</li>
+</ul>
+<h2 id="_2">符号</h2>
+<ul>
+<li>L（049 と同じ）：前に持っていた専門の技術を本文が失ったと書く=1、議論中・部分=0.5、記述なし=0。地域の崩壊（048 の例）は単位全体の喪失に数えない（S2 の Mesoamerica だけ例外）。</li>
+<li>B（舟の喪失、140 用）：舟・外洋船を作る力を失ったと本文が書く=1。049 の孤立した生き残りでは Inughuit（kayak と umiak）、Moriori（外洋船に向く木がない）、Easter Island（大きな木を失い航海に耐える舟を作れなくなった、048 の取得の本文）を1、他を0とする。</li>
+</ul>
+<h2 id="simpyseed-20261050">解析（sim.py、seed 20261050、ネット接続なし）</h2>
+<ul>
+<li>A：大きな孤立集団（N の下限 ≥ 5万）の L の Jeffreys の Beta 事後（0.5 は Bernoulli(0.5) で振る）。主と S1〜S3。</li>
+<li>B：049 と同じロジスティック回帰（049 の reg_posterior を exec で借りる）を主と S1〜S3 の集合で当て直し、P(b&lt;0)、P(L｜N) を出す。</li>
+<li>C：049 の explore.py と同じ「生き残り（ntot ≥ 5000）で P1 の閾値の模型では軽い崩壊の標本」の E[P(L｜nmax)] を、新しい回帰で出し直す（049 では探索、本回は登録した）。</li>
+<li>D（140）：舟の喪失の回帰 logit P(B｜N)（同じ形と事前、主の集合）。048 の歴史の χ（0,0,0,0.5×8,1,1）から各標本の χ0 を引き、G=12 世代（約300年）の吸収的な過程：各世代、舟を持つ集団は確率 λ(nmax)·(1−χ_t) で舟を失い、以後 χ_t=0（戻らない）。λ は完全に孤立した集団が G_ref=20 世代（約500年、049 の孤立の長さの中央に近い）で P(B｜N) に達する率、1−(1−P)^(1/G_ref)。χ_eff は χ_t の世代の平均。閾値の倍率を P1 の M^(1−χ_eff) にして（048 と同じ）、シナリオごとに nmax から χ_eff を作って評価し、そのシナリオの結果を差し込む（U3、CASC、BIO、NUC_G、NUC_R、NAT、AS）。</li>
+<li>比較：(i) 同じ χ0 の引きで吸収なし（048 の歴史の χ の再現にあたる）、(ii) 吸収あり、(iii) 手引きの舟の節で λ を (1−e) 倍、e=0.5 と 1。</li>
+<li>感度：G_ref=4（Inughuit は切り離されて約1世紀で失った）、λ_conn（χ=1 でも λ の 0.1倍で失う）、再接続 ρ=0.05／世代（舟を持つ χ=0 の集団が χ=0.5 に戻る）。</li>
+<li>出すもの：シナリオごとの重い崩壊の割合、重み付きの重い崩壊の確率と A_Ord の価値（048 の V2 の h=0.195 で）、手引きの舟の節による重い崩壊の確率の減り。</li>
+</ul>
+<h2 id="_3">仮説（判定の規則）</h2>
+<ul>
+<li>H62a：主の集合で大きな孤立集団（N ≥ 5万）の Jeffreys の事後平均 &lt; 0.097（P1 の h*）。</li>
+<li>H62b：S1〜S3 のすべてで H62a が成り立つ。</li>
+<li>H62c：主の集合の回帰で P(L｜N=1e5) &lt; 0.15（049 の H61b の未達の部分）。</li>
+<li>H62d：主の集合の回帰で、軽い崩壊の生き残りの E[P(L｜nmax)] &lt; 0.097。</li>
+<li>H62e：吸収ありで CASC の重い崩壊の割合が吸収なしより 0.02 以上（絶対値）増える。</li>
+<li>H62f：吸収ありで NUC_G の重い崩壊の割合は 0.05 以下にとどまる。</li>
+<li>H62g：舟の節（e=1）で重み付きの重い崩壊の確率（A_Ord、h=0.195）が吸収ありより 0.001 以上（絶対値）下がる。</li>
+</ul>
+<h2 id="_4">成果物</h2>
+<p>sim.py、results.json、stdout.txt、図2枚（大きな孤立集団と回帰／140 の χ_eff と重い崩壊）、report.md、sources/（fetch.py、make_excerpts.py、excerpts.json、本文）。</p><footer><hr><small>自動生成</small></footer></body></html>

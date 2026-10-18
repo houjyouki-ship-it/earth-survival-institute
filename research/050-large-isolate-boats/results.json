@@ -1,0 +1,918 @@
+{
+ "study": "050-large-isolate-boats",
+ "seed": 20261050,
+ "n_excerpts_verified": 28,
+ "check_049": {
+  "pred_1e5_main": 0.19523973803034847,
+  "ref": 0.19523973803034847,
+  "h_star": 0.09668949822886906,
+  "ref_h_star": 0.09668949822886906,
+  "E_U3": 0.3993615658444629,
+  "ref_E_U3": 0.3993615658444629,
+  "reproduced": true
+ },
+ "A_new_cases": [
+  {
+   "name": "Americas (pre-1492)",
+   "L": 0.0,
+   "N": [
+    30000000.0,
+    100000000.0
+   ],
+   "T_iso": 11000,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Peopling_of_the_Americas",
+    "https://en.wikipedia.org/wiki/Peopling_of_the_Americas",
+    "https://en.wikipedia.org/wiki/Pre-Columbian_era",
+    "https://en.wikipedia.org/wiki/Pre-Columbian_era",
+    "https://en.wikipedia.org/wiki/Pre-Columbian_era",
+    "https://en.wikipedia.org/wiki/Pre-Columbian_era"
+   ],
+   "note": "isolated since Beringia submerged; no compelling transoceanic legacy; SA alone 30-50M (100M); no unit-wide loss stated"
+  },
+  {
+   "name": "Australia mainland (pre-1788)",
+   "L": 0.0,
+   "N": [
+    300000.0,
+    3000000.0
+   ],
+   "T_iso": 8000,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aboriginal_Australians",
+    "https://en.wikipedia.org/wiki/Aboriginal_Australians",
+    "https://en.wikipedia.org/wiki/Prehistory_of_Australia",
+    "https://en.wikipedia.org/wiki/Prehistory_of_Australia",
+    "https://en.wikipedia.org/wiki/Prehistory_of_Australia",
+    "https://en.wikipedia.org/wiki/Prehistory_of_Australia"
+   ],
+   "note": "isolated from SE Asia; but Torres Strait trade with New Guinea and Macassans from ~1700; adopted dugouts; no mainland loss stated"
+  },
+  {
+   "name": "New Guinea Highlands",
+   "L": 0.0,
+   "N": [
+    1000000.0,
+    2000000.0
+   ],
+   "T_iso": 10000,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea",
+    "https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea",
+    "https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea"
+   ],
+   "note": "relatively isolated from rest of world; independent agriculture; >1M in 1930s (upper bound assumed)"
+  },
+  {
+   "name": "Andes (Inca)",
+   "L": 0.0,
+   "N": [
+    6000000.0,
+    14000000.0
+   ],
+   "T_iso": 11000,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Inca_Empire"
+   ],
+   "note": "Inca 6-14M"
+  },
+  {
+   "name": "Mesoamerica",
+   "L": 0.5,
+   "N": [
+    1000000.0,
+    10000000.0
+   ],
+   "T_iso": 11000,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pre-Columbian_era"
+   ],
+   "note": "Valley of Mexico ~1M (lower); 048 Classic Maya L_top 0.5 counted for S2"
+  },
+  {
+   "name": "Sahul (Australia + NG Highlands)",
+   "L": 0.0,
+   "N": [
+    1300000.0,
+    5000000.0
+   ],
+   "T_iso": 8000,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aboriginal_Australians",
+    "https://en.wikipedia.org/wiki/Prehistory_of_Australia",
+    "https://en.wikipedia.org/wiki/Prehistory_of_Australia",
+    "https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea",
+    "https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea"
+   ],
+   "note": "merged unit (S1)"
+  }
+ ],
+ "A_excluded": [
+  {
+   "name": "Madagascar",
+   "reason": "regular transoceanic trade in text (Indonesian, Swahili/Arab)",
+   "evidence": [
+    18,
+    19
+   ]
+  },
+  {
+   "name": "Iceland (Commonwealth)",
+   "reason": "grain and cod trade with Europe in text",
+   "evidence": [
+    20,
+    21
+   ]
+  },
+  {
+   "name": "Jomon",
+   "reason": "isolated per text but no population figure in fetched text; Korea contact in Final Jomon",
+   "evidence": [
+    22,
+    23
+   ]
+  }
+ ],
+ "A_big_isolates": {
+  "main": {
+   "cases": [
+    "Hawaii (pre-1778)",
+    "Maori (pre-1769)",
+    "Americas (pre-1492)",
+    "Australia mainland (pre-1788)",
+    "New Guinea Highlands"
+   ],
+   "n": 5,
+   "point": 0.0,
+   "post_mean": 0.08329998186204474,
+   "q95": 0.30561667564924266,
+   "P_gt_hstar": 0.30087
+  },
+  "S1_sahul_merged": {
+   "cases": [
+    "Hawaii (pre-1778)",
+    "Maori (pre-1769)",
+    "Americas (pre-1492)",
+    "Sahul (Australia + NG Highlands)"
+   ],
+   "n": 4,
+   "point": 0.0,
+   "post_mean": 0.10015778746224985,
+   "q95": 0.36232469307354925,
+   "P_gt_hstar": 0.3529
+  },
+  "S2_americas_split": {
+   "cases": [
+    "Hawaii (pre-1778)",
+    "Maori (pre-1769)",
+    "Andes (Inca)",
+    "Mesoamerica",
+    "Australia mainland (pre-1788)",
+    "New Guinea Highlands"
+   ],
+   "n": 6,
+   "point": 0.08333333333333333,
+   "post_mean": 0.14252718166461328,
+   "q95": 0.42863206839899,
+   "P_gt_hstar": 0.5095
+  },
+  "S3_no_australia": {
+   "cases": [
+    "Hawaii (pre-1778)",
+    "Maori (pre-1769)",
+    "Americas (pre-1492)",
+    "New Guinea Highlands"
+   ],
+   "n": 4,
+   "point": 0.0,
+   "post_mean": 0.0998280877140779,
+   "q95": 0.361264449768152,
+   "P_gt_hstar": 0.351905
+  }
+ },
+ "B_regression": {
+  "main": {
+   "n_cases": 11,
+   "P_b_lt_0": 0.9835,
+   "b_q05_50_95": [
+    -2.7500000000000187,
+    -1.2000000000000242,
+    -0.25000000000002753
+   ],
+   "pred_mean": {
+    "1e+02": 0.7098094475942107,
+    "1e+03": 0.49272670862297935,
+    "1e+04": 0.2504847671021398,
+    "1e+05": 0.11796327609329799,
+    "1e+06": 0.06332419441943282,
+    "1e+07": 0.039688369637735615
+   },
+   "pred_q95": {
+    "1e+02": 0.9820137900379086,
+    "1e+03": 0.8584478434940795,
+    "1e+04": 0.5744425168116518,
+    "1e+05": 0.3658644089891866,
+    "1e+06": 0.2592251008178305,
+    "1e+07": 0.19781611144140102
+   }
+  },
+  "S1_sahul_merged": {
+   "n_cases": 10,
+   "P_b_lt_0": 0.97675,
+   "b_q05_50_95": [
+    -2.650000000000019,
+    -1.1500000000000243,
+    -0.1500000000000279
+   ],
+   "pred_mean": {
+    "1e+02": 0.703123494685396,
+    "1e+03": 0.4978997397882165,
+    "1e+04": 0.2665977617465757,
+    "1e+05": 0.13525295230777384,
+    "1e+06": 0.07870809786782204,
+    "1e+07": 0.05289018560816505
+   },
+   "pred_q95": {
+    "1e+02": 0.9811090380629612,
+    "1e+03": 0.8581489350995115,
+    "1e+04": 0.5866175789173226,
+    "1e+05": 0.4133824210826562,
+    "1e+06": 0.3208213008245888,
+    "1e+07": 0.2592251008178249
+   }
+  },
+  "S2_americas_split": {
+   "n_cases": 12,
+   "P_b_lt_0": 0.93525,
+   "b_q05_50_95": [
+    -2.35000000000002,
+    -0.8500000000000254,
+    0.09999999999997122
+   ],
+   "pred_mean": {
+    "1e+02": 0.6549806053509386,
+    "1e+03": 0.49339255693734185,
+    "1e+04": 0.307952938024261,
+    "1e+05": 0.19009930042584455,
+    "1e+06": 0.13012438626150144,
+    "1e+07": 0.09930709579775997
+   },
+   "pred_q95": {
+    "1e+02": 0.9706877692486442,
+    "1e+03": 0.8388910504234139,
+    "1e+04": 0.6224593312018474,
+    "1e+05": 0.47502081252104594,
+    "1e+06": 0.42555748318832043,
+    "1e+07": 0.4133824210826421
+   }
+  },
+  "S3_no_australia": {
+   "n_cases": 10,
+   "P_b_lt_0": 0.97925,
+   "b_q05_50_95": [
+    -2.700000000000019,
+    -1.1500000000000243,
+    -0.1500000000000279
+   ],
+   "pred_mean": {
+    "1e+02": 0.7022045891378218,
+    "1e+03": 0.49918529804797634,
+    "1e+04": 0.26852380525259795,
+    "1e+05": 0.136210754158274,
+    "1e+06": 0.07791992788020019,
+    "1e+07": 0.05143273543653756
+   },
+   "pred_q95": {
+    "1e+02": 0.9801596942659228,
+    "1e+03": 0.8519528019683098,
+    "1e+04": 0.5866175789173226,
+    "1e+05": 0.4013123398875347,
+    "1e+06": 0.31002551887236995,
+    "1e+07": 0.25922510081782474
+   }
+  }
+ },
+ "C_E_light": {
+  "main": {
+   "mean": 0.03510833655068769,
+   "q05_50_95": [
+    3.520545644204757e-05,
+    0.006186654350559097,
+    0.17271166578775254
+   ],
+   "P_gt_hstar": 0.102
+  },
+  "S1_sahul_merged": {
+   "mean": 0.04749324964808395,
+   "q05_50_95": [
+    4.251621192881475e-05,
+    0.00814431369600727,
+    0.23971882224177388
+   ],
+   "P_gt_hstar": 0.14375
+  },
+  "S2_americas_split": {
+   "mean": 0.09234172913946122,
+   "q05_50_95": [
+    0.00012393381240452102,
+    0.02933896204451582,
+    0.40005278791846527
+   ],
+   "P_gt_hstar": 0.29175
+  },
+  "S3_no_australia": {
+   "mean": 0.04608919458704547,
+   "q05_50_95": [
+    4.5618101382945166e-05,
+    0.00876344756545273,
+    0.23547031055604534
+   ],
+   "P_gt_hstar": 0.134
+  },
+  "049_main": {
+   "mean": 0.11816774953073056,
+   "q05_50_95": [
+    5.88711299491541e-05,
+    0.018055740565105016,
+    0.6588557769318414
+   ],
+   "P_gt_hstar": 0.28225
+  },
+  "light_nmax_q05_50_95": [
+   2141974.090934489,
+   28444670.406236853,
+   1393166990.1749496
+  ]
+ },
+ "D_boat_regression": {
+  "cases_B1": [
+   "Inughuit (Polar Inuit)",
+   "Moriori (Chatham)",
+   "Easter Island"
+  ],
+  "n_cases": 11,
+  "P_b_lt_0": 0.9885,
+  "pred_mean": {
+   "1e+02": 0.7387577177375617,
+   "1e+03": 0.5139362383350676,
+   "1e+04": 0.24752318759139494,
+   "1e+05": 0.11064343091564306,
+   "1e+06": 0.05774499906130259,
+   "1e+07": 0.03554286272497191
+  },
+  "env_attributed_share": 0.6666666666666666
+ },
+ "D_conditions": {
+  "no_absorb": {
+   "heavy_share": {
+    "U3": 0.6968,
+    "CASC": 0.228435,
+    "BIO": 0.098415,
+    "NUC_G": 0.005755,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01453
+   },
+   "w_AOrd_V2": 0.0054877798191885156,
+   "share_from_heavy_V2": 0.5509574887949561,
+   "w_heavy_prob_V2": 0.07785852792003406,
+   "w_AOrd_U3": 0.00785633926537615,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.46086166243676246,
+     "boat_lost_share_alive": 0.0
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.46131232843036835,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    }
+   }
+  },
+  "absorb": {
+   "heavy_share": {
+    "U3": 0.69687,
+    "CASC": 0.22889,
+    "BIO": 0.098445,
+    "NUC_G": 0.00578,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01463
+   },
+   "w_AOrd_V2": 0.0054880109388166145,
+   "share_from_heavy_V2": 0.5510146084861319,
+   "w_heavy_prob_V2": 0.07787087238833157,
+   "w_AOrd_U3": 0.007844409988929192,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.430872954686565,
+     "boat_lost_share_alive": 0.1586242213130898
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.4589795833333334,
+     "boat_lost_share_alive": 0.013455
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.45900168667458785,
+     "boat_lost_share_alive": 0.014560372024419224
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.459475625,
+     "boat_lost_share_alive": 0.010335
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.4599702083333333,
+     "boat_lost_share_alive": 0.007175
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.46000770833333327,
+     "boat_lost_share_alive": 0.00692
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.45961041666666663,
+     "boat_lost_share_alive": 0.009315
+    }
+   }
+  },
+  "boat_section_e0.5": {
+   "heavy_share": {
+    "U3": 0.696825,
+    "CASC": 0.228665,
+    "BIO": 0.09843,
+    "NUC_G": 0.00577,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01458
+   },
+   "w_AOrd_V2": 0.005487420567080393,
+   "share_from_heavy_V2": 0.5509494177686827,
+   "w_heavy_prob_V2": 0.0778647576599331,
+   "w_AOrd_U3": 0.00784944213289167,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.4440297387588655,
+     "boat_lost_share_alive": 0.09656561791303467
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.460071875,
+     "boat_lost_share_alive": 0.00685
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.4600816790947952,
+     "boat_lost_share_alive": 0.00774880157331913
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.460298125,
+     "boat_lost_share_alive": 0.005355
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.4605010416666667,
+     "boat_lost_share_alive": 0.00386
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.4604995833333333,
+     "boat_lost_share_alive": 0.003825
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.460356875,
+     "boat_lost_share_alive": 0.004855
+    }
+   }
+  },
+  "boat_section_e1": {
+   "heavy_share": {
+    "U3": 0.6968,
+    "CASC": 0.228435,
+    "BIO": 0.098415,
+    "NUC_G": 0.005755,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01453
+   },
+   "w_AOrd_V2": 0.0054877798191885156,
+   "share_from_heavy_V2": 0.5509574887949561,
+   "w_heavy_prob_V2": 0.07785852792003406,
+   "w_AOrd_U3": 0.00785633926537615,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.46086166243676246,
+     "boat_lost_share_alive": 0.0
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.46131232843036835,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    }
+   }
+  },
+  "Gref4": {
+   "heavy_share": {
+    "U3": 0.69733,
+    "CASC": 0.23035,
+    "BIO": 0.098555,
+    "NUC_G": 0.00593,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01502
+   },
+   "w_AOrd_V2": 0.005487331771427649,
+   "share_from_heavy_V2": 0.5510717944526249,
+   "w_heavy_prob_V2": 0.07791422723681862,
+   "w_AOrd_U3": 0.007819313621441937,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.3795044728188794,
+     "boat_lost_share_alive": 0.34988154392441323
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.45139229166666667,
+     "boat_lost_share_alive": 0.05716
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.4518952042446839,
+     "boat_lost_share_alive": 0.05119945097717868
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.45362125,
+     "boat_lost_share_alive": 0.043735
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.45625416666666674,
+     "boat_lost_share_alive": 0.027205
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.4563358333333333,
+     "boat_lost_share_alive": 0.026745
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.45452875,
+     "boat_lost_share_alive": 0.03856
+    }
+   }
+  },
+  "Gref4_e1": {
+   "heavy_share": {
+    "U3": 0.6968,
+    "CASC": 0.228435,
+    "BIO": 0.098415,
+    "NUC_G": 0.005755,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01453
+   },
+   "w_AOrd_V2": 0.0054877798191885156,
+   "share_from_heavy_V2": 0.5509574887949561,
+   "w_heavy_prob_V2": 0.07785852792003406,
+   "w_AOrd_U3": 0.00785633926537615,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.46086166243676246,
+     "boat_lost_share_alive": 0.0
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.46131232843036835,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    }
+   }
+  },
+  "cconn0.1": {
+   "heavy_share": {
+    "U3": 0.69689,
+    "CASC": 0.22899,
+    "BIO": 0.098445,
+    "NUC_G": 0.005785,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.014655
+   },
+   "w_AOrd_V2": 0.005488072090507062,
+   "share_from_heavy_V2": 0.5510263649743938,
+   "w_heavy_prob_V2": 0.07787212638075039,
+   "w_AOrd_U3": 0.007841298737452021,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.42500267299933037,
+     "boat_lost_share_alive": 0.17184853378952522
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.458546875,
+     "boat_lost_share_alive": 0.014655
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.4585780974720367,
+     "boat_lost_share_alive": 0.01571270537140984
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.459143125,
+     "boat_lost_share_alive": 0.011295
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.45974833333333326,
+     "boat_lost_share_alive": 0.007815
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.459793125,
+     "boat_lost_share_alive": 0.00755
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.459289375,
+     "boat_lost_share_alive": 0.01024
+    }
+   }
+  },
+  "cconn0.1_e1": {
+   "heavy_share": {
+    "U3": 0.6968,
+    "CASC": 0.228435,
+    "BIO": 0.098415,
+    "NUC_G": 0.005755,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01453
+   },
+   "w_AOrd_V2": 0.0054877798191885156,
+   "share_from_heavy_V2": 0.5509574887949561,
+   "w_heavy_prob_V2": 0.07785852792003406,
+   "w_AOrd_U3": 0.00785633926537615,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.46086166243676246,
+     "boat_lost_share_alive": 0.0
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.46131232843036835,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.461095,
+     "boat_lost_share_alive": 0.0
+    }
+   }
+  },
+  "rho0.05": {
+   "heavy_share": {
+    "U3": 0.695675,
+    "CASC": 0.22289,
+    "BIO": 0.098075,
+    "NUC_G": 0.003565,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.012635
+   },
+   "w_AOrd_V2": 0.00549294926510547,
+   "share_from_heavy_V2": 0.5503004728513281,
+   "w_heavy_prob_V2": 0.07770399875792258,
+   "w_AOrd_U3": 0.007856269857356537,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.4571862883575404,
+     "boat_lost_share_alive": 0.15422924767730425
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.49002291666666664,
+     "boat_lost_share_alive": 0.012925
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.49000201444940655,
+     "boat_lost_share_alive": 0.013874093497767035
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.49060083333333326,
+     "boat_lost_share_alive": 0.009875
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.4911852083333333,
+     "boat_lost_share_alive": 0.00686
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.49122416666666674,
+     "boat_lost_share_alive": 0.00664
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.4907575,
+     "boat_lost_share_alive": 0.008945
+    }
+   }
+  },
+  "rho0.05_e1": {
+   "heavy_share": {
+    "U3": 0.69558,
+    "CASC": 0.22234,
+    "BIO": 0.09804,
+    "NUC_G": 0.00351,
+    "NUC_R": 0.0,
+    "NAT": 0.0,
+    "AS": 0.01253
+   },
+   "w_AOrd_V2": 0.005493317230600775,
+   "share_from_heavy_V2": 0.5502715626300064,
+   "w_heavy_prob_V2": 0.07768931732408937,
+   "w_AOrd_U3": 0.007869764936410806,
+   "per_scenario": {
+    "U3": {
+     "chi_eff_mean_alive": 0.49226213588590706,
+     "boat_lost_share_alive": 0.0
+    },
+    "CASC": {
+     "chi_eff_mean_alive": 0.4925104166666666,
+     "boat_lost_share_alive": 0.0
+    },
+    "BIO": {
+     "chi_eff_mean_alive": 0.4927296301607463,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_G": {
+     "chi_eff_mean_alive": 0.4925104166666666,
+     "boat_lost_share_alive": 0.0
+    },
+    "NUC_R": {
+     "chi_eff_mean_alive": 0.4925104166666666,
+     "boat_lost_share_alive": 0.0
+    },
+    "NAT": {
+     "chi_eff_mean_alive": 0.4925104166666666,
+     "boat_lost_share_alive": 0.0
+    },
+    "AS": {
+     "chi_eff_mean_alive": 0.4925104166666666,
+     "boat_lost_share_alive": 0.0
+    }
+   }
+  }
+ },
+ "D_chi0_mean": 0.461095,
+ "D_effects": {
+  "absorption_vs_none": {
+   "d_CASC_heavy": 0.00045500000000001095,
+   "d_NUC_G_heavy": 2.5000000000000716e-05,
+   "d_w_heavy_prob_V2": 1.2344468297509348e-05,
+   "d_w_AOrd_V2": 2.3111962809893583e-07
+  },
+  "boat_e1_vs_absorb": {
+   "d_CASC_heavy": -0.00045500000000001095,
+   "d_NUC_G_heavy": -2.5000000000000716e-05,
+   "d_w_heavy_prob_V2": -1.2344468297509348e-05,
+   "d_w_AOrd_V2": -2.3111962809893583e-07
+  },
+  "boat_e0.5_vs_absorb": {
+   "d_CASC_heavy": -0.00022500000000000298,
+   "d_NUC_G_heavy": -1.000000000000046e-05,
+   "d_w_heavy_prob_V2": -6.11472839846805e-06,
+   "d_w_AOrd_V2": -5.903717362216315e-07
+  },
+  "Gref4_absorption": {
+   "d_CASC_heavy": 0.001915,
+   "d_NUC_G_heavy": 0.00017500000000000068,
+   "d_w_heavy_prob_V2": 5.569931678456319e-05,
+   "d_w_AOrd_V2": -4.480477608665573e-07
+  },
+  "Gref4_boat_e1": {
+   "d_CASC_heavy": -0.001915,
+   "d_NUC_G_heavy": -0.00017500000000000068,
+   "d_w_heavy_prob_V2": -5.569931678456319e-05,
+   "d_w_AOrd_V2": 4.480477608665573e-07
+  },
+  "cconn_absorption": {
+   "d_CASC_heavy": 0.0005549999999999999,
+   "d_NUC_G_heavy": 3.0000000000000512e-05,
+   "d_w_heavy_prob_V2": 1.3598460716329752e-05,
+   "d_w_AOrd_V2": 2.9227131854644983e-07
+  },
+  "cconn_boat_e1": {
+   "d_CASC_heavy": -0.0005549999999999999,
+   "d_NUC_G_heavy": -3.0000000000000512e-05,
+   "d_w_heavy_prob_V2": -1.3598460716329752e-05,
+   "d_w_AOrd_V2": -2.9227131854644983e-07
+  },
+  "rho_absorption": {
+   "d_CASC_heavy": -0.005544999999999994,
+   "d_NUC_G_heavy": -0.0021899999999999997,
+   "d_w_heavy_prob_V2": -0.0001545291621114775,
+   "d_w_AOrd_V2": 5.169445916954583e-06
+  },
+  "rho_boat_e1": {
+   "d_CASC_heavy": -0.0005499999999999949,
+   "d_NUC_G_heavy": -5.499999999999993e-05,
+   "d_w_heavy_prob_V2": -1.4681433833207969e-05,
+   "d_w_AOrd_V2": 3.6796549530461464e-07
+  }
+ },
+ "hypotheses": {
+  "H62a": {
+   "value": 0.08329998186204474,
+   "rule": "main big-isolate Jeffreys mean < h*",
+   "h_star": 0.09668949822886906,
+   "supported": true
+  },
+  "H62b": {
+   "value": {
+    "main": 0.08329998186204474,
+    "S1_sahul_merged": 0.10015778746224985,
+    "S2_americas_split": 0.14252718166461328,
+    "S3_no_australia": 0.0998280877140779
+   },
+   "rule": "H62a holds in S1-S3",
+   "supported": false
+  },
+  "H62c": {
+   "value": 0.11796327609329799,
+   "rule": "main regression P(L|1e5) < 0.15",
+   "supported": true
+  },
+  "H62d": {
+   "value": 0.03510833655068769,
+   "rule": "E[P(L|nmax)] over light-collapse survivors < h*",
+   "supported": true
+  },
+  "H62e": {
+   "value": 0.00045500000000001095,
+   "rule": "absorption raises CASC heavy share by >= 0.02",
+   "supported": false
+  },
+  "H62f": {
+   "value": 0.00578,
+   "rule": "NUC_G heavy share with absorption <= 0.05",
+   "supported": true
+  },
+  "H62g": {
+   "value": -1.2344468297509348e-05,
+   "rule": "boat section e=1 lowers weighted heavy prob (A_Ord, h=0.195) by >= 0.001",
+   "supported": false
+  }
+ },
+ "runtime_s": 118.52135825157166
+}
