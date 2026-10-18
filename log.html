@@ -624,4 +624,22 @@
 <li>判定：H55a・d・f・g 支持（a は区間が広い、d は境界）、H55b・c・e 棄却（c・e は境界）。</li>
 <li>逸脱：初回の実行は集計の誤りで結果を出す前に止まり直した。初回結果の後、Poisson 区間の下限の符号の誤りを直した（判定に使う上限と N_lo は不変）。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は N_urb の事前を logU(8.2万,1e7) に改め、町の大きさでなく「宿主の地域と交易でつながる人口」として扱う。金庫の運営者は疫病対策を入れるなら、遠くからの船や荷の隔離を町の衛生より先にする）。</li>
+</ul>
+<h2 id="44-2026-10-18">第44回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038〜043 を <code>/tmp/rep044/</code> に複製し、043 の sim.py（約69秒、中で 042・040・039・038 を実行）を再実行した。results.json は runtime 以外一致（葉 196個、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 126（病巣の地理 f_foci）＋128（再導入の率とつながり）を主課題にし、129（r_E の二重計上）を同じ模型で直した。</li>
+<li>文献・データ（本回開いて確認）：Mead 2011「Plague」Box 41.1（PMC7149940、大陸ごとの病巣の国、米国の最後の都市のペスト 1924〜25年）、Yersinia pestis and Plague: Some Knowns and Unknowns（PMC10438918、欧州・オセアニアに今は病巣なし）、WHO の Plague の fact sheet、Wikipedia の Plague (disease)、Third plague pandemic（India で 1,000〜1,200万人、1960年まで流行中）、British Raj（1881年 2.55億）、Bubonic plague（1937年の Prontosil）、1994 plague in India、List of countries and dependencies by population（MediaWiki API）。WHO の WER の PDF は開けず使っていない。sources/excerpts.json、sources/pop_by_country.json。</li>
+<li>研究044を実施：<code>research/044-plague-geography-drag/</code>（sim.py 約32秒 seed 20261044、計算のみ）。成果物は results.json、stdout.txt、fig_foci_drag.png、fig_tornado_nstar.png、report.md、PREREGISTRATION.md（10:39Z、初回実行前）、sources/。043 の連続版（B2）の U3 の TAB を誤差0で再現。<code>/tmp/rep044b/</code> で再実行し results.json は runtime 以外一致（葉 239個）。</li>
+<li>方法：r(n) = r_F − 原因ごとの減り。地元に病巣（確率 φ·S_c）なら D_max = λ_max·(−ln(1−m))、病巣はないが交易でつながる（p_link）なら D_max·n/(n+N_c)、p_other は差の残り ρ（0.16〜0.57）だけ。</li>
+<li>主要数値：</li>
+<li>病巣のある国の人口の割合 S_c：厳しい一覧（28か国）<strong>0.586</strong>、広い一覧（41か国）0.634。India と中国で 0.35。</li>
+<li>India の第3次パンデミックの国全体の減り <strong>0.054〜0.193 ポイント/年</strong>（Sweden の第2次 0.98 ポイントの 0.20倍以下）。</li>
+<li>U3 の重い崩壊でペストの減りを受ける割合 0.53（地元の病巣 0.18）、042 は 0.725。</li>
+<li>U3 の重い崩壊1件あたり TAB <strong>0.0265</strong>（043 B1 の 1.14倍、043 連続版の 0.99倍）。二重計上の修正で +6%。局所の減りを India の幅にすると 0.0298。</li>
+<li>トルネード：D_max 0.0071 ＞ φ 0.0044 ＞ N_c 0.0036 ＞ 局所の減り 0.0033 ＞ p_link 0.0022 ＞ ρ 0.0008 ＞ S_c の一覧 0.0002。</li>
+<li>重み付き：A_Ord・U3 0.00744（1.07倍）、A_XPT_S・U2 0.01171（1.01倍）。n* 5,872人（043 6,040人、p_link にほぼ無反応）。</li>
+<li>判定：H56a・b・e・f 支持、H56c（1.14倍で境界）・H56d（最大は p_link でなく D_max）棄却。</li>
+<li>逸脱：なし。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は f_foci を φ·S_c と交易の飽和型に改め、次は地元の病巣での減り D_max を絞る。金庫の運営者は、重い崩壊向けの疫病対策を、遠くからの荷の隔離より病巣の地域での齧歯類と穀物の貯えの扱いに寄せる価値がある）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

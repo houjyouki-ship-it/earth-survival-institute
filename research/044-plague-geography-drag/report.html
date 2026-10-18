@@ -1,0 +1,224 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究044：病巣の地理と交易のつながりで「ペストの繰り返し」を置き直す（126・128・129） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="044126128129">研究044：病巣の地理と交易のつながりで「ペストの繰り返し」を置き直す（126・128・129）</h1>
+<h2 id="_1">問い</h2>
+<p>042・043 では、崩壊後の最大の集団に「ペストがある」確率 f_foci を U(0.5, 0.95) と置いていて根拠がなかった（042 のトルネードで 1.45倍）。また 041 の疫病の環境の r_E（年 0.22%）はペストの繰り返しを含む較正なのに、「ペストで E」と「それ以外の原因で E（p_other）」の両方に同じ r_E を使っていた（129、二重計上）。本回は、(1) 自然の病巣のある国に住む人口の割合、(2) 病巣が根づいた後の国全体の減り（第3次パンデミックの India）、(3) 病巣の地域と交易でつながるか、から再来の減りを組み直し、042・043 の閾値 N_urb の模型を「r_F − 原因ごとの減り」に置き換えた。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>、引用は取得した本文と照合済み）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>北米では西経100度より西の17州と、隣の Canada・Mexico の一部に野生の齧歯類のペスト。南米では Brazil・Bolivia・Peru・Ecuador に活動中の病巣、Paraguay・Argentina・Venezuela に過去の病巣。東・南アフリカ（DRC、Uganda、Kenya、Tanzania、Zambia、Zimbabwe、Mozambique、Botswana、South Africa、Namibia、Angola）と Madagascar に散在、Libya・Algeria に弱い病巣。ユーラシアは Iran、Kurdistan、Transcaucasia、ロシア南東部、Kazakhstan、中国北東部、Mongolia など。India、Myanmar、Vietnam、Indonesia にも宿主の記載</td>
+<td>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7149940/">Mead 2011, Plague, Box 41.1</a>）】</td>
+</tr>
+<tr>
+<td>米国で最後の都市のペストと人から人への肺ペストは 1924〜25年の Los Angeles</td>
+<td>【事実（同上）】</td>
+</tr>
+<tr>
+<td>アジアの活動中の病巣は中央アジア（Kazakhstan の Balkhash 湖の地域）、Mongolia、中国、Vietnam。欧州とオセアニアには今は自然の病巣がない</td>
+<td>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10438918/">Yersinia pestis and Plague: Some Knowns and Unknowns</a>）】</td>
+</tr>
+<tr>
+<td>動物の病気としてのペストはオセアニアを除く全大陸。Madagascar ではほぼ毎年、流行の季節に腺ペストが記録される</td>
+<td>【事実（<a href="https://www.who.int/news-room/fact-sheets/detail/plague">WHO fact sheet: Plague</a>）】</td>
+</tr>
+<tr>
+<td>第3次パンデミックの死者は少なくとも1,500万人、うち British Raj の India で 1,000〜1,200万人。WHO は 1960年まで流行中とした。Haffkine のワクチンの自己接種は 1897年1月</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Third_plague_pandemic">Third plague pandemic</a>）】</td>
+</tr>
+<tr>
+<td>Raj の人口は 1881年の最初の国勢調査で 2.55億</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/British_Raj">British Raj</a>）】</td>
+</tr>
+<tr>
+<td>1937年に East Africa と India で Prontosil（サルファ剤）による治療に成功</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Bubonic_plague">Bubonic plague</a>）】</td>
+</tr>
+<tr>
+<td>国別の人口（2025〜26年の推計、本回取得の版）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population">List of countries and dependencies by population</a>）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-2026104432">方法（<code>sim.py</code>、seed 20261044、約32秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T10:39Z、初回実行前）。</li>
+<li>A1：上の2本の総説が「今ある病巣」として名を挙げた28か国（厳しい一覧）と、隣接・過去の病巣・Transcaucasia・Iraq・中央アジアを足した41か国（広い一覧）の人口の割合 S_c。</li>
+<li>A2：India の国全体の減り −ln(1−死者/人口)/年数。死者 1,000〜1,200万、人口 2.55億〜3億（3億は【推測】の上側）、年数 25〜63年（63年は 1897〜1960年、25年は【推測】の短い窓）。</li>
+<li>B：042 の sim.py を exec して乱数と関数をそのまま使った。r(n) = b − d(n)：</li>
+<li>b = r_F。p_other が当たれば b = r_F − ρ·(r_F − r_E)、ρ ~ U(0.16, 0.57)（043 でペストの再来が差の 43〜84% を説明した残り）。原因の病原体の再来は 042 と同じく r = r_E。</li>
+<li>集団の土地に病巣がある確率 φ·S_c（φ ~ U(0.1, 0.6) は国の中で病巣の地域に住む割合【推測】、NUC_G でオーストラリアが最大の集団なら 0）。あれば d = D_max（集団の大きさによらない）。</li>
+<li>病巣がなく、病巣の地域と交易でつながる確率 p_link ~ U(0, 1)【推測】。つながれば d = D_max·n/(n+N_c)、N_c ~ logU(81,805, 1e7)（043）。どちらでもなければ d = 0。</li>
+<li>D_max = λ_max·(−ln(1−m))、λ_max ~ U(0.061, 0.118)（Sweden〜England）、m ~ U(0.10, 0.20)。</li>
+<li>r が 0.0005/年を下回る標本はそこで止めた（U3 で 7.2%）。</li>
+<li>確認：同じ待ち時間の関数で 043 の連続版（B2）の U3 の TAB を<strong>誤差0で再現</strong>（<code>check_043_B2</code>）。</li>
+<li>再現：<code>/tmp/rep044b/</code> で再実行し、results.json は runtime 以外一致（葉 239個、差分0）。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<h3 id="a-fig_foci_dragpng">A：病巣の地理と国全体の減り（図 <code>fig_foci_drag.png</code>）</h3>
+<ul>
+<li>【計算】厳しい一覧の人口の割合 <strong>S_c = 0.586</strong>、広い一覧 0.634。India 0.178 と中国 0.175 で6割を占め、2か国を除くと 0.233。国の単位の上限でも 042 の f_foci の平均 0.725 より低い。</li>
+<li>【計算】India の国全体の減りは <strong>0.054〜0.193 ポイント/年</strong>。043 の Sweden（第2次パンデミック、0.98 ポイント）の 0.20倍以下、041 の E と F の差 2.28 ポイントの 2〜8%。</li>
+<li>【推測】第3次パンデミックはワクチン・検疫・鉄道のある時代なので、この差を「病巣が地元にあれば減りは小さい」とは読めない。ただ「病巣が根づくと第2次パンデミック並みの減りになる」とも限らないことは示す。</li>
+</ul>
+<h3 id="bu3-1-tab">B：重い崩壊での金庫の価値（U3 の重い崩壊1件あたりの板の手引きの価値 TAB）</h3>
+<table>
+<thead>
+<tr>
+<th>模型</th>
+<th>U3 の TAB</th>
+<th>043 B1 比</th>
+<th>重み付き A_Ord・U3</th>
+<th>A_XPT_S・U2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>043 B1（閾値、N_urb ~ logU(8.2万,1e7)）</td>
+<td>0.0233</td>
+<td>1.00</td>
+<td>0.00694</td>
+<td>0.01160</td>
+</tr>
+<tr>
+<td>043 B2（連続版）</td>
+<td>0.0268</td>
+<td>1.15</td>
+<td>0.00746</td>
+<td>0.01168</td>
+</tr>
+<tr>
+<td><strong>044 主</strong></td>
+<td><strong>0.0265</strong></td>
+<td><strong>1.14</strong></td>
+<td><strong>0.00744</strong></td>
+<td><strong>0.01171</strong></td>
+</tr>
+<tr>
+<td>044 広い一覧</td>
+<td>0.0263</td>
+<td>1.13</td>
+<td>0.00741</td>
+<td>0.01170</td>
+</tr>
+<tr>
+<td>044 局所の減りを India の幅に</td>
+<td>0.0298</td>
+<td>1.28</td>
+<td>0.00791</td>
+<td>0.01179</td>
+</tr>
+<tr>
+<td>044 二重計上を直さない（ρ=1）</td>
+<td>0.0250</td>
+<td>1.07</td>
+<td>0.00720</td>
+<td>0.01156</td>
+</tr>
+<tr>
+<td>044 交易のつながり p_link=0／1</td>
+<td>0.0278／0.0255</td>
+<td>1.19／1.10</td>
+<td>0.00762／0.00729</td>
+<td>0.01175／0.01168</td>
+</tr>
+<tr>
+<td>- 【計算】U3 の重い崩壊で、ペストの減りを受ける標本は 0.53（うち地元に病巣 0.18）。042 の 0.725 より低い。CASC 0.51、BIO 0.45。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【計算】二重計上を直すと U3 の TAB は 6% 上がる（0.0250→0.0265）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【計算】トルネード（U3 の TAB の幅、図 <code>fig_tornado_nstar.png</code> 左）：D_max 0.0071 ＞ φ 0.0044 ＞ N_c 0.0036 ＞ 局所の減り（D_max か India か）0.0033 ＞ p_link 0.0022 ＞ ρ 0.0008 ＞ S_c の一覧 0.0002。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【計算】n*（金庫が U1 の半分の価値を持つ単一集団の最小の大きさ）は <strong>5,872人</strong>（043 B1 は 6,040人）。p_link を 0／1 にしても 5,823／5,924人で、n* は 5,000人の絶滅線のすぐ上の段で決まり、ペストの模型にほとんど動かされない。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H56a</td>
+<td>S_c（厳しい一覧）&lt; 0.725</td>
+<td>0.586</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H56b</td>
+<td>India の減りの上端 &lt; Sweden の半分（0.49 ポイント）</td>
+<td>0.193（Sweden の 0.20倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H56c</td>
+<td>U3 の TAB ≥ 1.15 × 043 B1</td>
+<td>1.14倍</td>
+<td><strong>棄却</strong>（境界）</td>
+</tr>
+<tr>
+<td>H56d</td>
+<td>トルネードの最大は p_link</td>
+<td>最大は D_max、p_link は5番目</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H56e</td>
+<td>重み付き A_Ord・U3 が 043 B1 の ±30% 以内</td>
+<td>1.07倍</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H56f</td>
+<td>n* ≤ 6,040人</td>
+<td>5,872人</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li>【推測】H56d の棄却が本回の主な発見。重い崩壊の集団は数千〜数十万人と小さく N_c（8.2万〜1e7）より小さいことが多いので、交易でつながってもペストはあまり戻らない。効くのは「地元に病巣があるか」（φ·S_c）と「あったときの減りの大きさ」（D_max か India 並みか）で、043 の「遠くからの船や荷の隔離を先に」は重い崩壊ではあまり効かない方向に修正が要る。</li>
+<li>【推測】ただし地元の病巣で d が集団の大きさによらないと置いたのは強い仮定で、φ と D_max がトルネードの上位に来たのはこの仮定のせいでもある。小さな集落に鼠が住みつくには穀物の貯えと定住が要るので、地元でも小さな集団では弱い可能性がある（未検証）。</li>
+<li>【推測】India の数字は抗菌薬の前（1937年以前）だが、ワクチン（1897年以降、1900年頃までに 400万人に接種）と検疫のある時代。T1・T0 の社会の局所の減りの代わりには使えず、上下の幅として扱った。</li>
+<li>【推測】生き残る集団の居場所を人口に比例と置いた。核の冬（NUC_G）以外のシナリオで南半球や島に偏るなら S_c は下がるが、トルネードで S_c の一覧の差は小さく（0.0002）、φ の幅の方が効く。</li>
+<li>【推測】止めた（0.0005/年）標本が U3 で 7%。止めの値を変えると TAB が動く可能性がある（未確認）。</li>
+<li>軽い崩壊（計算機の社会が残る）は人口待ちがないので、本回の変更の影響を受けない（作りから）。重み付きの変化（1.07倍）はすべて重い崩壊から来る。</li>
+</ul>
+<h2 id="_5">新規性</h2>
+<ul>
+<li>【独自仮説→計算】Ord や XPT は崩壊後の疫病の環境を扱っていない。本研究所の 041〜043 の流れでも、病巣の地理を人口の割合で入れ、交易のつながりの効き（小さな集団では弱い）を分けたのは本回が初めて。</li>
+</ul>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<p>本研究所は f_foci の既定を「φ·S_c（S_c=0.586）＋交易でつながる場合の飽和型」に改め、次は地元の病巣のもとでの減り D_max（1回の死亡率と頻度）を絞る。金庫の運営者は、重い崩壊向けの手引きに疫病対策を入れるなら、遠くからの船や荷の隔離より「病巣の地域（中央・東アジア、India、東・南アフリカ、米州の西部）で野生の齧歯類と穀物の貯えを住まいから離す」方を先に検討する価値がある【推測】。</p>
+<h2 id="_7">逸脱</h2>
+<p>なし（初回の実行で結果を出した。図の左の系列名は英語）。</p><footer><hr><small>自動生成</small></footer></body></html>

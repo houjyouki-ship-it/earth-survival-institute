@@ -44,7 +44,8 @@
    "ultimately led to at least 15 million deaths worldwide, including 10~12 million in British Raj India and 2.2 million in China",
    "According to the World Health Organization, the pandemic was considered active until 1960, when worldwide casualties dropped below 200 per year.",
    "On 10 January 1897, Haffkine tested it on himself.",
-   "In the 30 years starting in 1926, the plague occurred in Hong Kong almost every year and killed more than 20,000 people."
+   "In the 30 years starting in 1926, the plague occurred in Hong Kong almost every year and killed more than 20,000 people.",
+   "By the turn of the century, the number of inoculees in India alone reached four million."
   ]
  },
  {
@@ -66,5 +67,12 @@
   "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population",
   "title": "Wikipedia: List of countries and dependencies by population (wikitext via MediaWiki API, fetched 2026-10-18)",
   "note": "populations in pop_by_country.json (parsed from {{n+p|...}} templates); Ecuador 18,243,816 added by hand from its row"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Bubonic_plague",
+  "title": "Wikipedia: Bubonic plague (MediaWiki API extract)",
+  "quotes": [
+   "In 1937, physicians in East Africa and India successfully treated patients with Prontosil, a sulfonamide antibacterial drug; their findings were reported in 1938."
+  ]
  }
 ]
