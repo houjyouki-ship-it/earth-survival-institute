@@ -1,0 +1,137 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究043：ペストが繰り返し始める集団の大きさ N_urb の外部根拠（125）と、E の持続（126 の一部） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="043-n_urb-125e-126">研究043：ペストが繰り返し始める集団の大きさ N_urb の外部根拠（125）と、E の持続（126 の一部）</h1>
+<h2 id="_1">問い</h2>
+<p>042 では「崩壊後の集団は N_urb を超えるとペストの繰り返す環境（E、年 0.22%）に入る」と置き、N_urb ~ logU(1e4, 1e7) に根拠がなかった。N_urb を 1e4 と 1e7 に固定すると、U3（無知の事前）の重い崩壊1件あたりの板の手引きの価値（TAB）が 2.27倍違う。本回は公開資料の数値から、(1) 流行に集団の大きさの下限があるか、(2) 繰り返しの頻度と1回の死亡率で E の遅い増加が説明できるか、(3) Iceland から N_urb の下限が出せるか、を確かめて 042 の模型を更新した。E が永久に続くという 042 の仮定も感度で外した。</p>
+<h2 id="sourcesexcerptsjsonwikipedia-mediawiki-api">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>、Wikipedia の頁を MediaWiki API で取得）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Iceland にペストが来たのは 1402〜04年と 1494〜95年の2回で、死亡率は 50〜60% と 30〜50%。人口は入植から19世紀半ばまで 4〜6万人（1703年の国勢調査で 50,358人）。Norway には 1349年に来たが Iceland には 1402年まで来なかった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Iceland">Iceland</a>、<a href="https://en.wikipedia.org/wiki/Black_Death_in_Norway">Black Death in Norway</a>）】</td>
+</tr>
+<tr>
+<td>Sweden は 1350年の後、1359〜60、1368〜70、1413 … 1657年と全国的な流行が繰り返し、1710〜13年が最後。Finland には人口が少なく広がりにくかった可能性がある</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Black_Death_in_Sweden">Black Death in Sweden</a>）】</td>
+</tr>
+<tr>
+<td>England では 1361〜62年に人口の約20%が死に、その後5〜12年ごとに戻った。1471年は 10〜15%、1479〜80年は最大 20%。15世紀末からの政府の検疫などで流行は減った。Bristol は 1565〜1645年の流行で 10〜20%、隔離病院のあった 1665〜66年は約 0.6%</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Black_Death_in_England">Black Death in England</a>）】</td>
+</tr>
+<tr>
+<td>1704〜1713年の流行の町の人口と死者（Poznań 14,000人中 9,000人、Stockholm 55,000人中 22,000人、Helsingør 約3,000人中 1,800人、Damm 900人中 500人、Gröpelingen 360人中 56人、Bremen 28,000人中 192人 など15町）。死者には飢えや他の病気が混じる。町によって1年で終わったり数年続いたりした</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Great_Northern_War_plague_outbreak">Great Northern War plague outbreak</a>）】</td>
+</tr>
+<tr>
+<td>2015年の研究では、アジアの別の齧歯類がペストの宿主で、交易路で欧州まで繰り返し入った可能性が示された。黒い鼠の集団はペストの後に絶えることが多い</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Black_rat">Black rat</a>）】</td>
+</tr>
+<tr>
+<td>第3次のパンデミックの後、ペストはアジア・アフリカ・南米・米国西部の野生の宿主に残った。Hong Kong では 1929年まで続いた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Third_plague_pandemic">Third plague pandemic</a>）】</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-2026104370">方法（<code>sim.py</code>、seed 20261043、約70秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T08:46Z、初回実行前）。</li>
+<li>A1：15町の log 人口と死亡割合の Spearman 相関（bootstrap 10,000回）。隔離をした3町を除いた版も出した。</li>
+<li>A2：再来の率 λ。Sweden は 1350〜1713年（363年）の再来 22回。England は間隔 5〜12年の中央 8.5年。Russia 5.5年、Paris 3年は 042 の出典。Iceland は同じ363年に2回。Poisson の 95% 区間。</li>
+<li>A3：再来による年あたりの減り d = λ·(−ln(1−m))。m は England の全国の値から 0.10〜0.20（中央 0.15）。041 の開拓地と疫病の差 2.28 ポイントと比べた。</li>
+<li>A4：再来の率が集団の大きさで飽和する λ(n) = λ_max·n/(n+N_c) を置き、Iceland（n = 4〜6万人）で λ(n) が観測の 95% 上限以下になる条件から N_c の下限を出した。λ_max は Sweden か England。</li>
+<li>B：042 の sim.py を exec し、042 の U3 の TAB を<strong>誤差0で再現</strong>（<code>check_042</code>）。B1：N_urb ~ logU(N_lo, 1e7)（N_lo は A4 の最も小さい下限）。B2：閾値の代わりに連続の r(n) = (r_E n + r_F c)/(n + c)（c = N_urb、待ち時間は閉じた式）。B3：E に入ってから D_E 年で F に戻る（D_E = 600／370／200 年）。</li>
+<li>再現：<code>/tmp/rep043b/</code> で再実行し、results.json は runtime 以外一致（274キー、差分0）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H55a</td>
+<td>町の log 人口と死亡割合の ρ ≤ 0</td>
+<td>ρ = −0.16（95% 区間 −0.63〜0.38）</td>
+<td><strong>支持</strong>（区間は広い）</td>
+</tr>
+<tr>
+<td>H55b</td>
+<td>再来の減り（m=0.15）が Sweden・England とも 2.28 ポイントの 0.5〜2倍</td>
+<td>Sweden 0.98（0.43倍）、England 1.91（0.84倍）</td>
+<td><strong>棄却</strong>（Sweden が下に外れる）</td>
+</tr>
+<tr>
+<td>H55c</td>
+<td>N_lo ≥ 1e5</td>
+<td><strong>81,805人</strong></td>
+<td><strong>棄却</strong>（境界に近い）</td>
+</tr>
+<tr>
+<td>H55d</td>
+<td>B1 の U3 の TAB ≥ 1.15 × 042</td>
+<td>0.0233 対 0.0202（<strong>1.154倍</strong>）</td>
+<td><strong>支持</strong>（境界）</td>
+</tr>
+<tr>
+<td>H55e</td>
+<td>連続版と閾値版の差 &lt; 15%</td>
+<td>0.0268 対 0.0233（15.3%）</td>
+<td><strong>棄却</strong>（境界）</td>
+</tr>
+<tr>
+<td>H55f</td>
+<td>D_E=370年で U3 の TAB が 10% 以上上がる</td>
+<td>0.0290（<strong>1.25倍</strong>）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H55g</td>
+<td>重み付き A_Ord・U3 の TAB が 042 の ±30% 以内</td>
+<td>0.00694 対 0.00649（1.07倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>流行に大きさの下限はない（A1）</strong>：死亡割合の中央値は 5,000人未満の町 0.56、以上 0.40。死亡が半分を超えた最小の町は 900人（Damm）。360人の村（Gröpelingen）にも入った。ρ は負だが区間はゼロをまたぐ。隔離した町を除くと ρ = −0.33（−0.77〜0.33）。</li>
+<li><strong>再来の率（A2）</strong>：Sweden 0.061/年（0.038〜0.092、間隔の中央値 9年、最大 53年）、England 0.118（0.083〜0.20）、Russia 0.18、Paris 0.33、Iceland 0.0055（0.0007〜0.020）。Iceland は Sweden の約 1/11。</li>
+<li><strong>再来の減り（A3、m=0.15）</strong>：Iceland 0.09 ポイント（自らの死亡率で 0.36）、Sweden 0.98、England 1.91（λ の幅で 1.35〜3.25）、Russia 2.95、Paris 5.42。041 の差 2.28 ポイントのうち、全国の再来で説明できるのは Sweden で 43%、England で 84%。</li>
+<li><strong>N_c の下限（A4）</strong>：点推定で 40万〜122万人、95% 上限を使うと 8.2万〜29万人。最も保守的な N_lo = 81,805人（042 の事前の下端 1万人の約8倍）。</li>
+<li><strong>042 の模型の更新（B）</strong>：</li>
+<li>B1（N_urb ~ logU(8.2万, 1e7)）：U3 の TAB 0.0233（042 の 1.15倍）、名前のつく原因 0.0406（1.04倍）、BIO 0.0330（1.12倍）、CASC 0.0439（1.01倍）。待ちのうち F の期間の割合の中央値 0.28→0.56。n* <strong>6,040人</strong>（042 は 20,410人）。疫病を止める知識の損益分岐 p_conv* は<strong>なくなった</strong>（p_conv=1 でも TAB に届かない）。</li>
+<li>点推定の下限（50万人）を使うと U3 の TAB 0.0269（1.34倍）。</li>
+<li>B2（連続版）：0.0268。N_urb を固定した比較では、連続版は 1e5 で閾値版の 1.47倍、1e7 で同じ。</li>
+<li>B3（E の持続）：D_E = 600／370／200 年で U3 の TAB 0.0263／0.0290／0.0315（B1 の 1.13／1.25／1.36倍）。n* は D_E=370 で 5,766人。</li>
+<li>重み付き：A_Ord・U3 の TAB は B1 で 0.00694（042 の 1.07倍）、D_E=370 で 0.00783（1.21倍）。A_XPT_S・U2 は 0.01160（1.00倍）で動かない。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>N_urb の意味が変わった</strong>。町の流行は 360〜900人の集落でも起き、死亡割合は小さな町で低くない。つまり N_urb は「流行が起きる最小の町」ではない。繰り返しを決めるのは再導入の頻度で、それはアジアの宿主から交易でつながる人口の大きさで決まる（2015年の研究、事実）【推測】。042 の閾値は「交易でつながる集団の大きさ」の代わりとして読み直すべきで、これは 120（一つのつながった集団の定義）と同じ問いになる。</li>
+<li><strong>Iceland の下限は小ささと遠さを分けられない</strong>。Iceland は宿主の地域から遠く、交易も少なかった。A4 の下限は「Iceland 程度にしかつながらない集団」に当てはまり、病巣のすぐ近くで生き残る集団には当てはまらない。病巣の近くでは、野生の齧歯類から直接入る率が別にある（米国では 1900〜2015年に年平均 9件、事実、ただし近代の社会）。</li>
+<li><strong>Sweden の一覧は全国的な流行だけ</strong>で、地域の流行が抜けている。1495〜1548年の 53年の空白は記録の欠けかもしれない。λ と減りは過小の可能性がある。m は England の値を流用した。</li>
+<li><strong>再来で説明できない残り（Sweden で 57%、England で 16%）は、042 の「ペスト以外の原因」p_other と重なる</strong>。041 の r_E はこの両方を含む較正なので、042・043 のペストの部分と p_other を足すと二重に数える恐れは残る【推測】。</li>
+<li><strong>E の終わりと検疫は分けられない</strong>。England の資料は流行の減少の一部を15世紀末からの検疫に帰している。D_E を入れることは、p_conv（知識で E を止める）の一部を時間の関数として先に数えることでもある。</li>
+<li>H55c・d・e はいずれも境界で、判定の向きは数値の小さな差で決まった。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>ペストの流行は数百人の村でも起き、町の大きさの下限は見当たらない。繰り返しの間隔は国や都市で約3〜16年と大きく違い、Iceland（4〜6万人）は 363年に2回だけだった。この Iceland の観測から、ペストが頻繁に戻るようになるつながった集団の大きさは 8万人以上（点推定では 40万人以上）と出た。042 の事前の下端（1万人）は低すぎた。下限を入れると、重い崩壊での金庫（板の手引き）の価値は 1.15倍、E が約370年で終わるとさらに 1.25倍になり、金庫に価値が出る最小の集団は約2万人から約6千人に下がる。重み付きの結論は 1.07〜1.21倍で、方向は変わらない。疫病を止める知識が板の手引きに勝つ余地はなくなった。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：N_urb の既定の事前を logU(8.2万, 1e7) に改め、N_urb を「町の大きさ」ではなく「ペストの宿主の地域と交易でつながる人口」として扱う。次は病巣の地理（f_foci、126）と、つながりの大きさと再導入の率の関係（120・125 の続き）を一つの模型にする。</li>
+<li><strong>金庫の運営者</strong>：手引きに疫病対策を入れるなら、町の衛生より「遠くからの船や荷を入れる前の隔離」（Elbing の 40日の隔離のような再導入を止める方法）を優先する【推測】。小さな集団は疫病の点では遠くとの交易を急がない方が増えやすい、という逆向きの効果がありうるが、交易は技術の段を戻すのに要る（120）ので、両者の損得は未確認である。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord・XPT・Beckstead 2015 は崩壊後の回復を集団の大きさで論じるが、疫病の繰り返しの頻度を扱っていない。本研究は、Sweden・England・Iceland の流行の記録から再来の率と1回の死亡率を出し、疫病の環境の遅い増加の 4〜8割が再来で説明できること、Iceland の2回だけの流行から「繰り返しが始まるつながった集団の大きさ」の下限を出せることを示した。確認した資料には、この組み合わせは見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_towns_drag.png</code>、<code>fig_model_update.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：(1) 初回の実行は集計の関数の誤り（重み付きの値の取り出し）で結果を出す前に止まり、直して実行した。(2) 初回の結果の後、Poisson 区間の<strong>下限</strong>の計算の符号の誤りを直した（判定に使う上限と N_lo は変わらないことを確認：N_lo 81,805、B1 0.02326）。</p><footer><hr><small>自動生成</small></footer></body></html>

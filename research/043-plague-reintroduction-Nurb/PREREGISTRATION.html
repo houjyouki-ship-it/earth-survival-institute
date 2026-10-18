@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究043 事前登録（初回実行前に記載） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="043">研究043 事前登録（初回実行前に記載）</h1>
+<p>記載時刻：下の行（UTC、<code>date -u</code> の出力）</p>
+<h2 id="_1">問い</h2>
+<p>042 では「ペストは集団が N_urb を超えてから繰り返す」と置き、N_urb ~ logU(1e4, 1e7) に根拠がなかった（U3 の重い崩壊での板の手引きの価値 TAB が N_urb で 2.27倍動く）。本回は、(1) ペストの流行に集団の大きさの下限があるか、(2) 繰り返しの頻度（再導入の率）と1回の死亡率で E の遅い増加が説明できるか、(3) Iceland（4〜6万人、1350〜1713年に2回だけ）から N_urb の下限が出せるか、を公開資料の数値で確かめ、042 の模型を更新する。E の持続年数（126 の一部）も感度で足す。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>データ（sources/excerpts.json の数値のみ）：大北方戦争期（1704〜1713年）の町の人口と死者、Sweden の流行年の一覧（1350〜1713年）、England の再来の間隔（5〜12年）と全国の死亡率（10〜20%）、Iceland（1402〜04年、1494〜95年、人口 4〜6万人）。</li>
+<li>A1：町の log10 人口と死亡割合の Spearman 相関（bootstrap 10,000回、seed 20261043）。</li>
+<li>A2：再来の率 λ（回/年）と Poisson の 95% 区間。</li>
+<li>A3：再来による年あたりの人口の減り d = λ·(−ln(1−m))、m は全国の死亡率 0.10〜0.20（中央 0.15）。041 の r_F − r_E = 2.28 ポイントと比べる。</li>
+<li>A4：飽和型 λ(n) = λ_max·n/(n+N_c) を置き、Iceland を「n=4〜6万人の集団」とみなして λ(n_IS) ≤ λ_IS（Poisson 95% 上限）から N_c の下限を出す。λ_max は Sweden または England。最も保守的な（小さい）下限を N_lo とする。</li>
+<li>B：042 の sim.py を exec して乱数・関数をそのまま使い、(B1) N_urb ~ logU(N_lo, 1e7)、(B2) 閾値の代わりに連続の r(n) = (r_E n + r_F c)/(n + c)（c = N_urb）、(B3) E の持続 D_E ∈ {∞, 600, 370, 200} 年（E に入ってから D_E 年で F に戻る）を計算する。042 の U3 の TAB を誤差 1e-9 以内で再現することを確認する。</li>
+</ul>
+<h2 id="_3">仮説（判定基準）</h2>
+<ul>
+<li>H55a：町の log 人口と死亡割合の Spearman ρ ≤ 0（小さな町ほど助かったという証拠はない）。</li>
+<li>H55b：Sweden と England の両方で、d（m=0.15）が 2.28 ポイントの 0.5〜2倍（1.14〜4.56 ポイント）に入る。</li>
+<li>H55c：N_lo ≥ 1e5。</li>
+<li>H55d：B1 の U3 の重い崩壊1件あたり TAB ≥ 1.15 × 042（0.0202）。</li>
+<li>H55e：B1 の事前で、連続版（B2）と閾値版の U3 の TAB の差が 15% 未満。</li>
+<li>H55f：B1 の事前で、D_E=370 年は D_E=∞ に比べ U3 の TAB を 10% 以上上げる。</li>
+<li>H55g：B1 の重み付き A_Ord・U3 の TAB が 042（0.00649）の ±30% 以内。</li>
+</ul>
+<h2 id="_4">注意（先に書いておく）</h2>
+<ul>
+<li>Iceland は小ささと遠さが重なっている（交易の少なさで再導入が少なかった可能性）。A4 の下限は「Iceland 程度のつながりの集団」にしか当てはまらない。</li>
+<li>大北方戦争の町の死亡割合は飢えや他の病気を含みうる（出典にその注意あり）。
+実記載時刻（date -u）: 2026-10-18T08:46:45Z</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

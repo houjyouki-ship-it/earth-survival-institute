@@ -605,4 +605,23 @@
 <li>判定：H54d・e・f 支持、H54a・b・c 棄却（a：小さな集団でも待ちの大半は N_urb より上で起きる。b：ペストの方が4倍効く。c：差は 1.2倍）。</li>
 <li>逸脱：なし。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は q_F の議論をシナリオから N_urb と病巣の地理に移す。金庫の運営者は、疫病対策を入れるならペスト（鼠・蚤・穀物の保管・交易品の隔離）に絞る。南半球の第2拠点の候補としてオーストラリアは、ペストの病巣がない点でも有利かもしれない）。</li>
+</ul>
+<h2 id="43-2026-10-18">第43回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038・039・040・041・042 を <code>/tmp/rep043/</code> に複製し、042 の sim.py（約56秒、中で 040・039・038 を実行）を再実行した。results.json は runtime 以外一致（葉 158個、リストはまとめて比較、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 125（N_urb）を主課題にし、126 の「E の持続」を足した。</li>
+<li>文献・データ（本回開いて確認、Wikipedia を MediaWiki API で取得）：Iceland（1402〜04年・1494〜95年の2回、死亡率 50〜60%・30〜50%、人口 4〜6万人）、Black Death in Norway（Iceland は 1402年まで来ない）、Black Death in Sweden（1350〜1713年の流行年の一覧、Finland は人口が少なく広がりにくかった可能性）、Black Death in England（再来の間隔 5〜12年、全国 10〜20%、15世紀末からの検疫、Bristol 1665 0.6%）、Great Northern War plague outbreak（15町の人口と死者）、Black rat（2015年の研究：アジアの宿主から交易で繰り返し入った）、Third plague pandemic、Bubonic plague（米国 1900〜2015年に年平均9件）。sources/excerpts.json（引用は取得した本文と照合済み）。</li>
+<li>研究043を実施：<code>research/043-plague-reintroduction-Nurb/</code>（sim.py 約70秒 seed 20261043、計算のみ）。成果物は results.json、stdout.txt、fig_towns_drag.png、fig_model_update.png、report.md、PREREGISTRATION.md（08:46Z、初回実行前）、sources/。042 の U3 の TAB を誤差0で再現。<code>/tmp/rep043b/</code> で再実行し results.json は runtime 以外一致（274キー）。</li>
+<li>方法：A は町の大きさと死亡割合の相関、再来の率 λ、再来による年あたりの減り λ·(−ln(1−m))、飽和型 λ(n)=λ_max·n/(n+N_c) で Iceland から N_c の下限。B は 042 の模型で N_urb の事前の下端を N_lo に、連続の r(n)、E の持続 D_E を試した。</li>
+<li>主要数値：</li>
+<li>町（15）：Spearman ρ −0.16（−0.63〜0.38）、5,000人未満の死亡割合の中央値 0.56、以上 0.40。死亡が半分を超えた最小の町 900人。</li>
+<li>λ：Sweden 0.061/年、England 0.118、Russia 0.18、Paris 0.33、Iceland 0.0055。</li>
+<li>再来の減り（m=0.15）：Sweden 0.98 ポイント（041 の E と F の差 2.28 の 43%）、England 1.91（84%）、Iceland 0.09。</li>
+<li>N_c の下限：点推定 40万〜122万人、95% 上限で 8.2万〜29万人。N_lo = <strong>81,805人</strong>。</li>
+<li>B1（logU(N_lo,1e7)）：U3 の重い崩壊1件あたり TAB <strong>0.0233</strong>（042 の 1.15倍）、n* <strong>6,040人</strong>（042 20,410人）、p_conv の損益分岐はなくなった。点推定の下限 50万人なら 0.0269。</li>
+<li>連続版 0.0268。D_E 600／370／200年で 0.0263／0.0290／0.0315。</li>
+<li>重み付き：A_Ord・U3 0.00694（1.07倍）、D_E=370 で 0.00783（1.21倍）。A_XPT_S・U2 0.01160（1.00倍）。</li>
+<li>判定：H55a・d・f・g 支持（a は区間が広い、d は境界）、H55b・c・e 棄却（c・e は境界）。</li>
+<li>逸脱：初回の実行は集計の誤りで結果を出す前に止まり直した。初回結果の後、Poisson 区間の下限の符号の誤りを直した（判定に使う上限と N_lo は不変）。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は N_urb の事前を logU(8.2万,1e7) に改め、町の大きさでなく「宿主の地域と交易でつながる人口」として扱う。金庫の運営者は疫病対策を入れるなら、遠くからの船や荷の隔離を町の衛生より先にする）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
