@@ -1,0 +1,137 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究040：重い崩壊で効く対策の比較（人口のまとまり vs 知識）と、金庫に価値が出る最小のまとまり n*（open_problems 115・119） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="040-vs-nopen_problems-115119">研究040：重い崩壊で効く対策の比較（人口のまとまり vs 知識）と、金庫に価値が出る最小のまとまり n*（open_problems 115・119）</h1>
+<h2 id="_1">問い</h2>
+<p>039 の無知の事前（U3）では、重い崩壊（機械が止まり T1・T0・T00 から再出発）は 69% と多いのに、生存者が数千人規模に割れるため人口待ちが媒体の寿命を超え、金庫の価値が T0 再出発の仮定（U1）の約 1/4.5 になった。(1) 単一のつながった集団が何人いれば金庫に価値が出るか（n*）。(2) 重い崩壊の中で、知識の対策（板の手引き、T0 手引き）と人口の対策（避難所、集団どうしの接触、人口の増え方を速める知識）を同じ物差しで比べるとどれが効くか。</p>
+<h2 id="sourcesexcerptsjson">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pitcairn 島の人口は 1790 年 27人、1856 年 193人（全員が Norfolk 島へ移住）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Pitcairn_Islands">Wikipedia: Pitcairn Islands</a>）】→ 年 2.98%【計算】</td>
+</tr>
+<tr>
+<td>Hutterite の共同体の人口は 140 年で約 400人から約 5万人に回復</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Hutterites">Wikipedia: Hutterites</a>）】→ 年 3.45%【計算、20世紀の医療を含む】</td>
+</tr>
+<tr>
+<td>Tristan da Cunha の人口は 1909 年 95人、1961 年 268人（1856 年 71人）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Tristan_da_Cunha">Wikipedia: Tristan da Cunha</a>）】→ 1909〜61 年で年 1.99%【計算】</td>
+</tr>
+<tr>
+<td>避難所は多くの破局で被害が大きすぎるか小さすぎて役に立たず、食料危機や社会の崩壊では人口・資源・技能の総量にほとんど足さないが、孤立と調整の点で独自の寄与がありうる</td>
+<td>【事実（<a href="https://www.sciencedirect.com/science/article/pii/S0016328714001888">Beckstead 2015, Futures</a> 要旨）】</td>
+</tr>
+</tbody>
+</table>
+<p>038 の r（黒死病からの回復で較正、年 0.14〜0.61%）に対し、小さな創始集団は年 2〜3.5% で増えた例がある。ただし3例とも外部との交易・医療があり、崩壊後の集団の上限の目安にとどまる【推測】。</p>
+<h2 id="simpyseed-20261040n20000040">方法（<code>sim.py</code>、seed 20261040、N=200,000、約40秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T02:38Z、初回実行前）。</li>
+<li>039 の sim.py を「仮説」節の前まで実行して、038・039 の乱数列・関数・成分（名前のつく原因、U1・U2・U3）をそのまま使った。039 の重み付きの板の手引きの価値（全体と重い崩壊分）を<strong>誤差 &lt;1e-18 で再現</strong>（<code>check_039</code>）。</li>
+<li>対策（板の手引きがある状態からの増分。板の手引き TAB は手引きなしからの増分）：</li>
+<li>PRIM：T0 手引き（038 の f_primer で段の年数を 0.3〜0.8 倍）。</li>
+<li>REF(N)：避難所。確率 U(0.3, 0.8) で働き、最大集団と生存者総数を N 以上にする（N=1e3〜1e6）【推測】。</li>
+<li>CON(c)：集団どうしの接触の維持。最大集団を nmax^(1−c)·ntot^c に置く（c=0.25, 0.5）【推測、Kline &amp; Boyd の接触効果の粗い代理】。</li>
+<li>GROW：人口の増え方を速める知識（衛生・農法・出産）。確率 U(0.3, 0.8) で r を開拓地の水準 logU(1.2%, 3.5%) にする【推測】。</li>
+<li>人口の対策は、032 の状態をそのまま使う AI と U1（GEN）には模型の作りから効かない。</li>
+<li>n*：単一の集団 n だけが生き残る（最大集団＝総数＝n、GEN の金庫の係数）として n を 5,000〜10億で走査し、板の手引きの価値が U1 の1件あたり価値（0.0418）の半分を超える最小の n。</li>
+<li>再現：<code>/tmp/rep040b/</code> で再実行し results.json は runtime 以外一致（2,762キー、差分0）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H52a</td>
+<td>黒死病の r で n* ≥ 1e5</td>
+<td><em><em>n</em> = 27.8万人</em>*</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H52b</td>
+<td>開拓地の r で n* が 1/10 以下</td>
+<td><strong>5,638人</strong>（1/49）。人口待ちなしの 5,511人とほぼ同じ</td>
+<td><strong>支持</strong>（格子の下端＝絶滅の閾値 5,000人に張りつく）</td>
+</tr>
+<tr>
+<td>H52c</td>
+<td>U3 の重い崩壊1件あたり REF(1e5) &gt; PRIM</td>
+<td>0.0072 対 0.00008</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H52d</td>
+<td>U3 の重い崩壊1件あたり REF(1e4) &lt; PRIM</td>
+<td>0.00043 対 0.00008</td>
+<td><strong>棄却</strong>（どちらも板の手引き 0.0067 の 1/15 以下で、実質ゼロ同士）</td>
+</tr>
+<tr>
+<td>H52e</td>
+<td>CASC の重い崩壊1件あたり CON(0.5) &gt; REF(1e5)</td>
+<td>0.246 対 0</td>
+<td><strong>支持</strong>（CASC の重い崩壊の最大集団は中央値 100万人で、1e5 の避難所は何も足さない。ほぼ自明）</td>
+</tr>
+<tr>
+<td>H52f</td>
+<td>A_XPT_S・U2 で人口の対策はどれも TAB の 0.3 倍未満</td>
+<td>REF・GROW は 0〜0.06倍、<strong>CON は 2.0〜3.9倍</strong></td>
+<td><strong>棄却</strong>（CON だけが外れる。下記）</td>
+</tr>
+<tr>
+<td>H52g</td>
+<td>A_Ord・U3 で人口の対策の最大 &gt; PRIM</td>
+<td>CON(0.5) 0.0148、REF(1e6) 0.0100 対 PRIM 0.00005</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H52h</td>
+<td>U3 の重い崩壊1件あたり GROW &gt; REF(1e5)</td>
+<td>0.041 対 0.0072</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li>*<em>n</em>（119）**：黒死病の r（中央値 0.29%/年）で <strong>27.8万人</strong>、r×3 で 9,856人、開拓地の r（中央値 2.1%/年）で <strong>5,638人</strong>。段の閾値 ×0.3／×3 で 8.3万／83万人。媒体の寿命の中央値は 521年。約6,000人の集団が T2 に届く中央値の年数は黒死病の r で約1,930年、開拓地の r で約300年（28万人では約590年と約100年）（図 <code>fig_n_star.png</code>）。</li>
+<li><strong>重い崩壊1件あたりの増分（U3、黒死病の r）</strong>：TAB 0.0067、PRIM 0.00008、REF 1e3／1e4／1e5／1e6 = 0／0.0004／0.0072／0.061、CON 0.25／0.5 = 0.026／0.064、GROW 0.041。U3 の重い崩壊の最大集団は中央値 4,189人（5〜95% で 2人〜85万人）。</li>
+<li>名前のつく原因の重い崩壊（n=65,195、CASC・BIO・衝突など）：TAB 0.032、PRIM 0.0007、REF(1e6) 0.019、CON(0.5) 0.18、GROW 0.023。</li>
+<li><strong>重み付き合計</strong>（全結果、TAB を 1 とした比）：</li>
+<li>A_Ord・U3：PRIM 0.01、REF(1e5) 0.26、REF(1e6) 2.2、CON(0.5) 3.2、GROW 1.26。</li>
+<li>A_Ord・U1：PRIM 0.12、REF(1e6) 0.12、CON(0.5) 0.50、GROW 0.07。</li>
+<li>A_XPT_S・U2：PRIM 0.004、REF(1e6) 0.03、CON(0.5) 3.9（うち重い崩壊から 20%）、GROW 0.06。</li>
+<li><strong>感度（判定に使わず）</strong>：r を全標本で開拓地の水準にした世界では、U3 の重い崩壊1件あたりの TAB が 0.0067→<strong>0.034</strong>（5倍）、REF(1e4) 0.011、REF(1e5) 0.022。p_ref=1 で REF(1e6) は 0.11。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>CON の大きさは「接触」の効果ではなく、模型が最大集団 nmax に強く依存することの表れ</strong>。CON(0.5) の重み付きの増分は、A_XPT_S・U2 で約 8 割、A_Ord・U3 で約 4 割が重い崩壊以外から来る。つまり「つながった経済が N_3 を超えて計算機の社会が残る」かどうかの境目を動かしている。nmax^(1−c)·ntot^c という置き方に外部の根拠はなく、交易網がどれだけ分業の規模を足すかは確かめていない。CON の結果は対策の評価ではなく、「038 以降の結論は、何をもって一つのつながった集団とみなすかの定義に強く乗っている」という警告として読むべきである（新しい問い 120）。</li>
+<li><strong>人口の対策の効き方は避難所の大きさの閾値で決まる</strong>。1万人以下の避難所は、重い崩壊でも金庫の価値をほぼ動かさない（1万人の集団は黒死病の r では T2 に届くまで約1,800年かかり、媒体の寿命の中央値 521年を超える）。10万人で板の手引きと同程度、100万人で約9倍。Beckstead 2015 の「避難所は多くの破局で役に立たない」とは、別の理由（人口待ち）から同じ向きの結論になった。</li>
+<li><strong>T0 手引き（段の年数を縮める知識）は重い崩壊でもほぼ無価値</strong>。038 の H50f と同じく、時間の大半が人口待ちだからである。U1（人口待ちなし）でだけ TAB の 12% 程度の価値が出る。</li>
+<li><strong>GROW の大きさは「r が知識で上がる」という仮定の大きさそのもの</strong>。黒死病からの回復が遅かったのは、疫病の繰り返しや土地の制約のためかもしれず【推測】、崩壊後に土地が空いていれば知識なしでも r は開拓地の水準に近づくかもしれない。その場合 GROW の価値は消え（開拓地の世界の感度で GROW=0）、代わりに板の手引き自体の価値が 5 倍になる。どちらにしても、<strong>重い崩壊で金庫が効くかどうかを決める最大の未知は r</strong>（n* が 49倍動く）で、116 が最優先に上がる。</li>
+<li>費用は入れていない。REF(1e6) の効果は板の手引きの約9倍（U3）だが、100万人の避難所の費用は金庫の板とは桁が違うと見込む【推測】。比較の結果は「費用比がこの値より小さければ得」という損益分岐の比として読むべきで、費用の公開資料は確かめていない（新しい問い 122）。</li>
+<li>創始集団の3例は外部との交易・船・医療があり、崩壊後の孤立した集団の r の上限としては楽観的かもしれない【推測】。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>金庫に価値が出る単一集団の最小の大きさ n* は、崩壊後の人口の増え方で 50 倍近く変わる。黒死病からの回復の速さなら約28万人で、それより小さく割れた重い崩壊では金庫はほとんど役に立たない。小さな創始集団の実例（年 2〜3.5%）の速さなら約5,600人で、人口待ちはほぼ消える。重い崩壊の中では、段の年数を縮める T0 手引きはどの設定でもほぼ無価値で、効くのは 10万人以上のまとまりを保つこと、または人口の増え方を速めることである。1万人以下の避難所は効かない。「接触の維持」の大きな数字は、模型が「一つのつながった集団」の定義に強く依存していることを示しており、対策の評価としては使えない。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：重い崩壊向けの対策として T0 手引き（製鉄・ガラスの段の短縮）は候補から外す。次は崩壊後の人口の増え方 r（116）を外部の根拠で絞る。r が開拓地に近ければ重い崩壊でも金庫の価値は 5 倍になり、黒死病に近ければ「人口の増え方を速める知識」（衛生・農法・出産）が板の手引きより効く。</li>
+<li><strong>金庫・避難所の運営者</strong>：避難所を作るなら1万人以下では金庫の価値をほぼ足さず、10万人以上で初めて板の手引き並みになる。金庫の手引きの中身は、技術の段の短縮より、小さな集団の人口の増え方を速める内容（衛生・栄養・出産・農法）を先に検討する価値がある（ただし r が知識で上がるかは未確認）。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Beckstead 2015 は避難所の有用性を破局の種類ごとに定性的に論じる。本研究は、生存者×最大集団×段ごとの最小人口×人口待ち×媒体の寿命の同じ模型の上で、避難所の大きさ・接触・人口の増え方・知識の対策を同じ物差しで比べ、金庫に価値が出る最小のまとまり（28万人〜5,600人、r しだい）と、避難所が効き始める大きさ（10万人以上）を数値で出した。確認した資料には、この比較は見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_n_star.png</code>、<code>fig_interventions.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/excerpts.json</code>。
+- 逸脱：なし（初回実行の結果をそのまま採用。図と出力の項目は初回から同じ）。</p><footer><hr><small>自動生成</small></footer></body></html>

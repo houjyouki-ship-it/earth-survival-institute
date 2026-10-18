@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究040 事前登録（2026-10-18T02:38Z、初回実行前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="040-2026-10-18t0238z">研究040 事前登録（2026-10-18T02:38Z、初回実行前）</h1>
+<h2 id="_1">問い</h2>
+<p>open_problems 115（重い崩壊で効く対策の比較：人口のまとまり vs 知識）と 119（金庫に価値が出る最小のまとまり n*）。
+038・039 の模型（生存者×最大集団×段ごとの最小人口×人口待ち×媒体の寿命）を変えずに、対策を同じ物差し（板の手引きがある金庫の価値 V_P2 の増分）で比べる。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>039 の sim.py を「仮説」節の前まで exec し、038・039 の乱数列・関数・成分をそのまま使う（039 の重み付き R_tab を誤差 &lt;1e-12 で再現することを検査）。新しい乱数は seed 20261040。</li>
+<li>対策（すべて板の手引きがある状態からの増分。板の手引き自体は手引きなしからの増分）：</li>
+<li>TAB：板の手引き（039 の R_tab）</li>
+<li>PRIM：T0 手引き（038 の f_primer で段の年数を短縮）</li>
+<li>REF(N)：避難所。確率 p_ref ~ U(0.3,0.8)【推測】で、最大集団を max(nmax, N)、生存者総数を max(ntot, N) にする。N = 1e3, 1e4, 1e5, 1e6。強制の絶滅（XPT の比で置いた絶滅、AI など 032 の状態）は変えない。</li>
+<li>CON(c)：集団どうしの接触の維持。最大集団を nmax^(1-c)·ntot^c に置く【推測：Kline &amp; Boyd の接触効果の粗い代理】。c = 0.25, 0.5。</li>
+<li>GROW：人口の増え方を速める知識（衛生・農法・出産）。確率 p_grow ~ U(0.3,0.8)【推測】で r を開拓地の水準 logU(0.012, 0.035)/年（Tristan da Cunha 1909→1961 の約2%、Pitcairn 1790→1856 の約3%、Hutterite 約3.4% を目安）にする。</li>
+<li>人口の対策は 032 の状態を使う AI と GEN（U1）には効かない（模型の作りから）。</li>
+<li>n*：最大集団＝生存者総数＝n に固定（GEN の金庫の係数、lit 0.3、mcap 1）し、n を 5e3〜1e9 で走査。n* = 板の手引きの価値 R_tab(n) が U1（T0 再出発・人口待ちなし）の1件あたり価値の半分以上になる最小の n。r は黒死病較正（038）と開拓地水準の2通り。</li>
+<li>錨（A_Ord、A_XPT_S、A_XPT_E）× 未知の部分の事前（U1、U2、U3）で重み付き合計も出す（039 と同じ重み）。</li>
+</ul>
+<h2 id="_3">仮説（判定規則）</h2>
+<ul>
+<li>H52a：黒死病の r で n* ≥ 1e5。</li>
+<li>H52b：開拓地の r で n* が黒死病の r の 1/10 以下。</li>
+<li>H52c：U3 の重い崩壊1件あたりで、REF(1e5) の増分 &gt; PRIM の増分。</li>
+<li>H52d：U3 の重い崩壊1件あたりで、REF(1e4) の増分 &lt; PRIM の増分。</li>
+<li>H52e：CASC の重い崩壊1件あたりで、CON(0.5) の増分 &gt; REF(1e5) の増分。</li>
+<li>H52f：A_XPT_S・U2 の重み付き合計で、人口の対策（REF 全種、CON 全種、GROW）の増分はどれも TAB の 0.3 倍未満。</li>
+<li>H52g：A_Ord・U3 の重み付き合計で、人口の対策の最大の増分 &gt; PRIM の増分。</li>
+<li>H52h：U3 の重い崩壊1件あたりで、GROW の増分 &gt; REF(1e5) の増分。</li>
+</ul>
+<h2 id="_4">感度（判定に使わない）</h2>
+<p>p_ref を 1 にする、段の閾値 ×0.3／×3、r を全標本で開拓地の水準にした世界。</p><footer><hr><small>自動生成</small></footer></body></html>

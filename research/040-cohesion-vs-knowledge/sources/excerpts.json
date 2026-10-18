@@ -1,0 +1,16 @@
+{
+ "accessed": "2026-10-18",
+ "items": [
+  {"url": "https://en.wikipedia.org/wiki/Pitcairn_Islands", "used_for": "founder population growth (frontier r)",
+   "excerpt": "Historical population table: 1790 | 27 ... 1856 | 193/0. 'On 3 May 1856, the entire population of 193 people set sail for Norfolk'. 'In 1790, nine of the mutineers ... along with the native Tahitian men and women who were with them (six men, 11 women, and a baby girl), settled on Pitcairn Island'",
+   "derived": "ln(193/27)/66 = 2.98%/yr (calculation)"},
+  {"url": "https://en.wikipedia.org/wiki/Hutterites", "used_for": "founder population growth (frontier r)",
+   "excerpt": "Over the course of 140 years, their population living in communities of goods recovered from about 400 to around 50,000 at present.",
+   "derived": "ln(50000/400)/140 = 3.45%/yr (calculation; includes 20th-century medicine)"},
+  {"url": "https://en.wikipedia.org/wiki/Tristan_da_Cunha", "used_for": "small isolated population growth",
+   "excerpt": "Historical population: 1856 71; 1880 109; 1892 50; 1909 95; 1934 167; 1961 268 (+1.77% p.a. 1934-61)",
+   "derived": "1909->1961: ln(268/95)/52 = 1.99%/yr; 1856->1961: 1.27%/yr (calculation)"},
+  {"url": "https://www.sciencedirect.com/science/article/pii/S0016328714001888", "used_for": "refuge literature (Beckstead 2015, Futures)",
+   "excerpt": "Many proposed catastrophes do too much/too little damage for refuges to help ... In global food crises or social collapse scenarios, refuges would add little to aggregate stocks of population, resources, food, and relevant skills; but they may add something unique in terms of isolation and coordination."}
+ ]
+}
