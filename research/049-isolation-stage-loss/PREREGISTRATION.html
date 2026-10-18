@@ -1,0 +1,36 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究049 事前登録（初回実行前に記入、2026-10-18T20:46Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="049-2026-10-18t2046z">研究049 事前登録（初回実行前に記入、2026-10-18T20:46Z）</h1>
+<h2 id="open_problems-136138">問い（open_problems 136＋138）</h2>
+<p>048 で交易が断たれた生存例（Mycenae、Easter Island）の最上位の段の喪失は 0.75、交易が続いた10件は 0.20（2件、p=0.11）。孤立した島や植民地を事前に決めた規則で足して、(1) 孤立した生き残りで技術の喪失はどれだけ起きるか、(2) それは集団の大きさで説明されるか、孤立そのものか、(3) 逆の因果（崩れたから孤立した）は分けられるか、を調べる。孤立の効きを集団の大きさの関数として 047 の P1 の模型の生き残りの大きさ（U3・CASC・BIO の nmax）に写し、h を置き直して h*（P1 で 0.097）と比べる。138：h* を閾値の版（E2、P1、P2、P3、固定 M=3・10・30、048 の歴史の χ）ごとに出し、重い崩壊を優先する判断が閾値の線と h の線のどちらに乗るかを分ける。</p>
+<h2 id="_1">参照の集合（選び方を先に固定）</h2>
+<p>open_problems 136 が名を挙げた孤立の例（Tasmania、Chatham の Moriori、Pitcairn・Henderson の放棄された集落、Norse Greenland、Dorset、Polynesia の outlier）に加え、本回取得した Wikipedia の本文が「孤立」または「放棄」を述べる島の集団：Inughuit（Polar Inuit）、Kangaroo Island、Flinders Island（と同じ本文の King Island・Furneaux）、Norfolk Island と Raoul Island の Polynesia 人の集落、Nīhoa、Hawaii（1778年以前）、Māori（1769年以前）、Andaman の人々、Sentinelese、Guanches、Easter Island（048 と重複、048 の符号を使う）。比較のため、孤立していない小さな島 Tikopia（頻繁な航海）を対照に入れる。Mangareva は孤立が森林の喪失の結果（内生）なので内生の例として別に記録する。Dorset は本文に孤立の記述がないので χ 不明として記録だけする。
+- 既知の偏り：Inughuit・Dorset・Tasmania は「技術を失った例」として有名で、喪失の側に選ばれやすい。Hawaii・Māori・Andaman・Sentinelese・Tikopia は喪失のない側の例として、同じ規則で入れる。</p>
+<h2 id="_2">符号（本回取得した本文の引用に基づく。判断は【推測】）</h2>
+<ul>
+<li>χ_iso：本文が孤立（外との定期的な接触なし）を述べる=1。散発的な接触の記述があっても定期的な交易がなければ1。Tikopia は 0。</li>
+<li>L：生き残った集団で、前に持っていた専門の技術（舟、弓、ドリル、骨器と漁、農耕など）を失ったと本文が述べる=1、議論中・部分的=0.5、記述なし=0。本文が「持っていなかった」と書くだけで、前に持っていたと書かないもの（Andaman の火起こし）は0、感度で0.5。</li>
+<li>env：失った理由を本文が資源・環境（作物が育たない、木がない）に帰す=1。</li>
+<li>ended：集団が絶えたか島を放棄した=1（移住か絶滅かは区別できない）。h の分母から外す（048 と同じ）。</li>
+<li>N：本文の人口の幅（下限・上限）。標本ごとに対数一様で引く。N が本文にない例は回帰から外す。</li>
+<li>T_iso：孤立の長さ（年）、本文の年代から。</li>
+<li>exo：孤立の原因が外生（海面上昇、気候、創始時の距離）=1、崩壊の結果（内生）=0。喪失が孤立の後に起きたと本文から読める=1。</li>
+</ul>
+<h2 id="_3">解析</h2>
+<ul>
+<li>A：孤立した生き残りの L の点の平均（0.5 は半分）と Jeffreys の Beta 事後（0.5 は Bernoulli(0.5) で振る、seed 20261049、2万回）。048 の χ=0 の2件のうち Easter Island は重複なので1回だけ数え、Mycenae は文字のある社会として別に足した版も出す。</li>
+<li>B：ロジスティック回帰 logit P(L=1) = a + b·(log10 N − 4)。a, b に N(0, 2.5²) の事前、格子で事後。N と 0.5 の符号を標本ごとに引き直して事後を混ぜる。P(b&lt;0)、N=1e3・1e4・1e5・1e6 の予測。感度：log10 T_iso を足す、env=1 を 0 にする、Andaman を 0.5 にする。</li>
+<li>C：孤立した集落のうち ended の割合と、生き残りのうち L の割合を比べる。</li>
+<li>D：喪失のある孤立の例のうち exo=1 かつ喪失が孤立の後の割合。</li>
+<li>E：047 の P1 の模型の U3・CASC・BIO の nmax の標本で E[P(L|nmax)] を出す（孤立の罰の上限：すべての生き残りが完全に孤立）。h_V5(s) = s·E_U3[P(L|nmax)] + (1−s)·h_conn（h_conn は 048 の χ≥0.5 の L_top の事後、点 0.20）。s ∈ {0, 0.25, 0.5, 1}。048 の道具（UNK = h·U1 + (1−h)·U2）で重み付きの A_Ord と重い崩壊からの割合を出す。大きさを無視した版（孤立の L の平均をそのまま使う）も並べる。</li>
+<li>F（138）：E2、P1、P0、P2、P3、固定 M=3・10・30、048 の歴史の χ（CASC のみ）で A_Ord の h* を出す。</li>
+</ul>
+<h2 id="_4">仮説（判定の規則）</h2>
+<ul>
+<li>H61a：孤立した生き残り（Easter を含む、Mycenae を除く）の L の点の平均 ≥ 0.40。</li>
+<li>H61b：P(b&lt;0) ≥ 0.90、かつ予測 P(L | N=1e5) &lt; 0.15。</li>
+<li>H61c：孤立した集落で ended の割合 ≥ 生き残りの L の平均。</li>
+<li>H61d：喪失のある孤立の例の 80% 以上で exo=1 かつ喪失が孤立の後。</li>
+<li>H61e：E_U3[P(L|nmax)] &lt; 0.097（P1 の h*）、つまり大きさを考えると、生き残りがすべて孤立しても孤立だけでは h を h* の上に押し上げない。</li>
+<li>H61f：F のすべての版で h* は 0.028（048 V4）より大きく 0.195（048 V2）より小さい（重い崩壊の優先の判断は閾値の版でなく h の読みで決まる）。</li>
+</ul>
+<h2 id="_5">成果物</h2>
+<p>sim.py、results.json、stdout.txt、図2枚（孤立の例の L と N／h の置き直しと h* の版）、report.md、sources/。</p><footer><hr><small>自動生成</small></footer></body></html>
