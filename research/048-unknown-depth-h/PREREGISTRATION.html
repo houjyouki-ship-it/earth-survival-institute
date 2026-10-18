@@ -1,0 +1,38 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究048 事前登録（初回実行前に記入、2026-10-18T18:44Z） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="048-2026-10-18t1844z">研究048 事前登録（初回実行前に記入、2026-10-18T18:44Z）</h1>
+<h2 id="open_problems-117135">問い（open_problems 117＋135）</h2>
+<p>039 で A_Ord の結論は h（未知の人為リスクのうち T0 から再出発する割合）だけで決まり、h*=0.20 だった。歴史の地域の崩壊を参照の集合にして、崩壊のうち技術段を失った割合から h の上下を出し、047 の P1（E2×M、既定）の上で重み付きの板の手引きの価値と、そのうち重い崩壊から来る割合を置き直す。同じ参照の集合で崩壊後の遠距離のつながり χ を符号化し、CASC の χ の目安にする（135）。</p>
+<h2 id="_1">参照の集合（選び方を先に固定）</h2>
+<p>Wikipedia の "Societal collapse" 記事が崩壊の例として名前を挙げる社会、Late Bronze Age collapse の主な3地域（ミケーネのギリシア、ヒッタイト、レヴァント）と新王国エジプト、Sub-Roman Britain（西ローマの下位地域、二重計上の感度で外す）、Byzantine Dark Ages、Norse Greenland、Easter Island、Olmec、Tiwanaku、Angkor、Cahokia、Ancestral Puebloans、Akkadian、Old Kingdom→第1中間期、Indus、Classic Maya、西ローマ。計18件。征服者が高い技術を持って来た例（アステカ・インカ）は、外の世界が残らない地球規模の崩壊の類例にならないので外す。</p>
+<h2 id="wikipedia">符号化（本回取得した Wikipedia の本文の引用に基づく。判断は【推測】）</h2>
+<ul>
+<li>L_top：その社会の最上位の段（文字のある社会では文字、ない社会では記念建造物を作る組織）を中心地域で100年以上失った＝1、一部の地域・部分的＝0.5、保った＝0。</li>
+<li>L_multi：専門職の要る技術を2つ以上失い、物の水準が前の段に戻った＝1、部分的＝0.5、なし＝0。</li>
+<li>χ：崩壊後の遠距離の交易・接触。続いた＝1、減った＝0.5、断たれた＝0、本文に記述なし＝不明（χの解析から外す）。</li>
+<li>絶滅（Greenland）は h の分母から外し、別に数える。</li>
+</ul>
+<h2 id="h-4">h の4つの読み</h2>
+<ul>
+<li>V1（甘い）：h = L_top の平均。</li>
+<li>V2：h = L_multi の平均。</li>
+<li>V3（厳しい）：h = L_multi=1 かつ χ=0 の割合。</li>
+<li>V4（深さ）：T3→T0 は3段の落下。参照の集合で金属の段（製鉄・青銅）を失った例の割合（予想 0）。</li>
+<li>各読みに Jeffreys の Beta(0.5+x, 0.5+n−x) を置き、0.5 の符号は Bernoulli(0.5) で 0/1 に振る（seed 20261048、2万回）。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<ul>
+<li>047 の sim.py を「# ---------- C. 固定 M の格子」の手前まで exec し、P1 の閾値で evaluate する。重み付きの値は UNK を h·U1 ＋ (1−h)·U2 にしたもの（平均は h について線形）。線形で出した値を1点で直接の混合と照合する。</li>
+<li>h* は A_Ord で「重い崩壊から来る価値の割合」が 0.5 になる h。</li>
+<li>χ：参照の集合の χ の経験分布から標本ごとに χ を引き、閾値の倍率を M^(1−χ) にした run から CASC だけを差し替える。</li>
+</ul>
+<h2 id="_3">仮説（判定の規則）</h2>
+<ul>
+<li>H60a：V1 の h（点）は 0.10〜0.35。</li>
+<li>H60b：V3 の h の事後平均は 0.10 未満。</li>
+<li>H60c：P1 の上の A_Ord の h* は 0.15〜0.25。</li>
+<li>H60d：V3 の事後平均の h で、A_Ord の重い崩壊から来る価値の割合 &lt; 0.5、かつ重み付きの値が 047 P1 の U3（0.00766）より小さい。</li>
+<li>H60e：χ=0 の例の L_top の平均は χ≥0.5 の例より 0.3 以上高い。</li>
+<li>H60f：歴史の χ 分布で CASC の重い崩壊は 0.25 以下（P1 の 0.313 の 0.8倍）。</li>
+<li>H60g：0.5 を振ったときの V1 の 90% 区間は 0.05〜0.40 の中に入る。</li>
+</ul>
+<h2 id="_4">成果物</h2>
+<p>sim.py、results.json、stdout.txt、図2枚（参照の集合の符号と h の事後分布／h の走査と χ）、report.md、sources/。</p><footer><hr><small>自動生成</small></footer></body></html>
