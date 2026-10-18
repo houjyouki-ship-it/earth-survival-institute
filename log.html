@@ -679,4 +679,21 @@
 <li>判定：H58a・b・c・e・f 支持（b の CASC は境界に近い）、H58d 棄却（最大は N_lens、重い崩壊の割合では N_T2）。</li>
 <li>逸脱：なし。探索（explore.py）は事前登録の外と明記。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は閾値を E2 に改め、閉じた集団の倍率 M を次の主の未知にし、NUC_G がほぼ軽い崩壊という結論は閉じた豪州が T2 を 2,000万人未満で保てるという仮定つきと明記する。手引きの作り手は、重い崩壊向けの製鉄の節を一貫製鉄所でなく数人で回せる小さな炉に向ける価値がある）。</li>
+</ul>
+<h2 id="47-2026-10-18">第47回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038〜046 を <code>/tmp/rep047/</code> に複製し、046 の sim.py（約45秒、中で 045・044・042・040・039・038 を実行）を再実行した。results.json は runtime 以外一致（葉 562個、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 133（閉じた集団の倍率 M）＋120（つながった集団の定義）を主課題にした。</li>
+<li>文献・データ（本回開いて確認、Wikipedia を MediaWiki API で取得）：Aboriginal Tasmanians（約8,000年孤立、3,000〜15,000人、約4,000年前に魚と骨の道具が消えたが意味は議論中）、Sakoku（必要な輸入品はオランダと琉球の仲介で入手）、Dejima（1715年からオランダ船は年2隻）、Rhodesia（制裁下で工業生産が伸びたが制裁は漏れ、南アフリカの後ろ盾）、Economy of North Korea（部品と油が買えず工場が止まる、資本ストックは修理ほぼ不可能、最大の貿易相手は中国）、Tredegar Iron Works（南部連合の大砲の約半分、1861年夏に金属不足で1か月生産0）、Confederate States of America（農具と機械の価値 1860→1870年 −40%）、José Gaspar Rodríguez de Francia（対外貿易を禁じたが完全には閉じず）。sources/excerpts.json（引用19件すべて本文と一致）。Union blockade・Juche・Economy of Albania・Economy of Paraguay・Pitcairn Islands・Nuclear winter・Economy of Australia・Tasmania・Telescope・Microscope・Demographics of Paraguay も取得したが引用には使っていない。</li>
+<li>研究047を実施：<code>research/047-closed-group-multiplier/</code>（sim.py 約43秒 seed 20261047、計算のみ）。成果物は results.json、stdout.txt、fig_M_prior_cases.png、fig_grid_connectivity.png、report.md、PREREGISTRATION.md（16:47Z、初回実行前）、sources/。M=1 で 046 の E2 を誤差0で再現。<code>/tmp/rep047b/</code> で再実行し results.json は runtime 以外一致（葉 490個、差分0）。</li>
+<li>方法：E2 の閾値に段ごとの倍率 M を掛けた。M = max(1,K)、K は Kline &amp; Boyd 表1 の接触の効果の bootstrap（点 2.59、5/50/95% 0.65／2.74／10.4）。P1（主）は Iceland（8万人）と江戸の日本（3,000万人）で M·N を頭打ち。P0（切らない）、P2（深さの重み 0.5/1/1.5乗）、P3（K の2乗）。固定 M の格子 1〜30。つながり χ で閾値の倍率を M^(1−χ) に。</li>
+<li>主要数値：</li>
+<li>P1：重み付き A_Ord・U3 <strong>0.00766</strong>（E2 の 0.951倍）、うち重い崩壊から 0.00499（E2 0.00489、ほぼ不変）、U3 の TAB 0.0283、CASC の重い崩壊 0.131→<strong>0.313</strong>、NUC_G <strong>0.025</strong>、n* 5,820人。</li>
+<li>P3：重み付き 0.00724（0.90倍）、NUC_G <strong>0.219</strong>、CASC 0.460。P2：0.00747、NUC_G 0.093。</li>
+<li>NUC_G の重い崩壊が 0.05 を超える固定 M は <strong>10.1</strong>（0.20 は 14.0）。T2 だけに掛けても同じ。最大の集団（1,520万／2,350万／4,650万人）が E2 の閾値を下回るのに要る M は 10.1／22.8／53.8。P1 で M_T2 ≥ 10.1 は 5.3%。</li>
+<li>χ：0.25 で NUC_G 0.0003、0.5 で CASC 0.221・重み付き 0.00788。P3・χ=0.5 で NUC_G 0.000。</li>
+<li>例の上限での切り詰めの効きは 0.05%。</li>
+<li>判定：H59a・b・c・d・e・g 支持（c は 10.06 で境界）、H59f 棄却（0.706倍で境界）。</li>
+<li>逸脱：事前登録の χ の近似（nmax を倍にする）は事前登録した確認（χ=1 で E2 に戻る）で −8.3% ずれたので、閾値の倍率を直接 M^(1−χ) にする方法に替えた（χ=1 で E2 と誤差0）。近似版の結果は results.json に記録として残した。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は閾値の既定を E2×M（P1）に改め、「NUC_G はほぼ軽い崩壊」は閉じた罰が K の2乗以下か集団どうしが少しでもつながる条件つきと書き、閾値の線は打ち切って 117・122 に移る。金庫・手引きの作り手は、重い崩壊を減らす手として、追加の技術の知識より生き残った集団どうしの連絡と交易の手段を重く見る価値がある）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

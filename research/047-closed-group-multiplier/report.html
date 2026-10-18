@@ -1,0 +1,302 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究047：閉じた集団の倍率 M と、生き残った集団どうしのつながり（open_problems 133＋120） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="047-m-open_problems-133120">研究047：閉じた集団の倍率 M と、生き残った集団どうしのつながり（open_problems 133＋120）</h1>
+<h2 id="_1">問い</h2>
+<p>046 で技術段の閾値の根拠にした例は、どれも交易で道具・職人・資本を入れられた開いた社会だった。崩壊後の閉じた集団に移すときの倍率 M を、閉じたか、ほぼ閉じた社会の例と Kline &amp; Boyd の接触の効果から段ごとに置くと、重い崩壊の割合（特に「全面核戦争で閉じた豪州が T2 を保てるか」）、重い崩壊1件あたりの板の手引きの価値、重み付きの価値、n* はどれだけ動くか。生き残った集団どうしがつながる程度 χ でどれだけ戻るか。</p>
+<h2 id="sourcesexcerptsjson-19">確認した事実（本回開いて確認。<code>sources/excerpts.json</code> の引用19件はすべて取得した本文と一致）</h2>
+<table>
+<thead>
+<tr>
+<th>社会</th>
+<th>閉じ方</th>
+<th>保ったもの・失ったもの</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tasmania（3,000〜15,000人）</td>
+<td>約8,000年、本土から完全に孤立</td>
+<td>約4,000年前に魚を食べなくなり、骨の道具も消えた。ただし意味は激しく議論され、草原の拡大による経済的な選択という説もある</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Aboriginal_Tasmanians">Aboriginal Tasmanians</a>）】</td>
+</tr>
+<tr>
+<td>江戸の日本（約3,000万）</td>
+<td>1715年からオランダ船は年2隻（1790年に1隻、1799年に2隻に戻る）。必要な輸入品はオランダと琉球の仲介で入手</td>
+<td>望遠鏡づくりが4代続いた（046 で確認）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Dejima">Dejima</a>、<a href="https://en.wikipedia.org/wiki/Sakoku">Sakoku</a>）】</td>
+</tr>
+<tr>
+<td>Rhodesia（1965〜79年の制裁）</td>
+<td>漏れの多い制裁（南アフリカは守らず、Portugal が偽の原産地証明で輸出）</td>
+<td>国内生産を優遇した後、工業生産は大きく伸びた。成功は熟練労働者の移民と南アフリカの後ろ盾に負う</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Rhodesia">Rhodesia</a>）】</td>
+</tr>
+<tr>
+<td>North Korea</td>
+<td>自給を掲げるが、最大の貿易相手は中国</td>
+<td>外貨がなく部品と発電用の油を買えず、多くの工場が止まった。工業の資本ストックは修理がほぼ不可能</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Economy_of_North_Korea">Economy of North Korea</a>）】</td>
+</tr>
+<tr>
+<td>南部連合（1861〜65年）</td>
+<td>海上封鎖（漏れあり）</td>
+<td>Tredegar が大砲の約半分を供給したが、1861年夏には金属不足で1か月大砲を1門も作れなかった。農具と機械の価値は 1860→1870年に 40% 減り、新しい道具はほとんど手に入らず修理も難しかった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Tredegar_Iron_Works">Tredegar Iron Works</a>、<a href="https://en.wikipedia.org/wiki/Confederate_States_of_America">Confederate States of America</a>）】</td>
+</tr>
+<tr>
+<td>Paraguay（Francia、1814〜40年）</td>
+<td>対外貿易を禁じ、国内の産業を育てた</td>
+<td>ただし完全には閉じていなかった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Jos%C3%A9_Gaspar_Rodr%C3%ADguez_de_Francia">José Gaspar Rodríguez de Francia</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>【推測】閉じた社会で失われたと記録されているのは、千〜1万人規模での道具（Tasmania、ただし議論あり）か、数百万〜数千万人規模での<strong>工業の機械と部品</strong>（North Korea、南部連合）で、数百万人以上の社会がガラスやレンズのような T1〜T2 の技術を失った例は今回の資料には見つからなかった。また 10⁵〜10⁷ 人の「閉じた」例はどれも漏れがあり、完全に閉じた集団の閾値を直接測った例はない。</p>
+<h2 id="simpy43">方法（<code>sim.py</code>、約43秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T16:47Z、初回実行前）。</li>
+<li>046 の sim.py を exec し（中で 045・044・042・040・039・038 を exec）、E2 の閾値（N_Fe logU(2,500,5万)、N_lens logU(1万,100万)、N_T2 logU(50万,215万)）に段ごとの倍率を掛けた。</li>
+<li>K：Kline &amp; Boyd 表1 の10社会で log(道具の数) を log(人口) と接触の多さで回帰し、「接触の多い社会が同じ道具の数を持つ人口の倍率」exp(c/b) を bootstrap（20,000回、seed 20261047）。標本ごとに1つ引き、M = max(1, K)【推測】。</li>
+<li>事前の4版：P0（切らない）、<strong>P1（主）</strong>：Iceland（8万人で鉄を自給）と江戸の日本（3,000万人で望遠鏡）で M·N を頭打ち、P2：深さの重み（Fe 0.5乗・lens 1乗・T2 1.5乗）、P3：完全に閉じた集団は「接触の少ない社会」よりさらに悪いとして K の2乗。</li>
+<li>固定 M の格子（1〜30、3段とも同じ）と、T2 だけに掛けた格子。</li>
+<li>つながり χ：閾値の倍率を M^(1−χ) にした（全シナリオ共通）。</li>
+<li>確認：M=1 で 046 の E2（U3 の TAB 0.030527、重み付き A_Ord・U3 0.0080478、n* 5,724人）を<strong>誤差0で再現</strong>。χ=1 も E2 と誤差0。</li>
+<li>再現：<code>/tmp/rep047/</code> で 046 を再実行し results.json は runtime 以外一致（葉 562個、差分0）。本研究の sim.py も <code>/tmp/rep047b/</code> で再実行し一致（葉 490個、差分0）。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<h3 id="a">A：倍率の分布</h3>
+<ul>
+<li>【計算】K の点推定 2.59、bootstrap の 5/25/50/75/95/99% は 0.65／1.61／2.74／4.59／10.4／88.5、K&lt;1 は 11%。</li>
+<li>【計算】P1 の M_T2 は 5/50/95% で 1.0／2.76／10.6（江戸の上限で切られる標本 2.3%）、M_Fe は Iceland の上限で 22% が切られ中央値 2.38。P3 の M_T2 は 1.0／7.6／36.6。</li>
+</ul>
+<h3 id="b">B：事前の版ごとの結果</h3>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>重み付き A_Ord・U3</th>
+<th>うち重い崩壊から</th>
+<th>U3 の重い崩壊1件あたり TAB</th>
+<th>CASC の重い崩壊</th>
+<th>NUC_G の重い崩壊</th>
+<th>U3 の重い崩壊</th>
+<th>A_XPT_S・U2</th>
+<th>n*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E2（046、開いた例のまま）</td>
+<td>0.00805</td>
+<td>0.00489</td>
+<td>0.0305</td>
+<td>0.131</td>
+<td>0.000</td>
+<td>0.671</td>
+<td>0.01172</td>
+<td>5,724</td>
+</tr>
+<tr>
+<td>P0（切らない）</td>
+<td>0.00766</td>
+<td>0.00500</td>
+<td>0.0281</td>
+<td>0.317</td>
+<td>0.028</td>
+<td>0.719</td>
+<td>0.01193</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>P1（主）</strong></td>
+<td><strong>0.00766</strong>（0.951倍）</td>
+<td>0.00499</td>
+<td><strong>0.0283</strong></td>
+<td><strong>0.313</strong></td>
+<td><strong>0.025</strong></td>
+<td>0.718</td>
+<td>0.01191</td>
+<td><strong>5,820</strong></td>
+</tr>
+<tr>
+<td>P2（深さの重み）</td>
+<td>0.00747</td>
+<td>0.00496</td>
+<td>0.0271</td>
+<td>0.393</td>
+<td>0.093</td>
+<td>0.736</td>
+<td>0.01214</td>
+<td>—</td>
+</tr>
+<tr>
+<td>P3（K の2乗）</td>
+<td>0.00724</td>
+<td>0.00487</td>
+<td>0.0258</td>
+<td>0.460</td>
+<td>0.219</td>
+<td>0.751</td>
+<td>0.01244</td>
+<td>—</td>
+</tr>
+<tr>
+<td>- 【計算】P1 は重み付きの価値を −4.9% 動かす。重い崩壊から来る分は 0.00489→0.00499 とほぼ変わらず、減るのは軽い崩壊から来る分（0.00316→0.00267、−16%）である。M はシナリオを軽い崩壊から重い崩壊に移し、重い崩壊1件あたりの価値が低い（−7%）ので、合計が少し下がる。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 【計算】例の上限での切り詰め（P0 と P1 の差）は 0.05% しか効かない。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="c-m-fig_grid_connectivitypng">C：固定 M の格子と閉じた豪州（図 <code>fig_grid_connectivity.png</code> 左）</h3>
+<ul>
+<li>【計算】NUC_G の重い崩壊は M=7 で 0.001、M=10 で 0.047、15 で 0.23、20 で 0.41、30 で 0.69。0.05 を超えるのは <strong>M≈10.1</strong>、0.20 は 14.0。T2 だけに掛けても同じ（10.1）で、分かれ目は T2 の閾値だけで決まる。</li>
+<li>【計算】NUC_G の最大の集団（豪州か次の大国）は 5/50/95% で 1,520万／2,350万／4,650万人。E2 の閾値を超えなくなるのに要る M は 10.1／22.8／53.8。P1 で M_T2 ≥ 10.1 の確率は 5.3%。</li>
+<li>【計算】CASC の重い崩壊は M でほぼ対数に比例して増える（M=1 0.13、3 0.32、10 0.53、30 0.72）。重み付きの価値は M=10 で 0.00707（−12%）、30 で 0.00651（−19%）。</li>
+</ul>
+<h3 id="d-120">D：つながり χ（120、図右）</h3>
+<table>
+<thead>
+<tr>
+<th>χ</th>
+<th>重み付き A_Ord・U3</th>
+<th>CASC の重い崩壊</th>
+<th>NUC_G の重い崩壊</th>
+<th>U3 の TAB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0（P1）</td>
+<td>0.00766</td>
+<td>0.313</td>
+<td>0.025</td>
+<td>0.0283</td>
+</tr>
+<tr>
+<td>0.25</td>
+<td>0.00777</td>
+<td>0.267</td>
+<td>0.0003</td>
+<td>0.0290</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td>0.00788</td>
+<td>0.221</td>
+<td>0.000</td>
+<td>0.0296</td>
+</tr>
+<tr>
+<td>0.75</td>
+<td>0.00798</td>
+<td>0.175</td>
+<td>0.000</td>
+<td>0.0301</td>
+</tr>
+<tr>
+<td>1（E2）</td>
+<td>0.00805</td>
+<td>0.131</td>
+<td>0.000</td>
+<td>0.0305</td>
+</tr>
+<tr>
+<td>P3・χ=0.5</td>
+<td>0.00771</td>
+<td>0.295</td>
+<td>0.000</td>
+<td>0.0286</td>
+</tr>
+<tr>
+<td>- 【計算】生き残った集団が倍率の4分の1でもつながりを保てば（χ=0.25）、NUC_G の重い崩壊はほぼ消える。P3（K の2乗）でも χ=0.5 で 0.22→0.000。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H59a：P1 の重み付き A_Ord・U3 は E2 の 0.94〜1.00倍</td>
+<td>0.951倍</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H59b：P1 で NUC_G の重い崩壊 &lt; 0.05</td>
+<td>0.025</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H59c：NUC_G が 0.05 を超える固定 M ≥ 10</td>
+<td>10.06</td>
+<td><strong>支持</strong>（境界）</td>
+</tr>
+<tr>
+<td>H59d：切り詰めの効き &lt; 1%</td>
+<td>0.05%</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H59e：P2 と P1 の差 &lt; 5%</td>
+<td>2.5%</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H59f：χ=0.5 で CASC の重い崩壊は χ=0 の 0.7倍以下</td>
+<td>0.706倍</td>
+<td><strong>棄却</strong>（境界）</td>
+</tr>
+<tr>
+<td>H59g：P1 の n* は E2 の ±10% 以内</td>
+<td>5,820人（1.017倍）</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">逸脱</h2>
+<ul>
+<li>事前登録の χ の近似（nmax を max(1,K)^χ 倍）は、事前登録した確認（χ=1・切り詰めなしで E2 に戻る）で −8.3% ずれた。nmax を動かすと、M を掛けていない N_3f・N_3 やペストの N_c との比較まで動くためである。閾値の倍率を直接 M^(1−χ) にする方法に替え、χ=1 で E2 と誤差0になることを確かめた。近似版の結果は <code>D_connectivity_prereg_approx</code> に記録として残した（近似版では H59f は 0.696倍で支持だったが、使っていない）。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li><strong>K は「接触の少ない社会と多い社会」の差で、「接触なしと接触あり」ではない</strong>。K&amp;B の「少ない」社会も外とつながっている。完全に閉じた集団の M は K より大きい可能性があり、P3（K の2乗）はその上側の目安にすぎない。P1 と P3 の差（NUC_G 0.025 と 0.219、重み付き −5%）が本回の最大の未知として残る。</li>
+<li><strong>10社会・海の道具だけからの外挿</strong>。K の bootstrap の 99% 点は 88 で、尾は回帰の傾き b が小さい標本から来る。P1 では江戸の上限がこの尾を切るが、効くのは 2.3% の標本だけ。</li>
+<li><strong>江戸の上限は甘い可能性</strong>。望遠鏡は輸入品を調べて作り始めたもので、レンズのガラスの出どころは確かめていない。年2隻の船は「必要な輸入品」を運んでいた。一方で、望遠鏡が作れれば T2 の読取（Leeuwenhoek 級の顕微鏡＋人手、018）に要るレンズは作れると考えるのが自然【推測】。</li>
+<li><strong>χ は全シナリオ共通の一つの数として置いた</strong>。核戦争の南半球（豪州、New Zealand、南米）と、社会が割れる CASC では違うはずだが、根拠のある値はない。χ の効きは「つながりが倍率をどれだけ打ち消すか」という置き方そのものに乗っている。</li>
+<li><strong>失われた例は工業の機械</strong>（North Korea、南部連合）で、T3 の脆さ（N_3f）に関わる。本回は N_3f・N_3 に M を掛けていない。閉じた豪州が T3 から T2 に落ちる確率（脆い T3、032 からの仮定）は別の問題として残る。</li>
+</ul>
+<h2 id="_6">結論</h2>
+<p>閉じた集団の倍率を Kline &amp; Boyd の接触の効果（中央値 2.7倍）で置き、江戸の日本と Iceland で頭打ちにすると、重み付きの金庫の価値は開いた例のまま（046 の E2）より 4.9% 下がり、CASC の重い崩壊は 0.13→0.31 に増えるが、重い崩壊から来る価値はほぼ変わらない。全面核戦争で豪州などの最大の集団が T2 を失うには M が 10 倍を超える必要があり、主の事前ではその確率は 5%、重い崩壊は 2.5% にとどまる。M を K の2乗まで悲観にすると 22% に増えるが、生き残った集団が倍率の4分の1〜半分でもつながりを保てばほぼ 0 に戻る。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：技術段の閾値の既定を「E2 × M（P1：max(1,K)、Iceland と江戸で頭打ち）」に改め、「NUC_G はほぼ軽い崩壊」という結論は「閉じた集団の罰が K の2乗以下か、生き残った集団どうしが少しでもつながる」という条件つきと書く。重い崩壊から来る価値は閾値と M の置き方でほぼ動かない（046・047 で 0.00487〜0.00503）ので、閾値の線はここで打ち切り、次は費用（122）か未知のリスクの再出発の深さ（117）に移る。</li>
+<li><strong>金庫・手引きの作り手と、南半球の備えを考える人（GitHub Archive Program、Piql など）</strong>【推測】：重い崩壊を減らす手としては、追加の技術の知識より「生き残った集団どうしが連絡と交易を保つ手段」（航海・無線・共通の手引きの写しを複数の地域に置く）の方が、NUC_G と CASC の重い崩壊を直接減らす。χ=0.5 で CASC の重い崩壊は 0.31→0.22 になる。</li>
+</ul>
+<h2 id="_8">新規性</h2>
+<p>Kline &amp; Boyd は接触が道具の数を増やすことを示し、Tasmania の道具の喪失は孤立の害の例として議論されてきた（Wikipedia の記述では「適応の失敗」説と経済的な選択説が対立）が、どちらも崩壊後の技術段の閾値や知識の金庫の価値には結びつけていない。Ord 2020・XPT も崩壊後の集団のつながりを数値で扱っていない（本研究所のこれまでの読み）。本回は、接触の効果を閉じた集団の閾値の倍率に換算して金庫の価値の模型に流し、全面核戦争で南半球の社会が T2 を失う分かれ目（M≈10）と、それをつながりがどれだけ打ち消すかを数値で示した。</p><footer><hr><small>自動生成</small></footer></body></html>
