@@ -696,4 +696,22 @@
 <li>判定：H59a・b・c・d・e・g 支持（c は 10.06 で境界）、H59f 棄却（0.706倍で境界）。</li>
 <li>逸脱：事前登録の χ の近似（nmax を倍にする）は事前登録した確認（χ=1 で E2 に戻る）で −8.3% ずれたので、閾値の倍率を直接 M^(1−χ) にする方法に替えた（χ=1 で E2 と誤差0）。近似版の結果は results.json に記録として残した。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は閾値の既定を E2×M（P1）に改め、「NUC_G はほぼ軽い崩壊」は閉じた罰が K の2乗以下か集団どうしが少しでもつながる条件つきと書き、閾値の線は打ち切って 117・122 に移る。金庫・手引きの作り手は、重い崩壊を減らす手として、追加の技術の知識より生き残った集団どうしの連絡と交易の手段を重く見る価値がある）。</li>
+</ul>
+<h2 id="48-2026-10-18">第48回 2026-10-18</h2>
+<ul>
+<li>再現チェック：024・032・038〜047 を <code>/tmp/rep048/</code> に複製し、047 の sim.py（約53秒、中で 046・045・044・042・040・039・038 を実行）を再実行した。results.json は runtime 以外一致（葉 491個、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 117（未知の人為リスクの再出発の深さ h）を主課題にし、135（シナリオごとのつながり χ）を同じ回の感度として足した。</li>
+<li>文献・データ（本回開いて確認、Wikipedia を MediaWiki API で取得）：Societal collapse（参照の集合の選び方）、Greek Dark Ages、Linear B、Late Bronze Age collapse、Hittites、Anatolian hieroglyphs、Indus Valley Civilisation、Classic Maya collapse、Fall of the Western Roman Empire、Sub-Roman Britain、Early Middle Ages、Byzantine Dark Ages、Easter Island、Norse settlements in Greenland、Olmecs、Tiwanaku、Angkor、First Intermediate Period of Egypt、Akkadian Empire、Cahokia、Ancestral Puebloans。sources/excerpts.json（引用41件すべて本文と一致）。Indus script・Rongorongo も取得したが引用には使っていない。</li>
+<li>研究048を実施：<code>research/048-unknown-depth-h/</code>（sim.py 約30秒 seed 20261048、計算のみ）。成果物は results.json、stdout.txt、fig_cases_h_posterior.png、fig_hscan_chi.png、report.md、PREREGISTRATION.md（18:44Z、初回実行前）、sources/。047 の P1 の重み付き A_Ord・U3 と A_XPT_S・U2 を誤差0で再現。h の線形の混合は直接の混合と相対誤差 1e-16 で一致。<code>/tmp/rep048b/</code> で再実行し results.json は runtime 以外一致（葉 749個、差分0）。</li>
+<li>方法：事前に決めた規則で歴史の崩壊18件（生存17、絶滅1）を L_top（最上位の段の喪失）・L_multi（2つ以上の技術の喪失）・χ（崩壊後の遠距離の交易）で符号化（【推測】）。h の4つの読み V1〜V4 に Jeffreys の Beta 事後。047 の P1 の上で UNK を h·U1＋(1−h)·U2 にした。χ は経験分布から標本ごとに引き、閾値の倍率を M^(1−χ) にして CASC を差し替えた。</li>
+<li>主要数値：</li>
+<li>金属の段を失った例は <strong>0件</strong>。最上位の段の喪失は Mycenae・Indus（各1）、Hittite・南部マヤ・Easter Island（各0.5）。</li>
+<li>h（事後平均）：V1 <strong>0.222</strong>（点 0.206）、V2 0.195、V3 <strong>0.082</strong>、V4 <strong>0.028</strong>。</li>
+<li>h*（A_Ord）：P1 <strong>0.097</strong>、E2 0.149、039 0.20。A_XPT_S は h=1 でも過半にならない。</li>
+<li>重み付き A_Ord（板の手引き）：V1 0.00564〜V4 0.00434（P1 の U3 0.00766 の <strong>0.57〜0.74倍</strong>）、重い崩壊からの割合 0.44〜0.58、P(h&gt;h*) 0.06〜0.89。重い崩壊の確率は U3 の 0.167 から 0.054〜0.085。A_XPT_S は 0.96〜0.98倍。</li>
+<li>χ：既知の平均 0.46。CASC の重い崩壊 0.313→<strong>0.229</strong>、重み付き A_Ord・U3 は −0.01%（全シナリオなら +2.6%、NUC_G 0.025→0.006）。</li>
+<li>孤立した例（χ=0、2件）の L_top 0.75、χ≥0.5 の10件 0.20（並べ替え検定 p=0.11）。</li>
+<li>判定：H60a・b・d・e・f・g 支持（d は境界、e は2件の比較）、H60c 棄却（h* は 0.097 で 039 の半分）。</li>
+<li>逸脱：初回実行は図の描画で止まった（047 の名前空間に無い値を参照）。同じ値を本回の run から読むよう1行直して再実行。数値の計算はその前に終わっていた。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は A_Ord の主の値を U3 でなく歴史の h で置いた値にし、U3 は上側の感度に回す。重い崩壊の優先は「1段の喪失を T0 と数える」条件つき。金庫・手引きの作り手は、重い崩壊向けの予算を手引きの中身より写しを離れた地域に散らす方へ寄せる価値がある）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
