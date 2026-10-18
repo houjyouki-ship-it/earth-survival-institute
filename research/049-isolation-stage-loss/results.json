@@ -1,0 +1,788 @@
+{
+ "study": "049-isolation-stage-loss",
+ "seed": 20261049,
+ "n_excerpts_verified": 45,
+ "A_cases": [
+  {
+   "name": "Tasmania",
+   "group": "iso",
+   "L": 0.5,
+   "env": 0,
+   "N": [
+    3000,
+    15000
+   ],
+   "T_iso": 8000,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians",
+    "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians",
+    "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians",
+    "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians",
+    "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians"
+   ],
+   "note": "bone tools and scaled fish dropped ~4,000 yr ago; significance debated (economic alternative)"
+  },
+  {
+   "name": "Moriori (Chatham)",
+   "group": "iso",
+   "L": 1.0,
+   "env": 1,
+   "N": [
+    1600,
+    2000
+   ],
+   "T_iso": 340,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Moriori",
+    "https://en.wikipedia.org/wiki/Moriori",
+    "https://en.wikipedia.org/wiki/Moriori",
+    "https://en.wikipedia.org/wiki/Moriori",
+    "https://en.wikipedia.org/wiki/Chatham_Islands"
+   ],
+   "note": "crops unsuitable -> hunter-gatherer; no trees for ocean-going craft; invented waka korari"
+  },
+  {
+   "name": "Inughuit (Polar Inuit)",
+   "group": "iso",
+   "L": 1.0,
+   "env": 0,
+   "N": [
+    100,
+    200
+   ],
+   "T_iso": 170,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Inughuit",
+    "https://en.wikipedia.org/wiki/Inughuit",
+    "https://en.wikipedia.org/wiki/Inughuit",
+    "https://en.wikipedia.org/wiki/Inughuit",
+    "https://en.wikipedia.org/wiki/Inughuit"
+   ],
+   "note": "cut off ~17th c. by cooling; lost kayak/umiak, bows, leisters; reintroduced by Baffin Inuit"
+  },
+  {
+   "name": "Easter Island",
+   "group": "iso",
+   "L": 0.5,
+   "env": 0,
+   "N": [
+    2000,
+    3000
+   ],
+   "T_iso": 570,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Easter_Island",
+    "https://en.wikipedia.org/wiki/Easter_Island"
+   ],
+   "note": "048 coding (L_top 0.5); colonised 12th c., 2,000-3,000 in 1722"
+  },
+  {
+   "name": "Hawaii (pre-1778)",
+   "group": "iso",
+   "L": 0.0,
+   "env": 0,
+   "N": [
+    300000,
+    300000
+   ],
+   "T_iso": 578,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hawaii",
+    "https://en.wikipedia.org/wiki/Hawaii",
+    "https://en.wikipedia.org/wiki/Hawaii"
+   ],
+   "note": "steady growth of population and chiefdoms; ~300,000 in 1770s"
+  },
+  {
+   "name": "Maori (pre-1769)",
+   "group": "iso",
+   "L": 0.0,
+   "env": 0,
+   "N": [
+    100000,
+    110000
+   ],
+   "T_iso": 419,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Māori_people",
+    "https://en.wikipedia.org/wiki/Māori_people",
+    "https://en.wikipedia.org/wiki/Māori_people"
+   ],
+   "note": "several centuries in isolation; Classic period carved war canoes"
+  },
+  {
+   "name": "Andamanese",
+   "group": "iso",
+   "L": 0.0,
+   "env": 0,
+   "N": [
+    7000,
+    7000
+   ],
+   "T_iso": 3000,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Andamanese_peoples",
+    "https://en.wikipedia.org/wiki/Andamanese_peoples",
+    "https://en.wikipedia.org/wiki/Andamanese_peoples"
+   ],
+   "note": "isolation thousands of years; no fire-making in 19th c. (not stated as lost)"
+  },
+  {
+   "name": "Sentinelese",
+   "group": "iso",
+   "L": 0.0,
+   "env": 0,
+   "N": [
+    80,
+    100
+   ],
+   "T_iso": 3000,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sentinelese",
+    "https://en.wikipedia.org/wiki/Sentinelese"
+   ],
+   "note": "bows and arrows kept; censuses 82/100/98"
+  },
+  {
+   "name": "Guanches",
+   "group": "iso",
+   "L": 0.0,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 1,
+   "after": 1,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Guanches",
+    "https://en.wikipedia.org/wiki/Guanches"
+   ],
+   "note": "relative isolation, sporadic contacts; no loss stated in text"
+  },
+  {
+   "name": "Henderson (Polynesian)",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": 600,
+   "exo": 0.5,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pitcairn_Islands",
+    "https://en.wikipedia.org/wiki/Henderson_Island_(Pitcairn_Islands)"
+   ],
+   "note": "abandoned by 1600s; may relate to resource exhaustion and Pitcairn"
+  },
+  {
+   "name": "Pitcairn (Polynesian)",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 0.5,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pitcairn_Islands"
+   ],
+   "note": "abandoned 17th or early 18th c."
+  },
+  {
+   "name": "Norfolk (Polynesian)",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 1,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norfolk_Island"
+   ],
+   "note": "relative isolation and poor horticultural environment"
+  },
+  {
+   "name": "Raoul (Polynesian)",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 1,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Raoul_Island"
+   ],
+   "note": "occupation relatively brief"
+  },
+  {
+   "name": "Nihoa",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 1,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Nīhoa"
+   ],
+   "note": "abandonment may be tied to deforestation"
+  },
+  {
+   "name": "Kangaroo Island",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 1,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kangaroo_Island"
+   ],
+   "note": "disappeared after island formation"
+  },
+  {
+   "name": "Flinders Island",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 1,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Flinders_Island"
+   ],
+   "note": "until ~4,500 yr ago; thirst and hunger after El Nino shift"
+  },
+  {
+   "name": "King Island / Furneaux",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 1,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians"
+   ],
+   "note": "stranded by rising waters and later died out"
+  },
+  {
+   "name": "Norse Greenland",
+   "group": "ended",
+   "L": null,
+   "env": 0,
+   "N": [
+    2000,
+    10000
+   ],
+   "T_iso": 450,
+   "exo": 1,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland"
+   ],
+   "note": "048: trade dried up, abandoned"
+  },
+  {
+   "name": "Tikopia",
+   "group": "control",
+   "L": 0.0,
+   "env": 0,
+   "N": [
+    1000,
+    1200
+   ],
+   "T_iso": null,
+   "exo": null,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Tikopia",
+    "https://en.wikipedia.org/wiki/Tikopia"
+   ],
+   "note": "frequent canoe voyaging; small but connected"
+  },
+  {
+   "name": "Mangareva",
+   "group": "endo",
+   "L": 0.0,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": 0,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Mangareva",
+    "https://en.wikipedia.org/wiki/Mangareva"
+   ],
+   "note": "deforestation -> economy collapse; tech loss not stated"
+  },
+  {
+   "name": "Dorset",
+   "group": "unk",
+   "L": 1.0,
+   "env": 0,
+   "N": null,
+   "T_iso": null,
+   "exo": null,
+   "after": null,
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Dorset_culture",
+    "https://en.wikipedia.org/wiki/Dorset_culture"
+   ],
+   "note": "lost bow and drill; isolation not stated"
+  }
+ ],
+ "A_counts": {
+  "n_iso_surv": 9,
+  "n_ended": 9,
+  "n_control": 1,
+  "L_iso_point": 0.3333333333333333,
+  "ended_share_of_isolated": 0.5
+ },
+ "A_posteriors": {
+  "iso": {
+   "n": 9,
+   "point": 0.3333333333333333,
+   "post_mean": 0.35075210153563774,
+   "post_q05_50_95": [
+    0.10896255061628189,
+    0.33946520119474144,
+    0.6371391250482388
+   ]
+  },
+  "iso_plus_Mycenae": {
+   "n": 10,
+   "point": 0.4,
+   "post_mean": 0.4080247163482545,
+   "post_q05_50_95": [
+    0.16307034098723228,
+    0.40239044482789554,
+    0.6731486771270476
+   ]
+  },
+  "iso_env_as_0": {
+   "n": 9,
+   "point": 0.2222222222222222,
+   "post_mean": 0.25004216599531226,
+   "post_q05_50_95": [
+    0.04745213910655038,
+    0.23005105434787648,
+    0.5238908439529317
+   ]
+  },
+  "iso_Andaman_0.5": {
+   "n": 9,
+   "point": 0.3888888888888889,
+   "post_mean": 0.400417121699199,
+   "post_q05_50_95": [
+    0.13781683587755567,
+    0.3920725694805561,
+    0.6923983472156007
+   ]
+  },
+  "conn_048_chi_ge_half": {
+   "n": 10,
+   "point": 0.2,
+   "post_mean": 0.226826529980138,
+   "post_q05_50_95": [
+    0.04272847652736434,
+    0.20731267100114786,
+    0.4802986571522071
+   ]
+  }
+ },
+ "D_reverse_causality": {
+  "n_iso_with_loss": 4,
+  "exo_and_after": 4,
+  "share": 1.0,
+  "env_attributed": [
+   "Moriori (Chatham)"
+  ]
+ },
+ "B_regression": {
+  "main": {
+   "P_b_lt_0": 0.9,
+   "b_q05_50_95": [
+    -2.5500000000000194,
+    -0.950000000000025,
+    0.24999999999997158
+   ],
+   "pred_mean": {
+    "1e+02": 0.6655403529307399,
+    "1e+03": 0.49690011472466644,
+    "1e+04": 0.3062309735723803,
+    "1e+05": 0.19523973803034847,
+    "1e+06": 0.14571188172602065,
+    "1e+07": 0.12284273986488864
+   },
+   "pred_q95": {
+    "1e+02": 0.9770226300899747,
+    "1e+03": 0.8519528019683098,
+    "1e+04": 0.6456563062257885,
+    "1e+05": 0.5621765008857841,
+    "1e+06": 0.5986876601124312,
+    "1e+07": 0.6341355910107739
+   }
+  },
+  "env_as_0": {
+   "P_b_lt_0": 0.85975,
+   "b_q05_50_95": [
+    -2.5500000000000194,
+    -0.8500000000000254,
+    0.40249999999995656
+   ],
+   "pred_mean": {
+    "1e+02": 0.5037716880956422,
+    "1e+03": 0.32679156328059084,
+    "1e+04": 0.194374329950669,
+    "1e+05": 0.137511382802556,
+    "1e+06": 0.11730324132925478,
+    "1e+07": 0.1111335006362796
+   },
+   "pred_q95": {
+    "1e+02": 0.9308615796566544,
+    "1e+03": 0.6899744811276118,
+    "1e+04": 0.5124973964842034,
+    "1e+05": 0.47502081252104594,
+    "1e+06": 0.5498339973124562,
+    "1e+07": 0.6341355910107739
+   }
+  },
+  "Andaman_0.5": {
+   "P_b_lt_0": 0.89125,
+   "b_q05_50_95": [
+    -2.40000000000002,
+    -0.8500000000000254,
+    0.34999999999996945
+   ],
+   "pred_mean": {
+    "1e+02": 0.6847957417529945,
+    "1e+03": 0.5400413938374782,
+    "1e+04": 0.36149622774685664,
+    "1e+05": 0.24269093697351218,
+    "1e+06": 0.18432435841670936,
+    "1e+07": 0.15590516162713003
+   },
+   "pred_q95": {
+    "1e+02": 0.9801596942659228,
+    "1e+03": 0.8807970779778816,
+    "1e+04": 0.7211151780228565,
+    "1e+05": 0.67917869917538,
+    "1e+06": 0.7010862604815032,
+    "1e+07": 0.7412491595027776
+   }
+  },
+  "with_T": {
+   "P_b_lt_0": 0.89,
+   "b_q05_50_95": [
+    -2.599999999999997,
+    -0.9999999999999956,
+    0.2000000000000055
+   ],
+   "pred_mean": {
+    "1e+02": 0.6654496143679741,
+    "1e+03": 0.4889446253475438,
+    "1e+04": 0.2905051274492076,
+    "1e+05": 0.17488607572213266,
+    "1e+06": 0.125155953200173,
+    "1e+07": 0.1034585979071923
+   },
+   "pred_q95": {
+    "1e+02": 0.9820137900379085,
+    "1e+03": 0.8581489350995124,
+    "1e+04": 0.6456563062257968,
+    "1e+05": 0.5498339973124806,
+    "1e+06": 0.549833997312482,
+    "1e+07": 0.5986876601124571
+   },
+   "P_c_gt_0": 0.18675
+  }
+ },
+ "check_048": {
+  "w_AOrd_U3": 0.007655693753364379,
+  "ref_047_P1": 0.007655693753364379,
+  "h_star": 0.09668949822886906,
+  "ref_048_h_star": 0.09668949822886906,
+  "reproduced": true
+ },
+ "E_iso_on_model": {
+  "U3": {
+   "nmax_q05_50_95": [
+    1.0,
+    7750.895438986915,
+    105465890.19395597
+   ],
+   "E_P_loss_mean": 0.3993615658444629,
+   "E_P_loss_q05_95": [
+    0.1904245723300896,
+    0.5978898055183678
+   ]
+  },
+  "CASC": {
+   "nmax_q05_50_95": [
+    622586.4828222396,
+    8656397.313312788,
+    126542599.76357391
+   ],
+   "E_P_loss_mean": 0.12710426876589845,
+   "E_P_loss_q05_95": [
+    0.00020944020379199847,
+    0.6295755144772515
+   ]
+  },
+  "BIO": {
+   "nmax_q05_50_95": [
+    6825.694809474338,
+    651597736.0844511,
+    4272818333.873631
+   ],
+   "E_P_loss_mean": 0.13320783690740517,
+   "E_P_loss_q05_95": [
+    0.014493459592226962,
+    0.6909572843649953
+   ]
+  },
+  "U3_env_as_0": {
+   "E_P_loss_mean": 0.3063184347009434
+  },
+  "U3_Andaman_0.5": {
+   "E_P_loss_mean": 0.4319927069992188
+  }
+ },
+ "E_h_by_s": {
+  "size_aware_s0.0": {
+   "h_mean": 0.22761408928960397,
+   "h_q05_95": [
+    0.040178771466098655,
+    0.48384387178979804
+   ],
+   "P_h_gt_hstar": 0.82275,
+   "w_AOrd": 0.005673025879016951,
+   "share_from_heavy": 0.586180379243308,
+   "ratio_to_U3": 0.7410204825034801,
+   "w_AXPTS": 0.012202543296258589
+  },
+  "naive_s0.0": {
+   "h_mean": 0.22761408928960397,
+   "h_q05_95": [
+    0.040178771466098655,
+    0.48384387178979804
+   ],
+   "P_h_gt_hstar": 0.82275,
+   "w_AOrd": 0.005673025879016951,
+   "share_from_heavy": 0.586180379243308,
+   "ratio_to_U3": 0.7410204825034801,
+   "w_AXPTS": 0.012202543296258589
+  },
+  "size_aware_s0.25": {
+   "h_mean": 0.2705509584283187,
+   "h_q05_95": [
+    0.12034340309119615,
+    0.46845229240362146
+   ],
+   "P_h_gt_hstar": 0.98125,
+   "w_AOrd": 0.005958159953003639,
+   "share_from_heavy": 0.6089665257473227,
+   "ratio_to_U3": 0.7782651899294247,
+   "w_AXPTS": 0.012256971121299098
+  },
+  "naive_s0.25": {
+   "h_mean": 0.2589184038380322,
+   "h_q05_95": [
+    0.10044559872515628,
+    0.4647599872694215
+   ],
+   "P_h_gt_hstar": 0.955,
+   "w_AOrd": 0.005880910778861824,
+   "share_from_heavy": 0.6030114706325795,
+   "ratio_to_U3": 0.7681747687826975,
+   "w_AXPTS": 0.012242225410707838
+  },
+  "size_aware_s0.5": {
+   "h_mean": 0.3134878275670334,
+   "h_q05_95": [
+    0.17029946201507007,
+    0.4726089190200399
+   ],
+   "P_h_gt_hstar": 0.9955,
+   "w_AOrd": 0.006243294026990328,
+   "share_from_heavy": 0.629671364930215,
+   "ratio_to_U3": 0.8155098973553695,
+   "w_AXPTS": 0.012311398946339609
+  },
+  "naive_s0.5": {
+   "h_mean": 0.2885702363752174,
+   "h_q05_95": [
+    0.13015145466181066,
+    0.4715826988823795
+   ],
+   "P_h_gt_hstar": 0.98175,
+   "w_AOrd": 0.00607782191798527,
+   "share_from_heavy": 0.6178922751589316,
+   "ratio_to_U3": 0.7938956433980009,
+   "w_AXPTS": 0.012279812798559768
+  },
+  "size_aware_s1.0": {
+   "h_mean": 0.3993615658444629,
+   "h_q05_95": [
+    0.1904245723300896,
+    0.5978898055183678
+   ],
+   "P_h_gt_hstar": 0.99475,
+   "w_AOrd": 0.006813562174963705,
+   "share_from_heavy": 0.6658823043727826,
+   "ratio_to_U3": 0.8899993122072588,
+   "w_AXPTS": 0.012420254596420632
+  },
+  "naive_s1.0": {
+   "h_mean": 0.3486163244644715,
+   "h_q05_95": [
+    0.10865015933801435,
+    0.6331520533698184
+   ],
+   "P_h_gt_hstar": 0.961,
+   "w_AOrd": 0.006476574460201138,
+   "share_from_heavy": 0.6452549670284031,
+   "ratio_to_U3": 0.8459813922617968,
+   "w_AXPTS": 0.012355928687828047
+  }
+ },
+ "F_h_star_versions": {
+  "h_star": {
+   "P1": 0.09668949822886906,
+   "E2 (M=1)": 0.14939242266163366,
+   "P0": 0.0919398100790329,
+   "P2": 0.0783152064918171,
+   "P3": 0.06850679805262318,
+   "fixed M=3": 0.08958205913054709,
+   "fixed M=10": 0.04766527902771885,
+   "fixed M=30": 0.019830509319657623,
+   "048 hist chi (CASC only)": 0.10787897703674096,
+   "048 hist chi (all)": 0.12124158226541108
+  },
+  "min": 0.019830509319657623,
+  "max": 0.14939242266163366,
+  "h_readings_048": {
+   "V1": 0.22207155071169235,
+   "V2": 0.19464368753278924,
+   "V3": 0.08247473837489033,
+   "V4": 0.027561639476305574
+  }
+ },
+ "F_decision_grid": {
+  "V1": {
+   "P1": true,
+   "E2 (M=1)": true,
+   "P0": true,
+   "P2": true,
+   "P3": true,
+   "fixed M=3": true,
+   "fixed M=10": true,
+   "fixed M=30": true,
+   "048 hist chi (CASC only)": true,
+   "048 hist chi (all)": true
+  },
+  "V2": {
+   "P1": true,
+   "E2 (M=1)": true,
+   "P0": true,
+   "P2": true,
+   "P3": true,
+   "fixed M=3": true,
+   "fixed M=10": true,
+   "fixed M=30": true,
+   "048 hist chi (CASC only)": true,
+   "048 hist chi (all)": true
+  },
+  "V3": {
+   "P1": false,
+   "E2 (M=1)": false,
+   "P0": false,
+   "P2": true,
+   "P3": true,
+   "fixed M=3": false,
+   "fixed M=10": true,
+   "fixed M=30": true,
+   "048 hist chi (CASC only)": false,
+   "048 hist chi (all)": false
+  },
+  "V4": {
+   "P1": false,
+   "E2 (M=1)": false,
+   "P0": false,
+   "P2": false,
+   "P3": false,
+   "fixed M=3": false,
+   "fixed M=10": false,
+   "fixed M=30": true,
+   "048 hist chi (CASC only)": false,
+   "048 hist chi (all)": false
+  }
+ },
+ "hypotheses": {
+  "H61a": {
+   "value": 0.3333333333333333,
+   "rule": "isolated survivors L point >= 0.40",
+   "supported": false
+  },
+  "H61b": {
+   "value": [
+    0.9,
+    0.19523973803034847
+   ],
+   "rule": "P(b<0)>=0.90 and P(L|N=1e5)<0.15",
+   "supported": false
+  },
+  "H61c": {
+   "value": [
+    0.5,
+    0.3333333333333333
+   ],
+   "rule": "ended share >= L mean of survivors",
+   "supported": true
+  },
+  "H61d": {
+   "value": 1.0,
+   "rule": ">=80% of isolated losses exogenous and after isolation",
+   "supported": true
+  },
+  "H61e": {
+   "value": [
+    0.3993615658444629,
+    0.09668949822886906
+   ],
+   "rule": "E_U3[P(L|nmax)] < h*(P1)",
+   "supported": false
+  },
+  "H61f": {
+   "value": [
+    0.019830509319657623,
+    0.14939242266163366
+   ],
+   "rule": "all h* versions in (0.028, 0.195)",
+   "supported": false
+  }
+ },
+ "runtime_s": 52.227535009384155
+}

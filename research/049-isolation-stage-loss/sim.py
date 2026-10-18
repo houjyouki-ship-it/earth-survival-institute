@@ -200,7 +200,7 @@ ax[0].plot(ns, pr.mean(0), color="C0", label="posterior mean P(loss | N)")
 for c in REG:
     lo, hi = c[4]; gm = np.sqrt(lo * hi)
     ax[0].errorbar(gm, c[2], xerr=[[gm - lo], [hi - gm]], fmt="s", color="C3" if c[3] else "k", ms=6, capsize=3)
-    ax[0].annotate(c[0].split(" (")[0], (gm, c[2]), textcoords="offset points", xytext=(4, 6 if c[2] < 0.9 else -12), fontsize=7)
+    ax[0].annotate(c[0].split(" (")[0], (gm, c[2]), textcoords="offset points", xytext=(-30 if c[0] == "Easter Island" else 4, (14 if c[0] == "Easter Island" else 6) if c[2] < 0.9 else -12), fontsize=7)
 c = [x for x in CASES if x[0] == "Tikopia"][0]
 ax[0].plot(np.sqrt(c[4][0] * c[4][1]), -0.06, "^", color="C2", label="Tikopia (connected control)")
 ax[0].plot(np.sqrt(2000 * 10000), 1.08, "x", color="grey", label="Norse Greenland (ended)")
@@ -214,7 +214,7 @@ names = list(HSV.keys()); hv_ = [HSV[k] for k in names]
 for i, (k, v) in enumerate(zip(names, hv_)):
     if v is not None: ax[1].axhline(v, color="grey", lw=0.6, ls=":")
 ax[1].axhline(HS1, color="k", ls="--", label=f"h* P1 = {HS1:.3f}")
-ax[1].axhspan(min(vals), max(vals), color="grey", alpha=0.15, label=f"h* over 9 threshold versions {min(vals):.3f}-{max(vals):.3f}")
+ax[1].axhspan(min(vals), max(vals), color="grey", alpha=0.15, label=f"h* over {len(vals)} threshold versions {min(vals):.3f}-{max(vals):.3f}")
 for vk, col in (("V2", "C1"), ("V4", "C2")):
     ax[1].axhline(R["F_h_star_versions"]["h_readings_048"][vk], color=col, lw=1, label=f"048 {vk} h = {R['F_h_star_versions']['h_readings_048'][vk]:.3f}")
 ax[1].set_xlabel("s = share of survivors fully isolated"); ax[1].set_ylabel("h (unknown anthropogenic restarting at T0)")

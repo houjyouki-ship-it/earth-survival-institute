@@ -1,0 +1,153 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究049：孤立した生き残りでの段の喪失と、h* の閾値への依存（open_problems 136＋138） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="049h-open_problems-136138">研究049：孤立した生き残りでの段の喪失と、h* の閾値への依存（open_problems 136＋138）</h1>
+<h2 id="_1">問い</h2>
+<p>048 で交易が断たれた生存例（Mycenae、Easter Island）の最上位の段の喪失は 0.75、交易が続いた10件は 0.20 だった（2件、p=0.11）。地球規模の崩壊で生き残りが互いに孤立するなら、未知の人為リスクの再出発の深さ h は 0.75 の側に寄りうる。孤立した島や植民地を事前に決めた規則で足すと、(1) 孤立した生き残りで技術の喪失はどれだけ起きるか、(2) それは集団の大きさで説明されるか、(3) 逆の因果は分けられるか。孤立の効きを 047 の P1 の模型の生き残りの大きさに写すと h と金庫の価値はどう動くか。あわせて、h*（金庫の価値の過半が重い崩壊から来る h）が閾値の版でどれだけ動き、重い崩壊を優先する判断が閾値の線と h の線のどちらに乗るか（138）。</p>
+<h2 id="sourcesexcerptsjson45wikipedia-mediawiki-api-easter-island-norse-greenland-048">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>、引用45件すべて本文と一致。Wikipedia を MediaWiki API で取得、Easter Island と Norse Greenland は 048 の取得の写し）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tasmania は約8,000年本土から孤立、人口の推定 3,000〜15,000。約4,000年前に鱗のある魚を食べなくなり骨器が消えたが、その意味は激しく議論され、経済的な理由（草地の拡大）とする説もある。King Island と Furneaux の小集団は海面上昇で取り残され絶えた。「火の起こし方を失った」という主張は否定的に書かれている</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Aboriginal_Tasmanians">Aboriginal Tasmanians</a>）】</td>
+</tr>
+<tr>
+<td>Moriori は 1500年頃までに New Zealand から渡り、1791年まで孤立。作物の大半が育たず狩猟採集に移った。人口は 1830年代半ばに約1,600。外洋船に向く木がなく、亜麻と昆布の浮き袋の舟（waka kōrari）を発明した</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Moriori">Moriori</a>、<a href="https://en.wikipedia.org/wiki/Chatham_Islands">Chatham Islands</a>）】</td>
+</tr>
+<tr>
+<td>Inughuit は 11〜16世紀に他の Inuit と広く交易したが、17世紀頃の寒冷化で切り離され、その頃に kayak と umiak を作る知識を失い、移動と接触がさらに狭まった。19世紀半ばに Baffin の Inuit が舟・やす・弓矢を再び持ち込んだ。1880年以前の人口 100〜200人</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Inughuit">Inughuit</a>）】</td>
+</tr>
+<tr>
+<td>Dorset は前の文化が持っていた弓矢とドリルを持たず、狩りの変化か知識を持つ者の死で失われた可能性</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Dorset_culture">Dorset culture</a>）】</td>
+</tr>
+<tr>
+<td>Pitcairn・Henderson の Polynesia 人は数世紀住んだ後に島を放棄。Henderson の放棄は資源の枯渇と Pitcairn の消滅に関わる可能性。Mangareva は大きな人口でカヌーで交易していたが、10〜15世紀の伐採で森を失い経済も崩れた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Pitcairn_Islands">Pitcairn Islands</a>、<a href="https://en.wikipedia.org/wiki/Henderson_Island_(Pitcairn_Islands)">Henderson Island</a>、<a href="https://en.wikipedia.org/wiki/Mangareva">Mangareva</a>）】</td>
+</tr>
+<tr>
+<td>Kangaroo Island の人々は島になった後に考古記録から消え、Flinders Island の集団は約4,500年前に El Niño による渇きと飢えで絶えた。Norfolk の Polynesia 人の集落は孤立と貧しい園芸の環境で長続きせず、Raoul の居住は短く、Nīhoa の放棄は森林の喪失に関わる可能性</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Kangaroo_Island">Kangaroo Island</a>、<a href="https://en.wikipedia.org/wiki/Flinders_Island">Flinders Island</a>、<a href="https://en.wikipedia.org/wiki/Norfolk_Island">Norfolk Island</a>、<a href="https://en.wikipedia.org/wiki/Raoul_Island">Raoul Island</a>、<a href="https://en.wikipedia.org/wiki/N%C4%ABhoa">Nīhoa</a>）】</td>
+</tr>
+<tr>
+<td>Hawaii は人口と首長国が着実に大きくなり、1770年代に約30万人。それまで孤立していた。Māori は数世紀の孤立の中で独自の文化を作り、18世紀末に約10万〜11万人、古典期には彫刻した戦闘用カヌーを作った</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Hawaii">Hawaii</a>、<a href="https://en.wikipedia.org/wiki/M%C4%81ori_people">Māori people</a>）】</td>
+</tr>
+<tr>
+<td>Andaman の人々は数千年ほぼ孤立し、18世紀末に約7,000人、19世紀に火の起こし方を知らなかった。Sentinelese は弓矢を使い、人口は 82・100・98（1971・1981・1986年）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Andamanese_peoples">Andamanese peoples</a>、<a href="https://en.wikipedia.org/wiki/Sentinelese">Sentinelese</a>）】</td>
+</tr>
+<tr>
+<td>Guanches は征服まで比較的孤立し、本土と散発的な接触。Tikopia は頻繁にカヌーで行き来し人口約1,200</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Guanches">Guanches</a>、<a href="https://en.wikipedia.org/wiki/Tikopia">Tikopia</a>）】</td>
+</tr>
+<tr>
+<td>Easter Island の植民は12世紀、1722年に 2,000〜3,000人。Norse Greenland の人口は最盛期に 2,000〜10,000</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Easter_Island">Easter Island</a>、<a href="https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland">Norse settlements in Greenland</a>）】</td>
+</tr>
+<tr>
+<td>Polynesian outlier・Thule people・Necker Island も取得したが、符号の根拠には使っていない。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-2026104950">方法（<code>sim.py</code>、seed 20261049、約50秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-18T20:46Z、初回実行前）。参照の集合の選び方、符号の規則、仮説を先に固定した。</li>
+<li><strong>参照の集合（21件、<code>results.json</code> の <code>A_cases</code>）</strong>：孤立した生き残り9（Tasmania、Moriori、Inughuit、Easter Island、Hawaii、Māori、Andaman、Sentinelese、Guanches）、孤立して絶えたか放棄した集落9（Henderson、Pitcairn、Norfolk、Raoul、Nīhoa、Kangaroo、Flinders、King/Furneaux、Norse Greenland）、対照1（Tikopia）、内生の孤立1（Mangareva）、χ 不明1（Dorset）。</li>
+<li><strong>符号（【推測】、一人の判断）</strong>：L は前に持っていた専門の技術を失ったと本文が述べる=1、議論中・部分=0.5、記述なし=0。env は喪失の理由を本文が環境に帰すか。N は本文の人口の幅（対数一様で引く）。exo は孤立の原因が外生で、喪失が孤立の後か。</li>
+<li><strong>回帰</strong>：logit P(L=1) = a + b·(log10 N − 4)、N(0, 2.5²) の事前、格子の事後。N と 0.5 の符号を200回引き直して混ぜた。感度で孤立の長さ log10 T を足した版など。</li>
+<li><strong>模型への写し</strong>：047 を固定 M の格子の手前まで exec（048 と同じ。047 の P1 の重み付き A_Ord・U3 と 048 の h* を誤差0で再現）。U3・CASC・BIO の nmax の標本で E[P(L|nmax)] を出し、h(s) = s·E_U3 + (1−s)·h_conn（h_conn は 048 の交易が続いた群、点 0.20）にして 048 の道具で重み付きの値を出した。</li>
+<li><strong>138</strong>：E2、P1、P0、P2、P3、固定 M=3・10・30 で evaluate し直して h* を出し、048 の歴史の χ の2版を足した10版で、048 の h の4つの読みと比べた。</li>
+<li><strong>探索（事前登録の外、<code>explore.py</code>）</strong>：E を「生き残っていて、閾値の模型では軽い崩壊の標本」だけで出し直した（下の批判的検討を参照）。</li>
+<li>再現：024・032・038〜048 を <code>/tmp/rep049/</code> に複製し 048 を再実行（約31秒）、results.json は runtime 以外一致（葉 748個、差分0）。049 は <code>/tmp/rep049b/</code> で再実行し、results.json は runtime 以外一致（葉 519個、差分0）。初回の <code>/tmp/rep049/</code> の実行とも一致。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H61a</td>
+<td>孤立した生き残りの L の平均 ≥ 0.40</td>
+<td><strong>0.333</strong>（Mycenae を足すと 0.40）</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H61b</td>
+<td>P(b&lt;0) ≥ 0.90 かつ P(L｜N=1e5) &lt; 0.15</td>
+<td>0.90、<strong>0.195</strong></td>
+<td><strong>棄却</strong>（向きは支持、大きな集団での値が絞れない）</td>
+</tr>
+<tr>
+<td>H61c</td>
+<td>絶えた・放棄の割合 ≥ 生き残りの L</td>
+<td><strong>0.50</strong> 対 0.333</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H61d</td>
+<td>喪失の 80% 以上が外生の孤立の後</td>
+<td><strong>4/4</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H61e</td>
+<td>E_U3[P(L｜nmax)] &lt; h*（0.097）</td>
+<td><strong>0.399</strong></td>
+<td><strong>棄却</strong>（ただし下の注意）</td>
+</tr>
+<tr>
+<td>H61f</td>
+<td>10版の h* がすべて 0.028〜0.195 の間</td>
+<td>0.020〜0.149</td>
+<td><strong>棄却</strong>（M=30 だけが外れる）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjsonexplore_resultsjson">主な数値（results.json、explore_results.json）</h2>
+<ul>
+<li><strong>孤立した生き残りの喪失</strong>：Inughuit（100〜200人）1、Moriori（1,600〜2,000人、環境）1、Easter Island（2,000〜3,000人）0.5、Tasmania（3,000〜15,000人、議論中）0.5。喪失なし：Sentinelese（80〜100人）、Andaman（約7,000人）、Māori（10万〜11万人）、Hawaii（約30万人）、Guanches。L の平均 <strong>0.333</strong>（事後平均 0.351、90% 0.11〜0.64）。env を0にすると 0.222、Andaman を 0.5 にすると 0.389。交易が続いた群（048）は 0.20（0.227）。</li>
+<li><strong>孤立した集落の半分（9/18）が絶えたか放棄された</strong>。生き残りの技術の喪失（0.33）より多い。</li>
+<li><strong>逆の因果</strong>：喪失した4件はすべて、孤立の原因が外生（海面上昇、寒冷化、創始時の距離）で、喪失は孤立の後。</li>
+<li><strong>大きさ</strong>：b の中央値 −0.95／桁（90% −2.55〜+0.25）、P(b&lt;0) 0.90。予測の P(L) は N=100 で 0.67、1,000 で 0.50、1万で 0.31、10万で <strong>0.20</strong>（95%点 0.56）、100万で 0.15、1,000万で 0.12。孤立の長さを足しても長さの係数が正の確率は 0.19 で、長く孤立したほど失うという形は見えない。</li>
+<li><strong>模型への写し（事前登録どおり）</strong>：U3 の全標本の nmax（中央値 7,751人、5%点は1人）で E[P(L)] <strong>0.399</strong>、CASC 0.127、BIO 0.133。h(s) は s=0 で 0.228（A_Ord の重み付き 0.00567、U3 の 0.74倍）、s=1 で <strong>0.399</strong>（0.00681、0.89倍、重い崩壊からの割合 0.67）。大きさを無視すると s=1 で 0.349。</li>
+<li><strong>探索：生き残りで軽い崩壊の標本だけ</strong>（nmax の中央値 2,840万人）：E[P(L)] <strong>0.118</strong>（90% 0.0001〜0.66）、h* を超える確率 0.28。孤立の長さを足した版 0.099、env を0にした版 0.111。</li>
+<li><strong>大きな孤立集団（N ≥ 5万）は 0/2</strong>（Hawaii、Māori）：Jeffreys の事後平均 0.166、95%点 0.57。喪失のない大きな孤立集団があと5件あれば事後平均が h* を下回る。</li>
+<li><em><em>138：h</em> の10版</em>*：E2 0.149、048 の歴史の χ（全シナリオ）0.121、同（CASC だけ）0.108、P1 0.097、P0 0.092、M=3 0.090、P2 0.078、P3 0.069、M=10 0.048、M=30 0.020。</li>
+<li><strong>判断の格子</strong>（h &gt; h* なら重い崩壊が過半）：048 の V1（0.222）と V2（0.195）は10版すべてで過半、V4（0.028）は M=30 を除く9版で過半にならない。閾値の版で答えが割れるのは V3（0.082）だけ（10版中4版で過半）。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>048 の 0.75 は2件の偶然に近かった</strong>。規則で9件に広げると孤立した生き残りの喪失は 0.33 で、交易が続いた群の 0.20 との差は 0.13（048 では 0.55）。孤立が h を 0.75 に寄せるという筋は弱まった。</li>
+<li><strong>喪失は小さな集団に集まる</strong>。喪失した4件はすべて 100〜15,000人、10万人を超える2件（Hawaii、Māori）は孤立の中で首長国や戦闘用カヌーを発達させた。これは 046・047 の「閾値の人口」と Kline &amp; Boyd の接触の効果の筋と同じで、孤立そのものより「孤立して小さい」ことが効いている。逆の因果の心配は、この集合では当たらない（4/4 が外生の孤立の後）。</li>
+<li><strong>事前登録の E（0.399）は二重計上を含む</strong>。U3 の nmax の全標本で平均したので、絶えた標本（nmax の5%点が1人）と、閾値の模型ですでに重い崩壊の標本に、小さな集団の喪失の率を重ねた。H61e は登録どおり棄却と記録するが、模型に上乗せする量として意味があるのは探索の 0.118（軽い崩壊の標本だけ）である。これも平均が h* をわずかに超えるだけで、中央値は h* よりずっと下（h* を超える確率 0.28）。</li>
+<li><strong>大きな集団の値は外挿</strong>。10万人を超える孤立集団は2件しかなく、100万人以上の予測（0.12〜0.15）はほとんど事前分布と回帰の形で決まる。軽い崩壊の生き残りの nmax（中央値 2,840万人）は資料の範囲の外にある。孤立が大きな生き残りを T0 まで落とすかは、資料からは否定も肯定もできない。</li>
+<li><strong>段の深さが合わない（048 と同じ）</strong>。ここで失われたのは T0 の中の道具（舟、弓、骨器、農耕）で、T3 から T0 への3段の落下ではない。喪失を T0 再出発と同じに数えるのは上側の読みである。</li>
+<li><strong>選び方の偏り</strong>。Inughuit・Dorset・Tasmania は「失った例」として有名で、喪失の側に寄りやすい。逆に絶えた集落（9件）は喪失を数えられず、喪失の後に絶えた例を見落としている可能性がある。</li>
+<li><strong>失われた技術の半分は移動の手段だった</strong>。Inughuit は舟を失って接触がさらに狭まり、Moriori は外洋船を作れなかった。孤立が移動の手段を奪い、それが孤立を固定する自己強化の形がある（【推測】、2件）。</li>
+<li><strong>138：判断は h の線に乗る</strong>。h* は閾値の版で 0.020〜0.149 と7倍動くが、048 の4つの読みのうち3つ（V1・V2・V4）は M=30 という極端な版を除いて答えが変わらない。重い崩壊を優先するかを決めているのは h の読み方（1段の喪失を T0 と数えるか）であり、閾値の線の改良（046・047）はこの判断をほとんど動かさない。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>規則で選んだ孤立した生き残り9件で、前に持っていた技術を失ったのは 0.33（048 の2件の 0.75 ではなく）で、喪失は 100〜15,000人の集団に集まり、10万人を超える2件では起きていない。喪失の4件はすべて外生の孤立の後に起きた。孤立した集落で多いのは技術の喪失より消滅（9/18）だった。孤立の罰を模型に写すと、事前登録の全標本の平均では h が 0.23→0.40 に上がる（A_Ord 0.74→0.89倍）が、その大半は模型がすでに重い崩壊か絶滅とする小さな集団の分で、軽い崩壊の生き残りに上乗せされる分は平均 0.12（中央値はほぼ0）にとどまる。h* は閾値の版で 0.02〜0.15 と動くが、重い崩壊を優先するかの判断は V3 を除いて h の読み方で決まる。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：A_Ord の主の値は 048 の歴史の h（V2 の 0.0055）のまま据え置き、孤立を理由に h を上げない。「重い崩壊を優先」は1段の喪失を T0 と数える読み（V1・V2）での結論と明記し、閾値の線（M）の改良はこの判断の材料から外す。残る最大の未知は「10万人を超える孤立集団で段を失った例があるか」で、喪失のない例があと5件あれば決着する。</li>
+<li><strong>金庫・手引きの作り手</strong>：孤立した小集団で失われたのは舟と移動の手段で、それが孤立を固定した。重い崩壊向けの手引きの最初の節は、その土地の材料で作れる舟と航法、離れた生き残りと連絡を保つ方法に充てる価値がある（047・048 の「連絡と交易の手段を重く見る」と同じ向きで、根拠を一つ足した）。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>孤立した島の集団で道具の数が人口とともに減ることは Kline &amp; Boyd（046 で確認）などが調べているが、絶えた集落と孤立していない対照を同じ規則で入れ、喪失の割合を集団の大きさの関数として地球規模の崩壊の生き残りの大きさの分布に写し、金庫の価値の分かれ目 h* と突き合わせた例は、確認した資料には見当たらない。h* を閾値の10版で出し、判断が閾値の線と h の線のどちらに乗るかを格子で分けたのも本研究所の新しい整理である。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_isolation_h.png</code>、<code>fig_hstar_versions.png</code>、<code>explore.py</code>・<code>explore_results.json</code>・<code>explore_stdout.txt</code>（事前登録の外）、<code>PREREGISTRATION.md</code>、<code>sources/</code>（<code>fetch.py</code>、<code>make_excerpts.py</code>、<code>excerpts.json</code>、取得した本文27件）。
+- 逸脱：初回の実行は <code>/tmp/rep049/</code> の複製の中で行った（同じコード、同じ seed、値は研究所のフォルダでの実行と一致）。図の文字の重なりと凡例の版の数（9→10）を直して再実行した（数値は同じ）。事前登録の E が二重計上を含むと分かったので、条件付きの E を探索として <code>explore.py</code> に分けた（判定は登録どおり）。</p><footer><hr><small>自動生成</small></footer></body></html>
