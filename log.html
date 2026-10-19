@@ -817,4 +817,21 @@
 <li>判定：H66a〜h すべて支持（費用の差が価値の差より大きく、閾値が緩かった）。</li>
 <li>逸脱：初回の前に sim.py の維持費の重複行を消した。維持費の上端は €100万×1.1 の固定換算（事前登録の文言は標本ごとの換算に読める）。数値は初回のまま。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は南半球の専用の拠点を建てる前に束を作り、その写しを南半球の既存の施設に預ける。本研究所は 032〜034 の「南半球の第2拠点」の提言を「南半球への束の写し」に置き換える）。</li>
+</ul>
+<h2 id="55-2026-10-19">第55回 2026-10-19</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053・054 を <code>/tmp/rep055/</code> に複製し、054 の sim.py（約57秒）を再実行した。results.json は runtime 以外一致（葉 2,737個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 146（執筆の生産性と知識の対策の費用あたりの順位）＋147（南半球の預け先と費用）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Wikipedia（MediaWiki API）の Encyclopédie、Louis de Jaucourt、First edition of the Encyclopædia Britannica、Oxford English Dictionary、A Dictionary of the English Language、Wikipedia:Size of Wikipedia、OpenStax、Legal deposit、Geiger &amp; Halfaker 2013（PDF）、Physics Today 2023-07-01、Campus Technology 2015、NLA の Legal deposit のページ、GitHub の openstax/osbooks-{biology,chemistry,college-physics}-bundle（CNXML を数えた）。sources/excerpts.json の29件は保存本文と照合しすべて一致。Appropedia・Wikibooks・The Knowledge・Lewis Dartnell・Britannica 11版・Feynman Lectures・GVCS も取得したが数字がなく使っていない。NZ 国立図書館の法定納本のページは空の応答で取れなかった。</li>
+<li>研究055を実施：<code>research/055-authoring-productivity/</code>（sim.py 約20秒 seed 20261055、計算のみ）。成果物は results.json、stdout.txt、fig_anchors.png、fig_ce_by_version.png、fig_heavy_light.png、report.md、PREREGISTRATION.md（08:46:17Z、sim.py の作成の前）、sources/（本文、count_ox.py、openstax_counts.json、commit、SHA256SUMS）。<code>/tmp/rep055b/</code> で再実行し results.json は runtime 以外一致（葉 1,399個、差分0）、図3枚の MD5 も一致。</li>
+<li>方法：054 の sim.py を費用の節の前まで exec し、054 の価値を差0で再現（葉 252個）。アンカーは OpenStax（$/字）、英語版 Wikipedia（25億語÷4,102万時間）、Jaucourt（470万語、秘書つき）、Smellie（2,391頁、語/頁は推測）、OED の打ち込み（292万字/人年、校正込み 194万）。版は V_prior・V_orig・V_wiki・V_comp・V_mix（主：原文の割合 U(0.2,0.8)）。S_LD（印刷した T を豪州の NLA と州立図書館へ法定納本）を足した。</li>
+<li>主要数値：</li>
+<li>アンカーの中央値（字/人年）：OpenStax 59万、Wikipedia <strong>46万</strong>、Jaucourt 124万、Smellie 394万（OED の打ち込みの上限を超える）。最大／最小 8.5倍。</li>
+<li>$/字 5〜95%：V_prior $0.018〜1.14 → V_mix <strong>$0.089〜0.34</strong>（中央値 $0.16）。V_orig $0.246。</li>
+<li>T の費用（1e7〜1e8 字）：V_mix 中央値 <strong>$540万</strong>（$156万〜1,900万）、V_orig $820万、V_comp $244万。g_req の字数で $43万。</li>
+<li>CE（TAB=1、V_mix）：S_TC｜T＋C <strong>13.6</strong>／<strong>30.5</strong>、T＋C 2.45、GROW 0.40／0.087。S_LD｜T＋C 14.7／24.9（重い崩壊 13.4／11.0）、ただし価値は TAB の 0.016／0.027倍、費用 $6,017。P(S_LD が S_TC より上) 0.52／0.41。</li>
+<li>g_req の字数：S_TC 1.15／2.59、T＋C 1.60、V_comp では S_TC 0.52（A_Ord）。</li>
+<li>判定：H67a〜h すべて支持（H67b・d・e はぎりぎり、H67e は実質同等）。</li>
+<li>逸脱：なし。</li>
+<li>「誰が何を変えるべきか」：記載あり（手引きの企画者は T の予算を1字 $0.1〜0.3 で組み、CC の既存の教科書の要約で原文の割合を下げる。南半球には S_TC を主に置き、ほぼ無料の豪州での出版と法定納本を足す。本研究所は生産性の未知を閉じ、次は T の字数 151 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

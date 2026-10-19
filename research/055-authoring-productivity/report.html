@@ -1,0 +1,160 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究055：執筆の生産性の公開アンカーと、束・南半球の写し・法定納本の費用あたりの順位（open_problems 146＋147） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="055open_problems-146147">研究055：執筆の生産性の公開アンカーと、束・南半球の写し・法定納本の費用あたりの順位（open_problems 146＋147）</h1>
+<h2 id="_1">問い</h2>
+<p>053・054 では板の手引き T の費用の 99% が執筆の生産性 logU(1e5,1e7) 字/人年（推測）で決まり、その 100倍の幅が束 T＋C や南半球の写し S_TC の費用あたりの値（CE、TAB=1）を左右していた。公開の企画の記録で生産性を絞ると、(1) T の費用はいくらになり、(2) TAB・T＋C・S_TC｜T＋C・GROW の順位は変わるか。(3) 147 の預け先として、南半球の<strong>法定納本</strong>（印刷した T を国立図書館などに納める）S_LD は S_TC と比べてどうか。重い崩壊と軽い崩壊で違うか。</p>
+<h2 id="sourcesexcerptsjson-29-verify_excerptspy">確認した事実（本回開いて確認。<code>sources/excerpts.json</code> の29件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Encyclopédie は合計約 2,000万語。最多の寄稿者 Jaucourt は 1759〜1765年に 17,266項目（全体の25%）を書いた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Encyclop%C3%A9die">Wikipedia: Encyclopédie</a>）】</td>
+</tr>
+<tr>
+<td>Jaucourt の寄稿は約 470万語。自費で秘書の一団を雇い口述を書き取らせた。多くは本の要約で、原典からそのまま写した部分が多い</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Louis_de_Jaucourt">Wikipedia: Louis de Jaucourt</a>）】。秘書の人数は書かれていない</td>
+</tr>
+<tr>
+<td>Britannica 初版はほぼすべて William Smellie が編み、1768年12月〜1771年8月ごろに出た。全 2,391頁。報酬 200ポンド</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/First_edition_of_the_Encyclop%C3%A6dia_Britannica">Wikipedia: First edition of the Encyclopædia Britannica</a>）】。1頁の語数は書かれていない</td>
+</tr>
+<tr>
+<td>OED 第2版の電子化では 3.5億字の打ち込みに 120人年、校正に 60人年</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Oxford_English_Dictionary">Wikipedia: Oxford English Dictionary</a>）】</td>
+</tr>
+<tr>
+<td>英語版 Wikipedia の編集セッションの合計は 41,018,804 労働時間（2012年4月まで）。同じ論文で英語版は 390万項目・25億語</td>
+<td>【事実（<a href="https://stuartgeiger.com/files/cscw-sessions.pdf">Geiger &amp; Halfaker 2013</a>）】。編集画面の外の作業は数えていない（論文の限界の節）</td>
+</tr>
+<tr>
+<td>Wikipedia の字数の換算は 1語6字（5字＋空白など）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia">Wikipedia: Size of Wikipedia</a>）】</td>
+</tr>
+<tr>
+<td>OpenStax の新しい教科書1冊の費用は $50万〜100万（編集長、図はほとんど自前で描く）。印刷版は $25〜50</td>
+<td>【事実（<a href="https://physicstoday.aip.org/news/free-textbooks-and-other-open-educational-resources-gain-popularity">Physics Today 2023-07-01</a>）】</td>
+</tr>
+<tr>
+<td>2013年の見積もりは1冊約 $50万</td>
+<td>【事実（<a href="https://campustechnology.com/articles/2015/08/26/openstax-releases-3-new-free-college-textbooks.aspx">Campus Technology 2015</a>）】</td>
+</tr>
+<tr>
+<td>OpenStax の本文の字数（GitHub の CNXML のタグを除いて数えた）：biology-2e 393.5万〜393.7万、concepts-biology 157万、chemistry-2e 233万〜251万、college-physics-2e 404万〜426万（数式を除く〜含む）</td>
+<td>【事実（計算：<code>sources/count_ox.py</code>、<code>openstax_counts.json</code>、commit は <code>openstax_commits.txt</code>）】。費用は初版、字数は第2版で、版の差は【推測】で無視した</td>
+</tr>
+<tr>
+<td>豪州の NLA は法定納本で「豪州で出版されたものすべてを1部」集め、州・準州の図書館にも納める必要がある。ただし training and procedure manuals は「必須でないか選択的にしか集めない」</td>
+<td>【事実（<a href="https://www.library.gov.au/services/publishers-and-self-publishers/legal-deposit">NLA: Legal deposit</a>）】</td>
+</tr>
+<tr>
+<td>南アは5部（刷りが100部以上のとき）、NZ は出版後20営業日以内、ブラジルは国立図書館に1部</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Legal_deposit">Wikipedia: Legal deposit</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>Johnson の辞書（7年、筆写の助手のみ）は字数が出典になく使っていない。Dartnell の The Knowledge、Appropedia、Wikibooks の Wikipedia も取得したが、人年や費用の数字はなかった。NZ 国立図書館の法定納本のページは取得に失敗した（空の応答）。</p>
+<h2 id="simpyseed-2026105520">方法（<code>sim.py</code>、seed 20261055、約20秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-19T08:46:17Z</strong>、sim.py の作成の前）。</li>
+<li>054 の sim.py を費用の節の前まで exec し、054 の価値（values_main、葉 252個）を<strong>差0で再現</strong>した。S_LD の価値の関数は喪失1のとき T＋C の価値と差0（検査）。</li>
+<li>アンカー（字/人年、人件費 $10万〜20万で換算）：OSX（OpenStax の $/字）、WP（25億語×U(5.5,6.5)字 ÷（4,102万時間×取りこぼし U(1,2)【推測】÷年 U(1800,2000)時間））、JAU（470万語×U(5.5,6.5) ÷（U(6,7)年×（1＋秘書 U(1,4)人【推測】）））、SME（2,391頁×U(800,1500)語/頁【推測・弱い】×U(5.5,6.5) ÷（U(2.7,4)年×（1＋U(0,0.5)）））。OED の打ち込み 292万字/人年（校正込み 194万）を上限の目安にした。</li>
+<li>版：V_prior（053）、V_orig（OSX）、V_wiki、V_comp（JAU と SME を半々、292万で上を切る）、<strong>V_mix（主）</strong>：字数の U(0.2,0.8)【推測】を V_orig、残りを V_comp で書く。</li>
+<li>字数：053 の 1e7〜1e8（主）、024 の g_req 0.725e6〜8.9e6（感度）。C・S_TC の費用は 054 と同じ式。GROW は 053 と同じ価値の比と、T と同じ式の独立の費用。</li>
+<li>S_LD｜T＋C：印刷した T だけを南半球の図書館に置く。主の金庫を失ったとき読者は T だけ（q_B）を読み、T3 の社会には足さない。喪失 U(0.3,0.8)、受理 U(0.5,1.0)、発見は 054 の南半球の写しと同じ（すべて【推測】）。費用は冊数（字数÷OpenStax の1冊の字数）×$25〜50×部数（主2：NLA＋州立図書館、感度9：豪2・NZ1・南ア5・ブラジル1）×耐久紙 U(1,3)＋手続き $1千〜1万＋送料（【推測】）。</li>
+<li>再現：<code>/tmp/rep055b/</code> で再実行し results.json は runtime 以外一致（葉 1,399個、差分0）、図3枚の MD5 も一致。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H67a</td>
+<td>V_orig の $/字の中央値 &gt; V_prior</td>
+<td><strong>$0.246</strong> 対 $0.143</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H67b</td>
+<td>4アンカーの中央値の最大／最小 &lt; 10</td>
+<td><strong>8.5倍</strong>（WP 46万〜SME 394万）</td>
+<td><strong>支持</strong>（ぎりぎり）</td>
+</tr>
+<tr>
+<td>H67c</td>
+<td>V_mix で S_TC｜T＋C &gt; T＋C &gt; 1 &gt; GROW（両方）</td>
+<td>A_Ord 13.6 &gt; 2.45 &gt; 1 &gt; 0.40、A_XPT_S 30.5 &gt; 2.45 &gt; 1 &gt; 0.087</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H67d</td>
+<td>V_mix・g_req の字数で CE(S_TC｜T＋C) &gt; 1（両方）</td>
+<td><strong>1.15</strong>、2.59</td>
+<td><strong>支持</strong>（A_Ord はぎりぎり）</td>
+</tr>
+<tr>
+<td>H67e</td>
+<td>A_Ord で CE(S_LD) &gt; CE(S_TC)（中央値）</td>
+<td>14.7 対 13.6、ただし標本ごとに S_LD が上の確率 <strong>0.52</strong></td>
+<td><strong>支持</strong>（実質は同等）</td>
+</tr>
+<tr>
+<td>H67f</td>
+<td>重い崩壊だけで CE(S_LD) &gt; 1（両方）</td>
+<td><strong>13.4</strong>、<strong>11.0</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H67g</td>
+<td>V_comp の C_T ≤ V_orig の 1/3</td>
+<td><strong>0.30</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H67h</td>
+<td>V_mix の C_T の中央値が $100万〜3,000万</td>
+<td><strong>$540万</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>アンカー（字/人年、中央値と 5〜95%）</strong>：OSX 59万（25万〜110万）、WP <strong>46万</strong>（35万〜67万）、JAU 124万（88万〜203万）、SME 394万（259万〜587万、OED の打ち込みの上限 292万を超える。1頁の語数の推測が大きすぎるか、印刷物をそのまま組版に回したと読むのが自然【推測】）。
+  【独自仮説→支持】図と査読を含む原文の執筆（OpenStax、Wikipedia）は <strong>約50万字/人年</strong>、既存の文献の編纂は <strong>約100万〜300万字/人年</strong> の二つの帯に分かれ、053 の 100倍の事前の幅の中央（100万）は二つの帯の間にあった。</li>
+<li><strong>$/字（5〜95%）</strong>：V_prior $0.018〜1.14（64倍の幅）→ V_mix <strong>$0.089〜0.34（3.8倍）</strong>、中央値 $0.16。V_orig $0.246、V_comp $0.066。</li>
+<li><strong>T の費用（主の字数）</strong>：V_mix 中央値 <strong>$540万</strong>（$156万〜1,900万）、053 の $462万（$43万〜5,220万）より中央値は同じ程度で幅が 1/10。執筆の割合は 0.99 のまま。V_orig $820万、V_comp $244万。g_req の字数では V_mix $43万（$12万〜165万）。</li>
+<li><strong>CE（TAB=1、V_mix、中央値）</strong>：
+  | | A_Ord・U3 全体 | 重い崩壊 | 軽い崩壊 | A_XPT_S・U2 全体 | 重い崩壊 | 軽い崩壊 |
+  |---|---|---|---|---|---|---|
+  | T＋C | 2.45 | 2.45 | 2.45 | 2.45 | 2.45 | 2.45 |
+  | S_TC｜T＋C | <strong>13.6</strong> | 6.8 | 20.0 | <strong>30.5</strong> | 5.0 | 37.5 |
+  | S_LD｜T＋C（豪のみ） | <strong>14.7</strong> | 13.4 | 12.1 | <strong>24.9</strong> | 11.0 | 28.5 |
+  | S_LD｜T＋C（4か国） | 8.1 | 7.4 | 7.1 | 14.2 | 6.1 | 16.3 |
+  | GROW | 0.40 | | | 0.087 | | |
+  g_req の字数では T＋C 1.60、S_TC 1.15／2.59、S_LD 1.76／2.99。V_comp・g_req では S_TC 0.52（A_Ord）で 1 を割る。</li>
+<li><strong>S_LD の中身</strong>：価値は TAB の <strong>0.016倍</strong>（A_Ord）／0.027倍（S_TC は 1.66／3.71倍）で約 1/100、費用も中央値 <strong>$6,017</strong>（$2,514〜12,544、S_TC は $62.6万）で約 1/100。費用あたりで並ぶが、S_TC の価値の代わりにはならない。価値が小さいのは、紙の T だけでは読者が T 単独の q_B（中央値は小さい）しか得られず、計算機の社会にも足さないため。</li>
+<li><strong>順位の頑健さ</strong>：主の字数では5つの版すべてで S_TC｜T＋C &gt; T＋C &gt; 1 &gt; GROW。g_req の字数では A_Ord で T＋C が S_TC を上回る（V_mix 1.60 対 1.15）。T の費用の残る不確かさは、生産性（3.8倍）より <strong>字数（1e7〜1e8 と g_req の 0.7e6〜8.9e6 で約14倍）</strong> が大きい。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li>OpenStax の費用は初版の、字数は第2版の値で、教科書と再建の手引きは書く中身が違う（手引きは試験した手順と図が要る）。手引きの方が字あたり高い可能性があり、そのとき S_TC・S_LD の CE はさらに上がり、T＋C の CE は少し上がる（C の割合が減るため）。</li>
+<li>Wikipedia の時間は編集画面の中だけで、取りこぼし U(1,2) は【推測】。2倍以上なら WP の生産性はさらに下がる。</li>
+<li>編纂のアンカー（JAU、SME）は既存の文献の写しを含み、再建の手引きでは CC ライセンスの Wikipedia・OpenStax を要約する場合に当たる【推測】。V_mix の f_orig U(0.2,0.8) は根拠のない幅で、両端の版（V_orig・V_comp）で CE(S_TC) は 6.1〜24（A_Ord）動く。</li>
+<li>S_LD の喪失（紙、空調なし、数百年）・受理・発見はすべて推測。NLA は手順書を選択的にしか集めないと書いており、受理されない恐れは現実にある。NZ の規定のページは開けていない。</li>
+<li>付け足した S_LD は T＋C の後の単独の追加で、S_TC と同時に置いたときの価値（重なり）は計算していない。</li>
+</ul>
+<h2 id="_4">新規性</h2>
+<p>Ord や XPT は知識保存の費用を扱わない。053・054 は生産性を推測の 100倍の幅で置いていた。本回は公開の企画の記録（OpenStax の費用と GitHub の字数、Wikipedia の労働時間、Encyclopédie・Britannica・OED）から、原文の執筆と編纂の二つの帯を数値で示し、T の費用の幅を 1/10 に絞った。南半球の預け先として法定納本の制度（豪州の NLA の規定）を費用あたりの模型に入れたのも初めて。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者・手引きの企画者は、T の予算を <strong>1字あたり約 $0.1〜0.3（約50万字/人年）</strong> で組み、CC ライセンスの既存の教科書・百科事典の要約で原文の割合を下げる。南半球には S_TC（板と小窓版のリールの写し、約 $63万）を主に置き、追加でほぼ無料の <strong>豪州での出版と法定納本（約 $6千）</strong> を足す（ただし価値は S_TC の約 1/100 で代わりにはならない）。本研究所は 146 の生産性の未知を閉じ、次は T の字数（1e7〜1e8 か g_req か）を詰める。</p><footer><hr><small>自動生成</small></footer></body></html>
