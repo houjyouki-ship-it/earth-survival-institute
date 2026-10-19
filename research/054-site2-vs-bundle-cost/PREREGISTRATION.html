@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究054 事前登録（open_problems 103＋100：南半球の第2拠点 S と束 T＋C の費用あたりの比較） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="054-open_problems-1031002-s-tc">研究054 事前登録（open_problems 103＋100：南半球の第2拠点 S と束 T＋C の費用あたりの比較）</h1>
+<p>登録時刻：2026-10-19T06:46:19Z（sim.py の初回実行の前。費用の資料は取得・確認済み。価値は 040 の模型を 040 の sim.py の先頭（<code>A = all_arrays()</code> の前まで）を exec して再計算する）</p>
+<h2 id="_1">問い</h2>
+<p>053 と同じ物差し（040 の weighted、主は A_Ord・U3 と A_XPT_S・U2）で、(1) 束 T＋C（板の手引き＋小窓版 c4 約4リール）、(2) 南半球の新しい専用拠点 S_full（金庫の中身の全写し）、(3) 束を作った後に南半球の既存の施設へ束の写しだけを置く S_TC の、費用あたりの ΔV（053 の CE＝(ΔV_X/C_X)/(ΔV_TAB/C_TAB)）を比べる。重い崩壊（T1・T0・T00）と軽い崩壊（T3・脆い T3）、T2 に分ける。</p>
+<h2 id="040">価値の模型（040 の枠に足すもの）</h2>
+<ul>
+<li>040 の V_gen を写した V_ext を作り、(a) q を読者 B の RAM（logU 4〜144 KiB、033 の q(M) の補間）にした T 単独、(b) T＋C（q_TC = 1−0.24(1−q_B)、033 の noisy-or）、(c) 第2拠点（intact = intact1 ∪ intact2）、(d) T3 の社会の価値 u（034 の拠点の網羅 × 037 の半々の f_orph、成分ごとに対数正規で引く）を足す。脆い T3 で窓内に金庫に届く場合は u_frag=1（034 の主設定）。</li>
+<li>V_ext で S なし・u=1 のとき 040 の weighted の TAB（total・from_heavy）を誤差 &lt;1e-12 で再現することを確かめる。</li>
+<li>届く確率（100）：最大の生き残りの集団がいる地域を標本ごとに引く。NUC_G は 038 の模型で豪州が最大集団なら近い（near）、別の大国なら中間（mid）。他の成分は人口の割合で、near＝豪州＋NZ（038 の国別人口から 0.40%）、mid＝南半球の残り（南半球は世界人口の 10〜12%、Wikipedia）、far＝北半球。f_near U(0.6,0.95)、f_mid U(0.2,0.6)、f_far U(0.05,0.4)、知られている度合い k_S U(0.5,1.0)。find_S = k_S × f_region【推測】。喪失：S_full U(0.02,0.15)、S_TC U(0.05,0.40)【推測】。主拠点の発見とは独立（033 と同じ）。</li>
+<li>S_TC で主拠点が失われたとき、読者の経路は q=0.76（c4 だけ）、一般の回復と T3 の経路は c_TC=1（価値の単位が高層の星重みなので c4 は高層全体を含む）。</li>
+</ul>
+<h2 id="2025-cpi-u">費用の模型（2025年ドル、米 CPI-U 年平均）</h2>
+<ul>
+<li>T：053 の C_TAB と同じ式（字数 logU(1e7,1e8)、生産性 logU(1e5,1e7) 字/人年、人件費 logU(1e5,2e5)、MOM の板 €195・5万〜500万字/枚 ×3拠点）。</li>
+<li>C：リール数 logU(4,10)（028）× リール単価 p_reel ＋ 技術作業 logU(0.5,3) 人年 × 人件費。p_reel ~ logU(€8,900/4, €8,900×4)【推測：AWA の専用フィルムの公開価格「from €8900」を中心に】。</li>
+<li>S_full：施設の建設費アンカー（F1 種子庫の建設 $880万（2008）、F2 種子庫の建設＋改修（NOK 1.93億、2019年の換算率 0.1175 $/NOK）、F3 Australian PlantBank A$1,980万（2013、AUD→USD U(0.9,1.05)【推測】））を等確率で選び ×logU(0.5,2)【推測】。維持費は年 logU($28.2万(2019)→2025, €100万) × U(20,100)年。中身の写し 186 リール × p_reel。</li>
+<li>S_TC：板の写し（MOM の板 U(€195,€260)/枚、€260 は複製つきの差額 €455−€195）＋ C のリール数 × p_reel ＋ 手続き・輸送 logU($1万,$30万)【推測】＋ 預け先の年額 logU($1千,$5万) × U(20,100)年【推測】。</li>
+<li>EUR→USD U(1.0,1.2)（053 と同じ）。</li>
+</ul>
+<h2 id="seed-20261054-mc-20">仮説と判定基準（seed 20261054、費用の MC 20万）</h2>
+<ul>
+<li><strong>H66a</strong>：S_full の総費用の中央値は T＋C の費用の中央値の 3倍以上。</li>
+<li><strong>H66b</strong>：A_Ord・U3 で CE(S_full 単独) の中央値 &lt; CE(T＋C 単独) の中央値。</li>
+<li><strong>H66c</strong>：A_XPT_S・U2 でも CE(S_full 単独) の中央値 &lt; CE(T＋C 単独) の中央値。</li>
+<li><strong>H66d</strong>：重い崩壊の分だけで数えても、両方の主の重みで CE(S_full 単独) の中央値 &lt; CE(T＋C 単独) の中央値。</li>
+<li><strong>H66e</strong>：S_TC｜T＋C の CE（TAB=1）の中央値が両方の主の重みで 1 を超える。</li>
+<li><strong>H66f</strong>：A_XPT_S・U2 で、S_full｜T＋C の価値の 50% 以上が NUC_G から来る。</li>
+<li><strong>H66g</strong>：A_Ord・U3 で、費用の中央値のもとで CE(S_full 単独) = CE(T＋C 単独) となる S の発見確率 find_S*（喪失は主設定）は 1 を超える（どの届く確率でも束が費用あたりで上）。</li>
+<li><strong>H66h</strong>（146）：執筆の生産性を logU(1e5,1e6)（悲観）に絞っても、A_Ord・U3 で P(CE(S_full) &gt; CE(T＋C)) &lt; 0.5。</li>
+</ul>
+<h2 id="_2">感度（判定に使わない）</h2>
+<p>S の届く確率を 033 の定数（喪失 0.06、発見 0.75）にする、u_frag=u、主拠点と S の発見の相関（確率 0.5 で同じ乱数）、k_S=1、c_TC=0.3、find_S を 0.05〜1 で走査、施設アンカーごと、Clock of the Long Now（$4,200万、年の記載なし）を上のアンカーに足す、生産性 logU(1e6,1e7)、T の字数を 024 の g_req（0.725〜8.9 MB）にする。</p><footer><hr><small>自動生成</small></footer></body></html>
