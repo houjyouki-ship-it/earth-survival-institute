@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究062 事前登録（2026-10-19 22:44Z、資料を読んだ後・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="062-2026-10-19-2244zsimpy">研究062 事前登録（2026-10-19 22:44Z、資料を読んだ後・sim.py を書く前）</h1>
+<p>課題：open_problems 164（座標の冊子の写しが重い崩壊を越えて残り、読まれる確率と写しどうしの相関）。</p>
+<h2 id="sources-verify_excerptspy">資料（本回取得、sources/、抜き出しは verify_excerpts.py で照合）</h2>
+<ul>
+<li>版の現存部数（Wikipedia）：Gutenberg Bible（158〜185部、49部が残る）、First Folio（約750部、235部）、Bay Psalm Book（約1,700部、11部）、De revolutionibus 1543（初刷 400部、Gingerich の調べで 276部）、Principia 1687（500〜750部の推定、2020 の調べで 387部）、Nuremberg Chronicle（ラテン語 1,400〜1,500部→1,287部、ドイツ語 700〜1,000部→343部）、Magna Carta 1215（少なくとも13通→4通）。</li>
+<li>施設の出来事：Załuski（約40万点→写本 1,800＋印刷物 30,000 が残る、0.080）、Worcester Priory の解散（600冊→6冊、0.010）、York の Augustinian Friars（646冊→3冊、0.0046）、Library of Congress の 1851 の火事（Jefferson の本の 2/3 を失う、0.33）、Iraq 国立図書館 2003（本の 25%、文書の 60% を失う）、Warsaw 1944（図書館の 70〜80% が焼かれた）。</li>
+<li>使えなかったもの：Birds of America・Fabrica・Kelmscott Chaucer は刷り部数か現存部数のどちらかが本文になかった。</li>
+</ul>
+<h2 id="_1">模型</h2>
+<p>061 の sim.py を行頭の「# ---------- 仮説 ----------」の前まで exec し、061 の values を差0で再現する。061 の P_ptr（1部の確率 p＝(1−lost0)e^(−T/τp)·fp、実効の部数 1+(n_p−1)(1−c)、c~U(0.5,0.95)）を、相関を仕組みで作る二段の模型に置き換える。
+- 冊子 n_p 部を K 地域（主 K=20【推測】）に均等に置く（1地域 m=n_p/K_eff 部、K_eff=min(n_p,K)）。崩壊で各地域は確率 h（U(0.2,0.9)【推測】）で戦乱・放棄にあう。あった地域では各施設が確率 b（U(0.7,1.0)、Warsaw と解散が端）で焼かれ／散らされ、そこの1部は s_b（4件の logit 正規の予測分布）で残る。焼かれない施設の1部は s_u（U(0.4,0.75)、Iraq の文書と本）で残る。
+- 崩壊を越えた1部はその後 e^(−T/τp) で残り、fp で見つかり読まれる（τp・fp・r は 061 と同じ乱数）。P_ptr = 1 − [(1−h)(1−a)^m + h(1−q_h a)^m]^K_eff、a=e^(−T/τp)fp、q_h=(1−b)s_u+b s_b。
+- 版 census_tau：τp を版の現存部数の対数正規の予測分布から引く。used_tau：Bay Psalm の τ だけ。h_high：h~U(0.7,1.0)。K 走査 {1,2,5,10,20,50,100}（n_p=100）、n_p 走査 {1,3,10,30,100,300,1000}（K=20）、h 走査。
+- 061 の c との比較：同じ乱数の各標本で 061 の式に戻したときの c（含意の c）を T=300・1000年で解く。
+- 費用あたり：061 と同じ CE＝(ΔV_TC/V_TAB)×C_T/C_P。地域に分ける費用の上乗せは置かない【推測】。</p>
+<h2 id="a_ordu3-a_xpt_su2">仮説（A_Ord/U3 を主、A_XPT_S/U2 を併記）</h2>
+<ul>
+<li>H74a：版の現存部数から出す τ の中央値（8版、刷り部数の中点）は 061 の τp の中央値 316年より長い。</li>
+<li>H74b：含意の c（中央値、n_p=100、K=20、T=300）は 061 の幅 [0.5, 0.95] に入る。</li>
+<li>H74c：新しい模型（n_p=100、K=20）の重い崩壊の TC/V0 は 061 の pointer（0.81）から ±0.05 以内。</li>
+<li>H74d：K=20 で n_p=10 の上げ幅は n_p=1000 の 50% 以上（061 は 27%）。</li>
+<li>H74e：全部を1地域に置く（K=1、n_p=100）と上げ幅は K=20 の 50% 未満。</li>
+<li>H74f：新しい模型の CE（全体、中央値）は 060 の S_TC|TC の CE（17.8）より大きい。</li>
+<li>H74g：K=1 の CE は 17.8 より小さい。</li>
+<li>H74h：census_tau の重い崩壊の TC/V0 は新しい模型の主以上。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
