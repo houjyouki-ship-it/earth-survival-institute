@@ -1,0 +1,281 @@
+{
+ "cases": [
+  {
+   "id": "Greenland_iron",
+   "group": "literate",
+   "kind": "failure",
+   "tech": "iron smelting",
+   "N": [
+    2000,
+    10000
+   ],
+   "k": 0.0,
+   "cause": "fuel/ore",
+   "src": "wp_Norse_settlements_in_Greenland.txt",
+   "url": "https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland",
+   "ex": [
+    "There were no known ore deposits in Greenland at the time of the Vikings.",
+    "The already not very productive smelting of iron ore quickly reached its limits due to the lack of suitable fuel (charcoal), so that the settlements were almost entirely dependent on imports.",
+    "Estimates put the combined population of the settlements at their height between 2,000 and 10,000"
+   ]
+  },
+  {
+   "id": "Greenland_ships",
+   "group": "literate",
+   "kind": "failure",
+   "tech": "ocean-going ships",
+   "N": [
+    2000,
+    10000
+   ],
+   "k": 0.0,
+   "cause": "timber (thesis questioned)",
+   "src": "wp_Norse_settlements_in_Greenland.txt",
+   "url": "https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland",
+   "ex": [
+    "The Greenlanders were unable to fill this gap with their own ships because there was a lack of suitable materials for shipbuilding.",
+    "This thesis was already questioned in the 1950s",
+    "The constant lack of wood proved to be a problem."
+   ]
+  },
+  {
+   "id": "Iceland_iron",
+   "group": "literate",
+   "kind": "failure",
+   "tech": "bloomery iron",
+   "N": null,
+   "k": 0.5,
+   "cause": "not stated in the opened source; knowledge forgotten afterwards",
+   "src": "nmi_mire_to_metal.txt",
+   "url": "https://www.thjodminjasafn.is/en/syningar/ur-myri-i-malm",
+   "ex": [
+    "The use of metallurgical furnaces called bloomeries were used to smelt iron throughout the Middle Ages.",
+    "Thereafter the practice steadily declined until it was completely abandoned in the 17th or 18th century.",
+    "The knowledge of this ancient craftmanship has since been forgotten to time, leaving numerous questions about the bloomery process unanswered."
+   ]
+  },
+  {
+   "id": "Grafton_auger",
+   "group": "literate",
+   "kind": "failure",
+   "tech": "auger (tool-making)",
+   "N": [
+    5,
+    5
+   ],
+   "k": 0.0,
+   "cause": "tooling/capability",
+   "src": "wp_Grafton_(ship).txt",
+   "url": "https://en.wikipedia.org/wiki/Grafton_(ship)",
+   "ex": [
+    "unable to complete it as Raynal found it impossible to manufacture an auger despite a number of attempts"
+   ]
+  },
+  {
+   "id": "StKilda_boats_1727",
+   "group": "literate",
+   "kind": "failure",
+   "tech": "manning the boats",
+   "N": [
+    30,
+    100
+   ],
+   "k": 0.0,
+   "cause": "manpower",
+   "src": "wp_St_Kilda,_Scotland.txt",
+   "url": "https://en.wikipedia.org/wiki/St_Kilda,_Scotland",
+   "ex": [
+    "In 1727, the loss of life was so high that too few residents remained to man the boats, and new families were brought in from Harris to replace them.",
+    "the school closed on the MacKenzies' departure"
+   ]
+  },
+  {
+   "id": "Grafton_forge",
+   "group": "literate",
+   "kind": "success",
+   "tech": "bellows and forge",
+   "N": [
+    5,
+    5
+   ],
+   "carrier": "person",
+   "src": "wp_Grafton_(ship).txt",
+   "url": "https://en.wikipedia.org/wiki/Grafton_(ship)",
+   "ex": [
+    "Raynal created a pair of blacksmith's bellows from metal from the wreck, wood and sealskin.",
+    "He used the bellows to forge more tools from metal from the wreck."
+   ]
+  },
+  {
+   "id": "SeaVenture_pinnaces",
+   "group": "literate",
+   "kind": "success",
+   "tech": "two pinnaces",
+   "N": [
+    150,
+    153
+   ],
+   "carrier": "person",
+   "src": "wp_Sea_Venture.txt",
+   "url": "https://en.wikipedia.org/wiki/Sea_Venture",
+   "ex": [
+    "the survivors constructed two new ships, the pinnaces Deliverance and Patience, from local Bermuda cedar",
+    "The Deliverance was constructed under the direction of ship's carpenter Richard Frobisher"
+   ]
+  },
+  {
+   "id": "Tristan_longboats",
+   "group": "literate",
+   "kind": "success",
+   "tech": "longboats",
+   "N": [
+    100,
+    300
+   ],
+   "carrier": "person",
+   "src": "wp_Tristan_da_Cunha.txt",
+   "url": "https://en.wikipedia.org/wiki/Tristan_da_Cunha",
+   "ex": [
+    "Italian shipwreck survivor Gaetano Lavarello provided essential carpentry skills for building longboats",
+    "No ships called at the islands from 1909 until 1919"
+   ]
+  },
+  {
+   "id": "Pitcairn_literacy",
+   "group": "literate",
+   "kind": "success",
+   "tech": "literacy",
+   "N": [
+    28,
+    35
+   ],
+   "carrier": "person+book",
+   "src": "wp_History_of_the_Pitcairn_Islands.txt",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_Pitcairn_Islands",
+   "ex": [
+    "took responsibility for the education and well-being of the nine remaining women and 19 children. Using the ship's Bible from Bounty, he taught literacy and Christianity"
+   ]
+  },
+  {
+   "id": "LAnse_iron",
+   "group": "literate",
+   "kind": "success",
+   "tech": "bloomery iron",
+   "N": [
+    30,
+    160
+   ],
+   "carrier": "person",
+   "src": "wp_LAnse_aux_Meadows.txt",
+   "url": "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows",
+   "ex": [
+    "evidence of iron production",
+    "the dwellings could accommodate 30 to 160 people"
+   ]
+  },
+  {
+   "id": "Inughuit_kayak",
+   "group": "nonliterate",
+   "kind": "failure",
+   "tech": "kayak/umiak",
+   "N": [
+    100,
+    200
+   ],
+   "k": 1.0,
+   "cause": "knowledge lost",
+   "src": "wp_Inughuit.txt",
+   "url": "https://en.wikipedia.org/wiki/Inughuit",
+   "ex": [
+    "the Inughuit also lost the knowledge to build kayaks or umiaks"
+   ]
+  },
+  {
+   "id": "Dorset_bow",
+   "group": "nonliterate",
+   "kind": "failure",
+   "tech": "bow and arrow, drill",
+   "N": null,
+   "k": 0.5,
+   "cause": "hunting shift or deaths of knowledge holders",
+   "src": "wp_Dorset_culture.txt",
+   "url": "https://en.wikipedia.org/wiki/Dorset_culture",
+   "ex": [
+    "these earlier cultures had bow and arrow technology which the Dorsets lacked. Possibly, due to a shift from terrestrial to aquatic hunting, or the deaths of those who possessed"
+   ]
+  },
+  {
+   "id": "Tasmania_bone",
+   "group": "nonliterate",
+   "kind": "failure",
+   "tech": "bone tools, scaled fish",
+   "N": [
+    3000,
+    15000
+   ],
+   "k": 0.5,
+   "cause": "debated (knowledge vs economic)",
+   "src": "wp_Aboriginal_Tasmanians.txt",
+   "url": "https://en.wikipedia.org/wiki/Aboriginal_Tasmanians",
+   "ex": [
+    "Aboriginal Tasmanians had employed bone tools, but it appears that they switched from worked bone tools to more efficient sharpened stone tools."
+   ]
+  },
+  {
+   "id": "Moriori_crops",
+   "group": "nonliterate",
+   "kind": "failure",
+   "tech": "crops / ocean-going canoes",
+   "N": [
+    1600,
+    2000
+   ],
+   "k": 0.0,
+   "cause": "environment",
+   "src": "wp_Moriori.txt",
+   "url": "https://en.wikipedia.org/wiki/Moriori",
+   "ex": [
+    "The Chathams proved unsuitable for the cultivation of most crops known to Polynesians"
+   ]
+  },
+  {
+   "id": "Easter_canoes",
+   "group": "nonliterate",
+   "kind": "failure",
+   "tech": "(049 L=0.5)",
+   "N": [
+    2000,
+    3000
+   ],
+   "k": 0.0,
+   "cause": "deforestation",
+   "src": "wp_Easter_Island.txt",
+   "url": "https://en.wikipedia.org/wiki/Easter_Island",
+   "ex": [
+    "extreme deforestation (ecocide) destabilized an already precarious ecosystem"
+   ]
+  }
+ ],
+ "model_refs": [
+  {
+   "id": "Henrich2004_eq3",
+   "src": "henrich2004.txt",
+   "url": "https://gwern.net/doc/sociology/2004-henrich.pdf",
+   "ex": [
+    "N* is the criticalnumberof social learnersnec-",
+    "Thus,if we takeJones'sestimateof 4,000 Tasma-",
+    "N = 800"
+   ]
+  },
+  {
+   "id": "Vaesen2016",
+   "src": "vaesen2016.txt",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4843435/",
+   "ex": [
+    "First, they only support a relationship between demography and culture in implausible conditions.",
+    "So far, eight studies meet this criterion",
+    "The results of two of the studies are consistent with the prediction."
+   ]
+  }
+ ]
+}

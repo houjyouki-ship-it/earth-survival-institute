@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究058 事前登録（open_problems 155：知識は段の閾値を下げるか） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="058-open_problems-155">研究058 事前登録（open_problems 155：知識は段の閾値を下げるか）</h1>
+<p>登録時刻：2026-10-19T14:44:33Z（資料を読んだ後・sim.py の作成の前）。数値は sim.py の初回の実行で判定する。</p>
+<h2 id="_1">問い</h2>
+<p>本・文書（書かれた知識）は、技術を保つのに要る人数（038 の段の閾値 N_Fe・N_lens・N_T2e）を下げるか。下げるなら 054/057 の模型で T＋C の価値を何倍にするか（F）。056 の釣り合い 5.0 に届くか。</p>
+<h2 id="sourcescasesjson">資料と符号（sources/cases.json、一人の判断、【推測】）</h2>
+<ul>
+<li>文字を持つ小さな集団（L 群）：Norse Greenland（鉄・船）、Iceland（鉄）、Grafton の漂流者（auger）、St Kilda（1727年の舟）の失敗5件と、Grafton の鍛冶、Sea Venture の2隻、Tristan の longboat、Pitcairn の識字、L'Anse aux Meadows の製鉄の成功5件。</li>
+<li>文字のない孤立集団（049 の喪失5件）：Inughuit、Dorset、Tasmania、Moriori、Easter Island。</li>
+<li>失敗・喪失ごとに k（本文が原因を知識の喪失に帰す=1、知識と他の説が並ぶか不明=0.5、材料・燃料・人手・環境=0）。成功ごとに担い手（その技術を持つ人／本だけ／人＋本）。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<ul>
+<li>Henrich 2004 の式 (3) N* = exp(α/β − ε) を使う。手引きが伝達の損失 α を割合 s だけ減らすと閾値は thr = (λ·N·e^ε)^(−s) 倍になる（λ は人口のうち学ぶ人の割合、主 0.2＝Henrich の 4,000人→800人、感度 1）。s ~ Beta(3.5, 4.5)（057 の本だけの例で意図した水準に達した 3/7 の Jeffreys、【推測】の読み替え）。</li>
+<li>閾値のうち知識で決まる割合 ψ ~ Beta(2.5, 3.5)（文字のない孤立集団の喪失の k の和 2.0／5件の Jeffreys）。各標本・各段で確率 ψ で知識が縛り（thr を掛ける）、それ以外は材料・規模が縛り（thr=1）。</li>
+<li>057 の sim.py を「FS = [1.0」の前まで exec し、057 の乱数・tab_ok・p_early をそのまま使う。新しい乱数は seed 20261058。手引きは 057 と同じく tab_ok かつ早く見つかる標本でだけ効く。崩壊の時点の段 st は変えない。</li>
+<li>版：main（段ごとに独立）、corr（ψ の当たりを3段で共有）、psi_unif（ψ~U(0,1)）、psi1（ψ=1）、psi1_s1（ψ=1, s=1：上限）、main_fev（057 の f_ev の年数短縮も足す）、lam1（λ=1）。p_early は主 U(0.1,0.6) と 1。psi1・p_early=1 で段ごとの分解（N_Fe だけ、N_lens だけ、N_T2e だけ）。</li>
+</ul>
+<h2 id="_3">仮説（判定の規則）</h2>
+<ul>
+<li>H70a：L 群の失敗5件の k の平均 &lt; 0.25。</li>
+<li>H70b：文字のない孤立集団の喪失5件の k の平均 ≥ 0.30。</li>
+<li>H70c：L 群の成功のうち、その技術を持つ人が担った（担い手が「人」か「人＋本」）割合 ≥ 0.75。</li>
+<li>H70d：main の知識が縛りの段での thr の中央値（N_Fe）&lt; 0.1（理論の上では書かれた知識は強く効く）。</li>
+<li>H70e：main・p_early 主の F（A_Ord・U3）&lt; 1.2。</li>
+<li>H70f：どの版・p_early でも F（A_Ord・U3）&lt; 5（056 の釣り合いに届かない）。</li>
+<li>H70g：psi1・p_early=1 の重い崩壊の部分の比 F_heavy（A_Ord・U3）≥ 1.5。</li>
+<li>H70h：psi1・p_early=1 の F−1 の半分以上は N_lens か N_T2e を下げる分から来る（N_Fe だけの版の F−1 が全体の F−1 の 0.5 未満）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,86 @@
+URL: https://en.wikipedia.org/wiki/Bloomery
+A bloomery is a type of metallurgical furnace once used widely for smelting iron from its oxides.  The bloomery was the earliest form of smelter capable of smelting iron.  Bloomeries produce a porous mass of iron and slag called a bloom.  The mix of slag and iron in the bloom, termed sponge iron, is usually consolidated and further forged into wrought iron. Blast furnaces, which produce pig iron, have largely superseded bloomeries.
+
+
+== Process ==
+
+A bloomery consists of a pit or chimney with heat-resistant walls made of earth, clay, or stone. Near the bottom, one or more pipes (made of clay or metal) enter through the side walls. These pipes, called tuyeres, allow air to enter the furnace, either by natural draught or forced with bellows or a trompe.  An opening at the bottom of the bloomery may be used to remove the bloom, or the bloomery can be tipped over and the bloom removed from the top.
+The first step taken before the bloomery can be used is the preparation of the charcoal and the iron ore. Charcoal is nearly pure carbon, which, when burned, both produces the high temperature needed for the smelting process and provides the carbon monoxide needed for reduction of the metal.
+The ore is broken into small pieces and usually roasted in a fire, to make rock-based ores easier to break up, bake out some impurities, and (to a lesser extent) to remove any moisture in the ore. Any large impurities (as silica) in the ore can be removed as it is crushed. The desired particle size depends primarily on which of several ore types may be available, which will also have a relationship to the layout and operation of the furnace, of which a number of regional, historic/traditional forms exist. Natural iron ores can vary considerably in oxide form (Fe2O3 / Fe3O4 / FeO(OH)), and importantly in relative iron content. Since slag from previous blooms may have a high iron content, it can also be broken up and may be recycled into the bloomery with the new ore.
+In operation, after the bloomery is heated typically with a wood fire, shifting to burning sized charcoal, iron ore and additional charcoal are introduced through the top. Again, traditional methods vary, but normally smaller charges of ore are added at the start of the main smelting sequence, increasing to larger amounts as the smelt progresses. Overall, a typical ratio of total charcoal to ore added is in a roughly one-to-one ratio. Inside the furnace, carbon monoxide from the incomplete combustion of the charcoal reduces the iron oxides in the ore to metallic iron without melting the ore; this allows the bloomery to operate at lower temperatures than the melting temperature of the ore. As the desired product of a bloomery is iron that is easily forgeable, it requires a low carbon content. The temperature and ratio of charcoal to iron ore must be carefully controlled to keep the iron from absorbing too much carbon and thus becoming unforgeable. Cast iron occurs when the iron absorbs 2% to 4% carbon. Because the bloomery is self-fluxing, the addition of limestone is not required to form a slag.
+The small particles of iron produced in this way fall to the bottom of the furnace, where they combine with molten slag, often consisting of fayalite, a compound of silicon, oxygen, and iron mixed with other impurities from the ore. The hot liquid slag, running to the bottom of the furnace, cools against the base and lower side walls of the furnace, effectively forming a bowl still containing fluid slag. As the individual iron particles form, they fall into this bowl and sinter together under their own weight, forming a spongy mass referred to as the bloom.  Because the bloom is typically porous, and its open spaces can be full of slag, the extracted mass must be beaten with heavy hammers to both compress voids and drive out any molten slag remaining. This process may require several additional heating and compaction cycles, working at high 'welding' temperatures. Iron treated this way is said to be wrought (worked), and the resulting iron, with reduced amounts of slag, is called wrought iron or bar iron. Because of the creation process, individual blooms can often have differing carbon contents between the original top and bottom surfaces, differences that will also be somewhat blended together through the flattening, folding, and hammer-welding sequences. Intentionally producing blooms that are coated in steel (i.e. iron with a higher carbon content) by manipulating the charge of and air flow to the bloomery is also possible.
+As the era of modern commercial steelmaking began, the word "bloom" was extended to another sense referring to an intermediate-stage piece of steel, of a size comparable to many traditional iron blooms, that was ready to be further worked into billet.
+
+
+== History ==
+
+The onset of the Iron Age in most parts of the world coincides with the first widespread use of the bloomery. While earlier examples of iron are found, their high nickel content indicates that this is meteoric iron. Other early samples of iron may have been produced by accidental introduction of iron ore in copper-smelting operations. Iron appears to have been smelted in the Middle East as early as 3000 BC, but coppersmiths, not being familiar with iron, did not put it to use until much later.  In the West, iron began to be used around 1200 BC.
+
+
+=== East Asia ===
+Earlier scholarship sometimes assumed that iron production in China began with cast iron and the blast furnace, without an earlier bloomery tradition. New archaeological evidence led Wagner to reject this view. He concludes that wrought bloomery iron was the earliest smelted iron used in China and that iron-smelting technology was introduced into northwestern China from the west, possibly around the 8th century BC.
+Iron casting, by contrast, appears to have developed independently in China, probably in the south. Wagner suggests that early iron casting may initially have involved carburizing and melting bloomery iron in cupola furnaces rather than production in blast furnaces. Blast furnaces and fining were in use by the 1st century BC, although the precise chronology and location of these developments remain uncertain. By the early Han period, bloomery production appears to have largely disappeared in China. Wagner argues that its disappearance is more likely to have resulted from Han state control than from competition with blast furnace technology.
+
+
+=== Sub-Saharan Africa ===
+The earliest records of bloomery-type furnaces in East Africa are discoveries of smelted iron and carbon in Nubia in ancient Sudan dated at least to the seventh to the sixth century BC. The ancient bloomeries that produced metal tools for the Nubians and Kushites produced a surplus for sale. All traditional sub-Saharan African iron-smelting processes are variants of the bloomery process. There is considerable discussion about the origins of iron metallurgy in Africa. Smelting in bloomery type furnaces in West Africa and forging of tools appeared in the Nok culture of central Nigeria by at least 550 BC and possibly several centuries earlier. Also, evidence indicates iron smelting with bloomery-style furnaces dated to 750 BC in Opi (Augustin Holl 2009) and Lejja dated to 2,000 BC (Pamela Eze-Uzomaka 2009), both sites in the Nsukka region of southeast Nigeria in what is now Igboland. The site of Gbabiri, in the Central African Republic, has also yielded evidence of iron metallurgy, from a reduction furnace and blacksmith workshop, with earliest dates of 896–773 and 907–796 BC, respectively.
+
+
+=== South Asia ===
+During a hydroelectric plant project, in the southern foothills of the Central Highlands, Samanalawewa, in Sri Lanka, a wind-driven furnace was found in an excavation site. Such furnaces were powered by the monsoon winds and have been dated to 300 BC using radiocarbon-dating techniques. These ancient Lankan furnaces might have produced the best-quality steel for legendary Damascus swords as referred in earlier Syrian records. Field trials using replica furnaces confirmed that this furnace type uses a wind-based air-supply principle that is distinct from either forced or natural draught, and show also that they are capable of producing high-carbon steel.
+Wrought iron was used in the construction of monuments such as the iron pillar of Delhi, built in the third century AD during the Gupta Empire. The latter was built using a towering series of disc-shaped iron blooms. Similar to China, high-carbon steel was eventually used in India, although cast iron was not used for architecture until modern times.
+
+
+=== Early to medieval Europe ===
+
+Early European bloomeries were relatively small, primarily due to the mechanical limits of human-powered bellows and the amount of force possible to apply with hand-driven sledge hammers. Those known archaeologically from the pre-Roman Iron Age tend to be in the 2 kg range, produced in low shaft furnaces. Roman-era production often used furnaces tall enough to create a natural draft effect (into the range of 2m tall), and increasing bloom sizes into the range of 10–15 kg. Contemporary experimenters had routinely made blooms using Northern European-derived "short-shaft" furnaces with blown air supplies in the 5–10 kg range  The use of waterwheels, spreading around the turn of the first millennium and used to power more massive bellows, allowed the bloomery to become larger and hotter, with associated trip hammers allowing the consolidation forging of the larger blooms created. Progressively larger bloomeries were constructed in the late 14th century, with a capacity of about 15 kg on average, though exceptions did exist.  European average bloom sizes quickly rose to 300 kg, where they levelled off until the demise of the bloomery.
+As a bloomery's size is increased, the iron ore is exposed to burning charcoal for a longer time. When combined with the strong air blast required to penetrate the large ore and charcoal stack, this may cause part of the iron to melt and become saturated with carbon in the process, producing unforgeable pig iron, which requires oxidation to be reduced into cast iron, steel, and iron. This pig iron was considered a waste product detracting from the largest bloomeries' yield, and early blast furnaces, identical in construction, but dedicated to the production of molten iron, were not built until the 14th century.
+Bloomery type furnaces typically produced a range of iron products from very low-carbon iron to steel containing around 0.2–1.5% carbon. The master smith had to select pieces of low-carbon iron, carburize them, and pattern-weld them together to make steel sheets. Even when applied to a noncarburized bloom, this pound, fold, and weld process resulted in a more homogeneous product and removed much of the slag. The process had to be repeated up to 15 times when high-quality steel was needed, as for a sword. The alternative was to carburize the surface of a finished product. Each welding's heat oxidises some carbon, so the master smith had to make sure enough carbon was in the starting mixture.
+In England and Wales, despite the arrival of the blast furnace in the Weald in about 1491, bloomery forges, probably using waterpower for the hammer and the bellows, were operating in the West Midlands region beyond 1580. In Furness and Cumberland, they operated into the early 17th century and the last one in England (near Garstang) did not close until about 1770.
+One of the oldest-known blast furnaces in Europe has been found in Lapphyttan in Sweden, carbon-14 dated to be from the 12th century. The oldest bloomery in Sweden, also found in the same area, has been carbon-14 dated to 700 BC.
+Bloomeries survived in Spain and southern France as Catalan forges into the mid-19th century, and in Austria as the Stückofen to 1775.
+
+
+=== The Americas ===
+Iron smelting was rare in pre-Columbian America.
+Excavations at L'Anse aux Meadows, Newfoundland, have found considerable evidence for the processing of bog iron and the production of iron in a bloomery by the Norse. The cluster of Viking Age (c. 1000–1022 AD) at L'Anse aux Meadows are situated on a raised marine terrace, between a sedge peat bog and the ocean. Estimates from the smaller amount of slag recovered archaeologically suggest 15 kg of slag was produced during what appears to have been a single smelting attempt.  By comparing the iron content of the primary bog iron ore found in the purpose built 'furnace hut' with the iron remaining in that slag, an estimated 3 kg iron bloom was produced. At a yield of at best 20% from what is a good iron rich ore, this suggests the workers processing the ore had not been particularly skilled. This supports the idea that iron processing knowledge was widespread and not restricted to major centers of trade and commerce. Archaeologists also found 98 nail, and importantly, ship rivet fragments, at the site as well as considerable evidence for woodworking – which points to boat or possibly ship repairs being undertaken at the site.
+
+In the Spanish colonization of the Americas, bloomeries or "Catalan forges" were part of "self-sufficiency" at some of the missions, encomiendas, and pueblos. As part of the Franciscan Spanish missions in Alta California, the "Catalan forges" at Mission San Juan Capistrano from the 1790s are the oldest existing facilities of their kind in the present day state of California. The bloomeries' sign proclaims the site as being "part of Orange County's first industrial complex".
+The archaeology at Jamestown Virginia (circa 1610–1615) had recovered the remains of a simple short-shaft bloomery furnace, likely intended as yet another "resource test" like the one in Vinland much earlier.
+
+
+==== Colonial New England ====
+There are some who propose that the English settlers of the Thirteen Colonies were prevented by law from manufacture; and that for a time, the British sought to situate most of the skilled artisanry at domestic locations. The Falling Creek Ironworks was the first in the United States. The Neabsco Iron Works is an example of the early Virginian effort to form a workable American industry.
+In fact, there is a long history of colonial ironworks in Braintree and Saugus, Massachusetts and, notably, by the extended Leonard family in and around Taunton, Massachusetts. Taunton Iron Works was first organized in 1652 by James Leonard and 45 investors and by 1656 produced 20 to 30 tons of iron per year. James was the scion of an early industrial family of Massachusetts—in the 17th and 18th century New England colonists said “Where you find ironworks, there you will find a Leonard.”
+While some may contend that the iron industry was contested by the British, the Crown may have cultured the industry in favor for Loyalist to the crown. A case in fact would be James Leonard's grandson Daniel Leonard, a Loyalist raised by slaves after his mother died in childbirth who was made judge Mandamus during the American Revolution. In a historical exchange of opinion columns published in competing Boston newspapers Daniel Leonard, writing under the pen name "Massachusettensis" argued in support of the King of England against the letters of John Adams who wrote as "Novanglus" in support of revolution. Daniel's father Col. Ephraim Leonard "who, in 1734, erected his iron works on the Canoe River. The works were assessed for five hundred pounds.He was, without doubt, the wealthiest man in the North Precinct" and owned and gifted over 12 slaves and lived on a 1,200 acre estate near the East Mansfield Common in Massachusetts.
+The earliest iron forge in colonial Pennsylvania was Thomas Rutter's bloomery near Pottstown, founded in 1716. In the Adirondacks, New York, new bloomeries using the hot blast technique were built in the 19th century.
+
+
+=== Oceania ===
+The first commercially smelted iron in Australia, was made at the Fitzroy Iron Works, using a Catalan forge, in 1848.
+In New Zealand, a sophisticated direct-reduction furnace was used to smelt iron sand, at the Onehunga Ironworks, in 1883.
+
+
+== See also ==
+Blast furnace
+Double hammer
+Tatara (furnace)
+Direct reduction
+Direct reduction (blast furnace)
+
+
+== References ==
+
+
+== External links ==
+
+Experimental Iron Smelting (at the Wareham Forge)
+Viking-Era Norse techniques by DARC
+WIRG experimental bloomery
+Precursors of the blast furnace
+Roger Smith's article on bloomery construction
+How Stuff Works
+Early use of iron in China
+The Catalan process for the direct production of malleable iron and its spread to Europe and the Americas PDF by Estanislau Tomàs (retrieved 23 March 2010)
+A Practical Treatise on the Smelting and Smithing of Bloomery Iron https://hmsjournal.org/index.php/home/article/view/268/257
+An Update on "A Practical Treatise" https://www.researchgate.net/publication/285737243_An_American_bloomery_in_Sussex#fullTextFileContent

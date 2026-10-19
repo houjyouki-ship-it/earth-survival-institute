@@ -1,0 +1,161 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究058：書かれた知識は技術を保つのに要る人数（段の閾値）を下げるか（open_problems 155） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="058open_problems-155">研究058：書かれた知識は技術を保つのに要る人数（段の閾値）を下げるか（open_problems 155）</h1>
+<h2 id="_1">問い</h2>
+<p>057 で、前段の手引きが段の年数を縮めても T＋C の価値は最大 1.02倍で、閾値を一律 1/10 にしたときだけ 1.55倍になった。重い崩壊で金庫の価値を動かすのは人口の待ちと閾値である。では、本・文書は「技術を保つのに要る人数」（038 の N_Fe・N_lens・N_T2e）を本当に下げるのか。下げるなら、054/057 の模型で T＋C の価値を何倍にするか（F）。056 の釣り合い 5.0 に届くか。重い崩壊と軽い崩壊で分けて見る。</p>
+<h2 id="sourcescasesjson-32-verify_excerptspy">確認した事実（本回開いて確認。<code>sources/cases.json</code> の抜き出し 32件を <code>verify_excerpts.py</code> で保存本文と照合しすべて一致）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Henrich の模型では、技能の平均の変化は Δz = −α + β(ε + ln N)、技能が保たれる最小の学ぶ人の数は N* &gt; e^(α/β − ε)（式3）。Tasmania の 4,000人から、分業と子どもと高齢者を除いて N = 800 と例示</td>
+<td>【事実（<a href="https://gwern.net/doc/sociology/2004-henrich.pdf">Henrich 2004</a>）】</td>
+</tr>
+<tr>
+<td>Henrich と Powell の模型は「ありそうにない条件でしか人口と文化の関係を支えない」。他の要因と一緒に検定した8研究のうち、予測と合うのは2研究（Kline &amp; Boyd、Collard ら）</td>
+<td>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4843435/">Vaesen ほか 2016</a>）】</td>
+</tr>
+<tr>
+<td>Norse Greenland（最盛期 2,000〜10,000人）：鉱床がなく、製鉄は燃料（木炭）の不足ですぐ限界に達し、ほぼ輸入に頼った。自前の船は材料がなく作れなかった（この説は1950年代から疑問も出ている）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland">Norse settlements in Greenland</a>）】</td>
+</tr>
+<tr>
+<td>Iceland：中世を通じて沼鉄を製錬したが、その後しだいに減り 17〜18世紀に完全にやめ、<strong>その技術の知識は忘れられ</strong>、製錬の方法の多くが分からなくなった</td>
+<td>【事実（<a href="https://www.thjodminjasafn.is/en/syningar/ur-myri-i-malm">National Museum of Iceland, From mire to metal</a>）】</td>
+</tr>
+<tr>
+<td>Grafton の漂流者（5人、Auckland 島、1864〜65年）：Raynal が難破船の金属・木・海豹の皮で鍛冶の鞴を作り、道具を鍛えたが、何度試しても auger（錐）は作れず、船の建造をあきらめて小舟を改造した。同じ島の Invercauld（上陸 19人）は生き残り3人</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Grafton_(ship)">Grafton</a>、<a href="https://en.wikipedia.org/wiki/Invercauld_(ship)">Invercauld</a>）】</td>
+</tr>
+<tr>
+<td>Sea Venture（Bermuda、約150人）：船大工 Richard Frobisher の指揮で、Bermuda の杉と難破船の材料から2隻の小船を造った</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Sea_Venture">Sea Venture</a>）】</td>
+</tr>
+<tr>
+<td>Tristan da Cunha：1906〜08年頃の極端な孤立を、難破したイタリア人 Gaetano Lavarello の大工の技能で longboat を造って乗り切った。1909〜1919年は船が来なかった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Tristan_da_Cunha">Tristan da Cunha</a>）】</td>
+</tr>
+<tr>
+<td>St Kilda：1727年に死者が多く舟を漕ぐ人が足りなくなり、Harris から家族を入れた。学校は牧師が去ると閉じた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/St_Kilda,_Scotland">St Kilda</a>）】</td>
+</tr>
+<tr>
+<td>Pitcairn：Adams が Bounty の聖書で女性9人と子ども19人に読み書きを教えた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/History_of_the_Pitcairn_Islands">History of the Pitcairn Islands</a>）】</td>
+</tr>
+<tr>
+<td>L'Anse aux Meadows（住居は 30〜160人分）：製鉄の跡がある</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows">L'Anse aux Meadows</a>）】</td>
+</tr>
+<tr>
+<td>文字のない孤立集団の5件（Inughuit、Dorset、Tasmania、Moriori、Easter Island）は 049 の取得の写しを使った。Kakure Kirishitan・Faroe Islands・History of Iceland・Bloomery・Auckland Islands・Reductions も取得したが符号には使っていない。Iceland の製鉄の論文（Skemman の 1946/33092）は PDF が 500 エラーで開けず使っていない。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-2026105840">方法（<code>sim.py</code>、seed 20261058、約40秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-19T14:44:33Z</strong>、資料を読んだ後、sim.py の作成の前）。逸脱なし。</li>
+<li><strong>符号（【推測】、一人の判断）</strong>：失敗・喪失ごとに k（本文が原因を知識の喪失に帰す=1、知識と他の説が並ぶか原因不明=0.5、材料・燃料・人手・環境=0）。成功ごとに担い手（その技術を持つ人／本だけ／人＋本）。</li>
+<li><strong>閾値の倍率（【独自仮説】）</strong>：手引きが Henrich の伝達の損失 α を割合 s だけ減らすと、式3から閾値は thr = (λ·N·e^ε)^(−s) 倍になる。λ＝学ぶ人の割合 0.2（Henrich の 4,000→800、感度で 1）。s ~ Beta(3.5, 4.5)（057 の本だけの移転で意図した水準に達した 3/7、【推測】の読み替え）。</li>
+<li><strong>知識が縛りの割合 ψ</strong> ~ Beta(2.5, 3.5)（文字のない孤立集団の喪失の k の和 2.0／5件）。各標本・各段で確率 ψ で知識が縛り（thr を掛ける）、残りは材料・規模が縛り（thr=1）。</li>
+<li>057 の sim.py を「FS = [1.0」の前まで exec し、057 の F（f=0・thr=1／0.1／0.01、f_ev）を<strong>差0で再現</strong>、閾値を段ごとにした T2 到達の式も thr=1 で 054 の T2s を<strong>差0で再現</strong>した。手引きは 057 と同じく tab_ok かつ早く見つかる標本でだけ効く。崩壊の時点の段 st は変えない。</li>
+<li>版：main、corr（ψ の当たりを3段で共有）、psi_unif（ψ~U(0,1)）、psi1（ψ=1）、psi1_s1（ψ=1, s=1：閾値がほぼ消える上限）、lam1（λ=1）、main_fev（057 の f_ev の年数短縮も足す）。p_early は主 U(0.1,0.6) と 1。</li>
+<li>再現：024・032〜034・037〜040・053〜057 を <code>/tmp/rep058/</code> に複製し 057 を再実行、results.json は runtime 以外一致（葉 649個、差分0）。058 は <code>/tmp/rep058b/</code> で再実行し results.json は runtime 以外一致（葉 240個、差分0）、図2枚の MD5 も一致。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H70a</td>
+<td>文字のある小集団の失敗の k の平均 &lt; 0.25</td>
+<td><strong>0.10</strong>（Iceland を 0／1 にして 0.0／0.2）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H70b</td>
+<td>文字のない孤立集団の喪失の k の平均 ≥ 0.30</td>
+<td><strong>0.40</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H70c</td>
+<td>文字のある小集団の成功のうち技能を持つ人が担った割合 ≥ 0.75</td>
+<td><strong>5/5</strong>（本だけの成功は 0件）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H70d</td>
+<td>知識が縛りの段の thr の中央値（N_Fe）&lt; 0.1</td>
+<td><strong>0.027</strong>（5〜95% 0.0017〜0.24）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H70e</td>
+<td>main・p_early 主の F（A_Ord・U3）&lt; 1.2</td>
+<td><strong>1.097</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H70f</td>
+<td>どの版でも F（A_Ord・U3）&lt; 5</td>
+<td>最大 <strong>2.86</strong>（psi1_s1・p_early=1）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H70g</td>
+<td>psi1・p_early=1 の重い崩壊の部分の比 ≥ 1.5</td>
+<td><strong>4.09</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H70h</td>
+<td>psi1・p_early=1 で N_Fe だけを下げた分 &lt; 全体の F−1 の半分</td>
+<td>N_Fe だけ 0.0002、全体 1.12</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>事例</strong>：文字のある小集団の失敗5件は、燃料・鉱石（Greenland の鉄）、材料（Greenland の船）、道具を作る力（Grafton の auger）、人手（St Kilda）で、知識の喪失に帰されたものはない（Iceland は原因の記述なし）。成功5件はすべて、その技能を持つ人（Raynal、Frobisher、Lavarello、Norse の鍛冶）か、人が本で教えた例（Pitcairn の識字）。文字のない孤立集団の喪失は 0.40 が知識の喪失に帰される（Inughuit 1、Dorset・Tasmania 0.5）。</li>
+<li><strong>理論の上の倍率</strong>：知識が縛りなら thr の中央値は N_Fe 0.027、N_lens 0.0071、N_T2e 0.0032（psi1）。Henrich の式では閾値が α/β の指数なので、損失の 4割を減らすだけで閾値は 1/30〜1/300 になる。</li>
+<li><strong>F（T＋C の価値の倍率、全体／重い崩壊の部分）</strong>：
+  | 版 | A_Ord・U3（p_early 主） | A_Ord・U3（p_early=1） | A_XPT_S・U2（主／1） |
+  |---|---|---|---|
+  | main | <strong>1.097</strong>／1.27 | 1.275／1.76 | 1.008／1.023 |
+  | corr | 1.166／1.46 | 1.466／2.29 | 1.009／1.026 |
+  | psi_unif | 1.142／1.39 | 1.404／2.11 | 1.011／1.029 |
+  | psi1 | 1.397／2.10 | <strong>2.121</strong>／<strong>4.09</strong> | 1.023／1.062 |
+  | psi1_s1（上限） | 1.654／2.80 | <strong>2.864</strong>／<strong>6.14</strong> | 1.023／1.063 |
+  | lam1 | 1.101／1.28 | 1.289／1.80 | 1.008／1.023 |
+  | main_fev | 1.107／1.30 | 1.310／1.85 | 1.011／1.029 |</li>
+<li><strong>段ごとの分解（psi1・p_early=1、A_Ord）</strong>：N_Fe だけ 1.0002、N_lens だけ 1.003、N_T2e だけ 1.348、3段とも 2.121。単独の和（0.35）は全体（1.12）の約3割で、残りは段どうしの組み合わせから来る。</li>
+<li><strong>重い崩壊の T2 到達の中央値</strong>（psi1、手引きが効く標本に限らない段の式の値）：U3 1,968年 → <strong>268年</strong>（年数も0にして 108年）、BIO 1,204 → 96年、CASC 254 → 39年。057 の年数を0にした場合（1,957年）と比べて、閾値の効きははるかに大きい。</li>
+<li><strong>費用あたり（全段の T＋C、V_mix、中央値、TAB=1）</strong>：054 の価値で 2.33 → main の F で <strong>2.55</strong>、上限で 6.67（南半球の写し S_TC は 6.89）。A_XPT_S では上限でも 2.47（S_TC 15.5）。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>理論の倍率は大きすぎる恐れがある</strong>。thr が 1/30〜1/300 になるのは Henrich の式が閾値を α/β の指数で決めるためで、Vaesen ほか 2016 はこの式が「ありそうにない条件」でしか人口との関係を出さないと批判し、実証の8研究のうち2つしか人口の効きを支持していない。本回の上限（2.86）は、この模型の形をそのまま信じた場合の値と読むべきである。</li>
+<li><strong>s の置き方は弱い</strong>。057 の「本だけで意図した水準に達した 3/7」を「伝達の損失のうち手引きが除く割合」と読み替えたのは【推測】で、根拠は薄い。直接の測り方は、伝達の連鎖の実験で書かれた手順と実演を比べることで、本回はしていない（新しい問い 157）。</li>
+<li><strong>事例は文字の効きを直接測っていない</strong>。文字のある集団の失敗が材料・人手に帰されるのは、そうした集団が交易に頼り、技能を持つ人が入ってこられたからかもしれない。また Iceland では、文字の社会なのに製錬の知識が失われた。日々の読み書きは技能の手順を書き残さず、目的を持って書いた手引きとは別物である。両方の向きの偏りがあり、k の差（0.10 対 0.40）は小標本（5件と5件）の目安にとどまる。</li>
+<li><strong>成功はすべて人が担った</strong>。Grafton の5人は鍛冶を作り直したが auger は作れず、Sea Venture の2隻は船大工がいて初めて造れた。小さな集団が段を保つ例では、本は人の代わりでなく、人が教える道具（Pitcairn）として出てくる。本だけで技能を保った小集団の例は本回の資料に1件もない。</li>
+<li><strong>3段を揃えないと効かない</strong>。人口の待ちは最も重い閾値で決まるので、N_Fe や N_lens だけ下げても F はほぼ 1。T2 の段（N_T2e）を含めて揃えたときだけ効く。前段の手引きを部分的に書くと、この効きはほとんど得られない。</li>
+<li><strong>崩壊の時点の段 st は変えていない</strong>。手引きが崩壊の前に広く配られていれば、生き残りが最初から深く落ちない効きもあるが、金庫の手引きは崩壊の後に見つかるものなので、この模型の外とした。</li>
+<li>それでも、閾値を下げる効きは年数を縮める効き（057：重い崩壊の部分 1.06倍）より大きい。main で重い崩壊の部分 1.27倍、上限で 6.1倍。軽い崩壊（A_XPT_S の重みの大半）では 1.01〜1.06倍で、効きはほぼ重い崩壊に限られる。</li>
+</ul>
+<h2 id="_4">新規性</h2>
+<p>Henrich 2004 は孤立による技能の喪失を説明するための模型で、Ord・XPT・Dartnell は書かれた知識が再建の人数をどれだけ減らすかを数で扱っていない。本回は Henrich の式3を「手引きが伝達の損失を減らすと閾値が何倍になるか」に読み替え、文字のある・ない小集団の失敗の原因（k）で知識が縛りの割合を置き、崩壊後の人口の模型に入れて、<strong>書かれた知識が閾値を下げる効きは上限でも T＋C の価値を 2.9倍（重い崩壊の部分 6.1倍）にしかせず、056 の釣り合い 5.0 に届かない</strong>こと、効きは T2 を含む3段を揃えたときだけ出ることを数値で示した。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<p>本研究所は、057 の「全段の手引きは金庫の物差しで正当化できない」を、閾値の線を足しても維持する（上限 2.86 &lt; 5.0）。ただし重い崩壊の価値を動かす最大の未知は、知識の年数でなく「書かれた手順が技術を保つのに要る人数をどれだけ減らすか（s）」だと記録し、次はこれを伝達の連鎖の実験の公開データで測る（157）。手引きの企画者は、前段の節を書くなら鉄・レンズ・T2 の3段をまとめて書き、どれか1段だけを書く計画は立てない（1段だけでは効きが 0〜35%）。</p><footer><hr><small>自動生成</small></footer></body></html>

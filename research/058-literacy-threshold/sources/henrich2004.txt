@@ -1,0 +1,1176 @@
+                                                       ARTICLESII~
+
+
+
+   DEMOGRAPHY AND CULTURAL EVOLUTION: HOW ADAPTIVE
+  CULTURAL PROCESSES CAN PRODUCE MALADAPTIVE LOSSES-
+                  THE TASMANIAN CASE
+
+                                                      Joseph Henrich
+
+
+A combinationof archeological and ethnohistorical evidence indicates that, over an approximately8,000-year period,from
+ the beginning of the Holocene until Europeanexplorersbegan arriving in the eighteenth century,the societies of Tasmania
+ lost a series of valuable skills and technologies. These likely included bone tools, cold-weather clothing, hafted tools, nets,
+fishing spears, barbed spears, spear-throwers,and boomerangs. To address this puzzle, and the more general question of
+ how human cognition and social interaction can generate both adaptive cultural evolution and maladaptive losses of cul-
+ turally acquired skills, this paper constructs a formal model of cultural evolution rooted in the cognitive details of human
+ social learning and inference. The analytical results specify the conditionsfor differing rates of adaptive cultural evolu-
+ tion, and reveal regimes that will produce maladaptive losses of particular kinds of skills and related technologies. More
+specifically, the results suggest that the relatively sudden reductionin the effectivepopulation size (the size of the interact-
+ ing pool of social learners) that occurred with the rising ocean levels at the end of the last glacial epoch, which cut Tas-
+mania offfrom the rest of Australiafor the ensuing ten millennia, could have initiated a cultural evolutionaryprocess that
+ (1) keptstable or even improvedrelativelysimple technological skills, and (2) produced an increasing deteriorationof more
+ complex skills leading to the complete disappearance of some technologies and practices. This pattern is consistent with
+ the empirical record in Tasmania.Beyond this case, I speculate on the applicability of the model to understandingthe vari-
+ability in rates of adaptive cultural evolution.
+
+La evidenciaarqueoldgicay etnohist6ricaindica que, a lo largo de aproximadamente8,000 afios, desde el principiodel Holo-
+ceno hasta la llegada de exploradoreseuropeosen el siglo XVIII,las sociedades de Tasmaniaperdierongranparte de su cul-
+turatecnolo'gica.Las herramientasquedesaparecieronprobablementeincluyenel hueso, roparesistentealfrio, los instrumentos
+enmangados,arpones, lanzas de pdas, los lanza-lanzadoresy los bumerangs. Cdmo es posible que se perdiera todo esto?
+Para resolvereste misterio,y tambidnesclarecer deforma mds general c6mo elgconocimientohumanoy la interaccidnsocial
+pueden generar adaptacionesy tambidnla pe'rdidade las mismas, e inclusive malas adaptaciones, en este articulo se con-
+struyeun modeloformal de la evolucidnculturalque se basa en detalles cognoscitivosdel aprendizajey la inferenciahumanos
+en el dmbitosocial. Los resultadosanaliticos especifican los regimenesde condiciones bajo los cuales la evolucidncultural
+generaadaptaciones,y tambienlos regimenescontrastantesbajo los cuales se producenpdrdidasque representanmalasadapta-
+ciones tanto de habilidades como de las tecnologias vinculadas con ellas. Mds especificamente,los resultadossugieren que
+la reduccidnrelativamenterepentinaen el tamahioeficaz de la poblacidn (el tamafiodel grupo de aprendicessociales), es la
+causa mds importantede estas perdidas culturales.El motor ecoldgico de esta reduccidnfue el alza del nivel del mar en la
+epoca final de la glaciacidn pasada, que tuvo como efecto separar a Tasmaniadel resto de Australiadurantelos ultimosdiez
+milenios. La consecuenciafue un deteriorode las habilidadesmds complejascon las cuales contaba esta poblacidn. El expe-
+diente empirico de la arqueologia en Tasmaniaconfirmaeste patrdn. Mds alld de este caso particular,se presentan especu-
+laciones acercade la aplicabilidadde este modelopara entenderla variabilidaden los indicesde la evolucidnculturaladaptativa
+en el marco tecnoldgico.
+
+         paperpresents a modelof cumulativenitive capacitiesfor social learning(i.e., cultural
+This culturalevolutionthatexplicitly links cer- transmission),which likely evolved via natural
+       tain cognitive aspects of culturallearning                 selectionfor theirabilityto extractadaptiveinfor-
+withsocialgroupcharacteristics  (e.g., size, density,             mation from the social environment(Boyd and
+interconnectedness).My goal is to provide some                    Richerson 1985; Henrich and Gil-White 2001),
+generaltheoreticalinsightsthatshowhow ourcog-                     generate varying rates of cultural/technological
+Joseph Henrich 0 Emory University,Departmentof Anthropology,Geosciences Building, Atlanta,GA 30322-1720
+(jhenric@emory.edu)
+                                     AmericanAntiquity,69(2), 2004, pp. 197-214
+                                Copyright@2004 by the Society for AmericanArchaeology
+
+                                                              197
+
+
+
+                           This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                           All use subject to JSTOR Terms and Conditions
+198                                          AMERICAN
+                                                    ANTIQUITY                                      [Vol.69, No. 2, 2004
+
+
+evolution,includingregimesof technologicalloss trastsstarklywithaboriginalAustraliansjustacross
+or maladaptivechange.1As a case example,I will theBass Straitwho possessedalmosttheentireTas-
+apply predictionsderivedfrom the formalmodel maniantoolkitplushundredsof additionalspecial-
+to illuminatesome of the curiousaspects of Tas- ized tools includingmultiprongedfishing spears,
+manianculturalevolutionobservedfromthebegin- spear-throwers,       boomerangs,mountedadzes,com-
+ning of the Holocene to the arrivalof Europeans. positetools, a varietyof netsforbirds,fishandwal-
+Below,I firstdescribetheTasmaniancase, andthen labies,sewnbarkcanoes,stringbags, ground-edge
+developa fairlygeneralanalyticalmodelof cultural axes, andwoodenbowls for drinking(Jones1974,
+evolution,derivingits implicationsin relationto the 1976;Plomley 1966;Ryan 1981).
+availableevidence.Next,I comparethismodelwith          This ethnographicpatternhadled some to mis-
+alternativeapproaches.And finally,I brieflyspec- takenlyassumethatTasmaniantechnologicalevo-
+ulate abouthow the model might be used to illu- lution, for whatever reason, had stopped after
+minateothercases of rapidoruneventechnological splittingoff fromthemainland.Itappears,however,
+changein the archaeologicalrecord.                  that the Tasmaniantechnological suite and eco-
+                                                    nomicrepertoireunderwentsomeseverelossesafter
+              The TasmanianCase                     being isolated-although these losses are mixed
+                                                    with some minorimprovementsin core lithictech-
+Archaeological evidence indicates that humans nologies(Jones1977b;WhiteandO'Connell1982).
+probablyarrivedin Tasmaniaabout34,000 years The clearest evidence for this comes from the
+ago (Jones 1995). In reachingwhat would later Holocene archaeological record for Tasmania,
+become an island four-fifthsthe size of Ireland which is nearlycontinuousfrom 8000 B.P. to the
+(67,800 km2), Paleolithicforagerslikely walked ethnographicpresent.It shows a generalpatternof
+fromAustraliaacrossa landbridgethatwouldlater changefroma morecomplextoolkitto a less com-
+become the Bass Strait.Withthe beginningof the plex one. Forexample,while bone tools appearin
+end of the last glacial epoch, between 12,000 and several sites from Pleistocene Tasmania-dating
+10,000yearsago,theTasmanianswerecutoff from back at least 18,000 years-the frequency,variety
+Australiaby risingseasthatseveredthelandbridge, of types, andqualityof bone tools show a gradual
+and graduallyfilled the 200-km stretchto Tasma- decline from 8,000 to 3,000 years ago, at which
+nia (Bowdler 1982; Diamond 1977, 1978; Jones pointbonetoolsdropentirelyfromtherecord.Seven
+1977a, 1995). When Europeansbeganarrivingon thousandyearsago the ratioof stoneto bone tools
+Tasmaniaten millennialater,they found a small at RockyCapewas 3:1. Threethousandyearslater
+groupof societiesthatpossessedthe simplesttech- it was 15:1, and about3,500 years ago bone tools
+nology of any knowncontemporaryhumangroup disappearentirelyfromthe record(Bowdler1974;
+(McGrew1987;Oswalt1973, 1976).Not only was Jones 1977b;Ransonet al. 1983;WebbandAllen
+theTasmanians'   technologysimplecomparedto the 1990).Ethnographically,     thereis not a single men-
+wider world, it was remarkablysimple compared tionof bonetools,despitethe effortsof observersto
+to both theircontemporaries200 km to the north recordthe materialculture(Jones 1974; Plomley
+in Australia,and to their own ancestorsfrom the 1966;Ryan1981).Incontrast,     AboriginalAustralians
+late PleistoceneandearlyHolocene(Jones1977b, deployedavastarrayof finebonetools(Jones1977b;
+ 1995).                                             Lourandos1997), and bone artifacts(double-row
+    Based on a combinationof ethnohistoricaland barbedpoints) have been datedto 89,000 B.P. in
+archaeologicaldata,Tasmanianshadby thetime of Africa(Brookset al. 1995;Yellenet al. 1995).
+Europeandiscoverylikelylost, orneverdeveloped,         Further,despitetheircool maritimeclimate,the
+the capacity to manufacture bone  tools of anykind, Tasmanians  also appearto have lost the abilityto
+cold-weatherclothing,fishhooks,haftedtools,fish- make cold-weatherclothing-a skill that likely
+ing spears,barbedspears,fish/eeltraps,nets,spear- allowedthemto weatherthe last glacialmaximum
+throwers, and boomerangs. To hunt and fight, in a place thatwas only a few hundredkilometers
+Tasmanianmen used only one-piecespears,rocks, north of an expanded Antarctica.For clothing,
+and throwingclubs. In all, the entire Tasmanian unlike their neighborsin southernAustraliawho
+toolkitconsistedof only about24 items,whichcon- wrappedthemselveswarmlyin snugpossum-skin
+
+
+
+
+                     This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                     All use subject to JSTOR Terms and Conditions
+Henrich]                         DEMOGRAPHY AND CULTURAL EVOLUTION                                 199
+
+
+cloaks, ethnographically recorded Tasmanians meters northat Bass Point, fishing never ceases,
+donnedonly wallabyskins, which they slungover althoughtechnologylikely shiftedfrom spearsto
+theirshouldersandtied with skin scraps.This was shell fishhooks(Jones 1977c).4
+supplementedby spreadinggrease or ochre over           AlthoughmostAustralianarchaeologistsaccept
+their exposed skin. Interestingly, comparative the evidence thatthe Tasmaniansstoppedfishing
+ethnographicdatafromAustralia,anddetaileduse- at some point in prehistory(e.g., Bowdler 1980;
+wearstudiesof Paleolithicfinds,suggeststhatsome Collett 1994;Horton1979; Lourandos1997;Van-
+of the bone tools that disappeared from the derwal1978),theremaybe reasonto doubtthatthe
+Holocene archaeological record were probably Tasmaniansever fished at all. Bassett (2004) has
+used to fashion cold-weather clothing (Jones arguedthatJones'Rocky Cave datamay be more
+1977b, 1990;WebbandAllen 1990).Thus,theloss consistent with a "seal-butcheryinterpretation,"
+of bone tools and cold-weatherclothing may be notingthatthe sizes and types of fish represented
+linked.2                                            in the data can be understoodas the contentsof
+    Perhaps the most striking losses sufferedby the seals' guts. This hypothesisleaves open the ques-
+Tasmaniansduring their long isolation involved tion of why seal bones continuethroughtherestof
+theirabilityto catchbony or cartilaginousfish and the sequence,up to the ethnographicpresent,but
+theirtastefor suchfish("fish"heredoes notinclude fish bones do not. Nevertheless,regardlessof the
+shellfish,crustaceans,or mollusks).The archaeo- outcomeof thisdebate,nothingaboutmy argument
+logical recordfrom 8,000 to 5,000 yearsago indi- or the model hinges on Tasmanianfishing in par-
+cates that Tasmaniansrelied heavily on fish, and ticular.Even if it turns out that the Tasmanians
+fishing was probablythe second-most common neverfishedat all, we areleft with eitherthe loss,
+huntingactivity.The availableevidence indicates or the lack, of a wide rangeof othertechnologies
+thatfish were likely second only to seals in terms and practicesvis-a-vis the Australianaboriginals.
+of calories, and they probablysuppliedabout 21 Fishing merelymoves fromthe categoryof "lost"
+percentof the meat-which is three times more to thatof "neverevolved."As notedabove,theabo-
+thanthethird-rankedietaryitem,wallabies(Jones riginalson thenorthernsideof theBass Straitrelied
+1977c:35).At this latitude,meatwas undoubtedly on a wide rangeof fishingtechniquesthatincluded
+a sizableportionof the totalTasmaniandiet.3Nev- fish traps,nets,barbedspears,andshell fishhooks.
+ertheless,by 5000 B.P.the frequencyof fish bones Furthermore,fromthe perspectiveof comparative
+was declining,and by 3800 B.P. fish disappeared ethnography,either category ("lost" or "never
+entirely from the archaeologicalrecord all over evolved") is equally puzzling, given the depen-
+Tasmania-yet, the relativeproportionsof other dence on fishing observedamong other cool-cli-
+elements in the Tasmanians'diverse diet do not mate maritimeforagerssuch as the Morioriof the
+shiftmuch(Jones1977c).In concordancewiththe ChathamIslandsandthe OnaandYahganof Tierra
+archaeologicalrecord,detailedethnographicstud- del Fuego. I will returnto these issues laterin the
+ies, including inspections of middens and fire- paper.
+places, confirm that fish was not a part of the        Looking at overall technological complexity,
+Tasmanian diet when the Europeans arrived. Oswalt (1973, 1976) performsa systematiccom-
+Numeroushistoricalaccountsdescribenotonlythe parativeanalysisof the complexityof food-getting
+Tasmanians'great surpriseat seeing Europeans technologythatallowsus to quantitatively        contrast
+catching enormousamountsof fish (by all early the ethnohistorically      knownTasmanianswithother
+accountsTasmanianfishing was a greatbounty), foraginggroups.His approachlooks at the number
+but also theirdisgust at the thoughtof eatingfish, of differentechnologicalformsandthe numberof
+and theirrepeatedrefusalsto acceptoffers of fish functionallyrelevant(anddifferentiated)   constituent
+(in  contrast to other  offers  that  were  readily parts in those forms to assess the aggregatecom-
+accepted).Perhapsthemostinteresting,andwidely plexityof eachgroupsfood-gettingtechnology.(He
+overlooked,aspectof this is not the disappearance also makes a persuasiveempiricalargumentthat
+of fishing 3,800 years ago, but the fact thatin the while the number of constituent parts does not
+ensuingfourmillenniait neverre-enteredthe eco- alwayspredicta technology'seffectiveness,it does
+nomicrepertoire-meanwhilea few hundredkilo- stronglycorrelatewith it.) In comparisonswith 12
+
+
+
+
+                     This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                     All use subject to JSTOR Terms and Conditions
+200                                            AMERICAN ANTIQUITY                                    [Vol. 69, No. 2, 2004
+
+
+other foraging groups,includingthree temperate fected, then the averageskill of the N individuals
+groups,threearcticgroups,andfivecoastalorisland afterimitation(z) will increaseto Zh(now,Z= Zh).
+groups, the ethnographicallyknown Tasmanians If everyonenow imitatesthenew most skilledindi-
+come out in a distantlast place.At the conclusion vidual, h' (e.g., the new best net-maker),then the
+of his discussion,Oswalt writes (1973:92) of the groupaveragewill againincreaseto thatof thenew
+Tasmanians,"In technologicaltermsthey did not most-skilledperson,andthemeanskillof thegroup
+have any complexweapons ["weapons"includes will now exceed the skill of the initial best net
+huntingtools], nor did they make any composite maker(Z= Zhr>Zh).As this process repeats,skill-
+instrumentsor weapons.These factorsset the Tas- biasedtransmissioncombineswith learningerrors
+maniansapartfromall otherpeoplesin the world" (or individual experimentation) to generate a
+[emphasisin original;bracketsaremine].              process of cumulativeculturaladaptation(Boyd
+                                                    and Richerson1985:Chapter8).
+                     The Model                          More realistically, if we assume that human
+                                                    inferenceis imperfectandindividualexperiments
+To analyzethe relationshipbetweendemography arecostly andoften inconclusive,thenindividuals
+and cumulativeculturalevolution,I constructeda will rarelyachievethe level of skill demonstrated
+simple model rootedin the availableevidence on by theirchosenmodel.Thiswill be particularly             true
+human social learning.This evidence, from both for complex skillsthataredifficultto figureout on
+field and laboratorystudies, shows that humans one's own. Suchlow-fidelityculturaltransmission
+possess a psychologicalpropensityto payattention meansthatcumulativeculturaladaptationmaynot
+to, andattemptto imitate,particularlyskillful,suc- occur.Even if the inferentialmachineryof human
+cessful and/orprestigiousindividuals.5  A tendency mindswereperfect,thetransmissionprocesswould
+to orientone's sociallearningattentiontowardpar- still resultin a rangeof errorsbecausebehavioral
+ticularly skillful individuals ("culturalmodels") (phenotypic)displays providelearnerswith only
+createsa selectiveforcein culturaltransmissionthat incomplete informationfrom which to mentally
+may,undersome circumstances,generatecumula- reconstructtheunderlyingskill,strategies,andabil-
+tive adaptation.                                    ities (Henrichand Boyd 2002). Thus, to build a
+    Tooutlinehowthisadaptiveprocesscouldwork, model that combines skill-biased (or success-
+considera populationof N individualswho varyin biased,seeAppendixD) culturaltransmissionwith
+a skill thatinvolves at least some culturallytrans- imperfectinference,I will make use of the Price
+mittablecomponents.The variablezi gives a mea- equation(1). In its most basic form,this equation
+sure of this attribute for each individual i. is a generalstatisticalstatementhatappliesto any
+Transmittable   zi skills mightinvolvesuchthingsas evolutionarysystem;it is equallyapplicableto the
+net-manufacturing    preferences(weavingpractices, evolutionarydynamicsof genes, quantitativecul-
+preferencesforcertainfibers),spear-throwing   tech- turaltraits,phonemes,andthe frequencyof hydro-
+niques,fishhookmaterialselection,canoe-building gen atomsin somedistantgalaxy(Frank1998).The
+techniques, bone-tool craft, and medicinal plant Price equationmakes no assumptionsabout the
+knowledge.This could be a quantitativemeasure discretenessof traits,transmissionpathways,or
+of a skill like how straightan arrowshaftis, or it transmissionfidelity. For our purposeshere, the
+could measurethe possession of several discrete Price equation usefully separates the effect of
+skills. Each of the N individualsattemptsto copy selectingparticular      culturalmodels(selectiveatten-
+the most skillful individual,and zhgives the skill tionto skillfulindividuals)fromtheeffectsof errors
+of the most skilled individual,h. In attemptingto in transmission,inferentialprocessesand individ-
+imitateh, througha combinationof imperfectimi- ual learning("inference"):
+tation,experiments,errors,bad memoriesand ill-
+                                                        AZ       Cov(f, z)         +    E(fAz)
+fortune, some individuals end up with higher z                                          Selective
+                                                                                         Incomplete
+                                                                                            Transmission
+                                                                                              Inference(1)
+                                                             Selective Transmission IncompleteInference
+valuesthantheirchosenmodel(h),whileothersend
+up worsethanh. If thiscombinationof errors,luck,        As before,we beginwithNindividualsindexed
+and experimentsaveragesout such thatthe value by i. Eachindividuali has a z-value(zi).This value
+of the skill averagedovertheN individualsis unaf- measurestheindividual'skill, as describedabove.
+
+
+
+
+                       This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                       All use subject to JSTOR Terms and Conditions
+Henrich]                                    ANDCULTURAL
+                                   DEMOGRAPHY         EVOLUTION                                       201
+
+
+
+
+                                                                               Modelz, ValLe
+                    Probability
+                     Imitator                      -
+                    Acquiresz,
+
+
+
+
+                                                       Imitatorz, Value
+
+                              Figure 1. Gumbel distribution for imperfect imitation.
+
+AZ representsthe averagechange in skill (z) per          with z-value,zi, end up with a z-valuedrawnfrom
+timestep-i.e., therateof culturalevolutionof skill a Gumbelprobabilitydistribution7        withmodezi- ca
+z.  If Ai is positive, then adaptive  evolution  is tak- and dispersionP. Typically,copiersacquireskills
+ing place-e.g., people      are becoming   better  bone  that are worse than their model's z-values by an
+tool makers.If A2is zero,the population      is in equi- amount    a, but occasionally-through lucky
+librium.If is negative,thenthepopulationis los- guesses errors-some individualsacquirez-val-
+             A                                                   or
+ ing skill (e.g., the bone tools are getting cruder). ues (skills)thataresuperiorto theirchosenmodel.
+ Also, associatedwith each individualis anfvalue. The probabilityof thatoccurringfor an individual
+fi gives the relativedegreeto which otherindivid- is the areaunderthe distributionto the rightof the
+ualsfocustheirsociallearningattentionon i. If indi- dashedline (the model's z-value). It's also worth
+ vidualstendto pay attentionto particularlyskilled noting that the probability of an exact copy is
+ individuals,f and z will be positively correlated. zero-there is no "replication" in this model
+ Said anotherway, f gives the relative likelihood (cumulative cultural evolution does not require
+ thatan individualwith a particularz-valuewill be "replicators":       HenrichandBoyd[2002]).
+ selectedas a culturalmodel. Cov(f z) is the covari-        For analytical purposes, it is important to
+ ationbetweenf,andzi,andgives theeffectof selec- rememberthat a and p arise from an interplay
+ tive culturalforceson AM.   To simplifymattershere, betweenthe"thingsbeinglearned"andhumancog-
+ I will assumethatall individualssuccessfullyiden- nitiveprocesses.If somethingis easy to imitateand
+ tify and attemptto copy the personwith the high- people varylittle in the inferencesthey makedur-
+ est value of z.6Note thatourpool of N individuals ing the imitationprocess, then both a and P will
+ couldrepresentthe sameindividuals(e.g., thesame be small-for perfectreplicationa and P = 0. If
+bone tool makers)from one season to the next, or something is hard to imitate, but people tend to
+ it could represent different generations or age make the same kinds of mistakes,then a will be
+ cohortsin a society. For thinkingaboutthe long- large,andPsmall.If somethingis difficultto accu-
+term culturalevolution in Tasmania,the latteris rately imitate, and people make wildly different
+ most relevant.                                          inferences/mistakes, thena andPwill bothbe large.
+     Tocapturetheideathatinferentialprocessesare If peoplegenerallymakefairlyaccurateinferences
+ incomplete,I assumethatthe inferentialprocesses in learning something, but sometimes diverge
+ thatunderpinsocial learningareinaccuratein two wildly in theirefforts,a will be small and Plarge.
+ ways: first, they are noisy, so that copiers never         When particularskills/technologies are quite
+ accuratelyreplicate z  the  value of their model;   and simple, it may be possible for individuallearning,
+ second, they     are biased  so  that  the  behaviors   based  on experience and/or experimentation,to
+                           on
+ acquiredby copiersare, average,       less skilled than swing mode of the distributionto the otherside
+                                                                the
+ thatof theirmodel.Moreformally,       as illustrated in of the selected model's z-value. Under such con-
+ Figure1, individualswho attemptto copy a model ditions, individuallearningwould combine with
+
+
+
+
+                       This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                       All use subject to JSTOR Terms and Conditions
+202                                           AMERICAN ANTIQUITY                                    [Vol. 69, No. 2, 2004
+
+
+selectivetransmission(copyingtheskillful)to drive adaptiveevolution,while 3, the tendencyof indi-
+adaptive cultural evolution. However, both the vidualsto makedifferentinferencesfrom observ-
+ethnographicrecordand my own experienceliv- ing the samething,favorsadaptiveevolution.The
+ing amongtheMachiguengaof thePeruvianAma- moreindividualstendto makedifferentinferences,
+zon suggeststhatthese circumstancesareunlikely the faster culturalevolution goes-or the more
+to apply to most humansituationsbecause of the likely it is to be adaptive.
+amountof culturallylearnedknow-howinvolved               Most importantlyfor ourpurposes,N, the size
+in humanskills relatedto makingand using such of thepool of sociallearners,also positivelyaffects
+things as blowguns, bows, arrows,bowls, craft adaptiveevolution.The largerthe populationof
+tools, spears,fishingnets, canoes, kayaks,etc., or interactingsocial learners,the fasteradaptiveevo-
+in practicesand knowledgerelatedto such things lutionproceeds-or the morelikely it is thatselec-
+as tracking,using medicinalplants, and process- tive forces will favor adaptive processes. N
+ing foraged foods. After only a few generations, representsthe effective numberof social learners
+most of the improvementsthatcan be madebased andmaybe substantiallylargerthanthe numberof
+on typicalexperiencesandpracticaldeductionswill individualsin a social groupas long as individuals
+have alreadybeen incorporatedinto the basic cul- interactsufficientlyoften with people from other
+turalrepertoire,leaving only the nonintuitiveand groups.ForTasmania,both ethnographicdescrip-
+difficult-to-figure-out modifications.This is not to tion andthe rapiddiffusionof Europeanpractices
+say  that the experienceand experimentsof some suggest a fairly well-connectedculturalpopula-
+few individualswill not lead themto higherz-val- tion, at leastfor technologies(Jones 1977a, 1995).
+ues, or that such informationwon't spread (via Thus,if we takeJones'sestimateof 4,000 Tasma-
+selective transmission)through the population. nians at the time of Europeancontact,8assume a
+Rather,I arguethatsuch individuallybased expe- sexual division of labor,and ignore children,we
+riences and deductionswon't happenon average can estimateN = 1,000. If we furtherignoreolder
+across the population, and thus such processes individualswho areunlikelyto acquirenovel prac-
+won't (alone)be responsibleforthepopulationpat- tices (20 percentof the population),N = 800. Of
+ternsof culturalevolution.It is the selectivetrans- course,nothingin the analysishinges on the exact
+missionof luckyerrorsandoccasionalexperiments number,andwe areprimarilyinterestedin thequal-
+thatdrivesmuchof the evolutionof adaptivetech- itativeinsights,butthis at leastprovidesa pointof
+nology, skills, beliefs, andpractices.                reference.
+   Withthis setup,we    can derive   equation(2) from    By settingA?> 0, we can solve for the condi-
+the basic Priceformulationshownabove (Appen- tions underwhichselectivetransmissionwill drive
+dix A providesthe technicaldetails):                  adaptiveculturalevolution,or generatemaladap-
+                                                      tive loss:
+            Az = -a + f(3 + Ln(N))                                            N
+                         AlwaysPositive                                 N* >eP                     (3)
+    The two terms on the right side of (2) go in         N* is the criticalnumberof social learnersnec-
+oppositedirections:the firstterm(-a), whichrep- essaryto producecumulativeadaptiveculturalevo-
+resentsthe effect of low-fidelitytransmissionand lutionfor a specifiedset of inferentialprocesses((a
+inferencebias,favorsa decreasein theaverageskill andpvalues)-which relateto specificskills,tech-
+in the population(favoringA&< 0), while the sec- niques,or practices.This showsN* mustexceed a
+ond term, which combines the effects of inaccu- thresholddeterminedby theratioof a to P. Larger
+rate inferenceand model selection,always favors valuesof a or smallervaluesof 3will increasethe
+adaptiveculturalevolution(A?> 0; E= .577, the minimumthresholdsize of thepool of sociallearn-
+Euler-Gammaconstant).This meansthatwhether ers. If N* is less thanthis threshold,A?will be less
+the averageskill in the populationof social learn- than zero, and these culturally acquired skills,
+ers increasesor decreasesdependson the relative knowledge,andrelatedtechnologieswill begin to
+sizes of the two terms.Interestingly,the two com- ebbaway.Plottingequation(3), Figure2 illustrates
+ponentsof humaninference,a and 3, have oppo- the conditionsfor adaptiveloss: parametercombi-
+siteeffectson adaptiveevolution.a operatesagainst nations above the line create adaptiveevolution,
+
+
+
+
+                      This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                      All use subject to JSTOR Terms and Conditions
+Henrich]                                     ANDCULTURAL
+                                    DEMOGRAPHY         EVOLUTION                                               203
+
+
+            5000
+
+
+            4000
+
+
+            3000
+
+                                                       CumulativeAdaptive
+            2000Evolution
+
+                                               ... .           ... . . .       .. . ..
+            100 0      . .
+                        .......         ............                       ....
+            1000 .......                       ... .........
+
+                                                                                         MaladaDtiveLoss
+
+                   4               5                    6                  7                  8            9
+
+
+
+                        Figure 2. Regimes of Cumulative Adaptation and Maladaptive Loss.
+
+while those below the line producemaladaptive of cumulativeadaptiveevolutioninto one of mal-
+deterioration.                                     adaptivedeteriorationfor specific "hardto learn"
+   Toget anintuitivesenseof whatis goingon here, skills. After the drop, skill losses proceed fairly
+considerwhat happensif each learnerpicks only gradually,following the horizontalarrowto a new
+one person(N = 1) andattemptsto copy his skills. equilibrium.This point will involve technologies
+Underthese conditions,learnerswould, on aver- andpracticeswithsmallervaluesof a and/orlarger
+age, select only a model of averageskill to copy, values of P-that is, simplertechnologiesthatare
+andthuswould obtaina worse-than-average     set of easierto accuratelyacquire,and/orvary.Forexam-
+skills (assumingcopies tend to be worse thanthe ple, throwingclubs andone-piecespearsmay sub-
+original).However,if learnerscan pick two mod- stitute for bows and arrows, boomerangs, and
+els andlearnfromwhicheverof the two is the most bone-tipped,barbedspearsin some sense,butthey
+skilled,then learnerswill (on average)learnfrom don'treplacethemin termsof equaleffectiveness.
+a better-than-average model,buttheywill still suf-     Differenttechnologies and practiceshave dif-
+fer the losses from imperfectinferenceand imita- ferenta andpvalues,so a dropin N will not influ-
+tion. Picking from three potentialmodels further ence all culturalproductsequally.Figure3 shows
+improvesthe learner'schancesof learningfrom a two differentechnologies/skillsthatareassociated
+model sufficientlyskilled to compensatefor the withdifferentvaluesof a andp. Forthemore"com-
+losses inherentin any transmissionprocess, and plex skills"(harderto learn),largerpools of social
+four models furtherimprovesthings,etc. Cultural learnersarerequiredto achievecumulativecultural
+learningbecomes cumulativelyadaptivewhen the evolution,andsustaina moreadaptiveequilibrium:
+effect of havinga largerset of models fromwhich A dropfrom N = 4,000 to 1,000 means a change
+to pick the most skilled exceeds the losses from from a slow rate of adaptation/improvement(a
+imperfectcopying.This processis roughlyanalo- small positivevalue of AZ)to a largerrateof mal-
+gous to the effect of sample size on assemblage adaptiveloss (a negativevalueof A ), while a sim-
+diversity:9largersamplesmeanmorevariation,and ilar dropfor a "simplerskill" merely reducesthe
+variation the fuel for the enginesof any selective rateof cumulativeadaptiveevolution(z stayspos-
+          is
+evolutionaryprocess.                               itive). Thus, this process will disproportionately
+    Based on these theoreticalfindings,Tasmanian targetthemostcomplextechnologiesandpractices
+technologicalosses mayhaveresultedfroma drop for deterioration-i.e., those thatarethe most dif-
+in N producedby the climaticchangethatisolated ficult to learn (high values of aj3), and the least
+Tasmaniafrom the social networks of southern amenableto individuallearning.
+Australiaand cut the availableland areain half.10      This predictionis consistentwith the Tasman-
+Figure 2 depicts this verticaldrop from a regime ian pattern.Extensivearchaeologicalanalysesand
+
+
+
+
+                        This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                        All use subject to JSTOR Terms and Conditions
+204                                                   AMERICAN
+                                                             ANTIQUITY                                            [Vol.69, No. 2, 2004
+
+
+                   3
+                                                                                        adaptation
+                                                  Z adaptatirapid
+
+                       0x/
+
+                  -1
+                                                                0/
+                                                                    p=9                slow adaptation
+                                                               ComplexSkill
+                  -2
+                             skilldeterioration
+                  -3
+
+                  -4
+
+                  -5
+
+                  -6
+                       0             1000              2000            3000             4000               5000
+                                       N (effective size of the pool of social models)
+
+Figure 3. Differential effects of a drop in the size of the pool of social learners (N) on the evolution of "simple" and "com-
+plex" technologies.
+
+historicalethnographysuggest a continuousstone fletching involved techniquesthat are not easily
+tool traditionfromtheAustralianPaleolithicto the figured out, and small errors have enormous
+Tasmanianethnographicpresent. Nevertheless, impactson performance.In contrast,the Tasman-
+Jones's analyses of this stone-tool traditionalso ian techniqueof divingfor crustaceans(whichwas
+indicatesomegradualimprovement-smaller,finer exclusivelywomen'swork)probablyrequiresboth
+tools manufactured  using materialsfrommoredis- the developmentof substantialphysical skills and
+tantsources(Jones 1977b, 1995). Improvementin lots of practice,butseemsless likelyto benefitfrom
+some skills/technologiesand deteriorationin oth- observingparticularlyskilled models. Such risky
+ers may seem intuitivelyodd, but this prediction diving techniquesarenot, to my knowledge,used
+arisesdirectlyfromthe abovemodel (as illustrated by other cold-climate foragers, and may have
+in Figure 3). Simplertechnologies can remainin evolvedin the absenceof morecomplexfood-pro-
+the "cumulativeregime"even whenmorecomplex curementtechnologies. My hope is that experi-
+tools have plummeted into the "maladaptive mental archaeological work can test this
+regime."As explainedabove, this occurs because claim-and even estimatea and Pparametersfor
+the skills for producingandusing simple tools are differentkinds of tools and skills.
+easier to acquireby imitation(smaller a) or are
+more strongly affected by individual learning Adding VerticalTransmissionhas No Effect on
+                                                  the QualitativeAnalysis
+(smallera andlargerP).Thiscontrastswiththedif-
+ficultyof learninghow to makemorecomplextools The empiricalimportanceof verticaltransmission
+such as fishing nets, boomerangs, arrows, sewn (parent-offspring   culturaltransmission)is a matter
+barkcanoes, fishhooks,andfine bone implements. of debate.Some workamongsmall-scalesocieties
+   With culturallearning in mind, compare the suggeststhatverticaltransmissionmayaccountfor
+manufacturingprocess used by the maritimefor- as much as 70 to 80 percentof the transmissionof
+agers of Tierra del Fuego to craft bone-tipped craft skills (Hewlett and Cavalli-Sforza 1986;
+arrows and the shellfish-gathering approach Ohmagariand Berkes 1997; Shennanand Steele
+recordedfor Tasmanians.Among Fuegians,craft- 1999), while other work in both small-scale and
+ing bone-tippedarrowsinvolveda 14-stepprocess, industrializedsocietiesindicatesthatverticaltrans-
+seven differenttools (fourof which were specially mission maybe of little importance(five percent)
+crafted solely for making arrows),four types of to understandingadultpatternsof behavioralvari-
+wood (which all required straightening proce- ation(Aunger2000; Chenet al. 1982;Harris1998;
+dures),andsix othermaterials(Lothrop1928).The Lancy1996;Plominet al. 2000). Inmy view,recent
+fine details associatedwith straighteninggnarled methodological critiques of the data-gathering
+wood, craftingbarbedbone heads,andaffixingthe methodsused in the studiesfavoringverticaltrans-
+
+
+
+
+                             This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                             All use subject to JSTOR Terms and Conditions
+Henrich]                                  ANDCULTURAL
+                                 DEMOGRAPHY         EVOLUTION                                      205
+
+
+mission (Aunger2000) has broughtsome of this     giventheirlatitudeandthe availabilityof seals and
+evidence into question, and tipped the balance   muttonbirds.Bassett (2004), Horton(1979), and
+againstverticaltransmissionas the centralforce inWalters(1981) attemptsimilararguments.12
+culturaltransmission."lNevertheless,the issue is    Most of thisworkamountsto suggestionsabout
+farfromsettled,andverticaltransmissionmayturn    how particularoddities in the Tasmanianrecord
+out to be crucialin certainculturaldomains.This  (usuallyfishing)might be understoodas adaptive
+leads to the question:how would the presenceof   productsof individualsmakingcost/benefitdeci-
+verticaltransmissioninfluencethe importantqual-  sions. To explainthe overallpattern,however,the
+itativeclaims made above?                        approachneeds to show how all bone tools, spear-
+   Vertical transmission can be incorporated     throwers,barbedspears,ground-edgetools,durable
+directly into the above model by assuming that   boats, paddles, winter clothing, seal nets, bird
+social learnerscopy the most skilled individuala snares,andall eatingof anykindof fishduringany
+proportionp of the time andimitatetheirparentsa  season (caughtby any method:fishhooks,spear-
+proportion(1 -p) of thetime.UsingthePriceequa-   ing, traps,nets) were maladaptivechoices in all
+tion and following the above derivation yields   partsof Tasmaniafor the last few thousandyears
+(AppendixA shows the details):                   of the Holocene. Unfortunately,in examiningthe
+          A = p[-a + 3(E+ Ln(N))]                implications of their approach, none of these
+                                              (4)authorstakes seriouslythe challengeof compara-
+   Assuming 0 < p < 1, equation(4) tells us two  tive ethnography:if Tasmanianecological condi-
+importantthings about adding vertical transmis-  tions caused (via individual-level cost-benefit
+sion: (1) the magnitudeof the rateof culturalevo-decision making)people to reject such things as
+lutionwill be reducedby the fractionp;and(2) the fishing, bone tools, barbedpoints, etc., then we
+conditionsdemarcatingthe adaptiveregime from     should observe similarpatternsin similarplaces.
+the maladaptiveregime (i.e., Figure2; A?> 0) are In constructingtheir arguments,all of the above-
+identicalto thosederivedabove.Fromthis,we can    mentionedauthorsmake causal referenceto the
+concludethataddingeven largeamountsof verti-     harsh maritime climate of Tasmania.However,
+cal transmissiondo not change the basic qualita- whateverthe details of the Tasmaniaclimate, all
+tive results.                                    these argumentsmustbe rootedin the differences
+                                                 between the climate of Tasmania and those of
+Alternative and Complementary Explanations southernAustralia,only 200 km to the north.It's
+                                                 these differencesthatmust accountfor the differ-
+                                                 ent historical trajectoriesand immense cultural
+NonculturalExplanations                          divide.Thus, we shouldcomparethe suite of Tas-
+One approachto dealingwiththe evidenceof tech- manian technologies and practices to foragers
+nological losses in the Tasmanianrecord,and the inhabitingenvironmentssimilarto, orharsher(i.e.,
+starkdifferencesbetweentheTasmaniansandtheir colder) than,Tasmania.Followingthis line, com-
+continentalneighbors,hasbeento arguethatall the parativework providesno supportfor the "harsh
+tools, practices, and skills that the Tasmanians maritimeclimates"explanationfor the Tasmanian
+eitherlost, or neverdeveloped,canbe explainedas pattern.
+theproductof adaptivedecisionmaking(cost/ben-       Consider the foraging populations that once
+efit analysisby individuals),ratherthanthe adap- inhabitedTierradel Fuego. Lying at 520southlat-
+tive culturallearning processes modeled above. itude, the archipelagoof Tierradel Fuego is 10o
+Vanderwal(1978:123), for example, has argued south of southernTasmaniaand has a fully mar-
+thatthe loss of cold-weatherclothingwas actually itime climate.The incessantcold winds andrange
+an adaptiveresponseto the cooling climateof the of vegetationare quite similarto Tasmania.Like
+late Holocene; he says that spreadinggrease and the Tasmanians, the indigenous inhabitants of
+ochre over the skin may be a more effective pro- Tierradel Fuego were nomadic hunter-gatherers
+tection againstthe elements than clothing. Simi- who organized themselves in either families or
+larly,Allen has arguedthatdroppingfish fromthe bands,and as in Tasmania,bandsoften controlled
+diet was an adaptivemove for the Tasmanians, particularterritories.Fuegians (referringspecifi-
+
+
+
+
+                     This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                     All use subject to JSTOR Terms and Conditions
+206                                          AMERICAN
+                                                    ANTIQUITY                                      [Vol.69, No. 2, 2004
+
+
+cally to the Ona and Yahgan) also relied on canoe-raftsthatwere capableof servingonly lim-
+resourcessimilarto the Tasmanians:seals, birds, itedtransportation   functions.Topropelthesewater-
+shellfish, and land mammals   (the guanaco  substi- craft,Tasmanian  women  had to swim in the cold
+tutesforthewallaby).And,as theydidwiththeTas- waters alongside their canoe-rafts,pulling them
+manians,Europeansonce believed these foragers along(orsometimesusingsticksaspaddles),while
+representeda primitive,degeneratestateof human- theYahgancraftedefficientcanoepaddles.16       Given
+ity.However,if we comparethetechnologyof Fue- these comparisons,it is difficultto see how Tas-
+gians to thatof the Tasmanians,the differencesare maniantechnology and practicescan be realisti-
+stark.LiketheTasmanians,   theFuegianswereheav- cally viewedas optimalresponsesfor cold-climate
+ily relianton sealhuntingandsometimesusedclubs maritimeforagers.
+in theirhunting;however,unlikethe Tasmanians,          I amnotarguingthattheFuegianswere optimal
+the Fuegians also used bows and arrows, seal- and the Tasmanianswere not. Rather,what the
+spears, and specialized seal-nets (manufactured abovemodelshowsis thatcumulativeadaptivecul-
+from seal hide).Along with sealing,Fuegiansalso turalevolutionis the joint productof our evolved
+fished using baited fishing lines,13special barbed cognitive abilities (which I assume are constant
+fishing spears,and fishingnets; in fact, fish com- acrossthe species) andsociodemographicfactors.
+prisedan importantcomponentof theirdiet (con- Consistentwith the above model, the population
+tra Allen 197914).Both Yahgan and Ona made of Tierradel Fuego was at least twice thatof Tas-
+extensiveuse of bonein awls,barkingtools,arrows, mania,and more importantly,these semi-isolated
+spatulas, and canoe manufacturing;in the Tas- groupsappearto have maintainedsubstantialcon-
+manian archaeologicalrecord,bone tools disap- tactwiththelargergroupsto thenorth.Fuegianstyl-
+peared 3,800 years ago and never re-enter.As in istic forms and technologicaldetails show clear
+Tasmania,birdswere an importantfood sourcefor evidence of diffusion with northernpopulations
+both theYahganand Ona;however,in additionto (e.g., TelhuencheandAraucanians).Fuegianbas-
+Tasmaniantechniques,theFuegiansalsousedbows ket-weavingtechniques,baby cradles,and cloth-
+andarrowsandbirdsnares.As noted,the Fuegians ing were very similarto those used all along the
+used a complexprocedureto craftfinebone-tipped Chileancoast.UnliketheTasmanians,theFuegians
+arrows,which were sanded,polished, and appar- were not completely disconnectedfrom the vast
+ently deadly.AlthoughFuegianclothingappeared continentto the northfor 10,000 years.Neverthe-
+light by Europeanstandards,these foragersmade less, theirpartialisolation(whichwould affectN)
+capes(seal,otter,andguanacoskinssewntogether), might account for their degree of technological
+robes, undergarments,moccasins(seal skin), and complexity vis-A-vistheir northernneighborsor
+leggings-compare this to the Tasmaniansone- many Inuit groups in the NorthernHemisphere.
+piece wallabyskins.Fuegiansdid, like the Tasma- TheFuegianslackedfishingtraps,hideboats,axes,
+nians,make use of greaseand ochre as protection drills,spear-throwers,   guanacowool-weavingtech-
+againstthe cold, except thatthey integratedthese niques,fishhooks,pottery,andtanningprocedures
+with their clothing-often applyinggrease to the (keepin mind,theYahgantraveledby canoe,so the
+skinsurfaceof theirrobes(contraVanderwal197815 "toomuchto carry"argumentdoes not workvery
+and Bassett 2004). In comparing hunting tech- well here).They also did not utilize severalpoten-
+nologies, the Fuegians deployed clubs, slings, at tial food sources,includingwild celery,two kinds
+least two kinds of nets, bird snares, bows-and- of cress, wild seapink,wild parsnips,scurvygrass
+arrows,and four kinds of specialized spears (all and mushrooms(Lothrop1928).
+barbed;includinga detachableharpoonwith lead           Broadercomparisonsof technologyfurthersup-
+line for seals, porpoises,andwhales).Tasmanians portthis demonstration.Oswalthas quantitatively
+were limited to clubs, a single one-piece spear comparedthe functionalcomplexityof the food-
+(withoutbarbs),and a baitedbird-blindtrap.The gettingtechnologiesfor 23 foraginggroupsdrawn
+island-dwellingYahgan also used durable sewn fromdesert,tropical,temperate,subarctic,andarc-
+barkcanoes as theirprimarymode of transporta- tic climates.His analysisshows threethingswor-
+tion, and as an importanttool in huntingand fish- thy of note. First,looking only at the six foraging
+ing. In contrast, some Tasmanians had crude, groupsfromtemperateclimates,theanalysisshows
+
+
+
+
+                     This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                     All use subject to JSTOR Terms and Conditions
+Henrich]                                   ANDCULTURAL
+                                  DEMOGRAPHY         EVOLUTION                                            207
+
+
+that the Tasmanianshave substantiallyless com-               adaptationwhile simultaneouslyaccounting for
+plex food-gettingtechnologiesthen the otherfive              change,culturalhistory(why culturalphylogenies
+groups.Infact,thenextmostcomplexgroupscores                  matter),patternsof diffusion,and maladaptation.
+more than twice that of the Tasmanians.Second,
+on average, temperateforagers show more (not                 CulturalDrift Explanations
+less) food-gettingtechnologicalcomplexity than               Culturalevolutionarydriftprovidesanotherpoten-
+eitherdesertortropicalforagers,aboutthe sameas               tially complementaryexplanationfor technologi-
+subarcticgroups, and somewhat less than arctic               cal losses. The idea is that small, isolated
+foragers-so theTasmanians     remainanoutliereven            populationsare more likely to lose technologies
+whenenvironmentsaretakenintoaccount.Finally,                 throughsamplingerrorsin the culturaltransmis-
+when comparedagainstthe entirefield of 23 for-               sion process than are larger populations.7"For
+aginggroupsfroma full rangeof environments,the               example, if in a populationof 10 adults, 8 made
+Tasmanianstie with the tropicalTiwi for a distant            barbedspearsand2 prefersimplespears,we might
+last out of all the groupsinvestigated.The factthat          expectthenextgenerationof 20 individualsto have
+the Tiwi tie for last place furthersupportsthe the-          16 barbedspear-usersand 4 simple spear-users.
+sis of this paper.At the time of Europeancontact,            However,in sucha smallpopulationandwhenver-
+about5,500 Tiwi inhabitedtwo islands50 km off                ticaltransmissionis veryimportant,samplingerror
+thenortherncoastof Australiaandhadexperienced                in transmissioncould lead to 8 barbedspear-users
+littlecontactwith the mainland,apparentlybeliev-             (vice 16) and 12 simple-spearusers (vice 4) in the
+ing thatthe mainlandwas the "landof the dead."               nextgeneration.If thissamplingerrorhappenssuc-
+Thus, the functionalcomplexityof their technol-              cessively,barbedspearscoulddisappearout of the
+ogy is limitedby N. Oswalt'soverallcomparison                populationevenif theyaremoreadaptivethansim-
+of functionalcomplexityis consistentwiththemore              ple spears.
+detailed technology-by-technology comparison                     In consideringdrift explanations,four things
+above:comparativeethnographydoes not support                 should be noted: (1) driftwill often be swamped
+the notionthatthe broadpatternsin the ethnohis-              by selective forces (like copying skilled individu-
+toricaland archaeologicalrecordof Tasmaniaare                als)unlessverticaltransmissiondominatestheevo-
+explainedby cost-benefitdecision-makingmodels.               lutionaryprocess(thus,theimportanceof driftturns
+    What often goes unrecognizedby those who                 on the aforementioneddebateaboutverticaltrans-
+take a behavioral ecological or rational choice              mission);(2) driftcannotexplaincumulativeadap-
+approachto behaviorwhen they look at a cultural              tiveculturalevolutioninvolvinghard-to-figure-out
+evolutionarymodel (like the one here)is thatsuch             skills; (3) unlike the analogousgenetic case, cul-
+models are perfectly consistent with both                    turaltraits/skillslost throughdriftarenotprevented
+approachesif oneremovestheassumptionthatindi-                fromre-enteringthe populationby the low "muta-
+vidualsareomniscientbeingswithunlimitedinfor-                tion rates"thatcharacterizemost genetic systems;
+mationprocessingabilities,andreplaceit with an               and(4) driftis unlikelyto systematicallytargetthe
+informationalconstraint(i.e., informationabout               mostcomplexpractices,skills, andtechnologies.'8
+costs andbenefitsis not free).As soon as one does            I will takeup points2 through4 in more detail.
+this,naturalselectionfavorsformsof imitationlike                 Undersome conditionsdriftmay generatecul-
+prestige-biased imitation (Henrich 2001, 2002;               turallosses when selectiveforcesareweakorzero,
+Henrichand Boyd 1998; Henrichand Gil-White                   which occursboth when culturaltraitsareneutral
+2001; Henrichand McElreath2003), and rational                vis-h-vis selective forces, and when an evolution-
+actorswill startimitatingothers(Alvard2003;Hen-              ary system is at (or often near) an equilibrium.
+rich et al. 2001; Schlag 1998). Shennan's recent             However,driftcannotexplaincumulativeadapta-
+book makesan excellentcase thatbehavioraleco-                tionin general,norcanit explaintheimprovements
+logical and culturalevolutionaryapproachesare                observedin Tasmanianstonetool technologies.To
+naturallycompatible.Behavioralecological mod-                explaincumulativeadaptation,underthe assump-
+els providea fitness-maximizingbenchmark,and                 tion of verticaltransmission,anthropologistshave
+culturaltransmissionmechanismsprovidea psy-                  addedindividualearningto verticalculturaltrans-
+chologically plausible process that can explain              mission(Binford1983;Boyd andRicherson1985;
+
+
+
+
+                      This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                      All use subject to JSTOR Terms and Conditions
+208                                          AMERICAN ANTIQUITY                                    [Vol. 69, No. 2, 2004
+
+
+Chibnik 1981; Henrich2001). As we saw above,           Taking the fourth point, if drift alone were
+verticaltransmissionalonedoesnotproducecumu- responsibleforTasmaniantechnologicalevolution,
+lative adaptation.The "individualearning solu- we shouldexpect an archaeologicalrecordshow-
+tion"to adaptationmeans thatdriftis unlikely to ing the followingkindsof sequences:a disappear-
+be importantbecause the adaptiveforce of indi- ance, span of time, reintroduction,diffusion and
+viduallearningis not diminishedin smallpopula- improvement,span of time, a disappearanceof
+tions. For drift to overpowerindividuallearning, somethingdifferent,span of time, reintroduction,
+individuallearning would have to be incredibly diffusion, and improvement,etc. Taken at face
+weak, which would mean even large populations value,the Tasmanianrecorddoes not suggestsuch
+would adapt extremely slowly-because the a stochasticprocess, and the mere fact that valu-
+strengthof individualearningdoes notincreasein able technologies never reappearedindicates an
+largerpopulations.And, even if driftcould over- evolutionaryforcethatsystematicallytargetscom-
+come individualearningto drivethe loss of a par- plex skills. Thereare differentways of modeling
+ticularskill or practice,individuallearningcould drift, but the simplest approaches(e.g., Shennan
+driveit rightbacktowardthe equilibriumvaluefor 2001) will probabilisticallytarget simpler tech-
+an infinitepopulation.The fact thatbone tools and nologies. This contrastswith both the Tasmanian
+fishingdisappearedfromthe archaeologicalrecord archaeologicalrecord and the prediction of the
+over3,800 yearsbeforetheEuropeansarrivedcan- above model.
+not be easily reconciledwith the driftexplanation      In summary,drift may be importantin some
+becauseimportantskillswouldbe reintroduced     and regimesof culturaltransmission,but alone,it can-
+spreadduringthe ensuingmillenniaby individual not explain many interestingaspects of the Tas-
+learningandinvention.Unlikeadaptivealleleslost manian case.19With the qualitativeinsight from
+fromanisolatedislandpopulationvia geneticdrift, my model laid out, futuretheoreticalwork (which
+there is no reason why humansliving on a cool will likely requirecomputersimulations)should
+island and relying primarilyon marineresources combine drift and "imperfectlearning"into the
+could not come up with the ideas of warmercloth- same model. Such an approachshould seek out
+ing and fishing equipment. Thus, the real trick evolutionaryregimesin one or the otherprocesses
+involves not only explainingthe disappearances, dominant and look for predictive (empirically
+but also in figuringout why such useful ideas and testable)patternsthatdistinguishthe two regimes.
+skills were not reintroducedandspreadduringthe
+subsequentmillennia.Lacking the low mutation                          Conclusion
+ratesfoundin genes, culturaldriftmodelsprovide
+no systematicselective pressureagainstthe rein- Whilethe completeisolationof theTasmaniansfor
+troductionor spreadof useful skills. In short,the 10,000yearsprovidesan extremeexample,persis-
+verticaltransmissionmodelsthatfavordrifteffects tent technologicallosses among partiallyisolated
+requireindividuallearning for adaptivecultural culturalgroupsaresubstantially     morecommonthan
+evolution,  butthis requiredindividual earningsaps  is typically recognized. early as 1912, in his
+                                                                            As
+the effect of drift on losses by providing adap- paper"TheDisappearanceof Useful Arts,"W. H.
+                                           an
+tive force that opposes driftand can readilyrein- R. Rivers20  arguesthatthescatteredlossesof canoes,
+troducelost technologies(unlikemutation).           bows andarrows,andpotteryin Oceaniacannotbe
+    In contrast,my model shows that even if par- explainedconsistentlyby economicfactorssuchas
+ticularindividualsfrequentlydeveloped superior the availabilityof rawmaterialsor the diffusionof
+skills, the interactionbetween social learningand alternativetechnologiesor practices.In the canoe
+demographyis such that these skills won't spark case, he pointsto the TorresIslands,a smallgroup
+cumulativeevolutionbecausesmalllosses in trans- of geographicallyisolatedislandsin the northernm-
+missioncombinedwith an insufficientpool of cul- most part of the Vanuatuan archipelago. The
+turalmodels will drivethose skills rightback out Melanesianinhabitantsof these islandsapparently
+ of existence.Thatis, such skills can be reinvented losttheabilityto makethekindof seaworthycanoes
+repeatedly,but still won't appearin the archaeo- thatthey surelyarrivedin. At the time of Rivers'
+logical record.                                     fieldworkin the earlytwentiethcentury,they were
+
+
+
+
+                     This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                     All use subject to JSTOR Terms and Conditions
+Henrich]                                    ANDCULTURAL
+                                   DEMOGRAPHY         EVOLUTION                                         209
+
+
+relying entirelyon crudebamboocatamaransthat trate the range of potential applicability. First,
+were of no use in fishingand too flimsy for travel amongorangutansand chimpanzees,recentwork
+outside of the immediateisland group (archaeo- yields resultsthatappearconsistentwiththe above
+logical data indicates that inter-islandtravelwas model, and inconsistentwith ecological explana-
+once commonthroughoutthe region).Adjacentto tionsof thecomplexityof culturalrepertoires.Carel
+the TorresIslands, the inhabitantsof the Banks van Schaiket al. (2003) show (1) thatculturalsim-
+Islandswentfor a time withoutcanoesafterhaving ilarity among differentgroups depends on geo-
+lostthemanufacturing    skills,butas of themid-nine- graphicproximity-which is consistentwith the
+teenthcenturypeopleon thelargestislandhadgrad- importanceof diffusionanda largeN-and (2) that
+uallybegunto re-acquirethe skills-although their opportunitiesforassociationbeyondclose kinpre-
+canoes were still crudecomparedto the ones built dictsthe size of a group'sculturalrepertoire.At the
+in the past, and still insufficientfor traveloutside same time, these authorsalso show that neither
+the local islandgroup.Riversreportsa similarfind- "food scarcity"nor "freetime"predictthe size of
+ing regardingthe evolutionof sea-voyagingcanoes a group'sculturalrepertoire.Second,thelogic sug-
+into crude bamboo rafts in Mangareva(Gambier geststhatPaleolithicpopulationsmaydevelopquite
+Archipelago).Innoneof thesecaseswastherea lack different degrees of technological complexity
+of raw materials(as there might be elsewherein dependingonhow theavailabilityof localresources
+Oceania),andit is difficultto arguethatan island- (and many otherpotentialfactors)affect the fre-
+dwelling people really don't need a good canoe. quency and intensity of social interaction. For
+Admittedly,Rivers's evidence is not sufficiently example,technologicaldifferencesbetweenNean-
+detailedto makea strongcase in favorof any par- derthalsand anatomicallymodernhumans (with
+ticularmodel, but it does suggestthatthe "loss of similarly-sizedbrains)mayresultfromdifferences
+useful arts"is not isolatedto Tasmania.               in groupsize andsociality(N), ratherthanin genes
+    In this paper,I have presenteda simple model relatedto cognitiveabilitiesthat,in-and-of-them-
+that synthesizestwo importantaspects of human selves, leadto improvedtools. Increasesin N, per-
+social learning-selective choice of culturalmod- haps facilitatedby climatic change or changes in
+els and imperfectinference-with a population's social organizationthat promotelocal interaction
+demographics.The model predictsthe conditions orhigherpopulationdensities,shouldprecedeperi-
+for cumulativeculturalevolution,culturalequilib- ods of rapid technologicalevolution. Of course,
+ria,andmaladaptivelossesvis-a-visparticular    skills populationsize, density,anddegreeof interaction
+or practices.Withrespectto the Tasmaniancase, it are not independentfrom craft skill, environmen-
+does notpredicta generalprocessof "devolution" tal knowledge,andtechnologicalprowess,andthe
+applicableacross the entire spectrumof cultural interactionof these demandsfurtherinvestigation.
+domains, or a "slow strangulationof the mind" Nevertheless,the model presentedhere reveals a
+(Jones 1977b:203).Instead,it precisely specifies potentially importantlinkage between cultural
+the conditions under which particularskills will learning,demography,and technologicalchange
+enter a regime of maladaptivedeteriorationuntil thathaspreviouslybeen overlooked.Thislinkcon-
+reachinga new less-well-adaptedequilibrium.By nects demographiccharacteristicsto culturalevo-
+assumingthatallhumangroupssharethesamecog- lution in a mannerthatmay shed new light on old
+nitiveabilities,themodelshowshow differentrates problems.
+of regimes of culturaladaptation(which includes
+                                                      Acknowledgments.Special thanks goes to Natalie Henrich,
+skills, technology,etc.) may resultfrom the inter- Robert Boyd, Peter Richerson, Stephen Shennan, Everett
+actionbetweensocial andcognitiveprocesses.            Bassett, Henry Harpending, David Sloan Wilson, Fraser
+   Beyond the Tasmaniancase, this model may Neiman, RichardMcElreathand four anonymousreviewers.
+alsobe applicableto casesof rapidcumulativetech-
+nological evolution,as it predictsthatlargerpools                       Appendix A:
+of interactingsocial learnerswill generatemore                    Details of the Derivation
+rapidculturalchange, and are capableof achiev-
+ing higherequilibriumlevels of skill, knowledge,          Startwiththe Priceequation(Price1970, 1972)
+and technological prowess. Two examples illus- using relativefitness,f:
+
+
+
+
+                       This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                       All use subject to JSTOR Terms and Conditions
+210                                                 AMERICAN ANTIQUITY                                              [Vol. 69, No. 2, 2004
+
+
+                                                  relativeto the psychologicalforces in the model,
+      A =       Cov(f,
+                =         z) +        E(fAz)      then wi = w for all individualsi. As in the text,p
+                 C+SeTe                               (A l)
+            SelectiveTransmission IncompleteInference
+                                                  gives the proportionof reliance that individuals
+Assumethateveryonecopiesthemostskilledindi- give to skilled-biasedtransmission.By settingbi=
+vidual,h, sofh = 1 andfnoh= 0, this reduces(Al) 0 when i ? h and bh= 1 when i = h capturesthe
+to (A2):                                          notionthatindividualscopy the most skilledindi-
+                                                  vidualin the population.If (A6) is substitutedinto
+              AZ= Zh-Z +AZh                 (A2)  (Al), and (Al) is solved in the mannerdescribed
+    Fora populationwith skills distributedapprox- above,theresultis equation(4) fromthe maintext.
+imatelyaccordingto the Gumbel(ExtremeValue)
+distribution(as in Figure 1) with mode a (not xa)
+                                                                    Appendix B:
+and spread 3,z (= a + P) is the meanvalue of z in       Effect of Using A3 Approximation
+the currentpopulation,andzhis the expectedvalue
+of the highestvalues drawnfrom a sampleof size To verifythe accuracyof the aboveapproximation
+N.                                                (A4), I calculatedthe differencebetweenthis and
+                                                  the exact value of zh (A3):
+
+                    a-0o                                              d= Nf    je     e      1xdx        - (a + P(E+ Log(N))
+                                                                                                                                   (A7)
+
+Fortunately,Zh(A3) can be approximatedby (A4)
+with greataccuracy(see AppendixB):                  Solving (A7) for the rangeof parametersrelevant
+                                                    to the above models yield nearly perfect agree-
+              =
+           Zh a + P(E+ Log(N))              (A4) ment.Formanyparticularparametercombinations
+   Using Figure1,  eachindividual also draws  from (e.g., whenever p = 1), (A7) reduces to exactly
+a Gumbeldistribution(a, P) to determinethe size zero. Where analyticalsolutions are impossible,
+of her imitationerror:                              withinthe rangefrom 3 < a < 12, 0.1 < P < 5 and
+                                                    10<N< 10,000,numericalsolutionsneveryielded
+                AZh- -a + •E                (A5) d > 10-14.
+   Note that the spreadparametersin these two
+Gumbeldistributionsare identicalbecause all the
+                                                                      Appendix C:
+variationin the distributioncomes throughimper-           Effect of non-Gumbel Distribution
+fect imitation,so boththe distributionof the exist-
+ing populationandthe inferencedistributionare [3. Toexaminethe effectsof changingthe distribution
+   Using the Gumbel distribution provides an of skill in the basic model, I replacedthe Gumbel
+importantadvantage:a wide rangeof distributions, distribution(andits approximation)   witha standard
+whichincludetheGumbeldistribution     andtheNor- logistic distributionwith meana and spreadpara-
+mal distribution,yield the Gumbel distribution meterp. Followingthe abovederivationgives this
+(approximately) when the extreme values are equationfor the averagechangein the valueof the
+repeatedlysampled. This means the distribution skill:
+will remainGumbelthroughouthe evolutionary                                                           x
+
+                                                                                                              x-9
+                                                                                                          -
+                                                                                              (N                                     )
+                                                                      N-
+process,and only the parameterswill change.             AZ=                          e           (
+                                                                                  1+
+   Substituting(A4) and (A5) into (A2) gives us             -- -g+--fxe  P                    -0
+
+
+
+
+equation(2), fromthe maintext.
+   Toaddverticaltransmission,we followthesame          To explore the relationshipbetween N* (the
+derivationas above,except now,                      thresholdvalue of N described above) and bias
+                                                    againstaccuratelearning(a), we can set Az = 0,
+               =   -      +
+            fi (1 p)wi Pbiwh                 (A6)   p=1; we can also set p = 0, as the initialposition
+Here,wiis therelativenumberof learnersproduced of the skill distributiondoes not affectthe qualita-
+underverticaltransmission.If the effect of natural tiveresults-and thatis whatwe arechecking.This
+selection on culturalvariationis consideredsmall gives,
+
+
+
+
+                            This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                            All use subject to JSTOR Terms and Conditions
+Henrich]                               DEMOGRAPHY         EVOLUTION
+                                                ANDCULTURAL                                                             211
+
+
+             7000
+
+             6000
+
+             5000
+
+             4000
+           N*                                     Cumulative               Evolution
+                                                           Technological/Skill
+             3000
+
+             2000
+
+             1000
+                                                                                               Loss
+               01                                                                              LMaladaptive
+                 2             3          4          5           6           7          8         9       10
+                                                                 a
+
+                    Figure 4. Threshold values of N* and a for the model using a logistic distribution.
+
+                                                                  dependon her success (z), amongotherfactors:
+                cc = T(N) + F
+                            -(A9)
+                                                              = +         +      +
+wherex(N) is theDigammafunctionatN. Plotting               fi m p1zi P2Xi ei               (Al l)
+this in Figure4 for a rangeof N values revealsno    Here, p, is the partialregressioncoefficientof
+qualitativedifferencebetween the Gumbeldistri- fon z (x is "otherfactors"ande is the uncorrelated
+butionandthe logistic.                           errorterm).Ittells us how muchsuccessin z affects
+                                                 one's likelihood of being selected as a cultural
+                                                 model.PuttingthisintothebasicPriceformulation
+                  Appendix D:
+  Effect of Indirect Cues of Underlying Skill    for Ayyields:
+
+Whatif an individual'sskill is not directlyobserv-                                 =
+                                                                                 AY Cov(f, y)+ E(fAy)
+able?Supposenow thatinsteadof skill,z measures                                                      E(f y) + (A12)
+                                                                                                    Cov(z,
+                                                                                     p, Cov(z,y) + E(fAy)
+success in some domainsuch as hunting(perhaps
+quantifiedin lifetimetapirkills),combat(in "heads-                     Includingthe causal relationbetween y and z,
+taken"),canoe making,or farming(in sacks har-                        we arriveat the following:
+vested per hectare of wheat sown). Under these
+                                                                                 Ay =   1p, Var(y) + E(fAy)          (A13)
+conditions,equation(1) wouldstillgoverntheevo-
+lution of z. However,if we wanted to get at the                         The Ay term would have the same form as
+underlyingtransmittedskills thatproduceparticu-                      above, and dependson how difficultit is to infer
+larvaluesof z, we wouldhaveto specify how each                       theunderlyingyi by observingthemodel'sbehavior.
+skill contributes to an individuals' behavioral                      Theremainderof the derivationproceedsas above.
+expression(to their success). For illustrativepur-
+poses, supposez is huntingreturns(a phenotypic                                          References Cited
+measure)andy and ) areunderlyingskills related
+to preypursuittimeandarrowlength-presumably                          Allen, H.
+there are many more relevantrepresentationsfor                          1979 Left Outin the Cold:Why TasmaniansStoppedEat-
+                                                                          ing Fish. TheArtefact4:1-10.
+hunting.Using a linearregressionequation,we can                      Alvard,M.
+expressthecausalrelationshipbetweenmentalrep-                           2003 TheAdaptiveNatureof Culture.Evolutionary Anthro-
+resentationsy and ) on success, z, as follows:21                          pology 12:136-147.
+                                                                     Aunger,R.
+                        + 2i + Ei         (A1O)                         2000 The Life Historyof CultureLearningin a Face-To-
+          Zi -- +X1lYi                                                    Face Society.Ethos 28(2):1-38.
+   TheV's give therelativecontributionof an indi-                    Bassett,E.
+vidual'sy and0 skills to theirobservedsuccess,zi.                       2004 ReconsideringEvidence of TasmanianFishing. In
+                                                                          WorldsApart,theme issue, edited by N. J. Whitehouse,
+Egives uncorrelatedrandomerror,andp specifies                             E. M. Murphy,G. Plunkett,and McCormick.Environ-
+the constantterm.An individual'svalue off might                           mentalArchaeology9, in press.
+
+
+
+
+                           This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                           All use subject to JSTOR Terms and Conditions
+212                                              AMERICAN ANTIQUITY                                    [Vol. 69, No. 2, 2004
+
+
+Binford,L.                                                      Instituteof TechnologyPress,Cambridge.
+   1983 In Pursuitof the Past: Decoding theArchaeological Henrich,J., andR. Boyd
+    Record.ThamesandHudson,New York.                          1998 The Evolutionof ConformistTransmissionand the
+Bowdler,S.                                                      Emergenceof Between-GroupDifferences.Evolutionand
+  1974 Pleistocene Data for Man in Tasmania. Nature             HumanBehavior 19:215-242.
+     252:697-698.                                             2002 On Modeling CulturalEvolution:Why Replicators
+   1980 Fish and Culture:A TasmanianPolemic. Mankind            AreNot NecessaryforCulturalEvolution.Journalof Cog-
+     12:334-340.                                                nitionand Culture2:87-112.
+  1982 PrehistoricArchaeologyin Tasmania.InAdvancesin Henrich,J., andF. Gil-White
+     WordArchaeology,vol. 1, editedby F.WendorfandA. E.       2001 The Evolutionof Prestige:Freely ConferredDefer-
+     Close, pp. 1-49. AcademicPress,New York.                   ence as a Mechanismfor Enhancingthe Benefits of Cul-
+Boyd, R., andP. Richerson                                       tural Transmission. Evolution and Human Behavior
+  1985 Cultureand the EvolutionaryProcess. Universityof         22:165-196.
+     ChicagoPress,Chicago.                                  Henrich,J., and R. McElreath
+Brooks,A., D. Helgren,J. S. Cramer,A. Franklin,W.Hornyak,     2003 The Evolution of CulturalEvolution.Evolutionary
+     J. M. Keating,R. G. Klein,W. J. Rink,H. Schwarcz,J. N.     Anthropology12:123-135.
+     L. Smith, K. Stewart,N. E. Todd,J. Verniers,and J. E. Hewlett,B. S., andL. L. Cavalli-Sforza
+     Yellen                                                   1986 CulturalTransmissionamongAka Pygmies. Ameri-
+   1995 DatingandContextof ThreeMiddleStoneAge Sites            can Anthropologist88:922-934.
+     with Bone Pointsin the UpperSemlikiValley,Zaire.Sci- Holmberg,A. R.
+     ence 268:548-553.                                        1950 Nomads of the Long Bow. SmithsonianInstitution
+Chen,K.-H., L. L. Cavailli-Sforza,andM. W. Feldman              Instituteof SocialAnthropologyPublicationNo. 10.United
+   1982 A Studyof CulturalTransmissionin Taiwan.Human           StatesGovernmentPrintingOffice,WashingtonD.C.
+     Ecology 10:365-382.                                    Horton,D. R.
+Chibnik,M.                                                    1979 TasmanianAdaptation.Mankind12:28-34.
+   1981 The Evolutionof CulturalRules. JournalofAnthro- Jones,R.
+    pological Research37:256-268.                             1974 TasmanianTribes.InAboriginalTribesofAustralia,
+Collett,D.                                                      editedby N. B. Tindale,pp. 319-354. Universityof Cali-
+   1994 EngenderedSpace andAboriginalSettlementon the           fornia-LosAngeles Press, San Francisco.
+     Coastof Tasmania:A PreliminaryModel.InArchaeology        1976 Tasmania:AquaticMachinesand Off-ShoreIslands.
+     of the North,editedby M. Sullivan,A. BrockwellandA.        In Problemsin Economicand SocialArchaeology,edited
+     Webb,pp. 341-357. NorthernAustralianResearchUnit,          by G. Sieveking,I. H. Longworth,and K. E. Wilson, pp.
+     Darwin.                                                    235-263. Duckworth,London.
+Colley, S., and R. Jones                                      1977a Manas anElementof a ContinentalFauna:TheCase
+   1988 Rocky Cape Revisited-New Light on Prehistoric           of the SunderingOf The Bassian Bridge. In Sunda and
+     TasmanianFishing. In The WalkingLarder,edited by J.        Sahul: PrehistoricStudies in SoutheastAsia, Melansia
+     Clutton-Brock,pp. 336-346. Allen andUnwin, London.         andAustralia,editedby J. Allen, J. Golson, andR. Jones,
+Diamond,J.                                                      pp. 317-386. AcademicPress,London.
+   1977 ColonizationCyclesin ManandBeast.WorldArchae-         1977b The TasmanianParadox.In StoneToolsAs Cultural
+     ology 8:249-261.                                           Markers:Change,Evolutionand Complexity,editedby V.
+   1978 TheTasmanians:TheLongestIsolation,the Simplest          S. Wright,pp. 189-204. HumanitiesPress,New Jersey.
+     Technology.Nature273:185-186.                            1977c WhyDidtheTasmaniansStopEatingFish?InExplo-
+Frank,S. A.                                                     rations in Ethno-Archaeology,edited by R. Gould, pp.
+   1998 Foundationsof Social Evolution.PrincetonUniver-          11-47. Universityof New Mexico Press, Alberqueque,
+     sity Press, Princeton.                                     and School of AmericanResearch,SantaFe.
+Gott,B.                                                       1990 From Kakaduto Kutikina:The SouthernContinent
+  2002 Fire-Makingin Tasmania:Absence of Evidence is            at 18,000YearsAgo. In The Wordat 18,000 B.P. Vol. 2,
+     Not Evidence. CurrentAnthropology43:650-655.               editedby C. Gambleand 0. Soffer,pp. 264-295. Unwin
+Harris,J. R.                                                    Hyman,London.
+   1998 TheNurtureAssumption:WhyChildrenTurnOutthe            1995 TasmanianArchaeology:Establishingthe Sequence.
+     WayTheyDo. Touchstone,New York.                            AnnualReviewofAnthropology24:423-446.
+Henrich,J.                                                  Lancy,D. F.
+   2001 CulturalTransmissionand the Diffusion of Innova-      1996 Playing on Mother Ground:CulturalRoutinesfor
+     tions: Adoption Dynamics Indicatethat Biased Cultural       Children'sDevelopment.GuilfordPress,London.
+     Transmission is the PredominateForce in Behavioral Lipo, C. P., M. E. Madsen,R. C. Dunnell,andT. Hunt
+     Changeand Much of SocioculturalEvolution.American        1997 PopulationStructure,CulturalTransmissionandFre-
+     Anthropologist103:992-1013.                                quencySeriation.JournalofAnthropologicalArchaeology
+   2002 Decision-making,CulturalTransmissionandAdap-             16:301-333.
+     tationin EconomicAnthropology.In Theoryin Economic Lothrop,S. K.
+     Anthropology,editedby J. Ensminger,pp. 251-295, Row-     1928 TheIndiansofTierradel Fuego.Museumof theAmer-
+     man and Littlefield,Lanham,Maryland.                       ican Indianand Heye Foundation,New York.
+Henrich,J.,W.Albers,R. Boyd, K. McCabe,G. Gigerenzer,H. Lourandos,H.
+     P.Young,andA. Ockenfels                                  1997 ContinentofHunter-Gatherers.CambridgeUniver-
+   2001 Is Culture Importantin Bounded Rationality? In          sity Press,Cambridge.
+     BoundedRationality:TheAdaptiveToolbox,editedby G. McGrew,W. C.
+     Gigerenzerand R. Selten, pp. 343-359. Massachusetts      1987 Toolsto GetFood:TheSubsistantsof TasmanianAbo-
+
+
+
+
+                         This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                         All use subject to JSTOR Terms and Conditions
+Henrich]                              DEMOGRAPHY AND CULTURAL EVOLUTION                                             213
+
+
+     rigines and TanzanianChimpanzeesCompared.Journal            Strategies.In AustralianCoastalArchaeology,edited by
+     ofAnthropologicalResearch43:247-258.                        J. Hall and I. McNiven, pp. 263-269. The Australian
+Neiman,E D.                                                      NationalUniversity,Canberra.
+   1995 StylisticVariationin EvolutionaryPerspective:Infer- Skinner,H. D.
+     ences from Decorative Diversity and Interassemblages      1923 TheMoriorisof the ChathamIslands.Memoirsof the
+     Distance in Illinois Woodland Ceramic Assemblages.          BerniceP.BishopMuseum,Vol.9, No.1. BerniceP.Bishop
+     AmericanAntiquity60:7-36.                                   Museum,Honolulu.
+Ohmagari,K., andE Berkes                                    Sutton,D. G.
+   1997 Transmissionof Indigenous Knowledge and Bush           1980 A CultureHistoryof the ChathamIslands.TheJour-
+     SkillsamongWesternJamesBay CreeWomenof Subarctic            nal of the PolynesianSociety 89(1):67-94.
+     Canada.HumanEcology 25:197-222.                        Thomas,N.
+Oswalt,W. H.                                                   1981 Social Theory,Ecology andEpistemology:Theoret-
+   1973 Habitatand Technology:The Evolutionof Hunting.           ical Issuesin AustralianPrehistory.Mankind13:165-177.
+     Holt, RhinehartandWinston,New York.                    van Schaik, C. P., M. Ancrenaz,B. Gwendolyn,B. Galdikas,
+   1976 An AnthropologicalAnalysis of Food-GettingTech-          C. D. Knott,I. Singeton,A. Suzuki,S. S. Utami, and M.
+     nology.JohnWiley,New York.                                  Merrill
+Pardoe,C.                                                      2003 OrangutanCulturesand the Evolution of Material
+   1991 IsolationandEvolutionin Tasmania.CulturalAnthro-         Culture.Science 299:102-105.
+     pology 32:1-21.                                        Vanderwal,R. L.
+Parry,W. J.                                                    1978 AdaptiveTechnologyin SouthwestTasmania.Aus-
+   1981 Fearof Fish andForests:FoodTaboosandDiet Opti-           traliaArchaeology8:107-127.
+     mizationin WesternTasmania.MichiganDiscussions in Walters,I. N.
+     Anthropology6(2):80-101.                                  1981 Why the TasmaniansStoppedEatingFish. Artefact
+Plomin,R., J. Defries, and G. E. McLearn                         6:71-77.
+   2000 BehavioralGenetics.W. H. Freeman,New York.          Webb,C., andJ. Allen
+Plomley,N. J. B.                                               1990 A FunctionalAnalysisof PleistoceneBoneToolsfrom
+   1966 FriendlyMission:TheTasmaniaJournalsandPapers             Two Sites in SouthwestTasmania.Archaeologyof Ocea-
+     of GeorgeAugustusRobinson1829-1834. TasmanianHis-           nia 25:75-78.
+     toricalResearchAssociation,Hobart,Australia.           White,J. P., andJ. E O'Connell
+Price,G.                                                       1982 A Prehistoryof Australia,New Guinea and Sahul.
+   1970 Selectionand Covariance.Nature227:520-521.               AcademicPress,New York.
+   1972 Extensions of CovarianceSelection Mathematics. Yellen,J. E., A. S. Brooks,E. Cornelissen,M. J. Mehlman,and
+     Annals of HumanGenetics35:485-490.                          K. Stewart
+Ranson,D., J. Allen, andR. Jones                               1995 A Middle Stone Age WorkedBone Industryfrom
+   1983 Australia'sPrehistoryUncovered.AustralianNatural         Katanda, Upper Semliki Valley, Zaire. Science
+     History21:82-87.                                            268:553-556.
+Rivers,W. H. R.
+   1926 PsychologyandEthnology.KeganPaul,Trench,Trub-
+     ner,London.
+Rozin, P., J. Haidt,andC. R. McCauley
+                                                                                        Notes
+  2000 Disgust. In Handbook of Emotions, edited by M.
+                                                                1. Maladaptivechanges make individualsless able to sur-
+     Lewis and J. M. Haviland-Jones,pp. 637-653. 2nd ed.
+     GuilfordPress,New York.                                vive and reproduce.In the case of technology, this involves
+Ryan,L.                                                     changes that reduce the ratio of benefits (e.g., in effective
+   1981 TheAboriginalTasmanians.Universityof Queensland food production) to costs (e.g., of manufacture). Such
+     Press,London.                                          changes may entail shifts in tool or weapon designs (e.g., in
+Schlag, K. H.                                               materials,shape,etc.), reductionsin the numberof composite
+   1998 Why Imitate,andIf So, How?A BoundedlyRational parts, and/ormodificationsin the details of their application
+     Approachto Multi-ArmedBandits.Journalof Economic (losses in the nuancesof skilled technique).
+     Theory78:130-156.                                          2. It's worthnoting thatthe Tasmaniansmay have lost the
+Shennan,S.
+   2001 Demographyand CulturalInnovation:A Model and        ability  to make fire (Plomley 1966:225, footnote 5), an
+     ItsImplicationsfortheEmergenceof ModernHumanCul- absence that has been ethnographicallyrecorded elsewhere
+     ture.CambridgeArchaeologyJournal 11(1):5-16.           among small isolated groups (e.g., Holmberg 1950: Siriono;
+  2003 Genes, Memes, and Human History: Darwinian Oswalt 1973:Andamanese).However,Gott's in-depthinves-
+     Archaeologyand CulturalEvolution.Thames and Hud- tigation has bought this old claim into serious question. It
+     son, London.                                           seems thatat least some social groupson Tasmanialikely had
+Shennan,S. J., andJ. Steele                                 the ability to make fire when the Europeansarrived.At best,
+   1999 CulturalLearningin Hominids:A BehaviouralEco- it's uncertain.
+     logical Approach.In MammalianSocial Learning:Com-          3. The range of fish exploited extended to 30 species,
+     parative and Ecological Approach,edited by H. O. Box
+     and K. R. Gibson, pp. 367-388. CambridgeUniversity     indicating  the likely use of sophisticatedbaited-boxtrapsor
+     Press,Cambridge.                                       tidal fish-traps; meanwhile the species most effectively
+Sim, R.                                                     exploited by simple spearingwere absent (Colley and Jones
+   1999 Why the TasmaniansStoppedEatingFish:Evidence 1988).
+     For Late Holocene Expansionin ResourceExploitation         4. One might wonderwhy, if fish droppedout of the diet
+
+
+
+
+                          This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                          All use subject to JSTOR Terms and Conditions
+214                                                 AMERICAN
+                                                           ANTIQUITY                                      [Vol.69, No. 2, 2004]
+
+
+because the necessary skills, knowledge or technologies                 12. Also see Lourandos (1997:274-278), White and
+related to fishing dropped out, the Tasmaniansshowed an            O'Connell (1982:157-170), Sim (1999), Parry (1981),
+aversion to eating the fish offered to them by the arriving        Bowdler (1980) and Thomas(1981). For the most part,these
+Europeans.Given what is known about food aversions and             have dealt exclusively with the loss of fish in the Tasmania
+disgust (Rozin et al. 2000), the most likely explanationis that    recordand do not addressthe broaderpuzzle.
+once fish droppedout (3,500 years ago), subsequentgenera-              13. Yaghanused a baited line and sinker to draw fish to
+tions were never exposed to the idea of eating these cold,         the surface,at which point they would either snatchthem by
+slimy, smelly creatures,so defaultdisgustreactionskickedin.        hand,or spearthem.
+That is, without culturallearning,humanstend to show dis-              14. As noted above, Allen (1979) has arguedthat drop-
+gust reactionstowardthe idea of eating slimy, smelly things.       ping fish from the diet was an adaptive move for the
+In my own ethnographicfieldwork,I had the same reaction            Tasmanians,given their latitudeand the availabilityof seals
+(as the Tasmaniansto fish) to the Machiguenga'shabit of            and mutton-birds.This explanationpredictsthathigh-latitude
+snacking on the slimy (fatty) insect larva taken from under-       coastal foragers (particularlyisland dwellers) all over the
+neath fallen logs, and the Mapuche's taste for drinkinghot         world should tend to drop fishing entirely from their eco-
+sheep's blood right from the animal'sneck (for the record,I        nomic repertoire,lose their ability to manufacturethe tech-
+forced myself to drinkthe blood, but would not eat the larva       nology, and learn to disdain the thought of eating fish. The
+unless they were fried first). It's also worthnoting that while    empirical record does not support this prediction.
+the Tasmaniansenthusiasticallyate the bread the European           Furthermore,wouldn't it be more adaptive to retain some
+explorersgave them, they refusedto eat (and were averseto)         fishing know-how, and a taste for fish, for use when other
+the butterthe Europeanswantedthemto put on the bread.The           sources are scarce,or duringthe appropriateseasons?
+same disgust logic applies.                                             15. Vanderwal'ssuggestion that it was the colder condi-
+    5. Henrich and Gil-White (2001) ground this cognitive          tions of the late Holocene in Tasmaniathat caused people to
+capacity in evolutionarytheory,develop a set of interrelated       drop their clothing in favor of grease and ochre leaves one
+predictions about human psychology and ethnography,and             wonderingwhy the Tasmaniansof the last glacial maximum
+summarizethe data in supportof these predictions.Among             did not abandontheirclothing (the archaeologicalrecordpro-
+other empiricalfindings, this work shows that both children        vides bone tools consistent with clothing manufacture),and
+and adults pay particularattentionto highly skilled or suc-        why neithertheAboriginalsto the north(snug in skin cloaks)
+cessful individuals (often unconsciously) and preferentially       nor anyonein Tierradel Fuego stoppedmanufacturingwinter
+imitate them in a variety of ways (includingin ways that do        clothing.
+not directlyrelate to theirdomainof skill).                             16. Similar comparisonscan be made for the foraging
+     6. In studying the conditions for maladaptivedeteriora-       inhabitantsof the ChathamIslands (Skinner 1923; Sutton
+tions in skill, this is a highly conservativeassumptionthat        1980), which lie at the same latitudeas the southernextremes
+favors cumulativeculturaladaptation.                               of Tasmania.
+     7. The details of this distributiondo not qualitatively            17. Shennan (2001) illustratesthe effects of drift on a
+impact the results-see AppendixC.                                  population'sadaptiveness.Unfortunately,this model is some-
+     8. Based on a lack of evidence for significantgenetic drift   what difficultto applydirectlyto the Tasmaniancase because
+betweenVictorianAboriginesandTasmanians,Pardoe(1991)               it assumes populationsare initially perfectly adaptedto their
+suggests that the estimateof 4,000 may be low.                     environment.
+     9. Thanksto FraserNeiman for pointing out the analogy              18. Drift explanationsdo provideuseful insightsinto evo-
+to assemblagediversity.                                            lutionaryprocessesinvolvingdomainsof culturenot strongly
+     10. The pre-Holocene peninsula of "GreaterTasmania"           affected by selective transmission(Lipo et al. 1997; Neiman
+(115,000 km2) was first severed from Australia between             1995).
+12,000 and 13,500 B.P., leaving an ocean crossing of 60 km              19. Interestingly,genetic drift appearsto have had only a
+to the mainland.Over the next 6,000-7,000 years, rising seas       very small effect on the differencesbetween Tasmaniansand
+furtherinundatedthe Bassian plain and reducedTasmaniato            AustralianAboriginesfromVictoria(Pardoe1991).
+its presentsize of 67,800 km2.                                         20. Rivers (1912) was republishedin Rivers (1926).
+     11. Moreover,more complex models and analyses may                 21. In general,we can do this for any numberof mental
+show thatculturaltransmissionis a multistageprocess,linked         representations,and study the interactionof differentmental
+to the developmentalcycle: young kids may rely on vertical         representations.
+transmissionfor initial skill and knowledge acquisition,and
+subsequentlyrely on prestige-biasedtransmissionin adoles-
+cence and adulthood.In making conclusions abouttransmis-
+sion, researchershave often failed to take into account that
+such a multistage scheme would look, at equilibrium,like           ReceivedMay 9. 2002; RevisedSeptember17, 2003;
+pure verticaltransmission.                                         AcceptedDecember 10, 2003.
+
+
+
+
+                            This content downloaded from 130.194.20.173 on Thu, 21 Nov 2013 04:44:01 AM
+                                            All use subject to JSTOR Terms and Conditions
+

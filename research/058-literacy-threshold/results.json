@@ -1,0 +1,450 @@
+{
+ "study": "058-literacy-threshold",
+ "seed": 20261058,
+ "check_057": {
+  "extreme_f0_thr1_one": 0.0,
+  "extreme_f0_thr0.1_one": 0.0,
+  "extreme_f0_thr0.01_one": 0.0,
+  "F_ev/pre12/main": 0.0
+ },
+ "cases": {
+  "k_literate_failures": {
+   "Greenland_iron": 0.0,
+   "Greenland_ships": 0.0,
+   "Iceland_iron": 0.5,
+   "Grafton_auger": 0.0,
+   "StKilda_boats_1727": 0.0
+  },
+  "k_mean_literate": 0.1,
+  "k_nonliterate_losses": {
+   "Inughuit_kayak": 1.0,
+   "Dorset_bow": 0.5,
+   "Tasmania_bone": 0.5,
+   "Moriori_crops": 0.0,
+   "Easter_canoes": 0.0
+  },
+  "k_mean_nonliterate": 0.4,
+  "literate_success_carrier": {
+   "Grafton_forge": "person",
+   "SeaVenture_pinnaces": "person",
+   "Tristan_longboats": "person",
+   "Pitcairn_literacy": "person+book",
+   "LAnse_iron": "person"
+  },
+  "share_person_carried": 1.0,
+  "n_book_only_success": 0,
+  "sens_k_mean_literate_Iceland0": 0.0,
+  "sens_k_mean_literate_Iceland1": 0.2
+ },
+ "priors": {
+  "psi_beta": [
+   2.5,
+   3.5
+  ],
+  "s_beta": [
+   3.5,
+   4.5
+  ]
+ },
+ "check_T2s_m3": 0.0,
+ "F": {
+  "main/main": {
+   "A_Ord/U3": {
+    "F_total": 1.0967533479912253,
+    "F_heavy": 1.2668538625274852,
+    "F_light": 0.9999999999999997
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.008292563323321,
+    "F_heavy": 1.0583167905874429,
+    "F_light": 1.0000000000000002
+   }
+  },
+  "main/one": {
+   "A_Ord/U3": {
+    "F_total": 1.2751351998315306,
+    "F_heavy": 1.7588459967191417,
+    "F_light": 0.9999999999999998
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0229603790797148,
+    "F_heavy": 1.1614670357517185,
+    "F_light": 0.9999999999999999
+   }
+  },
+  "corr/main": {
+   "A_Ord/U3": {
+    "F_total": 1.1658184112591043,
+    "F_heavy": 1.45734110954668,
+    "F_light": 0.9999999999999999
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0088239409045068,
+    "F_heavy": 1.0620536610720777,
+    "F_light": 0.9999999999999999
+   }
+  },
+  "corr/one": {
+   "A_Ord/U3": {
+    "F_total": 1.4663368955395948,
+    "F_heavy": 2.2861963373619183,
+    "F_light": 0.9999999999999999
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0262546658392748,
+    "F_heavy": 1.184633844807245,
+    "F_light": 1.0
+   }
+  },
+  "psi_unif/main": {
+   "A_Ord/U3": {
+    "F_total": 1.1420911986297742,
+    "F_heavy": 1.3918994636645976,
+    "F_light": 0.9999999999999997
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0105130519893746,
+    "F_heavy": 1.0739322001407086,
+    "F_light": 1.0000000000000002
+   }
+  },
+  "psi_unif/one": {
+   "A_Ord/U3": {
+    "F_total": 1.4036051243306702,
+    "F_heavy": 2.1131768419351533,
+    "F_light": 0.9999999999999999
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0285575095320718,
+    "F_heavy": 1.2008284095217283,
+    "F_light": 1.0
+   }
+  },
+  "psi1/main": {
+   "A_Ord/U3": {
+    "F_total": 1.3974425301843574,
+    "F_heavy": 2.096179889527036,
+    "F_light": 1.0000000000000002
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0227227188440784,
+    "F_heavy": 1.1597957090880313,
+    "F_light": 1.0
+   }
+  },
+  "psi1/one": {
+   "A_Ord/U3": {
+    "F_total": 2.120527375288103,
+    "F_heavy": 4.090508642559151,
+    "F_light": 0.9999999999999997
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0620350674490422,
+    "F_heavy": 1.436256667142936,
+    "F_light": 1.0
+   }
+  },
+  "psi1_s1/main": {
+   "A_Ord/U3": {
+    "F_total": 1.6542234469843204,
+    "F_heavy": 2.804403231603357,
+    "F_light": 0.9999999999999999
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0229071732952624,
+    "F_heavy": 1.1610928703134848,
+    "F_light": 0.9999999999999999
+   }
+  },
+  "psi1_s1/one": {
+   "A_Ord/U3": {
+    "F_total": 2.8635025587595626,
+    "F_heavy": 6.139696619903426,
+    "F_light": 0.9999999999999997
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0626272078168535,
+    "F_heavy": 1.4404208470812319,
+    "F_light": 1.0
+   }
+  },
+  "lam1/main": {
+   "A_Ord/U3": {
+    "F_total": 1.1012051863583276,
+    "F_heavy": 1.2791324067667718,
+    "F_light": 0.9999999999999997
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0082962295831013,
+    "F_heavy": 1.0583425732671181,
+    "F_light": 1.0
+   }
+  },
+  "lam1/one": {
+   "A_Ord/U3": {
+    "F_total": 1.2892489440667334,
+    "F_heavy": 1.7977728890911813,
+    "F_light": 1.0
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0229793114619503,
+    "F_heavy": 1.1616001762207269,
+    "F_light": 1.0
+   }
+  },
+  "main_fev/main": {
+   "A_Ord/U3": {
+    "F_total": 1.1074072302726972,
+    "F_heavy": 1.2962381649495756,
+    "F_light": 0.9999999999999997
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.010462581028894,
+    "F_heavy": 1.0735772671340693,
+    "F_light": 1.0
+   }
+  },
+  "main_fev/one": {
+   "A_Ord/U3": {
+    "F_total": 1.309468306160499,
+    "F_heavy": 1.853539588482839,
+    "F_light": 1.0000000000000002
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0288510679993774,
+    "F_heavy": 1.2028928360440894,
+    "F_light": 1.0000000000000002
+   }
+  }
+ },
+ "thr_quantiles": {
+  "main": {
+   "N_Fe": [
+    0.003770155365658741,
+    1.0,
+    1.0
+   ],
+   "N_lens": [
+    0.0005276854273036438,
+    1.0,
+    1.0
+   ],
+   "N_T2e": [
+    0.00018693871928573272,
+    1.0,
+    1.0
+   ]
+  },
+  "corr": {
+   "N_Fe": [
+    0.003784207283680748,
+    1.0,
+    1.0
+   ],
+   "N_lens": [
+    0.0005282206750904065,
+    1.0,
+    1.0
+   ],
+   "N_T2e": [
+    0.00018822929252964167,
+    1.0,
+    1.0
+   ]
+  },
+  "psi_unif": {
+   "N_Fe": [
+    0.0030889538396294686,
+    0.5712173407966679,
+    1.0
+   ],
+   "N_lens": [
+    0.000420044689959643,
+    0.5242976807742816,
+    1.0
+   ],
+   "N_T2e": [
+    0.00014382438973642607,
+    1.0,
+    1.0
+   ]
+  },
+  "psi1": {
+   "N_Fe": [
+    0.001668996571711615,
+    0.026676760929894305,
+    0.2383248694101335
+   ],
+   "N_lens": [
+    0.00018263569163343374,
+    0.007073400774913981,
+    0.13893001940025615
+   ],
+   "N_T2e": [
+    6.514531693337035e-05,
+    0.0031882652039116437,
+    0.09905553697116087
+   ]
+  },
+  "psi1_s1": {
+   "N_Fe": [
+    3.409069851618238e-05,
+    0.00019875476092862842,
+    0.0011554121497839983
+   ],
+   "N_lens": [
+    1.1726174381195824e-06,
+    9.358481652850746e-06,
+    6.95278696912622e-05
+   ],
+   "N_T2e": [
+    6.297169027514782e-07,
+    1.5402863480740569e-06,
+    4.6974287851680935e-06
+   ]
+  },
+  "lam1": {
+   "N_Fe": [
+    0.0013732084083338174,
+    1.0,
+    1.0
+   ],
+   "N_lens": [
+    0.0001903961469985035,
+    1.0,
+    1.0
+   ],
+   "N_T2e": [
+    6.673222752898908e-05,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "thr_Fe_if_knowledge_bound_q": [
+  0.001668996571711615,
+  0.026676760929894305,
+  0.2383248694101335
+ ],
+ "decompose_psi1_one": {
+  "N_Fe": {
+   "A_Ord/U3": {
+    "F_total": 1.0001953379415742,
+    "F_heavy": 1.0005387584542498,
+    "F_light": 1.0
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.000001680544458,
+    "F_heavy": 1.0000118182949485,
+    "F_light": 1.0
+   }
+  },
+  "N_lens": {
+   "A_Ord/U3": {
+    "F_total": 1.003124003548376,
+    "F_heavy": 1.0086162642507144,
+    "F_light": 1.0
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0008673921718207,
+    "F_heavy": 1.0060998663102168,
+    "F_light": 0.9999999999999999
+   }
+  },
+  "N_T2e": {
+   "A_Ord/U3": {
+    "F_total": 1.347705159842678,
+    "F_heavy": 1.959000043421444,
+    "F_light": 0.9999999999999997
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0479000400600804,
+    "F_heavy": 1.3368532137051203,
+    "F_light": 1.0
+   }
+  }
+ },
+ "T2_heavy_medians": {
+  "U3": {
+   "T2_median_base": 1968.2130361808129,
+   "T2_median_thr": 268.1419093744417,
+   "T2_median_thr_and_f0": 108.09657099730818,
+   "share_heavy": 0.694275
+  },
+  "BIO": {
+   "T2_median_base": 1204.4788959017199,
+   "T2_median_thr": 95.8193072000585,
+   "T2_median_thr_and_f0": 0.0,
+   "share_heavy": 0.0978
+  },
+  "CASC": {
+   "T2_median_base": 254.25685150729694,
+   "T2_median_thr": 39.21524331430969,
+   "T2_median_thr_and_f0": 0.0,
+   "share_heavy": 0.218205
+  }
+ },
+ "CE_with_F": {
+  "A_Ord/U3": {
+   "CH_heavy_TC_054value": 2.3289956299447407,
+   "x_F_main": 2.554333754598827,
+   "x_F_psi1_s1_one": 6.669084945686604,
+   "CH_heavy_STC": 6.894959331937846,
+   "breakeven_F": 5.002361727101148
+  },
+  "A_XPT_S/U2": {
+   "CH_heavy_TC_054value": 2.3285004623345698,
+   "x_F_main": 2.3478096998668616,
+   "x_F_psi1_s1_one": 2.4743279446908364,
+   "CH_heavy_STC": 15.46402650964809,
+   "breakeven_F": 5.002361727101148
+  }
+ },
+ "hypotheses": {
+  "H70a": {
+   "value": 0.1,
+   "rule": "mean k of literate failures < 0.25",
+   "supported": true
+  },
+  "H70b": {
+   "value": 0.4,
+   "rule": "mean k of nonliterate isolate losses >= 0.30",
+   "supported": true
+  },
+  "H70c": {
+   "value": 1.0,
+   "rule": "share of literate successes carried by a skilled person >= 0.75",
+   "supported": true
+  },
+  "H70d": {
+   "value": 0.026676760929894305,
+   "rule": "median thr (N_Fe, knowledge-bound, lam 0.2, s main) < 0.1",
+   "supported": true
+  },
+  "H70e": {
+   "value": 1.0967533479912253,
+   "rule": "main, p_early main: F (A_Ord/U3) < 1.2",
+   "supported": true
+  },
+  "H70f": {
+   "value": 2.8635025587595626,
+   "rule": "all versions: F (A_Ord/U3) < 5",
+   "supported": true
+  },
+  "H70g": {
+   "value": 4.090508642559151,
+   "rule": "psi1, p_early=1: F_heavy (A_Ord/U3) >= 1.5",
+   "supported": true
+  },
+  "H70h": {
+   "value": {
+    "gain_Fe_only": 0.00019533794157422513,
+    "gain_all": 1.1205273752881029,
+    "ratio": 0.00017432679101124244
+   },
+   "rule": "psi1, p_early=1: gain from N_Fe alone < 0.5 of total gain",
+   "supported": true
+  }
+ },
+ "runtime_s": 40.14012575149536
+}
