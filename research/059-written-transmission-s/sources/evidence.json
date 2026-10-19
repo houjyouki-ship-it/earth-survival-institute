@@ -1,0 +1,141 @@
+{
+ "studies": [
+  {
+   "id": "Morgan2015",
+   "url": "https://www.nature.com/articles/ncomms7029",
+   "pmc": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4338549/fullTextXML",
+   "src": "PMC4338549.txt",
+   "data": {
+    "p_hit_pos1": {
+     "RE": 0.03,
+     "IE": 0.04,
+     "BT": 0.06,
+     "GT": 0.07,
+     "VT": 0.1
+    },
+    "prop_viable_pos1": {
+     "RE": 0.55,
+     "IE": 0.58,
+     "BT": 0.72,
+     "GT": 0.72,
+     "VT": 0.73
+    },
+    "grad_p_hit": {
+     "IE": -0.08,
+     "BT": -0.04,
+     "GT": -0.12,
+     "VT": -0.33
+    },
+    "n": {
+     "RE": 37,
+     "IE": 34,
+     "BT": 38,
+     "GT": 37,
+     "VT": 38
+    }
+   },
+   "ex": [
+    "Probability of a viable flake per hit 0.03, [0.02,0.05] 0.04, [0.03,0.06] 0.06, [0.04,0.08] 0.07, [0.05,0.10] 0.10, [0.07,0.16]",
+    "Proportion of flakes that are viable 0.55, [0.48,0.62] 0.58, [0.52,0.64] 0.72, [0.66,0.77] 0.72, [0.67,0.77] 0.73, [0.68,0.78]",
+    "Probability of a viable flake per hit IE −0.08, [−0.12, −0.05] - BT −0.04, [−0.08, 0.00] - GT −0.12, [−0.16, −0.08] - VT −0.33, [−0.38, −0.28]",
+    "without teaching, the drop in performance along chains was so severe that performance immediately fell to floor levels",
+    "Position 1 corresponds to the first participant, not the trained experimenter.",
+    "The learning/teaching period lasted for five minutes"
+   ],
+   "code": 1.0
+  },
+  {
+   "id": "Muthukrishna2014",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3843838/",
+   "src": "muthu2014.txt",
+   "data": {
+    "exp2_slope_SD": {
+     "one_1_3": [
+      -0.67,
+      0.28
+     ],
+     "five_1_3": [
+      -0.25,
+      0.28
+     ],
+     "one_4_10": [
+      -0.07,
+      0.05
+     ],
+     "five_4_10": [
+      -0.03,
+      0.05
+     ]
+    },
+    "exp1_slope_SD": {
+     "five": 0.23,
+     "one": -0.06
+    }
+   },
+   "ex": [
+    "over the first three generations, the mean skill of the five-model treatment declines by 0.25 s.d. (equivalent to 6 percentage points) per generation ( p = 0.37), whereas the one-model treatment declines by 0.67 s.d. (16 percentage points) per generation ( p = 0.02)",
+    "generation −0.67 (0.28)* −0.25 (0.28) −0.07 (0.05) −0.03 (0.05)",
+    "Generations 4–10 suggest different equilibria where the five-model treatment has an equilibrium at twice the skill level of the one-model equilibrium.",
+    "permitted to write up to two pages of information to assist the next generation",
+    "estimated an average improvement of 0.23 s.d. (equivalent to 7 percentage points) per generation in similarity-to-target image ( p &lt; 0.001)",
+    "a decline of 0.06 s.d. (2 percentage points) per generation ( p = 0.19)",
+    "permitted to create an instructional video detailing the tying and placement of each knot"
+   ]
+  },
+  {
+   "id": "Derex2019",
+   "url": "https://maximederex.github.io/assets/pdf/derex2019.pdf",
+   "src": "derex2019_norm.txt",
+   "data": {
+    "gen_config": {
+     "mean": 5.37,
+     "ci": [
+      1.58,
+      9.02
+     ]
+    },
+    "gen_x_theory": {
+     "mean": -2.23,
+     "ci": [
+      -7.07,
+      2.52
+     ]
+    }
+   },
+   "ex": [
+    "generation × treatment: 95% CI: −7.07 to 2.52; mean = −2.23 m h−1",
+    "(generation 95% confidence interval (CI): 1.58 to 9.02; mean = 5.37 m h−1; Fig. 2a)",
+    "Theories had to be less than 340 characters long"
+   ],
+   "code": 0.0
+  },
+  {
+   "id": "Zwirner2015",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4660383/",
+   "src": "PMC4660383.txt",
+   "code": 0.5,
+   "ex": [
+    "there were no significant differences between treatments ( F 2, 36 = 2.51, p = 0.074; treatment*generation: F 2, 196 = 2.03, p = 0.112)",
+    "This difference was driven by greater durability of baskets in Teaching chains than in the other three treatments."
+   ]
+  },
+  {
+   "id": "HSSC2021",
+   "url": "https://www.nature.com/articles/s41599-021-00925-4",
+   "src": "hssc2021.txt",
+   "code": 0.0,
+   "ex": [
+    "fidelity was greater in the demonstration conditions than the verbal instruction conditions in both adults (with respect to both causally relevant and causally irrelevant actions), and children (causally relevant actions only)"
+   ]
+  },
+  {
+   "id": "Bietti2019",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221278",
+   "src": "PMC6750589.txt",
+   "code": 0.0,
+   "ex": [
+    "Contrary to our expectations, the results did not reveal that (1) performance increased over generations or that (2) interactivity in transmission sessions promoted increased performance."
+   ]
+  }
+ ]
+}

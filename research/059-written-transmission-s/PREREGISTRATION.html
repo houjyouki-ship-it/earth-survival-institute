@@ -1,0 +1,34 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究059 事前登録（書かれた手順が伝達の損失を減らす割合 s、open_problems 157） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="059-sopen_problems-157">研究059 事前登録（書かれた手順が伝達の損失を減らす割合 s、open_problems 157）</h1>
+<p>登録時刻：下の行（<code>date -u</code>）。資料を読んだ後、<code>sources/evidence.json</code> と <code>sim.py</code> の作成の前。</p>
+<h2 id="sources">使う資料（本回開いて確認、sources/ に保存）</h2>
+<ul>
+<li>Morgan ほか 2015 Nat Commun（PMC4338549、石器の剥片、5条件の伝達の連鎖）</li>
+<li>Muthukrishna ほか 2014 Proc R Soc B（PMC3843838、実験1 画像編集：2頁までの書いた情報＋画面、実験2 結び目：専門家から始め動画、1手本と5手本）</li>
+<li>Derex ほか 2019 Nat Hum Behav（著者のPDF、車輪：構成のみ と 構成＋340字までの書いた理論）</li>
+<li>Zwirner &amp; Thornton 2015 Sci Rep（PMC4660383、籠：非社会・模倣・エミュレーション・教示）</li>
+<li>2021 HSSC（s41599-021-00925-4、パズル箱：実演と言葉の指示）</li>
+<li>PLoS ONE 2019（PMC6750589、ラビオリ：対面と録画の指示）</li>
+</ul>
+<h2 id="_1">方法</h2>
+<ol>
+<li>058 の sim.py を「# ---------- 仮説 ----------」の前まで exec し、058 の F（main/main など）を差0で再現する。</li>
+<li>s の根拠を3本立てる。</li>
+<li>s_M（上限）：Morgan の Table 1 の位置1の値で、言葉の教示（VT）と模倣・エミュレーション（IE）の専門家からの落ちの比。s_M = 1 − (L(E) − L(VT1)) / (L(E) − L(IE1))、L は logit。専門家の値 E は本文にないので、p_hit は logit 一様 [0.15, 0.6]、viable の割合は一様 [0.80, 0.97]（どちらも【推測】）。対面の言葉の教示なので、書いた手引きの上限と読む。</li>
+<li>w（書いた・言葉の経路が実演だけより伝達を良くした実験の割合）：Morgan 1、Zwirner 0.5（改善は差なし、壊れにくさは教示が上）、HSSC 0（大人は言葉の方が忠実さが低い）、Derex 0（書いた理論は改善の速さを変えない）、ラビオリ 0（対面と録画で成績に差なし）→ 1.5/5、w ~ Beta(2, 4)（数え方は【推測】）。</li>
+<li>s_mix（主）：確率 w で s_M、残りで s ~ U(0, 0.1)（書いたものがほぼ効かない）。</li>
+<li>Henrich の式の前提の検証：Muthukrishna 実験2 の世代ごとの傾き（1手本 −0.67／−0.07 SD、5手本 −0.25／−0.03 SD、世代1–3／4–10）。一定の α なら後半と前半の傾きの比は 1。差が床への戻り（損失が床からの差に比例）なら比は 1 より小さい。比から減衰率 ρ を解き、床からの差の模型でも閾値の比が (N* e^ε)^(−s) と同じ形になることを数値で確かめる。Henrich の式で α/β と実験の閾値 N* も出す（5手本の傾きは p=0.37 なので幅を書く）。</li>
+<li>F を出し直す：s_058（再現）、s_M、s_mix、s_low（U(0,0.1)）、それぞれ ψ 主・p_early 主と、ψ=1・p_early=1。閾値の形の感度として線形版 thr = 1 − s。</li>
+<li>報告は軽い崩壊と重い崩壊を分け、A_Ord/U3 と A_XPT_S/U2 を並べる。</li>
+</ol>
+<h2 id="_2">仮説（判定の規則）</h2>
+<ul>
+<li>H71a：s_M（p_hit）の中央値 &lt; 0.5。</li>
+<li>H71b：Muthukrishna 実験2 の後半／前半の傾きの比は 1手本・5手本とも &lt; 0.3（一定の α の模型に合わない）。</li>
+<li>H71c：1手本の傾きの比から解いた床への戻りの率 a = 1 − ρ ≥ 0.3／世代。</li>
+<li>H71d：床からの差の模型で s を損失の率に掛けた閾値の比は Henrich の式の比と一致（相対差 &lt; 1e-9）。</li>
+<li>H71e：s_mix・ψ 主・p_early 主の F（A_Ord/U3）&lt; 058 の main 1.097。</li>
+<li>H71f：線形版（thr = 1 − s）の F（A_Ord/U3、s_mix、ψ 主、p_early 主）&lt; 1.05。</li>
+<li>H71g：s_M・ψ=1・p_early=1 でも F（A_Ord/U3）&lt; 5.0（056 の釣り合い）。</li>
+<li>H71h：Derex の書いた理論の効き（世代×処理）の 95% CI は 0 を含み、上端 2.52 m/h は構成だけの世代の効き 5.37 m/h より小さい。
+2026-10-19T16:44:31Z</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
