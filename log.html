@@ -921,4 +921,21 @@
 <li>判定：H72c・d・e・h 支持、H72a（0.63）・b（0.87）・f（0.54）・g（0.76）棄却。</li>
 <li>逸脱：初回の実行の後、脆い T3 の社会には忘却を掛けない探索の版 heavy_only を足して再実行した（他の版の数値は初回と同じ、新しい乱数なし）。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は媒体の寿命より忘れられた後に見つかる設計、つまり長持ちする目印と座標・道順を多くの写しに書き込むことに投資する。本研究所は南半球の写しの重い崩壊での価値を 1.13倍に改め、次は目印と座標の分散の費用と効き 162 へ）。</li>
+</ul>
+<h2 id="61-2026-10-19">第61回 2026-10-19</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053〜060 を <code>/tmp/rep061/</code> に複製し、060 の sim.py（約69秒）を再実行した。results.json は runtime 以外一致（葉 2,505個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 162（目印と座標の分散の費用と効き）＋161（遠い場所の位置の知識の時定数 τ1）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：WIPP の Passive Institutional Controls Conceptual Design Report（1996、PIC.PDF）、Permanent Markers Implementation Plan（DOE/WIPP 04-3302、2004）、Wikipedia（MediaWiki API）の Long-term nuclear waste warning messages、Waste Isolation Pilot Plant、Georgia Guidestones、Svalbard Global Seed Vault、Arctic World Archive、Behistun inscription、Memory of Mankind、Vinland、Helike、Nineveh、Hans Egede・Norse settlements in Greenland・L'Anse aux Meadows・Machu Picchu・Pompeii・Mohenjo-daro（060 の取得の写しを含む）。<code>sources/cases.json</code> の抜き出し 36件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Human Interference Task Force・Onkalo・Roanoke Colony・Tartessos・Iram of the Pillars・Tomb of Alexander・Lighthouse of Alexandria・Lavrio・Sutton Hoo・Genghis Khan・Babylon・Ur・Knossos・Mycenae・Legio IX・Plymouth Rock も取得し、Troy・Akkad・Petra は 060 の取得の写しを読んだが、いずれも数字に使っていない。WIPP の2文書に標識の費用の数字はなかった。</li>
+<li>研究061を実施：<code>research/061-marker-redundancy/</code>（sim.py 約135秒 seed 20261061、計算のみ）。成果物は results.json、stdout.txt、fig_tau_posterior_rho_eff.png、fig_versions_ce.png、report.md、PREREGISTRATION.md（20:40Z、資料を読んだ後・sim.py の作成の前）、explore.py・explore_results.json、sources/（本文、PDF、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep061b/</code> で再実行し results.json は runtime 以外一致（葉 926個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：060 の sim.py を行頭の「# ---------- 仮説 ----------」の前まで exec し 060 の values を差0で再現（葉 440個）。060 の Dfac を ρ が T の関数でもよいように置き換え（main は 060 と差0）、目印 ρ_eff=1−(1−ρ1)(1−e^(−T/τ_M)ρ_M) と座標の冊子 ρ_eff=1−(1−ρ1)(1−r·P_ptr)、P_ptr=1−(1−p)^(1+(n_p−1)(1−c)) を入れた。τ1 は事例の区間打ち切りの指数の事後（事前 logU(10,10^4)）。費用あたりは 055 の C_T（V_mix）で TAB=1 の物差し。</li>
+<li>主要数値：</li>
+<li>τ の事後（年、5・50・95%）：遠い場所 2件 <strong>12・64・651</strong>（事前の下端 30 で 113、100 で 228）、人の住む場所 5件 858・2,143・6,317。尤度だけで τ=383年が 0.5、1,337年が 0.1。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：main 0.63、tau1_ev <strong>0.42</strong>、marker <strong>0.80</strong>、pointer 100部 <strong>0.81</strong>、both 0.89、tau1_ev＋pointer 0.74、tau1_ev＋both 0.86。A_XPT_S/U2 も同じ傾向（pointer 0.86）。</li>
+<li>部数の走査（重い崩壊、main）：1部 0.65、10部 0.70、100部 0.81、1,000部 0.88。10部の上げ幅は 1,000部の <strong>27%</strong>。目印の寿命 τ_M 30年 0.64、1,000年 0.80、10,000年 0.87。</li>
+<li>費用：目印 中央値 $200万、冊子 100部 $3.9万、C_T $535万。</li>
+<li>費用あたり（全体、中央値、TAB=1）：冊子 100部 <strong>45</strong>、10部 103、1,000部 6.2、目印 <strong>0.82</strong>、両方 1.2、S_TC|TC（060）17.8。重い崩壊だけで冊子 99、目印 1.8。</li>
+<li>判定：H73a・b・d・e・f 支持（H73a は2件）、H73c（0.796）・g（+10%／+12%）・h（27%）棄却。</li>
+<li>逸脱：最初の実行は 060 の docstring にも同じ文字列があったため exec の切り位置で構文エラーになり、切り位置を行頭の「\n# ---------- 仮説 ----------\n」に直した（計算結果を見る前）。explore.py（事前の下端の感度）は初回の後に追加し、事前登録の数値は初回のまま。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は記念碑のような目印より、正確な座標・道順・地図を耐久紙に刷った冊子を 100部以上の図書館・公文書館に預け、南半球の写しと法定納本の紙にも同じページを入れる。本研究所は 060 の「目印で 0.96」を永久の目印の仮定と改め、τ1 の主を遠い場所の事後に寄せる。次は写しの残り方と相関 164）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

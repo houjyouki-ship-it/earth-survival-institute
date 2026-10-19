@@ -1,0 +1,130 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究061：目印と座標の写しで、忘れられた金庫を見つける確率をどれだけ上げられるか、その費用（open_problems 162＋161） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="061open_problems-162161">研究061：目印と座標の写しで、忘れられた金庫を見つける確率をどれだけ上げられるか、その費用（open_problems 162＋161）</h1>
+<p>2026-10-19、第61回。計算のみ（sim.py、seed 20261061、約135秒、ネット接続なし）。事前登録：PREREGISTRATION.md（20:40Z、資料を読んだ後・sim.py の前）。探索：explore.py（事前の下端の感度）。</p>
+<h2 id="_1">問い</h2>
+<p>060 で、重い崩壊（T1・T0 から再出発）では金庫の場所の知識が消える年数 τ1 と、忘れられた後に見つかる確率 ρ1 が金庫の価値を最も動かすと分かった。(1) 遠い無人の場所の正確な位置は何年で失われるか（161）。(2) 現地の目印と、座標・道順を書いた冊子を多くの図書館に預けることで、どれだけ価値を取り戻せ、費用あたり南半球の写し（S_TC）と比べてどうか（162）。</p>
+<h2 id="36-sourcesverify_excerptspy">資料（本回取得。抜き出し 36件は sources/verify_excerpts.py で保存本文と照合しすべて一致）</h2>
+<ul>
+<li>【事実（<a href="https://www.wipp.energy.gov/library/CRA/BaselineTool/Documents/Appendices/PIC.PDF">WIPP の Passive Institutional Controls Conceptual Design Report, 1996</a>）】核廃棄物の処分場の「受け身の制度的管理」は、現地の標識に加えて、正確な位置の地図を含む記録を世界の公文書館と記録の拠点（53 の連邦の寄託図書館など）に配る二段の設計で、「長期の保護の最も見込みのある戦略は広く配ること」と書く。Alnico の磁石は一定の率なら約2,700年で強さ 10% になる。【事実（<a href="https://en.wikipedia.org/wiki/Waste_Isolation_Pilot_Plant">Waste Isolation Pilot Plant</a>、<a href="https://www.wipp.energy.gov/library/PermanentMarkersImplementationPlan.pdf">Permanent Markers Implementation Plan, 2004</a>）】標識は高さ 7.6m の花崗岩の柱 32本など。PIC にも実施計画にも標識の費用の数字はなかった。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Georgia_Guidestones">Georgia Guidestones</a>）】1980〜2022 に立った花崗岩の記念碑で、費用は US$100,000 超（2025年の約 $400,000）、2022 に爆破された（42年）。【事実（<a href="https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault">Svalbard Global Seed Vault</a>）】建設費 約4,500万 kr（US$880万）、維持は 2019 年に 240万 kr。【事実（<a href="https://en.wikipedia.org/wiki/Behistun_inscription">Behistun inscription</a>）】前522〜486 に崖に刻まれ今も残る。【事実（<a href="https://en.wikipedia.org/wiki/Memory_of_Mankind">Memory of Mankind</a>）】位置を約10mの精度で示す陶の token を参加者に配り、50年ごとに集まる儀式を付けている（座標の写しの既存の例）。</li>
+<li>τ1 の事例（位置の知識が失われた年数を区間で符号化、<code>sources/cases.json</code>）：遠い場所 2件＝【事実（<a href="https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland">Norse settlements in Greenland</a>、<a href="https://en.wikipedia.org/wiki/Hans_Egede">Hans Egede</a>）】最後の記録 1408〜1410、1721 に Egede らは東の入植地を東の海岸と考えた（実際は南西）→ (0, 311]年。【事実（<a href="https://en.wikipedia.org/wiki/Vinland">Vinland</a>、<a href="https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows">L'Anse aux Meadows</a>）】約1000年前の短い野営地、Rafn らは Massachusetts に置いた（1880 の訳）→ (0, 880]年。人の住む場所 5件＝Helike（前373、174 年頃 Pausanias が水中の壁を見た、後に忘れられ 1826 以降に探された → (547, 2199]）、Nineveh（中世を通じて知られ 1761〜67 に記録 → ≥2373 の右打ち切り）、Machu Picchu（1572 頃に放棄、1911 → ≥339）、Pompeii（La Civita と呼ばれ意味が失われた → (0, 1513]）、Mohenjo-daro（c.1700 BCE → (0, 3620]）。【推測】区間の端の年は記録の年で、実際に忘れられた年はもっと早いかもしれない。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<p>060 の sim.py を exec し values（葉 440個）を差0で再現。060 の D(T)=m+(1−m)ρ1（m=exp(−T/τ1)、T＝T2s）の ρ1 を対策ごとの ρ_eff(T) に置き換えた（main は 060 と差0）。
+- tau1_ev：遠い場所 2件の区間打ち切りの指数の事後（事前 logU(10, 10^4)）から τ1 を引く。
+- marker：ρ_eff = 1−(1−ρ1)(1−s_M ρ_M)、s_M=exp(−T/τ_M)、τ_M ~ logU(300, 5000)、ρ_M ~ U(0.5, 0.84)、費用 logU($40万, $1,000万)【推測、端は Guidestones と Seed Vault】。
+- pointer：座標・道順・地図の冊子を n_p 部（主 100）図書館・公文書館に預ける。1部が残る確率 (1−lost0)e^(−T/τp)（055・060 と同じ範囲）、見つかり読まれる U(0.3, 0.84)、写しの相関 c ~ U(0.5, 0.95) で実効の部数 1+(n_p−1)(1−c)、金庫まで行ける r ~ U(0.5, 1)。費用 logU($1千, $1万)＋n_p×(logU($100, $1,000)＋U($25, $50))【推測】。
+- 費用あたり：CE = (ΔV_TC / V_TAB) × C_T / C_x（C_T は 055 の V_mix、字数 1e7〜1e8）。060 の S_TC|TC の CE と比べる。</p>
+<h2 id="a_ordu3-a_xpt_su2tc-v0">結果（A_Ord/U3、括弧は A_XPT_S/U2。TC の価値の V0（忘却なし）に対する比）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>全体</th>
+<th>重い崩壊</th>
+<th>軽い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>main（060）</td>
+<td>0.81（0.85）</td>
+<td>0.63（0.66）</td>
+<td>0.87（0.87）</td>
+</tr>
+<tr>
+<td>tau1_ev</td>
+<td><strong>0.62</strong>（0.59）</td>
+<td><strong>0.42</strong>（0.42）</td>
+<td>0.58（0.58）</td>
+</tr>
+<tr>
+<td>marker</td>
+<td>0.91（0.94）</td>
+<td><strong>0.80</strong>（0.83）</td>
+<td>0.95（0.95）</td>
+</tr>
+<tr>
+<td>pointer（100部）</td>
+<td>0.92（0.95）</td>
+<td><strong>0.81</strong>（0.86）</td>
+<td>0.97（0.96）</td>
+</tr>
+<tr>
+<td>both</td>
+<td>0.96（0.98）</td>
+<td>0.89（0.93）</td>
+<td>0.99（0.99）</td>
+</tr>
+<tr>
+<td>tau1_ev＋marker</td>
+<td>0.83</td>
+<td>0.71</td>
+<td>0.84</td>
+</tr>
+<tr>
+<td>tau1_ev＋pointer</td>
+<td>0.86</td>
+<td>0.74</td>
+<td>0.88</td>
+</tr>
+<tr>
+<td>tau1_ev＋both</td>
+<td>0.93</td>
+<td>0.86</td>
+<td>0.96</td>
+</tr>
+<tr>
+<td>- τ の事後（年、5・50・95%）：遠い場所 <strong>12・64・651</strong>、人の住む場所 858・2,143・6,317、全7件 608・1,285・3,193。060 の主 τ1 の中央値は 318。遠い場所の2件は上限の情報しかないので、中央値は事前の下端に依る（下端 30 で 113、100 で 228、explore.py）が、どの下端でも 318 より短い。尤度だけでは τ が 383年で 0.5、1,337年で 0.1。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 写しの部数の走査（重い崩壊、main／tau1_ev）：1部 0.65／0.48、10部 0.70／0.55、30部 0.75／0.65、100部 0.81／0.74、1,000部 0.88／0.82。10部の上げ幅は 1,000部の <strong>27%</strong>（tau1_ev で 32%）で、飽和は遅い（写しどうしの相関が強いため）。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 目印の寿命の走査（重い崩壊）：τ_M 30年 0.64、300年 0.71、1,000年 0.80、10,000年 0.87。Guidestones の 42年の寿命なら効きはほぼ無い。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用：C_M 中央値 $200万、C_P（100部）$3.9万、C_T $535万。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用あたり（全体、中央値、TAB=1）：pointer 100部 <strong>45</strong>（9.5〜216）、10部 103、1,000部 6.2、marker <strong>0.82</strong>（0.11〜6.0）、both 1.2。060 の S_TC</td>
+<td>TC は 17.8、TC は 2.45。重い崩壊だけでは pointer 99、marker 1.8（S_TC</td>
+<td>TC 12.1）。tau1_ev では pointer 134、marker 2.4。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説の検証</h2>
+<ul>
+<li>H73a（遠い場所の τ の事後の中央値 &lt; 318年）：支持（64年。事前の下端 100 でも 228）。ただし2件。</li>
+<li>H73b（tau1_ev で重い崩壊の TAB &lt; 0.63）：支持（0.42）。</li>
+<li>H73c（marker で重い崩壊の TC ≥ 0.8）：<strong>棄却</strong>（0.796、境目）。060 の「ρ=0.9 で 0.96」は目印が永久に残る仮定だった。</li>
+<li>H73d（pointer ≥ marker、重い崩壊）：支持（0.81 対 0.80）。</li>
+<li>H73e（pointer の CE &gt; S_TC|TC の CE）：支持（45 対 17.8）。</li>
+<li>H73f（marker の CE &lt; S_TC|TC の CE）：支持（0.82 対 17.8。TAB の手引きより費用あたりに劣る）。</li>
+<li>H73g（軽い崩壊の変化 &lt; 5%）：<strong>棄却</strong>（marker +10%、pointer +12%）。060 で脆い T3 の社会にも忘却を掛けているため。</li>
+<li>H73h（10部で 1,000部の上げ幅の 80% 以上）：<strong>棄却</strong>（27%）。</li>
+</ul>
+<h2 id="_4">批判的な検討</h2>
+<ul>
+<li>τ1 の根拠は遠い場所 2件だけで、どちらも文字の社会（Norse）だった。文字の記録があっても正確な位置は数百年以内に失われたので、重い崩壊（口伝だけ）ではもっと短いかもしれない【推測】。逆に、2件とも小さな入植地で、金庫は「Svalbard」という地名と結びつくので、地名が残れば τ1 は長い【推測】。</li>
+<li>pointer の効きは、写しの1部が見つかり読まれる確率（0.3〜0.84）と相関 c（0.5〜0.95）にほぼ全面的に依る。戦乱で図書館が丸ごと失われる例（060 の Załuski 0.92）からは c はもっと高いかもしれず、その場合 100部でも効きは小さい。最大の未知（→164）。</li>
+<li>pointer は「金庫まで行ける」r（0.5〜1）を掛けている。T2 の社会が 78°N に船で届くかは確かめていない（→165）。</li>
+<li>目印の費用は Guidestones（下限）と Seed Vault の建設費（施設全体）からの推測で、WIPP の文書に費用の数字はなかった。目印の寿命 τ_M は人の破壊（Guidestones の爆破）と崖の碑文（Behistun 約2,500年）の間で、推測の幅が大きい。</li>
+<li>CE の比較は TC がある前提の上乗せ。pointer と S_TC は排他でなく、南半球の写しや法定納本の紙に座標の1ページを足すのはほぼ費用0なので、実際の提案は「両方」になる。</li>
+</ul>
+<h2 id="_5">新規性</h2>
+<p>WIPP の PIC は現地の標識と記録の分散を並べたが、両者の効きと費用を同じ物差しで比べてはいない。Memory of Mankind は座標の token を配るが、その効きを見積もっていない。文明の回復の年数と場所の忘却を掛け合わせ、目印と座標の写しの費用あたりを金庫の手引き・南半球の写しと同じ物差しで比べたのは本研究所で初めて【推測：網羅的に調べたわけではない】。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者（Svalbard の Arctic World Archive など）は、記念碑のような目印に数百万ドルをかけるより、正確な座標・道順・地図を耐久紙に刷った冊子を 100部以上の図書館・公文書館に預け（約 $4万）、南半球の写しと法定納本の紙にも同じページを入れるべきで、費用あたりは目印の約55倍、南半球の写しの約2.5倍。本研究所は 060 の「目印で 0.96 に戻る」を「永久の目印の仮定」と改め、τ1 の主を遠い場所の事後（中央値 64年）に寄せて重い崩壊の金庫の価値を 0.42倍と記録する。</p><footer><hr><small>自動生成</small></footer></body></html>
