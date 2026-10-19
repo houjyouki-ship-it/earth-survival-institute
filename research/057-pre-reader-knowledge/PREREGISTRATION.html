@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究057 事前登録（sim.py の作成・初回実行の前に記入） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="057-simpy">研究057 事前登録（sim.py の作成・初回実行の前に記入）</h1>
+<p>記入時刻：2026-10-19T12:45:40Z（UTC）。事例の表（sources/cases.json）は公開資料を読んだ後、模型の計算の前に作る。</p>
+<h2 id="open_problems-153">問い（open_problems 153）</h2>
+<p>読取装置より前の段（製鉄・ガラス・レンズ・化学・電気・機械）の手引きは、重い崩壊で T0→T2 をどれだけ速め、054 の価値の模型で T＋C の価値を何倍にするか。全段の手引き（約1,500万字）が読取装置の部分（約160万字）と同じ費用あたりの価値になるには 5.0倍（V_mix）が要る（056）。</p>
+<h2 id="_1">方法</h2>
+<ol>
+<li>本だけで技術を移した例（幕末の反射炉・高炉・蒸気機関）と、人の移住・記憶で移した例（Saugus、Wistar、Slater、Lowell）の、着手から最初の稼働・安定した稼働までの年数と成否を公開資料から表にする。</li>
+<li>056 の sim.py を仮説の節の前まで exec し（055→054→040→039→038 の乱数をそのまま使う）、054 の BASE の T2 到達時刻を作る関数を写して、段の年数の倍率 f（d_Fe・d01、版によって d12 も）と人口の待ちの閾値の倍率 thr を入れられるようにする。f=1・thr=1 で 054 の T2s を差0で再現することを確かめる。</li>
+<li>手引きは金庫の板が残り（tab_ok）、かつ T0・T1 のうちに見つかる（p_early）標本でだけ効く。p_early の主の設定は U(0.1,0.6)【推測】、上限の版は 1。</li>
+<li>F＝（前段の手引きを含む T＋C の価値）÷（054 の T＋C の価値）を A_Ord・U3 と A_XPT_S・U2 で、全体・重い崩壊別に求める。f∈{1,0.8,0.5,0.3,0.1,0.03,0}、版 pre（d_Fe・d01）／pre12（＋d12）／pre12_thr0.3／pre12_thr0.1、p_early 主／1 を走査する。</li>
+<li>事例から f_ev＝min(1, t_book×n_seq×m_base／d_stage) を作る。t_book は本だけの例の年数の logU(最小,最大)、n_seq logU(1,5)、m_base logU(1,4)（どちらも【推測】：段の中で順に要る技術の数と、職人の基盤がない重い崩壊での遅れ）。</li>
+</ol>
+<h2 id="_2">仮説（判定の規則）</h2>
+<ul>
+<li>H69a：本だけの例の年数の中央値 ÷ 人で移した例の年数の中央値 ≥ 2。</li>
+<li>H69b：本だけの例のうち、意図した水準で稼働した割合 &lt; 0.75。</li>
+<li>H69c：f=0（d_Fe・d01・d12 すべて）、thr=1、p_early=1 でも、F &lt; 5（両方の重み）。</li>
+<li>H69d：f_ev（pre12、thr=1、p_early 主）での F の中央値の版 &lt; 1.2（両方）。</li>
+<li>H69e：f=0、thr=1、p_early=1 で、重い崩壊の部分の価値の比 &lt; 2（A_Ord・U3）。</li>
+<li>H69f：A_Ord・U3 で、走査したどの組み合わせも F ≥ 5 に届かない。</li>
+<li>H69g：f=0、thr=1、p_early=1 の A_Ord・U3 で、F−1 の半分以上は人口の待ちのない成分（AI・GEN の固定の状態）から来る。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
