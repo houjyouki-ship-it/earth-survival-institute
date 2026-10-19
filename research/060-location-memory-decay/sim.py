@@ -84,6 +84,7 @@ VERS = {
  "paper_short": {"tau1": tau1, "rho1": rho1, "tau2": tau2, "rho2": rho2, "taup": taup_short},
  "lost0_ev": {"tau1": tau1, "rho1": rho1, "tau2": tau2, "rho2": rho2, "taup": taup, "lost0": lost0_ev},
  "corr": {"tau1": tau1, "rho1": rho1, "tau2": tau2, "rho2": rho2_corr, "taup": taup},
+ "heavy_only": {"tau1": tau1, "rho1": rho1, "tau2": tau2, "rho2": rho2, "taup": taup, "heavy_only": True},   # 探索（事前登録の外）
 }
 
 def Dfac(T, tau, rho):
@@ -95,6 +96,7 @@ def V_t(k, qv, tablet, S=None, opt=None, kind_ld=None):
     opt = opt or {}
     st, T2s, sc = B[k]["st"], B[k]["T2s"], SC[k]
     T = np.maximum(T2s, 0.0)
+    if opt.get("heavy_only"): T = np.where(np.isin(st, (4, 5)), T, 0.0)   # 探索（事前登録の外）：T3 の脆い社会は記録で場所を保つとする
     D1 = Dfac(T, opt.get("tau1"), opt.get("rho1")); D2 = Dfac(T, opt.get("tau2"), opt.get("rho2"))
     alive = st != 0
     intact1 = (U_lost > sc["p_lost"]) & (U_find < sc["p_find"] * D1)

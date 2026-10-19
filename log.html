@@ -903,4 +903,22 @@
 <li>判定：H71a〜h すべて支持。</li>
 <li>逸脱：初回の実行の後、実験の N* の分位点が無限大の扱いで NaN になったので傾きが逆の標本を 1e12 として数えるように直し、図の使っていない行を消した（乱数の順は不変、他の数値は初回と同じ）。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は s の主を s_mix に改め F を 1.045 に下げ、書かれた手引きで年数・閾値を縮める線を閉じる。手引きの企画者は手順の手の動きと各段の仕上がりを図で示し、1変数だけの説明を避ける。この問いを詰めるには手引きだけ・手引き＋成果物・実演を比べる10世代の実験が要る）。</li>
+</ul>
+<h2 id="60-2026-10-19">第60回 2026-10-19</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053〜059 を <code>/tmp/rep060/</code> に複製し、059 の sim.py（約50秒）を再実行した。results.json は runtime 以外一致（葉 209個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 149（重い崩壊で拠点の場所の知識が残る期間）＋152（法定納本の紙の生存）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認、MediaWiki API）：Wikipedia 英語版の Lost city、Akkad (city)、Itjtawy、Waššukanni、Thinis、L'Anse aux Meadows、Norse settlements in Greenland、Hans Egede、Mogao Caves（Library Cave の転送先）、Dead Sea Scrolls、Nag Hammadi library、Cairo Geniza、Library of Ashurbanipal、Villa of the Papyri、Pompeii、Mohenjo-daro、Petra、Machu Picchu、Troy、Copper Scroll、Lost literary work、Aeschylus、Sophocles、Euripides、History of Rome (Livy)、Academic libraries in Leuven、National and University Library of Bosnia and Herzegovina、Iraq National Library and Archive、Załuski Library、List of destroyed libraries、Acid-free paper（Permanent paper の転送先）、Hoard。<code>sources/cases.json</code> の抜き出し 43件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Itjtawy・Waššukanni・Thinis・Norse settlements・Bosnia・List of destroyed libraries・Lost literary work は数字に使っていない（Lost city の一覧の数え上げは使った）。</li>
+<li>研究060を実施：<code>research/060-location-memory-decay/</code>（sim.py 約80秒 seed 20261060、計算のみ）。成果物は results.json、stdout.txt、fig_D_and_T2s.png、fig_versions.png、fig_scans.png、report.md、PREREGISTRATION.md（18:50Z、資料を読んだ後・sim.py の作成の前）、sources/（本文、make_cases.py、cases.json、count_lost_cities.py、lost_city_counts.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep060b/</code> で再実行し results.json は runtime 以外一致（葉 2,505個、差分0）、図3枚の MD5 も一致。</li>
+<li>方法：055 の sim.py を「# ---------- 仮説 ----------」の前まで exec し 055 の main_chars を差0で再現（葉 645個）。054 の V_ext と 055 の V_ld を写し（D=1 で差0）、発見の確率に D(T)=m(T)+(1−m(T))ρ、m=exp(−T/τ)、T＝T2s を掛けた。主の金庫 τ1 logU(100,1000)・ρ1 logU(0.02,0.8)、南半球の写し τ2 logU(300,3000)・ρ2 U(0.3,0.84)、紙は 1−(1−lost0)e^(−T/τp)、τp logU(100,1000)（すべて推測、端は資料）。版は main・city・cache・mem_long・marker・paper_best・paper_short・lost0_ev・corr・heavy_only（探索）、ρ1 と τ1 の走査、055 の run() で費用あたり。</li>
+<li>主要数値：</li>
+<li>資料：見つかった隠し場所 5件のうち偶然 4件、隠してから見つかるまでの中央値 <strong>1,625年</strong>。Copper Scroll の書いた在りかの発見 ≤<strong>1/64</strong>。Lost city の一覧で見つかった割合 <strong>0.77〜0.84</strong>（102／20／10）。戦乱の喪失 Iraq の本 0.25〜Załuski <strong>0.92</strong>。古典の残り 0.05〜0.25、時定数 約530〜1,240年。</li>
+<li>重い崩壊の T2s 中央値：U3 843年、BIO 787年、CASC 254年、GEN <strong>67年</strong>。</li>
+<li>TAB（A_Ord/U3、V0 比）：main 全体 <strong>0.81</strong>、重い崩壊 <strong>0.63</strong>、軽い崩壊 0.87。city 0.92、cache 0.54、mem_long 0.91、marker <strong>0.96</strong>（重い崩壊）。ρ1=0 でも 0.53。τ1 30／100／300／1000／3000 年で 0.30／0.44／0.62／0.82／0.93。A_XPT_S/U2 も同じ傾向（main 重い崩壊 0.66）。</li>
+<li>南半球の写し：重い崩壊の S_TC|TC は <strong>1.13倍</strong>、S_TC|TC ÷ TC は 0.32→<strong>0.57</strong>。</li>
+<li>紙：重い崩壊の S_LD|TC は <strong>0.76倍</strong>（τp 30〜300 で 0.51、1000 で 1.00）。</li>
+<li>費用あたり（V_mix）：字数 1e7〜1e8 で S_TC|TC 13.6→17.8、TC 2.45、順位不変。読取装置の部分の近似の字数で重い崩壊の S_LD|TC 1.01→1.23、S_TC|TC 0.36→0.65（TC 1.31）。</li>
+<li>判定：H72c・d・e・h 支持、H72a（0.63）・b（0.87）・f（0.54）・g（0.76）棄却。</li>
+<li>逸脱：初回の実行の後、脆い T3 の社会には忘却を掛けない探索の版 heavy_only を足して再実行した（他の版の数値は初回と同じ、新しい乱数なし）。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は媒体の寿命より忘れられた後に見つかる設計、つまり長持ちする目印と座標・道順を多くの写しに書き込むことに投資する。本研究所は南半球の写しの重い崩壊での価値を 1.13倍に改め、次は目印と座標の分散の費用と効き 162 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
