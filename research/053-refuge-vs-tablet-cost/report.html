@@ -1,0 +1,150 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究053：避難所と金庫の板の費用の比（open_problems 122） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="053open_problems-122">研究053：避難所と金庫の板の費用の比（open_problems 122）</h1>
+<h2 id="_1">問い</h2>
+<p>040 では、金庫の物差し（重み付きの ΔV）で避難所 REF(1e5) が板の手引き TAB の 0.27倍、REF(1e6) が 2.2倍（A_Ord・U3）だった。公開の建設費で両者の費用を置くと、費用あたりではどちらが効くか。避難所が板の手引きと並ぶ1人あたりの損益分岐の費用 c* はいくらか。重い崩壊と軽い崩壊で分けるとどうか。</p>
+<h2 id="sourcesexcerptsjson20ullmann-1962-3-webfetch">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>、20件は保存した本文と照合して一致、Ullmann 1962 の3件は WebFetch で確認）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amundsen–Scott の新基地は 1992年に設計が始まり US$1.5億、2008年に竣工。夏の人口は約150人</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Amundsen%E2%80%93Scott_South_Pole_Station">Wikipedia: Amundsen–Scott South Pole Station</a>）】</td>
+</tr>
+<tr>
+<td>Halley VI の費用は約 £2,600万、夏の人員は約52人（2013年開所）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Halley_Research_Station">Wikipedia: Halley Research Station</a>）】</td>
+</tr>
+<tr>
+<td>Biosphere 2 は Bass が 1991年までに US$1.5億を出し、8人で2年の閉鎖実験。1年目は8人とも空腹を訴えた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Biosphere_2">Wikipedia: Biosphere 2</a>）】</td>
+</tr>
+<tr>
+<td>Survival Condo の旧ミサイルサイロ全体は $5,000万で120人を収容、少なくとも5年を過ごせるとされる（2018年の記事）</td>
+<td>【事実（<a href="https://www.thenationalnews.com/uae/super-rich-prepare-for-doomsday-in-dh180m-american-bunkers-1.804263">The National 2018</a>）】</td>
+</tr>
+<tr>
+<td>1962年の全国避難所の試算：20人用 $50,500、500人用 $1,063,400、1人あたり $2,125〜2,525（6か月分の食料・水を含む）。20人の食料と保管で $2,835（182日）</td>
+<td>【事実（<a href="https://prephole.com/wp-content/preparedness-ebooks/National-Shelter-Program-FeasibilityStudy.pdf">Ullmann ほか 1962, A National Shelter Program</a>）】</td>
+</tr>
+<tr>
+<td>スイスの避難所は人口の 114%、ただし住宅の避難所の多くは長期の滞在の食料と水をもう備えていない</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Fallout_shelter">Wikipedia: Fallout shelter</a>）】</td>
+</tr>
+<tr>
+<td>Svalbard 種子庫の建設は約 4,500万クローネ（2008年に US$880万）、2019年の維持費は約 240万クローネ（US$28.2万）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault">Wikipedia: Svalbard Global Seed Vault</a>）】</td>
+</tr>
+<tr>
+<td>MOM の板1枚（文字だけなら最大5万字）は €195。別の型の「ceramic microfilm」は最大500万字</td>
+<td>【事実（<a href="https://www.memory-of-mankind.com/product/1-1-tablet-in-the-mom-archiv-plus-token-by-mail/">MOM の商品ページ</a>、<a href="https://en.wikipedia.org/wiki/Memory_of_Mankind">Wikipedia: Memory of Mankind</a>）】。500万字の型の価格は確認していない</td>
+</tr>
+<tr>
+<td>米 CPI-U 年平均：1962年 30.3、1991年 136.2、2008年 215.3、2013年 233.0、2018年 251.1、2025年 321.9</td>
+<td>【事実（<a href="https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-">Minneapolis Fed の CPI 表</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>Jebari 2014（<a href="https://link.springer.com/article/10.1007/s11948-014-9559-3">Sci Eng Ethics</a>）は「孤立し自給し常に人のいる地下の避難所」を提案するが、本文は購読制で費用の数字は確かめていないので使わない。</p>
+<h2 id="simpyseed-20261053mc-202">方法（<code>sim.py</code>、seed 20261053、MC 20万、約2秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-19T04:41:26Z、初回実行の前）。</li>
+<li>価値は 040 の <code>results.json</code> の weighted（3つの重み × U1〜U3、total と from_heavy）をそのまま使った。主は A_Ord・U3 と A_XPT_S・U2。</li>
+<li>避難所の1人あたり建設費（2025年ドル）：A1 Ullmann 1962 <strong>$24,700</strong>、A2 Survival Condo <strong>$53.4万</strong>、A3 South Pole <strong>$150万</strong>（2008年ドルとみなす【推測】）、A4 Halley VI <strong>$97万</strong>（£→$ 1.2〜1.6【推測】）、A5 Biosphere 2 <strong>$4,430万</strong>。アンカーを等確率で選び ×0.5〜2 の幅【推測】。維持費は年 1〜5%×20〜100年【推測。種子庫の 2019年の維持費／建設費は 3.2%】。</li>
+<li>備蓄だけの版 D：既存の建物を使い、食料と保管だけを1〜3年分（Ullmann の値で1人1年 <strong>$3,020</strong>）。</li>
+<li>TAB の費用：字数 1e7〜1e8（012 の仮定）、執筆と編集 1e5〜1e7 字/人年【推測】、人件費 $10万〜20万/人年【推測】、MOM の板 €195 で1枚5万〜500万字、3拠点。</li>
+<li>CE＝(ΔV_REF/費用_REF)/(ΔV_TAB/費用_TAB)。c*＝(ΔV_REF/ΔV_TAB)×費用_TAB/N。</li>
+<li>GROW：内容の費用を TAB と同じ分布で別に引き、価値は 040 の値と 041 の 0.13倍の間の対数一様。</li>
+<li>再現：<code>/tmp/rep053b/</code> で再実行し results.json は runtime 以外一致（葉 739個、差分0）。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H65a</td>
+<td>A_Ord・U3 で REF(1e5)・REF(1e6) の CE の中央値が全アンカーで 1e-3 未満</td>
+<td>最も安い A1 で 4.9e-4（1e5）、4.0e-4（1e6）、Biosphere 2 で 2.8e-7</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H65b</td>
+<td>混ぜた MC で P(CE&gt;1)&lt;0.01（N=1e4〜1e6、主の2組）</td>
+<td>すべて <strong>0</strong>（20万標本）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H65c</td>
+<td>REF(1e6) の c* の中央値 &lt; $100</td>
+<td><strong>$10.1</strong>／人（5〜95% $0.95〜114）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H65d</td>
+<td>備蓄だけの版でも CE の中央値 &lt; 0.01</td>
+<td>0.0021（1e5）、0.0017（1e6）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H65e</td>
+<td>TAB の費用の中央値で執筆の割合 &gt; 0.5</td>
+<td><strong>0.99</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H65f</td>
+<td>REF(1e6) の価値の 80% 以上が重い崩壊から</td>
+<td>A_Ord・U3 <strong>0.83</strong>、A_XPT_S・U2 <strong>0.94</strong></td>
+<td><strong>支持</strong>（A_Ord は境界に近い）</td>
+</tr>
+<tr>
+<td>H65g</td>
+<td>P(CE_GROW&gt;1)&lt;0.5</td>
+<td>A_Ord・U3 <strong>0.35</strong>、A_XPT_S・U2 0.13</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjsonexplore_resultsjson">主な数値（results.json、explore_results.json）</h2>
+<ul>
+<li><strong>TAB の費用</strong>：中央値 <strong>$461万</strong>（5〜95% $43万〜5,200万）。媒体（MOM の板×3拠点）は中央値 $4.1万で、費用の <strong>99%</strong> は執筆。小窓版 C を足しても中央値 $483万。</li>
+<li><strong>避難所の総費用</strong>（建設＋維持）：REF(1e5) 中央値 <strong>$2,140億</strong>（5〜95% $39億〜15兆）、REF(1e6) <strong>$2.1兆</strong>。建設だけでも REF(1e5) $914億。</li>
+<li><strong>費用あたりの比 CE</strong>（TAB=1）：A_Ord・U3 で REF(1e4) 3.6e-6、REF(1e5) <strong>5.7e-6</strong>（95%点 6.9e-4）、REF(1e6) <strong>4.7e-6</strong>（95%点 5.7e-4）。A_XPT_S・U2 では 5e-9〜6e-8。中央値で避難所は <strong>5.2〜5.4桁</strong>（A_Ord）、<strong>7.2〜8.3桁</strong>（A_XPT_S）不利。</li>
+<li><strong>損益分岐の1人あたり費用 c</strong>*：A_Ord・U3 で REF(1e5) $12.2、REF(1e6) $10.1。最も安いアンカー（6か月の避難所 $24,700）の 1/2,000、1年分の食料（$3,020）の 1/300。A_XPT_S・U2 では $0.02〜0.13。</li>
+<li><strong>備蓄だけの版</strong>：CE 中央値 0.0013〜0.0021、95%点でも 0.025、P(CE&gt;1)=0。</li>
+<li><strong>避難所に最も有利な組み合わせ</strong>（探索：働く確率1、TAB の費用の 95%点、避難所の建設費の 5%点、維持費なし）でも CE は REF(1e5) <strong>0.014</strong>、REF(1e6) 0.012（A_Ord・U3）。</li>
+<li><strong>重い崩壊と軽い崩壊に分けると</strong>（探索、中央値の比）：A_Ord・U3 の REF(1e6) の価値は重い崩壊だけで TAB の <strong>5.0倍</strong>、軽い崩壊だけで 0.57倍。CE は重い崩壊だけで 1.1e-5、軽い崩壊だけで 1.2e-6。重い崩壊に限っても避難所は約5桁不利。</li>
+<li><strong>金庫の物差しの外で避難所に要る価値</strong>（探索）：費用あたりで TAB と並ぶには、REF(1e5) は金庫の全価値の約 <strong>210倍</strong>、REF(1e6) は約 2,100倍にあたる別の価値（絶滅を防ぐなど）を持つ必要がある（A_Ord・U3、中央値）。</li>
+<li><strong>GROW</strong>（人口の増え方を速める知識）：CE 中央値 0.40（A_Ord・U3）、0.087（A_XPT_S・U2）。費用が同じ程度なので、価値の比がそのまま効く。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>結論は桁で頑健で、仮定の細部には乗らない</strong>。最も避難所に有利な組み合わせでも CE は 0.014 で、並ぶにはさらに約70倍が要る。費用の幅（TAB で2桁、避難所で3桁）より差（5桁）の方が大きい。7つの仮説がすべて支持されたのは、事前登録の閾値が差に比べて緩かったため【推測】で、判定より桁の差を読むべきである。</li>
+<li><strong>アンカーは規模の経済を含まない</strong>。どれも数十〜数百人の施設で、10万〜100万人の町を自給させる費用ではない。A1（1962年の大量の避難所の試算）が規模の経済の代わりだが、6か月しか持たない。040 の REF は「生き残りの最大集団を N 以上に保つ」なので、本当は数年〜数十年の自給が要り、費用はアンカーより高い側に寄るはず【推測】。つまり避難所に有利な向きの偏り。</li>
+<li><strong>TAB の費用は執筆の仮定でほぼ決まる</strong>（99%）。執筆を既存の教科書・百科の編集と見れば安く、ゼロから書けば高い。ただし TAB を 10倍高くしても結論は変わらない。</li>
+<li><strong>避難所の主な価値は金庫の物差しの外にある</strong>。本研究所の模型は「金庫が再出発をどれだけ速めるか」しか数えず、絶滅を防ぐ価値は入らない。だからこの結果は「避難所は無駄」ではなく、「避難所を金庫の価値（知識の保存と文明の回復）で正当化することはできない」という意味にとどまる。Beckstead 2015（040 で確認）の「避難所は多くの破局で人口・資源・技能にほとんど足さない」と同じ向き。</li>
+<li><strong>040 の価値は 051・052 の改訂（A_Ord の主の値 0.00461）の前の値</strong>だが、TAB の重み付きの値は 040 の U3（0.00457）とほぼ同じで、比への影響は小さい【推測：REF は再計算していない】。</li>
+<li><strong>重い崩壊を優先する方針との関係</strong>：避難所は価値の 83〜94% が重い崩壊から来る、ほぼ純粋な重い崩壊向けの対策だが、費用で約5桁負ける。重い崩壊の中でも、費用あたりで TAB に近いのは知識の対策（GROW、TAB 自身）だけだった。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>公開の建設費（1人あたり $2.5万〜4,400万）で置くと、10万〜100万人の避難所は $1,000億〜2兆ドル規模で、板の手引き（中央値 $460万、ほぼ執筆の費用）より金庫の物差しで費用あたり約5桁（XPT の重みでは7〜8桁）劣る。避難所が並ぶ1人あたりの費用は約 $10 で、1年分の食料の 1/300 しかない。最も避難所に有利な仮定を重ねても1/70 に届かない。重い崩壊に限っても同じ。人口の増え方を速める知識（GROW）は TAB と同じ桁で、どちらが勝つかは知識で r が上がるかしだい（費用あたりで勝つ確率 0.13〜0.35）。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：避難所を知識保存・文明回復の対策の候補から外し、重い崩壊向けの対策の比較は知識の対策（TAB、GROW）と金庫の置き場所の間で行う。次は、Svalbard 種子庫の建設費（$880万）を拠点の費用の目安に使えるので、第2拠点と束の費用（103＋100）を同じ方法で比べる。</li>
+<li><strong>避難所を提案する人</strong>：避難所の正当化は「文明の知識を保つ」ではなく絶滅を防ぐ価値で行う必要がある（金庫の全価値の 200〜2,000倍に当たる別の価値が要る）。金庫・手引きの予算を避難所に回すのは、金庫の価値の点では損である。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Beckstead 2015 と Jebari 2014 は避難所を定性的に論じ、費用を知識の保存と比べていない。本研究は、同じ模型の価値（040）に公開の建設費のアンカー5つと MOM の媒体の価格を入れ、避難所と手引きの費用あたりの比（約 1e-5）と損益分岐の1人あたり費用（約 $10）を重い崩壊・軽い崩壊に分けて出した。確認した資料には、この比較は見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_ce_vs_tab.png</code>、<code>fig_anchor_vs_breakeven.png</code>、<code>explore.py</code>・<code>explore_results.json</code>・<code>explore_stdout.txt</code>（事前登録の外）、<code>PREREGISTRATION.md</code>、<code>sources/</code>（取得した本文、<code>excerpts.json</code>、<code>verify_excerpts.py</code>）。
+- 逸脱：探索（重い崩壊と軽い崩壊の分割、最も有利な組み合わせ、物差しの外に要る価値）を初回の実行の後に explore.py として足した。事前登録の数値は初回のまま。</p><footer><hr><small>自動生成</small></footer></body></html>

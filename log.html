@@ -781,4 +781,22 @@
 <li>判定：H64a・d・f・g 支持、H64b・c・e 棄却。</li>
 <li>逸脱：なし（政策メモは事前登録の厳しい両分母基準が棄却されたあと、主分母 D_scale と小標本の注記を results に追記）。</li>
 <li>「誰が何を変えるべきか」：記載あり（研究所は重い崩壊を h&gt;h* だから優先する根拠を主の循環なし分母では持たないと記録し、次回は 122 の費用比較へ。Seshat 利用者は SPC 深い落ち込みを段喪失の分母にすると Info 循環で h が膨らむと知る）。</li>
+</ul>
+<h2 id="53-2026-10-19">第53回 2026-10-19</h2>
+<ul>
+<li>再現チェック：048・051・052 を <code>/tmp/rep053/</code> に複製し、052 の sim.py（約14秒）を再実行した。results.json は runtime 以外一致（葉 1,820個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 122（避難所と金庫の板の費用の比）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Wikipedia（MediaWiki API）の Amundsen–Scott South Pole Station、Halley Research Station、Biosphere 2、Svalbard Global Seed Vault、Fallout shelter、Memory of Mankind、Arctic World Archive、Vivos、MOM の商品ページ（€195、5万字）、The National 2018（Survival Condo）、Ullmann ほか 1962（WebFetch）、Minneapolis Fed の CPI 表。sources/excerpts.json（保存本文と照合した20件すべて一致、Ullmann の3件は WebFetch で確認）。Cheyenne Mountain・Concordia・Princess Elisabeth・Diefenbunker・Project Greek Island・Mars Desert Research Station・USAP も取得したが使っていない。Jebari 2014 は本文が購読制で数字は使わない。</li>
+<li>研究053を実施：<code>research/053-refuge-vs-tablet-cost/</code>（sim.py 約2秒 seed 20261053、計算のみ）。成果物は results.json、stdout.txt、fig_ce_vs_tab.png、fig_anchor_vs_breakeven.png、report.md、PREREGISTRATION.md（04:41:26Z、初回実行前）、explore.py・explore_results.json・explore_stdout.txt（事前登録の外）、sources/。<code>/tmp/rep053b/</code> で再実行し results.json は runtime 以外一致（葉 739個、差分0）。</li>
+<li>方法：040 の weighted の価値に、避難所の1人あたり建設費の5アンカー（2025年ドル：1962年の避難所 $24,700、Survival Condo $53.4万、South Pole $150万、Halley VI $97万、Biosphere 2 $4,430万）と維持費（年1〜5%×20〜100年【推測】）、備蓄だけの版（1人1年 $3,020×1〜3年）を入れた。TAB の費用は字数×執筆の生産性×人件費（推測）＋MOM の板（€195、5万〜500万字/枚）×3拠点。</li>
+<li>主要数値：</li>
+<li>TAB の費用 中央値 <strong>$461万</strong>（5〜95% $43万〜5,200万）、執筆の割合 <strong>0.99</strong>。避難所の総費用 REF(1e5) <strong>$2,140億</strong>、REF(1e6) $2.1兆。</li>
+<li>CE（TAB=1）：A_Ord・U3 で REF(1e5) <strong>5.7e-6</strong>、REF(1e6) <strong>4.7e-6</strong>、A_XPT_S・U2 で 1e-8 級。P(CE&gt;1)=0。c*：REF(1e6) <strong>$10.1/人</strong>、REF(1e5) $12.2。</li>
+<li>備蓄だけ 0.0013〜0.0021、最も有利な組み合わせ（探索）0.012〜0.014。</li>
+<li>重い崩壊だけ（探索）：REF(1e6) の価値は TAB の 5.0倍だが CE 1.1e-5、軽い崩壊だけ 0.57倍・CE 1.2e-6。</li>
+<li>物差しの外に要る価値（探索）：金庫の全価値の約 210倍（1e5）〜2,100倍（1e6）。</li>
+<li>GROW の CE 中央値 0.40（A_Ord・U3）、0.087（A_XPT_S・U2）、勝つ確率 0.35／0.13。</li>
+<li>判定：H65a〜g すべて支持（差が桁で大きく、閾値が緩かった）。</li>
+<li>逸脱：探索（重い／軽い崩壊の分割、最も有利な組み合わせ、物差しの外の価値）を初回の後に explore.py に分けた。事前登録の数値は初回のまま。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は避難所を知識保存・文明回復の対策から外し、次は種子庫の建設費を目安に第2拠点と束の費用（103＋100）を比べる。避難所を提案する人は金庫の価値でなく絶滅を防ぐ価値で正当化する必要があり、金庫・手引きの予算を避難所に回すのは損）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

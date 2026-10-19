@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究053 事前登録（open_problems 122：避難所と金庫の板の費用の比） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="053-open_problems-122">研究053 事前登録（open_problems 122：避難所と金庫の板の費用の比）</h1>
+<p>登録時刻：2026-10-19T04:41:26Z（sim.py の初回実行の前。費用の資料は取得・確認済み、価値は 040 の results.json の既存値）</p>
+<h2 id="_1">問い</h2>
+<p>040 の金庫の物差し（重み付きの ΔV）で、避難所 REF(N)（N=1e4,1e5,1e6）は板の手引き TAB と比べて、費用あたりでどれだけ効くか。損益分岐の1人あたり費用 c* はいくらか。</p>
+<h2 id="seed-20261053mc-200000">方法（seed 20261053、MC 200,000）</h2>
+<ul>
+<li>価値：040 の weighted（A_Ord・A_XPT_S・A_XPT_E × U1・U2・U3）の total と from_heavy をそのまま使う。主は A_Ord・U3 と A_XPT_S・U2。</li>
+<li>避難所の1人あたり建設費（2025年ドル、米 CPI-U 年平均で換算）：
+  A1 Ullmann 1962 の深い避難所（6か月の備蓄）$2,125〜2,525、A2 Survival Condo $5,000万/120人（2018年の記事）、
+  A3 South Pole 新基地 $1.5億/夏150人（2008年ドルとみなす【推測】）、A4 Halley VI £2,600万/夏52人（£→$ U(1.2,1.6)【推測】、2013年）、
+  A5 Biosphere 2 $1.5億/8人（1991年）。アンカーを等確率で選び、各アンカーの値に logU(×0.5, ×2) の幅【推測】。</li>
+<li>維持費：年率 logU(1%,5%)【推測。Svalbard の種子庫は 2019年の維持費 $28.2万／建設 $880万（2008年）】× 期間 U(20,100)年を建設費に足す（割引なし）。</li>
+<li>備蓄だけの版 D：既存の建物を使い、食料と保管 $2,835/20人/182日（Ullmann、1962年）を年あたりに直し、U(1,3)年分。</li>
+<li>TAB の費用：字数 logU(1e7,1e8)（012 の仮定）、執筆・編集の生産性 logU(1e5,1e7) 字/人年【推測】、人件費 logU($1e5,$2e5)/人年【推測】、
+  媒体は MOM の €195/枚、1枚の字数 logU(5万字（文字だけの製品の表示）, 500万字（Wikipedia の「ceramic microfilm」））、€→$ U(1.0,1.2)【推測】、3拠点。
+  感度として小窓版 C の費用 logU($1e4,$1e6)【推測】を足す版。</li>
+<li>費用あたりの比 CE = (ΔV_REF/C_REF)/(ΔV_TAB/C_TAB)。損益分岐 c* = (ΔV_REF/ΔV_TAB)·C_TAB/N。</li>
+<li>GROW：内容の費用を TAB と同じ分布で独立に引き、価値は 040 の GROW/TAB（重みごと）と 041 の 0.13倍の間の対数一様。</li>
+</ul>
+<h2 id="_2">仮説（判定の規則）</h2>
+<ul>
+<li>H65a：A_Ord・U3 で REF(1e5)・REF(1e6) の CE の中央値は、5つのアンカーそれぞれで 1e-3 未満。</li>
+<li>H65b：全アンカーを混ぜた MC（維持費あり）で、N=1e4,1e5,1e6 と主の2組の重みのすべてで P(CE&gt;1) &lt; 0.01。</li>
+<li>H65c：A_Ord・U3 で REF(1e6) の c* の中央値 &lt; $100。</li>
+<li>H65d：備蓄だけの版 D でも A_Ord・U3 の REF(1e5)・REF(1e6) の CE の中央値 &lt; 0.01。</li>
+<li>H65e：TAB の費用の中央値で、執筆が 50% を超える（MC 標本の執筆の割合の中央値 &gt; 0.5）。</li>
+<li>H65f：A_Ord・U3 と A_XPT_S・U2 の両方で REF(1e6) の価値の 80% 以上が重い崩壊から来る。</li>
+<li>H65g：主の2組の重みの両方で P(CE_GROW&gt;1) &lt; 0.5。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

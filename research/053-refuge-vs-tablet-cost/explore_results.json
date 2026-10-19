@@ -1,0 +1,46 @@
+{
+ "A_Ord/U3": {
+  "REF_1e5": {
+   "value_ratio_heavy_only": 0.5830798015586625,
+   "value_ratio_light_only": 0.08416876069075604,
+   "CE_median_heavy_only": 1.2545180656988846e-05,
+   "CE_median_light_only": 1.8109224598721804e-06,
+   "CE_best_case": 0.014360504912912417,
+   "value_ratio_pref1": 0.48056319170592693,
+   "required_extra_value_vault_units_median": 212.5543792496918,
+   "required_extra_over_TAB_value": 46478.12510227712
+  },
+  "REF_1e6": {
+   "value_ratio_heavy_only": 5.037107609992312,
+   "value_ratio_light_only": 0.5681582316901845,
+   "CE_median_heavy_only": 1.0837525976225967e-05,
+   "CE_median_light_only": 1.2224137483849356e-06,
+   "CE_best_case": 0.011959670903605809,
+   "value_ratio_pref1": 4.0022113818724385,
+   "required_extra_value_vault_units_median": 2125.5459060185735,
+   "required_extra_over_TAB_value": 464781.71317520604
+  }
+ },
+ "A_XPT_S/U2": {
+  "REF_1e5": {
+   "value_ratio_heavy_only": 0.0017078190157944974,
+   "value_ratio_light_only": 0.0001699191003676333,
+   "CE_median_heavy_only": 3.674436676645425e-08,
+   "CE_median_light_only": 3.6558731849168966e-09,
+   "CE_best_case": 2.120309532414138e-05,
+   "value_ratio_pref1": 0.0007095451883347397,
+   "required_extra_value_vault_units_median": 530.9714116278777,
+   "required_extra_over_TAB_value": 46478.389799739416
+  },
+  "REF_1e6": {
+   "value_ratio_heavy_only": 0.1884181601999413,
+   "value_ratio_light_only": 0.001843423577932053,
+   "CE_median_heavy_only": 4.0538873966257907e-07,
+   "CE_median_light_only": 3.966194978918969e-09,
+   "CE_best_case": 0.0001567099281697602,
+   "value_ratio_pref1": 0.05244176559944736,
+   "required_extra_value_vault_units_median": 5309.713836541821,
+   "required_extra_over_TAB_value": 464783.87351072126
+  }
+ }
+}
