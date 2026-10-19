@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究060 事前登録（2026-10-19 18:50Z、資料を読んだ後・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="060-2026-10-19-1850zsimpy">研究060 事前登録（2026-10-19 18:50Z、資料を読んだ後・sim.py を書く前）</h1>
+<p>課題：open_problems 149（重い崩壊で拠点の場所の知識が残る期間）＋152（法定納本の紙の T の生存）。</p>
+<h2 id="mediawiki-api-sourceswp_txt-43-verify_excerptspy">資料（本回 MediaWiki API で取得、sources/wp_*.txt、抜き出し 43件は verify_excerpts.py で照合）</h2>
+<ul>
+<li>隠し場所（cache）：Dead Sea Scrolls（66〜68 CE に隠す→1946/47 羊飼いが偶然）、Nag Hammadi（367 以後に埋める→1945 農民が偶然）、Mogao の Library Cave（11世紀に壁で封じる→1900 煙の流れで偶然、洞窟群そのものは知られていた）、Villa of the Papyri（79→1750 井戸掘りで偶然）、Ashurbanipal の図書館（612 BCE→1849 発掘）、Cairo Geniza（共同体が使い続けた）、Copper Scroll（64か所の書いた在りかのうち、見つかったかもしれないのは少数説で1か所）。</li>
+<li>拠点（site）：L'Anse aux Meadows（約1000年前→1960、住民が「old Indian camp」と呼ぶ塚に案内。それまでの通説は Vinland はマサチューセッツより北にない）、Norse Greenland（1408〜1410 の後に途絶→1721 Egede、存在の話は残った）、Machu Picchu（1572→1911、地元は知っていた）、Petra（地元の話で 1812）、Pompeii（名と場所は忘れられ La Civita と呼ばれた→1592 水路の工事で偶然）、Mohenjo-daro（c.1700 BCE→1920年代）、Troy（約1世紀のあいだ 5km 南の別の塚が通説）、Akkad（場所は今も不明）、Vilcabamba（記録の精査で再発見）。</li>
+<li>Lost city の一覧：大陸別の節で Rediscovered 102、Undiscovered 20、Uncertain 9、Status Unknown 1（count_lost_cities.py）。見つかった割合 0.77〜0.84（上限寄り：大きな町、T3 の考古学）。</li>
+<li>紙：Iraq 2003（本 25%、文書 60% が失われた）、Załuski（1780年代に 40万点→戦後に残ったのは 3.18万点、喪失 0.92）、Leuven 1914（23万冊）、古典の残り（Aeschylus 7/70〜90、Sophocles 7/120 以上、Euripides 19 で約8割喪失、Livy 35/142）、alkaline paper の寿命（平均 500年、最良 1,000年超、図書館の条件）。</li>
+</ul>
+<h2 id="_1">模型</h2>
+<p>054 の V_ext と 055 の V_ld を写し、発見の確率に読む時刻 T＝T2s（崩壊からの年数）の減りを掛ける：
+D(T) = m(T) + (1 − m(T))·ρ、m(T) = exp(−T/τ)。
+- 主の金庫（Svalbard、人の住まない遠い場所）：τ1 ~ logU(100, 1000)年、ρ1 ~ logU(0.02, 0.8)【推測：上端は町の一覧、下端は Copper Scroll の書いた在りかの隠し場所】。
+- 南半球の写し（人の住む町の既存の施設）：τ2 ~ logU(300, 3000)年、ρ2 ~ U(0.3, 0.84)【推測】。
+- 法定納本の紙（S_LD）：喪失 lost(T) = 1 − (1 − lost0)·exp(−T/τp)、lost0 は 055 の U(0.3, 0.8)（同じ乱数）、τp ~ logU(100, 1000)年【推測：上端は図書館の条件の最良の紙】。発見は南半球の写しと同じ D2。
+- 版：V0（054/055 の再現、D=1）、main、city（ρ1=ρ2~U(0.77,0.84)）、cache（ρ1~U(0,0.03)）、mem_long（τ1~logU(1000,5000)）、marker（ρ1=ρ2=0.9：見つけやすい設計）、paper_best（τp=1000）、paper_short（τp~logU(30,300)）、lost0_ev（lost0~U(0.25,0.92)）、corr（ρ1 と ρ2 を同じ分位で引く）。走査：ρ1 を 0〜1、τ1 を 30〜10000年。
+- 費用あたり：055 の run() を新しい価値で呼ぶ（V_mix、字数は 055 の主 1e7〜1e8 と読取装置の部分の近似 logU(6e5, 4.17e6)）。</p>
+<h2 id="a_ordu3-a_xpt_su2">仮説（A_Ord/U3 を主、A_XPT_S/U2 を併記）</h2>
+<ul>
+<li>H72a：main で重い崩壊の部分の TAB の価値は V0 の 0.5 倍未満。</li>
+<li>H72b：main で軽い崩壊の部分の TAB の価値の変化は 5% 未満。</li>
+<li>H72c：main で TAB の全体の価値は V0 より 10% 以上下がる。</li>
+<li>H72d：重い崩壊の部分で、S_TC|TC の価値 ÷ TC の価値は V0 より上がる。</li>
+<li>H72e：marker 版で重い崩壊の TAB の価値は V0 の 0.8 倍以上に戻る。</li>
+<li>H72f：cache 版で重い崩壊の TAB の価値は V0 の 0.2 倍未満。</li>
+<li>H72g：main で重い崩壊の部分の S_LD|TC の価値は 055 の 0.3 倍未満。</li>
+<li>H72h：main・V_mix・主の字数で、費用あたりの中央値の順位 S_TC|TC &gt; TC は変わらない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

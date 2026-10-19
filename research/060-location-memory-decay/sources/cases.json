@@ -1,0 +1,353 @@
+{
+ "cases": [
+  {
+   "id": "DeadSeaScrolls",
+   "kind": "cache",
+   "hidden": 67,
+   "found": 1946,
+   "found_by": "chance",
+   "inhabited": true,
+   "local_memory": false,
+   "src": "wp_Dead_Sea_Scrolls.txt",
+   "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls",
+   "ex": [
+    "They composed the scrolls and ultimately hid them in the nearby caves during the Jewish Revolt sometime between 66 and 68 CE.",
+    "The initial discovery by Bedouin shepherd Muhammed edh-Dhib, his cousin Jum'a Muhammed, and Khalil Musa took place between November 1946 and February 1947."
+   ]
+  },
+  {
+   "id": "NagHammadi",
+   "kind": "cache",
+   "hidden": 367,
+   "found": 1945,
+   "found_by": "chance",
+   "inhabited": true,
+   "local_memory": false,
+   "src": "wp_Nag_Hammadi_library.txt",
+   "url": "https://en.wikipedia.org/wiki/Nag_Hammadi_library",
+   "ex": [
+    "Twelve leather-bound papyrus codices (and a tractate from a thirteenth) buried in a sealed jar were found by an Egyptian farmer named Muhammed al-Samman and others in late 1945.",
+    "were buried after Saint Athanasius condemned the use of non-canonical books in his Festal Letter of 367 A"
+   ]
+  },
+  {
+   "id": "MogaoLibraryCave",
+   "kind": "cache",
+   "hidden": 1050,
+   "found": 1900,
+   "found_by": "chance",
+   "inhabited": true,
+   "local_memory": false,
+   "complex_known": true,
+   "src": "wp_Mogao_Caves.txt",
+   "url": "https://en.wikipedia.org/wiki/Mogao_Caves",
+   "ex": [
+    "An important cache of documents was discovered in 1900 in the so-called \"Library Cave\", which had been walled-up in the 11th century.",
+    "In one such cave, on 25 June 1900, Wang followed the drift of smoke from a cigarette, and discovered a walled up area behind one side of a corridor leading to a main cave."
+   ]
+  },
+  {
+   "id": "VillaPapyri",
+   "kind": "cache",
+   "hidden": 79,
+   "found": 1750,
+   "found_by": "chance",
+   "inhabited": true,
+   "local_memory": false,
+   "src": "wp_Villa_of_the_Papyri.txt",
+   "url": "https://en.wikipedia.org/wiki/Villa_of_the_Papyri",
+   "ex": [
+    "The Villa of the Papyri was discovered in 1750 by farmers when digging a well.",
+    "In AD 79, the eruption of Vesuvius covered all of Herculaneum with up to 30 metres (98 ft) of volcanic material from pyroclastic flows."
+   ]
+  },
+  {
+   "id": "Ashurbanipal",
+   "kind": "cache",
+   "hidden": -612,
+   "found": 1849,
+   "found_by": "archaeology",
+   "inhabited": true,
+   "local_memory": null,
+   "src": "wp_Library_of_Ashurbanipal.txt",
+   "url": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal",
+   "ex": [
+    "Nineveh was destroyed in 612 BCE by a coalition of Babylonians, Scythians and Medes, an ancient Iranian people.",
+    "but the first discovery was made in late 1849 in the so-called South-West Palace"
+   ]
+  },
+  {
+   "id": "CairoGeniza",
+   "kind": "cache",
+   "hidden": null,
+   "found": 1896,
+   "found_by": "continuous",
+   "inhabited": true,
+   "local_memory": true,
+   "src": "wp_Cairo_Geniza.txt",
+   "url": "https://en.wikipedia.org/wiki/Cairo_Geniza",
+   "ex": [
+    "Relatively large, it was filled with manuscripts and printed books thrown in through the opening over the centuries, mangled and sometimes glued to each other, covered in dust and infested with insects.",
+    "After a major synagogue renovation, Jewish book collector Elkan Nathan Adler was the first West European to enter the geniza in 1896"
+   ]
+  },
+  {
+   "id": "CopperScroll",
+   "kind": "cache_list",
+   "n_listed": 64,
+   "n_found_max": 1,
+   "found_by": "deliberate_records",
+   "inhabited": true,
+   "src": "wp_Copper_Scroll.txt",
+   "url": "https://en.wikipedia.org/wiki/Copper_Scroll",
+   "ex": [
+    "The text is an inventory of 64 locations; 63 of which are treasures of gold and silver, which have been estimated in the tons.",
+    "There is a minority view that the Cave of Letters might have contained one of the listed treasures, and, if so, artifacts from this location may have been recovered."
+   ]
+  },
+  {
+   "id": "LAnseAuxMeadows",
+   "kind": "site",
+   "hidden": 1000,
+   "found": 1960,
+   "found_by": "local_guide+records",
+   "inhabited": true,
+   "local_memory": "mounds known, meaning lost",
+   "remote": true,
+   "src": "wp_LAnse_aux_Meadows.txt",
+   "url": "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows",
+   "ex": [
+    "In 1960, George Decker, a resident of the fishing hamlet of L'Anse aux Meadows, led Helge Ingstad to a group of mounds near the village that the locals called the \"old Indian camp\".",
+    "The common hypothesis before the Ingstads was that Vinland could not be north of the Massachusetts coast"
+   ]
+  },
+  {
+   "id": "NorseGreenland",
+   "kind": "site",
+   "hidden": 1410,
+   "found": 1721,
+   "found_by": "deliberate_records",
+   "inhabited": true,
+   "local_memory": false,
+   "remote": true,
+   "src": "wp_Hans_Egede.txt",
+   "url": "https://en.wikipedia.org/wiki/Hans_Egede",
+   "ex": [
+    "At Lofoten, Egede heard stories about the old Norse settlements on Greenland, with which contact had been lost centuries before.",
+    "Haabet (\"The Hope\") and two smaller ships departed Bergen on 2 May 1721"
+   ]
+  },
+  {
+   "id": "MachuPicchu",
+   "kind": "site",
+   "hidden": 1572,
+   "found": 1911,
+   "found_by": "local_guide",
+   "inhabited": true,
+   "local_memory": true,
+   "src": "wp_Machu_Picchu.txt",
+   "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+   "ex": [
+    "Although the site was known locally and reached in the early 20th century by the Peruvian explorer Agustín Lizárraga, it was brought to international attention in 1911 by the American historian Hiram Bingham III.",
+    "They were led to Machu Picchu by a villager, Melchor Arteaga."
+   ]
+  },
+  {
+   "id": "Petra",
+   "kind": "site",
+   "hidden": null,
+   "found": 1812,
+   "found_by": "local_guide",
+   "inhabited": true,
+   "local_memory": true,
+   "src": "wp_Petra.txt",
+   "url": "https://en.wikipedia.org/wiki/Petra",
+   "ex": [
+    "It remained unknown to the western world until 1812, when Swiss traveller Johann Ludwig Burckhardt rediscovered it.",
+    "when he heard stories of a dead city that held the tomb of the Prophet Aaron, and became fascinated with finding the city"
+   ]
+  },
+  {
+   "id": "Pompeii",
+   "kind": "site",
+   "hidden": 79,
+   "found": 1592,
+   "found_by": "chance",
+   "inhabited": true,
+   "local_memory": "name La Civita, meaning lost",
+   "src": "wp_Pompeii.txt",
+   "url": "https://en.wikipedia.org/wiki/Pompeii",
+   "ex": [
+    "Over the following centuries, its name and location were forgotten, though it appeared on the Tabula Peutingeriana of the 4th century.",
+    "The area became known as La Civita (the city) due to the features in the ground.",
+    "The next known date that any part was unearthed was in 1592, when architect Domenico Fontana, while digging an underground aqueduct to the mills of Torre Annunziata, ran into ancient walls covered with paintings and inscriptions."
+   ]
+  },
+  {
+   "id": "MohenjoDaro",
+   "kind": "site",
+   "hidden": -1700,
+   "found": 1920,
+   "found_by": "archaeology",
+   "inhabited": true,
+   "local_memory": false,
+   "src": "wp_Mohenjo-daro.txt",
+   "url": "https://en.wikipedia.org/wiki/Mohenjo-daro",
+   "ex": [
+    "1700 BCE, Mohenjo-daro was abandoned.",
+    "The site was rediscovered in the 1920s."
+   ]
+  },
+  {
+   "id": "Troy",
+   "kind": "site",
+   "hidden": null,
+   "found": 1865,
+   "found_by": "deliberate_records",
+   "inhabited": true,
+   "local_memory": false,
+   "misplaced_years": 100,
+   "src": "wp_Troy.txt",
+   "url": "https://en.wikipedia.org/wiki/Troy",
+   "ex": [
+    "In the late 18th century, French scholar Jean-Baptiste le Chevalier identified a location near the village of Pınarbaşı, Ezine, a mound approximately 5 kilometres (3.",
+    "Published in his Voyage de la Troade, it was the most commonly proposed location for almost a century."
+   ]
+  },
+  {
+   "id": "Akkad",
+   "kind": "site",
+   "hidden": null,
+   "found": null,
+   "found_by": null,
+   "inhabited": true,
+   "local_memory": false,
+   "src": "wp_Akkad_(city).txt",
+   "url": "https://en.wikipedia.org/wiki/Akkad_(city)",
+   "ex": [
+    "Its location is unknown."
+   ]
+  },
+  {
+   "id": "Vilcabamba",
+   "kind": "site",
+   "hidden": 1572,
+   "found": null,
+   "found_by": "deliberate_records",
+   "inhabited": true,
+   "local_memory": false,
+   "src": "wp_Lost_city.txt",
+   "url": "https://en.wikipedia.org/wiki/Lost_city",
+   "ex": [
+    "The Spanish did not rebuild the city, and the location went unrecorded and was forgotten until it was rediscovered through a detailed examination of period letters and documents."
+   ]
+  }
+ ],
+ "paper": [
+  {
+   "id": "Iraq2003",
+   "books_lost": 0.25,
+   "archives_lost": 0.6,
+   "src": "wp_Iraq_National_Library_and_Archive.txt",
+   "url": "https://en.wikipedia.org/wiki/Iraq_National_Library_and_Archive",
+   "ex": [
+    "In total, an estimated 60 percent of its total archival materials, 25 percent of its books, newspapers, rare books, and most of its historical photographs and maps were destroyed."
+   ]
+  },
+  {
+   "id": "Zaluski",
+   "items_1780s": 400000,
+   "survived": 31800,
+   "src": "wp_Załuski_Library.txt",
+   "url": "https://en.wikipedia.org/wiki/Za%C5%82uski_Library",
+   "ex": [
+    "which grew to some 400,000 printed items, maps and manuscripts by the end of the 1780s",
+    "Only 1800 manuscripts and 30,000 printed materials from the original library survived the war."
+   ]
+  },
+  {
+   "id": "Leuven1914",
+   "books_destroyed": 230000,
+   "src": "wp_Academic_libraries_in_Leuven.txt",
+   "url": "https://en.wikipedia.org/wiki/Academic_libraries_in_Leuven",
+   "ex": [
+    "This library was burned by German soldiers at the beginning of the First World War, destroying approximately 230,000 books, 950 manuscripts, and 800 incunabula."
+   ]
+  },
+  {
+   "id": "Aeschylus",
+   "written": [
+    70,
+    90
+   ],
+   "survived": 7,
+   "src": "wp_Aeschylus.txt",
+   "url": "https://en.wikipedia.org/wiki/Aeschylus",
+   "ex": [
+    "Aeschylus wrote an estimated 70 to 90 plays, of which only seven have survived in complete form."
+   ]
+  },
+  {
+   "id": "Sophocles",
+   "written": [
+    120,
+    130
+   ],
+   "survived": 7,
+   "src": "wp_Sophocles.txt",
+   "url": "https://en.wikipedia.org/wiki/Sophocles",
+   "ex": [
+    "Sophocles wrote more than 120 plays, but only seven have survived in a complete form"
+   ]
+  },
+  {
+   "id": "Euripides",
+   "lost_frac": 0.8,
+   "survived": 19,
+   "src": "wp_Euripides.txt",
+   "url": "https://en.wikipedia.org/wiki/Euripides",
+   "ex": [
+    "Nineteen plays attributed to Euripides have survived more or less complete",
+    "However, about 80% of his plays have been lost"
+   ]
+  },
+  {
+   "id": "Livy",
+   "written": [
+    142,
+    142
+   ],
+   "survived": 35,
+   "src": "wp_History_of_Rome_(Livy).txt",
+   "url": "https://en.wikipedia.org/wiki/History_of_Rome_(Livy)",
+   "ex": [
+    "35 of 142 books, about a quarter of the work, are still extant."
+   ]
+  },
+  {
+   "id": "AlkalinePaper",
+   "life_avg": 500,
+   "life_best": 1000,
+   "src": "wp_Acid-free_paper.txt",
+   "url": "https://en.wikipedia.org/wiki/Acid-free_paper",
+   "ex": [
+    "Alkaline paper has a life expectancy of over 1,000 years for the best paper and 500 years for average grades."
+   ]
+  },
+  {
+   "id": "HoardIntent",
+   "src": "wp_Hoard.txt",
+   "url": "https://en.wikipedia.org/wiki/Hoard",
+   "ex": [
+    "hoarders sometimes died or were unable to return for other reasons (forgetfulness or physical displacement from its location) before retrieving the hoard"
+   ]
+  }
+ ],
+ "lost_city_page": {
+  "src": "wp_Lost_city.txt",
+  "url": "https://en.wikipedia.org/wiki/Lost_city",
+  "ex": [
+   "Lost cities generally fall into two broad categories: those where all knowledge of the city's existence was forgotten before it was rediscovered, and those whose memory was preserved in myth, legend, or historical records but whose location was lost or at least no longer widely recognized."
+  ]
+ }
+}
