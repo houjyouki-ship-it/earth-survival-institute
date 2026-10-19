@@ -1,0 +1,187 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究054：南半球の第2拠点 S と束 T＋C の費用あたりの比較（open_problems 103＋100） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="0542-s-tc-open_problems-103100">研究054：南半球の第2拠点 S と束 T＋C の費用あたりの比較（open_problems 103＋100）</h1>
+<h2 id="_1">問い</h2>
+<p>033・034 では、板の手引き T と小窓版 C（高層全体を <code>dict=4KiB,lc=0</code> で約4リール）の束 T＋C と、南半球の第2拠点 S の価値は同じ桁で、順位は u（計算機の社会にとっての金庫の価値）と f_orph で入れ替わった。費用はまだ入れていない。053 と同じ物差し（040 の weighted、CE＝(ΔV_X/C_X)/(ΔV_TAB/C_TAB)）で、(1) 束 T＋C、(2) 南半球に新しく建てる専用の拠点 S_full（金庫の中身の全写し）、(3) 束を作った後に南半球の既存の施設に束の写しだけを預ける S_TC の費用あたりの ΔV はどう並ぶか。重い崩壊と軽い崩壊で違うか。届く確率（100）をどこまで動かせば順位が変わるか。</p>
+<h2 id="sourcesexcerptsjson28itpro-rouser-5-webfetch">確認した事実（本回開いて確認。<code>sources/excerpts.json</code>、保存した本文と照合した28件はすべて一致、ITPro と Rouser の5件は WebFetch で確認）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Svalbard 種子庫の建設費は約 4,500万クローネ（2008年に US$880万）、2019年の維持費は約 240万クローネ（US$28.2万）。年の運営費の大半は Crop Trust、構造物の維持はノルウェー政府</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault">Wikipedia: Svalbard Global Seed Vault</a>）】</td>
+</tr>
+<tr>
+<td>建設は約 €830万、のちに技術的な改修に約 €2,000万。年の運営費は約 €100万。常駐の職員はいない</td>
+<td>【事実（<a href="https://www.nordgen.org/our-work/svalbard-global-seed-vault/frequently-asked-questions/">NordGen FAQ</a>）】</td>
+</tr>
+<tr>
+<td>新しい入口のトンネルの事業は P50 で 1億5,580万クローネ、P85 で 2億295万クローネ（2018年価格）</td>
+<td>【事実（<a href="https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2017-2018/inns-201718-220s">Stortinget Innst. 220 S (2017–2018)</a>）】</td>
+</tr>
+<tr>
+<td>2018年に改修へ 1億9,300万クローネが割り当てられ、建設費の4倍だった</td>
+<td>【事実（<a href="https://www.nrk.no/klima/matte-reparere-frohvelvet-for-193-millioner.-skyldte-pa-klimaendringer.-1.15412828">NRK</a>）】</td>
+</tr>
+<tr>
+<td>Australian PlantBank（南半球の種子銀行、Mount Annan）は 2013年に $1,980万で建てられ、うち NSW 州が $1,550万</td>
+<td>【事実（<a href="https://www.botanicgardens.org.au/our-science/science-facilities/australian-plantbank/about-australian-plantbank/plantbank-purpose">Botanic Gardens of Sydney</a>、<a href="https://www.theguardian.com/science/2013/oct/11/australian-plantbank-opens-with-mission-to-protect-and-preserve">Guardian 2013</a>）】。通貨は豪ドルと読んだ【推測】</td>
+</tr>
+<tr>
+<td>Clock of the Long Now の最初の実物大の試作の製作と山の中の敷地の工事に Bezos Expeditions が $4,200万（年の記載なし）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Clock_of_the_Long_Now">Wikipedia: Clock of the Long Now</a>）】</td>
+</tr>
+<tr>
+<td>Arctic World Archive の預託は、共有のリールで €139 から、専用のフィルムを持つ組織向けは €8,900 から（いずれも1回払い、購読なし、VAT 別）</td>
+<td>【事実（<a href="https://arcticworldarchive.org/deposit/">AWA: deposit</a>）】。リール1本あたりの単価は公開されていない</td>
+</tr>
+<tr>
+<td>GitHub の 2020年2月の写し（21 TB）は 186 本のリールに書かれた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Arctic_World_Archive">Wikipedia: Arctic World Archive</a>）】。ITPro は「180 reels」と書く</td>
+</tr>
+<tr>
+<td>piqlFilm のリールは 950 m で 120 GB。GitHub は Piql の費用を「GitHub と Microsoft の事業にとって大きくない」とだけ述べ、Piql は価格を案件ごととして公開しない</td>
+<td>【事実（<a href="https://www.itpro.com/infrastructure/server-storage/358137/deep-freeze-data-that-will-last-1000-years">ITPro 2020</a>）】</td>
+</tr>
+<tr>
+<td>MOM の板1枚（文字だけなら5万字まで）€195、複製の板つき €455</td>
+<td>【事実（<a href="https://www.memory-of-mankind.com/product/1-1-tablet-in-the-mom-archiv-plus-token-by-mail/">MOM 1/1</a>、<a href="https://www.memory-of-mankind.com/product/1-1-tablet-in-the-mom-archiv-plus-1-duplicate-and-the-token-by-mail/">MOM 1/1＋複製</a>）】</td>
+</tr>
+<tr>
+<td>南半球には8億5,000万人超、世界人口の約 10〜12% が住む</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Southern_Hemisphere">Wikipedia: Southern Hemisphere</a>）】</td>
+</tr>
+<tr>
+<td>Earth's Black Box は Tasmania の西海岸の花崗岩の上に建てる計画で、まだ建っていない</td>
+<td>【事実（<a href="https://www.rouserlab.com/earths-black-box/">Rouser: Earth's Black Box</a>）】。費用は公開されていない</td>
+</tr>
+<tr>
+<td>米 CPI-U 年平均：2008年 215.3、2011年 224.9、2013年 233.0、2018年 251.1、2019年 255.7、2025年 321.9</td>
+<td>【事実（<a href="https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-">Minneapolis Fed</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>Rosetta Project・Long Now Foundation・Millennium Seed Bank の Wikipedia も取得したが、費用の数字はなく使っていない。Earth's Black Box の費用は検索結果の記事にもなかった。next_plan の「建設 $880万・維持 $28.2万/年」は Wikipedia の値で再確認できた。ただし NordGen は年の運営費を約 €100万と書いており、維持費は3〜4倍の幅を持つ。種子庫の改修（1億9,300万クローネ）は建設費の約4倍で、専用の拠点の生涯の資本費は最初の建設費よりずっと大きい。</p>
+<h2 id="simpyseed-20261054-040-n20-mc-2056">方法（<code>sim.py</code>、seed 20261054、価値は 040 の N=20万、費用の MC 20万、約56秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-19T06:46:19Z</strong>、初回実行の前）。</li>
+<li>040 の sim.py を <code>A = all_arrays()</code> の前まで exec し（中で 039・038 を実行）、040 の BASE の状態と T2 到達時刻をそのまま使った。040 の V_gen を写した V_ext を作り、S なし・u=1 で <strong>V_gen と差0、040 の weighted の TAB（total・from_heavy）を差0で再現</strong>した（<code>check_040</code>）。</li>
+<li>足したもの：</li>
+<li>読者 B の q（logU 4〜144 KiB、033 の q(M)）。T 単独は q_B、T＋C は q_TC=1−0.24(1−q_B)（033 の noisy-or）。TAB（053 の物差し）は 040 のまま q=0.3。</li>
+<li>T3 の社会の u：034 の clone なしの網羅 × 037 の半々の f_orph（成分ごとの対数正規、中央値 NUC_G 0.16、AI 0.07、GEN・U3 0.048、CASC 0.038、BIO 0.018、NUC_R 0.005）。脆い T3 で窓内に届く場合は u_frag=1（034 の主設定）。</li>
+<li>届く確率（100）：最大の生き残りの集団の地域を標本ごとに引いた。NUC_G は 038 の模型で豪州が最大集団なら near（67%）、別の大国なら mid（33%）。他の成分は人口の割合で near（豪州＋NZ）0.40%、mid（南半球の残り）約 10.5%、far 89%。find_S = k_S × f（f_near U(0.6,0.95)、f_mid U(0.2,0.6)、f_far U(0.05,0.4)、k_S U(0.5,1)）【推測】。喪失は S_full U(0.02,0.15)、S_TC（堅くない既存の施設）U(0.05,0.40)【推測】。</li>
+<li>S_TC で主の金庫が失われたときは、読者は c4 だけを読む（q=0.76）。</li>
+<li>費用（2025年ドル）：</li>
+<li>T：053 と同じ式（字数 1e7〜1e8、生産性 1e5〜1e7 字/人年、人件費 $10万〜20万、MOM の板×3拠点）。中央値 <strong>$459万</strong>、執筆の割合 0.99。</li>
+<li>C：リール 4〜10 本（028）× 単価（AWA の「from €8,900」を中心に ÷4〜×4【推測】、中央値 $9,750）＋技術作業 0.5〜3 人年。中央値 <strong>$27万</strong>。</li>
+<li>S_full：施設の建設費アンカー F1 種子庫の建設 <strong>$1,316万</strong>、F2 建設＋改修 <strong>$4,171万</strong>、F3 PlantBank <strong>$2,668万</strong>（×0.5〜2【推測】）＋維持費 年 $35.5万〜$110万 × 20〜100年【推測】＋186リールの写し。</li>
+<li>S_TC：板の写し（€195〜260/枚）＋C のリール＋手続き・輸送 $1万〜30万【推測】＋預け先の年額 $1千〜5万 × 20〜100年【推測】。</li>
+<li>重い崩壊（T1・T0・T00）、T2、軽い崩壊（T3・脆い T3）は 040 の BASE の状態で分け、053 の探索と同じく「同じ部分の TAB」で割って CE を出した。</li>
+<li>再現：<code>/tmp/rep054b/</code> で再実行し results.json は runtime 以外一致（葉 2,736個、差分0）、図3枚の MD5 も一致。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H66a</td>
+<td>S_full の総費用の中央値 ≥ T＋C の 3倍</td>
+<td><strong>13.9倍</strong>（$6,771万 対 $488万）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H66b</td>
+<td>A_Ord・U3 で CE(S_full) &lt; CE(T＋C)（中央値）</td>
+<td><strong>0.090</strong> 対 2.43</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H66c</td>
+<td>A_XPT_S・U2 でも同じ</td>
+<td><strong>0.216</strong> 対 2.43</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H66d</td>
+<td>重い崩壊だけでも両方の主の重みで同じ</td>
+<td>A_Ord 0.028 対 2.43、A_XPT_S 0.015 対 2.43</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H66e</td>
+<td>S_TC｜T＋C の CE（TAB=1）の中央値 &gt; 1（両方）</td>
+<td><strong>11.3</strong>（A_Ord）、<strong>25.3</strong>（A_XPT_S）</td>
+<td><strong>支持</strong>（ただし T の字数の仮定に乗る。下記）</td>
+</tr>
+<tr>
+<td>H66f</td>
+<td>A_XPT_S・U2 で S_full｜T＋C の価値の 50% 以上が NUC_G から</td>
+<td><strong>0.81</strong>（A_Ord・U3 では 0.05）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H66g</td>
+<td>A_Ord・U3 で損益分岐の find_S* &gt; 1</td>
+<td>発見確率 1 でも CE の比 <strong>0.19</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H66h</td>
+<td>生産性 1e5〜1e6（悲観）でも A_Ord・U3 で P(CE(S_full)&gt;CE(T＋C)) &lt; 0.5</td>
+<td><strong>0.013</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>価値（TAB=1）</strong>：T 単独（読者 B）0.126、T＋C <strong>2.56</strong>（033 の「板の値の約 2.6〜2.8倍」と同じ）、S_full 単独 <strong>1.30</strong>（A_Ord・U3）／<strong>3.12</strong>（A_XPT_S・U2）、S_full｜T＋C 1.98／4.39、S_TC｜T＋C <strong>1.66</strong>／<strong>3.71</strong>、T＋C｜S_full 3.25／3.83。束と S は補い合う（S があると束の価値が 1.27倍／1.49倍）。</li>
+<li><strong>価値の比 S_full／T＋C</strong>：A_Ord 0.51、A_XPT_S <strong>1.22</strong>、A_XPT_E 1.69。XPT の重みでは価値だけなら S が上（034・037 の「XPT では第2拠点がほぼ同等か上」と同じ向き）。</li>
+<li><strong>費用</strong>（中央値、5〜95%）：T＋C <strong>$488万</strong>（$72万〜5,190万）、S_full <strong>$6,771万</strong>（$3,315万〜1億2,150万：建設 $2,444万、維持 $3,561万、写し $181万）、S_TC <strong>$63万</strong>（$19万〜291万）。</li>
+<li><strong>CE（TAB=1、中央値と 5〜95%）</strong>：
+  | | A_Ord・U3 全体 | 重い崩壊 | 軽い崩壊 | A_XPT_S・U2 全体 | 重い崩壊 | 軽い崩壊 |
+  |---|---|---|---|---|---|---|
+  | T＋C | 2.43（1.53〜2.55） | 2.43 | 2.43 | 2.43 | 2.43 | 2.43 |
+  | S_full 単独 | <strong>0.090</strong>（0.008〜1.09） | 0.028 | 0.16 | <strong>0.22</strong>（0.019〜2.6） | 0.015 | 0.27 |
+  | S_full｜T＋C | 0.14 | 0.069 | 0.20 | 0.30 | 0.050 | 0.37 |
+  | S_TC｜T＋C | <strong>11.3</strong>（0.73〜173） | 5.6 | 16.6 | <strong>25.3</strong>（1.6〜387） | 4.2 | 31.0 |</li>
+<li><strong>CE(S_full)/CE(T＋C)</strong>：中央値 <strong>0.037</strong>（A_Ord）／<strong>0.090</strong>（A_XPT_S）、P(S_full が上) 0.007／0.053。重い崩壊だけでは 0.012／0.006（P 0.00003／0）、軽い崩壊だけでは 0.065／0.113（P 0.029／0.076）。</li>
+<li><strong>価値がどこから来るか</strong>：S_full の価値のうち重い崩壊からは A_Ord <strong>11%</strong>、A_XPT_S <strong>1%</strong>（T＋C は 36%／14%）。S は軽い崩壊（とくに NUC_G で豪州の脆い T3 の社会が北の金庫に届かない場合）向けの対策である。</li>
+<li><strong>届く確率（100）</strong>：find_S を 1 にしても CE の比（費用の中央値）は A_Ord 0.19、A_XPT_S 0.23（重い崩壊 0.059／0.035）。find_S=0.75（033 の値）で 0.14／0.17。届く確率だけでは束に並ばない。S_TC は find_S=0.05 でも CE 約 3（A_Ord・U3）。</li>
+<li><strong>S_TC と S_full｜T＋C</strong>：束の後に足すなら、S_TC は S_full の価値の 84%（A_Ord）〜85% を約 1/100 の費用で得る（CE の比の中央値 87倍）。</li>
+<li><strong>感度（中央値の CE(S_full)/CE(T＋C)、A_Ord／A_XPT_S）</strong>：033 の定数（喪失 0.06、発見 0.75）0.15／0.18、u_frag=u 0.023／0.035、発見の相関 ρ=0.5 0.029／0.071、k_S=1 0.049／0.12、維持費なし 0.092／0.22（P 0.06／0.18）、Clock of the Long Now のアンカー 0.027／0.064、生産性 1e5〜1e6（T＋C $1,461万）0.11／0.27（P 0.013／0.11）、生産性 1e6〜1e7 0.014／0.034、T の字数を 024 の g_req にする 0.0055／0.013。</li>
+<li><strong>S_TC の CE の感度</strong>：c_TC=0.3 で 6.7／13.4、u_frag=u で 8.5／14.3、T の字数を 024 の g_req（T＋C $69万）にすると <strong>0.91</strong>／2.0。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>8つの仮説がすべて支持されたのは、費用の差（約14倍）が価値の差（0.5〜1.7倍）より大きいため</strong>で、結論は S の費用の構造（建設に加えて 20〜100年の維持費、どちらも資本費と同じ桁）で決まる。届く確率は 0〜1 のどこに置いても順位を変えず、事前登録の閾値は差に比べて緩かった。</li>
+<li><strong>反例の探索</strong>：S_full が束を費用あたりで上回る組み合わせは、維持費なし・XPT の重み・軽い崩壊だけ、の3つを重ねたときに確率 0.1〜0.2 で現れる（維持費なしの A_XPT_S で P=0.18、軽い崩壊だけで 0.076）。S_full が束と並ぶには、金庫の物差しの外に価値の 11倍（A_XPT_S）〜27倍（A_Ord）の追加（重い崩壊だけなら 86〜154倍）が要る。</li>
+<li><strong>価値の単位が高層の星重みしか数えない</strong>。S_full の全写しは低層や AWA の他の預託物も運ぶが、模型では数えない。S_TC が S_full の価値の 84% を持つのはこの単位のせいでもある。c_TC=0.3（一般の回復と T3 の社会にとって束の写しは全写しの 3割の価値）にしても S_TC の CE は 6.7〜13 で、結論は変わらない。</li>
+<li><strong>H66e は TAB の費用の置き方に乗る</strong>。CE は TAB の費用で割った比なので、T を 024 の g_req（0.7〜9 MB）で書けば TAB が安くなり、S_TC の CE は 0.91（A_Ord）に下がる。このとき S_TC の費用（中央値 $63万）は束（$69万）と同じ程度で、比べる意味は「束の費用と同じ額で南半球に写しを置く」ことになる。S_TC の費用（手続き・預け先の年額）はほぼ全部が推測で、公開の価格は北半球の AWA の預託（€8,900 から）しかない。</li>
+<li><strong>NUC_G と u_frag</strong>：A_XPT_S で S の価値の 81% は NUC_G から来て、その大半は豪州の脆い T3 の社会が窓内に南の拠点を読む場合（u_frag=1）である。u_frag を u（中央値 0.16）にすると S/T＋C は 0.090→0.035 に下がる。034 と同じく、脆い T3 の社会が手元の写しをどれだけ持つかが S の価値の最大の未知で、費用ではなく価値の側の問題。</li>
+<li><strong>重い崩壊での届く確率は時間に依存するはず</strong>だが入れていない。重い崩壊では T2 まで数百年かかり、その間に拠点の場所の知識が残るかは主の金庫にも S にも効く【推測】。模型では発見の確率を崩壊の時点の値として置いている。</li>
+<li><strong>040 の物差しは 051・052 の改訂（A_Ord 0.00461）の前の値</strong>で、033 にある回収マイコンの読者の経路を含まない。T＋C の比 2.56 が 033 の値（2.6〜2.8）と合うので、束の側の誤差は小さいとみる【推測】。</li>
+<li>為替（EUR、NOK、AUD）は出典の対の値か推測の幅で置いた。施設のアンカーを1つずつに固定しても、CE の比の中央値は A_Ord で 0.027〜0.047、A_XPT_S で 0.064〜0.114 の範囲を動くだけだった。</li>
+</ul>
+<h2 id="_4">結論</h2>
+<p>南半球に専用の拠点を新しく建てる S_full は、建設（$1,300万〜4,200万、種子庫の改修で建設費の4倍が後からかかった例を含む）と 20〜100年の維持で中央値 $6,800万かかり、板の手引きと小窓版の束（中央値 $490万、ほぼ執筆の費用）の約14倍である。価値は XPT の重みでは束より大きいが（1.2〜1.7倍）、費用あたりでは束の 1/27〜1/11（重い崩壊だけなら 1/86〜1/154）で、届く確率を 1 にしても並ばない。S の価値の 89〜99% は軽い崩壊から来る。一方、束を作った後に南半球の既存の施設に束の写しだけを預ける S_TC は、S_full の価値の約 85% を約 1/100 の費用で得て、費用あたりで板の手引きの 11〜25倍（重い崩壊だけでも 4〜6倍）になる。順番は「束 T＋C → 南半球への束の写し S_TC」で、専用の第2拠点は金庫の物差しでは正当化できない。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>GitHub Archive Program・Piql など金庫の運営者</strong>：南半球に新しい専用の拠点を建てる前に、板の手引きと小窓版の束（約4〜10リール＋板）を作り、その写しを南半球の既存の施設（豪州・NZ の国立図書館や大学、Tasmania の Earth's Black Box のような計画、MOM 型の板の預かり）に預ける。予算の目安は束で数百万ドル、南の写しで数十万ドルで、全写しのための専用拠点（数千万ドル）より先にする。</li>
+<li><strong>本研究所</strong>：032〜034 の「南半球の第2拠点」の提言を「南半球への束の写し」に置き換える。103 を閉じ、残る未知を S_TC の実際の預け先と費用（147）、時間とともに拠点の場所が忘れられる効果（149）、脆い T3 の社会にとっての金庫の価値 u_frag（150）に移す。</li>
+</ul>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord と XPT は崩壊後に何を残すべきかを費用で比べない。種子庫・AWA・MOM・Long Now は自分の施設の費用や価格を個別に公開するが、互いを同じ価値の物差しで比べていない。本研究は、公開の建設費・改修費・運営費・預託価格を、同じ崩壊の模型（040）の価値に入れ、「新しい拠点」「束」「既存の施設への束の写し」の費用あたりの比を、重い崩壊と軽い崩壊に分けて出し、届く確率を 1 にしても専用の拠点が束に並ばないことを示した。確認した資料には、この比較は見当たらない。</p>
+<h2 id="_7">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>fig_costs.png</code>、<code>fig_ce_heavy_light.png</code>、<code>fig_breakeven_find.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>（取得した本文、<code>excerpts.json</code>、<code>verify_excerpts.py</code>）。
+- 逸脱：初回の実行の前に sim.py の維持費の行の重複（結果に使わない2行）を消した。維持費の上端は事前登録の「€100万」を EUR→USD の中央 1.1 で $110万に換算した（標本ごとの為替ではない）。初回の実行の結果をそのまま採用した。</p><footer><hr><small>自動生成</small></footer></body></html>

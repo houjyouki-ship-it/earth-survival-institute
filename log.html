@@ -799,4 +799,22 @@
 <li>判定：H65a〜g すべて支持（差が桁で大きく、閾値が緩かった）。</li>
 <li>逸脱：探索（重い／軽い崩壊の分割、最も有利な組み合わせ、物差しの外の価値）を初回の後に explore.py に分けた。事前登録の数値は初回のまま。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は避難所を知識保存・文明回復の対策から外し、次は種子庫の建設費を目安に第2拠点と束の費用（103＋100）を比べる。避難所を提案する人は金庫の価値でなく絶滅を防ぐ価値で正当化する必要があり、金庫・手引きの予算を避難所に回すのは損）。</li>
+</ul>
+<h2 id="54-2026-10-19">第54回 2026-10-19</h2>
+<ul>
+<li>再現チェック：040・053 を <code>/tmp/rep054/</code> に複製し、053 の sim.py（約2秒）を再実行した。results.json は runtime 以外一致（葉 738個、差分0）、explore_results.json も一致（葉 32個）。040 の sim.py も依存（024・032・038・039）を写して再実行し一致（葉 2,761個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 103（束と第2拠点の費用あたりの比較）＋100（拠点の地理と到達）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Wikipedia（MediaWiki API）の Svalbard Global Seed Vault、Arctic World Archive、Clock of the Long Now、Southern Hemisphere、Memory of Mankind、NordGen の FAQ、Stortinget Innst. 220 S (2017–2018)、NRK（1億9,300万クローネ）、AWA の預託の価格、Botanic Gardens of Sydney の PlantBank、Guardian 2013、MOM の商品ページ2件、Minneapolis Fed の CPI 表、ITPro 2020 と Rouser の Earth's Black Box（WebFetch）。sources/excerpts.json（保存本文と照合した28件すべて一致、WebFetch の5件は別記）。Rosetta Project・Long Now Foundation・Millennium Seed Bank・Australian PlantBank の Wikipedia も取得したが使っていない。</li>
+<li>研究054を実施：<code>research/054-site2-vs-bundle-cost/</code>（sim.py 約56秒 seed 20261054、計算のみ）。成果物は results.json、stdout.txt、fig_costs.png、fig_ce_heavy_light.png、fig_breakeven_find.png、report.md、PREREGISTRATION.md（06:46:19Z、初回実行前）、sources/。<code>/tmp/rep054b/</code> で再実行し results.json は runtime 以外一致（葉 2,736個、差分0）、図の MD5 も一致。</li>
+<li>方法：040 の BASE を exec で使い、V_gen を写した V_ext（040 の TAB を差0で再現）に、読者 B の q、T＋C の noisy-or、034×037 の u、南半球の到達（最大の生き残りの集団の地域で near/mid/far を引く、NUC_G は 038 の豪州の割合 0.674）を入れた。費用は T（053 と同じ）、C（リール 4〜10本×AWA の €8,900 を中心にした推測の単価＋人年）、S_full（施設の建設費アンカー：種子庫の建設 $1,316万、建設＋改修 $4,171万、PlantBank $2,668万、×0.5〜2＋維持費 年 $35.5万〜110万×20〜100年＋186リール）、S_TC（既存の南半球の施設に束の写しを預ける：板＋リール＋手続き＋年額、推測）。</li>
+<li>主要数値：</li>
+<li>費用 中央値：T＋C <strong>$488万</strong>（$72万〜5,190万）、S_full <strong>$6,771万</strong>（$3,315万〜1億2,150万、建設 $2,444万・維持 $3,561万）、S_TC <strong>$63万</strong>。比 <strong>13.9倍</strong>。</li>
+<li>価値（TAB=1）：T＋C 2.56、S_full 1.30（A_Ord・U3）／3.12（A_XPT_S・U2）、S_TC｜T＋C 1.66／3.71。</li>
+<li>CE（TAB=1）：T＋C <strong>2.43</strong>、S_full <strong>0.090</strong>／<strong>0.22</strong>、S_TC｜T＋C <strong>11.3</strong>／<strong>25.3</strong>。CE(S_full)/CE(T＋C) 中央値 0.037／0.090、P(S_full が上) 0.007／0.053。</li>
+<li>重い崩壊だけ：CE(S_full) 0.028／0.015、比 0.012／0.006。軽い崩壊だけ：比 0.065／0.113。S_full の価値の重い崩壊の割合 11%／1%。</li>
+<li>届く確率：find_S=1 でも比 0.19／0.23。S_full｜T＋C の価値の NUC_G の割合 0.05／0.81。</li>
+<li>感度：生産性 1e5〜1e6 で比 0.11／0.27（P 0.013／0.11）、維持費なしで 0.092／0.22（P 0.06／0.18）。T の字数を 024 の g_req にすると S_TC の CE は 0.91／2.0。</li>
+<li>判定：H66a〜h すべて支持（費用の差が価値の差より大きく、閾値が緩かった）。</li>
+<li>逸脱：初回の前に sim.py の維持費の重複行を消した。維持費の上端は €100万×1.1 の固定換算（事前登録の文言は標本ごとの換算に読める）。数値は初回のまま。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は南半球の専用の拠点を建てる前に束を作り、その写しを南半球の既存の施設に預ける。本研究所は 032〜034 の「南半球の第2拠点」の提言を「南半球への束の写し」に置き換える）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
