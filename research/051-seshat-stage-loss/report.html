@@ -1,0 +1,127 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究051：体系的な標本（Seshat Equinox-2020）で数え直した崩壊の後の段の喪失 h（open_problems 137） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="051seshat-equinox-2020-hopen_problems-137">研究051：体系的な標本（Seshat Equinox-2020）で数え直した崩壊の後の段の喪失 h（open_problems 137）</h1>
+<h2 id="_1">問い</h2>
+<p>048 の h（未知の人為リスクのうち T0 から再出発する割合）の4つの読みは、一人が選んで符号化した有名な崩壊18件から出した（V1 0.222、V2 0.195、V3 0.082、V4 0.028）。地域と複雑さで体系的に選ばれた標本（Seshat の35 NGA、世紀ごとの時系列）で、崩壊を機械的な規則で拾い、その後の段の喪失を数えると、h は 048 とどう違い、P1 の分かれ目 h*=0.097 のどちら側に来るか。</p>
+<h2 id="_2">確認した事実（本回開いて確認）</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seshat の Equinox-2020 のデータは公開で、CC BY-NC-SA で自由に使える（GitHub の README）</td>
+<td>【事実（<a href="https://github.com/seshatdb/Equinox_Data">Seshat Equinox_Data の README</a>）】</td>
+</tr>
+<tr>
+<td>Zenodo の記録「Seshat Data: Equinox Packaged Data」（2022-06-09、open access、Turchin・Hoyer・Bennett・Reddish ほか）</td>
+<td>【事実（<a href="https://zenodo.org/records/6629022">Zenodo 6629022</a>）】</td>
+</tr>
+<tr>
+<td>同梱の Metadata 表：TSDat123 は NGA×世紀の表で二値の変数を数値で符号化し、欠測は −999。Dupl は同じ政体が2つの NGA を支配した重複、uniq=n は世紀ごとに埋めるための写しの行。ImpSCDat は補完済みの複雑さの成分、SPC はその第1主成分</td>
+<td>【事実（<code>sources/Equinox_on_GitHub_June9_2022.xlsx</code> の Metadata 表、SHA-256 は <code>sources/sha256.txt</code>）】</td>
+</tr>
+<tr>
+<td>- 値 0.9／0.1 を「推定であり／推定でなし」、0.5 を「不明・争いあり」と読むのは本研究所の読みで【推測】（Metadata 表には書かれていない）。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpyseed-2026105140">方法（<code>sim.py</code>、seed 20261051、約40秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（2026-10-19T00:44:58Z、喪失を数える前。見たのは表と列の名前、符号の値、行数、SPC の分布だけ）。</li>
+<li><strong>崩壊（分母）</strong>：主は補完済みの政体人口（log10）が直前100〜200年の最大から半分以下（0.301）に落ちた世紀。最大の世紀を peak とし、300年以内の onset はまとめる。35 NGA のうち24で 73 episode。</li>
+<li><strong>喪失</strong>：peak であった技術が peak から500年の間に2世紀続けてなし。読みは S1＝文字（Script）、S1b＝文字か専業の役人、S2＝12の専門の技術のうち2つ以上、S4＝金属をすべて失う、S4b＝金属の段が1つ下がる。048 の V3（孤立）に当たる変数は Seshat の表になく、作れなかった。</li>
+<li><strong>背景率</strong>：どの episode の窓にも入らない世紀を仮の peak にして同じ規則で数えた割合（符号の揺れの目安、約410世紀）。</li>
+<li><strong>模型への写し</strong>：048 の <code>B_h_scan</code>（h について線形であることを sim.py の中で確認）を補間し、Jeffreys の事後から重み付きの板の手引きの価値（A_Ord、A_XPT_S）を出した。</li>
+<li><strong>感度（事前登録した9版）</strong>：分母（人口 1/10、SPC −1.0、人口 −0.5）、1世紀の喪失、窓 300年・1000年、1/0 だけを数える、政体で重複除去、Dupl の行を除く。</li>
+<li>再現：050 を <code>/tmp/rep051/</code> で再実行（約2分5秒）し results.json は runtime 以外一致（葉 539個、差分0）。051 も <code>/tmp/rep051b/</code> で再実行し一致（葉 1,093個、差分0）。</li>
+</ul>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H63a</td>
+<td>S1 の事後平均 ≤ 0.15</td>
+<td><strong>0.043</strong></td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H63b</td>
+<td>S4 の事後平均 &lt; h*</td>
+<td><strong>0.023</strong></td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H63c</td>
+<td>S1 の喪失率は背景率の2倍以上</td>
+<td>4.7倍（3.5% 対 0.74%）</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H63d</td>
+<td>S2 の事後平均は 048 の V2 の 90% 区間の中</td>
+<td>0.067（区間 0.056〜0.377）</td>
+<td>支持（下端の近く）</td>
+</tr>
+<tr>
+<td>H63e</td>
+<td>S2 &gt; h* かつ S4 &lt; h*（048 と同じ向き）</td>
+<td>S2 <strong>0.067 &lt; h</strong>*</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H63f</td>
+<td>分母3版で S1 の幅 &lt; 0.10</td>
+<td>0.043〜0.114（幅 0.071）</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H63g</td>
+<td>S2 で置いた A_Ord が 048 の V2 の ±10% 以内</td>
+<td>0.00461（0.845倍）</td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>主の版（73 episode）</strong>：</li>
+<li>S1 文字の喪失 <strong>2/57</strong>（Crete の新宮殿期の後、Indus の都市期IIの後）、事後平均 <strong>0.043</strong>（90% 0.010〜0.094、NGA の cluster bootstrap 0.009〜0.080）。</li>
+<li>S1b 文字か役人 5/57、<strong>0.095</strong>（h* とほぼ同じ）。S2 4/66、<strong>0.067</strong>（0.026〜0.124）。S4 1/63、<strong>0.023</strong>（唯一の例は Cuzco の Wari の後で、符号の空白の可能性がある）。S4b 5/63、0.086。</li>
+<li>背景率は 0.2〜1.9% で、episode の喪失率はその 3.1〜7.5倍。背景を差し引くと S1 0.028、S2 0.042、S4 0.014。</li>
+<li><em><em>h</em> との関係（主の版）**：P(h&gt;h</em>) は S1 0.04、S1b 0.43、S2 0.16、S4 0.005、S4b 0.34。重い崩壊から来る A_Ord の価値の割合は 0.44〜0.50（048 は 0.44〜0.58）。</li>
+<li><strong>重み付きの板の手引きの価値 A_Ord</strong>：S1 0.00445、S2 <strong>0.00461</strong>、S1b 0.00479、S4 0.00432（P1 の U3 0.00766 の <strong>0.56〜0.63倍</strong>、048 の V2 0.00545 の 0.85倍）。重い崩壊の確率は 0.053〜0.064。A_XPT_S は 0.0119〜0.0120（U3 の 0.96倍）でほぼ動かない。</li>
+<li><strong>感度</strong>：深い崩壊だけを分母にすると上がる。SPC −1.0（22 episode）で S1 0.114、S1b 0.250、S2 0.109（いずれも h* 超え）、人口 1/10（30 episode）で S1 0.093、S1b 0.167、S2 0.052。1世紀の喪失を数えると S2 0.157。逆に 1/0 だけでは S2 0.008。全10版の A_Ord は 0.00421〜0.00604。</li>
+<li><strong>048 と重なる例の照合（事前登録の外）</strong>：Mycenae（Crete）と Indus は文字の喪失で一致、Hittite（Konya、048 は 0.5）は Seshat ではなし、西ローマは Latium でなし、Paris Basin で役人と鋼の喪失、Angkor はなしで一致。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>048 の高い読みの多くは例の選び方から来ていた【推測】</strong>。有名な崩壊18件では V1 が 0.22 だったが、体系的な標本の政体の崩壊73件では文字を失ったのは2件で、その2件はどちらも 048 の Mycenae と Indus に当たる例だった（Crete は Mycenae と同じ青銅器時代末のエーゲ海の崩壊）。体系的な分母には、征服や分裂で政体が小さくなっても技術が残った例が多く入る。</li>
+<li><strong>ただし分母が広すぎる可能性もある</strong>。人口の半減には征服による入れ替えが含まれ、地球規模の崩壊の類例としては浅い。深い崩壊（SPC −1.0）に絞ると S1・S2 は h* をわずかに超える。SPC は文字などの情報の変数を成分に含むので、この版は文字の喪失と一部循環している。「どの崩壊が類例か」はデータでは決まらず、h が h* のどちらにあるかは今もこの選択に乗る。</li>
+<li><strong>S2 の4件のうち2件（Susiana の Sasan 朝の後、Upper Egypt の東ローマの後）はアラブの征服の時期</strong>で、技術の喪失というより符号の付け方の変化かもしれない。これを外すと S2 はさらに下がる。S4 の唯一の例（Cuzco）も符号の空白の疑いがある。体系的なデータは喪失を多めに数える側に誤る可能性があり、主の版の値はむしろ上限に近い。</li>
+<li><strong>背景率は小さく、信号は本物</strong>。喪失は崩壊の窓に 3〜7倍集まる。符号の揺れで作られた数字ではない。</li>
+<li><strong>Seshat の標本は孤立した島（049・050）をほぼ含まず</strong>、V3 は作れなかった。050 で孤立は大きな生き残りの h を上げないと分かっているので、致命的ではない。</li>
+<li><strong>価値はほとんど動かない</strong>。読み・分母・規則の10版すべてで A_Ord は 0.0042〜0.0060 に収まる。変わるのは「重い崩壊が価値の過半か」という判断で、主の版では 0.44〜0.50 と過半に届かない。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>体系的な標本で数え直すと、崩壊の後に文字を失った割合は 4%、2つ以上の技術を失った割合は 7%、金属をすべて失った割合は 2% で、048 の有名な例の集合の 1/5〜1/3 だった。主の版ではどの読みも h*（0.097）を下回り（文字か役人の S1b だけが境界の 0.095）、重い崩壊から来る価値の割合は 0.44〜0.50 になる。深い崩壊だけを分母にすると h* をわずかに超えるので完全には決まらないが、048 の「V1・V2 なら h&gt;h*」という根拠は弱まった。重み付きの A_Ord は 0.0046（U3 の 0.60倍）で、版によらず 0.0042〜0.0060 に収まる。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<ul>
+<li><strong>本研究所</strong>：A_Ord の主の値を 048 の V2（0.00545）から Seshat の S2（0.00461）に改め、「重い崩壊が価値の過半」とは書かず「重い崩壊と軽い崩壊が約半分ずつ」と書く。固定の最優先指示は残すが、その根拠（h&gt;h*）は主の版で支持されなかったと明記し、優先を続けるかの判断をユーザーに返す。</li>
+<li><strong>金庫・手引きの作り手</strong>：重い崩壊と軽い崩壊の寄与がほぼ同じなので、重い崩壊向けの特徴（肉眼で読める板、T0 からの手引き）のために、軽い崩壊での読み取りやすさ（機械で読む媒体の容量と規格）を犠牲にしない設計を選ぶ価値がある。</li>
+</ul>
+<h2 id="_7">既存研究に対する新規性</h2>
+<p>Zenodo の記録は Equinox-2020 を今後の一連の出版の基礎のデータと説明している。確認した資料の範囲では、「崩壊の後に技術の段を失った割合」を機械的な規則で数え、地球規模の崩壊の再出発の深さの事前分布にして、知識の金庫の価値の分かれ目と突き合わせた例は見当たらない。048 の手作業の参照の集合の選び方の偏りを、同じ問いの体系的な標本で量った点も新しい。</p>
+<h2 id="_8">成果物</h2>
+<p><code>sim.py</code>、<code>results.json</code>、<code>stdout.txt</code>、<code>episodes_main.csv</code>、<code>fig_h_seshat_vs_048.png</code>、<code>fig_versions.png</code>、<code>PREREGISTRATION.md</code>、<code>sources/</code>（xlsx、README、Zenodo の記録、<code>fetch.sh</code>、<code>sha256.txt</code>）。
+- 逸脱：事前登録の後、h* との関係の表、048 との照合（事前登録の外と明記）、図を sim.py に足して再実行した（事前登録の数値は変わらない）。図の文字の位置を直して再実行（数値は同じ）。</p><footer><hr><small>自動生成</small></footer></body></html>
