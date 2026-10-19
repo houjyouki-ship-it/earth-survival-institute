@@ -850,4 +850,21 @@
 <li>判定：H68a・c・d・e・f・g・h 支持、H68b 棄却（CH_reader の 5% 点 60万が g_req の下端 72.5万を下回る）。</li>
 <li>逸脱：なし（報告の本の冊数を初稿の 33 から 34 に直した）。</li>
 <li>「誰が何を変えるべきか」：記載あり（手引きの企画者は約150万字の読取装置の部分を先に書いて束に入れ、約1,500万字の全段は前段の価値が確かめられてから。本研究所は T の字数を CH_heavy に改め、S_TC を T＋C より上に置く順位は全段を書く場合の条件つきと記録し、次は前段の知識の価値 153 へ）。</li>
+</ul>
+<h2 id="57-2026-10-19">第57回 2026-10-19</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053〜056 を <code>/tmp/rep057/</code> に複製し、056 の sim.py（約30秒）を再実行した。results.json は runtime 以外一致（葉 1,723個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 153（読取装置より前の段の知識の価値）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認、MediaWiki API）：Wikipedia 日本語版の 築地反射炉、韮山反射炉、那珂湊反射炉、萩反射炉、反射炉、大島高任、釜石鉱山、橋野高炉跡、雲行丸、集成館事業、江川英龍、日本製鉄北日本製鉄所（釜石製鐵所の転送先）、英語版の Nirayama Reverberatory Furnace、Hagi Reverberatory Furnace、Ōshima Takatō、Reverberatory furnace、Saugus Iron Works National Historic Site、Wistarburg Glass Works、Caspar Wistar (glassmaker)、Samuel Slater、Francis Cabot Lowell。<code>sources/cases.json</code> の抜き出し 37件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。江川英龍・釜石鉱山・日本製鉄北日本製鉄所・Reverberatory furnace（英）は数字を使っていない。Hashino（英）・Shūseikan（英）・Hammersmith Iron Works・鉄の記念日は本文が空で使えなかった。</li>
+<li>研究057を実施：<code>research/057-pre-reader-knowledge/</code>（sim.py 約56秒 seed 20261057、計算のみ）。成果物は results.json、stdout.txt、fig_F_vs_f.png、fig_cases.png、report.md、PREREGISTRATION.md（12:45:40Z、資料を読んだ後・sim.py の作成の前）、explore.py・explore_results.json・explore_stdout.txt（事前登録の外）、sources/（本文 JSON、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep057b/</code> で再実行し results.json は runtime 以外一致（葉 649個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：056 の sim.py を仮説の節の前まで exec し 056 の runs を差0で再現（葉 1,440個）。054 の T2 到達時刻の式を写し（f=1・thr=1 で T2s と V_ext を差0で再現）、段の年数の倍率 f（d_Fe・d01・d12）、人口の待ちの閾値の倍率 thr、早く見つかる確率 p_early（主 U(0.1,0.6)、上限 1）を入れて F＝前段込みの T＋C の価値÷054 の T＋C の価値を求めた。事例から f_ev＝min(1, t_book×n_seq×m_base／d)。</li>
+<li>主要数値：</li>
+<li>事例：本だけの年数の中央値 <strong>3.43年</strong>（1.35〜6.1、4件）、人で移した例 <strong>1.5年</strong>（1〜3、4件）、比 <strong>2.28</strong>。本だけで意図した水準に達したのは <strong>3/7</strong>（低い水準 2：那珂湊・雲行丸、失敗 2：鹿児島の機関・萩）、人で移した例は 4/4。</li>
+<li>f_ev 中央値：d_Fe・d01 0.64、d12 0.43。</li>
+<li>F：f_ev で <strong>1.0046</strong>（A_Ord・U3）／<strong>1.0015</strong>（A_XPT_S・U2）。f=0・p_early=1 でも <strong>1.020</strong>／<strong>1.006</strong>、重い崩壊の部分 1.056／1.044。thr 0.1 を足して最大 <strong>1.55</strong>／1.08、探索の thr 0.01 で 2.08。056 の釣り合い 5.0 にどの組み合わせも届かない。</li>
+<li>費用あたり（V_mix）：全段の T＋C の CE は 2.33 → F を掛けて 2.34〜2.38。</li>
+<li>理由（探索）：重い崩壊の T2 到達の中央値は U3 1,968年、BIO 1,204年、CASC 254年で、段を0年にしても 1,957／1,187／237年。手引きが縛りになる標本は U3 2.6%、BIO 4.8%、CASC 18%。</li>
+<li>判定：H69a〜g すべて支持（H69a・b は小標本）。</li>
+<li>逸脱：sim.py の exec の切り位置を、056 の docstring にも同じ文字列があったため「# ---------- 仮説 ----------」に直した（初回の実行が構文エラーで止まった後、計算結果を見る前）。探索（explore.py、thr 0.01）は初回の後に追加し、事前登録の数値は初回のまま。</li>
+<li>「誰が何を変えるべきか」：記載あり（手引きの企画者は前段の約1,370万字を金庫の読み取りの価値を理由に板に刻まない。読取装置の部分を先に書いて束に入れ、前段は既存の実務書の目録と要約にとどめる。本研究所は T の主の字数を CH_reader に戻し、全段を書く理由は金庫の物差しの外にしかないと記録する）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

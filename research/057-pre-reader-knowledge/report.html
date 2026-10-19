@@ -1,0 +1,194 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究057：読取装置より前の段の手引きは、重い崩壊で T＋C の価値を何倍にするか（open_problems 153） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="057-tc-open_problems-153">研究057：読取装置より前の段の手引きは、重い崩壊で T＋C の価値を何倍にするか（open_problems 153）</h1>
+<h2 id="_1">問い</h2>
+<p>056 で全段の手引き（約1,500万字）の 65% は読取装置より前の段（製鉄・ガラス・レンズ・化学・電気・機械・窯業）にあり、全段を書く費用が読取装置の部分（約160万字）と同じ費用あたりの価値になるには、前段が T＋C の価値を <strong>5.0倍</strong>（V_mix、V_orig 5.9、V_comp 3.4）にする必要があった。本だけで技術を移した歴史の例は、段をどれだけ短くするか。それを 054 の価値の模型に入れると何倍になるか。重い崩壊と軽い崩壊で違うか。</p>
+<h2 id="sourcescasesjson-37-verify_excerptspy">確認した事実（本回開いて確認、<code>sources/cases.json</code> の抜き出し 37件を <code>verify_excerpts.py</code> で保存本文と照合しすべて一致）</h2>
+<table>
+<thead>
+<tr>
+<th>例</th>
+<th>移し方</th>
+<th>年数（着手→稼働）</th>
+<th>結果</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>佐賀藩 築地反射炉</td>
+<td>蘭書（Huguenin）の訳本</td>
+<td>1850年8月頃に築造開始 → 1851-05-10 に5回目で初成功（0.75年）→ 1852-06-19 の14回目で軌道に（1.85年）。耐火煉瓦に有田焼の職人の技術</td>
+<td>稼働（初期は試射で破裂が続いた）</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E7%AF%89%E5%9C%B0%E5%8F%8D%E5%B0%84%E7%82%89">Wikipedia: 築地反射炉</a>）】</td>
+</tr>
+<tr>
+<td>薩摩藩 反射炉</td>
+<td>蘭書</td>
+<td>1852年に建設開始 → 1857年に完成・運用（5年）</td>
+<td>稼働</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E9%9B%86%E6%88%90%E9%A4%A8%E4%BA%8B%E6%A5%AD">集成館事業</a>、<a href="https://ja.wikipedia.org/wiki/%E5%8F%8D%E5%B0%84%E7%82%89">反射炉</a>）】</td>
+</tr>
+<tr>
+<td>水戸藩 那珂湊反射炉</td>
+<td>蘭書（大島高任）</td>
+<td>1854-10-23 基礎工事 → 1856-01-03 火入れ。1856年の8回の操業で大砲3門、製品は1門</td>
+<td>低い水準</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E9%82%A3%E7%8F%82%E6%B9%8A%E5%8F%8D%E5%B0%84%E7%82%89">那珂湊反射炉</a>）】</td>
+</tr>
+<tr>
+<td>釜石 大橋の洋式高炉</td>
+<td>蘭書＋薩摩藩の技術者</td>
+<td>1858-01-15 に連続出銑に成功（着工日は資料になく年数は使わない）</td>
+<td>稼働</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B3%B6%E9%AB%98%E4%BB%BB">大島高任</a>、<a href="https://en.wikipedia.org/wiki/%C5%8Cshima_Takat%C5%8D">Ōshima Takatō</a>）】</td>
+</tr>
+<tr>
+<td>薩摩藩 雲行丸の蒸気機関</td>
+<td>蘭書の訳本『水蒸船略説』</td>
+<td>1849年に製作開始 → 1855-08-15 試運転（約6.1年）。実力 2〜3馬力（設計 12馬力）。同じ時期の鹿児島での製作は失敗</td>
+<td>低い水準／失敗</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E9%9B%B2%E8%A1%8C%E4%B8%B8">雲行丸</a>）】</td>
+</tr>
+<tr>
+<td>長州藩 萩反射炉</td>
+<td>見学のスケッチ＋蘭書</td>
+<td>1856年に試験炉。実用炉は造られず</td>
+<td>失敗</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E8%90%A9%E5%8F%8D%E5%B0%84%E7%82%89">萩反射炉</a>）】</td>
+</tr>
+<tr>
+<td>韮山反射炉</td>
+<td>蘭書＋佐賀の技師11名</td>
+<td>1853年 築造開始 → 1857年完成、最初の大砲 1858年（約5年）</td>
+<td>稼働</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E9%9F%AE%E5%B1%B1%E5%8F%8D%E5%B0%84%E7%82%89">韮山反射炉</a>、<a href="https://en.wikipedia.org/wiki/Nirayama_Reverberatory_Furnace">Nirayama</a>）】</td>
+</tr>
+<tr>
+<td>橋野の高炉</td>
+<td>大橋で成功した大島本人</td>
+<td>1858年6月着手 → 12月操業（0.5年）</td>
+<td>稼働</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/%E6%A9%8B%E9%87%8E%E9%AB%98%E7%82%89%E8%B7%A1">橋野高炉跡</a>）】</td>
+</tr>
+<tr>
+<td>Saugus（Braintree・Hammersmith）</td>
+<td>英国の熟練工</td>
+<td>1644年建設開始 → 1645年完成、Hammersmith は 1646年操業</td>
+<td>稼働</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Saugus_Iron_Works_National_Historic_Site">Saugus Iron Works</a>）】</td>
+</tr>
+<tr>
+<td>Wistar のガラス工場</td>
+<td>ドイツの職人4人</td>
+<td>1738年9月到着 → 1739年に炉</td>
+<td>稼働</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Wistarburg_Glass_Works">Wistarburg Glass Works</a>）】</td>
+</tr>
+<tr>
+<td>Slater の紡績工場</td>
+<td>記憶した設計</td>
+<td>1790年契約 → 1791年に一部稼働 → 1793年工場。対照として、1789年に入手した Arkwright 型の機械は動かせなかった</td>
+<td>稼働</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Samuel_Slater">Samuel Slater</a>）】</td>
+</tr>
+<tr>
+<td>Lowell の力織機</td>
+<td>記憶＋機械工 Moody</td>
+<td>1814年に工場 → 1815年に特許</td>
+<td>稼働</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Francis_Cabot_Lowell">Francis Cabot Lowell</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>ほかに、日本の在来の技術は青銅砲の段階で停滞していたこと、佐賀藩の大砲・火薬・弾の費用がある年の歳入の4割だったことを同じ資料で確かめた。那珂湊（水戸藩）の初鋳造の月は資料にないため、t_first は火入れ＋約2か月とした【推測】。</p>
+<h2 id="simpyseed-2026105756">方法（<code>sim.py</code>、seed 20261057、約56秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-19T12:45:40Z</strong>、資料を読んだ後、sim.py の作成の前）。</li>
+<li>056 の sim.py を仮説の節の前まで exec し、056 の runs（葉 1,440個）を<strong>差0で再現</strong>した。054 の T2 到達時刻の式を写し（f=1・thr=1 で全成分の T2s と V_ext を<strong>差0で再現</strong>）、段の年数の倍率 f（d_Fe・d01、pre12 では d12 も）と、人口の待ちの閾値の倍率 thr を入れた。</li>
+<li>前段の手引きは、金庫の板が残り（054 の tab_ok）かつ T0・T1 のうちに見つかる（p_early、主 U(0.1,0.6)【推測】、上限 1）標本でだけ効く。識字を失った標本でも手引きは読めるとした（手引きに有利な置き方）。</li>
+<li>F＝（前段を含む T＋C の価値）÷（054 の T＋C の価値）。f を 1〜0、4版×p_early 2通りで走査。事例からの f_ev＝min(1, t_book×n_seq×m_base／d_stage)、t_book は本だけの例の年数 logU(1.35, 6.1)、n_seq logU(1,5)、m_base logU(1,4)（後の2つは【推測】）。</li>
+<li>再現：<code>/tmp/rep057b/</code> で再実行し results.json は runtime 以外一致（葉 649個、差分0）、図2枚の MD5 も一致。</li>
+</ul>
+<h2 id="_2">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H69a</td>
+<td>本だけ ÷ 人で移した年数（中央値）≥ 2</td>
+<td>3.43年 ÷ 1.5年 = <strong>2.28</strong></td>
+<td><strong>支持</strong>（小標本：4件と4件）</td>
+</tr>
+<tr>
+<td>H69b</td>
+<td>本だけで意図した水準に達した割合 &lt; 0.75</td>
+<td><strong>3/7 = 0.43</strong>（低い水準 2、失敗 2）。人で移した例は 4/4</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H69c</td>
+<td>f=0・thr=1・p_early=1 でも F &lt; 5</td>
+<td>A_Ord <strong>1.020</strong>、A_XPT_S <strong>1.006</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H69d</td>
+<td>f_ev での F &lt; 1.2</td>
+<td><strong>1.0046</strong>、<strong>1.0015</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H69e</td>
+<td>f=0 で重い崩壊の部分の比 &lt; 2（A_Ord）</td>
+<td><strong>1.056</strong></td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H69f</td>
+<td>A_Ord で走査したどの組み合わせも F &lt; 5</td>
+<td>最大 <strong>1.55</strong>（f=0・thr=0.1・p_early=1）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H69g</td>
+<td>f=0 の F−1 の半分以上が待ちのない成分から</td>
+<td>AI <strong>0.59</strong>（GEN は 0、U3 0.25、BIO 0.13）</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjsonexplore_resultsjson">主な数値（results.json、explore_results.json）</h2>
+<ul>
+<li><strong>f_ev（中央値と 5〜95%）</strong>：d_Fe 0.64（0.12〜1）、d01 0.64（0.12〜1）、d12 0.43（0.08〜1）。事例の年数は 1〜6年で、模型の段の年数（中央値 20〜30年）を大きく縮めるが、職人の基盤がない重い崩壊の遅れと段の中の技術の数を掛けると、040 の f_primer U(0.3,0.8) と同じ程度に戻る。</li>
+<li><strong>F（全体）</strong>：
+  | 版 | A_Ord・U3（p_early 主／1） | A_XPT_S・U2（主／1） |
+  |---|---|---|
+  | f_ev、pre12 | <strong>1.0046</strong> ／ 1.013 | <strong>1.0015</strong> ／ 1.004 |
+  | f=0、pre12 | 1.0068 ／ <strong>1.020</strong> | 1.0022 ／ <strong>1.006</strong> |
+  | f=0、pre12、thr 0.3 | 1.10 ／ 1.29 | 1.02 ／ 1.07 |
+  | f=0、pre12、thr 0.1 | 1.20 ／ <strong>1.55</strong> | 1.03 ／ 1.08 |
+  | （探索）f=0、thr 0.01、p_early=1 | 2.08 | 1.08 |
+  重い崩壊の部分だけでも f=0 で 1.056（A_Ord）、1.044（A_XPT_S）。T＋C の価値のうち重い崩壊から来るのは 0.36（A_Ord）と 0.14（A_XPT_S）。</li>
+<li><strong>費用あたり（V_mix、中央値、TAB=1）</strong>：全段の T＋C は 054 の価値で 2.33、F_ev を掛けて <strong>2.34</strong>、f=0 の F でも <strong>2.38</strong>。読取装置の部分だけの T＋C は <strong>1.30</strong> で、全段の T＋C の CE を前段の価値で 5.0倍にする道は見つからない。南半球の写し S_TC は全段で 6.9／15.5、読取装置の部分で 0.72／1.62。
+  （注：ここでの 2.33 と 1.30 は 056 の定義どおり「TAB＝同じ字数の板」を 1 とした比なので、字数の違う T どうしの CE は直接比べられない。費用の釣り合いは 056 の 5.0倍の基準で判定した。）</li>
+<li><strong>なぜ効かないか（探索）</strong>：人口の模型がある成分の重い崩壊では、T2 到達の中央値は U3 で 1,968年、BIO 1,204年、CASC 254年で、段の年数を 0 にしても 1,957年、1,187年、237年。手引きが縛りになる標本は U3 で <strong>2.6%</strong>、BIO 4.8%、CASC 18%、AS 29%。残りは人口が閾値まで戻るのを待つ時間で決まる。待ちのない成分（AI、GEN の固定の状態）では手引きが常に縛りだが、もともと 93〜97% の標本で媒体の寿命内に T2 に届いているので、伸びしろが小さい。</li>
+</ul>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>事例は T1 に近い社会への移転</strong>だった。佐賀藩は有田焼の職人、刀鍛冶、鋳工の頭梁、和算家、石見の鉄、そして歳入の4割を出す藩の財政を持っていた。重い崩壊の T0 の集団には当てはまらず、m_base U(1,4) は根拠のない幅である。逆に言えば、本だけの移転はこの好条件でも 3/7 しか意図した水準に届かず、人で移した例の約2.3倍の年数がかかった。</li>
+<li><strong>事例の選び方</strong>：日本の幕末の例は「本しか手に入らなかった」ので本だけの例として残ったもので、人で移した例は成功した会社の記録である（失敗した移民の工場は記事になりにくい）。成功率の差 0.43 対 1.0 は選択で膨らんでいる恐れがある。標本も 7件と 4件で小さい。</li>
+<li><strong>価値の物差し</strong>：054 の価値は「媒体の寿命と 1,000年の窓のうちに金庫を読めるか」だけで、前段の知識が早めるそのほかの利益（人の暮らし、早い回復による別の危険の回避、人口の増え方そのもの）は 0 に数えている。F が小さいのは手引きが役に立たないというより、<strong>この物差しでは人口の待ちが T2 到達を決めている</strong>ためである。</li>
+<li>**thr（閾値を下げる効果）**は本回の事例では確かめていない。閾値を 1/10 にすると F は 1.55 まで上がり、段を縮めるより効く。知識が「技術を維持するのに要る人数」を減らすかどうかは別の問い（新しい問い 155）。それでも 1/100 で 2.08（探索）で、5.0 には届かない。</li>
+<li>この結果は 038 の「重い崩壊では T2 までの時間の 86% が人口待ち」と整合し、040 で T0 手引き PRIM が板の手引きの 1% 程度だったことの理由を、事例の年数を入れても変わらない形で確かめたものである。新しさは、前段を全部の段（d12 を含む）に広げ、年数を 0 にした上限でも結論が動かないことを示した点にある。</li>
+<li>p_early の主の設定と、識字を失っても読めるという置き方は推測で、どちらも手引きに有利な側に置いた。</li>
+</ul>
+<h2 id="_4">新規性</h2>
+<p>Ord や XPT、Dartnell の The Knowledge は「本があれば再建が速くなる」ことを前提か定性で扱う。本回は、本だけで技術を移した幕末の例（7件）と人で移した例（4件）の年数と成否を公開資料から表にし、それを段の年数の倍率として崩壊後の人口の模型に入れ、<strong>段を0年にしても前段の手引きは金庫の価値を 2% しか増やさない</strong>こと、効くのは知識の年数でなく人口の待ちであることを数値で示した。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか</h2>
+<p>手引きの企画者は、読取装置より前の段（約1,370万字）を板に刻む予算を、金庫の読み取りの価値を理由には組まない。読取装置の部分（約160万字）を先に書いて束に入れ、前段は既存の公開の実務書（Gutenberg など）の目録と要約にとどめる。本研究所は 056 の「S_TC を T＋C より上に置く順位は全段を書く場合の条件つき」を、「全段を書く理由は金庫の物差しの外にしかない」に改め、053〜056 の T の主の字数を CH_reader（約160万字）に戻す。重い崩壊で金庫の価値を動かすのは知識の年数ではなく人口の増え方と閾値（040 の GROW・CON、新しい問い 155）である。</p><footer><hr><small>自動生成</small></footer></body></html>
