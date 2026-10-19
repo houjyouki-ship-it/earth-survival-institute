@@ -1,7 +1,8 @@
 """研究052：循環のない分母で深い崩壊の類例を選び直し、S1・S2 と P(h>h*) を出す（143）。
 征服期の符号変化の疑いを CanonDat で確かめる（144）。seed 20261052。ネット不要。"""
-import json, time, os, re
+import json, time, os, re, warnings
 import numpy as np, pandas as pd
+warnings.filterwarnings("ignore", category=RuntimeWarning, message="Mean of empty slice")
 T0 = time.time()
 HERE = os.path.dirname(os.path.abspath(__file__))
 SEED = 20261052
@@ -280,6 +281,10 @@ for name, var, D in SPECS:
     episodes_store[name] = E
     E.to_csv(os.path.join(HERE, f'episodes_{name}.csv'), index=False)
 
+
+def lost_techs(row):
+    return [c for c in S2SET if c in row.index and pd.notna(row[c]) and row[c] == 1.0]
+
 # --- 144: conquest / polity-succession review ---
 # Equinox CanonDat の Value.Note は叙述でなく simple/list/range/uncertain/disputed の種別のみ。
 # 征服の疑いは Polities の End と後継政体名、および TSDat の PolID 切替で記録する。
@@ -416,9 +421,17 @@ R['hypotheses'] = H
 # Policy conclusion
 cyclefree_both_below = bool(pm(d_scale) < HSTAR and pm(d_noinfo) < HSTAR and H['H64e_both_cyclefree_P_lt_0.5']['supported'])
 R['policy'] = {
-    'heavy_collapse_priority': '根拠なし' if cyclefree_both_below else '根拠残存（要解釈）',
+    'heavy_collapse_priority': (
+        '根拠なし' if cyclefree_both_below else
+        '主の循環なし分母（D_scale）では根拠なし；D_noinfo(n=%d)は h>h* だが標本小さく覆さず。総合：優先の頑健な根拠なし' % d_noinfo['n_episodes']
+    ),
     'cyclefree_both_S2_below_hstar': cyclefree_both_below,
-    'recommend_next': '122（避難所と金庫の板の費用）' if cyclefree_both_below else '分母・読みの追加感度または122',
+    'D_scale_S2_below_hstar': bool(pm(d_scale) < HSTAR),
+    'D_noinfo_S2_below_hstar': bool(pm(d_noinfo) < HSTAR),
+    'D_noinfo_n_episodes': int(d_noinfo['n_episodes']),
+    'S2_clean_post_mean': float(s2_clean_stats['post_mean']),
+    'recommend_next': '122（避難所と金庫の板の費用）',
+    'note': '事前登録の厳しい基準（H64e: 両方で P<0.5）は棄却。ただし主候補 D_scale と S2_clean はともに h<h*。',
 }
 
 # Compact main numbers for report

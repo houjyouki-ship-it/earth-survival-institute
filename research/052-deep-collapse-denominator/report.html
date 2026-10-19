@@ -1,0 +1,139 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究052：深い崩壊の類例の選び方（循環なし分母）と征服期の符号（open_problems 143・144） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="052open_problems-143144">研究052：深い崩壊の類例の選び方（循環なし分母）と征服期の符号（open_problems 143・144）</h1>
+<h2 id="_1">要約</h2>
+<p>【事実（出典：本回 results.json）】循環のない主分母 <strong>D_scale</strong>（Scale_MI の規模成分の中央値、Δ≥0.301）では S2 の事後平均 <strong>0.061</strong>、P(h&gt;h*)=<strong>0.160</strong>、A_Ord=<strong>0.00457</strong>（いずれも h*=0.0967 未満）。Info を除いた <strong>D_noinfo</strong>（Δ≥1.0）は episode が8件しかなく S2 事後平均 <strong>0.167</strong>（P=0.66）で h* を超える。循環あり <strong>D_spc</strong> の S2=0.109 は D_scale より大きい（H64d 支持）。征服後継（ウマイヤ朝）への切替で S2 偽陽性と判定した2件を外すと S2_clean=<strong>0.037</strong>。</p>
+<p>【独自仮説の判定】H64a・d・f・g 支持、H64b・c・e 棄却。主の循環なし分母では重い崩壊優先の根拠は立たない。D_noinfo の上振れは小標本で覆さない。</p>
+<h2 id="_2">固定の最優先指示への応答</h2>
+<ul>
+<li><strong>軽い崩壊</strong>：計算機の社会が残る想定では、金庫の価値の過半は軽い側（D_scale の S2 で重い側の寄与 share≈0.47）。</li>
+<li><strong>重い崩壊</strong>：T1・T0 から再出発する割合 h は、循環なしの主分母では h* 未満。優先して重い崩壊での効きを評価する指示は続けるが、**「h&gt;h* だから重い側を優先する」という数量根拠は主分母では根拠なし**と記録する。</li>
+</ul>
+<h2 id="_3">再現チェック</h2>
+<p>【事実】<code>/tmp/rep052/</code> に 048・051 を複製し 051 の <code>sim.py</code> を再実行。results.json は runtime 以外一致（葉 1,093、差分0）。</p>
+<h2 id="2026-10-19t024410z">方法（事前登録 2026-10-19T02:44:10Z）</h2>
+<p>Seshat Equinox-2020。喪失規則は051と同じ。分母：D_pop / D_spc（比較）、D_scale・D_noinfo（循環なし・主）、D_hiergov（感度）。seed 20261052。048 の B_h_scan を線形補間。</p>
+<h2 id="s2">主な数値（S2）</h2>
+<table>
+<thead>
+<tr>
+<th>分母</th>
+<th style="text-align: right;">episodes</th>
+<th style="text-align: right;">k/n</th>
+<th style="text-align: right;">事後平均</th>
+<th style="text-align: right;">P(h&gt;h*)</th>
+<th style="text-align: right;">A_Ord</th>
+<th style="text-align: right;">重い寄与</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D_pop</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">4/66</td>
+<td style="text-align: right;">0.067</td>
+<td style="text-align: right;">0.160</td>
+<td style="text-align: right;">0.00461</td>
+<td style="text-align: right;">0.476</td>
+</tr>
+<tr>
+<td>D_scale（循環なし・主）</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">2/40</td>
+<td style="text-align: right;"><strong>0.061</strong></td>
+<td style="text-align: right;"><strong>0.160</strong></td>
+<td style="text-align: right;"><strong>0.00457</strong></td>
+<td style="text-align: right;">0.471</td>
+</tr>
+<tr>
+<td>D_noinfo（循環なし）</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1/8</td>
+<td style="text-align: right;">0.167</td>
+<td style="text-align: right;">0.664</td>
+<td style="text-align: right;">0.00526</td>
+<td style="text-align: right;">0.549</td>
+</tr>
+<tr>
+<td>D_spc（循環あり）</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">2/22</td>
+<td style="text-align: right;">0.109</td>
+<td style="text-align: right;">0.502</td>
+<td style="text-align: right;">0.00489</td>
+<td style="text-align: right;">0.510</td>
+</tr>
+<tr>
+<td>D_hiergov</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1/15</td>
+<td style="text-align: right;">0.094</td>
+<td style="text-align: right;">0.387</td>
+<td style="text-align: right;">0.00478</td>
+<td style="text-align: right;">0.497</td>
+</tr>
+<tr>
+<td>D_pop S2_clean</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">2/66</td>
+<td style="text-align: right;"><strong>0.037</strong></td>
+<td style="text-align: right;">0.020</td>
+<td style="text-align: right;">0.00441</td>
+<td style="text-align: right;">0.450</td>
+</tr>
+</tbody>
+</table>
+<p>感度：D_scale の閾値0.5→S2=0.089；1.0→0.278（episode8）。D_noinfo 閾値0.5→0.125（n=28）。</p>
+<h2 id="144">144：征服期の符号</h2>
+<p>【事実（出典：Polities・TSDat123）】CanonDat の Value.Note は simple/list/range 等の<strong>種別</strong>のみで征服の叙述はない。Susiana IrSasn2（End 642）の次は Umayyad Caliphate；Upper Egypt TrERom*（End 632）の次も Umayyad。どちらも Court が1→0、Bronze が後に0.1となり S2=1。規則どおり <strong>S2_clean から除外</strong>（残りは Kachi Plain PkUrbn2 と Orkhon MnMngKh）。</p>
+<h2 id="_4">仮説判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H64a D_scale S2 &lt; h*</td>
+<td>0.061 &lt; 0.097</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H64b D_noinfo S2 &lt; h*</td>
+<td>0.167 ≮ 0.097</td>
+<td>棄却</td>
+</tr>
+<tr>
+<td>H64c |scale−noinfo| &lt; 0.05</td>
+<td>0.106</td>
+<td>棄却</td>
+</tr>
+<tr>
+<td>H64d D_spc &gt; D_scale</td>
+<td>0.109 &gt; 0.061</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H64e 両方 P(h&gt;h*)&lt;0.5</td>
+<td>0.16 と 0.66</td>
+<td>棄却</td>
+</tr>
+<tr>
+<td>H64f S2_clean ≤ S2</td>
+<td>0.037 ≤ 0.067</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H64g D_scale A_Ord ∈ 051±15%</td>
+<td>0.00457 / 0.00461 ≈ 0.99</td>
+<td>支持</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">誰が何を変えるべきか</h2>
+<p>研究所の課題選定：重い崩壊を「h&gt;h* だから」優先する根拠は、循環なしの主分母では持たない。次回は両方に効く対策の費用比較（122）に移る。Seshat 利用者：SPC 深い落ち込みを段喪失の分母にすると Info 循環で h が膨らむ。</p>
+<h2 id="_6">新規性</h2>
+<p>体系的標本で「循環のない規模成分」対「Info 除外の複雑さ」対「SPC」を同じ喪失規則で並べ、征服後継による S2 偽陽性を Polities 継承で除外した点。048・051 の選び方の偏り／循環の疑いを同一パイプラインで切り分けた。</p>
+<h2 id="_7">限界</h2>
+<p>D_noinfo（Δ≥1.0）は8 episode のみ。Scale_z は等重み平均で Metadata の PC1 の近似（pc1 感度も算出）。征服除外は名称規則であり、歴史叙述の全文確認ではない。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -766,4 +766,19 @@
 <li>判定：H63a・b・c・d・f 支持、H63e・g 棄却（S2 は h* 未満、A_Ord は 048 の 0.85倍）。</li>
 <li>逸脱：事前登録の後、h* との関係の表・048 との照合（事前登録の外と明記）・図を足して再実行（事前登録の数値は不変）。図の文字の位置を直して再実行。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は A_Ord の主の値を Seshat の S2 の 0.00461 に改め、重い崩壊と軽い崩壊が価値を約半分ずつ持つと書き、固定の最優先指示の根拠 h&gt;h* が主の版で支持されなかったことをユーザーに返す。金庫の作り手は重い崩壊向けの特徴のために軽い崩壊での読み取りやすさを犠牲にしない）。</li>
+</ul>
+<h2 id="52-2026-10-19">第52回 2026-10-19</h2>
+<ul>
+<li>再現チェック：048・051 を <code>/tmp/rep052/</code> に複製し、051 の sim.py（約38秒）を再実行した。results.json は runtime 以外一致（葉 1,093個、差分0）。</li>
+<li>固定の最優先指示（重い崩壊の優先）を続け、next_plan の推奨どおり open_problems 143（深い崩壊の類例の選び方）を主課題、144（征服期の符号）を同回で実施した。</li>
+<li>研究052を実施：<code>research/052-deep-collapse-denominator/</code>（sim.py 約13秒 seed 20261052、計算のみ）。成果物は results.json、stdout.txt、episodes_*.csv、fig_denominators_S2_vs_hstar.png、fig_cycle_vs_nocycle.png、fig_scale_noinfo_sensitivity.png、report.md、PREREGISTRATION.md（02:44:10Z、喪失を数える前）、sources/（xlsx へのリンク、canon_conquest_excerpts.json、polities_succession_excerpts.md）。<code>/tmp/rep052b/</code> で再実行し results.json は runtime 以外一致（葉 1,819個、差分0）。</li>
+<li>方法：051 と同じ喪失規則。分母は D_pop・D_spc（比較）、D_scale（Scale_MI の Pop/Terr/Cap の z 平均の20補完中央値、主閾値0.301）、D_noinfo（Info 除外の7成分 z 平均、主閾値1.0）、D_hiergov（感度）。征服は CanonDat の Value.Note が種別のみのため Polities の End と後継政体名で判定。048 の B_h_scan を線形補間。</li>
+<li>主要数値（S2）：</li>
+<li>D_scale：<strong>2/40</strong> 事後平均 <strong>0.061</strong>、P(h&gt;h*)=<strong>0.160</strong>、A_Ord=<strong>0.00457</strong>（重い寄与 0.471）。</li>
+<li>D_noinfo：1/8 事後平均 0.167、P=0.664、A_Ord=0.00526（n=8）。</li>
+<li>D_spc：2/22 事後平均 0.109 &gt; D_scale（循環で膨らむ）。</li>
+<li>D_pop：4/66 事後平均 0.067（051 と一致）。S2_clean（Susiana IrSasn2・Upper Egypt TrERom* 除外）<strong>2/66 → 0.037</strong>。</li>
+<li>判定：H64a・d・f・g 支持、H64b・c・e 棄却。</li>
+<li>逸脱：なし（政策メモは事前登録の厳しい両分母基準が棄却されたあと、主分母 D_scale と小標本の注記を results に追記）。</li>
+<li>「誰が何を変えるべきか」：記載あり（研究所は重い崩壊を h&gt;h* だから優先する根拠を主の循環なし分母では持たないと記録し、次回は 122 の費用比較へ。Seshat 利用者は SPC 深い落ち込みを段喪失の分母にすると Info 循環で h が膨らむと知る）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -2,106 +2,85 @@
  {
   "NGA": "Crete",
   "PolID": "GrCrNPa",
+  "PolName": "New Palace Crete",
   "t_peak": -1600,
   "t_onset": -1400,
+  "polity_End": -1451,
   "S1": 1.0,
   "S2": 0.0,
   "S4": 0.0,
   "lost_S2_techs": [
    "Script"
   ],
-  "n_canon_hits": 3,
-  "n_conquest_keyword_on_lost_vars": 0,
-  "n_broad_conquest_notes": 0,
-  "suspect_conquest_coding": false,
-  "hits_sample": [
+  "successors": [
    {
-    "Variable": "Written records",
-    "Polity": "GrCrNPa",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Script",
-    "Polity": "GrCrNPa",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Phonetic alphabetic writing",
-    "Polity": "GrCrNPa",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
+    "PolID": "GrCrMPa",
+    "PolName": "Monopalatial Crete",
+    "Start": -1450,
+    "End": -1301
    }
   ],
-  "broad_sample": []
+  "next_TSDat_PolIDs": [
+   "GrCrNPa",
+   "GrCrMPa",
+   "GrCrPPa"
+  ],
+  "successor_conquest_name": false,
+  "end_near_onset": false,
+  "suspect_conquest_coding": false,
+  "Value.Note_types": {
+   "simple": 90,
+   "list": 2,
+   "range": 2
+  },
+  "Date.Note_samples": [],
+  "evidence": "Polities Start/End + successor PolName; CanonDat Value.Note is coding-type only (not narrative)"
  },
  {
   "NGA": "Cuzco",
   "PolID": "PeWari*",
+  "PolName": "Wari Empire",
   "t_peak": 800,
   "t_onset": 1000,
+  "polity_End": 999,
   "S1": null,
   "S2": 0.0,
   "S4": 1.0,
   "lost_S2_techs": [
    "Road"
   ],
-  "n_canon_hits": 2,
-  "n_conquest_keyword_on_lost_vars": 0,
-  "n_broad_conquest_notes": 0,
-  "suspect_conquest_coding": false,
-  "hits_sample": [
+  "successors": [
    {
-    "Variable": "Roads",
-    "Polity": "PeWari*",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Moralizing norms are broad",
-    "Polity": "PeWari*",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "inferred absent",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
+    "PolID": "PeCuzL1",
+    "PolName": "Cuzco - Late Intermediate I",
+    "Start": 1000,
+    "End": 1249
    }
   ],
-  "broad_sample": []
+  "next_TSDat_PolIDs": [
+   "PeWari*",
+   "PeCuzL1",
+   "PeCuzL1"
+  ],
+  "successor_conquest_name": false,
+  "end_near_onset": true,
+  "suspect_conquest_coding": false,
+  "Value.Note_types": {
+   "simple": 117,
+   "list": 10,
+   "range": 5,
+   "disputed": 2
+  },
+  "Date.Note_samples": [],
+  "evidence": "Polities Start/End + successor PolName; CanonDat Value.Note is coding-type only (not narrative)"
  },
  {
   "NGA": "Kachi Plain",
   "PolID": "PkUrbn2",
+  "PolName": "Kachi Plain - Urban Period II",
   "t_peak": -2000,
   "t_onset": -1800,
+  "polity_End": -1801,
   "S1": 1.0,
   "S2": 1.0,
   "S4": 0.0,
@@ -111,91 +90,38 @@
    "Road",
    "Bronze"
   ],
-  "n_canon_hits": 7,
-  "n_conquest_keyword_on_lost_vars": 0,
-  "n_broad_conquest_notes": 0,
-  "suspect_conquest_coding": false,
-  "hits_sample": [
+  "successors": [
    {
-    "Variable": "Full-time bureaucrats",
-    "Polity": "PkUrbn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Roads",
-    "Polity": "PkUrbn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Written records",
-    "Polity": "PkUrbn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Script",
-    "Polity": "PkUrbn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Phonetic alphabetic writing",
-    "Polity": "PkUrbn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "inferred absent",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Bronze",
-    "Polity": "PkUrbn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "inferred present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
+    "PolID": "PkPostU",
+    "PolName": "Kachi Plain - Post-Urban Period",
+    "Start": -1800,
+    "End": -1301
    }
   ],
-  "broad_sample": []
+  "next_TSDat_PolIDs": [
+   "PkUrbn2",
+   "PkPostU",
+   "PkPostU"
+  ],
+  "successor_conquest_name": false,
+  "end_near_onset": true,
+  "suspect_conquest_coding": false,
+  "Value.Note_types": {
+   "simple": 107,
+   "list": 12,
+   "uncertain": 10,
+   "range": 5
+  },
+  "Date.Note_samples": [],
+  "evidence": "Polities Start/End + successor PolName; CanonDat Value.Note is coding-type only (not narrative)"
  },
  {
   "NGA": "Orkhon Valley",
   "PolID": "MnMngKh",
+  "PolName": "Mongol Empire",
   "t_peak": 1300,
   "t_onset": 1400,
+  "polity_End": 1300,
   "S1": 0.0,
   "S2": 1.0,
   "S4": 0.0,
@@ -203,55 +129,38 @@
    "FullTBur",
    "IndigCoin"
   ],
-  "n_canon_hits": 3,
-  "n_conquest_keyword_on_lost_vars": 0,
-  "n_broad_conquest_notes": 0,
-  "suspect_conquest_coding": false,
-  "hits_sample": [
+  "successors": [
    {
-    "Variable": "Full-time bureaucrats",
-    "Polity": "MnMngKh",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Foreign coins",
-    "Polity": "MnMngKh",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Indigenous coins",
-    "Polity": "MnMngKh",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
+    "PolID": "MnMongL",
+    "PolName": "Late Mongols",
+    "Start": 1368,
+    "End": 1689
    }
   ],
-  "broad_sample": []
+  "next_TSDat_PolIDs": [
+   "MnMongL",
+   "MnMongL",
+   "MnMongL"
+  ],
+  "successor_conquest_name": false,
+  "end_near_onset": false,
+  "suspect_conquest_coding": false,
+  "Value.Note_types": {
+   "simple": 112,
+   "list": 15
+  },
+  "Date.Note_samples": [
+   "range"
+  ],
+  "evidence": "Polities Start/End + successor PolName; CanonDat Value.Note is coding-type only (not narrative)"
  },
  {
   "NGA": "Susiana",
   "PolID": "IrSasn2",
+  "PolName": "Sasanid Empire II",
   "t_peak": 600,
   "t_onset": 700,
+  "polity_End": 642,
   "S1": 0.0,
   "S2": 1.0,
   "S4": 0.0,
@@ -259,43 +168,40 @@
    "Court",
    "Bronze"
   ],
-  "n_canon_hits": 2,
-  "n_conquest_keyword_on_lost_vars": 0,
-  "n_broad_conquest_notes": 0,
-  "suspect_conquest_coding": false,
-  "hits_sample": [
+  "successors": [
    {
-    "Variable": "Courts",
-    "Polity": "IrSasn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "inferred present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Bronze",
-    "Polity": "IrSasn2",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "inferred present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
+    "PolID": "SyCalUm",
+    "PolName": "Umayyad Caliphate",
+    "Start": 663,
+    "End": 749
    }
   ],
-  "broad_sample": []
+  "next_TSDat_PolIDs": [
+   "SyCalUm",
+   "IqAbbs1",
+   "IqAbbs1"
+  ],
+  "successor_conquest_name": true,
+  "end_near_onset": false,
+  "suspect_conquest_coding": true,
+  "Value.Note_types": {
+   "simple": 123,
+   "list": 16,
+   "range": 5,
+   "disputed": 4
+  },
+  "Date.Note_samples": [
+   "range"
+  ],
+  "evidence": "Polities Start/End + successor PolName; CanonDat Value.Note is coding-type only (not narrative)"
  },
  {
   "NGA": "Upper Egypt",
   "PolID": "TrERom*",
+  "PolName": "East Roman Empire",
   "t_peak": 500,
   "t_onset": 700,
+  "polity_End": 632,
   "S1": 0.0,
   "S2": 1.0,
   "S4": 0.0,
@@ -303,84 +209,24 @@
    "Court",
    "Bronze"
   ],
-  "n_canon_hits": 53,
-  "n_conquest_keyword_on_lost_vars": 0,
-  "n_broad_conquest_notes": 0,
-  "suspect_conquest_coding": false,
-  "hits_sample": [
+  "successors": [
    {
-    "Variable": "Courts",
-    "Polity": "EgAyyub",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Bronze",
-    "Polity": "EgAyyub",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "present",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Courts",
-    "Polity": "EgBadar",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "inferred absent",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Bronze",
-    "Polity": "EgBadar",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "absent",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Courts",
-    "Polity": "EgDyn1*",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "inferred absent",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
-   },
-   {
-    "Variable": "Bronze",
-    "Polity": "EgDyn1*",
-    "Date.From": null,
-    "Date.To": null,
-    "Fact.Type": "simple",
-    "Value.From": "absent",
-    "Value.To": null,
-    "Value.Note": "simple",
-    "Date.Note": "",
-    "conquest_keyword": false
+    "PolID": "SyCalUm",
+    "PolName": "Umayyad Caliphate",
+    "Start": 661,
+    "End": 749
    }
   ],
-  "broad_sample": []
+  "next_TSDat_PolIDs": [
+   "TrERom*",
+   "SyCalUm",
+   "IqAbbs1"
+  ],
+  "successor_conquest_name": true,
+  "end_near_onset": false,
+  "suspect_conquest_coding": true,
+  "Value.Note_types": {},
+  "Date.Note_samples": [],
+  "evidence": "Polities Start/End + successor PolName; CanonDat Value.Note is coding-type only (not narrative)"
  }
 ]

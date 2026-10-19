@@ -1,40 +1,20 @@
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
-/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
-  out = np.nanmean(A, axis=1)
+seed 20261052 hstar 0.09668949822886906
+D_pop: eps=73 S2=[4, 66] post=0.0672 P(h>h*)=0.160 A_Ord=0.00461 share_heavy=0.476 S1=0.0431
+D_spc: eps=22 S2=[2, 22] post=0.1087 P(h>h*)=0.502 A_Ord=0.00489 share_heavy=0.510 S1=0.1136
+D_scale: eps=45 S2=[2, 40] post=0.0610 P(h>h*)=0.160 A_Ord=0.00457 share_heavy=0.471 S1=0.0735
+D_noinfo: eps=8 S2=[1, 8] post=0.1667 P(h>h*)=0.664 A_Ord=0.00526 share_heavy=0.549 S1=0.1667
+D_hiergov: eps=15 S2=[1, 15] post=0.0938 P(h>h*)=0.387 A_Ord=0.00478 share_heavy=0.497 S1=0.0938
+D_scale_D0.5: eps=29 S2=[2, 27] post=0.0893 P(h>h*)=0.368 A_Ord=0.00475 share_heavy=0.494 S1=0.1136
+D_scale_D1.0: eps=8 S2=[2, 8] post=0.2778 P(h>h*)=0.918 A_Ord=0.00601 share_heavy=0.613 S1=0.3125
+D_noinfo_D0.5: eps=28 S2=[3, 27] post=0.1250 P(h>h*)=0.630 A_Ord=0.00499 share_heavy=0.521 S1=0.1000
+S2_clean {'k': 2, 'n': 66, 'point': 0.030303030303030304, 'post_mean': 0.03731343283582089, 'post_q05_50_95': [0.008840312720395363, 0.032425178622363396, 0.08131039081872946], 'value': {'A_Ord': {'h_mean': 0.03733073060046022, 'total': 0.004409396966074511, 'from_heavy': 0.001983038745146773, 'share_from_heavy': 0.4497301468668139, 'ratio_to_U3': 0.5759630816131788, 'heavy_prob': 0.05540872765774511, 'P_h_gt_hstar': 0.02125}, 'A_XPT_S': {'h_mean': 0.03733073060046022, 'total': 0.011961335458738008, 'from_heavy': 0.00288835685292824, 'share_from_heavy': 0.2414744459673384, 'ratio_to_U3': 0.9626082676072021, 'heavy_prob': 0.0670151229148347, 'P_h_gt_hstar': None}}, 'P_h_gt_hstar': 0.02}
+excluded [{'NGA': 'Susiana', 'PolID': 'IrSasn2', 't_peak': 600}, {'NGA': 'Upper Egypt', 'PolID': 'TrERom*', 't_peak': 500}]
+H64a_D_scale_S2_lt_hstar {'value': 0.06097560975609756, 'hstar': 0.09668949822886906, 'supported': True}
+H64b_D_noinfo_S2_lt_hstar {'value': 0.16666666666666666, 'hstar': 0.09668949822886906, 'supported': False}
+H64c_abs_diff_scale_noinfo_lt_0.05 {'value': 0.1056910569105691, 'supported': False}
+H64d_D_spc_S2_gt_D_scale_S2 {'value': [0.10869565217391304, 0.06097560975609756], 'supported': True}
+H64e_both_cyclefree_P_lt_0.5 {'value': {'D_scale': 0.15965, 'D_noinfo': 0.6645}, 'supported': False}
+H64f_S2_clean_le_S2 {'value': [0.03731343283582089, 0.06716417910447761], 'supported': True}
+H64g_D_scale_A_Ord_within_15pct_of_051 {'value': 0.004565898258541251, 'ref': 0.00461, 'ratio': 0.9904334617226139, 'supported': True}
+policy {'heavy_collapse_priority': '主の循環なし分母（D_scale）では根拠なし；D_noinfo(n=8)は h>h* だが標本小さく覆さず。総合：優先の頑健な根拠なし', 'cyclefree_both_S2_below_hstar': False, 'D_scale_S2_below_hstar': True, 'D_noinfo_S2_below_hstar': False, 'D_noinfo_n_episodes': 8, 'S2_clean_post_mean': 0.03731343283582089, 'recommend_next': '122（避難所と金庫の板の費用）', 'note': '事前登録の厳しい基準（H64e: 両方で P<0.5）は棄却。ただし主候補 D_scale と S2_clean はともに h<h*。'}
+runtime 13.48699140548706
