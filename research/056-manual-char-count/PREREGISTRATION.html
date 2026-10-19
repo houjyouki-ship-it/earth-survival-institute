@@ -1,0 +1,39 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究056（open_problems 151：T の字数） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="056open_problems-151t">事前登録：研究056（open_problems 151：T の字数）</h1>
+<p>記録時刻：2026-10-19T10:51Z（Gutenberg 本文の字数を数えた後、sim.py の作成・実行の前）</p>
+<h2 id="_1">問い</h2>
+<p>板の手引き T の字数を、実在の実務書・教科書の字数（Project Gutenberg の本文を数えた値）から段ごとに積み上げると、053 の 1e7〜1e8 字と 024 の g_req 0.725e6〜8.9e6 字のどちらに近いか。どちらを使うかで T＋C と S_TC｜T＋C の費用あたりの順位は変わるか。</p>
+<h2 id="sourcesgutenberg_countsjsonure_stage_countsjson">既に分かっていること（数え終えた字数、<code>sources/gutenberg_counts.json</code>・<code>ure_stage_counts.json</code>）</h2>
+<p>段ごとに「簡潔（Ure の項目の合計か最小の専門書）」と「全部（専門書の合計）」の2点を置く。
+| 段 | 簡潔（字） | 全部（字） | 使う本（PG 番号） |
+|---|---|---|---|
+| 金属（採鉱・製錬・鉄） | Ure 金属項目 550,284 | De Re Metallica 1,819,743 | 44562, 38015 |
+| ガラス | Ure ガラス項目 130,708 | 130,708＋96,257＋107,382＋170,513 | 44562, 30066, 32962, 55266 |
+| レンズ・鏡 | Draper 171,654 | 171,654＋154,429＋511,551 | 53542, 53494, 53740 |
+| 化学 | Ure 化学項目 353,035 | 353,035＋645,173＋405,324 | 44562, 30775, 21724 |
+| 電気 | 233,580 | 233,580＋266,761＋255,313＋1,372,547 | 22766, 27257, 39053, 14986 |
+| 機械（旋盤・原動機） | 124,227 | 599,815＋698,290 | 48179, 60819, 56776 |
+| 窯業・建材 | Ure 113,694 | 113,694＋202,883 | 44562, 38248 |
+| 読取装置（真空管・無線・電話） | 386,047 | 386,047＋294,551＋773,550＋685,280 | 6934, 38526, 15617, 33437 |
+| 医療 | 91,007 | 352,367＋1,201,977 | 48929, 26718, 17921 |
+| 農業 | 371,074 | 371,074＋513,936＋250,156 | 48753, 35696, 20168 |
+総覧の目安：Ure 全体 6,363,989、Henley 3,362,202。</p>
+<h2 id="_2">模型（【推測】の分布）</h2>
+<ul>
+<li>段の字数 c_s ~ logU(簡潔, 全部)、段の間は独立。</li>
+<li>暗黙知の倍率 m_tacit ~ logU(1, 3)（当時の読者が持っていた前提知識と図の説明を書き足す分）。</li>
+<li>抜けた段の倍率 m_cover ~ logU(1, 2)（10段に入らない技術：繊維、皮、紙、印刷、測量など）。</li>
+<li>CH_heavy = Σ_s c_s × m_tacit × m_cover（主）。CH_reader = c_読取 × m_tacit（価値の模型が T に払う分だけ）。CH_comp = logU(3,362,202, 6,363,989+3,362,202) × m_tacit。比較：CH_053 = logU(1e7,1e8)、CH_greq = logU(0.725e6, 8.9e6)。</li>
+<li>費用と CE：055 の sim.py を「# ---------- 仮説」の前まで exec し、cost_T の字数だけを差し替える。$/字は V_mix（主）と V_orig・V_comp。価値は 054 のまま（T の価値は読取装置の道だけに払う）。</li>
+<li>費用の釣り合い：T＋C の 1ドルあたりの価値が CH_reader と同じになるのに、CH_heavy の読取装置より前の段が T＋C の価値を何倍にする必要があるか（中央値の C_TC の比）。</li>
+</ul>
+<h2 id="resultsjson">仮説（判定は results.json の中央値）</h2>
+<ul>
+<li>H68a：CH_heavy の中央値は 1e7〜1e8 の中にある。</li>
+<li>H68b：CH_reader の 5〜95% は g_req の範囲 [0.725e6, 8.9e6] の中にある。</li>
+<li>H68c：CH_heavy の中央値は CH_053 の中央値（3.16e7）より小さい。</li>
+<li>H68d：CH_heavy・V_mix で CE(S_TC｜T＋C) &gt; CE(T＋C) &gt; 1（A_Ord・U3 と A_XPT_S・U2 の両方）。</li>
+<li>H68e：CH_reader・V_mix の A_Ord・U3 で CE(T＋C) &gt; CE(S_TC｜T＋C)（055 の g_req での入れ替わりの再現）。</li>
+<li>H68f：CH_heavy のうち読取装置より前の段（金属、ガラス、レンズ、化学、電気、機械、窯業）の字数の割合の中央値 &gt; 0.5。</li>
+<li>H68g：CH_comp の中央値と CH_heavy の中央値の比は 1/3〜3。</li>
+<li>H68h：重い崩壊だけの CE で、CH_heavy・V_mix の S_TC｜T＋C &gt; 1（両方）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

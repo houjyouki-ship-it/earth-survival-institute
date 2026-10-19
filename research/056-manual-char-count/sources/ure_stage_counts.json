@@ -1,0 +1,180 @@
+{
+ "n_articles": 1362,
+ "total_chars": 6347460,
+ "stages": {
+  "Fe_metal": {
+   "chars": 550284,
+   "n": 28,
+   "top": [
+    [
+     "IRON",
+     129768
+    ],
+    [
+     "COPPER",
+     86952
+    ],
+    [
+     "LEAD",
+     80443
+    ],
+    [
+     "ASSAY",
+     58288
+    ],
+    [
+     "TIN",
+     47432
+    ],
+    [
+     "STEEL",
+     33041
+    ],
+    [
+     "METALLURGY",
+     27954
+    ],
+    [
+     "COPPER",
+     12102
+    ]
+   ]
+  },
+  "glass": {
+   "chars": 130708,
+   "n": 4,
+   "top": [
+    [
+     "GLASS-MAKING",
+     107686
+    ],
+    [
+     "GLASS CUTTING AND GRINDING",
+     12980
+    ],
+    [
+     "GLASS",
+     7200
+    ],
+    [
+     "BOTTLE MANUFACTURE",
+     2842
+    ]
+   ]
+  },
+  "lens_optics": {
+   "chars": 4174,
+   "n": 2,
+   "top": [
+    [
+     "SILVERING",
+     4104
+    ],
+    [
+     "SPECULUM METAL",
+     70
+    ]
+   ]
+  },
+  "chem": {
+   "chars": 353035,
+   "n": 32,
+   "top": [
+    [
+     "BLEACHING",
+     82126
+    ],
+    [
+     "GUNPOWDER",
+     46093
+    ],
+    [
+     "SOAP",
+     42584
+    ],
+    [
+     "CHLORINE",
+     34412
+    ],
+    [
+     "SULPHURIC ACID",
+     32353
+    ],
+    [
+     "SALT",
+     28813
+    ],
+    [
+     "SODA",
+     23272
+    ],
+    [
+     "ALUM",
+     19989
+    ]
+   ]
+  },
+  "elec": {
+   "chars": 123,
+   "n": 1,
+   "top": [
+    [
+     "MAGNET",
+     123
+    ]
+   ]
+  },
+  "mach": {
+   "chars": 14222,
+   "n": 3,
+   "top": [
+    [
+     "MACHINE",
+     11604
+    ],
+    [
+     "MILL-STONE",
+     2479
+    ],
+    [
+     "MILL-STONE",
+     139
+    ]
+   ]
+  },
+  "ceramic_build": {
+   "chars": 113694,
+   "n": 7,
+   "top": [
+    [
+     "PORCELAIN",
+     70305
+    ],
+    [
+     "BRICK",
+     26253
+    ],
+    [
+     "MORTAR",
+     8711
+    ],
+    [
+     "POTTERY",
+     7890
+    ],
+    [
+     "KILN",
+     432
+    ],
+    [
+     "PORCELAIN",
+     81
+    ],
+    [
+     "PORCELAIN",
+     22
+    ]
+   ]
+  }
+ }
+}

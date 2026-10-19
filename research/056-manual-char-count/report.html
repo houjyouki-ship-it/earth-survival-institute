@@ -1,0 +1,134 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究056：板の手引き T の字数を、実在の実務書の字数から段ごとに積み上げる（open_problems 151） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="056-t-open_problems-151">研究056：板の手引き T の字数を、実在の実務書の字数から段ごとに積み上げる（open_problems 151）</h1>
+<h2 id="_1">問い</h2>
+<p>053〜055 は T の字数を 1e7〜1e8 字（012 の仮定）とし、024 の g_req（読取装置を作る手引き 0.725e6〜8.9e6 字）とは約14倍食い違っていた。055 では g_req の字数だと A_Ord で T＋C が S_TC｜T＋C を上回り、順位が入れ替わった。実在の実務書の字数を数えて段ごとに積み上げると、T は何字か。順位はどちらになるか。重い崩壊と軽い崩壊で違うか。</p>
+<h2 id="_2">確認した事実</h2>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>34冊の本文の字数（空白の連続を1字にして数えた）。主なもの：De Re Metallica（Hoover 訳）1,819,743、Ure の Dictionary of Arts, Manufactures and Mines 6,363,989、Henley's Twentieth Century Formulas 3,362,202、Draper の銀引きガラスの望遠鏡の作り方 171,654、Lavoisier の Elements of Chemistry 645,173、Electricity for Boys 233,580、Faraday の Experimental Researches 第1巻 1,372,547、The Radio Amateur's Hand Book 386,047、Manual of the Hand Lathe 124,227、Backwoods Surgery &amp; Medicine 91,007</td>
+<td>【事実（計算：<a href="https://www.gutenberg.org/">Project Gutenberg</a> の本文を <code>sources/count_texts.py</code> で数えた。<code>gutenberg_counts.json</code>、各ファイルの SHA256 は <code>SHA256SUMS.txt</code>）】</td>
+</tr>
+<tr>
+<td>Ure の辞書の項目を段ごとに合計：金属 550,284（28項目、IRON 129,768 など）、ガラス 130,708（GLASS-MAKING 107,686 など）、化学 353,035、窯業・建材 113,694。電気は 123字（1840年代の本でほぼ無い）</td>
+<td>【事実（計算・近似：<code>sources/ure_articles.py</code>。見出し語の判定は正規表現で、取りこぼした見出しの字数は前の項目に入る）】</td>
+</tr>
+<tr>
+<td>Amateur Telescope Making の初版は 102頁、1980年の最終版は 510頁</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Amateur_Telescope_Making">Wikipedia: Amateur Telescope Making</a>）】</td>
+</tr>
+<tr>
+<td>Open Source Ecology の GVCS は「小さな文明を作るのに要る 50種の機械」で、2014年に 12種が試作、4種が文書化の段に達した</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Open_Source_Ecology">Wikipedia: Open Source Ecology</a>）】</td>
+</tr>
+<tr>
+<td>De Re Metallica の 292枚の木版画と機械の詳しい記述は、当時の採鉱技術を真似る人の実用の参考書になった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/De_re_metallica">Wikipedia: De re metallica</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p><code>sources/excerpts.json</code> の7件は <code>verify_excerpts.py</code> で保存した本文と照合し、すべて一致した。The Knowledge（Dartnell）と Machinery's Handbook の Wikipedia も取得したが、頁数や字数は書かれておらず使っていない。Where There Is No Doctor は本文を数えていない。</p>
+<h2 id="simpyseed-2026105628">方法（<code>sim.py</code>、seed 20261056、約28秒、ネット接続なし）</h2>
+<ul>
+<li>事前登録：<code>PREREGISTRATION.md</code>（<strong>2026-10-19T10:51Z</strong>、字数を数えた後、sim.py の作成の前）。</li>
+<li>055 の sim.py を仮説の節の前まで exec し、055 の main_chars（葉 645個）を<strong>差0で再現</strong>した。そのうえで cost_T の字数だけを差し替えた。</li>
+<li>10段（金属、ガラス、レンズ、化学、電気、機械、窯業、読取装置、医療、農業）ごとに「簡潔（Ure の項目か最小の専門書）」と「全部（専門書の合計）」を置き、c_s ~ logU(簡潔, 全部)。暗黙知の倍率 m_tacit ~ logU(1,3)、抜けた段の倍率 m_cover ~ logU(1,2)（どちらも【推測】）。</li>
+<li>字数の版：<strong>CH_heavy</strong>＝Σc_s×m_tacit×m_cover（重い崩壊向けの全段）、<strong>CH_reader</strong>＝c_読取×m_tacit（054 の価値の模型が T に払う読取装置の道だけ）、CH_comp（Henley〜Henley＋Ure×m_tacit）、CH_053、CH_greq。$/字は 055 の V_mix（主）、V_orig、V_comp。</li>
+<li>字数を固定して走査し、T＋C と S_TC｜T＋C の CE の中央値が等しくなる字数を求めた。</li>
+<li>再現：<code>/tmp/rep056b/</code> で再実行し results.json は runtime 以外一致（葉 1,723個、差分0）、図3枚の MD5 も一致。</li>
+</ul>
+<h2 id="_3">事前登録した仮説と判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>内容</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H68a</td>
+<td>CH_heavy の中央値が 1e7〜1e8</td>
+<td><strong>1,525万字</strong></td>
+<td><strong>支持</strong>（下端に近い）</td>
+</tr>
+<tr>
+<td>H68b</td>
+<td>CH_reader の 5〜95% が g_req の範囲内</td>
+<td>60万〜417万字（5% 点が 72.5万を下回る）</td>
+<td><strong>棄却</strong>（下に少しはみ出す）</td>
+</tr>
+<tr>
+<td>H68c</td>
+<td>CH_heavy の中央値 &lt; CH_053 の中央値</td>
+<td>1,525万 対 3,177万</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H68d</td>
+<td>CH_heavy・V_mix で S_TC &gt; T＋C &gt; 1（両方）</td>
+<td>A_Ord 6.9 &gt; 2.33 &gt; 1、A_XPT_S 15.5 &gt; 2.33 &gt; 1</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H68e</td>
+<td>CH_reader・V_mix・A_Ord で T＋C &gt; S_TC</td>
+<td><strong>1.30 対 0.72</strong>（P(T＋C が上)=0.69）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H68f</td>
+<td>読取装置より前の段の割合 &gt; 0.5</td>
+<td><strong>0.65</strong>（0.51〜0.78）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H68g</td>
+<td>CH_comp／CH_heavy が 1/3〜3</td>
+<td>0.65</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H68h</td>
+<td>重い崩壊だけで CH_heavy の S_TC &gt; 1（両方）</td>
+<td>3.44、2.55</td>
+<td><strong>支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li><strong>段の字数の合計</strong>：簡潔で <strong>253万字</strong>、全部で <strong>1,314万字</strong>。中央値の割合は金属 16%、読取装置 15%、電気 12%、化学 11%、農業 11%、医療・レンズ・機械 6〜7%、ガラス 4%、窯業 3%。</li>
+<li><strong>T の字数（中央値と 5〜95%）</strong>：CH_heavy <strong>1,525万</strong>（776万〜2,984万）、CH_reader <strong>158万</strong>（60万〜417万）、CH_comp 991万（474万〜2,072万）、CH_053 3,177万、CH_greq 255万。
+  【独自仮説→支持】重い崩壊に要る全段の手引きは <strong>約1,500万字</strong>で、053 の範囲の下端（中央値の約半分）にある。024 の g_req は読取装置の部分だけの字数として実在の本と合っていた（中央値 158万 対 255万）。二つの数字は食い違いではなく、<strong>違うものを数えていた</strong>。</li>
+<li><strong>T の費用（V_mix、中央値）</strong>：CH_heavy <strong>$258万</strong>（$103万〜677万）、CH_reader <strong>$27万</strong>。</li>
+<li><strong>CE（TAB=1、V_mix、中央値）</strong>：
+  | | A_Ord・U3 全体 | 重い崩壊 | 軽い崩壊 | A_XPT_S・U2 全体 | 重い崩壊 | 軽い崩壊 |
+  |---|---|---|---|---|---|---|
+  | CH_heavy：T＋C | 2.33 | 2.33 | 2.33 | 2.33 | 2.33 | 2.33 |
+  | CH_heavy：S_TC｜T＋C | <strong>6.9</strong> | 3.4 | 10.1 | <strong>15.5</strong> | 2.5 | 19.0 |
+  | CH_reader：T＋C | <strong>1.30</strong> | 1.30 | 1.30 | 1.30 | 1.30 | 1.30 |
+  | CH_reader：S_TC｜T＋C | <strong>0.72</strong> | <strong>0.36</strong> | 1.07 | 1.62 | <strong>0.27</strong> | 1.99 |
+  P(T＋C が S_TC より上)：CH_reader の重い崩壊で <strong>0.91</strong>（A_Ord）、<strong>0.96</strong>（A_XPT_S）。CH_heavy の重い崩壊で 0.35、0.46。</li>
+<li><strong>順位が入れ替わる字数</strong>（V_mix、全体）：A_Ord <strong>392万字</strong>、A_XPT_S <strong>86万字</strong>。これより短い T では束 T＋C が南半球の写しより費用あたりに効く。</li>
+<li><strong>費用の釣り合い</strong>：CH_heavy の T＋C が CH_reader と同じ1ドルあたりの価値になるには、読取装置より前の段が T＋C の価値を <strong>5.0倍</strong>（V_orig 5.9、V_comp 3.4）にする必要がある。054 の価値の模型はこの段に何も払っていない。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>数えた本は当時の読者向け</strong>で、前提知識（読み書き、算術、度量衡、道具の名前）を書いていない。m_tacit U(1,3) は根拠のない幅で、上端なら CH_heavy はほぼ 3,000万字になる。逆に 1800〜1920年代の本は今の目で見ると冗長な部分（歴史、宣伝、統計）を含み、要約すれば短くなる。</li>
+<li><strong>段の選び方</strong>は 10段で、繊維・紙・印刷・測量・船などは m_cover U(1,2) に押し込んだ。GVCS の 50種の機械を基準にすれば足りない恐れがある。</li>
+<li><strong>Ure の項目の切り分けは近似</strong>で、取りこぼした見出しは前の項目に入る。De Re Metallica には Hoover の脚注（段落の頭が [n] のもので約 22万字、約12%）と付録が入る。</li>
+<li><strong>図の量は数えていない</strong>。De Re Metallica の 292枚の木版画のように、実務書は図に依る。板に図を刻む費用は 053 以来の単価（字あたり）に入っていない。</li>
+<li><strong>価値の模型の食い違い</strong>：054 の V_ext は T に読取装置の道の分（g_req の被覆）しか払わない。CH_heavy の費用を払いながら価値を読取装置の分しか数えないと、T＋C は過小に、S_TC は過大に評価される。逆に CH_reader の費用で数えると重い崩壊の前段の価値は 0 とみなすことになる。どちらの版が正しいかは、前段の知識が T0→T2 をどれだけ速めるか（新しい問い 153）で決まる。</li>
+</ul>
+<h2 id="_5">新規性</h2>
+<p>Ord や XPT は文明再建の手引きの分量を扱わない。本回は、Project Gutenberg の 34冊の実務書の本文を実際に数え（模型に使ったのは29冊）、段ごとの字数の下限と上限を置いて手引きの字数を積み上げた。053 の 1e7〜1e8 と 024 の g_req は、全段の手引きと読取装置の部分という別のものの字数だったと示し、南半球の写しと束の順位が入れ替わる手引きの長さ（A_Ord 約390万字）を初めて示した。</p>
+<h2 id="_6">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者・手引きの企画者は、手引きを <strong>約150万字の読取装置の部分（まず書き、金庫の束に入れる）</strong> と <strong>約1,500万字の全段の部分</strong> に分けて予算を組む。読取装置の部分だけなら、南半球への写し（約 $60万）より束そのものを先に作る方が費用あたりに効き、重い崩壊ではその差が大きい（P 0.91〜0.96）。本研究所は 053〜055 の T の字数を CH_heavy（約1,500万字）に改め、054 の価値の模型に前段の知識の価値を入れる（153）まで、S_TC を T＋C より上に置く順位は「全段を書く場合」の条件つきと記録する。</p><footer><hr><small>自動生成</small></footer></body></html>

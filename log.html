@@ -834,4 +834,20 @@
 <li>判定：H67a〜h すべて支持（H67b・d・e はぎりぎり、H67e は実質同等）。</li>
 <li>逸脱：なし。</li>
 <li>「誰が何を変えるべきか」：記載あり（手引きの企画者は T の予算を1字 $0.1〜0.3 で組み、CC の既存の教科書の要約で原文の割合を下げる。南半球には S_TC を主に置き、ほぼ無料の豪州での出版と法定納本を足す。本研究所は生産性の未知を閉じ、次は T の字数 151 へ）。</li>
+</ul>
+<h2 id="56-2026-10-19">第56回 2026-10-19</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053〜055 を <code>/tmp/rep056/</code> に複製し、055 の sim.py（約21秒）を再実行した。results.json は runtime 以外一致（葉 1,399個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 151（T の字数）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Project Gutenberg の目録（pg_catalog.csv.gz）と本文 34冊（De Re Metallica、Ure の Dictionary of Arts, Manufactures and Mines、Henley's Formulas、Draper、Calver、Bell、Lavoisier、石鹸の2冊、Electricity for Boys、Electricity for the farm、Electric Bells、Faraday 第1巻、旋盤の2冊、原動機、陶芸、Radio Amateur's Hand Book、Fleming、Cyclopedia of Telephony 2巻、医療3冊、農業3冊、ガラス吹き3冊ほか）。Wikipedia（MediaWiki API）の Amateur Telescope Making、Open Source Ecology、De re metallica、Britannica 11版、Where There Is No Doctor。sources/excerpts.json の7件は保存本文と照合しすべて一致。The Knowledge・Machinery's Handbook・Foxfire の Wikipedia も取得したが数字がなく使っていない。gutendex の API は応答がなく使えなかった。</li>
+<li>研究056を実施：<code>research/056-manual-char-count/</code>（sim.py 約28秒 seed 20261056、計算のみ）。成果物は results.json、stdout.txt、fig_char_distributions.png、fig_ce_vs_chars.png、fig_stage_anchors.png、report.md、PREREGISTRATION.md（10:51Z、字数を数えた後・sim.py の作成の前）、sources/（本文、count_texts.py、ure_articles.py、gutenberg_counts.json、ure_stage_counts.json、SHA256SUMS.txt、excerpts.json、verify_excerpts.py）。<code>/tmp/rep056b/</code> で再実行し results.json は runtime 以外一致（葉 1,723個、差分0）、図3枚の MD5 も一致。</li>
+<li>方法：055 の sim.py を仮説の節の前まで exec し main_chars を差0で再現（葉 645個）。10段ごとに簡潔（Ure の項目か最小の専門書）〜全部（専門書の合計）の logU、暗黙知 m_tacit logU(1,3)、抜けた段 m_cover logU(1,2)（推測）。版は CH_heavy（全段）、CH_reader（読取装置の部分×m_tacit）、CH_comp、CH_053、CH_greq。字数を固定した走査で T＋C と S_TC の入れ替わりを求めた。</li>
+<li>主要数値：</li>
+<li>段の合計：簡潔 <strong>253万字</strong>、全部 <strong>1,314万字</strong>。読取装置より前の段の割合 <strong>0.65</strong>。</li>
+<li>CH_heavy <strong>1,525万字</strong>（776万〜2,984万）、CH_reader <strong>158万</strong>（60万〜417万）、CH_comp 991万。T の費用（V_mix）$258万／$27万。</li>
+<li>CE（V_mix、A_Ord／A_XPT_S）：CH_heavy で S_TC <strong>6.9／15.5</strong>、T＋C 2.33。CH_reader で S_TC <strong>0.72／1.62</strong>、T＋C <strong>1.30</strong>。重い崩壊だけ：CH_reader で S_TC 0.36／0.27、P(T＋C が上) <strong>0.91／0.96</strong>。CH_heavy で S_TC 3.4／2.5。</li>
+<li>入れ替わる字数：A_Ord <strong>392万字</strong>、A_XPT_S <strong>86万字</strong>。全段を書く費用の釣り合いには前段が T＋C の価値を <strong>5.0倍</strong>（V_orig 5.9、V_comp 3.4）にする必要がある。</li>
+<li>判定：H68a・c・d・e・f・g・h 支持、H68b 棄却（CH_reader の 5% 点 60万が g_req の下端 72.5万を下回る）。</li>
+<li>逸脱：なし（報告の本の冊数を初稿の 33 から 34 に直した）。</li>
+<li>「誰が何を変えるべきか」：記載あり（手引きの企画者は約150万字の読取装置の部分を先に書いて束に入れ、約1,500万字の全段は前段の価値が確かめられてから。本研究所は T の字数を CH_heavy に改め、S_TC を T＋C より上に置く順位は全段を書く場合の条件つきと記録し、次は前段の知識の価値 153 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

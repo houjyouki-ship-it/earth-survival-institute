@@ -1,0 +1,308 @@
+{
+ "14986": {
+  "title": "Experimental Researches in Electricity, Volume 1",
+  "chars": 1372547,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 6,
+  "fig_refs": 3,
+  "sha256": "dd700383c51cdc7abba2e00df1fc909fc101c4d901b476e3007454364d22eab1",
+  "markers_found": true
+ },
+ "15617": {
+  "title": "Cyclopedia of Telephony and Telegraphy, Vol. 1",
+  "chars": 773550,
+  "chars_footnote_blocks": 109,
+  "illustration_markers": 330,
+  "fig_refs": 747,
+  "sha256": "edf28bbf10c747acbb93c3801327d07d7ea46aa02f30ebcbdfcdb9eaa5778939",
+  "markers_found": true
+ },
+ "17921": {
+  "title": "Manual of Surgery Volume First: General Surgery. Sixth Edition.",
+  "chars": 1201977,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 168,
+  "fig_refs": 150,
+  "sha256": "795cccb36f6789f8a15f6392769b3f1415d568c8bf87706b751caae5327a25d4",
+  "markers_found": true
+ },
+ "20168": {
+  "title": "Guano: A Treatise of Practical Information for Farmers",
+  "chars": 250156,
+  "chars_footnote_blocks": 141,
+  "illustration_markers": 1,
+  "fig_refs": 0,
+  "sha256": "659e576e2fb7ed17f68f3f70315f4e2bc6a30295f5c0b12f7b801b80bc201ab5",
+  "markers_found": true
+ },
+ "21724": {
+  "title": "The handbook of soap manufacture",
+  "chars": 405324,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 27,
+  "fig_refs": 26,
+  "sha256": "72438b6f3bf2c93d921013e484ec9f4df930e184a8ba1cee519651943740d6b9",
+  "markers_found": true
+ },
+ "22766": {
+  "title": "Electricity for Boys",
+  "chars": 233580,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 108,
+  "fig_refs": 134,
+  "sha256": "f6b67a89976bfb0ffaffb1c8f1b2829229a2b5ae0c4a1575e303df963f7e235d",
+  "markers_found": true
+ },
+ "26718": {
+  "title": "Health on the Farm: A Manual of Rural Sanitation and Hygiene",
+  "chars": 352367,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 2,
+  "fig_refs": 2,
+  "sha256": "808e7517e6778541ed0c4c64f6203f2050101778a683b53c3ce1f5a6731bcc9b",
+  "markers_found": true
+ },
+ "27257": {
+  "title": "Electricity for the farm",
+  "chars": 266761,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 53,
+  "fig_refs": 0,
+  "sha256": "54b9634e37660bfb4b68559d6c745cbbac54cfd870fb74edcfa2860f6b94043b",
+  "markers_found": true
+ },
+ "30066": {
+  "title": "Laboratory Manual of Glass-Blowing",
+  "chars": 96257,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 18,
+  "fig_refs": 44,
+  "sha256": "20612ef2d7ce6d55665d7a279eb29c09fe54ad1538dcfae455d2956a51506205",
+  "markers_found": true
+ },
+ "30775": {
+  "title": "Elements of Chemistry,",
+  "chars": 645173,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 29,
+  "fig_refs": 209,
+  "sha256": "49fb463d1e1941f1388de5ba64148ff1a452009aaaf9d00797a5734e32a7524c",
+  "markers_found": true
+ },
+ "32962": {
+  "title": "A handbook of laboratory glass-blowing",
+  "chars": 107382,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 18,
+  "fig_refs": 71,
+  "sha256": "377493c5c91df0a814056e8c20754f100907e79d2bb880cb220820f62bb37f87",
+  "markers_found": true
+ },
+ "33437": {
+  "title": "Cyclopedia of Telephony and Telegraphy, Vol. 2",
+  "chars": 685280,
+  "chars_footnote_blocks": 500,
+  "illustration_markers": 216,
+  "fig_refs": 491,
+  "sha256": "e48f3bf3833fcd86b1efa85a5441daef487adafd641c5a34e607b2132c5ed6c1",
+  "markers_found": true
+ },
+ "34114": {
+  "title": "Soap-Making Manual",
+  "chars": 383490,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 46,
+  "fig_refs": 0,
+  "sha256": "96a2d15eca0a9f04db24a289b6da26b2059b75b28f0be8e1aaa95faabe20a4fe",
+  "markers_found": true
+ },
+ "35696": {
+  "title": "What I know of farming",
+  "chars": 513936,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 0,
+  "fig_refs": 0,
+  "sha256": "f30a1d8050375e802857502ca695f664d5009017970c38d5d4ef45d63affb449",
+  "markers_found": true
+ },
+ "38015": {
+  "title": "De Re Metallica, Translated from the First Latin Edition of 1556",
+  "chars": 1819743,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 295,
+  "fig_refs": 0,
+  "sha256": "c4b76c703307168d3a1c629d120b210ce54515b9154616bfa6490d2f3aa97872",
+  "markers_found": true
+ },
+ "38036": {
+  "title": "Electricity for the 4-H Scientist",
+  "chars": 119933,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 65,
+  "fig_refs": 92,
+  "sha256": "20ab4647d050d8c0536addf505a40363cde862aa8c04234898391657e5476392",
+  "markers_found": true
+ },
+ "38248": {
+  "title": "Pottery, for Artists, Craftsmen & Teachers",
+  "chars": 202883,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 87,
+  "fig_refs": 53,
+  "sha256": "8b33fba039e3fa391143715b547ca714592dafd4740bc19c0c6a78f7711f1091",
+  "markers_found": true
+ },
+ "38526": {
+  "title": "Hertzian Wave Wireless Telegraphy",
+  "chars": 294551,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 26,
+  "fig_refs": 34,
+  "sha256": "b6d460f91ec829fe1e8042cfe101f292b556f763b7a22bd068175c516d8622b6",
+  "markers_found": true
+ },
+ "39053": {
+  "title": "Electric Bells and All About Them: A Practical Book for Practical Men",
+  "chars": 255313,
+  "chars_footnote_blocks": 1811,
+  "illustration_markers": 102,
+  "fig_refs": 248,
+  "sha256": "710f18dad04a906f51eab483cf9e51f8b92c0a0715a5d2a7b32f6e9e16e161cb",
+  "markers_found": true
+ },
+ "43027": {
+  "title": "Getting Gold: A Gold-Mining Handbook for Practical Men",
+  "chars": 466391,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 62,
+  "fig_refs": 49,
+  "sha256": "706739c4a08c1fbd3414a41df6221da00a4d74c337b57a143737799e63b5fbf5",
+  "markers_found": true
+ },
+ "44562": {
+  "title": "A Dictionary of Arts, Manufactures and Mines",
+  "chars": 6363989,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 765,
+  "fig_refs": 18,
+  "sha256": "1cb8c82bbbc8da5bf04d832dd6e4e7c7ad563f87ac03209f4e3c59317541f760",
+  "markers_found": true
+ },
+ "46377": {
+  "title": "A Practical Handbook on the Distillation of Alcohol from Farm Products",
+  "chars": 398290,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 61,
+  "fig_refs": 97,
+  "sha256": "2f26ca2d7bffb5f549cdc50afcda0cf42dcbac3172f3d5fc988294af05a84bf3",
+  "markers_found": true
+ },
+ "48179": {
+  "title": "A Manual of the Hand Lathe",
+  "chars": 124227,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 77,
+  "fig_refs": 142,
+  "sha256": "3a4c2b948b7b2e19e94c9e5393696ed3d85884f37fc7ebd29d362d1b58eb01ae",
+  "markers_found": true
+ },
+ "48753": {
+  "title": "Ten Acres Enough",
+  "chars": 371074,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 0,
+  "fig_refs": 0,
+  "sha256": "8b6cc4bc1eb04ff624321621b159b46664eec0db3d3f0f118efd437ac978299e",
+  "markers_found": true
+ },
+ "48929": {
+  "title": "Backwoods Surgery & Medicine",
+  "chars": 91007,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 0,
+  "fig_refs": 0,
+  "sha256": "af611ae2028109a8340dd62a794bd48365830effefb64d791b3970aac015ed47",
+  "markers_found": true
+ },
+ "53143": {
+  "title": "Henley's Twentieth Century Formulas, Recipes and Processes",
+  "chars": 3362202,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 33,
+  "fig_refs": 59,
+  "sha256": "9d712b5f6527ff58664e54b81b3cfbbb86c5d1e518c3cd6a0aa2f403f8400fb4",
+  "markers_found": true
+ },
+ "53494": {
+  "title": "New Edition of Hints on Silver-Glass Reflecting Telescopes Manufactured by Mr. G. Calver, F.R.A.S.",
+  "chars": 154429,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 0,
+  "fig_refs": 33,
+  "sha256": "cc3fbc607b4eaab2480bd68f039122bb4f2e7b1bd0cb7250a70562b630e0205e",
+  "markers_found": true
+ },
+ "53542": {
+  "title": "On the Construction of a Silvered Glass Telescope",
+  "chars": 171654,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 48,
+  "fig_refs": 121,
+  "sha256": "f93f58cc185a8395256a4c82ab4d08476c89a365547392ddd477dadca22eb6cc",
+  "markers_found": true
+ },
+ "53740": {
+  "title": "The Telescope",
+  "chars": 511551,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 191,
+  "fig_refs": 276,
+  "sha256": "b4646ff095aecdf6b0e57cf69ba9e4feb9f2cb402b8d60f368657e383b970d69",
+  "markers_found": true
+ },
+ "54420": {
+  "title": "The Practical Astronomer",
+  "chars": 947654,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 99,
+  "fig_refs": 25,
+  "sha256": "386151811bd92dadb8915f18e814f7fc8beb71498a4393659c2b7e2cddc7eb43",
+  "markers_found": true
+ },
+ "55266": {
+  "title": "The art of glass-blowing",
+  "chars": 170513,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 4,
+  "fig_refs": 2,
+  "sha256": "aa02434adbf5cd60ffacd914eff534731ce22e036ec4395faf16e9b7d7b6e57e",
+  "markers_found": true
+ },
+ "56776": {
+  "title": "Practical Hand Book of Gas, Oil and Steam Engines",
+  "chars": 698290,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 171,
+  "fig_refs": 197,
+  "sha256": "a46ebfefdddfae2c9eebc92b434fdf19486bebfa8042b6ec82f49cdbf85c1888",
+  "markers_found": true
+ },
+ "60819": {
+  "title": "The Lathe & Its Uses",
+  "chars": 599815,
+  "chars_footnote_blocks": 0,
+  "illustration_markers": 420,
+  "fig_refs": 468,
+  "sha256": "8688c419152860fa8a211294fc1cdbd9ca10fdb63eb16c78a8b58b66e53594b2",
+  "markers_found": true
+ },
+ "6934": {
+  "title": "The Radio Amateur's Hand Book",
+  "chars": 386047,
+  "chars_footnote_blocks": 2543,
+  "illustration_markers": 142,
+  "fig_refs": 441,
+  "sha256": "24df0d95f7401a23a5499a17f323db1920c3837cb894d3759231664f9b5f40e9",
+  "markers_found": true
+ }
+}
