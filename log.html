@@ -938,4 +938,21 @@
 <li>判定：H73a・b・d・e・f 支持（H73a は2件）、H73c（0.796）・g（+10%／+12%）・h（27%）棄却。</li>
 <li>逸脱：最初の実行は 060 の docstring にも同じ文字列があったため exec の切り位置で構文エラーになり、切り位置を行頭の「\n# ---------- 仮説 ----------\n」に直した（計算結果を見る前）。explore.py（事前の下端の感度）は初回の後に追加し、事前登録の数値は初回のまま。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は記念碑のような目印より、正確な座標・道順・地図を耐久紙に刷った冊子を 100部以上の図書館・公文書館に預け、南半球の写しと法定納本の紙にも同じページを入れる。本研究所は 060 の「目印で 0.96」を永久の目印の仮定と改め、τ1 の主を遠い場所の事後に寄せる。次は写しの残り方と相関 164）。</li>
+</ul>
+<h2 id="62-2026-10-19">第62回 2026-10-19</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053〜061 を <code>/tmp/rep062/</code> に複製し、061 の sim.py（約138秒）を再実行した。results.json は runtime 以外一致（葉 926個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 164（座標の冊子の写しが重い崩壊を越えて残り読まれる確率と写しどうしの相関）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認、MediaWiki API）：Wikipedia 英語版の Gutenberg Bible、First Folio、Bay Psalm Book、De revolutionibus orbium coelestium、Philosophiæ Naturalis Principia Mathematica、Nuremberg Chronicle、Magna Carta、Załuski Library、Dissolution of the monasteries、Library of Congress、Iraq National Library and Archive、Destruction of Warsaw、Incunable、The Birds of America、De humani corporis fabrica、Kelmscott Press。<code>sources/cases.json</code> の抜き出し 27件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Book burning・Academic libraries in Leuven・National and University Library of Bosnia and Herzegovina・Library of Alexandria・Codex Sinaiticus・Domesday Book も取得したが数字に使っていない。Birds of America・Fabrica・Kelmscott は刷り部数か現存部数がなく使っていない。</li>
+<li>研究062を実施：<code>research/062-copy-survival-correlation/</code>（sim.py 約230秒 seed 20261062、計算のみ）。成果物は results.json、stdout.txt、fig_census_Pptr.png、fig_scans_ce.png、report.md、PREREGISTRATION.md（22:44Z、資料を読んだ後・sim.py の作成の前）、explore.py・explore_results.json、sources/（本文、make_cases.py、cases.json、verify_excerpts.py、fetch.py、SHA256SUMS.txt）。<code>/tmp/rep062b/</code> で再実行し results.json は runtime 以外一致（葉 812個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：061 の sim.py を行頭の「# ---------- 仮説 ----------」の前まで exec し 061 の values を差0で再現（葉 360個）。061 の P_ptr（一定の c）を、K 地域（主 20）が確率 h~U(0.2,0.9) で戦乱・放棄にあい、あった地域の施設が b~U(0.7,1) で焼かれ（1冊の残り s_b は4件の logit 正規、中央値 0.04）、焼かれない施設は s_u~U(0.4,0.75)、その後 e^(−T/τp) で朽ち fp で読まれる二段の模型に置き換えた。τp を8版の現存部数の対数正規から引く版、Bay Psalm の τ だけの版、K・n_p・h の走査、061 の式に戻したときの含意の c を出した。探索（explore.py、事前登録の外）で読む社会を全写しに共通にする E1、焼くかを地域ごとにする E2 を足した。</li>
+<li>主要数値：</li>
+<li>1部の時定数 τ：Gutenberg 456年、First Folio 347、Bay Psalm <strong>77</strong>、De revolutionibus 943、Principia 841、Nuremberg ラテン語 4,470、ドイツ語 587、Magna Carta 429、中央値 <strong>522年</strong>（061 の τp 318）。焼かれた・散らされた図書館の1冊の残りは中央値 0.045（0.0046〜0.33）。</li>
+<li>含意の c（T=300、100部）：主 <strong>0.11</strong>、K=1 0.63、E1 <strong>0.93</strong>。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：061 pointer 0.81、062 主 <strong>0.87</strong>（XPT 0.90）、K=1 0.85、census_tau 0.87、used_tau <strong>0.73</strong>、h_high 0.85、E1・E3 <strong>0.78</strong>。tau1_ev の上で 0.81（061 0.74）。軽い崩壊は 0.97（E1 0.92）。</li>
+<li>部数：10部で 1,000部の上げ幅の <strong>55%</strong>（061 27%、E1 68%）。地域：1地域に全部置いても K=20 の上げ幅の <strong>91%</strong>。</li>
+<li>費用あたり（全体、中央値、TAB=1）：062 主 <strong>54</strong>、061 45、K=1 51、used_tau 33、E1 <strong>33</strong>、S_TC|TC 17.8。</li>
+<li>判定：H74a・d・f・h 支持、H74b（0.11）・c（+0.052、境目）・e（91%）・g（51）棄却。</li>
+<li>逸脱：explore.py（E1〜E3）は初回の結果を見た後に追加した探索で、事前登録の数値は初回のまま。sim.py は1回で通った。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は冊子を何百部も配るより 10〜30部を別々の図書館に預け、金庫の手引き・地図帳・百科事典・法定納本の普通の本など崩壊後に読まれそうなものに同じページを入れる。本研究所は c を「物理的な壊れ方で約0.1、読む社会が共通なら約0.9」と分けて記録し、次は崩壊後の社会が古い蔵書を読む確率 167 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

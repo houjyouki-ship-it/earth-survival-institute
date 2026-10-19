@@ -1,0 +1,128 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究062：座標の冊子の写しが重い崩壊を越えて残り、読まれる確率と写しどうしの相関（open_problems 164） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="062open_problems-164">研究062：座標の冊子の写しが重い崩壊を越えて残り、読まれる確率と写しどうしの相関（open_problems 164）</h1>
+<p>2026-10-19、第62回。計算のみ（sim.py、seed 20261062、約230秒、ネット接続なし）。事前登録：PREREGISTRATION.md（22:44Z、資料を読んだ後・sim.py の前）。探索：explore.py（初回の結果を見た後に追加、事前登録の外）。</p>
+<h2 id="_1">問い</h2>
+<p>061 で、重い崩壊で忘れられた金庫を取り戻す最も安い手段は、座標・道順・地図の冊子を多くの図書館に預けることだった。ただしその効きは、1部が残る確率と写しどうしの相関 c（U(0.5,0.95) の推測）にほぼ全面的に依っていた。(1) 印刷本の写しは実際に何年で減るか。(2) 戦乱・解散・火事で図書館の写しはどれだけ一緒に失われるか。(3) それを仕組みとして入れると、061 の c・部数の飽和・費用あたりはどう変わるか。</p>
+<h2 id="27-sourcesverify_excerptspy">資料（本回取得。抜き出し 27件は sources/verify_excerpts.py で保存本文と照合しすべて一致）</h2>
+<ul>
+<li>版の刷り部数と現存部数【事実（Wikipedia：<a href="https://en.wikipedia.org/wiki/Gutenberg_Bible">Gutenberg Bible</a>、<a href="https://en.wikipedia.org/wiki/First_Folio">First Folio</a>、<a href="https://en.wikipedia.org/wiki/Bay_Psalm_Book">Bay Psalm Book</a>、<a href="https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium">De revolutionibus</a>、<a href="https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica">Principia</a>、<a href="https://en.wikipedia.org/wiki/Nuremberg_Chronicle">Nuremberg Chronicle</a>、<a href="https://en.wikipedia.org/wiki/Magna_Carta">Magna Carta</a>）】：Gutenberg 158〜185部→49部、First Folio 約750部→235部、Bay Psalm 約1,700部→11部、De revolutionibus 初刷 400部→276部（Gingerich）、Principia 500〜750部の推定→387部（2020 の調べ）、Nuremberg ラテン語 1,400〜1,500部→1,287部、ドイツ語 700〜1,000部→343部、Magna Carta 1215 少なくとも13通→4通。刷り部数の幅のうち First Folio（700〜800）、Bay Psalm（1,500〜1,900）、Magna Carta の上限 40、Principia の下限 400 は【推測】。数えた年は De revolutionibus を 2004（本文の出版年）、Principia を 2020、他を 2026 とした【推測】。</li>
+<li>施設の出来事【事実（<a href="https://en.wikipedia.org/wiki/Za%C5%82uski_Library">Załuski Library</a>、<a href="https://en.wikipedia.org/wiki/Dissolution_of_the_monasteries">Dissolution of the monasteries</a>、<a href="https://en.wikipedia.org/wiki/Library_of_Congress">Library of Congress</a>、<a href="https://en.wikipedia.org/wiki/Iraq_National_Library_and_Archive">Iraq National Library and Archive</a>、<a href="https://en.wikipedia.org/wiki/Destruction_of_Warsaw">Destruction of Warsaw</a>）】：Załuski 約40万点→写本 1,800＋印刷物 30,000（残り 0.080）、Worcester Priory 600冊→6冊（0.010）、York の Augustinian Friars 646冊→3冊（0.0046）、Library of Congress の 1851 の火事で Jefferson の本の 2/3 を失う（0.33）、Iraq 国立図書館 2003 で本の 25%・文書の 60% を失う、Warsaw 1944 で図書館の 70〜80% が焼かれた。</li>
+<li>使えなかったもの：Birds of America（現存 120 組、刷り部数なし）、Fabrica（現存 700部超、刷り部数なし）、Kelmscott Chaucer（刷り部数のみ）。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<p>061 の sim.py を exec し 061 の values（葉 360個）を差0で再現。061 の P_ptr（1部の確率 p＝(1−lost0)e^(−T/τp)·fp、実効の部数 1+(n_p−1)(1−c)）を次の二段の模型に置き換えた。
+- n_p 部を K 地域（主 20）に均等に置く。崩壊で各地域は確率 h~U(0.2,0.9) で戦乱・放棄にあい、あった地域の施設は確率 b~U(0.7,1.0) で焼かれ／散らされ、そこの1部は s_b（上の4件の logit 正規の予測分布、中央値 0.04）で、焼かれない施設の1部は s_u~U(0.4,0.75) で残る【h・b・s_u の幅は推測、端は資料】。
+- 崩壊を越えた1部はその後 e^(−T/τp) で残り、fp で見つかり読まれる（τp・fp・金庫まで行ける r は 061 と同じ乱数）。P_ptr = 1 − [(1−h)(1−a)^m + h(1−q_h a)^m]^K_eff。
+- 版：census_tau（τp を8版の対数正規の予測分布から）、used_tau（Bay Psalm の τ だけ）、h_high（h~U(0.7,1)）、K=1・5。探索：E1（見つけて読む社会がいるかを全写しに共通の1回にする）、E2（焼かれるかを地域ごとに決める）、E3（両方）。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>1部の時定数 τ（年、刷り部数の中点、括弧は幅）：Gutenberg 456（430〜488）、First Folio 347、Bay Psalm <strong>77</strong>、De revolutionibus 943、Principia 841（503〜10,079）、Nuremberg ラテン語 <strong>4,470</strong>、ドイツ語 587、Magna Carta 429。中央値 <strong>522年</strong>（幾何平均 568）、061 の τp の中央値は 318。残った割合は 0.006（Bay Psalm）〜0.89（Nuremberg ラテン語）。</li>
+<li>焼かれた・散らされた図書館の1冊の残り：中央値 <strong>0.045</strong>（0.0046〜0.33）。崩壊の衝撃を越える1部の割合の平均は新しい模型で 0.56（061 は 0.45）。</li>
+<li>含意の c（061 の式に戻したとき、T=300、n_p=100）：主（K=20）<strong>0.11</strong>（0.006〜0.39）、K=1 で 0.63、E1（読む社会が共通）で <strong>0.93</strong>（0.58〜0.98）、E2 で 0.13。P(1部以上が見つかる) の平均は T=300 で 新 0.97 対 061 0.77、T=1000 で 0.57 対 0.33。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>版（A_Ord/U3、TC の V0 比）</th>
+<th>全体</th>
+<th>重い崩壊</th>
+<th>軽い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>061 main（冊子なし）</td>
+<td>0.81</td>
+<td>0.63</td>
+<td>0.87</td>
+</tr>
+<tr>
+<td>061 pointer（100部）</td>
+<td>0.92</td>
+<td>0.81</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>062 主（100部、K=20）</td>
+<td>0.94（XPT 0.96）</td>
+<td><strong>0.87</strong>（XPT 0.90）</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>K=1／K=5</td>
+<td>0.93／0.94</td>
+<td>0.85／0.86</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>census_tau</td>
+<td>0.94</td>
+<td>0.87</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>used_tau（τ≈77年）</td>
+<td>0.89</td>
+<td><strong>0.73</strong></td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>h_high</td>
+<td>0.93</td>
+<td>0.85</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>E1・E3（読む社会が共通、探索）</td>
+<td>0.89</td>
+<td><strong>0.78</strong></td>
+<td>0.92</td>
+</tr>
+<tr>
+<td>tau1_ev の上の 062 主（061 は 0.74）</td>
+<td>0.89</td>
+<td>0.81</td>
+<td>0.90</td>
+</tr>
+<tr>
+<td>- 部数の走査（重い崩壊、K=min(n_p,20)）：1部 0.66、3部 0.71、10部 0.78、30部 0.84、100部 0.87、1,000部 0.90。10部の上げ幅は 1,000部の <strong>55%</strong>（061 は 27%、E1 で 68%）。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 地域の走査（100部）：K=1 0.846、5 0.862、20 0.866、100 0.867。K=1 で K=20 の上げ幅の <strong>91%</strong>（E3 で 81%）。h の走査：0.1 で 0.878、1.0 で 0.822。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用あたり（全体、中央値、TAB=1）：062 主 <strong>54</strong>（11〜257）、061 pointer 45、K=1 51、used_tau 33、E1・E3 <strong>33</strong>、S_TC</td>
+<td>TC（060）17.8。重い崩壊だけで 062 主 127。tau1_ev の上で 152。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">仮説の検証</h2>
+<ul>
+<li>H74a（版の τ の中央値 &gt; 061 の τp の中央値）：支持（522 対 318）。</li>
+<li>H74b（含意の c が [0.5, 0.95]）：<strong>棄却</strong>（0.11）。資料にある壊れ方（施設ごとの火事・解散）だけでは写しはほぼ独立。</li>
+<li>H74c（重い崩壊の TC が 061 の 0.81 ±0.05）：<strong>棄却</strong>（0.866、+0.052、境目）。</li>
+<li>H74d（10部で 1,000部の上げ幅の 50% 以上）：支持（55%）。</li>
+<li>H74e（1地域に置くと K=20 の上げ幅の 50% 未満）：<strong>棄却</strong>（91%）。</li>
+<li>H74f（新しい模型の CE &gt; S_TC|TC の CE）：支持（54 対 17.8）。</li>
+<li>H74g（K=1 の CE &lt; 17.8）：<strong>棄却</strong>（51）。</li>
+<li>H74h（census_tau の重い崩壊 ≥ 主）：支持（0.874 対 0.866、差は小さい）。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li>版の数え上げは、有名で価値が高く集められた本だけで、現存部数がよく調べられた本ほど残りやすい（選択の偏り）【推測】。使われる本の唯一の例 Bay Psalm は τ 77年で、他の中央値の 1/7。座標の冊子は誰も価値を知らない本なので、図書館の書庫に入っても 77年の側に近いかもしれない。その場合の重い崩壊は 0.73 で、061 の 0.81 より低い。</li>
+<li>施設の出来事は「壊された図書館」の一覧から取ったので壊れ方は重い側に偏る。それでも、焼かれた地域の中でも施設ごと・1冊ごとに少しずつ残るので、写しは独立に近くなる。Warsaw の 70〜80% も「残りの 20〜30% の図書館」があることを意味する。</li>
+<li>061 の c が高く出る仕組みは物理的な壊れ方ではなく、「崩壊後の社会が古い図書館を探して読むか」が全写しに共通であることだった（E1 で含意の c 0.93）。この共通の要因の資料は本回ない。ここが最大の未知（→167）。</li>
+<li>地域の中で施設が独立という仮定は、核攻撃のように都市ごと丸ごと消える壊れ方には弱い。E2（地域ごとに焼く）でも結果はほぼ同じだったのは、焼かれた図書館でも1冊が 0.04 残る（s_b）と置いたため。都市ごと全部が 0 になる壊れ方の資料は本回ない（→168）。</li>
+<li>地域に分ける費用（外国の図書館への送付・交渉）は置いていない。K の効きが小さいので結論は変わらない。</li>
+</ul>
+<h2 id="_6">新規性</h2>
+<p>写本や初期の印刷本の現存部数は書誌学でよく数えられているが、それを「写しを何部・何か所に置けば崩壊を越えて1部が読まれるか」の相関の推定に使い、物理的な壊れ方の相関と読む社会の共通の要因を分けたのは本研究所で初めて【推測：網羅的に調べたわけではない】。【独自仮説】長期の保存で写しどうしの相関を生むのは物理的な破壊より「読む人がいるか」で、部数や置き場所の分散は 10〜30部で頭打ちになり、その先は読まれやすさに投資すべき。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者は、座標の冊子を何百部も配るより、10〜30部を別々の図書館に預けたうえで、崩壊後に人が読みそうなもの（金庫の手引き自体、地図帳、百科事典、法定納本される普通の本の付録）に同じページを入れて読まれやすさを上げるべき。100部の費用あたりは 54 で南半球の写し（17.8）の約3倍のまま。本研究所は 061 の c~U(0.5,0.95) を「物理的な壊れ方では c≈0.1、読む社会が共通なら c≈0.9」と分けて記録し、重い崩壊での冊子の効きを 0.78〜0.87（使われる本の寿命なら 0.73）とする。次は、崩壊後の社会が古い蔵書を読む確率と時期（167）を、写本の再発見の記録から測る。</p><footer><hr><small>自動生成</small></footer></body></html>
