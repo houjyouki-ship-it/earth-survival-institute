@@ -1,0 +1,37 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究055（執筆の生産性の公開アンカーと、束・写し・法定納本の費用あたりの順位） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="055">事前登録：研究055（執筆の生産性の公開アンカーと、束・写し・法定納本の費用あたりの順位）</h1>
+<p>登録時刻：2026-10-19T08:46:17Z（sim.py の作成・初回実行の前。出典の数値は sources/ で確認済み、OpenStax の字数は数えた後）</p>
+<h2 id="_1">問い</h2>
+<p>053・054 の T（板の手引き）の費用の 99% は執筆の生産性 logU(1e5,1e7) 字/人年（推測）で決まる。公開のアンカーで絞ると、TAB・T＋C・S_TC｜T＋C・GROW の費用あたりの順位（CE、TAB=1）は変わるか。南半球の法定納本（印刷した T を豪州の NLA・州立図書館などに納める）S_LD は、054 の S_TC より費用あたりで上か。</p>
+<h2 id="sources">アンカー（すべて sources/ で確認、変換の係数は【推測】）</h2>
+<ul>
+<li>OSX：OpenStax の新しい教科書1冊の費用（2013年 約 $50万、2023年 $50万〜100万）÷ 字数（GitHub の CNXML から数えた本文、原本4冊 biology-2e 3.94M、concepts-biology 1.57M、chemistry-2e 2.33〜2.51M、college-physics-2e 4.04〜4.26M）。$/字を直接与える（図・査読を含む）。CPI で 2025年ドルへ。</li>
+<li>WP：英語版 Wikipedia の 25億語 × 字/語 U(5.5,6.5) ÷（4,102万時間 × 取りこぼし U(1,2) ÷ 年 U(1800,2000) 時間）。</li>
+<li>JAU：Jaucourt の 470万語 × U(5.5,6.5) ÷（U(6,7) 年 ×（1＋秘書 U(1,4) 人））。写しを多く含む。</li>
+<li>SME：Britannica 初版 2,391 頁 × 語/頁 U(800,1500)【推測、弱い】× U(5.5,6.5) ÷（U(2.7,4) 年 ×（1＋U(0,0.5)））。写しを多く含む。</li>
+<li>OED の打ち込み（上限の目安）：3.5億字 ÷ 120 人年 = 292万字/人年、校正込み 180 人年で 194万字/人年。</li>
+<li>生産性への換算は人件費 $10万〜20万/人年（053 と同じ）。</li>
+</ul>
+<h2 id="_2">版</h2>
+<ul>
+<li>V_prior：053 の logU(1e5,1e7)（参照）。</li>
+<li>V_orig：OSX の $/字。</li>
+<li>V_wiki：WP の生産性。</li>
+<li>V_comp：JAU と SME の標本を半々に混ぜ、OED の打ち込みの 292万字/人年で上を切る。</li>
+<li><strong>V_mix（主）</strong>：字数の割合 f_orig U(0.2,0.8)【推測】を V_orig、残りを V_comp で書く。</li>
+<li>字数は 053 の 1e7〜1e8（主）と 024 の g_req 0.725e6〜8.9e6（感度）。</li>
+</ul>
+<h2 id="_3">価値</h2>
+<p>054 の sim.py を費用の節の前まで exec し、054 の価値（values_main）を差0で再現してから使う。GROW は 053 と同じく価値の比 logU(0.13, 040 の GROW/TAB)、費用は T と同じ式で独立に引く。
+S_LD｜T＋C：印刷した T だけを南半球の図書館に置く。主の金庫が失われたとき、読者は T だけ（q_B）を読み、T3 の社会には価値を足さない（c=0）。喪失 U(0.3,0.8)【推測：紙、空調なし、数百年】、受理 U(0.5,1.0)【推測：NLA は training and procedure manuals を選択的にしか集めない】、発見は 054 の find2（南半球の写しと同じ）。感度：喪失 U(0.15,0.6)（豪州・NZ・南ア・ブラジルの複数国の納本）。
+S_LD の費用：冊数 = 字数 ÷ 1冊の字数（OSX の 1.57M〜4.26M）× $25〜50/冊（OpenStax の印刷版）× 部数（主 2：NLA＋州立図書館、感度 9：豪2＋NZ1＋南ア5＋ブラジル1）× 耐久紙の割増 U(1,3)【推測】＋出版の手続き logU($1千,$1万)【推測】＋送料 logU($100,$1,000)【推測】。</p>
+<h2 id="_4">仮説（判定の規則）</h2>
+<ul>
+<li>H67a：V_orig の $/字の中央値 &gt; V_prior の中央値（$15万÷1e6=$0.15）。</li>
+<li>H67b：4つのアンカー（OSX を人件費で生産性に直したもの、WP、JAU、SME）の中央値の最大／最小 &lt; 10。</li>
+<li>H67c：V_mix で中央値の CE の順位が S_TC｜T＋C &gt; T＋C &gt; 1（TAB）&gt; GROW（A_Ord・U3 と A_XPT_S・U2 の両方）。</li>
+<li>H67d：V_mix と g_req の字数で CE(S_TC｜T＋C) の中央値 &gt; 1（両方）。</li>
+<li>H67e：A_Ord・U3 で CE(S_LD｜T＋C) の中央値 &gt; CE(S_TC｜T＋C) の中央値（V_mix、主の字数）。</li>
+<li>H67f：重い崩壊だけで CE(S_LD｜T＋C) の中央値 &gt; 1（両方）。</li>
+<li>H67g：V_comp の C_T の中央値 ≤ V_orig の 1/3。</li>
+<li>H67h：V_mix の C_T の中央値（主の字数）が $100万〜3,000万の間。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

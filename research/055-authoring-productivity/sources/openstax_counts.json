@@ -1,0 +1,58 @@
+{
+ "biology-2e.collection.xml": {
+  "repo": "osbooks-biology-bundle",
+  "modules": 259,
+  "missing": 0,
+  "chars_text_incl_math": 3937411,
+  "chars_text_excl_math": 3935058,
+  "figures": 1152
+ },
+ "biology-ap-courses.collection.xml": {
+  "repo": "osbooks-biology-bundle",
+  "modules": 209,
+  "missing": 0,
+  "chars_text_incl_math": 3862303,
+  "chars_text_excl_math": 3858967,
+  "figures": 982
+ },
+ "concepts-biology.collection.xml": {
+  "repo": "osbooks-biology-bundle",
+  "modules": 107,
+  "missing": 0,
+  "chars_text_incl_math": 1571344,
+  "chars_text_excl_math": 1570845,
+  "figures": 467
+ },
+ "chemistry-2e.collection.xml": {
+  "repo": "osbooks-chemistry-bundle",
+  "modules": 149,
+  "missing": 0,
+  "chars_text_incl_math": 2512235,
+  "chars_text_excl_math": 2333627,
+  "figures": 627
+ },
+ "chemistry-atoms-first-2e.collection.xml": {
+  "repo": "osbooks-chemistry-bundle",
+  "modules": 149,
+  "missing": 0,
+  "chars_text_incl_math": 2531923,
+  "chars_text_excl_math": 2351719,
+  "figures": 627
+ },
+ "college-physics-2e.collection.xml": {
+  "repo": "osbooks-college-physics-bundle",
+  "modules": 283,
+  "missing": 0,
+  "chars_text_incl_math": 4264529,
+  "chars_text_excl_math": 4036763,
+  "figures": 1438
+ },
+ "college-physics-ap-courses-2e.collection.xml": {
+  "repo": "osbooks-college-physics-bundle",
+  "modules": 283,
+  "missing": 0,
+  "chars_text_incl_math": 4379269,
+  "chars_text_excl_math": 4151415,
+  "figures": 1436
+ }
+}
