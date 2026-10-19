@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究052 事前登録（2026-10-19T02:44:10Z、喪失・深い崩壊の結果を計算する前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="052-2026-10-19t024410z">研究052 事前登録（2026-10-19T02:44:10Z、喪失・深い崩壊の結果を計算する前）</h1>
+<h2 id="_1">何を見た後か（正直な記録）</h2>
+<ul>
+<li>Seshat Equinox-2020（sources/ の xlsx）の <strong>表名・列名・Metadata</strong> のみを見た：Scale_MI は「20 imputations of Scale CCs (Pop, Terr, Cap) for calculating Scale (PC1 of Pop, Terr, Cap)」、ImpSCDat は Pop/Terr/Cap/Hier/Gov/Infra/Info/Money、SPC_MilTech、TSDat123、Equinox2020_CanonDat（Value.Note / Date.Note / Fact.Type）。</li>
+<li>第51回の報告済み結果（主 D_pop：S2 事後平均 0.067、A_Ord 0.00461；SPC −1.0：S2 0.109；h*=0.0967）は既知。どの分母でも「崩壊の後に何が失われたか」の <strong>新しい数え方はまだ実行していない</strong>。</li>
+</ul>
+<h2 id="open_problems-143144">問い（open_problems 143＋144）</h2>
+<p>051 で h と h* の関係は分母で割れた（人口半減で h<h*、SPC −1.0 で h≳h*）。SPC は Info を含むので循環がある。**循環のない分母**（Scale_MI の規模成分、Info を除いた複雑さ）で S1・S2 と P(h>h*) を出し、循環なしでも h&lt;h* なら重い崩壊の優先は「根拠なし」と記録する。同時に 051 の S2（および関連）episode について CanonDat の征服期の符号変化の疑いを確かめる（144）。</p>
+<h2 id="_2">規則（固定）</h2>
+<ul>
+<li>単位・喪失・読み・背景率・Jeffreys・048 の B_h_scan 写し・窓・統合：051 と同じ（peak、onset、300年以内の episode 統合、peak から500年で2世紀続けてなし、S1/S1b/S2/S4/S4b）。</li>
+<li>seed <strong>20261052</strong>。ネット接続なし。</li>
+<li>分母（深い崩壊の定義）：</li>
+<li><strong>D_pop</strong>（比較・051主）：ImpSCDat.Pop、Δ≥0.301（半減）。</li>
+<li><strong>D_spc</strong>（比較・循環あり）：SPC、Δ≥1.0。</li>
+<li><strong>D_scale</strong>（主・循環なし）：Scale_MI の各補完 n=1..20 で (Pop,Terr,Cap) をその補完内の平均・標準偏差で z 化し、<strong>平均 z（Scale_z）</strong> を作る（Metadata の PC1 と同趣旨の等重み近似。PC1 も感度で併記）。20補完の <strong>中央値シリーズ</strong> Scale_med で episode を決める。主閾値 <strong>D=0.301</strong>（Pop 半減と同じ数値スケール；Scale_z は既に標準化されているので感度として <strong>0.5・1.0</strong> も出す）。</li>
+<li><strong>D_noinfo</strong>（主・循環なし）：ImpSCDat の {Pop,Terr,Cap,Hier,Gov,Infra,Money}（<strong>Info 除外</strong>）を全体で z 化し平均 z。主閾値 <strong>Δ≥1.0</strong>（SPC −1.0 と同程度の深さ）。感度 0.5。</li>
+<li><strong>D_hiergov</strong>（感度）：{Hier,Gov} の平均 z、Δ≥1.0。</li>
+<li><strong>144</strong>：051 主分母で S2=1 だった episode（既知：Kachi Plain PkUrbn2、Orkhon MnMngKh、Susiana IrSasn2、Upper Egypt TrERom*）および S1/S4 の喪失例について、CanonDat の該当 Variable（Script, PractLit, FullTBur, Market, Court, Road, Bridge, Canal, Mine, Bronze, Iron, IndigCoin など）の Value.Note / Date.Note / Fact.Type を読み、征服・征服後の行政変化・符号の空白の疑いを記録する。偽陽性を外した <strong>S2_clean</strong> も出す（除外規則：該当 Variable の Note に conquest / conquer / Arab / Islamic conquest / Ottoman 等の征服記述があり、かつ喪失が征服後の政体交代に一致するとき除外。機械的キーワード＋人手の記録）。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li><strong>H64a</strong>：D_scale（主閾値 0.301）での S2 事後平均 &lt; h*（0.0967）</li>
+<li><strong>H64b</strong>：D_noinfo（主閾値 1.0）での S2 事後平均 &lt; h*</li>
+<li><strong>H64c</strong>：D_scale と D_noinfo の S2 事後平均の差の絶対値 &lt; 0.05</li>
+<li><strong>H64d</strong>：D_spc の S2 事後平均 &gt; D_scale の S2 事後平均（循環で膨らむ）</li>
+<li><strong>H64e</strong>：循環なし分母（D_scale, D_noinfo）でどちらも P(h&gt;h*|S2) &lt; 0.5</li>
+<li><strong>H64f</strong>：S2_clean（征服疑い除外、D_pop 上）の事後平均 ≤ S2（D_pop）</li>
+<li><strong>H64g</strong>：循環なし分母の主の版（D_scale 主閾値の S2）で A_Ord は 051 の 0.00461 の ±15% 以内</li>
+</ul>
+<h2 id="_4">判定後の政策メモ（事前）</h2>
+<p>循環なし分母（D_scale と D_noinfo）の両方で S2 事後平均 &lt; h* かつ H64e が支持なら、重い崩壊の優先は <strong>「根拠なし」</strong> と記録し、次回は候補 B（122 避難所と金庫の板の費用）を推奨する。</p><footer><hr><small>自動生成</small></footer></body></html>

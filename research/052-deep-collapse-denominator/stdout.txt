@@ -1,0 +1,40 @@
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)
+/workspace/earth-survival-institute/research/052-deep-collapse-denominator/sim.py:46: RuntimeWarning: Mean of empty slice
+  out = np.nanmean(A, axis=1)

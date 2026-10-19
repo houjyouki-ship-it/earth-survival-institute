@@ -1,0 +1,386 @@
+[
+ {
+  "NGA": "Crete",
+  "PolID": "GrCrNPa",
+  "t_peak": -1600,
+  "t_onset": -1400,
+  "S1": 1.0,
+  "S2": 0.0,
+  "S4": 0.0,
+  "lost_S2_techs": [
+   "Script"
+  ],
+  "n_canon_hits": 3,
+  "n_conquest_keyword_on_lost_vars": 0,
+  "n_broad_conquest_notes": 0,
+  "suspect_conquest_coding": false,
+  "hits_sample": [
+   {
+    "Variable": "Written records",
+    "Polity": "GrCrNPa",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Script",
+    "Polity": "GrCrNPa",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Phonetic alphabetic writing",
+    "Polity": "GrCrNPa",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   }
+  ],
+  "broad_sample": []
+ },
+ {
+  "NGA": "Cuzco",
+  "PolID": "PeWari*",
+  "t_peak": 800,
+  "t_onset": 1000,
+  "S1": null,
+  "S2": 0.0,
+  "S4": 1.0,
+  "lost_S2_techs": [
+   "Road"
+  ],
+  "n_canon_hits": 2,
+  "n_conquest_keyword_on_lost_vars": 0,
+  "n_broad_conquest_notes": 0,
+  "suspect_conquest_coding": false,
+  "hits_sample": [
+   {
+    "Variable": "Roads",
+    "Polity": "PeWari*",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Moralizing norms are broad",
+    "Polity": "PeWari*",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "inferred absent",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   }
+  ],
+  "broad_sample": []
+ },
+ {
+  "NGA": "Kachi Plain",
+  "PolID": "PkUrbn2",
+  "t_peak": -2000,
+  "t_onset": -1800,
+  "S1": 1.0,
+  "S2": 1.0,
+  "S4": 0.0,
+  "lost_S2_techs": [
+   "Script",
+   "FullTBur",
+   "Road",
+   "Bronze"
+  ],
+  "n_canon_hits": 7,
+  "n_conquest_keyword_on_lost_vars": 0,
+  "n_broad_conquest_notes": 0,
+  "suspect_conquest_coding": false,
+  "hits_sample": [
+   {
+    "Variable": "Full-time bureaucrats",
+    "Polity": "PkUrbn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Roads",
+    "Polity": "PkUrbn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Written records",
+    "Polity": "PkUrbn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Script",
+    "Polity": "PkUrbn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Phonetic alphabetic writing",
+    "Polity": "PkUrbn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "inferred absent",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Bronze",
+    "Polity": "PkUrbn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "inferred present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   }
+  ],
+  "broad_sample": []
+ },
+ {
+  "NGA": "Orkhon Valley",
+  "PolID": "MnMngKh",
+  "t_peak": 1300,
+  "t_onset": 1400,
+  "S1": 0.0,
+  "S2": 1.0,
+  "S4": 0.0,
+  "lost_S2_techs": [
+   "FullTBur",
+   "IndigCoin"
+  ],
+  "n_canon_hits": 3,
+  "n_conquest_keyword_on_lost_vars": 0,
+  "n_broad_conquest_notes": 0,
+  "suspect_conquest_coding": false,
+  "hits_sample": [
+   {
+    "Variable": "Full-time bureaucrats",
+    "Polity": "MnMngKh",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Foreign coins",
+    "Polity": "MnMngKh",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Indigenous coins",
+    "Polity": "MnMngKh",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   }
+  ],
+  "broad_sample": []
+ },
+ {
+  "NGA": "Susiana",
+  "PolID": "IrSasn2",
+  "t_peak": 600,
+  "t_onset": 700,
+  "S1": 0.0,
+  "S2": 1.0,
+  "S4": 0.0,
+  "lost_S2_techs": [
+   "Court",
+   "Bronze"
+  ],
+  "n_canon_hits": 2,
+  "n_conquest_keyword_on_lost_vars": 0,
+  "n_broad_conquest_notes": 0,
+  "suspect_conquest_coding": false,
+  "hits_sample": [
+   {
+    "Variable": "Courts",
+    "Polity": "IrSasn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "inferred present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Bronze",
+    "Polity": "IrSasn2",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "inferred present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   }
+  ],
+  "broad_sample": []
+ },
+ {
+  "NGA": "Upper Egypt",
+  "PolID": "TrERom*",
+  "t_peak": 500,
+  "t_onset": 700,
+  "S1": 0.0,
+  "S2": 1.0,
+  "S4": 0.0,
+  "lost_S2_techs": [
+   "Court",
+   "Bronze"
+  ],
+  "n_canon_hits": 53,
+  "n_conquest_keyword_on_lost_vars": 0,
+  "n_broad_conquest_notes": 0,
+  "suspect_conquest_coding": false,
+  "hits_sample": [
+   {
+    "Variable": "Courts",
+    "Polity": "EgAyyub",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Bronze",
+    "Polity": "EgAyyub",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "present",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Courts",
+    "Polity": "EgBadar",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "inferred absent",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Bronze",
+    "Polity": "EgBadar",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "absent",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Courts",
+    "Polity": "EgDyn1*",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "inferred absent",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   },
+   {
+    "Variable": "Bronze",
+    "Polity": "EgDyn1*",
+    "Date.From": null,
+    "Date.To": null,
+    "Fact.Type": "simple",
+    "Value.From": "absent",
+    "Value.To": null,
+    "Value.Note": "simple",
+    "Date.Note": "",
+    "conquest_keyword": false
+   }
+  ],
+  "broad_sample": []
+ }
+]
