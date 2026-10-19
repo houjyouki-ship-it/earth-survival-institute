@@ -885,4 +885,22 @@
 <li>判定：H70a〜h すべて支持（H70a〜c は5件ずつの小標本）。</li>
 <li>逸脱：なし。</li>
 <li>「誰が何を変えるべきか」：記載あり（本研究所は閾値の線を足しても「全段の手引きは金庫の物差しで正当化できない」を維持し、次は手順書が伝達の損失を減らす割合 s を伝達の連鎖の実験で測る。手引きの企画者は前段を書くなら鉄・レンズ・T2 の3段をまとめ、1段だけの計画は立てない）。</li>
+</ul>
+<h2 id="59-2026-10-19">第59回 2026-10-19</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053〜058 を <code>/tmp/rep059/</code> に複製し、058 の sim.py（約43秒）を再実行した。results.json は runtime 以外一致（葉 239個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 157（書かれた手順が伝達の損失を減らす割合 s）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Morgan ほか 2015 Nat Commun（Europe PMC の全文 XML、PMC4338549）、Muthukrishna ほか 2014 Proc R Soc B（PMC の HTML、PMC3843838）、Derex ほか 2019 Nat Hum Behav（著者のサイトの PDF）、Zwirner &amp; Thornton 2015 Sci Rep（PMC4660383）、HSSC 2021（s41599-021-00925-4、nature.com の HTML）、Bietti ほか 2019 PLoS ONE（PMC6750589）。<code>sources/evidence.json</code> の抜き出し 20件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Derex 2013（Nature、集団の大きさ）は公開の全文がなく使っていない。Morgan の専門家の値と補足表は開いていない。</li>
+<li>研究059を実施：<code>research/059-written-transmission-s/</code>（sim.py 約47秒 seed 20261059、計算のみ）。成果物は results.json、stdout.txt、fig_s_priors.png、fig_F_versions.png、fig_constant_alpha_test.png、report.md、PREREGISTRATION.md（16:44:31Z、資料を読んだ後・sim.py の作成の前）、sources/（本文、evidence.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep059b/</code> で再実行し results.json は runtime 以外一致（葉 208個、差分0）、図3枚の MD5 も一致。</li>
+<li>方法：058 の sim.py を「# ---------- 仮説 ----------」の前まで exec し 058 の F を差0で再現。s_M＝Morgan の位置1で VT が IE より専門家からの落ちを何割減らすか（logit、専門家の値は推測の範囲）。w＝言葉・書いた経路が実演だけを上回った実験の割合 Beta(2,4)。主の s_mix＝確率 w で s_M、残り U(0,0.1)。Muthukrishna 実験2 の傾きの比で一定の α を検証し、床への戻りの率を解いた。線形の閾値 thr=1−s も出した。</li>
+<li>主要数値：</li>
+<li>s の中央値：058 0.43、s_M（p_hit）<strong>0.39</strong>（0.19〜0.71）、s_M（viable）0.38、s_mix <strong>0.075</strong>（0.007〜0.58、平均 0.17）。</li>
+<li>Morgan：床からの差のうち位置ごとに失う割合は IE 0.27、VT 0.26（教示の利点は最初の一歩だけ）。</li>
+<li>Derex：書いた理論の効き −2.23 m/h（CI −7.07〜2.52）、上端でも構成だけの世代の効き 5.37 の 0.47倍。</li>
+<li>Muthukrishna：後半／前半の傾きの比 <strong>0.10</strong>（1手本）／0.12（5手本）、床への戻りの率 a <strong>0.39</strong>／0.37。Henrich の式で実験の閾値 N* 13人（3.3〜閾値なし）。床への戻りの模型でも閾値の比は (N* e^ε)^(−s) と同じ（相対差 6e−15）。</li>
+<li>F（A_Ord・U3、全体／重い崩壊）：s_058 1.097／1.27、s_M 1.094／1.26、s_mix <strong>1.045／1.12</strong>、s_low 1.017／1.05、ψ=1・p_early=1 で s_M <strong>2.07／3.96</strong>、s_mix 1.45／2.24。線形の閾値で s_mix <strong>1.007</strong>。A_XPT_S・U2 は最大 1.06。</li>
+<li>費用あたり（全段の T＋C、V_mix）：2.33 → s_mix 2.43、最大 4.83（S_TC 6.89、釣り合い 5.0）。</li>
+<li>判定：H71a〜h すべて支持。</li>
+<li>逸脱：初回の実行の後、実験の N* の分位点が無限大の扱いで NaN になったので傾きが逆の標本を 1e12 として数えるように直し、図の使っていない行を消した（乱数の順は不変、他の数値は初回と同じ）。</li>
+<li>「誰が何を変えるべきか」：記載あり（本研究所は s の主を s_mix に改め F を 1.045 に下げ、書かれた手引きで年数・閾値を縮める線を閉じる。手引きの企画者は手順の手の動きと各段の仕上がりを図で示し、1変数だけの説明を避ける。この問いを詰めるには手引きだけ・手引き＋成果物・実演を比べる10世代の実験が要る）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

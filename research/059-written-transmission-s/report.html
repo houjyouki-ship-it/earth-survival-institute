@@ -1,0 +1,142 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究059：書かれた手順は伝達の損失をどれだけ減らすか（s、open_problems 157） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="059sopen_problems-157">研究059：書かれた手順は伝達の損失をどれだけ減らすか（s、open_problems 157）</h1>
+<p>実施：2026-10-19（第59回）。計算のみ、ネット接続は資料の取得だけ。sim.py（seed 20261059、約47秒）、results.json、stdout.txt、図3枚、PREREGISTRATION.md（16:44:31Z、資料を読んだ後・sim.py の作成の前）、sources/（本文、evidence.json、verify_excerpts.py、SHA256SUMS.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>058 では、手引きが伝達の損失を割合 s だけ減らすと段の閾値が thr=(0.2N e^ε)^(−s) に下がるとし、s ~ Beta(3.5,4.5)（057 の本だけの移転の成功 3/7 の読み替え【推測】）で F（手引きつきの T＋C の価値 ÷ 054 の T＋C の価値）を A_Ord・U3 で 1.097 と出した。本回はこの s を伝達の連鎖の実験の公開の数値で置き直し、Henrich の式の前提（損失 α が一定）も同じ資料で確かめる。</p>
+<h2 id="20-verify_excerptspy">資料（本回開いて確認、抜き出し 20件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致）</h2>
+<ul>
+<li>【事実（<a href="https://www.nature.com/articles/ncomms7029">Morgan ほか 2015</a>）】石器の剥片の連鎖、5条件（RE 逆行分析、IE 模倣・エミュレーション、BT・GT・VT 教示）。位置1の「1打あたり使える剥片の確率」は RE 0.03、IE 0.04、BT 0.06、GT 0.07、VT 0.10。使える剥片の割合は 0.55、0.58、0.72、0.72、0.73。教示なしでは位置1で床まで落ち、VT は鎖に沿って徐々に落ちる（VT の傾き −0.33）。学習は5分。専門家（訓練した実験者）の値は本文にない。</li>
+<li>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3843838/">Muthukrishna ほか 2014</a>）】実験2（結び目、専門家から開始、動画で伝える）：世代1–3 の傾きは1手本 −0.67 SD（p=0.02）、5手本 −0.25 SD（p=0.37）、世代4–10 は −0.07、−0.03。実験1（画像編集、初心者から開始、2頁までの書いた情報＋画面）：5手本 +0.23 SD／世代、1手本 −0.06 SD（p=0.19）。</li>
+<li>【事実（<a href="https://maximederex.github.io/assets/pdf/derex2019.pdf">Derex ほか 2019</a>）】車輪の連鎖。構成だけの処理で速さは世代あたり 5.37 m/h（95% CI 1.58〜9.02）上がり、340字までの書いた理論を足した処理との差（世代×処理）は −2.23 m/h（−7.07〜2.52）。</li>
+<li>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4660383/">Zwirner &amp; Thornton 2015</a>）】籠の連鎖。改善の速さに処理の差なし、壊れにくさだけ教示が上。</li>
+<li>【事実（<a href="https://www.nature.com/articles/s41599-021-00925-4">HSSC 2021</a>）】パズル箱。大人では実演の方が言葉の指示より忠実。</li>
+<li>【事実（<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221278">Bietti ほか 2019</a>）】ラビオリ作り。対面のやり取りは録画の指示より成績を上げなかった。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ol>
+<li>058 の sim.py を「# ---------- 仮説 ----------」の前まで exec し、058 の F を差0で再現（check_058 = 0、s_058 の版の F も差0）。</li>
+<li>s_M（上限）：Morgan の位置1で、専門家からの落ちが VT で IE より何割小さいか。s_M = 1 − (L(E)−L(VT1))/(L(E)−L(IE1))、L は logit、位置1の値は表の 95% CI から logit 正規で揺らす。専門家の値 E は p_hit で logit 一様 [0.15, 0.6]、viable で一様 [0.80, 0.97]【推測】。VT は実演つきの対面の言葉の教示なので、書いた手引きの上限と読む【推測】。</li>
+<li>w：言葉か書いた経路が実演だけより伝達を良くした実験の割合。Morgan 1、Zwirner 0.5、HSSC 0、Derex 0、Bietti 0 → w ~ Beta(2,4)（数え方は【推測】）。主の s_mix は確率 w で s_M、残りは U(0,0.1)。</li>
+<li>一定の α の検証：Muthukrishna 実験2 の後半／前半の傾きの比。床への戻り（損失が床からの差に比例、z = 床 + Gρ^(g−1)）で比を合わせる ρ を解く。Henrich の式で実験の閾値 N* = 5^(−Δ1/(Δ5−Δ1)) も出す。床への戻りの模型でも s を損失の率に掛けたときの閾値の比が Henrich の式と同じになるかを数値で確かめる。</li>
+<li>F を s_058、s_M（p_hit・viable）、s_mix、s_low で、ψ 主・p_early 主と ψ=1・p_early=1 で出し、閾値の形の感度として線形版 thr = 1 − s も出す。</li>
+</ol>
+<h2 id="_3">結果</h2>
+<h3 id="s">s の根拠</h3>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>中央値</th>
+<th>5〜95%</th>
+<th>平均</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>058 の Beta(3.5,4.5)</td>
+<td>0.43</td>
+<td>0.17〜0.72</td>
+<td>0.44</td>
+</tr>
+<tr>
+<td>s_M（p_hit）</td>
+<td><strong>0.39</strong></td>
+<td>0.19〜0.71</td>
+<td>0.41</td>
+</tr>
+<tr>
+<td>s_M（viable）</td>
+<td>0.38</td>
+<td>0.19〜0.66</td>
+<td>—</td>
+</tr>
+<tr>
+<td>s_mix（主）</td>
+<td><strong>0.075</strong></td>
+<td>0.007〜0.58</td>
+<td>0.17</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>058 の s は、たまたま対面の言葉の教示の上限 s_M とほぼ同じ所にあった【計算】。書いた・言葉の経路が実演だけを上回ったのは5実験中 1.5（w の中央値 0.31）で、主の s は 1/6 に下がる。</li>
+<li>Morgan の鎖に沿った落ちは、床からの差のうち位置ごとに IE 0.27、VT 0.26 と同じ割合【計算、傾きを logit と読んだ場合。VT を4位置進めると 0.029 で RE の 0.03 とほぼ一致するのでこの読みと矛盾しない【推測】】。教示の利点は専門家からの最初の一歩に集まり、その後の世代の落ち方は変えない。</li>
+<li>Derex：書いた理論の効きの 95% CI は 0 を含み、上端でも構成だけの世代の効きの 47%、平均は −42%（理論が探索を狭めたと著者は書く）。</li>
+</ul>
+<h3 id="henrich">Henrich の式の前提</h3>
+<ul>
+<li>後半／前半の傾きの比は1手本 <strong>0.10</strong>、5手本 <strong>0.12</strong>（一定の α なら 1）。標準誤差で揺らしても後半が平らな確率 0.987。床への戻りの率は <strong>a = 0.39</strong>（1手本）、0.37（5手本）／世代。損失は一定でなく床からの差に比例し、技術は消えずに低い釣り合いに落ちる（5手本の釣り合いは1手本の2倍と著者は書く）。</li>
+<li>それでも、損失の率を (1−s) 倍にしたときの閾値の比は床への戻りの模型でも Henrich の式と同じ (N* e^ε)^(−s)（最大の相対差 6e−15）。058 の式の形は前提が崩れても残る【計算】。</li>
+<li>実験2 の数値を Henrich の式に入れると実験室の閾値 N* は <strong>13人</strong>（5〜95% 3.3〜閾値なし、5手本の傾きが逆の標本 14%）、α/β 3.1。書いた情報の実験1 では N* 1.4。</li>
+</ul>
+<h3 id="fa_ordu3">F（A_Ord・U3、全体／重い崩壊の部分）</h3>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>ψ 主・p_early 主</th>
+<th>ψ=1・p_early=1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>s_058（058 の再現）</td>
+<td>1.097／1.27</td>
+<td>2.12／4.09</td>
+</tr>
+<tr>
+<td>s_M（p_hit）</td>
+<td>1.094／1.26</td>
+<td><strong>2.07／3.96</strong></td>
+</tr>
+<tr>
+<td>s_mix（主）</td>
+<td><strong>1.045／1.12</strong></td>
+<td>1.45／2.24</td>
+</tr>
+<tr>
+<td>s_low</td>
+<td>1.017／1.05</td>
+<td>1.14／1.39</td>
+</tr>
+<tr>
+<td>線形 thr=1−s、s_mix</td>
+<td><strong>1.007</strong>／1.02</td>
+<td>1.05／1.14</td>
+</tr>
+<tr>
+<td>線形、s_M</td>
+<td>1.016／1.04</td>
+<td>1.13／1.35</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>A_XPT_S・U2 はどの版も 1.06 以下（s_mix 主 1.006）。</li>
+<li>費用あたり（全段の T＋C、V_mix）：2.33 → s_mix 2.43、最も有利な s_M・ψ=1・p_early=1 でも 4.83 で S_TC の 6.89 に届かない。056 の釣り合い 5.0 にはどの版も届かない。</li>
+</ul>
+<h3 id="_4">重い崩壊と軽い崩壊</h3>
+<p>重い崩壊の部分の F は s_mix で 1.12（058 では 1.27）。軽い崩壊は計算機の社会が残り段の閾値が縛りにならないので、この線はもともとほぼ効かない。重い崩壊を優先しても、書いた手引きで閾値を下げる効きは小さい。</p>
+<h2 id="_5">仮説の判定（事前登録どおり）</h2>
+<ul>
+<li>H71a 支持：s_M（p_hit）の中央値 0.39 &lt; 0.5。</li>
+<li>H71b 支持：比 0.10／0.12 &lt; 0.3。一定の α の模型は実験2 に合わない。</li>
+<li>H71c 支持：a = 0.39 ≥ 0.3。</li>
+<li>H71d 支持：相対差 6e−15。</li>
+<li>H71e 支持：F 1.045 &lt; 1.097。</li>
+<li>H71f 支持：線形版 1.0067 &lt; 1.05。</li>
+<li>H71g 支持：s_M・ψ=1・p_early=1 でも 2.07 &lt; 5.0。</li>
+<li>H71h 支持：Derex の CI は 0 を含み、上端は世代の効きの 0.47倍。</li>
+</ul>
+<h2 id="_6">批判的な検討</h2>
+<ul>
+<li>書いた手引きだけを、実演と、何もなしと比べた連鎖の実験は見つからなかった。Derex（340字の理論、成果物つき）と Muthukrishna 実験1（比較の条件なし）が最も近い。s_mix は「書いたものは対面の言葉の教示を超えない」と「多くの実験で言葉・書いた経路は実演を上回らない」の2つの読みに依る【推測】。</li>
+<li>実験はどれも学生、短い学習（Morgan は5分）、数世代。崩壊後の何年もの徒弟の学習とは違う。長い学習なら条件の差は縮むかもしれないと Morgan も書く。</li>
+<li>w の数え方（Zwirner を 0.5）を 0 か 1 に変えると w は Beta(1.5,4.5)〜Beta(2.5,3.5)（平均 0.25〜0.42）で、s_mix の平均は 0.41w̄＋0.05(1−w̄) より 0.14〜0.20 と、058 の平均 0.44 の半分以下に留まる【計算、手計算の近似】。</li>
+<li>実験の N* 13人は5手本の傾きが有意でない（p=0.37）ため幅が大きく、段の閾値の数字に移せるものではない。</li>
+</ul>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<p>本研究所は s の主を s_mix（中央値 0.075）に改め、F の主を 1.10 から 1.045（重い崩壊 1.12）に下げ、「全段の手引きは金庫の物差しで正当化できない」を s の線でも確定として、閾値・s の線は打ち切る。手引きの企画者は、文章が実演の代わりにならないという実験の結果を受けて、手順の各段の手の動きと仕上がりの状態を図で示し、1つの変数だけの説明（Derex で探索を狭めた形）を避ける【推測】。この問いを詰めたい研究者には、専門家から始め「手引きだけ」「手引き＋成果物」「実演」を比べる10世代の連鎖の実験が要る。</p>
+<h2 id="_8">新規性</h2>
+<p>Henrich 2004 の α を、伝達の連鎖の実験の公開の数値から「書いた・言葉の経路が損失を減らす割合」として取り出し、文明の回復の価値の模型（054〜058）に入れた例は見当たらない【推測、網羅的な検索はしていない】。Muthukrishna 2014 の傾きの比で Henrich の一定の α を退けつつ、閾値の比の式は床への戻りの模型でも同じ形で残ることを示した。</p>
+<h2 id="_9">逸脱</h2>
+<p>初回の実行の後、実験の N* の分位点が無限大の扱いで NaN になったので、傾きが逆の標本を 1e12 として数えるように直し、図の使っていない行を消した。乱数の順は変えておらず、他の数値は初回と同じ。</p><footer><hr><small>自動生成</small></footer></body></html>
