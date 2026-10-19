@@ -1,0 +1,32 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究051 事前登録（2026-10-19T00:44:58Z、喪失の結果を計算する前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="051-2026-10-19t004458z">研究051 事前登録（2026-10-19T00:44:58Z、喪失の結果を計算する前）</h1>
+<h2 id="_1">何を見た後か（正直な記録）</h2>
+<ul>
+<li>Seshat Equinox-2020（sources/ の xlsx）の表の名前、列の名前、値の符号（1／0.9＝推定あり／0.5／0.1＝推定なし／0／−999＝欠測）、NGA ごとの行数、SPC の分布（平均 4.57、標準偏差 1.63）だけを見た。どの変数でも「崩壊の後に何が失われたか」はまだ数えていない。</li>
+</ul>
+<h2 id="open_problems-137">問い（open_problems 137）</h2>
+<p>048 の参照の集合（一人が選び符号化した18件）を、体系的に選ばれた標本（Seshat の World Sample の35 NGA、世紀ごとの時系列）に置き換え、崩壊の後の段の喪失の割合を機械的な規則で数えると、h の読み（V1 文字、V2 2つ以上の技術、V4 金属）は 048 とどう違い、h*（P1 で 0.097）のどちら側に来るか。</p>
+<h2 id="_2">規則（固定）</h2>
+<ul>
+<li>単位：TSDat123 の NGA ごとの世紀の行。値は ≥0.9 をあり、≤0.1 をなし、0.5 と −999 を不明とする。</li>
+<li>崩壊の episode（分母）：主 D_pop＝ImpSCDat の Pop（log10 の政体人口、補完済み）が、直前 100〜200 年の最大から log10(2)=0.301 以上下がった世紀を onset とする。最大を取った世紀を peak。onset が前の episode の peak から 300 年以内なら同じ episode にまとめる。感度：Pop の下がり 1.0（1/10）、SPC の下がり 1.0（SPC は情報の変数を含むので循環に注意）、Dupl=y の行を除く、episode を peak の PolID で重複除去。</li>
+<li>喪失：peak の行であり（≥0.9）の技術が、(peak, peak+500年] の中で2世紀続けてなし（≤0.1）になる。感度：1世紀でも、窓 300年・1000年、0.9/0.1 を数えず 1/0 だけを使う。</li>
+<li>窓の中にその変数の既知の値が1つもない、または系列が peak から 200 年以上続かない episode は、その変数の分母から外す。</li>
+<li>読み：</li>
+<li>S1（文字の段）＝Script の喪失（Script が不明なら WRecord）。S1b＝Script か FullTBur（専業の役人）の喪失。</li>
+<li>S2（2つ以上の専門の技術）＝{Script, PractLit, FullTBur, IndigCoin, Court, Market, Road, Bridge, Canal, Mine, Bronze, Iron} のうち peak にあったものが2つ以上失われた。</li>
+<li>S4（金属の段）＝金属の段 m（Copper 1、Bronze 2、Iron 3、Steel 4 のうちありの最大）が peak で ≥1 の episode で、m が 0 に落ちる。S4b＝m が1段以上下がる。</li>
+<li>背景率（符号の揺れ）：どの episode の (peak, peak+500] にも入らない世紀を仮の peak にして同じ規則で数えた割合。差し引いた h＝(p−p_bg)/(1−p_bg) を感度とする。</li>
+<li>事後：Jeffreys Beta(k+0.5, n−k+0.5)。区間は NGA を単位にした cluster bootstrap（2,000回）も併記。</li>
+<li>模型への写し：048 の results.json の B_h_scan（A_Ord、A_XPT_S の total と share_from_heavy、h について線形）を線形補間して、事後の h の標本で重み付きの値、重い崩壊からの割合、P(h&gt;h*) を出す（h*=0.0967）。</li>
+<li>seed 20261051。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H63a：S1 の事後平均 ≤ 0.15（048 の V1 0.222 より低い）。</li>
+<li>H63b：S4 の事後平均 &lt; h*（0.097）。</li>
+<li>H63c：S1 の episode の喪失率は背景率の2倍以上。</li>
+<li>H63d：S2 の事後平均は 048 の V2 の 90% 区間 [0.056, 0.377] の中。</li>
+<li>H63e：重い崩壊を優先する判断の向きは 048 と同じ：S2 の事後平均 &gt; h* かつ S4 の事後平均 &lt; h*。</li>
+<li>H63f：分母の3版（Pop 0.301、Pop 1.0、SPC 1.0）で S1 の事後平均の幅 &lt; 0.10。</li>
+<li>H63g：S2 で置いた重み付き A_Ord は 048 の V2（0.00545）の ±10% 以内。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
