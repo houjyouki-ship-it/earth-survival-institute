@@ -6,7 +6,7 @@ import numpy as np
 T0 = time.time(); HERE = os.path.dirname(os.path.abspath(__file__))
 P73 = os.path.join(HERE, "..", "073-forager-mobility-reach", "sim.py")
 src = open(P73, encoding="utf8").read(); G = {"__file__": P73, "__name__": "x73"}
-exec(src[: src.index("# ---------- 図 ----------")], G)
+exec(src[: src.rindex("# ---------- 図 ----------")], G)
 R73 = json.load(open(os.path.join(os.path.dirname(P73), "results.json"), encoding="utf8"))
 R = {"note": "A は生存確率・復興確率ではない。提言は模型の中の順位（外部の検証はまだ）。"}
 # 検査：073 の主の summary を差0で再現
@@ -40,7 +40,8 @@ BIGPT = np.array([big[i] for i in range(NK)])  # 国ごとの pop_max 最大の�
 def Dto(S): return hav(plat[:, None], plon[:, None], plat[np.array(S)][None, :], plon[np.array(S)][None, :]) if len(S) else np.full((NP, 0), np.inf)
 def A_pts(S, w, reach, q):
     D = np.sort(Dto(S), axis=1); r = np.sort(np.asarray(reach, float))
-    n = np.stack([np.searchsorted(D[i], r, side="right") for i in range(NP)])  # 各点・各届く距離での写しの数
+    if D.shape[1] * len(r) <= 20000: n = (D[:, :, None] <= r[None, None, :]).sum(1)
+    else: n = np.stack([np.searchsorted(D[i], r, side="right") for i in range(NP)])  # 各点・各届く距離での写しの数
     return float(w @ (1 - q ** n).mean(1))
 # ---------- 置き方（N=35） ----------
 N = len(PLANS["per_subregion"])
@@ -75,14 +76,18 @@ R["country_model_mean_A"] = {"kmov": A_country(KMOV), "ref_071": A_country(CASES
 # ---------- mesh：主の届く距離での到達の期待値（q=0、4地理の平均の重み）を貪欲に最大化 ----------
 wbar = np.mean([W[(g, 1.0)] for g in GEOS], axis=0); ks = np.sort(KMOV)
 def cov(d): return 1 - np.searchsorted(ks, d, side="left") / len(ks)  # P(届く距離 >= d)
+RMAX = float(ks.max()); rows, cols, vals = [], [], []
+for c0 in range(0, NP, 500):
+    Dc = hav(plat[:, None], plon[:, None], plat[None, c0:c0 + 500], plon[None, c0:c0 + 500]); ii, jj = np.nonzero(Dc <= RMAX)
+    rows.append(jj + c0); cols.append(ii); vals.append(cov(Dc[ii, jj]))
+cand_of, surv_of, cv = np.concatenate(rows), np.concatenate(cols), np.concatenate(vals)
+o = np.argsort(cand_of, kind="stable"); cand_of, surv_of, cv = cand_of[o], surv_of[o], cv[o]
+starts = np.searchsorted(cand_of, np.arange(NP)); wsv = wbar[surv_of]; R["mesh_nnz"] = int(len(cv))
 cur = np.zeros(NP); mesh = []; CH = [35, 50, 100, 150, 200, 300, 400, 500, 700, 1000, 1500, 2000]; curve = {}
 for t in range(1, CH[-1] + 1):
-    best_g, best_j = -1.0, -1
-    for c0 in range(0, NP, 1500):
-        C = cov(hav(plat[:, None], plon[:, None], plat[None, c0:c0 + 1500], plon[None, c0:c0 + 1500]))
-        g = wbar @ np.maximum(C - cur[:, None], 0); j = int(np.argmax(g))
-        if g[j] > best_g: best_g, best_j = float(g[j]), c0 + j
-    mesh.append(best_j); cur = np.maximum(cur, cov(hav(plat, plon, plat[best_j], plon[best_j])))
+    gain = np.add.reduceat(np.maximum(cv - cur[surv_of], 0) * wsv, starts); gain[np.diff(np.r_[starts, len(cv)]) == 0] = 0
+    best_j = int(np.argmax(gain)); mesh.append(best_j); sl = slice(starts[best_j], starts[best_j + 1] if best_j + 1 < NP else len(cv))
+    cur[surv_of[sl]] = np.maximum(cur[surv_of[sl]], cv[sl])
     if t in CH:
         curve[t] = {"A_mean12": float(np.mean([A_pts(mesh, W[(g, 1.0)], KMOV, q) for q in QS for g in GEOS])),
                     "A_q0_wbar": float(wbar @ cur), "by_geo_q0.5": {g: A_pts(mesh, W[(g, 1.0)], KMOV, 0.5) for g in GEOS}}

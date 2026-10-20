@@ -1135,4 +1135,16 @@
 <li>判定（分類つき）：確認的 H85a・b 支持、H85c 棄却（0.176）。予測 H85d・f 支持、H85e 棄却（0.633）。記述は数えない。</li>
 <li>逸脱：登録の変数名 DISMOV（マイル、n=236）の代わりに同じ量の km 版 kmov（n=261）を主にした。最初の起動は pandas の読み取り専用の配列で数値の前に停止し、1行直して再実行した。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：金庫・冊子の運営者は、生き残りが狩猟採集民ほどしか動けない場合には小地域ごとに1つでも生存者の約 1/3 にしか届かないと考え、写し 35 部を前提にしない。本研究所は k の下限を 0.2 に広げ、次は国の中の地理での A（193）へ。</li>
+</ul>
+<h2 id="74-2026-10-21">第74回 2026-10-21</h2>
+<ul>
+<li>再現チェック：070〜073 を <code>/tmp/rep074/</code> に複製し、073 の sim.py（約57秒）を再実行した。results.json は runtime 以外一致。</li>
+<li>主課題：next_plan の推奨 A ＝ open_problems 193（国の中の地理での到達の指標）。固定の2節は残した。</li>
+<li>文献・データ（本回開いて確認）：Natural Earth 10m populated places simple の GeoJSON（https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson、7,342点、SHA256 は sources/SHA256SUMS.txt）。</li>
+<li>研究074を実施：<code>research/074-within-country-reach/</code>（sim.py 約98秒、計算のみ、本回の新しい乱数なし）。成果物は results.json、stdout.txt、fig_mesh_curve.png、fig_plans_points.png、fig_sites.png、report.md、PREREGISTRATION.md（2026-10-20T22:38Z、点のファイルの中身を開く前・sim.py の前）、sources/。<code>/tmp/rep074b/</code> で再実行し results.json は runtime 以外一致、図3枚の MD5 も一致。</li>
+<li>方法：073 の主の summary を差0で再現（assert）。6,891 点（国に結べないもの 441点を除く）に国の生存者の重みを pop_max の比で配り、072 の7つの置き方を各国の最大の点に写した版と点の上の per_subregion・pop の計9つを、q×地理の12条件・大圏で比較。kmov の届く距離での到達を貪欲に最大化する網目（mesh）で必要な部数を求めた。</li>
+<li>主要数値：7つの平均 A <strong>0.105</strong>（国の模型 0.282、比 0.372）。minimax regret・maximin の最良は per_subregion@cty（後悔 0.195、最悪 0.035）、平均の最大は pop@pt 0.161 だが refuge で 0（後悔 0.389）。sqrtpop・kmov×2・071 では per_subregion@pt が minimax regret の最良。071 の19件で比 0.917。mesh は N=35 で 0.300、100 で 0.419、<strong>200 で 0.510</strong>、300 で 0.565。</li>
+<li>判定（すべて計算前に登録した予測）：H86a・b・c・d 支持。ただし H86a は @cty か @pt の二つを当たりにした緩い基準（@pt 単独なら棄却）、b・c は幅が広く情報は少ない。</li>
+<li>逸脱：最初の起動は 073 の切り出し文字列が exec の行にも現れ index が誤り、数値の前に構文エラーで停止。rindex に直して再実行。H86b の判定に点検点の粗さへの条件を付けた。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：金庫・冊子の運営者は、崩壊後の移動が狩猟採集民の規模になる場合、35部の配置の工夫より部数を約 200 部の網目に増やす方が A を大きく上げる。置き方は小地域ごとに1つを基準にし、人口の多い都市だけに寄せない。本研究所は 073 の A 0.28 を国の中で 0.10 に改め、次は部数を TC と費用あたりに直す（191＋194）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

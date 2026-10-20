@@ -1,0 +1,67 @@
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 26 s
+main_kmov per_subregion@cty per_subregion@cty 66 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 76 s
+kmov_x2 per_subregion@pt per_subregion@pt 86 s
+ref_071 per_subregion@pt cover3000x@cty 88 s
+mesh 35 0.3002 91 s
+mesh 50 0.3359 93 s
+mesh 100 0.4191 93 s
+mesh 150 0.4718 94 s
+mesh 200 0.5097 96 s
+mesh 300 0.5654 97 s
+{
+ "points": {
+  "n_features": 7342,
+  "n_points_used": 6891,
+  "n_unmatched_country": 441,
+  "countries_without_points": [],
+  "points_per_country_median": 20.0
+ },
+ "country_model_mean_A": {
+  "kmov": 0.2818010684051081,
+  "ref_071": 0.5139749138989522
+ },
+ "mesh_N_for_A05": {
+  "first_checkpoint_ge_0.5": 200,
+  "last_checkpoint_below": 150
+ },
+ "mesh_countries_first100": 51,
+ "hypotheses": {
+  "H86a": {
+   "class": "予測",
+   "value": "per_subregion@cty",
+   "rule": "主の minimax regret の最良が per_subregion@cty か per_subregion@pt",
+   "supported": true
+  },
+  "H86b": {
+   "class": "予測",
+   "value": {
+    "first_checkpoint_ge_0.5": 200,
+    "last_checkpoint_below": 150
+   },
+   "rule": "mesh の12条件の平均 A が 0.5 に達する写しの数が 100〜1,000",
+   "supported": true
+  },
+  "H86c": {
+   "class": "予測",
+   "value": 0.3719289430931812,
+   "rule": "点の模型/国の模型 の7つの平均 A（kmov）< 0.5",
+   "supported": true
+  },
+  "H86d": {
+   "class": "予測",
+   "value": 0.917222854995615,
+   "rule": "点の模型/国の模型（071 の19件）>= 0.8",
+   "supported": true
+  }
+ }
+}
+main_kmov per_subregion@cty per_subregion@cty 0.1048 {'cover1500@cty': (0.1227, 0.2224), 'cover750@cty': (0.0585, 0.3262), 'cover3000x@cty': (0.0708, 0.2998), 'per_subregion@cty': (0.1277, 0.195), 'pop@cty': (0.1202, 0.3891), 'surv150@cty': (0.1318, 0.3262), 'bigplus@cty': (0.102, 0.2875), 'per_subregion@pt': (0.1166, 0.2274), 'pop@pt': (0.1614, 0.3891)}
+kmov_sqrtpop per_subregion@pt per_subregion@pt 0.0755 {'cover1500@cty': (0.0877, 0.1586), 'cover750@cty': (0.0453, 0.2556), 'cover3000x@cty': (0.0503, 0.2328), 'per_subregion@cty': (0.0924, 0.1394), 'pop@cty': (0.0823, 0.2911), 'surv150@cty': (0.0922, 0.2556), 'bigplus@cty': (0.0783, 0.1891), 'per_subregion@pt': (0.0936, 0.138), 'pop@pt': (0.1163, 0.2911)}
+kmov_x2 per_subregion@pt per_subregion@pt 0.1763 {'cover1500@cty': (0.2017, 0.2063), 'cover750@cty': (0.1211, 0.3993), 'cover3000x@cty': (0.1545, 0.3247), 'per_subregion@cty': (0.1997, 0.1776), 'pop@cty': (0.1907, 0.4895), 'surv150@cty': (0.2022, 0.3994), 'bigplus@cty': (0.1641, 0.2995), 'per_subregion@pt': (0.2067, 0.1647), 'pop@pt': (0.2302, 0.4895)}
+ref_071 per_subregion@pt cover3000x@cty 0.4714 {'cover1500@cty': (0.5181, 0.1418), 'cover750@cty': (0.4228, 0.4981), 'cover3000x@cty': (0.4696, 0.3159), 'per_subregion@cty': (0.4982, 0.1575), 'pop@cty': (0.4541, 0.7488), 'surv150@cty': (0.4666, 0.5506), 'bigplus@cty': (0.4706, 0.2237), 'per_subregion@pt': (0.5256, 0.1248), 'pop@pt': (0.4724, 0.7488)}
+runtime 98.3

@@ -1,0 +1,55 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究074：国の中の地理（点の人口）での到達の指標 A と必要な写しの数 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="074-a">研究074：国の中の地理（点の人口）での到達の指標 A と必要な写しの数</h1>
+<blockquote>
+<p>注：指標 A は生存確率でも復興確率でもない（届く範囲に生き残った写しが1つ以上ある生存者の重みの割合）。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="open_problems-193">問い（open_problems 193）</h2>
+<p>073 で、狩猟採集民の届く距離（中央値 145 km）では国の中心の模型の A の 88〜99% が「自国に写しがある」だけで決まった。生存者と写しを国の中の点に置くと、A と置き方の順位、必要な写しの数はどう変わるか。</p>
+<h2 id="_1">資料</h2>
+<ul>
+<li>【事実（出典）】Natural Earth 10m populated places simple（https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson、本回取得、7,342点、属性 pop_max・latitude・longitude・iso_a2・adm0_a3。SHA256 は sources/SHA256SUMS.txt）。</li>
+<li>072 の国（159）・Xia 2022 S5 の地理の重み・M49 の小地域・国の中心、073 の Binford kmov（261群）、071 の19件を再利用。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>073 の sim.py を図の前まで exec し、073 の主の summary を差0で再現（assert）。073 も <code>/tmp/rep074/</code> で再実行し results.json は runtime 以外一致。</li>
+<li>国に結べた 6,891 点（441 点は 159国の外の地域）。国の生存者の重みを国の中の点に pop_max の比で配る（版：pop_max^0.5）。</li>
+<li>置き方 N=35：072 の7つを国→その国の最大の点に写した版（@cty）、点の上の per_subregion@pt（小地域の人口の重みの中央点＋最遠の国の最大の点で埋める）、pop@pt（最大の点 35）。条件は q（0・0.5・0.8）×地理（xia150・xia47・pop・refuge）の 12、距離は大圏だけ。</li>
+<li>mesh：kmov の届く距離で、4地理の平均の重みの到達の期待値（q=0）を貪欲に最大化した点の列。12条件の平均 A が 0.5 に届く N を求める。</li>
+<li>PREREGISTRATION.md（22:38Z、点のファイルの中身を開く前・sim.py の前）で H86a〜d を登録。</li>
+</ul>
+<h2 id="resultsjsonstdouttxt">結果（results.json、stdout.txt）</h2>
+<ul>
+<li>主（kmov、点の重み pop_max）：7つの @cty の平均 A <strong>0.105</strong>、同じ7つ・同じ12条件の国の模型は 0.282、比 <strong>0.372</strong>。</li>
+<li>9つの置き方の minimax regret の最良は <strong>per_subregion@cty</strong>（最大の後悔 0.195、平均 A 0.128）、maximin も同じ（最悪 0.035）。per_subregion@pt は 0.227。平均 A の最大は pop@pt 0.161 だが refuge で 0 になり後悔 0.389。</li>
+<li>版：sqrtpop・kmov×2 では per_subregion@pt が両基準で最良（後悔 0.138・0.165）。071 の19件では minimax regret は per_subregion@pt（0.125）、maximin は cover3000x@cty。小地域ごとの置き方は4版すべてで minimax regret の最良（@cty か @pt）。</li>
+<li>071 の19件では点の模型/国の模型 = <strong>0.917</strong>（長い届く距離では国の中の解像度はほぼ効かない）。</li>
+<li>mesh：N=35 で 0.300（同じ N の最良の固定の置き方の約2倍。ただし mesh は主の届く距離と4地理の平均に合わせて作った）、50 で 0.336、100 で 0.419、150 で 0.472、<strong>200 で 0.510</strong>、300 で 0.565。q=0.5 の pop の地理は 300 でようやく 0.505。最初の 100 点は 51 か国に散る。</li>
+</ul>
+<h2 id="_3">仮説の判定（すべて計算前に登録した予測。記述は数えない）</h2>
+<ul>
+<li>H86a（per_subregion が minimax regret の最良）：<strong>支持</strong>（per_subregion@cty）。</li>
+<li>H86b（mesh の平均 A 0.5 に要る N が 100〜1,000）：<strong>支持</strong>（150 と 200 の間、点推定 300 より少ない）。</li>
+<li>H86c（点/国の比 &lt; 0.5）：<strong>支持</strong>（0.372）。</li>
+<li>H86d（071 の19件で点/国の比 ≥ 0.8）：<strong>支持</strong>（0.917）。</li>
+<li>批判：4つとも支持だが、H86b・c は幅の広い予測で、当たっても情報は少ない。H86a は @cty と @pt の二つを当たりにした緩い基準で、主では @pt 単独なら棄却（後悔 0.227 &gt; 0.195）。</li>
+</ul>
+<h2 id="_4">解釈</h2>
+<ul>
+<li>【推測】狩猟採集民の届く距離では、35部の写しはどう置いても生存者の約 1/10〜1/6 にしか届かず、073 の 0.28 は国の中心の模型の作り物だった（約 2.7倍の過大）。</li>
+<li>【推測】順位では「小地域ごとに1つ」がなお最も外れにくい（最悪の地理で後悔が最小）が、平均 A の差は 0.03 程度で、写しの数（N）の効きの方がはるかに大きい（35→200 で約 4倍）。</li>
+<li>【独自仮説】崩壊後の移動が狩猟採集民の規模なら、運営者が決めるべきは置き場所より部数で、約 200 部を人口の点の網目に散らすと 12 条件の平均で半分の生存者に届く。</li>
+</ul>
+<h2 id="_5">限界</h2>
+<ul>
+<li>生存者を都市の点の pop_max に比例させた（農村・都市の外の生存者を表さない）。sqrtpop の版で平均 A はさらに約 3割下がる。</li>
+<li>距離は大圏だけで障壁は入れていない（072 で障壁は最良の置き方を 10〜17% しか変えなかったが、短い距離では海の効きが大きい可能性）。</li>
+<li>kmov は年間の住居の移動で、文書を取りに行く旅ではない。</li>
+<li>A は読める確率・群の数・時間を入れていない（TC との対応は 191）。</li>
+</ul>
+<h2 id="_6">逸脱</h2>
+<ul>
+<li>最初の起動は 073 の sim.py の中の切り出し文字列（「# ---------- 図 ----------」）が exec の行にも現れ、index が誤った位置を取って構文エラーで停止（数値の前）。rindex に直して再実行した。</li>
+<li>H86b の判定に「0.5 未満の最後の点検点が 70 以上」を付けた（N の点検点が粗いため。登録の範囲は変えていない）。</li>
+</ul>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>金庫・冊子の運営者は、崩壊後の移動が狩猟採集民の規模になる場合を考えるなら、35部の配置の工夫より部数を約 200 部の網目に増やす方が A を大きく上げる（模型の中で）。置き方は小地域ごとに1つを基準にし、人口の多い都市だけに寄せない。本研究所は 073 の A 0.28 を国の中で 0.10 に改め、次は A と重い崩壊の TC の対応（191）で部数の価値を費用あたりに直す。</p><footer><hr><small>自動生成</small></footer></body></html>
