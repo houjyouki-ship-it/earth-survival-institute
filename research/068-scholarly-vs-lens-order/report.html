@@ -1,0 +1,229 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究068：学問の段は読取装置の段より先に来るか（open_problems 179） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="068open_problems-179">研究068：学問の段は読取装置の段より先に来るか（open_problems 179）</h1>
+<p>2026-10-20、第68回。計算のみ（sim.py、seed 20261068、約193秒、ネット接続なし）。事前登録：PREREGISTRATION.md（10:45Z、資料を読み事例表を符号化した後・sim.py の前）。</p>
+<h2 id="_1">問い</h2>
+<p>067 で、重い崩壊（機械が止まり T1・T0 から再出発）の後の社会が座標の冊子と primer（絵の読み方の手引き）に取り組むのは「学問の段 P」に入ってからと置き、P が T2（読取装置を作れる段）より Δ 年先なら primer の価値が戻る（Δ=0 で 0.813、Δ≥400 で 0.851、Δ_half 34年）と分かった。本回は P を二つに分けた。
+- <strong>R1（文献学の段）</strong>：読める文字の古い文書・碑文を体系的に集め・写し・比べ・誤りを正す。
+- <strong>R2（読めない文字への体系的な取り組み）</strong>：067 の onset。
+そして 5つの社会で R1 と L（望遠鏡・顕微鏡の級のレンズをその社会で作った年）の順を数え、R1 の段にある社会が L より前に、見えていた読めない文字に取り組んだかを数えた。</p>
+<h2 id="wikipedia-mediawiki-api-sources">資料（本回開いて確認、Wikipedia の MediaWiki API で取得し sources/ に保存。英語版のほか日本語版・中国語版・韓国語版）</h2>
+<p>符号の規則は sources/make_cases.py の冒頭（R1 の年の選び方は一人の判断で【推測】）。抜き出し 40件は sources/verify_excerpts.py で保存本文と照合しすべて一致。</p>
+<table>
+<thead>
+<tr>
+<th>社会</th>
+<th>R1</th>
+<th>L（望遠鏡級のレンズ）</th>
+<th>Δ1 = L − R1</th>
+<th>L より前の読めない文字の曝露</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Europe（Italy）</td>
+<td>1421（Cyriacus が碑文に向かう。alt Valla 1439〜40）</td>
+<td>1608（望遠鏡。alt 顕微鏡の主張 1590）、独立</td>
+<td><strong>187</strong></td>
+<td>Egyptian 1421〜1608、187年、体系的 0（Hypnerotomachia 1499 の偽の hieroglyph、Horapollo の印刷は誤った鍵）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Cyriacus_of_Ancona">Cyriacus of Ancona</a>、<a href="https://en.wikipedia.org/wiki/Lorenzo_Valla">Lorenzo Valla</a>、<a href="https://en.wikipedia.org/wiki/History_of_the_telescope">History of the telescope</a>、<a href="https://en.wikipedia.org/wiki/Timeline_of_microscope_technology">Timeline of microscope technology</a>、<a href="https://en.wikipedia.org/wiki/Flaminio_Obelisk">Flaminio Obelisk</a>、<a href="https://en.wikipedia.org/wiki/Hypnerotomachia_Poliphili">Hypnerotomachia Poliphili</a>）】</td>
+</tr>
+<tr>
+<td>Song China</td>
+<td>1132（Zhao Mingcheng の Jin Shi Lu、碑文約2,000の考証）</td>
+<td>1635（薄珏の千里鏡。湯若望の書の影響＝伝播）</td>
+<td><strong>503</strong></td>
+<td>Khitan 1165【推測：「数十年」】〜1635、470年、体系的 0（Tao Zongyi 1376 の5字の注は記録）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Zhao_Mingcheng">Zhao Mingcheng</a>、<a href="https://en.wikipedia.org/wiki/Ouyang_Xiu">Ouyang Xiu</a>、<a href="https://zh.wikipedia.org/wiki/薄珏">薄珏</a>、<a href="https://zh.wikipedia.org/wiki/孙云球">孙云球</a>、<a href="https://en.wikipedia.org/wiki/Khitan_large_script">Khitan large script</a>、<a href="https://en.wikipedia.org/wiki/Glasses">Glasses</a>）】</td>
+</tr>
+<tr>
+<td>Edo Japan</td>
+<td>1683（契沖が万葉代匠記に着手。alt 1690）</td>
+<td>1790頃（岩橋善兵衛が自ら磨いたレンズの望遠鏡。渡来品の研究＝伝播。alt 国友の反射 1831）</td>
+<td><strong>107</strong></td>
+<td>本文で決まらず数えない</td>
+<td>【事実（<a href="https://ja.wikipedia.org/wiki/万葉代匠記">万葉代匠記</a>、<a href="https://ja.wikipedia.org/wiki/契沖">契沖</a>、<a href="https://ja.wikipedia.org/wiki/岩橋善兵衛">岩橋善兵衛</a>、<a href="https://en.wikipedia.org/wiki/Rangaku">Rangaku</a>、<a href="https://en.wikipedia.org/wiki/Kunitomo_Ikkansai">Kunitomo Ikkansai</a>）】</td>
+</tr>
+<tr>
+<td>Abbasid</td>
+<td>813（al-Ma'mun の治世、外国の文書を集める遠征、「Egyptology を進めた」）</td>
+<td>1608 より後（右打ち切り。読む石は約1000年から）</td>
+<td><strong>≥795</strong></td>
+<td>Egyptian 813〜1258（House of Wisdom の破壊）、445年、体系的 0（9〜10世紀の試みは 067）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/House_of_Wisdom">House of Wisdom</a>、<a href="https://en.wikipedia.org/wiki/Reading_stone">Reading stone</a>）】</td>
+</tr>
+<tr>
+<td>Byzantine</td>
+<td>850【推測：「9世紀」】（Photios の Bibliotheca、279冊の書評）</td>
+<td>1608 より後（右打ち切り）</td>
+<td><strong>≥758</strong></td>
+<td>Hippodrome の hieroglyph の obelisk（390 から）850〜1453、603年、取り組みの記述なし</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Bibliotheca_(Photius)">Bibliotheca (Photius)</a>、<a href="https://en.wikipedia.org/wiki/Obelisk_of_Theodosius">Obelisk of Theodosius</a>、<a href="https://en.wikipedia.org/wiki/Ottoman_Empire">Ottoman Empire</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>質的にだけ使った例：清の考証学の社会は 1899 に新しく手にした甲骨の文字を古い漢字と認め、1903 に 34字を読んだ（自分の文字の祖先なので R2 に数えない。067 の「新しく手にした文書」と同じ型）【事実（<a href="https://en.wikipedia.org/wiki/Wang_Yirong">Wang Yirong</a>、<a href="https://en.wikipedia.org/wiki/Oracle_bone_script">Oracle bone script</a>）】。朝鮮の金正喜の金石学は R1 だが、望遠鏡級のレンズを作った年が本文になく除いた【事実（<a href="https://en.wikipedia.org/wiki/Kim_Chŏnghŭi">Kim Chŏnghŭi</a>、<a href="https://ko.wikipedia.org/wiki/안경">안경</a>）】。</p>
+<h2 id="1">結果1：文献学の段はレンズより何百年も先に来るが、読めない文字への取り組みは起こさない</h2>
+<ul>
+<li>R1 は 5社会すべてで L より前（Δ1 = 107、187、503、≥758、≥795年、中央値 503）【計算】。067 の P を R1 と読めば Δ は Δ_half（34年）を大きく超える。</li>
+<li>しかし R1 の段にある社会が L の前に読めない文字を見ていた <strong>1,705 社会年</strong>で、体系的な取り組みは <strong>0件</strong>【計算】。Jeffreys の事後で R1 の段の取り組みの時定数 τ1 の中央値は <strong>7,472年</strong>（90% 884〜85万年）。067 の前近代の時定数 5,874年と区別できず、鍵ありの読みの τ_key（65年）の 115倍。</li>
+<li>唯一 R2 に達した Europe では、R2（1616 の Palmyrene の碑文の印刷）は R1 の <strong>195年後</strong>、望遠鏡（1608）の <strong>8年後</strong>（alt の Kircher 1643 なら 35年後）。Δ2 = L − R2 = <strong>−8年</strong>で、R2 は T2 より先に来なかった【計算】。</li>
+<li>【推測】読めない文書に取り組むかは「古い文書を大事にする学問」があるかでは決まらず、欧州でレンズと同じ時期に来た別の何か（印刷・収集・解読を競う学会など）と一緒に来た。この標本では R2 と T2 は同じ一揃いの中にある。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<p>067 の sim.py を「# ---------- 版 ----------」の前まで exec し、067 の主（重い崩壊 A_Ord/U3 <strong>0.81262</strong>）を差0で再現した（全6値の最大差 0.0）。新しい三区間の式（崩壊〜R1：067 の λ_any、R1〜R2：λ1 ~ Gamma(0.5+k1, 1/E1)、R2 の後：すぐ取り組む。どこでも取り組んでから τ_key で読む）は Δ1=0 で 067 の主と差 0.0 で一致した。R1 は T2 の Δ1 年前（5社会からの復元抽出、打ち切りは下限）、R2 は T2 の −8 年前（つまり T2 の後）。</p>
+<h2 id="2">結果2：冊子の価値</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>重い崩壊の p_pr</th>
+<th>A_Ord/U3 全体</th>
+<th><strong>A_Ord/U3 重い崩壊</strong></th>
+<th>A_XPT_S/U2 重い崩壊</th>
+<th>軽い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>066 主（崩壊から取り組む）</td>
+<td>0.631</td>
+<td>0.933</td>
+<td>0.851</td>
+<td>0.868</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>primer なし</td>
+<td>—</td>
+<td>0.918</td>
+<td>0.809</td>
+<td>0.828</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>067 主（Δ=0）</td>
+<td>0.105</td>
+<td>0.919</td>
+<td>0.813</td>
+<td>0.831</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td><strong>068 主</strong></td>
+<td>0.116</td>
+<td><strong>0.919</strong></td>
+<td><strong>0.813</strong></td>
+<td><strong>0.832</strong></td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>k1（Europe の 1616 を R1 の段の件に数える）</td>
+<td>0.188</td>
+<td>0.921</td>
+<td>0.817</td>
+<td>0.835</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>abb1600（Abbasid の曝露を 1600 まで）</td>
+<td>0.109</td>
+<td>0.919</td>
+<td>0.813</td>
+<td>0.831</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>exp_half（曝露を半分）</td>
+<td>0.147</td>
+<td>0.920</td>
+<td>0.814</td>
+<td>0.833</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>R1alt・cens2x・eur_only</td>
+<td>0.111〜0.115</td>
+<td>0.919</td>
+<td>0.813</td>
+<td>0.832</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>W20（T2 の後 20年まで読めれば足りる）</td>
+<td>0.212</td>
+<td>0.922</td>
+<td>0.821</td>
+<td>0.840</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>W20_R2alt（W20 で R2 が T2 の 35年後）</td>
+<td>0.118</td>
+<td>0.919</td>
+<td>0.813</td>
+<td>0.832</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>R1_fast（R1 の後すぐ取り組む＝楽観の読み）</td>
+<td>0.598</td>
+<td>0.932</td>
+<td><strong>0.848</strong></td>
+<td>0.867</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>- τ1 の走査（重い崩壊 A_Ord/U3）：65年 0.841、100年 0.839、300年 0.829、1,000年 0.819、3,000年 0.813、10,000年 0.811。上げ幅の半分（0.830）には τ1 ≈ 300年が要るが、事後の 95% 点の下は 884年。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用あたり（全体、中央値、TAB=1）：primer の追加分は main <strong>1.8</strong>（067 は 1.7、k1 3.4、W20 5.4、R1_fast 17.5）、冊子だけ 44。重い崩壊だけで primer の追加分 6.3。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説の検証</h2>
+<ul>
+<li>H80a（Δ1 &gt; 0 が全社会）：支持（5/5）。</li>
+<li>H80b（k1 = 0 かつ E1 ≥ 1,000）：支持（0件、1,705）。</li>
+<li>H80c（Europe で 0 ≤ R2 − L ≤ 50）：支持（8年）。</li>
+<li>H80d（main ≤ 067 主 + 0.01）：支持（0.8128 対 0.8126）。</li>
+<li>H80e（R1_fast ≥ 067 主 + 0.025）：支持（0.848）。</li>
+<li>H80f（τ1 の中央値 ≥ 10 × τ_key）：支持（7,472 対 65）。</li>
+<li>H80g（primer の追加分の費用あたり &lt; 冊子だけ）：支持（1.8 対 44）。</li>
+<li>H80h（欧州以外で点の年が両方決まる社会 ≥ 3）：<strong>棄却</strong>（2：Song China、Edo Japan）。</li>
+</ul>
+<h2 id="_4">批判的な検討</h2>
+<ul>
+<li><strong>切り替えの規則を守らなかった</strong>：next_plan は「欧州以外で両方の年が決まる社会が 3 未満なら B へ」と決めていた。点で決まるのは 2社会で、規則の字面では B に移るべきだった。本回は L が「1608 より後」と本文で決まる Abbasid・Byzantine を打ち切りとして数え A を続けた（事前登録に書いた逸脱）。主の結論（H80b）は Δ の分布でなく曝露と件数に乗り、曝露 1,705 年のうち 1,048 年はこの 2社会から来る。打ち切りの 2社会を除くと E1 は 657 年で τ1 の中央値は約 2,890年【計算：本回の別計算、Gamma(0.5, 1/657) の中央値の逆数】、それでも τ_key の 40倍以上。</li>
+<li><strong>非欧州の L は伝播</strong>：China の 1635 と Japan の 1790 は欧州の望遠鏡を知ってから作った年で、独立に作る年はもっと後か、なかったかもしれない。Δ1 はどちらも下限で、R1 の楽観の版をさらに楽観にする向きにしか効かない。主の版は Δ1 にほとんど感応しない（0.8125〜0.8128）。</li>
+<li><strong>「取り組みがない」の証拠は弱い</strong>：Byzantine と Khitan の 0件は Wikipedia の本文に記述がないことによる。中世の Islam の 9〜10世紀の試み（067）は体系的でない試みとして数えていない。どれか 1件を体系的と数えても k1 の版（τ1 中央値 1,446年、0.817）の程度。</li>
+<li><strong>標本は R2 の一つの出来事</strong>：R2 に達したのは Europe だけで、R2 が T2 と同じ一揃いに入るという読みは 1件の上にある。ほかの社会は L を独立に得る前に欧州とつながったので、R2 と T2 の順が独立な社会で何回見られたかは 0回。</li>
+<li><strong>冊子は遺跡の碑文と違う</strong>：冊子は読まれるために作られ、R1 の社会は「読める文字の古い本」を大事にした（考証学は甲骨を数か月で読み始めた）。冊子が後の社会にとって「自分の文字の祖先」に見えれば R1 の段で読まれうる。ただし重い崩壊の後で文字が切れた後の社会にとっては、冊子の文字は外国の文字である（064・065）。</li>
+<li>軽い崩壊（計算機の社会が残る）では文字が続くので primer は使われず 0.969 で不変。</li>
+</ul>
+<h2 id="_5">軽い崩壊と重い崩壊</h2>
+<ul>
+<li>重い崩壊：冊子＋primer の価値は 067 の 0.813 で動かない（068 主 0.813、版 0.813〜0.821。R1 をそのまま P と読む楽観の版だけ 0.848）。primer なしは 0.809。</li>
+<li>軽い崩壊：0.969 で不変。全体 0.919（A_Ord）。</li>
+</ul>
+<h2 id="_6">新規性</h2>
+<p>文献学の段とレンズの段の順を欧州と非欧州の5社会で並べ、文献学は 107〜800年先に来るのに、その段の社会が読めない文字を見ていた 1,705 社会年で体系的な取り組みが 0件だったことを示し、「学問の段が先に来れば primer が戻る」という 067 の逃げ道を、学問の段を二つに分けて塞いだのは本研究所で初めて【推測：網羅的に調べたわけではない】。【独自仮説】読めない文字への取り組みは、レンズ・印刷・学会と同じ「科学の一揃い」と一緒に来る。重い崩壊の後の社会にとって、primer が読まれるのは T2 とほぼ同時かその後で、T2 までに冊子を使わせるのは「読まずに使える部分」だけ。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者は、primer を「文献を大事にする前近代の学者が解いてくれる」ことに期待して予算を割くべきでない（費用あたり 1.8、冊子の配布は 44）。予算は冊子の部数と別々の預け先に回し、座標と道順は文字を読まずに使える形（地図、方位、数の絵）で冊子の最初に載せるべき【推測】。本研究所は 067 の「Δ 次第で 0.813〜0.851」を「学問の段を二つに分けると Δ は R2 で −8年、重い崩壊は 0.813（版 0.813〜0.821）」に改め、179 の線は閉じる。次は文字なしで伝わる部分の割合（180＋176）へ進む。</p>
+<h2 id="_8">再現と逸脱</h2>
+<ul>
+<li>再現チェック：024〜067 を <code>/tmp/rep068/</code> に複製し 067 の sim.py（約187秒）を再実行、results.json は runtime 以外一致（葉 561個、差分0）。</li>
+<li>068 は 024〜068 とともに <code>/tmp/rep068b/</code> に複製して再実行し、results.json は runtime 以外一致（葉 529個、差分0）、図2枚の MD5 も一致。</li>
+<li>逸脱1：next_plan の切り替え規則（上の批判的な検討の1つめ）。</li>
+<li>逸脱2：最初の実行は sim.py の 23行目で 067 の名前空間の B を引こうとして止まった（B は 067 の「版」の節の後で定義され、065 の名前空間にある）。G67["G65"]["B"] に直して再実行した。数値は見ていない。</li>
+<li>取得したが数字に使わなかった頁：Gu Yanwu、Yan Ruoqu、Kaozheng（甲骨の例に質的に）、Telescope、Microscope、Optical microscope、History of optics、Ibn al-Haytham、Ibn Sahl、Taqi ad-Din（望遠鏡の記述なし）、Graeco-Arabic translation movement、Photios I、Renaissance humanism、Petrarch（写本の収集の年が本文で決まらない）、Lateran Obelisk、Tangut script（失われた年が本文で決まらない）、Khitan small script、Jurchen script（明代にも知られていた）、Kokugaku、Hiraga Gennai、Inō Tadataka、Johann Adam Schall von Bell、Ming dynasty、Silhak、ja:眼鏡、zh:金石学、ko:망원경、ko:김정희、ko:북한산 신라 진흥왕 순수비、ko:금석학。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

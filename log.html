@@ -1040,4 +1040,20 @@
 <li>判定：H79a・b・c・d・e・g・h 支持、H79f（strict ≥ 3）棄却。</li>
 <li>逸脱：事前登録の「6件」は規則どおりだと Maya を含め 7件。最初の実行で失われる前の Landa の表（1566）を前近代の試みに数え曝露が負になる誤りがあり、note に合わせて直し再実行した（主 0.8144→0.8126、判定は不変）。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は primer を「T2 より前の社会が読み解く」ための予算と見ず、部数と預け先を優先し、座標を文字なしで使える形〔地図・方位・数の絵〕で冊子の最初に載せる方を試す。本研究所は 065・066 の 0.845〜0.851 を「取り組みの始まりを段に結ぶと 0.813、Δ 次第で 0.813〜0.851」に改め、次は 176 と新しい 179〔学問の段と読取装置の段の順〕へ）。</li>
+</ul>
+<h2 id="68-2026-10-20">第68回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024〜067 を <code>/tmp/rep068/</code> に複製し、067 の sim.py（約187秒）を再実行した。results.json は runtime 以外一致（葉 561個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨 A（179：学問の段と読取装置の段の順）を主課題にした。切り替えの条件（欧州以外で両方の年が本文で決まる社会が3つ以上）は点の年では 2（Song China、Edo Japan）で満たさなかったが、L が「1608 より後」と決まる Abbasid・Byzantine を打ち切りとして数える読みで A を続けた（事前登録に書いた逸脱。次回からは字面どおりに守る）。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献（本回開いて確認、MediaWiki API）：Wikipedia 英語版の Cyriacus of Ancona、Lorenzo Valla、History of the telescope、Timeline of microscope technology、Glasses、Flaminio Obelisk、Hypnerotomachia Poliphili、Zhao Mingcheng、Ouyang Xiu、Khitan large script、Rangaku、Kunitomo Ikkansai、House of Wisdom、Reading stone、Bibliotheca (Photius)、Obelisk of Theodosius、Ottoman Empire、Wang Yirong、Oracle bone script、Kaozheng、Kim Chŏnghŭi、中国語版の 薄珏・孙云球、日本語版の 万葉代匠記・契沖・岩橋善兵衛、韓国語版の 안경。抜き出し 40件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。ほかに取得して数字に使わなかった頁は report.md の末尾。</li>
+<li>研究068を実施：<code>research/068-scholarly-vs-lens-order/</code>（sim.py 約193秒 seed 20261068、計算のみ）。成果物は results.json、stdout.txt、fig_order_and_tau1.png、fig_versions.png、report.md、PREREGISTRATION.md（10:45Z、資料を読み符号化した後・sim.py の作成の前）、sources/（本文、fetch.py、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep068b/</code> で再実行し results.json は runtime 以外一致（葉 529個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：067 の sim.py を「# ---------- 版 ----------」の前まで exec し 067 の主（重い崩壊 0.81262）を差0で再現。学問の段を R1（文献学）と R2（読めない文字への体系的な取り組み）に分け、primer の経路の取り組みを三区間の率（崩壊〜R1：067 の λ_any、R1〜R2：λ1 ~ Gamma(0.5+k1, 1/E1)、R2 の後：すぐ）にした。Δ1=0 で 067 の主と差 0.0。R1 は T2 の Δ1 年前（5社会の復元抽出、打ち切りは下限）、R2 は T2 の 8年後（Europe）。版は R1_fast・k1・abb1600・exp_half・R1alt・cens2x・eur_only・W20・W20_R2alt、τ1 の走査。</li>
+<li>主要数値：</li>
+<li>順：Δ1 = L − R1 は Europe 187、Song China 503（L は伝播）、Edo Japan 107（伝播）、Abbasid ≥795、Byzantine ≥758 で 5/5 が正。</li>
+<li>R1 の段の社会が L の前に読めない文字を見ていた曝露 <strong>1,705 社会年</strong>で体系的な取り組み <strong>0件</strong>、τ1 の事後の中央値 <strong>7,472年</strong>（τ_key 65年、067 の前近代 5,874年）。Europe の R2 は R1 の 195年後、望遠鏡の <strong>8年後</strong>。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：067 主 0.813、<strong>068 主 0.813</strong>（XPT 0.832）、k1 0.817、exp_half 0.814、W20 0.821、R1_fast <strong>0.848</strong>、primer なし 0.809。τ1 の走査で 65年 0.841、300年 0.829、1,000年 0.819。全体 0.919、軽い崩壊 0.969（不変）。</li>
+<li>費用あたり（全体、中央値、TAB=1）：primer の追加分 <strong>1.8</strong>（冊子だけ 44）。重い崩壊だけで 6.3。</li>
+<li>判定：H80a〜g 支持、H80h（欧州以外で点の年が両方決まる社会 ≥ 3）棄却（2）。</li>
+<li>逸脱：上の切り替え規則。最初の実行は 067 の名前空間に B がなく止まった（数値の前）、G67["G65"]["B"] に直して再実行。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は primer を前近代の学者が解くことに期待して予算を割かず、部数と預け先、座標を文字なしで使える形を優先する。本研究所は 067 の「Δ 次第で 0.813〜0.851」を「R2 で Δ=−8、重い崩壊 0.813（版 0.813〜0.821）」に改め、179 の線を閉じて 180＋176 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
