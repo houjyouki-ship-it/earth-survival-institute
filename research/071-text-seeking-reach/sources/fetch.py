@@ -19,7 +19,7 @@ def get(title, kind):
     url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(q)
     out = subprocess.run(["curl", "-sL", "-A", UA, url], capture_output=True).stdout
     return json.loads(out)
-if __name__ == "__main__" and "--places2" not in sys.argv:
+if __name__ == "__main__" and "--places2" not in sys.argv and "--places3" not in sys.argv:
     T = {p: get(p, "text") for p in PAGES}
     json.dump(T, open("wiki_texts.json", "w"), ensure_ascii=False, indent=0)
     C = {p: get(p, "coord") for p in PLACES}
@@ -29,3 +29,6 @@ PLACES2 = ["Nalanda_district", "Bargaon,_Nalanda", "Jarrow", "Sunderland", "Vero
 if __name__ == "__main__" and "--places2" in sys.argv:
     C2 = {p: get(p, "coord") for p in PLACES2}
     json.dump(C2, open("wiki_coords2.json", "w"), ensure_ascii=False, indent=0)
+PLACES3 = ["Avignon", "Saint_Gall"]
+if __name__ == "__main__" and "--places3" in sys.argv:
+    json.dump({p: get(p, "coord") for p in PLACES3}, open("wiki_coords3.json", "w"), ensure_ascii=False, indent=0)

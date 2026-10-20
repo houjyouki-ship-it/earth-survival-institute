@@ -1,0 +1,690 @@
+{
+ "rule": "本回開いて確認した、出発地と目的地が本文で分かる文書を求めた旅の事例 >= 8 なら A（185）を続ける",
+ "cases": [
+  {
+   "id": "Faxian",
+   "page": "Faxian",
+   "origin": "Xi'an",
+   "dest": "Pataliputra",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Southern Asia",
+   "dist_km": 2480.2,
+   "dist_max_km": 2480.2,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": 399,
+   "y1": 412,
+   "dur_years": 13,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "He set out from Chang'an, the capital of the Buddhist Later Qin dynasty, along with four others to locate sacred Buddhist texts",
+    "Faxian learned Sanskrit, and collected Indian literature from Pataliputra (Patna), Oddiyana, and Taxila in Gandhara.",
+    "The journey and return took from 399 to 412, with 10 years spent in India."
+   ]
+  },
+  {
+   "id": "Song_Yun",
+   "page": "Song_Yun",
+   "origin": "Luoyang",
+   "dest": "Peshawar",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Southern Asia",
+   "dist_km": 3729.4,
+   "dist_max_km": 3729.4,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": 518,
+   "y1": 522,
+   "dur_years": 4,
+   "mode": "travel",
+   "proxy": true,
+   "quotes": [
+    "left the Wei capital Luoyang on foot in 518 and returned in the winter of 522 with 170 Buddhist scriptures.",
+    "They stayed two years in Udyana and Gandhara"
+   ]
+  },
+  {
+   "id": "Xuanzang",
+   "page": "Xuanzang",
+   "origin": "Xi'an",
+   "dest": "Nalanda_district",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Southern Asia",
+   "dist_km": 2468.0,
+   "dist_max_km": 2468.0,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": 629,
+   "y1": 645,
+   "dur_years": 16,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "the travelogue of his journey to the Indian subcontinent in 629–645, his efforts to bring at least 657 Indian texts to China",
+    "He stayed and studied at Nalanda."
+   ]
+  },
+  {
+   "id": "Thonmi_Sambhota",
+   "page": "Thonmi_Sambhota",
+   "origin": "Lhasa",
+   "dest": "Srinagar",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Southern Asia",
+   "dist_km": 1616.6,
+   "dist_max_km": 1616.6,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": 632,
+   "y1": null,
+   "dur_years": null,
+   "mode": "travel_script",
+   "proxy": true,
+   "quotes": [
+    "to India in 632 with other youths, to learn the alphabet. The pattern chosen was the script of Kashmir.",
+    "was prepared at Kukarmaru Palace in Lhasa"
+   ]
+  },
+  {
+   "id": "Yijing",
+   "page": "Yijing_(monk)",
+   "origin": "Luoyang",
+   "dest": "Nalanda_district",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Southern Asia",
+   "dist_km": 2788.3,
+   "dist_max_km": 2788.3,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": 671,
+   "y1": 695,
+   "dur_years": 24,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "In 671 he began his journey to India",
+    "came to the famed monastery of Nalanda where he remained for the next ten years.",
+    "finally returned to China at Luoyang",
+    "He brought back some 400 Buddhist texts translated into Chinese."
+   ]
+  },
+  {
+   "id": "Benedict_Biscop",
+   "page": "Benedict_Biscop",
+   "origin": "Sunderland",
+   "dest": "Rome",
+   "origin_sub": "Northern Europe",
+   "dest_sub": "Southern Europe",
+   "dist_km": 1765.3,
+   "dist_max_km": 1765.3,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": 679,
+   "y1": null,
+   "dur_years": null,
+   "mode": "travel",
+   "proxy": true,
+   "quotes": [
+    "His second trip to Rome had focused on book-buying.",
+    "Benedict made his fifth and final trip to Rome in 679 to bring back books for a library"
+   ]
+  },
+  {
+   "id": "Kukai",
+   "page": "Kūkai",
+   "origin": "Kyoto",
+   "dest": "Xi'an",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Eastern Asia",
+   "dist_km": 2448.3,
+   "dist_max_km": 2448.3,
+   "reach_literal": "sub",
+   "reach_adj": "sub",
+   "y0": 804,
+   "y1": 806,
+   "dur_years": 2,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "In 804, Kūkai took part in a government-sponsored expedition to China",
+    "the party was asked to proceed to the capital of Chang'an (present day Xi'an)",
+    "Kūkai arrived back in Japan in 806",
+    "He also arrived with a large number of texts, many of which were new to Japan"
+   ]
+  },
+  {
+   "id": "Saicho",
+   "page": "Saichō",
+   "origin": "Mount_Hiei",
+   "dest": "Ningbo",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Eastern Asia",
+   "dist_km": 1451.9,
+   "dist_max_km": 1451.9,
+   "reach_literal": "sub",
+   "reach_adj": "sub",
+   "y0": 804,
+   "y1": 805,
+   "dur_years": 1,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "The emperor granted a petition by Saichō to journey to China to further study Tiantai doctrine in China and bring back more texts.",
+    "Saichō and his party returned to Ningbo and after compiling further bibliographies, boarded the ship back for Japan"
+   ]
+  },
+  {
+   "id": "Ennin",
+   "page": "Ennin",
+   "origin": "Mount_Hiei",
+   "dest": "Xi'an",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Eastern Asia",
+   "dist_km": 2454.0,
+   "dist_max_km": 2454.0,
+   "reach_literal": "sub",
+   "reach_adj": "sub",
+   "y0": 838,
+   "y1": 847,
+   "dur_years": 9,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "His journey to Tang China (838–847)",
+    "Later he went to Chang'an (Japanese: Chōan), then the capital of China",
+    "Upon returning to Japan in 847, Ennin brought back numerous Buddhist texts"
+   ]
+  },
+  {
+   "id": "Hunayn",
+   "page": "Hunayn_ibn_Ishaq",
+   "origin": "Baghdad",
+   "dest": "Constantinople",
+   "origin_sub": "Western Asia",
+   "dest_sub": "Western Asia",
+   "dist_km": 1606.1,
+   "dist_max_km": 1606.1,
+   "reach_literal": "sub",
+   "reach_adj": "sub",
+   "y0": null,
+   "y1": null,
+   "dur_years": null,
+   "mode": "travel",
+   "proxy": true,
+   "quotes": [
+    "The caliph also gave Hunayn the opportunity to travel to Byzantium in search of additional manuscripts"
+   ]
+  },
+  {
+   "id": "Rinchen_Zangpo",
+   "page": "Rinchen_Zangpo",
+   "origin": "Tholing_Monastery",
+   "dest": "Srinagar",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Southern Asia",
+   "dist_km": 550.5,
+   "dist_max_km": 550.5,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": null,
+   "y1": null,
+   "dur_years": null,
+   "mode": "travel",
+   "proxy": true,
+   "quotes": [
+    "to Kashmir and other Buddhist centres to study and bring back Buddhist teachings to Western Tibet"
+   ]
+  },
+  {
+   "id": "Marpa",
+   "page": "Marpa_Lotsawa",
+   "origin": "Lhodrak_County",
+   "dest": "Nalanda_district",
+   "origin_sub": "Eastern Asia",
+   "dest_sub": "Southern Asia",
+   "dist_km": 660.5,
+   "dist_max_km": 660.5,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": null,
+   "y1": null,
+   "dur_years": 12,
+   "mode": "travel",
+   "proxy": true,
+   "quotes": [
+    "Born as Marpa Chökyi Lodrö, in Lhodrak Chukhyer in the southern part of Tibet",
+    "Pullahari, near Nalanda University, where Naropa taught.",
+    "Marpa spent twelve years studying with Naropa",
+    "Upon his return to Tibet, Marpa spent many years translating Buddhist scriptures"
+   ]
+  },
+  {
+   "id": "Gerard_of_Cremona",
+   "page": "Gerard_of_Cremona",
+   "origin": "Cremona",
+   "dest": "Toledo,_Spain",
+   "origin_sub": "Southern Europe",
+   "dest_sub": "Southern Europe",
+   "dist_km": 1290.2,
+   "dist_max_km": 1290.2,
+   "reach_literal": "sub",
+   "reach_adj": "sub",
+   "y0": null,
+   "y1": null,
+   "dur_years": null,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "Dissatisfied with the philosophies of his Italian teachers, Gerard went to Toledo.",
+    "obtained the Arabic books in the libraries at Toledo."
+   ]
+  },
+  {
+   "id": "Petrarch",
+   "page": "Petrarch",
+   "origin": "Avignon",
+   "dest": "Verona",
+   "origin_sub": "Western Europe",
+   "dest_sub": "Southern Europe",
+   "dist_km": 516.0,
+   "dist_max_km": 516.0,
+   "reach_literal": "cont",
+   "reach_adj": "cont",
+   "y0": 1345,
+   "y1": null,
+   "dur_years": null,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "During his travels, he collected crumbling Latin manuscripts",
+    "in the Chapter Library (Biblioteca Capitolare) of Verona Cathedral.",
+    "He spent much of his early life at Avignon"
+   ]
+  },
+  {
+   "id": "Poggio",
+   "page": "Poggio_Bracciolini",
+   "origin": "Konstanz",
+   "dest": "Cluny_Abbey",
+   "origin_sub": "Western Europe",
+   "dest_sub": "Western Europe",
+   "dist_km": 369.1,
+   "dist_max_km": 369.1,
+   "reach_literal": "sub",
+   "reach_adj": "sub",
+   "y0": 1415,
+   "y1": 1417,
+   "dur_years": 2,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "when his duties called him to the Council of Constance in 1414, he employed his forced leisure in exploring the libraries of Swiss and Swabian abbeys.",
+    "In 1415 at Cluny he found Cicero's complete great forensic orations",
+    "At Langres in the summer of 1417 he discovered"
+   ]
+  },
+  {
+   "id": "Guarino",
+   "page": "Guarino_da_Verona",
+   "origin": "Verona",
+   "dest": "Constantinople",
+   "origin_sub": "Southern Europe",
+   "dest_sub": "Western Asia",
+   "dist_km": 1534.3,
+   "dist_max_km": 1534.3,
+   "reach_literal": "global",
+   "reach_adj": "cont",
+   "y0": null,
+   "y1": null,
+   "dur_years": 5,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "He was born in Verona",
+    "studied Greek language and literature in Constantinople",
+    "for five years he was the pupil",
+    "he had with him two cases of precious manuscripts of ancient Greek texts"
+   ]
+  },
+  {
+   "id": "Aurispa",
+   "page": "Giovanni_Aurispa",
+   "origin": "Savona",
+   "dest": "Constantinople",
+   "origin_sub": "Southern Europe",
+   "dest_sub": "Western Asia",
+   "dist_km": 1711.0,
+   "dist_max_km": 1711.0,
+   "reach_literal": "global",
+   "reach_adj": "cont",
+   "y0": 1418,
+   "y1": 1423,
+   "dur_years": 5,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "He returned to Italy in 1414, setting in Savona",
+    "In 1418, Aurispa visited Constantinople, where he remained for some years, perfecting his knowledge of Greek and searching for manuscripts.",
+    "On 15 December 1423 Aurispa arrived in Venice",
+    "he brought back 238 manuscripts."
+   ]
+  },
+  {
+   "id": "Filelfo",
+   "page": "Francesco_Filelfo",
+   "origin": "Venice",
+   "dest": "Constantinople",
+   "origin_sub": "Southern Europe",
+   "dest_sub": "Western Asia",
+   "dist_km": 1432.3,
+   "dist_max_km": 1432.3,
+   "reach_literal": "global",
+   "reach_adj": "cont",
+   "y0": 1420,
+   "y1": 1427,
+   "dur_years": 7,
+   "mode": "travel",
+   "proxy": false,
+   "quotes": [
+    "Immediately after his arrival in Constantinople at the end of 1420",
+    "formed a large collection of Greek manuscripts.",
+    "When Filelfo arrived at Venice with his family in 1427"
+   ]
+  },
+  {
+   "id": "Lupus_Servatus",
+   "page": "Lupus_Servatus",
+   "origin": "Ferrières-en-Gâtinais",
+   "dest": "Fulda",
+   "origin_sub": "Western Europe",
+   "dest_sub": "Western Europe",
+   "dist_km": 568.6,
+   "dist_max_km": 568.6,
+   "reach_literal": "sub",
+   "reach_adj": "sub",
+   "y0": null,
+   "y1": null,
+   "dur_years": null,
+   "mode": "letter",
+   "proxy": false,
+   "quotes": [
+    "from the library of the monastery of Fulda",
+    "Lupus made a tireless quest of manuscripts of classic authors"
+   ]
+  }
+ ],
+ "excluded": {
+  "Adelard_of_Bath": "目的地が本文で一つに決まらない（Sicily・Antioch・possibly Spain）",
+  "House_of_Wisdom": "al-Ma'mun の遠征は目的地が本文にない（foreign lands）",
+  "Kibi_no_Makibi": "持ち帰ったものに文書が本文で明示されない",
+  "Basilios_Bessarion": "旅でなく寄贈",
+  "Atiśa": "教える人が招かれた例（Rinchen Zangpo と重複）",
+  "Ceolfrith": "Benedict Biscop の 679 年の旅と同じ旅",
+  "Hyecho": "本文に文書の取得がない",
+  "Japanese_missions_to_Tang_China": "個別の旅でなく使節の総体（損失率だけ使う）"
+ },
+ "kentoshi_loss_quote": "Approximately one third of those who embarked from Japan did not survive to return home.",
+ "coords": {
+  "Xi'an": [
+   34.26111111,
+   108.94222222
+  ],
+  "Nara,_Nara": [
+   34.68444444,
+   135.805
+  ],
+  "Kyoto": [
+   35.01161,
+   135.76811
+  ],
+  "Florence": [
+   43.77138889,
+   11.25416667
+  ],
+  "Rome": [
+   41.89333333,
+   12.48277778
+  ],
+  "Constantinople": [
+   41.0125,
+   28.98
+  ],
+  "Toledo,_Spain": [
+   39.85666667,
+   -4.02444444
+  ],
+  "Baghdad": [
+   33.31527778,
+   44.36611111
+  ],
+  "Lhasa": [
+   29.6539,
+   91.1175
+  ],
+  "Ferrières-en-Gâtinais": [
+   48.0931,
+   2.7903
+  ],
+  "York": [
+   53.96,
+   -1.08
+  ],
+  "Cluny_Abbey": [
+   46.43416667,
+   4.65916667
+  ],
+  "Abbey_of_Saint_Gall": [
+   47.42305556,
+   9.37722222
+  ],
+  "Fulda": [
+   50.55083333,
+   9.67527778
+  ],
+  "Cremona": [
+   45.13333333,
+   10.02472222
+  ],
+  "Bath,_Somerset": [
+   51.3814,
+   -2.3597
+  ],
+  "Gyeongju": [
+   35.85,
+   129.21666667
+  ],
+  "Luoyang": [
+   34.6197,
+   112.4539
+  ],
+  "Venice": [
+   45.4375,
+   12.33583333
+  ],
+  "Palembang": [
+   -2.98611111,
+   104.75555556
+  ],
+  "Mount_Hiei": [
+   35.06666667,
+   135.83833333
+  ],
+  "Mount_Kōya": [
+   34.2125,
+   135.58638889
+  ],
+  "Langres": [
+   47.8633,
+   5.3339
+  ],
+  "Montecassino": [
+   41.49,
+   13.81388889
+  ],
+  "Sri_Lanka": [
+   7,
+   81
+  ],
+  "Pataliputra": [
+   25.6125,
+   85.12833333
+  ],
+  "Lhodrak_County": [
+   28.39611111,
+   91.13055556
+  ],
+  "Hangzhou": [
+   30.267,
+   120.153
+  ],
+  "Ningbo": [
+   29.8603,
+   121.6245
+  ],
+  "Yangzhou": [
+   32.3944,
+   119.4128
+  ],
+  "Kanchipuram": [
+   12.83200528,
+   79.70365833
+  ],
+  "Peshawar": [
+   34.01444444,
+   71.5675
+  ],
+  "Tours": [
+   47.393611,
+   0.689167
+  ],
+  "Cologne": [
+   50.93638889,
+   6.95277778
+  ],
+  "Mosul": [
+   36.34166667,
+   43.12916667
+  ],
+  "Alexandria": [
+   31.1975,
+   29.8925
+  ],
+  "Nalanda_district": [
+   25.2,
+   85.52
+  ],
+  "Jarrow": [
+   54.98138889,
+   -1.49
+  ],
+  "Sunderland": [
+   54.90444444,
+   -1.38111111
+  ],
+  "Verona": [
+   45.43861111,
+   10.99277778
+  ],
+  "Savona": [
+   44.30805556,
+   8.48111111
+  ],
+  "Srinagar": [
+   34.09,
+   74.79
+  ],
+  "Bad_Hersfeld": [
+   50.86833333,
+   9.7075
+  ],
+  "Nanjing": [
+   32.06083333,
+   118.77888889
+  ],
+  "Chengdu": [
+   30.66,
+   104.06333333
+  ],
+  "Tholing_Monastery": [
+   31.48361111,
+   79.79805556
+  ],
+  "Konstanz": [
+   47.66666667,
+   9.18333333
+  ],
+  "Reichenau_Island": [
+   47.69444444,
+   9.0625
+  ],
+  "Shaoxing": [
+   30.0511,
+   120.5833
+  ],
+  "Bodh_Gaya": [
+   24.695,
+   84.9925
+  ],
+  "Tamluk": [
+   22.3,
+   87.92
+  ],
+  "Kathmandu": [
+   27.71,
+   85.32
+  ],
+  "Dunhuang": [
+   40.14111111,
+   94.66388889
+  ],
+  "Gyantse": [
+   28.9148,
+   89.6045
+  ],
+  "Avignon": [
+   43.95,
+   4.8075
+  ]
+ },
+ "subregion": {
+  "Xi'an": "Eastern Asia",
+  "Luoyang": "Eastern Asia",
+  "Lhasa": "Eastern Asia",
+  "Tholing_Monastery": "Eastern Asia",
+  "Lhodrak_County": "Eastern Asia",
+  "Mount_Hiei": "Eastern Asia",
+  "Kyoto": "Eastern Asia",
+  "Ningbo": "Eastern Asia",
+  "Pataliputra": "Southern Asia",
+  "Nalanda_district": "Southern Asia",
+  "Peshawar": "Southern Asia",
+  "Srinagar": "Southern Asia",
+  "Baghdad": "Western Asia",
+  "Constantinople": "Western Asia",
+  "Sunderland": "Northern Europe",
+  "Rome": "Southern Europe",
+  "Cremona": "Southern Europe",
+  "Toledo,_Spain": "Southern Europe",
+  "Verona": "Southern Europe",
+  "Savona": "Southern Europe",
+  "Venice": "Southern Europe",
+  "Avignon": "Western Europe",
+  "Konstanz": "Western Europe",
+  "Cluny_Abbey": "Western Europe",
+  "Langres": "Western Europe",
+  "Abbey_of_Saint_Gall": "Western Europe",
+  "Bad_Hersfeld": "Western Europe",
+  "Fulda": "Western Europe",
+  "Ferrières-en-Gâtinais": "Western Europe"
+ },
+ "continent": {
+  "Eastern Asia": "Asia",
+  "Southern Asia": "Asia",
+  "Western Asia": "Asia",
+  "Northern Europe": "Europe",
+  "Southern Europe": "Europe",
+  "Western Europe": "Europe"
+ },
+ "adj_rule": "M49 の大陸をまたぐが 2,000 km 未満の旅は cont に数える（070 の『世界に届く』は全大陸の単位に届くことなので）【推測】"
+}

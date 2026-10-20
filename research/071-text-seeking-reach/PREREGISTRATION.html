@@ -1,0 +1,38 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究071 T2 より前の社会が文書を求めて届いた範囲（open_problems 185） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="071-t2-open_problems-185">事前登録：研究071 T2 より前の社会が文書を求めて届いた範囲（open_problems 185）</h1>
+<p>登録時刻：2026-10-20T16:43Z（資料を取得・符号化した後、sim.py を書く前）</p>
+<h2 id="_1">問い</h2>
+<p>070 は重い崩壊の生き残りの群が写しを取りに行ける範囲を「小地域か大陸を半々」と置いた【推測】。届く範囲で重い崩壊の冊子の価値は 0.793（小地域）〜0.873（世界）と動く。T2 より前の社会が実際に文書を求めてどこまで行ったかの記録で、この割合を置き換える。</p>
+<h2 id="sources">資料（本回開いて確認、sources/）</h2>
+<ul>
+<li>Wikipedia 英語版の MediaWiki API の平文：Faxian、Song Yun、Xuanzang、Thonmi Sambhota、Yijing (monk)、Benedict Biscop、Kūkai、Saichō、Ennin、Hunayn ibn Ishaq、Rinchen Zangpo、Marpa Lotsawa、Gerard of Cremona、Petrarch、Poggio Bracciolini、Guarino da Verona、Giovanni Aurispa、Francesco Filelfo、Lupus Servatus（事例 19件）、Japanese missions to Tang China（損失「約3分の1」だけ使う）。除外 8件の理由は cases.json。</li>
+<li>地名の座標：Wikipedia の地名の頁の coordinates。国の中心：Google の countries.csv。国→小地域と人口：070 の iso_regions.csv・Xia 2022 S5。</li>
+<li>引用 52件は verify_excerpts.py で保存本文と照合しすべて一致。</li>
+<li>切り替えの規則（出発地と目的地が本文で分かる事例 8件未満なら B）：19件で A を続ける。</li>
+</ul>
+<h2 id="_2">登録の時点で分かっている記述（検定ではない）</h2>
+<ul>
+<li>届く範囲（M49 の字面）：小地域 7、大陸 9、大陸をまたぐ 3（すべて Italy→Constantinople、1,432〜1,711 km）。調整（大陸をまたぐが 2,000 km 未満は大陸）：小地域 7、大陸 12、世界 0。</li>
+<li>距離（出発地→目的地の大圏）：369〜3,729 km。年数の分かる 12件で中央値 6年。</li>
+</ul>
+<h2 id="070">模型（重い崩壊の標本の届く範囲だけを替える。ほかは 070 と同じ）</h2>
+<ul>
+<li>070 の sim.py を「# ---------- 版 ----------」の前まで exec し、070 の主（重い崩壊 0.81913）を差0で再現する（検査1）。</li>
+<li>新しい乱数 seed 20261071。主：標本ごとに (p_sub, p_cont, p_glob) ~ Dirichlet(0.5 + 調整の数) を引き、その標本の届く範囲を引く。</li>
+<li>版：literal（字面の数）、bias3（有名な長旅の選ばれ方を補正して小地域の重みを3倍【推測】）、no_global（世界を0に固定）、loss_once（大陸・世界に届く旅は 2/3 で成功、失敗なら小地域、Kentōshi の損失）、dist（距離の版：標本ごとに事例の距離を復元抽出で d とし、人口重みの小地域の重心の距離 ≤ d の単位に届く）、asia_only・europe_only（地域の事例だけの数）、G3、spread（070 の広まりありの式）。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H83a：事例のうち自分の小地域を越えた割合 ≥ 0.5（登録時に値が分かっている記述）。</li>
+<li>H83b：主の重い崩壊の TC と 070 主の差の絶対値 ≤ 0.010（070 の半々は事例とほぼ合う）。</li>
+<li>H83c：調整で世界に届いた事例 = 0（記述）。</li>
+<li>H83d：bias3 の重い崩壊 ≤ 070 主。</li>
+<li>H83e：dist の重い崩壊 ≤ 主 − 0.010（重心の距離で数えると届く範囲は小さくなる）。</li>
+<li>H83f：切り替えの事例 ≥ 8（記述）。</li>
+<li>H83g：主・literal・bias3・no_global・loss_once・dist・asia_only・europe_only の幅 ≤ 0.04。</li>
+<li>H83h：年数の分かる事例の中央値 ≥ 5年（記述）。</li>
+</ul>
+<h2 id="_4">批判として先に書くこと</h2>
+<ul>
+<li>事例は有名になった長旅で、近場の取り寄せは記録に残りにくい（選ばれ方は長い方へ寄る）。bias3 で補正の大きさを見る。</li>
+<li>旅をしたのはすべて国家のある社会で、行き先に文書があると知っていた。重い崩壊の T2 より前の群が金庫の場所を知っているかは 060〜062 の別の項で扱っている。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

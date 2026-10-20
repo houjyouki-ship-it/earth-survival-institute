@@ -1,0 +1,34 @@
+{
+"Avignon": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 38166,
+"ns": 0,
+"title": "Avignon",
+"coordinates": [
+{
+"lat": 43.95,
+"lon": 4.8075,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Saint_Gall": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 319708,
+"ns": 0,
+"title": "Saint Gall"
+}
+]
+}
+}
+}
