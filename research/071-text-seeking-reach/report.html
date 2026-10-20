@@ -1,0 +1,141 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究071 T2 より前の社会が文書を求めて届いた範囲（open_problems 185） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="071-t2-open_problems-185">研究071 T2 より前の社会が文書を求めて届いた範囲（open_problems 185）</h1>
+<p>第71回、2026-10-20。計算のみ（sim.py、seed 20261071、約332秒）。事前登録：PREREGISTRATION.md（16:43Z、資料を符号化した後・sim.py の前）。</p>
+<h2 id="_1">問い</h2>
+<p>070 は重い崩壊の生き残りの群が写しを取りに行ける範囲を「小地域か大陸を半々」と置いた【推測】。届く範囲だけで重い崩壊の冊子＋primer＋地図の価値は 0.793〜0.873 と動く。T2 より前の社会が実際に文書を求めてどこまで行ったかで置き換える。</p>
+<h2 id="_2">資料（本回開いて確認）</h2>
+<ul>
+<li>【事実（出典：Wikipedia 英語版の各頁、MediaWiki API で取得した平文、sources/wiki_texts.json）】出発地と目的地が本文で分かる、文書（経典・写本・書物・文字）を求めた旅 19件：Faxian（399–412）、Song Yun（518–522、170 の経典）、Xuanzang（629–645、少なくとも 657 の文書）、Thonmi Sambhota（632、Kashmir の文字）、Yijing（671–695、約400 の文書）、Benedict Biscop（679 ほか、Rome で本の買い付け）、Kūkai（804–806）、Saichō（804–805）、Ennin（838–847）、Hunayn ibn Ishaq（Byzantium へ写本を探しに）、Rinchen Zangpo（Kashmir へ）、Marpa（Nalanda 近くで 12年）、Gerard of Cremona（Toledo の図書館）、Petrarch（1345、Verona の聖堂の書庫）、Poggio（1415–1417、Constance から Cluny・Langres・St Gall など）、Guarino（Constantinople、5年、写本2箱）、Aurispa（1418–1423、238 の写本）、Filelfo（1420–1427）、Lupus Servatus（Fulda から写本を借りた、手紙による）。</li>
+<li>【事実（出典：Wikipedia "Japanese missions to Tang China"）】"Approximately one third of those who embarked from Japan did not survive to return home."</li>
+<li>除外 8件（目的地が一つに決まらない Adelard、目的地のない al-Ma'mun の遠征など）は sources/cases.json に理由を書いた。</li>
+<li>座標：Wikipedia の地名の頁の coordinates（地域名しかない目的地は代表の町、proxy の印つき【推測】）。国の中心：Google の countries.csv（developers.google.com/public-data/docs/canonical/countries_csv）。小地域の重心は Xia 2022 S5 の 2010年人口で重みづけ（Micronesia だけ等重み）【推測】。</li>
+<li>引用 53件（事例 52＋損失 1）は verify_excerpts.py で保存本文と照合しすべて一致。</li>
+</ul>
+<h2 id="_3">方法</h2>
+<p>070 の sim.py を「# ---------- 版 ----------」の前まで exec し、070 の主（重い崩壊 0.81913）を差 0.0 で再現（検査1）。重い崩壊の標本で、届く範囲を標本ごとに Dirichlet(0.5＋事例の数) から引いた割合で選ぶ（主）。距離の版は、事例の距離を復元抽出した d 以内に重心がある小地域の写しに届くとした。ほかは 070 と同じ（群の数 G 1〜10、地理は Xia 150 Tg・47 Tg・人口、預け先は国立図書館に比例）。</p>
+<h2 id="_4">結果</h2>
+<h3 id="_5">事例</h3>
+<ul>
+<li>【事実（上の出典から計算）】M49 の字面で小地域の中 7、大陸の中 9、大陸をまたぐ 3（3件とも Italy→Constantinople、1,432〜1,711 km）。大陸をまたぐが 2,000 km 未満を大陸に数えると 7・12・0。<strong>世界の反対側に届いた例は 0件</strong>。自分の小地域を越えたのは 63%。</li>
+<li>距離は 369〜3,729 km、中央値 1,606 km。小地域の中の旅の中央値 1,452 km、大陸の中 1,664 km で、<strong>M49 の分類は距離とほとんど関係しない</strong>（Kūkai・Ennin は「同じ小地域」で 2,450 km）。</li>
+<li>年数の分かる 12件の往復の中央値 6年（1〜24年）。T2 までの数百年に比べて短い。</li>
+<li>小地域の人口重みの重心の距離は隣どうしでも大きい（East Asia–South Asia 3,249 km、Southern Europe–Western Asia 3,198 km、Northern–Southern Europe 1,721 km）。事例の中央値 1,606 km の内に入る小地域の組は 1.3% だけ。</li>
+</ul>
+<h3 id="tcv0-a_ordu3-a_xpt_su2">重い崩壊の TC（V0 比、A_Ord/U3、括弧は A_XPT_S/U2）</h3>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>重い崩壊</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>070 主</td>
+<td>0.819 (0.850)</td>
+<td>小地域・大陸 半々</td>
+</tr>
+<tr>
+<td><strong>071 主</strong></td>
+<td><strong>0.827 (0.860)</strong></td>
+<td>小地域 0.37・大陸 0.61・世界 0.02</td>
+</tr>
+<tr>
+<td>literal</td>
+<td>0.832</td>
+<td>大陸をまたぐ 3件を世界に</td>
+</tr>
+<tr>
+<td>bias3</td>
+<td>0.816</td>
+<td>有名な長旅の偏りを補正【推測】</td>
+</tr>
+<tr>
+<td>no_global</td>
+<td>0.828</td>
+<td></td>
+</tr>
+<tr>
+<td>loss_once</td>
+<td>0.816</td>
+<td>遣唐使の損失 1/3 を1回の試みに</td>
+</tr>
+<tr>
+<td>asia_only / europe_only</td>
+<td>0.828 / 0.831</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>dist</strong></td>
+<td><strong>0.805 (0.838)</strong></td>
+<td>重心の距離 ≤ 事例の距離</td>
+</tr>
+<tr>
+<td>dist_x2 / dist_max</td>
+<td>0.825 / 0.839</td>
+<td></td>
+</tr>
+<tr>
+<td>main_D_big / D_even / D_pop</td>
+<td>0.795 / 0.825 / 0.838</td>
+<td>置き方</td>
+</tr>
+<tr>
+<td>G3 / spread</td>
+<td>0.834 / 0.833</td>
+<td></td>
+</tr>
+<tr>
+<td>- 主の 8版の幅 0.805〜0.832（0.027）。全体 0.921→0.924、軽い崩壊 0.969（不変）。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 距離の走査：d ≤ 1,500 km は 0.793〜0.797（ほぼ小地域だけ）、2,000 km 0.805、2,500 km 0.820、<strong>4,000 km 0.846</strong>、10,000 km 0.869。事例の最大 3,729 km が段の真ん中にある。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用あたり（冊子＋primer＋地図、全体、中央値、TAB=1）：070 26.8、071 主 27.5、dist 25.5、bias3 26.5、大図書館 24.7。重い崩壊だけで主 60.6、dist 53.6。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">仮説の判定</h2>
+<ul>
+<li>H83a（小地域を越えた割合 ≥ 0.5）：支持 0.63（登録時に分かっていた記述）。</li>
+<li>H83b（|主 − 070 主| ≤ 0.010）：支持 +0.008。</li>
+<li>H83c（世界に届いた事例 0）：支持（記述）。</li>
+<li>H83d（bias3 ≤ 070 主）：支持 0.816。</li>
+<li>H83e（dist ≤ 主 − 0.010）：支持 −0.022。</li>
+<li>H83f（事例 ≥ 8）：支持 19（記述）。</li>
+<li>H83g（8版の幅 ≤ 0.04）：支持 0.027。</li>
+<li>H83h（年数の中央値 ≥ 5年）：支持 6年（記述）。
+検定として意味があるのは b・d・e・g の4つで、すべて支持。</li>
+</ul>
+<h2 id="_7">解釈</h2>
+<ul>
+<li>【推測】070 の「半々」は事例の割合（小地域 0.37）と大きくずれておらず、主は 0.819→0.827 と +0.008 しか動かない。届く範囲の分け方の不確かさは「小地域か大陸か」の割合より、<strong>M49 の小地域という単位が距離の代わりになるか</strong>の方が大きい（分類の版 0.816〜0.832 に対し、距離の版 0.805）。</li>
+<li>【推測】記録に残る旅の距離は 400〜3,700 km で、国家のある社会が文書を求めて動く範囲はおよそ「千数百 km、たまに 3,000 km 台」。これは小地域の重心どうしの距離（多くは 3,000 km 超）より短い。重い崩壊の冊子の価値を決める分かれ目は 2,000〜4,000 km の間にある。</li>
+<li>【独自仮説】預け先の置き方は「小地域ごとに1つ」より「生き残りの多そうな地域から 1,500 km 以内に1つ」という距離の規則で考える方がよい。小地域の中でも East Asia や South America は差し渡しが 4,000 km を超え、小地域ごとの1部では届かない群が出る。本回の模型は小地域の中を一点として扱うので、この効きは測れていない（新しい問い 187）。</li>
+</ul>
+<h2 id="_8">批判的な検討</h2>
+<ul>
+<li>選ばれ方：有名な長旅ほど記録に残る。bias3 で小地域の重みを3倍にすると 0.816 で 070 主より下がる。補正の大きさ3は根拠のない【推測】。</li>
+<li>旅をした社会はすべて国家で、行き先に文書があると知っていた。重い崩壊の T2 より前の群が国家の規模に達しているか、写しの場所を知っているか（060〜062）は別の未知。群が国家の規模に達しないうちは届く範囲はもっと短いはず【推測】。</li>
+<li>事例は欧州とアジアの 2地域だけで、アフリカ・アメリカ・オセアニアの旅は 0件（探していない）。南半球の生き残り（070 で ANZ・South America が多い）の届く範囲は事例で裏づけられていない。</li>
+<li>距離の版は小地域の重心を使う粗い近似。国の単位の地理にすると数字は動く。</li>
+<li>G（独立な群の数）の根拠は本回の資料からは得られず、070 の【推測】のまま。</li>
+</ul>
+<h2 id="_9">誰が何を変えるべきか</h2>
+<ul>
+<li>金庫・冊子の運営者：預け先は「小地域ごとに1つ」の規則に加えて、生き残りの多そうな各地域から <strong>1,500 km 以内</strong> に写しがあるかで確かめる。広い小地域（East Asia、South America、Northern America、ANZ）には2つ以上を置く。北米・欧州の大図書館に寄せるのは避ける（大図書館で 0.795）。</li>
+<li>本研究所：070 の主 0.819 を「事例で届く範囲を置くと 0.827、距離で数えると 0.805、版 0.805〜0.832」に改める。次は国の単位の距離で置き方を比べる（186 と 187）。</li>
+</ul>
+<h2 id="_10">新規性</h2>
+<p>文書を求めた歴史上の旅の距離の分布（19件、中央値 1,606 km）を、崩壊後の写しの届く範囲の模型に入れ、行政の区分での分け方と距離での分け方で結論が 0.02 違うことを示した。先行の公開研究でこの比較を見つけていない【推測：網羅的には探していない】。</p>
+<h2 id="_11">再現</h2>
+<p><code>/tmp/rep071b/</code> に 024〜071 を複製して sim.py を再実行し、results.json は runtime 以外一致、図2枚の MD5 も一致（log.md に記録）。</p>
+<h2 id="_12">取得して数字に使わなかった頁</h2>
+<p>Adelard of Bath、House of Wisdom、Translation movement、Kibi no Makibi、Bessarion、Atiśa、Ceolfrith、Codex Amiatinus、Hyech'o、Japanese missions to Sui China（除外の理由は cases.json）。地名の頁のうち座標のなかった Nalanda mahavihara・Monkwearmouth–Jarrow Abbey・Srivijaya・Vikramashila・Tamralipta・Oddiyana・Tiantai Mountain・Bargaon・Saint Gall（代わりに Nalanda district、Sunderland などを使った）。</p><footer><hr><small>自動生成</small></footer></body></html>
