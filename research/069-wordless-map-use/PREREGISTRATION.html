@@ -1,0 +1,31 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究069 事前登録（2026-10-20T12:52Z、資料を読み事例表 sources/cases.json を符号化した後・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="069-2026-10-20t1252z-sourcescasesjson-simpy">研究069 事前登録（2026-10-20T12:52Z、資料を読み事例表 sources/cases.json を符号化した後・sim.py の作成の前）</h1>
+<h2 id="open_problems-180176">問い（open_problems 180＋176）</h2>
+<p>067・068 で、重い崩壊の後に文字が切れた社会が冊子の文字を T2（読取装置の段）までに読み解く経路はほぼ閉じた（冊子＋primer の重い崩壊 0.813、primer の追加分の費用あたり 1.8）。本回は、061〜068 の冊子の模型の「読めないと使えない」部分を「冊子の最初に載せた地図の部分は、読めなくても確率 p_map で使える」に替え、p_map を公開の実験の数値から置く。</p>
+<h2 id="next_plan">next_plan の切り替え規則との関係</h2>
+<p>規則：本回実際に開いて確認した公開の数値（理解の割合）が 5件未満なら B（173）に切り替える。数えた出典は 9（Dehaene 2006、Shusterman 2008、Izard 2014、Dowse 2023、Rother 2008、Patel 2023、Gungor 2023、Martí Fernández 2015、Hermans 2011）。数に使うのはそのうち 8（Hermans は取り決めの記号で読める検査技師なので質的にだけ）。5以上なので A を続ける（字面どおり）。</p>
+<h2 id="simpy">模型（sim.py で実装する予定）</h2>
+<p>068 の sim.py を「# ---------- 版 ----------」の前まで exec し、067 の主（pp67、重い崩壊 A_Ord/U3 0.81262）と 068 の主（pp68、0.8128 付近）を p_map なしで差0で再現する。
+重い崩壊で文字が切れた標本の「使える」確率を
+  pd = 1 − (1 − p_dec)(1 − p_pr(T))(1 − p_map)
+に替える（文字が続く標本と軽い崩壊は 068 と同じで 1）。p_map は T に依らない（地図は解読が要らない）。
+  p_map = k_match × k_concept × k_geo
+- k_match（地図と分かっていれば、地図の上の印から実際の場所を選べる）：map の4つの実験（Mundurukú 71%、4歳 70%・53%・72.9%）。実験を一様に選び、Beta(0.5+p·n, 0.5+(1−p)·n)（n 不明は 30）を引き、(p − chance)/(1 − chance) に直して 0〜1 に切る。
+- k_concept（説明なしに絵の意図が伝わる）：picto の5つの試験（0.79、0.50、0.785、0.666、0.537）。同じく実験を選び Beta を引く（当て推量の補正なし）。
+- k_geo（地図の描く地域を自分の知る地理と結べる）：U(0.5, 1)【推測、根拠なし。走査する】。
+地図の費用は primer と同じ分布（065 の C_pr の同じ抽出）【推測】。費用あたりは 065〜068 と同じ式（TAB=1、全体と重い崩壊、中央値）。</p>
+<h2 id="_1">版</h2>
+<p>main、chk0（p_map なし＝068 主）、raw（当て推量の補正なし）、landmark（k_match を目印の試行 87.1%・99% から）、unschooled（k_match を Mundurukú だけ）、p_low（k_concept を字の読めない人々の3件だけ）、match_only（k_concept=1）、geo1（k_geo=1）、geo_low（k_geo~U(0.2,0.6)）、hist（k_concept を文字のない古い地図4件の Beta(2.5,2.5)）、map_nopr（primer なし＋地図）、map_R1fast（068 の楽観の primer＋地図）、best（landmark・match_only・geo1）。p_map を定数で走査（0、0.1、0.25、0.5、0.75、1）。</p>
+<h2 id="_2">仮説（判定の規則）</h2>
+<p>資料の値の確認（登録の時点で値は分かっている。予想として数えない）：
+- H81a：map の4つの実験の補正後の値の中央値 ≥ 0.40。
+- H81b：目印の試行の補正後の平均 ≥ map の補正後の平均 + 0.25。
+- H81c：picto の5つの値の中央値が 0.5〜0.8 にある。
+模型の予想：
+- H81d：main の重い崩壊 A_Ord/U3 − 068 主 ≥ +0.010。
+- H81e：main の重い崩壊 A_Ord/U3 − 068 主 ≤ +0.030。
+- H81f：地図の追加分の費用あたり（全体、中央値、TAB=1）&gt; 068 の primer の追加分（1.8）。
+- H81g：地図の追加分の費用あたり（全体、中央値）&lt; 冊子だけ（064 の 44）。
+- H81h：landmark の重い崩壊 ≥ main + 0.005。
+- H81i：版（chk0 と走査を除く）の重い崩壊 A_Ord/U3 の幅 ≤ 0.04。
+規則：
+- H81j：本回開いた数値の出典 ≥ 5（9）。</p><footer><hr><small>自動生成</small></footer></body></html>

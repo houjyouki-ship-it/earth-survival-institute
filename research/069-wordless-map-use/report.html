@@ -1,0 +1,301 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究069：文字を読まずに使える座標の割合 p_map（open_problems 180＋176） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="069-p_mapopen_problems-180176">研究069：文字を読まずに使える座標の割合 p_map（open_problems 180＋176）</h1>
+<p>2026-10-20、第69回。計算のみ（sim.py、seed 20261069、約218秒、ネット接続なし）。事前登録：PREREGISTRATION.md（12:52Z、資料を読み事例表を符号化した後・sim.py の前）。</p>
+<h2 id="_1">問い</h2>
+<p>067・068 で、重い崩壊（機械が止まり T1・T0 から再出発）の後に文字が切れた社会が、T2（読取装置を作れる段）までに座標の冊子の文字を読み解く経路はほぼ閉じた（冊子＋primer の重い崩壊 0.813、primer の追加分の費用あたり 1.8）。061〜068 の模型では、文字が切れた標本の冊子は「読めなければ使えない」。本回はこれを「冊子の最初に載せた文字なしの地図の部分は、読めなくても確率 p_map で使える」に替え、p_map を、言葉の説明なしに地図・絵が伝わった公開の実験の数値から置いた。</p>
+<h2 id="_2">切り替え規則</h2>
+<p>next_plan の規則は「本回実際に開いて確認した公開の数値（理解の割合）が 5件未満なら B（173）へ」。開いて数値を確かめた出典は 9（下の表の 8 と Hermans 2011）で、字面どおり A を続けた（H81j）。</p>
+<h2 id="pubmed-ncbi-e-utilities-europe-pmcpmchal-sources">資料（本回開いて確認。PubMed の抄録は NCBI E-utilities、全文は Europe PMC・PMC・HAL から取得し sources/ に保存）</h2>
+<p>符号の規則は sources/make_cases.py の冒頭。抜き出し 36件は sources/verify_excerpts.py で保存本文と照合しすべて一致（抄録の折り返しのため、空白を詰めて比べる）。</p>
+<h3 id="k_match">地図の実験（k_match：地図と言われれば、地図の印から実際の場所を選べる）</h3>
+<table>
+<thead>
+<tr>
+<th>実験</th>
+<th>対象</th>
+<th>正答</th>
+<th>当て推量</th>
+<th>補正後 (p−c)/(1−c)</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mundurukú の地図課題</td>
+<td>学校がほとんどなく地図を持たない Amazon の子どもと大人</td>
+<td><strong>71%</strong>（子ども 73.3%、大人 70.4%）</td>
+<td>1/3</td>
+<td>0.565</td>
+<td>【事実（<a href="https://hal.science/hal-00206261v1/document">Dehaene et al. 2006, HAL</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/16424341/">PubMed 16424341</a>）】</td>
+</tr>
+<tr>
+<td>同、目印の箱が目標の試行／目印でない試行</td>
+<td>同</td>
+<td>87.1%／54.3%</td>
+<td>1/3</td>
+<td>0.807／0.315</td>
+<td>同</td>
+</tr>
+<tr>
+<td>4歳児、目印あり（Exp1、教示・正誤の知らせなし）</td>
+<td>字を読む前の米国の子ども 18人</td>
+<td><strong>70%</strong>（目印 99%、ほか 56%）</td>
+<td>1/3</td>
+<td>0.55</td>
+<td>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3572713/">Shusterman, Lee &amp; Spelke 2008, PMC3572713</a>）】</td>
+</tr>
+<tr>
+<td>4歳児、幾何だけの地図（Exp2）</td>
+<td>同 18人</td>
+<td><strong>53%</strong></td>
+<td>1/3</td>
+<td>0.295</td>
+<td>同</td>
+</tr>
+<tr>
+<td>4歳児、全体の地図（Exp1）</td>
+<td>同 32人</td>
+<td><strong>72.9%</strong></td>
+<td>1/2</td>
+<td>0.458</td>
+<td>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3751975/">Izard, O'Donnell &amp; Spelke 2014, PMC3751975</a>）】</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【事実（Shusterman 2008 の本文）】Dehaene 2006 は各試行で正誤が分かる形だった。Shusterman 2008 は知らせなしだが、練習で「この絵は Froggy の座りたい場所を教える。星のところ」と言葉で教えた。<strong>どの実験も「これは地図だ」は言葉で伝えている。</strong></li>
+<li>補正後の中央値 <strong>0.504</strong>、平均 0.467（補正前の平均 0.667）【計算】。目印の試行は補正後の平均 <strong>0.896</strong>。</li>
+</ul>
+<h3 id="k_concept">絵文字・安全の標識の理解（k_concept：説明なしに絵の意図が伝わる。自由回答、補正なし）</h3>
+<table>
+<thead>
+<tr>
+<th>試験</th>
+<th>対象</th>
+<th>平均の正答</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>地元で作った薬の絵 10枚</td>
+<td>学校 12年以下の isiXhosa の大人 90人</td>
+<td><strong>79%</strong>（8/10 枚が ISO の 66.7% を満たす）</td>
+<td>【事実（<a href="https://pubmed.ncbi.nlm.nih.gov/37927939/">Dowse et al. 2023, PubMed 37927939</a>、<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10623492/">PMC10623492</a>）】</td>
+</tr>
+<tr>
+<td>FAO の農薬の絵 10枚</td>
+<td>南アフリカのぶどう園の働き手 115人</td>
+<td><strong>≤50%</strong>（50%以上が誤り・危険な取り違え。「長靴を履け」を「歩行者に危険」）</td>
+<td>【事実（<a href="https://pubmed.ncbi.nlm.nih.gov/18755451/">Rother 2008, PubMed 18755451</a>）】</td>
+</tr>
+<tr>
+<td>農薬の絵（大きさ別）</td>
+<td>インドの農家</td>
+<td>69.4%（7 mm）〜87.6%（15 mm）、中点 <strong>78.5%</strong></td>
+<td>【事実（<a href="https://pubmed.ncbi.nlm.nih.gov/37497563/">Patel &amp; Mukhopadhyay 2023, PubMed 37497563</a>）】</td>
+</tr>
+<tr>
+<td>安全の標識 22枚</td>
+<td>トルコの工場の働き手 139人</td>
+<td><strong>66.6%</strong>（22.5〜98.6%、学歴の低い群 65.31%）</td>
+<td>【事実（<a href="https://pubmed.ncbi.nlm.nih.gov/37313152/">Gungor 2023, PubMed 37313152</a>、<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10258412/">PMC10258412</a>）】</td>
+</tr>
+<tr>
+<td>GHS の危険の絵 9枚</td>
+<td>スペインの清掃の働き手 118人</td>
+<td>94・95%、5枚 48〜64%、2枚 7%（中点で <strong>53.7%</strong>）</td>
+<td>【事実（<a href="https://pubmed.ncbi.nlm.nih.gov/25877796/">Martí Fernández et al. 2015, PubMed 25877796</a>）】</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>中央値 <strong>0.666</strong>、字の読めない人々を主に含む3件の平均 0.692【計算】。</li>
+<li>【事実（<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3215670/">Hermans et al. 2011, PMC3215670</a>）】取り決めの記号（体外診断の記号 18個）は読める検査技師でも 67% を超えたのが 3個で、最低は 1.4%。絵の記号（傘の「濡らすな」）は抽象の記号よりよく分かった。数には使わない（取り決めの記号は文字に近い）。</li>
+<li>【事実（<a href="https://pubmed.ncbi.nlm.nih.gov/11687321/">Dowse &amp; Ehlers 2001</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/15950838/">2005</a>）】説明の後の試験、文字つきのラベルなので数に使わない。</li>
+</ul>
+<h3 id="hist">作った文化の外の人が説明なしに見た、文字のない古い地図（hist の版だけで使う）</h3>
+<p>Çatalhöyük の壁画（「最古の地図」と言われるが豹の皮という異論：0.5）、Bedolina（地形の地図と解釈：1）、Mezhyrich の骨（「〜と思われる」：0.5）、Marshall の棒の海図（作った航海者しか十分に読めない。1862 に宣教師が公に記し、1890年代に Winkler が航海者を説き伏せて使い方を記述した：0）で 2/4。どれも描かれた場所を特定できていない【事実（<a href="https://en.wikipedia.org/wiki/Çatalhöyük">Çatalhöyük</a>、<a href="https://en.wikipedia.org/wiki/Bedolina_Map">Bedolina Map</a>、<a href="https://en.wikipedia.org/wiki/Mezhyrich,_Cherkasy_Oblast">Mezhyrich, Cherkasy Oblast</a>、<a href="https://en.wikipedia.org/wiki/Marshall_Islands_stick_chart">Marshall Islands stick chart</a>）】。</p>
+<h2 id="_3">模型</h2>
+<p>068 の sim.py を「# ---------- 版 ----------」の前まで exec し、p_map なしで 067 の主（重い崩壊 A_Ord/U3 <strong>0.81262</strong>）と 068 の主（<strong>0.81284</strong>）を差 0.0 で再現した（全6値の最大差 0）。重い崩壊で文字が切れた標本の「使える」確率を
+pd = 1 − (1 − p_dec)(1 − p_pr(T))(1 − p_map)
+に替えた（文字が続く標本と軽い崩壊は 1 のまま）。p_map = k_match × k_concept × k_geo。
+- k_match：地図の4つの実験から一様に選び、Beta(0.5+p·n, 0.5+(1−p)·n)（n 不明は 30）を引いて当て推量を補正【計算】。補正するのは、本物の探索では 1/3 で当たる当て推量がないため【推測】。
+- k_concept：絵文字の5つの試験から同じく引く（補正なし）【推測：絵文字の試験は「印＝行く先」が伝わる確率の代わり】。
+- k_geo ~ U(0.5, 1)：地図の描く地域をその社会の知る地理と結べる確率【推測、根拠なし】。
+- 地図の費用は primer と同じ抽出（065 の C_pr、中央値 約 $1.4万）【推測】。</p>
+<p>p_map の主は平均 <strong>0.224</strong>（90%：0.055〜0.423）。重い崩壊の U3 の T で、primer（068）だけの使える確率 0.116 が、地図と合わせて <strong>0.313</strong> になった【計算】。</p>
+<h2 id="v0">結果：冊子の価値（V0 比）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>p_map 平均</th>
+<th>A_Ord/U3 全体</th>
+<th><strong>A_Ord/U3 重い崩壊</strong></th>
+<th>A_XPT_S/U2 重い崩壊</th>
+<th>軽い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>primer なし・地図なし</td>
+<td>0</td>
+<td>0.918</td>
+<td>0.809</td>
+<td>0.828</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>068 主（primer、地図なし）</td>
+<td>0</td>
+<td>0.919</td>
+<td>0.813</td>
+<td>0.832</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td><strong>069 主（primer＋地図）</strong></td>
+<td>0.224</td>
+<td><strong>0.924</strong></td>
+<td><strong>0.827</strong></td>
+<td><strong>0.846</strong></td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>raw（当て推量の補正なし）</td>
+<td>0.323</td>
+<td>0.927</td>
+<td>0.834</td>
+<td>0.851</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td><strong>landmark（目印の試行の値）</strong></td>
+<td>0.425</td>
+<td>0.929</td>
+<td><strong>0.840</strong></td>
+<td>0.858</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>unschooled（Mundurukú だけ）</td>
+<td>0.272</td>
+<td>0.925</td>
+<td>0.830</td>
+<td>0.848</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>p_low（字の読めない人々の3件）</td>
+<td>0.236</td>
+<td>0.925</td>
+<td>0.828</td>
+<td>0.846</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>match_only（k_concept=1）</td>
+<td>0.342</td>
+<td>0.927</td>
+<td>0.834</td>
+<td>0.852</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>geo1（k_geo=1）</td>
+<td>0.298</td>
+<td>0.926</td>
+<td>0.831</td>
+<td>0.849</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>geo_low（k_geo~U(0.2,0.6)）</td>
+<td>0.119</td>
+<td>0.922</td>
+<td><strong>0.821</strong></td>
+<td>0.839</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>hist（k_concept を古い地図の 2/4）</td>
+<td>0.171</td>
+<td>0.923</td>
+<td>0.824</td>
+<td>0.843</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>map_nopr（primer をやめ地図だけ）</td>
+<td>0.224</td>
+<td>0.924</td>
+<td>0.825</td>
+<td>0.844</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>map_R1fast（068 の楽観の primer＋地図）</td>
+<td>0.224</td>
+<td>0.934</td>
+<td>0.853</td>
+<td>0.874</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>best（目印・k_concept=1・k_geo=1）</td>
+<td>0.867</td>
+<td>0.938</td>
+<td>0.866</td>
+<td>0.889</td>
+<td>0.969</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>p_map を定数で走査（重い崩壊 A_Ord/U3）：0 で 0.813、0.1 で 0.819、0.25 で 0.830、0.5 で 0.845、0.75 で 0.860、<strong>1 で 0.873</strong>（XPT 0.899）。地図が必ず使えても 0.873 が上限で、残り（0.127）は冊子の写しが残らない・見つからない・金庫に着けないことから来る【計算】。</li>
+<li>地図があると primer の追加分は重い崩壊で +0.0025（0.8248→0.8273）に縮む【計算】。</li>
+<li>費用あたり（全体、中央値、TAB=1、90%）：地図の追加分 <strong>6.5</strong>（1.5〜32）、landmark 11.9、geo_low 3.8、best 23.7。068 の primer の追加分 1.8、冊子だけ 44。冊子＋primer＋地図 27.5、冊子＋地図（primer なし）34.6。重い崩壊だけで地図の追加分 <strong>23</strong>（primer 6.3、冊子 92）。A_XPT_S/U2 の全体では地図の追加分 2.4（primer 0.57、冊子 39）。</li>
+</ul>
+<h2 id="_4">仮説の検証</h2>
+<ul>
+<li>H81a（地図の実験の補正後の中央値 ≥ 0.40、値は登録時に既知）：支持（0.504）。</li>
+<li>H81b（目印の補正後の平均 ≥ 地図の補正後の平均 + 0.25、既知）：支持（0.896 対 0.467）。</li>
+<li>H81c（絵文字の中央値が 0.5〜0.8、既知）：支持（0.666）。</li>
+<li>H81d（主の重い崩壊 − 068 主 ≥ +0.010）：支持（+0.0145）。</li>
+<li>H81e（同 ≤ +0.030）：支持（+0.0145）。</li>
+<li>H81f（地図の追加分の費用あたり &gt; primer の追加分 1.8）：支持（6.5）。</li>
+<li>H81g（地図の追加分の費用あたり &lt; 冊子だけ 44）：支持（6.5）。</li>
+<li>H81h（landmark ≥ 主 + 0.005）：支持（0.8395 対 0.8273）。</li>
+<li>H81i（版の重い崩壊の幅 ≤ 0.04）：<strong>棄却</strong>（0.821〜0.866、幅 0.044。best を除けば 0.821〜0.853 で 0.032）。</li>
+<li>H81j（開いた数値の出典 ≥ 5）：支持（9）。
+予想として意味があるのは H81d〜i で、i だけ棄却。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li><strong>どの実験も「これは地図だ」を言葉で伝えている</strong>：冊子を拾った社会には誰も説明しない。k_concept を絵文字の試験で代えたが、絵文字の試験も「この絵の意味は？」と問うので、絵が「何かを伝える印」であることは伝わっている。説明なしに地図と分かるかの直接の数値は本回の資料に 0件で、古い地図 4件（2/4）だけが近い。これが最大の穴【推測】。</li>
+<li><strong>実験の地図は部屋の中の 3つの容器</strong>：金庫の地図は世界→地域→島→入口の多段になる。段ごとに k_match を掛けるなら p_map はさらに下がる。逆に、海岸線の形は 4歳児の幾何の課題より目立つ目印に近く、landmark の版（0.840）が近いかもしれない。k_geo は根拠のない U(0.5,1) で、geo_low（0.821）〜geo1（0.831）を動かす。</li>
+<li><strong>当て推量の補正の向き</strong>：補正しない raw は 0.834。本物の探索で「三つのうちどれか」の当て推量はないので補正を主にしたが、地図が示す範囲を歩いて探せば当たりの確率は上がる。</li>
+<li><strong>学校のない大人の数は Mundurukú の1件</strong>（子どもの3件は字を読む前だが地図のある文化で育つ）。unschooled の版（0.830）は主とほぼ同じ。</li>
+<li><strong>絵文字の数は現代の、絵の取り決めを日常で見ている人々</strong>：Rother の農場の働き手は自分の文化の枠で読み違えた（長靴→歩行者に危険）。崩壊の数百年後の社会では取り決めはもっと離れる。hist の版（0.824）がこの向き。</li>
+<li><strong>地図は T2 を待たない</strong>【独自仮説】：地図は読めなくても使えるので、T2 より前の社会を金庫に導きうる（宝の地図）。T2 より前に開けられて媒体が壊される・持ち去られる害は模型の外で、本回の正の効き（+0.015）を打ち消しうる。新しい問い 184。</li>
+<li>軽い崩壊（計算機の社会が残る）では文字が続くので地図は使われず 0.969 で不変。</li>
+</ul>
+<h2 id="_6">軽い崩壊と重い崩壊</h2>
+<ul>
+<li>重い崩壊：冊子＋primer＋地図で A_Ord/U3 <strong>0.827</strong>（068 の 0.813 から +0.015、版 0.821〜0.853、目印つき 0.840、上限 0.873）、A_XPT_S/U2 <strong>0.846</strong>（0.832 から）。primer なしでも地図だけで 0.825。</li>
+<li>軽い崩壊：0.969 で不変（A_Ord）、0.967（A_XPT_S）。全体 A_Ord 0.919→<strong>0.924</strong>、A_XPT_S 0.951→0.953。</li>
+</ul>
+<h2 id="_7">新規性</h2>
+<p>文字の切れた後の社会に金庫の場所を伝える冊子の価値を、言葉なしの地図の課題（Mundurukú・4歳児）と字の読めない人々での絵文字の理解の試験の数値で置き、当て推量の補正（0.667→0.467）、目印の効き（0.467→0.896）、上限（0.873）を分けて示したのは本研究所で初めて【推測：網羅的に調べたわけではない】。Sandia 1993 は遠い将来への警告を物の形・絵・文字の多層にすると提言した【事実（<a href="https://en.wikipedia.org/wiki/Long-term_nuclear_waste_warning_messages">Long-term nuclear waste warning messages</a>）】が、本回は「近づくな」でなく「ここへ来い」の絵の層の価値を、写しの残り方・文字の続き方と同じ模型の中で数にした。【独自仮説】文字のない場所の伝え方の効きは、地図の正確さより、地図と実物で同じに見える目印（入口の形、山の輪郭）を描くかで決まる。</p>
+<h2 id="_8">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者（座標の冊子を配る側）は、primer の予算を、冊子の最初のページの文字なしの多段の地図（世界→地域→島→入口）に回し、地図と実物で同じ形・色に見える目印を描き、地図を見せる以外の説明なしで「印の場所を選べるか」を、その文字を読まない人で試してから刷るべき【推測】。費用あたりは地図の追加分 6.5（目印つき 11.9）で primer（1.8）より上、冊子の部数と預け先（44）より下なので、順番は部数と預け先 → 目印つきの地図 → primer。本研究所は 068 の重い崩壊 0.813 を「文字なしの地図を足すと 0.827（版 0.821〜0.853、上限 0.873）」に改め、地図の線の残り（説明なしに地図と分かるか 183、宝の地図の害 184）より、上限 0.873 を決める写しの残り方と群の数（173）を次に置く。</p>
+<h2 id="_9">再現と逸脱</h2>
+<ul>
+<li>再現チェック：024〜068 を <code>/tmp/rep069/</code> に複製し 068 の sim.py（約195秒）を再実行、results.json は runtime 以外一致（葉 530個〔runtime を含む〕、差分0）。</li>
+<li>069 は 024〜069 とともに <code>/tmp/rep069b/</code> に複製して再実行（結果は log.md の第69回）。</li>
+<li>逸脱1：verify_excerpts.py は空白を詰めてから照合する（PubMed の抄録の折り返しのため。068 までは字面のまま）。</li>
+<li>逸脱2：Martí Fernández の「48〜64%」の5枚は中点 56% と置き、Rother の「50%以上が誤り」は正答 0.50（上限）と置いた（make_cases.py の規則）。Patel は n が抄録になく 30 と置いた。Dehaene の n も 30 と置いた。</li>
+<li>逸脱3：Dehaene 2006 の本文は Science の版元でなく HAL の公開の PDF（著者の版、前の頁に別の論文の末尾を含む）から取った。</li>
+<li>sim.py は1回で通った。</li>
+<li>取得したが数字に使わなかった頁：Izard 2011（PubMed 21606377、地図でなく幾何の直観）、Dillon &amp; Spelke 2018（29595310）、Dillon, Huang &amp; Spelke 2013（23940342・PMC3761620、全体の割合が図にしかない）、Huttenlocher 2008（17280658）、Landau &amp; Lakusta 2009（19303766）、Bagheri 2021（33400115、割合が抄録にない）、Ta 2010（20616463、「ほぼすべてが ISO を満たす」だけ）、Boelhouwer 2013（23932696）、Wikipedia の Early world maps、History of cartography、Hazard symbol、ISO 7010、Pictogram、Treasure map、Polynesian navigation、Voyager Golden Record、Wayfinding、Ammassalik wooden maps・Tupaia (navigator)・Pioneer plaque（質的にだけ：Pioneer の矢印は別の文化に通じないかもという Gombrich の批判、Tupaia は自分の道の知識を Cook の羅針盤の取り決めに訳す地図の仕組みを作った）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

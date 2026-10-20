@@ -2,6 +2,7 @@
 pm:<PMID>   PubMed の抄録（NCBI E-utilities efetch、rettype=abstract）
 pmc:<PMCID> Europe PMC の全文 XML から本文の文字だけ（公開のもの）
 pmchtml:<PMCID> PMC の記事の HTML から本文の文字（Europe PMC の XML が出ない著者稿）
+hal:<id>    HAL の公開 PDF を pdftotext で文字に（Dehaene et al. 2006）
 wp:<title> / ja:<title> Wikipedia の本文（MediaWiki API の plain text extract）
 """
 import json, os, re, sys, time, urllib.request, urllib.parse, html
@@ -25,6 +26,13 @@ def pmchtml(pmcid):
     x = re.sub(r"</(p|h[1-6]|li|td|tr|th|caption|figcaption|div)>", "\n", x)
     t = html.unescape(re.sub(r"<[^>]+>", "", x)); t = re.sub(r"[ \t]+", " ", t); t = re.sub(r"\n\s*\n+", "\n", t)
     fn = f"pmc_{pmcid}.txt"; open(os.path.join(H, fn), "w", encoding="utf8").write(f"URL: https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/\n" + t); print(fn, len(t))
+def hal(hid):
+    """HAL の公開 PDF を取得し pdftotext（poppler）で本文の文字にする。"""
+    import subprocess
+    pdf = os.path.join(H, f"hal_{hid}.pdf")
+    open(pdf, "wb").write(urllib.request.urlopen(urllib.request.Request(f"https://hal.science/hal-{hid}v1/document", headers=UA), timeout=60).read())
+    t = subprocess.run(["pdftotext", pdf, "-"], capture_output=True, text=True).stdout
+    fn = f"hal_{hid}.txt"; open(os.path.join(H, fn), "w", encoding="utf8").write(f"URL: https://hal.science/hal-{hid}v1/document\n" + t); print(fn, len(t))
 def wp(title, lang="en"):
     q = urllib.parse.urlencode({"action": "query", "prop": "extracts", "explaintext": 1, "redirects": 1, "format": "json", "titles": title})
     d = json.loads(http(f"https://{lang}.wikipedia.org/w/api.php?" + q)); p = next(iter(d["query"]["pages"].values()))
@@ -36,7 +44,7 @@ for a in sys.argv[1:]:
     kind, _, v = a.partition(":")
     for k in range(4):
         try:
-            {"pm": pm, "pmc": pmc, "pmchtml": pmchtml, "wp": wp, "ja": lambda s: wp(s, "ja")}[kind](v); break
+            {"pm": pm, "pmc": pmc, "pmchtml": pmchtml, "hal": hal, "wp": wp, "ja": lambda s: wp(s, "ja")}[kind](v); break
         except Exception as e:
             print("retry", a, e); time.sleep(5)
     time.sleep(1)
