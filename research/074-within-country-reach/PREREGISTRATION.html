@@ -1,0 +1,17 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究074 事前登録（2026-10-20T22:38Z、点の人口のファイルを取得した直後・中身を開く前・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="074-2026-10-20t2238zsimpy">研究074 事前登録（2026-10-20T22:38Z、点の人口のファイルを取得した直後・中身を開く前・sim.py の作成の前）</h1>
+<p>指標 A は生存確率でも復興確率でもない（届く範囲に生き残った写しが1つ以上ある生存者の重みの割合）。提言は模型の中での順位（外部の検証はまだ）。</p>
+<h2 id="_1">設計</h2>
+<ul>
+<li>点：Natural Earth 10m populated places simple（GitHub nvkelso/natural-earth-vector の geojson）。各点を国（ISO a2）に結び、国の生存者の重み（072 の GEO：xia150・xia47・pop・refuge）を国の中の点に pop_max の比で配る。点のない国は 072 の国の中心を1点とする。</li>
+<li>距離は大圏だけ（072 で障壁は最良の置き方を 10〜17% しか変えなかったので省く。逸脱として報告）。</li>
+<li>届く距離：主は 073 の kmov（261群の経験分布）、参照は 071 の 19件。q は 0・0.5・0.8。条件は q×地理 の 12（届く距離ごと）。</li>
+<li>置き方（N=35）：072 の7つを国→その国の pop_max 最大の点に写した版（国の写し）、点の上で作り直した per_subregion（小地域の人口の重みの中央点＋最遠点）と pop（人口最大の点35）、網目の置き方 mesh（生存者の重みの4地理平均で、主の届く距離の到達の期待値を貪欲に最大化）。</li>
+</ul>
+<h2 id="_2">確認的・予測の仮説（計算の前）</h2>
+<ul>
+<li>H86a（予測）：主の届く距離で、12条件の minimax regret の最良は per_subregion（点の版か国の写しの版のどちらか）。mesh は比較から除いて判定する（N が同じでも作り方が主の届く距離に合わせてあるため）。</li>
+<li>H86b（予測）：主の届く距離で、mesh の置き方の 12条件の平均 A が 0.5 に達する写しの数は 100 以上 1,000 以下。点推定 300。</li>
+<li>H86c（予測）：国の写しの7つの平均 A（主の届く距離、12条件）は 073 の国の中心の模型の同じ7つ・同じ q×地理（gc）の平均 A の 0.5 倍未満（073 の A の大半は「自国に写しがある」だけで届いた分で、国の中では届かないため）。</li>
+<li>H86d（予測）：071 の19件の届く距離では、点の模型と国の模型の7つの平均 A の比は 0.8 以上（長い届く距離では国の中の解像度は効かない）。
+判定の閾値は上のとおりで、計算後に変えない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
