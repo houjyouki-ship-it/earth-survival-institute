@@ -973,4 +973,20 @@
 <li>判定：H75a・b・c・d・e（0.602、境目）・f・h・i 支持、H75g（0.71 対 0.81）棄却。</li>
 <li>逸脱：初回の実行の後、census_tau と同じ設定だった版 stack_census を消して再実行した（新しい乱数なし、他の数値は初回と同じ）。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は座標の冊子に文字そのものを教える絵の手引きを入れ、よく使われる本の付録より書庫で長く残る別冊として 10〜30か所に預ける。本研究所は 062 の「読む社会が共通なら 0.78」を「文字が続く確率しだいで 0.67〜0.87、主 0.81」に改め、次は地球規模の重い崩壊で文字が続く確率 169 へ）。</li>
+</ul>
+<h2 id="64-2026-10-20">第64回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・051・053〜063 を <code>/tmp/rep064/</code> に複製し、063 の sim.py（約240秒）を再実行した。results.json は runtime 以外一致（葉 571個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 169（地球規模の重い崩壊で文字の読み書きが続く確率 p_cont）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認、MediaWiki API）：Wikipedia 英語版の Samaritans、Samaritan script、Kaifeng Jews、Mandaeans、Mandaic alphabet、John Adams (mutineer)、Mutiny on the Bounty、Cypriot syllabary、Cypro-Minoan script、Anatolian hieroglyphs、Neo-Hittite states、Hattusa、Late Bronze Age collapse、Classic Maya collapse、Cherokee syllabary、Trail of Tears、Kakure Kirishitan、Aljamiado、Morisco、Literacy、Dalecarlian runes、Old Hungarian script、Nüshu（063 の取得の写しの Linear B・Greek Dark Ages・Rongorongo・Indus script・Maya script・Cuneiform・Egyptian hieroglyphs を含む）。<code>sources/cases.json</code> の抜き出し 54件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Bene Israel・Beta Israel・Crypto-Judaism・Avestan alphabet・Ogham・Runes・Vai syllabary・Bamum script・St Kilda・Tristan da Cunha・Sub-Roman Britain・Norse settlements in Greenland・Pitcairn Islands も取得したが、局面と読み書きの帰結が本文で決まらず数字に使っていない。</li>
+<li>研究064を実施：<code>research/064-script-continuity/</code>（sim.py 約185秒 seed 20261064、計算のみ）。成果物は results.json、stdout.txt、fig_cases_versions.png、fig_pcont_posteriors.png、report.md、PREREGISTRATION.md（02:50Z、資料を読み符号化した後・sim.py の作成の前）、sources/（本文、fetch.py、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep064/</code> で再実行し results.json は runtime 以外一致（葉 475個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：063 の sim.py を「# ---------- 版 ----------」の前まで exec し 063 の主（重い崩壊 0.8139）を差0で再現。p_cont を、その文字を教える人が共同体の中にしかいなかった文字の局面 16件（deep 10、shallow 3、弾圧 3）から置き直した：deep の narrow・broad それぞれ Jeffreys の Beta、広さ不明は標本ごとに半々、現代の読み書きが broad に振る舞う重み w~U(0,1)（推測）、局面の後の漂い λ~Gamma(0.5, 6,322年)。版は narrow・broad・不明の片寄せ・区別なし・弾圧込み・あいまいの逆・漂いなし・iso_world・G3、w の走査。</li>
+<li>主要数値：</li>
+<li>数え：deep の narrow 2/3 消失（Linear B、Rongorongo。Classic Maya は続いた）、broad 0/2（Pitcairn の 19人、Cherokee の強制移住）、不明 1.5/5、区別なしの deep 3.5/10、弾圧 2/3。不明を除く喪失の平均 narrow 0.63、broad 0.17。</li>
+<li>局面を越える確率 1−L の平均：主 <strong>0.63</strong>（0.33〜0.90）、narrow 0.49、broad 0.78、iso_world 0.50、G3 0.92（063 は 0.70）。T2 の時点の p_cont は平均 0.59（漂いの因子 0.93）。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：064 主 <strong>0.803</strong>（XPT 0.815）、063 主 0.814、narrow 0.768、broad 0.831、不明の片寄せ 0.786〜0.811、区別なしの deep 0.800、弾圧込み 0.803、漂いなし 0.806、iso_world <strong>0.767</strong>、G3 <strong>0.856</strong>。w 0→1 で 0.768→0.831。全体 0.915、軽い崩壊 0.969（不変）。</li>
+<li>費用あたり（全体、中央値、TAB=1）：064 主 <strong>44</strong>（9.3〜210）、063 主 46、narrow・iso_world 39、G3 52、S_TC|TC 17.8。重い崩壊だけで 92。</li>
+<li>判定：H76a・b・e・f・g・h・i 支持、H76c（0.63）・d（0.803）棄却。</li>
+<li>逸脱：初回の実行は図の段で 063 の比の辞書の形を取り違えて止まった（results.json の書き出し前で数値は見ていない）。その1行を直して再実行した。新しい乱数の使い方は変えていない。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は冊子を学校が消えても読み書きを教え続けそうな宗教の場の図書室にも預け、子どもに文字を教える絵入りの読本を添える。本研究所は 063 の p_cont 0.70 を「局面で 0.63、T2 の時点で 0.59、重い崩壊の冊子の価値 0.80（版で 0.77〜0.86）」に改め、事例の数え上げの線は閉じて次は primer の効き 170 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
