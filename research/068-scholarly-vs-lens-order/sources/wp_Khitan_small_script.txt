@@ -1,0 +1,54 @@
+URL: https://en.wikipedia.org/wiki/Khitan_small_script
+The Khitan small script (Chinese: 契丹小字, Qìdān xiǎozì) was one of two writing systems used for the now-extinct Khitan language. It was used during the 10th–12th century by the Khitan people, who had created the Liao Empire in present-day northeastern China. In addition to the small script, the Khitans simultaneously also used a functionally independent writing system known as the Khitan large script. Both Khitan scripts continued to be in use to some extent by the Jurchens for several decades after the fall of the Liao dynasty, until the Jurchens fully switched to a script of their own. Examples of the scripts appeared most often on epitaphs and monuments, although other fragments sometimes surface.
+
+
+== History ==
+The Khitan small script was invented in about 924 or 925 CE by a scholar named Yelü Diela. He drew his inspiration from "the Uyghur language and script", which he was shown by a visiting Uyghur ambassador at the Khitan court. For this reason, Khitan small script was originally thought to be a daughter script of the Old Uyghur alphabet.
+
+
+== Description ==
+
+Using a smaller number of symbols than large script, small script was less complex, yet still "able to record any word." While small-script inscriptions employed some logograms as well, most words in small script were made using a blocked system reminiscent of the later Hangul writing of Korea, meaning that a word is represented by one group (square block) composed of several glyphs with individual phonetic meanings (somewhat similar to the jamo units of Hangul). Unlike Hangul's jamo, a Khitan phonetic symbol could represent not just a single vowel or consonant, but a consonant-vowel or vowel-consonant pair as well. Each block could incorporate two to seven such "phonetic element" characters, written in pairs within the block, with the first half of the pair on the left. If there were an odd number of characters in a block, the unpaired character would be centered below the preceding pair.
+Although there is some speculation, it appears there are no characters that both the small and large scripts share. Periodically, epitaphs written using small script will be written using the large script method of linearity.  Although small script had some similarities to Chinese, Khitan characters were often used to record Chinese words. The appearance of a likeness between a small script and a Chinese character does not help in the reading of Khitan. For example, the Chinese character for 'mountain' (山) is the same as the Khitan small script logogram for 'gold' (𘮝‎), and, thus, the name of the Jin dynasty.
+Of the 378 known small script characters, 125 are semantic, 115 are phonetic, and the remainder have not been deciphered. (Usually, it was possible to guess the phonetic value of an element if it has been used to transcribe a Chinese loanword in a Khitan inscription; otherwise, such phonetic values are hard to determine, as very little of the Khitan language is known.) Small script uses a mixture of logograms, syllabograms, and, as some as sources claim, a few single sound phonograms. Sometimes suffixes were written with syllabograms, just as single syllables sometimes were written with three syllabograms (with one each for the initial, medial, and final sounds of the syllable). Sometimes the initial consonants of syllables are indicated to be dental, labial, guttural, or nasal etc., based on the syllabograms involved. Additionally, vowels are sometimes indicated to be labial or non-labial, or pronounced in the front or back of the mouth.
+Much of this information came from the "Khitan Script Research Group", led by the Mongolian scholar named Chinggeltei,  who used monuments, calendar, and similar Chinese texts to decipher sections of small script. A particularly valuable object of their study was the inscription on the Dà Jīn huángdì dūtǒng jīnglüè lángjūn xíngjì (zh:大金皇弟都统经略郎君行记) stele, which is the only known bilingual Chinese-Khitan inscription. Produced during the Jurchen Jin dynasty it, ironically, was originally (before the discovery of other Khitan inscriptions in 1922) thought to be in Jurchen.
+
+
+== Corpus ==
+
+There are no surviving examples of printed texts in the Khitan language, and aside from five exemplar Khitan large characters with Chinese glosses in Tao Zongyi's 1376 Important Matters in the History of Calligraphy, there are no Chinese glossaries or dictionaries of Khitan.
+The main source of Khitan texts are monumental inscriptions, mostly comprising memorial tablets buried in the tombs of Khitan nobility. There are about 33 known monuments with inscriptions in the Khitan small script, ranging in date from 1053 to 1171.
+
+
+== Encoding ==
+The Khitan small script was added to Unicode version 13.0 in March 2020. 476 graphic characters are located in the Khitan Small Script block, while a single invisible filler character (U+16FE4: KHITAN SMALL SCRIPT FILLER) is located in the Ideographic Symbols and Punctuation block. The filler is inserted following the first character of a cluster, and denotes a character cluster laid out with one character on the first line, as opposed to the usual two.
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Citations ===
+
+
+=== Bibliography ===
+
+
+== Further reading ==
+Chinggeltei (清格尔泰), Chen Naixiong (陈乃雄), Xing Fuli (邢复礼), Liu Fengzhu (刘凤翥), Yu Baolin (于宝林). Qidan xiao zi yanjiiu 契丹小字研究 [Research on the Khitan small script] (in Chinese). China Social Science Publishers 中国社会科学出版社. 1985.
+Jacques, Guillaume (2010). "Review of Kane 2009, The Khitan Language and Script". Diachronica. 27 (1): 157–165. doi:10.1075/dia.27.1.05jac.
+András Róna-Tas: Khitan Studies I. The Graphs Of The Khitan Small Script. 1. general remarks, dotted graphs, numerals. Acta Orientalia Academiae Scientiarum Hungaricae Volume 69 (2) pp. 117-138 (2016)[1][2]
+András Róna-Tas: Khitan studies I. The graphs of the Khitan Small Script. 2. The vowels. Acta Orientalia Academiae Scientiarum Hung. Volume 70. (2) pp. 135–188 (2017)[3]
+WU Yingzhe and András Róna-Tas: Khitan Studies I. The Glyphs of the Khitan Small Script: 3. The Consonants, 3.1 Labial Stops. Acta Orientalia Academiae Scientiarum Hung. Volume 72. (1) pp. 47–79 (2019) [4]
+WU Yingzhe and András Róna-Tas: Khitan Studies I. The Glyphs of the Khitan Small Script: 3. The Consonants, 3.2. Dental Stops. Acta Orientalia Academiae Scientiarum Hung. Volume 73 (1), pp. 67–83 (2020)[5]
+Wu Yingzhe and András Róna-Tas: Khitan Studies. • 1.The graphs of the khitan small script 3. The consonants. 3.3 The oral velar and uvular consonants. Acta Orientalia Academiae Scientiarum Hung. Volume 73 (4) pp. 669–683 (2020)[6][7]
+András Róna-Tas: A Birthday Present for the Khitan Empress. In: István Zimonyi (ed.): Ottomans – Crimea – Jochids. Studies in Honour of Mária Ivanics. Szeged, 2020. pp. 281–294.[8]
+
+
+== External links ==
+Khitan script on Omniglot
+Linguist List – Description of Kitan Archived 2008-09-23 at the Wayback Machine
+契丹小字原字字形规范与原字总表 at the Wayback Machine (archived 2017-02-27)(in Chinese)
+Khitan Small Script Fonts (brush style, 3 layouts or orientations), BabelStone Khitan Small Linear (thinner "serif" Song-style, horizontal orientation only)

@@ -1,0 +1,46 @@
+URL: https://en.wikipedia.org/wiki/Tangut_script
+The Tangut script is a logographic writing system, formerly used for writing the extinct Tangut language of the Tanguts. It was widely used during the Tangut-founded Western Xia dynasty, and fell into obscurity after its extinction. According to a 2004 count, 5,863 Tangut characters are known, excluding variants. The Tangut characters are similar in appearance to Chinese characters, with the same type of strokes, but the methods of forming characters in the Tangut writing system are significantly different from those of forming Chinese characters. As with Chinese, regular, running, cursive and seal scripts were used in Tangut writing.
+
+
+== History ==
+According to the History of Song (1346), the script was designed by the high-ranking official Yeli Renrong in 1036. The script was invented in a short period of time, and was put into use quickly. Government schools were founded to teach the script. Official documents were written in the script (with diplomatic ones written bilingually). A great number of Buddhist scriptures were translated from Tibetan and Chinese, and block printed in the script. Although the dynasty collapsed in 1227, the script continued to be used for another few centuries. The last known example of the script occurs on a pair of Tangut dharani pillars found at Baoding in present-day Hebei province, which were erected in 1502.
+
+
+== Structure ==
+[Tangut] is remarkable for being written in one of the most inconvenient of all scripts, a collection of nearly 5,800 characters of the same kind as Chinese characters but rather more complicated; very few are made up of as few as four strokes and most are made up of a good many more, in some cases nearly twenty...  There are few recognizable indications of sound and meaning in the constituent parts of a character, and in some cases characters which differ from one another only in minor details of shape or by one or two strokes have completely different sounds and meanings.
+Tangut characters can be divided into two classes: simple and composite.  The latter are much more numerous.  The simple characters can be either semantic or phonetic. None of the Tangut characters are pictographic, while the Chinese characters were at the time of their creation; this is one of the major differences between Tangut and Chinese characters. 
+
+Most composite characters comprise two components. A few comprise three or four. A component can be a simple character, or part of a composite character. The composite characters include semantic-semantic ones and semantic-phonetic ones. A few special composite characters were made for transliterating Chinese and Sanskrit.
+
+There are a number of pairs of special composite characters worth noting. The members of such a pair have the same components, only the location of the components in them is different (e.g. AB vs. BA, ABC vs. ACB). The members of such a pair have very similar meanings.
+The Sea of Characters (Tangut: 𘝞𗗚; Chinese: 文海; pinyin: wén hǎi), a 12th-century monolingual Tangut rhyming dictionary, analyzes what other characters each character is derived from. Its analyses illustrate another difference between Tangut and Chinese characters. In Chinese, typically, each semantic component has its own meaning, and each phonetic component its own sound; they contribute this meaning or sound to any complex character they appear in. By contrast, in the Sea of Characters analysis of Tangut, a component contributes the meaning or sound of some other character that contains it, potentially a different one in every appearance. For example, the component 𘤊 can have the meaning of "bird" (𗿼 *dźjwow, of which it is the left side), as in 𗿝 *dze "wild goose" = 𗿼 *dźjwow "bird" + 𗨜 *dze "longevity". But the same component is also used to convey meanings of bone, smoke, food, and time, among others.
+Some components take different shape depending on what part of the character they appear in (e.g., left side, right side, middle, bottom).
+
+
+== Reconstruction ==
+
+
+== Unicode ==
+
+6,125 characters of the Tangut script were included in Unicode version 9.0 in June 2016 in the Tangut block.  755 Radicals and components used in the modern study of Tangut were added to the Tangut Components block.  An iteration mark, U+16FE0 𖿠 TANGUT ITERATION MARK, was included in the Ideographic Symbols and Punctuation block. Five additional characters were added in June 2018 with the release of Unicode version 11.0. Six additional characters were added in March 2019 with the release of Unicode version 12.0. A further nine Tangut ideographs were added to the Tangut Supplement block and 13 Tangut components were added to the Tangut Components block in March 2020 with the release of Unicode version 13.0. The Tangut Supplement block size was changed in Unicode version 14.0 to correct the erroneous block end point (version 13: 18D8F → version 14.0: 18D7F). Additional components were added with the Tangut Components Supplement block in September 2025 with the release of Unicode version 17.0.
+
+
+== See also ==
+
+
+== References ==
+
+
+=== Footnotes ===
+
+
+=== Bibliography ===
+
+
+== External links ==
+
+Tangut script at Omniglot
+Tangut script, by Andrew West
+(in Japanese) 大西 磨希子・北本 朝展，『文字が語りかける民族意識：カラホトと西夏文字』，ディジタル・シルクロード
+史金波. 《西夏文字是有规律的文字吗？》 (in Chinese). 宁夏新闻网. Archived from the original on 2014-09-10. Retrieved 2014-09-09.
+Tangut index

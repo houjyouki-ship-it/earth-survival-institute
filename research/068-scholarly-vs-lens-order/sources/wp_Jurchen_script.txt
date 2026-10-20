@@ -1,0 +1,70 @@
+URL: https://en.wikipedia.org/wiki/Jurchen_script
+The Jurchen script (Jurchen: 𘹦𙄅𙁶 [dʒu ʃə bitxə]; Chinese: 女真文) was the writing system used to write the Jurchen language, the language of the Jurchen people who created the Jin Empire in northeastern China in the 12th–13th centuries. It was derived from the Khitan script, which in turn was derived from Chinese (Han characters). The script has only been decoded to a small extent.
+The Jurchen script is part of the Chinese family of scripts.
+
+
+== History ==
+
+After the Jurchen rebelled against the Khitan Liao dynasty and established the new Jin dynasty in 1115, they were using the Khitan script. In 1119 or 1120, Wanyan Xiyin, the "chancellor" of the early Jin Empire, acting on the orders of the first emperor, Wanyan Aguda, invented the first Jurchen script, known as "the large script".
+The second version, the so-called "small script", was promulgated in 1138 by the Xizong Emperor, and said to have been created by the emperor himself. According to the Jin Shi, in 1145 the small script characters were used officially the first time.
+There is no historical information about any original books that were written in Jurchen, but during the reign of Emperor Shizong of Jin (1161–1189) a large number of Chinese books were translated into Jurchen. The translation program started in 1164; among the translations were Confucian and Taoist classics, histories, and exam study guides. However, not even a single fragment of any of the books survived.
+Most of the samples of the Jurchen writing available to modern researchers are epigraphic ones (those on monuments etc.), as well as a few short inscriptions on seals, mirrors, ceramics, graffiti, etc. A total of nine epigraphic inscriptions are known so far. The best known (and traditionally thought to be earliest of them) is the Jurchen inscription on the back of "the Jin Victory Memorial Stele" (大金得勝陀頌碑, Dà Jīn déshèngtuó sòngbēi), which was erected in 1185, during the reign of Emperor Shizong, in memory of Wanyan Aguda's victory over the Liao. It is apparently an abbreviated translation of the Chinese text on the front of the stele. However, the undated inscription from Qingyuan (Kyŏngwŏn) in northern Korea is now thought to be older, surmised to have been created between 1138 and 1153. The only inscription dating from after the end of the Jin dynasty is the one on the stele erected in 1413 by the Ming eunuch admiral Yishiha on the Tyr Cliff, on the lower Amur River.
+No paper or silk manuscripts in Jurchen were known until 1968, when a Jurchen manuscript was discovered by E.I. Kychanov among the Tangut papers in the Leningrad branch of the Institute of Oriental Studies (now the Institute of Oriental Manuscripts of the Russian Academy of Sciences). It is written on two sheets of paper and dates to 1217. Writing in 1990, Herbert Franke (perhaps, not aware of Nüzhen zishu, below) describes the Leningrad document as "unique" and not yet deciphered.
+Even more importantly, in 1979 Chinese scholars Liu Zuichang and Zhu Jieyuan reported the ground-breaking discovery of an eleven-page document in the Jurchen script in the base of a stele in Xi'an's Stele Forest museum. This manuscript, containing 237 lines of Jurchen script (around 2300 characters), is thought to be a copy of Nüzhen zishu (女真字書, "Jurchen Character Book"), written by Wanyan Xiyin himself soon after his invention of the large-character script. According to its discoverers, this manuscript was a type of textbook, a list of large-script characters, each one usually representing a complete word. This is different from the epigraphic inscriptions, which also contain phonetic symbols.
+The Jurchen script was apparently fairly widely known among Jurchens, which is attested by numerous graffiti (unfortunately, mostly illegible) left by Jurchen visitors in Bai Ta Pagoda in Hohhot, Inner Mongolia.
+The Jurchen script must have become much less known after the destruction of the Jin dynasty by the Mongols, but it was not completely forgotten, because it is attested at least twice during the Ming dynasty: on Yishiha's Tyr stele of 1413 and in a Chinese–Jurchen dictionary included in the multilingual "Chinese–Barbarian Dictionary" (華夷譯語) compiled by the Ming Bureau of Translators (四夷館).
+During the Yuan and Ming dynasty the Jurchen language continued to be spoken in Manchuria, where it later developed into the Manchu language. The latter, however, was written first in Mongolian script (1601), and later in a new Manchu script derived from the Mongolian script (1632), neither of which has any relation to the Jurchen script.
+The last Jurchen inscription is dated to 1526.
+
+
+== Structure of the script ==
+Jurchen script was based on the Khitan script, inspired in turn by Chinese characters. Apparently, both semantic and phonetic borrowing took place. Many Jurchen characters can be described as copies, or distorted copies, of Chinese and/or large-script Khitan characters with similar meaning; others apparently were derived from Chinese characters whose sound was similar to that of Jurchen words, without semantic connection. There seem to be few Jurchen characters whose shapes can be related to the Khitan small-character script; however, the idea of using phonetic symbols for grammatical endings, for phonetics transcription of Chinese loanwords, or for writing words for which there were no special ideograms, may have been inspired by the Khitan small-character script.
+The Jurchen characters can be divided into two classes, according to their role:
+
+Ideographic characters, used to record either:
+a whole word (one to three, but usually two, syllables long), or
+the first one or two syllables of a word, to be followed by one or several phonetic symbols.
+Phonetic characters, usually recording a CV syllable, a Vn ending, or single vowel.
+However, the boundary between the classes was not precise, as some ideographic characters were also used for their phonetic value as parts of other words.
+Comparing Wanyan Xiyin's Nüzhen zishu with later inscriptions and Ming dynasty dictionaries, one can detect the direction of the writing system's development from ideographic to combined ideographic-phonetic. Many words originally written with a single character were later written with two or even three, the character originally designating the entire word being later used only for its beginning, and a phonetic character (or two) being used for the last one or two syllable(s),
+
+
+== Study of the script ==
+
+Due to the scarcity of the surviving samples of Jurchen writing, it was often difficult to determine for the 19th-century (or sometimes even 20th-century) scholars, whether a given inscription was in the "large" or "small" Jurchen script, or whether it was in the Jurchen script at all. Thus, it was commonly thought in the 19th century by the Chinese and Western researchers that the Da Jin huang di doutong jinglüe langjun xingji (大金皇弟都統經略郎君行記) inscription represented the Jurchen large script until, in 1922, the Belgian missionary L. Ker discovered the Liao Imperial Tombs in Qingling, where this very script was used, in parallel with Chinese text, for the epitaph of Emperor Xingzong of Liao and Empress Renyi. Thus the Khitan script was discovered, and the Jin dynasty's Da Jin huangdi dutong jinglüe langjun xingji inscription, long thought to be written in the Jurchen script, turned out to be written in the (still undeciphered) Khitan large script and, most likely, Khitan language, after all.
+The pioneering work on studies of the Jurchen script was done by Wilhelm Grube in the end of the 19th century.
+
+
+== Jurchen small script ==
+According to the History of the Jin Dynasty there were two different Jurchen scripts: a "large script" that was devised in 1120 by command of Wanyan Aguda, the first emperor of the Jin dynasty; and a "small script" that was created in 1138 by the Emperor Xizong (r. 1135–1150), but which was first officially used in 1145. However, all the extant examples of Jurchen writing, including the Sino-Jurchen Vocabulary of the Bureau of Interpreters (Nǚzhēn Yìyǔ, 女真譯語) and various monumental inscriptions, are written in basically the same script, which is similar in form to the Khitan large script. Various theories have been suggested to account for the apparent lack of a Jurchen small script in the extant corpus of monumental inscriptions and manuscript texts.
+Daniel Kane has suggested that the large and small Jurchen scripts are points on a single script continuum: the large script was the earliest form of the Jurchen script, as represented in the manuscript Jurchen Character Book (Nǚzhēn Zìshū, 女真字書) that was discovered in Xi'an in 1979; and the small script was the later form of the Jurchen script, as represented on the Monument recording the names of successful candidates for the degree of jinshi (Nüzhen jinshi timing bei, 女真進士題名碑) and in the Sino-Jurchen Vocabulary. The earlier and later forms of the script use basically the same set of characters, but whereas the characters in the Jurchen Character Book are largely logographic in nature, many of the characters in the Sino-Jurchen Vocabulary and monumental inscriptions have developed a phonetic function, and can thus be used to express grammatical endings. Kane considers the "large script" to refer to characters used as logograms, and the "small script" to refer to character used as phonograms.
+On the other hand, Aisin-Gioro Ulhicun believes that there were actually two separate Jurchen scripts, a "large" logographic script modelled on the Khitan large script, and a "small" phonographic script modelled on the Khitan small script. During the 1970s a number of gold and silver paiza with the same inscription, apparently in the small Khitan script, were unearthed in northern China. The inscription is structured as a single large character, followed by two clusters each of which contains three characters, in the same layout used by Khitan small script; however, none of these seven characters appear in any other known Khitan small script inscription. Aisin-Gioro has analysed the inscription on these paiza, and although the structure of the characters is identical to the Khitan small script she concludes that the script is not actually the Khitan small script but is in fact the otherwise unattested Jurchen small script. She argues that this small script was only used briefly during the last five years of the reign of its creator, Emperor Xizong, and when he was murdered in a coup d'état the small script fell out of use as it was less convenient to use than the earlier large script.
+
+
+== Unicode ==
+
+Jurchen script was added to the Unicode Standard in September 2026 with the release of version 18.0.
+The Unicode block Jurchen is U+18E00–U+1919F: 
+
+The Unicode block Jurchen Radicals is U+191A0–U+191DF: 
+
+
+== See also ==
+List of Jurchen inscriptions
+Sinicization of the Manchus
+
+
+== References ==
+
+
+== Literature ==
+Herbert Franke, Denis Twitchett, Alien Regimes and Border States, 907–1368. The Cambridge History of China, vol 6. Cambridge University Press, 1994. ISBN 978-0-521-24331-5.
+Wilhelm Grube, Die Sprache und Schrift der Jučen. Leipzig: Otto Harrassowitz, 1896. [1]
+Daniel Kane, The Sino-Jurchen Vocabulary of the Bureau of Interpreters. (Uralic and Altaic Series, Vol. 153). Indiana University, Research Institute for Inner Asian Studies. Bloomington, Indiana, 1989. ISBN 978-0-933070-23-3.
+
+
+== External links ==
+
+The Khitais and Jurchens as Seen from the Korean Peninsula Archived 2019-08-19 at the Wayback Machine
+Jurchens in the Ming Era: From the Nüzhenyiyu to the Yongningsibei Archived 2015-02-08 at the Wayback Machine
+Jurchen Script
