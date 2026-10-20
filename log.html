@@ -955,4 +955,22 @@
 <li>判定：H74a・d・f・h 支持、H74b（0.11）・c（+0.052、境目）・e（91%）・g（51）棄却。</li>
 <li>逸脱：explore.py（E1〜E3）は初回の結果を見た後に追加した探索で、事前登録の数値は初回のまま。sim.py は1回で通った。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は冊子を何百部も配るより 10〜30部を別々の図書館に預け、金庫の手引き・地図帳・百科事典・法定納本の普通の本など崩壊後に読まれそうなものに同じページを入れる。本研究所は c を「物理的な壊れ方で約0.1、読む社会が共通なら約0.9」と分けて記録し、次は崩壊後の社会が古い蔵書を読む確率 167 へ）。</li>
+</ul>
+<h2 id="63-2026-10-20">第63回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・053〜062 を <code>/tmp/rep063/</code> に複製し、062 の sim.py（約247秒）を再実行した。results.json は runtime 以外一致（葉 812個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 167（崩壊後の社会が古い蔵書を探して読む確率と時期）を主課題にした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認、MediaWiki API）：Wikipedia 英語版の Egyptian hieroglyphs、Rosetta Stone、Cuneiform、Linear B、Greek Dark Ages、Maya script、Meroitic script、Linear A、Indus script、Rongorongo、Burning of books and burying of scholars、Old Text School（Old Texts の転送先）、Carolingian Renaissance、Catullus、Poggio Bracciolini、De rerum natura、Institutio Oratoria、Annals (Tacitus)、Archimedes Palimpsest、Decipherment、Old Persian cuneiform、Petrarch、Ugaritic alphabet。<code>sources/cases.json</code> の抜き出し 47件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Ugaritic（解読の年が本文になかった）・Petrarch（写しの年なし）・Decipherment・Old Persian は数字に使っていない。051 の results.json（Seshat の喪失の例 10件）を深い喪失の後の文字の喪失の数え上げに使った。</li>
+<li>研究063を実施：<code>research/063-post-collapse-reading/</code>（sim.py 約220秒 seed 20261063、計算のみ）。成果物は results.json、stdout.txt、fig_cases_R.png、fig_versions_scans.png、report.md、PREREGISTRATION.md（00:40Z、資料を読んだ後・sim.py の作成の前）、sources/（本文、fetch.py、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep063b/</code> で再実行し results.json は runtime 以外一致（葉 571個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：062 の sim.py を「# ---------- 版 ----------」の前まで exec し 062 の主の比を差0で再現。fp を、写しごとの f~U(0.5,1) と全写しに共通の R(T)=Srch(T)×[p_cont+(1−p_cont)p_dec(T)]（重い崩壊の標本だけ、状態は成分ごとの T2s との照合で引く）に分けた。p_cont は 051 の深い喪失（S2 か S4）4件の Jeffreys の Beta、p_dec は文字を失った8件（5件解読、3件打ち切り）の指数の事後、Srch の主は 1（版 indep は探索 3件の対数正規）。版 pc_alt・pc_all・pc_half・pc_one・strict・indep・f_061・census_tau・popular、部数・primer・p_cont の走査、062 と同じ費用あたり。</li>
+<li>主要数値：</li>
+<li>文字を失った後に読まれるまで：377（Maya）、1,428、1,479、1,778、3,152年、未解読3件、後継の社会が読んだ例 <strong>0/8</strong>。事後の中央値 <strong>2,342年</strong>（1,197〜5,543）。</li>
+<li>探索の始まり：Han 63〜86年、Carolingian 304〜354年、Renaissance 829〜941年、中央値 <strong>329年</strong>。書庫で読まれずにいた年数 289〜677年（中央値 596年）。</li>
+<li>p_cont：深い喪失 4件のうち文字の喪失 1件（Indus）で平均 <strong>0.70</strong>、S4b 込み 1/7 で 0.81、全崩壊 2/57 で 0.96。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：063 主 <strong>0.81</strong>（XPT 0.84）、062 主 0.87、062 E1 0.78、pc_alt 0.84、pc_all 0.87、pc_half 0.78、pc_one 0.87、strict 0.81、indep <strong>0.74</strong>、popular <strong>0.71</strong>。全体 0.92、軽い崩壊 0.97（不変）。</li>
+<li>走査：p_cont 0→1 で 0.67→0.87、primer 0→1 で 0.805→<strong>0.873</strong>、部数 1／10／100／1,000 で 0.66／0.75／0.81／0.83（10部で上げ幅の 60%）。</li>
+<li>費用あたり（全体、中央値、TAB=1）：063 主 <strong>46</strong>（9.6〜218）、062 主 54、indep 34、popular 30、S_TC|TC 17.8。重い崩壊だけで 98。</li>
+<li>判定：H75a・b・c・d・e（0.602、境目）・f・h・i 支持、H75g（0.71 対 0.81）棄却。</li>
+<li>逸脱：初回の実行の後、census_tau と同じ設定だった版 stack_census を消して再実行した（新しい乱数なし、他の数値は初回と同じ）。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は座標の冊子に文字そのものを教える絵の手引きを入れ、よく使われる本の付録より書庫で長く残る別冊として 10〜30か所に預ける。本研究所は 062 の「読む社会が共通なら 0.78」を「文字が続く確率しだいで 0.67〜0.87、主 0.81」に改め、次は地球規模の重い崩壊で文字が続く確率 169 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

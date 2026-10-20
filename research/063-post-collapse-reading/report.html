@@ -1,0 +1,134 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究063：崩壊後の社会が古い蔵書を探して読む確率と時期（open_problems 167） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="063open_problems-167">研究063：崩壊後の社会が古い蔵書を探して読む確率と時期（open_problems 167）</h1>
+<p>2026-10-20、第63回。計算のみ（sim.py、seed 20261063、約220秒、ネット接続なし）。事前登録：PREREGISTRATION.md（00:40Z、資料を読んだ後・sim.py の前）。</p>
+<h2 id="_1">問い</h2>
+<p>062 で、座標の冊子の写しどうしの相関を生むのは物理的な破壊でなく「崩壊後に古い蔵書を探して読む社会がいるか」で、これを全写しに共通にすると重い崩壊の冊子の価値は 0.87→0.78 に下がった。(1) 読む社会が現れるまでの年数は、重い崩壊で T2 に届くまでの年数（U3 の中央値 843年）と比べて長いか。(2) 共通の要因の中身は「探すか」か「読めるか（文字が続くか）」か。(3) 読まれやすい置き場所や読み方の手引き（primer）で何が変わるか。</p>
+<h2 id="mediawiki-api-47-sourcesverify_excerptspy">資料（本回取得、MediaWiki API。抜き出し 47件は sources/verify_excerpts.py で保存本文と照合しすべて一致）</h2>
+<ul>
+<li>文字の知識が失われた例 8件【事実（Wikipedia：<a href="https://en.wikipedia.org/wiki/Egyptian_hieroglyphs">Egyptian hieroglyphs</a>、<a href="https://en.wikipedia.org/wiki/Rosetta_Stone">Rosetta Stone</a>、<a href="https://en.wikipedia.org/wiki/Cuneiform">Cuneiform</a>、<a href="https://en.wikipedia.org/wiki/Linear_B">Linear B</a>、<a href="https://en.wikipedia.org/wiki/Greek_Dark_Ages">Greek Dark Ages</a>、<a href="https://en.wikipedia.org/wiki/Maya_script">Maya script</a>、<a href="https://en.wikipedia.org/wiki/Meroitic_script">Meroitic script</a>、<a href="https://en.wikipedia.org/wiki/Linear_A">Linear A</a>、<a href="https://en.wikipedia.org/wiki/Indus_script">Indus script</a>、<a href="https://en.wikipedia.org/wiki/Rongorongo">Rongorongo</a>）】：最後の使用→現代の解読は、hieroglyphs 394→1822、cuneiform 79/80→1857、Linear B 約1200 BC（Pylos の火事）→1952、Maya「おそらく16世紀末まで」→1952（Knorozov）、Meroitic 410/450→1909（言葉は今もよく分からない）。Linear A（1450 BC まで）、Indus（約1900 BCE）、Rongorongo（1864 には読み書きが消えていた可能性）は未解読。Greek Dark Ages の頁は「950〜750 BC に Greeks は書くことを学び直したが、Linear B でなく Phoenician の文字を使った」と書く。Maya の16世紀末、Linear B の 1200 BC を最後の使用の年とした丸めは【推測】。</li>
+<li>文字が続いた後に古い本を探し始めた例 3件【事実（<a href="https://en.wikipedia.org/wiki/Burning_of_books_and_burying_of_scholars">Burning of books and burying of scholars</a>、<a href="https://en.wikipedia.org/wiki/Old_Text_School">Old Text School</a>、<a href="https://en.wikipedia.org/wiki/Carolingian_Renaissance">Carolingian Renaissance</a>、<a href="https://en.wikipedia.org/wiki/Catullus">Catullus</a>、<a href="https://en.wikipedia.org/wiki/Poggio_Bracciolini">Poggio Bracciolini</a>）】：Qin の焚書 213 BCE→Confucius の家の壁から古文の経書が出たのは「2世紀後半」、Liu Yu（127 BC 没）の改築のとき（しかも Qin の改革の前の古い字体で書かれていた）。西ローマの後、800年より前のラテン語の写本は2,000未満、800年の後の1世紀は7,000超。Catullus の写本が Verona で出たのが 1305、Poggio の大きな発見は 1415〜1417。焚書を崩壊の代わりにしたこと、476 を西ローマの崩壊の年、780〜830 と 1305〜1417 を探索の始まりの幅としたことは【推測】。焚書の話の細部は今の歴史家に疑われている（同じ頁）。</li>
+<li>書庫で読まれずにいた年数 4件【事実（<a href="https://en.wikipedia.org/wiki/De_rerum_natura">De rerum natura</a>、<a href="https://en.wikipedia.org/wiki/Institutio_Oratoria">Institutio Oratoria</a>、<a href="https://en.wikipedia.org/wiki/Annals_(Tacitus)">Annals (Tacitus)</a>、<a href="https://en.wikipedia.org/wiki/Archimedes_Palimpsest">Archimedes Palimpsest</a>）】：Lucretius の Codex Oblongus（9世紀前半）→1417、Quintilian の完全な写し「ほぼ6世紀」誰も見ず→1416、Tacitus Annals 11–16（Monte Cassino、1058〜1087 に在った）→da Strada（1361 没）、Archimedes の消された本文 1229→1906。</li>
+<li>深い崩壊の後の文字の喪失：051 の Seshat の喪失の例（results.json の loss_episodes_main、10件）から数えた。</li>
+<li>他：<a href="https://en.wikipedia.org/wiki/Decipherment">Decipherment</a>（「未知の文字で既知の言葉」の型に Linear B などが入る）、<a href="https://en.wikipedia.org/wiki/Old_Persian_cuneiform">Old Persian cuneiform</a>（対訳なしで推測を重ねて解読）、<a href="https://en.wikipedia.org/wiki/Petrarch">Petrarch</a>（1345 に Verona で Cicero の書簡を発見）は数字に使っていない（Petrarch は写しの年がない）。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<p>062 の sim.py を「# ---------- 版 ----------」の前まで exec し、062 の主（冊子 100部、K=20）の比を差0で再現した。1部が見つかる確率 fp（061 の U(0.3,0.84)）を次の2つに分けた。
+- 写しごと：読める社会が探すときに1部が見つかる確率 f~U(0.5,1)【推測】。崩壊の衝撃（062 の地域・施設の二段の模型）と朽ち方 τp は 062 の主のまま。
+- 全写しに共通に1回：R(T) = Srch(T) × [p_cont + (1−p_cont)·p_dec(T)]。重い崩壊（状態 T1・T0）の標本だけに掛け、軽い崩壊（計算機の社会が残る）は 1。
+  - p_cont（文字が続く確率）の主：Seshat で2つ以上の技術か金属すべてを失った深い喪失 4件のうち文字も失ったのは1件（Indus）→ Jeffreys の Beta で平均 0.70。版：S4b も入れた 1/7（0.81）、全崩壊の 2/57（0.96）、0.5、1。
+  - p_dec(T)＝1−exp(−T/τ_dec)。τ_dec は8件（5件解読、3件は打ち切り）の指数の事後。版 strict：T2 の社会は解読できない（p_dec=0）。
+  - Srch(T) の主＝1（探索は鉄の段の社会で崩壊から 63〜941年に始まっており、T2 に届いた社会は探していると置く【推測】）。版 indep：探索の年数を3件の対数正規から引き、T2 の時刻と独立とする。
+- 置き場所の版 popular：よく使われる本に入れる（f~U(0.8,1)、τp は使われる本の Bay Psalm の 77年前後）。primer の走査：文字を失ったときに冊子の手引きで読める確率 p_primer を 0〜1。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>文字を失った後に読まれるまで（5件）：377（Maya）、1,428、1,479、1,778、3,152年。後継の社会が自分で読んだ例は <strong>0/8</strong>。指数の事後で読まれるまでの中央値 <strong>2,342年</strong>（90% 1,197〜5,543）。</li>
+<li>文字が続いた後の探索の始まり：Han 63〜86年、Carolingian 304〜354年、Renaissance 829〜941年、中央値 <strong>329年</strong>。書庫で読まれずにいた年数は 289〜677年（中央値 596年）。</li>
+<li>Seshat の深い喪失で文字が続いた割合 p_cont：主 <strong>0.70</strong>（4件、標本は小さい）、S4b 込み 0.81、全崩壊 0.96。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>版（A_Ord/U3、TC の V0 比）</th>
+<th>全体</th>
+<th>重い崩壊</th>
+<th>軽い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>冊子なし（060/061 main）</td>
+<td>0.81</td>
+<td>0.63</td>
+<td>0.87</td>
+</tr>
+<tr>
+<td>062 主（fp を写しごと）</td>
+<td>0.94</td>
+<td>0.87</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>062 E1（fp を全写しに共通）</td>
+<td>0.89</td>
+<td>0.78</td>
+<td>0.92</td>
+</tr>
+<tr>
+<td><strong>063 主</strong>（p_cont 0.70）</td>
+<td><strong>0.92</strong>（XPT 0.95）</td>
+<td><strong>0.81</strong>（XPT 0.84）</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>p_cont 0.81／0.96／1</td>
+<td>0.93／0.94／0.94</td>
+<td>0.84／0.87／0.87</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>p_cont 0.5</td>
+<td>0.91</td>
+<td>0.78</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>strict（解読なし）</td>
+<td>0.92</td>
+<td>0.81</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>indep（探索の時刻が T2 と独立）</td>
+<td>0.89</td>
+<td><strong>0.74</strong></td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>f を 061 の fp に</td>
+<td>0.92</td>
+<td>0.81</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>census_tau</td>
+<td>0.92</td>
+<td>0.82</td>
+<td>0.97</td>
+</tr>
+<tr>
+<td>popular（よく使われる本）</td>
+<td>0.88</td>
+<td><strong>0.71</strong></td>
+<td>0.97</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>p_cont の走査（重い崩壊）：0 で 0.67、0.5 で 0.78、1 で 0.87。primer の走査：0 で 0.805、0.5 で 0.840、1 で <strong>0.873</strong>（+0.068、p_cont=1 と同じ）。</li>
+<li>部数の走査（重い崩壊）：1部 0.66、10部 0.75、100部 0.81、1,000部 0.83。10部で 1,000部の上げ幅の <strong>60%</strong>（062 主 55%、E1 68%）。</li>
+<li>費用あたり（全体、中央値、TAB=1）：063 主 <strong>46</strong>（9.6〜218）、062 主 54、p_cont 0.5 で 40、indep 34、popular <strong>30</strong>、S_TC|TC（060）17.8。重い崩壊だけで主 98。</li>
+</ul>
+<h2 id="_4">仮説の検証</h2>
+<ul>
+<li>H75a（文字を失った後に読まれるまでの中央値 &gt; 843年）：支持（2,342年）。文字を失えば T2 の時刻までに読まれることはほぼない。</li>
+<li>H75b（探索の始まりの中央値 &lt; 843年）：支持（329年）。</li>
+<li>H75c（主の p_cont ≤ 0.8）：支持（0.70、ただし4件）。</li>
+<li>H75d（063 主が 062 の E1 0.78 と主 0.87 の間）：支持（0.814）。</li>
+<li>H75e（10部で 1,000部の上げ幅の 60% 以上）：支持（0.602、境目）。</li>
+<li>H75f（primer 0→1 で重い崩壊が 0.03 以上上がる）：支持（+0.068）。</li>
+<li>H75g（popular ≥ 主）：<strong>棄却</strong>（0.71 対 0.81）。</li>
+<li>H75h（063 主の費用あたり &gt; 17.8）：支持（46）。</li>
+<li>H75i（indep で 0.03 以上下がる）：支持（−0.079）。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li>共通の要因の中身は「探すか」より「読めるか」だった【推測】。文字が続いた3件ではどれも、鉄の段の社会が崩壊から 63〜941年で古い本を探し始めていた。一方、文字を失った8件では後継の社会が古い文字を読んだ例はなく（Greek は同じ言葉なのに別の文字で書き直した）、読んだのは 377〜3,152年後の別の学問の社会だった。だから重い崩壊での冊子の価値は p_cont でほぼ決まり、0.67（文字が必ず失われる）〜0.87（必ず続く）の幅になる。</li>
+<li>p_cont の主（0.70）は Seshat の深い喪失 4件のうち1件という小さな標本で、しかも歴史の崩壊は周りに文字の社会が残る。地球規模の重い崩壊には周りの文字の社会がないので p_cont を下げる方向、現代の読み書きが一部の書記でなく大衆に広がっていることと身の回りに印刷物が多いことは上げる方向に働く【推測】。どちらが強いかは本回の資料では決まらない（→169）。</li>
+<li>indep の 0.74 は、探索の始まりが技術の段と無関係に 26〜2,977年（90%）に散るという悲観的な読み。歴史の3件はどれも T2 より低い段の社会なので、主（T2 の社会は探している）の方が資料に近いと判断した【推測】。</li>
+<li>popular が悪いのは、使われる本の時定数（Bay Psalm の 77年）を使ったため。Bay Psalm の減りは使い続ける社会の中での減りで、崩壊の後に使う人がいなければ減り方は違うかもしれない。それでも「読まれやすい本に入れる」効き（f を 0.75→0.9）は、写しが早く減る損を埋めるには小さい（→171）。062 の提言の後半（普通の本の付録に入れる）は弱まった。</li>
+<li>費用あたりの 46 は primer の費用を含まない。primer は冊子の数ページの絵と言葉の対応で、文字を失った社会がそれで読めるようになるかの資料はない。解読の歴史では対訳（Rosetta）が見つかってから 23年で読まれたが、それは学問の社会だった（→170）。</li>
+<li>探索 3件のうち1件は焚書で崩壊ではない。書庫の年数の4件は有名な発見で、見つからなかった写しは数えられない（選択の偏り）。</li>
+</ul>
+<h2 id="_6">新規性</h2>
+<p>文字の喪失と解読の歴史、写本の再発見の年数を、崩壊後に保存の写しが読まれる確率の「共通の要因」の分解（探すか・読めるか）に使い、重い崩壊の金庫の価値への効きを数えたのは本研究所で初めて【推測：網羅的に調べたわけではない】。【独自仮説】長期の保存の写しを読めなくする主因は写しの破壊でも探す人の不在でもなく、文字の連続が切れることで、そこは部数でなく冊子に入れた読み方の手引きでしか埋まらない。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者は、座標の冊子に「絵と言葉の対応で文字そのものを教える数ページ」（primer）を入れ、冊子はよく使われる本の付録より、書庫で長く残る別冊として 10〜30か所の図書館に預けるべき（primer が効けば重い崩壊で 0.81→最大 0.87、よく使われる本に入れると 0.71）。本研究所は 062 の「読む社会が共通なら 0.78」を「文字が続く確率しだいで 0.67〜0.87、主 0.81」に改め、次は地球規模の重い崩壊で文字が続く確率（169）と、文字を知らない人が絵の手引きで読めるようになるか（170）を調べる。</p><footer><hr><small>自動生成</small></footer></body></html>
