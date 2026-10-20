@@ -1,0 +1,392 @@
+{
+"Nalanda_district": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 2474882,
+"ns": 0,
+"title": "Nalanda district",
+"coordinates": [
+{
+"lat": 25.2,
+"lon": 85.52,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Bargaon,_Nalanda": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"ns": 0,
+"title": "Bargaon, Nalanda",
+"missing": true
+}
+]
+}
+},
+"Jarrow": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 189973,
+"ns": 0,
+"title": "Jarrow",
+"coordinates": [
+{
+"lat": 54.98138889,
+"lon": -1.49,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Sunderland": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 264853,
+"ns": 0,
+"title": "Sunderland",
+"coordinates": [
+{
+"lat": 54.90444444,
+"lon": -1.38111111,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Verona": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 263991,
+"ns": 0,
+"title": "Verona",
+"coordinates": [
+{
+"lat": 45.43861111,
+"lon": 10.99277778,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Savona": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 745321,
+"ns": 0,
+"title": "Savona",
+"coordinates": [
+{
+"lat": 44.30805556,
+"lon": 8.48111111,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Srinagar": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 294148,
+"ns": 0,
+"title": "Srinagar",
+"coordinates": [
+{
+"lat": 34.09,
+"lon": 74.79,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Bad_Hersfeld": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 271043,
+"ns": 0,
+"title": "Bad Hersfeld",
+"coordinates": [
+{
+"lat": 50.86833333,
+"lon": 9.7075,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Nanjing": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 21791,
+"ns": 0,
+"title": "Nanjing",
+"coordinates": [
+{
+"lat": 32.06083333,
+"lon": 118.77888889,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Chengdu": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 170375,
+"ns": 0,
+"title": "Chengdu",
+"coordinates": [
+{
+"lat": 30.66,
+"lon": 104.06333333,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Tholing_Monastery": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 24816638,
+"ns": 0,
+"title": "Tholing Monastery",
+"coordinates": [
+{
+"lat": 31.48361111,
+"lon": 79.79805556,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Mount_Tiantai": {
+"batchcomplete": true,
+"query": {
+"redirects": [
+{
+"from": "Mount Tiantai",
+"to": "Tiantai Mountain"
+}
+],
+"pages": [
+{
+"pageid": 23607469,
+"ns": 0,
+"title": "Tiantai Mountain"
+}
+]
+}
+},
+"Konstanz": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 98095,
+"ns": 0,
+"title": "Konstanz",
+"coordinates": [
+{
+"lat": 47.66666667,
+"lon": 9.18333333,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Reichenau_Island": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 507267,
+"ns": 0,
+"title": "Reichenau Island",
+"coordinates": [
+{
+"lat": 47.69444444,
+"lon": 9.0625,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Shaoxing": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 301263,
+"ns": 0,
+"title": "Shaoxing",
+"coordinates": [
+{
+"lat": 30.0511,
+"lon": 120.5833,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Bodh_Gaya": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 226045,
+"ns": 0,
+"title": "Bodh Gaya",
+"coordinates": [
+{
+"lat": 24.695,
+"lon": 84.9925,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Tamluk": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 1563652,
+"ns": 0,
+"title": "Tamluk",
+"coordinates": [
+{
+"lat": 22.3,
+"lon": 87.92,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Kathmandu": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 17168,
+"ns": 0,
+"title": "Kathmandu",
+"coordinates": [
+{
+"lat": 27.71,
+"lon": 85.32,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Dunhuang": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 204675,
+"ns": 0,
+"title": "Dunhuang",
+"coordinates": [
+{
+"lat": 40.14111111,
+"lon": 94.66388889,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Gyantse": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 2191260,
+"ns": 0,
+"title": "Gyantse",
+"coordinates": [
+{
+"lat": 28.9148,
+"lon": 89.6045,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+}
+}

@@ -1,0 +1,831 @@
+{
+"Xi'an": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 81263,
+"ns": 0,
+"title": "Xi'an",
+"coordinates": [
+{
+"lat": 34.26111111,
+"lon": 108.94222222,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Nalanda": {
+"batchcomplete": true,
+"query": {
+"redirects": [
+{
+"from": "Nalanda",
+"to": "Nalanda mahavihara"
+}
+],
+"pages": [
+{
+"pageid": 200282,
+"ns": 0,
+"title": "Nalanda mahavihara"
+}
+]
+}
+},
+"Nara,_Nara": {
+"batchcomplete": true,
+"query": {
+"redirects": [
+{
+"from": "Nara, Nara",
+"to": "Nara (city)"
+}
+],
+"pages": [
+{
+"pageid": 6792846,
+"ns": 0,
+"title": "Nara (city)",
+"coordinates": [
+{
+"lat": 34.68444444,
+"lon": 135.805,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Kyoto": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 37652,
+"ns": 0,
+"title": "Kyoto",
+"coordinates": [
+{
+"lat": 35.01161,
+"lon": 135.76811,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Florence": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 11525,
+"ns": 0,
+"title": "Florence",
+"coordinates": [
+{
+"lat": 43.77138889,
+"lon": 11.25416667,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Rome": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 25458,
+"ns": 0,
+"title": "Rome",
+"coordinates": [
+{
+"lat": 41.89333333,
+"lon": 12.48277778,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Constantinople": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 5646,
+"ns": 0,
+"title": "Constantinople",
+"coordinates": [
+{
+"lat": 41.0125,
+"lon": 28.98,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Toledo,_Spain": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 31360,
+"ns": 0,
+"title": "Toledo, Spain",
+"coordinates": [
+{
+"lat": 39.85666667,
+"lon": -4.02444444,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Baghdad": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 4492,
+"ns": 0,
+"title": "Baghdad",
+"coordinates": [
+{
+"lat": 33.31527778,
+"lon": 44.36611111,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Lhasa": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 238741,
+"ns": 0,
+"title": "Lhasa",
+"coordinates": [
+{
+"lat": 29.6539,
+"lon": 91.1175,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Monkwearmouth–Jarrow_Abbey": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 30865018,
+"ns": 0,
+"title": "Monkwearmouth–Jarrow Abbey"
+}
+]
+}
+},
+"Ferrières-en-Gâtinais": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 15811240,
+"ns": 0,
+"title": "Ferrières-en-Gâtinais",
+"coordinates": [
+{
+"lat": 48.0931,
+"lon": 2.7903,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"York": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 34361,
+"ns": 0,
+"title": "York",
+"coordinates": [
+{
+"lat": 53.96,
+"lon": -1.08,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Cluny_Abbey": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 2418110,
+"ns": 0,
+"title": "Cluny Abbey",
+"coordinates": [
+{
+"lat": 46.43416667,
+"lon": 4.65916667,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Abbey_of_Saint_Gall": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 29494,
+"ns": 0,
+"title": "Abbey of Saint Gall",
+"coordinates": [
+{
+"lat": 47.42305556,
+"lon": 9.37722222,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Fulda": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 38823,
+"ns": 0,
+"title": "Fulda",
+"coordinates": [
+{
+"lat": 50.55083333,
+"lon": 9.67527778,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Cremona": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 252374,
+"ns": 0,
+"title": "Cremona",
+"coordinates": [
+{
+"lat": 45.13333333,
+"lon": 10.02472222,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Bath,_Somerset": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 41523,
+"ns": 0,
+"title": "Bath, Somerset",
+"coordinates": [
+{
+"lat": 51.3814,
+"lon": -2.3597,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Gyeongju": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 426047,
+"ns": 0,
+"title": "Gyeongju",
+"coordinates": [
+{
+"lat": 35.85,
+"lon": 129.21666667,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Luoyang": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 166420,
+"ns": 0,
+"title": "Luoyang",
+"coordinates": [
+{
+"lat": 34.6197,
+"lon": 112.4539,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Venice": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 32616,
+"ns": 0,
+"title": "Venice",
+"coordinates": [
+{
+"lat": 45.4375,
+"lon": 12.33583333,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Palembang": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 204226,
+"ns": 0,
+"title": "Palembang",
+"coordinates": [
+{
+"lat": -2.98611111,
+"lon": 104.75555556,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Srivijaya": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 398585,
+"ns": 0,
+"title": "Srivijaya"
+}
+]
+}
+},
+"Vikramashila": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 1654997,
+"ns": 0,
+"title": "Vikramashila"
+}
+]
+}
+},
+"Mount_Hiei": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 459908,
+"ns": 0,
+"title": "Mount Hiei",
+"coordinates": [
+{
+"lat": 35.06666667,
+"lon": 135.83833333,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Mount_Kōya": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 581318,
+"ns": 0,
+"title": "Mount Kōya",
+"coordinates": [
+{
+"lat": 34.2125,
+"lon": 135.58638889,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Langres": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 87681,
+"ns": 0,
+"title": "Langres",
+"coordinates": [
+{
+"lat": 47.8633,
+"lon": 5.3339,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Montecassino": {
+"batchcomplete": true,
+"query": {
+"redirects": [
+{
+"from": "Montecassino",
+"to": "Monte Cassino"
+}
+],
+"pages": [
+{
+"pageid": 37785,
+"ns": 0,
+"title": "Monte Cassino",
+"coordinates": [
+{
+"lat": 41.49,
+"lon": 13.81388889,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Tamralipta": {
+"batchcomplete": true,
+"query": {
+"redirects": [
+{
+"from": "Tamralipta",
+"to": "Tamralipta Kingdom"
+}
+],
+"pages": [
+{
+"pageid": 7263192,
+"ns": 0,
+"title": "Tamralipta Kingdom"
+}
+]
+}
+},
+"Sri_Lanka": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 26750,
+"ns": 0,
+"title": "Sri Lanka",
+"coordinates": [
+{
+"lat": 7,
+"lon": 81,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Pataliputra": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 5509774,
+"ns": 0,
+"title": "Pataliputra",
+"coordinates": [
+{
+"lat": 25.6125,
+"lon": 85.12833333,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Lhodrak_County": {
+"batchcomplete": true,
+"query": {
+"redirects": [
+{
+"from": "Lhodrak County",
+"to": "Lhozhag County"
+}
+],
+"pages": [
+{
+"pageid": 11194575,
+"ns": 0,
+"title": "Lhozhag County",
+"coordinates": [
+{
+"lat": 28.39611111,
+"lon": 91.13055556,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Hangzhou": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 158185,
+"ns": 0,
+"title": "Hangzhou",
+"coordinates": [
+{
+"lat": 30.267,
+"lon": 120.153,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Ningbo": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 250022,
+"ns": 0,
+"title": "Ningbo",
+"coordinates": [
+{
+"lat": 29.8603,
+"lon": 121.6245,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Yangzhou": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 959398,
+"ns": 0,
+"title": "Yangzhou",
+"coordinates": [
+{
+"lat": 32.3944,
+"lon": 119.4128,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Kanchipuram": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 2363321,
+"ns": 0,
+"title": "Kanchipuram",
+"coordinates": [
+{
+"lat": 12.83200528,
+"lon": 79.70365833,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Peshawar": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 66230,
+"ns": 0,
+"title": "Peshawar",
+"coordinates": [
+{
+"lat": 34.01444444,
+"lon": 71.5675,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Udyana": {
+"batchcomplete": true,
+"query": {
+"redirects": [
+{
+"from": "Udyana",
+"to": "Oddiyana",
+"tofragment": "Udyāna"
+}
+],
+"pages": [
+{
+"pageid": 13481788,
+"ns": 0,
+"title": "Oddiyana"
+}
+]
+}
+},
+"Tours": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 31593,
+"ns": 0,
+"title": "Tours",
+"coordinates": [
+{
+"lat": 47.393611,
+"lon": 0.689167,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Cologne": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 6187,
+"ns": 0,
+"title": "Cologne",
+"coordinates": [
+{
+"lat": 50.93638889,
+"lon": 6.95277778,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Mosul": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 200475,
+"ns": 0,
+"title": "Mosul",
+"coordinates": [
+{
+"lat": 36.34166667,
+"lon": 43.12916667,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+},
+"Alexandria": {
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"pageid": 3080,
+"ns": 0,
+"title": "Alexandria",
+"coordinates": [
+{
+"lat": 31.1975,
+"lon": 29.8925,
+"primary": true,
+"globe": "earth"
+}
+]
+}
+]
+}
+}
+}
