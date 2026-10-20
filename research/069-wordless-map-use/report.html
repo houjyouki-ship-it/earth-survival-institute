@@ -292,7 +292,7 @@ pd = 1 − (1 − p_dec)(1 − p_pr(T))(1 − p_map)
 <h2 id="_9">再現と逸脱</h2>
 <ul>
 <li>再現チェック：024〜068 を <code>/tmp/rep069/</code> に複製し 068 の sim.py（約195秒）を再実行、results.json は runtime 以外一致（葉 530個〔runtime を含む〕、差分0）。</li>
-<li>069 は 024〜069 とともに <code>/tmp/rep069b/</code> に複製して再実行（結果は log.md の第69回）。</li>
+<li>069 は 024〜069 とともに <code>/tmp/rep069b/</code> に複製して再実行し（約212秒）、results.json は runtime 以外一致（葉 637個〔runtime を含む〕、差分0）、図2枚の MD5 も一致。</li>
 <li>逸脱1：verify_excerpts.py は空白を詰めてから照合する（PubMed の抄録の折り返しのため。068 までは字面のまま）。</li>
 <li>逸脱2：Martí Fernández の「48〜64%」の5枚は中点 56% と置き、Rother の「50%以上が誤り」は正答 0.50（上限）と置いた（make_cases.py の規則）。Patel は n が抄録になく 30 と置いた。Dehaene の n も 30 と置いた。</li>
 <li>逸脱3：Dehaene 2006 の本文は Science の版元でなく HAL の公開の PDF（著者の版、前の頁に別の論文の末尾を含む）から取った。</li>

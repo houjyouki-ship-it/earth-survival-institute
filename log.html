@@ -1056,4 +1056,20 @@
 <li>判定：H80a〜g 支持、H80h（欧州以外で点の年が両方決まる社会 ≥ 3）棄却（2）。</li>
 <li>逸脱：上の切り替え規則。最初の実行は 067 の名前空間に B がなく止まった（数値の前）、G67["G65"]["B"] に直して再実行。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は primer を前近代の学者が解くことに期待して予算を割かず、部数と預け先、座標を文字なしで使える形を優先する。本研究所は 067 の「Δ 次第で 0.813〜0.851」を「R2 で Δ=−8、重い崩壊 0.813（版 0.813〜0.821）」に改め、179 の線を閉じて 180＋176 へ）。</li>
+</ul>
+<h2 id="69-2026-10-20">第69回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024〜068 を <code>/tmp/rep069/</code> に複製し、068 の sim.py（約195秒）を再実行した。results.json は runtime 以外一致（葉 530個〔runtime を含む。第68回の 529 は runtime を除いた数〕、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨 A（180＋176：文字を読まずに使える座標の割合 p_map）を主課題にした。切り替えの規則（本回開いて確認した公開の数値〔理解の割合〕が5件未満なら B）は、出典 9（数に使ったのは 8）で満たし、字面どおり A を続けた。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Dehaene, Izard, Pica &amp; Spelke 2006（HAL の公開 PDF、PubMed 16424341）、Shusterman, Lee &amp; Spelke 2008（PMC3572713）、Izard, O'Donnell &amp; Spelke 2014（PMC3751975）、Dowse et al. 2023（PubMed 37927939・PMC10623492）、Rother 2008（18755451）、Patel &amp; Mukhopadhyay 2023（37497563）、Gungor 2023（37313152・PMC10258412）、Martí Fernández et al. 2015（25877796）、Hermans et al. 2011（22047089・PMC3215670）、Dowse &amp; Ehlers 2001・2005（11687321、15950838）、Wikipedia 英語版の Çatalhöyük、Bedolina Map、Mezhyrich, Cherkasy Oblast、Marshall Islands stick chart、Tupaia (navigator)、Pioneer plaque、Long-term nuclear waste warning messages、Ammassalik wooden maps。<code>sources/cases.json</code> の抜き出し 36件は <code>verify_excerpts.py</code>（空白を詰めて照合）で保存本文と照合しすべて一致。ほかに取得して数字に使わなかった頁は report.md の末尾。</li>
+<li>研究069を実施：<code>research/069-wordless-map-use/</code>（sim.py 約218秒 seed 20261069、計算のみ）。成果物は results.json、stdout.txt、fig_evidence_scan.png、fig_versions.png、report.md、PREREGISTRATION.md（12:52Z、資料を読み符号化した後・sim.py の作成の前）、sources/（本文、HAL の PDF、fetch.py、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep069b/</code> で再実行し results.json は runtime 以外一致（葉 637個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：068 の sim.py を「# ---------- 版 ----------」の前まで exec し、p_map なしで 067 の主（重い崩壊 0.81262）と 068 の主（0.81284）を差0で再現。重い崩壊で文字が切れた標本の使える確率を 1−(1−p_dec)(1−p_pr)(1−p_map) に替え、p_map = k_match × k_concept × k_geo：k_match は地図の課題 4件（当て推量で補正、Beta で引く）、k_concept は絵文字の理解 5件、k_geo~U(0.5,1)【推測】。地図の費用は primer と同じ抽出【推測】。版は raw・landmark・unschooled・p_low・match_only・geo1・geo_low・hist・map_nopr・map_R1fast・best、p_map の走査。</li>
+<li>主要数値：</li>
+<li>資料：地図の課題の正答 71%（Mundurukú）、70%・53%（4歳児）、72.9%（4歳児、当て推量 50%）。補正後の中央値 <strong>0.504</strong>、平均 0.467（補正前 0.667）、目印が目標の試行 <strong>0.896</strong>。絵文字の理解は 79%・≤50%・78.5%・66.6%・53.7%、中央値 <strong>0.666</strong>。古い文字なしの地図は地図と認められたのが 2/4。<strong>どの実験も「これは地図だ」は言葉で伝えていた。</strong></li>
+<li>p_map：主 <strong>0.224</strong>（90% 0.055〜0.423）、landmark 0.425、geo_low 0.119、best 0.867。重い崩壊の U3 の T で primer だけの使える確率 0.116 → 地図と合わせて 0.313。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：068 主 0.813、<strong>069 主 0.827</strong>（XPT 0.832→<strong>0.846</strong>）、raw 0.834、landmark <strong>0.840</strong>、unschooled 0.830、p_low 0.828、match_only 0.834、geo1 0.831、geo_low <strong>0.821</strong>、hist 0.824、map_nopr 0.825、map_R1fast 0.853、best 0.866。p_map=1 で上限 <strong>0.873</strong>。地図があると primer の追加分は +0.0025。全体 0.919→0.924、軽い崩壊 0.969（不変）。</li>
+<li>費用あたり（全体、中央値、TAB=1）：地図の追加分 <strong>6.5</strong>（1.5〜32）、landmark 11.9、primer の追加分 1.8、冊子だけ 44、冊子＋primer＋地図 27.5、冊子＋地図 34.6。重い崩壊だけで地図 23（primer 6.3、冊子 92）。A_XPT_S の全体で地図 2.4。</li>
+<li>判定：H81a・b・c・d・e・f・g・h・j 支持、H81i（版の幅 0.044 ≤ 0.04）棄却。H81a〜c は登録の時点で値が分かっていた資料の確認。</li>
+<li>逸脱：verify_excerpts.py は空白を詰めて照合（抄録の折り返し）。範囲だけの本文は中点・上限で符号化（make_cases.py の規則）。n の分からない実験は 30 と置いた。Dehaene 2006 は版元でなく HAL の公開 PDF から取った。sim.py は1回で通った。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は primer の予算を冊子の最初のページの目印つきの文字なしの多段の地図に回し、説明なしで印の場所を選べるかを字を読まない人で試してから刷る。順番は部数と預け先〔44〕→目印つきの地図〔11.9〕→primer〔1.8〕。本研究所は 068 の 0.813 を「地図を足すと 0.827、版 0.821〜0.853、上限 0.873」に改め、上限を決める写しと群の数 173 へ。地図が T2 より前の社会を金庫へ導く害 184 は新しい問い）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
