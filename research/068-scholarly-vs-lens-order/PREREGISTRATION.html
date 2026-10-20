@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究068 事前登録（2026-10-20T10:45Z、資料を読み事例表を符号化した後・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="068-2026-10-20t1045zsimpy">研究068 事前登録（2026-10-20T10:45Z、資料を読み事例表を符号化した後・sim.py の作成の前）</h1>
+<h2 id="open_problems-179">問い（open_problems 179）</h2>
+<p>067 の primer の価値は「学問の段 P が T2（読取装置の段）より何年先に来るか（Δ）」で 0.813〜0.851 に動いた。本回は P の定義を二つに分ける。
+- R1（文献学の段）：読める文字の古い文書・碑文を体系的に集め・写し・比べ・誤りを正す。
+- R2（読めない文字への体系的な取り組み）：067 の onset。
+5社会（Europe_Italy、Song_China、Edo_Japan、Abbasid、Byzantine）で R1 と L（望遠鏡・顕微鏡級のレンズを作った年）を数え、R1 の段の社会が L の前に読めない文字に取り組んだか（曝露と件数）を数える。</p>
+<h2 id="next_plan">next_plan の切り替え規則との関係</h2>
+<p>規則は「欧州以外で両方の年が本文で決まる社会が3つ未満なら B へ」。点の年で決まるのは Song_China・Edo_Japan の 2つ（3 未満）。Abbasid・Byzantine は L が本文で「1608 より後」としか決まらない（右打ち切り）。本回は打ち切りを数に入れる読みで A を続ける（逸脱として報告）。理由：本回の主の結論（R1 は読めない文字への取り組みを起こさない）は Δ の分布の当てはめでなく曝露と件数に乗り、打ち切りの社会がその曝露の大半を出す。厳密な数え（2）は H80h で記録する。</p>
+<h2 id="simpy">模型（sim.py で実装する予定）</h2>
+<p>067 の sim.py を「# ---------- 版 ----------」の前まで exec し、067 の主（重い崩壊 A_Ord/U3 0.8126）を差0で再現する。primer の経路の取り組みを三つの区間の率にする：崩壊〜R1 は 067 の λ_any、R1〜R2 は λ1 ~ Gamma(0.5+k1, 1/E1)（R1 の段の社会の L より前の曝露 E1・件数 k1）、R2 の後は 067 の post（すぐ取り組む）。どの区間でも取り組んでから τ_key で読む。R1 は T2 の Δ1 年前、Δ1 は5社会からの復元抽出（打ち切りは下限の値）、R2 は T2 の Δ2 年前で Δ2 = L − R2（Europe：1608−1616 = −8）。
+版：main、R1_fast（R1 の後すぐ取り組む＝067 の P を R1 と読む楽観）、k1（Europe の 1616 を R1 の段の件として数える、E は 1616 まで）、abb1600（Abbasid の曝露を 1600 まで）、exp_half（曝露を半分）、R1alt（R1・L の alt の年）、cens2x（打ち切りの Δ1 を2倍）、eur_only（Δ1=187 固定）、W20（T2 の後 20年まで読めれば足りる）、W20_R2alt（W20 で Δ2=−35）。τ1 を固定した走査（100〜10,000年）。</p>
+<h2 id="_1">仮説（判定の規則）</h2>
+<ul>
+<li>H80a：L の年（または下限）が決まる5社会すべてで R1 が L より前（Δ1 &gt; 0 が 5/5）。</li>
+<li>H80b：R1 の段の社会が L より前に読めない文字に体系的に取り組んだ件数 k1 = 0、かつ曝露 E1 ≥ 1,000 年。</li>
+<li>H80c：Europe で R2 が L の後 50年以内（0 ≤ R2 − L ≤ 50）。</li>
+<li>H80d：main の重い崩壊 A_Ord/U3 ≤ 067 主 + 0.01。</li>
+<li>H80e：R1_fast の重い崩壊 ≥ 067 主 + 0.025。</li>
+<li>H80f：λ1 の事後の時定数 1/λ1 の中央値 ≥ 10 × τ_key の中央値。</li>
+<li>H80g：main の primer の追加分の費用あたり（全体、中央値、TAB=1）&lt; 冊子だけ（064 の 44）。</li>
+<li>H80h：欧州以外で点の年が両方決まる社会 ≥ 3（予想は棄却、2）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
