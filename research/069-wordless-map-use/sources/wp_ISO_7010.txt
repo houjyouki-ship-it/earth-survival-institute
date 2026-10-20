@@ -1,0 +1,64 @@
+URL: https://en.wikipedia.org/wiki/ISO_7010
+ISO 7010 is a technical standard by the International Organization for Standardization for graphical hazard symbols on hazard and safety signs, including those indicating emergency exits. It uses colours and principles set out in ISO 3864 for these symbols, and is intended to provide "safety information that relies as little as possible on the use of words to achieve understanding." 
+The standard was published in October 2003, splitting off from ISO 3864:1984, which set out design standards and colours of safety signage and merging ISO 6309:1987, Fire protection - Safety signs to create a unique and distinct standard for safety symbols.
+As of September 2022, the latest version is ISO 7010:2019, with 11 published amendments. This revision canceled and replaced ISO 20712-1:2008, incorporating the water safety signs and beach safety flags specified in it.
+
+
+== Shape and colour ==
+ISO 7010 specifies five combinations of shape and colour to distinguish between the type of information presented.
+
+
+== List ==
+ISO registers and lists recommended pictograms, which it calls "safety signs", on its website, ISO.org.  The ISO standard provides a registered number for pictograms that have officially been made part of the ISO 7010 standard.  Corresponding with the categories above, in ISO parlance, "E" numbers refer to Emergency (signs showing a safe condition), "F" numbers refer to Fire protection, "P" numbers refer to Prohibited actions, "M" numbers refer to Mandatory actions, and "W" numbers refer to Warnings of hazards.
+According to the related ISO 3864-1 standard, if a symbol does not exist for a situation, the recommended solution is to use the relevant 'general' symbol (M001, P001, W001), along with a supplemental text message.
+
+
+=== Safe condition ===
+
+
+==== Crescent variant ====
+ISO 7010 states on all symbols with a first aid cross that it "may be replaced with another element appropriate to cultural requirements". In some countries with a Muslim-majority population, an appropriate symbol is the crescent.
+
+
+=== Fire protection ===
+
+
+=== Mandatory ===
+
+
+=== Prohibition ===
+
+
+=== Warning ===
+
+
+=== Withdrawn symbols ===
+The following symbols were previously part of ISO 7010, but have since been withdrawn from the standard; arrow type D in ISO standard 3864-3 are to be used in their stead.
+
+
+== Regional variants ==
+
+
+=== France ===
+
+
+=== Netherlands ===
+
+
+== See also ==
+Hazard symbol
+ISO 3864 – Safety colors and safety signs
+ISO 7001 – Public Information Symbols
+ISO 21482 – A separate standard for a specific radiation safety sign for specific applications
+Pipe marking § ISO 20560-1 & -2 Safety information for piping systems
+ANSI Z535 – The United States national standard for safety information
+Directive 92/58/EEC – Safety signs used in the European Union
+GHS hazard pictograms – Symbols used by the Globally Harmonized System of Classification and Labelling of Chemicals
+
+
+== References ==
+
+
+== External links ==
+
+ISO 7010:2019 Graphical symbols -- Safety colours and safety signs -- Registered safety signs

@@ -1,0 +1,302 @@
+       ”Core Knowledge of geometry in an Amazonian Indigene
+                             Group”
+               Stanislas Dehaene, Veronique Izard, Pierre Pica, Elizabeth Spelke
+
+
+
+      To cite this version:
+     Stanislas Dehaene, Veronique Izard, Pierre Pica, Elizabeth Spelke. ”Core Knowledge of geometry in an Ama-
+     zonian Indigene Group”. Science, 2006, 311 (5759), pp.381-4. ⟨10.1126/science.1102085⟩. ⟨hal-00206261⟩
+
+
+
+
+                                        HAL Id: hal-00206261
+                              https://hal.science/hal-00206261v1
+                                           Submitted on 20 Apr 2017
+
+
+
+
+    HAL is a multi-disciplinary open access archive             L’archive ouverte pluridisciplinaire HAL, est des-
+for the deposit and dissemination of scientific re-        tinée au dépôt et à la diffusion de documents scien-
+search documents, whether they are published or not.       tifiques de niveau recherche, publiés ou non, émanant
+The documents may come from teaching and research          des établissements d’enseignement et de recherche
+institutions in France or abroad, or from public or pri-   français ou étrangers, des laboratoires publics ou
+vate research centers.                                     privés.
+
+
+                                              HAL Authorization
+                                                                                                                                                                                            REPORTS
+fectious virus in siRNA-transfected cells (Fig.                     3. P. Friedl, K. Wolf, Nat. Rev. Cancer 3, 362 (2003).              18. M. C. Sancho, S. Schleich, G. Griffiths, J. Krijnse-Locker,
+4, D and E). Thus, F11L-mediated inhibition                         4. N. O. Carragher, M. C. Frame, Trends Cell Biol. 14, 241              J. Virol. 76, 8318 (2002).
+                                                                       (2004).                                                          19. J. C. Gallego-Gomez et al., J. Virol. 77, 10606 (2003).
+of RhoA signaling is required for both vaccinia                     5. C. M. Sanderson, G. L. Smith, J. Virol. 72, 9924                 20. We thank J. Krijnse-Locker (European Molecular
+morphogenesis and infection-induced cell mo-                           (1998).                                                              Biology Laboratory, Heidelberg, Germany) and A. Alberts
+tility. Our observations may also explain, at                       6. C. M. Sanderson, M. Way, G. L. Smith, J. Virol. 72, 1235             (Van Andel Research Institute, Grand Rapids, MI) for
+least in part, why MVA, which lacks function-                          (1998).                                                              providing antibodies. We also thank B. Moss (National
+                                                                    7. M. W. Carroll, B. Moss, Virology 238, 198 (1997).                    Institute of Allergy and Infectious Diseases, Bethesda,
+al F11L, is unable to replicate in most cell                                                                                                MD) for providing MVA recombinants, E. Sahai (Cancer
+                                                                    8. I. Drexler, K. Heller, B. Wahren, V. Erfle, G. Sutter, J. Gen.
+types in culture (7–9). They also offer molec-                         Virol. 79, 347 (1998).                                               Research UK, London) for the RhoV14E40L clone, and
+ular insights into the mechanism by which vac-                      9. L. S. Wyatt et al., Virology 251, 334 (1998).                        P. Traktman (Department of Microbiology and Molecular
+cinia induces cell migration (5, 6). One can                       10. See supporting data on Science Online.                               Genetics, WI) for discussions about siRNA in infected
+                                                                   11. R. Dvorsky, L. Blumenstein, I. R. Vetter, M. R. Ahmadian,            cells. We thank the Way lab, E. Sahai, N. Hogg, and
+envisage that migration of an infected cell will                                                                                            R. Treisman (Cancer Research UK, London) for helpful
+                                                                       J. Biol. Chem. 279, 7098 (2004).
+increase the efficiency of virus spread because                    12. E. Sahai, A. S. Alberts, R. Treisman, EMBO J. 17, 1350               comments on the manuscript. F.V. was supported by
+extracellular virus particles associated with the                      (1998).                                                              a European Community Marie Curie Fellowship
+plasma membrane, which are responsible for                         13. R. A. Worthylake, S. Lemoine, J. M. Watson, K. Burridge,             (Number HPMF-CT-2000-01021).
+direct cell to cell spread, will come into contact                     J. Cell Biol. 154, 147 (2001).
+                                                                   14. R. A. Worthylake, K. Burridge, J. Biol. Chem. 278, 13578         Supporting Online Material
+with more neighboring noninfected cells than                           (2003).
+                                                                                                                                        www.sciencemag.org/cgi/content/full/311/5759/377/DC1
+they would if the infected cell were static.                       15. A. Smith, M. Bracke, B. Leitinger, J. C. Porter, N. Hogg,
+                                                                                                                                        Materials and Methods
+                                                                       J. Cell Sci. 116, 3123 (2003).                                   Figs. S1 to S6
+     References and Notes                                                                                                               Movies S1 to S4
+                                                                   16. K. Riento, A. J. Ridley, Nat. Rev. Mol. Cell Biol. 4, 446
+ 1. A. J. Ridley et al., Science 302, 1704 (2003).                                                                                      References
+                                                                       (2003).
+ 2. P. Martin, S. M. Parkhurst, Development 131, 3021              17. S. E. Kato, F. A. Greco, C. R. Damaso, R. C. Condit,             9 November 2005; accepted 20 December 2005
+    (2004).                                                            N. Moussatche, J. Virol. Methods 115, 31 (2004).                 10.1126/science.1122411
+
+
+
+
+Core Knowledge of Geometry in an                                                                                                        identify the target. For instance, if the desired
+                                                                                                                                        concept was Btrapezoid,[ the target was a non-
+                                                                                                                                        trapezoidal quadrilateral whose size and orienta-
+Amazonian Indigene Group                                                                                                                tion fell within the range of variation of the other
+                                                                                                                                        five trapezoids. There are many ways in which
+Stanislas Dehaene,1,2* Véronique Izard,1 Pierre Pica,3 Elizabeth Spelke4                                                               the participants could have selected an odd
+                                                                                                                                        picture out of the six, including size, orientation,
+Does geometry constitute a core set of intuitions present in all humans, regardless of their                                            or personal preference. If the MundurukU share
+language or schooling? We used two nonverbal tests to probe the conceptual primitives of                                                with us the conceptual primitives of geometry,
+geometry in the Mundurukú, an isolated Amazonian indigene group. Mundurukú children and                                               however, they should infer the intended geomet-
+adults spontaneously made use of basic geometric concepts such as points, lines, parallelism,                                           rical concept behind each array and therefore
+or right angles to detect intruders in simple pictures, and they used distance, angle, and sense                                        select the discrepant image.
+relationships in geometrical maps to locate hidden objects. Our results provide evidence for                                                All participants, even those aged 6, per-
+geometrical intuitions in the absence of schooling, experience with graphic symbols or maps,                                            formed well above the chance level of 16.6%
+or a rich language of geometrical terms.                                                                                                (average 66.8% correct, minimum 44.2% cor-
+                                                                                                                                        rect, P G 0.001). Performance was higher than
+    Through natural selection, our mind has                        of geometry are inherent in the human mind,                          chance in all but 6 of the 45 slides (P ¡ 0.001)
+    adapted to the conditions of the external                      by studying the spontaneous geometrical                              and was indistinguishable for MundurukU
+    world, EI^ it has adopted the geometry                         knowledge of the MundurukU, an Amazonian                             adults and children. There was no significant
+    most advantageous to our species; or, in                       indigene group (7). The present data were col-                       influence of the bilingualism or schooling
+    other words, the most convenient.                              lected by one of us (P.P.) during a field trip in                    exhibited by some of the participants (9). As
+     –Henri Poincar2, La Science et l_Hypothèse                   2004–2005 to remote sites along the Cururu river.                    shown in Fig. 1, the MundurukU succeeded
+                                                                   Most of the children and adults who took part in                     remarkably well with the core concepts of
+       uclidean geometry is one of the deepest                     our experiments inhabit scattered, isolated vil-                     topology (e.g., connectedness), Euclidan geom-
+
+E      and oldest products of human reason,
+       but its foundations remain elusive.
+Many of its propositions—that two points de-
+                                                                   lages and have little or no schooling, rulers, com-
+                                                                   passes, or maps. Furthermore, the MundurukU
+                                                                   language has few words dedicated to arithmet-
+                                                                                                                                        etry (e.g., line, point, parallelism, and right
+                                                                                                                                        angle), and basic geometrical figures (e.g.,
+                                                                                                                                        square, triangle, and circle). They experienced
+termine a line, or that three orthogonal axes                      ical, geometrical, or spatial concepts, although a                   more difficulty, but still achieved higher-than-
+localize a point—are judged to be self-evident                     variety of metaphors are spontaneously used                          chance performance, in detecting symmetries
+(1, 2) and yet have been questioned on the basis                   (see Supporting Online Material for a list).                         and metric properties (e.g., equidistance of
+of logical argument, physical theory, or experi-                       Our first test Einspired from (8)^ was de-                       points). They performed poorly only in two
+ment E(3–5); for a historical review, see (6)^.                    signed to probe the MundurukU_s intuitive                            domains: a series of slides assessing geometri-
+Here we ask whether the conceptual principles                      comprehension of the basic concepts of geom-                         cal transformations, for instance, by depicting
+                                                                   etry, including points, lines, parallelism, figures,                 two triangles in a mirror-symmetry relation;
+1
+  INSERM-CEA Cognitive Neuroimaging Unit, Service Hospital-        congruence, and symmetry (9). For each such                          and another two slides in which the intruder
+ier Frédéric Joliot, Commissariat à l’Energie Atomique, 91401   concept, we designed an array of six images,                         shape was a randomly oriented mirror image of
+Orsay Cedex, France. 2Collège de France, 11, place Marcelin       five of which instantiated the desired concept                       the other shapes. Interestingly, both types of
+Berthelot, 75231 Paris Cedex 05, France. 3Unité Mixte de          while the remaining one violated it (Fig. 1). The                    slides require a mental transformation of one
+Recherche 7023 ‘‘Formal Structure of Language,’’ CNRS and
+Paris VIII University, Paris, France. 4Psychology Department,      participants were asked, in their language, to                       shape into another, followed by a second-order
+Harvard University, Cambridge, MA 02139, USA.                      point to the Bweird[ or Bugly[ one. Care was                         judgment about the nature of this transforma-
+*To whom correspondence should be addressed. E-mail:               taken to minimize cues other than the desired                        tion. It is possible that geometrical transforma-
+dehaene@shfj.cea.fr                                                conceptual relation that could be used to                            tions are inherently more difficult mathematical
+
+
+                                                  www.sciencemag.org                SCIENCE            VOL 311            20 JANUARY 2006                                                                 381
+REPORTS
+
+
+
+
+      Fig. 1. Performance of Mundurukú participants in a multiple-choice test     Chance level is 16.6% correct; 28% correct corresponds to P G 0.05, and
+      of the core concepts of geometry, rearranged in hierarchical order. In       35% correct to P G 0.001. Mean response times (in seconds) are also
+      each slide, five images instantiate a specific concept indicated below,      indicated. For each category of concept, the averaged percentage of
+      whereas the sixth (surrounded in red) violates it. The percentage of         correct answers is shown along with a color symbol used to refer to
+      participants choosing the correct intruder is shown on top of each slide.    individual test items in Fig. 3.
+
+      concepts. Alternatively, such transformations       American children, whereas the performance of      3B). Furthermore, despite their vastly different
+      may be more difficult to detect in static images.   American adults was significantly higher. In-      cultures and levels of schooling, MundurukU
+          To assess the generality of the patterns of     deed, we observed a well-defined profile of        and American adults also showed a shared
+      difficulty of our images, we also tested Amer-      difficulty common to both cultures. Across         profile of difficulty (r 2 0 49.4%, P G 10j7),
+      ican children and adults. An analysis of var-       the 45 slides, the mean performance of the         although American adults performed at a higher
+      iance with factors of age (children or adults)      MundurukU children correlated closely with         overall level (Fig. 3C). This reproducible or-
+      and culture (MundurukU or American) revealed        that of the American children (r2 0 61.8%,         dering of error rates does not support Piaget_s
+      effects of age (P G 10j6), culture (P G 10j5),      P G 10j9). In this regression, the intercept and   hypothesis of a developmental and cultural
+      and their interaction (P 0 0.0002). As shown        the slope were nonsignificantly different from     progression from topology to projective and
+      in Fig. 3A, the performance of MundurukU            0 and 1, respectively, confirming that perform-    Euclidian geometry (10), but rather suggests
+      children and adults was identical to that of        ance was highly similar in both cultures (Fig.     that geometrical intuition cuts across all of
+
+
+382                                         20 JANUARY 2006         VOL 311       SCIENCE      www.sciencemag.org
+                                                                                                                                                    REPORTS
+Fig. 2. Performance of Mun-
+durukú participants in the map
+test. (A) Schematic representa-
+tion of the spatial layout of
+the experiment. On each trial,
+the participant was shown a
+‘‘map’’ representing the loca-
+tion of three boxes, one of
+which contained a cue symbol-
+izing a hidden object. Then he
+or she turned around and
+searched for the hidden object
+(distance d , 1.5 m). (B) Per-
+formance in the three map
+orientations. The map and the
+environment could be aligned
+as seen from the top (allocen-
+tric condition), aligned relative
+to the participant before and
+after turning (egocentric con-
+dition), or nonaligned (90-
+rotation condition). (C) Per-
+formance at each location in
+the four successive blocks of
+the experiment. The symbols
+in (B) and the colors in (C) are
+used to refer to individual test items in Fig. 3.
+
+these domains. In summary, uneducated adults        the hidden object. This Bmap[ preserved the           0.0001 relative to chance). There was also no
+from an isolated culture, as well as young          two-dimensional geometrical relationships be-         effect of map orientation (Fig. 2B): Performance
+children from the same culture or from a            tween the objects, as viewed from above,              with allocentric, egocentric, and rotated maps did
+Western culture, exhibit a shared competence        except for scale. The orientation of the map          not differ (F G 1) and was always significantly
+for basic geometrical concepts.                     relative to the array varied across trials, so that   above chance, suggesting that participants either
+    Although the multiple-choice test was de-       only the geometrical relationships among the          extracted the geometrical relationships directly
+signed so that the target picture could only be     forms specified the hidden object_s location. By      or performed a mental rotation so as to align the
+identified once the relevant geometrical prop-      recording where each participant first searched       map with the environment.
+erty had been grasped, it could be argued that      for the object, we evaluated whether partic-              An interesting insight into the cues used by
+the test requires solely a visual judgment of       ipants could relate the geometrical information       the participants came from an analysis of the
+dissimilarity among closely similar images. We      on the map to the geometrical relations in the        evolution of their performance. During training,
+argue, however, that judgments of visual sim-       environment, over changes in orientation, an          and in the first half of testing, one of the hiding
+ilarity do not merely result from superficial       È10-fold change in size, and a change from            locations was a red box quite distinct from the
+sensory computations, but reflect deep proper-      two dimensions to three.                              other hiding locations (white cans) and depicted
+ties of cognitive architecture (11). Geometrical        The map test is likely to be entirely novel to    as a red square on the map. Although per-
+intuitions, in the final analysis, may rest on a    the MundurukU. Although they live in widely           formance did not differ overall as a function of
+spontaneous imposition of stable conceptual         dispersed villages between which they navigate        presence or absence of this landmark (F G 1),
+relations onto variable and imperfect sensory       by boat or foot, and although they also ma-           there was a significant landmark by object
+data, a process well captured by the multiple-      nipulate tools, build baskets, craft necklaces        location interaction (P G 0.0001), as well as a
+choice test. Nevertheless, we sought to replicate   and bracelets, sculpt symbolic miniatures, and        triple interaction with age (P 0 0.003), indicat-
+and extend our findings in a second task that       are renowned for their elaborate traditional face-    ing that the effect of the landmark on search
+would demonstrate more directly the use of          and body-painting schemes, the MundurukU              patterns was more pronounced in adults. During
+abstract geometrical knowledge and its transfer     do not typically possess maps or spontane-            the first two experimental blocks in which the
+across widely different contexts.                   ously draw pictures of their houses, villages,        red box was present, participants performed
+    Etymologically, Bgeo-metry[ is the science      or environment. Across several trips to the           well when the object was placed at this
+of measuring the Earth. Geometrical concepts        MundurukU territory, we occasionally observed         landmark location (87.1% correct) but less well
+first were used to measure and chart the length,    spontaneous activities such as the drawing of         when the object was placed in one of the other
+area, and shape of land surfaces. To investigate    circles on the ground to represent villages.          two unmarked locations (54.3% correct). An
+whether the MundurukU spontaneously under-          These drawings were coarse, however, and              analysis of errors indicated that, in the latter
+stand and use geometry in this sense, we            failed to preserve metric information about the       case, they avoided the landmark location (only
+designed an abstract map test. Three boxes or       angles and distances between the referents. Our       9.1% of responses) but tended frequently to
+cans were arranged in a right-angled or             map test, by contrast, could not be accom-            select the wrong nonmarked location (36.6% of
+isosceles triangle, and an object was hidden in     plished without attending to metric information.      responses). Still, participants chose the in-
+one of them (9) (Fig. 2). With his or her back to       Overall, the participants_ success rate aver-     correct, unmarked location less frequently than
+this array, each participant was presented with a   aged 71%, which was well above the chance level       the correct one (P G 0.003 on a t test comparing
+sheet of paper in which square and circular         of 33.3% (across subjects, P G 0.0001). Perform-      the two nonmarked locations), thus providing
+symbols represented the three containers, and a     ance did not differ between children (73.3%           evidence for sensitivity to purely geometrical
+star on one of the forms marked the location of     correct) and adults (70.4% correct; both P G          information.
+
+
+                                        www.sciencemag.org        SCIENCE       VOL 311       20 JANUARY 2006                                                   383
+REPORTS
+                                                                                                                 doubt that geometrical knowledge can be sub-
+                                                                                                                 stantially enriched by cultural inventions such as
+                                                                                                                 maps (19), mathematical tools (3, 4, 6), or the
+                                                                                                                 geometrical terms of language (18, 20–25).
+                                                                                                                 Beneath this fringe of cultural variability, how-
+                                                                                                                 ever, the spontaneous understanding of geomet-
+                                                                                                                 rical concepts and maps by this remote human
+                                                                                                                 community provides evidence that core geomet-
+                                                                                                                 rical knowledge, like basic arithmetic (7, 26), is a
+                                                                                                                 universal constituent of the human mind (11).
+                                                                                                                      References and Notes
+                                                                                                                  1. Euclid, Elements (Green Lion, Santa Fe, NM, 2002).
+                                                                                                                  2. I. Kant, A Critique of Pure Reason (Palgrave Macmillan,
+                                                                                                                     London, 1781, 1920).
+                                                                                                                  3. B. Riemann, Nature 8, 183 (1873).
+                                                                                                                  4. H. Poincaré, La Science et l’Hypothèse (Flammarion,
+                                                                                                                     Paris, 1902).
+                                                                                                                  5. A. Einstein, Relativity: The Special and the General Theory
+                                                                                                                     (Henry Holt, New York, 1920).
+                                                                                                                  6. L. Boi, Le problème mathématique de l’espace. Une quête
+                                                                                                                     de l’intelligible (Springer, Berlin, 1995).
+                                                                                                                  7. P. Pica, C. Lemer, V. Izard, S. Dehaene, Science 306, 499
+                                                                                                                     (2004).
+                                                                                                                  8. L. Franco, R. W. Sperry, Neuropsychologia 15, 107 (1977).
+                                                                                                                  9. Materials and methods are available as supporting
+                                                                                                                     material on Science Online.
+                                                                                                                 10. J. Piaget, Child’s Conception of Geometry (Routledge and
+      Fig. 3. Comparison of the geometrical performance of Mundurukú and American participants. (A                  Kegan Paul, London, 1948, 1960).
+      to C) Multiple-choice test; (D to F) map test. (A) and (D) show the percent success averaged across        11. R. N. Shepard, Behav. Brain Sci. 24, 581 (2001).
+      participants and test items, as a function of age and culture (horizontal line 0 chance level; vertical    12. Plato, Meno (È380 B.C.), available online at
+      bar 0 standard error). (B), (C), (E), and (F) show the correlation of performance level across test            classics.mit.edu.
+      items, separately for children and adults. Each symbol represents average performance in response          13. O. Keller, Aux origines de la géométrie. Le paléolithique,
+                                                                                                                     le monde des chasseurs-cueilleurs (Vuibert, Paris, 2004).
+      to a given test item. In (B) and (C), the symbol shapes and colors refer to the categories of slides
+                                                                                                                 14. C. R. Gallistel, The Organization of Learning (MIT Press,
+      defined in Fig. 1. In (E) and (F), symbol shapes refer to map orientation and color to map layout, as          Cambridge, MA, 1990).
+      defined in Fig. 2. In both cases, r2 and P values indicate the significance of the observed linear         15. K. Cheng, N. S. Newcombe, Psychon. Bull. Rev. 12, 1 (2005).
+      correlation in performance across the two cultures.                                                        16. N. S. Newcombe, J. Huttenlocher, Making Space (MIT
+                                                                                                                     Press, Cambridge, MA, 2000).
+                                                                                                                 17. A. Berthoz, The Brain’s Sense of Movement (Harvard Univ.
+          Geometrically driven behavior became much        shared pattern of core geometrical knowledge              Press, Cambridge, MA, 2000).
+      more evident in the trials in which the landmark     despite increases in absolute performance levels      18. J. S. DeLoache, Science 238, 1556 (1987).
+      was absent, such that only the geometrical           in the educated American adults.                      19. D. P. Marzolf, J. S. DeLoache, Child Dev. 65, 1 (1994).
+                                                                                                                 20. S. J. Hespos, E. S. Spelke, Nature 430, 453 (2004).
+      relationships between the circles and cans               Studies of the universality of human geo-         21. L. Hermer, E. Spelke, Cognition 61, 195 (1996).
+      specified the position of the hidden object. In      metrical knowledge have a long history. As            22. A. Majid, M. Bowerman, S. Kita, D. B. Haun, S. C.
+      this situation, performance was high on average      chronicled by Plato in the Meno (È380 B.C.),              Levinson, Trends Cogn. Sci. 8, 108 (2004).
+      (72.0% correct) and far exceeded chance level at     Socrates probed the geometrical intuitions of an      23. S. C. Levinson, Space in Language and Cognition:
+                                                                                                                     Explorations in Cognitive Diversity (Cambridge Univ.
+      all locations and with both triangular config-       uneducated slave in a Greek household, leading
+                                                                                                                     Press, Cambridge, MA, 2003).
+      urations (all P values G 0.0003). In the final       him, through a series of questions, to discover       24. S. C. Levinson, S. Meira, Language 79, 485 (2003).
+      block with an isosceles configuration, perform-      relations between the areas of squares drawn in       25. P. Li, L. Gleitman, Cognition 83, 265 (2002).
+      ance was good even at the two symmetrical            the sand. He concluded of the slave that Bhis         26. S. Dehaene, The Number Sense (Oxford Univ. Press,
+                                                                                                                     New York, 1997).
+      locations of the isosceles triangle (67.7%           soul must have always possessed this knowl-
+                                                                                                                 27. Authors are listed in alphabetical order. This work would not
+      correct). The MundurukU therefore were able          edge[ (12). Nevertheless, the slave shared a lan-         have been possible without the help of A. Arnor, V. Poxõ,
+      to use sense relationships, as well as distance      guage with educated Greeks, likely was familiar           A. Ramos, C. Tawé, F. Tawé, and A. Tawé, and of the
+      or angle, to relate the map to the environment.      with pictures and other products of Greek culture,        Department of Studies and Research of Funai. It is based on
+          For direct comparison, we also tested edu-       and revealed his intuitions by engaging in a              data collected by P.P. within a larger project on the nature
+                                                                                                                     of quantification and functional categories developed jointly
+      cated American children and adults in this map       conversation about lines, areas, and number. Our          by the linguistic section of the Department of Anthropology
+      task (Fig. 3D). All of the above effects were        experiments, in contrast, provide evidence that           of the National Museum of Rio and the Unité Mixte de
+      replicated. An analysis of variance revealed         geometrical knowledge arises in humans inde-              Recherche 7023 of the CNRS, with the agreement of Funai
+      effects of age (P 0 0.043), culture (P G 10j4),      pendently of instruction, experience with maps or         and the Conselho Nacional de Desenvolvimento Cientı́fico
+                                                                                                                     e Technológico (CNPq). We thank M. Crofts for helpful
+      and their interaction (P 0 0.013). As in the         measurement devices, or mastery of a sophis-              comments, P. Mesureur for video transfer, and A. Grace,
+      multiple-choice test, the MundurukU children         ticated geometrical language. This conclusion is          L. Hegg, and K. La Mont for help with data collection in
+      and adults performed at a level indistinguishable    consistent with paleoanthropological evidence             Boston. Supported by INSERM, the Département de
+      from that of American children, whereas the          (13) and with previous demonstrations of a                Sciences Humaines et Sociales of CNRS (P.P.), NIH (E.S.),
+                                                                                                                     and a McDonnell Foundation Centennial Fellowship (S.D.).
+      American adults performed significantly better.      right-hemisphere competence for nonverbal tests
+      Nevertheless, even the latter group made some        of geometry in split-brain patients (8). Further      Supporting Online Material
+                                                                                                                 www.sciencemag.org/cgi/content/full/311/5759/381/DC1
+      errors, and we observed high correlations            research is needed to establish to what extent
+                                                                                                                 Materials and Methods
+      between the performance profiles of American         this core knowledge is shared with other animal       SOM Text
+      and MundurukU participants across the test           species (14, 15) and whether it is available even     References
+      items, both within children and within adults        in infancy or is acquired progressively during the    24 October 2005; accepted 29 November 2005
+      (Fig. 3, E and F). Those results again point to a    first years of life (4, 10, 16–18). There is little   10.1126/science.1121739
+
+
+
+384                                         20 JANUARY 2006           VOL 311       SCIENCE       www.sciencemag.org
+

@@ -1,0 +1,41 @@
+URL: https://pubmed.ncbi.nlm.nih.gov/23940342/
+1. Proc Natl Acad Sci U S A. 2013 Aug 27;110(35):14191-5. doi: 
+10.1073/pnas.1312640110. Epub 2013 Aug 12.
+
+Core foundations of abstract geometry.
+
+Dillon MR(1), Huang Y, Spelke ES.
+
+Author information:
+(1)Psychology Department, Harvard University, Cambridge, MA 02138, USA. 
+mdillon@fas.harvard.edu
+
+Human adults from diverse cultures share intuitions about the points, lines, and 
+figures of Euclidean geometry. Do children develop these intuitions by drawing 
+on phylogenetically ancient and developmentally precocious geometric 
+representations that guide their navigation and their analysis of object shape? 
+In what way might these early-arising representations support later-developing 
+Euclidean intuitions? To approach these questions, we investigated the relations 
+among young children's use of geometry in tasks assessing: navigation; visual 
+form analysis; and the interpretation of symbolic, purely geometric maps. 
+Children's navigation depended on the distance and directional relations of the 
+surface layout and predicted their use of a symbolic map with targets designated 
+by surface distances. In contrast, children's analysis of visual forms depended 
+on the size-invariant shape relations of objects and predicted their use of the 
+same map but with targets designated by corner angles. Even though the two map 
+tasks used identical instructions and map displays, children's performance on 
+these tasks showed no evidence of integrated representations of distance and 
+angle. Instead, young children flexibly recruited geometric representations of 
+either navigable layouts or objects to interpret the same spatial symbols. These 
+findings reveal a link between the early-arising geometric representations that 
+humans share with diverse animals and the flexible geometric intuitions that 
+give rise to human knowledge at its highest reaches. Although young children do 
+not appear to integrate core geometric representations, children's use of the 
+abstract geometry in spatial symbols such as maps may provide the earliest clues 
+to the later construction of Euclidean geometry.
+
+DOI: 10.1073/pnas.1312640110
+PMCID: PMC3761620
+PMID: 23940342 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.

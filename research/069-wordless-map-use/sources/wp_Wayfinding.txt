@@ -1,0 +1,62 @@
+URL: https://en.wikipedia.org/wiki/Wayfinding
+Wayfinding (or way-finding) encompasses all of the ways in which people (and animals) orient themselves in physical space and navigate from place to place.
+
+
+== History ==
+Kevin A. Lynch used the term (originally "way-finding") for his 1960 book The Image of the City, where he defined way-finding as "a consistent use and organization of definite sensory cues from the external environment."
+In 1984 environmental psychologist Romedi Passini published the full-length "Wayfinding in Architecture" and expanded the concept to include the use of signage and other graphic communication, visual clues in the built environment, audible communication, tactile elements and accessible accommodations.
+The wayfinding concept was further expanded in the book "Wayfinding: People, Signs and Architecture", published in 1992 by renowned Canadian graphic designer Paul Arthur and Romedi Passini. The book serves as a veritable wayfinding bible of descriptions, illustrations, and lists, all set into a practical context of how people use both signs and other wayfinding cues to find their way in complex environments. There is an extensive bibliography, including information on exiting information and how effective it has been during emergencies such as fires in public places.
+Wayfinding also refers to the set of architectural or design elements that aid orientation. Today, the term wayshowing, coined by Danish designer Per Mollerup, is used to cover the act of assisting way finding. He describes the difference between wayshowing and way finding, and codifies the nine wayfinding strategies we all use when navigating in unknown territories. However, there is some debate over the importance of using the term wayshowing, some argue that it merely adds confusion to a discipline that is already highly misunderstood.
+In 2010 American Hospital Association published "Wayfinding for Health Care: Best Practices for Today's Facilities", written by Randy R. Cooper. The book takes a comprehensive view of Wayfinding specifically for those in search of medical care.
+Whilst wayfinding applies to cross disciplinary practices including architecture, art and design, signage design, psychology, environmental studies, one of the most recent definitions by Paul Symonds et al. defines wayfinding as "The cognitive, social and corporeal process and experience of locating, following or discovering a route through and to a given space". Wayfinding is an embodied and sociocultural activity in addition to being a cognitive process in that wayfinding takes place almost exclusively in social environments with, around and past other people and influenced by stakeholders who manage and control the routes through which we try to find our way. The route is often one we might take for pleasure, such as to see a scenic highway, or one we take as a physical challenge such as trying to find the way through a series of caves showing our behavioural biases. Wayfinding is a complex practice that very often involves several techniques such as people-asking (asking people for directions) and crowd following and is thus a practice that combines psychological and sociocultural processes.
+In addition to the built environment, the concept of wayfinding has also recently been applied to the concept of career development and an individual's attempt to create meaning within the context of career identity. This was addressed in late August, 2017 in the NPR podcast You 2.0: How Silicon Valley Can Help You Get Unstuck. The wayfinding concept is also similar to information architecture, as both use information-seeking behaviour in information environments.
+
+
+== Language ==
+An effective wayfinding system must convey information in the user's language. However, many modern wayfinding systems are used by people of varying linguistic backgrounds. Many modern wayfinding systems incorporate two or more languages in order to effectively communicate information to all users. This is notable in regions with more than one official language, international tourist hubs and regions with large populations of international students or migrants. The use of English is also appearing more in signage around the world as a result of its widespread use as a global vehicle of communication. The International Organization for Standardization (ISO), in ISO 28564-2 Public Information Guidance Systems: Guidelines for the Design and Use of Location and Direction Signs, recommends using English when a language other than the official language is required.
+When it is necessary to use two or more languages and scripts within a wayfinding system, careful consideration must be paid to how the languages are treated visually. Differences in the visual size and weight, colour, positioning, or column width of each language may indicate a status difference and result in mistrust from one linguistic group. Furthermore, achieving visual parity in text across languages and scripts may be challenging due to their potential many differences including unique characters and accents, changing x-heights due to the presence or absence of uppercase and lowercase letterforms, and distinct character forms.
+
+
+== Examples ==
+Modern wayfinding systems are increasingly incorporating research from diverse fields, including spatial semiotics, information design, and cognitive science, to better understand how users navigate urban space and interpret elements like symbols and written text. This research helps refine these systems, making them more intuitive and effective in guiding people through complex environments.
+
+
+=== Urban wayfinding ===
+
+An example of an urban wayfinding scheme is the Legible London Wayfinding system, which is now considered the largest urban wayfinding system in the world and consists of over 1500 signs, which appear inside tube stations, on bus shelters and bicycle hire stations, and on digital screens and printed maps.
+The Dublin City wayfinding scheme was implemented in 2011, installing bilingual Gaelic-English pedestrian wayfinding signage around the city, focusing on key areas such as major streets, cultural and tourist attractions, and public spaces rather than commercial services.
+The Brisbane City Centre pedestrian wayfinding system is an example of a multilingual urban wayfinding system developed for a growing population of international migrants and tourists from the Asia Pacific. The system consists of fingerposts and hub signs, and lists information in English, traditional Chinese, Arabic, Japanese, and Korean.
+In 2011, Nashville, Tennessee introduced a wayfinding sign and traffic guidance program to help tourists navigate the city center.
+In 2021, Jakarta introduced a wayfinding sign and signage on Public transport corridor and Transit oriented development, in covered all cities and satellite cities of Jakarta.
+
+
+=== Indoor wayfinding ===
+
+Wayfinding is important in a variety of architectural spaces including airports, hospitals, museums, universities and office buildings.
+Such spaces that involve areas outside the normal vocabulary of visitors show the need for a common set of language-independent symbols. The International Organization for Standardization (ISO) has developed a standardized set of graphic symbols for use in the public space, which may help in some contexts.
+Offering indoor maps for handheld mobile devices is becoming common, as are digital information kiosk systems. Wayfinding software is a self-service computer program that helps users to find a location, usually used indoors and installed on interactive kiosks or smartphones.
+Other frequent wayfinding aids are the use of color coding and signage clustering—used to create a visual hierarchy of information and prevent cognitive overload.
+A number of recent airport terminals include ceiling designs and flooring patterns that encourage passengers to move along the required directional flow.
+The Americans with Disabilities Act of 1990 (ADA) represented a milestone in helping to make spaces universally accessible and improving wayfinding for users.
+The Canadian Museum for Human Rights features a bilingual English-French wayfinding system that sets a high standard for accessibility by incorporating research-based solutions, such as high-contrast signage, tactile lettering, separation of English and French text whenever possible, consistent sign placement, and the use of internationally recognized symbols.
+
+
+== Basic process ==
+The basic process of wayfinding involves four stages:
+
+Orientation is the attempt to determine one's location, in relation to objects that may be nearby and the desired destination.
+Route decision is the selection of a course of direction to the destination.
+Route monitoring is checking to make sure that the selected route is heading towards the destination.
+Destination recognition is when the destination is recognized.
+
+
+== See also ==
+Direction determination
+Land navigation
+Location-based service
+Orienteering
+Sense of direction
+Trail blazing (waymarking)
+
+
+== References ==
