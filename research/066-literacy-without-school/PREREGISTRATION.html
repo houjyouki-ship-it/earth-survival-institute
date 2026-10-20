@@ -1,0 +1,37 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究066 事前登録（2026-10-20 06:49Z、資料を読み事例表を符号化した後・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="066-2026-10-20-0649zsimpy">研究066 事前登録（2026-10-20 06:49Z、資料を読み事例表を符号化した後・sim.py の作成の前）</h1>
+<p>open_problems 172：現代の学校で教わる読み書きが、学校なしで家庭・宗教の場・共同体で続くか（064 の重み w：現代の読み書きが broad に振る舞う確率）。</p>
+<h2 id="_1">課題の選択</h2>
+<p>next_plan の推奨どおり A（172）。切り替えの条件「学校の閉鎖・戦乱の後の識字の数（国・地域の公開の統計）が5件以上」は、世界銀行 API（UIS の年齢別識字率）で内戦・戦争の前後の調査がそろう 9件（厳しい規則）で満たした。
+<strong>注意（逸脱の予告）</strong>：世界銀行の行は取得の確認のために表示し、事前登録の前に数値を見ている。規則は下に固定し、数値を見た後に変えない。</p>
+<h2 id="_2">資料</h2>
+<ul>
+<li>sources/cases.json の episodes 9件（抜き出しは verify_excerpts.py で照合）：
+  built（国の学校なしで広い読みが作られ保たれた）：Sweden 1686→1800（y=1）、Iceland（1）、Finland（1）。
+  collapse：Ireland の hedge school 1723–1782（ban、1）、Lithuania の出版禁止 1864–1904（ban、0.5、alt 0）、Afghanistan の女子 1996–2001（ban、0.5、alt 0）、Somalia 1991–（deep、1、alt 0.5）、Cambodia の Khmer Rouge 1975–79（regime、0）、西ローマの崩壊（deep、0）。
+  relig（普通の人が宗教の文を読む場）：Sweden・Iceland・Finland・Lithuania・Somalia 1、hedge・Afghanistan 0.5、Cambodia・Roman 0。</li>
+<li>sources/wb_literacy.json（世界銀行 API、UIS：15–24歳 SE.ADT.1524.LT.ZS、25–64歳 UIS.LR.AG25T64、65歳以上 UIS.LR.AG65）と conflicts 12件の年（Wikipedia の本文）。</li>
+</ul>
+<h2 id="_3">規則（世界銀行）</h2>
+<ul>
+<li>前の調査＝開始の年以前で最も新しい 15–24歳の値、後の調査＝終わりの年以後で最も早い値（進行中は開始＋10年以後）。g＝後の15–24歳 ÷ 前の15–24歳。</li>
+<li>alt 規則：前の調査を開始＋3年まで認める。</li>
+<li>同じ後の調査の中で、15–24歳 ÷ 25–64歳（戦乱の中で学校に通った世代と、その前の世代）。</li>
+<li>世界銀行の例を w に入れる版（with_conflicts）：g ≥ 0.9 で y=1、0.5 ≤ g &lt; 0.9 で 0.5、g &lt; 0.5 で 0（どれも援助と部分的な学校のある浅い局面）。</li>
+</ul>
+<h2 id="_4">模型</h2>
+<p>065 の sim.py を行頭の「# ---------- 版 ----------」の前まで exec し、065 の主（primer あり、重い崩壊 0.84497）を差0で再現してから、064 の混ぜ方 L = w·L_broad + (1−w)·L_narrow の w を置き換える（L_narrow・L_broad・漂い・primer・探索・費用は 065 の主のまま）。新しい乱数は seed 20261066。
+- w~Beta(0.5+Σy, 0.5+n−Σy)（Jeffreys）。
+- 版：main（episodes 9件）、alt（y_alt）、collapse_only（collapse の6件）、deep_only（deep の2件）、deep_regime（deep と regime の3件）、built_only（3件）、with_conflicts（main＋世界銀行の厳しい規則の例）、relig1（relig=1 の5件。冊子を普通の人が宗教の文を読む共同体に預けた場合の目安）、relig0（relig&lt;1 の4件）、u01（064 の w~U(0,1)、065 の主と一致するはず）。
+- w を 0〜1 の定数で走査（primer あり）。
+- 費用あたり：065 と同じ式（冊子＋primer の合計、primer の追加分）を main で出す。</p>
+<h2 id="a_ordu3tc-v0">仮説（A_Ord/U3、TC の V0 比、重い崩壊）</h2>
+<ul>
+<li>H78a：main の w の Jeffreys の平均が 0.4〜0.8。</li>
+<li>H78b：collapse_only の平均 ≤ main の平均 − 0.1。</li>
+<li>H78c：世界銀行の厳しい規則の例で g の中央値 ≥ 1.0。</li>
+<li>H78d：|main の重い崩壊 − 065 の主 0.845| &lt; 0.01。</li>
+<li>H78e：deep_regime の重い崩壊 ≤ 065 の主 − 0.005。</li>
+<li>H78f：版 {main, alt, collapse_only, deep_only, deep_regime, built_only, with_conflicts, relig1, relig0} の重い崩壊の幅 ≤ 0.03。</li>
+<li>H78g：後の調査で 15–24歳 &gt; 25–64歳 の例が 80% 以上（厳しい規則の例）。</li>
+<li>H78h：relig=1 の y の平均 − relig&lt;1 の y の平均 ≥ 0.3（素の平均）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
