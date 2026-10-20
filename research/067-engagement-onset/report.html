@@ -1,0 +1,303 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究067：崩壊の後の社会が古い文書に取り組み始める時点（open_problems 175）と、教える人なしに文書から読み始めた例（174） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="067open_problems-175174">研究067：崩壊の後の社会が古い文書に取り組み始める時点（open_problems 175）と、教える人なしに文書から読み始めた例（174）</h1>
+<p>2026-10-20、第67回。計算のみ（sim.py、seed 20261067、約206秒、ネット接続なし）。事前登録：PREREGISTRATION.md（08:53Z、資料を読み事例表を符号化した後・sim.py の前）。</p>
+<h2 id="_1">問い</h2>
+<p>065 の主は、重い崩壊（機械が止まり T1・T0 から再出発）の後の社会が、<strong>崩壊の時点から</strong>鍵あり解読の速さ（時定数 τ_key、中央値 約65年）で座標の冊子と primer（絵の読み方の手引き）に取り組むと置いた。T2（読取装置を作れる段）までの中央値は 843年なので、この置き方では primer はほぼ必ず間に合い、重い崩壊の冊子の価値を 0.809→0.851 に上げていた（066 の主）。本回は、読めなくなった文字の文書の集まり 13件で「体系的な取り組みの始まり（onset）」が失われてからの時間で決まるのか、取り組む側の社会の段で決まるのかを調べ、primer の経路の時間の原点を置き直した。174 は、教える人なしに文書だけから読み始めた非学者の例を数えた。</p>
+<h2 id="wikipedia-mediawiki-api-sources">資料（本回開いて確認、Wikipedia 英語版の MediaWiki API で取得し sources/ に保存）</h2>
+<p>符号の規則は sources/make_cases.py の冒頭（年の丸めと「取り組み」の判定は一人の判断で【推測】）。抜き出し 54件は sources/verify_excerpts.py で保存本文と照合しすべて一致。</p>
+<table>
+<thead>
+<tr>
+<th>文書の集まり</th>
+<th>失われた年</th>
+<th>見えていたか</th>
+<th>体系的な onset</th>
+<th>解読</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Egyptian</td>
+<td>394</td>
+<td>見えていた</td>
+<td>1643（Kircher の本。関心は 1628）</td>
+<td>1822</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Egyptian_hieroglyphs">Egyptian hieroglyphs</a>、<a href="https://en.wikipedia.org/wiki/Athanasius_Kircher">Athanasius Kircher</a>）】9〜10世紀に Dhul-Nun と pseudo-Ibn Wahshiyya の試みあり</td>
+</tr>
+<tr>
+<td>Persepolis・Behistun の楔形文字</td>
+<td>79/80</td>
+<td>見えていた</td>
+<td>1711（Chardin の正確な写し）</td>
+<td>1802</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Cuneiform">Cuneiform</a>、<a href="https://en.wikipedia.org/wiki/Old_Persian_cuneiform">Old Persian cuneiform</a>、<a href="https://en.wikipedia.org/wiki/Persepolis">Persepolis</a>）】中世のイスラムの地理学者は遺跡を記したが Jamshid のものとした</td>
+</tr>
+<tr>
+<td>Ashoka の Brahmi</td>
+<td>400（4世紀まで読めた）</td>
+<td>見えていた</td>
+<td>1785（Wilkins が後期 Brahmi を解読。1834 に進展の再開）</td>
+<td>1837</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Edicts_of_Ashoka">Edicts of Ashoka</a>、<a href="https://en.wikipedia.org/wiki/Brahmi_script">Brahmi script</a>、<a href="https://en.wikipedia.org/wiki/Delhi-Topra_pillar">Delhi-Topra pillar</a>）】歴史に関心のあった Feroz Shah は 1350年代に未解読の柱を飾りとして都に移した</td>
+</tr>
+<tr>
+<td>Palmyrene</td>
+<td>274</td>
+<td>見えていた</td>
+<td>1616（碑文の例の印刷）</td>
+<td>1754（正確な二言語の写しの翌年）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Palmyrene_alphabet">Palmyrene alphabet</a>、<a href="https://en.wikipedia.org/wiki/Jean-Jacques_Barthélemy">Jean-Jacques Barthélemy</a>）】</td>
+</tr>
+<tr>
+<td>Meroitic</td>
+<td>410/450</td>
+<td>見えていた</td>
+<td>年なし（解読 1909 が上限）</td>
+<td>1909</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Meroitic_script">Meroitic script</a>）】</td>
+</tr>
+<tr>
+<td>Kharosthi</td>
+<td>350【推測】</td>
+<td>見えていた【推測】</td>
+<td>年なし（1835 が上限）</td>
+<td>1835</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Kharosthi">Kharosthi</a>）】</td>
+</tr>
+<tr>
+<td>Maya</td>
+<td>1575（063 の幅の中点）</td>
+<td>見えていた</td>
+<td>1862（Brasseur が Landa を出版）</td>
+<td>1952</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Maya_script">Maya script</a>、<a href="https://en.wikipedia.org/wiki/Diego_de_Landa">Diego de Landa</a>）】</td>
+</tr>
+<tr>
+<td>Linear B</td>
+<td>前1200</td>
+<td>埋もれていた（1900 発掘）</td>
+<td>1900（Evans）</td>
+<td>1952</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Linear_B">Linear B</a>、<a href="https://en.wikipedia.org/wiki/Michael_Ventris">Michael Ventris</a>）】</td>
+</tr>
+<tr>
+<td>Linear A</td>
+<td>前1450</td>
+<td>1900</td>
+<td>1900</td>
+<td>なし</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Linear_A">Linear A</a>）】</td>
+</tr>
+<tr>
+<td>Indus</td>
+<td>前1900</td>
+<td>1875（印章の初出版。発掘は 1922）</td>
+<td>1925（「1920年代から」の中点【推測】）</td>
+<td>なし</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Indus_script">Indus script</a>、<a href="https://en.wikipedia.org/wiki/Mohenjo-daro">Mohenjo-daro</a>）】</td>
+</tr>
+<tr>
+<td>Orkhon の古テュルク文字</td>
+<td>年なし</td>
+<td>1889（調査）</td>
+<td>年なし（1893 が上限）</td>
+<td>1893</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Orkhon_inscriptions">Orkhon inscriptions</a>）】</td>
+</tr>
+<tr>
+<td>Hittite</td>
+<td>年なし</td>
+<td>1906（断片は 1893）</td>
+<td>年なし（1915 が上限）</td>
+<td>1915</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Hittite_language">Hittite language</a>、<a href="https://en.wikipedia.org/wiki/Hattusa">Hattusa</a>）】</td>
+</tr>
+<tr>
+<td>Tocharian</td>
+<td>750【推測】</td>
+<td>1900【推測】</td>
+<td>1907（Sieg と Müller）</td>
+<td>—</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Tocharian_languages">Tocharian languages</a>）】</td>
+</tr>
+</tbody>
+</table>
+<p>174 の候補 5件（4条件「非学者・教える人なし・知らない文字・文書だけ」をすべて満たす strict は <strong>0件</strong>）：
+- Kaitai Shinsho（1771→1774）：医者の仲間が辞書なしで、解剖と図を照らし合わせながらオランダ語の本を訳した。ただし Maeno は少し読めた（教える人の代わりが半分いた。文字はラテン文字）【事実（<a href="https://en.wikipedia.org/wiki/Kaitai_Shinsho">Kaitai Shinsho</a>）】。図が鍵の代わりになった最も近い例。
+- Grotefend（1802）：学校の教師が飲み仲間との賭けで Persepolis の碑文の一部を解いた。大学で学んだ人【事実（<a href="https://en.wikipedia.org/wiki/Georg_Friedrich_Grotefend">Georg Friedrich Grotefend</a>）】。
+- Ventris（1952）：建築家で独学の言語学者、Kober の研究に基づく【事実（<a href="https://en.wikipedia.org/wiki/Linear_B">Linear B</a>）】。
+- Horapollo の Hieroglyphica：鍵とされた本が 1505 から印刷され、Kircher まで象徴として読む誤りに導いた（誤った鍵）【事実（<a href="https://en.wikipedia.org/wiki/Horapollo">Horapollo</a>）】。
+- Feroz Shah：未解読の柱に関心を持ち運んだが、読もうとした記述はない【事実（<a href="https://en.wikipedia.org/wiki/Delhi-Topra_pillar">Delhi-Topra pillar</a>）】。
+next_plan の規則（strict が3件未満なら 175 に絞る）どおり、主課題は 175 とした。</p>
+<h2 id="1">結果1：取り組みの始まりは「時間」でなく「段」で決まる</h2>
+<ul>
+<li>onset 年を失われた年に回帰した傾き <strong>−0.042</strong>（bootstrap 90% 区間 −0.117〜0.013、9件）。時間で決まるなら 1 になるはず。失われた年は前1900〜1575 と 3,500年に散るのに、onset は <strong>1616〜1925</strong> の 309年に集まる。onset 年の標準偏差 121年は、失われてからの年数の標準偏差 1,197年の <strong>0.10倍</strong>【計算】。</li>
+<li>1600年より前に、読める社会から見えていた文書の集まり 7件（曝露の合計 <strong>7,697 文書年</strong>）で、体系的な onset は <strong>0件</strong>。どんな試みでも（誤りを含む）1件（Egyptian の 9世紀）。率は Jeffreys で体系的 1/15,394年、試み 1/4,631年【計算】。</li>
+<li>学問の段にある社会が新しく手にした文書 6件では、onset までの遅れは 0, 0, 50, 4, 9, 7年（中央値 <strong>5.5年</strong>、10年以内 5/6）。別の読み（Indus を発掘から、Hittite を最初の断片から）では中央値 3.5年【計算】。</li>
+<li>【推測】読めない文書に取り組むかは、取り組む側の社会が「古い文書を体系的に写し・比べ・出版する」段にあるかで決まり、その段に入れば数年で始まる。前近代の読める社会（中世のイスラム世界、Delhi のスルタン、ビザンツ）は千年以上見ていても、取り組まなかった。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<p>066 の sim.py を「# ---------- 版 ----------」の前まで exec し、066 の主（重い崩壊 A_Ord/U3 <strong>0.85082</strong>）を差0で再現した（全6値の最大差 0.0）。primer の経路 p_pr = k_rec × k_cont × P_read(T) の P_read を二段にした：学問の段 P（T2 より Δ 年前）より前は前近代の試みの率 λ_any（Gamma(1.5, 6,947年)、中央値の時定数 5,874年）で取り組み τ_key で読む。P の後は τ_key で読む（τ_key は鍵が手に入ってからの年数で、取り組みの遅れを含むので別には足さない）。T2 の後 W 年まで読めれば足りるとする版も置いた。Δ=∞・W=0 で 066 の式に戻る。主は Δ=0、W=0【推測：歴史で学問の段が T2 より先に来たという根拠は本回の資料にない】。</p>
+<h2 id="2">結果2：冊子の価値</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>重い崩壊の p_pr</th>
+<th>A_Ord/U3 全体</th>
+<th><strong>A_Ord/U3 重い崩壊</strong></th>
+<th>A_XPT_S/U2 重い崩壊</th>
+<th>軽い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>066 主（崩壊から取り組む）</td>
+<td>0.631</td>
+<td>0.933</td>
+<td>0.851</td>
+<td>0.868</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>primer なし（w は 066）</td>
+<td>—</td>
+<td>0.918</td>
+<td>0.809</td>
+<td>0.828</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td><strong>067 主（Δ=0、W=0）</strong></td>
+<td>0.105</td>
+<td><strong>0.919</strong></td>
+<td><strong>0.813</strong></td>
+<td><strong>0.831</strong></td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>sys（体系的な率）</td>
+<td>0.035</td>
+<td>0.918</td>
+<td>0.810</td>
+<td>0.829</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>pre_unkeyed</td>
+<td>0.081</td>
+<td>0.918</td>
+<td>0.810</td>
+<td>0.830</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>Δ=25</td>
+<td>0.283</td>
+<td>0.924</td>
+<td>0.826</td>
+<td>0.845</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>Δ=50</td>
+<td>0.393</td>
+<td>0.928</td>
+<td>0.836</td>
+<td>0.853</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>Δ=100</td>
+<td>0.510</td>
+<td>0.930</td>
+<td>0.842</td>
+<td>0.861</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>Δ=200</td>
+<td>0.591</td>
+<td>0.932</td>
+<td>0.848</td>
+<td>0.866</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>Δ=400</td>
+<td>0.624</td>
+<td>0.933</td>
+<td>0.850</td>
+<td>0.868</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>W=20</td>
+<td>0.256</td>
+<td>0.923</td>
+<td>0.824</td>
+<td>0.844</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>W=50</td>
+<td>0.397</td>
+<td>0.928</td>
+<td>0.836</td>
+<td>0.854</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>- primer の上げ幅（重い崩壊）は 066 の +0.042 から主で <strong>+0.004</strong> に縮む。上げ幅の半分を取り戻すには学問の段が T2 より <strong>約34年</strong>先に来る必要がある（Δ_half）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用あたり（全体、中央値、TAB=1）：primer の追加分は 066 主 18.8 から <strong>1.7</strong>（版 0.3〜18.2）。冊子＋primer の合計は 37.5→33.2（冊子だけ 44）。重い崩壊だけで primer の追加分 66→<strong>6.0</strong>。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説の検証</h2>
+<ul>
+<li>H79a（傾き &lt; 0.2）：支持（−0.042）。</li>
+<li>H79b（新しく手にした文書の遅れの中央値 ≤ 10年）：支持（5.5年）。</li>
+<li>H79c（1600年より前の体系的な onset 0件、曝露 ≥ 5,000）：支持（0件、7,697）。</li>
+<li>H79d（主 ≤ 066 主 − 0.03）：支持（0.813 対 0.851）。</li>
+<li>H79e（Δ_half ≤ 100年）：支持（34年）。</li>
+<li>H79f（strict ≥ 3件）：<strong>棄却</strong>（0件）。</li>
+<li>H79g（primer の追加分の費用あたり &lt; 冊子だけ）：支持（1.7 対 44）。</li>
+<li>H79h（W20 − 主 ≥ 0.01）：支持（+0.012）。</li>
+</ul>
+<h2 id="_4">批判的な検討</h2>
+<ul>
+<li><strong>段と暦が重なっている</strong>：onset はすべて 1616〜1925 の欧州（とその植民地の学会）の学問で起きた。「段で決まる」と「1600年以後の欧州という一つの歴史の出来事で決まる」は、この標本では区別できない。独立な社会で学問の段が起きた例（例えば江戸の蘭学が自分で古い文字に取り組んだか）は本回調べていない【推測】。</li>
+<li><strong>Δ の符号に資料がない</strong>：主の Δ=0 は「学問の段は読取装置の段より先に来ない」という置き方で、根拠は本回の資料にない。Δ=100 なら 0.842 で 066 の主に近い。重い崩壊の冊子の価値の幅は Δ の置き方だけで <strong>0.813〜0.851</strong> で、本回の最大の未知はここに移った。</li>
+<li><strong>冊子は遺跡の碑文と違う</strong>：冊子は読まれるために作られ、primer は最初のページで手引きと分かる作りにする。前近代の社会が「読めと書いてある本」には取り組むかもしれない。ただし近い例はよくない：鍵とされた Horapollo は 300年誤りに導き、Landa の正しい部分的な鍵は 1566 から 1862 まで出版されず、1952 まで使えなかった。Feroz Shah は柱を運んでも読もうとしなかった【事実（上の出典）】。</li>
+<li><strong>曝露の数え方</strong>：7件の「見えていた」は、読める社会が実際に文字を目にしていたかを本文で確かめたのは Persepolis、Delhi の柱、Egyptian だけで、Kharosthi・Meroitic は【推測】。曝露を半分にしても体系的な率の時定数は約 7,700年で、主の結論は変わらない【推測】。</li>
+<li><strong>W の扱い</strong>：T2 の後に読めても、模型は ρ を T2 の時点で評価するので、W の版は「T2 の後の遅れは他に費用がない」と置いた甘い近似。</li>
+<li>軽い崩壊（計算機の社会が残る）では文字が続くので primer は使われず 0.969 で不変。</li>
+</ul>
+<h2 id="_5">軽い崩壊と重い崩壊</h2>
+<ul>
+<li>重い崩壊：冊子＋primer の価値は 066 の 0.851 から <strong>0.813</strong>（Δ の版で 0.813〜0.851）。primer なしは 0.809。A_XPT_S は 0.868→0.831。</li>
+<li>軽い崩壊：0.969 で不変。全体は 0.933→0.919（A_Ord）。</li>
+</ul>
+<h2 id="_6">新規性</h2>
+<p>読めなくなった文字の文書への取り組みの始まりが、失われてからの年数でなく取り組む側の社会の段で決まることを、onset の年の回帰（傾き −0.04）と、前近代の 7,697 文書年で体系的な取り組み 0件という数で示し、それを知識の保存の手引き（primer）の価値の時間の原点に入れたのは本研究所で初めて【推測：網羅的に調べたわけではない】。Ord・XPT は崩壊の後に誰がいつ古い文書に取り組むかを扱っていない。【独自仮説】崩壊の後の手引きは「学問の段の前の社会が、読もうとせずに使える」形でなければ T2 までにほとんど働かない。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者は、primer に予算を割く理由を「T2 より前の社会が読み解く」ことに置くべきでない（費用あたり 1.7 で冊子の配布 44 の 1/26）。予算は冊子の部数と別々の預け先に回し、座標そのものを、文字を読まずに使える形（地図、方位、歩数や星の位置のような数の絵）で冊子の最初に載せる方を試すべき【推測】。本研究所は 065・066 の「primer で 0.845〜0.851」を「取り組みの始まりを段に結ぶと 0.813（Δ 次第で 0.813〜0.851）」に改め、次は文字なしで伝わる部分の割合（176）と、学問の段が読取装置の段より先に来るか（Δ、新しい課題）へ進む。</p>
+<h2 id="_8">再現と逸脱</h2>
+<ul>
+<li>再現チェック：024〜066 を <code>/tmp/rep067/</code> に複製し 066 の sim.py（約179秒）を再実行、results.json は runtime 以外一致（葉 543個、差分0）。</li>
+<li>逸脱1：事前登録は「1600年より前の見えていた文書6件」と書いたが、規則（visible かつ loss&lt;1600）は Maya（1575）を含め 7件になった。Maya の曝露は 25年だけ。</li>
+<li>逸脱2：最初の実行で、Maya の Landa の表（1566、失われる前の鍵）を前近代の「試み」に数え、曝露が負になる誤りがあった。cases.json の note（「失われた後の取り組みでない」）に合わせ、失われた後の試みだけを数えるよう直して再実行した（k_any 2→1、主の重い崩壊 0.8144→0.8126、判定は変わらず）。</li>
+<li>取得したが数字に使わなかった頁：Ibn Wahshiyya、Rangaku、Sugita Genpaku、Catholic Church in Korea（文字は既知で、失われた文字の例でない）、Kakure Kirishitan、Autodidacticism、Vilhelm Thomsen、James Prinsep、The Asiatic Society、Firuz Shah Tughlaq、Ugarit・Ugaritic・Ugaritic alphabet（解読の年が保存本文になく除いた）、Rongorongo（Jaussen の取り組みの年が本文で決まらず除いた）、Anatolian hieroglyphs（発見の年が本文になく除いた）、Cretan hieroglyphs、Proto-Elamite script、Behistun の細部、Tarim mummies、Lepsius（曖昧さ回避の頁）、Hans Bauer（曖昧さ回避の頁）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

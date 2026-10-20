@@ -45,8 +45,10 @@ R["stage_vs_time"] = {"n": len(reg), "ids": [c["id"] for c in reg], "slope": slo
 # 見えていた文書の 1600年より前の曝露
 VIS = [c for c in CO if c["visible"] and c["loss"] is not None and c["loss"] < 1600]
 exp_sys = float(sum(1600 - c["loss"] for c in VIS)); k_sys = sum(1 for c in VIS if c["onset"] is not None and c["onset"] < 1600)
-exp_any = float(sum((c["attempt_any"] if (c["attempt_any"] is not None and c["attempt_any"] < 1600) else 1600) - c["loss"] for c in VIS))
-k_any = sum(1 for c in VIS if c["attempt_any"] is not None and c["attempt_any"] < 1600)
+# 失われた後の試みだけを数える（Maya の Landa 1566 は読める書き手がいた時の鍵なので数えない。cases.json の note のとおり）
+def _att(c): a = c["attempt_any"]; return a if (a is not None and c["loss"] < a < 1600) else None
+exp_any = float(sum((_att(c) if _att(c) is not None else 1600) - c["loss"] for c in VIS))
+k_any = sum(1 for c in VIS if _att(c) is not None)
 R["premodern"] = {"ids": [c["id"] for c in VIS], "n": len(VIS), "exposure_sys": exp_sys, "k_sys": k_sys, "exposure_any": exp_any, "k_any": k_any,
                   "tau_any_jeffreys_mean_rate": exp_any / (0.5 + k_any), "tau_sys_jeffreys_mean_rate": exp_sys / (0.5 + k_sys),
                   "onset_after_1600": {c["id"]: c["onset"] for c in VIS}}
@@ -93,7 +95,6 @@ for nm, f in PV.items():
     RT[nm], DV[nm] = ratio_all(ver(rho=rho66(L66, ppf=f)))
 d = max(abs(RT["e066"][k][p] - r66["ratio_to_V0"]["main"][k][p]) for k in KEYS for p in PARTS)
 R["check_066_main"] = {"max_abs_diff": d, "reproduced": d < 1e-12}
-d2 = max(abs(RT["nopr"][k][p] - RT["nopr"][k][p]) for k in KEYS for p in PARTS)
 RT["066_main"] = r66["ratio_to_V0"]["main"]; RT["065_main"] = r66["ratio_to_V0"]["065_main"]; RT["064_main"] = r66["ratio_to_V0"]["064_main"]
 R["ratio_to_V0"] = RT
 # p_pr（重い崩壊の T での平均）
