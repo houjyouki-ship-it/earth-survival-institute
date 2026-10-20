@@ -1123,4 +1123,16 @@
 <li>査読対応の反映：071 の report.md に訂正の節（1,500 km の撤回、19件の格下げ、H83 の分類）、README に方針改訂（指標の位置づけ、仮説の3分類、件数より不確実性）、research/001〜071 の report.md の冒頭に「指標は生存確率・復興確率ではなく、提言は模型の中の順位」の注を追記。open_problems に 189〜192 を追加、186〜188 に進展を追記。</li>
 <li>逸脱：Vanuatu が Xia S5 になく、refuge の重みだけの国として足した（最初の起動は assert で数値の前に停止）。欠けた2頁の代わりに Pauline Wiessner と History of Indigenous Australians を取得。図の目盛りの表示だけ直して再実行（数値は同じ）。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：金庫・冊子の運営者は「各地域から X km 以内」の距離の規則でなく、写しを M49 の小地域ごとに1つ置き残りを最も離れた国から埋める置き方を候補にし、人口・一つの破局の予測・大図書館に寄せない。本研究所は 071 の 1,500 km と返答の 750 km の主張を撤回し、次は国家を持たない社会の体系的なデータと未見資料での検証（190＋192）へ。</li>
+</ul>
+<h2 id="73-2026-10-21">第73回 2026-10-21</h2>
+<ul>
+<li>再現チェック：070〜072 を <code>/tmp/rep073/</code> に複製し、072 の sim.py（約47秒）を再実行した。results.json は runtime 以外一致（葉 3,394個、差分0）。</li>
+<li>主課題：next_plan 先頭の固定節（外部査読への対応）の残り 4・5 ＝ open_problems 190＋192（推奨 A）。切り替えの規則（本回開いて確認した、20社会以上の移動距離の数値の公開の表）は Binford の 261 群で満たし、A を続けた。もう一つの固定節は残した。</li>
+<li>文献・データ（本回開いて確認）：CRAN の binford 0.1.0（https://CRAN.R-project.org/package=binford、Marwick, Johnson, White &amp; Eff。Binford 2001 の 339 群）。tar.gz の LRB.rdata・LRBkey.rdata を pyreadr で読み、kmov・kspmov・area・latitude・wc.area を <code>sources/lrb_mobility.csv</code> に抜き出した。</li>
+<li>研究073を実施：<code>research/073-forager-mobility-reach/</code>（sim.py 約59秒、計算のみ）。成果物は results.json、stdout.txt、fig_reach_hist.png、fig_A_by_plan.png、report.md、PREREGISTRATION.md（2026-10-20T20:35Z、表の値を開く前・sim.py の前）、explore_posthoc.py/json（事前登録の外）、sources/（tar.gz、CRAN の頁、extract.py、lrb_mobility.csv、SHA256SUMS.txt）。<code>/tmp/rep073b/</code> で再実行し results.json は runtime 以外一致、図2枚の MD5 も一致。</li>
+<li>方法：072 の sim.py を「図」の前まで exec し 072 の summary を差0で再現、重みつきの A_w が 072 の A_of と一致することを確認。届く距離を kmov の経験分布にして置き方 7つを 60 条件（q×地理×距離）で比較。版は面積の直径、kmov×2、1回の移動、地域を等しい重み、地域ごとの最大。</li>
+<li>主要数値：kmov 中央値 <strong>144.8 km</strong>（bootstrap 90% 136.8〜201.1）、p90 611、最大 917、1,606 km 以上 0%。範囲の半径の中央値 54.7 km。標本の 137/261 が北米。等価な k <strong>0.215</strong>（地域を等しい重み 0.227、面積 0.154、×2 0.375）。per_subregion が minimax regret（0.275）と maximin の最良で6版とも同じ。7つの平均の A 0.278（071 の k=1 で 0.439）。事後：主の A の 88〜99% は自国の写しだけで届く分。</li>
+<li>判定（分類つき）：確認的 H85a・b 支持、H85c 棄却（0.176）。予測 H85d・f 支持、H85e 棄却（0.633）。記述は数えない。</li>
+<li>逸脱：登録の変数名 DISMOV（マイル、n=236）の代わりに同じ量の km 版 kmov（n=261）を主にした。最初の起動は pandas の読み取り専用の配列で数値の前に停止し、1行直して再実行した。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：金庫・冊子の運営者は、生き残りが狩猟採集民ほどしか動けない場合には小地域ごとに1つでも生存者の約 1/3 にしか届かないと考え、写し 35 部を前提にしない。本研究所は k の下限を 0.2 に広げ、次は国の中の地理での A（193）へ。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

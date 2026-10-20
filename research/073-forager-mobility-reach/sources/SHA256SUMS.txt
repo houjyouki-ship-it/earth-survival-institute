@@ -1,0 +1,5 @@
+6111ae8aa6e6dc228a32b9ab0db087893d4308980468bf7c6b8f546afd6eb712  binford_0.1.0.tar.gz
+eddd2d00d6b4a88d16c0b4578954f03fae1f8855897dd0aca7777a4b2c096ea8  cran_binford.html
+615b51cf1b40f2e5f42cf6cced0a31afe55c675a3c683ecf978ae7ee0767b67a  extract.py
+4d29bc7770fc81923401be5747d1a818ac9867329b4786d427e56a41a2f5ae32  lrb_mobility.csv
+注：binford/ は binford_0.1.0.tar.gz を展開すれば再生成できる（tar xzf）

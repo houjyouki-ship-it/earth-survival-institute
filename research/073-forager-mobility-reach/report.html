@@ -1,0 +1,36 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究073：狩猟採集民の年間の移動距離で届く範囲を置き直す（open_problems 190＋192） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="073open_problems-190192">研究073：狩猟採集民の年間の移動距離で届く範囲を置き直す（open_problems 190＋192）</h1>
+<p><strong>注：この研究の指標 A は生存確率でも復興確率でもない。</strong> 「生存者（地理の重み）のうち届く範囲に生き残った写しが1つ以上ある割合」で、模型の中だけの量。提言は模型の中での順位（外部の検証はまだ）。</p>
+<h2 id="_1">資料</h2>
+<ul>
+<li>【事実（Marwick, Johnson, White &amp; Eff, CRAN の binford 0.1.0、https://CRAN.R-project.org/package=binford）】Binford (2001) の狩猟採集民 339 群、200 以上の変数。本回 tar.gz を取得し <code>sources/extract.py</code> で <code>lrb_mobility.csv</code> に抜き出した。使った変数（LRBkey の説明）：kmov「平均の世帯が1年に動いた距離の合計（km）」(n=261)、kspmov「1回の移動あたりの距離（km）」、area「民族誌の推定した占める土地の面積（100 km²）」、latitude、wc.area。</li>
+<li>事前登録（<code>PREREGISTRATION.md</code>、2026-10-20T20:35Z）は表の値を開く前に書いた。逸脱：登録では変数名を DISMOV（マイル）と書いたが、同じ量の km 版 kmov（n=261、DISMOV は n=236）を主にした。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<p>072 の sim.py を「図」の前まで exec し、072 の summary を差0で再現（検査1）。072 の A_of と同じ式を重みつきにした A_w が一致することを確認（検査2）。届く距離の分布を 071 の19件から kmov の経験分布に替え、072 の置き方 7つ（写し N=35）を q 3 × 地理 4 × 距離の定義 5 の 60 条件で比べた。版：面積を円とみた直径、kmov×2、1回の移動の距離、地域を等しい重み、地域ごとの最大。再実行（<code>/tmp/rep073b/</code>）で results.json は runtime 以外一致、図2枚の MD5 も一致。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>【事実（binford の表、本回計算）】kmov の中央値 <strong>144.8 km</strong>（bootstrap 90% 136.8〜201.1 km）、90パーセンタイル 611 km、最大 917 km。1,606 km 以上は 0%、803 km 以上は 1.5%。面積の円の半径の中央値 <strong>54.7 km</strong>。地域の中央値は BC NWC 52 km〜WNA 692 km。標本は北米に偏る（SW 71、BC NWC 32、NNA 26、WNA 8 で 261 中 137）。</li>
+<li>中央値の比は 071 の 0.090。平均の A を合わせる等価な k は <strong>0.215</strong>（地域を等しい重み 0.227、面積 0.154、×2 で 0.375）で、072 の格子の下端 0.25 の外。</li>
+<li>置き方（60 条件、主）：minimax regret と maximin の最良は <strong>per_subregion</strong>（最大の後悔 0.275、平均 A 0.349）。6つの版すべてで同じ。cover1500 0.368、surv150 0.418、pop 0.618、cover750 0.740、bigplus 0.778。7つの平均の A は 0.278（071 の k=1 は 0.439、比 0.633）。</li>
+<li><strong>【事後の探索・重要な限界】</strong> 主の A の <strong>88〜99%</strong> は「写しが自国にある」だけで届く分（<code>explore_posthoc.json</code>）。国の中心どうしの距離は最短でも数百 km あるので、狩猟採集民の届く距離では 072 の模型は「写しを持つ国の生存者の割合」にほぼ縮み、国の中の地理を解けない。各国に1つずつ置けば A=1（refuge は Vanuatu が候補外なので 0.82）。</li>
+</ul>
+<h2 id="_4">仮説の判定（分類つき）</h2>
+<ul>
+<li>確認的：<strong>H85a 支持</strong>（144.8 &lt; 401 km）、<strong>H85b 支持</strong>（54.7 &lt; 100 km）、<strong>H85c 棄却</strong>（Spearman 0.176 &lt; 0.3）。</li>
+<li>入力判明後の予測：H85d 支持（per_subregion）、H85e 棄却（比 0.633 ≥ 0.5）、H85f 支持（k=0.25 が最も近い）。ただし上の限界により H85d の支持は「国の中の写し」を数えた結果で、置き方の地理の検証にはなっていない。</li>
+<li>記述（数えない）：面積と kmov の Spearman 0.583、地域の内訳。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li>【推測】kmov は住居の移り住みの合計で、文書を目当てにした一度の遠出（兵站の遠征、交易の旅）ではない。遠出は住居の移動より長いことがあるので、届く距離の下側の目安として読む。上側は 071 の19件（国家のある社会）で、真の分布はこの間（k 0.2〜1）にあると置くのが妥当。</li>
+<li>【推測】崩壊後の生き残りが狩猟採集民の移動の仕方に戻るとは限らない（農耕・家畜・舟を保つ集団もある）。</li>
+<li>標本は北米に偏るが、地域を等しい重みにしても等価な k は 0.215→0.227 でほぼ同じ。</li>
+</ul>
+<h2 id="_6">新規性</h2>
+<p>072 の k の格子（根拠なし）を、事前登録してから開いた 261 群の体系的な表で置き直した最初の回。結果として、狩猟採集民の届く距離では国の単位の模型が解像度不足になることを示した。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>金庫・冊子の運営者は、生き残りが狩猟採集民ほどしか動けない場合には「小地域ごとに1つ」でも60 条件の平均で生存者の約 1/3（A 0.349）にしか届かず、届く距離（約 150 km）の網目で写しを置く数が要ると考え、写しの数 N=35 を前提にしない。本研究所は 072 の k の下限を 0.25 から 0.2 に広げ、次は国の中の人口の格子で A を計算し直す（193）。</p>
+<h2 id="_8">出典（本回開いて確認）</h2>
+<ul>
+<li>https://CRAN.R-project.org/package=binford （パッケージの頁）、https://cran.r-project.org/src/contrib/binford_0.1.0.tar.gz （データ）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
