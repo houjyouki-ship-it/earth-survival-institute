@@ -1,0 +1,120 @@
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 27 s
+{
+ "data": {
+  "n_societies": 339,
+  "n_kmov": 261,
+  "kmov_median": 144.81,
+  "kmov_p90": 611.42,
+  "kmov_max": 917.13,
+  "radius_median_km": 54.700209598571305,
+  "diam_median_km": 109.40041919714261,
+  "kspmov_median": 21.94,
+  "regions": {
+   "SW": 71,
+   "AUS": 41,
+   "BC NWC": 32,
+   "ARC": 30,
+   "NNA": 26,
+   "ASIA": 22,
+   "SOAM": 15,
+   "AFR": 15,
+   "WNA": 8,
+   "ENA": 1
+  },
+  "kmov_median_by_region": {
+   "AFR": 120.7,
+   "ARC": 225.3,
+   "ASIA": 121.5,
+   "AUS": 225.3,
+   "BC NWC": 52.3,
+   "ENA": 0.2,
+   "NNA": 563.2,
+   "SOAM": 281.6,
+   "SW": 136.8,
+   "WNA": 691.9
+  },
+  "share_kmov_ge_1606": 0.0,
+  "share_kmov_ge_803": 0.01532567049808429,
+  "spearman_kmov_abslat": 0.17637861370208938,
+  "spearman_kmov_area": 0.5831168889316215,
+  "kmov_median_boot90": [
+   136.76,
+   201.13
+  ]
+ },
+ "k_equiv": {
+  "main_kmov": 0.21488507565623144,
+  "diam_area": 0.154442895526532,
+  "kmov_x2": 0.37472178128967054,
+  "region_balanced": 0.22742272579157718
+ },
+ "k_median_ratio": 0.09016250544797959,
+ "grid072_mean_A": {
+  "0.25": 0.28276098387430154,
+  "0.5": 0.3246626781249594,
+  "1.0": 0.43900228096124866,
+  "2.0": 0.5959062181987929
+ },
+ "main_best_by_geo": {
+  "xia150": "surv150",
+  "xia47": "pop",
+  "pop": "pop",
+  "refuge": "cover1500"
+ },
+ "main_all_countries_A_q0": {
+  "xia150": 1.000000000000003,
+  "xia47": 1.0000000000000029,
+  "pop": 1.0000000000000029,
+  "refuge": 0.8176245210727993
+ },
+ "hypotheses": {
+  "H85a": {
+   "class": "確認的",
+   "value": 144.81,
+   "rule": "kmov の中央値 < 401 km",
+   "supported": true
+  },
+  "H85b": {
+   "class": "確認的",
+   "value": 54.700209598571305,
+   "rule": "sqrt(AREA/π) の中央値 < 100 km",
+   "supported": true
+  },
+  "H85c": {
+   "class": "確認的（弱い：一般論を既知）",
+   "value": 0.17637861370208938,
+   "rule": "Spearman(kmov, |lat|) >= 0.3",
+   "supported": false
+  },
+  "H85d": {
+   "class": "予測",
+   "value": "per_subregion",
+   "rule": "主の minimax regret の最良 = per_subregion",
+   "supported": true
+  },
+  "H85e": {
+   "class": "予測",
+   "value": 0.6329453411953466,
+   "rule": "主の平均 A / 071(k=1) の平均 A < 0.5",
+   "supported": false
+  },
+  "H85f": {
+   "class": "予測",
+   "value": 0.25,
+   "rule": "072 の格子で主に最も近い k = 0.25",
+   "supported": true
+  }
+ }
+}
+main_kmov per_subregion per_subregion 0.2779 {'cover1500': (0.3275, 0.368), 'cover750': (0.0954, 0.74), 'cover3000x': (0.2674, 0.4708), 'per_subregion': (0.3492, 0.2745), 'pop': (0.3473, 0.6176), 'surv150': (0.3568, 0.4176), 'bigplus': (0.2015, 0.7777)}
+diam_area per_subregion per_subregion 0.2746 {'cover1500': (0.3233, 0.3676), 'cover750': (0.0871, 0.7428), 'cover3000x': (0.266, 0.4683), 'per_subregion': (0.3465, 0.2748), 'pop': (0.3459, 0.6041), 'surv150': (0.3556, 0.4041), 'bigplus': (0.1975, 0.7776)}
+kmov_x2 per_subregion per_subregion 0.2993 {'cover1500': (0.3523, 0.3489), 'cover750': (0.1308, 0.6959), 'cover3000x': (0.2869, 0.4699), 'per_subregion': (0.37, 0.2593), 'pop': (0.3601, 0.6697), 'surv150': (0.3678, 0.4812), 'bigplus': (0.2268, 0.7513)}
+per_move per_subregion per_subregion 0.2733 {'cover1500': (0.3219, 0.3672), 'cover750': (0.0839, 0.7445), 'cover3000x': (0.2654, 0.4669), 'per_subregion': (0.3455, 0.2746), 'pop': (0.3454, 0.6), 'surv150': (0.355, 0.4), 'bigplus': (0.1963, 0.7775)}
+region_balanced per_subregion per_subregion 0.2792 {'cover1500': (0.3292, 0.3677), 'cover750': (0.0986, 0.7378), 'cover3000x': (0.2683, 0.471), 'per_subregion': (0.3503, 0.2746), 'pop': (0.3479, 0.625), 'surv150': (0.3573, 0.425), 'bigplus': (0.203, 0.7766)}
+kmov_max_by_region per_subregion per_subregion 0.2945 {'cover1500': (0.3481, 0.3677), 'cover750': (0.1364, 0.7166), 'cover3000x': (0.2767, 0.476), 'per_subregion': (0.3623, 0.273), 'pop': (0.3548, 0.7), 'surv150': (0.3631, 0.5), 'bigplus': (0.22, 0.7737)}
+ref_071 cover1500 cover1500 0.439 {'cover1500': (0.4994, 0.1846), 'cover750': (0.3177, 0.6105), 'cover3000x': (0.4227, 0.4192), 'per_subregion': (0.4856, 0.2), 'pop': (0.4637, 0.7474), 'surv150': (0.4639, 0.6737), 'bigplus': (0.42, 0.4682)}
+runtime 58.6

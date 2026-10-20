@@ -1,0 +1,407 @@
+{
+ "note": "A は生存確率・復興確率ではない。提言は模型の中の順位（外部の検証はまだ）。",
+ "check_072_summary_identical": true,
+ "check_A_w_equals_A_of": true,
+ "data": {
+  "n_societies": 339,
+  "n_kmov": 261,
+  "kmov_median": 144.81,
+  "kmov_p90": 611.42,
+  "kmov_max": 917.13,
+  "radius_median_km": 54.700209598571305,
+  "diam_median_km": 109.40041919714261,
+  "kspmov_median": 21.94,
+  "regions": {
+   "SW": 71,
+   "AUS": 41,
+   "BC NWC": 32,
+   "ARC": 30,
+   "NNA": 26,
+   "ASIA": 22,
+   "SOAM": 15,
+   "AFR": 15,
+   "WNA": 8,
+   "ENA": 1
+  },
+  "kmov_median_by_region": {
+   "AFR": 120.7,
+   "ARC": 225.3,
+   "ASIA": 121.5,
+   "AUS": 225.3,
+   "BC NWC": 52.3,
+   "ENA": 0.2,
+   "NNA": 563.2,
+   "SOAM": 281.6,
+   "SW": 136.8,
+   "WNA": 691.9
+  },
+  "share_kmov_ge_1606": 0.0,
+  "share_kmov_ge_803": 0.01532567049808429,
+  "spearman_kmov_abslat": 0.17637861370208938,
+  "spearman_kmov_area": 0.5831168889316215,
+  "kmov_median_boot90": [
+   136.76,
+   201.13
+  ]
+ },
+ "versions": {
+  "main_kmov": {
+   "summary": {
+    "cover1500": {
+     "mean_A": 0.3275313471525154,
+     "worst_A": 0.10627742664903658,
+     "max_regret": 0.36798883827675355
+    },
+    "cover750": {
+     "mean_A": 0.0954113592962277,
+     "worst_A": 0.018879527064318846,
+     "max_regret": 0.7400133485483019
+    },
+    "cover3000x": {
+     "mean_A": 0.26739805513075016,
+     "worst_A": 0.07199999999999977,
+     "max_regret": 0.4707500741146553
+    },
+    "per_subregion": {
+     "mean_A": 0.3491868955746706,
+     "worst_A": 0.11387898282631961,
+     "max_regret": 0.2744995429126673
+    },
+    "pop": {
+     "mean_A": 0.3472608090630782,
+     "worst_A": 0.0,
+     "max_regret": 0.6176245210727986
+    },
+    "surv150": {
+     "mean_A": 0.35680965775045786,
+     "worst_A": 0.039999999999999855,
+     "max_regret": 0.417624521072798
+    },
+    "bigplus": {
+     "mean_A": 0.20145301559217016,
+     "worst_A": 0.0243300204364817,
+     "max_regret": 0.7777290255529312
+    }
+   },
+   "minimax_regret_plan": "per_subregion",
+   "maximin_plan": "per_subregion",
+   "mean_A_all_plans": 0.27786444850855285
+  },
+  "diam_area": {
+   "summary": {
+    "cover1500": {
+     "mean_A": 0.3233188366223876,
+     "worst_A": 0.10623686820954531,
+     "max_regret": 0.3675896780330169
+    },
+    "cover750": {
+     "mean_A": 0.08712562894139728,
+     "worst_A": 0.01818308210014831,
+     "max_regret": 0.7428222926505198
+    },
+    "cover3000x": {
+     "mean_A": 0.26601972579272676,
+     "worst_A": 0.07200000000000031,
+     "max_regret": 0.46833811957534155
+    },
+    "per_subregion": {
+     "mean_A": 0.3464770846470108,
+     "worst_A": 0.11374833278393284,
+     "max_regret": 0.27482749134093887
+    },
+    "pop": {
+     "mean_A": 0.34592930966767466,
+     "worst_A": 0.0,
+     "max_regret": 0.6041297935103277
+    },
+    "surv150": {
+     "mean_A": 0.3556435943010309,
+     "worst_A": 0.03999999999999965,
+     "max_regret": 0.40412979351032663
+    },
+    "bigplus": {
+     "mean_A": 0.1975486825903833,
+     "worst_A": 0.024233146830448804,
+     "max_regret": 0.777610714933513
+    }
+   },
+   "minimax_regret_plan": "per_subregion",
+   "maximin_plan": "per_subregion",
+   "mean_A_all_plans": 0.2745804089375159
+  },
+  "kmov_x2": {
+   "summary": {
+    "cover1500": {
+     "mean_A": 0.352315650172521,
+     "worst_A": 0.11202307642883433,
+     "max_regret": 0.3488790933551572
+    },
+    "cover750": {
+     "mean_A": 0.13083794592512873,
+     "worst_A": 0.03244431955912272,
+     "max_regret": 0.6958594111496996
+    },
+    "cover3000x": {
+     "mean_A": 0.28693764228393837,
+     "worst_A": 0.07199999999999977,
+     "max_regret": 0.4699432670641256
+    },
+    "per_subregion": {
+     "mean_A": 0.3699512411810286,
+     "worst_A": 0.11999999999999957,
+     "max_regret": 0.2592913850028018
+    },
+    "pop": {
+     "mean_A": 0.3601226809967251,
+     "worst_A": 0.0,
+     "max_regret": 0.6697318007662852
+    },
+    "surv150": {
+     "mean_A": 0.3678432528406718,
+     "worst_A": 0.039999999999999855,
+     "max_regret": 0.48122605363984783
+    },
+    "bigplus": {
+     "mean_A": 0.2268257018751265,
+     "worst_A": 0.031039187320138033,
+     "max_regret": 0.7512760119891042
+    }
+   },
+   "minimax_regret_plan": "per_subregion",
+   "maximin_plan": "per_subregion",
+   "mean_A_all_plans": 0.29926201646787715
+  },
+  "per_move": {
+   "summary": {
+    "cover1500": {
+     "mean_A": 0.3219184192946579,
+     "worst_A": 0.10620770814945596,
+     "max_regret": 0.36724036481317934
+    },
+    "cover750": {
+     "mean_A": 0.08390075401741824,
+     "worst_A": 0.017772073309056217,
+     "max_regret": 0.7444928660975441
+    },
+    "cover3000x": {
+     "mean_A": 0.26537698977366353,
+     "worst_A": 0.07199999999999986,
+     "max_regret": 0.4669020300088248
+    },
+    "per_subregion": {
+     "mean_A": 0.34548065613526496,
+     "worst_A": 0.11367717287488083,
+     "max_regret": 0.2745660488378928
+    },
+    "pop": {
+     "mean_A": 0.34541117611834987,
+     "worst_A": 0.0,
+     "max_regret": 0.5999999999999982
+    },
+    "surv150": {
+     "mean_A": 0.3550033265950417,
+     "worst_A": 0.04000000000000009,
+     "max_regret": 0.3999999999999988
+    },
+    "bigplus": {
+     "mean_A": 0.19631237596767345,
+     "worst_A": 0.02415416298911451,
+     "max_regret": 0.7775080906148844
+    }
+   },
+   "minimax_regret_plan": "per_subregion",
+   "maximin_plan": "per_subregion",
+   "mean_A_all_plans": 0.27334338541458136
+  },
+  "region_balanced": {
+   "summary": {
+    "cover1500": {
+     "mean_A": 0.32921728742874967,
+     "worst_A": 0.10639448438280788,
+     "max_regret": 0.3677039487895216
+    },
+    "cover750": {
+     "mean_A": 0.09855574726905066,
+     "worst_A": 0.019543516699866984,
+     "max_regret": 0.7377725544657823
+    },
+    "cover3000x": {
+     "mean_A": 0.2682923122555913,
+     "worst_A": 0.0719999999999999,
+     "max_regret": 0.4709877146074417
+    },
+    "per_subregion": {
+     "mean_A": 0.35031622272246726,
+     "worst_A": 0.11410141263160288,
+     "max_regret": 0.2745741675690766
+    },
+    "pop": {
+     "mean_A": 0.34794686436323835,
+     "worst_A": 0.0,
+     "max_regret": 0.6249618027112012
+    },
+    "surv150": {
+     "mean_A": 0.35733342597049506,
+     "worst_A": 0.040000000000000036,
+     "max_regret": 0.42496180271120126
+    },
+    "bigplus": {
+     "mean_A": 0.20301160416318603,
+     "worst_A": 0.024609622686400878,
+     "max_regret": 0.7766385544177756
+    }
+   },
+   "minimax_regret_plan": "per_subregion",
+   "maximin_plan": "per_subregion",
+   "mean_A_all_plans": 0.2792390663103969
+  },
+  "kmov_max_by_region": {
+   "summary": {
+    "cover1500": {
+     "mean_A": 0.3480655995223091,
+     "worst_A": 0.10687849367461015,
+     "max_regret": 0.36766696087084416
+    },
+    "cover750": {
+     "mean_A": 0.13636293411428585,
+     "worst_A": 0.025168945137603718,
+     "max_regret": 0.7166019939108113
+    },
+    "cover3000x": {
+     "mean_A": 0.276689357793045,
+     "worst_A": 0.072,
+     "max_regret": 0.47597087378640757
+    },
+    "per_subregion": {
+     "mean_A": 0.36232054643020534,
+     "worst_A": 0.11508844317096463,
+     "max_regret": 0.27300676669608714
+    },
+    "pop": {
+     "mean_A": 0.3547611982028213,
+     "worst_A": 0.0,
+     "max_regret": 0.7
+    },
+    "surv150": {
+     "mean_A": 0.36306737633392683,
+     "worst_A": 0.03999999999999999,
+     "max_regret": 0.5
+    },
+    "bigplus": {
+     "mean_A": 0.22002417546421363,
+     "worst_A": 0.025674610179464555,
+     "max_regret": 0.7737275669314503
+    }
+   },
+   "minimax_regret_plan": "per_subregion",
+   "maximin_plan": "per_subregion",
+   "mean_A_all_plans": 0.29447016969440104
+  },
+  "ref_071": {
+   "summary": {
+    "cover1500": {
+     "mean_A": 0.4994332391573548,
+     "worst_A": 0.11999999999999998,
+     "max_regret": 0.1846440903671358
+    },
+    "cover750": {
+     "mean_A": 0.3176743840141885,
+     "worst_A": 0.039999999999999994,
+     "max_regret": 0.6105263157894735
+    },
+    "cover3000x": {
+     "mean_A": 0.4227341513464225,
+     "worst_A": 0.07199999999999998,
+     "max_regret": 0.4192293398987317
+    },
+    "per_subregion": {
+     "mean_A": 0.48564572223686625,
+     "worst_A": 0.11999999999999998,
+     "max_regret": 0.20004275721513998
+    },
+    "pop": {
+     "mean_A": 0.46369273959561025,
+     "worst_A": 0.0,
+     "max_regret": 0.7473684210526312
+    },
+    "surv150": {
+     "mean_A": 0.46386569567073505,
+     "worst_A": 0.039999999999999994,
+     "max_regret": 0.6736842105263156
+    },
+    "bigplus": {
+     "mean_A": 0.4199700347075621,
+     "worst_A": 0.11449860235549152,
+     "max_regret": 0.4682143354856689
+    }
+   },
+   "minimax_regret_plan": "cover1500",
+   "maximin_plan": "cover1500",
+   "mean_A_all_plans": 0.4390022809612485
+  }
+ },
+ "grid072_mean_A": {
+  "0.25": 0.28276098387430154,
+  "0.5": 0.3246626781249594,
+  "1.0": 0.43900228096124866,
+  "2.0": 0.5959062181987929
+ },
+ "k_equiv": {
+  "main_kmov": 0.21488507565623144,
+  "diam_area": 0.154442895526532,
+  "kmov_x2": 0.37472178128967054,
+  "region_balanced": 0.22742272579157718
+ },
+ "k_median_ratio": 0.09016250544797959,
+ "main_best_by_geo": {
+  "xia150": "surv150",
+  "xia47": "pop",
+  "pop": "pop",
+  "refuge": "cover1500"
+ },
+ "main_all_countries_A_q0": {
+  "xia150": 1.000000000000003,
+  "xia47": 1.0000000000000029,
+  "pop": 1.0000000000000029,
+  "refuge": 0.8176245210727993
+ },
+ "hypotheses": {
+  "H85a": {
+   "class": "確認的",
+   "value": 144.81,
+   "rule": "kmov の中央値 < 401 km",
+   "supported": true
+  },
+  "H85b": {
+   "class": "確認的",
+   "value": 54.700209598571305,
+   "rule": "sqrt(AREA/π) の中央値 < 100 km",
+   "supported": true
+  },
+  "H85c": {
+   "class": "確認的（弱い：一般論を既知）",
+   "value": 0.17637861370208938,
+   "rule": "Spearman(kmov, |lat|) >= 0.3",
+   "supported": false
+  },
+  "H85d": {
+   "class": "予測",
+   "value": "per_subregion",
+   "rule": "主の minimax regret の最良 = per_subregion",
+   "supported": true
+  },
+  "H85e": {
+   "class": "予測",
+   "value": 0.6329453411953466,
+   "rule": "主の平均 A / 071(k=1) の平均 A < 0.5",
+   "supported": false
+  },
+  "H85f": {
+   "class": "予測",
+   "value": 0.25,
+   "rule": "072 の格子で主に最も近い k = 0.25",
+   "supported": true
+  }
+ },
+ "runtime_s": 58.60982346534729
+}

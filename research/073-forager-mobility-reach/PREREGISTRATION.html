@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究073 事前登録（2026-10-20T20:35Z、狩猟採集民の移動のデータを開く前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="073-2026-10-20t2035zsimpy">研究073 事前登録（2026-10-20T20:35Z、狩猟採集民の移動のデータを開く前・sim.py を書く前）</h1>
+<p><strong>この研究の指標は生存確率でも復興確率でもない。</strong> 指標 A は 072 と同じ「生存者（地理の重みつき）のうち、届く範囲に生き残った写しが少なくとも1つある割合」で、模型の中だけの量。</p>
+<h2 id="_1">背景</h2>
+<p>open_problems 190（国家を持たない社会の移動圏の体系的なデータ）＋192（未見の資料での検証）。072 の k（071 の19件の距離に掛ける倍率）は 0.25〜2 の根拠のない格子だった。</p>
+<h2 id="_2">資料（登録時点で数値は未見）</h2>
+<ul>
+<li>第一候補：Binford (2001) の狩猟採集民のデータ（公開の R パッケージや CSV として配布されているもの）。年間の住居の移動距離（Binford の変数名は DISMOV と記憶している、未確認）と、使う範囲の面積（AREA、未確認）。</li>
+<li>筆者は一般知識として「狩猟採集民の年間の住居の移動は数十〜数百 km」程度とは知っているが、この表の値・分布は見ていない。</li>
+<li>切り替えの規則：本回開いて確認した、20社会以上の移動距離の数値を持つ公開の表が見つからなければ候補 B（191）に切り替える。</li>
+</ul>
+<h2 id="_3">設計</h2>
+<ul>
+<li>届く距離の分布を、071 の19件の代わりに表の社会ごとの年間の移動距離（km）の経験分布にする（主）。版：(i) 面積を円とみた直径 2·sqrt(AREA/π)、(ii) 年間の移動距離×2（往復を片道に読み替える楽観ではなく、1年の移動を一度の遠出とみる上限の版）。</li>
+<li>置き方 7つ・q 3つ・地理 4つ・距離の定義 5つは 072 と同じ（60 条件）。072 の sim.py を exec して 072 の summary を差0で再現してから拡張する。</li>
+<li>暗黙の k：k_eff = median(年間の移動距離)/1606。</li>
+</ul>
+<h2 id="_4">仮説と分類</h2>
+<h3 id="_5">確認的（数値を見る前に登録）</h3>
+<ul>
+<li><strong>H85a</strong>：社会ごとの年間の住居の移動距離の中央値は 401 km（071 の中央値 1,606 km の 25%）未満。</li>
+<li><strong>H85b</strong>：面積を円とみた半径 sqrt(AREA/π) の中央値は 100 km 未満。</li>
+<li><strong>H85c</strong>：年間の移動距離と緯度の絶対値の Spearman 相関は +0.3 以上（注：高緯度の集団ほど動くという文献の一般論を筆者は知っているので、強い検証ではない）。</li>
+</ul>
+<h3 id="_6">入力判明後の予測（模型の出力の予測）</h3>
+<ul>
+<li><strong>H85d</strong>：主の届く距離で、60 条件の minimax regret の最良は per_subregion（072 と同じ）。</li>
+<li><strong>H85e</strong>：主の届く距離での 7つの置き方の平均の A は、072 の k=1 の同じ 60 条件の平均の 0.5 倍未満。</li>
+<li><strong>H85f</strong>：072 の k の格子の中で、主の届く距離の A に最も近い k は 0.25（格子の下端）。</li>
+</ul>
+<h3 id="_7">記述（支持・棄却に数えない）</h3>
+<ul>
+<li>社会の数、地域ごとの内訳、面積と移動距離の相関、置き方ごとの A。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
