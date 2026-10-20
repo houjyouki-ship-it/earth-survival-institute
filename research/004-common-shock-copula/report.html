@@ -1,4 +1,7 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究004：共通ショック（非致死的大災害）によるリスク間相関と脆弱化 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="004">研究004：共通ショック（非致死的大災害）によるリスク間相関と脆弱化</h1>
+<blockquote>
+<p>注（2026-10-21、外部査読への対応で追記）：本報告の価値・V/V0・TC（V0 比）・A などの指標は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。「誰が何を変えるべきか」などの提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
 <p>再現：<code>cd research/004-common-shock-copula &amp;&amp; python3 sim.py &gt; stdout.txt</code>（seed=20261014、所要約13秒、要 numpy/matplotlib、scipy不要）→ <code>results.json</code>, <code>fig_union_correlation.png</code>, <code>fig_longterm_thresholds.png</code>。<code>/tmp</code> の別ディレクトリで再実行し <code>results.json</code> がバイト一致することを確認済み。</p>
 <p>位置づけ：仮定した数学的世界の性質を調べる探索的研究であり、現実の存続確率の予測ではない【推測】。仮説 H7a〜H10 は実行前に <code>sim.py</code> 冒頭へ記載した（第三者タイムスタンプはない）。</p>
 <h2 id="0">0. 入力と統計的意味</h2>

@@ -1,0 +1,68 @@
+b3_0 done 7 s
+b3_300 done 12 s
+b10_0 done 15 s
+b10_300 done 18 s
+chk1_0 done 28 s
+{
+ "N": 35,
+ "n_countries": 159,
+ "check_grid_vs_gc": {
+  "median_ratio": 1.0421592012676317,
+  "p05": 0.9987236056874172,
+  "p95": 1.0951556225165477,
+  "n_pairs": 12538
+ },
+ "barrier_vs_gc_median_ratio": {
+  "b3_0": 1.1002736804918045,
+  "b3_300": 1.4904440764990126,
+  "b10_0": 1.095219495257875,
+  "b10_300": 1.580117574320081
+ },
+ "minimax_regret_plan": "per_subregion",
+ "maximin_plan": "per_subregion",
+ "rank_flips_vs_gc": {
+  "b3_0": {
+   "top_changed_share": 0.16666666666666666,
+   "mean_kendall_tau": 0.8859126984126985,
+   "min_kendall_tau": 0.42857142857142855
+  },
+  "b3_300": {
+   "top_changed_share": 0.16666666666666666,
+   "mean_kendall_tau": 0.8343253968253969,
+   "min_kendall_tau": 0.42857142857142855
+  },
+  "b10_0": {
+   "top_changed_share": 0.10416666666666667,
+   "mean_kendall_tau": 0.8670634920634921,
+   "min_kendall_tau": 0.42857142857142855
+  },
+  "b10_300": {
+   "top_changed_share": 0.125,
+   "mean_kendall_tau": 0.8273809523809524,
+   "min_kendall_tau": 0.42857142857142855
+  }
+ },
+ "kentoshi": {
+  "d_km": 2455.581605053383,
+  "h_per_km": 0.0001651197855830777
+ }
+}
+cover1500 {'mean_A': 0.4652, 'worst_A': 0.1065, 'max_regret': 0.3678, 'mean_regret': 0.0866, 'share_best': 0.2083}
+cover750 {'mean_A': 0.2865, 'worst_A': 0.0198, 'max_regret': 0.7366, 'mean_regret': 0.2653, 'share_best': 0.0}
+cover3000x {'mean_A': 0.3963, 'worst_A': 0.072, 'max_regret': 0.4728, 'mean_regret': 0.1555, 'share_best': 0.0833}
+per_subregion {'mean_A': 0.4658, 'worst_A': 0.1143, 'max_regret': 0.2747, 'mean_regret': 0.086, 'share_best': 0.1083}
+pop {'mean_A': 0.4425, 'worst_A': 0.0, 'max_regret': 0.7474, 'mean_regret': 0.1093, 'share_best': 0.4292}
+surv150 {'mean_A': 0.4462, 'worst_A': 0.04, 'max_regret': 0.6737, 'mean_regret': 0.1056, 'share_best': 0.25}
+bigplus {'mean_A': 0.3715, 'worst_A': 0.0248, 'max_regret': 0.7767, 'mean_regret': 0.1803, 'share_best': 0.1292}
+random {'mean_A': 0.2836, 'worst_A': 0.0378, 'max_regret': 0.6832}
+hazard: per_subregion per_subregion {'cover1500': 0.3679, 'cover750': 0.7373, 'cover3000x': 0.4725, 'per_subregion': 0.2747, 'pop': 0.736, 'surv150': 0.6393, 'bigplus': 0.7769}
+by_dist: {'gc': ('per_subregion', 'per_subregion'), 'b3_0': ('per_subregion', 'per_subregion'), 'b3_300': ('per_subregion', 'per_subregion'), 'b10_0': ('per_subregion', 'per_subregion'), 'b10_300': ('per_subregion', 'per_subregion')}
+by_geo: {'xia150': ('surv150', 'surv150'), 'xia47': ('pop', 'pop'), 'pop': ('pop', 'cover3000x'), 'refuge': ('cover1500', 'cover1500')}
+H84b {'class': '予測', 'value': 'per_subregion', 'rule': 'minimax regret の最良が cover1500 でない', 'supported': True}
+H84c {'class': '予測', 'value': 0.03333333333333333, 'rule': 'cover750 >= cover1500 の条件の割合 >= 0.75', 'supported': False}
+H84d {'class': '予測', 'value': 0.125, 'rule': 'gc と b10_300 で最良の置き方が違う組の割合 >= 0.25', 'supported': False}
+H84e {'class': '予測', 'value': ['bigplus', 0.6736842105263159], 'rule': 'surv150 の最大の後悔が7つの中で最大', 'supported': False}
+H84f {'class': '予測', 'value': 0.14201127819548878, 'rule': 'refuge・k=1・q=0.5 で gc − b10_300 の7つの平均 >= 0.10', 'supported': True}
+H84a {'class': '確認的', 'value': {'n': 3, 'median_km': 1609.0, 'strict_n': 1}, 'rule': '個人の旅の距離の中央値 < 803 km（3件未満は評価不能）', 'supported': False}
+nonstate explore {'cover1500': 0.5022099302409628, 'cover750': 0.3215337518366797, 'cover3000x': 0.43830791778567235, 'per_subregion': 0.495385014164948, 'pop': 0.47218687121957087, 'surv150': 0.47240616409800124, 'bigplus': 0.435042493224054}
+runtime 46.1

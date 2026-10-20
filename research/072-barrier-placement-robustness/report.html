@@ -1,0 +1,196 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究072 写しの置き方を移動能力・破損率・地理・障壁のある距離の格子で比べる（外部査読への対応） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="072">研究072 写しの置き方を移動能力・破損率・地理・障壁のある距離の格子で比べる（外部査読への対応）</h1>
+<p>第72回、2026-10-21。計算のみ（sim.py、seed 20261072、約46秒）。事前登録：PREREGISTRATION.md（2026-10-20T18:41Z、sim.py を書く前・国家を持たない社会の資料を集める前）。</p>
+<blockquote>
+<p><strong>この報告の指標 A は生存確率でも復興確率でもない。</strong> A は「生存者（地理の重みつき）のうち、届く範囲に生き残った写しが少なくとも1つある割合」の模型の中の期待値。以下の「選び方」「提言」は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<h2 id="17">問い（査読の 1〜7 のうち本回で扱うもの）</h2>
+<p>071 の提言「生き残りの多そうな各地域から 1,500 km 以内に写し」は、計算から出た値ではなく【独自仮説】だった（071 report.md「解釈」の節）。査読の指摘 2・3 に沿って、置き方を k（移動能力の倍率）× q（写しの破損率）× 地理 × 距離の定義（大圏／障壁あり）の 240 条件で比べ、最悪の場合（maximin）と最大の後悔の最小（minimax regret）で選ぶ。指摘 1・4 に沿って、国家を持たない社会の移動の系列を、集める前に登録した規則で別に数える。</p>
+<h2 id="_1">資料（本回開いて確認）</h2>
+<ul>
+<li>【事実（出典：Natural Earth 1:110m Admin 0 Countries、https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson 、177 の国・地域）】陸と国境の形。1°格子（64,800 マス）に塗った陸の割合は results.json の grid_land_share。</li>
+<li>071・070 の sources を再利用：Google countries.csv の国の中心、Xia et al. 2022 補足 Table S5 の国別 2010年人口と 47 Tg・150 Tg の餓死者、ISO/M49 の小地域、1,000万点以上の大図書館 34館の国、Boyd &amp; Wilson 2023（PMID 36464495）の島国5つ、071 の文書を求めた旅 19件の距離。</li>
+<li>【事実（出典：Wikipedia "Japanese missions to Tang China"、本回 MediaWiki API で再取得）】"Approximately one third of those who embarked from Japan did not survive to return home."</li>
+<li>【事実（出典：Wikipedia 英語版、本回取得、sources/wiki_texts.json）】国家を持たない社会の距離の記述（H84a の資料）：</li>
+<li>Hopewell tradition："may have made pilgrimages to Obsidian Cliff ... a journey which would have required walking 2,000 miles (3,200 kilometers) each way."（仮定の旅）</li>
+<li>Polynesian navigation："a castaway group of Tahitians who had become lost at sea in a gale and blown 1000 miles away to the island of Atiu"（意図しない漂流＝失敗した航海）</li>
+<li>History of Indigenous Australians："journeyed up to 10 kilometres offshore to visit islands and hunt for seals and muttonbirds"（Tasmania の日常の舟行）</li>
+<li>広がり・網（検定に入れない）：Lapita の遺跡の広がり 4,000 km 超、Lapita の東への広がり 6,000 km、Tupaia の海図の半径 3,200 km、Chile の鶏と Samoa・Tonga の距離 8,000 km、ochre の運搬 250 km、貝の運搬 500 km。</li>
+<li>km・mile の旅の記述がなかった頁：Kula ring、Moka exchange、Inuit、San peoples、Aboriginal Australians（Torres Strait の幅だけ）。Hxaro と Trade in Aboriginal Australia の頁はなく、Pauline Wiessner と History of Indigenous Australians を代わりに取得（逸脱）。</li>
+<li>引用 10件は verify_excerpts.py で保存本文と照合しすべて一致。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>国 159（Xia S5 で座標の取れる 158 国＋refuge の重みだけを持つ Vanuatu）。預け先の候補は 158 国。写しの数 N は「各国から 1,500 km（大圏）以内に1つ」を満たす貪欲法の集合の大きさで <strong>N = 35</strong>、全部の置き方で同じ。</li>
+<li>置き方 7つ＋基準：cover1500（上の集合）、cover750（同数で 750 km 被覆の国の数を最大化）、cover3000x（3,000 km 被覆の 15 か所に写しを繰り返して置く）、per_subregion（M49 小地域 22 ごとに人口重みの medoid、残り 13 は最遠点）、pop（人口の上位 35 国）、surv150（Xia 150 Tg の生き残りの上位 35 国）、bigplus（大図書館のある 15 国＋最遠点）、random（無作為 200 組の平均、順位から除く）。</li>
+<li>地理：xia150・xia47（生き残り）、pop（2010年人口）、refuge（島国5つを等しい重み）。</li>
+<li>距離：gc（大圏）と、1°格子の8近傍の最小コスト経路（Dijkstra）。海のマスは長さ×c_sea、陸で Natural Earth の国の境をまたぐと P_border km を足す。版は (c_sea, P_border) = (3,0)、(3,300)、(10,0)、(10,300)。</li>
+<li>届く距離 = 071 の 19件の距離 × k（k = 0.25, 0.5, 1, 2）。19件は「国家がある社会での上限」の参照として使う（分布の根拠ではない）。写しは独立に確率 q（0, 0.5, 0.8）で壊れる。</li>
+<li>A = Σ_i w_i · mean_c [1 − q^{n_i(k·d_c)}]（n_i(r) は国 i からコスト r 以内の写しの数）。乱数なしの厳密な期待値。</li>
+<li>道中の損失の版：遣唐使の 1/3 を Nara–Xi'an の大圏 2,456 km で割った危険率 h = 1.65×10⁻⁴ /km とし、いちばん近い生き残った写しまで exp(−h·x) を掛ける。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<h3 id="_4">検査</h3>
+<ul>
+<li>格子 (c_sea=1, P_border=0) の距離と大圏の比：中央値 <strong>1.042</strong>（5〜95% 0.999〜1.095、12,538 組）。格子の8近傍の誤差は約4%。</li>
+<li>障壁ありの距離と大圏の比（届く上限 7,460 km 以内の組の中央値）：(3,0) 1.10、(3,300) 1.49、(10,0) 1.10、(10,300) <strong>1.58</strong>。上限以内の組の割合は gc 0.511 → (10,300) 0.286（(10,0) の比が (3,0) より小さいのは、遠い組が上限の外に落ちて残りが近い組に偏るため）。</li>
+<li>071 の sim.py を <code>/tmp/rep072/</code> で再実行し results.json は runtime 以外一致（葉 349個、差分0）。072 の sim.py を <code>/tmp/rep072b/</code> で再実行し results.json は runtime 以外一致、図3枚の MD5 も一致。</li>
+</ul>
+<h3 id="240-resultsjson-summary">240 条件での置き方（results.json の summary）</h3>
+<table>
+<thead>
+<tr>
+<th>置き方</th>
+<th>A の平均</th>
+<th>最悪の A</th>
+<th>最大の後悔</th>
+<th>後悔の平均</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cover1500</td>
+<td>0.465</td>
+<td>0.107</td>
+<td>0.368</td>
+<td>0.087</td>
+</tr>
+<tr>
+<td>cover750</td>
+<td>0.287</td>
+<td>0.020</td>
+<td>0.737</td>
+<td>0.265</td>
+</tr>
+<tr>
+<td>cover3000x</td>
+<td>0.396</td>
+<td>0.072</td>
+<td>0.473</td>
+<td>0.156</td>
+</tr>
+<tr>
+<td><strong>per_subregion</strong></td>
+<td><strong>0.466</strong></td>
+<td><strong>0.114</strong></td>
+<td><strong>0.275</strong></td>
+<td><strong>0.086</strong></td>
+</tr>
+<tr>
+<td>pop</td>
+<td>0.443</td>
+<td>0.000</td>
+<td>0.747</td>
+<td>0.109</td>
+</tr>
+<tr>
+<td>surv150</td>
+<td>0.446</td>
+<td>0.040</td>
+<td>0.674</td>
+<td>0.106</td>
+</tr>
+<tr>
+<td>bigplus</td>
+<td>0.372</td>
+<td>0.025</td>
+<td>0.777</td>
+<td>0.180</td>
+</tr>
+<tr>
+<td>random（基準）</td>
+<td>0.284</td>
+<td>0.038</td>
+<td>0.683</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>minimax regret でも maximin でも最良は <strong>per_subregion</strong>。5つの距離の定義のどれに限っても同じ、道中の損失の版でも同じ（最大の後悔 0.275）。</li>
+<li>地理を一つに決めると最良は変わる：xia150 では surv150、xia47 と pop では pop、refuge では cover1500。pop の置き方は refuge の地理で最悪 A = 0、k=1・q=0.5・gc でも 0.099（島国の近くに写しがほぼない）。一つの予測に寄せた置き方は、その予測が当たれば最良で、外れると最悪に近い。</li>
+<li>k=1・q=0.5 の例：xia150 で gc は cover1500 0.595・per_subregion 0.562・surv150 0.731・cover750 0.479、障壁 (10,300) では 0.436・0.431・0.600・0.312。refuge で gc は cover1500 0.480・per_subregion 0.469・pop 0.099、(10,300) では 0.300・0.300・0.0。</li>
+<li>距離の定義による入れ替わり：(k,q,地理) の 48 組で gc と障壁の最良の置き方が違うのは (3,0) 16.7%、(3,300) 16.7%、(10,0) 10.4%、(10,300) <strong>12.5%</strong>。7つの順位の Kendall の τ の平均は 0.83〜0.89（最小 0.43）。障壁は A を下げるが、置き方の順位はおおむね変えない。</li>
+<li>国家を持たない社会の個人の旅 3件（3,200・1,609・10 km）を届く距離にした探索（k=1、q と地理と距離で平均、事後の記述）：cover1500 0.502、per_subregion 0.495、cover750 0.322。</li>
+</ul>
+<h3 id="explore_posthocpy">査読への返答の粗い模型の訂正（事後の探索、explore_posthoc.py）</h3>
+<p>返答では「同じ数を 750 km で置く方がほぼ常に上」と書いた。国を<strong>等しい重み</strong>にすると本回の模型でも cover750 ≥ cover1500 は 240 条件の <strong>98.3%</strong>（A の平均 0.432 対 0.382）で再現する。しかし生存者・人口で重みづけると <strong>3.3%</strong> に逆転する（H84c 棄却）。750 km の被覆は 35 か所では全部の国を覆えず、小さな国の集まる所（中米・カリブ、欧州、西アジア、アフリカ）に置いて、India・China・Indonesia・Pakistan・United States のどれにも置かない。後半の選択は「国が1つ増えるだけ」の同点が続いて名前の順で決まった（Afghanistan〜Brazil の 9か所、results.json の plans）。返答の表は国の数の重みの産物で、「750 km の方が上」は撤回する。</p>
+<h2 id="_5">仮説の判定（分類つき）</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>分類</th>
+<th>値</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H84a 国家を持たない社会の個人の旅の中央値 &lt; 803 km</td>
+<td><strong>確認的</strong>（本文は登録の後に取得。ただし筆者は一般知識を持つ）</td>
+<td>3件、中央値 1,609 km</td>
+<td><strong>棄却</strong>（仮定の旅と漂流を除く厳しい読みでは 1件で評価不能）</td>
+</tr>
+<tr>
+<td>H84b minimax regret の最良が cover1500 でない</td>
+<td>入力判明後の予測</td>
+<td>per_subregion</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H84c cover750 ≥ cover1500 が 75% 以上</td>
+<td>入力判明後の予測</td>
+<td>3.3%</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H84d gc と (10,300) で最良が違う組 ≥ 25%</td>
+<td>入力判明後の予測</td>
+<td>12.5%</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H84e surv150 の最大の後悔が最大</td>
+<td>入力判明後の予測</td>
+<td>最大は bigplus（0.777）、surv150 は 0.674</td>
+<td><strong>棄却</strong></td>
+</tr>
+<tr>
+<td>H84f refuge・k=1・q=0.5 で障壁により平均 0.10 以上下がる</td>
+<td>入力判明後の予測</td>
+<td>0.142</td>
+<td>支持</td>
+</tr>
+</tbody>
+</table>
+<p>確認的な仮説は1つで棄却。予測は5つのうち2つ支持、3つ棄却。記述（N=35、格子の誤差 4%、h）は判定に数えない。</p>
+<h2 id="_6">解釈</h2>
+<ul>
+<li>【推測】1,500 km の規則は最良ではないが悪くもない：A の平均は per_subregion とほぼ同じ（0.465 対 0.466）で、最大の後悔が 0.09 大きい。査読の言うとおり「1,500 km 規則が頑健に優れる」は支持されず、「同数の 750 km が上」も支持されない。頑健さを決めるのは距離の数字ではなく、写しを全大陸・島嶼に散らすかどうか。</li>
+<li>【推測】障壁ありの距離は A を大きく下げる（refuge で 0.14）が、置き方の順位はほぼ変えない（最良が変わるのは 10〜17%）。置き方の選び方については直線距離の粗さは主な不確実性ではない。主な不確実性は地理（どこで生き残るか）で、地理を決めると最良が4通りに分かれる。</li>
+<li>【推測】国家を持たない社会の資料は、Wikipedia の頁では「最も遠い目立つ例」が書かれやすく（仮定の巡礼、漂流、6,000 km の植民の広がり）、日常の移動圏はほとんど数字で書かれていない（Tasmania の 10 km だけ）。この系列も分布の根拠にならず、査読の指摘 1 の偏りは百科事典の資料では直せない。民族誌の移動圏の体系的なデータ（例：狩猟採集民の年間の移動距離の表）が要る。</li>
+<li>【独自仮説】写しの置き方は「M49 小地域ごとに1つ＋残りを最遠点で散らす」が、地理の重みを決めずに選ぶときの後悔を最小にする。これは模型の中の順位で、A と 071 の重い崩壊の TC（V0 比）の対応はまだ結んでいない（新しい問い 191）。</li>
+</ul>
+<h2 id="_7">新規性</h2>
+<p>Ord 2020 や XPT は破局の確率を推定するが、知識の写しの置き場所を、移動能力・破損・地理・障壁のある距離をまたいで最悪の場合と後悔で比べた計算は、本研究所の 070・071 を含め、なかった。本回は 071 自身の提言と査読への返答の主張の両方を、同じ枠の中で反証した。</p>
+<h2 id="_8">この結果を受けて、誰が何を変えるべきか（模型の中での順位で、外部の検証はまだ）</h2>
+<ul>
+<li>金庫・冊子の運営者：「各地域から X km 以内」という距離の規則でなく、写しを M49 の小地域ごとに1つずつ置き、残りを最も離れた国から埋める置き方を候補の一つにする。人口・一つの破局の予測・大図書館に合わせて寄せる置き方は、外れた地理で A が 0〜0.04 に落ちる。</li>
+<li>本研究所：071 の「1,500 km 以内」の提言と、査読への返答の「同数の 750 km が上」をともに撤回し、open_problems 189 に仮説として戻す。19件と国家を持たない社会の3件は、どちらも届く距離の分布としては使わない。</li>
+</ul>
+<h2 id="_9">限界</h2>
+<ul>
+<li>A は届くかどうかだけを数え、写しを読めるか（063〜069）や重い崩壊の TC には結んでいない。</li>
+<li>1:110m の Natural Earth には小さな島国の形がなく、国の中心の1点で国を代表させている。国の中の人口の偏りは無視。</li>
+<li>c_sea と P_border の値に根拠はない（査読の例の 3〜10 を使った）。写しの破損は独立。</li>
+<li>届く距離の 19件は国家のある社会の上限の参照で、k で幅をとっただけ。</li>
+</ul>
+<h2 id="_10">逸脱</h2>
+<ul>
+<li>Vanuatu が Xia S5 にないので、refuge の重みだけを持つ国として足した（預け先の候補・被覆の数に入れない）。最初の起動はこの assert で止まった（数値の前）。</li>
+<li>Hxaro、Trade in Aboriginal Australia の頁がなく、Pauline Wiessner（Hxaro の代わり）と History of Indigenous Australians を代わりに取得した。前者に距離の記述はなかった。</li>
+<li>図の目盛りの表示だけを直して再実行した（数値は同じ）。</li>
+<li>等しい重みの比較と上限以内の組の割合は事前登録の外の探索（explore_posthoc.py・json）。</li>
+</ul>
+<h2 id="_11">ファイル</h2>
+<p>sim.py、results.json、stdout.txt、fig_regret.png（240 条件の後悔）、fig_A_vs_k.png（A と k、gc と障壁）、fig_sites.png（3つの置き方の場所）、PREREGISTRATION.md、explore_posthoc.py・json、sources/（ne_110m_admin_0_countries.geojson、fetch.py、wiki_texts.json、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。</p><footer><hr><small>自動生成</small></footer></body></html>

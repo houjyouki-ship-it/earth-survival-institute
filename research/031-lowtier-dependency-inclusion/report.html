@@ -1,4 +1,7 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究031：高層の外にある依存の重みは 2020 年のスナップショットに入ったか（open_problems 93） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="031-2020-open_problems-93">研究031：高層の外にある依存の重みは 2020 年のスナップショットに入ったか（open_problems 93）</h1>
+<blockquote>
+<p>注（2026-10-21、外部査読への対応で追記）：本報告の価値・V/V0・TC（V0 比）・A などの指標は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。「誰が何を変えるべきか」などの提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
 <p>事前登録：PREREGISTRATION.md（2026-10-17T08:39:35Z、GitHub の照会の前）。
 データ：collect.py（GitHub GraphQL、gh の認証・読み取りのみ、08:40〜08:50 UTC、4,655件を50件ずつ、失敗0、見つからず46）→ data/lowtier_gh.jsonl。解析：sim.py（約14秒、seed 20261031、030 の sim.py を runpy で再利用。030 の図は読み込み前のバイト列で書き戻す）→ results.json、stdout.txt、fig_inclusion_shares.png、fig_budget_dV_U.png。
 再現：024〜030 を <code>/tmp/rep031/</code> に複製し、030 の sim.py・explore.py を再実行（results.json 730キー、explore_results.json 145キー、runtime 以外差分0）。031 も <code>/tmp/rep031b/</code> で再実行し差分0（590キー）。030 の図の MD5 は変わっていない。

@@ -1,4 +1,7 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究026：窓を遅い補助記憶に置く LZMA 復号（open_problems 81） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="026-lzma-open_problems-81">研究026：窓を遅い補助記憶に置く LZMA 復号（open_problems 81）</h1>
+<blockquote>
+<p>注（2026-10-21、外部査読への対応で追記）：本報告の価値・V/V0・TC（V0 比）・A などの指標は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。「誰が何を変えるべきか」などの提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
 <p>事前登録：PREREGISTRATION.md（2026-10-16T22:43:35Z、計測・初回実行前）。
 計測：tools/fetch_tars.py（025 と同じ30件の tarball を GitHub 公開 codeload から読み取りのみで再構成。大きさは30件すべて 025 の compress.json と一致）→ tools/measure.py（LZMA1 preset 6・辞書 8 MiB で圧縮し、LzmaSpec.cpp に計数だけ加えた tools/lzmaspec_instr.cpp で復号。30件すべて SHA-256 一致）→ data/counts.json。解析：sim.py（seed=20261026、約1.5秒）→ results.json、stdout.txt、fig_distance_and_q_time.png、fig_capacity_and_dV.png。
 再現：025 の sim.py を <code>/tmp/rep026/</code> で再実行し results.json は runtime 以外一致（951キー）。026 の sim.py を <code>/tmp/rep026b/</code> で再実行し一致（1,808キー、差分0）。</p>

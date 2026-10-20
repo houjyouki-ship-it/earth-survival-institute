@@ -1105,4 +1105,22 @@
 <li>判定：H83a〜h すべて支持（a・c・f・h は登録時に値が分かっていた記述、検定は b〔+0.008〕・d・e〔−0.022〕・g〔0.027〕）。</li>
 <li>逸脱：最初の起動の直後に sim.py の不要な乱数（Gamma の配列）を消したため、数値が出る前に止めて再実行した（結果は一度しか出していない）。地域名しかない目的地（Byzantium、Kashmir、Gandhara）と Benedict Biscop・Marpa・Hunayn・Rinchen Zangpo・Thonmi・Song Yun は代表の町の座標（proxy の印）。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫・冊子の運営者は預け先を「小地域ごとに1つ」に加えて、生き残りの多そうな各地域から 1,500 km 以内に写しがあるかで確かめ、広い小地域〔East Asia、South America、Northern America、ANZ〕には2つ以上置く。本研究所は 070 の 0.819 を「事例で 0.827、距離で 0.805、版 0.805〜0.832」に改め、次は国の単位の距離での置き方 186＋187 へ）。</li>
+</ul>
+<h2 id="72-2026-10-21">第72回 2026-10-21</h2>
+<ul>
+<li>再現チェック：024〜071 を <code>/tmp/rep072/</code> に複製し、071 の sim.py（約349秒）を再実行した。results.json は runtime 以外一致（葉 349個、差分0）。</li>
+<li>主課題：next_plan 先頭の固定節「外部査読（ChatGPT、研究069〜071）への対応」の指示 1〜7（もう一つの固定節は残した）。</li>
+<li>文献・データ（本回開いて確認）：Natural Earth 1:110m Admin 0 Countries の GeoJSON（nvkelso/natural-earth-vector）、英語版 Wikipedia の Kula ring、Moka exchange、Hopewell tradition、Lapita culture、Polynesian navigation、Inuit、San peoples、Aboriginal Australians、History of Indigenous Australians、Pauline Wiessner、Japanese missions to Tang China（MediaWiki API の平文）。Hxaro・Trade in Aboriginal Australia は頁なし。引用 10件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。070・071 の sources（Google の国の中心、Xia 2022 S5、M49、大図書館、Boyd &amp; Wilson 2023 の島国）を再利用。</li>
+<li>研究072を実施：<code>research/072-barrier-placement-robustness/</code>（sim.py 約46秒 seed 20261072、計算のみ）。成果物は results.json、stdout.txt、fig_regret.png、fig_A_vs_k.png、fig_sites.png、report.md、PREREGISTRATION.md（18:41Z、sim.py の前・国家を持たない社会の資料の取得の前）、explore_posthoc.py/json（事前登録の外）、sources/（GeoJSON、fetch.py、wiki_texts.json、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep072b/</code> で再実行し results.json は runtime 以外一致、図3枚の MD5 も一致。</li>
+<li>方法：159国（Xia S5 の 158 国＋refuge の重みだけの Vanuatu）。写しの数は「各国から 1,500 km 以内に1つ」の貪欲法の大きさ N=35 に固定し、7つの置き方（cover1500、同数の cover750、cover3000x、per_subregion、pop、surv150、bigplus）と random を、k（19件の距離の倍率 0.25〜2）× q（0・0.5・0.8）× 地理（xia150・xia47・pop・refuge）× 距離（大圏と、1°格子の最小コスト経路で海×3 か ×10、国境ごと +0 か +300 km）の 240 条件で比べた。指標 A は届く範囲に生き残った写しが1つ以上ある生存者の割合の厳密な期待値（生存確率ではない）。遣唐使の 1/3 の損失を距離の危険率にした版も出した。</li>
+<li>主要数値：</li>
+<li>格子 (1,0) と大圏の比 中央値 1.042。障壁の距離は大圏の 1.10〜1.58倍。</li>
+<li>240 条件：per_subregion が minimax regret（最大の後悔 <strong>0.275</strong>）と maximin（最悪 0.114）の両方で最良、5つの距離の定義と損失の版のどれでも同じ。cover1500 は平均 0.465（per_subregion 0.466）で最大の後悔 <strong>0.368</strong>、cover750 <strong>0.737</strong>、pop 0.747（refuge で最悪 0）、surv150 0.674、bigplus 0.777。地理を一つに決めると最良は surv150・pop・pop・cover1500 に分かれる。</li>
+<li>障壁で最良の置き方が変わる組は 10.4〜16.7%（Kendall τ 平均 0.83〜0.89）。refuge・k=1・q=0.5 で障壁 (10,300) は7つの平均の A を 0.142 下げる。</li>
+<li>事後：国を等しい重みにすると cover750 ≥ cover1500 は 98.3%（返答の粗い模型を再現）、人口・生存者の重みでは 3.3%。返答の「同数の 750 km が上」は撤回。</li>
+<li>国家を持たない社会：個人の旅の km は 3件（3,200 仮定、1,609 漂流、10 日常）、中央値 1,609 km。広がり・網は 250〜8,000 km の6件（検定外）。</li>
+<li>判定（分類つき）：確認的 H84a 棄却。入力判明後の予測 H84b・f 支持、H84c・d・e 棄却。記述は数えない。</li>
+<li>査読対応の反映：071 の report.md に訂正の節（1,500 km の撤回、19件の格下げ、H83 の分類）、README に方針改訂（指標の位置づけ、仮説の3分類、件数より不確実性）、research/001〜071 の report.md の冒頭に「指標は生存確率・復興確率ではなく、提言は模型の中の順位」の注を追記。open_problems に 189〜192 を追加、186〜188 に進展を追記。</li>
+<li>逸脱：Vanuatu が Xia S5 になく、refuge の重みだけの国として足した（最初の起動は assert で数値の前に停止）。欠けた2頁の代わりに Pauline Wiessner と History of Indigenous Australians を取得。図の目盛りの表示だけ直して再実行（数値は同じ）。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：金庫・冊子の運営者は「各地域から X km 以内」の距離の規則でなく、写しを M49 の小地域ごとに1つ置き残りを最も離れた国から埋める置き方を候補にし、人口・一つの破局の予測・大図書館に寄せない。本研究所は 071 の 1,500 km と返答の 750 km の主張を撤回し、次は国家を持たない社会の体系的なデータと未見資料での検証（190＋192）へ。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
