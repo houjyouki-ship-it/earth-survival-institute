@@ -1022,4 +1022,22 @@
 <li>判定：H78a・b・c・d・f・g・h 支持、H78e（−0.0026）棄却。</li>
 <li>逸脱：世界銀行の取得の確認のため、事前登録の前に年齢別の行を表示した（規則はその後に固定）。sim.py は1回で通った。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は「宗教の場にも預ける」を余分な費用のない預け先の選び方としてだけ扱い〔+0.002〕、予算は部数・別々の預け先・primer の試しに回す。本研究所は w~U(0,1) を「事例から 0.65、重い崩壊 0.851（版 0.842〜0.855）」に改め、w の線は閉じて 174・175 へ）。</li>
+</ul>
+<h2 id="67-2026-10-20">第67回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024〜066 を <code>/tmp/rep067/</code> に複製し、066 の sim.py（約179秒）を再実行した。results.json は runtime 以外一致（葉 543個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨 A（174＋175）に着手した。174 の strict の例（非学者・教える人なし・知らない文字・文書だけ）は本回開いた資料で 0件で、規則どおり主課題を 175（取り組み始める時点）に絞った。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献（本回開いて確認、Wikipedia 英語版の MediaWiki API）：Egyptian hieroglyphs、Decipherment of ancient Egyptian scripts、Horapollo、Athanasius Kircher、Cuneiform、Old Persian cuneiform、Persepolis、Pietro Della Valle、Georg Friedrich Grotefend、Behistun Inscription、Brahmi script、Edicts of Ashoka、Delhi-Topra pillar、Kharosthi、Palmyrene alphabet、Jean-Jacques Barthélemy、Meroitic script、Maya script（と 065 の保存本文 Diego de Landa）、Linear A、Linear B、Michael Ventris、Indus script、Mohenjo-daro、Orkhon inscriptions、Hittite language、Hattusa、Tocharian languages、Kaitai Shinsho。抜き出し 54件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。他に取得して数字に使わなかった頁は report.md の末尾。</li>
+<li>研究067を実施：<code>research/067-engagement-onset/</code>（sim.py 約206秒 seed 20261067、計算のみ）。成果物は results.json、stdout.txt、fig_onset_scan.png、fig_versions.png、report.md、PREREGISTRATION.md（08:53Z、資料を読み符号化した後・sim.py の作成の前）、sources/（本文、fetch.py、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep067b/</code> で再実行し results.json は runtime 以外一致（葉 561個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：066 の sim.py を「# ---------- 版 ----------」の前まで exec し 066 の主（重い崩壊 0.85082）を差0で再現。primer の経路の時間の原点を、崩壊の時点から「学問の段 P（T2 の Δ 年前）」に替えた二段の式にした（P の前は前近代の試みの率、P の後は τ_key）。主は Δ=0・W=0。</li>
+<li>主要数値：</li>
+<li>段か時間か：onset 年を失われた年に回帰した傾き <strong>−0.042</strong>（90% −0.117〜0.013、9件）。onset は 1616〜1925 に集まり、標準偏差は失われてからの年数の <strong>0.10倍</strong>。</li>
+<li>前近代：1600年より前に見えていた 7件、曝露 <strong>7,697 文書年</strong>で体系的な取り組み <strong>0件</strong>、試みは 1件（Egyptian の 9世紀）。</li>
+<li>学問の段の社会が新しく手にした文書 6件：取り組みまで中央値 <strong>5.5年</strong>（別の読み 3.5年）。</li>
+<li>174：strict <strong>0件</strong>。近い例は Kaitai Shinsho（医者の仲間が辞書なしで図と解剖を照らして 3年、ただし少し読める人がいた）、Grotefend、Ventris。誤った鍵（Horapollo）と、柱を運んでも読もうとしなかった Feroz Shah。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：066 主 0.851、primer なし 0.809、<strong>067 主 0.813</strong>（XPT 0.831）、Δ=25 0.826、Δ=50 0.836、Δ=100 0.842、Δ=200 0.848、W=20 0.824。Δ_half <strong>34年</strong>。全体 0.919、軽い崩壊 0.969（不変）。</li>
+<li>費用あたり（全体、中央値、TAB=1）：primer の追加分 18.8→<strong>1.7</strong>（冊子だけ 44）、冊子＋primer 33.2。重い崩壊だけで primer の追加分 6.0。</li>
+<li>判定：H79a・b・c・d・e・g・h 支持、H79f（strict ≥ 3）棄却。</li>
+<li>逸脱：事前登録の「6件」は規則どおりだと Maya を含め 7件。最初の実行で失われる前の Landa の表（1566）を前近代の試みに数え曝露が負になる誤りがあり、note に合わせて直し再実行した（主 0.8144→0.8126、判定は不変）。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は primer を「T2 より前の社会が読み解く」ための予算と見ず、部数と預け先を優先し、座標を文字なしで使える形〔地図・方位・数の絵〕で冊子の最初に載せる方を試す。本研究所は 065・066 の 0.845〜0.851 を「取り組みの始まりを段に結ぶと 0.813、Δ 次第で 0.813〜0.851」に改め、次は 176 と新しい 179〔学問の段と読取装置の段の順〕へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

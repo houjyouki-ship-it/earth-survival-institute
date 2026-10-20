@@ -297,6 +297,7 @@ next_plan の規則（strict が3件未満なら 175 に絞る）どおり、主
 <h2 id="_8">再現と逸脱</h2>
 <ul>
 <li>再現チェック：024〜066 を <code>/tmp/rep067/</code> に複製し 066 の sim.py（約179秒）を再実行、results.json は runtime 以外一致（葉 543個、差分0）。</li>
+<li>067 は 024〜066 とともに <code>/tmp/rep067b/</code> に複製して再実行し、results.json は runtime 以外一致（葉 561個、差分0）、図2枚の MD5 も一致。</li>
 <li>逸脱1：事前登録は「1600年より前の見えていた文書6件」と書いたが、規則（visible かつ loss&lt;1600）は Maya（1575）を含め 7件になった。Maya の曝露は 25年だけ。</li>
 <li>逸脱2：最初の実行で、Maya の Landa の表（1566、失われる前の鍵）を前近代の「試み」に数え、曝露が負になる誤りがあった。cases.json の note（「失われた後の取り組みでない」）に合わせ、失われた後の試みだけを数えるよう直して再実行した（k_any 2→1、主の重い崩壊 0.8144→0.8126、判定は変わらず）。</li>
 <li>取得したが数字に使わなかった頁：Ibn Wahshiyya、Rangaku、Sugita Genpaku、Catholic Church in Korea（文字は既知で、失われた文字の例でない）、Kakure Kirishitan、Autodidacticism、Vilhelm Thomsen、James Prinsep、The Asiatic Society、Firuz Shah Tughlaq、Ugarit・Ugaritic・Ugaritic alphabet（解読の年が保存本文になく除いた）、Rongorongo（Jaussen の取り組みの年が本文で決まらず除いた）、Anatolian hieroglyphs（発見の年が本文になく除いた）、Cretan hieroglyphs、Proto-Elamite script、Behistun の細部、Tarim mummies、Lepsius（曖昧さ回避の頁）、Hans Bauer（曖昧さ回避の頁）。</li>
