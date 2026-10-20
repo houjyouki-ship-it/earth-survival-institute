@@ -1,0 +1,77 @@
+URL: https://en.wikipedia.org/wiki/Meroitic_script
+The Meroitic script consists of two alphasyllabic scripts developed to write the Meroitic language at the beginning of the Meroitic Period (3rd century BC) of the Kingdom of Kush. The two scripts are Meroitic Cursive, derived from Demotic Egyptian, and Meroitic Hieroglyphs, derived from Egyptian hieroglyphs. Meroitic Cursive is the most widely attested script, constituting ~90% of all inscriptions, and predates, by a century or more, the earliest surviving Meroitic hieroglyphic inscription. Greek historian Diodorus Siculus (ca. 50 BC) described the two scripts in his Bibliotheca historica, Book III (Africa), Chapter 4. The last known Meroitic inscription is the Meroitic Cursive inscription of the Blemmye king, Kharamadoye, from a column in the Temple of Kalabsha (REM 0094), which has recently been re-dated to AD 410/ 450 of the 5th century. Before the Meroitic Period, Egyptian hieroglyphs were used to write Kushite names and lexical items.
+Though the Kingdom of Kush ended with the fall of the royal capital of Meroë, use of the language and Cursive script continued for a time after that event. During the 6th century Christianization of Nubia, the Kushite language and Cursive script were replaced by Byzantine Greek, Coptic, and Old Nubian. The Old Nubian script, derived from the Uncial Greek script, added three Meroitic Cursive letters: ⟨ne⟩, ⟨w(a)⟩, and possibly ⟨kh(a)⟩, for Old Nubian [ɲ], [w – u], and [ŋ] respectively. This addition of Meroitic Cursive letters suggests that the development of the Old Nubian script began at least two centuries before its first full attestation in the late 8th century and/or that knowledge of the Kushite language and script was retained until the 8th century.
+The script was deciphered in 1909 by Francis Llewellyn Griffith, a British Egyptologist, based on the Meroitic spellings of Egyptian names. However, the Meroitic language itself remains poorly understood. In late 2008, the first complete royal dedication was found, which may help confirm or refute some of the current hypotheses.
+The longest inscription found is in the Museum of Fine Arts, Boston.
+
+
+== Form and values ==
+
+There were two graphic forms of the Meroitic alphasyllabary: monumental hieroglyphs, and a cursive. The majority of texts are cursive. Unlike Egyptian writing, there was a simple one-to-one correspondence between the two forms of Meroitic, except that in the cursive form, consonants are joined in ligatures to a following vowel i.
+The direction of cursive writing was from right to left, top to bottom, while the monumental form was written top to bottom in columns going right to left. Monumental letters were oriented to face the beginning of the text, a feature inherited from their hieroglyphic origin.
+Being primarily alphasyllabic, the Meroitic script worked differently than Egyptian hieroglyphs. Some scholars, such as Harald Haarmann, believe that the vowel letters of Meroitic are evidence for an influence of the Greek alphabet in its development.
+There were 23 letters in the Meroitic alphasyllabary, including four vowels. In the transcription established by Hintze (based on earlier versions by Griffith), they are:
+
+a appears only at the beginning of a word
+e was used principally in foreign names
+i and o were used like vowels in the Latin or Greek alphabets.
+The fifteen consonants are conventionally transcribed:
+
+p, b, m, d, t, s, n, r, l, k, q, ḫ, ẖ, w, y
+These consonants are understood to have an inherent vowel value /a/, such that p should generally be understood as /pa/.
+An additional series of characters is understood to represent consonants with inherent vowels other than /a/:
+
+ne, se, te, to
+These values were established from evidence such as Egyptian names borrowed into Meroitic. That is, the Meroitic letter which looks like an owl in monumental inscriptions, or like a numeral three in cursive Meroitic, we transcribe as m, and it is believed to have been pronounced as [m]. However, this is a historical reconstruction, and while m is not in much doubt, the pronunciations of some of the other letters are much less certain.
+The three vowels i a o were presumably pronounced /i a u/. Ḫ is thought to have been a velar fricative, as the ch in Scottish loch or German Bach. H̱ was a similar sound, perhaps uvular as g in Dutch dag or palatal as in German ich. Q was perhaps a uvular stop, as in Arabic Qatar. S may have been like s in sun. An /n/ was omitted in writing when it occurred before any of several other consonants within a word. D is uncertain. Griffith first transcribed it as r, and Rowan believes that was closer to its actual value. It corresponds to Egyptian and Greek /d/ when initial or after an /n/ (unwritten in Meroitic), but to /r/ between vowels, and does not seem to have affected the vowel a the way the other alveolar obstruents t n s did.
+Comparing late documents with early ones, it is apparent that the sequences sel- and nel-, which Rowan takes to be /sl/ and /nl/ and which commonly occurred with the determiner -l-, assimilated over time to t and l (perhaps /t/ and /ll/).
+The only punctuation mark was a word and phrase divider of two to three dots.
+
+
+== Principles ==
+Meroitic was a type of script called an abugida: The vowel /a/ was not normally written; rather it was assumed whenever a consonant was written alone. That is, the single letter m was read /ma/. All other vowels were overtly written: the letters mi, for example, stood for the syllable /mi/, just as in the Latin alphabet. This system is broadly similar to the Indian abugidas that arose around the same time as Meroitic.
+
+
+=== Griffith and Hintze ===
+Griffith identified the essential abugida nature of Meroitic when he deciphered the script in 1911. He noted in 1916 that certain consonant letters were never followed by a vowel letter, and varied with other consonant letters. He interpreted them as syllabic, with the values ne, se, te, and to. Ne, for example, varied with na. Na could be followed by the vowels i and o to write the syllables ni and no, but was never followed by the vowel e.
+He also noted that the vowel e was often omitted. It often occurred at the ends of Egyptian loanwords that had no final vowel in Coptic. He believed that e functioned both as a schwa [ə] and a "killer" mark that marked the absence of a vowel. That is, the letter m by itself was read [ma], while the sequence me was read [mə] or [m]. This is how Ethiopic works today. Later scholars such as Hitze and Rilly accepted this argument, or modified it so that e could represent either [e] or schwa–zero.
+It has long been puzzling to epigraphers why the syllabic principles that underlie the script, where every consonant is assumed to be followed by a vowel a, should have special letters for consonants followed by e. Such a mixed abugida–syllabary is not found among the abugidas of India, nor in Ethiopic. Old Persian cuneiform script is somewhat similar, with more than one inherent vowel, but is not an abugida because the non-inherent vowels are written with full letters, and are often redundantly written after an inherent vowel other than /a/.
+
+
+=== Millet and Rowan ===
+Millet (1970) proposed that Meroitic e was in fact an epenthetic vowel used to break up Egyptian consonant clusters that could not be pronounced in the Meroitic language, or appeared after final Egyptian consonants such as m and k which could not occur finally in Meroitic. Rowan (2006) takes this further and proposes that the glyphs se, ne, and te were not syllabic at all, but stood for consonants /s/, /n/, and /t/ at the end of a word or morpheme (as when followed by the determiner -l; she proposes Meroitic finals were restricted to alveolar consonants such as these. An example is the Coptic word ⲡⲣⲏⲧ prit "the agent", which in Meroitic was transliterated perite (pa-e-ra-i-te). If Rowan is right and this was pronounced /pᵊrit/, then Meroitic would have been a fairly typical abugida. She proposes that Meroitic had three vowels, /a i u/, and that /a/ was raised to something like [e] or [ə] after the alveolar consonants /t s n/, explaining the lack of orthographic t, s, n followed by the vowel letter e.
+Very rarely does one find the sequence CVC, where the C's are both labials or both velars. This is similar to consonant restrictions found throughout the Afro-Asiatic language family, suggesting to Rowan that there is a good chance Meroitic was an Afro-Asiatic language like Egyptian.
+Rowan is not convinced that the system was completely alphabetic, and suggests that the glyph te also may have functioned as a determinative for place names, as it frequently occurs at the end of place names that are known not to have a /t/ in them. Similarly, ne may have marked royal or divine names.
+
+
+== Letters ==
+
+
+== Unicode ==
+
+Meroitic scripts, both Hieroglyphic and Cursive, were added to the Unicode Standard in January, 2012 with the release of version 6.1.
+The Unicode block for Meroitic Hieroglyphs is U+10980–U+1099F.
+The Unicode block for Meroitic Cursive is U+109A0–U+109FF.
+
+As a Meroitic Unicode font you may use Aegyptus which can be downloaded from Unicode Fonts for Ancient Scripts.
+
+
+== See also ==
+Afroasiatic languages
+
+
+== References ==
+
+
+== Sources ==
+
+
+== External links ==
+Meroitic – AncientScripts
+Meroitic Writing
+Meroitic at Omniglot
+Meroitic font Archived 2006-05-25 at the Wayback Machine
+Examples of Meroitic script
+Leclant Jean, Heyler André, Berger el Naggar Catherine, Carrier Claude, Rilly Claude. Répertoire d'épigraphie méroïtique, Tome I – REM 0001 à REM 0387, (2000), pp. 1–713
+Leclant Jean, Heyler André, Berger el Naggar Catherine, Carrier Claude, Rilly Claude. Répertoire d'épigraphie méroïtique, Tome II – REM 0401 à REM 0851 (2000), pp. 715–1371.
+Leclant Jean, Heyler André, Berger el Naggar Catherine, Carrier Claude, Rilly Claude.  Répertoire d'épigraphie méroïtique, Tome III – REM 1001 à REM 1278 (2000), pp. 1373–2083

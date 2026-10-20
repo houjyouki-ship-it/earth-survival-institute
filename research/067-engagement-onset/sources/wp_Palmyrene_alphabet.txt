@@ -1,0 +1,39 @@
+URL: https://en.wikipedia.org/wiki/Palmyrene_alphabet
+The Palmyrene alphabet was a historical Semitic alphabet used to write Palmyrene Aramaic. It was used between 100 BCE and 300 CE in Palmyra in the Syrian desert. It is known from the over 3,000 Palmyrene inscriptions discovered in modern times. The oldest surviving Palmyrene inscription dates to 44 BCE. The last surviving inscription dates to 274 CE, two years after Palmyra was sacked by Roman Emperor Aurelian, ending the Palmyrene Empire.  Use of the Palmyrene language and script declined, being replaced with Greek and Latin.
+The Palmyrene alphabet was derived from cursive versions of the Aramaic alphabet and shares many of its characteristics:
+
+Twenty-two letters with only consonants represented
+Written horizontally from right-to-left
+Numbers written right-to-left using a non-decimal system
+Palmyrene was normally written without spaces or punctuation between words and sentences (scriptio continua style).
+Two forms of the Palmyrene alphabet were developed: The rounded, cursive form derived from the Aramaic alphabet and later a decorative, monumental form developed from the cursive Palmyrene. Both the cursive and monumental forms commonly used orthographic ligatures.
+
+
+== Characters ==
+
+
+=== Numbers ===
+Palmyrene used a non-positional system which built up numbers using combinations of their symbols for 1, 2, 3, 4, 5, 10, and 20.
+It is similar to the system used for Aramaic which built numbers using their symbols for 1, 2, 3, 10, 20, 100, 1000, and 10000.
+
+
+=== Letters ===
+There are some styles in which the 'r'-letter (resh) is the same as the 'd'-letter (dalesh) with a dot on top, but there are styles in which the two letters are visually distinct. Ligation, after b, ḥ, m, n, and q before some other consonants was common in some inscriptions but was not obligatory. There are also two fleurons (left-sided and right-sided) that tend to appear near numbers.
+
+
+== Decipherment ==
+
+Examples of Palmyrene inscriptions were printed as far back as 1616, but accurate copies of Palmyrene/Greek bilingual inscriptions were not available until 1753.
+The Palmyrene alphabet was deciphered in 1754, literally overnight, by Abbé Jean-Jacques Barthélemy using these new, accurate copies of bilingual inscriptions.
+
+
+== Unicode ==
+
+Palmyrene was added to the Unicode Standard in June, 2014 with the release of version 7.0.
+The Unicode block for Palmyrene is U+10860–U+1087F:
+
+
+== Gallery ==
+
+
+== References ==

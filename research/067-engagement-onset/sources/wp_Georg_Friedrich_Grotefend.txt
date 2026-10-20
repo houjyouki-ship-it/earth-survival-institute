@@ -1,0 +1,78 @@
+URL: https://en.wikipedia.org/wiki/Georg_Friedrich_Grotefend
+Georg Friedrich Grotefend (9 June 1775 – 15 December 1853) was a German epigraphist and philologist. He is known mostly for his contributions toward the decipherment of cuneiform.
+Georg Friedrich Grotefend had a son, named Carl Ludwig Grotefend, who played a key role in the decipherment of the Indian Kharoshthi script on the coinage of the Indo-Greek kings, around the same time as James Prinsep, publishing Die unbekannte Schrift der Baktrischen Münzen ("The unknown script of the Bactrian coins") in 1836.
+
+
+== Life ==
+
+Georg Friedrich Grotefend was born on 9 June 1775 at Hann. Münden and died in Hanover on 15 December 1853. He was educated partly in his native town, partly at Ilfeld, where he remained until 1795, when he entered the University of Göttingen, and there became the friend of Heyne, Tychsen and Heeren. Heyne's recommendation procured for him an assistant mastership in the Göttingen gymnasium in 1797. While there he published his work De pasigraphia sive scriptura universali (1799), which led to his appointment in 1803 as prorector of the gymnasium of Frankfurt, and shortly afterwards as conrector. In 1821 he became director of the gymnasium at Hanover, a post which he retained until his retirement in 1849.
+One year before retiring he received a medal commemorating his 50th anniversary of working at the gymnasium. This medal made by the local engraver Heinrich Friedrich Brehmer links Grotefend's jubilee with the 500th anniversary of the school where he taught. Both occasions were celebrated on 2 February 1848.
+
+
+== Work ==
+
+
+=== Philology ===
+Grotefend was best known during his lifetime as a Latin and Italian philologist, though the attention he paid to his own language is shown by his Anfangsgründe der deutschen Poesie, published in 1815, and his foundation of a society for investigating the German tongue in 1817. In 1823/1824 he published his revised edition of Helfrich Bernhard Wenck's Latin grammar, in two volumes, followed by a smaller grammar for the use of schools in 1826; in 1835–1838 a systematic attempt to explain the fragmentary remains of the Umbrian dialect, entitled Rudimenta linguae Umbricae ex inscriptionibus antiquis enodata (in eight parts); and in 1839 a work of similar character upon Oscan (Rudimenta linguae Oscae). In the same year his son Carl Ludwig Grotefend published a memoir on the coins of Bactria, under the name of Die Münzen der griechischen, parthischen und indoskythischen Könige von Baktrien und den Ländern am Indus.
+He soon, however, returned to his favourite subject, and brought out a work in five parts, Zur Geographie und Geschichte von Alt-Italien (1840–1842). Previously, in 1836, he had written a preface to Friedrich Wagenfeld's translation of the Sanchoniathon of Philo of Byblos, which was alleged to have been discovered in the preceding year in the Portuguese convent of Santa Maria de Merinhão.
+
+
+=== Old Persian cuneiform ===
+
+But it was in the East rather than in the West that Grotefend did his greatest work. The Old Persian cuneiform inscriptions of Persia had for some time been attracting attention in Europe; exact copies of them had been published by Jean Chardin in 1711, the Dutch artist Cornelis de Bruijn and the German traveller Carsten Niebuhr, who lost his eyesight over the work; and Grotefend's friend, Tychsen of Rostock, believed that he had ascertained the characters in the column, now known to be Persian, to be alphabetic.
+At this point Grotefend took up the matter. Having a taste for puzzles, he made a bet with drinking friends around 1800 that he could decipher at least part of the Persepolis inscriptions. His first discovery was communicated to the Royal Society of Göttingen in 1802, but his findings were dismissed by these academics. His work was denied official publication, but Tychsen published a review of Grotefend's work in the literary gazette of Göttingen in September 1802, which presented the argument made by Grotefend. In 1815, Grotefend was only able to give an account of his theories in the work of his friend Heeren on ancient history. His article appeared as an appendix in Heeren's book on historical research and was entitled "On the Interpretation of the Arrow-headed Characters, particularly of the Inscriptions at Persepolis".
+
+
+==== Decipherment method ====
+
+Grotefend had focused on two Achaemenid royal inscriptions from Persepolis, called the "Niebuhr inscriptions", which seemed to have broadly similar content except for the name of the rulers.
+
+In 1802, Friedrich Münter had realized that recurring groups of characters must be the word for "king" (𐎧𐏁𐎠𐎹𐎰𐎡𐎹, now known to be pronounced xšāyaθiya. He also understood from Münter that each word was separated from the next by a slash sign (𐏐).
+Grotefend extended this work by realizing, based on the known inscriptions of much later rulers (the Pahlavi inscriptions of the Sassanid kings), that a king's name is often followed by "great king, king of kings" and the name of the king's father. This understanding of the structure of monumental inscriptions in Old Persian was based on the work of Anquetil-Duperron, who had studied Old Persian through the Zoroastrian Avestas in India, and Antoine Isaac Silvestre de Sacy, who had decrypted the monumental Pahlavi inscriptions of the Sassanid kings.
+
+Looking at similarities in character sequences, he made the hypothesis that the father of the ruler in one inscription would possibly appear as the first name in the other inscription: the first word in Niebuhr 1 (𐎭𐎠𐎼𐎹𐎺𐎢𐏁) indeed corresponded to the 6th word in Niebuhr 2.
+Looking at the length of the character sequences, and comparing with the names and genealogy of the Achaemenid kings as known from the Greeks, also taking into account the fact that the father of one of the rulers in the inscriptions didn't have the attribute "king", he made the correct guess that this could be no other than Darius the Great, his father Hystaspes who was not a king, and his son the famous Xerxes. In Persian history around the time period the inscriptions were expected to be made, there were only two instances where a ruler came to power without being a previous king's son. They were Darius the Great and Cyrus the Great, both of whom became emperor by revolt. The deciding factors between these two choices were the names of their fathers and sons. Darius's father was Hystaspes and his son was Xerxes, while Cyrus' father was Cambyses I and his son was Cambyses II. Within the text, the father and son of the king had different groups of symbols for names so Grotefend assumed that the king must have been Darius.
+These connections allowed Grotefend to figure out the cuneiform characters that are part of Darius, Darius's father Hystaspes, and Darius's son Xerxes. He equated the letters 𐎭𐎠𐎼𐎹𐎺𐎢𐏁 with the name d-a-r-h-e-u-sh for Darius. This identification was correct, although the actual Persian pronunciation was da-a-ra-ya-va-u-sha, but this was unknown at the time. Grotefend similarly equated the sequence 𐎧𐏁𐎹𐎠𐎼𐏁𐎠 with kh-sh-h-e-r-sh-e for Xerxes, which again was right, but the actual Old Persian transcription was kha-sha-ya-a-ra-sha-a. Finally, he matched the sequence of the father who was not a king 𐎻𐎡𐏁𐎫𐎠𐎿𐎱 with Hystaspes, but again with the supposed Persian reading of g-o-sh-t-a-s-p, rather than the actual Old Persian vi-i-sha-ta-a-sa-pa.
+By this method, Grotefend had correctly identified each king in the inscriptions, but his identification of the phonetic value of individual letters was still quite defective, for want of a better understanding of the Old Persian language itself. Grotefend identified correctly the phonetic value of only eight letters among the thirty signs he had collated. However groundbreaking, this inductive method failed to convince academics, and the official recognition of his work was denied for nearly a generation.
+
+
+==== Vindication ====
+
+It was only in 1823 that Grotefend's discovery was confirmed, when the French archaeologist Champollion, who had just deciphered Egyptian hieroglyphs, was able to read the Egyptian dedication of a quadrilingual hieroglyph-cuneiform inscription on an alabaster vase in the Cabinet des Médailles, the "Caylus vase". The Egyptian inscription on the vase was in the name of King Xerxes I, and Champollion, together with the orientalist Antoine-Jean Saint-Martin, was able to confirm that the corresponding words in the cuneiform script were indeed the words which Grotefend had identified as meaning "king" and "Xerxes" through guesswork. The findings were published by Saint-Martin in Extrait d'un mémoire relatif aux antiques inscriptions de Persépolis lu à l'Académie des Inscriptions et Belles Lettres, thereby vindicating the pioneering work of Grotefend. This time, academics took note, particularly Eugène Burnouf and Rasmus Christian Rask, who would expand on Grotefend's work and further advance the decipherment of cuneiforms.
+
+
+==== Later publications ====
+In 1837 Grotefend published his Neue Beiträge zur Erläuterung der persepolitanischen Keilschrift. Three years later appeared his Neue Beiträge zur Erläuterung der babylonischen Keilschrift.
+His discovery may be summed up as follows:
+
+that the Persian inscriptions contain three different forms of cuneiform writing and so the decipherment of the one would give the key to the decipherment of the others
+that the characters of the Persian column are alphabetic and not syllabic
+confirmed Niebuhr's observation that they must be read from left to right
+that the alphabet consists of forty letters, including signs for long and short vowels
+that the Persepolitan inscriptions are written in Avestan (though that is today distinguished from Old Persian) and must be ascribed to the age of the Achaemenian princes
+that a specific frequent word could refer to the Persian word for "king"
+that the inscriptions satisfy the two following schemes: A) X king, great king of king, son of Y king;  B) Y king, great king of king, son of Z;
+that the presence of the two schemes A) and B) gives an opportunity to identify the people involved; it is necessary that X was a Persian king, his father was a Persian king too, but his grandfather was not king
+according to this idea, Grotefend identified X for Xerxes, Y for Darius and Z with Hystaspes.
+A basis had now been laid for the interpretation of the Persian inscriptions. However, Grotefend misconstrued several important characters. Significant work remained to be done to complete the decipherment.  Building on Grotefend's insights, the task was performed by Eugène Burnouf, Christian Lassen and Sir Henry Rawlinson.
+
+
+== Later instances ==
+A decipherment method broadly similar to that of Grotefend was used by CNRS researcher François Desset in 2018-2020, to advance the decipherment of Linear Elamite.
+
+
+== See also ==
+
+Friedrich August Grotefend, German philologist and relative of Georg Friedrich
+Champollion
+
+
+== Notes ==
+
+
+== References ==
+This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). "Grotefend, Georg Friedrich". Encyclopædia Britannica. Vol. 12 (11th ed.). Cambridge University Press. pp. 620–621.
+
+
+== External links ==
+ Media related to Georg Friedrich Grotefend at Wikimedia Commons

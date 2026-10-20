@@ -1,0 +1,95 @@
+URL: https://en.wikipedia.org/wiki/Cretan_hieroglyphs
+Cretan hieroglyphs are a hieroglyphic writing system used in early Bronze Age Crete, during the Minoan era. It predates Linear A by about a century, but the two writing systems continued to be used in parallel for most of their history. As of 2026, it is undeciphered.
+
+
+== Corpus ==
+As of 1989, the corpus of Cretan hieroglyphic inscriptions included two parts:
+
+Seals and sealings, 150 documents with 307 sign-groups, using 832 signs in all.
+Other documents on clay, 120 documents with 274 sign-groups, using 723 signs.
+More documents, such as those from the Petras deposit, have been published since then. A four sided prism was found in 2011 at Vrysinas in western Crete.
+These inscriptions were mainly excavated at four locations:
+
+"Quartier Mu" at Malia (Middle Minoan II period = MM II)
+Malia palace (MM III)
+Knossos (MM II or III)
+the Petras deposit (MM IIB), 12 clay documents, 5 seal impressions, and 6 seals, excavated starting in 1995 and published in 2010.
+The first corpus of signs was published by Evans in 1909. The current corpus (which excludes some of Evans' signs) was published in 1996 as the Corpus Hieroglyphicarum Inscriptionum Cretae (CHIC). It consists of:
+
+clay documents with incised inscriptions (CHIC H: 1–122)
+sealstone impressions (CHIC I: 123–179)
+sealstones (CHIC S: 180–314)
+the Malia altar stone
+the Arkalochori Axe
+seal fragment HM 992, showing a single symbol, identical to Phaistos Disk glyph 21.
+The relation of the last two items with the script of the main corpus is uncertain; the Malia altar is listed as part of the Hieroglyphic corpus by most researchers.
+Since the publication of the CHIC in 1996 refinements and changes have been proposed. The main issue is that a number of symbols found on sealstones, tending to be more image-based, were deemed as purely decorative and not included in the sign list (or are transcribed when read). The concern is that this process may have resulted in actual signs being deprecated.
+Some Cretan Hieroglyphic (as well as Linear A) inscriptions were also found on the island of Samothrace in the northeastern Aegean.
+Some scholars have suggested relations to Anatolian hieroglyphs:
+
+The overlaps between the Cretan script and other scripts, such as the hieroglyphic scripts of Cyprus and the Hittite lands of Anatolia, may suggest ... that they all evolved from a common ancestor, a now-lost script perhaps originating in Syria.
+New exemplars continue to be found. During recent excavation at the Neopalatial area of the Cult Centre of the City of Knossos a seal stone was found in a foundation deposit. The steatite seal had four inscribed faces and the deposit dated to Final Palatial Period into LM III B. The room where the deposit was found had a "religious sceptre" inscribed all over with Linear A.
+At Zakros three sealings inscribed with Cretan hieroglyphs were found in the same deposit with a Linear A tablet and a Linear A inscribed roundel. The deposit was in a destruction layer dated between layers LM IA and LM IB.
+
+
+== Signs ==
+
+Symbol inventories have been compiled by Evans (1909), Meijer (1982), and Olivier & Godart (1996).
+The glyph inventory in CHIC includes 96 syllabograms representing sounds, ten of which double as logograms, representing words or portions of words.
+There are also 23 logograms representing four levels of numerals (units, tens, hundreds, thousands), nine signs for numerical fractions, and two types of punctuation.
+Many symbols have apparent Linear A counterparts, so that it is tempting to insert Linear B sound values. Moreover, there are multiple parallels (words and phrases) from hieroglyphic inscriptions that occur also in Linear A and/or B in similar contexts (words for "total", toponyms, personal names etc.)
+Several signs, according to Woudhuizen and Best, were influenced by Egyptian hieroglyphs.
+
+
+== Chronology ==
+
+The development of hieroglyphs passed three important stages:
+
+Archanes script (signs look like pictograms, although their number and frequency rather suggest a syllabic script); this script was only described as a distinct stage in development of the Cretan hieroglyphic in the 1980s. Most of these seals contain a repetitive "Archanes formula" of 2–3 signs.
+Hieroglyphic A (best represented in archaeological records; similar to Archanes, but images of animals are reduced to heads only)
+Hieroglyphic B (mostly on clay, characters are essentially simplified, may have served as a prototype for Linear A and possibly the Cypro-Minoan script). Only this latter version of the hieroglyphic includes signs that can possibly match ideograms known from Linear A.
+The sequence and the geographical spread of Cretan hieroglyphs, Linear A, and Linear B, the five overlapping, but distinct, writing systems of Bronze Age Crete and the Greek mainland can be summarized as follows:
+
+
+== Fonts ==
+The Aegean and Cretan Hieroglyphs fonts support Cretan hieroglyphs.
+
+
+== See also ==
+Eteocretan language
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Works cited ===
+
+
+== Further reading ==
+W. C. Brice, Notes on the Cretan Hieroglyphic Script: I. The Corpus. II. The Clay Bar from Malia, H20, Kadmos 29 (1990) 1-10.
+W. C. Brice, Cretan Hieroglyphs & Linear A, Kadmos 29 (1990) 171-2.
+W. C. Brice, Notes on the Cretan Hieroglyphic Script: III. The Inscriptions from Mallia Quarteir Mu. IV. The Clay Bar from Knossos, P116, Kadmos 30 (1991) 93–104.
+W. C. Brice, "Notes on the Cretan Hieroglyphic Script", Kadmos 31, pp. 21–24, 1992
+M. Civitillo, "La scrittura geroglifica minoica sui sigilli. Il messaggio della glittica protopalaziale", Biblioteca di Pasiphae XII, Pisa-Roma 2016. ISBN 978-88-6227-876-8
+Facchetti, Giulio M. (2007). "La questione della scrittura geroglifica cretese dopo la recente edizione del corpus dei testi". Pasiphae: Rivista di filologia e antichità egee (1). doi:10.1400/132266. ISBN 978-88-6227-055-7. ISSN 2037-738X.{{cite journal}}:  CS1 maint: periodical has ISBN (link)
+Silvia Ferrara, "The Making of a Script: Cretan Hieroglyphic and the Quest for Its Origins", Bulletin of ASOR, vol. 386, pp. 1–22, November 2021  doi:10.1086/716098
+Ferrara, Silvia; Valério, Miguel; Montecchi, Barbara (2022). "The Relationship between Cretan Hieroglyphic and Linear A: a palaeographic and structural approach" (PDF). Pasiphae – Journal of Aegean Philology and Antiquity. 26 (16): 81–109. doi:10.19272/202233301006. ISSN 2037-738X.
+Ferrara, Silvia, "Icon, index, symbol: Language notation in the Cretan Hieroglyphic script", Representations: Material and Immaterial Modes of Communication in the Bronze Age Aegean, Oxford, pp. 211-240, 2021
+Grumach  E., "The  Structure  of  the  Cretan  Hieroglyphic  Script",  Bulletin  of  the John  Rylands  Library  46, pp. 346-384, 1964
+Jasink, Anna Margherita (1 December 2005). "The So-called klasmatograms on Cretan Hieroglyphic Seals". KADMOS. 44 (1–2): 23–39. doi:10.1515/KADM.2005.006. ISSN 0022-7498. S2CID 162280405.
+Owens, Gareth A. (1 January 1996). "The Common Origin of Cretan Hieroglyphs and Linear A". Kadmos. 35 (2). Walter de Gruyter GmbH: 105–110. doi:10.1515/kadm.1996.35.2.105. ISSN 0022-7498. S2CID 162282793.
+G. A. Owens, An Introduction to «Cretan Hieroglyphs»: A Study of «Cretan Hieroglyphic» Inscriptions in English Museums (excluding the Ashmolean Museum Oxford), Cretan Studies VIII (2002), 179–184.
+Perna, Massimo (1 April 2019). "A seal in the British Museum with a Cretan Hieroglyphic inscription (CR (?) S (1/1) 07)". Kadmos. 58 (1–2): 49–60. doi:10.1515/kadmos-2019-0003. ISSN 0022-7498. S2CID 220368364.
+Salgarella, Ester (2021). "Imagining Cretan Scripts: the Influence of Visual Motifs on the Creation of Script Signs in Bronze Age Crete". The Annual of the British School at Athens. 116: 63–94. doi:10.1017/S0068245421000034. ISSN 0068-2454. S2CID 244183664.
+I. Schoep, A New Cretan Hieroglyphic Inscription from Malia (MA/V Yb 03), Kadmos 34 (1995), 78–80. doi:10.1515/kadm.1995.34.1.78
+[1]Weingarten, Judith, and Silvia Ferrara, "Cretan Hieroglyphic seals and script: a view from the East", Pasiphae: rivista di filologia e antichità egee: XVI, pp. 111-121, 2022
+Younger, John G. (1996–1997). "The Cretan Hieroglyphic Script: A Review Article" (PDF). Minos. 31–32: 379–400. hdl:1808/6394. ISSN 0544-3733.
+
+
+== External links ==
+ Media related to Cretan hieroglyphs at Wikimedia Commons
+The Cretan Hieroglyphic Texts
+Cretan Hieroglyphic Texts Explorer

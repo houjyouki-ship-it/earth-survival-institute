@@ -1,0 +1,69 @@
+URL: https://en.wikipedia.org/wiki/Anatolian_hieroglyphs
+Anatolian hieroglyphs are an indigenous logographic script native to central Anatolia, consisting of some 500 signs. They were once commonly known as Hittite hieroglyphs, but the language they encode proved to be Luwian, not Hittite, and so the term Luwian hieroglyphs is increasingly also used to describe them correctly. They are typologically similar to Egyptian hieroglyphs, but do not derive graphically from that script, and they are not known to have played the sacred role as did hieroglyphs in Egypt. There is no demonstrable connection to Hittite cuneiform.
+
+
+== Name ==
+In his 1996 chapter on Anatolian Hieroglyphs, H. Craig Melchert wrote:
+
+The system therefore has been and continues to be known widely as the "Hittite Hieroglyphs." The inscriptions on seals consist only of names, titles, and sometimes good-luck symbols such as that for 'well-being'. It is inappropriate to view these as texts in a given language… All actual texts written in the hieroglyphs are in Luvian, an Indo-European language closely related to, but distinct from, cuneiform Hittite…
+
+
+== History ==
+
+Individual Anatolian hieroglyphs are attested from the second and early first millennia BC across Anatolia and into modern Syria. A biconvex bronze personal seal was found in the Troy VIIb level (latter half of the 12th century BC) inscribed with Anatolian hieroglyphs. The earliest examples occur on personal seals, but these consist only of names, titles, and auspicious signs, and it is not certain that they represent language. Most actual texts are found as monumental inscriptions in stone, though a few documents have survived on lead strips. In the Neo-Hittite period, hieroglyphs may have also been used for "everyday" documents that have not survived because they were written on perishable materials.
+The first inscriptions confirmed as Anatolian hieroglyphs date to the Late Bronze Age, ca. 14th to 13th centuries BC. After some two centuries of sparse material, the hieroglyphs resume in the Early Iron Age, ca. 10th to 8th centuries BC. In the early 7th century BC, the Anatolian hieroglyphic script, by then aged some 700 years, was marginalized by competing alphabetic scripts and fell into oblivion.
+
+
+== Language ==
+While almost all the preserved texts employing Anatolian hieroglyphs are written in the Luwian language, some features of the script suggest its earliest development within a bilingual Hittite-Luwian environment. For example, the sign which has the form of a "taking" or "grasping" hand has the value /ta/, which is precisely the Hittite word ta-/da- "to take," in contrast with the Luwian cognate of the same meaning which is la-. There was occasionally some use of Anatolian hieroglyphs to write foreign material like Hurrian theonyms, or glosses in Urartian (such as  á – ḫá+ra – ku for  aqarqi or  tu – ru – za for  ṭerusi, two units of measurement).
+
+
+== Typology ==
+As in Egyptian, characters may be logographic or phonographic—that is, they may be used to represent words or sounds. The number of phonographic signs is limited. Most represent CV syllables (CV = consonant vowel), though there are a few disyllabic signs. A large number of these are ambiguous as to whether the vowel is a or i. Some signs are dedicated to one use or another, but many are flexible.
+Words may be written logographically, phonetically, mixed (that is, a logogram with a phonetic complement), and may be preceded by a determinative. 
+Other than the fact that the phonetic glyphs form a syllabary rather than indicating only consonants, this system is analogous to the system of Egyptian hieroglyphs.
+A more elaborate monumental style is distinguished from more abstract linear or cursive forms of the script. In general, relief inscriptions prefer monumental forms, and incised ones prefer the linear form, but the styles are in principle interchangeable. Texts of several lines are usually written in boustrophedon style. Within a line, signs are usually written in vertical columns of two to four signs, but as in Egyptian hieroglyphs, aesthetic considerations take precedence over correct reading order. Many texts also employ an explicit word divider character.
+One peculiarity of the Luwian writing system is that in some texts vowel signs, usually repeating the vowel of the preceding syllable, were used to fill up sign columns, so that new words would always start at the top of the line. Some texts also exhibit the so-called "initial-à-final" pattern, where the word-initial a character is moved either to the top of the second column of signs or to the end of the word.
+
+
+== Decipherment ==
+Anatolian hieroglyphs first came to Western attention in the nineteenth century, when European explorers such as Johann Ludwig Burckhardt and Richard Francis Burton described pictographic inscriptions on walls in the city of Hama, Syria. The same characters were recorded in Boğazköy, and presumed by A. H. Sayce to be Hittite in origin.
+By 1915, with the Luwian language known from cuneiform, and a substantial quantity of Anatolian hieroglyphs transcribed and published, linguists started to make real progress in reading the script. In the 1930s, it was partially deciphered by Ignace Gelb, Piero Meriggi, Emil Forrer, and Bedřich Hrozný. Its language was confirmed as Luwian in 1973 by J.D. Hawkins, Anna Morpurgo Davies and Günther Neumann, who corrected some previous errors about sign values, in particular emending the reading of symbols *376 and *377 from i, ī to zi, za.
+
+
+== Sign inventory ==
+The script consists of some 500 unique signs, some with multiple values; a given sign may function as a logogram, a determinative or a syllabogram, or a combination thereof. The signs are numbered according to Laroche's sign list, with a prefix of 'L.' or '*'. Logograms are transcribed in Latin in capital letters. 
+For example, *90, an image of a foot, is transcribed as PES when used logographically, and with its phonemic value ti when used as a syllabogram. In the rare cases where the logogram cannot be transliterated into Latin, it is rendered through its approximate Hittite equivalent, recorded in Italic capitals, e.g. *216 ARHA. The most up-to-date sign list was compiled by Massimiliano Marazzi in 1998.
+
+
+=== List of CV syllabograms ===
+
+Transliteration of logograms is conventionally the term represented in Latin, in capital letters (e.g. PES for the logogram for "foot"). The syllabograms are transliterated, disambiguating homophonic signs analogously to cuneiform transliteration, e.g. ta=ta₁, tá=ta₂, and ta₆ transliterate three distinct ways of representing phonemic /ta/. Some of the homophonic signs have received further attention and new phonetic interpretation in recent years, e.g. tà has been argued to stand for /da/, and á seems to have stood for /ʔa/ (distinct from /a/), representing the descendant of Proto-Indo-European */h₁/. One of the latest confirmed discoveries pertaining to the decipherment of Anatolian Hieroglyphs is the re-interpretation of the signs ta4 and ta5 as ⟨la/i⟩ and ⟨lá/í⟩ respectively 
+
+
+=== List of Anatolian ideograms ===
+
+
+== Unicode ==
+
+Anatolian hieroglyphs were added to the Unicode Standard in June, 2015 with the release of version 8.0.
+The Unicode block for Anatolian Hieroglyphs is U+14400–U+1467F:
+
+
+== See also ==
+Bonus2.vir2
+Hittite cuneiform
+Alphabets of Anatolia
+
+
+== References ==
+
+
+== Sources ==
+
+
+== External links ==
+
+Luwian Hieroglyphics from the Indo-European Database
+Sign list, with logographic and syllabic readings
+AncientScripts.com

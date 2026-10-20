@@ -1,0 +1,276 @@
+URL: https://en.wikipedia.org/wiki/Ugaritic
+Ugaritic ( (Y)OOG-ə-RIT-ik) is an extinct Northwest Semitic language known through the Ugaritic texts discovered by French archaeologists in 1928 at Ugarit, including several major literary texts, notably the Baal cycle. The script is described as “a special alphabetic Cuneiform,” reflecting an idiom related to Canaanite and Hebrew languages.
+Like Hebrew the short script of Ugarit has twenty-two characters, which are nearly identical to Hebrew in terms of their phonetic values, though not in terms of the visual elements or media of their inscription. Early samples of Hebrew are scratched on stone or potsherds whereas Ugaritic is punched on clay, like cuneiform.
+A scholar of the period hailed Ugaritic as "the greatest literary discovery from antiquity since the deciphering of the Egyptian hieroglyphs and Mesopotamian cuneiform.”
+
+
+== Corpus ==
+
+The Ugaritic language is attested in texts from the 14th through the early 12th century BC. The city of Ugarit was destroyed roughly 1190 BC.
+At Ras Shamra some 1800 inscriptions have been unearthed, as well as 150 at the so-called “Northern Palace” at Ras Ibn Hani (a few kilometers west of Ras Shamra), and two fragments (a handle and a cylinder seal) at Ugarit’s harbour at Minet el-Beida. Elsewhere too, in places such as Lebanon, Syria, Tel Beit Shemesh, and Cyprus, a few inscribed objects – handles, a sherd, a knife, an alphabet – have been found.
+Literary texts discovered at Ugarit include the Legend of Keret or Kirta, the legends of Danel (AKA 'Aqhat), the Myth of Baal-Aliyan, and the Death of Baal. The latter two are also known collectively as the Baal Cycle. These texts reveal aspects of ancient Northwest Semitic religion in Syria-Canaan during the Late Bronze Age.
+Edward Greenstein has proposed that Ugaritic texts might help solve biblical puzzles such as the anachronism of Ezekiel mentioning Daniel in Ezekiel 14:13–16 actually referring to Danel, a hero from the Ugaritic Tale of Aqhat.
+
+
+== Phonology ==
+Ugaritic had 28 consonantal phonemes (including two semivowels) and eight vowel phonemes (three short vowels and five long vowels): a ā i ī u ū ē ō. The phonemes ē and ō occur only as long vowels and are the result of monophthongization of the diphthongs аy and aw, respectively. Triphthongs too were contracted frequently: aya, iya > â; iyi > î; ăyu, iyu, uyu > û but āyu > â.
+
+The following table shows Proto-Semitic phonemes and their correspondences among Ugaritic, Akkadian, Classical Arabic and Tiberian Hebrew:
+
+
+== Writing system ==
+
+The Ugaritic alphabet is a cuneiform script used beginning in the 15th century BC. Like most Semitic scripts, it is an abjad, where each symbol stands for a consonant, leaving the reader to supply the appropriate vowel. Only after an aleph is the vowel indicated (ʾa, ʾi, ʾu). With other consonants one can often guess the unwritten vowel, and thus vocalize the text, from (a) parallel cases with an aleph, (b) texts where Ugaritic words are written in Akkadian cuneiform syllables, (c) comparison with other West-Semitic languages, for example Hebrew and Arabic, (d) generalized vocalization rules, and (e), in poetry, parallelisms are also helpful to interpret the consonantal skeleton.
+Clay tablets written in Ugaritic provide the earliest evidence of both the Levantine ordering of the alphabet, which gave rise to the alphabetic order of the Phoenician, Aramaic, Hebrew, Greek, and Latin alphabets; and the South Semitic order, which gave rise to the order of the Ge'ez script. The script was written from left to right.
+The so-called "long alphabet" has 30 letters while the "short alphabet" has 22. Other languages (particularly Hurrian) were occasionally written in the Ugaritic alphabet, although no such inscriptions have been found outside of Ugarit.
+The origins of the graphical choice and visual logic surrounding the letters of the alphabet are still debated and proving a single origin for the design remains difficult to this day.
+
+
+== Grammar ==
+Ugaritic is an inflected language, and as a Semitic language its grammatical features are highly similar to those found in Arabic, Hebrew, and Akkadian. It possesses two genders (masculine and feminine), three cases for nouns and adjectives (nominative, accusative, and genitive [also, note the possibility of a locative case]); three numbers: (singular, dual, and plural); and verb aspects similar to those found in other Northwest Semitic languages. The word order for Ugaritic is verb–subject–object (VSO), possessed–possessor (NG), and noun–adjective (NA). Ugaritic is considered a conservative Semitic language, since it retains most of the Proto-Semitic phonemes, the basic qualities of the vowel, the case system, the word order of the Proto-Semitic ancestor, and the lack of the definite article.
+
+
+=== Morphology ===
+Ugaritic, like all Semitic languages, exhibits a unique pattern of stems consisting typically of "triliteral", or 3-consonant consonantal roots (2- and 4-consonant roots also exist), from which nouns, adjectives, and verbs are formed in various ways: e.g. by inserting vowels, doubling consonants, and/or adding prefixes, suffixes, or infixes.
+
+
+==== Verbs ====
+
+
+===== Introduction =====
+Ugaritic verbs are based on mostly three-literal roots (like all Semitic languages) (a few verbs have two- or four-consonant roots). For example, r-g-m, ‘to say’. By adding prefixes, infixes, and suffixes, and varying the vowels, the various verbal forms are formed. (Because in Ugaritic vowels are hardly written, these vowel variations often are not clearly visible).
+Verbs can take several of a dozen stem patterns, or binyanim, that change the basic meaning of the verb, and make it for example passive, causative, or intensive. The basic form (in German: Grundstamm) is the G stem.
+The verbal forms for each stem can be divided in five verbal form groups:
+
+the suffix conjugation, also called qtl (pronounced qatal), or perfect;
+the prefix conjugation, also called yqtl (pronounced yiqtol), or imperfect;
+imperatives;
+two infinitives;
+an active and a passive participle.
+Verbs have one of three different vowel patterns, -a-, -i-, and -u-:
+
+in the qtl (G stem): qatala, qatila, or qatula (cf. Hebrew qaṭal, kavēd, qaṭon);
+in the yqtl (G stem): yiqtalu, yaqtilu, or yaqtulu.
+There is no one-on-one link between morphology and tense (past, present or future). This is because Ugaritic is an aspect language: verbal forms do not primarily indicate the timing of activities, but they indicate aspect: the suffix conjugation (qtl) has perfective aspect, it is used when viewing an activity as having a completion; the prefix conjugation (yqtl) has imperfective aspect, it is used when it is deemed irrelevant whether the activity has an end or beginning.
+Ugaritic verbs can have several moods, both indicative and injunctive (jussive, cohortative). Moods are most clearly visible in the prefix conjugation (see below).
+
+
+===== Suffix conjugation =====
+The suffix conjugation (qtl) has perfective aspect. Taking the root RGM (which means "to say") as an example, ragama may be translated as “he says” (at this very moment), or “he has said” (and has finished speaking).
+The vowel between the second and third root consonant can be -a-, -i-, or -u-. Most verbs describe an activity (so-called “active verbs”) and have -a-. Verbs describing a state or property (“stative verbs”) have -i- or (rarely) -u-.
+The paradigm of the suffix conjugation (or Perfect) is as follows for the a-verb RGM, the i-verb ŠBʿ (“to be (become) satiated”), and the u-verb MRṢ (“to fall ill”):
+
+
+===== Prefix conjugation =====
+The prefix conjugation yqtl- takes three forms: yiqtal-, yaqtil-, and yaqtul-. The specific pattern is determined by the stem consonants. Therefore, there is no simple one-on-one relation with the three qtl vowel patterns, qatal, qatil, and qatul, because the qtl vowel pattern depends not on the consonant pattern, but on a verb's meaning (active or stative).
+For example, the following three verbs all have a qtl of the qatal type, but their yqtl patterns differ:
+
+The Imperfect paradigms for the three patterns are as follows, for the verbs RGM, “to say” (yaqtul- pattern), ŠʾiL, “to ask” (yiqtal- pattern), and YRD, “to go down” (yaqtil pattern):
+
+The prefix conjugation takes four or five different endings (yqtl, yqtlu, yqtla, yqtln). There are three clear moods (indicative, jussive, and volitive or cohortative). The so-called energic forms, yqtln, with an -n suffix (-an, -anna; possibly also -un, -unna), apparently have the same meaning as the shorter forms without the -n suffix.
+
+
+===== Imperative =====
+The imperative takes three forms, qatal, qitil, and qutul, where the vowels are equal to the second vowel of the imperfect. So, if the imperfect is yaqtul-, the imperative is qutul; if yaqtil-, then qitil; if yiqtal-, then qatal.
+Examples (the verb YRD “to go down, to descend” is a so-called ‘weak’ verb, the first consonant Y disappears in the imperative):
+
+
+===== Participles =====
+The paradigm of the active participle of G stems is as follows (verb MLK, “to be king”):
+
+The passive participle is quite rare. There seem to be three forms (verbs RGM “to say”, ḤRM “to divide”, YDD [< *WDD] “to love”):
+
+Other stems than the G (and N) stem form their passive participles only by means of a m- prefix; for example mulaḫḫišu (“conjuror”, D stem LḪŠ “to whisper”), mušamṭiru (“[the god] who rains”, Š stem, MṬR “to rain down”).
+
+
+===== Infinitives =====
+Like other Semitic languages, Ugaritic has two infinitives, the infinitive absolute and the infinitive construct. However, in Ugaritic the two have an identical form. The usual form is halāku (“to go”, verb hlk), but a few verbs use an alternative form *hilku, for example niģru, “to guard” (verb nģr).
+The infinitive absolute is often used preceding a perfect or imperfect verbal form, to put emphasis on that following verbal form. Such an infinive absolute may be translated as “verily, certainly, absolutely”. For example, halāku halaka, “he certainly goes” (literally, “to go! he goes”). An isolated infinitive absolute may also be used instead of any perfect, imperfect, or imperative verbal form.
+The infinitive construct is often used after the prepositions lê (“to”) and bi (“in, by”): bi-šaʾāli “in asking, by asking, while asking” (verb šʾal “to ask”; note that after the preposition b (bi) the genitive of the infinitive is used).
+
+
+===== Patterns (stems) =====
+ Ugaritic verbs occur in about a dozen reconstructed patterns or binyanim (verb RGM, “to say”, unless indicated otherwise): The large majority of verbal forms (about 70%) belong to the G stem (German: Grundstamm, “basic stem”).
+
+
+===== Weak Verbs =====
+In Ugaritic, “weak verbs” are verbs whose roots contain a weak consonant, that is, a consonant that may disappear in some forms (in particular the imperative), or change into another consonant (some imperfect forms). Weak consonants are w and y, and also n if it is the first root consonant. Verbs with only two root consonants are weak too. 
+Due to their weak consonants, weak verbs can undergo phonetic changes, such as the assimilation of waw (w) to yod (y), especially in the absence of an intervening vowel. This characteristic impacts the verb's inflection, resulting in variations that are atypical compared to regular (strong) verbs. This phenomenon is akin to that observed in other Semitic languages, including Hebrew.
+The following list shows the various classes of weak verbs. Weak forms are shown in bold, the strong verb RGM is shown for comparison:
+
+In Ugaritic there also exist "doubly weak verbs", which contain two weak consonants.
+
+
+==== Nouns and adjectives ====
+
+
+===== Paradigm =====
+Nouns (substantives, adjectives, personal names) in their basic form (nominative singular) end in -u. Nominal forms are categorized according to their inflection into: cases (nominative, genitive, and accusative), state (absolute and construct), gender (masculine and feminine), and number (singular, dual, and plural).
+Here is the full paradigm for a masculine substantive (malku, “king”) and a feminine substantive (malkatu, “queen”).
+
+Note (*): with lengthening of the final vowel of the stem: mal(a)kat- > mal(a)kāt-.
+
+
+===== Case =====
+Ugaritic has three grammatical cases corresponding to: nominative, genitive, and accusative. Normally, singular nouns take the ending -u in the nominative, -i in the genitive and -a in the accusative. After prepositions as a rule the genitive is used. The accusative is also used adverbially (ṭābu, “good” > ṭāba, “well”) and as a kind of locative (šamîma = “to the heavens, in heaven”). More often, a locative is formed by appending a suffix -h to the accusative: ʾarṣu, “earth”, accusative ʾarṣa, locative ʾarṣah, “earthward”. There is no dative; instead the preposition lê, “to, for”, + genitive is used.
+As in Arabic, some exceptional nouns and personal names (known as diptotes) have the suffix -a in the genitive, thus making it equal to the accusative. There is no Ugaritic equivalent for Classical Arabic nunation or Akkadian mimation.
+
+
+===== State =====
+Nouns in Ugaritic occur in two states: absolute and construct.
+The construct (or ‘bound’) state indicates that a noun is closely linked to the following noun. For example, “the house of the king” could in Ugaritic in principle be expressed in two ways:
+1. “the house” (absolute state) “of the king” (absolute state, genitive). This might be called the ‘Latin’ way of expression (domus regis);
+2. “the house of” (construct state) “the king” (absolute state, genitive). This might be called the ‘Hebrew’ way of expression (bēt hammelek).
+The construct state is also the basic form used when a personal pronoun is suffixed: malakūma = “(the) kings” (absolute state, nominative) > malakū (construct state) > malakūhu = “his kings”; similarly malakĩhu = “(of) his kings” (genitive, accusative).
+Ugaritic, unlike Arabic and Hebrew, has no definite article.
+
+
+===== Gender =====
+Nouns which have no gender marker are for the most part masculine, although some feminine nouns do not have a feminine marker. However, these denote feminine beings such as ʼumm- (mother).  /-t/ is the feminine marker which is directly attached to the base of the noun.
+
+
+===== Number =====
+Ugaritic distinguishes between nouns based on quantity. All nouns are either singular when there is one, dual when there are two, and plural if there are three or more.
+
+The singular has no marker and is inflected according to its case (malku, “king”: genitive malki, accusative malka).
+The marker for the dual in the absolute state appears as /-m/. However, the vocalization may be reconstructed as /-āma/ or /-āmi/ in the nominative (such as malkāma, malkāmi "two kings") and /-êma/ or /-êmi/ for the genitive and accusative (e.g. malkêma, malkêmi). For the construct state, it is /-ā/ and /-ê/ respectively.
+Masculine absolute state plurals take the forms -ūma in the nominative and -īma in the genitive and accusative. In the construct state they are -ū and -ī respectively. There are a few irregular (or broken) plurals; for example bt (bêtu), “house”, plural bhtm (bahatūma); and bn (binu), “son”, plural banūma (with Ablaut).
+The female afformative plural is /-āt/ with a case marker probably following the /-t/, giving /-ātu/ for the nominative and /-āti/ for the genitive and accusative in both absolute and construct state.
+
+
+===== Adjectives =====
+Adjectives follow the noun and are declined exactly like the preceding noun.
+
+
+==== Pronouns ====
+
+
+===== Independent personal pronouns =====
+Independent personal pronouns in Ugaritic are as follows (some forms are lacking because they are not in the corpus of the language):
+
+
+===== Suffixed (or enclitic) personal pronouns =====
+Suffixed (or enclitic) pronouns (mainly denoting the genitive and accusative) are as follows:
+
+
+===== Other pronouns =====
+The relative (or ‘determinative’) pronoun is d (dū), “that of, of which”; often simply translatable as “who, which”. It introduces a specification, property, or action by the subject and is congruent with the governing noun. Declension: dī, dā; feminine dt (dātu, dāti, dāta); plural dt (dūtu, dūti(?)).
+The demonstrative (or ‘deictic’) pronouns are hnd (hānādū), “this”, and hnk (hānākā) “that”. Extended forms are hanadūna, hanadūti, hanamati.
+Interrogative pronouns are my (mīyu) “who?”, and mh (maha) “what?”.
+Indefinite pronouns seem to be derived from the interrogative pronoun by appending to them the particles -n(a)-, -k(a), and/or -m(a) (in that order). Thus, for example: mnkm (mīnukumu?) and mnm (mīnama?) “anyone, someone”, mhkm (mahkīma?) and mnm (mannama?) “anything, something, whatever”.
+
+
+==== Numerals ====
+The following is a table of Ugaritic numerals (some vocalisations are conjectural):
+
+Numerals are declined just like other nouns, for example ʾarbaʿu (“4”): genitive ʾarbaʿi, accusative ʾarbaʿa.
+
+
+===== Ordinals =====
+The following is a table of Ugaritic ordinals. The vocalisations (predominantly based on comparison with Hebrew, Aramaic and Arabic) are very uncertain:
+
+
+==== Particles ====
+Among particles in Ugaritic the so-called enclitic particles deserve special note, especially -n (-na) and -m (-ma). These particles do not seem to change the meaning of words, but create confusion between different forms, and thus complicate the analysis and interpretation of words, in particular verbal forms. For example, rgmtm can be ragamtumu, “you (plural) say”, but it can also be ragamtu-ma, an extension of ragamtu, “I have said”. And mlkm (malkuma), can be the plural malkûma, “kings”, but it can also be an extended singular, malku-ma, “the king”.
+The enclitic particles can be stacked on top of each other. An extreme example is hnny (hannaniya), “behold!, here is”, that is analyzed as a four-step extension of  the presentative particle h (ha): hnny (hannaniya) = ha + -n + -na + -ni + -ya. h and hnny have the same meaning, “behold!, here is”.
+
+
+== Poetic techniques ==
+Techniques often encountered in Ugaritic poetry are repetition, parallelisms, chiasms, epithets, and what might be called ‘numerical stairs’.
+An example of repetition is in a part of the Baʿal myth cycle, where Baʿal’s fight with the Sea god Yammu (also known as Naharu) is described (KTU2 1.2, col. IV). Divine artisan Kothar makes a magic mace for Baʿal and, speaking to the mace, instructs it what to do:
+
+The phrase is repeated, with subtle variation, to describe the fight:
+
+When the fight ends in a draw, Kothar makes a second mace for Baʿal. This mace too is instructed:
+
+The fight is then described thus:
+
+This time Baʿal indeed succeeds in killing Yammu.
+In the quoted section several parallelisms may be noted: “shoulder” // “between the arms”; “head” // “between the eyes”; “Prince” // “Ruler”; and Yammu // Naharu.
+An example of a chiasm is (Danʾil curses vultures after he has found out that they have scavenged the body of his dead son Aqhat; KTU2 1.19 col. III, lines 42-44):
+
+The use of stereotyped epithets is very common in Ugaritic myths. For example, El is regularly called “the Compassionate” (laṭīpānu ʾIlu) or “the Bull” (ṯôru ʾIlu), Baal is routinely called “Most Powerful” (Baʿlu ʾalʾiyānu), “Rider of the Clouds” (rākibu ʿurpāti), or “Prince Baal” (Zabūlu Baʿlu), Sea too is called “Prince” (Zabūlu Yammu), and Asherah usually is “Asherah of the Sea” (ʾAṯiratu Yammi) or “Creatress [i.e., Mother] of the gods” (qāniyatu ʾilīma).
+The epithet of a young prince, Athtar “the Terrible”, “the Awesome” (ʿAṯtaru ʿarrīẓu), may be a joke, for when he is made king and is put on Baal’s throne, his feet do not reach the ground, and his kingship is ended abruptly.
+‘Numerical stairs’ or ‘progressions of numbers’ are of the form “N (times) X, N+1 (times) Y”, or “100 (times) X, 1000 (times) Y”. An example, where the huge size of Kirta’s army is portrayed (KTU2 1.14, col. II, lines 39–42):
+
+
+== Sample Texts ==
+
+
+=== Baal wants a palace ===
+Here is a fragment from the epic “Baal” cycle (KTU tablet 1.4 column 5).
+Baʿal, son of Supreme God El, has rebelled, he wants a palace of his own. After some blackmail – Baʿal withholds his rain from the land – El agrees. Baʿal's sister Anat brings him the good news:
+
+
+=== Anat’s Love ===
+Next, two poetic fragments. In the first Anat’s love for her brother Baal is described (KTU2 1.6, col. II, lines 6-9 = 28-30):
+
+
+=== Baal’s power ===
+In the next fragment (KTU2 1.3, col. III) Baal boasts to Anat of his powers (the fragment is reminiscent of the Biblical book of Job, chapter 38):
+
+
+=== A “redemption” ===
+An official document, bearing the seal of king Niqmaddu (III), states the conditions of a so-called ‘redemptionʼ (KTU2 3.4):
+
+
+=== Manumission of a slave ===
+The same king also features as the (nominal) author of correspondence and documents, for example in a legal document confirming the manumission of a royal slave (KTU2 2.19; the beginning of the text, presumably bearing Niqmaddu’s seal, has broken off):
+
+
+=== Ritual wine deliveries ===
+From a list describing the organization of wine deliveries for royal ritual celebrations (KTU2 1.91):
+
+
+== See also ==
+
+Ugarit
+Ugaritic alphabet
+Northwest Semitic languages
+Central Semitic languages
+Semitic Languages
+Proto-Semitic language
+
+
+== Notes ==
+
+
+== References ==
+Citations
+
+Bibliography
+Bordreuil, Pierre & Pardee, Dennis (2009). A Manual of Ugaritic: Linguistic Studies in Ancient West Semitic 3. Winona Lake, IN: Eisenbrauns. ISBN 978-1-57506-153-5.
+Cunchillos, J.-L. & Vita, Juan-Pablo (2003). A Concordance of Ugaritic Words. Piscataway, NJ: Gorgias Press. ISBN 978-1-59333-258-7.
+del Olmo Lete, Gregorio & Sanmartín, Joaquín (2004). A Dictionary of the Ugaritic Language in the Alphabetic Tradition. Brill Academic Publishers. ISBN 978-90-04-13694-6. (2 vols; originally in Spanish, translated by W. G. E. Watson).
+Gibson, John C. L. (1977). Canaanite Myths and Legends. T. & T. Clark. ISBN 978-0-567-02351-3. (Contains Latin-alphabet transliterations of the Ugaritic texts and facing translations in English.)
+Gordon, Cyrus Herzl (1965). The Ancient Near East. W. W. Norton & Company Press. ISBN 978-0-393-00275-1.
+Greenstein, Edward L. (1998). Shlomo Izre'el; Itamar Singer; Ran Zadok (eds.). "On a New Grammar of Ugaritic" in Past links: studies in the languages and cultures of the ancient near east: Volume 18 of Israel oriental studies. Eisenbrauns. ISBN 978-1-57506-035-4. Found at Google Scholar.
+Hasselbach-Andee, Rebecca (2020). A Companion to Ancient Near Eastern Languages. Wiley Blackwell. ISBN 978-1119193296.
+Huehnergard, John (2011). A Grammar of Akkadian, 3rd ed. Eisenbrauns. ISBN 978-1-5750-6941-8.
+Moscati, Sabatino (1980). An Introduction to the Comparative Grammar of Semitic Languages, Phonology and Morphology. Harrassowitz Verlag. ISBN 3-447-00689-7.
+Pardee, Dennis (2003). Rezension von J. Tropper, Ugaritische Grammatik (AOAT 273) Ugarit-Verlag, Münster 2000: Internationale Zeitschrift für die Wissenschaft vom Vorderen Orient. Vienna, Austria: Archiv für Orientforschung (AfO). P. 1–404 Archived 2014-01-07 at the Wayback Machine.
+Parker, Simon B., ed. (1997). Ugaritic Narrative Poetry: Writings from the Ancient World Society of Biblical Literature. Atlanta: Scholars Press. ISBN 978-0-7885-0337-5.
+Schniedewind, William M. & Hunt, Joel H. (2007). A Primer on Ugaritic: Language, Culture and Literature. Cambridge University Press. ISBN 978-0-5217-0493-9.
+Segert, Stanislav (1997). A Basic Grammar of the Ugaritic Language. University of California Press. ISBN 0-520-03999-8.
+Sivan, Daniel (1997). A Grammar of the Ugaritic Language (Handbook of Oriental Studies/Handbuch Der Orientalistik). Brill Academic Publishers. ISBN 978-90-04-10614-7. A more concise grammar.
+Tropper, Josef (2000). Ugaritische Grammatik. Ugarit Verlag. ISBN 978-3927120907.
+Woodard, Roger D., ed. (2008). The Ancient Languages of Syria-Palestine and Arabia. Cambridge: Cambridge University Press. ISBN 978-0-521-68498-9.
+
+
+== Further reading ==
+Pardee, Dennis. “UGARITIC PROPER NOUNS”. In: Archiv Für Orientforschung 36/37 (1989): 390–513. UGARITIC PROPER NOUNS.
+Josef Tropper, Juan-Pablo Vita (2020). Lehrbuch der ugaritischen Sprache. Münster: Zaphon. ISBN 978-3-96327-070-3.
+Watson, Wilfred G.E. "From Hair to Heel: Ugaritic Terms for Parts of the Body". In: ''Folia Orientalia'' Vol. LII (2015), pp. 323–364.
+Watson, Wilfred G.E. "Terms for Occupations, Professions and Social Classes in Ugaritic: An Etymological Study". In: Folia Orientalia Vol. LV (2018), pp. 307–378. DOI: 10.24425/for.2018.124688
+Watson, Wilfred G.E. "Terms for Textiles, Clothing, Hides, Wool and Accessories in Ugaritic: An Etymological Study". In: Aula Orientalis 36/2 (2018): 359–396. ISSN 0212-5730.
+Watson, Wilfred G. E.. "Ugaritic Military Terms in the Light of Comparative Linguistics". In: At the Dawn of History: Ancient Near Eastern Studies in Honour of J. N. Postgate. Edited by Yağmur Heffron, Adam Stone and Martin Worthington, University Park, USA: Penn State University Press, 2021. pp. 699–720. coaccess
+
+
+== External links ==
+Ugarit and the Bible. An excerpt from an online introductory course on Ugaritic grammar (the Quartz Hill School of Theology's course noted in the links hereafter). Includes a cursory discussion on the relationship between Ugaritic and Old Testament/Hebrew Bible literature.
+"El in the Ugaritic tablets" on the BBCi website gives many attributes of the Ugaritic creator and his consort Athirat.
+Abstract of Mark Smith, The Origins of Biblical Monotheism: Israel's Polytheistic Background and the Ugaritic Text.
+Unicode Chart.
+RSTI. The Ras Shamra Tablet Inventory: an online catalog of inscribed objects from Ras Shamra-Ugarit produced at the Oriental Institute of the University of Chicago.
+Introduction to Ugaritic Grammar (Quartz Hill School of Theology)
+Introduction to Ugaritic Grammar Archived 2022-02-13 at the Wayback Machine (University of Chicago)

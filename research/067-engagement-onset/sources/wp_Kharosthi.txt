@@ -1,0 +1,106 @@
+URL: https://en.wikipedia.org/wiki/Kharosthi
+Kharosthi script (Gāndhārī: 𐨑𐨪𐨆𐨮𐨿𐨛𐨁𐨌 𐨫𐨁𐨤𐨁, romanized: kharoṣṭhī lipi), also known as the Gandhari script (𐨒𐨌𐨣𐨿𐨢𐨌𐨪𐨁𐨌 𐨫𐨁𐨤𐨁, gāndhārī lipi), was an ancient Indic script originally developed in the Gandhara region of the present-day Afghanistan and Pakistan, between the 5th and 3rd century BCE. Primarily used by the people of Gandhara in various parts of South Asia and Central Asia, Kharosthi remained in use until it died out in its homeland around the 5th century CE. It was also in use in Bactria, Sogdia, and along the Silk Road. There is some evidence it may have survived until the 7th century in Khotan and Niya, both cities in Tarim Basin.
+
+
+== History ==
+
+The name Kharosthi may derive from the Hebrew kharosheth, a Semitic word for writing, or from Old Iranian *xšaθra-pištra, which means "royal writing". The script was earlier also known as Indo-Bactrian script, Kabul script and Arian-Pali.
+Scholars are not in agreement as to whether the Kharosthi script evolved gradually, or was the deliberate work of a single inventor. An analysis of the script forms shows a clear dependency on the Aramaic alphabet but with extensive modifications. Kharosthi seems to be derived from a form of Aramaic, which was used in administrative work during the reign of Darius the Great (in contrast with the monumental Old Persian cuneiform used for public inscriptions). One theory suggests that the Aramaic script arrived with the Achaemenid conquest of the Indus Valley in 500 BCE and evolved over the next 200+ years to reach its final form by the 3rd century BCE where it appears in some of the Edicts of Ashoka. However, no intermediate forms have yet been found to confirm this evolutionary model, and rock and coin inscriptions from the 3rd century BCE onward show a unified and standard form. An inscription in Aramaic dating back to the 4th century BCE was found in Sirkap, testifying to the presence of the Aramaic script in present-day Pakistan. According to Sir John Marshall, this seems to confirm that Kharosthi was later developed from Aramaic.
+While the Brahmi script remained in use for centuries, Kharosthi seems to have been abandoned after the 2nd–3rd century AD. Because of the substantial differences between the Semitic-derived Kharosthi script and its successors, knowledge of Kharosthi may have declined rapidly once the script was supplanted by Brahmi-derived scripts, until its re-discovery by Western scholars in the 19th century.
+The Kharosthi script was deciphered separately almost concomitantly by James Prinsep (in 1835, published in the Journal of the Asiatic society of Bengal, India) and by Carl Ludwig Grotefend (in 1836, published in Blätter für Münzkunde, Germany), with Grotefend "evidently not aware" of Prinsep's article, followed by Christian Lassen (1838). They all used the bilingual coins of the Indo-Greek Kingdom (obverse in Greek, reverse in Pali, using the Kharosthi script). This in turn led to the reading of the Edicts of Ashoka, some of which were written in the Kharosthi script (the Major Rock Edicts at Mansehra and Shahbazgarhi).
+The study of the Kharosthi script was recently invigorated by the discovery of the Gandhāran Buddhist texts, a set of birch bark manuscripts written in Kharosthi, discovered near the Afghan city of Hadda just west of the Khyber Pass in Pakistan. The manuscripts were donated to the British Library in 1994. The entire set of British Library manuscripts are dated to the 1st century CE, although other collections from different institutions contain Kharosthi manuscripts from 1st century BCE to 3rd century CE, making them the oldest Buddhist manuscripts yet discovered.
+
+
+== Alphabet ==
+
+Kharosthi is mostly written right to left. Some variations in both the number and order of syllables occur in extant texts.
+The Kharosthi alphabet is also known as the arapacana alphabet, and follows the order.
+
+a ra pa ca na
+la da ba ḍa ṣa
+va ta ya ṣṭa
+ka sa ma ga stha
+ja śva dha śa kha
+kṣa sta jñā rtha (or ha)
+bha cha sma hva tsa
+gha ṭha ṇa pha ska
+ysa śca ṭa ḍha
+This alphabet was used in Gandharan Buddhism as a mnemonic for the Pañcaviṃśatisāhasrikā Prajñāpāramitā Sūtra, a series of verses on the nature of phenomena; this is analogous to the Shiva Sutras of Brahmic scripts. In modern Himalayan and East Asian Buddhism, the first line arapacana is preserved in the mantra of Manjushri, the Bodhisattva of transcendent wisdom.
+
+
+=== Consonants ===
+
+A bar above a consonant ⟨𐨸⟩ can be used to indicate various modified pronunciations depending on the consonant, such as nasalization or aspiration. It is used with k, ṣ, g, c, j, n, m, ś, ṣ, s, and h.
+The cauda ⟨𐨹⟩ changes how consonants are pronounced in various ways, particularly fricativization.  It is used with g, j,  ḍ, t, d, p, y, v, ś, and s.
+The dot below ⟨𐨺⟩ is used with m and h, but its precise phonetic function is unknown.
+
+
+=== Vowels and syllables ===
+
+Kharosthi includes only one standalone vowel character, which is used for initial vowels in words. Other initial vowels use the a character modified by diacritics. Each syllable includes the short /a/ sound by default, with other vowels being indicated by diacritic marks.
+Long vowels are marked with the diacritic ⟨𐨌⟩. An anusvara ⟨𐨎⟩ indicates nasalization of the vowel or a nasal segment following the vowel.  A visarga ⟨𐨏⟩ indicates the unvoiced syllable-final /h/. It can also be used as a vowel length marker. A further diacritic, the double ring below ⟨𐨍⟩ appears with vowels -a and -u in some Central Asian documents, but its precise phonetic function is unknown.
+Salomon has established that the vowel order is /a e i o u/, akin to Semitic scripts, rather than the usual vowel order for Indic scripts /a i u e o/. 
+
+
+== Additional marks ==
+Various additional marks are used to modify vowels and consonants:
+
+
+== Punctuation ==
+Nine Kharosthi punctuation marks have been identified:
+
+
+== Numerals ==
+Kharosthi included a set of numerals that are reminiscent of Roman numerals and Psalter Pahlavi Numerals. The system is based on an additive and a multiplicative principle, but does not have the subtractive feature used in the Roman numeral system.
+
+The numerals, like the letters, are written from right to left. There is no zero and no separate signs for the digits 5–9.  Numbers are written additively, so, for example, the number 1996 would be written as 𐩇𐩃𐩃𐩀𐩆𐩅𐩅𐩅𐩅𐩄𐩃𐩁.
+
+
+== Unicode ==
+
+Kharosthi was added to the Unicode Standard in March 2005 with the release of version 4.1.
+The Unicode block for Kharosthi is U+10A00–U+10A5F:
+
+
+== Gallery ==
+
+
+== See also ==
+Brahmi
+History of Afghanistan
+History of Pakistan
+Pre-Islamic scripts in Afghanistan
+
+
+== Further reading ==
+
+Kaschgar und die Kharoṣṭhī (1903)
+
+
+== References ==
+
+
+== Further reading ==
+Dani, Ahmad Hassan (1979). Kharoshthi Primer. Lahore Museum Publication Series. Vol. 16. Lahore Museum. OCLC 10695864.{{cite book}}:  CS1 maint: location missing publisher (link)
+Daniels, Peter T.; Bright, William, eds. (1996). The World's Writing Systems. Oxford University Press, Inc. pp. 373–383. ISBN 978-0195079937.
+Falk, Harry (1993). Schrift im alten Indien: Ein Forschungsbericht mit Anmerkungen. Script Oralia (in German). Vol. 56. Tübingen: Gunter Narr. ISBN 978-3-8233-4271-7.
+Fussman, Gérard. "Les premiers systèmes d'écriture en Inde". Annuaire du Collège de France 1988–1989 (in French). pp. 507–514.
+von Hinüber, Oscar (1990). Der Beginn der Schrift und frühe Schriftlichkeit in Indien (in German). Franz Steiner. ISBN 978-3-515-05627-4.
+Nasim Khan, M., ed. (2009). Kharoshthi Manuscripts from Gandhara (2nd ed.). Higher Education Commission of Pakistan.
+Nasim Khan, M. (2004). "Kharoshthi Manuscripts from Gandhara". Journal of Humanities and Social Sciences. XII (1–2): 9–15.
+Nasim Khan, M. (July 1999). "Two Dated Kharoshthi Inscriptions from Gandhara". Journal of Asian Civilizations. XXII (1): 99–103.
+Nasim Khan, M. (September 1997). "Kharoshthi Inscription from Swabi – Gandhara". The Journal of Humanities and Social Sciences. V (2): 49–52.
+Nasim Khan, M. (March 1997). "An Inscribed Relic-Casket from Dir". The Journal of Humanities and Social Sciences. V (1): 21–33.
+Nasim Khan, M (1997). "Ashokan Inscriptions: A Palaeographical Study". Atthariyyat. Vol. I. Peshawar. pp. 131–150.{{cite book}}:  CS1 maint: location missing publisher (link)
+Norman, Kenneth R. (1992). "The development of writing in India and its effect upon the Pāli canon". Wiener Zeitschrift für die Kunde Südasiens. 36: 239–249. JSTOR 24010823.
+Salomon, Richard (1990). "New Evidence for a Gāndhārī Origin of the Arapacana Syllabary". Journal of the American Oriental Society. 110 (2): 255–273. doi:10.2307/604529. JSTOR 604529.
+Salomon, Richard (1 April 1993). "An additional note on Aracapana". The Journal of the American Oriental Society. 113 (2): 275–277. doi:10.2307/603034. JSTOR 603034. Gale A14474853.
+Salomon, Richard (1998). Indian Epigraphy: A Guide to the Study of Inscriptions in Sanskrit, Prakrit, and the other Indo-Aryan Languages. Oxford University Press. ISBN 978-0-19-535666-3.
+Salomon, Richard (2006). "Kharoṣṭhī syllables used as location markers in Gāndhāran stūpa architecture". In Faccenna, Domenico (ed.). Architetti, Capomastri, Artigiani: L'organizzazione Dei Cantieri E Della Produzione Artistica Nell'Asia Ellenistica : Studi Offerti a Domenico Faccenna Nel Suo Ottantesimo Compleanno. Istituto italiano per l'Africa e l'Oriente. pp. 181–224. ISBN 978-88-85320-36-9.
+Salomon, Richard (1995). "On the Origin of the Early Indian Scripts". Journal of the American Oriental Society. 115 (2): 271–279. doi:10.2307/604670. JSTOR 604670. ProQuest 217141859.
+
+
+== External links ==
+Gandhari.org Catalog and Corpus of all known Kharoṣṭhī (Gāndhārī) texts
+Indoskript 2.0 Archived 28 May 2022 at the Wayback Machine, a paleographic database of Brahmi and Kharosthi
+A Preliminary Study of Kharoṣṭhī Manuscript Paleography by Andrew Glass, University of Washington (2000)

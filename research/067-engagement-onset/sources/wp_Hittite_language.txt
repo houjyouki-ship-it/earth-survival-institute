@@ -1,0 +1,120 @@
+URL: https://en.wikipedia.org/wiki/Hittite_language
+Hittite, also known as Nesite, is an extinct Indo-European language formerly spoken in Anatolia during the Bronze Age. The language is attested in cuneiform texts, primarily from the archives of the city of Hattusa, between the 17th century BC to the 13th century BC. Isolated Hittite words and personal names appear in Old Assyrian documents in Kanesh from as early as the 20th century BC, making it the earliest attested use of the Indo-European languages.
+By the Late Bronze Age, Hittite had started losing ground to its close relative Luwian. It appears that Luwian was the most widely spoken language in the Hittite capital of Hattusa during the 13th century BC. After the collapse of the Hittite New Kingdom during the more general Late Bronze Age collapse, Luwian emerged in the early Iron Age as the main language of the so-called Syro-Hittite states, in southwestern Anatolia and northern Syria.
+
+
+== Name ==
+
+Hittite is the modern scholarly name for the language, based on the identification of the Hatti (Ḫatti) kingdom with the Biblical Hittites (Biblical Hebrew: *חתים Ḥittim), although that name appears to have been applied incorrectly: The term Hattian refers to the indigenous people who preceded the Hittites, speaking a non-Indo-European Hattic language.
+In multilingual texts found in Hittite locations, passages written in Hittite are preceded by the adverb nesili (or nasili, nisili), "in the [speech] of Neša (Kaneš)", an important city during the early stages of the Hittite Old Kingdom. In one case, the label is Kanisumnili, "in the [speech] of the people of Kaneš".
+Although the Hittite New Kingdom had people from many diverse ethnic and linguistic backgrounds, the Hittite language was used in most secular written texts. In spite of various arguments over the appropriateness of the term, Hittite remains the most current term because of convention and the strength of association with the Biblical Hittites. The endonymic term nešili, and its Anglicized variants (Nesite, Nessite, Neshite), have never caught on.
+
+
+== Classification ==
+Hittite is one of the Anatolian languages and is known from cuneiform tablets and inscriptions that were erected by the Hittite kings. The script formerly known as "Hieroglyphic Hittite" is now termed Hieroglyphic Luwian. The Anatolian branch also includes Cuneiform Luwian, Hieroglyphic Luwian, Palaic, Lycian, Milyan, Lydian, Carian, Pisidian, Sidetic and Isaurian.
+Unlike most other Indo-European languages, Hittite does not distinguish between masculine and feminine grammatical gender, and it lacks subjunctive and optative moods as well as aspect. Various hypotheses have been formulated to explain these differences.
+Some linguists, most notably Edgar H. Sturtevant and Warren Cowgill, have argued that Hittite should be classified as a sister language to Proto-Indo-European, rather than as a daughter language. Their Indo-Hittite hypothesis is that the parent language (Indo-Hittite) lacked the features that are absent in Hittite as well, and that Proto-Indo-European later innovated them.
+Other linguists, however, prefer the Schwund ("loss") Hypothesis in which Hittite (or Anatolian) came from Proto-Indo-European, with its full range of features, but the features became simplified in Hittite.
+According to Craig Melchert, the current tendency (as of 2012) is to suppose that Proto-Indo-European evolved and that the "prehistoric speakers" of Anatolian became isolated "from the rest of the PIE speech community, so as not to share in some common innovations". Hittite and the other Anatolian languages split off from Proto-Indo-European at an early stage. Hittite thus preserved archaisms that would be lost in the other Indo-European languages.
+Hittite has many loanwords, particularly religious vocabulary from the non-Indo-European Hurrian and Hattic languages. The latter was the language of the Hattians, the local inhabitants of the land of Hatti before they were absorbed or displaced by the Hittites. Sacred and magical texts from Hattusa were often written in Hattic, Hurrian and Luwian even after Hittite had become the norm for other writings.
+
+
+== History ==
+The Hittite language has traditionally been stratified into Old Hittite (OH), Middle Hittite (MH) and New Hittite or Neo-Hittite (NH, not to be confused with the polysemic use of "Neo-Hittite" label as a designation for the later period, which is actually post-Hittite), corresponding to the Old, Middle and New Kingdoms of the Hittite history (c. 1750–1500 BC, 1500–1430 BC and 1430–1180 BC, respectively). The stages are differentiated on both linguistic and paleographic grounds.
+The Dutch Hittitologist Alwin Kloekhorst (2019) recognizes two dialectal variants of Hittite: one he calls "Kanišite Hittite", and a second he named "Ḫattuša Hittite" (or Hittite proper). The first is attested in clay tablets from Kaniš/Neša (Kültepe), and is dated earlier than the findings from Ḫattuša.
+
+
+== Script ==
+
+Hittite was written in an adapted form of Peripheral Akkadian cuneiform orthography from Northern Syria. The predominantly syllabic nature of the script makes it difficult to ascertain the precise phonetic qualities of some of the Hittite sound inventory.
+The syllabary distinguishes the following consonants (notably, the Akkadian s series is dropped),
+
+b, d, g, ḫ, k, l, m, n, p, r, š, t, z, combined with the vowels a, e, i, u. Additionally, ya (= I.A : 𒄿𒀀), wa (= PI : 𒉿) and wi (= wi5 = GEŠTIN : 𒃾) signs are introduced.
+The Akkadian unvoiced/voiced series (k/g, p/b, t/d) do not express the voiced/unvoiced contrast in writing, but double spellings in intervocalic positions represent voiceless consonants in Indo-European (Sturtevant's law).
+
+
+== Phonology ==
+
+Since there are no longer any living speakers of Hittite, the precise sounds of the language are unknown. Scholars reconstruct the phonology of Hittite based on the written evidence of Hittite in cuneiform and indirect evidence from the transcription of Hittite words in other contemporary writing systems, such as Egyptian Hieroglyphs. Hittite's writing system is challenging to interpret phonologically because it was adapted from a system designed for the Akkadian language. The transliteration conventions of Hittite are also based on those used in Assyriology, parts of which may appear strange in the context of Hittite.
+
+
+=== Consonants ===
+
+Supporters of a length distinction usually point to the fact that Akkadian, the language from which the Hittites borrowed the cuneiform script, had voicing, but Hittite scribes used voiced and voiceless signs interchangeably. Alwin Kloekhorst also argues that the absence of assimilatory voicing is also evidence for a length distinction. He points out that the word "e-ku-ud-du – [ɛ́kʷːtu]" does not show any voice assimilation. However, if the distinction were one of voice, agreement between the stops should be expected since the velar and the alveolar plosives are known to be adjacent since that word's "u" represents not a vowel but labialization.
+
+
+==== Laryngeals ====
+Hittite has retained two of the three Proto-Indo-European laryngeals (*h₂ and *h₃ word-initially), which evolved into the Hittite phoneme transcribed with the letter ḫ. The existence of Proto-Indo-European laryngeals had been hypothesized in 1879 by Ferdinand de Saussure, who suggested the presence of these phonemes on the basis of vowel quality as it supposedly developed from Proto-Indo-European into the languages that were known at the time. Hittite texts, which were recovered from 1906 onwards, confirmed Saussure's laryngeal theory by featuring direct reflexes of Proto-Indo-European *h₂ and *h₃.
+Both the preservation of the laryngeals and the lack of evidence that Hittite shared certain grammatical features in the other early Indo-European languages have led some philologists to believe that the Anatolian languages split from the rest of Proto-Indo-European much earlier than the other divisions of the proto-language. See #Classification above for more details.
+
+
+=== Vowels ===
+
+Hittite is now agreed to have had at least five vowels and a vowel length contrast. The practice of plene spelling, in which an extra identical vowel sign is added to mark vowels already represented by a CV or VC sign, is usually taken to signal vowel length. Although vowels with plene spelling are nearly always long, the usage of plene spelling is not consistent across all long vowels. 
+The distinction between /u/ and /o/, represented respectively by the signs transliterated ⟨Ú⟩ and ⟨U⟩ was not recognized until the 21st century. Unlike other pairs of vowels, the distribution of long /uː/ and /oː/ are mostly predictable, leading Alwin Kloekhorst to reject the postulation of the long /oː/ phoneme. However, Craig Melchert states that they contrast in some environments, identifying minimal pairs such as šu-u-wa 'to fill' and šu-ú-wa 'to push, reject'.
+
+
+== Morphology ==
+
+Hittite is the oldest attested Indo-European language, yet it lacks several grammatical features that are exhibited by other early-attested Indo-European languages such as Vedic Sanskrit, Classical Latin, Ancient Greek, Old Persian and Old Avestan. Notably, Hittite did not have a masculine–feminine gender system. Instead, it had a rudimentary noun-class system that was based on an older animate–inanimate opposition.
+
+
+=== Nouns ===
+Hittite inflects for nine cases: nominative, vocative, accusative, genitive, dative-locative, ablative, ergative, allative, and instrumental; two numbers: singular, and plural; and two animacy classes: animate (common), and inanimate (neuter). Adjectives and pronouns agree with nouns for animacy, number, and case.
+The distinction in animacy is rudimentary and generally occurs in the nominative case, and the same noun is sometimes attested in both animacy classes. There is a trend towards distinguishing fewer cases in the plural than in the singular. The ergative case is used when an inanimate noun is the subject of a transitive verb. Early Hittite texts have a vocative case for a few nouns with -u, but it ceased to be productive by the time of the earliest discovered sources and was subsumed by the nominative in most documents. The allative was subsumed in the later stages of the language by the dative-locative. An archaic genitive plural -an is found irregularly in earlier texts, as is an instrumental plural in -it. A few nouns also form a distinct locative, which had no case ending at all.
+The examples of pišna- ("man") for animate and pēda- ("place") for inanimate are used here to show the Hittite noun declension's most basic form:
+
+
+=== Verbs ===
+The verbal morphology is less complicated than for other early-attested Indo-European languages like Ancient Greek and Vedic. Hittite verbs inflect according to two general conjugations (mi-conjugation and hi-conjugation), two voices (active and medio-passive), two moods (indicative mood and imperative), two aspects (perfective and imperfective), and two tenses (present and preterite). Verbs have two infinitive forms, a verbal noun, a supine, and a participle. Rose (2006) lists 132 hi verbs and interprets the hi/mi oppositions as vestiges of a system of grammatical voice ("centripetal voice" vs. "centrifugal voice").
+
+
+== Syntax ==
+Hittite is a head-final language: it has subject-object-verb word order, a split ergative alignment, and is a synthetic language; adpositions follow their complement, adjectives and genitives precede the nouns that they modify, adverbs precede verbs, and subordinate clauses precede main clauses.
+Hittite syntax shows one noteworthy feature that is typical of Anatolian languages: commonly, the beginning of a sentence or clause is composed of either a sentence-connecting particle or otherwise a fronted or topicalized form, and a "chain" of fixed-order clitics is then appended.
+
+
+== Decipherment ==
+
+The first substantive claim as to the affiliation of Hittite was made by Jørgen Alexander Knudtzon in 1902, in a book devoted to two letters between the king of Egypt and a Hittite ruler, found at El-Amarna, Egypt. Knudtzon argued that Hittite was Indo-European, largely because of its morphology. Although he had no bilingual texts, he was able to provide a partial interpretation of the two letters because of the formulaic nature of the diplomatic correspondence of the period.
+Knudtzon was definitively shown to have been correct when many tablets written in the familiar Akkadian cuneiform script but in an unknown language were discovered by Hugo Winckler in what is now the village of Boğazköy, Turkey, which was the former site of Hattusa, the capital of the Hittite state. Based on a study of this extensive material, Bedřich Hrozný succeeded in analyzing the language. He presented his argument that the language is Indo-European in a paper published in 1915 (Hrozný 1915), which was followed by a grammar of the language (Hrozný 1917).
+Hrozný's argument for the Indo-European affiliation of Hittite was thoroughly modern although poorly substantiated. He focused on the striking similarities in idiosyncratic aspects of the morphology that are unlikely to occur independently by chance or to be borrowed. They included the r/n alternation in some noun stems (the heteroclitics) and vocalic ablaut, which are both seen in the alternation in the word for water between the nominative singular, wadar, and the genitive singular, wedenas. He also presented a set of regular sound correspondences.
+After a brief initial delay because of disruption during the First World War, Hrozný's decipherment, tentative grammatical analysis and demonstration of the Indo-European affiliation of Hittite were rapidly accepted and more broadly substantiated by contemporary scholars such as Edgar H. Sturtevant, who authored the first scientifically acceptable Hittite grammar with a chrestomathy and a glossary. The most up-to-date grammar of the Hittite language is currently Hoffner and Melchert (2008).
+
+
+== Corpus ==
+
+More than 30,000 tablets or fragments have been excavated from the royal archives of the capital of the Hittite Kingdom Hattusa, close to the modern town of Boğazkale or Boğazköy. While Hattusa has yielded the majority of tablets, other sites where they have been found include: Maşat Höyük, Ortaköy, Kuşaklı or Kayalıpınar in Turkey, Alalakh, Ugarit and Emar in Syria, Amarna in Egypt.
+The tablets are mostly conserved in the Turkish museums of Ankara, Istanbul, Boğazkale and Çorum (Ortaköy) as well as in international museums such as the Pergamonmuseum in Berlin, the British Museum in London and the Musée du Louvre in Paris.
+
+
+=== The proclamation of Anitta ===
+This text has been found in three versions, the earliest of which is considered the oldest known of all Hittite language texts, dated from between the end of the 17th century BC and the middle of the 16th century BC.
+
+
+== See also ==
+
+Hittitology
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Sources ==
+
+
+== Further reading ==
+
+
+== External links ==
+
+Hittite Online by Winfred P. Lehmann and Jonathan Slocum, free online lessons at the Linguistics Research Center at the University of Texas at Austin
+Portal Mainz (in German; includes text corpora of Hittite texts in various genres with German translations)
+"Digital etymological-philological Dictionary of the Ancient Anatolian Corpus Languages (eDiAna)". Ludwig-Maximilians-Universität München. Archived from the original on 25 February 2017. Retrieved 18 February 2017.
+The Electronic Edition of the Chicago Hittite Dictionary Archived 2011-06-05 at the Wayback Machine – The University of Chicago
+ABZU – a guide to information related to the study of the Ancient Near East on the Web
+Hittite basic lexicon at the Global Lexicostatistical Database
+A video introduction to Hittite at glottothèque – Ancient Indo-European Grammars online, an online collection of introductory videos to Ancient Indo-European languages produced by the University of Göttingen

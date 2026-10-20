@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究067（open_problems 175＋174） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="067open_problems-175174">事前登録：研究067（open_problems 175＋174）</h1>
+<p>記録時刻：2026-10-20T08:53Z（資料を読み sources/cases.json を符号化した後・sim.py の作成の前）。</p>
+<h2 id="_1">問い</h2>
+<p>065 の主は、重い崩壊の後の社会が崩壊の時点から鍵あり解読の速さ（τ_key、中央値 約65年）で冊子に取り組むと置いた（＝取り組みの始まりが「崩壊からの時間」で決まる）。読めなくなった文字の文書の集まりについて、体系的な取り組みの始まり（onset）が「失われてからの時間」で決まるのか、「取り組む側の社会の段（学問の段）」で決まるのかを事例で調べ、primer の経路の時間の原点を置き直す。174 については、教える人なしに文書だけから読み始めた非学者の例（4条件をすべて満たす strict）を数える。</p>
+<h2 id="_2">資料と符号</h2>
+<p>sources/make_cases.py の冒頭の規則。corpora 13件、near174 5件。抜き出し 54件は verify_excerpts.py で照合済み（0 missing）。</p>
+<h2 id="_3">解析</h2>
+<ol>
+<li>段か時間か：loss と onset の両方が数のある例（9件）で onset 年を loss 年に回帰した傾き（OLS、bootstrap 10,000回の90%区間、seed 20261067）。時間で決まるなら傾き≈1、段で決まるなら≈0。onset 年の標準偏差と (onset − loss) の標準偏差の比も出す。</li>
+<li>1600年より前の見えていた文書（visible=True かつ loss&lt;1600 の6件）：体系的な onset の数と、1600年までの曝露（文書の集まり×年）。どんな試みでも（attempt_any）の数と曝露。率は Jeffreys（Gamma(0.5+k, 曝露)）。</li>
+<li>学問の段の社会が新しく手にした文書（visible=False で access ≥ 1850 の例）：onset（なければ onset_ub）− access の年数の中央値。</li>
+<li>模型：066 の sim.py を「# ---------- 版 ----------」の前まで exec し、066 の主（重い崩壊 A_Ord/U3 0.85082）を差0で再現。primer の経路を二段にする：学問の段 P（T2 より Δ 年前、Δ=0 が主）より前は、歴史の前近代の取り組みの率 λ_any で取り組み、取り組んだら τ_key で読む；P の後は τ_key で読む（065 の τ_key は鍵が手に入ってからの年数で取り組みの遅れを含むので、P の後に別の遅れは足さない）。T2 の後 W 年まで読めれば足りる（W=0 が主）。Δ=∞・W=0 で 065/066 の式に戻る。
+   版：main（Δ=0、W=0、λ_any）、sys（λ_sys）、pre_unkeyed（P の前の読みを τ_unkeyed）、lead25/50/100/200/400、W20、W50、e066（Δ=∞、再現の確認）、nopr（primer なし）。</li>
+<li>費用あたり：primer の追加分（065 と同じ式）と冊子＋primer の合計。</li>
+</ol>
+<h2 id="simpy">仮説（判定の規則は sim.py に同じ）</h2>
+<ul>
+<li>H79a：onset を loss に回帰した傾き &lt; 0.2（段で決まる）。</li>
+<li>H79b：学問の段の社会が新しく手にした文書の onset の遅れの中央値 ≤ 10年。</li>
+<li>H79c：1600年より前の見えていた文書6件で体系的な onset は 0件、曝露 ≥ 5,000 文書年。</li>
+<li>H79d：main の重い崩壊（A_Ord/U3）≤ 066 の主 − 0.03。</li>
+<li>H79e：066 の主と nopr の差の半分を取り戻す Δ（走査の線形補間）≤ 100年。</li>
+<li>H79f：strict の例 ≥ 3件（期待は棄却）。</li>
+<li>H79g：main の primer の追加分の費用あたり（全体、中央値）&lt; 冊子だけ（065 の 44）。</li>
+<li>H79h：W20 − main ≥ 0.01。</li>
+</ul>
+<h2 id="next_plan">切り替えの条件の判定（next_plan）</h2>
+<p>strict の例は 0件で 3件に届かないので、next_plan の規則どおり主課題を 175 に絞り、174 は数と近い例の表だけにする。</p><footer><hr><small>自動生成</small></footer></body></html>
