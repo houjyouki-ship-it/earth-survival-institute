@@ -1,0 +1,155 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究070：群の数と冊子の預け先の重なり（open_problems 173） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="070open_problems-173">研究070：群の数と冊子の預け先の重なり（open_problems 173）</h1>
+<p>第70回、2026-10-20。計算のみ（sim.py 約333秒、seed 20261070、ネット接続なし）。固定の最優先指示の節は残し、重い崩壊を優先して評価した。</p>
+<h2 id="_1">問いと新規性</h2>
+<p>069 までの模型は、重い崩壊の生き残りを「1つの群が、世界のどこに残った冊子の写しでも使える」として数えていた（063 の S_ind は 20 の預け先の単位すべてを足す）。実際には【推測】生き残りは互いに独立な G 個の群に分かれ、T2 より前の群は自分の届く範囲の写ししか使えない。群が多いと読める見込みは上がり、写しが群の地域になければ使えない。この二つを一つの式に入れたのは本研究所で初めてで、064 の G3（群3つのどれかが文字を保てば 0.86）と 062 の1地域の版をつないだ。
+また、冊子の 100部を<strong>どこに</strong>置くかを、公開の地理の数値（餓死者の国別表、図書館の国別の数）で初めて比べた。</p>
+<h2 id="_2">資料（本回開いて確認）</h2>
+<ul>
+<li>【事実（Xia et al. 2022 Nature Food の補足 PDF、Table S5・S6、https://www.nature.com/articles/s43016-022-00573-0 の Supplementary）】貿易なしの国ごとの2年目の餓死者と2010年人口。Table S5 の合計は人口 6,700.1 百万、150 Tg の餓死者 5,340.8 百万で本文 Table 1 の 5,341,000,000 と一致。国を M49 の22小地域にまとめると、150 Tg の生き残り（S5）は Southern Asia 39.9%、South America 18.4%、South-eastern Asia 14.6%、Western Africa 8.0%、Australia and New Zealand 1.9%、Northern America 0.4%。Table S4 は表の分かれで国の行を取りこぼした（人口の合計 5,333 百万）ので使っていない。</li>
+<li>【事実（lukes/ISO-3166-Countries-with-Regional-Codes の all.csv、https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes）】国→国連 M49 の地域・小地域。</li>
+<li>【事実（Wikipedia "List of largest libraries"）】1,000万点以上の 34館：Northern America 13、Northern Europe 5、Eastern Europe 4、Eastern Asia 4、Western Europe 4、南半球は Australia の1館だけ。</li>
+<li>【事実（Wikipedia "List of national and state libraries"）】国立図書館 209（"see under" の行を除き、4 は係争地で小地域なし）。</li>
+<li>【事実（Boyd &amp; Wilson 2023、Risk Analysis、PMID 36464495）】"The island nations of Australia, New Zealand, Iceland, the Solomon Islands, and Vanuatu appear most resilient to ASRS."</li>
+<li>【事実（Boyd &amp; Wilson 2021、PMID 33886124）】疫病の避難所の得点 Australia 0.71、New Zealand 0.64、Iceland 0.58。</li>
+<li>【事実（Wikipedia "Southern Hemisphere"）】南半球は世界人口の約 10–12%。（検算：Xia の 2010 人口で ANZ・South America・Southern Africa の3小地域だけなら 7.2%）</li>
+<li>切り替えの規則（数値の公開資料 5件未満なら B）は 6件で満たし、A を続けた。引用 4件は <code>sources/verify_excerpts.py</code> で保存本文と照合しすべて一致。取得して数字に使わなかった頁：Legal_deposit、Arctic_World_Archive、Svalbard_Global_Seed_Vault、Xia の本文 HTML と MOESM2（報告の要約）。</li>
+</ul>
+<h2 id="_3">方法</h2>
+<ul>
+<li>069 の sim.py を「# ---------- 版 ----------」の前まで exec し、069 の主（重い崩壊 0.82734）を<strong>差 0.0</strong> で再現。新しい式で G=1・世界に届く形にしても<strong>差 0.0</strong>（検査2）。</li>
+<li>写し 100部を 20 の単位（各5部）に分けて小地域に置く。1単位が残る確率は 069 と同じ。群 g が届く単位の数を D_g として S_g = 1 − f1^{D_g}。広まりなし（主）は P = 1 − Π(1 − R·S_g)、広まりあり（版）は P = [1 − (1−R)^G]·[1 − Π(1 − S_g)]。R（文字の連続・解読・primer・地図）と軽い崩壊は 069 のまま。</li>
+<li>【推測】主の抽出：群の地理は標本ごとに Xia 150 Tg・47 Tg の生き残り・2010年人口（疫病型）を等確率、G = round(10^U(0,1))（1〜10、平均 3.9）、群は重みに比例して重複なしに小地域を選ぶ、届く範囲は小地域か大陸（米州は南北に分ける）を等確率。</li>
+<li>置き方（最大剰余法で 20単位）：D_nat（国立図書館の数に比例、主）、D_big（1,000万点以上の図書館）、D_pop（人口）、D_surv（Xia 150 Tg の生き残り）、D_even（人口の多い 20 小地域に1つずつ。ANZ と Melanesia を含む）。</li>
+</ul>
+<h2 id="_4">結果</h2>
+<h3 id="o">生き残りの住む小地域に単位がある割合 o（小地域だけ／大陸まで）</h3>
+<table>
+<thead>
+<tr>
+<th>地理＼置き方</th>
+<th>D_nat</th>
+<th>D_big</th>
+<th>D_pop</th>
+<th>D_surv</th>
+<th>D_even</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Xia 150 Tg</td>
+<td>0.97 / 0.98</td>
+<td><strong>0.44</strong> / 0.64</td>
+<td>0.91 / 0.98</td>
+<td>0.91 / 0.97</td>
+<td>1.0 / 1.0</td>
+</tr>
+<tr>
+<td>Xia 47 Tg</td>
+<td>0.96 / 0.99</td>
+<td>0.55 / 0.74</td>
+<td>0.89 / 0.99</td>
+<td>0.75 / 0.92</td>
+<td>1.0 / 1.0</td>
+</tr>
+<tr>
+<td>人口（疫病型）</td>
+<td>0.94 / 1.00</td>
+<td>0.65 / 0.81</td>
+<td>0.90 / 1.00</td>
+<td>0.54 / 0.89</td>
+<td>1.0 / 1.0</td>
+</tr>
+<tr>
+<td>島の避難所（Boyd &amp; Wilson）</td>
+<td><strong>0.2</strong> / 0.2</td>
+<td>0.6 / 1.0</td>
+<td>0.0 / 0.2</td>
+<td><strong>0.0 / 0.0</strong></td>
+<td>1.0 / 1.0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tcv0a_ordu3-a_xpt_su2">重い崩壊の TC/V0（A_Ord/U3、括弧は A_XPT_S/U2）</h3>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>重い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>069 主（1群・世界に届く）</td>
+<td>0.827（0.846）</td>
+</tr>
+<tr>
+<td><strong>070 主</strong>（D_nat、G 1〜10、届く範囲は小地域か大陸、広まりなし）</td>
+<td><strong>0.819</strong>（0.850）</td>
+</tr>
+<tr>
+<td>D_big / D_pop / D_surv / D_even</td>
+<td><strong>0.787</strong> / 0.834 / 0.834 / 0.817</td>
+</tr>
+<tr>
+<td>地理：xia150 / xia47 / pop / S6 / <strong>refuge</strong></td>
+<td>0.818 / 0.821 / 0.821 / 0.818 / <strong>0.740</strong></td>
+</tr>
+<tr>
+<td>refuge × D_surv</td>
+<td><strong>0.640</strong></td>
+</tr>
+<tr>
+<td>G1 / G3 / G10</td>
+<td><strong>0.756</strong> / 0.824 / 0.867</td>
+</tr>
+<tr>
+<td>届く範囲：小地域 / 大陸 / 世界</td>
+<td>0.793 / 0.845 / 0.873</td>
+</tr>
+<tr>
+<td>広まりあり / ＋D_surv</td>
+<td>0.827 / 0.843</td>
+</tr>
+<tr>
+<td>G3・広まりあり・大陸 / ＋D_surv</td>
+<td>0.863 / 0.871</td>
+</tr>
+<tr>
+<td>全体は 0.924→0.921、軽い崩壊は 0.969 で不変。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>G の走査（D_nat、届く範囲は混ぜ、広まりなし）：G=1 <strong>0.756</strong>、2 0.800、3 0.824、5 0.848、10 0.867。世界に届くなら 0.827→0.894、広まりあり・大陸なら 0.785→0.885。</li>
+<li>分け方：群が多いことの効き（世界に届く形で G を主の抽出に替える）は <strong>+0.046</strong>、写しが届く範囲に限られることの損（同じ G で届く範囲を混ぜる）は <strong>−0.054</strong>。打ち消し合い、主は 069 から −0.008 しか動かない。</li>
+<li>費用あたり（冊子＋primer＋地図、全体、中央値、TAB=1）：069 27.5、070 主 26.8、D_big 24.0、D_pop 28.1、D_surv 28.1、D_even 26.6。重い崩壊だけで 069 60.6、主 58.0、D_big 48.1、D_pop 62.7。置き方を替えても費用は同じ。</li>
+</ul>
+<h3 id="explore_posthocpyseed-20261170">事後の探索（事前登録の外、<code>explore_posthoc.py</code>、seed 20261170）</h3>
+<p>地理に島の避難所を足して4つを等確率に混ぜると、D_even <strong>0.813</strong>、D_nat 0.798、D_pop 0.796、D_big 0.786、D_surv <strong>0.781</strong>。避難所だけの地理では D_even 0.797、D_big 0.791、D_nat 0.740、D_pop 0.682、D_surv 0.640。最悪の場合で比べると D_even（0.797）が最もよく、D_surv（0.640）が最も悪い。</p>
+<h2 id="_5">仮説の判定</h2>
+<ul>
+<li>H82a（主 ≤ 069 主 − 0.010）：<strong>棄却</strong>（−0.008）。</li>
+<li>H82b（世界に届く版 ≥ 069 主 + 0.010）：支持（+0.046）。</li>
+<li>H82c（D_surv ≥ D_nat + 0.010）：支持（+0.015）。</li>
+<li>H82d（D_big が最も低い）：支持（0.787）。</li>
+<li>H82e（Xia 150 Tg で D_big の o &lt; 0.5）：支持（0.44）。</li>
+<li>H82f（G3・広まりあり・大陸 ≥ 0.85）：支持（0.863）。</li>
+<li>H82g（地理の5版の幅 ≤ 0.05）：<strong>棄却</strong>（0.081、島の避難所の版が 0.740）。</li>
+<li>H82h（数値の公開資料 ≥ 5）：支持（6）。</li>
+</ul>
+<h2 id="_6">批判的な検討</h2>
+<ul>
+<li>【独自仮説の検証】「群が多いほど価値が上がる」は届く範囲を世界にしたときだけ単調に強い。群が1つで自分の小地域しか使えないなら 0.756 で、069 の 0.827 は群の数でなく<strong>届く範囲</strong>を暗黙に世界にしていたことに支えられていた。</li>
+<li>G と届く範囲の分布は根拠のない【推測】で、主の −0.008 はこの二つの打ち消し合いの結果にすぎない。走査の幅（0.756〜0.894）の方が結論として頑健。</li>
+<li>Xia の生き残りの国別の分け方は2年目の飢餓だけで、その後の崩壊・移動・疫病を入れていない。生き残りの数は人口の大きい国に引っぱられ、South Asia が 40% になる。Xia 本文は Australia を例外とし、Boyd &amp; Wilson は島の国を挙げており、どちらの地理が重い崩壊に当たるかは決まらない。地理の版の幅（0.081）はこの不確かさから来る。</li>
+<li>群どうしの独立（同じ小地域に2つの群を置かない、群ごとの R が独立）は上向きの偏り。届く範囲は小地域か大陸の二択で、海を越える移動や交易を入れていない。</li>
+<li>置き方の比較で D_surv は Xia の 150 Tg に合わせて置いたので、その地理で強いのは当然（循環）。避難所の地理では最悪になる。</li>
+</ul>
+<h2 id="_7">誰が何を変えるべきか</h2>
+<ul>
+<li>金庫・冊子の運営者：100部を大きな図書館（北米・欧州に集まる）に預けるのはやめ、<strong>小地域ごとに1つずつ、Australia/New Zealand と Melanesia を含めて</strong>散らして置く（D_even）。費用は同じで、4つの地理を混ぜた事後の比較で最もよく（0.813 対 大図書館 0.786）、避難所の地理でも崩れない（0.797 対 生き残り予測に合わせた置き方 0.640）。ある一つの破局の予測（例えば Xia の 150 Tg）に合わせて置き場所を寄せない。</li>
+<li>本研究所：069 の「重い崩壊 0.827」を「群が1つで地域の写ししか使えなければ 0.756、G と届く範囲で 0.756〜0.894、主 0.819」と改める。次は G と届く範囲の根拠（185）と、置き方を最悪の場合で選ぶ規則を 054 の南半球の写しと合わせる問い（186）。</li>
+</ul>
+<h2 id="_8">成果物</h2>
+<p>sim.py、results.json、stdout.txt、fig_overlap_scanG.png、fig_versions.png、explore_posthoc.py・explore_posthoc.json・explore_posthoc_stdout.txt（事後）、PREREGISTRATION.md、sources/（Xia の補足 PDF と本文テキスト、parse_xia.py、xia_tables.json、iso_regions.csv、Wikipedia の wikitext、PubMed の抄録、make_cases.py、cases.json、fetch.py、verify_excerpts.py、SHA256SUMS.txt）。</p><footer><hr><small>自動生成</small></footer></body></html>

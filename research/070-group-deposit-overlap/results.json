@@ -1,0 +1,1001 @@
+{
+ "study": "070-group-deposit-overlap",
+ "seed": 20261070,
+ "check_069_main": {
+  "max_abs_diff": 0.0,
+  "reproduced": true
+ },
+ "regions": [
+  "Australia and New Zealand",
+  "Caribbean",
+  "Central America",
+  "Central Asia",
+  "Eastern Africa",
+  "Eastern Asia",
+  "Eastern Europe",
+  "Melanesia",
+  "Micronesia",
+  "Middle Africa",
+  "Northern Africa",
+  "Northern America",
+  "Northern Europe",
+  "Polynesia",
+  "South America",
+  "South-eastern Asia",
+  "Southern Africa",
+  "Southern Asia",
+  "Southern Europe",
+  "Western Africa",
+  "Western Asia",
+  "Western Europe"
+ ],
+ "continent": [
+  "Oceania",
+  "Americas_N",
+  "Americas_N",
+  "Asia",
+  "Africa",
+  "Asia",
+  "Europe",
+  "Oceania",
+  "Oceania",
+  "Africa",
+  "Africa",
+  "Americas_N",
+  "Europe",
+  "Oceania",
+  "Americas_S",
+  "Asia",
+  "Africa",
+  "Asia",
+  "Europe",
+  "Africa",
+  "Asia",
+  "Europe"
+ ],
+ "weights": {
+  "xia150": {
+   "Australia and New Zealand": 0.01890679025969249,
+   "Caribbean": 0.01780328110056647,
+   "Central America": 0.022070183182520423,
+   "Eastern Africa": 0.055101890679025975,
+   "Eastern Asia": 0.006326785845655953,
+   "Eastern Europe": 0.001544912822776421,
+   "Melanesia": 0.00036783638637534027,
+   "Middle Africa": 0.013389244464062387,
+   "Northern Africa": 0.020966674023394395,
+   "Northern America": 0.003604796586478344,
+   "Northern Europe": 0.003899065695578604,
+   "Polynesia": 0.00014713455455013608,
+   "South America": 0.18428602957404547,
+   "South-eastern Asia": 0.1462517472228353,
+   "Southern Africa": 0.008165967777532555,
+   "Southern Asia": 0.39954388288089454,
+   "Southern Europe": 0.005811814904730374,
+   "Western Africa": 0.08026189950709924,
+   "Western Asia": 0.010520120650334726,
+   "Western Europe": 0.001029941881850957
+  },
+  "xia47": {
+   "Australia and New Zealand": 0.006402293358815097,
+   "Caribbean": 0.00826564739608218,
+   "Central America": 0.02527472527472528,
+   "Central Asia": 0.008146201624462493,
+   "Eastern Africa": 0.046583850931677016,
+   "Eastern Asia": 0.06872909698996658,
+   "Eastern Europe": 0.023005255613951264,
+   "Melanesia": 0.00011944577161968466,
+   "Middle Africa": 0.012947921643573819,
+   "Northern Africa": 0.032513139034878166,
+   "Northern America": 0.026278069756330624,
+   "Northern Europe": 0.004897276636407069,
+   "Polynesia": 7.16674629718108e-05,
+   "South America": 0.08750597228858098,
+   "South-eastern Asia": 0.11944577161968467,
+   "Southern Africa": 0.008671763019589107,
+   "Southern Asia": 0.37317247969421874,
+   "Southern Europe": 0.026086956521739132,
+   "Western Africa": 0.06743908265647397,
+   "Western Asia": 0.030649784997611087,
+   "Western Europe": 0.023793597706641186
+  },
+  "pop": {
+   "Australia and New Zealand": 0.0040135983106944426,
+   "Caribbean": 0.005451305168256632,
+   "Central America": 0.024036661524867838,
+   "Central Asia": 0.009225285669357375,
+   "Eastern Africa": 0.04555733604900185,
+   "Eastern Asia": 0.2351998562293143,
+   "Eastern Europe": 0.044374223114132964,
+   "Melanesia": 0.00010483279169724291,
+   "Middle Africa": 0.009270214008656194,
+   "Northern Africa": 0.023572402018780046,
+   "Northern America": 0.05187725577703563,
+   "Northern Europe": 0.014811375855510463,
+   "Polynesia": 4.4928339298818385e-05,
+   "South America": 0.05899090949934854,
+   "South-eastern Asia": 0.08849385230557262,
+   "Southern Africa": 0.008641217258472738,
+   "Southern Asia": 0.2516885567519806,
+   "Southern Europe": 0.02282359636379974,
+   "Western Africa": 0.04287661180417235,
+   "Western Asia": 0.030431461818399657,
+   "Western Europe": 0.02851451934165007
+  },
+  "S6": {
+   "Australia and New Zealand": 0.018486872766816837,
+   "Caribbean": 0.017088705918906325,
+   "Central America": 0.020195743358707472,
+   "Eastern Africa": 0.054450831132515136,
+   "Eastern Asia": 0.005592667391642181,
+   "Eastern Europe": 0.0015535187199005706,
+   "Melanesia": 0.0003883796799751437,
+   "Middle Africa": 0.013670964735125059,
+   "Northern Africa": 0.02073947491067267,
+   "Northern America": 0.0020972502718657506,
+   "Northern Europe": 0.0010874631039303978,
+   "Polynesia": 0.00015535187199005747,
+   "South America": 0.17849930091657604,
+   "South-eastern Asia": 0.14975920459841544,
+   "Southern Africa": 0.00753456579151779,
+   "Southern Asia": 0.4127699238775826,
+   "Southern Europe": 0.0036507689917663535,
+   "Western Africa": 0.08280254777070062,
+   "Western Asia": 0.009165760447413386,
+   "Western Europe": 0.00031070374398011385
+  },
+  "refuge": {
+   "Australia and New Zealand": 0.4,
+   "Melanesia": 0.4,
+   "Northern Europe": 0.2
+  }
+ },
+ "deposit_units": {
+  "D_nat": {
+   "Caribbean": 1,
+   "Central America": 1,
+   "Central Asia": 1,
+   "Eastern Africa": 1,
+   "Eastern Asia": 1,
+   "Eastern Europe": 1,
+   "Middle Africa": 1,
+   "Northern Africa": 1,
+   "Northern Europe": 2,
+   "South America": 1,
+   "South-eastern Asia": 1,
+   "Southern Asia": 1,
+   "Southern Europe": 2,
+   "Western Africa": 2,
+   "Western Asia": 2,
+   "Western Europe": 1
+  },
+  "D_big": {
+   "Australia and New Zealand": 1,
+   "Eastern Asia": 2,
+   "Eastern Europe": 2,
+   "Northern America": 8,
+   "Northern Europe": 3,
+   "Southern Asia": 1,
+   "Southern Europe": 1,
+   "Western Europe": 2
+  },
+  "D_pop": {
+   "Central America": 1,
+   "Eastern Africa": 1,
+   "Eastern Asia": 5,
+   "Eastern Europe": 1,
+   "Northern America": 1,
+   "South America": 1,
+   "South-eastern Asia": 2,
+   "Southern Asia": 5,
+   "Western Africa": 1,
+   "Western Asia": 1,
+   "Western Europe": 1
+  },
+  "D_surv": {
+   "Central America": 1,
+   "Eastern Africa": 1,
+   "Northern Africa": 1,
+   "South America": 4,
+   "South-eastern Asia": 3,
+   "Southern Asia": 8,
+   "Western Africa": 2
+  },
+  "D_even": {
+   "Australia and New Zealand": 1,
+   "Caribbean": 1,
+   "Central America": 1,
+   "Central Asia": 1,
+   "Eastern Africa": 1,
+   "Eastern Asia": 1,
+   "Eastern Europe": 1,
+   "Melanesia": 1,
+   "Middle Africa": 1,
+   "Northern Africa": 1,
+   "Northern America": 1,
+   "Northern Europe": 1,
+   "South America": 1,
+   "South-eastern Asia": 1,
+   "Southern Africa": 1,
+   "Southern Asia": 1,
+   "Southern Europe": 1,
+   "Western Africa": 1,
+   "Western Asia": 1,
+   "Western Europe": 1
+  }
+ },
+ "overlap": {
+  "xia150": {
+   "D_nat": {
+    "o_sub": 0.9688074744353712,
+    "o_cont": 0.9805782387993821,
+    "mean_units_sub": 1.069300375193114,
+    "mean_units_cont": 4.6102405649966895
+   },
+   "D_big": {
+    "o_sub": 0.4406679908776577,
+    "o_cont": 0.63782829397484,
+    "mean_units_sub": 0.4826013389244467,
+    "mean_units_cont": 2.153461340395792
+   },
+   "D_pop": {
+    "o_sub": 0.9105421908335173,
+    "o_cont": 0.9805782387993821,
+    "mean_units_sub": 2.6802766129625546,
+    "mean_units_cont": 7.965938350621644
+   },
+   "D_surv": {
+    "o_sub": 0.9084823070698154,
+    "o_cont": 0.9682925034944457,
+    "mean_units_sub": 4.630912969910983,
+    "mean_units_cont": 7.68123298756713
+   },
+   "D_even": {
+    "o_sub": 0.9998528654454498,
+    "o_cont": 1.0000000000000002,
+    "mean_units_sub": 0.9998528654454498,
+    "mean_units_cont": 4.105348341057898
+   }
+  },
+  "xia47": {
+   "D_nat": {
+    "o_sub": 0.9584567606306736,
+    "o_cont": 0.9934065934065933,
+    "mean_units_sub": 1.087529861442905,
+    "mean_units_cont": 5.115480172001911
+   },
+   "D_big": {
+    "o_sub": 0.5523650262780696,
+    "o_cont": 0.7443382704252268,
+    "mean_units_sub": 0.8616340181557572,
+    "mean_units_cont": 2.9078356426182514
+   },
+   "D_pop": {
+    "o_sub": 0.8918776875298614,
+    "o_cont": 0.9934065934065933,
+    "mean_units_sub": 2.7789297658862875,
+    "mean_units_cont": 8.500883898709985
+   },
+   "D_surv": {
+    "o_sub": 0.7519350215002387,
+    "o_cont": 0.9156235069278547,
+    "mean_units_sub": 3.9329909221213564,
+    "mean_units_cont": 7.68404204491161
+   },
+   "D_even": {
+    "o_sub": 0.9999283325370282,
+    "o_cont": 0.9999999999999999,
+    "mean_units_sub": 0.9999283325370282,
+    "mean_units_cont": 4.432775919732442
+   }
+  },
+  "pop": {
+   "D_nat": {
+    "o_sub": 0.9353181675228011,
+    "o_cont": 0.9958366405583094,
+    "mean_units_sub": 1.0462612133646834,
+    "mean_units_cont": 5.224686624833391
+   },
+   "D_big": {
+    "o_sub": 0.6533029817441183,
+    "o_cont": 0.8110913093615684,
+    "mean_units_sub": 1.354155122579486,
+    "mean_units_cont": 3.3843918949275906
+   },
+   "D_pop": {
+    "o_sub": 0.9020412442154764,
+    "o_cont": 0.9958366405583094,
+    "mean_units_sub": 2.9380887484462286,
+    "mean_units_cont": 8.69811151213814
+   },
+   "D_surv": {
+    "o_sub": 0.5352163299537238,
+    "o_cont": 0.8853129258832162,
+    "mean_units_sub": 2.6938732721309515,
+    "mean_units_cont": 7.602429125544757
+   },
+   "D_even": {
+    "o_sub": 0.9999550716607013,
+    "o_cont": 1.0,
+    "mean_units_sub": 0.9999550716607013,
+    "mean_units_cont": 4.478292124062121
+   }
+  },
+  "S6": {
+   "D_nat": {
+    "o_sub": 0.9713375796178343,
+    "o_cont": 0.9809693956812178,
+    "mean_units_sub": 1.0680441199316448,
+    "mean_units_cont": 4.656594686965978
+   },
+   "D_big": {
+    "o_sub": 0.4455491688674848,
+    "o_cont": 0.6423023147428926,
+    "mean_units_sub": 0.46986173683392873,
+    "mean_units_cont": 2.118766506136399
+   },
+   "D_pop": {
+    "o_sub": 0.9171974522292993,
+    "o_cont": 0.9809693956812178,
+    "mean_units_sub": 2.740407021904614,
+    "mean_units_cont": 8.133602609911451
+   },
+   "D_surv": {
+    "o_sub": 0.91921702656517,
+    "o_cont": 0.9743669411216405,
+    "mean_units_sub": 4.726425353425508,
+    "mean_units_cont": 7.820335560043499
+   },
+   "D_even": {
+    "o_sub": 0.9998446481280099,
+    "o_cont": 0.9999999999999999,
+    "mean_units_sub": 0.9998446481280099,
+    "mean_units_cont": 4.143545129718812
+   }
+  },
+  "refuge": {
+   "D_nat": {
+    "o_sub": 0.2,
+    "o_cont": 0.2,
+    "mean_units_sub": 0.4,
+    "mean_units_cont": 1.2000000000000002
+   },
+   "D_big": {
+    "o_sub": 0.6000000000000001,
+    "o_cont": 1.0,
+    "mean_units_sub": 1.0,
+    "mean_units_cont": 2.4
+   },
+   "D_pop": {
+    "o_sub": 0.0,
+    "o_cont": 0.2,
+    "mean_units_sub": 0.0,
+    "mean_units_cont": 0.4
+   },
+   "D_surv": {
+    "o_sub": 0.0,
+    "o_cont": 0.0,
+    "mean_units_sub": 0.0,
+    "mean_units_cont": 0.0
+   },
+   "D_even": {
+    "o_sub": 1.0,
+    "o_cont": 1.0,
+    "mean_units_sub": 1.0,
+    "mean_units_cont": 2.4000000000000004
+   }
+  }
+ },
+ "southern_share_check": {
+  "xia_pop_ANZ_SAm_SAfr": 0.07164572506851573
+ },
+ "check_G1_global_equals_069": {
+  "max_abs_diff": 0.0,
+  "reproduced": true
+ },
+ "groups_realised": {
+  "main": {
+   "mean_G": 3.89281
+  },
+  "geo_xia150": {
+   "mean_G": 3.89281
+  },
+  "geo_xia47": {
+   "mean_G": 3.89281
+  },
+  "geo_pop": {
+   "mean_G": 3.89281
+  },
+  "geo_refuge": {
+   "mean_G": 2.426415
+  },
+  "geo_S6": {
+   "mean_G": 3.89281
+  },
+  "G1": {
+   "mean_G": 1.0
+  },
+  "G3": {
+   "mean_G": 3.0
+  },
+  "G10": {
+   "mean_G": 10.0
+  }
+ },
+ "scan_G": [
+  {
+   "G": 1,
+   "nospread_mix": 0.7559782561387944,
+   "nospread_mix_XPT": 0.7815860187895215,
+   "spread_cont": 0.7852767251539116,
+   "spread_cont_XPT": 0.816528446577094,
+   "nospread_global": 0.8273386199367267,
+   "nospread_global_XPT": 0.8458276566278621
+  },
+  {
+   "G": 2,
+   "nospread_mix": 0.8004974417728551,
+   "nospread_mix_XPT": 0.8303271097275723,
+   "spread_cont": 0.8462002428880087,
+   "spread_cont_XPT": 0.8747825672198433,
+   "nospread_global": 0.8693186643907841,
+   "nospread_global_XPT": 0.8884933800627847
+  },
+  {
+   "G": 3,
+   "nospread_mix": 0.8241679282651059,
+   "nospread_mix_XPT": 0.8544438756083984,
+   "spread_cont": 0.8632852567580748,
+   "spread_cont_XPT": 0.8905005389027735,
+   "nospread_global": 0.8807565136365899,
+   "nospread_global_XPT": 0.9026041692147155
+  },
+  {
+   "G": 5,
+   "nospread_mix": 0.8479714509088674,
+   "nospread_mix_XPT": 0.876953702889845,
+   "spread_cont": 0.8759837193183806,
+   "spread_cont_XPT": 0.9018945592916773,
+   "nospread_global": 0.8896533615622667,
+   "nospread_global_XPT": 0.9080786862130978
+  },
+  {
+   "G": 10,
+   "nospread_mix": 0.8673270787924645,
+   "nospread_mix_XPT": 0.8955045250376287,
+   "spread_cont": 0.8848436789854922,
+   "spread_cont_XPT": 0.9057663943317456,
+   "nospread_global": 0.8940812705628062,
+   "nospread_global_XPT": 0.9099011280156449
+  }
+ ],
+ "ratio_to_V0": {
+  "chk069": {
+   "A_Ord/U3": {
+    "total": 0.9244033077750705,
+    "heavy": 0.8273386199367267,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9526154735879084,
+    "heavy": 0.8458276566278621,
+    "light": 0.9672620688201531
+   }
+  },
+  "chk_G1_global": {
+   "A_Ord/U3": {
+    "total": 0.9244033077750705,
+    "heavy": 0.8273386199367267,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9526154735879084,
+    "heavy": 0.8458276566278621,
+    "light": 0.9672620688201531
+   }
+  },
+  "main": {
+   "A_Ord/U3": {
+    "total": 0.9214268301069687,
+    "heavy": 0.8191292444582489,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9532713582668201,
+    "heavy": 0.8504401133530389,
+    "light": 0.9672620688201531
+   }
+  },
+  "D_big": {
+   "A_Ord/U3": {
+    "total": 0.9098198219163525,
+    "heavy": 0.7871161407015191,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9485149228579564,
+    "heavy": 0.8169908604662575,
+    "light": 0.9672620688201531
+   }
+  },
+  "D_pop": {
+   "A_Ord/U3": {
+    "total": 0.926878436002309,
+    "heavy": 0.8341652315362471,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9548076810698397,
+    "heavy": 0.8612441810080255,
+    "light": 0.9672620688201531
+   }
+  },
+  "D_surv": {
+   "A_Ord/U3": {
+    "total": 0.9267660969953339,
+    "heavy": 0.8338553911168076,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9547834166804137,
+    "heavy": 0.8610735436234513,
+    "light": 0.9672620688201531
+   }
+  },
+  "D_even": {
+   "A_Ord/U3": {
+    "total": 0.9207252944011568,
+    "heavy": 0.8171943500418427,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9530061122092426,
+    "heavy": 0.8485747915953636,
+    "light": 0.9672620688201531
+   }
+  },
+  "geo_xia150": {
+   "A_Ord/U3": {
+    "total": 0.920997351185021,
+    "heavy": 0.8179447055086899,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9532485240552508,
+    "heavy": 0.8502795335802477,
+    "light": 0.9672620688201531
+   }
+  },
+  "geo_xia47": {
+   "A_Ord/U3": {
+    "total": 0.9220825762542342,
+    "heavy": 0.820937847425158,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9535216792048302,
+    "heavy": 0.8522004753970098,
+    "light": 0.9672620688201531
+   }
+  },
+  "geo_pop": {
+   "A_Ord/U3": {
+    "total": 0.922160579516075,
+    "heavy": 0.8211529869747866,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9533697137187446,
+    "heavy": 0.8511317902289794,
+    "light": 0.9672620688201531
+   }
+  },
+  "geo_refuge": {
+   "A_Ord/U3": {
+    "total": 0.8928191903930951,
+    "heavy": 0.7402269706461408,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9417109807636568,
+    "heavy": 0.7691426800168543,
+    "light": 0.9672620688201531
+   }
+  },
+  "geo_S6": {
+   "A_Ord/U3": {
+    "total": 0.9211215841684117,
+    "heavy": 0.8182873505143607,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9532708223068849,
+    "heavy": 0.8504363442575147,
+    "light": 0.9672620688201531
+   }
+  },
+  "G1": {
+   "A_Ord/U3": {
+    "total": 0.898530142418093,
+    "heavy": 0.7559782561387944,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9434804055500077,
+    "heavy": 0.7815860187895215,
+    "light": 0.9672620688201531
+   }
+  },
+  "G3": {
+   "A_Ord/U3": {
+    "total": 0.9232537083959511,
+    "heavy": 0.8241679282651059,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.953840687472005,
+    "heavy": 0.8544438756083984,
+    "light": 0.9672620688201531
+   }
+  },
+  "G10": {
+   "A_Ord/U3": {
+    "total": 0.9389019447393511,
+    "heavy": 0.8673270787924645,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9596794524667627,
+    "heavy": 0.8955045250376287,
+    "light": 0.9672620688201531
+   }
+  },
+  "reach_sub": {
+   "A_Ord/U3": {
+    "total": 0.9119756739417665,
+    "heavy": 0.7930621617123024,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9500653100535699,
+    "heavy": 0.8278938348411148,
+    "light": 0.9672620688201531
+   }
+  },
+  "reach_cont": {
+   "A_Ord/U3": {
+    "total": 0.9309188072260911,
+    "heavy": 0.8453089148246951,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9567647031352848,
+    "heavy": 0.8750067826929115,
+    "light": 0.9672620688201531
+   }
+  },
+  "reach_global": {
+   "A_Ord/U3": {
+    "total": 0.9409290531161114,
+    "heavy": 0.8729180140038162,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.959175548849236,
+    "heavy": 0.891960863012532,
+    "light": 0.9672620688201531
+   }
+  },
+  "spread": {
+   "A_Ord/U3": {
+    "total": 0.9241320357058463,
+    "heavy": 0.8265904287787847,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9545702928705001,
+    "heavy": 0.8595747674179127,
+    "light": 0.9672620688201531
+   }
+  },
+  "spread_D_surv": {
+   "A_Ord/U3": {
+    "total": 0.9299455131826451,
+    "heavy": 0.842624488081218,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9559289000253817,
+    "heavy": 0.8691290639427302,
+    "light": 0.9672620688201531
+   }
+  },
+  "G3_spread_cont": {
+   "A_Ord/U3": {
+    "total": 0.9374364991576081,
+    "heavy": 0.8632852567580748,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9589678928717591,
+    "heavy": 0.8905005389027735,
+    "light": 0.9672620688201531
+   }
+  },
+  "G3_spread_cont_D_surv": {
+   "A_Ord/U3": {
+    "total": 0.9400505521806859,
+    "heavy": 0.8704950346163377,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9597897169717932,
+    "heavy": 0.8962799513802912,
+    "light": 0.9672620688201531
+   }
+  },
+  "geo_refuge_D_surv": {
+   "A_Ord/U3": {
+    "total": 0.8565539689454827,
+    "heavy": 0.6402044430578697,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9264459523871192,
+    "heavy": 0.6617925847040563,
+    "light": 0.9672620688201531
+   }
+  },
+  "069_main": {
+   "A_Ord/U3": {
+    "total": 0.9244033077750705,
+    "heavy": 0.8273386199367267,
+    "light": 0.9686818488542848
+   },
+   "A_XPT_S/U2": {
+    "total": 0.9526154735879084,
+    "heavy": 0.8458276566278621,
+    "light": 0.9672620688201531
+   }
+  }
+ },
+ "CE": {
+  "A_Ord/U3": {
+   "total": {
+    "chk069": [
+     6.415752114030134,
+     27.487814152188516,
+     125.57143083778222
+    ],
+    "main": [
+     6.248121713166395,
+     26.76961413084996,
+     122.29050774190091
+    ],
+    "D_big": [
+     5.5944338133131035,
+     23.968936800220586,
+     109.49629071995301
+    ],
+    "D_pop": [
+     6.555147326488,
+     28.085042602671734,
+     128.2997245700155
+    ],
+    "D_surv": [
+     6.548820575585855,
+     28.057936107611706,
+     128.1758951032256
+    ],
+    "D_even": [
+     6.20861235858741,
+     26.60033923109735,
+     121.51721630267728
+    ],
+    "spread": [
+     6.400474510507519,
+     27.422358392854846,
+     125.27241203219093
+    ],
+    "reach_global": [
+     7.346455322651015,
+     31.475343030286957,
+     143.78749210615092
+    ]
+   },
+   "heavy": {
+    "chk069": [
+     14.138470322670193,
+     60.57522761453214,
+     276.723276822487
+    ],
+    "main": [
+     13.545310325014103,
+     58.033877592228805,
+     265.11373388853735
+    ],
+    "D_big": [
+     11.23223637693021,
+     48.123683794971946,
+     219.84141037414912
+    ],
+    "D_pop": [
+     14.631720135763313,
+     62.688519860230905,
+     286.37734133272943
+    ],
+    "D_surv": [
+     14.609332934331206,
+     62.592603555888715,
+     285.9391708943586
+    ],
+    "D_even": [
+     13.405506515271313,
+     57.434898536979134,
+     262.37744294182437
+    ],
+    "spread": [
+     14.084410538627584,
+     60.343612478775704,
+     275.66519909249376
+    ],
+    "reach_global": [
+     17.431762650311835,
+     74.68509436781245,
+     341.18079051674323
+    ]
+   }
+  },
+  "A_XPT_S/U2": {
+   "total": {
+    "chk069": [
+     5.482118231571913,
+     23.487729019367364,
+     107.29800935652919
+    ],
+    "main": [
+     5.51731052882708,
+     23.638507807161112,
+     107.98680578168036
+    ],
+    "D_big": [
+     5.2620981505451265,
+     22.545069298492535,
+     102.99169641043517
+    ],
+    "D_pop": [
+     5.599743813979394,
+     23.99168710429543,
+     109.60021998180174
+    ],
+    "D_surv": [
+     5.598441878390937,
+     23.98610905781583,
+     109.57473802554856
+    ],
+    "D_even": [
+     5.503078426135616,
+     23.577531418606085,
+     107.70824989812476
+    ],
+    "spread": [
+     5.5870064588548765,
+     23.937114850843255,
+     109.35091984057951
+    ],
+    "reach_global": [
+     5.834107119307475,
+     24.99579930602203,
+     114.1872637239629
+    ]
+   },
+   "heavy": {
+    "chk069": [
+     12.693766037908183,
+     54.3854992430812,
+     248.44699978579777
+    ],
+    "main": [
+     13.01183617955899,
+     55.74824717748754,
+     254.67238413419318
+    ],
+    "D_big": [
+     10.705211047286511,
+     45.86568285334238,
+     209.52627918533804
+    ],
+    "D_pop": [
+     13.756873268073823,
+     58.94030333264952,
+     269.2545206583637
+    ],
+    "D_surv": [
+     13.745106294351082,
+     58.88988860635156,
+     269.024213174419
+    ],
+    "D_even": [
+     12.883205562289543,
+     55.19713883680653,
+     252.1547789691262
+    ],
+    "spread": [
+     13.641752271017626,
+     58.4470759579236,
+     267.0013306873537
+    ],
+    "reach_global": [
+     15.87506319989187,
+     68.01553101445546,
+     310.71250341659953
+    ]
+   }
+  }
+ },
+ "hypotheses": {
+  "H82a": {
+   "value": [
+    0.8191292444582489,
+    0.8273386199367267,
+    -0.008209375478477887
+   ],
+   "rule": "main heavy <= 069 main - 0.010",
+   "supported": false
+  },
+  "H82b": {
+   "value": [
+    0.8729180140038162,
+    0.8273386199367267,
+    0.04557939406708944
+   ],
+   "rule": "reach_global heavy >= 069 main + 0.010",
+   "supported": true
+  },
+  "H82c": {
+   "value": [
+    0.8338553911168076,
+    0.8191292444582489,
+    0.014726146658558759
+   ],
+   "rule": "D_surv heavy >= D_nat + 0.010",
+   "supported": true
+  },
+  "H82d": {
+   "value": {
+    "D_nat": 0.8191292444582489,
+    "D_big": 0.7871161407015191,
+    "D_pop": 0.8341652315362471,
+    "D_surv": 0.8338553911168076,
+    "D_even": 0.8171943500418427
+   },
+   "rule": "D_big lowest among placements",
+   "supported": true
+  },
+  "H82e": {
+   "value": 0.4406679908776577,
+   "rule": "o_sub(xia150, D_big) < 0.5",
+   "supported": true
+  },
+  "H82f": {
+   "value": 0.8632852567580748,
+   "rule": "G3 spread cont heavy >= 0.85",
+   "supported": true
+  },
+  "H82g": {
+   "value": [
+    0.7402269706461408,
+    0.8211529869747866,
+    0.08092601632864571
+   ],
+   "rule": "range of geo versions <= 0.05",
+   "supported": false
+  },
+  "H82h": {
+   "value": 6,
+   "rule": "numeric public sources >= 5",
+   "supported": true
+  }
+ },
+ "runtime_s": 332.5717442035675
+}

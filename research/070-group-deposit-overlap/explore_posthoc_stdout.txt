@@ -1,0 +1,8 @@
+mix4_D_nat {'A_Ord/U3': 0.7979, 'A_XPT_S/U2': 0.8298}
+refuge_D_big {'A_Ord/U3': 0.7912, 'A_XPT_S/U2': 0.8234}
+mix4_D_big {'A_Ord/U3': 0.7856, 'A_XPT_S/U2': 0.8173}
+refuge_D_pop {'A_Ord/U3': 0.6822, 'A_XPT_S/U2': 0.7071}
+mix4_D_pop {'A_Ord/U3': 0.7955, 'A_XPT_S/U2': 0.8234}
+mix4_D_surv {'A_Ord/U3': 0.7814, 'A_XPT_S/U2': 0.8084}
+refuge_D_even {'A_Ord/U3': 0.7965, 'A_XPT_S/U2': 0.8294}
+mix4_D_even {'A_Ord/U3': 0.8126, 'A_XPT_S/U2': 0.8447}

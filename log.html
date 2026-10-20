@@ -1072,4 +1072,21 @@
 <li>判定：H81a・b・c・d・e・f・g・h・j 支持、H81i（版の幅 0.044 ≤ 0.04）棄却。H81a〜c は登録の時点で値が分かっていた資料の確認。</li>
 <li>逸脱：verify_excerpts.py は空白を詰めて照合（抄録の折り返し）。範囲だけの本文は中点・上限で符号化（make_cases.py の規則）。n の分からない実験は 30 と置いた。Dehaene 2006 は版元でなく HAL の公開 PDF から取った。sim.py は1回で通った。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は primer の予算を冊子の最初のページの目印つきの文字なしの多段の地図に回し、説明なしで印の場所を選べるかを字を読まない人で試してから刷る。順番は部数と預け先〔44〕→目印つきの地図〔11.9〕→primer〔1.8〕。本研究所は 068 の 0.813 を「地図を足すと 0.827、版 0.821〜0.853、上限 0.873」に改め、上限を決める写しと群の数 173 へ。地図が T2 より前の社会を金庫へ導く害 184 は新しい問い）。</li>
+</ul>
+<h2 id="70-2026-10-20">第70回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024〜069 を <code>/tmp/rep070/</code> に複製し、069 の sim.py（約195秒）を再実行した。results.json は runtime 以外一致（葉 637個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨 A（173：群の数と冊子の預け先の重なり）を主課題にした。切り替えの規則（本回開いて確認した、生き残りか預け先の地理の公開の数値が5件未満なら B）は 6件で満たし、字面どおり A を続けた。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Xia et al. 2022 Nature Food の補足 PDF（Table S5・S6、国別の餓死者と2010年人口。S5 の合計は本文 Table 1 と一致）、lukes/ISO-3166-Countries-with-Regional-Codes の all.csv（国→M49 小地域）、Wikipedia 英語版の List of largest libraries（34館）・List of national and state libraries（209）・Southern Hemisphere、Boyd &amp; Wilson 2023（PMID 36464495）・2021（PMID 33886124）の抄録。引用 4件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Legal_deposit・Arctic_World_Archive・Svalbard_Global_Seed_Vault も取得したが数字に使っていない。</li>
+<li>研究070を実施：<code>research/070-group-deposit-overlap/</code>（sim.py 約333秒 seed 20261070、計算のみ）。成果物は results.json、stdout.txt、fig_overlap_scanG.png、fig_versions.png、report.md、PREREGISTRATION.md（14:43Z、資料を取得・符号化した後・sim.py の作成の前）、explore_posthoc.py/json（事前登録の外の探索、seed 20261170）、sources/（Xia の補足 PDF とテキスト、parse_xia.py、xia_tables.json、iso_regions.csv、wikitext、抄録、make_cases.py、cases.json、fetch.py、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep070b/</code> で再実行し results.json は runtime 以外一致（葉 619個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：069 の sim.py を「# ---------- 版 ----------」の前まで exec し 069 の主（重い崩壊 0.82734）を差0で再現。重い崩壊の標本で、写し 100部を 20単位に分けて M49 の小地域に置き、G 個の独立な群がそれぞれ届く範囲（小地域・大陸・世界）の単位だけを使う式 P = 1 − Π(1 − R·S_g) にした（広まりありの版は [1−(1−R)^G]·[1−Π(1−S_g)]）。G=1・世界に届く形で 069 の主と差0（検査2）。主の抽出【推測】：地理は Xia 150 Tg・47 Tg・人口を等確率、G 1〜10（平均 3.9）、届く範囲は小地域か大陸を半々、置き方は国立図書館の数に比例。</li>
+<li>主要数値：</li>
+<li>地理：Xia 150 Tg の生き残り（S5）は Southern Asia 39.9%、South America 18.4%、South-eastern Asia 14.6%、ANZ 1.9%、Northern America 0.4%。1,000万点以上の図書館 34館のうち Northern America 13、南半球 1。</li>
+<li>生き残りの小地域に単位がある割合 o（Xia 150 Tg）：国立図書館 0.97、大図書館 <strong>0.44</strong>、人口 0.91、生き残り 0.91、小地域ごと 1.0。島の避難所の地理では国立図書館 0.2、生き残りに合わせた置き方 <strong>0.0</strong>。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：069 主 0.827、<strong>070 主 0.819</strong>（XPT 0.846→0.850）、大図書館 <strong>0.787</strong>、人口 0.834、生き残り 0.834、小地域ごと 0.817、島の避難所の地理 <strong>0.740</strong>（生き残りに合わせた置き方で 0.640）、G1 <strong>0.756</strong>、G3 0.824、G10 0.867、届く範囲 小地域 0.793・大陸 0.845・世界 0.873、広まりあり 0.827、G3・広まりあり・大陸 0.863。群が多いことの効き +0.046、届く範囲の損 −0.054。全体 0.924→0.921、軽い崩壊 0.969（不変）。</li>
+<li>事後の探索：4つの地理（避難所を含む）を混ぜると小地域ごと <strong>0.813</strong>、国立図書館 0.798、人口 0.796、大図書館 0.786、生き残り 0.781。避難所だけでは小地域ごと 0.797、生き残り 0.640。</li>
+<li>費用あたり（冊子＋primer＋地図、全体、中央値、TAB=1）：069 27.5、070 主 26.8、大図書館 24.0、人口 28.1。重い崩壊だけで主 58.0、大図書館 48.1。置き方を替えても費用は同じ。</li>
+<li>判定：H82b・c・d・e・f・h 支持、H82a（−0.008、閾値 −0.010）・H82g（地理の幅 0.081）棄却。</li>
+<li>逸脱：Xia の Table S4 は表の分かれで国の行を取りこぼした（人口の合計 5,333 百万）ので使わず、事前登録どおり S5・S6 だけを使った。避難所の地理での置き方の比較は事前登録の外で、探索として分けて報告した。sim.py は1回で通った。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫・冊子の運営者は 100部を北米・欧州に集まる大図書館に預けず、ANZ と Melanesia を含む小地域ごとに1つずつ散らす。一つの破局の予測に合わせて寄せない。本研究所は 069 の 0.827 を「群1つで地域の写しだけなら 0.756、G と届く範囲で 0.756〜0.894、主 0.819」に改め、次は届く範囲の根拠 185 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
