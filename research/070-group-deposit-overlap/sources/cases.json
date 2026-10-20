@@ -1,0 +1,1339 @@
+{
+ "regions": [
+  "Australia and New Zealand",
+  "Caribbean",
+  "Central America",
+  "Central Asia",
+  "Eastern Africa",
+  "Eastern Asia",
+  "Eastern Europe",
+  "Melanesia",
+  "Micronesia",
+  "Middle Africa",
+  "Northern Africa",
+  "Northern America",
+  "Northern Europe",
+  "Polynesia",
+  "South America",
+  "South-eastern Asia",
+  "Southern Africa",
+  "Southern Asia",
+  "Southern Europe",
+  "Western Africa",
+  "Western Asia",
+  "Western Europe"
+ ],
+ "continent_of_region": {
+  "Southern Asia": "Asia",
+  "Northern Europe": "Europe",
+  "Southern Europe": "Europe",
+  "Northern Africa": "Africa",
+  "Polynesia": "Oceania",
+  "Middle Africa": "Africa",
+  "Caribbean": "Americas_N",
+  "South America": "Americas_S",
+  "Western Asia": "Asia",
+  "Australia and New Zealand": "Oceania",
+  "Western Europe": "Europe",
+  "Eastern Europe": "Europe",
+  "Central America": "Americas_N",
+  "Western Africa": "Africa",
+  "Northern America": "Americas_N",
+  "Southern Africa": "Africa",
+  "Eastern Africa": "Africa",
+  "South-eastern Asia": "Asia",
+  "Eastern Asia": "Asia",
+  "Melanesia": "Oceania",
+  "Micronesia": "Oceania",
+  "Central Asia": "Asia"
+ },
+ "xia_survivors_by_region": {
+  "S5_partial_livestock": {
+   "Southern Asia": {
+    "pop2010": 1680.5999999999997,
+    "surv150": 543.0999999999999,
+    "surv47": 1562.0999999999997
+   },
+   "Southern Europe": {
+    "pop2010": 152.39999999999998,
+    "surv150": 7.899999999999997,
+    "surv47": 109.2
+   },
+   "Northern Africa": {
+    "pop2010": 157.39999999999998,
+    "surv150": 28.5,
+    "surv47": 136.1
+   },
+   "Middle Africa": {
+    "pop2010": 61.900000000000006,
+    "surv150": 18.200000000000003,
+    "surv47": 54.2
+   },
+   "Caribbean": {
+    "pop2010": 36.400000000000006,
+    "surv150": 24.2,
+    "surv47": 34.60000000000001
+   },
+   "South America": {
+    "pop2010": 393.9,
+    "surv150": 250.5,
+    "surv47": 366.29999999999995
+   },
+   "Western Asia": {
+    "pop2010": 203.20000000000002,
+    "surv150": 14.299999999999994,
+    "surv47": 128.3
+   },
+   "Australia and New Zealand": {
+    "pop2010": 26.799999999999997,
+    "surv150": 25.7,
+    "surv47": 26.799999999999997
+   },
+   "Western Europe": {
+    "pop2010": 190.4,
+    "surv150": 1.4000000000000057,
+    "surv47": 99.60000000000001
+   },
+   "Eastern Europe": {
+    "pop2010": 296.3,
+    "surv150": 2.099999999999989,
+    "surv47": 96.29999999999998
+   },
+   "Central America": {
+    "pop2010": 160.5,
+    "surv150": 30.00000000000001,
+    "surv47": 105.80000000000001
+   },
+   "Western Africa": {
+    "pop2010": 286.3,
+    "surv150": 109.09999999999998,
+    "surv47": 282.3
+   },
+   "Northern America": {
+    "pop2010": 346.4,
+    "surv150": 4.900000000000013,
+    "surv47": 110.0
+   },
+   "Southern Africa": {
+    "pop2010": 57.7,
+    "surv150": 11.100000000000001,
+    "surv47": 36.300000000000004
+   },
+   "South-eastern Asia": {
+    "pop2010": 590.9,
+    "surv150": 198.8,
+    "surv47": 500.00000000000006
+   },
+   "Eastern Asia": {
+    "pop2010": 1570.5000000000002,
+    "surv150": 8.600000000000136,
+    "surv47": 287.7000000000001
+   },
+   "Northern Europe": {
+    "pop2010": 98.9,
+    "surv150": 5.299999999999996,
+    "surv47": 20.499999999999993
+   },
+   "Eastern Africa": {
+    "pop2010": 304.2,
+    "surv150": 74.9,
+    "surv47": 195.0
+   },
+   "Polynesia": {
+    "pop2010": 0.3,
+    "surv150": 0.19999999999999998,
+    "surv47": 0.3
+   },
+   "Central Asia": {
+    "pop2010": 61.599999999999994,
+    "surv150": 0.0,
+    "surv47": 34.099999999999994
+   },
+   "Melanesia": {
+    "pop2010": 0.7,
+    "surv150": 0.5,
+    "surv47": 0.5
+   },
+   "": {
+    "pop2010": 23.1,
+    "surv150": 0.3000000000000007,
+    "surv47": 2.0
+   }
+  },
+  "S6_no_livestock": {
+   "Southern Asia": {
+    "pop2010": 1680.5999999999997,
+    "surv150": 531.3999999999999,
+    "surv47": 1516.6
+   },
+   "Southern Europe": {
+    "pop2010": 152.39999999999998,
+    "surv150": 4.700000000000004,
+    "surv47": 102.9
+   },
+   "Northern Africa": {
+    "pop2010": 157.39999999999998,
+    "surv150": 26.699999999999996,
+    "surv47": 134.79999999999998
+   },
+   "Middle Africa": {
+    "pop2010": 61.900000000000006,
+    "surv150": 17.6,
+    "surv47": 53.099999999999994
+   },
+   "Caribbean": {
+    "pop2010": 36.400000000000006,
+    "surv150": 22.000000000000004,
+    "surv47": 34.50000000000001
+   },
+   "South America": {
+    "pop2010": 393.9,
+    "surv150": 229.8,
+    "surv47": 356.79999999999995
+   },
+   "Western Asia": {
+    "pop2010": 203.20000000000002,
+    "surv150": 11.799999999999994,
+    "surv47": 122.69999999999999
+   },
+   "Australia and New Zealand": {
+    "pop2010": 26.799999999999997,
+    "surv150": 23.799999999999997,
+    "surv47": 25.2
+   },
+   "Western Europe": {
+    "pop2010": 190.4,
+    "surv150": 0.3999999999999986,
+    "surv47": 91.10000000000001
+   },
+   "Eastern Europe": {
+    "pop2010": 296.3,
+    "surv150": 1.9999999999999947,
+    "surv47": 92.1
+   },
+   "Central America": {
+    "pop2010": 160.5,
+    "surv150": 26.0,
+    "surv47": 99.5
+   },
+   "Western Africa": {
+    "pop2010": 286.3,
+    "surv150": 106.59999999999998,
+    "surv47": 281.8
+   },
+   "Northern America": {
+    "pop2010": 346.4,
+    "surv150": 2.6999999999999673,
+    "surv47": 94.79999999999998
+   },
+   "Southern Africa": {
+    "pop2010": 57.7,
+    "surv150": 9.700000000000003,
+    "surv47": 33.4
+   },
+   "South-eastern Asia": {
+    "pop2010": 590.9,
+    "surv150": 192.80000000000004,
+    "surv47": 493.7
+   },
+   "Eastern Asia": {
+    "pop2010": 1570.5000000000002,
+    "surv150": 7.200000000000145,
+    "surv47": 256.40000000000015
+   },
+   "Northern Europe": {
+    "pop2010": 98.9,
+    "surv150": 1.3999999999999944,
+    "surv47": 14.999999999999996
+   },
+   "Eastern Africa": {
+    "pop2010": 304.2,
+    "surv150": 70.1,
+    "surv47": 187.5
+   },
+   "Polynesia": {
+    "pop2010": 0.3,
+    "surv150": 0.19999999999999998,
+    "surv47": 0.19999999999999998
+   },
+   "Central Asia": {
+    "pop2010": 61.599999999999994,
+    "surv150": 0.0,
+    "surv47": 31.1
+   },
+   "Melanesia": {
+    "pop2010": 0.7,
+    "surv150": 0.5,
+    "surv47": 0.5
+   },
+   "": {
+    "pop2010": 23.1,
+    "surv150": 0.10000000000000142,
+    "surv47": 1.5
+   }
+  }
+ },
+ "xia_unmapped": [],
+ "largest_libraries": [
+  {
+   "library": "British Library",
+   "country": "United Kingdom",
+   "region": "Northern Europe"
+  },
+  {
+   "library": "Library of Congress",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "Nation's Library",
+   "country": "Turkey",
+   "region": "Western Asia"
+  },
+  {
+   "library": "Russian State Library",
+   "country": "Russia",
+   "region": "Eastern Europe"
+  },
+  {
+   "library": "Shanghai Library",
+   "country": "China",
+   "region": "Eastern Asia"
+  },
+  {
+   "library": "New York Public Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "Royal Library, Denmark",
+   "country": "Denmark",
+   "region": "Northern Europe"
+  },
+  {
+   "library": "National Library of China",
+   "country": "China",
+   "region": "Eastern Asia"
+  },
+  {
+   "library": "National Diet Library",
+   "country": "Japan",
+   "region": "Eastern Asia"
+  },
+  {
+   "library": "German National Library",
+   "country": "Germany",
+   "region": "Western Europe"
+  },
+  {
+   "library": "Bibliothèque nationale de France",
+   "country": "France",
+   "region": "Western Europe"
+  },
+  {
+   "library": "University of California Libraries",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "National Library of Russia",
+   "country": "Russia",
+   "region": "Eastern Europe"
+  },
+  {
+   "library": "University of Illinois Urbana-Champaign University Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "Bavarian State Library",
+   "country": "Germany",
+   "region": "Western Europe"
+  },
+  {
+   "library": "Biblioteca Nacional de España",
+   "country": "Spain",
+   "region": "Southern Europe"
+  },
+  {
+   "library": "Library and Archives Canada",
+   "country": "Canada",
+   "region": "Northern America"
+  },
+  {
+   "library": "Library of the Russian Academy of Sciences",
+   "country": "Russia",
+   "region": "Eastern Europe"
+  },
+  {
+   "library": "Berlin State Library",
+   "country": "Germany",
+   "region": "Western Europe"
+  },
+  {
+   "library": "Boston Public Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "New York State Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "Harvard Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "National Library of Sweden",
+   "country": "Sweden",
+   "region": "Northern Europe"
+  },
+  {
+   "library": "University of Michigan Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "University of Toronto Libraries",
+   "country": "Canada",
+   "region": "Northern America"
+  },
+  {
+   "library": "Vernadsky National Library of Ukraine",
+   "country": "Ukraine",
+   "region": "Eastern Europe"
+  },
+  {
+   "library": "Yale Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "National Library of Iran",
+   "country": "Iran",
+   "region": "Southern Asia"
+  },
+  {
+   "library": "University of Chicago Library",
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "library": "National Library of Scotland",
+   "country": "Scotland",
+   "region": "Northern Europe"
+  },
+  {
+   "library": "Bodleian Library",
+   "country": "United Kingdom",
+   "region": "Northern Europe"
+  },
+  {
+   "library": "Hong Kong Public Library",
+   "country": "Hong Kong",
+   "region": "Eastern Asia"
+  },
+  {
+   "library": "Toronto Public Library",
+   "country": "Canada",
+   "region": "Northern America"
+  },
+  {
+   "library": "National Library of Australia",
+   "country": "Australia",
+   "region": "Australia and New Zealand"
+  }
+ ],
+ "national_libraries": [
+  {
+   "country": "Afghanistan",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Albania",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Algeria",
+   "region": "Northern Africa"
+  },
+  {
+   "country": "Andorra",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Angola",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Argentina",
+   "region": "South America"
+  },
+  {
+   "country": "Armenia",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Australia",
+   "region": "Australia and New Zealand"
+  },
+  {
+   "country": "Austria",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Azerbaijan",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Bahamas",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Bahrain",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Bangladesh",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Barbados",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Belarus",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Belgium",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Belize",
+   "region": "Central America"
+  },
+  {
+   "country": "Benin",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Bhutan",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Bolivia",
+   "region": "South America"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Botswana",
+   "region": "Southern Africa"
+  },
+  {
+   "country": "Brazil",
+   "region": "South America"
+  },
+  {
+   "country": "Brunei",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Bulgaria",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Burkina Faso",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Myanmar",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Burundi",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Cambodia",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Cameroon",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Canada",
+   "region": "Northern America"
+  },
+  {
+   "country": "Quebec",
+   "region": "Northern America"
+  },
+  {
+   "country": "Cape Verde",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Central African Republic",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Chad",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Chile",
+   "region": "South America"
+  },
+  {
+   "country": "China",
+   "region": "Eastern Asia"
+  },
+  {
+   "country": "Hong Kong",
+   "region": "Eastern Asia"
+  },
+  {
+   "country": "Macau",
+   "region": "Eastern Asia"
+  },
+  {
+   "country": "Colombia",
+   "region": "South America"
+  },
+  {
+   "country": "Republic of the Congo",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Democratic Republic of the Congo",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Costa Rica",
+   "region": "Central America"
+  },
+  {
+   "country": "Croatia",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Cuba",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Cyprus",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Czech Republic",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Denmark",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Faroe Islands",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Greenland",
+   "region": "Northern America"
+  },
+  {
+   "country": "Djibouti",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Dominica",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Dominican Republic",
+   "region": "Caribbean"
+  },
+  {
+   "country": "East_Timor",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Ecuador",
+   "region": "South America"
+  },
+  {
+   "country": "Egypt",
+   "region": "Northern Africa"
+  },
+  {
+   "country": "El Salvador",
+   "region": "Central America"
+  },
+  {
+   "country": "Equatorial Guinea",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Estonia",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Eswatini",
+   "region": "Southern Africa"
+  },
+  {
+   "country": "Ethiopia",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Fiji",
+   "region": "Melanesia"
+  },
+  {
+   "country": "Finland",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Åland",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "France",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Gabon",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Gambia",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Georgia",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Germany",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Ghana",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Greece",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Grenada",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Guatemala",
+   "region": "Central America"
+  },
+  {
+   "country": "Guinea",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Guinea-Bissau",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Guyana",
+   "region": "South America"
+  },
+  {
+   "country": "Haiti",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Honduras",
+   "region": "Central America"
+  },
+  {
+   "country": "Hungary",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Iceland",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "India",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Indonesia",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Iran",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Iraq",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Republic of Ireland",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Israel",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Italy",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Ivory Coast",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Jamaica",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Japan",
+   "region": "Eastern Asia"
+  },
+  {
+   "country": "Jordan",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Kazakhstan",
+   "region": "Central Asia"
+  },
+  {
+   "country": "Kenya",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Kiribati",
+   "region": "Micronesia"
+  },
+  {
+   "country": "South Korea",
+   "region": "Eastern Asia"
+  },
+  {
+   "country": "Kuwait",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "region": "Central Asia"
+  },
+  {
+   "country": "Laos",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Latvia",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Lebanon",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Lesotho",
+   "region": "Southern Africa"
+  },
+  {
+   "country": "Liberia",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Libya",
+   "region": "Northern Africa"
+  },
+  {
+   "country": "Liechtenstein",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Lithuania",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Luxembourg",
+   "region": "Western Europe"
+  },
+  {
+   "country": "North Macedonia",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Madagascar",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Malawi",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Malaysia",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Maldives",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Mali",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Malta",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Marshall Islands",
+   "region": "Micronesia"
+  },
+  {
+   "country": "Mauritania",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Mauritius",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Mexico",
+   "region": "Central America"
+  },
+  {
+   "country": "Moldova",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Monaco",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Mongolia",
+   "region": "Eastern Asia"
+  },
+  {
+   "country": "Montenegro",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Morocco",
+   "region": "Northern Africa"
+  },
+  {
+   "country": "Mozambique",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Namibia",
+   "region": "Southern Africa"
+  },
+  {
+   "country": "Nepal",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Netherlands",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Aruba",
+   "region": "Caribbean"
+  },
+  {
+   "country": "New Zealand",
+   "region": "Australia and New Zealand"
+  },
+  {
+   "country": "Cook Islands",
+   "region": "Polynesia"
+  },
+  {
+   "country": "Nicaragua",
+   "region": "Central America"
+  },
+  {
+   "country": "Niger",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Nigeria",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Norway",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Oman",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Pakistan",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Palau",
+   "region": "Micronesia"
+  },
+  {
+   "country": "Palestine",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Panama",
+   "region": "Central America"
+  },
+  {
+   "country": "Papua New Guinea",
+   "region": "Melanesia"
+  },
+  {
+   "country": "Paraguay",
+   "region": "South America"
+  },
+  {
+   "country": "Peru",
+   "region": "South America"
+  },
+  {
+   "country": "Philippines",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Poland",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Portugal",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Qatar",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Romania",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Russian Federation",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Chechnya",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Tatarstan",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Rwanda",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Saint Kitts and Nevis",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Saint Lucia",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Saint Vincent and the Grenadines",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Samoa",
+   "region": "Polynesia"
+  },
+  {
+   "country": "San Marino",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "São Tomé and Príncipe",
+   "region": "Middle Africa"
+  },
+  {
+   "country": "Saudi Arabia",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Senegal",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Serbia",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Seychelles",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Sierra Leone",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Singapore",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Slovakia",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "Slovenia",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Solomon Islands",
+   "region": "Melanesia"
+  },
+  {
+   "country": "Somalia",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "South Africa",
+   "region": "Southern Africa"
+  },
+  {
+   "country": "Spain",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Catalonia",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Sri Lanka",
+   "region": "Southern Asia"
+  },
+  {
+   "country": "Sudan",
+   "region": "Northern Africa"
+  },
+  {
+   "country": "Sweden",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Switzerland",
+   "region": "Western Europe"
+  },
+  {
+   "country": "Syria",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Tajikistan",
+   "region": "Central Asia"
+  },
+  {
+   "country": "Tanzania",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Thailand",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Togo",
+   "region": "Western Africa"
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Tunisia",
+   "region": "Northern Africa"
+  },
+  {
+   "country": "Turkey",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Turkmenistan",
+   "region": "Central Asia"
+  },
+  {
+   "country": "Tuvalu",
+   "region": "Polynesia"
+  },
+  {
+   "country": "Uganda",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Ukraine",
+   "region": "Eastern Europe"
+  },
+  {
+   "country": "United Arab Emirates",
+   "region": "Western Asia"
+  },
+  {
+   "country": "United Kingdom",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Scotland",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Wales",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Bermuda",
+   "region": "Northern America"
+  },
+  {
+   "country": "British Virgin Islands",
+   "region": "Caribbean"
+  },
+  {
+   "country": "Isle of Man",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "Jersey",
+   "region": "Northern Europe"
+  },
+  {
+   "country": "United States",
+   "region": "Northern America"
+  },
+  {
+   "country": "Uruguay",
+   "region": "South America"
+  },
+  {
+   "country": "Uzbekistan",
+   "region": "Central Asia"
+  },
+  {
+   "country": "Vanuatu",
+   "region": "Melanesia"
+  },
+  {
+   "country": "Vatican City",
+   "region": "Southern Europe"
+  },
+  {
+   "country": "Venezuela",
+   "region": "South America"
+  },
+  {
+   "country": "Vietnam",
+   "region": "South-eastern Asia"
+  },
+  {
+   "country": "Yemen",
+   "region": "Western Asia"
+  },
+  {
+   "country": "Zambia",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Zimbabwe",
+   "region": "Eastern Africa"
+  },
+  {
+   "country": "Abkhazia",
+   "region": null
+  },
+  {
+   "country": "Kosovo",
+   "region": null
+  },
+  {
+   "country": "Northern_Cyprus",
+   "region": null
+  },
+  {
+   "country": "Somaliland",
+   "region": null
+  },
+  {
+   "country": "Taiwan",
+   "region": ""
+  }
+ ],
+ "refuges": {
+  "asrs_2023": {
+   "pmid": 36464495,
+   "countries": [
+    "Australia",
+    "New Zealand",
+    "Iceland",
+    "Solomon Islands",
+    "Vanuatu"
+   ],
+   "quote": "The island nations of Australia, New Zealand, Iceland, the Solomon Islands, and Vanuatu appear most resilient to ASRS.",
+   "regions": {
+    "Australia": "Australia and New Zealand",
+    "New Zealand": "Australia and New Zealand",
+    "Iceland": "Northern Europe",
+    "Solomon Islands": "Melanesia",
+    "Vanuatu": "Melanesia"
+   }
+  },
+  "bio_2021": {
+   "pmid": 33886124,
+   "scores": {
+    "Australia": 0.71,
+    "New Zealand": 0.64,
+    "Iceland": 0.58
+   },
+   "quote": "Australia (0.71), New Zealand (0.64), and Iceland (0.58) as the leading candidate island nation refuges",
+   "regions": {
+    "Australia": "Australia and New Zealand",
+    "New Zealand": "Australia and New Zealand",
+    "Iceland": "Northern Europe"
+   }
+  }
+ },
+ "southern_hemisphere": {
+  "quote": "More than 850 million people live in the Southern Hemisphere, representing around 10–12% of the total global human population",
+  "share": [
+   0.1,
+   0.12
+  ]
+ },
+ "switch_rule_count": {
+  "rule": "publicly opened numeric sources on survivor geography or deposit geography >= 5",
+  "sources": [
+   "Xia 2022 SI Table S5/S6 (per-country survivors, survivor geography)",
+   "Wikipedia List of largest libraries (34 libraries >=10M items by country, deposit geography)",
+   "Wikipedia List of national and state libraries (national libraries by country, deposit geography)",
+   "Boyd & Wilson 2023 Risk Anal (PMID 36464495, ASRS island refuges, survivor geography)",
+   "Boyd & Wilson 2021 Risk Anal (PMID 33886124, bio refuge scores, survivor geography)",
+   "Wikipedia Southern Hemisphere (10-12% of population, survivor geography check)"
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究070 群の数と冊子の預け先の重なり（open_problems 173） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="070-open_problems-173">事前登録：研究070 群の数と冊子の預け先の重なり（open_problems 173）</h1>
+<p>登録時刻：2026-10-20T14:43Z（資料を取得・符号化した後、sim.py を書く前）</p>
+<h2 id="_1">問い</h2>
+<p>069 の模型は重い崩壊の生き残りを「1つの群が、世界のどこに残った冊子の写しでも使える」として扱っている（S_ind は 20 の預け先の地域すべてを数える）。実際は生き残りが互いに独立な G 個の群に分かれ、T2 より前の群は自分の届く範囲の写ししか使えない。群が多いと文字や読み方を保つ見込みは上がるが、写しが群のいる地域になければ使えない。この二つを一つの式に入れ、069 の主（重い崩壊 0.8273）がどちらへ動くかを見る。</p>
+<h2 id="sources">資料（本回開いて確認、sources/）</h2>
+<ul>
+<li>Xia et al. 2022 Nature Food の補足 PDF の Table S5（Partial Livestock、本文 Table 1 の数）と S6（No Livestock）、貿易なしの国ごとの餓死者と2010年人口（parse_xia.py、合計 6,700.4 百万・150 Tg の死者 5,340.8 百万が本文と一致）。</li>
+<li>国→国連 M49 の小地域（22）：lukes/ISO-3166-Countries-with-Regional-Codes の all.csv。</li>
+<li>Wikipedia "List of largest libraries"（1,000万点以上の 34館、国別）、"List of national and state libraries"（国立図書館 209、国別）、"Southern Hemisphere"（人口の 10–12%）。</li>
+<li>Boyd &amp; Wilson 2023（PMID 36464495、日射が減る破局で強い島 5か国）、2021（PMID 33886124、疫病の避難所の得点 3か国）。</li>
+<li>切り替えの規則（数値の公開資料 5件未満なら B）：6件で A を続ける。</li>
+</ul>
+<h2 id="069">模型（重い崩壊の標本だけを替える。軽い崩壊は 069 と同じ）</h2>
+<ul>
+<li>写し 100部を 20 の預け先単位（各5部）に分け、単位を小地域に置く。1単位が残る確率は 069 と同じ式 1−f1（f1 = (1−h_R)(1−a)^5 + h_R(1−q_h a)^5）。</li>
+<li>群 g は届く単位の数 D_g の写しだけ使える：S_g = 1 − f1^{D_g}。読める確率 R は 069 と同じ（文字の連続・解読・primer・地図）。</li>
+<li>広まりなし（主）：P = 1 − Π_g (1 − R·S_g)。広まりあり（版）：P = [1 − (1−R)^G]·[1 − Π_g (1 − S_g)]。</li>
+<li>G=1 で群が全単位に届けば P = R·S_ind で 069 と一致する（検査）。</li>
+<li>新しい乱数 seed 20261070。主の抽出【推測】：群の地理は標本ごとに Xia 150 Tg・Xia 47 Tg の生き残り・2010年人口（疫病型）を等確率、G = round(10^U(0,1))（1〜10）、群は重みに比例して重複なしに小地域を選ぶ、届く範囲は小地域か大陸（M49 の region、米州は南北に分ける）を等確率。</li>
+<li>預け先の置き方：主は国立図書館の数に比例（D_nat）。版は 1,000万点以上の図書館（D_big）、2010年人口（D_pop）、Xia 150 Tg の生き残り（D_surv）、人口の多い 20 小地域に1つずつ（D_even）。いずれも最大剰余法で 20 単位。</li>
+<li>地理の版：geo_xia150、geo_xia47、geo_pop、geo_refuge（Boyd &amp; Wilson 2023 の5か国を国の数で重み）、geo_S6。G の版：G1、G3、G10。届く範囲の版：reach_sub、reach_cont、reach_global。広まりの版：spread。</li>
+</ul>
+<h2 id="_2">仮説（判定の規則は事前に固定）</h2>
+<ul>
+<li>H82a：主（D_nat）の重い崩壊の TC/V0 ≤ 069 主 − 0.010。</li>
+<li>H82b：reach_global（届く範囲が世界）の重い崩壊 ≥ 069 主 + 0.010。</li>
+<li>H82c：D_surv ≥ D_nat + 0.010（重い崩壊）。</li>
+<li>H82d：D_big が預け先の5つの置き方の中で最も低い。</li>
+<li>H82e：Xia 150 Tg の生き残りの重みで、D_big の単位がある小地域に住む割合 o &lt; 0.5。</li>
+<li>H82f：G=3・広まりあり・大陸まで届く版で重い崩壊 ≥ 0.85。</li>
+<li>H82g：地理の5版の重い崩壊の幅 ≤ 0.05。</li>
+<li>H82h：数値の公開資料 ≥ 5（切り替えの規則）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
