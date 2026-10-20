@@ -989,4 +989,21 @@
 <li>判定：H76a・b・e・f・g・h・i 支持、H76c（0.63）・d（0.803）棄却。</li>
 <li>逸脱：初回の実行は図の段で 063 の比の辞書の形を取り違えて止まった（results.json の書き出し前で数値は見ていない）。その1行を直して再実行した。新しい乱数の使い方は変えていない。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は冊子を学校が消えても読み書きを教え続けそうな宗教の場の図書室にも預け、子どもに文字を教える絵入りの読本を添える。本研究所は 063 の p_cont 0.70 を「局面で 0.63、T2 の時点で 0.59、重い崩壊の冊子の価値 0.80（版で 0.77〜0.86）」に改め、事例の数え上げの線は閉じて次は primer の効き 170 へ）。</li>
+</ul>
+<h2 id="65-2026-10-20">第65回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024・032〜034・037〜040・051・053〜064 を <code>/tmp/rep065/</code> に複製し、064 の sim.py（約178秒）を再実行した。results.json は runtime 以外一致（葉 474個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 170（文字を知らない人が絵の読み方の手引き primer で座標の冊子を読めるようになる確率 p_primer）を主課題にした。切り替えの条件（文字を取り入れた・手引きで学んだ例が5件以上）は 11件で満たした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認、MediaWiki API）：Wikipedia 英語版の Cherokee syllabary、Sequoyah、Canadian Aboriginal syllabics、Cree syllabics、Inuktitut syllabics、Vai syllabary、Pollard script、Hangul、Hunminjeongeum、Great Lakes Algonquian syllabics、N'Ko script、Bamum script、Deseret alphabet、Frank Laubach、Orbis Pictus、Pahawh Hmong、Yugtun script、Greek alphabet、Tifinagh、Rosetta Stone、Behistun inscription、Meroitic script、Diego de Landa、Karatepe、Linear A、Proto-Elamite script、Linear Elamite、Etruscan language、Old Persian cuneiform、Linear B、Maya script、Anatolian hieroglyphs、Cuneiform、Indus script、Rongorongo、Each one teach one。<code>sources/cases.json</code> の抜き出し 83件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。James Evans (linguist)・Literacy・Phoenician alphabet・Old Turkic script・Decipherment・Ugaritic alphabet・Ugarit も取得したが数字に使っていない（Ugaritic は解読の年が本文になかった）。Laubach・Orbis Pictus・Each one teach one・Tifinagh は質的にだけ使った。</li>
+<li>研究065を実施：<code>research/065-primer-readability/</code>（sim.py 約187秒 seed 20261065、計算のみ）。成果物は results.json、stdout.txt、fig_cases_tau.png、fig_versions_scan.png、report.md、PREREGISTRATION.md（04:52Z、資料を読み符号化した後・sim.py の作成の前）、sources/（本文 43件、fetch.py、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep065b/</code> で再実行し results.json は runtime 以外一致（葉 590個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：064 の sim.py を「# ---------- 版 ----------」の前まで exec し、primer なしの版で 064 の主（重い崩壊 0.80260）を差0で再現。文字が切れた標本の読みを 1−(1−p_dec)(1−p_pr) に替え、p_pr(T) = k_rec × k_cont × (1−e^(−T/τ_key))：τ_key は鍵ありの解読 4件（23、10、90、117年）の指数の事後、k_cont = 1−(1−k_num)(1−k_txt)（数字が鍵なしで読めた 3.5/5、鍵ありで意味まで分かった 4.5/7 の Jeffreys の Beta）、k_rec~U(0.5,1)【推測】。版は nokey・num_only・txt_only・rec1・rec03・slow10・unkeyed_tau・needs_spread（取り入れの u を掛ける）・srch_indep・pr_one、p_pr の走査、primer の追加分と冊子＋primer の費用あたり。</li>
+<li>主要数値：</li>
+<li>取り入れ：文字のない共同体 11件で 9（Jeffreys 0.79、Cree は数時間、Cherokee は数週間で覚え 1825 に多数・1830 に 90%）。<strong>11件すべてで読める人が教えた。教える人なしに文書だけから読み始めた非学者の例は 0件。</strong> Deseret の primer は数千部売れ残った（すでに読める人々）。</li>
+<li>解読：鍵ありの時定数の事後の中央値 <strong>65年</strong>（31〜175）、鍵なし <strong>314年</strong>（112〜1,483）。鍵ありで意味まで分かったのは 4.5/7（Meroitic・Etruscan は読めるが意味が分からない）、数字は鍵なしで 3.5/5、文は 0/5。Landa の対応表は 1862 の出版から 1952 まで 90年使えなかった。</li>
+<li>p_pr（U3 の重い崩壊の T での平均）：主 <strong>0.63</strong>、rec03 0.25、slow10 0.42、srch_indep 0.44、rec1 0.84。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3）：064 主 0.803、065 主 <strong>0.845</strong>（XPT 0.815→<strong>0.864</strong>）、num_only 0.835、txt_only 0.831、rec1 0.859、rec03 0.818、slow10 0.820、rec03＋slow10 <strong>0.810</strong>、unkeyed_tau 0.831、needs_spread 0.836、srch_indep 0.824、pr_one <strong>0.873</strong>。全体 0.915→0.931、軽い崩壊 0.969（不変）。</li>
+<li>費用：primer の追加費用 中央値 $1.4万（冊子 100部の 0.33倍）。費用あたり（全体、中央値、TAB=1）：primer の追加分 <strong>19</strong>（4.3〜93）、冊子＋primer 37、冊子だけ 44、S_TC|TC 17.8。重い崩壊だけで primer 67、冊子 92。A_XPT_S の primer の追加分 8.2。</li>
+<li>判定：H77a・b・c・d・e・h・i 支持、H77f（19 対 44）・g（0.0042、境目）棄却。</li>
+<li>逸脱：事前登録の H77h の「両方」を sim.py の作成の前に「それぞれ」と書き直した。rec03＋slow10 を同時に掛けた版は事前登録にない追加の版で判定に使っていない。sim.py は1回で通った。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は座標の冊子に 4〜8 ページの絵の手引き〔点の数と数字の表、絵と単語の対、最初のページで手引きと分かる作り〕を加え、その文字を知らない人で試して直してから刷る。100部で約 $1.4万、重い崩壊の価値 0.803→0.845。ただし費用あたりは冊子の配布が上なので部数と預け先を先に満たす。本研究所は 064 の 0.80 を「primer ありで 0.845、版 0.81〜0.86、最初の1人の非学者の例は 0件」と改め、次は 172 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
