@@ -1,0 +1,269 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究066：現代の学校で教わる読み書きが学校なしで続くか（064 の重み w、open_problems 172） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="066064-wopen_problems-172">研究066：現代の学校で教わる読み書きが学校なしで続くか（064 の重み w、open_problems 172）</h1>
+<p>2026-10-20、第66回。計算のみ（sim.py、seed 20261066、約173秒、ネット接続なし。世界銀行のデータは sources/fetch_wb.py で取得済み）。事前登録：PREREGISTRATION.md（06:49Z、資料を読み事例表を符号化した後・sim.py の前）。</p>
+<h2 id="_1">問い</h2>
+<p>064 は、重い崩壊（機械が止まり T1・T0 から再出発）で文字が続くかを「読み書きが少数の書記に限られた社会（narrow）」と「普通の成員に広がった社会（broad）」に分け、現代の読み書きが broad に振る舞う重み w を U(0,1) と置いた。065 の模型（primer あり）でも w は版の中で大きく動く入力の一つだった。本回は (1) 国の学校がない・禁じられた・崩れた局面で、普通の人々の読みが家庭・宗教の場・共同体で次の世代に続いたか（9件）と、(2) 内戦・戦争の前後の若い世代の識字率（世界銀行の UIS の年齢別の値、9件）を数え、w を置き直した。</p>
+<h2 id="_2">資料</h2>
+<p>符号の規則は sources/make_cases.py の冒頭に固定した（一人の判断で、符号そのものは【推測】）。抜き出し 45件は sources/verify_excerpts.py で保存本文と照合しすべて一致。</p>
+<h3 id="episodes">学校のない局面（episodes）</h3>
+<table>
+<thead>
+<tr>
+<th>例</th>
+<th>種類</th>
+<th>y（alt）</th>
+<th>本文</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sweden 1686→1800</td>
+<td>国の学校なしに作られた</td>
+<td>1（1）</td>
+<td>1686 の教会法で読みが義務になり、1800 に読める人はほぼ 100%。Lutheran の宗教の文を読む必要による。Graff は Sweden を例に、学校なしで大衆の読みが達成できたとする</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Literacy">Literacy</a>、<a href="https://en.wikipedia.org/wiki/Swedish_Church_Law_1686">Swedish Church Law 1686</a>）】</td>
+</tr>
+<tr>
+<td>Iceland</td>
+<td>同上</td>
+<td>1（1）</td>
+<td>学校・図書館・印刷本なしに、宗教の指導者と農民の教師の私的な教えで広い読み書き</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Literacy">Literacy</a>）】</td>
+</tr>
+<tr>
+<td>Finland 18〜19世紀</td>
+<td>同上</td>
+<td>1（1）</td>
+<td>18世紀末に 50% 超、19世紀半ばに 80〜90%。学校のない所では巡回学校。堅信は読める人だけ</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Education_in_Finland">Education in Finland</a>）】</td>
+</tr>
+<tr>
+<td>Ireland の hedge school 1723–1782</td>
+<td>禁止</td>
+<td>1（1）</td>
+<td>Catholic の教育はすべて禁止。家で秘密の学校、1820年代半ばに最大 40万人</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Hedge_school">Hedge school</a>）】</td>
+</tr>
+<tr>
+<td>Lithuania の出版禁止 1864–1904</td>
+<td>禁止</td>
+<td>0.5（0）</td>
+<td>教区の学校は閉じられ、家や秘密の学校で学んだが、禁止は識字の低下に寄与したとされる</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Lithuanian_press_ban">Lithuanian press ban</a>）】</td>
+</tr>
+<tr>
+<td>Afghanistan の女子 1996–2001</td>
+<td>禁止</td>
+<td>0.5（0）</td>
+<td>女性は正規の教育を禁じられ、秘密の学校が口伝えで広まった</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Women_in_Afghanistan">Women in Afghanistan</a>、<a href="https://en.wikipedia.org/wiki/Golden_Needle_Sewing_School">Golden Needle Sewing School</a>）】</td>
+</tr>
+<tr>
+<td>Somalia 1991–</td>
+<td>国の崩壊</td>
+<td>1（0.5）</td>
+<td>内戦の後、地元の学校の 94% で共同体の教育委員会が学校を引き継いだ。Qur'an の学校（duqsi）は最も安定した非公式の教育</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Education_in_Somalia">Education in Somalia</a>）】</td>
+</tr>
+<tr>
+<td>Cambodia の Khmer Rouge 1975–79</td>
+<td>政権が学校をなくした</td>
+<td>0（0）</td>
+<td>学校は閉じられ、小学校の教師 21,311 人のうち 2,717 人だけ生き残った。一世代の子どもが読み書きできずに育ち、非識字は 40% 超に</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Education_in_Cambodia">Education in Cambodia</a>、<a href="https://en.wikipedia.org/wiki/Khmer_Rouge">Khmer Rouge</a>）】</td>
+</tr>
+<tr>
+<td>西ローマの崩壊</td>
+<td>国の崩壊</td>
+<td>0（0）</td>
+<td>Roman の支配の下で広かった読み書きは、崩壊の後ほぼ聖職者に限られた</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Literacy">Literacy</a>）】</td>
+</tr>
+<tr>
+<td>- 9件で y の合計 6（Jeffreys の平均 <strong>0.65</strong>）、alt 4.5（0.50）。あった学校・国が閉じた・崩れた6件だけでは 3/6（0.50）、国そのものが崩れた2件 1/2（0.50）、それに Khmer Rouge を足した3件 1/3（0.375）、国の学校なしに作られた3件 3/3（0.875）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 普通の人が自分で宗教の文を読む場がある5件（Sweden、Iceland、Finland、Lithuania、Somalia）の y の素の平均 <strong>0.90</strong>、ない・一部の4件 <strong>0.375</strong>（差 0.525）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="apiuis">内戦・戦争の前後の若い世代の識字（世界銀行 API、UIS）</h3>
+<p>規則：戦乱の開始の年以前で最も新しい 15–24歳の値と、終わりの年以後で最も早い値の比 g（<a href="https://api.worldbank.org/v2/country/LBR/indicator/SE.ADT.1524.LT.ZS?format=json">世界銀行 API の SE.ADT.1524.LT.ZS</a>）。戦乱の年は Wikipedia の各戦争の頁の本文。
+| 国（戦乱） | 前 → 後 | g | 後の 15–24歳 ÷ 25–64歳 |
+|---|---|---|---|
+| Liberia（1989–2003） | 1984 47.6% → 2007 66.4% | 1.39 | 1.62 |
+| Rwanda（1990–94） | 1978 52.3% → 2000 77.6% | 1.49 | 1.29 |
+| Tajikistan（1992–97） | 1989 99.7% → 2000 99.8% | 1.00 | 1.00 |
+| Bosnia（1992–95） | 1991 99.0% → 2000 99.8% | 1.01 | 1.01 |
+| Chad（2005–10） | 2004 41.7% → 2016 30.8% | <strong>0.74</strong> | 1.64 |
+| Sri Lanka（1983–2009） | 1981 91.0% → 2010 98.2% | 1.08 | 1.07 |
+| Nepal（1996–2006） | 1991 49.6% → 2006 82.1% | 1.66 | — |
+| Iraq（2003–11） | 2000 84.8% → 2012 83.5% | 0.98 | — |
+| Burundi（1993–2005） | 1990 53.6% → 2008 61.7% | 1.15 | 1.51 |
+- g の中央値 <strong>1.08</strong>（0.74〜1.66）。前の調査を開始＋3年まで認める alt 規則（Mozambique・Afghanistan を足す 11件）でも 1.08。後の調査で若い世代が 25–64歳より読める例は 7/7。Sierra Leone は戦前の値がなく外した【事実（世界銀行 API、sources/wb_literacy.json）】。
+- これらは援助と部分的な学校が残った浅い局面で、学校が全くない世代の試験ではない【推測】。</p>
+<h2 id="_3">模型</h2>
+<p>065 の sim.py を「# ---------- 版 ----------」の前まで exec し、065 の主（primer あり、重い崩壊 0.84500）を差0で再現した（全6値の最大差 0.0、064 の w~U(0,1) に戻した版 u01 も差0）。064 の L = w·L_broad + (1−w)·L_narrow の w だけを w~Beta(0.5+Σy, 0.5+n−Σy) に置き換え、L_narrow・L_broad・漂い・primer・探索・費用は 065 の主のままにした。版は main、alt、collapse_only、deep_only、deep_regime、built_only、with_conflicts（世界銀行の 9件を g ≥ 0.9 で 1、0.5〜0.9 で 0.5 として足す）、relig1（冊子を普通の人が宗教の文を読む共同体に預けた場合の目安）、relig0、u01。</p>
+<h2 id="_4">結果</h2>
+<table>
+<thead>
+<tr>
+<th>版（w の平均）</th>
+<th>局面を越える確率</th>
+<th>A_Ord/U3 全体</th>
+<th><strong>A_Ord/U3 重い崩壊</strong></th>
+<th>A_XPT_S/U2 重い崩壊</th>
+<th>軽い崩壊（A_Ord）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>064 主（primer なし）</td>
+<td>—</td>
+<td>0.915</td>
+<td>0.803</td>
+<td>0.815</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>065 主＝u01（0.50）</td>
+<td>0.635</td>
+<td>0.931</td>
+<td>0.845</td>
+<td>0.864</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td><strong>066 主（0.65）</strong></td>
+<td>0.677</td>
+<td><strong>0.933</strong></td>
+<td><strong>0.851</strong></td>
+<td><strong>0.868</strong></td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>alt（0.50）</td>
+<td>0.635</td>
+<td>0.931</td>
+<td>0.845</td>
+<td>0.864</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>collapse_only（0.50）</td>
+<td>0.635</td>
+<td>0.931</td>
+<td>0.845</td>
+<td>0.864</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>deep_only（0.50）</td>
+<td>0.635</td>
+<td>0.931</td>
+<td>0.846</td>
+<td>0.864</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>deep_regime（0.375）</td>
+<td>0.600</td>
+<td>0.930</td>
+<td><strong>0.842</strong></td>
+<td>0.860</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>built_only（0.875）</td>
+<td>0.741</td>
+<td>0.934</td>
+<td><strong>0.855</strong></td>
+<td>0.875</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>with_conflicts（0.79）</td>
+<td>0.717</td>
+<td>0.933</td>
+<td>0.852</td>
+<td>0.872</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>relig1（0.83）</td>
+<td>0.729</td>
+<td>0.934</td>
+<td>0.853</td>
+<td>0.872</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>relig0（0.40）</td>
+<td>0.607</td>
+<td>0.931</td>
+<td>0.844</td>
+<td>0.861</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>- w を定数で走査（primer あり、重い崩壊、A_Ord）：0 で 0.834、0.25 で 0.840、0.5 で 0.847、0.75 で 0.851、1 で 0.857（064 の primer なしの走査は 0.768→0.831）。primer が入ると w の効きは 0.063 から <strong>0.023</strong> に縮む。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用あたり（冊子＋primer の合計、全体、中央値、TAB=1）：066 主 <strong>37.5</strong>（8.5〜171）、065 主 36.8。重い崩壊だけで 86.0（065 は 83.8）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">仮説の検証</h2>
+<ul>
+<li>H78a（main の w が 0.4〜0.8）：支持（0.65）。</li>
+<li>H78b（collapse_only ≤ main − 0.1）：支持（0.50 対 0.65）。</li>
+<li>H78c（世界銀行の g の中央値 ≥ 1.0）：支持（1.08）。</li>
+<li>H78d（|main − 065 の主| &lt; 0.01）：支持（+0.0058）。</li>
+<li>H78e（deep_regime ≤ 065 の主 − 0.005）：<strong>棄却</strong>（0.8424 対 0.8450、−0.0026）。</li>
+<li>H78f（版の幅 ≤ 0.03）：支持（0.842〜0.855、幅 0.012）。</li>
+<li>H78g（後の調査で若い世代 &gt; 25–64歳 が 80% 以上）：支持（7/7）。</li>
+<li>H78h（宗教の読みの場あり − なし ≥ 0.3）：支持（0.525）。</li>
+</ul>
+<h2 id="_6">批判的な検討</h2>
+<ul>
+<li><strong>事例の選び方の偏り</strong>：Wikipedia に頁があるのは、学校なしで読みが続いた目立つ例（hedge school、Iceland）に寄りやすい。読みが静かに消えた例は記事になりにくいので、y の平均は上に偏っているおそれがある【推測】。それでも w が 0.375 の版（deep_regime）で重い崩壊は 0.842 にしか下がらない。</li>
+<li><strong>y と「文字が消える」は別のもの</strong>：Khmer Rouge では一世代が読めずに育った（y=0）が、生き残った大人と 1979 年以後の学校で文字は続いた。西ローマも読み書きは聖職者に狭まったが Latin の文字は消えていない。本回の y は「broad のまま続いたか」で、064 の L（文字そのものが消えるか）とは段が違う。w を「broad に振る舞う割合」と読み替えて入れたのは近似【推測】。</li>
+<li><strong>世界銀行の 9件は浅い局面</strong>：国の一部の学校、援助、難民の学校が残った。戦乱の中でも若い世代の識字は中央値で 1.08 倍に上がり、下がったのは Chad（0.74）と Iraq（0.98）だけで、学校が一部でも残れば現代の読み書きは次の世代に移る。だが重い崩壊のように学校も印刷も援助も何世代も無い場合の試験ではない。調査の方法（国勢調査と標本調査）が前後で違う例もある【推測】。</li>
+<li><strong>宗教の読みの場</strong>：y の差 0.525 は 5件と 4件の比べで、宗教の場と「国が崩れたかどうか」が重なっている（宗教の場のない2件は Khmer Rouge と西ローマ、どちらも深い）。因果とは言えない【推測】。冊子を宗教の場に預ける目安の版 relig1 でも重い崩壊は main より <strong>+0.002</strong> しか上がらない。</li>
+<li><strong>w の効きが小さい理由</strong>：064 で w の走査の幅は 0.063 だったが、065 の primer が「文字が切れた場合」の一部を拾うため、w の効きは 0.023 に縮んだ。重い崩壊の冊子の価値の残りの幅は、primer の最初の1人（174）と調べ始める時点（175）、生き残りの群の数（173）の方が大きい（065 で rec03＋slow10 0.810、pr_one 0.873）。</li>
+<li>軽い崩壊（計算機の社会が残る）では文字は続くので 0.969 で不変。</li>
+</ul>
+<h2 id="_7">軽い崩壊と重い崩壊</h2>
+<ul>
+<li>重い崩壊：冊子＋primer の価値は 065 の 0.845 から <strong>0.851</strong>（版で 0.842〜0.855）。A_XPT_S は 0.864→0.868。</li>
+<li>軽い崩壊：0.969 で不変。全体は 0.931→0.933（A_Ord）。</li>
+</ul>
+<h2 id="_8">新規性</h2>
+<p>現代の学校で教わる読み書きが学校なしで続くかを、(1) 国の学校のない・禁じられた・崩れた9局面の符号と (2) 内戦の前後の若い世代の識字の比（世界銀行の 9件）の二つで数え、知識保存の写しの価値に入れたのは本研究所で初めて【推測：網羅的に調べたわけではない】。Ord・XPT は崩壊の後の識字の続き方を扱っていない。【独自仮説】学校が消えたときに読みを次の世代に移すのは、普通の人が自分で文を読む宗教の場（Lutheran の家庭の読み、Qur'an の学校）と、家の秘密の学校である。ただし本回の模型では、その差が冊子の価値に効く大きさは 0.01 未満だった。</p>
+<h2 id="_9">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者は、064 で勧めた「冊子を宗教の場の図書室にも預ける」を、余分な費用をかけずにできる預け先の選び方としてだけ扱い（重い崩壊の価値で +0.002）、予算は冊子の部数・別々の預け先・primer の試しに回すべき【推測】。本研究所は w~U(0,1) を「事例から 0.65（版 0.375〜0.875）、重い崩壊 0.851（版 0.842〜0.855）」に改め、w の線は閉じて、次は primer の最初の1人（174）と調べ始める時点（175）へ進む。</p>
+<h2 id="_10">再現と逸脱</h2>
+<ul>
+<li>再現チェック：024〜065 を <code>/tmp/rep066/</code> に複製し 065 の sim.py（約182秒）を再実行、results.json は runtime 以外一致（葉 590個、差分0）。</li>
+<li>066 は 024〜065 とともに <code>/tmp/rep066b/</code> に複製して再実行し、results.json は runtime 以外一致（葉 543個、差分0）、図2枚の MD5 も一致。</li>
+<li>逸脱：世界銀行の取得の確認のため、事前登録の前に年齢別の行を表示して数値を見た（規則はその後に固定し、数値を見た後に変えていない）。sim.py は1回で通った。</li>
+<li>取得したが数字に使わなかった頁：Cultural Revolution（学校の閉鎖の長さと識字が本文で決まらない）、Flying University（高等教育だけ）、Kuttab、Nicaraguan・Cuban literacy campaign（運動の後の保持の数がない）、Impact of the COVID-19 pandemic on education・Summer learning loss（数か月の閉鎖。閉鎖で幼児の読みの伸びが 31% 少ないという推定は質的にだけ）、各国の Education の頁の残り、Somali Civil War、Ugandan Bush War、Lithuanian book smugglers。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

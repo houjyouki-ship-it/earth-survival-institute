@@ -1006,4 +1006,20 @@
 <li>判定：H77a・b・c・d・e・h・i 支持、H77f（19 対 44）・g（0.0042、境目）棄却。</li>
 <li>逸脱：事前登録の H77h の「両方」を sim.py の作成の前に「それぞれ」と書き直した。rec03＋slow10 を同時に掛けた版は事前登録にない追加の版で判定に使っていない。sim.py は1回で通った。</li>
 <li>「誰が何を変えるべきか」：記載あり（金庫の運営者は座標の冊子に 4〜8 ページの絵の手引き〔点の数と数字の表、絵と単語の対、最初のページで手引きと分かる作り〕を加え、その文字を知らない人で試して直してから刷る。100部で約 $1.4万、重い崩壊の価値 0.803→0.845。ただし費用あたりは冊子の配布が上なので部数と預け先を先に満たす。本研究所は 064 の 0.80 を「primer ありで 0.845、版 0.81〜0.86、最初の1人の非学者の例は 0件」と改め、次は 172 へ）。</li>
+</ul>
+<h2 id="66-2026-10-20">第66回 2026-10-20</h2>
+<ul>
+<li>再現チェック：024〜065 を <code>/tmp/rep066/</code> に複製し、065 の sim.py（約182秒）を再実行した。results.json は runtime 以外一致（葉 590個、差分0）。</li>
+<li>固定の最優先指示の節は残し、next_plan の推奨どおり open_problems 172（現代の学校で教わる読み書きが学校なしで続くか、064 の重み w）を主課題にした。切り替えの条件（戦乱・学校の閉鎖の後の識字の数が5件以上）は世界銀行の 9件で満たした。報告は重い崩壊と軽い崩壊を分けた。</li>
+<li>文献・データ（本回開いて確認）：Wikipedia 英語版（MediaWiki API）の Literacy、Swedish Church Law 1686、Education in Finland、Hedge school、Lithuanian press ban、Women in Afghanistan、Golden Needle Sewing School、Education in Somalia、Education in Cambodia、Khmer Rouge、および戦乱の年に First/Second Liberian Civil War、Rwandan Civil War、Tajikistani Civil War、Bosnian War、Chadian Civil War (2005–2010)、Sri Lankan civil war、Nepalese Civil War、Iraq War、Burundian Civil War、Mozambican Civil War、Sierra Leone Civil War、Afghan conflict。世界銀行 API（UIS の 15–24歳・25–64歳・65歳以上の識字率、30か国、<code>sources/wb_literacy.json</code>）。<code>sources/cases.json</code> の抜き出し 45件は <code>verify_excerpts.py</code> で保存本文と照合しすべて一致。Cultural Revolution、Flying University、Kuttab、Nicaraguan・Cuban literacy campaign、Impact of the COVID-19 pandemic on education、Summer learning loss、各国の Education の頁の残り、Somali Civil War、Ugandan Bush War、Lithuanian book smugglers も取得したが数字に使っていない。</li>
+<li>研究066を実施：<code>research/066-literacy-without-school/</code>（sim.py 約173秒 seed 20261066、計算のみ）。成果物は results.json、stdout.txt、fig_cases_wb.png、fig_versions_scan.png、report.md、PREREGISTRATION.md（06:49Z、資料を読み符号化した後・sim.py の作成の前）、sources/（本文、fetch.py、fetch_wb.py、wb_literacy.json、make_cases.py、cases.json、verify_excerpts.py、SHA256SUMS.txt）。<code>/tmp/rep066b/</code> で再実行し results.json は runtime 以外一致（葉 543個、差分0）、図2枚の MD5 も一致。</li>
+<li>方法：065 の sim.py を「# ---------- 版 ----------」の前まで exec し 065 の主（重い崩壊 0.84500）を差0で再現。064 の L = w·L_broad + (1−w)·L_narrow の w だけを、学校のない9局面の y の Jeffreys の Beta に置き換えた。版は alt・collapse_only・deep_only・deep_regime・built_only・with_conflicts（世界銀行の 9件を足す）・relig1・relig0・u01、w の走査（primer あり）。</li>
+<li>主要数値：</li>
+<li>局面：y の合計 6/9（Jeffreys <strong>0.65</strong>）、alt 0.50、あった学校・国が崩れた6件 0.50、国の崩壊と政権の3件 <strong>0.375</strong>、国の学校なしに作られた3件 0.875。宗教の文を自分で読む場あり5件の素の平均 <strong>0.90</strong>、なし・一部4件 0.375。</li>
+<li>世界銀行：戦乱の前後の 15–24歳の識字の比 g の中央値 <strong>1.08</strong>（9件、Chad 0.74〜Nepal 1.66）、alt 規則 11件でも 1.08。後の調査で若い世代が 25–64歳より読める例 7/7。</li>
+<li>重い崩壊の TC（V0 比、A_Ord/U3、primer あり）：065 主 0.845、066 主 <strong>0.851</strong>（XPT 0.868）、deep_regime <strong>0.842</strong>、built_only <strong>0.855</strong>、with_conflicts 0.852、relig1 0.853、relig0 0.844。w 0→1 で 0.834→0.857（primer なしの 064 は 0.768→0.831）。全体 0.933、軽い崩壊 0.969（不変）。</li>
+<li>費用あたり（冊子＋primer、全体、中央値、TAB=1）：066 主 <strong>37.5</strong>、065 主 36.8。重い崩壊だけで 86。</li>
+<li>判定：H78a・b・c・d・f・g・h 支持、H78e（−0.0026）棄却。</li>
+<li>逸脱：世界銀行の取得の確認のため、事前登録の前に年齢別の行を表示した（規則はその後に固定）。sim.py は1回で通った。</li>
+<li>「誰が何を変えるべきか」：記載あり（金庫の運営者は「宗教の場にも預ける」を余分な費用のない預け先の選び方としてだけ扱い〔+0.002〕、予算は部数・別々の預け先・primer の試しに回す。本研究所は w~U(0,1) を「事例から 0.65、重い崩壊 0.851（版 0.842〜0.855）」に改め、w の線は閉じて 174・175 へ）。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
