@@ -1,0 +1,124 @@
+URL: https://en.wikipedia.org/wiki/Pahawh_Hmong
+Pahawh Hmong (RPA: Phaj Hauj Hmoob, Pahawh: 𖬖𖬰𖬝𖬵 𖬄𖬶𖬟 𖬌𖬣𖬵; 𖬖𖬲𖬝𖬵 𖬄𖬲𖬟 𖬌𖬣𖬵, pronounced [pʰâ hâu m̥ɔ̃́]; known also as Ntawv Phaj Hauj) is an indigenous semi-syllabic script, invented in 1959 by Shong Lue Yang (RPA: Soob Lwj Yaj; Pahawh Hmong: 𖬌𖬤𖬵 𖬘𖬲𖬞 𖬖𖬲𖬤), to write two Hmong languages, Hmong Daw (Hmoob Dawb/White Miao) and Hmong Njua AKA Mong Leng (Moob Leeg/Green Miao).
+
+
+== Form ==
+Pahawh is written from left to right. Each syllable is written with two letters, an onset (𖬗𖬰𖬞; la, an initial consonant or consonant cluster) and a rime (𖬇𖬤; 𖬇𖬰𖬤; yu, a vowel, diphthong, or vowel plus final consonant). However, the order of these elements is rime-initial, the opposite of their spoken order; that is, each syllable would seem to be written right to left if it were transcribed literally into the Roman alphabet. Pahawh Hmong might therefore be thought of as a vowel-centered abugida; tones and onsets are distinguished by diacritics.
+The consonant onset k is not written, so that a rime letter (V) written by itself is read as kV. Nor is the rime au (on mid tone) written, so that an onset letter (C) written by itself is read Cau, except following a bare rime, as otherwise these could be read as a single syllable. The absence of an onset, however, is indicated with a null-onset letter. Again, this is similar to an abugida, but with the roles of consonant and vowel reversed.
+For an example of the positional variation, consider the phrase (written in RPA orthography): kuv rau tshais rau koj noj "I serve you breakfast". Since the first word, kuv, starts with a k, it is written as the bare rime uv in Pahawh (𖬆𖬲; 𖬇). The word rau, with mid-tone au as the rime, is normally written as a bare onset r (𖬡), and indeed this is the case for the second instance in this sentence. However, since the first rau follows a bare rime, it cannot be written as a bare onset r, or the combination might be read as ruv rather than kuv rau. Therefore, the combination kuv rau is written as uv rau (𖬆𖬲 𖬅𖬡; 𖬇 𖬅𖬰𖬡) rather than uv r (𖬆𖬲 𖬡; 𖬇 𖬡), with the rime au (𖬅; 𖬅𖬰) made explicit.
+Here is the aforementioned sentence in Pahawh, written in Second and Third Stage respectively: 𖬆𖬲 𖬅𖬡 𖬋𖬰𖬝𖬰 𖬡 𖬒𖬲 𖬒𖬲𖬬; 𖬇 𖬅𖬰𖬡 𖬋𖬲𖬪𖬰 𖬡 𖬒𖬲 𖬒𖬲𖬬
+
+Pahawh has twenty onset letters to transcribe sixty phonemic onsets. This is accomplished with two diacritics, a dot (𖬰, 𖬂𖬯 𖬆𖬰𖬧𖬵; 𖬂𖬰𖬯 𖬆𖬧𖬵; cim tub) and a tack (𖬵, 𖬂𖬯 𖬒𖬟; 𖬂𖬰𖬯 𖬒𖬰𖬟; cim hom), written above the onset. However, although there is some scattered similarity between the sounds of the resulting forms, there is no overall pattern to the system. For example, the letter for h (𖬟) with a dot is pronounced th (𖬟𖬰), and with a tack is pronounced pl (𖬟𖬵). The null consonant (𖬭) does not take diacritics in Hmong Daw, but does in Hmong Njua, for two onsets, ndl and ndlh (𖬭𖬰, 𖬭𖬵), which only occur in Hmong Njua; similarly, the letter for l (𖬞) with a dot and tack, respectively, represents Daw d and dh (𖬞𖬰, 𖬞𖬵), which do not occur in Njua, but are used to represent Njua dl and dlh (𖬞𖬰, 𖬞𖬵), which do not occur in Daw. However, Cwjmem retains the Daw values for the letter d and dh and instead designates Njua dl, dlh, and ndlh with a letter used for the null consonant, with a rounded tack (𖬴, 𖬂𖬯 𖬐𖬤𖬵; 𖬂𖬰𖬯 𖬐𖬰𖬤𖬵; cim suam) to represent ndlh (thus representing Njua ndl, dl, dlh, and ndlh as 𖬭, 𖬭𖬰, 𖬭𖬵, 𖬭𖬴, respectively).
+The rimes, in contrast, are over-specified. There are thirteen rime sounds, but twenty-six letters to represent them. One of each pair takes four of the eight tones, while the other takes the other four tones. Diacritics (dot, 𖬰, 𖬂𖬯 𖬆𖬰𖬧𖬵; 𖬂𖬰𖬯 𖬆𖬧𖬵; cim tub; macron, 𖬲, 𖬂𖬯 𖬉𖬲; 𖬂𖬰𖬯 𖬉𖬲; cim kes; and trema, 𖬶, 𖬂𖬯 𖬄𖬧𖬵; 𖬂𖬰𖬯 𖬄𖬰𖬧𖬵; cim taum), or the lack of one, distinguish the tones that each rime letter may carry. One of the tones, written -d in RPA, is not phonemic but is a prosodic unit-final allophone of the creaky register -m; it may be written in Pahawh by changing the dot diacritic to a short stroke (𖬱, 𖬂𖬯 𖬓𖬰𖬤𖬵; 𖬂𖬰𖬯 𖬓𖬰𖬤𖬵; cim so), but it is not in primarily use by Second Stage writers.
+Shong used the rimes with the values kiab and kab in Hmong Daw for kab and kaab (/kã́/) in Hmong Njua. However, Cwjmem retains the Daw values for Njua and adds a pipe (|) to the left of kab kam kav etc. to write kaab kaam kaav etc.
+In addition to phonetic elements, Pahawh Hmong has a minor logographic component, with characters for
+
+the numerals 0–10, ×102 (hundreds), ×104 (myriads), ×106 (millions), ×108, ×1010, and ×1012 (trillions), though the higher numerals have been dropped leaving a positional decimal system
+arithmetical signs
+periods of time: year, season, month, day, date
+the most common grammatical classifier, lub, which when written out phonetically consists of two very similar letters (𖬆𖬰𖬞; 𖬆𖬞), and
+eighteen clan signs. These were never disseminated, but were intended to clarify personal relationships in Hmong refugee camps, where people regularly met strangers of unknown clan. Strict taboos govern the behavior of Hmong men and women from the same clan.
+Punctuation is derived from the Roman alphabet, presumably through French or Lao, except for a sign introduced by one of Shong's disciples, Pa Kao Her (𖬖𖬰𖬪𖬵 𖬄𖬰 𖬎𖬲𖬟; 𖬖𖬲𖬪𖬵 𖬄 𖬎𖬲𖬟; Paj Kaub Hawj), that replaced Shong's ⟨!⟩, but also includes a native sign for reduplication and a native cantillation mark.
+
+
+=== Second and third stage tones ===
+There are two orthographic systems in use for Pahawh Hmong, the second reduced stage from 1965 and the third reduced stage from 1970 (see history, below). Some Hmong communities consider the second stage to be more authentic, while others prefer the third stage as being more pragmatic.
+The differences are primarily in tone assignment. Bare rimes—that is, rime letters without a tone diacritic—have various values in stage two, but are regularly high tone (-b) or rising tone (-v) in stage three. Likewise, although the pedagogic charts are organized so that each column corresponds to a single tone, the tonic diacritics are scattered about the columns in stage two, but correspond to them in stage three. (Stage 4, which today is only used for shorthand, replaces the -v rime letters with additional diacritics on the -b rime letters, so that each rime and tone has a single dedicated glyph.)
+Tone transcription is that of the Romanized Popular Alphabet.
+
+
+== History ==
+
+Pahawh Hmong was believed by Shong Lue Yang's students, primary Chia Koua Vang, to be the product of a native messianic movement, based on the idea that, throughout history, God (RPA: Vaj; Pahawh: 𖬖𖬰𖬜; 𖬖𖬲𖬜) had given the Hmong power through the gift of writing, and revoked it as divine retribution.
+Despite his illiteracy, Shong Lue Yang created Pahawh through what he believed to be a series of divine visions in 1959. Both the Hmong and Khmu people believed him to be the Son of God and their messiah, and that God had revealed the Pahawh script to Shong Lue to restore both the Hmong and Khmu's writing script. Over the next twelve years he and his disciples taught it as part of a cultural revival movement, at first in northern Vietnam, then in Laos after Shong and his students had fled Communist Vietnam. The Pahawh Khmu never caught on and soon disappeared. Shong continually modified the Hmong script, producing four increasingly sophisticated versions, until he was assassinated by Laotian soldiers in 1971, in hopes of stopping his growing political influence. Knowledge of the later two stages of Pahawh would come to light through his disciple Chia Koua Vang, who had corresponded with Shong in prison.
+
+The first stage of Pahawh (RPA: Phaj Hauj Paj; Pahawh: 𖬖𖬰𖬝𖬵 𖬄𖬶𖬟 𖬖𖬰𖬪𖬵; 𖬖𖬲𖬝𖬵 𖬎𖬲𖬟 𖬖𖬲𖬪𖬵), commonly called "the source version", had distinct glyphs for all 60 onsets and 91 rimes of both Hmong Daw and Hmong Njua. Although there were diacritics, there was no relationship between them and the sound values of the letters, and many of the diacritics are unique to a single letter. Among the rimes, there was a strong tendency for letters which differed only in diacritic to share the same vowel and differ in tone. However, this was not absolute. For example, a letter shaped like Ü stood for the rime iaj, while U, differing only in its diacritic, stood for the rime us. Plain U without a diacritic did not occur. Similarly, the letter that, without a diacritic, represents the rime ag, when combined with a diacritic dot represents the onset rh.
+Stage 1 was abandoned after Shong revealed the second stage. However, it is not considered obsolete, as people remember Shong's instructions to use the Source version as a sacred script for religious use.
+The second stage (RPA: Phaj Hauj Ntsiab Duas Ob; Pahawh: 𖬖𖬰𖬝𖬵 𖬄𖬶𖬟 𖬔𖬝 𖬑𖬲𖬞𖬰 𖬒𖬰𖬮𖬰; 𖬖𖬲𖬪𖬵 𖬎𖬲𖬟 𖬔𖬝 𖬑𖬲𖬞𖬰 𖬒𖬮𖬰), the "second stage reduced version", was the first practical Pahawh Hmong revision. It was taught by Shong Lue in 1965 and is supported today by the Australian Language Institute and Cwjmem (Everson 1999). The consonants are graphically regular, in that each column in the pedagogic charts contains the same diacritic, but are phonetically irregular, in that the diacritics have no consistent meaning; this irregularity remained in all subsequent stages. Tone assignment is irregular, in that the diacritics do not represent specific tones with the rimes any more than they represent specific features with the consonants. For example, the trema sometimes represents the -b tone, sometimes -j, -v, or -g, depending on which rime it is added to. The one exception is the -d "tone", which is actually a prosodic inflection of the -m tone, but this practice is not adhered by every Second Stage user.
+The third stage (RPA: Phaj Hauj Ntsiab Duas Peb; Pahawh: 𖬖𖬰𖬝𖬵 𖬄𖬶𖬟 𖬔𖬝 𖬑𖬲𖬞𖬰 𖬒𖬰𖬮𖬰; 𖬖𖬲𖬪𖬵 𖬎𖬲𖬟 𖬔𖬝 𖬑𖬲𖬞𖬰 𖬒𖬮𖬰), the "third stage reduced version", introduced in 1970, regularized tone assignment and restores the null onset, which with the addition of diacritics covers Hmong Njua consonants not found in Hmong Daw, but was recorded in the Source version. Chia believes the lack of this series in stage two was merely an oversight on his part in his prison correspondence with Shong.. It was not taught as widely in Vietnam and Laos as the second stage, due to fear of admitting knowledge of the script after the Communist takeover. Both second and third stage are currently in use in different Hmong communities; however, because the third stage did not appear widely until after Shong's death, there is a suspicion in many communities that it and the fourth stage were invented by Shong's disciples, and therefore are not authentic Pahawh. There is also presence of different signs for month, tens, and zero compare to the second stage.
+
+The final version (RPA: Phaj Hauj Txha; Pahawh: 𖬖𖬲𖬝𖬵 𖬄𖬶𖬟 𖬗𖬰𖬦𖬰; 𖬖𖬲𖬝𖬵 𖬎𖬲𖬟 𖬗𖬰𖬦𖬰), the "core version", published in 1971 just a month before Shong's death, was a radical simplification with one letter per rime and one diacritic per tone; the onsets were not changed. The only graphic addition was that of three new tone marks, for seven total; half of the rimes were eliminated: The -b, -m, -d, -j tones are written as in stage 3, but the -v, -, -s, -g tones now use the same rime letters as the other tones, with different diacritics: circumflex, underlined dot, tack (which was already being used on onset letters), and trema, respectively. (The trema is retained from stage 3, so only the rime letter changes for this tone.) Stage 4 is not widely known, but is used as a kind of shorthand by some who do know it.
+
+Pahawh is not as widespread as RPA romanization for writing Hmong, partially because of the difficulties in typesetting it, but it is a source of great pride for many Hmong who do not use it, as in Southeast Asia every respectable language has a script of its own, which RPA does not provide. However, for some educated Hmong, Pahawh is considered an embarrassing remnant of a superstitious past..
+Chao Fa (Hmong: Cob Fab, Pahawh: 𖬒𖬰𖬯 𖬖𖬲𖬜𖬵; 𖬒𖬯 𖬖𖬜𖬵 ), not to be confused with Laotian royal title Saopha, is a Hmong group who uses this writing system.
+
+
+== Phonology ==
+
+
+=== Vowels ===
+
+The vowel systems of Hmong Daw and Mong Njua are as shown in the following charts. Phonemes particular to each dialect are color-coded respectively:
+
+
+=== Consonants ===
+
+Hmong makes a number of phonemic contrasts unfamiliar to English speakers. All non-glottal stops and affricates distinguish aspirated and unaspirated forms, most also prenasalization independently of this. The consonant inventory of Hmong is shown in the chart below. (Consonants particular to Hmong Daw and Mong Njua are color-coded respectively.)
+
+
+=== Diacritical marks ===
+The Pahawh Hmong diacritics were devised by Shong Lue Yang in isolation, and have no genetic relation to similar-looking punctuation in the European tradition (DOT ABOVE, DIAERESIS, MACRON). Since it can also typically take shapes that are different from the typical shapes that European punctuation has, it would be inappropriate to attempt to unify Pahawh Hmong diacritics with characters in the General Punctuation mark. Combining diacritics are found at 16B30..16B36 and function in the usual way. Note that 16B34 and 16B35 could be composed (16B32 + 16B30 and 16B32 + 16B31 respectively). Such an encoding is not recommended (because decomposition would break the one-to-four character convention for representing Hmong syllables) and no canonical decomposition is given in the character properties.
+
+
+== Logographs ==
+
+
+== Numeral system ==
+Pahawh Hmong has a distinct numeral system with values for 0–9, along with a set of symbols for positional notation. The positional notation system is still taught, and reflects the spoken language, but is not used for arithmetic calculation. Larger numbers can thus be written two ways, using just 0–9 with place value being understood or by using the positional notation characters. For example, the number 57023 would be commonly be written as 𖭕𖭗𖭐𖭒𖭓 (five-seven-zero-two-three), but it can also be written 𖭕𖭗𖭜𖭐𖭒𖭛𖭓 (fifty-seven thousand-twenty-three).
+
+
+=== Positional notation ===
+
+
+== Punctuation marks ==
+
+Non-script-specific punctuation marks are also used including the question mark (?), left parentheses, right parentheses, period (.), comma (,), semicolon (;), colon (:), less than sign (<), greater than sign (>), and dash (–).
+
+
+=== Arithmetic operators ===
+
+
+== Samples ==
+
+
+== Unicode ==
+
+The Pahawh Hmong alphabet was added to the Unicode Standard in June 2014 with the release of version 7.0.
+The Unicode block for Pahawh Hmong is U+16B00–U+16B8F:
+
+
+== See also ==
+
+Hmong language
+Hmong writing
+
+
+== References ==
+
+Ratliff, Martha (1996). "The Pahawh Hmong Script". In Daniels, Peter T.; Bright, William (eds.). The World's Writing Systems. New York, NY: University of Oxford Press. pp. 619–624.
+Rogers, Henry (2005). Writing Systems: A Linguistic Approach. Blackwell Publishing. pp. 260–262.
+Smalley, William Allen; Chia, Koua Vang (; Txiaj Kuam Vaj); and Gnia, Yee Yang (; Nyiaj Yig Yaj) (1990). Mother of Writing: The Origin and Development of a Hmong Messianic Script. Chicago: University of Chicago Press.{{cite book}}:  CS1 maint: multiple names: authors list (link) CS1 maint: numeric names: authors list (link)
+
+
+== External links ==
+Omniglot Pahawh Hmong Alphabet
+https://web.archive.org/web/20221028031332/http://pahawh.org/ The Pahawh Hmong Platform (old website)
+https://wiki.liamscode.net/unicode/block.php?n=Pahawh%20Hmong Archived 2021-11-11 at the Wayback Machine Pahawh Hmong Unicode Block
+https://pahawh.com/index.html Pahawh Hmong Platform (new website)
+RPA to Hmong IPA & Hmong RPA to Pahawh Hmong converter Downloadable (Credited to Chao Moua & AutoHotKey)
+
+
+=== Fonts ===
+For now, Pahawh Hmong Unicode is only supported by:
+
+Noto Sans Pahawh Hmong (direct download link), a font made by Google
+Pahawh Unicode (direct download link), Google Drive
+Pahawh Hmong (Unicode) fonts & Non-Unicode Fonts
+
+
+=== Keyboard ===
+Pahawh Hmong Keyboard (Unicode) for Keyman
+
+Android and IPhone, made by Hmoob Vaj Loog Vooj Vuab and other generous donors
+Keyman now supports Pahawh Hmong (Basic) keyboard
+Windows, macOS, Linux, Web, iPhone and iPad, Android, Mobile web, made possible by Lorna Evans, the author

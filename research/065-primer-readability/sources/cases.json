@@ -1,0 +1,700 @@
+{
+ "adoption": [
+  {
+   "id": "Cherokee_1821",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 1,
+   "years_to_majority": 4,
+   "ex": [
+    [
+     "wp_Sequoyah.txt",
+     "In 1821, Sequoyah completed his Cherokee syllabary, enabling reading and writing in the Cherokee language."
+    ],
+    [
+     "wp_Cherokee_syllabary.txt",
+     "By 1825, the majority of Cherokees could read and write in their newly developed orthography."
+    ],
+    [
+     "wp_Sequoyah.txt",
+     "By 1830, as many as 90% of Cherokees were literate in their own language."
+    ],
+    [
+     "wp_Cherokee_syllabary.txt",
+     "The Cherokee student could accomplish in a few weeks what students of English writing might require two years to achieve."
+    ],
+    [
+     "wp_Sequoyah.txt",
+     "Sequoyah's six-year-old daughter, Ayokeh (also spelled Ayoka), was the first person to learn it."
+    ]
+   ]
+  },
+  {
+   "id": "Cree_1841",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 1,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Cree_syllabics.txt",
+     "After the 1841 publication of a syllabics hymn book, the new script spread quickly."
+    ],
+    [
+     "wp_Cree_syllabics.txt",
+     "The Cree valued it because it could be learned in just a few hours"
+    ],
+    [
+     "wp_Cree_syllabics.txt",
+     "Virtually all Cree became literate in the new syllabary within a few years."
+    ],
+    [
+     "wp_Canadian_Aboriginal_syllabics.txt",
+     "it was rapidly indigenized and spread to new communities before missionaries arrived"
+    ]
+   ]
+  },
+  {
+   "id": "GreatLakes_Fox_Sac",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 1,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Great_Lakes_Algonquian_syllabics.txt",
+     "In 1880, when first reported, use of the script was widespread among speakers of Fox and Sac."
+    ],
+    [
+     "wp_Great_Lakes_Algonquian_syllabics.txt",
+     "On a subsequent visit to Fox territory in Iowa in 1884, a Winnebago speaker learned to write in the script."
+    ]
+   ]
+  },
+  {
+   "id": "Inuktitut_1855",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 0.5,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Inuktitut_syllabics.txt",
+     "printed by John Horden in 1855–56 at Moose Factory for Edwin Arthur Watkins to use among the Inuit at Fort George"
+    ],
+    [
+     "wp_Inuktitut_syllabics.txt",
+     "is an abugida-type writing system used in Canada by the Inuktitut-speaking Inuit of the territory of Nunavut"
+    ]
+   ]
+  },
+  {
+   "id": "Vai_1833",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 0.5,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Vai_syllabary.txt",
+     "The Vai syllabary emerged about 1832/33."
+    ],
+    [
+     "wp_Vai_syllabary.txt",
+     "It is one of the two most successful indigenous scripts in West Africa in terms of the number of current users"
+    ]
+   ]
+  },
+  {
+   "id": "Pollard_Miao",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 1,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Pollard_script.txt",
+     "When the script was introduced, many Miao came from far away to see and learn it."
+    ],
+    [
+     "wp_Pollard_script.txt",
+     "A revision of the script was completed in 1988, which remains in use."
+    ]
+   ]
+  },
+  {
+   "id": "NKo_1949",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 0.5,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_NKo_script.txt",
+     "This introduction of the script led to a movement promoting N'Ko literacy among Mandé speakers"
+    ],
+    [
+     "wp_NKo_script.txt",
+     "Though taught mostly informally through N'Ko literacy promotion associations"
+    ]
+   ]
+  },
+  {
+   "id": "Pahawh_1959",
+   "group": "main",
+   "teacher": true,
+   "y": 0.5,
+   "y_alt": 0.5,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Pahawh_Hmong.txt",
+     "Over the next twelve years he and his disciples taught it as part of a cultural revival movement"
+    ],
+    [
+     "wp_Pahawh_Hmong.txt",
+     "Pahawh is not as widespread as RPA romanization for writing Hmong"
+    ]
+   ]
+  },
+  {
+   "id": "Yugtun_1900",
+   "group": "main",
+   "teacher": true,
+   "y": 0,
+   "y_alt": 0.5,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Yugtun_script.txt",
+     "The Yugtun or Alaska script is a syllabary invented around the year 1900 by Uyaquq"
+    ],
+    [
+     "wp_Yugtun_script.txt",
+     "The Yup'ik language is now generally written in the Latin alphabet."
+    ]
+   ]
+  },
+  {
+   "id": "Hangul_1446",
+   "group": "main",
+   "teacher": true,
+   "y": 0.5,
+   "y_alt": 0,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Hangul.txt",
+     "While Hangul saw gradual adoption among both the elite and commoners, it was looked down upon by the elite for centuries."
+    ],
+    [
+     "wp_Hangul.txt",
+     "Within a decade, a significant majority of Koreans in both Koreas became literate in at least Hangul."
+    ]
+   ]
+  },
+  {
+   "id": "Greek_from_Phoenician",
+   "group": "main",
+   "teacher": true,
+   "y": 1,
+   "y_alt": 1,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Greek_alphabet.txt",
+     "The Greeks adopted the alphabet from the earlier Phoenician alphabet"
+    ],
+    [
+     "wp_Greek_alphabet.txt",
+     "Inscription written in the Greek alphabet begin to emerge from the 8th century BC onward."
+    ]
+   ]
+  },
+  {
+   "id": "Bamum_1896",
+   "group": "suppression",
+   "teacher": true,
+   "y": 0,
+   "y_alt": 0,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Bamum_script.txt",
+     "The initial form of Bamum script, called Lewa (\"book\"), was developed in 1896–1897."
+    ],
+    [
+     "wp_Bamum_script.txt",
+     "The script fell into disuse in 1931 with the exile of Njoya to Yaoundé, Cameroon."
+    ]
+   ]
+  },
+  {
+   "id": "Deseret_1868",
+   "group": "literate",
+   "teacher": true,
+   "y": 0,
+   "y_alt": 0,
+   "years_to_majority": null,
+   "ex": [
+    [
+     "wp_Deseret_alphabet.txt",
+     "four books were printed: two school primers, the full Book of Mormon"
+    ],
+    [
+     "wp_Deseret_alphabet.txt",
+     "Contemporary writers noted that thousands of copies of the 15¢ and 20¢ Deseret primers went unsold"
+    ],
+    [
+     "wp_Deseret_alphabet.txt",
+     "it has been regarded by historians as a failure"
+    ]
+   ]
+  }
+ ],
+ "decipher": [
+  {
+   "id": "Egyptian_Rosetta",
+   "keyed": true,
+   "start": 1799,
+   "end": 1822,
+   "lang": 1,
+   "ex": [
+    [
+     "wp_Rosetta_Stone.txt",
+     "It was found there in July 1799 by French army officer Pierre-François Bouchard"
+    ],
+    [
+     "wp_Rosetta_Stone.txt",
+     "Jean-François Champollion announced the transliteration of the Egyptian scripts in Paris in 1822"
+    ],
+    [
+     "wp_Rosetta_Stone.txt",
+     "comparing them to the contemporary Coptic language used by Coptic priests in their time"
+    ]
+   ]
+  },
+  {
+   "id": "Akkadian_Behistun",
+   "keyed": true,
+   "start": 1847,
+   "end": 1857,
+   "lang": 1,
+   "ex": [
+    [
+     "wp_Behistun_inscription.txt",
+     "In 1847, he was able to send a full and accurate copy to Europe."
+    ],
+    [
+     "wp_Cuneiform.txt",
+     "It was successfully deciphered by 1857."
+    ],
+    [
+     "wp_Behistun_inscription.txt",
+     "it is the longest known trilingual cuneiform inscription"
+    ]
+   ]
+  },
+  {
+   "id": "Maya_Landa",
+   "keyed": true,
+   "start": 1862,
+   "end": 1952,
+   "lang": 1,
+   "ex": [
+    [
+     "wp_Diego_de_Landa.txt",
+     "In 1862, French cleric Charles Etienne Brasseur de Bourbourg published the manuscript"
+    ],
+    [
+     "wp_Diego_de_Landa.txt",
+     "many subsequent attempts to use the transcription remained unconvincing"
+    ],
+    [
+     "wp_Maya_script.txt",
+     "In 1952 Knorozov published the paper \"Ancient Writing of Central America\""
+    ],
+    [
+     "wp_Maya_script.txt",
+     "the names of the letters of the Spanish alphabet meant nothing to Landa's Maya scribe"
+    ]
+   ]
+  },
+  {
+   "id": "LinearElamite_bilingual",
+   "keyed": true,
+   "start": 1905,
+   "end": 2022,
+   "lang": 0.5,
+   "ex": [
+    [
+     "wp_Linear_Elamite.txt",
+     "have inspired the first attempts at decipherment of Linear Elamite (Bork, 1905, 1924; Frank, 1912)"
+    ],
+    [
+     "wp_Linear_Elamite.txt",
+     "Their proposed near-complete decipherment was published in 2022"
+    ],
+    [
+     "wp_Linear_Elamite.txt",
+     "others remain sceptical until detailed translations of texts have been published"
+    ]
+   ]
+  },
+  {
+   "id": "Luwian_hier",
+   "keyed": true,
+   "start": null,
+   "end": null,
+   "lang": 1,
+   "ex": [
+    [
+     "wp_Anatolian_hieroglyphs.txt",
+     "By 1915, with the Luwian language known from cuneiform"
+    ],
+    [
+     "wp_Anatolian_hieroglyphs.txt",
+     "In the 1930s, it was partially deciphered"
+    ],
+    [
+     "wp_Karatepe.txt",
+     "This inscription has served archaeologists as a Rosetta Stone for deciphering those glyphs."
+    ]
+   ]
+  },
+  {
+   "id": "Meroitic",
+   "keyed": true,
+   "start": null,
+   "end": 1909,
+   "lang": 0,
+   "ex": [
+    [
+     "wp_Meroitic_script.txt",
+     "based on the Meroitic spellings of Egyptian names"
+    ],
+    [
+     "wp_Meroitic_script.txt",
+     "However, the Meroitic language itself remains poorly understood."
+    ]
+   ]
+  },
+  {
+   "id": "Etruscan",
+   "keyed": true,
+   "start": null,
+   "end": null,
+   "lang": 0,
+   "ex": [
+    [
+     "wp_Etruscan_language.txt",
+     "linguists have been able to read the inscriptions in the sense of knowing roughly how they would have been pronounced but have not yet understood their meaning"
+    ],
+    [
+     "wp_Etruscan_language.txt",
+     "some bilingual inscriptions with texts also in Latin, Greek, or Phoenician"
+    ]
+   ]
+  },
+  {
+   "id": "OldPersian",
+   "keyed": false,
+   "start": 1764,
+   "end": 1802,
+   "lang": 1,
+   "ex": [
+    [
+     "wp_Old_Persian_cuneiform.txt",
+     "in the absence of bilingual documents connecting it to a known language"
+    ],
+    [
+     "wp_Old_Persian_cuneiform.txt",
+     "Around 1764, Carsten Niebuhr visited the ruins of Persepolis, and was able to make excellent copies of the inscriptions"
+    ],
+    [
+     "wp_Behistun_inscription.txt",
+     "Grotefend had deciphered ten of the 37 symbols of Old Persian by 1802"
+    ]
+   ]
+  },
+  {
+   "id": "LinearB",
+   "keyed": false,
+   "start": 1900,
+   "end": 1952,
+   "lang": 1,
+   "ex": [
+    [
+     "wp_Linear_B.txt",
+     "excavation on the hill began on 23 March 1900"
+    ],
+    [
+     "wp_Linear_B.txt",
+     "Linear B was deciphered in 1952 by English architect and self-taught linguist Michael Ventris"
+    ]
+   ]
+  },
+  {
+   "id": "LinearA",
+   "keyed": false,
+   "start": 1900,
+   "end": null,
+   "lang": null,
+   "ex": [
+    [
+     "wp_Linear_A.txt",
+     "Since its modern rediscovery in 1900, no texts in the script have yet been deciphered."
+    ]
+   ]
+  },
+  {
+   "id": "Indus",
+   "keyed": false,
+   "start": 1875,
+   "end": null,
+   "lang": null,
+   "ex": [
+    [
+     "wp_Indus_script.txt",
+     "The first publication of a seal with Harappan symbols dates to 1875"
+    ],
+    [
+     "wp_Indus_script.txt",
+     "Over the years, numerous decipherments have been proposed, but there is no established scholarly consensus."
+    ]
+   ]
+  },
+  {
+   "id": "Rongorongo",
+   "keyed": false,
+   "start": 1864,
+   "end": null,
+   "lang": null,
+   "ex": [
+    [
+     "wp_Rongorongo.txt",
+     "no explorer reported the script until Eugène Eyraud in 1864"
+    ],
+    [
+     "wp_Rongorongo.txt",
+     "Numerous attempts at decipherment have been made, but none have been successful."
+    ]
+   ]
+  }
+ ],
+ "numerals": [
+  {
+   "id": "LinearA",
+   "num": 1,
+   "num_alt": 1,
+   "ex": [
+    [
+     "wp_Linear_A.txt",
+     "Integers can be read and the operations of addition, subtraction, multiplication, and division are quite straightforward"
+    ]
+   ]
+  },
+  {
+   "id": "ProtoElamite",
+   "num": 1,
+   "num_alt": 1,
+   "ex": [
+    [
+     "wp_Proto-Elamite_script.txt",
+     "It remains largely undeciphered, except for various numbers."
+    ]
+   ]
+  },
+  {
+   "id": "Maya",
+   "num": 1,
+   "num_alt": 1,
+   "ex": [
+    [
+     "wp_Maya_script.txt",
+     "19th-century and early 20th-century investigators managed to decode the Maya numbers and portions of the texts related to astronomy and the Maya calendar, but understanding of most of the rest long eluded scholars."
+    ]
+   ]
+  },
+  {
+   "id": "Indus",
+   "num": 0.5,
+   "num_alt": 0,
+   "ex": [
+    [
+     "wp_Indus_script.txt",
+     "numerical nature of certain stroke-like signs"
+    ]
+   ]
+  },
+  {
+   "id": "Rongorongo",
+   "num": 0,
+   "num_alt": 0.5,
+   "ex": [
+    [
+     "wp_Rongorongo.txt",
+     "apart from a portion of one tablet which has been shown to have to do with a lunar Rapa Nui calendar and a possible genealogy, none of the texts are understood"
+    ]
+   ]
+  }
+ ],
+ "stimulus": [
+  {
+   "id": "Sequoyah",
+   "start": 1809,
+   "end": 1821,
+   "ex": [
+    [
+     "wp_Sequoyah.txt",
+     "Around 1809, Sequoyah began creating a system of writing for the Cherokee language."
+    ],
+    [
+     "wp_Cherokee_syllabary.txt",
+     "he was illiterate until its creation"
+    ],
+    [
+     "wp_Sequoyah.txt",
+     "referred to their correspondence as \"talking leaves\""
+    ]
+   ]
+  },
+  {
+   "id": "Njoya_Bamum",
+   "start": 1896,
+   "end": 1910,
+   "ex": [
+    [
+     "wp_Bamum_script.txt",
+     "evolving from a pictographic system to a semi-syllabary in the space of fourteen years, from 1896 to 1910"
+    ]
+   ]
+  },
+  {
+   "id": "Uyaquq_Yugtun",
+   "start": null,
+   "end": null,
+   "ex": [
+    [
+     "wp_Yugtun_script.txt",
+     "Uyaquq, who was monolingual in Yup'ik but had a son who was literate in English, initially used Indigenous pictograms"
+    ],
+    [
+     "wp_Yugtun_script.txt",
+     "when he realized that this did not allow him to reproduce the exact words of a passage"
+    ]
+   ]
+  },
+  {
+   "id": "ShongLueYang",
+   "start": null,
+   "end": null,
+   "ex": [
+    [
+     "wp_Pahawh_Hmong.txt",
+     "Despite his illiteracy, Shong Lue Yang created Pahawh"
+    ]
+   ]
+  },
+  {
+   "id": "Bukele_Vai",
+   "start": null,
+   "end": null,
+   "ex": [
+    [
+     "wp_Vai_syllabary.txt",
+     "Bukele is regarded within the Vai community, as well as by most scholars, as the syllabary's inventor"
+    ]
+   ]
+  }
+ ],
+ "other": [
+  {
+   "id": "Hunminjeongeum_size",
+   "use": "primer size anchor",
+   "ex": [
+    [
+     "wp_Hunminjeongeum.txt",
+     "In the Hunminjeongeum Haerye edition, the base Hunminjeongeum consists of four leaves (sheets of paper)."
+    ],
+    [
+     "wp_Hunminjeongeum.txt",
+     "While the base Hunminjeongeum remained in the historical record, the Haerye was lost and forgotten."
+    ]
+   ]
+  },
+  {
+   "id": "Laubach",
+   "use": "qualitative",
+   "ex": [
+    [
+     "wp_Frank_Laubach.txt",
+     "It has been used to teach about 60 million people to read in their own language."
+    ]
+   ]
+  },
+  {
+   "id": "OrbisPictus",
+   "use": "qualitative",
+   "ex": [
+    [
+     "wp_Orbis_Pictus.txt",
+     "It was the first widely used children's textbook with pictures"
+    ]
+   ]
+  },
+  {
+   "id": "EachOneTeachOne",
+   "use": "qualitative",
+   "ex": [
+    [
+     "wp_Each_one_teach_one.txt",
+     "When an enslaved person learned or was taught to read, it became their duty to teach someone else"
+    ]
+   ]
+  },
+  {
+   "id": "Tifinagh_oral",
+   "use": "qualitative (172)",
+   "ex": [
+    [
+     "wp_Tifinagh.txt",
+     "Tuareg Tifinagh continued to be used in the Sahara"
+    ],
+    [
+     "wp_Tifinagh.txt",
+     "the Tuareg are \"an entirely oral society in which memory and oral communication perform all the functions which reading and writing have in a literate society"
+    ]
+   ]
+  },
+  {
+   "id": "Gallatin",
+   "use": "qualitative",
+   "ex": [
+    [
+     "wp_Cherokee_syllabary.txt",
+     "the Cherokee could read immediately after learning all the symbols"
+    ]
+   ]
+  }
+ ],
+ "not_used": [
+  "wp_Canadian_Aboriginal_syllabics（Cree の抜き出し1件のみ）",
+  "wp_James_Evans_(linguist)",
+  "wp_Hangul 以外の Hangul 関連の数値",
+  "wp_Greek_alphabet の年代以外",
+  "wp_Literacy",
+  "wp_Phoenician_alphabet",
+  "wp_Old_Turkic_script",
+  "wp_Decipherment",
+  "wp_Ugaritic_alphabet・wp_Ugarit（解読の年が本文にない）",
+  "wp_Proto-Elamite の発見年（本文にない）"
+ ]
+}

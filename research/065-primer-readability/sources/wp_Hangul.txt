@@ -1,0 +1,311 @@
+URL: https://en.wikipedia.org/wiki/Hangul
+The Korean alphabet is the modern writing system for the Korean language. It has gone by a variety of names, such as Chosŏn'gŭl in North Korea, Hangul internationally, and Hangeul in South Korea. The script's original name was Hunminjeongeum.
+Before Hangul's creation, Korea had been using Hanja (Chinese characters) since antiquity. As Hanja was poorly suited for representing the Korean language, and because its difficulty contributed to high illiteracy, Joseon king Sejong the Great (r. 1418–1450) moved to create Hangul. The script was announced around late 1443 to early 1444 and officially published in 1446 via the text Hunminjeongeum and its companion commentary Hunminjeongeum Haerye. While Hangul saw gradual adoption among both the elite and commoners, it was looked down upon by the elite for centuries. It only began to receive societal acceptance in the late 19th century. It is now the predominant script for Korean in both Koreas and among the Korean diaspora. It is also used to write the Jeju language, and to a limited degree, the Cia-Cia language of Indonesia.
+Hangul orthography has changed over time and differs between North and South Korea. Modern Korean language orthographies use 24 basic letters, which are called jamo. The 14 consonants can be combined amongst themselves to represent additional and composite sounds; the same principle applies for the 10 vowels. Such combinations yield 27 additional letters, resulting in a total of 51. They are arranged in syllable blocks consisting of an initial consonant (including the zero initial ㅇ), a vowel, and an optional final consonant. The syllables can be arranged in vertical or horizontal rows, although the latter practice has become dominant. Hangul punctuation is now largely similar to Western punctuation, with some differences. Spaces between words or phrases are a modern feature of Hangul.
+Hangul letters were designed to be graphically simple, and traditionally consisted of only straight lines, dots, and circles. The shapes of five basic consonants are based on those of human speech organs. Most of the other basic consonants, which are considered to correspond to "harsher" sounds than those five, are derived by adding additional lines to those letters to indicate progressively harsher sounds. There are a number of other hypothesized inspirations for the letter shapes, but these are still debated.
+The script has received significant praise from international linguists and historians. It is now a major point of pride for Korean people.
+
+
+== Names ==
+
+The Korean alphabet has been referred to by various names since its invention. Its original name was Hunminjeongeum (훈민정음; 訓民正音; Hunminjŏngŭm; 'Correct Sounds for the Instruction of the People'). It shared this name with the manuscript that introduced it.
+Internationally, the script goes by Hangul. This spelling has been adopted as a word in the English language and is used by organizations like the International Organization for Standardization (which gives it the four-letter code Hang and numeric code 286). Hangul is an ad-hoc romanization of the name South Korea uses for the script; South Korea's preferred Revised Romanization system renders this as Hangeul (한글). The McCune–Reischauer and related romanization systems render this as Han'gŭl. Without diacritics, this is rendered as Hangul. The name means script of Han, where Han is one of the names of Korea. The name appeared some time around the early 1910s.
+In North Korea, the name Hangul was briefly used until it was replaced by Chosŏn'gŭl in 1949. This is in part due to differing preferences for names of Korea: North Korea refers to the whole of Korea as Chosŏn, while South Korea uses Hanguk.
+The script also went by various names with varying connotations as follows:
+
+ŏnmun (언문; 諺文; 'vernacular script') – the name used in contrast with chinmun (진문; 眞文; 'true script') or chinsŏ (진서; 眞書; 'true writing') referring to Chinese characters and Classical Chinese.
+panjŏl (반절; 反切) – the Korean reading of the name of the Chinese linguistic system fanqie, which transcribes readings of Chinese characters by combining other Chinese characters. This name arose because some felt Hangul's design was similar to that of the system.
+kungmun (국문; 國文; 'national script') – this name was used to portray Hangul as a national symbol.
+
+
+== Classifications ==
+Hangul is a phonographic script: a writing system where graphemes represent the sounds of a language. It is also an alphabet. The script is often described as "syllabic" because of how its letters are grouped into syllables (see § Syllable blocks), although linguist John DeFrancis is skeptical of this. Several linguists have instead argued for calling it an "alphabetic syllabary", "syllabic alphabet", or "alpha-syllabary". While Hangul was originally a more phonemic script (where spelling is strictly tied to pronunciation), modern Hangul has become more morphophonemic (where some pronunciation changes are not reflected in spelling) over time (see Hangul orthography § Punch'ŏl vs. yŏnch'ŏl debate).
+Hangul and mixed script are considered to have a property called ŏnmun ilch'i (언문일치; 言文一致; lit. 'spoken–written agreement'): tight correspondence between pronunciation and text. By contrast, the Idu and Kugyŏl scripts for writing Korean do not have this property. Pae, Winskel, and Kim argue this property was initially stronger but weakened over time due to changes in the language and script.
+
+
+=== Featural script ===
+Some scholars argue that Hangul is what is called a "featural script": a writing system where the shapes of the symbols encode phonological features of the spoken language they represent. The term was coined by Sampson in a 1985 book, wherein he argued Hangul was featural. This argument is largely based on the Haerye's explanations for the derivations of the letter shapes.
+In a 1989 book, DeFrancis praises Hangul but questions Sampson's classification of Hangul as featural. He argues that Hangul encodes too few features of Korean and that most people literate in Hangul do not actively learn or process the featural principles used to construct the shapes of the letters. In a 1997 book, Chin-Woo Kim rebuts DeFrancis's argument. He argues that DeFrancis relies on a count of Korean's features that is too high, and that other scholars provide lower counts. He also argues that, even if one accepts that most do not learn or perceive Hangul's featural aspects, that does not mean such aspects do not exist. Kim also claims that scholars argue Hangul is not a featural script because it does not neatly abide by Jakobsonian distinctive features. In the same book, linguist Young-Key Kim-Renaud argues against a featural label. She argues it should be considered that the derivation rules are applied to varying quality and that some symbols represent or contribute to multiple significantly different sounds. Kim-Renaud gives the example of the dot: the dot is used as a vowel (ㆍ) and a component in other vowels (e.g. two of them in ㅑ). When used as a component, it does not carry the meaning of the dot vowel. Linguists Pae, Winskel, and Kim argue that the featural designation is difficult to falsify, debatable, and uncertain. Linguists Taylor and Taylor argue that not all of Hangul's letters are derived from articulatory features and their shape communicates little to learners and users of Korean. Linguist Dimitrios Meletis feels that the label is given too much attention, and that the stroke addition rule and philosophical concepts behind the letters are not purely featural.
+
+
+== History ==
+
+
+=== Background ===
+Before the invention of Hangul, Korea had been using Hanja (Chinese characters), since antiquity. The difficulty of the script limited its use to mostly upper-class people; commoners were largely illiterate. Hanja is not well suited for representing the Korean language; the Chinese and Korean languages are not closely related and differ in significant ways. Korean pronunciation and ideas could only be indirectly represented.
+
+
+=== Origin ===
+
+Due to a lack of records, it is unknown when work on Hangul first began, nor what that process looked like. Joseon king Sejong the Great (r. 1418–1450) was responsible for Hangul's creation, and most scholars believe he was significantly personally involved in creating it. Hangul was first introduced, likely in a mostly complete form, to Sejong's court in the 12th month of 1443 of the Korean calendar (around December 30, 1443 to January 28, 1444 in the Gregorian calendar). Work then began on applying the script and developing official documentation for it. Part of this effort resulted in the creation of Yongbiŏch'ŏn'ga, the first ever piece of Hangul literature.
+In the 9th month of 1446 (the specific day of publication is not known), Hangul was officially promulgated via the introductory texts Hunminjeongeum and Hunminjeongeum Haerye. The Hunminjeongeum begins with this now famous preface by Sejong:
+
+The sounds of our country's language are different from those of the Middle Kingdom and are not confluent with the sounds of characters. Therefore, among the ignorant people, there have been many who, having something they want to put into words, have in the end been unable to express their feelings. I have been distressed because of this, and have newly designed twenty-eight letters, which I wish to have everyone practice at their ease and make convenient for their daily use.
+Critics of Hangul emerged soon after its introduction. They argued that a native Korean script was too far a departure from Chinese civilization, which they insisted Korea should be deferent to in a Confucian manner. Modern historians have argued that elitism and self-interest were other motivators for anti-Hangul elite; literacy in Hanja was then seen as a status symbol and general literacy was seen as potentially harming their social positions.
+
+
+=== Spread ===
+
+While Sejong had attempted to spread Hangul throughout the government and society, his efforts had limited success. Hangul was only rarely used during the 15th century; its use was largely centered in Seoul, among people close to the royal family and court. It only began to spread outside of Seoul in the 16th century. Women and Buddhists were significant early adopters of the script. While Hangul was rarely taught in traditional Confucianist curricula, it was often taught by women in the home.
+King Yeonsangun (r. 1495–1506) persecuted the use of Hangul during the Second Literati Purge of 1504 (갑자사화; 甲子士禍), after learning that criticisms of him had been written in the script. In the 16th century, the government agency Bureau of Interpreters became a significant center for Hangul scholarship, with one of its members Ch'oe Sejin still being revered today for his lasting contributions to the script and Korean linguistics.
+Hangul orthography experienced significant changes in the script's early history. Around the time of Hangul's promulgation, an apparent dispute between whether to use a phonemic or morphophonemic orthography resulted in an apparent victory for the morphophonemic faction; among that faction was Sejong himself. A number of letters gradually stopped seeing significant use by the late 16th century, including the base letters ㅿ and ㆆ. By the 17th century, the letters ㅇ and ㆁ had merged into one. Tone markings for Hangul stopped being used around the 16th century. The chaotic 1592–1598 Imjin War caused significant disruption and inconsistencies to Hangul orthography that persisted and even worsened into the late 19th century.
+Hangul popular literature and sijo poetry began to flourish around the 17th century. The landmark novel Hong Gildong jeon was published around the beginning of the century.
+
+
+=== Enlightenment and Korean Empire periods ===
+
+With the end of Korea's isolationism in the 1870s, an influx of foreign ideas arrived in Korea. Around this time, Hangul began to be seen as a symbol of national identity and pride. Various Hangul reform movements arose, with many persisting into the late 20th century. Collectively, these efforts are referred to as the Hangul Movement. Various issues became debated, such as whether to use Hangul only or mixed script, whether to abandon the syllable block structure and write linearly, and whether to write vertically or horizontally.
+This era saw numerous landmark firsts for Hangul. Scottish missionary John Ross's landmark 1877 work Corean Primer (조선어 첫걸음) saw the introduction of spaces and horizontal writing for Hangul. In 1888, a Morse code specification for Hangul was developed for the first time by Korean scholar Kim Hagu. In 1897, the first Braille encoding for Hangul, called Pyongyang Point (평양점자), was invented by Canadian missionary Rosetta Sherwood Hall. This period also saw the rise of newspapers in Korea. In 1886, the Hansŏng chubo became the first Korean newspaper to use mixed script. In 1896, The Independent, one of the earliest independent modern Korean newspapers, was established. It was written in pure Hangul.
+On 21 November 1894, the Joseon government decreed pure Hangul to be the country's preferred script for administrative documents, although mixed script was also allowed. This edict was apparently enforced to varying degrees, as exclusive Hangul was rare in many documents even until the beginning of the colonial period. Joseon was succeeded by the Korean Empire in 1897. On 19 July 1905, the Korean Empire approved the first official orthography for Hangul: the New Edition of National Writing (신정국문; 新訂國文). Ultimately, this orthography proved controversial and was not put into significant practice.
+
+
+=== Colonial period ===
+
+In 1910, Korea was colonized by the Empire of Japan. The Korean language and script saw varying degrees of repression during the colonial period. After the 1919 March First Movement protests, the Japanese colonial government temporarily eased suppression of Korean culture in a phenomenon now dubbed cultural rule. Hangul use and reform significantly expanded as a result.
+This period saw significant orthographic reform efforts. The colonial Government-General of Chōsen published the first Hangul orthography to be put in common practice in 1912 (revised in 1921 and 1930). In 1933, the Korean Language Society (KLS) published its landmark Unified Hangul Orthography (UHO). The orthographies of both North and South Korea are derivatives of this one. These orthographies ended the use of the vowel ㆍ, although that vowel's sound had long since disappeared from the language. The KLS also established Hangul Day in 1926. With the rise of the Second Sino-Japanese War, colonial repression of Hangul and the Korean language increased. The KLS was arrested en masse and tortured beginning in 1942. Hangul reform activity significantly slowed until the 1945 liberation.
+The Korean diaspora also participated in significant Hangul reform efforts. Koryo-saram (Koreans of the Russian Empire and mainland Soviet Union) published a number of orthographic reforms, although their use of Hangul declined especially after they were subjected to a 1937 forced migration. The first Hangul typewriter was invented in 1913 by Korean-American Wonic Leigh (이원익; Yi Wŏnik).
+
+
+=== Liberation and division ===
+1945 saw the liberation of Korea from colonial rule, as well as its division. Soon after the liberation, use of Hangul began to diverge between the Koreas. Both Koreas continued orthographic reform efforts. North Korea's current Compendium of Korean Language Norms was published in 1966 and revised a number of times. South Korea's Hangeul Orthography was published in 1989. The South Korean language regulator National Institute of Korean Language was established in 1991.
+Both North and South Korea pushed to increase literacy, which had remained low during the colonial period. Within a decade, a significant majority of Koreans in both Koreas became literate in at least Hangul. The Koreas also pushed to eliminate Hanja from writing. North Korea eliminated Hanja in 1949, although it continued to be used and taught thereafter. South Korea oscillated between the elimination and preservation of Hanja for decades afterwards. In the 1990s, newspapers switched to using mostly Hangul.
+The 1960s saw the rise of computers and the computerization of Hangul in South Korea. Such efforts lacked a standard until 1974, when KS C 5601 (predecessor to the current KS X 1001) was published. In 1995, South Korea adopted ISO 10646-1, the Universal Coded Character Set, as its standard, in KS C 5700.
+A Hangul internet slang culture has also developed. For example, single letters have been used to convey meaning, which is typically not allowed in mainstream orthographies. For example, ㅋ indicates the sound of laughter and ㅠ is a visual representation of crying. In the late 2010s, the yaminjeongeum trend emerged. It substitutes similar looking letters and syllables in words, like substituting the nonsense word 댕댕이 (daengdaengi) for 멍멍이 (meongmeongi; 'doggy').
+
+
+== Distribution outside Korea ==
+
+Hangul has remained in significant use among parts of the Korean diaspora in China. In the Yanbian Korean Autonomous Prefecture and Changbai Korean Autonomous County, it is an official writing system. One 2004 book claimed that around 81% of the Korean population in China is literate in Hangul. Hangul sees a moderate degree of use in Japan. In the mid 20th century, Chōsen gakkō and Kankoku gakkō, schools aligned with North and South Korea respectively, were significant centers of Hangul education in Japan. Now, a significant majority of ethnic Koreans in Japan attend regular Japanese schools and have low Korean language ability and Hangul literacy. Otherwise, Hangul is often used for the numerous South Korean tourists, who form a significant proportion of tourists to the country. The rise of the Korean Wave around the beginning of the 21st century has corresponded with a rise in Korean language education for Japanese people. The Korean Wave has also impacted interest in Korean and Hangul in the United States, with numerous universities and language learning tools like Duolingo teaching the subjects.
+
+
+== Letters ==
+
+Letters in the Korean alphabet are called jamo (자모; 字母). Hangul letters generally have more consistent pronunciations than those of other scripts.
+
+
+=== Letter counts ===
+The current mainstream Hangul orthographies for Korean use 24 basic jamo: 14 basic consonants (자음; 子音; jaeum; 'child sound') and 10 basic vowels (모음; 母音; moeum; 'mother sound'). The basic letters can be modified and combined to yield 51 jamo in total. Duplications result in 5 additional consonants (ㄲ, ㄸ, ㅃ, ㅆ, ㅉ), and modifications and combinations result in 11 additional vowels (ㅐ, ㅒ, ㅔ, ㅖ, ㅘ, ㅙ, ㅚ, ㅝ, ㅞ, ㅟ, ㅢ) and 11 additional heterogeneous consonant digraphs (ㄳ, ㄵ, ㄶ, ㄺ, ㄻ, ㄼ, ㄽ, ㄾ, ㄿ, ㅀ, ㅄ). South Korea considers Hangul to have 24 letters (only counting basic letters) and North Korea 40 (not counting 11 heterogeneous consonant digraphs).
+Hangul uses the same letters for initial and final consonants. Some letters are not typically used as final consonants, however.
+
+
+=== Consonant letters ===
+Below are the Hangul consonant letters that are in current use for Korean. They have different pronunciations as well as transcriptions in Revised Romanization depending on whether they are in the initial or final part of a syllable block (after euphonic changes are reflected; e.g. 악마 is neither pronounced nor romanized [akma]; it is pronounced and romanized as if it were 앙마: [angma]).
+
+Korean consonants are broadly categorized into two categories:
+
+obstruents: sounds produced when airflow either completely stops (i.e. a plosive consonant) or passes through a narrow opening (i.e. a fricative).
+sonorants: sounds produced when air flows out with little to no obstruction through the mouth, nose, or both.
+
+
+=== Vowel letters ===
+Below are the basic Hangul vowel letters, digraphs and sequences currently in use for Korean.
+
+Even though vowel length has been a feature of many historical and current dialects of Korean since the invention of Hangul, mainstream forms of Hangul have never indicated vowel length.
+The sounds of especially the vowel letters and clusters have changed since Hangul's invention. For example, in Middle Korean, ㅐ was once pronounced as a diphthong of the two letters that graphically compose it: ㅏ and ㅣ. The same applies to many other vowels. Some vowels were even pronounced as triphthongs, such as ㅙ (ㅗㅏㅣ). Vowel harmony, which was strict in Middle Korean, has since become much less strict although still meaningful.
+
+
+=== Letter names ===
+
+Hangul vowels have been consistently named after the sound they produce, for example ㅑ is named ya.
+The names of the consonants have varied across time and now between North and South Korea.
+In South Korea, most consonant names follow a ㅣ으 spelling pattern, where the consonant being named appears in the beginning of the first syllable and end of the second. For example, ㅂ is named bieup (비읍). There are three exceptions: ㄱ is named giyeok (기역), ㄷ is named digeut (디귿), and ㅅ is named siot (시옷). These inconsistencies are the result of approximate Hanja transcriptions of these names in the 16th century. South Korea decided to keep these traditional spellings; these spellings had been used for centuries and had become a part of Korean culture. Doubled consonants have the prefix ssang (쌍) attached to the name of the letter being doubled. For example, ㅆ is named ssangsiot (쌍시옷).
+North Korea decided to regularize the inconsistencies to all fit the ㅣ으 spelling pattern. For doubled consonants, North Korea uses toen (된; lit. 'hard', referring to the harder pronunciation) instead of ssang (쌍; 雙; lit. 'double', referring to letter shapes) for the duplicated consonants (e.g. the name of ㄲ is 된기윽; toen'giŭk). One reason for doing this was that ssang is a Sino-Korean word, which North Korea sometimes discourages in favor of native Korean vocabulary.
+
+
+=== Design ===
+
+Hangul letters were designed to be graphically simple, and originally consisted of only straight lines, dots, and circles. The Hunminjeongeum Haerye provides explanations of how the shapes of Hangul letters were derived. The shapes of 5 basic consonants are based on those of human speech organs during the production of the letter's sound:
+
+ㄱ depicts the root of the tongue blocking the upper palate
+ㄴ depicts the tongue touching the upper palate
+ㅁ depicts the mouth
+ㅅ depicts the incisor
+ㅇ depicts the throat
+From these five, most of the other consonant shapes are derived. In most cases, lines are added to the letters to represent related sounds that are considered more "severe" or "harsh". For example, ㄱ (/k/) → ㅋ (/kʰ/).
+The vowels are claimed to be designed based on concepts in Chinese philosophy:
+
+ㆍ, an archaic vowel, represents yin and earth
+ㅡ represents yang and the sun
+ㅣ represents man (neutral)
+The rest of the vowels are derived from these three letters, for example ㅏ is a combination of ㅣ and ㆍ (the dot was originally drawn detached from the line, but has since become an attached short line). Other philosophical concepts are linked to the vowels and consonants, although modern scholars have expressed skepticism of the concepts, and by proxy, their link to Hangul.
+The classifications of the vowels, while not believed to be philosophically meaningful, do reflect vowel harmony in especially the Middle Korean phonology of the time. In other words, yang vowels tended to occur along other yang vowels, and yin with yin. Man (neutral) vowels could go with either.
+Since Hangul's creation, scholars have also argued that perhaps other scripts may have influenced Hangul as well, although this is still debated. Chinese characters almost certainly had some influence on Hangul's design, for example in the syllable block format. There are a variety of hypotheses, with the ʼPhags-pa hypothesis in particular having some traction among modern scholars.
+
+
+=== Alphabetic order ===
+
+The ordering of the letters has varied across time and now between North and South Korea.
+
+
+==== North Korean order ====
+North Korea uses the following orders:
+
+Initial consonants: ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ㄲ ㄸ ㅃ ㅆ ㅉ ㅇ
+Vowels: ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ ㅐ ㅒ ㅔ ㅖ ㅚ ㅟ ㅢ ㅘ ㅝ ㅙ ㅞ
+Final consonants: ∅ ㄱ ㄳ ㄴ ㄵ ㄶ ㄷ ㄹ ㄺ ㄻ ㄼ ㄽ ㄾ ㄿ ㅀ ㅁ ㅂ ㅄ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ ㄲ ㅆ
+Modifications and combinations of initial consonants and vowels are placed at the end of the order. Final consonants follow the same order as initial, but combinations of consonants are inserted into that order and are sorted by the second consonant.
+
+
+==== South Korean order ====
+South Korea uses the following orders:
+
+Initial consonants: ㄱ ㄲ ㄴ ㄷ ㄸ ㄹ ㅁ ㅂ ㅃ ㅅ ㅆ ㅇ ㅈ ㅉ ㅊ ㅋ ㅌ ㅍ ㅎ
+Vowels: ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅗ ㅘ ㅙ ㅚ ㅛ ㅜ ㅝ ㅞ ㅟ ㅠ ㅡ ㅢ ㅣ
+Final consonants: ∅ ㄱ ㄲ ㄳ ㄴ ㄵ ㄶ ㄷ ㄹ ㄺ ㄻ ㄼ ㄽ ㄾ ㄿ ㅀ ㅁ ㅂ ㅄ ㅅ ㅆ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ
+Modifications and combinations of letters are placed just after the primary or initial parent letter. Such modifications and combinations are then sorted according to the previously established orderings. E.g. ㄱ is followed by ㄲ and ㅘ by ㅙ.
+The 11,172 characters in the Hangul Syllables block in Unicode follow the South Korean order.
+The South Korean national standard KS X 1026-1 includes a sort order that accounts for the various Hangul Unicode code points, including obsolete letters.
+
+
+=== Obsolete letters ===
+
+A number of letters and letter combinations are no longer in use for transcribing Korean, although some are still actively used for transcribing other languages. This includes the base consonants ㆁ, ㅿ, and ㆆ, as well as the base vowel ㆍ, although that last letter is still used for the Jeju language. Examples of obsolete doubled letters include ㆀ, ㆅ, and the doubled vowel ᆢ. A number of now obsolete letters were virtually exclusively used for transcribing Chinese, like the pure dental and palatal-supradental sibilants (ᄼ, ᄽ, ᅎ, ᅏ, ᅔ and ᄾ, ᄿ, ᅐ, ᅑ, ᅕ) and most of the light labial letters (e.g. ㆄ, ㅱ, ㅹ), although ㅸ was used for Korean. Clustered consonants have also changed. Clusters mixing different letters were once acceptable for initial consonants, with some clusters even including up to three letters, like ㅴ, which was used in ᄢᅳᆷ (lit. 'crack, opening'). A number of letters were invented in the centuries following Hangul's invention, for example ᆖ (a doubled form of ㅡ) was invented in the 1900s.
+
+
+== Orthography ==
+
+Hangul orthography has changed over time. Since 1948, North and South Korea have used different orthographies. However, because their current orthographies are based on the 1933 Unified Hangul Orthography, they are still relatively similar. North Korea now uses the Compendium of Korean Language Norms and South Korea the Hangeul Orthography.
+The depth of current Hangul orthographies is a subject of some disagreement. Many scholars argue current orthographies have a relatively shallow or transparent orthography, in that pronunciation generally closely corresponds to what is written. Their complexities are often the product of sound changes in the Korean language over time as well as morphophonemic orthographic practices (changing some spellings to reflect the function or meaning of some words). Some have described current orthographies as deep because of the morphophonemic practices.
+
+
+=== Syllable blocks ===
+Hangul letters are arranged into syllable blocks in a principle called moasseugi (모아쓰기; 'gathering together and writing'). Each syllable block is broadly divided into two or three components: an initial consonant (초성; 初聲; choseong), vowel (중성; 中聲; jungseong; also called "medial"), and optional final consonant (종성; 終聲; jongseong; also called 받침; batchim; 'pedestal'). Final heterogenous digraph consonant clusters are orthographically considered to be two different letters combined, but phonologically considered to be a single letter. When no initial consonant sound is needed, the zero initial consonant ㅇ is used.
+In modern orthographies, to construct a syllable block, the following rules are applied in order:
+
+Write the initial consonant.
+Place the vowel depending on the appropriate condition below:
+If the vowel has a long vertical stroke (ㅏ, ㅑ, ㅓ, ㅕ, ㅐ, ㅒ, ㅔ, ㅖ, or ㅣ), write it to the right of the initial.
+If the vowel has a long horizontal stroke (ㅗ, ㅛ, ㅜ, ㅠ, ㅡ), write it below the initial.
+If the vowel is a combination and begins with a long horizontal stroke followed by a long vertical stroke (e.g. ㅢ), place the initial above the horizontal stroke.
+If there is a non-zero final consonant, it is written at the bottom. If the final consonant is a combination, place the letters side by side.
+Assuming consonant clusters are treated as single letters, following the above steps yields the following possible consonant blocks:
+
+Hangul letters currently used for Korean (19 initial consonants, 21 vowels, and 28 final consonants) can be combined to yield 11,172 syllables. However, many of those syllables virtually never see use in natural language; scholars have argued that only around 2,000 are used in Korean.
+Several scholars have argued that the syllable block structure was likely inspired by and makes Hangul resemble the form of Chinese characters, and that their similar form aids compatibility in writing them together in mixed script.
+Several scholars have argued that the syllable block structure is a good fit for the phonology and speech cadence of Korean. Several have also argued that the limited number of syllable shapes, with vowels and consonants in consistent positions, makes Hangul easier to read and learn. Taylor and Taylor argue that the syllable block structure is especially helpful to young children learning Korean and for people with disabilities that affect reading.
+Some scholars have argued that syllable blocks have the downside of causing orthographic complexity and difficulty with moveable type and computers. In especially the 19th and 20th centuries, these downsides motivated Hangul reformers to debate if the syllable block structure should be abandoned in favor of a fully linear orthography. Such an orthography is called pureosseugi (풀어쓰기; lit. 'separate and write'). While several pureosseugi orthographies were developed, none ever saw significant adoption.
+
+
+=== Spelling ===
+In general, words are spelled as they sound in the respective standard Korean dialect, with most exceptions being due to morphophonemic word-formation rules. For example, 하늘 (haneul; 'sky') is spelled the way it is pronounced; there is no need to spell it 한을, as 하늘 is already a whole word and not a stem with particle. However, 먹어 (meogeo; 'to eat') has this spelling despite being pronounced 머거. This is because it follows a word-formation rule that preserves the spellings of the stem verb 먹 and the particle 어. Other exceptions also exist, for example relating to pronunciation differences between stem words when pronounced alone and when attached to particles that begin with ㅇ.
+
+
+==== North–South differences ====
+
+Various shared words are spelled differently between North and South Korea. One significant reason for this is the differing standard dialects used. North Korea uses the Pyongan dialect and South Korea the Gyeonggi dialect. Differences arise due to various phonemena, including the initial sound rule, vowel harmony, local pronunciations, loanwords, tensing, compounds, morphological derivation, and the saisiot (epenthic ㅅ).
+
+
+=== Punctuation ===
+
+Hangul has used varying punctuation over time and now in both North and South Korea. Modern Hangul now uses a mix of modern Western, Korean, and East Asian punctuation.
+
+
+==== South Korean punctuation ====
+South Korean punctuation largely follows Western practice, with some exceptions. Examples of exceptions include 『 』 or ≪ ≫; either of these sets of characters can be put around titles of works. Also, the tilde (~) can be used to indicate ranges of numbers or dates, as well as distances.
+Spaces are used in Hangul. As with most other scripts, practices around spaces are somewhat arbitrary and ambiguous because it is difficult to define what a word is. Spacing is considered to be one of the most difficult aspects of Hangul orthography; many native Korean speakers do not use spaces properly or sometimes even at all. In general, spaces are inserted between lexical clusters called eojeol (어절; 語節). These lexical clusters can be subdivided into various other categories. Each eojeol can consist of a word and its subsequent corresponding particles or compounds. For example, "학교에 간다" consists of two eojeol separated by a space. The first is "학교" (lit. 'school') with an attached adpositional particle "에". The second is "간다", a conjugated verb.
+
+
+==== North Korean punctuation ====
+North Korean punctuation is similar to Western practice. Differences include the lack of Western quotation marks (e.g. "), which are replaced by guillemet (≪ ≫). Like South Korea, it recommends the tilde (~) for ranges of numbers or dates. Recommendations are also given for vertical writing. Vertical writing punctuation is largely the same as horizontal, but guidance is given on the placement and rotation of some punctuation marks.
+North Korean spacing rules result in fewer spaces and more compound words when compared to South Korea's.
+
+
+=== Writing direction ===
+
+Historically, Hangul syllable blocks were arranged vertically (top to bottom, right to left). Over the course of the 20th century, horizontal writing (left to right, top to bottom) became dominant in both Koreas. South Korea allows both horizontal and vertical writing, while North Korea officially prefers horizontal writing. Lee and Ramsey argue that the syllable block structure of Hangul aids the adaptability of the script to both directions of writing.
+
+
+== Style ==
+
+The style of Hangul writing has changed over time. Originally, Hangul letters were drawn highly geometric and regular. They were thus awkward to write with brushes. Their style gradually changed in response to that issue. Aesthetic considerations have also impacted Hangul style. The sizes and shapes of letters in syllable blocks are typically altered depending on the format of the syllable block, to make letters relatively proportionally sized.
+There are a variety of Hangul fonts. Serif fonts are called batang or myongjo. Sans-serif fonts are called dotum or Gothic (고딕).
+
+
+=== Stroke order ===
+Hangul adopted aspects of Chinese stroke order. Broadly, strokes of letters are written from top to bottom, left to right.
+
+
+== Hangul and computers ==
+
+
+=== Encoding methods ===
+Hangul has been implemented for use on computers in a number of ways. The implementations fall into two broad categories: the composition model (also called Johab) and the precomposed model (also called Wansung). Johab considers syllables to be a combination of letters, while Wansung renders syllables as entire fixed blocks. Unicode implements both Johab and Wansung and implements Johab using several mathematical tricks that allow for efficient composition and decomposition of syllables. In mainstream Unicode, while contemporary Hangul for Korean can all be rendered using Wansung, archaic letters and syllables are rendered using Johab. Particular fonts may be needed to display archaic letters properly.
+The primary encoding method for Hangul currently in use is Unicode. There are a number of other coded character set standards that were used largely historically, although they continue to see some use. The South Korean government maintains KS X 1001 and KS X 1002. North Korea maintains KPS 9566. China maintains GB 12052. There is also the Unified Hangul Code, a private standard by the company Microsoft. As of 2026, 96.1% of websites with the .kr domain (used by South Korea) used UTF-8 encoding, with only 6.3% using an alternate standard EUC-KR (total exceeds 100%; websites can use multiple encodings).
+Archaic Hangul was not fully supported in Unicode until the late 2000s. Private Use Areas were often used for that purpose until official Unicode implementation was added.  
+
+
+=== Hangul keyboards ===
+
+For typing Hangul, there are a number of keyboard layouts in use. The current most common layout is called dubeolsik. In this layout, consonants are on the left of the keyboard and vowels on the right, and no distinction is made between keys for initial and final consonants. North and South Korea have different versions of dubeolsik. For the South Korean dubeolsik there is a designated key or keystroke used to toggle between Hangul and Latin input modes.
+
+
+== Derivatives and uses for other languages ==
+
+There are a number of communication systems that encode the letters of Hangul. Examples include Korean Braille, Korean morse code, the Korean manual alphabet, the Korean spelling alphabet, and Hangul shorthand. Most romanization systems for Korean work by mapping Hangul spellings to Latin letters. However, many of them are transcription systems and not transliteration systems. While transliteration systems are generally fully reversible, meaning one can always retrieve the original Hangul spelling from romanized text, transcription systems are not.
+
+
+=== Use for Jeju ===
+
+The Jeju language was traditionally not written. Hangul has since become used to write it. Two orthographies are in current use: one created in 1991 by the Jeju Dialect Research Society (제주방언연구회) and another created in 2014 by the provincial government. Hangul orthography for Jeju is relatively similar to those for Korean, with one notable difference being the use of the vowel ㆍ, which is no longer used for Korean. Spelling is attempted to be made to be morphophonemic, although there is some uncertainty around how to do this.
+
+
+=== Uses for non-Koreanic languages ===
+
+Since its creation, Hangul has been used to encode the sounds of other languages. It was designed to be able to transcribe both Korean and Chinese of the time. To accomplish this, additional consonants were created exclusively to transcribe Chinese; these consonants have often been revived or repurposed for use in other languages. Before the modern era, Hangul was also used to transcribe Japanese, Ryukyuan, and Manchu. Beginning around the 19th century, Hangul was used to transcribe Russian and English.
+The South Korean National Institute of Korean Language has provided official guidance on how to approximately render a number of non–Korean languages into South Korean standard Hangul, particularly for seamless use alongside the Korean language. A number of scholars have attempted to modify Hangul to be able to represent the sounds of every language, similar to the International Phonetic Alphabet. For example, Hyun Bok Lee's International Korean Phonetic Alphabet (IKPA; 한글음성문자).
+Efforts have been made to make Hangul the primary script for various languages. Some South Korean linguists have been encouraging ethnic groups without scripts for their languages to adopt Hangul. In the 1990s, a Hangul-based alphabet was devised for the Lahu language of China and Southeast Asia, but this did not see significant adoption. In October 2012, a pilot program was launched for Hangul to be taught to speakers of the Ghari and Kwaraqae languages of the Solomon Islands. The program was halted less than a year after its launch due to a lack of funding.
+In the late 1980s, Taiwanese linguists made at least one adaptation of Hangul for Taiwanese Hokkien, a Sinitic language. However, the Taiwanese government eventually endorsed the use of Chinese characters for that language.
+
+
+==== Cia-Cia language ====
+Beginning in the late 2000s, efforts began to be made by the South Korean private organization Hunminjeongeum Society to have Hangul be used for the Cia-Cia language of Indonesia. That language did not already have a script in significant use for it. While Hangul was not legally made an official script for the language due to Indonesian legal restrictions, the local government of Baubau partnered with the Hunminjeongeum Society and several other organizations to promote the use of Hangul for Cia-Cia. A number of local schools taught the script. The program was not financially supported by the South Korean or Indonesian governments. It experienced several difficulties in the early 2010s, although it continued to operate. It saw renewed activity and support in the early 2020s. Hangul has since continued to be taught and used in the area.
+
+
+==== Chitembo language ====
+The sister of a Twa leader from eastern Democratic Republic of Congo visited South Korea in 2015 for a cultural-exchange event. She learned that Hangul was used for the Cia-Cia language in Indonesia, and thought it would help her people, who speak the Chitembo language, estimated to be spoken by 500,000 to 700,000 people. Four South Korean linguists developed a Hangul alphabet for Chitembo over the next few years. Teachers from a Hangul school in Los Angeles, California, taught the alphabet to primary-school teachers from Bunyakiri in Congo. Those school teachers, along with South Korean missionaries, in turn taught it to Twa in the region, who were mostly illiterate. As of 2023, they reported that 40 adults and 300 children had been taught the Chitembo Hangul alphabet. Children could write their names within half an hour, but the adults took months to do the same.
+
+
+== Evaluations and legacy ==
+Linguist John DeFrancis wrote that "scholars are in general agreement on the excellence of the Korean alphabetic script". Hangul has been described by various linguists and historians as the best or among the best actively used writing systems, as well as a landmark intellectual achievement in Korean and human history. Hangul is a significant aid for modern scholars interested in the historical linguistics of the Korean language. Scholarly understanding of historical Korean sharply improves right at the invention of Hangul. Several linguists have argued that Hangul is distinguished among writing systems in common use in that it was intentionally created, designed to suit its target language and be easy to learn, and original in a number of ways.
+When Westerners first began encountering Hangul in the 19th century, a number of them evaluated it glowingly and bemoaned that it was not yet respected by Koreans themselves. Since then, Hangul has become a major source of pride for Korean people.
+A copy of the Hunminjeongeum Haerye, the document that formally introduced Hangul, was designated a National Treasure of South Korea on December 20, 1962 and a UNESCO Memory of the World in 1997.
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Sources ===
+
+
+==== In English ====
+
+
+===== Books =====
+
+
+===== Academic articles =====
+
+
+==== In Korean ====
+
+
+===== Books =====
+
+
+===== Academic articles =====
+
+
+===== Primary sources =====
+
+
+==== In Classical Chinese ====
+
+
+===== Books =====
+
+
+== External links ==
+ Media related to Hangul at Wikimedia Commons

@@ -1,0 +1,86 @@
+URL: https://en.wikipedia.org/wiki/Great_Lakes_Algonquian_syllabics
+Great Lakes Algonquian syllabics (or Great Lakes Aboriginal syllabics, also referred to as "Western Great Lakes Syllabary" by Campbell) is a writing system for several Algonquian languages that emerged during the nineteenth century and whose existence was first noted in 1880. It was originally used near the Great Lakes: Fox (also known as Meskwaki or Mesquakie), Sac (the latter also spelled Sauk), and Kickapoo (these three constituting closely related but politically distinct dialects of a single language for which there is no common term), in addition to Potawatomi. Use of the script was subsequently extended to the Siouan language Ho-Chunk (also known as Winnebago). Use of the Great Lakes script has also been attributed to speakers of the Ottawa dialect of the Ojibwe language, but supporting evidence is weak.
+Consonant and vowel letters that comprise a syllable are grouped into units that are separated by spaces. The system is of interest to students of writing systems because it is a case of an alphabetic system acquiring aspects of a syllabary.
+The Great Lakes script is unrelated to Cree syllabics, which was invented by James Evans to write Cree and extended to a number of other Canadian indigenous languages.
+
+
+== History and origins ==
+The script is based upon "a European cursive form of the Roman alphabet". Vowel letters correspond with French writing conventions, suggesting a French source. The order of the consonants in tables of the Great Lakes Syllabics is evidence that the script was developed by people who knew the Canadian syllabics syllabary previously in use in Canada, suggesting an origin in Canada.
+The early development of the system is not known. In 1880, when first reported, use of the script was widespread among speakers of Fox and Sac. Some remarks by Potawatomi speakers suggest that the first Potawatomi usage was in approximately the same period.
+Potawatomi does not have a consonant /h/, and instead has a glottal stop /ʔ/ in places where Fox would have /h/. In Potawatomi, the glottal stop is the only consonant not represented in the script, and similarly in Fox /h/ is the only consonant that is not represented. Because glottal stops have frequently been overlooked when transcribing Native American languages with the Latin script, whereas /h/ seldom is, this anomaly suggests that the script was originally developed for Potawatomi, and subsequently transmitted to speakers of Fox, Sac, and Kickapoo.
+
+
+== Description ==
+
+In syllabics, syllables are separated by spaces, and words optionally by a point (period) as the word divider. Old transcriptions of Algonquian languages by Westerners frequently separated the syllables of the languages with hyphens, and the period would be used every few words at the end of a sentence, so these practices may be historically related.
+Great Lakes syllabics is an alphabet, with separate letters for consonants and vowels.  However, it is written in syllabic blocks, like the Korean alphabet. Moreover, the vowel /a/ is not written unless it forms a syllable by itself. That is, the letter ⟨k⟩ transcribes both the consonant /k/ and the syllable /ka/. In most Great Lakes syllabics alphabets, the letter for the vowel /i/ has been reduced to its dot, which has become a diacritic on the consonant of the syllable. Both phenomena (ignoring an inherent vowel and writing other vowels as diacritics) are characteristics of a subclass of alphabet, such as Devanagari, known variously as abugidas or alphasyllabaries.  The aspirated consonants are distinguished from the tenuis as digraphs with the letter ⟨h⟩, but the distinction is frequently ignored, making syllabics a defective script for consonants as well as vowels.
+There are several alphabets based on the script. Samples of the Fox alphabet are in Jones (1906), and Walker (1981, 1996); the latter includes handwriting samples for each letter or compound letter from four different early 20th century Fox writers. Samples of the Potawatomi alphabet are in Walker (1981, 1986). Goddard (1996) includes a postcard written in the Fox script, and Kinkade and Mattina (1996) includes a page of text in the Fox alphabet.
+
+
+=== Fox alphabet ===
+The syllabary symbols used by the Fox, Sauk, and Kickapoo groups have only minor differences. This section outlines the main characteristics of the Fox alphabet, which is the most completely described in published sources. A brief discussion of the Sauk alphabet has also been published. 
+Fox speakers refer to the script in both Fox and English as the pa·pe·pi·po·, referring to the first row of consonant-plus-vowel syllables in traditional presentations of the script.
+The core component of the Fox presentation is 48 syllables arranged in twelve rows and four columns. One row is the four vowel letters by themselves. The others each consist of one of the eleven consonant letters by itself (with the inherent vowel /a/ understood) and followed by each of the three combining vowel letters. The script accommodates all the consonant sounds of the Fox language with the exception of /h/, which has no letter. No distinction is made between long and short vowels. A sequence of two identical vowel letters is read as two syllables, typically with an /h/ assumed between the two vowels.
+Syllables are separated by spaces. Punctuation consists of a word divider, "which variously appears as a dot, a small line, or an ⟨X⟩ or ⟨+⟩.... Many writers do not use the word divider, being particularly apt to omit it at line ends, and some never use it." Jones (1906) indicated that the dot or small line were used as word dividers and the cross as a sentence divider, but subsequent study of Fox text manuscripts does not support this claim.
+Several variants of the script existed among Fox speakers, in which various symbols were substituted for combinations of consonant and vowel letters. These variants were apparently originally used as secret codes and were not widely utilized. Samples of the variant forms are in Walker (1981), taken from Jones (1906).
+There are also minor variations in the form of the script used by Kickapoo speakers, and Kickapoo speakers living in Mexico have added orthographic modifications based on Spanish.
+
+
+== Ho-Chunk (Winnebago) adoption ==
+The Fox alphabet was adapted by speakers of Ho-Chunk (also known as Winnebago) subsequent to an encounter in Nebraska in 1883–1884 with Fox speakers, who told them of other Fox speakers who were using a new writing system in order to write their own language. On a subsequent visit to Fox territory in Iowa in 1884, a Winnebago speaker learned to write in the script. Period reports indicate rapid adoption of the script by Winnebago speakers in Nebraska and Wisconsin. Winnebago phonology is significantly different from that of Fox-Sauk-Kickapoo and Potawatomi, with both more consonants and vowels, and the script was adapted in order to accommodate some of these differences.
+Anthropologist Paul Radin worked with Ho-Chunk speaker Sam Blowsnake to produce Crashing Thunder: The Autobiography of an American Indian. This autobiography was based upon handwritten material composed by Blowsnake in the script. Use of syllabics declined over time; when Radin visited Winnebago communities in 1912, he reported that it was known only to a small number of people.
+
+
+== Possible Ottawa use ==
+Some comments by Ottawa speaker Andrew J. Blackbird "…in which he recalls his father Mackadepenessy 'making his own alphabet which he called 'Paw-pa-pe-po'" and teaching it to other Ottawas from the L'Arbre Croche village on the Lower Peninsula of Michigan have been interpreted as suggesting use of a syllabic writing system by Ottawas earlier in the nineteenth century, although Blackbird was not himself a user of the script. Blackbird’s Ottawa writings use a mixture of French and English-based characteristics, but not those of Great Lakes script. There are no known Odawa texts written in the script.
+It has been suggested that Blackbird’s father may have been referring to a separate orthography developed by French Roman Catholic missionaries and spread by missionary August Dejean, who arrived at L'Arbre Croche, Michigan in 1827, and wrote a primer and catechism in an orthography similar to that used by other French missionaries.
+
+
+== Ojibwa use ==
+In his 1932 "Ethnobotany of the Ojibwe Indians," Huron H. Smith records, "The Ojibwe have written their language for a longer time than any other Algonquin tribe and, while they employ a script in corresponding with absent members of the tribe, it has little value to the ethnologist...." Smith then clarifies what he means by "script" and provides a script table in the footnotes.
+
+
+== Written materials ==
+In the early twentieth century, Bureau of American Ethnology linguist Truman Michelson engaged several Fox speakers to write stories using the Fox script. Some of these texts are lengthy, running to several hundred printed pages each. A large collection of these unpublished texts is now archived in the Smithsonian Institution National Anthropological Archives. A photograph of Michelson and prolific Fox writer Albert Kiyana appears in Kinkade and Mattina (1996). Kiyana wrote stories for Michelson between 1911 and his death in 1918. A newly edited and transcribed version of "Owl Sacred Pack," one of the culturally most significant of the stories written by Kiyana, has recently been published.
+
+
+== Correspondence table ==
+Because Great Lakes Aboriginal syllabics is not part of the Unicode standards, glyphs for this table have been approximated with cursive Latin script.
+
+¹ Depending on the style, "a" or "u", "g" or "q", "H" or "x", and "I" or "y" are used.
+² The portion shown within the parentheses are not always written.
+³ Meskwaki ⟨e⟩, ⟨i⟩, and ⟨o⟩, and Ho-chunk ⟨i⟩ may be shown using vowel dots instead of vowel letter.
+
+
+== Notes ==
+
+
+== References ==
+Blackbird, Andrew J. (1887). History of the Ottawa and Chippewa Indians of Michigan: A grammar of their language, and personal and family history of the author. Ypsilanti, MI: The Ypsilantian Job Printing House. LCCN 02016465.
+Reprinted: Blackbird, Andrew J. (1897). Complete both early and late history of the Ottawa and Chippewa Indians of Michigan. Harbor Springs, MI: Babcock and Darling. OCLC 21641987.
+Blowsnake, Sam (1920). Radin, Paul (ed.). "Crashing Thunder: The autobiography of a Winnebago Indian". University of California Publications in American Archaeology and Ethnology. 16 (7). Translated by Radin, Paul. University of California Press.
+Cappel, Constance (2006). Odawa Language and Legends: Andrew J. Blackbird, and Raymond Kiogima. Bloomington, IN: Xlibris. ISBN 978-1-59926-920-7.
+Fletcher, Alice (1890). "A phonetic alphabet used by the Winnebago tribe of Indians". Journal of American Folk-Lore. 3 (11): 299–301. doi:10.2307/534070. JSTOR 534070.
+Goddard, Ives (1988). "Stylistic dialects in Fox linguistic change". In Fisiak, Jacek (ed.). Historical dialectology. Berlin: Mouton de Gruyter. pp. 193–209. doi:10.1515/9783110848137.193. ISBN 978-3-11-011550-5.
+Goddard, Ives (1990). "Some literary devices in the writings of Alfred Kiyana". In Cowan, W. (ed.). Papers of the twenty-first Algonquian Conference. Vol. 21. Ottawa: Carleton University. pp. 159–171.
+Goddard, Ives (1996). "Writing and reading Mesquakie (Fox)". In Cowan, W. (ed.). Papers of the twenty-seventh Algonquian Conference. Vol. 27. Ottawa: Carleton University. pp. 117–134.
+Jones, William (1906). "An Algonquian syllabary". In Lanfer, Berthold (ed.). Boas anniversary volume: Anthropological papers written in honor of Franz Boas. New York: G.E. Stechert. pp. 88–93.
+Jones, William (1939). Fisher, Margaret W. (ed.). Ethnography of the Fox Indians. Bureau of American Ethnology Bulletin. Vol. 125. Washington. hdl:10088/15427.{{cite book}}:  CS1 maint: location missing publisher (link)
+Justeson, John S.; Stevens, Laurence D. (1991–1993). "The evolution of syllabaries from alphabets: Transmission, language contrast, and script typology". Die Sprache. 35: 2–46.
+Kinkade, Dale; Mattina, Anthony. "Discourse". In Goddard, Ives (ed.). The Handbook of North American Indians. Vol. 17: Languages. Washington, DC: The Smithsonian Institution. pp. 244–274.
+Kiyana, Alfred (2007). Goddard, Ives (ed.). The Owl Sacred Pack: A New Edition and Translation of the Meskwaki Manuscript of Alfred Kiyana. Translated by Goddard, Ives. University of Manitoba. ISBN 9780921064190.
+Michelson, Truman (1927). "Fox linguistic notes". In Friederichsen, L. (ed.). Festschrift Meinhof: Sprachwissenschaftliche und andere Studien. J.J. Augustin. pp. 403–408.
+Reinschmidt, Kirsten Müller (1995). "Language preservation with the help of written language: The Sauk language of the Sac and Fox of Oklahoma". In Pentland, David H. (ed.). Papers of the twenty-sixth Algonquian Conference. Vol. 26. Winnipeg: University of Manitoba. pp. 413–430.
+Smith, Huron H. (1932). "Ethnobotany of the Ojibwe Indians" (PDF). Bulletin of the Public Museum of Milwaukee. 4 (3): 327–525. Archived from the original (PDF) on 2017-09-11.
+Thomason, Lucy (2003). The proximate and obviative contrast in Meskwaki (PhD dissertation). Austin: University of Texas. hdl:2152/990.
+Walker, Willard (1974). "The Winnebago syllabary and the generative model". Anthropological Linguistics. 16 (8): 393–414. JSTOR 30029425.
+Walker, Willard (1981). "Native American writing systems". In Ferguson, Charles A.; Heath, Shirley Brice (eds.). Language in the USA. Cambridge University Press. pp. 145–174.
+Walker, Willard (1996). Goddard, Ives (ed.). The Handbook of North American Indians. Vol. 17: Languages. Washington, DC: The Smithsonian Institution. pp. 158–184.
+
+
+== External links ==
+Internet Archive of "Potawatomi syllabics"
+Ho-Chunk syllabics
+Foster's vocabulary list
+Trickster Takes Little Fox for a Ride – a Ho-Chunk story
+Potawatomi Words at Wisconsin Historical Society collections (written with superfluous diacritic marks and use of "b" instead of "l")

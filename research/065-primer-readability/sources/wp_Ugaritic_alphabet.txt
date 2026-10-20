@@ -1,0 +1,114 @@
+URL: https://en.wikipedia.org/wiki/Ugaritic_alphabet
+The Ugaritic alphabet is a consonantal alphabet (abjad) that was written using the same tools as those used to write cuneiform (i.e. pressing a wedge-shaped stylus into a clay tablet). It was mostly written from left to right, but not exclusively. It emerged c. 1400 or 1300 BCE to write Ugaritic, an extinct Northwest Semitic language, and fell out of use amid the Late Bronze Age collapse c. 1190 BCE. The inscriptions found provide the earliest evidence in history of systematic and large-scale administrative use of an alphabetical writing system.
+The discovery of abecedaries in the Ugaritic alphabet also provide the earliest direct evidence of not just the "abc" alphabetical order but also the "hlḥm" order. Examples of scripts that have also used these are the Phoenician, Paleo-Hebrew, Aramaic square script, Syriac, Greek and Latin alphabets for the "abc" order as well as the Geʽez script from which Amharic was adapted for the "hlḥm". Many if not most alphabets in use today order their letters in one of these two traditions. 
+The Ugaritic alphabet has 30 letters. The Arabic, Ancient North Arabian and Ancient South Arabian scripts are the only other Semitic alphabets which have letters for all or almost all of the 29 commonly reconstructed Proto-Semitic consonant phonemes. Other languages, particularly Hurrian, were occasionally written in the Ugaritic script in the area around Ugarit, but not elsewhere. The script was also sparsely used to write Akkadian but alphabetically. Although the Ugaritic alphabet is considered fully deciphered, a significant minority of terms written in it remain etymologically uncertain at best and do not always appear to belong to any Semitic language. 
+The script was first discovered in 1928 at the site of ancient Ugarit (modern Ras Shamra, Syria).
+
+
+== Letters ==
+Below is an introductory table to Ugaritic letters when compared to similar and better-known scripts. This method of comparison is not exact but can be helpful for first-time readers. Note that the table is not ordered in any of the alphabetical orders found at Ugarit (and which are discussed later in this article). Also note that no direct evidence for Ugaritic letter names has been found other than partial abecedaries showing Akkadian cuneiform counterparts.
+
+
+== Origin ==
+
+At the time the Ugaritic script was in use (c. 1300 – c. 1190 BCE), the city of Ugarit, although not a great imperial centre, was located at the geographic centre of the literate world, among Egypt, Anatolia, Cyprus, Crete, and Mesopotamia. For this reason, the city came into contact with multiple different writing systems each possessing its own set of attributes such as alphabetical order, letter naming conventions, direction of writing or the languages written in them including associated pronunciation of letters.
+
+
+=== Cuneiform hypothesis ===
+Many standard, non-alphabetical Akkadian cuneiform texts were unearthed at Ugarit. The facts that the Ugaritic alphabet is written in cuneiform and that it has been found to overwhemingly follow the same writing direction as other cuneiform systems both support the hypothesis that Ugaritic was directly inspired by a cuneiform system such as Akkadian cuneiform. Moreover, one can argue that Ugaritic glyphs can be easily compared to common Akkadian "equivalents" as exemplified in the table below.
+
+
+=== Proto-Sinaitic origin hypothesis ===
+Some have suggested that the Ugaritic alphabet represents some form of the Proto-Sinaitic script, the letter forms distorted as an adaptation to writing on clay with a stylus. It has been proposed in this regard that the two basic shapes in cuneiform, a linear wedge, as in 𐎂, and a corner wedge, as in 𐎓, may correspond to lines and circles in the linear Semitic alphabets: the three Semitic letters with circles, preserved in the Greek Θ, O and Latin Q, are all made with corner wedges in Ugaritic: 𐎉 ṭ, 𐎓 ʕ, and 𐎖 q. Other letters look similar as well: 𐎅 h resembles its assumed Greek cognate E, while 𐎆 w, 𐎔 p, and 𐎘 θ are similar to Greek Y, Π, and Σ turned on their sides.
+
+
+=== Other hypotheses ===
+In practice and due to the simple and highly abstract nature of Ugaritic characters, it is easy to find graphical similarities and phonological matches with many other scripts of the time. One such example is "y" in hieratic 𓇌 matching Ugaritic 𐎊. Others have compared its appearance to that of the Cypro-Minoan script. There may also have been a degree of influence from the poorly understood Byblos syllabary attested in the nearby Byblos.  
+Jared Diamond believes the alphabet was consciously designed, citing as evidence the possibility that the letters with the fewest strokes may also have been the most frequent. 
+Hugo Cartwright, a Franco-British software engineer, considers the possibility that syllabic compression of the Ugaritic language was a rule of thumb in the design choice of Ugaritic letters but focuses instead on analysing alphabetical order. 
+
+
+== Abecedaries ==
+Two types of abecedaries have been found in the Ugaritic alphabet and were sometimes labelled "North and South Semitic" as they were first found North and South of each other. 
+
+
+=== The "abc" or "abg" ===
+The "abc" or "abg" order is more similar to the one found in Phoenician, Hebrew and Arabic, the earlier, so-called ʾabjadī order, and more distantly, the Greek and Latin alphabets. The table below shows the kind of abecedaries found and is read from left-to-right first and from top-to-bottom second. The letters are given in cuneiform letters as well as their transliteration equivalent below. The abecedaries are laid out in two dimensions to illustrate how they were often written in this way.
+
+
+=== The "hlḥm" ===
+This table is also read from left-to-right first and from top-to-bottom second. And is meant to represent one of those tablets (called RS 88.2215). Note that this abecedary does not have letters b, ʾi, ʾu and s2 although the letter b is usually expected in this kind of order.
+
+
+== Alphabetical order ==
+Beyond the abecedary examples found at Ugarit and listed above, it's worth mentioning that a hieratic ostracon found in an Egyptian tomb may in fact be an older but very partial example of an "abg" and "hlḥm" double-abecedary but this remains a subject of study.
+
+
+=== Order proximity with Safaitic orders ===
+Order proximity between both alphabetical orders as well as comparisons with as-of-yet uncategorized Safaitic abecedaries have been found. In his preprint on ordered set comparisons, Cartwright discusses evidence that Safaitic alphabetical orders have order proximities with the Ugaritic alphabet.
+
+
+=== Comparison of the "abg" and "hlḥm" ===
+Cartwright, describes the closeness in permutation space of two non-Ugaritic abecedaries' orders, one being considered an "abg" order and the other a "hlḥm" order. He achieves this by measuring rank closeness and by considering orders as gap buffered 2D objects.
+
+When read from top-to-bottom and left-to-right, this Maghrebian abjadi order can be compared to the abecedary Tay 19 found in the oasis of Tayma.
+
+This is further reinforced by how letters S., P, H and O are scratched out in the Tay 19 inscription.
+
+
+=== MISSA2 and the Amorite language ===
+Cartwright also considers the closeness of Safaitic abecedary MISSA2's alphabetical order with various orders. He underlines high permutation closeness of MISSA2 with the frequency of consonants of the Amorite language used in the "Amorite Bilinguals" published by Krebernik and George. He also found high permutation closeness between MISSA2 and compressed syllabic reconstructions of Ugaritic and Phoenician.
+He suggests that the first characters of MISSA2 (t ṯ y ʾ ṣ) have special role as they seem absent from the Amorite character frequency and have higher graphical complexity. He also compares them to y ṣ ʿ s t underlined in the boustrophedon Maghrebian abjadi comparison with Tay 19. 
+
+Switching the n and ẓ of WH 3598 in columns of 10 results in "h ʿ ẓ ḥ" being grouped together which are phonemes not directly rendered in Akkadian cuneiform.
+
+
+=== Is.Mu 650 and Is.R 204 ===
+Using row (*) and comparison with MISS.A 2, an alternative reading of the Ugaritic alphabet can be used to help interpret other Safaitic abecedaries, most notably Is.R 204 and Is.Mu 650.The Ugaritic alphabet can then be read in columns in a way that also resembles the character frequency of inscriptions such as that on the Ahiram Sarcophagus.To compare this to Is.R 204 and Is.Mu 650, one can order the letters as:Which is then comparable to Is.R 204 or Is.Mu 650.Letters in between brackets are duplicates whose reading resembles other letters in Safaitic.
+
+
+=== Implications for the interpretation of undeciphered scripts ===
+By reevaluating the "table of correspondence of letters" of which a description is given earlier in this article, Cartwright uses comparisons (MISS.A 2 + Ugaritic alphabet) and (abgd + Tay 19) as new evidence for a future decipherment of the Byblos syllabary and the Proto-Sinaitic Script. It supports the idea that these script may have been written in previously unexpected spelling or phonology, explaining current reading difficulties.
+
+
+== Ugaritic short alphabet ==
+Two shorter variants of the Ugaritic alphabet existed with findspots primarily not in the area of Ugarit. Findspots have included Tel Beit Shemesh, Sarepta, and Tiryns. It is generally found on inscribed objects vs the tablets of the standard Ugaritic alphabet and unlike the standard version it is usually written right to left. Only three tablets have been found, at Tell Sukas, Tell Ta'annek, and Beth Shemesh. One variant contained 27 letters and the other 22 letters. It is not known what the relative chronology of the different Ugaritic alphabets was.
+
+
+== Function ==
+The Ugaritic writing system was an augmented abjad. In most syllables only consonants were written, including the /w/ and /j/ of diphthongs. Ugaritic was unusual among early abjads because it also indicated vowels occurring after the glottal stop. It is thought that the letter for the syllable /ʔa/ originally represented the consonant /ʔ/, as aleph does in other Semitic abjads, and that it was later restricted to /ʔa/ with the addition, at the end of the alphabet, of /ʔi/ and /ʔu/.
+The final consonantal letter of the alphabet, s2, has a disputed origin along with both "appended" glottals, but "The patent similarity of form between the Ugaritic symbol transliterated [s2], and the s-character of the later Northwest Semitic script makes a common origin likely, but the reason for the addition of this sign to the Ugaritic alphabet is unclear (compare Segert 1983: 201–218, Dietrich and Loretz 1988).  In function, [s2] is like Ugaritic s, but only in certain words – other s-words are never written with [s2]."
+The words that show s2 are predominantly borrowings, and thus it is often thought to be a late addition to the alphabet representing a foreign sound that could be approximated by native /s/. Huehnergard and Pardee make it the affricate /ts/.  Segert instead theorizes that it may have been syllabic /su/, and for this reason grouped with the other syllabic signs /ʔi/ and /ʔu/.
+Probably the last three letters of the alphabet were originally developed for transcribing non-Ugaritic languages (texts in the Akkadian language and Hurrian language have been found written in the Ugaritic alphabet) and were then applied to write the Ugaritic language.  The three letters denoting glottal stop plus vowel combinations were used as simple vowel letters when writing other languages.
+The only punctuation is a word divider which is often not used.
+
+
+== Unicode ==
+
+Ugaritic script was added to the Unicode Standard in April, 2003 with the release of version 4.0.
+The Unicode block for Ugaritic is U+10380–U+1039F:
+
+Six letters for transliteration were added to the Latin Extended-D block in March 2019 with the release of Unicode 12.0:
+
+U+A7BA Ꞻ LATIN CAPITAL LETTER GLOTTAL A
+U+A7BB ꞻ LATIN SMALL LETTER GLOTTAL A
+U+A7BC Ꞽ LATIN CAPITAL LETTER GLOTTAL I
+U+A7BD ꞽ LATIN SMALL LETTER GLOTTAL I
+U+A7BE Ꞿ LATIN CAPITAL LETTER GLOTTAL U
+U+A7BF ꞿ LATIN SMALL LETTER GLOTTAL U
+
+
+== See also ==
+Old Persian cuneiform – a much later, unrelated attempt at a cuneiform semi-alphabet.
+
+
+== References ==
+
+
+== External links ==
+Download a Ugaritic font (includes Unicode font)
+Ugaritic cuneiform characters from the Unicode Ugaritic cuneiform script
+Ugaritic cuneiform Omniglot entry on the subject
+Ugaritic script (ancientscripts.com)
+Ugaritic writing Archived 2020-07-13 at the Wayback Machine
+GNU FreeFont Unicode font family with Ugaritic range in its sans-serif face.

@@ -1,0 +1,93 @@
+URL: https://en.wikipedia.org/wiki/Bamum_script
+The Bamum scripts are an evolutionary series of six scripts created for the Bamum language by Ibrahim Njoya, King of Bamum (now western Cameroon). They are notable for evolving from a pictographic system to a semi-syllabary in the space of fourteen years, from 1896 to 1910. Bamum type was cast in 1918, but the script fell into disuse around 1931. A project began around 2007 to revive the Bamum script.
+The Bamum script is also used to write the Shümom language, also invented by Njoya.
+
+
+== History ==
+In its initial form, Bamum script was a pictographic mnemonic aid (proto-writing) of 500 to 600 characters. As Njoya revised the script, he introduced logograms (word symbols). The sixth version, completed by 1910, is a syllabary with 80 characters. It is also called a-ka-u-ku after its first four characters. The version in use by 1906 was called mbima.
+The script was further refined in 1918, when Njoya had copper sorts cast for printing. The script fell into disuse in 1931 with the exile of Njoya to Yaoundé, Cameroon.
+At present, Bamum script is not in any significant use. However, the Bamum Scripts and Archives Project is attempting to modernize and revive the script. The project is based in the old Bamum capital of Foumban.
+
+
+=== Phase A ===
+The initial form of Bamum script, called Lewa ("book"), was developed in 1896–1897. It consisted of 465 pictograms (511 according to some sources) and 10 characters for the digits 1–10. The writing direction could be top-to-bottom, left-to-right, or bottom-to-top. (Right-to-left was avoided because that was the direction of the Arabic script used by the neighboring Hausa people.)
+
+
+=== Phase B ===
+The second system, called Mbima ("mixed"), was developed in 1899–1900. It was a simplification of the first; Njoya omitted 72 characters but added 45 new ones. The writing direction was left-to-right in this and all subsequent phases.
+
+
+=== Phase C ===
+The third system, called Nyi Nyi Nfa' after its first three characters, was developed around 1902. This simplification omitted 56 characters, leaving 371 and 10 digits. 
+Njoya used this system to write his History of the Bamun People and in correspondence with his mother.
+
+
+=== Phase D ===
+The fourth system, called Rii Nyi Nsha Mfw' after its first four characters, was developed around 1907–1908. It has 285 characters and 10 digits and is a further simplification of the previous version.
+
+
+=== Phase E ===
+The fifth system, called Rii Nyi Mfw' Men, was also developed around 1907–1908. It has 195 characters and 10 digits and was used for a Bible translation. These first five systems are closely related: All were progressively simplified pictographic protowriting with logographic elements.
+
+
+=== Phase F ===
+The sixth system, called A Ka U Ku after its first four characters, was developed around 1910. It has 82 characters and 10 digits. This phase marks a shift to a full syllabic writing system able to distinguish 160 syllables. It was used to record births, marriages, deaths, and court rulings.
+
+
+=== Phase G ===
+The seventh and final system, called Mfemfe ("new") or A Ka U Ku Mfemfe, was developed around 1918. It has only 80 characters, ten of which double as both syllables and digits. Like the previous system, missing syllables are written using combinations of similar syllables plus the desired vowel, or with a diacritic.
+
+
+== Description ==
+
+The 80 glyphs of modern Bamum are not enough to represent all of the consonant-vowel syllables (C V syllables) of the language. This deficiency is made up for with a diacritic or by combining glyphs having CV1 and V2 values, for CV2. This makes the script alphabetic for syllables not directly covered by the syllabary. Adding the inherent vowel of the syllable voices a consonant: tu + u = /du/, fu + u = /vu/, ju + u = /ʒu/, ja + a = /ʒa/, ʃi + i = /ʒi/, puə + u = /bu/. 
+The two diacritics are a circumflex (ko'ndon) that may be added to any of the 80 glyphs, and a macron (tukwentis) that is restricted to a dozen. The circumflex generally has the effect of adding a glottal stop to the syllable, for instance kâ is read /kaʔ/, though the vowel is shortened and any final consonant is dropped in the process, as in pûə /puʔ/ and kɛ̂t /kɛʔ/. Prenasalization is also lost: ɲʃâ /ʃaʔ/, ntê /teʔ/, ntûu /tuʔ/. Sometimes, however, the circumflex nasalizes the vowel: nî /nɛn/, pî /pin/, rê /rɛn/, jûʔ /jun/, mɔ̂ /mɔn/, ɲʒûə /jun/ (loss of NC as with glottal stop). Others are idiosyncratic: ɲʒə̂m /jəm/ (simple loss of NC), tə̂ /tɔʔ/ (vowel change), ɲî /ɲe/, riê /z/, m̂ /n/, ʃɯ̂x /jɯx/, nûə /ŋuə/, kɯ̂x /ɣɯ/, rə̂ /rɔ/, ŋkwə̂n /ŋuət/, fɔ̂m /mvɔp/, mbɛ̂n /pɛn/, tî /tɯ/, kpâ /ŋma/, vŷ /fy/, ɣɔ̂m /ŋɡɔm/.
+The macron is a 'killer stroke' that deletes the vowel from a syllable and so forms consonants and NC clusters (/nd, ŋɡ/) that can be used for syllable codas. Consonantal /n/ is used both as a coda and to prenasalize an initial consonant. The two irregularities with the macron are ɲʒūə, read as /j/, and ɔ̄, read as /ə/.  
+The script has distinctive punctuation, including a 'capitalization' mark (nʒɛmli), visually similar to an inverted question mark, for proper names, and a decimal system of ten digits; the old glyph for ten has been refashioned as a zero.
+
+
+== Modern syllabary (phase G) ==
+
+
+=== Punctuation ===
+
+
+== Numerals ==
+The last ten base characters in the syllabary are used for both letters and numerals:
+
+Historically, ꛯ was used for ten but was changed to zero when the numeral system became a decimal one.
+
+
+== All versions (phases A–G) ==
+
+
+== Unicode ==
+
+Bamum's 88 characters were added to the Unicode standard in October, 2009 with the release of version 5.2. Bamum Unicode character names are based on the International Phonetic Alphabet forms given in L’écriture des Bamum (1950) by Idelette Dugast and M.D.W. Jeffreys:
+
+The Unicode block for Bamum is U+A6A0–U+A6FF:
+
+Historical stages of Bamum script were added to Unicode in October, 2010 with the release of version 6.0. These are encoded in the Bamum Supplement block as U+16800–U+16A3F. The various stages of script development are dubbed "Phase-A" to "Phase-E". The character names note the last phase in which they appear. For example, U+168EE 𖣮 BAMUM LETTER PHASE-C PIN is attested through Phase C but not in Phase D.
+
+
+== Bamum Scripts and Archives Project ==
+The Bamum Scripts and Archives Project at the Bamum Palace is engaged in a variety of initiatives concerning the Bamum script, including collecting and photographing threatened documents, translating and in some cases hand-copying documents, creating a fully usable Bamum computer font for the inventory of documents, and creating a safe environment for the preservation and storage of documents.
+In 2006, the Bamum Scripts and Archives Project embarked on a project to create the first usable Bamum computer font. In order to do this, the Project examined hundreds of important documents transcribed in the current and most widely employed variant of the Bamum script: A-ka-u-ku (after its first four characters). The goal of the project team was to identify the most prominent forms of the various Bamum characters, as there have been many different styles employed by literates over the years. In particular, the Project examined documents in the script known to have been written by the three most famous Bamum script literates: King Njoya and his colleagues, Nji Mama and Njoya Ibrahimou (younger brother of Nji Mama, also a well known Bamum artist).
+
+
+== See also ==
+Nji Oumarou Nchare
+Writing systems of Africa
+Africa Alphabet
+African reference alphabet
+
+
+== References ==
+
+
+== External links ==
+Bamum - Atlas of Endangered Alphabets
+Bamum Scripts and Archives Project
+Omniglot page (contradicts the Unicode sound assignments)
+Bamum script notes — r12a
+Bamum Font Initiative

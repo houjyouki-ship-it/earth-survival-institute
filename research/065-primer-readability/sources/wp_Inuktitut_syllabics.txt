@@ -1,0 +1,40 @@
+URL: https://en.wikipedia.org/wiki/Inuktitut_syllabics
+Inuktitut syllabics (Inuktitut: ᖃᓂᐅᔮᖅᐸᐃᑦ, romanized: qaniujaaqpait, or ᑎᑎᕋᐅᓯᖅ ᓄᑖᖅ, titirausiq nutaaq) is an abugida-type writing system used in Canada by the Inuktitut-speaking Inuit of the territory of Nunavut and the Nunavik region of Quebec. In 1976, the Language Commission of the Inuit Cultural Institute made it the co-official script for the Inuit languages, along with the Latin script.
+The name qaniujaaqpait [qaniujaːqpaˈit] derives from the root qaniq, meaning "mouth". The alternative, Latin-based writing system is named qaliujaaqpait (ᖃᓕᐅᔮᖅᐸᐃᑦ), and it derives from qaliit, a word describing the markings or the grain in rocks. Titirausiq nutaaq [titiʁauˈsiq nuˈtaːq] meaning "new writing system" is to be seen in contrast to titirausiit nutaunngittut (ᑎᑎᕋᐅᓰᑦ ᓄᑕᐅᓐᖏᑦᑐᑦ), the "old syllabics" used before the reforms of 1976.
+Inuktitut is one variation on Canadian Aboriginal syllabics, and can be digitally encoded using the Unicode standard.  The Unicode block for Inuktitut characters is called Unified Canadian Aboriginal Syllabics.
+
+
+== History ==
+The first efforts to write Inuktitut came from Moravian missionaries in Greenland and Labrador in the mid-19th century using Latin script. The first book printed in Inuktitut using Cree script was an 8-page pamphlet known as Selections from the Gospels in the dialect of the Inuit of Little Whale River (ᒋᓴᓯᑊ ᐅᑲᐤᓯᐣᑭᐟ, "Jesus' words"), printed by John Horden in 1855–56 at Moose Factory for Edwin Arthur Watkins to use among the Inuit at Fort George. In November 1865, Horden and Watkins met in London under Henry Venn's direction to adapt Cree syllabics to the Inuktitut language. In the 1870s, Edmund Peck, another Anglican missionary, started printing according to that standard. Other missionaries, and later linguists in the employ of the Canadian and American governments, adapted the Latin alphabet to the dialects of the Mackenzie River delta, the western Arctic islands and Alaska.
+
+
+== Table ==
+
+The Inuktitut script (titirausiq nutaaq) is commonly presented as a syllabary. The dots on the letters in the table mark long vowels; in the Latin transcription, the vowel is doubled. For geminate consonants, the final consonant symbol is placed before the CV syllabic, for instance -kku-, -nnu- are rendered ᒃᑯ and ᓐᓄ respectively.
+
+Note: An image of the chart is also available.
+
+
+== Modifications ==
+The Makivik Corporation expanded the official version of the script to restore the ai-pai-tai column. The common diphthong ai has generally been represented by combining the a form with a stand-alone letter ᐃ i. This fourth-vowel variant had been removed so that Inuktitut could be typed and printed using IBM Selectric balls in the 1970s. The reinstatement was justified on the grounds that modern printing and typesetting equipment no longer suffers the restrictions of earlier typewriting machinery. The ai-pai-tai column is used only in Nunavik.
+
+
+== See also ==
+Inuit phonology
+Inuktitut Braille
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+Interactive syllabic chart with sound at Inuktut Tusâlanga
+Inuktitut script at Omniglot
+Inuktitut syllabics at Languagegeek
+Inuktitut Roman-Syllabics, Syllabics-Roman transliteration

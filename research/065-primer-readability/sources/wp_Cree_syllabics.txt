@@ -1,0 +1,92 @@
+URL: https://en.wikipedia.org/wiki/Cree_syllabics
+Cree syllabics are the versions of Canadian Aboriginal syllabics used to write Cree dialects, including the original syllabics system created for Cree and Ojibwe. There are two main varieties of syllabics for Cree: Western Cree syllabics and Eastern Cree syllabics. Syllabics were later adapted to several other languages.  It is estimated that over 70,000 Algonquian-speaking people use the script, from Saskatchewan in the west to Hudson Bay in the east, the US border to Mackenzie and Kewatin (the Northwest Territories and Nunavut) in the north.
+
+
+== History ==
+
+Cree syllabics were developed for Ojibwe by James Evans, a missionary in what is now Manitoba in the 1830s. Evans had originally adapted the Latin script to Ojibwe (see Evans system), but after learning of the success of the Cherokee syllabary, he experimented with invented scripts based on his familiarity with Pitman shorthand and Devanagari.
+When Evans later worked with the closely related Cree and ran into trouble with the Latin alphabet, he turned to his Ojibwe project and in 1840 adapted it to Cree. The result contained just nine grapheme shapes, each of which stood for a syllable with the vowels determined by the shapes' orientation. After the 1841 publication of a syllabics hymn book, the new script spread quickly. The Cree valued it because it could be learned in just a few hours and because it was visually distinctive from the Latin script of the colonial languages. Virtually all Cree became literate in the new syllabary within a few years. Evans taught by writing on birchbark with soot, and he became known as "the man who made birchbark talk."
+
+
+== Structure ==
+
+Canadian Aboriginal syllabics are unique among abugida scripts in that the orientation of a symbol, rather than modifications of its shape or diacritic marks, determines the vowel of a syllable. Each basic shape corresponds to a specific consonant sound; this is flipped or rotated to denote the accompanying vowel.
+Like the Latin alphabet, syllabics are written from left to right, with each new line of writing directly under the previous one.
+
+This table shows the main consonant-vowel combinations (without the final sounds) in the Maskwacis Plains Cree Syllabics.
+
+
+== Variants ==
+The syllabary continues in use for dialects of Cree west of the Manitoba–Ontario border as Western Cree syllabics. John Horden introduced modifications in the 1850s in the James Bay area. These were standardized in 1865 to form Eastern Cree syllabics, used today for many eastern dialects of Cree, Naskapi, and Ojibwe, though Cree dialects of eastern Quebec use the Latin alphabet. The two versions differ primarily in the way they indicate syllable-final consonants, in how they mark the semi-vowel /w/, and in how they reflect the phonological differences between Cree dialects. There are more minor local differences in orthography, shapes of the characters, writing styles, and punctuation, with some writers using dots or spaces between words, and others not indicating word separation.
+
+
+== Cree numerals ==
+The syllabics have been recorded to have been used as numerals with individual fixed integer values in certain combinations akin to that of the Roman system:
+
+a vertical bar represents 1,
+ᐅ o represents 3 (Iᐅ equals 4),
+ᐊ a represents numerals more than 6 (ᐅᐊ equals 6, ᐊ equals 7, ᐊII equals 9),
+ᒥ mi represents 10,
+looped syllables (ᓀᓂᓄᓇᑯᑲᑫᑭ) represent 20-90.
+The zero is represented as an eight pointed star.
+
+
+== Modern usage ==
+Though used for manuscripts, letters, and personal records since the 19th century, the need for special type long restricted printed syllabics to missionary publications. However, with the development of syllabic typewriters and, later, word processors, control of the script passed to native speakers, and it is now used for schoolbooks, periodicals, and official documents.
+
+
+== Sample text ==
+ᒥᓯᐌ ᐃᓂᓂᐤ ᑎᐯᓂᒥᑎᓱᐎᓂᐠ ᐁᔑ ᓂᑕᐎᑭᐟ ᓀᐢᑕ ᐯᔭᑾᐣ ᑭᒋ ᐃᔑ ᑲᓇᐗᐸᒥᑯᐎᓯᐟ ᑭᐢᑌᓂᒥᑎᓱᐎᓂᐠ ᓀᐢᑕ ᒥᓂᑯᐎᓯᐎᓇ᙮ ᐁ ᐸᑭᑎᓇᒪᒋᐠ ᑲᑫᑕᐌᓂᑕᒧᐎᓂᓂᐤ ᓀᐢᑕ ᒥᑐᓀᓂᒋᑲᓂᓂᐤ ᓀᐢᑕ ᐎᒋᑴᓯᑐᐎᓂᐠ ᑭᒋ ᐃᔑ ᑲᓇᐗᐸᒥᑐᒋᐠ᙮
+Transliteration: Misiwe ininiw tipēnimitisowinik ēshi nitawikit nēsta pēyaykan kici ishi kanawapamikowisit kistēnimitisowinik nēsta minikowisiwina. Ē pakitinamacik kakētawenitamowininiw nēsta mitonēnicikaniniw nēsta.
+Meaning: All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+
+
+== See also ==
+Canadian Aboriginal syllabics
+Eastern Cree syllabics
+Inuktitut writing
+Journal of Indigenous Studies
+Unified Canadian Aboriginal Syllabics (Unicode block)
+Western Cree syllabics
+
+
+== Cree books written in syllabics ==
+Hundreds of Eastern James Bay Cree books were published by the Cree School Board of Quebec, Canada. See the catalogue Archived 2022-01-21 at the Wayback Machine.
+Swampy Cree Hymn Book = ᓇᑲᒧᐏᓇ ᐅᒪᐢᑮᑯᐘ ᐅᑎᑘᐏᓂᐘᐤ. (By James Evans) Norway House, 1841. (Peel 209)
+The Psalter, or Psalms of David = ᑌᕕᑦ ᐅ ᓂᑲᒧᐎᓇᕽ. (By John Horden) London, 1875. (Peel 738)
+The New Testament, translated into the Cree language = ᐅᔅᑭ ᑎᔅᑌᒥᓐᑦ ᑭ ᑎᐯᓕᒋᑫᒥᓇᐤ ᓀᔥᑕ ᑭ ᐱᒪᒋᐃᐌᒥᓇᐤ ᒋᓴᔅ ᒃᣅᔅᑦ. (By John Horden) London, 1876. (Peel 782)
+Catechism. (Transl. James Evans) Rossville, É.N.
+The Holy Bible. (Transl. John Sinclair, Henry Steinhauer) London, 1861.
+Bunyan: Pilgrim´s Progress. (Transl. John Sinclair) Toronto, 1900.
+Cree Hymn Book. (By John Mcdougall) Toronto, 1888.
+Cree Hymn Book. (By Robert Steinauer, Egerton Steinauer) Toronto, 1920.
+The Epistle of Paul The Apostle To The Galatians. (Transl. Joseph Reader) Oonikup (Northwest Territory), S.A.
+The Acts of The Apostles And The Epistles. London, 1891.
+The Books of The New Testament. London, 1859.
+The Epistle of Paul the Apostle to the Ephesians; the Epistle of Jacob; the First Epistle General of John. (Transl. Thomas Hullburt) Rossville, 1857.
+The Travellers´ Spiritual Provision (Calendar) S.L., S. A.
+The Handbook to Scripture Truth: Words of Admonition, Counsel and Comfort. Toronto, 1893.
+Prières, cantiques, catéchisme, etc. en langue crise. Montréal, 1886.
+The Book of Common Prayer, (Transl. John Horden) London, 1889 (Addl. Printings Through 1970).
+In: Paleográfiai kalandozások. Szentendre, 1995. ISBN 963-450-922-3
+
+
+== References ==
+
+
+== Further reading ==
+Barber, F. Luis: James Evans and the Cree Syllabic. In: Victoria Library Bulletin Toronto. July 1940. vol. 2. No. 2. 16 p.
+Burwash, Nathaniel: The Gift to a Nation of Written Language. S.l., 1911. 21 p.
+Evans, James: Cree Syllabic Hymn Book. Norway House, 1841. In: Bibliographical Society of Canada; Facsim. Series 4. Toronto, 1954. 23 p.
+Ray, Margaret: The James Evans Collection. In: Victoria Library Bulletin Toronto. July 1940. vol. 2. No. 2. 16 p.
+
+
+== External links ==
+
+Standard Roman Orthography - Cree Syllabic Matching Quizzes, GiftofLanguageandCulture.CA.
+"Eastern James Bay Cree fonts", EastCree.org.
+"Cree (ᓀᐦᐃᔭᐍᐏᐣ / Nēhiyawēwin)", Omniglot.com.
+"Cree", LanguageGeek.com.
+"Naasaab Izhi-anishinaabebii'igeng A Conference to find a Common Anishinaabemowin Writing System Archived 2021-05-14 at the Wayback Machine" report, Weshki.AtWebPages.com.
+"Cree Syllabics", SICC.SK.CA.
+Cree standard Roman orthography to syllabics converter

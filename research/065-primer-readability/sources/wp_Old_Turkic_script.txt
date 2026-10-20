@@ -1,0 +1,87 @@
+URL: https://en.wikipedia.org/wiki/Old_Turkic_script
+The Old Turkic script (also known variously as Göktürk script, Orkhon script, Orkhon-Yenisey script, Turkic runes) was the alphabet used by the Göktürks and other early Turkic khanates from the 8th to 10th centuries to record the Old Turkic language.
+The script is named after the Orkhon Valley in Mongolia, where early 8th-century inscriptions were discovered in an 1889 expedition by Nikolai Yadrintsev. These Orkhon inscriptions were published by Vasily Radlov and deciphered by the Danish philologist Vilhelm Thomsen in 1893.
+This writing system was later used within the Uyghur Khaganate. Additionally, a Yenisei variant is known from 9th-century Yenisei Kyrgyz inscriptions, and it has likely cousins in the Talas Valley of Turkestan and the Old Hungarian alphabet of the 10th century. Words were usually written from right to left.
+
+
+== Origins ==
+Many scholars, starting with Vilhelm Thomsen (1893), suggest that the Old Turkic script is derived from descendants of the Aramaic alphabet in particular via the Pahlavi and Sogdian alphabets, or possibly via Kharosthi used to write Sanskrit. It has also been speculated that tamgas (livestock brands used by Eurasian nomads) were one of the sources of the Old Turkic script, but despite similarities in shape and forms, this hypothesis has been widely rejected as unverifiable, largely because early tamgas are too poorly attested and understood to be subject to a thorough comparison. The text is most likely derived from Aramaic via the Sogdian alphabet and Syriac alphabet.
+Contemporary Chinese sources conflict as to whether the Turks had a written language by the 6th century. The 7th-century Book of Zhou mentions that the Turks had a written language similar to that of the Sogdians. Two other likewise 7th-century sources, the Book of Sui and the History of the Northern Dynasties, claim that the Turks did not have a written language. According to István Vásáry (professor of Asian studies), the Old Turkic script was invented under the rule of the first khagans and was modelled after the Sogdian fashion. Several variants of the script came into being as early as the first half of the 6th century.
+
+
+== Corpus ==
+The Old Turkic corpus consists of about two hundred inscriptions, plus a number of manuscripts.
+The inscriptions, dating from the 8th to 10th century, were discovered in present-day Mongolia (the area of the Second Turkic Khaganate and the Uyghur Khaganate that succeeded it), in the upper Yenisei basin of central-south Siberia, and, in smaller numbers, in the Altai Mountains and Xinjiang. The texts are mostly epitaphs (official or private), but there are also graffiti and a handful of short inscriptions found on archaeological artifacts, including a number of bronze mirrors.
+The website of the Language Committee of Ministry of Culture and Information of the Republic of Kazakhstan lists 54 inscriptions from the Orkhon area, 106 from the Yenisei area, 15 from the Talas area, and 78 from the Altai area. The most famous of the inscriptions are the two monuments (obelisks) which were erected in the Orkhon Valley between 732 and 735 in honor of the Göktürk prince Kül Tigin and his brother the emperor Bilge Kağan. The Tonyukuk inscription, a monument situated somewhat farther east, is slightly earlier, dating to c. 716. These inscriptions relate in epic language the legendary origins of the Turks, the golden age of their history, their subjugation by the Chinese (Tang-Gokturk wars), and their liberation by Bilge.
+The Old Turkic manuscripts, of which there are none earlier than the 9th century, were found in present-day Xinjiang and represent Old Uyghur, a different Turkic dialect from the one represented in the Old Turkic inscriptions in the Orkhon valley and elsewhere. They include Irk Bitig, a 9th-century manuscript book on divination.
+
+
+== Alphabet ==
+
+Old Turkic being a synharmonic language, a number of consonant signs are divided into two "synharmonic sets", one for front vowels and the other for back vowels. Such vowels can be taken as intrinsic to the consonant sign, giving the Old Turkic alphabet an aspect of an abugida script. In these cases, it is customary to use superscript numerals ¹ and ² to mark consonant signs used with back and front vowels, respectively. This convention was introduced by Thomsen (1893), and followed by Gabain (1941), Malov (1951) and Tekin (1968).
+
+A colon-like symbol (U+205A ⁚ TWO DOT PUNCTUATION) is sometimes used as a word separator. In some cases a ring (U+2E30 ⸰ RING POINT) is used instead.
+A reading example (right to left): 𐱅𐰭𐰼𐰃 transliterated t²ñr²i, this spells the name of the Turkic sky god, Täñri (/tæŋri/).
+
+
+== Variants ==
+
+Variants of the script were found from Mongolia and Xinjiang in the east to the Balkans in the west. The preserved inscriptions were dated to between the 8th and 10th centuries.
+These alphabets are divided into four groups by Kyzlasov (1994) 
+
+Asiatic group (includes Orkhon proper)
+Eurasiatic group
+Southern Europe group
+The Asiatic group is further divided into three related alphabets:
+
+Orkhon alphabet, Göktürks, 8th to 10th centuries
+Yenisei alphabet,
+Talas alphabet, a derivative of the Yenisei alphabet, Kangly or Karluks 8th to 10th centuries. Talas inscriptions include Terek-Say rock inscriptions found in the 1897, Koysary text, Bakaiyr gorge inscriptions, Kalbak-Tash 6 and 12 inscriptions, Talas alphabet has 29 identified letters.
+The Eurasiatic group is further divided into five related alphabets:
+
+Achiktash, used in Sogdia 8th to 10th centuries.
+South-Yenisei, used by the Göktürks 8th to 10th centuries.
+Two especially similar alphabets: the Don alphabet, used by the Khazars, 8th to 10th centuries; and the Kuban alphabet, used by the Bulgars, 8th to 13th centuries. Inscriptions in both alphabets are found in the Pontic–Caspian steppe and on the banks of the Kama river.
+Tisza, used by the Pechenegs 8th to 10th centuries.
+A number of alphabets are incompletely collected due to the limitations of the extant inscriptions. Evidence in the study of the Turkic scripts includes Turkic-Chinese bilingual inscriptions, contemporaneous Turkic inscriptions in the Greek alphabet, literal translations into Slavic languages, and paper fragments with Turkic cursive writing from religion, Manichaeism, Buddhist, and legal subjects of the 8th to 10th centuries found in Xinjiang.
+
+
+== Sample text ==
+Transcription of part of Bilge Kağan's inscription (lines 36–38).
+𐰖𐰕𐰸𐰞𐱃----: 𐰋𐰃𐰼𐰘𐰀: 𐱃𐰉𐰍𐰲𐰑𐰀: 𐱃𐰃: 𐰚𐰇𐰾𐰃: 𐰖𐰸: 𐰉𐰆𐰡𐰃: 𐰉𐰆: 𐰘𐰼𐰓𐰀: 𐰢𐰭𐰀: 𐰴𐰆𐰺: 𐰉𐰆𐰡𐰃: 𐰢𐰤: 𐰇𐰕𐰢: 𐰴𐰍𐰣: 𐰆𐰞𐰺𐱃𐰸𐰢: 𐰇𐰲𐰤: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣𐰍: ----𐰇----: 𐰴𐰞𐰢𐰑𐰢: 𐰃𐰠𐰏: 𐱅𐰇𐰼𐰇𐰏: 𐰘𐰏𐰓𐰃: 𐰴𐰕𐰍𐰦𐰢: 𐰃𐰑----: ----𐱅𐰃𐰼𐰠𐰯: 𐰘----:‎
+𐰦𐰀: 𐰾𐰇𐰤𐱁𐰓𐰢: 𐰾𐰇𐰾𐰃𐰤: 𐰽𐰨𐰑𐰢: 𐰃𐰲𐰚𐰏𐰢𐰀: 𐰱𐰚𐰓𐰃: 𐰉𐰆𐰑𐰣: 𐰉𐰆𐰡𐰃: 𐰇𐰠𐰏𐰢𐰀: 𐰇𐰠𐱅𐰃: 𐰾𐰠𐰭𐰀: 𐰸𐰆𐰑𐰃: 𐰖𐰆𐰺𐰯𐰣: 𐰴𐰺𐰍𐰣: 𐰶𐰃𐰽𐰞𐱃𐰀: 𐰋𐰃𐰤: 𐰉𐰺𐰴𐰃𐰤: 𐰦𐰀: 𐰉𐰆𐰕𐰑𐰢: ----: 𐰘𐱁𐰴𐰀: 𐰍𐰑𐰃: 𐰆𐰖𐰍𐰺: 𐰠𐱅𐰋𐰼: 𐰘𐰇𐰕𐰲𐰀: 𐰼𐰏: 𐰃𐰠𐰏𐰼𐰇: 𐱅𐰕𐰯: 𐰉𐰺𐰑𐰃: ----:‎
+𐱅𐰃: 𐱅𐰇𐰼𐰰: 𐰉𐰆𐰑𐰣: 𐰀𐰲: 𐰼𐱅𐰃: 𐰆𐰞: 𐰘𐰃𐰞𐰴𐰃𐰍: 𐰞𐰯: 𐰃𐰏𐱅𐰢: 𐰆𐱃𐰕: 𐰺𐱃𐰸𐰃: 𐱅𐰇𐰼𐱅: 𐰖𐱁𐰢𐰀: 𐰆𐰍𐰕: 𐱅𐰕𐰯: 𐱃𐰉𐰍𐰲𐰴𐰀: 𐰚𐰃𐰼𐱅𐰃: 𐰇𐰚𐰤𐰯: 𐰾𐰇𐰠𐰓𐰢: 𐰽𐰆𐰴𐰣: ----: 𐰆𐰍𐰞𐰃𐰤: 𐰖𐰆𐱃𐰕𐰃𐰤: 𐰦𐰀: 𐰞𐱃𐰢: 𐰚𐰃: 𐰠𐱅𐰋𐰼𐰠𐰏: 𐰉𐰆𐰑𐰣:‎
+
+
+== Unicode ==
+
+The Unicode block for Old Turkic is U+10C00–U+10C4F. It was added to the Unicode standard in October 2009, with the release of version 5.2. It includes separate "Orkhon" and "Yenisei" variants of individual characters.
+Since Windows 8 Unicode Old Turkic writing support was added in the Segoe font.
+
+
+== See also ==
+Neolithic signs in China § Banpo and Jiangzhai
+Khazar language
+Tariat inscriptions
+Sükhbaatar inscriptions
+
+
+== References ==
+
+
+=== Citations ===
+
+
+=== Sources ===
+
+
+== External links ==
+
+Türk bitig – Old Turkic inscriptions, Texts, Translations
+Orkhon Alphabet page from Omniglot
+Gokturkish Keyboard by Isa SARI
+Old Turkic Virtual Keyboard by Pamukkale University
+glyph table (kyrgyz.ru)
+Everson, Michael (2008-01-25). "L2/08-071: Proposal for encoding the Old Turkic script in the SMP of the UCS" (PDF).
+Хөх Түрүгийн Бичиг (in Mongolian)
+Göktürükçe çevirici (An online converter for Turkish alphabet )

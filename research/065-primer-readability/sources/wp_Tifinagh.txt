@@ -1,0 +1,126 @@
+URL: https://en.wikipedia.org/wiki/Tifinagh
+Tifinagh (Berber languages: ⵜⴼⵏⵗ; Neo-Tifinagh: ⵜⵉⴼⵉⵏⴰⵖ; Berber Latin alphabet: Tifinaɣ; Berber pronunciation: [tifinaɣ]) is a script used to write the Berber languages (Tamazight). It is descended from the ancient Libyco-Berber alphabet.
+The traditional Tifinagh, sometimes called Tuareg Tifinagh, is still used by the Tuareg people of the Sahara desert (in southern Algeria, northeastern Mali, northern Niger, and northern Burkina Faso) for writing the Tuareg languages. Neo-Tifinagh, developed by the Berber Academy in 1970s, is an alphabet that adapts Tuareg Tifinagh for broader use across North Africa, particularly for Kabyle and other Berber dialects.
+Tifinagh is one of three major competing Berber orthographies alongside the Latin and the Arabic alphabets. However, outside of symbolic or cultural uses, the Latin script remains dominant for writing Berber languages in North Africa.
+
+
+== Etymology ==
+The word tifinagh (singular tafinəq < *ta-finəɣ-t) is thought by some scholars to be a Berberized feminine plural cognate or adaptation of the Latin word Punicus 'Punic, Phoenician' through the Berber feminine prefix ti- and the root √FNƔ < *√PNQ < Latin Punicus; thus tifinagh could possibly mean 'the Phoenician (letters)' or 'the Punic letters'. Others support an etymology involving the Tuareg verb efnegh 'to write'. These are not mutually exclusive, however, as the Libyco-Berber concept of writing being borrowed from the Phoenicians has wide support among linguists and archaeologists. 
+
+
+== Libyco-Berber ==
+
+Before or during the existence of the ancient Berber kingdoms of Numidia (northern Algeria) and Mauretania (northern Morocco), between 202 BCE–25 BCE, many inscriptions were engraved using the Libyco-Berber script, also known as Ancient Libyan. The Libyco-Berber script is found in thousands of stone inscriptions and engravings throughout Morocco, northern Algeria, Tunisia, northern Libya and the Canary Islands.
+The exact evolution of both Libyco-Berber and Tifinagh is still unclear. The latter writing system was widely used in antiquity by speakers of the largely undeciphered Numidian language, also called Old Libyan, throughout Africa and on the Canary Islands. The script's origin is uncertain, with some scholars suggesting it is related to, descended or developed from the Phoenician alphabet while others argue an independent conception with slight Phoenician influences. Its first appearance is also uncertain, but it is no older than the first millennium BCE, with the oldest remains likely originating from the 6th century BCE. It disappeared in the northernmost areas of North Africa during the 8th century, after the Arab conquest of the Maghreb, Libyco-Berber along with Latin being replaced by the Arabic script.
+The Libyco-Berber script was a pure abjad; it had no vowels. Gemination was not marked. The writing was usually from the bottom to the top, although right-to-left, and even other orders, were also found. The letters took different forms when written vertically than when they were written horizontally.
+This Libyc script had two forms. The undeciphered Western form was used along the Mediterranean coast from Kabylia to Morocco and probably the Canary Islands. The Eastern form was used in Constantine, Aurès, and Tunisia. 22 out of 24 letters in the Eastern form have been deciphered thanks to Punic-Libyc bilingual inscriptions.
+
+
+== Saharan Tifinagh ==
+Andries (2004) identifies an additional phase of evolution called "Saharan Tifinagh" (tifinaghe saharien). He reports that this variety is also known as Libyco-Berber (libyco-berbère) or Old Tuareg (touareg ancien); this would put into doubt the use of the term "Libyco-Berber" in the section above.
+This phase shows some new letters relative to Libyc, most notably a vertical line to denote the final vowel /a/. It was used to write Old Tuareg, but is not well-understood. The youngest inscriptions in this scheme are probably around 200 years old.
+Early uses of Tifinagh have been found on rock art and in various sepulchres. Among these are the 1,500 year old monumental tomb of the Tuareg matriarch Tin Hinan, where vestiges of a Tifinagh inscription have been found on one of its walls.
+
+
+== Tuareg Tifinagh ==
+The Saharan script branched into the Tuareg Tifinagh scripts. Following the Arab conquest of the Maghreb, the use of Tifinagh in the northern regions virtually disappeared, but Tuareg Tifinagh continued to be used in the Sahara, with its symbols being used until the present in crafts such as weaving, pottery, and jewelry.
+Nowadays, it is used to write the Berber Tuareg languages, which belong to the Berber branch of the Afroasiatic family. According to M. C. A. MacDonald, the Tuareg are "an entirely oral society in which memory and oral communication perform all the functions which reading and writing have in a literate society ... The Tifinagh are used primarily for games and puzzles, short graffiti and brief messages."
+Within Tuareg Tifinagh, there is some divergence in the shape and number of signs, but this difference is small enough to not impact mutual intelligibility.
+Occasionally, the script has been used to write other neighbouring languages such as Tagdal, which belongs to a separate Songhay family.
+
+
+=== Orthography ===
+Common forms of the letters are illustrated at left, including various ligatures of t and n. Gemination, though phonemic, is not indicated in Tifinagh. The letter t, ⵜ, is often combined with a preceding letter to form a ligature. Most of the letters have more than one common form, including mirror-images of the forms shown above.
+When the letters l and n are adjacent to themselves or to each other, the second is offset, either by inclining, lowering, raising, or shortening it.  For example, since the letter l is a double line, ||, and n a single line, |, the sequence nn may be written |/ to differentiate it from l.  Similarly, ln is ||/, nl |//, ll ||//, nnn |/|, etc.
+Traditionally, the Tifinagh script does not indicate vowels except word-finally, where a single dot stands for any vowel (or ⵢ and ⵓ for -i and -u, respectively, in Ahaggar Tifinagh). In some areas, Arabic vowel diacritics are combined with Tifinagh letters to transcribe vowels, or y, w may be used for long ī and ū.
+
+
+== Neo-Tifinagh ==
+
+
+=== Development ===
+
+Neo-Tifinagh is the modern fully alphabetic script developed by the Berber Academy, based in Paris.
+Initially, the academy had to choose a script to transliterate the Berber language. The choice between Tifinagh and Latin scripts then sparked intense debate both within and outside the Academy.
+
+Mohand Arav Bessaoud, a founding member of the academy and strong Tifinagh advocate, recounted the resistance he faced from prominent figures like Mouloud Mammeri and Ramdane Achab, who argued that Tifinagh was archaic, obsolete, non-cursive, and impractical. Despite the criticism, Bessaoud persisted in promoting Tifinagh."Achab Ramdane opposed my actions, calling it rekindling extinguished embers" - said Bessaoud.
+
+
+=== Efforts to promote Tifinagh ===
+In 1970, a meeting took place to decide on a system of writing. Influenced by Mahdjoubi Ahardane, Bessaoud opted for Tifinagh. Ahardane argued that Tifinagh was not merely a script but a testament to Berber history and identity. Further steps were taken afterwards regarding the standardization of the script.
+By 1973, Ammar Negadi, a prominent Chaoui writer and fervent advocate of the Tifinagh script was elected secretary general of the Berber Academy in the Paris region. He propagated the academy's publications and cultural activities.
+Negadi reflected on his efforts: "I distributed all of Agraw Imazighen's writings throughout the Aurès region starting in 1973. The goal wasn't regular correspondence but widespread dissemination of Tifinagh." Neo-Tifinagh was spread by the Berber Academy's active promotion of the script, including its usage in their bulletin, Imazighen, which was widely read by Berber communities in Algeria and Morocco.
+The official activities of the Berber Academy ceased when Mohand Bessaoud Arav was imprisoned.
+By 1980, Negadi founded his spin-off organization UPA (Amazigh People's Union), which published a bulletin in both Latin and Tifinagh, called Azaghen/Link. He remained convinced that Tifinagh was the best graphical tool to express Berber language and culture, seeing it as part of the cultural heritage and identity to be defended.
+The UPA bulletins continued to promote the Tifinagh alphabet, while activist Messaoud Nedjahi streamlined its characters from 50 to 26. This process inspired the Afus Deg Fus association to create the first set of standardized Neo-Tifinagh fonts in 1993.
+
+Neo-Tifinagh has since undergone further reform and is used in various contexts throughout North Africa. The Royal Institute of Amazigh Culture has standardized Neo-Tifinagh for use as the official orthography of Standard Moroccan Amazigh, an official language of Morocco.
+
+
+=== Political history ===
+The promotion of Neo-Tifinagh by the Berber Academy and Ammar Negadi's UPA was part of the efforts to spread Berberism throughout the 1960s and 1970s. The use of Neo-Tifinagh in their publications was influential in raising Berber consciousness; one reader has described its effect as being "the proof that we actually existed."
+The Moroccan state arrested and imprisoned people using Neo-Tifinagh during the 1980s and 1990s. The Algerian Black Spring was also partly caused by this repression of Berber language.
+In the 1980s, the Berber flag, which was designed in 1970 and uses the Tifinagh letter z (Tifinagh: ⵣ) from the root of Amazigh, began being used in demonstrations. The flag was adopted by the World Amazigh Congress in 1997.
+In Morocco, following the creation of Standard Moroccan Amazigh in 2001, the 2003 adoption of Neo-Tifinagh served as a way to compromise between the deeply split proponents of the Latin script versus the Arabic script as Amazigh's official orthography. This choice, however, has also resulted in backlash from many Amazigh activists, who find Tifinagh to be limiting when compared to the Latin script.
+In Libya, the government of Muammar Gaddafi consistently banned Tifinagh from being used in public contexts such as store displays and banners. After the Libyan Civil War, the National Transitional Council has shown an openness towards the Berber language. The rebel Libya TV, based in Qatar, has included the Berber language and the Neo-Tifinagh alphabet in some of its programming.
+Tifinagh continues to be used as "an emblem of distinctive Berber identity and nationhood."
+
+
+=== Modern use ===
+
+Due to the official adoption of Neo-Tifinagh in Morocco in 2003, the script has been adapted by the Royal Institute of Amazigh Culture for modern digital use. Government websites in Morocco may be displayed in Neo-Tifinagh.
+Starting in 2003, Neo-Tifinagh is used for a small duration of Moroccan elementary school to teach Standard Moroccan Amazigh. However, practical use of Tifinagh in Morocco remains rare; one Amazigh activist has summarized the situation with the anecdote that he "[knows] that some books that were written in Tifinagh were read by only two people ... the one who wrote the book and the one who did the editing!" Public displays of Tifinagh in Morocco remains restricted primarily to signage and other culturally conspicuous uses.
+Despite Neo-Tifinagh's Algerian origins through the Berber Academy and UPA, the Latin alphabet became the predominant used script. Debate in what script to use for Berber languages tends to view the Latin and Arabic scripts as the primary options.
+As of 2012, Tifinagh was "not widely used in education or the media in any country."
+A 2026 study evaluating the Amazigh education policy in El Jadida Province found that students aged six to nineteen held significantly favorable attitudes toward Tifinagh as the official script and expressed a willingness to use it in primary education. However, the study also noted that parents maintained a pragmatic distance from the policy, expressing skepticism over the practical benefits of compulsory Amazigh instruction and its limited scope.
+
+
+== Other modifications ==
+The Andries (2004) submission of Tifinagh (including Neo-Tifinagh) to the Unicode Consortium also notes that Neo-Tifinagh is not the only variant that tries to introduce vowels into Tifinagh. The other schemes include APT (a scheme of additional signs), SIL, Hawad (a scheme of diacritics), Rissa Ixa, Arabic semi-vowels used among the Kel Antessar (Niger), Arabic diacritics used in Timbuktu, and "Latin-like" diacritics proposed by Chaker. None of these have enjoyed as much backing as Neo-Tifinagh.
+
+
+== Letters ==
+
+
+=== Tuareg Tifinagh letters ===
+There are not one, but several Tuareg scripts with slightly different assignments for each letter. Nesmenser (2023) has documented many different forms of the script, including a list of "ancient Temahuq Tifinagh" as used across the Sahara. The following is based on Mohamed Aghali-Zakara (1993), which was in turn quoted in both Andries (2004; Unicode Submission) and Casajus (2011):
+
+
+=== Neo-Tifinagh letters ===
+The following are the letters of Neo-Tifinagh, as listed in a 2004 submission to the Unicode Consortium:
+
+
+=== Unicode ===
+
+Tifinagh was added to the Unicode Standard in March 2005, with the release of version 4.1.
+The Unicode block range for Tifinagh is U+2D30–U+2D7F:
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+Aghali-Zakara, Mohamed (1994). Graphèmes berbères et dilemme de diffusion: Interaction des alphabets latin, ajami et tifinagh. Etudes et Documents Berbères 11, 107–121.
+Aghali-Zakara, Mohamed; and Drouin, Jeanine (1977). Recherches sur les Tifinaghs- Eléments graphiques et sociolinguistiques. Comptes-rendus du Groupe Linguistique des Etudes Chamito-Sémitiques (GLECS).
+Ameur, Meftaha (1994). Diversité des transcriptions : pour une notation usuelle et normalisée de la langue berbère. Etudes et Documents Berbères 11, 25–28.
+Boukous, Ahmed (1997). Situation sociolinguistique de l’Amazigh. International Journal of the Sociology of Language 123, 41–60.
+Chaker, Salem (1994). Pour une notation usuelle à base Tifinagh. Etudes et Documents Berbères 11, 31–42.
+Chaker, Salem (1996). Propositions pour la notation usuelle à base latine du berbère. Etudes et Documents Berbères 14, 239–253.
+Chaker, Salem (1997). La Kabylie: un processus de développement linguistique autonome. International Journal of the Sociology of Language 123, 81–99.
+Durand, O. (1994). Promotion du berbère : problèmes de standardisation et d’orthographe. Expériences européennes. Etudes et Documents Berbères 11, 7–11.
+O’Connor, Michael (1996). "The Berber scripts". In William Bright; Peter Daniels (eds.). The World's Writing Systems. New York: Oxford University Press. pp. 112–116.
+Penchoen, Thomas G. (1973). Tamazight of the Ayt Ndhir. Los Angeles: Undena Publications.
+Savage, Andrew. 2008. Writing Tuareg – the three script options. International Journal of the Sociology of Language 192: 5–14
+Souag, Lameen (2004). "Writing Berber Languages: a quick summary". Archived from the original on 2004-12-05. Retrieved 28 June 2014 – via GeoCities.
+Encyclopaedia of Islam, s.v. Tifinagh.
+
+
+== External links ==
+
+lbi-project.org, a database of Libyco-Berber inscriptions with images and information
+Academic papers on the Libyco-Berber inscriptions
+ancientscripts.com – Berber, a fact file on Tifinagh and a legend of characters
+artistic Tifinagh fonts

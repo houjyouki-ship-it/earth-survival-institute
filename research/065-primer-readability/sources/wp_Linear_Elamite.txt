@@ -1,0 +1,130 @@
+URL: https://en.wikipedia.org/wiki/Linear_Elamite
+Linear Elamite was a writing system used in Elam during the Bronze Age between c. 2300 and 1850 BCE, and known mainly from a few extant monumental inscriptions. It was used contemporaneously with Elamite cuneiform and records the Elamite language. The French archaeologist François Desset and his colleagues have argued that it is the oldest known purely phonographic writing system, although others, such as the linguist Michael Mäder, have argued that it is partly logographic.
+There have been multiple attempts to decipher the script, aided by the discovery of a limited number of multilingual and bigraphic inscriptions. Early efforts by Carl Frank (1912) and Ferdinand Bork (1905, 1924) made limited progress. Later efforts by Walther Hinz and Piero Meriggi furthered the work. Starting in 2018, Desset outlined some of his proposed decipherments of the script accomplished with a team of other scholars. Their proposed near-complete decipherment was published in 2022, being received positively by some researchers while others remain sceptical until detailed translations of texts have been published.
+
+
+== History ==
+It is often argued that Linear Elamite is derived from the older Proto-Elamite writing system. The earliest evidence for the use of Linear Elamite script in Susa has been traditionally associated with the rule of king Puzur-inshushinak. He came to power sometime around 2150 BCE.
+There is also evidence that the script was used even earlier, such as in 2300 BCE, but this has not been fully confirmed.
+The use of Linear Elamite continued after 2100 BCE, and the death of King Puzur-Shushinak, last ruler of the Awan Dynasty in Susa. After his death, Susa was overrun by the Third dynasty of Ur, while Elam fell under control of the Shimashki dynasty, also Elamite of origin.
+In 2018, substantial new Linear Elamite texts became available to scholars, which created improved conditions for decipherment. These are the texts associated with the Sukkalmah Dynasty (1900–1500 BCE).
+
+
+== Known texts ==
+
+
+=== Three corpora ===
+As of 2021, there are now 51 known texts and fragments written in Linear Elamite. They can be divided into three sub-corpora: the Western Elamite (Lowlands), the Central Elamite (Highlands), and the Eastern Elamite (Elamo-Bactrian).
+
+
+==== Western Elamite (Lowlands) ====
+18 texts are on stone and clay objects, with a total of 533 signs excavated in the acropolis at Susa (now kept in the Louvre in Paris). These are now classified as belonging to the Western Elamite (Lowlands) group. Other objects are held at the National Museum of Iran.
+
+
+==== Central Elamite (Highlands) ====
+The Central Elamite (Highlands) group consists of twenty-four inscriptions or fragments (with 1,133 signs in total) all on silver vessels. In 2016, 10 additional Linear Elamite inscriptions were discovered (and published in 2018), some containing nearly 200 signs. These are now classified as belonging to this group.
+
+
+==== Eastern Elamite (Elamo-Bactrian) ====
+The Eastern Elamite group consists of eight short inscriptions, whose lengths range from two and eleven signs.
+
+
+=== Older classification ===
+According to an older classification, Elamite texts were identified by letters A-V.
+The most important longer texts, partly bilingual, appear in monumental contexts. They are engraved on large stone sculptures, including an alabaster statue of a goddess  identified as Narundi (I), the Table au Lion (A), and large votive boulders (B, D), as well as on a series of steps (F, G, H, U) from a monumental stone stairway, where they possibly alternated with steps bearing texts with Akkadian titles of Puzur-Shushinak. One of the best sources of knowledge regarding the Elamite language is the bilingual monument called the "Table of the Lion" currently in the Louvre museum. The monument is written in both Akkadian, which is a known language, and in Linear Elamite. A unique find is item Q, a silver vase found 1.5 kilometers northwest of Persepolis, with a single line of perfectly executed text, kept in the Tehran Museum. There are also a few texts on baked-clay cones (J, K, L), a clay disk (M), and clay tablets (N, O, R). Some objects (A, I, C) include both Linear Elamite and Akkadian cuneiform inscriptions. The bilingual and bigraphic inscriptions of the monumental stairway as a whole, and the votive boulder B have inspired the first attempts at decipherment of Linear Elamite (Bork, 1905, 1924; Frank, 1912). Nine texts have also been found on silver beakers (X, Y, Z, F', H', I', J', K' and L').
+
+
+=== Examples ===
+
+
+=== Suspected forgeries ===
+A few of the short Linear Elamite inscriptions on some unprovenanced objects are suspected of being forgeries. In particular, three brick tablets found at Jiroft are suspect.
+
+
+== Decipherment ==
+Efforts towards the decipherment of Linear Elamite are long-standing. A very large Achaemenid Elamite language vocabulary is known from the trilingual Behistun inscription and numerous other trilingual inscriptions of the Achaemenid Empire, in which Elamite was written using Elamite cuneiform (c. 400 BCE), which is fully deciphered. There is also a reasonably large corpus of the already deciphered Middle Elamite texts. By comparison not much is known about Old Elamite, the presumed language of Linear Elamite, and most texts are very short. This makes the decipherment of Linear Elamite more challenging. An important dictionary of the Elamite language, the Elamisches Wörterbuch was published in 1987 by W. Hinz and H. Koch. The Linear Elamite script however, one of the scripts used to write the Elamite language (c. 2000 BCE), had remained largely elusive.
+
+
+=== Early efforts (1905–1912) ===
+
+The first readings were determined by the analysis of the bilingual cuneiform Akkadian-Linear Elamite Table au Lion (Louvre Museum), by Bork (1905) and Frank (1912). Two words with similar endings were identified in the beginning of the inscription in the known Akkadian cuneiform (the words "Inshushinak" 𒀭𒈹𒂞 dinšušinak and "Puzur-Inshushinak" 𒅤𒊭𒀭𒈹𒂞 puzur4-dinšušinak), and correspondingly similar sets of signs with identical endings were found in the beginning of the Elamite part ( and ), suggesting a match. This permitted a fairly certain determination of nine signs of Linear Elamite:
+
+ Pu-zu-r shu-shi-na-k, King Puzur-Inshushinak.
+ I-n-shu-shi-na-k, God Inshushinak.
+Further efforts were made, but without significant success.
+
+
+=== Silver beakers ===
+Additional readings were proposed by CNRS associate researcher François Desset in 2018, based on his analysis of several silver beakers that were held in a private collection, and only came to light in 2004. Desset identified repetitive sign sequences in the beginning of the inscriptions, and guessed they were names of kings, in a manner somewhat similar to Grotefend's decipherment of Old Persian cuneiform in 1802–1815. Using the small set of letters identified in 1905–1912, the number of symbols in each sequence taken as syllables, and in one instance the repetition of a symbol, Desset was able to identify the only two contemporary historical rulers that matched these conditions: Shilhaha and Ebarat II, the two earliest kings of the Sukkalmah Dynasty. Another set of signs matched the well-known god of the period: Napirisha. This permitted the determination of several additional signs:
+
+ Shi-l-ha-ha, Shilhaha, second king of the Sukkalmah Dynasty.
+ E-ba-r-ti, Ebarat II, founder of the Sukkalmah Dynasty.
+ Na-pi-r-ri-sha, Napirisha, Elamite deity.
+
+
+=== Reading texts ===
+In 2020 Desset announced that he and an international team of researchers had completed a proposed decipherment of all known inscriptions in Linear Elamite, through deductive work based on the confrontation of known Elamite vocabulary and the recently determined additional letters, and through the analysis of the standard contents of known Elamite texts in cuneiform. Their near-complete decipherment of the script was published in 2022. (See below.)
+New readings include:
+
+ Ha-ta-m-ti, endonym for Elam.
+
+
+== Writing system ==
+
+
+=== Classification ===
+In 2009, the archaeologist Jacob L. Dahl, who researches the decipherment of Proto-Elamite, argued that Linear Elamite was a limited-use writing system with few practitioners and that its signary lacked standardisation. He expressed doubts that the corpus of texts belonged to a single shared tradition of writing and suggested that many texts may be composed of pseudo-glyphs which do not encode any decipherable meaning, although some appeared to imitate older texts.
+In 2022, Desset et al. (2022) argued that Linear Elamite is a semi-syllabary, which would make it the oldest known purely phonographic writing system. However, they admit that some logograms may have been used, although only rarely and not systematically, arguing that Elamite scribes rejected logographic writing in the 3rd millennium BCE. Other researchers, such as the linguist Michael Mäder, dispute this, arguing that only around 70 percent of Linear Elamite characters are likely to be purely phonographic and that the remainder are logograms, as evidenced by mathematical analyses of Linear Elamite inscriptions.
+
+
+=== Sign inventories ===
+An early inventory of Linear Elamite by Carl Frank, published in 1912, listed 64 distinct signs, noting some allographic variations. Since then, more recent discoveries have allowed more signs to be identified. In 2022, Desset and his colleagues published an updated inventory of 348 Linear Elamite glyphs, corresponding to between 80 and 110 graphemes, including 72 phonographic signs and their allographic variants, 4 undeciphered infrequent signs, and 33 hapax legomena.
+
+
+== Relationship to other scripts ==
+
+Some scholars have suggested that Linear Elamite is derived from the older Proto-Elamite script. Desset and colleagues argue that Linear Elamite is an evolution of the Proto-Elamite script, and that the Proto-Elamite script evolved, in parallel with Sumerian cuneiform, from a common substrate of simple signs and numerals used with accounting tokens and numerical tablets. Desset outlined some of their discoveries in public lectures, before they were formally published in July 2022. His colleagues in this research included Kambiz Tabibzadeh, Matthieu Kervran, Gian Pietro Basello, and Gianni Marchesi.
+However, the continuous evolution of Linear Elamite from Proto-Elamite is disputed by other researchers. Dahl argues that similarities with Linear Elamite are better explained by imitation of the most frequent Proto-Elamite signs from objects recovered at Susa by Elamite scribes familiar with Old Akkadian cuneiform who, faced with Mesopotamian cultural expansion, sought, in a process of schismogenesis, to culturally differentiate themselves by borrowing from an ancient local writing system, namely Proto-Elamite, to provide the basis for an archaicising new script. This, he argues, better explains the unusual content of some texts, such as "O" and "M", inconsistency in the form and execution of signs, and apparent resistance to trends of simplification that would otherwise be expected from scripts used in administrative settings, as was the case with Proto-Elamite.
+
+
+== Encoding ==
+During a 2-year research program at ANRT (Atelier National de Recherche Typographique), Sina Fakour designed a computer font for Linear Elamite based on the analysis of inscriptions on various materials. The typeface, named Hatamti, includes about 400 glyphs that makes the digital transmission and reproduction of Linear Elamite possible. Additionally he investigated the role of the engraving tool and the material on the quality of the signs. This project was undertaken as part of the Missing Scripts program and in collaboration with François Desset.
+
+
+== Online Corpus of Linear Elamite Inscriptions (OCLEI) ==
+This Unicode-based text collection established at the University of Bern offers access to the texts, including photographs, drawings, and source information for each individual inscription. The texts are searchable using regular expressions (RegEx), and the Linear Elamite characters can be automatically replaced with their presumed phonetic values. This allows for the quick copying of search results and text transliterations, and numerous statistical tools are available. The associated TrueType font, "Elamicon" is available free of charge from the OCLEI Website.
+
+
+== See also ==
+
+Linear A and Linear B
+Trojan script
+
+
+== Notes ==
+
+
+== References ==
+
+
+=== Bibliography ===
+
+
+== Further reading ==
+Desset, François (2014). "A New Writing System Discovered in 3rd Millennium BCE Iran: The Konar Sandal 'Geometric' Tablets". Iranica Antiqua. 49: 83–109. doi:10.2143/IA.49.0.3009239.
+Desset, François (2022). "Considerations on the History of Writing on the Iranian Plateau (ca. 3500-1850 BC)". Journal of Archaeology and Archaeometry. 1 (1): 1–11.
+Desset, François; Tabibzadeh, Kambiz; Basello, Gian Pietro; Marchesi, Gianni (2026). Linear Elamite inscriptions and related cuneiform texts: I Linear Elamite texts from Susa (PDF). OrientLab Series Maior. Bologna: Ante Quem. ISBN 978-88-7849-226-4.
+Englund, Robert K. (1996). "The Proto-Elamite Script" (PDF). In Daniels, Peter T.; Bright, William (eds.). The World's Writing Systems. New York: Oxford University Press. pp. 160–164. ISBN 0-19-507993-0.
+Hinz, Walther (1962). "Zur Entzifferung der elamischen Strichinschrift". Iranica Antiqua (in German). 2: 1–21.
+Pandey, Anshuman (2021), Preliminary proposal to encode Linear Elamite in Unicode (PDF) – via unicode.org
+Stevenson, Tom (6 March 2025). "Beyond Mesopotamia: Tom Stevenson on the deciphering of Linear Elamite". London Review of Books. 47 (4): 13–14, 16–17. "The great dec[ryption]s... often relied on... luck. [T]o understand the Maya glyphs, Knorozov worked from the... Dresden codex... Had [it] not survived the bombing of Dresden, he would have had little to go on. Had the Linear Elaminte kunanki remained locked in a safe deposit box in London, perhaps the script would never have been dec[rypt]ed. What if the Rosetta Stone had been lost in the Napoleonic wars?... The existence of undec[rypt]ed scripts... attests to how much can slip away." (p. 17.)
+Vallat, François (1986). "The Most Ancient Scripts of Iran: The Current Situation". World Archaeology. 17 (3): 335–47. doi:10.1080/00438243.1986.9979974.
+
+
+== External links ==
+Linear-Elamite on CDLI Wiki
+Linear Elamite Text Images at CDLI
+Online Corpus of Linear Elamite Inscriptions OCLEI hosted by the Society for the Decipherment of Ancient Writing Systems (GEAS).
+"Breaking the Code, The Decipherment of Linear Elamite Writing" University of Tehran lecture on 26 January 2021 (video, plus text summary)
+Cryptic 4,000-year-old writing system may finally be deciphered  Owen Jarus LiveScience 30 August 22
+Hatamti-Linear Elamite Database hosted by the university of Liège.

@@ -1,0 +1,36 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究065 事前登録（2026-10-20 04:52Z、資料を読み事例表を符号化した後・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="065-2026-10-20-0452zsimpy">研究065 事前登録（2026-10-20 04:52Z、資料を読み事例表を符号化した後・sim.py の作成の前）</h1>
+<p>open_problems 170：文字を知らない人（文字の連続が切れた後の社会）が、座標の冊子に入れた絵の読み方の手引き（primer）で冊子を読めるようになる確率 p_primer。</p>
+<h2 id="_1">課題の選択</h2>
+<p>next_plan の推奨どおり A（170）。切り替えの条件「文字を取り入れた・手引きで学んだ例が本回開いた公開資料で5件以上」は満たした：文字のない共同体に文字が作られた・持ち込まれた例 11件（main）＋弾圧 1件＋すでに文字を読む人々 1件（sources/cases.json の adoption）。</p>
+<h2 id="sourcescasesjson-83-verify_excerptspy">資料（sources/cases.json、抜き出し 83件は verify_excerpts.py で一致）</h2>
+<ul>
+<li>adoption（main 11）：Cherokee 1821（1825 に多数、1830 に 90%）、Cree 1841（数時間で覚えられ、数年でほぼ全員）、Great Lakes（Fox・Sac で広く）、Inuktitut、Vai、Pollard、N'Ko、Pahawh Hmong（0.5）、Yugtun（0）、Hangul（数世紀かかった 0.5）、Greek（Phoenician から）。合計 y=9/11。弾圧：Bamum（1931 に追放で止む）。literate：Deseret（primer が数千部売れ残った）。
+  <strong>11件すべてで、その文字を読める人（作った人・宣教師・先に覚えた人）が共同体にいて教えた。教える人なしに文書だけから文字を覚えた非学者の集団の例は、本回の資料には 0件。</strong></li>
+<li>decipher（現代の解読）：鍵あり Egyptian（1799→1822、23年）、Akkadian（1847→1857、10年）、Maya（Landa の「alphabet」1862→1952、90年）、Linear Elamite（1905→2022、117年、異論あり）、年の分からない Luwian・Meroitic・Etruscan。鍵なし Old Persian（1764→1802、38年）、Linear B（1900→1952、52年）、未読で打ち切り Linear A（1900→、126年）、Indus（1875→、151年）、Rongorongo（1864→、162年）。
+  鍵ありで読めた後に意味が分かったか：Egyptian 1、Akkadian 1、Maya 1、Luwian 1、Linear Elamite 0.5、Meroitic 0、Etruscan 0（4.5/7）。</li>
+<li>numerals（文字が読めない時期に数字は読めたか）：Linear A 1、Proto-Elamite 1、Maya 1、Indus 0.5、Rongorongo 0（3.5/5）。同じ5件で鍵なしに文の文字が読めたのは 0。</li>
+<li>stimulus（文字を読めない人が書くことを見て文字を作った）：Sequoyah（1809→1821、12年）、Njoya（1896→1910、14年）、Uyaquq、Shong Lue Yang、Bukele。</li>
+<li>大きさの目安：Hunminjeongeum の本体は 4 葉。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<p>064 の sim.py を行頭の「# ---------- 版 ----------」の前まで exec し、064 の主の重い崩壊の比（0.80260）を差0で再現してから、文字が切れた標本（1−p_cont）の読みに primer の経路を足す。新しい乱数は seed 20261065。
+R(T) = Srch × [p_cont(T) + (1−p_cont(T))·(1 − (1−p_dec(T))·(1−p_pr(T)))]（重い崩壊の標本だけ。p_cont・p_dec・Srch は 064 の主のまま）
+p_pr(T) = k_rec × k_cont × (1 − exp(−T/τ_key))
+- τ_key：鍵ありの解読 4件（23、10、90、117年）の指数の時定数、率の事後 Gamma(4, 240)（063 と同じ平坦な事前）。比較に鍵なし 5件（2件読めた、3件打ち切り）の Gamma(2, 529)。
+- k_cont：冊子の中身（座標の数と道順の文）のどちらかが分かる確率 1−(1−k_num)(1−k_txt)。k_num~Beta(0.5+3.5, 0.5+1.5)（数字は鍵なしでも 3.5/5 読めた。数を数える絵の鍵があればこれより上がるはずなので下寄りの置き方【推測】）、k_txt~Beta(0.5+4.5, 0.5+2.5)（鍵ありで意味まで分かった 4.5/7）。
+- k_rec~U(0.5, 1)：冊子を見つけた社会が primer を手引きと認めて取り組む確率【推測】（Landa の表は何代も使われたが誤りに導いた、Deseret の primer は動機がなく売れ残った）。
+- T2 の社会は鍵ありの解読をした19世紀の社会と同じ程度の段にあると置く【推測】。
+- 版：nokey（p_pr=0、064 の主と一致するはず）、num_only（k_cont=k_num）、txt_only（k_cont=k_txt）、rec1（k_rec=1）、rec03（k_rec=0.3）、slow10（τ_key×10、学問の伝統のない社会）、unkeyed_tau（τ を鍵なしの事後に、鍵が効かない場合）、needs_spread（×u、u は adoption main の Jeffreys の Beta、読める人が広まらないと T に読めない悲観の版）、srch_indep（使える年数を T−探索の始まり、063 の srch_lag）、pr_one（p_pr=1、上限）。p_pr を定数 0〜1 で走査。
+- 費用：primer の追加費用 C_pr = 設計と字を知らない人での試し logU($2千, $2万)【推測】＋100部 × 1部の費用（061 の per_P）× ページの割合 U(0.05, 0.3)【推測、Hunminjeongeum の 4 葉を目安】。primer の追加分の費用あたり ΔV/TAB × C_T / C_pr、冊子＋primer の合計の費用あたりも出す。</p>
+<h2 id="a_ordu3tc-v0-a_xpt_su2">仮説（A_Ord/U3、TC の V0 比、重い崩壊。A_XPT_S/U2 も並べる）</h2>
+<ul>
+<li>H77a：鍵ありの解読の時定数の事後の中央値は鍵なしの 1/3 以下。</li>
+<li>H77b：adoption main の取り入れの Jeffreys の平均 ≥ 0.6。</li>
+<li>H77c：数字が鍵なしで読めた割合の平均 − 文の文字が鍵なしで読めた割合の平均 ≥ 0.4（同じ5件、Jeffreys）。</li>
+<li>H77d：主の p_pr（U3 の重い崩壊の T での平均）が 0.4〜0.8。</li>
+<li>H77e：主の重い崩壊 ≥ 0.83（064 の 0.803 から +0.027 以上）。</li>
+<li>H77f：primer の追加分の費用あたり（全体、中央値）が冊子 100部の費用あたり（064 の主 44）より大きい。</li>
+<li>H77g：num_only − txt_only ≥ 0.005（数を数える鍵の方が文の鍵より効く）。</li>
+<li>H77h：悲観の版 rec03 と slow10 のそれぞれでも重い崩壊 &gt; 0.803（064 の主）。</li>
+<li>H77i：needs_spread は主より 0.01 以上は下げない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

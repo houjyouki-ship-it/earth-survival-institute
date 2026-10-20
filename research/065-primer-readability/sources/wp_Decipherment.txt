@@ -1,0 +1,103 @@
+URL: https://en.wikipedia.org/wiki/Decipherment
+In philology and linguistics, decipherment is the discovery of the meaning of the symbols found in extinct languages and/or alphabets. Decipherment is possible with respect to languages and scripts. One can also study or try to decipher how spoken languages that no longer exist were once pronounced, or how living languages used to be pronounced in prior eras.
+ Maurice Pope wrote that "Decipherments are by far the most glamorous achievements of scholarship… It is also a key to further knowledge, opening a treasure-vault of history through which for countless centuries no human mind has wandered." Pope described the three most famous as the decipherment of ancient Egyptian scripts, the decipherment of cuneiform and the decipherment of Linear B. A notable decipherment in recent years is that of the Linear Elamite script, in 2022. Today, at least a dozen languages remain undeciphered. 
+Historically speaking, decipherments do not come suddenly through single individuals who "crack" ancient scripts. Instead, they emerge from the incremental progress brought about by a broader community of researchers.
+Decipherment should not be confused with cryptanalysis, which aims to decipher special written codes or ciphers used in intentionally concealed secret communication (especially during war). It should also not be confused with determining the meaning of ambiguous text in a known language (interpretation).
+
+
+== History ==
+Interest in ancient scripts and dead languages began to arise by the Renaissance, if not earlier. Extensive information began to be collected about these scripts in the 16th and 17th centuries, and a typology of writing was established in the 17th century. The first serious decipherments, however, did not take place until the 18th century. In 1754, Swinton and Barthélemy independently deciphered the Aramaic script as represented in Palmyrene inscriptions, the first "dead" language to be deciphered.
+Between 1787-91, Silvestre de Sacy deciphered the Pahlavi scripts, which was the script used in Ancient Persia to write down the Middle Iranian language used in the Sasanian empire. Both decipherments relied on bilingual texts where Greek was included as the second script. It was also in the 18th century when the methodological framework for deciphering scripts and languages began to be established. For example, in 1714, Leibniz advocated that parallel content in bilingual inscriptions could be specified by correlating where personal names occur in both inscriptions. 
+By the 19th century, the prerequisites for decipherment began to become widely available. These included extensive knowledge about the scripts themselves, adequate editions of known texts from that script, philological skills, and the ability to reconstruct linguistic forms from the limited available evidence. The 19th century saw two major successes in decipherment: that of Egyptian hieroglyphic and cuneiform.
+
+
+=== Timeline of decipherments ===
+
+
+=== Undeciphered scripts ===
+Rongorongo (Decipherment of rongorongo)
+Indus script
+Cretan hieroglyphs
+Byblos syllabary
+Linear A
+Cypro-Minoan syllabary
+Espanca
+Numidian language
+Unnamed languages
+Phaistos Disc
+Rohonc Codex
+Voynich Manuscript
+
+
+== Categories ==
+Gelb and Whiting classify the four situations of an undeciphered language and how difficult decipherment will be in each of them:
+
+Type O: known writing and known language. Although decipherment in this case is trivial, useful information can be gleaned when a known language is written in an alphabet other than the one it is commonly written in. Studying the writing of the Phoenician or Sumerian languages in the Greek alphabet allows information about pronunciation and vocalization to be gleaned that cannot be obtained when studying the expression of these languages in their normal writing system.
+Type I: unknown writing and known language. Deciphered languages in this category include Phoenician, Ugaritic, Cypriot, and Linear B. In this situation, alphabetic systems are the easiest to decipher, followed by syllabic languages, and finally the most difficult being logo-syllabic.
+Type II: known writing and unknown language. An example is Linear A. Strictly speaking, this situation is not one of decipherment but of linguistic analysis. Decipherment in this category is considered extremely difficult to achieve on the basis of internal information only.
+Type III: unknown writing and unknown language. Examples include the Archanes script and the Archanes formula, Phaistos disk, Cretan hieroglyphs, and Cypro-Minoan syllabary. When this situation occurs in an isolated culture and without the availability of outside information, decipherment is typically considered impossible.
+
+
+== Methods ==
+There is no single recipe or linear method for decipherment, however: instead, philologists and linguists must rely on a set of heuristic devices that have been established. Broadly, it is important to be familiar with the relevant texts where the script or language occurs in, access to accurate drawings or photographs of these texts, information about their relative chronology, and background information on where the texts occur in (their geography, perhaps being found in the context of a funerary monument, etc). 
+These methods can be divided into approaches utilizing external or internal information.
+
+
+=== External information ===
+Many successful decipherments have proceeded from the discovery of external information, a common example being through the use of multilingual inscriptions, such as the Rosetta Stone (with the same text in three scripts: Demotic, hieroglyphic, and Greek) that enabled the decipherment of Egyptian hieroglyphic. In principle, multilingual text may be insufficient for a decipherment as translation is not a linear and reversible process, but instead represents an encoding of the message in a different symbolic system. Translating a text from one language into a second, and then from the second language back into the first, rarely reproduces exactly the original writing. Likewise, unless a significant number of words are contained in the multilingual text, limited information can be gleaned from it.
+
+
+=== Internal information ===
+Internal approaches are multi-step: one must first ensure that the writing they are looking at represents real writing, as opposed to a grouping of pictorial representations or a modern-day forgery without further meaning. This is commonly approached with methods from the field of grammatology. Prior to decipherment of meaning, one can then determine the number of distinct graphemes (which, in turn, allows one to tell if the writing system is alphabetic, syllabic, or logo-syllabic; this is because such writing systems typically do not overlap in the number of graphemes they use), the sequence of writing (whether it be from left to right, right to left, top to bottom, etc.), and the determination of whether individual words are properly segmented when the alphabet is written (such as with the use of a space or a different special mark) or not. If a repetitive schematic arrangement can be identified, this can help in decipherment. For example, if the last line of a text has a small number, it can be reasonably guessed to be referring to the date, where one of the words means "year" and, sometimes, a royal name also appears. Another case is when the text contains many small numbers, followed by a word, followed by a larger number; here, the word likely means "total" or "sum". After one has exhausted the information that can be inferentially derived from probable content, they must transition to the systematic application of statistical tools. These include methods concerning the frequency of appearance of each symbol, the order in which these symbols typically appear, whether some symbols appear at the beginning or end of words, etc. There are situations where orthographic features of a language make it difficult if not impossible to decipher specific features (especially without certain outside information), such as when an alphabet does not express double consonants. Additional, and more complex methods, also exist. Eventually, the application of such statistical methods becomes exceedingly laborious, in which computers might be used to apply them automatically.
+
+
+=== Computational approaches ===
+Computational approaches towards the decipherment of unknown languages began to appear in the late 1990s. Typically, there are two types of computational approaches used in language decipherment: approaches meant to produce translations in known languages, and approaches used to detect new information that might enable future efforts at translation. The second approach is more common, and includes things such as the detection of cognates or related words, discovery of the closest known language, word alignments, and more.
+
+
+=== Artificial intelligence ===
+In recent years, there has been a growing emphasis on methods utilizing artificial intelligence for the decipherment of lost languages, especially through natural language processing (NLP) methods. Proof-of-concept methods have independently re-deciphered Ugaritic and Linear B using data from similar languages, in this case Hebrew and Ancient Greek.
+
+
+=== Large language models ===
+In recent years, the fields of decipherment and cryptanalysis have seen the introduction of large language models (LLMs) as tools. Experts in these areas have sought to test the capabilities of LLMs for cryptographic analysis by testing them on ciphers, including solved ones to assess their ability to reproduce human work and unsolved ones to see if they can help with making new findings in this area. Some experts have constructed specialized examinations, or language model benchmarks, to assess the capabilities of LLMs for cryptographic challenges, with early ones including AICrypto, CipherBank, and CryptanalysisBench. One study found that GPT 5.2 (released December 2025) was already able to solve historical ciphers (cryptographic postcards). To accelerate their use in solving cryptographic problems, researchers have begun integrating LLMs into cryptanalysis workflows and giving them specialized cryptanalytic tools.
+
+
+== Deciphering pronunciation ==
+Related to attempts to decipher the meaning of languages and alphabets, include attempts to decipher how extinct writing systems, or older versions of contemporary writing systems (such as English in the 1600s) were pronounced. Several methods and criteria have been developed in this regard. Important criteria include (1) Rhymes and the testimony of poetry (2) Evidence from occasional spellings and misspellings (3) Interpretations of material in one language from authors in foreign languages (4) Information obtained from related languages (5) Grammatical changes in spelling over time.
+For example, analysis of poetry focuses on the use of wordplay or literary techniques between words that have a similar sound. Shakespeare's play Romeo and Juliet contains wordplay that relies on a similar sound between the words "soul" and "soles", allowing confidence that the similar pronunciation between the terms today also existed in Shakespeare's time. Another common source of information on pronunciation is when earlier texts use rhyme, such as when consecutive lines in poetry end in the similar or the same sound. This method does have some limitations however, as texts may use rhymes that rely on visual similarities between words (such as 'love' and 'remove') as opposed to auditory similarities, and that rhymes can be imperfect. Another source of information about pronunciation comes from explicit description of pronunciations from earlier texts, as in the case of the Grammatica Anglicana, such as in the following comment about the letter <o>: "In the long time it naturally soundeth sharp, and high; as in chósen, hósen, hóly, fólly [. . .] In the short time more flat, and a kin to u; as còsen, dòsen, mòther, bròther, lòve, pròve". Another example comes from detailed comments on pronunciations of Sanskrit from the surviving works of Sanskrit grammarians.
+
+
+== Challenges ==
+Many challenges exist in the decipherment of languages, including when:
+
+When it is not known which language is closest to it.
+When the words in the script are not clearly segmented, like in some Iberian languages.
+When the writing system is not known. In specific, if there is little certainty towards the number of graphemes that exist in a certain writing system, it cannot be determined if that system is an alphabet, a syllabry, a logosyllabry, or something else.
+When the reading direction is not known. For example, it may not be clear if a writing system is meant to be read from left to right, or from right to left.
+When it is not known if a script uses punctuation or spaces between words.
+When the language of a script subject to decipherment efforts is not known.
+When there is a small dataset available to learn about the properties of a script. This could lead to issues such as an incomplete vocabulary being known for the script.
+When the typical order between subjects, objects, and verbs is not known.
+When it is not known whether or how certain words can change their form.
+When it is not known when multiple symbols are used to represent the same sound, syllable, word, concept, or idea (allographs).
+When it is not clear how the penmanship or the style of writing of a particular scribe relates to the style of writing of another scribe working in the same text (the same letters or words might be written in a way that looks different), in which case it is difficult to correlate information across multiple examples of the use of the writing system.
+When it is not known if certain words change their meaning depending on the context they appear in (homonyms).
+When the context of discovery of a writing is not known. This is because information about the location out of which a writing system came from can provide valuable information about its relationship to known languages.
+When adequate digital datasets for documented writing systems is not available, limiting the ability to use computational methods for decipherment.
+When sufficient hardware resources, such as high performance computing, is not available (which might be necessary for more energy-intensive computational methods).
+
+
+== Relationship to cryptanalysis ==
+Decipherment overlaps with another technical field known as cryptanalysis, a field that aims to decipher writings used in secret communication, known as ciphertext. A famous case of this was in the cryptanalysis of the Enigma during the World War II. Many other ciphers from past wars have only recently been cracked. Unlike in language decipherment, however, actors using ciphertext intentionally lay obstacles to prevent outsiders from uncovering the meaning of the communication system.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Daniels, Peter T. (2020). "The Decipherment of Ancient Near Eastern Languages". In Hasselbach-Andee, Rebecca (ed.). A Companion to Ancient Near Eastern Languages. Wiley. pp. 1–25.
+Ferrera, Silvia; Tamburini, Fabio (2022). "Advanced techniques for the decipherment of ancient scripts". Lingue e Linguaggio (2): 239–259. doi:10.1418/105964.

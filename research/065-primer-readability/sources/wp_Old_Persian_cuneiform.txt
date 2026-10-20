@@ -1,0 +1,123 @@
+URL: https://en.wikipedia.org/wiki/Old_Persian_cuneiform
+Old Persian cuneiform is a semi-alphabetic cuneiform script that was the primary script for Old Persian. Texts written in this cuneiform have been found in Iran (Persepolis, Susa, Hamadan, Kharg Island), Armenia, Romania (Gherla), Turkey (Van Fortress), and along the Suez Canal. They are mostly inscriptions from the time period of Darius I, such as the DNa inscription, as well as his son, Xerxes I. Later kings down to Artaxerxes III used more recent forms of the language classified as "pre-Middle Persian".
+
+
+== History ==
+
+Old Persian cuneiform was inspired by the Sumero-Akkadian cuneiform. At the beginning of the reign of Darius I in 521 BC, the Persians did not yet have their own writing system. The administrative language of the Persian Empire was Elamite; in addition, reliefs always included a translation in Babylonian or Akkadian in the Neo-Babylonian dialect. Darius I ordered the creation of a distinct Persian script Persian cuneiform, which was much simpler in structure (34 characters) than the cuneiform scripts of the Elamites (approximately 200 characters) and Babylonians (around 600 characters) and featured word separators for better readability. Persian cuneiform was later replaced (around 400 BC) by the introduction of the Aramaic script. The most recent known cuneiform text, an astronomical table, dates from AD 75.
+While a few Old Persian texts may seem to have been inscribed during the reigns of Cyrus the Great (CMa, CMb, and CMc, all found at Pasargadae), the first Achaemenid emperor, or of Arsames and Ariaramnes (AsH and AmH, both found at Hamadan), grandfather and great-grandfather of Darius I, all five, specially the latter two, are generally agreed to have been later inscriptions.
+
+
+== Decipherment ==
+
+Old Persian cuneiform was only deciphered by a series of guesses, in the absence of bilingual documents connecting it to a known language. Various characteristics of sign series, such as length or recurrence of signs, allowed researchers to hypothesize about their meaning, and to discriminate between the various possible historically known kings, and then to create a correspondence between each cuneiform and a specific sound.
+Old Persian cuneiform was the first cuneiform writing system to be worked out between approximately 1800 and 1845. Its decipherment brought to light that Old Persian was an early form of modern Persian and closely related to Sanskrit, allowing scholars to make out royal inscriptions. Until recently, researchers assumed that Old Persian was largely confined to royal monuments and elite objects, while administrative and commercial documentation was carried out in established languages such as Aramaic, Babylonian, and Elamite.
+
+
+=== Archaeological records of cuneiform inscriptions ===
+
+The first mention of ancient inscriptions in the newly discovered ruins of Persepolis was made by the Spain and Portugal ambassador to Persia, Antonio de Gouvea in a 1611 publication. Various travelers then made attempts at illustrating these new inscriptions, which in 1700 Thomas Hyde first called "cuneiform", but were deemed to be no more than decorative friezes.
+Proper attempts at deciphering Old Persian cuneiform started with faithful copies of cuneiform inscriptions, which first became available in 1711 when duplicates of Darius's inscriptions were published by Jean Chardin. Around 1764, Carsten Niebuhr visited the ruins of Persepolis, and was able to make excellent copies of the inscriptions, identifying "three different alphabets". His faithful copies of the cuneiform inscriptions at Persepolis proved to be a key turning-point in the decipherment of cuneiform, and the birth of Assyriology.
+The set of characters that would later be known as Old Persian cuneiform was soon perceived as being the simplest of the various types of cuneiform scripts that have been encountered, and because of this was understood as a prime candidate for decipherment. Niebuhr determined that there were only 42 characters in this category of inscriptions, which he named "Class I", and affirmed that this must therefore be an alphabetic script.
+
+
+=== Münter guesses the word for "king" (1802) ===
+
+In 1802, Friedrich Münter confirmed that "Class I" characters (today called "Old Persian cuneiform") were probably alphabetical, also because of the small number of different signs forming inscriptions. He proved that they belonged to the Achaemenid Empire, which led to the suggestion that the inscriptions were in the Old Persian language and probably mentioned Achaemenid kings. He identified a highly recurring group of characters in these inscriptions: 𐎧𐏁𐎠𐎹𐎰𐎡𐎹. Because of its high recurrence and length, he guessed that this must be the word for "king" (xa-ša-a-ya-θa-i-ya, now known to be pronounced in Old Persian xšāyaθiya). He guessed correctly, but that would only be confirmed several decades later. Münter also understood that each word was separated from the next by a backslash sign (𐏐).
+
+
+=== Grotefend guesses the names of individual rulers (1802–1815) ===
+
+Grotefend extended this work by realizing, based on the known inscriptions of much later rulers (the Pahlavi inscriptions of the Sasanian emperors), that a king's name is often followed by "great king, king of kings" and the name of the king's father. This understanding of the structure of monumental inscriptions in Old Persian was based on the work of Anquetil-Duperron, who had studied Old Persian through the Zoroastrian Avestas in India, and Antoine Isaac Silvestre de Sacy, who had decrypted the monumental Pahlavi inscriptions of the Sasanian emperors.
+Grotefend focused on two inscriptions from Persepolis, called the "Niebuhr inscriptions", which seemed to use the words "King" and "King of Kings" guessed by Münter, and which seemed to have broadly similar content except for what he thought must be the names of kings:
+
+Looking at similarities in character sequences, he made the hypothesis that the father of the ruler in one inscription would possibly appear as the first name in the other inscription: the first word in Niebuhr 1 (𐎭𐎠𐎼𐎹𐎺𐎢𐏁) indeed corresponded to the 6th word in Niebuhr 2.
+Looking at the length of the character sequences, and comparing with the names and genealogy of the Achaemenid kings as known from the Greeks, also taking into account the fact that the father of one of the rulers in the inscriptions didn't have the attribute "king", he made the correct guess that this could be no other than Darius the Great, his father Hystapes, who was not a king, and his son the famous Xerxes. The inscriptions were made around this time; there were only two instances where a ruler came to power without being a previous king's son. They were Darius the Great and Cyrus the Great, both of whom became emperor by revolt. The deciding factors between these two choices were the names of their fathers and sons. Darius's father was Hystaspes and his son was Xerxes, while Cyrus's father was Cambyses I and his son was Cambyses II. Within the text, the father and son of the king had different groups of symbols for names so Grotefend assumed that the king must have been Darius.
+These connections allowed Grotefend to figure out the cuneiform characters that are part of Darius, Darius's father Hystaspes, and Darius's son Xerxes. He equated the letters 𐎭𐎠𐎼𐎹𐎺𐎢𐏁 with the name d-a-r-h-e-u-sh for Darius, as known from the Greeks. This identification was correct, although the actual Persian spelling was da-a-ra-ya-va-u-sha, but this was unknown at the time. Grotefend similarly equated the sequence 𐎧𐏁𐎹𐎠𐎼𐏁𐎠 with kh-sh-h-e-r-sh-e for Xerxes, which again was right, but the actual Old Persian transcription was kha-sha-ya-a-ra-sha-a. Finally, he matched the sequence of the father who was not a king 𐎻𐎡𐏁𐎫𐎠𐎿𐎱 with Hystaspes, but again with the supposed Persian reading of g-o-sh-t-a-s-p, rather than the actual Old Persian vi-i-sha-ta-a-sa-pa.
+By this method, Grotefend had correctly identified each king in the inscriptions, but his identification of the phonetic value of individual letters was still quite defective, for want of a better understanding of the Old Persian language itself. Grotefend only identified correctly the phonetic value of eight letters among the thirty signs he had collated.
+
+
+==== Guessing whole sentences ====
+Grotefend made further guesses about the remaining words in the inscriptions, and endeavoured to rebuild probable sentences. Again relying on deductions only, and without knowing the actual script or language, Grotefend guessed a complete translation of the Xerxes inscription (Niebuhr inscription 2): "Xerxes the strong King, King of Kings, son of Darius the King, ruler of the world" ("Xerxes Rex fortis, Rex regum, Darii Regis Filius, orbis rector"). In effect, he achieved a fairly close translation, as the modern translation is: "Xerxes the Great King, King of Kings, son of Darius the King, an Achaemenian".
+Grotefend's contribution to Old Persian is unique in that he did not have comparisons between Old Persian and known languages, as opposed to the decipherment of the Egyptian hieroglyphics and the Rosetta Stone. All his decipherments were done by comparing the texts with known history. However groundbreaking, this inductive method failed to convince academics, and the official recognition of his work was denied for nearly a generation. Grotefend published his deductions in 1802, but they were dismissed by the academic community.
+
+
+=== Vindication ===
+
+It was only in 1823 that Grotefend's discovery was confirmed, when the French archaeologist Champollion, who had just deciphered Egyptian hieroglyphs, was able to read the Egyptian dedication of a quadrilingual hieroglyph-cuneiform inscription on an alabaster vase in the Cabinet des Médailles, the "Caylus vase". The Egyptian inscription on the vase was in the name of King Xerxes I, and Champollion, together with the orientalist Antoine-Jean Saint-Martin, was able to confirm that the corresponding words in the cuneiform script were indeed the words which Grotefend had identified as meaning "king" and "Xerxes" through guesswork. The findings were published by Saint-Martin in Extrait d'un mémoire relatif aux antiques inscriptions de Persépolis lu à l'Académie des Inscriptions et Belles Lettres, thereby vindicating the pioneering work of Grotefend.
+More advances were made on Grotefend's work and by 1847, most of the symbols were correctly identified. A basis had now been laid for the interpretation of the Persian inscriptions. However, lacking knowledge of old Persian, Grotefend misconstrued several important characters. Significant work remained to be done to complete the decipherment. Building on Grotefend's insights, this task was performed by Eugène Burnouf, Christian Lassen and Sir Henry Rawlinson.
+The decipherment of the Old Persian cuneiform script was at the beginning of the decipherment of all the other cuneiform scripts, as various multi-lingual inscriptions between the various cuneiform scripts were obtained from archaeological discoveries. The decipherment of Old Persian was the starting point for the decipherment of Elamite, Babylonian and Akkadian (predecessor of Babylonian), especially through the multi-lingual Behistun Inscription, and ultimately Sumerian through Akkadian-Sumerian bilingual tablets.
+
+
+== Script ==
+Most scholars consider the writing system to be an independent invention because it has no obvious connections with other writing systems at the time, such as Elamite, Akkadian, Hurrian, and Hittite cuneiforms. While Old Persian's basic strokes are similar to those found in cuneiform scripts, Old Persian texts were engraved on hard materials, so the engravers had to make cuts that imitated the forms easily made on clay tablets. The signs are composed of horizontal, vertical, and angled wedges. There are four basic components and new signs are created by adding wedges to these basic components. These four basic components are two parallel wedges without angle, three parallel wedges without angle, one wedge without angle and an angled wedge, and two angled wedges. The script is written from left to right.
+
+The script encodes three vowels, a, i, u, and twenty-two consonants, k, x, g, c, ç, j, t, θ, d, p, f, b, n, m, y, v, r, l, s, z, š, and h. Old Persian contains two sets of consonants: those whose shape depends on the following vowel and those whose shape is independent of the following vowel. The consonant symbols that depend on the following vowel act like the consonants in Devanagari. Vowel diacritics are added to these consonant symbols to change the inherent vowel or add length to the inherent vowel. However, the vowel symbols are usually still included so [di] would be written as ⟨di⟩ ⟨i⟩ even though ⟨di⟩ already implies the vowel. For the consonants whose shape does not depend on the following vowels, the vowel signs must be used after the consonant symbol.
+Compared to the Avestan alphabet Old Persian notably lacks voiced fricatives, but includes the sign ç (of uncertain pronunciation) and a sign for the non-native l. Notably, there appears to be no distinction between a consonant followed by an a and a consonant followed by nothing. This is similar to the Brahmic scripts to the extent that they also represent consonants as containing an inherent a, though a consonant followed by nothing is typically marked.
+
+logograms:
+Ahuramazdā: 𐏈, 𐏉, 𐏊 (genitive)
+xšāyaθiya "king": 𐏋
+dahyāuš- "country": 𐏌, 𐏍
+baga- "god": 𐏎
+būmiš- "earth": 𐏏
+word divider: 𐏐
+
+
+== Numerals ==
+Old Persian Cuneiform had a system for numerals as well as words, it uses mostly base ten.
+1 𐏑, 2 𐏒, 5 𐏒𐏒𐏑, 7 𐏒𐏒𐏒𐏑, 8 𐏒𐏒𐏒𐏒, 9 𐏒𐏒𐏒𐏒𐏑,10 𐏓, 12 𐏓𐏒, 13 𐏓𐏒𐏑, 14 𐏓𐏒𐏒, 15 𐏓𐏒𐏒𐏑, 18 𐏓𐏒𐏒𐏒𐏒, 19 𐏓𐏒𐏒𐏒𐏒𐏑, 20 𐏔, 22 𐏔𐏒, 23 𐏔𐏒𐏑, 25 𐏔𐏒𐏒𐏑, 26 𐏔𐏒𐏒𐏒, 27 𐏔𐏒𐏒𐏒𐏑, 40 𐏔𐏔, 60 𐏔𐏔𐏔,120 𐏕𐏔
+
+
+== Unicode ==
+
+Old Persian cuneiform was added to the Unicode Standard in March 2005 with the release of version 4.1.
+The Unicode block for Old Persian cuneiform is U+103A0–U+103DF and is in the Supplementary Multilingual Plane:
+
+
+== Notes and references ==
+
+Windfuhr, Gernot L (1970). "Notes on the old Persian signs". Indo-Iranian Journal. 12 (2): 121–125. doi:10.1007/BF00163003. hdl:2027.42/42943. S2CID 161528694.
+Daniels, Peter T; William Bright (1996). The World's Writing Systems. New York: Oxford University Press. pp. 134–137.
+Kent, Roland G. (1950). Old Persian; grammar, texts, lexicon. New Haven: American Oriental Society.
+
+
+== Sources ==
+
+Kuhrt, A. (2013). The Persian Empire: A Corpus of Sources from the Achaemenid Period. Routledge. ISBN 978-1136016943.
+Frye, Richard Nelson (1984). Handbuch der Altertumswissenschaft: Alter Orient-Griechische Geschichte-Römische Geschichte. Band III,7: The History of Ancient Iran. C.H.Beck. ISBN 978-3406093975.
+Schmitt, Rüdiger (2000). The Old Persian Inscriptions of Naqsh-i Rustam and Persepolis. Corpus Inscriptionum Iranicarum by School of Oriental and African Studies. ISBN 978-0728603141.
+
+
+== Further reading ==
+Herbert Cushing Tolman (1892). Grammar of the Old Persian language: with the inscriptions of the Achaemenian kings and vocabulary. Ginn. p. 55. Retrieved 2011-07-06.
+Herbert Cushing Tolman (1893). A guide to the Old Persian inscriptions. American book company. pp. 186. Retrieved 2011-07-06.
+Edwin Lee Johnson (1910). Herbert Cushing Tolman (ed.). Cuneiform supplement (autographed) to the author's Ancient Persian lexicon and texts: with brief historical synopsis of the language. Vol. 7 of Vanderbilt oriental series. American Book Co. p. 122. Retrieved 2011-07-06.
+translated by Herbert Cushing Tolman (1908). Ancient Persian lexicon and the texts of the Achaemenidan inscriptions transliterated and translated with special reference to their recent re-examination, by Herbert Cushing Tolman ... Vol. 6 of Vanderbilt oriental series. American Book Company. p. 134. Retrieved 2011-07-06.
+Herbert Cushing Tolman (1908). Ancient Persian lexicon and the texts of the Achaemenidan inscriptions transliterated and translated with special reference to their recent re-examination, by Herbert Cushing Tolman ... Vol. 6 of Vanderbilt oriental series. American Book Company. p. 134. Retrieved 2011-07-06.
+Darius I (King of Persia) (1908). Translated by Herbert Cushing Tolman (ed.). The Behistan inscription of King Darius: translation and critical notes to the Persian text with special reference to recent re-examinations of the rock. Vol. 1, Issue 1 of Vanderbilt University studies ATLA monograph preservation program Volume 3384 of Harvard College Library preservation microfilm program (reprint ed.). Vanderbilt University. p. 39. ISBN 9780790531892. Retrieved 2011-07-06. {{cite book}}: ISBN / Date incompatibility (help)
+Darius I (King of Persia) (1908). Herbert Cushing Tolman (ed.). The Behistan inscription of King Darius: translation and critical notes to the Persian text with special reference to recent re-examinations of the rock. Vol. 1, Issue 1 of Vanderbilt University studies. Vanderbilt university. p. 39. Retrieved 2011-07-06.
+
+
+== External links ==
+
+
+=== Fonts ===
+Download "Kakoulookiam", Old Persian Cuneiform Font (Unicode)
+Download "Khosrau", Old Persian Cuneiform Font (Unicode)
+Download "Behistun", Old Persian Cuneiform Font (Unicode)
+Download Old Persian & Avestan Fonts
+Old Persian Cuneiform Unicode Test Page (install one of the above fonts and see this page)
+Unicode Problems (learn how to configure your browser)
+
+
+=== Texts ===
+
+Achaemenid Royal Inscriptions (Livius.org)
+Stolper, Matthew W. & Jan Tavernier (1995). "From the Persepolis Fortification Archive Project, 1: An Old Persian Administrative Tablet from the Persepolis Fortification". Arta. Vol. 2007:1. Paris: Achemenet.com.
+
+
+=== Descriptions ===
+Omniglot article on Old Persian cuneiform
+Ancient scripts article on Old Persian cuneiform
+Old Persian cuneiform in contrast with Elamite and Late Babylonian cuneiform

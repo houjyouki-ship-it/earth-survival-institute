@@ -1,0 +1,71 @@
+URL: https://en.wikipedia.org/wiki/Vai_syllabary
+The Vai syllabary is a syllabic writing system devised for the Vai language by Momolu Duwalu Bukele of Jondu, in what is now Grand Cape Mount County, Liberia. Bukele is regarded within the Vai community, as well as by most scholars, as the syllabary's inventor and chief promoter when it was first documented in the 1830s. It is one of the two most successful indigenous scripts in West Africa in terms of the number of current users and the availability of literature written in the script, the other being the N'Ko script.
+
+
+== Structure of the script ==
+Vai is a syllabic script written from left to right that represents CV syllables; a final nasal is written with the same glyph as the Vai syllabic nasal. Originally there were separate glyphs for syllables ending in a nasal, such as don, with a long vowel, such as soo, with a diphthong, such as bai, as well as bili and sɛli. However, these have been dropped from the modern script.
+The syllabary did not distinguish all the syllables of the Vai language until the 1960s when the University of Liberia added distinctions by modifying certain glyphs with dots or extra strokes to cover all CV syllables in use. There are relatively few glyphs for nasal vowels because only a few occur with each consonant.
+The symbols used to write words evolved to become visually simpler over time, and an analysis has shown that they can change over just a few generations.
+
+
+== Possible link with Cherokee ==
+In the 1960s scholars began suggesting that the Cherokee syllabary of North America may have provided a model for the design of the Vai syllabary in Liberia. The Vai syllabary emerged about 1832/33. This was at a time when American missionaries were working to use the Cherokee syllabary as a model for writing Liberian languages. Another link may have been Cherokee who emigrated to Liberia after the invention of the Cherokee syllabary (which in its early years spread rapidly among the Cherokee) but before the invention of the Vai syllabary. One such man, Cherokee Austin Curtis, married into a prominent Vai family and became an important Vai chief himself. The romantic "inscription on a house" that first drew the world's attention to the existence of the Vai script was in fact on the home of Curtis, a Cherokee.
+
+What we can be reasonably sure about is that Curtis was not only a well-connected and influential man within the Vai community, but one who spoke the Vai language and adopted Vai customs, who settled in Vai country some four years before the invention of the Vai script, and who later appears to have welcomed the use of the script on his house. If Curtis was informed about the Cherokee script, if he was already resident at Cape Mount by 1827/28, and if he made contact with any of the mission party at Big Town - Revey or even his Vai-speaking assistants – it is conceivable that the notion of a syllabary reached the Vai by this route – but perhaps not very likely. Finally, whether the argument from coincidence should have any weight is difficult to say, but that two new scripts sharing the same basic structure, invented a continent apart within little more than a decade of each other, can each be linked, however tenuously (given the limited evidence), to the same individual, may reasonably be regarded as at least singular. (Tuchscherer and Hair 2002)
+
+
+== Syllables ==
+
+
+=== Additional syllables ===
+
+
+== Punctuation ==
+Vai has distinct basic punctuation marks:
+
+Additional punctuation marks are taken from European usage.
+
+
+== Historical symbols ==
+
+
+=== Logograms ===
+The oldest Vai texts used various logograms. Of these, only ꘓ and ꘘ are still in use.
+
+Modern <ka>; at the time now-obsolete ꘑ was used for <ka>.
+
+
+=== Digits ===
+Vai uses Arabic numerals (0–9). In the 1920s Vai-specific digits were developed but never adopted:
+
+
+=== Book of Rora ===
+One of Momolu Duwalu Bukele's cousins, Kaali Bala Ndole Wano, wrote a long manuscript around 1845 called the Book of Ndole or Book of Rora under the pen name Rora.
+This roughly fifty page manuscript contains several now obsolete symbols:
+
+
+== Unicode ==
+
+The Vai syllabary was added to the Unicode Standard in April, 2008 with the release of version 5.1.
+In Windows 7 and earlier, since this version only gives names for characters released in Unicode 5.0 and earlier, the names will either be blank (Microsoft Word applications) or "Undefined" (Character Map).
+The Unicode block for Vai is U+A500–U+A63F. Code points in this block are contiguous without the gaps shown in the "Syllables" table above.
+
+
+== Notes ==
+
+
+== Further reading ==
+Fatima Massaquoi-Fahnbulleh. 1963. "The Seminar on the Standardization of the Vai script," in University of Liberia Journal Vol. 3, No. 1, pp. 15–37.
+"Vai syllabary". Omniglot. Retrieved 16 June 2010.
+Kelly, Piers, James Winters, Helena Miton, and Olivier Morin. "The predictable evolution of letter shapes: An emergent script of West Africa recapitulates historical change in writing systems." Current Anthropology 62, no. 6 (2021). [on simplifications over time for Vai symbols]
+Tuchscherer, Konrad. 2005. "History of Writing in Africa." In Africana: The Encyclopedia of the African and African American Experience (second edition), ed. by Kwame Anthony Appiah and Henry Louis Gates Jr., pp. 476–480. New York: Oxford University Press.
+Tuchscherer, Konrad. 2002 (with P.E.H. Hair). "Cherokee and West Africa: Examining the Origins of the Vai Script," History in Africa, 29, pp. 427–486.
+Tuchscherer, Konrad. 2001. "The Vai Script," in Liberia: Africa's First Republic (Footsteps magazine). Petersborough, NH: Cobblestone Press.
+Tykhostup, Olena and Piers Kelly. 2017. "A diachronic comparison of the Vai script of Liberia (1834–2005)." Journal of Open Humanities Data 4:2. doi:10.5334/johnd.10.
+
+
+== External links ==
+Ethnologue on Vai
+Scripts of Africa
+Input tool and Unicode font for using Vai on Windows XP
+SIL on Vai
