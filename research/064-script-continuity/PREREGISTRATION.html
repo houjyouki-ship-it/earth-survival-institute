@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究064 事前登録（2026-10-20 02:50Z、資料を読み事例表を符号化した後・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="064-2026-10-20-0250zsimpy">研究064 事前登録（2026-10-20 02:50Z、資料を読み事例表を符号化した後・sim.py の作成の前）</h1>
+<p>open_problems 169：地球規模の重い崩壊で文字の読み書きが続く確率 p_cont。</p>
+<h2 id="sourcescasesjson-54-verify_excerptspy">資料（sources/cases.json、抜き出し 54件は verify_excerpts.py で一致）</h2>
+<p>その文字を教える人が共同体の中にしかいなかった文字が、崩壊・人口の激減・強制移住・弾圧の局面にあった例 16件。
+符号の規則は make_cases.py の冒頭（breadth＝narrow/broad/unknown、depth＝deep/shallow/suppression、y＝1 消えた／0 1世代以上続いた／0.5 あいまい、y_alt は逆側の読み、iso_world＝周りに文字の社会がない）。
+- deep：Linear B（narrow, 1）、Rongorongo（narrow, 1, iso）、Indus（unknown, 1）、Classic Maya（narrow, 0）、Hittite→Luwian（unknown, 0）、Samaritans（unknown, 0）、Pitcairn 1793（broad, 0, iso）、Mandaeans 2003（unknown, 0）、Cherokee 1838（broad, 0）、Kaifeng（unknown, 0.5）。
+- shallow：Cyprus CM→Cypriot（unknown, 0）、Egypt LBA（narrow, 0）、Assyria LBA（unknown, 0）。
+- suppression：Kakure Kirishitan（unknown, 1）、Moriscos（unknown, 0）、Egypt の神殿の閉鎖 391（narrow, 1）。
+- 率：世界の識字率 87%（2022）、12%（1820）、古代 Egypt &lt;1%、古典 Greece 5〜10%（Literacy）。</p>
+<h2 id="_1">模型</h2>
+<p>063 の sim.py を「# ---------- 版 ----------」の前まで exec し、063 の主の重い崩壊の比（0.8139）を差0で再現してから、063 の p_cont（Seshat の深い喪失 1/4）を次に置き換える。
+- 局面での喪失の確率 L（重い崩壊の主の群が局面で文字を失う）：deep の例だけで、narrow と broad それぞれ Jeffreys の Beta(0.5+Σy, 0.5+n−Σy)。unknown の例は標本ごとに確率 0.5 で narrow か broad に振る。現代の読み書きが broad（家庭・宗教で教わる）のように振る舞うか narrow（学校という制度が壊れると消える、書記の文字と同じ）のように振る舞うかの重み w~U(0,1)【推測】で L = w·L_b + (1−w)·L_n。
+- 局面の後の漂い：続いた例（y=0、suppression を除く）の years_after の合計 E と、その間の喪失 0件から、率 λ~Gamma(0.5, E)（Jeffreys）。p_cont(T) = (1−L)·exp(−λT)、T は 063 と同じ重い崩壊の標本の T2s。
+- 063 の R(T) = Srch × [p_cont + (1−p_cont)·p_dec(T)] の p_cont をこれに替える（他は 063 の主のまま、冊子 100部、K=20）。
+- 版：narrow（w=0）、broad（w=1）、unk_narrow／unk_broad（unknown をすべて片側）、pooled_deep（区別なし、deep 全部）、pooled_nonsupp（deep＋shallow）、with_supp（16件全部）、ambig_alt（y_alt）、nodrift（λ=0）、iso_world（周りに文字の社会がない2件だけ、区別なし）、G3（互いに独立に3つの群が残り、どれか1つが文字を保てば広まる：1−L³）。w の走査 0〜1。
+- 費用あたりは 063 と同じ（C_T/C_P(100)、TAB=1）。</p>
+<h2 id="a_ordu3tc-v0">仮説（A_Ord/U3、TC の V0 比、重い崩壊）</h2>
+<ul>
+<li>H76a：deep の例で L_n の平均 − L_b の平均 ≥ 0.3（unknown を除く）。</li>
+<li>H76b：deep の例を区別なしにまとめた喪失の平均が 0.2〜0.4（063 の 1−0.70 の ±0.1）。</li>
+<li>H76c：主の (1−L) の平均 ≥ 0.75。</li>
+<li>H76d：主の重い崩壊の TC/V0 ≥ 0.82。</li>
+<li>H76e：w=0 と w=1 の差 ≥ 0.05。</li>
+<li>H76f：漂い（nodrift との差）は 0.01 未満しか下げない。</li>
+<li>H76g：G3 ≥ 0.85。</li>
+<li>H76h：iso_world ≤ 0.79。</li>
+<li>H76i：主の 100部の費用あたり（全体、中央値）&gt; 17.8（S_TC|TC）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

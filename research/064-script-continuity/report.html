@@ -1,0 +1,139 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究064：地球規模の重い崩壊で文字の読み書きが続く確率 p_cont（open_problems 169） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="064-p_contopen_problems-169">研究064：地球規模の重い崩壊で文字の読み書きが続く確率 p_cont（open_problems 169）</h1>
+<p>2026-10-20、第64回。計算のみ（sim.py、seed 20261064、約185秒、ネット接続なし）。事前登録：PREREGISTRATION.md（02:50Z、資料を読み事例表を符号化した後・sim.py の前）。</p>
+<h2 id="_1">問い</h2>
+<p>063 で、重い崩壊（機械が止まり T1・T0 から再出発）での座標の冊子の価値は、文字の読み書きが続く確率 p_cont でほぼ決まった（0.67〜0.87）。主の 0.70 は Seshat の深い喪失 4件のうち1件という小さな標本で、しかも周りに文字の社会が残る歴史の崩壊だった。地球規模の崩壊では外から教えに来る人はいない。そこで (1)「その文字を教える人が共同体の中にしかいなかった文字」が崩壊・激減・強制移住の局面にあった例で、文字はどれだけ消えたか、(2) 消え方は読み書きが一部の書記に限られていたか（narrow）、普通の成員に広がっていたか（broad）で違うか、(3) それで重い崩壊の冊子の価値はどう動くか、を調べた。</p>
+<h2 id="mediawiki-api-54-sourcesverify_excerptspy">資料（本回取得、MediaWiki API。抜き出し 54件は sources/verify_excerpts.py で保存本文と照合しすべて一致）</h2>
+<p>符号の規則は sources/make_cases.py の冒頭に固定した（一人の判断で、符号そのものは【推測】）。
+| 例 | 局面 | 読み書きの広さ | 深さ | 文字 | 出典 |
+|---|---|---|---|---|---|
+| Linear B | 宮殿の破壊（青銅器時代末） | narrow：行政に限られ、書き手は Pylos 45人・Knossos 66人 | deep | 消えた（宮殿が壊れると消えた） | 【事実（<a href="https://en.wikipedia.org/wiki/Linear_B">Linear B</a>、<a href="https://en.wikipedia.org/wiki/Greek_Dark_Ages">Greek Dark Ages</a>）】 |
+| Rongorongo | 1862 の奴隷狩りと天然痘、200人未満に | narrow：支配層と祭司の特権、全員連れ去られた | deep・周りに文字なし | 1870年代に読める人はほとんどいない | 【事実（<a href="https://en.wikipedia.org/wiki/Rongorongo">Rongorongo</a>）】 |
+| Indus | 約1900 BCE の分散と地方化 | 不明 | deep | ほぼ止まった（一部の地方で続いた可能性） | 【事実（<a href="https://en.wikipedia.org/wiki/Indus_script">Indus script</a>）】 |
+| Classic Maya | 7〜9世紀の南部の都市の崩壊と放棄 | narrow：書記はふつう祭司 | deep | 16〜17世紀の征服まで続いた | 【事実（<a href="https://en.wikipedia.org/wiki/Maya_script">Maya script</a>、<a href="https://en.wikipedia.org/wiki/Classic_Maya_collapse">Classic Maya collapse</a>）】 |
+| Hittite→Luwian | 約1200 BC の Hattusa の破壊と国の崩壊 | 不明 | deep | Neo-Hittite で約700年続き、7世紀にアルファベットに押された | 【事実（<a href="https://en.wikipedia.org/wiki/Hattusa">Hattusa</a>、<a href="https://en.wikipedia.org/wiki/Neo-Hittite_states">Neo-Hittite states</a>、<a href="https://en.wikipedia.org/wiki/Anatolian_hieroglyphs">Anatolian hieroglyphs</a>）】 |
+| Samaritans | 5〜6世紀の弾圧で激減、近世に約100人 | 不明 | deep | Samaritan の文字は今も典礼に使う | 【事実（<a href="https://en.wikipedia.org/wiki/Samaritans">Samaritans</a>）】 |
+| Pitcairn | 1793 の殺し合いの後 19人、1808 まで外と接触なし | broad：子どもに聖書で読み書きを教えた | deep・周りに文字なし | 続いた | 【事実（<a href="https://en.wikipedia.org/wiki/John_Adams_(mutineer)">John Adams (mutineer)</a>、<a href="https://en.wikipedia.org/wiki/Mutiny_on_the_Bounty">Mutiny on the Bounty</a>）】 |
+| Mandaeans | 2003 の後 Iraq で 6万〜7万→約5,000 | 不明 | deep | 今も限られた使用 | 【事実（<a href="https://en.wikipedia.org/wiki/Mandaeans">Mandaeans</a>、<a href="https://en.wikipedia.org/wiki/Mandaic_alphabet">Mandaic alphabet</a>）】 |
+| Cherokee | 1838 の強制移住、約4,000人が死亡 | broad：1825 に多数が読み書きできた | deep | 移住先で新聞を刷り、今も使う | 【事実（<a href="https://en.wikipedia.org/wiki/Cherokee_syllabary">Cherokee syllabary</a>、<a href="https://en.wikipedia.org/wiki/Trail_of_Tears">Trail of Tears</a>）】 |
+| Kaifeng の Jews | 1850〜1866 に会堂の解体、共同体の消滅 | 不明 | deep | あいまい（母音を理解しない人の写し）→0.5 | 【事実（<a href="https://en.wikipedia.org/wiki/Kaifeng_Jews">Kaifeng Jews</a>）】 |
+| Cyprus | 青銅器時代末 | 不明 | shallow | Cypriot syllabary が 11〜4世紀（前の文字との関係は「何らかの」） | 【事実（<a href="https://en.wikipedia.org/wiki/Cypriot_syllabary">Cypriot syllabary</a>、<a href="https://en.wikipedia.org/wiki/Cypro-Minoan_script">Cypro-Minoan script</a>）】 |
+| Egypt・Assyria | 青銅器時代末（弱まって残った） | Egypt は narrow（1%未満） | shallow | 394・79/80 AD まで続いた | 【事実（<a href="https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse">Late Bronze Age collapse</a>、<a href="https://en.wikipedia.org/wiki/Literacy">Literacy</a>、<a href="https://en.wikipedia.org/wiki/Egyptian_hieroglyphs">Egyptian hieroglyphs</a>、<a href="https://en.wikipedia.org/wiki/Cuneiform">Cuneiform</a>）】 |
+| 弾圧 3件 | Kakure Kirishitan（印刷物の没収で口伝に）、Moriscos（禁止の後も Aljamiado を密かに）、Egypt の神殿の閉鎖（書記の消滅） | narrow 1・不明 2 | suppression | 消えた 2、続いた 1 | 【事実（<a href="https://en.wikipedia.org/wiki/Kakure_Kirishitan">Kakure Kirishitan</a>、<a href="https://en.wikipedia.org/wiki/Aljamiado">Aljamiado</a>、<a href="https://en.wikipedia.org/wiki/Morisco">Morisco</a>、<a href="https://en.wikipedia.org/wiki/Egyptian_hieroglyphs">Egyptian hieroglyphs</a>）】 |
+- 読み書きの率：世界 87%（2022）、12%（1820）、古代 Egypt 1%未満、古典 Greece 5〜10% 【事実（<a href="https://en.wikipedia.org/wiki/Literacy">Literacy</a>）】。
+- 局面のない長い使用（数字には使わず）：Dalecarlian の農民の runes は 20世紀まで、Székely の rovás、Nüshu（数世紀）【事実（<a href="https://en.wikipedia.org/wiki/Dalecarlian_runes">Dalecarlian runes</a>、<a href="https://en.wikipedia.org/wiki/Old_Hungarian_script">Old Hungarian script</a>、<a href="https://en.wikipedia.org/wiki/N%C3%BCshu">Nüshu</a>）】。Bene Israel・Beta Israel・Crypto-Judaism・Avestan・Ogham・Runes・Vai・Bamum・St Kilda・Tristan da Cunha・Sub-Roman Britain・Norse Greenland も取得したが、局面と読み書きの帰結が本文で決まらず使っていない。
+- 局面の後に続いた年数（years_after）は本文の年・世紀からの丸め【推測】。</p>
+<h2 id="_2">模型</h2>
+<p>063 の sim.py を「# ---------- 版 ----------」の前まで exec し、063 の主（重い崩壊 0.8139）を差0で再現した。063 の p_cont（Seshat 1/4）を次に替え、他（冊子 100部、20地域、解読 p_dec、読む社会の探索）は 063 の主のまま。
+- 局面での喪失 L：deep の 10件で narrow と broad それぞれ Jeffreys の Beta。広さ不明の 5件は標本ごとに半々で振る。現代の読み書き（87% だが学校という制度で教わる）が broad のように振る舞う重み w~U(0,1)【推測】で L = w·L_b + (1−w)·L_n。
+- 局面の後の漂い：続いた 9件（弾圧を除く）の合計 6,322年で喪失 0件 → 率 λ~Gamma(0.5, 6,322)。p_cont(T) = (1−L)·exp(−λT)、T は重い崩壊の標本ごとの T2 到達の年数。
+- 版：w=0（narrow）・1（broad）、不明をすべて片側、区別なしの deep・弾圧を除く全部・16件全部、あいまいの逆側、漂いなし、周りに文字のない 2件だけ（iso_world）、3つの独立な群のどれかが保てば広まる（G3）。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>数え：deep で narrow は 3件中 2件が消え、broad は 2件中 0件、不明は 5件中 1.5件。区別なしの deep は 10件中 3.5件（喪失の平均 0.36）、弾圧を除く全部は 13件中 3.5件、弾圧は 3件中 2件、周りに文字のない 2件は 1件。</li>
+<li>不明を除いた喪失の平均（Jeffreys）：narrow <strong>0.63</strong>、broad <strong>0.17</strong>（差 0.46）。</li>
+<li>局面を越えて文字が残る確率 1−L の平均：主 <strong>0.63</strong>（5〜95% 0.33〜0.90）、narrow 0.49、broad 0.78、区別なし deep 0.64、iso_world 0.50、G3 <strong>0.92</strong>、063 は 0.70。漂いを掛けると U3 の重い崩壊の T での p_cont は平均 <strong>0.59</strong>（漂いの因子の平均 0.93）。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>版（A_Ord/U3、TC の V0 比）</th>
+<th>全体</th>
+<th>重い崩壊</th>
+<th>軽い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>063 主（Seshat 1/4）</td>
+<td>0.920</td>
+<td>0.814（XPT 0.835）</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td><strong>064 主</strong></td>
+<td><strong>0.915</strong></td>
+<td><strong>0.803</strong>（XPT 0.815）</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>narrow（w=0）／broad（w=1）</td>
+<td>0.903／0.926</td>
+<td><strong>0.768／0.831</strong></td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>不明をすべて narrow／broad</td>
+<td>0.918／0.909</td>
+<td>0.811／0.786</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>区別なし deep／弾圧を除く全部／16件全部</td>
+<td>0.914／0.920／0.916</td>
+<td>0.800／0.814／0.803</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>あいまいの逆側／漂いなし</td>
+<td>0.916／0.917</td>
+<td>0.803／0.806</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>iso_world（周りに文字なし 2件）</td>
+<td>0.903</td>
+<td><strong>0.767</strong></td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>G3（3つの群）</td>
+<td>0.935</td>
+<td><strong>0.856</strong>（XPT 0.877）</td>
+<td>0.969</td>
+</tr>
+<tr>
+<td>- w の走査（重い崩壊）：0 で 0.768、0.5 で 0.800、1 で 0.831（+0.062）。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 費用あたり（全体、中央値、TAB=1）：064 主 <strong>44</strong>（9.3〜210）、063 主 46、narrow 39、iso_world 39、G3 52、S_TC</td>
+<td>TC（060）17.8。重い崩壊だけで主 92。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">仮説の検証</h2>
+<ul>
+<li>H76a（deep で narrow の喪失 − broad の喪失 ≥ 0.3）：支持（0.63 − 0.17 = 0.46、ただし 3件と 2件）。</li>
+<li>H76b（区別なしの deep の喪失が 0.2〜0.4）：支持（0.36）。063 の 0.30 と同じ帯。</li>
+<li>H76c（主の 1−L ≥ 0.75）：<strong>棄却</strong>（0.63）。</li>
+<li>H76d（主の重い崩壊 ≥ 0.82）：<strong>棄却</strong>（0.803、063 の 0.814 より少し下）。</li>
+<li>H76e（w=0 と 1 の差 ≥ 0.05）：支持（0.062）。</li>
+<li>H76f（漂いが下げるのは 0.01 未満）：支持（0.004）。</li>
+<li>H76g（G3 ≥ 0.85）：支持（0.856）。</li>
+<li>H76h（iso_world ≤ 0.79）：支持（0.767）。</li>
+<li>H76i（主の費用あたり &gt; 17.8）：支持（44）。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li>消えた例はどれも、読み書きが少数の書記・支配層に限られ（Linear B の書き手は1宮殿に数十人）、その用途か担い手が局面で消えた例だった。読み書きが普通の成員に広がっていた2件（Pitcairn の 19人、Cherokee の強制移住）はどちらも続いた。ただし broad は2件しかなく、喪失の事後は 5〜95% で 0.01〜0.58 と広い【推測】。</li>
+<li>現代の読み書きは 87% と広いが、学校という制度で教わる。学校が消えたとき、家庭や宗教で教え続けるなら broad に近く、制度とともに消えるなら Linear B の書記に近い。この重み w が、本回の版の中で一番大きく値を動かした（0.77〜0.83）。w の根拠は本回の資料にはない【推測】（→172）。</li>
+<li>周りに文字の社会がない 2件（Pitcairn は続き、Rapa Nui は消えた）だけにすると 0.77 まで下がるが、2件は広さが正反対で、周りの社会の有無と広さを分けられない。</li>
+<li>3つの独立な群のどれか1つが保てば広まる（G3）なら 0.86 まで上がる。重い崩壊の生き残りがいくつの互いに独立な群に分かれ、文字が群の間で広まるか（Greek が Phoenician の文字を取り入れたような）が、w の次に大きい未知（→173）。</li>
+<li>漂いの率は、続いた例の 6,322年で喪失 0 から出したもので、続いて記録に残った文字だけを数えている（消えて記録もない少数の文字は数えられない）。漂いの効きは 0.004 と小さいので、この偏りで結論は変わらない。</li>
+<li>本回の主（0.803）は 063 の主（0.814）とほぼ同じで、すべての版は 0.77〜0.86 に入り、063 の p_cont の走査の幅（0.67〜0.87）の内側に収まった。事例の数え上げで p_cont をこれ以上絞るのは難しく、冊子の価値を上げるには、文字が続く確率を当てにしない手（読み方の手引き primer、→170）の方が効く【推測】。</li>
+<li>弾圧の 3件（喪失 2/3）は外からの禁止・没収による喪失で、地球規模の崩壊には当てはまらないとして主から外した。入れても 0.803 で変わらない。</li>
+<li>符号は一人の判断で、広さ不明が deep の半分（5件）を占める。不明をすべて片側にしても 0.786〜0.811。</li>
+</ul>
+<h2 id="_6">新規性</h2>
+<p>崩壊の後に文字が続くかを、その文字を教える人が共同体の中にしかいない例（少数の宗教集団・孤立した島・書記の文字）に限って数え、読み書きの広さで分け、保存の写しの価値に入れたのは本研究所で初めて【推測：網羅的に調べたわけではない】。【独自仮説】崩壊を越えて文字を消すのは人数の少なさより読み書きが少数の役目に限られていることで、現代の読み書きが崩壊を越えるかは、学校なしで家庭や宗教の場で教え続けるかで決まる。</p>
+<h2 id="_7">この結果を受けて、誰が何を変えるべきか</h2>
+<p>金庫の運営者は、座標の冊子を図書館だけでなく、学校が消えても読み書きを教え続けそうな場所（教会・モスク・寺の図書室など宗教の場）にも預け、子どもに文字を教えられる絵入りの読本を冊子に添えるべき（Pitcairn では聖書がその役を果たした。読み書きが広く続く見込み w が 0 から 1 になると重い崩壊の価値は 0.77→0.83）【推測】。本研究所は 063 の p_cont 0.70 を「局面で 0.63、T2 の時点で 0.59、重い崩壊の冊子の価値 0.80（版で 0.77〜0.86）」に改め、事例の数え上げの線はここで止め、次は読み方の手引きの効き（170）へ進む。</p>
+<h2 id="_8">再現と逸脱</h2>
+<ul>
+<li><code>/tmp/rep064/</code> で 063 を再実行し results.json は runtime 以外一致（葉 571個）。064 も同じ場所で再実行し results.json は runtime 以外一致（葉 475個、差分0）、図2枚の MD5 も一致。</li>
+<li>初回の実行は図の段で 063 の比の辞書の形を取り違えて止まった（results.json の書き出し前で、数値は見ていない）。その1行を直して再実行した。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

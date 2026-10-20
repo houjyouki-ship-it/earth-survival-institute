@@ -1,0 +1,91 @@
+URL: https://en.wikipedia.org/wiki/Cypro-Minoan_script
+The Cypro-Minoan script (CM) or Cypro-Minoan syllabary (earlier on sometimes called the Cypro-Mycenaean script), is an undeciphered syllabary used on the island of Cyprus and by its trading partners during the Late Bronze Age and Early Iron Age (c. 1550 – c. 1050 BC). The term "Cypro-Minoan" was coined by Arthur Evans in 1909 based on its visual similarity to Linear A on Minoan Crete, from which CM is thought to be derived. Approximately 250 objects—such as clay balls, cylinders, and tablets which bear Cypro-Minoan inscriptions, have been found. Discoveries have been made at various sites around Cyprus, as well as in the ancient city of Ugarit on the Syrian coast. It is thought to be somehow related to the later Cypriot syllabary.
+The Cypro-Minoan script was in use during the Late Cypriot period from the LC IA:2 period until the LC IIIA period or roughly from 1500 BC until 1150 BC. This is mainly based with the stratigraphy of the Kourion site but is in line with examples excavated at other sites.
+
+
+== Language ==
+The language, or languages, encoded by the Cypro-Minoan script is unknown.
+
+
+== Variants ==
+
+The Cypro-Minoan inscriptions were proposed to fall into three classes by Jean-Pierre Olivier (CM1, CM2, CM3). Subsequently, Emilia Masson proposed dividing them into four closely related groups: archaic CM, CM1 (also known as Linear C), CM2, and CM3 (also called Levanto-Minoan), which she considered chronological stages of development of the writing. These classifications based on the chronological nature of the archaeological context were contested by Silvia Ferrara who pointed out that CM1, CM2, and CM3 all existed simultaneously, their texts demonstrated the same statistical and combinatorial regularities, and their character sets should have been basically the same; she also noted a strong correlation between these groups and the use of different writing materials. Only the archaic CM found in the earliest archaeological context is distinct from these three.
+An earlier classification system divided texts into six classes, I through VI. Another proposed classification is based on differences between three geographic divisions; 1) texts found at Ugarit, 2) texts found on the island of Cyprus, and 3) texts found in the final excavation level at Enkomi. Attempts have been made to separately decipher the latter variant. More recent scholarship has moved toward treating the corpus as a whole without the previous categorizations.
+
+
+== Corpus ==
+
+Examples of Cypro-Minoan script (CM) were discovered starting in the early 1930s. These included several potmarks found in 1937 at Kourion on the southwest coast of Cyprus. An unusual find was copper ingots recovered in 1960 from a Bronze Age shipwreck by underwater archaeologists near Cape Gelidonya. Most of the ingots were marked with what are believed to be CM signs. In addition to the following it has also been suggested that there are CM signs on several cylinder seals.
+
+
+=== Tablets ===
+
+The earliest known CM inscription of any real length was a clay tablet discovered in 1955 at the ancient site of Enkomi, near the east coast of Cyprus. It was dated to c. 1500 BC, and bore three lines of writing. A number of other tablets were subsequently found including H-1885 (CM 0) which contained 23 signs and is dated to LC IB. Several CM tablets were excavated at Ugarit in the 1950s, (RASH Atab 001 = RS 17.06), (RASH Atab 004 = RS 20.25, Aegean area), and one surface find (RS 17.006, Residential Quarter). Two tablet fragments were also found (RASH Atab 002 = RS 19.01) and (RASH Atab 003 = RS 19.0). In total, eight full or partial tablets have been found with the three found at Enkomi, totaling over 2,000 signs, making up a significant part of the known CM corpus.
+
+
+=== Vessels ===
+
+CM signs, usually ranging in number from one to four, are found on various types of vessels and are usually referred to as potmarks. These marks have also been found on structure walls. Three examples emerged at Tiryns, a large painted jug (TIRY Avas 002) with 4 signs, a clay boule (TIRY Abou 001) with 3 signs, and a Canaanite amphora (2 signs). In 2022 fragments recovered in the earlier excavations were joined to partially assemble another Canaanite jar (TIRY Avas 001) with 2 signs on one handle (already published) and one on the other handle (new). CM signs were found on stirrup cups in Cannatello, Sicily.
+A number of potmarks were found on bronze bowls dated to the Late Cypriote III period (c. 12th century BC) on Cyprus as well as on one silver bowl found at Ugarit. Eighteen potmarks, incised after firing, on jar handles (along with one ostracon bearing about 8 signs) were found at Ashkelon. The ostracon dated to the 11th century BC, fifteen of the handles dated to the late Iron I period and the other three handles to the Late Bronze Age.
+Forty two potmarks were found on vessels in Kouklia at the site of Old Paphos in western Cyprus. All but one were on handles with the remaining potmark on a rim. Thirty two of the marks are or include numerals. Other potmarks have been found at the Bamboula site, part of the Kition archaeological sites on Cyprus. Small numbers of CM potmarks have been found throughout the trading range. A compendium of known potmarks was assembled in 1974.
+
+
+=== Clay balls ===
+
+About 92 small clay balls measuring 1.5–2.3 centimetres (0.59–0.91 in) in diameter, each bearing 3–5 signs in CM, have been uncovered at Enkomi and Kition. Small quantities of CM inscribed clay balls have been found through the trading range including at Tiryns in Greece and Hala Sultan Tekke on Cyprus.
+
+
+=== Clay cylinders ===
+Three legible clay cylinders (#100, #101, #102) were found in the late 1960s at Kalavassos-Ayios Dimitrios, some of which bear lengthy texts of over 100 signs, along with the debris of other cylinders. It is likely that the balls and cylinders are related to the keeping of economic records on Minoan Cyprus, considering the large number of cross-references between the texts. The longest legible Cypro-Minoan inscription is on a cylinder (19.10 = ##097 ENKO Arou 001) found at Enkomi in 1967 with 217 signs, dated to the Late Cypriot IIA–B period (14th century BC). In total, six cylinders have now been found, one at Enkomi and five at Kalavassos-Ayios Dimitrios.
+
+
+== Decipherment ==
+In 1944 Alice Kober, famous for her work on the decipherment of Linear B, termed the status of Cypro-Minoan script as:
+
+"Cypro-Minoan. Date – Mycenaean (perhaps earlier) . Locality – Cyprus. Number of inscriptions – uncertain. Number of signs – uncertain. Material inscribed – pottery, seals, terra-cotta balls. Content or use of inscriptions – uncertain."
+
+Until the mid-1900s all the available Cypro-Minoan script texts were very short, with many being singletons, from potmarks, clay balls, etc. The CM1 exemplars totaled and the longest contained 8 signs. There were 31 CM2 texts. Two were long with 24 and 25 signs but all but one of those signs were numerals. For CM3 28 texts were available, one doubleton and the rest singletons. This lack of data resulted in much speculation and wishful thinking on the deciphering of the script. This included attempts by Jan Best, Ernst Sittig, and Vladimir Sergeyev. In the middle of the 1950s, tablets (from Ugarit and Enkomi) with larger number of signs were found; in the late 1960s, clay cylinders (from Kalavassos-Ayios Dimitrios and Enkomi) were excavated with very long texts. This put the deciphering effort on a more scientific path. The advent of longer texts sparked work on deciphering, including by those who worked on deciphering Linear B, Michael Ventris and John Chadwick.
+Currently, the total number of Cypro-Minoan signs (approximately 4,000) in the corpus compares unfavorably with the number known from the undeciphered Linear A signs (over 7,000) and the number available in Linear B when it was deciphered (approximately 30,000). It is also unclear how many syllabograms are represented in the corpus. Modern estimates have ranged from 57 to 59 and up to 96. Without the discovery of bilingual texts or many more texts in each subsystem, decipherment is extremely difficult. According to Thomas G. Palaima, "all past and current schemes of decipherment of Cypro-Minoan are improbable". Silvia Ferrara also believes this to be the case, as she concluded in her detailed analysis of the subject in 2012.
+Several attempts have been made to detail the available CM corpus. Jean-Pierre Olivier issued an edition in 2007 of all 217 of the inscriptions available to him. Silvia Ferrara detailed corpus as a companion volume to her analytic survey of 2012, followed by two volumes of her research, where she studied the script in its archaeological context. It contained an additional 27 inscriptions and also used statistical and combinatoric methods to study the structure of large texts and to detect regularities in the use of the signs. In his 2016 PhD thesis, M.F.G. Valério produced a revised sign inventory and aimed to leverage previous hypotheses on decipherment and development of signs and values with a distributional analysis and comparative linguistic considerations. Unlike most other approaches on decipherment, he assumes a single script applied to a potentially broader range of languages, including Semitic (in Ugarit) and the indigenous language(s) of Cyprus, the Eteocypriot language, based on his readings.
+All of these efforts covered only multi-sign texts, mainly tablets, cylinders, and clay balls where the signs were adjacent and on the same line, totalling somewhat over 250 in number. Subsequently, work has been done to extend this to single sign text examples, which mainly includes potmarks and further analyze them. Out of this analysis came a proposal that two-sign texts are actually abbreviations for longer texts. A complicating factor is that the ductus (inscription method) for signs varies depending on the material involved, which includes clay, ivory, metal, and stone.
+In 1998 a Cypro-Minoan Corpus project, which intended to create a complete and accurate corpus of CM inscriptions, and archaeological and epigraphical discussions of all the evidence, was announced. Nothing appears to have been published subsequently.
+
+
+== Unicode ==
+
+Cypro-Minoan was added to the Unicode Standard in September 2021, with the release of version 14.0. The Unicode block for Cypro-Minoan is U+12F90–U+12FFF:
+
+
+== See also ==
+
+Cypriot syllabary
+Prehistoric Cyprus
+
+
+== References ==
+
+
+== Further reading ==
+Best, Jan; Woudhuizen, Fred (1988). Ancient Scripts from Crete and Cyprus. Leiden: E.J. Brill. pp. 98–131. ISBN 90-04-08431-2.
+[5]Bourogiannis, Giorgos, "Contextualising Cypriot writing overseas: Cypro-Minoan and Cypro-Syllabic inscriptions found in Greece", in Islands and Communities: Perspectives on Insularity, Connectivity, and Belonging, pp. 51-64, 2024
+Cross, F. M. and Stager, L. E., "Cypro-Minoan Inscriptions Found in Ashkelon", Israel Exploration Journal 56/2, pp. 129–159, 2006
+Davies, Anna Morpurgo, and Jean-Pierre Olivier, "Syllabic Scripts and Languages in the Second and First Millennia BC", British School at Athens Studies, vol. 20, pp. 105–18, 2012
+Davis, B., "Cypro-Minoan in Philistia?", Kubaba 2, pp. 40‒74, 2011
+Donnelly, Cassandra M., "Cypro-Minoan and Its Writers: At Home and Overseas", Elements in Writing in the Ancient World, Cambridge University Press, 2024 ISBN 9781009381840
+Duhoux, Yves, "Eteocypriot and Cypro-Minoan 1–3", Kadmos 48, pp. 39–75, 2000 doi:10.1515/KADMOS.2009.003
+Duhoux Y., "Is there anything like a Cypro-Minoan 3 script?", in P. M. Steele (ed.), Understanding Relations Between Scripts: The Aegean Writing Systems, Oxford, 162–179, 2017
+Facchetti, G. & Negri, M., "Riflessioni preliminary sul ciprominoico", Do-so-mo 10, pp. 9–25, 2014
+Faucounau, J., "Études chypro-minoennes", Syria 54(3/4), pp. 209–249, 1977
+Faucounau, J., "Études chypro-minoennes", Syria 54(2/4), pp. 375–410, 1980
+Faucounau, J., "The Cypro-Minoan scripts: a reappraisal fifty years after John F. Daniel's paper", Κυπριακή Αρχαιολογία Τόμος ΙΙI (Archaeologia Cypria, Volume III), pp. 93–106, 1994
+Faucounau, Jean (2007). Les Inscriptions Chypro-Minoennes I. Paris: Editions L'Harmattan. ISBN 978-2-296-04862-1.
+Faucounau, Jean (2008). Les Inscriptions Chypro-Minoennes II. Paris: Editions L'Harmattan. ISBN 978-2-296-06006-7.
+[6] Ferrara, Silvia, "An interdisciplinary approach to the Cypro-Minoan script", Doctoral thesis, UCL (University College London), 2006
+Ferrara, S., "Writing in Cypro-Minoan: One Script, Too Many?", in Syllabic Writing on Cyprus and Its Context, ed. P. M. Steele. Cambridge Classical Studies. Cambridge: Cambridge University Press, pp. 49‒76, 2013
+Harald Haarmann, "Writing Technology in the Ancient Mediterranean and the Cyprian Connection", Mediterranean Language Review, vol. 9, pp. 43–73, 1997
+[7] Hirschfeld, Nicolle, "Cypro-minoan", The Oxford Handbook of the Bronze Age Aegean", Oxford, UK: Oxford University Press, pp. 373–384, 2010
+Kober, Alice E., "The Minoan Scripts: Fact and Theory", American Journal of Archaeology, vol. 52, no. 1, pp. 82–103, 1948
+Nahm, Werner, "Studien zur kypro-minoischen Schrift", Kadmos 20 (1981) pp. 52–63; Kadmos 23, pp. 164–179, 1981
+Skelton, Christina, et al., "Cypro-Minoan: one language or three? An exercise in phonology-based statistical analysis", Lingue e linguaggio 21.2, pp. 295–309, 2022
+Steele, P. M., "A linguistic history of ancient Cyprus", Cambridge: Cambridge University Press, 2013 ISBN 1-107-04286-0 (hard) and ISBN 1-107-61741-3 (soft)
+Steele, Philippa M. (Ed.), "Syllabic Writing on Cyprus and its Context", Cambridge: Cambridge University Press, 2013 ISBN 1-107-02671-7

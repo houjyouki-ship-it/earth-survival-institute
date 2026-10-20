@@ -1,0 +1,74 @@
+URL: https://en.wikipedia.org/wiki/Cypriot_syllabary
+The Cypriot or Cypriote syllabary  (also Classical Cypriot Syllabary, or Linear C) is a syllabic script used in Iron Age Cyprus, from about the 11th to the 4th centuries BCE, when it was replaced by the Greek alphabet. It has been suggested that the script remained in use as late as the 1st century BCE. A pioneer of that change was King Evagoras of Salamis. It is thought to be descended from the Cypro-Minoan syllabary, itself a variant or derivative of Linear A. Most texts using the script are in the Arcadocypriot dialect of Greek, but also one bilingual inscription, the Amathus bilingual, a Greek and Eteocypriot, was found in Amathus.
+
+
+== Origin ==
+It is thought that the Cypriot syllabary is derived from the Cypro-Minoan syllabary; the latter is thought to be derived from the Linear A script, and certainly belongs to the circle of Aegean scripts. The most obvious change is the disappearance of ideograms, which were frequent in, and represented a significant part of, Linear A. The earliest inscriptions are found on clay tablets. Parallel to the evolution of cuneiform, the signs soon became simple patterns of lines. There is no evidence of a Semitic influence due to trade, and this pattern seemed to have evolved as the result of habitual use.
+
+
+== Structure ==
+The structure of the Cypriot syllabary is very similar to that of Linear B. This is due to their common origin and underlying language (albeit different dialects). The Cypriot script contains 56 signs. Each sign generally stands for a syllable in the spoken language: e.g. ka, ke, ki, ko, ku. Hence, it is classified as a syllabic writing system. Because each sign stands for an open syllable (CV - a consonant followed by a vowel) rather than a closed one (CVC - a consonant, a vowel and then a consonant), the Cypriot syllabary is also an 'open' syllabary.
+
+To see the glyphs above, a compatible font must be installed, and the web browser must support Unicode characters in the U+10800–U+1083F range.
+
+
+=== Differences between Cypriot syllabary and Linear B ===
+The main difference between the two lies not in the structure of the syllabary but the use of the symbols. Final consonants in the Cypriot syllabary are marked by a final, silent e. For example, final consonants, n, s, and r are noted by using ne, re, and se. Groups of consonants are created using extra vowels. Diphthongs such as ae, au, eu, and ei are spelled out completely. However, nasal consonants that occur before another consonant are omitted completely.
+Compare Linear B 𐀀𐀵𐀫𐀦 (a-to-ro-qo, reconstructed as *[án.tʰroː kʷos]) to Cypriot 𐠀𐠰𐠦𐠡𐠩 (a-to-ro-po-se, read right-to-left), both forms related to Attic Greek: ἄνθρωπος (ánthrōpos) "human".
+One other minor difference involves the representation of the manner of articulation. In the Linear B script, liquid sounds /l/ and /r/ are covered by one series, while there are separate series for the dentals /d/ and /t/. In the Cypriot syllabary, /d/ and /t/ are combined, whereas /l/ and /r/ are distinct.
+
+
+=== Paleography ===
+There are minor differences in the forms of the signs used in different sites. However, the syllabary can be subdivided into two different subtypes based on area: the "Common" and the South-Western or "Paphian".
+
+
+== Decipherment ==
+
+The script was deciphered in the 19th century by George Smith due to the Idalion bilingual. Egyptologist Samuel Birch (1872), the numismatist Johannes Brandis (1873), the philologists Moritz Schmidt, Wilhelm Deecke, Justus Siegismund (1874) and the dialectologist H. L. Ahrens (1876) also contributed to decipherment.
+
+
+== Corpus ==
+About 1,000 inscriptions in the Cypriot syllabary have been found throughout many different regions. However, these inscriptions vary greatly in length and credibility. Most inscriptions found are dated to be around the 6th century. There are no inscriptions known to be before the 8th century. Most of the tablets found are from funerary monuments and contained merely names of the deceased. A few dedicatory inscriptions were also found but of very little contribution to decipherment. The most important tablets are mainly found in Enkomi and Paphos.
+Efforts to collect and publish the known corpus began in the 1800s. In the 1900s the work was taken up by T. B. Mitford and Olivier Masson. Over the years a number of inaccuracies and duplications crept into the collects corpus. In 2015, Massimo Perna published a consolidated and corrected corpus totaling 1,397 inscriptions.
+
+
+=== Enkomi ===
+The earliest dated inscription from Cyprus was discovered at Enkomi in 1955. It was a part of a thick clay tablet with only three lines of writing. Epigraphers immediately saw a resemblance. Because the date of the fragment was found to be around 1500 BCE, considerably earlier than Linear B, linguists determined that the Cypriot syllabary was derived from Linear A and not Linear B. Several other fragments of clay tablets were also found in Enkomi. They date to a later period, around the late 13th or 12th century BCE. The script found on these tablets has considerably evolved and the signs have become simple patterns of lines. Linguists named this new script as Cypro-Minoan syllabary.
+
+
+=== Idalium ===
+Idalium was an ancient city in Cyprus, in modern Dali, Nicosia District. The city was founded on the copper trade in the 3rd millennium BCE. Its name in the 8th century BCE was "Ed-di-al" as it appears on the Sargon Stele of 707 BCE. From this area, archeologists found many of the later Cypriot syllabic scripts. In fact, Idalium held the most significant contribution to the decipherment of Cypriot syllabary – the Tablet of Idalium. It is a large bronze tablet with long inscriptions on both sides. The Tablet of Idalium is dated to about 480–470 BCE. Excluding a few features in morphology and vocabulary, the text is a complete and well-understood document. It details a contract made by the king Stasicyprus and the city of Idalium with the physician Onasilus and his brothers. As payment for the physicians' care for wounded warriors during a Persian siege of the city, the king promises them certain plots of land. This agreement is put under the protection of the goddess Athena.
+
+
+=== Paphos and elsewhere ===
+Other discoveries include a small vase dating back to the beginning of the 5th century BCE and a broken marble fragment in the Paphian (Paphos) script. The vase is inscribed on two sides, providing two lists of personal names with Greek formations. The broken marble fragment describes a fragment of an oath. This inscription often mentions King Nicocles, the last king of Paphos and includes some important words and expressions. Four inscribed objects were found in the British Museum stores, a silver cup from Kourion, a White Ware jug, and two limestone tablet fragments.
+The number of discoveries of new inscriptions has increased. However, most of the new discoveries have been short, or bear only a few signs. One example is a small clay ball. Sling bullets with signs in classical Cypriot syllabary were found at Hala Sultan Tekke.
+
+
+== Unicode ==
+
+The Cypriot syllabary was added to the Unicode Standard in April 2003 with the release of version 4.0.
+The Unicode block for Cypriot is U+10800–U+1083F.
+The Unicode block for the related Aegean Numbers is U+10100–U+1013F.
+
+
+== See also ==
+Pre-Greek substrate
+Tamassos bilinguals
+
+
+== References ==
+
+
+== Bibliography ==
+Best, Jan; Woudhuizen, Fred, eds. (1988), Ancient Scripts from Crete and Cyprus, Leiden: Brill, doi:10.1163/9789004673366, ISBN 978-90-04-08431-5, S2CID 160361420
+Egetmeyer, Markus (1992). Wörterbuch zu den Inschriften im kyprischen Syllabar. Berlin: de Gruyter. doi:10.1515/9783110853520. ISBN 9783110122701.
+Heubeck, Alfred (1979). Schrift. Göttingen: Vandenhoeck & Ruprecht. pp. 54–64. ISBN 9783525254233.
+Hintze, Almut (1993). A Lexicon to the Cyprian Syllabic Inscriptions. Hamburg: Buske.
+Masson, Olivier; Mitford, Terence B. (1983). Les Inscriptions chypriotes syllabiques. Paris: Boccard.
+Reece, Steve (2000). "The Cypriot Syllabaries". In Speake, Graham (ed.). Encyclopedia of Greece and the Hellenic Tradition. London: Fitzroy Dearborn. pp. 1587–1588.
+Smith, Joanna S., ed. (2002). Script and seal use on Cyprus in the Bronze and Iron Ages. Archaeological Institute of America. ISBN 978-0960904273.
+Steele, Philippa M (2014). "The /d/, /t/, /l/ and /r/ series in Linear A and B, Cypro-Minoan and the Cypriot Syllabary". Pasiphae. 8: 189–196.
+Steele, Philippa M. (2013a). A Linguistic History of Ancient Cyprus: The non-Greek languages, and their relations with Greek, c. 1600–300 BC. Cambridge University Press. doi:10.1017/CBO9781107337558. ISBN 9781107042865.
+Steele, Philippa M. (2013b). Steele, Philippa M. (ed.). Syllabic writing in Cyprus and its context. Cambridge University Press. doi:10.1017/CBO9781139208482. ISBN 9781108442343.
+Steele, Philippa M. (2018). Writing and Society in Ancient Cyprus. Cambridge University Press. doi:10.1017/9781316729977. ISBN 9781107169678. S2CID 166103644.

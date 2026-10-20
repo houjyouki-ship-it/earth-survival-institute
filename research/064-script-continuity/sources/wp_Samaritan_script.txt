@@ -1,0 +1,61 @@
+URL: https://en.wikipedia.org/wiki/Samaritan_script
+The Samaritan Hebrew script, or simply Samaritan script, is the alphabet used by the Samaritans for their religious and liturgical writings. It serves as the script of the Samaritan Pentateuch, of texts in Samaritan Hebrew, and of commentaries and translations in Samaritan Aramaic and occasionally Arabic.
+Historically, the Samaritan script is a direct descendant of the paleo-Hebrew alphabet, the script in which much of the Hebrew Bible was originally written and which was used by the people of Israel and Judah during the Iron Age. In classical antiquity, the better-known "square" Hebrew alphabet—a stylized form of the Aramaic script known as Ashurit (אשורי, “Assyrian”)—came into use and, from the period of the Babylonian exile onward, became the standard script of Jewish writing. Paleo-Hebrew letter forms, however, continued to appear on Jewish coinage and in certain sacred contexts, while both paleo-Hebrew and Aramaic scripts are attested among the Samaritans in this period.
+
+The precise date of the Samaritan script's emergence is debated. Some scholars have argued that it diverged from paleo-Hebrew in the late Hasmonean or early Roman period. More recent epigraphic and archaeological research, however, indicates that the script was developed in the 4th century CE. Inscriptions, mosaic texts, and inscribed pottery lamps attest to its use from Late Antiquity onward.
+
+
+== History ==
+The Samaritan script derives from the ancient paleo-Hebrew alphabet, which was used in ancient Israel during the Iron Age. Although most Jews adopted the square Aramaic ("Jewish") script during the Second Temple period, paleo-Hebrew letter forms were preserved on Jewish coins from the First Jewish Revolt (66–70 CE) and the Bar Kokhba Revolt (132–135 CE). Samaritan traditions and Jewish sources (e.g., the Babylonian Talmud, Sanhedrin 21b) suggest that the Samaritans continued to use paleo-Hebrew for sacred texts into Late Antiquity, possibly as late as the 3rd century CE.
+Scholars differ on the precise date of the Samaritan script's emergence. Frank Moore Cross, James Purvis, and others argued that it branched from the paleo-Hebrew alphabet during the late Hasmonean or early Roman period, while some have suggested a 1st-century CE origin. More recent research by Dan Barag, based on epigraphic and archaeological evidence—such as inscribed lamps, mosaic inscriptions, and architectural fragments—indicates that the Samaritan alphabet was created in the 4th century CE.
+Inscriptions from Mount Gerizim provide important early evidence for the history of Samaritan writing. Hundreds of texts in Aramaic and Jewish "square" script, along with a handful in palaeo-Hebrew, have been discovered at the site, all predating the destruction of the Samaritan temple by John Hyrcanus in 113/112 BCE. None of these are written in the Samaritan script, a fact that suggests the alphabet was not yet in use during this period.
+The first clear attestations of the Samaritan script appear only several centuries later. A notable example is the Emmaus Capital, a limestone capital inscribed with a Samaritan blessing alongside the Greek invocation Εἷς Θεός ('One God'). Although some scholars once proposed a 1st-century CE date, the use of this Greek formula indicates that the inscription cannot predate the mid-4th century CE. Similarly, the lintel from Beit el-Ma, discovered near Shechem, bears a Samaritan version of the Ten Commandments. Scholarly opinion on its dating has ranged from the 3rd to the 12th century, but the prevailing view places it within the late Roman or Byzantine period, between the 4th and 6th centuries CE.
+
+The use of the script by the Samaritans is documented as early as the 4th century CE by the Christian scholar Jerome, who records having seen authentic examples of Samaritan writing. In one of his works, he remarks:That twenty-two letters are in use among the Hebraei [Jews] is also confirmed by the language of the Syri and the Chaldaei, which is to a large degree closely related. [...] The Samaritans also are accustomed to write the Pentateuch of Moses in the same number of letters, but differing in their shapes and terminations. And it is certain that Ezra, the scribe and teacher of the Law, subsequent to the capture of Jerusalem and the re-dedication of the Temple under Zorababel, invented different letters, which we now use, while up to that time the characters used by the Samaritans and the Hebraei had been the same.
+
+During the Byzantine period, the Samaritan script appears in mosaic inscriptions discovered in several Samaritan synagogues. At Sha'alvim, a mosaic dating to the 4th–6th centuries CE preserves the biblical acclamation "The Lord will reign forever and ever" (Exod. 15:18), placed near the site of the bimah and Ark of the Law. Other mosaic inscriptions in the Samaritan script have been found at El-Khirbe and Tzur Natan. At Beit She'an, a mosaic inscription in Samaritan script was uncovered in a room adjoining a synagogue. Further evidence for the Samaritan script in Late Antiquity comes from inscribed amulets, rings, and bracelets (many from the coastal plain and the Samarian hills), most dating between the late Roman and Byzantine periods (4th–6th centuries CE).
+According to Dan Barag, the development of a distinct Samaritan script should be seen as part of a wider effort to preserve Samaritan religious and cultural identity during a period of Christian expansion and missionary activity. The adoption of a new alphabet derived from the older Hebrew script may also have reflected a desire to distance Samaritan practice from Jewish traditions considered outdated. Prominent figures such as the high priest Baba Rabba or the scholar Marqah might have been connected with this cultural revival, although there is no direct evidence of their involvement. What is clear, however, is that the emergence of the script formed part of a deliberate process of differentiation and self-preservation.
+
+
+== Research history ==
+The Samaritan alphabet first became known to the Western world with the publication of a manuscript of the Samaritan Pentateuch in 1631 by Jean Morin. In 1616 the traveler Pietro della Valle had purchased a copy of the text in Damascus, and this manuscript, now known as Codex B, was deposited in a Parisian library.
+
+
+== Letters ==
+
+
+=== Consonants ===
+
+A cursive style of the alphabet also exists.
+
+
+=== Niqqud ===
+
+
+=== Punctuation ===
+
+
+== Unicode ==
+
+Samaritan script was added to the Unicode Standard in October 2009 with the release of version 5.2.
+The Unicode block for Samaritan is U+0800–U+083F:
+
+
+== See also ==
+Samaritan vocalization
+Samaritan source sign
+
+
+== References ==
+
+
+== Bibliography ==
+Barag, Dan (2009). "Samaritan writing and writings". From Hellenism To Islam: Cultural and Linguistic Change in the Roman Near East. Cambridge University Press. pp. 303–323. ISBN 978-0-521-87581-3.
+Flôrenṭîn, Moše (2005). Late Samaritan Hebrew: A Linguistic Analysis of Its Different Types. Brill. ISBN 978-900413841-4.
+
+
+== External links ==
+A Samaritan Bible, at the British library Archived 2013-11-03 at the Wayback Machine
+Omniglot.com - Samaritan alphabet
+Link to free Samaritan font (consonants only as of 2010)
+Online keyboard for Samaritan script

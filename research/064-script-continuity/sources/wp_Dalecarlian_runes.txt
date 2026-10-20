@@ -1,0 +1,33 @@
+URL: https://en.wikipedia.org/wiki/Dalecarlian_runes
+The Dalecarlian runes, or dalrunes (Swedish: Dalrunor), were a late version of the runic script that was in use in the Swedish province of Dalarna until the 20th century. The province has consequently been called the "last stronghold of the Germanic script".
+
+
+== History and usage ==
+When Carl Linnaeus visited Älvdalen in Dalarna in 1734, he made the following note in his diary:
+
+The peasants in the community here, apart from using rune staves, still today write their names and ownership marks with runic letters, as is seen on walls, corner stones, bowls, etc. Which one does not know to be still continued anywhere else in Sweden.
+The Dalecarlian runes were derived from the medieval runes, but the runic letters were combined with Latin ones, and Latin letters would progressively replace the runes. At the end of the 16th century, the Dalecarlian runic inventory was almost exclusively runic, but during the following centuries more and more individual runes were replaced with Latin characters. In its last stage almost every rune had been replaced with a Latin letter, or with special versions that were influenced by Latin characters.
+Although the use of runes in Dalarna is an ancient tradition, the oldest dated inscription is from the last years of the 16th century. It is a bowl from the village of Åsen which says "Anders has made (this) bowl anno 1596". Scholars have registered more than 200 Dalecarlian runic inscriptions, mostly on wood, and they can be seen on furniture, bridal boxes, on the buildings of shielings, kitchen blocks, bowls, measuring sticks, etc. Most inscriptions are brief but there are also longer ones.
+The Dalecarlian runes remained in some use up to the 20th century with their last known user dying in 1980. Some discussion remains on whether their use was an unbroken tradition throughout this period or whether people in the 19th and 20th centuries learned runes from books written on the subject. The character inventory was mainly used for transcribing Swedish by people who spoke  Elfdalian as their native language.
+
+
+== Table ==
+The following table, published in the scholarly periodical Fornvännen in 1906, presents the evolution of the Dalecarlian runes from the earliest attested ones in the late 16th century until a version from 1832:
+
+
+== Representation in Unicode ==
+Dalecarlian runes are not explicitly encoded in Unicode. However, due to their similarity to characters used in other runerows and certain other symbols, many can still be typed or at least somewhat well approximated. A few are sufficiently similar in appearance to Latin characters, or to characters typically identified as symbols, that those characters could serve as substitutes for their respective runes.
+In 2014 an inscription of a Dalrunic alphabet was found on the walls of a very old house in Älvdalen. In this case the Dalrunes were sorted in the order of the sounds of the characters in the Latin alphabet (A B C), rather than in the order of the runic futhark (F U Þ). The Dalrunes were dated to the end of the 16th century, and the house was dendrochronologically dated to 1285.
+The alphabetic order of the runes shows that each rune represents the sounds of a Latin character. Consequently, the Dalrunes could instead be represented using glyphs from the Basic Latin Unicode block. However, to do so would be to take an approach similar to Wingdings in that each glyph would only be understood by a computer to be a Latin letter (albeit in a runic shape), not a rune. A Dalrunic alphabet font is available on GitHub. It uses the Basic Latin Unicode block as its base.
+
+
+== See also ==
+List of runestones
+
+
+== References ==
+
+
+== Bibliography ==
+Enoksen, Lars Magnar (1998), Runor: historia, tydning, tolkning, Falun: Historiska Media, ISBN 91-88930-32-7.
+Jansson, Sven BF (1997) [1987], Runes in Sweden, Stockholm: Gidlund, ISBN 91-7844-067-X.

@@ -1,0 +1,252 @@
+URL: https://en.wikipedia.org/wiki/Runes
+Runes are the letters in a set of related alphabets, known as rune-rows, runic alphabets or futharks, native to the Germanic peoples. Runes were primarily used to represent sound values (phonemes) but they were also used to represent the concepts after which they are named (ideographic runes). Runology is the academic study of the runic alphabets, runic inscriptions, runestones, and their history. Runology forms a specialised branch of Germanic philology.
+The earliest secure runic inscriptions date from at latest AD 150, with a possible earlier inscription dating to AD 50 and Tacitus's possible description of rune use from around AD 98. The Hole Runestone dates from between BC 50 and AD 275. Runes were generally replaced by the Latin alphabet as the cultures that had used runes underwent Christianisation, by approximately AD 700 in central Europe and 1100 in northern Europe. However, the use of runes persisted for specialized purposes beyond this period. Up until the early 20th century, runes were still used in rural Sweden for decorative purposes in Dalarna and on runic calendars.
+The three best-known runic alphabets are the Elder Futhark (c. AD 150–800), the Anglo-Saxon Futhorc (400–1100), and the Younger Futhark (800–1100). The Younger Futhark is divided further into the long-branch runes (also called Danish, although they were also used in Norway, Sweden, and Frisia); short-branch, or Rök, runes (also called Swedish–Norwegian, although they were also used in Denmark); and the stavlösa, or Hälsinge, runes (staveless runes). The Younger Futhark developed further into the medieval runes (1100–1500), and the Dalecarlian runes (c. 1500–1800).
+The exact development of the early runic alphabet remains unclear but the script ultimately stems from the Phoenician alphabet. Early runes may have developed from the Raetic, Venetic, Etruscan, or Old Latin as candidates. At the time, all of these scripts had the same angular letter shapes suited for epigraphy, which would become characteristic of the runes and related scripts in the region.
+The process of transmission of the script is unknown. The oldest clear inscriptions are found in Denmark and northern Germany. A "West Germanic hypothesis" suggests transmission via Elbe Germanic groups, while a "Gothic hypothesis" presumes transmission via East Germanic expansion. Runes continue to be used in a wide variety of ways in modern popular culture.
+
+
+== Name ==
+
+
+=== Etymology ===
+
+The name stems from a Proto-Germanic form reconstructed as *rūnō, which may be translated as 'secret, mystery; secret conversation; rune'. It is the source of Gothic rūna (𐍂𐌿𐌽𐌰, 'secret, mystery, counsel'), Old English rūn ('whisper, mystery, secret, rune'), Old Saxon rūna ('secret counsel, confidential talk'), Middle Dutch rūne ('id'), Old High German rūna ('secret, mystery'), and Old Norse rún ('secret, mystery, rune'). The earliest Germanic epigraphic attestation is the Proto-Norse rūnō (accusative singular), found on the Einang stone (AD 350–400) and the Noleby stone (AD 450).
+The term is related to Proto-Celtic *rūna ('secret, magic'), which is attested in Old Irish rún ('mystery, secret'), Middle Welsh rin ('mystery, charm'), Middle Breton rin ('secret wisdom'), and possibly in the ancient Gaulish Cobrunus (< *com-rūnos 'confident'; cf. Middle Welsh cyfrin, Middle Breton queffrin, Middle Irish comrún 'shared secret, confidence') and Sacruna (< *sacro-runa 'sacred secret'), as well as in Lepontic Runatis (< *runo-ātis 'belonging to the secret'). However, it is difficult to tell whether they are cognates (linguistic siblings from a common origin), or if the Proto-Germanic form reflects an early borrowing from Celtic. Various connections have been proposed with other Indo-European terms (for example: Sanskrit ráuti रौति 'roar', Latin rūmor 'noise, rumor'; Ancient Greek eréō ἐρέω 'ask' and ereunáō ἐρευνάω 'investigate'), although linguist Ranko Matasović finds them difficult to justify for semantic or linguistic reasons. Because of this, some scholars have speculated that the Germanic and Celtic words may have been a shared religious term borrowed from an unknown non-Indo-European language.
+
+
+=== Related terms ===
+In early Germanic, a rune could also be referred to as *rūna-stabaz, a compound of *rūnō and *stabaz ('staff; letter'). It is attested in Old Norse rúna-stafr, Old English rún-stæf, and Old High German rūn-stab. Other Germanic terms derived from *rūnō include *runōn ('counsellor'), *rūnjan and *ga-rūnjan ('secret, mystery'), *raunō ('trial, inquiry, experiment'), *hugi-rūnō ('secret of the mind, magical rune'), and *halja-rūnō ('witch, sorceress'; literally '[possessor of the] Hel-secret'). It is also often part of personal names, including Gothic Runilo (𐍂𐌿𐌽𐌹𐌻𐍉), Frankish Rúnfrid, Old Norse Alfrún, Dagrún, Guðrún, Sigrún, Ǫlrún, Old English Ælfrún, and Lombardic Goderūna.
+The Finnish word runo, meaning 'poem', is an early borrowing from Proto-Germanic, and the source of the term for rune, riimukirjain, meaning 'scratched letter'. The root may also be found in the Baltic languages, where Lithuanian runoti means both 'to cut (with a knife)' and 'to speak'.
+The Old English form rún survived into the early modern period as roun, which is now obsolete. The modern English rune is a later formation that is partly derived from Late Latin runa, Old Norse rún, and Danish rune.
+
+
+== History and use ==
+
+Runes were in use among the Germanic peoples from the 1st or 2nd century AD. This period corresponds to the late Common Germanic stage linguistically, with a continuum of dialects not yet clearly separated into the three branches of later centuries: North Germanic, West Germanic, and East Germanic.
+No distinction is made in surviving runic inscriptions between long and short vowels, although such a distinction was certainly present phonologically in the spoken languages of the time. Similarly, there are no signs for labiovelars in the Elder Futhark (such signs were introduced in both the Anglo-Saxon futhorc and the Gothic alphabet as variants of p; see peorð.)
+
+
+=== Origins ===
+
+The formation of the Elder Futhark was complete by the early 5th century, with the Kylver Stone being the first complete ordering of the whole futhark, as well as of the p rune.
+Specifically, the Rhaetic alphabet of Bolzano is often advanced as a candidate for the origin of the runes, with only five Elder Futhark runes (ᛖ e, ᛇ ï, ᛃ j, ᛜ ŋ, ᛈ p) having no counterpart in the Bolzano alphabet. Scandinavian scholars tend to favor derivation from the Latin alphabet itself over Rhaetic candidates. A "North Etruscan" thesis is supported by the inscription on the Negau helmet B dating to the 2nd century BC. This is in a northern Etruscan alphabet but features a Germanic name, Harigast. Giuliano and Larissa Bonfante suggest that runes derived from some North Italic alphabet, specifically Venetic: But since Romans conquered Veneto after 200 BC, and then the Latin alphabet became prominent and Venetic culture diminished in importance, Germanic people could have adopted the Venetic alphabet within the 3rd century BC or even earlier.
+The angular shapes of the runes are shared with most contemporary alphabets of the period that were used for carving in wood or stone. There are no horizontal strokes: when carving a message on a flat staff or stick, it would be along the grain, thus both less legible and more likely to split the wood. This characteristic is also shared by other alphabets, such as the early form of the Latin alphabet used for the Duenos inscription, but it is not universal, especially among early runic inscriptions, which frequently have variant rune shapes, including horizontal strokes. Runic manuscripts (that is written rather than carved runes, such as Codex Runicus) also show horizontal strokes.
+The "West Germanic hypothesis" speculates on an introduction by West Germanic tribes. This hypothesis is based on claiming that the earliest inscriptions of the 2nd and 3rd centuries, found in bogs and graves around Jutland (the Vimose inscriptions), exhibit word endings that, being interpreted by Scandinavian scholars to be Proto-Norse, are considered unresolved and long having been the subject of discussion.
+In the early Runic period, differences between Germanic languages are generally presumed to be small. Another theory presumes a Northwest Germanic unity preceding the emergence of Proto-Norse proper from roughly the 5th century. An alternative suggestion explaining the impossibility of classifying the earliest inscriptions as either North or West Germanic is forwarded by È. A. Makaev, who presumes a "special runic koine", an early "literary Germanic" employed by the entire Late Common Germanic linguistic community after the separation of Gothic (2nd to 5th centuries), while the spoken dialects may already have been more diverse.
+
+
+=== The Meldorf fibula and Tacitus's Germania ===
+With the potential exception of the Meldorf fibula, a possible runic inscription found in Schleswig-Holstein dating to around 50 AD, the earliest reference to runes (and runic divination) may occur in the Roman Senator Tacitus's ethnographic Germania. Dating from around 98 CE, Tacitus describes the Germanic peoples as utilizing a divination practice involving rune-like inscriptions:
+
+For divination and casting lots they have the highest possible regard. Their procedure for casting lots is uniform: They break off the branch of a fruit tree and slice into strips; they mark these by certain signs and throw them, as random chance will have it, on to a white cloth. Then a state priest, if the consultation is a public one, or the father of the family, if it is private, prays to the gods and, gazing to the heavens, picks up three separate strips and reads their meaning from the marks scored on them. If the lots forbid an enterprise, there can be no further consultation about it that day; if they allow it, further confirmation by divination is required.
+As Victoria Symons summarizes, "If the inscriptions made on the lots that Tacitus refers to are understood to be letters, rather than other kinds of notations or symbols, then they would necessarily have been runes, since no other writing system was available to Germanic tribes at this time."
+
+
+=== Early inscriptions ===
+
+Runic inscriptions from the 400-year period 150–550 AD are described as "Period I". These inscriptions are generally in Elder Futhark, but the set of letter shapes and bindrunes employed is far from standardized. Notably the j, s, and ŋ runes undergo considerable modifications, while others, such as p and ï, remain unattested altogether prior to the first full futhark row on the Kylver Stone (c. 400 AD).
+Artifacts such as spear heads or shield mounts have been found that bear runic marking that may be dated to 200 AD, as evidenced by artifacts found across northern Europe in Schleswig (North Germany), Funen, Zealand, Jutland (Denmark), and Scania (Sweden). Earlier—but less reliable—artifacts have been found in Meldorf, Süderdithmarschen, in northern Germany; these include brooches and combs found in graves, most notably the Meldorf fibula, and are supposed to have the earliest markings resembling runic inscriptions.
+
+
+=== Magical or divinatory use ===
+
+The stanza 157 of Hávamál attribute to runes the power to bring that which is dead back to life. In this stanza, Odin recounts a spell:
+
+The earliest runic inscriptions found on artifacts give the name of either the craftsman or the proprietor, or sometimes, remain a linguistic mystery. Due to this, it is possible that the early runes were not used so much as a simple writing system, but rather as magical signs to be used for charms. Although some say the runes were used for divination, there is no direct evidence to suggest they were ever used in this way. The name rune itself, taken to mean "secret, something hidden", seems to indicate that knowledge of the runes was originally considered esoteric, or restricted to an elite. The 6th-century Björketorp Runestone warns in Proto-Norse using the word rune in both senses:
+
+Haidzruno runu, falahak haidera, ginnarunaz. Arageu haeramalausz uti az. Weladaude, sa'z þat barutz. Uþarba spa.
+I, master of the runes(?) conceal here runes of power. Incessantly (plagued by) maleficence, (doomed to) insidious death (is) he who breaks this (monument). I prophesy destruction / prophecy of destruction.
+
+The same curse and use of the word, rune, is also found on the Stentoften Runestone. There also are some inscriptions suggesting a medieval belief in the magical significance of runes, such as the Franks Casket (AD 700) panel.
+Charm words, such as auja, laþu, laukaʀ, and most commonly, alu, appear on a number of Migration period Elder Futhark inscriptions as well as variants and abbreviations of them. Much speculation and study has been produced on the potential meaning of these inscriptions. Rhyming groups appear on some early bracteates that also may be magical in purpose, such as salusalu and luwatuwa. Further, an inscription on the Gummarp Runestone (500–700 AD) gives a cryptic inscription describing the use of three runic letters followed by the Elder Futhark f-rune written three times in succession.
+Nevertheless, it has proven difficult to find unambiguous traces of runic "oracles": although Norse literature is full of references to runes, it nowhere contains specific instructions on divination. There are at least three sources on divination with rather vague descriptions that may, or may not, refer to runes: Tacitus's 1st-century Germania, Snorri Sturluson's 13th-century Ynglinga saga, and Rimbert's 9th-century Vita Ansgari.
+The first source, Tacitus's Germania, describes "signs" chosen in groups of three and cut from "a nut-bearing tree", although the runes do not seem to have been in use at the time of Tacitus' writings. A second source is the Ynglinga saga, where Granmar, the king of Södermanland, goes to Uppsala for the blót. There, the "chips" fell in a way that said that he would not live long (Féll honum þá svo spánn sem hann mundi eigi lengi lifa). These "chips", however, are easily explainable as a blótspánn (sacrificial chip), which was "marked, possibly with sacrificial blood, shaken, and thrown down like dice, and their positive or negative significance then decided".
+The third source is Rimbert's Vita Ansgari, where there are three accounts of what some believe to be the use of runes for divination, but Rimbert calls it "drawing lots". One of these accounts is the description of how a renegade Swedish king, Anund Uppsale, first brings a Danish fleet to Birka, but then changes his mind and asks the Danes to "draw lots". According to the story, this "drawing of lots" was quite informative, telling them that attacking Birka would bring bad luck and that they should attack a Slavic town instead. The tool in the "drawing of lots", however, is easily explainable as a hlautlein (lot-twig), which according to Foote and Wilson would be used in the same manner as a blótspánn.
+The lack of extensive knowledge on historical use of the runes has not stopped modern authors from extrapolating entire systems of divination from what few specifics exist, usually loosely based on the reconstructed names of the runes and additional outside influence.
+
+
+=== Medieval use ===
+
+As Proto-Germanic evolved into its later language groups, the words assigned to the runes and the sounds represented by the runes themselves began to diverge somewhat and each culture would create new runes, rename or rearrange its rune names slightly, or stop using obsolete runes completely, to accommodate these changes. Thus, the Anglo-Saxon futhorc has several runes peculiar to itself to represent diphthongs unique to (or at least prevalent in) Old English.
+Some later runic finds are on monuments (runestones), which often contain solemn inscriptions about people who died or performed great deeds. For a long time it was presumed that this kind of grand inscription was the primary use of runes, and that their use was associated with a certain societal class of rune carvers.
+In the mid-1950s, however, approximately 670 inscriptions, known as the Bryggen inscriptions, were found in Bergen. These inscriptions were made on wood and bone, often in the shape of sticks of various sizes, and contained information of an everyday nature—ranging from name tags, prayers (often in Latin), personal messages, business letters, and expressions of affection, to bawdy phrases of a profane and sometimes even of a vulgar nature. Following this find, it is nowadays commonly presumed that, at least in late use, Runic was a widespread and common writing system.
+
+In the later Middle Ages, runes also were used in the clog almanacs (sometimes called Runic staff, Prim, or Scandinavian calendar) of Sweden and Estonia. The authenticity of some monuments bearing Runic inscriptions found in Northern America is disputed; most of them have been dated to modern times.
+
+
+=== Runes in Eddic poetry ===
+In Norse mythology, the runic alphabet is attested to a divine origin (Old Norse: reginkunnr). This is attested as early as on the Noleby Runestone from c. 600 AD that reads Runo fahi raginakundo toj[e'k]a..., meaning "I prepare the suitable divine rune..." and in an attestation from the 9th century on the Sparlösa Runestone, which reads Ok rað runaʀ þaʀ rægi[n]kundu, meaning "And interpret the runes of divine origin". In the Poetic Edda poem Hávamál, Stanza 80, the runes also are described as reginkunnr:
+
+The poem Hávamál explains that the originator of the runes was the major deity, Odin. Stanza 138 describes how Odin received the runes through self-sacrifice:
+
+In stanza 139, Odin continues:
+
+In the Poetic Edda poem Rígsþula another origin is related of how the runic alphabet became known to humans. The poem relates how Ríg, identified as Heimdall in the introduction, sired three sons—Thrall (slave), Churl (freeman), and Jarl (noble)—by human women. These sons became the ancestors of the three classes of humans indicated by their names. When Jarl reached an age when he began to handle weapons and show other signs of nobility, Ríg returned and, having claimed him as a son, taught him the runes. In 1555, the exiled Swedish archbishop Olaus Magnus recorded a tradition that a man named Kettil Runske had stolen three rune staffs from Odin and learned the runes and their magic.
+
+
+== Runic alphabets ==
+Futhark is a collective term in runology used to describe all runic alphabets that follow the Germanic alphabetical order of F, U, Þ, A, R, K, etc. In English, it is also common to call each futhark after its regional composition, since the original A-rune and K-rune shifted regionally through time: "Futhark" (ᚠᚢᚦᚨᚱᚲ) can specify the Elder runic row, "Futhorc" (ᚠᚢᚦᚩᚱᚳ) can specify the Anglo-Frisian runic row, and "Futhork" (ᚠᚢᚦᚯᚱᚴ) can specify the Younger runic row. The younger can further be divided into "Futhąrk" and "Futhork" based on the early and late transliteration of the younger Óss-rune (ᚯ).
+
+
+=== Elder Futhark (2nd to 8th centuries) ===
+
+The Elder Futhark, used for writing Proto-Norse, consists of 24 runes that often are arranged in three groups of eight; each group is referred to as an ætt (Old Norse, meaning 'clan, group'). The earliest known sequential listing of the full set of 24 runes dates to approximately AD 400 and is found on the Kylver Stone in Gotland, Sweden.
+Each rune most likely had a name which was chosen to represent the sound of the rune itself. The names are, however, not directly attested for the Elder Futhark themselves. Germanic philologists reconstruct names in Proto-Germanic based on the names given for the runes in the later alphabets attested in the rune poems and the linked names of the letters of the Gothic alphabet. For example, the letter /a/ was named from the runic letter  called Ansuz. An asterisk before the rune names means that they are unattested reconstructions. The 24 Elder Futhark runes are the following:
+
+
+==== Notes ====
+
+
+=== Anglo-Saxon runes (5th to 11th centuries) ===
+
+The Anglo-Saxon runes, also known as the futhorc (sometimes written fuþorc), are an extended alphabet, consisting of 29, and later 33, characters. It was probably used from the 5th century onwards. There are competing theories as to the origins of the Anglo-Saxon (also called Anglo-Frisian) Futhorc. One theory proposes that it was developed in Frisia and later spread to England, while another holds that Scandinavians introduced runes to England, where the futhorc was modified and exported to Frisia. Some examples of futhorc inscriptions are found on the Thames scramasax, in the Vienna Codex, in Cotton Otho B.x (Anglo-Saxon rune poem) and on the Ruthwell Cross.
+The Anglo-Saxon rune poem gives the following characters and names: ᚠ feoh, ᚢ ur, ᚦ þorn, ᚩ os, ᚱ rad, ᚳ cen, ᚷ gyfu, ᚹ ƿynn, ᚻ hægl, ᚾ nyd, ᛁ is, ᛄ ger, ᛇ eoh, ᛈ peorð, ᛉ eolh, ᛋ sigel, ᛏ tir, ᛒ beorc, ᛖ eh, ᛗ mann, ᛚ lagu, ᛝ ing, ᛟ œthel, ᛞ dæg, ᚪ ac, ᚫ æsc, ᚣ yr, ᛡ ior, ᛠ ear.
+Extra runes attested to outside of the rune poem include ᛢ cƿeorð, ᛣ calc, ᚸ gar, and ᛥ stan. Some of these additional letters have only been found in manuscripts. Feoh, þorn, and sigel stood for [f], [θ], and [s] in most environments, but voiced to [v], [ð], and [z] between vowels or voiced consonants. Gyfu and ƿynn stood for the letters yogh and wynn, which became [g] and [w] in Middle English.
+
+
+=== "Marcomannic runes" (8th to 9th centuries) ===
+
+A runic alphabet consisting of a mixture of Elder Futhark with Anglo-Saxon futhorc is recorded in a treatise called De Inventione Litterarum, ascribed to Hrabanus Maurus and preserved in 8th- and 9th-century manuscripts mainly from the southern part of the Carolingian Empire (Alemannia, Bavaria). The manuscript text attributes the runes to the Marcomanni, quos nos Nordmannos vocamus (Marcomanni, whom we call Nordmanni), and hence traditionally the alphabet is called "Marcomannic runes", although it has no connection with the Marcomanni, and rather is an attempt by Carolingian scholars to represent all letters of the Latin alphabets with runic equivalents.
+
+
+=== Younger Futhark (8th to 11th centuries) ===
+
+The Younger Futhark, also called Scandinavian Futhark, is a reduced form of the Elder Futhark, consisting of only 16 characters. The reduction correlates with phonetic changes when Proto-Norse evolved into Old Norse. They are found in Scandinavia and Viking Age settlements abroad, probably in use from the 8th century onward. They are divided into long-branch (Danish) and short-twig (Swedish and Norwegian) runes.  The difference between the two versions is a matter of controversy. A general opinion is that the difference between them was functional (viz., the long-branch runes were used for documentation on stone, whereas the short-twig runes were in everyday use for private or official messages on wood).
+
+
+=== Medieval runes (12th to 15th centuries) ===
+
+In the Middle Ages, the Younger Futhark in Scandinavia was expanded, so that it once more contained one sign for each phoneme of the Old Norse language. Dotted variants of voiceless signs were introduced to denote the corresponding voiced consonants, or vice versa, voiceless variants of voiced consonants, and several new runes also appeared for vowel sounds. Inscriptions in medieval Scandinavian runes show a large number of variant rune forms, and some letters, such as s, c, and z often were used interchangeably.
+Medieval runes were in use until the 15th century. Of the total number of Norwegian runic inscriptions preserved today, most are medieval runes. Notably, more than 600 inscriptions using these runes have been discovered in Bergen since the 1950s, mostly on wooden sticks (the so-called Bryggen inscriptions). This indicates that runes were in common use side by side with the Latin alphabet for several centuries. Indeed, some of the medieval runic inscriptions are written in Latin.
+
+
+=== Dalecarlian runes (16th to 19th centuries) ===
+
+According to Carl-Gustav Werner, "In the isolated province of Dalarna in Sweden a mix of runes and Latin letters developed." The Dalecarlian runes came into use in the early 16th century and remained in some use up to the 20th century. Some discussion remains on whether their use was an unbroken tradition throughout this period or whether people in the 19th and 20th centuries learned runes from books written on the subject. The character inventory was used mainly for transcribing Swedish in areas where Elfdalian was predominant.
+The Dalecarlian runes attracted interest of Johannes Bureus and his exploration of them was one of the first ground stones of the science which later became known as runology, despite the fact that Bureus saw runes equal to Hebrew as a sacred alphabet having magical force.
+
+
+=== Other Swedish post-Reformation runes ===
+Runes in Sweden in the 19th century were also used in areas on its northern coast, such as in Medelpad, Hassela and Haverö, but they were very different from those used in Dalarna.
+Similarly to Norway, runes were sometimes used in magic books in Sweden.
+
+
+=== Norwegian post-Reformation runes ===
+
+Approximately two hundred runic inscriptions made by Norwegian farmers in 17th–20th centuries across the whole of Norway are attested, but origins of this runic tradition are uncertain. During the 15th and 16th centuries runes were known to many farmers in Gotland and Iceland, and to educated people in Sweden, Denmark and Norway, like Bent Bille, Jacob de la Gardie, Ole Worm, Arild Huitfeldt and Mogens Gyldenstierne. But the runes, which were used by Norwegian farmers, are attested only from the 17th century, mainly in Hardanger, Telemark and south-western Trøndelag. These runes were used for personal names and Roman numerals on different objects, sometimes in combination with rosemåling, and also used in magic books, on musical instruments, and on gravestones.
+This runic tradition seems to be of newer origin, and brought to the farmers by priests (like Gert Miltzow, Peder Alfssøn and Hans Jacob Wille) and other educated people, since there is no good evidence of the use of runes in Norway by farmers in the 15th and 16th centuries, with very few inscriptions perhaps dating from the 16th century.
+
+
+== Differences from Roman script ==
+While Roman script would ultimately replace runes in most contexts, it differed significantly from runic script. For example, on the differences between the use of Anglo-Saxon runes and the Latin script that would come to replace them, runologist Victoria Symons says:
+
+As well as being distinguished from the roman alphabet in visual appearance and letter order, the fuþorc is further set apart by the fact that, unlike their roman counterparts, runic letters are often associated not only with sound values but also with names. These names are often nouns and, in almost all instances, they begin with the sound value represented by the associated letter. ... The fact that each rune represents [both] a sound value and a word gives this writing system a multivalent quality that further distinguishes it from roman script. A roman letter simply represents its sound value. When used, for example, for the purpose of pagination, such letters can assume added significance, but this is localised to the context of an individual manuscript. Runic letters, on the other hand, are inherently multivalent; they can, and often do, represent several different kinds of information simultaneously. This aspect of runic letters is one that is frequently employed and exploited by writers and scribes who include them in their manuscripts.
+
+
+== Ideographic runes ==
+
+In addition to their historic use as letters, runes were also used to represent their names as ideographs. Such instances are sometimes referred to by way of the modern German loanword Begriffsrunen, meaning 'concept-runes' (singular Begriffsrune), but the descriptive term "ideographic runes" is also used.
+Such were used throughout the 1st millennium and into the Medieval Period, utilized by both Norse and Anglo-Saxon runic writers.
+
+
+== Runology ==
+
+The modern study of runes was initiated during the Renaissance, by Johannes Bureus (1568–1652). Bureus viewed runes as holy or magical in a kabbalistic sense. The study of runes was continued by Olof Rudbeck Sr (1630–1702) and presented in his collection Atlantica. Anders Celsius (1701–1744) further extended the science of runes and travelled around the whole of Sweden to examine the runstenar. From the "golden age of philology" in the 19th century, runology formed a specialized branch of Germanic linguistics.
+
+
+== Body of inscriptions ==
+
+The largest group of surviving Runic inscription are Viking Age Younger Futhark runestones, commonly found in Denmark and Sweden. Another large group are medieval runes, most commonly found on small objects, often wooden sticks. The largest concentration of runic inscriptions are the Bryggen inscriptions found in Bergen, more than 650 in total. Elder Futhark inscriptions number around 350, about 260 of which are from Scandinavia, of which about half are on bracteates. Anglo-Saxon futhorc inscriptions number around 100 items.
+
+
+== Modern use ==
+
+Runic alphabets have seen numerous uses since the 18th-century Viking revival, in Scandinavian Romantic nationalism (Gothicismus) and Germanic occultism in the 19th century, and in the context of the Fantasy genre and of modern Germanic paganism in the 20th century.
+
+
+=== Esotericism ===
+
+
+==== Germanic mysticism ====
+
+The pioneer of the Armanist branch of Ariosophy and one of the more important figures in esotericism in Germany and Austria in the late 19th and early 20th century was the Austrian occultist, mysticist, and völkisch author, Guido von List. In 1908, he published in Das Geheimnis der Runen ("The Secret of the Runes") a set of eighteen so-called, "Armanen runes", based on the Younger Futhark and runes of List's own introduction, which allegedly were revealed to him in a state of temporary blindness after cataract operations on both eyes in 1902. 
+
+
+==== Nazism ====
+
+The use of runes in Germanic mysticism, notably List's "Armanen runes" and the derived "Wiligut runes" by Karl Maria Wiligut, played a certain role in Nazi symbolism. The fascination with runic symbolism was mostly limited to Heinrich Himmler, and not shared by the other members of the Nazi top echelon. Consequently, runes appear mostly in insignia associated with the Schutzstaffel ("SS"), the paramilitary organization led by Himmler. Wiligut is credited with designing the SS-Ehrenring, which displays a number of "Wiligut runes".
+More recently, neo-Nazis in Australia have been using futhark runes to signal their beliefs, in particular in the wake of the outlawing of the major group, National Socialist Network, ahead of new hate speech laws passed in January 2026.
+
+
+==== Modern paganism and esotericism ====
+Runes are popular in New Age esotericism, modern Germanic paganism, and to a lesser extent in other forms of modern paganism. Various systems of Runic divination have been published since the 1980s, notably by Ralph Blum (1982), Stephen Flowers (1984, onward), Stephan Grundy (1990), and Nigel Pennick (1995).
+The Uthark theory originally was proposed as a scholarly hypothesis by Sigurd Agrell in 1932.
+In 2002, Swedish esotericist Thomas Karlsson popularized this "Uthark" runic row, which he refers to as, the "night side of the runes", in the context of modern occultism.
+
+
+=== Bluetooth ===
+
+The Bluetooth logo is a bind rune (a ligature) of two runes of the Younger Futhark, ᚼ hagall and ᛒ bjarkan, equivalent to the letters H and B, that are the initials of Harald Bluetooth, who was a king of Denmark from the Viking Age.
+
+
+=== Fantasy literature ===
+
+Runes play an important role in the horror story "Casting the Runes", by the academic Medievalist and ghost story author M. R. James, first published in his 1911 collection "More Ghost Stories of an Antiquary". In J. R. R. Tolkien's novel The Hobbit (1937), the Anglo-Saxon runes are used on a map and on the title page to emphasize its connection to the Dwarves. They also were used in the initial drafts of The Lord of the Rings, but later were replaced by the Cirth rune-like alphabet invented by Tolkien, used to write the language of the Dwarves, Khuzdul. Following Tolkien, historical and fictional runes appear commonly in modern popular culture, particularly in fantasy literature.
+
+
+=== Video, board and role-playing games ===
+Runes feature extensively in many video games that incorporate themes from early Germanic cultures, including Ultima (series), Hellblade: Senua's Sacrifice, Jøtun, Northgard and God of War. They are used for a range of purposes including puzzles, names, symbols, decoration and on runestones that provide information about Nordic mythology and background for the game's narrative.
+The 1992 video game Heimdall used runes as "magical symbols" associated with unnatural forces. Role-playing games, such as the Ultima series, use a runic font for in-game signs and printed maps and booklets, and Metagaming's The Fantasy Trip used rune-based cipher for clues and jokes throughout its publications.
+
+
+== Unicode ==
+
+Runic alphabets were added to the Unicode Standard in September, 1999 with the release of version 3.0.
+The Unicode block for Runic alphabets is U+16A0–U+16FF. It is intended to encode the letters of the Elder Futhark, the Anglo-Frisian runes, and the Younger Futhark long-branch and short-twig (but not the staveless) variants, in cases where cognate letters have the same shape resorting to "unification".
+The block as of Unicode 3.0 contained 81 symbols: 75 runic letters (U+16A0–U+16EA), 3 punctuation marks (Runic Single Punctuation U+16EB ᛫, Runic Multiple Punctuation U+16EC ᛬ and Runic Cross Punctuation U+16ED ᛭), and three runic symbols that are used in early modern runic calendar staves ("Golden number Runes", Runic Arlaug Symbol U+16EE ᛮ, Runic Tvimadur Symbol U+16EF ᛯ, Runic Belgthor Symbol U+16F0 ᛰ). As of Unicode 7.0 (2014), eight characters were added, three representing J. R. R. Tolkien's mode of writing Modern English in Anglo-Saxon runes, and five for the "cryptogrammic" vowel symbols used in an inscription on the Franks Casket.
+
+
+== See also ==
+Codex Runicus – Medieval Danish manuscript
+Letter symbolism – Symbolic meaning and value of letters
+List of runestones
+Gothic runic inscriptions – Elder Futhark writings
+Sveriges runinskrifter – Catalogue of Swedish rune inscriptions
+Sigurd stones – Group of runic inscriptions in Sweden
+Pentadic numerals – Scandinavian numeral system
+Rundata – Database of runic inscriptionsPages displaying short descriptions of redirect targets
+Rune poem – Literary form
+Runic magic – Ancient or modern magic performed with runes or runestones
+Runiform – Historic rune-like scripts
+Runology – Study of Runic alphabets
+
+
+=== Runology works ===
+Bautil – Swedish runology work of 1750
+Runa ABC – First Swedish alphabet book
+
+
+=== Similar scripts to runes ===
+Old Italic script – Family of writing systems in ancient ItalyPages displaying short descriptions of redirect targets
+Old Turkic script – Alphabet used by early Turks (8–10th centuries)
+
+
+== Footnotes ==
+
+
+== References ==
+
+
+== Sources ==
+
+
+== External links ==
+
+Nytt om Runer (runology journal), NO: UIO
+Bibliography of Runic Scholarship, Galinn grund, archived from the original on 2008-09-05
+Gamla Runinskrifter, SE: Christer hamp
+Gosse, Edmund William (1911). "Runes, Runic Language and Inscriptions" . Encyclopædia Britannica. Vol. 23 (11th ed.). pp. 852–853.
+Smith, Nicole; Beale, Gareth; Richards, Julian; Scholma-Mason, Nela (2018), "Maeshowe: The Application of RTI to Norse Runes (Data Paper)", Internet Archaeology (47), doi:10.11141/ia.47.8, S2CID 165773006
+Old Norse Online by Todd B. Krause and Jonathan Slocum, free online lessons at the Linguistics Research Center at the University of Texas at Austin, contains a lesson on runic inscriptions
+Scratching runes was not much different from spraying tags, Frisia Coast Trail (2023)

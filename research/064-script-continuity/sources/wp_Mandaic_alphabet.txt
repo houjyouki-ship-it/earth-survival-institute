@@ -1,0 +1,107 @@
+URL: https://en.wikipedia.org/wiki/Mandaic_alphabet
+The Mandaic alphabet is a writing system primarily used to write the Mandaic language. It is thought to have evolved between the second and seventh century CE either from a cursive form of the Aramaic alphabet (as did Syriac alphabet) or from Inscriptional Parthian. The exact roots of the script are difficult to determine.
+It was developed by members of the Mandaean faith of Lower Mesopotamia to write the Mandaic language for liturgical purposes. Classical Mandaic and its descendant Neo-Mandaic are still in limited use. The script has changed very little over centuries of use.
+The Mandaic name for the script is Abagada or Abaga, after the first letters of the alphabet. Rather than the traditional Semitic letter names (aleph, beth, gimel), they are known as a, ba, ga and so on.
+It is written from right to left in horizontal lines. It is a cursive script, but not all letters connect within a word. Spaces separate individual words.
+During the past few decades, Majid Fandi Al-Mubaraki, a Mandaean living in Australia, has digitized many Mandaean texts using typeset Mandaic scripts.
+
+
+== Letters ==
+
+The Mandaic alphabet contains 22 letters (in the same order as the Aramaic alphabet) and the digraph adu. The alphabet is formally closed by repeating the first letter, a, so that it has a symbolic count of 24 letters:
+
+
+=== Vowels ===
+Unlike most other Semitic alphabets, vowels are usually written out in full. The first letter, a (corresponding to alaph), is used to represent a range of open vowels. The sixth letter, wa, is used for close back vowels (u and o), and the tenth letter, ya is used for close front vowels (i and e). These last two can also serve as the consonants w/v and y. The eighth letter corresponds to the Semitic heth, and is called eh; it is pronounced as a long i-vowel but is used only as a suffix for the third person singular. The sixteenth letter, e (Aramaic ayn), usually represents e at the beginning of a word or, when followed by wa or ya, represents initial u or i respectively.
+A mark similar to an underscore (U+085A ◌࡚ MANDAIC VOCALIZATION MARK) can be used to distinguish vowel quality for three Mandaic vowels. It is used in teaching materials but may be omitted from ordinary text. It is only used with vowels a, wa, and ya. Using the letter ba as an example:
+
+ࡁࡀ‎ /bā/ becomes ࡁࡀ࡚‎ /ba/
+ࡁࡅ‎ /bu/ becomes ࡁࡅ࡚‎ /bo/
+ࡁࡉ‎ /bi/ becomes ࡁࡉ࡚‎ /be/
+
+
+=== Gemination mark ===
+A dot under a consonant (U+085B ◌࡛ MANDAIC GEMINATION MARK) can be used to note gemination, indicating what native writers call a "hard" pronunciation.
+Sample words include ࡀࡊ࡛ࡀ‎ (ekka) 'there is', ࡔࡉࡍ࡛ࡀ‎ (šenna) 'tooth', ࡋࡉࡁ࡛ࡀ‎ (lebba) 'heart', and ࡓࡁ࡛ࡀ‎ (rabba) 'great'.
+
+
+=== Ligatures ===
+The 23rd letter of the alphabet is the digraph adu (da + ya), the relative particle (cf. Arabic tāʾ marbūṭah, Coptic letter "ti", and English ampersand).
+In addition to normal joining behavior, some Mandaic letters can combine to form various ligatures:
+
+ࡊࡃ‎ /kd/, ࡗ‎ /kḏ/, ࡊࡉ‎ /ki/, ࡊࡋ‎ /kl/, ࡊࡓ‎ /kr/, ࡊࡕ‎ /kt/, and ࡊࡅ‎ /ku/
+ࡍࡃ‎ /nd/, ࡍࡉ‎ /ni/, ࡍࡌ‎ /nm/, ࡍࡒ‎ /nq/, ࡍࡕ‎ /nt/, and ࡍࡅ‎ /nu/
+ࡐࡋ‎ /pl/, ࡐࡓ‎ /pr/, and ࡐࡅ‎ /pu/
+ࡑࡋ‎ /sˤl/, ࡑࡓ‎ /sˤr/, and ࡑࡅ‎ /sˤu/
+ࡅࡕ‎ /ut/
+Both adu (U+0856 ࡖ MANDAIC LETTER DUSHENNA) and the old ligature kḏ (U+0857 ࡗ MANDAIC LETTER KAD) are treated as single characters in Unicode.
+
+
+=== Similar characters ===
+Due to their similar shapes, certain Mandaic characters are sometimes confused with each other by both historical Mandaean scribes and modern scholars, particularly in handwritten manuscripts. These include the following.
+
+ࡃ‎ /d/, ࡓ‎ /r/, ࡏ‎ /e/, ࡒ‎ /q/
+ࡅ‎ /u/, ࡉ‎ /i/
+ࡌ‎ /m/, ࡕ‎ /t/
+ࡊ‎ /k/, ࡍ‎ /n/, ࡐ‎ /p/
+ࡐࡀ‎ /pa/, ࡀࡍࡀ‎ /ana/, ࡔ‎ /ʃ/
+ࡑ‎ /sˤ/, ࡄࡍ‎ /hn/
+
+
+== Extensions ==
+
+
+=== Affrication mark ===
+Postclassical and modern Mandaic use many Persian words. Various Mandaic letters can be re-purposed by placing two horizontally-aligned dots underneath (U+0859 ◌࡙ MANDAIC AFFRICATION MARK). This idea is comparable to the four novel letters in the Persian alphabet, allowing the alphabet to be used to represent foreign sounds (whether affrication, lenition, or another sound):
+
+ࡂ‎ /g/ becomes ࡂ࡙‎ /ɣ/
+ࡃ‎ /d/ becomes ࡃ࡙‎ /ð/
+ࡄ‎ /h/ becomes ࡄ࡙‎ /ħ/
+ࡈ‎ /tˤ/ becomes ࡈ࡙‎ /ðˤ/
+ࡊ‎ /k/ becomes ࡊ࡙‎ /x/
+ࡐ‎ /p/ becomes ࡐ࡙‎ /f/
+ࡑ‎ /sˤ/ becomes ࡑ࡙‎ /ʒ/, /dˤ/
+ࡔ‎ /ʃ/ becomes ࡔ࡙‎ /tʃ/, /dʒ/
+ࡕ‎ /t/ becomes ࡕ࡙‎ /θ/
+
+
+=== Ayin ===
+Mandaic ayin (ࡘ‎) is borrowed from Arabic ayin (ع). Unlike in Arabic, Mandaic ayin does not join with other letters.
+
+
+== Punctuation and other marks ==
+Punctuation is sparsely used in Mandaic text. A break in text can be indicated by two concentric circles (U+085E ࡞ MANDAIC PUNCTUATION).
+A horizontal low line (U+0640 ـ ARABIC TATWEEL) can be used to justify text.
+
+
+== Religious use ==
+
+Each letter of the Mandaic alphabet is said to represent a power of life and light.
+Mandaeans view their alphabet as magical and sacred.
+Acrostic hymns can be found in Mandaic literature, for example in Book 12 of the Right Ginza.
+The Semitic alphabet contains 22 letters. In order to bring this number to 24, the number of hours in a day, adu was added and a was repeated as the last letter of the Mandaic alphabet. Without this repetition, the alphabet would be considered incomplete for magical purposes.
+
+
+== Unicode ==
+
+The Mandaic alphabet was added to the Unicode Standard in October, 2010 with the release of version 6.0.
+The Unicode block for Mandaic is U+0840–U+085F:
+
+
+== Gallery ==
+
+
+== See also ==
+Syriac alphabet
+
+
+== References ==
+
+
+== External links ==
+
+Mandaic.org: Mandaic and Neo-Mandaic Texts and Resources Archived 2018-11-04 at the Wayback Machine
+Noto Sans Mandaic from Google Fonts
+Mandaic Regular Font Archived 2024-05-08 at the Wayback Machine from the Mandaean Network
+Mandaic phonetic keyboard from SIL Keyman
+Mandaic keyboard (mirror)

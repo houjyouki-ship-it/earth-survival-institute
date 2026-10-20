@@ -1,0 +1,119 @@
+URL: https://en.wikipedia.org/wiki/Cherokee_syllabary
+The Cherokee syllabary (Cherokee: ᏣᎳᎩ ᏗᎪᏪᎶᏙᏗ, romanized: Tsalagi Digohwelodohdi) is a syllabary invented by Sequoyah in the late 1810s and early 1820s to write the Cherokee language. His creation of the syllabary is particularly noteworthy as he was illiterate until its creation. He first experimented with logograms, but his system later developed into the syllabary. In his system, each symbol represents a syllable rather than a single phoneme; the 85 (originally 86) characters provide a suitable method for writing Cherokee. The letters resemble characters from other scripts, such as Latin, Greek, Cyrillic, and Glagolitic, but are not used to represent the same sounds.
+
+
+== History ==
+
+
+=== Early history ===
+
+Around 1809, impressed by the "talking leaves" of European written languages, Sequoyah began work to create a writing system for the Cherokee language. After attempting to create a character for each word, Sequoyah realized this would be too difficult and eventually created characters to represent syllables. He worked on the syllabary for twelve years before completion and dropped or modified most of the characters he originally created.
+After the syllabary was completed in the early 1820s, it achieved almost instantaneous popularity and spread rapidly throughout Cherokee society. By 1825, the majority of Cherokees could read and write in their newly developed orthography.
+Some of Sequoyah's most learned contemporaries immediately understood that the syllabary was a great invention. For example, when Albert Gallatin, a politician and trained linguist, saw a copy of Sequoyah's syllabary, he believed it was superior to the English alphabet in that literacy could be easily achieved for Cherokee at a time when only one-third of English-speaking people achieved the same goal. He recognized that even though the Cherokee student must learn 85 characters instead of 26 for English, the Cherokee could read immediately after learning all the symbols. The Cherokee student could accomplish in a few weeks what students of English writing might require two years to achieve.
+In 1828, the order of the characters in a chart and the shapes of the characters were modified by Cherokee author and editor Elias Boudinot to adapt the syllabary to printing presses. The 86th character was dropped entirely. Following these changes, the syllabary was adopted by the Cherokee Phoenix newspaper, later Cherokee Advocate, followed by the Cherokee Messenger, a bilingual paper printed in Indian Territory in the mid-19th century.
+In 1834, Samuel Worcester made changes to several characters in order to improve the readability of Cherokee text. Most notably, he inverted the do character (Ꮩ) so that it could not be confused with the go character (Ꭺ). Otherwise, the characters remained remarkably invariant until the advent of new typesetting technologies in the 20th century.
+
+
+=== Later developments ===
+
+In the 1960s, the Cherokee Phoenix Press began publishing literature in the Cherokee syllabary, including the Cherokee Singing Book. A Cherokee syllabary typewriter ball was developed for the IBM Selectric in the late 1970s. Computer fonts greatly expanded Cherokee writers' ability to publish in Cherokee. In 2010, a Cherokee keyboard cover was developed by Roy Boney, Jr. and Joseph Erb, facilitating more rapid typing in Cherokee. The keyboard cover is now used by students in the Cherokee Nation Immersion School, where all coursework is written in syllabary.
+In August 2010, the Oconaluftee Institute for Cultural Arts in Cherokee, North Carolina acquired a letterpress and had the Cherokee syllabary recast to begin printing one-of-a-kind fine art books and prints in syllabary. Artists Jeff Marley and Frank Brannon completed a collaborative project on October 19, 2013, in which they printed using Cherokee syllabary type from Southwestern Community College in the print shop at New Echota. This was the first time syllabary type has been used at New Echota since 1835.
+The syllabary is finding increasingly diverse usage today, from books, newspapers, and websites to the street signs of Tahlequah, Oklahoma, and Cherokee, North Carolina. An increasing corpus of children's literature is printed in Cherokee to meet the needs of students in Cherokee language immersion schools in Oklahoma and North Carolina.
+It featured on the 2023 USA quarter dollar commemorating Wilma Mankiller.
+
+
+=== Possible influence on Liberian Vai syllabary ===
+In the 1960s, evidence emerged suggesting that the Cherokee syllabary of North America provided a model for the design of the Vai syllabary in Liberia. The Vai syllabary emerged about 1832–33. This was at a time when American missionaries were working to use the Cherokee syllabary as a model for writing Liberian languages. Another link appears to have been Cherokee who emigrated to Liberia after the invention of the Cherokee syllabary (which in its early years spread rapidly among the Cherokee) but before the inventions of the Vai syllabary. One such man, Austin Curtis, married into a prominent Vai family and became an important Vai chief himself. There also appears to be a connection between an early form of written Bassa and the earlier Cherokee syllabary.
+
+
+== Description ==
+The modern writing system consists of 85 characters, each representing a distinct syllable. The first six characters represent isolated vowel syllables. Characters for combined consonant and vowel syllables then follow.
+The charts below show the syllabary in recitation order, left to right, top to bottom, as arranged by Samuel Worcester, along with his commonly used transliterations. He played a key role in the development of Cherokee printing from 1828 until his death in 1859.  The Latin letter 'v' in the transcriptions, seen in the last column, represents the nasal mid-central vowel, /ə̃/.
+
+Notes:
+
+The Cherokee character Ꮩ (do) has a different orientation in old documents, an upside-down letter V, flipped as compared to modern documents.
+There is also a handwritten cursive form of the syllabary; notably, the handwritten glyphs bear little resemblance to the printed forms.
+
+
+=== Detailed considerations ===
+The phonetic values of these characters do not equate directly to those represented by the letters of the Latin script. Some characters represent two distinct phonetic values (actually heard as different syllables), while others may represent multiple variations of the same syllable. Not all phonemic distinctions of the spoken language are represented:
+
+Voiced consonants are generally not distinguished from their non-voiced counterpart. For example, while /d/ + vowel syllables are mostly differentiated from /t/ + vowel by use of different glyphs, syllables beginning with /ɡw/ are all conflated with those beginning with /kw/.
+Long vowels are not distinguished from short vowels. However, in more recent technical literature, length of vowels can actually be indicated using a colon, and other disambiguation methods for consonants have been suggested.
+Syllables ending in vowels, h, or a glottal stop are not differentiated. For example, the single symbol Ꮡ is used to represent both suú as in suúdáli, meaning "six" (ᏑᏓᎵ), and súh as in súhdi, meaning "fishhook" (ᏑᏗ).
+There is no regular rule for representing consonant clusters. When consonants other than s, h, or glottal stop arise in clusters with other consonants, a vowel must be inserted, chosen either arbitrarily or for etymological reasons (reflecting an underlying etymological vowel, see vowel deletion for instance). For example, ᏧᎾᏍᏗ (tsu-na-s-di) represents the word juunsdi̋, meaning "small (pl.), babies". The consonant cluster ns is broken down by insertion of the vowel a, and is spelled as ᎾᏍ /nas/. The vowel is etymological as juunsdi̋ is composed of the morphemes di-uunii-asdii̋ʔi, where a is part of the root. The vowel is included in the transliteration, but is not pronounced.
+Tones are not marked in the script.
+As with some other writing systems, proficient speakers can distinguish words by context.
+If a labial plosive appears in a borrowed word or name, it is written using the qu row. This /kw/ ~ /p/ correspondence is a known linguistic phenomenon that exists elsewhere (cf. P-Celtic, Osco-Umbrian). The l and tl rows are similarly used for borrowings containing r or tr/dr, respectively, and s (including within ts) can represent /s/, /ʃ/, /z/, or /ʒ/, as indicated in the above word juunsdi̋.
+
+
+== Character orders ==
+
+There are two main character orders for the Cherokee script. The usual order for Cherokee runs across the rows of the syllabary chart from left to right, top to bottom—this is the one used in the Unicode block. It has also been alphabetized based on the six columns of the syllabary chart from top to bottom, left to right.
+
+
+== Numerals ==
+
+Modern Cherokee generally uses Hindu-Arabic numerals. In the late 1820s, several years after the introduction and adoption of his syllabary, Sequoyah proposed a set of number signs for Cherokee; however, these were never adopted and never typeset. In 2012, the Cherokee Language Consortium agreed to begin using Sequoyah's numerals in some instances.
+Sequoyah developed unique characters for 1 through 19, and then characters for the "tens" of 20 through 100. Additional symbols were used to note thousands and millions, and Sequoyah also used a final symbol to mark the end of a number. The glyphs for 1 through 20 can be grouped into groups of five that have a visual similarity to each other (1–5, 6–10, 11–15, and 16–20). The Cherokee Language Consortium has created an additional symbol for zero along with symbols for billions and trillions. As of Unicode 17.0, Cherokee numerals are not encoded within Unicode.
+Sequoyah's proposed numeral system has been described as having a "ciphered-additive structure," using combinations of the characters for 1 through 9 with the characters for 20 through 100 to create larger numbers. For example, instead of writing 64, the Cherokee numerals for 60 and 4 () would be written together. To write 10 through 19, unique characters for each number are employed. For numbers larger than 100, the system takes on features of a multiplicative-additive system, with the digits for 1 through being placed before the hundred, thousand, or million sign to indicate large numbers; for example, for 504, the Cherokee numerals for 5, 100, and 4 () would be written together.
+
+
+== Classes ==
+
+Cherokee language classes typically begin with a transliteration of Cherokee into Roman letters, only later incorporating the syllabary. The Cherokee language classes offered through Haskell Indian Nations University, Northeastern State University, the University of Oklahoma, the University of Science and Arts of Oklahoma, Western Carolina University, the University of North Carolina at Chapel Hill, the University of North Carolina at Asheville, and the immersion elementary schools offered by the Cherokee Nation and the Eastern Band of Cherokee Indians, such as New Kituwah Academy, all teach the syllabary. The fine arts degree program at Southwestern Community College incorporates the syllabary in its printmaking classes.
+
+
+== Unicode ==
+Cherokee was added to the Unicode standard as a unicameral script in September 1999, with the release of version 3.0. The character repertoire was extended to include the archaic letter Ᏽ as well as a complete set of lowercase letters.
+On June 17, 2015, with the release of version 8.0, the Unicode Consortium encoded lowercase letters and redefined Cherokee as a bicameral script. Previously, typists would sometimes set Cherokee with two different point sizes so as to mark beginnings of sentences and given names (as in the Latin alphabet). Handwritten Cherokee would also show a difference in lower- and uppercase letters, such as descenders and ascenders. As part of the Unicode proposal, lowercase Cherokee was included in the font Everson Mono. However, the lowercase letters are almost never used, and Cherokee continues to be essentially unicameral in practice.
+
+
+=== Blocks ===
+
+The first Unicode block for Cherokee is U+13A0–U+13FF. It contains all 86 uppercase letters, together with six lowercase letters:
+
+The Cherokee Supplement block is U+AB70–U+ABBF. It contains the remaining 80 lowercase letters.
+
+
+=== Fonts ===
+A single Cherokee Unicode font, Plantagenet Cherokee, is supplied with macOS, version 10.3 (Panther) and later. Windows Vista also includes a Cherokee font.  Windows 10 replaced Plantagenet Cherokee with Gadugi after the Cherokee language term for "working together".
+Several free Cherokee fonts are available including Digohweli, Donisiladv, and Noto Sans Cherokee. Some pan-Unicode fonts, such as Code2000, Everson Mono, and GNU FreeFont, include Cherokee characters. A commercial font, Phoreus Cherokee, published by TypeCulture, includes multiple weights and styles.
+
+
+== See also ==
+Canadian Aboriginal syllabics
+Cree syllabics
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Bibliography ==
+Bender, Margaret. 2002. Signs of Cherokee Culture: Sequoyah's Syllabary in Eastern Cherokee Life. Chapel Hill: University of North Carolina Press.
+Bender, Margaret. 2008. Indexicality, voice, and context in the distribution of Cherokee scripts. International Journal of the Sociology of Language 192:91–104.
+Cushman, Ellen (2010). "The Cherokee Syllabary from Script to Print" (PDF). Ethnohistory. 57 (4): 625–49. doi:10.1215/00141801-2010-039. Archived from the original (PDF) on December 22, 2015. Retrieved December 13, 2015.
+Cushman, Ellen (2013). Cherokee Syllabary: Writing the People's Perseverance. University of Oklahoma Press. ISBN 978-0806143736.
+Daniels, Peter T (1996). The World's Writing Systems. New York: Oxford University Press. pp. 587–92.
+Foley, Lawrence (1980). Phonological Variation in Western Cherokee. New York: Garland Publishing.
+Giasson, Patrick (2004). The Typographic Inception of the Cherokee Syllabary (PDF) (Thesis). The University of Reading. Retrieved October 1, 2016.
+Kilpatrick, Jack F; Kilpatrick, Anna Gritts (1968). New Echota Letters. Dallas: Southern Methodist University Press.
+McLoughlin, William G. (1986). Cherokee Renascence in the New Republic. Princeton, NJ: Princeton University Press.
+Scancarelli, Janine (2005). "Cherokee". In Hardy, Heather K; Scancarelli, Janine (eds.). Native Languages of the Southeastern United States. Bloomington: Nebraska Press. pp. 351–84.
+Tuchscherer, Konrad; Hair, PEH (2002). "Cherokee and West Africa: Examining the Origins of the Vai Script". History in Africa. 29: 427–86. doi:10.2307/3172173. JSTOR 3172173. S2CID 162073602.
+Sturtevant, William C.; Fogelson, Raymond D., eds. (2004). Handbook of North American Indians: Southeast. Vol. 14. Washington, DC: Smithsonian Institution. ISBN 0160723000.
+Walker, Willard; Sarbaugh, James (1993). "The Early History of the Cherokee Syllabary". Ethnohistory. 40 (1): 70–94. doi:10.2307/482159. JSTOR 482159. S2CID 156008097.
+
+
+== Further reading ==
+Cowen, Agnes (1981), Cherokee Syllabary Primer, Park Hill, OK: Cross-Cultural Education Center, ASIN B00341DPR2
+
+
+== External links ==
+
+"Sequoyah", Cherokee (online conversion tool), Transliteration.
+Learning to Design a Cherokee Syllabary with Mark Jamra – Cooper Union lecture on sociohistorical background behind Sequoyah's invention, and attempts in designing modern Cherokee typefaces
