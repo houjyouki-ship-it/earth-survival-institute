@@ -1,0 +1,31 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究063 事前登録（2026-10-20 00:40Z、資料を読んだ後・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="063-2026-10-20-0040zsimpy">研究063 事前登録（2026-10-20 00:40Z、資料を読んだ後・sim.py の作成の前）</h1>
+<p>open_problems 167：崩壊後の社会が古い蔵書を探して読む確率と時期（全写しに共通の要因）。</p>
+<h2 id="sourcescasesjson-47-verify_excerptspy">資料（sources/cases.json、抜き出し 47件は verify_excerpts.py で一致）</h2>
+<ul>
+<li>文字の知識が失われた例 8件（最後の使用→現代の解読）：Egyptian hieroglyphs 394→1822、Cuneiform 79/80→1857、Linear B 約1200 BC→1952（後の Greek は同じ言葉なのに Phoenician の文字で書き直し、Linear B を読まなかった）、Maya 1550〜1600→1952、Meroitic 410/450→1909（言葉は今もよく分からない）、未解読 Linear A（1450 BC〜）、Indus（1900 BCE〜）、Rongorongo（1864〜1870〜）。どれも後継の社会は読まず、読んだのは別の T3 の学問の社会。</li>
+<li>文字が続いた後の探索 3件：Qin の焚書 213 BCE→Confucius の家の壁の古文 150〜127 BC、西ローマ 476→Carolingian の写本 780〜830（年の幅は推測）、→Renaissance の探索 1305〜1417。</li>
+<li>書庫で読まれずにいた年数：Lucretius O（9世紀前半→1417）、Quintilian（約600年→1416）、Tacitus Annals 11–16（1058〜1087→≤1361）、Archimedes の消された本文（1229→1906）。</li>
+<li>文字の喪失の条件つきの率：051 の results.json の loss_episodes_main（Seshat、政体人口の半減の後500年）から、2つ以上の技術（S2）か金属すべて（S4）を失った深い喪失の例のうち文字（S1）も失った割合を数える（数字は sim.py で初めて出す）。</li>
+</ul>
+<h2 id="_1">模型</h2>
+<p>062 の sim.py を「# ---------- 版 ----------」の前まで exec し 062 の主の P_new を差0で再現してから、
+P(T) = R(T) × S_ind(T)。
+- S_ind：062 の二段の模型（K 地域、h、b、s_b、s_u）で、1部が見つかる確率を fp（U(0.3,0.84)）でなく f~U(0.5,1)（読める社会が探すときに1部が見つかる確率、推測）にする。τp は 062 の主と同じ（061 の taup）。
+- R(T)：全写しに共通に1回、読む社会がいて読める確率 = Srch(T) × [p_cont + (1−p_cont)·p_dec(T)]。重い崩壊（状態 4・5）の標本だけに掛け、軽い崩壊は 1。
+  - p_cont（文字が続く確率）の主：051 の深い喪失のうち文字を失わなかった割合（Jeffreys の Beta）。版：all（051 の全崩壊 S1 2/57）、half（0.5）、one（1）。
+  - p_dec(T)：文字を失った後に読まれる確率 = 1−exp(−T/τ_dec)。τ_dec は8件の最後の使用→解読の年数（未解読は打ち切り）の指数の事後（Gamma(事象数, 合計年数) の率）。版：strict（p_dec=0、T2 の社会は解読できない）。
+  - Srch(T) の主＝1（歴史の探索は T0〜T1 の段の社会で崩壊から 63〜941年で始まっており、T2 に届いた社会は探していると置く、推測）。版 indep：3件の探索の年数の中点の対数正規の CDF を T で。
+- 置き場所の版：popular（よく使われる本に入れる：f~U(0.8,1)、τp＝062 の used_tau）。primer の走査：文字を失ったときの読める確率を p_dec でなく定数 p_primer∈{0,0.25,0.5,0.75,1}。
+- 部数の走査 1〜1000、費用あたりは 062 と同じ（C_T/C_P(100)、TAB=1）。</p>
+<h2 id="a_ordu3tc-v0">仮説（A_Ord/U3、TC の V0 比、重い崩壊）</h2>
+<ul>
+<li>H75a：文字を失った後の解読の年数の事後の中央値（τ_dec·ln2）&gt; 843年（U3 の重い崩壊の T2s の中央値）。</li>
+<li>H75b：探索の年数の中央値（3件の中点）&lt; 843年。</li>
+<li>H75c：主の p_cont の平均 ≤ 0.8。</li>
+<li>H75d：新しい主の重い崩壊の TC/V0 が 062 の E1（0.78）と 062 の主（0.87）の間。</li>
+<li>H75e：10部で 1,000部の上げ幅の 60% 以上。</li>
+<li>H75f：p_primer 0→1 で重い崩壊の TC/V0 が 0.03 以上上がる。</li>
+<li>H75g：popular ≥ 主。</li>
+<li>H75h：新しい主の 100部の費用あたり（全体、中央値）&gt; 17.8（S_TC|TC）。</li>
+<li>H75i：indep で主より 0.03 以上下がる。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

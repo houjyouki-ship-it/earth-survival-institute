@@ -1,0 +1,68 @@
+"""研究063 の資料の数字と抜き出し（保存本文から逐語）。
+script_loss：文字の知識が失われた例。last＝最後の使用の年（負は紀元前）、read＝現代の解読の年（未解読は None）、found＝現代に資料が見つかった年（分かるとき）。
+search：文字が続いた崩壊の後、古い蔵書を探して写し・読み始めるまでの年数（collapse＝崩壊の年、search＝探索の年の幅）。
+stack：図書館・修道院で1冊が読まれずに置かれていた年数（copy＝写された年の幅、found＝見つかった年）。"""
+import json, os
+H = os.path.dirname(os.path.abspath(__file__)); W = "https://en.wikipedia.org/wiki/"
+script_loss = [
+ {"id": "Egyptian_hieroglyphs", "last": [394, 394], "read": 1822, "found_bilingual": 1799, "successor_read": False, "src": "wp_Egyptian_hieroglyphs.txt", "url": W + "Egyptian_hieroglyphs",
+  "ex": ["the last known inscription is from Philae, known as the Graffito of Esmet-Akhom, from 394", "In his Lettre à M. Dacier (1822)"],
+  "src2": "wp_Rosetta_Stone.txt", "ex2": ["It was found there in July 1799 by French army officer Pierre-François Bouchard", "Jean-François Champollion announced the transliteration of the Egyptian scripts in Paris in 1822"]},
+ {"id": "Cuneiform", "last": [79, 80], "read": 1857, "successor_read": False, "src": "wp_Cuneiform.txt", "url": W + "Cuneiform",
+  "ex": ["The latest firmly dateable tablet, from Uruk, dates to 79/80 AD", "It was successfully deciphered by 1857"]},
+ {"id": "Linear_B", "last": [-1200, -1200], "read": 1952, "found": 1939, "successor_read": False, "src": "wp_Linear_B.txt", "url": W + "Linear_B",
+  "ex": ["They were fired in the conflagration that destroyed Pylos about 1200 BC", "Linear B was deciphered in 1952 by English architect and self-taught linguist Michael Ventris",
+         "Blegen excavated the site of ancient Pylos in 1939 and uncovered tablets inscribed in Linear B", "Once the palaces were destroyed, the script disappeared."],
+  "src2": "wp_Greek_Dark_Ages.txt", "ex2": ["between 950 BC and 750 BC, the Greeks relearned how to write, but using the alphabet of the Phoenicians instead of the Linear B script used by the Mycenaeans"]},
+ {"id": "Maya_script", "last": [1550, 1600], "read": 1952, "successor_read": False, "src": "wp_Maya_script.txt", "url": W + "Maya_script",
+  "ex": ["Knowledge of the writing system was lost, probably by the end of the 16th century.", "In 1952 Knorozov published the paper \"Ancient Writing of Central America\""]},
+ {"id": "Meroitic", "last": [410, 450], "read": 1909, "successor_read": False, "src": "wp_Meroitic_script.txt", "url": W + "Meroitic_script",
+  "ex": ["which has recently been re-dated to AD 410/ 450 of the 5th century", "The script was deciphered in 1909 by Francis Llewellyn Griffith", "However, the Meroitic language itself remains poorly understood."]},
+ {"id": "Linear_A", "last": [-1450, -1450], "read": None, "successor_read": False, "src": "wp_Linear_A.txt", "url": W + "Linear_A",
+  "ex": ["Linear A is a writing system that was used by the Minoans of Crete from 1800 BC to 1450 BC."], "src2": "wp_Linear_B.txt", "ex2": ["It is adapted from the earlier Linear A, an undeciphered script"]},
+ {"id": "Indus_script", "last": [-1900, -1900], "read": None, "successor_read": False, "src": "wp_Indus_script.txt", "url": W + "Indus_script",
+  "ex": ["At Harappa, the use of the script largely ceased as the use of inscribed seals ended around c.\u20091900 BCE", "Although the script is undeciphered"]},
+ {"id": "Rongorongo", "last": [1864, 1870], "read": None, "successor_read": False, "src": "wp_Rongorongo.txt", "url": W + "Rongorongo",
+  "ex": ["it is possible that literacy had been wiped out by the time Eyraud discovered the tablets in 1864", "few if any of the Rapanui people remaining on the island in the 1870s could read the glyphs"]},
+]
+search = [
+ {"id": "Han_after_Qin_burning", "collapse": [-213, -213], "search": [-150, -127], "src": "wp_Burning_of_books_and_burying_of_scholars.txt", "url": W + "Burning_of_books_and_burying_of_scholars",
+  "ex": ["The burning of books and burying of scholars was the purported burning of texts in 213 BCE"],
+  "src2": "wp_Old_Text_School.txt", "ex2": ["Historical sources record the recovery of a group of texts during the last half of the 2nd century BC from the walls of Confucius’s old residence in Qufu",
+  "when Prince Liu Yu (d. 127 BC) attempted to expand it into a palace", "all written in the old orthography used prior to the reforms of the clerical script"],
+  "note": "崩壊でなく焚書。年は Sima Qian の記述による（同じ頁に Modern historians doubt the details of the story）。"},
+ {"id": "Carolingian_after_West_Rome", "collapse": [476, 476], "search": [780, 830], "src": "wp_Carolingian_Renaissance.txt", "url": W + "Carolingian_Renaissance",
+  "ex": ["to copy and preserve patristic and classical texts in the Carolingian libraries", "A substantial portion of the classical corpus we possess today owes its survival to the copies produced by Carolingian scribes",
+         "fewer than 2,000 Latin manuscripts survive from the per", "iod before AD 800; from the century after AD 800, we have over 7,000."],
+  "note": "崩壊の年 476 と探索の年の幅 780〜830 は【推測】（本文は AD 800 前後の写本の数）。"},
+ {"id": "Renaissance_after_West_Rome", "collapse": [476, 476], "search": [1305, 1417], "src": "wp_Catullus.txt", "url": W + "Catullus",
+  "ex": ["The text used today is based on a manuscript that surfaced in Verona in 1305."],
+  "src2": "wp_Poggio_Bracciolini.txt", "ex2": ["His great manuscript finds date to this period, 1415−1417."],
+  "note": "1305（Catullus）〜1417（Poggio）を体系的な探索の始まりの幅とする【推測】。"},
+]
+stack = [
+ {"id": "Lucretius_O", "copy": [800, 850], "found": 1417, "src": "wp_De_rerum_natura.txt", "url": W + "De_rerum_natura",
+  "ex": ["This copy has been dated to the early ninth century", "De rerum natura was rediscovered in January 1417"]},
+ {"id": "Quintilian_StGall", "copy": [816, 816], "found": 1416, "src": "wp_Institutio_Oratoria.txt", "url": W + "Institutio_Oratoria",
+  "ex": ["the first complete copy of Quintilian’s Institutio Oratoria (Orator’s Education, 95 CE) that any scholar had seen for nearly six centuries", "a complete copy was found in 1416 in the Monastery of St. Gall"],
+  "note": "copy は「nearly six centuries」から 1416−600 とした【推測】。"},
+ {"id": "Tacitus_Annals_11_16", "copy": [1058, 1087], "found": 1361, "src": "wp_Annals_(Tacitus).txt", "url": W + "Annals_(Tacitus)",
+  "ex": ["Annals 11–16 were in Monte Cassino during the first half of the rule of Abbot Desiderius (1058–1087)", "Zanobi da Strada (who died "],
+  "note": "found は da Strada の没年 1361 を上限とした（そこに置かれ始めた年でなく、在ったと分かる年からの下限の年数）。"},
+ {"id": "Petrarch_Atticus", "copy": None, "found": 1345, "src": "wp_Petrarch.txt", "url": W + "Petrarch",
+  "ex": ["In 1345 he personally discovered a collection of Cicero's letters not previously known to have existed, the collection Epistulae ad Atticum"], "note": "写しの年なし。探索の年の資料。"},
+ {"id": "Archimedes_palimpsest", "copy": [1229, 1229], "found": 1906, "src": "wp_Archimedes_Palimpsest.txt", "url": W + "Archimedes_Palimpsest",
+  "ex": ["overwritten (1229) with a religious text", "When Heiberg studied the palimpsest in Constantinople in 1906"], "note": "崩壊の後でない。消された本文が読まれるまで。"},
+]
+notes = [
+ {"id": "decipher_types", "src": "wp_Decipherment.txt", "url": W + "Decipherment",
+  "ex": ["Type I: unknown writing and known language. Deciphered languages in this category include Phoenician, Ugaritic, Cypriot, and Linear B.", "Today, at least a dozen languages remain undeciphered."]},
+ {"id": "OldPersian_no_bilingual", "src": "wp_Old_Persian_cuneiform.txt", "url": W + "Old_Persian_cuneiform",
+  "ex": ["Old Persian cuneiform was only deciphered by a series of guesses, in the absence of bilingual documents connecting it to a known language."]},
+ {"id": "Maya_Landa", "src": "wp_Maya_script.txt", "url": W + "Maya_script",
+  "ex": ["Maya writing was in continuous use throughout Mesoamerica until the Spanish conquest of the Maya in the 16th and 17th centuries", "Bishop Diego de Landa ordered the collection and destruction of written Maya works"]},
+ {"id": "Linear_B_dark_age", "src": "wp_Linear_B.txt", "url": W + "Linear_B",
+  "ex": ["disappeared with the fall of the Mycenaean civilization during the Late Bronze Age collapse"]},
+]
+json.dump({"script_loss": script_loss, "search": search, "stack": stack, "notes": notes}, open(os.path.join(H, "cases.json"), "w", encoding="utf8"), ensure_ascii=False, indent=1)
+print(len(script_loss), len(search), len(stack), len(notes))
