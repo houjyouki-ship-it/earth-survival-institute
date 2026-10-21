@@ -19,3 +19,296 @@ checks ok 268 s
 075 loaded 268 s
 chk_mesh35 0.6801 0.8709 368 s
 chk_mesh200 0.7289 0.8887 373 s
+chk_per_subregion@cty 0.6585 0.8631 378 s
+check ok {'mesh35': 0.0, 'mesh200': 0.0, 'per_subregion@cty': 0.0} 378 s
+mesh35_a0.0 0.6801 0.8709 635 s
+mesh100_a0.0 0.7058 0.8803 641 s
+mesh200_a0.0 0.7289 0.8887 647 s
+mesh35_a0.1 0.6847 0.8726 652 s
+mesh100_a0.1 0.7094 0.8816 658 s
+mesh200_a0.1 0.7306 0.8893 664 s
+mesh35_a0.25 0.6923 0.8754 670 s
+mesh100_a0.25 0.7121 0.8826 676 s
+mesh200_a0.25 0.7317 0.8897 682 s
+mesh35_a0.5 0.7018 0.8788 687 s
+mesh100_a0.5 0.7154 0.8838 692 s
+mesh200_a0.5 0.735 0.8909 697 s
+mesh35_a1.0 0.7193 0.8852 703 s
+mesh100_a1.0 0.728 0.8884 708 s
+mesh200_a1.0 0.7419 0.8934 714 s
+cover1500@cty_a0.5 0.6877 0.8737 719 s
+cover750@cty_a0.5 0.6827 0.8719 725 s
+cover3000x@cty_a0.5 0.7072 0.8808 730 s
+per_subregion@cty_a0.5 0.6864 0.8732 735 s
+pop@cty_a0.5 0.6914 0.875 740 s
+surv150@cty_a0.5 0.6934 0.8758 745 s
+bigplus@cty_a0.5 0.6844 0.8725 750 s
+per_subregion@pt_a0.5 0.6801 0.8709 755 s
+pop@pt_a0.5 0.7007 0.8784 760 s
+mesh35_a0.5_Lx2 0.6974 0.8772 765 s
+mesh200_a0.5_Lx2 0.7345 0.8907 770 s
+mesh35_a0.5_Lhalf 0.7038 0.8795 775 s
+mesh200_a0.5_Lhalf 0.7364 0.8914 780 s
+080 loaded 781 s
+checks ok 781 s
+mesh35_a0.0_main 0.6514 0.8474 786 s
+mesh200_a0.0_main 0.6738 0.8616 791 s
+mesh35_a0.5_main 0.6611 0.8509 796 s
+mesh200_a0.5_main 0.6789 0.8634 802 s
+ver main 802 s
+mesh35_a0.0_m3_desc 0.6405 0.83 806 s
+mesh200_a0.0_m3_desc 0.6524 0.8405 811 s
+mesh35_a0.5_m3_desc 0.6441 0.8314 816 s
+mesh200_a0.5_m3_desc 0.656 0.8418 822 s
+ver m3_desc 822 s
+mesh35_a0.0_m10_desc 0.6335 0.8165 826 s
+mesh200_a0.0_m10_desc 0.6374 0.8215 831 s
+mesh35_a0.5_m10_desc 0.6349 0.817 836 s
+mesh200_a0.5_m10_desc 0.6383 0.8218 841 s
+ver m10_desc 841 s
+mesh35_a0.0_Delta30_desc 0.6522 0.8576 846 s
+mesh200_a0.0_Delta30_desc 0.6842 0.8725 851 s
+mesh35_a0.5_Delta30_desc 0.6641 0.8619 856 s
+mesh200_a0.5_Delta30_desc 0.6899 0.8746 861 s
+ver Delta30_desc 861 s
+mesh35_a0.0_Delta100_desc 0.6384 0.829 866 s
+mesh200_a0.0_Delta100_desc 0.6503 0.8446 871 s
+mesh35_a0.5_Delta100_desc 0.6424 0.8304 877 s
+mesh200_a0.5_Delta100_desc 0.6522 0.8453 882 s
+ver Delta100_desc 882 s
+mesh35_a0.0_Delta300_desc 0.6335 0.8167 887 s
+mesh200_a0.0_Delta300_desc 0.6382 0.8221 891 s
+mesh35_a0.5_Delta300_desc 0.6353 0.8174 896 s
+mesh200_a0.5_Delta300_desc 0.6385 0.8221 901 s
+ver Delta300_desc 901 s
+mesh35_a0.0_d_median_desc 0.6686 0.8666 906 s
+mesh200_a0.0_d_median_desc 0.7116 0.8824 911 s
+mesh35_a0.5_d_median_desc 0.6892 0.874 916 s
+mesh200_a0.5_d_median_desc 0.7197 0.8854 921 s
+ver d_median_desc 921 s
+mesh35_a0.0_d_pooled_desc 0.6639 0.8645 926 s
+mesh200_a0.0_d_pooled_desc 0.7072 0.8808 931 s
+mesh35_a0.5_d_pooled_desc 0.6832 0.8716 936 s
+mesh200_a0.5_d_pooled_desc 0.7123 0.8827 940 s
+ver d_pooled_desc 940 s
+mesh35_a0.0_d_median_m10_desc 0.6441 0.836 945 s
+mesh200_a0.0_d_median_m10_desc 0.6566 0.8485 950 s
+mesh35_a0.5_d_median_m10_desc 0.6476 0.8373 955 s
+mesh200_a0.5_d_median_m10_desc 0.6598 0.8497 959 s
+ver d_median_m10_desc 959 s
+mesh35_a0.5_dscan0.0 0.7018 0.8788 964 s
+mesh200_a0.5_dscan0.0 0.735 0.8909 969 s
+mesh35_a0.5_dscan0.0005 0.7003 0.8783 973 s
+mesh200_a0.5_dscan0.0005 0.7333 0.8903 978 s
+mesh35_a0.5_dscan0.001 0.6991 0.8778 983 s
+mesh200_a0.5_dscan0.001 0.7314 0.8896 988 s
+mesh35_a0.5_dscan0.002 0.696 0.8766 993 s
+mesh200_a0.5_dscan0.002 0.7293 0.8889 998 s
+mesh35_a0.5_dscan0.005 0.6907 0.8747 1003 s
+mesh200_a0.5_dscan0.005 0.7217 0.8861 1008 s
+mesh35_a0.5_dscan0.01 0.6806 0.8701 1013 s
+mesh200_a0.5_dscan0.01 0.7091 0.8815 1018 s
+mesh35_a0.5_dscan0.02 0.6658 0.8597 1022 s
+mesh200_a0.5_dscan0.02 0.6906 0.8742 1028 s
+mesh35_a0.5_dscan0.05 0.6493 0.8403 1032 s
+mesh200_a0.5_dscan0.05 0.663 0.8535 1037 s
+{
+ "check_080": {
+  "CE_max_rel_diff": 0.0,
+  "reproduced": true
+ },
+ "survival_factor_quantiles": {
+  "main": [
+   0.0004313066012340423,
+   0.2790767477055699,
+   0.8925777896255097
+  ],
+  "m3_desc": [
+   8.023397656652739e-11,
+   0.02173556635004308,
+   0.7111123607684959
+  ],
+  "m10_desc": [
+   2.227722435982861e-34,
+   2.8657384532483526e-06,
+   0.32096727799966107
+  ],
+  "Delta30_desc": [
+   0.13333751375435687,
+   0.3458770791534214,
+   0.8985183645363276
+  ],
+  "Delta100_desc": [
+   0.0012110846778933375,
+   0.029045082164630833,
+   0.699986815206718
+  ],
+  "Delta300_desc": [
+   1.7763295028712656e-09,
+   2.450291921684685e-05,
+   0.3429806187319724
+  ],
+  "d_median_desc": [
+   0.36034864597405336,
+   0.7662100223613002,
+   0.9331894706887591
+  ],
+  "d_pooled_desc": [
+   0.23048136318099577,
+   0.6818832065663942,
+   0.9053598729338492
+  ],
+  "d_median_m10_desc": [
+   3.691721622327505e-05,
+   0.06973941249867639,
+   0.5008391841509942
+  ]
+ },
+ "TC_base_080": {
+  "heavy_a0.5_mesh35": 0.7018408777464765,
+  "heavy_a0.5_mesh200": 0.734996944475574,
+  "total_a0.5_mesh35": 0.8788347147111433
+ },
+ "drop_heavy_a0.5_mesh35": {
+  "main": 0.04076496736487045,
+  "m3_desc": 0.057705009638585825,
+  "m10_desc": 0.06697475192091829,
+  "Delta30_desc": 0.03769160646414693,
+  "Delta100_desc": 0.05942222900786254,
+  "Delta300_desc": 0.06649254354446621,
+  "d_median_desc": 0.012676085368258927,
+  "d_pooled_desc": 0.018605125511702902,
+  "d_median_m10_desc": 0.05421504776831576
+ },
+ "ratio_rel_change_heavy_a0.5": {
+  "main": 0.27939864857467667,
+  "m3_desc": 1.011930292973111,
+  "m10_desc": 1.293550500867755,
+  "Delta30_desc": 0.6783829663824807,
+  "Delta100_desc": 0.9196508170895512,
+  "Delta300_desc": 0.786293824512831,
+  "d_median_desc": 0.1252671409120263,
+  "d_pooled_desc": 0.19438591548724626,
+  "d_median_m10_desc": 0.6177869396471263
+ },
+ "dscan": {
+  "0.0": {
+   "heavy_mesh35": 0.7018408777464765,
+   "heavy_mesh200": 0.734996944475574,
+   "ratio_heavy": 1.0031588818390569,
+   "ratio_total": 0.37556004423158507
+  },
+  "0.0005": {
+   "heavy_mesh35": 0.7003199666718659,
+   "heavy_mesh200": 0.7332990428756798,
+   "ratio_heavy": 1.019907010921262,
+   "ratio_total": 0.3766048982068704
+  },
+  "0.001": {
+   "heavy_mesh35": 0.6990770205337326,
+   "heavy_mesh200": 0.7313901232458302,
+   "ratio_heavy": 1.0177355065897906,
+   "ratio_total": 0.37151220793645906
+  },
+  "0.002": {
+   "heavy_mesh35": 0.6959646393486144,
+   "heavy_mesh200": 0.7293071892772928,
+   "ratio_heavy": 1.100988293570764,
+   "ratio_total": 0.39231014793700963
+  },
+  "0.005": {
+   "heavy_mesh35": 0.6907182331181589,
+   "heavy_mesh200": 0.7217425473889976,
+   "ratio_heavy": 1.1154462960181162,
+   "ratio_total": 0.37946307397541323
+  },
+  "0.01": {
+   "heavy_mesh35": 0.6805681144639852,
+   "heavy_mesh200": 0.7090847618945356,
+   "ratio_heavy": 1.2380731878143343,
+   "ratio_total": 0.40741645056299614
+  },
+  "0.02": {
+   "heavy_mesh35": 0.6657775616006454,
+   "heavy_mesh200": 0.6905916261424658,
+   "ratio_heavy": 1.5443771109128184,
+   "ratio_total": 0.6279254017436718
+  },
+  "0.05": {
+   "heavy_mesh35": 0.6492873730454233,
+   "heavy_mesh200": 0.6629550511310116,
+   "ratio_heavy": 1.6464744573502916,
+   "ratio_total": 0.9403665643371045
+  }
+ },
+ "hypotheses": {
+  "H93a": {
+   "class": "確認的",
+   "value": {
+    "n": 42,
+    "median": 0.005926931718011022
+   },
+   "rule": "n>=2 and median d_j < 0.002/yr",
+   "supported": false
+  },
+  "H93b": {
+   "class": "確認的",
+   "value": {
+    "n_national_numeric": 1,
+    "national_median": 0.0021807735024572594,
+    "university_median": 0.005926931718011022
+   },
+   "rule": "n_national>=1 and n_university>=1 and median(university) > median(national)",
+   "supported": true,
+   "caveat": "national = CISTI（NRC の National Science Library、1966 年に公式化）。LAC は CARL 表で除籍 N/A（数値なし）。NLA は分母が別頁の概数のため記述。"
+  },
+  "H93c": {
+   "class": "予測",
+   "value": 0.04076496736487045,
+   "rule": "heavy a=0.5 mesh35 TC/V0 drop < 0.01",
+   "supported": false
+  },
+  "H93d": {
+   "class": "予測",
+   "value": 0.27939864857467667,
+   "rule": "|heavy a=0.5 marginal/average rel. change vs 080 main| < 5%",
+   "supported": false
+  }
+ }
+}
+{
+ "n": 42,
+ "median": 0.005926931718011022,
+ "q25": 0.0020548161317161646,
+ "q75": 0.013502086578160762,
+ "min": 0.0,
+ "max": 0.07068246655271036,
+ "mean": 0.011333946403375792,
+ "pooled_volume_weighted": 0.008522014703054286,
+ "median_university": 0.005926931718011022,
+ "n_university": 40,
+ "national_numeric": {
+  "CISTI (NRC National Science Library)": 0.0021807735024572594
+ },
+ "national_non_numeric": [
+  "Library and Archives Canada"
+ ],
+ "tau_weed_median_years": 168.72136335924975,
+ "tau_weed_pooled_years": 117.34314417946268,
+ "tau_copy_062_median": 522.0,
+ "descriptive": {
+  "National Library of Australia": 2.85e-05,
+  "Library of Parliament (Canada)": 0.0018440181363102044
+ },
+ "share_cases_d_gt_1_over_522": 0.7857142857142857
+}
+main {'total': {'a0.0': 0.818, 'a0.5': 0.658}, 'heavy': {'a0.0': 2.413, 'a0.5': 1.283}} 0.6611
+m3_desc {'total': {'a0.0': 1.13, 'a0.5': 1.058}, 'heavy': {'a0.0': 2.855, 'a0.5': 2.018}} 0.6441
+m10_desc {'total': {'a0.0': 1.773, 'a0.5': 1.596}, 'heavy': {'a0.0': 4.357, 'a0.5': 2.301}} 0.6349
+Delta30_desc {'total': {'a0.0': 0.673, 'a0.5': 0.524}, 'heavy': {'a0.0': 3.302, 'a0.5': 1.684}} 0.6641
+Delta100_desc {'total': {'a0.0': 1.798, 'a0.5': 1.587}, 'heavy': {'a0.0': 3.716, 'a0.5': 1.926}} 0.6424
+Delta300_desc {'total': {'a0.0': 1.834, 'a0.5': 1.476}, 'heavy': {'a0.0': 5.459, 'a0.5': 1.792}} 0.6353
+d_median_desc {'total': {'a0.0': 0.6, 'a0.5': 0.38}, 'heavy': {'a0.0': 2.466, 'a0.5': 1.129}} 0.6892
+d_pooled_desc {'total': {'a0.0': 0.64, 'a0.5': 0.387}, 'heavy': {'a0.0': 2.857, 'a0.5': 1.198}} 0.6832
+d_median_m10_desc {'total': {'a0.0': 1.043, 'a0.5': 0.984}, 'heavy': {'a0.0': 2.14, 'a0.5': 1.623}} 0.6476
+runtime 1038.3
