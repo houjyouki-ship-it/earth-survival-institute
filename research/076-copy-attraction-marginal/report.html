@@ -1,0 +1,89 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究076：写しの近くに生き残りが寄る効果と、部数の限界の費用あたり（open_problems 196＋197） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="076open_problems-196197">研究076：写しの近くに生き残りが寄る効果と、部数の限界の費用あたり（open_problems 196＋197）</h1>
+<blockquote>
+<p><strong>注</strong>：TC/V0 は生存確率でも復興確率でもない（060〜075 の模型の中の価値の比）。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>075 の sim.py を run の定義まで exec し、mesh35・mesh200・per_subregion@cty の重い崩壊の TC/V0 を 075 の results.json と差0で再現（<code>check_075</code>）。075 全体も <code>/tmp/rep076/</code> で再実行し、results.json は runtime 以外一致。</li>
+<li>【独自仮説（模型の仮定）】崩壊後の群のうち割合 α は写しのある場所へ寄る：寄る群の点を重み W_i·exp(−d_min/L)（L = 073 の kmov の中央値 144.8 km）から引き直し、残りは 075 の点のまま。α = 0, 0.1, 0.25, 0.5, 1（主 0.5）。α=0 は 075 と差0（<code>check_alpha0</code>）。α の値に外部の根拠はない（下の限界）。</li>
+<li>部数の限界の費用あたり：標本ごとに (TC_200 − TC_35)/TAB × C_T /(Cost(200) − Cost(35))、Cost は 075 と同じ比例の費用（061 の prep_P・per_P、065 の C_pr・f_pg）。版で1部ごとの費用 per_P を ×0.1。</li>
+<li>事前登録：PREREGISTRATION.md（2026-10-21T02:36Z、sim.py の作成の前）。新しい外部資料は開いていない（数値の出典は 061・065・070〜075 の sources を再利用）。</li>
+</ul>
+<h2 id="tcv0a_ordu3">結果（重い崩壊の TC/V0、A_Ord/U3、主の届く距離）</h2>
+<table>
+<thead>
+<tr>
+<th>α</th>
+<th>mesh35</th>
+<th>mesh100</th>
+<th>mesh200</th>
+<th>35→200 の増分</th>
+<th>床〜天井の閉じた割合（mesh35）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0（075）</td>
+<td>0.680</td>
+<td>0.706</td>
+<td>0.729</td>
+<td>0.049</td>
+<td>0.19</td>
+</tr>
+<tr>
+<td>0.1</td>
+<td>0.685</td>
+<td>0.709</td>
+<td>0.731</td>
+<td>0.046</td>
+<td>0.22</td>
+</tr>
+<tr>
+<td>0.25</td>
+<td>0.692</td>
+<td>0.712</td>
+<td>0.732</td>
+<td>0.039</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td><strong>0.702</strong></td>
+<td>0.715</td>
+<td>0.735</td>
+<td><strong>0.033</strong></td>
+<td>0.30</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0.719</td>
+<td>0.728</td>
+<td>0.742</td>
+<td>0.023</td>
+<td>0.38</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>075 の床（どの群も届かない）0.638、天井（全群が35部すべてに届く）0.854。α=1 で写しに届かない群は 62.5%→12.4% に減るが、届く写しの数の平均は 1.17 部で、TC は天井までの 38% しか閉じない。<strong>寄せても届く写しが1部前後なので、その1部が残って読めるかが上限を決める</strong>（記述）。</li>
+<li>L の版（α=0.5）：mesh35 は L×2 で 0.697、L/2 で 0.704。全体（重い＋軽い）の TC/V0 は mesh35 で 0.871→0.879。</li>
+<li>10の置き方（N=35）：α=0.5 で最良は cover3000x@cty 0.707（α=0 では mesh35 0.680）、幅は 0.028→0.027 とほぼ同じ。順位の Kendall τ は 0.556。</li>
+<li>費用あたり（全体、中央値、TAB=1 の尺度）：35部の平均 27.6、35→200 の限界 <strong>3.78</strong>（比 0.137）、すべての標本で限界 &lt; 平均。α=0.5 では限界 2.57、α=1 で 1.76。per_P×0.1 の版では平均 52.9・限界 37.8（標本の 68% で限界 &lt; 平均）。重い崩壊だけでは平均 28.3・限界 13.3、per_P×0.1 では限界 133 が平均 54 を上回る（固定費が 35部の平均を押し下げるため）。</li>
+</ul>
+<h2 id="_2">仮説の判定（すべて計算の前に登録した予測）</h2>
+<ul>
+<li>H88a 支持（+0.0218 ≥ 0.02、ぎりぎり）。</li>
+<li>H88b 支持（0.137 &lt; 0.3）。</li>
+<li>H88c 支持（0.033 &lt; 0.049）。寄せるほど部数を増やす価値は減る。</li>
+<li>H88d <strong>棄却</strong>（τ 0.556 &lt; 0.6）。置き方の順位は寄せの仮定で入れ替わる。</li>
+</ul>
+<h2 id="_3">解釈と批判的検討</h2>
+<ul>
+<li>【推測】075 の「TC では置き方より部数と届く距離」という結論は、寄せの仮定の下でも、置き方の幅（約 0.027）が α の効き（0→1 で +0.039）や部数の効き（+0.023〜0.049）より小さいという点で残る。ただし置き方の中の順位は α しだいで入れ替わるので、N=35 の置き方の最良は模型からは決められない。</li>
+<li>【推測】部数の追加は、比例の印刷費の下では平均の 1/7 の効率しかなく、生き残りが写しに寄るほどさらに落ちる。固定費が大きく1部が安い場合（per_P×0.1）だけ、重い崩壊の価値で部数の追加が 35部の平均を上回る。部数の判断は per_P の実際の値に依存する（→198）。</li>
+<li>限界：α・L は根拠のない走査の値で、崩壊後に人が図書館のある町に寄るかの歴史の資料は本回開いていない。寄せは届く距離の尺度で1回だけ動くとし、写しを目指す移動の危険や遅れは入れていない。H88a は閾値をわずかに上回っただけで、seed の差でも動きうる大きさ。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>金庫・冊子の運営者は、35部から200部へ増やす判断を「1部ごとの印刷費が数十〜百ドル規模なら追加分の効率は平均の約 1/7」と見込んで行い、置き方の細かな最適化には頼らない。本研究所は 075 の床 0.638 を「寄せの仮定で 0.68〜0.72」に幅として持ち、次は1部ごとの費用 per_P の公開の見積もり（198）か、寄せの強さ α の歴史の根拠（199）へ進む。</p>
+<h2 id="_5">ファイル</h2>
+<p>sim.py（約430秒、seed 20261076）、results.json、stdout.txt、fig_alpha_scan.png、fig_plans_alpha.png、PREREGISTRATION.md。</p><footer><hr><small>自動生成</small></footer></body></html>
