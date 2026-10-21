@@ -1,0 +1,265 @@
+070 loaded 144 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 28 s
+main_kmov per_subregion@cty per_subregion@cty 70 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 81 s
+kmov_x2 per_subregion@pt per_subregion@pt 91 s
+ref_071 per_subregion@pt cover3000x@cty 93 s
+mesh 35 0.3002 96 s
+mesh 50 0.3359 98 s
+mesh 100 0.4191 99 s
+mesh 150 0.4718 101 s
+mesh 200 0.5097 102 s
+mesh 300 0.5654 104 s
+074 loaded 248 s
+checks ok 253 s
+075 loaded 253 s
+chk_mesh35 0.6801 0.8709 257 s
+chk_mesh200 0.7289 0.8887 262 s
+chk_per_subregion@cty 0.6585 0.8631 266 s
+check ok {'mesh35': 0.0, 'mesh200': 0.0, 'per_subregion@cty': 0.0} 266 s
+mesh35_a0.0 0.6801 0.8709 270 s
+mesh100_a0.0 0.7058 0.8803 275 s
+mesh200_a0.0 0.7289 0.8887 279 s
+mesh35_a0.1 0.6847 0.8726 284 s
+mesh100_a0.1 0.7094 0.8816 288 s
+mesh200_a0.1 0.7306 0.8893 293 s
+mesh35_a0.25 0.6923 0.8754 297 s
+mesh100_a0.25 0.7121 0.8826 301 s
+mesh200_a0.25 0.7317 0.8897 306 s
+mesh35_a0.5 0.7018 0.8788 310 s
+mesh100_a0.5 0.7154 0.8838 315 s
+mesh200_a0.5 0.735 0.8909 319 s
+mesh35_a1.0 0.7193 0.8852 323 s
+mesh100_a1.0 0.728 0.8884 328 s
+mesh200_a1.0 0.7419 0.8934 332 s
+cover1500@cty_a0.5 0.6877 0.8737 337 s
+cover750@cty_a0.5 0.6827 0.8719 341 s
+cover3000x@cty_a0.5 0.7072 0.8808 345 s
+per_subregion@cty_a0.5 0.6864 0.8732 350 s
+pop@cty_a0.5 0.6914 0.875 354 s
+surv150@cty_a0.5 0.6934 0.8758 359 s
+bigplus@cty_a0.5 0.6844 0.8725 363 s
+per_subregion@pt_a0.5 0.6801 0.8709 367 s
+pop@pt_a0.5 0.7007 0.8784 372 s
+mesh35_a0.5_Lx2 0.6974 0.8772 376 s
+mesh200_a0.5_Lx2 0.7345 0.8907 381 s
+mesh35_a0.5_Lhalf 0.7038 0.8795 385 s
+mesh200_a0.5_Lhalf 0.7364 0.8914 390 s
+080 loaded 391 s
+checks ok 391 s
+mesh35_a0.0_main 0.6514 0.8474 395 s
+mesh200_a0.0_main 0.6738 0.8616 400 s
+mesh35_a0.5_main 0.6611 0.8509 404 s
+mesh200_a0.5_main 0.6789 0.8634 409 s
+ver main 409 s
+mesh35_a0.0_m3_desc 0.6405 0.83 413 s
+mesh200_a0.0_m3_desc 0.6524 0.8405 418 s
+mesh35_a0.5_m3_desc 0.6441 0.8314 422 s
+mesh200_a0.5_m3_desc 0.656 0.8418 427 s
+ver m3_desc 427 s
+mesh35_a0.0_m10_desc 0.6335 0.8165 432 s
+mesh200_a0.0_m10_desc 0.6374 0.8215 436 s
+mesh35_a0.5_m10_desc 0.6349 0.817 441 s
+mesh200_a0.5_m10_desc 0.6383 0.8218 445 s
+ver m10_desc 445 s
+mesh35_a0.0_Delta30_desc 0.6522 0.8576 450 s
+mesh200_a0.0_Delta30_desc 0.6842 0.8725 454 s
+mesh35_a0.5_Delta30_desc 0.6641 0.8619 459 s
+mesh200_a0.5_Delta30_desc 0.6899 0.8746 464 s
+ver Delta30_desc 464 s
+mesh35_a0.0_Delta100_desc 0.6384 0.829 468 s
+mesh200_a0.0_Delta100_desc 0.6503 0.8446 473 s
+mesh35_a0.5_Delta100_desc 0.6424 0.8304 477 s
+mesh200_a0.5_Delta100_desc 0.6522 0.8453 482 s
+ver Delta100_desc 482 s
+mesh35_a0.0_Delta300_desc 0.6335 0.8167 486 s
+mesh200_a0.0_Delta300_desc 0.6382 0.8221 491 s
+mesh35_a0.5_Delta300_desc 0.6353 0.8174 496 s
+mesh200_a0.5_Delta300_desc 0.6385 0.8221 501 s
+ver Delta300_desc 501 s
+mesh35_a0.0_d_median_desc 0.6686 0.8666 505 s
+mesh200_a0.0_d_median_desc 0.7116 0.8824 510 s
+mesh35_a0.5_d_median_desc 0.6892 0.874 514 s
+mesh200_a0.5_d_median_desc 0.7197 0.8854 519 s
+ver d_median_desc 519 s
+mesh35_a0.0_d_pooled_desc 0.6639 0.8645 523 s
+mesh200_a0.0_d_pooled_desc 0.7072 0.8808 528 s
+mesh35_a0.5_d_pooled_desc 0.6832 0.8716 532 s
+mesh200_a0.5_d_pooled_desc 0.7123 0.8827 536 s
+ver d_pooled_desc 536 s
+mesh35_a0.0_d_median_m10_desc 0.6441 0.836 541 s
+mesh200_a0.0_d_median_m10_desc 0.6566 0.8485 545 s
+mesh35_a0.5_d_median_m10_desc 0.6476 0.8373 550 s
+mesh200_a0.5_d_median_m10_desc 0.6598 0.8497 554 s
+ver d_median_m10_desc 554 s
+mesh35_a0.5_dscan0.0 0.7018 0.8788 559 s
+mesh200_a0.5_dscan0.0 0.735 0.8909 563 s
+mesh35_a0.5_dscan0.0005 0.7003 0.8783 568 s
+mesh200_a0.5_dscan0.0005 0.7333 0.8903 572 s
+mesh35_a0.5_dscan0.001 0.6991 0.8778 577 s
+mesh200_a0.5_dscan0.001 0.7314 0.8896 582 s
+mesh35_a0.5_dscan0.002 0.696 0.8766 586 s
+mesh200_a0.5_dscan0.002 0.7293 0.8889 591 s
+mesh35_a0.5_dscan0.005 0.6907 0.8747 596 s
+mesh200_a0.5_dscan0.005 0.7217 0.8861 600 s
+mesh35_a0.5_dscan0.01 0.6806 0.8701 605 s
+mesh200_a0.5_dscan0.01 0.7091 0.8815 610 s
+mesh35_a0.5_dscan0.02 0.6658 0.8597 615 s
+mesh200_a0.5_dscan0.02 0.6906 0.8742 619 s
+mesh35_a0.5_dscan0.05 0.6493 0.8403 624 s
+mesh200_a0.5_dscan0.05 0.663 0.8535 628 s
+081 loaded 629 s
+mesh35_a0.0_none 0.6653 0.8651 633 s
+mesh200_a0.0_none 0.7089 0.8814 638 s
+mesh35_a0.5_none 0.6833 0.8716 642 s
+mesh200_a0.5_none 0.7138 0.8832 647 s
+none none 647 s
+mesh35_a0.0_none_dminmax_desc 0.6492 0.8474 652 s
+mesh200_a0.0_none_dminmax_desc 0.6743 0.8631 656 s
+mesh35_a0.5_none_dminmax_desc 0.6589 0.8509 661 s
+mesh200_a0.5_none_dminmax_desc 0.6784 0.8645 666 s
+none none_dminmax_desc 666 s
+mesh35_a0.0_none_unique_desc 0.6716 0.8679 671 s
+mesh200_a0.0_none_unique_desc 0.7189 0.8851 676 s
+mesh35_a0.5_none_unique_desc 0.6911 0.8749 681 s
+mesh200_a0.5_none_unique_desc 0.7251 0.8873 686 s
+none none_unique_desc 686 s
+mesh35_a0.5_chk081 0.6611 0.8509 691 s
+mesh35_a0.5_k5 0.6968 0.877 695 s
+ver k5 695 s
+mesh35_a0.0_k10 0.6738 0.8687 700 s
+mesh35_a0.5_k10 0.6946 0.8762 705 s
+ver k10 705 s
+mesh35_a0.5_k25 0.6911 0.8749 709 s
+ver k25 709 s
+mesh35_a0.5_k50 0.6885 0.8739 714 s
+ver k50 714 s
+mesh35_a0.5_k10_disc3_desc 0.6946 0.8762 718 s
+ver k10_disc3_desc 718 s
+mesh35_a0.5_k10_life30_desc 0.6851 0.8725 723 s
+ver k10_life30_desc 723 s
+mesh35_a0.5_k10_life100_desc 0.6913 0.875 728 s
+ver k10_life100_desc 728 s
+mesh35_a0.5_k10_dminmax_desc 0.6809 0.8707 732 s
+ver k10_dminmax_desc 732 s
+mesh35_a0.5_k10_unique_desc 0.6981 0.8775 737 s
+ver k10_unique_desc 737 s
+mesh200_a0.5_k10R200 0.7286 0.8886 742 s
+/workspace/earth-survival-institute/research/082-replenish-unique-weeding/sim.py:69: RuntimeWarning: divide by zero encountered in divide
+  vt = get("main", M1)["TAB"][part]; g = (TCs(nm_to, part) - TCs(nm_from, part)) / vt * C_T / (cost_to - cost_from); return g
+082 loaded 742 s
+mesh35_a0.5_soc_km_k5 0.6963 0.8767 747 s
+ver soc_km_k5 747 s
+mesh35_a0.5_soc_km_k10 0.6944 0.876 752 s
+ver soc_km_k10 752 s
+mesh35_a0.5_soc_km_k25 0.6909 0.8747 757 s
+ver soc_km_k25 757 s
+mesh35_a0.5_soc_km_k50 0.6883 0.8738 761 s
+ver soc_km_k50 761 s
+mesh35_a0.5_found_km_k10_desc 0.6945 0.8762 766 s
+ver found_km_k10_desc 766 s
+mesh35_a0.5_soc_dissolved_only_k10_desc 0.6858 0.8729 771 s
+ver soc_dissolved_only_k10_desc 771 s
+{
+ "check_082": {
+  "versions_max_rel_diff": 0.0,
+  "n_values": 189,
+  "reproduced": true
+ },
+ "lifespan_society": {
+  "n": 5149,
+  "n_dissolved": 505,
+  "median_dissolved": 43.0,
+  "q25_q75_dissolved": [
+   20.0,
+   73.0
+  ],
+  "KM_S": {
+   "10": 0.9879588269566909,
+   "30": 0.9648475432122747,
+   "50": 0.943678384152263,
+   "100": 0.9043426704997235,
+   "150": 0.8691589848569725,
+   "200": 0.859230249899661
+  },
+  "KM_last_t": 192.0,
+  "KM_last_S": 0.859230249899661
+ },
+ "lifespan_foundation": {
+  "n": 962,
+  "n_dissolved": 57,
+  "median_dissolved": 46.0,
+  "q25_q75_dissolved": [
+   24.0,
+   58.0
+  ],
+  "KM_S": {
+   "10": 0.9927234927234929,
+   "30": 0.9844074844074846,
+   "50": 0.9656964656964658,
+   "100": 0.9319330046056628,
+   "150": 0.9101082364906428,
+   "200": 0.9101082364906428
+  },
+  "KM_last_t": 203.0,
+  "KM_last_S": 0.8451005053127397
+ },
+ "life_sample_share_inf": {
+  "soc_km": 0.8589,
+  "found_km_desc": 0.845235,
+  "soc_dissolved_only_desc": 0.0
+ },
+ "life_sample_share_ge_Delta": {
+  "soc_km": 0.938395,
+  "found_km_desc": 0.96147,
+  "soc_dissolved_only_desc": 0.450245
+ },
+ "ref_082": {
+  "k10": 1.7805983245502455,
+  "k10_life30_desc": 0.7112029360817136,
+  "k10_life100_desc": 1.4850925043036978
+ },
+ "hypotheses": {
+  "H95a": {
+   "class": "確認的",
+   "value": {
+    "n_dissolved": 505,
+    "median": 43.0
+   },
+   "rule": "n_dissolved>=30 and median<50",
+   "supported": true
+  },
+  "H95b": {
+   "class": "確認的",
+   "value": {
+    "n": 5149,
+    "KM_S50": 0.943678384152263
+   },
+   "rule": "n>=30 and KM S(50)>=0.70",
+   "supported": true
+  },
+  "H95c": {
+   "class": "予測",
+   "value": 1.8800202080728106,
+   "rule": "ratio(soc_km,k10,heavy a0.5)>1",
+   "supported": true
+  },
+  "H95d": {
+   "class": "予測",
+   "value": 0.8840934308326902,
+   "rule": "ratio(dissolved-only,k10,heavy a0.5)<1",
+   "supported": true
+  }
+ }
+}
+soc_km_k5 TC none35 0.6833 R35 0.6963 none200 0.7138 ratio 1.15 share 0.60 extraR 3512 | total ratio 1.19
+soc_km_k10 TC none35 0.6833 R35 0.6944 none200 0.7138 ratio 1.88 share 0.88 extraR 1833 | total ratio 1.97
+soc_km_k25 TC none35 0.6833 R35 0.6909 none200 0.7138 ratio 3.36 share 0.99 extraR 713 | total ratio 3.59
+soc_km_k50 TC none35 0.6833 R35 0.6883 none200 0.7138 ratio 5.22 share 1.00 extraR 307 | total ratio 5.84
+found_km_k10_desc TC none35 0.6833 R35 0.6945 none200 0.7138 ratio 1.86 share 0.88 extraR 1875 | total ratio 1.97
+soc_dissolved_only_k10_desc TC none35 0.6833 R35 0.6858 none200 0.7138 ratio 0.88 share 0.41 extraR 882 | total ratio 1.19
+runtime 771.2

@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究083 事前登録（open_problems 210：確認・補充の仕組みが続く期間、＋082 の再現） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="083-open_problems-210082">研究083 事前登録（open_problems 210：確認・補充の仕組みが続く期間、＋082 の再現）</h1>
+<p>登録時刻：2026-10-21T16:40Z（210 の外部資料を開く前・sim.py の作成の前）</p>
+<blockquote>
+<p>注：TC/V0 と費用あたりは生存確率・復興確率ではない。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>082 の補充の有利（k=10、重い崩壊 α=0.5 の CE 比 1.78）は、確認と補充を続ける仕組みが Δ の間ずっと続くという仮定に依存した（寿命 30年で 0.71）。公開の資料から組織の寿命の分布を置き、比を置き直す。あわせて 082 の versions を差0で再現する（082 の再実行の確認）。</p>
+<h2 id="_2">資料（開く前に固定）</h2>
+<ul>
+<li>Wikidata の公開の SPARQL 窓口（query.wikidata.org）で、学会（learned society, Q955824 とその下位の分類）を instance of にもち、設立（P571）が 1800〜1975 年のもの。解散（P576）があればその年まで、なければ 2026 年で打ち切り（censored）とする。年が不明・解散が設立より前のものは除外。</li>
+<li>版：財団（foundation, Q157031 とその下位）を同じ規則で。</li>
+<li>取得した生の結果は sources/ に保存し SHA256。問い合わせ文も保存。</li>
+<li>既知の偏り（先に書く）：Wikidata に載るのは目立つ組織で長命に寄る。解散の年の記入漏れは寿命を長く見せる。小さな確認の仕組みはこれより短命と見るのが自然【推測】。</li>
+</ul>
+<h2 id="_3">置き方</h2>
+<ul>
+<li>主：学会の Kaplan–Meier 曲線の逆関数で、仕組みの寿命 L を各標本に引く（KM の最後の値より先は L=∞、つまり Δ の間続く）。</li>
+<li>版（記述）：解散の年のある学会だけの経験分布（全て死ぬ、短い側の下限）、財団の KM、082 の固定 30年・100年（再現）。</li>
+<li>他は 082 のまま（k=10 主、k ∈ {5,10,25,50}、d は 081 の四分位の範囲、Δ ~ logU(10,200)、p_acc、費用）。L の乱数は新しい seed 20261083。</li>
+<li>082 のコードは寿命を固定の値として扱っていた（報告では「平均の指数」と書いた）。本回は標本ごとの L を扱えるように書き直し、固定値の版で 082 と差0を確かめる。</li>
+</ul>
+<h2 id="_4">仮説</h2>
+<ul>
+<li>H95a（確認的）：学会の 1800〜1975 年設立で解散の年のあるもの（30件以上）の寿命の中央値は 50年未満。</li>
+<li>H95b（確認的）：学会の KM で設立から 50年の生存は 0.70 以上。</li>
+<li>H95c（予測）：主（学会の KM、k=10）で、重い崩壊 α=0.5 の CE 比 CE(35→補充)/CE(35→200) の中央値の比は 1 を上回る。</li>
+<li>H95d（予測）：解散の年のある学会だけの分布（版）では、同じ比は 1 を下回る。</li>
+<li>記述（支持に数えない）：財団の版、k の走査、固定 30/100 年の再現。</li>
+</ul>
+<h2 id="30-h95ab">判定の基準は緩めない。30件に満たなければ H95a・b は棄却（データ不足）と記録する。</h2><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,44 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究083：確認・補充の仕組みが続く期間（open_problems 210）＋ 082 の再現 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="083open_problems-210-082">研究083：確認・補充の仕組みが続く期間（open_problems 210）＋ 082 の再現</h1>
+<blockquote>
+<p>注：TC/V0 と費用あたりは生存確率・復興確率ではない。提言の節は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>082 の補充の有利（k=10、重い崩壊 α=0.5、CE 比 1.78）は、確認と補充の仕組みが Δ（10〜200年）の間ずっと続く仮定に依存した。公開の組織の寿命の分布で置き直す。あわせて 082 を再実行して差0で再現する。事前登録：PREREGISTRATION.md（2026-10-21T16:40Z、資料の取得と sim.py の前）。資料の取得は 16:42Z 頃（sources/fetched_at.txt）。</p>
+<h2 id="sources-csvsha256">資料（本回取得、sources/ に生の CSV・問い合わせ文・SHA256）</h2>
+<ul>
+<li>【事実】Wikidata の公開の SPARQL 窓口 https://query.wikidata.org/sparql で、学会（Q955824 とその下位）と財団（Q157031 とその下位）の設立（P571）と解散（P576）の年。1800〜1975 年設立：学会 5,149件（解散の年あり 505件）、財団 962件（57件）。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>解散の年がないものは 2026 年で打ち切りとして Kaplan–Meier（KM）曲線を出し、その逆関数で標本ごとの仕組みの寿命 L を引いた（KM の最後より先は L=∞）。版：解散の年のある学会だけの経験分布（全て死ぬ下限）、財団の KM。seed 20261083。</li>
+<li>082 の presence を標本ごとの L に広げ（presence2）、固定 30・100 年で 082 の関数と完全一致を assert。他は 082 のまま。</li>
+<li>再現の検査：082 の sim.py を exec し、082 の versions の 189 値を相対差 <strong>0.0</strong> で再現（082 は 081 の CE も差0で再現している）。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<ul>
+<li>【事実（上の資料から計算）】学会の解散の年のある 505件の寿命の中央値 <strong>43年</strong>（四分位 20〜73年）。学会の KM の 50年の存続 <strong>0.944</strong>、100年 0.904、200年 0.859。財団は解散ありの中央値 46年、KM の 50年 0.966。</li>
+<li>重い崩壊 α=0.5、k=10 の CE 比（補充／200部、中央値）：学会の KM <strong>1.88</strong>（082 の「ずっと続く」1.78 より上：仕組みが途切れると費用も止まるため）、財団の KM 1.86、解散ありだけ <strong>0.88</strong>（逆転）。082 の固定 30年 0.71、100年 1.49。</li>
+<li>学会の KM での k の走査：k=5 1.15、k=25 3.36、k=50 5.22。TC/V0 は 35部 0.683、補充つき 0.694（k=10）、解散ありだけでは 0.686、200部 0.714。</li>
+<li>1館の写しの残る確率の中央値（k=10）：学会の KM 0.871、解散ありだけ 0.825（補充なしは 0.73）。</li>
+</ul>
+<h2 id="_4">仮説の判定（分類つき）</h2>
+<ul>
+<li>H95a（確認的）：解散の年のある学会の寿命の中央値 &lt; 50年 → <strong>支持</strong>（43年、n=505）。</li>
+<li>H95b（確認的）：学会の KM の 50年の存続 ≥ 0.70 → <strong>支持</strong>（0.944）。</li>
+<li>H95c（予測）：学会の KM で比 &gt; 1 → <strong>支持</strong>（1.88）。</li>
+<li>H95d（予測）：解散ありだけで比 &lt; 1 → <strong>支持</strong>（0.88）。</li>
+<li>記述：財団の版、k の走査、固定の再現。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li>結論は KM と「解散ありだけ」の間のどこに真の寿命があるかで割れる（1.88 対 0.88）。Wikidata の KM は、解散の年の記入漏れ（消えた組織ほど記録が更新されない）を「生きている」と数えるので長命に偏る【推測】。解散ありだけは逆に死んだものだけで短命に偏る。両者は上限と下限で、点推定ではない。</li>
+<li>学会・財団は Wikidata に頁があるほど目立つ組織。冊子の所蔵を確認するだけの小さな仕組み（個人の企画・小さな基金）は、これより短命と見るのが自然【推測】で、下限側に寄る。082 の固定値と合わせると、分かれ目は寿命の典型が約 40〜60年のあたり【推測、固定 30・100年と下限の版の間の内挿で、直接計算していない】。</li>
+<li>学会の KM で比が 082 より上がったのは、途中で途切れる仕組みは費用も払わなくなるため。TC の水準は 0.695→0.694 とほとんど動かない。</li>
+<li>082 のコードは寿命を固定の値として扱い、082 の報告は「寿命の平均」と書いていた（記述の誤り）。本回、082 の 30・100 年は「固定の寿命」と読み替える。</li>
+<li>打ち切りを独立と置いた KM の前提は、記入漏れが寿命と関係するので成り立たない可能性が高い。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>冊子を配る運営者は、確認と補充の仕組みを、既に長く続いている学会・財団・図書館の連合の事業に組み込む形で置く（新しく作る小さな仕組みは解散ありの分布に近く、200部の方が費用あたりで上になりうる）。組み込めないなら部数を増やす。</li>
+<li>本研究所はこの系列（077〜083）を閉じ、084 からは重い崩壊の別の課題へ移る（固定の指示どおり）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
