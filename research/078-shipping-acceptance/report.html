@@ -1,0 +1,125 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究078：冊子1部を外国の図書館に送って収蔵してもらう費用と可否（open_problems 200） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="0781open_problems-200">研究078：冊子1部を外国の図書館に送って収蔵してもらう費用と可否（open_problems 200）</h1>
+<blockquote>
+<p>注：TC/V0 と費用あたりは模型の中の価値の比で、生存確率でも復興確率でもない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>077 で per_P（1部ごとの費用）の約9割は 061 の根拠のない送付・受け入れ費 U($25,$50) だった。公開の郵便料金表と図書館の寄贈受け入れ方針で、送付分と「受け入れられる確率」p_acc を置き直し、35→200部の判断（限界/平均の費用あたり）が変わるかを見る。事前登録は PREREGISTRATION.md（2026-10-21T06:42Z、資料を開く前）。</p>
+<h2 id="sources-sha256sumstxt">資料（本回開いて確認、sources/ に保存し SHA256SUMS.txt）</h2>
+<p>約 300 g・厚さ 2 cm 以下の本1冊を外国へ送る最も安い区分（sources/rates.json）：
+- 【事実（<a href="https://www.post.japanpost.jp/send/oversea/charge/list-normal/zone3.html">日本郵便 通常郵便物の料金表</a>）】印刷物（航空便）300gまで：第1・2地帯 530円、第3・4地帯 810円、第5地帯 1,000円。
+- 【事実（<a href="https://www.mymailingroom.com/wp-content/uploads/royal-mail-international-postage-prices-2026.pdf">Royal Mail International Services wallchart 2026</a>）】International Standard Large Letter 500g（厚さ 25mm まで）：Europe £7.65、World Zone 1 £11.45、Zone 2 £13.90、Zone 3 £12.40。Small Parcel 500g は £12.05〜£27.45。
+- 【事実（<a href="https://pe.usps.com/text/dmm300/Notice123.htm">USPS Notice 123</a>、2026-10-04 有効）】First-Class Mail International の Large Envelope 12 oz：Canada $7.60、Mexico $13.00、他 $15.75（硬い・厚さが一様でない物は package の料金）。First-Class Package International 9〜16 oz は $26.00〜$41.25。国内の Media Mail 1 lb $4.39。
+- 【事実（<a href="https://shop.deutschepost.de/informationen-zum-warenversand">Deutsche Post の Warenversand の頁</a>・<a href="https://www.deutschepost.de/de/b/briefe-ins-ausland.html">Briefe ins Ausland</a>）】外国への物は DHL Päckchen 2 kg まで €6.99 から。外国あての手紙は 2019 年から書類のみ（Großbrief €3.30 は使わない）。
+- 【事実（<a href="https://www.post.japanpost.jp/service/send/oversea/list/delivery/airpacket.html">日本郵便 国際エアパケット</a>）】追跡つき 300gまで 920〜1,620円。
+- 換算は【事実（<a href="https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml">ECB 参照レート 2026-10-20</a>）】1 EUR = 1.1215 USD、177.34 JPY、0.84028 GBP。</p>
+<p>寄贈受け入れの方針（国立・州立の図書館 8館、sources/policies.json）：
+- 【事実（<a href="https://loc.gov/acq/donatex.html">Library of Congress</a>）】"cannot accept everything. Prospective donors should NOT send the item(s)"。
+- 【事実（<a href="https://www.library.gov.au/give/offer-us-collection-material">National Library of Australia</a>）】送る前に申し出、方針に合う物だけ受け入れる。
+- 【事実（<a href="https://www.ndl.go.jp/collect/collection">国立国会図書館</a>）】リストを先に送ること、蔵書としない資料は原則として廃棄。
+- 【事実（<a href="https://www.canada.ca/en/library-archives/corporate/donations/donate-published-material.html">Library and Archives Canada</a>）】カナダに関係する資料のみ、郵送の前に連絡、受け入れなかった物は返さない。
+- 【事実（<a href="https://www.nls.uk/support-us-old/ways-to-give/donate-items/">National Library of Scotland</a>）】送る前に連絡、方針に合わない寄贈は処分しうる。
+- 【事実（<a href="https://www.nli.ie/sites/default/files/2022-11/nli_collections_revisedpolicy_2022.pdf">National Library of Ireland の収集方針</a>）】寄贈を受ける・断る判断の基準を持ち、アイルランドに関係する資料を集める。
+- 【事実（<a href="https://www.in.gov/library/files/ISL-Collection-Development-Policy.pdf">Indiana State Library の収集方針</a>）】選んで受け入れ、加えない寄贈は他館へ回すか処分。
+- 【事実（<a href="https://support.bl.uk/page/Contact-us">British Library</a>）】この頁は方針の参照と問い合わせ先だけで、条件は書かれていない（U と数えた）。
+- 受け入れの割合の数値は 0件。<a href="https://www.ifla.org/wp-content/uploads/2019/05/assets/acquisition-collection-development/publications/gift_guide_2019_edition.pdf">IFLA Gift guide 2019</a> も選んで受け入れる方針を勧めるが割合は載せていない。NZ の国立図書館は取得に失敗。
+- 標本の偏り：国立・州立の図書館に限り無作為ではない。Indiana は "disposed" を含む検索で見つけた。</p>
+<h2 id="_2">方法</h2>
+<p>077 の sim.py を仮説の節の前まで exec し、077 の CE（9つの版×全体・重い崩壊×5つの α）を差0（相対差 0.0）で再現した。per_P＝(印刷 logU($2.30,$8.00)＋送付 logU($3.35,$18.55))/p_acc、p_acc U(0.5,0.9)【推測。資料に数値がないため登録どおり】（seed 20261078）。送付の範囲は最も安い区分の全地帯の最小〜最大。版（記述）：p_acc=1、p_acc U(0.2,0.5)、事前の連絡の手間 +$15/部、国内のみ（$4.39）、追跡・小包の区分（$5.82〜$41.25）、事後の版 p_acc U(0.05,0.2)。TC は変えず費用だけ置き換えた。加えて per_P を 0.1〜10倍に動かし、限界/平均＝1 になる倍率を出した。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>最も安い区分の郵便料金（事業者ごとの地帯の中央値）は日本郵便 $5.12、Royal Mail $15.92、USPS $14.38、DHL $7.84、その中央値 <strong>$11.1</strong>（全地帯で $3.35〜$18.55）。061 の U($25,$50) の下端より下。追跡・小包の区分では中央値 $24.9。</li>
+<li>方針の 8館中 7館（0.875）が選んで受け入れ、5館が送る前の連絡を求め、4館は自国に関係する資料に限る。受け入れ率の数値は見つからない。</li>
+<li>新しい per_P（収蔵される1部あたり）の中央値 <strong>$18.5</strong>（5〜95% $9.7〜$34.4）は 077 の $42.2 の <strong>0.44倍</strong>。印刷が約 35%。</li>
+<li>費用あたり（中央値、35部の平均 → 35→200 の限界、限界/平均）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>per_P</th>
+<th>全体 α=0</th>
+<th>全体 α=0.5</th>
+<th>重い崩壊 α=0</th>
+<th>重い崩壊 α=0.5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>077 主</td>
+<td>52.9→33.0（0.62）</td>
+<td>59.8→22.4（0.37）</td>
+<td>54.4→116（2.14）</td>
+<td>78.8→78.9（1.00）</td>
+</tr>
+<tr>
+<td>主（本回）</td>
+<td>56.4→74.5（<strong>1.32</strong>）</td>
+<td>63.8→50.7（<strong>0.80</strong>）</td>
+<td>58.0→263（<strong>4.53</strong>）</td>
+<td>84.0→178（<strong>2.12</strong>）</td>
+</tr>
+<tr>
+<td>p_acc=1</td>
+<td>1.87</td>
+<td>1.13</td>
+<td>6.43</td>
+<td>3.01</td>
+</tr>
+<tr>
+<td>p_acc 0.2〜0.5</td>
+<td>0.69</td>
+<td>0.41</td>
+<td>2.35</td>
+<td>1.10</td>
+</tr>
+<tr>
+<td>連絡 +$15</td>
+<td>0.63</td>
+<td>0.38</td>
+<td>2.17</td>
+<td>1.02</td>
+</tr>
+<tr>
+<td>国内のみ</td>
+<td>1.85</td>
+<td>1.11</td>
+<td>6.35</td>
+<td>2.98</td>
+</tr>
+<tr>
+<td>追跡・小包</td>
+<td>0.85</td>
+<td>0.51</td>
+<td>2.90</td>
+<td>1.36</td>
+</tr>
+<tr>
+<td>事後 p_acc 0.05〜0.2</td>
+<td>0.29</td>
+<td>0.17</td>
+<td>0.99</td>
+<td>0.46</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>判断の分かれ目：重い崩壊 α=0.5 で限界＝平均になるのは per_P が主の <strong>2.37倍</strong>（中央値 約 $44）、α=0 では 5.96倍、全体 α=0.5 では 0.79倍（約 $15）。印刷＋送付の中央値（約 $12.7）で割ると、重い崩壊 α=0.5 で判断が逆になるのは p_acc が約 0.29 を下回るとき、または p_acc を 0.7 としたとき1部の連絡・受け入れの手間が約 $18 を超えるとき【推測：中央値どうしの粗い換算】。</li>
+</ul>
+<h2 id="_4">仮説の判定（分類つき、閾値は登録どおり）</h2>
+<ul>
+<li>H90a（確認的）：最も安い区分の料金の中央値が $10〜$30 → <strong>支持</strong>（$11.1、下端に近い）。</li>
+<li>H90b（確認的）：方針の過半が S・P・N → <strong>支持</strong>（7/8。ただし国立・州立の 8館の小標本）。</li>
+<li>H90c（予測）：主・重い崩壊 α=0.5 で限界/平均 &gt; 1 → <strong>支持</strong>（2.12）。</li>
+<li>H90d（予測）：主・全体 α=0.5 で限界/平均 &lt; 1 → <strong>支持</strong>（0.80）。</li>
+<li>記述：p_acc と手間の版、国内のみ、追跡。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li>送付は1部ずつの郵送の料金。まとめて送る（M-bag など）・人が運ぶ・現地で印刷する場合は下がる。逆に関税・通関の書類の手間は入れていない。</li>
+<li>p_acc は数値の根拠がなく、結論を動かす最大の未知になった。方針の文面からは、外国の一般的な冊子は「自国に関係する資料に限る」4館では断られやすいと読める【推測】。連絡の手間（1部 $15）を足すと 077 とほぼ同じ所に戻る。</li>
+<li>送り先は国立図書館に限らない。模型の網目の写しの多くは小地域の図書館・役所・寺院などで、その受け入れ方針の資料は本回ない。</li>
+<li>収蔵されたあと除籍（weeding）で捨てられる率は 062 の写しの時定数に入っていない。</li>
+</ul>
+<h2 id="_6">「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は、郵便料金（1部 $3〜$19）より「収蔵してもらえるか」と「事前の連絡の手間」で部数を決める。重い崩壊を重く見るなら、受け入れ率が約3割以上で、連絡の手間を含めた1部の費用が約 $44 以下に収まるなら 200部を検討する。受け入れを上げるには、各国の法定納本（自国で出版すれば受け入れが義務）や、その地域に関係する内容（その国の地図・座標の頁）を入れることを検討する【独自仮説】。本研究所は 077 の per_P を $42→$18.5 に改め、次は p_acc の実測に近い資料（203）へ。</p>
+<h2 id="_7">成果物</h2>
+<p>sim.py、results.json、stdout.txt、fig_postage_acceptance.png、PREREGISTRATION.md、sources/（rates.json、policies.json、保存した頁、fetch*.sh、SHA256SUMS.txt）。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1186,4 +1186,16 @@
 <li>再現：<code>/tmp/rep077/</code> で 077 を再実行し results.json は runtime 以外一致、図の MD5 も一致。</li>
 <li>逸脱：登録の「最小〜最大」に価格表の範囲の下端・上端（The Book Patch の 100部以上の $2.34、BookBaby の $5〜$8）を使った。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：冊子を配る運営者は、部数を印刷費（約 $3/部）でなく送付・受け入れの手間で決める。受け入れ費が1部 $25 程度以下なら 200部まで配る案を検討する。本研究所は 061〜076 の per_P を公開の印刷費に改め、次は送付・受け入れ費と図書館の受け入れの可否（200）へ。</li>
+</ul>
+<h2 id="78-2026-10-21">第78回 2026-10-21</h2>
+<ul>
+<li>再現チェック：078 の sim.py は 077 の sim.py を exec して 077 の CE 全値（9版×全体・重い崩壊×5つの α）を差0（相対差 0.0）で再現する（077 の再実行を兼ねる）。<code>/tmp/rep078/</code> に research を複製して 078 を再実行した（結果は下）。</li>
+<li>主課題：next_plan の推奨 A ＝ open_problems 200（送付・受け入れの1部ごとの費用と受け入れの可否）。固定の2節は残した。</li>
+<li>文献・データ（本回開いて確認、sources/ に保存し SHA256）：日本郵便の通常郵便物の料金表（第1〜5地帯）と国際エアパケット、Royal Mail の International Services wallchart 2026（royalmail.com は 403 のため転載の PDF を WebFetch）、USPS Notice 123（2026-10-04 有効）、Deutsche Post の Warenversand と Briefe ins Ausland の頁、ECB 参照レート 2026-10-20。寄贈の方針：Library of Congress、NLA、国立国会図書館、Library and Archives Canada（WebFetch）、National Library of Scotland、National Library of Ireland の収集方針、Indiana State Library の収集方針、British Library（WebFetch）。IFLA Gift guide 2019 と ALA の toolkit は記述。NZ の国立図書館は取得失敗。</li>
+<li>研究078を実施：<code>research/078-shipping-acceptance/</code>（sim.py 約405秒 seed 20261078、計算のみ）。成果物は results.json、stdout.txt、fig_postage_acceptance.png、report.md、PREREGISTRATION.md（2026-10-21T06:42Z、資料を開く前・sim.py の前）、sources/（rates.json、policies.json、保存した頁、fetch*.sh、SHA256SUMS.txt）。</li>
+<li>方法：per_P＝(印刷 logU($2.30,$8.00)＋送付 logU($3.35,$18.55))/p_acc、p_acc U(0.5,0.9)【推測、登録どおり】。版：p_acc=1、0.2〜0.5、連絡 +$15、国内のみ、追跡・小包、事後の p_acc 0.05〜0.2。per_P を 0.1〜10倍に動かして限界/平均＝1 の分かれ目を出した。</li>
+<li>主要数値：最も安い区分の料金の事業者の中央値 <strong>$11.1</strong>（日本郵便 $5.12、DHL $7.84、USPS $14.38、Royal Mail $15.92）。方針は 8館中 7館が選んで受け入れ、5館が事前の連絡、4館が自国の資料に限る、受け入れ率の数値 0件。per_P 中央値 <strong>$18.5</strong>（077 の 0.44倍、印刷が約 35%）。限界/平均（中央値）：全体 α=0 1.32・α=0.5 <strong>0.80</strong>、重い崩壊 α=0 4.53・α=0.5 <strong>2.12</strong>。重い崩壊 α=0.5 の分かれ目は per_P の 2.37倍（約 $44、p_acc 約 0.29 相当）。連絡 +$15 では 1.02、事後の p_acc 0.05〜0.2 では 0.46。</li>
+<li>判定（分類つき）：確認的 H90a 支持（$11.1、下端に近い）、H90b 支持（7/8、小標本）。予測 H90c・H90d 支持。</li>
+<li>逸脱：Royal Mail は公式サイトが 403 のため第三者の転載の PDF（Royal Mail の wallchart そのもの）を使った。Deutsche Post は地帯別の表がなく「€6.99 から」の1値。British Library は条件の記載がない頁で U と数えた（保守的）。事前登録の時刻を 06:43Z から実際の作成時刻 06:42Z に直した（内容は変えていない）。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：冊子を配る運営者は、郵便料金（1部 $3〜$19）でなく、収蔵してもらえる確率と事前の連絡の手間で部数を決める。収蔵が約3割以上で、連絡を含めた1部の費用が約 $44 以下なら、重い崩壊を重く見る限り 200部を検討する。本研究所は 077 の per_P $42 を $18.5 に改め、次は p_acc の数値（203）へ。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
