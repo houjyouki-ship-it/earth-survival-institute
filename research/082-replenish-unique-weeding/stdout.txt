@@ -72,3 +72,154 @@ mesh35_a0.5_Delta30_desc 0.6641 0.8619 483 s
 mesh200_a0.5_Delta30_desc 0.6899 0.8746 487 s
 ver Delta30_desc 487 s
 mesh35_a0.0_Delta100_desc 0.6384 0.829 492 s
+mesh200_a0.0_Delta100_desc 0.6503 0.8446 497 s
+mesh35_a0.5_Delta100_desc 0.6424 0.8304 502 s
+mesh200_a0.5_Delta100_desc 0.6522 0.8453 507 s
+ver Delta100_desc 507 s
+mesh35_a0.0_Delta300_desc 0.6335 0.8167 511 s
+mesh200_a0.0_Delta300_desc 0.6382 0.8221 516 s
+mesh35_a0.5_Delta300_desc 0.6353 0.8174 521 s
+mesh200_a0.5_Delta300_desc 0.6385 0.8221 526 s
+ver Delta300_desc 526 s
+mesh35_a0.0_d_median_desc 0.6686 0.8666 531 s
+mesh200_a0.0_d_median_desc 0.7116 0.8824 536 s
+mesh35_a0.5_d_median_desc 0.6892 0.874 541 s
+mesh200_a0.5_d_median_desc 0.7197 0.8854 546 s
+ver d_median_desc 546 s
+mesh35_a0.0_d_pooled_desc 0.6639 0.8645 551 s
+mesh200_a0.0_d_pooled_desc 0.7072 0.8808 556 s
+mesh35_a0.5_d_pooled_desc 0.6832 0.8716 561 s
+mesh200_a0.5_d_pooled_desc 0.7123 0.8827 566 s
+ver d_pooled_desc 566 s
+mesh35_a0.0_d_median_m10_desc 0.6441 0.836 571 s
+mesh200_a0.0_d_median_m10_desc 0.6566 0.8485 576 s
+mesh35_a0.5_d_median_m10_desc 0.6476 0.8373 581 s
+mesh200_a0.5_d_median_m10_desc 0.6598 0.8497 586 s
+ver d_median_m10_desc 586 s
+mesh35_a0.5_dscan0.0 0.7018 0.8788 592 s
+mesh200_a0.5_dscan0.0 0.735 0.8909 597 s
+mesh35_a0.5_dscan0.0005 0.7003 0.8783 602 s
+mesh200_a0.5_dscan0.0005 0.7333 0.8903 607 s
+mesh35_a0.5_dscan0.001 0.6991 0.8778 612 s
+mesh200_a0.5_dscan0.001 0.7314 0.8896 617 s
+mesh35_a0.5_dscan0.002 0.696 0.8766 622 s
+mesh200_a0.5_dscan0.002 0.7293 0.8889 627 s
+mesh35_a0.5_dscan0.005 0.6907 0.8747 632 s
+mesh200_a0.5_dscan0.005 0.7217 0.8861 637 s
+mesh35_a0.5_dscan0.01 0.6806 0.8701 642 s
+mesh200_a0.5_dscan0.01 0.7091 0.8815 647 s
+mesh35_a0.5_dscan0.02 0.6658 0.8597 652 s
+mesh200_a0.5_dscan0.02 0.6906 0.8742 657 s
+mesh35_a0.5_dscan0.05 0.6493 0.8403 662 s
+mesh200_a0.5_dscan0.05 0.663 0.8535 667 s
+081 loaded 667 s
+mesh35_a0.0_none 0.6653 0.8651 672 s
+mesh200_a0.0_none 0.7089 0.8814 677 s
+mesh35_a0.5_none 0.6833 0.8716 682 s
+mesh200_a0.5_none 0.7138 0.8832 687 s
+none none 687 s
+mesh35_a0.0_none_dminmax_desc 0.6492 0.8474 692 s
+mesh200_a0.0_none_dminmax_desc 0.6743 0.8631 697 s
+mesh35_a0.5_none_dminmax_desc 0.6589 0.8509 701 s
+mesh200_a0.5_none_dminmax_desc 0.6784 0.8645 706 s
+none none_dminmax_desc 706 s
+mesh35_a0.0_none_unique_desc 0.6716 0.8679 711 s
+mesh200_a0.0_none_unique_desc 0.7189 0.8851 716 s
+mesh35_a0.5_none_unique_desc 0.6911 0.8749 721 s
+mesh200_a0.5_none_unique_desc 0.7251 0.8873 725 s
+none none_unique_desc 725 s
+mesh35_a0.5_chk081 0.6611 0.8509 730 s
+mesh35_a0.5_k5 0.6968 0.877 735 s
+ver k5 735 s
+mesh35_a0.0_k10 0.6738 0.8687 739 s
+mesh35_a0.5_k10 0.6946 0.8762 745 s
+ver k10 745 s
+mesh35_a0.5_k25 0.6911 0.8749 750 s
+ver k25 750 s
+mesh35_a0.5_k50 0.6885 0.8739 754 s
+ver k50 754 s
+mesh35_a0.5_k10_disc3_desc 0.6946 0.8762 759 s
+ver k10_disc3_desc 759 s
+mesh35_a0.5_k10_life30_desc 0.6851 0.8725 764 s
+ver k10_life30_desc 764 s
+mesh35_a0.5_k10_life100_desc 0.6913 0.875 769 s
+ver k10_life100_desc 769 s
+mesh35_a0.5_k10_dminmax_desc 0.6809 0.8707 774 s
+ver k10_dminmax_desc 774 s
+mesh35_a0.5_k10_unique_desc 0.6981 0.8775 779 s
+ver k10_unique_desc 779 s
+mesh200_a0.5_k10R200 0.7286 0.8886 784 s
+{
+ "check_081": {
+  "CE_max_rel_diff": 0.0,
+  "reproduced": true
+ },
+ "weeding_reasons": {
+  "n": 2,
+  "r_dup": {
+   "University of Washington Libraries (Seattle)": 0.3282294324948353,
+   "高知県立大学（永国寺図書館、2014-2017 の移転時の除籍、検証委員会報告 2018-12-27）": 0.8099638251022334
+  },
+  "median": 0.5690966287985344,
+  "kochi_incl_serials_desc": 0.5402024546312808,
+  "kochi_not_held_anywhere_local_share": 0.08622994652406417,
+  "n_not_qualifying": 3
+ },
+ "presence_none_quantiles": [
+  0.2108099097559018,
+  0.7322377521262897,
+  0.9420866062097591
+ ],
+ "R200_desc": {
+  "TC_heavy_a0.5": 0.7286265533465315,
+  "TC_heavy_a0.5_none200": 0.7137850771439481
+ },
+ "hypotheses": {
+  "H94a": {
+   "class": "確認的",
+   "value": {
+    "n": 2,
+    "r_dup": [
+     0.3282294324948353,
+     0.8099638251022334
+    ]
+   },
+   "rule": "n>=2 and count(r_dup>0.5)>=2",
+   "supported": false
+  },
+  "H94b": {
+   "class": "確認的",
+   "value": {
+    "n": 2,
+    "median": 0.5690966287985344
+   },
+   "rule": "n>=2 and median r_dup >= 0.33",
+   "supported": true
+  },
+  "H94c": {
+   "class": "予測",
+   "value": {
+    "TC_R35": 0.6945686273619117,
+    "TC_none200": 0.7137850771439481
+   },
+   "rule": "heavy a0.5 TC(R35,k=10) < TC(none200)",
+   "supported": true
+  },
+  "H94d": {
+   "class": "予測",
+   "value": 1.7805983245502455,
+   "rule": "median CE(35->R35) / median CE(35->200) > 1 (heavy a0.5, k=10)",
+   "supported": true
+  }
+ }
+}
+k5 TC none35 0.6833 R35 0.6968 none200 0.7138 ratio 1.11 share 0.58 extraR 3722 extra200 9241
+k10 TC none35 0.6833 R35 0.6946 none200 0.7138 ratio 1.78 share 0.86 extraR 1953 extra200 9241
+k25 TC none35 0.6833 R35 0.6911 none200 0.7138 ratio 3.18 share 0.99 extraR 768 extra200 9241
+k50 TC none35 0.6833 R35 0.6885 none200 0.7138 ratio 4.94 share 1.00 extraR 336 extra200 9241
+k10_disc3_desc TC none35 0.6833 R35 0.6946 none200 0.7138 ratio 5.62 share 1.00 extraR 616 extra200 9241
+k10_life30_desc TC none35 0.6833 R35 0.6851 none200 0.7138 ratio 0.71 share 0.24 extraR 770 extra200 9241
+k10_life100_desc TC none35 0.6833 R35 0.6913 none200 0.7138 ratio 1.49 share 0.78 extraR 1654 extra200 9241
+k10_dminmax_desc TC none35 0.6589 R35 0.6809 none200 0.6784 ratio 3.89 share 1.00 extraR 2727 extra200 9241
+k10_unique_desc TC none35 0.6911 R35 0.6981 none200 0.7251 ratio 1.12 share 0.58 extraR 1725 extra200 9241
+runtime 784.8
