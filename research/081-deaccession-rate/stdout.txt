@@ -1,0 +1,21 @@
+070 loaded 157 s
+b3_0 done 7 s
+b3_300 done 12 s
+b10_0 done 15 s
+b10_300 done 18 s
+chk1_0 done 28 s
+main_kmov per_subregion@cty per_subregion@cty 71 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 82 s
+kmov_x2 per_subregion@pt per_subregion@pt 93 s
+ref_071 per_subregion@pt cover3000x@cty 95 s
+mesh 35 0.3002 98 s
+mesh 50 0.3359 101 s
+mesh 100 0.4191 102 s
+mesh 150 0.4718 103 s
+mesh 200 0.5097 104 s
+mesh 300 0.5654 106 s
+074 loaded 263 s
+checks ok 268 s
+075 loaded 268 s
+chk_mesh35 0.6801 0.8709 368 s
+chk_mesh200 0.7289 0.8887 373 s
