@@ -1,0 +1,17 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究076 事前登録（2026-10-21T02:36Z、sim.py の作成の前・本回の数値の計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="076-2026-10-21t0236zsimpy">研究076 事前登録（2026-10-21T02:36Z、sim.py の作成の前・本回の数値の計算の前）</h1>
+<p>指標 TC/V0 は生存確率でも復興確率でもない（060〜075 の模型の中の価値の比）。提言は模型の中での順位（外部の検証はまだ）。</p>
+<h2 id="open_problems-196197">設計（open_problems 196＋197）</h2>
+<ul>
+<li>075 の sim.py を「PP = G74["PP"]」の行の前まで exec し（070 の主と 074 の差0の検査を含む）、075 の関数 run・counts をそのまま使って mesh35・mesh200・per_subregion@cty を再計算し、075 の results.json の重い崩壊の TC/V0 と差0（&lt; 1e-12）を確かめる。</li>
+<li>写しへの寄せ（196）：群ごとに確率 α で「寄る群」とし、寄る群の点は重み W_i·exp(−d_min(i,S)/L) から引く（d_min は点 i から置き方 S の最も近い写しまでの大圏距離、L = 073 の kmov の中央値 144.8 km）。寄らない群は 075 の点 PT をそのまま使う。寄るかの一様乱数と寄る群の点の一様乱数は新しい seed 20261076（075 の乱数は変えない）。α = 0, 0.1, 0.25, 0.5, 1、主は α=0.5。α=0 は 075 と差0になることを確かめる。版：L×2、L/2（α=0.5）。</li>
+<li>比べるもの：075 の N=35 の10の置き方（9つ＋mesh35）を α=0.5 で、mesh の N = 35, 100, 200 を全 α で。</li>
+<li>限界の費用あたり（197）：標本ごとに (TC_200 − TC_35)/TAB × C_T /(Cost(200) − Cost(35))、Cost(n) = C_P(n) + 2·C_pr_n(n)（075 と同じ比例の費用）。全体と重い崩壊、A_Ord/U3、中央値と5・95%。35部の平均の費用あたり（075 の式）と比べる。版：1部ごとの費用 per_P を ×0.1（記述）。</li>
+</ul>
+<h2 id="_1">仮説（すべて計算の前に登録した予測、確認的なものなし）</h2>
+<ul>
+<li>H88a（予測）：α=0.5 の mesh35 の重い崩壊の TC/V0 は 075 の mesh35（0.680）より 0.02 以上高い。</li>
+<li>H88b（予測）：α=0（075 の設定）で、35→200 の限界の費用あたり（全体、中央値）は 35部の平均の費用あたり（全体、中央値、27.6）の 0.3倍未満。</li>
+<li>H88c（予測）：α=0.5 では mesh の 35→200 の重い崩壊の TC/V0 の増分は α=0 の増分（0.049）より小さい。</li>
+<li>H88d（予測）：α=0.5 の10の置き方の重い崩壊の TC/V0 の順位と α=0 の順位の Kendall τ ≥ 0.6。
+判定の閾値は上のとおりで、計算後に変えない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
