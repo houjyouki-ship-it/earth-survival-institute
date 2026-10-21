@@ -24,7 +24,11 @@ run_att, MESH, RT, DV, M1, G70 = G["run_att"], G["MESH"], G["RT"], G["DV"], G["M
 Cost, get, C_T, qf, ce2, pp_main = G["Cost"], G["get"], G["C_T"], G["qf"], G["ce2"], G["pp_main"]
 G80 = G["G"]; base = G80["base"]; pacc = G80["pacc79"]
 assert np.allclose(pp_main, base / pacc, rtol=1e-12, atol=0); R["check_pp_main_equals_base_over_pacc"] = True
-f_i0 = G["f_i0"]; N = f_i0.size; NC = pp_main.size; assert N == NC, (N, NC)
+f_i0 = G["f_i0"]; N = f_i0.size; NC = pp_main.size; assert N % NC == 0, (N, NC)
+# TC は N 標本の期待値（スカラー）、費用は NC 標本の配列。N 標本を NC 標本に固定の対応 idx=i mod NC で結び（各 NC 標本に N/NC 個）、
+# 補充の受け入れ確率と送付費はその NC 標本の p_acc と base を使い、1館あたりの将来の費用は対応する N 標本の平均で NC 標本ごとに出す。
+idx = np.arange(N) % NC; pN = pacc[idx]; bN = base[idx]
+def to_NC(c): return np.bincount(idx, weights=c, minlength=NC) / (N // NC)
 dj = np.array([c["d"] for c in G["cases"]]); q25, q75 = float(np.quantile(dj, 0.25)), float(np.quantile(dj, 0.75))
 # ---------- 除籍の内訳（sources/weeding_reasons.json） ----------
 WR = json.load(open(os.path.join(HERE, "sources", "weeding_reasons.json"), encoding="utf8"))
@@ -49,11 +53,11 @@ def presence(d, k, p, life=np.inf, disc=0.0):
     sv = np.exp(-d * k); pi = np.ones_like(Delta); cost = np.zeros_like(Delta)
     for j in range(1, int(n.max()) + 1):
         act = j <= n; miss = 1 - pi * sv; w = (1 + disc) ** (-j * k)
-        cost = cost + act * w * (c_chk + miss * base)
+        cost = cost + act * w * (c_chk + miss * bN)
         pi = np.where(act, pi * sv + miss * p, pi)
     return pi * np.exp(-d * (Delta - n * k)), cost
-x0, c0 = presence(d_main, np.inf, pacc); assert np.array_equal(x0, np.exp(-d_main * Delta)) and not c0.any()
-x1, _ = presence(d_main, 1e9, pacc); assert np.allclose(x1, np.exp(-d_main * Delta), rtol=1e-12); R["check_k_inf_equals_exp"] = True
+x0, c0 = presence(d_main, np.inf, pN); assert np.array_equal(x0, np.exp(-d_main * Delta)) and not c0.any()
+x1, _ = presence(d_main, 1e9, pN); assert np.allclose(x1, np.exp(-d_main * Delta), rtol=1e-12); R["check_k_inf_equals_exp"] = True
 def run_k(tag, kfac, n, a):
     G70["f_i"] = f_i0 * kfac
     try: run_att(f"mesh{n}_a{a}_{tag}", MESH[:n], float(a))
@@ -79,10 +83,10 @@ for tag, dv in NONE.items():
 run_k("chk081", np.exp(-G["d_main"] * G["Delta"]), 35, "0.5"); assert abs(h("mesh35_a0.5_chk081") - r81["TC"]["main"]["heavy_a0.5_mesh35"]) < 1e-12; R["check_081_main_TC_rerun"] = True
 FUT = {}
 for tag, (dv, k, life, disc) in VERS.items():
-    x, c = presence(dv, k, pacc, life, disc); FUT[tag] = {"x": x, "c": c}
+    x, c = presence(dv, k, pN, life, disc); FUT[tag] = {"x": x, "c": to_NC(c)}
     for a in (("0.0", "0.5") if tag == "k10" else ("0.5",)): run_k(tag, x, 35, a)
     print("ver", tag, round(time.time() - T0), "s", flush=True)
-x, c = presence(d_main, 10, pacc); run_k("k10R200", x, 200, "0.5"); FUT["k10R200_desc"] = {"x": x, "c": c}
+x, c = presence(d_main, 10, pN); run_k("k10R200", x, 200, "0.5"); FUT["k10R200_desc"] = {"x": x, "c": c}
 # ---------- 集計 ----------
 C35, C200 = Cost(35, pp_main), Cost(200, pp_main)
 def none_of(tag): return "none_dminmax_desc" if "dminmax" in tag else ("none_unique_desc" if "unique" in tag else "none")
