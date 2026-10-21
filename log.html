@@ -1198,4 +1198,16 @@
 <li>判定（分類つき）：確認的 H90a 支持（$11.1、下端に近い）、H90b 支持（7/8、小標本）。予測 H90c・H90d 支持。</li>
 <li>逸脱：Royal Mail は公式サイトが 403 のため第三者の転載の PDF（Royal Mail の wallchart そのもの）を使った。Deutsche Post は地帯別の表がなく「€6.99 から」の1値。British Library は条件の記載がない頁で U と数えた（保守的）。事前登録の時刻を 06:43Z から実際の作成時刻 06:42Z に直した（内容は変えていない）。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：冊子を配る運営者は、郵便料金（1部 $3〜$19）でなく、収蔵してもらえる確率と事前の連絡の手間で部数を決める。収蔵が約3割以上で、連絡を含めた1部の費用が約 $44 以下なら、重い崩壊を重く見る限り 200部を検討する。本研究所は 077 の per_P $42 を $18.5 に改め、次は p_acc の数値（203）へ。</li>
+</ul>
+<h2 id="79-2026-10-21">第79回 2026-10-21</h2>
+<ul>
+<li>再現チェック：079 の sim.py は 078 の sim.py を exec して 078 の CE 全値（9版×全体・重い崩壊×5つの α）を差0（相対差 0.0）で再現する（078 の再実行を兼ねる）。<code>/tmp/rep079/</code> に research を複製して 079 を再実行し、results.json は runtime 以外一致、図の MD5 も一致。</li>
+<li>主課題：next_plan の推奨 A ＝ open_problems 203（寄贈した冊子が収蔵される確率 p_acc）。固定の2節は残した。</li>
+<li>文献・データ（本回開いて確認、sources/ に保存し SHA256）：Henley 2014（UNT、WebFetch）、LRTS Notes on Operations（UF）、Moore（Indiana Libraries、公共図書館）、Kairis 2000（Kent State Stark、WebFetch で公開の抜粋）。法定納本：国立国会図書館、DNB、U.S. Copyright Office、NLA の Q&amp;A、British Library、Library and Archives Canada（2頁）。CSU の「20% 未満」は二次引用だけで原文を開けず除外。</li>
+<li>研究079を実施：<code>research/079-gift-acceptance-rate/</code>（sim.py 約378秒 seed 20261079、計算のみ）。成果物は results.json、stdout.txt、fig_pacc.png、report.md、PREREGISTRATION.md（2026-10-21T08:37Z、資料を開く前・sim.py の前）、sources/（acceptance.json、保存した頁、fetch*.sh、SHA256SUMS.txt）。</li>
+<li>方法：登録どおり a_i が4件あったので主の p_acc を U(0.18,0.445) に置き換え、印刷・送付は 078 と同じ標本。版（記述）：中央値の固定、外国 ×0.5、法定納本 2部・6部。p_acc を固定値で走査して分かれ目を出した。</li>
+<li>主要数値：a_i 中央値 <strong>0.296</strong>。per_P 中央値 <strong>$41.8</strong>（078 の 2.26倍）。限界/平均（中央値）：全体 α=0.5 <strong>0.38</strong>、重い崩壊 α=0 2.14・α=0.5 <strong>1.003</strong>（分かれ目 p_acc <strong>0.304</strong>、標本の 46% が下）。外国 ×0.5 では重い崩壊 α=0.5 で 0.56。法定納本は 6/6 が自国の出版に限り、2〜6部を p_acc=1 にしても 0.99〜1.00。</li>
+<li>判定（分類つき）：確認的 H91a 支持（4件、0.296）、H91b 支持（6/6、ほぼ定義上）。予測 H91c 支持（1.003、境界ぎりぎり）、H91d 支持。</li>
+<li>逸脱：078 の sim.py には仮説の節の見出しの文字列が exec の行にも現れるため、切り出しは rindex にした。Kent State と UNT は curl で取れず WebFetch の抜粋を保存した。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：冊子を配る運営者は、200部に増やす前に送り先へ事前に連絡して受け入れの約束を取り、約束の割合が約3割を上回るかを小さな試しで確かめる。未請求の郵送なら 35部の方が無難。本研究所は 078 の per_P $18.5 を $41.8 に改め、078 の「重い崩壊なら 200部を検討」をどちらとも言えないに改める。次は事前の連絡つきの受け入れの割合（205）へ。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

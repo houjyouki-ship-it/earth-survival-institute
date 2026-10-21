@@ -1,0 +1,101 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究079：寄贈した冊子が収蔵される確率 p_acc（open_problems 203） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="079-p_accopen_problems-203">研究079：寄贈した冊子が収蔵される確率 p_acc（open_problems 203）</h1>
+<blockquote>
+<p>注：TC/V0 と費用あたりは模型の中の価値の比で、生存確率でも復興確率でもない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>078 で per_P＝(印刷＋送付)/p_acc の p_acc（図書館が寄贈を蔵書に加える確率）は数値の資料 0件で U(0.5,0.9) の【推測】だった。重い崩壊 α=0.5 で 35→200部の判断が逆になる分かれ目は p_acc 約 0.29。公開の数値で p_acc を置き直す。事前登録は PREREGISTRATION.md（2026-10-21T08:37Z、資料を開く前・sim.py の前）。</p>
+<h2 id="sources-sha256sumstxt">資料（本回開いて確認、sources/ に保存し SHA256SUMS.txt）</h2>
+<p>寄贈を受け取った後に蔵書に加えた割合 a_i（sources/acceptance.json、1館1件）：
+- 【事実（<a href="https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1609&amp;context=charleston">Henley 2014, Charleston Conference</a>）】University of North Texas Libraries：2014年 3,045点中 1,169点（38%）、2013年 2,675点中 1,379点（52%）を加えた。合算 0.445 を1件とした。外国語（中国語・ロシア語）の寄贈は加えない方向に変えたとも書かれている。
+- 【事実（<a href="https://journals.ala.org/index.php/lrts/article/download/4941/5966">LRTS「Notes on Operations」</a>）】University of Florida Smathers Library：2003–04年度に寄贈された本 12,619冊の 69% が選ばれなかった（a=0.31）。
+- 【事実（<a href="https://journals.iupui.edu/index.php/IndianaLibraries/article/download/17074/pdf_528/24157">Moore, Indiana Libraries</a>）】公共図書館の15業務日の持ち込みの寄贈 3,402冊中 962冊を加えた（a=0.283）。館名は著者の所属から Vigo County Public Library と読める【推測】。
+- 【事実（<a href="https://www.sciencedirect.com/science/article/abs/pii/S1464905500000919">Kairis 2000, LCATS</a>）】Kent State University Stark Campus Library：1996/97年度の寄贈の 18% だけを加えた。
+- 除外：Colorado State University の「20% 未満」は検索結果の二次引用だけで、原文も引用元の頁（403）も開けなかったので数えていない。</p>
+<p>法定納本（6か国、すべて自国の出版者・出版物に限る）：
+- 【事実（<a href="https://www.ndl.go.jp/jp/collect/deposit/deposit.html">国立国会図書館</a>）】「国内で発行されたすべての出版物を、国立国会図書館に納入することが義務付けられています」。
+- 【事実（<a href="https://www.dnb.de/EN/Professionell/Sammeln/sammeln_node.html">DNB</a>）】ドイツで物理的な媒体で出版すると2部の納入の義務。外国の出版物はドイツ語のものとドイツに関係するもの（Germanica）を集める。
+- 【事実（<a href="https://www.copyright.gov/mandatory/">U.S. Copyright Office</a>）】"does not apply to works first published in a foreign country until they are published in the United States"。
+- 【事実（<a href="https://www.library.gov.au/services/publishers-and-self-publishers/legal-deposit/legal-deposit-questions-and-answers">NLA の Q&amp;A</a>）】"Works published solely by organisations or individuals based entirely outside Australia do not need to be provided"。1部。
+- 【事実（<a href="https://www.bl.uk/services/legal-deposit">British Library</a>）】"If you publish anything in the UK and Ireland, you need to give one copy to the British Library."
+- 【事実（<a href="https://www.canada.ca/en/library-archives/services/publishers/legal-deposit/about.html">Library and Archives Canada</a>・<a href="https://www.canada.ca/en/library-archives/services/publishers/legal-deposit/physical-publications.html">部数</a>）】カナダの出版者に限り、100部以上で2部、4〜99部で1部。</p>
+<p>標本の偏り：4件とも米国、うち3件は大学、資料は一般の家庭や教員からの持ち込みの寄贈で、目的を持って作った薄い冊子を事前の連絡つきで送る場合とは違う。a_i は受け取った後の比で、078 の「送る前の連絡」で断られる分は入っていない。</p>
+<h2 id="_2">方法</h2>
+<p>078 の sim.py を仮説の節の前まで exec し、078 の CE（9版×全体・重い崩壊×5つの α）を差0（相対差 0.0）で再現した。登録どおり a_i が3件以上あったので、主の p_acc を U(min a_i, max a_i)＝U(0.18, 0.445) にした（seed 20261079）。印刷と送付は 078 と同じ標本。版（記述）：中央値 0.296 に固定、外国の未請求の冊子として ×0.5、法定納本の経路（出版国の 2部または 6部を p_acc=1・国内料金、残りは主）。TC は変えていない。p_acc を 0.05〜1 の固定値で動かし、限界/平均＝1 の分かれ目を出した。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>a_i は 0.445、0.31、0.283、0.18、中央値 <strong>0.296</strong>（点数のある3件の合算 0.385）。078 の事前の範囲 0.5〜0.9 の下端より下。</li>
+<li>per_P（収蔵される1部あたり）の中央値は <strong>$41.8</strong>（5〜95% $20.6〜$86.1）、078 の $18.5 の 2.26倍。</li>
+<li>費用あたり（中央値、35部の平均 → 35→200 の限界、限界/平均）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>per_P</th>
+<th>全体 α=0</th>
+<th>全体 α=0.5</th>
+<th>重い崩壊 α=0</th>
+<th>重い崩壊 α=0.5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>078 主</td>
+<td>56.4→74.5（1.32）</td>
+<td>63.8→50.7（0.80）</td>
+<td>58.0→263（4.53）</td>
+<td>84.0→178（2.12）</td>
+</tr>
+<tr>
+<td>079 主</td>
+<td>52.4→32.7（0.62）</td>
+<td>59.3→22.3（<strong>0.38</strong>）</td>
+<td>53.9→115（2.14）</td>
+<td>78.1→78.3（<strong>1.003</strong>）</td>
+</tr>
+<tr>
+<td>中央値の固定</td>
+<td>0.61</td>
+<td>0.37</td>
+<td>2.09</td>
+<td>0.98</td>
+</tr>
+<tr>
+<td>外国 ×0.5</td>
+<td>0.35</td>
+<td>0.21</td>
+<td>1.20</td>
+<td><strong>0.56</strong></td>
+</tr>
+<tr>
+<td>法定納本 6部</td>
+<td>0.61</td>
+<td>0.37</td>
+<td>2.10</td>
+<td>0.99</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>分かれ目の p_acc（固定値）：重い崩壊 α=0.5 で <strong>0.304</strong>、α=0 で 0.121、全体 α=0.5 で 0.881、α=0 で 0.514。主の標本の 46% が重い崩壊 α=0.5 の分かれ目より下。標本ごとに限界が平均を上回る割合は 0.48。</li>
+<li>法定納本は6か国すべてで自国の出版に限られ、外国の図書館に冊子を入れる経路にはならない。出版国の 2〜6部だけを p_acc=1 にしても比はほぼ動かない（0.99〜1.00）。</li>
+</ul>
+<h2 id="_4">仮説の判定（登録どおり）</h2>
+<ul>
+<li>H91a（確認的）支持：4件、中央値 0.296 &lt; 0.5。</li>
+<li>H91b（確認的）支持：6/6。ただし制度の定義上ほぼ自明で、情報は少ない。</li>
+<li>H91c（予測）支持：1.003 &gt; 1。ただし境界ぎりぎりで、中央値の固定（0.98）や外国の ×0.5（0.56）では逆になる。</li>
+<li>H91d（予測）支持：0.38 &lt; 1。</li>
+<li>記述（支持に数えない）：中央値の固定、×0.5、法定納本。</li>
+</ul>
+<h2 id="_5">解釈</h2>
+<ul>
+<li>【独自仮説】078 の「重い崩壊を重く見る限り 200部を検討」は、p_acc の公開の値（約 0.3）がちょうど分かれ目（0.30）に乗ったため、どちらとも言えない状態に変わった。全体の価値では 35部の平均の方が明確に効率がよい（0.38）。</li>
+<li>【推測】a_i は家庭や教員からのまとめての寄贈の値で、目的を持った冊子を事前の連絡つきで送れば高く、外国語・外国の出版物なら低い（UNT は外国語を加えない方向）。どちらに寄るかで判断が逆になる。</li>
+<li>【推測】法定納本は「自国で出版すれば少数の館には必ず入る」経路で、置き方の広がりはない。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は、200部に増やす前に、送り先の図書館に事前に連絡して受け入れの約束を取り、その約束の割合が約 3割を上回るかを小さな試し（例えば 10館）で確かめる。約束が取れない送り方（未請求の郵送）なら、重い崩壊を重く見ても 35部の方が費用あたりでは無難。本研究所は 078 の per_P $18.5 を $41.8 に改め、次は事前の連絡つきでの受け入れの割合（open_problems 205）へ。</p>
+<h2 id="_7">限界</h2>
+<p>a_i は4件・米国のみ・受け取った後の比。CSU の値は確認できず除外。法定納本の版は置き方（TC）を変えておらず、納本の部が1国に集まる損を含まない（上限の側）。p_acc は館ごとの差を一様分布で表し、館の選び方による相関を入れていない。</p>
+<h2 id="_8">再現</h2>
+<p><code>python3 sim.py</code>（約378秒、078→077→…の検査を含む）。<code>/tmp/rep079/</code> で再実行し results.json は runtime 以外一致、図の MD5 も一致。</p><footer><hr><small>自動生成</small></footer></body></html>
