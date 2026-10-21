@@ -1,0 +1,52 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究081：収蔵された冊子の除籍の率（open_problems 204） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="081open_problems-204">研究081：収蔵された冊子の除籍の率（open_problems 204）</h1>
+<blockquote>
+<p>注：TC/V0 と費用あたりは生存確率・復興確率ではない。提言の節は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>062 の写しの時定数（中央値 522年）は歴史の印刷本から来ており、現代の図書館が使われない冊子を除籍（weeding）する分を含まない。公開の統計から年の除籍の率 d を集め、崩壊の前の期間 Δ に写しが除籍される分 exp(−m·d·Δ) を 080 の主の模型（1部の生き残りの係数 f_i）に掛け、重い崩壊の TC と 35→200 部の限界/平均を置き直す。事前登録：PREREGISTRATION.md（2026-10-21T12:44Z、資料を開く前・sim.py の前）。</p>
+<h2 id="sources-sha256">資料（本回開いて確認、sources/ に保存し SHA256）</h2>
+<ul>
+<li>【事実】CARL Statistics 2010–11・2011–12（カナダの研究図書館協会、表 I「Volumes withdrawn during the year」と「Total volumes」）：https://www.carl-abrc.ca/doc/2011%20CARL%20Statistics.pdf 、https://www.carl-abrc.ca/doc/2012%20CARL%20Statistics%20-%20Without%20commentary.pdf 。例：Toronto 1,941/11,690,293（2010–11）と 34,768/11,677,129（2011–12）、York 365,018/2,654,285（2011–12、注 12 は大きな雑誌の除籍の企画）、Library and Archives Canada は除籍 N/A。</li>
+<li>【事実】CAUL/CBPA Statistics 2010–11（カナダ大西洋岸の大学）：https://caal-cbpa.ca/wp-content/uploads/2011-CAUL-Statistics.pdf 。</li>
+<li>【事実】島根大学附属図書館 年報2024：除籍冊数 2020〜2024 年度 10,097・9,669・6,879・9,428・9,183、所蔵総数 984,774〜991,816：https://coc.lib.shimane-u.ac.jp/files/attach/3/3373/%E9%99%84%E5%B1%9E%E5%9B%B3%E6%9B%B8%E9%A4%A8%E5%B9%B4%E5%A0%B12024.pdf</li>
+<li>【事実】UW Libraries の Deaccessioning の頁：FY23〜25 の除籍 9,876・33,382・6,116、単行本「約 450万」、「UW だけが持つ資料は除籍しない」：https://lib.uw.edu/about/policies-guidelines/deaccessioning/</li>
+<li>【事実】山口県立山口図書館 年報 平成23年度 表1：平成22年度 除籍 50,430（うち普及用の全 49,594 冊）/745,343、平成23年度 2,225/760,487：https://knowledge.lib.yamaguchi-u.ac.jp/files/477/593.pdf</li>
+<li>【事実】NRC Library 100年の記録：CISTI は NRC の図書館で「1966 年に National Science Library の地位が公式化」：https://nrc-digital-repository.canada.ca/eng/view/object/?id=f5fbb1b6-7dfe-4972-aed8-6f4d0a2f6c15 （WebFetch の抜粋を保存）</li>
+<li>記述のみ：NLA 年報 2024–25 の登録済み 285 冊の処分（080 で保存）と「約 1,000万点」（https://www.library.gov.au/visit/our-building）、NLA の除籍の方針の頁、Library of Parliament（カナダ）。</li>
+<li>取得できず不使用：URI の ACRL 2010 の表（curl で HTML が返った）。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>d_j＝年の除籍の冊数／年末の総冊数、同じ表・同じ単位。複数年は年の率の平均。国立・州立・大学の 42 館（大学 40、国立 1＝CISTI、州立 1＝山口県立）。LAC は N/A で数値なし。</li>
+<li>主（登録どおり）：d ~ U(min d_j, max d_j)＝U(0, 0.0707)、Δ ~ logU(10, 200) 年【推測】、m=1。f_i に exp(−m·d·Δ) を掛け、076 の run_att で mesh35・mesh200（α=0・0.5）を計算し直し、費用は 080 の主のまま。崩壊の後は除籍が止まるとした【推測】。</li>
+<li>記述の版：m=3・10、Δ=30・100・300 年、d を中央値・冊数で重みづけた合計の率に固定、中央値×m=10。d の走査（Δ は主の標本）。</li>
+<li>検査：080 の CE 全値を差0で再現、新しい ce の式が 080 の主の限界/平均と一致、d=0 の走査が 080 の TC と一致（すべて assert）。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<ul>
+<li>【事実（上の資料から計算）】d_j の中央値 <strong>0.59%/年</strong>（四分位 0.21〜1.35%、平均 1.13%、冊数の重みの合計 0.85%）、1/d の中央値 <strong>169年</strong>（062 の 522年の 1/3）。42 館中 33 館（79%）が 1/522 年を上回る。最大は York 7.07%（一度の大きな企画）、Ryerson 5.75%、Manitoba 4.05%、山口県立 3.53%（普及用の一括の除籍）。CISTI 0.22%。NLA は記述で 0.003%。</li>
+<li>重い崩壊 α=0.5 の mesh35 の TC/V0：080 の <strong>0.702</strong> → 主 <strong>0.661</strong>（−0.041、床 0.638 との差の 64% を失う）、d 中央値 0.689、合計の率 0.683、m=10 で 0.635（ほぼ床）。</li>
+<li>35部の平均の費用あたり（重い崩壊 α=0.5、中央値）：78.1 → 主 <strong>32.7</strong>（中央値 d で 64.0）。</li>
+<li>限界/平均（中央値）：重い崩壊 α=0.5 <strong>1.003 → 1.283</strong>（中央値 d で 1.129、m=3 で 2.02）、全体 α=0.5 0.376 → 0.658（m=3・Δ=100 で 1 を超える）。除籍は1部の生き残りを下げるので、部数を増やす相対の価値は上がる。</li>
+<li>d の走査：d=0.2% で重い崩壊 mesh35 0.696・限界/平均 1.10、d=1% で 0.681・1.24、d=5% で 0.649・1.65。</li>
+</ul>
+<h2 id="_4">仮説の判定（分類つき）</h2>
+<ul>
+<li>H93a（確認的）：d_j の中央値 &lt; 0.2%/年 → <strong>棄却</strong>（0.59%、n=42）。</li>
+<li>H93b（確認的）：大学の中央値 &gt; 国立の中央値 → <strong>支持</strong>（0.59% 対 0.22%、国立は CISTI の1件だけ。LAC は N/A で、除籍そのものをしない館と読める【推測】）。</li>
+<li>H93c（予測）：重い崩壊 α=0.5 mesh35 の下がり &lt; 0.01 → <strong>棄却</strong>（0.041。中央値 d に固定しても 0.013）。</li>
+<li>H93d（予測）：限界/平均の動き &lt; 5% → <strong>棄却</strong>（+28%。中央値 d で +13%）。</li>
+<li>記述（支持に数えない）：m・Δ の版、走査。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li>登録の主の U(min, max) は York・Ryerson のような一度の大きな企画に引っぱられ、平均 3.5%/年になる。中央値の版（0.59%）のほうが典型の館を表す【推測】。ただし中央値でも H93c・d は棄却で、結論の向きは同じ。</li>
+<li>除籍の点数の多くは重複・雑誌の製本の整理で（UW の内訳：単行本と雑誌の重複の除去が3年合計で 33%、年で 17〜97%）、「館で唯一の写し」の除籍の率はこれより低い可能性がある。UW は自館だけが持つ資料を除籍しないと明記している。一方で冊子は薄く貸出が少なく、NLA の 285 冊の 92% は「収集方針の外」が理由で、方針の外の寄贈は狙われやすい（m&gt;1）。どちらが勝つかは資料がない【推測】。</li>
+<li>指数の除籍は館の方針の変化（館の閉鎖・統合を含まない）を一定とみなす。Δ の分布は根拠のない仮定で、Δ が 100 年を超えると m=1 でもほぼ床。</li>
+<li>CARL の表は 2010〜12 年のカナダの研究図書館に偏る。日本は島根大学の1館（0.92%）だけ。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>冊子を配る運営者は、図書館に預けた写しが崩壊の前に除籍される率を 1部の朽ち方（522年）より大きな要因と見なし、(1) 除籍をしない館（法定納本・国立の保存館）か、受け入れ時に「永久保存」の約束を取れる館を優先し、(2) 一定の年ごとに所蔵の確認と補充をする仕組みを置く。補充なしなら、重い崩壊を重く見る限り 200 部の方が有利（限界/平均 1.13〜1.28）。</li>
+<li>本研究所は 062 の写しの時定数に崩壊の前の除籍を足し、080 の「どちらとも言えない（1.003）」を「除籍を入れると 200 部の側に傾く」に改める。次は除籍の率を「館で唯一の写し・寄贈の冊子」に絞ること（open_problems 208）と、所蔵の確認と補充の費用（209）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
