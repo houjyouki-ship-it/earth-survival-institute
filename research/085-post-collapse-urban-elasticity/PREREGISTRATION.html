@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究085 事前登録（作成 2026-10-21T20:35Z、都市人口の資料の中身を開く前・sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="085-2026-10-21t2035zsimpy">研究085 事前登録（作成 2026-10-21T20:35Z、都市人口の資料の中身を開く前・sim.py の前）</h1>
+<blockquote>
+<p>注：TC/V0 も A も生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-199">問い（open_problems 199）</h2>
+<p>076 の α（生き残りの群が写しのある場所へ寄る割合、0〜1）には根拠がない。写しは大きな都市にあるので、
+崩壊の後に人が「元の大きな町に残る/寄る」のか「大きな町ほど捨てられる」のかを、歴史の都市の人口で測る。</p>
+<h2 id="_1">量の定義（登録）</h2>
+<ul>
+<li>崩壊の局面ごとに、崩壊前の時点 t0 と後の時点 t1 で、公開の歴史の都市人口の表（Chandler / Modelski 系、Reba et al. 2016 の空間化データなどを第一候補）から同じ都市を対応させる。</li>
+<li>弾力性 β：t0 で表にある都市について log(P1) = c + β log(P0) を最小二乗で当てる（t1 で表から消えた都市は除く版と、表の下限の半分を入れる版の2つ）。</li>
+<li>保持の比 ρ：t0 の上位の都市（t0 の人口の上位半分）の t1 での人口の合計の割合 ÷ 下位半分の同じ割合。</li>
+<li>模型への写像【独自仮説】：074/075 の群の点は国の中で pop^e に比例して引かれる（e=1 が 075）。崩壊後の人の分布を e=β と置く。β&gt;1 は大きな町への寄せ（α&gt;0 の向き）、β&lt;1 は大きな町から散る向き。</li>
+<li>局面（資料にあるものを使う、最低3つ）：西ローマの崩壊（t0≈AD 100〜400、t1≈AD 600〜800、欧州・北アフリカ）、古典期マヤの崩壊（t0≈AD 800、t1≈AD 1000）、他に資料があれば青銅器時代末・漢の崩壊・モンゴル後の西アジアなど。対照として崩壊のない地域・期間の β も同じ式で出す。</li>
+</ul>
+<h2 id="_2">計算（登録）</h2>
+<ul>
+<li>075 の sim.py を exec して 075 の mesh35・mesh200 を差0で再現（assert）。</li>
+<li>重い崩壊の標本で群の点の重みを pop^β（β は局面の推定の中央値と範囲）にして、mesh35・mesh200・10 の置き方の重い崩壊の TC/V0 を出す。e=0.5（074 の sqrtpop）も参考に出す。</li>
+<li>076 の α とどちらの向きかを比べる（等価な α：e=β の mesh35 の TC と 076 の α 走査の TC を内挿で合わせる。負なら「寄せは負」と書く）。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H97a（確認的・資料を開く前）：崩壊の局面の β の中央値は 1 未満（大きな町ほど相対的に縮む）。</li>
+<li>H97b（確認的・資料を開く前）：崩壊の局面の β の中央値は、崩壊のない対照の β より小さい。</li>
+<li>H97c（予測）：e=β（中央値）の重い崩壊 mesh35 の TC/V0 は 075 の 0.680 より 0.005 以上下がる。</li>
+<li>H97d（予測）：e=β で 35→200 の重い崩壊の TC の上げ幅は 075 の +0.049 以上。</li>
+<li>H97e（予測）：10 の置き方の順位の Kendall τ（075 と e=β）は 0.6 以上。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

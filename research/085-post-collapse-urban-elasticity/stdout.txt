@@ -1,0 +1,16 @@
+W.Roman (Ch 361->622)                    collapse n0=  8 listed=  3 b_list=nan None b_half=0.64 [-0.7366539515678872, 1.73379379129687] rho=0.72
+W.Roman (Ch 361->800)                    collapse n0=  8 listed=  4 b_list=0.39 [-2.749924741504145, 9.633163512497482] b_half=1.10 [-4.635998114023859, 2.3359116526430914] rho=0.51
+W.Roman (Mo 200->700)                    collapse n0=  3 listed=  0 b_list=nan None b_half=nan None rho=nan
+Han (Ch BC100->361)                      collapse n0=  1 listed=  0 b_list=nan None b_half=nan None rho=nan
+Han (Mo 100->400)                        collapse n0=  2 listed=  2 b_list=nan None b_half=nan None rho=nan
+Bronze Age E.Med (Mo BC1300->1000)       collapse n0= 14 listed=  4 b_list=1.20 [0.44966028678678754, 1.8267802104456976] b_half=0.42 [-0.23138478887271996, 1.1974982911324266] rho=1.00
+Akkad/Ur III Mesop. (Mo BC2300->2000)    collapse n0= 16 listed= 10 b_list=0.57 [0.2523782393251836, 0.8082238015037362] b_half=0.71 [0.12246720530667932, 1.0782414448710749] rho=0.78
+Mongol W.Asia (Ch 1200->1300)            collapse n0= 15 listed=  2 b_list=nan None b_half=0.37 [-2.809589123129813e-16, 0.8475352477948916] rho=0.79
+Mongol W.Asia (Ch 1200->1400)            collapse n0= 15 listed=  3 b_list=nan None b_half=0.68 [1.2542256192094341e-16, 1.383826567142325] rho=1.34
+Europe ctrl (Ch 1700->1800)              control  n0=137 listed=124 b_list=0.75 [0.5692795340445479, 0.9304439330161034] b_half=1.04 [0.7981788853222846, 1.356713389968775] rho=0.88
+Europe ctrl (Ch 1500->1600)              control  n0=105 listed= 84 b_list=0.93 [0.731139652708645, 1.1482314845361679] b_half=1.27 [0.9413810052427836, 1.6335582494858112] rho=1.35
+China ctrl (Ch 1700->1800)               control  n0= 31 listed= 30 b_list=1.03 [0.6631865709444761, 1.2685880946684063] b_half=1.16 [0.7416558268709401, 1.5775899665896862] rho=1.16
+India ctrl (Ch 1500->1600)               control  n0= 21 listed= 14 b_list=0.22 [-0.42534675080990725, 1.012145888596997] b_half=-0.46 [-0.9682201494434214, 0.2653822414450605] rho=0.25
+E.Med ctrl (Mo BC500->300)               control  n0=  2 listed=  2 b_list=nan None b_half=nan None rho=nan
+Mesop./Iran ctrl (Mo AD700->900)         control  n0=  3 listed=  1 b_list=nan None b_half=nan None rho=nan
+{"beta_listed": {"collapse": [0.5707901103558504, 3], "control": [0.8399691177076027, 4]}, "beta_half": {"collapse": [0.6614925176974424, 6], "control": [1.1004800230580056, 4]}, "rho_top_vs_bottom": {"collapse": [0.7878717320261437, 6], "control": [1.0218218012082851, 4]}}
