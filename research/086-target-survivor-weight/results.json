@@ -1,0 +1,236 @@
+{
+ "study": "086-target-survivor-weight",
+ "seed": null,
+ "note": "TC/V0 は生存確率・復興確率ではない。提言は模型の中の順位（外部の検証はまだ）。",
+ "check_PT": true,
+ "check_084": {
+  "abs_diff": {
+   "mesh35": 0.0,
+   "pop@pt": 0.0
+  },
+  "reproduced": true
+ },
+ "zone_info": {
+  "V1": {
+   "xia150": {
+    "n_zone_pts": 2253,
+    "pop_zone": 1114236581.0,
+    "f_mean_popw": 0.3230911694506645,
+    "geo_share_in_zone_before": 0.3941662655984258,
+    "geo_share_in_zone_after": 0.3935749425234683,
+    "countries_all_destroyed": []
+   },
+   "xia47": {
+    "n_zone_pts": 255,
+    "pop_zone": 251533644.0,
+    "f_mean_popw": 0.6520002548843923,
+    "geo_share_in_zone_before": 0.31251193887297035,
+    "geo_share_in_zone_after": 0.31251193887297035,
+    "countries_all_destroyed": []
+   }
+  },
+  "V2": {
+   "xia150": {
+    "n_zone_pts": 2253,
+    "pop_zone": 1114236581.0,
+    "f_mean_popw": 0.19879096865555312,
+    "geo_share_in_zone_before": 0.3941662655984258,
+    "geo_share_in_zone_after": 0.39389665788854444,
+    "countries_all_destroyed": []
+   },
+   "xia47": {
+    "n_zone_pts": 255,
+    "pop_zone": 251533644.0,
+    "f_mean_popw": 0.4031446263370185,
+    "geo_share_in_zone_before": 0.31251193887297035,
+    "geo_share_in_zone_after": 0.3125119388729703,
+    "countries_all_destroyed": []
+   }
+  },
+  "V3": {
+   "xia150": {
+    "n_zone_pts": 2253,
+    "pop_zone": 1114236581.0,
+    "f_mean_popw": 1.0,
+    "geo_share_in_zone_before": 0.3941662655984258,
+    "geo_share_in_zone_after": 0.03839364518976179,
+    "countries_all_destroyed": [
+     "CN",
+     "DE",
+     "FR",
+     "GB",
+     "JP",
+     "PK",
+     "RU",
+     "US"
+    ]
+   },
+   "xia47": {
+    "n_zone_pts": 255,
+    "pop_zone": 251533644.0,
+    "f_mean_popw": 1.0,
+    "geo_share_in_zone_before": 0.31251193887297035,
+    "geo_share_in_zone_after": 0.31251193887297035,
+    "countries_all_destroyed": [
+     "IN",
+     "PK"
+    ]
+   }
+  },
+  "V4": {
+   "xia150": {
+    "n_zone_pts": 2253,
+    "pop_zone": 1114236581.0,
+    "f_mean_popw": 0.3230911694506645,
+    "geo_share_in_zone_before": 0.3941662655984258,
+    "geo_share_in_zone_after": 0.30575273847947304,
+    "countries_all_destroyed": []
+   },
+   "xia47": {
+    "n_zone_pts": 255,
+    "pop_zone": 251533644.0,
+    "f_mean_popw": 0.6520002548843923,
+    "geo_share_in_zone_before": 0.31251193887297035,
+    "geo_share_in_zone_after": 0.13658417474908108,
+    "countries_all_destroyed": []
+   }
+  }
+ },
+ "heavy_TC": {
+  "chk84_mesh35": 0.6629735635136548,
+  "chk84_pop@pt": 0.6652995661197083,
+  "cover1500@cty_V1": 0.650975935466731,
+  "cover750@cty_V1": 0.6528086479298155,
+  "cover3000x@cty_V1": 0.6527100474202248,
+  "per_subregion@cty_V1": 0.6532863906542715,
+  "pop@cty_V1": 0.6643356923271875,
+  "surv150@cty_V1": 0.6621993737262436,
+  "bigplus@cty_V1": 0.651569576960057,
+  "per_subregion@pt_V1": 0.6528604581633884,
+  "pop@pt_V1": 0.6646281229502589,
+  "mesh35_V1": 0.6615628925678867,
+  "mesh100_V1": 0.6845712968494959,
+  "mesh200_V1": 0.7058251630441756,
+  "mesh35_V2": 0.6650291677653384,
+  "mesh200_V2": 0.7071131455672718,
+  "mesh35_V3": 0.6631310817391417,
+  "mesh200_V3": 0.7066491278274026,
+  "mesh35_V4": 0.6646020797435694,
+  "mesh200_V4": 0.7116116949641905,
+  "mesh35_V1_e0.66": 0.6589374180929768,
+  "mesh200_V1_e0.66": 0.6977812000959558,
+  "mesh35_e0.66": 0.6603149775189723,
+  "mesh200_e0.66": 0.6966236838704818,
+  "pop@pt_V3": 0.6655386598194131,
+  "pop@pt_V1_e0.66": 0.66183431043766,
+  "per_subregion@cty_V3": 0.6540138268625785,
+  "per_subregion@cty_V1_e0.66": 0.6523863340517154,
+  "mesh35_V1_Rd5": 0.6615628925678867,
+  "mesh200_V1_Rd5": 0.7058251630441756,
+  "mesh35_V1_Rd25": 0.6621124243608775,
+  "mesh200_V1_Rd25": 0.7049935139114352
+ },
+ "heavy_TC_075": {
+  "cover1500@cty": 0.6561609345960494,
+  "cover750@cty": 0.653047444065294,
+  "cover3000x@cty": 0.6579115656240094,
+  "per_subregion@cty": 0.6585158123646948,
+  "pop@cty": 0.6691954368635538,
+  "surv150@cty": 0.6661576389633777,
+  "bigplus@cty": 0.6524643630883741,
+  "per_subregion@pt": 0.6545682762946734,
+  "pop@pt": 0.6782981355388494,
+  "mesh35": 0.6800884181457512,
+  "mesh100": 0.705807743413245,
+  "mesh200": 0.7289008954100211
+ },
+ "heavy_TC_084": {
+  "cover1500@cty": 0.6514721946869116,
+  "cover750@cty": 0.653047444065294,
+  "cover3000x@cty": 0.654131742809474,
+  "per_subregion@cty": 0.6544518118579453,
+  "pop@cty": 0.6651858547628144,
+  "surv150@cty": 0.6628267312585969,
+  "bigplus@cty": 0.6524549334421501,
+  "per_subregion@pt": 0.6535717813566136,
+  "pop@pt": 0.6652995661197083,
+  "mesh35": 0.6629735635136548,
+  "mesh100": 0.6851594051541173,
+  "mesh200": 0.7064820616977301
+ },
+ "rank": {
+  "tau_084_V1": 0.8666666666666667,
+  "tau_075_V1": 0.6444444444444445,
+  "best_V1": "pop@pt",
+  "best_084": "pop@pt",
+  "spread_V1": 0.013652187483527811,
+  "order_V1": [
+   "pop@pt",
+   "pop@cty",
+   "surv150@cty",
+   "mesh35",
+   "per_subregion@cty",
+   "per_subregion@pt",
+   "cover750@cty",
+   "cover3000x@cty",
+   "bigplus@cty",
+   "cover1500@cty"
+  ]
+ },
+ "loss_mesh35": {
+  "084": 0.017114854632096388,
+  "V1": 0.018525525577864466,
+  "V2": 0.01505925038041278,
+  "V3": 0.016957336406609458,
+  "V4": 0.01548633840218172
+ },
+ "loss_remaining_ratio": {
+  "V1": 1.082423776075934,
+  "V2": 0.8798935605430954,
+  "V3": 0.9907964029567901,
+  "V4": 0.9048477907103795
+ },
+ "gain_35_200": {
+  "075": 0.04881247726426996,
+  "084": 0.04350849818407532,
+  "V1": 0.044262270476288945,
+  "V2": 0.0420839778019334,
+  "V3": 0.04351804608826093,
+  "V4": 0.04700961522062108,
+  "V1_e0.66": 0.038843782002979,
+  "e0.66": 0.03630870635150951
+ },
+ "hypotheses": {
+  "H98a": {
+   "class": "予測",
+   "value": 1.082423776075934,
+   "rule": "V1 の mesh35 の損 >= 084 の損の 0.5 倍",
+   "supported": true
+  },
+  "H98b": {
+   "class": "予測",
+   "value": 0.8666666666666667,
+   "rule": "Kendall tau(084, V1) >= 0.7",
+   "supported": true
+  },
+  "H98c": {
+   "class": "予測",
+   "value": 0.6631310817391417,
+   "rule": "V3 mesh35 >= 084 mesh35",
+   "supported": true
+  },
+  "H98d": {
+   "class": "予測",
+   "value": 0.044262270476288945,
+   "rule": "V1 の 35->200 の上げ幅 <= 084 の上げ幅",
+   "supported": false
+  },
+  "H98e": {
+   "class": "予測",
+   "value": 0.6589374180929768,
+   "rule": "0.655 <= V1+e0.66 mesh35 <= 0.675",
+   "supported": true
+  }
+ },
+ "runtime_s": 405.7
+}

@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究086 事前登録（作成 2026-10-21T22:42Z、sim.py を書く前・計算の前。Xia 2022 Table 1 の再取得の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="086-2026-10-21t2242zsimpy-xia-2022-table-1">研究086 事前登録（作成 2026-10-21T22:42Z、sim.py を書く前・計算の前。Xia 2022 Table 1 の再取得の前）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-213">問い（open_problems 213）</h2>
+<p>084 は核の地理の標本（xia150・xia47）で、標的の点から R_d=10 km 以内の写しを 0 部にしたが、群の点（生き残りの居場所）は
+国の中の人口のまま配ったので、標的の都市にも生き残りを置いていた。写しを失った場所の生き残りを減らすと 084 の損はどれだけ残るか。</p>
+<h2 id="_1">入力（既知であることを明記）</h2>
+<p>Xia et al. 2022 Table 1 の直接の死者（150 Tg 4,400発 3.6億人、47 Tg 500発 1.64億人）は 084 で読んだ値で、この登録の時点で既知。
+したがって以下の仮説はすべて「入力判明後の予測」で、確認的な仮説はない。</p>
+<h2 id="_2">計算（登録）</h2>
+<ul>
+<li>075 の sim.py を exec（070・074 の差0の検査を含む）し、084 の run_nuc を同じ式で書き直して、084 の mesh35 と pop@pt の重い崩壊の TC/V0 を差0で再現する（assert）。</li>
+<li>標的の点から R_d 以内の群の点（NE の点）を「壊された点」とし、その点の重みに (1−f) を掛ける。版：</li>
+<li>V1（主）：f = D / Σ_{壊された点} pop_max（シナリオごとの一様な割合、上限 1）。国の中で重みを正規化し直す（国の生き残りの合計は Xia の国別の値のまま、生き残りは国の中の標的でない点へ移る）。</li>
+<li>V2：1 発あたりの死者 k = D / 標的の点の数 を各標的の点から差し引く（f_i = min(1, k/pop_i)）、正規化し直す。</li>
+<li>V3：f = 1（壊された点に生き残りなし、下限の側の損）、正規化し直す。</li>
+<li>V4：V1 で正規化し直さない（国の合計が減る分は他の国へ移る）。</li>
+<li>085 の e=0.66 と V1 を重ねる版。</li>
+<li>10 の置き方（075 の PLP）と mesh200 で重い崩壊の TC/V0、Kendall τ（084 との比較）、35→200 の上げ幅。</li>
+</ul>
+<h2 id="_3">仮説（すべて予測）</h2>
+<ul>
+<li>H98a：V1 で mesh35 の重い崩壊の TC/V0 の 075 からの損は、084 の損（0.680→0.663、0.017）の 0.5 倍以上が残る。</li>
+<li>H98b：V1 の 10 の置き方の順位は 084 と Kendall τ ≥ 0.7。</li>
+<li>H98c：V3（f=1）でも mesh35 は 084 の 0.663 以上（生き残りを標的から外すと損は増えない）。</li>
+<li>H98d：V1 で 35→200 の上げ幅は 084 の +0.044 以下。</li>
+<li>H98e：V1＋e=0.66 の mesh35 は 0.655〜0.675 の中。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
