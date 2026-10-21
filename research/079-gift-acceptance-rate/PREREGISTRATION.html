@@ -1,0 +1,19 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究079 事前登録（2026-10-21T08:37Z、寄贈の受け入れ率・法定納本の資料を開く前・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="079-2026-10-21t0837zsimpy">研究079 事前登録（2026-10-21T08:37Z、寄贈の受け入れ率・法定納本の資料を開く前・sim.py の作成の前）</h1>
+<p>指標 TC/V0 と費用あたりは生存確率でも復興確率でもない（060〜078 の模型の中の価値の比）。提言は模型の中での順位（外部の検証はまだ）。</p>
+<h2 id="open_problems-203">設計（open_problems 203）</h2>
+<ul>
+<li>対象：078 の per_P＝(印刷＋送付)/p_acc の p_acc（寄贈した冊子が蔵書に加えられる確率）。078 では数値の資料 0件で U(0.5,0.9)【推測】。</li>
+<li>収集A（数値）：図書館の年報・統計・査読論文・図書館の業務報告で、寄贈として受け付けた点数（または申し出の点数）と、そのうち蔵書に加えた点数（またはその割合）が両方書かれた例を集める。1館（または1論文の1標本）を1件とする。比 a_i＝加えた/受け付けた を記録する。申し出を断った分が分母に入らない例（受け付け後の比）と入る例は区別して記録する。</li>
+<li>収集B（法定納本）：法定納本の制度の公開の説明（国立図書館の頁など）を開き、(i) 自国で出版した物の納本が出版者の義務か、(ii) 外国で出版された物が対象外か、(iii) 納本の部数、を記録する。</li>
+<li>置き直し：収集A が3件以上なら p_acc を a_i の最小〜最大の一様分布（主）にし、078 と同じ式で再計算。3件未満なら主は 078 の U(0.5,0.9) のまま、収集A の値は版（記述）。版（記述）：収集A の中央値の固定、未請求の外国の冊子向けに a_i×0.5、法定納本の経路（出版国の納本館は p_acc=1、その他の館は主の p_acc）。</li>
+<li>再計算：078 の sim.py を「# ---------- 仮説 ----------」の前まで exec して 078 の CE（全版）を差0で再現し、p_acc だけを置き換える。TC は変えない。</li>
+</ul>
+<h2 id="_1">仮説</h2>
+<ul>
+<li>H91a（確認的、資料を開く前）：収集A で3件以上が見つかり、a_i の中央値は 0.5 未満。</li>
+<li>H91b（確認的）：収集B で開いた国の制度の過半（&gt;50%）で、外国で出版された物は法定納本の義務の対象外と書かれている（または対象を自国の出版に限ると書かれている）。</li>
+<li>H91c（予測）：主の新しい p_acc で、重い崩壊 α=0.5 の 35→200 の限界/平均（中央値の比）は 1 を上回る（078 は 2.12）。</li>
+<li>H91d（予測）：主の新しい p_acc で、全体 α=0.5 の限界/平均は 1 を下回る（078 は 0.80）。</li>
+<li>記述（支持に数えない）：中央値の固定、×0.5、法定納本の経路。
+判定の閾値は上のとおりで、計算後に変えない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
