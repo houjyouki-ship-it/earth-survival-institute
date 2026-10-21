@@ -1,0 +1,124 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究084：核の標的の都市にある写しが丸ごと失われるとき（open_problems 168） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="084open_problems-168">研究084：核の標的の都市にある写しが丸ごと失われるとき（open_problems 168）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない（060〜076 の模型の中の価値の比）。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>075/076 の重い崩壊の TC/V0 は、写しを置いた都市そのものが攻撃で消える壊れ方を入れていない。核戦争の地理（070 の xia150・xia47）の標本で、標的の都市の写しを 0 部にすると TC と置き方の順位はどう変わるか。</p>
+<h2 id="sources-sha256">資料（本回開いて確認、sources/ に保存し SHA256）</h2>
+<ul>
+<li>【事実（Xia et al. 2022, Nature Food, Table 1, https://www.nature.com/articles/s43016-022-00573-0/tables/1）】47 Tg は 500 発・100 kt、150 Tg は 4,400 発・100 kt。150 Tg の出典は ref.51（Toon, Robock &amp; Turco 2008）で「France, Germany, Japan, United Kingdom, United States, Russia and China」への攻撃。</li>
+<li>【事実（Toon, Robock &amp; Turco 2008, Physics Today, https://climate.envsci.rutgers.edu/pdf/ToonRobockTurcoPhysicsToday.pdf）】「Russia targets 1000 weapons on the US and 200 warheads each on France, Germany, India, Japan, Pakistan, and the UK」「the US targets 1100 weapons each on China and Russia」。Xia の国の一覧に India・Pakistan はないが、元の論文にはある（版で両方を見た）。</li>
+<li>【事実（Toon et al. 2019, Sci. Adv., https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6774726/）】都市の標的は「the most populated of these 2-km-radius regions」を選び、100 kt では半径を √(100/15) 倍にする。都市への空中爆発は Pakistan 100 発・India 150 発。</li>
+<li>【推測】47 Tg の 500 発を 150:100 で India 300・Pakistan 200 に配った。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>076 と同じく 075 の sim.py を exec。壊さない版（R_d&lt;0）で 075 の mesh35 と per_subregion@cty の全値を差0で再現（assert）。</li>
+<li>標的：Natural Earth の点（074）を国ごとに pop_max の順に兵器数だけ取る（点が足りない国は全点）。xia150 で 2,246 点（US 769＝全点、RU 581、CN 400、IN 200、JP 69 ほか）、xia47 で 255 点（IN 214、PK 41）。</li>
+<li>標的の点から R_d（主 10 km、版 5・25 km）以内の写しは、その地理の標本の重い崩壊で 0 部。pop の地理と軽い崩壊は変えない。</li>
+<li>版（登録外・記述）：Xia の国の一覧どおり India・Pakistan を外す、標的の点を兵器数の 1/4 に絞る、標的の 10 km 以内を飛ばした mesh（meshavoid）、α=0.5 の寄せ（076 の式、寄せる先は残った写し、seed 20261084）。</li>
+<li>事前登録：PREREGISTRATION.md（2026-10-21T18:42:40Z、資料の中身を読む前・sim.py の前）。sim.py 約420秒。</li>
+</ul>
+<h2 id="tcv0a_ordu30">結果（重い崩壊 TC/V0、A_Ord/U3、α=0）</h2>
+<table>
+<thead>
+<tr>
+<th>置き方</th>
+<th>075</th>
+<th>084</th>
+<th>差</th>
+<th>xia150 で失う割合</th>
+<th>xia47 で失う割合</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mesh35</td>
+<td>0.680</td>
+<td><strong>0.663</strong></td>
+<td>−0.017</td>
+<td>40%</td>
+<td>31%</td>
+</tr>
+<tr>
+<td>pop@pt（大都市35）</td>
+<td>0.678</td>
+<td><strong>0.665</strong></td>
+<td>−0.013</td>
+<td>57%</td>
+<td>17%</td>
+</tr>
+<tr>
+<td>pop@cty</td>
+<td>0.669</td>
+<td>0.665</td>
+<td>−0.004</td>
+<td>26%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>surv150@cty</td>
+<td>0.666</td>
+<td>0.663</td>
+<td>−0.003</td>
+<td>9%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>per_subregion@cty</td>
+<td>0.659</td>
+<td>0.654</td>
+<td>−0.004</td>
+<td>20%</td>
+<td>3%</td>
+</tr>
+<tr>
+<td>他の5つ</td>
+<td>0.652〜0.658</td>
+<td>0.651〜0.654</td>
+<td>0〜−0.005</td>
+<td>0〜20%</td>
+<td>0〜6%</td>
+</tr>
+<tr>
+<td>mesh100</td>
+<td>0.706</td>
+<td>0.685</td>
+<td>−0.021</td>
+<td>32%</td>
+<td>19%</td>
+</tr>
+<tr>
+<td>mesh200</td>
+<td>0.729</td>
+<td><strong>0.707</strong></td>
+<td>−0.022</td>
+<td>36%</td>
+<td>22%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>順位：Kendall τ <strong>0.78</strong>（10 の置き方）。最良は mesh35 から pop@pt に移るが差は 0.002 で、10 の置き方の幅は 0.026→<strong>0.014</strong> に縮む。</li>
+<li>R_d 5・10・25 km と標的を 1/4 に絞った版で mesh35・pop@pt・per_subregion の値は変わらない（写しは大都市の点そのものにあり、標的の上位に入るため）。mesh200 は 1/4 で 0.709。</li>
+<li>India・Pakistan を外すと xia150 で失う mesh35 は 40%→9%、TC 0.673。mesh の写しの多くは南アジアの人口の多い点にある。</li>
+<li>標的を避けた mesh：35部 0.660（避けない 0.663 より低い）、184部 0.702。α=0.5 では mesh35 0.689 に対し避けた方 0.691、mesh200 0.721 と避けた 184部 0.721。避けることの得はほぼ 0。</li>
+<li>35→200 の上げ幅：+0.049→+0.044。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>H96a（確認的、mesh35 の 3割以上が xia150 の標的に）：<strong>支持</strong>（0.40）。</li>
+<li>H96b（予測、xia47 で 15% 以下）：<strong>棄却</strong>（0.31。mesh は India に集まる）。</li>
+<li>H96c（予測、mesh35 が 0.01 以上下がる）：<strong>支持</strong>（−0.017）。</li>
+<li>H96d（予測、τ≥0.6 かつ pop@pt が mesh35 より多く失う）：<strong>支持</strong>（0.78、57%&gt;40%）。</li>
+<li>H96e（予測、35→200 の上げ幅が増える）：<strong>棄却</strong>（+0.044 &lt; +0.049。失う割合は部数でほぼ一定で、上げ幅も同じ割合で縮む）。</li>
+</ul>
+<h2 id="_4">批判的な検討</h2>
+<ul>
+<li>生き残りの群の点は 070 の地理の重み（国の生き残りの割合）を国の中の点の人口で配っており、標的の都市の生き残りを減らしていない。標的の都市に人が残らないなら、そこで失う写しが助ける相手も減るので、本回の損は上限の側【推測】。</li>
+<li>Natural Earth の点は1都市1点で、Toon の「人口の多い 2 km の区画」とは違う。US は兵器数が点の数を上回り全点が標的になった。それでも 1/4 に絞っても結果が変わらないので、結論は標的の数の置き方に強くはよらない。</li>
+<li>軽い崩壊（計算機の社会が残る）では写しを壊していない。TC の全体の値は過大のまま。</li>
+<li>失う割合が 4割でも TC が 0.017 しか下がらないのは、075 の床（写しに届かなくても残る価値 0.638）が大きく、核の地理の標本の生き残りは主に南半球や非交戦国にいて、交戦国の大都市の写しにもともと届きにくいため。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は、核の標的になりそうな大都市を避けるために置き場所を動かす必要はない（避けても TC はほぼ同じか下がる）。部数の判断（35部か 200部か）と寄せの効き（076）の方が大きい。本研究所は 075 の mesh35 0.680 を、核の標的の喪失を入れて 0.663（上限の側の損）に改め、168 はほぼ解決とする。</p><footer><hr><small>自動生成</small></footer></body></html>

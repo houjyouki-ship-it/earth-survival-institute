@@ -27,7 +27,9 @@ def targets(weapons):
         out += list(idx[np.argsort(-ppop[idx], kind="stable")][:n])
     return np.array(out)
 TG = {"xia150": targets(TGT["xia150"]["weapons"]), "xia47": targets(TGT["xia47"]["weapons"]),
-      "xia150_noINPK": targets({k: v for k, v in TGT["xia150"]["weapons"].items() if k not in ("IN", "PK")})}
+      "xia150_noINPK": targets({k: v for k, v in TGT["xia150"]["weapons"].items() if k not in ("IN", "PK")}),
+      # 版（登録外・記述）：1つの大都市に複数の弾頭が重なる分を見て、標的の点を兵器数の 1/4 に絞る（下限の側）
+      "xia150_q25": targets({k: v // 4 for k, v in TGT["xia150"]["weapons"].items()}), "xia47_q25": targets({k: v // 4 for k, v in TGT["xia47"]["weapons"].items()})}
 R["targets"] = {k: {"n_points": int(len(v)), "by_country": {c: int((cA2[v] == c).sum()) for c in sorted(set(cA2[v]))}} for k, v in TG.items()}
 def destroyed(S, tg, Rd):
     S = np.array(S); d = hav(plat[S][:, None], plon[S][:, None], plat[tg][None, :], plon[tg][None, :]).min(1); return d <= Rd
@@ -58,6 +60,8 @@ for n in (100, 200): run_nuc(f"mesh{n}", MESH[:n])
 for Rd in (5.0, 25.0):
     for p in ("mesh35", "pop@pt", "per_subregion@cty"): run_nuc(f"{p}_Rd{int(Rd)}", SITES[p], Rd=Rd)
     run_nuc(f"mesh200_Rd{int(Rd)}", MESH[:200], Rd=Rd)
+for p in ("mesh35", "pop@pt", "per_subregion@cty"): run_nuc(f"{p}_q25", SITES[p], t150="xia150_q25", t47="xia47_q25")
+run_nuc("mesh200_q25", MESH[:200], t150="xia150_q25", t47="xia47_q25")
 run_nuc("mesh35_noINPK", MESH[:35], t150="xia150_noINPK"); run_nuc("mesh200_noINPK", MESH[:200], t150="xia150_noINPK")
 # 標的を避けた mesh（標的の 10 km 以内を飛ばして貪欲の順に 35・200）：記述の版
 allT = np.r_[TG["xia150"], TG["xia47"]]; ok = ~destroyed(MESH, allT, 10.0); MAV = [x for x, k in zip(MESH, ok) if k]
