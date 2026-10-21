@@ -1189,7 +1189,7 @@
 </ul>
 <h2 id="78-2026-10-21">第78回 2026-10-21</h2>
 <ul>
-<li>再現チェック：078 の sim.py は 077 の sim.py を exec して 077 の CE 全値（9版×全体・重い崩壊×5つの α）を差0（相対差 0.0）で再現する（077 の再実行を兼ねる）。<code>/tmp/rep078/</code> に research を複製して 078 を再実行した（結果は下）。</li>
+<li>再現チェック：078 の sim.py は 077 の sim.py を exec して 077 の CE 全値（9版×全体・重い崩壊×5つの α）を差0（相対差 0.0）で再現する（077 の再実行を兼ねる）。<code>/tmp/rep078/</code> に research を複製して 078 を再実行し、results.json は runtime 以外一致、図の MD5 も一致。</li>
 <li>主課題：next_plan の推奨 A ＝ open_problems 200（送付・受け入れの1部ごとの費用と受け入れの可否）。固定の2節は残した。</li>
 <li>文献・データ（本回開いて確認、sources/ に保存し SHA256）：日本郵便の通常郵便物の料金表（第1〜5地帯）と国際エアパケット、Royal Mail の International Services wallchart 2026（royalmail.com は 403 のため転載の PDF を WebFetch）、USPS Notice 123（2026-10-04 有効）、Deutsche Post の Warenversand と Briefe ins Ausland の頁、ECB 参照レート 2026-10-20。寄贈の方針：Library of Congress、NLA、国立国会図書館、Library and Archives Canada（WebFetch）、National Library of Scotland、National Library of Ireland の収集方針、Indiana State Library の収集方針、British Library（WebFetch）。IFLA Gift guide 2019 と ALA の toolkit は記述。NZ の国立図書館は取得失敗。</li>
 <li>研究078を実施：<code>research/078-shipping-acceptance/</code>（sim.py 約405秒 seed 20261078、計算のみ）。成果物は results.json、stdout.txt、fig_postage_acceptance.png、report.md、PREREGISTRATION.md（2026-10-21T06:42Z、資料を開く前・sim.py の前）、sources/（rates.json、policies.json、保存した頁、fetch*.sh、SHA256SUMS.txt）。</li>
