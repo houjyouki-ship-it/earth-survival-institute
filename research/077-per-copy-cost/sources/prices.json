@@ -1,0 +1,20 @@
+{"note": "値は保存した頁の表示どおり（2026-10-21 取得）。usd_100p は約100頁・白黒の本1部の印刷費。low/high は範囲で示された値。acid_free_claim は業者の頁の自己申告で ISO 9706 の認証ではない。",
+ "book": [
+  {"src": "Amazon KDP Paperback printing cost", "url": "https://kdp.amazon.com/en_US/help/topic/G201834340", "file": "kdp_printing_cost.html", "quote": "black ink with 24-110 pages ... Amazon.com 2.30 USD per book", "usd_100p": 2.30, "low": 2.30, "high": 2.84, "high_note": "large trim 2.84", "acid_free_claim": false},
+  {"src": "The Book Patch POD", "url": "https://app.thebookpatch.com/PrintOnDemand.aspx", "file": "bookpatch_pod.html", "quote": "1 - 49 $2.75 ... 100 - 249 $2.34", "usd_100p": 2.75, "low": 2.34, "high": 2.75, "acid_free_claim": false},
+  {"src": "BookPrintOnDemand.com pricing", "url": "http://bookprintondemand.com/pricing", "file": "bookprintondemand_pricing.webfetch.txt", "quote": "$1.40/cover + $0.011/page ... minimum cost per unit is $2.50", "usd_100p": 2.50, "low": 2.50, "high": 2.50, "acid_free_claim": false},
+  {"src": "Spines book printing", "url": "https://spines.com/services/book-printing/", "file": "spines_book_printing.html", "quote": "acid-free, archival-grade paper ... Starting at $2.90 per copy (black & white, 200-page paperback)", "usd_100p": 2.90, "low": 2.90, "high": 2.90, "acid_free_claim": true},
+  {"src": "BookBaby printing guide", "url": "https://www.bookbaby.com/resources/printing-your-self-published-book", "file": "bookbaby_printing.html", "quote": "around $5-$8 for paperbacks ... acid-free, uncoated paper", "usd_100p": 6.5, "low": 5.0, "high": 8.0, "acid_free_claim": true}
+ ],
+ "microfilm": [
+  {"src": "Indiana State Archives SIML request form, 16mm Silver Negative Copy", "url": "https://forms.in.gov/Download.aspx?id=15319", "file": "indiana_siml_form.pdf", "usd": 59.0},
+  {"src": "Indiana State Archives SIML request form, 35mm Silver Positive Copy", "url": "https://forms.in.gov/Download.aspx?id=15319", "file": "indiana_siml_form.pdf", "usd": 72.0},
+  {"src": "Kansas Historical Society, 35mm silver halide duplicate", "url": "https://www.kansashistory.gov/p/kansas-historical-society-copy-services/19953", "file": "kansas_copy_services.html", "usd": 75.0},
+  {"src": "Kansas Historical Society, 16mm silver halide duplicate", "url": "https://www.kansashistory.gov/p/kansas-historical-society-copy-services/19953", "file": "kansas_copy_services.html", "usd": 60.0},
+  {"src": "BGSU Center for Archival Collections, silver positive (public)", "url": "https://www.bgsu.edu/library/cac/preservation/costs.html", "file": "bgsu_microfilm_costs.html", "usd": 90.0},
+  {"src": "UW Libraries / Backstage, 35mm silver halide duplicate", "url": "https://lib.uw.edu/find-borrow/borrow-request/microform-duplication-services/", "file": "uw_microform_dup.webfetch.txt", "usd": 58.75}
+ ],
+ "metal_reference": [
+  {"src": "Rosetta Project, Rosetta Archive Pendant (donation, not a production price)", "url": "https://rosettaproject.org/disk/wearable/", "file": "rosetta_wearable.html", "usd": 1000.0},
+  {"src": "NanoRosetta technology (no public price; 160 mm nickel wafer up to 81,000 pages)", "url": "https://nanorosetta.com/technology/", "file": "nanorosetta_technology.html", "usd": null}
+ ]}

@@ -1,0 +1,18 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究077 事前登録（2026-10-21T04:35Z、価格の資料を開く前・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="077-2026-10-21t0435zsimpy">研究077 事前登録（2026-10-21T04:35Z、価格の資料を開く前・sim.py の作成の前）</h1>
+<p>指標 TC/V0 は生存確率でも復興確率でもない（060〜076 の模型の中の価値の比）。提言は模型の中での順位（外部の検証はまだ）。</p>
+<h2 id="open_problems-198">設計（open_problems 198）</h2>
+<ul>
+<li>対象：061 の座標・道順・地図の冊子（＋065 の primer の頁）1部の印刷・製本の費用 per_P（送付・受け入れの U($25,$50) は別項でそのまま）。061 の事前分布は logU($100,$1,000)。</li>
+<li>収集：公開の価格表・価格の計算の頁・図書館の公式の価格表を開き、(i) 少部数の本（約100頁、A5〜US trade 程度、白黒の頁＋数頁の図）1部の印刷費、(ii) 酸性紙でない（acid-free／ISO 9706 などの耐久）紙をうたう印刷、(iii) マイクロフィルムの複製1巻（参照の媒体）、(iv) 刻んだ金属板・ニッケルの円盤（参照）を記録する。頁は sources/ に保存し SHA256 を取る。開けた資料だけを使い、値は頁の表示どおりに写す。</li>
+<li>置き直し：(i)(ii) の1部の値の最小〜最大を対数一様の範囲にして per_P の新しい事前分布とする（資料が1つしかない種類は ×0.5〜×2 の幅）。印刷の1部の値に 100頁あたりへの比例の補正をする場合は頁に書かれた頁数で行う。</li>
+<li>再計算：076 の sim.py を exec して 076 の主（mesh35 α=0.5 の重い崩壊 0.702 ほか）を差0で再現し、per_P の標本を新しい分布に置き換えた費用で、076 と同じ式の 35部の平均の費用あたりと 35→200 の限界の費用あたり（全体と重い崩壊、α=0 と 0.5）を出す。費用の置き換えは Cost の per_P だけ（TC は変えない）。</li>
+</ul>
+<h2 id="_1">仮説</h2>
+<ul>
+<li>H89a（確認的、資料を開く前）：(i)(ii) から得る少部数の約100頁の本1部の印刷費の中央値は $100 未満（061 の範囲の下端より下）。</li>
+<li>H89b（確認的）：耐久紙をうたう印刷（ii）の1部の値は、普通紙の同等の本（i）の 3倍未満。</li>
+<li>H89c（予測）：新しい per_P で、α=0.5 の全体の中央値で 35→200 の限界の費用あたりは 35部の平均の費用あたりを下回る（限界/平均 &lt; 1）。</li>
+<li>H89d（予測）：新しい per_P で、α=0.5 の重い崩壊だけの中央値で 35→200 の限界の費用あたりは 35部の平均を上回る（限界/平均 &gt; 1）。</li>
+<li>記述（支持に数えない）：マイクロフィルム1巻・金属板の値。
+判定の閾値は上のとおりで、計算後に変えない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
