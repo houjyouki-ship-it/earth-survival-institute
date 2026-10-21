@@ -1,0 +1,43 @@
+070 loaded 150 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 27 s
+main_kmov per_subregion@cty per_subregion@cty 67 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 77 s
+kmov_x2 per_subregion@pt per_subregion@pt 87 s
+ref_071 per_subregion@pt cover3000x@cty 89 s
+mesh 35 0.3002 92 s
+mesh 50 0.3359 94 s
+mesh 100 0.4191 95 s
+mesh 150 0.4718 96 s
+mesh 200 0.5097 97 s
+mesh 300 0.5654 99 s
+074 loaded 249 s
+checks ok 253 s
+chk_mesh35 0.6801 {'n': 35, 'lost150': 0, 'lost47': 0, 'share150': 0.0, 'share47': 0.0} 258 s
+chk_per_subregion@cty 0.6585 {'n': 35, 'lost150': 0, 'lost47': 0, 'share150': 0.0, 'share47': 0.0} 262 s
+check ok
+cover1500@cty 0.6515 {'n': 35, 'lost150': 6, 'lost47': 2, 'share150': 0.17142857142857137, 'share47': 0.05714285714285716} 267 s
+cover750@cty 0.653 {'n': 35, 'lost150': 0, 'lost47': 0, 'share150': 0.0, 'share47': 0.0} 271 s
+cover3000x@cty 0.6541 {'n': 35, 'lost150': 6, 'lost47': 2, 'share150': 0.17142857142857137, 'share47': 0.05714285714285716} 276 s
+per_subregion@cty 0.6545 {'n': 35, 'lost150': 7, 'lost47': 1, 'share150': 0.19999999999999996, 'share47': 0.02857142857142858} 280 s
+pop@cty 0.6652 {'n': 35, 'lost150': 9, 'lost47': 2, 'share150': 0.2571428571428571, 'share47': 0.05714285714285716} 285 s
+surv150@cty 0.6628 {'n': 35, 'lost150': 3, 'lost47': 2, 'share150': 0.08571428571428574, 'share47': 0.05714285714285716} 290 s
+bigplus@cty 0.6525 {'n': 35, 'lost150': 7, 'lost47': 0, 'share150': 0.19999999999999996, 'share47': 0.0} 294 s
+per_subregion@pt 0.6536 {'n': 35, 'lost150': 5, 'lost47': 1, 'share150': 0.1428571428571429, 'share47': 0.02857142857142858} 299 s
+pop@pt 0.6653 {'n': 35, 'lost150': 20, 'lost47': 6, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 303 s
+mesh35 0.663 {'n': 35, 'lost150': 14, 'lost47': 11, 'share150': 0.4, 'share47': 0.3142857142857143} 308 s
+mesh100 0.6852 {'n': 100, 'lost150': 32, 'lost47': 19, 'share150': 0.31999999999999995, 'share47': 0.18999999999999995} 313 s
+mesh200 0.7065 {'n': 200, 'lost150': 72, 'lost47': 43, 'share150': 0.36, 'share47': 0.21499999999999997} 318 s
+mesh35_Rd5 0.663 {'n': 35, 'lost150': 14, 'lost47': 11, 'share150': 0.4, 'share47': 0.3142857142857143} 322 s
+pop@pt_Rd5 0.6653 {'n': 35, 'lost150': 20, 'lost47': 6, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 327 s
+per_subregion@cty_Rd5 0.6545 {'n': 35, 'lost150': 7, 'lost47': 1, 'share150': 0.19999999999999996, 'share47': 0.02857142857142858} 331 s
+mesh200_Rd5 0.7065 {'n': 200, 'lost150': 72, 'lost47': 43, 'share150': 0.36, 'share47': 0.21499999999999997} 336 s
+mesh35_Rd25 0.663 {'n': 35, 'lost150': 14, 'lost47': 11, 'share150': 0.4, 'share47': 0.3142857142857143} 341 s
+pop@pt_Rd25 0.6653 {'n': 35, 'lost150': 20, 'lost47': 6, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 346 s
+per_subregion@cty_Rd25 0.6545 {'n': 35, 'lost150': 7, 'lost47': 1, 'share150': 0.19999999999999996, 'share47': 0.02857142857142858} 350 s
+mesh200_Rd25 0.7065 {'n': 200, 'lost150': 72, 'lost47': 43, 'share150': 0.36, 'share47': 0.21499999999999997} 355 s
+mesh35_noINPK 0.6725 {'n': 35, 'lost150': 3, 'lost47': 11, 'share150': 0.08571428571428574, 'share47': 0.3142857142857143} 359 s
+mesh200_noINPK 0.7181 {'n': 200, 'lost150': 29, 'lost47': 43, 'share150': 0.14500000000000002, 'share47': 0.21499999999999997} 364 s

@@ -1,0 +1,9 @@
+{"note": "本回開いて確認した公開資料の値。sim.py はここだけを読む。",
+ "xia150": {"source": "Toon, Robock & Turco 2008, Physics Today 61:37 (Xia 2022 Table 1 の 150 Tg の出典 ref.51)", "url": "https://climate.envsci.rutgers.edu/pdf/ToonRobockTurcoPhysicsToday.pdf",
+   "quote": ["In the SORT conflict, we assume that Russia targets 1000 weapons on the US and 200 warheads each on France, Germany, India, Japan, Pakistan, and the UK.", "We assume the US targets 1100 weapons each on China and Russia."],
+   "weapons": {"US": 1000, "FR": 200, "DE": 200, "IN": 200, "JP": 200, "PK": 200, "GB": 200, "CN": 1100, "RU": 1100}, "yield_kt": 100},
+ "xia47": {"source": "Xia et al. 2022 Nature Food Table 1（47 Tg = 500 weapons, 100 kt, ref.18 = Toon et al. 2019 Sci Adv）", "url": "https://www.nature.com/articles/s43016-022-00573-0/tables/1",
+   "weapons_total": 500, "split_source": "Toon et al. 2019 Sci Adv: 'Pakistan’s urban areas are hit with 100 nuclear weapons using airbursts, and India’s urban areas are hit with 150'", "split_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6774726/",
+   "weapons": {"IN": 300, "PK": 200}, "split_is": "【推測】500 を 150:100 の比で配った", "yield_kt": 100},
+ "target_rule": {"quote": "we selected the most populated of these 2-km-radius regions as target points ... the population density target search radius scales as the nominal 2-km radius times the square root of the alternative yield divided by 15 kt", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6774726/", "radius_100kt_km": 5.164}
+}

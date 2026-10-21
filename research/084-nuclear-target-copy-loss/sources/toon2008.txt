@@ -1,0 +1,858 @@
+Environmental
+consequences of
+nuclear war
+Owen B. Toon, Alan Robock, and Richard P. Turco
+A regional war involving 100 Hiroshima-sized weapons would pose a worldwide threat due to
+ozone destruction and climate change. A superpower confrontation with a few thousand weapons
+would be catastrophic.
+Brian Toon is chair of the department of atmospheric and oceanic sciences and a member of the laboratory for atmospheric and space
+physics at the University of Colorado at Boulder. Alan Robock is a professor of atmospheric science at Rutgers University in New
+Brunswick, New Jersey. Rich Turco is a professor of atmospheric science at the University of California, Los Angeles.
+
+More than 25 years ago, three independent research
+groups made valuable contributions to elaborating the consequences of nuclear warfare.1 Paul Crutzen and John Birks proposed that massive fires and smoke emissions in the lower atmosphere after a global nuclear exchange would create severe
+short-term environmental aftereffects. Extending their work,
+two of us (Toon and Turco) and colleagues discovered “nuclear
+winter,” which posited that worldwide climatic cooling from
+stratospheric smoke would cause agricultural collapse that
+threatened the majority of the human population with starvation. Vladimir Aleksandrov and Georgiy Stenchikov conducted the first general circulation model simulations in the
+USSR. Subsequent investigations in the mid- and late 1980s by
+the US National Academy of Sciences2 and the International
+Council of Scientific Unions3,4 supported those initial studies
+and shed further light on the phenomena involved. In that
+same period, Presidents Ronald Reagan and Mikhail Gorbachev recognized the potential environmental damage attending the use of nuclear weapons and devised treaties to reduce the numbers from their peak in 1986—a decline that
+continues today. When the cold war ended in 1992, the likelihood of a superpower nuclear conflict greatly decreased. Significant arsenals remain, however, and proliferation has led to
+several new nuclear states. Recent work by our colleagues and
+us5–7 shows that even small arsenals threaten people far removed from the sites of conflict because of environmental
+changes triggered by smoke from firestorms. Meanwhile,
+modern climate models confirm that the 1980s predictions of
+nuclear winter effects were, if anything, underestimates.8
+The Strategic Offensive Reductions Treaty (SORT) of
+2002 calls for the US and Russia each to limit their operationally deployed warheads to 1700–2200 by December 2012.
+The treaty has many unusual features: warheads, rather than
+delivery systems, are limited; verification measures are not
+specified; permanent arsenal reductions are not required;
+warheads need not be destroyed; either side may quickly
+withdraw; and the treaty expires on the same day that the
+arsenal limits are to be reached. Nevertheless, should the
+limits envisioned in SORT be achieved and the excess warheads destroyed, only about 6% of the 70 000 warheads existing in 1986 would remain. Given such a large reduction,
+one might assume a concomitant large reduction in the num© 2008 American Institute of Physics, S-0031-9228-0812-010-5
+
+ber of potential fatalities from a nuclear war and in the likelihood of environmental consequences that threaten the bulk
+of humanity. Unfortunately, that assumption is incorrect. Indeed, we estimate that the direct effects of using the 2012 arsenals would lead to hundreds of millions of fatalities. The
+indirect effects would likely eliminate the majority of the
+human population.
+
+Casualty and soot numbers
+Any of several targeting strategies might be employed in a
+nuclear conflict. For example, in a “rational” war, a few
+weapons are deployed against symbolically important targets. Conversely, a “counterforce” war entails a massive attack against key military, economic, and political targets. We
+consider a “countervalue” strategy in which urban areas are
+targeted, mainly to destroy economic and social infrastructure and the ability to fight and recover from a conflict. In any
+case, when the conflict involves a large number of weapons,
+the distinction between countervalue and counterforce
+strategies diminishes because military, economic, and political targets are usually in urban areas.
+Box 1 on page 38 describes how we estimate casualties
+(fatalities plus injuries) and soot (elemental carbon) emissions; figure 1 shows results. The figure gives predicted casualties and soot injected into the upper atmosphere from an
+attack on several possible target countries by a regional power
+using 50 weapons of 15-kiloton yield, for a total yield of
+0.75 megaton. The figure also provides estimates of the casualties and soot injections from a war based on envisioned
+SORT arsenals. In the SORT conflict, we assume that Russia
+targets 1000 weapons on the US and 200 warheads each on
+France, Germany, India, Japan, Pakistan, and the UK. We assume the US targets 1100 weapons each on China and Russia.
+We do not consider the 1000 weapons held in the UK, China,
+France, Israel, India, Pakistan, and possibly North Korea.
+(Box 2 on page 40 provides information on the world’s nuclear
+arsenals.) The war scenarios considered in the figure bracket
+a wide spectrum of possible attacks, but not the extremes for
+either the least or greatest damage that might occur.
+As figure 1 shows, a war between India and Pakistan in
+which each uses weapons with 0.75-Mt total yield could lead
+to about 44 million casualties and produce about 6.6 trillion
+December 2008
+
+Physics Today
+
+37
+
+Box 1. Computational methodology
+Fatality and casualty (fatalities plus injuries) probabilities were
+well documented following the nuclear attacks on the Japanese
+cities of Hiroshima and Nagasaki. The probability curves follow
+normal distributions away from ground zero. Those distributions and a modern population database allow for an estimate
+of the fatalities and casualties for any city. One must keep in
+mind, though, that a given city’s actual probability curves
+depend on many factors, including construction practices and
+materials. Also, one must scale the probabilities from the
+Hiroshima and Nagasaki weapons yields to the weapons yields
+of interest.
+The amount of soot generated in fires can also be estimated
+from a population database given the per capita quantity of
+combustible material.5 Surveys of a few large US cities and the
+centers of cities such as Hamburg, Germany, after World War II,
+along with the known quantity of flammable material stored in
+the world, suggest that the amount of fuel per unit area in the
+urban developed world, M f , is a linear function of the population density P:
+
+world. To account for soot removal in “black rains” induced by
+firestorms, the average fraction of emitted soot that is not scavenged in fire-induced convective columns is specified by the
+parameter Ri. Assuming that Qi and Ci are both 1.0 and that Ri is
+0.8, the second sum is 0.016 kg of soot per kg of fuel. Given that
+multiplier,
+J
+
+Ms = ∑ Aj [Pj (1.8 × 102 kg/person)
+j =1
+
++1.3 × 105 kg/km2] .
+
+The first sum is over all grid cells in the region subject to fire
+ignition. We include a total of J cells arranged symmetrically
+around ground zero such that the total area burned is scaled by
+yield from Hiroshima.14 The quantity Mf,j is the fuel per unit area,
+which depends on the population density within the grid cell j.
+The area of the jth grid cell affected by fire is Aj.
+The second sum does not vary with location around ground
+zero in our treatment, though in reality it would. The first term,
+Fi, is a fraction that divides the total combustible fuel into N different types—for example, wood, plastic, or asphalt—indexed
+by the subscript i. The factor Qi is the fraction of a fuel type that
+burns following nuclear ignition, and Si accounts for how much
+of the fuel is converted into soot.15 To adjust the estimated soot
+emissions for national differences in fuel characteristics, the
+parameter Ci specifies the ratio of the fuel type per person in the
+city in question to the fuel type per person in the developed
+
+To use this equation we employ LandScan, a detailed population database developed by the US Department of Energy.
+LandScan provides the daily average population in grid cells
+1 arcsecond on a side, an area of about 1 km2. To compute
+emitted soot, we start with the area that burned in Hiroshima,
+13 km2, and scale it according to the weapons yield. In particular, since the area within a given thermal energy flux contour
+varies linearly with yield for small yields, we assume linear scaling for the burned area.16 The yield of the weapon at Hiroshima was 15 kilotons. In our model we considered 100-kt
+weapons, since that is the size of many of the submarinebased weapons in the US, British, and French arsenals. In that
+case we assume a burned area of 86.6 km2 per weapon, which
+corresponds to a circle of radius 5.25 km about ground zero.
+The standard deviations for normal distribution curves for
+fatalities and casualties are based on the Hiroshima data but
+scaled so that the area within a contour varies linearly with
+yield. At Hiroshima, deaths were caused by prompt radiation,
+blast, and fire. However, deaths caused by fires will be proportionally higher for larger explosions, because deaths due to
+blast and prompt radiation decline more rapidly with distance
+than those due to fires.
+When contemplating multiple detonations, one needs to
+consider how closely the weapons are spaced. For 15-kt explosions, we separate the ground-zero points by at least 6 km and
+assume the effects of the weapons are confined to non-overlapping circles of 3-km radius. For those relatively small explosions, the fatality probability is small at 3 km from ground zero,
+and that for serious injury is less than 5%. We assume that
+ground-zero separation will increase from 6 to 15.5 km for
+100-kt weapons. Such cookie-cutter spacing leaves large gaps
+that are not attacked.
+
+grams (Tg) of soot. A SORT conflict with 4400 nuclear explosions and 440-Mt total yield would generate 770 million casualties and 180 Tg of soot. The SORT scenario numbers are
+lower limits inasmuch as we assumed 100-kt weapons; the
+average SORT yield would actually be larger. The results can
+be relatively insensitive to the distribution of weapons strikes
+on different countries because attacks on lower-population
+areas produce decreased amounts of soot. For instance, 100
+weapons targeted each on France and Belgium leads to about
+the same amount of soot as 200 on France alone. On the other
+hand, using fewer weapons on densely populated regions
+such as in India and China would reduce soot generation.
+The 4400 explosions that we considered are 1000 more
+than are possible with the lower SORT limit. However, even
+if the US and Russia achieve that lower limit, more probable
+weapons yields would produce soot emissions and casualties
+similar to those just described. Because of world urbaniza-
+
+tion, a SORT conflict can directly affect large populations. For
+example, with 1000 weapons detonated in the US, 48% of the
+total population and 59% of the urban population could fall
+within about 5 km of ground zero; 20% of the total population and 25% of the urban population could be killed outright, while an additional 16% of the total population and
+20% of the urban population could become injured.
+Figure 2 illustrates how the number of casualties and fatalities and the amount of soot generated in China, Russia,
+and the US rises with an increasing number of 100-kt nuclear
+explosions. In generating the figure, we assumed regions
+were targeted in decreasing order of population within
+5.25 km of ground zero, as described in box 1. Attacks on
+China had the most dire effects because China has many
+highly populated urban centers. Indeed, attacks on a relatively small number of densely populated urban targets generate most of the casualties and soot. For example, 50% of the
+
+Mf = 1.1 × 104 kg/person × P + 8 × 106 kg/km2.
+The total single-detonation mass Ms of soot emitted by fires,
+after correcting for soot that is rained out, can be computed as
+s
+
+38
+
+December 2008
+
+∑
+
+=1
+
+f,
+
+∑
+
+=1
+
+Physics Today
+
+www.physicstoday.org
+
+b
+
+a
+
+Casualties from 15-kt explosions
+Casualties from 100-kt explosions
+
+250
+200
+150
+
+116
+
+104
+
+100
+
+76
+
+59
+50
+0
+
+7
+
+23
+
+28 26
+
+France Germany India
+
+13
+
+50
+18
+
+Japan Pakistan
+
+32
+
+28
+6
+
+8
+
+12
+
+UK
+
+US
+
+Russia
+
+Soot from 15-kt explosions
+Soot from 100-kt explosions
+
+50
+40
+
+28.1
+
+30
+
+26.9
+
+21.4
+
+20
+
+11.9
+
+10
+0
+
+China
+
+59.5
+
+60
+
+287
+
+SOOT (teragrams)
+
+CASUALTIES (millions)
+
+300
+
+6.5
+1.1
+
+11.0
+7.4
+
+7.3
+3.7
+
+France Germany India
+
+1.9
+
+2.9
+
+Japan Pakistan
+
+0.9
+UK
+
+1.2
+US
+
+1.9
+Russia
+
+5.2
+China
+
+Figure 1. Casualties and soot. (a) Casualties (fatalities plus injuries) and (b) soot generated for several countries subjected to
+50 explosions of 15-kiloton yield or to varying numbers of 100-kt explosions in a Strategic Offensive Reductions Treaty war as
+described in the text. (Results for 15-kt explosions adapted from ref. 5.)
+
+total soot produced by a 2000-weapon attack would result
+from 510 detonations on China, 547 on Russia, or 661 on the
+US. A single US submarine carrying 144 warheads of 100-kt
+yield could generate about 23 Tg of soot and 119 million casualties in an attack on Chinese urban areas or almost 10 Tg
+of soot and 42 million casualties in an attack on Russian cities.
+In the late 1980s, Brian Bush, Richard Small, and colleagues assessed soot emissions in a nuclear conflict.9 Their
+work, independent of the studies with which two of us (Toon
+and Turco) were engaged, involved a counterforce attack on
+the US by the USSR. They assumed 500-kt weapons aimed at
+3030 specific targets such as US Army, Navy, and Air Force
+bases, fuel storage locations, refineries, and harbors, but not
+missile silos or launch-control facilities. Cities were not explicitly attacked in their counterforce scenario, but in the end,
+50% of the US urban areas were destroyed.
+Bush and colleagues estimated 37 Tg of smoke emissions, which contain not only light-absorbing black soot but
+also nonabsorbing organics and other compounds whose effects on climate are smaller than that of soot. Using our
+methodology for estimating fire emissions, which includes
+accounting for soot that is rained out, we calculate their result as being equivalent to about 21 Tg of soot emission. In
+our simulated countervalue attack with 1000 weapons of
+100-kt yield, we found that 28 Tg of soot was generated. Our
+burned area is somewhat larger, which accounts for the
+greater soot emission. In short, both scenarios affect similar
+urban areas and generate similar amounts of soot.
+However, Bush and colleagues assumed 3 times as many
+weapons and 15 times the total explosive yield that we assumed. Because of multiple targeting and overlap of detonation zones, their scenario has a built-in fire ignition redundancy factor of about 8.7; our model has negligible
+redundancy. In fact, their analysis of 3030 specific targets
+identified only 348 unique, non-overlapping detonation sites
+in the US. That substantial level of overkill is symptomatic of
+the enormous excesses of weapons deployed by the superpowers in the 1980s.
+
+Environmental effects of soot
+Figure 3a indicates changes in global average precipitation
+and temperature as a function of soot emission, as calculated
+www.physicstoday.org
+
+with the help of a modern version of a major US climate
+model.6,8 A relatively modest 5 Tg of soot, which could be
+generated in an exchange between India and Pakistan, would
+be sufficient to produce the lowest temperatures Earth has
+experienced in the past 1000 years—lower than during the
+post-medieval Little Ice Age or in 1816, the so-called year
+without a summer. With 75 Tg of soot, less than half of what
+we project in a hypothetical SORT war, temperatures would
+correspond to the last full Ice Age, and precipitation would
+decline by more than 25% globally. Calculations in the 1980s
+had already predicted the cooling from a 150-Tg soot injection to be quite large.3 Our new results, however, show that
+soot would rise to much higher altitudes than previously believed—indeed, to well above the tops of the models used in
+the 1980s. As a result, the time required for the soot mass to
+be reduced by a factor of e is about five years in our simulations, as opposed to about one year as assumed in the 1980s.
+That increased lifetime causes a more dramatic and longerlasting climate response.
+The temperature changes represented in figure 3a would
+have a profound effect on mid- and high-latitude agriculture.
+Precipitation changes, on the other hand, would have their
+greatest impact in the tropics.6 Even a 5-Tg soot injection
+would lead to a 40% precipitation decrease in the Asian monsoon region. South America and Africa would see a large
+diminution of rainfall from convection in the rising branch of
+the Hadley circulation, the major global meridional wind system connecting the tropics and subtropics. Changes in the
+Hadley circulation’s dynamics can, in general, affect climate
+on a global scale.
+Complementary to temperature change is radiative forcing, the change in energy flux. Figure 3b shows how nuclear
+soot changes the radiative forcing at Earth’s surface and compares its effect to those of two well-known phenomena:
+warming associated with greenhouse gases and the 1991
+Mount Pinatubo volcanic eruption, the largest in the 20th
+century. Since the Industrial Revolution, greenhouse gases
+have increased the energy flux by 2.5 W/m2. The transient
+forcing from the Pinatubo eruption peaked at about −4 W/m2
+(the minus sign means the flux decreased). One implication
+of the figure is that even a regional war between India and
+Pakistan can force the climate to a far greater degree than the
+December 2008
+
+Physics Today
+
+39
+
+Box 2. Nuclear arsenals
+
+80
+
+World total
+US
+Russia
+US deployed
+Russia deployed
+
+70
+60
+50
+40
+30
+20
+10
+0
+1945
+
+1955
+
+1965
+
+1975
+
+1985
+
+1995
+
+2005
+
+2015
+
+YEAR
+
+greenhouse gases that many fear will alter the climate in the
+foreseeable future. Of course, the durations of the forcings
+are different: The radiative forcing by nuclear-weapons-generated soot might persist for a decade, but that from greenhouse gases is expected to last for a century or more, allowing time for the climate system to respond to the forcing.
+Accordingly, while the Ice Age–like temperatures in figure 3a
+could lead to an expansion of sea ice and terrestrial snowpack, they probably would not be persistent enough to cause
+the buildup of global ice sheets.
+Agriculture responds to length of growing season, temperature during the growing season, light levels, precipitation, and other factors. The 1980s saw systematic studies of
+the agricultural changes expected from a nuclear war, but no
+such studies have been conducted using modern climate
+models. Figure 4 presents our calculations of the decrease in
+length of the growing season—the time between freezing
+temperatures—for the second summer after the release of
+soot in a nuclear attack.6,8 Even a 5-Tg soot injection reduces
+the growing season length toward the shortest average range
+observed in the midwestern US corn-growing states. Earlier
+studies concluded that for a full-scale nuclear conflict, “What
+can be said with assurance . . . is that the Earth’s human population has a much greater vulnerability to the indirect effects
+40
+
+December 2008
+
+Physics Today
+
+difficult to confirm.
+The graphs below, adapted from reference 17, give a history
+of the number of nuclear weapons worldwide and the number
+of nuclear weapons states. Israel and South Africa did not test
+weapons, so the dates they became nuclear states are not certain. South Africa, Belarus, Kazakhstan, and Ukraine have abandoned their nuclear arsenals. Although the world total of
+nuclear warheads has decreased by nearly a factor of three since
+1986, roughly 26 000 warheads still existed in 2006 and more
+than 11 000 were deployed. A large fraction of the world’s warheads are in storage, in reserve, or in the process of being dismantled. Britain and China may each have about 200 weapons
+currently, and France may have about 350. Israel’s nuclear arsenal likely exceeds 100 weapons. India and Pakistan probably
+have more than 100 weapons between them. Warhead yields
+are difficult to determine, but they likely range from kilotons to
+tens of kilotons for India and Pakistan and from 100 kilotons to
+several megatons for the other nuclear states.
+
+NUMBER OF NUCLEAR STATES
+
+NUMBER OF WARHEADS (thousands)
+
+No nation has officially declared the contents of its nuclear
+arsenal. That silence is a major impediment to controlling warheads and preventing proliferation. Nonetheless, for China,
+France, Russia, the UK, and the US, various treaties and other
+data on delivery systems have allowed Robert Norris (Natural
+Resources Defense Council) and Hans Kristensen (Federation
+of American Scientists) to report regularly in the Bulletin of the
+Atomic Scientists about numbers of warheads. For China the
+data are sparse, and recent information has lowered estimates
+of the Chinese arsenal by a factor of two. The arsenals of India,
+Israel, North Korea, Pakistan, and the other nuclear weapons
+states that developed weapons outside the 1968 Treaty on the
+Non-Proliferation of Nuclear Weapons have mainly been determined by estimating the amounts of fissionable material that
+the country might have—for example, from plutonium production in nuclear reactors—and how many weapons may
+have been assembled. Those estimates, many made by David
+Albright (Institute for Science and International Security), are
+
+12
+Belarus, Kazakhstan, Ukraine
+
+10
+
+South Africa?
+
+8
+
+Pakistan
+
+India
+Israel?
+
+6
+
+China
+France
+
+4
+
+One new state
+every 5 years
+
+UK
+
+2
+0
+1940
+
+North
+Korea
+
+USSR
+US
+
+1950
+
+1960
+
+1970
+
+1980
+
+1990
+
+2000
+
+2010
+
+YEAR
+
+of nuclear war [including damage to the world’s agricultural,
+transportation, energy, medical, political, and social infrastructure], especially mediated through impacts on food productivity and food availability, than to the direct effects of nuclear war itself.” As a result, “The indirect effects could result
+in the loss of one to several billions of humans.”4
+Because the soot associated with a nuclear exchange is injected into the upper atmosphere, the stratosphere is heated
+and stratospheric circulation is perturbed. For the 5-Tg injection associated with a regional conflict, stratospheric temperatures would remain elevated by 30 °C after four years.6–8 The
+resulting temperature and circulation anomalies would reduce ozone columns by 20% globally, by 25–45% at middle
+latitudes, and by 50–70% at northern high latitudes for perhaps as much as five years, with substantial losses persisting
+for an additional five years.7 The calculations of the 1980s generally did not consider such effects or the mechanisms that
+cause them. Rather, they focused on the direct injection of nitrogen oxides by the fireballs of large-yield weapons that are
+no longer deployed. Global-scale models have only recently
+become capable of performing the sophisticated atmospheric
+chemical calculations needed to delineate detailed ozone-depletion mechanisms. Indeed, simulations of ozone loss following a SORT conflict have not yet been conducted.
+www.physicstoday.org
+
+a
+
+90
+
+Chinese casualties
+Chinese fatalities
+US casualties
+US fatalities
+Russian casualties
+Russian fatalities
+
+350
+300
+250
+
+SOOT (teragrams)
+
+PEOPLE AFFECTED (millions)
+
+400
+
+200
+150
+100
+50
+0
+
+b
+Chinese soot
+US soot
+Russian soot
+
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+0
+
+200 400 600 800 1000 1200 1400 1600 1800 2000
+
+0
+
+NUMBER OF 100-KILOTON EXPLOSIONS
+
+200 400 600
+
+800 1000 1200 1400 1600 1800 2000
+
+NUMBER OF 100-KILOTON EXPLOSIONS
+
+Figure 2. SORT scenarios. (a) Casualties (fatalities plus injuries) and fatalities only and (b) soot generation as a function of the
+number of 100-kt explosions in China, Russia, and the US. Regions are targeted in decreasing order of population density. In
+the US, for example, the density would fall below 550 people/km2 after the 1000th target.
+
+1
+
+b
+Change due to greenhouse gases
+Change due to Pinatubo
+
+1
+
+SORT war
+
+0
+−20
+−40
+−60
+−80
+−100
+−120
+−140
+−160
+
+India–Pakistan war
+
+0
+Little Ice Age
+−1
+−2
+−3
+−4
+Ice Age
+−5
+−6
+−7
+−8
+–9
+10
+100
+1000
+SOOT (teragrams)
+SORT war
+
+a
+
+India–Pakistan war
+
+0
+−5
+−10
+−15
+−20
+−25
+−30
+−35
+−40
+−45
+−50
+
+TEMPERATURE CHANGE (°C)
+
+PERCENT PRECIPITATION
+CHANGE
+
+Scientific debate and analysis of the issues discussed in this
+article are essential not only to ascertain the science behind
+the results but also to create political action. Gorbachev, who
+together with Reagan had the courage to initiate the builddown of nuclear weapons in 1986, said in an interview at the
+2000 State of the World Forum, “Models made by Russian
+and American scientists showed that a nuclear war would result in a nuclear winter that would be extremely destructive
+to all life on Earth; the knowledge of that was a great stimulus to us, to people of honor and morality, to act in that situation.” Former vice president Al Gore noted in his 2007 Nobel
+Prize acceptance speech, “More than two decades ago, scientists calculated that nuclear war could throw so much debris and soot into the air that it would block life-giving sunlight from our atmosphere, causing a ‘nuclear winter.’ Their
+eloquent warnings here in Oslo helped galvanize the world’s
+resolve to halt the nuclear arms race.”
+Many researchers have evaluated the consequences of
+single nuclear explosions, and a few groups have considered
+the results of a small number of explosions. But our work represents the only unclassified study of the consequences of a
+regional nuclear conflict and the only one to consider the consequences of a nuclear exchange involving the SORT arsenal.
+
+Neither the US Department of Homeland Security nor any
+other governmental agency in the world currently has an unclassified program to evaluate the impact of nuclear conflict.
+Neither the US National Academy of Sciences, nor any other
+scientific body in the world, has conducted a study of the
+issue in the past 20 years.
+That said, the science community has long recognized
+the importance of nuclear winter. It was investigated by numerous organizations during the 1980s, all of which found
+the basic science to be sound. Our most recent calculations
+also support the nuclear-winter concept and show that the effects would be more long lasting and therefore worse than
+thought in the 1980s.
+Nevertheless, a misperception that the nuclear-winter
+idea has been discredited has permeated the nuclear policy
+community. That error has resulted in many misleading policy conclusions. For instance, one research group recently
+concluded that the US could successfully destroy Russia in a
+surprise first-strike nuclear attack.10 However, because of nuclear winter, such an action might be suicidal. To recall some
+specifics, an attack by the US on Russia and China with 2200
+weapons could produce 86.4 Tg of soot, enough to create Ice
+Age conditions, affect agriculture worldwide, and possibly
+lead to mass starvation.
+Lynn Eden of the Center for International Security and
+
+CHANGE IN SURFACE
+ENERGY FLUX (W/m2)
+
+Policy implications
+
+10
+100
+SOOT (teragrams)
+
+1000
+
+Figure 3. Climate change due to soot. (a) Change in global average precipitation (red) and temperature (blue) plotted as a
+function of soot emission. (b) Change in energy flux at Earth’s surface plotted as a function of soot emission. In both graphs,
+data points connected by straight lines correspond to 1, 5, 50, and 150 teragrams of soot. (Adapted from refs. 6 and 8.)
+
+www.physicstoday.org
+
+December 2008
+
+Physics Today
+
+41
+
+India–Pakistan war
+
+Iowa
+Ukraine
+Corn Belt variability
+
+1
+
+SORT war
+
+PERCENT CHANGE IN GROWING
+SEASON
+
+0
+–10
+–20
+–30
+–40
+–50
+–60
+–70
+–80
+–90
+–100
+
+10
+100
+SOOT (teragrams)
+
+1000
+
+Figure 4. Diminished growing season. The decline in the
+length of the growing season in Iowa and Ukraine for the second summer following a nuclear attack, plotted as a function
+of soot emission. The green bar indicates the natural variability
+in the growing season for the Corn Belt states of Iowa, Illinois,
+Indiana, and Ohio during the 1990s.13 Data points connected
+by straight lines correspond to 5, 50, and 150 teragrams of
+soot. (Adapted from refs. 6 and 8.)
+
+Cooperation explores the military view of nuclear damage in
+her book Whole World on Fire.11 Blast is a sure result of a nuclear explosion. And military planners know how to consider
+blast effects when they evaluate whether a nuclear force is capable of destroying a target. Fires are collateral damage that
+may not be planned or accounted for. Unfortunately, that collateral damage may be capable of killing most of Earth’s population.
+Climate and chemistry models have greatly advanced
+since the 1980s, and the ability to compute the environmental changes after a nuclear conflict has been much improved.
+Our climate and atmospheric chemistry work is based on
+standard global models from NASA Goddard’s Institute for
+Space Studies and from the US National Center for Atmospheric Research. Many scientists have used those models to
+investigate climate change and volcanic eruptions, both of
+which are relevant to considerations of the environmental effects of nuclear war. In the past two decades, researchers have
+extensively studied other bodies whose atmospheres exhibit
+behaviors corresponding to nuclear winter; included in such
+studies are the thermal structure of Titan’s ambient atmospheres and the thermal structure of Mars’s atmosphere during global dust storms. Like volcanoes, large forest fires regularly produce phenomena similar to those associated with
+the injection of soot into the upper atmosphere following a
+nuclear attack. Although plenty remains to be done, over the
+past 20 years scientists have gained a much greater understanding of natural analogues to nuclear-weapons explosions.
+Substantial uncertainties attend the analysis presented
+in this article; references 5 and 8 discuss many of them in detail. Some uncertainties may be reduced relatively easily. To
+give a few examples: Surveys of fuel loading would reduce
+the uncertainty in fuel consumption in urban firestorms. Numerical modeling of large urban fires would reduce the uncertainty in smoke plume heights. Investigations of smoke removal in pyrocumulus clouds associated with fires would
+reduce the uncertainty in how much soot is actually injected
+42
+
+December 2008
+
+Physics Today
+
+into the upper atmosphere. Particularly valuable would be
+analyses of agricultural impacts associated with the climate
+changes following regional conflicts.
+For any nuclear conflict, nuclear winter would seriously
+affect noncombatant countries.12 In a hypothetical SORT war,
+for example, we estimate that most of the world’s population,
+including that of the Southern Hemisphere, would be threatened by the indirect effects on global climate. Even a regional
+war between India and Pakistan, for instance, has the potential to dramatically damage Europe, the US, and other regions through global ozone loss and climate change. The current nuclear buildups in an increasing number of countries
+point to conflicts in the next few decades that would be more
+extreme than a war today between India and Pakistan. The
+growing number of countries with weapons also makes nuclear conflict more likely.
+The environmental threat posed by nuclear weapons demands serious attention. It should be carefully analyzed by
+governments worldwide—advised by a broad section of the
+scientific community—and widely debated by the public.
+Much of the research we have summarized is based on computations
+done by Charles Bardeen of casualties and the amount of soot generated in several hypothetical nuclear attacks. We thank our colleagues
+Georgiy Stenchikov, Luke Oman, Michael Mills, Douglas Kinnison,
+Rolando Garcia, and Eric Jensen for contributing to the recent scientific investigation of the environmental effects of nuclear conflict on
+which this paper is based. This work is supported by NSF grant ATM0730452.
+
+References
+1. P. J. Crutzen, J. W. Birks, Ambio 11, 114 (1982); R. P. Turco et al.,
+Science 222, 1283 (1983); V. V. Aleksandrov, G. L. Stenchikov, On
+the Modeling of the Climatic Consequences of the Nuclear War: Proceedings on Applied Mathematics, Computing Center, USSR Academy of Sciences, Moscow (1983).
+2. Committee on the Atmospheric Effects of Nuclear Explosions,
+The Effects on the Atmosphere of a Major Nuclear Exchange, National
+Academy Press, Washington, DC (1985), available online at
+http://www.nap.edu/catalog.php?record_id=540.
+3. A. B. Pittock et al., Environmental Consequences of Nuclear War: Volume I: Physical and Atmospheric Effects, 2nd ed., Wiley, New York
+(1989).
+4. M. A. Harwell, T. C. Hutchinson, Environmental Consequences of
+Nuclear War: Volume II: Ecological and Agricultural Effects, 2nd ed.,
+Wiley, New York (1989).
+5. O. B. Toon et al., Atmos. Chem. Phys. 7, 1973 (2007).
+6. A. Robock et al., Atmos. Chem. Phys. 7, 2003 (2007).
+7. M. J. Mills et al., Proc. Natl. Acad. Sci. USA 105, 5307 (2008).
+8. A. Robock, L. Oman, G. L. Stenchikov, J. Geophys. Res. 112, D13107
+(2007); doi:10.1029/2006JD008235.
+9. B. W. Bush et al., Nuclear Winter Source-Term Studies: Smoke Produced by a Nuclear Attack on the United States, vol. 6, rep. no. DNATR-86-220-V6, Defense Nuclear Agency, Alexandria, VA (1991); R.
+D. Small, Ambio 18, 377 (1989).
+10. K. A. Lieber, D. Press, Int. Secur. 30(4), 7 (2006).
+11. L. Eden, Whole World on Fire: Organizations, Knowledge, and
+Nuclear Weapons Devastation, Cornell U. Press, Ithaca, NY (2003).
+12. C. Sagan, Foreign Aff. 62, 257 (1983/84).
+13. P. Miller, M. Mitchell, J. Lopez, Phys. Geog. 26, 85 (2005).
+14. S. Glasstone, P. J. Dolan, The Effects of Nuclear Weapons, 3rd ed.,
+US Department of Defense and the Energy Research and Development Administration, Washington, DC (1977), online at
+http://www.princeton.edu/~globsec/publications/effects/effects8.
+pdf.
+15. R. P. Turco et al., Science 247, 166 (1990).
+16. T. A. Postol, in The Medical Implications of Nuclear War, F.
+Solomon, R. Q. Marston, eds., National Academy Press, Washington, DC (1986), p. 15.
+17. A. Robock et al., EOS Trans. Am. Geophys. Union 88, 228 (2007). 䊏
+
+www.physicstoday.org
+
+

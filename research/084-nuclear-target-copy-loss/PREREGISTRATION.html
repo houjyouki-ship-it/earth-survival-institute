@@ -1,0 +1,21 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究084 事前登録（作成 2026-10-21T18:42:40Z、核の標的の資料の中身を読む前・sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="084-2026-10-21t184240zsimpy">研究084 事前登録（作成 2026-10-21T18:42:40Z、核の標的の資料の中身を読む前・sim.py の前）</h1>
+<blockquote>
+<p>注：TC/V0 も A も生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-168">問い（open_problems 168）</h2>
+<p>重い崩壊のうち核戦争の地理（070 の xia150・xia47）の標本で、写しを置いた都市が標的になって写しが丸ごと失われると、075 の重い崩壊の TC/V0 と置き方の順位はどう変わるか。</p>
+<h2 id="_1">方法（登録）</h2>
+<ul>
+<li>076 と同じく 075 の sim.py を exec して 075 を差0で再現（assert）。</li>
+<li>標的：Xia 2022（Nature Food）とそれが引く公開の研究が書く標的の置き方（国と兵器の数、都市の人口順など）をそのまま使い、Natural Earth の点（074）で、標的の国の点を pop_max の順に兵器数だけ取る（同じ点に重ねない）。資料に国ごとの数がなければ兵器数を標的の国の人口で配る【推測】。</li>
+<li>壊れる半径 R_d：主 10 km、版 5・25 km【推測】。標的の点から R_d 以内の写しは、その地理の標本で 0 部と数える（q を 1）。xia150 の標本には xia150 の標的、xia47 には xia47 の標的、pop は壊さない。</li>
+<li>置き方は 075 の10（mesh35 と 9 つ）＋mesh200、α=0（主）と α=0.5（076）。</li>
+</ul>
+<h2 id="_2">仮説（すべて計算の前に登録）</h2>
+<ul>
+<li>H96a（確認的・資料を読む前）：mesh35 の写しのうち xia150 の標的から 10 km 以内にあるのは 3割以上。</li>
+<li>H96b（予測）：xia47 の標的から 10 km 以内の mesh35 の写しは 15% 以下。</li>
+<li>H96c（予測）：重い崩壊 α=0 の mesh35 の TC/V0 は 075 の 0.680 から 0.01 以上下がる。</li>
+<li>H96d（予測）：10 の置き方の TC の順位の Kendall τ（075 と本回）は 0.6 以上で、pop@pt（大都市35）の失う割合は mesh35 より大きい。</li>
+<li>H96e（予測）：35→200 の重い崩壊の TC の上げ幅は 075 の +0.049 より大きくなる。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
