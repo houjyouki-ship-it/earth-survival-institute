@@ -1,0 +1,102 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究075：到達の指標 A と重い崩壊の TC/V0 の対応、部数 N を含めて - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="075-a-tcv0-n">研究075：到達の指標 A と重い崩壊の TC/V0 の対応、部数 N を含めて</h1>
+<blockquote>
+<p>注：TC/V0 も A も生存確率・復興確率ではない（TC/V0 は 060〜071 の模型の中の価値の比、A は届く範囲に生き残った写しがある生存者の重みの割合）。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="open_problems-191194">問い（open_problems 191＋194）</h2>
+<p>072〜074 は届くかだけを数える A で置き方と部数を比べた。読める確率・群の数・時間を含む 070/071 の重い崩壊の TC/V0 で、(1) 置き方の順位は A と同じか、(2) 部数 35→200 で TC と費用あたりはどう動くか。</p>
+<h2 id="_1">方法</h2>
+<ul>
+<li>070 の sim.py を「版」の前まで exec し 070 の主（重い崩壊 0.81913）を差 0 で再現（assert）。074 の sim.py を「仮説」の前まで exec し、074 の versions と mesh_curve を差 0 で再現（assert）。</li>
+<li>重い崩壊の標本で、070 の「群が届く単位の数 D」を「群の点から届く距離 r 以内の写しの数 n」に置換。群の数 G・地理（xia150・xia47・pop）は 070 の乱数、群の点は 074 の点の重みから引く（seed 20261075）。r の主は 073 の kmov（Binford 261群）から標本ごとに1つ、版は群ごと・×2・071 の19件。写しは1か所1部（mu=1）、軽い崩壊は S_ind(T, N, N)。</li>
+<li>費用あたり：070 と同じ式 ΔTC/TAB×C_T/(C_P(N)+C_pr(N)+C_map(N))、primer と地図の印刷費は部数に比例（主）。版として 070 と同じ 100部分の固定費。</li>
+<li>資料：本回は新しい外部資料を開いていない。使った資料は 069〜074 で開いて確認したもの（Natural Earth の点、Binford/CRAN binford、071 の19件、Xia 2022 S5 ほか）で、各研究の sources/ にある。</li>
+<li>事前登録：PREREGISTRATION.md（2026-10-21T00:40Z、sim.py の作成の前）。</li>
+</ul>
+<h2 id="a_ordu3-tcv0">結果（主、A_Ord/U3、重い崩壊の TC/V0）</h2>
+<table>
+<thead>
+<tr>
+<th>置き方（N=35）</th>
+<th>074 の A</th>
+<th>TC/V0 重い崩壊</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mesh35</td>
+<td>0.300</td>
+<td><strong>0.680</strong></td>
+</tr>
+<tr>
+<td>pop@pt</td>
+<td>0.161</td>
+<td>0.678</td>
+</tr>
+<tr>
+<td>pop@cty</td>
+<td>0.120</td>
+<td>0.669</td>
+</tr>
+<tr>
+<td>surv150@cty</td>
+<td>0.132</td>
+<td>0.666</td>
+</tr>
+<tr>
+<td>per_subregion@cty</td>
+<td>0.128</td>
+<td>0.659</td>
+</tr>
+<tr>
+<td>cover3000x@cty</td>
+<td>0.071</td>
+<td>0.658</td>
+</tr>
+<tr>
+<td>cover1500@cty</td>
+<td>0.123</td>
+<td>0.656</td>
+</tr>
+<tr>
+<td>per_subregion@pt</td>
+<td>0.117</td>
+<td>0.655</td>
+</tr>
+<tr>
+<td>cover750@cty</td>
+<td>0.058</td>
+<td>0.653</td>
+</tr>
+<tr>
+<td>bigplus@cty</td>
+<td>0.102</td>
+<td>0.652</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>順位の一致：Kendall τ = <strong>0.689</strong>（全体 0.689、XPT 0.644）。最良はどちらも mesh35。9つ（mesh 以外）の TC の幅は <strong>0.026</strong> と小さい。</li>
+<li>事後の参照（登録外）：どの群も写しに届かない床は <strong>0.638</strong>、35部すべてに全群が届く天井は 0.854。mesh35 は床と天井の差の 19%、per_subregion@cty は 10%、mesh200 は 42% を埋める。070 の主 0.819 との差の大半は届く範囲（小地域・大陸 → 狩猟採集民の 145 km）による。</li>
+<li>部数（mesh）：N=20 0.665、35 0.680、50 0.688、100 0.706、150 0.720、200 <strong>0.729</strong>、300 0.743（全体 0.865→0.894）。群の 63%（35部）→29%（200部）が写しに届かない。</li>
+<li>版：群ごとの r で 35部 0.686／200部 0.739、kmov×2 で 0.698／0.755、071 の19件で 0.756／0.826。100部を20か所に5部ずつ（070 の形）0.709 は 100か所に1部ずつ 0.706 とほぼ同じ。</li>
+<li>費用あたり（全体、中央値、比例の費用）：20部 31.8、35部 27.6、50部 23.9、100部 16.9、200部 <strong>11.2</strong>、300部 8.4（200/35 = <strong>0.40</strong>）。重い崩壊だけでは 35部が最大 28.3、200部 17.8（0.63）。070 の固定費の版では部数とともに上がる（35部 14.6→300部 20.1）ので、結論は費用の置き方しだい。070 の主（地域の届く範囲）の重い崩壊の費用あたり 58.0 に対し、狩猟採集民の届く距離では 35部で 28.3 と約半分。</li>
+</ul>
+<h2 id="_2">仮説の判定（すべて計算前に登録した予測）</h2>
+<ul>
+<li>H87a（τ ≥ 0.7）：<strong>棄却</strong>（0.689）。食い違いは cover3000x（A は下から2番目、TC は中位）と pop@cty・surv150（A は中位、TC は上位）。TC の標本は 070 の3地理の平均で避難所の地理（refuge）と最悪値を含まないため、A の minimax regret の最良 per_subregion は TC の平均では5位。</li>
+<li>H87b（200部の費用あたりが 35部の 0.5倍未満）：<strong>支持</strong>（0.40、点推定 0.4）。</li>
+<li>H87c（35→200 で重い崩壊の TC +0.03 以上）：<strong>支持</strong>（+0.049）。</li>
+<li>H87d（mesh35 が 070 の主より 0.05 以上低い）：<strong>支持</strong>（0.680、差 0.139）。</li>
+<li>費用あたりが最大の N（記述、支持に数えない）：全体は走査の端の 20部、重い崩壊は 35部。</li>
+</ul>
+<h2 id="_3">批判的な検討</h2>
+<ul>
+<li>TC の差の大部分は床（写しに届かなくても残る価値 0.638）に埋もれ、置き方の差 0.026 は 070 の版の幅（0.027）と同じ程度。置き方の順位を TC で決めるのは無理で、TC の上では「部数と届く距離」の方がはるかに効く。</li>
+<li>費用あたりは平均の比で、限界の費用あたり（35→200 の追加分）は出していない。比例の費用では平均は単調に下がるので、限界はさらに低い。</li>
+<li>群の点を生存者の重みから独立に引き、写しの近くに人が集まる効果（写しを持つ町に生き残りが寄る）は入れていない。入れると TC は上がる（推測）。</li>
+<li>mesh は kmov の届く距離に合わせて作った置き方で、kmov で評価すると有利になる（074 と同じ注意）。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>金庫・冊子の運営者は、崩壊後の移動が狩猟採集民の規模になる場合、35部の置き方の工夫（TC で ±0.013）に時間をかけず、部数を増やすか（200部で +0.049）、写しを生き残りが集まりそうな場所の近くに寄せる方を検討する。ただし部数の費用が比例で増えるなら費用あたりは 200部で 35部の 0.4倍になるので、部数は費用の構造（印刷費の比例分と固定分）を確かめてから決める。本研究所は 074 の「35部→200部で A は約4倍」を「TC では +0.05、床と天井の差の 19%→42%」に改める。</p>
+<h2 id="_5">成果物</h2>
+<p>sim.py（約400秒、seed 20261075）、results.json、stdout.txt、fig_rank_and_N.png、fig_versions.png、PREREGISTRATION.md。</p><footer><hr><small>自動生成</small></footer></body></html>

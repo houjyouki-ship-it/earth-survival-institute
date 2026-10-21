@@ -1,45 +1,147 @@
-070 loaded 148 s
+070 loaded 145 s
 b3_0 done 7 s
 b3_300 done 11 s
 b10_0 done 14 s
 b10_300 done 17 s
 chk1_0 done 26 s
-main_kmov per_subregion@cty per_subregion@cty 67 s
-kmov_sqrtpop per_subregion@pt per_subregion@pt 77 s
-kmov_x2 per_subregion@pt per_subregion@pt 87 s
-ref_071 per_subregion@pt cover3000x@cty 88 s
-mesh 35 0.3002 91 s
-mesh 50 0.3359 93 s
-mesh 100 0.4191 94 s
-mesh 150 0.4718 95 s
-mesh 200 0.5097 97 s
-mesh 300 0.5654 98 s
-074 loaded 247 s
+main_kmov per_subregion@cty per_subregion@cty 68 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 78 s
+kmov_x2 per_subregion@pt per_subregion@pt 88 s
+ref_071 per_subregion@pt cover3000x@cty 90 s
+mesh 35 0.3002 93 s
+mesh 50 0.3359 95 s
+mesh 100 0.4191 96 s
+mesh 150 0.4718 97 s
+mesh 200 0.5097 98 s
+mesh 300 0.5654 100 s
+074 loaded 246 s
 checks ok 251 s
-cover1500@cty 0.6562 0.8623 256 s
+cover1500@cty 0.6562 0.8623 255 s
 cover750@cty 0.653 0.8611 260 s
 cover3000x@cty 0.6579 0.8629 264 s
-per_subregion@cty 0.6585 0.8631 268 s
-pop@cty 0.6692 0.867 272 s
-surv150@cty 0.6662 0.8659 277 s
-bigplus@cty 0.6525 0.8609 281 s
-per_subregion@pt 0.6546 0.8617 285 s
-pop@pt 0.6783 0.8703 290 s
-mesh35 0.6801 0.8709 294 s
-mesh20 0.6646 0.8648 298 s
-mesh50 0.6879 0.8739 302 s
-mesh100 0.7058 0.8803 307 s
-mesh150 0.7196 0.8853 311 s
-mesh200 0.7289 0.8887 315 s
-mesh300 0.7426 0.8937 320 s
-mesh35_per_group 0.6863 0.8732 324 s
-mesh35_x2 0.6982 0.8775 328 s
-mesh35_ref_071 0.7558 0.8984 332 s
-mesh35_fixedlight 0.6824 0.8718 336 s
-mesh100_per_group 0.7125 0.8828 341 s
-mesh100_x2 0.7308 0.8894 345 s
-mesh100_ref_071 0.802 0.9152 349 s
-mesh100_fixedlight 0.7058 0.8803 353 s
-mesh200_per_group 0.7386 0.8922 358 s
-mesh200_x2 0.7549 0.8981 362 s
-mesh200_ref_071 0.8263 0.924 367 s
+per_subregion@cty 0.6585 0.8631 269 s
+pop@cty 0.6692 0.867 273 s
+surv150@cty 0.6662 0.8659 278 s
+bigplus@cty 0.6525 0.8609 283 s
+per_subregion@pt 0.6546 0.8617 287 s
+pop@pt 0.6783 0.8703 292 s
+mesh35 0.6801 0.8709 296 s
+mesh20 0.6646 0.8648 301 s
+mesh50 0.6879 0.8739 305 s
+mesh100 0.7058 0.8803 310 s
+mesh150 0.7196 0.8853 314 s
+mesh200 0.7289 0.8887 319 s
+mesh300 0.7426 0.8937 323 s
+mesh35_per_group 0.6863 0.8732 328 s
+mesh35_x2 0.6982 0.8775 333 s
+mesh35_ref_071 0.7558 0.8984 337 s
+mesh35_fixedlight 0.6824 0.8718 342 s
+mesh100_per_group 0.7125 0.8828 346 s
+mesh100_x2 0.7308 0.8894 351 s
+mesh100_ref_071 0.802 0.9152 356 s
+mesh100_fixedlight 0.7058 0.8803 360 s
+mesh200_per_group 0.7386 0.8922 365 s
+mesh200_x2 0.7549 0.8981 369 s
+mesh200_ref_071 0.8263 0.924 374 s
+mesh200_fixedlight 0.7273 0.8881 378 s
+per_subregion@cty_ref_071 0.7232 0.8866 383 s
+pop@pt_ref_071 0.7526 0.8972 387 s
+mesh20_mu5 0.709 0.8815 392 s
+posthoc_none 0.6379
+posthoc_global35 0.8543
+{
+ "check_070_main": {
+  "max_abs_diff": 0.0,
+  "reproduced": true
+ },
+ "check_074": {
+  "max_abs_diff_summary": 0.0,
+  "max_abs_diff_mesh": 0.0
+ },
+ "rank": {
+  "A_074": {
+   "cover1500@cty": 0.12266027372726605,
+   "cover750@cty": 0.05846438874717776,
+   "cover3000x@cty": 0.07083448575241252,
+   "per_subregion@cty": 0.12767975675903612,
+   "pop@cty": 0.12023945574492362,
+   "surv150@cty": 0.1317751355072368,
+   "bigplus@cty": 0.102016318503035,
+   "per_subregion@pt": 0.11658541519122852,
+   "pop@pt": 0.16138562372175644,
+   "mesh35": 0.30016992099659845
+  },
+  "TC_heavy": {
+   "cover1500@cty": 0.6561609345960494,
+   "cover750@cty": 0.653047444065294,
+   "cover3000x@cty": 0.6579115656240094,
+   "per_subregion@cty": 0.6585158123646948,
+   "pop@cty": 0.6691954368635538,
+   "surv150@cty": 0.6661576389633777,
+   "bigplus@cty": 0.6524643630883741,
+   "per_subregion@pt": 0.6545682762946734,
+   "pop@pt": 0.6782981355388494,
+   "mesh35": 0.6800884181457512
+  },
+  "kendall_tau_heavy": 0.6888888888888889,
+  "kendall_tau_total": 0.6888888888888889,
+  "kendall_tau_heavy_XPT": 0.6444444444444445,
+  "best_by_A": "mesh35",
+  "best_by_TC": "mesh35"
+ },
+ "CE_summary": {
+  "total_median_by_N": {
+   "20": 31.819297985208838,
+   "35": 27.57206641737651,
+   "50": 23.8910172108769,
+   "100": 16.855926768547295,
+   "150": 13.38036370337968,
+   "200": 11.15134113544751,
+   "300": 8.443026203789856
+  },
+  "heavy_median_by_N": {
+   "20": 24.776940166626986,
+   "35": 28.33178317073377,
+   "50": 27.217400240484537,
+   "100": 22.95330417185404,
+   "150": 20.160864948696883,
+   "200": 17.783184714177246,
+   "300": 14.446392038661322
+  },
+  "argmax_total": 20,
+  "argmax_heavy": 35,
+  "ratio_200_35_total": 0.404443430776726,
+  "ratio_200_35_heavy": 0.6276761546215333
+ },
+ "hypotheses": {
+  "H87a": {
+   "class": "予測",
+   "value": 0.6888888888888889,
+   "rule": "Kendall tau(A_074, TC heavy) over 10 plans >= 0.7",
+   "supported": false
+  },
+  "H87b": {
+   "class": "予測",
+   "value": 0.404443430776726,
+   "rule": "CE(mesh200)/CE(mesh35), total median, scaled cost < 0.5",
+   "supported": true
+  },
+  "H87c": {
+   "class": "予測",
+   "value": 0.04881247726426996,
+   "rule": "heavy TC mesh200 - mesh35 >= 0.03",
+   "supported": true
+  },
+  "H87d": {
+   "class": "予測",
+   "value": [
+    0.6800884181457512,
+    0.8191292444582489,
+    0.1390408263124977
+   ],
+   "rule": "070 main heavy - mesh35 heavy >= 0.05",
+   "supported": true
+  }
+ }
+}
+runtime 401.3

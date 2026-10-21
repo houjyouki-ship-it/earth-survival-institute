@@ -68,6 +68,11 @@ for n in (35, 100, 200):
     run(f"mesh{n}_fixedlight", MESH[:n], light=(100, 20))
 run("per_subregion@cty_ref_071", PP["per_subregion@cty"], reach="ref_071"); run("pop@pt_ref_071", PP["pop@pt"], reach="ref_071")
 run("mesh20_mu5", MESH[:20], mu=5)   # 070 と同じ 100部を 20か所に5部ずつ
+# 事後の参照（事前登録の外）：どの群も写しに届かない床と、35部すべてに全群が届く天井
+for nm, nv in (("posthoc_none", 0), ("posthoc_global35", 35)):
+    Dx = np.where(valid, nv, -1); RT[nm], DV[nm] = ratio_all(ver(rho=rho75(Dx, 1, 35, 35))); print(nm, round(RT[nm][M1]["heavy"], 4), flush=True)
+fl, ce_ = RT["posthoc_none"][M1]["heavy"], RT["posthoc_global35"][M1]["heavy"]
+R["posthoc_floor_ceiling"] = {"floor_heavy": fl, "ceiling35_heavy": ce_, "share_of_gap_closed": {p: (RT[p][M1]["heavy"] - fl) / (ce_ - fl) for p in PLP + [f"mesh{n}" for n in NS if n != 35]}}
 R["ratio_to_V0"] = RT; R["070_main"] = r70["ratio_to_V0"]["main"]
 # ---------- 順位の対応 ----------
 A74 = {p: r74["versions"]["main_kmov"]["summary"][p]["mean_A"] for p in PP}; A74["mesh35"] = r74["mesh_curve"]["35"]["A_mean12"]
@@ -126,7 +131,7 @@ axs[1].axhline(h70, color="k", ls=":", lw=.8, label="070 main heavy (region mode
 ax2 = axs[1].twinx(); ax2.plot(NS, [ce[n] for n in NS], "^--", color="C3", label="cost-effectiveness (total, median)"); ax2.set_ylabel("cost-effectiveness (TAB=1 scale)")
 axs[1].set_xscale("log"); axs[1].set_xlabel("copies N (mesh)"); axs[1].legend(fontsize=7, loc="lower right"); ax2.legend(fontsize=7, loc="upper right")
 fig.tight_layout(); fig.savefig(os.path.join(HERE, "fig_rank_and_N.png"), dpi=120); plt.close()
-fig, ax = plt.subplots(figsize=(8, 4.5)); nm = [k for k in RT if k != "chk070"]; yy = np.arange(len(nm))
+fig, ax = plt.subplots(figsize=(8, 4.5)); nm = [k for k in RT if k != "chk070" and not k.startswith("posthoc")]; yy = np.arange(len(nm))
 ax.barh(yy, [h(k) for k in nm]); ax.set_yticks(yy); ax.set_yticklabels(nm, fontsize=6); ax.axvline(h70, color="k", ls=":"); ax.set_xlabel("heavy-collapse TC / V0 (not survival probability)")
 fig.tight_layout(); fig.savefig(os.path.join(HERE, "fig_versions.png"), dpi=120); plt.close()
 R["runtime_s"] = round(time.time() - T0, 1)
