@@ -1,0 +1,137 @@
+070 loaded 141 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 26 s
+main_kmov per_subregion@cty per_subregion@cty 65 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 74 s
+kmov_x2 per_subregion@pt per_subregion@pt 84 s
+ref_071 per_subregion@pt cover3000x@cty 85 s
+mesh 35 0.3002 89 s
+mesh 50 0.3359 91 s
+mesh 100 0.4191 92 s
+mesh 150 0.4718 93 s
+mesh 200 0.5097 95 s
+mesh 300 0.5654 96 s
+074 loaded 238 s
+checks ok 242 s
+075 loaded 242 s
+chk_mesh35 0.6801 0.8709 247 s
+chk_mesh200 0.7289 0.8887 251 s
+chk_per_subregion@cty 0.6585 0.8631 256 s
+check ok {'mesh35': 0.0, 'mesh200': 0.0, 'per_subregion@cty': 0.0} 256 s
+mesh35_a0.0 0.6801 0.8709 260 s
+mesh100_a0.0 0.7058 0.8803 264 s
+mesh200_a0.0 0.7289 0.8887 268 s
+mesh35_a0.1 0.6847 0.8726 273 s
+mesh100_a0.1 0.7094 0.8816 277 s
+mesh200_a0.1 0.7306 0.8893 281 s
+mesh35_a0.25 0.6923 0.8754 286 s
+mesh100_a0.25 0.7121 0.8826 290 s
+mesh200_a0.25 0.7317 0.8897 294 s
+mesh35_a0.5 0.7018 0.8788 299 s
+mesh100_a0.5 0.7154 0.8838 303 s
+mesh200_a0.5 0.735 0.8909 307 s
+mesh35_a1.0 0.7193 0.8852 312 s
+mesh100_a1.0 0.728 0.8884 316 s
+mesh200_a1.0 0.7419 0.8934 320 s
+cover1500@cty_a0.5 0.6877 0.8737 325 s
+cover750@cty_a0.5 0.6827 0.8719 329 s
+cover3000x@cty_a0.5 0.7072 0.8808 333 s
+per_subregion@cty_a0.5 0.6864 0.8732 337 s
+pop@cty_a0.5 0.6914 0.875 341 s
+surv150@cty_a0.5 0.6934 0.8758 346 s
+bigplus@cty_a0.5 0.6844 0.8725 350 s
+per_subregion@pt_a0.5 0.6801 0.8709 354 s
+pop@pt_a0.5 0.7007 0.8784 359 s
+mesh35_a0.5_Lx2 0.6974 0.8772 363 s
+mesh200_a0.5_Lx2 0.7345 0.8907 368 s
+mesh35_a0.5_Lhalf 0.7038 0.8795 372 s
+mesh200_a0.5_Lhalf 0.7364 0.8914 376 s
+{
+ "check_078": {
+  "CE_max_rel_diff": 0.0,
+  "reproduced": true
+ },
+ "acceptance": {
+  "n": 4,
+  "a_i": [
+   0.44545,
+   0.31,
+   0.28278,
+   0.18
+  ],
+  "median": 0.29639,
+  "min": 0.18,
+  "max": 0.44545,
+  "pooled_counted": 0.38478403858802895
+ },
+ "legal_deposit": {
+  "n": 6,
+  "domestic_only": 6,
+  "share_domestic_only": 1.0
+ },
+ "main_uses_data": true,
+ "per_P_quantiles": {
+  "main": [
+   20.57486077481229,
+   41.77710389469104,
+   86.13136649169809
+  ],
+  "median_fixed_desc": [
+   24.078715609488306,
+   42.82632170992825,
+   73.47870851245294
+  ],
+  "foreign_x0.5_desc": [
+   41.14972154962458,
+   83.55420778938208,
+   172.26273298339618
+  ],
+  "old_078_main": [
+   9.717607555201315,
+   18.492868838170835,
+   34.368666881933564
+  ]
+ },
+ "per_P_median_ratio_main_vs_078": 2.2590926405350147,
+ "share_main_samples_below_heavy_cross": 0.4593,
+ "hypotheses": {
+  "H91a": {
+   "class": "確認的",
+   "value": {
+    "n": 4,
+    "median": 0.29639
+   },
+   "rule": "n>=3 and median a_i < 0.5",
+   "supported": true
+  },
+  "H91b": {
+   "class": "確認的",
+   "value": 1.0,
+   "rule": "share of legal-deposit regimes limited to domestic publications > 0.5",
+   "supported": true
+  },
+  "H91c": {
+   "class": "予測",
+   "value": 1.0031588818390569,
+   "rule": "heavy, alpha=0.5: marginal/average (medians) > 1",
+   "supported": true
+  },
+  "H91d": {
+   "class": "予測",
+   "value": 0.37556004423158507,
+   "rule": "total, alpha=0.5: marginal/average (medians) < 1",
+   "supported": true
+  }
+ }
+}
+p_cross {'heavy_a0.5': 0.30404780976735424, 'heavy_a0.0': 0.12117548781422623, 'total_a0.5': 0.8812798972262695, 'total_a0.0': 0.5137844648945354}
+main {'total': {'a0.0': (52.44, 32.72, 0.624, 0.228), 'a0.5': (59.28, 22.26, 0.376, 0.061)}, 'heavy': {'a0.0': (53.88, 115.33, 2.14, 0.881), 'a0.5': (78.09, 78.34, 1.003, 0.484)}}
+median_fixed_desc {'total': {'a0.0': (52.54, 31.94, 0.608, 0.205), 'a0.5': (59.39, 21.74, 0.366, 0.044)}, 'heavy': {'a0.0': (53.99, 112.6, 2.086, 0.892), 'a0.5': (78.23, 76.48, 0.978, 0.467)}}
+foreign_x0.5_desc {'total': {'a0.0': (46.82, 16.36, 0.349, 0.034), 'a0.5': (52.93, 11.13, 0.21, 0.001)}, 'heavy': {'a0.0': (48.11, 57.66, 1.199, 0.589), 'a0.5': (69.72, 39.17, 0.562, 0.16)}}
+old_078_main {'total': {'a0.0': (56.43, 74.54, 1.321, 0.642), 'a0.5': (63.79, 50.73, 0.795, 0.362)}, 'heavy': {'a0.0': (57.98, 262.76, 4.532, 0.998), 'a0.5': (84.02, 178.48, 2.124, 0.87)}}
+legal_deposit_2_desc {'total': {'a0.0': (52.73, 32.72, 0.62, 0.227), 'a0.5': (59.61, 22.26, 0.373, 0.061)}, 'heavy': {'a0.0': (54.19, 115.33, 2.128, 0.878), 'a0.5': (78.52, 78.34, 0.998, 0.481)}}
+legal_deposit_6_desc {'total': {'a0.0': (53.33, 32.72, 0.613, 0.224), 'a0.5': (60.29, 22.26, 0.369, 0.06)}, 'heavy': {'a0.0': (54.8, 115.33, 2.104, 0.87), 'a0.5': (79.42, 78.34, 0.986, 0.476)}}
+runtime 377.9

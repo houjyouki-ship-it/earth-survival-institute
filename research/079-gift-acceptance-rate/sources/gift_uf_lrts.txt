@@ -1,0 +1,478 @@
+ 276                                                                                                                 LRTS 49(4)
+
+
+
+
+                                              Notes on Operations
+                                               Online Book Selling at the
+                                               Smathers Library Bookstore
+                                               Steven B. Carrico
+
+                                               In fall 2003, the Smathers Library Bookstore instituted a one-year pilot project
+                                               selling surplus gift books online. This paper describes how the bookstore staff
+                                               researched, prepared, and embarked on online book selling. It illustrates how
+                                               the bookstore staff selected the online book selling agent, Alibris, as the Web site
+                                               utilized for their online selling, and provides details in the methodology of listing
+                                               books for sale in the used book market. The paper presents the responses to ques-
+                                               tions asked of staff at two other libraries selling books online, and concludes with
+                                               a summary of the online sales project.
+
+
+
+                                               T    he University of Florida (UF)
+                                                    Smathers Library’s Gifts and
+                                               Exchange unit is the central receiv-
+                                                                                           with appropriate information to assist
+                                                                                           the gift review process. Collection
+                                                                                           managers then perform the review of
+                                               ing area for incoming gift materi-          the searched gift materials and select
+                                               als donated to the main and branch          suitable new titles or replacements for
+                                               libraries. The Smathers Library has         missing library holdings.
+                                               gift acceptance policies and proce-              As is the case with numerous
+                                               dures that are consistent with other        libraries—whether large or small,
+                                               large academic libraries, and benefit       academic, public or private—a large
+                                               from thousands of donated books,            percentage of donated gift materi-
+                                               serials, and other items each year.1        als received at UF is not added to
+                                               The library views gift donations as an      library collections. Of the 12,619
+                                               excellent method of bolstering collec-      books donated to the Smathers
+                                               tions by adding items not previously        Library in fiscal year 2003–2004, 69
+                                               held, filling gaps in periodical hold-      percent went unselected for library
+                                               ings, or replacing missing and dam-         collections, leaving 8,727 surplus gift
+                                               aged monograph titles. In fiscal year       books for sale stock. Consequently,
+                                               2003–2004, the Gifts and Exchange           unselected gifts become problematic,
+                                               unit received 15,678 gift items.            and libraries dread the backlash of bad
+                                                    To better serve library donors         publicity, angry donors, and misunder-
+                                               and to improve efficiency, the Gifts        standing that can result from disposing
+                                               and Exchange staff routinely send a         of surplus gift books. To counter pos-
+                                               library van to collect material gifts       sible negative reactions, the Smathers
+                                               from donors on campus and in the            Library developed procedures and a
+                                               local community. Though offering            policy stating that all gift materials
+                                               van service requires staff time and         accepted by the library become the
+                                               small demands on library facilities,        property of the library; after collection
+                                               the library realizes that collecting        managers review and select appro-
+                                               gift materials at a donor’s office or       priate items from the donation, the
+                                               residence improves goodwill and             library can sell or discard surplus gifts
+                                               is an ideal way to increase dona-           as needed.2 The Gifts and Exchange
+                                               tions to the library. After receipt         staff are forthright with prospective
+                                               of the donations, student assistants        donors, bringing this policy to their
+Steve B. Carrico (stecarr@uflib.ufl.edu) is
+Gifts and Exchange Librarian, University       search the online catalog for each          attention before accepting any gifts.
+of Florida Smathers Library, Gainesville.      book and serial title, filling out slips    The staff also requests donors to read
+ 49(4) LRTS                                           Online Book Selling at the Smathers Library Bookstore                 277
+
+
+
+
+and sign a receipt of donation that         bookstore staff ultimately concluded         articles dealing with libraries selling
+includes information with respect to        that it was in the library’s best interest   materials online are harder to find.5
+gift disposition.3 With a clear and hon-    to undertake online book selling in an       Although selling used books on the
+est approach, most donors seem quite        effort to truly maximize revenue from        Web has been occurring for several
+accepting of the library gift policy.       the used book market.                        years, libraries using the Internet as
+     While granting the library the              Regardless of the plan to begin         a means to dispose of and profit from
+option of disposing of unneeded gifts,      online selling, the staff did not want       selling withdrawn or surplus gifts is a
+this policy allows the library to deal      to detract from the existing success         relatively recent development.
+with unselected gift materials imme-        of the bookstore. The store not only               Articles focusing on public librar-
+diately after collection management         realizes a tidy profit, its location on      ies using the online auction site eBay to
+review, ultimately reducing storage.        the first floor of the Smathers Library      sell materials in lieu of traditional book
+Additionally, the policy entitles the       is an excellent promotional tool for the     sales include Schenker’s “Book Sale
+library to sell surplus gifts. To better    library development office. For these        Adds Internet.”6 Baxter’s “Your Discards
+maximize the profit from the sale of the    reasons, the staff aimed to maintain         May Be Somebody’s Treasure,” serves
+materials, the Smathers Library elected     sales in the bookstore by not remov-         as an ideal first reading venture into
+to open a bookstore to generate rev-        ing all the best stock for online selling.   the online book business.7 Baxter, an
+enue for the book acquisition fund.4        One important objective then was to          acquisitions librarian, reported how her
+                                            endeavor to strike a balance between         public library makes use of eBay to sell
+                                            selling the finer books online and           surplus gift and withdrawn books. She
+  Proposal for Online Selling               selling to bookstore patrons and book        explained how online auctions work and
+                                            dealers. Because online selling would        how to register with eBay as a seller,
+The Gifts and Exchange unit has the         require administrative approval, the         then offered excellent tips and advice
+responsibility of managing the book-        staff researched library literature and      on pricing and book descriptions for the
+store. From August 1999 through July        sent a small questionnaire to repre-         items placed on sale.
+2004, the store grossed $42,947.27, or      sentatives in other libraries with online          From the perspective of a pub-
+approximately $8,000 per fiscal year.       selling experience. Based on the infor-      lic library board member and library
+Based on this yearly gross income,          mation gathered, the staff planned to        friend, Hill wrote “Selling Withdrawn
+the library considers the bookstore a       develop and submit a proposal for a          and Gift Books on eBay: Does It
+success. Nevertheless, the bookstore        one-year pilot project. A one-year win-      Make Sense?”8 This article reported
+staff themselves noted that too often       dow would provide the time necessary         how the Friends of Los Gatos Public
+finer-quality or first-edition books        to monitor any fluctuations in online        Library use eBay to auction donated
+were selling at the standard price of       sales that might arise from academic         materials. Hill described the proce-
+three dollars. At other times, the staff    semesters and holiday schedules. After       dures the volunteers use as they sort
+watched local book dealers and online       careful weeding from unselected gifts        through donations to find books worth
+book sellers purchase large stacks of       stock, the bookstore staff collected         selling on eBay and the steps taken
+books and realized the bargain prices       several hundred finer-quality books to       to add, describe, and set a beginning
+would convert into substantial profits      sell online. Choosing to be cautious,        auction price on eBay. He furnished
+for the dealers through later resales.      the staff set goals of selling twenty        useful information to those contem-
+The staff working in the store made         books a month and earning $2,500 in          plating selling donations online and
+every effort to sell specially identified   online sales for the year.                   included a table of the average time it
+items at higher prices to book dealers                                                   takes the volunteers to list items, cor-
+and collectors, as well as highlighting                                                  respond with buyers, and package and
+their availability to all bookstore cus-             Literature Survey                   mail a book using eBay. According to
+tomers by means of a display window                                                      his statistical analysis, the entire pro-
+and case. Among the specialty books         Several articles have detailed the           cess takes 65.6 minutes per title. Hill
+selected from the stock were first          methods some libraries have devel-           admitted that selling books on eBay
+editions, university press publications,    oped to increase profits from the            is labor-intensive and does not rec-
+architecture and art books, and other       sales of surplus gift and withdrawn          ommend online selling as an activity
+specialized pieces. Although these          materials. The impetus to sell the           suited for salaried library staff. Still,
+efforts were relatively successful, the     finer quality donated books through          the Friends group did earn $6,700 by
+staff felt that too often books with high   auctions is well documented, as is           selling 167 books in eighteen months.
+value on the used book market contin-       the subject of opening bookstores in         Hill concluded “although time-con-
+ued to sell at bargain bin prices. The      lieu of traditional library book sales;      suming, selling unneeded books on
+ 278    Carrico                                                                                                  LRTS 49(4)
+
+
+
+
+eBay returns a steady stream of rev-        over the course of the experimental         selling books online but are interested
+enue to the library.”9                      program. . . . The Archives received        in pursuing this activity. Other mes-
+      In the short case study, “Director,   no negative responses to its selling        sages originate from library staff with
+Do Thy Bidding,” Rogers used a simu-        program from the general public.”15         experience selling online, and, though
+lated conversation, based on actual              Finally, two articles published on     the posted messages describe various
+events, between a public library direc-     the rising used-book market are also        obstacles and problems encountered,
+tor and an assistant library director to    worth notice. The first, “Online Used-      it is apparent some libraries are dis-
+illustrate how a library is using eBay      book Sales Concern Some Publishers,”        covering that selling surplus materials
+to both buy and sell materials for their    raised the concerns of the book pub-        online can be quite profitable.
+collections.10 The director defended        lishing industry in the manner some              To better understand the proce-
+selling seldom-used archived items          book selling sites sell used books.16       dures and methods used by libraries
+from its special collections in order to    According to some industry experts,         selling online, the Smathers Library
+generate money to offset a small book       commercial book selling sites, such as      bookstore staff developed a brief ques-
+budget. In response to this dialogue,       Amazon.com, list available used copies      tionnaire (see results in table 1) and
+two librarians, Gilmore and Weil,           alongside the new editions, thereby         sent it to representatives from two aca-
+offered their analysis of a library pro-    offering customers cheaper alterna-         demic libraries with experience. The
+curing funds by selling online. Gilmore     tives. The fact that used books sales       two libraries were the Engineering
+saluted online selling of unused library    corner 15 percent of the 3.5 billion        and Physical Sciences Library of the
+materials to bolster a budget.11 Weil       dollar book market shows the high           University of Maryland (EPSL) and
+agreed that online selling is a useful      stakes involved.17 The second piece,        the University of California, Riverside
+activity, but noted that—before sell-       Brown’s “The Used Book Market               (UCR). Though both libraries are sell-
+ing library materials—a public library      Grows,” presented the results of sev-       ing surplus materials online, they use
+should consult with its collection devel-   eral interesting studies performed on       different sites: EPSL uses Half.com,
+opment policies, the library board, the     the used book market.18 In 2002, a          and UCR uses Alibris. Their respons-
+community at large, and other staff to      study conducted by Ipsos Book Trends        es permitted the Smathers Library
+ensure the procedures for sales are         revealed that “consumers purchased          Bookstore staff the chance to com-
+clear and that all agree with them.12       more than 100 million used books            pare and contrast experiences with two
+      In Doylen’s “Experiments in           worth half a billion dollars.”19 An even    online sites. The results of the ques-
+Deaccessioning: Archives and On-            more applicable study is one cited by       tionnaire are interesting and reveal
+line Auctions,” the author discussed        Brown that published the results of         many positive aspects of selling online.
+the “legal, ethical, and practical issues   survey responses received from more              The questionnaire was sent to
+raised for archivists interested in using   than 800 book sellers; this report noted    each library in spring 2003. EPSL had
+on-line auction sites to deaccession        that online sales account for half of all   just started a yearlong pilot project to
+unwanted material.”13 After assess-         retail sales of used books.20               sell surplus books online. The results
+ing the legal and ethical implications,                                                 of the questionnaire are based on the
+the collection management policies,                                                     respondent staff member’s one-month
+and the procedure that an institu-                   Data Collection                    experience managing the online selling
+tion should consider before and after                                                   at the library.21 A later e-mail message
+withdrawing materials from holdings,        It is not uncommon to read mes-             to a discussion group confirmed that
+Doylen noted that “On-line auction          sages on library electronic discussion      after six months, EPSL’s success with
+sites provide archives with an inno-        groups and bulletin boards about the        online selling was continuing. More
+vative, expedient, and cost-effective       problems facing libraries as they dis-      than 170 books sold at approximately
+means of selling unwanted items.”14         pose of unwanted gift and withdrawn         $24 each, with a gross profit exceeding
+Doylen drew on his own experience           materials. Librarians and library staff     $4,800.22 Offering a dual perspective,
+supervising a successful online sell-       exchange experiences, tips, and poli-       two librarians from UCR responded.
+ing program, describing in detail the       cies on using book sales and book           The first was a librarian (now working
+auctioning of unwanted archival and         dealers to generate revenue while           at a different library) who managed
+special collections materials on eBay.      reducing stockpiles of gifts. In recent     online selling from the start up, the
+In regard to a sensitive public relations   years, the subject of utilizing the Web     second was a librarian who has since
+issue so often affecting libraries, the     to sell surplus materials has often         taken over its management. Their
+author offered an encouraging sum-          become the focus of these discussions.      response show that the success UCR
+mary, “initial concerns about negative      Many of the postings have come from         had with online selling is continuing in
+public response to the sales lessened       library staff who have little experience    a profitable and very organized man-
+  49(4) LRTS                                                    Online Book Selling at the Smathers Library Bookstore                       279
+
+
+
+
+ner; their feedback was incorporated                  books at an average of $29.06 per          list their name), this policy has changed
+into one composite response.23                        item. From December 2000 through           and “UC-R Regents” now appears in
+      The questionnaire explored librar-              March 2003, UCR grossed just more          the listings. Half.com requires listing
+ies’ procedures and experiences with                  than $29,000 by selling approximately      the book sellers, so EPSL uses an
+online selling. The responses from the                sxity-nine books per month and aver-       abbreviation that does not reflect back
+two libraries show pronounced simi-                   aged around $15 per item. Also com-        on the library or university.
+larities. Both libraries:                             parable is the staff time needed to
+                                                      list, record, and package books sold
+   ■ sell only books;                                 online. EPSL reported that manag-                              Alibris
+   ■ continue to hold book sales on                   ing online selling takes about three-                   Selection Process
+     campus;                                          and-a-half hours of staff time a week.
+   ■ earn higher profits per book                     According to the two librarians from       At the American Library Association’s
+     than what they receive in the                    UCR, after the initial eighty hours of     2003 Annual Conference, the Assoc-
+     book sales;                                      staff time necessary to list their books   iation for Collections & Technical
+   ■ use spreadsheets to record the                   in Alibris, between four and six hours     Services Acquisitions Section Gifts
+     books sold online;                               per week were required to continue         and Exchange Discussion Group
+   ■ have inconsequential returns                     listing and selling books. Both librar-    offered a program on libraries and
+     (one or none);                                   ies reported that the staff hours spent    online book selling.24 At this informa-
+   ■ attach basic “non-book dealer”                   on managing the online selling were        tive roundtable discussion, representa-
+     descriptions for online listings;                more than acceptable.                      tives from Alibris and Abebooks made
+     and                                                    Excluding the length of time each    presentations summarizing their com-
+   ■ rate their online selling experi-                library had been selling online (UCR       panies’ operations. After a question-
+     ences as very positive.                          for more than two years, EPSL for just     and-answer period, the vendors and
+                                                      one month), the differences between        audience participated in a roundtable
+     Additionally, both libraries take                the two libraries’ experiences are         discussion that shared information and
+advantage of Half.com and Alibris                     negligible. Because Alibris mandates       experiences on the online selling of
+offering “template” records that                      that its sellers inventory several hun-    duplicate and unwanted library gifts.
+provide basic bibliographic infor-                    dred books, UCR used eighty hours               eBay and its cousin, Half.com,
+mation (that is, title, author, imprint               of staff time to list their books at the   both offer huge sales markets.
+information).                                         onset. EPSL, facing no such minimum        Unfortunately, eBay and Half.com
+     Another similarity between the                   requirements using Half.com, did not       operate in a manner that creates seri-
+two libraries and their experiences sell-             have to manage such an initial large       ous obstacles for a library organization
+ing online is their positive responses                block of staff time to list their books.   that reports to a state fiscal agency.
+to the question regarding the number                  While originally UCR did not have          One possible obstacle for state institu-
+of items sold and the average amount                  its organizational name appear in the      tions arises from eBay and Half.com’s
+of each sale. In one month, EPSL                      books listed for sale through Alibris      policies requiring a seller to register
+grossed $755.76 by selling twenty-six                 (the site did not require the seller to    using a credit card and subsequently
+
+Table 1. Responses from other libraries selling books online
+                                                                  University of Maryland
+                                                                  Engineering & Physical                              University of California–
+                                                                     Sciences Library                                    Riverside Library
+
+Months of experience selling books online at time                              1                                                            28
+Number of books sold                                                          26                                     69 per month (approx.)
+Gross sales                                                            $755.76                                                    $29,000.00
+Average price per book                                                  $29.06                                                         $15.00
+Length of time items listed online                                    Until sold                 Until sold; some weeding of poorer quality
+                                                                                                                      books that do not sell
+Method used to track items in-house                                 Spreadsheet                                                  Spreadsheet
+Service used                                                          Half.com                                                         Alibris
+List library’s name online                                                  No                                          Yes (“UC Regents”)
+Hours spent per week by library staff selling books online                   2                               4–6 (80 hours initially to set up
+                                                                                                                   minimum of 500 listings)
+Number of returned items                                                      0                                                              1
+ 280    Carrico                                                                                                  LRTS 49(4)
+
+
+
+
+charging specified services and refunds    all returns. When a book buyer wishes       condition in more detail. If the book
+to the holder of the card. Even though     to make a return for whatever rea-          is not found in the inventory, a blank
+many state bureaucracies, including        son, Alibris will handle the correspon-     template is provided for the seller to
+the University of Florida, permit the      dence, return shipping of the item,         create original records. The staff esti-
+use of state issued credit cards or        and refund the buyer. For a seller, this    mates that more than 80 percent of
+payment cards (p-cards), often state       system is very efficient and far less       the titles they search on Alibris have
+accountants closely monitor the p-         aggravating than having to deal with        records in Inventory Manager, which
+cards and severely restrict their use.     buyers and returns directly.                saves considerable time.
+The Smathers Library Business Office            After reviewing the library lit-             Early into the online selling proj-
+considered this credit card require-       erature, attending the Gifts and            ect, bookstore staff kept book descrip-
+ment a major deterrent in allowing         Exchange Discussion Group’s pro-            tions short and nontechnical, but after
+the bookstore to use either eBay or        gram, and conducting a question-            time the bookstore staff gained con-
+Half.com. Another concern voiced           naire, the staff determined that online     fidence and began employing book
+by the library’s business office was       selling could succeed at the Smathers       market terms. Overuse of book trade
+the manner in which the Smathers           Library Bookstore. Library adminis-         jargon should be avoided (especially
+Library would receive payments             tration agreed with this assessment         for untrained sellers); however, Alibris
+from book buyers on eBay and Half.         and, in August 2003, gave approval          offers a helpful “Glossary of Book
+com. Both eBay and Half.com offer          to a one-year pilot project for selling     Terms” that the Smathers Library
+their buyers various methods for pay-      books online. Based on discussions          staff use frequently.25 As staff began
+ment, including credit cards, checks,      with representatives from Alibris,          applying more information and appro-
+money orders, and an in-house credit       and from the favorable question-            priate technical terms to book descrip-
+card payment system called PayPal.         naire responses received from the           tions, the number of books sold each
+Tracking such diversified payments         librarians at UCR, the bookstore staff      month more than doubled. In the
+would be very labor intensive and          chose to register the store as an           first four months of the project, from
+could present accounting problems          Alibris seller.                             September through December 2004,
+with state auditors.                                                                   an average of less than eight books
+     Alibris operates differently than              Listing Books Online               a month were sold on Alibris; in the
+eBay and Half.com and presents a                                                       next eight months of the project, from
+more acceptable system for an aca-         Once registered on Alibris, book            January through August 2005, an aver-
+demic state library. Presently, a seller   sellers obtain access to the site’s         age of almost eighteen books a month
+must list a minimum of five hundred        Seller Hub with its in-house data-          were sold.
+titles to be a certified book seller on    base system, Inventory Manager. The               Pricing books (based on condi-
+Alibris, but the registration process      Inventory Manager database contains         tion, description, and rarity) is anoth-
+is relatively fast, simple, and does       thousands of book records, and each         er important consideration. In the
+not require the use of a credit card.      record contains pertinent information       early months of joining Alibris, the
+Besides listing a seller’s stock onsite,   regarding title, author, publisher, year    Inventory Manager included a free
+a seller’s books listed on Alibris are     of publication, edition, size of the        pop-up window with all the price list-
+searchable from other online retailer      text, and so on. To list a book for sale,   ings for that title already in Alibris.
+sites, such as Amazon and Barnes &         the seller first searches the Inventory     This listing furnished a very helpful
+Noble. As items sell, Alibris monitors     Manager to find the title and correct       guide for pricing the book in hand, as
+the sales and handles the payments         edition. If the exact record is located,    the seller could base the price by other
+from the buyer. At the end of every        the seller merely opens the “Add            editions for sale. Unfortunately, a few
+month, Alibris sends a check to the        Item” template, updates bibliographic       months into the project Alibris began
+seller for all items sold during that      information, describes the condition,       charging for this listing service. Rather
+period. Because Alibris acts as the        and prices the book. To simplify the        than pay for this information, the staff
+brokering agent between buyer and          process, Inventory Manager offers           began accessing book selling search
+seller, they deduct a 20 percent fee       several pull down menus and check           sites (such as Bookfinder or Abebooks)
+from the list price for each book          boxes for indicating whether a book         to compare price and condition of the
+sale. Working within this system, the      is a signed copy, a first edition, and      books.26 This added step of inputting a
+seller avoids time-consuming corre-        its general condition (fine, very good,     new search for the title on a separate
+spondence or problems with buyers          good, and so on). Additional note           browser in Bookfinder or Abebooks
+and receives payments consistently.        fields are available for the seller to      does slow down the process of pricing,
+Alibris also acts as the middleman for     describe the book and dust jacket’s         but the staff consider this essential to
+ 49(4) LRTS                                               Online Book Selling at the Smathers Library Bookstore              281
+
+
+
+
+setting a fair market price. Regardless        sell, updating records, and printing        on how staff time was spent.) Hours
+of the increase in staff hours required        mailing labels and invoices.                devoted to online selling decreased
+to list online inventory in this manner,            Another task is “preview search-       despite the fact that the most impor-
+the staff attributes the steady rise in        ing,” which is a term the staff uses        tant and time-consuming task of listing
+online sales to listing books with better      when they conduct a quick scan on           books increased once staff began using
+prices and improved descriptions.              Bookfinder or Abebooks in order to          Bookfinder and Abebooks to adjust
+                                               determine a book’s value in the online      prices and enhance book descriptions.
+                                               market. This preview searching takes        The average time spent on listing a
+  Procedures and Staff Time                    only a couple minutes but it is crucial,    book increased from fifteen to almost
+                                               as the value of individual books is not     twenty-five minutes per book; how-
+During the project, the staff record-          always obvious to the library staff.        ever, the overall average in staff time
+ed the amount of time spent on pro-            Going online to scout the used book         required per week decreased. This
+cedures used for online book selling.          market and compare the availability         decline can be attributed to staff not
+Activities demanding the most staff            and prices on the used book market          only becoming more experienced at
+time include describing and pricing            is extremely beneficial in deciding         online book selling, but to improved
+the books, recording and shipping              whether to sell the book online or in       in-house procedures over the life of
+the sales, and monitoring the sales            the Smathers Library Bookstore. After       the project.
+with a spreadsheet. After listing a            monitoring online sales, the staff set
+book, the staff tags the record with           the cutoff line at $15. If several copies
+a shelf number for tracking pur-               of a book are being sold online or if                   Conclusion
+poses. Once this tracking number               most copies of a book are priced less
+is included, the record is printed             than $15 apiece, the staff considers        The year-long online selling pilot proj-
+and placed inside the book. Books              selling online not to be worth the time     ect ended on September 1, 2004. It
+for sale online are kept on several            and effort to do so.                        was an exciting experience for the
+dozen shelves in a separate area away               In the first month of listing books,   entire staff of the Smathers Library
+from the regular bookstore stock.              the average time required to place          Bookstore and a profitable enterprise
+Alibris sends notification by e-mail           a book for online sale was approxi-         for the library. In the proposal, the
+each time a book sells. Once notified,         mately fifteen minutes, or four books       bookstore staff set the amount of
+the staff pulls the book and care-             per hour. With the bookstore staff          $2,500 as the sales goal. This target
+fully packages it with bubble wrap for         working as a team for thirty-three          was reached after only seven months
+mailing. Often the shipment is to the          hours a week, more than 130 staff           of selling books online; by the end of
+Alibris warehouse in Sparks, Nevada,           hours during September 2003 were            twelve months, 174 books had sold for
+where Alibris reroutes the book to             required to reach the five-hundred-         more than $4,000. Although the first
+the buyer; other times, the bookstore          book minimum requirement. Once the          month’s sales were modest (six books
+staff sends a book purchased directly          five-hundred-book requirement was           sold for $166), gross sales increased
+to the buyer. For each online book             met, staff spent six-and-a-half hours a     at a steady rate (see figure 1). In
+sale, bookstore staff use an Excel             week in the period October through          four months, online gross sales passed
+spreadsheet to record the pertinent            December 2003 on online selling             $1,000, and, by the end of the first
+information, including Alibris’ sale           activities. For the next eight months       six months, sales were just less than
+identification number and the title,           of the project, January through August      $2,000. After one year of online book
+author, and price of the book. The             2004, the number of hours required          selling with Alibris, gross sales totaled
+staff must also maintain the inventory         of staff decreased to an average of six     $5,932.45. These gross earnings do not
+within Alibris, removing items that            hours per week. (See table 2 for details    take into account Alibris’ 20 percent
+
+Table 2. Staff time devoted to online bookselling activities
+
+                                                                     # of Minutes Spent on E-Mail/
+                  # Minutes Spent         # of Minutes Spent         Spreadsheet and Database          Average Staff Hours
+   Month         Listing Each Book      Packing/Shipping Books               Maintenance                Spent per Week
+ Sept.                  15                          20                            10                             33
+ Oct.–Dec.              20                          15                            10                             6.5
+ Jan.–Aug.              25                          15                            10                              6
+ 282    Carrico                                                                                                           LRTS 49(4)
+
+
+
+
+fee. After deducting Alibris’ fee of        needed in the project year. For what-                     Another factor to take into
+$1,186.49 (20 percent) from the year’s      ever reason, the buyer changed his                   account with online book sales is the
+gross, the library netted $4,725.46         or her mind and decided to send the                  incidental costs incurred. Alibris does
+from its online book selling project        book back. Alibris handled this return               reimburse book sellers an approxi-
+(see table 3).                              very well and settled the request                    mated cost of postage for each book
+      One stated goal of the propos-        quickly and without problems. Since                  sale, but this reimbursement does not
+al was to successfully balance online       Alibris’ policy is to send a monthly                 cover the costs of labels, padded enve-
+book selling with daily sales in the        check to the seller for all sales (minus             lopes, and packing materials (such as
+library bookstore, and in this regard,      their fee), Alibris simply deducted the              bubble wrap). Fortunately, Smathers
+the results surpassed expectations.         amount reimbursed for the return                     Library can absorb these costs eas-
+During the course of the yearlong           from the next monthly check issued to                ily because packing materials are pur-
+online selling project, the Smathers        the Smathers Library.                                chased in bulk. The staff estimate that
+Library Bookstore continued post-
+ing steady sales and actually brought                    $900
+in higher revenue than the previous
+year. In fiscal year 2003–2004, the                      $800
+
+Smathers Library Bookstore grossed                       $700
+$12,813.97, versus $10,309.63 in fiscal
+                                                         $600
+year 2002–2003. Included in the book-
+store figures were individual sales to                   $500
+book dealers and, although sales with                    $400
+the dealers did drop overall (since a
+                                                         $300
+greater percentage of the finer-qual-
+ity books were being sold online), the                   $200
+store’s profits were not compromised.                    $100
+      In addition to boosting the
+library’s general book acquisition fund                    $0
+                                                                  Sept. Oct. Nov. Dec. Jan. Feb. Mar. Apr. May June July Aug.
+by several thousand dollars, the staff
+learned a number of valuable lessons        Figure 1. Gross online sales
+about the online selling of surplus
+books. The staff discovered that list-
+ing, describing, and pricing books is       Table 3. Online sales: September 1, 2003–August 31, 2004
+not as daunting a task as originally
+                                              Month     Gross Sales     Alibris Fee   Net Sales ($) # of Books Sold     Avg. Sale Price
+feared, due to the templates provided                       ($)             (%)                                           (Gross) ($)
+by the Alibris Inventory Manager and
+using the descriptions and prices found     Sept.         166.00            -20        132.80              6                 27.67
+on book selling search sites, such as       Oct.          384.00            -20        307.20             10                 38.40
+Bookfinder and Abebooks. The staff
+                                            Nov.          216.50            -20        173.20              7                 30.93
+observed that, in general, books listed
+with more detailed information sell         Dec.          281.50            -20        225.20              8                 35.19
+faster on Alibris, and learned the types    Jan.          547.50            -20        438.00             14                 39.11
+of books that are better suited for sell-   Feb.          399.50            -20        319.60             11                 36.32
+ing online (books in construction, life
+                                            March         567.00            -20        453.60             17                 33.35
+sciences, and history) versus books
+that appeal to the browsing customer        Apr.          557.00            -20        445.60             19                 29.32
+(art and cookbooks), which regularly        May           748.50            -20        598.80             22                 34.02
+sell faster in the bookstore.               June          490.50            -20        392.40             17                 28.85
+      As the project began, book returns
+                                            July          815.95            -20        652.76             19                 42.94
+were a major concern of the Smathers
+Library Bookstore. Whether due to           Aug.         758.50             -20        606.80             24                 31.60
+conscientious book listing with accu-       Totals      5,932.45         -20.50*      4,725.46           174                 34.09
+rate descriptions, luck, or a combi-
+nation of both, only one return was         *One book returned.
+ 49(4) LRTS                                           Online Book Selling at the Smathers Library Bookstore                    283
+
+
+
+
+each book shipped costs the library            Exchanges, “Information on Gift                 Auctions,” The American Archivist 64
+$1.50. During the year, the library            Donations.” Accessed Mar. 18,                   (Fall/Winter 2001): 350.
+bookstore sold, packaged, and shipped          2005, www.uflib.ufl.edu/acqlic/ge/        14.   Ibid., 355.
+174 books, costing the library approxi-        Giftsrevised.htm.                         15.   Ibid., 361.
+                                            3. University of Florida George A.           16.   Bob Tedeschi, “Online Battle of
+mately $260. While this amount is not
+                                               Smathers Libraries Gifts and                    Low-Cost Books,” The New York
+overwhelming, it may be significant
+                                               Exchanges, “Donor Registry for Gifts            Times, July 12, 2004. Accessed June
+for libraries with smaller budgets.            to the George A. Smathers Libraries.”           3, 2005, www.abebooks.com/docs/
+     By the end of the pilot project,          Access July 1, 2005, www.uflib.ufl.             CompanyInformation/PressRoom/
+the staff realized that once they estab-       edu/acqlic/ge/Donor-Registry.htm.               newYorkTimesJuly122004.pdf.
+lished an organized, efficient mecha-       4. For more information on the               17.   Ibid.
+nism for online selling, the overhead          Smathers Library Bookstore, see           18.   Scott Brown, “The Used Book
+and staff time needed for searching,           Steven B. Carrico, “The University of           Market Grows: An Inquiry Into the
+pricing, listing, recordkeeping, and           Florida Smathers Library Bookstore,”            True Volume of Used Book Sales,”
+shipping orders is surprisingly low            Library Collections, Acquisitions &             OPMagazine 2, no. 4 (July/Aug. 2004),
+when compared to the revenue gener-            Technical Services 25, no. 1 (2001):            Accessed Mar. 18, 2005, www.fine-
+                                               37–47.                                          booksmagazine.com/10-used-book-
+ated. However, this may or may not
+                                            5. See, for example, Vincent Golden,               market.htm.
+be true for other libraries attempting         “Library Book Sales and Auctions,         19.   Ibid.
+online sales. With the existence of a          or, You Can Get More Than a Dollar        20.   Ibid.
+bookstore and a staff already familiar         for That!” in Gifts & Exchanges:          21.   Gloria L. Chawla, e-mail to the author,
+with procedures for the disposition of         Problems,      Frustrations,       and          “About Online Book Selling,” Mar.
+unselected gift materials and the tasks        Triumphs, ed. Catherine Denning,                13, 2003.
+associated with selling books (pric-           143–63 (Binghamton, N.Y.: Haworth         22.     Charles Lowry, e-mail message to
+ing, bookkeeping and inventory main-           Pr., 1999); Nancy Barr, “An Amazing             ARL-Directors Discussion List,
+tenance), the Smathers Library has             Bookstore,” American Libraries 35,              “Book Sale Reprise,” Nov. 19, 2003.
+an ideal situation in place for selling        no. 1 (2004): 60–62.                      23.   Pat Hilker, e-mail to author, “Online
+                                            6. Penny Schenker, “Book Sale Adds                 Book Selling,” Apr. 24, 2003, and Pam
+books online. Other libraries may have
+                                               Internet Auction,” The Unabashed                Sun, e-mail to author, “Survey,” Apr.
+a larger challenge and more hurdles
+                                               Librarian 110 (1999): 24.                       18, 2003.
+to overcome in order to be successful.      7. Kathleen A. Baxter, “Your Discards        24.   “How to Liquidate Unwanted Library
+For the Smathers Library Bookstore,            May Be Somebody’s Treasure,”                    Materials in the Age of Double Fold—
+the pilot project accomplished its goal        Library Journal 125, no. 6 (2000):              Are Electronic Vendors the Answer?”
+of balancing online and bookstore              62–63.                                          American Library Association’s Annual
+sales, and exceeded its expectations        8. Dale S. Hill, “Selling Withdrawn and            Conference, ALCTS Acquisitions
+in revenue. As a result, library admin-        Gift Books on eBay: Does It Make                Section, Gifts & Exchange Discussion
+istration endorsed the continuation of         Sense?” Journal of Interlibrary Loan,           Group program. Speakers: Ross Viner,
+online book selling.                           Document Delivery & Information                 Abebooks, and Shelly Stuard, Alibris
+                                               Supply 14, no. 2 (2003): 37–40.                 (Toronto, Canada: June 21, 2003).
+             References                     9. Ibid., 40.                                25.   Alibris, “Glossary of Book Terms.”
+                                           10. Michael Rogers, “Director, Do Thy               Accessed Mar. 18, 2005, www.alibris.
+ 1. George A. Smathers Libraries               Bidding,” Library Journal 126, no. 6            com/glossary/glossary.cfm.
+    Collection Management Division,            (2001): 74–76.                            26.   Bookfinder.com,        “The      Open
+    “Policy for Gifts of Materials,”       11. Yolanda L. Gilmore, “Bravo                      Marketplace for Books Online.”
+    Collection Management Bulletin 6.15        Brodmerkel!” Library Journal 126,               Accessed Mar. 18, 2005, www.book-
+    (Dec. 14, 1994). Accessed Mar. 18,         no. 6 (2001): 74–75.                            finder.com. Abebooks.com, “Because
+    2005, http://web.uflib.ufl.edu/cm/     12. Teri B. Weil, “Stick to Policy, Big D,”         You Read.” Accessed Mar. 18, 2005,
+    manual/CMManual6-15.html.                  Library Journal 126, no. 6 (2001): 76.          www.abebooks.com.
+ 2. University of Florida George A.        13. Michael Doylen, “Experiments in
+    Smathers Libraries Gifts and               Deaccessioning: Archives and On-line
+

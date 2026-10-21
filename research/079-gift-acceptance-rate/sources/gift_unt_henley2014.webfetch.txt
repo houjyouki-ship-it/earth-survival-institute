@@ -1,0 +1,6 @@
+WebFetch 2026-10-21 (curl では HTML の中継頁しか取れなかったため)
+URL: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1609&context=charleston  (doi:10.5703/1288284315558)
+Mark C. Henley, "Gift-Gaining: Ideas for Effective Gift Processing" (2014). Proceedings of the Charleston Library Conference.
+抜粋（原文どおり）:
+"The University of North Texas Libraries received 3,045 book gift donations in 2014, up from 2,675 in 2013. 1,169 or 38% of those donations were added to the Libraries' holdings, going into the current collections, added as second copies, or sent to remote storage. 1,379 or 52% were added to the holdings in 2013."
+"many items in foreign languages, particularly Chinese and Russian, were being evaluated. Since the university does not offer degrees in those languages, some of the staff suggested that those materials not be added to the collection."
