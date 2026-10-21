@@ -1,0 +1,159 @@
+070 loaded 146 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 26 s
+main_kmov per_subregion@cty per_subregion@cty 67 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 78 s
+kmov_x2 per_subregion@pt per_subregion@pt 88 s
+ref_071 per_subregion@pt cover3000x@cty 89 s
+mesh 35 0.3002 93 s
+mesh 50 0.3359 95 s
+mesh 100 0.4191 96 s
+mesh 150 0.4718 97 s
+mesh 200 0.5097 98 s
+mesh 300 0.5654 100 s
+074 loaded 246 s
+checks ok 251 s
+075 loaded 251 s
+chk_mesh35 0.6801 0.8709 256 s
+chk_mesh200 0.7289 0.8887 260 s
+chk_per_subregion@cty 0.6585 0.8631 265 s
+check ok {'mesh35': 0.0, 'mesh200': 0.0, 'per_subregion@cty': 0.0} 265 s
+mesh35_a0.0 0.6801 0.8709 269 s
+mesh100_a0.0 0.7058 0.8803 274 s
+mesh200_a0.0 0.7289 0.8887 279 s
+mesh35_a0.1 0.6847 0.8726 283 s
+mesh100_a0.1 0.7094 0.8816 288 s
+mesh200_a0.1 0.7306 0.8893 293 s
+mesh35_a0.25 0.6923 0.8754 297 s
+mesh100_a0.25 0.7121 0.8826 302 s
+mesh200_a0.25 0.7317 0.8897 307 s
+mesh35_a0.5 0.7018 0.8788 311 s
+mesh100_a0.5 0.7154 0.8838 316 s
+mesh200_a0.5 0.735 0.8909 321 s
+mesh35_a1.0 0.7193 0.8852 325 s
+mesh100_a1.0 0.728 0.8884 330 s
+mesh200_a1.0 0.7419 0.8934 335 s
+cover1500@cty_a0.5 0.6877 0.8737 339 s
+cover750@cty_a0.5 0.6827 0.8719 344 s
+cover3000x@cty_a0.5 0.7072 0.8808 349 s
+per_subregion@cty_a0.5 0.6864 0.8732 353 s
+pop@cty_a0.5 0.6914 0.875 358 s
+surv150@cty_a0.5 0.6934 0.8758 362 s
+bigplus@cty_a0.5 0.6844 0.8725 367 s
+per_subregion@pt_a0.5 0.6801 0.8709 372 s
+pop@pt_a0.5 0.7007 0.8784 376 s
+mesh35_a0.5_Lx2 0.6974 0.8772 381 s
+mesh200_a0.5_Lx2 0.7345 0.8907 386 s
+mesh35_a0.5_Lhalf 0.7038 0.8795 390 s
+mesh200_a0.5_Lhalf 0.7364 0.8914 395 s
+{
+ "check_076": {
+  "CE_max_rel_diff": 0.0,
+  "heavyTC_max_abs_diff": 0.0,
+  "reproduced": true
+ },
+ "book_stats": {
+  "n": 5,
+  "min": 2.3,
+  "max": 8.0,
+  "median": 2.75,
+  "median_acid_free": 4.7,
+  "median_plain": 2.5,
+  "ratio_acid_plain": 1.8800000000000001,
+  "microfilm_reel_dup_usd": [
+   59.0,
+   72.0,
+   75.0,
+   60.0,
+   90.0,
+   58.75
+  ]
+ },
+ "per_P_quantiles": {
+  "main": [
+   30.509946154921106,
+   42.1777037578512,
+   53.505703314887946
+  ],
+  "hardcover_x3_desc": [
+   37.00904996174676,
+   51.34653182745587,
+   65.7809378159465
+  ],
+  "no_shipping_desc": [
+   2.4521316381966245,
+   4.3118013620960305,
+   7.5186467271077415
+  ],
+  "shipping_x2_desc": [
+   57.05368178817935,
+   79.76963191068779,
+   101.97261230241718
+  ],
+  "old_061": [
+   150.03031253719413,
+   350.59340911359,
+   927.8892800444171
+  ],
+  "old_x0.1_076": [
+   15.003031253719413,
+   35.059340911359,
+   92.78892800444171
+  ],
+  "microfilm_reel_desc": [
+   91.92947637001873,
+   110.73030127545485,
+   130.25323705463921
+  ]
+ },
+ "per_P_median_ratio_new_old": 0.1203037554655966,
+ "cost_breakdown_median": {
+  "35": {
+   "fixed_prep": 16893.915398049383,
+   "per_copy_part": 1963.505603619299,
+   "share_shipping_in_perP": 0.8952922753394177
+  },
+  "200": {
+   "fixed_prep": 16893.915398049383,
+   "per_copy_part": 11220.032020681709,
+   "share_shipping_in_perP": 0.8952922753394177
+  }
+ },
+ "hypotheses": {
+  "H89a": {
+   "class": "確認的",
+   "value": 2.75,
+   "rule": "median per-copy print cost (~100 pp) < $100",
+   "supported": true
+  },
+  "H89b": {
+   "class": "確認的",
+   "value": 1.8800000000000001,
+   "rule": "median acid-free-claim / median plain < 3",
+   "supported": true
+  },
+  "H89c": {
+   "class": "予測",
+   "value": 0.37466107923671865,
+   "rule": "total, alpha=0.5: median marginal 35->200 / median avg35 < 1",
+   "supported": true
+  },
+  "H89d": {
+   "class": "予測",
+   "value": 1.000757655369644,
+   "rule": "heavy, alpha=0.5: median marginal 35->200 / median avg35 > 1",
+   "supported": true
+  }
+ }
+}
+main {'total': {'a0.0': (52.94, 32.95, 0.622), 'a0.5': (59.84, 22.42, 0.375)}, 'heavy': {'a0.0': (54.4, 116.14, 2.135), 'a0.5': (78.83, 78.89, 1.001)}}
+hardcover_x3_desc {'total': {'a0.0': (51.68, 27.07, 0.524), 'a0.5': (58.42, 18.42, 0.315)}, 'heavy': {'a0.0': (53.11, 95.41, 1.797), 'a0.5': (76.96, 64.81, 0.842)}}
+no_shipping_desc {'total': {'a0.0': (59.03, 318.62, 5.398), 'a0.5': (66.73, 216.81, 3.249)}, 'heavy': {'a0.0': (60.65, 1123.11, 18.517), 'a0.5': (87.9, 762.88, 8.679)}}
+shipping_x2_desc {'total': {'a0.0': (48.3, 17.42, 0.361), 'a0.5': (54.6, 11.86, 0.217)}, 'heavy': {'a0.0': (49.63, 61.42, 1.237), 'a0.5': (71.92, 41.72, 0.58)}}
+old_061 {'total': {'a0.0': (27.57, 3.78, 0.137), 'a0.5': (31.17, 2.57, 0.083)}, 'heavy': {'a0.0': (28.33, 13.33, 0.47), 'a0.5': (41.06, 9.05, 0.22)}}
+old_x0.1_076 {'total': {'a0.0': (52.89, 37.81, 0.715), 'a0.5': (59.79, 25.73, 0.43)}, 'heavy': {'a0.0': (54.35, 133.27, 2.452), 'a0.5': (78.76, 90.53, 1.149)}}
+microfilm_reel_desc {'total': {'a0.0': (44.81, 12.37, 0.276), 'a0.5': (50.66, 8.41, 0.166)}, 'heavy': {'a0.0': (46.05, 43.59, 0.947), 'a0.5': (66.73, 29.61, 0.444)}}
+runtime 395.2

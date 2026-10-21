@@ -1,0 +1,97 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究077：座標の冊子1部ごとの費用 per_P を公開の価格で置き直す（open_problems 198） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="0771-per_p-open_problems-198">研究077：座標の冊子1部ごとの費用 per_P を公開の価格で置き直す（open_problems 198）</h1>
+<blockquote>
+<p>注：TC/V0 と費用あたりは模型の中の価値の比で、生存確率でも復興確率でもない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>076 で、写しを 35→200 部に増やす限界の費用あたりは 061 の per_P（印刷 logU($100,$1,000)＋送付 U($25,$50)、根拠は粗い【推測】）では平均の 0.14倍だが、per_P を 1/10 にすると重い崩壊では限界が平均を上回り判断が逆になった。印刷の公開の価格で per_P を置き直す。事前登録は PREREGISTRATION.md（2026-10-21T04:35Z、資料を開く前）。</p>
+<h2 id="sources-sha256sumstxt">資料（本回開いて確認、sources/ に保存し SHA256SUMS.txt）</h2>
+<p>約100頁・白黒の本1部の印刷費：
+- 【事実（<a href="https://kdp.amazon.com/en_US/help/topic/G201834340">Amazon KDP の印刷費</a>）】白黒 24〜110頁は Amazon.com で 1冊 2.30 USD（大判 2.84）。
+- 【事実（<a href="https://app.thebookpatch.com/PrintOnDemand.aspx">The Book Patch</a>）】1〜49部 $2.75、100〜249部 $2.34。
+- 【事実（<a href="http://bookprintondemand.com/pricing">BookPrintOnDemand.com</a>）】$1.40/表紙＋$0.011/頁、1部の最低 $2.50。
+- 【事実（<a href="https://spines.com/services/book-printing/">Spines</a>）】acid-free, archival-grade の紙をうたい、POD は 200頁の白黒で $2.90 から。
+- 【事実（<a href="https://www.bookbaby.com/resources/printing-your-self-published-book">BookBaby</a>）】POD の paperback は $5〜$8、acid-free, uncoated の紙を選べる。
+参照（記述）：マイクロフィルムの複製1巻 $58.75〜$90（【事実（<a href="https://forms.in.gov/Download.aspx?id=15319">Indiana SIML の申込書</a> $59・$72、<a href="https://www.kansashistory.gov/p/kansas-historical-society-copy-services/19953">Kansas Historical Society</a> $60・$75、<a href="https://www.bgsu.edu/library/cac/preservation/costs.html">BGSU</a> $90、<a href="https://lib.uw.edu/find-borrow/borrow-request/microform-duplication-services/">UW Libraries</a> $58.75）】）。金属板は公開の製造価格がなく、<a href="https://rosettaproject.org/disk/wearable/">Rosetta Archive Pendant</a> は $1,000 以上の寄付への返礼で製造の価格ではない。<a href="https://nanorosetta.com/technology/">NanoRosetta</a> は価格を載せていない。
+注意：acid-free は業者の自己申告で ISO 9706 などの認証の確認ではない。少部数の POD の価格で、耐久の製本（布装・糸綴じ）は含まない。</p>
+<h2 id="_2">方法</h2>
+<p>076 の sim.py を「順位」の節の前まで exec し、076 の CE 全値と重い崩壊の TC を差0で再現（相対差 0.0）、費用の式を per_P の関数として書き直して 076 の Cost と一致を確認、per_P×0.1 の版で 076 の値（59.79）も再現した。新しい per_P＝印刷 logU($2.30, $8.00)＋送付 U($25,$50)（送付は 061 のまま、seed 20261077）。版（記述）：印刷×3（硬い表紙の代わり）、送付なし、送付×2、マイクロフィルム1巻。TC は変えず費用だけ置き換えた。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>印刷1部の中央値 <strong>$2.75</strong>（5件、$2.30〜$8.00）、acid-free をうたう2件の中央値 $4.70 は普通の3件 $2.50 の 1.88倍。</li>
+<li>新しい per_P の中央値 <strong>$42.2</strong>（5〜95% $30.5〜$53.5）は 061 の $351 の <strong>0.12倍</strong>。076 の「×0.1」の版とほぼ同じ所に来た。per_P の約 <strong>90%</strong> は根拠のない送付・受け入れ費 U($25,$50) で、印刷は約1割。</li>
+<li>費用あたり（中央値、TAB=1、35部の平均 → 35→200 の限界、限界/平均）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>per_P</th>
+<th>全体 α=0</th>
+<th>全体 α=0.5</th>
+<th>重い崩壊 α=0</th>
+<th>重い崩壊 α=0.5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>061（旧）</td>
+<td>27.6→3.78（0.14）</td>
+<td>31.2→2.57（0.08）</td>
+<td>28.3→13.3（0.47）</td>
+<td>41.1→9.05（0.22）</td>
+</tr>
+<tr>
+<td>主（本回）</td>
+<td>52.9→33.0（<strong>0.62</strong>）</td>
+<td>59.8→22.4（<strong>0.37</strong>）</td>
+<td>54.4→116（<strong>2.14</strong>）</td>
+<td>78.8→78.9（<strong>1.00</strong>）</td>
+</tr>
+<tr>
+<td>印刷×3</td>
+<td>0.52</td>
+<td>0.32</td>
+<td>1.80</td>
+<td>0.84</td>
+</tr>
+<tr>
+<td>送付なし</td>
+<td>5.40</td>
+<td>3.25</td>
+<td>18.5</td>
+<td>8.68</td>
+</tr>
+<tr>
+<td>送付×2</td>
+<td>0.36</td>
+<td>0.22</td>
+<td>1.24</td>
+<td>0.58</td>
+</tr>
+<tr>
+<td>マイクロフィルム1巻</td>
+<td>0.28</td>
+<td>0.17</td>
+<td>0.95</td>
+<td>0.44</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>標本ごとに限界が平均を上回る割合：主の全体 α=0 で 20%、α=0.5 で 2%、重い崩壊 α=0 で 93%、α=0.5 で 48%（旧ではそれぞれ 0%、0%、6%、0%）。</li>
+</ul>
+<h2 id="_4">仮説の判定（分類つき、閾値は登録どおり）</h2>
+<ul>
+<li>H89a（確認的）：印刷1部の中央値 &lt; $100 → <strong>支持</strong>（$2.75）。</li>
+<li>H89b（確認的）：acid-free の価格は普通の 3倍未満 → <strong>支持</strong>（1.88倍。ただし各2件・3件の小標本）。</li>
+<li>H89c（予測）：主・全体・α=0.5 で限界/平均 &lt; 1 → <strong>支持</strong>（0.37）。</li>
+<li>H89d（予測）：主・重い崩壊・α=0.5 で限界/平均 &gt; 1 → <strong>支持</strong>（1.0008）。ただし境界の上ぎりぎりで、印刷×3 や送付×2 では逆になる。実質は「ほぼ等しい」と読むべき。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li>061 の印刷の範囲は公開の価格の約 40〜400倍高かった。古い結論「35部で十分、増やすのは平均の 1/7 の効率」は弱まり、重い崩壊を重く見る人には 200部が 35部と同等以上の効率になる。</li>
+<li>結論を決める未知は印刷から <strong>送付・受け入れの1部ごとの費用</strong>（根拠なしの U($25,$50)）に移った。送付なしでは全体でも限界が平均の 3〜5倍、送付×2 では重い崩壊でも α=0.5 で 0.58。</li>
+<li>固定費（prep_P と primer の準備、中央値 約 $1.7万）は変えていない。35部で1部分の費用は約 $2千で、総費用の大半は固定費。これも根拠は粗い【推測】。</li>
+<li>POD の紙が百年単位で残るかは価格からは分からない。写しの寿命 τp（062 の中央値 522年は歴史の印刷本）と POD の紙の寿命の差は未検証。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は、印刷費（約 $3/部）ではなく、図書館への送付と受け入れの手間で部数を決めることになる。受け入れの費用が1部 $25 程度以下なら 35部で止めず 200部まで配る案を検討し、重い崩壊を重く見るほどその判断は強まる。本研究所は 061〜076 の per_P を公開の印刷費に改め、次は1部ごとの送付・受け入れ費と図書館の受け入れの可否（open_problems 200）へ。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1173,4 +1173,16 @@
 <li>逸脱：なし。</li>
 <li>再現：<code>/tmp/rep076b/</code> で 076 を再実行し results.json は runtime 以外一致、図2枚の MD5 も一致。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：金庫・冊子の運営者は、35→200部の追加を比例の印刷費の下では平均の約 1/7 の効率と見込み、置き方の細かな最適化に頼らない。本研究所は 075 の床を「寄せの仮定で 0.68〜0.72」の幅にし、次は1部ごとの費用 per_P の公開の見積もり（198）へ。</li>
+</ul>
+<h2 id="77-2026-10-21">第77回 2026-10-21</h2>
+<ul>
+<li>再現チェック：024〜076 を <code>/tmp/rep077/</code> に複製した。077 の sim.py は 076 の sim.py を exec して 076 の CE 全値と重い崩壊の TC を差0（相対差 0.0）で再現する（076 の再実行を兼ねる）。</li>
+<li>主課題：next_plan の推奨 A ＝ open_problems 198（1部ごとの費用 per_P の公開の見積もり）。固定の2節は残した。</li>
+<li>文献・データ（本回開いて確認、sources/ に保存し SHA256）：Amazon KDP の印刷費の頁、The Book Patch、BookPrintOnDemand.com、Spines、BookBaby（以上 印刷費）、Indiana SIML の申込書、Kansas Historical Society、BGSU、UW Libraries（マイクロフィルムの複製1巻）、Rosetta Project の Wearable Disk、NanoRosetta（金属、公開の製造価格なし）。NARA の料金表も開いたが $125/巻 はデジタル化の料金なので使っていない。oneselfpublishing.com は保存した頁に価格がなく除外。</li>
+<li>研究077を実施：<code>research/077-per-copy-cost/</code>（sim.py 約395秒 seed 20261077、計算のみ）。成果物は results.json、stdout.txt、fig_perP_ce.png、report.md、PREREGISTRATION.md（2026-10-21T04:35Z、資料を開く前・sim.py の前）、sources/（prices.json、保存した頁、fetch.sh、SHA256SUMS.txt）。</li>
+<li>方法：076 の CE を差0で再現した後、per_P を 印刷 logU($2.30,$8.00)＋送付 U($25,$50) に置き換え、076 と同じ式で 35部の平均と 35→200 の限界の費用あたりを出した。版（記述）：印刷×3、送付なし、送付×2、マイクロフィルム1巻。</li>
+<li>主要数値：印刷1部の中央値 <strong>$2.75</strong>、acid-free/普通 1.88倍。per_P 中央値 $351→<strong>$42.2</strong>（0.12倍、約9割が送付分）。限界/平均（中央値）：全体 α=0 <strong>0.62</strong>・α=0.5 <strong>0.37</strong>、重い崩壊 α=0 <strong>2.14</strong>・α=0.5 <strong>1.00</strong>（旧 0.14・0.08・0.47・0.22）。送付なしでは全体でも 3.25〜5.40、送付×2 では重い崩壊 α=0.5 で 0.58。</li>
+<li>判定（分類つき）：確認的 H89a・b 支持。予測 H89c 支持、H89d 支持（1.0008、境界ぎりぎり）。</li>
+<li>逸脱：登録の「最小〜最大」に価格表の範囲の下端・上端（The Book Patch の 100部以上の $2.34、BookBaby の $5〜$8）を使った。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：冊子を配る運営者は、部数を印刷費（約 $3/部）でなく送付・受け入れの手間で決める。受け入れ費が1部 $25 程度以下なら 200部まで配る案を検討する。本研究所は 061〜076 の per_P を公開の印刷費に改め、次は送付・受け入れ費と図書館の受け入れの可否（200）へ。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
