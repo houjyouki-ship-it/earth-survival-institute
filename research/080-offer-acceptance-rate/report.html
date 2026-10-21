@@ -1,0 +1,88 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究080：事前の申し出つきの受け入れの割合（open_problems 205） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="080open_problems-205">研究080：事前の申し出つきの受け入れの割合（open_problems 205）</h1>
+<blockquote>
+<p>注：TC/V0 と費用あたりは模型の中の価値の比で、生存確率でも復興確率でもない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>079 の p_acc（中央値 0.296）は寄贈を受け取った後に蔵書へ加えた比で、重い崩壊 α=0.5 の 35→200部の判断の分かれ目 0.304 にちょうど乗った。送る前に申し出て受け入れの約束を取る経路の割合 b_j を公開の年報で探し、判断を置き直す。事前登録は PREREGISTRATION.md（2026-10-21T10:43Z、外部資料を開く前・sim.py の前）。</p>
+<h2 id="sources-sha256sumstxt">資料（本回開いて確認、sources/ に保存し SHA256SUMS.txt）</h2>
+<p>登録の対象（国立・州立・大学の図書館・公文書館で、申し出の件数と受け入れ件数の両方）に入るもの：<strong>0件</strong>。
+- 【事実（<a href="https://www.library.gov.au/sites/default/files/documents/2025-11/nla-annual-report-2024-25.pdf">NLA 年報 2024–25</a>）】申し出の件数の記載はない。非登録資料 20,828点を処分し、"over 14,000 unsolicited donations of material out of scope of our Collection Development Policy" を含む。登録済みの 285冊も処分（262冊は収集方針の範囲外）。【事実（<a href="https://www.library.gov.au/discover/offer-us-collection-material">NLA の申し出の頁</a>）】直接送らず、先に申し出て審査を受ける手順。
+- 【事実（<a href="https://www.ourcommons.ca/written-questions/41-1/q-772">下院の質問 Q-772</a>）】Library and Archives Canada への未請求の申し出の受け入れ・拒否の件数を問う質問（2012）はあるが、頁に回答の本文がない。
+- 検索の抜粋で方針だけが出た館（Qatar National Library、UCL、Wellington City Libraries ほか）は数値がなく、保存もしていないので数えない。Penn State の業者の無料提供の申し出（51/86）は資料の寄贈でなく、原文も取得できなかったので使わない。</p>
+<p>対象の外（博物館・郷土史の会の資料庫、記述の系列 b_broad、sources/offers.json）：
+- 【事実（<a href="https://lakeshoremuseum.org/wp-content/uploads/2024/03/LMC-Annual-Report-Mar-2024-Web-1.pdf">Lakeshore Museum Center 年報 2023</a>）】"1,606 items were offered for donation. After review, 741 of those items were accepted"（0.461、点数）。
+- 【事実（Carver County Historical Society <a href="https://www.carvercountyhistoricalsociety.org/pdfs/annual_meeting/2021_Annual_meeting.pdf">2021</a>・<a href="https://www.carvercountyhistoricalsociety.org/pdfs/annual_meeting/2022_Annual_meeting.pdf">2022</a>）】2021 年 68件中 33件、2022 年 87件中 38件の申し出を一部または全部受け入れ（合算 0.458、件数）。
+- 【事実（<a href="https://centre.nikkeiplace.org/wp-content/uploads/2023/09/NNMCC-AGM-Report-2023-WEB.pdf">Nikkei National Museum 年報 2022–23</a>）】"over 170 offers" を審査し 70件を受け入れ、135件以上が保留（0.41、保留があり曖昧）。
+- 【事実（<a href="https://rnm.qa.civiccomputing.com/sites/default/files/2022-06/nmrn_final_2019_-_web_accessible_1_3.pdf">National Museum of the Royal Navy 2018–19</a>）】"Over 500 offers ... around 50% accepted"（0.50）。</p>
+<h2 id="_2">方法</h2>
+<p>079 の sim.py を仮説の節の前まで exec し、079 の CE（全版×全体・重い崩壊×5つの α）を差0（相対差 0.0）で再現した。登録どおり対象の b_j が2件未満なので、<strong>主は 079 のまま</strong>（p_acc U(0.18,0.445)）。記述の版（seed 20261080）：申し出の段だけ p=U(0.412,0.50)、申し出の段×079 の受け取った後の比、申し出の段×外国 0.5。TC は変えていない。</p>
+<h2 id="_3">結果</h2>
+<table>
+<thead>
+<tr>
+<th>p_acc の版</th>
+<th>p_acc 中央値</th>
+<th>per_P 中央値</th>
+<th>全体 α=0.5</th>
+<th>重い崩壊 α=0</th>
+<th>重い崩壊 α=0.5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主（=079）</td>
+<td>0.315</td>
+<td>$41.8</td>
+<td>0.38</td>
+<td>2.14</td>
+<td><strong>1.003</strong></td>
+</tr>
+<tr>
+<td>申し出の段だけ（記述）</td>
+<td>0.455</td>
+<td>$27.9</td>
+<td>0.54</td>
+<td>3.07</td>
+<td><strong>1.44</strong></td>
+</tr>
+<tr>
+<td>申し出×受け取った後（記述）</td>
+<td>0.143</td>
+<td>$91.7</td>
+<td>0.20</td>
+<td>1.11</td>
+<td><strong>0.52</strong></td>
+</tr>
+<tr>
+<td>申し出×外国 0.5（記述）</td>
+<td>0.228</td>
+<td>$55.9</td>
+<td>0.29</td>
+<td>1.67</td>
+<td><strong>0.78</strong></td>
+</tr>
+</tbody>
+</table>
+<p>（数字は 35→200 の限界/35部の平均、中央値どうし）
+- 記述の系列 b_broad は 0.41〜0.50（中央値 0.46）で、079 の受け取った後の a_i（0.18〜0.445、中央値 0.296）より高い。4件すべてが重い崩壊 α=0.5 の分かれ目 0.304 を上回る。
+- ただし申し出の後にも受け取った後の選別がかかると、分かれ目を越えるには申し出の段で 1.03（＞1、不可能）が要る。2つの段がかかるか、申し出の約束で選別が済むかで判断が逆になる。</p>
+<h2 id="_4">仮説の判定（登録どおり）</h2>
+<ul>
+<li>H92a（確認的）棄却：対象の b_j 0件（データなし）。</li>
+<li>H92b（確認的）棄却：同上。</li>
+<li>H92c（予測）支持：1.003 &gt; 1（主が 079 のままなので 079 の H91c と同じ値で、新しい情報はない）。</li>
+<li>H92d（予測）支持：0.376 &lt; 1（同上）。</li>
+<li>記述（支持に数えない）：b_broad 4件と3つの版。</li>
+</ul>
+<h2 id="_5">解釈</h2>
+<ul>
+<li>【事実】国立図書館の年報は申し出の件数を出しておらず、NLA は未請求の寄贈を年に1万4千点以上処分している。未請求で送ると大半が蔵書にならない、という 079 の読みと合う。</li>
+<li>【推測】申し出の段で受け入れを約束した資料はそのまま収蔵されるなら、p_acc は約 0.46 になり重い崩壊 α=0.5 では 200部が有利（1.44）。約束の後にも選別があるなら 0.14 で 35部が有利（0.52）。博物館の値を図書館に移せるかは未検証。</li>
+<li>【独自仮説】判断を決める量は「申し出の割合」より「約束した後に実際に収蔵される割合」で、これは年報には出ない。公開の資料で詰めるのはここで頭打ちに近く、実際に数館へ申し出る小さな試し（模型の外の行動、本研究所はしない）でしか測れない。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は、送る前に申し出て受け入れの約束を取り、約束した館が実際に登録したかを目録で確かめる。その割合が約3割を超えるなら、重い崩壊を重く見る限り 200部を検討する。未請求の郵送は 35部に留める。本研究所は p_acc を 079 のまま据え置き、「事前の連絡で約 0.46 に上がる」は博物館の値からの推測として記録する。</p>
+<h2 id="_7">限界</h2>
+<p>対象の資料は 0件。記述の系列は米・英・加の博物館・郷土史の会で、単位も点数・件数と混ざる。NNM は保留があり曖昧。外国からの申し出の扱いは資料なし。</p>
+<h2 id="_8">再現</h2>
+<p><code>python3 sim.py</code>（約410秒、079→078→…の検査を含む）。</p><footer><hr><small>自動生成</small></footer></body></html>

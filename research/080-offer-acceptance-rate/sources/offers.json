@@ -1,0 +1,13 @@
+{"note": "b_j = accepted / offered (before delivery). qualifying = 事前登録の対象（国立・州立・大学の図書館・公文書館）に入るか。",
+ "qualifying_cases": [],
+ "broad_cases_desc": [
+  {"inst": "Lakeshore Museum Center (Muskegon, MI; museum & archives)", "year": "2023", "unit": "items", "offered": 1606, "accepted": 741, "src": "lmc_2023.pdf", "url": "https://lakeshoremuseum.org/wp-content/uploads/2024/03/LMC-Annual-Report-Mar-2024-Web-1.pdf"},
+  {"inst": "Carver County Historical Society (MN)", "year": "2021+2022", "unit": "offers (accepted partially or in full)", "offered": 155, "accepted": 71, "detail": "2021: 33/68, 2022: 38/87", "src": "cchs_2021.pdf, cchs_2022.pdf", "url": "https://www.carvercountyhistoricalsociety.org/pdfs/annual_meeting/2022_Annual_meeting.pdf"},
+  {"inst": "Nikkei National Museum & Cultural Centre (archives repository)", "year": "2022-23", "unit": "offers reviewed vs new donations accepted", "offered": 170, "accepted": 70, "detail": "over 170 reviewed, 70 accepted, 135+ pending; 'over' と pending のため曖昧", "src": "nnm_2023.pdf", "url": "https://centre.nikkeiplace.org/wp-content/uploads/2023/09/NNMCC-AGM-Report-2023-WEB.pdf"},
+  {"inst": "National Museum of the Royal Navy (UK)", "year": "2018-19", "unit": "offers", "offered": null, "accepted": null, "b": 0.5, "detail": "Over 500 offers ... around 50% accepted", "src": "nmrn_2019.pdf", "url": "https://rnm.qa.civiccomputing.com/sites/default/files/2022-06/nmrn_final_2019_-_web_accessible_1_3.pdf"}
+ ],
+ "no_ratio_found": [
+  {"inst": "National Library of Australia", "src": "nla_ar_2024_25.pdf, nla_offer.html", "finding": "申し出の件数・受け入れ件数の記載なし。2024-25 に非登録資料 20,828点を処分し、うち 14,000点以上は収集方針外の未請求の寄贈。登録済み 285冊を処分（262冊は収集方針外）。"},
+  {"inst": "Library and Archives Canada (House of Commons Q-772, 2012)", "src": "lac_q772.html", "finding": "未請求の申し出の受け入れ・拒否の件数を問う質問はあるが、頁に回答の本文がない。"},
+  {"inst": "Qatar National Library / UCL / Wellington City Libraries / Middlebury / Ole Miss / Cambridge UL", "src": "検索結果の抜粋のみ（数値なし）", "finding": "方針のみで件数なし。保存していないので数えない。"}
+ ]}

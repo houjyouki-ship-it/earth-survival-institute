@@ -1,0 +1,162 @@
+070 loaded 157 s
+b3_0 done 7 s
+b3_300 done 12 s
+b10_0 done 15 s
+b10_300 done 18 s
+chk1_0 done 28 s
+main_kmov per_subregion@cty per_subregion@cty 68 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 79 s
+kmov_x2 per_subregion@pt per_subregion@pt 90 s
+ref_071 per_subregion@pt cover3000x@cty 92 s
+mesh 35 0.3002 95 s
+mesh 50 0.3359 97 s
+mesh 100 0.4191 98 s
+mesh 150 0.4718 99 s
+mesh 200 0.5097 101 s
+mesh 300 0.5654 103 s
+074 loaded 259 s
+checks ok 264 s
+075 loaded 264 s
+chk_mesh35 0.6801 0.8709 269 s
+chk_mesh200 0.7289 0.8887 274 s
+chk_per_subregion@cty 0.6585 0.8631 278 s
+check ok {'mesh35': 0.0, 'mesh200': 0.0, 'per_subregion@cty': 0.0} 278 s
+mesh35_a0.0 0.6801 0.8709 283 s
+mesh100_a0.0 0.7058 0.8803 287 s
+mesh200_a0.0 0.7289 0.8887 292 s
+mesh35_a0.1 0.6847 0.8726 296 s
+mesh100_a0.1 0.7094 0.8816 301 s
+mesh200_a0.1 0.7306 0.8893 305 s
+mesh35_a0.25 0.6923 0.8754 310 s
+mesh100_a0.25 0.7121 0.8826 314 s
+mesh200_a0.25 0.7317 0.8897 319 s
+mesh35_a0.5 0.7018 0.8788 324 s
+mesh100_a0.5 0.7154 0.8838 328 s
+mesh200_a0.5 0.735 0.8909 333 s
+mesh35_a1.0 0.7193 0.8852 338 s
+mesh100_a1.0 0.728 0.8884 343 s
+mesh200_a1.0 0.7419 0.8934 348 s
+cover1500@cty_a0.5 0.6877 0.8737 353 s
+cover750@cty_a0.5 0.6827 0.8719 358 s
+cover3000x@cty_a0.5 0.7072 0.8808 362 s
+per_subregion@cty_a0.5 0.6864 0.8732 367 s
+pop@cty_a0.5 0.6914 0.875 372 s
+surv150@cty_a0.5 0.6934 0.8758 376 s
+bigplus@cty_a0.5 0.6844 0.8725 381 s
+per_subregion@pt_a0.5 0.6801 0.8709 385 s
+pop@pt_a0.5 0.7007 0.8784 390 s
+mesh35_a0.5_Lx2 0.6974 0.8772 394 s
+mesh200_a0.5_Lx2 0.7345 0.8907 399 s
+mesh35_a0.5_Lhalf 0.7038 0.8795 404 s
+mesh200_a0.5_Lhalf 0.7364 0.8914 409 s
+{
+ "check_079": {
+  "CE_max_rel_diff": 0.0,
+  "reproduced": true
+ },
+ "offers": {
+  "n_qualifying": 0,
+  "b_qualifying": [],
+  "n_broad_desc": 4,
+  "b_broad_desc": [
+   0.4613947696139477,
+   0.45806451612903226,
+   0.4117647058823529,
+   0.5
+  ],
+  "broad_median": 0.45972964287149,
+  "broad_min": 0.4117647058823529,
+  "broad_max": 0.5,
+  "n_no_ratio": 3
+ },
+ "main_uses_new_data": false,
+ "p_acc_quantiles": {
+  "main": [
+   0.19337182699133143,
+   0.31467177249843853,
+   0.43218931940382294
+  ],
+  "broad_offer_only_desc": [
+   0.41611700986562883,
+   0.45536805872819963,
+   0.49550985911303397
+  ],
+  "broad_offer_x_receipt_desc": [
+   0.08785210965421925,
+   0.1428596639034305,
+   0.20024875873057063
+  ],
+  "broad_offer_foreign_x0.5_desc": [
+   0.20805850493281441,
+   0.22768402936409982,
+   0.24775492955651698
+  ]
+ },
+ "per_P_quantiles": {
+  "main": [
+   20.57486077481229,
+   41.77710389469104,
+   86.13136649169809
+  ],
+  "broad_offer_only_desc": [
+   15.604574011164543,
+   27.944432323079045,
+   48.31111740626068
+  ],
+  "broad_offer_x_receipt_desc": [
+   44.97870170042066,
+   91.70762257381625,
+   190.23418572888815
+  ],
+  "broad_offer_foreign_x0.5_desc": [
+   31.209148022329085,
+   55.88886464615809,
+   96.62223481252136
+  ]
+ },
+ "share_below_heavy_cross": {
+  "main": 0.4593,
+  "broad_offer_only_desc": 0.0,
+  "broad_offer_x_receipt_desc": 1.0,
+  "broad_offer_foreign_x0.5_desc": 1.0
+ },
+ "b_needed_if_both_stages_with_a_median": 1.0258369370334837,
+ "hypotheses": {
+  "H92a": {
+   "class": "確認的",
+   "value": {
+    "n": 0,
+    "median": null
+   },
+   "rule": "n>=2 and median b_j > 0.30",
+   "supported": false
+  },
+  "H92b": {
+   "class": "確認的",
+   "value": {
+    "n": 0,
+    "min": null
+   },
+   "rule": "n>=2 and min b_j > 0.296",
+   "supported": false
+  },
+  "H92c": {
+   "class": "予測",
+   "value": 1.0031588818390569,
+   "rule": "heavy, alpha=0.5: marginal/average (medians) > 1",
+   "supported": true
+  },
+  "H92d": {
+   "class": "予測",
+   "value": 0.37556004423158507,
+   "rule": "total, alpha=0.5: marginal/average (medians) < 1",
+   "supported": true
+  }
+ }
+}
+main {'total': {'a0.0': (52.44, 32.72, 0.624, 0.228), 'a0.5': (59.28, 22.26, 0.376, 0.061)}, 'heavy': {'a0.0': (53.88, 115.33, 2.14, 0.881), 'a0.5': (78.09, 78.34, 1.003, 0.484)}}
+broad_offer_only_desc {'total': {'a0.0': (54.86, 49.14, 0.896, 0.418), 'a0.5': (62.01, 33.44, 0.539, 0.163)}, 'heavy': {'a0.0': (56.37, 173.21, 3.073, 0.977), 'a0.5': (81.69, 117.65, 1.44, 0.699)}}
+broad_offer_x_receipt_desc {'total': {'a0.0': (45.82, 14.85, 0.324, 0.024), 'a0.5': (51.79, 10.1, 0.195, 0.001)}, 'heavy': {'a0.0': (47.08, 52.34, 1.112, 0.539), 'a0.5': (68.22, 35.55, 0.521, 0.129)}}
+broad_offer_foreign_x0.5_desc {'total': {'a0.0': (50.61, 24.57, 0.485, 0.106), 'a0.5': (57.21, 16.72, 0.292, 0.011)}, 'heavy': {'a0.0': (52.0, 86.6, 1.665, 0.793), 'a0.5': (75.36, 58.83, 0.781, 0.322)}}
+runtime 410.5
+EXIT 0
