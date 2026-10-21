@@ -1,0 +1,214 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究085：崩壊の後に人は大きな町に残るか ― 歴史の都市人口の弾力性で α の向きを置く（open_problems 199） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="085-open_problems-199">研究085：崩壊の後に人は大きな町に残るか ― 歴史の都市人口の弾力性で α の向きを置く（open_problems 199）</h1>
+<blockquote>
+<p><strong>注</strong>：TC/V0 は生存確率でも復興確率でもない（060〜084 の模型の中の価値の比）。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>事前登録：PREREGISTRATION.md（2026-10-21T20:35Z、都市人口の表を開く前・sim.py の前）。</li>
+<li>資料【事実（出典）】：Reba, Reitsma &amp; Seto 2016「Spatializing 6,000 years of global urbanization」（Sci. Data, https://www.nature.com/articles/sdata201634 ）の FigShare の表 chandlerV2.csv（https://doi.org/10.6084/m9.figshare.2059494 ）と modelskiAncientV2.csv（https://doi.org/10.6084/m9.figshare.2059497 ）。Chandler と Modelski の推定をそのまま空間化した表で、人口の値は両著者のもの。保存と SHA256 は sources/。</li>
+<li>第1部 episodes.py：崩壊の局面ごとに t0 の都市の人口 P0 と t1 の P1 を対応させ、log P1 = c + β log P0 を当てた。t1 で表から消えた都市は「その地域の t1 の掲載の下限の半分」を入れる版（主）と、消えた都市を除く版。95% は 2,000 回の bootstrap。</li>
+<li>第2部 sim.py：075 の sim.py を exec して mesh35・mesh200 を差0で再現（assert）、群の点を国の中で pop^e に比例して引く（e=1 が 075、同じ一様乱数）。e=β の重い崩壊の TC/V0 を出し、076 の α 走査の傾きで等価な α に直した。</li>
+<li>【独自仮説（写像）】都市の人口の P0^β の縮み方を、崩壊後の群の居場所の重み pop^e（e=β）に移す。表は大きな都市（下限は時代で 2千〜5万人）しか載せないので、群の大半を占める農村の動きは測っていない。</li>
+</ul>
+<h2 id="1">第1部の結果：β（主＝消えた都市に下限の半分）</h2>
+<table>
+<thead>
+<tr>
+<th>局面</th>
+<th>表</th>
+<th>t0→t1</th>
+<th>n(t0)</th>
+<th>t1 に掲載</th>
+<th>β（95%）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>西ローマ</td>
+<td>Chandler</td>
+<td>361→622</td>
+<td>8</td>
+<td>3</td>
+<td>0.64（−0.74〜1.73）</td>
+</tr>
+<tr>
+<td>西ローマ</td>
+<td>Chandler</td>
+<td>361→800</td>
+<td>8</td>
+<td>4</td>
+<td>1.10（−4.6〜2.3）</td>
+</tr>
+<tr>
+<td>青銅器時代末の東地中海</td>
+<td>Modelski</td>
+<td>前1300→前1000</td>
+<td>14</td>
+<td>4</td>
+<td>0.42（−0.23〜1.20）</td>
+</tr>
+<tr>
+<td>アッカド/ウル第3王朝後のメソポタミア</td>
+<td>Modelski</td>
+<td>前2300→前2000</td>
+<td>16</td>
+<td>10</td>
+<td>0.71（0.12〜1.08）</td>
+</tr>
+<tr>
+<td>モンゴル後の西アジア</td>
+<td>Chandler</td>
+<td>1200→1300</td>
+<td>15</td>
+<td>2</td>
+<td>0.37（0〜0.85）</td>
+</tr>
+<tr>
+<td>モンゴル後の西アジア</td>
+<td>Chandler</td>
+<td>1200→1400</td>
+<td>15</td>
+<td>3</td>
+<td>0.68（0〜1.38）</td>
+</tr>
+<tr>
+<td>対照 欧州</td>
+<td>Chandler</td>
+<td>1700→1800</td>
+<td>137</td>
+<td>124</td>
+<td>1.04（0.80〜1.36）</td>
+</tr>
+<tr>
+<td>対照 欧州</td>
+<td>Chandler</td>
+<td>1500→1600</td>
+<td>105</td>
+<td>84</td>
+<td>1.27（0.94〜1.63）</td>
+</tr>
+<tr>
+<td>対照 中国</td>
+<td>Chandler</td>
+<td>1700→1800</td>
+<td>31</td>
+<td>30</td>
+<td>1.16（0.74〜1.58）</td>
+</tr>
+<tr>
+<td>対照 インド</td>
+<td>Chandler</td>
+<td>1500→1600</td>
+<td>21</td>
+<td>14</td>
+<td>−0.46（−0.97〜0.27）</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>崩壊の版の中央値 <strong>β=0.66</strong>（局面ごとの平均の中央値 0.62、範囲 0.42〜0.87）、対照の中央値 <strong>1.10</strong>。上位半分の都市の残りの割合 ÷ 下位半分の比 ρ は崩壊 0.79・対照 1.02。漢の崩壊・西ローマの Modelski 版・マヤは表に都市が 3 つ以下で計算できなかった。</li>
+<li>感度（登録外・記述、sensitivity.json）：消えた都市に下限の 0.25 倍を入れると崩壊 0.37・対照 1.06、1 倍で 0.93・1.15。対照から India（1565 年の Vijayanagara の陥落を含み、実は崩壊に近い）を除くと 1.13〜1.19。<strong>崩壊の β が 1 と対照より下という向きは3つの版すべてで同じ</strong>だが、大きさは消えた都市の扱いで 0.37〜0.93 動き、局面ごとの 95% はほぼすべて 1 を含む。</li>
+</ul>
+<h2 id="2-tcv0a_ordu3">第2部の結果：重い崩壊の TC/V0（A_Ord/U3、主の届く距離）</h2>
+<table>
+<thead>
+<tr>
+<th>e</th>
+<th>mesh35</th>
+<th>mesh200</th>
+<th>35→200</th>
+<th>写しに届かない群（mesh35）</th>
+<th>等価な α</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.25</td>
+<td>0.668</td>
+<td>0.712</td>
+<td>0.045</td>
+<td>74.7%</td>
+<td>−0.27</td>
+</tr>
+<tr>
+<td>0.42（最小の局面）</td>
+<td>0.670</td>
+<td>0.715</td>
+<td>0.045</td>
+<td>72.8%</td>
+<td>−0.22</td>
+</tr>
+<tr>
+<td>0.5（074 の sqrtpop）</td>
+<td>0.671</td>
+<td>0.718</td>
+<td>0.047</td>
+<td>71.8%</td>
+<td>−0.19</td>
+</tr>
+<tr>
+<td><strong>0.66（主）</strong></td>
+<td><strong>0.672</strong></td>
+<td><strong>0.719</strong></td>
+<td><strong>0.047</strong></td>
+<td>69.3%</td>
+<td><strong>−0.17</strong></td>
+</tr>
+<tr>
+<td>0.87（最大の局面）</td>
+<td>0.678</td>
+<td>0.725</td>
+<td>0.046</td>
+<td>65.2%</td>
+<td>−0.04</td>
+</tr>
+<tr>
+<td>1（075）</td>
+<td>0.680</td>
+<td>0.729</td>
+<td>0.049</td>
+<td>62.5%</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1.10（対照）</td>
+<td>0.681</td>
+<td>0.730</td>
+<td>0.050</td>
+<td>60.3%</td>
+<td>+0.01</td>
+</tr>
+<tr>
+<td>1.25</td>
+<td>0.687</td>
+<td>0.734</td>
+<td>0.047</td>
+<td>57.2%</td>
+<td>+0.14</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>e=0.66 で mesh100 は 0.695、全体（重い＋軽い）の mesh35 は 0.871→0.868。</li>
+<li>10の置き方：Kendall τ 0.87、最良はどちらも mesh35、幅 0.028→0.024。大都市35（pop@pt）は 0.678→0.670 で mesh35 との差がやや開く。</li>
+<li>版：e=0.66 に 076 の α=0.5 の寄せを重ねると mesh35 0.694（076 の e=1 では 0.702）、mesh200 0.732。</li>
+<li>e=0.62 と 0.66 で mesh35 の順が逆（0.6728 と 0.6724）なのは、点を引き直す離散の揺れ（約 0.0005）で、差の読み取りの下限はこの程度。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H97a（確認的・資料を開く前）<strong>支持</strong>：崩壊の β の中央値 0.66 &lt; 1（版で 0.37〜0.93、すべて &lt; 1）。</li>
+<li>H97b（確認的・資料を開く前）<strong>支持</strong>：0.66 &lt; 対照の 1.10（版でも成り立つ）。ただし局面数は 4（版 6）で、個々の区間は重なる。</li>
+<li>H97c（予測）<strong>支持</strong>：mesh35 は 0.680→0.672（−0.0077 ≤ −0.005）。</li>
+<li>H97d（予測）<strong>棄却</strong>：35→200 の上げ幅は 0.047 で 075 の 0.049 を下回る。大都市から散ると届く写しの数が網目でも減り、部数の効きは強まらなかった。</li>
+<li>H97e（予測）<strong>支持</strong>：τ 0.87 ≥ 0.6。</li>
+</ul>
+<h2 id="_3">解釈と批判的検討</h2>
+<ul>
+<li>【推測】歴史の表で見るかぎり、崩壊の後に人は「写しのある大きな町」に寄るのではなく、大きな町ほど相対的に縮む向きで、076 の α の正の値（0.1〜1）を支える根拠はない。等価な α は −0.04〜−0.22（主 −0.17）で、076 の α=0.5（+0.022）は向きが逆の仮定だった。重い崩壊の mesh35 の幅は 0.680〜0.702 ではなく <strong>0.670〜0.681</strong> に置き直すのが資料に近い。</li>
+<li>効きの大きさは小さい（−0.008）。075〜084 の結論（置き方より部数と届く距離、mesh35 が最良の側）は e の範囲で保たれ、置き方の順位も入れ替わらない。</li>
+<li>限界：(1) 表は各時代の上位の都市だけで、t0 の都市が 8〜16 しかない局面が多く、消えた都市の扱いが β を 0.37〜0.93 動かす。(2) 測ったのは都市の人口の分布で、群（生き残りの集団）の居場所ではない。崩壊で人口全体が減ったとき大きな町の住民が近くの村へ移ったのか死んだのかは区別できない。(3) 古代の崩壊は数世紀の幅で、核の冬や疫病の重い崩壊の数年〜数十年の動きとは時間の尺度が違う。(4) 写しが「図書館として知られた場所」なら、大きな町が縮んでも写しを求めて人が寄る可能性（076 の機構）は残り、本回の β はそれを否定する証拠ではなく、町の大きさでの平均の向きを示すだけ。(5) 対照の India は崩壊を含み、対照の選び方は登録の時点で十分に詰めていなかった。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は「崩壊後に人は図書館のある都市に集まる」ことを当てにせず、大都市だけでなく中小の町にも散らした網目（mesh35 の型）を保つ。本研究所は 076 の α の主を 0 以下（主 −0.17 相当、e=0.66）に改め、寄せの正の版は上限の参考に下げる。次は、崩壊後の短い時間の尺度（数年〜数十年）での人の動き（飢饉・戦争の避難の記録）で e を確かめる（新規 215）か、標的の都市の生き残りの重み（213）へ。</p>
+<h2 id="_5">ファイル</h2>
+<p>episodes.py・episodes.json（β）、sensitivity.py・sensitivity.json（登録外の感度）、sim.py（約380秒、seed 20261085、episodes.py を中で再実行）、results.json、stdout.txt、fig_beta_tc.png、PREREGISTRATION.md、sources/（2つの CSV、fetch.sh、SHA256SUMS.txt）。</p><footer><hr><small>自動生成</small></footer></body></html>
