@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究080 事前登録（open_problems 205：事前の申し出つきの受け入れの割合） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="080-open_problems-205">研究080 事前登録（open_problems 205：事前の申し出つきの受け入れの割合）</h1>
+<p>登録時刻：2026-10-21T10:43Z（外部資料を開く前・sim.py の作成の前）</p>
+<blockquote>
+<p>注：TC/V0 と費用あたりは生存確率・復興確率ではない。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>寄贈を送る前に申し出た（offer）ものを図書館・公文書館が受け入れた割合 b_j を公開の年報・統計で集め、079 の p_acc U(0.18,0.445)（受け取った後の比）と比べ、重い崩壊 α=0.5 の 35→200 の限界/平均の判断を置き直す。</p>
+<h2 id="_2">数え方（資料を開く前に固定）</h2>
+<ul>
+<li>対象：国立・州立・大学の図書館・公文書館の年報・統計・公式報告で「申し出の件数（offers/proposals）」と「受け入れた件数（accepted/acquired）」の両方が同じ単位で書かれたもの。1機関1件（複数年あれば合算）。</li>
+<li>b_j = 受け入れ件数 / 申し出件数。件数でなく点数の場合も可（単位を記録）。</li>
+<li>比だけが書かれた公式の値（例「申し出の x% を受け入れ」）も数える。二次引用だけで原文を開けないものは除外。</li>
+<li>探索は最大で約 12 機関の頁まで。開いた頁はすべて sources/ に保存し SHA256。</li>
+</ul>
+<h2 id="_3">主の置き方</h2>
+<ul>
+<li>b_j が2件以上：主の p_acc = U(min b_j, max b_j)。印刷・送付は 079 と同じ標本、新しい乱数 seed 20261080。</li>
+<li>b_j が1件以下：主は 079 のまま（p_acc U(0.18,0.445)）とし、見つからなかったと記録する。</li>
+</ul>
+<h2 id="_4">仮説</h2>
+<ul>
+<li>H92a（確認的）：b_j が2件以上見つかり、その中央値が 0.30 を上回る。</li>
+<li>H92b（確認的）：b_j が2件以上見つかり、その最小値が 079 の a_i の中央値 0.296 を上回る（申し出の段で選別が済むので、受け入れ後の比より一様に高い）。</li>
+<li>H92c（予測）：主の置き方で、重い崩壊 α=0.5 の限界/平均（中央値）が 1 を上回る。</li>
+<li>H92d（予測）：主の置き方で、全体 α=0.5 の限界/平均（中央値）が 1 を下回る。</li>
+<li>記述（支持に数えない）：申し出の段と受け取った後の段を掛けた版 p = b × a（a は 079 の標本）、外国の資料の扱いの集計。</li>
+</ul>
+<h2 id="h92ab">判定の基準は緩めない。資料が見つからないときは H92a・b は棄却（データなし）と記録する。</h2><footer><hr><small>自動生成</small></footer></body></html>
