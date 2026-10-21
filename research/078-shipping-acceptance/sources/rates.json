@@ -1,0 +1,15 @@
+{"note": "値は保存した頁の表示どおり（2026-10-21 取得）。約 300 g・薄い（2 cm 以下）の本1冊を外国へ送る最も安い区分。fx は ECB 参照レート 2026-10-20（1 EUR あたり）。",
+ "fx_per_eur": {"USD": 1.1215, "JPY": 177.34, "GBP": 0.84028, "EUR": 1.0, "src": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml", "file": "ecb_rates.xml"},
+ "cheapest": [
+  {"op": "Japan Post", "class": "印刷物（航空便）300gまで", "cur": "JPY", "zones": {"1": 530, "2": 530, "3": 810, "4": 810, "5": 1000}, "url": "https://www.post.japanpost.jp/send/oversea/charge/list-normal/zone3.html", "file": "japanpost_zone1..5.html"},
+  {"op": "Royal Mail", "class": "International Standard Large Letter 500g (max 25mm, stamps)", "cur": "GBP", "zones": {"Europe": 7.65, "World1": 11.45, "World2": 13.90, "World3": 12.40}, "url": "https://www.mymailingroom.com/wp-content/uploads/royal-mail-international-postage-prices-2026.pdf", "file": "royalmail_wallchart_2026.webfetch.txt"},
+  {"op": "USPS", "class": "First-Class Mail International Large Envelopes (Flats) 12 oz", "cur": "USD", "zones": {"1 Canada": 7.60, "2 Mexico": 13.00, "3-5": 15.75, "6-9": 15.75}, "url": "https://pe.usps.com/text/dmm300/Notice123.htm", "file": "usps_notice123.html", "caveat": "Pieces that are rigid, nonrectangular, or not uniformly thick pay package prices."},
+  {"op": "Deutsche Post/DHL", "class": "DHL Paeckchen International bis 2 kg (ab, online)", "cur": "EUR", "zones": {"from": 6.99}, "url": "https://shop.deutschepost.de/informationen-zum-warenversand", "file": "dp_warenversand.html", "caveat": "Brief International Gross 3,30 EUR is documents only since 2019 (dp_briefe_ausland.html); not used."}
+ ],
+ "tracked": [
+  {"op": "Japan Post", "class": "国際エアパケット 300gまで（国際特定記録料込み）", "cur": "JPY", "zones": {"1": 920, "2": 990, "3": 1240, "4": 1620, "5": 1440}, "url": "https://www.post.japanpost.jp/service/send/oversea/list/delivery/airpacket.html", "file": "japanpost_airpacket.html"},
+  {"op": "USPS", "class": "First-Class Package International Service retail 9-16 oz", "cur": "USD", "zones": {"g1": 26.00, "g2": 26.60, "g3": 37.35, "g4": 38.35, "g5": 38.30, "g6": 34.25, "g7": 29.95, "g8": 31.15, "g9": 35.90, "g10": 31.15, "g11": 40.45, "g12": 41.25, "g13": 37.40, "g14": 32.05, "g15": 29.40, "g16": 29.95, "g17": 33.95, "g18": 32.05, "g19": 31.80, "g20": 31.95}, "url": "https://pe.usps.com/text/dmm300/Notice123.htm", "file": "usps_notice123.html", "note": "not tracked by itself; package class"},
+  {"op": "Royal Mail", "class": "International Standard Small Parcel 500g (stamps)", "cur": "GBP", "zones": {"E1": 12.05, "E2": 13.60, "E3": 15.05, "W1": 22.20, "W2": 22.85, "W3": 27.45}, "url": "https://www.mymailingroom.com/wp-content/uploads/royal-mail-international-postage-prices-2026.pdf", "file": "royalmail_wallchart_2026.webfetch.txt"}
+ ],
+ "domestic": [{"op": "USPS", "class": "Media Mail retail 1 lb", "cur": "USD", "value": 4.39, "url": "https://pe.usps.com/text/dmm300/Notice123.htm", "file": "usps_notice123.html"}]
+}

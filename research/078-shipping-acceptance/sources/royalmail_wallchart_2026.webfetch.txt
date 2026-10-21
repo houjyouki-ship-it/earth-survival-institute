@@ -1,0 +1,5 @@
+# WebFetch 2026-10-21 https://www.mymailingroom.com/wp-content/uploads/royal-mail-international-postage-prices-2026.pdf (Royal Mail International Services wallchart, prices effective from 7 April 2026; royalmail.com returned 403 to curl)
+Large Letters (Stamps): 500g Europe Zones 1/2/3 £7.65 | World Zone 1 £11.45 | World Zone 2 £13.90 | World Zone 3 £12.40
+Large Letters may be sent up to 750g ... up to 353mm in length and 250mm width. Maximum thickness 25mm.
+Small Parcels (Stamps) 500g: Europe Zone 1 £12.05 | Europe Zone 2 £13.60 | Europe Zone 3 £15.05 | World Zone 1 £22.20 | World Zone 2 £22.85 | World Zone 3 £27.45
+USA is in World Zone 3.
