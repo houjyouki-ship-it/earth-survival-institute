@@ -1,0 +1,104 @@
+070 loaded 166 s
+b3_0 done 8 s
+b3_300 done 12 s
+b10_0 done 16 s
+b10_300 done 19 s
+chk1_0 done 29 s
+main_kmov per_subregion@cty per_subregion@cty 72 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 84 s
+kmov_x2 per_subregion@pt per_subregion@pt 95 s
+ref_071 per_subregion@pt cover3000x@cty 96 s
+mesh 35 0.3002 100 s
+mesh 50 0.3359 102 s
+mesh 100 0.4191 103 s
+mesh 150 0.4718 105 s
+mesh 200 0.5097 106 s
+mesh 300 0.5654 108 s
+074 loaded 274 s
+checks ok 279 s
+075 loaded 279 s
+chk_mesh35 0.6801 0.8709 284 s
+chk_mesh200 0.7289 0.8887 289 s
+chk_per_subregion@cty 0.6585 0.8631 293 s
+check ok {'mesh35': 0.0, 'mesh200': 0.0, 'per_subregion@cty': 0.0} 293 s
+mesh35_a0.0 0.6801 0.8709 298 s
+mesh100_a0.0 0.7058 0.8803 303 s
+mesh200_a0.0 0.7289 0.8887 308 s
+mesh35_a0.1 0.6847 0.8726 313 s
+mesh100_a0.1 0.7094 0.8816 317 s
+mesh200_a0.1 0.7306 0.8893 322 s
+mesh35_a0.25 0.6923 0.8754 327 s
+mesh100_a0.25 0.7121 0.8826 331 s
+mesh200_a0.25 0.7317 0.8897 336 s
+mesh35_a0.5 0.7018 0.8788 342 s
+mesh100_a0.5 0.7154 0.8838 347 s
+mesh200_a0.5 0.735 0.8909 352 s
+mesh35_a1.0 0.7193 0.8852 356 s
+mesh100_a1.0 0.728 0.8884 361 s
+mesh200_a1.0 0.7419 0.8934 366 s
+cover1500@cty_a0.5 0.6877 0.8737 371 s
+cover750@cty_a0.5 0.6827 0.8719 375 s
+cover3000x@cty_a0.5 0.7072 0.8808 380 s
+per_subregion@cty_a0.5 0.6864 0.8732 385 s
+pop@cty_a0.5 0.6914 0.875 390 s
+surv150@cty_a0.5 0.6934 0.8758 394 s
+bigplus@cty_a0.5 0.6844 0.8725 399 s
+per_subregion@pt_a0.5 0.6801 0.8709 404 s
+pop@pt_a0.5 0.7007 0.8784 409 s
+mesh35_a0.5_Lx2 0.6974 0.8772 414 s
+mesh200_a0.5_Lx2 0.7345 0.8907 419 s
+mesh35_a0.5_Lhalf 0.7038 0.8795 423 s
+mesh200_a0.5_Lhalf 0.7364 0.8914 428 s
+080 loaded 429 s
+checks ok 429 s
+mesh35_a0.0_main 0.6514 0.8474 434 s
+mesh200_a0.0_main 0.6738 0.8616 439 s
+mesh35_a0.5_main 0.6611 0.8509 444 s
+mesh200_a0.5_main 0.6789 0.8634 448 s
+ver main 448 s
+mesh35_a0.0_m3_desc 0.6405 0.83 453 s
+mesh200_a0.0_m3_desc 0.6524 0.8405 458 s
+mesh35_a0.5_m3_desc 0.6441 0.8314 463 s
+mesh200_a0.5_m3_desc 0.656 0.8418 468 s
+ver m3_desc 468 s
+mesh35_a0.0_m10_desc 0.6335 0.8165 473 s
+mesh200_a0.0_m10_desc 0.6374 0.8215 478 s
+mesh35_a0.5_m10_desc 0.6349 0.817 483 s
+mesh200_a0.5_m10_desc 0.6383 0.8218 487 s
+ver m10_desc 488 s
+mesh35_a0.0_Delta30_desc 0.6522 0.8576 492 s
+mesh200_a0.0_Delta30_desc 0.6842 0.8725 497 s
+mesh35_a0.5_Delta30_desc 0.6641 0.8619 502 s
+mesh200_a0.5_Delta30_desc 0.6899 0.8746 507 s
+ver Delta30_desc 507 s
+mesh35_a0.0_Delta100_desc 0.6384 0.829 512 s
+mesh200_a0.0_Delta100_desc 0.6503 0.8446 517 s
+mesh35_a0.5_Delta100_desc 0.6424 0.8304 522 s
+mesh200_a0.5_Delta100_desc 0.6522 0.8453 527 s
+ver Delta100_desc 527 s
+mesh35_a0.0_Delta300_desc 0.6335 0.8167 533 s
+mesh200_a0.0_Delta300_desc 0.6382 0.8221 538 s
+mesh35_a0.5_Delta300_desc 0.6353 0.8174 543 s
+mesh200_a0.5_Delta300_desc 0.6385 0.8221 548 s
+ver Delta300_desc 548 s
+mesh35_a0.0_d_median_desc 0.6686 0.8666 553 s
+mesh200_a0.0_d_median_desc 0.7116 0.8824 558 s
+mesh35_a0.5_d_median_desc 0.6892 0.874 563 s
+mesh200_a0.5_d_median_desc 0.7197 0.8854 568 s
+ver d_median_desc 568 s
+mesh35_a0.0_d_pooled_desc 0.6639 0.8645 573 s
+mesh200_a0.0_d_pooled_desc 0.7072 0.8808 578 s
+mesh35_a0.5_d_pooled_desc 0.6832 0.8716 583 s
+mesh200_a0.5_d_pooled_desc 0.7123 0.8827 588 s
+ver d_pooled_desc 588 s
+mesh35_a0.0_d_median_m10_desc 0.6441 0.836 593 s
+mesh200_a0.0_d_median_m10_desc 0.6566 0.8485 598 s
+mesh35_a0.5_d_median_m10_desc 0.6476 0.8373 603 s
+mesh200_a0.5_d_median_m10_desc 0.6598 0.8497 608 s
+ver d_median_m10_desc 608 s
+mesh35_a0.5_dscan0.0 0.7018 0.8788 613 s
+mesh200_a0.5_dscan0.0 0.735 0.8909 618 s
+mesh35_a0.5_dscan0.0005 0.7003 0.8783 622 s
+mesh200_a0.5_dscan0.0005 0.7333 0.8903 628 s
+mesh35_a0.5_dscan0.001 0.6991 0.8778 632 s
+mesh200_a0.5_dscan0.001 0.7314 0.8896 637 s
