@@ -1,0 +1,15 @@
+{"definition": "r_dup = (重複・複本・改版の置き換え・同一資料の別の版/形態がある、の理由の除籍点数) / (除籍の総点数)。事前登録 2026-10-21T14:44Z の数え方どおり。",
+ "qualifying": [
+  {"inst": "University of Washington Libraries (Seattle)", "type": "university", "url": "https://lib.uw.edu/about/policies-guidelines/deaccessioning/", "file": "uw_deaccession_from081.txt",
+   "years": "FY23-FY25", "dup": 16206, "total": 49374,
+   "detail": "De-duplication 3404+933+5449=9786、Print serial de-duplication 1005+4925+490=6420（電子版の永続アクセスか他館の紙を借りる約束がある雑誌）、Weeding 5467+27524+177=33168。合計 9876+33382+6116=49374。UW は自館だけが持つ資料を除籍しないと明記。"},
+  {"inst": "高知県立大学（永国寺図書館、2014-2017 の移転時の除籍、検証委員会報告 2018-12-27）", "type": "university", "url": "https://www.u-kochi.ac.jp/uploaded/attachment/4000.pdf", "file": "kochi_pu_2018.txt",
+   "years": "H26.7-H29.3", "dup": 20599, "total": 25432,
+   "detail": "図書の除籍 25,432 冊＝重複 18,773＋非重複 6,659。非重複のうち版違い・出版者違いで同一内容を所蔵 1,826（定義の『同一資料の別の版』に入れる）。県内の他館に所蔵 2,640、どこにも所蔵なし 2,193。逐次刊行物（寄贈の紀要 約10,000、雑誌 約2,700）は理由の内訳がないため主の分母に入れず、版で分母 38,132（約）とする。除却の候補に『寄贈で、他大学が発行している記念誌、大学史、業務報告書』を明記。",
+   "alt_total_incl_serials_approx": 38132}
+ ],
+ "not_qualifying": [
+  {"inst": "ARL Statistics 2007-08 footnotes, CHICAGO", "url": "https://publications.arl.org/cdn-1736455499577/1h8bek.pdf", "file": "arl_2007_08_footnotes.txt", "reason": "『38,608 volumes that were duplicative or available in electronic form』の1文で理由別の点数ではなく、年の記載も 2006-07 と 2007-08 で食い違う。記述のみ。"},
+  {"inst": "鹿児島大学附属図書館 廃棄予定図書（中央図書館）", "url": "https://www.lib.kagoshima-u.ac.jp/sites/default/files/%E4%B8%AD%E5%A4%AE%E5%9B%B3%E6%9B%B8%E9%A4%A8%E9%87%8D%E8%A4%87%E5%9B%B3%E6%9B%B8%EF%BC%884,125%E5%86%8A%EF%BC%89.pdf", "file": "kagoshima_dup_list.txt", "reason": "重複図書だけの廃棄予定の一覧で、除籍の総点数が分からない。"},
+  {"inst": "山口県立山口図書館 年報（平成30年度）", "url": "https://knowledge.lib.yamaguchi-u.ac.jp/files/520/637.pdf", "file": "yamaguchi_pref_h30.txt", "reason": "『汚損・破損図書及び複本図書を中心に335冊』で理由別の点数なし。"}
+ ]}

@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究082 事前登録（open_problems 208＋209：除籍の内訳と、所蔵の確認・補充） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="082-open_problems-208209">研究082 事前登録（open_problems 208＋209：除籍の内訳と、所蔵の確認・補充）</h1>
+<p>登録時刻：2026-10-21T14:44Z（208 の外部資料を開く前・sim.py の作成の前）</p>
+<blockquote>
+<p>注：TC/V0 と費用あたりは生存確率・復興確率ではない。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>(A, 208) 081 の除籍の率 d は重複の除去・雑誌の整理を含む全点の率。除籍の内訳（理由別）を公開している国立・州立・大学の館の年報・統計・方針の頁を探し、「重複・複本・改版による置き換え」の割合 r_dup を出す。唯一の写しに効く率は d·(1−r_dup) と読む。
+(B, 209) 崩壊の前の期間 Δ に k 年ごとに公開の目録で所蔵を確かめ、消えた館に補充（受け入れ確率は 079 の p_acc）する仕組みを入れ、補充つきの 35部と補充なしの 200部を、重い崩壊 α=0.5 の TC と費用あたりで比べる。</p>
+<h2 id="a">数え方（A、資料を開く前に固定）</h2>
+<ul>
+<li>対象：国立・州立・大学の図書館で、同じ年（または期間）の除籍の点数を理由別に出したもの。r_dup＝（重複・複本・改版の置き換え・同一資料の別の版がある、の理由の点数）／（除籍の総点数）。1機関1件（複数年は合計）。</li>
+<li>081 で保存した UW の頁（重複の除去の内訳あり）は数に入れる。探索は新しい頁で最大で約 10 頁。開いた頁は sources/ に保存し SHA256。二次引用だけのものは除外。</li>
+</ul>
+<h2 id="b">置き方（B）</h2>
+<ul>
+<li>d の主：081 の 42 館の四分位の範囲 U(q25, q75)（081 で U(min,max) が外れ値に引っぱられたため、next_plan の方針どおり）。081 の U(min,max) は版。A で r_dup が2件以上得られたら、唯一の写しの版として d·(1−median r_dup) を記述の版にする（主は変えない）。</li>
+<li>Δ ~ logU(10,200) 年【推測】（081 と同じ）、m=1。新しい乱数 seed 20261082。</li>
+<li>補充：k 年ごとに確認。確認の時点で写しがなければ1部を送り、079 の p_acc の確率で収蔵される（失敗なら次の確認で再び送る）。崩壊の時点の在否の確率を各標本で厳密に計算する（マルコフ連鎖）。k ∈ {5, 10, 25, 50}、主は k=10。</li>
+<li>費用：確認1回・1館あたり c_chk ~ logU($2, $20)【推測、目録の検索と記録の作業】、補充1回の送付は 078/079 の印刷＋送付（base）。将来の費用は割り引かない（主）、年 3% で割り引く版。仕組みが続く確率：主は続く、版で寿命の平均 30年・100年の指数。</li>
+<li>検査：081 の sim.py を exec して 081 の CE 全値を差0で再現。k=∞ の在否の式が exp(−d·Δ) と一致（assert）。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H94a（確認的）：内訳のある館が2館以上見つかり、そのうち2館以上で r_dup が 0.5 を上回る。</li>
+<li>H94b（確認的）：内訳のある館が2館以上見つかり、r_dup の中央値が 0.33（UW の3年合計）以上。</li>
+<li>H94c（予測）：主（k=10）で、補充つき 35部の重い崩壊 α=0.5 の TC/V0 は補充なし 200部の TC/V0 に届かない。</li>
+<li>H94d（予測）：主（k=10）で、35部（補充なし）から補充つき 35部への増分の費用あたり（中央値）は、35部から補充なし 200部への増分の費用あたりを上回る（比 &gt; 1）。</li>
+<li>記述（支持に数えない）：k の走査、割引 3%、仕組みの寿命 30・100年、d の U(min,max)、唯一の写しの版、補充つき 200部。</li>
+</ul>
+<h2 id="a-h94ab">判定の基準は緩めない。A の資料が見つからないときは H94a・b は棄却（データなし）と記録する。</h2><footer><hr><small>自動生成</small></footer></body></html>
