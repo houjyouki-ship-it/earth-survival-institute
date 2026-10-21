@@ -1,0 +1,45 @@
+070 loaded 148 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 26 s
+main_kmov per_subregion@cty per_subregion@cty 67 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 77 s
+kmov_x2 per_subregion@pt per_subregion@pt 87 s
+ref_071 per_subregion@pt cover3000x@cty 88 s
+mesh 35 0.3002 91 s
+mesh 50 0.3359 93 s
+mesh 100 0.4191 94 s
+mesh 150 0.4718 95 s
+mesh 200 0.5097 97 s
+mesh 300 0.5654 98 s
+074 loaded 247 s
+checks ok 251 s
+cover1500@cty 0.6562 0.8623 256 s
+cover750@cty 0.653 0.8611 260 s
+cover3000x@cty 0.6579 0.8629 264 s
+per_subregion@cty 0.6585 0.8631 268 s
+pop@cty 0.6692 0.867 272 s
+surv150@cty 0.6662 0.8659 277 s
+bigplus@cty 0.6525 0.8609 281 s
+per_subregion@pt 0.6546 0.8617 285 s
+pop@pt 0.6783 0.8703 290 s
+mesh35 0.6801 0.8709 294 s
+mesh20 0.6646 0.8648 298 s
+mesh50 0.6879 0.8739 302 s
+mesh100 0.7058 0.8803 307 s
+mesh150 0.7196 0.8853 311 s
+mesh200 0.7289 0.8887 315 s
+mesh300 0.7426 0.8937 320 s
+mesh35_per_group 0.6863 0.8732 324 s
+mesh35_x2 0.6982 0.8775 328 s
+mesh35_ref_071 0.7558 0.8984 332 s
+mesh35_fixedlight 0.6824 0.8718 336 s
+mesh100_per_group 0.7125 0.8828 341 s
+mesh100_x2 0.7308 0.8894 345 s
+mesh100_ref_071 0.802 0.9152 349 s
+mesh100_fixedlight 0.7058 0.8803 353 s
+mesh200_per_group 0.7386 0.8922 358 s
+mesh200_x2 0.7549 0.8981 362 s
+mesh200_ref_071 0.8263 0.924 367 s

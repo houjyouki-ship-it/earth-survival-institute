@@ -1,0 +1,18 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究075 事前登録（2026-10-21T00:40Z、sim.py の作成の前・本回の数値の計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="075-2026-10-21t0040zsimpy">研究075 事前登録（2026-10-21T00:40Z、sim.py の作成の前・本回の数値の計算の前）</h1>
+<p>指標 TC/V0 と A はどちらも生存確率でも復興確率でもない（TC/V0 は 060〜071 の模型の中の価値の比、A は届く範囲に生き残った写しがある生存者の重みの割合）。提言は模型の中での順位（外部の検証はまだ）。</p>
+<h2 id="open_problems-191194">設計（open_problems 191＋194）</h2>
+<ul>
+<li>070 の sim.py を「# ---------- 版 ----------」の前まで exec し、070 の主の TC/V0 を差0で再現する。074 の sim.py を「# ---------- 仮説 ----------」の前まで exec し、074 の versions と mesh_curve を差0で再現する（074 の置き方 PP と網目 mesh を得る）。</li>
+<li>重い崩壊の標本で、070 の「群が届く小地域・大陸の単位の数 D」を、074 の点の模型の「群の点から届く距離 r 以内にある写しの数 n」に置き換える。群の数 G と地理（xia150・xia47・pop）は 070 の乱数をそのまま使い、群の点は 074 の点の重み W[(地理,1)] から引く（新しい乱数 seed 20261075）。r は主で 073 の kmov の経験分布から標本ごとに1つ（その時代の移動の尺度）、版で群ごとに独立、kmov×2、071 の19件。</li>
+<li>写しは1か所に1部（mu=1）。軽い崩壊の部分は S_ind(T, N, N) とする（部数が軽い崩壊にも効く）。070 の rho70 と同じ式で、mu と軽い崩壊の部数だけを引数にした関数を作り、mu=5・(100,20) で 070 の主に一致することを確かめる。</li>
+<li>比べるもの：N=35 の 074 の9つの置き方＋mesh の最初の35点。部数の走査は mesh の最初の N 点、N = 20, 35, 50, 100, 150, 200, 300。</li>
+<li>費用あたり：070・071 と同じ式 ΔTC/TAB × C_T /(C_P(N) + C_pr(N) + C_map(N))。primer と地図は1部ごとの印刷費が部数に比例する（C_pr(N) = C_pr + (N−100)·per_P·f_pg、C_map = C_pr）。版として 070 と同じ固定（100部分）の費用も出す。</li>
+</ul>
+<h2 id="_1">仮説（すべて計算の前に登録した予測、確認的なものなし）</h2>
+<ul>
+<li>H87a（予測）：N=35 の10の置き方で、重い崩壊の TC/V0（A_Ord/U3、主）による順位と 074 の主の平均 A による順位の Kendall τ ≥ 0.7。</li>
+<li>H87b（予測）：mesh 200部の費用あたり（全体、中央値、A_Ord/U3）は 35部の 0.5倍未満（部数の費用は比例で増え、TC の増え方は飽和するため）。点推定 0.4。</li>
+<li>H87c（予測）：mesh で N を 35→200 にしたときの重い崩壊の TC/V0 の増分は 0.03 以上。</li>
+<li>H87d（予測）：mesh 35部の重い崩壊の TC/V0（主）は 070 の主 0.819 より 0.05 以上低い（狩猟採集民の届く距離では届く写しが減るため）。
+判定の閾値は上のとおりで、計算後に変えない。費用あたりが最大になる N は記述として報告する（支持に数えない）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
