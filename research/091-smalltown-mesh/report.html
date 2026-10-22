@@ -1,0 +1,112 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究091：写しを小さな町にも置ける網目（open_problems 223） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="091open_problems-223">研究091：写しを小さな町にも置ける網目（open_problems 223）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>090 で農村の生き残りを入れると写しに届かない群が 0.69→0.75 に増えたが、写しの候補は 074 の Natural Earth（NE）の大きな点だけだった。GeoNames cities1000 の点を写しの候補にして 074 と同じ貪欲な網目を作り直すと、同じ 35・200 部で重い崩壊の TC/V0 はどれだけ上がるか。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>090 の sim.py を版の走査の前まで exec（087・075・084 の差0の assert と PT_s の assert を含む）。090 の mesh35_M・mesh200_M・mesh35_R を差0で再現（assert、差 0.0）。074 の貪欲な網目を関数に書き直し、074 の入力で最初の 200 か所を完全に再現（assert）。</li>
+<li>新しい網目：生き残りの点（090 の版の重み）を 0.5° のます目 22,685 個に集め、候補はます目ごとの GeoNames の人口最大の点（GN）または 074 の NE の点 6,891 個（NE）。目的は 074 と同じ q=0 の届く確率の被覆 A。</li>
+<li>網目：GN_M（主：候補 GN・重み M）、GN_B（重み B_GN）、GN_Rall（重み R_all）、NE_M（候補 NE・重み M）、基準 NE074。</li>
+<li>評価：090 の 5 版（B_GN・R・R_all・M・M2）の群の点で 075 の器の重い崩壊 TC/V0（A_Ord/U3）。新しい乱数なし。入力はすべて既知なので仮説はすべて「入力判明後の予測」。新しい資料の取得なし。</li>
+</ul>
+<h2 id="tcv0simpy">結果（重い崩壊 TC/V0、sim.py の計算値）</h2>
+<table>
+<thead>
+<tr>
+<th>網目</th>
+<th>35 部 B_GN</th>
+<th>35 部 R</th>
+<th>35 部 M</th>
+<th>35 部 M2</th>
+<th>200 部 M</th>
+<th>35→200（M）</th>
+<th>35 部の届かない群（M）</th>
+<th>35 か所の人口の中央値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NE074（基準）</td>
+<td>0.6760</td>
+<td>0.6694</td>
+<td>0.6668</td>
+<td>0.6670</td>
+<td>0.7133</td>
+<td>+0.0465</td>
+<td>0.746</td>
+<td>6,376,000</td>
+</tr>
+<tr>
+<td>GN_M（主）</td>
+<td>0.6781</td>
+<td>0.6741</td>
+<td><strong>0.6739</strong></td>
+<td>0.6730</td>
+<td>0.7162</td>
+<td>+0.0423</td>
+<td><strong>0.681</strong></td>
+<td>1,196,214</td>
+</tr>
+<tr>
+<td>GN_B</td>
+<td>0.6794</td>
+<td>0.6727</td>
+<td>0.6724</td>
+<td>0.6720</td>
+<td>0.7147</td>
+<td>+0.0424</td>
+<td>0.692</td>
+<td>4,397,073</td>
+</tr>
+<tr>
+<td>GN_Rall</td>
+<td>0.6795</td>
+<td>0.6729</td>
+<td>0.6713</td>
+<td>0.6711</td>
+<td>0.7176</td>
+<td>+0.0463</td>
+<td>0.688</td>
+<td>2,364,230</td>
+</tr>
+<tr>
+<td>NE_M</td>
+<td>0.6779</td>
+<td>0.6753</td>
+<td>0.6736</td>
+<td>0.6741</td>
+<td>0.7168</td>
+<td>+0.0432</td>
+<td>0.683</td>
+<td>795,000</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【推測】網目を M の重みで作り直すと 35 部で +0.0071（0.6668→0.6739）、届かない群は 0.746→0.681。しかし候補を NE のまま重みだけ M にした NE_M でも +0.0068 で、上げ幅のほぼ全部（96%）は「生き残りの重みを知って作り直すこと」から来ており、候補を小さな町に広げた分は +0.0003 にすぎない。</li>
+<li>【推測】作りと評価の重みが違う組でも上げは残る（GN_B を M で評価 +0.0056、GN_M を B_GN で評価 +0.0021）。作りと評価を同じ重みにする楽観は 35 部の M で 0.0015 程度（GN_M 0.6739 対 GN_B 0.6724）。</li>
+<li>200 部では作り直しの得は +0.0029〜+0.0043（M）と 35 部より小さく、35→200 の上げ幅は網目を作り直すと +0.042〜0.046 にやや縮む。</li>
+<li>GN_M の 35 か所は中央値 120 万人で、小さな町（5 万未満）は 4 か所（11%）。200 か所では 17%、1 万未満 4%（人口 1 の地名を含む）。</li>
+</ul>
+<h2 id="_3">仮説の判定（すべて予測）</h2>
+<ul>
+<li>H103a 支持（+0.0071 ≥ 0.005）。</li>
+<li>H103b 支持（B_GN で 0.6781 ≥ 0.6760）。</li>
+<li>H103c 支持（届かない群 −0.065 ≥ 0.02）。</li>
+<li>H103d 棄却（NE_M の上げ +0.0068 は GN_M +0.0071 の半分未満ではない。効くのは候補の集合ではなく作りの重み）。</li>
+<li>H103e 棄却（35→200 は +0.0423 &lt; +0.0465）。</li>
+<li>H103f（記述、数えない）：中央値 50,000 未満ではなく 1,196,214。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li>貪欲な網目の目的（q=0 の A）と評価（TC）は別物で、NE_M は A では GN_M より低い（200 部 0.583 対 0.586）のに 35 部の TC はほぼ同じ。目的関数を TC に寄せた作り方は試していない（新規 224）。</li>
+<li>候補の点は「ます目の人口最大の地名」で、そこに冊子を受け入れる館があるかは見ていない。200 部の GN_M には人口 1 の地名が入っており、実在の受け入れ先の制約（078〜080 の受け入れ率）を入れると小さな町の候補はさらに効かない向き（新規 225）。</li>
+<li>ます目 0.5° に集めた重みは 075 の群の点と同じではない（作りの段だけの近似、評価は元の点）。</li>
+<li>【独自仮説】重い崩壊の TC での網目の改善は約 +0.007 で頭打ちで、写しの置き方の最適化の線は収穫逓減に入った。残る大きな幅は生き残りの居場所の模型（農村の配り方、195・218 の残り）の側にある。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は、35 か所の網目を農村の生き残りを含む重みで引き直す（得は約 +0.007）。ただし置き先を村や小さな町に広げる必要はなく、中規模以上の町の館のままでよい。本研究所は重い崩壊 mesh35 の主を 0.667 から 0.674 に改め、網目の作り方の線はこの回で閉じる方向で扱う。</p>
+<h2 id="_6">成果物</h2>
+<p>sim.py（約1042秒）、results.json、stdout.txt、fig_smalltown_mesh.png、PREREGISTRATION.md（2026-10-22T08:34Z、sim.py の前）。新しい資料の取得なし（087 の GeoNames、090 の World Bank）。前回の実行は計算を終えた後に報告の前で止まったため、本回で results.json を読み報告と記録を書いた（計算のやり直しなし）。</p><footer><hr><small>自動生成</small></footer></body></html>
