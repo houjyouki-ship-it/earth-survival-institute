@@ -1,0 +1,265 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dataset Readme - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="dataset-readme">Dataset Readme</h1>
+<h2 id="metadata">Metadata</h2>
+<p><strong>Identifier:</strong> https://osf.io/e28gq</p>
+<p><strong>Creators:</strong> Harrison, Cheryl, William Faulkner, Joshua Coupe, E. Kesse Asante, Charles Bardeen, Victoria Garza, Jonas Jägermeyr, Nicole S. Lovenduski, Alan Robock, Karen Rojas, Kim Scherrer, O. Brian Toon, and Lili Xia</p>
+<p><strong>Dataset correspondence:</strong> william@fluxrme.com</p>
+<p><strong>Title:</strong> Accessible Climate and Impact Model Output for Studying the Human and Environmental Impacts of Nuclear Conflict</p>
+<p><strong>Publisher:</strong> Open Science Framework</p>
+<p><strong>Publication year:</strong> 2025</p>
+<p><strong>Resource type:</strong> Dataset</p>
+<hr />
+<h2 id="datasets-included">Datasets Included</h2>
+<p>This repository contains 9 standardized datasets derived from climate and impact models simulating nuclear conflict scenarios. All datasets are organized by:
+- <strong>Soot injection scenarios:</strong> 0 Tg (control), 5 Tg, 16 Tg, 27 Tg, 37 Tg, 47 Tg, 150 Tg
+- <strong>Time dimension:</strong> Years and months elapsed from conflict onset
+- <strong>Spatial dimension:</strong> Country (most datasets), Exclusive Economic Zone or EEZ (fish catch), or port (sea ice)</p>
+<p><strong>Important note on sources:</strong> The <strong>Source</strong> field listed under each dataset below refers to the <strong>analysis and discussion publication</strong> where results from that dataset were analyzed and discussed (see Table S1 below). For some datasets (particularly agriculture, fish catch, starvation, UV, and sea ice), the Earth system simulation was performed for a different publication, but the specific impact analysis (e.g., crop yields, fishery changes) was conducted in the cited source. For temperature and precipitation datasets, the Earth system simulation reference and the analysis &amp; discussion publication are the same.</p>
+<p><strong>Current datasets (alphabetically):</strong></p>
+<ol>
+<li><code>agriculture_agmip_v2026-02-13.csv</code> - Crop yield changes (AGMIP model)</li>
+<li><code>agriculture_clm_v2026-02-13.csv</code> - Crop yield changes (CLM model)</li>
+<li><code>fish_catch_v2026-02-13.csv</code> - Marine fishery catch changes by EEZ</li>
+<li><code>precipitation_v2026-02-13.csv</code> - Precipitation rate and variability</li>
+<li><code>sea_ice_v2026-02-13.csv</code> - Sea ice extent by port</li>
+<li><code>starvation_v2026-02-13.csv</code> - Population starvation estimates</li>
+<li><code>surface_solar_radiation_v2026-02-20.csv</code> - Incoming solar radiation at surface (FSDS)</li>
+<li><code>temperature_v2026-02-13.csv</code> - Surface temperature and variability</li>
+<li><code>uv_radiation_v2026-02-13.csv</code> - UV radiation indices</li>
+</ol>
+<h3 id="table-s1-main-data-product-dataset-dimensions-associated-publications">Table S1. Main Data Product - Dataset Dimensions &amp; Associated Publications</h3>
+<p>Geographic and time unit columns denote the smallest (most disaggregated) unit available in the dataset. The climate forcing scenario represents the total mass of black carbon soot lofted into the stratosphere in teragrams (Tg). The penultimate column displays the publication for which the Earth system modeling was originally performed. For papers on temperature and precipitation, this column will be the same as the final column. For all other themes, additional sub-model components (e.g., for crops) were run using the outputs from the Earth systems model and the results discussed in separate papers. These updated analysis and discussion papers are shown in the final column.</p>
+<table>
+<thead>
+<tr>
+<th>Theme</th>
+<th>Dataset Tab/File Name</th>
+<th>Geographic Unit</th>
+<th>Time Unit</th>
+<th>Climate Forcing Scenario (Tg)</th>
+<th>Earth System Simulation Reference</th>
+<th>Analysis &amp; Discussion Publication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>temperature</td>
+<td>Country</td>
+<td>Month</td>
+<td>150, 47, 37, 27, 16, 5, 0</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+</tr>
+<tr>
+<td>Precipitation</td>
+<td>precipitation</td>
+<td>Country</td>
+<td>Month</td>
+<td>150, 47, 37, 27, 16, 5, 0</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+</tr>
+<tr>
+<td>UV</td>
+<td>uv_radiation</td>
+<td>Country</td>
+<td>Month</td>
+<td>150, 0</td>
+<td>Coupe et al. (2019)</td>
+<td>Bardeen et al. (2021)</td>
+</tr>
+<tr>
+<td>Surface Solar Radiation</td>
+<td>surface_solar_radiation</td>
+<td>Country</td>
+<td>Month</td>
+<td>150, 37, 27, 16, 5, 0</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+</tr>
+<tr>
+<td>Agriculture</td>
+<td>agriculture_agmip</td>
+<td>Country</td>
+<td>Year</td>
+<td>5</td>
+<td>Mills et al. (2014), Toon et al. (2019)</td>
+<td>Jägermeyr et al. (2020)</td>
+</tr>
+<tr>
+<td>Agriculture</td>
+<td>agriculture_clm</td>
+<td>Country</td>
+<td>Year</td>
+<td>150, 47, 37, 27, 16, 5</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+<td>Xia et al. (2022)</td>
+</tr>
+<tr>
+<td>Fish Catch</td>
+<td>fish_catch</td>
+<td>EEZ</td>
+<td>Year</td>
+<td>150, 47, 37, 27, 16, 5, 0</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+<td>Scherrer et al. (2020)</td>
+</tr>
+<tr>
+<td>Starvation</td>
+<td>starvation</td>
+<td>Country</td>
+<td>Year 2 only</td>
+<td>150, 47, 37, 27, 16, 5, 0</td>
+<td>—</td>
+<td>Xia et al. (2022)</td>
+</tr>
+<tr>
+<td>Sea Ice</td>
+<td>sea_ice</td>
+<td>Port</td>
+<td>Month</td>
+<td>150, 47, 37</td>
+<td>Coupe et al. (2019), Toon et al. (2019)</td>
+<td>Harrison et al. (2022)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dataset-specific-notes">Dataset-Specific Notes</h2>
+<h3 id="agriculture_agmip">agriculture_agmip</h3>
+<p>Crop yield percent changes modeled using the Agricultural Model Intercomparison and Improvement Project (AgMIP) framework. Includes corn, rice, wheat, and soya beans.</p>
+<p>This dataset uses a multi-model ensemble approach (see variable 'cesm.model.configuration') to test whether after a regional nuclear conflict scenario (5 Tg of BC in the stratosphere) the changes in agricultural yields would be detectable, given the variabilities in models and model configurations. The projected changes in crop yields are averaged across six global process-based crop models (EPICBOKU, GEPIC, LPJmL, pDSSAT, PEPIC, and PROMET) from the Agriculture Model Intercomparison and Improvement Project (AgMIP; Rosenzweig et al. 2017) and two ESM simulations with different CESM model configurations (Toon et al. 2019; Mills et al. 2014). The ESM forcing for this dataset has been bias-corrected using observational data, so that it has high fidelity with historical agriculture timeseries.</p>
+<p><strong>Source:</strong> Jägermeyr, Jonas, Alan Robock, Joshua Elliott, Christoph Müller, Lili Xia, Nikolay Khabarov, Christian Folberth, Erwin Schmid, Wenfeng Liu, Florian Zabel, Sam S. Rabin, Michael J. Puma, Alison Heslin, James Franke, Ian Foster, Senthold Asseng, Charles G. Bardeen, Owen B. Toon, and Cynthia Rosenzweig. 2020. "A Regional Nuclear Conflict Would Compromise Global Food Security." <em>Proceedings of the National Academy of Sciences</em> 117 (13): 7071–81. https://doi.org/10.1073/pnas.1919049117</p>
+<h3 id="agriculture_clm">agriculture_clm</h3>
+<p>Crop yield percent changes modeled using the Community Land Model (CLM). Includes corn, rice, spring wheat, soy, and livestock pasture grass. This dataset includes all nuclear conflict scenarios and is best used to compare different levels of nuclear-conflict-driven cooling on impacts related to food availability.</p>
+<p><strong>Source:</strong> Xia, Lili, Alan Robock, Kim Scherrer, Harrison Coupe, Joshua Coupe, Samantha Stevenson, Charles G. Bardeen, Alan Robock, and Owen B. Toon. 2022. "Global Food Insecurity and Famine from Reduced Crop, Marine Fishery and Livestock Production Due to Climate Disruption from Nuclear War Soot Injection." <em>Nature Food</em> 3 (8): 586–96. https://doi.org/10.1038/s43016-022-00573-0.</p>
+<p><strong>Notes:</strong>
+- All <code>pct.change.harvest.yield.[crop]</code> indicators were generated during the research published in Xia et al. 2022 (cited above).
+- All <code>avg.yield.[crop]</code> indicators represent a mean of the country's yield for that crop from 2000-2020. Data was sourced from "Food and Agriculture Organization of the United Nations Statistical Database (FAOSTAT)." n.d. Version Revision 2025-06-11. Accessed August 1, 2025. https://www.fao.org/faostat/en/#data. Taking the average of yields across years is important to smooth out year-to-year differences in crop yields due to normal climate variations. The simple 20-year mean yield does, however, obscure trends in crop yields resulting from changes in agronomic practices, demographics, the political context, etc., that may have been occurring in a given country during the 2000-2020 period.
+- Crop <code>livestock.pasture.grass</code>: Grass leaf carbon is used to estimate pasture change, and simulated crop production change is used to estimate animal feed from grains. Average animal feed has ratio of 46% grass to 54% crops (Xia et al. 2022, Supplemental Materials). Benchmark yield data for pasture grass is not available in a worldwide standardized dataset from FAOSTAT or otherwise, and hence not included in this data.</p>
+<h3 id="fish_catch">fish_catch</h3>
+<p>Marine fishery catch changes by Exclusive Economic Zone (EEZ). Includes mean catch per 1000 km², percent change in catch, and standard deviation of percent change.</p>
+<p><strong>Source:</strong> Scherrer, Kim J. N., Cheryl S. Harrison, Ryan F. Heneghan, Eric Galbraith, Charles G. Bardeen, Joshua Coupe, Jonas Jägermeyr, Nicole S. Lovenduski, Andrea Luna, Alan Robock, John Stevenson, Samantha Stevenson, Owen B. Toon, and Lili Xia. 2020. "Marine Wild-Capture Fisheries after Nuclear War." <em>Proceedings of the National Academy of Sciences</em> 117 (47): 29748–58. https://doi.org/10.1073/pnas.2008256117</p>
+<h3 id="precipitation">precipitation</h3>
+<p>Country-level precipitation rate (mm/month) and standard deviation. Derived from CESM1(WACCM4) climate model simulations.</p>
+<p><strong>Source:</strong> Toon, Owen B., Charles G. Bardeen, and Alan Robock. 2019. "Rapidly Expanding Nuclear Arsenals in Pakistan and India Portend Regional and Global Catastrophe." <em>Science Advances</em> 5 (10): eaay5478. https://doi.org/10.1126/sciadv.aay5478</p>
+<h3 id="sea_ice">sea_ice</h3>
+<p>Sea ice extent by port location. Useful for analyzing impacts on shipping routes and port accessibility.</p>
+<p><strong>Source:</strong> Harrison, Cheryl S., Tyler Rohr, Alice DuVivier, et al. 2022. "A New Ocean State After Nuclear War." <em>AGU Advances</em> 3 (4): e2021AV000610. https://doi.org/10.1029/2021AV000610.</p>
+<h3 id="starvation">starvation</h3>
+<p>Country-level population starvation estimates. Includes multiple sub-scenarios for trade status (with trade / no trade), livestock availability (livestock / partial livestock / no livestock), and food waste reduction (0% / 50% / 100%).</p>
+<p><strong>Notes:</strong>
+- The 150 Tg scenario includes all 18 sub-scenario combinations (2 trade × 3 livestock × 3 food waste reduction levels).
+- Other scenarios (5, 16, 27, 37, 47 Tg) include only 6 sub-scenario combinations (2 trade × 3 livestock × 1 food waste reduction level = 0% only).
+- When aggregating across sub-scenarios, be careful not to double-count populations. Use only one sub-scenario combination per analysis.</p>
+<p><strong>Source:</strong> Xia, Lili, Alan Robock, Kim Scherrer, et al. 2022. "Global Food Insecurity and Famine from Reduced Crop, Marine Fishery and Livestock Production Due to Climate Disruption from Nuclear War Soot Injection." <em>Nature Food</em> 3 (8): 586–96. https://doi.org/10.1038/s43016-022-00573-0.</p>
+<h3 id="surface_solar_radiation">surface_solar_radiation</h3>
+<p>Incoming solar radiation at the Earth's surface (variable: FSDS). Includes mean, minimum, maximum, and standard deviation.</p>
+<p><strong>Technical details:</strong>
+- <strong>Variable name:</strong> FSDS (Flux, Shortwave, Downwelling, Surface)
+- <strong>Accurate description:</strong> Incoming solar flux / insolation / incoming solar radiation
+- <strong>Wavelength range:</strong> 200–12,200 nm (includes &gt;90% shortwave plus small longwave component)
+- <strong>Units:</strong> W/m² (Watts per meter squared)
+- <strong>Model:</strong> Calculated using RRTMG radiative transfer model within CESM1(WACCM4)</p>
+<p>While commonly called "shortwave radiation," this variable actually integrates across all radiation wavelengths from 200 nm to 12,200 nm, thus including a small longwave component in addition to the dominant shortwave radiation.</p>
+<p><strong>Available scenarios:</strong> 0, 5, 16, 27, 37, 150 Tg (47 Tg source files not available)</p>
+<p><strong>Source:</strong> Toon, Owen B., Charles G. Bardeen, and Alan Robock. 2019. "Rapidly Expanding Nuclear Arsenals in Pakistan and India Portend Regional and Global Catastrophe." <em>Science Advances</em> 5 (10): eaay5478. https://doi.org/10.1126/sciadv.aay5478</p>
+<h3 id="temperature">temperature</h3>
+<p>Country-level surface temperature (°C) and standard deviation. Derived from CESM1(WACCM4) climate model simulations.</p>
+<p><strong>Difference in simulation lengths:</strong> With respect to the other soot injection scenarios, the 150 Tg case involves unique feedback loops with polar ice which prevent temperatures from recovering to pre-conflict levels. The greater length of the 150 Tg scenario simulation (28 years vs. 13 years for other scenarios and 19 years for the control scenario) represents an effort to better understand the newly stable climate state. For more, see: Harrison et al. 2022 (cited below).</p>
+<p><strong>Source:</strong> Toon, Owen B., Charles G. Bardeen, and Alan Robock. 2019. "Rapidly Expanding Nuclear Arsenals in Pakistan and India Portend Regional and Global Catastrophe." <em>Science Advances</em> 5 (10): eaay5478. https://doi.org/10.1126/sciadv.aay5478</p>
+<h3 id="uv_radiation">uv_radiation</h3>
+<p>Country-level UV radiation indices (UVA, UVB, UV Index, UV Index Max). Changes in stratospheric ozone following nuclear conflict lead to increased UV radiation at the surface.</p>
+<p><strong>Source:</strong> Bardeen, Charles G., Douglas E. Kinnison, Owen B. Toon, et al. 2021. "Extreme Ozone Loss Following Nuclear War Results in Enhanced Surface Ultraviolet Radiation." <em>Journal of Geophysical Research: Atmospheres</em> 126 (18): e2021JD035079. https://doi.org/10.1029/2021JD035079.</p>
+<hr />
+<h2 id="weighted-averages">Weighted Averages</h2>
+<p>When averaging multiple units of analysis in this data, it is important to think about simple vs. weighted averages. For example, if you want to see average temperature trends by region (groups of countries), a simple average will treat all countries as if they were the same size and could be misleading. A good rule of thumb is to use a weighted average when each data point represents a different-sized unit. Below is a table of potential ways to use weighted averages with this data.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Unit of Analysis</th>
+<th>Variable(s) to Use for Weighting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agriculture_agmip</td>
+<td>country</td>
+<td>country.land.area.sq.km or country.agricultural.land.area.sq.km</td>
+</tr>
+<tr>
+<td>agriculture_clm</td>
+<td>country</td>
+<td>country.land.area.sq.km or country.agricultural.land.area.sq.km</td>
+</tr>
+<tr>
+<td>fish_catch</td>
+<td>EEZ</td>
+<td>eez.area.sq.km</td>
+</tr>
+<tr>
+<td>precipitation</td>
+<td>country</td>
+<td>country.land.area.sq.km</td>
+</tr>
+<tr>
+<td>sea_ice</td>
+<td>port</td>
+<td>N/A (discrete port locations)</td>
+</tr>
+<tr>
+<td>starvation</td>
+<td>country</td>
+<td>country.population.2018</td>
+</tr>
+<tr>
+<td>surface_solar_radiation</td>
+<td>country</td>
+<td>country.land.area.sq.km</td>
+</tr>
+<tr>
+<td>temperature</td>
+<td>country</td>
+<td>country.land.area.sq.km</td>
+</tr>
+<tr>
+<td>uv_radiation</td>
+<td>country</td>
+<td>country.land.area.sq.km</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="scenario-descriptions">Scenario Descriptions</h2>
+<p>All scenarios simulate the climate and environmental impacts following injection of black carbon soot into the stratosphere from firestorms ignited by nuclear detonations. The soot injection scenarios correspond to different conflict scales:</p>
+<ul>
+<li><strong>0 Tg (control):</strong> No nuclear conflict; baseline climate conditions</li>
+<li><strong>5 Tg:</strong> Small-scale regional conflict (e.g., limited India-Pakistan conflict)</li>
+<li><strong>16 Tg:</strong> Moderate regional conflict</li>
+<li><strong>27 Tg:</strong> Large regional conflict</li>
+<li><strong>37 Tg:</strong> Very large regional conflict</li>
+<li><strong>47 Tg:</strong> Near-global-scale conflict</li>
+<li><strong>150 Tg:</strong> Full-scale US-Russia nuclear war</li>
+</ul>
+<p><strong>Note:</strong> Dataset availability varies by scenario. The 47 Tg scenario is currently unavailable for surface_solar_radiation due to missing source files. Most other datasets include all or most scenarios.</p>
+<hr />
+<h2 id="citations">Citations</h2>
+<h3 id="analysis-discussion-publications-primary-sources">Analysis &amp; Discussion Publications (Primary Sources)</h3>
+<p>These are the publications where data from each theme were analyzed and discussed (see Table S1 above).</p>
+<p>Bardeen, Charles G., Douglas E. Kinnison, Owen B. Toon, Ryan P. Thornberry, Andrew W. Rollins, Pengfei Yu, Eric J. Jensen, Michael J. Mills, Brian M. Lazar, Charles H. Jackman, Samantha M. Carstens, David W. Fahey, and Ru-Shan Gao. 2021. "Extreme Ozone Loss Following Nuclear War Results in Enhanced Surface Ultraviolet Radiation." <em>Journal of Geophysical Research: Atmospheres</em> 126 (18): e2021JD035079. https://doi.org/10.1029/2021JD035079</p>
+<p>Coupe, Joshua, Charles G. Bardeen, Alan Robock, and Owen B. Toon. 2019. "Nuclear Winter Responses to Nuclear War Between the United States and Russia in the Whole Atmosphere Community Climate Model Version 4 and the Goddard Institute for Space Studies ModelE." <em>Journal of Geophysical Research: Atmospheres</em> 124 (15): 8522–43. https://doi.org/10.1029/2019JD030509</p>
+<p>Harrison, Cheryl S., Tyler Rohr, Alice DuVivier, Nicole S. Lovenduski, Joshua Coupe, Charles G. Bardeen, Samantha Stevenson, Owen B. Toon, and Alan Robock. 2022. "A New Ocean State After Nuclear War." <em>AGU Advances</em> 3 (4): e2021AV000610. https://doi.org/10.1029/2021AV000610</p>
+<p>Jägermeyr, Jonas, Alan Robock, Joshua Elliott, Christoph Müller, Lili Xia, Nikolay Khabarov, Christian Folberth, Erwin Schmid, Wenfeng Liu, Florian Zabel, Sam S. Rabin, Michael J. Puma, Alison Heslin, James Franke, Ian Foster, Senthold Asseng, Charles G. Bardeen, Owen B. Toon, and Cynthia Rosenzweig. 2020. "A Regional Nuclear Conflict Would Compromise Global Food Security." <em>Proceedings of the National Academy of Sciences</em> 117 (13): 7071–81. https://doi.org/10.1073/pnas.1919049117</p>
+<p>Scherrer, Kim J. N., Cheryl S. Harrison, Ryan F. Heneghan, Eric Galbraith, Charles G. Bardeen, Joshua Coupe, Jonas Jägermeyr, Nicole S. Lovenduski, Andrea Luna, Alan Robock, John Stevenson, Samantha Stevenson, Owen B. Toon, and Lili Xia. 2020. "Marine Wild-Capture Fisheries after Nuclear War." <em>Proceedings of the National Academy of Sciences</em> 117 (47): 29748–58. https://doi.org/10.1073/pnas.2008256117</p>
+<p>Toon, Owen B., Charles G. Bardeen, and Alan Robock. 2019. "Rapidly Expanding Nuclear Arsenals in Pakistan and India Portend Regional and Global Catastrophe." <em>Science Advances</em> 5 (10): eaay5478. https://doi.org/10.1126/sciadv.aay5478</p>
+<p>Xia, Lili, Alan Robock, Kim Scherrer, Harrison Coupe, Joshua Coupe, Samantha Stevenson, Charles G. Bardeen, and Owen B. Toon. 2022. "Global Food Insecurity and Famine from Reduced Crop, Marine Fishery and Livestock Production Due to Climate Disruption from Nuclear War Soot Injection." <em>Nature Food</em> 3 (8): 586–96. https://doi.org/10.1038/s43016-022-00573-0</p>
+<h3 id="earth-system-simulation-references">Earth System Simulation References</h3>
+<p>These publications describe the original Earth system modeling simulations that provided forcing data for the impact analyses above.</p>
+<p>Mills, Michael J., Owen B. Toon, Julia Lee-Taylor, and Alan Robock. 2014. "Multidecadal Global Cooling and Unprecedented Ozone Loss Following a Regional Nuclear Conflict." <em>Earth's Future</em> 2 (4): 161–76. https://doi.org/10.1002/2013EF000205</p>
+<p>Rosenzweig, Cynthia, Joshua Elliott, Delphine Deryng, Alex C. Ruane, Christoph Müller, Almut Arneth, Kenneth J. Boote, Christian Folberth, Michael Glotter, Nikolay Khabarov, Katja Neumann, Franziska Piontek, Thomas A. M. Pugh, Erwin Schmid, Elke Stehfest, Hong Yang, and James W. Jones. 2017. "Assessing Agricultural Risks of Climate Change in the 21st Century in a Global Gridded Crop Model Intercomparison." <em>Proceedings of the National Academy of Sciences</em> 111 (9): 3268–73. https://doi.org/10.1073/pnas.1222463110</p>
+<h3 id="this-dataset">This Dataset</h3>
+<p><em>[Add citation for this dataset once published]</em></p>
+<hr />
+<p><strong>Last Updated:</strong> 2026-02-20
+<strong>Version:</strong> v2026-02-20</p><footer><hr><small>自動生成</small></footer></body></html>

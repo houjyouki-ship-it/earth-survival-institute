@@ -1,0 +1,20 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究097 事前登録（資料・気温の格子を開く前、sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="097-simpy">研究097 事前登録（資料・気温の格子を開く前、sim.py の前）</h1>
+<p>登録時刻：下の date の出力（JST）。この時点で核の冬の気温の格子・作物の温度の閾値の資料はまだ開いていない。</p>
+<p>注：出す値は模型の中の割合で、生存確率でも復興確率でもない。</p>
+<h2 id="open_problems-235">問い（open_problems 235）</h2>
+<p>150 Tg の核の冬で、耐寒・早生の作物（大麦・ライ麦・ソバ・ジャガイモ）が格子ごとに実る年があるか。096 の (iii) の置き値 d（大麦の減り＝(1−d)×小麦の減り）を、気温（積算温度 GDD と生育期間）に基づく判定で置き換え、群あたりの主食の喪失 q と 3 群の地域の喪失を作り直す。</p>
+<h2 id="_1">方法（予定）</h2>
+<ul>
+<li>平時の月平均気温の格子（公開の気候値）に、150 Tg の月ごとの気温の低下（公開の格子があればそれ、なければ緯度帯・作物地域の平均の低下）を足す。</li>
+<li>作物ごとに基準温度 Tb と成熟に要る GDD（公開の値）を置き、月平均 &gt; Tb の連続した月で GDD を積算し、成熟に届けば「実る」。</li>
+<li>096 の 4 作物の切り替え（switch）で失われる格子のうち、耐寒の作物が年 1〜5 の全年で実るなら保つ（ただし種の収支に合わせ 1 年でも実らない年があれば失う版と、蓄え 1 年分の版）。</li>
+</ul>
+<h2 id="_2">分類つき仮説</h2>
+<p>確認的（資料の値を開く前に登録）：
+- H109a：150 Tg の最悪年（年 2 前後）に、北緯 40° 以北の 096 の有効な格子で大麦（春播き）が成熟に届く面積の割合は 0.3 未満。
+- H109b：ジャガイモ（塊茎は未熟でも種芋になる）を入れると、群あたりの主食の喪失 q は 096 の switch 0.645 から 0.35 以下に下がる。
+入力判明後の予測：
+- H109c：耐寒の作物を足した q は 096 の d=0.3 の置き値（0.134）より高い（d=0.3 は楽観）。
+- H109d：3 群の同じ小地域の喪失は 0.05〜0.25 に入る。
+記述（支持に数えない）：実る格子の緯度の分布。
+2026-10-23T07:39:14 JST</p><footer><hr><small>自動生成</small></footer></body></html>
