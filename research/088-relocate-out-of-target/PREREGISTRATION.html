@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究088 事前登録（作成 2026-10-22T02:40Z、sim.py を書く前・計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="088-2026-10-22t0240zsimpy">研究088 事前登録（作成 2026-10-22T02:40Z、sim.py を書く前・計算の前）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-2191">問い（open_problems 219、核の標的の系列を閉じる1回）</h2>
+<p>087 では mesh35 の写しが標的の国の大都市にあり、重い崩壊の損は 0.0131（B0 0.6763 → CS 0.6631）。
+標的の国で、どの核の地理（xia150・xia47 の和）でも標的から R_d 以内に入る写しを、同じ国の中で元の場所から R_max 以内・全標的から R_buf の外にある GeoNames の地名（人口最大）へ崩壊の前に移すと、
+核の地理での得と、核のない地理（pop）で遠くなる損の差し引きはどうなるか。</p>
+<h2 id="_1">入力（すべて既知：確認的な仮説はない）</h2>
+<p>087 の sim.py の関数・GeoNames cities1000（087 の sources/）・084 の targets.json。新しい資料は取得しない。新しい乱数なし。</p>
+<h2 id="_2">計算（登録）</h2>
+<ul>
+<li>087 の sim.py を「# ---------- 新しい点の集合」の前まで exec（075・084 の差0の assert を含む）し、087 の主の点の集合・標的・PT を同じ関数で作る。</li>
+<li>counts_q を写しの座標の配列で書き直し（counts_c）、移さない版で 087 の mesh35_CS・mesh35_B0 を差0で再現（assert）。</li>
+<li>主（MV）：R_max 200 km、R_buf 10 km、行き先は人口最大の地名。群の点・標的・生き残りの減りは 087 の主（CS）と同じ。移した写しは全地理（pop を含む）で新しい場所にある。</li>
+<li>版：R_max 50・100 km、行き先を最も近い地名（nearest）、R_buf 25 km（R_d 25 km の損の版 CS_Rd25 と組で評価）、mesh200。</li>
+<li>差し引き：net = MV_CS − CS。核のない地理の損は MV_B0 − B0（喪失のない世界で移しただけの差）として別に示す。</li>
+</ul>
+<h2 id="_3">予測（計算の前、入力は既知）</h2>
+<ul>
+<li>H100a：主の net ≥ +0.005（087 の損 0.0131 の約4割以上を取り戻す）。</li>
+<li>H100b：主で喪失のない世界の損 |MV_B0 − B0| ≤ 0.002。</li>
+<li>H100c：R_max 50 km でも net ≥ +0.003。</li>
+<li>H100d：mesh200 で移すと 35→200 の上げ幅（MV どうし）は 087 の CS の +0.040 以上。</li>
+<li>H100e：行き先を nearest にしても主との差は 0.002 以内。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

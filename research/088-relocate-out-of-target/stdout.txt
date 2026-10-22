@@ -1,0 +1,22 @@
+070 loaded 150 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 15 s
+b10_300 done 17 s
+chk1_0 done 27 s
+main_kmov per_subregion@cty per_subregion@cty 70 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 475 s
+kmov_x2 per_subregion@pt per_subregion@pt 485 s
+ref_071 per_subregion@pt cover3000x@cty 487 s
+mesh 35 0.3002 490 s
+mesh 50 0.3359 492 s
+mesh 100 0.4191 493 s
+mesh 150 0.4718 494 s
+mesh 200 0.5097 495 s
+mesh 300 0.5654 497 s
+074 loaded 647 s
+checks ok 652 s
+chk75_mesh35 0.6801 {'n': 35, 'share150': 0.0, 'share47': 0.0} 657 s
+chk84_mesh35 0.663 {'n': 35, 'share150': 0.4, 'share47': 0.3142857142857143} 661 s
+chk84_pop@pt 0.6653 {'n': 35, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 666 s
+checks ok
