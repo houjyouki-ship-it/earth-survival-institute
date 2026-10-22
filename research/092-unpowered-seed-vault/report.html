@@ -1,0 +1,48 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究092：冷却の止まった種子庫で作物の種子はどれだけ発芽力を保つか（重い崩壊の食料の立ち直り） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="092">研究092：冷却の止まった種子庫で作物の種子はどれだけ発芽力を保つか（重い崩壊の食料の立ち直り）</h1>
+<blockquote>
+<p>注：本報告の年数・割合は模型と一つの実験の外挿の中の値で、人類の生存確率でも文明の復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">課題と新規性</h2>
+<p>next_plan の固定の節（2026-10-22）に従い、写しの置き方の系列（069〜091）を離れ、重い崩壊の別の大きな未解決課題として「食料の立ち直り」の入り口である<strong>電力のない種子庫の寿命</strong>を取り上げた。本研究所の初めての種子の研究。
+新規性【推測】：Svalbard の運営は「冷却が止まっても永久凍土で長く凍ったまま」と書くが、発芽力が何年もつかは数で書いていない。本研究は Ellis–Roberts の式（130 行の種の定数）と、同じ永久凍土に 35 年置いた NordGen の実験（41 ロット）を突き合わせ、式の誤差を測ってから電源なしの寿命を出した。</p>
+<h2 id="sources-sha256sums">資料（すべて本回に開いて確認、sources/ に保存、SHA256SUMS）</h2>
+<ul>
+<li>【事実（seedvault.no https://www.seedvault.no/about/the-facility/ ）】山の永久凍土は −3〜−4 °C で安定、保存室は冷却で −18 °C。</li>
+<li>【事実（viabilitymetrics の viabilityconstants、https://aravind-j.github.io/viabilitymetrics/reference/viabilityconstants.html 、データは GitHub の data/viabilityconstants.rda）】164 行の種の定数 KE・CW・CH・CQ（主に Hong et al. 1996）。式 log10σ = KE − CW log10 m − CH t − CQ t²、v = Ki − p/σ。適用範囲は −20〜90 °C、水分 5〜25%。</li>
+<li>【事実（NordGen 2024 の 35 年の報告、https://publication.nordgen.org/Seed-Longevity-and-Survival-of-Seed-Borne-Diseases/Seed-Longevity-and-Survival-of-Seed-Borne-Diseases-After-35-Years.pdf ）】1986 年から Svalbard の炭鉱 3 号の永久凍土に 17 作物 41 ロットをガラスのアンプルで保存。水分 3〜5%。1984 年の温度 −3.7 °C、2021 年は −1〜−2 °C と推定（測っていない）。Annex 1 に 1986 と 2021 の発芽率（本回 nordgen_annex1.csv に書き写し、A-10-1 の重複行は 1 回だけ）。</li>
+<li>【事実（30 年の報告 NordGen 2019:04、https://www.nordgen.org/media/i2kj14p0/... 、保存のみ）】30 年で平均 87.2%→76.9%。</li>
+<li>【事実（Solberg et al. 2020 Front. Plant Sci.、https://www.frontiersin.org/articles/10.3389/fpls.2020.01007/full ）】遺伝子銀行の長期の試験で、式の予測は観測より「高いか、ずっと高い」。</li>
+<li>【事実（USDA ARS の Walters et al. 2005 の要約、https://www.ars.usda.gov/research/publications/publication/?seqNo115=164041 ）】NCGRP で主に 5 °C に置いた種子の 50% の寿命は平均約 52 年（種で 12〜466 年）。</li>
+<li>【事実（Nagel &amp; Börner 2010 の PDF、ECPGR）】室温の保存で穀物の P50 は 5.9〜12.3 年（本回は参照のみ）。</li>
+</ul>
+<h2 id="simpy-seed-92">方法（sim.py、乱数はブートストラップのみ seed 92）</h2>
+<ol>
+<li>定数のそろった 130 行（CW&gt;1、CH&gt;0、CQ&gt;1e-4、KE&gt;3。Sorghum の負の CW などの 34 行は除外）で、初め 95% から P85・P50 を水分 4・5・6・8% × 温度 7 通りで出した。</li>
+<li>NordGen の 41 ロットのうち表に同じ種がある 28 ロットで、初めの発芽を Ki とし、温度を −3.7→−1.5 °C の直線（版：一定 −3.7、→−1.0）、水分 3・4・5% で 35 年後を予測し、観測の probit の落ち幅との比（=σ予測/σ観測）を出した。</li>
+<li>41 ロットそれぞれで観測の σ を出し（落ちていないロットは寿命を無限大とする打ち切り）、probit 直線で外挿した P50 と、発芽 50% 以上を保つロットの割合の時間の曲線を出した。</li>
+</ol>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li>式だけ（m=6%）：P50 の中央値は −18 °C で 265 年、−3.5 °C で 122 年、0 °C で 85 年、+15 °C で 22 年。電源の喪失（−18→−3.5 °C）の σ の比は中央値 <strong>2.14</strong>（IQR 1.97〜2.80）。水分 6→4% の σ の倍率は <strong>6.3</strong>。</li>
+<li>式と NordGen：式は 35 年でほとんど落ちないと予測するが、観測は平均 87.4%→72.5%、41 ロット中 20 で 5 点以上落ちた。観測の落ち幅/予測の比の中央値は m=4% で <strong>7.4</strong>（m=3% 17、m=5% 2.7。温度の版ではほぼ不変）、ブートストラップ 95% <strong>0.12〜26</strong>、比 ≥3 のロットは半分。</li>
+<li>補正した電源なしの寿命：補正の比を出したのと同じ水分で当てると、−3.5 °C の P50 の中央値は <strong>86〜122 年</strong>（m=3〜5%、m に頑健）、0 °C で 67〜93 年、電源あり −18 °C で 190〜270 年。+5 °C の補正値 40〜59 年は Walters et al. 2005 の 5 °C の平均約 52 年と近い（記述、独立の確かめではない）。</li>
+<li>NordGen の直接の外挿（41 ロット）：P50 の中央値 <strong>138 年</strong>。発芽 50% 以上を保つロットは 35 年 73%、100 年 63%、150 年 46%、300 年 29%。群で大きく分かれ、野菜（タマネギ・レタス・キュウリ・ニンジン）は 35 年の平均の落ち 2 点・P50 中央値 283 年、牧草は 26 点・68 年、穀物（大麦・小麦・ライ麦）は 20 点・83 年。主食の 12 ロット（大麦・小麦・ライ麦・エンドウ）の P50 中央値 103 年、100 年を超えるのは半分。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H104a（予測）：σ(−18)/σ(−3.5) の中央値 1.8〜3.5 → 2.14 で<strong>支持</strong>。</li>
+<li>H104b（予測）：式の P50（m=6%、−3.5 °C）中央値 &gt;300 年 → 122 年で<strong>棄却</strong>。</li>
+<li>H104c（確認的）：観測は式より中央値で 3 倍以上短命 → m=4% で 7.4 で<strong>支持</strong>。ただし水分の仮定で 2.7〜17 と動き、ブートストラップの幅は 1 を含み、比 ≥3 は半分のロットだけなので、弱い支持。</li>
+<li>H104d（確認的）：補正した −3.5 °C の P50 中央値 &lt;150 年 → 86〜122 年（直接の外挿 138 年）で<strong>支持</strong>。</li>
+<li>H104e（予測）：水分 6→4% の効き（6.3 倍）が電源の喪失（2.1 倍）より大きい → <strong>支持</strong>（ただし式の適用範囲 5% 未満への外挿で、式そのものが 7 倍楽観なので、確かな根拠ではない）。</li>
+</ul>
+<h2 id="_3">批判的な検討と逸脱</h2>
+<ul>
+<li>逸脱1：登録では補正の比を m=6% の式の値に当てる設定だったが、比は NordGen の水分（3〜5%）で出したので、同じ水分で当てる版を主にした（登録どおりの m=6% の値 16 年は水分を二重に罰するので採らない）。</li>
+<li>逸脱2：H104c の登録の時点で、検索の抜粋から 30 年の平均（87.2→76.9%）を見ていた。ロットごとの値は登録の後に開いた。</li>
+<li>NordGen の発芽の試験は 4 反復の平均で数点の揺れがあり、エンドウ 2 ロットとビートは増えた（休眠か試験の揺れ）。落ちていないロットは寿命を無限大としたので、外挿の上の側は過大の可能性。</li>
+<li>温度は 2021 年に −1〜−2 °C と推定で、温まりが続けば外挿は楽観の側。Svalbard の実際の保存室は冷却されたアルミの袋で、NordGen のガラスのアンプルとは包装が違う。</li>
+<li>一つの場所の 17 作物（北欧の品種）だけ。熱帯の主食（米・トウモロコシ・大豆）は NordGen の実験にない。</li>
+</ul>
+<h2 id="_4">この結果を受けて、誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>種子を預ける遺伝子銀行と Crop Trust は、重い崩壊で冷却が止まると主食と牧草の種子の約半分が 100 年前後で発芽 50% を割ると見込み、「永久凍土があるから安全」とせず、短命の作物（ライ麦・小麦・牧草・ナタネ）は電源のない保存でも生き残りの社会が数十年のうちに取り出して植え直せる場所（複数の低温の地域の銀行）に重ねて預けるべきだ。本研究所は、重い崩壊で T1 に戻るまでの年数（数十〜数百年）と種子の寿命を比べる課題（226）へ進む。</p><footer><hr><small>自動生成</small></footer></body></html>

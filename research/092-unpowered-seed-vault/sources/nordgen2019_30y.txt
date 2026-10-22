@@ -1,0 +1,2251 @@
+Seed Longevity and Survival
+of Seed Borne Diseases
+after 30 Year’s Conservation in Permafrost
+
+REPORT FROM THE 100 YEAR STORAGE EXPERIMENT
+
+
+
+
+                      1
+Seed longevity and survival of seed borne diseases after 30 years
+conservation in permafrost. Report from the 100 year storage experiment
+
+© NordGen 2019
+
+NordGen Publication Series: 2019:04
+
+
+
+
+NordGen (Nordic Genetic Resource Center) is the Nordic countries’
+genebank and knowledge center for genetic resources. The institution is
+dedicated to the safeguarding and sustainable use of plants, farm animals
+and forests.
+
+NordGen
+Smedjevägen 3
+230 53 Alnarp
+Sweden
+
+www.nordgen.org
+Seed Longevity and Survival of Seed Borne
+Diseases after 30 Years Conservation in Permafrost
+
+Report from the 100 Year Storage experiment
+
+
+
+
+Åsmund Asdal,          NordGen, Alnarp, Sweden
+
+Guro Brodal            Norwegian Institute of Bioeconomy
+                       Research, NIBIO, Ås, Norway
+
+Svein Øivind Solberg   Inland Norway University of Applied
+                       Sciences, Elverum, Norway
+
+Flemming Yndgaard      Former employee at Nordic Gene-
+                       bank, Alnarp, Sweden
+
+Roland von Bothmer     Swedish University of Agricultural
+                       Sciences, Alnarp, Sweden
+
+Eivind Meen            Kimen Seed Laboratory, Ås, Norway
+Contents
+Summary							6
+
+1. Introduction							8
+1.1.     Conserving seeds in permafrost in Svalbard		 8
+1.2.    The 100 year storage experiment			            10
+
+2. Background and practical implementation
+of the 100 year experiment 					                      11
+
+  2.1. Experimental design and materials			  12
+  2.2. Germination test methods 				16
+		2.2.1. Germination substrate			17
+		2.2.2. Temperature				18
+		2.2.3. Light					18
+		        2.2.4. Germination time and
+		               assessment of seedlings 			 18
+  2.3. Seed health test methods				19
+
+3. Results 							21
+        3.1. Germination					21
+        3.2. Seed borne diseases 				34
+        3.3. Survival of sclerotia					35
+        3.4. Moisture content in the seeds			 35
+
+4. Discussion							37
+        4.1. Seed germination					37
+        4.2. Survival of seed borne diseases			 40
+5. Recommendations						42
+
+6. Acknowledgements						44
+
+7. References 							45
+
+Annex 1							48
+Summary
+
+The Nordic Gene bank established the 100 year seed storage experiment in
+Coal mine no. 3 outside Longyearbyen in 1986. Security duplicate samples
+of the Nordic seed collection had been deposited in permafrost in the coal
+mine since 1984.
+
+The experiment was established with the aim to monitor the longevity of
+seeds in this Nordic back-up seed collection and to gain general knowledge
+about the longevity of seed stored under permafrost conditions, as well as
+studying the survival of seed borne plant pathogens.
+
+The experimental set up included in total 41 seed lots of 17 agricultural and
+horticultural crop species commonly grown in the Nordic countries. The
+seed germination experiment included two or three varieties of each crop.
+The experimental part dedicated to studies of pathogen survival included
+seeds from 11 crops naturally contaminated by pathogens.
+
+The test program comprises germination and pathogen survival tests
+every 2.5 years during the first 20 years and then every 5 years for the last
+80 years. In total 25 identical sets of test seeds placed in sealed glass tubes
+were packed in wooden boxes, one box for each planned test year.
+
+The tests have been carried out according to schedule and this report sums
+up the results from the first 30 years of the experiment. All tests have been
+carried out in accordance with the same ISTA-protocols.
+
+
+
+
+                                       6
+The results show that 9 of the 17 species after 30 years had retained more
+than 90 percent of their initial germination percentage. Beet (Beta vul-
+garis), Onions (Allium cepa), Cucumber (Cucumis sativus) and Kentucky
+bluegrass (Poa pratensis) had retained between 97 and 99 percent. At the
+lower end of the scale, rye (Secale cereale) had lost 51 percent of the initial
+germination percentage. Among the other cereals, barley (Hordeum vul-
+gare) showed the highest viability as it had kept 89 percent viability, whilst
+wheat (Triticum aestivum) had kept 79 percent of the initial germination
+percentage.
+
+Mean germination of all test samples showed a drop from 87.2% at
+year0 to 76.9% at year 30. The pathogen tests showed that all pathogens
+had survived over the 30 years, more or less at the same contamination
+levels as were detected at the start of the project.
+
+To expand the knowledge about seed longevity under long-term seed
+storage it is recommended to establish a new more comprehensive exper-
+iment with seed materials from a wider selection of crops, and to include
+more replicates and seeds produced over more years, allowing more in-
+depth statistical studies of the longevity development. A new experiment
+should be placed in the Svalbard Global Seed Vault, in order to provide
+results relevant for optimal gene bank conservation methods at -18°C and
+giving direct data on the longevity of seeds stored in the Seed Vault.
+
+
+
+
+                                       7
+1. Introduction
+The Nordic Gene Bank for plants (NGB, now NordGen) has from its estab-
+lishment in 1979 been conserving seeds of Nordic agricultural and horti-
+cultural crop plant varieties, landraces, wild relatives and genetic stocks.
+Normal gene bank activities related to conservation and use of plant
+genetic material have been performed. In 2008, NGB was merged into the
+Nordic Genetic Resource Centre (NordGen). Soon after the establishment
+of NGB in 1979, an initiative was taken to find a safe and low-cost storage
+for a duplicate safety collection of the most valuable material.
+
+1.1. Conserving seeds in permafrost in Svalbard
+In 1981, the NGB Board established a Permafrost Working Group to ex-
+plore options for safety storage of seeds in permafrost. The aims were
+both to explore options for securing backup copies of the Nordic seed
+collections and to compare costs between permafrost storage and storage
+in freezers at NGB headquarters in Alnarp in southern Sweden.
+
+The group consisted of Arne Wold, Director of the Norwegian State Seed
+Testing Station, Lennart Kåhre, Director of the Swedish Seed Testing and
+Certification Institute, and Flemming Yndgaard from NGB. It was included
+in the mandate for the group that possible international interest for coop-
+eration should be explored (NGB Board minutes, July 1982).
+
+Several options were considered, including storage in an inland ice cave in
+Greenland, mountain caves in the Norwegian mountain area Jotunheimen
+and a permafrost area located at Torneträsk in northern Sweden.
+
+After consultations with the Norwegian state owned mining company
+Store Norske Spitsbergen Kulkompani (SNSK), abandoned coal mines in
+Svalbard were considered to be the optimal solution. Reasons for the deci-
+sion were, despite the remote location, the good infrastructure and acces-
+sibility in Svalbard, low establishment and management costs compared
+to new constructions, lower temperatures than the other options and good
+structure stability for the storage facility compared to ice caves.
+                                     8
+An abandoned transverse passage AT2 in Coal Mine no. 3 on the northern
+slope of Platåfjellet (Plateau Mountain) three kilometres west of the town
+of Longyearbyen was chosen for the purpose. The permafrost tempera-
+tures in air and rock were measured to be -3.6°C and -3.7°C, respectively
+(Yndgaard, 1985). The store would be independent of external energy
+supplies.
+
+A double-pickled steel container, measuring 4.0x1.6x2.0 m, treated against
+corrosion, was placed in the abandoned transverse passage AT2 and se-
+cured for long term storage. To prevent galvanic corrosion the container
+was installed on a platform made of wood material, isolating the container
+from the mine floor. The container was placed about 200 metres inside the
+mine shaft and 70 metres below the soil surface (Yndgaard, 1985).
+
+SNSK assisted with all practical operations, such as preparing the mine
+gallery for hosting the container and arranging the transport from the
+airport to AT2. A wooden wall was built to separate the container from the
+abandoned coal mine area and to protect against the draught of air and
+gas in the mine during ventilation. The transverse mine gallery allocated
+for the seed container was named Frøyhall, in honour of Frøy, the Nordic
+fertility god. Frø or frö is also the Scandinavian word for seed.
+
+From the start, the cooperation between NGB and SNSK was based on
+verbal agreements and understanding. A formal agreement, including
+provisions for future assistance in maintenance and access to the seeds,
+was signed in 1984. An additional supplementary agreement concerning
+economic compensation from NordGen to SNSK for rent and assistance
+was signed in February 2017.
+
+The first seed deposit in Svalbard was put in the steel container in Coal
+Mine no. 3 on 14th November 1984. Before shipment to Svalbard, seeds
+were dried to water content between three and six percent (Yndgaard,
+1983), placed in sealed glass ampoules and packed in wooden boxes filled
+with insulation material at NGB. These first seed deposits were safety
+copies/duplicates of Nordic germplasm conserved in the Nordic Gene Bank
+seed collection in Alnarp in southern Sweden.
+
+                                     9
+The back-up of the Nordic seed collection in permafrost in the coal mine
+in Svalbard inspired the discussions and later on the planning process for
+construction of the Svalbard Global Seed Vault as an international facility
+for storing safety samples of seeds conserved in gene banks. The experi-
+ment described and reported here is related to the storage of seeds in per-
+mafrost only, and the results are not relevant for evaluating seed longevity
+when stored at -18°C, as in the Svalbard Global Seed Vault.
+
+The NGB safety seed collection was transferred from Coal Mine no. 3 to
+the Svalbard Global Seed Vault when this was opened in 2008. However,
+the material of the 100 year storage experiment is still kept in the steel
+container in the transverse AT2 (Frøyhall) of Coal Mine no. 3.
+
+
+1.2. The 100 year storage experiment
+As a tool to monitor the seed longevity of materials in the safety seed
+collection, as well as gaining general knowledge about seed longevity
+under permafrost conditions, it was decided to establish a long term seed
+storage experiment in the same storage container. The experiment was
+established in 1986 with the aim to study the storage lifespan and survival
+of seed borne pathogens of orthodox seeds of common agricultural and
+horticultural crop species in the Nordic countries, stored under permafrost
+conditions (Yndgaard, 1985). The experiment was set up for the period un-
+til 2086 and was named The 100 year experiment. This report describes the
+background, materials and results from testing of samples after the first 30
+years of the experiment.
+
+Seeds for the experiment were packed in sealed glass ampoules, stored in
+wooden boxes and shipped to Svalbard in December 1986.
+
+Between 1986 and 2016, staff from the Kimen Seed Laboratory (formerly
+the Norwegian State Seed Testing Station) or Nordic Gene Bank/NordGen
+visited Svalbard regularly for retrieving seeds for testing. On some occa-
+sions, withdrawal of test samples was conducted by SNSK. According to
+the test plan, seeds were taken out for testing every 2.5 years during the
+first 20 years. Since 2006, seeds have been taken out every five years.
+
+                                     10
+2. Background and practical implementa-
+tion of the 100 year experiment
+The storage potential of seeds is influenced by pre- and post-harvest
+conditions, such as weather during seed maturation, seed dormancy and
+maturity at harvest, mechanical damage, moisture and vigour of seeds at
+the time of storage, in addition to genetic effects, e.g. variation among
+crop species and cultivars. However, seed moisture content and storage
+temperature are the most important factors (Justice and Bass, 1978).
+
+Fungi infecting seeds when they are developing on the plants in the field
+(field fungi) may reduce the seed quality, and storage fungi can cause se-
+rious loss of viability when seeds are conserved in the seed store. Dry and
+cool conditions during storage may reduce such risks (Christensen, 1972).
+In order to obtain maximum seed quality, harvesting should be carried out
+after the seeds are fully mature (Probert et al., 2007).
+
+Low moisture and low temperature in storage will slow down the deterio-
+ration processes, and for maximum storage life, these two conditions must
+be kept low and carefully controlled. However, the storage time will still be
+limited. Cromarty et al. (1982) and Rao et al. (2017) discuss thoroughly the
+theories of seed longevity and give valuable references.
+
+Low temperature is achieved in freezers and cold storage rooms; however,
+such facilities are vulnerable to failure in energy supplies. The coal mine in
+Svalbard was chosen for the NGB security backup collection and for the
+100 year experiment because it provided permafrost independent of any
+energy supply and ensured the same physical conditions during a long
+storage period.
+
+The NGB Board decided on August 7th 1985 to approve the experiment
+plan for a 100 year experiment prepared by the Permafrost Working Group.
+
+It was agreed that all germination and disease analyses should be carried
+out in Norway in order to avoid possible problems with cross border trans-
+
+                                      11
+fers of seed samples from the permafrost storage to the analysis institute
+since Norway has had the sovereignty of Svalbard since August 14th 1925.
+Hence, the seeds have been be analysed for germination capacity, mois-
+ture and diseases at Kimen Seed Laboratory in Norway. The analyses of
+lettuce mosaic virus have been conducted at the Norwegian Institute of
+Bioeconomy Research in Ås.
+
+2.1. Experimental design and materials
+In total, samples from 41 seed lots of 17 agricultural and horticultural crop
+species commonly grown in the Nordic countries were included in the
+experiment. The study was divided into two series. Series A is for studying
+the development of germination capacity and moisture content in some
+of the seed lots during the first 10 years and comprises 15 species with two
+cultivars of each, except for pea which is represented by three cultivars, i.e.
+altogether 31 seed lots/cultivars (Table 1).
+
+Series B considers the survival of 14 common seed borne pathogens found
+in Nordic Crops, in addition to development of germination capacity, in
+ten crop species, each represented by one seed lot/cultivar (Table 2). It was
+considered most appropriate to use naturally infected seeds. In addition,
+one sample of fungal survival structures (sclerotia) was included in series B.
+
+Most materials for series B were selected among Norwegian seed lots.
+These were identified in routine seed health tests at the Norwegian State
+Seed Testing Station. In addition, seed laboratories in the Netherlands
+and United Kingdom provided infected seed of lettuce and carrot (seed lot
+B-7 and B-9), and beet (B-10), respectively. Agriculture Canada’s Research
+Station in Winnipeg, Manitoba supplied wheat seed (B-2) infected by loose
+smut (Ustilago nuda f sp tritici). To study longevity of sclerotia, one sample
+of sclerotia of stem rot (Sclerotinia sclerotiorum) cleaned out from a Nor-
+wegian Brassica oleracea seed lot was included (B-3).
+
+To ensure that the same methods of estimating the germination capacity
+and the detection of seed borne pathogens are practiced over the whole
+100-year period, a complete paper copy description of the experimental
+
+                                      12
+layout and procedures is kept along with the stored material in each of the
+wooden boxes with ampoules. Following the same procedures and test
+methods through the whole experiment is crucial for the scientific value of
+the results.
+
+Table 1. Crop species, cultivars and country of origin of seed materials includ-
+ed in the seed longevity investigations in the 100 years storage experiment
+in permafrost (Series A). Each crop is represented by two cultivars, but with
+three cultivars for pea (Pisum sativum).
+ Sample identity Crop / species                  Cultivars (country of ori-
+                                                 gin)¹
+ A-1-1/A-1-2           Barley (Hordeum vul-      Inga Abed (DNK), Tunga
+                       gare)                     (NOR)
+ A-2-1/A-2-2           Wheat (Triticum aes-      Vakka (FIN), Solid (SWE)
+                       tivum)
+ A-3-1/A-3-2           Rye (Secale cereale)      Petkus II (DNK), Voima
+                                                 (DNK)
+ A-4-1/A-4-2           English ryegrass (Loli- Pippin (DNK), Riikka (FIN)
+                       um perenne)
+ A-5-1/A-5-2           Timothy (Phleum           Tammisto (FIN), Bodin
+                       pratense)                 (NOR)
+ A-6-1/A-6-2           Kentucky bluegrass        Hankkijan Kyösti (FIN),
+                       (Poa pratensis)           Annika (DNK)
+ A-7-1/A-7-2           Red clover (Trifolium     Jokioinen (FIN), Molstad
+                       pratense)                 (NOR)
+ A-8-1/A-8-2/          Pea (Pisum sativum)       Weitor (SWE), Hankkijan
+ A-8-3                                           Hemmo (FIN), Weitor pt.
+                                                 10468 (SWE)
+ A-9-1/A-9-2           Beet (Beta vulgaris)      311 N typ (SWE), 70500
+                                                 (DNK)²
+ A-10-1/A-10-2         Oilseed rape (Brassica Jupiter (SWE), Linrama
+                       napus)                    (DNK)
+ A-11-1/A-11-2         Bulb onion (Allium        Hamund (SWE), Owa (DNK)
+                       cepa)
+
+                                      13
+ A-12-1/A-12-2           Lettuce (Lactuca sati-        Attraktion Sana (DNK),
+                         va)                           Hilro (SWE)
+ A-13-1/A-13-2           Cucumber (Cucumis             Langelands gigant (DNK),
+                         sativus)                      Rhensk Druv (SWE)
+ A-14-1/A-14-2           Carrot (Daucus carota)        Nantes Fancy (DNK), Regu-
+                                                       lus (SWE)
+ A-15-1/A-15-2           Cauliflower (Brassica         Svavit (SWE), Pari (DNK)
+                         oleracea v. botrytis)
+¹ Country codes according to ISO 3166-1 alpha-3 (Wikipedia 2019)
+² Material from Nordic sugar beet breeding programmes
+
+Table 2. Plant pathogens tested for survival in the 100 years storage exper-
+iment in permafrost (Series B). The table shows the respective crop species,
+cultivars and the country of origin of seed materials.
+ Sample Pathogen                       Crop species         Cultivar (coun-
+ identity species                                           try of origin)¹
+ B-1        Septoria nodorum,          Wheat ( Triticum     Runar (NOR)
+            Fusarium spp.              aestivum)
+ B-2        Ustilago nuda f.sp.        Wheat (Triticum      Line 79 CBW ”A”
+            tritici                    aestivum)            No 72 (CAN)
+ B-3        Sclerotinia sclerotio-     Sclerotia from       (NOR)
+            rum                        Brassica/Cabbage2
+ B-4        Drechslera spp.Fusari- Barley (Hordeum          Bamse (NOR)
+            um spp.                    vulgare)
+ B-5        Drechslera                 Meadow fescue        Salten (NOR)
+            dictyoides                 (Festuca pratensis³)
+ B-6        Drechslera phlei           Timothy (Phleum      Forus (NOR)
+                                       pratense)
+ B-7        Lettuce mosaic virus Lettuce (Lactuca           Attractie (NLD)
+                                       sativa)
+ B-8        Botrytis allii Fusarium Bulb onion (Allium Laskala (NOR)
+            spp.                       cepa)
+
+
+
+                                            14
+ B-9          Alternaria radicina           Carrot (Daucus        Forto Nantes
+              Alternaria dauci              carota)               (NLD)
+ B-10         Phoma betae                   Beet (Beta vulgaris) Hilma (GBR)
+ B-11         Alternaria brassicicola       Cabbage (Brassica Trønder Lunde
+                                            oleracea ssp. capita- (NOR)
+                                            ta f. alba)
+¹ Country codes according to ISO 3166-1 alpha-3 (Wikipedia 2019)
+² Sclerotia infecting the genus Brassica were collected from cabbage (Brassica oleracea) and
+conserved separately in the ampoules, without any seed material
+³ According to current taxonomy, the name is Schedonorus pratensis (Huds.) P.Beauv.
+
+The seed materials for the experiment were dried to 3–5 % moisture
+content according to seed material storage procedures in the Nordic Gene
+Bank. Each seed lot was divided into 25 sub-samples, one for each testing
+date during the 100 years (Table 3). Each sub-sample consisting of 1,000
+seeds were divided and encapsulated in two glass ampoules with 500
+seeds in each.
+
+A set of sub-samples from each seed lot was placed in a wooden box
+(50x25x25 cm) together with packing materials to protect the glass am-
+poules during transport. Altogether, 25 boxes were prepared. Each box
+was labelled with the date for withdrawal.
+
+The boxes were transported by air to Longyearbyen, and placed in the
+steel container in the abandoned gallery of Cole Mine no 3, where NGB
+already had its safety collection of Nordic seeds.
+
+Every two and a half year during the first 20 years and every five years
+over the next 80 years, a series of samples (one wooden box) is taken out
+for analyses. The first series of samples were analysed in December 1986
+(year0 = y0). The last box will be analysed in December 2086 (y100).
+During the first 30 years of the experiment eleven boxes have been re-
+trieved and seeds analysed at Kimen Seed Laboratory in Ås (Table 3).
+
+
+
+
+                                            15
+Table 3. Dates for retrieval of samples and types of analyses.
+ Year           Date            Germination          Seed health Moisture
+                                (series A and B)     (series B)  (series A)
+ y0             December                 X                 X          X
+                1st 1986
+ y2.5           June 1st                 X                 X          X
+                1989
+ y5             December                 X                 X          X
+                1st 1991
+ y7.5           June 1st                 X                 X          X
+                1994
+ y10            December                 X                 X          X
+                1st 1996
+ y12.5          June 1st                 X                 X
+                1999
+ y15            December                 X                 X
+                1st 2001
+ y17.5          June 1st                 X                 X
+                2004
+ y20            December                 X                 X
+                1st 2006
+ y25            December                 X                 X
+                1st 2011
+ y30            December                 X                 X
+                1st 2016
+ y35            December                 X                 X
+                1st 2021
+ y40            December                 X                 X
+                1st 2026
+ y45            December                 X                 X
+                1st 2031
+ y50            December                 X                 X
+                1st 2036
+
+                                    16
+y55            December              X                 X
+               1st 2041
+y60            December              X                 X
+               1st 2046
+y65            December              X                 X
+               1st 2051
+y70            December              X                 X
+               1st 2056
+y75            December              X                 X
+               1st 2061
+y80            December              X                 X
+               1st 2066
+y85            December              X                 X
+               1st 2071
+y90            December              X                 X
+               1st 2076
+y95            December              X                 X
+               1st 2081
+y100           December              X                 X
+               1st 2086
+
+Upon arrival at the laboratory, the samples were placed at 10°C for a few
+days. Then the glass ampoules were broken with a hammer and the seeds
+exposed to room temperature and air moisture for a few days, before the
+start of the germination and seed health analysis.
+
+The methods for germination and seed health analysis follow the meth-
+ods established by the International Seed Testing Association (ISTA 1985,
+2017). ISTA was established in 1924 and plays an important role in estab-
+lishing internationally agreed methods for seed sampling and testing. ISTA
+has more than 130 accredited member laboratories worldwide, and Kimen
+Seed Laboratory has been a member since the foundation of ISTA.
+
+
+
+
+                                    17
+2.2. Germination test methods
+Analysis of the germination potential of seeds is performed under con-
+trolled standardised conditions, which are found to be optimal for a given
+species (Table 4). The first step in germination analysis is to facilitate the
+conditions for the seed to absorb water.
+Table 4. Germination conditions specified in the experiment protocol.
+
+
+ Species                Germination Tempera-              First count      Final count
+                        substrate   ture °C               (days)           (days)
+ Hordeum vulgare        BP1                20             4                7
+ Triticum aestivum      BP                 20             4                8
+ Secale cereale         BP                 20             4                7
+ Lolium perenne         TP1                20<=>302       5                14
+ Phleum pratense        TP                 15<=>252       7                10
+ Poa pratensis          TP                 15<=>252       10               28
+ Trifolium              TP                 20             4                10
+ pratense
+ Festuca pratensis      TP                 20<=>30        7                14
+ Pisum sativum          S1                 20             5                8
+ Beta vulgaris          PP1                20             4                14
+ Brassica napus         TP                 20             5                103
+ Allium cepa            TP                 15             6                144
+ Lactuca sativa         TP                 20-light       4                7
+ Cucumis sativus        TP                 20<=>302       4                8
+ Daucus carota          TP                 20             7                14
+ Brassica oleracea      TP                 20<=>302       5                10
+ v. botrytis
+¹ BP=Between paper, TP=top of paper, S=sand, PP=Pleated paper
+² <=> indicates alternating temperatures, low temperature for 16 hours, high temperature for
+8 hours
+³ ISTA rules 1985 describe 7 days for final count of Brassica napus
+⁴ ISTA rules 1985 describe 12 days for final count of Allium cepa
+
+                                            18
+The assumed optimal conditions for germination may change with new
+knowledge. However, the germination methods specified by ISTA for all
+the sixteen species included in this experiment have been the same since
+commencement in 1986 (ISTA, 1985, ISTA 2017). In the case of Brassica
+napus and Allium cepa the number of days to final count specified in the
+experiment protocol is higher than the number of days described in the
+ISTA-rules (Table 4).
+
+The standard ISTA-method is to germinate 400 seeds from one sample, as
+replicates of 4x100 or 8x50 seeds. The percentage germinated seeds from
+each replicate are compared to the mean of all replicates. If one replicate
+shows unacceptable discrepancy from the mean, according to established
+tolerance limits in the described method, the sample is retested.
+
+In this study, four core conditions for germination have been followed
+according to the ISTA-methods:
+
+       i)      Germination substrate
+       ii)     Temperature
+       iii)    Light
+       iv)     Germination time and assessment of seedlings
+
+2.2.1. Germination substrate
+In germination analysis the seeds are placed on a substrate, usually filter
+paper or sand, where the seed imbibe and germinate. Some species may
+be germinated in both sand and paper. In general, paper is preferred. In
+this study, Pisum sativum is germinated in sand whereas specially devel-
+oped germination test paper is used for the other species.
+
+Three different types of filter paper have been applied in this study;
+       a)     Paper towels; seeds are spread on a moist paper towel with
+		            another towel on top. The towels are rolled together and 		
+		            the roll is placed vertically within a plastic bag. Inside the 		
+		            roll, the seeds will germinate and the seedlings develop. 		
+		            During the germination period the roll does not need any 		
+		            supplement of water. This method is used for cereal seeds.
+
+                                      19
+  b)           On top of a circular piece of filter paper; the piece is laid 		
+		             on a specially designed water table, called a Jacobsen
+		             germination table. The table has a pool of water 			
+		             underneath a benchtop with slots, allowing a paper strip
+		             attached to each germination paper to act as a wick from 		
+		             the water pool to the seeds on top. Red clover, all grass and
+		             vegetable species, except beet, are germinated in this way.
+
+  c)           Pleated filter paper; the seeds germinate in the pleats, used
+		             for seeds of Beta vulgaris.
+
+2.2.2. Temperature
+For some species, constant ambient temperature is optimal, whereas oth-
+er species respond to alternating temperatures, for instance 20°C for 16
+hours and 30°C for 8 hours (Table 4). In Jacobsen germination tables, the
+temperature is controlled by adjusting the water temperature.
+
+2.2.3. Light
+The only species included in the study, requiring light for germination is
+Lactuca sativa. Light is for most species not required. However, illumina-
+tion is recommended for better-developed seedlings and the tested seeds
+are therefore given eight hours light. In the absence of light, the seedlings
+will become etiolated.
+
+2.2.4. Germination time and assessment of seedlings
+After a certain period essential morphological structures have developed
+and the seedlings are categorized into normal seedlings, abnormal seed-
+lings, dead seeds, fresh healthy un-germinated seeds and hard seeds. Nor-
+mal seedlings have the potential for development into a vigorous plant, if
+grown under favourable conditions in the field. Abnormal seedlings have
+developed certain structures but do not show the potential for continuing
+development into vigorous plants. Dead seeds have a dead embryo and no
+structures have developed. Dormancy, either expressed as fresh healthy
+un-germinated seeds or as un-germinated hard seeds has in this exper-
+iment been observed in red clover and in a very few cases in pea, where
+hard seeds have been encountered.
+
+                                      20
+Preceding the final assessment (final count), the numbers of normal
+seedlings emerging at an early stage are counted (first count). A germina-
+tion analysis is a test of germination potential under optimal conditions.
+However, the number of normal seedlings at first count may serve as an
+indicator of the seed vigour and how long seeds will retain a high germi-
+nation rate. At the beginning of the study, the figures at first count were
+not reported. From test y30 results from first count have been registered,
+however, not included in this report.
+
+
+2.3. Seed health test methods
+The seed borne pathogens of the samples in series B were analysed either
+by incubation of seeds on moist paper (blotters), on artificial growth sub-
+strate (agar plates) in petri dishes, or by recording symptoms of disease on
+plants grown in soil. Unless otherwise specified a sample of 400 seeds was
+analysed.
+
+Samples of species T. aestivum, H. vulgare, F. pratensis, P. pratense, A.
+cepa, D. carota and B. oleracea were analysed for their respective seed
+borne pathogens using the “freezing blotter method” modified after the
+ISTA descriptions at the time when the experiment was started (ISTA
+1985). In brief, seeds are placed on moist filter paper in plastic dishes with
+a transparent lid, for 24 hours in room temperature to allow imbibition,
+followed by 24 hours at -20°C, and subsequently incubated five days at 20
++/- 1o°C with alternating 12 hours near ultraviolet (NUV) light and 12 hours
+darkness.
+
+After incubation, the seeds were examined for the presence of fungi under
+a stereo microscope at 6-50X magnification. When examination at higher
+magnifications (400X) was necessary for identification, microscope slides
+were prepared. Identification of the fungi was based on the morpholog-
+ical characters of spores and fruiting bodies developed on seed. Results
+were recorded by counting seeds infected by the investigated pathogens.
+The percent infection by each fungus in a sample was calculated from the
+number of seeds tested.
+
+
+                                     21
+The sample of B. vulgaris was analysed by incubation of seeds on water
+agar (WA) with cotton blue staining (ISTA, 1985). Seeds showing charac-
+teristic mycelium structures from the fungus Phoma betae were recorded
+as infected.
+
+The sample of L. sativa was analysed for lettuce mosaic virus (LMV) by
+sowing the seeds in soil in trays. The trays were placed in a greenhouse at
+approximately 18–20°C. When emerged plants had 2–3 leaves, the plants
+were evaluated for symptoms of lettuce mosaic virus. Each plant showing
+characteristic symptoms as well as plants with weak signs of infection was
+tested separately for LMV using the ELISA method (Clarke and Adams,
+1977). Plants testing positive with this method were recorded as infected.
+Percent infection was calculated from the number of emerged plants.
+
+The sample of T. aestivum was analysed for loose smut (Ustilago nuda) by
+sowing 1,000 seeds in soil in trays. The trays were placed in a greenhouse
+at 10°C until emergence. Thereafter the trays were moved to 15°C under
+light during daytime (16 hours) and darkness during night (8 hours). At
+heading time the number of plants showing smut symptoms were record-
+ed and percent infection was calculated from the number of emerged
+plants.
+
+The viability of S. sclerotiorum sclerotia was analysed by placing them on
+agar plates (potato dextrose agar) in petri dishes, after surface disinfection
+in NaOCl (1 % available Cl) for 10 minutes. One sclerotium was placed in
+each dish. The number of sclerotia out of 20 in each sub-sample showing
+mycelial growth after incubation at 20°C for one week was recorded.
+
+
+
+
+                                     22
+3. Results
+
+Germination results are obtained from both series A and B. The results are
+presented as average germination percentage from four analysed parallels
+carried out on the same seed sample. If test results from the four parallels
+vary over limits stated in the applied ISTA-protocols the results are not
+approved and the tests have to be repeated. Test results from the survival
+of seed born plant diseases are obtained from series B.
+3.1. Germination
+Seed germination results are presented below for six crop groups; cereals
+(Figure 1), grasses (Figure 2), legumes (Figure 3), Beta and Brassica culti-
+vars (Figure 4), bulb onion and lettuce (Figure 5) and cucumber and carrot
+(Figure 6).
+
+After 30 years the 100 year experiment has revealed considerable differ-
+ences between crop groups, but also differences between species and cul-
+tivars within the same species were observed. The most long-lived seeds in
+this experiment, displayed as minimal loss of germination percentage over
+30 years, have been the vegetable seeds: cucumber, lettuce, onion, beet,
+cauliflower and carrots.
+
+The picture is more varied within cereal, grass and legume species. Among
+cereals, barley seeds have maintained a high level of seed germination
+over 30 years. Wheat and rye have declined significantly in viability, in
+particular during the last ten years. Among the grasses some species
+and some cultivars have maintained viability while others have declined.
+Among legumes, red clover has maintained germination ability very well
+whereas the three cultivars of pea show mixed results.
+
+
+
+
+                                     23
+                100
+
+                 90
+
+                 80
+
+                 70
+% Germination
+
+
+
+
+                 60
+
+                 50
+
+                 40
+
+                 30
+
+                 20
+
+                 10
+
+                  0
+                      y0     y2.5         y5          y7.5     y10        y12.5      y15     y17.5       y20        y25   y30
+
+                           H. vulgare cv. Inga Abed          H. vulgare cv. Tunga          H. vulgare cv. Bamse
+                           S. cereale cv. Petkus II          S. cereale cv. Voima          T. aestivum cv. Vakka
+                           T. aestivum cv. Solid             T. aestivum cv. Runar         T. aestivum cv. Line 79 CBW
+
+
+                Figure 1. The germination percentages for cereal crops (samples from Series
+                A and Series B); three cultivars of barley (Hordeum vulgare), two cultivars of
+                rye (Secale cereale) and three cultivars of wheat (Triticum aestivum) con-
+                served in permafrost over 30 years.
+
+
+
+
+                                                                       24
+               120
+
+
+
+               100
+
+
+                                                                                           L. perenne cv. Pippin
+                80
+                                                                                           L. perenne cv. Riikka
+Germination%
+
+
+
+
+                                                                                           P. pratense cv. Tammisto
+                60                                                                         P. pratense cv. Bodin
+                                                                                           P. pratense cv. Forus
+                                                                                           P. pratensis cv. Annika
+                40
+                                                                                           P. pratensis cv. Hankkijan K
+                                                                                           F. pratensis cv. Salten
+
+                20
+
+
+
+                 0
+                     y0   y2.5   y5   y7.5   y10   y12.5   y15   y17.5   y20   y25   y30
+
+
+           Figure 2. The germination percentages for grass species (samples from
+          Series A and Series B); two cultivars of perennial ryegrass (Lolium perenne),
+          three cultivars of timothy (Phleum pratense), two cultivars of Kentucky blue-
+          grass (Poa pratensis) and one cultivar of meadow fescue (Festuca pratensis)
+          conserved in permafrost over 30 years.
+
+
+
+
+                                                                 25
+                100
+
+                 90
+
+                 80
+
+                 70
+                                                                              T. pratense cv. Jokioinen
+Germination %
+
+
+
+
+                 60
+                                                                              T. pratense cv. Molstad
+                 50
+                                                                              P. sativum cv. Weitor 1
+                 40                                                           P. sativum cv. Hankkijan Hemmo
+
+                 30                                                           P. sativum cv. Weitor 2
+
+                 20
+
+                 10
+
+                  0
+                      y0   y2.5   y5   y7.5 y10 y12.5 y15 y17.5 y20 y25 y30
+
+
+                Figure 3. The germination percentages for legume species (samples from
+                Series A); two cultivars of red clover (Trifolium pratense) and three cultivars
+                of peas (Pisum sativum) conserved in permafrost through 30 years. Dormant
+                and healthy hard seeds have been included in the germinated seeds.
+
+
+
+
+                                                            26
+                120
+
+
+                                                                                    B. vulgaris cv. 70500
+                100
+
+                                                                                    B. vulgaris cv. 311 N typ
+
+                 80                                                                 B. vulgaris cv. Hilma
+Germination %
+
+
+
+
+                                                                                    B. napus cv. Jupiter
+                 60
+                                                                                    B. napus cv. Linrama
+
+
+                 40                                                                 B.oleracea v. botrytis cv. Svavit
+
+                                                                                    B. oleracea v. botrytis cv. Pari
+                 20
+                                                                                    B. oleracea spp. capitate f. alba cv.
+                                                                                    Trønder Lunde
+
+                  0
+                      y0   y2.5   y5   y7.5   y10 y12.5 y15 y17.5 y20   y25   y30
+
+
+                 Figure 4. The germination percentages for three cultivars of beets (Beta
+                 vulgaris), two cultivars of oilseed rape (Brassica napus), two cultivars of
+                 cauliflower (Brassica oleracea v. botrytis) and one cultivar of white cabbage
+                 (Brassica oleracea ssp. capitata f. alba) conserved in permafrost through 30
+                 years (samples from Series A and Series B).
+
+
+
+
+                                                               27
+               120
+
+
+
+               100
+
+
+
+                80
+                                                                                           A. cepa cv. Hamund
+Germination%
+
+
+
+
+                                                                                           A. cepa cv. Owa
+
+                60                                                                         A. cepa cv. Laskala
+                                                                                           L. sativa cv. Hilro
+                                                                                           L. sativa cv. Attraction Sana
+                40                                                                         L. sativa cv. Attractie
+
+
+
+                20
+
+
+
+                 0
+                     y0   y2.5   y5   y7.5   y10   y12.5   y15   y17.5   y20   y25   y30
+
+
+                Figure 5. The germination percentages for three cultivars of bulb onion
+                (Allium cepa) and three cultivars of lettuce (Lactuca sativa) conserved in
+                permafrost through 30 years (samples from Series A and Series B).
+
+
+
+
+                                                             28
+               120
+
+
+
+               100
+
+
+
+                80
+                                                                                           C. sativus cv. Langelands gigant
+Germination%
+
+
+
+
+                                                                                           C. sativus cv. Rhensk Druv
+                60
+                                                                                           D. carota cv. Nantes Fancy
+                                                                                           D. carota cv. Regulus
+                40                                                                         D. carota cv. Forto Nantes
+
+
+
+                20
+
+
+
+                 0
+                     y0   y2.5   y5   y7.5   y10   y12.5   y15   y17.5   y20   y25   y30
+
+
+               Figure 6. The germination percentages for two cultivars of cucumber (Cu-
+               cumis sativus) and three cultivars of carrots (Daucus carota) conserved in
+               permafrost through 30 years (samples from Series A and Series B).
+
+
+
+
+                                                                 29
+Observed changes in germination percentage over 30 years for all 41
+cultivars of 17 crops are displayed in Figure 7. Species showing the highest
+loss of germination percentage are grouped from the top of the figure.
+Remaining germination percentage after 30 years storage as average of
+the cultivars included is shown in Figure 8. Remaining germination ability
+as percentage of initial germination is showed in Figure 9.
+
+Six samples show no loss in germination over 30 years (Figure 9). Among
+these, we find two of the pea samples, which is very contradictory to the
+third pea sample, which has lost most of its germination ability. Another
+large group of 28 samples has retained between 70 and 100 % of its initial
+germination ability. Six samples has retained between 38 and 60 percent
+of its initial germination percentage.
+
+Samples showing the most significant loss in germination are both sam-
+ples/cultivars of the crops rye (S. cereale) and rye grass (L. perenne), two
+of four samples of wheat (T. aestivum), and the only sample of meadow
+fescue (F. pratensis). Results for the three samples of timothy (P. pratensis)
+differ significantly as the cultivar ‘Tammisto’ has lost 42.5 % of its initial
+germination while the cultivars ‘Bodin’ lost 13.3% and ‘Forus’ lost only 2.1%
+(Figure 9).
+
+Species not commented in particular above show quite similar results for
+the two or three cultivars involved in the experiment.
+
+
+
+
+                                     30
+                                  S. cereale cv. Voima
+                               S. cereale cv. Petkus II
+                                F. pratensis cv. Salten
+                                 L. perenne cv. Riikka
+                                 L. perenne cv. Pippin
+                              P. sativum cv. Weitor 2
+                              P. sativum cv. Weitor 1
+                  P. sativum cv. Hankkijan Hemmo
+                                T. aestivum cv. Vakka
+                                  T. aestivum cv. Sol id
+                                T. aestivum cv. Runar
+                       T. aestivum cv. Line 79 CBW
+                           P. pratense cv. Tammisto
+                                 P. pratense cv. Forus
+                                P. pratense cv .Bodin
+                                  H. vulgare cv. Tunga
+                             H. vulgare cv. Inga Abed
+                                 H. vulgare cv. Bamse
+                   B. oleracea v. botrytis cv. Svavit
+                      B. oleracea v. botrytis cv. Pari
+B. oleracea ssp. capitata f. alba cv. Trønder Lunde
+                                 D. carota cv. Regulus
+                          D. carota cv. Nantes Fancy
+                          D. carota cv. Forto Nantes
+                             T. pratense cv. Mol stad
+                            T. pratense cv. Jokioinen
+                        L. sativa cv. Attraction Sana
+                                      L. sativa cv. Hilro
+                                 L. sativa cv. Attractie
+                                 B. napus cv. Linrama
+                                   B. napus cv. Jupiter
+                         P. pratensis cv. Hankkijan K
+                               P. pratensis cv. Annika
+                          C. sativus cv. Rhensk Druv
+                   C. sativus cv. Langelands gigant.
+                                       A. cepa cv. Owa
+                                    A. cepa cv. Laskala
+                                  A. cepa cv. Hamund
+                                  B. vulgaris cv. Hilma
+                                 B. vulgaris cv. 70500
+                             B. vulgaris cv. 311 N typ
+                                        -20                 0        20   40   60   80
+
+Figure 7. Loss in germination percentage (red bars) in seeds of 41 cultivars of
+17 crop species over 30 year, ranged species wise. Species showing the average
+largest loss in germination grouped from the top of the graph. Blue bars indi-
+cate germination percentage at y0 (negative bars indicate higher germination
+percentage at y30 than at y0).
+                                                                31
+                          120
+
+                          100
+Remaining germinarion %
+
+
+
+
+                           80
+
+                           60
+
+                           40
+
+                           20
+
+                            0
+                                                                           2)
+
+
+
+
+                                                              tr y )
+
+
+
+
+                                                                           1)
+                                                               ce )
+
+
+
+
+                                                                           3)
+
+
+
+
+                                                              en )
+                                                            na 2 )
+
+
+
+
+                                                                             )
+                                                            sa (2)
+
+                                                               en )
+
+
+
+
+                                                            r e 3)
+                                                                             )
+                                                               tiv )
+
+
+
+
+                                                           ca (2)
+
+
+
+
+                                                              ivu )
+                                                             lga )
+
+
+
+
+                                                             tiv 4)
+                                                                         (1
+                                                        pr a (3
+                                                                         (3
+
+
+
+
+                                                        ta a (3
+
+
+
+
+                                                                         (2
+                                                                         (3
+
+
+
+
+                                                                           2
+                                                         v u s (2
+                                                                          3
+
+
+
+
+                                                                       s(
+                                                        pr e (
+                                                                       s(
+
+
+
+
+                                                                         (
+                                                                      e(
+                                                                         (
+
+
+
+
+                                                                         (
+                                                       C. pa (
+
+
+
+
+                                                                       s
+
+
+
+
+                                                                  um
+                                                                   ri s
+
+
+
+
+                                                                  ale
+                                                                   se
+
+
+
+
+                                                                      e
+                                                                  lba
+
+
+
+
+                                                                    m
+                                                                   sis
+                                                                    u
+
+
+
+                                                                 pu
+
+
+
+
+                                                                     i
+                                                                     i
+
+
+
+
+                                                                nn
+                                                   T. ens
+
+
+
+
+                                                                   s
+                                                                   t
+
+
+
+
+                                                                   r
+                                                                   t
+                                                                  v
+                              a
+
+
+
+
+                                                              en
+
+
+
+
+                                                               ro
+                                                                 i
+
+
+
+
+                                                               re
+                                                             .a
+                                                                t
+                          ulg
+
+
+
+                                                           sa
+
+
+
+
+                                                           at
+
+
+
+
+                                                           at
+
+
+
+
+                                                           at
+
+                                                          ce
+                                                          at
+
+
+
+
+                                                          st
+                                                         bo
+                                  A.
+
+
+
+
+                                                            f
+
+
+
+
+                                                         sa
+
+                                                        pe
+                                                        B.
+            v
+
+
+
+
+                                                       pr
+                                                        L.
+
+
+
+
+                                                       ae
+                                                       pr
+
+
+
+
+                                                      D.
+
+
+
+
+                                                       S.
+                                                      v.
+         B.
+
+
+
+
+                                                     P.
+                                                     H.
+                                                     ta
+
+
+
+
+                                                     L.
+                                                   T.
+
+
+
+
+                                                   P.
+
+
+
+
+                                                   F.
+                                                   P.
+
+
+
+
+                                                 ea
+                                                a pi
+                                               ac
+                                               c
+                                           er
+                                            p.
+                                         ol
+                                         ss
+                                     ea
+
+                                      B.
+                                   ac
+                                 er
+                               ol
+                            B.
+
+
+
+
+                           Figure 8. Remaining germination percentage of 17 crop species after 30
+                          years storage as average of the cultivars included (number of cultivars in
+                          brackets). The results for pea (Pisum sativum) show the average for two culti-
+                          vars with very high germination and one cultivar with close to zero germina-
+                          tion. (See Figure 9 for details).
+
+
+
+
+                                                               32
+              P. sativum cv. Weitor 1
+ P. sativum cv. Hankkijan Hemmo
+                      L. sativa cv. Hilro
+                       A. cepa cv. Owa
+             B. vulgaris cv. 311 N typ
+               P. pratensis cv. Annika
+   C. sativus cv. Langelands gigant.
+          D. carota cv. Nantes Fancy
+                  A. cepa cv. Hamund
+                 B. vulgaris cv. 70500
+                  B. vulgaris cv. Hilma
+                 P. pratense cv. Forus
+                 H. vulgare cv. Bamse
+          C. sativus cv. Rhensk Druv
+             T. pratense cv. Mol stad
+       T. aestivum cv. Line 79 CBW
+                 B. napus cv. Linrama
+   B. oleracea v. botrytis cv. Svavit
+                    A. cepa cv. Laskala
+         P. pratensis cv. Hankkijan K
+        L. sativa cv. Attraction Sana
+B. oleracea ssp. capitata f. alba cv.…
+                   B. napus cv. Jupiter
+            T. pratense cv. Jokioinen
+                  H. vulgare cv. Tunga
+                T. aestivum cv. Runar
+          D. carota cv. Forto Nantes
+                 D. carota cv. Regulus
+                 L. sativa cv. Attractie
+                P. pratense cv. Bodin
+      B. oleracea v. botrytis cv. Pari
+             H. vulgare cv. Inga Abed
+                T. aestivum cv. Vakka
+                 L. perenne cv. Riikka
+                 L. perenne cv. Pippin
+                  S. cereale cv. Voima
+                F. pratensis cv. Salten
+           P. pratense cv. Tammisto
+                  T. aestivum cv. Sol id
+               S. cereale cv. Petkus II
+              P. sativum cv. Weitor 2
+
+                                        0   20   40        60         80   100   120
+                                                      % Germination
+
+Figure 9. Remaining germination ability after 30 years of storage in perma-
+frost, shown as percentage of initial germination percentage upon the estab-
+lishment of the experiment in 1986. Species from the top show the lowest
+loss in germination over 30 years. Three samples show an increase in germi-
+nation after 30 years in these tests.
+                                                        33
+Compiling data for all test samples (species and varieties) indicates the
+overall change in germination ability over 30 years. Means and standard
+deviation of 40 samples are displayed in Figure 10. The sample of P. sa-
+tivum, cultivar Weitor 2 has been removed from the data set as this sample
+shows inexplicable results and variations, differing considerably from the
+other samples.
+
+Average germination percentage for 40 test samples have decreased from
+87.2 % to 76.9 % over the 30 years. A major part of the reduction has
+occurred during the last ten years as the average after 20 years still was
+83.1 %.
+
+
+
+
+Figure 10. Mean germination of all accessions (except P. sativum cv. Weitor
+2) at the different test occasions from y0 to y30. The square dotted red line
+indicates the mean values. The standard deviation and the confidence values
+are shown above and below.
+
+
+
+
+                                     34
+                            50
+
+
+                            45
+
+
+                            40
+
+
+                            35
+Percentage infected seeds
+
+
+
+
+                            30
+
+
+                            25
+
+
+                            20
+
+
+                            15
+
+
+                            10
+
+
+                             5
+
+
+                             0
+                                 y0      y2.5            y5           y7.5       y10           y12.5            y15           y17.5             y20   y25   y30
+                                                                              Test times - years after start of project
+                                        Alternaria dauci in carrot           Alternaria radicina in carrot              Botrytis alli in bulb onion
+                                        Fusarium in wheat                    Fusarium in barley                         Fusarium in bulb onion
+                                        Lettuce mosaic virus in lettuce      Ustilago nuda f.sp. Tritici in wheat
+
+
+                             Figure 11. Fluctuations in seed infection by eight seed borne pathogens over
+                             30 years. Fusarium spp. have been analysed in seed samples from three host
+                             plants.
+                             3.2. Seed borne diseases
+                             The initial infection level of the seed borne pathogens varied considerably
+                             among the different crop species included in the experiment (Figures 11
+                             and 12). However, after 30 years of storage in permafrost the infection lev-
+                             els were in general only slightly changed in most of the species, although
+                             some variation in the levels were observed over the years.
+
+                             All investigated pathogens were still detected after 30 years of storage
+                             also when the initial infection level was low, as for B. allii and Fusarium
+                             spp. in onion, A. dauci and A. radicina in carrot, Fusarium spp. in barley and
+                             wheat, U. nuda f. sp. tritici in wheat, and LMV in lettuce (Figure 11). For
+                             some of the pathogens with higher infection levels, like D. dictyoides in
+                             meadow fescue and P. nodorum in wheat, a trend towards reduced level
+                             was observed, whereas for Phoma betae in beet a trend towards increased
+                             infection was observed, compared to the level at the start of the
+                             experiment (Figure 12).
+
+                                                                                         35
+                            100
+
+
+                             90
+
+
+                             80
+
+                             70
+Percentage infected seeds
+
+
+
+
+                             60
+
+
+                             50
+
+
+                             40
+
+
+                             30
+
+
+                             20
+
+
+                             10
+
+
+                              0
+                                  y0           y2.5           y5            y7.5        y10           y12.5            y15         y17.5         y20           y25        y30
+                                                                                     Test times - years after start of project
+
+                                       Alternaria brassicicola in cabbage          Drechslera spp. in barley                     Drechslera dictyoides in meadow fescue
+                                       Drechslera phlei in timothy                 Phoma betae in beet                           Parastagonospora nodorum in wheat
+
+
+                             Figure 12. Fluctuations in seed infection by six pathogens over 30 years.
+
+
+
+                             3.3. Survival of sclerotia
+                             Along with analysis of pathogens present in seed samples, sclerotia of the
+                             species Sclerotinia sclerotiorum derived from a Brassica seed lot have been
+                             stored under the same conditions as the seeds. Samples consisting of
+                             20 sclerotia have been tested for viability as described above. The results
+                             show considerable fluctuations over the years (Table 5). It can, however be
+                             concluded that a significant number of sclerotia can survive for 30 years
+                             in permafrost conditions. In some samples, the sclerotia were totally or
+                             partly damaged by saprophytes.
+
+
+
+
+                                                                                                 36
+Table 5. Survival of sclerotia (Sclerotinia sclerotiorum) from Brassica during
+30 years of storage in permafrost.
+Test year Number sclerotia         Number germinating       % germination
+          analysed                 sclerotia
+y0        11                       10                       91
+y2.5      20                       20                       100
+y5        20                       20                       100
+y7.5      All sclerotia
+          damaged by
+          saprophytes
+y10       All sclerotia
+          damaged by
+          saprophytes
+y12.5     20                       13                       65
+y15       17                       12                       71
+y17.5     20                       12                       60
+y20       20                       0                        0
+y25       20                       8                        40
+y30       20                       12                       60
+
+3.4. Moisture content in the seeds
+The seed samples in Series A of barley (Hordeum), wheat (Triticum), rye
+(Secale), pea (Pisum), beet (Beta) and cucumber (Cucumis) were analysed
+for moisture contents during the first ten years of the experiment (Table
+6).
+
+
+
+
+                                        37
+Table 6. Moisture content of analysed seed samples during the first ten years
+of the experiment. Two varieties of barley (Hordeum), wheat (Triticum), rye
+(Secale), beet (Beta), cucumber (Cucumis) and three varieties of pea (Pisum)
+were included.
+Crop        Cultivar    y0         y2.5    y5.0   y7.5   y10   Max/Min
+Hordeum     Inga Abed   5.0        4.7     4.6    4.7    4.8   5.0 / 4.6
+            Tunga       4.6        4.6     4.3    4.3    4.7   4.7 / 4.3
+Triticum    Vakka       4.0        4.3     4.3    4.3    4.3   4.3 / 4.0
+            Solid       6.3        5.8     5.5    5.8    5.8   6.3 / 5.5
+Secale      Petkus II   5.3        5.1     4.9    5.1    5.2   5.3 / 4.9
+            Voima       4.9        4.7     4.4    4.7    4.8   4.9 / 4.4
+Pisum       Weitor 1    4.7        4.6     4.4    4.7    4.5   4.7 / 4.4
+            Hankkijan   4.9        4.8     4.7    4.8    5.1   5.1 / 4.7
+            Hemmo
+            Weitor 2    5.6        5.0     4.9    5.0    5.0   5.6 / 4.9
+Beta        70500       3.7        4.3     4.3    3.7    4.1   4.3 / 3.7
+            311 N typ   3.5        3.7     3.6    3.9    3.5   3.9 / 3.5
+Cucumis     Langelands 3.0         3.5     3.6    2.8    2.9   3.6 / 2.8
+            gigant
+            Rhensk Druv 2.8        3.3     2.7    2.8    2.7   3.3 / 2.7
+
+According to standard procedure for preparing seeds for long term conser-
+vation at the Nordic Gene Bank, the drying of the seed material for the ex-
+periment was aiming at bringing all seed samples moisture contents down
+to 3–5 %. Tests of the actual moisture content of some of the samples in
+Series A were carried out along with seed germination tests in year0.
+
+The results show that three samples had higher moisture content than
+recommended at the beginning of the experiment, while ten of the thir-
+teen samples had the recommended low moisture content. For these ten
+varieties, the moisture content in the seeds stayed below 5% in all tested
+samples during the first ten years.
+
+For all varieties and samples the variation in moisture content of seed
+
+                                     38
+samples of the same variety tested within the first ten years was between
+0.8% and 0.3%.
+
+The three varieties having seed sample moisture contents above 5% were
+the wheat variety ‘Solid’ (6.3 %), the rye variety ‘Petkus II’ (5.3%) and the
+pea variety ‘Weitor 2’ (5.6%). For all these three varieties the highest level
+of moisture content was measured at year0, with a difference varying from
+0.4% to 0.8% during the ten years.
+
+It is worth noting that these three varieties are those three showing the
+largest loss of initial germination ability after 30 years of storage in perma-
+frost (Figure 9).
+
+
+
+4. Discussion
+
+The 100 year experiment has revealed valuable results concerning longev-
+ity of seeds and survival of seed borne plant diseases conserved in perma-
+frost. First, the results are valuable and directly related to the longevity of
+the seeds in the Nordic backup collection that up to 2008 was conserved in
+the coal mine. Secondly, the observations give general knowledge when
+comparing with results published from other seed storage experiments.
+
+4.1. Seed germination
+The storage conditions are an important characteristic for comparing
+results with other experiments. Our experiment was conducted in perma-
+frost with a stable sub-zero temperature. Most other experiments have
+been carried out either under ambient room conditions or under -18°C
+conditions. Following general recommendations and scientific evidence,
+storage under sub-zero temperatures should be better than storage under
+ambient temperatures (see e.g. Cromarty et al. 1982), but how much
+better -18°C storage is compared to -3.6°C (Svalbard permafrost tempera-
+ture) is not known.
+
+                                      39
+When discussing the results from this long-term experiment, it is import-
+ant to notice that the experiment was designed without reference material
+kept under ambient or -18°C conditions. The value of such comparisons
+is then limited. The applied test method and the experiment set up did
+not allow for statistical analysis of significance of the results within each
+species. Despite the weaknesses, the observations add knowledge to the
+longevity of seeds and seed borne pathogens in permafrost.
+
+Seeds of all tested species remained viable after 30 years in permafrost,
+when dried to 3–5 % moisture content and stored in sealed glass am-
+poules. Differences between crop groups but also between species and
+cultivars within the same species were observed. This is in line with other
+long-term experiments (e.g. Rincker, 1983) and can be explained by differ-
+ent pre- and post-harvest conditions.
+
+In general, immature seeds lose viability faster than mature seeds (Aus-
+tin, 1972; Justice and Bass, 1978). For instance, potential seed longevity
+in barley is highest if harvested about two weeks after end of grain filling
+(Pieta Filho and Ellis, 1991). The same has been found in tomato (Dias et
+al., 2006). Weather during seed maturation, harvesting method, mechani-
+cal damage, and the presence of pests and diseases may further influence
+the viability of seeds during storage (Justice and Bass, 1978; Rao et al.,
+2017). All seed samples in this experiment were taken from newly harvest-
+ed material. Still we have no detailed information related to the weather
+conditions before and during harvesting, or other factors that might have
+influenced seed quality.
+
+The most long-lived seeds in this experiment, displayed as minimal loss
+of germination percentage over 30 years, have been the vegetable seeds,
+here represented by cucumber, lettuce, onion, beet, cauliflower and car-
+rots. The picture is more varying within cereal, grass and legume species.
+Maude and Bambridge (1985) reported that beet seeds retained a high
+level of germination when stored 13 years at 10°C and 50% RH. The used
+beet cultivars have multigerm seeds, which may partly explain good ger-
+mination results for beet.
+
+
+                                     40
+In addition, cucumber and cauliflower have seeds that can maintain via-
+bility for a long time (Nagel and Börner, 2010), while onion and lettuce are
+more short-lived (Roos and Davidson, 1992; Nagel and Börner, 2010). Our
+result is somewhat striking, as we demonstrate that also onion and lettuce
+seeds maintained viability very well over a 30 year period. The good germi-
+nation results in this study may be due to high quality of seed lots.
+
+Among cereals, barley seeds maintained high germination levels over 30
+years, while wheat and rye declined in viability. This was especially clear for
+the last ten years of the 30-year period. The results correspond well with
+the literature, showing that rye can be relatively short-lived (Nagel et al.,
+2010). The mixed result in wheat with one cultivar showing a low decline
+and the other high decline in viability could be explained by different
+pre-harvest conditions or there could be a genetic factor.
+
+The grasses and legumes show a varied picture. Some species and some
+cultivars maintained viability while other declined, and the drop in viability
+was considerable during the last five years.
+
+From literature, barley, peas and clover seeds are known to be long-lived
+compared to most other crops (Rincker, 1983; Steiner and Ruckenbauer,
+1995; Nagel et al., 2009; Nagel and Börner, 2010). In this context, the vari-
+able results for peas are difficult to explain.
+
+Pea seeds require germination in sand (or between paper) as outlined by
+ISTA (ISTA 1985). However, the ultra-low water content commonly found
+in genebank accessions may not necessarily fit into established standards
+for water supplies. Ultra-dried peas may need a pre-test water soaking
+treatment before germination or perhaps the required amount of water
+added to the sand should be higher.
+
+According to ISTA, peas are to be germinated between paper, in sand or
+on top of paper with a layer of sand. In the experiment, the sand method
+was chosen and has been followed for 30 years. However, the protocol of
+water supply added is based on empiric experience by the laboratory and
+not by prescribed volumes given by ISTA. Whether the ultra-low water
+
+                                      41
+content commonly found in genebank accessions in some cases does not
+fit into established protocols for water supply is an open question. Perhaps
+ultra-dried peas need a pre-test water soaking treatment before germina-
+tion or perhaps the required amount of water added to the sand should be
+higher.
+
+
+4.2. Survival of seed borne diseases
+Seed of most crops carry a wide variety of pathogens (Neergaard, 1977).
+Knowledge of the duration of survival of pathogens on seed is important
+for genebanks in relation to the risk of spreading disease through germ-
+plasm exchange. The infected materials included in the 100 year storage
+experiment give examples of survival of seed-borne diseases on some
+crops commonly grown in Nordic countries when dry seeds are stored at
+temperatures a few degrees below zero.
+
+All pathogens involved in the 100 year experiment have survived through
+the 30 years of permafrost storage. The infection levels, expressed as per-
+centage of infected seeds, were in most cases only slightly changed over
+the years.
+
+There is not much recent literature on the longevity of pathogens on
+seeds. However, a few earlier studies have reported that some fungi may
+live for a number of years during storage. Hewett (1987) found around
+75-80 % viability of seed-borne pathogens in a comprehensive study of 80
+samples of cereals, pulses and some vegetables, after deep freeze storage
+(-20°C) of dry seeds for up to 14 years. His study included pathogens such
+as Drechslera spp. in barley, P. betae in sugar beet and A. dauci and A. ra-
+dicina in carrot. Our results are largely in agreement with the results from
+Hewett (1987).
+
+A survey of seed-borne fungi on genebank-stored (-1°C, 30 % RH) crucifer-
+ous seed from Japan reported that the seed lots were frequently infected
+by pathogenic fungi, such as A. brassicicola after around 10 years of stor-
+age (Nishikawa et al. 2014). This is in line with the high level of A. brassici-
+
+                                       42
+cola on cabbage seed we observed during the 30 years storage in perma-
+frost. On the other hand, Maude and Humpherson-Jones (1980) reported
+declined viability of superficial A. brassicicola on cabbage seeds after two
+years storage at 10°C and 50 % RH. However, internal infection persisted
+for up to 12 years. In contrast to the stable or slightly increased infection
+level of P. betae in our permafrost storage experiment, Maude and Bam-
+bridge (1985) reported that seed infection by P. betae declined from 27.5 to
+4.5 % in beet seed stored for 13 years at 10°C and 50 % RH.
+
+The high survival of pathogens in cereal seeds in our experiment is partly in
+contrast to a Canadian 10 years storage study carried out almost 70 years
+ago, where most of the infected seeds became free of fungi before the
+end of the storage period (Machacek and Wallace, 1952). However, in their
+study the seed samples were stored in an aerated box in an unheated dry
+shed.
+
+A more recent evaluation of seed-borne fungi (including Drechslera and
+Fusarium spp.) in 36 rye accessions after 30 years of storage at -4°C in the
+national Spanish genebank did not reveal any strong effect of storage
+(Garcia et al., 2016), which is generally in accordance with our results.
+
+Machacek and Wallace (1952) reported that S. nodorum in wheat died
+out rather rapidly and the fungus was not detected after eight years. It is
+interesting that S. nodorum was one of the fungal species that seemed to
+lose viability in our storage experiment. In contrast, Hewett (1987) report-
+ed high survival of this fungus after 14 years storage at -20°C, and Cunfer
+(1981) observed that S. nodorum even increased by 1–25 % during storage
+at 25oC for two years after harvest. Fusarium spp. is known to decline rap-
+idly on seeds stored at room temperature, and Hewett (1967) observed a
+considerable reduction of Fusarium on wheat seed after 4–8 months. How-
+ever, in our permafrost study no reductions in Fusarium levels on barley,
+wheat and onion seed were observed, in spite of low initial infection levels.
+
+In spite of storage under not controlled conditions, Machacek and Wallace
+(1952) reported considerably increased infection levels of Drechslera in
+barley during the second and third years of storage, which is similar to our
+
+                                     43
+observations after 5 years. After 10 years, Machacek and Wallace (1952)
+reported approximately 40 % survival of Drechslera in barley compared
+to the initial infection level. We observed no decline of Drechslera spp. in
+barley after 30 years in permafrost. This indicates that this pathogen can
+survive a long time in barley seed stored at temperatures both below and
+above zero degrees.
+
+Our wheat sample naturally infected with U. nuda f. sp. tritici showed no re-
+duction in infection level during 30 years. Similarly, wheat seed harvested
+from plants that had been artificially inoculated with U. tritici (=), showed
+no decline in infection level during 20 years of storage at -15°C and low
+relative humidity (Menzies et al., 1997).
+
+The conclusion on the seed-borne pathogens after 30 years of storage in
+permafrost is that their viability is well maintained. This is in line with other
+studies of dry seed stored at temperatures below zero. The conditions
+commonly used in genebanks to maintain seed longevity therefore usually
+also favour survival of seed borne pathogens.
+
+
+
+5. Recommendations
+1. The 100 year experiment should be pursued according to the plan
+   for the rest of the project period.
+
+2. Future analyses should report results from the four parallels (4x100
+   seeds separately) and not only the average data, for both germination
+   and seed health tests.
+
+3. From year 30 the germination analysis should include counting of
+   normal seedlings emerging at an early stage (first count). Analysis in
+   previous years included only the final count, which is a test of germina-
+   tion potential under optimal conditions. Because the number of normal
+   seedlings at first count may serve as an indicator of the seed vigour
+   and the storage ability of the seeds, it is recommend including the first
+   counts in the seed analysis for the rest of the experimental period.
+                                       44
+4. It is recommended to establish a new 100 year experiment related to
+   conservation of seeds at -18°C in the Svalbard Global Seed Vault ac-
+   cording to the following guidelines.
+
+     a)     Species chosen for the new experiment should include crop
+            species that are important for food and agriculture in different
+            regions and climates.
+
+     b)     Major international and national gene banks should be invited
+            to participate in the project, e.g. by suggesting species and
+            accessions to be investigated and to provide seeds.
+            A reference group consisting of these and other stakeholders
+            should be established.
+
+     c)     Detailed instructions for preparing, packing and shipment
+            of seeds should be worked out. Details about the seed
+            production and growing conditions should be recorded
+            according to a standardized plan.
+
+     d)     The experiment should include test samples stored at -18°C
+            at the Svalbard Global Seed Vault. Recommended controls
+            and comparisons could be storage of different harvests 		
+            (years), different growing conditions and seed quality factors
+            of the same variety.
+
+     e)     The participating gene banks could according to own
+            preferences store samples of the same seed yield at their
+            primary gene bank storage conditions, for analysis at their
+            own seed labs.
+
+     f)     The experimental design should include four replicates of
+             each species and variety in order to allow statistical analysis
+            of the results. It is recommended that all samples from the
+            Seed Vault experiment are tested at the same laboratory. 		
+            In order to facilitate easy transport and to avoid customs
+            problems using a seed lab in Norway would be advantageous.
+
+
+                                    45
+6. Acknowledgements
+
+Several individuals and institutions have been involved in the 100 year ex-
+periment during the first 30 years period. We want to thank Store Norske
+Spitsbergen Kulkompani and a significant number of their employees for
+facilitating the storage of seeds in the abandoned shaft in Coal Mine no. 3.
+Many SNSK staff have also assisted or at some occasions alone, brought
+out the wooden boxes from the mine and organized the transport to the
+test laboratory on the Norwegian mainland.
+
+Thanks to staff at Kimen Seed Laboratory in Ås, Norway and former staff
+of the Norwegian State Seed Testing Station, and the Norwegian Institute
+of Bioeconomy Research for thorough and accurate analysis of samples,
+following the same procedures throughout the 30 years.
+
+The project has been funded by the Norwegian Ministry of Agriculture
+and Food (MAF), and during the last ten years through the Three Party
+Agreement for funding of the management and operation of the Svalbard
+Global Seed Vault between the Ministry, Crop Trust and NordGen. A special
+thanks to MAF staff, who on some occasions has assisted in the transfer of
+seed samples from Svalbard to the laboratory.
+
+In addition to the authors of this report, a range of Nordic Gene Bank and
+NordGen staff has been involved from the establishment in 1986 until
+today. A special thanks to all of these.
+
+
+
+
+                                     46
+7.     References
+
+Austin RB (1972) Effect of environment before harvesting on viability. In:
+Roberts EH, ed. Viability of seeds. London: Chapman and Hall, pp. 114-149.
+
+Clarke MF & Adams AN (1977) Characteristics of the microplate method of
+enzyme-linked immunosorbent assay for the detection of plant viruses.
+Journal of General Virology 34: 475-483.
+
+Christensen CM (1972) Microflora and seed deterioration. In: Roberts EH
+(ed) Viability of seeds. Chapman and Hall Ltd., London, pp 59–93.
+
+Cromarty A, Ellis RH &Roberts EH (1982) The Design of Seed Storage Facil-
+ities for Genetic Conservation. Revised 1985. International Board for Plant
+Genetic Resources, Rome.
+
+Cunfer MB (1981) Survival of Septoria nodorum in wheat seed. Transac-
+tions of the British Mycological Society 77: 161-164.
+
+Dias DCFS, Ribeiro FP, Dias LAS, Silva DJH & Vidigal DS (2006) Tomato
+seed quality in relation to fruit maturation and post-harvest storage. Seed
+Science Technology 34: 691–699.
+
+Garcia M, Palermo D & Martin I (2016) Evaluation of seed-borne fungi in
+rye (Secale cereale) germplasm after thirty years of storage in the nation-
+al Spanish genebank. Relation with seed viablity. Abstract 84 and poster
+presentation at ISTA Seed Symposium, 31st ISTA Congress, Tallinn, Estonia
+15-17 June, 2016, pp 83-84.
+
+Hewett PD (1987) Pathogen viability on seed in deep freeze storage. Seed
+Science and Technology 15: 73-77.
+
+ISTA (1985) International Seed Testing Association. Rules, 1985. Seed Sci-
+ence and Technology, 13: 299-355.
+
+
+                                    47
+ISTA (2017) International Seed Testing Association. International Rules for
+Seed Testing 2017, Basserdorf, Switzerland.
+
+Justice OL & Bass LN (1978) Principles and practices of seed storage.
+Washington DC. USDA Handbook on Agriculture, No. 506. 289 pp.
+
+Machacek JE & Wallace HAH (1952) Longevity of some common fungi on
+cereal seed. Canadian Journal of Botany 30: 164-169.
+
+Maude RB & Bambridge JM (1985) Effects of seed treatments and storage
+on the incidence of Phoma betae and the viability of infected red beet
+seeds. Plant Pathology 34: 435-437.
+
+Maude RB, Humpherson-Jones FM (1980) Studies on the seed‐borne
+phases of dark leaf spot Alternaria brassicicola and grey leaf spot Alternar-
+ia brassicaeof brassicas. Annals of Applied Biology 95: 311-319.
+
+Menzies JG, Nielsen J & Thomas PL (1997) Long-Term Storage of Ustilago
+tritici. Plant Disease 81: 1328-1330.
+
+Nagel M & Börner A (2010) The longevity of crop seeds stored under ambi-
+ent conditions. Seed Science Research 20: 1-12.
+
+Nagel M, Vogel H, Landjeva S, Buck-Sorlin G, Lohwasser U, Scholz U
+Börner A (2009) Seed conservation in ex situ genebanks-genetic studies on
+longevity in barley. Euphytica 170: 5-14
+
+Nagel M, Arif MAR, Rosenhauer M & Börner A (2010) Longevity of seeds -
+intraspecific differences in the Gatersleben genebank collections. Tagung
+der Vereinigung der Pflanzenzüchter und Saatgutkauflfleute Österreichs
+2009, pp. 179–182.
+
+Neergaard P (1977) Seed Pathology. Volume I and II. The MacMillan Press
+Ltd London. 1187 pp.
+
+NGB Board minutes, 5-9 July 1982 Protokol for bestyrelsesmøde i Nordisk
+
+                                     48
+Genbank. (In Danish).
+
+Nishikawa J, Kobayaschi T & Natsuaki KT (2014) Seed-borne fungi on gen-
+ebank-stored cruciferous seeds from Japan. Seed Science and Technology
+42: 47-59.
+
+Pieta Filho C & Ellis RH (1991) The development of seed quality in spring
+barley in four environments. I. Germination and longevity. Seed Science
+Research 1: 163–177.
+
+Probert R, Adams J, Coneybeer J, Crawford A & Hay F (2007) Seed quality
+for conservation is critically affected by prestorage factors. Australian Jour-
+nal of Botany 55: 326–335.
+
+Rao NK, Dulloo ME & Engels JMM (2017) A review of factors that influence
+the production of quality seed for long-term conservation in genebanks.
+Genetic Resources and Crop Evolution 64: 1061–1074.
+
+Rincker CM (1983) Germination of forage crop seeds after 20 years of sub-
+freezing storage. Crop Science 23: 229-231.
+
+Roos, E.E. & Davidson, DA (1992) Record longevities of vegetable seeds in
+storage. HortScience 27: 393–396.
+
+Steiner A & Ruckenbauer P (1995) Germination of 110-year-old cereal and
+weed seeds, the Vienna Sample of 1877. Verification of effective ultra-dry
+storage at ambient temperature. Seed Science Research 5: 195-199.
+
+Yndgaard F (1983) A Procedure for Packing Long-term Storage of Seed.
+Plant Genetic Resources Newsletter 54: 28-31.
+
+Yndgaard F (1985) Genebank security Storage in Permafrost. Plant Genetic
+Resources Newsletter 62: 2-7.
+
+Wikipedia, 2019 ISO 3166-1 alpha-3. https://en.wikipedia.org/wiki/
+ISO_3166-1_alpha-3 . Extracted 20190121.
+
+                                      49
+Annex 1
+Storing seeds in a coal mine in Svalbard has attracted significant atten-
+tion from media and others right from the idea was launched in the early
+1980ties. Despite increased tourism and easier access, Svalbard is still
+considered to be an exotic place. In the early 1980ties Svalbard and Long-
+yearbyen was even more mysterious and surrounded by myths about polar
+bears, explorers and hunters overwintering in remote cabins and surviving
+on reindeer meat and seal blubber.
+
+This Annex to the report from the first 30 years of the 100 year storage ex-
+periment contains a set of newspaper articles and photos that extends the
+picture of the experiment, what it looks like and how it has been perceived
+and featured in media.
+
+Before the first seed were brought into the container in the mine No 3 in
+November 1984, several questions had to be investigated. Arne Wold and
+Flemming Yndgaard from the Permafrost working group made an expe-
+dition to Svalbard 4-7 July 1983 and met representatives for the mining
+company Store Norske Spitsbergen Kulkompani (SNSK). Two mines were
+visited (No 7 and No 3), and it was found that one of the transverse pas-
+sages, AT2, in mine No 3 was the most suitable for hosting a seed security
+storage.
+
+Arne Wold and Flemming Yndgaard visited Svalbard a second time in No-
+vember 1984 with the aim of inspecting the storage facility, and to bring
+the first seed samples into the steel container. The first dispatch of glass
+ampoules with seeds from the Nordic Genebank for the security storage
+arrived to Svalbard and was taken into the coal mine storage on the 14th
+of November 1984.
+
+The start of the Nordic Permafrost Security Seed Storage was celebrated
+by SNSK giving a reception in the evening of the same day. Reports from
+the inauguration event hosted by SNSK say that a delicious casserole dish
+was served with red wine in the SNSK mess hall, and the NGB board chair
+Arne Wold presented a crystal vase with inscription and flowers together
+with deep thanks for all kind assistance from the mine company.
+                                     50
+Figure 1. Transport of the steel container from the airport and into the coal
+mine was carried out by Store Norske Spitsbergen Kulkompani. Images from
+Hempel Information, Number 7, August 1985. Hempel is the company that
+provided the long-term corrosion protection of the steel container.
+
+
+                                      51
+The event of bringing the first seeds into the new steel container seed
+store in the mine was documented by the local newspaper Svalbardposten
+No. 12, 1984/85 (see facsimile below).
+
+
+
+
+                                                 Figure 2. Quote from
+                                                 Svalbardposten (to the
+                                                 left) translated into
+                                                  English:
+
+                                                 Wednesday the 14th
+                                                 November 1984 is go-
+                                                 ing to be a memorable
+                                                 day in the history of
+                                                 Store Norske and the
+                                                 Nordic Genebank. This
+                                                 was namely the open-
+                                                 ing date of the World’s
+                                                 first permafrost stor-
+                                                 age of crop plant seed.
+                                                 A box containing 20
+                                                 - 30 vials with germ-
+                                                 plasm or plant seed
+                                                 from as many different
+                                                 crop plants was placed
+                                                 in a specially prepared
+                                                 container in a gallery
+                                                 in the Store Norske’s
+                                                 mine 3.
+
+
+
+
+                                  52
+Figure 3. Shortly after the first deposit of seed samples from the NGB Nordic
+seed collection it was decided to establish the 100 year experiment. Pictures
+below show the preparation of glass tubes in wooden boxes for the experi-
+ment, probably in the autumn 1986.
+
+
+
+
+The opening of the first permafrost seed storage in the world was paid
+significant attention all over the world.
+
+
+
+
+                                     53
+Figure 4. Chairman of NGB board Even Bratberg in the steel container when
+the material for “The 100 year trial” was in place alongside the Nordic Safety
+Base Collection. The Safety collection was moved to the Seed Vault in 2008.
+
+
+                                                    Figure 5. The steel
+                                                    container is placed on a
+                                                    wooden platform in the
+                                                    mine gallery which is
+                                                    strengthened by wood
+                                                    pillars. The photo is taken
+                                                    in February 2017. Only
+                                                    boxes containing seed
+                                                    glass tubes belonging to
+                                                    the 100 year experiment
+                                                    are still stored in the
+                                                    container.
+
+
+
+
+                                      54
+Figure 6. The wooden door leading in to “Frøyhall”, with a nice plate made
+by a local artist in November 1984.
+
+
+                                     55
+The opening of the first permafrost seed storage in the world was paid
+significant attention all over the world.
+
+
+ Figure 7.
+ Facsimile of
+ China Daily on
+ Tuesday the
+ 23rd of July
+ 1985.
+
+
+
+
+                                                         Figure 8. Drawing
+                                                         from The Messenger/
+                                                         Fort Dodge Iowa, Sun-
+                                                         day 14th of July 1985,
+                                                         during times where
+                                                         fears of nuclear apoca-
+                                                         lypse were prevalent.
+
+
+
+
+                                   56
+Figure 9. Birte Mattson (left) and Birgitte Lund at NGB preparing a new ship-
+ment of seeds for the Nordic safety base collection in the coal mine in 1991
+or 1992. For the shipment, the wooden seeds boxes were placed in insulated
+polystyrene cylinders.
+
+Withdrawal of test samples has been carried out every fifth year, in strict
+accordance with the project plan. A significant number of people have
+been involved in the process of bringing seeds out of the coal mine and
+shipment of seeds to the seed laboratory in Ås, Norway. Involved persons
+include local SNSK staff and individuals from Kimen Seed Lab.,
+NGB / NordGen and from the Norwegian Ministry of Agriculture and Food.
+
+
+                                     57
+Figure 10. Withdrawal of test samples from the steel container. In 2001,
+Dagny Stave Larsen, Laboratory manager at Kimen Seed Lab, travelled to
+Svalbard and brought the actual seed box back to Ås. NordGen Seed Vault
+information officer, Roland von Bothmer carried out the withdrawal in 2011,
+when seed boxes containing seeds belonging to the ordinary Nordic seed
+collection had been moved to the Seed Vault in 2008.
+
+
+
+
+                                     58
+Figure 11. Upon arrival at the Seed Lab. in Ås, the glass tubes were cracked
+and seeds tested according to standard procedures and identical test meth-
+ods each time. To the right red beet seeds ready and prepared for testing.
+(Photos Even Bratberg)
+
+
+
+
+                                     59
+Figure 12. Håkon
+Tangerås and Dagny
+Stave Larsen have been
+in charge of the seed
+testing at Kimen during
+major parts of the proj-
+ect period. (Photos Even
+Bratberg)
+
+
+
+
+                           60
+Figure 13. Germination of small seed types at Kimen
+
+
+
+
+                                    61
+Figure 14. Testing seed for contamination by lettuce mosaic virus have been
+carried out by sowing the lettuce seeds and evaluate virus symptoms. The
+analyses have been conducted by the Norwegian Institute of Bioeconomy Re-
+search in Ås (previously Planteforsk/Bioforsk etc.) Photos from Dag-Ragnar
+Blystad, who has been in charge of these particular analyses through major
+parts of the project.
+
+
+
+
+                                    62
+Seed longevity and survival of seed borne diseases after 30 years
+conservation in permafrost. Report from the 100 year storage experiment
+
+© NordGen 2019
+
+NordGen Publication Series: 2019:04
+
+www.nordgen.org
+
+                                   63
+64
+

@@ -1,0 +1,1212 @@
+Seed Longevity
+and Survival of
+Seed Borne
+Diseases After 35
+Years
+Conservation in
+Permafrost –
+Report From the
+100 Year Storage
+Experiment
+
+
+
+
+                    1
+Table of Content
+
+Seed Longevity and Survival of Seed Borne Diseases After 35 Years Conservation in
+Permafrost – Report From the 100 Year Storage Experiment                             1
+
+Preface                                                                             3
+
+Project Setup                                                                       4
+
+Results – Germination                                                               7
+
+Results – Seed Borne Diseases                                                       12
+
+
+
+
+                                             2
+Preface
+The Nordic Gene Bank1 established the 100 year seed storage experiment in Coal mine no. 3 outside
+Longyearbyen in 1986. The experiment was established with the aim to monitor the longevity of seeds
+in this Nordic back-up seed collection that were deposited in the coal mine from 1984 and to gain
+general knowledge about the longevity of seed stored under permafrost conditions, as well as
+studying the survival of seed borne plant pathogens.
+
+
+Seed samples have regularly been withdrawn for analysis according to a fixed withdrawal and analyze
+plan, that will continue until the last samples are analyzed in 2086.
+
+/Åsmund Asdal, NordGen, 6th of February 2024.
+
+1 Predecessor to today's plant section of The Nordic Genetic Resource Center (NordGen).
+
+
+
+
+                                                                                          In this video about the 100 year
+                                                                                          experiment, you can follow the
+                                                                                          seeds from the coal mine to
+                                                                                          NordGen's seed laboratory:
+                                                                                          https://vimeo.com/manage/videos
+                                                                                          /915872471
+
+
+
+
+                                                                                          The seeds in the experiment are
+                                                                                          stored inside a steel container in
+                                                                                          the coal mine.
+
+
+
+
+                                                                3
+Project Setup
+The experimental set up included in total 41 seed lots of 17 agricultural and horticultural crop species
+commonly grown in the Nordic countries. The study was divided into two series. Series A studies the
+development of germination capacity in 15 species with two cultivars of each, except for pea which is
+represented by three cultivars, i.e. altogether 31 seed lots/cultivars (Table 1).
+
+Table 1. Crop species, cultivars and country of origin of seed materials included in the seed longevity
+investigations in the 100 years storage experiment in permafrost (Series A). Each crop is represented by two
+cultivars, three cultivars for pea (Pisum sativum). 1 Country codes according to ISO 3166-1 alpha-3 (Wikipedia
+2019). 2 Material from Nordic sugar beet breeding programmes.
+
+
+ Sample identity                       Crop / species                       Cultivars (country of origin)1
+
+                                                                            Inga Abed (DNK), Tunga
+ A-1-1/A-1-2                           Barley (Hordeum vulgare)
+                                                                            (NOR)
+
+ A-2-1/A-2-2                           Wheat (Triticum aestivum)            Vakka (FIN), Solid (SWE)
+
+ A-3-1/A-3-2                           Rye (Secale cereale)                 Petkus II (DNK), Voima (DNK)
+
+ A-4-1/A-4-2                           English ryegrass (Lolium             Pippin (DNK), Riikka (FIN)
+                                       perenne)
+
+ A-5-1/A-5-2                           Timothy (Phleum pratense)            Tammisto (FIN), Bodin (NOR)
+
+ A-6-1/A-6-2                           Kentucky bluegrass (Poa              Hankkijan Kyösti (FIN), Annika
+                                       pratensis)                           (DNK)
+
+ A-7-1/A-7-2                           Red clover (Trifolium                Jokioinen (FIN), Molstad
+                                       pratense)                            (NOR)
+
+ A-8-1/A-8-2/A-8-3                     Pea (Pisum sativum)                  Weitor (SWE), Hankkijan
+                                                                            Hemmo (FIN), Weitor pt.
+                                                                            10468 (SWE)
+
+ A-9-1/A-9-2                           Beet (Beta vulgaris)                 311 N typ (SWE), 70500
+                                                                            (DNK)2
+
+ A-10-1/A-10-2                         Oilseed rape (Brassica napus)        Jupiter (SWE), Linrama
+                                                                            (DNK)
+
+ A-11-1/A-11-2                         Bulb onion (Allium cepa)             Hamund (SWE), Owa (DNK)
+
+ A-12-1/A-12-2                         Lettuce (Lactuca sativa)             Attraktion Sana (DNK), Hilro
+                                                                            (SWE)
+
+ A-13-1/A-13-2                         Cucumber (Cucumis sativus)           Langelands gigant (DNK),
+                                                                            Rhensk Druv (SWE)
+
+ A-14-1/A-14-2                         Carrot (Daucus carota)               Nantes Fancy (DNK), Regulus
+                                                                            (SWE)
+
+ A-15-1/A-15-2                         Cauliflower (Brassica oleracea       Svavit (SWE), Pari (DNK)
+                                       v. botrytis)
+
+
+
+                                                        4
+Series B considers the survival of 14 common seed borne pathogens found in Nordic Crops, in addition
+to development of germination capacity, in ten crop species, each represented by one seed lot/cultivar
+(Table 2). Naturally infected seeds have been used, and in addition, one sample of fungal survival
+structures (sclerotia) was included in series B.
+
+Table 2. Plant pathogens tested for survival in the 100 years storage experiment in permafrost (Series B). The
+table shows the respective crop species, cultivars and the country of origin of seed materials.
+
+
+ Sample identity             Pathogen species              Crop species              Cultivars (country of
+                                                                                     origin)1
+
+ B-1                         Septoria nodorum,             Wheat (Triticum
+                                                                                     Runar (NOR)
+                             Fusarium spp.                 aestivum)
+
+                             Ustilago nuda f.sp.           Wheat (Triticum           Line 79 CBW ”A” No
+ B-2
+                             tritici                       aestivum)                 72 (CAN)
+
+                             Sclerotinia                   Sclerotia from
+ B-3                                                                                 (NOR)
+                             sclerotiorum                  Brassica/Cabbage2
+
+ B-4                         Drechslera spp.               Barley (Hordeum           Bamse (NOR)
+                             Fusarium spp.                 vulgare)
+
+ B-5                         Drechslera dictyoides         Meadow fescue             Salten (NOR)
+                                                           (Festuca pratensis)3
+
+ B-6                         Drechslera phlei              Timothy (Phleum           Forus (NOR)
+                                                           pratense)
+
+ B-7                         Lettuce mosaic virus          Lettuce (Lactuca          Attractie (NLD)
+                                                           sativa)
+
+ B-8                         Botrytis allii                Bulb onion (Allium        Laskala (NOR)
+                             Fusarium spp.                 cepa)
+
+ B-9                         Alternaria radicina           Carrot (Daucus            Forto Nantes (NLD)
+                             Alternaria dauci              carota)
+
+ B-10                        Phoma betae                   Beet (Beta vulgaris)      Hilma (GBR)
+
+ B-11                        Alternaria                    Cabbage (Brassica         Trønder Lunde (NOR)
+                             brassicicola                  oleracea ssp. capitata
+                                                           f. alba)
+
+
+1 Country codes according to ISO 3166-1 alpha-3 (Wikipedia 2019)
+2 Sclerotia infecting the genus Brassica were collected from cabbage (Brassica oleracea) and conserved
+separately in the ampoules, without any seed material
+3 According to current taxonomy, the name is Schedonorus pratensis (Huds.) P.Beauv.
+
+
+
+The seed materials for the experiment were dried to 3–5 % moisture content according to seed
+material storage procedures in the Nordic Gene Bank. Each seed lot was divided into 25 sub-samples,
+one for each testing date during the 100 years. Each sub-sample consisting of 1,000 seeds were
+divided and encapsulated in two glass ampoules with 500 seeds in each.
+
+
+
+
+                                                       5
+A set of sub-samples from each seed lot was placed in a wooden box (50x25x25 cm) labelled with the
+date for withdrawal. Altogether, 25 boxes were prepared, transported to Longyearbyen, and placed in
+the steel container in the abandoned gallery of Cole Mine no 3, where the Nordic Gene Bank already
+had its safety collection of Nordic seeds.
+
+
+At the start of the seed deposit project in the coal mine in 1984, the temperature inside was measured
+to minus 3,7oC, and it was reported to be stable throughout the year. The temperature in the seed
+storage part of the coal mine has not been measured by NordGen, but as climate change effects are
+noticeable and significant in Svalbard, it is likely that the temperature has increased over the time
+span of the project, from minus 3,7oC at the start towards an estimated minus 1-2 oC in 2021.
+NordGen will, for the rest of the project, monitor the changes in temperatures regularly.
+
+
+To ensure that the same methods of estimating the germination capacity and the detection of seed
+borne pathogens are practiced over the whole 100-year period, a complete paper copy description of
+the experimental layout and procedures is kept along with the stored material in each of the wooden
+boxes with glass ampoules. Following the same procedures and test methods through the whole
+experiment is crucial for the reliability and the scientific value of the results.
+
+
+Every two and a half year during the first 20 years and every five years over the next 80 years, a
+series of samples (one wooden box) is taken out for analyses. The first series of samples were
+analysed in December 1986 (year 0 = y0). The last box will be taken out for analyses in December
+2086 (y100).
+
+
+
+
+NordGen's team at the wooden craters inside the steel container, 2017.
+
+Seeds have been tested according to methods established by the International Seed Testing
+Association (ISTA 1985, 2017). Test methods are further described in the NordGen report Seed
+Longevity and Survival of Seed Borne Diseases after 30 years Conservation in Permafrost. Report
+from the 100 year storage experiment (2019).
+
+Seeds have, for the first 30 years of the experiment, been tested by Kimen Seed Laboratory located
+at Ås in Norway, applying ISTA protocols published in ISTA (1985) International Seed Testing
+Association. Rules, 1985. Seed Science and Technology, 13: 299‒355. NIBIO (Norwegian Institute of
+Bioeconomy Research has assisted in tests detecting virus contamination in lettuce.
+
+From 2021, germination tests belonging to series A have been carried out by the NordGen seed lab in
+Alnarp, using the same ISTA protocol, while Kimen Seed Laboratory has continued to carry out the
+tests belonging to Series B.
+
+
+
+
+                                                      6
+Results – Germination
+Germination results at the start and after 35 years of storage are listed in Annex 1. Graphs showing
+development and changes in germination over the years are shown crop group wise in figures 1-6
+below. Results include both Series A and Series B. Remaining germination ability of initial germination
+percentage after 35 years is shown in figure 7. Results grouped according to the two analysing seed
+labs are shown Iin figure 8.
+
+
+After 35 years the 100 year experiment has revealed considerable differences between crop groups,
+but also differences between species and cultivars within the same species were observed.
+The most long-lived seeds in this experiment, displayed as minimal loss of germination percentage
+over 35 years, have been the vegetable seeds: cucumber, lettuce, onion, beet, cauliflower and carrots.
+
+
+The picture is more varied within cereal, grass and legume species. Among cereals, barley seeds have
+maintained a high level of seed germination over 35 years. Wheat and rye have declined significantly
+in viability, in particular during the last 15 years. Among the grasses some species and some cultivars
+have maintained viability while others have declined. Among legumes, red clover has maintained
+germination ability very well whereas the three cultivars of pea show mixed results.
+
+
+
+                                               Germination Results Cereals
+
+                            100
+                            90
+                            80
+                             70
+               Percentage
+
+
+
+
+                            60
+                            50
+                            40
+                            30
+                            20
+                             10
+                             0
+                                  0
+
+                                        2 ,5
+
+
+                                               5
+
+                                                    7,5
+
+
+                                                          10
+
+
+                                                                 5
+
+                                                                          15
+
+
+                                                                                 5
+
+                                                                                      20
+
+
+                                                                                            25
+
+
+                                                                                                 30
+
+
+                                                                                                       35
+                                                               12 ,
+
+
+
+
+                                                                                17,
+
+
+
+
+                                                                  Years
+
+                                  Barley H. vulgare cv. Inga Abed              Barley H. vulgare cv. Tunga
+                                      Barley H. vulgare cv. Bamse          Rye S. cereale cv. Petkus II
+                                      Rye S. cereale cv. Voima        Wheat T. aestivum cv. Vakka
+                                  Wheat T. aestivum cv. Solid             Wheat T. aestivum cv. Runar
+                                                   Wheat T. aestivum cv. Line 79 CBW
+
+Figure 1. Germinations results of cereal crops, barley (2 varieties), rye (2 varieties) and wheat (4 varieties).
+
+
+
+
+                                                                      7
+                                            Germination Results Forage Grasses
+
+                            100
+
+                            90
+
+                            80
+
+                             70
+               Percentage
+
+
+                            60
+
+                            50
+
+                            40
+
+                            30
+
+                            20
+
+                             10
+
+                             0
+                                  0
+
+                                         2 ,5
+
+
+                                                5
+
+                                                    7,5
+
+
+                                                            10
+
+
+                                                                  5
+
+                                                                            15
+
+
+                                                                                  5
+
+                                                                                       20
+
+
+                                                                                             25
+
+
+                                                                                                  30
+
+
+                                                                                                           35
+                                                                 12 ,
+
+
+
+
+                                                                                 17,
+                                                                    Years
+
+                            L. perenne cv. Pippin         L. perenne cv. Riikka        P. pratense cv. Tammisto
+                             P. pratense cv. Bodin         P. pratense cv. Forus         P. pratensis cv. Annika
+                                          P. pratensis cv. Hankkijan K           P. pratensis cv. Salten
+Figure 2. Germinations results of forage grasses, perennial raigrass (2 varieties), timothy (2 varieties), meadow
+fescue (1 variety) and Kentucky bluegrass (2 varieties).
+
+
+
+
+                                                Germination Results Legumes
+
+                            100
+
+                            90
+
+                            80
+
+                             70
+               Percentage
+
+
+
+
+                            60
+
+                            50
+
+                            40
+
+                            30
+
+                            20
+
+                             10
+
+                             0
+                                  0
+
+                                         2 ,5
+
+
+                                                5
+
+                                                    7,5
+
+
+                                                            10
+
+
+                                                                  5
+
+                                                                            15
+
+
+                                                                                  5
+
+                                                                                       20
+
+
+                                                                                             25
+
+
+                                                                                                  30
+
+
+                                                                                                           35
+                                                                 12 ,
+
+
+
+
+                                                                                 17,
+
+
+
+
+                                                                    Years
+
+                                          T. pratense cv. Jokioinen          T. pratense cv. Molstad
+                                      P. sativum cv. Weitor 1       P. sativum cv. Hankkijan Hemmo
+                                                           P. sativum cv. Weitor 2
+Figure 3. Germinations results of legume crops, red clover (Trifolium pratense) (2 varieties) and pea (Pisum
+sativum) (3 varieties). (Results for the pea variety ‘Weitor 2’ is not included in further summarizing analysis).
+
+
+
+
+                                                                        8
+                                        Germination results Beta and Brassica
+
+                            100
+
+                            90
+
+                            80
+
+                             70
+               Percentage
+
+
+                            60
+
+                            50
+                            40
+
+                            30
+
+                            20
+
+                             10
+
+                             0
+                                  0
+
+                                       2 ,5
+
+
+                                                 5
+
+                                                      7,5
+
+
+                                                             10
+
+
+                                                                     5
+
+                                                                               15
+
+
+                                                                                       5
+
+                                                                                             20
+
+
+                                                                                                   25
+
+
+                                                                                                        30
+
+
+                                                                                                              35
+                                                                    12 ,
+
+
+
+
+                                                                                      17,
+                                                                       Years
+
+                             B. vulgaris cv. 75000          B. vulgaris cv. 3 11 N typ            B. vulgaris cv. Hilma
+                                               B. napus cv. Jupiter            B. napus cv. Linrama
+                                  B oleracea v. botrytis cv. Svavit                 B oleracea v. botrytis cv. Pari
+                                              B oleracea spp. capitata f. alba cv. Trønder Lunde
+Figure 4. Germinations results of Beta (1 variety) and Brassica species (3 species/varieties).
+
+
+
+
+                                       Germination Results Onion and Lettuce
+
+                            100
+
+                            90
+
+                            80
+
+                             70
+               Percentage
+
+
+
+
+                            60
+
+                            50
+
+                            40
+
+                            30
+
+                            20
+
+                             10
+
+                             0
+                                  0
+
+                                       2 ,5
+
+
+                                                 5
+
+                                                      7,5
+
+
+                                                             10
+
+
+                                                                     5
+
+                                                                               15
+
+
+                                                                                       5
+
+                                                                                             20
+
+
+                                                                                                   25
+
+
+                                                                                                        30
+
+
+                                                                                                              35
+                                                                    12 ,
+
+
+
+
+                                                                                      17,
+
+
+
+
+                                                                       Years
+
+                                  A. cepa cv. Hamund              A. cepa cv. Owa             A. cepa cv. Laskala
+                            L. sativa cv. Hilro       L. sativa cv. Attraction Sana               L. sativa cv. Attractie
+Figure 5. Germinations results of onion (Allium cepa) (3 varieties) and lettuce (Lactuca sativa) (3 varieties).
+
+
+
+
+                                                                           9
+                                         Germination Results Cucumber and Carrot
+
+                            100
+
+                            90
+
+                            80
+
+                             70
+               Percentage
+
+
+                            60
+
+                            50
+
+                            40
+
+                            30
+
+                            20
+
+                             10
+
+                             0
+                                     0
+
+                                          2 ,5
+
+
+                                                    5
+
+                                                         7,5
+
+
+                                                                  10
+
+
+                                                                        5
+
+                                                                                   15
+
+
+                                                                                           5
+
+                                                                                                20
+
+
+                                                                                                        25
+
+
+                                                                                                               30
+
+
+                                                                                                                     35
+                                                                       12 ,
+
+
+
+
+                                                                                          17,
+                                                                          Years
+
+                                     C. sativus cv. Langelands gigant                    C. sativus cv. Rhensk Druv
+                                          D. carrota cv. Nantes Fancy                    D. carrota cv. Regulus
+                                                               D. carrota cv. Forto Nantes
+Figure 6. Germinations results of Cucumber (Cucumis sativus) (2 varieties) and carrot (3 varieties).
+
+
+
+
+                                                 Remaining Germination Percentage
+                            120
+                            110
+                            100
+                            90
+                            80
+               Percentage
+
+
+
+
+                             70
+                            60
+                            50
+                            40
+                            30
+                            20
+                             10
+                             0
+                                                                                    0
+
+
+
+
+                                                                         Crop Species
+
+                                   B. napus (2)         F. pratensis (1)           S. cereale (2)          L. perenne (2)
+                                  P. pratense (3)         T. aestivum (4)               L. sativa (3)        H. vulgare (3)
+                                     P. sativum (3)            B. oleracea v. botrytis (2)              T. pratense (2)
+                                  B. oleracea ssp. capitata f. alba (1)                 D. carota (3)         C. sativus (2)
+                                                 P. pratensis (2)       B. vulgaris (3)              A. cepa (3)
+
+Figure 7. Remaining germination percentage of 17 crop species after 35 years storage as average of the
+cultivars included (number of cultivars in brackets). The results for pea show the average for two cultivars with
+very high germination. One cultivar with close to zero germination is not included in the average shown here.
+(See Figure 3 for details).
+
+
+
+
+                                                                              10
+As explained, from 2021, the two series of experimental materials have been analysed in two different
+seed labs. Series A comprising 31 samples of 16 crops have been analysed at the NordGen seed lab in
+Alnarp, while series B comprising 10 samples with seeds of nine species have been analysed at Kimen
+seed lab in Ski, Norway. Analysis of seeds in series B have included test of survival of seed borne
+pathogens in addition to germination tests.
+
+
+The total plant health status is not known for any samples/series. The only background information
+available is that samples in Series B are contaminated with the pathogens listed in table 2. The
+pathogens involved are mainly problematic when cultivating the plants in field conditions. The possible
+effect of the pathogens on germination is not studied.
+
+
+As eight out of nine species in Series B are represented also in Series A, a comparison between
+germination results in the two series is shown in Figure 8. Average remaining germination percentage
+of crops in Series A is 83,0%, while it is 85,8% in Series B. There are no systematic trends in this
+comparison, and the experimental material is too scarce to draw any conclusions regarding the effect
+of either pathogen contamination or differences between the two seed labs.
+
+
+
+
+Figure 8. Remaining germination percentage of 17 crop species after 35 years storage as average of the
+cultivars included (number of cultivars in brackets). This figure shows test results analysed by NordGen (blue
+columns) and Kimen Seed Lab, (red columns) respectively.
+
+
+
+
+                                                       11
+Results – Seed Borne Diseases
+Results showing the survival of seed borne plant diseases are shown in figure 10. The initial infection
+level of the seed borne pathogens varied considerably among the different crop species included in the
+experiment (Figure 10). However, after 35 years of storage in permafrost the infection levels were in
+general only slightly changed in most of the samples, although some variation in the levels were
+observed over the years.
+
+All investigated pathogens were still detected after 35 years of storage also when the initial infection
+level was low, as for B. allii and Fusarium spp. in onion, A. dauci and A. radicina in carrot, Fusarium
+spp. in barley and wheat, U. nuda f. sp. tritici in wheat, and LMV in lettuce. For some of the pathogens
+with higher infection levels, like D. dictyoides in meadow fescue and P. nodorum in wheat, a trend
+towards reduced level was observed, whereas for Phoma betae in beet a trend towards increased
+infection was observed, compared to the level at the start of the experiment.
+
+
+                                              Fluctuations in Seed Infection
+
+                 100
+
+
+
+                 90
+
+
+
+                 80
+
+
+
+                  70
+
+
+
+                 60
+    Percentage
+
+
+
+
+                 50
+
+
+
+                 40
+
+
+
+                 30
+
+
+
+                 20
+
+
+
+                  10
+
+
+
+                  0
+                       0
+
+
+                              2 ,5
+
+
+
+                                       5
+
+
+                                              7,5
+
+
+
+                                                      10
+
+
+
+                                                               5
+
+
+                                                                         15
+
+
+
+                                                                                  5
+
+
+                                                                                         20
+
+
+
+                                                                                                 25
+
+
+
+                                                                                                        30
+
+
+
+                                                                                                                35
+                                                            12 ,
+
+
+
+
+                                                                                 17,
+
+
+
+
+                                                                   Years
+
+                       Alternaria brassicicola      Alternaria dauci          Alternaria radicina      Botrytis alli
+                       Drechslera spp.       Drechslera dictyoides          Drechslera phlei      Fusarium spp. (1)
+                   Fusarium spp. (2)       Fusarium spp. (3)        Phoma betae           Parastagonospora nodorum
+                                           Lettuce mosaic virus          Ustilago nuda f.sp. tritici
+
+Figure 9. Fluctuations in seed infection by 14 seed borne pathogens over 35 years.
+
+
+
+
+                                                                    12
+When considering these results, it is important to stress that the project is characterized as a
+monitoring project with the aim to monitor changes in germination of the backup seed samples of the
+Nordic seed collection that were deposited in the coal mine at -3.7oC in 1984. The number of samples
+and replicates do not allow for broad statistical analysis and the scientific evidence and relevance is
+weak.
+
+It is also important to note that the results are extracted from seeds conserved in permafrost at
+minus 3.7oC and that the observations are not valid for conservation of seeds at -18oC, which is the
+temperature that is used for long term conservation of seeds by most genebanks and by the Svalbard
+Global Seed Vault.
+
+a)   The results show that 11 out of the 17 species after 35 years storage in permafrost have retained
+more than 90 percent of their initial germination percentage. The same figure five years ago was that
+9 out of 17 species had results better than this threshold. On average, the observations then show
+that the germination percentages of these seeds more or less are the same as they were five years
+ago, with one major and three minor exceptions:
+1) A major drop in germination of seeds of oil seed rape (Brassica napus) has been observed from
+30 to 35 years of storage. This drop applies for both varieties of the species and oil seed rape is now,
+after 35 year storage ranged as having the poorest germination ability among the 17 crops in the
+project. Five years ago, seeds of oil seed rape germinated at a rate of 87%. Five years later this figure
+has dropped to 19%.
+2) Three crops have entered the group of crops that has retained more than 90% of their initial
+germination ability, namely cauliflower (B. oleracea v. botrytis), barley (Hordeum vulgare) and the two
+varieties of peas (Pisum sativum). This mean that the germination results have slightly increased from
+2016 to 2021, however again, no significant change, but an interesting observation though.
+
+
+b) Regarding average results, there has been no major change in germination of seeds of the three
+cereal crops (barley, wheat and rye). However, as shown variety wise in figure 1, the cereal samples
+belonging to Series A that from 2021 have been analysed at NordGen, show an increased germination
+percentage compared to results from five years earlier (except for one of the two rye samples), while
+samples belonging to Series B that have been tested at Kimen seed lab shows a slight decrease in the
+germination percentage. The same protocol has been followed at both seed labs, and the observation
+is probably purely random, however, the observation should be paid further attention at the tests
+scheduled for 2026.
+
+
+c)   The crops Beta vulgaris, Allium cepa, Cucumis sativus, Poa pratensis, Trifolium pratense, Brassica
+oleracea ssp. capitata f. alba and Daucus carota still retain > 95% of the germination percentage
+analysed when the project was established in 1986.
+
+
+d)   The drop in germination of timothy and English ryegrass that started 10-15 years ago continues
+in the analysis carried out in 2021.
+
+e) The 11 pathogens that are included in the project have survived over the 35 years, more or less at
+the same contamination levels as at the start of the project. The results are limited in number of
+replicates and too varying to draw any conclusions or to suggest more detailed trends or general
+knowledge from the pathogen survival analysis program.
+
+
+
+
+                                                    13
+NordGen's Executive Director, Lise Lykke Steffensen and Seed Vault Coordinator, Åsmund Asdal in Coal Mine
+3, February 2022.
+
+
+
+
+Some of the experiment's seed samples that were taken out for analysis.
+
+
+                                                    14
+Annex 1
+
+Germination percentages of seeds of 41 varieties of 17 crops conserved in permafrost in Store norske
+Coal mine 3 in Svalbard analysed at the start in 1986 and in 2021.
+
+
+                                        Crop
+    Sample            Variety                             Start 1986
+                                      /Variety                           2021
+
+   Series A/B                                                y0           y35           Decrease
+
+                                    H. vulgare cv.
+ A-1-1            Inga Abed                                  95           89                6
+                                    Inga Abed
+
+                                    H. vulgare cv.
+ A-1-2            Tunga                                      95            95               0
+                                    Tunga
+
+                                    T.aestivum
+ A-2-1            Vakka                                      75            69               6
+                                    cv. Vakka
+
+                                    T.aestivum
+ A-2-2            Solid                                      70            45              25
+                                    cv. Solid
+
+                                    S.cereale cv.
+ A-3-1            Petkus II                                  76            39               37
+                                    Petkus II
+
+                                    S.cereale cv.
+ A-3-2            Voima                                      81           38               43
+                                    Voima
+
+                                    L.perenne cv.
+ A-4-1            Pippin                                     99            49              50
+                                    Pippin
+
+                                    L.perenne cv.
+ A-4-2            Riikka                                     96            62              34
+                                    Riikka
+
+                                    P.pratense
+ A-5-1            Tammisto                                   73            21              52
+                                    cv. Tammisto
+
+                                    P.pratense
+ A-5-2            Bodin                                      90            79               11
+                                    cv. Bodin
+
+                                    P. pratensis
+ A-6-1            Annika                                     92            95               -3
+                                    cv. Annika
+
+                                    P. pratensis
+ A-6-2            Hankkijan K       cv. Hankkijan            94            92               2
+                                    K
+
+                                    T.pratense cv.
+ A-7-1            Jokioinen                                  75            75               0
+                                    Jokioinen
+
+                                    T.pratense cv.
+ A-7-2            Molstad                                    93           85                8
+                                    Molstad
+
+                                    P.sativum cv.
+ A-8-1            Weitor 1                                   45            67              -22
+                                    Weitor 1
+
+
+
+
+                                                     15
+                       P.sativum cv.
+         Hankk.
+A-8-2                  Hankkijan             72   89   -17
+         Hemmo
+                       Hemmo
+
+                       P.sativum cv.
+A-8-3    Weitor 2                            94   9    85
+                       Weitor 2
+
+                       B.vulgaris cv.
+A-9-1    70500                               79   86   -7
+                       70500
+
+                       B.vulgaris cv.
+A-9-2    311 N typ                           97   91   6
+                       311 N typ
+
+                       B.napus cv.
+A-10-1   Jupiter                             95   32   63
+                       Jupiter
+
+                       B.napus cv.
+A-10-2   Linrama                             84   6    78
+                       Linrama
+
+                       B.napus cv.
+A-10-1   Jupiter                             95   32   63
+                       Jupiter
+
+                       A.cepa cv.
+A-11-1   Hamund                              92   95   -3
+                       Hamund
+
+                       A.cepa cv.
+A-11-2   Owa                                 89   97   -8
+                       Owa
+
+                       L.sativa cv.
+A-12-1   Hilro                               98   98   0
+                       Hilro
+
+                       L.sativa cv.
+         Attraction
+A-12-2                 Attraction            97   92   5
+         Sana
+                       Sana
+
+                       C.sativus cv.
+         Langelands
+A-13-1                 Langelands            99   98    1
+         gig.
+                       gigant.
+
+                       C.sativus cv.
+A-13-2   Rhensk Druv                         93   90   3
+                       Rhensk Druv
+
+                       D.carota cv.
+         Nantes
+A-14-1                 Nantes                92   89   3
+         Fancy
+                       Fancy
+
+                       D.carota cv.
+A-14-2   Regulus                             91   88   3
+                       Regulus
+
+                       B.oleracea v.
+A-15-1   Svavit        botrytis cv.          95   92   3
+                       Svavit
+
+                       B.oleracea v.
+A-15-2   Pari          botrytis cv.          95   89   6
+                       Pari
+
+
+
+                                        16
+                      T.aestivum
+B-1    Runar                                89   49   40
+                      cv. Runar
+
+                      B.vulgaris cv.
+B-10   Hilma                                78   82   -4
+                      Hilma
+
+                      B.oleracea
+       Trønder
+B-11                  ssp. capitata         87   84   3
+       Lunde
+                      f. alba cv.
+
+                      T.aestivum
+B-2    Line 79 CBW    cv. Line 79           90   82   8
+                      CBW
+
+                      H. vulgare cv.
+B-4    Bamse                                90   77   13
+                      Bamse
+
+                      F.pratensis
+B-5    Salten                               92   30   62
+                      cv. Salten
+
+                      P.pratense
+B-6    Forus                                94   96   -2
+                      cv. Forus
+
+                      L.sativa cv.
+B-7    Attractie                            84   71   13
+                      Attractie
+
+                      A.cepa cv.
+B-8    Laskala                              92   88   4
+                      Laskala
+
+                      D.carota cv.
+B-9    Forto Nantes                         76   74   2
+                      Forto Nantes
+
+
+
+
+                                       17
+Seed Longevity and Survival of Seed Borne Diseases After 35 Years
+Conservation in Permafrost
+– Report From the 100 Year Storage Experiment
+
+NordGen Publication Series: 2024:01
+ISBN: 978-91-986029-8-2
+
+
+© NordGen 2024
+
+
+The publication can be downloaded from NordGen’s website or
+from www.norden.org/nordpub.
+Cover photo: Jonatan Jacobson/NordGen.
+Other photos: NordGen if not otherwise stated.
+
+References:
+
+Asdal, Å., G. Brodal, S.Ø. Solberg, F. Yndgaard, R. von Bothmer and
+E. Meen (2019). Seed longevity and survival of seed borne diseases
+after 30 years conservation in permafrost. Report from the 100
+year storage experiment. NordGen Publication Series: 2019:04
+
+
+ISTA (1985) International Seed Testing Association. Rules, 1985.
+Seed Science and Technology, 13: 299‒355.
+
+NordGen
+
+The Nordic Genetic Resource Centre (NordGen) is the Nordic
+countries’ gene bank and knowledge center for genetic resources.
+NordGen is an organisation under the Nordic Council of Minister
+and works with the mission of conserving and facilitating the
+sustainable use of genetic resources linked to food, agriculture
+and forestry.
+
+Address: Växthusvägen 12, 234 23 Alnarp, Sverige
+Website: www.nordgen.org
+E-mail: info@nordgen.org
+Phone number: +46 40 53 66 40
+
+
+
+
+                                                   18
+

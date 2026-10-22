@@ -1,0 +1,623 @@
+Seed Science Research (2010) 20, 1 –12                                                   doi:10.1017/S0960258509990213
+q Cambridge University Press 2009
+
+
+
+
+The longevity of crop seeds stored under ambient conditions
+Manuela Nagel and Andreas Börner*
+Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung (IPK), Corensstrasse 3, D-06466 Gatersleben,
+Germany
+
+(Received 24 June 2008; accepted after revision 31 July 2009 – First published online 19 November 2009)
+
+
+Abstract                                                         over decades, but in the case of natural disasters seeds
+                                                                 would only be useful if they were still able to germinate
+The ability of crop seeds to retain their viability over         after the incident. Priestley et al. (1985) have shown that
+extended periods of uncontrolled temperature and/or              different crops are able to maintain 50% of their
+relative humidity conditions has not been widely                 germination even in different storage locations (e.g.
+investigated, although this is an important issue for            Australia, Russia) at least for 2 years. But most of this
+genebank management. We report here the response
+                                                                 investigated material showed a longer half-viability
+of 18 crop species to storage for up to 26 years
+                                                                 period. Plants with high agricultural utilization but
+at 20.3 ^ 2.38C and 50.5 ^ 6.3% relative humidity.
+                                                                 which could not produce long-living seeds (e.g. onion),
+Germination rates decreased in a sigmoid fashion,
+                                                                 have never obtained the same agronomical importance
+but the curve parameters were species characteristic.
+                                                                 as wheat, rice and maize. The agronomical trait ‘seed
+Pea, common bean and maize seeds retained their
+                                                                 longevity’ was not considered highly relevant until the
+viability over the longest period (23, 21 and 19 years,
+                                                                 beginning of the 20th century. At that time the Russian
+respectively). In contrast, chive seeds survived for
+only 5 years and lettuce for 7 years. In addition to             botanist and ecologist Nicolai I. Vavilov was one of the
+this interspecific variability, there were also indices          first to recognize that our plant genetic resources are in
+for intraspecific variability, particularly in bean and          particular danger and need to be conserved for the
+chive seeds, just as in collard, lupin, poppy, wheat             future (Maxted et al., 1997). These efforts were followed
+and maize seeds. A significant correlation was                   by the establishment of modern genebanks around the
+obtained between germination performance in the                  world (Linington and Pritchard, 2001), which led to an
+laboratory and seedling emergence following autumn               increasing interest in the storage behaviour of seeds.
+sowing. Seeds in which oil was the major seed storage            Haferkamp et al. (1953) showed that germination of
+component were more short lived, whereas carbo-                  open-stored seeds decreased with increasing seed age,
+hydrates or proteins did not show an effect on seed              but many seeds, including barley, wheat, oat, alfalfa,
+longevity.                                                       pea and maize, remained viable after storage for as long
+                                                                 as 31 – 33 years. Moreover, different discoveries have
+                                                                 demonstrated that under certain conditions seeds can
+Keywords:     ambient    storage,     conservation,      field   survive for hundreds of years.
+establishment, genebank, genetic diversity, longevity, seeds         A famous example of extreme longevity is
+                                                                 provided by the seeds of a date palm (Phoenix
+                                                                 dactylifera L.). These seeds were discovered beneath a
+                                                                 Heriodin fortress in Israel in 1965 and, after four
+Introduction                                                     decades in storage, one seed germinated. The radio-
+                                                                 carbon dating of the remaining seeds revealed an
+Agriculture depends on the ability of seeds to survive           age of 2000 years (Sallon et al., 2008). Furthermore,
+until the next growing season under ambient                      a deliberate long-term cereal seed-storage experiment,
+conditions. This may have been a factor for which our            involving wheat, barley, rye and oats, was initiated in
+modern crops were chosen for domestication,                      November 1877 by F. Haberland at the Universität für
+thousands of years ago. Normally it would not be                 Bodenkultur in Vienna. The seeds were maintained at
+have been important that those seeds should survive              10 –158C, and after 90 years of storage, 3.5% of the
+                                                                 wheat seeds were still viable (Ruckenbauer, 1971).
+                                                                 After a further 20 years, the remaining vials were
+*Correspondence                                                  opened, and while the rye seeds no longer germinated,
+Email: boerner@ipk-gatersleben.de                                81% and 90% of the oat and barley seeds, respectively,
+2                                               M. Nagel and A. Börner
+
+were still viable (Steiner and Ruckenbauer, 1995).            (Phaseolus vulgaris L.), pea (Pisum sativum L.) and
+In addition, the seeds from five weed species                 common vetch (Vicia sativa L.); oilseeds: collard
+(Sinapis arvensis L., Vaccaria hispanica (Mill.) Rauschert,   (Brassica oleracea L.), sunflower (Helianthus annuus L.),
+Agrostemma githago L., Sinapis alba L. and Lolium             linseed (Linum usitatissimum L.) and poppy (Papaver
+temulentum L.) present in the oat sample as impurities,       somniferum L.); and miscellaneous species, including
+were also able to germinate.                                  chives (Allium schoenoprasum L.), cucumber (Cucumis
+    However, the seeds of the above-mentioned                 sativus L.), carrot (Daucus carota L.) and lettuce (Lactuca
+discoveries were all found and stored under ultra-dry         sativa L). All seeds were kept in paper bags in a
+conditions; even the samples of Haferkamp et al. (1953)       room where the temperature was maintained at
+were stored in a dry continental climate zone. Is it          20.3 ^ 2.38C, and the relative humidity (RH) at
+possible to have comparable longevities in a temperate        50.5 ^ 6.3%. Three to five different accessions per
+zone? Seed companies, breeders, farmers and many              crop species were chosen randomly from almost every
+seed banks store their material under open storage            harvest year between 1980 and 2005, giving a total of
+conditions. How long can this material survive in terms       30– 148 accessions per crop, ranging from 1 to 26 years
+of high germination (. 80%)? The following study              in age (Table 1). The species were classified into
+on genebank accessions addresses these questions.             cereals, legumes, oil crops and miscellaneous crops.
+The plant material was planted, harvested and stored
+in central Germany, where the 10-year average relative
+humidity is 80.4 ^ 1.5% and the average temperature           Seed germination
+is 9.8 ^ 0.58C. The seeds belonged to the ex situ
+genebank for agricultural and horticultural crop plants       All samples were germinated in 2006, using 50 seeds
+in Gatersleben, which houses some 150,000 accessions,         for each accession, according to ISTA rules (ISTA,
+covering over 3000 species within 890 genera.                 2005). Depending on their size, the seeds were placed
+In general, orthodox seeds are conserved at 2 158C,           either over or between moistened filter papers on a
+while vegetatively reproduced plant materials are             Jacobsen apparatus, which provided a temperature
+maintained by in vitro culture and cryo-conservation.         regime of 25 ^ 28C during the day and 23 ^ 28C
+Seed storage accounts for about 90% of the stored             during the night. Germination percentage was based
+material (Börner, 2006). In addition to the long-term        on the number of seedlings with a normal appearance.
+cold-storage facilities, reserve seeds are routinely          A parallel field experiment tested seed material
+stored in paper bags under room-temperature condi-            derived from a subset of accessions (Table 1). Seeds
+tions. These seeds are provided for the enquiries of          were sown in September 2006 in the form of two
+different users during the first years after harvest.         replicated rows of 25 seeds each. The sowing depth
+    Our aim was to assess the longevity of this reserve       was adjusted to seed size, with small seeds being
+seed. In comparison with standard papers by Walters           placed at a depth of 1– 2 cm, and large ones at 3– 5 cm.
+et al. (2005), Priestley et al. (1985), Roberts (1972) and    The number of emerged seedlings was counted after 2
+Ellis and Roberts (1980), we investigated the seed from       and 4 weeks.
+18 crop species, which had been stored under ambient
+conditions for 6 –26 years. We addressed the following
+questions: (1) How long can seeds survive in ambient
+but uncontrolled storage? (2) How much variation              Longevity calculations
+exists within species? (3) Does crop year make a
+difference? (4) Do laboratory tests of longevity              The age of each seed sample was taken as the number
+correspond to field emergence? (5) How long can the           of years that had elapsed since their harvest. Based on
+seeds be stored, maintaining germination over 80%?            the germination of the five accessions per reproduction
+                                                              cycle, a probit analysis was performed. A transform-
+                                                              ation of cumulative, normally distributed germinabil-
+Materials and methods                                         ities converts the expected sigmoid germination curve
+                                                              to a linear one which can be described by equation (1),
+Plant material                                                where n is probit percentage viability at storage time
+                                                              p and its initial probit percentage viability Ki, whereas
+Seeds were obtained from various plantings per-               s is the standard deviation of the distribution of deaths
+formed between 1980 and 2005. The 18 test species             in time (Ellis and Roberts, 1980).
+included starchy-seeded cereals: oat (Avena sativa L.),                       
+                                                                               1
+barley (Hordeum vulgare L.), bread wheat (Triticum                 n ¼ Ki 2       ·p                                 ð1Þ
+                                                                               s
+aestivum L.), rye (Secale cereale L.), triticale ( £ Triti-
+cosecale Wittm.) and maize (Zea mays L.); proteinaceous       In addition, the half-viability period (P50) was
+legumes: lupin (Lupinus albus L.), common bean                calculated in equation (2) by setting n ¼ 0 (equal to
+                                      Longevity of crop seeds under ambient conditions                                        3
+
+Table 1. Numbers of harvest years (HY) and accessions (Acc.), averaged amount (% of dry mass) of carbohydrates (CH), proteins
+and oil, and 1000 kernel weight (g) taken from data by Earle and Jones (1962), Jones and Earle (1966) and Sinclair and DeWit
+(1975) with respect to the species and crop group investigated
+
+                                           Germination in lab        Field emergence
+                                                                                           CH     Protein    Oil    Wt/1000
+Crop        Species                      No. of HY   Total Acc.   No. of HY   Total Acc.   (%)      (%)      (%)      (g)
+Cereals
+            Avena sativa L.                  20          96           5           24       77.0     13.0      5.0       –
+            Hordeum vulgare L.               16          79           4           20       80.0      6.0      1.0       –
+            Secale cereale L.                12          59           4           19       82.0     14.0      2.0       –
+             £ Triticosecale Wittm.          10          39           5           13        –        –        –         –
+            Triticum aestivum L.             15          75           4           20       82.0     14.0      2.0       –
+            Zea mays L.                      20          92           4           17       84.0     10.0      5.0       –
+Legumes
+            Lupinus albus L.                 15          67           4           18        –       36.9      9.4     276.7
+            Phaseolus vulgaris L.            25         120           5           25       70.0     28.1      1.1     297.3
+            Pisum sativum L.                 26         129           5           25       68.0     24.6      1.3     151.6
+            Vicia sativa L.                  25          80           4           17        –       29.2      0.9      48.8
+Oil crops
+           Brassica oleracea L.              13          62           4           18        –       28.2     37.9       3.2
+           Helianthus annuus L.               8          37           4           17       48.0     27.9     43.4      47.2
+           Linum usitatissimum L.             9          50           4           20        –       26.1     40.2       6.2
+           Papaver somniferum L.              6          30           3           15        –        –        –         –
+Miscellaneous crops
+           Allium schoenoprasum L.            6          30           3           15         –       –        –         –
+           Cucumis sativus L.                13          52           4           18         –      22.9     32.1       8.3
+           Daucus carota L.                   7          33           3           14         –      25.6     21.2       1.2
+           Lactuca sativa L.                  9          35           3           15         –      29.3     37.7       0.7
+
+
+50% germination) and transforming p to P50:                       were also calculated using Ellis’s viability equation
+                                                                  (Ellis and Roberts, 1980). Coefficients were reported by
+    P50 ¼ Ki ·s                                          ð2Þ
+                                                                  Liu et al. (2008), the storage temperature was assigned
+In some cases, extrapolation was required and                     as 20.38C (average storage temperature) and water
+conducted on the basis of the slope (2 1/s) and the               content was calculated by using average storage RH
+intercept (Ki) of the seed survival curve, as given in            (50.5%), average temperature (20.38C) and oil contents
+equation (1). Probit parameters and uncertainty of P50            provided by Liu et al. (2008). The initial germination
+values are given as confidence interval in Table 2.               was assigned as intercept based on the longevity
+                                                                  calculation (Table 2).
+Statistical analysis
+                                                                  Results
+Based on the three to five accessions per harvest year
+and species, arithmetic mean and standard deviation
+                                                                  Viability after 1 –26 years of storage was assessed
+(SD) were calculated. Intraspecific variation was
+                                                                  among the different crop species. Most crops showed
+evaluated on the basis of these SDs. Correlations
+                                                                  high germination when germinated within 2 years
+between absolute longevities, which define the storage
+                                                                  post harvest, but germination of most species declined
+period until the last year of seed germination, and P50
+                                                                  to nearly 0% after 20 years, except for barley, maize,
+values, and also between germinations and field
+                                                                  lupin, common bean and pea. Final germination was
+emergence, were calculated using the software
+                                                                  not available for lupin, poppy, linseed, cucumber and
+program SPSS 17.0 (SPSS Inc., Chicago, Illinois, USA,
+                                                                  carrot. A correlation between germination and field
+2008). Correlations are expressed by coefficient of
+                                                                  establishment was considered significant at R 2 of 0.60
+determination (R 2). Relationships between absolute
+                                                                  (P , 0.001).
+longevities, P50 values (Table 3), chemical composition
+and 1000 kernel weight (Table 1) are based on data by
+Priestley et al. (1985), Walters et al. (2005), Earle and         Cereals
+Jones (1962), Jones and Earle (1966) and Sinclair and
+DeWit (1975). P50 values (Table 3) of barley, wheat,              Maize was the most robust of the cereals. After 12
+maize, bean, pea, sunflower, flax and lettuce seeds               years of storage, germination was still over 80%
+4                                                  M. Nagel and A. Börner
+
+Table 2. Calculated longevity parameters (intercept, slope) in accordance with the longevity equation n ¼ Ki 2 (1/s)p including
+the time for the level of germination to fall to 50% (P50). [n ¼ probit viability; Ki ¼ initial germination (probit); 21/s ¼ slope;
+p ¼ storage time (years); SE ¼ standard error]
+
+                                                   Probit parameters                     95% Confidence limits
+Crop        Species                    Intercept (Ki)   Slope (2 1/s)   SE (slope)   Lower bound      Upper bound      P50 (years)
+Cereals
+            Avena sativa L.                 1.7            2 0.22          0.006           7.2              8.3             7.8
+            Hordeum vulgare L.              1.3            2 0.15          0.004           8.2             10.2             9.2
+            Secale cereale L.               2.0            2 0.35          0.008           5.4              6.4             5.9
+             £ Triticosecale Wittm.         1.6            2 0.27          0.008           5.4              6.5             5.9
+            Triticum aestivum L.            1.5            2 0.21          0.004           6.3              8.0             7.2
+            Zea mays L.                     2.3              0.19          0.003          11.4             13.2            12.3
+            Ø                                                                                                               8.1
+Legumes
+            Lupinus albus L.                1.6            2 0.12          0.004          12.0             15.7            13.5
+            Phaseolus vulgaris L.           1.3            2 0.14          0.002           8.6             10.9             9.8
+            Pisum sativum L.                3.0            2 0.22          0.003          12.8             15.0            13.9
+            Vicia sativa L.                 3.5            2 0.32          0.006          10.3             11.4            10.8
+            Ø                                                                                                              12.0
+Oil crops
+           Brassica oleracea L.             1.9            2 0.26          0.006           6.6              8.1             7.3
+           Helianthus annuus L.             1.4            2 0.40          0.012           3.8              4.9             4.3
+           Linum usitatissimum L.           2.7            2 0.26          0.006           9.6             11.4            10.4
+           Papaver somniferum L.            1.6            2 0.19          0.015           6.6             25.8             8.2
+           Ø                                                                                                                7.6
+Miscellaneous crops
+           Allium schoenoprasum L.          1.2            2 0.60          0.022           2.0              2.4             2.0
+           Cucumis sativus L.               3.0            2 0.20          0.007          13.5             17.3            14.9
+           Daucus carota L.                 1.1            2 0.18          0.011           4.8              8.5             6.1
+           Lactuca sativa L.                5.8            2 1.27          0.041           4.2              5.0             4.6
+           Ø                                                                                                                6.9
+Ø, crop average.
+
+(82.8 ^ 12.6%) but it decreased to 55.2% with an                    the half-viability period was calculated to be 7.8 years.
+increasing variability (SD: ^ 47.2%) after 13 years, and            In bread wheat, the behaviour was noticeably variety-
+germination only ceased after year 20 of storage                    dependent, falling to 4.4% by year 12, and to zero by
+(Fig. 1). In the field the highest variability of emergence         year 16. Its SD increased between 2 years
+(28.4 ^ 18.2%) could be detected in year 14, whereas                (77.6 ^ 10.2%) and 9 years (44.8 ^ 32.3%) and
+the correlation between germination and the field                   decreased after 10 years (42.0 ^ 28.9%), which was
+emergence was 0.73 (R 2; P , 0.001). On the basis of the            also detectable in the field (3 years: 86.4 ^ 5.5%;
+single lab germination, the half-viability period (P50)             9 years: 24.8 ^ 19.8%; 13 years: 0.8 ^ 1.0%). There
+was computed and resulted in 12.3 years in the case of              was a strong correlation between germination and
+maize. In barley, P50 was 9.2 years but the germination             field emergence (R 2 ¼ 0.82; P , 0.001). The half-
+percentage remained above 80% only during the first                 viability was reached after 7.2 years. Rye seed
+4 years of storage (4 years: 80.4 ^ 6.8%), falling                  viability declined rapidly after 5 years of storage
+thereafter to 44.1 ^ 30.7%, including the highest                   (65.6 ^ 19.3%), reached the highest SD in the lab
+variability within this species, by year 7, and to zero             (29.5 ^ 32.6%) and in the field (38.5 ^ 44.4%) after 8
+by year 17. In the field, year 13 of the four tested years          years, falling to zero by year 13. The correlation (R 2)
+presented the highest variability (34.8 ^ 27.6%) and                between both traits was 0.54 (P , 0.01). Triticale
+field emergence correlated highly with lab germina-                 behaved in a similar fashion, decreasing from
+tion (R 2 ¼ 0.75; P , 0.001). Oat showed the same                   89.6 ^ 3.8% in year 2, 68.0 ^ 5.6% in year 5 and
+results in this relation (R 2 ¼ 0.76; P , 0.001). The               17.0 ^ 24.0% in year 6 to 14.0 ^ 5.7% in year 11.
+mean germination of oat remained close to 80%                       However, the correlation of lab germination and field
+(79.2 ^ 9.0%) after 4 years of storage, but fell to 52.8%           emergence was much better (R 2 ¼ 0.89; P , 0.001).
+by year 6, showing the highest standard deviation                   P50 of both species was reached after 5.9 years.
+(^ 29.7%), just as in the field emergence (67.2 ^ 25.2%).           Ranking the cereals along their P50 values, the species
+After 16 years, oat germination dropped to zero and                 with the longest-living seeds was maize followed by
+                                      Longevity of crop seeds under ambient conditions                                       5
+
+Table 3. Comparison of seed longevity values (in years) for each species as represented by absolute longevities, analysed P50
+results and P50 values by Ellis’s viability equations, Priestley et al. (1985) and Walters et al. (2005)
+
+                                              Absolute                    Ellis’s viability      Priestley         Walters
+Crop        Species                           longevity      P50             equations         et al. (1985)     et al. (2005)
+Cereals
+            Avena sativa L.                     15            7.8                –                 13.0              117
+            Hordeum vulgare L.                  16            9.2                1.4                7.2               84
+            Secale cereale L.                   12            5.9                –                  4.5               36
+             £ Triticosecale Wittm.              –            5.9                –                  –                  –
+            Triticum aestivum L.                15            7.2                0.9                7.6               54
+            Zea mays L.                         19           12.3                2.3                9.6               49
+            Ø                                   15.4          8.1                1.5                8.4               68.0
+Legumes
+            Lupinus albus L.                     –           13.5                –                  –                  –
+            Phaseolus vulgaris L.               21            9.8                5.1               16.0               31
+            Pisum sativum L.                    23           13.9               14.8               15.9               97
+            Vicia sativa L.                     18           10.8                –                  7.3               71
+            Ø                                   20.7         12.0               10.0               13.1               66.3
+Oil crops
+            Brassica oleracea L.                11            7.3                –                  7.2               23
+            Helianthus annuus L.                 8            4.7                0.9                5.4               50
+            Linum usitatissimum L.               –           10.4                3.5                8.7               53
+            Papaver somniferum L.                –            8.2                –                  7.3               62
+            Ø                                    9.5          7.7                2.1                7.1               47.0
+Miscellaneous crops
+            Allium schoenoprasum L.              5            2.0                –                  –                 24
+            Cucumis sativus L.                   –           14.9                –                  4.9               87
+            Daucus carota L.                     –            6.1                –                  6.6               30
+            Lactuca sativa L.                    7            4.6                3.2                6.4               23
+            Ø                                    6.0          6.9                3.2                6.0               41.0
+Ø, crop average.
+
+
+barley, oat and wheat. Rye and triticale were the                   others (10 years: 44.0 ^ 32.7%). The oldest available
+species with the shortest-living seeds.                             seed stock was 17 years (39.6 ^ 28.9%), so the storage
+                                                                    time before germinability was completely lost could
+                                                                    not be established. The germination variability of
+Legumes                                                             genotypes in the field was high over all tested harvest
+                                                                    years (SD: ^ 12.4 to ^ 23.5) but the correlation with
+The longest-living seeds among the legumes were                     lab germination appeared to be lower (R 2 ¼ 0.33;
+those of pea, in which . 80% germination was                        P , 0.01). Common vetch accessions maintained their
+maintained for 11 years (11 years: 82.0 ^ 16.2) (Fig. 2).           germinability at , 95% for 7 years (7 years:
+From this time point on, the accessions behaved less                94.8 ^ 4.8%), thereafter behaving much like pea.
+consistently, and by year 16 the germination dropped                The variability of germination between the genotypes
+to 43.6%, the SD increased to 40.4% but the overall                 rose in year 11 (48.0 ^ 30.0%) and dropped until year
+mean germination decreased, reaching zero by year 24.               18 (0.55 ^ 1.3%). Only the behaviour in the field
+In the field, the germination decreased from year 1                 changed such that the highest SD could be detected in
+(96.0 ^ 3.7%) to year 12 (58.8 ^ 40.5%) and showed an               year 4 (79.2 ^ 33.4%) and correlation between field
+increasing SD. But older seeds, by year 16, revealed a              and lab behaviour was low (R 2 ¼ 0.16). Probit analysis
+decreasing SD (16.0 ^ 14.7%). The similar germination               revealed that the half-viability period of common
+behaviour in the lab and in the field led to a significant          vetch was 10.8 years. For common bean, 70 – 90%
+high correlation (R 2 ¼ 0.71; P , 0.001). Furthermore,              lab germination was maintained over 9 years (9 years:
+probit analysis showed that pea seeds performed the                 76.8 ^ 26.6%), after which it fell gradually and
+best, with P50 ¼ 13.9 years, followed by lupin with                 reached its highest SD in year 12 (lab: 32.4 ^ 39.8%;
+P50 ¼ 13.5 years. Lupin germination percentage                      field: 21.6 ^ 40.7%), whereas germination ceased
+varied between 80 and 100% over the first 7 years                   by year 22. Germination and field emergence were
+(7 years: 83.6 ^ 10.4%), dropping thereafter in some                highly correlated (R 2 ¼ 0.77; P , 0.001). On the basis
+accessions, but being maintained at a high value in                 of the lower initial germination, P50 of common bean
+6                                                  M. Nagel and A. Börner
+
+
+
+
+Figure 1. Percentage germination of six cereal species including the calculated probit curve as a function of storage time (harvest
+      ·
+year). , Germination (%) per accession; —, calculated probit curve; P50, half-viability period.
+
+
+was calculated to be 9.8 years. Corresponding to                    but corresponded very well with the lab germination
+germination, the half-viability period of the different             (R 2 ¼ 0.88; P , 0.001). No seed older than this was
+legume seeds could be ranked with pea seeds as                      available for testing. The half-viability period P50 was
+longest-living, followed by lupin, common vetch and                 10.4 years, which made linseed the best performing oil
+common bean seeds.                                                  crop. Poppy seeds followed with a P50 of 8.2 years but
+                                                                    included a high uncertainty between 6.6 and 25.8 years
+                                                                    due to missing germination results in older harvest
+Oil crops                                                           years. The mean germination of poppy seeds fell
+                                                                    from 92.4 ^ 7.3% to 62.0 ^ 44.3% between years
+Linseed retained an average germination of around                   4 and 9, and the highest variability of genotypes
+90% during the first 8 years of storage (Fig. 3) (8 years,          was reached in year 9. Older seeds than these were
+lab: 90.4 ^ 3.8%; field: 84.9 ^ 13.9%), which dropped               not available for testing. In the field, poppy seeds
+to , 10% by years 13 (lab: 5.2 ^ 11.6%) and 16 (lab:                performed worse than in the lab, resulting in a
+10.8 ^ 8.6%). After this storage period the germination             correlation (R 2) of 0.63 (P , 0.001). Collard seeds
+in the field was better (16 years: 27.2 ^ 17.5%)                    maintained a high germination rate for 5 years
+                                  Longevity of crop seeds under ambient conditions                                         7
+
+
+
+
+Figure 2. Percentage germination of four legume species including the calculated probit curve as a function of storage time
+              ·
+(harvest year). , Germination (%) per accession; —, calculated probit curve; P50, half-viability period.
+
+
+
+
+Figure 3. Percentage germination of four oil crop species including the calculated probit curve as a function of storage time
+              ·
+(harvest year). , Germination (%) per accession; —, calculated probit curve; P50, half-viability period.
+8                                                M. Nagel and A. Börner
+
+(lab: 86.8 ^ 11.5%; field: 84.8 ^ 14.4%), the standard           in field performance no seeds were available.
+deviation increased in 11 years (28.8 ^ 35.7%) there-            On the basis of the lab germinations P50 was 14.9
+after decreasing to 4.4 ^ 4.6% by year 13. The                   years with a slightly higher uncertainty between 13.5
+appearance of the seedlings in the lab was similar to            and 17.3 years. In contrast, carrot seed half-viability
+those in the field and was highly correlated (R 2 ¼ 0.87;        was more than half shorter and calculated to be
+P , 0.001). On the basis of these lab germination                6.1 years. Carrot seed germination declined slowly
+results, the half-viability period of collard was 7.3            from 75.2 ^ 7.8% (2 years) to 15.5 ^ 28.4% by year 9
+years followed by sunflower with P50 ¼ 4.3 years. For            and reached highest standard deviation by year 5
+the latter crop large differences between accessions             (46.4 ^ 31.2%). The same behaviour was detectable in
+were noted but the mean germination rate fell rapidly            the field: germination dropped from year 3
+from year 1 (90.0 ^ 10.6%) to 32.4 ^ 26.7% in year 6,            (64.8 ^ 6.6%) to year 9 (8.5 ^ 17.0%) and reached
+reaching zero by year 10. In the field the performance           highest SD in year 6 (49.2 ^ 18.5%). The results in the
+of sunflower seeds was only 77.0 ^ 18.4% germination             field correlated with the lab germination at R 2 ¼ 0.61
+after 1 year of storage, and after 7 years 49.2 ^ 28.8%          (P , 0.01). A considerably shorter survival curve was
+germinated, but the results corresponded well with lab           presented by lettuce, falling from 98.0 ^ 2.5% (2 years)
+germination (R 2 ¼ 0.73, P , 0.01). The P50 values of            to 26.0 ^ 32.0% by year 5 and 0% by year 8. In the field
+the oilseeds were inferior to those of the legume seeds          it already reached 64.8 ^ 6.6% in year 3 and declined
+and could be ranked from long-living linseed to poppy            to 0.8 ^ 1.1% in year 6, thus a high correlation was
+and collard seeds. Sunflower seeds appeared to be                found between both experiments (R 2 ¼ 0.79,
+short-living in this experiment.                                 P , 0.001). The least storable seed of all the test
+                                                                 species were those of chives, for which germination
+                                                                 started at 62.4 ^ 22.9% (1 year), the SD was increased
+Miscellaneous crops                                              in year 3 (23.6 ^ 29.6%) and reached zero by year 6.
+                                                                 In the case of the field experiment, germination was
+Cucumber seed germination was maintained between                 detected only in the first storage year (24.4 ^ 10.1%)
+70 and 100% over 12 years of storage (12 years:                  and the correlation resulted in R 2 ¼ 0.63 (P , 0.001).
+70.4 ^ 42.7%) (Fig. 4). In year 13 the variation of              Lettuce and chive seeds behaved in a similar fashion
+genotypes rose to 50.4 ^ 44.1%, falling to 49.3 ^ 42.8%          and their survival curves resulted in a half-viability
+by year 16 and ceasing in year 17. For further tests             period of 4.6 years and 1.9 years, respectively.
+
+
+
+
+Figure 4. Percentage germination of four miscellaneous species including the calculated probit curves as a function of storage
+                    ·
+time (harvest year). , Germination (%) per accession; —, calculated probit curve; P50, half-viability period.
+                                     Longevity of crop seeds under ambient conditions                                                 9
+
+Finally, the longest-living miscellaneous crop seeds                   were not included. On the whole, the hypothesis that
+were cucumber followed by carrot and lettuce. The                      seed deterioration behaviour is species characteristic is
+lowest P50 value was associated with chive seeds.                      supported by significant correlations among different
+                                                                       seed ageing experiments (Tables 3 and 4). In relation to
+                                                                       this fact, the absolute longevity correlated significantly
+Discussion                                                             with results by Priestley et al. (1985), whereas P50
+                                                                       correlated with data by Walters et al. (2005) (Table 4).
+We have determined longevity for seeds from 18 crop                    The viability equation by Ellis and Roberts (1980) also
+species, which were stored under ambient conditions                    showed a significant R 2 (0.51, P , 0.05) but only by
+(average temperature: 20.3 ^ 2.38C; average RH:                        using a ranked correlation with P50. Due to open
+50.5 ^ 6.3%) for up to 26 years. Viability remained                    storage conditions, averaged temperatures and RH,
+relatively high for at least the first 2 years after harvest           Ellis’s viability equations underestimated almost all
+but declined to 0 within 5 – 23 years, giving an average               calculated species, except pea. However, the equation
+P50 among all species of 8.6 ^ 3.6 years.                              is thought to predict seed longevity under controlled
+    As has been documented by Roberts (1972),                          conditions in a range of temperatures from 2 138C up
+germination decreased over storage time in a sigmoid                   to 908C. The validity of predicting, by extrapolation,
+fashion whereby the parameters of these curves                         longevities in the region of millennia for dry, cold-
+seemed to be species specific. Despite the fact that                   stored seeds is often criticized and overestimations are
+the probit analysis method is sensitive to deviation                   assumed (Pritchard and Dickie, 2004). Viability
+with regard to the shape of the survival curve (Moore                  equations would provide helpful tools for genebank
+and Roos, 1982), the correlation between P50 and                       managers but overestimation would end in a disaster
+absolute longevities resulted in a high R 2 (0.90;                     of dead seeds. Underestimations, as shown here, are
+P , 0.001). A higher uncertainty was only seen for                     also of low value and involve higher management cost
+those species (lupin, poppy, cucumber, carrot) that                    and higher risk for the material, considering inter-
+did not have available seeds of older harvest years                    mixture, natural disasters and genetic drift. Never-
+(Table 2). When germination results of a whole                         theless, referring to the coefficients of determination,
+survival curve were available, the half-viability period               they do not explain the whole variance. Therefore
+P50 proved to be a valuable parameter for evaluation                   further factors of influence, e.g. harvest year, proces-
+of seed longevity and may give information about seed                  sing and storage conditions, are conceivable.
+storage behaviour under ambient conditions.                                Besides an interspecific variation in seed longevity,
+    On the basis of P50 values, seeds of maize, lupin,                 a varying behaviour between different genotypes was
+common vetch, pea, linseed and cucumber (P50 . 10                      indicated by the standard deviations. Over all species
+years) tended to be relatively long-living, whereas                    the mean SD was 9.9 ^ 8.1% in the second year,
+those of sunflower, chives and lettuce (P50 , 5 years)                 increasing to 21.6 ^ 11.4% in the year around the
+were not. According to the results of Walters et al.                   species-characteristic P50 value and attaining the
+(2005) seeds of maize, common vetch, pea and lettuce                   highest SD value (32.1 ^ 9.4%) after 9.3 ^ 3.4 years.
+were equally classified. In contrast, sunflower and                    Chive and common bean seeds, particularly, showed
+linseed seeds were defined as medium, cucumber                         an SD above 20% over the half-survival period. In the
+seeds as medium long, whereas chive and lupin seeds                    case of common bean seeds, unpublished data by
+
+Table 4. Correlations – (a) Pearson, (b) Spearman, ranked correlation – between P50, absolute longevities, Ellis’s viability
+equations and literature data. Longevity values are given in Table 3. Correlation coefficients (R 2) are given for each linear
+regression, with the number of species considered given in parentheses
+
+                                         Absolute                   Ellis viability                Priestley                 Walters
+                                         longevity                    equation                   et al. (1985)             et al. (2005)
+(a)
+P50                                     0.902 (12)***                 0.420 (8)                  0.152 (15)                0.336 (16)*
+Absolute longevity                                                    0.378 (7)                  0.586 (11)**              0.279 (12)
+Ellis viability equations                                                                        0.618 (8)*                0.256 (8)
+Priestley et al. (1985)                                                                                                    0.105 (15)
+(b)
+P50                                     0.895 (12)***                 0.510 (8)*                 0.235 (15)                0.364 (16)*
+Absolute longevity                                                    0.413 (7)                  0.646 (11)**              0.299 (12)
+Ellis viability equations                                                                        0.581 (8)*                0.000 (8)
+Priestley et al. (1985)                                                                                                    0.082 (15)
+* Indicates a significant trend at P , 0.05; **, a significant trend at P , 0.01; ***, a significant trend at P , 0.001.
+10                                                   M. Nagel and A. Börner
+
+Nagel and Börner revealed a clear variability among                   Pritchard and Dickie (2004) could confirm a more
+different coloured beans, which, apparently, played a                  rapid ageing in oily seed, but further proved that at
+part in contributing to that variation. Furthermore,                   a constant RH the dependence of predicted longevity
+collard, barley, lupin, poppy, wheat and maize seeds                   on oil content is weak. A similar correlation was also
+reached an SD above 10% in the same period and                         found by Walters et al. (2005) but the relationship did
+showed a higher inter-varietal difference than the                     not hold when families with varying chemical
+other crops. Due to various harvest seasons of the                     composition, such as legumes, were considered
+different crops, genotypic differences cannot                          separately in those studies. Based on the findings of
+be associated with the harvest year. In addition, the                  Priestley (1986), Vertucci and Leopold (1987), Gidrol
+experimental design did not allow an analysis of                       et al. (1989), Steadman et al. (1996), Sun and Leopold
+variance concerning the factors harvest year, species or               (1997), Medeiros et al. (1998) and Sinniah et al. (1998),
+genotype. But experiments on aged seeds belonging                      Pritchard and Dickie (2004) assumed that a major
+to double-haploid barley mapping populations out-                      effect of chemical compounds on seed longevity is
+lined a high intraspecific variation, which is inherited               related to: (1) the sorption properties of seeds; (2) the
+quantitatively. Four quantitative trait loci (QTL) were                potential sites for free radical attack; and (3) the
+detected and associated with genes controlling fertility,              presence of protective compounds and their activity.
+abiotic and biotic stress response, plant development                  However, regarding the seed full survival curve, oil
+and morphology (Nagel et al., 2009). Debeaujon et al.                  content seemed to influence longevity under open
+(2000) also showed an impact of structure and                          storage conditions, so further analysis will be
+pigmentation on storability of Arabidopsis mutants.                    necessary to clarify these mechanisms.
+Therefore mainly the morphology and factors occur-                         Apart from the relationship between compositional
+ring during the vegetative period in a harvest year, as                and longevity data, a negative correlation between oil
+well as the ability of plants to respond to these factors,             content and thousand kernel weight (R 2 ¼ 0.49;
+seem to influence the genotypic behaviour.                             P , 0.05) appeared. Assuming decreasing seed long-
+   Furthermore, by calculating the mean P50 values                     evity with increasing oil content, a shorter survival
+among the crops, the results presume that the                          curve could be estimated with lower seed weight.
+predominant seed storage compound (cereals ¼                           Except for non-existent correlations between these
+carbohydrates; legumes ¼ proteins; oil crops ¼ lipids)                 factors, a direct analysis between different seed mass
+may determine seed longevity, with proteins                            and longevities in dry storage revealed no significant
+. carbohydrates . lipids (Table 3). Average data by                    relationship (Pritchard and Dickie, 2004).
+Priestley et al. (1985) give the same ranking for                          Regarding field emergence, significant correlations
+longevities (P50) with proteins (13.1 years), carbo-                   (R 2 . 0.54, P , 0.01) with germination results
+hydrates (8.4 years) and lipids (7.1 years). However,                  appeared among all species except for lupin and
+data from Earle and Jones (1962) showed that legume                    common vetch. Improved germination performance
+species had a wide range of protein content from 12                    under field conditions, as compared to controlled
+to 55% and an oil content between 1 and 45%.                           laboratory conditions, was found for oat, barley,
+A correlation between absolute longevity, P50 and                      common bean, pea, common vetch and sunflower
+averaged starch, protein and oil content data by Earle                 seeds. It seems probable that the basis of this
+and Jones (1962), Jones and Earle (1966) and Sinclair                  improvement lies in the activity of soil microflora,
+and DeWit (1975) revealed no significant relationship                  which can interact with moisture availability to
+between the storability of seeds and the starch and                    promote germination (Powell, 1988). This was
+protein content (Tables 1 and 5). Only the oil content                 especially marked in 1-year-old common bean seeds,
+appeared to have a strong influence (R 2 ¼ 0.64;                       which showed 90.4 ^ 4.3% emergence in the field
+P , 0.01) on the absolute longevity but not on P50.                    whereas the seeds in the lab gave only 66.4 ^ 17.9%
+At storage conditions of 2 208C and various RHs,                       germination. In contrast, chive, carrot and lettuce
+
+Table 5. Correlations between P50, absolute longevities, chemical composition (% of dry mass) and 1000 kernel weight
+(weight/1000 in g) taken from data of Earle and Jones (1962), Jones and Earle (1966) and Sinclair and DeWit (1975). Correlation
+coefficients (R 2) are given for each linear regression, with the number of species considered given in parentheses
+
+                                   P50               Carbohydrates              Proteins              Lipids               Weight/1000
+Absolute longevity            0.902 (12)***              0.107 (8)             0.036 (11)          0.640 (11)**             0.567 (6)
+P50                                                      0.091 (8)             0.007 (15)          0.090 (15)               0.169 (10)
+Carbohydrates                                                                  0.683 (8)*          0.714 (8) **             0.740 (3)
+Proteins                                                                                           0.198 (15)               0.271 (10)
+Lipids                                                                                                                      0.488 (10)*
+* Indicates a significant trend at P , 0.05; **, a significant trend at P , 0.01; ***, a significant trend at P , 0.001.
+                                      Longevity of crop seeds under ambient conditions                                       11
+
+Table 6. Recommendations (in years) for various species stored under ambient conditions (20.38C and 50.5% RH) and 95%
+confidence limits (in years) of storage period until germination drops to 80%
+
+                                                         95% Confidence limits (years)
+Crop                Species                 Estimation (80%)      Lower bound            Upper bound         Recommendation
+Cereals
+            Avena sativa L.                        4.0                   3.1                  4.8                    4.0
+            Hordeum vulgare L.                     3.4                   1.3                  4.8                    4.0
+            Secale cereale L.                      3.4                   2.7                  4.0                    3.0
+             £ Triticosecale Wittm.                2.9                   1.9                  3.6                    3.0
+            Triticum aestivum L.                   3.1                   1.6                  4.3                    3.0
+            Zea mays L.                            7.8                   6.6                  8.8                    8.0
+Legumes
+            Lupinus albus L.                       6.3                   4.1                  7.8                    6.0
+            Phaseolus vulgaris L.                  3.5                   1.4                  5.1                    3.0
+            Pisum sativum L.                      10.0                   8.5                 11.1                   10.0
+            Vicia sativa L.                        8.2                   7.5                  8.8                    8.0
+Oil crops
+            Brassica oleracea L.                   4.1                  2.7                   5.0                    4.0
+            Helianthus annuus L.                   2.2                  1.2                   2.9                    2.0
+            Linum usitatissimum L.                 7.1                  6.3                   7.9                    7.0
+            Papaver somniferum L.                  3.7                210.7                   5.2                    3.0
+Miscellaneous crops
+           Allium schoenoprasum L.                 0.6                 20.7                  1.2                     0.5
+           Cucumis sativus L.                     10.7                  8.4                 12.2                     8.0
+           Daucus carota L.                        1.5                 24.5                  3.2                     1.0
+           Lactuca sativa L.                       3.9                  3.3                  4.3                     3.0
+
+
+seeds behaved worse in the field as compared with lab            can provoke strong differences in germination beha-
+results, which could be an artefact of the design                viour and were taken into account for these
+(standardized conditions for all species, timing) of the         recommendations. But for decision-making of gene-
+field experiment. However, the germination test                  bank managers these factors need to be considered
+reveals basic information about the seed behaviour in            when a monitoring frequency is chosen.
+the field and provides important data about viability of
+seeds after long-term storage.
+    In general, the data contribute to a broader under-          Acknowledgements
+standing of seed behaviour in storage. Although most
+genebanks are working on the basis of FAO/IPGRI                  The authors wish to acknowledge past and current
+Genebank Standards (FAO, 1994) with a rec-                       staff of the Gatersleben genebank who collected,
+ommended temperature of 2 188C and 3– 7% seed                    regenerated, stored and monitored the seed material.
+moisture content, seed companies, breeders, farmers              Special thanks are due to Sibylle Pistrick, the head of
+and genebanks store seed mostly under unfavourable               the IPK germination testing laboratory. Finally, we are
+conditions. Additionally, the ex situ genebank                   grateful to Professor Christina Walters, USDA-ARS,
+for agricultural and horticultural crop plants in                National Center for Genetic Resources Preservation,
+Gatersleben includes a room designed for storing                 Fort Collins, USA, Professor Michael Kruse, University
+remnant seeds which are provided to users during the             of Hohenheim, Germany and Professor Rolf Rauber,
+first years after harvest. Questions about duration of           University of Göttingen, Germany, for their advice on
+the provision of seeds may be answered by this study.            statistical analysis and constructive comments.
+For seed keepers in general, storage temperature and
+seed moisture content are important in dealing with
+seed longevity (Ellis and Roberts, 1980). Considering            References
+the storage conditions of about 20.3 ^ 2.38C and
+                                                                 Börner, A. (2006) Preservation of plant genetic resources in
+50.5 ^ 6.3% RH, this study can be a useful guideline
+                                                                     the biotechnology era. Biotechnology Journal 1, 1393– 1404.
+for viability estimations under these conditions.                Debeaujon, I., Léon-Kloosterziel, K.M. and Koornneef, M.
+Therefore, Table 6 provides recommendations of storage               (2000) Influence of the testa on seed dormancy,
+times until germination falls to 80%. As previously                  germination, and longevity in Arabidopsis. Plant
+assumed, genotypic differences and initial germination               Physiology 122, 403– 413.
+12                                                   M. Nagel and A. Börner
+
+Earle, F.R. and Jones, Q. (1962) Analyses of seed samples           Priestley, D.A. (1986) Seed ageing: implications for seed storage
+    from 113 plant families. Economic Botany 15, 221– 250.              and persistence in the soil. New York, Comstock.
+Ellis, R.H. and Roberts, E.H. (1980) Improved equations for         Priestley, D.A., Cullinan, V.I. and Wolfe, J. (1985)
+    the prediction of seed longevity. Annals of Botany 45, 13–30.       Differences in seed longevity at the species level. Plant,
+FAO (1994) Genebank standards. Rome, Food and Agriculture               Cell and Environment 8, 557– 562.
+    Organization of the United Nations; Rome, International         Pritchard, H.W. and Dickie, J.B. (2004) Predicting seed
+    Plant Genetic Resources Institute.                                  longevity: the use and abuse of seed viability equations.
+Gidrol, X., Serghini, H., Noubhani, A., Mocquot, B.                     pp. 653– 722 in Smith, R.D.; Dickie, J.B.; Linington, S.H.;
+    and Mazliak, P. (1989) Biochemical changes induced                  Pritchard, H.W.; Probert, R.J. (Eds) Seed conservation:
+    be accelerated aging in sunflower seeds. I. Lipid                   turning science into practice. Kew, London, Royal Botanic
+    peroxidation and membrane damage. Physiologia                       Gardens Kew.
+    Plantarum 76, 591– 597.                                         Roberts, E.H. (1972) Viability of seeds. London, Chapman &
+Haferkamp, M.E., Smith, L. and Nilan, R.A. (1953) Studies               Hall.
+    on aged seeds I – relation of age of seed to germination        Ruckenbauer, P. (1971) Keimfähiger Winterweizen aus dem
+    and longevity. Agronomy Journal 45, 434– 437.                       Jahre 1877 [Germinable winterwheat by the 1877]. Die
+ISTA (2005) International rules for seed testing. Bassersdorf,          Bodenkultur 22, 372– 386.
+    International Seed Testing Association.                         Sallon, S., Solowey, E., Cohen, Y., Korchinsky, R., Egli, M.,
+Jones, Q. and Earle, F.R. (1966) Chemical analyses of seeds II:         Woodhatch, I., Somchoni, O. and Kislev, M. (2008)
+    oil and protein content of 759 species. Economic Botany 20,         Germination, genetics, and growth of an ancient date
+    127– 155.                                                           seed. Science 320, 1464.
+Linington, S.H. and Pritchard, H.W. (2001) Gene Banks.              Sinclair, T.R. and DeWit, C.T. (1975) Photosynthate and
+    pp. 165 – 181 in Levin, S.A. (Ed.) Encyclopedia of                  nitrogen requirements for seed production by various
+    biodiversity. Vol. 3. San Diego, Academic Press.                    crops. Science 189, 565– 567.
+Liu K., Eastwood R.J., Flynn S., Turner R.M. and                    Sinniah, U.R., Ellis, R.H. and John, P. (1998) Irrigation and
+    Stuppy W.H. (2008) Seed information database (release               seed quality development in rapid-cycling brassica:
+    7.1, May 2008). Available at http://www.kew.org/data/               soluble carbohydrates and heat-stable proteins. Annals
+    sid (accessed 27 October 2009).                                     of Botany 82, 647–655.
+Maxted, N., Ford-Lloyd, V.V. and Hawkes, J.G. (1997)                Steadman, K.J., Pritchard, H.W. and Dey, P.M. (1996) Tissue-
+    Plant genetic conservation. The in situ approach. London,           specific soluble sugars in seeds as indicators of storage
+    Chapman & Hall.                                                     category. Annals of Botany 77, 667–674.
+Medeiros, A.C.S., Probert, R.J., Sader, R. and Smith, R.D.          Steiner, A.S. and Ruckenbauer, P. (1995) Germination of
+    (1998) The moisture relations of seed longevity in                  110-year-old cereal and weed seeds, the Vienna sample of
+    Astronium urundeuva (Fr. All.) Engl. Seed Science and               1877. Verification of effective ultra-dry storage at ambient
+    Technology 2, 289– 298.                                             temperature. Seed Science Research 5, 195– 199.
+Moore, F.D. and Roos, E.E. (1982) Determining differences in        Sun, W.Q. and Leopold, A.C. (1997) Cytoplasmic vitrifica-
+    viability loss rates during seed storage. Seed Science and          tion and survival of anhydrobiotic organisms. Compara-
+    Technology 10, 283– 300.                                            tive Biochemistry and Physiology 117, 327– 333.
+Nagel, M., Vogel, H., Landjeva, S., Buck-Sorlin, G.,                Vertucci, C.W. and Leopold, A.C. (1987) Oxidative
+    Lohwasser, U., Scholz, U. and Börner, A. (2009) Seed               processes in soybean and pea seeds. Plant Physiology
+    conservation in ex situ genebanks – genetic studies on              84, 1038– 1043.
+    longevity in barley. Euphytica 170, 5 – 114.                    Walters, C., Wheeler, L.M. and Grotenhuis, J.M. (2005)
+Powell, A.A. (1988) Seed vigour and field establishment.                Longevity of seeds stored in a genebank: species charac-
+    Advances in Research and Technology of Seeds 11, 29 – 61.           teristics. Seed Science Research 15, 1 – 20.
+
