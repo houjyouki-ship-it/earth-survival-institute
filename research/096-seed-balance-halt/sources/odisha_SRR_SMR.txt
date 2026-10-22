@@ -1,0 +1,26 @@
+Seed Multiplication Ratio and Seed Rate (Kg/Ha) of different Crops.
+
+  Sl.          Crop                 Seed                  Seed
+  No.                           Multiplication            Rate
+                                     Ratio               Kg/Hect.
+   1    Paddy                         70                    50
+   2    Ragi                         100                    10
+   3    Maize                        100                    15
+   4    Wheat                         20                    125
+   5    Moong                         40                    20
+   6    Urd                           40                    20
+   7    Gram                          12                    50
+   8    Arhar                         50                    20
+   9    Fieldpea                      20                    50
+  10    Groundnut                     8                     150
+  11    Mustard                      100                    10
+  12    Sesamum                      250                    10
+  13    Niger                         80                    10
+  14    Safflower                     25                    20
+  15    Sunflower                     50                     5
+  16    Jute                         100                     6
+  17    Cotton                        50                     2
+  18    Mesta                         30                    10
+  19    Linseed                       30                    10
+  20    Lentil                        20                    40
+

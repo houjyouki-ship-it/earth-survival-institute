@@ -1,0 +1,8 @@
+maize control first5 zero-year area frac 0.126 ; control any of 28 yrs 0.220 ; 150Tg yr1-5 0.698 ; 150Tg yr1 only 0.398
+   150Tg yr1-5 positive yields: n 3949, 1st pct 0.031 t/ha, min 0.0020
+rice control first5 zero-year area frac 0.141 ; control any of 28 yrs 0.209 ; 150Tg yr1-5 0.765 ; 150Tg yr1 only 0.221
+   150Tg yr1-5 positive yields: n 2822, 1st pct 0.025 t/ha, min 0.0011
+soy control first5 zero-year area frac 0.105 ; control any of 28 yrs 0.227 ; 150Tg yr1-5 0.951 ; 150Tg yr1 only 0.527
+   150Tg yr1-5 positive yields: n 1435, 1st pct 0.013 t/ha, min 0.0027
+wheat control first5 zero-year area frac 0.108 ; control any of 28 yrs 0.200 ; 150Tg yr1-5 0.799 ; 150Tg yr1 only 0.608
+   150Tg yr1-5 positive yields: n 3191, 1st pct 0.016 t/ha, min 0.0026

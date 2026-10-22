@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究096 事前登録（open_problems 234：農耕の停止の規則を種の収支で置き直す） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="096-open_problems-234">研究096 事前登録（open_problems 234：農耕の停止の規則を種の収支で置き直す）</h1>
+<p>登録時刻：2026-10-23 05:35（JST）。播種量の資料を開く前、150 Tg の格子の収量の絶対値（t/ha）を見る前、sim.py の前に書く。095 の比（150 Tg÷対照）の結果は既知。</p>
+<blockquote>
+<p>注：本研究の割合は模型の中の値で、人類の生存確率でも文明の復興確率でもない。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>095 は「最悪年の減り D が 0.9 を越えると群が農耕を止め、0.745 で主食を失う」と置いた（【推測】）。本回はこれを種の収支に置き直す：作物 k の格子の収量 Y_t（t/ha）と播種量 s_k（t/ha）の比 m_t = Y_t/s_k、群が収穫のうち種に回す割合 f で、種の量は S_{t+1} = S_t · f · m_t（作付けは S を上限に播く）。S が初めの量の x_min を下回ると、その作物の在来の品種を失う。</p>
+<h2 id="_2">模型【推測】</h2>
+<ul>
+<li>主：f = 0.5（飢えで半分を食べる）、x_min = 0.01、年 1〜5、戦前の種の蓄え 1 年分（年 1 は S_0=1 で播く）。版：f = 0.25・0.9、x_min = 0.001・0.1。</li>
+<li>作物の範囲：(i) 1 作物ずつ（4 作物の平均の喪失）、(ii) 格子の 4 作物のどれか 1 つでも残れば主食を保つ（切り替え）、(iii) 寒さに強い作物の版【推測】：大麦・ライ麦の減りを小麦の減りの (1−d)×小麦 で置き、d = 0.3。</li>
+<li>3 群の置き方と重みは 095 と同じ（同じ国・同じ小地域の別の国・世界）。</li>
+</ul>
+<h2 id="_3">確認的仮説（播種量の資料を開く前）</h2>
+<ul>
+<li>H108a：4 作物の収量÷播種量は対照の平均で、小麦 10 倍以上、トウモロコシ 50 倍以上（公開の播種量と CLM5 の対照の収量で確かめる）。</li>
+<li>H108b：主の版（1 作物ずつ）の群あたりの喪失 q_seed は 095 の P_loss（0.53〜0.55）より小さいが、0.25 より大きい（北の格子は収量がほぼ 0 になるため）。</li>
+</ul>
+<h2 id="_4">入力判明後の予測</h2>
+<ul>
+<li>H108c：4 作物の切り替え（ii）は q_seed を（i）の 0.7 倍以下にする。</li>
+<li>H108d：主の版の 3 群の地域の喪失（同じ小地域）は 095 の 0.182 より小さい。</li>
+<li>H108e：f を 0.25〜0.9 で動かしても q_seed の幅は 0.1 未満（収量が 0 か十分かに二分されるため）。</li>
+</ul>
+<h2 id="_5">記述</h2>
+<ul>
+<li>収量が対照の 10% 未満だが種の収支では残る格子の割合（095 の規則と種の収支が食い違う面積）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

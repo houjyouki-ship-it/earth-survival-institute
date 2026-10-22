@@ -1,0 +1,4850 @@
+{
+ "rain": {
+  "n_cells": 1956,
+  "n_countries": 133,
+  "countries": {
+   "Fiji": {
+    "D_year2": 0.3437037104383709,
+    "D_peak": 0.7875980418420163,
+    "lat": -18.0,
+    "subregion": "Melanesia",
+    "n": 1
+   },
+   "United Republic of Tanzania": {
+    "D_year2": 0.7992850405740604,
+    "D_peak": 0.9348527577415712,
+    "lat": -6.73738431930542,
+    "subregion": "Eastern Africa",
+    "n": 16
+   },
+   "Canada": {
+    "D_year2": 1.0000000639066238,
+    "D_peak": 1.0000000639066238,
+    "lat": 52.46271896362305,
+    "subregion": "Northern America",
+    "n": 147
+   },
+   "United States of America": {
+    "D_year2": 0.9967745933866863,
+    "D_peak": 0.9967745933866863,
+    "lat": 39.497947692871094,
+    "subregion": "Northern America",
+    "n": 162
+   },
+   "Kazakhstan": {
+    "D_year2": 1.0000000620721312,
+    "D_peak": 1.0000000620721312,
+    "lat": 51.432125091552734,
+    "subregion": "Central Asia",
+    "n": 17
+   },
+   "Indonesia": {
+    "D_year2": 0.6073901517082477,
+    "D_peak": 0.7910466529033897,
+    "lat": -2.163548231124878,
+    "subregion": "South-Eastern Asia",
+    "n": 34
+   },
+   "Argentina": {
+    "D_year2": 0.6428202967661326,
+    "D_peak": 0.842307498074517,
+    "lat": -34.58457565307617,
+    "subregion": "South America",
+    "n": 57
+   },
+   "Chile": {
+    "D_year2": 0.7118887233934026,
+    "D_peak": 0.8333973661861008,
+    "lat": -39.889747619628906,
+    "subregion": "South America",
+    "n": 19
+   },
+   "Democratic Republic of the Congo": {
+    "D_year2": 0.7897155639980639,
+    "D_peak": 0.9701005811414062,
+    "lat": -2.5889322757720947,
+    "subregion": "Middle Africa",
+    "n": 40
+   },
+   "Somalia": {
+    "D_year2": -0.1415411661836149,
+    "D_peak": 0.2681677607643579,
+    "lat": 5.195135593414307,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Kenya": {
+    "D_year2": 0.7517391606676841,
+    "D_peak": 0.9270285644678866,
+    "lat": 0.6304850578308105,
+    "subregion": "Eastern Africa",
+    "n": 12
+   },
+   "Sudan": {
+    "D_year2": 0.7295452743858148,
+    "D_peak": 0.7753860404281969,
+    "lat": 14.18282413482666,
+    "subregion": "Northern Africa",
+    "n": 22
+   },
+   "Chad": {
+    "D_year2": 0.7829606845023453,
+    "D_peak": 0.8342807324688849,
+    "lat": 12.811955451965332,
+    "subregion": "Middle Africa",
+    "n": 11
+   },
+   "Russia": {
+    "D_year2": 1.0000000543850958,
+    "D_peak": 1.0000000543850958,
+    "lat": 54.68292236328125,
+    "subregion": "Eastern Europe",
+    "n": 226
+   },
+   "Norway": {
+    "D_year2": 1.0000000323699283,
+    "D_peak": 1.0000000323699283,
+    "lat": 64.59313201904297,
+    "subregion": "Northern Europe",
+    "n": 11
+   },
+   "South Africa": {
+    "D_year2": 0.7088713991530279,
+    "D_peak": 0.8018749013944731,
+    "lat": -28.636091232299805,
+    "subregion": "Southern Africa",
+    "n": 23
+   },
+   "Mexico": {
+    "D_year2": 0.8096840048537897,
+    "D_peak": 0.8096840048537897,
+    "lat": 23.429697036743164,
+    "subregion": "Central America",
+    "n": 37
+   },
+   "Uruguay": {
+    "D_year2": 0.6700231857727048,
+    "D_peak": 0.7339148166309015,
+    "lat": -32.20065689086914,
+    "subregion": "South America",
+    "n": 4
+   },
+   "Brazil": {
+    "D_year2": 0.4924161205930722,
+    "D_peak": 0.822943807236305,
+    "lat": -10.737916946411133,
+    "subregion": "South America",
+    "n": 150
+   },
+   "Bolivia": {
+    "D_year2": 0.7101595468796216,
+    "D_peak": 0.9140276946270025,
+    "lat": -17.062902450561523,
+    "subregion": "South America",
+    "n": 17
+   },
+   "Peru": {
+    "D_year2": 0.7448754467085307,
+    "D_peak": 0.9532312346914205,
+    "lat": -9.251471519470215,
+    "subregion": "South America",
+    "n": 24
+   },
+   "Colombia": {
+    "D_year2": 0.7923791742249323,
+    "D_peak": 0.8466846334942203,
+    "lat": 3.3279435634613037,
+    "subregion": "South America",
+    "n": 19
+   },
+   "Panama": {
+    "D_year2": 0.22095206040814416,
+    "D_peak": 0.41378897955567623,
+    "lat": 8.526315689086914,
+    "subregion": "Central America",
+    "n": 3
+   },
+   "Costa Rica": {
+    "D_year2": 0.4314021659330982,
+    "D_peak": 0.4314021659330982,
+    "lat": 10.421052932739258,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Nicaragua": {
+    "D_year2": 0.7348846939014827,
+    "D_peak": 0.9475167055759232,
+    "lat": 13.259465217590332,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Honduras": {
+    "D_year2": 0.5297911717443229,
+    "D_peak": 0.9583481863125033,
+    "lat": 14.210526466369629,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Guatemala": {
+    "D_year2": 0.4004372225514067,
+    "D_peak": 0.7066351969980718,
+    "lat": 15.153650283813477,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Venezuela": {
+    "D_year2": 0.5157144364581432,
+    "D_peak": 0.7762435492450267,
+    "lat": 7.092759609222412,
+    "subregion": "South America",
+    "n": 16
+   },
+   "Guyana": {
+    "D_year2": 0.3498688602774419,
+    "D_peak": 0.9574142617582999,
+    "lat": 4.733380317687988,
+    "subregion": "South America",
+    "n": 3
+   },
+   "Suriname": {
+    "D_year2": 0.3305185622486846,
+    "D_peak": 0.5822216499116621,
+    "lat": 4.104340553283691,
+    "subregion": "South America",
+    "n": 3
+   },
+   "France": {
+    "D_year2": 0.8446636710244868,
+    "D_peak": 0.8577138558306872,
+    "lat": 38.79176330566406,
+    "subregion": "Western Europe",
+    "n": 15
+   },
+   "Ecuador": {
+    "D_year2": 0.8631754191327586,
+    "D_peak": 0.9812223590319116,
+    "lat": -1.5784868001937866,
+    "subregion": "South America",
+    "n": 3
+   },
+   "Jamaica": {
+    "D_year2": 0.2926483489064421,
+    "D_peak": 0.2926483489064421,
+    "lat": 18.0,
+    "subregion": "Caribbean",
+    "n": 1
+   },
+   "Cuba": {
+    "D_year2": 0.4577840677194034,
+    "D_peak": 0.7179217849654351,
+    "lat": 21.1525821685791,
+    "subregion": "Caribbean",
+    "n": 3
+   },
+   "Zimbabwe": {
+    "D_year2": 0.5606776472906208,
+    "D_peak": 0.9047013934309845,
+    "lat": -18.93123435974121,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Botswana": {
+    "D_year2": 0.6596306627569305,
+    "D_peak": 0.9402287066054942,
+    "lat": -22.26881980895996,
+    "subregion": "Southern Africa",
+    "n": 11
+   },
+   "Namibia": {
+    "D_year2": 0.5947663010931208,
+    "D_peak": 0.9729304771596975,
+    "lat": -20.78169059753418,
+    "subregion": "Southern Africa",
+    "n": 14
+   },
+   "Senegal": {
+    "D_year2": -0.23482121035677533,
+    "D_peak": 0.5168938576904215,
+    "lat": 14.838337898254395,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Mali": {
+    "D_year2": 0.4715892310864102,
+    "D_peak": 0.7599937558221733,
+    "lat": 14.81882381439209,
+    "subregion": "Western Africa",
+    "n": 15
+   },
+   "Mauritania": {
+    "D_year2": 0.1220765966217967,
+    "D_peak": 0.4419617496450979,
+    "lat": 17.183259963989258,
+    "subregion": "Western Africa",
+    "n": 7
+   },
+   "Benin": {
+    "D_year2": 0.7569332339294456,
+    "D_peak": 0.8619471336449201,
+    "lat": 8.520052909851074,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Niger": {
+    "D_year2": 0.8596890588348355,
+    "D_peak": 0.9591586573410944,
+    "lat": 14.62516975402832,
+    "subregion": "Western Africa",
+    "n": 9
+   },
+   "Nigeria": {
+    "D_year2": 0.813045835184614,
+    "D_peak": 0.8833605796962596,
+    "lat": 9.52234935760498,
+    "subregion": "Western Africa",
+    "n": 15
+   },
+   "Cameroon": {
+    "D_year2": 0.8767817486076024,
+    "D_peak": 0.9407595365509067,
+    "lat": 5.566579341888428,
+    "subregion": "Middle Africa",
+    "n": 9
+   },
+   "Ghana": {
+    "D_year2": 0.7356785162325286,
+    "D_peak": 0.795473802359177,
+    "lat": 8.520052909851074,
+    "subregion": "Western Africa",
+    "n": 6
+   },
+   "Ivory Coast": {
+    "D_year2": 0.8467977555074531,
+    "D_peak": 0.8703219433969674,
+    "lat": 7.0063605308532715,
+    "subregion": "Western Africa",
+    "n": 5
+   },
+   "Guinea": {
+    "D_year2": 0.5593667065212018,
+    "D_peak": 0.7522529455414017,
+    "lat": 10.415289878845215,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Guinea-Bissau": {
+    "D_year2": -0.09376395913382529,
+    "D_peak": 0.3772225549466074,
+    "lat": 12.315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Liberia": {
+    "D_year2": 0.8710896592435398,
+    "D_peak": 0.8734053215977895,
+    "lat": 6.6315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Sierra Leone": {
+    "D_year2": 0.696057606684069,
+    "D_peak": 0.8618914951680986,
+    "lat": 8.526315689086914,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Burkina Faso": {
+    "D_year2": 0.7134638954425611,
+    "D_peak": 0.8803772544253907,
+    "lat": 12.30894947052002,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Central African Republic": {
+    "D_year2": 0.8841683181674609,
+    "D_peak": 0.9785946947668248,
+    "lat": 6.7973432540893555,
+    "subregion": "Middle Africa",
+    "n": 11
+   },
+   "Republic of the Congo": {
+    "D_year2": 0.8661873097919143,
+    "D_peak": 0.9170394377575879,
+    "lat": -0.3154439628124237,
+    "subregion": "Middle Africa",
+    "n": 6
+   },
+   "Gabon": {
+    "D_year2": 0.7675262466133213,
+    "D_peak": 0.8370353859630764,
+    "lat": -0.5679237246513367,
+    "subregion": "Middle Africa",
+    "n": 5
+   },
+   "Zambia": {
+    "D_year2": 0.7516773417249499,
+    "D_peak": 0.9645950908991606,
+    "lat": -13.108134269714355,
+    "subregion": "Eastern Africa",
+    "n": 14
+   },
+   "Malawi": {
+    "D_year2": 0.5751890989304544,
+    "D_peak": 0.9320467030494103,
+    "lat": -15.153650283813477,
+    "subregion": "Eastern Africa",
+    "n": 2
+   },
+   "Mozambique": {
+    "D_year2": 0.3469325686719775,
+    "D_peak": 0.7722549179493298,
+    "lat": -17.37900161743164,
+    "subregion": "Eastern Africa",
+    "n": 15
+   },
+   "Angola": {
+    "D_year2": 0.6661389213964263,
+    "D_peak": 0.96978508116081,
+    "lat": -11.645103454589844,
+    "subregion": "Middle Africa",
+    "n": 21
+   },
+   "Burundi": {
+    "D_year2": 0.7582200472619758,
+    "D_peak": 0.7582200472619758,
+    "lat": -2.8421051502227783,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Madagascar": {
+    "D_year2": 0.5424083722444749,
+    "D_peak": 0.8672333748308181,
+    "lat": -19.650554656982422,
+    "subregion": "Eastern Africa",
+    "n": 10
+   },
+   "Algeria": {
+    "D_year2": 0.3320457705824919,
+    "D_peak": 0.4019951343241048,
+    "lat": 32.7070198059082,
+    "subregion": "Northern Africa",
+    "n": 5
+   },
+   "United Arab Emirates": {
+    "D_year2": 0.25,
+    "D_peak": 1.0,
+    "lat": 23.6842098236084,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Oman": {
+    "D_year2": 0.37421307128815867,
+    "D_peak": 0.37421307128815867,
+    "lat": 20.83614158630371,
+    "subregion": "Western Asia",
+    "n": 2
+   },
+   "Cambodia": {
+    "D_year2": 0.9350966152846754,
+    "D_peak": 0.9860887346422721,
+    "lat": 13.259465217590332,
+    "subregion": "South-Eastern Asia",
+    "n": 2
+   },
+   "Thailand": {
+    "D_year2": 0.9426706893072858,
+    "D_peak": 0.9426706893072858,
+    "lat": 13.981223106384277,
+    "subregion": "South-Eastern Asia",
+    "n": 11
+   },
+   "Laos": {
+    "D_year2": 0.9999999683877713,
+    "D_peak": 0.9999999683877713,
+    "lat": 19.40557098388672,
+    "subregion": "South-Eastern Asia",
+    "n": 4
+   },
+   "Myanmar": {
+    "D_year2": 0.914664559017195,
+    "D_peak": 0.9324258783423286,
+    "lat": 21.710107803344727,
+    "subregion": "South-Eastern Asia",
+    "n": 12
+   },
+   "Vietnam": {
+    "D_year2": 0.934957316000742,
+    "D_peak": 0.9397852831743689,
+    "lat": 15.70799732208252,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "North Korea": {
+    "D_year2": 0.9999999475384241,
+    "D_peak": 0.9999999475384241,
+    "lat": 40.70085906982422,
+    "subregion": "Eastern Asia",
+    "n": 3
+   },
+   "South Korea": {
+    "D_year2": 0.9999999631572688,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Eastern Asia",
+    "n": 2
+   },
+   "Mongolia": {
+    "D_year2": 0.9999999085541905,
+    "D_peak": 0.9999999085541905,
+    "lat": 47.29465103149414,
+    "subregion": "Eastern Asia",
+    "n": 26
+   },
+   "India": {
+    "D_year2": 0.5949680014588082,
+    "D_peak": 0.5949680014588082,
+    "lat": 22.75655746459961,
+    "subregion": "Southern Asia",
+    "n": 59
+   },
+   "Bangladesh": {
+    "D_year2": 0.6444543565035378,
+    "D_peak": 0.6444543565035378,
+    "lat": 22.73027801513672,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "Bhutan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 27.473684310913086,
+    "subregion": "Southern Asia",
+    "n": 1
+   },
+   "Nepal": {
+    "D_year2": 1.0000000225269183,
+    "D_peak": 1.0000000225269183,
+    "lat": 28.09775161743164,
+    "subregion": "Southern Asia",
+    "n": 3
+   },
+   "Pakistan": {
+    "D_year2": 0.7787585248860546,
+    "D_peak": 0.7815211194505538,
+    "lat": 29.668498992919922,
+    "subregion": "Southern Asia",
+    "n": 18
+   },
+   "Afghanistan": {
+    "D_year2": 0.9999999631572688,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "Kyrgyzstan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Central Asia",
+    "n": 1
+   },
+   "Iran": {
+    "D_year2": 1.000000049222779,
+    "D_peak": 1.000000049222779,
+    "lat": 32.46180725097656,
+    "subregion": "Southern Asia",
+    "n": 13
+   },
+   "Armenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Sweden": {
+    "D_year2": 0.9999999795367822,
+    "D_peak": 0.9999999795367822,
+    "lat": 62.534542083740234,
+    "subregion": "Northern Europe",
+    "n": 16
+   },
+   "Belarus": {
+    "D_year2": 0.9999999713900608,
+    "D_peak": 0.9999999713900608,
+    "lat": 53.41706466674805,
+    "subregion": "Eastern Europe",
+    "n": 7
+   },
+   "Ukraine": {
+    "D_year2": 0.9999999575244162,
+    "D_peak": 0.9999999575244162,
+    "lat": 49.0274543762207,
+    "subregion": "Eastern Europe",
+    "n": 15
+   },
+   "Poland": {
+    "D_year2": 1.0000000195812557,
+    "D_peak": 1.0000000195812557,
+    "lat": 52.438655853271484,
+    "subregion": "Eastern Europe",
+    "n": 10
+   },
+   "Austria": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Hungary": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Moldova": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 47.351402282714844,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Romania": {
+    "D_year2": 0.9999999488213593,
+    "D_peak": 0.9999999488213593,
+    "lat": 45.6478157043457,
+    "subregion": "Eastern Europe",
+    "n": 5
+   },
+   "Lithuania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "Latvia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 57.78947448730469,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Estonia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 57.78947448730469,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Germany": {
+    "D_year2": 1.0000000105903664,
+    "D_peak": 1.0000000105903664,
+    "lat": 51.17460250854492,
+    "subregion": "Western Europe",
+    "n": 9
+   },
+   "Bulgaria": {
+    "D_year2": 1.000000027004988,
+    "D_peak": 1.000000027004988,
+    "lat": 42.6315803527832,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Greece": {
+    "D_year2": 0.5779430522030109,
+    "D_peak": 0.987961066562268,
+    "lat": 37.83375549316406,
+    "subregion": "Southern Europe",
+    "n": 4
+   },
+   "Turkey": {
+    "D_year2": 0.929815789828751,
+    "D_peak": 0.9492247862159857,
+    "lat": 39.17053985595703,
+    "subregion": "Western Asia",
+    "n": 16
+   },
+   "Albania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Switzerland": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Western Europe",
+    "n": 2
+   },
+   "Belgium": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 50.21052932739258,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Netherlands": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 52.10526657104492,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Portugal": {
+    "D_year2": 0.9712183233854318,
+    "D_peak": 0.9999999612098492,
+    "lat": 39.776424407958984,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Spain": {
+    "D_year2": 0.9539016667119009,
+    "D_peak": 0.9999999763244154,
+    "lat": 40.88893508911133,
+    "subregion": "Southern Europe",
+    "n": 10
+   },
+   "Ireland": {
+    "D_year2": 0.9999999504120265,
+    "D_peak": 0.9999999504120265,
+    "lat": 53.03179931640625,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "New Zealand": {
+    "D_year2": 0.729920576593711,
+    "D_peak": 0.7794072876040192,
+    "lat": -40.32389450073242,
+    "subregion": "Australia and New Zealand",
+    "n": 6
+   },
+   "Australia": {
+    "D_year2": 0.20502912231710546,
+    "D_peak": 0.6388471377262227,
+    "lat": -28.373779296875,
+    "subregion": "Australia and New Zealand",
+    "n": 62
+   },
+   "Sri Lanka": {
+    "D_year2": -0.014235946240472029,
+    "D_peak": 0.4842512896317761,
+    "lat": 7.5768632888793945,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "China": {
+    "D_year2": 0.9973415358221509,
+    "D_peak": 0.9973415358221509,
+    "lat": 34.90209197998047,
+    "subregion": "Eastern Asia",
+    "n": 160
+   },
+   "Italy": {
+    "D_year2": 0.8127670711111383,
+    "D_peak": 0.95743935646307,
+    "lat": 42.225006103515625,
+    "subregion": "Southern Europe",
+    "n": 7
+   },
+   "Denmark": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "United Kingdom": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 53.85210037231445,
+    "subregion": "Northern Europe",
+    "n": 7
+   },
+   "Iceland": {
+    "D_year2": 1.0000000238352682,
+    "D_peak": 1.0000000238352682,
+    "lat": 65.36842346191406,
+    "subregion": "Northern Europe",
+    "n": 3
+   },
+   "Azerbaijan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Georgia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Philippines": {
+    "D_year2": 0.46919860492717314,
+    "D_peak": 0.7433902204841639,
+    "lat": 11.33165168762207,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "Malaysia": {
+    "D_year2": 0.7214333263641457,
+    "D_peak": 0.8358896389130749,
+    "lat": 3.599004030227661,
+    "subregion": "South-Eastern Asia",
+    "n": 5
+   },
+   "Brunei": {
+    "D_year2": 0.6519290943518266,
+    "D_peak": 0.7866907087611651,
+    "lat": 4.736842155456543,
+    "subregion": "South-Eastern Asia",
+    "n": 1
+   },
+   "Slovenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Finland": {
+    "D_year2": 1.0000000187835625,
+    "D_peak": 1.0000000187835625,
+    "lat": 64.11151123046875,
+    "subregion": "Northern Europe",
+    "n": 11
+   },
+   "Slovakia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Czechia": {
+    "D_year2": 1.0000000310456112,
+    "D_peak": 1.0000000310456112,
+    "lat": 50.21052551269531,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Eritrea": {
+    "D_year2": 0.20626367452348726,
+    "D_peak": 0.5986295689914949,
+    "lat": 16.105262756347656,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Japan": {
+    "D_year2": 0.9988134874714679,
+    "D_peak": 0.9988134874714679,
+    "lat": 37.53510284423828,
+    "subregion": "Eastern Asia",
+    "n": 12
+   },
+   "Paraguay": {
+    "D_year2": 0.535371445251106,
+    "D_peak": 0.6971386890678679,
+    "lat": -23.33819580078125,
+    "subregion": "South America",
+    "n": 6
+   },
+   "Yemen": {
+    "D_year2": 0.47152308530772513,
+    "D_peak": 0.48774265093112074,
+    "lat": 15.78102970123291,
+    "subregion": "Western Asia",
+    "n": 6
+   },
+   "Saudi Arabia": {
+    "D_year2": 0.6651191970984818,
+    "D_peak": 0.6651191970984818,
+    "lat": 20.89113998413086,
+    "subregion": "Western Asia",
+    "n": 11
+   },
+   "Morocco": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 33.157894134521484,
+    "subregion": "Northern Africa",
+    "n": 1
+   },
+   "Ethiopia": {
+    "D_year2": 0.7493373966673754,
+    "D_peak": 0.8144815106690843,
+    "lat": 8.774250984191895,
+    "subregion": "Eastern Africa",
+    "n": 21
+   },
+   "Djibouti": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 12.315789222717285,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Somaliland": {
+    "D_year2": -0.013138853393795374,
+    "D_peak": 0.0914027510054375,
+    "lat": 9.787148475646973,
+    "subregion": "Eastern Africa",
+    "n": 3
+   },
+   "Uganda": {
+    "D_year2": 0.8662241716911357,
+    "D_peak": 0.8662241716911357,
+    "lat": 0.47303658723831177,
+    "subregion": "Eastern Africa",
+    "n": 4
+   },
+   "Bosnia and Herzegovina": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 44.52631759643555,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Republic of Serbia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 44.52631759643555,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Montenegro": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "South Sudan": {
+    "D_year2": 0.8685963717103162,
+    "D_peak": 0.9708111816442864,
+    "lat": 7.334193229675293,
+    "subregion": "Eastern Africa",
+    "n": 8
+   }
+  },
+  "H107a_frac_D_gt_0.9_year2": 0.42105263157894735,
+  "H107a_frac_D_gt_0.9_peak": 0.5939849624060151,
+  "frac_D_gt_0.75_year2": 0.5939849624060151,
+  "frac_D_gt_0.5_year2": 0.8195488721804511,
+  "H107b_median_north30": 1.0,
+  "H107b_median_south": 0.6680810535845656,
+  "H107b_diff_pts": 33.19189464154344,
+  "H107b_R2_lat": 0.3441219417053316,
+  "triples": {
+   "Dstar0.75_sg0.5": {
+    "country": {
+     "q_halt": 0.8758944444444444,
+     "P_loss": 0.652541361111111,
+     "P_G3": 0.3083766539645833,
+     "indep": 0.2778587857285347,
+     "full": 0.652541361111111,
+     "pos": 0.12205858185353967,
+     "q_lossD": 0.8067611111111112,
+     "P_G3_D": 0.64555,
+     "pos_D": 0.4809124244984073
+    },
+    "region": {
+     "q_halt": 0.8541222222222222,
+     "P_loss": 0.6363210555555555,
+     "P_G3": 0.2700664696083333,
+     "indep": 0.2576492497673792,
+     "full": 0.6363210555555555,
+     "pos": 0.052061428182753826,
+     "q_lossD": 0.7914444444444444,
+     "P_G3_D": 0.5421,
+     "pos_D": 0.19107239988993316
+    },
+    "world": {
+     "q_halt": 0.8752388888888889,
+     "P_loss": 0.6520529722222222,
+     "P_G3": 0.2773990898916666,
+     "indep": 0.27723536959946155,
+     "full": 0.6520529722222222,
+     "pos": 0.00069028437549898,
+     "q_lossD": 0.8050222222222222,
+     "P_G3_D": 0.5215166666666666,
+     "pos_D": -0.000824988372407617
+    }
+   },
+   "Dstar0.75_sg1.0": {
+    "country": {
+     "q_halt": 0.8606222222222222,
+     "P_loss": 0.6411635555555555,
+     "P_G3": 0.2931394138833333,
+     "indep": 0.26357637805609896,
+     "full": 0.6411635555555555,
+     "pos": 0.11958620210547233,
+     "q_lossD": 0.7920277777777778,
+     "P_G3_D": 0.6096833333333334,
+     "pos_D": 0.438887250201419
+    },
+    "region": {
+     "q_halt": 0.8400666666666666,
+     "P_loss": 0.6258496666666666,
+     "P_G3": 0.25729640815625,
+     "indep": 0.24513768236361108,
+     "full": 0.6258496666666666,
+     "pos": 0.051647546698489484,
+     "q_lossD": 0.7762611111111111,
+     "P_G3_D": 0.5173666666666666,
+     "pos_D": 0.19899123430053547
+    },
+    "world": {
+     "q_halt": 0.8604222222222222,
+     "P_loss": 0.6410145555555555,
+     "P_G3": 0.26328517415833336,
+     "indep": 0.26339266321108457,
+     "full": 0.6410145555555555,
+     "pos": -0.000458932724864529,
+     "q_lossD": 0.7919222222222222,
+     "P_G3_D": 0.49605,
+     "pos_D": -0.002576731361060967
+    }
+   },
+   "Dstar0.9_sg0.5": {
+    "country": {
+     "q_halt": 0.7344722222222222,
+     "P_loss": 0.5471818055555555,
+     "P_G3": 0.23324486230208333,
+     "indep": 0.16383057082182562,
+     "full": 0.5471818055555555,
+     "pos": 0.29292799372719175,
+     "q_lossD": 0.6400611111111111,
+     "P_G3_D": 0.47513333333333335,
+     "pos_D": 0.6660984009647859
+    },
+    "region": {
+     "q_halt": 0.7130388888888889,
+     "P_loss": 0.5312139722222222,
+     "P_G3": 0.1820612430875,
+     "indep": 0.14990235940913677,
+     "full": 0.5312139722222222,
+     "pos": 0.15362151625275736,
+     "q_lossD": 0.6282388888888889,
+     "P_G3_D": 0.36168333333333336,
+     "pos_D": 0.40607776688552477
+    },
+    "world": {
+     "q_halt": 0.7346444444444444,
+     "P_loss": 0.547310111111111,
+     "P_G3": 0.16339200591875,
+     "indep": 0.16394584494932324,
+     "full": 0.547310111111111,
+     "pos": -0.0028071003854726905,
+     "q_lossD": 0.6402611111111111,
+     "P_G3_D": 0.25961666666666666,
+     "pos_D": -0.012235932648824265
+    }
+   },
+   "Dstar0.9_sg1.0": {
+    "country": {
+     "q_halt": 0.7449722222222223,
+     "P_loss": 0.5550043055555556,
+     "P_G3": 0.23186655021874997,
+     "indep": 0.17095785368711555,
+     "full": 0.5550043055555556,
+     "pos": 0.2587938124605663,
+     "q_lossD": 0.6610277777777778,
+     "P_G3_D": 0.47583333333333333,
+     "pos_D": 0.6029463310215396
+    },
+    "region": {
+     "q_halt": 0.7243555555555555,
+     "P_loss": 0.5396448888888888,
+     "P_G3": 0.18740909397083333,
+     "indep": 0.15715355304353906,
+     "full": 0.5396448888888888,
+     "pos": 0.14271884975884128,
+     "q_lossD": 0.6489,
+     "P_G3_D": 0.3766833333333333,
+     "pos_D": 0.3712102809127088
+    },
+    "world": {
+     "q_halt": 0.7452722222222222,
+     "P_loss": 0.5552278055555555,
+     "P_G3": 0.17068327683958331,
+     "indep": 0.17116447083636496,
+     "full": 0.5552278055555555,
+     "pos": -0.0023923914012203493,
+     "q_lossD": 0.6606277777777778,
+     "P_G3_D": 0.28735,
+     "pos_D": -0.004052613625337646
+    }
+   },
+   "Dstar0.95_sg0.5": {
+    "country": {
+     "q_halt": 0.6588055555555555,
+     "P_loss": 0.49081013888888886,
+     "P_G3": 0.20480339246249998,
+     "indep": 0.11823350837115942,
+     "full": 0.49081013888888886,
+     "pos": 0.38597057662330714,
+     "q_lossD": 0.5702777777777778,
+     "P_G3_D": 0.4240833333333333,
+     "pos_D": 0.7363097641745511
+    },
+    "region": {
+     "q_halt": 0.63665,
+     "P_loss": 0.47430425000000004,
+     "P_G3": 0.15477755539791666,
+     "indep": 0.10670162867894874,
+     "full": 0.47430425000000004,
+     "pos": 0.24932926869337585,
+     "q_lossD": 0.5572277777777778,
+     "P_G3_D": 0.3234666666666667,
+     "pos_D": 0.5349730486647433
+    },
+    "world": {
+     "q_halt": 0.6583611111111111,
+     "P_loss": 0.49047902777777774,
+     "P_G3": 0.11783190000416666,
+     "indep": 0.11799438113564413,
+     "full": 0.49047902777777774,
+     "pos": -0.0009671715166712513,
+     "q_lossD": 0.5701222222222222,
+     "P_G3_D": 0.18388333333333334,
+     "pos_D": -0.006887497481232881
+    }
+   },
+   "Dstar0.95_sg1.0": {
+    "country": {
+     "q_halt": 0.6761388888888888,
+     "P_loss": 0.5037234722222221,
+     "P_G3": 0.20707071583958334,
+     "indep": 0.12781345215788367,
+     "full": 0.5037234722222221,
+     "pos": 0.35180762832376533,
+     "q_lossD": 0.5909333333333333,
+     "P_G3_D": 0.42678333333333335,
+     "pos_D": 0.6906896128764212
+    },
+    "region": {
+     "q_halt": 0.6535888888888889,
+     "P_loss": 0.48692372222222224,
+     "P_G3": 0.1599117679083333,
+     "indep": 0.11544703932725828,
+     "full": 0.48692372222222224,
+     "pos": 0.2263679007326386,
+     "q_lossD": 0.5772166666666667,
+     "P_G3_D": 0.3317833333333333,
+     "pos_D": 0.4961804444485994
+    },
+    "world": {
+     "q_halt": 0.6759611111111111,
+     "P_loss": 0.5035910277777778,
+     "P_G3": 0.12752832551041665,
+     "indep": 0.12771266036211315,
+     "full": 0.5035910277777778,
+     "pos": -0.0010527829163984427,
+     "q_lossD": 0.5910722222222222,
+     "P_G3_D": 0.20451666666666668,
+     "pos_D": -0.009180579137895125
+    }
+   }
+  },
+  "phi_by_distance_Dstar0.9": [
+   {
+    "lo": 0,
+    "hi": 250,
+    "n": 69,
+    "phi": 0.7377720428084092
+   },
+   {
+    "lo": 250,
+    "hi": 500,
+    "n": 187,
+    "phi": 0.5856517370009235
+   },
+   {
+    "lo": 500,
+    "hi": 1000,
+    "n": 605,
+    "phi": 0.40010812857561134
+   },
+   {
+    "lo": 1000,
+    "hi": 2000,
+    "n": 1946,
+    "phi": 0.24257149683927876
+   },
+   {
+    "lo": 2000,
+    "hi": 4000,
+    "n": 4233,
+    "phi": 0.13106973293998644
+   },
+   {
+    "lo": 4000,
+    "hi": 8000,
+    "n": 9916,
+    "phi": -0.0142337055500372
+   },
+   {
+    "lo": 8000,
+    "hi": 20100,
+    "n": 23044,
+    "phi": -0.054048518780681336
+   }
+  ],
+  "p_halt_cell_Dstar0.9": 0.7256149971071864
+ },
+ "irr": {
+  "n_cells": 1200,
+  "n_countries": 138,
+  "countries": {
+   "Fiji": {
+    "D_year2": 0.3399045456408054,
+    "D_peak": 0.7883835354766191,
+    "lat": -18.0,
+    "subregion": "Melanesia",
+    "n": 1
+   },
+   "United Republic of Tanzania": {
+    "D_year2": 0.865163838414292,
+    "D_peak": 0.9900538971729516,
+    "lat": -6.811681270599365,
+    "subregion": "Eastern Africa",
+    "n": 10
+   },
+   "Canada": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 50.21052932739258,
+    "subregion": "Northern America",
+    "n": 4
+   },
+   "United States of America": {
+    "D_year2": 0.9964341558603584,
+    "D_peak": 0.9964341558603584,
+    "lat": 38.099971771240234,
+    "subregion": "Northern America",
+    "n": 95
+   },
+   "Kazakhstan": {
+    "D_year2": 0.9999999616399846,
+    "D_peak": 0.9999999616399846,
+    "lat": 48.28487777709961,
+    "subregion": "Central Asia",
+    "n": 47
+   },
+   "Uzbekistan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.70985794067383,
+    "subregion": "Central Asia",
+    "n": 8
+   },
+   "Indonesia": {
+    "D_year2": 0.6726464099953018,
+    "D_peak": 0.8094147029669442,
+    "lat": -1.8471357822418213,
+    "subregion": "South-Eastern Asia",
+    "n": 25
+   },
+   "Argentina": {
+    "D_year2": 0.6677129740423132,
+    "D_peak": 0.8714794107932401,
+    "lat": -32.28362274169922,
+    "subregion": "South America",
+    "n": 30
+   },
+   "Chile": {
+    "D_year2": 0.5646300983556727,
+    "D_peak": 0.8282548246441457,
+    "lat": -33.157894134521484,
+    "subregion": "South America",
+    "n": 1
+   },
+   "Democratic Republic of the Congo": {
+    "D_year2": 0.7512247162088133,
+    "D_peak": 0.9130324317757967,
+    "lat": 1.4226092100143433,
+    "subregion": "Middle Africa",
+    "n": 4
+   },
+   "Somalia": {
+    "D_year2": 0.7107436513640334,
+    "D_peak": 0.8407773636261116,
+    "lat": 2.2100656032562256,
+    "subregion": "Eastern Africa",
+    "n": 3
+   },
+   "Kenya": {
+    "D_year2": 0.8343403494211199,
+    "D_peak": 0.8834446287979544,
+    "lat": 0.10531435906887054,
+    "subregion": "Eastern Africa",
+    "n": 9
+   },
+   "Sudan": {
+    "D_year2": 0.8801962823539718,
+    "D_peak": 0.9193487947529475,
+    "lat": 15.832301139831543,
+    "subregion": "Northern Africa",
+    "n": 9
+   },
+   "Chad": {
+    "D_year2": 0.794237566194807,
+    "D_peak": 0.889438214238062,
+    "lat": 11.544864654541016,
+    "subregion": "Middle Africa",
+    "n": 5
+   },
+   "Russia": {
+    "D_year2": 0.9999999254226603,
+    "D_peak": 0.9999999254226603,
+    "lat": 48.56897735595703,
+    "subregion": "Eastern Europe",
+    "n": 28
+   },
+   "Norway": {
+    "D_year2": 1.0000000303884273,
+    "D_peak": 1.0000000303884273,
+    "lat": 60.6037483215332,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "South Africa": {
+    "D_year2": 0.65592803497456,
+    "D_peak": 0.8248147583366305,
+    "lat": -28.881633758544922,
+    "subregion": "Southern Africa",
+    "n": 23
+   },
+   "Mexico": {
+    "D_year2": 0.9201907195464996,
+    "D_peak": 0.9238705379280647,
+    "lat": 23.712810516357422,
+    "subregion": "Central America",
+    "n": 38
+   },
+   "Uruguay": {
+    "D_year2": 0.7076504423582267,
+    "D_peak": 0.7805005526585462,
+    "lat": -32.20065689086914,
+    "subregion": "South America",
+    "n": 4
+   },
+   "Brazil": {
+    "D_year2": 0.6035547660362499,
+    "D_peak": 0.8917365773231515,
+    "lat": -15.534001350402832,
+    "subregion": "South America",
+    "n": 67
+   },
+   "Bolivia": {
+    "D_year2": 0.9183188706802959,
+    "D_peak": 0.9801194887080338,
+    "lat": -18.93123435974121,
+    "subregion": "South America",
+    "n": 8
+   },
+   "Peru": {
+    "D_year2": 0.8661747637207253,
+    "D_peak": 0.994098863002697,
+    "lat": -11.314014434814453,
+    "subregion": "South America",
+    "n": 16
+   },
+   "Colombia": {
+    "D_year2": 0.9478818116282067,
+    "D_peak": 0.9478818116282067,
+    "lat": 5.241154670715332,
+    "subregion": "South America",
+    "n": 11
+   },
+   "Panama": {
+    "D_year2": 0.6703201584792448,
+    "D_peak": 0.6963679090171627,
+    "lat": 8.526315689086914,
+    "subregion": "Central America",
+    "n": 3
+   },
+   "Costa Rica": {
+    "D_year2": 0.8215955323738084,
+    "D_peak": 0.8490350129354721,
+    "lat": 10.421052932739258,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Nicaragua": {
+    "D_year2": 0.8191194627189117,
+    "D_peak": 0.9363457441521086,
+    "lat": 13.259465217590332,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Honduras": {
+    "D_year2": 0.8704929991679237,
+    "D_peak": 0.9604926596477231,
+    "lat": 14.210526466369629,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Guatemala": {
+    "D_year2": 0.7579252401555882,
+    "D_peak": 0.9064170033873002,
+    "lat": 15.153650283813477,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Venezuela": {
+    "D_year2": 0.7410964946946857,
+    "D_peak": 0.8262873256187008,
+    "lat": 8.711132049560547,
+    "subregion": "South America",
+    "n": 10
+   },
+   "Guyana": {
+    "D_year2": 0.8902602803282196,
+    "D_peak": 1.0,
+    "lat": 4.736842155456543,
+    "subregion": "South America",
+    "n": 1
+   },
+   "Suriname": {
+    "D_year2": 0.6158354742824603,
+    "D_peak": 0.9239349698593189,
+    "lat": 3.7884361743927,
+    "subregion": "South America",
+    "n": 2
+   },
+   "France": {
+    "D_year2": 0.9314625726316893,
+    "D_peak": 0.9795607980314012,
+    "lat": 38.79176330566406,
+    "subregion": "Western Europe",
+    "n": 15
+   },
+   "Ecuador": {
+    "D_year2": 0.8654626964173437,
+    "D_peak": 0.9932063764894201,
+    "lat": -1.8942185640335083,
+    "subregion": "South America",
+    "n": 2
+   },
+   "Jamaica": {
+    "D_year2": 0.7723162960284267,
+    "D_peak": 0.7723162960284267,
+    "lat": 18.0,
+    "subregion": "Caribbean",
+    "n": 1
+   },
+   "Cuba": {
+    "D_year2": 0.7716777983251661,
+    "D_peak": 0.8974335821016646,
+    "lat": 21.1525821685791,
+    "subregion": "Caribbean",
+    "n": 3
+   },
+   "Zimbabwe": {
+    "D_year2": 0.6163328937112472,
+    "D_peak": 0.9140223213570637,
+    "lat": -18.93123435974121,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Botswana": {
+    "D_year2": 0.5875803014293582,
+    "D_peak": 0.8940634452537196,
+    "lat": -21.722631454467773,
+    "subregion": "Southern Africa",
+    "n": 3
+   },
+   "Namibia": {
+    "D_year2": 0.5330658722972141,
+    "D_peak": 0.9689534660969745,
+    "lat": -20.570432662963867,
+    "subregion": "Southern Africa",
+    "n": 10
+   },
+   "Senegal": {
+    "D_year2": 0.7949880014752007,
+    "D_peak": 0.7949880014752007,
+    "lat": 14.838337898254395,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Mali": {
+    "D_year2": 0.8090316208446368,
+    "D_peak": 0.8940478718618192,
+    "lat": 13.852730751037598,
+    "subregion": "Western Africa",
+    "n": 11
+   },
+   "Mauritania": {
+    "D_year2": 0.8594650980963647,
+    "D_peak": 0.8594650980963647,
+    "lat": 16.105262756347656,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Benin": {
+    "D_year2": 0.6274784878773594,
+    "D_peak": 0.7491849582574289,
+    "lat": 7.5768632888793945,
+    "subregion": "Western Africa",
+    "n": 2
+   },
+   "Niger": {
+    "D_year2": 0.8989733733566019,
+    "D_peak": 0.9441651229528649,
+    "lat": 13.7340669631958,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Nigeria": {
+    "D_year2": 0.7629772783233121,
+    "D_peak": 0.8849155344739524,
+    "lat": 9.52234935760498,
+    "subregion": "Western Africa",
+    "n": 15
+   },
+   "Cameroon": {
+    "D_year2": 0.6554936462608064,
+    "D_peak": 0.8627483060505974,
+    "lat": 10.421052932739258,
+    "subregion": "Middle Africa",
+    "n": 1
+   },
+   "Ghana": {
+    "D_year2": 0.757585122056428,
+    "D_peak": 0.8058793463747638,
+    "lat": 8.520052909851074,
+    "subregion": "Western Africa",
+    "n": 6
+   },
+   "Ivory Coast": {
+    "D_year2": 0.8211716030548218,
+    "D_peak": 0.8528491877573781,
+    "lat": 7.0063605308532715,
+    "subregion": "Western Africa",
+    "n": 5
+   },
+   "Guinea": {
+    "D_year2": 0.8787124043810437,
+    "D_peak": 0.901110023193237,
+    "lat": 10.415289878845215,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Guinea-Bissau": {
+    "D_year2": 0.6619521679534751,
+    "D_peak": 0.6619521679534751,
+    "lat": 12.315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Liberia": {
+    "D_year2": 0.9024189180658957,
+    "D_peak": 0.9024189180658957,
+    "lat": 6.6315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Sierra Leone": {
+    "D_year2": 0.8854010103987702,
+    "D_peak": 0.8854010103987702,
+    "lat": 8.526315689086914,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Burkina Faso": {
+    "D_year2": 0.8092237375415631,
+    "D_peak": 0.8861007938685194,
+    "lat": 11.681407928466797,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Central African Republic": {
+    "D_year2": 0.9586381645643414,
+    "D_peak": 1.0,
+    "lat": 4.736842155456543,
+    "subregion": "Middle Africa",
+    "n": 1
+   },
+   "Republic of the Congo": {
+    "D_year2": 0.625945231939351,
+    "D_peak": 0.9386383710428171,
+    "lat": -2.8421051502227783,
+    "subregion": "Middle Africa",
+    "n": 1
+   },
+   "Gabon": {
+    "D_year2": 0.6756037936197282,
+    "D_peak": 0.9618896663077051,
+    "lat": -0.9473684430122375,
+    "subregion": "Middle Africa",
+    "n": 1
+   },
+   "Zambia": {
+    "D_year2": 0.8067939277135067,
+    "D_peak": 0.9684340121432176,
+    "lat": -13.141071319580078,
+    "subregion": "Eastern Africa",
+    "n": 9
+   },
+   "Malawi": {
+    "D_year2": 0.6246479310604,
+    "D_peak": 0.9087634681013037,
+    "lat": -16.105262756347656,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Mozambique": {
+    "D_year2": 0.6319701910282539,
+    "D_peak": 0.8860723201340927,
+    "lat": -17.862775802612305,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Angola": {
+    "D_year2": 0.6589861594622282,
+    "D_peak": 0.9634440819146598,
+    "lat": -11.307291984558105,
+    "subregion": "Middle Africa",
+    "n": 8
+   },
+   "Burundi": {
+    "D_year2": 0.7800779883270867,
+    "D_peak": 0.8354284786643837,
+    "lat": -2.8421051502227783,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Israel": {
+    "D_year2": 0.9218380133404805,
+    "D_peak": 0.9326011831628837,
+    "lat": 31.263158798217773,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Madagascar": {
+    "D_year2": 0.6597621182252839,
+    "D_peak": 0.9148070244324019,
+    "lat": -19.650554656982422,
+    "subregion": "Eastern Africa",
+    "n": 10
+   },
+   "Tunisia": {
+    "D_year2": 0.8935586788770762,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Northern Africa",
+    "n": 2
+   },
+   "Algeria": {
+    "D_year2": 0.8627221699314969,
+    "D_peak": 0.9435753313127994,
+    "lat": 33.55284118652344,
+    "subregion": "Northern Africa",
+    "n": 8
+   },
+   "Jordan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 29.36842155456543,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Kuwait": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 29.36842155456543,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Iraq": {
+    "D_year2": 0.9993674710070802,
+    "D_peak": 0.9993674710070802,
+    "lat": 33.65467834472656,
+    "subregion": "Western Asia",
+    "n": 7
+   },
+   "Oman": {
+    "D_year2": 0.43173081381436273,
+    "D_peak": 0.823365328183175,
+    "lat": 23.6842098236084,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Cambodia": {
+    "D_year2": 0.9794003005393389,
+    "D_peak": 0.9859653512082827,
+    "lat": 13.259465217590332,
+    "subregion": "South-Eastern Asia",
+    "n": 2
+   },
+   "Thailand": {
+    "D_year2": 0.9508298697614348,
+    "D_peak": 0.953227800177838,
+    "lat": 13.981223106384277,
+    "subregion": "South-Eastern Asia",
+    "n": 11
+   },
+   "Laos": {
+    "D_year2": 0.9999999683877713,
+    "D_peak": 0.9999999683877713,
+    "lat": 19.40557098388672,
+    "subregion": "South-Eastern Asia",
+    "n": 4
+   },
+   "Myanmar": {
+    "D_year2": 0.9515111242991977,
+    "D_peak": 0.9543240124839905,
+    "lat": 21.210548400878906,
+    "subregion": "South-Eastern Asia",
+    "n": 11
+   },
+   "Vietnam": {
+    "D_year2": 0.9647887233460344,
+    "D_peak": 0.9647887233460344,
+    "lat": 15.70799732208252,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "North Korea": {
+    "D_year2": 0.9999999475384241,
+    "D_peak": 0.9999999475384241,
+    "lat": 40.70085906982422,
+    "subregion": "Eastern Asia",
+    "n": 3
+   },
+   "South Korea": {
+    "D_year2": 0.9999999631572688,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Eastern Asia",
+    "n": 2
+   },
+   "Mongolia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.280601501464844,
+    "subregion": "Eastern Asia",
+    "n": 16
+   },
+   "India": {
+    "D_year2": 0.8531492998828408,
+    "D_peak": 0.8663176659896211,
+    "lat": 22.677854537963867,
+    "subregion": "Southern Asia",
+    "n": 58
+   },
+   "Bangladesh": {
+    "D_year2": 0.6491932883728998,
+    "D_peak": 0.6491932883728998,
+    "lat": 23.6842098236084,
+    "subregion": "Southern Asia",
+    "n": 1
+   },
+   "Bhutan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 27.473684310913086,
+    "subregion": "Southern Asia",
+    "n": 1
+   },
+   "Nepal": {
+    "D_year2": 1.0000000225269183,
+    "D_peak": 1.0000000225269183,
+    "lat": 28.09775161743164,
+    "subregion": "Southern Asia",
+    "n": 3
+   },
+   "Pakistan": {
+    "D_year2": 0.9443110185820216,
+    "D_peak": 0.9443110185820216,
+    "lat": 29.84628677368164,
+    "subregion": "Southern Asia",
+    "n": 19
+   },
+   "Afghanistan": {
+    "D_year2": 1.0000001237058003,
+    "D_peak": 1.0000001237058003,
+    "lat": 34.17630386352539,
+    "subregion": "Southern Asia",
+    "n": 14
+   },
+   "Tajikistan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 39.46213912963867,
+    "subregion": "Central Asia",
+    "n": 3
+   },
+   "Kyrgyzstan": {
+    "D_year2": 0.9999999798964846,
+    "D_peak": 0.9999999798964846,
+    "lat": 42.14735412597656,
+    "subregion": "Central Asia",
+    "n": 4
+   },
+   "Turkmenistan": {
+    "D_year2": 1.0000000341230242,
+    "D_peak": 1.0000000341230242,
+    "lat": 39.025089263916016,
+    "subregion": "Central Asia",
+    "n": 9
+   },
+   "Iran": {
+    "D_year2": 0.9999999677222151,
+    "D_peak": 0.9999999677222151,
+    "lat": 32.61589050292969,
+    "subregion": "Southern Asia",
+    "n": 33
+   },
+   "Syria": {
+    "D_year2": 0.9999999759116338,
+    "D_peak": 0.9999999759116338,
+    "lat": 34.41158676147461,
+    "subregion": "Western Asia",
+    "n": 3
+   },
+   "Armenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Sweden": {
+    "D_year2": 0.9999999799375608,
+    "D_peak": 0.9999999799375608,
+    "lat": 60.29128646850586,
+    "subregion": "Northern Europe",
+    "n": 3
+   },
+   "Belarus": {
+    "D_year2": 0.99999997492364,
+    "D_peak": 0.99999997492364,
+    "lat": 53.467742919921875,
+    "subregion": "Eastern Europe",
+    "n": 4
+   },
+   "Ukraine": {
+    "D_year2": 1.0000000636968707,
+    "D_peak": 1.0000000636968707,
+    "lat": 48.01663589477539,
+    "subregion": "Eastern Europe",
+    "n": 7
+   },
+   "Poland": {
+    "D_year2": 1.0000000142126337,
+    "D_peak": 1.0000000142126337,
+    "lat": 53.16749954223633,
+    "subregion": "Eastern Europe",
+    "n": 7
+   },
+   "Austria": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Hungary": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Moldova": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 47.351402282714844,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Romania": {
+    "D_year2": 0.9999999718209367,
+    "D_peak": 0.9999999718209367,
+    "lat": 45.14381408691406,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Lithuania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Latvia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 57.78947448730469,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Germany": {
+    "D_year2": 0.9999999521301234,
+    "D_peak": 0.9999999521301234,
+    "lat": 51.40414047241211,
+    "subregion": "Western Europe",
+    "n": 6
+   },
+   "Bulgaria": {
+    "D_year2": 1.000000027004988,
+    "D_peak": 1.000000027004988,
+    "lat": 42.6315803527832,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Greece": {
+    "D_year2": 0.9567521993203519,
+    "D_peak": 0.9999999622086304,
+    "lat": 37.83375549316406,
+    "subregion": "Southern Europe",
+    "n": 4
+   },
+   "Turkey": {
+    "D_year2": 0.9950723156299112,
+    "D_peak": 0.9993949436844363,
+    "lat": 38.81022644042969,
+    "subregion": "Western Asia",
+    "n": 19
+   },
+   "Albania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Switzerland": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Western Europe",
+    "n": 2
+   },
+   "Belgium": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 50.21052932739258,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Netherlands": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 52.10526657104492,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Portugal": {
+    "D_year2": 0.9975651232240197,
+    "D_peak": 0.9999999612098492,
+    "lat": 39.776424407958984,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Spain": {
+    "D_year2": 0.9906667353757529,
+    "D_peak": 1.000000045593961,
+    "lat": 40.20048522949219,
+    "subregion": "Southern Europe",
+    "n": 12
+   },
+   "New Zealand": {
+    "D_year2": 0.5561457313196365,
+    "D_peak": 0.9005577829711695,
+    "lat": -41.91297149658203,
+    "subregion": "Australia and New Zealand",
+    "n": 3
+   },
+   "Australia": {
+    "D_year2": 0.5009599207628774,
+    "D_peak": 0.7983515958477624,
+    "lat": -31.764141082763672,
+    "subregion": "Australia and New Zealand",
+    "n": 21
+   },
+   "Sri Lanka": {
+    "D_year2": 0.5461009550257748,
+    "D_peak": 0.7359890079348458,
+    "lat": 7.5768632888793945,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "China": {
+    "D_year2": 0.9974104494969115,
+    "D_peak": 0.9974104494969115,
+    "lat": 35.18727111816406,
+    "subregion": "Eastern Asia",
+    "n": 136
+   },
+   "Italy": {
+    "D_year2": 0.9903187133095801,
+    "D_peak": 0.999082777368996,
+    "lat": 42.225006103515625,
+    "subregion": "Southern Europe",
+    "n": 7
+   },
+   "Denmark": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "United Kingdom": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 52.10526657104492,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Azerbaijan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Georgia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Philippines": {
+    "D_year2": 0.5533649021116598,
+    "D_peak": 0.8103590139630197,
+    "lat": 11.33165168762207,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "Malaysia": {
+    "D_year2": 0.7072929118235427,
+    "D_peak": 0.8606944017131097,
+    "lat": 4.104340553283691,
+    "subregion": "South-Eastern Asia",
+    "n": 3
+   },
+   "Brunei": {
+    "D_year2": 0.6074821330016906,
+    "D_peak": 0.9237740699729695,
+    "lat": 4.736842155456543,
+    "subregion": "South-Eastern Asia",
+    "n": 1
+   },
+   "Slovenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Slovakia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Czechia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 50.21052932739258,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Eritrea": {
+    "D_year2": 0.7036077368579533,
+    "D_peak": 0.8226089275283612,
+    "lat": 16.105262756347656,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Japan": {
+    "D_year2": 0.9985916247864144,
+    "D_peak": 0.9985916247864144,
+    "lat": 37.53510284423828,
+    "subregion": "Eastern Asia",
+    "n": 12
+   },
+   "Paraguay": {
+    "D_year2": 0.7183141141353849,
+    "D_peak": 0.8031249938992004,
+    "lat": -24.291231155395508,
+    "subregion": "South America",
+    "n": 3
+   },
+   "Yemen": {
+    "D_year2": 0.8999186566194203,
+    "D_peak": 0.931289109062804,
+    "lat": 15.343290328979492,
+    "subregion": "Western Asia",
+    "n": 5
+   },
+   "Saudi Arabia": {
+    "D_year2": 0.9143426118468526,
+    "D_peak": 0.9495008353636207,
+    "lat": 23.800762176513672,
+    "subregion": "Western Asia",
+    "n": 19
+   },
+   "Cyprus": {
+    "D_year2": 0.9554698996415198,
+    "D_peak": 0.9992512373240339,
+    "lat": 35.05263137817383,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Morocco": {
+    "D_year2": 0.9586891019310825,
+    "D_peak": 0.9737460670191428,
+    "lat": 32.646812438964844,
+    "subregion": "Northern Africa",
+    "n": 8
+   },
+   "Egypt": {
+    "D_year2": 0.90205455554518,
+    "D_peak": 0.90205455554518,
+    "lat": 27.408493041992188,
+    "subregion": "Northern Africa",
+    "n": 15
+   },
+   "Libya": {
+    "D_year2": 0.6200870084548159,
+    "D_peak": 0.7359084355345007,
+    "lat": 29.32900619506836,
+    "subregion": "Northern Africa",
+    "n": 7
+   },
+   "Ethiopia": {
+    "D_year2": 0.8838696378390163,
+    "D_peak": 0.9271294797624703,
+    "lat": 9.091866493225098,
+    "subregion": "Eastern Africa",
+    "n": 16
+   },
+   "Djibouti": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 12.315789222717285,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Somaliland": {
+    "D_year2": 0.8307227668907599,
+    "D_peak": 0.9093440421299464,
+    "lat": 10.421052932739258,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Uganda": {
+    "D_year2": 0.7022684823840933,
+    "D_peak": 0.7022684823840933,
+    "lat": 1.8942185640335083,
+    "subregion": "Eastern Africa",
+    "n": 2
+   },
+   "Republic of Serbia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 44.52631759643555,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Montenegro": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Southern Europe",
+    "n": 1
+   }
+  },
+  "H107a_frac_D_gt_0.9_year2": 0.5144927536231884,
+  "H107a_frac_D_gt_0.9_peak": 0.7101449275362319,
+  "frac_D_gt_0.75_year2": 0.7463768115942029,
+  "frac_D_gt_0.5_year2": 0.9855072463768116,
+  "H107b_median_north30": 1.0,
+  "H107b_median_south": 0.6589861594622282,
+  "H107b_diff_pts": 34.10138405377718,
+  "H107b_R2_lat": 0.608511324008159,
+  "triples": {
+   "Dstar0.75_sg0.5": {
+    "country": {
+     "q_halt": 0.9444333333333333,
+     "P_loss": 0.7036028333333333,
+     "P_G3": 0.35745145569166664,
+     "indep": 0.348323470623105,
+     "full": 0.7036028333333333,
+     "pos": 0.036792274168481194,
+     "q_lossD": 0.9013055555555556,
+     "P_G3_D": 0.7839666666666667,
+     "pos_D": 0.328858856034136
+    },
+    "region": {
+     "q_halt": 0.9237222222222222,
+     "P_loss": 0.6881730555555555,
+     "P_G3": 0.32767991469166663,
+     "indep": 0.32590647824498636,
+     "full": 0.6881730555555555,
+     "pos": 0.007260612102756824,
+     "q_lossD": 0.8759944444444444,
+     "P_G3_D": 0.68345,
+     "pos_D": 0.06263357866479723
+    },
+    "world": {
+     "q_halt": 0.9435388888888889,
+     "P_loss": 0.7029364722222222,
+     "P_G3": 0.34725883783541667,
+     "indep": 0.3473347475126172,
+     "full": 0.7029364722222222,
+     "pos": -0.0003100424126015921,
+     "q_lossD": 0.8999166666666667,
+     "P_G3_D": 0.7288833333333333,
+     "pos_D": 0.0005582635202094578
+    }
+   },
+   "Dstar0.75_sg1.0": {
+    "country": {
+     "q_halt": 0.9112333333333333,
+     "P_loss": 0.6788688333333334,
+     "P_G3": 0.32581230181875,
+     "indep": 0.31286545441020597,
+     "full": 0.6788688333333334,
+     "pos": 0.0523435985541331,
+     "q_lossD": 0.8678111111111111,
+     "P_G3_D": 0.7086166666666667,
+     "pos_D": 0.2853094712815745
+    },
+    "region": {
+     "q_halt": 0.8948277777777778,
+     "P_loss": 0.6666466944444445,
+     "P_G3": 0.30075458814375,
+     "indep": 0.29626966746443806,
+     "full": 0.6666466944444445,
+     "pos": 0.018526158919265134,
+     "q_lossD": 0.8499777777777778,
+     "P_G3_D": 0.6344333333333333,
+     "pos_D": 0.10031726340961983
+    },
+    "world": {
+     "q_halt": 0.9105222222222222,
+     "P_loss": 0.6783390555555555,
+     "P_G3": 0.3121807953145833,
+     "indep": 0.3121335611069116,
+     "full": 0.6783390555555555,
+     "pos": 0.00019493987382741815,
+     "q_lossD": 0.8678944444444444,
+     "P_G3_D": 0.6534,
+     "pos_D": -0.0018006164033413012
+    }
+   },
+   "Dstar0.9_sg0.5": {
+    "country": {
+     "q_halt": 0.7692944444444444,
+     "P_loss": 0.5731243611111111,
+     "P_G3": 0.24911612594166666,
+     "indep": 0.18825503766518747,
+     "full": 0.5731243611111111,
+     "pos": 0.2516125452070728,
+     "q_lossD": 0.6895833333333333,
+     "P_G3_D": 0.5189,
+     "pos_D": 0.6174319933395326
+    },
+    "region": {
+     "q_halt": 0.7436944444444444,
+     "P_loss": 0.5540523611111111,
+     "P_G3": 0.19751212154166667,
+     "indep": 0.17007967994515896,
+     "full": 0.5540523611111111,
+     "pos": 0.12661635622438736,
+     "q_lossD": 0.6702555555555556,
+     "P_G3_D": 0.40141666666666664,
+     "pos_D": 0.3593302158201304
+    },
+    "world": {
+     "q_halt": 0.7690166666666667,
+     "P_loss": 0.5729174166666666,
+     "P_G3": 0.18731950368541667,
+     "indep": 0.18805118521327868,
+     "full": 0.5729174166666666,
+     "pos": -0.003499422733255683,
+     "q_lossD": 0.6887388888888889,
+     "P_G3_D": 0.32558333333333334,
+     "pos_D": -0.0046362903744404955
+    }
+   },
+   "Dstar0.9_sg1.0": {
+    "country": {
+     "q_halt": 0.7771666666666667,
+     "P_loss": 0.5789891666666667,
+     "P_G3": 0.24574615289791668,
+     "indep": 0.19409364387135497,
+     "full": 0.5789891666666667,
+     "pos": 0.21589264601829342,
+     "q_lossD": 0.7088888888888889,
+     "P_G3_D": 0.5129333333333334,
+     "pos_D": 0.5297967984619205
+    },
+    "region": {
+     "q_halt": 0.7545222222222222,
+     "P_loss": 0.5621190555555555,
+     "P_G3": 0.20346642974166665,
+     "indep": 0.17761716084809803,
+     "full": 0.5621190555555555,
+     "pos": 0.11793468776757184,
+     "q_lossD": 0.6891166666666667,
+     "P_G3_D": 0.41478333333333334,
+     "pos_D": 0.31830062870599096
+    },
+    "world": {
+     "q_halt": 0.7761111111111111,
+     "P_loss": 0.5782027777777777,
+     "P_G3": 0.19387337764166665,
+     "indep": 0.19330385774171757,
+     "full": 0.5782027777777777,
+     "pos": 0.0026850543422225646,
+     "q_lossD": 0.7069833333333333,
+     "P_G3_D": 0.3541666666666667,
+     "pos_D": 0.0032543711547859053
+    }
+   },
+   "Dstar0.95_sg0.5": {
+    "country": {
+     "q_halt": 0.6583333333333333,
+     "P_loss": 0.49045833333333333,
+     "P_G3": 0.21095066435416665,
+     "indep": 0.11797944639836516,
+     "full": 0.49045833333333333,
+     "pos": 0.40784788481194123,
+     "q_lossD": 0.5801611111111111,
+     "P_G3_D": 0.43465,
+     "pos_D": 0.7348103294808385
+    },
+    "region": {
+     "q_halt": 0.6389833333333333,
+     "P_loss": 0.4760425833333333,
+     "P_G3": 0.15895384101041665,
+     "indep": 0.10787912367352713,
+     "full": 0.4760425833333333,
+     "pos": 0.26110039610113,
+     "q_lossD": 0.5671222222222222,
+     "P_G3_D": 0.333,
+     "pos_D": 0.5306323055475547
+    },
+    "world": {
+     "q_halt": 0.6581277777777778,
+     "P_loss": 0.4903051944444444,
+     "P_G3": 0.11755623758749999,
+     "indep": 0.11786896850792415,
+     "full": 0.4903051944444444,
+     "pos": -0.0018637805022801678,
+     "q_lossD": 0.5780611111111111,
+     "P_G3_D": 0.19156666666666666,
+     "pos_D": -0.007564958937354199
+    }
+   },
+   "Dstar0.95_sg1.0": {
+    "country": {
+     "q_halt": 0.68475,
+     "P_loss": 0.51013875,
+     "P_G3": 0.21368661383958334,
+     "indep": 0.13275929608256176,
+     "full": 0.51013875,
+     "pos": 0.3535821278589926,
+     "q_lossD": 0.6132611111111111,
+     "P_G3_D": 0.44045,
+     "pos_D": 0.6615358732761016
+    },
+    "region": {
+     "q_halt": 0.66565,
+     "P_loss": 0.49590924999999997,
+     "P_G3": 0.16725127975208331,
+     "indep": 0.12195697039776959,
+     "full": 0.49590924999999997,
+     "pos": 0.22515400037940678,
+     "q_lossD": 0.5978777777777777,
+     "P_G3_D": 0.34773333333333334,
+     "pos_D": 0.4731889768174198
+    },
+    "world": {
+     "q_halt": 0.6831111111111111,
+     "P_loss": 0.5089177777777778,
+     "P_G3": 0.13096721415833332,
+     "indep": 0.13180833267605158,
+     "full": 0.5089177777777778,
+     "pos": -0.004738800520170205,
+     "q_lossD": 0.6106888888888888,
+     "P_G3_D": 0.22605,
+     "pos_D": -0.007600018544539897
+    }
+   }
+  },
+  "phi_by_distance_Dstar0.9": [
+   {
+    "lo": 0,
+    "hi": 250,
+    "n": 95,
+    "phi": 0.7358182524227798
+   },
+   {
+    "lo": 250,
+    "hi": 500,
+    "n": 273,
+    "phi": 0.5374765483754521
+   },
+   {
+    "lo": 500,
+    "hi": 1000,
+    "n": 742,
+    "phi": 0.35569209738732205
+   },
+   {
+    "lo": 1000,
+    "hi": 2000,
+    "n": 2099,
+    "phi": 0.15996640371570986
+   },
+   {
+    "lo": 2000,
+    "hi": 4000,
+    "n": 5336,
+    "phi": 0.01704023094819295
+   },
+   {
+    "lo": 4000,
+    "hi": 8000,
+    "n": 11010,
+    "phi": -0.005072095748275377
+   },
+   {
+    "lo": 8000,
+    "hi": 20100,
+    "n": 20445,
+    "phi": -0.040365084924116224
+   }
+  ],
+  "p_halt_cell_Dstar0.9": 0.7639355048304424
+ },
+ "rain_popw": {
+  "n_cells": 1956,
+  "n_countries": 133,
+  "countries": {
+   "Fiji": {
+    "D_year2": 0.3437037104383709,
+    "D_peak": 0.7875980418420163,
+    "lat": -18.0,
+    "subregion": "Melanesia",
+    "n": 1
+   },
+   "United Republic of Tanzania": {
+    "D_year2": 0.7992850405740604,
+    "D_peak": 0.9348527577415712,
+    "lat": -6.73738431930542,
+    "subregion": "Eastern Africa",
+    "n": 16
+   },
+   "Canada": {
+    "D_year2": 1.0000000639066238,
+    "D_peak": 1.0000000639066238,
+    "lat": 52.46271896362305,
+    "subregion": "Northern America",
+    "n": 147
+   },
+   "United States of America": {
+    "D_year2": 0.9967745933866863,
+    "D_peak": 0.9967745933866863,
+    "lat": 39.497947692871094,
+    "subregion": "Northern America",
+    "n": 162
+   },
+   "Kazakhstan": {
+    "D_year2": 1.0000000620721312,
+    "D_peak": 1.0000000620721312,
+    "lat": 51.432125091552734,
+    "subregion": "Central Asia",
+    "n": 17
+   },
+   "Indonesia": {
+    "D_year2": 0.6073901517082477,
+    "D_peak": 0.7910466529033897,
+    "lat": -2.163548231124878,
+    "subregion": "South-Eastern Asia",
+    "n": 34
+   },
+   "Argentina": {
+    "D_year2": 0.6428202967661326,
+    "D_peak": 0.842307498074517,
+    "lat": -34.58457565307617,
+    "subregion": "South America",
+    "n": 57
+   },
+   "Chile": {
+    "D_year2": 0.7118887233934026,
+    "D_peak": 0.8333973661861008,
+    "lat": -39.889747619628906,
+    "subregion": "South America",
+    "n": 19
+   },
+   "Democratic Republic of the Congo": {
+    "D_year2": 0.7897155639980639,
+    "D_peak": 0.9701005811414062,
+    "lat": -2.5889322757720947,
+    "subregion": "Middle Africa",
+    "n": 40
+   },
+   "Somalia": {
+    "D_year2": -0.1415411661836149,
+    "D_peak": 0.2681677607643579,
+    "lat": 5.195135593414307,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Kenya": {
+    "D_year2": 0.7517391606676841,
+    "D_peak": 0.9270285644678866,
+    "lat": 0.6304850578308105,
+    "subregion": "Eastern Africa",
+    "n": 12
+   },
+   "Sudan": {
+    "D_year2": 0.7295452743858148,
+    "D_peak": 0.7753860404281969,
+    "lat": 14.18282413482666,
+    "subregion": "Northern Africa",
+    "n": 22
+   },
+   "Chad": {
+    "D_year2": 0.7829606845023453,
+    "D_peak": 0.8342807324688849,
+    "lat": 12.811955451965332,
+    "subregion": "Middle Africa",
+    "n": 11
+   },
+   "Russia": {
+    "D_year2": 1.0000000543850958,
+    "D_peak": 1.0000000543850958,
+    "lat": 54.68292236328125,
+    "subregion": "Eastern Europe",
+    "n": 226
+   },
+   "Norway": {
+    "D_year2": 1.0000000323699283,
+    "D_peak": 1.0000000323699283,
+    "lat": 64.59313201904297,
+    "subregion": "Northern Europe",
+    "n": 11
+   },
+   "South Africa": {
+    "D_year2": 0.7088713991530279,
+    "D_peak": 0.8018749013944731,
+    "lat": -28.636091232299805,
+    "subregion": "Southern Africa",
+    "n": 23
+   },
+   "Mexico": {
+    "D_year2": 0.8096840048537897,
+    "D_peak": 0.8096840048537897,
+    "lat": 23.429697036743164,
+    "subregion": "Central America",
+    "n": 37
+   },
+   "Uruguay": {
+    "D_year2": 0.6700231857727048,
+    "D_peak": 0.7339148166309015,
+    "lat": -32.20065689086914,
+    "subregion": "South America",
+    "n": 4
+   },
+   "Brazil": {
+    "D_year2": 0.4924161205930722,
+    "D_peak": 0.822943807236305,
+    "lat": -10.737916946411133,
+    "subregion": "South America",
+    "n": 150
+   },
+   "Bolivia": {
+    "D_year2": 0.7101595468796216,
+    "D_peak": 0.9140276946270025,
+    "lat": -17.062902450561523,
+    "subregion": "South America",
+    "n": 17
+   },
+   "Peru": {
+    "D_year2": 0.7448754467085307,
+    "D_peak": 0.9532312346914205,
+    "lat": -9.251471519470215,
+    "subregion": "South America",
+    "n": 24
+   },
+   "Colombia": {
+    "D_year2": 0.7923791742249323,
+    "D_peak": 0.8466846334942203,
+    "lat": 3.3279435634613037,
+    "subregion": "South America",
+    "n": 19
+   },
+   "Panama": {
+    "D_year2": 0.22095206040814416,
+    "D_peak": 0.41378897955567623,
+    "lat": 8.526315689086914,
+    "subregion": "Central America",
+    "n": 3
+   },
+   "Costa Rica": {
+    "D_year2": 0.4314021659330982,
+    "D_peak": 0.4314021659330982,
+    "lat": 10.421052932739258,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Nicaragua": {
+    "D_year2": 0.7348846939014827,
+    "D_peak": 0.9475167055759232,
+    "lat": 13.259465217590332,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Honduras": {
+    "D_year2": 0.5297911717443229,
+    "D_peak": 0.9583481863125033,
+    "lat": 14.210526466369629,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Guatemala": {
+    "D_year2": 0.4004372225514067,
+    "D_peak": 0.7066351969980718,
+    "lat": 15.153650283813477,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Venezuela": {
+    "D_year2": 0.5157144364581432,
+    "D_peak": 0.7762435492450267,
+    "lat": 7.092759609222412,
+    "subregion": "South America",
+    "n": 16
+   },
+   "Guyana": {
+    "D_year2": 0.3498688602774419,
+    "D_peak": 0.9574142617582999,
+    "lat": 4.733380317687988,
+    "subregion": "South America",
+    "n": 3
+   },
+   "Suriname": {
+    "D_year2": 0.3305185622486846,
+    "D_peak": 0.5822216499116621,
+    "lat": 4.104340553283691,
+    "subregion": "South America",
+    "n": 3
+   },
+   "France": {
+    "D_year2": 0.8446636710244868,
+    "D_peak": 0.8577138558306872,
+    "lat": 38.79176330566406,
+    "subregion": "Western Europe",
+    "n": 15
+   },
+   "Ecuador": {
+    "D_year2": 0.8631754191327586,
+    "D_peak": 0.9812223590319116,
+    "lat": -1.5784868001937866,
+    "subregion": "South America",
+    "n": 3
+   },
+   "Jamaica": {
+    "D_year2": 0.2926483489064421,
+    "D_peak": 0.2926483489064421,
+    "lat": 18.0,
+    "subregion": "Caribbean",
+    "n": 1
+   },
+   "Cuba": {
+    "D_year2": 0.4577840677194034,
+    "D_peak": 0.7179217849654351,
+    "lat": 21.1525821685791,
+    "subregion": "Caribbean",
+    "n": 3
+   },
+   "Zimbabwe": {
+    "D_year2": 0.5606776472906208,
+    "D_peak": 0.9047013934309845,
+    "lat": -18.93123435974121,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Botswana": {
+    "D_year2": 0.6596306627569305,
+    "D_peak": 0.9402287066054942,
+    "lat": -22.26881980895996,
+    "subregion": "Southern Africa",
+    "n": 11
+   },
+   "Namibia": {
+    "D_year2": 0.5947663010931208,
+    "D_peak": 0.9729304771596975,
+    "lat": -20.78169059753418,
+    "subregion": "Southern Africa",
+    "n": 14
+   },
+   "Senegal": {
+    "D_year2": -0.23482121035677533,
+    "D_peak": 0.5168938576904215,
+    "lat": 14.838337898254395,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Mali": {
+    "D_year2": 0.4715892310864102,
+    "D_peak": 0.7599937558221733,
+    "lat": 14.81882381439209,
+    "subregion": "Western Africa",
+    "n": 15
+   },
+   "Mauritania": {
+    "D_year2": 0.1220765966217967,
+    "D_peak": 0.4419617496450979,
+    "lat": 17.183259963989258,
+    "subregion": "Western Africa",
+    "n": 7
+   },
+   "Benin": {
+    "D_year2": 0.7569332339294456,
+    "D_peak": 0.8619471336449201,
+    "lat": 8.520052909851074,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Niger": {
+    "D_year2": 0.8596890588348355,
+    "D_peak": 0.9591586573410944,
+    "lat": 14.62516975402832,
+    "subregion": "Western Africa",
+    "n": 9
+   },
+   "Nigeria": {
+    "D_year2": 0.813045835184614,
+    "D_peak": 0.8833605796962596,
+    "lat": 9.52234935760498,
+    "subregion": "Western Africa",
+    "n": 15
+   },
+   "Cameroon": {
+    "D_year2": 0.8767817486076024,
+    "D_peak": 0.9407595365509067,
+    "lat": 5.566579341888428,
+    "subregion": "Middle Africa",
+    "n": 9
+   },
+   "Ghana": {
+    "D_year2": 0.7356785162325286,
+    "D_peak": 0.795473802359177,
+    "lat": 8.520052909851074,
+    "subregion": "Western Africa",
+    "n": 6
+   },
+   "Ivory Coast": {
+    "D_year2": 0.8467977555074531,
+    "D_peak": 0.8703219433969674,
+    "lat": 7.0063605308532715,
+    "subregion": "Western Africa",
+    "n": 5
+   },
+   "Guinea": {
+    "D_year2": 0.5593667065212018,
+    "D_peak": 0.7522529455414017,
+    "lat": 10.415289878845215,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Guinea-Bissau": {
+    "D_year2": -0.09376395913382529,
+    "D_peak": 0.3772225549466074,
+    "lat": 12.315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Liberia": {
+    "D_year2": 0.8710896592435398,
+    "D_peak": 0.8734053215977895,
+    "lat": 6.6315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Sierra Leone": {
+    "D_year2": 0.696057606684069,
+    "D_peak": 0.8618914951680986,
+    "lat": 8.526315689086914,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Burkina Faso": {
+    "D_year2": 0.7134638954425611,
+    "D_peak": 0.8803772544253907,
+    "lat": 12.30894947052002,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Central African Republic": {
+    "D_year2": 0.8841683181674609,
+    "D_peak": 0.9785946947668248,
+    "lat": 6.7973432540893555,
+    "subregion": "Middle Africa",
+    "n": 11
+   },
+   "Republic of the Congo": {
+    "D_year2": 0.8661873097919143,
+    "D_peak": 0.9170394377575879,
+    "lat": -0.3154439628124237,
+    "subregion": "Middle Africa",
+    "n": 6
+   },
+   "Gabon": {
+    "D_year2": 0.7675262466133213,
+    "D_peak": 0.8370353859630764,
+    "lat": -0.5679237246513367,
+    "subregion": "Middle Africa",
+    "n": 5
+   },
+   "Zambia": {
+    "D_year2": 0.7516773417249499,
+    "D_peak": 0.9645950908991606,
+    "lat": -13.108134269714355,
+    "subregion": "Eastern Africa",
+    "n": 14
+   },
+   "Malawi": {
+    "D_year2": 0.5751890989304544,
+    "D_peak": 0.9320467030494103,
+    "lat": -15.153650283813477,
+    "subregion": "Eastern Africa",
+    "n": 2
+   },
+   "Mozambique": {
+    "D_year2": 0.3469325686719775,
+    "D_peak": 0.7722549179493298,
+    "lat": -17.37900161743164,
+    "subregion": "Eastern Africa",
+    "n": 15
+   },
+   "Angola": {
+    "D_year2": 0.6661389213964263,
+    "D_peak": 0.96978508116081,
+    "lat": -11.645103454589844,
+    "subregion": "Middle Africa",
+    "n": 21
+   },
+   "Burundi": {
+    "D_year2": 0.7582200472619758,
+    "D_peak": 0.7582200472619758,
+    "lat": -2.8421051502227783,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Madagascar": {
+    "D_year2": 0.5424083722444749,
+    "D_peak": 0.8672333748308181,
+    "lat": -19.650554656982422,
+    "subregion": "Eastern Africa",
+    "n": 10
+   },
+   "Algeria": {
+    "D_year2": 0.3320457705824919,
+    "D_peak": 0.4019951343241048,
+    "lat": 32.7070198059082,
+    "subregion": "Northern Africa",
+    "n": 5
+   },
+   "United Arab Emirates": {
+    "D_year2": 0.25,
+    "D_peak": 1.0,
+    "lat": 23.6842098236084,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Oman": {
+    "D_year2": 0.37421307128815867,
+    "D_peak": 0.37421307128815867,
+    "lat": 20.83614158630371,
+    "subregion": "Western Asia",
+    "n": 2
+   },
+   "Cambodia": {
+    "D_year2": 0.9350966152846754,
+    "D_peak": 0.9860887346422721,
+    "lat": 13.259465217590332,
+    "subregion": "South-Eastern Asia",
+    "n": 2
+   },
+   "Thailand": {
+    "D_year2": 0.9426706893072858,
+    "D_peak": 0.9426706893072858,
+    "lat": 13.981223106384277,
+    "subregion": "South-Eastern Asia",
+    "n": 11
+   },
+   "Laos": {
+    "D_year2": 0.9999999683877713,
+    "D_peak": 0.9999999683877713,
+    "lat": 19.40557098388672,
+    "subregion": "South-Eastern Asia",
+    "n": 4
+   },
+   "Myanmar": {
+    "D_year2": 0.914664559017195,
+    "D_peak": 0.9324258783423286,
+    "lat": 21.710107803344727,
+    "subregion": "South-Eastern Asia",
+    "n": 12
+   },
+   "Vietnam": {
+    "D_year2": 0.934957316000742,
+    "D_peak": 0.9397852831743689,
+    "lat": 15.70799732208252,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "North Korea": {
+    "D_year2": 0.9999999475384241,
+    "D_peak": 0.9999999475384241,
+    "lat": 40.70085906982422,
+    "subregion": "Eastern Asia",
+    "n": 3
+   },
+   "South Korea": {
+    "D_year2": 0.9999999631572688,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Eastern Asia",
+    "n": 2
+   },
+   "Mongolia": {
+    "D_year2": 0.9999999085541905,
+    "D_peak": 0.9999999085541905,
+    "lat": 47.29465103149414,
+    "subregion": "Eastern Asia",
+    "n": 26
+   },
+   "India": {
+    "D_year2": 0.5949680014588082,
+    "D_peak": 0.5949680014588082,
+    "lat": 22.75655746459961,
+    "subregion": "Southern Asia",
+    "n": 59
+   },
+   "Bangladesh": {
+    "D_year2": 0.6444543565035378,
+    "D_peak": 0.6444543565035378,
+    "lat": 22.73027801513672,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "Bhutan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 27.473684310913086,
+    "subregion": "Southern Asia",
+    "n": 1
+   },
+   "Nepal": {
+    "D_year2": 1.0000000225269183,
+    "D_peak": 1.0000000225269183,
+    "lat": 28.09775161743164,
+    "subregion": "Southern Asia",
+    "n": 3
+   },
+   "Pakistan": {
+    "D_year2": 0.7787585248860546,
+    "D_peak": 0.7815211194505538,
+    "lat": 29.668498992919922,
+    "subregion": "Southern Asia",
+    "n": 18
+   },
+   "Afghanistan": {
+    "D_year2": 0.9999999631572688,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "Kyrgyzstan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Central Asia",
+    "n": 1
+   },
+   "Iran": {
+    "D_year2": 1.000000049222779,
+    "D_peak": 1.000000049222779,
+    "lat": 32.46180725097656,
+    "subregion": "Southern Asia",
+    "n": 13
+   },
+   "Armenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Sweden": {
+    "D_year2": 0.9999999795367822,
+    "D_peak": 0.9999999795367822,
+    "lat": 62.534542083740234,
+    "subregion": "Northern Europe",
+    "n": 16
+   },
+   "Belarus": {
+    "D_year2": 0.9999999713900608,
+    "D_peak": 0.9999999713900608,
+    "lat": 53.41706466674805,
+    "subregion": "Eastern Europe",
+    "n": 7
+   },
+   "Ukraine": {
+    "D_year2": 0.9999999575244162,
+    "D_peak": 0.9999999575244162,
+    "lat": 49.0274543762207,
+    "subregion": "Eastern Europe",
+    "n": 15
+   },
+   "Poland": {
+    "D_year2": 1.0000000195812557,
+    "D_peak": 1.0000000195812557,
+    "lat": 52.438655853271484,
+    "subregion": "Eastern Europe",
+    "n": 10
+   },
+   "Austria": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Hungary": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Moldova": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 47.351402282714844,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Romania": {
+    "D_year2": 0.9999999488213593,
+    "D_peak": 0.9999999488213593,
+    "lat": 45.6478157043457,
+    "subregion": "Eastern Europe",
+    "n": 5
+   },
+   "Lithuania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "Latvia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 57.78947448730469,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Estonia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 57.78947448730469,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Germany": {
+    "D_year2": 1.0000000105903664,
+    "D_peak": 1.0000000105903664,
+    "lat": 51.17460250854492,
+    "subregion": "Western Europe",
+    "n": 9
+   },
+   "Bulgaria": {
+    "D_year2": 1.000000027004988,
+    "D_peak": 1.000000027004988,
+    "lat": 42.6315803527832,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Greece": {
+    "D_year2": 0.5779430522030109,
+    "D_peak": 0.987961066562268,
+    "lat": 37.83375549316406,
+    "subregion": "Southern Europe",
+    "n": 4
+   },
+   "Turkey": {
+    "D_year2": 0.929815789828751,
+    "D_peak": 0.9492247862159857,
+    "lat": 39.17053985595703,
+    "subregion": "Western Asia",
+    "n": 16
+   },
+   "Albania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Switzerland": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Western Europe",
+    "n": 2
+   },
+   "Belgium": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 50.21052932739258,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Netherlands": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 52.10526657104492,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Portugal": {
+    "D_year2": 0.9712183233854318,
+    "D_peak": 0.9999999612098492,
+    "lat": 39.776424407958984,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Spain": {
+    "D_year2": 0.9539016667119009,
+    "D_peak": 0.9999999763244154,
+    "lat": 40.88893508911133,
+    "subregion": "Southern Europe",
+    "n": 10
+   },
+   "Ireland": {
+    "D_year2": 0.9999999504120265,
+    "D_peak": 0.9999999504120265,
+    "lat": 53.03179931640625,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "New Zealand": {
+    "D_year2": 0.729920576593711,
+    "D_peak": 0.7794072876040192,
+    "lat": -40.32389450073242,
+    "subregion": "Australia and New Zealand",
+    "n": 6
+   },
+   "Australia": {
+    "D_year2": 0.20502912231710546,
+    "D_peak": 0.6388471377262227,
+    "lat": -28.373779296875,
+    "subregion": "Australia and New Zealand",
+    "n": 62
+   },
+   "Sri Lanka": {
+    "D_year2": -0.014235946240472029,
+    "D_peak": 0.4842512896317761,
+    "lat": 7.5768632888793945,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "China": {
+    "D_year2": 0.9973415358221509,
+    "D_peak": 0.9973415358221509,
+    "lat": 34.90209197998047,
+    "subregion": "Eastern Asia",
+    "n": 160
+   },
+   "Italy": {
+    "D_year2": 0.8127670711111383,
+    "D_peak": 0.95743935646307,
+    "lat": 42.225006103515625,
+    "subregion": "Southern Europe",
+    "n": 7
+   },
+   "Denmark": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "United Kingdom": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 53.85210037231445,
+    "subregion": "Northern Europe",
+    "n": 7
+   },
+   "Iceland": {
+    "D_year2": 1.0000000238352682,
+    "D_peak": 1.0000000238352682,
+    "lat": 65.36842346191406,
+    "subregion": "Northern Europe",
+    "n": 3
+   },
+   "Azerbaijan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Georgia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Philippines": {
+    "D_year2": 0.46919860492717314,
+    "D_peak": 0.7433902204841639,
+    "lat": 11.33165168762207,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "Malaysia": {
+    "D_year2": 0.7214333263641457,
+    "D_peak": 0.8358896389130749,
+    "lat": 3.599004030227661,
+    "subregion": "South-Eastern Asia",
+    "n": 5
+   },
+   "Brunei": {
+    "D_year2": 0.6519290943518266,
+    "D_peak": 0.7866907087611651,
+    "lat": 4.736842155456543,
+    "subregion": "South-Eastern Asia",
+    "n": 1
+   },
+   "Slovenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Finland": {
+    "D_year2": 1.0000000187835625,
+    "D_peak": 1.0000000187835625,
+    "lat": 64.11151123046875,
+    "subregion": "Northern Europe",
+    "n": 11
+   },
+   "Slovakia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Czechia": {
+    "D_year2": 1.0000000310456112,
+    "D_peak": 1.0000000310456112,
+    "lat": 50.21052551269531,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Eritrea": {
+    "D_year2": 0.20626367452348726,
+    "D_peak": 0.5986295689914949,
+    "lat": 16.105262756347656,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Japan": {
+    "D_year2": 0.9988134874714679,
+    "D_peak": 0.9988134874714679,
+    "lat": 37.53510284423828,
+    "subregion": "Eastern Asia",
+    "n": 12
+   },
+   "Paraguay": {
+    "D_year2": 0.535371445251106,
+    "D_peak": 0.6971386890678679,
+    "lat": -23.33819580078125,
+    "subregion": "South America",
+    "n": 6
+   },
+   "Yemen": {
+    "D_year2": 0.47152308530772513,
+    "D_peak": 0.48774265093112074,
+    "lat": 15.78102970123291,
+    "subregion": "Western Asia",
+    "n": 6
+   },
+   "Saudi Arabia": {
+    "D_year2": 0.6651191970984818,
+    "D_peak": 0.6651191970984818,
+    "lat": 20.89113998413086,
+    "subregion": "Western Asia",
+    "n": 11
+   },
+   "Morocco": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 33.157894134521484,
+    "subregion": "Northern Africa",
+    "n": 1
+   },
+   "Ethiopia": {
+    "D_year2": 0.7493373966673754,
+    "D_peak": 0.8144815106690843,
+    "lat": 8.774250984191895,
+    "subregion": "Eastern Africa",
+    "n": 21
+   },
+   "Djibouti": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 12.315789222717285,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Somaliland": {
+    "D_year2": -0.013138853393795374,
+    "D_peak": 0.0914027510054375,
+    "lat": 9.787148475646973,
+    "subregion": "Eastern Africa",
+    "n": 3
+   },
+   "Uganda": {
+    "D_year2": 0.8662241716911357,
+    "D_peak": 0.8662241716911357,
+    "lat": 0.47303658723831177,
+    "subregion": "Eastern Africa",
+    "n": 4
+   },
+   "Bosnia and Herzegovina": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 44.52631759643555,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Republic of Serbia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 44.52631759643555,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Montenegro": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "South Sudan": {
+    "D_year2": 0.8685963717103162,
+    "D_peak": 0.9708111816442864,
+    "lat": 7.334193229675293,
+    "subregion": "Eastern Africa",
+    "n": 8
+   }
+  },
+  "H107a_frac_D_gt_0.9_year2": 0.42105263157894735,
+  "H107a_frac_D_gt_0.9_peak": 0.5939849624060151,
+  "frac_D_gt_0.75_year2": 0.5939849624060151,
+  "frac_D_gt_0.5_year2": 0.8195488721804511,
+  "H107b_median_north30": 1.0,
+  "H107b_median_south": 0.6680810535845656,
+  "H107b_diff_pts": 33.19189464154344,
+  "H107b_R2_lat": 0.3441219417053316,
+  "triples": {
+   "Dstar0.75_sg0.5": {
+    "country": {
+     "q_halt": 0.8055833333333333,
+     "P_loss": 0.6001595833333333,
+     "P_G3": 0.2694462291708333,
+     "indep": 0.21617239584437656,
+     "full": 0.6001595833333333,
+     "pos": 0.21573641351953332,
+     "q_lossD": 0.7463055555555556,
+     "P_G3_D": 0.5707333333333333,
+     "pos_D": 0.5417044834567967
+    },
+    "region": {
+     "q_halt": 0.8294055555555555,
+     "P_loss": 0.6179071388888888,
+     "P_G3": 0.2506736185958333,
+     "indep": 0.23592265032558593,
+     "full": 0.6179071388888888,
+     "pos": 0.06298880017890647,
+     "q_lossD": 0.7760944444444444,
+     "P_G3_D": 0.5189333333333334,
+     "pos_D": 0.2060574512914909
+    },
+    "world": {
+     "q_halt": 0.8083722222222223,
+     "P_loss": 0.6022373055555555,
+     "P_G3": 0.21870366982291667,
+     "indep": 0.21842531116398187,
+     "full": 0.6022373055555555,
+     "pos": 0.0012557361608587104,
+     "q_lossD": 0.7482277777777778,
+     "P_G3_D": 0.4185833333333333,
+     "pos_D": -0.0012683945326517937
+    }
+   },
+   "Dstar0.75_sg1.0": {
+    "country": {
+     "q_halt": 0.8052333333333334,
+     "P_loss": 0.5998988333333334,
+     "P_G3": 0.2610316339020833,
+     "indep": 0.21589075842141464,
+     "full": 0.5998988333333334,
+     "pos": 0.1857839606840431,
+     "q_lossD": 0.7432166666666666,
+     "P_G3_D": 0.5487666666666666,
+     "pos_D": 0.4889701416821418
+    },
+    "region": {
+     "q_halt": 0.8259722222222222,
+     "P_loss": 0.6153493055555556,
+     "P_G3": 0.24627680305,
+     "indep": 0.23300494844038505,
+     "full": 0.6153493055555556,
+     "pos": 0.05704324381989844,
+     "q_lossD": 0.7700888888888889,
+     "P_G3_D": 0.50755,
+     "pos_D": 0.20208270202605266
+    },
+    "world": {
+     "q_halt": 0.8066777777777778,
+     "P_loss": 0.6009749444444444,
+     "P_G3": 0.21757345391458333,
+     "indep": 0.2170546518567065,
+     "full": 0.6009749444444444,
+     "pos": 0.002344196205163607,
+     "q_lossD": 0.7440777777777777,
+     "P_G3_D": 0.41226666666666667,
+     "pos_D": 0.0012588202044834216
+    }
+   },
+   "Dstar0.9_sg0.5": {
+    "country": {
+     "q_halt": 0.6844388888888889,
+     "P_loss": 0.5099069722222223,
+     "P_G3": 0.21392092689374997,
+     "indep": 0.13257842366507114,
+     "full": 0.5099069722222223,
+     "pos": 0.35516921764632897,
+     "q_lossD": 0.6065166666666667,
+     "P_G3_D": 0.4427333333333333,
+     "pos_D": 0.6852499474881534
+    },
+    "region": {
+     "q_halt": 0.7212277777777778,
+     "P_loss": 0.5373146944444445,
+     "P_G3": 0.18737463616875,
+     "indep": 0.15512655693942293,
+     "full": 0.5373146944444445,
+     "pos": 0.1520262804524571,
+     "q_lossD": 0.6553,
+     "P_G3_D": 0.3913,
+     "pos_D": 0.39003452563099206
+    },
+    "world": {
+     "q_halt": 0.6871055555555555,
+     "P_loss": 0.5118936388888888,
+     "P_G3": 0.13455771713541667,
+     "indep": 0.13413409959374903,
+     "full": 0.5118936388888888,
+     "pos": 0.0023543959270183414,
+     "q_lossD": 0.6075722222222222,
+     "P_G3_D": 0.2245,
+     "pos_D": 0.0009764585150223269
+    }
+   },
+   "Dstar0.9_sg1.0": {
+    "country": {
+     "q_halt": 0.6993388888888888,
+     "P_loss": 0.5210074722222222,
+     "P_G3": 0.21417591462916666,
+     "indep": 0.1414268458896858,
+     "full": 0.5210074722222222,
+     "pos": 0.3182675694696699,
+     "q_lossD": 0.6251777777777778,
+     "P_G3_D": 0.44338333333333335,
+     "pos_D": 0.6342481560024996
+    },
+    "region": {
+     "q_halt": 0.7336111111111111,
+     "P_loss": 0.5465402777777778,
+     "P_G3": 0.19315665535833332,
+     "indep": 0.16325501064003353,
+     "full": 0.5465402777777778,
+     "pos": 0.13919460727011315,
+     "q_lossD": 0.6707555555555555,
+     "P_G3_D": 0.4024333333333333,
+     "pos_D": 0.36036725744655573
+    },
+    "world": {
+     "q_halt": 0.7011944444444445,
+     "P_loss": 0.5223898611111111,
+     "P_G3": 0.14263462594374998,
+     "indep": 0.14255557882323583,
+     "full": 0.5223898611111111,
+     "pos": 0.00042685321978045256,
+     "q_lossD": 0.6271777777777777,
+     "P_G3_D": 0.24605,
+     "pos_D": -0.0028345598453115638
+    }
+   },
+   "Dstar0.95_sg0.5": {
+    "country": {
+     "q_halt": 0.629,
+     "P_loss": 0.468605,
+     "P_G3": 0.19424552190416666,
+     "indep": 0.10290127468054512,
+     "full": 0.468605,
+     "pos": 0.4191009412453603,
+     "q_lossD": 0.54975,
+     "P_G3_D": 0.4030166666666667,
+     "pos_D": 0.7405231110234265
+    },
+    "region": {
+     "q_halt": 0.6709944444444444,
+     "P_loss": 0.4998908611111111,
+     "P_G3": 0.17084178272916667,
+     "indep": 0.12491816369897893,
+     "full": 0.4998908611111111,
+     "pos": 0.225767691471743,
+     "q_lossD": 0.6056222222222222,
+     "P_G3_D": 0.3646333333333333,
+     "pos_D": 0.4941522994682659
+    },
+    "world": {
+     "q_halt": 0.6309166666666667,
+     "P_loss": 0.4700329166666667,
+     "P_G3": 0.10426241754374999,
+     "indep": 0.10384481540278047,
+     "full": 0.4700329166666667,
+     "pos": 0.002658009125435125,
+     "q_lossD": 0.5514611111111111,
+     "P_G3_D": 0.16751666666666667,
+     "pos_D": -0.0009413539860531262
+    }
+   },
+   "Dstar0.95_sg1.0": {
+    "country": {
+     "q_halt": 0.6438722222222222,
+     "P_loss": 0.47968480555555554,
+     "P_G3": 0.1958305808,
+     "indep": 0.11037428062914063,
+     "full": 0.47968480555555554,
+     "pos": 0.39024804769901034,
+     "q_lossD": 0.5663333333333334,
+     "P_G3_D": 0.405,
+     "pos_D": 0.7051424420327332
+    },
+    "region": {
+     "q_halt": 0.6832722222222222,
+     "P_loss": 0.5090378055555556,
+     "P_G3": 0.17443228570625,
+     "indep": 0.13190161528595076,
+     "full": 0.5090378055555556,
+     "pos": 0.20695102030167994,
+     "q_lossD": 0.6199111111111111,
+     "P_G3_D": 0.37,
+     "pos_D": 0.4603768690656199
+    },
+    "world": {
+     "q_halt": 0.6461722222222223,
+     "P_loss": 0.4813983055555556,
+     "P_G3": 0.11118843576249998,
+     "indep": 0.11156132710618318,
+     "full": 0.4813983055555556,
+     "pos": -0.002289877619667319,
+     "q_lossD": 0.5687277777777778,
+     "P_G3_D": 0.1832,
+     "pos_D": -0.003647255707834618
+    }
+   }
+  },
+  "phi_by_distance_Dstar0.9": [
+   {
+    "lo": 0,
+    "hi": 250,
+    "n": 202,
+    "phi": 0.771992214249794
+   },
+   {
+    "lo": 250,
+    "hi": 500,
+    "n": 449,
+    "phi": 0.5667647458294862
+   },
+   {
+    "lo": 500,
+    "hi": 1000,
+    "n": 1307,
+    "phi": 0.40005168677253067
+   },
+   {
+    "lo": 1000,
+    "hi": 2000,
+    "n": 3424,
+    "phi": 0.1613824247991281
+   },
+   {
+    "lo": 2000,
+    "hi": 4000,
+    "n": 6938,
+    "phi": -0.09513220573951171
+   },
+   {
+    "lo": 4000,
+    "hi": 8000,
+    "n": 12604,
+    "phi": -0.07771184122623215
+   },
+   {
+    "lo": 8000,
+    "hi": 20100,
+    "n": 15076,
+    "phi": -0.015299448443342394
+   }
+  ],
+  "p_halt_cell_Dstar0.9": 0.6767129412100742
+ },
+ "rain_south_popw": {
+  "n_cells": 1956,
+  "n_countries": 133,
+  "countries": {
+   "Fiji": {
+    "D_year2": 0.3437037104383709,
+    "D_peak": 0.7875980418420163,
+    "lat": -18.0,
+    "subregion": "Melanesia",
+    "n": 1
+   },
+   "United Republic of Tanzania": {
+    "D_year2": 0.7992850405740604,
+    "D_peak": 0.9348527577415712,
+    "lat": -6.73738431930542,
+    "subregion": "Eastern Africa",
+    "n": 16
+   },
+   "Canada": {
+    "D_year2": 1.0000000639066238,
+    "D_peak": 1.0000000639066238,
+    "lat": 52.46271896362305,
+    "subregion": "Northern America",
+    "n": 147
+   },
+   "United States of America": {
+    "D_year2": 0.9967745933866863,
+    "D_peak": 0.9967745933866863,
+    "lat": 39.497947692871094,
+    "subregion": "Northern America",
+    "n": 162
+   },
+   "Kazakhstan": {
+    "D_year2": 1.0000000620721312,
+    "D_peak": 1.0000000620721312,
+    "lat": 51.432125091552734,
+    "subregion": "Central Asia",
+    "n": 17
+   },
+   "Indonesia": {
+    "D_year2": 0.6073901517082477,
+    "D_peak": 0.7910466529033897,
+    "lat": -2.163548231124878,
+    "subregion": "South-Eastern Asia",
+    "n": 34
+   },
+   "Argentina": {
+    "D_year2": 0.6428202967661326,
+    "D_peak": 0.842307498074517,
+    "lat": -34.58457565307617,
+    "subregion": "South America",
+    "n": 57
+   },
+   "Chile": {
+    "D_year2": 0.7118887233934026,
+    "D_peak": 0.8333973661861008,
+    "lat": -39.889747619628906,
+    "subregion": "South America",
+    "n": 19
+   },
+   "Democratic Republic of the Congo": {
+    "D_year2": 0.7897155639980639,
+    "D_peak": 0.9701005811414062,
+    "lat": -2.5889322757720947,
+    "subregion": "Middle Africa",
+    "n": 40
+   },
+   "Somalia": {
+    "D_year2": -0.1415411661836149,
+    "D_peak": 0.2681677607643579,
+    "lat": 5.195135593414307,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Kenya": {
+    "D_year2": 0.7517391606676841,
+    "D_peak": 0.9270285644678866,
+    "lat": 0.6304850578308105,
+    "subregion": "Eastern Africa",
+    "n": 12
+   },
+   "Sudan": {
+    "D_year2": 0.7295452743858148,
+    "D_peak": 0.7753860404281969,
+    "lat": 14.18282413482666,
+    "subregion": "Northern Africa",
+    "n": 22
+   },
+   "Chad": {
+    "D_year2": 0.7829606845023453,
+    "D_peak": 0.8342807324688849,
+    "lat": 12.811955451965332,
+    "subregion": "Middle Africa",
+    "n": 11
+   },
+   "Russia": {
+    "D_year2": 1.0000000543850958,
+    "D_peak": 1.0000000543850958,
+    "lat": 54.68292236328125,
+    "subregion": "Eastern Europe",
+    "n": 226
+   },
+   "Norway": {
+    "D_year2": 1.0000000323699283,
+    "D_peak": 1.0000000323699283,
+    "lat": 64.59313201904297,
+    "subregion": "Northern Europe",
+    "n": 11
+   },
+   "South Africa": {
+    "D_year2": 0.7088713991530279,
+    "D_peak": 0.8018749013944731,
+    "lat": -28.636091232299805,
+    "subregion": "Southern Africa",
+    "n": 23
+   },
+   "Mexico": {
+    "D_year2": 0.8096840048537897,
+    "D_peak": 0.8096840048537897,
+    "lat": 23.429697036743164,
+    "subregion": "Central America",
+    "n": 37
+   },
+   "Uruguay": {
+    "D_year2": 0.6700231857727048,
+    "D_peak": 0.7339148166309015,
+    "lat": -32.20065689086914,
+    "subregion": "South America",
+    "n": 4
+   },
+   "Brazil": {
+    "D_year2": 0.4924161205930722,
+    "D_peak": 0.822943807236305,
+    "lat": -10.737916946411133,
+    "subregion": "South America",
+    "n": 150
+   },
+   "Bolivia": {
+    "D_year2": 0.7101595468796216,
+    "D_peak": 0.9140276946270025,
+    "lat": -17.062902450561523,
+    "subregion": "South America",
+    "n": 17
+   },
+   "Peru": {
+    "D_year2": 0.7448754467085307,
+    "D_peak": 0.9532312346914205,
+    "lat": -9.251471519470215,
+    "subregion": "South America",
+    "n": 24
+   },
+   "Colombia": {
+    "D_year2": 0.7923791742249323,
+    "D_peak": 0.8466846334942203,
+    "lat": 3.3279435634613037,
+    "subregion": "South America",
+    "n": 19
+   },
+   "Panama": {
+    "D_year2": 0.22095206040814416,
+    "D_peak": 0.41378897955567623,
+    "lat": 8.526315689086914,
+    "subregion": "Central America",
+    "n": 3
+   },
+   "Costa Rica": {
+    "D_year2": 0.4314021659330982,
+    "D_peak": 0.4314021659330982,
+    "lat": 10.421052932739258,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Nicaragua": {
+    "D_year2": 0.7348846939014827,
+    "D_peak": 0.9475167055759232,
+    "lat": 13.259465217590332,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Honduras": {
+    "D_year2": 0.5297911717443229,
+    "D_peak": 0.9583481863125033,
+    "lat": 14.210526466369629,
+    "subregion": "Central America",
+    "n": 1
+   },
+   "Guatemala": {
+    "D_year2": 0.4004372225514067,
+    "D_peak": 0.7066351969980718,
+    "lat": 15.153650283813477,
+    "subregion": "Central America",
+    "n": 2
+   },
+   "Venezuela": {
+    "D_year2": 0.5157144364581432,
+    "D_peak": 0.7762435492450267,
+    "lat": 7.092759609222412,
+    "subregion": "South America",
+    "n": 16
+   },
+   "Guyana": {
+    "D_year2": 0.3498688602774419,
+    "D_peak": 0.9574142617582999,
+    "lat": 4.733380317687988,
+    "subregion": "South America",
+    "n": 3
+   },
+   "Suriname": {
+    "D_year2": 0.3305185622486846,
+    "D_peak": 0.5822216499116621,
+    "lat": 4.104340553283691,
+    "subregion": "South America",
+    "n": 3
+   },
+   "France": {
+    "D_year2": 0.8446636710244868,
+    "D_peak": 0.8577138558306872,
+    "lat": 38.79176330566406,
+    "subregion": "Western Europe",
+    "n": 15
+   },
+   "Ecuador": {
+    "D_year2": 0.8631754191327586,
+    "D_peak": 0.9812223590319116,
+    "lat": -1.5784868001937866,
+    "subregion": "South America",
+    "n": 3
+   },
+   "Jamaica": {
+    "D_year2": 0.2926483489064421,
+    "D_peak": 0.2926483489064421,
+    "lat": 18.0,
+    "subregion": "Caribbean",
+    "n": 1
+   },
+   "Cuba": {
+    "D_year2": 0.4577840677194034,
+    "D_peak": 0.7179217849654351,
+    "lat": 21.1525821685791,
+    "subregion": "Caribbean",
+    "n": 3
+   },
+   "Zimbabwe": {
+    "D_year2": 0.5606776472906208,
+    "D_peak": 0.9047013934309845,
+    "lat": -18.93123435974121,
+    "subregion": "Eastern Africa",
+    "n": 8
+   },
+   "Botswana": {
+    "D_year2": 0.6596306627569305,
+    "D_peak": 0.9402287066054942,
+    "lat": -22.26881980895996,
+    "subregion": "Southern Africa",
+    "n": 11
+   },
+   "Namibia": {
+    "D_year2": 0.5947663010931208,
+    "D_peak": 0.9729304771596975,
+    "lat": -20.78169059753418,
+    "subregion": "Southern Africa",
+    "n": 14
+   },
+   "Senegal": {
+    "D_year2": -0.23482121035677533,
+    "D_peak": 0.5168938576904215,
+    "lat": 14.838337898254395,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Mali": {
+    "D_year2": 0.4715892310864102,
+    "D_peak": 0.7599937558221733,
+    "lat": 14.81882381439209,
+    "subregion": "Western Africa",
+    "n": 15
+   },
+   "Mauritania": {
+    "D_year2": 0.1220765966217967,
+    "D_peak": 0.4419617496450979,
+    "lat": 17.183259963989258,
+    "subregion": "Western Africa",
+    "n": 7
+   },
+   "Benin": {
+    "D_year2": 0.7569332339294456,
+    "D_peak": 0.8619471336449201,
+    "lat": 8.520052909851074,
+    "subregion": "Western Africa",
+    "n": 3
+   },
+   "Niger": {
+    "D_year2": 0.8596890588348355,
+    "D_peak": 0.9591586573410944,
+    "lat": 14.62516975402832,
+    "subregion": "Western Africa",
+    "n": 9
+   },
+   "Nigeria": {
+    "D_year2": 0.813045835184614,
+    "D_peak": 0.8833605796962596,
+    "lat": 9.52234935760498,
+    "subregion": "Western Africa",
+    "n": 15
+   },
+   "Cameroon": {
+    "D_year2": 0.8767817486076024,
+    "D_peak": 0.9407595365509067,
+    "lat": 5.566579341888428,
+    "subregion": "Middle Africa",
+    "n": 9
+   },
+   "Ghana": {
+    "D_year2": 0.7356785162325286,
+    "D_peak": 0.795473802359177,
+    "lat": 8.520052909851074,
+    "subregion": "Western Africa",
+    "n": 6
+   },
+   "Ivory Coast": {
+    "D_year2": 0.8467977555074531,
+    "D_peak": 0.8703219433969674,
+    "lat": 7.0063605308532715,
+    "subregion": "Western Africa",
+    "n": 5
+   },
+   "Guinea": {
+    "D_year2": 0.5593667065212018,
+    "D_peak": 0.7522529455414017,
+    "lat": 10.415289878845215,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Guinea-Bissau": {
+    "D_year2": -0.09376395913382529,
+    "D_peak": 0.3772225549466074,
+    "lat": 12.315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Liberia": {
+    "D_year2": 0.8710896592435398,
+    "D_peak": 0.8734053215977895,
+    "lat": 6.6315789222717285,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Sierra Leone": {
+    "D_year2": 0.696057606684069,
+    "D_peak": 0.8618914951680986,
+    "lat": 8.526315689086914,
+    "subregion": "Western Africa",
+    "n": 1
+   },
+   "Burkina Faso": {
+    "D_year2": 0.7134638954425611,
+    "D_peak": 0.8803772544253907,
+    "lat": 12.30894947052002,
+    "subregion": "Western Africa",
+    "n": 4
+   },
+   "Central African Republic": {
+    "D_year2": 0.8841683181674609,
+    "D_peak": 0.9785946947668248,
+    "lat": 6.7973432540893555,
+    "subregion": "Middle Africa",
+    "n": 11
+   },
+   "Republic of the Congo": {
+    "D_year2": 0.8661873097919143,
+    "D_peak": 0.9170394377575879,
+    "lat": -0.3154439628124237,
+    "subregion": "Middle Africa",
+    "n": 6
+   },
+   "Gabon": {
+    "D_year2": 0.7675262466133213,
+    "D_peak": 0.8370353859630764,
+    "lat": -0.5679237246513367,
+    "subregion": "Middle Africa",
+    "n": 5
+   },
+   "Zambia": {
+    "D_year2": 0.7516773417249499,
+    "D_peak": 0.9645950908991606,
+    "lat": -13.108134269714355,
+    "subregion": "Eastern Africa",
+    "n": 14
+   },
+   "Malawi": {
+    "D_year2": 0.5751890989304544,
+    "D_peak": 0.9320467030494103,
+    "lat": -15.153650283813477,
+    "subregion": "Eastern Africa",
+    "n": 2
+   },
+   "Mozambique": {
+    "D_year2": 0.3469325686719775,
+    "D_peak": 0.7722549179493298,
+    "lat": -17.37900161743164,
+    "subregion": "Eastern Africa",
+    "n": 15
+   },
+   "Angola": {
+    "D_year2": 0.6661389213964263,
+    "D_peak": 0.96978508116081,
+    "lat": -11.645103454589844,
+    "subregion": "Middle Africa",
+    "n": 21
+   },
+   "Burundi": {
+    "D_year2": 0.7582200472619758,
+    "D_peak": 0.7582200472619758,
+    "lat": -2.8421051502227783,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Madagascar": {
+    "D_year2": 0.5424083722444749,
+    "D_peak": 0.8672333748308181,
+    "lat": -19.650554656982422,
+    "subregion": "Eastern Africa",
+    "n": 10
+   },
+   "Algeria": {
+    "D_year2": 0.3320457705824919,
+    "D_peak": 0.4019951343241048,
+    "lat": 32.7070198059082,
+    "subregion": "Northern Africa",
+    "n": 5
+   },
+   "United Arab Emirates": {
+    "D_year2": 0.25,
+    "D_peak": 1.0,
+    "lat": 23.6842098236084,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Oman": {
+    "D_year2": 0.37421307128815867,
+    "D_peak": 0.37421307128815867,
+    "lat": 20.83614158630371,
+    "subregion": "Western Asia",
+    "n": 2
+   },
+   "Cambodia": {
+    "D_year2": 0.9350966152846754,
+    "D_peak": 0.9860887346422721,
+    "lat": 13.259465217590332,
+    "subregion": "South-Eastern Asia",
+    "n": 2
+   },
+   "Thailand": {
+    "D_year2": 0.9426706893072858,
+    "D_peak": 0.9426706893072858,
+    "lat": 13.981223106384277,
+    "subregion": "South-Eastern Asia",
+    "n": 11
+   },
+   "Laos": {
+    "D_year2": 0.9999999683877713,
+    "D_peak": 0.9999999683877713,
+    "lat": 19.40557098388672,
+    "subregion": "South-Eastern Asia",
+    "n": 4
+   },
+   "Myanmar": {
+    "D_year2": 0.914664559017195,
+    "D_peak": 0.9324258783423286,
+    "lat": 21.710107803344727,
+    "subregion": "South-Eastern Asia",
+    "n": 12
+   },
+   "Vietnam": {
+    "D_year2": 0.934957316000742,
+    "D_peak": 0.9397852831743689,
+    "lat": 15.70799732208252,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "North Korea": {
+    "D_year2": 0.9999999475384241,
+    "D_peak": 0.9999999475384241,
+    "lat": 40.70085906982422,
+    "subregion": "Eastern Asia",
+    "n": 3
+   },
+   "South Korea": {
+    "D_year2": 0.9999999631572688,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Eastern Asia",
+    "n": 2
+   },
+   "Mongolia": {
+    "D_year2": 0.9999999085541905,
+    "D_peak": 0.9999999085541905,
+    "lat": 47.29465103149414,
+    "subregion": "Eastern Asia",
+    "n": 26
+   },
+   "India": {
+    "D_year2": 0.5949680014588082,
+    "D_peak": 0.5949680014588082,
+    "lat": 22.75655746459961,
+    "subregion": "Southern Asia",
+    "n": 59
+   },
+   "Bangladesh": {
+    "D_year2": 0.6444543565035378,
+    "D_peak": 0.6444543565035378,
+    "lat": 22.73027801513672,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "Bhutan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 27.473684310913086,
+    "subregion": "Southern Asia",
+    "n": 1
+   },
+   "Nepal": {
+    "D_year2": 1.0000000225269183,
+    "D_peak": 1.0000000225269183,
+    "lat": 28.09775161743164,
+    "subregion": "Southern Asia",
+    "n": 3
+   },
+   "Pakistan": {
+    "D_year2": 0.7787585248860546,
+    "D_peak": 0.7815211194505538,
+    "lat": 29.668498992919922,
+    "subregion": "Southern Asia",
+    "n": 18
+   },
+   "Afghanistan": {
+    "D_year2": 0.9999999631572688,
+    "D_peak": 0.9999999631572688,
+    "lat": 35.988616943359375,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "Kyrgyzstan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Central Asia",
+    "n": 1
+   },
+   "Iran": {
+    "D_year2": 1.000000049222779,
+    "D_peak": 1.000000049222779,
+    "lat": 32.46180725097656,
+    "subregion": "Southern Asia",
+    "n": 13
+   },
+   "Armenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Sweden": {
+    "D_year2": 0.9999999795367822,
+    "D_peak": 0.9999999795367822,
+    "lat": 62.534542083740234,
+    "subregion": "Northern Europe",
+    "n": 16
+   },
+   "Belarus": {
+    "D_year2": 0.9999999713900608,
+    "D_peak": 0.9999999713900608,
+    "lat": 53.41706466674805,
+    "subregion": "Eastern Europe",
+    "n": 7
+   },
+   "Ukraine": {
+    "D_year2": 0.9999999575244162,
+    "D_peak": 0.9999999575244162,
+    "lat": 49.0274543762207,
+    "subregion": "Eastern Europe",
+    "n": 15
+   },
+   "Poland": {
+    "D_year2": 1.0000000195812557,
+    "D_peak": 1.0000000195812557,
+    "lat": 52.438655853271484,
+    "subregion": "Eastern Europe",
+    "n": 10
+   },
+   "Austria": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Hungary": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Moldova": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 47.351402282714844,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Romania": {
+    "D_year2": 0.9999999488213593,
+    "D_peak": 0.9999999488213593,
+    "lat": 45.6478157043457,
+    "subregion": "Eastern Europe",
+    "n": 5
+   },
+   "Lithuania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "Latvia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 57.78947448730469,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Estonia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 57.78947448730469,
+    "subregion": "Northern Europe",
+    "n": 1
+   },
+   "Germany": {
+    "D_year2": 1.0000000105903664,
+    "D_peak": 1.0000000105903664,
+    "lat": 51.17460250854492,
+    "subregion": "Western Europe",
+    "n": 9
+   },
+   "Bulgaria": {
+    "D_year2": 1.000000027004988,
+    "D_peak": 1.000000027004988,
+    "lat": 42.6315803527832,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Greece": {
+    "D_year2": 0.5779430522030109,
+    "D_peak": 0.987961066562268,
+    "lat": 37.83375549316406,
+    "subregion": "Southern Europe",
+    "n": 4
+   },
+   "Turkey": {
+    "D_year2": 0.929815789828751,
+    "D_peak": 0.9492247862159857,
+    "lat": 39.17053985595703,
+    "subregion": "Western Asia",
+    "n": 16
+   },
+   "Albania": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Switzerland": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Western Europe",
+    "n": 2
+   },
+   "Belgium": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 50.21052932739258,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Netherlands": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 52.10526657104492,
+    "subregion": "Western Europe",
+    "n": 1
+   },
+   "Portugal": {
+    "D_year2": 0.9712183233854318,
+    "D_peak": 0.9999999612098492,
+    "lat": 39.776424407958984,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Spain": {
+    "D_year2": 0.9539016667119009,
+    "D_peak": 0.9999999763244154,
+    "lat": 40.88893508911133,
+    "subregion": "Southern Europe",
+    "n": 10
+   },
+   "Ireland": {
+    "D_year2": 0.9999999504120265,
+    "D_peak": 0.9999999504120265,
+    "lat": 53.03179931640625,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "New Zealand": {
+    "D_year2": 0.729920576593711,
+    "D_peak": 0.7794072876040192,
+    "lat": -40.32389450073242,
+    "subregion": "Australia and New Zealand",
+    "n": 6
+   },
+   "Australia": {
+    "D_year2": 0.20502912231710546,
+    "D_peak": 0.6388471377262227,
+    "lat": -28.373779296875,
+    "subregion": "Australia and New Zealand",
+    "n": 62
+   },
+   "Sri Lanka": {
+    "D_year2": -0.014235946240472029,
+    "D_peak": 0.4842512896317761,
+    "lat": 7.5768632888793945,
+    "subregion": "Southern Asia",
+    "n": 2
+   },
+   "China": {
+    "D_year2": 0.9973415358221509,
+    "D_peak": 0.9973415358221509,
+    "lat": 34.90209197998047,
+    "subregion": "Eastern Asia",
+    "n": 160
+   },
+   "Italy": {
+    "D_year2": 0.8127670711111383,
+    "D_peak": 0.95743935646307,
+    "lat": 42.225006103515625,
+    "subregion": "Southern Europe",
+    "n": 7
+   },
+   "Denmark": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 55.894737243652344,
+    "subregion": "Northern Europe",
+    "n": 2
+   },
+   "United Kingdom": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 53.85210037231445,
+    "subregion": "Northern Europe",
+    "n": 7
+   },
+   "Iceland": {
+    "D_year2": 1.0000000238352682,
+    "D_peak": 1.0000000238352682,
+    "lat": 65.36842346191406,
+    "subregion": "Northern Europe",
+    "n": 3
+   },
+   "Azerbaijan": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 40.73684310913086,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Georgia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Western Asia",
+    "n": 1
+   },
+   "Philippines": {
+    "D_year2": 0.46919860492717314,
+    "D_peak": 0.7433902204841639,
+    "lat": 11.33165168762207,
+    "subregion": "South-Eastern Asia",
+    "n": 6
+   },
+   "Malaysia": {
+    "D_year2": 0.7214333263641457,
+    "D_peak": 0.8358896389130749,
+    "lat": 3.599004030227661,
+    "subregion": "South-Eastern Asia",
+    "n": 5
+   },
+   "Brunei": {
+    "D_year2": 0.6519290943518266,
+    "D_peak": 0.7866907087611651,
+    "lat": 4.736842155456543,
+    "subregion": "South-Eastern Asia",
+    "n": 1
+   },
+   "Slovenia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 46.42105484008789,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Finland": {
+    "D_year2": 1.0000000187835625,
+    "D_peak": 1.0000000187835625,
+    "lat": 64.11151123046875,
+    "subregion": "Northern Europe",
+    "n": 11
+   },
+   "Slovakia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 48.31578826904297,
+    "subregion": "Eastern Europe",
+    "n": 2
+   },
+   "Czechia": {
+    "D_year2": 1.0000000310456112,
+    "D_peak": 1.0000000310456112,
+    "lat": 50.21052551269531,
+    "subregion": "Eastern Europe",
+    "n": 3
+   },
+   "Eritrea": {
+    "D_year2": 0.20626367452348726,
+    "D_peak": 0.5986295689914949,
+    "lat": 16.105262756347656,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Japan": {
+    "D_year2": 0.9988134874714679,
+    "D_peak": 0.9988134874714679,
+    "lat": 37.53510284423828,
+    "subregion": "Eastern Asia",
+    "n": 12
+   },
+   "Paraguay": {
+    "D_year2": 0.535371445251106,
+    "D_peak": 0.6971386890678679,
+    "lat": -23.33819580078125,
+    "subregion": "South America",
+    "n": 6
+   },
+   "Yemen": {
+    "D_year2": 0.47152308530772513,
+    "D_peak": 0.48774265093112074,
+    "lat": 15.78102970123291,
+    "subregion": "Western Asia",
+    "n": 6
+   },
+   "Saudi Arabia": {
+    "D_year2": 0.6651191970984818,
+    "D_peak": 0.6651191970984818,
+    "lat": 20.89113998413086,
+    "subregion": "Western Asia",
+    "n": 11
+   },
+   "Morocco": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 33.157894134521484,
+    "subregion": "Northern Africa",
+    "n": 1
+   },
+   "Ethiopia": {
+    "D_year2": 0.7493373966673754,
+    "D_peak": 0.8144815106690843,
+    "lat": 8.774250984191895,
+    "subregion": "Eastern Africa",
+    "n": 21
+   },
+   "Djibouti": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 12.315789222717285,
+    "subregion": "Eastern Africa",
+    "n": 1
+   },
+   "Somaliland": {
+    "D_year2": -0.013138853393795374,
+    "D_peak": 0.0914027510054375,
+    "lat": 9.787148475646973,
+    "subregion": "Eastern Africa",
+    "n": 3
+   },
+   "Uganda": {
+    "D_year2": 0.8662241716911357,
+    "D_peak": 0.8662241716911357,
+    "lat": 0.47303658723831177,
+    "subregion": "Eastern Africa",
+    "n": 4
+   },
+   "Bosnia and Herzegovina": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 44.52631759643555,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "Republic of Serbia": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 44.52631759643555,
+    "subregion": "Southern Europe",
+    "n": 2
+   },
+   "Montenegro": {
+    "D_year2": 1.0,
+    "D_peak": 1.0,
+    "lat": 42.6315803527832,
+    "subregion": "Southern Europe",
+    "n": 1
+   },
+   "South Sudan": {
+    "D_year2": 0.8685963717103162,
+    "D_peak": 0.9708111816442864,
+    "lat": 7.334193229675293,
+    "subregion": "Eastern Africa",
+    "n": 8
+   }
+  },
+  "H107a_frac_D_gt_0.9_year2": 0.42105263157894735,
+  "H107a_frac_D_gt_0.9_peak": 0.5939849624060151,
+  "frac_D_gt_0.75_year2": 0.5939849624060151,
+  "frac_D_gt_0.5_year2": 0.8195488721804511,
+  "H107b_median_north30": 1.0,
+  "H107b_median_south": 0.6680810535845656,
+  "H107b_diff_pts": 33.19189464154344,
+  "H107b_R2_lat": 0.3441219417053316,
+  "triples": {
+   "Dstar0.75_sg0.5": {
+    "country": {
+     "q_halt": 0.7891555555555556,
+     "P_loss": 0.5879208888888889,
+     "P_G3": 0.22263875082083331,
+     "indep": 0.2032154264636187,
+     "full": 0.5879208888888889,
+     "pos": 0.08592832719875829,
+     "q_lossD": 0.6961055555555555,
+     "P_G3_D": 0.40845,
+     "pos_D": 0.2641463645995983
+    },
+    "region": {
+     "q_halt": 0.8388777777777778,
+     "P_loss": 0.6249639444444445,
+     "P_G3": 0.24497429813125,
+     "indep": 0.24409837483329228,
+     "full": 0.6249639444444445,
+     "pos": 0.003810119784468213,
+     "q_lossD": 0.7603,
+     "P_G3_D": 0.4473666666666667,
+     "pos_D": 0.032385201722774266
+    },
+    "world": {
+     "q_halt": 0.7894444444444444,
+     "P_loss": 0.5881361111111111,
+     "P_G3": 0.20339062257708332,
+     "indep": 0.20343868348279937,
+     "full": 0.5881361111111111,
+     "pos": -0.0002225621789484159,
+     "q_lossD": 0.6964611111111111,
+     "P_G3_D": 0.33705,
+     "pos_D": -0.0031707918183569673
+    }
+   },
+   "Dstar0.75_sg1.0": {
+    "country": {
+     "q_halt": 0.7483222222222222,
+     "P_loss": 0.5575000555555556,
+     "P_G3": 0.1915302471,
+     "indep": 0.17327453617604688,
+     "full": 0.5575000555555556,
+     "pos": 0.08571773836459365,
+     "q_lossD": 0.6720166666666667,
+     "P_G3_D": 0.3614,
+     "pos_D": 0.2196965452133752
+    },
+    "region": {
+     "q_halt": 0.7999777777777778,
+     "P_loss": 0.5959834444444444,
+     "P_G3": 0.2123427595583333,
+     "indep": 0.21169109409539527,
+     "full": 0.5959834444444444,
+     "pos": 0.0029694675846094402,
+     "q_lossD": 0.7309111111111111,
+     "P_G3_D": 0.3919666666666667,
+     "pos_D": 0.0060801353956384556
+    },
+    "world": {
+     "q_halt": 0.7494444444444445,
+     "P_loss": 0.5583361111111111,
+     "P_G3": 0.1743220207395833,
+     "indep": 0.1740552598508874,
+     "full": 0.5583361111111111,
+     "pos": 0.0013138846330397337,
+     "q_lossD": 0.6718722222222222,
+     "P_G3_D": 0.30406666666666665,
+     "pos_D": 0.003209813367079506
+    }
+   },
+   "Dstar0.9_sg0.5": {
+    "country": {
+     "q_halt": 0.4597333333333333,
+     "P_loss": 0.3425013333333333,
+     "P_G3": 0.08554493945208333,
+     "indep": 0.04017785985182667,
+     "full": 0.3425013333333333,
+     "pos": 0.3526551793483693,
+     "q_lossD": 0.3660333333333333,
+     "P_G3_D": 0.14381666666666668,
+     "pos_D": 0.5352455895416869
+    },
+    "region": {
+     "q_halt": 0.5515722222222222,
+     "P_loss": 0.41092130555555556,
+     "P_G3": 0.06711690689791666,
+     "indep": 0.06938665920250428,
+     "full": 0.41092130555555556,
+     "pos": -0.018698210886374786,
+     "q_lossD": 0.45364444444444446,
+     "P_G3_D": 0.08283333333333333,
+     "pos_D": -0.07565396377407542
+    },
+    "world": {
+     "q_halt": 0.46118888888888887,
+     "P_loss": 0.3435857222222222,
+     "P_G3": 0.04072223050208333,
+     "indep": 0.04056068912167743,
+     "full": 0.3435857222222222,
+     "pos": 0.0018603054542957358,
+     "q_lossD": 0.36786111111111114,
+     "P_G3_D": 0.05055,
+     "pos_D": 0.007678191923900984
+    }
+   },
+   "Dstar0.9_sg1.0": {
+    "country": {
+     "q_halt": 0.5036888888888889,
+     "P_loss": 0.3752482222222222,
+     "P_G3": 0.08835669610208333,
+     "indep": 0.05283916308134958,
+     "full": 0.3752482222222222,
+     "pos": 0.2622660522645776,
+     "q_lossD": 0.4182611111111111,
+     "P_G3_D": 0.15045,
+     "pos_D": 0.4134825693990004
+    },
+    "region": {
+     "q_halt": 0.5797055555555556,
+     "P_loss": 0.4318806388888889,
+     "P_G3": 0.07790219895,
+     "indep": 0.08055475951850845,
+     "full": 0.4318806388888889,
+     "pos": -0.019939718265405332,
+     "q_lossD": 0.49482777777777776,
+     "P_G3_D": 0.11111666666666667,
+     "pos_D": -0.06150140723350471
+    },
+    "world": {
+     "q_halt": 0.5054611111111111,
+     "P_loss": 0.3765685277777778,
+     "P_G3": 0.052982316483333326,
+     "indep": 0.05339886932957993,
+     "full": 0.3765685277777778,
+     "pos": -0.004009278419211429,
+     "q_lossD": 0.421,
+     "P_G3_D": 0.07411666666666666,
+     "pos_D": -0.0038997455394514787
+    }
+   },
+   "Dstar0.95_sg0.5": {
+    "country": {
+     "q_halt": 0.33171666666666666,
+     "P_loss": 0.24712891666666667,
+     "P_G3": 0.054291712962499995,
+     "indep": 0.015092830547947179,
+     "full": 0.24712891666666667,
+     "pos": 0.45790185264210786,
+     "q_lossD": 0.2592388888888889,
+     "P_G3_D": 0.08846666666666667,
+     "pos_D": 0.6018074295392711
+    },
+    "region": {
+     "q_halt": 0.4133,
+     "P_loss": 0.3079085,
+     "P_G3": 0.021425861335416664,
+     "indep": 0.02919207956719293,
+     "full": 0.3079085,
+     "pos": -0.131286587426445,
+     "q_lossD": 0.33397777777777776,
+     "P_G3_D": 0.021016666666666666,
+     "pos_D": -0.26096792630838667
+    },
+    "world": {
+     "q_halt": 0.3347611111111111,
+     "P_loss": 0.24939702777777778,
+     "P_G3": 0.015237240081249999,
+     "indep": 0.015512215170732984,
+     "full": 0.24939702777777778,
+     "pos": -0.006439560108396649,
+     "q_lossD": 0.26139444444444443,
+     "P_G3_D": 0.017116666666666665,
+     "pos_D": -0.015848421435199937
+    }
+   },
+   "Dstar0.95_sg1.0": {
+    "country": {
+     "q_halt": 0.3758722222222222,
+     "P_loss": 0.28002480555555553,
+     "P_G3": 0.05806828807083333,
+     "indep": 0.021957834783547018,
+     "full": 0.28002480555555553,
+     "pos": 0.3820069092842545,
+     "q_lossD": 0.2991111111111111,
+     "P_G3_D": 0.09258333333333334,
+     "pos_D": 0.5141822241706829
+    },
+    "region": {
+     "q_halt": 0.44945555555555555,
+     "P_loss": 0.3348443888888889,
+     "P_G3": 0.03143929862083333,
+     "indep": 0.037543008961290564,
+     "full": 0.3348443888888889,
+     "pos": -0.08108502291482973,
+     "q_lossD": 0.36846666666666666,
+     "P_G3_D": 0.0367,
+     "pos_D": -0.1551291461897862
+    },
+    "world": {
+     "q_halt": 0.3762,
+     "P_loss": 0.280269,
+     "P_G3": 0.0218738127625,
+     "indep": 0.022015329602705108,
+     "full": 0.280269,
+     "pos": -0.0025349159905636628,
+     "q_lossD": 0.29895555555555553,
+     "P_G3_D": 0.02645,
+     "pos_D": -0.004189802087933629
+    }
+   }
+  },
+  "phi_by_distance_Dstar0.9": [
+   {
+    "lo": 0,
+    "hi": 250,
+    "n": 438,
+    "phi": 0.7595339037995757
+   },
+   {
+    "lo": 250,
+    "hi": 500,
+    "n": 725,
+    "phi": 0.3212071558658381
+   },
+   {
+    "lo": 500,
+    "hi": 1000,
+    "n": 2070,
+    "phi": 0.2586934386830827
+   },
+   {
+    "lo": 1000,
+    "hi": 2000,
+    "n": 4486,
+    "phi": 0.045995028144442236
+   },
+   {
+    "lo": 2000,
+    "hi": 4000,
+    "n": 5273,
+    "phi": -0.06654689395629379
+   },
+   {
+    "lo": 4000,
+    "hi": 8000,
+    "n": 3122,
+    "phi": -0.004510279662060252
+   },
+   {
+    "lo": 8000,
+    "hi": 20100,
+    "n": 23886,
+    "phi": -0.04610688341551762
+   }
+  ],
+  "p_halt_cell_Dstar0.9": 0.4394336356769786
+ },
+ "ref094": {
+  "indep_G3": 0.0044,
+  "full": 0.164,
+  "log_mid": 0.026862613424609307
+ }
+}

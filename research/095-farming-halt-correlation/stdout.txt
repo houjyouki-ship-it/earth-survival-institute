@@ -1,0 +1,13 @@
+cells 1956 countries 133
+H107a frac D>0.9 year2 0.421 peak 0.594 ; >0.75 y2 0.594 ; >0.5 y2 0.820
+H107b north30 1.000 south 0.668 diff 33.2 pts R2 0.34
+Dstar0.75_sg0.5 country: q 0.876 PG 0.3084 ind 0.27786 pos 0.12 | D: q 0.807 PG 0.6455 | region: q 0.854 PG 0.2701 ind 0.25765 pos 0.05 | D: q 0.791 PG 0.5421 | world: q 0.875 PG 0.2774 ind 0.27724 pos 0.0 | D: q 0.805 PG 0.5215
+Dstar0.75_sg1.0 country: q 0.861 PG 0.2931 ind 0.26358 pos 0.12 | D: q 0.792 PG 0.6097 | region: q 0.840 PG 0.2573 ind 0.24514 pos 0.05 | D: q 0.776 PG 0.5174 | world: q 0.860 PG 0.2633 ind 0.26339 pos -0.0 | D: q 0.792 PG 0.4960
+Dstar0.9_sg0.5 country: q 0.734 PG 0.2332 ind 0.16383 pos 0.29 | D: q 0.640 PG 0.4751 | region: q 0.713 PG 0.1821 ind 0.14990 pos 0.15 | D: q 0.628 PG 0.3617 | world: q 0.735 PG 0.1634 ind 0.16395 pos -0.0 | D: q 0.640 PG 0.2596
+Dstar0.9_sg1.0 country: q 0.745 PG 0.2319 ind 0.17096 pos 0.26 | D: q 0.661 PG 0.4758 | region: q 0.724 PG 0.1874 ind 0.15715 pos 0.14 | D: q 0.649 PG 0.3767 | world: q 0.745 PG 0.1707 ind 0.17116 pos -0.0 | D: q 0.661 PG 0.2873
+Dstar0.95_sg0.5 country: q 0.659 PG 0.2048 ind 0.11823 pos 0.39 | D: q 0.570 PG 0.4241 | region: q 0.637 PG 0.1548 ind 0.10670 pos 0.25 | D: q 0.557 PG 0.3235 | world: q 0.658 PG 0.1178 ind 0.11799 pos -0.0 | D: q 0.570 PG 0.1839
+Dstar0.95_sg1.0 country: q 0.676 PG 0.2071 ind 0.12781 pos 0.35 | D: q 0.591 PG 0.4268 | region: q 0.654 PG 0.1599 ind 0.11545 pos 0.23 | D: q 0.577 PG 0.3318 | world: q 0.676 PG 0.1275 ind 0.12771 pos -0.0 | D: q 0.591 PG 0.2045
+rain_popw {'country': (0.684, 0.2139, 0.13258, 0.36, 0.4427), 'region': (0.721, 0.1874, 0.15513, 0.15, 0.3913), 'world': (0.687, 0.1346, 0.13413, 0.0, 0.2245)} p_cell 0.677
+rain_south_popw {'country': (0.46, 0.0855, 0.04018, 0.35, 0.1438), 'region': (0.552, 0.0671, 0.06939, -0.02, 0.0828), 'world': (0.461, 0.0407, 0.04056, 0.0, 0.0505)} p_cell 0.439
+irr main {'country': 0.2491, 'region': 0.1975, 'world': 0.1873}
+phi [(0, 250, 0.74), (250, 500, 0.59), (500, 1000, 0.4), (1000, 2000, 0.24), (2000, 4000, 0.13), (4000, 8000, -0.01), (8000, 20100, -0.05)] p 0.726

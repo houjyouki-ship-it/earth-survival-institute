@@ -1,0 +1,31 @@
+folder /Crop Yield/ None 
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_targets_03_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932064 https://osf.io/download/7z6s2/
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_ur_150_07_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932064 https://osf.io/download/k74h8/
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_targets_02_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932064 https://osf.io/download/9wxbr/
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_targets_04_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932064 https://osf.io/download/srmvh/
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_targets_05_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932200 https://osf.io/download/cyrej/
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_targets_01m03_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932200 https://osf.io/download/g29qy/
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_targets_01_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932064 https://osf.io/download/v28t4/
+  file /Crop Yield/clm5_crop_2deg_cpl_cntrl_03m03_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932200 https://osf.io/download/s2xkv/
+  file /Crop Yield/clm5_crop_2deg_cpl_nw_targets_01m02_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932200 https://osf.io/download/u85qa/
+  file /Crop Yield/clm5_crop_2deg_cpl_cntrl_03m02_0005-0019_yield_latlon_CLM5mask_6crops.nc 14932200 https://osf.io/download/s5pev/
+  file /Crop Yield/clm5_crop_2deg_cpl_cntrl_03_0005-0019_yield_latlon_CLM5mask_6crops.nc 13936940 https://osf.io/download/3gnrp/
+folder /Grass Production/ None 
+  file /Grass Production/clm5_crop_2deg_cpl_nw_ur_150_07_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/bf6g9/
+  file /Grass Production/clm5_crop_2deg_cpl_nw_targets_05_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/611ed44187c8f1016eb11a3d/
+  file /Grass Production/clm5_crop_2deg_cpl_nw_targets_03_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/611ed441d2109701576b4a54/
+  file /Grass Production/clm5_crop_2deg_cpl_nw_targets_02_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/v3p7j/
+  file /Grass Production/clm5_crop_2deg_cpl_nw_targets_04_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/611ed441d21097015d6b2ab2/
+  file /Grass Production/clm5_crop_2deg_cpl_nw_targets_01m03_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/611ed44b87c8f10174b12e9b/
+  file /Grass Production/clm5_crop_2deg_cpl_nw_targets_01m02_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/ydasg/
+  file /Grass Production/clm5_crop_2deg_cpl_nw_targets_01_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/ujz5y/
+  file /Grass Production/clm5_crop_2deg_cpl_cntrl_03m03_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/611ed4512dab240153263326/
+  file /Grass Production/clm5_crop_2deg_cpl_cntrl_03m02_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/mn25s/
+  file /Grass Production/clm5_crop_2deg_cpl_cntrl_03_0005-0018_yield_latlon_CLM5mask_C3-C4-LEAFC.nc 1660972 https://osf.io/download/2jrq6/
+folder /FAO data/ None 
+  file /FAO data/FAOSTAT_data_2013_CBS_world.csv 214372 https://osf.io/download/hmsxa/
+  file /FAO data/FAOSTAT_data_2013_protein_world.csv 20075 https://osf.io/download/hkqce/
+  file /FAO data/FAOSTAT_data_population-2013.csv 34308 https://osf.io/download/ut7kg/
+  file /FAO data/FAOSTAT_data_2013_protein_nation.csv 2463247 https://osf.io/download/5z62j/
+  file /FAO data/FAOSTAT_data_2013_CBS_nations.csv 15064018 https://osf.io/download/pfajv/
+  file /FAO data/FAOSTAT_data_allnations-calories-2013.csv 2919498 https://osf.io/download/pf4sa/
