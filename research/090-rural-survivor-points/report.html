@@ -1,0 +1,122 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究090：全世界の GeoNames の群の点に農村の人口と市から郡部への移動を入れる（open_problems 218＋221） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="090-geonames-open_problems-218221">研究090：全世界の GeoNames の群の点に農村の人口と市から郡部への移動を入れる（open_problems 218＋221）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>075 の群の点（生き残りの居場所）は Natural Earth の人口つきの地名だけで、農村の人口がない。089 で崩壊の直後に人は市から郡部へ動く（日本 1940→1947、市 0.856・郡部 1.245）と分かった。全世界を GeoNames にそろえ、農村と移動を入れると重い崩壊の TC/V0 と置き方の順位はどう動くか。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>087 の sim.py を「新しい点の集合」の前まで exec（075 の mesh35 と 084 の mesh35・pop@pt を差0で再現する assert を含む）。新しい関数 PT_s は NE の点と ppop で 075 の PT を完全に再現（assert）。新しい乱数なし（075 の UPT）。</li>
+<li>群の点：GeoNames cities1000 の全世界（PPLX を除く）154,895 点、A2 の 159 か国すべてに点あり。写しの場所は 074 の NE の点のまま。</li>
+<li>資料（本回取得、sources/ に保存し SHA256）：World Bank API の 2020 年の総人口 SP.POP.TOTL と農村人口の割合 SP.RUR.TOTL.ZS（https://api.worldbank.org/v2/country/all/indicator/SP.RUR.TOTL.ZS?format=json&amp;date=2020&amp;per_page=400 、158 か国が一致）。</li>
+<li>版：B_GN（人口に比例、農村なし）／R（主：国の重みを都市 u_c と農村 1−u_c に分け、農村の分を人口 1 万未満の点に等しく）／R_sqrt（pop^0.5）／R_all（全点に等しく）／M（R に都市 ×0.856・農村 ×1.245、089）／M2（倍率を2乗）／M_sqrt。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<p>【事実（出典：World Bank API、GeoNames）】GeoNames（PPLX 除く）の人口の合計は World Bank の総人口の 0.553 倍（国の中央値 0.669）。人口で重みづけた農村の割合は 0.433。</p>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>農村の重みの割合</th>
+<th>mesh35 重い崩壊 TC/V0</th>
+<th>写しに届かない群の割合</th>
+<th>35→200 の上げ幅</th>
+<th>τ（075 比）</th>
+<th>最良</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>075（NE の点）</td>
+<td>0</td>
+<td>0.6801</td>
+<td>—</td>
+<td>+0.0488</td>
+<td>1</td>
+<td>mesh35</td>
+</tr>
+<tr>
+<td>B_GN</td>
+<td>0</td>
+<td>0.6760</td>
+<td>0.690</td>
+<td>+0.0452</td>
+<td>0.87</td>
+<td>mesh35</td>
+</tr>
+<tr>
+<td>R（主）</td>
+<td>0.423</td>
+<td>0.6694</td>
+<td>0.738</td>
+<td>+0.0436</td>
+<td>0.87</td>
+<td>mesh35</td>
+</tr>
+<tr>
+<td>R_sqrt</td>
+<td>0.423</td>
+<td>0.6708</td>
+<td>—</td>
+<td>+0.0441</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>R_all</td>
+<td>0.423</td>
+<td>0.6696</td>
+<td>—</td>
+<td>+0.0435</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>M（主の移動）</td>
+<td>0.500</td>
+<td><strong>0.6668</strong></td>
+<td>0.746</td>
+<td>+0.0465</td>
+<td>0.69</td>
+<td>mesh35</td>
+</tr>
+<tr>
+<td>M2</td>
+<td>0.578</td>
+<td>0.6670</td>
+<td>—</td>
+<td>+0.0438</td>
+<td>0.73</td>
+<td>mesh35</td>
+</tr>
+<tr>
+<td>M_sqrt</td>
+<td>0.500</td>
+<td>0.6676</td>
+<td>—</td>
+<td>+0.0450</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【推測】点の細かさ（−0.004）、農村（−0.007）、移動（−0.003）を合わせて 075 から −0.013。版の幅 0.6668〜0.6708 で、農村の配り方より「農村を入れるか」が効く。移動を2乗にしても動かない（0.6670）。</li>
+<li>最良の置き方はすべての版で mesh35、2位は pop@pt。M で順位が入れ替わったのは下位（cover1500@cty が最下位へ）で、τ 0.69。</li>
+</ul>
+<h2 id="_4">仮説の判定</h2>
+<ul>
+<li>確認的（資料の取得前に登録）：H102a 支持（0.553 &lt; 0.8）、H102b 支持（0.433）。</li>
+<li>予測：H102c 支持（−0.0041）、H102d 支持（0.0066）、H102e 支持（−0.0026）、H102f 棄却（τ 0.689 で 0.7 にわずかに届かず、最良は mesh35 のまま）、H102g 棄却（+0.0465 &lt; +0.0488）。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li>写しの場所は NE の点（大きな町）のままなので、農村に生き残りを足すと届かない群が増えるのは作りの上で当然。農村に写しを置く置き方（GeoNames の点の上で網目を作り直す）はまだ比べていない（新規 223）。</li>
+<li>農村の分を人口 1 万未満の点に等しく配るのは代用。小さな点の密度は国の地名の登録の熱心さに左右される（GeoNames/WB の比が国で 0.67 の中央値でばらつく）。格子の人口（GHSL など）との比較は残す（195・218 の残り）。</li>
+<li>089 の倍率は日本の1局面（市町村の境の変化と戻りを含む）を全世界に当てた。M2 でも結果は同じなので、倍率の不確かさは結論を動かさない。</li>
+<li>【独自仮説】点の模型の欠けは重い崩壊の TC/V0 を約 0.01 押し下げるが、置き方の判断（網目＞人口の大きい点＞地域ごと）は変えない。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>冊子を配る運営者は、置き方は網目の 35 か所のままでよい。本研究所は重い崩壊 mesh35 の主の値を 0.680 から 0.667（版 0.667〜0.671）に改め、次は写しを小さな町にも置ける網目（223）を比べる。</p>
+<h2 id="_7">成果物</h2>
+<p>sim.py（約576秒）、results.json、stdout.txt、fig_rural_points.png、PREREGISTRATION.md（2026-10-22T06:40Z、World Bank の取得の前）、sources/（wb_*.json、fetch.sh、fetch_time.txt、SHA256SUMS.txt）。</p><footer><hr><small>自動生成</small></footer></body></html>

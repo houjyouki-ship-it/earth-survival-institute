@@ -1,2 +1,3 @@
 6a312d5bb994caa6f5cff8e64f8041a73a2efcd40833acbc2b1ceeb10cb8cc60  wb_SP.POP.TOTL.json
 697ebaa0b365d1ece764e01d27108025b2429727b321c15ff0ae24e82babd8be  wb_SP.RUR.TOTL.ZS.json
+ac6201f1bd1ed64cdf29da7434598044b9d81348c79d93844a3925f823c327b4  ../087-geonames-target-loss/sources/cities1000.txt

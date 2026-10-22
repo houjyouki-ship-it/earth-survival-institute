@@ -1329,4 +1329,16 @@
 <li>判定（分類つき）：確認的 H101a 支持、H101b 棄却、H101c 検定できず。予測 H101d 支持。</li>
 <li>逸脱：局面を 1940→1945 から 1940→1947 に置き換え（戻りを含む）。表(1) は東日本と中部のみ。ドイツは記述。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：冊子を配る運営者は崩壊の直後に人が郡部へ動くと見込み、中小の町の網目を保つ（置き方の判断は不変）。本研究所は e の主を 0.66〜0.85 の幅とし、β の線を閉じて農村の点（218＋221）へ移る。</li>
+</ul>
+<h2 id="90-2026-10-22jst-1516">第90回 2026-10-22（JST 15〜16時台）</h2>
+<ul>
+<li>主課題：next_plan の推奨 A ＝ open_problems 218＋221（全世界の GeoNames の群の点に農村と市から郡部への移動を入れる）。固定の節は残した。核の標的・図書館・β の系列には戻っていない。</li>
+<li>再現チェック：090 の sim.py は 087 の sim.py を exec（075 の mesh35 と 084 の mesh35・pop@pt の差0の assert を含む）し、新しい関数 PT_s が NE の点で 075 の PT と完全一致することを assert。</li>
+<li>文献・データ（本回取得、sources/ に保存し SHA256）：World Bank API 2020 の SP.POP.TOTL と SP.RUR.TOTL.ZS（https://api.worldbank.org/v2/country/all/indicator/SP.RUR.TOTL.ZS?format=json&amp;date=2020&amp;per_page=400 、HTTP 200、158 か国が一致）。GeoNames cities1000 は 087 のもの。</li>
+<li>研究090：<code>research/090-rural-survivor-points/</code>（sim.py 約576秒、新しい乱数なし、計算のみ）。成果物は results.json、stdout.txt、fig_rural_points.png、report.md、PREREGISTRATION.md（2026-10-22T06:40Z、World Bank の取得の前・sim.py の前）、sources/。</li>
+<li>方法：群の点を全世界の GeoNames（PPLX 除く 154,895 点）にし、国の重みを都市 u_c と農村 1−u_c に分けて農村の分を人口 1 万未満の点に配り（版：pop^0.5、全点）、089 の市 ×0.856・郡部 ×1.245（2乗の版も）で移動を入れた。</li>
+<li>主要数値：GeoNames/WB の人口 0.553、農村の割合 0.433。重い崩壊 mesh35 TC/V0 は B_GN 0.6760、R 0.6694、M <strong>0.6668</strong>（版 0.6668〜0.6708、075 0.6801）。写しに届かない群 0.690→0.746。35→200 は +0.044〜0.047（075 +0.049）。最良は全版で mesh35、τ（075 比）B_GN・R 0.87、M 0.69、M2 0.73。</li>
+<li>判定（分類つき）：確認的 H102a・b 支持。予測 H102c・d・e 支持、H102f（τ 0.689）・H102g 棄却。</li>
+<li>逸脱：GeoNames の点が A2 の全 159 か国にあり、登録の「点のない国は NE を残す」は使われなかった。M_sqrt は登録外の版（記述）。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：冊子を配る運営者は網目の 35 か所の置き方を変えなくてよい。本研究所は重い崩壊 mesh35 の主を 0.667 に改め、写しを小さな町にも置ける網目（223）へ移る。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
