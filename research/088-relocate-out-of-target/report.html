@@ -1,0 +1,125 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究088：標的の国で写しを標的の外の町へ移す案（open_problems 219、核の標的の系列を閉じる1回） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="088open_problems-2191">研究088：標的の国で写しを標的の外の町へ移す案（open_problems 219、核の標的の系列を閉じる1回）</h1>
+<blockquote>
+<p><strong>注</strong>：TC/V0 は生存確率でも復興確率でもない（060〜087 の模型の中の価値の比）。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>事前登録：PREREGISTRATION.md（2026-10-22T02:40Z、sim.py の前）。入力はすべて既知なので確認的な仮説はなく、H100a〜e は計算の前の予測。</li>
+<li>資料：新しい取得なし。087 の GeoNames cities1000（087 の sources/、出典 https://download.geonames.org/export/dump/ ）と 084 の targets.json を使った。</li>
+<li>sim.py：087 の sim.py を「新しい点の集合」の前まで exec（075 の exec と、075・084 を差0で再現する assert を含む）。写しの座標を配列で受ける counts_c を書き、移さない版で 087 の mesh35・mesh200 の B0・CS と mesh35_CS_Rd25 を <strong>差0</strong> で再現（assert）。新しい乱数なし。</li>
+<li>移し方（主）：xia150・xia47 のどちらかの標的から 10 km 以内にある写しを、同じ国で元の場所から R_max=200 km 以内、全標的から R_buf=10 km の外にある GeoNames の地名のうち人口最大のところへ、崩壊の前に移す。移した写しは核のない地理（pop）でも新しい場所にある。版：R_max 50・100 km、最も近い地名（nearest）、R_buf 25 km（R_d 25 km の損と組）、mesh200。</li>
+</ul>
+<h2 id="tcv0mesh35">結果（重い崩壊 TC/V0、mesh35）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>区域内の写し→移した</th>
+<th>移す距離の中央値</th>
+<th>移した先の人口の中央値</th>
+<th>087 の損</th>
+<th>移した得（net）</th>
+<th>取り戻した割合</th>
+<th>核のない世界での変化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>主（200 km・最大）</strong></td>
+<td>13→12</td>
+<td>137 km</td>
+<td>16.4万</td>
+<td>0.0131</td>
+<td><strong>+0.0109</strong></td>
+<td>83%</td>
+<td>−0.0019</td>
+</tr>
+<tr>
+<td>100 km・最大</td>
+<td>13→12</td>
+<td>65 km</td>
+<td>14.4万</td>
+<td>0.0131</td>
+<td>+0.0123</td>
+<td>93%</td>
+<td>−0.0010</td>
+</tr>
+<tr>
+<td>50 km・最大</td>
+<td>13→12</td>
+<td>33 km</td>
+<td>9.9万</td>
+<td>0.0131</td>
+<td>+0.0131</td>
+<td>100%</td>
+<td>−0.0003</td>
+</tr>
+<tr>
+<td>nearest</td>
+<td>13→12</td>
+<td>17 km</td>
+<td>1.8万</td>
+<td>0.0131</td>
+<td>+0.0131</td>
+<td>100%</td>
+<td>−0.0005</td>
+</tr>
+<tr>
+<td>R_buf 25（R_d 25 の損に対して）</td>
+<td>14→13</td>
+<td>124 km</td>
+<td>16.1万</td>
+<td>0.0144</td>
+<td>+0.0119</td>
+<td>83%</td>
+<td>−0.0024</td>
+</tr>
+<tr>
+<td>mesh200 主</td>
+<td>71→70</td>
+<td>124 km</td>
+<td>13.9万</td>
+<td>0.0203</td>
+<td>+0.0174</td>
+<td>86%</td>
+<td>−0.0038</td>
+</tr>
+<tr>
+<td>mesh200 50 km</td>
+<td>71→60</td>
+<td>35 km</td>
+<td>6.8万</td>
+<td>0.0203</td>
+<td>+0.0201</td>
+<td>99%</td>
+<td>−0.0003</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>移せなかった写しは mesh35 で 1 部（xia150 で 2.9% が残って失われる）。</li>
+<li>主の移し先で、損の区域を 25 km に広げると（登録外の記述）得は +0.0081 に縮む。</li>
+<li>35→200 の上げ幅：087 の CS +0.040 → 両方を移すと +0.047（087 の喪失のない B0 の +0.048 とほぼ同じ）。</li>
+</ul>
+<h2 id="_2">仮説の判定（すべて予測）</h2>
+<ul>
+<li>H100a（主の net ≥ +0.005）：+0.0109 で <strong>支持</strong>。</li>
+<li>H100b（核のない世界の損 ≤ 0.002）：−0.0019 で <strong>支持</strong>（境界に近い）。</li>
+<li>H100c（50 km でも net ≥ +0.003）：+0.0131 で <strong>支持</strong>。</li>
+<li>H100d（MV の 35→200 ≥ +0.040）：+0.047 で <strong>支持</strong>。</li>
+<li>H100e（nearest と主の差 ≤ 0.002）：+0.0022 で <strong>棄却</strong>（近くへ移すほど良い）。</li>
+</ul>
+<h2 id="_3">批判的な検討</h2>
+<ul>
+<li>この得は模型の定義からほぼ自明の部分が大きい。標的は「国ごとに人口の多い地名の順」という決まった仮定で、損は「標的から R_d 以内なら 0 部」。その円の外へ出せば守れるのは当然で、新しく分かったのは大きさだけ：損 0.013 のほぼ全部が近く（17〜33 km）への移動で取り戻せ、遠くの大きな町へ移すと核のない世界で 0.002 前後を失う。</li>
+<li>084 の「標的を避けても得はほぼ0」は撤回する。原因は NE の粗い点で、標的の国では避け先が国の外しかなかったこと（086・087 と同じ構造）。</li>
+<li>現実の標的の選び方（軍の施設、都市圏全体への複数の弾頭）、火災・放射性降下物、崩壊後の略奪は入れていない。近くへ移す版は R_d 25 km では守れない（R_buf 10 km は 10 km の区域に合わせた）。「近い郊外で十分」は R_d の仮定に強く依存する【推測】。</li>
+<li>得の大きさ（mesh35 で約 +0.011〜0.013）は、35→200 部の上げ幅（+0.047）の約 1/4。置き場所を動かすのは部数を増やす費用より安い可能性が高いが、本研究では費用を計算していない【推測】。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>冊子を配る運営者：核の標的の国では、首都・最大都市の中心の図書館ではなく、同じ地域の数十 km 離れた中規模の町（大学町など）の館に置く。模型の中では損 0.013 のほぼ全部を取り戻し、核のない世界での損は 0.0005 以下。部数を増やす判断より優先度は低いが、追加の費用はほぼ 0 と見込まれる【推測】。</li>
+<li>本研究所：084 の「標的を避けても得なし」を撤回し、核の標的の系列（084〜088）はこれで閉じる。</li>
+</ul>
+<h2 id="_5">成果物</h2>
+<p>sim.py（約810秒、うち先行研究の読み込みと検査 約700秒）、results.json、stdout.txt、fig_relocation.png、PREREGISTRATION.md。</p><footer><hr><small>自動生成</small></footer></body></html>
