@@ -1,0 +1,1021 @@
+                                                                                                   doi:10.1111/disa.12014
+
+
+
+
+The role of evidence in humanitarian
+assessment: the Seed System Security
+Assessment and the Emergency Market
+Mapping and Analysis
+Karri Goeldner Byrne, Julie March, Shawn McGuire, Laura Meissner, and
+Louise Sperling1
+
+This paper reviews advances in the development and use of two evidence-based assessment toolkits:
+the Seed System Security Assessment (SSSA) and the Emergency Market Mapping and Analysis
+(EMMA). Both were created in the past five years and have been employed in a range of acute
+and chronic stress contexts across Africa, Asia, and parts of the Americas, in periods of civil strife,
+displacement, and drought, as well as following earthquakes, flooding, and political instability.
+The aims of this paper are threefold: to review advances with regard to each tool; to compare
+how each toolkit gathers and uses evidence, while considering possibilities for greater comple-
+mentarity; and to reflect on the nature of ‘evidence’ used to guide humanitarian response in
+sudden-onset and chronic crisis situations. A comparison highlights the importance of triangula-
+tion and informed analysis for drawing conclusions from imperfect evidence, understanding the
+limitations of each assessment methodology, and confronting tacit assumptions.
+
+Keywords: assessment, emergency, evidence, Haiti earthquake, markets, seed
+security, seed systems, toolkits, value chains
+
+
+
+
+Introduction
+Meeting humanitarian needs is the primary goal of disaster response. Yet, owing to
+growing need and recurring disasters, there is also pressure to ensure that responses
+increase resilience by supporting and strengthening local systems, facilitate the tran-
+sition to development objectives (Buchanan-Smith and Maxwell, 1994), and, above
+all, meet the humanitarian imperative to ‘do no harm’ (The Sphere Project, 2004),
+including harm to longer-term recovery (The SEEP Network, 2009). While the
+humanitarian community has long espoused the benefits of supporting local capacity
+(Smillie, 2001), to do so requires an understanding of the context, particularly of
+local systems. Only in the past few years, however, have assessment methodologies
+been formalised to inform properly this sort of response (Maxwell et al., 2013). Among
+other features, assessment tools now include in their scope local market systems, to
+enable a more robust analysis of post-disaster constraints and response options.
+   This paper describes and compares two methodological toolkits: the Seed System
+Security Assessment (SSSA) and the Emergency Market Mapping and Analysis
+(EMMA). These toolkits gather evidence on how systems (seed systems or market
+
+Disasters, 2013, 37(S1): S83−S104. © 2013 The Author(s). Journal compilation © Overseas Development Institute, 2013
+Published by John Wiley & Sons Ltd, 9600 Garsington Road, Oxford, OX4 2DQ, UK and 350 Main Street, Malden, MA 02148, USA
+S84   Karri Goeldner Byrne et al.
+
+
+
+      systems, respectively) respond to crises, in order to identify disaster response actions
+      that address key constraints, enhance the capacities of systems to meet demand, and
+      support longer-term development goals. The aims of this paper are threefold:
+
+      • to review the advances of each tool in their respective, fast-moving fields;
+      • to compare how each toolkit gathers and uses evidence, considering possibilities
+        for greater complementarity; and
+      • to reflect on the nature of ‘evidence’ as it applies to informing humanitarian re-
+        sponse in sudden-onset and chronic crisis situations.
+
+         Humanitarian donors respond to scores of disasters every year, often deciding under
+      immense time pressure which interventions to support. For these decision-makers,
+      timely and accurate assessments are required to inform the best response (Maxwell and
+      Watkins, 2003). Although commonly-used tools exist for assessing acute humanitar-
+      ian needs in some sectors (such as health; see WHO, 1999), approaches for analysing
+      entire systems are less well-established. The SSSA and EMMA were designed to fill this
+      methodological gap, and are now deployed regularly to guide response. The Office of
+      U.S. Foreign Disaster Assistance, United States Agency for International Development
+      (USAID), is a principal funder of both initiatives.
+         The SSSA was designed to ensure that post-disaster agricultural assistance responded
+      to the actual rather than the assumed need of beneficiary populations. Seed aid has
+      been widely used in disaster response and recovery and it has had a benign image
+      among humanitarian practitioners (Sperling and McGuire, 2010a). However, past
+      practice of seed aid fell short on numerous counts, partly because humanitarian part-
+      ners lacked the tools to identify specific seed security needs. Tools exist to estimate
+      crop production, notably the joint United Nations (UN) World Food Programme
+      (WFP) and Food and Agriculture Organization (FAO)’s Crop and Food Supply
+      Assessment Missions (CFSAM), but they do not provide a detailed assessment of seed
+      systems. Rather, generally they start with an assumption that seed is needed, and
+      then focus on quantifying this assumed need (see, for example, FAO, 1998; Hughey,
+      Bell, and Chatman, 2012). Often, seed aid has been supplied simply because food
+      need was identified—even though food and seed security are quite different (McGuire
+      and Sperling, 2011). For instance, households may easily source the seed quantities
+      needed to sow a plot, even when they lack sufficient food stocks to sustain them
+      through the ‘hunger season’. Assumed needs help to explain why it is common to
+      find communities that have received seed assistance in multiple seasons in response to
+      recurrent disasters, with minimal positive impact on household seed security (Sperling,
+      Cooper, and Remington, 2008).
+         Without an understanding of the system, poorly designed seed interventions had
+      the real potential to do harm. Late delivery and maladapted seed were directly harm-
+      ful, wasting farmers’ land and labour resources (ODI, 1996). Further field evalu-
+      ations showed that repeated aid was fostering farmer dependency, undermining
+      local and commercial seed markets, and changing crop profiles (Sperling, Cooper, and
+                                   The role of evidence in humanitarian assessment: the SSSA and EMMA   S85
+
+
+
+Remington, 2008). In contrast, assistance that supports existing seed systems, and
+meets farmers’ needs, can hasten agricultural recovery, increasing the potential for
+lasting benefits.
+    The SSSA was developed through an initial collaboration of the International
+Center for Tropical Agriculture and Catholic Relief Services. It identifies how farm-
+ers source seed, and the market linkages that have been affected by the disaster. Then
+it determines how to jumpstart and sustain variable agricultural systems—while min-
+imising error (in responses or in assessment). The SSSA essentially targets issues
+within the farming/seed system that weaken household-level seed security, both in
+the midst of a crisis and on the path to recovery.
+   EMMA was developed for similar reasons: humanitarian actors realised that unin-
+formed market-led responses, such as proposing cash or local purchase when local
+supply was insufficient, could cause more harm than good (Nourse et al., 2006; Harvey,
+2007; The SEEP Network, 2009; CaLP, n.d.). A growing body of evidence recognised
+that emergencies had serious economic consequences (see, for example, Saperstein
+and Campbell, 2008, Zhang, Lindell, and Prater, 2009; Jaspars and O’Callaghan,
+2010), yet there were few tools available to assess and understand rapidly markets in
+these settings (Albu and Murphy, 2007). An assessment tool offering a quick ‘snap-
+shot’ of critical market systems was needed to help humanitarian decision-makers
+comprehend which market systems could be used in the response, which might need
+support to ensure the recovery of communities, and which would have to be circum-
+vented temporarily in order to supply critical goods and services. Other tools, such as
+CARE’s Market Information and Food Insecurity Response Analysis (MIFIRA),
+also seek to answer the question of how well local markets are functioning after a
+crisis and what role they might play in the recovery (Sivakumaran, 2011). However,
+MIFIRA has pre-defined responses and relies on specialist staff to implement the
+assessment, taking a different approach than EMMA to balancing the trade-offs between
+quality, timing, and resources in gathering post-emergency data.
+   EMMA answers questions on both immediate emergency response (market sys-
+tems critical to survival) and livelihoods (market systems vital for earning income).
+It poses the following questions:
+
+• Is the market system currently functioning (can supply meet demand)? If not, could
+  it be made to do so relatively quickly?
+• How did beneficiaries typically interact with this market (as producers, consum-
+  ers, labourers)?
+• Can they do so now post disaster, and what support (such as cash or vouchers,
+  livelihoods inputs) might they need to participate again?
+
+   The next two sections of the paper examine the history and the methods of the
+SSSA and EMMA, as well as the use of evidence by and the challenges facing these
+tools. The fourth section compares and analyses both their approach to and their use
+of evidence.
+S86   Karri Goeldner Byrne et al.
+
+
+
+      The Seed System Security Assessment toolkit
+      The need for the SSSA
+      The SSSA was developed in 2008 to address a mismatch: simply, agricultural humani-
+      tarian response seemed at odds with the reality of farmers on the ground. Field
+      evaluations of stress contexts showed seed systems to be more resilient than ‘common
+      wisdom’ portrayed (Sperling, 2002; McGuire and Sperling, 2013). Despite civil
+      disruption and disasters, farmers generally kept some of their seed stocks, and, if
+      not, they could obtain seed from local markets (Longley, 1997; Sperling, 2002).
+      Furthermore, evaluations indicated that the dominant response, direct seed distri-
+      bution, frequently was inappropriate. In many disaster contexts, seed was available
+      in a region, but farmers had lost assets and their social networks were disrupted,
+      making it harder to buy or barter for seed. Hence, farmers needed aid to help them
+      access available seed (Sperling, Cooper, and Remington, 2008). Follow-up studies
+      also suggested that the effects of interventions (negative and positive) lasted several
+      seasons, so that even a one-off response was not really short term (Sperling, 2002).
+
+      Key questions, recognising dynamism
+      The SSSA toolkit was developed to help practitioners to target better their response
+      to specific seed security problems (Sperling, 2008). It asks two broad questions,
+      pertaining to the short and the medium term. On the demand side, do farmers have
+      seed available or can they access it? This also considers what types of seeds are needed
+      and preferred. On the supply side, do the seed supply channels function? This also
+      addresses issues of whether the seeds available are of the quantity and quality desired,
+      and whether the prices are within the realm of farmers’ ability to pay.
+         An understanding of farmers’ dynamism can help to answer these questions. Farmers
+      often adopt coping strategies to deal with immediate and enduring stresses. For instance,
+      when farmers lose their own stocks, frequently they turn to the market for seed
+                                                     (Sperling and McGuire, 2010b). Or, after
+      Figure 1. A typical scenario: increased        a drought, farmers may temporarily shift
+      market use post disaster, compensating         away from producing maize towards more
+      for diminished home stocks                     drought-resistant cassava. Thus, chang-
+                                                     ing practices do not necessarily signal a
+                                                     problem; what matters is whether farm-
+                                                     ers remain seed secure as their strategies
+                                                     change (Figure 1).
+
+                                                    Overview
+                                                    The SSSA focuses on the functioning of
+                                                    all seed systems used by farmers. They
+                                                    include formal channels (government min-
+                                                    istries, seed companies, perhaps relief agen-
+      Source: authors.                              cies), which supply modern varieties and
+                                          The role of evidence in humanitarian assessment: the SSSA and EMMA   S87
+
+
+
+Figure 2. Channels through which farmers procure seed
+
+
+
+
+Note: arrows indicate seed flows in ‘informal’ and ‘formal’ sectors.
+Source: adapted from Almekinders and Louwaars, 1999.
+
+
+certified seed, as well as informal channels (farmers’ own harvests, barter networks,
+or local markets), which provide farmers with a range of varieties (modern, new local,
+traditional local) and seed of varying quality. Farmers draw on both formal and
+informal seed systems. In southern Africa, for example, small farmers may procure
+hybrid maize seed from commercial companies, bean seed from their own harvest
+or local markets, and cassava cuttings from neighbours (CIAT et al., 2011a).
+   Figure 2 presents one of the classic mappings of seed system channels. Understanding
+how the systems operate normally is critical to comprehending whether and how
+channels are functioning post disaster. It is this understanding that enables practi-
+tioners to craft appropriate responses. For instance, during the response to the Haiti
+earthquake of 2010, humanitarian agencies discovered to their concern that many
+farmers had eaten all of their bean seed. However, Haitian farmers routinely con-
+sume or sell their bean stocks for quick income, then buy replacement seed (CIAT
+et al., 2010).
+   The SSSA differs from most other agriculturally-focused assessment tools, such as
+the CFSAM, which tally possible seed need. Rather, the SSSA assesses the seed system.
+Attaining seed security means supporting the systems that give farmers ongoing
+access to seed of the crops and varieties they require. Seed security issues must be
+framed within the broader context of cropping and livelihood systems that shape
+farmers’ vulnerability and resilience. Farmers strategically choose crops and varieties
+to meet different goals and mould their portfolios over seasons and years. The SSSA
+S88   Karri Goeldner Byrne et al.
+
+
+
+      aims to understand these processes, and therefore it goes beyond a snapshot of current
+      needs to analyse trends and the ability of seed supply channels to respond to them in
+      the future.
+
+      The nature of the evidence and the SSSA
+      A short SSSA takes about two weeks to complete (four to five days per site), with
+      evidence collected from three or four diverse sites in a region. SSSAs work through
+      partners (government, non-governmental organisations (NGOs), and UN agencies)
+      that are engaged themselves in seed-related activities and committed to enhancing
+      understanding of seed systems. Table 1 summarises the types of evidence and methods
+      used, drawing on a 2011 Kenya assessment (CIAT et al., 2011b). SSSA methods include
+      a two-day training for the assessment team on key concepts in seed security, past
+      research on seed aid, and on using the research instruments. Background informa-
+      tion and analyses are discussed prior to field assessment. Guide questions are used for
+      all key informants (agro-enterprise specialists, merchants, officials, seed dealers) and
+      focus groups, with reports generated and discussed daily among the team. Structured
+      surveys are used for households, and seed market actors; rapid data-entry into spread-
+      sheets enables discussion of emerging findings among the members of the field
+      team—and further refinement of questions (see below). Although sample sizes vary
+      with the size of the team, it is not unusual for 100 households and 20 market actors
+      to be surveyed per site, along with 15–20 key-informant interviews and several large
+      focus-group discussions. Several points about the evidence are notable:
+
+      • Multiple actors: evidence is garnered from multiple actors, each with vested inter-
+        ests. All have insight into seed security but may hold divergent philosophies on how
+        that security might be achieved (such as modern varieties or more local varietal
+        diversity) and whose needs should take precedence (such as commercial farmers
+        or poor women). Key to interpreting the evidence is to acquire ‘enough’ data
+        from each group (for example, to understand primary trends in crop/variety use,
+        or why a past development initiative failed), and to comprehend the agendas that
+        shape informants’ data.
+      • Local and regional: demand is local, but supply may not be. For instance, seed
+        available in a particular stress zone may be locally procured (from own harvests),
+        but it could also come from similar agro-ecological zones in other areas via regional
+        or cross-border trade (CIAT et al., 2011b). The SSSA has started to use geographic
+        information system (GIS) tools to match traders’ seed-sourcing patterns (where
+        do the seeds originate?) with zones of crop adaptability (can traders’ supplies be
+        planted successfully?). The evidence crosses geographical zones to project beyond
+        actual local supply—that is, potential supply.
+      • Variation: this is critical for analysing seed security in high-stress contexts. Farmers’
+        strategies for raising yields and incomes can vary considerably, in terms of crops
+        and varieties chosen, planting dates, and seed-sourcing strategies. In fluctuating
+        agricultural contexts, a general overall assessment can only inform ‘one-size-fits-all’
+                                                  The role of evidence in humanitarian assessment: the SSSA and EMMA     S89
+
+
+
+  responses, when what farmers require are responses they can tailor to their agro-
+  nomic needs. Hence, SSSA household surveys provide critical evidence, as they
+  measure hundreds of farmers’ actual practices. These responses are always disaggre-
+  gated by gender of household head and size of cultivated area (a rough proxy for
+  wealth), along with other factors where warranted, such as displaced versus resi-
+  dent households.
+• Across time: agricultural systems are rarely static; looking across seasons and
+  years is essential to understanding how the current stress fits into a pattern or trend.
+  Farmer focus groups detail changes over recent years, whereas household surveys
+  trace seed sourcing over two specific seasons.
+• Qualitative and quantitative: evidence at each level and for each actor combines
+  both qualitative and quantitative data. The quantitative data helps to counteract
+  bias and stereotypes: assumptions can be quite strong in stress periods, especially
+  among humanitarians whose long experience may lead to entrenched beliefs. The
+  qualitative data, meanwhile, helps to explain why the situation is as it is, and to
+  identify possible response options and pitfalls.
+
+Table 1. SSSA evidence and methods used*
+
+ Type of evidence                          Commentary
+
+ Background information collection         • Formal plant breeding, and formal sector seed supply: which varieties and
+                                             providers serve the area?
+                                           • Decentralised seed multiplication: who is already multiplying what—and
+                                             in what quantities? Any special seed producers?
+
+ Database utilisation                      • Government and public databases can provide information on crop area,
+                                             yields, livelihood zones, and indicators of vulnerability
+
+ Key informant interviews                  • Government and civil society personnel can highlight and comment on
+                                             agricultural trends, failed initiatives, and new possibilities
+
+ Focus-group discussions: community-       • Crop and variety use and trends; market possibilities
+ based; and women’s groups                 • Seed source strategies, by crop (now and five years ago)
+                                           • Women’s crop/seed constraints and opportunities
+                                           • Livelihood/coping strategies (those that work or do harm)
+
+ Farmer interviews: settled population;    • Seed source patterns: ‘last and next season’
+ and internally displaced persons (IDPs)   • Manure, fertiliser use, pesticide
+                                           • Seed aid and new variety access
+
+ Agro-dealer visits (seed companies’       • Seed types and other input supplies
+ headquarters and network chains)          • Business trends; constraints and opportunities
+
+ Seed/grain market analysis                • Crop and variety supplies on the market
+                                           • Sourcing areas and pricing patterns (multiple seasons)
+                                           • Seed quality management procedures
+                                           • GIS mapping of seed flows
+
+Note: * Example from eastern and coastal Kenya, 2011.
+S90   Karri Goeldner Byrne et al.
+
+
+
+      The toolkit: interacting with the evidence
+      Evidence is not self-explanatory. One has to be able to ‘read’ the evidence and then
+      draw conclusions from it. For the SSSA, reading the evidence entails at least three
+      processes: (i) understanding what might be invisible to a generalist; (ii) understanding
+      what may seem complex; and (iii) displaying the evidence.
+
+      Understanding what might be invisible to a generalist
+      SSSA instruments, such as question guides for trader interviews, have been developed
+      to help non-specialists identify who may be selling potential seed (grain that can be
+      planted) and to assist them in assessing its quantity, quality, and price. This is espe-
+      cially important for seed that, in local markets, may not be immediately distinguish-
+      able from food. These tools also help SSSA partners to comprehend that market
+      sourcing may be more common, and less haphazard, than they assumed hitherto.
+
+      Understanding what may seem complex
+      The SSSA supports the rapid analysis of quantitative data, including during the field-
+      work phase (see Figure 3). SSSA software generates dozens of output tables containing
+      a wide range of survey results (such as the supply channels used, sowing quantities
+      relative to the norm, reasons for sowing less or more, and access to new varieties—all
+      by crop). These are also differentiated by gender and land size. Exploring such outputs
+      with the team aids the analyst in reflecting on the latest qualitative and quantitative
+      data. This helps the team to develop (and query) its understanding of seed systems
+      and to further the iterative use of qualitative and quantitative evidence.
+
+      Displaying the evidence
+      Different actors demand different kinds of evidence; their relative emphasis will
+      shape future SSSAs. Donors and policymakers often seek ‘big numbers’ (that is, a lot
+      of data) to convince them of the appropriateness of a particular response option. Farming
+      communities, conversely, tend to find visual evidence more informative (Gladwin,
+
+      Figure 3. New software automates data analysis
+
+                             Data in . . .               . . . Analysis and tables automatically out
+
+
+
+
+      Source: authors.
+                                    The role of evidence in humanitarian assessment: the SSSA and EMMA   S91
+
+
+
+Peterson, and Mwale, 2002), so formats such as seed-source maps, and highly inter-
+active discussions, are more useful.
+
+Impact: targeted actions and policy change
+A short example highlights policy outcomes:2 the Zimbabwe SSSA (CIAT et al., 2009)
+took place when donors and NGOs were preparing to distribute seed and fertiliser to
+600,000 families (one-half of the farming population) in reaction to the near-worthless
+Zim currency, non-functioning formal seed stores (for maize), and the residual effects
+of a drought the year before. In contrast to this dim view, the assessment found that
+farmers generally were seed secure. Evidence supporting this conclusion included:
+(i) a relatively good harvest, 130 per cent above the previous year; (ii) robust social
+networks, which supplied between 18 and 38 per cent of the seed (depending on the
+crop); (iii) strong local markets; (iv) a vigorous unregulated market for hybrid maize
+seed; and (v) thriving local-level seed production, especially for legumes and sorghum.
+   The Zimbabwe SSSA concluded that massive direct seed aid to farmers actually
+would hurt recovery. It would compete with agro-dealers and short-circuit natural
+linkages between agro-dealers, farmers, rural traders, and seed houses. The SSSA
+recommended interventions to increase farmers’ purchasing power and to inject
+cash into local economies. Consequently, while 2008–09 saw USD 150 million spent
+on direct aid, the SSSA encouraged a transition to market-led responses (including
+input fairs, support for local enterprises, and vouchers) by 2010.
+
+
+
+The Emergency Market Mapping and Analysis toolkit
+The need for EMMA
+The responses to the Indian Ocean tsunami of 2004 and the South Asia earthquake
+of 2005 raised the profile of the potential of cash programming (Harvey, 2007).
+Prior to this, limited energy was invested in quantifying how relief goods affect local
+economies (Saperstein and Campbell, 2008), and the focus of livelihood responses
+was on the capacities of individuals, rather than on their potential to establish connec-
+tions with existing markets (Horst, 2006). The joint evaluation of the international
+response to the Indian Ocean tsunami (Cosgrave, 2007), however, recommended
+a change from in-kind to mostly cash responses, where the markets would allow,
+and highlighted that livelihoods programmes often were flawed owing to a lack of
+contextual knowledge. It also noted that funding decisions frequently were made
+arbitrarily, rather than on the basis of an assessment (Cosgrave, 2007).
+   Yet few resources existed for market analysis in emergencies in early 2007 (Albu
+and Griffith, 2005; Nourse et al., 2006; Saperstein and Campbell, 2008). Often this
+resulted in unintended negative consequences, putting at risk the ‘do no harm’
+imperative of humanitarian work. At the same time, new research (Collier, 2006)
+into the relationship between post-conflict societies, economic recovery, and the risk
+of recurrent conflict indicated that well-timed aid could encourage economic recovery
+S92   Karri Goeldner Byrne et al.
+
+
+
+      and reduce conflict risks. Humanitarians needed a way to determine quickly whether
+      local markets were functioning and whether local actors could help to provide effective
+      humanitarian responses. Emergency response programming could supply a platform
+      for high-quality transition and development programmes, or it could insert barri-
+      ers to moving towards stability (Albu and Griffith, 2005; Jaspars and O’Callaghan,
+      2010). A group of NGOs, including InterAction, the International Rescue Committee
+      (IRC), Practical Action, and Oxfam GB, developed EMMA in 2010 to meet this
+      information gap.
+
+      Overview of EMMA
+      EMMA is a toolkit for humanitarian staff in sudden-onset emergencies to understand
+      better and to make use of critical market systems—those that play, played, or could
+      play an essential role in the survival or the livelihoods of affected populations. As time
+      and resources usually allow for only a few assessments, critical markets must be carefully
+      selected for their importance as a relief item or income source. Examples of selected
+      markets include food staples such as rice, building materials such as bamboo poles or
+      corrugated iron, and income sources such as agricultural labour and cash crops.3
+        EMMA tools are adaptable, speed-oriented processes designed to reflect the infor-
+      mation constraints and urgency of decision-making after a sudden-onset emergency.
+      During an emergency, time is one of the greatest obstacles to adequate economic
+      analysis. The EMMA toolkit (Albu, 2010) draws from market analysis methodolo-
+      gies that have been simplified (Albu and Griffith, 2005), while still providing the
+      required technical rigour for reliable analysis and recommendations.
+         EMMA is composed of 10 iterative steps (see Table 2). These steps usually are com-
+      pleted in approximately two weeks. The desk review (Step 1) and sometimes market
+      selection (Step 2) may take place prior to deploying the team. Team training of
+      between one and three days typically includes Steps 2 (if not already completed), 3,
+      and 4. The EMMA toolkit provides sample interview guides and observational
+      questions, which the team adapts to the specifics of the emergency, market systems,
+      and geographical location. Steps 5–9 tend to happen concurrently and iteratively
+      throughout the assessment, as field teams conduct interviews and report back regularly
+      to the team leader. During this process, the market map (Step 6) is revised frequently,
+      and survey questions are adjusted to fill information gaps or to resolve conflicting
+      information. Step 10 has been the most challenging stage to date, as writing and
+      sharing of the findings (particularly analysis reports) have been delayed by EMMA
+      team members shifting their energies to the implementation of response activities.
+         EMMA answers questions on the functioning of the selected market system, its
+      potential for quick recovery, and the roles of various targeted groups within this
+      market. The food security and livelihoods field boasts multiple assessment and
+      monitoring tools; EMMA borrows from many of these, and also fills primary gaps.
+      In contrast to livelihoods assessments such as the Household Economy Analysis (FEG
+      Consulting and Save the Children, 2008), EMMA focuses on each market system
+      individually (although some markets are linked), allowing for a thorough analysis
+                                          The role of evidence in humanitarian assessment: the SSSA and EMMA       S93
+
+
+
+Table 2. The 10 steps of EMMA
+
+ Step 1: essential preparation    Background research on country, existing data sets, important crops, normal
+                                  coping mechanisms, emergency needs assessments
+
+ Step 2: market selection         Choose critical markets to be examined during assessment
+
+ Step 3: preliminary analysis     Draft rough household profiles, seasonal calendars, market maps, based on
+                                  Step 1 knowledge. Identify key stakeholders, potential survey locations,
+                                  other issues
+
+ Step 4: fieldwork preparation    Determine a plan for gathering information, develop surveys, informant ques-
+                                  tions, and information-gathering tools
+
+ Step 5: fieldwork activities     Conduct fieldwork: gather information from households, key informants, and
+                                  other sources, triangulate information, refine assumptions and maps daily
+
+ Step 6: mapping the market       Finalise baseline and emergency-affected market maps
+
+ Step 7: gap analysis             Use household profiles, needs assessments, and access constraints to clarify
+                                  the needs ‘gap’ faced by specific populations
+
+ Step 8: market analysis          Drawing on market maps, provide an analysis of the situation confronting
+                                  actors in the market system, describing specific constraints and opportunities
+
+ Step 9: response analysis        Make recommendations on the feasibility and the timing of various emergency
+                                  responses, and which actors should undertake them
+
+ Step 10: communicate results     Ensure that donors, government actors, NGOs, and local communities are aware
+                                  of the results of the assessment
+
+Source: adapted from Albu, 2010, p. 14.
+
+
+
+of the effects of the emergency on that market, rather than examining the broader
+issues facing a target community or group. In addition, unlike the Famine Early
+Warning Systems Network (FEWS NET), which monitors the prices and volumes
+of principal food commodities over time, EMMA seeks to analyse more deeply the
+networks of actors and the relationships involved in producing a given commodity,
+and links this analysis with a profiling of targeted beneficiaries.
+    EMMA is designed to be used within the first two-to-three weeks of a sudden-
+onset emergency. In practice, EMMA teams may struggle to complete the analysis;
+the situation is changing so quickly that the assessment never seems to be ‘done’.
+Since markets fluctuate and people restart economic activities soon after an emer-
+gency, the value of EMMA recommendations may decrease as time passes. However,
+it is a useful snapshot tool, and it can suggest what variables require continued monitor-
+ing throughout the recovery process. This market monitoring is especially important
+during evolving or complex crises, such as in the midst of ongoing conflict, which
+can rapidly affect supply, demand, and power concentration in critical markets.
+
+The nature of the evidence and EMMA
+How does EMMA gather evidence on the functioning of the selected market system,
+on its potential for quick recovery, and on the roles of various targeted groups within
+the selected market?
+S94   Karri Goeldner Byrne et al.
+
+
+
+      Baseline and post-disaster
+      To differentiate disaster-related disruptions from entrenched patterns, EMMA first
+      establishes an understanding of baseline market functions, then overlays post-disaster
+      features (Albu, 2010, pp. 75–114). This is done through interviews with key inform-
+      ants using recall, or using reliable pre-disaster market information from FEWSNet
+      or Household Economy Analysis (HEA) assessments, followed by interviews with
+      crisis-affected actors. The intention is to paint a rough pre-crisis picture to distinguish
+      between what is a genuine disaster effect (potentially requiring intervention) and what
+      may be inefficient, unfair, or unusual, but not necessarily problematic.
+
+      Gathering the evidence: what is ‘good enough’?
+      EMMA is designed to balance rigour with speed. Analysis relies on an iterative process
+      of constantly questioning available evidence: information received during the desk
+      review, data gathered from observation, and information obtained from a (neces-
+      sarily limited) number of interviews and surveys. Conflicting information must be
+      resolved; abnormal or unexpected data must be queried with common logic and exist-
+      ing knowledge.
+         This gives rise to a number of challenges in determining when information is
+      ‘good enough’ to constitute evidence. When should the EMMA team stop gather-
+      ing information on a particular actor or function of the market? Usually this is a
+      judgement call: incorrect assumptions may be drawn from insufficient evidence;
+      however, the team should not waste valuable time gathering information to support
+      already-established conclusions.
+         The EMMA toolkit includes sample market maps and Microsoft Excel-based graph-
+      ics to depict household income and expenditure patterns. These help the analysts to
+      visualise the data and to compare it with a range of other assessments, to see if it
+      follows established patterns. For example, several informants in an EMMA assessment
+      of the northern Sri Lanka rice market claimed that rice millers in provincial towns
+      captured the bulk of the profits; yet the large number of millers, their geographical
+      spread, and their ‘price-taker’ relationship with wholesalers contravened this allega-
+      tion (Meissner, 2011).
+         Technological tools, though, cannot substitute for the analyst’s judgement. The
+      process of triangulation helps to sort out opinion from fact; well-chosen key inform-
+      ants also can help to validate data and hypotheses (Albu, 2010). Thus, interview
+      sample sizes vary dramatically from one EMMA assessment to the next. Setting a
+      defined information agenda for the assessment also can help to clarify when strong,
+      detailed evidence is needed and when generalised information is acceptable.
+
+      Multiple actors, multiple perspectives
+      Like the SSSA, EMMA employs systems thinking. Humanitarians are comfortable
+      interacting with their traditional beneficiaries to understand their needs and con-
+      straints—but by doing so, they acquire only part of the picture (Locke and Byrne,
+                                             The role of evidence in humanitarian assessment: the SSSA and EMMA   S95
+
+
+
+Table 3. Sources of evidence collected by EMMA
+
+ Type of evidence                    Commentary
+
+ Background information collection   • Existing local livelihoods analyses
+                                     • Household data sets (government or international organisation)
+                                     • FEWS Net data on markets and livelihoods
+
+ Livelihoods analysis interviews     • Potential beneficiaries: women and men, those with vulnerabilities,
+                                       displaced and host community, different geographic areas, different
+                                       livelihood strategies
+
+ Key-informant interviews            • Government officials
+                                     • NGO, UN, donor staff
+                                     • Civil society personnel
+                                     • Other experts, including sector experts
+
+ Market-actor interviews             • Retailers, wholesalers, traders, importers/exporters, consumers
+                                     • Service providers (banks, microfinance institutions, transporters,
+                                       extension agents)
+                                     • Cooperatives or associations, government regulators
+
+ Observation                         • General market functioning—supply and demand
+                                     • State of critical infrastructure (roads, market stalls, fields)
+                                     • Market actors’ behavior (buying and selling)
+                                     • Retail prices for key goods
+
+Source: authors.
+
+
+2008; Byrne and Albu, 2009). As with seed aid, unconscious biases and assumptions
+are common within emergency responses. Some humanitarian actors distrust the
+private sector, particularly buyers and traders, assuming that these ‘middlemen’ control
+or exploit other market actors, even though this may not be the case (cf. Jones and
+Shaikh, 2005). Interviews with multiple actors clarify where they fit in the system,
+how well the market functions in terms of efficiency and price, and its potential to
+contribute to the recovery efforts.
+
+Assessing market governance and market power
+EMMA explicitly analyses power relations and control in the market system, through
+questions and guidance (Albu, 2010). These range from formal, explicit regulation
+(price controls, import tariffs) to informal, often ‘invisible’, control. There is unlikely
+to be ‘hard’ evidence of the latter. However, signals such as a low number of market
+actors fulfilling any one function (such as few importers of a key commodity) can
+indicate the ability to set prices or otherwise exert power, and potentially to be a
+bottleneck to response efforts.
+
+The toolkit: interacting with the evidence
+The evidence produced by an EMMA assessment is encapsulated in the market map
+(see Figure 4), which answers visually the essential questions posed during the assessment:
+S96   Karri Goeldner Byrne et al.
+
+
+
+      Figure 4. Sample market map
+
+
+
+
+      Note: PaP = Port au Prince.
+      Source: IRC et al., 2010.
+
+
+
+      the relationships between actors and the market system as a whole, the system’s ability
+      to respond to the crisis, and the needs gap faced by the target population. The market
+      map has proved to be a powerful tool for agencies, as it permits them to take a systems
+      approach to solving problems and to understand how their actions affect those other
+      than the intended beneficiaries (Brady, 2012).
+         Gap analysis compares the needs of potential beneficiaries to their ability to meet
+      them through the market. By doing so, the market system map is linked to potential
+      responses, helping emergency response teams to understand how long there is likely
+      to be a requirement for assistance.
+         The quality of the evidence gathered by EMMA is greatly influenced by the qual-
+      ity of the assessment team. Although EMMA is designed for non-economic experts,
+      having at least one team member with experience of market analysis has proven
+      invaluable (Byrne, 2011). Those who are familiar with the country context and with
+      performing rapid assessments in general also tend to generate higher-quality results.
+      EMMA does not necessarily need a large team, but rather people who can understand
+      and analyse relationships and spot patterns and who can identify biases (Powell and
+      Brady, 2012).
+                                    The role of evidence in humanitarian assessment: the SSSA and EMMA   S97
+
+
+
+The toolkits compared
+Although both the SSSA and EMMA were included in a recent review (Maxwell
+et al., 2013), this paper contains the first detailed comparison of the two toolkits.
+   The SSSA and EMMA have several methodological similarities: both assess the
+properties of systems, considering multiple actors, institutions, and scales in order
+to identify responses that avoid disrupting local systems’ capacities, and which can
+enhance their strengths. They emphasise the importance of the availability of and
+access to a particular commodity or service, and relate this to the needs of beneficiar-
+ies, disaggregated by key features (displacement, gender, wealth status). The toolkits
+seek to comprehend change over time by comparing current (usually post-crisis)
+system properties with earlier, baseline, conditions. In addition, both use multiple
+methods, qualitative and quantitative, to gather data.
+   The tools also differ substantially, though: whereas EMMA analyses one market
+system at a time, the SSSA covers all priority crops. The latter is designed for agri-
+cultural systems and seed systems—this specificity confers analytical depth, but
+hinders application to other systems. As a more general toolkit, EMMA can be used
+with nearly any good or service, yet its flexibility means that it is not optimised for
+any one market.
+   Regarding timing, EMMA was designed for use shortly after relatively rapid-onset
+crises, generating time-bound results (although it has been employed for more
+chronic stresses). The SSSA may be used longer after an initial shock, and it consid-
+ers both short-term and chronic stresses; thus its findings may have validity over a
+longer time period. While the toolkits assess formal and informal market relation-
+ships, EMMA is also concerned with critical infrastructure and the ‘rules’ govern-
+ing markets. The SSSA, meanwhile, evaluates in particular informal seed channels,
+restricting analysis of formal (commercial) sectors to immediate supply and delivery.
+Finally, the SSSA frames its analysis and recommendations around dynamic, vari-
+able farmer behaviour in response to stress. EMMA, in contrast, highlights changes
+to the post-disaster context and frames recommendations around differing capacities
+among implementers and decision-makers.
+   In practice, there is relatively little duplication in the SSSA and EMMA, and their
+complementarity suggests that they could be usefully coupled in stress contexts.
+EMMA, as a rapid-analysis tool, is more likely to be used first; if it points up a
+potential seed-system blockage for a critical crop, these insights could quickly feed
+into SSSA planning.
+
+Comparing the toolkits in the same context
+After the Haiti earthquake of 2010, EMMA and the SSSA were both employed by a
+coalition of multiple organisations (CIAT et al., 2010; International Rescue Committee
+et al., 2010; Meissner et al., 2010). They were conducted in February–April (EMMA)
+and May–June (SSSA) 2010. EMMA focused on market-chain analysis for beans as
+food in Port-au-Prince, and as both a food and income source in the southeast depart-
+ment, whereas the SSSA concentrated on seed security across primary crops, and related
+agricultural issues countrywide.
+S98   Karri Goeldner Byrne et al.
+
+
+
+         However, a comparison of their findings at the points of intersection—beans—
+      offered a more comprehensive perspective and highlighted a wider range of possible
+      responses. Of note, EMMA concentrates on both the producer (who may also be a
+      consumer) and on town/urban consumers (who may not farm at all). Hence the toolkit
+      has a refined view of the entire scope of demand. The SSSA, in contrast, focuses
+      on farming needs, but can look at crop trade-offs, in ways not immediately evident
+      through a single-crop lens. Interestingly, the two assessments reached the same global
+      conclusions for beans: there was no significant shortage—the major constraint, by
+      far, was access, owing to a lack of purchasing power. For producers, the SSSA demon-
+      strated the high magnitude of cash need: farmers buy more than 80 per cent of their
+      bean seed and spend an astounding USD 60–70 on seed per season (for all crops).
+      For market suppliers, EMMA identified constraints, especially among the ‘Madame
+      Sara’ traders, who lacked storage and safe lodging near major markets.
+         The SSSA results showed that farmers sowed less in the season just after the shock:
+      a decrease of 15.9 per cent across crops and regions. Yet the reductions were not
+      directly correlated with the effects of the earthquake. Reductions in seed use near
+      the epicentre, Léogâne, were just 13 per cent, versus 36 per cent drops in the non-
+      earthquake-affected but drought-prone zone of the northwest. Furthermore, seed
+      availability (that is, a lack of seed) was a very minor problem (four per cent of responses),
+      and there was no need to import seed. Rather, the reduction in seed use was because
+      of financial constraints, land-tenure concerns, health problems, and drought. The
+      majority of seed security constraints identified were deeply chronic ones. Unlike
+      nearly everywhere else, ‘eating one’s seed’ is not a signal of distress in Haiti; it is a
+      normal practice, particularly for crops such as beans. In addition, farmers generally
+      cannot access new varieties (86 per cent having obtained no new variety in the past
+      five years), other needed inputs, or even regular technical advice. There are few
+      sources supplying new seed, and little agricultural innovation. With this data, the
+      immediate needs because of the earthquake became clear. Only a few of the SSSA’s
+      44 recommendations focused on the emergency phase. Rather, the SSSA called for
+      a shift towards addressing chronic stress problems and seeking developmental/agro-
+      enterprise opportunities, with some support for rural women and traders, as a way
+      to inform development and longer-term concerns.
+         The EMMA assessments found that the price of beans increased immediately post
+      disaster but had already begun to fall within normal levels by the time of the evalu-
+      ations. The largest disruptions due to the earthquake were related not to a lack of
+      inputs or of supply, but to a sudden decline in demand owing to deaths, displacement,
+      and a lack of consumer income. Hurricane-related damage to transportation and
+      storage also had an effect, but the assessments concluded that, on a national level, the
+      market system was capable of meeting consumer demand and continuing to function,
+      if demand could be stimulated via cash or vouchers, and if infrastructure damage
+      (such as to irrigation) could be repaired in the medium term.
+         In the short term, the major recommendations of both approaches focused on enhanc-
+      ing access (through cash transfers and vouchers—with EMMA recommending these
+                                     The role of evidence in humanitarian assessment: the SSSA and EMMA   S99
+
+
+
+for producers and consumers of beans). In the medium term, both recommended the
+development of financially sustainable bean seed systems.
+   The largest disagreement between the two methodologies pertained to the matter
+of emergency seed distribution. The Port-au-Prince EMMA recommended cash-
+and voucher-based support for access to seed, with certified seed distribution as a
+secondary option. The southeast department EMMA recommended the distribution
+of higher-quality seeds to producers to assist with the short-term access bottleneck.
+In contrast, the SSSA analysts saw direct distribution as addressing access but poten-
+tially harmful to the seed system, undermining local seed trade and commercial supply.
+The SSSA suggested the introduction of new varieties only within development pro-
+grammes, which can follow farmers closely over multiple seasons.
+   Together the two reports highlight a comprehensive agenda: stimulate overall demand;
+improve the availability of quality seed; and strengthen agricultural value chains.
+
+Challenges and areas for improvement
+Although continued use of these toolkits will refine further the methodologies, the
+main challenges lie not in generating evidence from assessments, but in getting this
+evidence accepted and used. Other challenges relate to representing evidence, timing,
+and market issues possibly missed by rapid tools.
+
+Accepting the evidence
+Norms shape how evidence is received. For instance, SSSA evidence may not auto-
+matically change the opinions of those involved in seed aid, which is subject to stereo-
+typing and vested interests (Sperling and McGuire, 2010a). Distrust of the private
+sector may colour how EMMA findings are read by some people. Assessment teams
+need to confront such biases (internally, and with users) as the information does not
+speak for itself. A related issue is whether audiences view evidence as sufficiently ‘hard’;
+they may not agree that ‘good enough’ data is good enough. For example, some argue
+that the small samples used in EMMA do not provide adequate rigour (Sivakumaran,
+2011), even if the conclusions are supported by secondary data or pre-existing base-
+lines. The SSSA does gather data from large samples, although it also draws important
+insights from interviews and focus groups. Both assessments triangulate evidence
+to bolster the precision of their rapid assessments, but some evidence still may be
+disregarded by researchers and development actors, who have more time to gather
+comprehensive data.
+
+Using the evidence
+The response choices generated, and implemented, depend on the prior experience
+of the assessment teams, and of the implementers. SSSAs can produce diverse short-
+and long-term recommendations, especially when team members are familiar with
+a wide range of response options. However, implementers may find it challenging
+to move away from responses they already know (such as direct distribution), and
+S100   Karri Goeldner Byrne et al.
+
+
+
+       humanitarian actors may not be equipped to transition to development program-
+       ming. EMMAs face similar constraints: they benefit from specialised expertise on
+       teams to widen the spectrum of response options (Powell and Brady, 2012), yet
+       implementation is also shaped by users whose normal responses focus on delivering
+       commodities or vouchers/cash (Sivakumaran, 2011). EMMA is, by design, oriented
+       towards immediate response decisions (Maxwell et al., 2013). In addition, development-
+       oriented actors simply may be absent or ineffective in some settings, making the
+       application of the longer-term recommendations of either toolkit less likely.
+
+       Representations of evidence
+       Both methodologies represent aspects of systems through specific outputs, such as
+       figures, maps, and tables. EMMA’s market maps are particularly effective communi-
+       cation tools. Inevitably, though, a single item tells only part of the story of a system.
+       While reports and oral presentations can paint a fuller picture, decision-makers may
+       focus on particular elements in isolation, and miss the wider context. There is also
+       the possibility that data to support general conclusions (such as the volume of wheat
+       sold is around 10–20 per cent lower than is normal) are misinterpreted as exact
+       figures (such as a deficit of 150 metric tons of wheat in location X). This misses the
+       utility of such data in highlighting potential concerns and guiding decision-making.
+       Ideally, there would be sustained follow-up between SSSA and EMMA teams and
+       decision-makers to consider evidence in detail, but time and job constraints mean
+       this is rarely possible.
+
+       Timing
+       Both toolkits often are driven by speed, to inform decisions in the very near future.
+       These pressures are especially acute for EMMA, where the importance of a fast report
+       to donors, government officials, and other decision-makers cannot be overstated
+       (Powell and Brady, 2012). Most EMMAs, therefore, are only relevant if performed
+       swiftly, and if the findings are shared immediately. As post-disaster environments
+       change, however, the analysis may soon be outdated. SSSAs, meanwhile, pay much
+       attention to chronic stresses, which should mean recommendations have a longer
+       shelf-life. EMMA also is moving increasingly beyond its original use immediately
+       post disaster, including in slow-onset disasters such as drought (Ethiopia and Kenya),
+       evolving complex crises (the Abyei region of Sudan), informing longer-term re-
+       covery programming (northern Sri Lanka), and baseline assessments as emergency
+       preparedness. This may allow for more robust collection of evidence, where time
+       and security permit, and provide a longer validity period for findings. In some cir-
+       cumstances, though, a more development-focused market assessment methodology
+       may be more appropriate. For less experienced analysts, using the EMMA toolkit in
+       situations other than rapid-onset disasters may lead to an imbalance between rigour
+       and speed.
+                                    The role of evidence in humanitarian assessment: the SSSA and EMMA   S101
+
+
+
+Market issues
+Power relationships in markets are important, particularly for shaping access, equity,
+and distribution of risks. While both toolkits investigate constraints to access, barriers
+to market participation, and monopolies, some aspects of power relationships (such
+as cartels, corruption, price fixing, and patronage networks) are less visible through
+rapid analysis. War economies pose particular challenges, where weak civil controls
+foster clandestine/illegal trade (Jackson, 2009). However, the commodities assessed
+by EMMA and the SSSA (food, shelter materials) may be less affected, simply because
+minerals/weapons are more lucrative to ‘tax’ (Rubin, 2000). Finally, EMMA appraises
+the market for a single commodity, raising issues concerning the effective use of
+time and resources for one market assessment, and the appropriateness of choice.
+Careful selection of markets for analysis, guided by country and technical expertise,
+can help, as can choosing markets that allow inferences on linked commodities (such
+as those sharing traders or suppliers) (Sivakumaran, 2011).
+
+
+
+Conclusion
+In a sudden-onset humanitarian situation, assessments must ‘make do’ with imper-
+fect information. However, EMMA and the SSSA demonstrate that it is possible to
+gather, validate, and share useful data as evidence to inform appropriate humanitar-
+ian response.
+   In these imperfect data environments, several strategies help to bring an assessment
+to the point of being ‘good enough’. These include: using skilled analysts who can
+adopt a systems perspective; understanding that quickly gathered data has an ‘expira-
+tion date’ in terms of its usefulness as the situation changes; using existing information
+(livelihood analyses, price trends) strategically to compare current data with base-
+lines; and triangulating data or seeking representativeness when large sample sizes are
+not feasible.
+   Perhaps most importantly, EMMA, the SSSA, and any quality humanitarian assess-
+ment must be aware of respondent and interviewer bias, and must challenge entrenched
+assumptions and beliefs. EMMA and the SSSA’s approaches to evidence—gathering
+from a variety of sources in an assortment of ways, and filtering through experience—
+help to account for these biases and counteract the challenges of timing and access
+constraints. In turn, this can lead to timely decision-making for appropriate humani-
+tarian response.
+
+
+
+Acknowledgements
+This paper contains the opinions of the authors and does not necessarily reflect the
+views of USAID or the Government of the United States.
+S102   Karri Goeldner Byrne et al.
+
+
+
+       Correspondence
+       Louise Sperling. E-mail: l.sperling@cgiar.org; Skype: louisesperling
+
+
+
+       Endnotes
+       1
+           Karri Goeldner Byrne is Chief of Party – PRIME Project at Mercy Corps, Ethiopia; Julie March
+           is Agriculture and Food Security Advisor at the Office of U.S. Foreign Disaster Assistance, United
+           States Agency for International Development, United States; Shawn McGuire is Senior Lecturer
+           at the School of International Development, University of East Anglia, United Kingdom; Laura
+           Meissner is Economic Recovery Advisor at the Office of U.S. Foreign Disaster Assistance, United
+           States Agency for International Development, United States; and Louise Sperling is a Consultant
+           at the International Center for Tropical Agriculture, United States.
+       2
+           Other SSSA cases can be found at http://www.seedsystem.org.
+       3
+           Information from http://emma-toolkit.org/ (accessed on 25 April 2013).
+
+
+
+
+       References
+       Albu, M. (2010) Emergency Market Mapping and Analysis Toolkit. Practical Action Publishing Ltd., Rugby.
+       Albu, M. and A. Griffith (2005) Mapping the Market: A Framework for Rural Enterprise Development Policy
+         and Practice. Practical Action Publishing Ltd., Rugby.
+       Albu, M. and E. Murphy (2007) Market Analysis Tools in Rapid-onset Emergencies: Phase One Report.
+         Practical Action Consulting, Rugby.
+       Almekinders, C. and N. Louwaars (1999) Farmers’ Seed Production: New Approaches and Practices.
+         Intermediate Technology Publications Ltd., London.
+       Brady, C. (2012) An Emergency Market Mapping and Analysis Study: Changing Responses to the Haiti
+         Earthquake. Oxfam GB, Oxford.
+       Buchanan-Smith, M. and S. Maxwell (1994) ‘Linking relief and development: an introduction and
+         overview’. IDS Bulletin. 25(4). pp. 2–16.
+       Byrne, K.G. (2011) EMMA Leader’s Guide. International Rescue Committee, London.
+       Byrne, K.G. and M. Albu (2009) ‘Analysing market systems in emergencies: the EMMA toolkit’.
+         Humanitarian Exchange. 45 (December). Humanitarian Practice Network, Overseas Development
+         Institute, London.
+       CaLP (Cash Learning Partnership) (n.d.) ‘About us’. http://www.cashlearning.org/about-us/overview
+         (accessed on 25 April 2013).
+       CIAT (International Center for Tropical Agriculture) et al. (2009) Seed System Security Assessment,
+         Zimbabwe. CIAT, Rome.
+       CIAT et al. (2010) Seed System Security Assessment, Haiti. CIAT, Arusha.
+       CIAT et al. (2011a) Seed System Security Assessment, Southern Malawi. Catholic Relief Services and
+         CIAT, Lilongwe.
+       CIAT et al. (2011b) Seed System Security Assessment, Eastern and Coastal Kenya. Catholic Relief Services
+         and CIAT, Nairobi.
+       Collier, P. (2006) Post-conflict Economic Recovery. A paper for the International Peace Academy. April.
+         http://users.ox.ac.uk/~econpco/research/pdfs/IPA-PostConflictEconomicRecovery.pdf (accessed
+         on 25 April 2013).
+       Cosgrave, J. (2007) Synthesis Report: Expanded Summary. Joint Evaluation of the International Response to
+         the Indian Ocean Tsunami. Tsunami Evaluation Coalition, London.
+                                           The role of evidence in humanitarian assessment: the SSSA and EMMA   S103
+
+
+
+FAO (Food and Agriculture Organization) (1998) ‘The emergency sequence: what FAO does – how
+   FAO does it. Phase four: impact and immediate needs assessment’. http://www.fao.org/docrep/003/
+   X6872E/x6872e01.htm (accessed on 25 April 2013).
+FEG Consulting and Save the Children (2008) The Practitioner’s Guide to the Household Economy Approach.
+   FEG Consulting, Johannesburg.
+Gladwin, C.H., J.S. Peterson, and A.C. Mwale (2002) ‘The quality of science in participatory research:
+   a case study from eastern Zambia’. World Development. 30(4). pp. 523–543.
+Harvey, P. (2007) Cash-based Responses in Emergencies. Humanitarian Policy Group, Overseas Development
+   Institute, London.
+Horst, C. (2006) ‘Refugee livelihoods: continuity and transformations’. Refugee Survey Quarterly. 25(2).
+   pp. 6–22.
+Hughey, E., H. Bell, and M. Chatman (2012) ‘Who needs what? A case study of post-disaster damage
+   and needs assessment (DANA) in Vietnam’. Risk, Hazards and Crisis in Public Policy. 2(4). pp. 1–24.
+International Rescue Committee et al. (2010) Market System for Beans in Haiti. Emergency Market
+   Mapping and Analysis (EMMA) report. http://practicalaction.org/docs/emma/EMMA-Haiti-
+   report-Beans-Market2.pdf (accessed on 25 April 2013).
+International Rescue Committee et al. (2011) ‘Where EMMA’s been’. http://emma-toolkit.org/
+   practice/where/ (accessed on 25 April 2013).
+Jackson, S. (2009) ‘Fortunes of war: the coltan trade in the Kivus’. HPG Background Papers. 13.
+   Overseas Development Institute, London.
+Jaspars, S. and S. O’Callaghan (2010) ‘Challenging choices: protection and livelihoods in conflict’.
+   HPG Policy Brief. 40 (May). Overseas Development Institute, London.
+Jones, L. and P. Shaikh (2005) Middlemen as Agents of Change: MEDA and ECDI in Pakistan. The SEEP
+   Network, Washington, DC.
+Locke, R. and K.G. Byrne (2008) Cotton Value Chain Case for Northern Uganda. International Rescue
+   Committee, Washington, DC.
+Longley, K. (1997) ‘Effects of war and displacement on local systems in northern Sierra Leone’. In
+   L. Sperling (ed.) War and Crop Diversity. AGREN Network Paper. 75. Overseas Development
+   Institute, London.
+Maxwell, D. and B. Watkins (2003) ‘Humanitarian information systems and emergencies in the
+   Greater Horn of Africa: logical components and logical linkages’. Disasters. 27(1). pp. 72–90.
+Maxwell, D., H. Stobaugh, J. Parker, and M. McGlinchy (2013) ‘Response analysis and response choice
+   in food security crises: a roadmap’. Humanitarian Practice Network Paper. 73. Overseas Development
+   Institute, London.
+McGuire, S.J. and L. Sperling (2011) ‘The links between food security and seed security: facts and
+   fiction that guide response’. Development in Practice. 21(4–5). pp. 493–508.
+McGuire, S.J. and L. Sperling (2013) ‘Making seed systems more resilient to stress’. Global Environmental
+   Change. In press. DOI: 10.1016/j.gloenvcha.2013.02.001.
+Meissner, L. (2011) Emergency Market Mapping and Analysis (EMMA) Report: Rice Market System, Northern
+   Province, Sri Lanka, March–April 2011. Report for the Office of U.S. Foreign Disaster Assistance,
+   USAID and USAID, Sri Lanka.
+Meissner, L. et al. (2010) Emergency Market Mapping and Analysis: The Market for Beans in Sud-Est
+   Department of Haiti. MicroREPORT 164. ACDI/VOCA for USAID, Washington, DC.
+Nourse, T., T. Gerstle, A. Snelgrove, D. Rinck, and M. McVay (2006) Market Development in Crisis-affected
+   Environments: Emerging Lessons for Achieving Pro-poor Economic Reconstruction. Market Development
+   Working Group, The SEEP Network, Washington, DC.
+ODI (Overseas Development Institute) (1996) ‘Seed provision during and after emergencies’. Good
+   Practice Review. 4. Overseas Development Institute, London.
+Powell, J. and C. Brady (2012) EMMA Review with Strategic Recommendations. Oxfam, Oxford.
+S104   Karri Goeldner Byrne et al.
+
+
+
+       Rubin, B.R. (2000) ‘The political economy of war and peace in Afghanistan’. World Development.
+          28(10). pp. 1789–1803.
+       Saperstein, A. and R. Campbell (2008) Accelerating the Transition from Conflict to Sustainable Growth.
+          MicroReport 111. ACDI/VOCA for Pact, Inc. and USAID, Washington, DC.
+       Sivakumaran, S. (2011) Market Assessments in Emergencies. Cash Learning Partnership, Oxford.
+       Smillie, I. (ed.) (2001) Patronage or Partnership: Local Capacity-building in Humanitarian Crises. International
+          Development Research Centre and Kumarian Press, Ottawa.
+       Sperling, L. (2002) ‘Emergency seed aid in Kenya: some case study highlights from lessons learned
+          during the 1990s’. Disasters. 26(4). pp. 283–287.
+       Sperling, L. (2008) When Disaster Strikes: A Guide to Assessing Seed System Security. International Center
+          for Tropical Agriculture, Cali.
+       Sperling, L., H.D. Cooper, and T. Remington (2008) ‘Moving towards more effective seed aid’.
+          Journal of Development Studies. 44(4). pp. 586–612.
+       Sperling, L. and S.J. McGuire (2010a) ‘Persistent myths about emergency seed aid’. Food Policy. 35(3).
+          pp. 195–201.
+       Sperling, L. and S.J. McGuire (2010b) ‘Understanding and strengthening informal seed markets’.
+          Experimental Agriculture. 46(2). pp. 119–136.
+       The SEEP Network (2009) Minimum Standards for Economic Recovery after Crisis. First edition. The
+          SEEP Network, Washington, DC.
+       The Sphere Project (2004) Humanitarian Charter and Minimum Standards in Disaster Response. Oxfam
+          Publishing, Oxford.
+       WHO (World Health Organization) (1999) Rapid Health Assessment Protocols for Emergencies. WHO,
+          Geneva.
+       Zhang, Y., M. Lindell, and C.S. Prater (2009) ‘Vulnerability of community businesses to environ-
+          mental disasters. Disasters. 33(1). pp. 38–57.
+

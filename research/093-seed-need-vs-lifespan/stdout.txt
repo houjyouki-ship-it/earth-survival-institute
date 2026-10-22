@@ -1,0 +1,76 @@
+{
+ "check_092_curve_reproduced": true,
+ "f0_all": 0.975609756097561,
+ "f0_staple": 0.9166666666666666,
+ "cases_dated": [
+  {
+   "case": "Cambodia rice (Khmer Rouge)",
+   "lag_from_start": 6.0,
+   "lag_from_end": 2.0
+  },
+  {
+   "case": "Rwanda beans/sorghum (genocide)",
+   "lag_from_start": 1.0,
+   "lag_from_end": 1.0
+  },
+  {
+   "case": "Afghanistan national collection",
+   "lag_from_start": 10.0,
+   "lag_from_end": 0.0
+  },
+  {
+   "case": "Syria ICARDA genebank (civil war)",
+   "lag_from_start": 4.0,
+   "lag_from_end": 4.0
+  }
+ ],
+ "n_dated": 4,
+ "lag_median_start": 5.0,
+ "lag_max_start": 10.0,
+ "H105a": "untestable(n<5)",
+ "n_avail_cases": 6,
+ "frac_avail_main_problem": 0.16666666666666666,
+ "haiti_lack_of_seed_share_of_responses": 0.04,
+ "H105b": "support",
+ "frac_return_from_cold_intl_genebank_not_svalbard": 0.75,
+ "H105e": "support(descriptive)",
+ "light_f_mean_all": 0.9756097560975613,
+ "light_f_mean_staple": 0.9166666666666665,
+ "light_f_rel_all": 1.0000000000000004,
+ "H105c": "support",
+ "heavy": {
+  "H_norse100": {
+   "median_T": 100,
+   "f_mean_all": 0.5970825609756099,
+   "f_mean_staple": 0.37456333333333336,
+   "f_rel_all": 0.6120096250000001,
+   "f_times_location_memory": 0.1723292113027151,
+   "location_memory_only": 0.24614908986492173,
+   "loss_from_lifespan": 0.3879903749999999,
+   "loss_from_location": 0.7538509101350783
+  },
+  "H_casc254": {
+   "median_T": 254,
+   "f_mean_all": 0.4025007317073171,
+   "f_mean_staple": 0.2146225,
+   "f_rel_all": 0.41256325000000005,
+   "f_times_location_memory": 0.03868110084164616,
+   "location_memory_only": 0.0646412180669566,
+   "loss_from_lifespan": 0.58743675,
+   "loss_from_location": 0.9353587819330434
+  },
+  "H_bio1204": {
+   "median_T": 1204,
+   "f_mean_all": 0.24925695121951227,
+   "f_mean_staple": 0.1668975,
+   "f_rel_all": 0.2554883750000001,
+   "f_times_location_memory": 0.00045540045691980105,
+   "location_memory_only": 0.0010412728792619354,
+   "loss_from_lifespan": 0.7445116249999999,
+   "loss_from_location": 0.9989587271207381
+  }
+ },
+ "H105d": "reject",
+ "breakeven_median_T_for_f50_all": 160,
+ "breakeven_median_T_for_f50_staple": 60
+}
