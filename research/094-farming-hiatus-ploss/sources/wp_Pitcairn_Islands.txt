@@ -1,0 +1,783 @@
+{{Short description|British Overseas Territory in the South Pacific}}
+{{Redirect|Pitcairn}}
+{{pp-move}}
+{{Use British English|date=September 2013}}
+{{Use dmy dates|date=August 2026}}
+{{Infobox dependency
+| name = Pitcairn Islands
+| native_name = {{native name|pih|Pitkern Ailen}}
+| type = [[British Overseas Territories|British Overseas Territory]]
+| official_name = Pitcairn, Henderson, Ducie and Oeno Islands
+| linking_name = the Pitcairn Islands
+| image_flag = Flag of the Pitcairn Islands.svg
+| flag_size = 130
+| flag_link = Flag of the Pitcairn Islands
+| image_seal = Coat of arms of the Pitcairn Islands.svg
+| seal_size = 70
+| seal_type = Coat of arms
+| seal_link = Coat of arms of the Pitcairn Islands
+| motto =
+| anthem = "[[God Save the King]]"<br /><div
+style="display:inline-block;margin-top:0.4em;">[[File:U.S. Navy Band - God Save the King.oga]]</div>
+| song_type = '''Local anthem'''
+| song = "[[Come Ye Blessed]]"
+| image_map = Pitcairn Islands in United Kingdom.svg
+| map_caption = Map showing location of the Pitcairn Islands (circled at the lower-right and magnified in an inset)
+| map_size = 255px
+| subdivision_type = [[Sovereignty]]<!-- per the discussion at Wikipedia_talk:WikiProject_Politics_of_the_United_Kingdom#"Sovereign state" vs "Sovereign state responsible" for dependencies not part of the UK -->
+| subdivision_name = United Kingdom
+| established_title2 = [[Mutiny on the Bounty#Settlement|Settlement]]
+| established_date2 = 15 January 1790
+| established_title3 = British colony
+| established_date3 = 30 November 1838
+| official_languages = {{hlist|[[Pitkern]]|English}}
+| demonym = {{hlist|Pitcairn Islanders|Pitkern|Pitcairnese}}
+| capital = [[Adamstown, Pitcairn Islands|Adamstown]]{{#tag:ref|The [[Permanent Committee on Geographic Names]] stated that Auckland, New Zealand is the administrative centre for these islands because the Governor of Pitcairn, the [[List of high commissioners of the United Kingdom to New Zealand|British High Commissioner to New Zealand]], is based in Auckland. However the same cited document describes Adamstown as the capital of the BOT on the following page.<ref>{{cite web|url=https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/946074/UKOTs_Information_Paper.pdf|title=United Kingdom Overseas Territories – Toponymic Information|publisher=[[Permanent Committee on Geographic Names]]|pages=4–5/6|access-date=10 February 2024}} – Hosted on the [[Government of the United Kingdom]] website.</ref>|group=note}}
+| coordinates = {{Coord|25|04|S|130|06|W|type:city}}
+| largest_settlement = capital
+| largest_settlement_type = largest settlement
+| ethnic_groups = [[Pitcairn Islanders]]
+| ethnic_groups_year =
+| government_type = Semi-autonomous [[Dependent territory of the United Kingdom|dependency]] under a [[constitutional monarchy]]
+| leader_title1 = [[Monarchy of the United Kingdom|Monarch]]
+| leader_name1 = {{Current UK monarch |Charles III}}
+| leader_title2 = [[Governor of the Pitcairn Islands|Governor]]
+| leader_name2 = Louise Cantillon<ref>{{cite web |title=Change of British High Commissioner to New Zealand: Louise Cantillon |url=https://www.gov.uk/government/news/change-of-british-high-commissioner-to-new-zealand-louise-cantillon  |url-status=live |archive-url=https://web.archive.org/web/20260826113825/https://www.gov.uk/government/news/change-of-british-high-commissioner-to-new-zealand-louise-cantillon |archive-date=26 August 2026 |website=[[gov.uk]] |publisher=Government of the United Kingdom |date=26 August 2026 |access-date=29 August 2026}}</ref>
+| leader_title3 = [[Administrator of the Pitcairn Islands|Administrator]]
+| leader_name3 = Rachael Midlen<ref>{{cite web |title=Pitcairn Island Council: Minutes of the Special Council Meeting Held at the Pulau School Commencing at 11:00 am, January 12, 2026 |publisher=Pitcairn Island Council |url=https://static1.squarespace.com/static/6526ff6fef608a3828c13d05/t/6a31714804509f1abf0f883a/1781625160478/Special+Council+minutes+January+12++2026.pdf |archive-url=https://web.archive.org/web/20260720023615/https://static1.squarespace.com/static/6526ff6fef608a3828c13d05/t/6a31714804509f1abf0f883a/1781625160478/Special+Council+minutes+January+12++2026.pdf |date=21 January 2026 |archive-date=20 July 2026 |url-status=live |access-date=20 July 2026}}</ref>
+| leader_title4 = [[List of rulers of the Pitcairn Islands|Mayor]]
+| leader_name4 = [[Shawn Christian (mayor)|Shawn Christian]]
+| legislature = [[Island Council (Pitcairn)|Island Council]]
+| national_representation = [[Government of the United Kingdom]]
+| national_representation_type1 = [[Foreign, Commonwealth and Development Office|Minister]]
+| national_representation1 = [[Uma Kumaran]]
+| area_km2 = 47
+| area_rank = not ranked
+| area_sq_mi = 18
+| elevation_max_m = 347
+| population_estimate = 35<ref name="immigration">{{cite web |url=https://www.immigration.pn/life-on-pitcairn-island |title=Life on Pitcairn – Pitcairn Island Immigration |publisher=Government of the Pitcairn Islands |access-date=2024-07-18 |date=2023 |archive-date=27 December 2024 |archive-url=https://web.archive.org/web/20241227154807/https://www.immigration.pn/life-on-pitcairn-island |url-status=dead }}</ref>
+| population_estimate_year = 2023
+| population_estimate_rank = 195th
+| population_density_km2 = 0.74
+| population_density_sq_mi = 2.59
+| population_density_rank = not ranked
+| GDP_PPP_rank =
+| GDP_PPP_per_capita = NZ$4,617
+| GDP_PPP_per_capita_rank =
+| GDP_nominal = NZ$217,000<ref>{{cite web |url=http://www.government.pn/policies/Pitcairn%20Island%20SDP%202012-2016.pdf#page=4 |title=Pitcairn Islands Strategic Development Plan, 2012–2016 |date=2013 |website=The Government of the Pitcairn Islands |page=4 |format=PDF |archive-url=https://web.archive.org/web/20150705134639/http://www.government.pn/policies/Pitcairn%20Island%20SDP%202012-2016.pdf#page=4 |archive-date=5 July 2015 |url-status=dead |quote=Gross Domestic Product (GDP) ... NZ$217,000 (2005/06 indicative estimate) and NZ$4,340 per capita (based on 50 residents) }}</ref>
+| GDP_nominal_year = 2005
+| GDP_nominal_per_capita = NZ$4,617.02
+| Gini = <!-- number only -->
+| Gini_year =
+| Gini_change = <!-- increase/decrease/steady -->
+| Gini_ref =
+| Gini_rank =
+| HDI = <!-- number only -->
+| HDI_year =
+| HDI_change = <!-- increase/decrease/steady -->
+| HDI_ref =
+| HDI_rank =
+| currency = [[New Zealand dollar]] (NZ$){{efn|group=a|The [[Pitcairn Islands dollar]] is also official legal tender, although it does not circulate as widely.}}
+| currency_code = NZD
+| time_zone = (GMT-8)
+| utc_offset = -08:00
+| drives_on = left
+| calling_code = Country code [[Telephone numbers in New Zealand|64]] of New Zealand
+| postal_code_type = [[Postal codes in the Pitcairn Islands|UK postcode]]
+| postal_code = PCRN 1ZZ
+| iso_code = [[ISO 3166-2:PN|PN]]
+| cctld = [[.pn]]
+| footnotes = {{Notelist|group=a}}
+| website = [https://www.government.pn www.government.pn]
+}}
+The '''Pitcairn Islands''' ({{IPAc-en|ˈ|p|ɪ|t|k|ɛər|n}} {{respell|PIT|kairn}};<ref>[[Oxford English Dictionary]]</ref> [[Pitkern]]: ''{{lang|pih|Pitkern Ailen}}''), officially '''Pitcairn, Henderson, Ducie and Oeno Islands''',<ref name="BNA1981">{{cite web |url=http://www.legislation.gov.uk/ukpga/1981/61 |title=British Nationality Act 1981 – Schedule 6 British Overseas Territories |publisher=UK Government |date=September 2016 |access-date=21 September 2016 |archive-date=12 April 2018 |archive-url=https://web.archive.org/web/20180412135054/http://www.legislation.gov.uk/ukpga/1981/61 |url-status=live }}</ref><ref name="Order2010">{{cite web |url=http://www.legislation.gov.uk/uksi/2010/244/pdfs/uksi_20100244_en.pdf |title=Pitcairn Constitution Order 2010 – Section 2 and Schedule 1, Section 6 |publisher=UK Government |date=September 2016 |access-date=8 October 2015 |archive-date=10 September 2016 |archive-url=https://web.archive.org/web/20160910124941/http://www.legislation.gov.uk/uksi/2010/244/pdfs/uksi_20100244_en.pdf |url-status=live }}</ref><ref name="PitcainLaws">{{cite web |url=http://www.government.pn/Laws/ |title=Laws of Pitcairn, Henderson, Ducie and Oeno Islands |publisher=Pitcairn Island Council |date=September 2016 |access-date=8 April 2012 |archive-date=29 January 2018 |archive-url=https://web.archive.org/web/20180129105738/http://www.government.pn/Laws/ |url-status=live }}</ref><ref name="TheOverTerr">{{cite web |url=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/14929/ot-wp-0612.pdf |title=The Overseas Territories |publisher=UK Government |date=September 2016 |access-date=21 September 2016 |archive-date=20 October 2017 |archive-url=https://web.archive.org/web/20171020062536/https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/14929/ot-wp-0612.pdf |url-status=live }}</ref> are a group of four volcanic islands in the southern [[Pacific Ocean]] that form the sole [[British Overseas Territories|British Overseas Territory]] in the Pacific Ocean. The four islands—[[Pitcairn Island|Pitcairn]], [[Henderson Island (Pitcairn Islands)|Henderson]], [[Ducie Island|Ducie]] and [[Oeno Island|Oeno]]—are scattered across several hundred kilometres of ocean and have a combined land area of about 47 square kilometres (18 square miles). Henderson Island accounts for 86% of the land area, but only Pitcairn Island is inhabited. The inhabited islands nearest to the Pitcairn Islands are [[Mangareva]] (of [[French Polynesia]]), 688&nbsp;km (428 miles) to the west,{{#tag:ref|The [[Temoe]] atoll of [[French Polynesia]], although closer, is uninhabited.|group=note}} as well as [[Easter Island]], 1,929&nbsp;km (1199 miles) to the east.
+
+The [[Pitcairn Islanders]] are descended primarily from nine British [[Mutiny on the Bounty|HMS ''Bounty'' mutineers]] and twelve [[Tahitians|Tahitian]] women. In 2023, the territory had a permanent population of 35, making it the smallest territory in the world by number of permanent residents.<ref name="immigration"/> Owing to the island's extreme isolation and small population, incidents of widespread [[sexual abuse]] went undetected until 1999, culminating in a high-profile [[2004 Pitcairn Islands sexual assault trial|sexual assault trial]] in 2004.
+
+== History ==
+{{Main|History of the Pitcairn Islands}}
+
+=== Polynesian settlement ===
+Various forms of evidence show the earliest settlers of the Pitcairn Islands were [[Polynesians]] who occupied Pitcairn and Henderson for several centuries until the islands were abandoned: Henderson most likely before the 16th century and Pitcairn in the 17th or early 18th century. The islands were uninhabited when they were rediscovered by Europeans.<ref>{{cite book |last=Diamond |first=Jared M |url=https://archive.org/details/collapse00jare |title=Collapse: how societies choose to fail or succeed |date=2005 |publisher=[[Penguin Group|Penguin]] |isbn=9780143036555 |location=New York |page=[https://archive.org/details/collapse00jare/page/132 132] |oclc=62868295 |quote=But by A.D. 1606 . . . Henderson's population had ceased to exist. Pitcairn's own population had disappeared at least by 1790 ... and probably disappeared much earlier. |author-link=Jared Diamond |url-access=registration}}</ref><ref name = Molle-Aymericic>{{cite book |author1=Guillaume Molle |author2=Hermann Aymeric |title="Pitcairn before the mutineers" in "The Bounty from the beach: Cross-cultural and cross-disciplinary essays" |date=2018 |publisher=AMU Press |pages=67–94 |url=https://library.oapen.org/bitstream/handle/20.500.12657/27524/bountyfrom.pdf?sequence=1#page=77}}</ref>
+
+===Early European sightings===
+[[File:Pitcairn Island In The Distance.jpg|thumb|West side of Pitcairn Island]]
+[[File:Pitcairnlanding.jpg|thumb|Pitcairn landing]]
+
+Portuguese sailor [[Pedro Fernandes de Queirós]] came upon Ducie and Henderson Islands while sailing for the Spanish Crown, arriving on 26 January 1606. He named them La Encarnación ("[[Incarnation (Christianity)|The Incarnation]]") and San Juan Bautista ("Saint [[John the Baptist]]"), respectively. However, some sources express doubt about exactly which of the islands were visited and named by Queirós, suggesting that La Encarnación may actually have been Henderson Island, and San Juan Bautista may have been Pitcairn Island.<ref name=histgovtlaws>{{cite web |url=http://library.puc.edu/pitcairn/pitcairn/govt-history15.shtml |archive-url=https://web.archive.org/web/20141211081408/http://library.puc.edu/pitcairn/pitcairn/govt-history15.shtml |archive-date=11 December 2014 |title=History of Government and Laws, Part 15 ''History of Pitcairn Island'' |publisher=Pitcairn Islands Study Centre |access-date=4 July 2015 |url-status=dead }}</ref>
+
+Pitcairn Island was sighted on 3 July 1767 <!-- actual date versus [[ship's time]] -->by the crew of the British [[HMS Swallow (1745)|HMS ''Swallow'']], commanded by Captain [[Philip Carteret]]. The island was named after midshipman [[Robert Pitcairn (Royal Navy officer)|Robert Pitcairn]], a 15-year-old crew member who was the first to sight the island. Robert Pitcairn was a son of British Marine Major [[John Pitcairn]], who was later killed at the 1775 [[Battle of Bunker Hill]] in the [[American Revolution|American War of Independence]].<ref name=DNB>{{cite ODNB |first=Elizabeth |last=Baigent |title=Robert Pitcairn |year=2004 |url=http://www.oxforddnb.com/view/article/53715 |doi=10.1093/ref:odnb/22317}}</ref>
+
+Carteret, who sailed without the newly invented [[marine chronometer]], charted the island at {{Coord|25|02|S|133|21|W|display=inline}}, and although the [[latitude]] was reasonably accurate, his recorded longitude was incorrect by about 3°, putting his coordinates {{convert|330|km|abbr=on}} to the west of the actual island. This made Pitcairn difficult to find, as highlighted by the failure of Captain [[James Cook]] to locate the island in July 1773.<ref>{{cite web |first=Brian |last=Hooker |archive-url=https://web.archive.org/web/20100526223133/http://findingnz.co.nz/al/gal1_bounty.htm |archive-date=26 May 2010 |url=http://findingnz.co.nz/al/gal1_bounty.htm |title=Down with Bligh: hurrah for Tahiti |work=Finding New Zealand |access-date=4 July 2015 |url-status=dead }}</ref><ref>{{cite web |first=Mark |last=Winthrop |url=http://www.lareau.org/chrono.html |archive-url=https://web.archive.org/web/20090905165026/http://lareau.org/chrono.html |archive-date=5 September 2009 |title=The Story of the Bounty Chronometer |publisher=Lareau Web Parlour |access-date=4 July 2015 |url-status=dead }}</ref>
+
+=== ''Bounty'' mutiny and aftermath ===
+{{Further|HMS Bounty|Mutiny on the Bounty}}
+[[File:Mutiny HMS Bounty.jpg|thumb|left|The mutineers turning Bligh and some of the officers and crew adrift from {{HMS|Bounty}} on 29 April 1789.]]
+[[File:Adamstown1.jpg|thumb|left|Adamstown, the only settlement on the Islands]]
+In 1790, nine of the mutineers from the British naval vessel ''HMS Bounty'', along with the native Tahitian men and women who were with them (six men, 11 women, and a baby girl), settled on Pitcairn Island and set fire to the ''Bounty''. Later inhabitants of the island remained aware of the ''Bounty''{{'}}s location, which is still visible underwater in [[Bounty Bay]], but the wreckage gained significant attention in 1957 when documented by ''[[National Geographic Society|National Geographic]]'' explorer [[Luis Marden]]. Although the settlers survived by farming and fishing, the initial period of settlement was marked by serious tensions among them. [[Alcoholism]], [[murder]], disease and other ills took the lives of most mutineers and Tahitian men. [[John Adams (mutineer)|John Adams]] and [[Ned Young]] turned to the [[Religious text|scriptures]], using the ship's [[Bounty Bible|Bible]] as their guide for a new and peaceful society. Young eventually died of an [[asthma]]tic infection.
+
+Ducie Island was rediscovered in 1791 by Royal Navy captain [[Edward Edwards (Royal Navy officer)|Edward Edwards]] aboard {{HMS|Pandora|1779|6}}, while searching for the ''Bounty'' mutineers. He named it after [[Francis Reynolds-Moreton, 3rd Baron Ducie]], also a captain in the Royal Navy.
+
+The Pitcairn islanders reported it was not until 27 December 1795 that the first ship since the ''Bounty'' was seen from the island, but it did not approach the land and they could not make out the nationality. A second ship appeared in 1801, but made no attempt to communicate with them. A third came sufficiently near to see their house, but did not try to send a boat on shore. Finally, the American [[seal hunting|sealing]] ship ''Topaz'', under [[Mayhew Folger]], became the first to visit the island, when the crew spent ten hours on Pitcairn in February 1808.<ref>{{cite web| url = https://books.google.com/books?id=ph5EAQAAMAAJ&dq=Mayhew+Folger++son&pg=PA34| title = An transcription of Floger Log entry Concerning the Bounty and Pitcairn Island pp. 36–40| last1 = Young| first1 = Rosalind Amelia| year = 1894}}</ref> Whalers subsequently became regular visitors to the island. The last recorded whaler to visit was the ''[[James Arnold (ship)|James Arnold]]'' in 1888.<ref>Langdon, Robert (1984), ''Where the whalers went: an index to the Pacific ports and islands visited by American whalers (and some other ships) in the 19th century'', Canberra, Pacific Manuscripst Bureau, p.&nbsp;207. {{ISBN|086784471X}}</ref>
+
+[[File:A view of Pitcairn's Island, South Seas, 1814, J. Shillibeer.jpg|thumb|View of Pitcairn's Island, South Seas, 1814, J. Shillibeer]]
+A report of Folger's discovery was forwarded to the [[British Admiralty|Admiralty]], mentioning the mutineers and giving a more precise location of the island: {{Coord|25|02|S|130|00|W|display=inline}}.<ref>{{cite magazine |magazine=[[The European Magazine, and London Review]] |publisher=Philological Society of London |date=January–June 1816 |volume=69 |title=Mutineers of the Bounty |url=https://books.google.com/books?id=mOwRAAAAYAAJ&pg=PA134 |page=134}}</ref> However, this was not known to Sir [[Thomas Staines]], who commanded a Royal Navy [[flotilla]] of two ships, HMS ''Briton'' and HMS ''Tagus'', which found the island at {{Coord|25|04|S|130|25|W|display=inline}} (by meridian observation) on 17 September 1814. Staines sent a party ashore and wrote a detailed report for the Admiralty.<ref name="hist">{{cite web |archive-url=https://web.archive.org/web/20141217050244/http://pitcairn.pn/Pitcairnshistory.php |archive-date=17 December 2014 |title=Pitcairn's History |url=http://pitcairn.pn/Pitcairnshistory.php |access-date=4 July 2015 |publisher=The Government of the Pitcairn Islands |url-status=dead }}</ref><ref>{{cite book |series=The Annual Biography and Obituary for the Year ... |publisher=Longman, Hurst, Rees, Orme, and Brown |year=1831 |volume=15 |title=Chapter X Sir Thomas Staines |url=https://books.google.com/books?id=ENoKAAAAYAAJ&pg=PA367 |pages=366–367 |access-date=5 July 2015 |archive-date=6 September 2015 |archive-url=https://web.archive.org/web/20150906050625/https://books.google.com/books?id=ENoKAAAAYAAJ&pg=PA367 |url-status=live }}<!-- Original from Harvard University Digitized 3 August 2007 --></ref><ref>{{cite web |url=http://library.puc.edu/pitcairn/pitcairn/history.shtml |title=History of Pitcairn Island |publisher=Pitcairn Islands Study Centre |access-date=15 September 2008 |archive-date=11 August 2015 |archive-url=https://web.archive.org/web/20150811201554/http://library.puc.edu/pitcairn/pitcairn/history.shtml |url-status=live }}</ref><ref>{{cite web |url=http://www.janesoceania.com/oceania_pitcairn_descendants/index.htm |title=Pitcairn descendants of the ''Bounty'' Mutineers |date=29 April 2009 |website=Jane's Oceania |archive-url=https://web.archive.org/web/20150814090411/http://www.janesoceania.com/oceania_pitcairn_descendants/index.htm |archive-date=14 August 2015 |url-status=usurped }}</ref> By that time, only one mutineer, John Adams, remained alive. He was granted amnesty for his part in the mutiny.<ref name="hist"/>
+
+Henderson Island was rediscovered on 17 January 1819 by British Captain James Henderson of the British [[East India Company]] ship ''Hercules''.<ref>{{Cite web|url=https://www.pressreader.com/new-zealand/sunday-star-times/20190602/281895889729695|title=The world's most tricky beach clean up|website=Sunday Star-Times|date=2 June 2009|access-date=6 March 2022}}</ref> Captain Henry King, sailing on ''Elizabeth'', landed on 2 March to find the king's [[Military colours, standards and guidons|colours]] already flying. His crew scratched the name of their ship into a tree. Oeno Island was discovered on 26 January 1824 by American captain [[George Worth (sea captain)|George Worth]] aboard the whaler {{ship||Oeno|ship|2}}.
+
+In 1832, having tried and failed to petition the British government and the [[London Missionary Society]], [[Joshua Hill (Pitcairn Island leader)|Joshua Hill]], an American adventurer, arrived.<ref>{{Cite journal |last1=Benton |first1=Lauren |last2=Clulow |first2=Adam |date=2025-04-29 |title=How Not to Possess an Island: Pitcairn and the Legal Circuits of British Empire in the Pacific World |url=https://www.cambridge.org/core/journals/annales-histoire-sciences-sociales-english-edition/article/abs/how-not-to-possess-an-island-pitcairn-and-the-legal-circuits-of-british-empire-in-the-pacific-world/4D4A0DD9349985B083602D4CC301A826 |journal=Annales. Histoire, Sciences Sociales– English Edition |language=en |pages=1–38 |doi=10.1017/ahsse.2024.21 |issn=2398-5682|url-access=subscription }}</ref> He reported that by March 1833, he had founded a [[temperance society]] to combat drunkenness, a "[[Maundy Thursday|Maundy Thursday Society]]", a monthly prayer meeting, a juvenile society, a Peace Society and a school.<ref>{{cite book |title=Church Missionary Society Archives |publisher=[[University of Birmingham]] |id=G/AC/15/75}} quoted in {{cite book |last=Wolffe |first=John |series=The expansion of evangelicalism |title=The age of Wilberforce, More, Chalmers, and Finney |volume=2 |publisher=Inter-Varsity Press |year=2007}}</ref>
+
+=== British colony ===
+Traditionally, Pitcairn Islanders consider that their islands officially became a British colony on 30 November 1838, at the same time becoming [[Timeline of women's suffrage|one of the first territories to extend voting rights to women]]. By the mid-1850s, the Pitcairn community was outgrowing the island; its leaders appealed to the British government for assistance, and were offered [[Norfolk Island]]. On 3 May 1856, the entire population of 193 people set sail for Norfolk on board the ''Morayshire'', arriving on 8 June after a difficult five-week trip. However, just 18 months later, 17 of the Pitcairn Islanders returned to their home island, and another 27 followed five years later.<ref name="hist"/>
+
+{{HMS|Thetis|1871|6}} visited Pitcairn Island on 18 April 1881 and "found the people very happy and contented, and in perfect health". At that time the population was 96, an increase of six since the visit of [[Algernon Frederick Rous de Horsey|Admiral de Horsey]] in September 1878. Stores had recently been delivered from friends in England, including two whale-boats and [[Portland cement]], which was used to make the reservoir watertight. HMS ''Thetis'' gave the islanders {{convert|200|lb|abbr=on}} of [[Hardtack|ship's biscuits]], {{convert|100|lb|abbr=on}} of candles, and 100&nbsp;lb of soap and clothing to the value of £31, donated by the [[ship's company]]. An American trading ship called ''Venus'' had in 1882 bestowed a supply of [[Cotton|cotton seed]], to provide the islanders with a crop for future trade.<ref>{{cite news |title=Visit To Pitcairn Island |url=https://newspaperarchive.com/cornwall-cornishman-mar-02-1882-p-6/ |type=[[Optical character recognition|OCR]] text |work=[[The Cornishman (newspaper)|The Cornishman]] |date=2 March 1882 |page=6 |access-date=5 August 2018 |archive-date=6 August 2018 |archive-url=https://web.archive.org/web/20180806024724/https://newspaperarchive.com/cornwall-cornishman-mar-02-1882-p-6/ |url-status=live }}</ref>
+[[File:Pitcairn Islanders, 1916.jpg|thumb|Pitcairn islanders, 1916]]
+In 1886, the [[Seventh-day Adventist Church|Seventh-day Adventist]] layman [[John Tay]] visited Pitcairn and persuaded most of the islanders to accept his faith. He returned in 1890 on the missionary schooner {{ship||Pitcairn|schooner|2}} with an ordained minister to perform [[baptism]]s. Since then, the majority of Pitcairn Islanders have been Adventists.<ref>{{cite book |page=92 |author=IBP USA |title=Pitcairn Islands Business Law Handbook |url=https://books.google.com/books?id=PylSC6hNWa8C&pg=PA92 |access-date=25 January 2015 |date=1 August 2013 |publisher=International Business Publications |isbn=9781438770796 |archive-date=18 March 2015 |archive-url=https://web.archive.org/web/20150318234835/http://books.google.com/books?id=PylSC6hNWa8C&pg=PA92 |url-status=live }}</ref>
+
+In 1898, for the purposes of a murder trial, the Pitcairn Islands were placed by the [[Secretary of State for the Colonies|Colonial Secretary]] under the jurisdiction of the [[High Commissioner for the Western Pacific]], based in Fiji.{{sfn|Eshleman|2011|p=22}} The islands of Henderson, Oeno and Ducie were annexed by Britain in 1902: Henderson on 1 July, Oeno on 10 July, and Ducie on 19 December.<ref name=histgovtlaws/> In 1938, the three islands, along with Pitcairn, were incorporated into a single administrative unit called the "Pitcairn Group of Islands". The population peaked at 233 in 1937.<ref>{{cite web|url=http://www.immigration.gov.pn/community/the_people/index.html|title=The People of Pitcairn Island|website=immigration.gov.pn|access-date=10 August 2018|archive-date=20 September 2020|archive-url=https://web.archive.org/web/20200920073619/http://www.immigration.gov.pn/community/the_people/index.html|url-status=live}}</ref> It has since decreased owing to emigration, primarily to Australia and New Zealand.<ref name="CIA"/>
+
+===Modern era===
+In 1952, Pitcairn was removed from the jurisdiction of the Western Pacific High Commission – which had relocated to the [[British Solomon Islands Protectorate]] – and placed under the direct jurisdiction of the [[Governor of Fiji]]. It was administered by the Pitcairn Office in [[Suva]],{{sfn|Eshleman|2011|pp=37–38}} although due to its isolation visits from British officials continued to occur only once or twice per decade.{{sfn|Eshleman|2011|pp=40–41}} Following Fiji's independence in 1970, the ''Pitcairn Order 1970'' created a new office of [[Governor of Pitcairn]].<ref>{{cite news|url=https://www.legislation.gov.uk/uksi/1970/1434/pdfs/uksi_19701434_en.pdf|title=The Pitcairn Order 1970, SI 1970/1434|date=30 September 1970|publisher=Government of the United Kingdom}}</ref> The governorship was vested in the [[List of British High Commissioners to New Zealand|British high commissioner to New Zealand]], with the administration based in the British consulate in [[Auckland]].{{sfn|Eshleman|2011|pp=47–49}}
+
+In the post-war period, the advent of jet airliners and [[containerisation]] contributed to a decline in ship traffic, which severely affected the island's economy. There was a mass exodus of residents in the early 1960s, with the population dropping from 140 in 1960 to 90 in 1962.{{sfn|Eshleman|2011|pp=43–44}} Advances in communication were slow to reach the island – until the 1980s, [[Radiogram (message)|radiograms]] and [[Ham radio]] were the primary methods of off-island communication, with [[Morse code]] used for official communications until 1982. Pitcairn was connected to the international phone system in 1985 and received internet access in 2002.{{sfn|Eshleman|2011|pp=45–46}}
+
+Three cases of imprisonment for raping underage girls were reported in the 1950s.<ref>"Island of shame", Claire Harvey, ''The Mercury'', 28 October 2004</ref> In 1999, Gail Cox, a police officer from [[Kent]], United Kingdom, served on a temporary assignment on Pitcairn, and uncovered allegations of sexual abuse. When a 15-year-old girl decided to press [[rape]] charges in 1999, criminal proceedings (code-named "Operation Unique") were set in motion. The charges included 21 counts of [[rape]], 41 of [[indecent assault]], and two of [[Indecency with Children Act 1960|gross indecency]] with a child under 14. Over the following two years, police officers in Australia, New Zealand and the United Kingdom interviewed every woman who had lived on Pitcairn in the past 20 years, as well as all of the accused men. These interviews revealed stories of girls as young as three being sexually assaulted and as young as 10 being gang-raped.<ref name="auto">{{Cite web |date=2006-11-19 |title=Pitcairn: The island of fear |url=https://www.independent.co.uk/news/world/australasia/pitcairn-the-island-of-fear-424862.html |access-date=2023-07-09 |website=The Independent |language=en}}</ref> The file was held by Pitcairn's first Public Prosecutor Simon Moore, an Auckland Crown Solicitor appointed to the position by the British government for the purposes of the investigation.<ref>{{Cite book|url=https://books.google.com/books?id=gP_-8rXzQs8C&pg=PA4480|title=The Europa World Year: Kazakhstan – Zimbabwe|date=2004|publisher=Taylor & Francis|isbn=9781857432558|language=en|access-date=2 November 2020|archive-date=3 November 2020|archive-url=https://web.archive.org/web/20201103085220/https://books.google.com/books?id=gP_-8rXzQs8C&pg=PA4480|url-status=live}}</ref><ref name="auto"/>
+
+Australian [[Seventh-day Adventist Church|Seventh-day Adventist]] pastor Neville Tosen, who spent two years on Pitcairn around the turn of the millennium, said that on his arrival, he had been taken aback by the conduct of the children, but he had not immediately realised what was happening. "I noticed worrying signs such as inexplicable mood swings," he said. "It took me three months to realise they were being abused." Tosen tried to bring the matter before the Island Council (the legislative body which doubles as the island's court), but was rebuffed. One councillor told him, "Look, the [[age of consent]] has always been 12, and it doesn't hurt them."<ref name="Paradise under a cloud">{{cite news|url=https://www.independent.co.uk/news/world/australasia/the-paradise-thats-under-a-cloud-9198421.html|title=The Paradise that's under a cloud|last=Marks|first=Kathy|date=23 January 2002|work=The Independent|access-date=2009-05-29|location=London|archive-date=21 January 2019|archive-url=https://web.archive.org/web/20190121232933/https://www.independent.co.uk/news/world/australasia/the-paradise-thats-under-a-cloud-9198421.html|url-status=live}}</ref> A study of island records confirmed anecdotal evidence that most girls bore their first child between the ages of 12 and 15. "I think the girls were conditioned to accept that it was a man's world and once they turned 12, they were eligible," Tosen said. Mothers and grandmothers were resigned to the situation, telling him that their own childhood experience had been the same; they regarded it as just a part of life on Pitcairn. One grandmother wondered what all the fuss was about.
+
+Tosen was convinced, however, that the early sexual experience was very damaging to the girls, outright stating, "They can't settle or form solid relationships. They did suffer, no doubt about it."<ref name="Paradise under a cloud"/><ref>{{Cite web|url=https://abcnews.go.com/Travel/story?id=118516&page=1|title=Child Sex Claims Haunt Remote Island|publisher=ABC News|location=United States}}</ref> In 2016, [[Mike Warren (mayor)|Mike Warren]], Pitcairn mayor from 2008 to 2013, was convicted and sentenced to 20 months imprisonment for possession of child pornography.<ref>{{cite news |url= https://www.theguardian.com/world/2016/mar/07/former-pitcairn-mayor-found-guilty-over-child-abuse-images|title=Former Pitcairn mayor found guilty over child abuse images|first=Eleanor|last= Ainge Roy|date=7 March 2016|access-date=17 November 2017|work=[[The Guardian]]|archive-date=17 May 2017|archive-url=https://web.archive.org/web/20170517170719/https://www.theguardian.com/world/2016/mar/07/former-pitcairn-mayor-found-guilty-over-child-abuse-images|url-status=live}}</ref><ref>{{cite web|author=Edward Gay |url=https://www.rnz.co.nz/news/national/295486/former-pitcairn-mayor-denies-porn-possession-charges |title=Former Pitcairn mayor denies porn possession charges |publisher=rnz.co.nz |date=2016-02-01 |access-date=2022-03-05}}</ref>
+
+==== Sexual assault trials of 2004 ====
+{{main|2004 Pitcairn Islands sexual assault trial}}
+
+In 2004, charges were laid against seven men living on Pitcairn and six residing abroad. This represented nearly a third of the male population and half of the island's adult males. After extensive trials, most were convicted, some on multiple counts of sexual assaults on children.<ref name="Tweedie 2004">{{cite news |url=https://www.telegraph.co.uk/news/worldnews/australiaandthepacific/pitcairnislands/1473399/Islander-changes-his-plea-to-admit-sex-assaults.html |title=Islander changes his plea to admit sex assaults |first=Neil |last=Tweedie |date=5 October 2004 |newspaper=The Telegraph |access-date=29 November 2011 |location=London |archive-date=12 August 2017 |archive-url=https://web.archive.org/web/20170812175937/http://www.telegraph.co.uk/news/worldnews/australiaandthepacific/pitcairnislands/1473399/Islander-changes-his-plea-to-admit-sex-assaults.html |url-status=live }}</ref> On 25 October 2004, six men were found guilty, including [[Steve Christian]], the island's mayor at the time.<ref name="Fickling 2004">{{cite news |url=https://www.theguardian.com/world/2004/oct/26/davidfickling |title=Six found guilty in Pitcairn sex offences trial: Defendants claim British law does not apply |date=25 October 2004 |last=Fickling |first=David |newspaper=The Guardian |location=London |archive-url=https://web.archive.org/web/20150702134223/http://www.theguardian.com/world/2004/oct/26/davidfickling |archive-date=2 July 2015 |url-status=live }}</ref><ref>{{cite news |title=Six guilty in Pitcairn sex trial |url=https://news.bbc.co.uk/2/hi/3950033.stm |publisher=BBC News |date=25 October 2004 |access-date=29 November 2011 |archive-date=31 July 2017 |archive-url=https://web.archive.org/web/20170731092733/http://news.bbc.co.uk/1/hi/3950033.stm |url-status=live }}</ref><ref>{{cite news |title=6 men convicted in Pitcairn trials |url=https://www.nytimes.com/2004/10/25/world/25iht-pitcaIRN.html |date=24 October 2004 |access-date=29 November 2011 |newspaper=The New York Times |archive-date=5 January 2015 |archive-url=https://web.archive.org/web/20150105131917/http://www.nytimes.com/2004/10/25/world/25iht-pitcaIRN.html |url-status=live }}</ref>
+
+In the same year, the islanders surrendered about 20 firearms ahead of the [[Pitcairn sexual assault trial of 2004|sexual assault trials]].<ref>{{cite news |url=http://tvnz.co.nz/content/441332 |archive-url=https://web.archive.org/web/20150317210435/http://tvnz.co.nz/content/441332 |archive-date=17 March 2015 |access-date=4 July 2015 |date=11 August 2004 |title=Pitcairn islanders to surrender guns |agency=Reuters|publisher=Television New Zealand |url-status=dead }}</ref> Following the loss of their final appeal, the British government constructed a prison at Bob's Valley to house the convicted men.<ref>{{cite news |url=http://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=10127299 |title=Pitcairners stay free till British hearing |last=Marks |first=Kathy |author-link=Kathy Marks |date=25 May 2005 |newspaper=The New Zealand Herald |access-date=29 November 2011 |archive-date=4 August 2011 |archive-url=https://web.archive.org/web/20110804221357/http://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=10127299 |url-status=live }}</ref><ref>{{cite book |title=Lost Paradise: From Mutiny on the Bounty to a Modern-Day Legacy of Sexual Mayhem, the Dark Secrets of Pitcairn Island Revealed |publisher=Simon and Schuster |first=Kathy |last=Marks |author-link=Kathy Marks |date=2009 |isbn=9781416597841 |page=288 |url=https://books.google.com/books?id=aBl_hS0YgvIC&pg=PA288 |access-date=5 July 2015 |archive-date=6 September 2015 |archive-url=https://web.archive.org/web/20150906043508/https://books.google.com/books?id=aBl_hS0YgvIC&pg=PA288 |url-status=live }}</ref> The men began serving their sentences in late 2006, and by 2010 all had either completed their terms or been granted home detention status.<ref>{{cite news |archive-url=https://web.archive.org/web/20150702171040/http://smh.com.au/breaking-news-world/last-pitcairn-rape-prisoner-released-20090423-afkt.html |archive-date=2 July 2015 |url=http://www.smh.com.au/breaking-news-world/last-pitcairn-rape-prisoner-released-20090423-afkt.html |newspaper=The Sydney Morning Herald |title=Last Pitcairn rape prisoner released |date=23 April 2009 |access-date=4 July 2015 |url-status=dead }}</ref>
+
+== Geography ==
+{{Main|Geography of the Pitcairn Islands}}
+
+[[File:Pitcairn Island Group.svg|thumb|350px|Map of the Pitcairn Islands]]
+
+The Pitcairn Islands form the southeasternmost extension of the geological [[archipelago]] of the [[Tuamotus]] of [[French Polynesia]], and consist of four islands: [[Pitcairn Island]], [[Oeno Island]] (atoll with five islets, one of which is Sandy Island), [[Henderson Island (Pitcairn Islands)|Henderson Island]] and [[Ducie Island]] (atoll with four islets).
+
+The Pitcairn Islands were formed by a centre of upwelling [[magma]] called the [[Pitcairn hotspot]]. [[Pitcairn Island]] is a volcanic remnant primarily formed of [[tuff]], where the north side of the cone has been eroded.<ref name="PitcairnFurey">{{Cite Q|Q106827302}}</ref> Pitcairn is the only permanently inhabited island. Adamstown, the main settlement on the island, lies within the volcanic basin.<ref name="PitcairnFurey"/> Pitcairn is accessible only by boat through Bounty Bay, due to the island's steep cliffs.<ref name="PitcairnFurey"/> Henderson Island, covering about 86% of the territory's total land area and supporting a rich variety of animals in its nearly inaccessible interior, is also capable of supporting a small human population despite its scarce fresh water, but access is difficult, owing to its outer shores being steep limestone cliffs covered by sharp coral. In 1988, this island was designated as a UNESCO World Heritage site.<ref name="Britannica">{{cite encyclopedia |encyclopedia=Encyclopædia Britannica |title=Pitcairn Island: Island, Pacific Ocean |url=http://www.britannica.com/place/Pitcairn-Island |date=2015 |access-date=20 October 2015 |archive-date=24 November 2015 |archive-url=https://web.archive.org/web/20151124230606/https://www.britannica.com/place/Pitcairn-Island |url-status=live }}</ref> The other islands are at a distance of more than {{convert|100|km|abbr=on}} and are not habitable.
+
+Pitcairn Island has no permanent water source; however, the island has three seasonal semi-permanent springs.<ref name="PitcairnFurey"/>
+
+{| class="wikitable"
+|-
+! Island or atoll || Type || Land area<br />(km<sup>2</sup>) || Total area<br />(km<sup>2</sup>) || Pop.<br />2023 || Coordinates
+|-
+| [[Ducie Island]] || [[Atoll]]<sup>†</sup> || style="text-align:right"| 0.7 || style="text-align:right"| 3.9 || style="text-align:right"| 0 || {{Coord|24|40|28|S|124|47|10|W|}}
+|-
+| [[Henderson Island (Pitcairn Islands)|Henderson Island]] || [[Tectonic uplift|Uplifted coral island]] || style="text-align:right"| 37.3 || style="text-align:right"| 37.3 || style="text-align:right"| 0 || {{Coord|24|22|01|S|128|18|57|W|}}
+|-
+| [[Oeno Island]] || Atoll<sup>†</sup> || style="text-align:right"| 0.65 || style="text-align:right"| 16.65 || style="text-align:right"| 0 || {{Coord|23|55|40|S|130|44|30|W|}}
+|-
+| [[Pitcairn Island]] || [[Volcano|Volcanic island]] || style="text-align:right"| 4.6 || style="text-align:right"| 4.6 || style="text-align:right"| 35 || {{Coord|25|04|00|S|130|06|00|W|}}
+|-
+| Pitcairn Islands<br />(all islands) || {{ndash}} || style="text-align:right"| 43.25 || style="text-align:right"| 62.45 || style="text-align:right"| 35 || 23°55′40″ to 25°04′00″S,<br />124°47′10″ to 130°44′30″W
+|}
+<sup>†</sup> Includes reef flat and lagoon of the atolls.
+
+<gallery mode="packed">
+File:Pitcairn Island NOAA.jpg|View from the east side of Pitcairn Island
+File:Pitcairnsatellite.png|Satellite photo of Pitcairn Island
+File:Bounty bay.jpg|View of [[Bounty Bay]]
+</gallery>
+
+=== Climate ===
+[[File:Geodesy Collection Pitcairn Island.jpg|thumb|[[Geodesy]] operations on the Pitcairn Islands]]
+{{Main|Climate of the Pitcairn Islands}}
+
+Pitcairn is located just south of the Tropic of Capricorn and experiences year-round warm weather.
+
+{{Weather box
+|location = Pitcairn Island (1972–2004)
+|metric first = y
+|single line = y
+|collapsed = yes
+|Jan high C = 25.7
+|Feb high C = 26.2
+|Mar high C = 26.1
+|Apr high C = 24.6
+|May high C = 22.9
+|Jun high C = 21.7
+|Jul high C = 20.8
+|Aug high C = 20.6
+|Sep high C = 21.0
+|Oct high C = 21.8
+|Nov high C = 22.9
+|Dec high C = 24.2
+|year high C =
+|Jan mean C = 23.3
+|Feb mean C = 23.8
+|Mar mean C = 23.8
+|Apr mean C = 22.5
+|May mean C = 20.9
+|Jun mean C = 19.7
+|Jul mean C = 18.8
+|Aug mean C = 18.5
+|Sep mean C = 18.8
+|Oct mean C = 19.6
+|Nov mean C = 20.7
+|Dec mean C = 22.0
+|year mean C =
+|Jan low C = 21.0
+|Feb low C = 21.4
+|Mar low C = 21.5
+|Apr low C = 20.3
+|May low C = 18.9
+|Jun low C = 17.8
+|Jul low C = 16.9
+|Aug low C = 16.5
+|Sep low C = 16.6
+|Oct low C = 17.4
+|Nov low C = 18.6
+|Dec low C = 19.8
+|year low C =
+|Jan record high C = 31.2
+|Feb record high C = 32.4
+|Mar record high C = 33.3
+|Apr record high C = 30.7
+|May record high C = 29.1
+|Jun record high C = 31.3
+|Jul record high C = 26.7
+|Aug record high C = 26.7
+|Sep record high C = 25.5
+|Oct record high C = 27.8
+|Nov record high C = 27.6
+|Dec record high C = 29.3
+|Jan record low C = 16.9
+|Feb record low C = 18.0
+|Mar record low C = 12.8
+|Apr record low C = 15.0
+|May record low C = 14.2
+|Jun record low C = 11.7
+|Jul record low C = 11.4
+|Aug record low C = 11.6
+|Sep record low C = 10.0
+|Oct record low C = 10.2
+|Nov record low C = 13.0
+|Dec record low C = 13.5
+|precipitation colour = green
+|Jan precipitation mm = 96.5
+|Feb precipitation mm = 132.7
+|Mar precipitation mm = 107.8
+|Apr precipitation mm = 114.8
+|May precipitation mm = 111.9
+|Jun precipitation mm = 152.8
+|Jul precipitation mm = 139.0
+|Aug precipitation mm = 131.6
+|Sep precipitation mm = 134.5
+|Oct precipitation mm = 143.0
+|Nov precipitation mm = 120.4
+|Dec precipitation mm = 157.7
+|year precipitation mm =
+
+|source 1 = NOAA<ref>
+{{cite web
+| url = https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:PC000919640/detail
+| title = PITCAIRN ISLAND C, PC
+| publisher = [[National Oceanic and Atmospheric Administration]]
+| accessdate = 5 January 2023
+}}
+</ref>
+|source 2 = KNMI (precipitation)<ref>
+{{cite web
+| url = http://climexp.knmi.nl/getprcpall.cgi?id=someone@somewhere&WMO=91960&STATION=PITCAIRN_IS._(UK)&extraargs=
+| title = Time series: monthly PITCAIRN IS. (UK) GHCN v2 precipitation (all)
+| publisher = [[Royal Netherlands Meteorological Institute]]
+| accessdate = 5 January 2023
+}}
+</ref>
+}}
+
+=== Pitcairn Islands Dark Sky Sanctuary ===
+In March 2019 the [[International Dark-Sky Association]] approved the Pitcairn Islands as a Dark Sky Sanctuary. The sanctuary encompasses all 4 islands in the Pitcairn Islands Group for a total land area of 43.25&nbsp;km<sup>2</sup> (16{{frac|3|4}} sq. mi.).<ref>{{cite web|url=http://www.visitpitcairn.pn/dark_sky/index.html|title=Dark Sky Sanctuary|website=VisitPitcairn-DarkSky|access-date=2019-12-01|archive-date=24 November 2019|archive-url=https://web.archive.org/web/20191124005103/http://www.visitpitcairn.pn/dark_sky/index.html|url-status=live}}</ref>
+
+== Ecology ==
+
+=== Flora ===
+About 16 plant species are thought to be [[Endemism|endemic]] to Pitcairn. These include tapau, formerly an important timber resource, and the [[Angiopteris|giant nehe fern]]. Some, such as red berry (''[[Coprosma benefica]]''), are perilously close to extinction.<ref>{{Cite iucn|url=https://www.iucnredlist.org/species/38851/226257983|title=The IUCN Red List of Threatened Species|date=January 2023|access-date=2026-01-25|url-status=live}}</ref> The plant species ''[[Glochidion pitcairnense]]'' is endemic to Pitcairn and Henderson Islands.<ref>{{Cite iucn|url=https://www.iucnredlist.org/species/32345/226258122|title=The IUCN Red List of Threatened Species|date=January 2023|access-date=2026-01-25|url-status=live}}</ref> Pitcairn is part of the [[Tuamotu tropical moist forests]] terrestrial ecoregion.<ref name="DinersteinOlson2017">{{cite journal|last1=Dinerstein|first1=Eric|last2=Olson|first2=David|last3=Joshi|first3=Anup|last4=Vynne|first4=Carly|last5=Burgess|first5=Neil D.|last6=Wikramanayake|first6=Eric|last7=Hahn|first7=Nathan|last8=Palminteri|first8=Suzanne|last9=Hedao|first9=Prashant|last10=Noss|first10=Reed|last11=Hansen|first11=Matt|last12=Locke|first12=Harvey|last13=Ellis|first13=Erle C|last14=Jones|first14=Benjamin|last15=Barber|first15=Charles Victor|last16=Hayes|first16=Randy|last17=Kormos|first17=Cyril|last18=Martin|first18=Vance|last19=Crist|first19=Eileen|last20=Sechrest|first20=Wes|last21=Price|first21=Lori|last22=Baillie|first22=Jonathan E. M.|last23=Weeden|first23=Don|last24=Suckling|first24=Kierán|last25=Davis|first25=Crystal|last26=Sizer|first26=Nigel|last27=Moore|first27=Rebecca|last28=Thau|first28=David|last29=Birch|first29=Tanya|last30=Potapov|first30=Peter|last31=Turubanova|first31=Svetlana|last32=Tyukavina|first32=Alexandra|last33=de Souza|first33=Nadia|last34=Pintea|first34=Lilian|last35=Brito|first35=José C.|last36=Llewellyn|first36=Othman A.|last37=Miller|first37=Anthony G.|last38=Patzelt|first38=Annette|last39=Ghazanfar|first39=Shahina A.|last40=Timberlake|first40=Jonathan|last41=Klöser|first41=Heinz|last42=Shennan-Farpón|first42=Yara|last43=Kindt|first43=Roeland|last44=Lillesø|first44=Jens-Peter Barnekow|last45=van Breugel|first45=Paulo|last46=Graudal|first46=Lars|last47=Voge|first47=Maianna|last48=Al-Shammari|first48=Khalaf F.|last49=Saleem|first49=Muhammad|display-authors=1|title=An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm|journal=BioScience|volume=67|issue=6|year=2017|pages=534–545|issn=0006-3568|doi=10.1093/biosci/bix014|pmid=28608869|pmc=5451287|doi-access=free}}</ref>
+
+=== Fauna ===
+{{see also|List of birds of the Pitcairn Islands|List of mammals of Pitcairn}}
+Between 1937 and 1951, [[Irving Johnson]], skipper of the {{convert|96|ft|adj=on|order=flip}} brigantine ''Yankee Five'', introduced five [[Galápagos tortoise|Galápagos giant tortoises]] to Pitcairn. Turpen, also known as [[Mr Turpen]], or Mr. T, is the sole survivor. Turpen usually lives at Tedside by Western Harbour. A protection order makes it an offence should anyone kill, injure, capture, maim, or cause harm or distress to the tortoise.<ref>[http://www.government.pn/Laws/Endangered%20Species%20Protection%20Ordinance.pdf Endangered Species Protection Ordinance] {{Webarchive|url=https://web.archive.org/web/20130225212137/http://www.government.pn/Laws/Endangered%20Species%20Protection%20Ordinance.pdf |date=25 February 2013 }}, 2004 revised edition. government.pn</ref>
+
+The birds of Pitcairn fall into several groups. These include seabirds, wading birds and a small number of resident land-bird species. Of 20 breeding species, Henderson Island has 16, including the unique flightless [[Henderson crake]]; Oeno hosts 12; Ducie 13 and Pitcairn six species. Birds breeding on Pitcairn include the [[fairy tern]], [[Brown noddy|common noddy]] and [[red-tailed tropicbird]]. The [[Pitcairn reed warbler]], known by Pitcairners as a "sparrow", is endemic to Pitcairn Island; formerly common, it was added to the [[endangered species]] list in 2008.<ref>{{Cite iucn|url=https://www.iucnredlist.org/species/22714832/94429444|title=The IUCN Red List of Threatened Species|date=October 2016|access-date=2018-10-23|archive-date=23 October 2018|archive-url=https://web.archive.org/web/20181023234246/https://www.iucnredlist.org/species/22714832/94429444|url-status=live}}</ref>
+
+A small population of [[humpback whale]]s migrate to the islands annually, to [[overwintering|over-winter]] and breed.<ref>{{cite journal |author=Catharine Horswill (a1) and Jennifer A. Jackson (a1) |url=https://www.cambridge.org/core/journals/marine-biodiversity-records/article/div-classtitlehumpback-whales-wintering-at-pitcairn-island-south-pacificdiv/0BF206BF5F0916C6712156BECA98C799 |title=Humpback whales wintering at Pitcairn Island, South Pacific |journal=Marine Biodiversity Records |year=2012 |volume=5 |article-number=e90 |doi=10.1017/S1755267212000693 |publisher=Cambridge.org |bibcode=2012MBdR....5E..90H |access-date=2018-01-03 |archive-date=2 February 2017 |archive-url=https://web.archive.org/web/20170202120007/https://www.cambridge.org/core/journals/marine-biodiversity-records/article/div-classtitlehumpback-whales-wintering-at-pitcairn-island-south-pacificdiv/0BF206BF5F0916C6712156BECA98C799 |url-status=live |url-access=subscription }}</ref>
+
+==== Important bird areas ====
+The four islands in the Pitcairn group have been identified by [[BirdLife International]] as separate [[Important Bird Area]]s (IBAs). Pitcairn Island is recognised because it is the only nesting site of the [[Pitcairn reed warbler]]. Henderson Island is important for its endemic land-birds as well as its breeding [[seabird]]s. Oeno's ornithological significance derives principally from its [[Murphy's petrel]] colony. Ducie is important for its colonies of [[Murphy's petrel|Murphy's]], [[herald petrel|herald]] and [[Kermadec petrel]]s, and [[Christmas shearwater]]s.<ref>BirdLife International. (2012). [http://www.birdlife.org/datazone/sitefactsheet.php?id=19786 Important Bird Areas factsheet: Pitcairn Island] {{Webarchive|url=https://web.archive.org/web/20130510004443/http://www.birdlife.org/datazone/sitefactsheet.php?id=19786 |date=10 May 2013 }}</ref>
+
+=== Pitcairn Islands Marine Reserve ===
+In March 2015 the British government established [[List of largest protected areas|one of the largest marine protected area]]s in the world around the Pitcairn Islands. The reserve covers the islands' entire [[exclusive economic zone]]—{{convert|834334|km2}}. The intention is to protect some of the world's most pristine ocean habitat from [[illegal fishing]] activities. A satellite "watchroom" dubbed Project Eyes on the Seas has been established by the [[UK Space Agency|Satellite Applications Catapult]] and [[the Pew Charitable Trusts]] at the [[Harwell Science and Innovation Campus]] in [[Harwell, Oxfordshire]] to monitor vessel activity and to gather the information needed to prosecute unauthorised trawling.<ref name="Gauke 2015">{{cite book |editor-last=Gauke |editor-first=David |editor-link=David Gauke |date=2015 |chapter=2.259 Marine Protected Area (MPA) at Pitcairn |chapter-url=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/416330/47881_Budget_2015_Web_Accessible.pdf#page=101 |url=https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/416330/47881_Budget_2015_Web_Accessible.pdf |url-status=live |archive-url=https://web.archive.org/web/20151010081528/http://www.gov.uk/government/uploads/system/uploads/attachment_data/file/416330/47881_Budget_2015_Web_Accessible.pdf |archive-date=10 October 2015 |title=Budget 2015: The Red Book |publisher=[[HM Treasury]] |location=London |page=97 |isbn=978-1-4741-1616-9 |oclc=907644530 |quote=The government intends to proceed with designation of {{bracket|an}} MPA around Pitcairn. This will be dependent upon reaching agreement with [[NGOs]] on satellite monitoring and with authorities in relevant ports to prevent landing of illegal catch, as well as on identifying a practical naval method of enforcing the MPA at a cost that can be accommodated within existing departmental expenditure limits. }}</ref><ref>{{cite news |first=Jonathan |last=Amos |date=18 March 2015 |title=Budget 2015: Pitcairn Islands get huge marine reserve |url=https://www.bbc.co.uk/news/science-environment-31943633 |publisher=BBC News |access-date=18 March 2015 |archive-date=18 March 2015 |archive-url=https://web.archive.org/web/20150318140613/http://www.bbc.co.uk/news/science-environment-31943633 |url-status=live }}</ref><ref>{{cite press release |title=Pew, National Geographic Applaud Creation of Pitcairn Islands Marine Reserve |url=http://www.pewtrusts.org/en/about/news-room/press-releases/2015/03/18/pew-national-geographic-applaud-creation-of-pitcairn-islands-marine-reserve |location=London |publisher=[[The Pew Charitable Trusts]] |date=18 March 2015 |access-date=18 March 2015 |archive-date=2 April 2015 |archive-url=https://web.archive.org/web/20150402121759/http://www.pewtrusts.org/en/about/news-room/press-releases/2015/03/18/pew-national-geographic-applaud-creation-of-pitcairn-islands-marine-reserve |url-status=live }}</ref><ref>{{cite news |first=Brian |last=Clark Howard |date=18 March 2015 |title=World's Largest Single Marine Reserve Created in Pacific |url=http://news.nationalgeographic.com/2015/03/150318-pitcairn-marine-reserve-protected-area-ocean-conservation/ |magazine=[[National Geographic (magazine)|National Geographic]] |access-date=18 March 2015 |archive-date=21 March 2015 |archive-url=https://web.archive.org/web/20150321014012/http://news.nationalgeographic.com/2015/03/150318-pitcairn-marine-reserve-protected-area-ocean-conservation/ |url-status=dead }}</ref>
+
+== Politics ==
+{{Main|Politics of the Pitcairn Islands}}
+
+The Pitcairn Islands are a [[British overseas territory]] with a degree of local government. The [[King of the United Kingdom]] is represented by a Governor, who also holds office as [[List of High Commissioners of the United Kingdom to New Zealand|British High Commissioner]] to New Zealand and is based in [[Wellington]].<ref>"[http://pitcairn.pn/ Home] {{Webarchive|url=https://web.archive.org/web/20060831132712/http://pitcairn.pn/ |date=31 August 2006 }}." Government of the Pitcairn Islands. Retrieved 31 October 2011.</ref>
+
+The 2010 constitution gives authority for the islands to operate as a [[representative democracy]], with the United Kingdom retaining responsibility for matters such as defence and foreign affairs. The Governor and the Island Council may enact laws for the "[[peace, order and good government]]" of Pitcairn. The [[Island Council (Pitcairn)|Island Council]] customarily appoints a [[List of rulers of the Pitcairn Islands|Mayor of Pitcairn]] as a day-to-day head of the local administration.
+
+Since 2015, same-sex marriage has been legal on Pitcairn Island, although there are no people on the island known to be in such a relationship.<ref>{{cite news|url=https://www.theguardian.com/global/2015/jun/22/pitcairn-island-population-48-passes-law-to-allow-same-sex-marriage|title=Pitcairn Island, population 48, passes law to allow same-sex marriage|website=The Guardian|agency=Associated Press|date=22 June 2015|access-date=12 December 2016|archive-date=15 December 2015|archive-url=https://web.archive.org/web/20151215204159/http://www.theguardian.com/global/2015/jun/22/pitcairn-island-population-48-passes-law-to-allow-same-sex-marriage|url-status=live}}</ref>
+
+The Pitcairn Islands have the smallest population of any democracy in the world.
+
+The [[United Nations Committee on Decolonization]] includes the Pitcairn Islands on the [[United Nations list of non-self-governing territories]].<ref>{{cite web |url=https://www.un.org/en/decolonization/nonselfgovterritories.shtml |title=United Nations list of non-self-governing territories |publisher=United Nations |access-date=4 July 2015 |archive-date=27 February 2014 |archive-url=https://web.archive.org/web/20140227010648/http://www.un.org/en/decolonization/nonselfgovterritories.shtml |url-status=live }}</ref>
+
+== Military ==
+The Pitcairn Islands are a [[British Overseas Territory]]; defence is the responsibility of the [[UK Ministry of Defence|Ministry of Defence]] and the [[British Armed Forces]].<ref name="CIA"/> The [[Royal Navy]] maintains two [[offshore patrol vessel]]s in the Indo-Pacific region, {{HMS|Tamar|P233|6}} and {{HMS|Spey|P234|6}}. Either may be periodically employed for sovereignty protection and other duties around Pitcairn and her associated islands.<ref>{{cite web |url=https://www.royalnavy.mod.uk/news-and-latest-activity/news/2022/march/04/220322-hms-spey-delivers-vaccines-and-patrols-for-illegal-fishing-in-pitcairn-islands |title=HMS Spey delivers vaccines and patrols for illegal fishing in Pitcairn Islands |publisher=Royal Navy |date=4 March 2022 |access-date=18 October 2022}}</ref><ref>{{cite web |url=https://www.royalnavy.mod.uk/news-and-latest-activity/news/2022/may/16/20220516-tamar-and-spey-underline-uks-renewed-commitment-to-the-indo-pacific |title=Tamar and Spey underline UK's renewed commitment to the Indo-Pacific |publisher=Royal Navy |date=16 May 2022 |access-date=18 October 2022}}</ref><ref>{{cite web |url=https://www.forces.net/services/navy/hms-tamar-visits-remote-tropical-island-where-her-crew-outnumber-inhabitants |title=HMS Tamar visits remote tropical island where her crew outnumber the inhabitants |website=ForcesNet |date=18 January 2024 |access-date=19 January 2024}}</ref><ref>{{cite web |url=https://www.royalnavy.mod.uk/news/2026/april/13/20260413-tamar-in-pitcairn |title=A team of Royal Navy divers safely detonated more than 3½ tonnes of explosives during a visit by HMS Tamar to the remote Pitcairn Islands. |website=Royal Navy|date=13 April 2026 |access-date=13 April 2026}}</ref>
+
+== Economy ==
+{{Export treemap Pitcairn Islands}}
+
+=== Agriculture ===
+The fertile soil of the Pitcairn valleys, such as Isaac's Valley on the gentle slopes southeast of [[Adamstown, Pitcairn Islands|Adamstown]], produces a wide variety of fruits, including bananas (Pitkern: ''plun''), [[papaya]] (''paw paws''), [[pineapple]]s, [[mango]]es, [[watermelon]]s, [[cantaloupe]]s, [[passionfruit]], [[breadfruit]], [[coconut]]s, [[avocado]]es, and [[citrus]] (including [[mandarin orange]]s, [[grapefruit]], lemons and [[Lime (fruit)|limes]]). Vegetables include [[sweet potato]]es (kumura), carrots, [[sweet corn]], tomatoes, [[taro]], [[yam (vegetable)|yams]], [[peas]], and [[bean]]s. [[Arrowroot]] (''Maranta arundinacea'') and [[sugarcane]] are grown and harvested to produce arrowroot flour and [[molasses]], respectively. Pitcairn Island is remarkably productive and its benign climate supports a wide range of tropical and temperate crops.<ref>Secretariat of the Pacific Community (SPC): Pitcairn Islands-Joint Country Strategy, 2008.</ref> All land allocation for any use including agriculture is under the discretion of the government. If the government deems agricultural production excessive, then it may tax the land. If the agricultural land has been deemed not up to the standards of the government, it may confiscate and transfer the land without compensation.<ref>{{cite web |url=http://www.pitcairn.pn/Laws/Land%20Tenure%20Reform%20Ordinance.pdf |title=Archived copy |access-date=30 April 2018 |archive-date=26 November 2018 |archive-url=https://web.archive.org/web/20181126131937/http://www.pitcairn.pn/Laws/Land%20Tenure%20Reform%20Ordinance.pdf |url-status=live }}</ref>
+
+Fish are plentiful in the seas around Pitcairn. [[Spiny lobster]] and a large variety of fish are caught for meals and for trading aboard passing ships. Almost every day, someone will go fishing, whether it is from the rocks, from a longboat, or diving with a spear gun. There are numerous types of fish around the island. Fish such as nanwee, white fish, moi, and opapa are caught in shallow water, while snapper, big eye, and cod are caught in deep water, and yellow tail and wahoo are caught by trawling.
+
+=== Minerals ===
+Manganese, iron, copper, gold, silver and zinc have been discovered within the [[exclusive economic zone]], which extends {{convert|370|km|abbr=on}} offshore and comprises {{convert|880000|km2|abbr=on}}.<ref>{{cite book |author1=Commonwealth Secretariat |author2=Rupert Jones-Parry |title=The Commonwealth Yearbook 2010 |url=https://books.google.com/books?id=lhYARwAACAAJ |year=2010 |publisher=Commonwealth Secretariat |isbn=9780956306012 |chapter=Pitcairn Economy |access-date=7 November 2015 |archive-date=12 April 2016 |archive-url=https://web.archive.org/web/20160412231150/https://books.google.com/books?id=lhYARwAACAAJ |url-status=live }}</ref>
+
+=== Honey production ===
+In 1998, the UK's overseas aid agency, the [[Department for International Development]], funded an [[apiculture]] programme for Pitcairn which included training for Pitcairn's [[beekeeper]]s and a detailed analysis of Pitcairn's bees and honey with particular regard to the presence or absence of disease. Pitcairn has one of the best examples of disease-free bee populations anywhere in the world and the honey produced was and remains exceptionally high in quality. Pitcairn bees are also a placid variety and, within a short time, beekeepers are able to work with them wearing minimal protection.<ref>{{cite news |first=Aislinn |last=Laing |date=9 January 2010 |title=Sales of honey fall for the first time in six years amid British bee colony collapse |url=https://www.telegraph.co.uk/foodanddrink/foodanddrinknews/6953131/Sales-of-honey-fall-for-the-first-time-in-six-years-amid-British-bee-colony-collapse.html |newspaper=The Daily Telegraph |location=London |access-date=3 January 2015 |archive-date=4 January 2015 |archive-url=https://web.archive.org/web/20150104000430/http://www.telegraph.co.uk/foodanddrink/foodanddrinknews/6953131/Sales-of-honey-fall-for-the-first-time-in-six-years-amid-British-bee-colony-collapse.html |url-status=live }}</ref> As a result, Pitcairn exports honey to New Zealand and to the United Kingdom. In London, [[Fortnum & Mason]] sells it and it is reportedly a favourite of [[Charles III|King Charles]] and formerly [[Elizabeth II|Queen Elizabeth]].<ref>{{cite news |first=Sri |last=Carmichael |date=8 January 2010 |title=I'll let you off, Mr Christian: you make honey fit for a queen |url=https://www.standard.co.uk/news/ill-let-you-off-mr-christian-you-make-honey-fit-for-a-queen-6798687.html |newspaper=Evening Standard|location=London |access-date=3 January 2015 |archive-date=4 January 2015 |archive-url=https://web.archive.org/web/20150104000854/http://www.standard.co.uk/news/ill-let-you-off-mr-christian-you-make-honey-fit-for-a-queen-6798687.html |url-status=live }}</ref> The Pitcairn Islanders, under the "Bounty Products" and "Delectable Bounty" brands, also export dried fruit including bananas, papayas, pineapples, and mangoes to New Zealand.<ref>Pitcairn Islands Study Center, News Release: Products from Pitcairn, 7 November 1999.</ref> Honey production and all honey-related products are a protected monopoly.<ref>{{cite web |url=http://www.pitcairn.pn/Laws/Apiaries%20Ordinance.pdf |title=Archived copy |access-date=30 April 2018 |archive-date=26 November 2018 |archive-url=https://web.archive.org/web/20181126130758/http://www.pitcairn.pn/Laws/Apiaries%20Ordinance.pdf |url-status=live }}</ref> All funds and management are under the supervision and discretion of the government.<ref name="pitcairn.pn">{{cite web |url=http://www.pitcairn.pn/Laws/Pitcairn%20Souvenir%20Agency%20Ordinance.pdf |title=Archived copy |access-date=30 April 2018 |archive-date=26 November 2018 |archive-url=https://web.archive.org/web/20181126131026/http://www.pitcairn.pn/Laws/Pitcairn%20Souvenir%20Agency%20Ordinance.pdf |url-status=live }}</ref><ref name="government.pn">{{cite web |url=http://www.government.pn/Pitcairn%20Islands%20Economic%20Report%20-%20Final%20Report.pdf |title=Archived copy |access-date=13 February 2015 |archive-date=6 October 2014 |archive-url=https://web.archive.org/web/20141006191646/http://www.government.pn/Pitcairn%20Islands%20Economic%20Report%20-%20Final%20Report.pdf |url-status=live }}</ref>
+
+===Cuisine===
+Cuisine is not very developed because of Pitcairn's small population. The most traditional meal is pota, mash from [[palm leaves]] and [[coconut]].<ref>Zdroj: http://www.young.pn/dbz_potta.html {{Webarchive|url=https://web.archive.org/web/20171128084721/http://www.young.pn/dbz_potta.html |date=28 November 2017 }}</ref> Domestic [[tropical plants]] are abundantly used. These include [[basil]], [[breadfruit]], [[sugar cane]], [[coconut]], [[bananas]] and [[beans]]. [[Meat]] courses consist mainly of [[fish]] and [[beef]]. Given that most of the population's ancestry is from the UK, the cuisine is influenced by [[British cuisine]]; for example, the [[meat pie]].<ref>Zdroj: http://ndish.com/pie/ {{Webarchive|url=https://web.archive.org/web/20171109134451/http://ndish.com/pie/ |date=9 November 2017 }}</ref>
+
+The cuisine of [[Norfolk Island]] is very similar to that of the Pitcairn Islands, as Norfolk Islanders trace their origins to Pitcairn. The local cuisine is a blend of [[British cuisine]] and [[Tahitian cuisine]].<ref>{{cite web|url=http://www.jasons.com/norfolk-island/shopping-in-norfolk-island|title=Jasons|website=Jasons|access-date=9 November 2017|archive-date=9 November 2017|archive-url=https://web.archive.org/web/20171109191119/http://www.jasons.com/norfolk-island/shopping-in-norfolk-island|url-status=live}}</ref><ref>{{cite web|url=http://www.flightcentre.com.au/world-travel/australia/norfolk-island|title=Norfolk Island Travel Guide – Norfolk Island Tourism – Flight Centre|access-date=9 November 2017|archive-date=10 November 2017|archive-url=https://web.archive.org/web/20171110114547/https://www.flightcentre.com.au/world-travel/australia/norfolk-island|url-status=live}}</ref>
+
+Recipes from Norfolk Island of Pitcairn origin include mudda (green banana dumplings) and kumara pilhi.<ref>{{cite web|url=http://www.theoldfoodie.com/2015/03/the-food-of-norfolk-island.html|title=The Food of Norfolk Island.|website=theoldfoodie.com|access-date=26 July 2018|archive-date=26 July 2018|archive-url=https://web.archive.org/web/20180726201742/http://www.theoldfoodie.com/2015/03/the-food-of-norfolk-island.html|url-status=live}}</ref><ref>{{cite web|url=http://www.healthy-life.narod.ru/wor_ek156.htm|title=Norfolk Island (Norfolk Island Recipes)|website=healthy-life.narod.ru|access-date=26 July 2018|archive-date=26 July 2018|archive-url=https://web.archive.org/web/20180726233943/http://www.healthy-life.narod.ru/wor_ek156.htm|url-status=live}}</ref> The island's cuisine also includes foods not found on Pitcairn, such as chopped salads and fruit pies.<ref>{{cite web|url=http://www.sbs.com.au/food/article/2013/07/05/homegrown-norfolk-island|title=Homegrown: Norfolk Island|date=5 July 2013|access-date=26 July 2018|archive-date=27 July 2018|archive-url=https://web.archive.org/web/20180727025751/https://www.sbs.com.au/food/article/2013/07/05/homegrown-norfolk-island|url-status=live}}</ref>
+
+=== Tourism ===
+Tourism plays a major role on Pitcairn. Tourism is the focus for building the economy. It focuses on small groups coming by charter vessel and staying at "home stays". About ten times a year, passengers from expedition-type cruise ships come ashore for a day, weather permitting.<ref name="FCO">[https://www.gov.uk/foreign-travel-advice/pitcairn-island Foreign travel advice: Pitcairn] {{Webarchive|url=https://web.archive.org/web/20200406202452/https://www.gov.uk/foreign-travel-advice/pitcairn-island |date=6 April 2020 }}. Foreign and Commonwealth Office. (6 December 2012). Retrieved 29 August 2016.</ref><ref>Pitcairn Island Report prepared by Jaques and Associates, 2003, p. 21.</ref> As of 2019, the government has been operating the MV ''Silver Supporter'' as the island's only dedicated passenger/cargo vessel, providing adventure tourism holidays to Pitcairn every week. Tourists stay with local families and experience the island's culture while contributing to the local economy. Providing accommodation is a growing source of revenue, and some families have invested in private self-contained units adjacent to their homes for tourists to rent.
+
+Entry requirements for short stays, up to 14 days, which do not require a visa, and for longer stays, that do require prior clearance, are explained in official documents.<ref>{{cite web|title=APPLYING FOR A VISA FOR PITCAIRN|url=http://www.pitcairn.gov.pn/visaInfo.php|website=The Government of the PITCAIRN ISLANDS|publisher=Pitcairn Islands Office|access-date=30 March 2018|date=30 March 2018|archive-date=27 March 2018|archive-url=https://web.archive.org/web/20180327162759/http://www.pitcairn.gov.pn/visaInfo.php|url-status=live}}</ref><ref>{{cite web|title=Immigration Control Ordinance|url=http://www.pitcairn.gov.pn/immigration_ordinance.pdf#page=6|access-date=30 March 2018|page=5|archive-date=31 March 2018|archive-url=https://web.archive.org/web/20180331040153/http://www.pitcairn.gov.pn/immigration_ordinance.pdf#page=6|url-status=live}}</ref> All persons under 16 years of age require prior clearance before landing, irrespective of the length of stay.<ref>{{cite web|title=Entry requirements|url=https://www.gov.uk/foreign-travel-advice/pitcairn-island/entry-requirements|website=Foreign travel advice Pitcairn Island|publisher=GOV.UK|access-date=30 March 2018|date=30 March 2018|archive-date=1 January 2018|archive-url=https://web.archive.org/web/20180101101827/https://www.gov.uk/foreign-travel-advice/pitcairn-island/entry-requirements|url-status=live}}</ref>
+
+===Crafts and external sales===
+{{See also|Postage stamps and postal history of the Pitcairn Islands}}
+[[File:Pitcairn 1940 07.jpg|thumb|[[Postage stamps and postal history of the Pitcairn Islands|Stamp of the Pitcairn Islands]], 1940, displaying portraits of King [[George VI]] and Fletcher Christian]]
+The government holds a monopoly over "any article of whatsoever nature made, manufactured, prepared for sale or produced by any of the inhabitants of Pitcairn Island".<ref name="pitcairn.pn"/>{{Failed verification|date=June 2025}} The flow of funds from these revenue sources are from customer to the government to the Pitcairners.<ref name="government.pn"/> The Pitcairners are involved in creating crafts and curios (made out of wood from [[Henderson Island (Pitcairn Islands)|Henderson]]). Typical woodcarvings include sharks, fish, whales, dolphins, turtles, vases, birds, walking sticks, book boxes, and models of the ''Bounty''. Miro (''[[Thespesia populnea]]''), a dark and durable wood, is preferred for carving. Islanders also produce [[tapa cloth]] and painted Hattie leaves.<ref>Foreign and Commonwealth Office, Profile on Pitcairn Islands, British Overseas Territory, 11 February 2010.</ref>
+
+The major sources of revenue have been the sale of coins and postage stamps to collectors, [[.pn]] domain names, and the sale of handicrafts to passing ships, most of which are on the United Kingdom to New Zealand route via the [[Panama Canal]].<ref>Pitcairn Island Report prepared by Jaques and Associates, 2003, p. 18.</ref> The Pitcairn Islands issued their first stamp in 1940. These became very popular with [[Stamp collecting|stamp collectors]], and their sale became the dominant source of revenue for the community. Profits went into a general fund which enabled the island to be mostly self-sufficient. This fund was used to meet the regular needs of the community, and pay wages. Funds in excess of regular expenses were used to build a school and hire a teacher from New Zealand, the first professional teacher hired on the island. The fund was also used to subsidise imports and travel to New Zealand. At later points, the sale of coins and .pn domain names also contributed to the fund. Towards the end of the 20th century, as writing letters became less common and stamp collecting became less popular, revenue for the fund declined.<ref>{{cite book |last1=Marks |first1=Kathy |title=Lost Paradise: From Mutiny on the Bounty to a Modern-Day Legacy of Sexual Mayhem, the Dark Secrets of Pitcairn Island Revealed |date=3 February 2009 |publisher=Simon and Schuster |isbn=9781416597841 |pages=56–57 |url=https://books.google.com/books?id=aBl_hS0YgvIC&pg=PA56}}</ref> In 2004, the island went bankrupt, with the British government subsequently providing 90% of its annual budget.<ref>{{cite magazine |url=https://www.vanityfair.com/news/2008/01/pitcairn200801 |title=Trouble in Paradise |last1=Prochnau |first1=William |last2=Parker |first2=Laura |magazine=Vanity Fair |date=17 December 2007 |access-date=15 June 2021}}</ref>
+
+=== Electricity ===
+Diesel generators provide the island with electricity. A wind power plant was planned to be installed to help reduce the high cost of power generation associated with the import of diesel, but was cancelled in 2013 after a project overrun of three years and a cost of £250,000.<ref>{{Cite journal|last=Amoamo|first=Maria|date=November 2013|title=Empire and Erasure: A Case Study of Pitcairn Island|url=https://www.proquest.com/docview/1953353548|journal=Island Studies Journal|volume=8|issue=2|pages=233–254|doi=10.24043/isj.284|s2cid=58929303|access-date=19 October 2020|id={{ProQuest|1953353548}}|doi-access=free}}</ref>
+
+All homes have solar systems generating over 95% of the electricity required for home use.
+
+The only qualified high-voltage electrician on Pitcairn, who manages the electricity grid, reached the age of 67 in 2020.<ref name="government.pn" />
+
+== Demographics ==
+{{main|Pitcairn Islanders}}
+
+The islands have suffered a substantial population decline since 1940, and the island's community recognise that for the long-term sustainability repopulation is the number one strategic development objective (see {{section link|#Population decline}}, below). The government is committed to attracting migrants.<ref name="star"/>
+
+Only two children were born on Pitcairn in the 21 years prior to 2012. However, in this period, other children were born to Pitcairn mothers who travelled to New Zealand to receive increased health care safeguards during pregnancy and childbirth.<ref>{{cite web |url=http://library.puc.edu/pitcairn/news/releases/news56--04-03-07.shtml |title=News Releases: Pitcairn Island Enjoying Newest {{not a typo|Edition}} {{bracket|''sic''}} |date=30 March 2007 |editor-last=Ford |editor-first=Herbert |website=Pitcairn Islands Study {{not a typo|Center}} |publisher=Pacific Union College |location=Angwin, California |archive-url=https://web.archive.org/web/20081012131006/http://library.puc.edu/pitcairn/news/releases/news56--04-03-07.shtml |archive-date=12 October 2008 |url-status=live }}</ref> In 2005, Shirley and Simon Young became the first married outsider couple in history to obtain citizenship on Pitcairn.<ref>''Pitcairn Miscellany'', March 2005.</ref>
+
+=== Language ===
+Over 60% of Pitcairn Islanders are [[descendants of the Bounty mutineers|descendants of the ''Bounty'' mutineers]] and Tahitians (or other Polynesians). [[Pitkern]] is a [[creole language]] derived from 18th-century English, with elements of the [[Tahitian language]].<ref name="CIA"/><ref name="Britannica"/> It is spoken as a first language by the population and is taught alongside English at the island's only school. It is closely related to the creole language [[Norfuk language|Norfuk]], spoken on [[Norfolk Island]], because Norfolk was repopulated in the mid-19th century by Pitcairners.
+
+=== Religion ===
+The only church building on the island is [[Seventh-day Adventist Church|Seventh-day Adventist]].<ref name="CIA"/> The Seventh-day Adventist Church is not a [[state religion]], as no laws concerning its establishment were passed by the [[local government]]. A successful Seventh-day Adventist mission in the 1890s was important in shaping Pitcairn society. In recent years, the church population has declined, and {{as of|2000|lc=y}}, eight of the then forty islanders attended services regularly,<ref name="ANN">{{cite news |url=http://news.adventist.org/en/all-news/news/go/2001-05-28/turning-point-for-historic-adventist-community-on-pitcairn-island/ |title=Turning Point for Historic Adventist Community on Pitcairn Island |date=28 May 2001 |location=Silver Spring, Maryland |publisher=General Conference of Seventh-day Adventists |archive-url=https://web.archive.org/web/20151019232148/http://news.adventist.org/en/all-news/news/go/2001-05-28/turning-point-for-historic-adventist-community-on-pitcairn-island/ |archive-date=19 October 2015 |url-status=live |quote=Although the Adventist Church has always maintained a resident minister and nurse on Pitcairn, there have been fewer adherents and some church members have moved away from the island. By the end of 2000, regular church attendees among the island population of 40 numbered only eight. }}</ref> but most attend church on special occasions. From Friday at sunset until Saturday at sunset, Pitcairners observe a day of rest in observance of the [[Sabbath and Seventh-day Adventism|Sabbath]], or as a mark of respect for observant Adventists.
+[[File:Pitcairn - Church of Adamstown.jpg|thumb|Church of Adamstown|alt=Adamstown]]
+The church was built in 1954. The Sabbath School meets at 10 am on Saturday mornings, and is followed by Divine Service an hour later. On Tuesday evenings, there is another service in the form of a prayer meeting.
+
+=== Education ===
+Education is free and compulsory between the ages of five and 15.<ref name=PUCEd>{{cite web|url=https://library.puc.edu/pitcairn/pitcairn/education.shtml|title=Education on Pitcairn Island|publisher=[[Pacific Union College]]|access-date=2020-01-07|archive-date=29 September 2020|archive-url=https://web.archive.org/web/20200929155717/https://library.puc.edu/pitcairn/pitcairn/education.shtml|url-status=live}}</ref> Children up to the age of 12 are taught at [[Pulau School]], while children of 13 and over attend secondary school in New Zealand, or are educated via correspondence school.<ref>{{cite web|url=http://www.pitcairn.gov.pn/policies/SDP%202014-2018%20-%20Amended%2011-05-2016.pdf|page=8|title=Pitcairn Islands Strategic Development Plan 2014-2018|publisher=Government of Pitcairn Islands|access-date=21 March 2018|archive-date=13 April 2018|archive-url=https://web.archive.org/web/20180413112728/http://pitcairn.gov.pn/policies/SDP%202014-2018%20-%20Amended%2011-05-2016.pdf|url-status=live}}</ref>
+
+The island's children have produced a book in [[Pitkern language|Pitkern]] and English called ''Mi Bas Side orn Pitcairn'' or ''My Favourite Place on Pitcairn''.
+
+The school on Pitcairn, Pulau School, provides pre-school and primary education based on the New Zealand syllabus. The teacher is appointed by the governor from qualified applicants who are registered in New Zealand as teachers. The government officially took responsibility for education in 1958; the Seventh-day Adventist Church had done so from the 1890s until 1958. There were ten students in 1999; enrolment was previously 20 in the early 1950s, 28 in 1959, and 36 in 1962. The Pulau School has a residence for teachers built in 2004; there was a previous such facility built in 1950.<ref name=PUCEd/>
+
+=== Historical population ===
+Pitcairn's population has significantly decreased since its peak of over 200 in the 1930s, to fewer than fifty permanent residents by 2021.<ref>{{cite web |url=http://library.puc.edu/pitcairn/pitcairn/census.shtml |title=Pitcairn Census |publisher=Pitcairn Islands Study Center |access-date=4 July 2015 |archive-date=13 April 2012 |archive-url=https://web.archive.org/web/20120413133737/http://library.puc.edu/pitcairn/pitcairn/census.shtml |url-status=live }}</ref><ref>{{cite web|url=http://www.government.pn/|title=Pitcairn Islands Government online portal|website=government.pn|access-date=10 August 2018|archive-date=24 February 2011|archive-url=https://web.archive.org/web/20110224091504/http://government.pn/|url-status=live}}</ref>
+
+{| class="wikitable" style="text-align:left"
+|-
+! Year !! Population !! Year !! Population !! Year !! Population !! Year !! Population !! Year !! Population !! Year !! Population
+!Year
+!Population
+|-
+| 1790 || 27 || 1880 || 112 || 1970 || 96 || 1992 || 54 || 2002 || 48 || 2012 || 48
+|2023
+|35<ref>{{Cite web |title=Life on Pitcairn |url=https://www.immigration.pn/life-on-pitcairn-island |access-date=2025-10-25 |website=Pitcairn Island Immigration |language=en-US |archive-date=27 December 2024 |archive-url=https://web.archive.org/web/20241227154807/https://www.immigration.pn/life-on-pitcairn-island |url-status=dead }}</ref>
+|-
+| 1800 || 34{{efn-lr|two men and nine women from the ''Bounty'' remain}} || 1890 || 136 || 1975 || 74 || 1993 || 57 || 2003 || 59 || 2013 || 56
+|
+|
+|-
+| 1810 || 50 || 1900 || 136 || 1980 || 61 || 1994 || 54 || 2004 || 65 || 2014 || 56
+|
+|
+|-
+| 1820 || 66 || 1910 || 140 || 1985 || 58 || 1995 || 55 || 2005 || 63 || 2015 || 50
+|
+|
+|-
+| 1830 || 70 || 1920 || 163 || 1986 || 68 || 1996 || 43 || 2006 || 65 || 2016 || 49
+|
+|
+|-
+| 1840 || 119 || 1930 || 190 || 1987 || 59 || 1997 || 40 || 2007 || 64 || 2017 || 50
+|
+|
+|-
+| 1850 || 146{{efn-lr|last person from the ''Bounty'', [[Teraura]] dies}} || 1936 || 250 || 1988 || 55 || 1998 || 66 || 2008 || 66 || 2018 || 50
+|
+|
+|-
+| 1856 || 193/0{{efn-lr|Migration to Norfolk Island in 1856 leaves Pitcairn uninhabited}} || 1940 || 163 || 1989 || 55 || 1999 || 46 || 2009 || 67 || 2019||50
+|
+|
+|-
+| 1859 || 16{{efn-lr|First group returns from Norfolk Island}} || 1950 || 161 || 1990 || 59 || 2000 || 51 || 2010 || 64 || 2020|| 50
+|
+|
+|-
+| 1870 || 70 || 1960 || 126 || 1991 || 66 || 2001 || 44 || 2011 || 67 || 2021 ||47{{efn-lr|Latest population figure<ref name="bbc.com">{{cite web |url=https://www.bbc.com/news/uk-56923016 |title=Covid: How the UK has been getting jabs to remote territories |publisher=BBC News |access-date=2021-04-30 |date=2021-04-28}}</ref>}}
+|
+|
+|}
+{{notelist-lr}}
+
+===Structure of the population===
+
+{{Hidden begin
+|title= Population by age group (Census 19.II.2020):<ref>{{Cite web |title=UNSD – Demographic and Social Statistics |url=https://unstats.un.org/unsd/demographic-social/products/dyb/#statistics |access-date=2023-05-10 |publisher=United Nations}}</ref>
+|titlestyle = background:#EEBC35;
+}}
+{| class="wikitable"
+|-
+! width="80pt"|Age group
+! width="80pt"|Total
+! width="80pt"|%
+|-
+| align="right" | Total
+| align="right" | 45
+| align="right" | 100
+|-
+| align="right" | 0–4
+| align="right" | 2
+| align="right" | 4.44
+|-
+| align="right" | 5–9
+| align="right" | 0
+| align="right" | 0
+|-
+| align="right" | 10–14
+| align="right" | 3
+| align="right" | 6.67
+|-
+| align="right" | 15–19
+| align="right" | 2
+| align="right" | 4.44
+|-
+| align="right" | 20–24
+| align="right" | 2
+| align="right" | 4.44
+|-
+| align="right" | 25–29
+| align="right" | 1
+| align="right" | 2.22
+|-
+| align="right" | 30–34
+| align="right" | 0
+| align="right" | 0
+|-
+| align="right" | 35–39
+| align="right" | 3
+| align="right" | 6.67
+|-
+| align="right" | 40–44
+| align="right" | 1
+| align="right" | 2.22
+|-
+| align="right" | 45–49
+| align="right" | 4
+| align="right" | 8.89
+|-
+| align="right" | 50–54
+| align="right" | 1
+| align="right" | 2.22
+|-
+| align="right" | 55–59
+| align="right" | 7
+| align="right" | 15.56
+|-
+| align="right" | 60–64
+| align="right" | 5
+| align="right" | 11.11
+|-
+| align="right" | 65–69
+| align="right" | 7
+| align="right" | 15.56
+|-
+| align="right" | 70–74
+| align="right" | 2
+| align="right" | 4.44
+|-
+| align="right" | 75–79
+| align="right" | 0
+| align="right" | 0
+|-
+| align="right" | 80–84
+| align="right" | 1
+| align="right" | 2.22
+|-
+| align="right" | 85–89
+| align="right" | 0
+| align="right" | 0
+|-
+| align="right" | 90–94
+| align="right" | 1
+| align="right" | 2.22
+|-
+| align="right" | 95–99
+| align="right" | 0
+| align="right" | 0
+|-
+| align="right" | 100+
+| align="right" | 0
+| align="right" | 0
+|-
+! width="50"|Age group
+! width="80"|Total
+! width="50"|Per cent
+|-
+| align="right" | 0–14
+| align="right" | 5
+| align="right" | 11.11
+|-
+| align="right" | 15–64
+| align="right" | 26
+| align="right" | 57.78
+|-
+| align="right" | 65+
+| align="right" | 11
+| align="right" | 24.44
+|-
+| align="right" | unknown
+| align="right" | 3
+| align="right" | 6.67
+|-
+|}
+{{Hidden end}}
+
+==== Population decline ====
+{{As of|2021|April}}, the total resident population of the Pitcairn Islands was 47.<ref name="bbc.com"/> It is rare for all the residents to be on-island at the same time; it is common for several residents to be off-island for varying lengths of time visiting family, for medical reasons, or to attend international conferences. A [[diaspora]] survey completed by Solomon Leonard Ltd in 2014 for the [[Island Council (Pitcairn)|Pitcairn Island Council]] and the [[Government of the United Kingdom|United Kingdom Government]] projected that by 2045, if nothing were done, only three people of working age would be left on the island, with the rest being very old. In addition, the survey revealed that residents who had left the island over the past decades showed little interest in returning. Of the hundreds of emigrants contacted, only 33 were willing to participate in the survey and just three expressed a desire to return.<ref name= Solomon_2014>{{Citation | last1 = Solomon | first1 = Rob | last2 = Burnett | first2 = Kristy | title = Pitcairn Island Diaspora Survey | date = January 2014 | language = en | url = https://prdrse4all.spc.int/sites/default/files/pitcairn_diaspora_survey_-_final_report.pdf}}</ref>
+
+{{As of|2014}}, the labour force consisted of 31 able-bodied persons: 17 males and 14 females between the ages of 18 and 64. Of the 31, just seven are younger than 40, but 18 are over the age of 50.<ref name="government.pn"/> Most of the men undertake the more strenuous physical tasks on the island such as crewing the longboats, cargo handling, and the operation and maintenance of physical assets. Longboat crew retirement age is 58. There were then 12 men aged between 18 and 58 residing on Pitcairn. Each [[longboat]] requires a minimum crew of three; of the four longboat [[coxswain]]s, two were in their late 50s.<ref name="government.pn"/>
+
+The Pitcairn government's attempts to attract migrants have met with some success. Since 2015 settlement applications were approved for 8 persons, 3 of whom are living on Pitcairn.<ref name="government.pn"/><ref name="star">[https://www.thestar.com/news/world/2013/12/16/pitcairn_island_an_idyll_haunted_by_its_past.html "Pitcairn Island, an idyll haunted by its past"] {{Webarchive|url=https://web.archive.org/web/20171016180822/https://www.thestar.com/news/world/2013/12/16/pitcairn_island_an_idyll_haunted_by_its_past.html |date=2017-10-16 }}. ''Toronto Star''. 16 December 2013.</ref><ref>[http://www.pitcairn.pn/Laws/Cap%2022%20-%20Social%20Welfare%20Benefits%20Ordinance%202014%20Rev%20Ed.pdf "Ch. XXII. Social Welfare Benefits Ordinance"] {{Webarchive|url=https://web.archive.org/web/20160329175605/http://pitcairn.pn/Laws/Cap%2022%20-%20Social%20Welfare%20Benefits%20Ordinance%202014%20Rev%20Ed.pdf |date=2016-03-29 }} in ''Laws of Pitcairn, Henderson, Ducie and Oeno Islands. Revised Edition 2014''</ref> As of 2016, migrants are expected to have at least [[NZ$]]30,000 per person in savings and are expected to build their own house at average cost of NZ$140,000.<ref name="billhaigh">{{Cite web |last=Haigh |first=Bill |title=Pitcairn Island Immigration |url=http://www.immigration.pn/FAQ.php |archive-url=https://web.archive.org/web/20160108142130/http://www.immigration.pn/FAQ.php |archive-date=2016-01-08 |access-date=2026-04-05 |website=immigration.pn|url-status=dead}}</ref><ref name="Menzies">Kerry Young, Heather Menzies. [http://www.young.pn/immigrationqa.html "Pitcairn Island Immigration Questions and Answers"] {{Webarchive|url=https://web.archive.org/web/20150221192242/http://www.young.pn/immigrationqa.html |date=2015-02-21 }}. young.pn</ref> It is also possible to bring off-island builders at an additional cost of between NZ$23,000 and NZ$28,000.<ref name="Menzies"/> The average annual cost of living on the island is NZ$9,464.<ref name="billhaigh"/> There is, however, no assurance of the migrant's right to remain on Pitcairn; after their first two years, the council must review and reapprove the migrant's status.<ref>[http://www.pitcairn.pn/Laws/Cap%2012%20-%20Immigration%20Ordinance%202014%20Rev%20Ed.pdf Ch. XII. "Immigration Control Ordinance"] {{Webarchive|url=https://web.archive.org/web/20150213203304/http://www.pitcairn.pn/Laws/Cap%2012%20-%20Immigration%20Ordinance%202014%20Rev%20Ed.pdf |date=2015-02-13 }} in ''Laws of Pitcairn, Henderson, Ducie and Oeno Islands. Revised Edition 2014''</ref><ref>[http://www.pitcairn.pn/Repopulation%20Plan.pdf Pitcairn Islands Repopulation Plan 2014–2019] {{Webarchive|url=https://web.archive.org/web/20141203174021/http://www.pitcairn.pn/Repopulation%20Plan.pdf |date=3 December 2014 }}. The Pitcairn Islands Council</ref><ref name="Gay 2013">{{cite news |url=http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=10870574 |title=Pitcairn Island mayor faces porn charges in court |newspaper=The New Zealand Herald |date=11 March 2013 |first=Edward |last=Gay |access-date=13 February 2015 |archive-date=13 February 2015 |archive-url=https://web.archive.org/web/20150213171504/http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objectid=10870574 |url-status=live }}</ref><ref name="www.gov.uk">{{cite web |title=Pitcairn Island travel advice |url=https://www.gov.uk/foreign-travel-advice/pitcairn-island/entry-requirements |publisher=UK government |access-date=6 September 2015 |archive-url=https://web.archive.org/web/20150918231206/https://www.gov.uk/foreign-travel-advice/pitcairn-island/entry-requirements |archive-date=2015-09-18 |url-status=live }}</ref>
+
+Freight from [[Tauranga]] to Pitcairn on the {{nowrap|MV ''Claymore II''}} (Pitcairn Island's dedicated passenger and cargo ship chartered by the Pitcairn government) is charged at NZ$350/m<sup>3</sup> for Pitcairners and NZ$1,000/m<sup>3</sup> for all other freight.<ref>[http://www.visitpitcairn.pn/visitpitcairn/claymore2shipinfo/ "Pitcairn Island Tourism: {{nowrap|MV ''Claymore II''}} Ship Info"] {{Webarchive|url=https://archive.today/20150215021410/http://www.visitpitcairn.pn/visitpitcairn/claymore2shipinfo/ |date=15 February 2015 }}. visitpitcairn.pn</ref> Additionally, Pitcairners are charged NZ$500 for a one-way trip; others are charged NZ$5,000.<ref name="government.pn"/>
+
+{{As of|2014|alt=In 2014}}, the government's Pitcairn Islands Economic Report stated that "{{bracket|no one}} will migrate to Pitcairn Islands for economic reasons as there are limited government jobs, a lack of private sector employment, as well as considerable competition for the tourism dollar." The Pitcairners take turns to accommodate those few tourists who occasionally visit the island.<ref name="government.pn"/>
+
+As the island remains a [[British Overseas Territories|British Overseas Territory]], the British government may at some stage be required to make a decision about the island's future.<ref>{{cite web |url=https://www.youtube.com/watch?v=eJ-Q4D5aXPk |title=Pitcairn Islands Face Extinction |work=The Wall Street Journal |date=9 July 2014 |access-date=3 December 2014 |archive-url=https://web.archive.org/web/20150515000016/https://www.youtube.com/watch?v=eJ-Q4D5aXPk |archive-date=2015-05-15 |url-status=live }}</ref><ref>{{cite news |url=https://online.wsj.com/articles/sound-pacific-island-of-mutiny-on-the-bounty-fame-running-out-of-people-1404863996 |title=South Pacific Island of 'Mutiny on the Bounty' Fame Running Out of People |newspaper=The Wall Street Journal |access-date=3 December 2014 |archive-url=https://web.archive.org/web/20141010094749/http://online.wsj.com/articles/sound-pacific-island-of-mutiny-on-the-bounty-fame-running-out-of-people-1404863996 |archive-date=2014-10-10 |url-status=live }}</ref>
+
+== Culture ==
+The once-strict moral codes, which prohibited dancing, [[public displays of affection]], smoking, and consumption of alcohol, have been relaxed. Islanders and visitors no longer require a six-month licence to purchase, import, and consume alcohol.<ref>[https://web.archive.org/web/20110610134919/http://government.pn/Laws/index.html Pitcairn Island Government Ordinance]. government.pn; Archive.org</ref> There is now one licensed café and bar on the island, and the government store sells alcohol and cigarettes.
+
+Fishing and swimming are two popular recreational activities. A birthday celebration or the arrival of a ship or yacht will involve the entire Pitcairn community in a public dinner in the Square, Adamstown. Tables are covered in a variety of foods, including fish, meat, chicken, pilhi, baked rice, boiled ''plun'' (banana), breadfruit, vegetable dishes, an assortment of pies, bread, breadsticks, an array of desserts, pineapple, and watermelon.
+
+Paid employees maintain the island's numerous roads and paths. {{As of|2011}}, the island had a [[labour force]] of over 35 men and women.<ref name="CIA">{{cite web |url=https://www.cia.gov/the-world-factbook/countries/pitcairn-islands/ |archive-url=https://web.archive.org/web/20210112235431/https://www.cia.gov/the-world-factbook/countries/pitcairn-islands |url-status=dead |archive-date=12 January 2021 |title=CIA World Factbook: Pitcairn Islands |work=[[The World Factbook]] |publisher=Central Intelligence Agency |access-date=26 February 2013 }}</ref>
+
+[[Bounty Day]] is an annual [[public holiday]] celebrated on Pitcairn on 23 January<ref>{{cite web|url=https://www.flaginstitute.org/wp/event/bounty-day/|title=Pitcairn Islands – Bounty Day|website=flaginstitute.org|access-date=10 August 2018|archive-date=10 August 2018|archive-url=https://web.archive.org/web/20180810143342/https://www.flaginstitute.org/wp/event/bounty-day/|url-status=live}}</ref> to commemorate the day in 1790 when the mutineers arrived on the island aboard [[HMS Bounty|HMS ''Bounty'']].
+
+===Sport===
+There is a [[tennis court]] on the island.<ref name="Visit Pitcairn">{{cite web | title=What To Do on Pitcairn | website=Visit Pitcairn – Open To Explore | date=1940-10-15 | url=https://www.visitpitcairn.pn/activities | access-date=2024-04-29}}</ref> The Pitcairn Islands are the only member of the [[Pacific Community]] that does not take part in the [[Pacific Games]].<ref name="NRL 2024">{{cite web | title=NRL 2024, Multicultural Round, Dylan Walker, Pitcairn Islands, Fletcher Christian, Warriors | first=Corey | last=Rosser | publisher=National Rugby League | date=2024-03-17 | url=https://www.nrl.com/news/2024/03/18/one-of-one-walker-a-proud-pitcairn-product/ | access-date=2024-04-05}}</ref> In 2019, the territory approached the [[Pacific Games Council]] about the possibility of membership.<ref name="Michael 2019">{{cite web | last=Pavitt | first=Michael | title=Australia and New Zealand involvement in Pacific Games expected to grow further | website=insidethegames.biz | date=2019-07-20 | url=https://www.insidethegames.biz/articles/1082192/australia-new-zealand-at-pacific-games | access-date=2024-04-05}}</ref>
+
+Australian [[National Rugby League]] player [[Dylan Walker]]'s mother is from Pitcairn.<ref name="NRL 2024"/>
+
+== Media and communications ==
+=== Post ===
+The [[Postal codes in the Pitcairn Islands|UK Postcode]] for directing mail to Pitcairn Island is PCRN 1ZZ.<ref>[http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/pcnEn.pdf Pitcairn, Henderson, Ducie and Oeno (Islands)] {{Webarchive|url=https://web.archive.org/web/20191103044125/http://www.upu.int/fileadmin/documentsFiles/activities/addressingUnit/pcnEn.pdf |date=3 November 2019 }}, [[Universal Postal Union]]</ref>
+
+=== Newspapers ===
+The ''Pitcairn Miscellany'' is a monthly newspaper available in print and online editions.<ref>{{cite web|title=The Pitcairn Miscellany website|url=http://www.miscellany.pn/|access-date=2020-09-16|website=miscellany.pn|archive-date=1 August 2020|archive-url=https://web.archive.org/web/20200801174008/http://www.miscellany.pn/|url-status=live}}</ref> ''Dem Tull'' was an online monthly newsletter published between 2007 and 2016.<ref>{{cite web|title=Downloads|url=http://www.demtullpitcairn.com/downloads.html|url-status=dead|archive-url=https://web.archive.org/web/20170626035000/http://www.demtullpitcairn.com/downloads.html|archive-date=26 June 2017|website=Dem Tull}}</ref>
+
+=== Telecommunications ===
+{{Further|Telephone numbers in the Pitcairn Islands}}
+Pitcairn uses New Zealand's [[List of country calling codes|international calling code]], [[+64]]. It is still on the [[Telephone exchange#Manual service exchanges|manual telephone system]].
+
+=== Radio ===
+There is no broadcast station. Marine band [[walkie-talkie]] radios are used to maintain contact among people in different areas of the island. Foreign stations can be picked up on [[shortwave radio]].
+
+=== Amateur radio ===
+Callsign website [[QRZ.COM]] lists six [[amateur radio]] operators on the island, using the [[ITU prefix]] (assigned through the UK) of VP6, two of whom have a second VR6 callsign. However, two of these six are listed by QRZ.COM as deceased, while others are no longer active. Pitcairn Island has one callsign allocated to its Club Station, VP6PAC.
+
+QRZ.COM lists 29 VP6 callsigns being allocated in total, 20 of them to off-islanders. Of these, five were allocated to temporary residents and ten to individuals visiting. The rest were assigned to the [[DX-pedition]]s to Pitcairn, one of which took place {{as of|2012|alt=in 2012}}.<ref>[http://www.g3txf.com/dxtrip/VP6T/VP6T-station.html "VP6T: Pitcairn"] {{Webarchive|url=https://web.archive.org/web/20150224012055/http://www.g3txf.com/dxtrip/VP6T/VP6T-station.html |date=24 February 2015 }}. g3txf.com.</ref> In 2008 and 2018, major DX-peditions visited [[Ducie Island]].<ref>[http://ducie2008.dl1mgb.com/ VP6DX: Ducie Island] {{Webarchive|url=https://web.archive.org/web/20090203210917/http://ducie2008.dl1mgb.com/ |date=3 February 2009 }}. Ducie2008.dl1mgb.com. Retrieved 20 September 2013.</ref><ref>[http://vp6d.com/] {{Webarchive|url=https://web.archive.org/web/20181029152152/https://www.vp6d.com/|date=29 October 2018}}. vp6d.com Retrieved 28 October 2018.</ref>
+
+=== Television ===
+Pitcairn can receive a number of television channels but only has capacity to broadcast two channels to houses at any one time. The channels are currently switched on a regular basis.<ref>{{cite web|url=http://www.immigration.pn/FAQ.php|title=Pitcairn Island Immigration|last=Haigh|first=Bill|website=immigration.pn|access-date=2018-07-26|archive-date=8 January 2016|archive-url=https://web.archive.org/web/20160108142130/http://www.immigration.pn/FAQ.php|url-status=live}}</ref> The transmitter was installed in 2006.<ref>{{cite book |title=Pitcairn Island as a Port of Call |url=https://books.google.com/books?id=_qYb8TcQEH8C&dq=%22Pitcairn+Island%22+%22Television%22&pg=PA311 |access-date=16 February 2024 |publisher=McFarland, Incorporated, Publishers |date=23 March 2012 | isbn=978-0-7864-8822-3 }}</ref>
+
+=== Internet ===
+There is one government-sponsored [[Satellite Internet access|satellite Internet]] connection, with networking provided to the inhabitants of the island. Pitcairn's [[country code top-level domain]] is [[.pn]]. Residents pay NZ$120 (about £60) for unlimited data per month.<ref>[http://telecom.gov.pn/InternetCharges.html "Internet Charges"] {{Webarchive|url=https://web.archive.org/web/20190307054027/http://telecom.gov.pn/InternetCharges.html |date=7 March 2019 }} telecom.gov.pn. Retrieved 6 March 2019</ref> In 2012, a single 1&nbsp;Mbit/s link installed provided the islanders with an Internet connection, the 1&nbsp;Mbit/s was shared across all families on the island. By December 2017, the British Government implemented a 4G LTE mobile network in Adamstown with shared speeds of 5&nbsp;Mbit/s across all islanders.<ref>{{cite web|title=Already Booked|url=http://visitpitcairn.pn/already_booked/index.html|website=Pitcairn Islands Tourism|access-date=22 June 2018|archive-date=22 June 2018|archive-url=https://web.archive.org/web/20180622193143/http://visitpitcairn.pn/already_booked/index.html|url-status=live}}</ref> [[Starlink]] became available in February 2024.<ref>{{Cite web |title=Frequently Asked Questions |url=https://www.immigration.pn/frequently-asked-questions |access-date=2024-09-08 |website=Pitcairn Island Immigration |language=en-US}}</ref>
+
+== Transport ==
+All settlers of the Pitcairn Islands arrived by boat or ship. Pitcairn Island [[List of countries without an airport|does not have an airport]], airstrip or seaport; the islanders rely on [[longboat]]s to ferry people and goods between visiting ships and shore through Bounty Bay.<ref name="FCO"/> Access to the rest of the shoreline is restricted by jagged rocks. The island has one shallow harbour with a launch ramp accessible only by small longboats.<ref>David H. Evans (2007) ''Pitkern Ilan = Pitcairn Island''. Self-published, Auckland, p. 46</ref> In 2014, a medical emergency requiring transport to a hospital in [[Papeete]] involved a 335 [[nautical mile]] (540&nbsp;km) trip in an [[Boat|open boat]] to the island of [[Mangareva]], then an [[Air medical services|air ambulance]] flight 975 [[nautical mile]]s (1570&nbsp;km) to [[Papeete]]. It was organized by medical authorities in the United Kingdom and New Zealand, and French authorities in [[Mangareva]] and [[Papeete]]. The [[List of High Commissioners of the United Kingdom to New Zealand|British High Commissioner to New Zealand]] said "It can be a hazardous sea voyage from Pitcairn to Mangareva. This is especially so for open long boats. However, I'm pleased to say that all went well and both boats arrived safely in Mangareva mid-morning today, New Zealand time."<ref>{{Cite news|date= 29 June 2014|title=Successful medical evacuation from Pitcairn Island|work=Scoop World|department=British High Commission|url=https://www.scoop.co.nz/stories/WO1406/S00174/successful-medical-evacuation-from-pitcairn-island.htm|access-date=11 June 2021}}</ref>
+
+A dedicated passenger and cargo supply ship chartered by the Pitcairn Island government, the {{nowrap|[[MV Claymore II|MV ''Claymore II'']]}}, was until 2018 the principal transport from [[Mangareva]] in the [[Gambier Islands]] of [[French Polynesia]]. The supply ship was replaced in 2019 by {{nowrap|[[MV Silver Supporter|MV ''Silver Supporter'']]}}.<ref>{{Cite web|url=https://www.visitpitcairn.pn/mv-silver-supporter|title=MV Silver Supporter|website=Visit Pitcairn - Open To Explore}}</ref>
+
+[[Totegegie Airport]] in Mangareva can be reached by air from the French Polynesian capital [[Papeete]].<ref>''Lonely Planet South Pacific'', 3rd ed. 2006, "Pitcairn Getting There" pp. 429–430</ref>
+
+There is one {{convert|6.4|km|4=0|adj=on}} paved road leading up from Bounty Bay through Adamstown.
+
+The main modes of transport on Pitcairn Islands are by four-wheel drive [[All-terrain vehicle|quad bikes]] and on foot.<ref name="FCO"/> Much of the road and track network and some of the footpaths of Pitcairn Island are viewable on [[Google]]'s [[Google Street View|Street View]].<ref>[http://www.pitcairnnews.co.nz/131213.html#pitcairn_island_streetview "Pitcairn News"] {{Webarchive|url=https://web.archive.org/web/20140307234836/http://www.pitcairnnews.co.nz/131213.html#pitcairn_island_streetview |date=7 March 2014 }}, 13 December 2013. Retrieved 13 February 2014</ref><ref>[https://www.google.com/maps/@-25.075241,-130.088754,3a,75y,210h,63t/data=!3m5!1e1!3m3!1sgBvRJitfKC4-UH6qLcLmxg!2e0!3e5 "View from the end of St Pauls Point on Street View"] {{Webarchive|url=https://web.archive.org/web/20151212101612/https://www.google.com/maps/@-25.075241,-130.088754,3a,75y,210h,63t/data=!3m5!1e1!3m3!1sgBvRJitfKC4-UH6qLcLmxg!2e0!3e5 |date=12 December 2015 }}. Retrieved 13 February 2014</ref>
+
+== Notable people ==
+<!--NOTE: Due to the small number of surnames on Pitcairn, these are arranged in chronological order of birth, not alphabetically-->
+* [[Ned Young]] (b {{circa}} 1762, d 1800 on Pitcairn), mutineer from the famous HMS ''Bounty'' incident, and co-founder of the mutineers' Pitcairn Island settlement.
+* [[Teraura]] (b {{circa}} 1775, d 1850 on Pitcairn), Tahitian noblewoman and tapa weaver, 'partner' of Ned Young, Matthew Quintal and Thursday October Christian I.
+* [[William McCoy (mutineer)|William McCoy]] (b {{circa}} 1763, d 1798 on Pitcairn), a Scottish sailor and a mutineer on board HMS ''Bounty''.
+* [[Fletcher Christian]] (b 1764, d 1793 on Pitcairn), Master's mate on board HMS ''Bounty'', died here at age 28.<ref name="Kirk 2012">{{cite book |last=Kirk |first=Robert W. |title=Paradise Past: The Transformation of the South Pacific, 1520–1920 |chapter-url=https://books.google.com/books?id=_j8-YmmA7-EC&pg=PA61 |date=2012 |publisher=McFarland & Company |location=Jefferson, North Carolina |page=61 |chapter=A White Tribe at Botany Bay, 1788–1911 |isbn=978-0-7864-6978-9 |lccn=2012034746 |oclc=791643077 |access-date=12 September 2015 |archive-date=12 April 2016 |archive-url=https://web.archive.org/web/20160412202544/https://books.google.com/books?id=_j8-YmmA7-EC&pg=PA61 |url-status=live }}</ref>
+* [[Matthew Quintal]] (b 1766, d 1799 on Pitcairn), a Cornish able seaman and mutineer aboard HMS ''Bounty''
+* [[John Adams (mutineer)|John Adams]] (b 1767, d 1829 on Pitcairn), the last survivor of the HMS ''Bounty'' mutineers who settled on Pitcairn Island in January 1790, the year after the mutiny
+* [[Thursday October Christian I]] (1790–1831), the first son of [[Fletcher Christian]]
+* [[George Adams (magistrate)|George Adams]] (1804–1873), served as Chief Magistrate on Pitcairn in 1848
+* [[Thursday October Christian II]] (1820–1911), a Pitcairn Islands political leader. Grandson of [[Fletcher Christian]] and son of [[Thursday October Christian I]]
+* [[Simon Young (magistrate)|Simon Young]] (1823–1893), served as Magistrate of the Pitcairn Islands in 1849
+* [[Moses Young]] (1829–1909), served as magistrate of Pitcairn Island four times, between 1865 and 1881
+* [[James Russell McCoy]] (1845–1924), served as Magistrate of Pitcairn Island 7 times, between 1870 and 1904
+* [[Benjamin Stanley Young]] (1851–1934), served as Magistrate of the Pitcairn Islands twice, from 1884 to 1885, and in 1892
+* [[Rosalind Amelia Young]] (1853–1924), a historian from Pitcairn Islands
+* [[William Alfred Young]] (1863–1911), served as President of the council, and Magistrate of Pitcairn Island three times, between 1897 and 1908
+* [[Matthew Edmond McCoy]] (1868–1929), served as Magistrate of Pitcairn Island in 1909
+* [[Gerard Bromley Robert Christian]] (1870–1919), served as Magistrate of Pitcairn Island from 1910 to 1919
+* [[Edgar Allen Christian]] (1879–1960), a politician from Pitcairn and Chief Magistrate of Pitcairn Island on several occasions between 1923 and 1939
+* [[Charles Richard Parkin Christian]] (1883–1971), a long-serving politician from Pitcairn and Chief Magistrate of Pitcairn Island for eleven years at various times between 1920 and 1957
+* [[Frederick Martin Christian]] (1883–1971), a politician from Pitcairn and Chief Magistrate of Pitcairn Island on three occasions between 1921 and 1943
+* [[John Lorenzo Christian]] (1895–1984), twice served as Chief Magistrate of Pitcairn Island: 1952–54 and 1961–66
+* [[Ivan Christian]] (1919–1991), a politician from Pitcairn and Chief Magistrate of Pitcairn Island from 1976 to 1984
+* [[Tom Christian]] (1935–2013), radio operator
+* [[Brenda Christian]] (born 1953), a political figure from the Pitcairn Islands who served the territory as its first female Mayor from 8 November to 15 December 2004
+* [[Jay Warren]] (born 1956), a political figure who served as the 3rd Mayor of Pitcairn Islands
+* [[Charlene Warren-Peu]] (born 1979), a political figure who was the first woman elected in as Mayor for a full 3-year term
+* [[Simon Young (mayor)|Simon Young]] (born 1965), a political figure who is the first non-native-born Pitcairn Islander to be elected as Mayor. He is an immigrant from Pickering in North Yorkshire, England, who emigrated to Pitcairn in 2000
+
+== See also ==
+{{Portal|Geography|Islands|Oceania|United Kingdom}}
+* [[Bibliography of the Pitcairn Islands]]
+* [[Bounty Bible]]
+* [[Descendants of the Bounty mutineers]]
+* [[Island Council (Pitcairn)]]
+* [[Languages of the Pitcairn Islands]]
+* [[Law enforcement in the Pitcairn Islands]]
+* [[Lists of islands]]
+* 
+* [[Pitcairn Islanders]]
+* [[Thursday October Christian I]]
+
+==Notes==
+{{Reflist|group=note}}
+
+== References ==
+{{reflist|30em}}
+
+== Further reading ==
+=== ''Mutiny on the ''Bounty'' '' ===
+* ''Mutiny on the Bounty'' by Charles Nordhoff and James Norman Hall, 1932
+* ''The Bounty: The True Story of the Mutiny on the Bounty'' by Caroline Alexander (Harper Perennial, London, 2003 pp.&nbsp;491)
+* ''The Discovery of Fletcher Christian: A Travel Book'' by Glynn Christian, a descendant of [[Fletcher Christian|Fletcher Christian, Bounty Mutineer]] (Guild Press, London, 2005 pp.&nbsp;448)
+
+=== After the Mutiny ===
+* ''Men Against the Sea'' by Charles Nordhoff and James Norman Hall, 1933
+* ''Pitcairn's Island'' by Charles Nordhoff and James Norman Hall, 1934
+* ''The Pitcairners'' by Robert B. Nicolson (Pasifika Press, Auckland, 1997 pp.&nbsp;260)
+* ''After the Bounty: The Aftermath of the Infamous Mutiny on the HMS Bounty—An Insight to the Plight of the Mutineers'' by Cal Adams, a descendant of [[John Adams (mutineer)|John Adams, Bounty Mutineer]] (Self-published, Sydney, 2008 pp.&nbsp;184)
+* ''[https://doi.org/10.26686/vuwlr.v38i3.5533 The "Re-colonising of Pitcairn]'' by Sue Farran, Senior Lecturer, University of Dundee; Visiting Lecturer, University of the South Pacific.
+* Ball, Ian M. – ''Pitcairn: Children of Mutiny.'' 1973
+* Belcher, Lady – ''The Mutineers of the Bounty and Their Descendants in Pitcairn and Norfolk Islands.'' 1870
+* [[Dea Birkett|Birkett, Dea]] – ''Serpent in Paradise.'' Anchor Doubleday, 1997. {{ISBN|0-385-48870-X}}.
+* Brodie, Walter – ''Pitcairn Island and the Islanders in 1850.'' 1851
+* Christian, Glynn – ''Fragile Paradise: The Discovery of Fletcher Christian, Bounty Mutineer.'' 2005
+* Clarke, Peter – ''Hell and Paradise: The Norfolk-Bounty-Pitcairn Saga.'' 1986
+* [[William Young Fullerton|Fullerton, W. Y.]] – ''The Romance of Pitcairn Island.'' 1923
+* Hancock, W. K. – ''Politics in Pitcairn and Other Essays.'' 1947
+* Lucas, Charles – ''The Pitcairn Island Register Book.'' 1929
+* [[Trevor Lummis|Lummis, Trevor]] – ''Pitcairn Island: Life and death in Eden.'' 1997
+* Manorial Research with the National Maritime Museum (UK) – ''Mutiny on the Bounty, 1789-1989.'' 1989
+* Murray, Rev. T. B. – ''Pitcairn: The Island, the People, and the Pastor.'' 1853
+* Oliver, Dawn, ed. – ''Justice, Legality and the Rule of Law: Lessons from the Pitcairn Prosecutions.'' 2009
+* Oliver, Douglas – ''Return to Tahiti: Bligh's Second Breadfruit Voyage.'' 1988
+* Randall, John E. – ''Reef and Shore Fishes of the South Pacific: New Caledonia to Tahiti and the Pitcairn Islands.'' 2005
+* [[Harry L. Shapiro|Shapiro, Harry L.]] – ''The Heritage of the 'Bounty': The Story of Pitcairn Through Six Generations.'' 1936
+* Silverman, David – ''Pitcairn Island.'' 1967
+* [[George Tobin (Royal Navy officer)|Tobin, George, Lt.]] – ''Captain Bligh's Second Chance: An eyewitness account of his return to the South Seas.'' 2007
+
+=== Fiction ===
+* [[Frederick Chamier|Chamier, Frederick]] – ''Jack Adams, the Mutineer''. 1838
+* Kinsolving, William – ''Mister Christian''. 1996
+* [[Val McDermid|McDermid, Val]] – ''The Grave Tattoo''. 2006
+* Mountain, Fiona – ''Isabella''. 1999
+* [[Charles Nordhoff|Nordhoff, Charles]] and [[James Norman Hall]] – ''[[Pitcairn's Island (novel)|Pitcairn's Island]]''. 1934
+* Presser, Brandon – ''The Far Land: 200 Years of Murder, Mania, and Mutiny in the South Pacific''. 2022
+* [[Diana Souhami|Souhami, Diana]] – ''Coconut Chaos: Pitcairn, mutiny and a seduction at sea.'' 2007
+* Wilson, Erle – ''Adams of the Bounty.'' 1958
+
+===Other===
+* {{cite book |last1=Amoamo |first1=Maria |editor1-last=Butler |editor1-first=Richard W. |title=Tourism and Resilience |date=2017 |publisher=Centre for Agriculture and Bioscience International |isbn=9781780648330 |pages=163–180 |chapter-url=https://books.google.com/books?id=I30yDwAAQBAJ&pg=PA163 |chapter=Resilience and Tourism in Remote Locations: Pitcairn Island}}
+* {{cite journal |last1=Chaitanya |first1=Devraj |last2=Harper |first2=Sarah |last3=Zeller |first3=Dirk |title=Reconstruction of total marine fisheries catches for the Pitcairn Islands (1950–2009) |journal=Fisheries Centre Research Reports |date=2012 |volume=20 |issue=5 |pages=87–94 |publisher=University of British Columbia |issn=1198-6727}}
+* {{cite journal |last1=Eshleman |first1=Michael O. |title=Law in Isolation: The Legal History of Pitcairn Island, 1900-2010 |journal=ILSA Journal of International & Comparative Law |date=2011 |volume=18 |issue=1 |url=https://nsuworks.nova.edu/cgi/viewcontent.cgi?article=1853&context=ilsajournal}}
+* {{cite journal |last1=Eshleman |first1=Michael O. |title=The New Pitcairn Islands Constitution: Strong, Empty Words for Britain's Smallest Colony |journal=Pace International Law Review |date=January 2012 |volume=24 |issue=1 |page=21 |doi=10.58948/2331-3536.1319 |s2cid=161757502 |url=https://digitalcommons.pace.edu/pilr/vol24/iss1/2/|doi-access=free }}
+* {{cite journal | last1=Ferdon | first1=Edwin N. Jr. |title=Pitcairn Island, 1956 |journal=Geographical Review |date=January 1958 |volume=48 |issue=1 |pages=69–85 |doi=10.2307/211702 |jstor=211702 | bibcode=1958GeoRv..48...69F |url=https://www.jstor.org/stable/211702|url-access=subscription }}
+*{{cite book |last=Nechtman |first=Tillman |date=2018 |title=The Pretender of Pitcairn Island: Joshua W. Hill – The Man Who Would Be King Among the Bounty Mutineers |url=https://www.cambridge.org/core/books/pretender-of-pitcairn-island/9261F61BBD0E22BA94F566F5AA848189 |location=Cambridge, UK |publisher=Cambridge University Press |isbn=978-1108440806}}
+
+== External links ==
+{{Sister project links|Pitcairn Islands|voy=Pitcairn Islands}}
+* {{cite EB1911|wstitle=Pitcairn |volume=21 |short=x}}
+
+=== Government ===
+* [http://pitcairn.pn/ Pitcairn Government official website]
+
+=== Travel ===
+* [http://www.visitpitcairn.pn/ Pitcairn Island Tourism] Official tourism site of the Pitcairn Islands.
+* {{OSM relation|9358718}}
+* {{Wikiatlas|Pitcairn Islands}}
+
+=== Local news ===
+* [http://www.young.pn/ Pitcairn News from Big Flower] News from Big Flower, Pitcairn Island.
+* [http://www.miscellany.pn/ Pitcairn Miscellany] News from Pitcairn Island. Jacqui Christian, ed.
+* [http://www.pitcairnnews.co.nz/ Pitcairn News] {{Webarchive|url=https://web.archive.org/web/20210623172210/https://www.pitcairnnews.co.nz/ |date=23 June 2021 }} information from Chris Double, a Bounty descendant based in [[Auckland]]
+* [https://web.archive.org/web/20120426072511/http://www.demtullpitcairn.com/downloads.html ''Uklun Tul Un Dem Tul''] Pitcairn news by Kari Young, a Pitcairn resident.
+
+=== Study groups ===
+* [http://library.puc.edu/pitcairn/index.shtml U.S. Pitcairn Islands Study Centre]
+* [http://www.pisg.net/ U.S. Pitcairn Islands Study Group]
+
+{{Pitcairn}}
+{{British dependencies}}
+{{British overseas territories}}
+{{Navboxes
+ |title = Locale
+ |list =
+  {{Countries and territories of Oceania}}
+  {{Culture of Oceania}}
+  {{Polynesia}}
+}}
+{{Cuisine of Britain}}
+{{World Heritage Sites in the United Kingdom}}
+
+{{Authority control}}
+
+{{Coord|25|04|S|130|06|W|type:isle_region:PN|display=title}}
+
+[[Category:Pitcairn Islands| ]]
+[[Category:Dependent territories in Polynesia]]
+[[Category:Dependent territories in Oceania]]
+[[Category:Countries and territories where English is an official language]]
+[[Category:Important Bird Areas of the Pitcairn Islands]]
+[[Category:Island countries]]
+[[Category:Islands of the Pitcairn Islands]]
+[[Category:Mutiny on the Bounty]]
+[[Category:States and territories established in 1838]]
+[[Category:Volcanoes of the United Kingdom]]
+[[Category:British Western Pacific Territories]]
+[[Category:British Overseas Territories|.Pitcairn]]
+[[Category:Former British colonies and protectorates in Oceania]]

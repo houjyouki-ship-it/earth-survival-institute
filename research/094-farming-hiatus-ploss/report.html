@@ -1,0 +1,50 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究094：農耕が何年止まると畑の作物が消えるか（重い崩壊の食料の立ち直り・第3回、open_problems 230） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="0943open_problems-230">研究094：農耕が何年止まると畑の作物が消えるか（重い崩壊の食料の立ち直り・第3回、open_problems 230）</h1>
+<blockquote>
+<p>注：本報告の割合・年数は模型と少数の事例の中の値で、人類の生存確率でも文明の復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">課題</h2>
+<p>093 で、種子庫の種子が要るのは「生き残りが自分の畑の作物を失った群」に限ると分かった。その確率 P_loss を初めて数で置く。事前登録は PREREGISTRATION.md（2026-10-23 01:34 JST、資料を開く前・sim.py の前）。</p>
+<h2 id="sources-sha256sums">資料（本回に開いて確認、sources/ に保存、SHA256SUMS）</h2>
+<ul>
+<li>【事実（Nielson et al. 2009, Weed Science, https://doi.org/10.1614/ws-08-099.1 、Crossref の要旨）】小麦の種子を土の 0・2・15 cm に埋めると、99% が発芽力を失う日数 EX99 は 493〜1,114、319〜654、175〜352 日。</li>
+<li>【事実（Harker ほか, Weed Science, Cambridge Core の要旨 https://www.cambridge.org/core/journals/weed-science/article/abs/glyphosateresistant-wheat-persistence-in-western-canadian-cropping-systems/02F630CFF7A55DD0E59E53933D6B7DD4 ）】8 か所に撒いた小麦の種子は 2003 年末（3 年後）にどの場所の土でも生きた種子が見つからなかった。</li>
+<li>【事実（De Corby et al. 2007, https://doi.org/10.1614/ws-06-102.1 、Crossref の要旨）】発芽しなかった小麦の種子は土の中で 12 か月以上残らなかった。ただし生えた野良の株が種をつけることはある。</li>
+<li>【事実（Wikipedia「Pitcairn Islands」）】Henderson は 16 世紀より前、Pitcairn は 17 世紀か 18 世紀初めに Polynesia の人々が去り、欧州人が来たときは無人だった。</li>
+<li>【事実（ANU Press, Pitcairn before the Mutineers, https://doi.org/10.22459/bb.10.2018.02 、全文は 406 で取得できず検索の抜粋で確認）】1790 年に Bounty の一行は taro、tī（Cordyline）、パンノキ、カジノキを島で見つけた。</li>
+<li>【事実（Wikipedia「Eastern Agricultural Complex」「Iva annua」「Polygonum erectum」）】北米東部の在来の種子作物（sumpweed、knotweed、goosefoot、little barley、maygrass）は約 900 CE にトウモロコシへ移って栽培が止まり、栽培型は野生の形に戻った／絶えた。</li>
+<li>【事実（Wikipedia「Amaranth」）】スペインの征服の後、アマランサスの栽培は禁じられたが、今もアレグリアの菓子に使われている。</li>
+<li>種子の寿命の式の定数は 092 の viabilityconstants（130 の有効行）。</li>
+</ul>
+<h2 id="simpy1">方法（sim.py、約1秒、乱数なし）</h2>
+<ol>
+<li>092 の P50（水分 6%、−3.5 °C）の中央値 121.98 年を差0で再現（assert）。</li>
+<li>農家の常温の貯蔵（水分 10〜16%、10〜30 °C）で P50・P10 を全行と主食 31 行で出す（L_store）。</li>
+<li>事例 13 件（cases.csv）を「農耕が続いた」「その作物の世話が止まった」に分け、増え方（種子の一年生か、栄養繁殖・多年生か）で分けた。</li>
+<li>模型【推測】：群が農耕を止める確率 q_halt（0.05/0.2/0.5）、空白の年数は対数正規（中央値 1/3/10/30 年、σ=1）、空白の間に種を食べる確率 q_eat（0/0.3）。P_loss = q_halt ×（q_eat +（1−q_eat）× P(空白 &gt; L_store)）。地域の喪失は G 群が独立か完全に相関するかの両端。</li>
+</ol>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li>常温（水分 13%、20 °C）の P50 の中央値は全行 <strong>0.63 年</strong>、主食 <strong>1.3 年</strong>（10〜90% 点 0.50〜3.9 年）、P10 は 2.3 年。乾いて涼しい貯蔵（12%、15 °C）でも主食 3.4 年、10%・15 °C で 7.7 年。</li>
+<li>土の中の小麦は 0.5〜3.0 年で尽きる。種子の主食は、空白が数年を超えると貯蔵でも畑でも残らない。</li>
+<li>事例：農耕が続いた 3 件で主食の喪失 <strong>0/3</strong>。世話が止まった 9 件で残ったのは <strong>3/9</strong>、内訳は栄養繁殖・多年生 <strong>3/3</strong>（Pitcairn、70〜190 年の無人のあと）、種子の一年生 <strong>0/6</strong>（Cambodia の在来稲と北米東部の 5 種）。</li>
+<li>模型の主（q_halt 0.2、空白の中央値 3 年、種を食べない）で群あたり P_loss <strong>0.149</strong>、種を食べる 0.3 を足すと 0.164。空白の中央値が 10 年を超えると P_loss は q_halt にほぼ等しくなる（0.19/0.2）。</li>
+<li>地域の喪失：群が独立なら G=3 で 0.0044、G=10 で 1e-8。完全に相関すれば 0.164 のまま。093 の重い崩壊の主（発芽と場所の知識 0.039）を掛けると、種子庫の種子が実際に役立つ割合は 0.0064（相関）〜ほぼ 0（独立）。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H106a（確認的）：農耕が続いた事例で主食の喪失 &lt; 0.2 → 0/3 で<strong>支持</strong>（3 件で弱い）。</li>
+<li>H106b（確認的）：世話が止まった主食で残ったのは半数未満 → 3/9 で<strong>支持</strong>。ただし増え方で完全に分かれ、北米東部の 5 種は 1 つの局面なので実質は 3 局面。</li>
+<li>H106c（予測）：常温の P50 の中央値 ≤ 5 年 → 0.63 年で<strong>支持</strong>（予想よりずっと短い）。</li>
+<li>H106d（予測）：主の版で P_loss ≤ 0.15 → 0.149 で<strong>支持</strong>（境目。種を食べる版 0.164 なら棄却）。</li>
+<li>H106e（記述、支持に数えない）：作物が消えた原因は「種を食べた」（Cambodia）と「よりよい作物への乗り換え」（北米東部）で、「人が去った」Pitcairn では作物は残った。登録の「人が去った」は当たらなかった。</li>
+</ul>
+<h2 id="_3">批判的な検討</h2>
+<ul>
+<li>常温の P50 は Ellis–Roberts の式を高い水分・温度に当てた値で、* の行は種に固有でない温度の定数を使う。092 では零下で式が 7.4 倍楽観だったが、常温での向きは確かめていない。農家の密閉・乾燥の貯蔵は 10% 以下になりうる（その版で 4.5〜7.7 年）。</li>
+<li>事例は 13 件・5 局面で、選び方は資料の見つけやすさに引っ張られている。欧州の黒死病の後の放棄村で作物が地域から消えなかったことは、消えたという資料が無いだけで、数えていない。</li>
+<li>q_halt と空白の分布はすべて推測。最も効くのは群どうしの相関で、これは資料がない。</li>
+</ul>
+<h2 id="_4">主な発見</h2>
+<p>種子の主食は、農耕が数年（常温の貯蔵で 1〜8 年）止まるだけで群から消えうる。一方、栄養繁殖・多年生の作物（taro、パンノキ）は人がいなくても 70〜190 年残った。だから群あたりの P_loss はほぼ「農耕を止める確率」そのもので、種子庫が要るかは群どうしの相関で決まる。群が 3 つ独立に残れば地域の喪失は 0.4% まで下がる。【独自仮説】重い崩壊で種子庫が効くのは、広い地域の農耕が同時に止まる型（核の冬の数年の不作など）に限られ、そのときは近くの複数の場所の写し（093・231）がより効く。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>Crop Trust と遺伝子銀行は、重い崩壊への備えの重みを、穀物・豆など常温で数年しかもたない種子の主食に置き、栄養繁殖の作物は優先を下げてよい。本研究所は、農耕が同時に止まる地理の相関（核の冬の不作の年数と範囲、232）と、温帯の複数の地域に重ねる案（231）へ進む。</p><footer><hr><small>自動生成</small></footer></body></html>

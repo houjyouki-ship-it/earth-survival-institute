@@ -1,0 +1,46 @@
+{{Short description|Species of flowering plant}}
+{{Speciesbox
+| image = Polygonum erectum, 2022-06-26, Beechview, 02.jpg
+| genus = Polygonum
+| species = erectum
+| authority = [[Carl Linnaeus|L.]] 1753 not Roth 1783 nor Vell. 1827
+| synonyms_ref = 
+| synonyms = 
+}}
+
+'''''Polygonum erectum''''', commonly called '''erect knotweed''', is a North American species of herbaceous plant in the buckwheat family ([[Polygonaceae]]). It is found primarily in the northeastern and north-central parts of the United States, but with scattered populations in other parts of the US and also in Canada.<ref name=BONAP/> 
+
+Its natural habitat is in bottomland forests and riparian areas. It is tolerant of ecological degradation, and can also be found in disturbed open areas such as pastures and lawns.<ref name=Missouri/><ref name=weakley2015/>
+
+It was cultivated for food by Native Americans as early as 1000 BC. Domesticated in the area of North America just west of the [[Appalachian Mountains]], erect knotweed was part of a group of crops known as the [[Eastern Agricultural Complex]], along with [[goosefoot]], [[sunflower]], [[sumpweed]], [[little barley]], [[maygrass]], and squash.<ref>{{cite journal |last1=Mueller |first1=Natalie G. |title=The earliest occurrence of a newly described domesticate in Eastern North America: Adena/Hopewell communities and agricultural innovation |journal=Journal of Anthropological Archaeology |date=March 2018 |volume=49 |pages=39–50 |doi=10.1016/j.jaa.2017.12.001}}</ref> These crops became the primary source of calories for many communities in North America until the gradual introduction of [[maize]] supplanted them from circa 500 AD to circa 850 AD, culminating in the [[Three Sisters (agriculture)|Three Sisters]] method of farming maize, squash, and beans together circa 1050 AD.<ref>{{cite encyclopedia |last=Bruno |first=Maria C. |title=Indigenous American Agricultural Contributions to Modern Global Food Systems |date=February 25, 2019 |encyclopedia=Oxford Research Encyclopedia of Environmental Science |url=https://oxfordre.com/environmentalscience/view/10.1093/acrefore/9780199389414.001.0001/acrefore-9780199389414-e-176 |access-date=2025-10-24 |publisher=Oxford University Press |language=en |doi=10.1093/acrefore/9780199389414.013.176 |isbn=978-0-19-938941-4|url-access=subscription }}</ref><ref>{{Cite journal |last=Mueller |first=Natalie G. |date=May 2025 |title=The sleeping crops of eastern North America: a new synthesis |url=https://royalsocietypublishing.org/doi/10.1098/rstb.2024.0192 |journal=Philosophical Transactions of the Royal Society B: Biological Sciences |language=en |volume=380 |issue=1926 |doi=10.1098/rstb.2024.0192 |issn=0962-8436 |pmc=12079124 |pmid=40370024}}</ref> By 1 AD, domesticated subspecies of erect knotweed (''Polygonum erectum subsp. watsoniae'') was developed in the [[Ohio River Valley]], but it has since become extinct.<ref>{{cite journal |last1=Mueller |first1=Natalie G. |title=Documenting the Evolution of Agrobiodiversity in the Archaeological Record: Landraces of a Newly Described Domesticate (Polygonum erectum) in North America |journal=Journal of Archaeological Method and Theory |date=2019 |volume=26 |issue=1 |pages=313–343 |url=https://www.jstor.org/stable/26748400 |issn=1072-5369}}</ref>
+
+==Description==
+''Polygonum erectum'' is an erect annual growing {{convert|10|-|75|cm|in|round=0.5|abbr=on}} tall with many to few, non-wiry branches. The leaves have distinct veins and entire edges or have jagged cut edges. The [[Pedicel (botany)|pedicel]]s are shorter or equal the length of the calyx and typically longer than the [[ocrea]]e. The closed flowers have a calyx that is typically {{cvt|3|mm}} long, green in color and 5-lobed. Flowers in clusters of 1 to 5 in [[Cyme (botany)|cymes]] that are produced in the axils of most leaves. The calyx segments are unequal with the outer lobes longer and not keeled and the inner ones narrowly keeled. The [[tepal]]s are greenish, with yellowish tinting or sometimes with whitish tints. The seeds are produced in [[fruit]]s called [[achene]]s that can be of two different types; one type is dark brown with a shiny surface and is broadly egg-shaped, typically about {{cvt|2.5|mm}} long. The other achene type is dull brown, exsert and egg-shaped, and {{convert|3|–|3.5|mm|in|abbr=on}} long. Late season fruiting is uncommon and if produced the achenes are {{convert|4|to|5|mm|in|abbr=on}} long.<ref name=Gleason/><ref name=fna/>
+<gallery widths="150px" heights="150px" mode=nolines>
+File:Polygonum erectum BB-1913.png|Botanical illustration of ''Polygonum erectum''
+</gallery>
+
+==Conservation==
+''Polygonum erectum'' is considered to be globally secure.<ref name=natureserve/> However, it is uncommon throughout much of its range, and population have declined dramatically in some regions.<ref name=Missouri/><ref name=GoBotany/> It is listed as endangered in [[New Hampshire]] and [[New York (state)|New York]].<ref name=usda/>
+
+==References==
+{{Reflist|refs=
+<ref name=BONAP>{{BONAP|ref|genus=Polygonum|species=erectum|accessdate=2 June 2019}}</ref>
+<ref name=fna>[http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=242417029 Flora of North America, ''Polygonum erectum'' Linnaeus, 1753. Erect knotweed, renouée dressée ]</ref>
+<ref name=Gleason>{{cite book| last = Gleason, A.| first = Henry| title = The new Britton and Brown illustrated flora of the northeastern United States and adjacent Canada.| publisher = New York Botanical Garden by Hafner Pub. Co.| year = 1963| pages = 72–84| lccn = 63016478}}</ref>
+<ref name=GoBotany>{{Go Botany|genus=Polygonum|species=erectum|access-date=2 June 2019}}</ref>
+<ref name=Missouri>{{cite book |last=Yatskievych |first=George |date=2013 |title=Flora of Missouri, Volume 3 |publisher=Missouri Botanical Garden Press |pages=746}}</ref>
+<ref name=natureserve>{{Cite web| publisher =NatureServe| title = Polygonum erectum| work = NatureServe Explorer| url = http://www.natureserve.org/explorer/servlet/NatureServe?searchName=Polygonum+erectum| access-date = 2019-06-02}}</ref> 
+<ref name=usda>{{PLANTS|id=POER2|taxon=Polygonum erectum|accessdate=2 June 2019}}</ref>
+<ref name=weakley2015>{{cite web |url=http://www.herbarium.unc.edu/flora.htm |title=Flora of the Southern and Mid-Atlantic States |last=Weakley |first=Alan |date=2015}}</ref>}}
+
+{{Taxonbar|from=Q377934}}
+
+[[Category:Polygonum|erectum]]
+[[Category:Flora of Canada]]
+[[Category:Flora of the United States]]
+[[Category:Crops originating from Pre-Columbian North America]]
+[[Category:Plants used in Native American cuisine]]
+[[Category:Plants described in 1753]]
+[[Category:Botanical taxa named by Carl Linnaeus]]
+[[Category:Pseudocereals]]

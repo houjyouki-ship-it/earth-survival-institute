@@ -1,0 +1,75 @@
+{{Short description|Species of flowering plant}}
+{{Speciesbox
+| image = Iva annua (USDA).jpg
+| status = {{TNCStatus}}
+| status_system = TNC
+| status_ref = <ref name="NatureServe" />
+| genus = Iva
+| species = annua
+| authority = [[Carl Linnaeus|L.]] 1753
+| synonyms_ref = <ref>[http://www.theplantlist.org/tpl1.1/record/gcc-10540 The Plant List, ''Iva annua'' L.]</ref>
+| synonyms = 
+* ''Iva annua'' var. ''caudata'' <small>(Small) R.C.Jacks.</small>
+* ''Iva annua'' var. ''macrocarpa'' <small>(S.F.Blake) R.C.Jacks.</small>
+* ''Iva caudata'' <small>Small</small>
+* ''Iva ciliata'' var. ''macrocarpa'' <small>S.F.Blake</small>
+}}
+[[File:Iva annua.jpg|thumb|Illustration of ''Iva annua'']]
+'''''Iva annua''''', the '''annual marsh elder'''<ref>{{PLANTS|id=IVAN2|taxon=Iva annua|accessdate=3 August 2016}}</ref> or '''sumpweed''', is a North American [[herbaceous]] [[annual plant]] in the family [[Asteraceae]] that was historically cultivated by [[Native Americans in the United States|Native Americans]] for its [[edible seed]].
+
+==Description==
+''Iva annua'' is an annual herb up to 150&nbsp;cm (5 feet) tall. The plant produces many small flower heads in a narrow, elongated, spike-like array, each head with 11–17 disc florets but no ray florets.<ref>[http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=220006879 Flora of North America, ''Iva annua'' Linnaeus, 1753. ]</ref> Marshelder has a unique odor when the leaves or pollen are touched, but this odor is not present in winnowed seed. 
+
+Cultivated varieties of Marshelder (var. macrocarpa) bred by Native Americans possessed seeds 6-9mm in length; whereas wild-type Marshelder has seeds 3 mm in length on average (not exceeding 4.5 mm).<ref>Weiland, A. W., & Gremillion, K. J. (2018). Patterns of Variation in the Seed Morphology of Iva annua var. Macrocarpa, an Extinct North American Domesticate. Ethnobiology Letters, 9(2), 75–89.
+</ref>
+
+==Distribution==
+It is native to northeastern Mexico ([[Tamaulipas]]) and to the central and southern United States, primarily the [[Great Plains]] and [[Mississippi Valley]] as far north as [[North Dakota]]. There are some populations in the eastern US, but these appear to represent introductions.<ref>[https://bonap.net/MapGallery/County/Iva%20annua.png Biota of North America Program 2014 county distribution map]</ref>
+
+===Conservation===
+[[NatureServe]] evaluated ''Iva annua'' in 1998 as globally secure, G5.<ref name="NatureServe">{{cite web |last1=NatureServe |title=''Iva annua'' |url=https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.146027 |access-date=7 October 2023 |location=Arlington, Virginia |date=2023}}</ref>
+
+==Uses==
+''Iva annua'' was cultivated for its edible seed by Native Americans around 4,000 years ago<ref>{{Cite web|url=https://www.sciencedaily.com/releases/2016/08/160802104526.htm|title=Population boom preceded early farming|last=|first=|date=August 2, 2016|website=sciencedaily.com|publisher=|access-date=3 August 2016}}</ref> in the central and eastern United States as part of the [[Eastern Agricultural Complex]]. It was especially important to the indigenous peoples of the [[Kansas City Hopewell]] culture in present-day [[Missouri]] and [[Illinois]]. The edible parts contain 32 percent protein and 45 percent oil.
+
+However, like its relative [[ragweed]], sumpweed possesses many objectionable qualities which include being a severe potential [[allergen]] and possessing a unique odor. Probably for these reasons it was abandoned after more pleasant alternatives (such as [[maize]]) were available and, by the time Europeans arrived in the Americas, had disappeared as a crop.<ref>{{cite book
+ | author=Jared Diamond
+ | title=Guns, Germs and Steel
+ | publisher=New York: Norton
+ | date=2003
+ | page=151}}</ref>
+
+==See also==
+* [[New World crops]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Commons category-inline|Iva annua}}
+*{{Wikispecies-inline|Iva annua}}
+* [http://plants.usda.gov/plant-profile?symbol=IVAN2USDA Plants Profile for ''Iva annua'' (annual marsh elder) ]
+* [https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?104368  Germplasm Resources Information Network−GRIN: treatment of ''Iva annua'']
+* {{cite web |url=https://www.missouriplants.com/Iva_annua_page.html |title=Iva annua L. |access-date=August 23, 2022 |publisher=MissouriPlants.com}} Includes photographs.
+* [http://www.tropicos.org/ImageFullView.aspx?imageid=89432 Photo of herbarium specimen at Missouri Botanical Garden]
+
+{{Taxonbar|from=Q6095678}}
+
+[[Category:Iva (plant)|annua]]
+[[Category:Pseudocereals]]
+[[Category:Flora of the Great Plains (North America)]]
+[[Category:Flora of the United States]]
+[[Category:Flora of the South-Central United States]]
+[[Category:Flora of the Southeastern United States]]
+[[Category:Flora of the Great Lakes region]]
+[[Category:Flora of the Appalachian Mountains]]
+[[Category:Flora of Tamaulipas]]
+[[Category:Flora of Veracruz]]
+[[Category:Edible nuts and seeds]]
+[[Category:Crops originating from Pre-Columbian North America]]
+[[Category:Native American cuisine of the Southeastern Woodlands]]
+[[Category:Pre-Columbian Great Plains cuisine]]
+[[Category:Crops originating from the United States]]
+[[Category:Plants described in 1753]]
+[[Category:Botanical taxa named by Carl Linnaeus]]
+[[Category:Flora without expected TNC conservation status]]

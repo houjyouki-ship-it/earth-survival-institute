@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>094 事前登録（2026-10-23 01:34 JST に記入。下の資料をこの回ではまだ開いていない・sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="094-2026-10-23-0134-jst-simpy">094 事前登録（2026-10-23 01:34 JST に記入。下の資料をこの回ではまだ開いていない・sim.py の前）</h1>
+<p>注：本研究の指標（割合・年数）は模型の中の値で、人類の生存確率でも文明の復興確率でもない。</p>
+<h2 id="open_problems-230">課題（open_problems 230）</h2>
+<p>重い崩壊で農耕が何年止まると畑の品種（作物そのもの）が地域から消えるか。種子庫が要る確率 P_loss を初めて数で置く。</p>
+<h2 id="_1">方法（固定）</h2>
+<ol>
+<li>物理の側：農家の常温の貯蔵の種子（水分 12〜14%、15〜25 °C）の P50 を 092 の Ellis–Roberts の定数（同じ 130 行の有効行）で出す。
+   主食（大麦・小麦・ライ麦・エンドウ・米・トウモロコシ・豆）に絞った版も出す。これを「貯蔵の種子だけで耐えられる空白の年数」L_store とする。</li>
+<li>畑の外の側：野良生え（volunteer）・土の中の種子の残りの年数を公開の論文から取る（L_feral）。</li>
+<li>歴史の側：公開の資料（Wikipedia と論文）で「人口の崩壊・農耕の中断の後に作物/品種が地域から消えたか」を数え、
+   (a) 農耕が続いた（人口だけ減った）事例、(b) 地域の農耕が止まった/放棄された事例に分ける。</li>
+<li>模型：重い崩壊の生き残りの群が農耕を止める確率 q_halt と空白の年数の分布（対数正規、版）を置き、
+   P_loss = q_halt × P(空白 &gt; L) で出す。q_halt と空白の分布は【推測】の版で幅を示す。</li>
+</ol>
+<h2 id="_2">登録時点で知っていたもの（正直な記録）</h2>
+<ul>
+<li>一般知識として：新大陸の 16 世紀の人口の大崩壊の後もトウモロコシ・豆・ジャガイモなどは残った。
+  Greenland の Norse の入植地は 15 世紀に絶えた。黒死病の後の放棄村は欧州で多い。
+  Polynesia で一部の島に作物を持ち込めなかった/失った話がある（具体の島と作物は未確認）。
+  栽培化された穀物は落粒しないため畑の外で長く残らないとされる（一般知識、数は未確認）。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H106a（確認的）：農耕が続いた（人口だけ減った）事例で、主食の作物が地域から消えた割合は 0.2 未満。</li>
+<li>H106b（確認的）：地域の農耕が止まった/人が去った事例で、作物が人の手なしに残った（野良で続いた）主食は半数未満。</li>
+<li>H106c（予測）：常温の農家の貯蔵の種子の P50 の中央値（全有効行、m=13%、20 °C）は 5 年以下。</li>
+<li>H106d（予測）：主の版（q_halt 0.2、空白の中央値 3 年）で重い崩壊の P_loss は 0.15 以下で、093 の「場所の知識」の損より
+  種子庫の価値を縛らない（＝種子庫が要るのは少数の群）。</li>
+<li>H106e（記述）：作物が消えた事例の主な原因は「種を食べた・植えなかった」か「人が去った」かのどちらか。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
