@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究090 事前登録（作成 2026-10-22T06:40Z、World Bank の資料を取得する前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="090-2026-10-22t0640zworld-bank-simpy">研究090 事前登録（作成 2026-10-22T06:40Z、World Bank の資料を取得する前・sim.py を書く前）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-218221">問い（open_problems 218＋221）</h2>
+<p>075 の群の点（生き残りの居場所）は Natural Earth の人口つきの地名だけで、農村の人口がない。089 で崩壊の直後に人は市から郡部へ動く（日本 1940→1947、市の合計 0.856・郡部 1.245）と分かった。
+全世界の群の点を GeoNames cities1000 にそろえ、農村の人口を足し、市から郡部への移動を入れると、重い崩壊の TC/V0 と 10 の置き方の順位はどう動くか。</p>
+<h2 id="_1">入力</h2>
+<ul>
+<li>未見（確認的にできる）：World Bank API の 2020 年の総人口（SP.POP.TOTL）と農村人口の割合（SP.RUR.TOTL.ZS）。この登録の時点で取得していない。</li>
+<li>既知：GeoNames cities1000（087 で取得済み、087/sources/）、075 の器、089 の市 0.856・郡部 1.245。</li>
+</ul>
+<h2 id="_2">計算（登録）</h2>
+<ul>
+<li>087 の sim.py を「新しい点の集合」の前まで exec（075・084 の差0の assert を含む）。</li>
+<li>点の集合：GeoNames cities1000 の全世界の点（PPLX を除く、074 の国の表 A2 にある国のみ）。GeoNames の点のない国は NE の点を残す。写しの場所は 074 の NE の点のまま。乱数は 075 の UPT を共通に使う（新しい乱数なし）。</li>
+<li>版：</li>
+<li>B_GN：国の中の重みは GeoNames の人口に比例（農村なし）。</li>
+<li>R（主）：国の重みを都市の割合 u_c（=1−農村の割合）と農村 1−u_c に分け、都市の分は GeoNames の人口に比例、農村の分は人口 10,000 未満の点に等しく配る（小さな集落がまわりの農村を代表）。</li>
+<li>R_sqrt：農村の分を人口 10,000 未満の点の pop^0.5 に比例。R_all：農村の分をすべての点に等しく。</li>
+<li>M（主の移動）：R で都市の分に 0.856、農村の分に 1.245 を掛けて国の中で正規化し直す（089）。M2：倍率を2乗（0.733・1.550）。</li>
+<li>各版で 075 の 10 の置き方＋mesh100・mesh200 の重い崩壊の TC/V0（mesh35 の 075 の値 0.6801 と比べる）。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<p>確認的（World Bank の資料を取得する前）：
+- H102a：A2 の国で GeoNames（PPLX 除く）の人口の合計は World Bank の総人口の合計の 0.8 倍未満。
+- H102b：World Bank の農村人口の割合の、人口で重みづけた世界の平均は 0.40〜0.48。
+計算の前の予測：
+- H102c：B_GN の mesh35 の重い崩壊の TC/V0 は 075 の 0.6801 から ±0.010 以内。
+- H102d：農村を足すと（R − B_GN）mesh35 は 0.003〜0.030 下がる。
+- H102e：移動（M − R）の mesh35 の差は絶対値で 0.005 未満。
+- H102f：M の 10 の置き方の順位は 075 と Kendall τ ≥ 0.7 で、最良は mesh35 のまま。
+- H102g：M で 35→200 の上げ幅は 075 の +0.049 以上。</p><footer><hr><small>自動生成</small></footer></body></html>
