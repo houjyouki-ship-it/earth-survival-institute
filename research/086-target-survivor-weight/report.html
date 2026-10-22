@@ -1,0 +1,117 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究086：核の標的の都市で生き残りを減らすと、084 の写しの喪失の損は残るか（open_problems 213） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="086084-open_problems-213">研究086：核の標的の都市で生き残りを減らすと、084 の写しの喪失の損は残るか（open_problems 213）</h1>
+<blockquote>
+<p><strong>注</strong>：TC/V0 は生存確率でも復興確率でもない（060〜085 の模型の中の価値の比）。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>事前登録：PREREGISTRATION.md（2026-10-21T22:42Z、sim.py を書く前・計算の前）。入力の直接の死者は 084 で既知なので、仮説はすべて「入力判明後の予測」（確認的なし）。</li>
+<li>資料【事実（出典）】：Xia et al. 2022, Nature Food, Table 1（https://www.nature.com/articles/s43016-022-00573-0/tables/1 、本回再取得 sources/xia_table1.html、SHA256 は sources/SHA256SUMS.txt）。直接の死者は 47 Tg（500発・100 kt）で 164,000,000 人、150 Tg（4,400発・100 kt）で 360,000,000 人。標的の国と兵器の数は 084 の sources/targets.json（Toon, Robock &amp; Turco 2008、Toon et al. 2019）をそのまま使った。</li>
+<li>sim.py：075 の sim.py を exec し、084 の run_nuc を同じ式で書いて 084 の mesh35・pop@pt の重い崩壊の TC/V0 を <strong>差0</strong> で再現（assert）。標的から R_d 以内の群の点（Natural Earth の点）の重みに (1−f) を掛けた。V1（主）f = D / 壊れた点の pop_max の合計（国の中で正規化し直す）、V2 1発あたり k=D/標的数を各点から引く、V3 f=1、V4 V1 を正規化し直さない（国の合計が減り、他の国へ移る）。乱数は 075 の UPT を共通に使い、新しい乱数なし。</li>
+<li>zone_check.py（記述）：標的の国の NE の点のうち標的の 10 km の外にある点を数えた。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<p>f の値：V1 で xia150 0.32（壊れた点の pop_max の合計 11.1億人）、xia47 0.65（2.5億人）。</p>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>mesh35 重い崩壊 TC/V0</th>
+<th>075 からの損</th>
+<th>084 の損に対する比</th>
+<th>mesh200</th>
+<th>35→200</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>075（喪失なし）</td>
+<td>0.680</td>
+<td>—</td>
+<td>—</td>
+<td>0.729</td>
+<td>+0.049</td>
+</tr>
+<tr>
+<td>084（写しの喪失、生き残りはそのまま）</td>
+<td>0.663</td>
+<td>0.0171</td>
+<td>1.00</td>
+<td>0.706</td>
+<td>+0.0435</td>
+</tr>
+<tr>
+<td>V1（主）</td>
+<td>0.6616</td>
+<td>0.0185</td>
+<td><strong>1.08</strong></td>
+<td>0.7058</td>
+<td>+0.0443</td>
+</tr>
+<tr>
+<td>V2</td>
+<td>0.6650</td>
+<td>0.0151</td>
+<td>0.88</td>
+<td>0.7071</td>
+<td>+0.0421</td>
+</tr>
+<tr>
+<td>V3（f=1）</td>
+<td>0.6631</td>
+<td>0.0170</td>
+<td>0.99</td>
+<td>0.7066</td>
+<td>+0.0435</td>
+</tr>
+<tr>
+<td>V4（他の国へ移る）</td>
+<td>0.6646</td>
+<td>0.0155</td>
+<td>0.90</td>
+<td>0.7116</td>
+<td>+0.0470</td>
+</tr>
+<tr>
+<td>V1＋e=0.66（085）</td>
+<td>0.6589</td>
+<td>—</td>
+<td>—</td>
+<td>0.6978</td>
+<td>+0.0388</td>
+</tr>
+<tr>
+<td>e=0.66 のみ（084 の喪失つき）</td>
+<td>0.6603</td>
+<td>—</td>
+<td>—</td>
+<td>0.6966</td>
+<td>+0.0363</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>10 の置き方の順位：V1 と 084 の Kendall τ <strong>0.87</strong>、最良は 084 と同じ pop@pt（0.6646）、mesh35 は4位、幅 0.0137。R_d 5・25 km でも mesh35 0.6616・0.6621。</li>
+<li><strong>主な発見（記述）</strong>：標的の国では兵器の数が NE の点の数以上で（例 US 769点に 1,000発、CN 400点に 1,100発）、xia150 の 9 か国のうち 8 か国で <strong>すべての点</strong> が標的の 10 km 以内、IN でも外は 13点・人口の 0.3%（zone_check.json）。つまり 084 は標的の国の写しを <strong>国ごと</strong> すべて消し、その国の生き残りはすべて壊れた点にいた。国の中で生き残りを動かす先がないので、V1〜V3 の「正規化し直し」はほぼ何もしない（V3 では 8 か国が全点壊れで元の重みに戻した）。効いたのは国の外へ移す V4 だけで、そこでも損の 9 割が残る。</li>
+</ul>
+<h2 id="_3">仮説の判定（すべて予測）</h2>
+<ul>
+<li>H98a（V1 の損 ≥ 084 の 0.5 倍）：1.08 で <strong>支持</strong>。</li>
+<li>H98b（τ ≥ 0.7）：0.87 で <strong>支持</strong>。</li>
+<li>H98c（V3 mesh35 ≥ 0.663）：0.6631 で <strong>支持</strong>（差 0.0002、実質同じ。上の理由で V3 は 8 か国で元の重みに戻っており、検定としては弱い）。</li>
+<li>H98d（V1 の 35→200 ≤ 084）：+0.0443 &gt; +0.0435 で <strong>棄却</strong>（差は小さい）。</li>
+<li>H98e（V1＋e=0.66 が 0.655〜0.675）：0.659 で <strong>支持</strong>。</li>
+</ul>
+<h2 id="_4">批判的な検討</h2>
+<ul>
+<li>213 の問い（標的の都市の生き残りを減らすと損が縮むか）は、NE の点（約7千点）の粗さのせいで <strong>この点の集合では答えられない</strong>ことが分かった。損は縮まず（0.88〜1.08倍）、これは「生き残りの置き方が損を大きくしていた」のではなく、084 が標的の国の写しを国ごと消していたため。</li>
+<li>このため 084 の損 0.017 の解釈を改める【推測】：100 kt の破壊の半径（約 5 km）の外の小さな町の写しは実際には残るはずで、点の集合が細かければ写しの喪失は 084 より小さい側に、生き残りの減りは標的の点に限られて国の中の他の町へ移る。両方とも 084 の損を小さくする向きなので、<strong>084 の 0.017 は上限の側</strong>と読むのが妥当。ただし大きさはこの研究では出せない。</li>
+<li>f は NE の pop_max（都市圏の人口で、近い点どうしは重なる）を分母にしており、壊れた区域の実際の人口を表さない。V2 も同じ。</li>
+<li>V4 は国の生き残りの合計を変えるので、Xia の国別の値（飢饉の後の生き残り）と二重に数える面がある（直接の死者は Xia の飢饉の値に含まれていない前提【推測】）。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>冊子を配る運営者：084 と同じく、核の標的を避けるために置き場所を動かす必要はこの模型では示されない。部数と散らし方の判断を優先する。</li>
+<li>本研究所：084 の「写しの喪失の損 −0.017」を上限の側と注記し、標的の国に標的でない町の点がある細かい点の集合（例：GeoNames の人口つきの地名）で 084 と 086 をやり直す（open_problems 217）。</li>
+</ul>
+<h2 id="_6">成果物</h2>
+<p>sim.py（約405秒）、zone_check.py、results.json、zone_check.json、stdout.txt、fig_survivor_weight.png、PREREGISTRATION.md、sources/（xia_table1.html、fetch.sh、SHA256SUMS.txt）。</p><footer><hr><small>自動生成</small></footer></body></html>

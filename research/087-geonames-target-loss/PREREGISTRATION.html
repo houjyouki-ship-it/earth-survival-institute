@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究087 事前登録（作成 2026-10-22T00:39Z、GeoNames の資料を取得する前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="087-2026-10-22t0039zgeonames-simpy">研究087 事前登録（作成 2026-10-22T00:39Z、GeoNames の資料を取得する前・sim.py を書く前）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-217">問い（open_problems 217）</h2>
+<p>086 で、標的の国では Natural Earth（NE）の点がすべて標的の 10 km 以内に入り、084 は写しを国ごと消していたと分かった。
+細かい地名の点の集合（GeoNames cities1000）を使うと、084 の写しの喪失の損（mesh35 重い崩壊 0.680→0.663、0.0171）はどれだけ残るか。</p>
+<h2 id="_1">入力</h2>
+<ul>
+<li>未見（確認的にできる）：GeoNames cities1000（https://download.geonames.org/export/dump/cities1000.zip ）の中身。この登録の時点で開いていない。</li>
+<li>既知：084 の targets.json（兵器の数）、Xia 2022 Table 1 の直接の死者（086 で読んだ）。</li>
+</ul>
+<h2 id="_2">計算（登録）</h2>
+<ul>
+<li>075 の sim.py を exec（070・074 の差0の検査を含む）し、群の点（生き残りの居場所）と写しの場所を分けて扱う関数を書く。まず群の点＝NE の点のままで 084 の mesh35・pop@pt の重い崩壊の TC/V0 と、075 の mesh35 を差0で再現する（assert）。</li>
+<li>新しい点の集合：標的の国（xia150 の 9 か国、xia47 の IN・PK）では、群の点を NE の点から GeoNames の人口 1,000 以上の地名に置き換える（他の国は NE のまま）。国の中の重みは人口に比例（075 と同じ e=1）。乱数は 075 の UPT を共通に使う。</li>
+<li>標的：国ごとに GeoNames の地名を人口の順に兵器の数だけ。写しの場所は 074 の NE の点のまま（置き方の定義を変えない）で、標的から R_d=10 km 以内の写しを核の地理の標本で 0 部にする。</li>
+<li>生き残り：標的から R_d 以内の群の点の重みに (1−f)、f = min(1, D / 壊された区域の人口)（086 の V1、国の中で正規化し直す）。</li>
+<li>版：B0 点を置き換えただけ（喪失なし、新しい基準）、C 写しの喪失のみ、CS 写しの喪失＋生き残りの減り（主）、R_d 5・25 km、地名の人口の下限 15,000（cities15000 相当の絞り）。</li>
+<li>損は新しい基準 B0 からの差で測り、075 からの差も並べる。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<p>確認的（GeoNames を開く前）：
+- H99a：主（CS）で mesh35 の重い崩壊の損（B0−CS）は 084 の損 0.0171 の 0.5 倍以下。
+- H99b：xia150 で失われる mesh35 の写しの割合は 30% 以下（084 は 40%）。
+入力判明後の予測ではないが、計算の前の予測：
+- H99c：10 の置き方の順位は 084 と Kendall τ ≥ 0.7。
+- H99d：主で 35→200 の上げ幅は +0.044 以上。
+- H99e：生き残りの減りを足すと損は写しの喪失のみ（C）より小さい（B0−CS &lt; B0−C）。</p><footer><hr><small>自動生成</small></footer></body></html>

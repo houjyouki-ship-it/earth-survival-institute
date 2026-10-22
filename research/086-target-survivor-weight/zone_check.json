@@ -1,0 +1,68 @@
+{
+ "xia150:US": {
+  "ne_points": 769,
+  "weapons": 1000,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia150:FR": {
+  "ne_points": 71,
+  "weapons": 200,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia150:DE": {
+  "ne_points": 58,
+  "weapons": 200,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia150:IN": {
+  "ne_points": 214,
+  "weapons": 200,
+  "points_outside_10km": 13,
+  "pop_share_outside": 0.0032394747949084485
+ },
+ "xia150:JP": {
+  "ne_points": 69,
+  "weapons": 200,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia150:PK": {
+  "ne_points": 41,
+  "weapons": 200,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia150:GB": {
+  "ne_points": 57,
+  "weapons": 200,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia150:CN": {
+  "ne_points": 400,
+  "weapons": 1100,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia150:RU": {
+  "ne_points": 581,
+  "weapons": 1100,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia47:IN": {
+  "ne_points": 214,
+  "weapons": 300,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ },
+ "xia47:PK": {
+  "ne_points": 41,
+  "weapons": 200,
+  "points_outside_10km": 0,
+  "pop_share_outside": 0.0
+ }
+}
