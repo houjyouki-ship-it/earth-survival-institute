@@ -1,0 +1,458 @@
+{
+ "study": "090-rural-survivor-points",
+ "seed": null,
+ "note": "TC/V0 は生存確率・復興確率ではない。提言は模型の中の順位（外部の検証はまだ）。",
+ "check_087": {
+  "075_mesh35_maxdiff": 0.0,
+  "084_absdiff": {
+   "mesh35": 0.0,
+   "pop@pt": 0.0
+  }
+ },
+ "data": {
+  "n_points": 154895,
+  "n_geonames": 154895,
+  "n_countries_A2": 159,
+  "n_countries_with_geonames": 159,
+  "n_countries_in_wb": 158,
+  "geonames_pop_over_wb_pop": 0.5531437369956438,
+  "world_rural_share_popweighted": 0.4332559085173693,
+  "geonames_over_wb_by_country_median": 0.669180108230968
+ },
+ "rural_share_of_weight": {
+  "R": 0.422736223116287,
+  "R_sqrt": 0.42273622311628534,
+  "R_all": 0.42273622311628717,
+  "M": 0.5004326607174601,
+  "M2": 0.5778867136148498,
+  "M_sqrt": 0.5004326607174603
+ },
+ "reach": {
+  "cover1500@cty_B_GN": {
+   "share_groups_n0": 0.8702531076523129,
+   "mean_n": 0.13504512164734472
+  },
+  "cover750@cty_B_GN": {
+   "share_groups_n0": 0.8957552513479979,
+   "mean_n": 0.11184465720135327
+  },
+  "cover3000x@cty_B_GN": {
+   "share_groups_n0": 0.9110552531461849,
+   "mean_n": 0.2050125744642045
+  },
+  "per_subregion@cty_B_GN": {
+   "share_groups_n0": 0.846775208653903,
+   "mean_n": 0.1600861588415566
+  },
+  "pop@cty_B_GN": {
+   "share_groups_n0": 0.7643321919127828,
+   "mean_n": 0.25405812253873167
+  },
+  "surv150@cty_B_GN": {
+   "share_groups_n0": 0.7552333661288375,
+   "mean_n": 0.26224244183507545
+  },
+  "bigplus@cty_B_GN": {
+   "share_groups_n0": 0.8885265399544288,
+   "mean_n": 0.12140202064832345
+  },
+  "per_subregion@pt_B_GN": {
+   "share_groups_n0": 0.8558817409531932,
+   "mean_n": 0.14956676539569103
+  },
+  "pop@pt_B_GN": {
+   "share_groups_n0": 0.7009936267118098,
+   "mean_n": 0.3798220308723005
+  },
+  "mesh35_B_GN": {
+   "share_groups_n0": 0.6900169800221434,
+   "mean_n": 0.45284768586188384
+  },
+  "mesh100_B_GN": {
+   "share_groups_n0": 0.4980335541678119,
+   "mean_n": 0.9165718337139496
+  },
+  "mesh200_B_GN": {
+   "share_groups_n0": 0.3848145683966081,
+   "mean_n": 1.7906948964886547
+  },
+  "cover1500@cty_R": {
+   "share_groups_n0": 0.891291894544044,
+   "mean_n": 0.11337311607810296
+  },
+  "cover750@cty_R": {
+   "share_groups_n0": 0.9018767933703418,
+   "mean_n": 0.10575008798271686
+  },
+  "cover3000x@cty_R": {
+   "share_groups_n0": 0.9255088226756507,
+   "mean_n": 0.17561992493854053
+  },
+  "per_subregion@cty_R": {
+   "share_groups_n0": 0.8706525620310265,
+   "mean_n": 0.13604183096529243
+  },
+  "pop@cty_R": {
+   "share_groups_n0": 0.8015700740596124,
+   "mean_n": 0.21648372255517223
+  },
+  "surv150@cty_R": {
+   "share_groups_n0": 0.7901824132182151,
+   "mean_n": 0.22611686673636783
+  },
+  "bigplus@cty_R": {
+   "share_groups_n0": 0.8955754326566157,
+   "mean_n": 0.11396523334044045
+  },
+  "per_subregion@pt_R": {
+   "share_groups_n0": 0.8725393738713166,
+   "mean_n": 0.13276527752446177
+  },
+  "pop@pt_R": {
+   "share_groups_n0": 0.7453292094913443,
+   "mean_n": 0.33219961929814196
+  },
+  "mesh35_R": {
+   "share_groups_n0": 0.7382982986582957,
+   "mean_n": 0.3881103881258012
+  },
+  "mesh100_R": {
+   "share_groups_n0": 0.5545993767997924,
+   "mean_n": 0.8207348933032951
+  },
+  "mesh200_R": {
+   "share_groups_n0": 0.44273673772930094,
+   "mean_n": 1.664770435752066
+  },
+  "mesh35_R_sqrt": {
+   "share_groups_n0": 0.7402146521407416,
+   "mean_n": 0.3871367983538883
+  },
+  "pop@pt_R_sqrt": {
+   "share_groups_n0": 0.7452328780495323,
+   "mean_n": 0.3333491745037646
+  },
+  "per_subregion@pt_R_sqrt": {
+   "share_groups_n0": 0.8756862009705072,
+   "mean_n": 0.1294540447645788
+  },
+  "mesh200_R_sqrt": {
+   "share_groups_n0": 0.44477382661881776,
+   "mean_n": 1.6576830104731544
+  },
+  "mesh35_R_all": {
+   "share_groups_n0": 0.7309244478923965,
+   "mean_n": 0.4016430290715447
+  },
+  "pop@pt_R_all": {
+   "share_groups_n0": 0.7400836413798773,
+   "mean_n": 0.33719986333779456
+  },
+  "per_subregion@pt_R_all": {
+   "share_groups_n0": 0.8695441082405768,
+   "mean_n": 0.13588898507761746
+  },
+  "mesh200_R_all": {
+   "share_groups_n0": 0.4357161022500456,
+   "mean_n": 1.6938098699910862
+  },
+  "cover1500@cty_M": {
+   "share_groups_n0": 0.8943590876513366,
+   "mean_n": 0.11015564592158364
+  },
+  "cover750@cty_M": {
+   "share_groups_n0": 0.9037738805644252,
+   "mean_n": 0.10387612033466827
+  },
+  "cover3000x@cty_M": {
+   "share_groups_n0": 0.9277745381870679,
+   "mean_n": 0.17116299023070738
+  },
+  "per_subregion@cty_M": {
+   "share_groups_n0": 0.87459701346842,
+   "mean_n": 0.13215389397376187
+  },
+  "pop@cty_M": {
+   "share_groups_n0": 0.8082747424097246,
+   "mean_n": 0.2096750162479032
+  },
+  "surv150@cty_M": {
+   "share_groups_n0": 0.7968896504067756,
+   "mean_n": 0.21914375476840636
+  },
+  "bigplus@cty_M": {
+   "share_groups_n0": 0.8975971085154426,
+   "mean_n": 0.11194355748161354
+  },
+  "per_subregion@pt_M": {
+   "share_groups_n0": 0.8764465771512095,
+   "mean_n": 0.12908284760879674
+  },
+  "pop@pt_M": {
+   "share_groups_n0": 0.7528392086950044,
+   "mean_n": 0.32386630737179567
+  },
+  "mesh35_M": {
+   "share_groups_n0": 0.7461525222140305,
+   "mean_n": 0.37824347964580857
+  },
+  "mesh100_M": {
+   "share_groups_n0": 0.5649389515542756,
+   "mean_n": 0.8053282847095029
+  },
+  "mesh200_M": {
+   "share_groups_n0": 0.4536581543923284,
+   "mean_n": 1.6439975236397357
+  },
+  "cover1500@cty_M2": {
+   "share_groups_n0": 0.8980749124668299,
+   "mean_n": 0.10634092082583019
+  },
+  "cover750@cty_M2": {
+   "share_groups_n0": 0.9059406957955821,
+   "mean_n": 0.1016412308846309
+  },
+  "cover3000x@cty_M2": {
+   "share_groups_n0": 0.9302958531240929,
+   "mean_n": 0.1663245830132989
+  },
+  "per_subregion@cty_M2": {
+   "share_groups_n0": 0.8796550563731598,
+   "mean_n": 0.12712667713040193
+  },
+  "pop@cty_M2": {
+   "share_groups_n0": 0.8155111603186387,
+   "mean_n": 0.20232300060881472
+  },
+  "surv150@cty_M2": {
+   "share_groups_n0": 0.8031203680631729,
+   "mean_n": 0.21264074023648727
+  },
+  "bigplus@cty_M2": {
+   "share_groups_n0": 0.8991974948687452,
+   "mean_n": 0.11034573996675923
+  },
+  "per_subregion@pt_M2": {
+   "share_groups_n0": 0.8794906507124673,
+   "mean_n": 0.12592702957503704
+  },
+  "pop@pt_M2": {
+   "share_groups_n0": 0.760458383532718,
+   "mean_n": 0.31571923623295256
+  },
+  "mesh35_M2": {
+   "share_groups_n0": 0.7536458239677765,
+   "mean_n": 0.3692589671728135
+  },
+  "mesh100_M2": {
+   "share_groups_n0": 0.5741867699682235,
+   "mean_n": 0.7909954505871081
+  },
+  "mesh200_M2": {
+   "share_groups_n0": 0.46384359883991255,
+   "mean_n": 1.6240055384156946
+  },
+  "mesh35_M_sqrt": {
+   "share_groups_n0": 0.748517138005708,
+   "mean_n": 0.3764003380591398
+  },
+  "pop@pt_M_sqrt": {
+   "share_groups_n0": 0.7529188426869022,
+   "mean_n": 0.32457402236430755
+  },
+  "per_subregion@pt_M_sqrt": {
+   "share_groups_n0": 0.87944826487807,
+   "mean_n": 0.1256033559305489
+  },
+  "mesh200_M_sqrt": {
+   "share_groups_n0": 0.4558532268464169,
+   "mean_n": 1.6342115335708653
+  }
+ },
+ "heavy_TC": {
+  "chk75_mesh35": 0.6800884181457512,
+  "chk84_mesh35": 0.6629735635136548,
+  "chk84_pop@pt": 0.6652995661197083,
+  "cover1500@cty_B_GN": 0.6532050552704619,
+  "cover750@cty_B_GN": 0.6497132474287062,
+  "cover3000x@cty_B_GN": 0.6570267736130126,
+  "per_subregion@cty_B_GN": 0.656834399347737,
+  "pop@cty_B_GN": 0.664445031868234,
+  "surv150@cty_B_GN": 0.6631639995460993,
+  "bigplus@cty_B_GN": 0.6516759200149153,
+  "per_subregion@pt_B_GN": 0.6537323138371219,
+  "pop@pt_B_GN": 0.6735034994098246,
+  "mesh35_B_GN": 0.6759900338233348,
+  "mesh100_B_GN": 0.697556747573751,
+  "mesh200_B_GN": 0.7212202378119822,
+  "cover1500@cty_R": 0.6505255532284591,
+  "cover750@cty_R": 0.6494078698795062,
+  "cover3000x@cty_R": 0.6534289865954788,
+  "per_subregion@cty_R": 0.6539581809530293,
+  "pop@cty_R": 0.6593636552822552,
+  "surv150@cty_R": 0.6598193866122151,
+  "bigplus@cty_R": 0.6498147064511001,
+  "per_subregion@pt_R": 0.6512500625143209,
+  "pop@pt_R": 0.6671562226829078,
+  "mesh35_R": 0.6694226732908509,
+  "mesh100_R": 0.6911907871967774,
+  "mesh200_R": 0.713031592936998,
+  "mesh35_R_sqrt": 0.6708018142157978,
+  "pop@pt_R_sqrt": 0.6674425835429089,
+  "per_subregion@pt_R_sqrt": 0.6508907146663909,
+  "mesh200_R_sqrt": 0.7149410643224219,
+  "mesh35_R_all": 0.6695626437011108,
+  "pop@pt_R_all": 0.6683599412995617,
+  "per_subregion@pt_R_all": 0.6533321331531015,
+  "mesh200_R_all": 0.7130626379500496,
+  "cover1500@cty_M": 0.6486630322153656,
+  "cover750@cty_M": 0.6491665035447676,
+  "cover3000x@cty_M": 0.651603162824952,
+  "per_subregion@cty_M": 0.6523636176891162,
+  "pop@cty_M": 0.6576645965313637,
+  "surv150@cty_M": 0.6590855240262187,
+  "bigplus@cty_M": 0.6509275319247685,
+  "per_subregion@pt_M": 0.6529702843568239,
+  "pop@pt_M": 0.6649184881594273,
+  "mesh35_M": 0.6667907808065842,
+  "mesh100_M": 0.6895032265302734,
+  "mesh200_M": 0.7133021424644269,
+  "cover1500@cty_M2": 0.64794506452945,
+  "cover750@cty_M2": 0.648376829388421,
+  "cover3000x@cty_M2": 0.65172887373741,
+  "per_subregion@cty_M2": 0.6528339970694795,
+  "pop@cty_M2": 0.6559378398760252,
+  "surv150@cty_M2": 0.6582405237347496,
+  "bigplus@cty_M2": 0.6486152262927734,
+  "per_subregion@pt_M2": 0.6525358256026812,
+  "pop@pt_M2": 0.6647500504460102,
+  "mesh35_M2": 0.6670295745815243,
+  "mesh100_M2": 0.6874400170110743,
+  "mesh200_M2": 0.7107981069924687,
+  "mesh35_M_sqrt": 0.6675783227380196,
+  "pop@pt_M_sqrt": 0.6660733021542536,
+  "per_subregion@pt_M_sqrt": 0.6511787682588343,
+  "mesh200_M_sqrt": 0.712631794029183
+ },
+ "rank": {
+  "B_GN": {
+   "tau_075": 0.8666666666666667,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "pop@cty",
+    "surv150@cty",
+    "cover3000x@cty",
+    "per_subregion@cty",
+    "per_subregion@pt",
+    "cover1500@cty",
+    "bigplus@cty",
+    "cover750@cty"
+   ],
+   "gain_35_200": 0.04523020398864741
+  },
+  "R": {
+   "tau_075": 0.8666666666666667,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "surv150@cty",
+    "pop@cty",
+    "per_subregion@cty",
+    "cover3000x@cty",
+    "per_subregion@pt",
+    "cover1500@cty",
+    "bigplus@cty",
+    "cover750@cty"
+   ],
+   "gain_35_200": 0.043608919646147104
+  },
+  "M": {
+   "tau_075": 0.6888888888888889,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "surv150@cty",
+    "pop@cty",
+    "per_subregion@pt",
+    "per_subregion@cty",
+    "cover3000x@cty",
+    "bigplus@cty",
+    "cover750@cty",
+    "cover1500@cty"
+   ],
+   "gain_35_200": 0.046511361657842754
+  },
+  "M2": {
+   "tau_075": 0.7333333333333333,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "surv150@cty",
+    "pop@cty",
+    "per_subregion@cty",
+    "per_subregion@pt",
+    "cover3000x@cty",
+    "bigplus@cty",
+    "cover750@cty",
+    "cover1500@cty"
+   ],
+   "gain_35_200": 0.04376853241094436
+  },
+  "075": {
+   "gain_35_200": 0.04881247726426996
+  }
+ },
+ "hypotheses": {
+  "H102a": {
+   "class": "確認的",
+   "value": 0.5531437369956438,
+   "rule": "GeoNames pop sum / WB pop sum < 0.8",
+   "supported": true
+  },
+  "H102b": {
+   "class": "確認的",
+   "value": 0.4332559085173693,
+   "rule": "pop-weighted WB rural share in [0.40, 0.48]",
+   "supported": true
+  },
+  "H102c": {
+   "class": "予測",
+   "value": -0.004098384322416382,
+   "rule": "|B_GN mesh35 - 0.6801| <= 0.010",
+   "supported": true
+  },
+  "H102d": {
+   "class": "予測",
+   "value": 0.006567360532483857,
+   "rule": "B_GN - R mesh35 in [0.003, 0.030]",
+   "supported": true
+  },
+  "H102e": {
+   "class": "予測",
+   "value": -0.0026318924842667624,
+   "rule": "|M - R| mesh35 < 0.005",
+   "supported": true
+  },
+  "H102f": {
+   "class": "予測",
+   "value": [
+    0.6888888888888889,
+    "mesh35"
+   ],
+   "rule": "tau(075, M) >= 0.7 and best == mesh35",
+   "supported": false
+  },
+  "H102g": {
+   "class": "予測",
+   "value": 0.046511361657842754,
+   "rule": "M gain 35->200 >= 075 gain (0.049)",
+   "supported": false
+  }
+ },
+ "runtime_s": 576.1
+}

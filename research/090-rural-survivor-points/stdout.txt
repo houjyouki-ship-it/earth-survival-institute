@@ -1,0 +1,225 @@
+070 loaded 147 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 26 s
+main_kmov per_subregion@cty per_subregion@cty 68 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 78 s
+kmov_x2 per_subregion@pt per_subregion@pt 89 s
+ref_071 per_subregion@pt cover3000x@cty 90 s
+mesh 35 0.3002 94 s
+mesh 50 0.3359 96 s
+mesh 100 0.4191 97 s
+mesh 150 0.4718 98 s
+mesh 200 0.5097 99 s
+mesh 300 0.5654 101 s
+074 loaded 249 s
+checks ok 254 s
+chk75_mesh35 0.6801 {'n': 35, 'share150': 0.0, 'share47': 0.0} 259 s
+chk84_mesh35 0.663 {'n': 35, 'share150': 0.4, 'share47': 0.3142857142857143} 264 s
+chk84_pop@pt 0.6653 {'n': 35, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 269 s
+checks ok
+check PT_s ok 269 s
+{'n_points': 154895, 'n_geonames': 154895, 'n_countries_A2': 159, 'n_countries_with_geonames': 159, 'n_countries_in_wb': 158, 'geonames_pop_over_wb_pop': 0.5531437369956438, 'world_rural_share_popweighted': 0.4332559085173693, 'geonames_over_wb_by_country_median': 0.669180108230968}
+cover1500@cty_B_GN 0.6532 274 s
+cover750@cty_B_GN 0.6497 279 s
+cover3000x@cty_B_GN 0.657 284 s
+per_subregion@cty_B_GN 0.6568 289 s
+pop@cty_B_GN 0.6644 294 s
+surv150@cty_B_GN 0.6632 299 s
+bigplus@cty_B_GN 0.6517 304 s
+per_subregion@pt_B_GN 0.6537 309 s
+pop@pt_B_GN 0.6735 314 s
+mesh35_B_GN 0.676 319 s
+mesh100_B_GN 0.6976 325 s
+mesh200_B_GN 0.7212 331 s
+cover1500@cty_R 0.6505 336 s
+cover750@cty_R 0.6494 341 s
+cover3000x@cty_R 0.6534 346 s
+per_subregion@cty_R 0.654 351 s
+pop@cty_R 0.6594 355 s
+surv150@cty_R 0.6598 360 s
+bigplus@cty_R 0.6498 365 s
+per_subregion@pt_R 0.6513 370 s
+pop@pt_R 0.6672 375 s
+mesh35_R 0.6694 380 s
+mesh100_R 0.6912 385 s
+mesh200_R 0.713 392 s
+mesh35_R_sqrt 0.6708 397 s
+pop@pt_R_sqrt 0.6674 402 s
+per_subregion@pt_R_sqrt 0.6509 407 s
+mesh200_R_sqrt 0.7149 413 s
+mesh35_R_all 0.6696 418 s
+pop@pt_R_all 0.6684 422 s
+per_subregion@pt_R_all 0.6533 427 s
+mesh200_R_all 0.7131 433 s
+cover1500@cty_M 0.6487 438 s
+cover750@cty_M 0.6492 443 s
+cover3000x@cty_M 0.6516 448 s
+per_subregion@cty_M 0.6524 452 s
+pop@cty_M 0.6577 457 s
+surv150@cty_M 0.6591 462 s
+bigplus@cty_M 0.6509 466 s
+per_subregion@pt_M 0.653 471 s
+pop@pt_M 0.6649 476 s
+mesh35_M 0.6668 480 s
+mesh100_M 0.6895 486 s
+mesh200_M 0.7133 492 s
+cover1500@cty_M2 0.6479 497 s
+cover750@cty_M2 0.6484 502 s
+cover3000x@cty_M2 0.6517 506 s
+per_subregion@cty_M2 0.6528 511 s
+pop@cty_M2 0.6559 516 s
+surv150@cty_M2 0.6582 521 s
+bigplus@cty_M2 0.6486 526 s
+per_subregion@pt_M2 0.6525 531 s
+pop@pt_M2 0.6648 536 s
+mesh35_M2 0.667 541 s
+mesh100_M2 0.6874 547 s
+mesh200_M2 0.7108 554 s
+mesh35_M_sqrt 0.6676 559 s
+pop@pt_M_sqrt 0.6661 564 s
+per_subregion@pt_M_sqrt 0.6512 569 s
+mesh200_M_sqrt 0.7126 576 s
+{
+ "data": {
+  "n_points": 154895,
+  "n_geonames": 154895,
+  "n_countries_A2": 159,
+  "n_countries_with_geonames": 159,
+  "n_countries_in_wb": 158,
+  "geonames_pop_over_wb_pop": 0.5531437369956438,
+  "world_rural_share_popweighted": 0.4332559085173693,
+  "geonames_over_wb_by_country_median": 0.669180108230968
+ },
+ "rural_share_of_weight": {
+  "R": 0.422736223116287,
+  "R_sqrt": 0.42273622311628534,
+  "R_all": 0.42273622311628717,
+  "M": 0.5004326607174601,
+  "M2": 0.5778867136148498,
+  "M_sqrt": 0.5004326607174603
+ },
+ "rank": {
+  "B_GN": {
+   "tau_075": 0.8666666666666667,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "pop@cty",
+    "surv150@cty",
+    "cover3000x@cty",
+    "per_subregion@cty",
+    "per_subregion@pt",
+    "cover1500@cty",
+    "bigplus@cty",
+    "cover750@cty"
+   ],
+   "gain_35_200": 0.04523020398864741
+  },
+  "R": {
+   "tau_075": 0.8666666666666667,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "surv150@cty",
+    "pop@cty",
+    "per_subregion@cty",
+    "cover3000x@cty",
+    "per_subregion@pt",
+    "cover1500@cty",
+    "bigplus@cty",
+    "cover750@cty"
+   ],
+   "gain_35_200": 0.043608919646147104
+  },
+  "M": {
+   "tau_075": 0.6888888888888889,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "surv150@cty",
+    "pop@cty",
+    "per_subregion@pt",
+    "per_subregion@cty",
+    "cover3000x@cty",
+    "bigplus@cty",
+    "cover750@cty",
+    "cover1500@cty"
+   ],
+   "gain_35_200": 0.046511361657842754
+  },
+  "M2": {
+   "tau_075": 0.7333333333333333,
+   "best": "mesh35",
+   "order": [
+    "mesh35",
+    "pop@pt",
+    "surv150@cty",
+    "pop@cty",
+    "per_subregion@cty",
+    "per_subregion@pt",
+    "cover3000x@cty",
+    "bigplus@cty",
+    "cover750@cty",
+    "cover1500@cty"
+   ],
+   "gain_35_200": 0.04376853241094436
+  },
+  "075": {
+   "gain_35_200": 0.04881247726426996
+  }
+ },
+ "hypotheses": {
+  "H102a": {
+   "class": "確認的",
+   "value": 0.5531437369956438,
+   "rule": "GeoNames pop sum / WB pop sum < 0.8",
+   "supported": true
+  },
+  "H102b": {
+   "class": "確認的",
+   "value": 0.4332559085173693,
+   "rule": "pop-weighted WB rural share in [0.40, 0.48]",
+   "supported": true
+  },
+  "H102c": {
+   "class": "予測",
+   "value": -0.004098384322416382,
+   "rule": "|B_GN mesh35 - 0.6801| <= 0.010",
+   "supported": true
+  },
+  "H102d": {
+   "class": "予測",
+   "value": 0.006567360532483857,
+   "rule": "B_GN - R mesh35 in [0.003, 0.030]",
+   "supported": true
+  },
+  "H102e": {
+   "class": "予測",
+   "value": -0.0026318924842667624,
+   "rule": "|M - R| mesh35 < 0.005",
+   "supported": true
+  },
+  "H102f": {
+   "class": "予測",
+   "value": [
+    0.6888888888888889,
+    "mesh35"
+   ],
+   "rule": "tau(075, M) >= 0.7 and best == mesh35",
+   "supported": false
+  },
+  "H102g": {
+   "class": "予測",
+   "value": 0.046511361657842754,
+   "rule": "M gain 35->200 >= 075 gain (0.049)",
+   "supported": false
+  }
+ }
+}
+runtime 576.1
