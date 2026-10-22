@@ -1,40 +1,29 @@
 070 loaded 143 s
 b3_0 done 7 s
-b3_300 done 11 s
-b10_0 done 14 s
-b10_300 done 17 s
-chk1_0 done 26 s
-main_kmov per_subregion@cty per_subregion@cty 66 s
-kmov_sqrtpop per_subregion@pt per_subregion@pt 75 s
-kmov_x2 per_subregion@pt per_subregion@pt 85 s
-ref_071 per_subregion@pt cover3000x@cty 86 s
-mesh 35 0.3002 89 s
-mesh 50 0.3359 91 s
-mesh 100 0.4191 92 s
-mesh 150 0.4718 93 s
-mesh 200 0.5097 95 s
-mesh 300 0.5654 96 s
-074 loaded 239 s
-checks ok 244 s
-chk75_mesh35 0.6801 {'n': 35, 'share150': 0.0, 'share47': 0.0} 249 s
-chk84_mesh35 0.663 {'n': 35, 'share150': 0.4, 'share47': 0.3142857142857143} 254 s
-chk84_pop@pt 0.6653 {'n': 35, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 258 s
+b3_300 done 12 s
+b10_0 done 15 s
+b10_300 done 18 s
+chk1_0 done 27 s
+main_kmov per_subregion@cty per_subregion@cty 67 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 77 s
+kmov_x2 per_subregion@pt per_subregion@pt 86 s
+ref_071 per_subregion@pt cover3000x@cty 88 s
+mesh 35 0.3002 91 s
+mesh 50 0.3359 92 s
+mesh 100 0.4191 93 s
+mesh 150 0.4718 94 s
+mesh 200 0.5097 96 s
+mesh 300 0.5654 97 s
+074 loaded 240 s
+checks ok 245 s
+chk75_mesh35 0.6801 {'n': 35, 'share150': 0.0, 'share47': 0.0} 250 s
+chk84_mesh35 0.663 {'n': 35, 'share150': 0.4, 'share47': 0.3142857142857143} 255 s
+chk84_pop@pt 0.6653 {'n': 35, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 260 s
 checks ok
-check PT_s ok 258 s
+check PT_s ok 260 s
 {'n_points': 154895, 'n_geonames': 154895, 'n_countries_A2': 159, 'n_countries_with_geonames': 159, 'n_countries_in_wb': 158, 'geonames_pop_over_wb_pop': 0.5531437369956438, 'world_rural_share_popweighted': 0.4332559085173693, 'geonames_over_wb_by_country_median': 0.669180108230968}
-chk90_mesh35_M 0.6668 0.7462 265 s
-chk90_mesh200_M 0.7133 0.4537 271 s
-chk90_mesh35_R 0.6694 0.7383 276 s
-checks ok 278 s
+chk90_mesh35_M 0.6668 0.7462 266 s
+chk90_mesh200_M 0.7133 0.4537 272 s
+chk90_mesh35_R 0.6694 0.7383 277 s
+checks ok 279 s
 {'cell_deg': 0.5, 'n_cells': 22685, 'n_candidates_GN': 22685, 'n_candidates_NE': 6891}
-built GN_M 11501397 311 s
-built GN_B 11500892 343 s
-built GN_Rall 11501107 375 s
-Traceback (most recent call last):
-  File "/workspace/earth-survival-institute/research/091-smalltown-mesh/sim.py", line 74, in <module>
-    mesh, obj, nnz = greedy(sla[k], slo[k], sw[k], cla, clo, 200); mesh = np.array(mesh)
-                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/workspace/earth-survival-institute/research/091-smalltown-mesh/sim.py", line 43, in greedy
-    starts = np.searchsorted(cand_of, np.arange(NC)); assert (np.diff(np.r_[starts, len(cv)]) > 0).all()
-                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-AssertionError

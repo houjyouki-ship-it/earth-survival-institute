@@ -40,14 +40,14 @@ def greedy(slat, slon, sw, clat, clon, nmax):
         rows.append(jj + c0); cols.append(ii); vals.append(cov(Dc[ii, jj]))
     cand_of, surv_of, cv = np.concatenate(rows), np.concatenate(cols), np.concatenate(vals)
     o = np.argsort(cand_of, kind="stable"); cand_of, surv_of, cv = cand_of[o], surv_of[o], cv[o]
-    starts = np.searchsorted(cand_of, np.arange(NC)); assert (np.diff(np.r_[starts, len(cv)]) > 0).all()
+    starts = np.searchsorted(cand_of, np.arange(NC)); empty = np.diff(np.r_[starts, len(cv)]) == 0; # 何も覆わない候補は利得0（末尾に0を1つ足して reduceat の範囲外を避ける）
     wsv = sw[surv_of]; cur = np.zeros(len(slat)); mesh = []
     for t in range(nmax):
-        gain = np.add.reduceat(np.maximum(cv - cur[surv_of], 0) * wsv, starts)
+        gain = np.add.reduceat(np.r_[np.maximum(cv - cur[surv_of], 0) * wsv, 0.0], starts); gain[empty] = 0
         b = int(np.argmax(gain)); mesh.append(b); sl = slice(starts[b], starts[b + 1] if b + 1 < NC else len(cv)); cur[surv_of[sl]] = np.maximum(cur[surv_of[sl]], cv[sl])
-    return mesh, float(sw @ cur), len(cv)
+    return mesh, float(sw @ cur), len(cv), int(empty.sum())
 # 検査2：074 の入力で 074 の網目の最初の200か所
-m74, _, nnz = greedy(plat, plon, G74["wbar"], plat, plon, 200)
+m74, _, nnz, _e = greedy(plat, plon, G74["wbar"], plat, plon, 200)
 R["check_074_mesh200_identical"] = m74 == [int(x) for x in MESH74[:200]]; R["check_074_nnz"] = [nnz, r74["mesh_nnz"]]
 assert R["check_074_mesh200_identical"] and nnz == r74["mesh_nnz"]; print("checks ok", round(time.time() - T0), "s", flush=True)
 # ---------- ます目と候補 ----------
@@ -71,8 +71,8 @@ for nm, (v, cs) in BUILD.items():
     sw, sla, slo = cells(wbar_of(v)); k = sw > 0
     if cs == "GN": cla, clo, cpo = ps.lat[CAND], ps.lon[CAND], ps.pop[CAND]
     else: cla, clo, cpo = plat, plon, G74["ppop"]
-    mesh, obj, nnz = greedy(sla[k], slo[k], sw[k], cla, clo, 200); mesh = np.array(mesh)
-    SITES[nm] = (cla[mesh], clo[mesh], cpo[mesh]); R["build"][nm] = {"weights": v, "candidates": cs, "nnz": nnz, "A_q0_build_200": obj}
+    mesh, obj, nnz, ne_ = greedy(sla[k], slo[k], sw[k], cla, clo, 200); mesh = np.array(mesh)
+    SITES[nm] = (cla[mesh], clo[mesh], cpo[mesh]); R["build"][nm] = {"weights": v, "candidates": cs, "nnz": nnz, "n_empty_candidates": ne_, "A_q0_build_200": obj}
     print("built", nm, nnz, round(time.time() - T0), "s", flush=True)
 # 参考：074 の網目を同じます目の作りの重み（M）で測った被覆
 for nm in SITES:
