@@ -1,0 +1,50 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究093：種子庫の種子が「要る時点」に発芽力は残っているか（重い崩壊の食料の立ち直り・第2回） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="0932">研究093：種子庫の種子が「要る時点」に発芽力は残っているか（重い崩壊の食料の立ち直り・第2回）</h1>
+<blockquote>
+<p>注：本報告の割合・年数は模型と少数の事例の中の値で、人類の生存確率でも文明の復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">課題</h2>
+<p>open_problems 226。092 で電源なしの永久凍土の種子の寿命（NordGen 41 ロットの外挿）が出た。次に効くのは「いつ・何のために種子が要るか」。種子が役に立つのは、(1) 生き残りが自分の畑の品種を失い、(2) 種子庫まで行ける社会がある、の遅い方の時点に発芽 50% 以上を保つときだけ。事前登録は PREREGISTRATION.md（23:37 JST、資料を開く前・sim.py の前）。</p>
+<h2 id="sources-sha256sums">資料（本回に開いて確認、sources/ に保存、SHA256SUMS）</h2>
+<ul>
+<li>【事実（IRRI https://www.irri.org/where-we-work/countries/cambodia 、Rice Today https://ricetoday.irri.org/irri-in-cambodia/ ）】1970年代末の食料不足で農家が稲の種を食べ在来品種が失われ、IRRI は 1981〜1990 年に 766 品種を国際稲遺伝子銀行から戻した。</li>
+<li>【事実（Seeds of Hope の報告 https://seedsystem.org/wp-content/uploads/2014/03/Rwanda-Seeds-of-Hope.pdf ）】1994 年の虐殺の後、豆・ソルガムを含めて「在来の遺伝資源の有意な喪失はなかった」。手に入らない品種は 20 中 1〜2 で、理由はお金。約 1/3 の農家は動かず、地元の市場が動き続けた。Somalia・Sudan・Eritrea でも「品種の喪失」の訴えは誤報だったと書く。失われたのは外から配られた改良品種と清浄なジャガイモの種いもの側。SOH は 1995 年に発足。</li>
+<li>【事実（SSSA と EMMA の論文 https://seedsystem.org/wp-content/uploads/2014/03/The-SSSA-and-The-Emergency-Mapping-Market-Analysis.pdf ）】Haiti 地震の後、種子が無いという回答は 4%、輸入は不要。</li>
+<li>【事実（ReliefWeb 2002 https://reliefweb.int/report/afghanistan/looters-destroy-afghanistans-seed-collections 、ICARDA Caravan 18-19、SciDev.Net）】Afghanistan の国の収集は 1992 年に一度壊され、集め直したものも 2002 年までに略奪で失われた。ICARDA は 2002 年に 271 点を戻した。</li>
+<li>【事実（Wikipedia「Svalbard Global Seed Vault」）】ICARDA は Syria の内戦で Tel Hadya の銀行を維持できず、2015 年に初めて Svalbard から引き出し、2017 年に 2 回目。2024 年 5 月時点で引き出しはこれだけ。</li>
+<li>【事実（Wikipedia「History of Svalbard」）】疑いのない最初の到達は 1596 年の Barents。Norse の 1194 年説、Pomor の 15 世紀説は確証なし。Pomor の活動は 16 世紀半ばには定着。</li>
+<li>Iraq の Abu Ghraib（2003 喪失、ICARDA に 1996 年預けの 200 余点）は戻しの年が見つからず計算から外した。</li>
+</ul>
+<h2 id="simpy3-monte-carlo-seed-93">方法（sim.py、約3秒、乱数は対数正規の Monte Carlo のみ seed 93）</h2>
+<ol>
+<li>092 の NordGen 41 ロットの寿命の曲線を作り直し、092 の 7 時点の値と差0を assert。主食（大麦・小麦・ライ麦・エンドウ）12 ロットも別に出す。</li>
+<li>事例（episodes.csv）で、中断の始まりから遺伝子銀行による戻しまでの年数を出す。</li>
+<li>軽い崩壊（船と国家が残る）は要る時点を事例の年数から引く。重い崩壊は北極の島まで船で届く時点を対数正規（σ=0.7【推測】）で置き、中央値 100 年（鉄器の航海の回復、Norse 型【推測】）・254 年・1,204 年（038 の CASC・BIO の T2 到達の中央値）の 3 版。版として 061 の場所の知識の時定数 64 年を掛ける。</li>
+</ol>
+<h2 id="resultsjson">主な数値（results.json）</h2>
+<ul>
+<li>戻しまでの年数（中断の始まりから）：Cambodia 6、Rwanda 1、Afghanistan 10、Syria 4、中央値 <strong>5 年</strong>（4 件）。Syria の 2011 年は一般知識で保存した資料にはない。</li>
+<li>「種子そのものが無い」が主な問題だった事例は 6 件中 <strong>1 件（Cambodia）</strong>。Haiti の回答では 4%。</li>
+<li>戻しの 4 件中 3 件は Svalbard でなく冷却のある国際の遺伝子銀行から。</li>
+<li>軽い崩壊：要る時点で発芽 50% 以上のロットは <strong>0.976</strong>（初めの 0.976 と同じ、寿命は縛らない）。</li>
+<li>重い崩壊：届く時点の中央値 100 年で <strong>0.60</strong>（主食 0.37）、254 年で <strong>0.40</strong>（主食 0.21）、1,204 年で <strong>0.25</strong>（主食 0.17）。場所の知識の減りを掛けると 0.17、0.039、0.0005 で、損の大部分は場所の側（254 年で場所 0.94 対寿命 0.59）。</li>
+<li>全ロットの平均が 0.5 を割る届く時点の中央値は <strong>160 年</strong>、主食だけなら <strong>60 年</strong>。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H105a（確認的）：戻しの年数の中央値 10 年以下 → 4 件で 5 件未満のため<strong>検定できず</strong>（記述として中央値 5 年、最大 10 年）。</li>
+<li>H105b（確認的、弱い）：種子が無いのが主な問題の割合 &lt; 1/3 → 1/6 で<strong>支持</strong>。ただし誤報の 3 件は SOH の著者の要約で、事例の選び方に偏りがありうる。</li>
+<li>H105c（予測）：軽い崩壊で 0.7 以上 → 0.976 で<strong>支持</strong>。</li>
+<li>H105d（予測）：重い崩壊（主 254 年）で 0.35 以下 → 0.40 で<strong>棄却</strong>（主食だけなら 0.21 で成り立つ）。</li>
+<li>H105e（記述、支持に数えない）：戻しの多くは国際の冷却のある銀行から（3/4）。</li>
+</ul>
+<h2 id="_3">批判的な検討</h2>
+<ul>
+<li>事例は 4 件で、どれも国家と国際機関が残った軽い崩壊の型。重い崩壊の「要る時点」の資料ではない。</li>
+<li>歴史の事例では、畑の品種が失われるのは Cambodia のように農業そのものが止まり種を食べた場合で、戦争や災害一般ではまれ。重い崩壊でも農耕が続く集団は自分の種を持つので、種子庫が要るのは「農耕が数年以上止まった地域」に限られるはず【推測】。</li>
+<li>092 の外挿は落ちていないロットを寿命無限大としたので、1,000 年の側の 0.25 は楽観の上限に近い。</li>
+<li>届く時点の分布の形（σ=0.7）と中央値 100 年は推測。Barents 1596 は欧州の航海の段で、Norse 型の航海で届いたかは確証なし。</li>
+</ul>
+<h2 id="_4">主な発見</h2>
+<p>寿命が効くかは崩壊の型で二つに分かれる。国家と船が残る崩壊では、種子が要るのは数年以内（中央値 5 年）で、冷却が止まっても寿命は全く縛らない。重い崩壊では寿命の損（254 年で 59%）より先に、場所の知識の損（94%）が効き、主食は 60 年を過ぎると半分が使えなくなる。【独自仮説】重い崩壊での種子庫の価値は、遠い北極の一か所より、生き残りが数十年のうちに届く複数の場所に主食を重ねて置くことで決まる。</p>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>Crop Trust と各国の遺伝子銀行は、紛争・災害（軽い崩壊）への備えとしては今の Svalbard の仕組みで十分と見てよい。重い崩壊への備えとしては、主食（麦類・エンドウ）の写しを Svalbard だけに頼らず、人の住む温帯・寒冷の複数の地域の銀行に重ね、場所と取り出し方を広く知らせておくべきだ。本研究所は、重い崩壊で農耕が何年止まるか（種を食べる・植え直せない期間）と、畑の外で作物が残るか（227・230）へ進む。</p><footer><hr><small>自動生成</small></footer></body></html>
