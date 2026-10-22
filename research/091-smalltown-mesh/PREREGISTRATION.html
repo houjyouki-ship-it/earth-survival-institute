@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究091 事前登録（作成 2026-10-22T08:34Z、sim.py を書く前・計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="091-2026-10-22t0834zsimpy">研究091 事前登録（作成 2026-10-22T08:34Z、sim.py を書く前・計算の前）</h1>
+<blockquote>
+<p>注：TC/V0 は生存確率・復興確率ではない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-223">問い（open_problems 223）</h2>
+<p>090 で農村の生き残りを入れると写しに届かない群が 0.69→0.75 に増えたが、写しの候補は 074 の Natural Earth（NE）の大きな点に限られていた。GeoNames cities1000 の小さな町を写しの候補にして 074 と同じ貪欲な網目を作り直すと、同じ 35・200 部で重い崩壊の TC/V0 はどれだけ上がるか。</p>
+<h2 id="_1">入力</h2>
+<p>すべて既知（新しい資料の取得なし）。よって確認的な仮説は置けず、以下はすべて「入力判明後の予測」。GeoNames cities1000（087 で取得）、World Bank 2020（090 で取得）、075 の器、090 の重み M。</p>
+<h2 id="_2">計算（登録）</h2>
+<ul>
+<li>090 の sim.py を版の走査の前まで exec（087・075・084 の差0の assert と PT_s の assert を含む）。090 の mesh35_M・mesh200_M・mesh35_R の重い崩壊 TC/V0 を差0で再現（assert）。</li>
+<li>074 の貪欲な網目（q=0、Binford kmov の届く確率 P(kmov≥d) の最大値の被覆、重み wbar）を関数に書き直し、074 の入力で 074 の mesh の最初の 200 か所を完全に再現（assert）。</li>
+<li>新しい網目（作りの重みは GEO3＝xia150・xia47・pop の平均）：生き残りの点を 0.5° のます目に集め（重みの和と重み付きの重心）、候補は ます目ごとに GeoNames の人口最大の点（実際の座標）。</li>
+<li>GN_M（主）：候補 GN、作りの重み M。</li>
+<li>GN_B：候補 GN、作りの重み B_GN（農村なし）。</li>
+<li>GN_Rall：候補 GN、作りの重み R_all。</li>
+<li>NE_M：候補は 074 の NE の点、作りの重み M（候補の集合の効きと重みの効きを分ける）。</li>
+<li>基準 NE074：074 の網目。</li>
+<li>評価：各網目の 35・200 部を 090 の B_GN・R・R_all・M・M2 の各版の群の点で、075 の器の重い崩壊 TC/V0（A_Ord/U3）と写しに届かない群の割合で評価。新しい乱数なし（075 の UPT）。</li>
+<li>作りと評価の重みが同じ組（GN_M を M で評価など）は楽観を含むので、別の版での評価を並べる。</li>
+</ul>
+<h2 id="_3">予測（入力判明後）</h2>
+<ul>
+<li>H103a：GN_M の 35 部を M で評価した重い崩壊 TC/V0 は NE074 の 0.6668 より 0.005 以上高い。</li>
+<li>H103b：GN_M の 35 部は B_GN（作りと違う重み）で評価しても NE074 の B_GN の値（0.6760）以上。</li>
+<li>H103c：GN_M 35 部の M での写しに届かない群の割合は 0.746 から 0.02 以上下がる。</li>
+<li>H103d：NE_M（候補 NE、重み M）の上げ幅は GN_M の上げ幅の半分未満（候補の集合の方が効く）。</li>
+<li>H103e：GN_M の 35→200 の上げ幅（M）は NE074 の +0.0465 以上。</li>
+<li>H103f（記述の参考、支持に数えない）：GN_M の 35 か所の人口の中央値は 50,000 未満。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

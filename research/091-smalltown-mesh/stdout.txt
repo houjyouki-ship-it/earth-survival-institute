@@ -1,0 +1,29 @@
+070 loaded 142 s
+b3_0 done 7 s
+b3_300 done 11 s
+b10_0 done 14 s
+b10_300 done 17 s
+chk1_0 done 278 s
+main_kmov per_subregion@cty per_subregion@cty 320 s
+kmov_sqrtpop per_subregion@pt per_subregion@pt 329 s
+kmov_x2 per_subregion@pt per_subregion@pt 339 s
+ref_071 per_subregion@pt cover3000x@cty 341 s
+mesh 35 0.3002 344 s
+mesh 50 0.3359 346 s
+mesh 100 0.4191 347 s
+mesh 150 0.4718 348 s
+mesh 200 0.5097 349 s
+mesh 300 0.5654 351 s
+074 loaded 493 s
+checks ok 497 s
+chk75_mesh35 0.6801 {'n': 35, 'share150': 0.0, 'share47': 0.0} 503 s
+chk84_mesh35 0.663 {'n': 35, 'share150': 0.4, 'share47': 0.3142857142857143} 507 s
+chk84_pop@pt 0.6653 {'n': 35, 'share150': 0.5714285714285714, 'share47': 0.17142857142857137} 512 s
+checks ok
+check PT_s ok 512 s
+{'n_points': 154895, 'n_geonames': 154895, 'n_countries_A2': 159, 'n_countries_with_geonames': 159, 'n_countries_in_wb': 158, 'geonames_pop_over_wb_pop': 0.5531437369956438, 'world_rural_share_popweighted': 0.4332559085173693, 'geonames_over_wb_by_country_median': 0.669180108230968}
+Traceback (most recent call last):
+  File "/workspace/earth-survival-institute/research/091-smalltown-mesh/sim.py", line 15, in <module>
+    ps, mass, PT_s, VERS, GEO, GEO3, NK, hav = G["ps"], G["mass"], G["PT_s"], G["VERS"], G["GEO"], G["GEO3"], G["NK"], G["hav"]
+                                                                                                                       ~^^^^^^^
+KeyError: 'hav'
