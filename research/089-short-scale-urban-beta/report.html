@@ -1,0 +1,140 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究089：短い時間の尺度での崩壊後の都市の縮み ― 日本 1940→1947 とドイツ 1939→1950 の β（open_problems 215） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="089-19401947-19391950-open_problems-215">研究089：短い時間の尺度での崩壊後の都市の縮み ― 日本 1940→1947 とドイツ 1939→1950 の β（open_problems 215）</h1>
+<blockquote>
+<p><strong>注</strong>：TC/V0 は生存確率でも復興確率でもない（060〜088 の模型の中の価値の比）。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>事前登録：PREREGISTRATION.md（2026-10-22T04:42Z、資料を開く前）。登録後の逸脱は同じファイルの末尾。</li>
+<li>資料【事実（出典）】</li>
+<li>今村新太郎 1948「昭和22年 市郡別人口密度並に増減表(1)」人文地理 1(3):66–80（https://www.jstage.jst.go.jp/article/jjhg1948/1/3/1_3_66/_pdf ）。1947年10月1日の臨時国勢調査の市郡の人口と、1947年の境域に換算した 1940年10月1日の人口、増減率（千分比）。表(1) は北海道〜愛知の 23 都道府県・106 市。画像の表を手で書き写し（japan_1940_1947.csv、prefs.csv）、増減率で照合して 98 市が ±1 で一致、8 市は拡大して印刷の値を確かめた（原表の不一致）。</li>
+<li>de.wikipedia「Liste der Großstädte in Deutschland」の 1939・1950 の列（現在と過去の大都市 92 市、1939 は Volkszählung 1939 の ständige Bevölkerung）。</li>
+<li>SHA256 は sources/SHA256SUMS.txt。</li>
+<li>第1部 episodes.py：log P1 = c + β log P0（085 と同じ）、95% は 2,000 回の bootstrap。</li>
+<li>第2部 sim.py：075 の sim.py を exec（070・074・075 の差0の検査を含む）し、085 の e=0.6615 の mesh35・mesh200 を差0で再現（assert、差 0.0）。群の点を国の中で pop^e にして重い崩壊の TC/V0 を出した。新しい乱数なし。</li>
+</ul>
+<h2 id="1">第1部の結果：短い尺度の β</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>n</th>
+<th>β（95%）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>日本 1940→1947 全市（主）</td>
+<td>106</td>
+<td><strong>0.853（0.819〜0.880）</strong></td>
+</tr>
+<tr>
+<td>増減率が一致する市だけ</td>
+<td>98</td>
+<td>0.852（0.817〜0.879）</td>
+</tr>
+<tr>
+<td>1940 に 5万人以上</td>
+<td>56</td>
+<td>0.850（0.796〜0.889）</td>
+</tr>
+<tr>
+<td>東京区部を除く</td>
+<td>105</td>
+<td>0.847（0.810〜0.886）</td>
+</tr>
+<tr>
+<td>関東南部と愛知を除く</td>
+<td>74</td>
+<td>0.887（0.828〜0.936）</td>
+</tr>
+<tr>
+<td>ドイツ 1939→1950 全市</td>
+<td>92</td>
+<td>0.895（0.818〜0.954）</td>
+</tr>
+<tr>
+<td>ドイツ 1939 に 5万人以上</td>
+<td>80</td>
+<td>0.939（0.892〜0.999）</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【事実（出典の数値からの計算）】日本の 106 市の合計は 1947/1940 で 0.856、県の総数から市を引いた郡部は <strong>1.245</strong>、50万人以上の3市（東京区部・横浜・名古屋）は <strong>0.644</strong>。東京区部 0.616、名古屋 0.642、横浜 0.841。</li>
+<li>【推測】1947 は終戦の2年後で疎開先からの戻りを含むので、1945 の時点の β はこれより小さかったはず。逆に 1950 の戻りでは 1 に近づくはず（H101c、検定できず）。</li>
+</ul>
+<h2 id="2-tcv0">第2部の結果：重い崩壊の TC/V0</h2>
+<table>
+<thead>
+<tr>
+<th>e</th>
+<th>mesh35</th>
+<th>mesh200</th>
+<th>35→200</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0（075）</td>
+<td>0.6801</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>0.6615（085、再現）</td>
+<td>0.6724</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>0.819（日本の下限）</td>
+<td>0.6768</td>
+<td>0.7248</td>
+<td>+0.048</td>
+</tr>
+<tr>
+<td><strong>0.853（日本の主）</strong></td>
+<td><strong>0.6756</strong></td>
+<td>0.7217</td>
+<td>+0.046</td>
+</tr>
+<tr>
+<td>0.880（日本の上限）</td>
+<td>0.6764</td>
+<td>0.7235</td>
+<td>+0.047</td>
+</tr>
+<tr>
+<td>0.895（ドイツ）</td>
+<td>0.6778</td>
+<td>0.7259</td>
+<td>+0.048</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>10 の置き方の順位：e=0.853 で最良は <strong>mesh35</strong> のまま、Kendall の τ は 085 比 0.87、075 比 0.91。</li>
+<li>【推測】e が 0.82〜0.89 の中で TC が単調でない（差 0.002 程度）のは、共通の一様乱数を点の重みの累積に通すときの離散の揺れで、この幅より小さい差は読まない。</li>
+</ul>
+<h2 id="_2">仮説の判定（分類つき）</h2>
+<ul>
+<li>H101a（確認的、局面を 1940→1947 に置き換え）：β の 95% の上限 0.880 &lt; 1 → <strong>支持</strong>。</li>
+<li>H101b（確認的、同）：β 0.853 &lt; 0.66 → <strong>棄却</strong>。短い尺度の大きな町の相対的な縮みは古代の数世紀の幅（085）より弱い。</li>
+<li>H101c（確認的）：<strong>検定できず</strong>（1945・1950 の市の表を開けなかった）。</li>
+<li>H101d（予測）：mesh35 0.6756、085 の 0.672 との差 +0.003（±0.010 以内）、最良 mesh35 → <strong>支持</strong>。</li>
+<li>記述（支持に数えない）：ドイツの β 0.895、各感度の版。</li>
+</ul>
+<h2 id="_3">批判的な検討</h2>
+<ul>
+<li>1940→1947 は「崩壊」ではなく、国家が残った中での空襲・疎開・戻りで、重い崩壊の短い尺度の代わりとしては軽い側。</li>
+<li>1947 の市の一覧で選んでいるので、その間に市になった町（例：豊川 2.19倍、春日井 1.65倍は軍の工場の町）が入り、β を下げる向きの選択がある。5万人以上に絞っても 0.850 で大きくは動かない。</li>
+<li>ドイツの表は大都市であることで選ばれ、境域の換算の有無が確かめられず、1950 は避難民の流入を含む。記述にとどめた。</li>
+<li>最も大きな発見は β ではなく、<strong>市から郡部への移動（市 0.86、郡部 1.25）</strong>。075 の群の点は人口つきの地名（NE）で、農村の人口を持たないので、模型はこの移動の大部分を表せない（218 と 195 につながる）。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>冊子を配る運営者：短い尺度でも大都市は相対的に縮む（β 0.85）が、置き方の判断（mesh35 が最良）は変わらない。崩壊の直後に人が大都市から郡部へ動くことを前提に、中小の町の網目を保つ。</li>
+<li>本研究所：e の主は 085 の 0.66 と 089 の 0.85 の間の幅とし、重い崩壊 mesh35 の TC/V0 は 0.672〜0.676（e=1 の 0.680 との差は 0.004〜0.008）と記録する。β の線は結論を動かさないので閉じ、農村の人口を持つ点の集合（218）に移る。</li>
+</ul>
+<h2 id="_5">ファイル</h2>
+<p>episodes.py、episodes.json、japan_1940_1947.csv、prefs.csv、sim.py、results.json、stdout.txt、fig_short_beta.png、PREREGISTRATION.md、sources/。</p><footer><hr><small>自動生成</small></footer></body></html>
