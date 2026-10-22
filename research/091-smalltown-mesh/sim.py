@@ -12,8 +12,8 @@ r90 = json.load(open(os.path.join(RS, "090-rural-survivor-points", "results.json
 r74 = json.load(open(os.path.join(RS, "074-within-country-reach", "results.json"), encoding="utf8"))
 R = {"study": "091-smalltown-mesh", "seed": None, "note": "TC/V0 は生存確率・復興確率ではない。提言は模型の中の順位（外部の検証はまだ）。"}
 RT, DV, M1, N, GMAX = G["RT"], G["DV"], G["M1"], G["N"], G["GMAX"]; ratio_all, ver, rho75, REACH, valid = G["ratio_all"], G["ver"], G["rho75"], G["REACH"], G["valid"]
-ps, mass, PT_s, VERS, GEO, GEO3, NK, hav = G["ps"], G["mass"], G["PT_s"], G["VERS"], G["GEO"], G["GEO3"], G["NK"], G["hav"]
-G74 = G["G74"]; plat, plon, MESH74 = G74["plat"], G74["plon"], list(G74["mesh"]); KMOV = G74["KMOV"]
+ps, mass, PT_s, VERS, GEO, GEO3, NK, hav = G["ps"], G["mass"], G["PT_s"], G["VERS"], G["GEO"], G["GEO3"], G["NK"], G["G"]["G74"]["hav"]
+G74 = G["G"]["G74"]; plat, plon, MESH74 = G74["plat"], G74["plon"], list(G74["mesh"]); KMOV = G74["KMOV"]
 h = lambda nm: RT[nm][M1]["heavy"]
 def counts_c(cla, clo, PT):  # 088 と同じ式（写しの座標を配列で受ける）
     Ds = np.sort(hav(ps.lat[:, None], ps.lon[:, None], cla[None, :], clo[None, :]), axis=1).astype(np.float32)
