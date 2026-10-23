@@ -1,0 +1,23 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究101 事前登録（2026-10-23 15:34 JST、年ごとの増殖比・疫病の資料を開く前、sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="101-2026-10-23-1534-jstsimpy">研究101 事前登録（2026-10-23 15:34 JST、年ごとの増殖比・疫病の資料を開く前、sim.py の前）</h1>
+<p>注：出す値は模型の中の割合で、生存確率でも復興確率でもない。</p>
+<h2 id="open_problems-243">問い（open_problems 243）</h2>
+<p>100 で q は増殖比 g（収量÷種）4〜39 ではほぼ動かず（0.462〜0.476）、下端（麦 2.5・芋 1.25）で 0.635 に跳ぶ。
+(1) seed_loss（S_{t+1}=min(1, f·S_t·g·m_t)、S&lt;0.01 で喪失、5 年）で、格子ごとに生き残れる最小の g（臨界 g*）を二分法で出し、q(g) を連続の曲線にする。
+(2) 前近代の年ごとの増殖比の記録から年々の揺れ（対数の標準偏差 σ と悪い年の比）を取り、g に年ごとの揺れを掛けた版の q を出す。
+(3) ジャガイモの疫病の年の収量の損の資料を取り、疫病が来る版（芋の g を損の分だけ下げる）の q を出す。</p>
+<h2 id="_1">模型（登録）</h2>
+<ul>
+<li>主は 100 の主（PM の ETo、g 大麦 4.01・芋 5.48、f=0.5、x_min=0.01、5 年）。</li>
+<li>揺れ：g_t = g·exp(σ·z_t − σ²/2)、z_t は格子・年ごとに独立な標準正規（版：大麦と芋で同じ z＝相関 1）。Monte Carlo 200 回の平均の q。乱数は seed 101。</li>
+<li>疫病：芋の g を (1−L) 倍（L は資料の損の割合）、全年（主）と 1 年目だけ（版）。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H113a（確認的）：資料の前近代の麦類の年ごとの増殖比の系列で、対数の標準偏差 σ は 0.2 以上。</li>
+<li>H113b（確認的）：資料の疫病の大流行の年の芋の収量の損は 0.5 以上（少なくとも 1 件の国・地域の値で）。</li>
+<li>H113c（予測）：得の格子の臨界 g*（大麦と芋を両方使う版の、格子の重みの中央値）は 2.5〜4.01 の間にあり、主の g は境目の上の近くに乗っている。</li>
+<li>H113d（予測）：資料の σ の揺れを入れると q は主 0.476 より 0.03 以上上がる。</li>
+<li>H113e（予測）：疫病の版（全年）の q は 0.55 以上。</li>
+</ul>
+<h2 id="_3">版（登録）</h2>
+<p>σ の資料の範囲の両端、z の作物間相関 0/1、疫病の全年／1 年目だけ、f=0.4・0.6。</p><footer><hr><small>自動生成</small></footer></body></html>
