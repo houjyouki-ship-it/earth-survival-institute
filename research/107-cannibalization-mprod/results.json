@@ -1,0 +1,252 @@
+{
+ "study": "107-cannibalization-mprod",
+ "seed": 20261107,
+ "check_106_runs_reproduced_maxdiff": 0.0,
+ "cases": {
+  "cuba_cars": {
+   "qualifies_10y": true,
+   "resupply": true,
+   "N": [
+    11089511,
+    11241161
+   ],
+   "ratio_N_T2e_q": [
+    2.5045927839120092,
+    6.125927599866148,
+    18.680186183691728
+   ],
+   "ratio_N_lens_q": [
+    4.666288343909004,
+    37.21625166068943,
+    276.674562041852
+   ],
+   "share_ratio_T2e_lt1": 0.0
+  },
+  "iran_air": {
+   "qualifies_10y": true,
+   "resupply": "partial",
+   "N": [
+    92417681,
+    92417681
+   ],
+   "ratio_N_T2e_q": [
+    20.730605695351862,
+    50.70702215604742,
+    154.64178188932513
+   ],
+   "ratio_N_lens_q": [
+    38.60317173468734,
+    308.0860497864064,
+    2288.8933822635568
+   ],
+   "share_ratio_T2e_lt1": 0.0
+  },
+  "rhodesia_total": {
+   "qualifies_10y": true,
+   "resupply": true,
+   "N": [
+    6270000,
+    6270000
+   ],
+   "ratio_N_T2e_q": [
+    1.4064505439154675,
+    3.440175359068113,
+    10.49154189928298
+   ],
+   "ratio_N_lens_q": [
+    2.6189997861609364,
+    20.901839466852326,
+    155.28805041962156
+   ],
+   "share_ratio_T2e_lt1": 0.0
+  },
+  "rhodesia_whites": {
+   "qualifies_10y": true,
+   "resupply": true,
+   "N": [
+    270000,
+    307000
+   ],
+   "ratio_N_T2e_q": [
+    0.06467384645585934,
+    0.15815704977416287,
+    0.4822736720069044
+   ],
+   "ratio_N_lens_q": [
+    0.12037462086589694,
+    0.9608325783336557,
+    7.145307920906274
+   ],
+   "share_ratio_T2e_lt1": 1.0
+  },
+  "sarajevo_siege": {
+   "qualifies_10y": false,
+   "resupply": true,
+   "N": [
+    300000,
+    525980
+   ],
+   "ratio_N_T2e_q": [
+    0.08851502124316314,
+    0.22455166812014052,
+    0.6968107873946823
+   ],
+   "ratio_N_lens_q": [
+    0.17070362430072608,
+    1.3532329290040523,
+    10.15942517107869
+   ],
+   "share_ratio_T2e_lt1": 0.999235
+  },
+  "biafra": {
+   "qualifies_10y": false,
+   "resupply": "blockade",
+   "N": [
+    14000000,
+    14000000
+   ],
+   "ratio_N_T2e_q": [
+    3.1403999385672323,
+    7.6814122850005715,
+    23.426090365225154
+   ],
+   "ratio_N_lens_q": [
+    5.8478464124805605,
+    46.67077392917585,
+    346.735678767895
+   ],
+   "share_ratio_T2e_lt1": 0.0
+  }
+ },
+ "m_case": {
+  "main_T2e_q": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "main_share_lt1": 0.0,
+  "whites_T2e_q": [
+   0.06467384645585934,
+   0.15815704977416287,
+   0.4822736720069044
+  ],
+  "whites_lens_q": [
+   0.12037462086589694,
+   0.9608325783336557,
+   1.0
+  ],
+  "qual_main": [
+   "cuba_cars",
+   "iran_air",
+   "rhodesia_total"
+  ],
+  "qual_var": [
+   "cuba_cars",
+   "iran_air",
+   "rhodesia_total",
+   "rhodesia_whites"
+  ]
+ },
+ "rework_inputs": {
+  "delta_mm_myford": [
+   0.127,
+   0.254
+  ],
+  "total_mm_myford": 0.635,
+  "n_myford_q": [
+   2.5874719111127673,
+   3.5325869446361295,
+   4.829327254404925
+  ],
+  "n_myford_5mm_q": [
+   20.373794575691083,
+   27.815645233355347,
+   38.02619885358208
+  ],
+  "L_myford_q": [
+   6.922716987083126,
+   69.47985485866496,
+   1450.29062771667
+  ],
+  "L_myford_5mm_q": [
+   54.50958257545768,
+   547.0854713280705,
+   11419.611241863542
+  ],
+  "L_pm_q": [
+   129.55294739560338,
+   1292.2420263204294,
+   21467.754720794204
+  ],
+  "L_rw106_q": [
+   113.1891084178809,
+   1373.9272639325836,
+   19392.88901662716
+  ],
+  "stroke_depth_mm": 0.007619999999999999
+ },
+ "runs_F_heavy": {
+  "case_main_rw106": 1.0,
+  "case_whites_T2e_rw106": 1.2663151080686652,
+  "case_whites_both_rw106": 1.371272019788475,
+  "case_whites_both_bulk": 1.4754529868009727,
+  "case_whites_both_myford": 1.076894029075226,
+  "m0.3_myford": 1.0625138380733832,
+  "m0.3_myford_5mm": 1.1894016588983523,
+  "m0.3_pm_0.076mm": 1.2605714389977554,
+  "mmain_myford": 1.0548775031886333,
+  "mprod_myford": 1.013903384711486,
+  "m0.1_myford": 1.0902694551844552
+ },
+ "ref_106": {
+  "RW_full_m0.3": 1.2715795608226301,
+  "RW_full_mmain": 1.235106519199359,
+  "RW_full_mprod": 1.0424520829554444,
+  "RW_full_m0.1": 1.463925618188816
+ },
+ "hypotheses": {
+  "H119a": {
+   "class": "confirmatory",
+   "rule": ">=1 opened source: T2e machines kept running >=10 y by cannibalization/improvised parts under sanctions",
+   "supported": true,
+   "note": "Yank_tank: ~60,000 pre-1962 US cars still driving in Cuba, kept by adapting household products and Soviet technology, parting out cars"
+  },
+  "H119b": {
+   "class": "confirmatory",
+   "rule": "0 cases (>=10 y) with N < median N_T2e and no external resupply",
+   "value": [],
+   "supported": true,
+   "note": "rhodesia_whites (0.27-0.31M) is < N_T2e but sanctions were evaded via South Africa/Portugal"
+  },
+  "H119c": {
+   "class": "prediction",
+   "rule": "min over >=10y cases (country population) of median N_case/N_T2e >= 1",
+   "value": 3.440175359068113,
+   "supported": true
+  },
+  "H119d": {
+   "class": "prediction",
+   "rule": "m_case versions with rework L (106): F_heavy < 1.10",
+   "value": {
+    "case_main_rw106": 1.0,
+    "case_whites_T2e_rw106": 1.2663151080686652,
+    "case_whites_both_rw106": 1.371272019788475
+   },
+   "supported": false
+  },
+  "H119e": {
+   "class": "prediction",
+   "rule": "public per-rebuild removal depth lies within 0.02-0.2 mm",
+   "value": {
+    "myford_mm": [
+     0.127,
+     0.254
+    ],
+    "pm_worn_spot_mm": 0.0762
+   },
+   "supported": false,
+   "note": "Myford range straddles the upper bound (0.254 > 0.2); total removable 0.635 mm vs 5 mm assumed in 106 (8x smaller)"
+  }
+ },
+ "runtime_s": 47.3
+}

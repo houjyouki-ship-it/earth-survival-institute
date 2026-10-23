@@ -1,0 +1,4 @@
+Source: http://myford-rebuilds.blogspot.com/2010/07/bed-and-saddle-regrinds-at-myford.html (Myford Technical Support, 15 July 2010; opened via web fetch 2026-10-24 03:5x JST; curl timed out)
+"The nominal thickness of the shears on a finished new bed is approximately 0.5" (12.70mm). When we regrind them we normally remove between 0.005" and 0.010", the maximum that we can remove is 0.025" before complications occur in aligning the apron with the rack and leadscrew. In theory it's possible to regrind a bed between 2 and 5 times."
+"A lathe bed manufactured in 1953 gave 50 years service"
+"a dent in the bed approximately 0.075" (1.9050mm) deep and, of course, outside of the limits."

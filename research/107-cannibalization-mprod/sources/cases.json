@@ -1,0 +1,95 @@
+{
+ "cases": [
+  {
+   "id": "cuba_cars",
+   "years": ">=60 (embargo 1962-)",
+   "N": [
+    11089511,
+    11241161
+   ],
+   "N_note": "Cuba census 2022 / 2010 (Cuba.wikitext)",
+   "tier": "T2e: automobiles kept running",
+   "method": "adapt household products and Soviet technology; part out cars; Soviet diesel engines (Yank_tank.wikitext)",
+   "resupply": true,
+   "resupply_note": "Soviet engines/technology; USSR supplied machinery (Special_Period)",
+   "outcome": "~60,000 still driving",
+   "qualifies_10y": true
+  },
+  {
+   "id": "iran_air",
+   "years": "22 (no new Western aircraft 1994-2016)",
+   "N": [
+    92417681,
+    92417681
+   ],
+   "N_note": "current estimate on Iran.wikitext; era population not in opened sources",
+   "tier": "T2e: airliners",
+   "method": "barred from spare parts and new planes",
+   "resupply": "partial",
+   "outcome": ">100 planes grounded (2014); fleet age and safety worsened",
+   "qualifies_10y": true,
+   "partial_failure": true
+  },
+  {
+   "id": "rhodesia_total",
+   "years": "14 (UDI 1965-1979)",
+   "N": [
+    6270000,
+    6270000
+   ],
+   "N_note": "1976: 270,000 whites + six million black Africans (Rhodesia.wikitext)",
+   "tier": "T2e: manufacturing, iron and steel industries",
+   "method": "sanctions countermeasures; clandestine trade",
+   "resupply": true,
+   "resupply_note": "South Africa and Portugal did not observe sanctions; oil sold by western companies",
+   "outcome": "blunted impact for at least a decade",
+   "qualifies_10y": true
+  },
+  {
+   "id": "rhodesia_whites",
+   "years": "14",
+   "N": [
+    270000,
+    307000
+   ],
+   "N_note": "whites 1976 / peak 307,000 (Rhodesia.wikitext); variant = technical carriers only (assumption)",
+   "tier": "same",
+   "resupply": true,
+   "qualifies_10y": true,
+   "variant": true
+  },
+  {
+   "id": "north_korea",
+   "years": "decades",
+   "N": null,
+   "tier": "T2e industry",
+   "outcome": "Industrial capital stock nearly beyond repair; shortages of spare parts left factories idle (Economy_of_North_Korea.wikitext)",
+   "resupply": "partial",
+   "qualifies_10y": false,
+   "note": "failure case, N not used"
+  },
+  {
+   "id": "sarajevo_siege",
+   "years": "~4 (1992-1996)",
+   "N": [
+    300000,
+    525980
+   ],
+   "tier": "utilities",
+   "resupply": true,
+   "resupply_note": "UNPROFOR airlift, tunnel",
+   "qualifies_10y": false
+  },
+  {
+   "id": "biafra",
+   "years": "~2.5 (1967-1970)",
+   "N": [
+    14000000,
+    14000000
+   ],
+   "tier": "weapons (Ogbunigwe), RAP agency",
+   "resupply": "blockade",
+   "qualifies_10y": false
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究107 制裁・封鎖下の共食い整備から見た m と、再研削の限界から見た L（open_problems 256＋255） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="107-m-lopen_problems-256255">研究107 制裁・封鎖下の共食い整備から見た m と、再研削の限界から見た L（open_problems 256＋255）</h1>
+<blockquote>
+<p>注：F・V/V0 などの指標は模型の中の量で、生存確率でも文明の復興確率でもない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>106 で廃墟の道具の効きは m（N_T2e に掛ける倍率）で決まり、作り直しで延びる L（中央値 1,374 年）は δ と削れる総量（5 mm と仮定）しだいと分かった。(1) 制裁・封鎖・戦時に部品の組み替えと即席の部品で T2e の段の機械を保った事例の人数を N_T2e（中央値約 182 万人）と比べ、m の「この人数でできた」証拠を作る（256）。(2) 削り直しの厚さと総量を公開資料で置き直す（255）。</p>
+<h2 id="sourcessha256sums-casesjson">資料（本回取得、sources/、SHA256SUMS、抜粋は cases.json）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Yank_tank">Yank tank</a>）】1962 年の禁輸の後、Cuba の米国車は家庭の品と Soviet の技術を流用し、直せない車は部品取りにして、約 60,000 台が今も走る。タクシーの多くは Soviet のディーゼルに積み替え。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Cuba">Cuba</a>）】人口 11,089,511（2022）、11,241,161（2010 年の国勢調査）。【事実（<a href="https://en.wikipedia.org/wiki/Special_Period">Special Period</a>）】Soviet Union は石油・食料・機械を大量に供給した。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Iran_Air">Iran Air</a>）】1994 年から 2016 年まで新しい西側の機体を受け取れず、部品の購入も禁じられ、2014 年には 100 機超が部品と技術の不足で飛べず、平均機齢と安全の記録が悪化した。人口は <a href="https://en.wikipedia.org/wiki/Iran">Iran</a> の現在の推計 92,417,681（当時の人口は開いた資料になく、比は 1 を大きく超えるので結論に効かない）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Rhodesia">Rhodesia</a>）】UDI（1965〜79 年）の制裁を少なくとも 10 年しのぎ、製造業と鉄鋼業を持った。South Africa と Portugal は制裁に従わず、石油も入った。1976 年の人口は白人 270,000 と黒人 600 万。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Economy_of_North_Korea">Economy of North Korea</a>）】部品の不足で多くの工場が止まり、産業の資本はほぼ直せない（失敗の例、人数は使わない）。</li>
+<li>10 年未満（基準外）：<a href="https://en.wikipedia.org/wiki/Siege_of_Sarajevo">Siege of Sarajevo</a>（約 4 年、人口 30万〜52.6万、空輸とトンネル）、<a href="https://en.wikipedia.org/wiki/Biafra">Biafra</a>（約 2.5 年、人口約 1,400 万）・<a href="https://en.wikipedia.org/wiki/Ogbunigwe">Ogbunigwe</a>（大学の科学者の RAP が兵器を設計・生産）。</li>
+<li>【事実（<a href="http://myford-rebuilds.blogspot.com/2010/07/bed-and-saddle-regrinds-at-myford.html">Myford の再研削</a>）】旋盤のベッドの再研削 1 回で 0.005〜0.010 in（0.127〜0.254 mm）を削り、エプロンとラック・親ねじの整列の限界まで最大 0.025 in（0.635 mm）、理論上 2〜5 回。1953 年のベッドは 50 年使われた。</li>
+<li>【事実（<a href="https://www.practicalmachinist.com/forum/threads/step-scraping-to-speed-up-the-job.307813/">Practical Machinist の段の削り</a>）】手のスクレーパー 1 押しの平均の深さは 0.0003 in（7.6 µm）、例として 0.003 in の摩耗の窪み（10 回の削りで均す）。</li>
+<li>開けなかった頁：Sanctions against Rhodesia・Scraper (metalworking) などは取得でエラーになり使っていない。</li>
+</ul>
+<h2 id="_2">模型</h2>
+<ul>
+<li>106 の sim.py を exec（106 の全 9 版を差 0 で再現、assert）。橋渡しの版（L までに元の閾値に届かなければ段は残らない）。</li>
+<li>m_case = min(1, 10 年以上保てた事例の N_case / N_T2e の最小)。主は国の人口、版は Rhodesia の白人だけ（技術の担い手だけと置く【推測】）。</li>
+<li>255：L = min(L_bulk, n × L_prec)。Myford 版は n = 0.635 mm / δ（δ logU 0.127〜0.254 mm、n 2.5〜4.8）、5 mm 版は n = 5 mm / δ、PM 版は 1 回で 0.076 mm。</li>
+<li>sim.py を 2 回実行し stdout が一致（seed 20261107）。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<p>事例の比（N_case / N_T2e の中央値、5〜95%）：Cuba 6.1（2.5〜18.7）、Iran 50.7、Rhodesia 全体 3.4（1.4〜10.5）、Rhodesia の白人 0.16（0.06〜0.48）、Sarajevo 0.22（10 年未満）、Biafra 7.7（10 年未満）。</p>
+<table>
+<thead>
+<tr>
+<th>版（橋渡し、A_Ord/U3）</th>
+<th>F_heavy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>事例の m（国の人口）、106 の作り直しの L</td>
+<td><strong>1.000</strong></td>
+</tr>
+<tr>
+<td>事例の m（Rhodesia の白人）、T2e だけ、106 の L</td>
+<td>1.266</td>
+</tr>
+<tr>
+<td>同、レンズの段も、106 の L</td>
+<td>1.371</td>
+</tr>
+<tr>
+<td>同、部材の寿命</td>
+<td>1.475</td>
+</tr>
+<tr>
+<td>同、Myford の再研削の限界の L</td>
+<td>1.077</td>
+</tr>
+<tr>
+<td>m=0.3、Myford の L（106 は 1.272）</td>
+<td><strong>1.063</strong></td>
+</tr>
+<tr>
+<td>m=0.3、削れる総量 5 mm・Myford の δ</td>
+<td>1.189</td>
+</tr>
+<tr>
+<td>m=0.3、1 回 0.076 mm・総量 5 mm</td>
+<td>1.261</td>
+</tr>
+<tr>
+<td>m 主（0.1〜1）、Myford の L（106 は 1.235）</td>
+<td>1.055</td>
+</tr>
+<tr>
+<td>m_prod 0.7〜1、Myford の L（106 は 1.042）</td>
+<td>1.014</td>
+</tr>
+<tr>
+<td>m=0.1、Myford の L（106 は 1.464）</td>
+<td>1.090</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>L の中央値：106 の作り直し 1,374 年 → Myford の限界 69 年（5〜95% 7〜1,450 年）、総量 5 mm のまま 547 年。</li>
+</ul>
+<h2 id="_4">判定（分類つき）</h2>
+<ul>
+<li>確認的 H119a 支持（Cuba の車）。H119b 支持（N_T2e より小さく補給なしの 10 年以上の例は 0 件。Rhodesia の白人は小さいが制裁は破られていた）。</li>
+<li>予測 H119c 支持（国の人口で最小の比 3.4）。</li>
+<li>予測 H119d 棄却：国の人口の版は 1.000 だが、白人だけの版は 1.27〜1.37 で 1.10 を超える。結論は「誰を担い手と数えるか」で決まる。</li>
+<li>予測 H119e 棄却：Myford の 0.127〜0.254 mm は上端が 0.2 を超え、削れる総量 0.635 mm は 106 の仮定 5 mm の約 1/8。</li>
+<li>記述：制裁の事例はすべて外から部品・技術が入り、人数は N_T2e を超えるか、担い手だけを数えたときだけ下回る。</li>
+</ul>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li>担い手だけの人数（白人 27万）は、黒人の労働と外の交易の上に乗った値で、閉じた集団の人数の代わりにならない【推測】。逆に国の人口は上限の側。</li>
+<li>Myford の 0.635 mm はラック・親ねじとの整列による限界で、崩壊後に敷き板（シム）で合わせれば延びうる【推測】。また再研削には研削盤が要り、手の削りだけで同じ量を戻せるかは資料にない。どちらの向きにも動く。</li>
+<li>削る間隔を腐食の寿命 L_prec と置いたのは 104 の仮定のまま。摩耗で決まる間隔（Myford の例は 50 年）は入れていない。</li>
+<li>事例の選び方は登録した候補に限り、資料の偏り（Wikipedia の英語版）がある。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>知識の束を作る人は、廃墟の工作機械を長く使う手順として、薄く削る（1 回 0.1 mm 以下）・整列を敷き板で取り直す方法を載せる。この模型では削れる総量が L を決め、総量 0.6 mm と 5 mm で効きが 3 倍違う。</li>
+<li>本研究所は m の外部の証拠を事例から取る線を閉じる（どの事例も外の補給つきで、小さな閉じた集団の T2e の例は見つからない）。次は 160（床への戻りの模型）へ移る。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
