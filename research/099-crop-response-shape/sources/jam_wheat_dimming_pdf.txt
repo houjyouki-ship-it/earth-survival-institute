@@ -1,0 +1,251 @@
+Vol. 19, No.
+Journal      4
+         of Agrometeorology                          YADAV
+                            19 (4) : 323-327 (December 2017) et al                                                           323
+
+   Effect of dimming of global radiation on morphology and yield of wheat crop in
+                                        Delhi
+
+ BRIJESH YADAV, JOYDEEP MUKHERJEE, V.K. SEHGAL, D.K. DAS and PRAMEELA KRISHNAN
+          Division of Agricultural Physics, ICAR- Indian Agricultural Research Institute, New Delhi 110012, India
+                                                 email: mjoydeep2k@yahoo.com
+
+                                                          ABSTRACT
+                Long-term observations of the surface global solar radiation in recent decades have shown a
+        widespread declining trend in many parts of the world. Experient was carried out at the farm of ICAR -
+        Indian Agricultural Research Institute, New Delhi during rabi season of 2014-15 and 2015-16 to study
+        response of three cultivars (HD 2967, W R 544 and PBW 502) of wheat under five reduced solar radiation
+        levels (0, 20, 35, 50, 75% shading). Plant height, internode distance and leaf area index (LAI) were
+        measured at different DAS throughout the crop growth period. The result shows that plant height and
+        internode distance increased under 75% shading treatment. The highest leaf area index (LAI) was
+        observed in 35% shading treatment, followed by 20% shading and control. Final biomass, grain yield
+        and harvest index decreased significantly with shading and was lowest in 75% shading treatment.
+        Among the cultivars, HD 2967 performed better under reduced radiation condition as compared to other
+        cultivars.
+
+        Key words: Wheat, radiation, shading, yield, internode, harvest index
+
+        Solar radiation is the primary energy source for plant     micrometeorological parameters alters the crop phenology,
+life which determines the crop growth and development. It          leaf area index, biomass production, RUE and grain yield
+plays an important role in many plant physiological and bio-       (Healey et al., 1998). Keeping in view the importance of
+chemical processes like chlorophyll synthesis, enzyme              radiation dimming, the present study was undertaken to
+activation, photosynthesis that regulating the growth and          quantify the effect of global radiation dimming, on
+development of plants. Apart from global warming, global           morphology and yield of wheat crop in Delhi, NCR region
+dimming has received prominent attention because it causes         of India.
+climatic and environmental implications. As a consequence
+                                                                                MATERIALS AND METHODS
+of increase in aerosol content, cloud cover and air pollutants,
+light dimming or reduction in global radiation have become                  A field experiment was conducted at research farm of
+major challenges for crop production (Mu et al., 2010).            Indian Agricultural Research Institute (IARI), New Delhi
+Long-term observations of the surface global solar radiation       (28°37' N latitude, 77°09' E longitude and altitude of 228.16
+in recent decades have shown a widespread declining trend          m above mean sea level) during two consecutive rabi season
+in many parts of the world (Liepert, 2002). Stanhill and           (2014-15 and 2015-16). The soil of experimental site was
+Cohen (2001) reported averaged globally reduction of 0.51          sandy loam having pH 7.3, organic carbon 0.47 per cent,
+W m -2, or 2.7 per cent decade, since last 50 years. Liepert       available nitrogen 170.6 kg ha -1, available phosphorus 18.6
+(2002) also observed 19 Wm -2 or 10 per cent decline in            kg ha -1 and available potassium 275.0 kg ha -1. Three wheat
+surface solar radiation in the United States from 1961 to          varieties of wheat (HD 2967, WR 544 and PBW 502) were
+1990. India also shows a continuous and steady light dimming       sown on 25th November and 21 th November in 2014-15 and
+since 1960s (Ramanathan et al., 2005; Mukherjee et al.,            2015-16, respectively. A dose of 120:60:60 kg ha -1 of N:P:K
+2014 and 2015).                                                    was applied (three split dose of N as basal, CRI and flowering).
+                                                                   Five solar radiation reduction treatments i.e. R1 (control),
+       Plant growth and development is adversely affected          R2 (20% shading), R3 (35% shading), R4 (50% shading)
+by reduced light intensity due to shading. Radiation               and R5 (75% shading) were applied from tillering stage to
+interception, temperature, humidity and wind profile under
+                                                                   maturity. Shading nets were installed on 13 th January and
+reduced light condition are determining factor for wheat           10th January for the year 2014-15 and 2015-16, respectively
+growth and yield and also the way through which these              after tillering stage.
+324                                    Effect of dimming of global radiation on wheat crop                            December 2017
+
+Table 1: Mean global solar radiation under various radiation reduction levels at different DAS during the wheat growing season
+        of 2014-15 and 2015-16
+Treatments         36 DAS         42 DAS         61 DAS           82 DAS       86 DAS       101 DAS      110 DAS        128 DAS
+Radiation levels (% shading)
+R1 (0%)              478.3          567.9          584.3           580.0         619.4         640.9         698.0         787.1
+R2 (20%)             362.2          437.0          471.5           476.7         453.0         494.8         506.6         586.3
+R3 (35%)             304.0          330.6          367.0           381.0         371.3         424.3         400.0         518.9
+R4 (50%)             194.6          248.6          251.1           267.1         283.6         309.4         318.0         351.2
+R5 (75%)             104.4          148.8          151.5           144.6         145.6         155.9         186.8         185.2
+LSD at 5%            14.85          20.30          36.30           31.70         39.40         21.25         28.40         29.40
+CV%                     4.7            5.2            9.1            7.8              9.6        4.8            6.1          5.5
+Cultivars
+HD 2967              293.5          342.0          356.5           375.5         375.3         405.3         421.7         482.0
+WR 544               286.6          347.7          364.2            368          366.4         402.6         421.5         479.5
+PBW 502              285.9          349.9          374.5           366.2           382         407.3         422.5         495.8
+LSD at 5%               3.5            7.7            NS             NS               NS          NS            NS           4.6
+CV%                     3.3            3.5            9.2            4.2          10.1           5.1            4.0          2.4
+
+        Daily weather data were collected from the Agromet             shading levels, at early vegetative stage the LAI showed
+Observatory, IARI, New Delhi. Different radiation parameters           non-significant variation up to 36 DAS but showed
+such as global solar radiation was measured by pyranometer.            significant variation thereafter. The highest LAI (5.7) was
+Crop parameters like plant height, internode distance and              observed in R3 (35% shading), followed by 5.6 in R2 (20%
+leaf area index (by using canopy analyzer), were measured              shading), 5.3 in R1 (0 % shading), 5.2 in R4 (50% shading)
+for each variety and each treatment at regular intervals               and 4.9 in R5 (75% shading) at 86 DAS. Increasing leaf area
+throughout the crop growth period. Statistical analysis for            may be due to crop was trying to maintain the growth under
+split plot design were done by using online SAS package.               reduced light by allocating more photosynthates.
+                                                                       Lakshmanakumar et al. (2015) also reported that LAI was
+             RESULTS AND DISCUSSION                                    more under severe shading than mild shading and open
+                                                                       condition in wheat in Pantnagar condition. HD 2967 showed
+Radiation receipt under shade net
+                                                                       the highest LAI of 5.8, followed by WR 544 (5.3) and PBW
+        The global solar radiation (Table 1) was significantly         502 (5.1) at 86 DAS. Interaction effect between reduced
+reduced in all the radiation reduction treatments (inside              radiation level and cultivars was significant at 10, 110 and
+nets). The lowest global solar radiation (151.5 W m -2) was            128 DAS but other stages were non-significant.
+observed in R5 (75% shading) as compared to 251.1 W m -
+2
+                                                                       Plant height
+  in R4 (50% shading), 367.0 W m -2 in R3 (35% shading) and
+471.5 W m -2 in R2 (20% shading) on 61 DAS. It was                             The plant height at 83 DAS differed significantly due
+significantly reduced under R5 (75% radiation reduction) in            to radiation level and cultivars. Plant height increased with
+comparison with other treatments. Similar trend was observed           increase in shading but the differences were non-significant
+at 110 and 128 DAS.                                                    at 96 and 110 DAS (Table 3). In case of cultivars, significant
+                                                                       differences were observed at all the three dates of
+Leaf area index (LAI)
+                                                                       observations. HD 2967 showed the highest plant height of
+       Mean leaf area index (LAI) under different solar                104.1 cm, followed by WR 544 (98.5 cm) and PBW 502
+radiation reduction levels and cultivars differed significantly        (92.5 cm) at 110 DAS. Similar type of results was also
+(Table 2). LAI increased during vegetative phase and reached           reported by Mina et al. (2015). The increase of plant height
+a peak around 86 DAS and decreased thereafter due to                   is due to allocation of photosynthates to stem and leaves to
+senescence in both the crop seasons. In case of different              compensate less solar radiation.
+Vol. 19, No. 4                                             YADAV et al                                                          325
+
+Table 2: Mean leaf area index (LAI) of wheat crop under various radiation reduction levels at different DAS during the wheat
+        growing season of 2014-15 and 2015-16
+Treatments        36 DAS        42 DAS            61 DAS       82 DAS       86 DAS        101 DAS        110 DAS       128 DAS
+Radiation levels (% shading)
+R1 (0%)                1.1           1.5             3.2          3.9             5.3           3.8            3.4            2.7
+R2 (20%)               1.3           1.5             3.3          4.5             5.6           4.0            3.3            2.5
+R3 (35%)               1.2           1.7             3.5          4.6             5.7           4.5            3.8            2.4
+R4 (50%)               1.1           1.5             3.1          3.5             5.2           4.2            2.7            2.0
+R5 (75%)                 1           1.3             3.2          3.5             4.9           3.7            2.3            2.1
+LSD at 5%              NS            NS              0.2         0.40           0.35           0.15           0.14            0.2
+CV%                  18.3           25.6             5.7          9.2             6.1           3.4            3.4            5.8
+Cultivars
+HD 2967                1.3           1.7             3.5          4.3             5.8           4.5            3.6            2.6
+WR 544                 1.1           1.5             3.3          4.1             5.3           4.0            3.1            2.3
+PBW 502                1.0           1.3             3.0          3.7             5.1           3.6            2.8            2.1
+LSD at 5%            0.12           0.15            0.19         0.21           0.17           0.14           0.17          0.21
+CV%                  14.3           13.2             7.6          6.8             4.3           4.7            6.9          11.7
+Table 3: Mean plant height (cm) of wheat crop under various         second internode compared to other internodes.
+        radiation reduction levels at different DAS during
+                                                                            The highest second internode length (14.2 cm) was
+        the wheat growing season of 2014-15 and 2015-16
+                                                                    observed in R5 (75% shading) followed by 13.2 cm in R4
+Treatments                83 DAS     96 DAS       110 DAS           (50% shading) and 12.3 cm in R3 (35% shading). Similar
+Radiation levels (% shading)                                        trends were observed at 115 DAS. The first internode length
+R1 (0%)                      67.4          90.6       95.9          was more as 115 DAS compared to 85 DAS. Among cultivars,
+                                                                    the highest internode length was observed for HD 2967,
+R2 (20%)                     71.9          93.9       96.4
+                                                                    followed by WR 544 and PBW 5 on both the observational
+R3 (35%)                     80.5          94.9       98.5
+                                                                    days i.e. 85 and 115 DAS. Cruz-Aguado et al. (2000)
+R4 (50%)                     85.8          95.2       99.4          reported that the internodes length of wheat significantly
+R5 (75%)                     88.5          96.5      100.7          increased among different cultivars of wheat due to reduced
+LSD at 5%                     6.8           NS         NS           solar radiation than open condition. In shading the increase
+                                                                    of first internode i.e peduncle was obvious than the lower
+CV%                           5.7           4.8        3.0
+                                                                    internodes (Lakshmanakumar et al., 2015).
+Cultivars
+                                                                    Biomass, grain yield and harvest index
+HD 2967                      79.9      100.0         104.1
+                                                                            Grain yield, final biomass and harvest index were
+WR 544                       85.3          96.3       98.5
+                                                                    significantly reduced under R5 (75% shading) as compared
+PBW 502                      71.2          85.0       92.5          to R4 (50% shading), R3 (35% shading), R2 (20% shading)
+LSD at 5%                     4.6           3.8        2.6          and R1 (control) condition (Table 5). Final biomass was
+CV%                          12.4           5.2        3.5          lowest (4.7 t ha -1) in R5 and highest in R1 (13.5 t ha -1). Final
+                                                                    biomass was also differed significantly in all three cultivars.
+Internode distance
+                                                                    Grain yield under R5 was only 0.7 t ha -1 while under R1 it was
+         Mean internode distance of wheat cultivars first,          4.6 t ha -1. Magnitude of yield reduction was slightly higher
+second, third, fourth and fifth internode from top to               compared to solar radiation reduction inside shades. Average
+downwards in wheat crop at 85 DAS was significantly                 grain yield reduction was 81%, 68%, 48% and 23% under
+influenced by the various levels of reduced radiation (Table        R5, R4, R3 and R2 treatments, respectively in 2014-15 but
+4). It also shows that the internode length was maximum in          magnitude was higher during 2015-16 i.e. 88%, 74%, 58%,
+326                                      Effect of dimming of global radiation on wheat crop                            December 2017
+
+Table 4: Mean internode length (cm) from top to down in wheat crop under various radiation reduction levels on 85 DAS and
+        115 DAS during the growing season 2014-15 and 2015-16.
+Treatments                                 85 DAS                                                       115 DAS
+                    1st         2nd         3rd          4th      5th             1st        2nd          3rd         4th        5th
+Radiation levels (% shading)
+R1 (0%)           9.20         10.5        10.2          8.30      5.5           24.9       15.2         10.9       8.80         5.6
+R2 (20%)          9.80         11.3        10.8          8.90      5.8           25.8       16.1         12.3       9.30         6.0
+R3 (35%)          10.4         12.3        11.3          10.1      6.2           26.7       17.3         13.4       10.2         6.3
+R4 (50%)          11.2         13.2        12.0          9.70      6.5           27.9       18.3         14.3       11.1         6.8
+R5 (75%)          12.3         14.2        12.7          10.3      6.9           29.3       19.0         16.0       11.8         7.1
+LSD (5%)            0.3         0.2         0.3           0.3      0.1            0.6         0.5         0.3         0.5         NS
+Cultivars
+HD 2967           12.4         15.3        13.3          10.4      7.3           32.1       17.8         15.8       11.8         7.7
+WR 544            11.6         13.5        12.3          9.80      6.7           30.0       16.5         14.1       10.8         7.0
+PBW 502           11.1         12.9        11.2          9.50      6.1           28.4       14.9         13.0       9.90         6.5
+LSD (5%)          0.36         0.45        0.44          0.38    0.42            0.95       1.1.0        0.85       0.60          NS
+CV (%)              3.3         4.2         4.2           4.6      5.2            4.4         5.1         5.5         5.3        4.7
+Table 5: Variation of mean grain yield, final biomass and                yield (3.0 t ha-1) in all treatments as compared to WR 544 (2.4
+       harvest index in wheat as influenced by different                 t ha -1) and PBW 502 (1.8 t ha -1). Harvest index was lowest
+       radiation reduction levels during the growing season              under R5 (14.6%), followed by R4 (17.8%) and R3 (24.9%)
+       2014-15 and 2015-16.                                              and highest under open condition (33.5%). Non-significant
+Treatments            Final biomass      Grain yield        HI           interaction effect between reduced radiation level and
+                             (t ha -1)       (t ha -1)     (%)           cultivars was found during 2014-15 but grain yield and
+                                                                         harvest index were significantly different during 2015-16
+Radiation levels (% shading)
+                                                                         except final biomass.
+R1 (0%)                         13.5               4.6    33.5
+R2 (20%)                        11.2               3.3    29.0                                 CONCLUSION
+R3 (35%)                          8.5              2.2    24.9
+                                                                                Reduced solar radiation adversely affects the plant
+R4 (50%)                          7.3              1.5    17.8           growth and yield of wheat. Final biomass, grain yield and
+R5 (75%)                          4.7              0.7    14.6           harvest index were significantly decreased whereas, plant
+LSD at 5%                         0.9              0.4     4.1           height and internode length were significantly increased
+                                                                         with shading. LAI was also significantly affected under low
+CV%                               9.4             12.7    15.7
+                                                                         irradiance. The impact of light dimming was less in cultivar
+Cultivars                                                                HD 2967 as compared to WR 544 and PBW 502.This
+HD 2967                         10.2               3.0    27.9           research might be helpful for farmers in selecting suitable
+WR 544                            8.9              2.4    23.9           cultivar and for breeders to develop new varieties to increase
+PBW 502                           7.9              1.8    20.1           agricultural productivity under light dimming condition.
+
+LSD at 5%                         0.6              0.2     2.1
+                                                                                               REFERENCES
+CV%                               8.9              9.1    11.4
+                                                                         Cruz-Aguado, J. A., Rodés, R., Pérez, I. P. and Dorado, M. (2000).
+and 34% in R5, R4, R3 and R2, respectively. Similar findings                   Morphological characteristics and yield components
+have been also reported by Lakshmanakumar et al., (2015)                       associated with accumulation and loss of dry mass in the
+and Mu et al., (2010). Grain yield also differed significantly                 internodes of wheat. Field Crops Res., 66(2):129-139.
+in all three cultivars. Cultivar HD 2967 showed higher grain
+Vol. 19, No. 4                                               YADAV et al                                                         327
+
+Healey, K.D., Rickert, K.G., Hammer, G.L. and Bange, M.P.             Mukherjee, J., Singh, G. and Bal, S. K. (2014). Radiation use
+      (1998). Radiation use efficiency increases when the                  efficiency and instantaneous photosynthesis at different
+      diffuse component of incident radiation is enhanced                  growth stages of wheat (Triticum aestivum L.) in semi
+      under shade. Australian J. Agri. Res., 49: 665–672.                  arid ecosystem of Central Punjab, India. J.
+                                                                           Agrometeorol., 16(1): 69-77.
+Lakshmanakumar, P., Bana, O.P.S. and Guru, S. K. (2015).
+     Morphological and physiological characteristics of wheat         Mukherjee, Joydeep, S.S. Singh, Santosh Kumar and Mohd.
+     (Triticum aestivum L.) under different light condition.               Idris. (2015). Radiation use efficiency and yield of wheat
+     Intern. Res. J. Natural Applied Sci., 2(4): 2349-4077.                crop grown under elevated CO2 and temperature in open
+                                                                           top chamber in Patna, Bihar. J. Agrometeorol.,17(2):
+Liepert, B. G. (2002). Observed reductions of surface solar
+                                                                           158-164.
+       radiation at sites in the United States and worldwide from
+       1961 to 1990. Geophy. Res. Letters, 29(10):1421.               Ramanathan, V., Chung, C., Kim, D., Bettge, T., Buja, L., Kiehl,
+                                                                           J. T. and Wild, M. (2005). Atmospheric brown clouds:
+Mina, U., Singh, S. D., Singh, B. and Khaund, M. (2015).
+                                                                           Impacts on South Asian climate and hydrological
+      Response of wheat and chickpea cultivars to reduced
+                                                                           cycle. Proc. National Acad. Sci. USA., 102(15): 5326-
+      levels of solar irradiance. J. Agrometeorol., 17(2): 165-
+                                                                           5333.
+      171.
+                                                                      Stanhill, G. and Cohen, S. (2001). Global dimming: a review of
+Mu, H., Jiang, D., Wollenweber, B., Dai, T., Jing, Q. and Cao, W.
+                                                                             the evidence for a widespread and significant reduction
+       (2010). Long term low radiation decreases leaf
+                                                                             in global radiation with discussion of its probable causes
+       photosynthesis, photochemical efficiency and grain
+                                                                             and possible agricultural consequences. Agric. Forest
+       yield in winter wheat. J. Agron. Crop Sci., 196:38-47.
+                                                                             Meteorol., 107(4): 255-278.
+
+
+                                      Received : March 2017 ; Accepted : September 2017
+

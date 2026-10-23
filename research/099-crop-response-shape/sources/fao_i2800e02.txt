@@ -1,0 +1,499 @@
+Yield response to water:
+  the original FAO water
+     production function
+                                     2. Yield response to water:
+              Lead Authors
+                   Martin Smith
+(formerly FAO, Land and Water
+           Division, Rome, Italy;
+                currently retired)   the original FAO water
+                                     production function
+             Pasquale Steduto
+(FAO, Land and Water Division,
+                  Rome, Italy)
+
+
+
+
+                                     General description
+
+
+
+                                     F
+                                           AO addressed the relationship between crop yield and water use in the
+                                           late seventies proposing a simple equation where relative yield reduction
+                                           is related to the corresponding relative reduction in evapotranspiration
+                                     (ET). Specifically, the yield response to ET is expressed as:
+
+
+                                                                ⎛ Ya ⎞      ⎛ ET a ⎞
+                                       (1)                      ⎜1− ⎟ = K y ⎜1−    ⎟
+                                                                ⎝ Yx ⎠      ⎝ ET x ⎠
+
+
+                                     where Yx and Ya are the maximum and actual yields, ETx and ETa are the
+                                     maximum and actual evapotranspiration, and Ky is a yield response factor
+                                     representing the effect of a reduction in evapotranspiration on yield
+                                     losses. Equation 1 is a water production function and can be applied to all
+                                     agricultural crops, i.e. herbaceous, trees and vines.
+
+                                     The yield response factor (Ky) captures the essence of the complex linkages
+                                     between production and water use by a crop, where many biological,
+                                     physical and chemical processes are involved. The relationship has shown
+                                     a remarkable validity and allowed a workable procedure to quantify the
+                                     effects of water deficits on yield.
+
+                                     This approach and the calculation procedures for estimating yield response
+                                     to water were published in the FAO Irrigation and Drainage Paper No. 33
+                                     (Doorenbos and Kassam, 1979), which was considered one of FAO's
+                                     milestone publications, and were used widely worldwide for a broad range
+                                     of applications.
+
+                                     In this Chapter, the procedures used to quantify the yield response to water
+                                     deficits using Equation 1 are briefly described. To get fully acquainted with
+                                     the original procedures, the Ky use and related applications, the reader is
+                                     referred to the original publication.
+
+
+
+
+    6     crop yield response to water
+The Yield response factor (Ky)
+
+The Ky values are crop specific and vary over the growing season according to growth stages
+with:
+
+Ky >1: crop response is very sensitive to water deficit with proportional larger yield reductions
+when water use is reduced because of stress.
+
+Ky <1: crop is more tolerant to water deficit, and recovers partially from stress, exhibiting less
+than proportional reductions in yield with reduced water use.
+
+Ky =1: yield reduction is directly proportional to reduced water use.
+
+Based on the analysis of an extensive amount of the available literature on crop-yield and
+water relationships and deficit irrigation, Ky values were derived for several crops (Table 1).
+
+
+
+Table 1    Seasonal Ky values from FAO Irrigation and Drainage Paper No. 33.
+
+ Crop                      Ky              Crop                       Ky
+
+ Alfalfa                   1.1             Safflower                  0.8
+
+ Banana                 1.2-1.35           Sorghum                    0.9
+
+ Beans                    1.15             Soybean                   0.85
+
+ Cabbage                  0.95             Spring wheat              1.15
+
+ Cotton                   0.85             Sugarbeet                  1.0
+
+ Groundnuts               0.70             Sugarcane                  1.2
+
+  Maize                   1.25             Sunflower                 0.95
+
+  Onion                    1.1             Tomato                    1.05
+
+  Peas                    1,15             Watermelon                 1.1
+
+  Pepper                   1.1             Winter wheat              1.05
+
+  Potato                   1.1
+
+
+
+The analysis of deficit irrigation studies also allowed, for a majority of crops, the development
+of crop response functions when water deficits occur at different crop stages. As illustrated
+for maize in Figure 1, yield response will differ largely depending on the stage the water
+stress occurs. Typically flowering and yield formation stages are sensitive to stress, while stress
+occurring during the ripening phases has a limited impact, as in the vegetative phase, provided
+the crop is able to recover from stress in subsequent stages.
+
+
+
+
+                                                          Yield Response to Water of All Crop Types   7
+      Figure 1       Linear water production functions for maize subjected to water deficits occurring during the
+                     vegetative, flowering, yield formation and ripening periods. The steeper the slope (i.e. the
+                     higher the Ky value), the greater the reduction of yield for a given reduction in ET because of
+                     water deficits in the specific period.
+
+
+                      1- ETa / ETx
+
+                 1       0.9         0.8       0.7           0.6           0.5             0.4              0.3             0.2            0.1   0
+                                                                                                                                                     0
+
+                                                                       )
+                                                             ing (4                                                                                  0.1
+                                                     Ripen
+                                           K Y= 0
+
+
+                                                                           (1)                                          )
+                                             .2
+
+
+                                                                   tive                                               (2                             0.2
+                                                              eta                          3)                     g
+                                                          Veg
+
+
+
+
+                                                                                                                                     (3)
+                                                                                        n(                    rin
+                                                                                    tio                     e
+                                                                             ma
+
+
+
+
+                                                                                                                                       n
+                                                                                                         ow
+                                                    0.4
+
+
+
+
+                                                                        or
+
+
+
+
+                                                                                                                                   tio
+                                                                   l df                                Fl                                            0.3
+                                                               Yie                                )+
+
+
+
+
+                                                                                                                                ma
+                                                                                              (1
+                                                      0.
+
+
+
+
+                                                                                                                              for
+                                                                                          e
+                                                         5
+
+
+
+
+                                                                                    ativ
+                                                                                 et
+
+
+
+
+                                                                                                                               ld
+                                                                                                                                                     0.4
+                                                                              g
+
+
+
+
+                                                                                                                           Yie
+                                                                           Ve
+
+
+                                                                                                            )
+                                                                                                        (2
+
+
+                                                                                                                      2) +
+                                                                                                       g
+                                                                    0.
+
+
+
+
+                                                                                                   rin                                               0.5
+                                                                       9
+
+
+
+
+                                                                                                                    g(
+                                                                                              we
+
+
+
+                                                                                                                  rin
+                                                                                           Flo
+
+
+
+                                                                                        1.                      we
+                                                                                              5                                                      0.6
+                                                                                                            Flo
+
+
+                                                                                                              2.3
+                                                                                                                                                     0.7
+
+
+                                                                                                                                                     0.8
+                      Grain yield
+                      Individual growth periods
+                                                                                                                                                     0.9
+
+                                                                                                                                                           1-Ya / Yx
+                                                                                                                                                     1
+
+
+
+
+      Calculation Procedures
+
+      The calculation procedure for Equation 1 to determine actual yield Ya has four steps:
+
+      i. Estimate maximum yield (Yx) of an adapted crop variety, as determined by its genetic
+           makeup and climate, assuming agronomic factors (e.g. water, fertilizers, pest and diseases)
+           are not limiting.
+      ii. Calculate maximum evapotranspiration (ETx) according to established methodologies and
+           considering that crop-water requirements are fully met.
+      iii. Determine actual crop evapotranspiration (ETa) under the specific situation, as determined
+           by the available water supply to the crop.
+      iv. Evaluate actual yield (Ya) through the proper selection of the response factor (Ky) for the
+           full growing season or over the different growing stages.
+
+
+
+
+8   crop yield response to water
+Maximum Yield (Yx)
+
+The FAO I&D No. 33 recommended procedures for estimating maximum yield either from
+available local data for maximum crop yields or based on the calculation of maximum biomass
+and a corresponding harvest index, following two different procedures:
+
+I. Wageningen procedure (De Wit, 1968; Slabbers, 1978)
+II. Ecological zone approach (Kassam, 1977)
+
+These procedures for yield estimation were developed in the late sixties and seventies. The
+considerable advances in agronomy and crop physiology, though, allow for the use of more
+precise methods to estimate maximum yields.
+
+
+
+Maximum Crop Evapotranspiration (ETx)
+
+Procedures for determining ETx were based on FAO guidelines for crop-water requirements
+(ETc), and the ETx component of Equation 1, which is equal to ETc, was determined through
+the product of the reference-crop evapotranspiration (ETo) times the crop coefficient (Kc ), i.e.
+
+ (2)                                       ETx = Kc ETo
+
+Original procedures for determining ETo are described in FAO I&D No. 24 (Doorenbos and
+Pruitt, 1977), offering different equations for its calculation according to the available
+climate data. Kc values were provided for a large number of crops and procedures to
+determine ETc over the growing season. Subsequently, revised procedures for calculating
+ETo were introduced in FAO I&D No. 56 (Allen et al., 1998), according to the FAO Penman-
+Monteith equation, which has now become the standard for estimating reference crop
+evapotranspiration.
+
+
+
+Actual Crop Evapotranspiration (ETa)
+
+It is very difficult to estimate the actual crop evapotranspiration with precision. FAO I&D No. 33
+provided tables from which ETa could be estimated from data on evapotranspiration rate,
+available soil water and wetting intervals. The tables however proved cumbersome and later
+were replaced by more accurate ETa calculations based on daily water balance calculations and
+digital computation methods.
+
+Water balance calculations allow the level of available soil water in the root zone to be
+determined on a daily basis. As long as soil water is readily available for the crop, then ETa =
+ETx. When a critical soil moisture level is reached, defined as a fraction of the total available
+soil water content (p), transpiration is reduced because the stomata close and thus ETa < ETx,
+until the level of soil water in the root zone reaches the permanent wilting point, when ETa
+is assumed to be zero. This critical soil-water content is estimated from soil, crop and rooting
+characteristics and from the ETo rate. Depletion of soil-water content between p and the
+permanent wilting point will result in a proportional reduction of ETa.
+
+
+
+
+                                                      Yield Response to Water of All Crop Types      9
+       FAO I&D No. 56 provides detailed procedures to assess the impact of stress on reduced
+       evapotranspiration based on the water balance calculations with parameters on critical soil-
+       water content values and rooting depth.
+
+
+
+       Actual Crop Yield (Ya) and Yield reduction
+
+       Based on the estimated Yx and the calculated ETx and ETa , actual yield (Ya) may be determined
+       using Equation (1).
+
+       However, in many planning and management studies requiring the estimation of yield in
+       relation to the water availability, the yield reduction is expressed in relative terms, e.g. as a
+
+                                ⎛   Y⎞
+       fraction or percentage ⎜1− a ⎟ rather than absolute (Ya).
+                                ⎝   Yx ⎠
+
+       As a matter of fact, the errors in estimating actual yields with water production functions
+       are quite important, given the empirical nature of the relationships and the uncertainty of
+       estimating the parameters discussed above.
+
+
+
+       Computerized calculation procedures (CROPWAT)
+
+       The use of the water production functions, Equation (1), is facilitated using the CROPWAT
+       model (Smith, 1992) that provides computation procedures to determine yield reductions
+       based on the FAO I&D No. 33 approach using daily water balance calculations. CROPWAT has
+       been widely used as a practical management tool for irrigation scheduling and to estimate
+       yield reductions under water deficit condition. Standard values for crop parameters (Kc, p,
+       rooting depth, etc.) and Ky values are included in the model and can be modified to adjust to
+       local conditions.
+
+       CROPWAT includes various modules to calculate reference evapotranspiration from daily,
+       decade or monthly climatic data, crop-water requirements and irrigation water requirements
+       from climatic and crop data, as well as scheme water supply for varying cropping patterns.
+       CROPWAT was designed as a practical tool to carry out standard calculations for design and
+       management of irrigation schemes, and for improving irrigation practices. It may also be
+       used for irrigation scheduling under full or deficit irrigation conditions and for this, it uses
+       the yield response factors derived from the crop-water production functions synthesized in
+       FAO I&D No. 33. In order to allow the calculation from a wide-range of countries a climatic
+       database CLIMWAT (Smith, 1993) has been included in the CROPWAT software, based on
+       agro-meteorological data compiled by the FAO agro-meteorological service with over 3 200
+       stations from 144 countries and spanning the years from 1961 to 1990.
+
+
+
+       Limitations and Applications of FAO I&D No. 33
+
+       Procedures for estimating yield response to water developed in FAO I&D No. 33 have been
+       very popular among economists and engineers, and have been used in several practical
+       applications at field, scheme, regional and national level. For many years, this water production
+
+
+
+
+10   crop yield response to water
+function approach has been the standard for planning and was an input to many economic
+models dealing with water allocation. It is still useful when a quick, first approximation of
+yield reduction related to water limitations is needed, especially when both herbaceous crops,
+trees and vines have to be considered simultaneously. Recent examples of applications can be
+found at basin scale (e.g. Xiaojuan et al., 2011), at field scale (e.g. Yacoubi et al., 2010) and in
+decision support systems (e.g. Gastélum et al., 2008).
+
+While the FAO I&D No. 33 approach is solidly based on crop-water use principles, the
+simplification introduced by using one empirical yield response factor (Ky) to integrate
+the complex linkages between production and water use for crop production, limits its
+applicability for making accurate estimates of yield responses to water. Moreover, factors
+other than water such as nutrients, different cultivars, etc. also affect the response to water.
+In fact, adjustments for site-specific conditions would be needed if greater accuracy is
+sought. Determination of Ky values after adaptive research has been carried out in numerous
+studies for various crops and under different environments. Results showed a wide range
+of variations of Ky values and suggest that the within-crop variation in Ky may be as large as
+that between crops (Stanhill et al., 1985).
+
+As an example of the differences in Ky values from different studies, it is instructive to
+compare the results under a cooperative research programme carried out by the International
+Atomic Energy Agency (IAEA) against the original Ky values of the FAO I&D No. 33. Table 2
+summarizes the comparison of Ky values as published in the FAO Water Report No. 22, Deficit
+Irrigation, 2002.
+
+Despite the robustness of the production function approach, the differences in Ky values
+between the two publications are important, and no specific trend can be extracted from the
+deviations in the Ky values under different conditions. It can be concluded that application of
+the water production function approach has proved useful for general planning, design and
+operation of irrigation projects and for the rapid assessment of yield reductions under limited
+water supply. It has found applications from water supply allocation among crops during
+periods of water shortage to various studies at national or regional scales, where generalized
+crop conditions prevail.
+
+For improved strategies and practices related to on-farm water management aiming to
+increasing efficiency and productivity of water use, Equation 1 is of limited use and more
+accurate predictions are required for yield response under actual field conditions. AquaCrop
+(Chapter 3), provides a valid alternative for herbaceous crops, as the incorporation of
+advanced knowledge of crop-water relationships allows a more accurate modelling of actual
+crop growth and yield formation processes under various soil water availability, climate and
+soil fertility conditions.
+
+
+
+
+                                                        Yield Response to Water of All Crop Types      11
+       Table 2      Comparison of Ky values between FAO Irrigation and Drainage Paper No. 33 and IAEA
+                    investigations (FAO, 2002) at different stages of crop development. Tr-0000=water deficit
+                    occurring during the whole season; Tr-0111=water deficit occurring during initial crop stage;
+                    Tr-1011=water deficit occurring during crop development; Tr-1101=water deficit occurring
+                    during midseason; Tr-1110=water deficit occurring during late season. Where different
+                    values of Ky are reported by IAEA for the same crop, they refer either to experimental
+                    results of different countries or to experimental results of different locations within the
+                    same country.
+
+        Crop                   Tr-0000                Tr-0111                Tr-1011               Tr-1101                Tr-1110
+
+                        FAO IAEA (%)           FAO IAEA (%)           FAO IAEA (%)          FAO IAEA (%)           FAO IAEA (%)
+
+                        1.15 0.59        -49   0.20 0.38        90    1.10 1.75        59   0.75 1.44        92    0.20 0.06        -70
+        Beans
+                        1.15 1.43        24    0.20 0.56        180 1.10 1.35          23   0.75 0.87        16    0.20 0.17        -15
+
+                        0.85 1.02        20    0.20 0.75        275 0.50 0.48          -4                          0.25
+
+        Cotton          0.85 0.71        -16   0.20 0.80        300 0.50 0.60          20           0.05
+
+                        0.85 0.99        16                           0.50 0.76        52
+
+        Groundnut       0.70                   0.20                   0.80 0.74        -8   0.60                   0.20
+
+        Maize           1.25 1.33         6    0.40                   1.50                  0.50                   0.20
+
+        Potato          1.10                   0.60 0.40        -33           0.33          0.70 0.46        -34   0.20
+
+        Soybean         0.85                   0.20 0.56        180 0.80 1.13          41   1.00 1.76        76
+
+                        1.20                   0.75 0.20        -73           1.20          0.50 1.20        140 0.10
+        Sugarcane
+                        1.20                   0.75 0.40        -47           1.20          0.50 1.20        140
+
+        Sunflower       0.95 0.91        -4    0.40 1.19        198 1.00 0.94          -6   0.80 1.14        43
+
+        Spring wheat    1.15 1.32        15    0.20 0.55        175 0.65 0.90          38   0.55 0.44        -20           0.25
+
+        Winter wheat 1.00 0.87           -13   0.20 2.54 1170 0.60 0.81                35   0.50 0.48        -4            0.62
+
+
+
+
+12   crop yield response to water
+References
+Allen, R.G., Pereira, L.S., Raes, D. & Smith, M. 1998. Crop evapotranspiration. Guidelines for computing crop water
+ requirements. In: FAO Irrigation and Drainage Paper No. 56. Rome, FAO.
+De Wit, C.T. 1968. Plant production. In: Miscellaneous Papers Landbouw Hogeschool, Wageningen No. 3: 25-50.
+Doorenbos, J. & Kassam, A.H. 1979. Yield response to water. FAO Irrigation and Drainage Paper No. 33. Rome, FAO.
+Doorenbos, J. & Pruitt, W.O. 1977. Crop water requirements. FAO Irrigation and Drainage Paper No. 24. Rome, FAO.
+FAO. 2002. Deficit Irrigation Practices. Water Reports No. 22. Rome.
+Gastélum, J. R., Valdés, J.B. & Stewart, S. 2008. A decision support system to improve water resources management
+ in the Conchos basin. Water Resources Management 23:1519-1548.
+Kassam, A.H. 1977. Net biomass production and yield of crops. Present and potential land use by agro-ecological
+ zones project. Rome, FAO.
+Slabbers, P.J., Sorbello, V. & Stapper, M. 1978. Evaluation of simplified water-crop yield models. Agricultural Water
+ Management.
+Smith, M. 1992. CROPWAT. A computer programme for irrigation planning and management. In: FAO Irrigation and
+ Drainage Paper No. 46. Rome, FAO.
+Smith M. 1993. CLIMWAT for CROPWAT. FAO Irrigation and Drainage Paper No. 49. Rome, FAO.
+Stanhill, G., Lake, J.V. & Rudd-Jones, D. 1985. The Water Resource for Agriculture. Philosophical Transactions. Royal
+ Society Biological Series. London 310:161-173.
+Xiaojuan, L., Ling, T., Shaozhong, K. & Fusheng, L. 2011. Comparison of spatial interpolation methods for yield
+ response factor of winter wheat and its spatial distribution in Haihe basin of north China. Irrigation Science
+ Volume 29, Issue 6, pp 455-468.
+Yacoubi, S., Zayani, K., Zapata, N., Zairi, A., Slatni, A., Salvador, R. & Playa´n, E. 2010. Day and night time sprinkler
+ irrigated tomato: Irrigation performance and crop yield. Biosystems Engineering, Volume 107, pp 25-35.
+
+
+
+
+                                                                   Yield Response to Water of All Crop Types                13
+

@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究099 事前登録（2026-10-23 11:40 JST、FAO の作物の水の資料・遮光の試験の資料を開く前、sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="099-2026-10-23-1140-jstfao-simpy">研究099 事前登録（2026-10-23 11:40 JST、FAO の作物の水の資料・遮光の試験の資料を開く前、sim.py の前）</h1>
+<p>注：出す値は模型の中の割合で、生存確率でも復興確率でもない。</p>
+<h2 id="open_problems-239240">問い（open_problems 239＋240）</h2>
+<p>098 では、097 の「得」の格子（耐寒の作物が気温では実る 374 格子）の q が、雨と光への収量の応答を閾値（0.5）にすると 0.645、
+比例（積）にすると 0.43。応答の形を公開の資料（FAO の作物の水の要求と収量の応答係数 Ky、遮光の圃場試験）で決め、q を置き直す。</p>
+<h2 id="_1">模型（登録）</h2>
+<ul>
+<li>水：FAO 33 の式 1−Ya/Ym = Ky(1−ETa/ETm)。ETa/ETm = min(1, P_season150 / ETm150)。ETm150 = ETm_ctl × L_r（蒸発の需要は日射に比例すると近似）。
+  ETm_ctl は FAO の季節の作物の水の要求（耐寒の作物は大麦の値、ジャガイモはジャガイモの値の中央）。P_season は 098 の 4 か月の雨（mm）。
+  Ya/Ym が 0 未満なら 0。</li>
+<li>光：収量比 = 遮光の試験から得る関数 f(L_r)（比例なら L_r）。</li>
+<li>合わせ：m = 水の比 × 光の比。098 と同じく増殖比 10×m を seed_loss に入れる。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H111a（確認的）：FAO の資料の大麦（または小麦・大麦の組）の季節の水の要求の下限は 400 mm 以上。</li>
+<li>H111b（確認的）：遮光率 50〜70% の圃場試験（穀物か芋）の収量比の中央値は（1−遮光率）より大きい（比例より良い、飽和の側）。</li>
+<li>H111c（予測）：資料の応答による q は 098 の閾値 0.645 と比例 0.43 の中点 0.537 より下（比例の側）。</li>
+<li>H111d（予測）：得の格子のうち、最悪年に水の比 Ya/Ym が 0.1 未満の面積は 0.5 未満。</li>
+</ul>
+<h2 id="_3">版（登録）</h2>
+<p>ETm を日射に比例させない版（ETm150=ETm_ctl）、Ky の資料の幅の両端、増殖比 5・20、光を比例と資料の関数の両方。</p><footer><hr><small>自動生成</small></footer></body></html>
