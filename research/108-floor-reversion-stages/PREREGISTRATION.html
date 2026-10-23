@@ -1,0 +1,25 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究108 事前登録（2026-10-24 05:44 JST、Tasmania などの喪失の年数の資料を開く前・sim.py の作成の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="108-2026-10-24-0544-jsttasmania-simpy">研究108 事前登録（2026-10-24 05:44 JST、Tasmania などの喪失の年数の資料を開く前・sim.py の作成の前）</h1>
+<blockquote>
+<p>注：指標（F_heavy、T0 再出発の割合、T2 到達）は模型の中の量で、生存確率でも文明の復興確率でもない。</p>
+</blockquote>
+<h2 id="open_problems-160">問い（open_problems 160）</h2>
+<p>038〜107 の段の模型は「群の人数 n が段の閾値 N_k を下回ると段を即座に失う」二値。059 で伝達の損失は一定でなく床からの差に比例（a≈0.37〜0.39／世代、Muthukrishna 2014 実験2）と分かった。
+床への戻りの模型 dz/dt = κ(ln N(t) − z)（z は技能を ln N の単位で測る、Henrich の釣り合い z*=ln N の形、段の要求 z_k=ln N_k）、N(t)=n·e^{rt}、z(0)=ln N_pre で、
+技能の最小値 z_min = ln n + (r/κ)·ln(κA/r)（A = ln N_pre − ln n + r/κ、κA/r≤1 なら z_min=ln N_pre）が ln N_k 以上なら段を保つ。κ→∞ で二値の模型に戻る。
+保てた段を st に反映し、T2 到達と F_heavy（A_Ord/U3、104 の evaluate と同じ定義）を出す。</p>
+<h2 id="_1">版</h2>
+<ul>
+<li>κ_lab：a ~ U(0.37, 0.39)／世代、世代 Tg ~ U(25, 30) 年【推測：実験室の「世代」を人の世代に読み替える】。</li>
+<li>κ_hist：歴史の喪失の年数から逆算（資料を開いてから置く。下の H120a で登録）。</li>
+<li>N_pre：主 8.232e9（世界人口、038 の POP_W）、版 1e7。</li>
+<li>lag 版：失った段を取り戻すとき wait に 1/κ を足す。</li>
+<li>再現：κ→∞ で 104 の基準の T2s と F_heavy=1 を差 0。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H120a（確認的、資料を開く前）：Tasmania の孤立から骨角器・漁の喪失までの年数（資料の値）を、人口一定の群の床への戻りで読むと、a_hist は 1 世代あたり 0.05 未満（実験室の 0.39 の 1/8 未満）になる。</li>
+<li>H120b（確認的）：κ_hist の版で、A_Ord/U3 の U3 の重い崩壊（st 4〜6）の割合は二値の模型から相対で 30% 以上減る。</li>
+<li>H120c（予測、入力既知）：κ_lab・N_pre 主で、重い崩壊の標本の実効の閾値の倍率 exp(−(r/κ)ln(κA/r)) の中央値は 0.2〜0.7。</li>
+<li>H120d（予測）：κ_lab で U3 の T0 再出発（st 5・6）の割合の相対の減りは 20% 未満。</li>
+<li>H120e（予測）：κ_lab で F_heavy（A_Ord/U3）は 0.9〜1.1。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

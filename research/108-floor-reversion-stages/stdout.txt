@@ -1,0 +1,119 @@
+{
+ "check_104_runs_reproduced_maxdiff": 0.0,
+ "check_T2_from_eq_B": 0.0,
+ "check_binary_F_heavy": 0.0,
+ "consistency": {
+  "NUC_G": {
+   "n_heavy": 0,
+   "share_consistent": null
+  },
+  "NUC_R": {
+   "n_heavy": 0,
+   "share_consistent": null
+  },
+  "BIO": {
+   "n_heavy": 19560,
+   "share_consistent": 1.0
+  },
+  "CASC": {
+   "n_heavy": 43641,
+   "share_consistent": 1.0
+  },
+  "NAT": {
+   "n_heavy": 0,
+   "share_consistent": null
+  },
+  "SV": {
+   "n_heavy": 0,
+   "share_consistent": null
+  },
+  "AS": {
+   "n_heavy": 1994,
+   "share_consistent": 1.0
+  },
+  "SO": {
+   "n_heavy": 0,
+   "share_consistent": null
+  },
+  "U3": {
+   "n_heavy": 138855,
+   "share_consistent": 1.0
+  }
+ },
+ "kappa": {
+  "k_lab_per_yr_q": [
+   0.012874131438107169,
+   0.01521300757816592,
+   0.018531625602386293
+  ],
+  "a_lab": [
+   0.37,
+   0.39
+  ],
+  "Tg": [
+   20,
+   30
+  ],
+  "k_hist_per_yr_q": [
+   5.118861210359033e-05,
+   0.000299871421269438,
+   0.0005574915987172028
+  ],
+  "a_hist_per_gen_q": [
+   0.0012640710958485857,
+   0.007402163776085085,
+   0.014455483525381632
+  ],
+  "a_hist_alt_per_gen_q": [
+   0.00046200299646883105,
+   0.0026917858826130117,
+   0.005216009964593427
+  ],
+  "a_hist_upper_R10_T3500_Tg30": 0.01973644365423468,
+  "R_needed_for_a_0.05_T4000_Tg25": 2980.9579870417283,
+  "ratio_lab_over_hist_median": 50.73176868194069
+ },
+ "kappa_crit_Fheavy_1.1": 0.006309573444801936,
+ "kappa_crit_heavy_drop_0.3": 0.001584893192461114
+}
+binary_kappa_inf F_heavy 1.0 F_total 1.0 U3 heavy 0.6943 drop 0.0 T0 drop 0.0 T2rel 0.0 mult [1.0, 1.0, 1.0]
+lab F_heavy 1.0218 F_total 1.0079 U3 heavy 0.6561 drop 0.055 T0 drop 0.076 T2rel -0.002 mult [0.254, 0.449, 0.63]
+lab_Npre1e7 F_heavy 1.0064 F_total 1.0023 U3 heavy 0.6707 drop 0.034 T0 drop 0.057 T2rel -0.001 mult [0.31, 0.54, 0.713]
+lab_lag F_heavy 0.9557 F_total 0.9839 U3 heavy 0.6561 drop 0.055 T0 drop 0.076 T2rel 0.048 mult [0.254, 0.449, 0.63]
+hist F_heavy 3.8111 F_total 2.0192 U3 heavy 0.1333 drop 0.808 T0 drop 0.872 T2rel -1.0 mult [0.0, 0.0, 0.007]
+hist_Npre1e7 F_heavy 2.5563 F_total 1.5643 U3 heavy 0.3517 drop 0.493 T0 drop 0.681 T2rel -1.0 mult [0.0, 0.012, 0.232]
+hist_lag F_heavy 3.8111 F_total 2.0192 U3 heavy 0.1333 drop 0.808 T0 drop 0.872 T2rel -1.0 mult [0.0, 0.0, 0.007]
+hist_alt F_heavy 4.3942 F_total 2.2306 U3 heavy 0.0202 drop 0.971 T0 drop 0.987 T2rel -1.0 mult [0.0, 0.0, 0.001]
+lab_x0.1 F_heavy 1.8204 F_total 1.2975 U3 heavy 0.4741 drop 0.317 T0 drop 0.409 T2rel -0.105 mult [0.002, 0.022, 0.089]
+sweep 1.00e-05 4.4921 1.0 1.0
+sweep 1.58e-05 4.4921 1.0 1.0
+sweep 2.51e-05 4.4921 1.0 1.0
+sweep 3.98e-05 4.4921 1.0 1.0
+sweep 6.31e-05 4.4921 1.0 1.0
+sweep 1.00e-04 4.4671 0.992 0.998
+sweep 1.58e-04 4.3141 0.947 0.977
+sweep 2.51e-04 3.9854 0.852 0.917
+sweep 3.98e-04 3.4724 0.713 0.81
+sweep 6.31e-04 2.887 0.563 0.67
+sweep 1.00e-03 2.2982 0.425 0.528
+sweep 1.58e-03 1.7821 0.309 0.398
+sweep 2.51e-03 1.4209 0.22 0.293
+sweep 3.98e-03 1.2196 0.155 0.211
+sweep 6.31e-03 1.1097 0.109 0.15
+sweep 1.00e-02 1.0463 0.076 0.105
+sweep 1.58e-02 1.0193 0.053 0.074
+sweep 2.51e-02 1.0067 0.036 0.051
+sweep 3.98e-02 1.0024 0.025 0.035
+sweep 6.31e-02 1.0009 0.017 0.024
+sweep 1.00e-01 1.0011 0.013 0.017
+sweep 1.58e-01 1.0005 0.008 0.012
+sweep 2.51e-01 1.0003 0.006 0.008
+sweep 3.98e-01 1.0002 0.004 0.005
+sweep 6.31e-01 0.9997 0.003 0.003
+sweep 1.00e+00 0.9998 0.002 0.002
+H120a confirmatory True [0.0012640710958485857, 0.007402163776085085, 0.014455483525381632]
+H120b confirmatory True 0.8080299593100716
+H120c prediction True 0.4491031121377067
+H120d prediction True 0.07574415234941001
+H120e prediction True 1.0217876865381335
+runtime 51.8

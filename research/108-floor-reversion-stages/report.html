@@ -1,0 +1,123 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究108：損失が床への戻りなら、重い崩壊で段はどれだけ残るか（open_problems 160） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="108open_problems-160">研究108：損失が床への戻りなら、重い崩壊で段はどれだけ残るか（open_problems 160）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・F_total・段の割合・T2 到達は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第108回、JST 5時台）。sim.py（seed 20261108、約52秒、2 回実行で stdout は runtime 以外一致）、results.json、stdout.txt、fig_floor_reversion.png、PREREGISTRATION.md（05:44 JST、Tasmania・世代の資料を開く前・sim.py の前）、sources/（wikitext 3 本、SHA256SUMS.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>038〜107 の段の模型は、生き残りの群の人数 n が段の閾値 N_k（N_Fe・N_lens・N_T2e）を下回ると段を<strong>即座に</strong>失う二値。059 で伝達の損失は一定でなく床からの差に比例（a≈0.37〜0.39／世代）と分かった。技能を連続にし、群が育って閾値に戻るまでに技能が要求を割るかで段の喪失を決め直すと、重い崩壊（st 4〜6）の割合・T0 再出発・F_heavy はどれだけ動くか。</p>
+<h2 id="_2">模型（【独自仮説】の形）</h2>
+<ul>
+<li>dz/dt = κ(ln N(t) − z)。z は技能を ln N の単位で測る（Henrich の釣り合い z*=ln N の形、段の要求 z_k = ln N_k）。N(t) = n·e^{rt}（r は 038 の r_pop）、z(0) = ln N_pre（主は世界人口 8.232e9）。</li>
+<li>解析解：z の最小値 z_min = ln n + (r/κ)·ln(κA/r)、A = ln N_pre − ln n + r/κ（κA/r ≤ 1 なら減らない）。z_min ≥ ln N_k なら段 k を保つ。実効の閾値の倍率は exp(−(r/κ)ln(κA/r))。</li>
+<li>κ→∞ で 038 の二値の割り当てに一致（F_heavy の差 0、T2 の差 0 を assert）。動かしたのは 038 の割り当てと一致する重い崩壊の標本だけで、該当の全標本（BIO・CASC・AS・U3）が一致した。</li>
+</ul>
+<h2 id="sources">資料（本回取得、sources/ に保存）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Aboriginal_Tasmanians">Wikipedia: Aboriginal Tasmanians</a>）】約 6000 BCE の海面上昇で本土から切り離され約 8,000 年孤立（Cosgrove 1995）。同じ頁の別の節は水没を 14,000〜12,000 BCE とする（Hamacher 2023）。約 4,000 年前に魚を食べなくなり骨角器から石器へ移った。その意味は「強く争われ」、草地の拡大による経済の変化とする説もある（Manne 2003）。接触前の人口の推計は 3,000〜15,000（Madley 2008）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Generation">Wikipedia: Generation</a>）】世代は「generally considered to be about 20–30 years」。</li>
+<li>【事実（059 の sources、Muthukrishna 2014 実験2）】床への戻りの率 a = 0.39（1手本）、0.37（5手本）／世代。</li>
+</ul>
+<h2 id="_3">κ の置き方</h2>
+<ul>
+<li>κ_lab = a/Tg、a ~ U(0.37, 0.39)、Tg ~ U(20, 30)：中央値 0.0152／年（5〜95% 0.0129〜0.0185）。【推測】実験室の数分の「世代」を人の世代に読み替えている。</li>
+<li>κ_hist：人口一定の群で z(t) = ln n + (z0 − ln n)e^{−κt}、喪失は z = ln N_k → κ = ln R / T_loss。T_loss = 孤立 8,000 − 喪失 4,000 ≈ 3,500〜4,500 年、R = (z0−ln n)/(ln N_k−ln n) は資料がなく U(ln 1.1, ln 10)【推測】。中央値 0.00030／年（a_hist は 1 世代あたり 0.0074、5〜95% 0.0013〜0.0145）。別の版は T_loss 10,000〜12,000 年。</li>
+<li>a_hist を 0.05 にするには R ≈ 3,000 が要り（T 4,000・Tg 25）、R の置き方では届かない【計算】。κ_lab は κ_hist の約 51 倍。</li>
+</ul>
+<h2 id="a_ordu3">結果（A_Ord/U3）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>F_heavy</th>
+<th>F_total</th>
+<th>U3 の重い崩壊の割合（二値 0.694）</th>
+<th>T0 再出発（二値 0.604）</th>
+<th>実効の閾値の倍率 中央値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>κ_lab</td>
+<td><strong>1.022</strong></td>
+<td>1.008</td>
+<td>0.656（−5.5%）</td>
+<td>0.558（−7.6%）</td>
+<td>0.45（0.25〜0.63）</td>
+</tr>
+<tr>
+<td>κ_lab、N_pre 1e7</td>
+<td>1.006</td>
+<td>1.002</td>
+<td>0.671</td>
+<td>—</td>
+<td>0.54</td>
+</tr>
+<tr>
+<td>κ_lab、取り戻しに 1/κ の遅れ</td>
+<td>0.956</td>
+<td>0.984</td>
+<td>0.656</td>
+<td>0.558</td>
+<td>0.45</td>
+</tr>
+<tr>
+<td>κ_lab × 0.1</td>
+<td>1.820</td>
+<td>1.298</td>
+<td>0.474（−32%）</td>
+<td>0.357</td>
+<td>0.022</td>
+</tr>
+<tr>
+<td>κ_hist（Tasmania 4,000 年）</td>
+<td><strong>3.81</strong></td>
+<td>2.02</td>
+<td><strong>0.133（−81%）</strong></td>
+<td>0.077（−87%）</td>
+<td>≈0</td>
+</tr>
+<tr>
+<td>κ_hist、N_pre 1e7</td>
+<td>2.56</td>
+<td>1.56</td>
+<td>0.352（−49%）</td>
+<td>0.192</td>
+<td>0.012</td>
+</tr>
+<tr>
+<td>κ_hist、10,000〜12,000 年</td>
+<td>4.39</td>
+<td>2.23</td>
+<td>0.020（−97%）</td>
+<td>0.008</td>
+<td>≈0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>走査（κ を一定値、fig 左）：F_heavy が 1.1 を越えるのは κ ≤ 0.0063／年、重い崩壊の割合が 3 割以上減るのは κ ≤ 0.0016／年（a にして Tg 25 で 0.16、0.04／世代）。κ_lab はこの分かれ目の 2.4〜10 倍上、κ_hist は 5〜20 倍下にあり、<strong>二つの根拠が分かれ目をはさむ</strong>【計算】。</li>
+<li>A_XPT_S/U2 の F_heavy は κ_lab 1.048、κ_hist 1.338。</li>
+<li>κ_lab では重い崩壊の T2 到達の中央値は 1,311→1,309 年でほぼ不変。取り戻しの遅れを足すと 1,374 年に延び F_heavy は 1 を割る（二値の模型は取り戻しを楽観している側）。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ol>
+<li>κ_hist は 1 件の島の、原因の争われている変化から出した。骨角器の消失が経済の選択なら、技能の喪失の速さの証拠にならない【推測】。R も資料がない。</li>
+<li>技能だけが残っても、製鉄・ガラス・工作機械の段は炉・燃料・道具などの資本と分業の網に依存する。z は技能しか表さず、κ_hist の版は資本の喪失を無視した上限の側【推測】。</li>
+<li>実験室の a は数分の課題の 10 世代で、産業の技能の世代あたりの落ち方を測っていない。κ_lab も外挿。</li>
+<li>全段で同じ κ、要求を ln N_k に揃える形は 058・059 の Henrich の形の延長で、段ごとに違う κ は扱っていない。</li>
+<li>以上から、本回の結論は「二値の模型を使い続けてよいかは κ が 0.002〜0.006／年の分かれ目のどちら側かで決まり、手持ちの 2 つの根拠はどちらも弱く逆側にある」に留まる。</li>
+</ol>
+<h2 id="_5">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H120a（確認的）<strong>支持</strong>：a_hist 中央値 0.0074 &lt; 0.05（上端の R=10・T 3,500・Tg 30 でも 0.020）。ただし原因の争いがあるため「技能の喪失の速さ」と読むこと自体が【推測】。</li>
+<li>H120b（確認的）<strong>支持</strong>：κ_hist で U3 の重い崩壊の割合が 81% 減る（≥30%）。</li>
+<li>H120c（予測）支持：実効の閾値の倍率の中央値 0.45（0.2〜0.7）。</li>
+<li>H120d（予測）支持：κ_lab の T0 再出発の相対の減り 7.6%（&lt;20%）。</li>
+<li>H120e（予測）支持：κ_lab の F_heavy 1.022（0.9〜1.1）。</li>
+<li>逸脱：世代の幅を登録の 25〜30 年から資料の 20〜30 年に広げた。κ_lab×0.1・走査・Tasmania の別の水没年の版は登録で名指ししていない。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>本研究所：重い崩壊の価値の計算（038〜107）は二値の段の喪失に乗っており、κ が 0.002／年より遅ければ重い崩壊の大半が消える。次は産業・工芸の技能が人口の崩落の後に何年で失われたかの歴史の事例（ローマ後のブリテンの轆轤の土器・貨幣、ギリシアの暗黒時代の線文字B など）で κ を絞る（open_problems 260）。資本と技能の分離（261）も要る。</li>
+<li>知識の束を作る人：κ が遅い世界では、段を一から作り直す手引きより「落ちた品質の段を元に戻す」手引きの価値が上がる（模型の中の推測、まだ計算していない）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
