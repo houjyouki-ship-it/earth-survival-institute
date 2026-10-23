@@ -1,0 +1,309 @@
+{
+ "study": "104-ruin-glass-thresholds",
+ "seed": 20261104,
+ "check_T2s_mod_eq_B": 0.0,
+ "inputs": {
+  "lens_stock_q": [
+   200.0916222266907,
+   7397.382562663497,
+   279712.77775946725
+  ],
+  "share_stock_ge_need": 0.99913,
+  "L_tool_bulk_q": [
+   551.3600229599666,
+   1878.437054786276,
+   21467.754720794204
+  ],
+  "L_tool_prec_q": [
+   1.9743869183089955,
+   19.693768481123342,
+   411.47899498949783
+  ],
+  "share_glass_enough": 0.963995
+ },
+ "diag_binding": {
+  "BIO": {
+   "n": 19560,
+   "share_wait_T2e_binds_t2": 0.8079754601226994,
+   "share_wait_lens_binds_t1": 0.679038854805726,
+   "median_wait_T2e": 1186.8441378795283,
+   "median_t1_plus_d12": 694.0422946829397
+  },
+  "CASC": {
+   "n": 43641,
+   "share_wait_T2e_binds_t2": 0.7523200659929883,
+   "share_wait_lens_binds_t1": 0.2193350289865035,
+   "median_wait_T2e": 236.62789354568307,
+   "median_t1_plus_d12": 43.46235262283818
+  },
+  "AS": {
+   "n": 1994,
+   "share_wait_T2e_binds_t2": 0.6835506519558676,
+   "share_wait_lens_binds_t1": 0.08174523570712136,
+   "median_wait_T2e": 91.94236372371772,
+   "median_t1_plus_d12": 33.80157633829583
+  },
+  "U3": {
+   "n": 138855,
+   "share_wait_T2e_binds_t2": 0.8147852075906521,
+   "share_wait_lens_binds_t1": 0.8031471679089698,
+   "median_wait_T2e": 1957.31173926033,
+   "median_t1_plus_d12": 1447.3236406433055
+  }
+ },
+ "runs": {
+  "lens_upper_to_NFe": {
+   "A_Ord/U3": {
+    "F_total": 1.0021885460029505,
+    "F_heavy": 1.0060361937476254
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0006414918394033,
+    "F_heavy": 1.004511240228559
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1304.6265743860245,
+    "T2_median_rel_change": -0.005024921800934612,
+    "share_saving_gt_10pct": 0.022827738299436413
+   }
+  },
+  "lens_m0.3_inf": {
+   "A_Ord/U3": {
+    "F_total": 1.0021885460029505,
+    "F_heavy": 1.0060361937476254
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0006414918394033,
+    "F_heavy": 1.004511240228559
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1304.6287903347602,
+    "T2_median_rel_change": -0.005023231804877515,
+    "share_saving_gt_10pct": 0.02280813526096545
+   }
+  },
+  "lens_main": {
+   "A_Ord/U3": {
+    "F_total": 1.0018249836531021,
+    "F_heavy": 1.0050334582419207
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0006398125285099,
+    "F_heavy": 1.0044994306085548
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1306.5340257475846,
+    "T2_median_rel_change": -0.003570201649674143,
+    "share_saving_gt_10pct": 0.021622151433472188
+   }
+  },
+  "lens_plastic_only": {
+   "A_Ord/U3": {
+    "F_total": 1.0006123241833969,
+    "F_heavy": 1.001688841542448
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0004858015203972,
+    "F_heavy": 1.0034163604699167
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1311.04080637849,
+    "T2_median_rel_change": -0.00013309980099263097,
+    "share_saving_gt_10pct": 0.018000490075961773
+   }
+  },
+  "t2_m0.3_inf": {
+   "A_Ord/U3": {
+    "F_total": 1.116520638515769,
+    "F_heavy": 1.3213737105502723
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0287084123964538,
+    "F_heavy": 1.2018896218873252
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1045.467122332671,
+    "T2_median_rel_change": -0.20267319996372124,
+    "share_saving_gt_10pct": 0.6557559421710365
+   }
+  },
+  "both_m0.3_inf": {
+   "A_Ord/U3": {
+    "F_total": 1.165195717086878,
+    "F_heavy": 1.455623666703802
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.036489231803481,
+    "F_heavy": 1.256607614173528
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 932.1259854480008,
+    "T2_median_rel_change": -0.28911295885646604,
+    "share_saving_gt_10pct": 0.8731242342563097
+   }
+  },
+  "both_m0.3_life_bulk": {
+   "A_Ord/U3": {
+    "F_total": 1.153284114045658,
+    "F_heavy": 1.4227704647584603
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0363634991785864,
+    "F_heavy": 1.255723409510855
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1013.2794470434192,
+    "T2_median_rel_change": -0.22722117052230129,
+    "share_saving_gt_10pct": 0.6009899534427836
+   }
+  },
+  "both_m0.3_life_prec": {
+   "A_Ord/U3": {
+    "F_total": 1.0399556822718097,
+    "F_heavy": 1.1102011285968145
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0224734805109306,
+    "F_heavy": 1.1580429603764635
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1306.1074950466389,
+    "T2_median_rel_change": -0.003895495818794892,
+    "share_saving_gt_10pct": 0.2339867679490321
+   }
+  },
+  "both_main_life_bulk": {
+   "A_Ord/U3": {
+    "F_total": 1.1372469897750175,
+    "F_heavy": 1.3785387286552109
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0295789237148436,
+    "F_heavy": 1.2080114233471684
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1050.2998414656568,
+    "T2_median_rel_change": -0.19898752071138825,
+    "share_saving_gt_10pct": 0.5243861798578779
+   }
+  },
+  "both_main_life_prec": {
+   "A_Ord/U3": {
+    "F_total": 1.0422245484248596,
+    "F_heavy": 1.116458852066541
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0201842247685595,
+    "F_heavy": 1.1419439518402836
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1303.416979976158,
+    "T2_median_rel_change": -0.0059474204807674624,
+    "share_saving_gt_10pct": 0.21253614310218083
+   }
+  },
+  "both_m0.1_inf": {
+   "A_Ord/U3": {
+    "F_total": 1.3185664052673758,
+    "F_heavy": 1.8786329101997081
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0405276785096123,
+    "F_heavy": 1.2850076687378036
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 612.873931657838,
+    "T2_median_rel_change": -0.5325909344101749,
+    "share_saving_gt_10pct": 0.9488507718696398
+   }
+  },
+  "both_m0.1_life_bulk": {
+   "A_Ord/U3": {
+    "F_total": 1.3030041113345736,
+    "F_heavy": 1.8357107960612595
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.0404703453025261,
+    "F_heavy": 1.284604477528885
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 624.1479574071143,
+    "T2_median_rel_change": -0.5239927846623949,
+    "share_saving_gt_10pct": 0.6689585885812301
+   }
+  },
+  "t2_m0.3_life_bulk": {
+   "A_Ord/U3": {
+    "F_total": 1.1107512246716553,
+    "F_heavy": 1.3054611824488067
+   },
+   "A_XPT_S/U2": {
+    "F_total": 1.028624059083628,
+    "F_heavy": 1.2012964139385134
+   },
+   "heavy_st4to6": {
+    "T2_median_base": 1311.2153288778222,
+    "T2_median_new": 1098.6468392353445,
+    "T2_median_rel_change": -0.16211562278211034,
+    "share_saving_gt_10pct": 0.49684391080617496
+   }
+  }
+ },
+ "hypotheses": {
+  "H116a": {
+   "class": "confirmatory",
+   "value": null,
+   "rule": "adult corrective-lens use >= 50% in a high-income country (public source)",
+   "supported": null,
+   "note": "開いた資料に使う割合の数値なし（検定できず）。要る割合（老視 25%、都市 25〜80%、近視 欧米 30〜40%）は得た"
+  },
+  "H116b": {
+   "class": "confirmatory",
+   "value": "qualitative",
+   "rule": "glass < 30% of spectacle lenses",
+   "supported": true,
+   "note": "数値なし。Corrective lens：'Plastic lenses are currently the most commonly prescribed lens' と 'Glass lenses have become less common'。記述での支持（弱い）"
+  },
+  "H116c": {
+   "class": "prediction",
+   "value": {
+    "F_heavy": 1.0060361937476254,
+    "T2_med_change": -0.005024921800934612
+   },
+   "rule": "lens path upper: F_heavy-1 < 0.05 and |T2 median change| < 0.10",
+   "supported": true
+  },
+  "H116d": {
+   "class": "prediction",
+   "value": {
+    "F_heavy_both": 1.455623666703802,
+    "F_heavy_t2only": 1.3213737105502723,
+    "share_from_T2e": 0.7053490282347322
+   },
+   "rule": "both m=0.3 inf: F_heavy-1 > 0.10 and >=80% of gain from N_T2e",
+   "supported": false
+  },
+  "H116e": {
+   "class": "prediction",
+   "value": {
+    "ratio_bulk": 0.9278939959747537,
+    "ratio_prec": 0.24186875408396102
+   },
+   "rule": "with lifetimes (bulk steel) the gain < 50% of infinite-life gain",
+   "supported": false
+  }
+ },
+ "runtime_s": 32.3
+}

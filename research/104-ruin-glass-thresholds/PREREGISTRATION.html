@@ -1,0 +1,25 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究104 事前登録（2026-10-23 21:41 JST、眼鏡・ガラス・工作機械の資料を開く前、sim.py の前。038/057 の段の待ちの内訳もまだ計算していない） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="104-2026-10-23-2141-jstsimpy-038057">研究104 事前登録（2026-10-23 21:41 JST、眼鏡・ガラス・工作機械の資料を開く前、sim.py の前。038/057 の段の待ちの内訳もまだ計算していない）</h1>
+<blockquote>
+<p>注：本研究の価値・TC・V/V0 などの指標は模型の中の量で、生存確率でも文明の復興確率でもない。提言は模型の中での順位（外部の検証はまだ）。</p>
+</blockquote>
+<h2 id="open_problems-250">問い（open_problems 250）</h2>
+<p>重い崩壊で廃墟に残る品（眼鏡のレンズ・ガラス・工作機械や道具）が、段の人口の閾値そのもの（N_lens、N_T2e）を下げると、T2 到達と重み付きの価値はどれだけ動くか。103 は製鉄の年数を 0 にしただけで閾値は変えなかった。</p>
+<h2 id="_1">模型（登録）</h2>
+<ul>
+<li>057 の T2 到達の式 t1=max(tFe+d01e, wait(N_lens))、t2=max(t1+d12, wait(N_T2e)) を使う。</li>
+<li>廃墟の品は閾値に倍率 m（&lt;1）を掛ける。ただし品が使える寿命 L の内に下がった閾値に届く場合に限る：wait_new = wait(m·N) if wait(m·N) ≤ L else wait(N)。</li>
+<li>レンズの経路（R_lens）：N_lens だけに m_lens を掛ける（下限は N_Fe）。寿命はガラスのレンズの割合 g で、ガラスは L_glass、樹脂は L_plastic。数は群の届く範囲（073 の 145 km）の眼鏡の数で、必要な数を超えるかで判定。</li>
+<li>道具の経路（R_tool）：N_T2e にも m_tool を掛ける。寿命は 103 の鋼の腐食の寿命（覆いの下・外）。</li>
+<li>m の値は【推測】（logU で 0.1〜1）。057 で thr 0.3・0.1 が効いたのは全閾値に掛けた場合。</li>
+</ul>
+<h2 id="_2">確認的な仮説（資料を開く前）</h2>
+<ul>
+<li>H116a：高所得国の成人で矯正の眼鏡・レンズを使う割合は公開資料で 50% 以上。</li>
+<li>H116b：今の眼鏡のレンズの大半は樹脂で、ガラスの割合は 30% 未満（公開資料に数値か明示の記述があれば）。</li>
+</ul>
+<h2 id="_3">入力判明後の予測</h2>
+<ul>
+<li>H116c：レンズの経路だけ（N_lens を N_Fe まで下げる上限でも）では、重い崩壊の T00〜T0 の T2 到達の中央値の短縮は 10% 未満、F_heavy（A_Ord/U3）−1 &lt; 0.05。理由：t2 は wait(N_T2e) で縛られる（N_T2e ≥ N_lens）。</li>
+<li>H116d：道具の経路で N_T2e も m=0.3 で下げる（寿命無限）と F_heavy −1 &gt; 0.10 で、その増分の 80% 以上が N_T2e を下げた分から来る。</li>
+<li>H116e：寿命（樹脂・鋼の腐食）を入れると、H116d の増分は寿命無限の 50% 未満に縮む（待ちが数百〜数千年のため）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

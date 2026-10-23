@@ -1,0 +1,150 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究104：廃墟のガラス・レンズ・工作機械は段の人口の閾値を下げるか（open_problems 250） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="104open_problems-250">研究104：廃墟のガラス・レンズ・工作機械は段の人口の閾値を下げるか（open_problems 250）</h1>
+<blockquote>
+<p>注：本報告の価値・F・V/V0 などの指標は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。「誰が何を変えるべきか」は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>103 で、廃墟の鉄で製鉄の段を飛ばしても T2 到達はほぼ動かず、t1 を決めるのはガラス・レンズの人口の待ちだった。では廃墟の品が閾値そのもの（N_lens、N_T2e）を下げたら効くか。</p>
+<h2 id="sourcessha256sums">確認した事実（本回取得、<code>sources/</code>、SHA256SUMS）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Corrective_lens">Corrective lens</a>）】"Plastic lenses are currently the most commonly prescribed lens"、"Glass lenses have become less common owing to the danger of shattering and their relatively high weight"。ガラスの割合の数値はない。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Presbyopia">Presbyopia</a>）】老視は 2015 年に世界の 24.9%（18億人）、都市で 25〜80%、農村で 25〜67%。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Near-sightedness">Near-sightedness</a>）】近視の有病率は欧米 30〜40%、一部のアジアで 70〜90%。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Glass">Glass</a>、<a href="https://en.wikipedia.org/wiki/Glass_disease">Glass disease</a>）】ガラスは通常化学的に強いが、アルカリの多い組成は腐食し、不安定なガラスは製造から 5〜10 年で劣化が出ることもある（V&amp;A の 1992 年の調査で収蔵品の 1 割超に crizzling）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Roman_glass">Roman glass</a>）】ローマのガラスは今も多数残り、表面の変質（風化の層）が研究されている。</li>
+<li>眼鏡を<strong>使う</strong>人の割合の数値は、開いた資料（Glasses、Refractive error、AAO の統計頁を含む）に見つからなかった。</li>
+</ul>
+<h2 id="simpyseed-2026110433">方法（<code>sim.py</code>、seed 20261104、約33秒）</h2>
+<ul>
+<li>事前登録 <code>PREREGISTRATION.md</code>（21:41 JST、資料を開く前、sim.py の前）。</li>
+<li>057 の sim.py を exec して 054 の T2 到達（差0）と V_m（差0）を assert、改造した T2 関数が改造なしで 057 と差 0 になることも assert。</li>
+<li>廃墟の品は閾値に倍率 m を掛け、品の寿命 L の内に下がった閾値に届く標本でだけ効く。レンズ：届く範囲（145 km）の数＝元の密度×面積×要る割合（老視の帯）×見つけて使える割合（1e-4〜0.1【推測】）。必要数 1〜100【推測】、ガラスが足りればガラスの寿命 500〜5,000 年【推測】、足りなければ樹脂 30〜300 年【推測】。工作機械：103 の ISO 9223/9224 の式で、20 mm の部材の寿命（bulk）と、0.1 mm の腐食で精度を失う面（prec）【推測】の 2 版。</li>
+<li>2 回実行し stdout は runtime 以外一致。</li>
+</ul>
+<h2 id="a_ordu3-f_heavyt2-t1t00">結果（A_Ord/U3 の重い崩壊の部分の価値の比 F_heavy、T2 は重い崩壊の T1−〜T00 の中央値）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>F_heavy</th>
+<th>F_total</th>
+<th>T2 中央値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>レンズだけ、N_lens→N_Fe（上限）</td>
+<td><strong>1.006</strong></td>
+<td>1.002</td>
+<td>1,311→1,305（−0.5%）</td>
+</tr>
+<tr>
+<td>レンズだけ、主（寿命・数つき）</td>
+<td>1.005</td>
+<td>1.002</td>
+<td>−0.4%</td>
+</tr>
+<tr>
+<td>N_T2e だけ m=0.3、寿命無限</td>
+<td>1.321</td>
+<td>1.117</td>
+<td>−20%</td>
+</tr>
+<tr>
+<td>両方 m=0.3、寿命無限</td>
+<td><strong>1.456</strong></td>
+<td>1.165</td>
+<td>−29%</td>
+</tr>
+<tr>
+<td>両方 m=0.3、鋼の bulk の寿命</td>
+<td>1.423</td>
+<td>1.153</td>
+<td>−23%</td>
+</tr>
+<tr>
+<td>両方 m=0.3、精度の面の寿命</td>
+<td><strong>1.110</strong></td>
+<td>1.040</td>
+<td>−0.4%</td>
+</tr>
+<tr>
+<td>両方 m 主（logU 0.1〜1）、bulk</td>
+<td>1.379</td>
+<td>1.137</td>
+<td>−20%</td>
+</tr>
+<tr>
+<td>両方 m 主、精度</td>
+<td>1.117</td>
+<td>1.042</td>
+<td>−0.6%</td>
+</tr>
+<tr>
+<td>両方 m=0.1、bulk</td>
+<td>1.836</td>
+<td>1.303</td>
+<td>−52%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>入力：届く範囲の使えるレンズの数の中央値 7,400（5〜95% 200〜28万）、必要数を満たす割合 0.999、ガラスで足りる割合 0.96。鋼の部材の寿命の中央値 1,880 年、精度の面 20 年。</li>
+<li>縛りの診断：重い崩壊の T1− 以下の標本で、t2 を wait(N_T2e) が縛る割合は U3 0.81、BIO 0.81、CASC 0.75、AS 0.68。U3 の wait(N_T2e) の中央値 1,957 年。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>分類</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H116a 高所得国の成人の眼鏡の使用 ≥ 50%</td>
+<td>確認的</td>
+<td>使う割合の数値が資料になし</td>
+<td><strong>検定できず</strong></td>
+</tr>
+<tr>
+<td>H116b ガラスのレンズ &lt; 30%</td>
+<td>確認的</td>
+<td>「樹脂が最も多い」「ガラスは減った」の記述のみ</td>
+<td><strong>支持（弱い、数値なし）</strong></td>
+</tr>
+<tr>
+<td>H116c レンズだけでは F_heavy−1 &lt; 0.05、T2 の短縮 &lt; 10%</td>
+<td>予測</td>
+<td>1.006、−0.5%</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H116d 両方 m=0.3 で F_heavy−1 &gt; 0.10、その 80% 以上が N_T2e から</td>
+<td>予測</td>
+<td>1.456、N_T2e だけで 0.71</td>
+<td><strong>棄却</strong>（増分は大きいが、N_T2e を下げると N_lens が新たに縛りになり、レンズの分が 3 割出る）</td>
+</tr>
+<tr>
+<td>H116e 寿命を入れると増分は寿命無限の 50% 未満</td>
+<td>予測</td>
+<td>bulk 0.93、精度の面 0.24</td>
+<td><strong>棄却</strong>（登録の bulk の版で。精度の面の版なら成立）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">批判的検討</h2>
+<ul>
+<li><strong>一番大きい未知は m（廃墟の品が閾値を何分の一にするか）で、本回は資料なしの置き値</strong>。結果は「m が 0.3 なら 1.4 倍、0.1 なら 1.8 倍」という条件つきの写像にすぎない。057 で全閾値に thr を掛けたときの効き（0.3 で 1.29、0.1 で 1.55 の F_total）と同じ向きで、新しいのは<strong>効くのは N_T2e で、レンズだけでは 0</strong> と、<strong>品の寿命が鋼の塊でなく精度の面で決まるなら効きの 3/4 が消える</strong>の 2 点。</li>
+<li>精度の面の寿命（0.1 mm、中央値 20 年）は【推測】。覆いの下・油の膜があればもっと長く、また精度は既存の機械から削り直せる（Machine tool の頁の Maudslay・Whitworth の定盤の話は、平面の基準が手作業の擦り合わせで作れたことを示す）。精度の面が失われても「平面の基準を作る手順」を手引きに入れれば寿命は bulk に近づく、という【独自仮説】は未検証。</li>
+<li>ガラスの寿命 500〜5,000 年は Roman glass の残存と、アルカリの多いガラスの劣化の間の【推測】。レンズの経路は効かないので結論に影響しない。</li>
+<li>届く範囲の数は 103 と同じ人口密度の幅（10〜300 人/km²）。重い崩壊の生き残りが廃墟から遠い場合は効きが下がる（未計算）。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>知識の束を作る人：廃墟のレンズの使い方より、<strong>廃墟の工作機械・精密部品を少ない人数で使い続ける方法</strong>（防錆、精度の基準の作り直し）に字数を割く。レンズの段だけを近道しても T2 は動かない。</li>
+<li>本研究所：m を外部の根拠で絞る（252）。</li>
+</ul>
+<h2 id="_5">成果物</h2>
+<p>sim.py、results.json、stdout.txt、fig_ruin_glass.png、PREREGISTRATION.md、sources/（SHA256SUMS）。</p><footer><hr><small>自動生成</small></footer></body></html>
