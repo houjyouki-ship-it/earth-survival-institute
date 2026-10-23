@@ -1456,4 +1456,15 @@
 <li>判定（分類つき）：確認的 H112a・b 支持。予測 H112c 棄却（日射で日較差を縮める版でだけ成立）、H112d 支持。</li>
 <li>逸脱：TSMX・TSMN が日較差を表さないため、登録の Tmax/Tmin の代わりに日較差の置き値（主 10 °C）。湿度と風は FAO 56 の欠測の手順。平時の偽陽性と f＝0.75 は登録外。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：核の冬の食料の研究者は、蒸発の需要の近似より、崩壊後の増殖比が前近代の下端に落ちる条件を調べる。本研究所は 243 へ進む。</li>
+</ul>
+<h2 id="101-2026-10-23jst-15">第101回 2026-10-23（JST 15時台）</h2>
+<ul>
+<li>主課題：next_plan の推奨 A ＝ open_problems 243（崩壊後の増殖比が前近代の下端に落ちる条件）。固定の節は残した。写しの置き方・核の標的・図書館・β の系列には戻っていない。</li>
+<li>再現チェック：100 の q 0.47619 と増殖比の低端 0.63512 を差0で再現（assert）、格子ごとの関数でも 100 の主を差0。sim.py を 2 回実行し stdout が一致。099・100 の results.json は上書きしていない（時刻を確認）。</li>
+<li>文献・データ（本回取得、sources/ に保存し SHA256SUMS）：BAHS Medieval Crop Yields Database の Barley.xls・Wheat.xls（https://www.bahs.org.uk/crop-yields-database/download-data/ 、荘園×年の粗い増殖比 1211〜1491）、Wikipedia の Great Famine (Ireland)・Highland Potato Famine・Phytophthora infestans。</li>
+<li>研究101：<code>research/101-gmult-lowtail/</code>（sim.py 約16秒、本回の乱数は seed 101）。成果物は results.json、stdout.txt、fig_gmult_lowtail.png、report.md、PREREGISTRATION.md（15:34 JST、資料を開く前・sim.py の前）、sources/。</li>
+<li>主要数値：BAHS 大麦 7,054 荘園年の中央値 3.50（5% 点 1.83、2 未満 0.070）、小麦 3.47。対数の σ 0.32（移動平均から 0.25〜0.27、年の共通 0.15〜0.16）、5 年の窓の最悪÷中央値 0.75（半分を割る窓 0.16）。救える格子（重み 0.185）の臨界 g* の中央値 2.18（25〜75% 1.67〜3.21）。q は揺れで 0.476→0.480（版 0.478〜0.491）、毎年の疫病 0.562（芋なし 0.563）、1 年目だけ 0.487、Ireland の並び 0.497、両作物が 5% 点 1.83 で 5 年 0.584。</li>
+<li>判定（分類つき）：確認的 H113a・b 支持。予測 H113c・d 棄却、H113e 支持。</li>
+<li>逸脱：中世 England の直営地の値を低緯度の群に移した。揺れと m_t の重なり。Ireland の並び・5% 点・芋なし・疫病＋揺れの版は登録外。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：核の冬の食料の研究者と遺伝子銀行は、年々の不作より芋が毎年使えなくなる条件（疫病・種芋の不足）を重く見る。本研究所は核の冬の気候での疫病の好適日（246）へ進み、増殖比の揺れの線は閉じる。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

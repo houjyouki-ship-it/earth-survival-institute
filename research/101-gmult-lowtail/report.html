@@ -1,0 +1,132 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究101：崩壊後の増殖比が前近代の下端に落ちる条件（open_problems 243） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="101open_problems-243">研究101：崩壊後の増殖比が前近代の下端に落ちる条件（open_problems 243）</h1>
+<p><strong>注：V/V0 や q は模型の中の割合で、生存確率でも復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</strong></p>
+<h2 id="_1">問い</h2>
+<p>100 で q（群が主食を失う割合、150 Tg）は増殖比 g＝収量÷種 4〜39 ではほぼ動かず（0.462〜0.476）、下端（麦 2.5・芋 1.25）で 0.635 に跳んだ。(1) 格子ごとの臨界の g を出し、(2) 前近代の荘園の年ごとの増殖比から年々の揺れを取り、(3) ジャガイモの疫病の年の損を入れて、下端に落ちる条件を確かめる。事前登録は PREREGISTRATION.md（15:34 JST、資料を開く前・sim.py の前）。</p>
+<h2 id="sources-sha256sums">資料（本回取得、sources/ と SHA256SUMS）</h2>
+<ul>
+<li>【事実（BAHS Medieval Crop Yields Database、Campbell。Titow・Farmer の Winchester の計算を含む）】荘園×年の粗い増殖比の表（Barley.xls・Wheat.xls、1211〜1491）。https://www.bahs.org.uk/crop-yields-database/download-data/ 、説明 https://www.bahs.org.uk/crop-yields-database/the-data/</li>
+<li>【事実（Wikipedia「Great Famine (Ireland)」）】1845 年の損は作付面積の 1/3〜1/2、1846 年は収穫の 3/4、1847 年は平年の収量だが種芋が足りず植えた量が少ない、1848 年は平年の 2/3。https://en.wikipedia.org/wiki/Great_Famine_(Ireland)</li>
+<li>【事実（Wikipedia「Highland Potato Famine」）】1846 年、小作地域の約 3/4 で芋が不作。https://en.wikipedia.org/wiki/Highland_Potato_Famine</li>
+<li>【事実（Wikipedia「Phytophthora infestans」）】胞子は 10 °C 以上・湿度 75〜80% 超が 2 日以上で広がる。https://en.wikipedia.org/wiki/Phytophthora_infestans</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>100 の計算をそのまま再実行し、q 0.47619・低端 0.63512 を差0で再現（assert）。格子ごとの喪失を返す関数で 100 の主を差0で再現。</li>
+<li>臨界 g*：大麦と芋に共通の g を 1〜200 の対数の格子 600 点で回し、4 作物の切り替えで失う格子が救われる最小の g。</li>
+<li>揺れ：観測 10 年以上の荘園で、荘園の平均からの対数の偏差の標準偏差 σ（版：11 年の移動平均から、年の共通の成分）。g_t＝g·exp(σz−σ²/2)、Monte Carlo 200 回（seed 101）。</li>
+<li>疫病：芋の g を (1−L) 倍。sim.py を 2 回実行し stdout が一致。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BAHS 大麦（116 荘園・7,054 荘園年）中央値 / 5% 点 / 2 未満の割合</td>
+<td>3.50 / 1.83 / 0.070</td>
+</tr>
+<tr>
+<td>BAHS 小麦（131 荘園・8,081 荘園年）</td>
+<td>3.47 / 1.83 / 0.071</td>
+</tr>
+<tr>
+<td>対数の σ：荘園の平均から / 11 年移動平均から / 年の共通の成分</td>
+<td>大麦 0.32 / 0.25 / 0.16、小麦 0.32 / 0.27 / 0.15</td>
+</tr>
+<tr>
+<td>5 年の窓の最悪の年÷荘園の中央値（中央値、半分を割る窓の割合）</td>
+<td>大麦 0.75・0.16、小麦 0.74・0.16</td>
+</tr>
+<tr>
+<td>救える格子（重み 0.185）の臨界 g* の重みつき中央値（25〜75%）</td>
+<td><strong>2.18</strong>（1.67〜3.21）。g 4.01 で 85%、5.48 で 94% が救われる</td>
+</tr>
+<tr>
+<td>解析の境目（m 一定、f=0.5、5 年で S&lt;0.01）</td>
+<td>g·m &lt; 0.796 で喪失（f·g≥1 なら平年で種が保たれる）</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主（100、揺れなし）</td>
+<td>0.476</td>
+</tr>
+<tr>
+<td>揺れ σ 0.32（主）／共通の成分 0.15／作物間の相関 1</td>
+<td><strong>0.480</strong> ／0.478／0.480</td>
+</tr>
+<tr>
+<td>f 0.4・0.6（揺れつき）</td>
+<td>0.491・0.474</td>
+</tr>
+<tr>
+<td>人口の重み（揺れつき）</td>
+<td>0.523</td>
+</tr>
+<tr>
+<td>大麦を BAHS の中央値 3.50</td>
+<td>0.477</td>
+</tr>
+<tr>
+<td>両方 BAHS の 5% 点 1.83 が 5 年続く（登録外）</td>
+<td>0.584</td>
+</tr>
+<tr>
+<td>疫病 L 0.75 が毎年</td>
+<td><strong>0.562</strong></td>
+</tr>
+<tr>
+<td>疫病 1 年目だけ／Ireland 1845〜49 の並び（登録外）</td>
+<td>0.487／0.497</td>
+</tr>
+<tr>
+<td>芋なし（参考）</td>
+<td>0.563</td>
+</tr>
+<tr>
+<td>毎年の疫病＋揺れ（登録外）</td>
+<td>0.570</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>平時の偽陽性（対照の 5 年の窓、揺れつき）0.085（揺れなしと同じ）。</li>
+</ul>
+<h2 id="_4">判定（分類つき）</h2>
+<ul>
+<li>H113a（確認的）<strong>支持</strong>：σ は大麦 0.321・小麦 0.319（移動平均からでも 0.25〜0.27）で 0.2 以上。</li>
+<li>H113b（確認的）<strong>支持</strong>：Ireland 1846 と Highlands 1846 の損 0.75。</li>
+<li>H113c（予測）<strong>棄却</strong>：臨界 g* の中央値 2.18 は 2.5 を下回り、主の g（4.01・5.48）は境目の近くではなく、救える格子の 85% 以上を救う位置にある。</li>
+<li>H113d（予測）<strong>棄却</strong>：揺れで q は +0.004（版 +0.001〜+0.004）だけ。1 年の不作は次の年の豊作で取り戻せ、5 年続けて半分を割る窓はまれ。</li>
+<li>H113e（予測）<strong>支持</strong>：毎年の疫病で 0.562（芋なしの 0.563 とほぼ同じ）。</li>
+</ul>
+<h2 id="_5">解釈</h2>
+<ul>
+<li>【推測】100 の低端 0.635 は、前近代の悪い年ではなく、Ethiopia の在来品種の 1.25 という「毎年の」低さを 5 年続けた値だった。中世 England の 1.5 万荘園年では 2 未満は 7%、1 未満は 0.4〜0.5% で、揺れを入れても q は 0.48 にとどまる。</li>
+<li>【推測】q を 0.56〜0.58 に押し上げるのは一時の不作ではなく、続く損：芋が毎年の疫病で使えないか、両作物が 5 年続けて中世の 5% 点まで落ちる場合。疫病が 1 年だけなら 0.487、Ireland の並びでも 0.497。</li>
+<li>【独自仮説】核の冬の低い気温は、P. infestans の広がる条件（10 °C 以上・高湿）を減らし、疫病の毎年の流行をむしろ抑えうる。得の格子の季節の地表温度は 23.9→12.2 °C（100）で、10 °C 前後をまたぐ。確かめるには格子の月の気温と湿度で疫病の好適日を数える必要がある（246）。</li>
+<li>【推測】低緯度の得の線の q の幅は 0.476〜0.56（芋が毎年失われる場合）に縮まり、増殖比の揺れは閉じてよい。</li>
+</ul>
+<h2 id="_6">逸脱</h2>
+<ul>
+<li>中世 England の値（主に領主直営地、10 分の 1 税を含む粗い比）を崩壊後の低緯度の小さな群に移している。移せるかは確かめていない。</li>
+<li>揺れは格子・年ごとに独立（年の共通の成分 σ 0.15〜0.16 は版で別に扱った）。気候の m_t と揺れの重なりを数えている恐れ（m_t には既に年ごとの気候の差が入る）があり、その分は q の上側の偏り。</li>
+<li>Ireland の並び・BAHS の 5% 点の版・芋なし・疫病＋揺れは登録外。</li>
+<li>BAHS の表の 1 列目の見出しが崩れた列（"barley gross yield per seed ratio"）も荘園として数えた。</li>
+</ul>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>核の冬の食料の研究者と遺伝子銀行は、低緯度の耐寒の作物の見込みで、年々の不作より「芋が毎年使えなくなる」条件（疫病と種芋の不足）を重く見て、疫病に強い品種と真正種子（TPS）の写しを候補にする。本研究所は核の冬の気候での疫病の好適日（246）へ進み、増殖比の揺れの線は閉じる。</p>
+<h2 id="_8">成果物</h2>
+<p>sim.py（約16秒、100 の再実行を含む。本回の乱数は seed 101）、results.json、stdout.txt、fig_gmult_lowtail.png、PREREGISTRATION.md、sources/（SHA256SUMS）。</p><footer><hr><small>自動生成</small></footer></body></html>

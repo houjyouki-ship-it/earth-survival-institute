@@ -53,13 +53,11 @@ BL = dict(ireland_1845=(1/3, 1/2), ireland_1846=0.75, ireland_1848=1/3, highland
 R['H113b'] = dict(losses=BL, max_loss=0.75, supported=True)
 
 # ---------------- (1) 臨界の増殖比 g* ----------------
-def lost_cells(gb, gp, noise_b=None, noise_p=None, f=0.5, Lp=None):
-    wb = water_ratio(1.15, 550, True); wp = water_ratio(1.1, 600, True)
-    return None
 # 100 の q_new の中身（PM、light fit）を格子ごとの喪失の配列で返す形に
-keep = Lrs; Lrs = ER
-MB = water_ratio(1.15, 550, True)[0]*light_ratio('barley', 'fit'); MP = water_ratio(1.1, 600, True)[0]*light_ratio('potato', 'fit')
+keep = Lrs; Lrs = ER                                     # 100 と同じく水は PM の ETo の比、光は FSDS の L_r
+WB_ = water_ratio(1.15, 550, True)[0]; WP_ = water_ratio(1.1, 600, True)[0]
 Lrs = keep
+MB = WB_*light_ratio('barley', 'fit'); MP = WP_*light_ratio('potato', 'fit')
 SWL = switch_lost(Y)
 def lost(gb, gp, nb=1.0, np_=1.0, f=0.5, Lp=None):
     lp_mult = 1.0 if Lp is None else (1-np.asarray(Lp))[:, None]
@@ -106,6 +104,8 @@ R['H113d'] = dict(q0=V['main_no_noise']['q'], q_noise=V['noise_main']['q'], delt
 V['blight_all_years_075'] = summ(lost(GBm, GPm, Lp=[0.75]*5).astype(float))
 V['blight_year1_075'] = summ(lost(GBm, GPm, Lp=[0.75, 0, 0, 0, 0]).astype(float))
 V['blight_ireland_seq'] = summ(lost(GBm, GPm, Lp=[5/12, 0.75, 0.0, 1/3, 0.0]).astype(float))     # 登録外：1845〜1849 の並び（1849 は 0 と置く）
+V['barley_bahs_median'] = summ(lost(SB['median'], GPm).astype(float))                              # 登録外：BAHS の大麦の中央値
+V['both_bahs_q05'] = summ(lost(SB['q05'], SB['q05']).astype(float))                                  # 登録外：BAHS の 5% 点が 5 年続く
 V['potato_absent'] = summ(lost(GBm, 0.0).astype(float))                                             # 参考：芋なし
 V['blight_all_noise'] = q_noise(sig_main, gp=GPm*0.25)                                              # 登録外：全年の疫病＋揺れ
 R['H113e'] = dict(q=V['blight_all_years_075']['q'], supported=bool(V['blight_all_years_075']['q'] >= 0.55))

@@ -1,2 +1,0 @@
-<string>:27: RuntimeWarning: Mean of empty slice
-<string>:30: RuntimeWarning: Mean of empty slice
