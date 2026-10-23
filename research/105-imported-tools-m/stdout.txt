@@ -1,0 +1,306 @@
+{
+ "study": "105-imported-tools-m",
+ "seed": 20261105,
+ "check_104_runs_reproduced_maxdiff": 0.0,
+ "cases_ratio_N_over_threshold_q05_50_95": {
+  "grafton": {
+   "N_Fe": [
+    6.071800283709874e-05,
+    0.00035399662263367333,
+    0.002057872711387884
+   ],
+   "N_lens": [
+    2.0885165758859144e-06,
+    1.666813354613423e-05,
+    0.00012383417098853393
+   ],
+   "N_T2e": [
+    1.1215714066311543e-06,
+    2.743361530357347e-06,
+    8.366460844723269e-06
+   ],
+   "N": [
+    5,
+    5
+   ],
+   "resupply": false,
+   "tier_made": "re-forged iron tools from wreck metal (no smelting)",
+   "years": 1.5,
+   "censored": true
+  },
+  "pitcairn": {
+   "N_Fe": [
+    0.0003278772153203332,
+    0.0019115817622218359,
+    0.011112512641494572
+   ],
+   "N_lens": [
+    1.1277989509783938e-05,
+    9.000792114912485e-05,
+    0.0006687045233380833
+   ],
+   "N_T2e": [
+    6.056485595808234e-06,
+    1.4814152263929673e-05,
+    4.517888856150565e-05
+   ],
+   "N": [
+    27,
+    27
+   ],
+   "resupply": false,
+   "tier_made": null,
+   "years": 18.1,
+   "censored": true
+  },
+  "tristan_1909_1919": {
+   "N_Fe": [
+    0.0025476194567837806,
+    0.014844397899223602,
+    0.08633927723650342
+   ],
+   "N_lens": [
+    8.773200358841049e-05,
+    0.000697888871110547,
+    0.005219660152514862
+   ],
+   "N_T2e": [
+    4.603817407441923e-05,
+    0.0001155595616199354,
+    0.00035472416167915113
+   ],
+   "N": [
+    167,
+    264
+   ],
+   "resupply": false,
+   "tier_made": "longboats, using a shipwreck survivor's carpentry skills (skill import, not tools)",
+   "years": 10,
+   "censored": true
+  },
+  "greenland_norse": {
+   "N_Fe": [
+    0.029695058361005847,
+    0.1737934918207963,
+    1.0098941365776717
+   ],
+   "N_lens": [
+    0.0010249862235314387,
+    0.008146381527914463,
+    0.06092753379730322
+   ],
+   "N_T2e": [
+    0.0005423904374355879,
+    0.0013489446987904334,
+    0.0041221670771836895
+   ],
+   "N": [
+    2000,
+    3000
+   ],
+   "resupply": true,
+   "tier_made": "smelted bog iron in forges, ore/iron shipped in",
+   "years": 450,
+   "censored": false
+  },
+  "st_kilda": {
+   "N_Fe": [
+    0.0007959351547716222,
+    0.005695139729323298,
+    0.040668183700613245
+   ],
+   "N_lens": [
+    2.820361809926102e-05,
+    0.00026846537753260507,
+    0.0023734630045843283
+   ],
+   "N_T2e": [
+    1.3154240097232687e-05,
+    4.5573490801000704e-05,
+    0.0001753921686598829
+   ],
+   "N": [
+    36,
+    180
+   ],
+   "resupply": true,
+   "tier_made": null,
+   "years": null,
+   "censored": false
+  }
+ },
+ "max_tier_with_local_production": "iron (re-forging scrap: grafton N=5; smelting imported bog iron: greenland N=2-3k). No case at lens or T2e tier.",
+ "no_resupply_years": [
+  1.5,
+  18.1,
+  10
+ ],
+ "sweep_F_heavy_vs_L": {
+  "L": [
+   10.0,
+   18.0,
+   50.0,
+   100.0,
+   200.0,
+   500.0,
+   1000.0,
+   2000.0,
+   5000.0,
+   Infinity
+  ],
+  "F": {
+   "0.1": [
+    1.292590779434305,
+    1.300896876805846,
+    1.3256725132748164,
+    1.361331736105838,
+    1.437724863907763,
+    1.6490324230366462,
+    1.8786329101997081,
+    1.8786329101997081,
+    1.8786329101997081,
+    1.8786329101997081
+   ],
+   "0.3": [
+    1.0771597859530968,
+    1.0802048972435496,
+    1.0921777919107356,
+    1.1166173375594122,
+    1.1592700679321357,
+    1.278952373810688,
+    1.455623666703802,
+    1.455623666703802,
+    1.455623666703802,
+    1.455623666703802
+   ],
+   "0.7": [
+    0.9995271018985302,
+    1.0003602855382763,
+    1.0030010215577287,
+    1.008832763772354,
+    1.0242363017149332,
+    1.0614513715327853,
+    1.1306619859638898,
+    1.1306619859638898,
+    1.1306619859638898,
+    1.1306619859638898
+   ]
+  }
+ },
+ "greenland_ratio_q": [
+  0.02971595951108975,
+  0.17332668360079787,
+  1.0
+ ],
+ "bridge_F_heavy": {
+  "B_m0.3_inf": 1.455623666703802,
+  "B_m0.3_bulk": 1.3521556701556894,
+  "B_m0.1_bulk": 1.591355253462125,
+  "B_use_caseL": 1.0,
+  "B_use_L100": 0.9997279036501922,
+  "B_use_bulk": 1.8392730616552677,
+  "B_greenland_bulk": 1.4265114774613952
+ },
+ "S2_share_samples_kept_stage_after_tools_died": 0.8905905415339378,
+ "hypotheses": {
+  "H117a": {
+   "class": "confirmatory",
+   "rule": "a no-resupply case (pitcairn/grafton) with documented metal-tool use >= 10 years",
+   "value": {
+    "grafton_years": 1.5,
+    "pitcairn_years": 18.1,
+    "pitcairn_tool_use_documented": false
+   },
+   "supported": null,
+   "note": "Grafton は道具の記述ありだが 1.5 年、Pitcairn は 18 年だが開いた頁に道具の使用の記述なし（Bible で読み書きを教えた記述のみ）→検定できず"
+  },
+  "H117b": {
+   "class": "confirmatory",
+   "rule": "no source says the group came to make the import-dependent tier itself",
+   "supported": false,
+   "note": "Grafton の 5 人が難破船の金属でふいごを作り道具を鍛え直した記述がある（鉄の段の再加工）。レンズ・T2e の段の自前の生産の記述はどの事例にもない"
+  },
+  "H117c": {
+   "class": "prediction",
+   "rule": "all case m_use medians (N/N_tier) < 0.05 (tier=N_T2e and N_lens)",
+   "value": {
+    "grafton": [
+     1.666813354613423e-05,
+     2.743361530357347e-06
+    ],
+    "pitcairn": [
+     9.000792114912485e-05,
+     1.4814152263929673e-05
+    ],
+    "tristan_1909_1919": [
+     0.000697888871110547,
+     0.0001155595616199354
+    ],
+    "greenland_norse": [
+     0.008146381527914463,
+     0.0013489446987904334
+    ],
+    "st_kilda": [
+     0.00026846537753260507,
+     4.5573490801000704e-05
+    ]
+   },
+   "supported": true
+  },
+  "H117d": {
+   "class": "prediction",
+   "rule": "S1 (m_prod logU 0.7-1, 104 lifetimes) F_heavy-1 < 0.10",
+   "value": 1.053303715204986,
+   "supported": true
+  },
+  "H117e": {
+   "class": "prediction",
+   "rule": "S2 use-only with case L (1.5-18 y) F_heavy-1 < 0.02",
+   "value": 2.2313709982814105,
+   "supported": false
+  }
+ },
+ "runtime_s": 56.7
+}
+sweep_m0.1_L10                       F_heavy 1.2926 F_total 1.1061 T2med -0.014
+sweep_m0.1_L18                       F_heavy 1.3009 F_total 1.1091 T2med -0.014
+sweep_m0.1_L50                       F_heavy 1.3257 F_total 1.1181 T2med -0.017
+sweep_m0.1_L100                      F_heavy 1.3613 F_total 1.1310 T2med -0.022
+sweep_m0.1_L200                      F_heavy 1.4377 F_total 1.1587 T2med -0.036
+sweep_m0.1_L500                      F_heavy 1.6490 F_total 1.2353 T2med -0.138
+sweep_m0.1_L1000                     F_heavy 1.8786 F_total 1.3186 T2med -0.533
+sweep_m0.1_L2000                     F_heavy 1.8786 F_total 1.3186 T2med -0.533
+sweep_m0.1_L5000                     F_heavy 1.8786 F_total 1.3186 T2med -0.533
+sweep_m0.1_Linf                      F_heavy 1.8786 F_total 1.3186 T2med -0.533
+sweep_m0.3_L10                       F_heavy 1.0772 F_total 1.0280 T2med +0.000
+sweep_m0.3_L18                       F_heavy 1.0802 F_total 1.0291 T2med +0.000
+sweep_m0.3_L50                       F_heavy 1.0922 F_total 1.0334 T2med +0.000
+sweep_m0.3_L100                      F_heavy 1.1166 F_total 1.0423 T2med +0.000
+sweep_m0.3_L200                      F_heavy 1.1593 F_total 1.0577 T2med +0.000
+sweep_m0.3_L500                      F_heavy 1.2790 F_total 1.1011 T2med -0.001
+sweep_m0.3_L1000                     F_heavy 1.4556 F_total 1.1652 T2med -0.289
+sweep_m0.3_L2000                     F_heavy 1.4556 F_total 1.1652 T2med -0.289
+sweep_m0.3_L5000                     F_heavy 1.4556 F_total 1.1652 T2med -0.289
+sweep_m0.3_Linf                      F_heavy 1.4556 F_total 1.1652 T2med -0.289
+sweep_m0.7_L10                       F_heavy 0.9995 F_total 0.9998 T2med +0.000
+sweep_m0.7_L18                       F_heavy 1.0004 F_total 1.0001 T2med +0.000
+sweep_m0.7_L50                       F_heavy 1.0030 F_total 1.0011 T2med +0.000
+sweep_m0.7_L100                      F_heavy 1.0088 F_total 1.0032 T2med +0.000
+sweep_m0.7_L200                      F_heavy 1.0242 F_total 1.0088 T2med +0.000
+sweep_m0.7_L500                      F_heavy 1.0615 F_total 1.0223 T2med +0.000
+sweep_m0.7_L1000                     F_heavy 1.1307 F_total 1.0474 T2med -0.000
+sweep_m0.7_L2000                     F_heavy 1.1307 F_total 1.0474 T2med -0.088
+sweep_m0.7_L5000                     F_heavy 1.1307 F_total 1.0474 T2med -0.088
+sweep_m0.7_Linf                      F_heavy 1.1307 F_total 1.0474 T2med -0.088
+S1_mprod_0.7to1_bulk                 F_heavy 1.0533 F_total 1.0193 T2med -0.026
+S1_mprod_0.7to1_inf                  F_heavy 1.0592 F_total 1.0215 T2med -0.043
+S2_use_only_caseL                    F_heavy 2.2314 F_total 1.4465 T2med -0.872
+S2b_use_only_L100                    F_heavy 2.3038 F_total 1.4727 T2med -0.890
+S3_greenland_ratio_all_tiers_bulk    F_heavy 1.5962 F_total 1.2162 T2med -0.353
+B_m0.3_inf                           F_heavy 1.4556 F_total 1.1652 T2med -0.289
+B_m0.3_bulk                          F_heavy 1.3522 F_total 1.1277 T2med -0.159
+B_m0.1_bulk                          F_heavy 1.5914 F_total 1.2144 T2med -0.281
+B_use_caseL                          F_heavy 1.0000 F_total 1.0000 T2med +0.000
+B_use_L100                           F_heavy 0.9997 F_total 0.9999 T2med +0.000
+B_use_bulk                           F_heavy 1.8393 F_total 1.3043 T2med -0.454
+B_greenland_bulk                     F_heavy 1.4265 F_total 1.1546 T2med -0.193

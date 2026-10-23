@@ -1,0 +1,19 @@
+{"note": "各値は sources/ の Wikipedia の wikitext（2026-10-23 取得、SHA256SUMS）から。quote は原文の抜粋。",
+ "cases": [
+  {"id": "grafton", "page": "https://en.wikipedia.org/wiki/Grafton_(ship)", "N": 5, "N_note": "with a crew of five（Grafton 頁）",
+   "resupply": false, "years_no_resupply": 1.5, "censored": true, "tier_used": "salvaged steel tools, gun", "tier_made": "re-forged iron tools from wreck metal (no smelting)",
+   "quote": ["The crew spent a total of 18 months on the sub-Antarctic island", "Raynal created a pair of blacksmith's bellows from metal from the wreck, wood and sealskin.", "He used the bellows to forge more tools from metal from the wreck."]},
+  {"id": "pitcairn", "page": "https://en.wikipedia.org/wiki/Mutiny_on_the_Bounty", "N": 27, "N_note": "9 mutineers + 6 men + 11 women + baby (Pitcairn Islands 頁)",
+   "resupply": false, "years_no_resupply": 18.1, "censored": true, "tier_used": "literacy via the ship's Bible; tools not described in opened pages", "tier_made": null,
+   "quote": ["nine of the mutineers ... (six men, 11 women, and a baby girl), settled on Pitcairn Island and set fire to the Bounty", "Christian's group remained undiscovered on Pitcairn until 1808", "Using the ship's Bible from Bounty, he taught literacy", "On shore they found a population of 46"]},
+  {"id": "tristan_1909_1919", "page": "https://en.wikipedia.org/wiki/Tristan_da_Cunha", "N_lo": 167, "N_hi": 264, "N_note": "1909年の人数は資料になし。1936年 167、1961年 264 を幅として使う【推測】",
+   "resupply": false, "years_no_resupply": 10, "censored": true, "tier_used": "self-sufficiency; longboats", "tier_made": "longboats, using a shipwreck survivor's carpentry skills (skill import, not tools)",
+   "quote": ["No ships called at the islands from 1909 until 1919", "Italian shipwreck survivor Gaetano Lavarello provided essential carpentry skills for building longboats", "forced the evacuation of all 264 people", "the population of the island was 167 people"]},
+  {"id": "greenland_norse", "page": "https://en.wikipedia.org/wiki/Norse_settlement_of_North_America", "N_lo": 2000, "N_hi": 3000,
+   "resupply": true, "years": 450, "years_note": "late 10th century から 1408 の最後の記録まで約 400〜450 年【推測の丸め】", "censored": false,
+   "tier_used": "iron", "tier_made": "smelted bog iron in forges, ore/iron shipped in",
+   "quote": ["The combined population peaked around 2,000–3,000.", "Bog iron was widely used and smelted in forges on Greenland, but because no ores were present near the Eastern or Western Settlements, the iron had to be shipped from Labrador, Newfoundland, Iceland, or Europe.", "Greenland lacked natural resources like forests and iron ore.", "After a marriage was recorded in 1408, no written records mention the settlers."]},
+  {"id": "st_kilda", "page": "https://en.wikipedia.org/wiki/St_Kilda,_Scotland", "N_lo": 36, "N_hi": 180, "resupply": true, "years": null, "censored": false,
+   "tier_used": "external contact, relief vessels", "tier_made": null,
+   "quote": ["the population probably never exceeding 180", "eventually dropping to 36 in 1930", "a relief vessel arrived"]}
+ ]}

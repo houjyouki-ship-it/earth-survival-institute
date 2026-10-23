@@ -1,0 +1,196 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究105：外から道具が入った小さな孤立集団の事例で、廃墟の品の倍率 m と寿命 L を絞る（open_problems 252） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="105-m-l-open_problems-252">研究105：外から道具が入った小さな孤立集団の事例で、廃墟の品の倍率 m と寿命 L を絞る（open_problems 252）</h1>
+<blockquote>
+<p>注：本報告の価値・F・V/V0 などの指標は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。「誰が何を変えるべきか」は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>104 の効き（m=0.3 で F_heavy 1.46、m=0.1 で 1.84）は m の置き値しだいだった。外から道具・部品が入った小さな孤立集団の公開資料で m と L に根拠を与えられるか。</p>
+<h2 id="sourceswikisha256sums-sourcescasesjson">確認した事実（本回取得、<code>sources/*.wiki</code>、SHA256SUMS、抜粋は <code>sources/cases.json</code>）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Grafton_(ship)">Grafton (ship)</a>）】乗員 5 人（"with a crew of five"）、補給なしで 18 か月。"Raynal created a pair of blacksmith's bellows from metal from the wreck, wood and sealskin" と "He used the bellows to forge more tools from metal from the wreck"。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Mutiny_on_the_Bounty">Mutiny on the Bounty</a>、<a href="https://en.wikipedia.org/wiki/Pitcairn_Islands">Pitcairn Islands</a>）】1790 年 1 月に 27 人（9 人の反乱者と 6 人の男、11 人の女、赤子）が上陸し船を焼いた。1808 年 2 月まで外と接触なし。"Using the ship's Bible from Bounty, he taught literacy"。1814 年に 46 人。開いた頁に道具の使い方の記述はない。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Tristan_da_Cunha">Tristan da Cunha</a>）】"No ships called at the islands from 1909 until 1919"。長艇は難破船の生き残りの大工の技能で作った（品でなく技能の流入）。1936 年 167 人、1961 年 264 人。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Norse_settlement_of_North_America">Norse settlement of North America</a>）】人口の頂点は 2,000〜3,000。"Bog iron was widely used and smelted in forges on Greenland, but ... the iron had to be shipped from Labrador, Newfoundland, Iceland, or Europe"。10 世紀末から約 500 年、最後の記録は 1408 年。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/St_Kilda,_Scotland">St Kilda</a>）】人口は 180 を超えず、1930 年に 36 人で退去。救援の船あり。</li>
+</ul>
+<h2 id="simpyseed-2026110558">方法（<code>sim.py</code>、seed 20261105、約58秒）</h2>
+<ul>
+<li>事前登録 <code>PREREGISTRATION.md</code>（23:43 JST、資料を開く前、sim.py の前）。104 の sim.py を exec し、104 の全版の F_heavy を差 0 で再現（assert）。2 回実行し stdout は runtime 以外一致。</li>
+<li>事例の人数を段の閾値（038/024 の N_Fe・N_lens・N_T2e の標本）で割った比を出す。m と L（一定）の走査、事例に合わせた版 S1〜S3。</li>
+<li><strong>登録外の修正（橋渡しの版）</strong>：104 の式は「下がった閾値に L 以内に届けば段を恒久に得る」とみなしていた。品が尽きた後も段が残るには、L までに人口が元の閾値に届く必要があるので、条件を wait(N) ≤ L に変えた版（B_）を併記した。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<p>事例の比（中央値、N_case / 閾値）：</p>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>補給</th>
+<th>N</th>
+<th>/N_Fe</th>
+<th>/N_lens</th>
+<th>/N_T2e</th>
+<th>自前で作ったもの</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grafton</td>
+<td>なし 1.5 年</td>
+<td>5</td>
+<td>0.00035</td>
+<td>0.00002</td>
+<td>0.000003</td>
+<td>難破船の金属で道具を鍛え直す</td>
+</tr>
+<tr>
+<td>Pitcairn</td>
+<td>なし 18 年</td>
+<td>27</td>
+<td>0.0019</td>
+<td>0.00009</td>
+<td>0.00001</td>
+<td>記述なし（読み書きは保った）</td>
+</tr>
+<tr>
+<td>Tristan</td>
+<td>なし 10 年</td>
+<td>167〜264</td>
+<td>0.015</td>
+<td>0.0007</td>
+<td>0.0001</td>
+<td>長艇（技能の流入）</td>
+</tr>
+<tr>
+<td>Greenland</td>
+<td>あり 約 450 年</td>
+<td>2,000〜3,000</td>
+<td><strong>0.17</strong></td>
+<td>0.008</td>
+<td>0.001</td>
+<td>輸入の鉄・沼鉄の製錬</td>
+</tr>
+<tr>
+<td>St Kilda</td>
+<td>あり</td>
+<td>36〜180</td>
+<td>0.006</td>
+<td>0.0003</td>
+<td>0.00005</td>
+<td>記述なし</td>
+</tr>
+</tbody>
+</table>
+<p>F_heavy（A_Ord/U3）：</p>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>104 の式</th>
+<th>橋渡しの版</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m=0.3、寿命無限</td>
+<td>1.456</td>
+<td>1.456</td>
+</tr>
+<tr>
+<td>m=0.3、鋼の bulk の寿命</td>
+<td>1.423（104）</td>
+<td><strong>1.352</strong></td>
+</tr>
+<tr>
+<td>m=0.1、bulk</td>
+<td>1.836（104）</td>
+<td>1.591</td>
+</tr>
+<tr>
+<td>S1：m_prod 0.7〜1（logU）、bulk</td>
+<td><strong>1.053</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td>使うだけ（m=27/N）、事例の L 1.5〜18 年</td>
+<td>2.231（式の欠陥）</td>
+<td><strong>1.000</strong></td>
+</tr>
+<tr>
+<td>使うだけ、L=100 年</td>
+<td>2.304</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>使うだけ、bulk の寿命（中央値 1,880 年）</td>
+<td>—</td>
+<td>1.839</td>
+</tr>
+<tr>
+<td>Greenland の比を全段に（楽観の上限）、bulk</td>
+<td>1.596</td>
+<td>1.427</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>走査（104 の式）：m=0.3 で L=18 年 1.080、100 年 1.117、500 年 1.279、1,000 年以上で 1.456。</li>
+<li>104 の式で「使うだけ・事例の L」の版の増分は、89% が品の寿命の後も段を持ち越した標本から来ていた。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>分類</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H117a 補給なしで金属の道具を 10 年以上使った事例がある</td>
+<td>確認的</td>
+<td>Grafton は記述ありだが 1.5 年、Pitcairn は 18 年だが道具の記述なし</td>
+<td><strong>検定できず</strong></td>
+</tr>
+<tr>
+<td>H117b 外の品に頼った段を自前で作れるようになった記述はない</td>
+<td>確認的</td>
+<td>Grafton の 5 人が難破船の金属で道具を鍛え直した</td>
+<td><strong>棄却</strong>（鉄の段の再加工で。レンズ・T2e の段の記述はどの事例にもない）</td>
+</tr>
+<tr>
+<td>H117c 事例の人数÷N_lens・N_T2e はどれも 0.05 未満</td>
+<td>予測</td>
+<td>最大 Greenland の 0.008</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H117d m_prod 0.7〜1 なら F_heavy−1 &lt; 0.10</td>
+<td>予測</td>
+<td>1.053</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H117e 使うだけを事例の L だけ効かせると F_heavy−1 &lt; 0.02</td>
+<td>予測</td>
+<td>104 の式で 2.23</td>
+<td><strong>棄却</strong>（登録の式で。原因は式が段を恒久に与えること。橋渡しの版では 1.000）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li><strong>事例は m を T2e の段で絞れない</strong>。5 件とも人数は N_lens・N_T2e の 1% 未満で、自前の生産の記録は鉄の段（再加工・輸入の鉄の製錬）までしかない。「レンズ・T2e の段の m を事例で下げる根拠はない」が本回の結論で、m は 104 の主（0.1〜1）でなく 0.7〜1 に寄せるのが資料に忠実（F_heavy 1.05）。ただし事例が「ない」のは、そんな小さな集団で高い段を試した例がないからでもあり、m が 1 に近い証拠ではない【推測】。</li>
+<li><strong>補給なしの年数（1.5〜18 年）はどれも救出で打ち切られた</strong>（打ち切りのある観測）ので、L の上限は与えない。一方 104 の効きは L が数百〜千年ないと出ない（走査）。決め手は m より L、つまり<strong>廃墟の道具を鍛え直し・削り直しで何百年使い続けられるか</strong>で、Grafton の再加工はそれが小人数でも始められる例だが、年数の根拠にはならない。</li>
+<li>104 の式の欠陥（段を恒久に与える）を見つけた。橋渡しの版では bulk の寿命で 1.42→1.35 と小さく、短い L ではゼロになる。104 の結論のうち「精度の面の寿命なら効きの 3/4 が消える」は、橋渡しの版ではさらに強まる向き【推測、未計算】。</li>
+<li>「使うだけ・bulk の寿命」1.84 は、品が千年使え続ければ人数がほぼ要らないという置き方の上限で、事例の支えはない。</li>
+<li>事例は Wikipedia の頁だけで、一次資料（Musgrave 1865 など）は開いていない。Tristan の 1909 年の人数は資料になく幅で置いた【推測】。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>知識の束を作る人：廃墟の機械を「使う」手引きより、<strong>部品を鍛え直す・削り直す（ふいご、簡単な鍛冶、定盤の擦り合わせ）手引き</strong>に字数を割く。効きは品の寿命 L を数百年に延ばせるかで決まり、短い間使えるだけでは模型の中で価値はほぼ 0。</li>
+<li>本研究所：L を延ばす再加工の経路（251：精度の面の作り直し）を橋渡しの版で計算する。104 の式は以後、橋渡しの版を主にする。</li>
+</ul>
+<h2 id="_6">成果物</h2>
+<p>sim.py、results.json、stdout.txt、fig_imported_tools.png、PREREGISTRATION.md、sources/（*.wiki、cases.json、SHA256SUMS）。</p><footer><hr><small>自動生成</small></footer></body></html>
