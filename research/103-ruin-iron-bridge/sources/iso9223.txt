@@ -1,0 +1,1452 @@
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO
+9223
+
+INTERNATIONAL
+STANDARD
+
+Second edition
+2012-02-01
+
+Reviewed and confirmed in 2017
+
+Corrosion of metals and alloys —
+Corrosivity of atmospheres —
+Classification, determination and
+estimation
+Corrosion des métaux et alliages — Corrosivité des atmosphères —
+Classification, détermination et estimation
+
+Reference number
+ISO 9223:2012(E)
+
+© ISO 2012
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+COPYRIGHT PROTECTED DOCUMENT
+© ISO 2012
+All rights reserved. Unless otherwise specified, no part of this publication may be reproduced or utilized in any form or by any means,
+electronic or mechanical, including photocopying and microfilm, without permission in writing from either ISO at the address below or
+ISO's member body in the country of the requester.
+ISO copyright office
+Case postale 56  CH-1211 Geneva 20
+Tel. + 41 22 749 01 11
+Fax + 41 22 749 09 47
+E-mail copyright@iso.org
+Web www.iso.org
+Published in Switzerland
+
+ii
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+Contents
+
+ISO 9223:2012(E)
+
+Page
+
+Foreword ............................................................................................................................................................ iv
+Introduction ......................................................................................................................................................... v
+1
+
+Scope ...................................................................................................................................................... 1
+
+2
+
+Normative references ............................................................................................................................ 1
+
+3
+
+Terms and definitions ........................................................................................................................... 2
+
+4
+4.1
+4.2
+
+Symbols and abbreviated terms .......................................................................................................... 2
+Symbols .................................................................................................................................................. 2
+Abbreviated terms ................................................................................................................................. 3
+
+5
+
+Category of corrosivity of the atmosphere ......................................................................................... 3
+
+6
+
+Classification of corrosivity of the atmosphere ................................................................................. 3
+
+7
+
+Corrosivity determination based on corrosion rate measurement of standard specimens ......... 4
+
+8
+8.1
+8.2
+8.3
+
+Corrosivity estimation based on environmental information ........................................................... 4
+Corrosivity estimation — General ....................................................................................................... 4
+Normative corrosivity estimation based on calculated first-year corrosion losses ...................... 5
+Informative corrosivity estimation based on description of exposure conditions ........................ 6
+
+Annex A (informative) Sources of uncertainty associated with the determination and estimation of
+atmospheric corrosivity ........................................................................................................................ 7
+Annex B (informative) Characterization of the atmosphere in relation to its corrosivity ............................ 9
+Annex C (informative) Description of typical atmospheric environments related to the estimation
+of corrosivity categories ..................................................................................................................... 13
+Bibliography ...................................................................................................................................................... 15
+
+© ISO 2012 – All rights reserved
+
+iii
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+Foreword
+ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies
+(ISO member bodies). The work of preparing International Standards is normally carried out through ISO
+technical committees. Each member body interested in a subject for which a technical committee has been
+established has the right to be represented on that committee. International organizations, governmental and
+non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the
+International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.
+International Standards are drafted in accordance with the rules given in the ISO/IEC Directives, Part 2.
+The main task of technical committees is to prepare International Standards. Draft International Standards
+adopted by the technical committees are circulated to the member bodies for voting. Publication as an
+International Standard requires approval by at least 75 % of the member bodies casting a vote.
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent
+rights. ISO shall not be held responsible for identifying any or all such patent rights.
+ISO 9223 was prepared by Technical Committee ISO/TC 156, Corrosion of metals and alloys.
+This second edition cancels and replaces the first edition (ISO 9223:1992), which has been technically revised.
+
+iv
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 9223:2012(E)
+
+Introduction
+Metals, alloys and metallic coatings can suffer atmospheric corrosion when their surfaces are wetted. The
+nature and rate of the attack depends upon the properties of surface-formed electrolytes, particularly with
+regard to the level and type of gaseous and particulate pollutants in the atmosphere and to the duration of
+their action on the metallic surface.
+The character of the corrosion attack and the corrosion rate are consequences of the corrosion system, which
+comprises the metallic materials, the atmospheric environment, technical parameters and operation conditions.
+The corrosivity category is a technical characteristic which provides a basis for the selection of materials and
+protective measures in atmospheric environments subject to the demands of the specific application,
+particularly with regard to service life.
+Data on the corrosivity of the atmosphere are essential for the development and specification of optimized
+corrosion protection for manufactured products.
+The corrosivity categories are defined by the first-year corrosion effects on standard specimens as specified in
+ISO 9226. The corrosivity categories can be assessed in terms of the most significant atmospheric factors
+influencing the corrosion of metals and alloys.
+The measurement of relevant environmental parameters is specified in ISO 9225.
+The ways of determining and estimating the corrosivity category of a given location according to this
+International Standard and the relationships among them are presented in Figure 1. It is necessary to
+distinguish between corrosivity determination and corrosivity estimation. It is also necessary to distinguish
+between corrosivity estimation based on application of a dose-response function and that based on
+comparison with the description of typical atmospheric environments.
+This International Standard does not take into consideration the design and mode of operation of the product,
+which can influence its corrosion resistance, since these effects are highly specific and cannot be generalized.
+Steps in the choice of optimized corrosion protection measures in atmospheric environments are defined in
+ISO 11303.
+
+© ISO 2012 – All rights reserved
+
+v
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+Figure 1 — Classification of atmospheric corrosivity
+
+vi
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+INTERNATIONAL STANDARD
+
+ISO 9223:2012(E)
+
+Corrosion of metals and alloys — Corrosivity of atmospheres —
+Classification, determination and estimation
+
+1
+
+Scope
+
+This International Standard establishes a classification system for the corrosivity of atmospheric environments.
+It
+ defines corrosivity categories for the atmospheric environments by the first-year corrosion rate of
+standard specimens,
+ gives dose-response functions for normative estimation of the corrosivity category based on the
+calculated first-year corrosion loss of standard metals, and
+ makes possible an informative estimation of the corrosivity category based on knowledge of the local
+environmental situation.
+This International Standard specifies the key factors in the atmospheric corrosion of metals and alloys. These
+are the temperature-humidity complex, pollution by sulfur dioxide and airborne salinity.
+Temperature is also considered an important factor for corrosion in areas outside the temperate macroclimatic
+zone. The temperature-humidity complex can be evaluated in terms of time of wetness. Corrosion effects of
+other pollutants (ozone, nitrogen oxides, particulates) can influence the corrosivity and the evaluated one-year
+corrosion loss, but these factors are not considered decisive in the assessment of corrosivity according to this
+International Standard.
+This International Standard does not characterize the corrosivity of specific service atmospheres,
+e.g. atmospheres in chemical or metallurgical industries.
+The classified corrosivity categories and introduced pollution levels can be directly used for technical and
+economical analyses of corrosion damage and for a rational choice of corrosion protection measures.
+
+2
+
+Normative references
+
+The following referenced documents are indispensable for the application of this document. For dated
+references, only the edition cited applies. For undated references, the latest edition of the referenced
+document (including any amendments) applies.
+ISO 8044, Corrosion of metals and alloys — Basic terms and definitions
+ISO 9224, Corrosion of metals and alloys — Corrosivity of atmospheres — Guiding values for the corrosivity
+categories
+ISO 11844-1, Corrosion of metals and alloys — Classification of low corrosivity of indoor atmospheres —
+Part 1: Determination and estimation of indoor corrosivity
+ISO 11844-2, Corrosion of metals and alloys — Classification of low corrosivity of indoor atmospheres —
+Part 2: Determination of corrosion attack in indoor atmospheres
+
+© ISO 2012 – All rights reserved
+
+1
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 11844-3, Corrosion of metals and alloys — Classification of low corrosivity of indoor atmospheres —
+Part 3: Measurement of environmental parameters affecting indoor corrosivity
+
+3
+
+Terms and definitions
+
+For the purposes of this document, the terms and definitions given in ISO 8044 and the following apply.
+3.1
+corrosivity of atmosphere
+ability of the atmosphere to cause corrosion in a given corrosion system
+3.2
+category of corrosivity of atmosphere
+standardized rating of corrosivity of atmosphere in relation to the one-year corrosion effect
+3.3
+type of atmosphere
+characterization of the atmosphere on the basis of appropriate classification criteria other than corrosivity or of
+complementary operation factors
+EXAMPLE
+
+Rural, urban, industrial, marine, chemical, etc.
+
+3.4
+temperature-humidity complex
+combined effect of temperature and relative humidity on the corrosivity of the atmosphere
+3.5
+time of wetness
+period when a metallic surface is covered by adsorptive and/or liquid films of electrolyte to be capable of
+causing atmospheric corrosion
+3.6
+pollution level
+numbered rank based on quantitative measurements of specific chemically active substances, corrosive
+gases or suspended particles in the air (both natural and the result of human activity) that are different from
+the normal components of the air
+3.7
+category of location
+conventionally defined typical exposure conditions of a component or structure
+EXAMPLE
+
+Exposure in the open air, under shelter, in a closed space, etc.
+
+3.8
+dose-response function
+relationship derived from results of field tests for calculation of corrosion loss from average values of
+environmental parameters
+
+4
+
+Symbols and abbreviated terms
+
+4.1
+
+Symbols
+
+rcorr
+
+Corrosion rate for the first year of atmospheric exposure
+
+T
+
+Air temperature
+
+2
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+Pd
+
+SO2 deposition rate
+
+Pc
+
+SO2 concentration
+
+Sd
+
+Cl deposition rate
+
+
+
+Time of wetness
+
+4.2
+
+Abbreviated terms
+
+C
+
+Atmospheric corrosivity category
+
+RH
+
+Relative humidity
+
+5
+
+ISO 9223:2012(E)
+
+Category of corrosivity of the atmosphere
+
+The corrosivity of the atmosphere is divided into six categories (see Table 1).
+Table 1 — Categories of corrosivity of the atmosphere
+
+6
+
+Category
+
+Corrosivity
+
+C1
+
+Very low
+
+C2
+
+Low
+
+C3
+
+Medium
+
+C4
+
+High
+
+C5
+
+Very high
+
+CX
+
+Extreme
+
+Classification of corrosivity of the atmosphere
+
+The corrosivity of atmospheric environments shall be classified either by determination of the corrosivity in
+accordance with Clause 7 or, where this is not possible, by estimation of the corrosivity in accordance with
+Clause 8. Both methods of the corrosivity evaluation represent a generalized approach and are characterized
+by some uncertainties and limitations.
+A corrosivity category determined from the first-year corrosion loss reflects the specific environmental situation
+of the year of exposure.
+A corrosivity category estimated from the dose-response function reflects the statistical uncertainty of the
+given function.
+A corrosivity category estimated using the informative procedure based on the comparison of the local
+environmental conditions with the description of typical atmospheric environments can lead to
+misinterpretations. This approach is to be used if experimental data are not available.
+Annex A defines uncertainties related to the determination and normative estimation of atmospheric corrosivity
+categories.
+Detailed classification of low corrosivity of indoor atmospheres covering the corrosivity categories C1 and C2
+in terms of this International Standard is specified in ISO 11844-1, ISO 11844-2 and ISO 11844-3.
+
+© ISO 2012 – All rights reserved
+
+3
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 9223:2012(E)
+
+7 Corrosivity determination based on corrosion rate measurement of standard
+specimens
+Numerical values of the first-year corrosion rates for standard metals (carbon steel, zinc, copper, aluminium)
+are given in Table 2 for each corrosivity category. One-year exposure tests should start in the spring or
+autumn. In climates with marked seasonal differences, a starting time in the most aggressive period is
+recommended. The first-year corrosion rates cannot be simply extrapolated for the prediction of long-term
+corrosion behaviour. Specific calculation models, guiding corrosion values and additional information on
+long-term corrosion behaviour, are given in ISO 9224.
+Table 2 — Corrosion rates, rcorr, for the first year of exposure
+for the different corrosivity categories
+Corrosion rates of metals
+Corrosivity
+category
+C1
+
+C2
+
+C3
+
+C4
+
+C5
+
+CX
+
+rcorr
+Unit
+
+Carbon steel
+
+Zinc
+
+Copper
+
+Aluminium
+
+g/(m2a)
+
+rcorr  10
+
+rcorr  0,7
+
+rcorr  0,9
+
+negligible
+
+μm/a
+
+rcorr  1,3
+
+rcorr  0,1
+
+rcorr  0,1
+
+—
+
+g/(m2a)
+
+10  rcorr  200
+
+0,7  rcorr  5
+
+0,9  rcorr  5
+
+rcorr  0,6
+
+μm/a
+
+1,3  rcorr  25
+
+0,1  rcorr  0,7
+
+0,1  rcorr  0,6
+
+—
+
+g/(m2a)
+
+200  rcorr  400
+
+5  rcorr  15
+
+5  rcorr  12
+
+0,6  rcorr  2
+
+μm/a
+
+25  rcorr  50
+
+0,7  rcorr  2,1
+
+0,6  rcorr  1,3
+
+—
+
+g(m2a)
+
+400  rcorr  650
+
+15  rcorr  30
+
+12  rcorr  25
+
+2  rcorr  5
+
+μm/a
+
+50  rcorr  80
+
+2,1  rcorr  4,2
+
+1,3  rcorr  2,8
+
+—
+
+g/(m2a)
+
+650  rcorr  1 500
+
+30  rcorr  60
+
+25  rcorr  50
+
+5  rcorr  10
+
+μm/a
+
+80  rcorr  200
+
+4,2  rcorr  8,4
+
+2,8  rcorr  5,6
+
+—
+
+g/(m2a)
+
+1 500  rcorr  5 500
+
+60  rcorr  180
+
+50  rcorr  90
+
+rcorr  10
+
+μm/a
+
+200  rcorr  700
+
+8,4  rcorr  25
+
+5,6  rcorr  10
+
+—
+
+NOTE 1 The classification criterion is based on the methods of determination of corrosion rates of standard specimens for the
+evaluation of corrosivity (see ISO 9226).
+NOTE 2 The corrosion rates, expressed in grams per square metre per year [g/(m2·a)], are recalculated in micrometres per year
+(μm/a) and rounded.
+NOTE 3
+
+The standard metallic materials are characterized in ISO 9226.
+
+NOTE 4 Aluminium experiences uniform and localized corrosion. The corrosion rates shown in this table are calculated as uniform
+corrosion. Maximum pit depth or number of pits can be a better indicator of potential damage. It depends on the final application.
+Uniform corrosion and localized corrosion cannot be evaluated after the first year of exposure due to passivation effects and decreasing
+corrosion rates.
+NOTE 5 Corrosion rates exceeding the upper limits in category C5 are considered extreme. Corrosivity category CX refers to specific
+marine and marine/industrial environments (see Annex C).
+
+8
+
+Corrosivity estimation based on environmental information
+
+8.1
+
+Corrosivity estimation — General
+
+If it is not possible to determine the corrosivity categories by the exposure of standard specimens, an
+estimation of corrosivity may be based on corrosion loss calculated from environmental data or on information
+on environmental conditions and exposure situation.
+
+4
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+8.2
+
+ISO 9223:2012(E)
+
+Normative corrosivity estimation based on calculated first-year corrosion losses
+
+Dose-response functions for four standard metals are given, describing the corrosion attack after the first year
+of exposure in open air as a function of SO2 dry deposition, chloride dry deposition, temperature and relative
+humidity. Functions are based on results of worldwide corrosion field exposures and cover climatic earth
+conditions and pollution situation within the scope of this International Standard. Some limitations and
+uncertainties are characterized in Annex A.
+Dose-response functions for calculation of the first-year corrosion loss of structural metals:
+Use Equation (1) for carbon steel:
+
+rcorr = 1,77·Pd0,52 ·exp(0,020·RH + f St ) + 0,102·S d0,62 ·exp(0,033·RH + 0,040·T )
+
+(1)
+
+fSt = 0,150·(T – 10) when T  10 °C; otherwise 0,054·(T – 10)
+N = 128, R2 = 0,85
+Use Equation (2) for zinc:
+rcorr = 0,012 9·Pd0,44 ·exp(0,046·RH + f Zn ) + 0,017 5·S d0,57 ·exp(0,008·RH + 0,085·T )
+
+(2)
+
+fZn = 0,038·(T – 10) when T  10 °C; otherwise, 0,071·(T – 10)
+N = 114, R2 = 0,78
+Use Equation (3) for copper:
+rcorr = 0,005 3·Pd0,26 ·exp(0,059·RH + f Cu ) + 0,010 25·S d0,27 ·exp(0,036·RH + 0,049·T )
+
+(3)
+
+fCu = 0,126·(T – 10) when T  10 °C; otherwise, 0,080·(T – 10)
+N = 121, R2 = 0,88
+Use Equation (4) for aluminium:
+rcorr = 0,004 2·Pd0,73 ·exp(0,025·RH + f Al ) + 0,001 8·S d0,60 ·exp(0,020·RH + 0,094·T )
+
+(4)
+
+fAl = 0,009·(T – 10) when T  10 °C; otherwise 0,043·(T – 10)
+N = 113, R2 = 0,65
+where
+rcorr
+
+is first-year corrosion rate of metal, expressed in micrometres per year (µm/a);
+
+T
+
+is the annual average temperature, expressed in degrees Celsius (°C);
+
+RH
+
+is the annual average relative humidity, expressed as a percentage (%);
+
+Pd
+
+is the annual average SO2 deposition, expressed in milligrams per square metre per day
+[mg/(m2d)];
+
+Sd
+
+is the annual average Cl deposition, expressed in milligrams per square metre per day
+[mg/(m2d)].
+
+© ISO 2012 – All rights reserved
+
+5
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+For details of the environmental parameters, see Table 3, which also gives the measured intervals of the
+parameters. If Pd is replaced with 0,8Pc in the dose-response functions, as explained in the table footnote to
+Table 3, Pc shall also be an annual average.
+Table 3 — Parameters used in the derivation of dose-response functions,
+including symbol, description, interval and unit
+Symbol
+
+Description
+
+Interval
+
+Unit
+
+T
+
+Temperature
+
+17,1 to 28,7
+
+°C
+
+RH
+
+Relative humidity
+
+34 to 93
+
+%
+
+Pd
+
+SO2 deposition
+
+0,7 to 150,4
+
+mg/(m2d)
+
+Sd
+
+Cl deposition
+
+0,4 to 760,5
+
+mg/(m2d)
+
+The sulfur dioxide (SO2) values determined by the deposition method, Pd, and volumetric
+method, Pc, are equivalent for the purposes of this International Standard. The relationship
+between measurements using both methods may be approximately expressed as
+Pd = 0,8 Pc [Pd in mg/(m2d), Pc in µg/m3].
+NOTE
+
+All parameters are expressed as annual averages.
+
+Care shall be taken when extrapolating the equations outside the intervals of environmental parameters for
+their calculations (e.g. in coastal environments).
+
+8.3
+
+Informative corrosivity estimation based on description of exposure conditions
+
+The corrosivity of an atmospheric environment increases with the effect of the temperature-humidity complex
+(covering also time of wetness) and the levels of other corrosive agents.
+Typical atmospheric types of pollution and levels are introduced in Annex B.
+Exposure conditions (category of location) of material, component or structure influence the impact of
+environment.
+A qualitative description of typical environments related to the atmospheric corrosivity categories for the
+purposes of informative corrosivity estimation is given in Annex C.
+
+6
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 9223:2012(E)
+
+Annex A
+(informative)
+Sources of uncertainty associated with the determination
+and estimation of atmospheric corrosivity
+
+A.1 General
+The corrosivity of atmospheric environments shall be classified either through determination of the corrosivity
+category based on the exposure of specimens or by estimation based on environmental parameters and the
+use of a dose-response function. The use of these two different denominations for the assessment of a
+corrosivity category implies that two different levels of uncertainty can be expected for the determination (low
+uncertainty) and estimation (high uncertainty) procedures. This annex serves to establish those two levels of
+uncertainty.
+The basis for the details given in this annex is a separate statistical analysis performed in connection with the
+derivation of the dose-response functions for the estimation procedure.
+
+A.2 Distribution of errors
+Log-normal distributions, i.e. normal distributions of logarithmic values, are observed for the corrosion rates. If
+the uncertainty is expressed by a standard deviation of logarithmic values, s, then
+ln(rcorr) = s
+
+(A.1)
+
+This means that the uncertainty interval in general is asymmetric and can be expressed as rcorr·es. However,
+if s is small, the interval becomes approximately symmetric. This can be illustrated by the following two
+examples. If s = 0,7, then es = 2 and es = 1/2, which corresponds to an interval from 50 % to +100 %. On the
+other hand, if s = 0,01, then es = 1,01 and es = 0,99, which corresponds to an interval from 1 % to +1 % or
+1 %.
+
+A.3 Levels of uncertainty
+Table A.1 gives the estimated levels of uncertainty. The large difference between the two procedures is clear
+from the table and this is what motivates the two different denominations of the assessment. A.4 gives a
+description of possible sources of error and an explanation of those errors is included in the values given in
+Table A.1.
+Table A.1 — Estimated levels of uncertainty for assessment of the corrosivity category
+based on determination (exposure of specimens) and estimation (dose-response function)
+Metal
+
+Level of uncertainty
+Determination
+
+Estimation
+
+Carbon steel
+
+2 %
+
+33 % to +50 %
+
+Zinc
+
+5 %
+
+33 % to +50 %
+
+Copper
+
+2 %
+
+33 % to +50 %
+
+Aluminium
+
+5 %
+
+50 % to +100 %
+
+© ISO 2012 – All rights reserved
+
+7
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+A.4 Sources of uncertainty
+Regarding the determination of corrosivity categories based on exposure of specimens, it should first be
+clarified that the levels given in Table A.1 are expressed for an average value calculated from three individual
+values and not for an individual corrosion value.
+The uncertainty levels given in Table A.1, both for determination and estimation, are based on the exposure of
+materials at many different test sites, but only for one exposure period. Thus, the values should have a
+general validity, but the variation in corrosion attack that can occur from year to year, depending on natural
+variations in climate, is not included in the values in Table A.1.
+Regarding the estimation of corrosivity categories based on the dose-response functions, the total uncertainty
+consists of two parts, uncertainty in the dose-response functions and uncertainty in the measurements of
+environmental parameters. Of these, the uncertainty in the dose-response functions is dominant. Also, the
+values in Table A.1 are based on an average uncertainty over the range of parameters used in the function.
+As for all regression functions, this uncertainty is lowest in the middle range, corresponding to corrosivity
+category C3, and higher at the lower and upper ranges, corresponding to corrosivity categories C1 and C5.
+Uncertainty for category CX is the highest and it is not covered by this calculation.
+
+8
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 9223:2012(E)
+
+Annex B
+(informative)
+Characterization of the atmosphere in relation to its corrosivity
+
+It is necessary for the classification approach for informative corrosivity estimation to be simple and
+user-friendly as regards the choice of parameters to be considered. For the purposes of this International
+Standard, the key factors of the atmosphere for corrosion of metals and alloys are the temperature-humidity
+complex, and sulfur dioxide and chloride pollution levels.
+For unsheltered positions, the corrosion impact is mentioned in terms of dry and wet deposition. Wet
+deposition includes transport by means of precipitation and dry deposition denotes transport by any other
+process.
+In sheltered positions, only dry deposition occurs. The cumulative effect of pollutants, including particulates,
+should be considered. Specific problems of atmospheric corrosivity of low aggressive indoor atmospheres are
+characterized in ISO 11844-1, ISO 11844-2 and ISO 11844-3.
+The wetting of surfaces is caused by many factors, for example dew, rainfall, melting snow and a high
+humidity level. The length of time during which the relative humidity is greater than 80 % at a temperature
+greater than 0 °C is used to estimate the calculated time of wetness, , of corroding surfaces. The time of
+wetness is underestimated by the time that the temperature exceeds 0 °C and 80 % RH in frigid zones
+(freezing point depression).
+Information on calculated time of wetness is helpful for informative atmospheric corrosivity estimation.
+Table B.1 presents time of wetness characteristics for different exposure conditions.
+The most important factor within a particular temperature-humidity complex is the pollution level caused by
+sulfur dioxide or airborne salinity. The pollution level shall be measured in accordance with the specifications
+of ISO 9225.
+Other kinds of pollution can also exert an effect [oxides of nitrogen (NOx), nitric acid (HNO3) and industrial
+dust in populated and industrial zones] or the specific operational and technological pollution of microclimates
+[chlorine (Cl2), hydrogen sulfide (H2S), organic acids and de-icing agents]. These types of pollution have not
+been used as classification criteria.
+According to this International Standard, the other kinds of pollution should be considered as accompanying
+ones [e.g. oxides of nitrogen (NOx) in urban atmospheres] or specific operational ones (e.g. vapours of acids
+in operational microclimates). Concentrations of the most important pollutants in different atmospheric
+environments are listed in Table B.2.
+The decreasing sulfur dioxide levels in many parts of the world and the elevated levels of nitrogen oxides
+caused by increasing traffic, together with ozone and particulates, has created a new multipollutant
+environmental situation. In other parts of the world, in relation to rapid development of industry, the corrosion
+effect of SO2 pollution is intensified and still dominating.
+Atmospheric pollution considered for corrosivity classification in the frame of this International Standard is
+divided into two groups: pollution by sulfur dioxide (SO2) and by airborne salinity. These two types of pollution
+are representative for rural, urban, industrial and marine atmospheres. The grouping of pollution by sulfur
+dioxide (SO2) for standard outdoor atmospheres is given in Table B.3.
+Grouping of salinity in levels characteristic of types of atmospheres is given in Table B.4. It is necessary to
+consider the high importance of chloride accumulation on surfaces not washed by rain, especially in humid
+sites.
+
+© ISO 2012 – All rights reserved
+
+9
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+The time of wetness is underestimated by the time that the temperature exceeds 0 °C and 80 % RH in frigid
+zones (freezing point depression).
+Table B.1 — Time of wetness in different exposure conditions
+Time of wetness
+h/a
+
+Level
+
+  10
+
+1
+
+Internal microclimates with climatic control
+
+10    250
+
+2
+
+Internal microclimates without climatic control except for internal non-air conditioned
+spaces in damp climates
+
+250    2 500
+
+3
+
+Outdoor atmospheres in dry, cold climates and some zones of temperate climates;
+properly ventilated sheds in temperate climates
+
+2 500    5 500
+
+4
+
+Outdoor atmospheres in all climates (except for dry and cold climates); ventilated
+sheds in humid conditions; unventilated sheds in temperate climates
+
+5 500  
+
+5
+
+Some zones of damp climates; unventilated sheds in humid conditions
+
+Example of occurrence
+
+NOTE 1 The time of wetness of a given locality depends on the temperature-humidity complex of the open-air atmosphere and the
+category of the location and is expressed in hours per year (h/a).
+NOTE 2 Sheltered surfaces in marine atmospheres, where chlorides are deposited, can experience substantially increased times of
+wetness, due to the presence of hygroscopic salts.
+NOTE 3
+
+In indoor atmospheres without climatic control, sources of water vapour cause higher times of wetness.
+
+Table B.2 — Outdoor concentration of some of the most important pollutants
+in different types of environments
+Concentration/deposition
+(yearly average value)
+
+Pollutant
+
+SO2
+
+NO2
+HNO3
+
+rural:
+
+2 – 15 (µg/m3)
+
+urban:
+
+5 – 100 (µg/m3)
+
+industrial:
+
+50 – 400 (µg/m3)
+
+rural:
+
+2 – 25 (µg/m3)
+
+urban:
+
+20 – 150 (µg/m3)
+
+rural:
+
+0,1 – 0,7 (µg/m3)
+
+urban/industrial:
+
+0,5 – 4 (µg/m3)
+
+20 – 90 (µg/m3)
+
+O3
+
+normally:
+H2S
+
+industrial and animal shelter:
+20 – 250 (µg/m3)
+normally:
+
+Cl2
+
+1 – 5 (µg/m3)
+
+some industry plants:
+
+0,1 (µg/m3)
+
+Cl
+
+10
+
+The main sources for SO2 are the use of coal
+and oil and emissions from industrial plants.
+
+Traffic is the main source for NO2 emissions.
+HNO3 is correlated with NO2. High
+concentrations of NO2, organic compounds and
+UV light increase the concentration.
+O3 is formed in the atmosphere by an
+interactions among sunlight, oxygen and
+pollutants. The concentrations are higher in
+polluted rural atmospheres and lower in
+high-traffic urban areas.
+There are some natural sources, for instance
+swamps and volcanic activities. The pulp and
+paper industry and farming give the highest
+concentrations.
+The main source is emissions from the pulp and
+paper industry.
+
+up to 20 (µg/m3)
+0,1 – 200 (µg/m3)
+
+
+
+Source
+
+depending on geographic situation –
+in marine atmospheres
+300 – 1 500 (µg/m3)
+
+The main sources are the ocean and de-icing of
+roads.
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 9223:2012(E)
+
+Table B.2 (continued)
+Concentration/deposition
+(yearly average value)
+
+Pollutant
+normally
+NH3
+
+low concentrations:
+
+ 20 (µg/m3)
+
+close to source:
+
+up to 3 000 (µg/m3)
+
+Source
+Fertilization in the agricultural area source and
+emissions from industry and food production
+can give the highest average values.
+Rural: largely inert components
+
+Particles-PM10
+
+Particles
+(dust deposits)
+
+Soot
+
+rural:
+
+10 – 25 (µg/m3)
+
+urban/industrial:
+
+30 – 70 (µg/m3)
+
+rural
+
+450 – 1 500 [mg/(m2a)]
+
+urban/industrial:
+
+1 000 – 6 000 [mg/(m2a)]
+
+rural:
+
+ 5 [mg/(m2·a)]
+
+urban and industrial: up to 75 [mg/(m2a)]
+
+Urban:
+high-concentration
+corrosive components
+
+traffic
+
+areas,
+
+Industrial: emissions from production can give
+high concentrations.
+Rural: largely inert components
+Urban and industrial:
+corrosion active components (SO42, NO3, Cl)
+Coal and wood burning is a major source.
+Diesel soot from cars is another source.
+
+NOTE
+This table introduces general limits of concentrations or deposition of pollutants. The real (actual) intervals are different in the
+particular parts of the world, depending on the level of industrialization and the application of measures for the abatement of pollution
+(legal measures, end-of-pipe technologies, etc.).
+
+Table B.3 — Grouping of pollution by sulfur-containing substances represented by SO2
+Deposition rate of SO2
+
+Concentration of SO2
+
+mg/(m2d)
+
+μg/m3
+
+Pd  4
+
+Pc  5
+
+P0 Rural atmosphere
+
+4  Pd  24
+
+5  Pc  30
+
+P1 Urban atmosphere
+
+24  Pd  80
+
+30  Pc  90
+
+P2 Industrial atmosphere
+
+80  Pd  200
+
+90  Pc  250
+
+P3 Highly polluted industrial atmosphere
+
+NOTE 1
+
+Level
+
+Methods of determination of sulfur dioxide (SO2) are specified in ISO 9225.
+
+NOTE 2 The sulfur dioxide (SO2) values determined by the deposition, Pd, and volumetric, Pc, methods are equivalent for the
+purposes of this International Standard. The relationship between measurements using both methods can be approximately expressed
+as: Pd = 0,8 Pc. This conversional factor is based on the deposition rate measurements on alkaline surfaces.
+NOTE 3 For the purposes of this International Standard, the sulfur dioxide (SO2) deposition rate and concentration are calculated
+from continuous measurements during at least one year and are expressed as the annual average. The results of short-term
+measurements can differ considerably from long-term values. Such results are only used for guidance.
+NOTE 4
+
+The ranges given cover common levels in individual types of atmospheres. Extreme values are listed in Table B.2.
+
+© ISO 2012 – All rights reserved
+
+11
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+Table B.4 — Grouping of pollution by airborne salinity represented by chloride
+
+NOTE 1
+
+Deposition rate of chloride
+mg/(m2d)
+
+Level
+
+Sd  3
+
+S0
+
+3  Sd  60
+
+S1
+
+60  Sd  300
+
+S2
+
+300  Sd  1 500
+
+S3
+
+The airborne salinity level according to this International Standard is based on the wet candle method specified in ISO 9225.
+
+NOTE 2 The results obtained by applying various methods (i.e. dry plate method) for the determination of the salt content in the
+atmosphere are not always directly comparable and convertible. Derived conversion factors are given in ISO 9225.
+NOTE 3 For the purposes of this International Standard, the chloride deposition rate is expressed as the annual average. The results
+of short-term measurements are very variable and depend very strongly upon weather effects.
+NOTE 4 Extreme pollution by chloride, which is typical of strong marine splash and spray, is outside of the scope of this International
+Standard.
+NOTE 5 The airborne salinity is strongly dependent on the variables influencing the transport inland of sea-salt, such as wind
+direction, wind velocity, local topography, distance of the exposure site from the sea, etc.
+
+12
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 9223:2012(E)
+
+Annex C
+(informative)
+Description of typical atmospheric environments
+related to the estimation of corrosivity categories
+
+Table C.1 — Description of typical atmospheric environments
+related to the estimation of corrosivity categories
+Typical environments — Examplesb
+
+Corrosivity
+categorya
+
+Corrosivity
+
+C1
+
+Very low
+
+Heated spaces with low relative humidity Dry or cold zone, atmospheric environment
+and insignificant pollution, e.g. offices, with very low pollution and time of wetness,
+schools, museums
+e.g. certain deserts, Central Arctic/Antarctica
+
+C2
+
+Low
+
+Unheated spaces with varying temperature Temperate zone, atmospheric environment
+and relative humidity. Low frequency of with low pollution (SO2  5 µg/m3), e.g. rural
+condensation and low pollution, e.g. areas, small towns
+storage, sport halls
+Dry or cold zone, atmospheric environment
+with short time of wetness, e.g. deserts,
+subarctic areas
+
+C3
+
+Medium
+
+Spaces with moderate frequency of Temperate zone, atmospheric environment
+condensation and moderate pollution from with medium pollution (SO2: 5 µg/m3 to
+production process, e.g. food-processing 30 µg/m3) or some effect of chlorides, e.g.
+plants, laundries, breweries, dairies
+urban areas, coastal areas with low
+deposition of chlorides
+
+Indoor
+
+Outdoor
+
+Subtropical and tropical zone, atmosphere
+with low pollution
+C4
+
+High
+
+Spaces with high frequency of condensation Temperate zone, atmospheric environment
+and high pollution from production process, with high pollution (SO2: 30 µg/m3 to
+e.g. industrial processing plants, swimming 90 µg/m3) or substantial effect of chlorides,
+pools
+e.g. polluted urban areas, industrial areas,
+coastal areas without spray of salt water or,
+exposure to strong effect of de-icing salts
+Subtropical and tropical zone, atmosphere
+with medium pollution
+
+C5
+
+Very high
+
+Spaces with very high frequency of Temperate
+and
+subtropical
+zone,
+condensation and/or with high pollution from atmospheric environment with very high
+production process, e.g. mines, caverns for pollution (SO2: 90 µg/m3 to 250 µg/m3)
+industrial purposes, unventilated sheds in and/or significant effect of chlorides, e.g.
+subtropical and tropical zones
+industrial areas, coastal areas, sheltered
+positions on coastline
+
+© ISO 2012 – All rights reserved
+
+13
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+Table C.1 (continued)
+Corrosivity
+categorya
+
+Corrosivity
+
+CX
+
+Extreme
+
+Typical environments — Examplesb
+Indoor
+
+Outdoor
+
+Spaces
+with
+almost
+permanent Subtropical and tropical zone (very high time
+condensation or extensive periods of of wetness), atmospheric environment with
+exposure to extreme humidity effects and/or very high SO2 pollution (higher than
+with high pollution from production process, 250 µg/m3) including accompanying and
+e.g. unventilated sheds in humid tropical production factors and/or strong effect of
+zones with penetration of outdoor pollution chlorides, e.g. extreme industrial areas,
+including
+airborne
+chlorides
+and coastal and offshore areas, occasional
+corrosion-stimulating particulate matter
+contact with salt spray
+
+NOTE 1 Deposition of chlorides in coastal areas is strongly dependent on the variables influencing the transport inland of sea salt,
+such as wind direction, wind velocity, local topography, wind sheltering islands outside the coast, distance of the site from the sea, etc.
+NOTE 2 Extreme effect by chlorides, which is typical of marine splash or heavy salt spray, is outside of the scope of this International
+Standard.
+NOTE 3 Corrosivity classification of specific service atmospheres, e.g. in chemical industries, is outside of the scope of this
+International Standard.
+NOTE 4 Surfaces that are sheltered and not rain-washed in marine atmospheric environments where chlorides are deposited and
+cumulated can experience a higher corrosivity category due to the presence of hygroscopic salts.
+NOTE 5 A detailed description of types of indoor environments within corrosivity categories C1 and C2 is given in ISO 11844-1.
+Indoor corrosivity categories IC1 to IC5 are defined and classified.
+a
+
+In environments with expected “CX category”, it is recommended that the atmospheric corrosivity classification from one-year
+corrosion losses be determined.
+
+b
+
+14
+
+The concentration of sulfur dioxide (SO2) should be determined during at least one year and is expressed as the annual average.
+
+© ISO 2012 – All rights reserved
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ISO 9223:2012(E)
+
+Bibliography
+
+[1]
+
+ISO 9225, Corrosion of metals and alloys — Corrosivity of atmospheres — Measurement of
+environmental parameters affecting corrosivity of atmospheres
+
+[2]
+
+ISO 9226, Corrosion of metals and alloys — Corrosivity of atmospheres — Determination of corrosion
+rate of standard specimens for the evaluation of corrosivity
+
+[3]
+
+ISO 11303, Corrosion of metals and alloys — Guidelines for selection of protection methods against
+atmospheric corrosion
+
+[4]
+
+KNOTKOVA, D., KUCERA, V., BOSCHEK, P., “Classification of the Corrosivity of the Atmosphere:
+Standardized classification System and Approach for Adjustment”, ASTM STP 1421 Outdoor
+Atmospheric Corrosion. 2002, pp. 107
+
+[5]
+
+MIKHAILOV, A.A., TIDBLAD, J. and KUCERA, V., The classification system of ISO 9223 standard and the
+dose-response functions assessing the corrosivity of outdoor atmospheres. Protection of Metals, 40(6),
+pp 541–550, 2004
+
+[6]
+
+MORCILLO, M., ALMEIDA, E., CHICO, B., DE LA FUENTE, D., Analysis of ISO Standard 9223 (Classification
+of Corrosivity of Atmospheres) in the Light of Information Obtained in the Ibero-American Micat,
+ASTM STP 1421 Outdoor Atmospheric Corrosion, 2002, pp. 59
+
+[7]
+
+KNOTKOVA, D., KREISLOVA, K., DEAN, S.W., “ISO CORRAG International Atmospheric Exposure
+Program: Summary of Results”, ASTM Data Series 71. ASTM International, PA, USA, 2010
+
+© ISO 2012 – All rights reserved
+
+15
+
+ISO 9223:2012(E)
+
+Licensed to Airshed Planning Professionals / Sannetjie Marais (sannetjie@airshed.co.za)
+SABS Store Order: OP-423786 / Downloaded: 2020-02-11
+Single user licence only, copying and networking prohibited.
+
+ICS 77.060
+Price based on 15 pages
+
+© ISO 2012 – All rights reserved
+
+

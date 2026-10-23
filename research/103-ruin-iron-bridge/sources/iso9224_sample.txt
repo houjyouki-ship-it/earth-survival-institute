@@ -1,0 +1,956 @@
+INTERNATIONAL
+STANDARD
+
+ISO
+9224
+Second edition
+2012-02-01
+
+Corrosion of metals and alloys —
+Corrosivity of atmospheres — Guiding
+values for the corrosivity categories
+Corrosion des métaux et alliages — Corrosivité des atmosphères —
+Valeurs de référence relatives aux classes de corrosivité
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+ISO 9224:2012
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b77797ac5153e5/iso-9224-2012
+
+Reference number
+ISO 9224:2012(E)
+
+© ISO 2012
+
+ISO 9224:2012(E)
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+ISO 9224:2012
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b77797ac5153e5/iso-9224-2012
+
+COPYRIGHT PROTECTED DOCUMENT
+© ISO 2012
+All rights reserved. Unless otherwise specified, no part of this publication may be reproduced or utilized in any form or by any means,
+electronic or mechanical, including photocopying and microfilm, without permission in writing from either ISO at the address below or
+ISO's member body in the country of the requester.
+ISO copyright office
+Case postale 56  CH-1211 Geneva 20
+Tel. + 41 22 749 01 11
+Fax + 41 22 749 09 47
+E-mail copyright@iso.org
+Web www.iso.org
+Published in Switzerland
+
+ii
+
+© ISO 2012 – All rights reserved
+
+ISO 9224:2012(E)
+
+Contents
+
+Page
+
+Foreword ............................................................................................................................................................ iv
+Introduction ......................................................................................................................................................... v
+1
+
+Scope ...................................................................................................................................................... 1
+
+2
+
+Normative references ............................................................................................................................ 1
+
+3
+
+Terms and definitions ........................................................................................................................... 1
+
+4
+
+Principle ................................................................................................................................................. 2
+
+5
+
+Prediction of corrosion attack after extended exposure................................................................... 2
+
+6
+6.1
+6.2
+6.3
+6.4
+
+Specific criteria for calculation of corrosion rates of structural metals.......................................... 3
+Steels ...................................................................................................................................................... 3
+Zinc materials ........................................................................................................................................ 4
+Copper alloys ......................................................................................................................................... 4
+Aluminium alloys ................................................................................................................................... 4
+
+7
+
+Long-term exposures ............................................................................................................................ 4
+
+Annex A (informative) Example of maximum corrosion attack after extended exposures for
+corrosivity categories ........................................................................................................................... 7
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+Annex B (informative) Average initial
+corrosion rates and average steady corrosion rates in
+
+intervals relative to classified corrosivity categories........................................................................ 9
+
+ISO 9224:2012
+Annex C (informative) Prediction of corrosion
+attack of steels with regard to steel composition .......... 10
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b7-
+
+Bibliography ......................................................................................................................................................
+12
+7797ac5153e5/iso-9224-2012
+
+© ISO 2012 – All rights reserved
+
+iii
+
+ISO 9224:2012(E)
+
+Foreword
+ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies
+(ISO member bodies). The work of preparing International Standards is normally carried out through ISO
+technical committees. Each member body interested in a subject for which a technical committee has been
+established has the right to be represented on that committee. International organizations, governmental and
+non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the
+International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.
+International Standards are drafted in accordance with the rules given in the ISO/IEC Directives, Part 2.
+The main task of technical committees is to prepare International Standards. Draft International Standards
+adopted by the technical committees are circulated to the member bodies for voting. Publication as an
+International Standard requires approval by at least 75 % of the member bodies casting a vote.
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent
+rights. ISO shall not be held responsible for identifying any or all such patent rights.
+ISO 9224 was prepared by Technical Committee ISO/TC 156, Corrosion of metals and alloys.
+This second edition cancels and replaces the first edition (ISO 9224:1992), which has been technically revised.
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+
+ISO 9224:2012
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b77797ac5153e5/iso-9224-2012
+
+iv
+
+© ISO 2012 – All rights reserved
+
+ISO 9224:2012(E)
+
+Introduction
+The “corrosivity category” established in ISO 9223 is a general term suitable for engineering purposes, which
+describes the corrosion properties of atmospheres based on current knowledge of atmospheric corrosion.
+Guiding values of corrosion attack can be used to predict the extent of corrosion attack in long-term exposures
+based on measurements of corrosion attack in the first-year exposure to the outdoor atmosphere in question.
+These values can also be used to determine conservative estimates of corrosion attack based on
+environmental information or corrosivity category estimates as shown in ISO 9223.
+Corrosion attack estimates obtained by using the methods in this International Standard can be used to
+predict the useful life of metallic components and, in some cases, of metallic coatings exposed to outdoor
+atmospheres covered by ISO 9223. The corrosion attack results can also be used to determine whether or not
+protective measures, such as coatings, are required to achieve desired product lives. Other uses include the
+selection of construction materials for outdoor atmospheric service.
+Guiding values of corrosion can be used as information for the selection of a protection method against
+atmospheric corrosion according to ISO 11303.
+The guiding values in this International Standard are based on a large number of exposures in many locations
+throughout the world. However, the procedure used in this International Standard cannot possibly cover all the
+situations in natural environments and service conditions which can occur. In particular, situations that result
+in significant changes in the environment can cause major increases or decreases in corrosion rates. Users of
+this International Standard are cautioned to consult with qualified experts in the field of outdoor atmospheric
+corrosion in cases where localized corrosion can be more important than general attack. The specific issues
+ISO 9224:2012
+of galvanic (bi-metallic) corrosion, pitting corrosion,
+crevice corrosion, environmental cracking and corrosion
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b7product wedging are not addressed in this International Standard.
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+7797ac5153e5/iso-9224-2012
+
+© ISO 2012 – All rights reserved
+
+v
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+ISO 9224:2012
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b77797ac5153e5/iso-9224-2012
+
+INTERNATIONAL STANDARD
+
+ISO 9224:2012(E)
+
+Corrosion of metals and alloys — Corrosivity of atmospheres —
+Guiding values for the corrosivity categories
+
+1
+
+Scope
+
+This International Standard specifies guiding values of corrosion attack for metals and alloys exposed to
+natural outdoor atmospheres for exposures greater than one year. This International Standard is intended to
+be used in conjunction with ISO 9223.
+Guiding corrosion values for standard structural materials can be used for engineering calculations. The
+guiding corrosion values specify the technical content of each of the individual corrosivity categories for these
+standard metals.
+Annex A provides examples of calculated maximum corrosion attack after extended exposure (up to 20 years)
+for six standardized corrosivity categories.
+Annex B provides presumed average initial and steady-state corrosion rates of standard metals in intervals
+relative to six standardized corrosivity categories.
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+Annex C provides the calculation procedure for corrosion attack of steels in regard to their composition.
+2
+
+ISO 9224:2012
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b7Normative references
+7797ac5153e5/iso-9224-2012
+
+The following referenced documents are indispensable for the application of this document. For dated
+references, only the edition cited applies. For undated references, the latest edition of the referenced
+document (including any amendments) applies.
+ISO 8044, Corrosion of metals and alloys — Basic terms and definitions
+ISO 9223, Corrosion of metals and alloys — Corrosivity of atmospheres — Classification, determination and
+estimation
+
+3
+
+Terms and definitions
+
+For the purposes of this document, the terms and definitions given in ISO 8044 and the following apply.
+3.1
+guiding corrosion value
+corrosion rates, mass loss, penetration or other corrosion characteristics expressing the expected corrosive
+action of the atmospheric environment of a given corrosivity category towards standard metals
+3.2
+corrosion rate after extended exposure
+corrosion rate after exposures longer than one year
+
+© ISO 2012 – All rights reserved
+
+1
+
+ISO 9224:2012(E)
+
+3.3
+average corrosion rate
+rav
+yearly corrosion rate calculated as an average value for the first 10 years of atmospheric exposure of a metal
+3.4
+steady-state corrosion rate
+rlin
+yearly corrosion rate derived from a long-term atmospheric exposure of a metal, not including the initial period
+NOTE
+constant.
+
+4
+
+For the purposes of this International Standard, the corrosion rate after 10 years of exposure is considered
+
+Principle
+
+The corrosion rate of metals and alloys exposed to natural outdoor atmospheres is not constant with exposure
+time. For most metals and alloys, it decreases with exposure time because of the accumulation of corrosion
+products on the surface of the metal exposed. The progress of attack on engineering metals and alloys is
+usually observed to be linear when the total damage is plotted against exposure time on logarithmic
+coordinates. This relationship indicates that the total attack, D, expressed either as mass loss per unit area or
+penetration depth, may be given as:
+D = rcorr tb
+where
+t
+rcorr
+
+(1)
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+is the exposure time, expressed in years;
+is the corrosion rate experienced in theISO
+first9224:2012
+year, expressed in grams per square metre per year
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b7[g/(m2a)] or micrometres per year (μm/a), in accordance with ISO 9223;
+
+7797ac5153e5/iso-9224-2012
+
+b
+
+5
+
+is the metal-environment-specific time exponent, usually less than 1.
+
+Prediction of corrosion attack after extended exposure
+
+This procedure should be used in cases where the extent of corrosion attack in the first year is available or
+can be estimated by the procedures in ISO 9223, and the desire is to predict the extent of attack after an
+extended exposure.
+The attack prediction is calculated by substituting the values in Equation (1).
+An appropriate b value is selected or calculated according to Clause 7. In cases where long-term metal loss
+data are available, use the b value from this data. In cases where the detailed composition of the metal is not
+known, select the B1 value from Table 2 for the metal or alloy in question. This is the b value to be used in
+Equation (1).
+The B1 values were taken as the average time exponents from regression analyses of the flat panel long-term
+results of the ISO CORRAG atmospheric exposure programme[1].
+NOTE
+It is necessary to distinguish between metal-environment-specific time exponent, b, in Equation (1), estimated
+from exposure data, and B1 and B2 values assumed or calculated from the ISO CORRAG programme as generalized b
+values.
+
+Table 3 contains values of the function tb for time values up to 100 years with the B1 exponents to simplify the
+calculations. However, it is possible for Equation (1) not to apply to exposures beyond 20 years (see Clause 7
+below for a discussion of long-term exposures).
+
+2
+
+© ISO 2012 – All rights reserved
+
+ISO 9224:2012(E)
+
+In cases where it is important to estimate a conservative upper limit of corrosion attack after an extended
+exposure, the b value used in Equation (1) should be increased to account for uncertainties in the data. One
+way to do this is to add two standard deviations to the average value to obtain a value at the upper 95 %
+confidence level. For the four metals shown in Table 2, the standard deviations of the b values[1] are:
+
+
+Carbon steel:
+
+0,026 0
+
+
+
+Zinc:
+
+0,030 0
+
+
+
+Copper:
+
+0,029 5
+
+
+
+Aluminium:
+
+0,039 5
+
+NOTE
+Estimation of a conservative upper limit of corrosion attack after an extended exposure is based on
+uncertainties in b. This estimation does not take into account uncertainties in rcorr, which are defined in ISO 9223.
+
+The B2 values in Table 2 include the two standard deviation additions and may be used where an upper limit
+of corrosion attack is desired when using the flat panel data from the ISO CORRAG programme. Table 3 also
+provides calculated values for the function, tb, up to 100 years using B2 values for b (see Clause 7 for
+exposures beyond 20 years).
+Annex A provides maximum corrosion attack for the standard metals covered in ISO 9223 for exposures up to
+20 years for the six corrosion categories. These calculations are made using the time exponents given in
+Table 2.
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+
+6
+
+Specific criteria for calculation of corrosion rates of structural metals
+
+6.1
+
+Steels
+
+The protectiveness of rust layers on steels inISO
+atmospheric
+9224:2012 exposures is very strongly affected by the alloying
+elements in the steel.
+Weathering steels, in particular, have specific alloying additions to promote the
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b7formation of a protective rust layer that7797ac5153e5/iso-9224-2012
+develops during the exposure. Other carbon and low-alloy steels vary
+significantly in their performance in atmospheric exposures depending on their specific alloy content. The
+calculation procedure for corrosion rates of steels in regard to their composition is given in Annex C.
+The B1 and B2 values in Table 2 are estimated for carbon steel with the composition mentioned in Table 1[2].
+Table 1 — Composition of steel for which the B1 and B2 values are estimated
+Element
+
+© ISO 2012 – All rights reserved
+
+Composition
+mass fraction
+%
+
+Carbon
+
+0,056
+
+Silicon
+
+0,060
+
+Sulfur
+
+0,012
+
+Phosphorus
+
+0,013
+
+Chromium
+
+0,02
+
+Molybdenum
+
+0,01
+
+Nickel
+
+0,04
+
+Copper
+
+0,03
+
+Niobium
+
+0,01
+
+Titanium
+
+0,01
+
+Vanadium
+
+0,01
+
+Aluminium
+
+0,02
+
+Tin
+
+0,005
+
+Nitrogen
+
+0,004
+
+Manganese
+
+0,39
+
+3
+
+ISO 9224:2012(E)
+
+Crevices and sheltered areas not exposed to rain impingement have been observed to experience
+significantly higher corrosion damage than predicted by Equation (1) in extended exposures. In addition,
+designs using weathering steels or unprotected carbon steels should anticipate that rain run-off leaves rust
+deposits on surfaces exposed to this run-off and permanent staining can occur to concrete, stone, masonry
+and other porous materials.
+Steels that have been hardened to produce tensile strengths above about 1 000 MPa can suffer
+environmentally assisted cracking as a result of atmospheric corrosion.
+
+6.2
+
+Zinc materials
+
+Zinc alloys also vary significantly in their atmospheric performance. The B1 values in Table 2 are obtained
+from commercially pure zinc alloys, but other zinc alloys have shown higher b values in atmospheric
+exposures[3]. Electroplated zinc coatings, mechanically plated zinc coatings, and hot-dipped zinc coatings all
+have unique behaviours, and using Equation (1) with the B1 or B2 values might not accurately predict their
+performance. Zinc materials are particularly susceptible to attack from sulfur dioxide, and environments with
+high levels of this gas (sulfur dioxide range P3) probably corrode at higher rates than predicted by Equation (1).
+In these cases, it is prudent to assume a corrosion rate that is linear with time, that is the b value is 1,0.
+NOTE
+
+6.3
+
+For more information on the use of zinc coatings for corrosion protection, see ISO 14713-1.
+
+Copper alloys
+
+Copper alloys, such as brasses (i.e. copper-zinc alloys), bronzes (i.e. copper-tin alloys), nickel silvers (i.e.
+copper alloys with zinc and nickel contents) and cupronickels, have atmospheric corrosion rates similar to, or
+somewhat less than, pure copper[4][5]. The B1 and B2 values in Table 2 are adequate for all of these materials.
+Brasses with zinc contents above about 20 % can experience dezincification in aggressive atmospheres.
+Two-phase brasses are most susceptible to this type of attack. It should also be noted that strain-hardened
+copper alloys can experience environmental cracking in natural atmospheres if their degree of strain
+ISO 9224:2012
+hardening is high enough.
+
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+
+6.4
+
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b77797ac5153e5/iso-9224-2012
+Aluminium alloys
+
+Aluminium alloys experience both uniform and localized corrosion in natural atmospheres. As a result, the
+attack calculated by the above-mentioned methods can seriously underestimate maximum penetrations that
+occur. In addition, high strength, age hardening alloys that contain significant copper or copper-zinc levels can
+experience exfoliation corrosion. Aluminium products having a layer of galvanic protective alloy clad on the
+high strength alloy generally have much improved corrosion resistance in atmospheric exposures. Specific
+tempers have also been developed for high strength, age hardening alloys containing significant copper-zinc
+levels in order to prevent exfoliation or stress corrosion cracking. Alloys with good long-term corrosion
+behaviour used for structural, marine and building applications are covered in specific aluminium standards.
+
+7
+
+Long-term exposures
+
+Equation (1) has been observed to be valid for exposures of up to 20 years' duration for the metals covered by
+this International Standard. However, Equation (1) is based on the fact that the corrosion product layers
+increase in thickness and degree of protection during the exposure. At some point in time beyond 20 years,
+the layer stabilizes and, at this point, the corrosion rate becomes linear with time, because the rate of metal
+loss becomes equal to the rate of loss from the corrosion product layer. Unfortunately, there are no
+experimental data that show when this might occur and there is no method of predicting this time. The use of
+Equation (1) beyond 20 years is probably justified in most cases, especially if the exposure is not much
+greater than 20 years.
+However, an approach that yields the maximum estimate of attack is to assume that the corrosion rate
+becomes linear at 20 years of exposure. In this case, the corrosion rate may be calculated using Equation (2):
+dD/dt = b rcorr (t)b1
+
+4
+
+(2)
+
+© ISO 2012 – All rights reserved
+
+ISO 9224:2012(E)
+
+Then the total attack would be:
+D(t  20) = rcorr [20b + b (20b1) (t – 20)]
+
+(3)
+
+Table 4 gives values for the term b(20b1) for the b values shown in Table 2. Equation (3) provides larger
+corrosion attack estimates than Equation (1) for exposures beyond 20 years, but, in cases where a maximum
+attack estimate is required, Equation (3) is justified.
+Table 2 — Time exponent values for predicting and estimating corrosion attack
+Metal
+
+B1
+
+B2
+
+Carbon steel
+
+0,523
+
+0,575
+
+Zinc
+
+0,813
+
+0,873
+
+Copper
+
+0,667
+
+0,726
+
+Aluminium
+
+0,728
+
+0,807
+
+Table 3 — Metal-environment-specific time exponents for standard metals
+Steel
+B1
+b values
+
+0,523
+
+t (years)
+1
+
+Zinc
+B2
+
+B1
+
+Copper
+B2
+
+B1
+
+Aluminium
+B2
+
+iTeh
+0,575STANDARD
+0,813
+0,873 PREVIEW
+0,667
+0,726
+(standards.iteh.ai)
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+1,000
+
+B1
+
+B2
+
+0,728
+
+0,807
+
+1,000
+
+1,000
+
+1,656
+
+1,750
+
+2,225
+
+2,427
+
+3
+
+ISO 9224:2012
+1,437
+1,490
+1,757
+1,831
+1,588
+1,654
+https://standards.iteh.ai/catalog/standards/sist/ed08cea3-78ec-43e6-a8b71,776
+1,881
+2,443
+2,609
+2,081
+2,220
+7797ac5153e5/iso-9224-2012
+
+4
+
+2,065
+
+2,219
+
+3,087
+
+3,354
+
+2,521
+
+2,736
+
+2,743
+
+3,061
+
+5
+
+2,320
+
+2,523
+
+3,701
+
+4,076
+
+2,926
+
+3,217
+
+3,227
+
+3,665
+
+6
+
+2,553
+
+2,802
+
+4,292
+
+4,779
+
+3,304
+
+3,672
+
+3,685
+
+4,246
+
+7
+
+2,767
+
+3,061
+
+4,865
+
+5,467
+
+3,662
+
+4,107
+
+4,123
+
+4,808
+
+8
+
+2,967
+
+3,306
+
+5,423
+
+6,143
+
+4,003
+
+4,525
+
+4,544
+
+5,355
+
+9
+
+3,156
+
+3,537
+
+5,968
+
+6,809
+
+4,330
+
+4,929
+
+4,951
+
+5,889
+
+10
+
+3,334
+
+3,758
+
+6,501
+
+7,464
+
+4,645
+
+5,321
+
+5,346
+
+6,412
+
+11
+
+3,505
+
+3,970
+
+7,025
+
+8,112
+
+4,950
+
+5,702
+
+5,730
+
+6,925
+
+12
+
+3,668
+
+4,174
+
+7,540
+
+8,752
+
+5,246
+
+6,074
+
+6,104
+
+7,428
+
+13
+
+3,825
+
+4,370
+
+8,047
+
+9,386
+
+5,534
+
+6,438
+
+6,471
+
+7,924
+
+14
+
+3,976
+
+4,561
+
+8,547
+
+10,013
+
+5,814
+
+6,793
+
+6,829
+
+8,413
+
+15
+
+4,122
+
+4,745
+
+9,040
+
+10,635
+
+6,088
+
+7,142
+
+7,181
+
+8,894
+
+16
+
+4,263
+
+4,925
+
+9,527
+
+11,251
+
+6,355
+
+7,485
+
+7,527
+
+9,370
+
+17
+
+4,401
+
+5,099
+
+10,008
+
+11,863
+
+6,618
+
+7,822
+
+7,866
+
+9,839
+
+18
+
+4,534
+
+5,270
+
+10,484
+
+12,470
+
+6,875
+
+8,153
+
+8,200
+
+10,304
+
+19
+
+4,664
+
+5,436
+
+10,955
+
+13,072
+
+7,127
+
+8,480
+
+8,530
+
+10,764
+
+20
+
+4,791
+
+5,599
+
+11,422
+
+13,671
+
+7,375
+
+8,801
+
+8,854
+
+11,218
+
+2
+
+© ISO 2012 – All rights reserved
+
+5
+
+
