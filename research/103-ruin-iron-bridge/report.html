@@ -1,0 +1,110 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究103：重い崩壊の後、廃墟の鉄で製鉄の段を飛ばせる年数（open_problems 249） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="103open_problems-249">研究103：重い崩壊の後、廃墟の鉄で製鉄の段を飛ばせる年数（open_problems 249）</h1>
+<blockquote>
+<p>注：本報告の価値・F・TC などの指標は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>057 は重い崩壊の T2 到達を人口の待ちが決めるとした。038 の式で製鉄前（T00）の群の製鉄の段は tFe = max(d_Fe, wait(N_Fe))。都市に残る鉄・鋼をそのまま鍛えて使えれば、自前の製鉄ができるまでの間をつなげる。廃墟の鉄が持つ年数 T_scrap は tFe を超えるか、超えたとき T2 到達と価値はどれだけ動くか。</p>
+<h2 id="sources-sha256sums">確認した事実（本回開いて確認、sources/ に保存、SHA256SUMS）</h2>
+<table>
+<thead>
+<tr>
+<th>値</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>先進国（豪・加・EU15・諾・瑞・日・新・米、2005年に約8.6億人）の使用中の鋼は 1人あたり 7,085 kg</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Scrap">Wikipedia: Scrap</a>、IRP Metal Stocks in Society を引用）】</td>
+</tr>
+<tr>
+<td>1人あたりの使用中の在庫は先進国が途上国の 5〜10倍</td>
+<td>【事実（<a href="https://www.resourcepanel.org/reports/metal-stocks-society">IRP: Metal Stocks in Society</a>）】</td>
+</tr>
+<tr>
+<td>炭素鋼の初年の腐食 C2 1.3〜25、C3 25〜50、C4 50〜80、C5 80〜200 µm/年</td>
+<td>【事実（<a href="https://nnr.co.za/wp-content/uploads/2024/04/Appendix-5.8.E-ISO_9223_2012en.pdf">ISO 9223:2012 の写し</a>、<a href="https://www.korvestgalvanisers.com.au/engineering-resources/technical-advice/atmospheric-corrosion-resistance/">Korvest</a>）】</td>
+</tr>
+<tr>
+<td>長期の腐食 D = r·t^b、炭素鋼 B1 0.523・B2 0.575、20年を超えると線形の式で最大の見積り</td>
+<td>【事実（<a href="https://cdn.standards.iteh.ai/samples/53500/48d0ad5886f74a05a0d0faf4a71da09e/ISO-9224-2012.pdf">ISO 9224:2012 の見本</a>）】</td>
+</tr>
+<tr>
+<td>Roman Britain の鉄の生産の推計 1.5 kg/人/年、Han は約 5,000 t（約5千万人で約 0.1 kg/人）</td>
+<td>【事実（<a href="https://en.wikipedia.org/wiki/Roman_metallurgy">Wikipedia: Roman metallurgy</a>）】。Han の 1人あたりは本回の割り算</td>
+</tr>
+</tbody>
+</table>
+<h2 id="simpy100seed-20261103">方法（sim.py、約100秒、seed 20261103）</h2>
+<ul>
+<li>057 の sim.py を exec し 038/054 の乱数と状態をそのまま使う。廃墟の鉄なしで 054 の T2 到達を差0で再現（assert）。</li>
+<li>届く在庫 = 1人あたり在庫 logU(709, 7,085) kg × 元の人口密度 logU(10, 300)/km²【推測】× 半径 145 km（073）の面積 × 掘り出せる割合 logU(0.01, 0.3)【推測】。</li>
+<li>厚さ 1・5・20 mm の 3 種（構成は U(0.1,0.4)・U(0.2,0.4)・残り【推測】）、外は初年 logU(13,80) µm、覆いの下（割合 U(0.2,0.6)【推測】）は logU(1.3,13) µm。両面から厚さの半分を失うと使えないとし、ISO 9224 の線形の式（最大の見積り）で寿命を出す。</li>
+<li>需要 = 群の人口 n0·e^{rt}（N_Fe で頭打ち）× logU(0.1, 5) kg/人/年。T_scrap = 累積の需要が残る在庫を超える時刻。</li>
+<li>T_scrap ≥ tFe の T00 の標本で tFe=0（製鉄の習得は並行）、T2 を計算し直して V_m と agg で価値の比 F を出す。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<ul>
+<li>【計算】量：N_Fe の人口での需要に対して届く在庫は中央値 <strong>35,700 年分</strong>（5% 点 935 年）。</li>
+<li>【計算】腐食：C3 の外で 1 mm の板は <strong>35 年</strong>、5 mm 248 年、20 mm <strong>1,046 年</strong>（B2 で 27・192・814 年、べき乗のままなら 38・816・11,561 年、C5 では 3・53・267 年）。厚さの構成の中央で使える量の半分が失われるのは約 1,050 年。</li>
+<li>【計算】T00 の標本（91,577、BIO と U3 の成分）で T_scrap の中央値 <strong>5,579 年</strong>（5〜95% 1,269〜2万）、tFe の中央値 <strong>1,153 年</strong>（99〜4,305）。廃墟の鉄が tFe まで持つ割合は <strong>0.947</strong>（版 0.71〜0.98、すべて悪い側に重ねた版 0.15）。</li>
+<li>【計算】それでも T2 到達の中央値は 2,814 → 2,811 年（−0.09%）、平均の短縮 2.0 年。価値の比 F_heavy（A_Ord/U3）は <strong>1.0005</strong>、F_total 1.0002。すべての T00 で tFe=0 にした上限でも F_heavy 1.0005。</li>
+<li>【計算】理由：T00 で t1 を決めるのが製鉄の道（tFe + d01e）なのは 8.2% だけで、残りは wait(N_lens)（ガラス・レンズの人口の待ち）が決める。製鉄の段を飛ばしても、次の段の人口の待ちに吸収される。</li>
+</ul>
+<h2 id="_3">判定（分類つき）</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>分類</th>
+<th>値</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H115a 届く在庫は需要の 1,000 年分超（中央値）</td>
+<td>確認的</td>
+<td>35,700 年</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H115b C3 で使える量の半分が失われるのは 100 年超</td>
+<td>確認的</td>
+<td>約 1,050 年</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H115c 廃墟の鉄が tFe まで持つ割合 &gt; 0.8</td>
+<td>予測</td>
+<td>0.947</td>
+<td>支持（悪い側の版では 0.71〜0.79、全部重ねると 0.15）</td>
+</tr>
+<tr>
+<td>H115d F−1 &lt; 0.05 かつ T2 中央値の変化 &lt; 10%</td>
+<td>予測</td>
+<td>+0.0002、−0.09%</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>- 記述：tFe の中央値が 1,000 年を超えるのは小さな群の人口の待ちのため（d_Fe 中央値 20 年ではない）。</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">限界と逸脱</h2>
+<ul>
+<li>在庫の厚さの構成、掘り出せる割合、覆いの割合、元の人口密度は【推測】。覆いの下の厚い鋼が数千年持つことが T_scrap の上側を作っている。土に埋もれた鉄・コンクリートの中の鉄筋（中性化の後に腐食）は扱っていない。</li>
+<li>廃墟の鉄が閾値 N_Fe や N_lens そのものを下げる効き（道具が多いと分業が少なくて済む）は入れていない。入れると結論が変わりうる（新規 250）。</li>
+<li>038 の段の模型は二値（160 の未解決のまま）。</li>
+<li>本回の版（B2・べき乗・在庫 0.1 倍・需要 3 倍・半径 50 km・厚い鋼なし・全部）は登録で名指ししていないが、登録の模型の範囲の感度。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>廃墟の鉄は量も持ちも十分で、重い崩壊の製鉄前の群の 95% で自前の製鉄までをつなげる。だが模型の中では T2 到達も価値もほぼ動かない（+0.05%）。重い崩壊の立ち直りを縛るのは道具の材料ではなく、ガラス・レンズと T2 の段の人口の待ちだと、057 の結論が別の経路から確かめられた。</p>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>崩壊後の知識の束を作る人は、製鉄の手引きより、廃墟の鉄の鍛え方（短い手引き）と、少ない人口でガラス・レンズに届く方法に字数を割く。</li>
+<li>本研究所は、段の閾値を下げる効き（250）か、段を連続の技能にする模型（160）へ進む。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
