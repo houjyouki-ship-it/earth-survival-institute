@@ -1,0 +1,124 @@
+{
+ "repro099": {
+  "q_main": 0.4627725021709921,
+  "q_no_et": 0.506710669331369
+ },
+ "tsmx_attr": {
+  "ctl_cell_methods": "time: mean",
+  "ctl_max_abs_TSMX_minus_TSMN": 0.0,
+  "w150_cell_methods": "time: maximum"
+ },
+ "H112c": {
+  "median_ETo_ratio_y2_gain": 0.4911663061931809,
+  "median_Lr_s_y2_gain": 0.4248336144447757,
+  "median_ETo_ratio_by_year": [
+   0.6053116151783682,
+   0.4911663061931809,
+   0.5028286420798385,
+   0.5088697697986913,
+   0.535103962571438
+  ],
+  "median_Lr_by_year": [
+   0.536917123429834,
+   0.4248336144447757,
+   0.4631545885104855,
+   0.4534731151173947,
+   0.4815393706423494
+  ],
+  "frac_gain_ETo_ratio_lt_Lr_y2": 0.09346916526556015,
+  "median_ETo_ratio_y2_dtr_light": 0.3576054073676064
+ },
+ "desc_eto": {
+  "median_ctl_ETo_mm_d": 4.283759918354017,
+  "median_150_ETo_mm_d_y2": 2.038158720844683,
+  "median_ctl_Tseason": 23.86736488342285,
+  "median_150_Tseason_y2": 12.249664306640625,
+  "frac_gain_light_matched": 1.0000001192092896,
+  "ctl_ETo_q10_q90": [
+   3.476384592391155,
+   5.660239084226015
+  ]
+ },
+ "H112a": {
+  "premodern_barley_or_cereal": [
+   4.01,
+   2.5,
+   14.0
+  ],
+  "median": 4.01,
+  "barley_only": 4.01,
+  "all_values": {
+   "Sussex barley 1350-99 (Brandon 1972 via WP)": 4.01,
+   "Europe 9th c. cereals (WP Crop yield)": 2.5,
+   "Low Countries 14th c. cereals (WP Crop yield)": 14.0,
+   "Sussex wheat 1350-99": 4.34,
+   "Sussex oats 1350-99": 2.87,
+   "Debre Birhan malt barley 100 kg/ha, high input": 39.0,
+   "AICPMIP wheat norm": 20.0,
+   "AICPMIP oat norm": 15.0
+  }
+ },
+ "H112b": {
+  "potato_values": [
+   4.166666666666667,
+   6.85,
+   9.025157232704402,
+   4.65,
+   8.3,
+   1.25,
+   5.4799999999999995
+  ],
+  "median": 5.4799999999999995,
+  "q25_q75": [
+   4.408333333333333,
+   7.575
+  ],
+  "all_values": {
+   "AICPMIP/APSSCA potato norm 3 t -> 12.5 t": 4.166666666666667,
+   "Ethiopia national 13.7 t / 2 t rec.": 6.85,
+   "Wolaita 11.5-17.2 t / 1.59 t (mid)": 9.025157232704402,
+   "Tigray 9.3 t / 2 t": 4.65,
+   "S. Ethiopia improved 16.6 t / 2 t": 8.3,
+   "S. Ethiopia local 2.5 t / 2 t": 1.25,
+   "FAO typical seed 2-3 t with Ethiopia national 13.7 t": 5.4799999999999995
+  }
+ },
+ "versions": {
+  "099_main_fsds_g10": 0.4627725021709921,
+  "pm_g10": 0.46329915469686966,
+  "fsds_gsrc": 0.4747819440526655,
+  "pm_gsrc_MAIN": 0.47619281594234053,
+  "pm_gsrc_popw": 0.5184945148544428,
+  "pm_gsrc_sameSubregion": {
+   "q": 0.47619281594234053,
+   "PG3_country": 0.3928333333333333,
+   "PG3_region": 0.2999833333333333,
+   "PG3_world": 0.10703333333333333
+  },
+  "pm_u1_gsrc": 0.4734857857256429,
+  "pm_u4_gsrc": 0.4810636431357125,
+  "pm_dtr6_gsrc": 0.4716267074254574,
+  "pm_dtr14_gsrc": 0.48279781751625706,
+  "pm_dtr_light_gsrc": 0.4628889040759532,
+  "pm_dew_minus2_gsrc": 0.47995232058747206,
+  "pm_5yr_mean_ratio_gsrc": 0.47679079284716863,
+  "pm_g_lo_2.5_1.25": 0.635124034670298,
+  "pm_g_hi_14_9": 0.46334940094675403,
+  "pm_g_modern_39_9": 0.46180497902969364,
+  "pm_gsrc_f075": 0.4662671392579796,
+  "none_et_gsrc": 0.5442061126668705
+ },
+ "H112d": {
+  "q": 0.47619281594234053,
+  "range099": [
+   0.445,
+   0.579
+  ],
+  "inside": true
+ },
+ "ctrl_false_5yr": {
+  "g10": 0.08500668685883284,
+  "gsrc": 0.08500668685883284,
+  "g_lo": 0.1017486797645688
+ }
+}

@@ -1,0 +1,108 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究100：耐寒の作物の増殖比と核の冬の蒸発の需要（open_problems 241＋242） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="100open_problems-241242">研究100：耐寒の作物の増殖比と核の冬の蒸発の需要（open_problems 241＋242）</h1>
+<p><strong>注：V/V0 や q は模型の中の割合で、生存確率でも復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</strong></p>
+<h2 id="_1">問い</h2>
+<p>099 の主 q 0.463 は、耐寒の作物（大麦・ジャガイモ）の増殖比（収量÷種）を 10、作物の蒸発の需要 ETm を季節の日射の比 L_r に比例させる近似に乗っていた。資料で増殖比を取り、FAO 56 の Penman-Monteith の式（PM）で ETo の比を計算して置き直す。事前登録は PREREGISTRATION.md（13:38 JST、資料を開く前・sim.py の前）。</p>
+<h2 id="sources-sha256sums">資料（本回取得、sources/ と SHA256SUMS）</h2>
+<ul>
+<li>【事実（Wikipedia「Agriculture in the Middle Ages」、Brandon 1972 の引用）】Sussex の荘園 1350–1399 の平均の増殖比は小麦 4.34、大麦 4.01、燕麦 2.87。https://en.wikipedia.org/wiki/Agriculture_in_the_Middle_Ages</li>
+<li>【事実（Wikipedia「Crop yield」）】欧州の一部で 9 世紀の比は 1:2.5、Low Countries は 14 世紀に 1:14。1:3 を生存の最小とする見方（Pipes 1974）。https://en.wikipedia.org/wiki/Crop_yield</li>
+<li>【事実（AICPMIP の Production Norms）】ジャガイモの種 3,000 kg/ha、種の収量 125 qtl/ha、比 1:4。小麦 1:20、燕麦 1:15。https://www.aicpmip.res.in/Seed%20Multiplication%20Rate.pdf 。APSSCA もジャガイモ 1:4（https://apssca.org/smr.php ）。</li>
+<li>【事実（FAO i1127e）】種芋は「two to three tonnes per hectare is the typical seed requirement」。https://www.fao.org/4/i1127e/i1127e.pdf</li>
+<li>【事実（Wolaita の調査、Agric &amp; Food Secur 2017）】平均の播種 1.59 t/ha（推奨 2 t/ha）、収量 11.5〜17.2 t/ha が最多、Tigray 9.3 t/ha、南部の改良品種 16.6・在来 2.5 t/ha、国の平均 13.7 t/ha（農家は尿素・DAP を使用）。https://link.springer.com/article/10.1186/s40066-017-0106-8</li>
+<li>【事実（Shibe &amp; Anbes、Debre Birhan の天水の麦芽大麦）】推奨の 100 kg/ha で増殖比 39（高い投入と集約の管理）。https://i.journal.fanres.org/article/view/418</li>
+<li>【事実（ファイルの属性）】NWDC の CESM 出力（097 で取得、https://osf.io/e28gq/ ）の TSMX・TSMN は 150 Tg では cell_methods「time: maximum」（月の極値）、対照では「time: mean」で TS と同じ値（差 0）。日の最高・最低の月平均はない。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>増殖比：登録の分類で、前近代の大麦（なければ麦類）は {4.01, 2.5, 14}、低投入のジャガイモ（重さ）は 7 値（4.17、6.85、9.03、4.65、8.3、1.25、5.48）。中央値を 099 の gmult に入れた（大麦 4.01、ジャガイモ 5.48）。</li>
+<li>ETo：FAO 56 の式で月ごとに計算（Rso＝0.75 Ra、Rnl は式 39、露点＝Tmin、u2＝2 m/s、標高 0）。日射は 098 の FSDS の国の月平均。<strong>逸脱</strong>：TSMX・TSMN が日較差を表さないので、TS に日較差 DTR を置いた（主 10 °C を両方に、版 6・14 °C、150 Tg だけ DTR を日射の比で縮める版）。ETm150＝ETm_ctl×(季節の ETo150÷対照の平均)。</li>
+<li>他は 099 と同じ（FAO 33 の Ky、遮光の γ、seed_loss の f＝0.5、x_min＝0.01、5 年）。099 の q 0.46277・ETm を下げない版 0.50671 を差0で再現（assert）、同じ関数で 099 の主も差0。sim.py を 2 回実行し stdout が一致。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>099 主（L_r、増殖比 10）</td>
+<td>0.463</td>
+</tr>
+<tr>
+<td>PM、増殖比 10</td>
+<td>0.463</td>
+</tr>
+<tr>
+<td>L_r、資料の増殖比</td>
+<td>0.475</td>
+</tr>
+<tr>
+<td><strong>PM＋資料の増殖比（主）</strong></td>
+<td><strong>0.476</strong>（3 群：同じ国 0.393、小地域 0.300、世界 0.107）</td>
+</tr>
+<tr>
+<td>人口の重み</td>
+<td>0.518</td>
+</tr>
+<tr>
+<td>u2 1・4 m/s</td>
+<td>0.473・0.481</td>
+</tr>
+<tr>
+<td>DTR 6・14 °C、日射で縮む DTR</td>
+<td>0.472・0.483・0.463</td>
+</tr>
+<tr>
+<td>露点＝Tmin−2 °C</td>
+<td>0.480</td>
+</tr>
+<tr>
+<td>増殖比の低端（2.5・1.25）</td>
+<td><strong>0.635</strong></td>
+</tr>
+<tr>
+<td>増殖比の高端（14・9）、現代の試験（39・9）</td>
+<td>0.463・0.462</td>
+</tr>
+<tr>
+<td>f＝0.75（登録外）</td>
+<td>0.466</td>
+</tr>
+<tr>
+<td>ETm を下げない</td>
+<td>0.544</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>得の格子の季節の ETo の比（年 2）の中央値は 0.49、L_r は 0.42。ETo が L_r より下がる面積は 9%。日射で DTR を縮める版だけ 0.36。対照の ETo の中央値 4.3 mm/d（10〜90% 3.5〜5.7）、150 Tg の年 2 2.0 mm/d。季節の地表温度の中央値 23.9→12.2 °C。</li>
+<li>平時の偽陽性（登録外、対照の連続 5 年の窓 16 個）：増殖比 10 と資料の中央値でともに 0.085、低端で 0.102。</li>
+</ul>
+<h2 id="_4">判定（分類つき）</h2>
+<ul>
+<li>H112a（確認的）<strong>支持</strong>：前近代の麦類の中央値 4.01（大麦だけでも 4.01）で 10 未満。</li>
+<li>H112b（確認的）<strong>支持</strong>：ジャガイモの重さの比の中央値 5.48（25〜75% 4.4〜7.6）で 10 未満。</li>
+<li>H112c（予測）<strong>棄却</strong>（主）：ETo の比 0.49 は L_r 0.42 より大きい。【推測】式の上では、Rs/Rso が下がると正味の長波の損失も減り、日射の低下の一部を打ち消す（項の分解はしていない）。DTR を日射で縮める版でだけ成り立つが、その DTR の仮定は資料で確かめられない。</li>
+<li>H112d（予測）<strong>支持</strong>：q 0.476 は 099 の幅 0.445〜0.579 の中。</li>
+</ul>
+<h2 id="_5">解釈</h2>
+<ul>
+<li>【推測】099 の 2 つの近似はどちらも q を大きくは動かさない。ETm を日射に比例させる近似は PM とほぼ同じ q を出し（差 0.001）、増殖比を 10 から資料の 4〜5.5 に下げても +0.013。</li>
+<li>【独自仮説】q が増殖比に敏感になるのは f×増殖比が 1 付近（平年でも種が増えない）になるときだけで、資料の最低の値（9 世紀の 2.5、在来の芋 1.25）に寄ると 0.635 に跳ぶ。崩壊後の最初の数年で増殖比が前近代の下端に落ちるか（肥料・病気・播種の技術）が、低緯度の得が残るかを決める。</li>
+<li>【推測】日較差は資料から取れず、PM の結論は DTR の仮定つき。ただし DTR 6〜14 °C と日射で縮む版で q は 0.463〜0.483 と狭い。</li>
+</ul>
+<h2 id="_6">逸脱</h2>
+<ul>
+<li>登録した Tmax/Tmin＝TSMX/TSMN はファイルの属性から使えず、DTR の置き値に替えた。</li>
+<li>湿度と風は FAO 56 の欠測の手順。日射は国の平均。標高を 0 とした。</li>
+<li>平時の偽陽性の窓と f＝0.75 の版は登録外。</li>
+<li>増殖比の資料のうち、試験・種子の基準の値は低投入ではない（分類して主から外した）。Wolaita の農家は化学肥料を使っており、「低投入」は相対的な意味。</li>
+<li>097 の霜の版（TSMN ≥ −2/−5 °C）は 150 Tg では月の最低、対照では月平均を見ており、平時の偽陽性の比較が揃っていない（主には効かない）。</li>
+</ul>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>核の冬の食料の研究者は、低緯度の耐寒の作物の見込みで蒸発の需要の近似を気にするより、崩壊後の増殖比が前近代の下端（麦 2.5、芋 1〜2）に落ちる条件を調べる方が q の幅を縮める。本研究所は増殖比の下端の条件（243）と日較差の資料（244）へ進む。</p>
+<h2 id="_8">成果物</h2>
+<p>sim.py（約15秒、乱数は 099 と同じ seed 96）、results.json、stdout.txt、fig_gmult_eto.png、PREREGISTRATION.md、sources/（SHA256SUMS）。</p><footer><hr><small>自動生成</small></footer></body></html>

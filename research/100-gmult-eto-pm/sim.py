@@ -11,7 +11,7 @@ ME = os.path.dirname(os.path.abspath(__file__)); D99 = os.path.join(ME, '../099-
 s99 = open(os.path.join(D99, 'sim.py')).read()
 s99 = s99.replace("ME = os.path.dirname(os.path.abspath(__file__))", f"ME = {D99!r}")
 exec(s99[:s99.rindex("json.dump(R, open('results.json'")])
-os.chdir(ME)
+ME = os.path.dirname(os.path.abspath(__file__)); os.chdir(ME)
 R99 = R; R = {}
 R['repro099'] = dict(q_main=R99['q_main']['q'], q_no_et=R99['versions']['no_et_scaling']['q'])
 assert abs(R['repro099']['q_main']-0.46277) < 1e-5 and abs(R['repro099']['q_no_et']-0.50671) < 1e-5, R['repro099']
