@@ -1,0 +1,3369 @@
+Sustainable
+potato
+production
+
+GUIDELINES FOR DEVELOPING COUNTRIES
+
+During the International Year of the Potato,
+celebrated in 2008, FAO and CIP helped
+forge partnerships worldwide to address
+critical aspects of sustainable potato
+production. This technical guide collates
+that experience to review technical,
+socio-economic, policy and institutional
+factors that currently constrain increased
+potato production and productivity in
+tropical and subtropical countries. It
+presents Good Agriculture Practices
+relevant to potato production, and
+indicators and recommendations for action
+in key areas, from the utilization of potato
+biodiversity and improvements in seed
+systems, to soil management, insect pest
+and disease control and opportunities for
+value addition. It outlines a new policy and
+research agenda for the potato subsector
+that aims at making a real contribution to
+the eradication of hunger and poverty.
+
+Sustainable
+potato
+production
+GUIDELINES FOR DEVELOPING COUNTRIES
+NeBambi Lutaladio
+Plant Production and Protection Division
+FAO, Rome, Italy
+
+Oscar Ortiz
+Integrated Crop Management Division
+International Potato Center
+Lima, Peru
+
+Anton Haverkort
+Wageningen University and Research Centre
+Wageningen, The Netherlands
+
+Daniel Caldiz
+McCain Foods Limited
+Balcarce, Argentina
+
+FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS
+2009
+
+ISBN 978-92-5-106409-2
+
+The designations employed and the presentation of material in this information product do not imply
+the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the
+United Nations concerning the legal or development status of any country, territory, city or area or of its
+authorities, or concerning the delimitation of its frontiers or boundaries. The mention of specific
+companies or products of manufacturers, whether or not these have been patented, does not imply that
+these have been endorsed or recommended by FAO in preference to others of a similar nature that are
+not mentioned.
+All rights reserved. Reproduction and dissemination of material in this information product for
+educational or other non-commercial purposes are authorized without any prior written permission
+from the copyright holders provided the source is fully acknowledged. Reproduction of material in this
+information product for resale or other commercial purposes is prohibited without written permission
+of the copyright holders. Applications for such permission should be addressed to the Chief, Electronic
+Publishing Policy and Support Branch, Communication Division, FAO, Viale delle Terme di Caracalla,
+00153 Rome, Italy or by e-mail to copyright@fao.org
+Cover illustration: Image elaboration from the photo Papa hallay, Peru by O.S. Butron Rios
+submitted to the IYP World Photography Contest Focus on a global food.
+© FAO 2009
+
+Contents
+Foreword
+Abbreviations and acronym
+Acknowledgements
+Introduction
+Section 1 Factors constraining the potato subsector
+Technical factors
+Socio-economic factors
+Policy and institutional factors
+
+13
+15
+17
+
+Section 2 Good Agricultural Practices and potato production
+GAP concepts and principles
+GAPs in the potato subsector
+Production decision factors
+
+21
+23
+25
+
+Section 3 Key indicators of sustainability
+Biodiversity and varieties
+Seed production and seed quality
+Seed systems
+Soil health and fertility management
+Nutrient management
+Soil conservation
+Pest management
+Water management
+Post-harvest management
+Value addition and markets
+Farmers’ health, safety and welfare
+
+33
+37
+43
+45
+47
+51
+53
+57
+59
+63
+65
+
+Section 4 Implications for policy and research
+Building support at policy level
+Research for development agenda
+Partnerships for policy and research
+
+Section 5 Potato fact sheets
+Potato and biodiversity
+Production of disease-free seed tubers
+Potato pest and disease management
+Potato and soil conservation
+Potato and water resources
+Potato and food price inflation
+
+Bibliography
+
+69
+71
+75
+78
+80
+82
+84
+86
+88
+
+5
+6
+7
+9
+11
+
+19
+
+31
+
+67
+
+77
+
+91
+
+POTATO HARVEST
+IN TAMIL NADU,
+SOUTHERN INDIA
+(PHOTO: JONATHAN
+KINGSTON)
+
+Foreword
+
+C
+
+elebrated in 2008, the United Nations
+International Year of the Potato (IYP)
+highlighted the important role of the
+potato in agriculture, the economy
+and world food security. IYP also had a very
+practical aim: to promote the development
+of sustainable potato-based systems that
+enhance the well-being of potato producers
+and consumers, especially in developing
+countries.
+This technical guide is a contribution to
+achievement of the International Year’s
+broader development objective. Today, potato
+production and consumption is booming
+worldwide, with ever greater quantities being
+processed for the convenience food and
+snack industries, while its importance as a
+subsistence crop continues to expand. Many
+developing countries wish to enter lucrative
+emerging markets for potatoes and potato
+products, but to do so need to make major
+improvements in the productivity,
+profitability and sustainability of their
+potato subsectors. For example, potato yields
+in the developing world average around 10
+to 15 tonnes per hectare, less than half of
+average yields achieved by farmers in
+Western Europe and North America.
+The present guide builds on experience
+gained through partnerships forged during
+IYP implementation to address critical
+aspects of sustainable potato production. It
+represents the first inter-partner effort, post2008, aimed at producing technical
+guidelines that can be used by decision
+makers in developing countries to improve
+the sustainability of potato production and
+
+boost the potato subsector’s contribution to
+social and economic development.
+The guide presents a summary review of
+factors that constrain the potato subsector in
+tropical and subtropical countries, principles
+of Good Agriculture Practices, and GAPs
+relevant to potato production. It provides
+indicators and recommendations for action
+in key areas – from the conservation and
+utilization of potato biodiversity and
+improvements in seed systems, to
+management of soil fertility, insect pest and
+diseases, water use, the importance of
+storage, and the opportunities created by
+value addition. It also provides “snapshots”
+of selected best practices and examples of
+successful approaches in developing
+countries. It concludes with a series of useful
+fact sheets on key issues in potato
+development.
+While aimed primarily at decision
+makers at institutional level, the guide will
+also be of use to technicians, potato growers
+and processors. We trust that it will help
+further IYP’s goal of helping to realize the
+potato’s full potential as a “food of the
+future”.
+Shivaji Pandey
+
+Pamela Anderson
+
+Director, Plant
+Production and
+Protection Division
+Food and Agriculture
+Organization
+of the United Nations
+
+Director General
+International Potato
+Center
+
+5
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Abbreviations and acronyms
+CIP
+DLS
+FAO
+GAP
+FFS
+ICM
+IDM
+IPM
+IPPM
+NGO
+NSI
+PMCA
+PRSP
+
+International Potato Center
+Diffuse light stores
+Food and Agriculture Organization of the United Nations
+Good Agricultural Practices
+Farmers’ Field Schools
+Integrated Crop Management
+Integrated Disease Management
+Integrated Pest Management
+Integrated Potato Pest Management
+Non-Governmental Organizations
+Nutrient Supplementation Index
+Participatory Market Chain Approach
+Poverty Reduction Strategy Papers
+
+Acknowledgements
+
+D
+
+evelopment of this guide was
+initiated as part of the International
+Year of the Potato 2008, which was
+facilitated by FAO’s Plant Production
+and Protection Division (AGP), in
+partnership with the International Potato
+Center (CIP). The International Year helped
+raise awareness of the potato subsector and
+support for its development, and served as a
+catalyst for the initiatives aimed at
+overcoming policy constraints to potato
+development.
+This manual was conceived, initiated,
+guided and edited by NeBambi Lutaladio
+of AGP. He benefited from the collaboration
+of colleagues in partner institutions,
+in particular the International Potato Center
+(CIP), Wageningen University Research
+Center (WUR) and McCain Foods Ltd of
+Canada.
+
+Special thanks for their technical inputs
+are due to Jean Pierre Anota and Amir
+Kassam (consultants), to Anne Sophie
+Poisot, Mike Robson, Tom Osborn, Michael
+Larinde and Marjon Fredrix of AGP, and to
+Andreas Oswald, Carlo Carli, Fernando
+Ezeta, Graham Thiele, Merideth Bonierbale,
+Roberto Quiroz and Victor Mares of CIP.
+The contribution of Anton Haverkort of
+Wageningen University and Research
+Centre, Daniel Caldiz of McCain Foods Ltd,
+and Oscar Ortiz of CIP in reviewing and
+providing constructive suggestions is
+gratefully acknowledged.
+Eric A. Kueneman
+Deputy Director, Plant Production
+and Protection Division
+Food and Agriculture Organization
+of the United Nations
+
+7
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+AT A POTATO
+SORTING FACTORY
+IN THE NILE DELTA,
+EGYPT.
+(PHOTO:
+MOSTAFA MOFTAH)
+
+Introduction
+
+T
+
+he potato is the world’s most
+important root and tuber crop
+worldwide. It is grown in more than
+125 countries and consumed almost
+daily by more than a billion people.
+Hundreds of millions of people in
+developing countries depend on potatoes for
+their survival. Potato cultivation is
+expanding strongly in the developing world,
+where the potato’s ease of cultivation and
+nutritive content have made it a valuable
+food security and cash crop for millions of
+farmers. Developing countries are now the
+world’s biggest producers – and importers –
+of potatoes and potato products.
+Once harvested, potatoes can be used for
+a variety of purposes: as a fresh vegetable for
+cooking at home, as raw material for
+processing into food products, food
+ingredients, starch and alcohol, as feed for
+animals, and as seed tubers for growing the
+next season’s crop.
+Around the world, consumer demand is
+shifting from fresh tubers to processed
+products and ever greater quantities of
+potatoes are being processed to meet rising
+demand for convenience food and snacks.
+The major drivers behind this trend include
+expanding urban populations, rising
+incomes, diversification of diets, and
+lifestyles that leave less time for preparing
+the fresh product for consumption.
+The development of a vibrant, profitable
+and sustainable potato subsector in
+developing countries depends on measures
+to overcome a number of persistent
+constraints. Those measures include
+
+improvements in the quality of planting
+material, potato varieties that have reduced
+water needs, greater resistance to insect pests
+and diseases, and resilience in the face of
+climate changes, and farming systems that
+make more sustainable use of natural
+resources. Not least, potato development –
+and agricultural development in general –
+requires empowerment of small farmers
+through improved access to production
+inputs, credit and markets.
+These guidelines present a compilation
+of potato management practices in use in
+tropical and subtropical developing
+countries that have helped increase potato
+production and productivity. They can be
+refined to address particular conditions in
+specific locations. The publication provides
+indicators of sustainability, and highlights
+potential areas of improvement for potato
+development. While aimed primarily at
+decision makers, the manual tries as much
+as possible to use language familiar to
+farmers.
+
+9
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+POTATO FIELDS
+IN CENTRAL JAVA,
+INDONESIA.
+(PHOTO: HARJONO
+DJOYOBISONO)
+
+SECTION 1
+
+Factors
+constraining
+the potato
+subsector
+In the years ahead, world potato
+production is expected to grow
+at a rate of 2.5 per cent a year,
+presenting opportunities for expanded
+utilization and opening up new
+market segments. To realize the full
+potential of this crop, developing
+countries must address both supplyand demand-side constraints.
+
+POTATO MARKET
+IN KASUNGU, MALAWI.
+(PHOTO: ANNE LI)
+
+Technical factors
+The potato’s biological
+characteristics
+Many constraints derive from the biological
+characteristics of the potato itself. These
+include the low multiplication rates of seed
+tubers, and the technical difficulties and
+costs associated with maintaining seed
+quality through successive multiplications,
+owing to the potato’s susceptibility to soil
+and seed-borne insect pests and diseases.
+Seed tubers are also bulky: two to three
+tonnes per hectare is the typical seed
+requirement. Stringent phytosanitary
+restrictions limit the movement of potato
+germplasm, seed tubers and fresh ware
+potatoes. Potatoes have high fertilizer
+requirements but low utilization efficiency.
+Post-harvest, fresh potato tubers deteriorate
+quickly in tropical and subtropical
+environments, especially in the lowlands.
+
+Lack of efficient seed systems
+Many developing countries lack efficient
+systems for the regular multiplication and
+distribution of certified seed tubers and the
+rapid deployment of new, improved varieties.
+Causal factors include the limited technical
+capacity of human resources, lack of
+managerial expertise and inadequate
+resource allocations to seed systems and the
+potato subsector in general. As a result,
+farmer-based seed systems are still common,
+and have managed to supply planting
+material of limited quality over the years,
+and contributed to expanding cultivation of
+the crop. Farmer seed systems face many
+challenges, but also offer an opportunity to
+
+improve seed supply, provided suitable
+training is available and links with the
+formal sector are established.
+
+Diseases and insect pests
+Diseases and insect pests are another major
+constraint. New strains of late blight have
+reached many developing countries and
+continue to spread. Late blight constitutes
+the most serious threat to increased potato
+production. Second to late blight in
+importance, particularly in warmer, more
+tropical regions, is bacterial wilt. The impact
+of insect pests varies between regions. Major
+insect pests include aphids, tuber moths, leaf
+miners, Colorado potato beetle and Andean
+potato weevil.
+
+13
+
+FACTORS
+CONSTRAINING
+THE POTATO
+SUBSECTOR
+
+Export markets open in USA and Europe
+The US government’s African
+Growth and Opportunity Act
+(AGOA) provides preferential
+access for more than 1,800 tariff
+
+14
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+LOCAL TRANSPORTATION
+OF POTATOES TO MARKET
+IN MYANMAR.
+(PHOTO: ZIN MIN)
+
+lines, including agricultural
+commodities, from designated
+sub-Saharan African countries.
+The Everything But Arms (EBA)
+
+initiative of the European Union
+(EU) eliminates import tariffs
+and restrictions on numerous
+goods, including agricultural
+products, from least developed
+countries provided that plant
+health regulations are met. EBA
+grants duty-free access for
+imports from most Less
+Developed Countries, except for
+a few sensitive commodities
+(e.g. bananas, sugar and rice)
+that will be liberalized gradually.
+Most of the commodities
+included in EBA previously
+received duty-free access to the
+EU under preferential
+programmes such as the
+Lomé/Cotonou Agreement.
+
+Socio-economic factors
+High production costs
+and lack of credit
+
+Limited access to higher value
+markets
+
+Compared to other food crops, production of
+potatoes is capital-intensive, requiring the
+purchase of large quantities of bulky seed
+and the application of high-cost inputs such
+as fertilizers and pesticides. With limited
+access to credit and few means of mitigating
+the risks of taking out loans, small-scale
+farmers find it difficult to compete in potato
+production. The current global financial
+crisis could leave a great number of farmers
+with little money and no credit to invest in
+production.
+
+To be successful, small-scale potato growers
+need access to profitable emerging domestic
+markets – such as the rapidly growing
+processing segment – as well as to potato
+export markets. However, access to domestic
+markets is often restricted by the marketing
+power of foreign suppliers, while exports are
+constrained by trade barriers in developed
+countries to processed products from the
+developing world. However, there are
+encouraging “success stories” that illustrate
+how small-scale producers can increase
+production and expand their market share.
+In India, potato growers who adapted new
+Price instability
+technology with the support of McCain
+With potato becoming increasingly a cash
+Foods Ltd more than doubled their yields
+crop, small-scale potato growers are
+and incomes. Other private industries,
+vulnerable to abrupt changes in input and
+including small businesses, have launched
+output prices. Seasonal and year-to-year
+price movements can affect individual small potato chips made from coloured native
+potatoes that were prototyped by CIP in
+growers who lack the financial resources
+order to promote the sustainable use of
+and resilience of larger producers and
+biodiversity in the Andean Region. Recent
+cooperatives.
+legislation in the USA and Europe provide
+greater access to agricultural products from
+Inefficiency of local markets
+the developing world.
+Potato prices are usually determined by
+supply and demand, not the vagaries of
+international markets as in the case of
+cereals. It is, therefore, a crop that can help
+low-income farmers and consumers to ride
+out episodes of food price inflation, such as
+that experienced worldwide in 2007-08.
+However, the profitability of potato depends
+on efficient local markets and measures to
+control overproduction.
+
+15
+
+FACTORS
+CONSTRAINING
+THE POTATO
+SUBSECTOR
+
+16
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Policy and institutional factors
+Neglect of the potato subsector Lack of support to farmer
+With a few notable exceptions – such as
+organizations
+Ethiopia – most developing countries have
+and entrepreneurs
+policies toward the potato subsector, and
+especially small-scale producers, that can be
+best characterized as “benign neglect”. Little
+or no public investment is targeted at
+integrated strategies for crop improvement,
+value addition and marketing schemes or
+the potato production-processing-marketing
+chain. Many countries lack adequate seed
+production systems backed by certification
+and seed laws. Breeding rights are often not
+respected, reducing incentives to breeders to
+create new adapted and resistant varieties. In
+many areas, poor infrastructural facilities
+and poor access to markets are also major
+challenges to expansion of potato production
+and its profitability.
+
+Inadequate capacity building
+initiatives
+The potato has attracted private sector
+investment in the crucial area of seed
+multiplication and seed systems in only a
+few countries. Support for programmes for
+the diffusion of new varieties and for the
+scaling up of existing integrated disease and
+insect pest management technologies and
+methodologies is generally inadequate.
+Programmes to upgrade the skills of potato
+growers need to be matched by government
+efforts to create, monitor and enforce
+regulations on pesticide use and the spread
+of pesticide or fertilizer residues into water
+supplies, which are major constraints to the
+sustainability of potato production systems.
+
+Support for potato farmer groups and
+associations and for local entrepreneurship
+is lacking in many countries. In Bangladesh
+and Pakistan, powerful lobbies represent the
+most serious obstacle to the development of
+a local seed potato industry. One notable
+exception is Argentina, where efforts are
+being made by public and private sector to
+improve seed quality and promote variety
+development, and to transfer technology for
+integrated crop management to its contract
+growers.
+
+17
+
+FACTORS
+CONSTRAINING
+THE POTATO
+SUBSECTOR
+
+POTATO PLOTS IN SRI LANKA.
+(PHOTO: ALEFIYA AKBARALLY)
+
+SECTION 2
+
+Good Agricultural
+Practices and
+potato production
+The term Good Agricultural Practices
+(GAPs) refers to principles and codes
+of practice that are applied to on-farm
+production and post-production processes
+and aim at ensuring safe and healthy
+food and non-food agricultural products,
+while taking into account economical,
+social and environmental sustainability.
+
+The cost of GAPs
+
+20
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+With most GAP applications,
+production costs are lower,
+losses reduced, and use of inputs
+rationalized as a better
+management system is put in
+place. The cost of private GAP
+standard certification (e.g. for
+GlobalGAP or Tesco Nature’s
+Choice) may be higher owing to
+stricter requirements. However,
+this does not necessarily have to
+be the case with adoption of
+good practices per se. Generally,
+there is no higher cost to the
+consumer – that is why retailers
+and commercial farming are
+rapidly adopting GAPs. Where
+adoption of GAPs entails
+additional costs, the benefits in
+economic, social or
+environmental terms are usually
+higher.
+SORTING OF POTATO IN INDIA.
+(PHOTO: RINI MAJUMDAR)
+
+GAP concepts and principles
+
+G
+
+APs may be applied to a wide range
+of farming systems and at different
+scales. They are applied through
+sustainable agricultural methods,
+such as integrated pest management,
+integrated water and fertilizer management,
+and conservation agriculture. GAPs are
+based on four principles:
+1. to economically and efficiently produce
+sufficient quantities of safe and
+nutritious food;
+2. to sustain and enhance ;
+3. to maintain viable farming enterprises
+and contribute to livelihoods;
+4. to meet the cultural and social needs of
+society.
+GAP applications are being developed by
+governments, NGOs and the private sector to
+meet the needs of growers and processors
+and for other specific purposes. They provide
+the opportunity to assess and decide on
+which to follow at each step of the
+production process.
+It is important that GAPs are applied
+in a coordinated way. For each agricultural
+production system, GAPs should be part of
+a comprehensive management strategy,
+providing for adjustments when needed in
+response to changing conditions. The
+implementation of such a management
+strategy requires knowledge, planning,
+measuring, monitoring and record-keeping
+at each step of the production process.
+Adoption of GAPs may sometimes result in
+higher production, processing and
+marketing costs, and higher prices for the
+
+consumer. To minimize costs, while
+maintaining the quality and safety of food
+products, participatory technical training
+and advice can be used to inform farmers of
+new technologies that will benefit them.
+Information on options for GAP adoption
+would be facilitated through the use of
+common databases and information
+exchange platforms on available enabling
+technologies and integrated production
+techniques for different major agroecological areas.
+
+21
+
+GOOD
+AGRICULTURAL
+PRATICES
+AND POTATO
+PRODUCTION
+
+Examples of GAPs
+Soil management
+6 Reduce wind and water erosion through
+hedging and ditching.
+6 Apply fertilizers at appropriate moments in
+adequate doses (e.g. based on soil analysis and
+crop requirement) to avoid extra costs and
+possible run-off and leaching.
+6 Maintain or restore soil organic content
+through application of manure, use of grazing
+and/or crop rotation .
+6 Reduce soil compaction by avoiding use of
+heavy machinery.
+6 Maintain soil structure by limiting heavy and
+sometimes unnecessary tillage practices, and
+through use of cover crops such as pulses.
+
+22
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Water use efficiency
+6 Use minimum or zero-tillage and maintain soil
+cover to reduce soil evaporation and improve
+soil structure and water infiltration.
+6 To avoid water loss by drainage, schedule
+irrigation and monitor plant needs and soil
+water reserve status.
+6 Prevent soil salinization by matching water
+input to needs, allowing some drainage and
+recycling water whenever possible.
+6 Avoid excessive drainage and fertilizer run-off.
+6 Maintain permanent soil cover in winter to
+avoid nitrogen run-off and wind erosion that
+contributes to soil degradation.
+6 Carefully manage the water table by limiting
+withdrawals.
+6 Avoid soil compaction (e.g., caused by too
+many passes of farm machinery) which can
+cause water logging and lead to emergence of
+potato diseases during storage.
+
+GAPs in the potato subsector
+
+A
+
+pplied to the potato subsector,
+GAP principles imply that potato
+production:
+
+1. takes place in an economically efficient
+way;
+2. contributes to food security by providing
+quantity and nutritional quality for a
+balanced food supply;
+3. along with post-harvest handling and
+processing, ensures a safe food supply to
+consumers;
+4. conserves the natural resource base;
+5. does not lead to emissions that endanger
+the environment and biodiversity;
+
+6. enhances potato biodiversity and ensures
+a sufficient genetic base for varietal
+adaptation and resistance;
+7. supports viable farming enterprises and
+contributes to livelihoods;
+8. meets the cultural and social needs of
+society.
+Several approaches can be utilized to
+operationalize GAP principles in potato
+production. The most stringent one attaches
+criteria to each principle, with indicators
+and indicator values. For example, the
+following table summarizes criteria,
+indicators, indicator values and GAPs that
+could be used in implementing principle
+4 above:
+
+Conserving the natural resource base
+Criteria
+
+Indicators
+
+Indicator values
+
+GAPs
+
+conserve soil
+organic matter
+
+percentage of
+soil organic
+matter
+
+5% organic
+matter
+
+apply compost, manure or green manure
+to keep soil organic matter at the desired
+level
+
+ensure
+replenishment
+of groundwater
+used by
+irrigation
+
+depth of the
+water table
+
+5 m below
+topsoil level
+
+do not over-irrigate from deep wells and
+tap other water sources or grow
+potatoes during a wetter period of the
+year if the threat of disease is not high.
+
+avoid soil
+erosion
+
+surface run-off
+of soil particles
+
+0 kg soil loss per
+square meter per
+year
+
+apply contour farming, make terraces
+and use minimum or zero-tillage
+implements
+
+23
+
+GOOD
+AGRICULTURAL
+PRATICES
+AND POTATO
+PRODUCTION
+
+24
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+“PACHAMAMA HUELLA” 
+LAND PREPARATION
+FOR POTATO IN BOLIVIA.
+(PHOTO: MANUEL SEOANE
+SALAZAR)
+
+Production decision factors
+
+I
+
+rotation. In other regions, it can be planted
+after cereals and before legumes, but not
+with crops (e.g. tomato and other
+solanaceae) that are susceptible to the same
+pathogens as the potato. Sometimes natural
+fallow is necessary to prevent soil
+Environment
+impoverishment and the build-up of potatoand production zones
+specific diseases and insect pests.
+The potato is essentially a “cool weather
+Soil preparation for the potato crop
+crop”, with temperature being the main
+should be adequate with minimum soil
+limiting factor. In tropical areas, potato
+disturbance. Naturally loose soils, and
+should be grown where the climate is
+loamy and sandy loam soils that are rich in
+tempered by altitude (1 500 – 4 200 m) or
+at lower altitudes provided the crop is grown organic matter with good drainage and
+aeration, are the most suitable.
+during the cool season.
+Planting depth, density and spacing
+The ideal condition for tuberization is a
+depend on the variety chosen and tuber size,
+night temperature of around 16°C, while
+and should allow for shallow inter-row
+optimum yields are obtained where mean
+daily temperatures are in the 18-20°C range. ridging, when required. Usually, about two
+tonnes of seed tubers are planted per
+Loose, moist and well-drained slightly acid
+soil (with pH of 5.0-5.5) or volcanic upland hectare.
+To give the crop a competitive advantage,
+soils are preferred. The water supply for the
+weeding should be performed after full crop
+potato crop should be regular, especially
+emergence (about 4 weeks after planting)
+from the stage of tuber initiation until the
+and after the plants have reached a height of
+end of tuber enlargement.
+about 20 cm. Shallow ridging is done
+subsequently to prevent the stolons
+Cultivation methods
+becoming aerials, and to protect tubers
+A successful potato crop depends on
+against insect pests, disease infection and
+judicious cultural practices. These include
+greening. Crop rotation and careful
+good knowledge of variety purity and
+characteristics such as dormancy duration, chemical control with herbicides, applied at
+minimum lethal doses, may be part of an
+the physiological condition of seed potato
+tubers (well sprouted and 30-80 g in weight, integrated weed management system,
+depending on variety) and resistance to the although in most developing countries weed
+management is usually carried out
+main transmissible potato diseases and
+manually.
+nematodes.
+A few basic precautions against insect
+Potatoes are best grown in rotation. In
+pests and diseases can help avoid great yield
+the Andes, it is usually the first crop in the
+n potato-based systems in developing
+countries, the GAP concept can be
+associated with critical production
+decision factors and recommendations.
+
+25
+
+GOOD
+AGRICULTURAL
+PRATICES
+AND POTATO
+PRODUCTION
+
+26
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+POTATO HARVESTING
+IN PANUTY DISTRICT,
+NEPAL.
+(PHOTO: G.M. BAKASH)
+
+and quality losses. They include crop
+rotation, use of resistant varieties and
+healthy, certified seed tubers (if available or
+at least seed from a reputed source or
+through positive selection), and integrated
+disease and insect pest management, which
+involves regular monitoring of aphid and
+thrips vectors, other insects and natural
+enemy populations, and chemical spraying
+only when necessary.
+Fertilizer application during the stages
+of pre-planting, planting or crop growth
+should be determined by soil nutrient
+availability, taking into account the
+potato’s high demand for potassium,
+phosphorus and magnesium deficiencies
+in acid soils. The NPK ratio 1-1-1 is usually
+a wise choice to avoid spoiling tuber
+quality. The potato can benefit from the
+application of organic manure at the start
+of a new rotation as it provides a good
+nutrient balance and protects soil structure
+from compaction and erosion.
+As soil moisture must be maintained at a
+relatively high level in production of
+potatoes, compared to other crops, irrigation
+may be required where rainfall is limited.
+
+Harvesting
+For most commercial varieties, yellowing of
+the potato plant’s leaves and easy separation
+of tubers from stolons indicate that the
+potato crop has reached maturity. If the
+potatoes are to be stored rather than
+consumed immediately, they are left in the
+soil to allow their skin to harden – hard skin
+also help seed potatoes to resist storage
+diseases. However, leaving tubers for too
+long in the ground increases their exposure
+to the fungal disease black scurf and
+increases the risk of losing quality and
+marketable yield.
+To facilitate harvesting and stop tuber
+growth, potato vines should be removed two
+weeks before the potatoes are dug up.
+Depending on the scale of the production,
+potatoes are harvested using a spading fork,
+a plough or commercial potato harvesters
+that unearth the plant and shake or blow
+the soil from the tubers. During harvesting,
+especially if it is done mechanically, it is
+important to avoid bruising or other
+injuries, which provide entry points for
+storage diseases and reduce the commercial,
+processing quality and storability of the
+tubers.
+In suitable environments and where
+growing conditions are adequate,
+commercial yields are in the range of 40–60
+tonnes per hectare. In many developing
+countries, however, they are far below this
+figure, with national averages of about 1020 tonnes per hectare.
+
+27
+
+GOOD
+AGRICULTURAL
+PRATICES
+AND POTATO
+PRODUCTION
+
+28
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Storage and transport
+In the tropics and where refrigerated storage
+is not available, seed tubers should be stored
+under diffuse light in order to maintain
+their sprouting capacity and to encourage
+development of vigorous sprouts. In regions
+with only one cropping season per year and
+where storage of tubers from one season to
+the next is difficult without the use of costly
+refrigeration equipment, off-season planting
+may offer a solution. Importation of seed
+tubers is common in these regions, but may
+entail higher costs and risks of late delivery
+and deterioration in tuber quality along the
+marketing chain.
+Ware potatoes should be kept at a
+temperature of about 6 to 8°C, in a dark,
+well ventilated environment with high
+
+relative humidity (85 to 90 percent). For
+processing purposes, such as the production
+of french fries, storage temperatures may
+range up to 10°C to reduce the risk of
+increasing sugar levels, which are
+responsible for a dark colour during frying.
+Potato darkening can also be caused by an
+excess of nitrogen in the fertilization
+formula.
+During transport of seed tubers and ware
+and processing potatoes, it is important to
+avoid bruising by reducing drop height,
+lining containers with rubber or other soft
+material, and avoiding extreme
+temperatures. Tubers should be protected
+against unexpected rainfall and snow, which
+can occur at high altitudes.
+
+29
+
+GOOD
+AGRICULTURAL
+PRATICES
+AND POTATO
+PRODUCTION
+
+PAPA,
+ALIMENTO
+DEL PUEBLO,
+CUBA.
+(PHOTO:
+YANDER ALBERTO
+ZAMORA
+DE LOS REYES)
+
+SECTION 3
+
+Key indicators
+of sustainability
+Eleven indicators of sustainability
+have been identified, each with specific Good
+Agricultural Practices
+and potential areas of improvement.
+
+A potato park in the Andes
+
+32
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+The 12 000 hectare Potato Park
+located in the Andes near Cusco
+is one of the few conservation
+initiatives in which local
+communities are managing and
+protecting their potato genetic
+resources and traditional
+knowledge of cultivation, plant
+protection and breeding. CIP has
+repatriated to the park hundreds
+of virus-free varieties of native
+potatoes which are now in full
+production and yielding 30
+percent more than potatoes that
+have not been cleaned of
+viruses. The Potato Park helps
+preserve indigenous knowledge
+and ancient technologies, while
+
+ensuring that the production of
+native varieties remains under
+local control. The approach could
+serve as a model for other
+indigenous communities
+
+PAPA HALLAY, PERU
+(PHOTO: O.S. BUTRON RIOS)
+
+because biological diversity is
+best rooted in its natural
+environment and managed by
+indigenous peoples who know it
+best.
+
+Biodiversity and varieties
+
+T
+
+he potato has the richest genetic
+diversity of any cultivated plant.
+Potato genetic resources in South
+American include wild relatives, native
+cultivar groups, local farmer-developed
+varieties (“landraces”), and hybrids of
+cultivated and wild plants. These varieties
+contain a wealth of valuable traits, such as
+resistance to insect pests and diseases,
+nutrition value, taste and adaptation to
+extreme climatic conditions. To control
+insect pests and diseases, increase yield and
+sustain production, especially on marginal
+lands, today’s potato-based agricultural
+systems need a continuous supply of new,
+improved varieties, a process that requires
+access to the entire potato gene pool.
+Also at national level in regions outside
+the Andes, maintenance of and increase in
+the genetic variability of available potato
+varieties are needed in order to ensure there
+is a sufficient broad genetic base for
+adaptation of the plant to local
+environmental conditions, such as
+temperature, day-length, moisture
+availability, and insect pest and disease
+pressures.
+
+Good practices
+Crop genetic diversity
+3Facilitate efforts to conserve and
+sustainably use potato germplasm.
+3Support breeding programmes and ensure
+conservation of breeding stocks.
+3Breed varieties with high yield, high
+nutritional value, resistance to main
+diseases and high adaptability to lessfavoured conditions.
+Choice of potato variety
+3Promote varieties adapted to the range of
+existing climatic conditions to ensure wide
+adaptability and stable production.
+3Abandon varieties with poor storage
+characteristics and low levels of resistance
+to major diseases.
+3Promote varieties that are already grown
+in the country and are accepted by farmers
+and markets.
+3Support participatory evaluation of
+candidate varieties from breeding
+programmes and other countries for local
+testing and release.
+
+33
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+34
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+FROM THE ESSAY,
+“HARVEST OF
+NATIVE POTATOES,
+PERU.”
+(PHOTO:
+EITAN ABRAMOVICH
+SAMESAS)
+
+Potential areas of improvement
+3More effective national potato breeding
+programmes.
+3Adaptation of breeding objectives and
+targets based on local expected results and
+needs.
+3Focus breeding programmes on achieving
+long term benefits, including not only
+resistance to insect pests and diseases but
+also high, stable yield, greater resourceuse efficiency, nutritional quality, and
+good storability.
+
+3Disseminate complementary conservation
+methods, especially the conservation of
+biodiversity carried out by farmers (in
+situ/on-farm conservation).
+3Reinforce “potato park” initiatives
+through repatriation of biological diversity
+to farmers’ communities.
+
+35
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+36
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+TAKING TIME
+TO CLEAN HARVESTED
+POTATOES,
+THE PHILIPPINES.
+(PHOTO: ARTEMIO LAYNO)
+
+Seed production and seed quality
+
+A
+
+reliable supply of good quality seed
+is crucial to the development of the
+potato subsector. Availability of seed
+remains one of the main
+constraints to the large scale adoption of
+research-bred or research-derived improved
+varieties.
+Good quality seed is essential to high
+yields and is usually the most costly input to
+potato cultivation, accounting for 30-50
+percent of production costs. The
+improvement of seed quality will contribute
+to enhancing farmer efficiency and
+competitiveness. The most important seed
+quality characteristics are variety purity,
+physiological stage, seed size, seed health
+and physical aspect.
+Good practices
+Seed production
+3Supply seeds that meet strict quantity,
+timing, and quality-control requirements.
+3Grow seed in the best and coolest areas or
+time of the year in order to avoid insect
+populations that can transmit diseases.
+3Where potatoes can be grown year-round,
+encourage farmers in a seed production
+area to include a “potato-free” period in
+the farming calendar in order to break
+cycles of insects that act as vector for virus
+diseases.
+Purity of variety
+The use of varieties with better quality and
+greater adaptability to marginal
+environments will help to enhance potato
+
+production and ensure the sustainability
+and competitiveness of potato-based
+farming and utilization systems.
+3Seed should be of the same variety as that
+by which it is sold.
+3Use varieties that are adapted and stable in
+term of yields.
+Where appropriate and where farmers
+currently use mixes of different varieties,
+ensure the added benefits of such mixtures
+in terms of tolerance to diseases and ensure
+that farmers have adequate knowledge,
+infrastructure and guidelines to apply best
+practices for seed production.
+Physiological stage
+Physiological development of a seed tuber is
+categorized as follows:
+3Phase I = dormant period;
+3Phase II=apical sprouting;
+3Phase III=period of normal sprouting;
+3Phase IV=period of thin sprouts;
+3Phase V= incubated – too old seed tubers.
+As the physiology of the seed is a major
+factor in seed quality, storage systems and
+storage duration are critical aspects to be
+considered. To obtain a high yielding crop,
+seed should be at the correct physiological
+age and sprouting stage at planting,
+depending on the purpose of the crop. In
+principle, seed should be at least three
+months old before it is planted, and no older
+than 5-11 months (depending on variety,
+storage system and temperature).
+
+37
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+38
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+POTATO
+HARVESTING
+IN NEPAL.
+(PHOTO:
+G.M. BAKASH)
+
+3Provide a storage area with good air
+circulation and adjustable lighting.
+3Store only seed tubers taken from healthy
+plants and ensure they are devoid of
+storage diseases such as late blight,
+bacterial rot and silver scurf.
+3About one month before planting, presprouting of seed potatoes should favour
+quick emergence at planting time.
+3In the tropics, if no refrigerated storage
+capacity is available, store seed potatoes
+under diffuse light in order to maintain
+their sprouting capacity (i.e. help tubers
+stay physiologically young for longer) and
+to encourage development of vigorous
+sprouts.
+Direct sunlight on potato seed should be
+avoided. Therefore:
+3For long-term storage, store seed potatoes
+either at 2-4°C or, when stored at higher
+temperatures, in diffused light.
+3The period between planting and
+emergence should be kept as short as
+possible in order to make best use of the
+available growing season. Therefore, at
+planting time the seed should be at a
+physiological stage that allows a quick
+emergence.
+3For planting, the best stage is phase III
+(robust sprouts having their typical
+varietal colour), the “normal multisprouting” phase.
+3Put bulked seed potatoes in trays to
+stimulate more uniform sprouting.
+
+Seed size
+3Use seed of uniform size, ranging from 25
+to 50 mm or weighing between 30 to 80 g,
+depending on tuber size and shape.
+3Plant tubers which have little variation in
+size. Using seed with a wide variation in
+size will not produce a uniform crop and
+makes it more difficult to predict the
+plant density and properly manage the
+crop.
+3Use large tuber seed when soil and weather
+conditions at planting are unfavourable,
+the growing season is short, or where there
+is the risk that during the first part of the
+growing season, the crop may be damaged
+by night frost, hail or drought.
+3Large tubers may be cut into smaller
+pieces for planting to reduce seed costs and
+favour a more uniform crop. This should
+be done at least two weeks before planting
+in temperature conditions of between 10
+and 22°C to allow wound healing prior to
+planting. However, precautions are needed
+to avoid transmission of viruses via the
+cutting blades.
+Seed health
+Seed potato is generally the main source of
+insect pest and disease infection, because
+most seed-borne diseases are systemic, thus
+favouring disease transmission to the next
+tuber generation. Seed treatment with
+chemicals can never replace the use of high
+quality seed or proper handling, storage and
+sprouting. Therefore:
+3Use only disease-free seed.
+3Produce seed tubers in disease-free areas
+
+39
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+40
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+FROM
+THE PHOTO ESSAY,
+“BELARUS SOLDIERS
+EAT POTATOES.”
+(PHOTO:
+VIKTOR DRACHEV)
+
+and on land not infested with soil-borne
+diseases or insect pests.
+3Ensure proper sanitation by using clean
+tools when cutting seed to avoid diseases
+transmitted mechanically.
+3Practice crop rotation and remove potato
+volunteers when cultivation and weeding
+are implemented.
+3Adopt strict rotation procedures, and never
+use the same field more than once in a 34 year period.
+3Rogue out diseased plants, including
+tubers, stolons and roots, being careful
+to avoid spilling soil on healthy
+plants, and bury them in a pit outside
+the field.
+3In the tropics, use storage areas with good
+air circulation and adjustable lighting.
+
+3Disinfect storage structures every year by
+spreading lime (use of dangerous
+chemicals such as formalin is not
+necessary).
+3Clear away potato residues, sacks and
+other waste, as these can be breeding
+grounds for potato tuber moths and
+diseases.
+3Remove and destroy seed tubers infected
+by diseases or insect pests during storage.
+3Make routine observations to identify
+insect pest- and disease-infected tubers in
+storage.
+3Routinely control the temperature in the
+potato heap (bulk) to ensure that no
+rotting occurs. Rot processes are likely to
+emerge when bulk temperature suddenly
+increases.
+
+41
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+Diffuse light storage for seed potato tubers
+In tropical areas such as the
+Central African highlands, where
+cold storage is unavailable or too
+costly, smallholder growers store
+their seeds on the farm. The
+efficiency of their simple home
+storage facilities could be
+dramatically improved with use
+of diffuse light technology.
+Diffuse light stores (DLS) are
+most suitable where
+temperatures are moderate (no
+frost or extreme high
+temperatures) and seed has to be
+
+stored for more than four
+months. By using DLS, farmers
+are able to store their own seed
+stocks, instead of buying them
+from distant suppliers. However,
+the loading capacity of DLS is
+limited since all tubers must be
+exposed to the diffuse light.
+These stores are suitable
+generally for small seed units
+and not for large scale seed
+production schemes. Seed
+potatoes stored in diffuse light
+give a more vigorous crop than
+
+seed that has been stored for
+relatively long periods in the dark
+at higher temperatures.
+However, the DLS must be
+protected against aphids (e.g.
+with an aphid proof screen) to
+avoid the risk of infection and
+transmission of viruses such as
+potato virus Y and potato leaf roll
+virus. Since the aphid population
+increases throughout the storage
+phase, stringent control
+measures need to be put in place
+to reduce seed degeneration.
+
+42
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Capacity-building for seed potato selection
+A technique known as “positive
+selection” was pilot-tested by
+smallholder potato farmers in the
+Narok district of Kenya as a way
+of improving the quality of their
+seed potatoes. Positive selection
+involves marking healthy-looking
+mother plants for later seed
+collection. More than 100
+extension workers and farmertrainers were trained in all
+aspects of positive selection, and
+then assigned to work with some
+1 200 farmers organized in 70
+farmer groups. A participatory
+
+research approach was used, with
+a demonstration experiment
+forming the core of the training
+curriculum. All activities took
+place in the potato field, and the
+mode of teaching was “learning
+by doing”. The farmer groups met
+regularly, learning first how to
+distinguish between sick and
+healthy-looking plants in the
+potato field. Next, a comparative
+study divided the potato field
+was into two parts: one where
+positive selection was used and
+one where the farmers used their
+
+traditional methods. Tubers from
+the two different selection
+methods were planted
+separately the next season, and
+the group analysed the results.
+Within the positive selection
+field, potato yields increased on
+average by about 30 percent. A
+survey two years afterwards
+showed that more than one
+quarter of the farmers trained
+had adopted the positive
+selection method. These farmers
+reported that their yields had
+doubled.
+
+Seed systems
+
+I
+
+n most developing countries, the vast
+majority of smallholder farmers use
+farm-saved seed potato obtained from
+non-specialized seed growers, owing to
+the lack of commercial seed production
+systems or, where they exist, to the high price
+of certified seed. Farmer-based informal seed
+systems are generally unable to maintain
+seed quality or eliminate diseases such as
+bacterial wilt or viruses. Poor functioning
+seed systems are consistently ranked by CIP
+as being among the major constraints to
+improved potato production.
+Good practices
+3Train seed growers in seed quality
+maintenance and managing bacterial wilt
+and viruses.
+3In order to avoid multiplying different
+categories of seed in the same locality and
+to sustain the replenishment of quality
+planting stock, promote a permanent
+“flush-out” system that prevents
+multiplication of lower categories of seed.
+Potential areas of improvement
+Much effort has been made in the past to
+improve seed potato production in
+developing countries, usually through
+specialized seed companies. However,
+commercially produced seed potatoes
+remain beyond the reach of many
+smallholder producers, especially in subSaharan Africa, where producers rely on
+farm-saved seed. Simple, low-cost
+
+technologies are therefore needed to help
+developing countries produce and distribute
+the healthy and high quality seed tubers
+needed for sustainable and profitable potato
+production.
+3Develop participatory research and
+promote appropriate technologies to
+improve the quality of farm-saved seed in
+sub-Saharan Africa and other parts of the
+world.
+3Identify localities with low vector pressure
+and communicate the value of positive
+and/or negative selection (rouging)
+practice for the production of potato seed
+3Determine the degeneration rate of seed
+potatoes, by variety and location, so as to
+determine how much basic seed needs to
+be produced annually.
+3Introduce laboratories for disease
+diagnostics to identify seed-borne viruses,
+bacteria and fungi.
+3Introduce rapid multiplication techniques
+and encourage small enterprises to
+produce healthy material.
+3Develop new methods to ensure the
+production and delivery of high quality
+potato planting material and improve
+formal and farmer-based seed systems.
+3Develop legislation and accreditation
+systems for seed certification adapted to
+local conditions.
+
+43
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+44
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+FROM
+THE PHOTO ESSAY,
+“BELARUS SOLDIERS
+EAT POTATOES.”
+(PHOTO:
+VIKTOR DRACHEV)
+
+Soil health and fertility management
+
+M
+
+aintaining a high yielding
+potential in potatoes requires soil
+health and fertility management.
+Soil health depends on physical
+and chemical properties and functions,
+organic matter and biological activity, which
+are fundamental to sustaining agricultural
+production and determine, in their
+complexity, soil fertility and productivity.
+Crop fertilization requirements need to be
+correctly estimated according to the expected
+yield, the potential of the variety planted and
+the intended use of the harvested crop. Before
+application of fertilizers, farmers should
+perform, where possible, a soil test to identify
+soil characteristics, nutrient content and soil
+contaminants. Soil tests help assess fertility
+and indicate deficiencies that need to be
+addressed.
+Good practices
+Potato should be planted with organic
+fertilizer, such as farmyard manure where
+possible and as appropriate. As well as
+supplying nutrients to the crop, organic
+fertilizer often increases the efficiency of
+inorganic fertilizers, improving crop yields
+substantially, and also improving soil
+health, which could have a positive effect by
+helping to reduce soil borne diseases.
+
+3Precautions should be taken to reduce
+nitrogen applications by 30 percent, if
+inorganic fertilizers are applied at the
+same time.
+3Avoid using fresh, incompletely
+decomposed manure because it will
+become active too late in the season and
+may reduce dry matter content, delay
+maturity and transmit diseases (e.g.
+Rhizoctonia solani).
+Fertilizers
+3Prior to planting, make a planting bed
+with some 20 cm of loose soil mixed with
+fertilizer and/or manure to allow proper
+rooting and hilling.
+3In moist soil, apply fertilizers at the root
+zone (25-28 cm) where they are most
+effective.
+3To be more effective, place phosphates in
+the root area because, unlike nitrogen and
+to some extent potassium, phosphates
+have limited movement in the soil and
+within plants.
+3Use of fertilizers is advantageous when
+levels of soil fertility are low.
+Potential areas of improvement
+
+3Promote conservation agriculture
+approaches to soil health and fertility
+management.
+Farmyard manure
+3Support integrated crop, soil health and
+3Of all field crops, potato has the best
+fertility management programmes.
+response to farmyard manure. Use well3Conduct research and development based
+decomposed farmyard manure at a rate of
+on adequate use and conservation of
+10 tonnes per hectare or more, if available. natural resources.
+
+45
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+46
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Nutrient management
+
+S
+
+ustainable nutrient management
+involves a set of management
+practices designed to conserve soil
+resources, maintain or enhance
+productivity, and help reduce growers’
+reliance on chemical fertilizers. Due to its
+relatively poorly developed and shallow root
+system, the potato demands a high level of
+soil nutrients. Without balanced fertilization
+management, growth and development of
+the crop are poor and both yield and quality
+of tubers are diminished.
+The type and extent of nutrient
+management depends on the production
+potential of the area in which potatoes are
+cultivated and farmers’ productivity
+objectives. Farmers should be advised to
+perform a soil test before application of
+fertilizers – fertilization is highly
+dependent on location and blanket
+recommendations are not applicable. They
+should also be aware of the effect of the soil
+pH on nutrient supply and the type of
+fertilizer to be used.
+
+as 300 kg/ha depending on the purpose of
+the crop and soil characteristics.
+3Avoid high or excessive nitrogen dressing
+as it stimulates haulm growth, delays
+tuber formation and affects tuber quality
+(low dry matter content, high reducing
+sugar content and high protein and
+nitrate content).
+3Apply nitrogen shortly before, or at,
+planting time. However, if there is a risk of
+leaching (e.g. with heavy watering on light
+soils), or if the application of large
+quantities of fertilizer under dry conditions
+may cause scorching, a split application
+may be better. The second nitrogen
+application should, in general, be given no
+later than three to five weeks after crop
+emergence.
+Phosphorus. Phosphorus contributes to the
+
+early development of the crop and early
+tuberization. It increases the crop’s dry
+matter content and improves the tuber’s
+storage quality. Often more than 100 kg/ ha
+is applied, while on phosphorus-fixing soils
+much higher doses are used.
+Good practices
+3Apply the total amount of phosphorus
+Crop response to fertilizers varies from field
+before or during planting.
+to field. The fertilizer ratio of N-P-K often
+3Apply phosphorus in the planting furrow
+recommended and practiced is usually 1:1:1.
+in P-fixing soils.
+However, high yields and enhanced quality
+of tubers can only be sustained through the Potassium. Potassium not only
+application of optimal nutrient doses in
+improves yields but also improves tuber
+balanced proportions.
+quality (size, starch content and storability).
+An adequate supply of potassium can
+Nitrogen. The amount of nitrogen applied help reduce internal blackening and
+to a potato crop varies from 100 to as much mechanical damage, and has been
+
+47
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+48
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+HARVESTED
+POTATOES BEING
+LOADED INTO CRATES.
+(PHOTO: PASCAL BASTIEN)
+
+associated with increased stress
+tolerance.
+3Apply the total amount of potassium
+before or during planting.
+Magnesium
+
+3Close attention should be paid to
+magnesium requirements, particularly
+when potatoes are grown on light acid
+soils. High rates of potassium, and
+nitrogen application in the form of
+ammonium, reduce the uptake of
+magnesium.
+Calcium
+
+3Potatoes are tolerant to soil acidity. Below
+pH 4.8, however, the crop may fail due to
+calcium deficiency. Liming may be
+necessary.
+3Seed potatoes, in particular, need to be
+grown in soils with sufficient calcium.
+Calcium deficient seed tubers may fail to
+sprout properly.
+Foliar fertilizers
+
+3Foliar fertilizers contain major nutrients
+and also micronutrients. They are applied
+to and absorbed by the leaves and have
+therefore an immediate effect on plant
+growth. They may help to overcome
+apparent nutrient deficiencies, especially
+of micronutrients, and support plant
+recovery following stress events, such as
+frost and drought.
+
+Potential areas of improvement
+3Promote the establishment of laboratories
+where soil mineral content can be assessed
+prior to planting. Laboratories can also
+verify the claimed concentrations of N-P-K
+in commercial products.
+3Promote the development and use of
+decision support systems that help growers
+apply fertilizers according to soil mineral
+content and crop needs.
+3Encourage fertilizer companies to market
+compound fertilizers with compositions of
+N, P and K tailored to different soil types.
+3Support integrated crop management
+(ICM) programmes and integrated
+nutrient management systems for potatoes.
+3For the fertilization of crop mixtures that
+include potato, the Nutrient Supplementation Index (NSI) concept can help estimate
+the additional percentage of N, P, K and Ca
+needed to satisfy the needs of a 1:1 row
+intercrop (e.g. potato-corn). NSI estimates
+total fertility input needs for the multiple
+cropping system based on the nutrient
+uptake of each crop component relative to
+their monoculture uptake. With NSI,
+intercrop fertilizer needs can be estimated
+from established sole crop response curves
+for the component species. Alternatively,
+fertilizer needs for the multiple crop system
+can be estimated for a given planting
+pattern using the response equations of
+one or more of the component crops.
+3Develop nutrient management practices
+for potato production under conservation
+agriculture.
+
+49
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+The advantages of conservation agriculture
+
+50
+
+Conservation agriculture (CA)
+aims at enhancing natural
+biological processes both above
+and below ground. It is based on
+three principles: minimum
+mechanical soil disturbance,
+permanent organic soil cover,
+and diversified crop rotations for
+annual crops and plant
+associations for perennial crops.
+By minimizing soil disturbance,
+CA creates a vertical macro-pore
+structure in the soil, which
+facilitates the infiltration of
+excess rainwater into the subsoil,
+improves the aeration of deeper
+soil layers, and facilitates root
+penetration.
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+POTATO FARMING IN ARGENTINA.
+(PHOTO: H.C. CUEVAS)
+
+Soil conservation
+
+S
+
+oil erosion on tillage-based cultivated
+lands is a problem that continues to
+threaten the sustainability of both
+subsistence and commercial
+agriculture in potato growing areas around
+the world. Potato cultivation usually
+involves intensive soil tillage throughout the
+cropping period, which often leads to soil
+degradation, erosion and leaching of
+nitrates. During soil preparation, the entire
+topsoil is loosened and – particularly on
+sticky clay soils – pulverized into small
+aggregates to avoid the formation of clods in
+the potato beds. Mechanical weeding and
+mechanized harvesting also entail intensive
+soil disturbance.
+
+retarded plant emergence). Hence it should
+not be a blanket recommendation.
+The “no-till” potato is pressed into the
+soil surface, and then covered with a thick
+layer of mulch, preferably straw, which is
+fairly stable and does not rot quickly. The
+young potato tubers form under the mulch
+but above the soil surface. In some cases –
+for example in dry areas under drip
+irrigation – black plastic sheets can also be
+used as mulch. Holes are punched in the
+plastic to allow the potato plant to grow
+through it. During harvesting, the sheets are
+removed and the potatoes are simply
+“collected”. Currently, the “no-till” potato is
+only grown in small fields using manual
+labour.
+
+Good practices
+The use of mulch at planting and the “notill” land preparation method are
+recommended to reduce soil degradation,
+erosion and nitrate pollution and to restore
+degraded soils and achieve good potato
+yields with reduced need for fertilizer. The
+mulch protects the soil from erosion during
+the first weeks of the crop.
+A green manure crop can be seeded
+towards the end of the crop, as the potato
+plants are drying off. The cover crop will
+help to dry out the potato beds, contributing
+to healthier tubers with reduced risk of
+damage during harvest. Nevertheless, while
+mulch planting of potatoes reduces the risk
+of erosion and nitrate leaching, it may have
+some disadvantages (e.g. excessive moisture
+and reduced soil temperature leading to
+
+Potential areas of improvement
+3Promote conservation agriculture
+approaches as a resource-saving crop
+production system.
+
+51
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+Principles of potato plant health management
+
+52
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Incorporation of the following
+practices into the production
+scheme should result in optimal
+health of the potato crop:
+6 Plant healthy seed tubers
+from reliable sources.
+6 Select and prepare planting
+site, and choose cultivars,
+planting and harvest dates
+with disease and insect pest
+management in mind.
+6 Handle and plant seed
+potatoes to ensure rapid
+emergence, and protect
+foliage using a holistic crop
+protection approach or
+integrated production and
+pest management.
+6 Minimize tuber infection by
+timely killing or removal of
+vines before harvest; avoid
+tuber injury and cure tubers
+before long term storage.
+6 Manage storage conditions
+to minimize post-harvest
+deterioration.
+POTATO PLANT
+(CIP)
+
+Pest management
+
+P
+
+otato diseases are spread by insect
+vectors, seed and wind, running
+water, soil, sacks and implements.
+Seed is generally the main source
+of infection. Combating insect pests,
+diseases and weeds with intensive use
+of insecticides, fungicides and herbicides
+can harm the environment and pose a
+serious threat to the health of producers
+and consumers.
+Regular field monitoring for pests
+and the broader agro-ecosystem is the
+basis for ecological-based plant protection
+and pest management. For example,
+aphid monitoring and consequent
+adjustment of planting and harvest dates
+would deserve special attention as a feasible
+knowledge-based practice in the context of
+insect pest management. However, the
+management of potato late blight
+is difficult without fungicides. Therefore,
+the use of biocides is acceptable, and often
+considered as a component of integrated
+insect pest and disease management
+schemes.
+
+Good practices
+3To increase potato production while
+protecting producers, consumers and the
+environment, use insect pest and disease
+management strategies that encourage
+biological control of insect pests, varieties
+with insect pest and/or disease resistance,
+planting of healthy seed potatoes, the
+growing of potatoes in rotation with other
+crops, and organic composting to improve
+soil quality.
+3Whenever possible, use rotations that
+reduce insect pest and disease problems
+and avoid those that may increase them.
+In general, avoid solanaceous crops as
+rotation choices.
+3Control volunteer potato plants and weeds
+in the rotation crop.
+3Avoid build up of weed seeds in the soil by
+removing weeds before they flower and set
+seeds.
+3Reduce or eliminate weed seeds in soil
+through conservation agriculture
+approaches to weed management.
+
+53
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+Fighting potato late blight
+In developing countries, farmers
+generally lack knowledge of late
+blight (LB) control measures, and
+have limited or no access to
+resistant varieties and
+agricultural inputs needed to
+control potato LB effectively. CIP
+is working on different fronts to
+develop alternatives to control
+LB. In recent decades, its
+breeding programme has
+developed LB-resistant varieties
+adapted to smallholder farming
+conditions in tropical
+
+environments. Some of these
+varieties are already being
+cultivated in several countries in
+Latin America (Bolivia, Colombia,
+Ecuador, Peru), in Africa (Ethiopia,
+Uganda, Rwanda, Tanzania) and
+in Asia (China, India). CIP has also
+developed technical principles for
+optimizing fungicide use, and for
+designing and adapting
+participatory research and
+training methods to deal with the
+complexities of LB management.
+The experience in LB
+
+management accumulated so far
+has shown that returns on
+investment in controlling the
+disease are high, with marginal
+rates of return ranging from 260
+percent to 1360 percent. These
+are especially significant for
+resource-poor farmers for whom
+potato cultivation represents an
+important coping strategy.
+Support is needed to help
+optimize this impact by scaling
+up and out the technologies and
+methodologies developed by CIP.
+
+54
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Pesticides and the environment
+Improper use of pesticides in
+potato cultivation is a major
+environmental concern. The
+most widespread and intensive
+use of pesticides in developing
+countries is for control of late
+blight (LB) potato disease.
+Farmers in some countries spray
+their potato fields more than 10
+times during a single growing
+season of 4 to 6 months to
+combat this disease. Biocides are
+a health risk to farm families and
+farm workers engaged in potato
+
+production. With the emergence
+of new and more virulent strains
+of LB, even more frequent (and
+increasingly ineffective)
+applications of pesticides are
+being made, raising the risk to
+human health and the
+environment. The spread of
+pesticides or fertilizer residues
+into water supplies through
+irrigation systems or field runoff contribute to water pollution
+that damages plants, insects and
+livestock, and poses a serious
+
+threat to drinking water and to
+water used for post-harvest
+activities. Concern over
+environmental and health
+impacts, combined with the
+better appreciation of the
+damage different diseases and
+insects cause to the potato, have
+led to the development and
+diffusion of alternative
+technologies including diseaseresistant varieties and integrated
+management (IDM/IPM)
+techniques.
+
+3Support facilitation of CIP’s integrated
+pest/disease management (IPM/IDM)
+programme, FAO’s IPM and any other
+3Develop approaches that are specific to the
+target pests and have the least harmful
+IPPM approach through Farmer Field
+effect on other organisms, human health
+Schools or other formal or informal
+or the environment.
+extension programmes.
+3Develop decision support systems that
+3Always aim for reduced use of pesticides by
+assess disease or insect pest pressure and
+applying IPM practices. If pesticides must
+identify the most appropriate timing and
+be applied, use only products registered in
+dosage of chemical interventions.
+the country, give preference to
+3Ensure that when there is a need to apply
+comparatively less toxic pesticides strictly
+pesticides, appropriate equipment is used
+follow usage recommendations and
+and measures are taken to reduce risks
+ensure that farmers and farm workers use
+during handling of the pesticides.
+properly functioning protective
+3Establish laboratories to verify compounds
+equipment.
+and concentration of the active
+3Promote conservation agriculture
+ingredients in pesticides.
+approaches to crop health management.
+Potential areas of improvement
+
+55
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+56
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+AN IRRIGATED POTATO
+FIELD IN CAPE VERDE.
+(PHOTO: MARZIO MARZOT)
+
+Water management
+
+I
+
+n potato production, shortages of water
+are usually one of the most important
+constraints to higher yields. Achieving
+better yields requires an adequate water
+supply from planting until maturity. The
+main effect of drought or water stress on
+potato is yield and size reduction.
+Frequent irrigation reduces the
+occurrence of tuber malformation. For the
+potato, the critical period for water deficit is
+during tuber development. Water deficit in
+the early phase of yield formation increases
+the occurrence of spindled tubers (more
+noticeable in oval than in round tuber
+varieties) and, when followed by irrigation,
+may result in tuber cracking or tubers with
+“hollow hearts”. Therefore, water supply and
+scheduling have important impacts on
+potato growth, yield and tuber quality.
+Good practices
+3Match water application to the potato
+crop’s water requirements and maintain
+adequate soil moisture to maximize yield.
+For best yields, a 120 to 150 day crop
+requires from 500 to 700 mm (20 to 27.5
+inches) of water.
+3Avoid water deficits in the middle to late
+part of the growing period – deficits
+during stolonization, tuber initiation and
+bulking tend to reduce yield.
+3Allow higher depletion toward the ripening
+period (a practice that may also hasten
+maturity and increase dry matter content).
+
+3Where water supply is limited and salinity
+might become a problem, use of a
+technique known as “partial root-zone
+drying” increases water use efficiency.
+Potatoes are planted in furrows so that one
+side can be irrigated and the other kept dry
+in one watering cycle; the opposite furrows
+are watered in the following cycle.
+3Use no-till and soil cover to minimize soil
+evaporation.
+Potential areas of improvement
+3Support research aiming at developing
+drought tolerant and resistant varieties.
+3Improve irrigation and fertilization
+techniques using conservation agriculture
+approaches.
+
+57
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+58
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Post-harvest management
+
+S
+
+ince harvested tubers are living
+tissues and therefore subject to
+deterioration, proper storage is
+essential, both to prevent post-harvest
+losses of potatoes destined for fresh
+consumption or processing, and to
+guarantee an adequate supply of seed tubers.
+The storage of potatoes is intended:
+• to preserve them in first class condition for
+consumption by the grower and customers;
+• to add value and increase profit through
+off-season sales or during the more
+lucrative high-price season;
+• to preserve tubers for planting in the next
+season.
+For ware and processing potatoes, storage
+aims at preventing “greening” and losses in
+weight and quality. In potato storage, the
+two critical environmental factors are
+temperature and humidity. Adequate and
+unrestricted air movement is necessary to
+maintain constant temperature and
+humidity throughout the storage pile, and to
+prevent excessive shrinkage from moisture
+loss and decay. The storage temperature
+affects curing and wound healing processes,
+the spread and severity of disease, sugarstarch balances, and respiration.
+Respiration, in turn, influences dormancy or
+sprouting, and weight loss. High humidity is
+essential for optimum wound healing
+during the curing period.
+It is also essential throughout the storage
+period in order to minimize tuber weight
+loss – weight loss rapidly increases at
+relative humidity levels below 90 percent.
+
+Depending on variety and conditions during
+growth, at 10-13°C and 93 percent
+humidity, potatoes store for 1-3 months; at
+8-10°C
+and 93 percent humidity for 2-5 months;
+at 5-8°C and 93 percent for 4-8 months;
+at 2-5°C and 93 percent humidity for
+7 months.
+Good practices
+3Store well cured potatoes that were
+harvested when ripe (2 weeks after foliage
+death) in a well-ventilated, dark, cool
+place at about 4°C (where refrigeration
+is an option) with humidity around
+90 percent. The potatoes will store for
+roughly three to six months.
+3Store only tubers that are mature and free
+of diseases, insect pest and physical
+damage such as bruising. Research has
+demonstrated that potatoes from healthy
+plants are much more resistant to storage
+decay than potatoes from plants that have
+been weakened from physiological
+stresses.
+3Handle the tubers carefully throughout the
+harvesting and pre-storage operations in
+order to minimize bruising, skinning and
+cutting. Ideally, the harvest should be
+carried out in temperatures of between
+10-18°C. Do not harvest when tuber pulp
+temperature is less than 8°C or more
+than 20°C.
+3Remove soil and plant residues before
+placing potatoes in storage.
+3A wound healing or curing period is
+
+59
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+60
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+COLLECTING
+POTATOES
+IN DIENG PLATEAU,
+INDONESIA.
+(PHOTO: HARJONO
+DJOYOBISONO)
+
+necessary to prevent the entry of rot
+organisms and to reduce water loss.
+Wound healing occurs most rapidly
+at 15-18°C, with 95 percent humidity, and
+requires 5-20 days.
+3Pile potatoes without refrigeration in
+several small piles rather than in one
+large heap. Large amounts tend to heat
+because ventilation cannot reach the
+centre of the pile, thus lowering quality
+and shortening storage life.
+3Never store potatoes in close proximity
+to fruit – hormones produced by ripening
+fruits will cause the potatoes to sprout
+or rot prematurely.
+3Storing ware potatoes at a temperature
+of less than 6°C stimulates the conversion
+of starch into sugars, giving the tubers
+an unnaturally sweet taste. Moreover,
+sugars will interact with free amino acids
+during frying, producing dark products
+with poor taste.
+
+Potential areas of improvement
+3Promote improvements in harvest
+technologies to minimize bruising,
+improve tuber quality and storability.
+3Develop and promote low-cost storage
+technologies suitable to small-scale farms
+in the tropics and subtropics.
+3Carry out ex-ante cost-benefit studies on
+small or large scale refrigerated storage
+capacity.
+
+61
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+Adding value in East Africa
+A study was conducted recently
+across the East African region to
+estimate the potential size of
+the market for fresh and
+processed potato in selected
+cities in Burundi, Ethiopia,
+Kenya, Rwanda, Tanzania
+and Uganda. Findings show
+
+that establishment of a viable
+industry for processed potato
+hinges on improvements
+in quality standards
+and packaging and premium
+prices for quality produce.
+The study said that expanded
+potato processing would
+
+increase employment
+opportunities in city areas.
+With half of East Africans
+expected to live in urban areas
+by 2015, the boom in demand
+for potato chips and French fries
+looks set to continue.
+
+Enhancing the value chain and markets
+
+62
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Learning to innovate and engage
+with markets, and to become
+more competitive are main
+challenges facing small-scale
+farmers. However, in many lowincome developing countries,
+potatoes are typically marketed
+through fragmented chains with
+little coordination and poor
+information flows, giving rise to
+high supply risks and high
+transaction costs. Average yields
+
+remain far too low to enable
+small-scale potato growers to
+produce a marketable surplus,
+preventing them from increasing
+their participation in potato
+marketing systems. In addition,
+limited storage and transport
+facilities can adversely affect the
+quality of tubers after harvest.
+Efforts to enhance the value chain
+will only be successful provided
+there are substantial levels of
+
+public and private investment in
+the subsector, such as in breeding
+programmes, infrastructural
+improvements and initiatives to
+support and coordinate activities
+along the chain. Policy-makers
+should increase support to the
+subsector, by – for example –
+extending to the potato subsector policies and resources
+traditionally focused on cereals
+and on cash crops for export.
+
+The Participatory Market Chain Approach
+The Participatory Market Chain
+Approach (PMCA) was
+developed by the Papa Andina
+Regional Initiative conducted in
+Bolivia, Ecuador and Peru by the
+International Potato Center (CIP).
+The aim of Papa Andina is to
+improve the competitiveness of
+potato market chains and small
+potato producers. PMCA has
+
+proven effective in
+strengthening innovation
+capacity and developing market
+chain innovations that benefit
+small farmers as well as
+processors and distributors.
+Valuable capacities for
+innovation have been
+developed, particularly in the
+realms of knowledge, attitudes,
+
+skills, and social capital. These
+new capacities are potentially
+valuable assets for stimulating
+future innovations in market
+chains. The benefits of the PMCA
+have stimulated considerable
+interest in the approach among
+R&D organizations, policy
+makers and market chain actors.
+
+Value addition and markets
+
+W
+
+ith its adaptability to a wide
+range of uses, the potato has a
+potentially important role to play
+in the food systems of developing
+countries. In fact, in many countries, growth
+in urban populations, rising incomes and
+dietary diversification have led to rapidly
+increasing demand for potatoes from the
+fresh market, fast food, snack and
+convenience food industries. The structural
+transformation of agriculture-based
+economies into more urbanized societies
+opens up new market opportunities for
+potato growers and to their trading and
+processing partners in the value chain. In
+order to tap such potential, an efficient
+value chain for potato needs to be
+established.
+Often potatoes are purchased in the
+countryside by traders from cities, with very
+limited negotiation and with prices decided
+at the farm gate, resulting in an uneven
+distribution of income along the value
+creation chain. This leads to insufficient
+buying power among potato growers and the
+draining away of capital that could be
+invested in rural areas to build
+infrastructure such as roads and improve
+education.
+Good practices
+3Carry out consumer surveys to identify
+growing market segments and types of
+products likely to be in demand in the
+near future.
+
+3Develop and select cultivars that are
+preferred by consumers, processing
+industries or local exporters.
+3Use appropriate post-harvest practices and
+storage facilities to keep tubers in their
+most edible and marketable condition.
+3To increase value, provide high quality
+ware potatoes or potato products to
+consumers.
+3Use simple market-oriented technologies
+that transform potato tubers into stable
+high quality products.
+3Encourage farmer participation in
+producer groups and organizations in
+order to increase their market
+competitiveness and bargaining capacity
+and strengthen their position within the
+potato value chain.
+Potential areas of improvement
+3Support participatory market chain
+approaches for potato (see box).
+3Develop innovative marketing and
+utilization techniques linking small scale
+potato producers to new market
+opportunities.
+3Promote mechanisms and approaches to
+link technology suppliers with farmers’
+needs, based on opportunities identified
+within a market chain framework.
+3Organize growers in cooperatives for joint
+purchase of inputs such as fertilizers and
+for joint processing and trading so that a
+greater proportion of the potato value
+chain remains in the hands of producers.
+
+63
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+64
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+POTATO HARVESTING.
+(PHOTO: FAO)
+
+job_i1127_e_int 23/11/09 11:39 Pagina 65
+
+Farmers’ health, safety and welfare
+
+T
+
+he health, safety and welfare of
+Potential areas of improvement
+farmers and consumers are vital
+assets for the sustainable development Farmers groups should consider
+developing partnerships with public sector
+of the potato subsector and
+and development organizations to address
+agriculture throughout the world. Particular
+health and safety issues.
+attention must be paid to reducing risks
+Create services that collect pesticide
+associated with the use of pesticides, tools
+packing material and unused redundant
+and machinery, and to ensuring that
+stocks for centrally organized destruction.
+potatoes are produced and handled in a
+Inform farmers and households about
+manner that does not harm the
+proper pesticide labelling and the
+environment and the health, and safety of
+designation of containers used to mix
+farmers and consumers.
+pesticides, and the use of properly
+functioning protective equipment and
+Good practices
+clothing.
+Creating awareness of food safety and
+Establish a list of chemicals that are
+environmental issues should be part of
+generally safe for various crops and a
+community education programmes in
+“black list” of chemicals that are
+rural areas.
+dangerous and are forbidden.
+Train farmers in the efﬁcient and safe use Set maximum residue levels for
+of pesticides, fertilizers, tools and
+agrochemicals that are permitted for use
+machinery
+in the country.
+Encourage them to invest in potato
+Organize farmers groups in cooperatives
+farming, and in improving their living
+to promote their interests and call for
+standards.
+positive marketing regulations, lower
+Use decision support tools to reduce the
+duties and taxes on imported tools and
+amounts of biocides used in potato
+equipment, and better access to credit to
+production and thus reduce the risks of
+improve their self-reliance and welfare.
+dangerous levels of residues in harvested
+or stored produce.
+Ensure that medical doctors and hospitals
+in rural areas are able to recognize
+symptoms of agrochemical poisoning and
+treat it.
+
+65
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+POTATO BAGS WAITING
+TO BE SENT BY TRAIN
+FROM SHIMLÀ, INDIA.
+(PHOTO: S. PAUL)
+
+SECTION 4
+
+Implications
+for policy
+and research
+Potato production in the developing
+world grew from 85 million tonnes in
+1991 to 165 million tonnes in 2007.
+To sustain that exceptional growth,
+policy and research must shift from the
+traditional focus on raising
+production to a broader approach
+aimed improving rural incomes,
+livelihoods, nutrition and health, while
+conserving the natural resource base.
+
+“Papa pan”, a pro-potato policy solution
+
+68
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Although the potato has been a
+staple food for Andean peoples for
+millennia, many modern
+Peruvians prefer rice or bread
+made from imported wheat. To
+support domestic potato
+production, the Government of
+Peru has offered low-income
+potato farmers emergency credit
+to maintain production and
+encourages Peruvians to eat a
+greater proportion of potatoes,
+thus boosting demand and prices.
+The government is also promoting
+the use of potatoes to make
+bread. A government-run food
+company produces each day more
+than 12 000 loaves made from
+one-third boiled and mashed
+potatoes and two-thirds wheat
+flour. Replacing a third of the
+wheat flour with mashed
+
+potatoes or potato flour results in
+a soft, tasty bread that keeps well,
+and is more nutritious and
+cheaper than bread made from
+wheat only. Since January 2008,
+Peru’s prisons and many public
+schools have been serving potato
+bread (papa pan). It is also sold by
+Plaza Vea, a Peruvian supermarket
+
+POTATO STARCH.
+(PHOTO: JANGSU CORP.)
+
+chain. More recently, the chief of
+Peru’s Sierra Exportadora, which
+supports farmer co-operatives,
+has called on Ministers to approve
+the construction of 100 potato
+flour production plants to supply
+small and medium bakeries and
+even to export potato flour to
+Europe, Japan and the USA.
+
+Building support at policy level
+
+G
+
+lobally, potato production is growing
+at a rate of 2 percent annually while
+in developing countries, growth is
+estimated at around 5 percent.
+Sustaining the exceptional growth in potato
+production of the past two decades – from
+268 million tonnes in the early 1990s to 325
+million tonnes in 2007 – and the expansion
+of potato domestic trading in developing
+countries depends on choosing the right
+policy and research options for development
+of the agricultural sector and potato-based
+farming systems. The policy and research
+agenda is expected to shift from the
+traditional focus on raising productivity to a
+broader approach that makes a real
+contribution to the fight against hunger,
+poverty and environmental degradation by
+improving rural income, livelihoods,
+nutrition, health, and conserves the natural
+resource base.
+Policy reforms are a needed if developing
+countries wish to develop and promote a
+sustainable potato industry and agricultural
+sector. This implies overcoming current
+trade barriers, including the lack of
+harmonized transit charges and customs
+documentation. It also implies overcoming
+current barriers to sustainable production
+intensification based on good agricultural
+practices.
+Policy makers need to be more aware of
+the contribution that the potato is already
+making to development and food security,
+and of its importance as a staple food and
+cash crop in developing countries. In the
+process of revising poverty reduction strategy
+papers (PRSPs), and in formulating
+strategies for agricultural development, they
+should take into account the needs and
+potentials of the potato subsector and
+support its more active engagement in the
+
+development process.
+One important policy aim in developing
+countries should be to enhance the value of
+potato production by establishing links
+between farmers and food processors,
+improving credit availability, and fostering
+public-private partnerships for technology
+innovation. By engaging interested partners
+from the public and private sectors and civil
+society, policy can facilitate the development
+of focused country-level programmes,
+projects and activities to support a
+sustainable potato subsector.
+Policy should also create a regulatory
+environment conducive to sustainable
+potato development through support for
+knowledge enhancement and research,
+application of best management practices,
+and sharing and promotion of proven and
+advanced potato technologies through
+education, extension and training.
+Policy should address constraints on
+potato-based production systems by
+favouring the introduction of good quality
+planting material and potato varieties more
+resistant to insect pests, diseases, water
+scarcity and climate change, farming
+systems that can make optimum use of
+natural resources, seed certification schemes
+and soil testing laboratories.
+Policy will also have to secure financial
+commitments from national governments,
+donors and the private sector to invest in
+potato-based systems and value chains. In
+doing so, policy makers should encourage a
+stronger commitment by the potato
+community to potato subsector
+development.
+
+69
+
+IMPLICATIONS
+FOR POLICY
+AND RESEARCH
+
+70
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+IN VITRO PLANTS
+OF POTATO.
+(PHOTO:
+YOAV FRIDLANDER)
+
+Research for development agenda
+
+A
+
+ccelerated and sustainable
+development of the potato subsector
+in developing countries requires
+increases in the productivity,
+profitability and sustainability of potatobased farming systems. This implies a new
+and vigorous research for development
+agenda.
+The way forward for potato research in
+developing countries will include a number
+of priority areas. First, the lack of adequate
+quantities of clean seed is a major
+bottleneck to improved productivity.
+Promising results have been obtained
+through extension efforts that promote the
+use of “positive selection” and small-scale
+seed plots. Other research work aimed at
+improving the quality of farmers’ seed
+through novel technologies such as
+aeroponic production of clean seed tubers
+has yielded positive results. Strong
+consideration should be given to fostering
+public-private sector partnerships as a
+strategy for getting potato seed systems
+moving in developing countries. Also
+recommended are ex-ante assessments of
+the potential return on investments by
+calculating the impact of new adapted
+varieties and cleaner seed.
+In many countries, investments are
+needed in laboratories for the diagnosis of
+potato diseases, for measuring mineral
+concentrations in soils, manure and
+fertilizers, and for determining the
+composition and concentration of active
+compounds in herbicides, pesticides,
+fungicides and nematicides.
+
+Legislation is needed in many countries
+to set quality standards for seed and to
+introduce or enforce mechanisms for
+certification through accredited laboratories.
+Legislation may also be needed to protect
+potato breeders’ rights.
+The potential effects of climate change
+pose a threat to the levels and stability of
+potato yields. Heat and drought resistance
+should be considered in breeding
+programmes along with other key traits
+such as late-blight resistance, virus
+resistance, earliness and culinary qualities.
+Hence, research needs to provide a broader
+range of genetic material that meets sitespecific criteria, is adaptable to changing
+environments, and meets new demands
+from emerging markets for processed food
+products, non-food ingredients and starch
+for industry. The growing demand for potato
+with specific characteristics for a particular
+processed product must be taken into
+consideration, but should only be pursued
+after a careful analysis of market prospects.
+The potato subsector faces a growing
+challenge from more aggressive strains of
+late blight and many developing countries
+have a limited capacity to control the disease
+through fungicide application. Continued
+research on resistance breeding and
+integrated management strategies is
+essential, while support is needed for scaling
+up LB control technologies and
+methodologies developed by CIP.
+It is unlikely that resistance to latent
+bacterial wilt infection will be available
+through conventional breeding in the near
+
+71
+
+IMPLICATIONS
+FOR POLICY
+AND RESEARCH
+
+72
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+FROM THE ESSAY,
+“HARVEST OF NATIVE
+POTATOES, PERU.”
+(PHOTO: EITAN
+ABRAMOVICH SAMESAS)
+
+future. Research on integrated management
+to control bacterial wilt needs to focus on
+designing improved detection technologies,
+developing recommendations that farmers
+are willing and able to adopt, and exploring
+options for suppressing the disease through
+improved soil fertility and health
+management (e.g. sanitation measures and
+clean seed). Participatory approaches to
+farmer empowerment and learning, such as
+Farmers’ Field Schools (FFS) for IPM and
+IDM, are required in order to reach a
+significant number of potato growers.
+Progress in the sequencing of the bacterial
+wilt genome might lead to new ways of
+controlling the disease in the long term.
+The development of conservation
+agriculture technologies and practices for
+potato-based systems presents opportunities
+
+for both public and private sector research.
+All aspects require increased research
+support.
+Finally, improving the incomes of smallscale potato growers depends on increasing
+demand-driven opportunities and
+developing value-chains which include all
+market chain actors, from input suppliers to
+consumers. Linking farmers to markets,
+especially high-value supermarkets and
+restaurant chains, can substantially increase
+the profitability of the potato cultivation.
+This requires technological innovation at
+many points in the value chain, including
+introduction of improved varieties and more
+efficient post-harvest processes, as well as
+technical assistance to ensure timely
+production and supply of adequate
+quantities of high quality potato products.
+
+73
+
+IMPLICATIONS
+FOR POLICY
+AND RESEARCH
+
+Challenge of a better functioning value chain
+
+74
+
+SUSTAINABLE
+POTATO
+PRODUCTION
+
+Potato seed producers arguably
+constitute the most critical link in
+the potato chain. For it is their role
+to ensure that the chain has
+access to sufficient quantities and
+qualities of planting material to
+meet the needs of potato growers,
+processors and traders. In order
+for this group to successfully
+participate in the value chain,
+they need yield-improving and
+input-saving technologies to help
+close the persistent potato “yield
+gap” and to reduce per tonne
+production costs. Production
+initiatives can be strengthened
+greatly by germplasm research
+focused on specific end uses,
+tissue culture, rapid multiplication
+of planting material, insect pest
+and disease resistance (including
+enhancing resistance to prevalent
+diseases such as late blight by
+
+ASSEMBLING
+THE POTATO
+HARVEST, INDONESIA.
+(PHOTO:
+FERNADIE LILI)
+
+combining conventional plant
+breeding techniques with
+biotechnology) and the formation
+of producer groups to share
+expertise and to strengthen
+bargaining power. The continuous
+generation and diffusion
+of improved varieties is important
+if the potato subsector is to
+flourish. The expansion of potato
+cultivation will also be facilitated
+by improved irrigation supply,
+chemical fertilizers, cold storage
+
+facilities, and transport
+infrastructure. In addition,
+the market price of potato is often
+subject to very limited
+negotiation and is often decided
+at the farm gate. Inefficient
+and unfair pricing often results
+in producers failing to respond
+to market incentives, stifling
+efforts to increase productivity
+and undermining the necessary
+on-farm investments in
+production.
+
+Partnerships for policy and research
+
+E
+
+xtending the benefits of potato
+subsector in developing countries
+requires action on a wider front. The
+best strategy for achieving this is to
+engage the international community in
+agricultural development that benefits
+small-scale farmers, who make up the
+majority of the world’s most poor and
+hungry. Such commitment will make a
+strong contribution to achievement of the
+first of the United Nations Millennium
+Development Goals, to half the proportion of
+those living in extreme poverty and hunger.
+As a lead UN agency for agriculture and
+rural development, FAO will be a key partner
+in that process, by advising on policies and
+strategies to modernize the potato subsector,
+sharing its extensive knowledge of potato
+farming systems, promoting appropriate
+technology for sustainable intensification of
+
+production, and forging links among
+decision makers, producers, processors and
+marketing chains.
+CIP will play a key role through its
+campaign for a new research for
+development agenda that puts potato science
+at the service of the poor. The new agenda
+seeks to boost potato yields in developing
+countries by working with them to provide
+higher quality planting material, better
+varieties drawn from a broader base of
+potato genetic resources (including the rich
+storehouse of Andean varieties), and
+improved crop management practices. CIP
+is calling for a renewed sense of
+responsibility for conservation of the potato
+gene pool and take concrete steps to ensure
+that developing countries acquire the
+capacity to utilize it in a sustainable
+manner.
+
+75
+
+IMPLICATIONS
+FOR POLICY
+AND RESEARCH
+
+BAMBOO BOAT,
+THE PHILIPPINES.
+(PHOTO:
+MARLENE SINGH)
+
+SECTION 5
+
+Potato fact sheets
+To deepen understanding
+of the potato’s role in world agriculture,
+the economy and global food security,
+FAO specialists compiled a series
+of factsheets on key issues
+in potato development.
+
+Bibliography
+Bernet, T., Thiele, G. & Zschocke, T. 2006..
+Participatory Market Chain Approach (PMCA):
+User Guide, International Potato Center (CIP),,
+Lima, Peru.
+Beukema, H.P. & van der Zaag, D.E. 1990.
+Introduction to Potato Production. PUDOC.
+Wageningen, The Netherlands.
+Caldiz, D. O. 2007. Producción, cosecha y
+almacenamiento de papa en la Argentina. BASF
+Argentina S.A.—McCain Argentina S.A. (1st ed.).
+Balcarce, Argentina.
+CIP. [International Potato Center]. 2007. Root and
+Tubers: The overlooked opportunity, Annual
+Report. CIP, Lima, Peru.
+CIP. 2008. Potatoes. Fact sheet. CIP, Lima, Peru.
+CIP. 2008. Fifty potato facts. Fact sheet. CIP, Lima,
+Peru.
+CIP. 2008. Potatoes and economic policy. Fact sheet.
+CIP, Lima, Peru.
+CIP. 2008. Potatoes and the environment. Fact sheet.
+CIP, Lima, Peru.
+CIP. 2008. Potatoes and biodiversity. Fact sheet. CIP,
+Lima, Peru.
+CIP. 2008. Why potatoes. Fact sheet. CIP, Lima, Peru.
+FAO. 1998. Storage and processing of roots and tubers
+in the tropics. FAO, Rome, Italy.
+FAO. 2009. New light on a hidden treasure. IYP endof-year review. FAO, Rome, Italy.
+Gildemacher, P., Demo, P., Kinyae, P.,
+Nyongesa, M. & Mundia. P. 2007. Selecting the
+best plants to improve seed potato. LEISA
+Magazine 23(2): 10–11.
+Guardia, Sara B. 2004. La flor morada de los Andes.
+Universidad San Martín de Porres, Lima, Peru.
+Horton, D. 2008. Facilitating pro-poor market chain
+innovation: An assessment of participatory market
+chain approach in Uganda. Working paper. CIP,
+Lima, Peru.
+
+Low, J., Baker, I., Bornierbale, M., Crissman,
+C., Forbes, G., Lemaga, B. & Priou, S. 2007.
+Emerging trends and advances in potato research
+relevant to defining the way forward for the potato
+subsector in Sub-Saharan Africa. African Potato
+Association Conference Proceedings 7: 1-17.
+Mancero, L. 2007. Potato chain study. FAO-ESAECIP project document.
+Nganga, S. & Shideler, F. 1982. Potato seed
+production for tropical Africa. CIP, Lima, Peru.
+Posadas, A., Rojas, G., Malaga, M., Mares, V. &
+Quiroz, R. 2008. Partial root-zone drying: An
+altrnative irrigation management to improve the
+water use efficiency of potato crops. Working
+paper. CIP, Lima, Peru.
+Rouselle, P., Robert, Y. & Crosnier, J.C. 1996. La
+Pomme de Terre: production, amélioration,
+ennemis et maladies, utilisation. INRA, Paris,
+France.
+Stark, J.C. & Love, S.L. (eds.) 2003. Potato
+Production Systems. University of Idaho
+Extension. USA.
+Van der Zaag, D.E. 1982. Seed potatoes, sources of
+supply and treatment. NIVAA, The Hague, The
+Netherlands.
+Wachira Kaguango, Gildemacher, P., Demo,
+P., Wagoire, W., Kinyae, P., Andrade, J.,
+Fuglie, K. & Thiele, G. 2008. Farmer practices
+and adoption of improved potato varieties in
+Kenya and Uganda. Working paper. CIP, Lima,
+Peru.
+Warsito Tantowijoyo & van de Fliert, E. 2006.
+All about potatoes: A Handbook to the Ecology and
+Integrated Management of Potato. CIP-ESEAP
+Region & FAO Regional Vegetable IPM Program
+in South and Southeast Asia.
+
+91
+
+KEY INDICATORS
+OF
+SUSTAINABILITY
+
+International Year of the Potato Secretariat
+Plant Production and Protection Division
+Food and Agriculture Organization
+of the United Nations
+Viale delle Terme di Caracalla
+00153 Rome, Italy
+potato2008@fao.org
+www.potato2008.org
+
+“Snapshots” of selected best
+practices and examples of successful
+approaches in developing countries
+
+Factors constraining the potato
+subsector, good agricultural practices
+for potato production, key indicators
+of sustainability, and implications
+for policy and research
+
+ISBN 978-92-5-106409-2
+
+9
+
+789251 064092
+I1127E/1/10.09/2000
+
+

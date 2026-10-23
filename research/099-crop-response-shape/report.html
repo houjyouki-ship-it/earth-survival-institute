@@ -1,0 +1,44 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究099：作物の雨と光への収量の応答の形を資料で決める（open_problems 239＋240） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="099open_problems-239240">研究099：作物の雨と光への収量の応答の形を資料で決める（open_problems 239＋240）</h1>
+<p><strong>注：q などの値は模型の中の割合で、生存確率でも復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</strong></p>
+<h2 id="_1">問い</h2>
+<p>098 では、097 の「得」の格子（耐寒の作物が気温では実る 374 格子、面積 0.221）の群あたりの主食の喪失 q が、雨と光への応答を閾値 0.5 にすると 0.645、比例（積）にすると 0.434 と、応答の形で全幅が動いた。応答の形を公開の資料で決める。</p>
+<h2 id="sources-sha256sums">資料（本回取得、sources/ に保存し SHA256SUMS）</h2>
+<ul>
+<li>【事実（<a href="https://www.fao.org/4/s2022e/s2022e07.htm">FAO Irrigation Water Management Manual 3, Table 14</a>）】季節の作物の水の要求は Barley/Oats/Wheat 450〜650 mm、Potato 500〜700 mm、Sorghum/Millet 450〜650 mm。</li>
+<li>【事実（<a href="https://www.fao.org/4/i2800e/i2800e02.pdf">FAO i2800e, Table 1 = FAO 33 の季節の Ky</a>）】1−Ya/Ym = Ky(1−ETa/ETm)。Spring wheat 1.15、Winter wheat 1.05、Potato 1.1、Sorghum 0.9。大麦は表にないので小麦で代用した。</li>
+<li>【事実（<a href="https://journal.agrimetassociation.org/index.php/jam/article/download/599/499">Yadav et al. 2017, J. Agrometeorol. 19(4)</a>）】New Delhi の小麦（分げつ期から成熟まで遮光）。粒の収量の減りは 2014-15 に遮光 20/35/50/75% で 23/48/68/81%、2015-16 に 35/50/75% で 58/74/88%。著者は「減りは遮光の割合より少し大きい」と書いている。</li>
+<li>【事実（<a href="https://www.mdpi.com/2073-4395/9/6/330">Schulz et al. 2019, Agronomy 9(6):330</a>）】Germany のジャガイモ。50% 遮光で塊茎の乾物の収量は年により 19〜44% 減り、2015 年は出芽から収穫まで 10.11 MJ m⁻² d⁻¹ でも減りがなかった。</li>
+<li>日本のジャガイモの遮光の試験（J-STAGE、doi 10.2525/ecb1963.40.259）は 406 で開けず、使っていない。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>再現：098 の q_phys 0.6454 と比例の積 0.4335 を差 0 で再現（assert）。sim.py を 2 回実行し stdout が一致。</li>
+<li>水：FAO 33 の式で、ETa/ETm = min(1, 4 か月の雨 ÷ ETm)。ETm は表の中央（大麦 550、ジャガイモ 600 mm）で、150 Tg では季節の日射の比を掛けた（蒸発の需要は日射に比例とする近似）。対照の同じ値で割って比にした。</li>
+<li>光：遮光の試験に収量比 = L^γ を当てはめた。小麦 γ=1.47（比例より悪い）、ジャガイモ γ=0.57（範囲 0.30〜0.84、比例より良い）。版としてジャガイモの絶対の飽和（10.11 MJ ≈ 117 W m⁻²）も入れた。</li>
+<li>合わせ：m = 水の比 × 光の比。098 と同じく増殖比 10×m を種の収支に入れ、大麦とジャガイモのどちらかが種を保てば得のまま。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<ul>
+<li>得の格子の季節の日射は対照の中央値 206 W m⁻²、150 Tg の年 2 で 92 W m⁻²。得の面積の 94% はジャガイモの飽和の値を下回る。</li>
+<li>最悪年の水の比の中央値は大麦 0.36・ジャガイモ 0.37。水の比が 0.1 を割る面積は 0.25〜0.27。</li>
+<li>最悪年の m の中央値は大麦 0.12、ジャガイモ 0.25。得の面積の 83% が残る。</li>
+<li><strong>q は 0.463（3 群の同じ小地域 0.294）</strong>。098 の閾値 0.645 と比例 0.434 の間で、比例の側に寄った。</li>
+<li>版：光の形（比例、ジャガイモの飽和、γ の両端）では 0.462〜0.463 とほぼ動かない。日射で ETm を下げない版は 0.507、Ky 1.05 は 0.452、ETm の両端は 0.457〜0.467、増殖比 5・20 は 0.474・0.460、人口の重みは 0.509。全部を楽観にすると 0.445、悲観にすると 0.579。</li>
+</ul>
+<h2 id="_4">仮説の判定（分類つき）</h2>
+<ul>
+<li>H111a（確認的）：大麦の季節の水の要求の下限は 400 mm 以上。<strong>支持</strong>（450 mm）。</li>
+<li>H111b（確認的）：遮光 50〜70% の収量比の中央値は比例より大きい。<strong>棄却</strong>（50% 遮光の 4 値の中央値 0.44 &lt; 0.5）。作物で分かれ、小麦は比例より悪く、ジャガイモは比例より良い。</li>
+<li>H111c（予測）：q は中点 0.539 より下。<strong>支持</strong>（0.463、悲観の版 0.579 だけ上）。</li>
+<li>H111d（予測）：最悪年に水の比が 0.1 を割る面積は 0.5 未満。<strong>支持</strong>（0.25〜0.27）。</li>
+</ul>
+<h2 id="_5">批判的な検討</h2>
+<ul>
+<li>光の形がほとんど効かないのは、増殖比 10 だと m が 0.02 を割らない限り種が保たれるからで、結果を決めているのは光の形でなく「種を保てる最低の収量」の置き方。光の資料が意味を持つのは増殖比が小さい場合だけ。</li>
+<li>Ky の式は ETa/ETm が 0.3〜0.4 という深い不足への外挿で、そこで直線のままかは確かめていない【推測】。</li>
+<li>小麦の遮光は分げつ期からで、生育の全期間の遮光ならもっと悪い可能性がある。Delhi は日射が強い場所で、弱い日射の下では比はさらに悪いかもしれない【推測】。</li>
+<li>光は国の平均の FSDS で、格子の値ではない。ETm を日射に比例させる近似で q が 0.04 動く。</li>
+<li>大麦の Ky は小麦の代用。ソルガム・トウジンビエ・キャッサバ・サツマイモは 097 の気温の判定がないので扱っていない。</li>
+</ul>
+<h2 id="_6">結論（模型の中での順位、外部の検証はまだ）</h2>
+<p>098 の q の幅 0.43〜0.65 は、資料の応答（FAO 33 の Ky と遮光の試験）で 0.45〜0.58（主 0.463）に縮み、比例の側に寄った。核の冬の食料の研究者と遺伝子銀行は、低緯度の得を雨と光の「閾値で全滅」でなく減収として扱ってよいが、残りの幅を決めるのは日射で蒸発の需要がどれだけ下がるかと、増殖比（種に対する収量）の値。本研究所は次に増殖比（241）と ETm の日射への応答（242）を資料で取る。</p><footer><hr><small>自動生成</small></footer></body></html>

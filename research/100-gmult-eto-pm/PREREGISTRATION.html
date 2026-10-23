@@ -1,0 +1,21 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究100 事前登録（2026-10-23 13:38 JST、増殖比の資料を開く前・TSMX の格子と ETo の計算の前、sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="100-2026-10-23-1338-jsttsmx-eto-simpy">研究100 事前登録（2026-10-23 13:38 JST、増殖比の資料を開く前・TSMX の格子と ETo の計算の前、sim.py の前）</h1>
+<p>注：出す値は模型の中の割合で、生存確率でも復興確率でもない。</p>
+<h2 id="open_problems-241242">問い（open_problems 241＋242）</h2>
+<p>099 の主 q 0.463 は、耐寒の作物（大麦・ジャガイモ）の増殖比（収量÷種）を 10 と置き、核の冬での作物の蒸発の需要 ETm を季節の日射の比 L_r に比例させた近似に乗っている。
+(241) 公開の資料から低投入・天水・前近代の増殖比を取り、(242) FAO 56 の Penman-Monteith の式で ETo の比（150 Tg÷対照）を格子で計算して、q を置き直す。</p>
+<h2 id="_1">模型（登録）</h2>
+<ul>
+<li>ETo：FAO 56 の式 6（日単位の月平均）。入力は CESM の月の TS・TSMN・TSMX（地表の温度で 2 m の気温の代用）と FSDS の国の月平均。
+  湿度と風は資料に無いので FAO 56 の欠測の手順に従い、露点＝Tmin、u2＝2 m/s。Rso＝0.75 Ra、Rnl は式 39、G＝0。
+  ETm150＝ETm_ctl × (季節の ETo150 ÷ 対照の季節の ETo の平均)。他は 099 と同じ（Ky、ETm_ctl、seed_loss、増殖比×m）。</li>
+<li>増殖比：資料の値（重さの比、収量÷播種量）の中央値と範囲を、大麦とジャガイモの別に 099 の gmult に入れる。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H112a（確認的）：資料から取る低投入・天水・前近代の大麦（大麦がなければ麦類）の増殖比の中央値は 10 未満。</li>
+<li>H112b（確認的）：資料から取る低投入のジャガイモの重さの増殖比（収量 t/ha ÷ 種芋 t/ha）の中央値は 10 未満。</li>
+<li>H112c（予測）：得の格子の季節の ETo の比（年 2）の中央値は、同じ格子の L_r の中央値より小さい（気温と湿度の差の低下が日射の低下に上乗せする）。</li>
+<li>H112d（予測）：ETo の比と資料の増殖比を両方入れた q は、099 の版の幅 0.445〜0.579 の中に入る。</li>
+</ul>
+<h2 id="_3">版（登録）</h2>
+<p>露点＝Tmin−2 °C（乾いた側）、u2＝1・4 m/s、増殖比の資料の両端、ETo の比を年ごと（主）と 5 年平均。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,389 @@
+<cursor_untrusted_data_1337 source="WebFetch">
+
+# Content from https://link.springer.com/article/10.1186/s40066-017-0106-8
+
+Page image: https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs40066-017-0106-8/MediaObjects/40066_2017_106_Fig1_HTML.gif
+
+Assessment of production practices of smallholder potato (Solanum tuberosum L.) farmers in Wolaita zone, southern Ethiopia | Agriculture & Food Security | Springer Nature Link
+
+# Assessment of production practices of smallholder potato (Solanum tuberosum L.) farmers in Wolaita zone, southern Ethiopia
+
+- Research
+- Open access
+- Published: 23 March 2017
+
+- Hailu Gebru 1, 
+- Ali Mohammed 2, 
+- Nigussie Dechassa 3 & 
+- …
+- Derbew Belew 1 
+
+### Background
+
+Potato plays a great role for the achievement of food security program due to its plasticity to environmental conditions and yielding capacity. However, its productivity is far less than other countries due to constraints threatening subsistence farms in Ethiopia. Therefore, potato production practices by smallholder farmers were assessed in Wolaita zone of southern Ethiopia to identify major factors constraining production of the crop. Data were collected at two stages, i.e., at a pilot survey and the time of basic data collection. Descriptive statistics, multiple linear regression, and index ranking were used to analyze the data.
+
+### Results
+
+The descriptive statistical revealed that smallholder farmers have very small land (about 0.5 ha per household). Low access to and high prices of seed tubers of improved potato varieties (>0.25 USD kg −1 seed tubers) and scarcity of information on good fertilizer management practices for producing the crop with only a blanket rate of 147 and 135 kg ha −1 of urea and diammonium phosphate, respectively, limit potato production in the area. Furthermore, prevalence of diseases and low market prices of tubers at harvesting, but too expensive during planting period are the major constraints of potato production in the zone. In addition, results of the multiple regression analysis indicated that the occurrence of natural hazards, seeding rate and expensive price of improved seed tubers were important factors significantly influence potato productivity in Wolaita area. Likewise, disease problems, low market price of potato at harvesting time, storage problems, and lack of seed tubers were the four major constraints identified by index ranking.
+
+### Conclusions
+
+ Results of this study revealed that potato production is constrained by a number of factors among which diseases, storage problems, low market prices of tubers at harvest, and insufficient quality seed tubers for planting were the four major constraints challenging potato production in the study area according to the index ranking method.
+
+## Background
+
+Potato (Solanum tuberosum L.) contributes to world food security and has a critical role to play in developing nations facing hunger. It supplements or replaces grain-based diets where rice, wheat, or maize availability has lessened or price has become unaffordable [1]. Potato is also inexpensive to buy and easy to grow. It can give stable yield under conditions where other crops might fail, suitable to grow where land is limited and labor is plentiful [2]. Its plasticity to environmental conditions and yielding capacity also make it the best crop for food and nutrition security [3]. Potato ranked fourth in the world in terms of the volume of production after rice (Oryza sativa L.), wheat (Triticum aestivum L.), and maize (Zea mays L.) [4]. It is also the most important tuber crop, ranking first in volume produced among root and tuber crops; it is followed by cassava (Manihot esculenta Crantz), sweet potato [Ipomoea Batatas (L.) Lam], and yam (Dioscorea spp.) [5].
+
+The demand for potatoes continues to increase in conjunction with expanding diet diversity, requests for prepared food items, and a need for inexpensive foods. The ability to grow potatoes in a wide range of climates and their adoption by a broad range of cultures has increased potato consumption worldwide [6]. Therefore, potato is currently the predominant vegetable in terms of sales, production, and consumption [7]. It is the most important crop in developing countries, and its production is expanding more rapidly than other food crops [8]. As a result, it is becoming an increasingly important source of rural employment, income, and food for growing populations [9].
+
+Potato is produced mostly for local consumption and local markets in Ethiopia and Cameroon. It might be a very important crop in this region and accounting for per capita production values as low as zero in some cases. Its production in Ethiopia, for example, is 0–45 kg per capita [10]. It is a crop that can be used to improve food security and cash income in Ethiopia. Because it is high yielding ability in a short season, presence of suitable agroecological zones within the country, the availability of labor for its production on large areas of land, and the accessibility of a potential market with considerable added value for its produce [11]. According to FAOSTAT [12], area under potato cultivation was about 51,698 ha in 2005/6 that produced 509,716 tonnes of tuber yields; currently, in 2014/2015, area under potato crop has increased to 67,362 ha and its productivity is about 921,832 tonnes in Ethiopia. Its national productivity is 13.7 t ha −1 in the production years of 2014/2015 [12] which is still far less than that of other countries such as New Zealand (50.2 t ha −1) and North America (41.2 t ha −1). Even yield potential of potato has been reported to reach about 100 t ha −1 [13].
+
+Potato is produced twice a year. The bulk production is during Belg (a short rain season, March–June) season, whereas small production takes place during the Meher season (a long rain season, July–October) in southern Ethiopia. Rural households in the potato-growing areas of this region have less than 1 ha [14].
+
+According to CSA [15], mean potato farm in Wolaita zone was as small as 0.025 ha HH −1. During the 2014/2015 main production season, potato is the third important tuber crop in production volume next to taro [Colocasia esculenta (L.) Schott] and sweet potato [Ipomoea Batatas (L.) Lam] in the zone. Its productivity in the zone was 19 t ha −1 [15], which is a bit greater than its national productivity (13.7 t ha −1).
+
+Many constraints threaten production of potatoes on subsistence farms. As both its edible and reproductive part of potato is the semi-perishable tuber, diseases can easily be accumulated with each planting season and can dramatically reduce its yielding potential. Formal seed potato production systems produce disease-free, laboratory-tested mini-tubers to provide quality planting materials. However, the formal system in Ethiopia only accounts for 3% of seed produced [4]. It is also easily susceptible to damage and cannot be stored longer conventionally. Several other constraints such as traditional potato production system, shortage of clean seed tubers of improved varieties, limited knowledge on postharvest handling of the produce, and poor technology transfer systems also hinder its productivity in the country [4]. As a result, actual potato yields have been far below its potential yields in Ethiopia.
+
+There is a little area-specific information on the production practices of potato in the study area. Therefore, assessing potato production practices is important to identify the major constraints and tackle the problems in the future. The objective of this survey was, therefore, to assess production practices of potato by smallholder farmers in the zone to elucidate and document major constraints of producing the crop.
+
+### Description of the study area
+
+The study was conducted in Wolaita zone (Fig. 1) during the 2014/2015 growing season. It is located between 037°35ʹ–037°58ʹE and 06°57ʹ–07°04ʹN [16]. The population of Wolaita zone is about 1,808,548, of which 49.1% are male and 50.9% are female. About 17.3% of the population of the zone live in towns and the rest accounting for about 82.7% live in rural areas. The annual population growth rate of the zone is 2.3%, and it is one of the most densely populated areas in the country with a mean of 385 people per km 2 [17]. The zone covers an altitude range of 700–2900 m above sea level, having a bimodal rainfall: small rains from March to May and heavy rains during the months of July and August. The last thirteen years’ (2003–2015) mean annual rainfall and temperature were 1580.0 mm and 20.1 °C, respectively, while the mean relative humidity of the area was as high as 70.4% during the month May but lowered to 30.3% during the month of December (see Additional file 1) [18]. The area is divided into three ecological zones: Kola (lowland <1500 m above sea level), Woina- Dega (mid-highland 1500–2300 m above sea level), and Dega (highland >2300 m above sea level). Most of the area lies within the mid-highland agroecological zone. Soils of the zone are varying due to its diverse topography. The dominant soils of the zone are reported to be Nitosols [19], which are sesquioxidic and moderately to strongly acidic [20]. The predominant farming system of the study area is a mixed farming system with the main food crops of maize (Zea mays L.), beans (Phaseolus vulgaris L.), sweet potatoes [Ipomoea batatas (L.) Lam.], and ensete [Ensete ventricosum (Welw.) Cheesman], while Irish potato (Solanum tuberosum L.), tef [Eragrostis tef (Zucc.) Trotter], coffee (Coffea Arabica L.), and ginger (Zingiber officinale Ros.) are among the cash crops cultivated in the zone. Cattle, sheep, poultry, and donkey are the main livestock types.
+
+Fig. 1
+
+Full size image
+
+Location of the study area
+
+### Sampling procedures and sample size
+
+The study was conducted in nine kebeles (lowest administrative units) in Sodo-Zuria, Damot-Gale and Damot-Pulasa rural districts where potato is grown intensively. The population for the study consisted of the household heads, especially men and women.
+
+ A purposive sampling technique was adopted to select three kebeles in Sodo-Zuria rural district, namely Kokate, Dalbo-Wagane, and Dalbo-Atwaro; three kebeles in Damot-Gale rural district, namely Shasha, Fate, and Chocha; and three kebeles in Damot-Pulasa district, namely Golo-Shanto, Tontome-Menta, and Lera (see Fig. 2; Additional file 2). The number of farmers (n) to be selected from each kebele was calculated as sample size by using a simplified formula of Yemane [21]:
+
+$$n = \frac{N}{{1 + N\left( e \right)^{2} }}$$ (1) 
+
+where n = sample size, N = population size, and e = level of precision (0.05).
+
+Fig. 2
+
+Full size image
+
+Total kebele households, sampled households, and percentage of sampled households
+
+Head households were selected by systematic sampling technique, dividing N by n (N/ n = i), and every i th head of the household was selected starting from the first name of the head household based on the list at their kebele level. The first household was obtained by a lottery method out of the i ranges accordingly. The percent of sampled population (C) was computed using the formula as stated by Boyd et al. [22]:
+
+$$C = \frac{n}{N} \times 100$$ (2) 
+
+where n = number of selected farmers and N = total number of farmers in a district.
+
+I brought the permission letter from Wolaita Sodo University to the Agricultural Office of Wolaita zone; the zone also gave me a letter to give it to the study districts; the districts as well write letters to the respective study kebeles. Accordingly, the participants were volunteer and which is consent to participate by proxy.
+
+The primary data were collected by using a structured questionnaire (see Additional file 3). This was conducted in two stages. The preliminary (pilot) survey was very important to obtain general information about the kebeles and for familiarization and introduction of the study objectives to the kebele administration. During the preliminary survey, a list of relevant guidelines and questions were used to guide the discussions with the focus groups and key informants. To ensure validity, ten to fifteen members from each kebele were interviewed. The main reason of pretesting was to identify any shortcomings and assist in making modifications in some questions before the actual data collection.
+
+The second stage was the basic data collection. These data included information of households on demographic characteristics, production experience, production efficiency, use of appropriate production practices (source and selection of improved varieties, recommended spacing, soil fertility management, pest control methods, postharvest handling activities, and decision making by gender on production and utilization of potato). It also involved the observation method. The observed data on what was happening in the field and potato storage and general appearance of the area were noted in a notebook for additional information.
+
+Open-ended questions were added to investigate deeply for additional insights into the information collected. Secondary data were obtained from reports and other documents from various offices of bureaus of agriculture at different levels.
+
+### Data analysis
+
+Data were analyzed using the Statistical Package for the Social Science (SPSS, version 16) (see Additional file 4). The important descriptive statistical measures such as percentage, frequency, and mean were used to summarize and categorize the research data.
+
+The multiple linear regression analysis was used between average yield (t ha −1) as a dependent trait (Y) and other studied variables as independent variable (X) to study the effect of each variable on productivity of potato under smallholder farmers in the study area.
+
+Furthermore, major constraints in production practices of potato were ranked by using index ranking that employed using the formula:
+
+Index = sum of (8 × No of household head ranked 1st + 7 × No of household head ranked 2nd + 6 × No of household head ranked 3rd + 5 × No of household head ranked 4th + 4 × No of household head ranked 5th + 3 × No of household head ranked 6th + 2 × No of household head ranked 7th + 1 × No of household head ranked 8th) for each constraint divided by sum of (8 × total No of household head ranked 1st + 7 × total No of household head ranked 2nd + 6 × total No of household head ranked 3rd + 5 × total No of household head ranked 4th + 4 × total No of household head ranked 5th + 3 × total No of household head ranked 6th + 2 × total No of household head ranked 7th + 1 × total No of household head ranked 8th) for all constraints mentioned.
+
+### Demographic characteristics of households
+
+Most (88.8%) of the interviewed head of households were men while the rest (11.2%) were female household heads who are widows or divorced (Table 1). Household resource leaders are mostly males as the case in other African countries. For instance, Muthoni et al. [23] reported that over 60% of the farmers interviewed were men in their study in Kenya.
+
+Table 1 Demographic characteristic of the sample households
+
+Full size table
+
+About 63.5% of respondent households were within the range of working age (15–65 years old), whereas 36.5% of them were elder (>65 years old) (Table 1). This might be related to the fact that effective and independent workers who are known to possess the physical strength required for crop production are found in this age category. Similarly, Negasi et al. [24] reported that onion production in the rift valley areas of Ethiopia is mainly carried out by the active age group (15–65 years old) of the society.
+
+Mean family size of households of Sodo-Zuria and Damot-Gale districts was similar (≈4) while that of Damot-Pulasa was about 5 (Table 1). In other study, majority of the rural residents had family size of more than five [25]. In fact, as the number of household size increases, agricultural activities of the households can also be accomplished in time due to sharing of the duties among the household members. In the same way, Okoye et al. [26] and Udensi et al. [27] reported that a relatively large household size are more likely to provide more labor required for farm operations such as weed control, fertilizer application. However, Simonyan and Obiakor [25] justified that large household size may not guarantee for increased labor efficiency since family comprises mostly children of school age are always in school during working period.
+
+Most (54.2%) of the interviewed households completed primary education (Table 1), which is above the mean national literacy level of adults (46.7%) [28]. This is an indication that most farmers had a fairly good education level to understand basic farming practices. Similarly, Doss [28] pointed out that the high literacy level of farmers is considered as one of the variables that positively affect adoption of agricultural technologies. Due to high literacy level, improved potato production practices can be reached to the farmers through reading materials such as pamphlets, leaflets, and other aids [29].
+
+### Production experience
+
+Mean farm experience of households was above 20 years (Table 2). This has good relation with the improvement in potato production, because rich production experience can educate the farmers to improve the practices of their farm business. The mean total land size occupied by a household was only 0.5 ha, of which about 0.1 ha (20%) was used for potato production.
+
+Table 2 Production experience and efficiency
+
+Full size table
+
+### Use of appropriate practices
+
+Of the improved varieties grown currently in the zone, Gudene (32.2%) and Jalene (31.0%) were cultivated more than the other by smallholder farmers (Table 3). However, the price of improved seed tubers was unaffordable by most of the farmers. Most of the respondents (53.3%) realized that the price spiked to more than 0.25 USD kg −1 (Table 3) and even attained 0.37–0.75 USD kg −1 for some improved varieties during planting time. Similar price situation was reported by Zerihun et al. [30] that the price of seed potato in the market raised to 0.25 USD kg −1 seed tubers during planting times. The vast number of the farmers (97.7%) used appropriate spacing for potato in accordance with the recommendation of EARO [31] (Table 3).
+
+Table 3 Potato production practices in the study area
+
+Full size table
+
+Most of the farmers (88.5%) used fertilizers for their potato farm (Table 4). About 97.7% of the respondents were well aware on methods and time of application of inorganic fertilizers. This study is in agreement with the findings by Nyamwamu [32] in Kenya who reported that farmers using recommended rates of fertilizers were 58% and farmers using recommended fertilizer types were 96% for potato production.
+
+Table 4 Use, types, and application rates of fertilizers
+
+Full size table
+
+The most (52.0%) households were identified disease pests as their important potato pests in the study area. Of the diseases, the frequently occurring during cloudy and rainy times and highly destructive to potato plantation might be the symptoms of late blight (Phytophthora infestans). Late blight is common in all potato-growing areas of Ethiopia, and it is the most important and damaging potato disease worldwide [33]. Although price of chemicals against pests is expensive, about 43.05% respondents applied chemicals (Ridomil and Mancozeb) and others (44.5%) controlled by the integration of both chemicals and cultural (rug out, adjusting planting time, etc.) practices (Table 3).
+
+Farmers of the three districts of the study area used almost similar rate of inorganic fertilizers. Application of urea and DAP for potato farm varied from 25–200 and 50–350 kg ha −1, respectively (Table 4), which are about 20 and 60 kg ha −1 less than the regional blanket recommendation of urea (165 kg ha −1) and DAP (195 kg ha −1), respectively. Similar study revealed that farmers applied lower doses of fertilizers for potato due to higher cost of fertilizers in southern region of Ethiopia [33]. In addition to inorganic fertilizers, farmers of the study area also applied small amounts of organic fertilizers to their potato farm with the mean value of 1.1 t ha −1 farmyard manure (FYM) and 2.1 t ha −1 of compost (Table 4). In the same way, Negasi et al. [24] reported that farmers in the central rift valley of Ethiopia applied 1.71 and 1.56 t ha −1 of FYM and compost, respectively, to their onion farms.
+
+### Productivity and postharvest handling of potato in the study area
+
+Productivity varied between 11.5 and 17.2 t ha −1 in which the majority (44.5%) of the respondents obtained 11.5–17.2 t ha −1 (Table 5). In agreement with this finding, lower mean yield of 9.3 t ha −1 and similar yield of 14.2 t ha −1 were reported by Bezabih and Mengistu [33] in Tigray and SNNP Regions of Ethiopia, respectively. In another study conducted in southern Ethiopia, Mitiku et al. [34] reported average tuber yields of 16.6 t ha −1 for improved varieties (Bellete, Jalene, and Gudene) and 2.5 t ha −1 for a local variety.
+
+Table 5 Productivity and postharvest handling of potato
+
+Full size table
+
+Data regarding postharvest handling indicated that about 65% of the respondents have awareness on potato storage (Table 5). The place of potato storage varied from defused light storage (DLS) (1.5%) to leaving the tubers in the soil of the farm (44.5%) after physiological maturity. This could expose the tubers to various disease and pest attacks. Thus, postharvest problem has remained a serious constraint for agricultural commodities in general and for horticultural industry in particular in the country.
+
+The gap has been already identified and brought forth several times by researchers [33, 34]. Some of them are referred to as follows: One of the major problems in potato production and marketing in Ethiopia is high postharvest loss [33]. A postharvest loss of 30–50% of the produce was reported by Endale et al. [35], and lack of adequate storage is the major reason for the postharvest loss. Bezabih and Mengistu [33] further specified that 62–63% of the producers in Ethiopia stated shortage of warehouse as the major problem resulting in postharvest losses of potato.
+
+Potato tubers belong to the semi-perishable goods, i.e., produce with high natural moisture content. The produce is more sensitive to quality loss than cereals because to use drying techniques for preservation cannot be applied. Loss of moisture leads to quality failure and finally to nonmarketable produces [36].
+
+In accordance to the statements of the sample respondents, Gudene (53.0%) was the most storable variety while Wachacha (5.3%) was the least one out of the varieties commonly cultivated in the study area (Table 5). This might have occurred due to the genetic differences in the varieties.
+
+### Major factors and constraints affecting production practices of potato
+
+The multiple linear regression was used in order to identify some independent factors that affect potato production by smallholder farmers in the study area. The results showed significant F-values (31.02) with R 2 values of 19% in which independent variables used in the model explained variation in potato productivity (Table 6) as their coefficients are significantly different from zero. This indicates the goodness of fit of the model. The variables with significant effect remained in equation were the prevalence of natural hazard (%), seeding rate (kg ha −1), and the expensive price of improved seed tubers (USD kg −1). The regression equation for the determination of the response of average yield to selection using the three identified variable is given as: Y = 1.428 − 0.245 (X 1) + 0.234 (X 2) + 0.180 (X 3), where X 1 = prevalence of natural hazards (%); X 2 = seeding rate (t ha −1); X 3 = expensive value of improved seed tubers (USD kg −1).
+
+Table 6 Multiple regression results for factors affecting productivity of potato
+
+Full size table
+
+Out of the three independent variables submitted into the model to assess their quantitative effect on the production practices of potato by smallholders, one of them (the prevalence of natural hazards) was found to has a negative and statistically significant impact, while the other two factors (seeding rate and the expensive price of improved seed tubers) were found to have a positive and statistically significant effect on the productivity of potato at the study area (Table 6).
+
+Consequently, as the prevalence of natural hazards such as drought, diseases, and other pests increased by 1% in a growing season or year of production, productivity of potato would found to decrease by 0.245 t ha −1 (Table 6). This can be related to the fact that as natural hazards occur repeatedly, potato production will decrease due to the negative impact of the natural hazards on its growth and productivity. In support of this idea, the immediate impacts of climate change on agriculture occur during or immediately after a natural hazard or extreme event, such as damage to crops, farmlands, and agriculture infrastructure from cyclones and flooding [37].
+
+The regression analysis also showed that for an increment of seeding rate from 1.59 t ha −1 (mean seeding rate in the area) up to the recommended rate (2 t ha −1), it could result in rising of productivity of potatoes by 0.23 t ha −1. This also implies that farmers have not using the recommended amount of seeding rate due to inaccessibility of improved seed tubers. In agreement to this study, Belay [38] reported that expensive price of improved seeds resulted in decreased productivity of crops in Ethiopia. Likewise, Tadesse [39] reported that the mean seeding rate used by farmers in northern parts of Ethiopia is below the recommended rate. Similar result was also reported the lower seeding rate in some parts of Eritrea might be attributed to the fact that most farmers in such area used the local landrace varieties which are known for having small sized tubers as compared to the imported ones, thus making the total weight of seeds relatively lower [40].
+
+On the other hand, the high price of seed tubers of improved varieties also significantly affects productivity of potato (Table 6). Accordingly, as the price of seed tubers of improved varieties decreased by 0.01 USD kg −1, productivity of potato could be increased by 0.18 t ha −1.
+
+Lastly, different problems constrain the farmers in producing and utilizing potato in the study area. According to the index ranking, diseases, storage problems, low market price at harvesting time, and insufficient seed tubers during planting were the most important (1st–4th rank) constraints associated with the production of potato in the study area (Table 7). Similarly, many authors worked on production constraints of horticultural crops in general and potato in particular. In Ethiopia, the major horticulture production constraints include pests, drought, lack of desired seed variety, price of fuel for pumping water for irrigation, and limitation of fertilizer [41]. Of the major problems constraining onion production, unavailability of storage facilities was reported by Negasi et al. [24]. The low national mean yield observed for potato could be attributed to various constraints related to low adoption of improved agricultural technologies, drought, and lack of improved varieties, poor cultural practices, disease, and environmental degradation [42]. In Rwanda, Muhinyuza et al. [43] reported that lack of access to credit and high yielding cultivars, insufficient clean planting materials, and potato late blight identified as major constraints in producing potato.
+
+Table 7 Major potato production constraint in the area
+
+Full size table
+
+## Conclusions and recommendations
+
+Lack of farm land, diseases, lack of storage facilities for ware and seed tubers, low price of the crop at harvesting but high price of seed tubers at planting, shortage of money to purchase agrochemicals were among the major constraints identified in this study. Intensive farming system (e.g., multiple cropping), use of area-specific recommendation of fertilizers, use of cost-effective pest control methods, introducing low-cost storage facilities, and cooperation of farmers to manage market problems should be adequately addressed to improve potato production and utilization in the study area. Furthermore, the extension service should take up potato as essential and specialty commodity giving priority to enhance its productivity. Input provision such as intensification of farm land, irrigation access, improved seeds, fertilizers, and pesticides should also be adequately scheduled to meet the cropping calendar. The agricultural bureau of the zone and respective districts of the zone should also start farmer-based seed production, multiplication and storage. Area-specific fertilizer use programs, appropriate land-use systems by cooperating with the nearby stakeholders such as higher education institutions and research centers are necessary to ensure that soil fertility will be maintained, and clean seed will be readily available. As a result, production and utilization of potato will be improved. By doing so, food security plan will also gradually meet its goal together with the strict accompany of similar food security programs.
+
+## Abbreviations
+
+BRS:
+: bright room storage
+CGIAR:
+: Consultative Group on International Agricultural Research
+CIMMYT:
+: International Maize and Wheat Improvement Center
+CIP:
+: International Potato Centre
+CSA:
+: Central Statistics Agency
+DAP:
+: diammonium phosphate
+DAs:
+: development agents
+DCG:
+: Dry-land Coordination Group
+DLS:
+: defused light storage
+DRS:
+: dark room storage
+EARO:
+: Ethiopian Agricultural Research Organization
+FAO:
+: Food and Agriculture Organization
+FYM:
+: farmyard manure
+HH:
+: household
+ILRI:
+: International Livestock Research Institute
+JUCAVM:
+: Jimma University College of Agriculture and Veterinary Medicine
+MoFED:
+: Ministry of Finance and Economic Development
+NMA:
+: National Metrological Agency
+RAP:
+: rapid assessment procedures
+SPIA:
+: Standing Panel on Impact Assessment
+SPSS:
+: Statistical Package for the Social Science
+TAC:
+: time activity curve
+USAID:
+: United States Agency for International Development
+
+## References
+
+1. Camire ME, Kubow S, Donnelly DJ. Potatoes and human health. Crit Rev Food Sci Nutr. 2009;49:823–40.
+
+Article CAS PubMed Google Scholar 
+2. Lutaladio N, Castaldi L. Potato: the hidden treasure. J Food Compos Anal. 2009;22:491–3.
+
+Article Google Scholar 
+3. Kyamanywa S, Kashaija I, Getu E, Amata R, Senkesha N, Kullaya A. Enhancing food security through improved seed systems of appropriate varieties of cassava, Potato and Sweetpotato Resilient to Climate Change in Eastern Africa. Nairobi, Kenya, ILRI. 2011.
+4. Adane H, Meuwissen MPM, Agajie T, Lommen WJM, Lansink AO, Admasu T, Struik PC. Analysis of seed potato systems in Ethiopia. Am Potato J. 2010;87:537–52.
+
+Article Google Scholar 
+5. FAO (Food and Agriculture Organization of United Nations). Strengthening potato value chains: Technical and policy options for developing countries. Food and Agriculture Organisation of the United Nations, Rome, Italy. 2010.
+6. King JC, Slavin JL. White potatoes, human health, and dietary guidance: advances in Nutrition. An Int Rev J. 2013;4:393S–401S.
+
+Article CAS Google Scholar 
+7. Kolasa KM. The potato and human nutrition. Am J Potato Res. 1993;70:375–84.
+
+Article CAS Google Scholar 
+8. Scott G, Rosegrant M, Tingler C. Roots and tubers for the 21st century. Washington: International Food Policy Research Institute and International Potato Center; 2000.
+
+ Google Scholar 
+9. Ephrem G. Disease management practice on potato (Solanum tuberosum L.) in Ethiopia. World J Agric Res. 2015;3(1):34–42.
+
+ Google Scholar 
+10. Theisen K, Thiele G. Implementing CIP’s Vision: Impact targeting. International Potato Center (CIP), Lima, Peru. Social Sciences Working Paper. 2008.
+11. Hirpa TA, Meuwissen MP, Lommen WJ, Oude Lansink AG, Tsegaye A, Struik PC. Improving seed potato quality in Ethiopia: a value chain perspective. In: Bijman J, Bitzer V, editors. Quality and innovation in food chains. Wageningen: Wageningen Academic Publishers; 2016. p. 101–18.
+
+Chapter Google Scholar 
+12. FAOSTAT (Statistics Division for the Food and Agriculture Organization), 2016. Available online: http://faostat3.fao.org/faostat-gateway/go/to/download/Q/QC/S. Statistical data. Accessed 08 October 2013.
+13. Grewal J, Sharma R, Saini S. Agrotechniques for intensive potato cultivation in India. Tms bulletin on the agrotechniques tor intensive potato cultivation in ‘India. Indian Council of Agricultural Research. New Delhi, India. 1992. p. 132.
+14. Abite S. Problems and Prospect of Potato Production and Marketing: A Case Study on SNNPR, Gamogofa Zone, Chencha Woreda, Gendogembela and Doko Yoyera Rural Kebeles. Doctoral dissertation, St. Mary’s University, Ethiopia. 2014.
+15. CSA (Central Statistical Agency). Agricultural sample survey 2015/2016. Volume I, Report on Area and Production of Major Crops (Private Peasant Holdings, Meher Season). Statistical Bulletin 584. Addis Ababa, Ethiopia. 2016.
+16. Fanuel L, Kibebew K, Tekalign M, Heluf G. Soil-plant nutrient status and their relations in maize-growing fields of Wolaita Zone, Southern Ethiopia. Commun Soil Sci Plant Anal. 2016;47(11):1343–56.
+
+Article Google Scholar 
+17. CSA (Central Statistical Agency). Population and housing census of Ethiopia. Addis Ababa, Ethiopia. 2010.
+18. NMA (National Meteorological Agency). Meteorological data. National Meteorological Agency, Hawassa Branch. Hawassa, Ethiopia. 2015.
+19. Beshah T. Understanding farmers: explaining soil and water conservation in Konso, Wolaita and Wello, Ethiopia [Abstract]. Alemaya University of Agriculture. 2003.
+20. Mesfin A. Nature and management of Ethiopian soils. MSc thesis. Alemaya University of Agriculture. Haramaya, Ethiopia; 1998.
+21. Yamane T. Statistics: an introductory Analysis-3; 1973.
+22. Boyd, H.K., R. Westfall and S.F. Stasch, Marketing research: Text and Cases. Illinois. Richard D, Irwin, Inc. 1981. p. 180.
+23. Muthoni JJ, Shimelis H, Melis R. Potato production in kenya: farming systems and production constraints. J Agric Sci. 2013;5(5):182–97.
+
+ Google Scholar 
+24. Negasi TA, Nigussie DR, Kebede W, Lemma D, Abuhay T. Characterization of soil nutrient management and post-harvest handling practices for onion production in the central rift valley region of Ethiopia. Agric For Fish. 2013;2(5):184–95.
+
+ Google Scholar 
+25. Simonyan JB, Obiakor CT. Analysis of household labour use in yam production in Anambra West Local Government Area of Anambra State, Nigeria. Prod Agric Technol. 2012;8:1–16.
+
+ Google Scholar 
+26. Okoye BC, Onyenweaku CE, Agwu AE. Technical efficiency of small holder cocoyam farmers in Anambra State, Nigeria: implications for agricultural extension policy. J Agric Ext. 2008;12(1):107–16.
+
+ Google Scholar 
+27. Udensi E, Gbassey T, Ebere UFG, Asumugha CE, Okoye BC, Okarter C, Paul I, Richardson O, Alfred D. Adoption of selected improved cassava varieties among small holder farmers in South-Eastern Nigeria. Int J Food Agric Environ. 2011;9(1):329–35.
+
+ Google Scholar 
+28. Doss CR. Understanding farm level technology adoption: lessons learned from CIMMYT’s micro surveys in Eastern Africa. CIMMYT Economics Working Paper. Mexico, DF: CIMMYT. 2003. p. iv, 20.
+29. Kateta SY, Kabambe V, Lowole MW, Nalivata PC. Production practices of potato (Solanum tuberosum L.) by farmers in Mzimba District, Northern Malawi. Afr J Agric Res. 2015;10:797–802.
+
+Article Google Scholar 
+30. Zerihun N, Getachew A, Terefe D, Kibet N, Yoseph T, Bernhard F. Nature of local seed potato system in Northwestern Ethiopia. Int J Agric Res. 2014;9:74–86.
+
+Article Google Scholar 
+31. EARO (Ethiopian Agricultural Research Organization). Directory of released crop varieties and their recommended cultural practices: a guide. Addis Ababa, Ethiopia. 2004.
+32. Nyamwamu RO, Ombati JM, Mwangi JG. Effectiveness of agricultural training centers’ curriculum in promoting adoption of agricultural technologies: evidence from small-scale potato farmers in Nyandarua County, Kenya. Int J Agric Manag Dev. 2014;4(2):133–45.
+
+ Google Scholar 
+33. Bezabih E, Mengistu N. Potato Value Chain Analysis and Development in Ethiopia: Case of Tigray and SNNP Regions. International Potato Center (CIP-Ethiopia), Addis Ababa, Ethiopia. 2011.
+34. Mitiku M, Shiferaw W, Tadesse A. Adaptability study of improved Irish potato (Solanum tuberosum L.) varieties at South Ari Wereda, Ethiopia. Am Sci Res J Eng Technol Sci. 2015;7:26–30.
+
+ Google Scholar 
+35. Endale G, Gebremedhin W, Lemaga B. Potato seed management. In: Gebremedhin W, Endale G, Lemaga B, editors. Root and tuber crops: the untapped resources. Ethiopian Institute of Agricultural Research; Addis Ababa: Ethiopia; 2008a, pp. 53–78.
+36. Kibar H. Design and management of postharvest potato (Solanum tuberosum L.) storage structures. Ordu University. J Sci Technol. 2012;2:23–48.
+
+ Google Scholar 
+37. Wairiu M, Lal M, Iese V. Climate change implications for crop production in Pacific Islands region: INTECH Open Access Publisher. 2012.
+38. Belay K. Agricultural extension in Ethiopia: the case of participatory demonstration and training extension system. J Soc Dev Africa. 2003;18:49–84.
+
+Article Google Scholar 
+39. Tadesse A. Farmers’ evaluation and adoption of improved onion production package in Fogera District, south Gondar, Ethiopia. MSc thesis. Haramaya University, Ethiopia; 2008.
+40. Biniam M, Githiri S, Tadesse M, Kasili R. Diagnostic survey on potato production practices in Eritrea. ARPN J Agric Biol Sci. 2014;9:444–53.
+
+ Google Scholar 
+41. Emana B, Gebremedhin H. Constraints and opportunities of horticulture production and marketing in eastern Ethiopia. Dry land coordination group (DCG). 2007.
+42. Muzari W, Gatsi W, Muvhunzi S. The impacts of technology adoption on smallholder agricultural productivity in sub-Saharan Africa: a review. J Sustain Dev. 2012;5:69.
+
+Article Google Scholar 
+43. Muhinyuza JB, Shimelis H, Melis R, Sibiya J, Nzaramba MN. Participatory assessment of potato production constraints and trait preferences in potato cultivar development in Rwanda. Int J Dev Sustain. 2012;1:358–80.
+
+ Google Scholar 
+
+## Authors’ contributions
+
+ HG and AM conceived and designed the research. HG collected and analyzed the data and wrote the manuscript which was part of his Doctorial Dissertation of Horticultural Science at Jimma University, Ethiopia. ND and DB participated in the design and coordination, reviewed and made editorial comments on the draft of the manuscript. All the authors read and approved the final manuscript.
+
+### Authors’ information
+
+Currently, HG is a doctorial candidate in the Department of Horticulture and Plant Sciences, Jimma University, Jimma, Ethiopia. He is a lecturer in the Department of Horticulture at Wolaita Sodo University, Wolaita Sodo, Ethiopia. AM is associate professor and senior researcher in the field of Postharvest Management at Jimma University, Jimma, Ethiopia. ND is a Professor in Horticulture/Plant Nutritionist and senior researcher and Vice-President for Academic Affairs at Haramaya University, Haramaya, Ethiopia. DB is Professor of Horticultural Science and senior researcher at Jimma University, Jimma, Ethiopia.
+
+### Acknowledgements
+
+The authors acknowledge Ethiopian Ministry of Education for the financial air. With deep sense of gratitude, we express our sincere thanks to Mr. Adugna Enyew for his critical and invaluable suggestions, and to Mr. Paulos Lukas for preparing the map of study area.
+
+### Availability of data and materials
+
+The datasets supporting the conclusions of this article are included within the article (“Additional file 4 Datasets”).
+
+### Competing interests
+
+The authors declare that they have no competing interests.
+
+### Ethical approval and consent to participate
+
+Ethical approval was obtained from the Research Ethics Committee at the College of Agriculture and Veterinary Medicine, Jimma University, while letter of consent was obtained from the Agricultural Office of the respective study districts to the respective study Kebeles (peasant associations). The participants were, therefore, volunteers to share the info.
+
+### Funding
+
+The research has no fund, except the little amount of financial aid from Ministry of Education, Ethiopia.
+
+### Authors and Affiliations
+
+1. Department of Horticulture and Plant Sciences, Jimma University, P.O. Box 307, Jimma, Ethiopia
+
+Hailu Gebru & Derbew Belew
+2. Department of Postharvest Management, Jimma University, P.O. Box 307, Jimma, Ethiopia
+
+Ali Mohammed
+3. Department of Plant Sciences, Haramaya University, P.O. Box 138, Dire Dawa, Ethiopia
+
+Nigussie Dechassa
+
+1. Hailu Gebru
+
+View author publications
+
+Search author on: PubMed Google Scholar
+2. Ali Mohammed
+
+View author publications
+
+Search author on: PubMed Google Scholar
+3. Nigussie Dechassa
+
+View author publications
+
+Search author on: PubMed Google Scholar
+4. Derbew Belew
+
+View author publications
+
+Search author on: PubMed Google Scholar
+
+### Corresponding author
+
+Correspondence to Hailu Gebru (gebruhailu52@yahoo.com).
+
+ Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+
+</cursor_untrusted_data_1337>
