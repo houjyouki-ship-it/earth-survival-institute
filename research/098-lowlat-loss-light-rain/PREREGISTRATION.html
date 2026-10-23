@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究098 事前登録（2026-10-23 09:39 JST、雨の格子の値・FSDS の資料・CLM5 の文書を開く前、sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="098-2026-10-23-0939-jstfsds-clm5-simpy">研究098 事前登録（2026-10-23 09:39 JST、雨の格子の値・FSDS の資料・CLM5 の文書を開く前、sim.py の前）</h1>
+<p>注：出す値は模型の中の割合で、生存確率でも復興確率でもない。</p>
+<h2 id="open_problems-237236">問い（open_problems 237＋236）</h2>
+<p>097 の「得」の格子（大麦かジャガイモが実るので 096 の主食の喪失から外れた 374 格子、面積 0.221、86% が南北 30° 以内）で、
+CLM5 の 4 作物が 0 になる原因は雨・光・どちらでもない（CLM5 の判定）のどれか。097 の主（q 0.424）と保守（0.554）のどちらに近いか。</p>
+<h2 id="_1">定義（登録）</h2>
+<ul>
+<li>雨の比 P_r：150 Tg（nw_ur_150_07）の各作物年（097 と同じ。北半球は暦年、南半球は 7 月〜翌 6 月、年 1〜5）の PRECC＋PRECL の合計 ÷ 対照（nw_cntrl_03 の全年）の平均。</li>
+<li>光の比 L_r：NWDC の FSDS の国の値（150 Tg ÷ 0 Tg）。格子の値が取れなければ国の値を格子に配る。</li>
+<li>判定（年ごと）：雨 = P_r&lt;0.5、光 = L_r&lt;0.5、両方、どちらでもない。</li>
+<li>物理の調整版 q_phys：得の格子のうち、097 で頼りにした実る年に P_r&lt;0.5 または L_r&lt;0.5 の年があれば、その格子を「失う」に戻す。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H110a（確認的）：得の面積のうち、最悪年に雨の比が 0.5 未満の割合は 0.5 以上。</li>
+<li>H110b（確認的）：得の面積のうち、年 2 の光の比が 0.5 未満の割合は 0.5 以上。</li>
+<li>H110c（予測）：q_phys は主 0.424 と保守 0.554 の中点 0.489 より上（保守の側に近い）。</li>
+<li>H110d（予測）：どちらでもない（雨も光も 0.5 以上）の得の面積は 0.25 以上残る。</li>
+<li>H110e（予測）：CLM5 の文書では、季節の長さの上限（最大の成熟日数）に達すると未熟でも収穫し、収量は 0 でない値が出うる（0 は主に播かない判定か葉面積の枯死による）。</li>
+</ul>
+<h2 id="_3">版（登録）</h2>
+<p>閾値 0.3・0.7、雨の比を播種の月から 4 か月だけで取る版、人口の重み。</p><footer><hr><small>自動生成</small></footer></body></html>
