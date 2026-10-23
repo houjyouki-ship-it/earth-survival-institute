@@ -1,0 +1,37 @@
+check_108 0.0 geomean_cases 0.01288 geomean_fast 0.03299
+Britain_coin {'F_heavy': 1.0148, 'F_total': 1.0054, 'U3_heavy_rel_drop': 0.0303, 'U3_T0_rel_drop': 0.0422, 'kappa_q': [0.00859, 0.04993, 0.09964]}
+Britain_wheel_pottery {'F_heavy': 1.0105, 'F_total': 1.0038, 'U3_heavy_rel_drop': 0.03, 'U3_T0_rel_drop': 0.0416, 'kappa_q': [0.00863, 0.04996, 0.11693]}
+Greece_LinearB {'F_heavy': 1.0502, 'F_total': 1.0182, 'U3_heavy_rel_drop': 0.0573, 'U3_T0_rel_drop': 0.0786, 'kappa_q': [0.00363, 0.02181, 0.09392]}
+Greece_monumental_stone {'F_heavy': 1.0504, 'F_total': 1.0183, 'U3_heavy_rel_drop': 0.0576, 'U3_T0_rel_drop': 0.0794, 'kappa_q': [0.00362, 0.02176, 0.09345]}
+Tasmania_108 {'F_heavy': 3.8111, 'F_total': 2.0192, 'U3_heavy_rel_drop': 0.808, 'U3_T0_rel_drop': 0.8724, 'kappa_q': [5e-05, 0.0003, 0.00056]}
+pooled_fast {'F_heavy': 1.0368, 'F_total': 1.0133, 'U3_heavy_rel_drop': 0.0431, 'U3_T0_rel_drop': 0.0605, 'kappa_q': [0.00516, 0.03215, 0.1041]}
+pooled_all_equal {'F_heavy': 1.5794, 'F_total': 1.2101, 'U3_heavy_rel_drop': 0.1948, 'U3_T0_rel_drop': 0.2219, 'kappa_q': [0.00016, 0.02348, 0.09862]}
+geomean_of_case_medians {'F_heavy': 1.0278, 'F_total': 1.0101, 'U3_heavy_rel_drop': 0.0627, 'U3_T0_rel_drop': 0.0866, 'kappa_q': [0.01288, 0.01288, 0.01288]}
+mix 0.0 1.0368 0.043
+mix 0.05 1.1813 0.082
+mix 0.1 1.3261 0.12
+mix 0.15000000000000002 1.4443 0.157
+mix 0.2 1.5975 0.197
+mix 0.25 1.7279 0.234
+mix 0.30000000000000004 1.8923 0.275
+mix 0.35000000000000003 2.0117 0.31
+mix 0.4 2.1409 0.35
+mix 0.45 2.286 0.388
+mix 0.5 2.4349 0.427
+mix 0.55 2.5589 0.462
+mix 0.6000000000000001 2.6928 0.503
+mix 0.65 2.843 0.541
+mix 0.7000000000000001 2.9793 0.579
+mix 0.75 3.1094 0.617
+mix 0.8 3.254 0.656
+mix 0.8500000000000001 3.3885 0.693
+mix 0.9 3.5321 0.731
+mix 0.9500000000000001 3.6737 0.769
+mix 1.0 3.8111 0.808
+w_crit_Fheavy_1.1 0.022 w_crit_drop_0.3 0.336
+H121a confirmatory True {"T_loss_q": [13.987443475239639, 24.006205066099398, 33.96957340218232], "kappa_median": 0.04996454817199158}
+H121b confirmatory True {"T_loss_q": [14.474771385617558, 54.86549151590846, 95.53940733664737], "kappa_median": 0.021805451712555646}
+H121c prediction True {"kappa": 0.012884239086169725, "F_heavy": 1.027773085431572}
+H121d prediction True "Greek potter's wheel, 1200->1050/800 BC (faster wheel c.1050)"
+H121e prediction None {"LinearB_scribes_kappa_median": 0.021805451712555646, "broad_case": "wheel persisted; kappa not estimable"}
+runtime 68.6

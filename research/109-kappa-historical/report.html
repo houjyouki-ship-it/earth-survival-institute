@@ -1,0 +1,113 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究109：歴史の技能の喪失で床への戻りの速さ κ を絞る（open_problems 260） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="109-open_problems-260">研究109：歴史の技能の喪失で床への戻りの速さ κ を絞る（open_problems 260）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・段の割合は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第109回、JST 7時台）。sim.py（seed 20261109、約69秒、2 回実行で stdout は runtime 以外一致、108 の全版を差 0 で再現の assert）、results.json、stdout.txt、fig_kappa_hist.png、PREREGISTRATION.md（07:42 JST、資料を開く前・sim.py の前）、sources/（wikitext 6 本、SHA256SUMS.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>108 で、重い崩壊が模型に残るかは κ が分かれ目（F_heavy&gt;1.1 は κ≤0.0063、重い崩壊 −30% は κ≤0.0016／年）のどちら側かで決まった。歴史の喪失の年数で κ を置くとどちら側か。</p>
+<h2 id="sources">資料（本回取得、sources/ に保存）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Roman_Britain">Wikipedia: Roman Britain</a>）】"By 407 there were very few new Roman coins going into circulation, and by 430 it is likely that coinage as a medium of exchange had been abandoned. Mass-produced wheel thrown pottery ended at approximately the same time"。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Sub-Roman_Britain">Wikipedia: Sub-Roman Britain</a>）】ローマの支配の終わりの年の候補は 402・407・409・410。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Greek_Dark_Ages">Wikipedia: Greek Dark Ages</a>）】宮殿は約 1200 BC に終わり始め "the process concluded decades later"、Linear B の消失。約 1050 BC の Protogeometric で "a faster potter's wheel"。アルファベットは約 800 BC（950〜750 BC に学び直した説）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Linear_B">Wikipedia: Linear B</a>）】暗黒時代は "no conclusive evidence of the use of writing"。書記は Pylos 45 人・Knossos 66 人。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse">Wikipedia: Late Bronze Age collapse</a>）】"no more monumental stone buildings were built"、Linear B は "no longer a need to keep records" のために終わった。Peloponnese の小さな遺跡は最大 90% が放棄された。</li>
+<li>貨幣の資料（<a href="https://en.wikipedia.org/wiki/Coinage_in_Anglo-Saxon_England">Wikipedia: Coinage in Anglo-Saxon England</a>）：5 世紀初めに貨幣の製造は終わり、貨幣の使用の再開は 7 世紀初め、自前の製造は約 625 年。</li>
+</ul>
+<h2 id="108-ln-r-t_lossr-logu11-10">κ の置き方（108 と同じ：κ = ln R / T_loss、R ~ logU(1.1, 10)【推測】）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>T_loss（5〜50〜95%）</th>
+<th>κ 中央値（5〜95%）</th>
+<th>F_heavy</th>
+<th>U3 の重い崩壊の減り</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Britain の貨幣</td>
+<td>約 24 年</td>
+<td>0.050（0.009〜0.100）</td>
+<td>1.015</td>
+<td>3.0%</td>
+</tr>
+<tr>
+<td>Britain の轆轤の土器</td>
+<td>14〜24〜34 年</td>
+<td>0.050（0.009〜0.117）</td>
+<td>1.011</td>
+<td>3.0%</td>
+</tr>
+<tr>
+<td>Greece の Linear B</td>
+<td>14〜55〜96 年</td>
+<td>0.022（0.004〜0.094）</td>
+<td>1.050</td>
+<td>5.7%</td>
+</tr>
+<tr>
+<td>Greece の大きな石造</td>
+<td>同上</td>
+<td>0.022</td>
+<td>1.050</td>
+<td>5.8%</td>
+</tr>
+<tr>
+<td>Tasmania（108）</td>
+<td>3,500〜4,500 年</td>
+<td>0.0003</td>
+<td>3.81</td>
+<td>80.8%</td>
+</tr>
+<tr>
+<td>速い 4 件をまとめる</td>
+<td>—</td>
+<td>0.032</td>
+<td><strong>1.037</strong></td>
+<td>4.3%</td>
+</tr>
+<tr>
+<td>5 件を等しい重み</td>
+<td>—</td>
+<td>0.023（0.0002〜0.099）</td>
+<td>1.579</td>
+<td>19.5%</td>
+</tr>
+<tr>
+<td>5 件の中央値の対数平均</td>
+<td>—</td>
+<td>0.0129</td>
+<td>1.028</td>
+<td>6.3%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>速い 4 件はすべて分かれ目（0.0063）の上で、二値の模型とほぼ同じ（F_heavy 1.01〜1.05）【計算】。</li>
+<li>混合（割合 w の標本に Tasmania の κ、残りに速い 4 件）：F_heavy はほぼ w に比例して 1.04→3.81。<strong>F_heavy&gt;1.1 になるのは w≥0.022、重い崩壊が 3 割減るのは w≥0.34</strong>【計算】。期待値は遅い側の重みに強く引かれる。</li>
+<li>保持の事例：Greece の轆轤は宮殿の崩壊（約 1200 BC）から少なくとも約 1050 BC（150 年）まで、改良されて続いた（"faster" からの【推測】の読み）。段の要求 N_k が分からないので κ の上限にはならない。</li>
+</ul>
+<h2 id="_2">批判的検討</h2>
+<ol>
+<li>速い 4 件の喪失の原因は需要と国の崩壊（資料：Linear B は「記録の必要がなくなった」）で、技能が忘れられた速さではない。技能だけの κ は観測より遅い可能性がある【推測】。ただし模型の問いは「段が残るか」で、需要・資本の喪失も段を失わせる。崩壊後も同じ条件なら、観測された全体の喪失の速さが模型に入れるべき量で、二値の模型を支える側の証拠になる【独自仮説】。</li>
+<li>速い事例は国家のある社会の、専門の担い手（書記 45〜66 人、量産の工房）の技能。Tasmania は小さな群の日常の技能で、原因も争われている。事例の種類が違い、どちらが重い崩壊の段（製鉄・ガラス・工作機械）に近いかは資料で決まらない。</li>
+<li>R は資料がなく 108 と同じ置き方。速い事例では T が数十年なので、R を 1.1〜10 のどこに置いても κ は 0.004 以上で、結論は R にほぼ左右されない。</li>
+<li>事例は Wikipedia の要約のみで、一次の考古学の年代は開いていない。T_loss の幅（「数十年」を 10〜100 年）は【推測】。</li>
+<li>結論：歴史の 4 件は二値の模型の側にあり、108 の F_heavy 3.81 は Tasmania 1 件の重みで決まる。遅い事例に 2% でも重みを置くと 1.1 を越えるので、「二値の模型で十分」とは言い切れない。</li>
+</ol>
+<h2 id="_3">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H121a（確認的）<strong>支持</strong>：Britain の轆轤の土器の T_loss は 14〜34 年（≤60）、κ 中央値 0.050＞0.0063。</li>
+<li>H121b（確認的）<strong>支持</strong>：Linear B の T_loss は ≤100 年（置き方の上限そのもので、検定としては弱い）、κ 中央値 0.022＞0.0063。</li>
+<li>H121c（予測）支持：5 件の中央値の対数平均 κ 0.0129 で F_heavy 1.028＜1.1。ただし等しい重みの混合では 1.579 で、要約の仕方で結論が変わる。</li>
+<li>H121d（予測）支持（弱い）：Greece の轆轤が 150〜400 年続いた（続いたことは "faster potter's wheel" からの読み）。</li>
+<li>H121e（予測）<strong>検定できず</strong>：広く担われた技能は失われず κ が出ない。向き（少数の書記の文字は消え、轆轤は残る）は 064 と同じ。</li>
+<li>逸脱：混合の走査と「中央値の対数平均」以外の要約（等しい重み）は登録で名指ししていない。T_loss の幅は資料を開いた後に置いた。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>本研究所：歴史の事例では、国家のある社会の専門の技能は崩壊の後 1〜4 世代で失われ、二値の模型は近い。重い崩壊の価値の計算（038〜107）は主の版として残し、Tasmania 型の遅い κ は「小さな群が日常の技能を保つ」別の機構として版に回す。次は、小さな群の事例（遅い側）を体系的に集め、w を資料で置く（262）か、技能と資本の分離（261）へ進む。</li>
+<li>知識の束を作る人：専門の技能は需要が消えると 1 世代で失われるので、手引きは「必要が戻ったときに一から作る」前提で書く（008〜107 の前提を変えない）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
