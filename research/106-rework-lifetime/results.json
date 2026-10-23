@@ -1,0 +1,130 @@
+{
+ "study": "106-rework-lifetime",
+ "seed": 20261106,
+ "check_104_runs_reproduced_maxdiff": 0.0,
+ "check_105_B_m0.3_bulk_diff": 0.0,
+ "inputs": {
+  "L_prec": [
+   1.9743869183089955,
+   19.693768481123342,
+   411.47899498949783
+  ],
+  "L_bulk": [
+   551.3600229599666,
+   1878.437054786276,
+   21467.754720794204
+  ],
+  "n_max": [
+   28.000093254924494,
+   78.77458669085577,
+   222.37048481739257
+  ],
+  "L_rw_full": [
+   113.1891084178809,
+   1373.9272639325836,
+   19392.88901662716
+  ],
+  "L_rw_mix": [
+   2.3175332504705337,
+   116.12938683492261,
+   10695.151943361274
+  ]
+ },
+ "share_rw_limited_by_material": 0.62127,
+ "share_heavy_wait_T2e_le_L": {
+  "prec": 0.05252144082332762,
+  "rework_full": 0.5505562362166135,
+  "rework_mix": 0.2470570938495467,
+  "bulk": 0.6495074736584171
+ },
+ "runs_F_heavy": {
+  "noRW_prec_m0.3": 1.0112308331818594,
+  "RW_full_m0.3": 1.2715795608226301,
+  "RW_mix_m0.3": 1.1184371274661795,
+  "RW_full_mprod": 1.0424520829554444,
+  "RW_mix_mprod": 1.020526488298897,
+  "RW_full_mmain": 1.235106519199359,
+  "RW_full_m0.1": 1.463925618188816,
+  "RW_full_m0.3_delta0.02": 1.3499050331310807,
+  "RW_full_m0.3_delta0.2": 1.1787211912838258
+ },
+ "redo_254": {
+  "both_m0.3_life_bulk": {
+   "F104": 1.4227704647584603,
+   "F_bridge": 1.3521556701556894,
+   "gain_reduction": 0.1670286845679131
+  },
+  "both_m0.3_life_prec": {
+   "F104": 1.1102011285968145,
+   "F_bridge": 1.0112308331818594,
+   "gain_reduction": 0.8980878569497337
+  },
+  "both_main_life_bulk": {
+   "F104": 1.3785387286552109,
+   "F_bridge": 1.3080320893990172,
+   "gain_reduction": 0.18626004136135343
+  },
+  "both_main_life_prec": {
+   "F104": 1.116458852066541,
+   "F_bridge": 1.009905960781325,
+   "gain_reduction": 0.9149402505215745
+  },
+  "both_m0.1_life_bulk": {
+   "F104": 1.8357107960612595,
+   "F_bridge": 1.591355253462125,
+   "gain_reduction": 0.29239246848406486
+  },
+  "t2_m0.3_life_bulk": {
+   "F104": 1.3054611824488067,
+   "F_bridge": 1.2637218813514746,
+   "gain_reduction": 0.13664355242364512
+  },
+  "lens_main": {
+   "F104": 1.0050334582419207,
+   "F_bridge": 1.0045102664528267,
+   "gain_reduction": 0.10394280908831943
+  }
+ },
+ "hypotheses": {
+  "H118a": {
+   "class": "confirmatory",
+   "rule": "public source states three-plate method yields a flat reference without a pre-existing master",
+   "supported": true,
+   "note": "Surface plate: 'do not derive their precision from more-precise standards ... three approximately flat surfaces ... only stable, mutually conjugate surface shape is a plane'"
+  },
+  "H118b": {
+   "class": "confirmatory",
+   "rule": "none of the opened sources gives a number of people or time for hand-making a reference plane",
+   "supported": true,
+   "note": "Surface plate, Hand scraper, Lapping, Joseph Whitworth, Scraper (metalworking), Flatness: no headcount or duration"
+  },
+  "H118c": {
+   "class": "prediction",
+   "rule": "bridge m=0.3: RW_full >= 1.30 and noRW_prec < 1.05",
+   "value": [
+    1.2715795608226301,
+    1.0112308331818594
+   ],
+   "supported": false
+  },
+  "H118d": {
+   "class": "prediction",
+   "rule": "m_prod logU(0.7,1) with full rework: F_heavy-1 < 0.06",
+   "value": 1.0424520829554444,
+   "supported": true
+  },
+  "H118e": {
+   "class": "prediction",
+   "rule": "each of 5 listed 104 runs: bridge reduces F_heavy-1 by >= 20%",
+   "value": {
+    "both_m0.3_life_prec": 0.8980878569497337,
+    "both_main_life_bulk": 0.18626004136135343,
+    "both_main_life_prec": 0.9149402505215745,
+    "both_m0.1_life_bulk": 0.29239246848406486,
+    "t2_m0.3_life_bulk": 0.13664355242364512
+   },
+   "supported": false
+  }
+ },
+ "runtime_s": 44.5
+}
