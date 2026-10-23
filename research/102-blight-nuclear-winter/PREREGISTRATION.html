@@ -1,0 +1,24 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究102 事前登録（2026-10-23 17:43 JST、疫病の規則の資料を開く前・CESM の雨と気温を疫病の規則で数える前・sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="102-2026-10-23-1743-jstcesm-simpy">研究102 事前登録（2026-10-23 17:43 JST、疫病の規則の資料を開く前・CESM の雨と気温を疫病の規則で数える前・sim.py の前）</h1>
+<p>注：出す値は模型の中の割合（群の主食の喪失 q）で、生存確率でも復興確率でもない。</p>
+<h2 id="_1">課題</h2>
+<p>open_problems 246：核の冬（150 Tg、NWDC の CESM 月出力）の気候で、芋の疫病（Phytophthora infestans）の好適な月が平時よりどれだけ増えるか／減るか、
+それで 101 の q（0.480 揺れつき、毎年の疫病 0.562）がどこに落ちるか。親の固定指示により、芋の疫病と核の冬の気温は本回 1 回だけで系列を閉じる。</p>
+<h2 id="_2">方法（登録）</h2>
+<ul>
+<li>手持ちの出力は TS（地表温度）と PRECC＋PRECL（雨）だけで湿度がない（確認済み）。よって湿度を雨で代える月の版の規則を使う：
+  月が好適 ⇔ 月平均の TS が [T_lo, T_hi] にあり、かつ月の雨 ≥ P_min。値は開く資料（Hyre の規則か同等の公開の予報の規則）から取り、主の値を sim.py の前に決める。</li>
+<li>芋の季節は 097 の芋が実る月（作物年の SEAS の 4 か月）。その年の季節に好適な月が n_min（主 2）か月以上あれば、その格子のその年は疫病の年で、芋の収量を 101 と同じ 0.75 減らす。</li>
+<li>101 の lost() を格子×年の Lp に一般化し、q を 150 Tg で計算。平時の対照で同じ規則が疫病の年と出す割合も出す（較正：Ireland など疫病が知られた湿潤な温帯で高く、乾いた地域で低いか）。</li>
+<li>再現：101 の揺れなし q 0.47619、揺れつき 0.48032（seed 101、200 回）、毎年の疫病 0.56189 を差0（assert）。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H114a（確認的）：得の格子（101 で芋が効く低緯度）では、150 Tg の疫病の年の割合（面積の重み）は平時より<strong>低い</strong>。理由【推測】：気温は 10 °C 付近へ下がり好適域に入るが、雨が平時の 3 割（098）に落ちる効きが勝つ。</li>
+<li>H114b（確認的）：150 Tg での q は 0.476〜0.50 に収まる（疫病は 101 の主をほぼ動かさない）。</li>
+<li>H114c（予測）：平時の対照で規則が疫病の年とする割合は、北西欧州（Ireland・UK）の格子で 0.5 以上、得の格子の面積の重みで 0.5 未満。</li>
+<li>H114d（予測）：雨の閾値を半分にする版でも q は 0.53 を超えない。</li>
+</ul>
+<h2 id="1746-jstsimpy">追記（17:46 JST、規則の資料を開いた後・sim.py の前）：主の値の確定</h2>
+<p>UC IPM の Hyre の規則（sources/ucipm_potatolateblight.html）：日が好適 ⇔ 5 日平均気温 &lt; 25.5 °C かつ直前 10 日の雨 ≥ 3 cm、日最低 &lt; 7.2 °C の日は不適。10 日連続で好適なら 7〜14 日後に発生。
+月の版（主）：月平均 TS &lt; 25.5 °C、かつ TS − DTR/2 ≥ 7.2 °C（DTR は 100 の主 10 °C）、かつ月の雨 ≥ 90 mm（3 cm/10 日を月に均した値）。季節 4 か月のうち n_min＝2 か月で疫病の年。
+版：雨 ≥ 45 mm（H114d）・60 mm、n_min 1、日最低の条件を月平均 ≥ 10 °C（Beaumont/Smith の 10 °C）に、DTR 6・14。</p><footer><hr><small>自動生成</small></footer></body></html>

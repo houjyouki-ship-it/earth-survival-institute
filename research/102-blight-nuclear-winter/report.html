@@ -1,0 +1,108 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究102：核の冬の気候での芋の疫病の好適な月（open_problems 246） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="102open_problems-246">研究102：核の冬の気候での芋の疫病の好適な月（open_problems 246）</h1>
+<blockquote>
+<p><strong>注：本報告の q は模型の中の「群の主食の喪失の割合」で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</strong></p>
+</blockquote>
+<h2 id="_1">目的</h2>
+<p>101 で q（0.480、揺れつき）を 0.56 へ押すのは芋が毎年の疫病で使えない場合だけだった。150 Tg の CESM の気候で疫病の年がどれだけ起きるかを数え、q を置き直す。親の固定指示により、芋の疫病と核の冬の気温の系列は本回で閉じる。</p>
+<h2 id="_2">資料</h2>
+<ul>
+<li>【事実（UC IPM, https://ipm.ucanr.edu/DISEASE/DATABASE/potatolateblight.html ）】Hyre の規則：5 日平均気温 &lt; 25.5 °C かつ直前 10 日の雨 ≥ 3 cm の日が好適、日最低 &lt; 7.2 °C の日は不適、10 日連続の好適で 7〜14 日後に発生。BLITECAST は Hyre と Wallin（湿度の時間）を組み合わせたもの。</li>
+<li>【事実（Wikipedia「Phytophthora infestans」、101 の sources/）】10 °C 超・湿度 75〜80% 超が 2 日以上で広がる。Beaumont・Smith の期間は 10 °C と湿度で決まる。</li>
+<li>CESM（NWDC の OSF https://osf.io/e28gq/ 、nw_ur_150_07・nw_cntrl_03）の月の TS と PRECC＋PRECL（097・098 で取得済み）。<strong>湿度の出力はない</strong>（ファイルの変数を確認）ので、Hyre の雨の版しか使えない。</li>
+</ul>
+<h2 id="_3">方法</h2>
+<p>月の版の Hyre：月平均 TS &lt; 25.5 °C、TS − DTR/2 ≥ 7.2 °C（DTR 10 °C）、月の雨 ≥ 90 mm（3 cm/10 日を均した値）。芋の季節（作物年の 4 か月）に好適な月が 2 か月以上なら疫病の年とし、芋の収量を 0.75 減らす（101 と同じ）。101 の lost() を格子×年の損に一般化した。版：雨 45・60 mm、n_min 1、10 °C の下限、DTR 6・14。</p>
+<h2 id="_4">再現</h2>
+<p>101 の揺れなし q 0.47619、揺れつき 0.48032、毎年の疫病 0.56189 を差0で再現（assert）。sim.py を 2 回実行し stdout が一致。上流の results.json は上書きしていない。</p>
+<h2 id="_5">結果（すべて本回の計算）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>平時の疫病の年（得の格子）</th>
+<th>150 Tg（得の格子）</th>
+<th>平時の Ireland・UK</th>
+<th>q（150 Tg の実際の年）</th>
+<th>q（平時の頻度のまま）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主（90 mm、2 か月）</td>
+<td>0.574</td>
+<td>0.094</td>
+<td>0.052</td>
+<td>0.478</td>
+<td>0.534</td>
+</tr>
+<tr>
+<td>60 mm</td>
+<td>0.610</td>
+<td>0.261</td>
+<td>0.324</td>
+<td>0.486</td>
+<td>0.537</td>
+</tr>
+<tr>
+<td><strong>45 mm（較正が通る）</strong></td>
+<td>0.630</td>
+<td>0.374</td>
+<td>0.556</td>
+<td><strong>0.505</strong></td>
+<td>0.538</td>
+</tr>
+<tr>
+<td>n_min 1</td>
+<td>0.685</td>
+<td>0.227</td>
+<td>0.298</td>
+<td>0.489</td>
+<td>0.542</td>
+</tr>
+<tr>
+<td>45 mm・n_min 1</td>
+<td>0.731</td>
+<td>0.561</td>
+<td>0.878</td>
+<td>0.539</td>
+<td>0.545</td>
+</tr>
+<tr>
+<td>10 °C の下限 / DTR 6 / DTR 14</td>
+<td>0.577 / 0.576 / 0.574</td>
+<td>0.108 / 0.107 / 0.062</td>
+<td>0.09 / 0.08 / 0.02</td>
+<td>0.479 / 0.479 / 0.478</td>
+<td>0.534</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>原因の分解（主の規則、得の格子、季節の月）：雨の条件を満たす月は平時 0.62 → 150 Tg 0.10（雨の中央値 130 → 34 mm/月）。気温の条件は 0.63 → 0.61 とほぼ同じだが中身が入れ替わる：平時は暑すぎ 0.36、150 Tg は寒すぎ 0.37（気温の中央値 23.9 → 13.2 °C）。</li>
+<li>揺れ（σ 0.32）つきの主：q 0.483。疫病の損の割合の走査（主の年）：0.25・0.5 で 0.476、0.75 で 0.478、1.0 で 0.501（損が大きい場合だけ効く）。</li>
+<li>格子ごとの確率で年を独立に引く版：主 0.481、45 mm 0.509。</li>
+</ul>
+<h2 id="_6">判定（分類つき）</h2>
+<ul>
+<li>H114a（確認的）<strong>支持</strong>：得の格子の疫病の年は 150 Tg で平時より低い（主 0.09 対 0.57、全 8 版で低い）。原因は雨の減少。</li>
+<li>H114b（確認的）<strong>支持（主の規則で）</strong>：q 0.478。ただし主の規則は H114c の較正に落ちたので、較正の通る 45 mm の版では 0.505 と 0.50 をわずかに超える。</li>
+<li>H114c（予測）<strong>棄却</strong>：主の規則は平時の Ireland・UK を 0.05 しか疫病の年としない（夏の月の雨が 90 mm に届かない）。月に均した 90 mm は日の雨の集中を無視し、厳しすぎる。45 mm で 0.56、45 mm・n_min 1 で 0.88。</li>
+<li>H114d（予測）<strong>支持</strong>：雨の閾値を半分にした q 0.505 ≤ 0.53。</li>
+</ul>
+<h2 id="_7">解釈</h2>
+<ul>
+<li>【独自仮説・模型の中】核の冬は低緯度の芋の畑を疫病に適した気温帯へ冷やすが、同時に雨を 3 割ほどに減らすため、雨で見る限り疫病の年は平時より少ない。だから 101 の「毎年の疫病」（0.562）は 150 Tg の気候では起きにくく、q は 0.478〜0.539（較正の通る 2 版で 0.505〜0.539）に収まる。平時の頻度のまま疫病が来ると仮定した場合（0.534〜0.545）より低い。</li>
+<li>【推測】湿度が出力にないため、雨が少なくても霧や結露で葉が濡れる場合（低い日射と気温で相対湿度が上がる可能性）は数えていない。これは q を上げる向きの未知で、上限は 101 の 0.562。</li>
+<li>系列の区切り：099〜102 で q は 0.463〜0.539 に収まり、芋の疫病も幅の中に入った。親の指示どおり主食喪失 q の系列はここで閉じる。</li>
+</ul>
+<h2 id="_8">逸脱</h2>
+<ul>
+<li>登録の主（90 mm）は較正（H114c）に落ちたため、較正の通る 45 mm を報告の「較正済みの主」として併記した（登録外の判断）。</li>
+<li>Ireland・UK の箱は陸と海の両方の格子を含む（陸だけの版も results.json に記録、主 0.078・45 mm 0.68）。</li>
+<li>日の値がないため、Hyre の 10 日連続の条件を「季節の 2 か月」で代えた。</li>
+</ul>
+<h2 id="_9">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>核の冬の食料の研究者：疫病の危険を気温だけで見積もらず、雨と湿度を一緒に扱う。CESM の日の出力（TREFHT・RHREFHT・PRECT）があれば Smith の期間で数え直せる。</li>
+<li>本研究所：主食喪失 q の系列を閉じ、103 から重い崩壊の別の未解決課題（技術・知識の立ち直り）に移る。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
