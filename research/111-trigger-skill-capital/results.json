@@ -1,0 +1,760 @@
+{
+ "study": "111-trigger-skill-capital",
+ "seed": 20261111,
+ "check_109_runs_reproduced_maxdiff": 0.0,
+ "runs": {
+  "check_L_inf_hist": {
+   "F_heavy": 3.811143337968024,
+   "F_total": 2.0192377470407474,
+   "U3_heavy_rel_drop": 0.8080299593100716
+  },
+  "check_L0_hist": {
+   "F_heavy": 1.0,
+   "F_total": 1.0,
+   "U3_heavy_rel_drop": 0.0
+  },
+  "slow_Tasmania|precision_104": {
+   "F_heavy": 1.020484054040945,
+   "F_total": 1.0074269144546877,
+   "U3_heavy_rel_drop": 0.016218357279175977
+  },
+  "slow_Tasmania|myford_107": {
+   "F_heavy": 1.091138793937807,
+   "F_total": 1.0330442413755843,
+   "U3_heavy_rel_drop": 0.05376831946995064
+  },
+  "slow_Tasmania|mixed_106": {
+   "F_heavy": 1.4271528751405134,
+   "F_total": 1.1548730469271953,
+   "U3_heavy_rel_drop": 0.15423283281120592
+  },
+  "slow_Tasmania|rework_106": {
+   "F_heavy": 2.2766158772633727,
+   "F_total": 1.4628633029857858,
+   "U3_heavy_rel_drop": 0.4068128623384105
+  },
+  "slow_Tasmania|inf": {
+   "F_heavy": 3.811143337968024,
+   "F_total": 2.0192377470407474,
+   "U3_heavy_rel_drop": 0.8080299593100716
+  },
+  "trigger_mix|precision_104": {
+   "F_heavy": 1.0062859139553777,
+   "F_total": 1.0022790871925449,
+   "U3_heavy_rel_drop": 0.010464153253393782
+  },
+  "trigger_mix|myford_107": {
+   "F_heavy": 1.0220611939863262,
+   "F_total": 1.0079987389301555,
+   "U3_heavy_rel_drop": 0.02532137841633353
+  },
+  "trigger_mix|mixed_106": {
+   "F_heavy": 1.097644077615835,
+   "F_total": 1.0354028655660699,
+   "U3_heavy_rel_drop": 0.05116848511036698
+  },
+  "trigger_mix|rework_106": {
+   "F_heavy": 1.2938003768093194,
+   "F_total": 1.1065233601198385,
+   "U3_heavy_rel_drop": 0.1176551078463145
+  },
+  "trigger_mix|inf": {
+   "F_heavy": 1.62193880134888,
+   "F_total": 1.2254966846131221,
+   "U3_heavy_rel_drop": 0.20681286233841056
+  },
+  "fast_state|precision_104": {
+   "F_heavy": 1.0023590144900962,
+   "F_total": 1.0008553091482912,
+   "U3_heavy_rel_drop": 0.008886968420294572
+  },
+  "fast_state|myford_107": {
+   "F_heavy": 1.0061127067701323,
+   "F_total": 1.0022162873705378,
+   "U3_heavy_rel_drop": 0.017615498181556277
+  },
+  "fast_state|mixed_106": {
+   "F_heavy": 1.0117479373529876,
+   "F_total": 1.0042594559438898,
+   "U3_heavy_rel_drop": 0.022800763386266243
+  },
+  "fast_state|rework_106": {
+   "F_heavy": 1.0296736158879802,
+   "F_total": 1.0107587788198944,
+   "U3_heavy_rel_drop": 0.039170357567246405
+  },
+  "fast_state|inf": {
+   "F_heavy": 1.0367643281762315,
+   "F_total": 1.0133296621754244,
+   "U3_heavy_rel_drop": 0.04305210471355003
+  },
+  "sweep_slow_Tasmania_1": {
+   "F_heavy": 1.0001771445660623,
+   "F_total": 1.0000642274002804,
+   "U3_heavy_rel_drop": 0.0002448597457779256
+  },
+  "sweep_slow_Tasmania_2": {
+   "F_heavy": 1.0000181777547028,
+   "F_total": 1.000006590718267,
+   "U3_heavy_rel_drop": 0.00039609664758200047
+  },
+  "sweep_slow_Tasmania_3": {
+   "F_heavy": 0.9998312676445599,
+   "F_total": 0.9999388226194341,
+   "U3_heavy_rel_drop": 0.0005833423355298128
+  },
+  "sweep_slow_Tasmania_4": {
+   "F_heavy": 0.9998314765168068,
+   "F_total": 0.9999388983503567,
+   "U3_heavy_rel_drop": 0.0008642108674515869
+  },
+  "sweep_slow_Tasmania_6": {
+   "F_heavy": 0.999821990026951,
+   "F_total": 0.9999354588286442,
+   "U3_heavy_rel_drop": 0.0013467286017788682
+  },
+  "sweep_slow_Tasmania_10": {
+   "F_heavy": 0.9998217730259628,
+   "F_total": 0.9999353801504796,
+   "U3_heavy_rel_drop": 0.0021749306830867177
+  },
+  "sweep_slow_Tasmania_16": {
+   "F_heavy": 1.0002305598466246,
+   "F_total": 1.0000835942071888,
+   "U3_heavy_rel_drop": 0.0034640452270353617
+  },
+  "sweep_slow_Tasmania_25": {
+   "F_heavy": 1.0002883859559795,
+   "F_total": 1.0001045602506566,
+   "U3_heavy_rel_drop": 0.005516546037233061
+  },
+  "sweep_slow_Tasmania_40": {
+   "F_heavy": 1.000639250933173,
+   "F_total": 1.000231773553529,
+   "U3_heavy_rel_drop": 0.008966187749810839
+  },
+  "sweep_slow_Tasmania_63": {
+   "F_heavy": 1.001184578369195,
+   "F_total": 1.000429493214346,
+   "U3_heavy_rel_drop": 0.014065031867775746
+  },
+  "sweep_slow_Tasmania_100": {
+   "F_heavy": 1.0027448917041222,
+   "F_total": 1.0009952168566412,
+   "U3_heavy_rel_drop": 0.021482841813402542
+  },
+  "sweep_slow_Tasmania_158": {
+   "F_heavy": 1.005380632527877,
+   "F_total": 1.001950858820074,
+   "U3_heavy_rel_drop": 0.0346044434842101
+  },
+  "sweep_slow_Tasmania_251": {
+   "F_heavy": 1.021713864839549,
+   "F_total": 1.0078728076152126,
+   "U3_heavy_rel_drop": 0.05634654855784804
+  },
+  "sweep_slow_Tasmania_398": {
+   "F_heavy": 1.0697143682842727,
+   "F_total": 1.0252763758812071,
+   "U3_heavy_rel_drop": 0.09115264124446354
+  },
+  "sweep_slow_Tasmania_631": {
+   "F_heavy": 1.2013301003094066,
+   "F_total": 1.0729963623979324,
+   "U3_heavy_rel_drop": 0.15069677001188286
+  },
+  "sweep_slow_Tasmania_1000": {
+   "F_heavy": 1.521745544001991,
+   "F_total": 1.1891695615854032,
+   "U3_heavy_rel_drop": 0.250189046127255
+  },
+  "sweep_slow_Tasmania_1585": {
+   "F_heavy": 2.2125850372818316,
+   "F_total": 1.439647607008118,
+   "U3_heavy_rel_drop": 0.40844045947211116
+  },
+  "sweep_slow_Tasmania_2512": {
+   "F_heavy": 3.033771284110887,
+   "F_total": 1.7373855447412714,
+   "U3_heavy_rel_drop": 0.6098087933455764
+  },
+  "sweep_slow_Tasmania_3981": {
+   "F_heavy": 3.593113788131221,
+   "F_total": 1.9401866562754495,
+   "U3_heavy_rel_drop": 0.7481257426812142
+  },
+  "sweep_slow_Tasmania_6310": {
+   "F_heavy": 3.7756811612463563,
+   "F_total": 2.0063802066162593,
+   "U3_heavy_rel_drop": 0.7984228151669007
+  },
+  "sweep_slow_Tasmania_10000": {
+   "F_heavy": 3.8108288060733675,
+   "F_total": 2.019123707043088,
+   "U3_heavy_rel_drop": 0.8079219329516402
+  },
+  "sweep_trigger_mix_1": {
+   "F_heavy": 1.0001771445660623,
+   "F_total": 1.0000642274002804,
+   "U3_heavy_rel_drop": 0.0002448597457779256
+  },
+  "sweep_trigger_mix_2": {
+   "F_heavy": 1.0000181777547028,
+   "F_total": 1.000006590718267,
+   "U3_heavy_rel_drop": 0.00039609664758200047
+  },
+  "sweep_trigger_mix_3": {
+   "F_heavy": 0.9998312676445599,
+   "F_total": 0.9999388226194341,
+   "U3_heavy_rel_drop": 0.0005833423355298128
+  },
+  "sweep_trigger_mix_4": {
+   "F_heavy": 0.9998314765168068,
+   "F_total": 0.9999388983503567,
+   "U3_heavy_rel_drop": 0.0008642108674515869
+  },
+  "sweep_trigger_mix_6": {
+   "F_heavy": 0.999821990026951,
+   "F_total": 0.9999354588286442,
+   "U3_heavy_rel_drop": 0.0013467286017788682
+  },
+  "sweep_trigger_mix_10": {
+   "F_heavy": 0.9998217730259628,
+   "F_total": 0.9999353801504796,
+   "U3_heavy_rel_drop": 0.0021749306830867177
+  },
+  "sweep_trigger_mix_16": {
+   "F_heavy": 1.0002305598466246,
+   "F_total": 1.0000835942071888,
+   "U3_heavy_rel_drop": 0.0034640452270353617
+  },
+  "sweep_trigger_mix_25": {
+   "F_heavy": 1.0002883859559795,
+   "F_total": 1.0001045602506566,
+   "U3_heavy_rel_drop": 0.005516546037233061
+  },
+  "sweep_trigger_mix_40": {
+   "F_heavy": 1.000639250933173,
+   "F_total": 1.000231773553529,
+   "U3_heavy_rel_drop": 0.008966187749810839
+  },
+  "sweep_trigger_mix_63": {
+   "F_heavy": 1.001184578369195,
+   "F_total": 1.000429493214346,
+   "U3_heavy_rel_drop": 0.013892189694285406
+  },
+  "sweep_trigger_mix_100": {
+   "F_heavy": 1.0024298466071593,
+   "F_total": 1.0008809907869463,
+   "U3_heavy_rel_drop": 0.019927262251989375
+  },
+  "sweep_trigger_mix_158": {
+   "F_heavy": 1.0050509890102406,
+   "F_total": 1.00183133979317,
+   "U3_heavy_rel_drop": 0.028115660221093908
+  },
+  "sweep_trigger_mix_251": {
+   "F_heavy": 1.013333532128452,
+   "F_total": 1.0048343458916336,
+   "U3_heavy_rel_drop": 0.03810449749738942
+  },
+  "sweep_trigger_mix_398": {
+   "F_heavy": 1.0312817357762663,
+   "F_total": 1.0113418357098687,
+   "U3_heavy_rel_drop": 0.04924561593028687
+  },
+  "sweep_trigger_mix_631": {
+   "F_heavy": 1.0614531964684084,
+   "F_total": 1.022281118387292,
+   "U3_heavy_rel_drop": 0.06448453422635125
+  },
+  "sweep_trigger_mix_1000": {
+   "F_heavy": 1.1308315582036665,
+   "F_total": 1.0474356681938968,
+   "U3_heavy_rel_drop": 0.08685319217889165
+  },
+  "sweep_trigger_mix_1585": {
+   "F_heavy": 1.2803249176706128,
+   "F_total": 1.101637555676013,
+   "U3_heavy_rel_drop": 0.12129919700406888
+  },
+  "sweep_trigger_mix_2512": {
+   "F_heavy": 1.4582507695042184,
+   "F_total": 1.1661482271575583,
+   "U3_heavy_rel_drop": 0.16428648590256012
+  },
+  "sweep_trigger_mix_3981": {
+   "F_heavy": 1.5729215317817322,
+   "F_total": 1.2077244669090539,
+   "U3_heavy_rel_drop": 0.19377047999711916
+  },
+  "sweep_trigger_mix_6310": {
+   "F_heavy": 1.6146365721536042,
+   "F_total": 1.2228491114592226,
+   "U3_heavy_rel_drop": 0.20476756328544166
+  },
+  "sweep_trigger_mix_10000": {
+   "F_heavy": 1.62193880134888,
+   "F_total": 1.2254966846131221,
+   "U3_heavy_rel_drop": 0.20680566058118166
+  }
+ },
+ "check_L_inf_equals_108_hist": 0.0,
+ "check_L0_binary": 0.0,
+ "L_versions_q": {
+  "precision_104": [
+   1.3745087999960166,
+   19.7523316169665,
+   283.2834234146878
+  ],
+  "myford_107": [
+   4.751727876586695,
+   70.01440869890646,
+   1005.2335925316253
+  ],
+  "mixed_106": [
+   1.7283733150109424,
+   117.1054324376147,
+   7884.829551644091
+  ],
+  "rework_106": [
+   105.35692105117326,
+   1385.2450088200858,
+   18003.847662756045
+  ]
+ },
+ "trigger_rule": {
+  "types": {
+   "Inughuit_boats": "i",
+   "Tasmania_108": "i",
+   "Britain_coin": "i",
+   "Britain_wheel_pottery": "i",
+   "Greece_LinearB": "i",
+   "Greece_monumental_stone": "i",
+   "Tonga_pottery": "ii_undated",
+   "EasterIsland_seaworthy_vessels": "iii_capital",
+   "England_mortared_stone_111": "ii_or_capital",
+   "Britain_primary_glass_111": "never_local"
+  },
+  "counted_for_kappa": [
+   "Inughuit_boats",
+   "Tasmania_108",
+   "Britain_coin",
+   "Britain_wheel_pottery",
+   "Greece_LinearB",
+   "Greece_monumental_stone"
+  ],
+  "slow": 1,
+  "fast": 5,
+  "w_post_q": [
+   0.030405093193829155,
+   0.1859165946988589,
+   0.4950717016943695
+  ]
+ },
+ "table": {
+  "slow_Tasmania|precision_104": {
+   "F_heavy": 1.020484054040945,
+   "F_total": 1.0074269144546877,
+   "U3_heavy_rel_drop": 0.016218357279175977
+  },
+  "slow_Tasmania|myford_107": {
+   "F_heavy": 1.091138793937807,
+   "F_total": 1.0330442413755843,
+   "U3_heavy_rel_drop": 0.05376831946995064
+  },
+  "slow_Tasmania|mixed_106": {
+   "F_heavy": 1.4271528751405134,
+   "F_total": 1.1548730469271953,
+   "U3_heavy_rel_drop": 0.15423283281120592
+  },
+  "slow_Tasmania|rework_106": {
+   "F_heavy": 2.2766158772633727,
+   "F_total": 1.4628633029857858,
+   "U3_heavy_rel_drop": 0.4068128623384105
+  },
+  "slow_Tasmania|inf": {
+   "F_heavy": 3.811143337968024,
+   "F_total": 2.0192377470407474,
+   "U3_heavy_rel_drop": 0.8080299593100716
+  },
+  "trigger_mix|precision_104": {
+   "F_heavy": 1.0062859139553777,
+   "F_total": 1.0022790871925449,
+   "U3_heavy_rel_drop": 0.010464153253393782
+  },
+  "trigger_mix|myford_107": {
+   "F_heavy": 1.0220611939863262,
+   "F_total": 1.0079987389301555,
+   "U3_heavy_rel_drop": 0.02532137841633353
+  },
+  "trigger_mix|mixed_106": {
+   "F_heavy": 1.097644077615835,
+   "F_total": 1.0354028655660699,
+   "U3_heavy_rel_drop": 0.05116848511036698
+  },
+  "trigger_mix|rework_106": {
+   "F_heavy": 1.2938003768093194,
+   "F_total": 1.1065233601198385,
+   "U3_heavy_rel_drop": 0.1176551078463145
+  },
+  "trigger_mix|inf": {
+   "F_heavy": 1.62193880134888,
+   "F_total": 1.2254966846131221,
+   "U3_heavy_rel_drop": 0.20681286233841056
+  },
+  "fast_state|precision_104": {
+   "F_heavy": 1.0023590144900962,
+   "F_total": 1.0008553091482912,
+   "U3_heavy_rel_drop": 0.008886968420294572
+  },
+  "fast_state|myford_107": {
+   "F_heavy": 1.0061127067701323,
+   "F_total": 1.0022162873705378,
+   "U3_heavy_rel_drop": 0.017615498181556277
+  },
+  "fast_state|mixed_106": {
+   "F_heavy": 1.0117479373529876,
+   "F_total": 1.0042594559438898,
+   "U3_heavy_rel_drop": 0.022800763386266243
+  },
+  "fast_state|rework_106": {
+   "F_heavy": 1.0296736158879802,
+   "F_total": 1.0107587788198944,
+   "U3_heavy_rel_drop": 0.039170357567246405
+  },
+  "fast_state|inf": {
+   "F_heavy": 1.0367643281762315,
+   "F_total": 1.0133296621754244,
+   "U3_heavy_rel_drop": 0.04305210471355003
+  }
+ },
+ "sweep": {
+  "slow_Tasmania": [
+   {
+    "L": 1.0,
+    "F_heavy": 1.0001771445660623,
+    "F_total": 1.0000642274002804,
+    "U3_heavy_rel_drop": 0.0002448597457779256
+   },
+   {
+    "L": 1.5848931924611136,
+    "F_heavy": 1.0000181777547028,
+    "F_total": 1.000006590718267,
+    "U3_heavy_rel_drop": 0.00039609664758200047
+   },
+   {
+    "L": 2.51188643150958,
+    "F_heavy": 0.9998312676445599,
+    "F_total": 0.9999388226194341,
+    "U3_heavy_rel_drop": 0.0005833423355298128
+   },
+   {
+    "L": 3.981071705534973,
+    "F_heavy": 0.9998314765168068,
+    "F_total": 0.9999388983503567,
+    "U3_heavy_rel_drop": 0.0008642108674515869
+   },
+   {
+    "L": 6.309573444801933,
+    "F_heavy": 0.999821990026951,
+    "F_total": 0.9999354588286442,
+    "U3_heavy_rel_drop": 0.0013467286017788682
+   },
+   {
+    "L": 10.0,
+    "F_heavy": 0.9998217730259628,
+    "F_total": 0.9999353801504796,
+    "U3_heavy_rel_drop": 0.0021749306830867177
+   },
+   {
+    "L": 15.848931924611142,
+    "F_heavy": 1.0002305598466246,
+    "F_total": 1.0000835942071888,
+    "U3_heavy_rel_drop": 0.0034640452270353617
+   },
+   {
+    "L": 25.11886431509581,
+    "F_heavy": 1.0002883859559795,
+    "F_total": 1.0001045602506566,
+    "U3_heavy_rel_drop": 0.005516546037233061
+   },
+   {
+    "L": 39.810717055349734,
+    "F_heavy": 1.000639250933173,
+    "F_total": 1.000231773553529,
+    "U3_heavy_rel_drop": 0.008966187749810839
+   },
+   {
+    "L": 63.09573444801933,
+    "F_heavy": 1.001184578369195,
+    "F_total": 1.000429493214346,
+    "U3_heavy_rel_drop": 0.014065031867775746
+   },
+   {
+    "L": 100.0,
+    "F_heavy": 1.0027448917041222,
+    "F_total": 1.0009952168566412,
+    "U3_heavy_rel_drop": 0.021482841813402542
+   },
+   {
+    "L": 158.48931924611142,
+    "F_heavy": 1.005380632527877,
+    "F_total": 1.001950858820074,
+    "U3_heavy_rel_drop": 0.0346044434842101
+   },
+   {
+    "L": 251.18864315095823,
+    "F_heavy": 1.021713864839549,
+    "F_total": 1.0078728076152126,
+    "U3_heavy_rel_drop": 0.05634654855784804
+   },
+   {
+    "L": 398.1071705534973,
+    "F_heavy": 1.0697143682842727,
+    "F_total": 1.0252763758812071,
+    "U3_heavy_rel_drop": 0.09115264124446354
+   },
+   {
+    "L": 630.9573444801937,
+    "F_heavy": 1.2013301003094066,
+    "F_total": 1.0729963623979324,
+    "U3_heavy_rel_drop": 0.15069677001188286
+   },
+   {
+    "L": 1000.0,
+    "F_heavy": 1.521745544001991,
+    "F_total": 1.1891695615854032,
+    "U3_heavy_rel_drop": 0.250189046127255
+   },
+   {
+    "L": 1584.893192461114,
+    "F_heavy": 2.2125850372818316,
+    "F_total": 1.439647607008118,
+    "U3_heavy_rel_drop": 0.40844045947211116
+   },
+   {
+    "L": 2511.886431509582,
+    "F_heavy": 3.033771284110887,
+    "F_total": 1.7373855447412714,
+    "U3_heavy_rel_drop": 0.6098087933455764
+   },
+   {
+    "L": 3981.0717055349733,
+    "F_heavy": 3.593113788131221,
+    "F_total": 1.9401866562754495,
+    "U3_heavy_rel_drop": 0.7481257426812142
+   },
+   {
+    "L": 6309.573444801937,
+    "F_heavy": 3.7756811612463563,
+    "F_total": 2.0063802066162593,
+    "U3_heavy_rel_drop": 0.7984228151669007
+   },
+   {
+    "L": 10000.0,
+    "F_heavy": 3.8108288060733675,
+    "F_total": 2.019123707043088,
+    "U3_heavy_rel_drop": 0.8079219329516402
+   }
+  ],
+  "trigger_mix": [
+   {
+    "L": 1.0,
+    "F_heavy": 1.0001771445660623,
+    "F_total": 1.0000642274002804,
+    "U3_heavy_rel_drop": 0.0002448597457779256
+   },
+   {
+    "L": 1.5848931924611136,
+    "F_heavy": 1.0000181777547028,
+    "F_total": 1.000006590718267,
+    "U3_heavy_rel_drop": 0.00039609664758200047
+   },
+   {
+    "L": 2.51188643150958,
+    "F_heavy": 0.9998312676445599,
+    "F_total": 0.9999388226194341,
+    "U3_heavy_rel_drop": 0.0005833423355298128
+   },
+   {
+    "L": 3.981071705534973,
+    "F_heavy": 0.9998314765168068,
+    "F_total": 0.9999388983503567,
+    "U3_heavy_rel_drop": 0.0008642108674515869
+   },
+   {
+    "L": 6.309573444801933,
+    "F_heavy": 0.999821990026951,
+    "F_total": 0.9999354588286442,
+    "U3_heavy_rel_drop": 0.0013467286017788682
+   },
+   {
+    "L": 10.0,
+    "F_heavy": 0.9998217730259628,
+    "F_total": 0.9999353801504796,
+    "U3_heavy_rel_drop": 0.0021749306830867177
+   },
+   {
+    "L": 15.848931924611142,
+    "F_heavy": 1.0002305598466246,
+    "F_total": 1.0000835942071888,
+    "U3_heavy_rel_drop": 0.0034640452270353617
+   },
+   {
+    "L": 25.11886431509581,
+    "F_heavy": 1.0002883859559795,
+    "F_total": 1.0001045602506566,
+    "U3_heavy_rel_drop": 0.005516546037233061
+   },
+   {
+    "L": 39.810717055349734,
+    "F_heavy": 1.000639250933173,
+    "F_total": 1.000231773553529,
+    "U3_heavy_rel_drop": 0.008966187749810839
+   },
+   {
+    "L": 63.09573444801933,
+    "F_heavy": 1.001184578369195,
+    "F_total": 1.000429493214346,
+    "U3_heavy_rel_drop": 0.013892189694285406
+   },
+   {
+    "L": 100.0,
+    "F_heavy": 1.0024298466071593,
+    "F_total": 1.0008809907869463,
+    "U3_heavy_rel_drop": 0.019927262251989375
+   },
+   {
+    "L": 158.48931924611142,
+    "F_heavy": 1.0050509890102406,
+    "F_total": 1.00183133979317,
+    "U3_heavy_rel_drop": 0.028115660221093908
+   },
+   {
+    "L": 251.18864315095823,
+    "F_heavy": 1.013333532128452,
+    "F_total": 1.0048343458916336,
+    "U3_heavy_rel_drop": 0.03810449749738942
+   },
+   {
+    "L": 398.1071705534973,
+    "F_heavy": 1.0312817357762663,
+    "F_total": 1.0113418357098687,
+    "U3_heavy_rel_drop": 0.04924561593028687
+   },
+   {
+    "L": 630.9573444801937,
+    "F_heavy": 1.0614531964684084,
+    "F_total": 1.022281118387292,
+    "U3_heavy_rel_drop": 0.06448453422635125
+   },
+   {
+    "L": 1000.0,
+    "F_heavy": 1.1308315582036665,
+    "F_total": 1.0474356681938968,
+    "U3_heavy_rel_drop": 0.08685319217889165
+   },
+   {
+    "L": 1584.893192461114,
+    "F_heavy": 1.2803249176706128,
+    "F_total": 1.101637555676013,
+    "U3_heavy_rel_drop": 0.12129919700406888
+   },
+   {
+    "L": 2511.886431509582,
+    "F_heavy": 1.4582507695042184,
+    "F_total": 1.1661482271575583,
+    "U3_heavy_rel_drop": 0.16428648590256012
+   },
+   {
+    "L": 3981.0717055349733,
+    "F_heavy": 1.5729215317817322,
+    "F_total": 1.2077244669090539,
+    "U3_heavy_rel_drop": 0.19377047999711916
+   },
+   {
+    "L": 6309.573444801937,
+    "F_heavy": 1.6146365721536042,
+    "F_total": 1.2228491114592226,
+    "U3_heavy_rel_drop": 0.20476756328544166
+   },
+   {
+    "L": 10000.0,
+    "F_heavy": 1.62193880134888,
+    "F_total": 1.2254966846131221,
+    "U3_heavy_rel_drop": 0.20680566058118166
+   }
+  ]
+ },
+ "L_crit_F1.1": {
+  "slow_Tasmania": 630.9573444801937,
+  "trigger_mix": 1000.0
+ },
+ "t_below_U3_heavy_q": {
+  "T2e": [
+   225.49228497081322,
+   1957.31173926033,
+   6317.541678722739
+  ],
+  "lens": [
+   0.0,
+   1396.0456436222328,
+   5445.62364495016
+  ],
+  "Fe": [
+   0.0,
+   400.8511410484731,
+   3789.439977883173
+  ]
+ },
+ "hypotheses": {
+  "H123a": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Anglo-Saxon glass: 'very little evidence for glass making from the raw materials in Roman Britain and even less evidence in Anglo-Saxon Britain'; cullet recycling; re-use of Roman opaque glass",
+   "note": "primary glass making was never local even in Roman Britain, so this is not a post-collapse loss of the stage"
+  },
+  "H123b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "masonry churches from 597 (Augustine 'probably imported workmen from Frankish Gaul'); Wearmouth glaziers from Gaul 675; gap c.410-597 = ~187 y",
+   "note": "'probably'; Shapland: return to timber was a cultural choice, i.e. demand (ii), not skill decay"
+  },
+  "H123c": {
+   "class": "prediction",
+   "value": 1.091138793937807,
+   "rule": "<=1.2",
+   "supported": true
+  },
+  "H123d": {
+   "class": "prediction",
+   "value": 1.0220611939863262,
+   "rule": "<1.3",
+   "supported": true
+  },
+  "H123e": {
+   "class": "prediction",
+   "value": 630.9573444801937,
+   "rule": ">200 y",
+   "supported": true
+  },
+  "H123f": {
+   "class": "descriptive",
+   "value": {
+    "Inughuit_boats": "i",
+    "Tasmania_108": "i",
+    "Britain_coin": "i",
+    "Britain_wheel_pottery": "i",
+    "Greece_LinearB": "i",
+    "Greece_monumental_stone": "i",
+    "Tonga_pottery": "ii_undated",
+    "EasterIsland_seaworthy_vessels": "iii_capital",
+    "England_mortared_stone_111": "ii_or_capital",
+    "Britain_primary_glass_111": "never_local"
+   },
+   "supported": null
+  }
+ },
+ "runtime_s": 95.70096206665039
+}
