@@ -1,0 +1,31 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究112 事前登録（2026-10-24 13:36 JST、新しい資料を開く前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="112-2026-10-24-1336-jstsimpy">研究112 事前登録（2026-10-24 13:36 JST、新しい資料を開く前・sim.py を書く前）</h1>
+<p>対象：open_problems 265（重い崩壊の段の入力のうち、閾値を下回った小さな群で建て直せないものの割合と在庫の寿命 L）。</p>
+<h2 id="_1">模型（資料を開く前に固定）</h2>
+<p>111 の模型（段 k を保つ ⇔ 技能 z_min ≥ ln N_k かつ t_below,k ≤ L）を、段ごと・群ごとの有効な寿命 L_k に置き換える。
+- 段の入力を 3 種に分ける：<strong>R</strong>（地元の材料で建て直せる。L の条件をかけない。人手は N_k に入っているので二重に数えない）、<strong>S</strong>（今は輸入・遠方だが地元の代わりがありうる。群ごとに確率 p_sub で代わりあり。代わりが見つかるまでの遅れ t_sub の間は在庫でつなぐ：条件は min(t_below, t_sub) ≤ L_i）、<strong>X</strong>（地元に代わりなし：条件は t_below ≤ L_i）。
+- L_k = 要る入力のうち、代わりのない入力の条件の最も厳しいもの。上の段を保つには下の段も保つ（入れ子を強制）。
+- 主の入力の表（すべて【推測】、資料で置き直す）：
+  - 製鉄（塊鉄炉）：炉の粘土 R、木炭 R、ふいご R、槌・金床 R、鉱石 S（p_sub 0.8：沼鉄鉱などが地元にある群の割合。ない群は廃墟の鉄くずの在庫、L＝104 の部材 bulk、中央値 1,878 年）。
+  - ガラス・レンズ：砂 R、石灰 R、燃料 R、研磨の砂・酸化鉄 R、融剤 S（ソーダ・ナトロン→植物の灰、p_sub 0.9、t_sub は資料で置く）、坩堝の耐火土 S（p_sub 0.7）、透明な素材 S（廃墟のガラス＝カレットの在庫、L＝104 のガラスの寿命の版）。
+  - T2e：精密な工作機械 X（L＝107 Myford、別版 106 の作り直し）、銅・錫などの金属 S（p_sub 0.3、ない群は廃墟の在庫 bulk）。
+- 再現：111 の sim.py を「# ---------- 仮説」の前まで exec し、111 の全版の F_heavy を差 0 で再現（assert）。全段に同じ L を掛け p_sub=0 にすると 111 と一致（assert）。
+- 指標は A_Ord/U3 の F_heavy（生存確率でも復興確率でもない）。新しい乱数は seed 20261112。</p>
+<h2 id="_2">仮説</h2>
+<h3 id="_3">確認的（未見の資料。開く前に登録）</h3>
+<ul>
+<li>H124a（Wikipedia「Cape York meteorite」）：Inughuit（Inuit）がこの隕鉄を道具に使った期間が「数世紀（centuries）」または 300 年以上と書かれている（建て直せない鉄の在庫が数百人の群を 300 年以上支えた例）。</li>
+<li>H124b（Wikipedia「Forest glass」）：融剤が地元の森の木・植物の灰（potash）で、輸入のソーダ・ナトロンに代わったと書かれ、かつ始まりが西暦 800 年以降（西ローマの崩壊から 300 年以上後）と書かれている。両方そろって支持。</li>
+<li>H124c（Wikipedia「Natron」）：古代・ローマのガラスの融剤に Egypt のナトロンが使われ、その後（植物の灰などに）置き換わったことが書かれている。両方そろって支持。</li>
+<li>H124d（Wikipedia「Visby lenses」）：レンズが岩の水晶（rock crystal）を削って作られ、年代が 12 世紀以前と書かれている（ガラスなしのレンズの経路）。</li>
+<li>H124e（検索で見つかる公開の論文・報告）：5〜7 世紀の Britain（またはローマ後の西欧）のガラスがローマのガラスの再溶解（カレット）に頼った期間が 150 年以上と数値か年代で書かれている。見つからなければ「検定できず」。</li>
+</ul>
+<h3 id="111">入力判明後の予測（111 の出力は既知、新しい版は未計算）</h3>
+<ul>
+<li>H124f：主の入力の表で、遅い κ（Tasmania）の F_heavy は 111 の slow|myford 1.091 から ±0.05 以内（T2e の精密な道具が縛るため）。</li>
+<li>H124g：T2e だけが建て直せない（製鉄・レンズは R）とき、遅い κ・Myford で F_heavy &lt; 1.2。</li>
+<li>H124h：逆に T2e を建て直せるとし（L=∞）製鉄・レンズだけに 111 の Myford の L を掛けると、遅い κ で F_heavy ≥ 2.0（F_heavy を決めるのは T2e の段）。</li>
+</ul>
+<h3 id="_4">記述（支持に数えない）</h3>
+<ul>
+<li>H124i：入力の分類表と、資料から置いた p_sub・t_sub・L の値。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

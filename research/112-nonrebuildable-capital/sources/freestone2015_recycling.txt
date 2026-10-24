@@ -1,0 +1,825 @@
+REPRINTED FROM
+
+JOURNAL OF GLASS STUDIES
+VOLUME 57 • 2015
+
+Ian C. Freestone
+
+The Recycling and Reuse of Roman Glass:
+Analytical Approaches
+
+Copyright © 2015 by The Corning Museum of Glass, Corning, NY 14830-2253
+
+The Recycling and Reuse of Roman
+Glass: Analytical Approaches
+Ian C. Freestone
+
+B
+
+Y ITS VERY NATURE, glass is eminently
+
+suited for recycling. It is fragile, and it
+easily breaks into fragments that are no
+longer useful to the consumer but can be readily remelted so that the craftsman can reshape
+the glass into new objects. It is not surprising,
+then, that the recycling of glass is attested in the
+Roman literature, as is indicated in the wellknown passages in the writings of Martial and
+Statius.1 Archaeologically, recycling is more dif­
+ficult to detect, and it has been noted in the context of metals that a successful recycling economy will be invisible because the recycled material
+will have disappeared back into the crucible.2
+Even so, sufficient archaeological evidence has
+been recovered—in the form of caches of broken
+glass from workshops, churches, and domestic
+dwellings—to convincingly demonstrate that the
+recycling of glass was widespread. In his review
+of this material, Daniel Keller has observed that
+recycling was probably not a uniform process;
+instead, the approach taken would have been
+very dependent upon context.3 For example, recycling by the Roman army is likely to have differed from that by a family of middling income
+in the way that the glass was collected, stored,
+and returned to the glassworkers. The glass recycling economy probably comprised a complex
+network of individual consumers, institutions,
+middlemen, and producers that offered a wide
+range of pathways for a broken item to find its
+way back into the melting pot.
+Unfortunately, we are still far from fully understanding the details of recycling in any historical period. For Roman glass, a number of
+fundamental questions remain unanswered: (1)
+How efficient was the recycling process? Was
+
+all glass recycled, and to what extent did recycled glass, as opposed to raw glass, satisfy the
+needs of the Roman glass industry? (2) What
+happened as Rome withdrew from peripheral
+regions and the western empire collapsed? Did
+glassworkers obtain new material from the east,
+or were they dependent upon a diminishing reservoir of Roman material? (3) To what extent
+was Roman glass reused in the medieval period
+and beyond, as suggested by the writings of
+Theo­philus and Eraclius?
+This article addresses these issues through the
+examination of chemical analytical data. Glass
+chemistry is sensitive to recycling in several
+ways. Glass compositions are not homogeneous,
+but vary with time and location of production.
+The mixing of two different types of glass will
+produce intermediate compositions that can be
+recognized graphically because they lie directly
+between the two original “end-members.” Furthermore, the separation of glass colors in recycling processes is rarely perfect. A few fragments
+
+1. See, for example, David Whitehouse, “Glass in the Epigrams of Martial,” Journal of Glass Studies, v. 41, 1999, pp.
+73–81.
+2. See the discussion of metal recycling in Dan Levene and
+Matthew Ponting, “‘Recycling Economies, When Efficient, Are
+by Their Nature Invisible’: A First Century Jewish Recycling
+Economy,” in The Archaeology of the Babylonian Talmud, ed.
+M. Geller and S. Shaked, Leiden, the Netherlands, and Boston:
+Brill, in press.
+3. Daniel Keller, “Social and Economic Aspects of Glass Recycling,” in TRAC 2004: Proceedings of the Fourteenth Annual
+Theoretical Roman Archaeology Conference, Durham, 2004,
+Oxford, U.K.: Oxbow Books, pp. 65–78. Online at http://trac
+.org.uk/pubs/trac2004/trac2004_65-78 (accessed February 23,
+2015).
+
+29
+
+of green glass can enter the basket of colorless
+glass, or some blue glass can be mixed with the
+green. Some of these glasses contain highly diagnostic colorant elements, such as the cobalt in
+blue, which can enter the recycling system, perhaps as blue trails or handles on a colorless vessel. While the proportion of colored glass entering the recycled glass in this way may not be
+suf­fi cient to strongly color it, the cobalt is present as a trace, well above the natural levels in
+glassmaking sand. This indicates that a significant proportion of the glass is recycled material,
+and that, quite possibly, the entirety of the glass
+concerned has gone through at least one cycle of
+recycling.4
+Another effect of recycling is more subtle, but
+in some cases may be detected. This is the deterioration in composition caused by (a) the incorporation of dirt and dust from the environment,
+and deposits on the glass itself; (b) the loss of
+alkali fluxes, particularly sodium, as the glass is
+progressively reheated; (c) the incorporation of
+contaminants from the equipment of the glass
+workshop, notably iron, which will have scaled
+off from the blowpipe and pontil, and been absorbed from the wall of the clay melting pot;
+and (d) the incorporation of elements derived
+from the fuel ash, notably potassium, magnesium, and phosphorus. These processes can com­
+bine to cause a deterioration in the color of the
+glass, as well as an increase in viscosity (stiffness)
+of the molten glass, rendering it more difficult
+
+to work. Although not dramatic, these gradual
+processes will eventually render the glass unusable unless fresh glass is added to the batch.
+A final characteristic of recycling is that, if it
+continues over a period when there is a change
+in composition of primary or newly made glass,
+it can produce compositions that are anachronistic, as will be seen.
+
+4. See, for example, Caroline M. Jackson, “From Roman to
+Early Medieval Glasses: Many Happy Returns or a New Birth?,”
+Annales de l’Association Internationale pour l’Histoire du Verre,
+v. 13, Pays Bas, 1995 (Lochem, the Netherlands, 1996), pp.
+289–302; P. Mirti, A. Lepora, and L. Saguì, “Scientific Analysis
+of Seventh-Century Glass Fragments from the Crypta Balbi in
+Rome,” Archaeometry, v. 42, no. 2, August 2000, pp. 359–374;
+P. Mirti and others, “Glass Fragments from the Crypta Balbi in
+Rome: The Composition of Eighth-Century Fragments,” Ar­
+chaeometry, v. 43, no. 4, November 2001, pp. 491–502; and
+I. C. Freestone, M. Ponting, and M. J. Hughes, “The Origins of
+Byzantine Glass from Maroni Petrera, Cyprus,” Archaeometry,
+v. 44, no. 2, May 2002, pp. 257–272.
+5. Typical Roman glass of the first to third centuries contains
+around 0.4% iron oxide, while modern colorless container
+glass contains less than 0.1%.
+
+6. These decolorizing oxides functioned by oxidizing the
+iron from the ferrous state, which causes the distinctive aqua
+blue typical of much Roman common glass, to the ferric form,
+which generates a very pale yellow and is hardly noticeable in
+the thickness of a fine vessel wall. See Edward V. Sayre, “The
+Intentional Use of Antimony and Manganese in Ancient Glasses,” in Advances in Glass Technology, Part 2, ed. Frederick R.
+Matson and Guy E. Rindone, New York: Plenum Press, 1963,
+pp. 263–282; J. W. H. Schreurs and R. H. Brill, “Iron and Sulfur
+Related Colors in Ancient Glasses,” Archaeometry, v. 26, pt. 2,
+August 1984, pp. 199–209; C. M. Jackson, “Making Colourless Glass in the Roman Period,” Archaeometry, v. 47, no. 4,
+November 2005, pp. 763–780; and Rossella Arletti, Simona
+Quartieri, and Ian C. Freestone, “A XANES Study of Chromophores in Archaeological Glass,” Applied Physics A, v. 111, no.
+1, 2013, pp. 99–108.
+
+30
+
+Recycling in the Roman Period
+Specialists working on the blown transparent
+glass of the first to third centuries A.D. typical­ly
+classify it as either “colorless” or “weakly colored,” the latter term referring to transparent
+glass that tends toward colorless but retains a
+blue or green tinge. Most Roman glass has much
+higher concentrations of iron oxide than modern container or window glass,5 and would nat­
+urally be weakly colored were it not for the addi­
+tion of decolorizers by the glassmakers. It is well
+understood that the Romans used two types
+of decolorizers: manganese dioxide (MnO2) and
+an­
+timony pentoxide (Sb2O5).6 In addition to
+glasses that have added manganese or antimony, there is a third category, containing both of
+these components. Glass containing only antimony and no manganese tends to be colorless,
+glass containing manganese in excess of one percent tends to be colorless, glass with lower manganese tends to be green-blue, and glass containing both manganese and antimony tends to
+
+be green-blue. But these relationships are certain­
+ly not invariable because the effectiveness of the
+decolorization depends upon factors besides the
+absolute concentration of the decolorizer.
+Recent work increasingly suggests that manganese- and antimony-based decolorizers were
+added to the glass at the primary glassmak­ing stage: when the glass was made from sand
+and alkali. For example, analysis of glass from
+Roman-period sites around the Wadi Natrun
+shows the presence of manganese or antimony
+in the primary glass.7 There is no evidence of
+the addition of both manganese and antimony
+to the same batch at the primary stage, however.
+Recent work on glass chunks from shipwrecks
+around the Bay of Haifa indicates the presence
+of raw glass with either antimony or manganese, but no mixed glass,8 and work on Roman
+glass vessels from Egypt seems to show an abundance of antimony-decolorized glass, but relatively lim­ited amounts of manganese or mixed
+manganese-antimony glass.9 Caroline Jackson
+and others have observed that a potential expla­
+nation for the occurrence of manganese and antimony together in Roman glass is that manganese- and antimony-decolorized glasses were
+mixed through recycling, a view that is consistent with the evidence from the eastern Mediter­
+ranean.10
+The effects and extent of the recycling proc­
+ess can be seen by close examination of one of
+the few large sets of data from the Roman period that include analyses from a single archaeological assemblage of both antimony- and
+
+manganese-decolorized glasses, together with
+green-blue glasses. This assemblage is the glass
+in the cargo of the Iulia Felix, a ship that sank
+in the Adriatic in the second or third century.
+The Iulia Felix was carrying a barrel of about
+140 kilograms of broken vessel glass for re­
+cycling, and the composition of this glass has
+been comprehensively investigated by Alberta
+Silvestri and colleagues, who note that a signif­
+icant proportion of the glass cargo shows evidence of previous recycling.11 In this assemblage,
+blue-green glass greatly exceeds colorless glass
+in quantity and most of the colorless glass is
+antimony-decolorized only, with a small quantity of manganese-colorless glass.
+Figure 1 shows the soda and lime contents
+of all of the glasses, labeled as to whether they
+con­­
+tain only manganese, only antimony, or
+both manganese and antimony. Soda and lime
+are two of the raw glassmaking constituents,
+and the graph shows that the antimony- and
+manganese-only glasses have distinctive baseglass compositions, indicating that they were
+probably made in different workshops using
+different raw materials and/or different recipes.
+The glasses containing manganese and antimony plot between the two other groups, and this
+is consistent with the idea that the glasses with
+both manganese and antimony represent mixtures of the two basic types. Figure 2 demonstrates this point more clearly: the ratio of manganese to the sum of manganese plus antimony
+oxides indicates roughly the relative proportions of the two colorless glass types in the
+
+7. Marie-Dominique Nenna and others, “Ateliers primaires
+du Wadi Natrun: Nouvelles découvertes,” Annales de l’Asso­cia­
+tion Internationale pour l’Histoire du Verre, v. 16, London,
+2003 (Nottingham, U.K., 2005), pp. 59–63. Online at www.aihv
+.org/en/pdf/16-14.pdf (accessed February 23, 2015).
+8. Yael Gorin Rosen, Udi Galilee, and Ian Freestone, work in
+progress.
+9. D. Rosenow and Th. Rehren, “Herding Cats—Roman to
+Late Antique Glass Groups from Bubastis, Northern Egypt,”
+Journal of Archaeological Science, v. 49, September 2014, pp.
+170–184.
+10. Jackson [note 6]; Michèle Vichy, Valérie Thirion-Merle,
+and Maurice Picon, “Note sur le recyclage du verre dans
+
+l’An­tiquité et sur les groups de recyclage,” Bulletin de l’Asso­
+ciation Française pour l’Archéologie du Verre, 2007, pp. 55–57;
+Harriet E. Foster and Caroline M. Jackson, “The Composition
+of Late Romano-British Colourless Vessel Glass: Glass Production and Consumption,” Journal of Archaeological Science, v.
+37, no. 12, December 2010, pp. 3068–3080; A. Silvestri, “The
+Coloured Glass of Iulia Felix,” Journal of Archaeological Sci­
+ence, v. 35, no. 6, June 2008, pp. 1489–1501.
+11. A. Silvestri, G. Molin, and G. Salviulo, “The Colourless
+Glass of Iulia Felix,” Journal of Archaeological Science, v. 35,
+no. 2, February 2008, pp. 331–341; Silvestri [note 10].
+
+31
+
+FIG. 1. Soda and lime contents of glass from the Iulia Felix wreck,
+labeled according to the presence or absence of antimony and manganese.
+Data of Silvestri, Molin, and Salviulo [note 11], replotted by the author.
+
+FIG. 2. Proportions of manganese and antimony in the glass of the Iulia Felix
+versus the alumina content, showing the line of mixing between the low-alumina
+antimony-decolorized glass and the high-alumina manganese-decolorized glass.
+Data of Silvestri, Molin, and Salviulo [note 11], replotted by the author.
+
+32
+
+mix.12 In addition, the fact that there is a more
+or less linear relationship with alumina shows
+that this was indeed a mixture of the two endmember glass types, rather than the result of
+adding different amounts of antimony and manganese to a single glass type.
+The preceding analysis shows that the typi­cal
+Roman green-blue glass, containing both manganese and antimony, was the result of mixing
+manganese- and antimony-decolorized glasses
+as part of a recycling process. As is seen in Figure 2, these recycled glasses can make up a significant proportion of an assemblage, but note
+that, in the Iulia Felix assemblage, substantial
+amounts of relatively pure end-member glass
+types remain. A fully efficient recycling system
+would mix the glass types completely, so that
+everything would have the same composition.
+However, this does not appear to have been the
+case in the Roman period, no doubt in part because the glass supply was frequently refreshed
+by newly made glass from the primary suppliers.
+We have been able to identify fresh glass in
+the Iulia Felix assemblage because the glass being employed in the area of embarkation (presumably Italy) was from two primary sources
+that had distinctive bulk compositions. When
+the glass used originates from a single primary
+source, such as at Bubastis in Egypt, where most
+of the glass falls into the “antimony-colorless”
+category,13 we cannot be sure that there was a
+substantial recycling process because we cannot
+detect compositional changes due to mixing.
+The distribution of compositions in Figure
+2 is informative in another way. There appears
+to be a large amount of manganese-decolorized
+glass with small amounts of antimony-decolorized glass added, suggesting that it was common
+practice to recycle manganese-decolorized glass.
+However, casual adulteration of antimonydecolorized glass appears to have been less common. This suggests that antimony-decolorized
+glass was conserved more carefully than manganese-decolorized glass. Such a practice would
+not be surprising because measurements of the
+oxidation states of iron indicate that antimony
+
+was a more effective decolorizer than manganese, and that antimony-decolorized glass was
+more oxidized.14 Furthermore, ores of antimony
+are less abundant than those of manganese, and
+we might expect the antimony-decolorized glass
+to have been more expensive in terms of raw
+materials.
+The types of glass in use and the extent of
+recycling were dependent upon location. The
+overwhelming abundance of antimony-decolor­
+ized glass on an Egyptian site such as Bubastis
+may suggest that this is a primary glass type that
+was made in Egypt, perhaps in the region of
+Alex­andria. The relatively high soda content
+(see Figure 1) also suggests that this glass type
+was made close to the Egyptian natron sources.
+This would be consistent with the price edict of
+Diocletian, which categorizes Alexandrian glass
+without any specified color, as opposed to Judaean glass, which was greenish.15 The archaeo­
+logical evidence supports the view that greenish
+glass was made in the Judaean region.16 It is like­
+ly that the bulk of the glass used in these two
+
+12. Silvestri [note 10]. “The coloured glass” uses a “recycling
+index” based only on the antimony content of the glass. I have
+used both manganese and antimony to construct what is effectively a similar index in Figure 2. In my view, both approaches
+are valid approximations, but the parameter used here does not
+require the adoption of an assumed “reference value” for antimony. It should also be noted that these measures give an estimate of the relative amounts of the two end-member types of
+glass in the mix; they are in no way an indication of the number
+of episodes of recycling.
+13. Rosenow and Rehren [note 9].
+14. Schreurs and Brill [note 6]; Arletti, Quartieri, and Freestone [note 6]. The effectiveness of antimony is probably because it forms a redox couple with iron in the melt, which buffers the oxidation state of the iron beyond the primary melting
+stage.
+15. It is debatable whether “Alexandrian” in this context is
+a generic term or refers to glass that was made in Alexandria.
+See David Whitehouse, “Glass in the Price Edict of Diocletian,”
+Journal of Glass Studies, v. 46, 2004, pp. 189–191; and Dan
+Barag, “Alexandrian and Judaean Glass in the Price Edict of
+Diocletian,” Journal of Glass Studies, v. 47, 2005, pp. 184–
+186.
+16. Robert H. Brill, “Scientific Investigations of the Jalame
+Glass and Related Finds,” in Excavations at Jalame, Site of a
+Glass Factory in Late Roman Palestine, ed. Gladys Davidson
+Weinberg, Columbia: University of Missouri Press, 1988, pp.
+257–294.
+
+33
+
+regions during the first to third centuries was
+fresh glass from nearby primary furnaces, and
+that even if extensive recycling did occur, it will
+be less apparent in the archaeological record be­
+cause the local composition will be dominant.
+The farther away from the primary glass sources
+of the eastern Mediterranean, the less frequently
+the reservoir of glass is likely to have been refreshed with recently made material, and this is
+apparent at the edge of the Roman Empire in
+Brit­ain, where fresh manganese-decolorized glass
+is uncommon and most of the Roman glass con­
+tains both antimony and manganese.17
+While the cullet from the Iulia Felix comprises
+mainly broken vessel glass, it might be expected
+that window glass removed from old buildings
+was a good source of cullet, and fragments of
+windows make up a large amount of the glass
+gathered for recycling in the Roman glass work­
+shop at Guildhall Yard in London, for example.18 Indeed, according to the price edict of
+Dio­cletian, window glass was considerably less
+expensive than fresh chunk glass,19 and given
+the labor and energy inputs needed to turn raw
+glass into sheets, this seems best explained if
+the window glass referred to is cullet, waste
+glass from broken windows being sold for recycling. Large prismatic bottles are also likely to
+
+17. E.g., Jackson [note 6]; Foster and Jackson [note 10]; I. C.
+Freestone and others, “Composition, Technology and Origin of
+the Glass,” in Glassworking on the Margins of Roman London:
+Excavations at 35 Basinghall Street, City of London, ed. Angela
+Wardle, London: Museum of London Archaeology, in press.
+18. John Shepherd, “A Gazetteer of Glass Working Sites in
+Roman London,” in Glass of the Roman World, ed. Justine
+Bayley, Ian Freestone, and Caroline Jackson, Oxford, U.K.: Oxbow Books, in press.
+19. A pound of the best window glass was priced at eight
+denarii, while a pound of (raw?) Judaean glass was priced at 13
+denarii; see note 15.
+20. Glass in Britain and Ireland, AD 350–1100, ed. Jennifer
+Price, British Museum Occasional Paper No. 127, London: Brit­
+ish Museum Press, 2000, p. 22. Vera Evison, writing in 1995,
+was able to list only 431 vessels from the whole of pagan AngloSaxon England: Vera Evison, “Glass Vessels in England, AD
+400–1100,” in ibid., pp. 47–98, esp. p. 50.
+21. Chris Wickham, Framing the Early Middle Ages: Europe
+and the Mediterranean, 400–800, Oxford, U.K, and New York:
+Oxford University Press, 2005, p. 717; Michael McCormick,
+“Movements and Markets in the First Millennium: Information,
+
+34
+
+have been useful sources of material for recycling because they probably traveled long distances as containers of commodities, and were
+thick-walled and heavy. An urban area with a
+large population would likely have been a very
+favorable environment for an efficient recycling
+economy because of the sizable quantities of
+win­dow and container glass, and a city could
+therefore have supported individuals for whom
+the collection of glass (and other recyclables,
+such as cloth and metals) was a major activity,
+as well as workshops that could receive and reuse it.
+
+Recycling in the Early Medieval Period
+The withdrawal of the Roman army from
+the western empire in the fifth century led to a
+marked reduction in the use of glass vessels,20
+and east–west trade was dramatically curtailed
+throughout the rest of the first millennium.21
+Although a substantial production of raw glass
+seems to have continued in Palestine and Egypt,22
+the quantities of fresh material that reached the
+northwest seem to have been relatively limited.
+At present, we have insufficient data to reliably
+estimate the relative amounts of vessels, beads,
+and windows made in early medieval Europe
+
+Containers, and Shipwrecks,” in Trade and Markets in Byzanti­
+um, ed. Cécile Morrisson, Washington, D.C.: Dumbarton Oaks
+Research Library and Collection, 2012, pp. 51–98.
+22. Ian C. Freestone, Yael Gorin-Rosen, and Michael J.
+Hughes, “Primary Glass from Israel and the Production of Glass
+in Late Antiquity and the Early Islamic Period,” in La Route du
+verre: Ateliers primaires et secondaires du second millénaire av.
+J.-C. au Moyen-Âge, ed. Marie-Dominique Nenna, Travaux de
+la Maison de l’Orient Méditerranéen, no. 33, Lyons: Maison de
+l’Orient Méditerranéen–Jean Pouilloux, 2000, pp. 65–84; Oren
+Tal, Ruth E. Jackson-Tal, and Ian C. Freestone, “New Evidence
+of the Production of Raw Glass at Late Byzantine ApolloniaArsuf (Israel),” Journal of Glass Studies, v. 46, 2004, pp. 51–66;
+Danièle Foy and others, “Caractérisation des verres de la fin de
+l’Antiquité en Méditerranée occidentale: L’Emergence de nouveaux courants commerciaux,” in Échanges et commerce du
+verre dans le monde antique, Actes du colloque de l’Association
+Française pour l’Archéologie du Verre, Aix-en-Provence et Mar­
+seille, 7–9 juin 2001, ed. Danièle Foy and Marie-Dominique
+Nenna, Montagnac: Éditions Monique Mergoil, 2003, pp. 41–
+85.
+
+using the diminishing reservoir of Roman glass
+from the first to third centuries, as opposed to
+those made using glass produced in the contemporaneous tank furnaces of the eastern Mediterranean.
+However, there are some clues. In France and
+Britain, a fifth-century “post-Roman” glass type
+appears, characterized by moderately high levels of magnesium, iron, and titanium and relatively high calcium. This type is also found in
+the Balkans and in Egypt, and it seems to represent a new center of production in the eastern
+Mediterranean, although its precise location is
+not yet clear.23 It appears that, in the Frankish
+and Saxon regions, this new glass type was
+wide­ly used, sometimes including a fraction of
+re­
+cycled material and sometimes adulterated
+with wood ash, possibly added as an extender,24
+but it is clear that recycled Roman glass was
+also being worked.25 Recent work at Glastonbury Abbey by Hugh Wilmott and Kate Welham
+reveals that, in the late seventh century, a highalumina, low-soda glass type was being employed—a type that best resembles the early
+Islamic products of the tank furnaces at Bet
+Eli’ezer in Israel.26 At the Jarrow monastery in
+Northumbria, a mixture of relatively fresh glass
+from Palestine and recycled Roman glass appears to have been used.27 Therefore, it seems
+that, throughout the fifth to seventh centuries,
+some fresh glass reached western Europe, but
+that there was also a tradition of recycling earlier glass.
+An apparent increase in recycling began early
+in the eighth century or possibly sometime in the
+seventh century. In Italy, as exemplified in the
+glass of the Crypta Balbi in Rome,28 there was a
+striking increase in the concentrations of colorant elements, such as lead, copper, and antimony, even in glass that was weakly tinted and
+seems to have been intended to be as colorless
+as possible. Following a detailed analysis of the
+eighth- and ninth-century window, vessel, and
+waste glass from the monastic site of San Vincenzo in Molise, Nadine Schibille and the author
+have observed that the glass there corresponds
+closely to the compositions of Roman glass of
+
+the first to third centuries, and that a substantial quantity was made by remelting Ro­man
+opaque glass. The idea that deeply colored and
+opaque mosaic tesserae could be used to make
+weakly colored glass seems counterintuitive.
+However, colors such as opaque red, yellow, and
+white would be lost when the glass was remelted, while cobalt-colored glass seems to have
+been reserved to make blue glass windows. We
+argue that, at that time, Roman build­ings were
+being stripped of their mosaics and windows,
+and that the concentration of colorant elements
+in the San Vincenzo glass reflects the use of this
+old glass, which was by then about 500 years
+old, to the exclusion of any significant amounts
+of newly produced raw glass.29 This model is
+con­sistent with the view of Michael Greenhalgh
+
+23. This glass type is referred to as “Group 2” in Foy and
+others [note 22]; as “Saxon 1” in Ian C. Freestone, Michael J.
+Hughes, and Colleen P. Stapleton, “The Composition and Production of Anglo-Saxon Glass,” in Vera I. Evison, Catalogue of
+Anglo-Saxon Glass in The British Museum, ed. Sonja Marzin­zik,
+British Museum Research Publication No. 167, London: the mu­
+­seum, and Oakville, Connecticut: David Brown Book Co., 2008,
+pp. 29–46; and as “weak HIMT” in Rosenow and Rehren [note
+9].
+24. See Freestone, Hughes, and Stapleton [note 23] for a detailed discussion of the composition of Anglo-Saxon glass vessels.
+25. James R. N. Peake, “Early Anglo-Saxon Beads: Composition and Origins, Based on the Finds from RAF Lakenheath,
+Suffolk,” Ph.D. diss., Cardiff University, 2013.
+26. Hugh Willmott and Kate Welham, “Late Seventh-Century
+Glassmaking at Glastonbury Abbey,” Journal of Glass Studies,
+v. 55, 2013, pp. 71–83. An expanded account, with analytical
+data, is forthcoming in Glastonbury Abbey: Excavations, 1904–
+1979, ed. R. Gilchrist and C. Green, Society of Antiquaries
+Monograph, London: the society.
+27. I. C. Freestone and M. J. Hughes, “Origins of the Jarrow
+Glass,” in Rosemary Cramp, Wearmouth and Jarrow Monastic
+Sites, v. 2, Swindon, U.K.: English Heritage, 2006, pp. 147–155.
+28. Mirti and others [note 4]; Ian C. Freestone and Fran­
+cesca Dell’Acqua, “Early Medieval Glass from Brescia, Cividale
+and Salerno, Italy: Composition and Affinities,” in Il vetro nel­
+l’Alto Medioevo, Atti delle VIII Giornate Nazionali di Studio,
+ed. Daniela Ferrari, Imola (Bologna): La Mandragora, 2005, pp.
+65–75; Alberta Silvestri and Alessandra Marcante, “The Glass
+of Nogara (Verona): A “Window” on Production Technology of
+Mid-Medieval Times in Northern Italy,” Journal of Archaeolog­
+ical Science, v. 38, no. 10, October 2011, pp. 2509–2522.
+29. Nadine Schibille and Ian C. Freestone, “Composition,
+Production and Procurement of Glass at San Vincenzo al Vol­
+turno: An Early Medieval Monastic Complex in Southern Italy,”
+PloS One, v. 8, no. 10, October 2013, online at www.plosone
+.org (accessed February 23, 2015).
+
+35
+
+FIG. 3. Copper and lead contents of glass from Anglo-Saxon Hamwic,
+compared with the composition of second-century Roman glass from London.
+Much of the Roman glass incorporates some recycled material, but the
+levels of the colorant elements are much higher in the Anglo-Saxon glass,
+implying more intensive recycling and the remelting of strongly colored glass.
+Hamwic data replotted from Hunter and Heyworth [note 31].
+
+that the use of stone spolia from Roman buildings in the northwest during the early medieval
+period was the result of communication with
+the Islamic world as much as with Byzantium.30
+We might expect that, as Roman buildings were
+stripped of their stone for use as spolia, their
+window and mosaic glass would also have been
+collected because they represented valuable craft
+materials.
+Evidence for the practice of remelting Roman
+tesserae as a source of glass material, as opposed
+to color, is found as far away as Anglo-Saxon
+Hamwic (modern Southampton), where, in the
+ninth–10th centuries, all vessels show colorant
+elements significantly elevated over those encountered in Roman transparent glass and frequently approaching the concentrations found
+in opaque glasses from mosaics (Fig. 3).31 The
+number of Roman buildings that would have
+had extensive glass mosaics in Britannia is likely
+to have been small, and this evidence from the
+36
+
+northwest implies a long-distance trade in old
+tesserae.
+
+Medieval Colors
+Although I have been discussing the remelting and recycling of Roman glass as a basic raw
+material, it should not be forgotten that until
+the late 12th century, Roman glass was widely
+reused as a source of color. During the 12th century in particular, blue tesserae were mixed with
+
+30. Michael Greenhalgh, Marble Past, Monumental Present:
+Building with Antiquities in the Mediaeval Mediterranean, Medieval Mediterranean, v. 80, Leiden, the Netherlands, and Boston: Brill, 2009.
+31. The data in Figure 3 for Hamwic are taken from J. R.
+Hunter and M. P. Heyworth, The Hamwic Glass, Research Report No. 116, York, U.K.: Council for British Archaeology,
+1998; data for glass from Roman London are from Freestone
+and others [note 17].
+
+contemporaneous potash-lime-silica glass to
+pro­duce blue stained glass windows because, at
+that time, European sources of cobalt were not
+being exploited. The exceptionally high soda
+content of some of the blue window glass of that
+period, as opposed to the high potash of other
+window glass colors, has been recognized for
+some time, and the reuse of Roman material has
+been suspected, but it has been noted that the
+compositions are similar to those of Near Eastern soda plant-ash glass, so these compositions
+may indicate recently made and imported glass
+from the south.32 However, Roman cobalt blue
+tesserae frequently contain antimony, which
+was added as an opacifier, while tin oxide performed this role from the fourth century. The
+presence of elevated levels of antimony in 12thcentury blue window glass is therefore also an
+indication of the reuse of Roman material.33 In
+recent analyses of glass from York Minster and
+S. Denis, we have been able to show that the
+blue window glasses fall on mixing lines between Roman tesserae and colorless glass from
+the same windows, confirming the use of Roman glass.34
+The practice of adding blue mosaic tesserae
+to contemporaneous white (colorless) glass to
+make window glass was outlined by Theophilus,
+who also indicated that tesserae of a range of
+colors were used to enamel metalwork:
+Different kinds of glass, namely, white, black,
+green, yellow, blue, red, and purple, are found
+in mosaic work in ancient pagan buildings.
+These are not transparent but are opaque like
+marble, like little square stones, and enamel
+work is made from them on gold, silver, and
+copper. . . . There are also found various small
+vessels in the same colors, which are collected
+by the French, who are most skilled in this work.
+They even melt the blue in their furnaces, adding a little of the clear white to it, and they make
+from it blue glass sheets which are costly and
+very useful in windows.35
+
+Twelfth-century enameled metalwork (Fig. 4)
+has been analyzed in a number of studies, demonstrating that the compositions of the opaque
+
+FIG. 4. Gilded and champlevé enameled plaque from
+an altar retable, showing Samson carrying away the
+Gates of Gaza, 1170–1180. W. 10.8 cm. The British
+Museum, reg. no. 1888,1110.2. (Photo: © The Trust­
+ees of The British Museum)
+
+blue, green, yellow, and white glasses correspond very closely to those of Roman opaque
+glass, in that they comprise opacifiers based on
+antimony in a matrix of low-magnesia or natron
+soda-lime-silica glass. This has been interpreted
+
+32. G. A. Cox and K. J. S. Gillies, “The X-Ray Fluorescence
+Analysis of Medieval Durable Blue Soda Glass from York Minster,” Archaeometry, v. 28, pt. 1, February 1986, pp. 57–68;
+Bruce Velde, “Les Vitraux bleus et sodiques du XII siècle,” Bul­
+letin de l’Association Française pour l’Archéologie du Verre,
+2004, pp. 25–27.
+33. Bernard Gratuze and others, “The Origin of Cobalt Blue
+Pigments in French Glass from the Thirteenth to the Eighteenth
+Centuries,” in Trade and Discovery: The Scientific Study of Arte­
+facts from Post-Medieval Europe and Beyond, ed. Duncan R.
+Hook and David R. M. Gaimster, British Museum Occasional
+Paper 109, London: the museum, 1995, pp. 123–133.
+34. Jerzy Kunicki-Goldfinger and others, “Problematyka ba­
+dań witraży średniowiecznych,” Archeologia Polski, v. 59, nos.
+1/2, 2014, pp. 39–70.
+35. Theophilus, On Divers Arts: The Foremost Medieval Trea­
+tise on Painting, Glassmaking and Metalwork, trans. John G.
+Hawthorne and Cyril Stanley Smith, New York: Dover Publications, 1979, p. 59.
+
+37
+
+FIG. 5. Compositions of Limoges
+champlevé enameled glasses versus
+the median of the date range sug­
+gested for each catalog entry. Note
+the change in the opacifier, concor­
+dant with the change in the glass
+flux from early natron-based and
+antimony-opacified glasses to late
+tin-opacified plant-ash glasses. At
+the time of the change, around
+1200, the two types of glass were
+mixed. For data for objects from
+The Metropolitan Museum of Art,
+see Biron, Dandridge, and Wypyski
+[note 36].
+
+as confirmation of the account of Theophilus.36
+Of particular interest are the opaque red enamels, which in northern European enamels are
+frequently of the potash-lime-silica type charac­
+teristic of most vessel and window glass of the
+period.37 Opaque red colors, based on the generation of minute particles of copper, did not
+require access to rare cobalt- and antimonycontaining minerals, and they appear to have
+been one of the earliest glass colors made in the
+northwest that did not require access to Roman
+material. This employment of contemporaneous
+red suggests that the use of the Roman material
+for the other colors was primarily in response to
+the lack of appropriate pigments allowing the
+manufacture of these colors in the region.
+A detailed study, by the Louvre and The
+Metropolitan Museum of Art, of enamels made
+in Limoges, France, in the 12th and 13th centuries shows quite clearly when the practice of remelting Roman glass to make enamel ceased.38
+Figure 5 presents some of the data showing the
+potassium oxide contents of the glass versus the
+median of the date range attributed to each object on art-historical grounds. Up to about the
+year 1190, all of the glasses analyzed are lowpotash natron glass, typically Roman. Following
+38
+
+this, there is a period, of indeterminate length
+but no more than a few decades, when analyzed
+glasses are mixtures of tin-opacified plant-ash
+glass with Roman types, and from about 1230,
+virtually all of the glass is contemporaneous tinopacified soda plant-ash glass, probably imported from the Mediterranean. It seems prob­able
+
+36. Ian C. Freestone, “Theophilus and the Composition of
+Medieval Glass,” in Materials Issues in Art and Archaeology
+III, symposium proceedings, v. 267, ed. Pamela B. Vandiver,
+Pittsburgh: Materials Research Society, 1992, pp. 739–745;
+idem, “Appendix: Compositions and Origins of Glasses from
+Romanesque Champlevé Enamels,” in Neil Stratford, Cata­
+logue of Medieval Enamels in the British Museum, v. 2, North­
+ern Romanesque Enamel, London: British Museum Press, 1993,
+pp. 37–45; Pete Dandridge and Mark T. Wypyski, “Preliminary
+Technical Study of Medieval Limoges Enamels,” in Materials
+Issues in Art and Archaeology III (see above), pp. 817–826;
+Isabelle Biron, Pete Dandridge, and Mark T. Wypyski, “Techniques and Materials in Limoges Enamels,” in Enamels of Li­
+moges, 1100–1350, ed. John P. O’Neill, New York: The Metropolitan Museum of Art, 1996, pp. 48–62. For reservations, see
+Isabelle Biron and Sébastien Beauchoux, “Ion Beam Analysis of
+Mosan Enamels,” Measurement Science and Technology, v. 14,
+no. 9, September 2003, pp. 1564–1578.
+37. Freestone, “Appendix” [note 36]; Isabelle Biron, Dominique Morel, and Thierry Borel, “Les Triptyques Reliquaires
+Dutuit: De l’oeil du connaisseur à l’examen en laboratoire. Histoire d’une réhabilitation,” Techne, v. 8, 1998, pp. 97–106.
+38. Biron, Dandridge, and Wypyski [note 36].
+
+that we are seeing a form of import substitution
+at this point, when medieval colored and opaque
+glasses became more readily available and were
+perhaps less expensive than old Roman glass.
+This is likely to have been driven in part by the
+expansion of the enameling industry in Limoges
+and the demand for more material. The newly
+made glass is also likely to have been more consistent in composition than scavenged tesserae
+and vessels. Theophilus describes in some detail
+how the tesserae to be used had to be tested (to
+exclude tesserae made of ceramic or stone) and
+cleaned, probably to remove mortar and weathering products.39 Freshly made glass would have
+been very desirable.
+It is noteworthy that the change from the use
+of Roman tesserae to freshly made glass in
+enameling occurred at about the same time (in
+the years around 1200) that the use of Roman
+tesserae to color medieval window glass ceased.
+Presumably, the supply of old opaque colored
+glass would have been difficult to sustain, particularly as demand in northwestern Europe
+grew.
+Not only colored and opaque Roman glass
+was reused in late medieval times. The late 12thcentury head reliquary of Saint Eustace (Fig. 6),
+for example, contains colorless cabochons that
+appear to be Roman glass40 and may reflect the
+procedure outlined in the text ascribed to Era­
+cli­us, whereby molten Roman glass was pressed
+into a clay mold to make “beautiful shining
+gems.”41
+
+Conclusion
+
+FIG. 6. Late 12th-century head reliquary of Saint
+Eustace from Basel Cathedral. The gilded silver head
+is supported internally by a wooden core that con­
+tains a compartment for relics. The band around the
+head contains gems, five of which are Roman glass,
+including a glass imitation nicolo; colorless cabo­
+chons made from Roman glass are also present in
+the plinth. H. 35.0 cm. The British Museum, reg. no.
+1850,1127.1. (Photo: © The Trustees of The British
+Museum)
+
+In the post-medieval world, Roman glass has
+been sought for its Roman character, rather than
+as a raw material. Glass intaglios became valued and collected for symbolic reasons, rather
+
+than for utilitarian purposes. The Corning Museum’s mosaic glass tabletop attributed to the
+19th-century Vatican craftsman Giovanni Rossignani, which includes an inlay cut from several hundred types of Hellenistic and Roman
+glass, is an exceptionally impressive example of
+
+39. Theophilus 3:54: see note 35, p. 126.
+40. L. Joyner, I. Freestone, and J. Robinson, “Crowning
+Glory: The Identification of Gems on the Head Reliquary of St
+Eustace from the Basle Cathedral Treasury,” Journal of Gem­
+mology, v. 30, nos. 3/4, 2006, pp. 169–182.
+41. Eraclius, “Of the Gems Which You Wish to Make from
+Roman Glass,” in On the Colours and Arts of the Romans, bk.
+
+14, in Mrs. Merrifield, Medieval and Renaissance Treatises on
+the Arts of Painting: Original Texts with English Translations,
+London: John Murray, 1849, p. 196; online at https://books
+.google.co.uk/books?id=2xgGAAAAQAAJ&printsec=front
+cover&dq=Mrs+Merrifield&hl=en&sa=X&ei=-FHnVJH_JIvl
+UpnZg4gO&ved=0CC0Q6AEwAg#v=onepage&q=Mrs%20
+Merrifield&f=false (accessed February 23, 2015).
+
+39
+
+FIG. 7. Mosaic glass tabletop, made with transpar­
+ent to opaque multicolored glass pieces obtained
+from classical mosaic glass bowls. Italy, Rome, Vati­
+can Mosaic Workshop, attributed to Giovanni Ros­
+signani, probably made by Francesco Sibilio, about
+1866. D. 76 cm. The Corning Museum of Glass
+(97.3.10).
+
+the exploitation, in the modern period, of the
+high technical achievements of the Roman glass
+industry (Fig. 7). An interesting variant in this
+behavior can be seen today, when we have a
+thriving industry in so-called ancient Roman
+glass jewelry, in which pieces of weathered iridescent Roman glass are mounted in silver and
+sold for not inconsiderable sums of money on
+the Internet. Much of this material is based on
+glass said to have been recovered from archaeological sites in Israel, which was a hub of glass
+production in Roman times. An element of the
+appeal of this material is that it is believed to be
+old; however, its appearance gives no indication
+
+40
+
+of its cultural origins and could easily be faked.
+The belief that the wearer has something ancient
+is presumably enough to confer importance on
+the material.
+Glass employed in the manufacture of windows and mosaics in the first to third centuries
+appears to have been an important resource for
+later generations, and it is remarkable that the
+recycling of old Roman material made a significant and sometimes very substantial contribution to the northern European glass industry
+from the eighth to 12th centuries. The fact that
+it is still being exploited for commercial purposes, in the form of jewelry production, is even
+more remarkable, and a reflection of the vast
+quantities that must have been made at the
+height of the Roman period.
+This article has presented an outline of the
+recycling of Roman glass, as understood through
+its chemistry. There is still much to learn, particularly in terms of the different social and com­
+mercial processes through which recycling was
+promoted, the types of environment in which it
+thrived, and the efficiency of the recycling proc­
+ess. Even so, it appears that recycling was ubiquitous and that old glass was exploited in every
+possible way.
+In writing this, I have been inspired by the
+work of David Whitehouse, who was able to
+move from the particular to the big picture in
+such an elegant and seamless way. I doubt I have
+come anywhere near to producing a piece of
+work that approaches his high scholarly standard. But I know that, however it has turned
+out, David would have discussed it with the kind
+and generous interest that he always showed
+when dealing with the contributions of others.
+As both a scholar and a person, David set the
+bar high, and he has left something to which all
+of us can aspire.
+
+
