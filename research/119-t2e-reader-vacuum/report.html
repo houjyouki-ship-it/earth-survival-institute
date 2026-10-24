@@ -1,0 +1,156 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究119：T2e と読み取り装置に封じた真空の器具が要るか（open_problems 280） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="119t2e-open_problems-280">研究119：T2e と読み取り装置に封じた真空の器具が要るか（open_problems 280）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・p_vac は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-25（第119回、JST 3時台）。sim.py（約309秒。118 の p_vac と表を差 0 で再現の assert。実行は 1 回）、results.json、stdout.txt、fig_reader_vac.png、PREREGISTRATION.md（03:38 JST、資料を開く前・sim.py の前）、sources/（Wikipedia の raw 8 頁、SHA256SUMS、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>118 は p_vac を白熱電球の製法で置いた。しかし 024 の読取装置は「光電読取＋真空管の論理」。光源だけなら真空は要らない。読み取りの論理と光電素子に真空管が要るなら、電球より厳しい真空と陰極が要る。真空のない経路（アーク灯＋光導電セル＋継電器）で Piql の機械読み層（1 リール 120 GB、1 コマ 8.8M 点・2 MB、018）を読めるか。</p>
+<h2 id="_2">資料（開いて確かめたもの）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Z3_(computer)">Wikipedia: Z3</a>）】継電器 2,600 個、22 ビット語、クロック約 5–10 Hz。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Harvard_Mark_I">Wikipedia: Harvard Mark I</a>）】1 秒に 3 回の加算、乗算 6 秒。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Colossus_computer">Wikipedia: Colossus computer</a>）】8 つの photocell による光電のテープ読み取り、5,000 字/秒に決めた（試験で 9,700 字/秒でテープが壊れた）、5 並列で実効 25,000 字/秒。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Vacuum_tube">Wikipedia: Vacuum tube</a>）】de Forest は Geissler の水銀ポンプで部分の真空しか得ず「hard vacuum」でなかった（青い光）。Arnold（AT&amp;T）が高真空の管を作り、Langmuir（GE）が Gaede の拡散ポンプを改良、GE は 1915 年に hard vacuum の三極管を作った。拡散ポンプ（1915）が高真空の管を可能にした。今の管は barium の getter を使う。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Photoresistor">Wikipedia: Photoresistor</a>）】光導電セルは光への応答に約 10 ms、暗への戻りは最大 1 秒の遅れ。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Arc_lamp">Wikipedia: Arc lamp</a>）】炭素のアーク灯は棒が空気中（"carbon rods in free air"）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Getter">Wikipedia: Getter</a>）】管の flash getter は主に barium、排気の後に加熱して働かせる。Relay の記事は動作の時間の数値に使わなかった。</li>
+</ul>
+<h2 id="h131g">部品ごとの表（H131g、記述）</h2>
+<table>
+<thead>
+<tr>
+<th>部品</th>
+<th>真空なしの経路</th>
+<th>真空の経路</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>光源</td>
+<td>アーク灯（空気中）、日光</td>
+<td>白熱電球（118）</td>
+</tr>
+<tr>
+<td>光電素子</td>
+<td>光導電セル（約 10 ms）</td>
+<td>光電管</td>
+</tr>
+<tr>
+<td>論理</td>
+<td>継電器（5–10 Hz）</td>
+<td>高真空の管（Colossus 5,000 字/秒）</td>
+</tr>
+<tr>
+<td>真空の作り</td>
+<td>—</td>
+<td>水銀ポンプでは部分の真空、高真空は拡散ポンプ（1915）と getter</td>
+</tr>
+</tbody>
+</table>
+<h2 id="11-1">結果1：読み取りの速度（1 点の判定を 1 回の動作とした【推測】）</h2>
+<p>1 リールは 5.28×10¹¹ 点。1 チャンネル 1 台で読む年数は、継電器 10 Hz で <strong>1,673 年</strong>（5 Hz で 3,346 年、Mark I の速さで 5,577 年）、光導電セルの上限 100 点/秒で 167 年、Colossus の 5,000 字/秒で <strong>3.35 年</strong>。
+ところが<strong>並列にすると話が変わる</strong>。20 年で 1 リールを読むには、継電器 10 Hz で 84 チャンネル、1 チャンネルに継電器 20〜100 個【推測】なら <strong>1,700〜8,400 個</strong>（Z3 は 2,600 個）。5 Hz でも 3,300〜17,000 個。024 の非圧縮の割合 q=0.3（36 GB）なら 1 チャンネルでも 502 年、並列 25 で 20 年。優先データ 10 MB は継電器 1 チャンネルで 0.14 年。</p>
+<p><strong>新しく分かったこと</strong>：真空の器具は機械読み層を読むのに<strong>必須ではない</strong>。継電器の速さは管の約 1/500 だが、読み取りは点ごとに独立で並列にでき、Z3 の数倍の継電器で 1 リールを数十年で読める。真空管が要るのは、読む時間を数年に縮めたい場合か、圧縮（XZ）の展開のように直列の計算が要る場合（018 のメモリの壁で、どちらにしても大半は読めない）。</p>
+<h2 id="2f_heavyp_prec117-0456-p_vac">結果2：F_heavy（p_prec＝117 の主 0.456 に p_vac を掛けた。部品の確率はすべて【推測】）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>p_vac</th>
+<th>遅い κ</th>
+<th>混合</th>
+<th>速い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>118 の主（電球、再現）</td>
+<td>0.570</td>
+<td>1.421</td>
+<td>1.097</td>
+<td>1.018</td>
+</tr>
+<tr>
+<td>真空なし・確率 1（上限）</td>
+<td>1.000</td>
+<td>1.701</td>
+<td>1.159</td>
+<td>1.019</td>
+</tr>
+<tr>
+<td>継電器の経路だけ（0.8）</td>
+<td>0.800</td>
+<td>1.571</td>
+<td>1.126</td>
+<td>1.017</td>
+</tr>
+<tr>
+<td>真空管の経路だけ（主）</td>
+<td>0.235</td>
+<td>1.213</td>
+<td>1.052</td>
+<td>1.012</td>
+</tr>
+<tr>
+<td>真空管、水銀 0.2／0.8</td>
+<td>0.122／0.349</td>
+<td>1.148／1.292</td>
+<td>1.033／1.063</td>
+<td>—</td>
+</tr>
+<tr>
+<td>真空管、全部の下側／上側</td>
+<td>0.009／0.706</td>
+<td>1.081／1.512</td>
+<td>1.021／1.117</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>どちらかの経路（主、継電器 0.8）</strong></td>
+<td><strong>0.847</strong></td>
+<td><strong>1.597</strong></td>
+<td><strong>1.134</strong></td>
+<td>1.019</td>
+</tr>
+<tr>
+<td>どちらか、継電器 0.5／0.2</td>
+<td>0.618／0.388</td>
+<td>1.448／1.314</td>
+<td>1.107／1.075</td>
+<td>—</td>
+</tr>
+<tr>
+<td>（118 の主の再現は 1.428 に対し 1.421。run の乱数が新しいためで、差は assert の許容 0.02 内。）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>真空管の経路の p_vac は 118 の排気・封じ・ガラスに高真空（水銀のポンプで 0.8、機械のポンプ＋燐で 0.2）・陰極 0.8・getter 0.8 を掛けた。主の判断として、読取装置が真空管でも継電器でもよいとする「どちらか」の版を採り、遅い κ の F_heavy を <strong>1.43→1.60</strong> に戻す。</p>
+<h2 id="_3">批判的検討</h2>
+<ol>
+<li><strong>「点ごとに独立で並列にできる」は楽観</strong>。QR の位置合わせ、灰色の画素の判別（018 で約 1.8 ビット/点）、誤り訂正の復号は点ごとの 1 回の動作では済まない。1 チャンネルの部品数 C=20〜100 は推測で、C が 10 倍なら継電器は 1.7〜8.4 万個になる。</li>
+<li><strong>出力の行き先を数えていない</strong>。読んだビットを紙や穿孔テープに書く速さ（印字の機械）は入れていない。36 GB を人が使える形にするのは、どちらの経路でも縛りになりうる【推測】。</li>
+<li><strong>継電器の経路の確率 0.8 は推測</strong>。接点の材料（銀など）・ばね・数千個の巻線の銅、接点の寿命は調べていない。数千個を何十年も動かす保守は Z3・Mark I の運用の年数を超える。</li>
+<li>光導電セルの遅れは記事の一般の値で、セレンを名指ししない。暗への戻り 1 秒が効くなら 1 チャンネルは 1 点/秒まで落ち、並列の数は 100 倍になる。</li>
+<li>ガスを詰めた冷陰極の管（Vacuum tube の記事は hard vacuum でない管として挙げる）は高真空が要らない第 3 の経路だが、希ガスの入手が要り、調べていない。</li>
+<li>H131a〜d は筆者の事前の知識と重なり、独立な検証としては弱い。</li>
+</ol>
+<h2 id="_4">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H131a（確認的）：<strong>支持</strong>（Z3 5–10 Hz、Mark I 3 加算/秒）。</li>
+<li>H131b（確認的）：<strong>支持</strong>（5,000 字/秒）。</li>
+<li>H131c（確認的）：<strong>支持</strong>（Geissler のポンプでは hard vacuum でなく、Arnold・Langmuir と拡散ポンプ 1915）。</li>
+<li>H131d（確認的）：<strong>支持</strong>（約 10 ms。ただしセレンでなく光導電セル一般）。</li>
+<li>H131e（予測）：<strong>数の規則は支持</strong>（管 3.35 年 &lt; 20、継電器 1,673 年 &gt; 500）、<strong>しかし結論「真空のない経路は足りない」は棄却</strong>。1 チャンネルを前提にした登録の誤りで、並列で覆る。</li>
+<li>H131f（予測）：<strong>棄却</strong>（p_vac 0.235 は 0.25 を下回る。F_heavy 1.213 は範囲内）。</li>
+<li>H131g（記述）：部品の表。</li>
+</ul>
+<h2 id="_5">逸脱</h2>
+<p>並列の計算（チャンネル数・部品数、C=20〜100）と「どちらかの経路」の版は登録に書いていない。資料を読んだ後・sim.py の前に加えた。主の版を「どちらか」にしたのもその時点の判断。</p>
+<h2 id="_6">新規性</h2>
+<p>既存の再建の議論（Dartnell など）は読み取りに計算機が要るとは言うが、Piql の点の数から継電器と真空管の読み取りの年数を比べ、並列なら真空なしで読めることを数で示した例は見つけていない【推測：網羅的な確認はしていない】。</p>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は T2e の p_vac の主を電球の 0.57 から「継電器か真空管のどちらか」の 0.85 に置き直し、遅い κ の F_heavy の主を 1.43→1.60（版 1.08〜1.70）とする。読取装置の手引きを書く人（024 の手引き）は、真空管の回路だけでなく、光導電セル＋継電器の並列の読み取り回路を並べて書く方が、水銀や高真空のない群でも読める【独自仮説】。Piql など媒体の作り手は、点ごとに独立に読める非圧縮の書式を優先データに使うと、遅い部品でも並列で読める（018・024 と同じ向き）【独自仮説】。</p><footer><hr><small>自動生成</small></footer></body></html>
