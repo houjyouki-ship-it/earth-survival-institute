@@ -1,0 +1,16 @@
+{
+ "loss_cases": {
+  "Inughuit_boats": {"source": "https://en.wikipedia.org/wiki/Inughuit", "quote": "Around the 17th century, climate change cooled the northwest areas of Greenland, which cut off the Inughuit from other Inuit and regions. ... Around this period, the Inughuit also lost the knowledge to build kayaks or umiaks", "quote2": "first contacted by Europeans in 1818", "quote3": "During the mid-19th century, Inuit from Baffin ... reintroduced some technologies lost to the Inughuit such as boats, leisters, and bows and arrows", "pop": "Before 1880 ... between 100 and 200 people", "start": [1600, 1700], "loss_by": 1818, "cause": "isolation/small population (climate)"},
+  "Inughuit_bows_leisters": {"source": "https://en.wikipedia.org/wiki/Inughuit", "start": [1600, 1700], "loss_by": [1840, 1870], "note": "lost before reintroduction in mid-19th century; loss date not given", "cause": "isolation/small population"},
+  "Tonga_pottery": {"source": "https://en.wikipedia.org/wiki/History_of_Tonga", "quote": "settled there around 3000 years ago", "quote2": "3180 ± 100 BP", "quote3": "By 1550 BP (400 AD), they ceased to produce any pottery at all.", "quote4": "Speculations ... coconut cups ... underground ovens ... unsuitability of Tongan clays", "start_BP": [2900, 3280], "end_BP": 1550, "cause": "demand substitution / raw material (not population collapse)"},
+  "EasterIsland_seaworthy_vessels": {"source": "https://en.wikipedia.org/wiki/Easter_Island", "quote": "a 2007 study provided compelling evidence suggesting their arrival was closer to 1200", "quote2": "Loss of large trees meant that residents were no longer able to build seaworthy vessels", "quote3": "disappearance of the island's trees seems to coincide with a decline ... around the 17th and 18th centuries", "start": [1150, 1250], "end": [1600, 1800], "cause": "resource (timber) loss, not skill"},
+  "Andaman_fire_making": {"source": "https://en.wikipedia.org/wiki/Andamanese_peoples", "quote": "The Andamanese knew of no method for making fire in the nineteenth century.", "quote2": "settled ... around 26,000 years ago", "note": "not known whether ever had it; undated; sensitivity only", "cause": "unknown"}
+ },
+ "persistence_cases_descriptive": {
+  "Inughuit_sleds": "taught the Baffin Inuit a more advanced form of sled technology (Inughuit page)",
+  "Sentinelese_canoes": "five in two canoes (Sentinelese page); isolation thousands of years (Andamanese page)",
+  "Pitcairn_literacy_1790_1808": "105 cases.json",
+  "Tristan_1909_1919": "105 cases.json",
+  "Greenland_Norse_bog_iron": "105 cases.json"
+ }
+}

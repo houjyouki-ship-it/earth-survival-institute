@@ -1,0 +1,25 @@
+check_109 0.0
+Inughuit_boats fast [0.00232, 0.01456, 0.14835] P_slow 0.198
+Inughuit_bows_leisters fast [0.0019, 0.01184, 0.12039] P_slow 0.252
+Tonga_pottery slow [0.00013, 0.00078, 0.00145] P_slow 1.0
+EasterIsland_seaworthy_vessels slow [0.00041, 0.00239, 0.00467] P_slow 1.0
+Andaman_fire_making slow [1e-05, 9e-05, 0.00055] P_slow 1.0
+Tasmania_108 slow [5e-05, 0.0003, 0.00056] P_slow 1.0
+Britain_coin fast [0.00859, 0.04993, 0.09964] P_slow 0.025
+Britain_wheel_pottery fast [0.00863, 0.04996, 0.11693] P_slow 0.025
+Greece_LinearB fast [0.00363, 0.02181, 0.09392] P_slow 0.113
+Greece_monumental_stone fast [0.00362, 0.02176, 0.09345] P_slow 0.114
+V_main_isolates_plus_state n 8 slow 3 w [0.149, 0.38, 0.658] F_reg 2.1058 drop_reg 0.339 F_emp 1.6963 drop_emp 0.239
+V_isolates_only n 4 slow 3 w [0.348, 0.727, 0.954] F_reg 2.9823 drop_reg 0.576 F_emp 2.3778 drop_emp 0.436
+V_isolation_cause_only n 2 slow 1 w [0.097, 0.501, 0.902] F_reg 2.4409 drop_reg 0.427 F_emp 2.457 drop_emp 0.445
+V_isolation_cause_plus_state n 6 slow 1 w [0.03, 0.186, 0.495] F_reg 1.6254 drop_reg 0.206 F_emp 1.5114 drop_emp 0.178
+V_episode_split_inughuit n 9 slow 3 w [0.131, 0.34, 0.605] F_reg 2.0176 drop_reg 0.313 F_emp 1.6333 drop_emp 0.225
+V_plus_andaman n 9 slow 4 w [0.209, 0.446, 0.703] F_reg 2.2979 drop_reg 0.387 F_emp 1.986 drop_emp 0.316
+point_w V_main_isolates_plus_state 2.098
+point_w V_isolation_cause_only 2.4241
+H122a confirmatory True {"T_loss_q": [8.060577287942131, 81.34379676384552, 173.15346053719995], "P_T_le_100": 0.61534, "kappa_median": 0.01456001561107219}
+H122b confirmatory False {"Inughuit_boats": "fast", "Tonga_pottery": "slow", "EasterIsland_seaworthy_vessels": "slow"}
+H122c prediction False [0.14868912309695764, 0.37974704989679053, 0.6578622278943042]
+H122d prediction False 2.105810517566462
+H122e descriptive None {"Inughuit_boats": "isolation", "Inughuit_bows_leisters": "isolation", "Tonga_pottery": "demand/material", "EasterIsland_seaworthy_vessels": "resource", "Andama
+runtime 72.0

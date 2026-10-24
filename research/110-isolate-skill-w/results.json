@@ -1,0 +1,538 @@
+{
+ "study": "110-isolate-skill-w",
+ "seed": 20261110,
+ "check_109_runs_reproduced_maxdiff": 0.0,
+ "cases": {
+  "Inughuit_boats": {
+   "kappa_q": [
+    0.0023169048304260277,
+    0.01456001561107219,
+    0.14834754562007904
+   ],
+   "T_loss_q": [
+    8.060577287942131,
+    81.34379676384552,
+    173.15346053719995
+   ],
+   "type": "fast",
+   "P_kappa_le_slow": 0.197965
+  },
+  "Inughuit_bows_leisters": {
+   "kappa_q": [
+    0.0019042266784480833,
+    0.011840545512407073,
+    0.12039223107066148
+   ],
+   "T_loss_q": [
+    10.044358893620172,
+    100.22793780460017,
+    206.93378666756206
+   ],
+   "type": "fast",
+   "P_kappa_le_slow": 0.251715
+  },
+  "Tonga_pottery": {
+   "kappa_q": [
+    0.00013322935105163392,
+    0.0007786776730381556,
+    0.0014493696723269537
+   ],
+   "T_loss_q": [
+    1368.849179282805,
+    1539.1195285637282,
+    1710.8114955754304
+   ],
+   "type": "slow",
+   "P_kappa_le_slow": 1.0
+  },
+  "EasterIsland_seaworthy_vessels": {
+   "kappa_q": [
+    0.00041153626293691535,
+    0.0023945575350811767,
+    0.004667887229436435
+   ],
+   "T_loss_q": [
+    394.652224797258,
+    500.04261298383176,
+    605.5377997892433
+   ],
+   "type": "slow",
+   "P_kappa_le_slow": 0.99989
+  },
+  "Andaman_fire_making": {
+   "kappa_q": [
+    1.4772420769419045e-05,
+    8.866267889474303e-05,
+    0.000552520500878532
+   ],
+   "T_loss_q": [
+    2256.72219799946,
+    13544.224780833896,
+    24742.657923867053
+   ],
+   "type": "slow",
+   "P_kappa_le_slow": 1.0
+  },
+  "Tasmania_108": {
+   "kappa_q": [
+    5.118861210359033e-05,
+    0.000299871421269438,
+    0.0005574915987172028
+   ],
+   "T_loss_q": null,
+   "type": "slow",
+   "P_kappa_le_slow": 1.0
+  },
+  "Britain_coin": {
+   "kappa_q": [
+    0.008594284398640987,
+    0.04993139430178627,
+    0.09964413598899477
+   ],
+   "T_loss_q": null,
+   "type": "fast",
+   "P_kappa_le_slow": 0.025095
+  },
+  "Britain_wheel_pottery": {
+   "kappa_q": [
+    0.008626430230910307,
+    0.04996454817199158,
+    0.11692524290090375
+   ],
+   "T_loss_q": null,
+   "type": "fast",
+   "P_kappa_le_slow": 0.025065
+  },
+  "Greece_LinearB": {
+   "kappa_q": [
+    0.0036345777085816694,
+    0.021805451712555646,
+    0.09391607041502112
+   ],
+   "T_loss_q": null,
+   "type": "fast",
+   "P_kappa_le_slow": 0.113485
+  },
+  "Greece_monumental_stone": {
+   "kappa_q": [
+    0.0036156223603368656,
+    0.02176496896013376,
+    0.09345182476871976
+   ],
+   "T_loss_q": null,
+   "type": "fast",
+   "P_kappa_le_slow": 0.11425
+  }
+ },
+ "versions": {
+  "V_main_isolates_plus_state": {
+   "n": 8,
+   "slow": 3,
+   "w_post_q": [
+    0.14868912309695764,
+    0.37974704989679053,
+    0.6578622278943042
+   ],
+   "registered_mix": {
+    "F_heavy": 2.105810517566462,
+    "F_total": 1.400934312155385,
+    "U3_heavy_rel_drop": 0.33875625652659247,
+    "kappa_q": [
+     9.516512002301292e-05,
+     0.012752098027483432,
+     0.09207885738751546
+    ]
+   },
+   "empirical_pool": {
+    "F_heavy": 1.69627051306137,
+    "F_total": 1.2524471731763567,
+    "U3_heavy_rel_drop": 0.2386158222606315,
+    "kappa_q": [
+     0.00019464455559380005,
+     0.011113245759797242,
+     0.09258133602176927
+    ]
+   },
+   "point_w": {
+    "F_heavy": 2.097986616116238,
+    "F_total": 1.3980975960123514,
+    "U3_heavy_rel_drop": 0.33426236001584386,
+    "kappa_q": [
+     9.579780587326628e-05,
+     0.01335006958287362,
+     0.09239575098828669
+    ]
+   }
+  },
+  "V_isolates_only": {
+   "n": 4,
+   "slow": 3,
+   "w_post_q": [
+    0.3481450607257137,
+    0.727378941921145,
+    0.9541700937400306
+   ],
+   "registered_mix": {
+    "F_heavy": 2.98227909777042,
+    "F_total": 1.718715995135951,
+    "U3_heavy_rel_drop": 0.5760181484282165,
+    "kappa_q": [
+     6.345087267456809e-05,
+     0.0004195578004577735,
+     0.07359511633278809
+    ]
+   },
+   "empirical_pool": {
+    "F_heavy": 2.377841243948855,
+    "F_total": 1.4995646384496903,
+    "U3_heavy_rel_drop": 0.4358863562709301,
+    "kappa_q": [
+     0.00011289656429778749,
+     0.0011602620905327432,
+     0.03708744186889409
+    ]
+   }
+  },
+  "V_isolation_cause_only": {
+   "n": 2,
+   "slow": 1,
+   "w_post_q": [
+    0.09681737405808767,
+    0.5005705299249523,
+    0.9024865421860996
+   ],
+   "registered_mix": {
+    "F_heavy": 2.4409380846957647,
+    "F_total": 1.5224416938241612,
+    "U3_heavy_rel_drop": 0.4266753087753412,
+    "kappa_q": [
+     7.894936279787741e-05,
+     0.0006330131821814648,
+     0.08650506698438175
+    ]
+   },
+   "empirical_pool": {
+    "F_heavy": 2.4570131846575474,
+    "F_total": 1.5282700514348209,
+    "U3_heavy_rel_drop": 0.4452054301249504,
+    "kappa_q": [
+     7.907164800758433e-05,
+     0.0006337796275868837,
+     0.07405863910174167
+    ]
+   },
+   "point_w": {
+    "F_heavy": 2.4240699746874332,
+    "F_total": 1.5163258141358078,
+    "U3_heavy_rel_drop": 0.42493968528320913,
+    "kappa_q": [
+     7.894775574825471e-05,
+     0.0006515970153542437,
+     0.08685665515924813
+    ]
+   }
+  },
+  "V_isolation_cause_plus_state": {
+   "n": 6,
+   "slow": 1,
+   "w_post_q": [
+    0.03025253343312244,
+    0.18642601326788258,
+    0.4952141919767788
+   ],
+   "registered_mix": {
+    "F_heavy": 1.625369721953383,
+    "F_total": 1.2267406353359398,
+    "U3_heavy_rel_drop": 0.20573259875409589,
+    "kappa_q": [
+     0.0001524249235101521,
+     0.022836071405580957,
+     0.09798967738705049
+    ]
+   },
+   "empirical_pool": {
+    "F_heavy": 1.5113909220979234,
+    "F_total": 1.1854152807707545,
+    "U3_heavy_rel_drop": 0.17776817543480605,
+    "kappa_q": [
+     0.00018841058997962987,
+     0.021280120883477013,
+     0.10085357715522707
+    ]
+   }
+  },
+  "V_episode_split_inughuit": {
+   "n": 9,
+   "slow": 3,
+   "w_post_q": [
+    0.13148786653086575,
+    0.3398812636148329,
+    0.6047232900762584
+   ],
+   "registered_mix": {
+    "F_heavy": 2.0176377648416746,
+    "F_total": 1.3689654699324363,
+    "U3_heavy_rel_drop": 0.31309639552050694,
+    "kappa_q": [
+     0.00010287361254921615,
+     0.015180007444813643,
+     0.09306492009233268
+    ]
+   },
+   "empirical_pool": {
+    "F_heavy": 1.6332733530007584,
+    "F_total": 1.2296062590817538,
+    "U3_heavy_rel_drop": 0.22542940477476492,
+    "kappa_q": [
+     0.00020882426067939157,
+     0.011273430145648782,
+     0.09323363963114252
+    ]
+   }
+  },
+  "V_plus_andaman": {
+   "n": 9,
+   "slow": 4,
+   "w_post_q": [
+    0.20921126985313848,
+    0.4464361832916283,
+    0.7031314253525216
+   ],
+   "registered_mix": {
+    "F_heavy": 2.297927027231083,
+    "F_total": 1.4705900980540292,
+    "U3_heavy_rel_drop": 0.38667674912678696,
+    "kappa_q": [
+     8.578095875707458e-05,
+     0.007651435259927238,
+     0.08939401842879026
+    ]
+   },
+   "empirical_pool": {
+    "F_heavy": 1.9860476263695575,
+    "F_total": 1.357511816491805,
+    "U3_heavy_rel_drop": 0.3159698966547837,
+    "kappa_q": [
+     6.60758615383888e-05,
+     0.006435982029982415,
+     0.08879932397199436
+    ]
+   }
+  }
+ },
+ "runs": {
+  "V_main_isolates_plus_state_reg": {
+   "F_heavy": 2.105810517566462,
+   "F_total": 1.400934312155385,
+   "U3_heavy_rel_drop": 0.33875625652659247,
+   "kappa_q": [
+    9.516512002301292e-05,
+    0.012752098027483432,
+    0.09207885738751546
+   ]
+  },
+  "V_main_isolates_plus_state_emp": {
+   "F_heavy": 1.69627051306137,
+   "F_total": 1.2524471731763567,
+   "U3_heavy_rel_drop": 0.2386158222606315,
+   "kappa_q": [
+    0.00019464455559380005,
+    0.011113245759797242,
+    0.09258133602176927
+   ]
+  },
+  "V_isolates_only_reg": {
+   "F_heavy": 2.98227909777042,
+   "F_total": 1.718715995135951,
+   "U3_heavy_rel_drop": 0.5760181484282165,
+   "kappa_q": [
+    6.345087267456809e-05,
+    0.0004195578004577735,
+    0.07359511633278809
+   ]
+  },
+  "V_isolates_only_emp": {
+   "F_heavy": 2.377841243948855,
+   "F_total": 1.4995646384496903,
+   "U3_heavy_rel_drop": 0.4358863562709301,
+   "kappa_q": [
+    0.00011289656429778749,
+    0.0011602620905327432,
+    0.03708744186889409
+   ]
+  },
+  "V_isolation_cause_only_reg": {
+   "F_heavy": 2.4409380846957647,
+   "F_total": 1.5224416938241612,
+   "U3_heavy_rel_drop": 0.4266753087753412,
+   "kappa_q": [
+    7.894936279787741e-05,
+    0.0006330131821814648,
+    0.08650506698438175
+   ]
+  },
+  "V_isolation_cause_only_emp": {
+   "F_heavy": 2.4570131846575474,
+   "F_total": 1.5282700514348209,
+   "U3_heavy_rel_drop": 0.4452054301249504,
+   "kappa_q": [
+    7.907164800758433e-05,
+    0.0006337796275868837,
+    0.07405863910174167
+   ]
+  },
+  "V_isolation_cause_plus_state_reg": {
+   "F_heavy": 1.625369721953383,
+   "F_total": 1.2267406353359398,
+   "U3_heavy_rel_drop": 0.20573259875409589,
+   "kappa_q": [
+    0.0001524249235101521,
+    0.022836071405580957,
+    0.09798967738705049
+   ]
+  },
+  "V_isolation_cause_plus_state_emp": {
+   "F_heavy": 1.5113909220979234,
+   "F_total": 1.1854152807707545,
+   "U3_heavy_rel_drop": 0.17776817543480605,
+   "kappa_q": [
+    0.00018841058997962987,
+    0.021280120883477013,
+    0.10085357715522707
+   ]
+  },
+  "V_episode_split_inughuit_reg": {
+   "F_heavy": 2.0176377648416746,
+   "F_total": 1.3689654699324363,
+   "U3_heavy_rel_drop": 0.31309639552050694,
+   "kappa_q": [
+    0.00010287361254921615,
+    0.015180007444813643,
+    0.09306492009233268
+   ]
+  },
+  "V_episode_split_inughuit_emp": {
+   "F_heavy": 1.6332733530007584,
+   "F_total": 1.2296062590817538,
+   "U3_heavy_rel_drop": 0.22542940477476492,
+   "kappa_q": [
+    0.00020882426067939157,
+    0.011273430145648782,
+    0.09323363963114252
+   ]
+  },
+  "V_plus_andaman_reg": {
+   "F_heavy": 2.297927027231083,
+   "F_total": 1.4705900980540292,
+   "U3_heavy_rel_drop": 0.38667674912678696,
+   "kappa_q": [
+    8.578095875707458e-05,
+    0.007651435259927238,
+    0.08939401842879026
+   ]
+  },
+  "V_plus_andaman_emp": {
+   "F_heavy": 1.9860476263695575,
+   "F_total": 1.357511816491805,
+   "U3_heavy_rel_drop": 0.3159698966547837,
+   "kappa_q": [
+    6.60758615383888e-05,
+    0.006435982029982415,
+    0.08879932397199436
+   ]
+  },
+  "V_main_isolates_plus_state_pt": {
+   "F_heavy": 2.097986616116238,
+   "F_total": 1.3980975960123514,
+   "U3_heavy_rel_drop": 0.33426236001584386,
+   "kappa_q": [
+    9.579780587326628e-05,
+    0.01335006958287362,
+    0.09239575098828669
+   ]
+  },
+  "V_isolation_cause_only_pt": {
+   "F_heavy": 2.4240699746874332,
+   "F_total": 1.5163258141358078,
+   "U3_heavy_rel_drop": 0.42493968528320913,
+   "kappa_q": [
+    7.894775574825471e-05,
+    0.0006515970153542437,
+    0.08685665515924813
+   ]
+  }
+ },
+ "cause": {
+  "Inughuit_boats": "isolation",
+  "Inughuit_bows_leisters": "isolation",
+  "Tonga_pottery": "demand/material",
+  "EasterIsland_seaworthy_vessels": "resource",
+  "Andaman_fire_making": "unknown",
+  "Tasmania_108": "isolation(contested)",
+  "Britain_coin": "state/demand",
+  "Britain_wheel_pottery": "state/demand",
+  "Greece_LinearB": "state/demand",
+  "Greece_monumental_stone": "state/demand"
+ },
+ "hypotheses": {
+  "H122a": {
+   "class": "confirmatory",
+   "value": {
+    "T_loss_q": [
+     8.060577287942131,
+     81.34379676384552,
+     173.15346053719995
+    ],
+    "P_T_le_100": 0.61534,
+    "kappa_median": 0.01456001561107219
+   },
+   "rule": "median T_loss<=100 and median kappa>0.0063",
+   "supported": true,
+   "note": "T only bounded above (loss by 1818); uniform timing is an assumption"
+  },
+  "H122b": {
+   "class": "confirmatory",
+   "value": {
+    "Inughuit_boats": "fast",
+    "Tonga_pottery": "slow",
+    "EasterIsland_seaworthy_vessels": "slow"
+   },
+   "rule": ">= half of dated isolate losses (excl. Tasmania) fast",
+   "supported": false
+  },
+  "H122c": {
+   "class": "prediction",
+   "value": [
+    0.14868912309695764,
+    0.37974704989679053,
+    0.6578622278943042
+   ],
+   "rule": "0.022<=median w<0.336",
+   "supported": false
+  },
+  "H122d": {
+   "class": "prediction",
+   "value": 2.105810517566462,
+   "rule": "1.1<=F_heavy<=2.0 (registered mix, main)",
+   "supported": false
+  },
+  "H122e": {
+   "class": "descriptive",
+   "value": {
+    "Inughuit_boats": "isolation",
+    "Inughuit_bows_leisters": "isolation",
+    "Tonga_pottery": "demand/material",
+    "EasterIsland_seaworthy_vessels": "resource",
+    "Andaman_fire_making": "unknown",
+    "Tasmania_108": "isolation(contested)",
+    "Britain_coin": "state/demand",
+    "Britain_wheel_pottery": "state/demand",
+    "Greece_LinearB": "state/demand",
+    "Greece_monumental_stone": "state/demand"
+   },
+   "rule": "losses concentrated in narrow-practitioner or demand-lost skills",
+   "supported": null
+  }
+ },
+ "runtime_s": 71.95819783210754
+}
