@@ -1,0 +1,50 @@
+check_111 0.0 0.0 check_sameL 0.0 check_allR 0.0
+L_q {'bulk_104': [299.0, 1876.0, 11657.0], 'glass_104': [561.0, 1576.0, 4460.0], 'myford_107': [5.0, 70.0, 1005.0], 'rework_106': [105.0, 1385.0, 18004.0]}
+slow_Tasmania|prior_registered F_heavy 1.0794 drop 0.047
+trigger_mix|prior_registered F_heavy 1.0229 drop 0.024
+fast_state|prior_registered F_heavy 1.0094 drop 0.017
+slow_Tasmania|data_main F_heavy 1.0738 drop 0.046
+trigger_mix|data_main F_heavy 1.021 drop 0.024
+fast_state|data_main F_heavy 1.0094 drop 0.018
+slow_Tasmania|data_rework F_heavy 1.7323 drop 0.269
+trigger_mix|data_rework F_heavy 1.1759 drop 0.087
+fast_state|data_rework F_heavy 1.0276 drop 0.038
+slow_Tasmania|data_crystal0.1 F_heavy 1.0745 drop 0.046
+trigger_mix|data_crystal0.1 F_heavy 1.021 drop 0.024
+fast_state|data_crystal0.1 F_heavy 1.0094 drop 0.017
+slow_Tasmania|only_T2e_X F_heavy 1.1016 drop 0.054
+trigger_mix|only_T2e_X F_heavy 1.0265 drop 0.025
+fast_state|only_T2e_X F_heavy 1.0094 drop 0.018
+slow_Tasmania|only_Fe_lens_myford F_heavy 1.4239 drop 0.187
+trigger_mix|only_Fe_lens_myford F_heavy 1.0956 drop 0.068
+fast_state|only_Fe_lens_myford F_heavy 1.02 drop 0.036
+slow_Tasmania|myford_Fe_only F_heavy 2.3808 drop 0.44
+trigger_mix|myford_Fe_only F_heavy 1.3155 drop 0.128
+fast_state|myford_Fe_only F_heavy 1.0357 drop 0.043
+slow_Tasmania|myford_lens_only F_heavy 1.4244 drop 0.187
+trigger_mix|myford_lens_only F_heavy 1.096 drop 0.068
+fast_state|myford_lens_only F_heavy 1.0204 drop 0.036
+slow_Tasmania|myford_T2e_only F_heavy 1.1016 drop 0.054
+trigger_mix|myford_T2e_only F_heavy 1.0265 drop 0.025
+fast_state|myford_T2e_only F_heavy 1.0094 drop 0.018
+slow_Tasmania|data_T2e_tool_R F_heavy 2.4344 drop 0.46
+trigger_mix|data_T2e_tool_R F_heavy 1.3305 drop 0.132
+fast_state|data_T2e_tool_R F_heavy 1.0335 drop 0.042
+slow_Tasmania|data_pessimistic F_heavy 1.0563 drop 0.041
+trigger_mix|data_pessimistic F_heavy 1.0173 drop 0.023
+fast_state|data_pessimistic F_heavy 1.0092 drop 0.017
+sweep_t_sub [(0, 1.073), (100, 1.074), (200, 1.076), (400, 1.075), (550, 1.076), (740, 1.075), (800, 1.059), (1000, 1.059), (1500, 1.059), (2000, 1.059)]
+sweep_T2e_L slow_Tasmania [(10, 1.012), (18, 1.013), (32, 1.012), (56, 1.013), (100, 1.013), (178, 1.016), (316, 1.045), (562, 1.162), (1000, 1.5), (1778, 2.183), (3162, 2.787), (5623, 3.005), (10000, 3.034)]
+sweep_T2e_L trigger_mix [(10, 1.006), (18, 1.006), (32, 1.006), (56, 1.006), (100, 1.006), (178, 1.009), (316, 1.022), (562, 1.054), (1000, 1.126), (1778, 1.268), (3162, 1.397), (5623, 1.442), (10000, 1.448)]
+T2e_L_crit {'slow_Tasmania': 562.341325190349, 'trigger_mix': 1000.0}
+diag {"Fe": {"skill_ok_share": 0.9745417881963199, "capital_fail_given_skill_data": 0.056872598285545375, "capital_fail_given_skill_111myford": 0.5410286727756429}, "lens": {"skill_ok_share": 0.8889921140758346, "capital_fail_given_skill_data": 0.23382830664041931, "capital_fail_given_skill_111myford": 0.7881822085044677}, "T2e": {"skill_ok_share": 0.8080299593100717, "capital_fail_given_skill_data": 0.9401153307961747, "capital_fail_given_skill_111myford": 0.9334575174466796}}
+H124a confirmatory True Cape York meteorite: 'known to the Inughuit ... for centuries, who used it as a source of meteoritic iron for 
+H124b confirmatory True Forest glass: 'approximately 1000-1700 AD using wood ash and sand'; 'For several centuries after the fall ... 
+H124c confirmatory True Natron: used 'in ceramic and glass making by the Romans and others until at least AD 640'; 'Soda ash also repl
+H124d confirmatory True Visby lenses: rock crystal (quartz), 11th or 12th century, local manufacture at Frojel
+H124e confirmatory True Freestone 2015: recycling of Roman glass 'made a significant and sometimes very substantial contribution to th
+H124f prediction True 1.073802263269198
+H124g prediction True 1.1016049905249088
+H124h prediction False 1.4238894470273014
+H124i descriptive None {'Fe': {'inputs': ['furnace_clay R', 'bellows R', 'hammer R', 'anvil R', 'ore S', 'fuel_charcoal S'], 'nonR_sh
+runtime 129.1

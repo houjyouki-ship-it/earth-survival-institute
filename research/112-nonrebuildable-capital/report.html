@@ -1,0 +1,140 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究112：重い崩壊の段の入力のうち建て直せないものだけに在庫の寿命 L を掛ける（open_problems 265） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="112-l-open_problems-265">研究112：重い崩壊の段の入力のうち建て直せないものだけに在庫の寿命 L を掛ける（open_problems 265）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・重い崩壊の割合は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第112回、JST 13〜14時台）。sim.py（seed 20261112、約130秒。111 の表と L の走査を差 0 で再現、全段に同じ L・代わりなしで 111 と差 0、全入力 R で 111 の L=∞ と差 0 の assert）、results.json、stdout.txt、fig_nonrebuildable.png、PREREGISTRATION.md（13:36 JST、新しい資料を開く前・sim.py の前）、sources/（7 件＋取得記録、SHA256SUMS.txt）。3 回実行し stdout は runtime 以外一致（3 回目は使っていない関数を消した後。乱数の消費は変わらない）。</p>
+<h2 id="_1">問い</h2>
+<p>111 は製鉄・レンズ・T2e の 3 つの段すべてに、廃墟の道具の寿命（Myford の再研削の限界、中央値 70 年）を資本の寿命 L として掛けた。地元の材料で建て直せる炉や窯なら L は実質∞で、その人手は N_k に入っているので二重に数えたことになる。段の入力を分けて、建て直せない入力だけに L を掛けると F_heavy はどう変わるか。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>入力を <strong>R</strong>（地元で建て直せる。L の条件なし）、<strong>S</strong>（今は輸入か遠方だが、群ごとに確率 p_sub で地元の代わりがある。代わりができるまでの t_sub の間は在庫でつなぐ）、<strong>X</strong>（代わりなし）に分けた。段 k を保つ条件は「技能 z_min ≥ ln N_k」「代わりのない入力の在庫が t_below,k の間もつ」「下の段を保つ」の 3 つ【独自仮説】。</li>
+<li>入力の表（results.json の input_table）：</li>
+<li>製鉄：炉の粘土・ふいご・槌・金床は R。鉱石と木炭は S。R でない入力は 2/6。</li>
+<li>ガラス・レンズ：砂・石灰・燃料・研磨の砂・酸化鉄は R。融剤・耐火土・透明な素材は S。R でない入力は 3/8。</li>
+<li>T2e：鉄（製鉄の段から）・ガラス（レンズの段から）・燃料は R。精密な工作機械は X、非鉄金属は S。R でない入力は 2/5。</li>
+<li>地元の経路がない群の割合（p_sub は【推測】。results.json の版で走査）：製鉄 1−0.8×0.9＝0.28、新しいガラスを作れない群 1−0.9×0.7＝0.37、T2e は精密な道具が X なので 1.0。</li>
+<li>在庫の寿命：廃墟の鉄・金属は 104 の部材の bulk（中央値 1,878 年）。ガラスの在庫は Freestone のローマのガラスの再溶解の期間から下限 740 年【計算：450→約 1190 年】。精密な道具は 107 の Myford（中央値 70 年）で、別の版は 106 の作り直し（1,385 年）。融剤の代わりができるまでの遅れ t_sub は Forest glass から 550 年【計算：約 1000−450 年】。</li>
+</ul>
+<h2 id="_3">新しい資料（確認的な検証。資料を開く前に登録）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Cape_York_meteorite">Cape York meteorite</a>）】"It was known to the Inughuit (the local Inuit) for centuries, who used it as a source of meteoritic iron for tools."、見つかったのは "About 1,000 years ago"。1818 年に Ross が会った Inuit は "they had settled in the area to exploit a nearby source of iron" と話した。Peary が 1894〜97 年に運び出した。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Forest_glass">Forest glass</a>）】"from approximately 1000–1700 AD using wood ash and sand"、"For several centuries after the fall of the Western Roman Empire, around 450 AD, recycling of Roman glass formed the major part of the local industry and glassmaking skills declined"。ナトロンは "sourced from the Wadi El Natrun area of Egypt"。"The change from natron to potash required an increase in melting temperature of about 200 °C to around 1350 °C, necessitating a fundamental change in furnace technology and the development of high-temperature ceramics"。資料には "using wood-ash was not merely a case of changing raw materials, but necessitated a whole new technology" ともある。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Natron">Natron</a>）】"It was used along with sand and lime in ceramic and glass making by the Romans and others until at least AD 640."、"Soda ash also replaced natron in the ancient glass trade."</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Visby_lenses">Visby lenses</a>）】rock crystal（quartz）製で "dating from the 11th or 12th century"。Fröjel で地元の製作の証拠（未加工の水晶と作りかけのレンズ）がある。</li>
+<li>【事実（<a href="https://discovery.ucl.ac.uk/id/eprint/1471978/1/2015%20Freestone%20Recycling%20J%20Glass%20Studies.pdf">Freestone 2015, J. Glass Studies, UCL Discovery</a>）】"throughout the fifth to seventh centuries, some fresh glass reached western Europe, but that there was also a tradition of recycling earlier glass"。"the recycling of old Roman material made a significant and sometimes very substantial contribution to the northern European glass industry from the eighth to 12th centuries"。Limoges のエナメルは "Up to about the year 1190, all of the glasses analyzed are low-potash natron glass, typically Roman"。Hamwic の 9〜10 世紀の器はモザイクの tesserae の再溶解を示し、"implies a long-distance trade in old tesserae"。</li>
+<li>既読の資料を取り直したもの（046 で既に読んでいるので、確認的な検証には使わない）：</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland">Norse settlements in Greenland</a>）】"There were no known ore deposits in Greenland at the time of the Vikings. The already not very productive smelting of iron ore quickly reached its limits due to the lack of suitable fuel (charcoal), so that the settlements were almost entirely dependent on imports."。人口は最大でも約 2,500 人とする改訂の推定がある。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Bog_iron">Bog iron</a>）】"Humans can process bog iron with limited technology"。</li>
+<li>取得できなかった資料：Peake 2013 の博士論文（Cardiff ORCA）はボットの確認の頁しか返らず、本文を確かめられなかった。検索の要約には「5〜6 世紀のビーズは再溶解に頼った」とあったが、数えていない。</li>
+</ul>
+<h2 id="a_ordu3-f_heavy-tasmania">結果（A_Ord/U3 の F_heavy。遅い κ＝Tasmania／引き金の規則の混合／速い κ＝国家）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>遅い</th>
+<th>混合</th>
+<th>速い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111：全段に Myford の L（参照）</td>
+<td>1.091</td>
+<td>1.022</td>
+<td>1.006</td>
+</tr>
+<tr>
+<td>登録の主（代わりは即時、ガラスの在庫は 104 の置き値）</td>
+<td>1.079</td>
+<td>1.023</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td><strong>資料の主（燃料 S、t_sub 550 年、ガラス 740 年、T2e の道具 X＝Myford）</strong></td>
+<td><strong>1.074</strong></td>
+<td><strong>1.021</strong></td>
+<td><strong>1.009</strong></td>
+</tr>
+<tr>
+<td>資料の悲観（p_sub を下げ、t_sub 1,000 年）</td>
+<td>1.056</td>
+<td>1.017</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td>資料＋水晶のレンズの経路 0.1</td>
+<td>1.075</td>
+<td>1.021</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td>資料、T2e の道具を作り直しの L（106）</td>
+<td>1.732</td>
+<td>1.176</td>
+<td>1.028</td>
+</tr>
+<tr>
+<td>資料、T2e の道具を R（建て直せる）</td>
+<td><strong>2.434</strong></td>
+<td><strong>1.331</strong></td>
+<td>1.034</td>
+</tr>
+<tr>
+<td>T2e だけ X（製鉄・レンズは R）</td>
+<td>1.102</td>
+<td>1.027</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td>製鉄・レンズだけに Myford の L（T2e は R）</td>
+<td>1.424</td>
+<td>1.096</td>
+<td>1.020</td>
+</tr>
+<tr>
+<td>製鉄だけに Myford の L</td>
+<td>2.381</td>
+<td>1.316</td>
+<td>1.036</td>
+</tr>
+<tr>
+<td>111：L=∞（参照）</td>
+<td>3.811</td>
+<td>1.622</td>
+<td>1.037</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>縛りの診断</strong>（遅い κ、U3 の重い崩壊の群のうち、技能の条件は満たすのに資本で落ちる割合）：製鉄 5.7%（111 の Myford では 54.1%）、レンズ 23.4%（78.8%）、T2e 94.0%（93.3%）【計算】。資料で置くと、製鉄とレンズの資本の縛りはほぼ外れる。縛るのは T2e の精密な道具だけになる。</li>
+<li>製鉄・レンズを資料の主にして T2e の L を一定にして走査すると、F_heavy が 1.1 を越える分かれ目は遅い κ で約 560 年、混合で約 1,000 年になった（111 では約 630 年と約 1,000 年）【計算】。T2e の L を 10,000 年にしても遅い κ で 3.03 にとどまり、111 の L=∞ の 3.81 には届かない。差は製鉄・レンズの在庫がもたない群（主にガラスの新しい経路がない 37%）の分。</li>
+<li>融剤の代わりの遅れ t_sub を 0〜2,000 年で動かしても F_heavy は 1.059〜1.076 で、ほとんど動かない【計算】。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ol>
+<li><strong>結論は T2e の精密な道具を建て直せるかどうか、ほぼそれだけで決まる。</strong> 道具を X（Myford の 70 年）とすると 1.07、作り直し（1,385 年）とすると 1.73、R とすると 2.43 になる（遅い κ）。製鉄とレンズの入力をどう分けても、この幅の中では小さい。111 で「L で決まる」とした L の中身は、T2e の段の道具の寿命と作り直しの可否のことだった。これは 106・107 で扱った量で、今回の資料からは新しい情報は入らない。</li>
+<li>製鉄・ガラスの資料はどれも「建て直せない在庫は長くもつ」か「地元の代わりがある」の側だった。Cape York の隕鉄は数百人の群を数世紀支えた。ただし大きな天然の塊（回収された大きな破片は計 58 t、最大の Ahnighito は 30,880 kg）で、在庫が尽きたのではなく 1894〜97 年に運び出されて終わった。Roman glass は崩壊から約 740 年後まで再溶解で使われた。ただし 5〜7 世紀にも東から新しいガラスが一部届いていたので、孤立した群の在庫の寿命ではなく、交易が細った社会での下限にあたる【推測】。</li>
+<li>Forest glass の 550 年の遅れは、需要と供給の事情（Carolingian の需要、"costly and sporadic" な原料）の中で測った 1 件で、孤立した小さな群の t_sub ではない。しかも potash のガラスには +200 °C の炉と高温の陶器が要る。代わりの経路は「R」ではなく、その段の技能と分業そのものに近い。ここは R と N_k の二重の数えを避ける規則の境目にあたり、今回は S として遅れだけを入れた【独自仮説】。</li>
+<li>Norse Greenland では木炭（燃料）が製鉄を縛った。樹木のない土地や、核の冬で森が失われた土地では燃料が X になりうる。悲観の版（p_fuel 0.7）でも F_heavy は動かなかった。T2e が先に縛るからだ。</li>
+<li>H124h は棄却された。T2e を建て直せるとしても、製鉄・レンズに Myford の L を掛けると入れ子の条件で T2e も落ち、F_heavy は 1.42 にとどまる。よって「F_heavy を決めるのは T2e の段」は言い過ぎで、正しくは「<strong>いちばん短い寿命の、建て直せない入力を持つ段</strong>が決める」。資料で置くと、それが T2e の精密な道具になる。</li>
+<li>p_sub（地元の鉱石 0.8、燃料 0.9、融剤 0.9、耐火土 0.7、非鉄金属 0.3）はすべて【推測】で、地理の資料で置いていない。ただし表の版の範囲では結論（T2e が縛る）は変わらない。</li>
+</ol>
+<h2 id="_5">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H124a（確認的）：<strong>支持</strong>（"for centuries"。見つかったのは約 1,000 年前）。</li>
+<li>H124b（確認的）：<strong>支持</strong>（wood ash は約 1000 年から。崩壊は約 450 年で、その間の数世紀は再溶解）。</li>
+<li>H124c（確認的）：<strong>支持</strong>（Egypt のナトロンは少なくとも 640 年まで使われた。置き換わった先は soda ash と書かれ、植物の灰とは書かれていない）。</li>
+<li>H124d（確認的）：<strong>支持</strong>（rock crystal、11〜12 世紀）。</li>
+<li>H124e（確認的）：<strong>支持</strong>（Freestone：8〜12 世紀に大きく寄与、約 1190 年まで。ただし孤立した群の例ではない）。</li>
+<li>H124f（予測）：<strong>支持</strong>（1.074。111 の 1.091 から −0.017）。</li>
+<li>H124g（予測）：<strong>支持</strong>（1.102 &lt; 1.2）。</li>
+<li>H124h（予測）：<strong>棄却</strong>（1.424 &lt; 2.0）。</li>
+<li>H124i（記述、支持に数えない）：入力の分類表と値。</li>
+</ul>
+<h2 id="_6">逸脱</h2>
+<p>登録した表からの変更：資料の版では木炭を R から S に移した（Norse Greenland による）。透明な素材は、独立の S ではなく「融剤と耐火土の代わりが揃えば新しいガラス、揃わなければ在庫だけ」に組み直した。次の版は登録で名指ししていない：悲観、水晶、段ごとの Myford、T2e の道具 R、t_sub と T2e の L の走査、縛りの診断。p_sub の値は登録のまま【推測】。版ごとに群の代わりの有無を別に引いているので、版の間の差のうち 0.001 程度は乱数の揺れ（水晶 0.1 の版と主の差 0.0007）。</p>
+<h2 id="_7">既存研究に対する新規性</h2>
+<p>Ord・XPT などの崩壊からの立ち直りの議論は、段の再建を人口や知識で扱う。本研究は、段の入力を「地元で建て直せる／代わりがありうる／代わりなし」に分け、ガラスの融剤の代わりの遅れとローマのガラスの在庫の寿命を公開の考古の資料で置いた。そのうえで、縛る入力が T2e の精密な道具に集まることを模型の中で示した。</p>
+<h2 id="_8">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は、製鉄・ガラスの在庫の寿命を集める線をここで止める。資料で置くと、製鉄とレンズの資本の縛りは 54%・79% から 6%・23% に下がり、F_heavy はほとんど動かない。代わりに「閾値を下回った小さな群が T2e の段の精密な道具（平面・ねじ・軸受）を作り直せるか」の一点に絞る（267）。知識の束を作る人は、ガラスの融剤を植物の灰に替える手順と、そのための高温の炉と耐火物の作り方を手引きに入れてよい。ヨーロッパではこの切り替えに崩壊から約 550 年かかり、その間はローマのガラスの再溶解でつないだ。</p><footer><hr><small>自動生成</small></footer></body></html>

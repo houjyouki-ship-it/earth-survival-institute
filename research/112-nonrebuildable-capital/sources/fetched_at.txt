@@ -1,0 +1,9 @@
+取得 2026-10-24 13:36〜13:40 JST（curl、Wikipedia は action=raw の wikitext）
+Cape_York_meteorite.wikitext  https://en.wikipedia.org/wiki/Cape_York_meteorite
+Forest_glass.wikitext         https://en.wikipedia.org/wiki/Forest_glass
+Natron.wikitext               https://en.wikipedia.org/wiki/Natron
+Visby_lenses.wikitext         https://en.wikipedia.org/wiki/Visby_lenses
+freestone2015_recycling.pdf/.txt  https://discovery.ucl.ac.uk/id/eprint/1471978/1/2015%20Freestone%20Recycling%20J%20Glass%20Studies.pdf
+Norse_settlements_in_Greenland.wikitext  https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland （046 で既読、確認的には使わない）
+Bog_iron.wikitext             https://en.wikipedia.org/wiki/Bog_iron （046 で既読、確認的には使わない）
+取得できず：Peake 2013 博士論文（orca.cardiff.ac.uk/id/eprint/47677、ボット確認の頁が返る）。検索の要約にだけ現れ、本文を確認していないので引用しない。
