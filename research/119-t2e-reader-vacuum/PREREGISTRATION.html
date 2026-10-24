@@ -1,0 +1,18 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究119 事前登録（open_problems 280：T2e と読み取り装置に封じた真空の器具が要るか） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="119-open_problems-280t2e">研究119 事前登録（open_problems 280：T2e と読み取り装置に封じた真空の器具が要るか）</h1>
+<p>登録：2026-10-25 03:38 JST、資料（Wikipedia の Z3・Harvard Mark I・Colossus・Vacuum tube・Photoresistor/Selenium・Arc lamp 等）を開く前、sim.py を書く前。</p>
+<h2 id="_1">背景</h2>
+<p>118 は T2e の真空の因子 p_vac を白熱電球の製法で置いた（主 0.570）。しかし 024 の「狙い撃ちの読取装置」は光電読取＋真空管の論理で、018 の電子経路 E は Colossus 級。光源だけなら真空は要らないが、読み取りの論理と光電素子が真空管なら、電球より厳しい真空と陰極が要る。</p>
+<h2 id="_2">問い</h2>
+<p>機械読み層（Piql 1 リール 120 GB、1 コマ 8.8M 点・2 MB、018）を読むのに、真空のない経路（アーク灯・日光＋セレンの光電素子＋継電器の論理）で足りるか。足りなければ p_vac を真空管の製法に置き直すと F_heavy（遅い κ）はどうなるか。</p>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H131a（確認的）：継電器の計算機（Z3 または Harvard Mark I）の公開の資料の速度は、1 秒あたり 20 回以下の演算（クロック）である。</li>
+<li>H131b（確認的）：Colossus の光電のテープ読み取りは 1 秒あたり 1,000 字以上である。</li>
+<li>H131c（確認的）：真空管の記事は、高真空の管（hard vacuum）が電球の時代より後（1910 年代、Langmuir や Arnold など）に改良した排気で実現したと述べる。</li>
+<li>H131d（確認的）：セレンの光電素子（または光導電セル）は応答が遅い（1 ms 以上の遅れ）と公開の資料が述べる。</li>
+<li>H131e（予測）：1 リール全体を 1 台で読む年数は、真空管の速度（1,000〜5,000 点/秒）で 20 年未満、継電器の速度（≤20 点/秒）で 500 年超。よって真空のない経路は機械読み層には足りない。</li>
+<li>H131f（予測）：p_vac を真空管の製法（118 の排気・封じ・ガラス × 高真空 × 陰極、値は推測）に置き直すと主の p_vac は 0.25〜0.50、遅い κ の F_heavy は 1.20〜1.40。</li>
+<li>H131g（記述）：光源・光電素子・論理・記憶の部品ごとの真空の要否の表。</li>
+</ul>
+<h2 id="_4">手順</h2>
+<p>sim.py は 118 の sim.py を「# ---------- 仮説」の前まで exec して 118 の p_vac と表を差 0 で再現（assert）し、新しい版の p_vac で F_heavy を再計算する。読み取りの年数は公開の速度と 018 の点の数から計算する。推測の値は【推測】と書く。</p><footer><hr><small>自動生成</small></footer></body></html>
