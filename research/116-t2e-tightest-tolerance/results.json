@@ -1,0 +1,294 @@
+{
+ "study": "116-t2e-tightest-tolerance",
+ "seed": 20261116,
+ "check_115_pprec_maxdiff": 0.0,
+ "check_115_table_maxdiff": 0.0,
+ "parts": [
+  {
+   "part": "発電機の空隙（半径の機械的な隙間、最小：歯つき・穴あき電機子）",
+   "year": 1901,
+   "in": 0.03125,
+   "substitutable": false,
+   "src": "Wiener 1901 Practical calculation of dynamo-electric machines §58 'ranges between 1/32 and 7/16 inch'（https://archive.org/details/practicalcalcula00wieniala）"
+  },
+  {
+   "part": "発電機の空隙（同、最大）",
+   "year": 1901,
+   "in": 0.4375,
+   "substitutable": false,
+   "src": "Wiener 1901 同上"
+  },
+  {
+   "part": "発電機の機械的な隙間（設計例）",
+   "year": 1891,
+   "in": 0.14,
+   "substitutable": false,
+   "src": "Urquhart 1891 Dynamo construction（https://archive.org/details/dynamoconstructi00urqurich）'allowing ·14 inch mechanical clearance'"
+  },
+  {
+   "part": "電機子軸の端の遊び（最小）",
+   "year": 1891,
+   "in": 0.25,
+   "substitutable": false,
+   "src": "Urquhart 1891 'end-play of at least one-fourth of an inch'"
+  },
+  {
+   "part": "平軸受の走りばめ・最上の等級 I・軸径 3 in の軸の公差",
+   "year": 1909,
+   "in": 0.0018,
+   "substitutable": false,
+   "src": "Unwin 1909 The Elements of Machine Design（https://archive.org/details/elementsofmachin00unwirich） §§ Running fits（British Standards Committee の表の抜粋）"
+  },
+  {
+   "part": "同・軸径 9 in",
+   "year": 1909,
+   "in": 0.003,
+   "substitutable": false,
+   "src": "Unwin 1909 The Elements of Machine Design（https://archive.org/details/elementsofmachin00unwirich）"
+  },
+  {
+   "part": "圧入の締め代（直径 1 in あたり）",
+   "year": 1909,
+   "in": 0.001,
+   "substitutable": false,
+   "src": "Kimball & Barr 1909 Elements of machine design（https://archive.org/details/elementsofmachin01kimb）'.001\" per inch of diameter is often allowed'"
+  },
+  {
+   "part": "玉軸受の玉の寸法の揃い",
+   "year": 1909,
+   "in": 0.0001,
+   "substitutable": true,
+   "src": "Unwin 1909 The Elements of Machine Design（https://archive.org/details/elementsofmachin00unwirich） 'an accuracy to 1/10,000th inch is usual'。発電機の設計書 6 冊（1891〜1910）の本文に ball bearing の語は 0 回、軸受は babbitt・brass・ring-oil の平軸受"
+  }
+ ],
+ "gradeI_exponent": 0.4649735207179272,
+ "gradeI_tol_1in_in": 0.00108,
+ "tightest_nonsub": {
+  "part": "圧入の締め代（直径 1 in あたり）",
+  "in": 0.001
+ },
+ "pprec_versions": {
+  "main_gradeI_1in": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    2.7431999999999998e-05,
+    0.0015875,
+    1.0,
+    0.0
+   ],
+   "p_prec": 0.91191
+  },
+  "gradeI_3in": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    4.5719999999999996e-05,
+    0.0015875,
+    1.0,
+    0.0
+   ],
+   "p_prec": 0.95154
+  },
+  "half_gradeI": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    1.3715999999999999e-05,
+    0.0015875,
+    1.0,
+    0.0
+   ],
+   "p_prec": 0.8364375
+  },
+  "airgap_only": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    0.00079375,
+    0.011112499999999999,
+    1.0,
+    0.0
+   ],
+   "p_prec": 0.9999625
+  },
+  "ball_w0.1": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    2.7431999999999998e-05,
+    0.0015875,
+    1.0,
+    0.1
+   ],
+   "p_prec": 0.8837075
+  },
+  "pess_main": {
+   "params_mm": [
+    0.0001016,
+    1.5,
+    2.7431999999999998e-05,
+    0.0015875,
+    1.0,
+    0.0
+   ],
+   "p_prec": 0.6427325
+  },
+  "pess_exec0.5": {
+   "params_mm": [
+    0.0001016,
+    1.5,
+    2.7431999999999998e-05,
+    0.0015875,
+    0.5,
+    0.0
+   ],
+   "p_prec": 0.32188625
+  }
+ },
+ "table": {
+  "slow_Tasmania|main_gradeI_1in": {
+   "F_heavy": 2.317973785047981,
+   "F_total": 1.4778584617823392,
+   "U3_heavy_rel_drop": 0.4195311656044074
+  },
+  "trigger_mix|main_gradeI_1in": {
+   "F_heavy": 1.2910930637456013,
+   "F_total": 1.1055417681709938,
+   "U3_heavy_rel_drop": 0.12020452990529684
+  },
+  "fast_state|main_gradeI_1in": {
+   "F_heavy": 1.029244408094411,
+   "F_total": 1.0106031607200907,
+   "U3_heavy_rel_drop": 0.040092182492528106
+  },
+  "slow_Tasmania|gradeI_3in": {
+   "F_heavy": 2.363538602714905,
+   "F_total": 1.4943789221501573,
+   "U3_heavy_rel_drop": 0.43477008390047167
+  },
+  "trigger_mix|gradeI_3in": {
+   "F_heavy": 1.3015520567325978,
+   "F_total": 1.109333890865131,
+   "U3_heavy_rel_drop": 0.12430953152569224
+  },
+  "fast_state|gradeI_3in": {
+   "F_heavy": 1.0312169402272329,
+   "F_total": 1.0113183427529202,
+   "U3_heavy_rel_drop": 0.04094919160275101
+  },
+  "slow_Tasmania|half_gradeI": {
+   "F_heavy": 2.209948549798996,
+   "F_total": 1.4386916943281014,
+   "U3_heavy_rel_drop": 0.38984552230744296
+  },
+  "trigger_mix|half_gradeI": {
+   "F_heavy": 1.2692601850591132,
+   "F_total": 1.0976258096414957,
+   "U3_heavy_rel_drop": 0.11205214072233616
+  },
+  "fast_state|half_gradeI": {
+   "F_heavy": 1.0287384033837443,
+   "F_total": 1.010419698320886,
+   "U3_heavy_rel_drop": 0.03808289222570305
+  },
+  "slow_Tasmania|airgap_only": {
+   "F_heavy": 2.4329137781719865,
+   "F_total": 1.5195323167061758,
+   "U3_heavy_rel_drop": 0.4551438551006445
+  },
+  "trigger_mix|airgap_only": {
+   "F_heavy": 1.3182859558953453,
+   "F_total": 1.115401109655253,
+   "U3_heavy_rel_drop": 0.1292427352273955
+  },
+  "fast_state|airgap_only": {
+   "F_heavy": 1.032812027651823,
+   "F_total": 1.0118966744555462,
+   "U3_heavy_rel_drop": 0.04195743761477799
+  },
+  "slow_Tasmania|ball_w0.1": {
+   "F_heavy": 2.271898386557838,
+   "F_total": 1.4611528798517346,
+   "U3_heavy_rel_drop": 0.40718015195707746
+  },
+  "trigger_mix|ball_w0.1": {
+   "F_heavy": 1.2872193240533476,
+   "F_total": 1.1041372642941445,
+   "U3_heavy_rel_drop": 0.11668287062043148
+  },
+  "fast_state|ball_w0.1": {
+   "F_heavy": 1.029734699263852,
+   "F_total": 1.0107809258522296,
+   "U3_heavy_rel_drop": 0.0391055417521875
+  },
+  "slow_Tasmania|pess_main": {
+   "F_heavy": 1.9463789548930455,
+   "F_total": 1.3431291250090418,
+   "U3_heavy_rel_drop": 0.30880414821216373
+  },
+  "trigger_mix|pess_main": {
+   "F_heavy": 1.2072199061324052,
+   "F_total": 1.0751318324525756,
+   "U3_heavy_rel_drop": 0.09100140434265969
+  },
+  "fast_state|pess_main": {
+   "F_heavy": 1.022876760413552,
+   "F_total": 1.0082944392868824,
+   "U3_heavy_rel_drop": 0.03307046919448342
+  },
+  "slow_Tasmania|pess_exec0.5": {
+   "F_heavy": 1.5187914304292454,
+   "F_total": 1.188098487043696,
+   "U3_heavy_rel_drop": 0.17792661409383892
+  },
+  "trigger_mix|pess_exec0.5": {
+   "F_heavy": 1.1201687675802656,
+   "F_total": 1.043569654481477,
+   "U3_heavy_rel_drop": 0.05817579489395397
+  },
+  "fast_state|pess_exec0.5": {
+   "F_heavy": 1.0166890617744457,
+   "F_total": 1.006050962074209,
+   "U3_heavy_rel_drop": 0.025479817075366396
+  }
+ },
+ "hypotheses": {
+  "H128a": {
+   "class": "confirmatory",
+   "value_in": 0.03125,
+   "rule": ">=1/32 in",
+   "supported": true,
+   "note": "Wiener・Urquhart の 2 冊。Atwood 1893 の値は OCR が読めず数えない"
+  },
+  "H128b": {
+   "class": "confirmatory",
+   "value_in": 0.0018,
+   "extrap_1in": 0.00108,
+   "rule": ">=0.0005 in",
+   "supported": true,
+   "note": "資料の値は等級 I の公差（3 in 軸）。1 in への外挿でも 0.0011 in"
+  },
+  "H128c": {
+   "class": "confirmatory",
+   "value_in": 0.001,
+   "part": "圧入の締め代（直径 1 in あたり）",
+   "rule": ">=0.0005 in（0.0002 in 以下の必須部品なし）",
+   "supported": true,
+   "note": "0.0001 in 級は玉軸受の玉だけで、発電機の設計書は平軸受を使う"
+  },
+  "H128d": {
+   "class": "prediction",
+   "value": 0.91191,
+   "rule": "|p-0.903| < |p-0.642|",
+   "supported": true,
+   "note": "lo_r が 0.001 in 以上になったので登録の自明さの点検により自明（構造から決まる）。支持に数えない"
+  },
+  "H128e": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "部品の公差の表"
+  }
+ },
+ "runtime_s": 221.61309051513672
+}

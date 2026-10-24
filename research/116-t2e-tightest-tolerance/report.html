@@ -1,0 +1,48 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究116：T2e の段に 0.0001 in 級の部品が要るか（open_problems 273） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="116t2e-00001-in-open_problems-273">研究116：T2e の段に 0.0001 in 級の部品が要るか（open_problems 273）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・p_prec は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第116回、JST 21〜22時台）。sim.py（seed 20261116、約222秒。115 の p_prec と表を差 0 で再現の assert。実行は 1 回）、results.json、stdout.txt、fig_tolerance.png、PREREGISTRATION.md（21:42 JST、資料を開く前・sim.py の前）、sources/（Internet Archive の OCR 本文 8 冊、Gutenberg 3 冊、SHA256SUMS.txt、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>115 で p_prec を 0.64 に下げた版は「T2e に転がり軸受級（0.0001 in）の部品が要る」という資料のない仮定だけだった。最初の世代の発電機・電動機と機械の部品の公差を古い工学書で確かめ、代わりのきかない最も厳しい部品で ε_r の下端を置き直す。</p>
+<h2 id="ocr">資料（開いて確かめたもの、OCR 本文）</h2>
+<ul>
+<li>【事実（<a href="https://archive.org/details/practicalcalcula00wieniala">Wiener 1901</a> §58）】電機子と磁極の半径の隙間は "ranges between 1/32 and 7/16 inch"。最小は旋盤で削れる歯つき・穴あき電機子。</li>
+<li>【事実（<a href="https://archive.org/details/dynamoconstructi00urqurich">Urquhart 1891</a>）】設計例で "·14 inch mechanical clearance"、軸の端の遊び "at least one-fourth of an inch"、軸受は brass・babbitt。</li>
+<li>【事実（<a href="https://archive.org/details/elementsofmachin00unwirich">Unwin 1909</a>）】走りばめの表（British Standards Committee の抜粋）で、最上の等級 I の軸の公差は軸径 3 in で 0.0018 in、9 in で 0.0030 in。同書で玉軸受の玉は "an accuracy to 1/10,000th inch is usual"。</li>
+<li>【事実（<a href="https://archive.org/details/elementsofmachin01kimb">Kimball &amp; Barr 1909</a>）】圧入の締め代は "·001" per inch of diameter is often allowed"。</li>
+<li>【事実（上の発電機の本 4 冊＋<a href="https://archive.org/details/elementarydynamo00hirdrich">Hird 1908</a>・<a href="https://archive.org/details/dynamoelectricma00shelrich">Sheldon 1904</a>の OCR 本文の数え）】"ball bearing" の語は 0 回。軸受の語は babbitt・brass・ring-oil の平軸受。</li>
+<li>Atwood 1893（<a href="https://archive.org/details/practicaldynamo00atwogoog">Practical dynamo building</a>）の空隙の分数は OCR が崩れて読めず、数えない。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<p>代わりのきかない部品で最も厳しいのは約 0.001 in（圧入の締め代 1 in あたり、等級 I の公差を 1 in の軸に外挿【推測】した 0.00108 in）。0.0001 in 級は玉軸受の玉だけで、当時の発電機は平軸受を使っている。
+| 版 | lo_r | p_prec | 遅い κ | 混合 | 速い |
+|---|---|---|---|---|---|
+| 主（等級 I、1 in に外挿） | 0.00108 in | <strong>0.912</strong> | <strong>2.318</strong> | 1.291 | 1.029 |
+| 外挿なし（3 in） | 0.0018 in | 0.952 | 2.364 | 1.302 | 1.031 |
+| 公差を半分【推測】 | 0.00054 in | 0.836 | 2.210 | 1.269 | 1.029 |
+| 空隙だけが縛り | 1/32 in | 1.000 | 2.433 | 1.318 | 1.033 |
+| 1 割の群で玉軸受が要る【推測】 | 混合 | 0.884 | 2.272 | 1.287 | 1.030 |
+| 115 の悲観の届く精度 | 0.00108 in | 0.643 | 1.946 | 1.207 | 1.023 |
+| 悲観＋p_exec 0.5 | 同 | 0.322 | 1.519 | 1.120 | 1.017 |
+115 の「転がり軸受級」の版（0.642、1.957）は、資料では玉軸受を平軸受に替えられるので主から外れる。p_prec の下側を動かすのは、要る精度ではなく届く精度の悲観（成功例の偏り）と p_exec だけになった。</p>
+<h2 id="_3">批判的検討</h2>
+<ol>
+<li>資料は 1890〜1910 年の<strong>設計書</strong>で、T2e の最初の世代（1880 年代）よりやや後。より早い機械はもっと粗い側と推測するが【推測】、確かめていない。</li>
+<li>等級 I の値は「最上の仕上げ」の標準で、要ったのか、出せたから書いたのかは区別できない。1 in への外挿は 2 点の冪の当てはめ。</li>
+<li>発電機・機械以外の T2e の部品（真空ポンプ、電球のフィラメント、計測器の軸）は調べていない。ガラスの真空の封じは機械の公差でなく別の技能で、p_prec の外。</li>
+<li>圧入の締め代は「差の大きさ」で、公差（ばらつきの許容）とは別の量。厳しめの側として縛りに入れた。</li>
+<li>結果は 115 の主（lo_r 0.001 in）とほぼ同じで、新しく分かったのは「0.0001 in 級の部品は要らない」という否定の側だけ。H128d は登録の自明さの点検どおり自明。</li>
+</ol>
+<h2 id="_4">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H128a（確認的）：<strong>支持</strong>（最小 1/32 in、2 冊。Atwood は数えない）。</li>
+<li>H128b（確認的）：<strong>支持</strong>（等級 I で 0.0018 in、外挿で 0.0011 in）。</li>
+<li>H128c（確認的）：<strong>支持</strong>（最も厳しい代わりのきかないものは約 0.001 in。0.0001 in 級は玉軸受の玉だけ）。</li>
+<li>H128d（予測）：<strong>支持、ただし自明</strong>（lo_r≥0.001 in となったため。支持に数えない）。</li>
+<li>H128e（記述）：部品の公差の表（results.json の parts）。</li>
+</ul>
+<h2 id="_5">逸脱</h2>
+<p>資料は登録の「Gutenberg など」のうち Internet Archive の OCR 本文が主になった。Kimball &amp; Barr の圧入は登録で名指ししていない部品。版の値（半分・1 割）は sim.py を書くときに決めた。</p>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は ε_r の下端を 0.001 in に固定し、273 を閉じる。p_prec の残りの幅は届く精度の偏りと p_exec（274）で、次はそちらを資料で置く。知識の束を作る人は、玉軸受でなく平軸受（babbitt・brass）と、空隙を 1/32 in 以上とる発電機の作り方を書く方が、廃材の精度で届く。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,40 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+check_115 0.0 0.0
+tightest_nonsub 圧入の締め代（直径 1 in あたり） 0.001 gradeI 1in 0.00108 b 0.465
+p_prec main_gradeI_1in 0.9119
+p_prec gradeI_3in 0.9515
+p_prec half_gradeI 0.8364
+p_prec airgap_only 1.0
+p_prec ball_w0.1 0.8837
+p_prec pess_main 0.6427
+p_prec pess_exec0.5 0.3219
+slow_Tasmania|main_gradeI_1in F_heavy 2.318
+trigger_mix|main_gradeI_1in F_heavy 1.2911
+fast_state|main_gradeI_1in F_heavy 1.0292
+slow_Tasmania|gradeI_3in F_heavy 2.3635
+trigger_mix|gradeI_3in F_heavy 1.3016
+fast_state|gradeI_3in F_heavy 1.0312
+slow_Tasmania|half_gradeI F_heavy 2.2099
+trigger_mix|half_gradeI F_heavy 1.2693
+fast_state|half_gradeI F_heavy 1.0287
+slow_Tasmania|airgap_only F_heavy 2.4329
+trigger_mix|airgap_only F_heavy 1.3183
+fast_state|airgap_only F_heavy 1.0328
+slow_Tasmania|ball_w0.1 F_heavy 2.2719
+trigger_mix|ball_w0.1 F_heavy 1.2872
+fast_state|ball_w0.1 F_heavy 1.0297
+slow_Tasmania|pess_main F_heavy 1.9464
+trigger_mix|pess_main F_heavy 1.2072
+fast_state|pess_main F_heavy 1.0229
+slow_Tasmania|pess_exec0.5 F_heavy 1.5188
+trigger_mix|pess_exec0.5 F_heavy 1.1202
+fast_state|pess_exec0.5 F_heavy 1.0167
+H128a confirmatory True 0.03125
+H128b confirmatory True 0.0018
+H128c confirmatory True 0.001
+H128d prediction True 0.91191
+H128e descriptive None 部品の公差の表
+runtime 221.6

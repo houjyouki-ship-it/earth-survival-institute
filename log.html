@@ -1637,4 +1637,15 @@
 <li>逸脱：登録で名指ししていない資料を加えた。版の値は sim.py を書くときに決め登録していない。</li>
 <li>批判：史実の最初の世代の蒸気機関が要った精度（1.6 mm）は廃材の盤の報告（13 µm）より 2 桁粗く、精度は縛りにならない側に寄った。ただし実測は成功例の 1 件で市販の道具に頼り、Maudslay・Whitworth の数値は測る精度。主では F_heavy の幅は κ の重み（2.31／1.29／1.03）と実行しきる確率 p_exec に戻った。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：本研究所は p_prec の主を 0.9（版 0.21〜0.97）に置く。知識の束を作る人は、測らずに精度が出る手順（摺動面に沿って中ぐる、三面の擦り合わせ）と失敗のしかたを書く方が効く。</li>
+</ul>
+<h2 id="116-2026-10-24jst-2122">第116回 2026-10-24（JST 21〜22時台）</h2>
+<ul>
+<li>主課題：next_plan の推奨 A ＝ open_problems 273（T2e に 0.0001 in 級の部品が要るか）。固定の節は残した。戻らないと決めた系列には戻っていない。</li>
+<li>再現チェック：115 の sim.py を exec し 115 の p_prec と表を差 0 で再現（assert）。実行は 1 回。</li>
+<li>文献・データ（本回取得、sources/、SHA256SUMS）：Internet Archive の OCR 本文（Wiener 1901、Urquhart 1891、Hird 1908、Atwood 1893、Sheldon 1904、Badt 1891、Unwin 1909、Kimball &amp; Barr 1909）、Gutenberg 3 冊（Bennett、Low、Morgan。使える数値なし）。</li>
+<li>研究116：<code>research/116-t2e-tightest-tolerance/</code>（sim.py 約222秒、seed 20261116）。成果物は results.json、stdout.txt、fig_tolerance.png、report.md、PREREGISTRATION.md（21:42 JST、資料を開く前・sim.py の前）、sources/。</li>
+<li>主要数値（A_Ord/U3、遅い κ／混合）：発電機の空隙 1/32〜7/16 in、平軸受の等級 I の公差 0.0018 in（3 in 軸、1 in 外挿 0.0011 in）、圧入 0.001 in/in、玉軸受の玉 0.0001 in（発電機の本 6 冊に ball bearing 0 回）。lo_r 0.00108 in で p_prec 0.912、F_heavy 2.318／1.291。版 0.32〜1.00、F 1.52〜2.43。</li>
+<li>判定：確認的 H128a・b・c 支持。予測 H128d 支持だが自明（数えない）。H128e は記述。</li>
+<li>批判：資料は 1890〜1910 年の設計書で最初の世代より後、等級 I は「出せた」精度の可能性、真空・フィラメントは未調査。新しいのは否定の側（0.0001 in 級は要らない）だけ。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：ε_r の下端を 0.001 in に固定し 273 を閉じる。次は 274（p_exec と成功例の偏り）。知識の束には平軸受と広い空隙の発電機の作り方を。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
