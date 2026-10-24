@@ -1,0 +1,21 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究116 事前登録（2026-10-24 21:42 JST、新しい資料を開く前・sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="116-2026-10-24-2142-jstsimpy">研究116 事前登録（2026-10-24 21:42 JST、新しい資料を開く前・sim.py の前）</h1>
+<p>課題：open_problems 273。T2e の段に 0.0001 in（2.5 µm）級の部品が要るか。最初の世代（1880〜1910 年代）の発電機・電動機・軸受・ねじなどの公差を公開の古い工学書（Gutenberg・Internet Archive など）で開いて確かめ、代わりのきかない最も厳しい部品を決め、115 の ε_r の下端を置き直す。
+指標の注：F_heavy は模型の中の量で、生存確率でも復興確率でもない。</p>
+<h2 id="_1">模型（計画）</h2>
+<p>115 の sim.py を「# ---------- 仮説」の前まで exec して 115 の p_prec と表を差 0 で再現（assert）。
+ε_r の下端 lo_r を「資料で見つかった最も厳しい、代わりのきかない部品の公差」に置き換え、上端は 115 のまま 1/16 in。</p>
+<h2 id="19-20">確認的な仮説（未見の資料：19 世紀末〜20 世紀初めの発電機・電動機の設計書、機械設計の教科書）</h2>
+<ul>
+<li>H128a：資料にある小〜中型の発電機・電動機の空隙（片側、機械的な隙間）の推奨値はすべて 1/32 in（0.8 mm）以上。</li>
+<li>H128b：資料にある平軸受（すべり軸受）の推奨の隙間（直径）は 0.0005 in（13 µm）以上。</li>
+<li>H128c：資料で見つかる T2e の最初の世代の部品の要求公差で最も厳しい「代わりのきかない」ものは 0.0005 in 以上（0.0001 in 級の部品は要らない）。転がり軸受の 0.0001 in 級は平軸受で代わりがきくものとして縛りにしない。
+（反証の条件：0.0002 in 以下が必須と書かれた T2e の部品が 1 件でもあれば H128c は不支持。）</li>
+</ul>
+<h2 id="_2">入力判明後の予測</h2>
+<ul>
+<li>H128d：lo_r を資料の最も厳しい値にすると、主の p_prec は 115 の転がり軸受の版（0.642）より 115 の主（0.903）に近い。自明さの点検：lo_r が 0.001 in 以上なら構造からほぼ自明に 0.9 前後となるので、lo_r が 0.0005 in 未満のときのみ非自明。</li>
+</ul>
+<h2 id="_3">記述</h2>
+<ul>
+<li>H128e：部品ごとの公差の表（部品・年・値・出典）。支持に数えない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

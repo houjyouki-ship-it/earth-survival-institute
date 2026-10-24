@@ -1,0 +1,7702 @@
+TK 
+
+
+JC-NRLF 
+
+
+GIFT  OF 
+
+
+LJEXLIBMSB 
+
+
+Factories:  ANSONIA,  CONN. 
+
+
+lljires,  Cables,  Conductor  (jords, 
+
+METALS,    ETC. 
+
+*     '     * 
+
+Bare  Copper  Wire. 
+
+Galvanized  'Iron  Wire. 
+Brass  Wire. 
+
+German  Silver  Wire. 
+Phosphor  Bronze  Spring  Wire. 
+Platinum  Wire. 
+
+Pressure  Wire. 
+
+Underwriters'   Wire. 
+P.  &  B.   Weather-proof  Wire. 
+
+Kerite  Insulated  Wires  and  Cables. 
+Incandescent    Electric    Light  Elevator 
+
+Cables. 
+Cables,  all  sizes,  either   Underwriters' 
+
+or  D.  B.  and  Paraffine  insulation. 
+Conductor  Cords. 
+
+Magnet   Wire. 
+
+Brass  and  Copper  Sundries. 
+
+WRITE    FOR    CATALOGUE. 
+
+The  Electrical  Supply  C°*> 
+
+171     RANDOLPH    STREET,    CHICAGO. 
+
+Branch,  125  W.  6th  St.,  KANSAS  CITY,  MO. 
+
+Factories:    ANSONIA,    CONN. 
+
+
+DYNAMO  TENDERS' 
+
+#  t 
+
+HAND-BOOK, 
+
+WITH  SEVENTY  ILLUSTRATIONS. 
+
+
+BY 
+
+F.     B.     BADT, 
+
+Late  First  Lieutenant  floyal  Prussian  Artillery. 
+
+
+FOURTH  EDITION. 
+
+
+ELECTRICIAN  PUBLISHING  COMPANY, 
+
+CHICAGO,  ILL. 
+
+
+COPYRIGHT,  1891. 
+
+BY 
+ELECTRICIAN    PUBLISHING    COMPANY, 
+
+ALL  RIGHTS   ^ESERVEDo 
+
+
+PREFACE  TO  THE  FIRST  EDITION. 
+
+EACH  company  manufacturing  electric  light  apparatus 
+furnishes  special  directions  for  its  care  and  management, 
+and  hence  a  general  knowledge  of  the  principles  governing 
+the  construction  and  operation  of  electric  light  installations 
+has  been  obtainable  only  by  a  practical  observation  of  the 
+features  of  each  system  or  by  study  of  books  so  technical 
+in  character  as  to  be  beyond  the  comprehension  of  those 
+not  possessing  an  academical  or  collegiate  education. 
+
+Therefore,  in  the  preparation  of  DYNAMO  TENDERS* 
+HAND-BOOK,  the  author  has  striven  to  lay  down,  as  the 
+results  of  an  extended  experience,  general  rules  for  the 
+care  and  operation  of  electric  light  installations  and  dis- 
+carding entirely  the  use  of  technical  phraseology  and  scien- 
+tific terms  and  formulae,  has  endeavored  to  confine  his  use 
+of  words  to  those  very  plain,  simple  and  elementary  in 
+character. 
+
+To  dynamo  tenders,  engineers,  linemen  and  others  who 
+wish  to  familiarize  themselves  with  the  principles  underly- 
+ing the  care  and  operation  of  electric  light  installations, 
+this  hand-book  is  offered  with  the  hope  that  the  author's 
+intentions  have  been  carried  out  to  the  full. 
+
+To  those  who  wish  to  pursue  the  study  of  the  principles 
+of  electric  lighting  into  deeper  channels,  the  author  cor- 
+dially recommends  "Elementary  Lessons  in  Electricity  and 
+Magnetism,"  by  Silvanus  P.  Thompson;  "Electric 
+Light  Arithmetic,"  by  R.  E.  Day;  "  Magneto  Electric 
+and  Dynamo  Electric  Machines,"  by  Dr.  H.  Schellen; 
+Munro  &  Jamieson's  "Pocket-Book  of  Electrical  Rules 
+and  Tables." 
+
+
+PREFACE  TO   THE  SECOND   EDITION. 
+
+THE  great  demand  for  the  DYNAMO  TENDERS'  HAND- 
+BOOK has  compelled  the  author  to  prepare  a  second  edition. 
+He  has  corrected  several  errors  of  the  first  edition,  and 
+added  the  new  Rules  and  Regulations  for  Overhead  Con- 
+ductors for  Electric  Light  and  Power  established  by  the 
+Board  of  Electrical  Control  of  New  York,  and  attached  the 
+Lamp  Lighting  schedule  for  1889. 
+
+F.  B.  BADT. 
+
+Chicago,  111.,  December,  1888. 
+
+
+464531 
+
+
+CONTENTS. 
+
+
+ELEMENTARY  DATA—  PAGE. 
+
+The  Electric  Current,  Chapter  I ..,».,, . I,  2 
+
+Ohm's  Law,  Chapter  II . 2 
+
+Work,  Chapter  III... 2 
+
+Conductors  and  Insulators,  Chapter  IV ...  2 
+
+Direction  of  the  Current,  Chapter  V 3,  4 
+
+Detector    Galvanometer    and     Magneto    Bell, 
+
+Chapter  VI _ 5,  6,  7 
+
+ARRANGEMENT  OF  POWER — 
+
+The  Dynamo  Room,  Chapter  VII 8 
+
+Motive  Power,  Chapter  VIII- 8 
+
+Shafting  and  Pulleys,  Chapter  IX 9 
+
+Foundations  for  Dynamos,  Chapter  X _,  9,   10 
+
+Belts,  Chapter  XI 10 
+
+DYNAMO  ELECTRIC  MACHINES— 
+
+Description  of  the  Dynamo,  Chapter  XII II 
+
+The     Continuous    Current     Dynamo,     Chap- 
+ter XIII n,   12,   13,   14 
+
+The  Series  Dynamo-- u,   12 
+
+The  Shunt  or  Derived  Circuit  Dynamo.-.  12,   13 
+
+The  Compound  Dynamo  .*. 13,   14 
+
+The     Alternating     Current    Dynamo,    Chap- 
+ter XIV  14,   15 
+
+Preparation  of  a  New  Dynamo  for  Operation, 
+
+Chapter  XV 15,   16 
+
+Starting  a  New  Dynamo,  Chapter  XVI 16 
+
+Keeping   a   Dynamo   in   Good    Order,    Chap- 
+ter XVII 17 
+
+
+CONTENTS. 
+
+Brushes,  Chapter  XVIII 17,  18,  19 
+
+The  Commutator,  Chapter  XIX 19,  20 
+
+Repairs,  Chapter  XX 20,  21 
+
+To  the  Armature _ _ 20,  21 
+
+To  the  Field  Magnets 21 
+
+Testing  the  Wire  Coils  of  a  Dynamo  for  Con- 
+tact Against  Iron,  Chapter  XXI. .     21,   22,   23,  24 
+
+DISEASES  OF  DYNAMOS — 
+
+Non-generation    of   Current   by  the    Dynamo, 
+
+Chapter  XXII _ 25,   26 
+
+Excessive  Sparking  of  Commutator  and  Brushes, 
+
+Chapter  XXIII 26,  27 
+
+LAMPS — 
+
+Arc  Lamps,  Chapter  XXIV 28,   29,   30,   31 
+
+Suspension  of  Arc  Lamps,  Chapter  XXV_ 31 
+
+Trimming   and    Cleaning   Arc    Lamps,   Chap- 
+ter XXVI 32 
+
+Incandescent  or  Glow  Lamps,  Chapter  XXVII .  32,  33 
+
+Multiple  Arc  System,  Chapter  XXVIII- 33 
+
+Multiple  Series  System,  Chapter  XXIX. _     33,  34,  35 
+
+Series  Multiple  System,  Chapter  XXX 36 
+
+Arc  and  Incandescent  Lamps  on  the  Same  Cir- 
+cuit, Chapter  XXXI. __ .36,  37,   38 
+
+The  Alternating  System,  Chapter  XXXII 38 
+
+INSTRUMENTS — 
+
+Current    Indicator   or    Ampere    Meter,    Chap/ 
+
+ter  XXXIII 39 
+
+Pressure  or  Potential  Indicator,  or  Voltmeter, 
+
+Chapter  XXXIV  _ 39,  40 
+
+Current  Regulator,  Chapter  XXXV 40,  41 
+
+Switches,  Chapter  XXXVI _ .41,  42 
+
+Safety  Devices,  Chapter  XXXVII 42,  43 
+
+Lightning  Arresters,  Chapter  XXXVIII 43,  44 
+
+Ground  Detector,  Chapter  XXXIX ._-  45,  46 
+
+Switch-Board,  Chapter    XL_ 46,  47 
+
+
+CONTENTS. 
+
+CIRCUITS  OR  LEADS— 
+
+Outdoor  Leads  for  Arc  Lighting,  Chap- 
+ter XLI 48,  49,  50,  51,  52,  53 
+
+Outdoor  Leads  for  Incandescent  Lighting, 
+
+Chapter  XLII 53,  54 
+
+Arc  Circuits  Inside  of  Houses,  Chapter  XLIII         54 
+
+Incandescent  Circ  uits  Inside  of  Houses,  Chap- 
+ter XLIV 55,  56,  57 
+
+Size  of  Wires  for  Incandescent  Lamp  Installa- 
+tioas,  Chapter  XLV 57,  58,  70 
+
+Testing,  Chapter  XLVI 58 
+
+ACCUMULATORS — 
+
+Accumulators,  Chapter  XLVII 59 
+
+SAFETY  REGULATIONS — 
+
+Rules  of  the  Boston  Underwriters'  Union 
+
+60,  61,  62,  63,64,  65,  66 
+
+English  Regulations 66,  67,  68 
+
+Abstract  of  the  Chicago  Electric  Light  Laws. .  68,  69 
+Rules  and  Regulations  of  the  New  York  Board 
+of  Electrical  Control 69,  70,  71,  72,  73 
+
+
+Table  of  Electric  Light  Conductors 74 
+
+Lamp  Lighting  Schedule — Moonlight  System.. .  75-86 
+Construction  Tools ••••  87-93 
+
+
+ELEMENTARY   DATA. 
+
+
+CHAPTER  I. 
+The  Electric  Current. 
+
+Tn  order  to  understand  the  action  of  what  is  called  the 
+electric  current,  we  will  consider  two  reservoirs  of  water 
+connected  by  a  pipe,  Fig.  I.  The  electric  current  may  be 
+likened  to  the  flow  of  water  through  this  pipe  from  the 
+higher  to  the  lower  level. 
+
+The  unit  of  current  strength,  also  called  the  rate  of  flow, 
+or  intensity,  is  the  ampere.  In  the  illustration  we  would 
+
+
+FIG.  i.  —  RESERVOIRS  OF  WATER. 
+
+say  the  water  is  flowing  through  the  pipe  at  the  rate  of  one 
+gallon  per  second.  In  speaking  of  the  electric  current  we 
+would  say  it  has  a  strength  of,  say,  one  ampere. 
+
+The  unit  of  electromotive  force,  also  called  electrical 
+pressure,  or  tension,  or  difference  of  potential,  is  the  volt. 
+In  the  illustration  the  head  of  water,  or  the  difference  be- 
+tween the  levels  A  and  B  is  similar  to  the  electromotive 
+force. 
+
+The  unit  of  resistance  is  the  ohm.  Resistance  may  be 
+compared  with  the  friction  of  the  internal  surface  of  the 
+pipe  offered  to  the  water.  It  follows  that  the  more  cross- 
+section  the  less  friction,  and  the  less  cross-section  the  more 
+friction,  for  the  same  volume  of  water  flowing  through  the 
+pipe  in  a  given  time. 
+
+
+UAXD-BOOK. 
+
+In  the  following,  only  the  terms,  current  strength,  elec^ 
+tromotive  force — frequently  written  e.m.f. — and  resistance, 
+will  be  used. 
+
+CHAPTER  II. 
+Ohm's  Law. 
+
+Ohm's  law  expresses  the  relation  of  current  strength, 
+electromotive  force,  and  resistance,  to  each  other.  It  says  : 
+Current  strength  equals  electromotive  force  divided  by 
+
+j? 
+resistance.     We  can  write  this  C  =  — ,  C  standing  for  cur- 
+
+R 
+
+rent  strength,  E  for  electromotive  force,  and  R  for  resist- 
+ance. 
+
+CHAPTER  III. 
+Work. 
+
+The  work  accomplished  by  electricity  is  expressed  in 
+volt-amperes  or  watts.  The  product  of  so  many  gallons 
+per  second  and  the  difference  between  the  two  levels  B  and 
+A,  would  give  us  the  work  accomplished  by  the  water  in 
+illustration,  Fig.  I.  The  same  work  can  be  done  with 
+great  current  strength  and  low  e.m.f.,  or  with  small  current 
+strength  and  high  e.m.f.  For  instance,  100  amperes  x  10 
+volts  =  equals  1,000  watts;  or,  10  amperes  x  100  volts  = 
+1,000  watts. 
+
+One  electrical  horse  power  equals  746  watts  ;  hence  the 
+electrical  work  of  a  dynamo  may  be  expressed  : 
+
+H.   P.  =f  mperes   x  vote      The  number  of  mechanical 
+
+746. 
+
+horse  power  necessary  to  drive  a  dynamo  is  generally  10  to 
+20  per  cent,  higher  than  the  electrical  horse  power  yielded 
+b"  the  dynamo. 
+
+CHAPTER   IV. 
+Conductors    and    Insulators. 
+
+Bodies  in  which  the  current  moves  freely  are  called  con- 
+ductors, and  those  in  .which  it  does  not  move  freely  are 
+called  insulators.  Examples  of  conductors  :  Metals,  solu- 
+tions of  chemical  salts,  moist  earth,  etc.  Examples  of  insu- 
+lators :  Porcelain,  rubber,  gutta  percha,  sealing  wax,  dry 
+wood,  etc. 
+
+
+ELEMENTARY  DATA.  3 
+
+CHAPTER   V. 
+Direction  of  the  Current. 
+
+For  convenience  sake  we  assume  that  the  electric  current 
+flows  from  the  positive  pole  of  a  galvanic  cell  or  any 
+other  generator  of  electricity,  through  the  external  circuit 
+back  to  the  negative  pole.  In  order  to  find  the  direction  in 
+which  the  current  is  passing  through  the  wire,  we  place  a 
+pocket  compass,  Fig.  2,  under  \h&  wire,  Fig.  3.  The  north- 
+seeding  pole  of  the  needle,  called  the  north  pole,  and  dis- 
+
+
+FIG.  2.  —  POCKET  COMPASS. 
+
+tinguishetf  either  by  a  different  color — blue,  for  instance — 
+or  by  a  littte  brass  rivet,  will  be  deflected  to  t  e  left  when 
+the  current  flows  in  the  direction  of  the  arrow,  Fig.  3.  Or, 
+in  other  words,  the  positive  electricity  enters  at  A  and 
+leaves  at  B. 
+
+When  the  compass  is  held  above  the  wire  the  nprth  pole 
+of  the  needle  will  be  deflected  to  the  right. 
+
+General  rule  :  Think  yourself  swimming  in  the  current 
+always  facing  the  needle.  The  positive  current  entering  at 
+your  feet  will  cause  the  needle  to  deflect  to  your  left. 
+
+Another  general  rule:  Think  of  the  word  Snow.  With  the 
+wire  over  the  compass  the  current  flowing  from  the  South 
+to  the  North  will  deflect  the  needle  to  the  West ;  in  other 
+words,  from  S-outh  to  N-orth  O-ver  W-est. 
+
+The  compass  should  be  tested  before  these  trials  are 
+made,  as  the  polarity  may  have  been  reversed  by  the  prox- 
+imity of  dynamo  electric  machines  or  other  powerful 
+magnets. 
+
+
+DYNAMO    TE  *?£>£ 
+
+
+The  binding  post  of  the  dynamo  electric  machine  or  bat- 
+tery from  which  the  current  starts  is  called  the  positive  and 
+is  marked  +  ;  the  opposite  binding  post  is  called  the  nega- 
+tive and  is  marked  —  .  All  indicators,  lamps  and  other  ap- 
+paratus which  are  connected  in  the  electric  circuit  must  be 
+
+
+FIG.  3.  —  COMPASS  UNDER  THE  WIRE, 
+
+marked  accordingly  ;  the  binding  post  which  should  be 
+connected  with  the  positive  binding  post  of  the  dynamo 
+with  +  and  the  other  with  —  .  There  are  quite  a  number 
+of  instruments  and  electrical  apparatuses,  such  as  incandes- 
+cent lamps,  for  instance,  which  may  be  inserted  in  the 
+circuit  either  way.  These,  of  course,  need  not  be  marked 
+at  all. 
+
+
+CLEMEN  TAR  Y  DA  TA.  5 
+
+CHAPTER  VI. 
+Detector  Galvanometer  and  Magneto  Bell. 
+
+The  detector  galvanometer,  Fig.  4,  in  connection  with 
+the  galvanic  cell,  Fig.  5,  is  used  for  testing  the  insulation 
+of  the  wires  and  apparatus  and  for  locating  other  faults. 
+The  detector  galvanometer  is  a  compass  mounted  on  a  coil 
+of  wire.  An  electric  current  passing  through  this  coil  will 
+deflect  the  needle  of  the  compass,  as  has  been  explained  in 
+Chapter  V.  Of  course,  a  coil  will  cause  a  greater  deflec- 
+tion of  the  needle  than  a  single  wire  as  the  current  is 
+forced  to  pass  a  number  of  times  under  the  needle. 
+
+
+FIG.  4.  —  DETECTOR  GALVANOMETER. 
+In  order  to  test  for  insulation  with  the  galvanometer, 
+connect  the  galvanometer  and  the  galvanic  cell  in  series, 
+that  is,  tandem— one  behind  the  other,  Fig.  6 — and  connect 
+one  wire  starting  from  binding  post  A  to  aground — gas  pipe 
+or  water  pipe  —  and  the  other  starting  from  B  to  the  wire 
+to  be  tested  for  insulation.  If  the  needle  deflects,  the  wire 
+is  grounded  ;  if  it  remains  in  its  position  the  insulation  is 
+in  good  condition.  It  is  well  to  connect  wires  A  and  B 
+for  a  minute  before  testing,  and  see  whether  cell  and  gal- 
+vanometer are  in  good  condition.  In  connecting  the  wires 
+the  insulation  must  be  carefully  removed  and  the  wire  per- 
+fectly cleaned  by  scraping  with  a  knife  or  by  rubbing 
+with  a  piece  of  emery  cloth.  Connections  must  always  be 
+
+
+6          DYNAMO    TENDERS'  HAND-BOOK. 
+
+made  with  clean  metallic  surfaces.  In  the  same  way 
+a  break  in  the  circuit  can  be  found.  Cut  the  cir- 
+cuit in  several  sections  and  connect  the  ends  of 
+
+
+FIG.  5.  — GALVANIC  CELL. 
+
+each  section  to  A  and  B.  When  the  needle  deflects,  there 
+is  no  break  in  the  circuit ;  if  it  does  not  deflect,  the  circuit 
+is  open. 
+
+
+FIG.  6. —  GALVANOMETER  AND  CELL  CONNECTED. 
+
+
+ELEMENTARY  DATA. 
+
+
+Fig.  7  shows  one  form  of  portable  galvanometer,  com- 
+bining galvanometer,  battery  and  wire. 
+
+Very  often  a  magneto  bell,  Fig.  8,  similar  to  that  used  as 
+a  call  for  telephones,  is  employed  for. testing.  When  the 
+bell  rings  the  circuit  is  closed;  if  it  does  not  ring  the  cir- 
+
+
+FIG.   7.  —  PORTABLE 
+
+
+GALVANOMETER, 
+WIRE. 
+
+
+BATTERY    AND 
+
+
+cuit  is  open.     This  is  all  it  can   tell 
+
+
+while  the  detector  gal- 
+vanometer, if  proper- 
+ly handled,  can  tell 
+very  much  more.  A 
+detector  galvanome- 
+ter can  be  carried  in 
+the  pocket  and  rarely 
+gets  out  of  order, 
+and  a  galvanic  cell 
+can  be  had  almost 
+anywhere  A  mag- 
+neto bell  is  a  bulky 
+apparatus  and  liable 
+to  get  out  of  order  at 
+any  time.  The  use 
+of  the  galvanometer 
+is  preferable. 
+
+A  test  with  a  cell 
+and  an  ordinary  elec- 
+tric   bell    cannot    be 
+considered  reliable. 
+FIG.  8.—  MAGNETO  BELL.  Such  a  bell  will  ring 
+
+only  through  a  very  low  resistance,  while  a  good  magneto 
+bell  will  ring  through  from  10,000  to  20,000  ohms  resist- 
+ance and  a  high  resistance  galvanometer  with  a  powerful 
+battery  will  deflect  through  millions  of  ohms  of  resistance. 
+
+
+ARRANGEMENT  OF  POWER. 
+
+
+CHAPTER  VII. 
+The  Dynamo  Room. 
+
+It  is  best  to  have  a  separate  room  for  the  dynamo  and 
+the  motive  power,  which  generally  consists  of  a  steam 
+engine.  If  more  than  one  dynamo  is  to  be  used,  it  is  also 
+preferable  to  have  them  all  in  one  room,  as  one  man  can 
+more  readily  attend  to  them.  The  place  where  the  dynamo 
+is  to  be  located  should  be  dry  and  free  from  dust.  A 
+turning  lathe  should  not  be  allowed  near  a  dynamo,  nor 
+should  the  man  in  charge  be  allowed  to  file  iron  in  its 
+proximity. 
+
+CHAPTER  VIII. 
+Motive  Power. 
+
+The  main  thing  to  be  considered  in  selecting  an  engine 
+for  an  electric  light  plant  is  uniform  speed.  Any  fluctua- 
+tion in  the  speed  of  the  engine  will  show  in  the  lights. 
+Incandescent  lights  are  more  sensitive  in  this  respect  than 
+arc  lights.  It  is  preferable  to  have  an  extra  engine  for  the 
+electric  light  machinery.  If  other  machinery  is  connected 
+with  the  engine,  the  sudden  throwing  on  and  off  of 
+machines  will  cause  an  irregular  speed  of  the  dynamo  and 
+very  disagreeable  fluctuations  in  the  lights.  The  best 
+power  so  far  known  to  run  electric  light  machinery  is  the 
+modern  automatic  cut-off  steam  engine.  The  regulation 
+of  water  motors,  turbine  wheels,  etc.,  and  gas  motors,  is 
+generally  not  very  satisfactory  for  electric  light  plants. 
+
+A  good  instrument  for  indicating  the  speed  of  a  shaft  or 
+a  dynamo  at  all  times  is  the  tachometer.  It  will  show 
+variations  even  within  a  small  fraction  of  a  minute. 
+
+
+ARRANGEMENT  OF  POWER.  g 
+
+CHAPTER  IX. 
+Shafting  and  Pulleys. 
+
+The  number  of  shafts  should  be  reduced  to  a  minimum. 
+It  is  very  convenient  to  use  friction  pulleys,  if  more  than 
+one  dynamo  is  to  be  driven  from  the  same  shaft  ;  by  means 
+of  friction  pulleys  any  dynamo  can  be  thrown  in  or  out  at 
+will.  In  calculating  the  diameter  of  the  pulleys,  it  should 
+be  borne  in  mind  that  there  is  always  a  loss  in  speed  caused 
+by  the  slippage  of  the  belt. 
+
+It  is  safe  to  allow  about  2  per  cent,  for  slippage  for 
+each  belt.  It  is  advisable  to  have  the  distance  between  the 
+driving  shaft  and  the  shaft  of  the  dynamo  not  too  short. 
+
+A  long  belt  will  generally  give  better  results  than  a  short 
+belt.  The  bearings  will  keep  cooler,  less  oil  will  be  used, 
+and  even  with  comparatively  slack  belts  there  will  be  little 
+slippage. 
+
+On  the  other  hand,  short  belts  must  be  drawn  very  tight 
+to  prevent  slippage.  The  boxes  will  heat,  oil  will  be  con- 
+sumed faster,  and  the  belts  will  be  short  lived. 
+
+Vertical  belts  must  not  be  allowed  ;  horizontal  belts  give 
+the  best  results.  Arrange  the  shafting  to  get  the  belts  at 
+an  angle  of  at  least  40  degrees  with  a  vertical  line. 
+
+If  possible  arrange  to  have  the  slack  side  of  belt  on  top. 
+
+CHAPTER     X. 
+Foundations  for  Dynamos. 
+
+A  dynamo  should  be  solidly  set.  Vibration  caused  by 
+the  rotation  of  the  armature  on  a  poor  foundation  may 
+cause  damages  to  dynamos  in  various  ways.  Especially 
+larger  dynamos,  say  from  twenty-five  horse  power  upwards, 
+should  be  set  on  a  solid  brick  or  stone  foundation. 
+
+The  iron  frame  of  a  dynamo  should  be  properly  insulated 
+from  such  foundations  ;  this  is  generally  done  by  a  dry 
+wood  base  plate.  The  upper  surface  of  this  brick  or  stone 
+foundation  should  be  at  least  one  foot  above  the  floor;  this 
+will  enable  the  engineer  or  dynamo  tender  to  keep  the 
+machine  free  from  dirt,  and  will  facilitate  the  inspection  of 
+the  bearings,  the  commutator,  and  other  important  parts. 
+
+In  a  place  where  the  noise  caused  by  dynamos  and 
+engines  would  be  objectionable,  it  is  of  importance  to  keep 
+*he  foundations  away  from  the  foundation  walls  of  the 
+
+
+io        DYNAMO    TENDERS'  HAND-BOOK. 
+
+building.  The  counter-shafts  must  be  set  on  the  floor, 
+and  the  floor  above  the  dynamo  room  should  be  deadened. 
+Most  dynamos  are  provided  with  a  frame  and  a  belt- 
+tightening1  apparatus,  which  can  be  set  on  the  foundation 
+without  any  further  preparations. 
+
+CHAPTER  XI. 
+Belts. 
+
+The  best  belt  to  drive  dynamo  electric  machinery  is  a 
+light,  double,  endless,  and  rivetless  leather  belt.  A  single 
+belt  may  be  used  for  small  dynamos,  say,  under  ten  horse 
+power.  Belts  should  always  be  made  endless.  A  laced 
+joint  will  show  a  fluctuation  in  the  light  every  time  it 
+passes  over  the  dynamo  pulley. 
+
+It  is  advisable  to  run  a  new  dynamo  a  day  or  two  with  a 
+loose  belt.  In  taking  the  measurement  for  a  belt,  the 
+dynamo  should  be  moved  by  means  of  the  belt-tightener  as 
+near  the  driving  pulley  as  possible;  when  this  is  done,  it 
+will  be  possible  to  utilize  the  whole  length  of  the  belt- 
+tightener  screw  to  stretch  the  belt.  A  belt  should  never  be 
+tightened  any  more  than  enough  to  prevent  an  excess  of 
+slippage.  Any  belt  will  slip  a  little,  but  this  slippage 
+should  not  exceed  2  per  cent, 
+
+
+DYNAMO     ELECTRIC 
+MACHINES. 
+
+
+CHAPTER  XII. 
+Description  of  the  Dynamo. 
+
+A  dynamo  consists  of  the  field  and  the  armature.  The 
+field  consists  of  the  magnets,  which  are  solidly  connected 
+with  the  iron  frame.  The  magnets  are  iron  cores,  on 
+which  layers  of  insulated  wire  are  wound.  These  magnets 
+belong  to  the  class  of  electro-magnets,  as  they  become 
+magnetic  only  when  the  current  is  passing  through  their 
+coils.  Between  the  poles  of  the  magnet  the  armature 
+rotates.  The  armature  consists  of  an  iron  or  steel  shaft,  to 
+which  a  number  of  coils  of  insulated  wire  are  affixed. 
+
+Metal  plates  or  bundles  of  wire  called  brushes  conduct 
+the  current  generated  in  the  armature  to  the  lamp  circuit. 
+
+The  two  main  types  of  dynamos  are  : 
+
+A,  The  continuous  current  dynamo.  The  current  gener- 
+ated in  this  dynamo  always  flows  in  the  same  direction. 
+The  armature  of  this  dynamo  has  a  commutator  from  which 
+the  current  is  taken  off  by  the  brushes. 
+
+By  The  alternating-  current  dynamo.  The  current  gene- 
+rated in  this  machine  flows  at  rapid  intervals  first  in  one 
+and  then  in  the  other  direction.  This  dynamo  has  no  com- 
+mutator but  simply  a  collector  consisting  of  two  metal  rings 
+on  which  the  brushes  rest.  The  magnets  of  the  alternating 
+current  machine  require,  however,  a  continuous  current 
+for  excitation.  This  current  is  generated  by  an  extra  con- 
+tinuous current  machine  of  small  size,  which  is  called  the 
+exciter. 
+
+CHAPTER  XIII. 
+The  Continuous  Current  Dynamo. 
+
+A,  The   series  dynamo,  Fig.  9.     Magnet,  armature  and 
+lamp  circuit  are  connected  one  behind  the  other,  that  is,  in 
+II 
+
+
+12        DYNAMO    TENDERS'  HAND-BOOK. 
+
+series  ;  that  is  to  say,  the  current  generated  in  the  armature 
+passes  in  equal  strength  through  field  magnets  and  lamp 
+circuit.  These  machines  are  mostly  used  for  arc  lighting. 
+
+
+FIG.  9.  —THE  SERIES  DYNAMO. 
+
+
+B%  The  shtmt  dynamo,  also  called  derived  circuit  dynamo. 
+The  coils  of  wire  wound  around  the  field  magnets  in  this 
+machine,  Fig.  10,  are  connected  in  shunt  or  parallel  to  the 
+brushes.  Only  a  comparatively  small  part  of  the  current 
+generated  in  the  armature  is  used  for  excitation  of  the  field 
+coils,  while  the  greater  part  of  the  current  is  conducted 
+from  the  brushes  to  the  lamp  circuit.  These  machines  gen- 
+erally have  a  resistance  box,  rheostat  or  regulator  which  is 
+connected  in  the  shunt  winding  of  the  field.  By  putting 
+more  or  less  resistance  in  the  field  of  these  machines  the 
+e.  m.  f .  at  the  binding  post  of  the  machine  can  be  decreased 
+
+
+DYNAMO  ELECTRIC  MACHINES.          13 
+
+or  increased.  Shunt  dynamos  are  mostly  used  for  incan- 
+descent lighting.  In  some  systems,  however,  they  are  used 
+for  arc  lighting  also. 
+
+C,  The  Compound  Dynamo.  This  dynamo,  Fig.  II, 
+combines  in  its  fields  the  winding  of  both  the  series  and 
+the  shunt  dynamo.  The  magnets  are  wound  with  thick 
+
+
+FIG.  10. —  THE  SHUNT  DYNAMO. 
+
+
+wire,  which  is  in  series  with  the  armature  and  the  lamp  cir- 
+cuit. In  addition  they  have  a  winding  of  fine  wire,  which 
+is  in  shunt  with  the  brushes.  This  dynamo  generally  has 
+a  resistance  box  put  in  the  shunt  winding  of  the  fields,  for 
+
+
+14 
+
+
+DYNAMO   TENDERS'   HAND-BOOK. 
+
+
+the    same   purpose   as    explained    under   B.      Compound 
+dynamos  are  mostly  used  for  incandescent  lighting. 
+
+
+FIG.  ii.  —  THE  COMPOUND  DYNAMO. 
+
+CHAPTER  XIV. 
+The  Alternating  Current  Dynamo. 
+
+The  field  wire  coils  of  an  alternating  currrent  dynamo, 
+Fig.  12,  have  no  connection  with  the  brushes  of  the  dynamo 
+at  all.  The  fields  are  separately  excited,  as  mentioned  in 
+the  foregoing,  by  a  little  continuous  current  dynamo,  called 
+an  exciter  The  alternating  current  machines  were  used 
+formerly  for  arc  lighting  mainly  —  very  little,  however,  in 
+the  United  States — but  recently  have  been  introduced  for 
+long  distance  incandescent  lighting  by  means  of  trans- 
+formers or  converters. 
+
+
+DYNAMO  ELECTRIC  MACHINES.          15 
+
+CHAPTER  XV. 
+
+Preparation   of  a   New    Dynamo   for 
+Operation. 
+
+Iron  par's  which  have  to  be  fitted  to  each  other  must  be 
+carefully  cleaned  with  fine  emery  cloth.  When  the  arma- 
+ture is  put  into  the  dynamo,  extra  precaution  is  necessary 
+in  order  to  avoid  any  injuries  to  the  insulation  of  the  wire 
+and  to  the  commutator.  The  armature  should  be  carried 
+by  a  man  on  each  end  of  the  shaft.  Heavy  armatures 
+
+
+FIG.  12. —  THE  ALTERNATING  CURRENT  DYNAMO. 
+should  be  supported  by  a  board  put  underneath  the  arma- 
+ture, and  each  end  carried  by  an  additional  man.     Arma- 
+tures weighing   over  500   pounds   should   be  handled   by 
+means  of  a  differential  block  and  tackle. 
+
+An  armature  should  not  be  lifted  by  its  commutator. 
+
+Some  soft   material,    such  as   cotton   waste  or  felting, 
+should  be  put  between  the  armature  and  the  support. 
+
+
+16        DYNAMO    TENDERS'  HAND-3OOK. 
+
+When  put  in  place  in  the  dynamo  the  armature  must  not 
+touch  the  pole  pieces  and  must  turn  easily.  There  should 
+be  at  least  from  -£$  to  l/%  inch  play  between  its  bearings. 
+This  play  or  lengthways  motion  can  generally  be  regulated 
+by  adjusting  the  collar  on  the  shaft. 
+
+It  must  be  borne  in  mind  that  the  armature  will  warm 
+and  expand  not  only  diametrically  but  also  lengthways.  If 
+there  should  be  no  play,  the  armature  might  get  wedged 
+between  its  two  bearings  and  cause  hot  boxes  and  stoppage 
+of  the  dynamo,  A  swinging  motion  of  the  armature  will 
+cause  the  bearing  to  wear  evenly,  distribute  the  oil  from 
+end  to  end  of  the  bearings,  and  prevent  heating  of  the 
+boxes.  An  armature  can  be  caused  to  play  only  when  the 
+dynamo  is  in  proper  alignment  and  the  belt  not  too  tight. 
+
+All  connections  through  which  the  current  ^ias  to  pass 
+should  be  cleaned  with  fine  emery  cloth  and  should  not 
+touch  any  part  of  the  iron  frame  or  field-coils  of  the 
+dynamo. 
+
+CHAPTER  XVI. 
+Starting  a  New  Dynamo. 
+
+It  is  advisable  to  run  a  new  dynamo  a  few  hours  or  even 
+a  day  without  any  load,  in  order  to  test  the  lubrication, 
+etc.,  not  only  of  the  dynamo,  but  of  the  engine,  if  it  should 
+be  a  new  one.  If  everything  is  in  good  condition  the  load 
+should  be  put  on  gradually.  This  can  be  done,  either  by 
+running  the  dynamo  below  normal  speed  and  gradually 
+increasing  the  speed,  or  by  using  the  resistance  boxes  and 
+starting  with  very  little  current  and  gradually  increas- 
+ing^ it. 
+
+The  latter  is  especially  advisable  for  incandescent  lamp 
+installations.  The  testing  should  be  made  during  the  day. 
+It  will  require  for  small  plants  a  few  hours  ;  for  plants  of 
+greater  importance  a  few  days  ;  only  when  everything 
+operates  in  good  order  should  the  regular  running  of  the 
+installation  commence. 
+
+Every  day  before  starting  the  dynamo,  the  dynamo 
+tender  should  examine  the  binding  posts,  commutator  and 
+brushes.  If  the  brushes  are  allowed  to  rest  against  the 
+commutator,  the  engineer  should  be  careful  not  to  reverse 
+the  motion  of  his  engine  when  starting,  as  he  would  spoil 
+the  brushes. 
+
+Iron  nails,  bolts  and  small  iron  tools  should  be  kept 
+away  from  the  dynamo,  as  they  may  be  attracted  to  the 
+machine  and  damage  it. 
+
+Oil  cans  for  filling  the  oil  cups  of  the  dynamo  should  be 
+of  non-magnetic  material  (brass  or  zinc). 
+
+
+DYNAMO  ELECTRIC  MACHINES.          17 
+
+CHAPTER   XVII. 
+Keeping  a   Dynamo  in  Good  Order. 
+
+The  dynamo  must  be  kept  scrupulously  clean,  like  any 
+other  expensive  machine.  Any  good  engineer  or  dynamo 
+tender  will  do  that  without  being  told. 
+
+Copper  dust,  which  will  be  caused  by  the  friction  of  the 
+copper  brushes  against  the  commutator,  should  never 
+show  ;  it  should  be  cleaned  oft  the  armature  and  fields  by 
+means  of  a  paint  brush  and  a  pair  of  bellows  every  day. 
+Shafts  and  pulleys  running  near  the  dynamo  must  be  pre- 
+vented, by  means  of  shields,  from  throwing  oil  on  the 
+dynamo,  especially  on  the  commutator. 
+
+A  brush  sh  mid  never  be  lifted  off  the  commutator  while 
+the  dynamo  is  running. 
+
+Binding  posts  and  other  contacts  should  always  be  tight. 
+A  slight  vibration  of  the  dynamo,  which  will  occur  even 
+when  it  is  properly  set,  will  loosen  these  connections  in 
+time.  Every  binding  screw  should  be  examined,  and,  if 
+necessary,  tightened  every  day. 
+
+CHAPTER  XVIII. 
+Brushes. 
+
+The  setting  of  the  brushes  is  one  of  the  most  important 
+duties  of  the  dynamo  tender.  The  brushes  should  rest 
+against  the  commutator  with  a  slight  pressure.  They 
+should  not  be  rigid,  but  the  brush  holder  springs  should 
+allow  a  certain  amount  of  spring  ;  this  will  prevent  exces- 
+sive sparking  of  the  brushes,  even  if  the  commutator 
+should  be  a  little  uneven. 
+
+The  contact  points  for  the  brushes  on  the  commutator 
+are  in  most  dynamos  diametrically  opposite  each  other.  In 
+order  to  find  these  points  quickly  it  is  advisable  to  cut  a 
+little  strip  of  tin,  the  length  of  which  is  just  one-half  the 
+circumference  of  the  commutator,  and  use  this  strip  as  a 
+gauge  when  setting  the  brushes.  The  brush  holders 
+should  be  carefully  kept  clean,  and  should  be  wiped  off 
+every  time  before  the  brushes  are  put  in.  The  brushes 
+must  extend  from  each  brush  holder  at  equal  lengths.  The 
+insulation  between  the  brush  holder  pins  and  the  quadrant 
+must  be  in  good  condition  ;  oil  and  dirt  must  be  kept  out. 
+
+
+i8 
+
+
+DYNAMO    TENDERS'  HAND-BOOK. 
+
+
+Fig.  13  shows  the  proper  positions  of  the  brushes.  The 
+point  where  the  brushes  are  resting  on  the  commutator 
+when  the  greatest  e.m.f.  is  obtained  are  called  the  neutral 
+points,  A,  B.  When  the  brushes  touch  the  points  C,  D. 
+at  right  angles  to  A,  B,  no  current  is  obtained. 
+
+
+FIG.   13.  —  PROPER  POSITION  OF  BRUSHES. 
+
+If  the  brush  is  nearly  worn  through  to  the  middle  of  its 
+thickness,  it  should  be  turned  over  and  the  other  side  used 
+
+
+pIG    I4. —  WORN  BRUSH  AND  BLOCKS  FOR  TRIMMING, 
+
+on  the  commutator.  When  both  sides  are  worn  off,  as 
+shown  in  the  upper  patt  of  Fig.  14,  the  brushes  should  be 
+trimmed.  In  larger  stations,  little  brush  cutting  machines 
+are  used  f}r  this  purpose  ;  in  smaller  installations,  two 
+
+
+DYNAMO  ELECTRIC  MACHINES.          19 
+
+blocks  of  hard  wood,  lower  part  of  Fig.  14,  are  used.  The 
+brush  is  put  between  the  two  blocks  and  the  whole  put  in  a 
+vise.  The  end  of  the  brush  projecting  beyond  the  wooden 
+blocks  is  then  removed  by  means  of  a  file. 
+
+The  brushes  should  also  be  in  such  a  position  on  the 
+commutator  that  the  least  sparking  will  be  set  up.  In 
+some  dynamos  it  is  necessary  to  move  the  brushes  in  pro- 
+portion to  the  load  in  order  to  get  little  sparking.  In 
+other  systems,  the  brushes  need  not  be  moved  at  all,  no 
+matter  how  many  lights  are  turned  on  or  off.  In  some 
+dynamos,  the  moving  of  the  quadrant,  or,  in  other  words, 
+the  moving  of  the  contact  points  of  the  brushes  on  the 
+commutator,  is  used  for  increasing  or  decreasing  the 
+strength  of  the  current. 
+
+CHAPTER    XIX. 
+The  Commutator. 
+
+The  commutator  is  the  most  sensitive  part  of  ihe  dynamo, 
+and  should  be  especially  cared  for.  It  must  always  be 
+kept  smooth.  If  it  should  get  rough  from  the  electric 
+spark,  it  is  necessary  to  smooth  it  by  pressing  a  block  of 
+wood  covered  with  fine  emery  cloth  against  it,  after  having 
+set  the  dynamo  in  motion  with  the  brushes  lifted  off.  If 
+the  commutator  is  so  rough  that  a  smooth  surface  cannot 
+be  obtained  by  the  use  of  emery  cloth,  it  should  be  filed. 
+In  order  to  do  that,  it  is  necessary  to  take  out  the  brush 
+holders,  pins  and  brushes.  After  a  straight  surface  has 
+been  obtained,  the  commutator  should  be  smoothed  with 
+fine  emery  cloth. 
+
+The  disadvantages  of  using  a  file  on  a  commutator  are  the 
+liability  of  pressing  small  chips  of  copper  into  the  insula- 
+tion between  the  copper  segments,  and  the  impossibility  of 
+getting  the  commutator  true.  The  best  way  is  to  turn 
+The  commutator  off  by  means  of  a  little  lathe,  which  can  be 
+attached  to  the  dynamo,  or  by  taking  the  armature  out  of 
+the  dynamo  and  having  the  commutator  turned  off  in  a 
+lathe  in  a  machine  shop.  This  will  not  only  make  the 
+commutator  smooth  but  perfectly  true.  In  filing  or  turn- 
+ing off  the  commutator  while  the  armature  is  rotating  in  the 
+dynamo,  it  is  necessary  to  reduce  the  normal  speed  of  the 
+dynamo  considerably,  as  too  high  a  speed  would  spoil  com- 
+mutator and  turning  tools. 
+
+In  new  commutators  for  which  fiber  is  used  as  insulation 
+between  the  copper  segments,  it  is  very  often  found  that 
+
+
+20        DYNAMO    TENDERS'  HAND-BOOK. 
+
+the  thin  sheets  of  fiber  have  absorbed  moisture,  and  extend 
+above  the  surface  of  the  commutator.  If  a  few  days'  ex- 
+posure in  a  dry  warm  room  does  not  cause  the  fiber  to 
+shrink  and  go  back  to  its  place,  the  surface  of  the  commu- 
+tator must  be  smoothed  first  with  coarse  and  then  with 
+fine  emery  cloth. 
+
+In  most  systems  it  is  advisable  to  put  a  little  oil  on  the 
+commutator  just  after  starting  the  dynamo.  Very  little  oil, 
+however,  must  be  used.  Dip  the  point  of  one  finger  in  one 
+drop  of  oil,  distribute  it  by  rubbing  it  on  the  inner  surface 
+of  the  hand  and  apply  what  oil  remains  on  the  finger  tip  to 
+the  commutator,  and  take  it  off  with  another  finger.  This 
+will  do  for  at  least  three  hours'  run. 
+
+If  it  should  become  necessary  at  any  time  to  replace  the 
+commutator  by  a  new  one,  it  should  be  done  in  the  follow- 
+ing manner :  Take  the  armature  out  of  the  dynamo  and 
+put  the  two  ends  of  the  shaft  on  two  wooden  horses. 
+Mark  the  wires  leading  from  the  armature  to  the  commu- 
+tator by  attaching  little  tags  with  numbers,  to  make  sure 
+of  the  proper  place  of  each  wire  after  taking  off  the  commu- 
+tator. Then  disconnect  these  wires  from  the  correspond- 
+ing copper  bars  of  the  commutator,  either  by  unscrewing 
+the  set  screw,  or  in  commutators  which  have  solid  connec- 
+tions, by  unsoldering  them  by  means  of  a  hot  soldering 
+iron.  Take  the  commutator  off,  clean  the  shaft  and  con- 
+nections and  put  the  new  commutator  carefully  in  its 
+proper  position  and  connect  the  wires  in  proper  turn  to  the 
+corresponding  copper  bars  of  the  commutator  by  means  of 
+set  screws,  or  soldering  with  hard  solder.  The  greatest 
+care  must  be  observed  not  to  short-circuit  any  parts  of  the 
+commutator  with  drops  of  molten  solder. 
+
+CHAPTER    XX. 
+Repairs. 
+
+A,  to  the  Armature. — In  most  cases  repairs  to  the  arma- 
+ture are  necessitated  by  injuries  to  the  insulation  of  the 
+wire  from  external  mechanical  sources  or  by  excessive 
+heat  generated  in  the  armature.  The  first  is  very  often 
+caused  by  little  particles  of  material  dropping  in  the  spaces 
+between  armature  and  pole  pieces— for  instance,  little  balls 
+of  cotton  waste  being  caught  from  the  end  of  the  dynarnjD 
+and  pressed  between  armature  and  pole  pieces,  thus  scaling 
+off  the  insulation  of  the  wires  in  some  places,  or  bursting 
+the  metal  bands.  Such  injuries  can  have  two  different  re- 
+
+
+DYNAMO  ELECTRIC  MACHINES.          21 
+
+suits, '  either  short  circuiting  some  of  the  coils  or  bringing 
+different  parts  of  the  wire  coils  in  contact  with  the  iron 
+core.  These  injuries  hardly  ever  extend  below  the  first 
+layer  of  wire.  In  most  cases  it  wilt  be  possible  to  care- 
+fully lift  one  wire  at  a  time  just  high  enough  to  wrap  it 
+with  silk  tape,  and  thus  insulate  it.  After  having  wrapped 
+and  insulated  all  the  injured  parts,  drive  the  wires  back 
+into  their  position  by  means  of  a  small  hard  wood  block 
+and  hammer,  and  give  them  two  or  three  good  coatings  of 
+shellac  varnish.  If  the  injuries  are  below  the  first  layer  of 
+the  armature,  it  will  be  necessary  in  most  cases  to  have  it 
+sent  to  the  factory  to  be  re-wound.  . 
+
+Excessive  heat  in  the  armature  will  very  often  char  the 
+insulation  of  one  or  more  coils  of  wire  entirely.  These 
+coils,  of  course,  must  be  taken  out  and  replaced  with  new 
+wire.  In  most  armatures  of  the  so-called  Gramme  pattern 
+this  can  be  easily  done.  In  armatures  of  the  Siemens  drum 
+pattern  it  will  necessitate  a  re-winding  of  the  whole  arma- 
+ture. The  over-heating  of  one  or  more  coils  of  an  armature 
+is  very  often  caused  by  the  short-circuiting  of  two  or  more 
+segments  of  the  commutator  by  means  of  copper  dust 
+which  has  been  allowed  to  settle  back  of  the  commutator, 
+or  by  excessive  sparking  of  the  brushes,  forming  little 
+bridges  of  metal  across  to  adjacent  commutator  segments. 
+
+B,  to  the  Field  Magnets. — The  faults  which  mostly  occur 
+in  field  magnets  consist  in  short-circuiting  coils,  or  in  get- 
+ting parts  of  the  field  wire  in  contact  with  the  iron  core. 
+The  field  wire  should  be  unwound  until  the  damaged  part 
+is  reached,  and  after  insulating  it  properly  as  described  be- 
+fore, it  should  be  wound  back  on  the  core.  If  it  should  be 
+necessary  to  take  a  considerable  amount  of  wire  off  the 
+field  in  this  way  it  will  be  advisable  to  put  the  damaged 
+field  magnet  in  a  lathe  and  do  the  unwinding  and  pe-wind- 
+ing  by  means  of  the  lathe. 
+
+CHAPTER    XXI. 
+
+Testing  the  Wire  Coils  of  a  Dynamo  for 
+Contact  Against  Iron. 
+
+The  iron  frame  of  each  dynamo  must  be  well  insulated 
+from  the  wire  coils  of  the  field,  the  armature  and  also  from 
+any  connection  with  the  earth.  If  one  of  these  wire  coils 
+should  get  in  contact  with  the  iron  frame  of  the  dynamo 
+and  the  latter  should  be  in  connection  with  the  earth  by 
+means  of  foundation  bolts,  etc.,  it  would  cause  what  is 
+
+
+2?,         D  YNAMO    TENDERS'  HAND-BOOK. 
+
+called  a  ground.  This  ground  must  be  considered  the 
+worst  enemy  of  electric  light  apparatus,  and  should  never 
+be  allowed  to  exist.  We  have  shown  how  to  test  for 
+grounds  in  Chapter  VI.  The  same  method  can  be  applied 
+in  testing  for  contact  between  field  wire  coils  or  armature 
+coils  and  the  iron.  During  the  test,  any  wires  leading  to 
+the  circuits  or  other  apparatus  should  be  disconnected  from 
+the  dynamo  in  order  to  make  sure  that  the  fault  really  lies  in 
+the  dynamo  itself.  Another  fault  sometimes  found  in  the 
+field  of  the  armature  is  called  a  short  circuit. 
+
+A  short  circuit  is  a  shunt  of  little  resistance  between  two 
+points  of  a  conductor.  Suppose  the  points  A  and  B,  in 
+Fig.  15,  are  set  in  some  way  in  connection.  It  is  clear  that 
+the  main  part  of  the  current  will  pass  through  A,  B,  and 
+but  very  little  current  will  pass  through  the  coil.  If  this 
+should  occur  in  the  armature,  the  coil  thus  short-circuited 
+in  itself  will  generate  currents  of  great  strength,  whicli  will 
+destroy  the  insulation  of  this 
+coil  in  a  very  short  time. 
+Generally  the  dynamo  tender 
+will  be  warned  by  a  smell  of 
+burnt  cotton  and  shellac.  If 
+this  fault  should  occur  in  a 
+field  magnet  it  would  de- 
+crease its  power,  and  thus 
+cause  the  different  magnets 
+of  the  field  to  be  of  unequal  FIG.  15 — A  SHORT  CIRCUIT. 
+strength.  It  may  cause 
+
+heating  of  the  field  in  shunt  and  compound  dynamos, 
+while  in  series  dynamos  it  will  simply  decrease  the 
+current  strength  generated  by  the  dynamo.  In  order 
+to  test  for  a  short  circuit  in  an  armature  coil,  or  a  field 
+magnet,  it  is  necessary  to  disconnect  each  field  coil,  or 
+each  armature  coil,  and  measure  by  proper  instruments  the 
+resistance  of  each  coil.  If  any  magnet  coil  shows  a  resist- 
+ance below  the  others,  it  is  short-circuited.  The  use  of  the 
+necessary  testing  apparatus  ca  i  not  be  described  here,  as  it 
+would  go  beyond  the  limits  of  this  little  book. 
+
+The  short  circuits  in  field  coils,  however,  can  very  often 
+be  found  without  the  use  of  finer  testing  instruments, 
+simply  by  the  use  of  the  detector  galvanometer  and  the 
+cell.  By  connecting  each  field  coil  in  series  with  galvanom- 
+eter and  ceU,  and  marking  the  deflection  of  the  galvanom- 
+eter, the  coil  which  will  show  the  greatest  deflection  is  the 
+one  which  is  short-circuited.  A  short-circuited  field  mag- 
+
+
+mm 
+
+^ 
+
+
+DYNAMO  ELECTRIC  MACHINES.          23 
+
+net  will  heat  less  than  a  sound  magnet  when  the  dynamo  is 
+generating  current.  A  break  of  the  field  wire  can  very 
+easily  be  found  by  means  of  the  galvanometer,  as  no  deflec- 
+tion would  be  obtained  at  all  through  the  broken  coil.  A 
+break  in  a  wir.e  coil  of  the  armature  could  only  be  found  by 
+disconnecting  all  wire  coils  from  the  commutator  and  from 
+each  other,  and  then  testing  each  coil  separately  in  the 
+manner  described.  This,  however,  would  involve  consid- 
+erable work  and  delay,  and  a  quicker  method  may  be  em- 
+ployed :  Set  the  dynamo  in  operation  ;  then  take  a  short 
+piece  of  wire  and  touch  the  commutator  with  the  two  ends 
+of  this  wire  at  a  distance  of  three  or  four  segments  apart, 
+
+
+FIG.  16. — TESTING  FOR   A   BREAK   IN  AN   ARMATURE 
+COIL. 
+
+Fig.  16.  If  the  machine  should  commence  to  generate 
+current,  an  electric  arc  will  be  formed  on  the  commutator 
+between  the  two  ends  of  this  wire,  and  indicate  there  is  a 
+break  in  the  armature  wire.  The  machine  must  be  shut 
+down  quickly,  as  otherwise  it  would  cause  damage  in 
+the  commutator  and  armature.  The  coil  of  the  armature 
+in  which  the  fault  lies  can  be  easily  recognized  by  the  burns 
+on  the  corresponding  segments  of  the  commutator.  Faults 
+of  this  kind  are  very  often  found  in  poor  contacts  between 
+two  coils,  or  between  a  coil  and  the  corresponding  copper 
+
+
+*4        DYNAMO    TENDERS'  HAND-BOOK. 
+
+bar  of  the  commutator.  Poor  contacts  will  cause  more 
+trouble  than  actual  breakage  of  the  wire.  Such  faults  will 
+often  destroy  certain  commutator  segments,  caused  by 
+increased  sparking  of  the  brushes  when  passing  these 
+points.  Hence,  if  only  one  or  two  commutator  segments 
+should  show  rapid  destruction  from  the  electric  spark,  all 
+the  connections  between  these  segments  to  the  correspond- 
+ing armature  coils  should  be  well  examined,  and,  if  neces- 
+sary, cleaned  and  well  tightened,  or  made  solid  with  solder. 
+The  poor  contact  between  parts  of  the  field  wire  coils  can 
+be  very  often  discovered  by  holding  a  piece  of  iron,  for 
+instance  a  machine  wrench,  near  the  pole  piece  without 
+touching  it.  If  the  contacts  are  good  the  wrench  will  be 
+attracted  with  a  uniform  force;  if  poor,  these  forces  will 
+vary  and  cause  a  singular  vibratory  motion  of  the  wrench 
+in  the  hand. 
+
+
+DISEASES   OF   DYNAMOS. 
+
+
+CHAPTER  XXII. 
+
+Non  -  generation   of  Current  by  the 
+Dynamo. 
+
+There  may  be  numerous  causes  for  such  an  occurrence. 
+
+First,  the  residual  magnetism  in  the  field  magnets  of  the 
+dynamo  may  be  too  weak.  Series  dynamos  can  be  started  in 
+such  a  case  when  running  at  normal  speed,  by  short  circuit' 
+ing  the  two  binding  posts  with  a  piece  of  wire  for  a  frac- 
+tion of  a  second  ;  if  short-circuited  too  long,  serious 
+damage  may  be  dpne  to  the  commutator.  This  operation 
+can  not  be  applied  to  shunt  dynamos,  as  they  will  not  gen- 
+erate any  current  when  the  binding  posts  of  the  machine 
+or  the  outgoing  wires  are  short-circuited.  In  order  to  start 
+shunt  dynamos,  the  external  circuit  must  be  disconnected 
+from  the  dynamo,  and,  after  the  dynamo  has  been  running 
+at  normal  speed  for  about  a  minute,  the  external  circuit 
+must  be  suddenly  thrown  on  the  dynamo. 
+
+Secondly,  poor  contacts  may  be  the  cause.  Every  con- 
+nection of  the  armature  and  the  magnets  should  be  closely 
+inspected.  If  necessary  the  contacts  should  be  cleaned  and 
+set  screws  tightened. 
+
+Thirdly,  the  insulation  of  the  binding  posts  and  the 
+brush  holders  may  be  in  poor  condition.  For  instance,  if 
+the  metal  bars  of  the  brush  holders  should  touch  the  quad- 
+rant, the  armature  would  be  short-circuited  and  no  current 
+would  be  generated.  Such  faults  can  be  very  easily* de- 
+tected by  means  of  the  detector  galvanometer,  as  described 
+in  Chapter  VI. 
+
+Fourthly,  if  one  or  more  field  magnets  are  short-circuited 
+the  dyoamo  will  generate  current,  but  the  current  will  not 
+be  at  normal  strength.  In  this  case  the  dynamo  should  be 
+examined,  as  described  in  Chapter  XXI. 
+
+Fifthly,  shunt  dynamos,  as  mentioned  heretofore,  will 
+not  generate  any  current  when  short-circuited.  This  is 
+especially  true  for  small  dynamos.  In  incandescent  lamp 
+installations,  for  instance,  it  may  happen  that  two  branch 
+wires  or  two  contact  points  in  a  lamp-holder,  are  short- 
+
+25 
+
+
+26        DYNAMO    TENDERS'  HAND-BOOK. 
+
+circuited.  Even  as  trivial  a  fault  as  this  may  be  sufficient 
+to  prevent  the  dynamo  from  generating  any  current  at  all. 
+By  taking  out  one  of  the  circuit  wires  and  putting  an  incan- 
+descent lamp  between  the  binding  posts  of  the  dynamo,  it 
+can  be  very  easily  discovered  whether  the  fault  is  in  the 
+dynamo  or  in  the  external  circuit.  If  the  lamp  burns  prop- 
+erly, the  fault  is  in  the  circuit.  If  it  does  not  burn  properly, 
+the  fault  is  in  the  dynamo.  If  the  fault  should  be  in  the 
+circuit,  insert  the  circuit  wire  suddenly  in  the  binding 
+post,  and  the  short  circuit  will  show  either  by  burning  out 
+or  by  fusing  a  safety  plug.  Great  care  should  be  taken  in 
+making  this  test  not  to  set  the  building  on  fire,  as  consider- 
+able sparking  and  often  melting  of  a  small  wire  may  be 
+caused  in  the  place  where  the  short  circuit  is.  If  the  short 
+circuit  should  be  heavy,  the  probability  is  that  the  belt  will 
+fly  off  the  dynamo  pulley.  In  such  a  case  the  short  circuit 
+must  be  located  by  means  of  the  detector  galvanometer.  It 
+is  advisable  to  watch  the  belt  before  inserting  the  wire  in 
+the  binding  post,  in  order  that  it  may  not  be  injured  by 
+being  thrown  off.  If  the  belt  on  the  dynamo  pulley  com- 
+mences to  squeak  and  the  lamp  between  the  binding  posts 
+commences  to  burn  dimly,  the  wire  should  be  pulled  quickly 
+back  again,  and  this  operation  not  carried  any  further,  but 
+the  fault  should  be  located  by  means  of  the  galvanometer. 
+
+
+CHAPTER  XXIII. 
+
+Excessive  Sparking  of  Commutator  and 
+Brushes, 
+
+The  causes  for  excessive  sparking  of  commutator  and 
+brushes  may  be  classified  as  follows : 
+
+First,  poor  condition  of  the  brushes  and  brush  holders. 
+
+Secondly p,  faulty  adjustment  of  the  brushes  [See  Chapters 
+XVIII  and  XIX]. 
+
+Thirdly,  the  surface  of  the  commutator  may  be  rough  or 
+covered  with  dirt  and  grease  [See  Chapter  XIX]. 
+
+Fourthly,  the  insulation  of  one  field  magnet  coil  may  be 
+injured  and  the  coil  short-circuited  in  itself.  If  one  magnet 
+is  more  excited  than  the  other,  one  brush  will  spark  more 
+than  the  opposite  one,  in  the  same  way  as  if  the  brushes 
+were  not  properly  adjusted. 
+
+Fifthly,  two  or  more  segments  of  the  commutator  may 
+be  short-circuited. 
+
+
+DISEASES   OF  DYNAMOS.  37 
+
+Sixthly  t  the  dynamo  may  be  overloaded.  This  will  cause 
+not  only  an  excessive  sparking  of  the  brushes  but  a  consid- 
+erable heating  of  the  armature  and  fields.  The  overloading 
+of  the  dynamo  may  be  caused  by  poor  insulation  of  the  ex- 
+ternal  circuit,  thus  causing  a  considerable  amount  of  current 
+to  escape  from  one  pole  to  the  other.  Grounding  of  the 
+external  wires,  which  frequently  happens  in  rainy  weather,, 
+will  bring  about  the  same  result. 
+
+In  arc  lighting,  lamps  may  be  fed  by  too  strong  a  current, 
+or  in  incandescent  lighting,  too  many  lamps  may  be  put  on 
+the  leads. 
+
+
+LAMPS. 
+
+CHAPTER  XXIV. 
+Arc  Lamps. 
+
+When  an  electric  current  has  passed  through  two  carbon 
+pencils  in  contact  with  each  other  and  then  separated,  an 
+electric  spark  will  jump  through  the  short  space  between 
+the  two  carbons  and  produce  what  is  called  the  electric  arc. 
+In  continuous  current  systems  the  positive  carbon  will  be- 
+come more  incandescent  than  the  negative  and  burn  about 
+twice  as  fast.  When  an  alternating  current  is  used  the  two 
+carbons  will  become  equally  incandescent  and  will  be  con- 
+sumed at  about  equal  rates. 
+
+In  continuous  current  machines  the  arc  lamps  are 
+so  arranged  that  the  upper  carbon  must  be  the  positive, 
+and  the  lower  carbon  the  negative.  The  upper  carbon  will 
+form  a  little  crater  and  reflect  the  light  downward, 
+Fig.  17.  It  is  very  important  to  have  the  distance  between 
+the  two  carbons  kept  uniform  at  all  times,  in  order  to  have 
+the  lamps  burn  steadily.  The  lengths  of  the  arcs  of  the 
+different  systems  vary  from  ^  to  *£  of  an  inch.  By  the 
+use  of  dark  glasses  one  can  observe  the  arc  without  injuring 
+the  sight.  Systems  using  the  short  arc  are  very  often  said  to 
+employ  low  tension,  while  systems  using  a  long  arc  are 
+said  to  employ  high  tension. 
+
+Arc  lamps  with  a  shoit  arc  use  a  current  from  1 8  to  25 
+amperes,  and  an  e.  m.  f.  of  from  25  to  35  volts,  while  arc 
+lamps  with  a  long  arc  use  a  current  of  from  7  to  12  am- 
+peres, and  an  e.  m.  f.  from  40  to  60  volts.  The  feeding 
+mechanism  of  an  arc  lamp  must  keep  the  arc  at  a  uniform 
+length  and  allow  the  positive  carbon  to  feed  down  at  the 
+proper  rate.  Lamps  in  which  both  carbons  are  feeding 
+towards  the  arc  are  called  focussing  lamps,  and  are  made 
+for  the  purpose  of  keeping  the  arc  in  one  spot,  so  a  pro- 
+jector may  be  used  to  advantage. 
+
+If  more  than  one  lamp  is  to  run  from  one  dynamo  a 
+shunt  must  be  provided  in  the  lamp,  Fig.  18.  These 
+lamps  are  generally  called  differential  lamps,  as  the  differ- 
+ence between  the  current  strength  passing  throughout  the 
+
+
+LAMPS.  29 
+
+coarse  wire  coil  Slf  and  the  current  strength  passing 
+through  the  fine  wire  coil,  S2,  operates  the  feeding  mechan- 
+ism. An  arc  lamp  which  is  to  be  run  alone  from  one  dy- 
+namo has  only  the  coarse  wire  coil.  The  current  passes 
+from  the  positive  binding  post  through  the  coil,  thence 
+through  a  contact  to  the  upper  carbon,  then  passes  through 
+the  lower  carbon  and  out  to  the  negative  binding  post. 
+
+
+FIG.  17.  — ARC  LIGHT  CARBONS. 
+
+The  iron  armature  or  core  which  is  connected  with  the 
+upper  carbon  holder  regulates  the  arc  according  to  the  in- 
+crease or  decrease  of  the  current  strength.  If  the  arc 
+elongates  too  much  the  current  strength  in  the  coil  will  de- 
+crease, and  allow  the  iron  core  to  drop.  On  the  other 
+hand,  if  the  length  of  the  arc  should  be  too  short  the  cur- 
+
+
+30        DYNAMO    TENDERS'   HAND-BOOK. 
+
+rent  strength  in  the  coil  will  increase  and  lift  the  iron  core, 
+thus  increasing  the  length  of  the  arc.  Fig.  1 8  illustrates 
+a  differential  lamp  as  used  when  a  series  of  lamps  are  run 
+from  one  dynamo.  The  lamp  has,  as  described  heretofore, 
+in  shunt  with  the  two  binding  posts,  a  fine  wire  coil  which 
+helps  to  regulate  in  the  following  manner :  The  current 
+through  the  circuit  must  be  kept  at  a  uniform  strength  ;  if 
+there  was  no  shunt  coil  an  increase  of  the  arc  of  one  lamp 
+would  decrease  the  current  strength  through  the  whole  cir- 
+cuit and  make  the  other  lamps  dim.  This  would  cause  a 
+permanent  fluttering  of  the  arcs  and  no  steady  light  could 
+be  obtained.  In  using  a  shunt  coil  each  lamp  is  made 
+practically  independent  of  the  other  lamps  in  the  same  cir- 
+cuit. If  the  arc  should  elongate,  the  flow  of  the  current 
+through  the  coarse  wire  coil  will  decrease,  but  at  the  sime 
+
+
+FIG.  18. —  SHUNT  FOR  ARC  LAMPS. 
+
+cime  will  increase  through  the  shunt  coil.  This  will  prac- 
+tically keep  the  current  strength  passing  from  the  positive 
+to  the  negative  binding  post  of  the  lamp  uniform  ;  at  the 
+same  time  a  decrease  of  the  strength  of  the  coarse  wire 
+coil  and  a  strengthening  of  the  fine  wire  coil  will  pull  down 
+the  upper  carbon  holder  and  regulate  the  arc  to  its  proper 
+length.  Each  system,  of  course,  will  necessarily  require 
+certain  special  instructions  which  cannot  be  given  here. 
+
+Arc  lamps  are  generally  connected  in  series,  as  shown  in 
+Fig.  19.  The  positive  binding  post  of  the  dynamo  con- 
+nects to  the  positive  binding  post  of  the  first  lamp,  the 
+negative  binding  post  of  the  first  lamp  to  the  positive  bind- 
+ing post  of  the  second  lamp,  and  so  on  until  finally  the 
+
+
+LAMPS.  & 
+
+negative  binding  post  of  the  last  lamp  connects  to  the  nega- 
+tive binding  pest  of  the  dynamo. 
+
+An  ammeter  should  be  connected  in  the  circuit  to  show 
+at  all  times  the  current  strength,  which  must  be  kept  con- 
+stant in  such  a  system.  The  e.  m.  f.  between  the  binding 
+post  of  the  dynamo  will  depend  upon  the  e.  m.  f.  of  each 
+lamp,  and  the  number  of  lamps  in  the  circuit.  If,  for  in- 
+stance, one  lamp  requires  50  volts,  and  there  are  ten  lamps 
+in  the  circuit  the  total  e.  m.  f.  between  the  binding  posts  of 
+the  dynamo  would  amount  to  50  x  10=500  volts.  Besides 
+the  ammeter  there  is  generally  a  hand  or  automatic  regula- 
+tor connected  in  the  circuit  to  enable  the  dynamo  tender  to 
+keep  a  constant  current  strength  in  the  circuit.  If  one  or 
+more  lamps  should  be  turned  out,  the  current  strength 
+would  increase  if  properly  arranged  devices  did  not  cut 
+
+_ i* 
+
+'  + 
+
+
+i 
+
+-t — ^ 
+
+FIG.  19. — ARC  LAMPS  IN  SERIES. 
+
+down  the  e.  m.  f.  cf  the  machine,  and  thus  keep  the  cur- 
+rent strength  at  its  normal. 
+
+CHAPTER    XXV. 
+Suspension  of  Arc  Lamps. 
+
+Arc  lamps  should  be  securely. fastened  and  properly  in- 
+sulated from  the  point  of  suspension.  When  used  outdoors 
+a  weather-hood  should  be  put  above  the  lamp  to  protect  it 
+from  rain  or  snow.  The  wires  leading  to  the  lamp  should 
+be  well  insulated  in  order  to  prevent  their  getting  in  con- 
+tact with  any  part  of  the  lamp,  except  the  binding  posts. 
+The  set  screws  of  the  binding  post  should  be  well  tightened. 
+
+If  cords  and  pulleys,  or  counterpoises  and  flexible  cables 
+are  used  for  raising  and  lowering  lamps  it  is  well  to  ex- 
+amine all  these  parts  carefully  every  few  months,  as  ropes 
+and  flexible  cables  will  wear  out,  and  the  lamps  or  counter- 
+poises may  drop,  and  bring  property  and  human  life  in 
+danger.  For  these  reasons  it  is  preferable  to  have  the 
+lamps  put  up  stationary,  or  devices  should  be  used  which 
+will  take  the  strain  off  the  ropes  or  cables  when  the  lamp  is 
+in  its  place. 
+
+
+32         DYNAMO    TENDERS'  HAND-BOOK. 
+
+CHAPTER  XXVI. 
+Trimming  and  Cleaning  Arc  Lamps. 
+
+Special  instructions  are  given  for  each  system  when  the 
+plant  is  put  in  operation.  The  following,  however,  are 
+general  rules  which  will  apply  to  all  systems  :  In  putting 
+in  the  carbons  care  should  be  taken  that  they  are  well 
+pointed,  and  that  they  are  not  too  long.  There  should  be 
+sufficient  space  to  allow  the  feeding  mechanism  to  separate 
+the  carbons  at  least  one-fourth  of  an  inch.  The  carbon 
+holders  and  all  other  parts  of  the  lamp  which  are  exposed 
+should  be  dusted  off  every  time  before  putting  in  new  car- 
+bons. The  carbon  rods  should  be  cleaned  with  a  clean  rag 
+moistened  with  benzine  or  spirits  of  ammonia  every  day. 
+Contact  points  and  binding  screws  are  to  be  kept  clean  and 
+well  tightened.  The  upper  carbon,  as  has  been  described, 
+will  be  consumed  about  twice  as  fast  as  the  lowrer  one  ; 
+hence  the  upper  carbon  should  be  twice  as  long  as  the 
+lower  carbon.  Generally  the  upper  carbon  is  made  12 
+inches  long,  and  the  lower  carbon  6  inches  long.  One  set 
+of  carbons  will  last  from  5  to  8  hours  according  to  the  cur- 
+rent and  kind  of  carbons  used.  Larger  carbons  will  burn 
+longer  than  carbons  of  smaller  diameter  ;  but  generally 
+lamp's  will  burn  more  steadily  with  carbons  of  smaller 
+diameter  than  with  those  of  larger  diameter.  Short-arc 
+lamps  use  mostly  carbons  from  seven-sixteenths  to  one-half 
+inch  diameter,  while  long-arc  lamps  use  carbons  from 
+three-eighths  to  seven-sixteenths  inch  diameter.  Carbons 
+should  be  kept  in  a  dry  place. 
+
+CHAPTER  XXVII. 
+Incandescent  or  Glow  Lamps. 
+
+An  incandescent  lamp  consists  of  a  carbon  filament 
+inclosed  in  a  glass  globe  from  which  the  air  has  been 
+exhausted  by  means  of  an  air  pump.  The  electric  current 
+passes  through  the  carbon  filament,  which  offers  so  much 
+resistance  that  it  becomes  very  hot  and  glows,  or,  as  we 
+say,  becomes  incandescent.  Most  incandescent  lamps  are 
+made  for  an  e.m.f.  of  from  50  to  120  volts.  Lamps  should 
+always  be  burned  at  the  proper  e.m  f.  If  they  run  above 
+the  normal  e.m.f.,  the  candle  power  will  be  increased,  but 
+the  life  of  the  lamp  will  be  very  much  shortened.  Incandes- 
+
+
+LAMPS.  33 
+
+cent  lamps  can  be  connected  to  the  dynamo  in  various 
+ways;  for  isolated  plants  they  are  generally  connected  in 
+parallel  or  multiple  arc 
+
+CHAPTER  XXVIII. 
+Multiple  Arc  System. 
+
+Fig.  20  shows  the  method  of  connecting  lamps  to  the 
+dynamo  in  multiple  arc.  Each  lamp  is  independent,  and 
+any  number  of  lamps  can  be  switched  in  or  out  without 
+interfering  with  the  other  lamps,  provided  the  e.m.f.  be- 
+tween the  parallel  mains  is  kept  constant.  Generally  lamps 
+of  the  same  e.m.f.  are  connected  in  the  same  system,  but 
+
+
+FIG.  20.  —  LAMPS  IN  MULTIPLE  ARC. 
+
+if,  for  instance,  we  should  want  to  use  50  volt  and  100  volt 
+lamps  in  the  same  system,  we  would  connect  the  loo  volt 
+lamps  direct  between  the  mains,  as  shown  in  the  drawing; 
+with  A,  and  the  50  volt  lamps  in  series  of  two.  with  B, 
+The  two  lamps  marked  B,  of  course,  are  not  independent, 
+if  one  should  break  or  be  switched  out,  the  other  lamps 
+would  go  out  also. 
+
+CHAPTER  XXIX. 
+Multiple  Series  System. 
+
+In  some  cases  it  is  necessary  to  use  dynamos  of  a  higher 
+e.m.t.  for  incandescent  lighting,  and  in  such  cases  the 
+lamps  are  connected  between  the  two  mains  in  series, 
+Fig.  21.  If,  for  instance,  the  electromotive  force  of  the 
+dynamo  is  500  volts,  and  100  volt  lamps  should  be  used, 
+five  lamps  would  have  to  be  connected  in  series  in  order  to 
+
+
+34 
+
+
+DYNAMO    TENDERS'  HAND-BOOK. 
+
+
+divide  the  e.m.f.  properly.  In  this  system,  of  course,  if 
+one  lamp  in  one  series  should  break,  the  other  lamps  of 
+this  series  would  go  out  also.  This  has  been  practically 
+
+
+FIG.  21.  —  LAMPS  IN  MULTIPLE  SERIES. 
+
+avoided  by  providing  each  lamp,  Fig.  22,  with  a  little  cut 
+out  and  connecting  in  the  circuit  an  extra  lamp  or  a  resst- 
+ance  coil.  If  one  lamp  should  break  or  be  switched  out, 
+the  cut-out  will  switch  into  its  place  an  equal  resistance. 
+This  arrangement  will  prevent  any  other  lamp  in  the  series 
+from  going  out,  and  sustain  the  same  current  strength 
+through  the  whole  series  at  all  times.  The  device  is 
+explained  by  Fig.  23,  in  which  M  is  the  magnet,  A  arma- 
+ture, R  resistance  equal  to  lamp,  C  contact,  and  L  lamp. 
+
+The  current  generated  by  the  dynamo  in  the  multiple 
+series  system  will  be  in  proportion  to  the  number  of  series 
+burning.  The  more  series  switched  in,  the  more  current 
+will  be  required.  In  this  system,  as  well  as  in  the  multiple 
+arc  system,  a  constant  e.m.f.  is  required  in  the  main  wires, 
+
+
+LAMPS. 
+
+
+35 
+
+
+while  the  current  strength  will  vary  in  proportion  to  the 
+
+number  of  lamps  or  number  of  series. 
+
+\  In  the  multiple  series  sys- 
+
+tem, of  course  the  switching 
+out  of  one  or  more  lamps  in 
+a  group  will  not  result  in 
+any  saving  in  the  power  of 
+the  engine  or  waterwheel;  a 
+saving  is  effected  only  by 
+switching  out  one  whole  se- 
+ries or  more  at  a  time.  This 
+is  a  disadvantage  in  compar- 
+ison with  the  multiple  arc 
+system,  in  which  the  switch- 
+ing out  of  one  lamp  means  a 
+proportional  reduction  in 
+the  power  needed  to  run  the 
+dynamo. 
+
+A  little  saving  in  power  is 
+of  no  consequence  where  fuel 
+is  cheap  or  a  waterwheel 
+is  used. 
+
+
+FIG.  22.  —  LAMP  IN 
+MULTIPLE  SERIES. 
+
+In  larger  stores,  or 
+places  of  amusement, 
+where  all  the  lights 
+are  required  at  one 
+time  the  multiple  se- 
+ries system  in  regard 
+to  saving  of  power 
+stands  on  an  equal 
+footing  with  the  mul- 
+tiple arc  system. 
+
+
+FIG.  23.  —  CUT- 
+OUT  FOR  LAMP 
+IN  MULTIPLE 
+SERIES, 
+
+
+3c        DYNAMO    TENDERS'   HAND-BOOK. 
+
+CHAPTER  XXX. 
+Series  Multiple  System. 
+
+In  this  system  the  current  strength  of  the  dynamo  must 
+be  constant,  and  the  number  of  lamps  for  each  group  will 
+depend  upon  the  current  strength  generated  by  the  dynamo 
+and  the  current  strength  required  for  each  lamp, 
+Fig.  24.  For  instance,  the  current  of  the  dynamo  is  10 
+amperes,  and  each  lamp  requires  2  amperes  ;  5  lamps  would 
+be  connected  in  each  group,  to  divide  the  current  properly 
+and  give  each  lamp  its  share.  Of  course,  instead  of  2 
+
+
+-o- 
+-o 
+-o- 
+-o- 
+-o- 
+
+FIG.  24.  —  LAMPS  IN  SERIES  MULTIPLE. 
+
+lamps  of  2  amperes,  I  lamp  of  4  amperes,  or  4  lamps  of  I 
+ampere,  could  be  used. 
+
+All  the  lamps,  however,  in  one  group  must  be  of  the 
+same  e.  m.  f.  In  this  system  the  e.  m.  f.  of  the  dynamo 
+must  be  varied  in  proportion  to  the  number  of  series  burn- 
+ing in  a  similar  way  as  in  an  arc  light  circuit.  In  fact,  in 
+in  this  sense  each  group  of  lamps  can  be  considered  as  an 
+arc  lamp,  and  this  is  the  reason  that  persons  engaged  in 
+the  electric  light  business  very  often  speak  of  incandescent 
+lamps  running  on  arc  light  wires,  simply  meaning  that  the 
+lamps  are  connected  in  series  multiple,  as  explained. 
+
+
+CHAPTER   XXXI. 
+
+Arc  and   Incandescent  Lamps  on  the 
+Same   Circuit, 
+
+It  can  be  easily  seen  that  in  place  of  a  group  of  incan- 
+descent lamps  in  the  series  multiple  system,  as  described, 
+
+
+LAMPS.  37 
+
+an  arc  lamp  may  be  inserted,  Fig.  25.  Such  a  combina- 
+tion, however,  is  neither  advisable  nor  practical  as  the 
+fluctuations  of  the  arc  lamps  will  show  in  the  incandescent 
+lamps. 
+
+In  this  system,  as  well  as  in  the  series  multiple  system, 
+a  similar  disadvantage  to  that  described  in  Chapter  XXIX, 
+will  occur  if  one  of  the  lamps  should  break.  The  lamps, 
+
+
+FIG.  25. — ARC  AND  INCANDESCENT  LAMPS  ON  THE 
+
+SAME  CIRCUIT. 
+
+of  course,  wilt  not  go  out,  but  if  one  lamp  should  break,, 
+the  remainder  of  the  lamps  in  the  same  group  will  brighten 
+up  considerably  and  thus  injure  the  life  of  the  lamps.  If 
+not  discovered  in  time,  more  lamps  may  break  and  finally 
+the  whole  series  may  go  out  and  break  the  circuit  entirely. 
+The  breakage  of  the  last  lamp  in  the  series  might  cause 
+
+
+33         DYNAMO    TENDERS'  HAND-BOOK. 
+
+considerable  "damage  to  property,  as  owing  to  the  high  e. 
+m.  f.  of  the  dynamo,  a  considerable  arc  may  be  set  up 
+which  may  destroy  the  lamp  fixtures  and  set  fire  to  the 
+building.  The  disadvantage  can  be  overcome  by  the  same 
+cut-outs  as  described  in  chapter  XXIX,  so  that  if  one  lamp 
+should  break  or  be  switched  out,  an  equal  resistance  will 
+be  shunted  in  and  an  even  distribution  of  the  current 
+among  the  lamps  will  be  kept  up.  In  some  systems  one 
+single  distributing  box  is  used  in  place  of  the  single  resist- 
+ances and  cut-outs.  The  principle,  however,  is  the  same. 
+If  one  or  more  lamps  break  or  are  switched  out,  a  resist- 
+ance is  put  between  the  wires  of  the  series  automatically, 
+thus  causing  the  same  result,  namely,  keeping  up  a  constant 
+strength  of  current  for  each  individual  lamp. 
+
+CHAPTER  XXXII. 
+The  Alternating  System. 
+
+In  this  system,  Fig.  26,  alternating  currents  of  high   e. 
+
+
+I 
+
+
+itii 
+
+
+'/V.  (HI 
+
+FIG.  26.  —  ALTERNATING   SYSTEM. 
+
+m.  f.  are  employed.  These  currents  traverse  the  primary 
+wires  of  induction  coils  while  the  lamps  are  placed  in  cir- 
+cuit with  the  wires  of  the  secondary  coil.  Owing  to  the 
+high  e.  m.  f.  employed  in  the  main  conductors  the  latter 
+may  be  made  very  small  and  lamps  can  be  run  at  long  dis- 
+tance requiring  a  comparatively  small  investment  for  cop- 
+per wire. 
+
+The  induction  coils  called  converters  or  transformers  aie 
+connected  in  multiple  arc  with  the  mains.  The  incandes- 
+cent lamps  are  also  connected  in  multiple  arc  with  the  wires 
+starting  from  the  secondary  coil.  Each  lamp  in  this 
+system  is  independent  of  the  others  and  may  be  switched 
+in  or  out  at  will. 
+
+Arc  lamps  may  be  run  in  this  system  at  the  same  time 
+with  incandescent  lamps. 
+
+
+INSTRUMENTS. 
+
+
+CHAPTER  XXXIII. 
+Current     Indicator    or    Ampere    Meter. 
+
+This  apparatus  is  to  indicate  the  current  strength  at  all 
+times.  It  should  be  put  up  in  each  case  where  a  constant 
+current  strength  is  requited  as  in  arc  light  circuits  or  m  the 
+series  multiple  system  of  incandescent  lighting.  The  in- 
+strument must  be  connected  in  series  with  the  arc  lamps  or 
+with  the  groups  of  incandescent  lamps  in  the  series  multiple 
+system.  It  is  also  used  in  the  multiple  arc  or  multiple 
+
+
+FIG.  27.  —  POSITION  OF  AMMETER. 
+
+series  system  and  is  always  put  in  one  outgoing  wire  of  the 
+dynamo,  Fig.  27. 
+
+
+CHAPTER    XXXIV. 
+
+Pressure  or  Potential  Indicator,  or  Volt- 
+meter. 
+
+This  instrument  is  absolutely  necessary  on  dynamos 
+which  must  be  kept  at  a  constant  e.  m.  f.,  as  in  the  multiple 
+arc  or  multiple  series  system  of  incandescent  lighting.  The 
+
+39 
+
+
+40        DYNAMO   TENDERS'  HAND-BOOK. 
+
+
+instrument  is  connected  in  parallel  with  the  lamps,  as  shown 
+m  Fig.  28. 
+
+
+9     9 
+
+
+£L£CTfllCMfft  CHf. 
+
+
+VOLTMETER 
+
+
+FIG.  28. —  POSITION  OF  VOLTMETER. 
+
+
+CHAPTER   XXXV. 
+Current  Regulator. 
+
+This  instrument,  also  called  rheostat  or  resistance  box, 
+consists  of  a  box  which  contains  wire  or  some  other  resist- 
+ance and  which  can  be  switched  in  or  out  of  the  electric 
+circuit  by  means  of  a  crank.  If  this  is  to  be  done  by  hand, 
+the  instrument  is  called  a  hand  regulator  ;  if  done  automat- 
+ically it  is  called  an  automatic  regulator. 
+
+The  regulator  for  series  dynamos  is  connected  anywhere 
+in  the  circuit,  the  whole  current  generated  by  the  dynamo 
+passing  through  it.  By  putting  more  or  less  resistance  in 
+the  circuit,  the  current  flowing  through  the  other  parts  of 
+the  circuit  can  be  strengthened  or  weakened.  In  shunt 
+dynamos  the  regulator  is  put  in  the  shunt  winding  of  the 
+
+
+FIG.  29. —  SWITCH. 
+
+field.     Putting  in  or  taking  out  the  resistance' decreases  or 
+increases  the  strength  of  the  field  magnets  and  thus  con- 
+
+
+INSTRUMENTS.  41 
+
+trols  the  current  generated  in  the  armature.  In  some  arc 
+light  dynamos  the  regulation  of  the  current  is  effected  by 
+putting  more  or  less  resistance  in  shunt  with  the  field  cir- 
+cuit, and  in  others  by  automatic  devices  for  shifting  the 
+brushes.  The  movement  of  the  latter  towards  the  neutral 
+point  will  increase  the  current,  while  moving  them  in  an 
+opposite  direction  will  decrease  the  current  strength.  [See 
+Chapter  XVIII,  Fig.  13.] 
+
+CHAPTER  XXXVI. 
+Switches. 
+
+A  switch  is  an  instrument  to  break  or  make  circuit,  or, 
+in  other  words,  to  cut  off  the  current  in  certain  places  for  a 
+number  of  lamps  or  cut  them  in  again.  The  switches 
+should  be  constructed  so  that  they  will  open  and  close  very 
+quickly  and  not  show  very  much  sparking.  [See  Fig.  29.] 
+This  is  accomplished  by  having  the  switch  so  arranged 
+
+
+FIG.  30.  —  TWO-WAY  SWITCH. 
+
+that  the  human  hand  will  start  it,  while  a  powerful  spring 
+throws   the   switch  open   or   closes  it  immediately. 
+
+
+The 
+
+
+42        DYNAMO    TENDERS'  HAND-BOOK. 
+
+contact  should  be  sufficient  to  prevent  any  heating  at  these 
+points. 
+
+Two-way  switches  are  used  in  various  ways ;  for  in- 
+stance, for  two  different  sets  of  lamps.  It  one  set  of 
+lamps  is  not  required,  the  handle,  as  shown  in  Fig.  30,  is 
+moved  from  A  to  B>  and  the  lamps  marked  X  will  go  out, 
+while  those  marked  Y  will  be  started. 
+
+CHAPTER    XXXVII. 
+Safety  Devices. 
+
+Strips  of  an  alloy  which  fuses  at  a  low  temperature  are 
+used  as  safety  devices,  or  plugs,  in  incandescent  wiring. 
+The  cross-section  of  the  plug'  must  be  of  such  size 
+
+
+FIG.  31.  —  POSITION  OF  SAFETY  PLUGS. 
+
+that  it  will  melt  before  the  wire  it  protects  gets 
+dangerously  warm.  Hence,  the  diameter  of  the  safety 
+plug  depends  upon  the  cross-section  of  the  wire  to  be  pi  o- 
+tected  and  not  upon  the  number  of  the  lamps.  The  safety 
+plug  is  not  supposed  to  protect  incandescent  lamps  from 
+an  excess  of  current,  but  to  protect  the  building  from  fire 
+by  preventing  any  part  of  the  electric  light  conductors 
+from  getting  too  hot.  The  marking  of  safety  plugs  with 
+the  number  of  lamps  they  can  carry  has  misled  many  an 
+employe  of  an  electric  light  company  to  think  that  the 
+plugs  are  put  in  for  the  protection  of  a  certain  number  of 
+lamps.  The  marking  of  the  plugs  simply  expresses  their 
+carrying  capacity  in  16  candle  power  lamps  instead  of  in 
+amperes.  See  Fig  31,  in  which  safety  plugs  are  marked  S. 
+
+
+INSTRUMENTS. 
+
+
+The  blowing  out  of  safety  plugs  is  very  often  caused,  not 
+by  an  excess  of  current,  but  by  poor  contact  between  safety 
+plug  and  safety  plug  holder.  A  poor  contact,  of  course, 
+will  generate  heat,  which  will  gradually  fuse  the  metal  on 
+one  end.  It  is  best  to  have  double  pole  safety  plugs. 
+
+CHAPTER  XXXVIII. 
+Lightning  Arresters. 
+
+Where  electric  light  lines  are  put  up  outside  of  buildings 
+they  are  liable  to  be  struck  by  lightning.  To  meet  such  a 
+contingency,  the  dynamo  and  station 
+apparatus  are  protected  by  a  lightning 
+arrester.  Fig.  32  shows  the  simplest 
+form  of  a  lightning  arrester  ;  D  repre- 
+sents the  dynamo  ;  A  and  B  are  brass 
+plates,  through  which  the  two  outgo- 
+ing wires  pass,  and  C  is  a  brass  plate 
+connecting  to  moist  earth.  The  space 
+between  the  toothed  sides  of  A  and  B 
+and  the  center  plate  C  is  adjusted  to 
+the  thickness  of  a  piece  of  card  board. 
+If  lightning  should  come  in  on  one  of 
+the  wires,  it  would  leap  over  this  nar- 
+row space  and  run  into  the  ground 
+without  doing  any  serious  mischief. 
+Such  an  arrester  will  keep  the  lines 
+discharged,  and  very  often  during  a 
+thunder  storm  the  atmospheric  elec- 
+tricity will  continuously  leap  across 
+these* plates  in  the  form  of  blue,  sparks. 
+These  discharges  may  sometimes 
+cause  the  center  plate  to  fuse  to  one  or 
+even  both  toothed  plates.  In  the  lat- 
+ter case,  the  current  of  the  dynamo 
+may  follow  the  arcs  which  are  simulta- 
+neously set  up  between^,  C  and  B, 
+C.  If  the  center  plate  should  be  fused 
+to  both  toothed  plates  the  dynamo 
+would  be  short-circuited  through  A, 
+C,  B,  and  the  belt  would  be  thrown 
+off  or  the  armature,  and  possibly  some 
+of  the  instruments  in  the  circuit,  might 
+FIG.  32.— LIGHT-  be  burned. 
+
+KING  ARRESTER. 
+
+
+44        DYNAMO   TENDERS'  HAND-BOOK. 
+
+In  order  to  prevent  such  an  accident,  numerous  devices 
+have  been  designed  to  operate  in  connection  with  the 
+lightning  arrester.  They  may  be  classified  as  follows  : 
+
+First,  Safety  fuses  inserted  between  the  dynamo  and  the 
+strips  A  and  B.  They  will  fuse  when  the  dynamo  is  short- 
+cuited,  break  the  current  and  thus  save  the  armature. 
+
+Secondly,  Electro-magnets  which  are  energized  when  the 
+dynamo  is  short-circuited  and  open  the  circuit. 
+
+Thirdly,  Devices  which  will  extinguish  any  electric  arc 
+that  might  be  formed  between  C  and  A  or  C  and  B.  Such 
+devices  are  based  on  the  principle  that  a  magnet  will 
+attract  the  electric  arc  and  pull  it  away  from  the  plates  A 
+and  C  or  B  and  C. 
+
+Whatever  devices  are  used,  one  important  point  should 
+not  be  overlooked.  This  is  the  absolute  necessity  of  a 
+good  earth  contact.  The  wire  leading  from  C  to  earth 
+should  be  at  least  a  number  4  Brown  &  Sharpe  copper  wire. 
+This  wire  should  be  solidly  connected  and  soldered  to  a 
+galvanized  iron  plate  al  least  %  incn  thick  and  having  an 
+area  of  at  least  ten  square  feet  on  each  side.  If  a  pipe  is 
+used  instead  of  a  plate,  the  internal  area  is  not  to  be  con- 
+sidered, but  twenty  square  feet  of  external  area  is  neces- 
+sary. This  earth  plate  should  be  sunk  so  deeply  in  the 
+earth  that  even  during  a  dry  season  it  will  always  be  in 
+moist  ground.  A  well  or  a  stream  of  water  is  preferable. 
+The  earth  wire  should  also  be  connected  to  water  pipes  or 
+gas  pipes  if  they  are  near  by.  Such  a  connection,  how- 
+ever, is  not  a  substitute  for  the  earth  plate,  which  is  a 
+necessity  under  any  circumstances. 
+
+The  conductor  of  the  lightning  rod  of  a  building  must 
+not  be  connected  with  the  earth  wire  of  a  lightning 
+arrester. 
+
+All  connections  underground  must  be  soldered  and  then 
+painted  with  asphaltum  to  prevent  corrosion  and  poor 
+contacts.  Poor  connections  with  the  earth  are  very  often 
+the  cause  of  the  unsatisfactory  working  of  lightning  arresters. 
+
+It  should  be  borne  in  mind  that  no  lightning  arrester  is 
+an  absolute  safeguard  against  the  freaks  of  lightning. 
+Very  long  circuits,  especially  those  not  protected  by  tall 
+buildings  or  trees,  are  very  liable  to  be  struck  by  lightning. 
+In  such  cases  extra  devices  at  some  points  along  the  line 
+must  be  put  up  as  an  additional  protection. 
+
+The  jaws  of  the  lightning  arrester  should  be  kept  clean 
+and  at  a  proper  distance.  It  is  advisable  to  run  a  card- 
+board between  the  plates  every  day  to  make  sure  that  the 
+jaws  are  at  a  proper  distance  from  each  other. 
+
+
+INSTRUMENTS.  45 
+
+CHAPTER  XXXIX. 
+Ground  Detector. 
+
+It  is  absolutely  necessary  to  test  electric  light  circuits 
+frequently,  and  this  means  at  least  once  a  day,  for  grounds. 
+In  incandescent  light  installations  which  run  continuously, 
+arrangements  to  indicate  a  ground  while  the  dynamo  is 
+running  should  be  made.  A  simple  form  of  ground  detector 
+is  shown  in  Fig.  33.  Two  lamps  are  connected  in  series 
+
+
+FIG.   33.  —  GROUND  DETECTOR. 
+
+between  the  mains  near  the  dynamo.  A  wire  leading  to 
+earth  is  connected  between  the  two  lamps  ;  a  safety  plug 
+and  a  switch  are  put  into  the  earth  wire.  If  there  is  no 
+ground  on  the  line  the  two  lamps  will  burn  very  dimly  but 
+at  equal  candle  power.  If  a  ground  should  occur  anywhere 
+in  the  circuit,  say  on  the  positive  pole,  the  earth  wire 
+and  the  ground  will  form  a  shunt  of  low  resistance  to  the 
+lamp  nearest  the  positive  wire  ;  the  result  will  be  that  lamp 
+A  will  dim  down  and  lamp  B  will  brighten  up.  Sometimes 
+it  may  occur  that  both  poles  of  a  circuit  are  grounded  and 
+
+
+46        DYNAMO    TENDERS'  HAND-BOOK. 
+
+
+that  the  grounds  are  of  about  equal  resistance.  In  such  a 
+case  the  two  lamps  will  burn  equal  y  dimly.  By  switching 
+out  one  lamp,  however,  it  can  be  seen  whether  the  lines  are 
+grounded  or  not  If  the  other  lamp  also  goes  out  the 
+lines  are  not  grounded,  but  if  the  other  lamp  continues  to 
+burn  the  lines  are  grounded  on  both  poles.  To  make  this 
+test  one  lamp  should  be  provided  with  a  socket  with  key. 
+Instead  of  two  lamps  a  galvanometer  with  two  coils  con- 
+nected in  the  same  manner  as  the  two  lamps  may  be  used. 
+The  needle  will  stand  at  zero  when  there  is  no  ground  on 
+the  line  and  deflect  as  soon  as  the  wire  gets  grounded.  Any 
+grade  of  sensitiveness  may  be  given  such  an  instrument. 
+
+CHAPTER  XL. 
+Switch-Board. 
+
+A  switch-board  is  used  in  larger  plants  to  connect  any 
+dynamo  with  any  circuit.  Of  course  only  dynamos  of  the 
+same  kind  can  be  made  interchangeable.  For  arc  lamp 
+plants,  plug  switch-boards  are  generally  employed.  Short 
+cables  with  a  plug  on  each  end  caa  he  inserted  in  the  differ- 
+
+
+D2 
+
+
+» 
+c2! 
+
+
+W&TCffM  eiECr/1/CMN.  CHt. 
+
+FIG.  34.  —  SWITCH  -  BOARD. 
+
+ent  sockets.     The  latter  are  marked  with  +  or  — ,  and  with 
+D  (dynamo),  C  (circuit).  In  addition,  they  are  marked  with  a 
+
+
+INSTRUMENTS.  47 
+
+number.  For  instance,  D  I  (meaning  dynamo  number  i) 
+can  be  connected  to  C  2  (circuit  number  2),  and  so  on. 
+Fig.  34  is  a  diagram  showing  the  arrangement  of  a  switch- 
+board. 
+
+In  incandescent  plants  large  lever  switches  are  generally 
+used,  as  large  enough  plugs  could  not  be  conveniently 
+made  to  carry  the  heavy  currents  of  incandescent  circuits. 
+
+
+CIRCUITS   OR    LEADS. 
+
+
+CHAPTER   XLI. 
+Outdoor  Leads  for  Arc  Lighting, 
+
+The  wire  used  for  outdoor  circuits  is  mostly  what  is  called 
+anderwriters'  standard.  It  consists  of  a  copper  wire  which 
+is  braided  with  cotton  and  painted  with  asbestos  to  make  it 
+uninflammable.  This  wire  is  fastened  to  glass  insulators 
+on  poles  or  houses  in  a  way  similar  to  that  in  which  tele- 
+graph wires  are  usually  run.  Insulated  wire,  and  not  bare 
+wire,  should  be  used  for  tie  wire,  as  the  common  non- 
+insulated  tie  wire  will  cut  the  insulation  of  the  line  wire 
+and  possibly  cause  leaks.  The  size  of  arc  light  conductors 
+varies  between  numbers  6  and  4,  Brown  &  Sharpe  gauge, 
+number  6  being  the  smallest  wire  which  can  be  used, 
+according  to  the  rules  of  the  National  Board  of  Fire  Under- 
+writers. If  the  return  wire  is  fastened  on  the  same  poles, 
+the  positive  and  negative  wires  should  be  kept  sufficiently 
+far  apart  so  they  can  not  touch  each  other  when  swung  by 
+wind.  It  must  be  understood  that  the  insulation  called 
+underwriters'  standard  is  only  an  insulation,  when  per- 
+fectly dry, and  when  wet  is  hardly  any  insulation  at  all.  If, 
+therefore,  the  positive  and  negative  wires  exposed  to  rain 
+or  moisture  of  any  kind  should  come  in  contact  with  each 
+other  or  with  the  ground,  a  short  circuit  would  be  caused. 
+This  may  cut  a  number  of  lamps  suddenly  out  and  cause 
+damage  to  the  dynamo.  Such  an  accident,  for  instance, 
+may  burn  out  the  armature  or  throw  off  the  belt.  In  very 
+cold  weather  such  occurrences  are  rare,  as  frost  may  make 
+out  of  a  circuit  of  the  poorest  insulation  one  of  very  high 
+insulation,  while  on  the  other  hand  a  thaw  or  rain  may 
+cause  all  kinds  of  disturbances.  If  these  disturbances  occur 
+during  a  thunder  storm  accompanied  by  rain,  lightning  is 
+often  unjustly  accused  of  having  done  the  mischief,  while 
+in  fact  the  poor  insulation  of  the  wires  is  the  prime 
+cause. 
+
+Accidents  from  poor  insulation  of  lines  are  more  frequent 
+than  damages  caused  by  lightning,  though  the  latter  will 
+48 
+
+
+CIRCUITS  OR  LEADS. 
+
+
+49 
+
+
+always  be  a  ready  excuse  for  anything  that  may  have  hap- 
+pened. Recently  weather  and  water-proof  insulation  have 
+come  in  vogue,  and  they 
+are  much  safer  than  under- 
+writers' standard  wire. 
+
+In  conducting  wires  into 
+houses,  great  care  must  be 
+taken  to  prevent  rain  follow- 
+ing the  wires.  The  wire 
+should  be  fastened  to  the 
+insulator  below  the  point 
+where  it  is  intended  to  be 
+led  through  the  wall  or  a 
+window  frame,  so  the  rain 
+would  have  to  run  up  hill  in 
+order  to  follow  the  wire, 
+Fig.  35. 
+
+FIG.  35,  —  PROPER  POSI- 
+TION OF  INSULATOR. 
+
+
+Fig.  36  shows  a  wood 
+pin  and  glass  insulator, 
+such  as  are  used  on  cross- 
+arms.  The  latter  are  fast- 
+ened to  poles  by  means  of 
+|lag  screws.  Fig.  37  illus- 
+'trates  a  wood  bracket, 
+which  can  be  spiked  to 
+poles  or  houses  ami  pro- 
+vided with  a  glass  insulator. 
+The  glass  insulators  must 
+always  be  fastened  in  a 
+nearly  vertical  position,  the 
+closed  end  on  top,  so  the 
+space  between  the  pin  and 
+glass  insulator,  Fig.  36, 
+will  remain  dry  in  rainy 
+weather  and  secure  perfect 
+insulation. 
+
+
+FIG.  36. —WOOD  | 
+PIN  AND  GLASS  I, 
+INSULATOR. 
+
+
+FIG.  37. — WOOD  BRACKET. 
+
+
+50        DYNAMO    TENDERS'  H AMD-BOOK. 
+
+Fig.  38  shows  a  rubber  hook  insulator.     This  should  for 
+the  same  reason  be  fastened  with  the  hook  downward      A 
+
+
+FIG.  38.  —  RUBBER  HOOK  INSULATOR. 
+
+hole  can  be  bored  with  a  $  inch   bit  underneath  a  cross- 
+arm  and  the  rubber  hook  screwed  in  with  a  wrench. 
+
+An  extra  heavy  insulating  material,  such  as  rubber  hose 
+or  hard  rubber  or  porcelain  tube,  Fig.  39,  must  be  put  over 
+the  wires  where  they  pass  through  walls  or  partitions. 
+
+
+FIG.  39.  —  HARD  RUBBER  TUBE. 
+
+Poles  for  lines  should  be  set  deep  enough  in  the  ground; 
+the  depth,  of  course,  will  depend  upon  the  soil  and  the 
+height  of  the  pole.  In  sand,  at  least  one-fifth  of  the  length 
+of  the  pole  should  be  buried  in  the  ground,  while  in  rock 
+one-tenth  of  the  length  is  sufficient.  In  putting  up  wires, 
+
+
+CIRCUITS  OR  LEADS. 
+
+
+the  season,  or,  in  other  words,  the  temperature,  should  be 
+taken  into  consideration,  allowing  for  contraction  in  cold 
+weather.  If,  for  instance,  a  wire  should  be  put  up  very 
+tight  in  July,  it  would  cause  a  good  deal  of  damage  in 
+breaking  off  glass  insulators  and  pins  as  soon  as  the  tem- 
+perature fell  to  zero  and  caused  the  wire  to  contract.  Cor- 
+ner poles  must  be  braced  or  anchored  to  keep  them  in  a 
+nearly  vertical  position.  See  Figs.  40  and  41. 
+
+
+FIG.  40.  —  CORNER  POLE  ANCHORED. 
+
+When  a  splice  is  necessary,  it  should  be  made  after  the 
+fashion  of  the  American  telegraph  splice,  Fig.  42,  and 
+should  be  perfectly  clean  and  solidly  soldered  and  then 
+well  taped  with  insulating  tape.  In  order  to  prevent  the 
+tape  from  peeling  off,  it  is  advisable  to  fasten  the  last  turns 
+
+
+$2        DYNAMO    TENDERS'  HAND  BOOK. 
+
+of  the  tape   to  the  wire  writh  a  few  turns  of  bare  coppei 
+wire,  say  about   number  20.     If  this  precaution  is  omittec 
+
+
+FIG.  41  —CORNER  POLE  BRACED. 
+
+the  tape  is  sure  to  peel  off  in    time.     Most   of  our  electric 
+light   lines  will    show  places  where   the   taps    is   hanging 
+
+
+FIG.  42. —  AMERICAN  TELEGRAPH  SPLICE. 
+
+down  a  couple  of  feet.  Besides,  having  no  insulation  on 
+the  splice,  this,  of  course,  does  not  contribute  to  the  beauty 
+of  overhead  wires. 
+
+Brass   line   connectors,    Fig.  43,  are   only   allowed   for 
+
+
+CIRCUITS  OR  LEADS.  53 
+
+inside  work  where  there  is  no  strain  on  the  wires,  The 
+set  screws  should  be  well  tightened,  and  the  connector  be 
+run  full  of  solder  and  taped.  Good  soldering  and  taping 
+
+
+FIG.  43.  — BRASS  LINE  CONNECTOR. 
+
+of  joints  will  save  at  least  50  per  cent,  of  all  the  troubles 
+that  occur  in  an  electric  light  plant.  Joints  should  never 
+be  left  unsoldered,  even  if  persons  who  claim  to  know  all 
+about  it  should  think  it  unnecessary.  The  best  apparatus 
+for  soldering  joints  on  line  wire  out  of  doors  is  the  gasoline 
+blow-pipe,  Fig.  44.  Every  trace  of  acid  should  be  wiped 
+
+
+FIG.  44.  —  GASOLINE  BLOW-PIPE. 
+
+off  the  wire  with  a  moist  or  oily  cloth  before  taping,  to 
+avoid  corrosion. 
+
+CHAPTER   XLII. 
+
+Outdoor  Leads  for  Incandescent  Light- 
+ing. 
+
+*  The  rules  which  were  given  for  outdoor  arc  light  lines 
+can  be  applied  for  incandescent  light  lines.  As  the  wire 
+used  will  very  often  be  considerably  larger  than  number  4 
+
+
+54         DYNAMO    TENDERS'   HAND-BOOK. 
+
+wire,  the  poles,  cross-arms  and  other  supports  must  neces- 
+sarily be  heavier  to  stand  the  greater  strain,  and  poles 
+should  be  set  closer  together.  In  a  low  tension  incandes- 
+cent system,  very  often  bare  wires  are  used,  and  still  more 
+care  must  be  taken  to  prevent  accidental  contact  of  the 
+positive  and  negative  wires  with  each  other  or  with  the 
+earth. 
+
+
+CHAPTER  XLIII. 
+Arc  Circuits  Inside  of  Houses. 
+
+The  wires  for  these  circuits  should  be  fastened  to  porce- 
+lain insulators,  Fig.  45,  and  be  exposed  to  view.     Owing 
+
+
+FIG.  45.  —  PORCELAIN    INSULATOR. 
+
+to  the  high  tension  which  prevails  in  arc  light  circuits,  the 
+concealing  of  these  wires  is  not  permitted  by  the  under- 
+writers. The  directions  given  for  splicing  and  insulating 
+hold  good  also  for  inside  wiring. 
+
+In  rooms  which  are  exposed  to  steam  or  moisture,  as,  for 
+instance,  in  packing  houses,  wire  with  a  better  insulation 
+than  underwriters'  standard  must  be  used.  The  moisture 
+which  covers  insulators  and  wire  would  cause  considera- 
+ble leakage,  and,  besides,  would  corrode  the  wire.  The 
+use  of  wood  cleats  or  iron  staples  instead  of  porcelain 
+insulators  should  not  be  permitted  in  any  case,  as  they  are 
+liable  to  cause  grounds  and,  in  fact,  have  been  the  source 
+of  mischief  in  a  good  many  cases  in  years  gone  by. 
+
+
+CIRCUITS  OR  LEADS.  55 
+
+CHAPTER   XLIV. 
+Incandescent  Circuits  Inside  of  Houses. 
+
+In  the  low  tension  systems,  wooden  cleats  or  wooden 
+molding  are  permitted  for  fastening  the  wires  to  the 
+walls  and  ceilings  if  there  is  absolute  safety  from  moisture. 
+Underwriters'  wire  may  be  used  also  under  the  same  con- 
+ditions. If  there  is  any  possibility  of  moisture  getting  to 
+the  wires,  the  latter  should  be  first-class  waterproof  insula- 
+tion. If  any  "  fishing  "  has  to  be  done,  where  wires  are  to  be 
+concealed  under  floors,  above  ceilings,  or  between  walls  or 
+laths,  only  waterproof  wire  can  be  used.  Incandescent  wir- 
+ing inside  of  houses  requires  a  good  deal  of  skill  and  experi- 
+ence, and  should  only  be  intrusted  to  reliable  and  responsible 
+concerns.  Unfortunately,  any  man  who  ever  fastened  a 
+piece  of  wire  for  a  bell-pull,  thinks  himself  an  expert  also 
+for  incandescent  wiring  ;  a  good  many  even  important  jobs 
+have  been  done  by  such  men,  with  the  result  that,  after  a 
+great  expenditure  of  money  by  the  owner  of  the  house,  the 
+whole  system  had  to  be  condemned,  as  not  an  inch  of  the 
+wire  had  been  put  in  properly  and  could  be  used. 
+
+The  joints  or  connections  in  waterproof  wire  should  be 
+made  waterproof  also.  This  is  done  in  the  following  way  : 
+After  having  spliced,  soldered  and  cleaned  the  wires  prop- 
+erly, cover  the  joint  with  hot  Chatterton's  compound  by 
+molding  it  between  the  fingers  to  almost  the  total  thickness 
+of  the  insulated  wire.  Then  cover  it  with  kerite  tape  and 
+give  it  a  second  thin  coating  with  hot  compound,  or  hot 
+asphaltum,  and  then  give  it  a  second  coat  of  kerite  tape. 
+Hot  liquid  asphaltum  should  be  used  in  lieu  of  compound 
+where  there  is  danger  from  sewer  or  illuminating  g#s  that 
+is  prevalent  in  the  soil  and  basements  of  houses  in  large 
+cities. 
+
+
+FIG.  46. — WOOD  CLEAT. 
+
+Figs.  46,  47,  48,  49  and  50  show  the  use  of  cleats.     Fig. 
+46  shows  a  familiar  form  of    cleat.     Where   the   positive 
+
+
+56        DYNAMO    TENDERS'  HAND-BOOK. 
+
+wire  crosses  the  negative,  an  extra  protection  of  rubber 
+tube  is  required  to  prevent  any  danger  from  short  circuits, 
+Fig.  47 
+
+
+FIG.  47.  —  PROTECTION  OF  WIRES  CROSSING  EACH 
+
+OTHER. 
+
+In  passing  through  a  wall,  each  wire  should  be  inserted 
+in  a  separate  hole,  lined  with  a  hard   rubber  tube,  Fig.  48, 
+
+
+II. 
+
+
+II 
+
+
+.  <z> 
+
+
+u      Tr 
+
+FIG.  48.  — WIRES  IN  FIG.  49.  — WIRES  IN 
+
+SEPARATE    HOLES.  SAME   HOLE. 
+
+or  each  wire  should  be  covered  with  soft  rubber  tubing  and 
+both  may  be  drawn  through  one  hole,  Fig.  49,  lined  with  a 
+pipe  of  non-conducting  waterproof  material. 
+
+
+FIG.  50. — WOOD  MOLDING. 
+
+Fig.  50  is  a  cross-section  of  wood  molding.     The  lower 
+part  is  fastened  to  the  \vall  or  ceiling,  the   wires  put  in — 
+
+
+r* / f> s* j -7 •-- en c~    -^  z?     -  •?  s  ,r>  f  .  ».j 
+
+positives  in  one  groove  and  negatives  in  the  other — and 
+the  cover  screwed  on.  Care  must  be  taken  that  nails  or 
+screws  do  not  touch  the  wires. 
+
+The  safety  plugs  are  put  in  the  circuit  according  to  the 
+rules  of  the  fire  underwriters.  They  must  be  of  such  size 
+that  they  will  fuse  before  the  wire  they  have  to  protect  can 
+get  dangerously  warm. 
+
+CHAPTER  XLV. 
+
+Size  of  Wires  for   Incandescent   Lamp 
+Installations. 
+
+The  wire  for  each  main  or  branch  must  be  of  such  size 
+that  it  can  carry  the  current  to  the  lamps  which  are  con- 
+nected to  it,  without  getting  very  warm.  The  number  of 
+amperes  a  wire  can  thus  safely  carry  is  called  its  carrying 
+capacity. 
+
+In  the  table  on  page  70,  the  carrying  capacity  is  given 
+in  Column  XIV.  A  number  4  B.  &  S.  copper  wire,  for  in- 
+stance, can  carry  50  amperes  ;  its  temperature  will  then  in- 
+crease 1 8  degrees  Fahrenheit.  But  besides  the  carrying 
+capacity  something  else  must  be  taken  into  consideration. 
+This  is  the  amount  of  energy  which  will  be  allowed  as  loss 
+in  the  wires.  The  larger  the  wire  the  less  the  loss  ;  the 
+smaller  the  wire  the  higher  the  loss.  In  house  wiring  not 
+more  than  5  per  cent,  loss  should  be  allowed  from  the  dy- 
+namo to  the  lamp. 
+
+For  those  who  want  to  give  this  matter  more  study  the 
+following  formulas  are  given.  Any*one  who  understands 
+arithmetic  will  be  able  to  calculate  the  size  of  wire  for  any 
+loss  and  for  any  lamp  :  • 
+
+n  =  number  of  lamps. 
+
+d  =  distance  —  Yz  length  of  circuit. 
+
+%  —  energy  lost  in  the  conductors,  expressed  in  decimal 
+fractions  of  100  as  5$  =  .05. 
+
+r  —  resistance  in  ohms. 
+
+r  of  lamp  hot  X  % 
+
+1 .  r  of  wire  — 
+
+•x  n 
+
+2.  Length  of  wire  :  1000  =  r  of  wire  :  r  per  1000  feet. 
+
+r  of  lamp  hot  X  %  X  1000, 
+
+3.  r  per  1000  feet  of  wire  =  £- '-— • 
+
+
+4.     r  per  1000  feet  of  wire  = 
+
+
+n  X  2  X  d 
+
+constant, 
+
+
+X  d 
+5.     Constant  =  500  X  %  X  r  of  lamp  hot. 
+
+
+58         'DYNAMO    TENDERS'    HAND-BOOK. 
+
+EXAMPLE  :  Find  size  of  wire  necessary  to  carry  40  six- 
+teen candle  power  lamps  (r  =  167  ohms  hot),  500  feet, 
+Lofc  loss. 
+
+Formula  5  :  Constant  =  500  X  .io.X  167  =  8350. 
+
+Formula  4:  r  per  1000  feet  ~  - —  =  .417  ohms. 
+
+40  X  500. 
+
+This  is  the  resistance  per  1000  feet  of  the  wire  necessary 
+to  use.  Find  the  next  smaller  number  in  Column  XI  of 
+table  on  page  70 — this  is  .411. 
+
+The  number  of  wire  on  same  line  in  Column  I  of  the 
+table  is  the  proper  size. 
+
+In  this  case  No.  6  wire. 
+
+If  the  resistance  hot  of  the  lamp  should  not  be  known  it 
+
+E  E 
+
+can  be  calculated  from  Ohm's  law.     C  =  —  or  R  =    —  • 
+
+lx  V^ 
+
+Supposing  the  e.  m.  f.  —  100  volts  and   the  current  —  — 
+
+,  100  x  10 
+amperes,  R  would  equal  —    ,  or  Ra=  200. 
+
+
+CHAPTER   XLVI. 
+Testing. 
+
+The  circuit  should  be  tested  every  day  for  grounds  by 
+means  of  the  detector  galvanometer  or  a  magneto  bell.  If 
+a  ground  is  indicated  it  should  be  speedily  located  by  dis- 
+connecting the  circuit  in  different  places  and  taking  each 
+section  separately,  until  the  ground  is  located.  [See  also 
+Chapter  XXXIX.] 
+
+
+A  CCUM  VLA  TOA'S.  59 
+
+CHAPTER   XLVII. 
+Accumulators. 
+
+Accumulators,  Fig.  51,  or  secondary  batteries,  are  used 
+for  the  storage  of  electricity.  They  consist  generally  of 
+glass  vessels  containing  a  solution  of  sulphuric  acid  and 
+water  in  which  lead  plates,  insulated  from  each  other,  are 
+placed  The  positive  and  negative  lead  plates  are  called 
+the  electrodes.  These  batteries  are  usually  charged  with 
+shunt  dynamos.  A  chemical  change  in  the  plates  is  pro- 
+duced. In  discharging,  the  plates  try  to  return  to  their 
+first  chemical  condition  and  in  doing  so  they  generate  a 
+current. 
+
+
+FIG.  51.  —  ACCUMULATORS. 
+
+
+The  e.  m.  f.  of  an  accumulator  is  about  2  volts.  In  or- 
+der to  burn  100  volt  lamps,  50  accumulators  must  be  con- 
+nected in  series.  The  maximum  current  strength  they 
+should  be  allowed  to  yield  is  generally  given  by  the  manu- 
+facturer. It  is  in  the  neighborhood  of  35  amperes,  which 
+can  be  yielded  for  ten  hours,  or,  as  it  is  expressed  the  accu- 
+mulators can  yield  35  x  10  =  350  ampere  hours.  Hence 
+a  battery  of  50  accumulators  could  yield  350  ampere 
+hours  at  100  volts  pressure.  If  we  had  100  volt  16  candle 
+power  lamps  requiring  yz  ampere  each,  we  could,  for  in- 
+stance, burn  70  of  these  lamps  10  hours,  or  35  lamps  20 
+hours,  etc. 
+
+
+SAFETY  REGULATIONS. 
+
+
+Rules  of  the  Boston  Underwriters'  Union.1 
+
+ARC  LIGHT  WIRES. 
+
+Conducting  wires  must  be  seven  feet  above  roofs,  and 
+placed  so  as  to  avoid  ladders  of  the  fire  department  and  fire 
+shutters. 
+
+Whenever  electric  light  wires  are  in  proximity  to  other 
+wires,  dead  guard  wires  must  be  placed  so  as  to  prevent 
+any  possibility  of  contact  with  foreign  wires,  in  case  of  ac- 
+cident to  the  wires  or  their  supports.  Conducting  wires 
+must  be  secured  to  insulating  fastenings,  and  covered  with 
+an  insulation  which  is  waterproof  on  the  outside  and  not 
+easily  worn  by  abrasion.  Whenever  wires  pass  through 
+walls,  roofs,  floors  or  partitions,  or  there  is  liability  to 
+moisture,  abrasion,  or  exposure  to  rats  and  mice,  the  insul- 
+ation must  be  protected  with  rubber,  stoneware  or  some 
+other  satisfactory  material.  Wires  entering  buildings  must 
+be  wrapped  with  tape  and  bent  in  such  a  manner  that  it 
+will  prevent  the  water  entering  the  building.  All  wires 
+passing  over  or  under  steam,  gas  or  water  pipes,  must  have 
+a  good  insulation  between  them  and  the  pipes.  Blocks  of 
+wood  are  the  most  desirable.  This  rule  also  applies  to 
+foreign  wires — they  should  be  treated  the  same  as  pipes. 
+
+Wires  should  go  over  water  pipes,  where  it  is  possible, 
+so  that  the  moisture  will  not  settle  on  the  wires. 
+
+Hard  rubber  hooks  are  not  desirable  as  fastenings,  and 
+tacks  or  staples  must  in  no  case  be  used  for  fastenings  or 
+brought  in  contact  with  the  wire. 
+
+In  damp  places,  wires  must  be  run  on  glass  insulators, 
+and  kept  entirely  clear  from  contact  with  inflammable  ma- 
+terial and  any  substance  likely  to  make  a  ground  connec- 
+ti:>n. 
+
+The  use  of  lead  covered  wires,  or  wires  whose  covering 
+contains  paraffine,  is  prohibited. 
+
+The  use  of  underwriters'  wire  will  not  be  passed  where  it 
+is  concealed  in  any  manner.  It  must  be  in  plain  sight,  on 
+the  walls  or  ceilings.  Wire  that  is  covered  with  molding 
+must  have  a  water-proof  insulation  that  is  approved  by  this 
+union. 
+
+lApproved,  November  1. 1887. 
+
+60 
+
+
+SAFETY  REG U LA  TIONS.  61 
+
+Joints  in  wires  to  be  securely  made  and  wrapped  with 
+tape  ;  soldered  joints  are  desirable  but  not  essential.  Wires 
+conducting  electricity  for  arc  lights  must  not  approach  each 
+other  nearer  than  one  foot. 
+
+Care  must  be  taken  that  the  wires  are  not  placed  above 
+each  other  in  such  a  manner  that  water  could  make  a  cross 
+connection. 
+
+Cut-off  boxes  for  arc  lights  must  have  the  words  "  On  " 
+and  "Off  "  marked  on  them.  They  must  be  placed  in  a  well- 
+protected  and  accessible  place,  so  that  they  can  be  operated 
+by  the  firemen  or  police. 
+
+ARC   LAMPS. 
+
+For  arc  lamps,  the  frames  and  other  exposed  parts  of  the 
+lamps  must  be  insulated  from  the  circuit.  Each  lamp  must 
+be  provided  with  a  separate  hand-switch,  and  also  with  an 
+automatic  switch,  which  will  close  the  circuit  and  put  the 
+lamp  out  whenever  the  carbons  do  not  approach  each  other, 
+or  the  resistance  of  the  lamp  becomes  excessive  from  any 
+cause.  The  lamps  must  be  provided  with  some  arrange- 
+ment or  device  to  p  event  the  lower  carbons  from  falling 
+out,  in  case  the  clamp  should  not  hold  them  securely. 
+
+For  inside  use,  the  light  must  be  surrounded  by  a  globe, 
+which  must  rest  in  a  tight  stand,  so  that  no  particles  of 
+melted  copper  or  heated  carbon  can  escape;  and  when  near 
+combustible  material,  this  globe  must  be  protected  by  a 
+wire  netting.  Broken  or  cracked  globes  must  be  replaced 
+immediately.  Unless  a  very  high  globe  is  used,  which 
+closes  in  as  far  as  possible  at'the  top,  it  must  be  covered 
+by  some  protector,  reaching  to  a  safe  distance  above  the 
+light 
+
+INCANDESCENT   WIRES. 
+
+Conducting  wires  must  be  seven  feet  above  roofs,  and 
+placed  so  as  to  avoid  ladders  of  the  fire  department  and  fire 
+shutters.  All  connections  must  be  soldered  and  wrapped 
+with  tape. 
+
+Whenever  the  electric  light  wires  are  in  proximity  to 
+other  wires,  dead  guard  wires  must  be  placed  so  as  to  pre- 
+vent any  possibility  of  contact  with  foreign  wires,  in  case 
+of  accident  to  the  wires  or  their  supports.  Conducting 
+wires  must  be  secured  to  insulating  fastenings,  and  covered 
+with  an  insulation  which  is  water-proof  on  the  outside  and 
+not  easily  worn  by  abrasion.  Whenever  wires  pass  through 
+walls,  roofs,  floors  or  partitions,  or  there  is  liability  to 
+moisture,  abrasion,  or  exposure  to  rats  and  mice,  the  insu- 
+lation must  be  protected  with  rubber,  stoneware  or  some 
+
+
+62         DYNAMO    TENDERS'  HAND-BOOK. 
+
+other  satisfactory  material.  Wires  entering  buildings  must 
+be  wrapped  with  tape,  and  bent  in  such  a  manner  that  it 
+will  prevent  the  water  entering  the  building.  All  wires 
+passing  over  or  under  steam,  gas  or  water  pipes,  must  have 
+a  good  insulation  between  them.  Blocks  of  wood  are  the 
+most  desirable.  This  rule  also  applies  to  foreign  wires — 
+they  should  be  treated  the  same  as  pipes. 
+
+Soft  rubber  tube  is  not  desirable  as  an  insulator. 
+
+Wires  should  go  over  water  pipes,  where  it  is  possible,  so 
+that  the  moisture  will  not  settle  on  the  wires. 
+
+'Where  incandescent  wires  enter  buildings,  they  must 
+have  double-poled  safety  catches  as  near  the  entrance  as 
+possible. 
+
+The  main  wires  must  not  be  less  than  two  and  a  half 
+inches  apart,  except  where  they  are  in  grooves. 
+
+The  use  of  lead  covered  or  wires  whose  covering  contains 
+paraffine  is  prohibited. 
+
+All  wires  that  are  fished  over  the  ceiling  or  in  the  wails, 
+must  have  a  water-proof  insulation  satisfactory  to  this 
+union.  This  rule  als  >  applies  to  wires  covered  with  mold- 
+ing, or  concealed  in  any  manner. 
+
+Where  underwriters'  wire  is  used,  it  must  be  in  plain 
+sight  on  the  walls  or  ceilings 
+
+Care  must  be  taken  that  the  wires  are  not  placed  above 
+each  other  in  such  a  manner  that  water  could  make  a  cross 
+connection. 
+
+Wires  that  are  run  in  damp  places  must  be  run  on  glass 
+or  porcelain  insulators  of  suitable  form. 
+
+For  incandescent  lamps,  the  conducting  wires  leading  to 
+each  building,  and  to  each  important  branch  circuit,  must 
+be  provided  with  an  automatic  switch  or  cut-off,  or  its 
+equivalent,  capable  of  protecting  the  system  from  any  in- 
+jury due  to  an  excessive  current  of  electricity.  These  de- 
+vices must  be  proportioned  to  protect  the  smallest  wire  in 
+the  loop  to  which  they  are  attached. 
+
+On  all  loops  of  incandescent  circuits,  safety  catches  must 
+be  used  on  both  sides  of  the  loop,  and  switches  on  such 
+loops  should  be  double-poled. 
+
+Ceiling  blocks  that  are  used  on  pendant  drops  must  have 
+safety  metals  in  them  where  flexible  cord  is  used.  Cord 
+should  have  a  knot  tied  in  it  with  the  knot  on  the  top  side 
+of  the  block,  so  that  the  strain  will  come  on  the  knot  instead 
+of  on  the  connection  ;  and  where  it  is  possible,  a  knot  should 
+be  inside  of  the  socket,  the  same  as  the  block. 
+
+The  small  wires  leading  to  each  lamp  from  the  main  wires 
+
+
+SAFETY  REGULATIONS.  63 
+
+must  be  thoroughly  insulated,  and  if  separated  or  broken, 
+no  attempt  made  to  join  them  while  the  current  is  in  the 
+main  wires. 
+
+When  wires  are  put  on  gas  fixtures,  the  fixture  must  be 
+isolated  from  the  main  pipe,  and  the  insulator  used  for  this 
+purpose  must  be  made  so  that  the  sediment  in  the  gas  will 
+not  form  a  connection  over  the  insulating  material. 
+
+Chandeliers  or  brackets  attached  to  any  ground  connec' 
+tion  must  have  insulating  yokes  or  couplings  on  them. 
+Individual  insulating  of  lamps  at  the  sockets  will  not  I  e 
+passed  except  on  brackets  in  special  cases  that  may  be  ap- 
+proved by  the  inspector. 
+
+DYNAMO   MACHINES. 
+
+Dynamo  machines  must  be  located  in  dry  places,  not  ex- 
+posed to  flyings  or  easily  combustible  material,  and  insula- 
+ted upon  wooden  foundations.  They  must  be  provided 
+with  devices  capable  of  controlling  any  changes  in  the 
+quantity  of  the  current  ;  and  if  these  governors  are  not 
+automatic,  a  competent  person  must  be  in  attendance  near 
+the  machine  whenever  it  is  in  operation. 
+
+Each  machine  must  be  used  with  complete  wire  circuit ; 
+and  connections  of  wires  with  pipes,  or  the  use  of  ground 
+circuits  in  any  other  method,  are  absolutely  prohibited. 
+
+The  whole  system  must  be  kept  insulated,  and  tested 
+every  day  with  a  magneto  for  ground  connections  in  ample 
+time  before  lighting,  to  remedy  faults  of  insulation,  if  they 
+are  discovered  ;  and  proper  testing  apparatus  must  in  each 
+case  be  provided.  This  applies  to  both  central  station  and 
+isolated  plants. 
+
+Testing  circuits  for  grounds  Vith  a  battery  and  bell  is 
+not  considered  a  reliable  test. 
+
+Preference  is  given  for  switches  constructed  with*  a  lap- 
+ping connection,  so  that  no  electric  arc  can  be  formed  at 
+the  switch  when  it  is  changed  ;  otherwise  the  stands  of 
+switches,  where  powerful  currents  are  used,  must  be  made 
+of  some  incombustible  substance  which  will  withstand  the 
+heat  of  the  arc  when  the  switch  is  changed. 
+MOTORS. 
+
+Wires  for  motors  should  be  run  exactly  as  for  lamps  on 
+similar  circuits.  On  low  tension  circuits  where  motors  are 
+run  in  multiple,  safety  catches  must  be  used  on  each  side 
+of  the  circuit. 
+
+On  high  tension  circuits  the  same  restrictions  apply  as 
+for  arc  lamps,  and  suitable  cut-outs  must  be  provided. 
+
+
+64        DYNAMO  TENDERS'  HAND-BGOK. 
+
+Motors  must  be  treated  as  dynamos  as  regards  insulation, 
+flyings,  dampness,  etc. 
+
+While  these  rules  are  intended  to  be  complete,  some  cases 
+may  arise  where,  in  the  judgment  of  the  inspector,  some 
+deviation  from  them  may  be  necessary  in  order  to  secure 
+safety. 
+
+RULES    FOR    RUNNING   INCANDESCENT    CIRCUITS    FROM 
+ALTERNATING   MACHINES. 
+
+Outside  wires  should  be  treated  as  arc  light  wires;  inside 
+wires  the  same  as  incandescent  circuits.  Converters  on 
+alternating  circuits  must  be  outside  of  buildings,  and  must 
+be  placed  high  enough  from  the  roof  to  prevent  possible 
+injury  to  firemen. 
+
+RULES   TO    APPLY    TO    THE   RUNNING    OF    INCANDESCENT 
+CIRCUITS   WORKED    FROM   ARC   CIRCUITS. 
+
+The  running  of  incandescent  lights  or  systems  on  arc 
+circuits  should  be  avoided;  but  wherever  this  is  unavoidable 
+a  proper  device  or  distributor,  such  as  may  be  approved  by 
+this  union,  must  be  provided  to  prevent  the  possibility  of 
+an  excessive  arc  current  being  thrown  on  to  any  one  por- 
+tion of  the  incandescent  system  ;  such  device  or  distribution 
+must  have  the  approval  of  this  union  before  it  is  put  in 
+operation.  It  must  remain  open  to  inspection  at  all  times, 
+and  no  change  made  in  any  part  of  the  installation  after 
+it  has  been  approved,  without  consent  of  this  union. 
+
+Only  such  wire  as  has  been  approved  by  this  union 
+shall  be  used  in  constructing  lines  and  circuits. 
+
+Wires  must  be  run  in  plain  sight.  In  damp  places  they 
+must  have  a  waterproof  covering. 
+
+The  positive  wire  or  wires  must  be  kept  at  least  two  and 
+a  half  inches  from  the  negative  wire  or  wires  in  running 
+from  the  distributor  or  regulator  to  the  fixtures  and  lamps, 
+and  return;  except  "twin  wire"  may  be  used  for  a  single 
+lamp. 
+
+No  wires  should  be  run  through  partitions,  floors  or 
+walls,  without  being  incased  in  a  tube  of  hard  rubber,  por- 
+celain, or  covered  with  tape.  .  Soft  rubber  tube  is  not  desir- 
+able as  an  insulator. 
+
+The  safety  fuses  must  be  so  proportioned  that  they  will 
+melt  long  before  the  wire  is  heated  to  an  unsafe  degree. 
+
+Dust  must  not  be  allowed  in  the  distributor-box  nor  any 
+of  the  electrical  connections. 
+
+The  contact  points  should  be  kept  clean,  and  care  should 
+be  taken  to  insure  solid  electrical  connections  at  all  the 
+
+
+SAFETY  REG ULA  TIONS.  65 
+
+points  of  contact,  and  all  parts  must  be  kept  free  to  move 
+easily. 
+
+In  case  any  defect  should  arise  in  the  distributor  or  regu- 
+lator, or  the  wiring  thereto,  it  must  be  arranged  so  as  to 
+automatically  and  absolutely  shunt  off  from  the  arc  circuit 
+at  once. 
+
+In  working  distributors,  the  line  or  circuit  current  must 
+be  kepfat  its  standard  amount  by  tests  made  by  ampere 
+meter,  from  time  to  time.  In  no  case  must  the  amount  ex- 
+ceed the  standard. 
+
+Every  company  shall  have  a  competent  and  reliable  per- 
+son to  examine,  daily,  every  distributor  and  regulator,  or 
+similar  device  which  may  in  the  future  be  applied  to  arc 
+circuits. 
+
+Where  incandescent  lights  are  run  on  arc  circuits,  the 
+following  named  practices  are  strictly  prohibited;: 
+
+Fastening  or  attaching  electroliers,  or  lamps,  to  any 
+gas  fixture  which  may  be  in  electrical  connection  with  the 
+earth. 
+
+The  running  of  concealed  wires  to  the  electroliers,  or 
+lamps,  under  any  circumstances.  They  must  be  entirely 
+open  to  view. 
+
+The  placing  of  any  distributor  box  or  regulator,  electro- 
+lier, bracket  or  lamp  in  such  a  position  that  it  may  be  con- 
+nected in  any  way  with  any  other  wires,  steam  fittings,  gas 
+pipes,  gas  fixtures,  etc.,  which  may  be  electrically  connected 
+with  the  earth. 
+
+The  placing  of  distributors,  electroliers,  etc.,  in  any 
+damp  location,  or  in  close  proximity  to  any  metals  or  other 
+conductor  of  electricity. 
+
+The  building  or  placing  of  anything  around  the  distribu- 
+tor or  regulator  so  as  to  cut  off  easy  access  to  it,  or  obstruct 
+the  access  of  air  to  it. 
+
+All  joints,  after  leaving  the  distributor  or  regulator, 
+must  be  soldered,  using  acid  as  flux.  Resin  will  not  be 
+approved  under  any  circumstances. 
+
+All  new  devices  should  be  submitted  to  the  inspector  of 
+the  union,  and  must  be  approved  by  him  before  permission 
+can  be  given  for  their  use. 
+
+While  these  rules  are  intended  to  be  complete,  some 
+cases  may  arise  where,  in  the  judgment  of  the  inspector, 
+some  deviation  from  them  may  be  necessary  in  order  to 
+secure  safety. 
+
+THE   FOLLOWING   FORM    SHOULD    BE   USED    IN    POLICIES: 
+
+Permission  is  given  for  the  installation  and  for  the  use 
+
+
+66        D  YNAMO    TENDERS'  HAND-BOOK. 
+
+of  such  wires,  lights  and  apparatus  of  any  electric  light  or 
+electric  power  system,  located  in  or  on  the  insured  premises, 
+as  have  been  or  shall  be  approved  by  the  Boston  Fire  Un- 
+derwriters' union. 
+
+
+English  Regulations.1 
+
+The  difficulties  that  beset  the  electrical  engineer  are 
+chiefly  internal  and  invisible,  and  they  can  only  be  effectu- 
+ally guarded  against  by  testing  or  probing  with  electric 
+currents.  They  depend  chiefly  on  leakage,  undue  resist- 
+ance in  the  conductor,  and  bad  joints,  which  lead  to  waste 
+of  energy  and  the  dangerous  production  of  heat.  These 
+defects  can  only  be  detected  by  measuring,  by  means  of 
+special  apparatus,  the  currents  that  are  either  ordinarily, 
+or  for  the  purpose  of  testing,  passed  through  the  circuit. 
+Should  wires  become  perceptibly  warmed  by  the  ordinary 
+current,  it  is  an  indication  that  they  are  too  small  for  the 
+work  they  have  to  do,  and  that  they  should  be  replaced  by 
+larger  wires.  Bare  or  exposed  conductors  should  always 
+be  within  visual  inspection,  and  as  far  out  of  reach  as  pos- 
+sible, since  the  accidental  falling  on  to,  or  the  thoughtless 
+placing  of,  other  conducting  bodies  upon  such  conductors 
+would  lead  to  short  circuiting,  and  the  consequent  sudden 
+generation  of  heat,  due  to  an  increased  current,  in  conduc- 
+tors not  adapted  to  carry  it  with  safety. 
+
+The  necessity  can  not  be  too  strongly  urged  for  guarding 
+against  the  presence  of  moisture,  and  the  use  of  earth  as 
+part  of  the  circuit  tends  to  magnify  every  other  source  of 
+difficulty  and  danger. 
+
+The  chief  dangers  of  every  new  application  of  electricity 
+arise  from  ignorance  and  inexperience  on  the  part  of  those 
+who  supply  and  fit  up  the  requisite  plant. 
+
+The  greatest  element  of  safety  is  therefore  the  employ- 
+ment of  skilled  and  experienced  electricians  to  supervise 
+the  work. 
+
+I.  —  THE    DYNAMO   MACHINE. 
+
+1.  The  dynamo  machine  should  be  fixed  in  a  dry  place. 
+
+2.  It  should  not  be  exposed  to  dust  or  flyings. 
+
+1  Rules  and  regulations  for  the  prevention  of  fire  risks  arising 
+from  electric  lighting,  recommended  by  the  council  in  accordance 
+with  the  report  of  the  committee  appointed  by  the  Society  of  Tele- 
+graph Engineers  and  of  Electricians,  May  11,  1882. 
+
+
+SAFETY  REGULATIONS.  67 
+
+3.  It  should  be  kept  perfectly  clean  and  its  bearings  well 
+oiled. 
+
+4.  The  insulation  of  its  coils  and  conductors  should  be 
+practically  perfect. 
+
+5.  All  conductors  in  the  dynamo  room  should  be  firmly 
+supported,  well  insulated,  conveniently  arranged  for  inspec- 
+tion, and  marked  or  numbered. 
+
+II. —  THE    WIRES. 
+
+6.  Every  switch  or  commutator  used  for  turning  the  cur- 
+rent on  or  off  should   be  constructed   so  that  when  it  is 
+moved  and  left  it  can  not  permit  of  a  permanent  arc  or  of 
+heating. 
+
+7.  Every  part  of  the  circuit  should  be  so  determined  that 
+the  gauge  of  wire  to  be  used  is  properly  proportioned  to 
+the  currents  it  will  have  to  carry,  and  all  junctions  with  a 
+smaller  conductor  should   be  fitted  with  a  suitable  safety 
+fuse  or  protector,  so  that  no  portion  of  the    conductor 
+should  ever  be  allowed  to  attain  a  temperature  exceeding 
+150°  Fah. 
+
+8.  Under  ordinary  circumstances,  complete  metallic  cir- 
+cuit should  be  used;  the  employment  of  gas  or  water  pipes 
+as  conductors,  for  the  purpose  of  completing  the  circuit, 
+should  not  in  any  case  be  allowed. 
+
+9.  Bare   wires  passing  over  the  tops  of  houses  should 
+never  be  less  than  seven  feet  clear  of  any  part  of  the  roof, 
+and  all  wires  crossing  thoroughfares   should  invariably  be 
+high  enough  to  allow  fire  escapes  to  pass  under  them. 
+
+10.  It  is  most  essential  that  joints  should  be  electrically 
+and  mechanically  perfect  and  united  by  solder. 
+
+11.  The  position  of  wires  when  underground  should  be 
+clearly  indicated,  and  they  should  be  laid  down  so  as  to  be 
+easily  inspected  and  repaired. 
+
+12.  All  wires  used  for  indoor  purposes  should  be  effi- 
+ciently insulated,  either  by  being  covered  throughout  witn 
+some  insulating  medium,  or,  if  bare,  by  resting  on  insu- 
+lated supports. 
+
+13.  When  these  wires  pass  through  roofs,  floors,  walls, 
+or  partitions,  or  where  they  cross  or  are  liable  to  cross  me- 
+tallic masses,   like  iron    girders  or  pipes,  they  should  be 
+thoroughly  protected  by  suitable  additional  covering;  and 
+where  they  are  liable  to  abrasion  from  any  cause,  or  to  the 
+depredations  of  rats  or  mice,  they  should    be  efficiently 
+encased  in  some  hard  material. 
+
+14.  Where  indoor  wires  are  put  out  of  sight,  as  beneath 
+
+
+68        DYNAMO    TENDERS'  HAND-BOOK. 
+
+flooring,  they  should   be  thoroughly  protected  from  me- 
+chanical injury,  and  their  position  should  be  indicated. 
+
+N.  B.  —  The  value  of  frequently  testing  the  apparatus 
+and  circuits  can  not  be  too  strongly  urged.  The  escape  of 
+electricity  can  not  be  detected  by  the  sense  of  smell,  as  can 
+gas,  but  it  can  be  detected  by  apparatus  far  more  certain 
+and  delicate.  Leakage  not  only  means  waste,  but  in  the 
+presence  of  moisture  it  means  destruction  of  the  conductor 
+and  its  insulating  covering,  by  electric  action. 
+
+in. —  LAMPS. 
+
+15.  Arc  lamps  should  always  be  guarded  by  proper  lan- 
+terns, to  prevent  danger  from  falling  incandescent  pieces 
+of  carbon,  and  from  ascending  sparks.    Their  globes  should 
+be  protected  with  wire  netting. 
+
+1 6.  The  lanterns,  and  all  parts  which  are  to  be  handled, 
+should  be  insulated  from  the  circuit. 
+
+IV. —  DANGER  TO   PERSON. 
+
+17.  Where  bare  wire  out  of  doors  rests  on  insulating 
+supports,  it  should  be  coated  with  insulating  material,  such 
+as  india-rubber  tape  or  tube,  for  at  least  two  feet  on  each 
+side  of  the  support. 
+
+1 8.  To  secure  persons  from  danger  inside  buildings,  it  is 
+essential   so  to   arrange  and    protect   the  conductors   and 
+fittings  that  no  one  can  be  exposed  to  the  shock  of  alterna- 
+ting currents  of  a  mean  electromotive  force  exceeding  100 
+volts,  or  to  continuous  currents  of  200  volts. 
+
+19.  If  the  difference   of    potential    within   any   house 
+exceeds  200  volts,  the   house  should   be  provided   with  a 
+switch,  so  arranged  that  the  supply  of  electricity  can  be  at 
+once  cut  off. 
+
+
+Abstract  of  the  Chicago   Electric  Light 
+Laws. 
+
+No  plant  shall  be  run  without  a  certificate  of  inspection 
+from  the  superintendent  of  city  telegraph.  No  wire  of  less 
+conductivity  than  number  6  B.  &  S.  copper  shall  be  used  for 
+arc  lights.  The  conductors  shall  be  fire-proof  coated  and 
+well  insulated,  run  eight  inches  apart  on  insulators  along 
+walls  and  ceilings,  well  insulated  through  walls,  floors,  etc. 
+Lamps  must  have  globes  and  be  protected  from  accidental 
+contact,  and  where  light,  inflammable  matters  are  near,  the 
+globes  must  have  wire  screen  spark  protectors.  Where 
+
+
+y  j^RGUI^-rt  j-  /L/Ar*?.  69 
+
+dynamos  are  open  to' the  public  they  must  be  protected  by 
+rail  or  screen.  Incandescent  circuits  may  be  run  in  mold- 
+ings, but  in  all  cases  soft  fusible  metal  strips  of  proper  size 
+must  be  placed  at  each  branching  of  the  wire. 
+
+The  insulation  resistance  required  is  one  megohm  (i,ooo,~ 
+ooo  ohms),  and  the  inspection  fee  is  $i  per  horse  power 
+used — one  ordinary  arc  light  being  allowed  per  horse  power, 
+or  ten  16  candle  power  incandescent  lamps. 
+
+The  plant  cannot  be  legally  altered  after  inspection,  ex- 
+cept by  first  notifying  the  city  electrician.  While  the  plant 
+remains  in  the  same  condition  as  at  the  date  of  the  certifi- 
+cate, that  document  is  valid. 
+
+Violation  of  any  one  of  the  above  requirements  subjects 
+the  party  so  transgressing  to  a  fine  of  from  $50  to  $100  for 
+each  day  the  infraction  is  continued. 
+
+
+Overhead    Conductors    for   Electric 
+Light  and  Power.1 
+
+I.  No  two  lines  of  poles  bearing   conductors   of   a   like 
+class  shall  be  erected  on  any  street  or  avenue. 
+
+II.  No  two  lines  of  poles  shall  be   erected   on   the  same 
+side  of  any  street  or  avenue. 
+
+III.  Poles  shall  be  set  in  the  sidewalk  twelve  inches  from 
+the  outside  of  curb,  and  no   pole  shall  be  placed  within  ten 
+feet  of  ^ny  lamp  post  or  other  pole,  except  at  street  corners 
+where  necessary  in  order  to   support  wires  running   on  the 
+cross  street. 
+
+IV.  All  poles  now  standing,  or  to  be  hereafter  erected, 
+shall  be  branded  or  stamped  with  the  initials  of  the  company 
+owning  them,  at  a  point   not   less   than  five  nor  mere  than 
+seven  feet  from  the  street  surface;  and   when  a  pole  is  oc- 
+cupied by  wires  belonging  to  more  than  one  company,  each 
+group  of  cross-arms,  or  where  necessary   the   support  of  a 
+single  wire  of   different  ownership,  must   be   distinguished 
+by  some  characteristic  paint,  mark  or  fastening. 
+
+V0  Electric  light  lamp  posts  shall  be  in  accordance  with 
+the  plan  adopted  by  the  board. 
+
+VI.  All  poles  erected  for  the  purpose  of  carrying  lines  of 
+more  than  two  electric  light  or  power  wires  shall  be  at  least 
+forty-five  feet  high,  uniform  in  size,  straight,  and  painted 
+from  top  to  bottom — a  very  dark  color  from  the  sidewalk 
+
+1  Rules  and  Regulations  of  the  Board  of  Electrical  Control,  New 
+York. 
+
+
+70       DYNAMO    TENDERS'  HAND-BOOK. 
+
+to  a  point   eight   feet   high,  and  a  dark  green  color  above 
+that. 
+
+VII.  All  poles  for  carrying  not   more  than  two  electric 
+light  wires  shall  be  twenty-five  feet  high,  straight,    uniform 
+in  size,  and  painted  from  top   to  bottom — a  very  dark  color 
+from  the  side  walk  to  a   point   eight   feet  high,  and  a  dark 
+green  color  above  that. 
+
+VIII.  Cross-arms   shall  be   uniform  in  length,  strength- 
+ened by  braces,  and  painted  the   same   color   as  the  poles; 
+the  cross-arms  of   each  company    being   distinguished   by 
+some  characteristic  mark. 
+
+IX.  Each  line  of   poles  must  be  run  on  one  side  of   the 
+street  only,  except  when  absolutely  necessary  to   change  to 
+the  other  side;  but  this  may  only  be  done  by  the  permission 
+of  the  board  or  of  its  engineer  or  expert. 
+
+X.  Electric  light  conductors   must   not   be  placed  upon 
+fixtures  erected  or  maintained  for   supporting  wires   of  the 
+other  class,  namely  those   for  signalling,  except  by  permis- 
+sion of  the  board. 
+
+XI.  Poles  shall  be  uniformly  spaced,  and   about  sixty  to 
+the  mile.     This  requires  on   the   short   city  blocks  of   two 
+hundred  and   sixty    feet,  alternately  three  and  two  poles  to 
+the  block. 
+
+XII.  All  conductors  shall  be   secured   to  insulating  fast- 
+enings, and   covered   with   an  insulation   which   is  water- 
+proof on   the   outside,  and   not   easily   worn   by  abrasion. 
+Whenever  the  insulation  becomes  impaired   it   must  be  re- 
+newed immediately. 
+
+XIII.  No  wire  shall  be   stretched   within   four  inches  of 
+any  pole,  building  or   other   object,  without  being  attached 
+to  it  and  insulated  therefrom. 
+
+XIV.  Every  wire  must  be  distinguished   by  a   number 
+plainly  marked  on  each  cross-arm  under  the  insulator. 
+
+XV.  No  unused  loops   from   electric   light  circuits  shall 
+be  allowed  to  remain  after  lamps  are  taken  away,  except  in 
+cases  where  it  is  positively  known  that   the  lamp  will  be  re- 
+quired again  within  three   months,  and   where   there   is  no 
+underground  conduit  for  that  class  of  circuits. 
+
+XVI.  All   arc   lamps   must  be  so  placed   as   to  leave  a 
+space  underneath  of  nine  (9)   feet  clear   between  lamp  and 
+sidewalk. 
+
+XVII.  All  wires  must  be  stretched   tightly  and  fastened 
+to  glass  or  porcelain   insulators,    approved   by   the   expert, 
+with  a  strap  of  the  same  kind  of  wire. 
+
+XVIIL  All  connections  with  lines   of  electric  light  con- 
+
+
+SAFETY  REGULATIONS.  71 
+
+ductors  shall  be  made  at  right  angles  to  the  same ;  and  con- 
+nections to  buildings  shall  be  run  straight  across  to  the 
+building,  and  then  down  the  front  of  the  building. 
+
+XIX.  All   joints  must  be   as   well   insulated  as  the  con- 
+ductors, and  the  insulation  of  joints  must  be  maintained. 
+
+XX.  Every  line    entering  a   building  shall  be  controlled 
+by  a  cut-off  placed  near  the  entrance,  in  sight,  and  easily  ac- 
+cessible. 
+
+XXI.  No  wires  shall   hang  within   twenty   feet   of   the 
+pavement  at  the  lowest  point  of  sag  between  supports. 
+
+XXII.  In  the  construction  of   lines   the   insulation  to  be 
+used  must  be  approved  by  the  expert   of   the  board  in  writ- 
+ing, and  the  insulation  resistance  must  be  maintained  in  ac- 
+cordance with  a  standard  to  be  not  less  than  1-80  megohm 
+per  mile  per  hundred  volts.     And   under  no  circumstances 
+shall  underwriters'  wire  be  used. 
+
+XXIII.  All   circuits   must    be   tested   every   hour,   and 
+when  a  ground  comes  on,  effort  must  be  made  to  remove  it 
+at  once.     Failing  in  this,  the  current  must  be  discontinued 
+until  the  insulation  is  restored. 
+
+XXIV.  The  insulation  must  be  preserved  throughout  the 
+entire  circuit,  and  if  any  portion  of   a   lamp  or   fixture  is  a 
+part  of  the  circuit  and  can  be  touched,  it  must  be  insulated. 
+
+XXV.  All  conductors  shall  have   a   resistance  uniformly 
+distributed  of  not  more  than  30  ohms  per  mile  per  ampere, 
+and  proportionately  less  for  heavier  currents. 
+
+XXVI.*  All  existing  regulations  of  the  local  authorities 
+in  regard  to  the  placing  of  poles  and  the  stiinging  of  wires  are 
+to  continue  in  force,  except  when  in  conflict  with  these  rules; 
+and  the  rules  and  regulations  of  the  New  York  Board  of 
+Fire  Underwriters  must  be  strictly  observed. 
+
+X  XVII.  The  violation  of  any  of  the  rules  and  regulations 
+of  the  board  shall  operate  ipso  facto  as  a  revocation  of  the 
+permit  held  by  the  company  or  person  guilty  of  such  vio- 
+lation. 
+
+XXVIII.  Whenever  hereafter  any  company  shall  be  per- 
+mitted by  this  board,  or  its  successors,  to  erect  posts  or  poles, 
+or  other  fixtures  bearing  lamps  or  other  devices,  for  the 
+purpose  of  lighting  by  electricity  the  streets,  avenues,  high- 
+ways, parks  or  public  places  of  the  city,  the  said  permission 
+shall  be  granted  only  subject  to  the  following  provisions, 
+and  the  same  is  hereby  expressly  made  a  condition  of  such 
+permits.  At  any  time  when,  by  action  of  the  city  author- 
+ities, the  contract  for  lighting  any  such  street  or  other  public 
+place  shall  be  given  to  another  company,  the  company 
+
+
+72       DYNAMO    TENDERS'  HAND-BOOK. 
+
+erecting  said  lamp  posts  shall,  on  tender  of  the  first  cost 
+thereof,  yield  possession  and  ownership  of  the  same  to  the 
+said  other  company  obtaining  the  new  contract,  except  in 
+cases  where  the  company  owning  the  lamp  posts  prefers  to 
+remove  them. 
+
+XXIX.  All   broken   and   "dead"   wires,   and  all  wires, 
+poles  and  fixtures  not  actually  in  use — subject  to  Rule  XV 
+— must  be  removed  from  the  streets,  avenues  and  highways 
+of  the  city.     When  an  old  pole   is   taken    down  it  must  be 
+removed  from  the  streets  the  same  day.     New   poles  must 
+not  be  brought  upon  any  street    more  than  two  days  in  ad- 
+vance of   their  erection.     Any  pole   that   shall   lie  on  any 
+street  more  than  two  days  shall  be   removed  by  the  Bureau 
+of  Incumbrances  of  the  Department  of  Public  Works,  at  the 
+expense  of  the  party  owning  it. 
+
+XXX.  From  and   after   the   first  of  January,    1889,  no 
+company  shall  do  business  of   arc   electric    lighting   in  the 
+city  of  New  York  without  a  certificate  of  the  board,  granted 
+on  the  recommendation  and   after  inspection  by  the  expert 
+of  the  board,  to  the  effect  that  its  lines  comply  with  all  the 
+rules  and  regulations  of  •  the  board,  and   that  its  plant  is  in 
+proper  condition  for  the  doing  of   its  business.     The  force 
+of  the  certificate  to  continue   until   changes   are   made,  of 
+which  the  board  must  be  notified  and  approve,  or  so  long  as 
+the  plant  and  conductors   remain   in  the  same  condition  as 
+when  inspected. 
+
+XXXI.  Every  lineman  must  wear  a  badge  in  a  conspic- 
+uous place,  giving  his  number  and  the  name  of  the  company 
+by  whom  he  is  employed. 
+
+XXXII.  All  permits  of  the  board  for  overhead  wires  and 
+fixtures  are  granted   only   pending  the  providing  of  under- 
+ground accommodations  in  the  neighborhood  of   the   street 
+or  avenue  for  which  the  permit  is  granted. 
+
+XXXIII.  Any  member  or  officer  of  the  board,  and  every 
+inspector  employed  by  it,  as  well  as  every  member   of   the 
+police  force  of  the  city,  shall  be  entitled  to  examine  permits 
+under  which  work  of  any  kind  is  being  done. 
+
+XXXIV.  No  permit  shall  be   granted  for  the  erection  of 
+any  overhead  structure  nor  for  the   renewing   of   any  lines 
+already  existing  in  any  street,  avenue  or  highway  in  which 
+underground  accommodations  for  the  service  have  been  pro- 
+vided, or  are  being  provided. 
+
+XXXV.  Every  line,  pole,  fixture,  etc.,   must  be  kept  in 
+thorough  order,  repair,  and  conformity  with  these  rules  and 
+specifications,    upon   penalty   of   forfeiture  of   all   permits 
+granted  to  the  owner  by  this  board. 
+
+
+SAFETY  REGULATIONS.  73 
+
+But  the  general  permit  under  which  these  repairs  are  to 
+be  made  does  not  cover  the  erection  in  any  street,  avenue  or 
+highway  of  any  new  poles  or  other  similar  fixtures,  and  has 
+absolutely  no  reference  whatever  to  lines  which  have  been 
+ordered  underground  by  the  board,  and  which  the  mayor 
+has  been  requested  to  remove. 
+
+In  the  case  of  such  lines,  where  notice  has  been  given 
+that  underground  accommodations  have  been  provided,  and 
+the  ninety  days  of  notice  required  by  law  have  elapsed,  and 
+the  mayor  has  been  requested  to  remove  the  same,  com- 
+panies owning  or  operating  said  lines  are  not  authorized  to 
+make  any  repairs  or  connections  or  to  go  upon  the  poles 
+bearing  such  lines  for  any  purpose  whatever,  except  to 
+remove  the  said  lines  of  electrical  conductors  in  conformity 
+with  the  directions  of  the  board. 
+
+Any  deviation  from  this  rule  requires  a  resolution  passed 
+at  a  regular  meeting  of  the  board,  attested  by  the  secretary. 
+
+XXXVI.  Every  company  or  person  erecting  poles,  wires 
+or  fixtures  must  make  and  leave,  at  least  once  each  week,  at 
+the  office  of  the  board,  such  records  of  the  fixtures,  etc., 
+which  they  are  erecting,  and  of 'all  of  the  same  that  they  have 
+in  use,  as  are  required  by  the  engineer  and  the  electrical 
+expert  of  the  board,  and  in  such  form  as  shall  be  prescribed 
+by  them. 
+
+XXXVII.  The  companies  or  persons  owning  or  control- 
+ling poles  in  any  street  or  avenue,  erected  under  permits  of 
+this  board  or  the  Board  of  Electrical  Subways,  shall  allow 
+the  same  to  be  used  by  other  companies  or  persons  operat- 
+ing conductors  for  similar  electrical  service  when  author- 
+ized so  to  do  by  the  board,  on  tender  of  proper  compensa- 
+tion, to  be  determined  by  agreement  between   the  parties 
+interested.     In  default  of  such  an  agreement  the  amount  of 
+such  compensation  shall  be  determined  by  the  board.  This 
+rule  imports  a  contract  on  the  part  of  each  company  or  per- 
+son owning  or  controlling  the  poles  on  any  street  or  avenue, 
+not  only  with  the  board  but  also  with  each  company  or 
+person  who  shall  under  its  terms  be  qualified  to  demand  the 
+privileges  it  confers,  to  permit  this  joint  use  of  poles. 
+
+And  in  accepting  any  permit  the  applicant  thereby  binds 
+himself  to  this  agreement. 
+
+
+>• 
+
+1  ?~8* 
+
+flS 
+
+OOO^O^^CO^O^O^^WOOO^.OO^COCO 
+
+H 
+
+!  it* 
+
+rnrnrH 
+
+(-H 
+
+M 
+
+• 
+
+a 
+o,fr" 
+
+0*^ 
+
+«M^ 
+
+IIS 
+
+00 
+
+So7o0^2r^OOin«GO^rHCOrt<pt- 
+
+OOOOOOOOOOOOOCOOrHOJCOOOOlOO*'* 
+
+O 
+
+rHOJCC 
+
+t»: 
+
+. 
+
+S&SSS$f^iSSSSlSS§S«^IS§f€ 
+
+R 
+
+•M'SOJ 
+
+Oo*3 
+
+1*? 
+
+l^g 
+
+Ot-OCO^*O5COl>t-OJOOOSCOr-iO?»OOSOrHO5OSO«Tt 
+
+3§§ 
+
+w     jj 
+
+rH  rj*  rH  OJ  OS  CO  O  OS  tO  rH  OS  ^  -^  O  rH  CO  ^  00  T*<  OS  OS  iO  t^  CO 
+
+,_; 
+
+03  ^ 
+
+§«o 
+
+OOOrHr^rHO^olcO^tOCOOOOCOCOOCOCOrHO^ScOin 
+
+w 
+
+ri> 
+
+X 
+
+1  = 
+
+O     o 
+
+rH  rH  rH  <y$  O?  CO  Tf  4O  CO  00  O 
+
+OTOIE 
+
+* 
+
+9 
+
+d     ^ 
+g>    * 
+
+^  -  - 
+a»  a>  g 
+fcfto 
+
+i  Silf  llll'H^I^Iislllslo 
+
+i 
+
+1. 
+
+ft£ 
+
+P 
+
+q 
+
+5  i 
+
+^r,? 
+
+O  OS  TJ»  rH  OS  OS  OJ  OS  O  CO  OS  O  O*  00  O*  5C  OS  O  CO  rH  iT5  1>  O?  O 
+
+*: 
+
+* 
+
+H 
+
+« 
+
+£P,| 
+
+rH  rH  OI  M  OT  ^  5O  C-  O  O»  »O  O  tf3  rH  O  O  CO  OS  rH  00  rH  CO  •*  Tj« 
+
+ll 
+
+0 
+
+_j 
+
+j 
+
+•§   d 
+
+•     •«0500C00005l>l>OOOOOS'*OSlOCOOOOOCOXCOrH 
+
+s§ 
+
+0 
+
+p 
+
+3 
+
+fti; 
+
+u 
+
+r 
+
+»* 
+
+C^H 
+
+w 
+
+4J 
+
+fl 
+
+•s**5 
+
+CO  ^  OS  rf  00  <*  CO  OI  rH  O?  O  00  CO  C-  CO  CO  If5  rH  Tj<  rH  OS  rH  00  OS 
+
+&o 
+
+6 
+
+H 
+
+> 
+
+fcC 
+
+®      -3 
+
+rS             1 
+
+£  2 
+
+os  t^  oi  os  oi  d  os  «  d  oi  oi  os  os  r-«  •«*  os  o  oi  os  i>  co  rr  co  ?o 
+
+COOOrH»no»OOlOf-CCt<*<COCOO*rHrHrH 
+
+!i 
+
+d 
+
+1 
+
+09 
+
+CO  O  »  7<{  f-H  ».'  Ot  00  r-<  Oi  OI  rH  OS  »fl  rH  rH  iT2  00  GO  CO  CO  CO  Tj«  « 
+
+aft 
+
+^s 
+
+0 
+
+H 
+
+fi 
+
+£ 
+
+'5  ®  o 
+
+T)<  »ft  00  OJ  l>  rf  rH  00  1-  O  Tf  CO  Oi  O?  rH  rH  rH 
+
+«« 
+
+*H    > 
+
+^52 
+
+EH 
+0 
+
+9 
+
+* 
+
+ill 
+
+Square 
+milli- 
+metres. 
+
+OS  00  rH  Tt<  OS  Oi  O  rH  CO  rH  CO  JO  »Tj  O  O?  OS  00  rH  O  OS  00  co  TT  i> 
+O  00  CO  «O  rf  CO  OI  OJ  rH  ri  rH 
+
+»  the  regu 
+deg.  F.  al 
+
+H 
+
+5 
+
+hi 
+
+M      Q 
+
+CQ 
+g 
+
+OkOOSOirf  CO^'TioidcOOST^rH^'OSGO^cdoiQO'^oirH 
+rH  CO  CO  O  00  »  O  r}t  CO  O<  Oi  rH  rH  rH 
+
+jsti  mated  ij 
+3g.  C.  or  18 
+
+2 
+
+?4 
+§ 
+
+if 
+
+Tf  0  CO  rt<  CO  rf  t-05  rn  »O  i«  r}<  C-GO  in  CO  0000  0  rH  O  ^  Os  Oi 
+
+co  o  »  »n  •*  rt<  oj  oo  oi  !-•  co  «  o  cjo  c-  »n  oi  oi  m  os  10  01  os  «-i 
+
+on  here  « 
+dto  10  d 
+
+« 
+
+s 
+
+s 
+
+i 
+
+O  CO  00  OS  CO  CO  Tt  CO  OS  O  Oi  -^  ^  00  1-  00  OS  O  O  00  Oi  CO  CO  OS 
+
+B* 
+
+§   & 
+
+C5 
+
+OOOO-WCO^iOCOt-COOsOrHOiCO^iC-^t-aOOsO 
+
+^r 
+
+05     02 
+
+fc 
+
+§° 
+
+Lamp  Lighting  Schedule— Moonlight 
+System  for  1  89 1 , 
+
+JANUARY. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I  
+2       
+
+H.  M. 
+5.  10  P.M. 
+«>   IO     " 
+
+I  
+3  
+
+H.  M. 
+II.  50  P.  M. 
+12  5O  A  M. 
+
+H.  M. 
+6.40 
+
+7  4O 
+
+-7 
+
+c    10     " 
+
+4..  . 
+
+I   C.O     " 
+
+8  4O 
+
+A      , 
+
+C..2O     " 
+
+5  
+
+a  OO     " 
+
+Q  4O 
+
+*>  2O     " 
+
+6  
+
+4  oo   ' 
+
+10  40 
+
+6 
+
+K    2O      " 
+
+7.  . 
+
+5IO     " 
+
+1  1   5O 
+
+7      
+
+C.    2O      " 
+
+8   
+
+6  20    " 
+
+13  oo 
+
+8  
+
+5.2O      " 
+
+Q.  . 
+
+6  20    " 
+
+I'l  OO 
+
+C   2O     " 
+
+10  
+
+6  20    ** 
+
+13  oo 
+
+10  
+
+5.2O     *' 
+
+II  
+
+6.  20    " 
+
+1^  OO 
+
+ii 
+
+5   2O     " 
+
+12  
+
+6  20    " 
+
+13  °o 
+
+12  
+
+5.2O     *' 
+
+13  
+
+6  20    " 
+
+1^  OO 
+
+M 
+
+C.2O    " 
+
+14  
+
+6  20    •' 
+
+I-i  OO 
+
+14.    . 
+
+Q.OO     " 
+
+15    
+
+6  20    " 
+
+Q  20 
+
+TC 
+
+IO.IO     ' 
+
+16   
+
+6  20     " 
+
+8  10 
+
+16  
+
+I  I  .  2O     " 
+
+) 
+
+17 
+
+17.  . 
+
+6  20     " 
+
+[  7.00 
+
+18  
+
+IQ 
+
+12.30  A.M. 
+I  4O     " 
+
+18  
+
+IO.  . 
+
+6.20     " 
+
+6  20    " 
+
+5.50 
+
+4.4O 
+
+2O 
+
+2.40     " 
+
+20  
+
+6  20    " 
+
+3.40 
+
+21       « 
+
+3^O     " 
+
+21    
+
+6  20     " 
+
+2  ^O 
+
+22     ,. 
+
+4..4O     " 
+
+22  
+
+6.  20    *' 
+
+1.40 
+
+2^ 
+
+No  light. 
+
+23  
+
+No  light. 
+
+o.oo 
+
+2/1 
+
+Nc  light 
+
+24  
+
+No  light. 
+
+o.oo 
+
+2s  
+
+No  li^ht. 
+
+25  
+
+No  light. 
+
+*  o.oo 
+
+26  
+
+27    . 
+
+5.40P.M. 
+
+C    AQ      <( 
+
+26....... 
+
+27.  . 
+
+7.50P.M. 
+8  co    " 
+
+2.10 
+•J.io 
+
+28       
+
+c  4.0     " 
+
+28  
+
+Q.4O     " 
+
+4.00 
+
+2Q 
+
+5/1O     " 
+
+2Q 
+
+IO  4O    '* 
+
+5.00 
+
+riQ 
+
+C    CO      " 
+
+30  
+
+II.4O     ' 
+
+5.50 
+
+•U  
+
+s.*.o   4< 
+
+Feb.  i.. 
+
+12.  40  A.M. 
+
+6.50 
+
+Total  number  of  hours, 
+
+
+216.00 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis: 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  One  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+75 
+
+
+76       DYNAMO    TENDERS'  HAND-BOOK. 
+
+
+FEBRUARY. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I.  
+
+2 
+
+H.    M. 
+
+5.501'.  M. 
+Sen     " 
+
+2  
+
+q 
+
+H.  M. 
+I  50  A.  M. 
+2  c,O     " 
+
+H.   M. 
+
+8.00 
+Q.OO 
+
+C     CQ        " 
+
+4  .  
+
+4  OO     " 
+
+IO.  IO 
+
+Sen     '  ' 
+
+c    10     " 
+
+II  .20 
+
+r 
+
+C     CO        " 
+
+5.     .... 
+
+6   
+
+6.IO     " 
+
+12.  2O 
+
+6 
+
+5CQ       *  ' 
+
+7 
+
+6  oo    " 
+
+12  .  IO 
+
+6  oo    ' 
+
+8  
+
+6  oo    " 
+
+12  .OO 
+
+8         
+
+6  oo    " 
+
+Q.  . 
+
+6.00    " 
+
+12.  OO 
+
+6  oo    " 
+
+10  
+
+6  oo    " 
+
+12    OO 
+
+jO 
+
+6  oo    ' 
+
+II  
+
+6  oo    " 
+
+I2.OO 
+
+ii   
+
+6  oo    " 
+
+12  
+
+6.00    " 
+
+12.  OO 
+
+12 
+
+Q  IO      " 
+
+ia  .  . 
+
+6.00    " 
+
+8.50 
+
+I  a     . 
+
+IO.2O     ' 
+
+14  
+
+6.00    " 
+
+7.40 
+
+IJ. 
+
+II  30     " 
+
+1  5  ....... 
+
+5.50    " 
+
+j-      6.20 
+
+16  
+
+17 
+
+12.40  A.  M. 
+I  4.O      t( 
+
+16  
+
+17.  . 
+
+5-50    " 
+^.50    ' 
+
+5.10 
+
+4.  10 
+
+18 
+
+2  dO     '  ' 
+
+18 
+
+C    CQ       " 
+
+3-  IO 
+
+IQ 
+
+a.  dO     " 
+
+IQ. 
+
+g.gO      " 
+
+2.  IO 
+
+2O 
+
+4  2O     " 
+
+2O 
+
+C    CQ       " 
+
+1  .  30 
+
+21       .  . 
+
+C,  OO      " 
+
+21  
+
+5.50       " 
+
+o.  50 
+
+22                       . 
+
+No  light 
+
+22            ... 
+
+No  light 
+
+o.oo 
+
+27 
+
+No  light 
+
+2^    . 
+
+No  light. 
+
+o.oo 
+
+24 
+
+No  light. 
+
+24  
+
+No  light. 
+
+0.00 
+
+25  
+26    
+
+6.  20  P.  M. 
+
+6.  20    " 
+
+25  
+26  
+
+8.40P.  M. 
+9.40    " 
+
+2.  2O 
+
+3.20 
+
+27 
+
+6  20    " 
+
+27  
+
+10.40    " 
+
+4.20 
+
+28.. 
+
+6.  20    " 
+
+28  
+
+11.40    " 
+
+5.20 
+
+Total  number  of  hours, 
+
+
+178.10 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis  : 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+LAMP  LIGHTING  SCHEDULE. 
+
+
+77 
+
+
+MARCH. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+
+of  Month. 
+
+Extinguish. 
+
+fx  umber  of 
+Hours. 
+
+I  
+2  
+
+H.  M. 
+6.  20  P.  M. 
+
+6  20    " 
+
+2  
+
+a.  . 
+
+H.  M. 
+I2.4O  A.M. 
+I   CO    " 
+
+H.  M. 
+6.20 
+
+7.  3O 
+
+Q 
+
+6  20     " 
+
+3OO     " 
+
+8  40 
+
+4     
+
+6  20    " 
+
+c  .  . 
+
+4  OO     " 
+
+9  .40 
+
+c 
+
+6  30    '  ' 
+
+6 
+
+5  oo    " 
+
+10  30 
+
+6  
+
+6  10    " 
+
+7  . 
+
+C     -7Q       " 
+
+II    OO 
+
+7 
+
+6  30    " 
+
+8    .. 
+
+c  2O     " 
+
+10  50 
+
+8    .... 
+
+6  30    " 
+
+c  2O     " 
+
+10.  50 
+
+Q  .  . 
+
+6.30    ' 
+
+9.  . 
+10  
+
+5.2O     " 
+
+IO.  ^O 
+
+10   
+
+6  30    " 
+
+II  
+
+^  2O     " 
+
+10.  50 
+
+II  
+
+6.30    ' 
+
+12  
+
+5.2O     " 
+
+10.  50 
+
+I  ^ 
+
+6.30    " 
+
+13  
+
+c;  20   " 
+
+10.  50 
+
+I  -3 
+
+6  30    " 
+
+14 
+
+c   10     " 
+
+10  40 
+
+14    ... 
+
+IO.2O     i4 
+
+1C.  . 
+
+^  10   " 
+
+6.  ^o 
+
+I  ^     . 
+
+1  1  10    '  ' 
+
+16  
+
+16  
+
+c,  10    " 
+
+1  5.40 
+
+17   
+18    
+
+12.30A.M. 
+I.3O     " 
+
+17  
+18  
+
+5.10  •' 
+
+*>   IO     " 
+
+4.40 
+
+•7.4.0 
+
+in 
+
+2  2O     " 
+
+10.  . 
+
+c   10     " 
+
+2    ^O 
+
+2O    
+
+3.OO     " 
+
+20  
+
+5  OO     " 
+
+2    OO 
+
+21    .  . 
+
+3  4O     " 
+
+21       .... 
+
+c  no     " 
+
+I    20 
+
+22    
+
+4.IO     " 
+
+22  
+
+^  .  OO     '  * 
+
+o.  ^o 
+
+27 
+
+No  light 
+
+23.  . 
+
+No  light 
+
+o.  oo 
+
+24  
+
+No  light 
+
+24  
+
+No  light. 
+
+o.oo 
+
+25  
+
+No  light. 
+
+25  
+
+No  light. 
+
+o.oo 
+
+26  
+
+6.50P.M. 
+
+26  
+
+8.  30  P.  M. 
+
+1.40 
+
+27 
+
+6.50    " 
+
+27  
+
+Q.3O     " 
+
+2.40 
+
+28 
+
+6.50    " 
+
+28  
+
+10.40    ' 
+
+3.  50 
+
+2Q 
+
+6.50    " 
+
+2Q  
+
+1  1  .  40    " 
+
+4.50 
+
+or) 
+
+6.  co    " 
+
+31  
+
+I2.5O  A.M. 
+
+6.00 
+
+31.  . 
+
+6.50    " 
+
+April  i.  .  . 
+
+1.50  " 
+
+7.00 
+
+Total  number  of  hours, 
+
+
+183. 10 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis : 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+DYNAMO    TENDERS'   HAND-BOOK. 
+
+
+APRIL. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I          .          ... 
+
+H.  M. 
+
+6  50  r  M 
+
+2 
+
+H.  M. 
+2  50  A  M 
+
+H.   M. 
+
+8  oo 
+
+2  
+
+7  OO     " 
+
+o   en      '  ' 
+
+8  50 
+
+<\ 
+
+7  oo    " 
+
+4  on      " 
+
+9Or\ 
+
+A      . 
+
+7  .  OO     '  ' 
+
+e 
+
+4J.O      '  ' 
+
+•  JU 
+Q  4O 
+
+C   .  . 
+
+7  OO      " 
+
+6  
+
+4.  4O      " 
+
+94O 
+
+6    
+
+7  OO     ' 
+
+7 
+
+4^O     '  ' 
+
+90Q 
+
+8  
+
+7  OO     <c 
+
+A    T.Q      il 
+
+9-20 
+
+7  OO      '  ' 
+
+JO  
+
+4  on      " 
+
+9    Of) 
+
+9.  . 
+io    
+
+7  OO      <: 
+
+II  
+
+4^O      '  ' 
+
+9  on 
+
+ii  
+
+7  oo    " 
+
+12  
+
+d.^O      " 
+
+Q  ^O 
+
+12        
+
+IO  2O      " 
+
+M, 
+
+4.  ^O      '  ' 
+
+6   IO 
+
+1-2   .   . 
+
+1  1  20     '  ' 
+
+) 
+
+14  
+
+IJ.  
+
+4.2O      " 
+
+f     5-00 
+
+15  
+16  
+
+12.20  A.M. 
+I  OO      " 
+
+15      
+
+16   
+
+4.20      " 
+4.2O      " 
+
+4.00 
+^  20 
+
+17  .  . 
+
+I   4O      " 
+
+I  7. 
+
+4  20    " 
+
+2  4O 
+
+18  
+
+2.IO      " 
+
+18  
+
+4.20    4< 
+
+2   IO 
+
+IQ 
+
+2  4O     <4 
+
+IO    . 
+
+4  2O     " 
+
+I  jo 
+
+2O  
+
+I  OO     " 
+
+20  
+
+4.IO      " 
+
+I.  IO 
+
+21  
+
+3.  2O     *' 
+
+21  
+
+4.IO     " 
+
+O.5O 
+
+22     
+
+No  light. 
+
+22  
+
+No  light. 
+
+O  OO 
+
+21>  .  . 
+
+No  light. 
+
+23  . 
+
+No  light. 
+
+o.oo 
+
+2/1 
+
+No  light. 
+
+24..  . 
+
+No  light. 
+
+O  OO 
+
+25  
+
+26 
+
+7.20  P.  M. 
+
+7  2O     " 
+
+25  
+26  
+
+9.  30  p.  M. 
+10.40    " 
+
+2.10 
+3-2O 
+
+27  .  . 
+
+7.  2O     " 
+
+27.  ...... 
+
+11.50    " 
+
+4.30 
+
+28 
+
+7  2O     " 
+
+2Q    . 
+
+12.  co  A.  M. 
+
+5.30 
+
+2Q  .  . 
+
+7.2O     ' 
+
+30    
+
+I.4O      " 
+
+6.  20 
+
+3°  
+
+7.2O     " 
+
+May  I  ... 
+
+2.3O      " 
+
+7.10 
+
+Total  number  of  hours, 
+
+
+149.10 
+
+
+The  foregoing  schedule  was. calculated  on  the  following  basis  : 
+Light  one-half  hour  after  sunset,  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+LAMP  LIGHTING  SCHEDULE, 
+
+
+MAY. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I  
+2  
+
+H.    M. 
+7-3OP.  M 
+7-20     " 
+
+2  
+
+3  
+
+H.    M. 
+3.  10  A.M. 
+
+•2.    CO      " 
+
+H.    M. 
+7.40 
+
+8.  20 
+
+•7 
+
+7  -3O     " 
+
+-2     CQ      " 
+
+8  20 
+
+7.3O    *' 
+
+4.  . 
+5  
+
+•2.    CQ      " 
+
+8.  20 
+
+_ 
+
+7  ao     " 
+
+6  
+
+•2    tO      " 
+
+8  20 
+
+6  
+
+7-20     " 
+
+7  
+
+Q    CQ      " 
+
+8.  20 
+
+7     . 
+
+7-20     " 
+
+8. 
+
+O     CQ      " 
+
+8  20 
+
+8  
+
+7-20     '  ' 
+
+Q    .... 
+
+•2.  CQ      " 
+
+8.  20 
+
+7-20    " 
+
+IO.  ... 
+
+q   CQ     " 
+
+8  20 
+
+9. 
+10  
+
+7.4O    " 
+
+II  ....... 
+
+•2.  CO      " 
+
+8.  10 
+
+ii             ... 
+
+7  40    " 
+
+12     ... 
+
+o   CQ     " 
+
+8.  10 
+
+12  
+
+IT.OO    " 
+
+13  
+
+-2    CQ      " 
+
+4  .  SO 
+
+IT     . 
+
+1  1  dO     " 
+
+^4 
+
+T    1 
+
+3   dO     " 
+
+[  4.00 
+
+1  c     . 
+
+12   IOA    M. 
+
+I  c 
+
+3J.O     " 
+
+0  .  -2Q 
+
+16 
+
+1  2  40     '  ' 
+
+16 
+
+•2    4O       '  ' 
+
+3OO 
+
+17     . 
+
+I    IO    " 
+
+17  .. 
+
+o    IQ     *' 
+
+2    IO 
+
+18 
+
+I  qn    " 
+
+18 
+
+q  J.O     '  ' 
+
+2    IO 
+
+IQ 
+
+I   ^O    " 
+
+IQ.  . 
+
+•2    4O      " 
+
+I    SO 
+
+2O 
+
+2   IO     '  ' 
+
+2O 
+
+•2     JO       " 
+
+I    ^O 
+
+21  .... 
+
+No  lio-ht 
+
+21  
+
+No  light 
+
+o  oo 
+
+22 
+
+No  light 
+
+22     .. 
+
+No  light 
+
+o  oo 
+
+23          .-  
+2d 
+
+No  light. 
+
+7  CO  P    M 
+
+23  
+2A 
+
+No  light. 
+9  40  p  M 
+
+0.00 
+I  .  SO 
+
+2S  .  . 
+
+7  50   " 
+
+2Z     . 
+
+10.40    " 
+
+*     2.  50 
+
+26       
+
+7  CQ    " 
+
+26        .... 
+
+11.40    " 
+
+•2  .  CO 
+
+27 
+
+7  en    *' 
+
+27 
+
+1  2  30  A    M 
+
+4  do 
+
+28 
+
+7  ^O    " 
+
+2Q.  . 
+
+I.  IO     " 
+
+s  .  20 
+
+2Q    . 
+
+7.50    " 
+
+30  
+
+I.5O     " 
+
+6.00 
+
+-2Q 
+
+7  50   " 
+
+^1  .  . 
+
+2.  2O     " 
+
+6  30 
+
+•U.    . 
+
+7.^0    " 
+
+Tune  i  .  . 
+
+2..  SO    " 
+
+7.00 
+
+Total  number  of  hours, 
+
+
+152.00 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis  : 
+Light  one-halt  hour  after  sunset  and  one  hour  before  moonstt. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+DYNAMO  TENDERS'  HANDBOOK. 
+
+
+JUNE. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I  
+2    
+
+H.  M. 
+7.  50  P.  M. 
+
+8  oo    " 
+
+2  
+
+a  .  . 
+
+H.  M. 
+
+3.  10  A.M. 
+a   -30     " 
+
+H.  M. 
+7.20 
+7   QO 
+
+8  oo    " 
+
+1  ar>     " 
+
+7O() 
+
+A 
+
+8  oo    " 
+
+c 
+
+Q    ^o     " 
+
+•     7   IO 
+
+e 
+
+8.00    " 
+
+6  
+
+o   CQ     " 
+
+7  ^O 
+
+6 
+
+8  oo    " 
+
+7 
+
+q    7o     " 
+
+7  ^O 
+
+7     ... 
+
+8  oo    " 
+
+8  
+
+0     OQ       '  ' 
+
+7  QO 
+
+8  
+
+8  oo    " 
+
+o.  . 
+
+^   ^O     " 
+
+7    'JQ 
+
+Q 
+
+8  oo    " 
+
+IO       .... 
+
+T     -2Q       '  ' 
+
+7    -7Q 
+
+10  
+
+IO.IO     " 
+
+1  1    
+
+a  -20     " 
+
+e  20 
+
+II             
+
+10  40    ' 
+
+12       ... 
+
+a    -2Q       '  ' 
+
+J.   ^O 
+
+12        
+
+1  1.  IO     " 
+
+J-2  .   . 
+
+^  ^O     " 
+
+1  20 
+
+T*i 
+
+i  i  30    " 
+
+a   -3Q     " 
+
+J.  OO 
+
+Id 
+
+11.50    " 
+
+) 
+
+1C     . 
+
+15  
+
+3-3°    " 
+
+•    3-40 
+
+16            
+
+I2.IO  A  M. 
+
+16  
+
+o   QO     " 
+
+3  °o 
+
+I  7 
+
+12  JO     ' 
+
+I  7 
+
+•i   ^o     '  ' 
+
+o   co 
+
+18     .  . 
+
+I  OO     " 
+
+18  
+
+a   ^o     " 
+
+2   ^O 
+
+10  . 
+
+1  .  3O     " 
+
+IQ.  . 
+
+3.30    ' 
+
+2  CO 
+
+20 
+
+No  light 
+
+2O    
+
+No  lioht 
+
+O  OO 
+
+21       
+
+No  light. 
+
+21  
+
+No  light. 
+
+O  OO 
+
+22 
+
+No  light 
+
+22             ... 
+
+No  light 
+
+o  oo 
+
+27 
+
+8   IO  P.  M. 
+
+«2^.  . 
+
+10.30  P.  M. 
+
+2  2O 
+
+2/1 
+
+8  10    " 
+
+24. 
+
+II   IO     " 
+
+^  OO 
+
+OK. 
+
+8  10    " 
+
+25  
+
+imo  " 
+
+3  40 
+
+26 
+
+8  10    " 
+
+27    . 
+
+12  2OA  M 
+
+4  10 
+
+27 
+
+8  10    " 
+
+28  
+
+12  50     " 
+
+4.40 
+
+28 
+
+8  10    " 
+
+2Q 
+
+I  2O     " 
+
+^    IO 
+
+2Q 
+
+8  10    " 
+
+^O.  . 
+
+I  40     " 
+
+5.30 
+
+^O.  . 
+
+8.10    " 
+
+July  i.  . 
+
+2.IO     " 
+
+6  oo 
+
+Total  number  of  hours, 
+
+
+134.40 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis  : 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+LAMP  LIGHTING  SCHEDULE. 
+
+
+JULY. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I  
+
+H.  M. 
+8.  10  P.M. 
+8.10     " 
+
+8.00    " 
+8.00   " 
+8.00    " 
+8.00    " 
+8.00    " 
+8.00    " 
+8.00    " 
+9.30    " 
+
+IO.OO     *' 
+10.20     " 
+10.40     " 
+11.00     " 
+
+11.30    " 
+
+12.00   M. 
+
+2  
+
+H.  M. 
+2.40A.M. 
+3.20     " 
+
+3.30     " 
+3-30     ' 
+
+3  40    ' 
+3.40    ' 
+3.40    ' 
+3-40    ' 
+3-40    ' 
+3.40    ' 
+3.40    ' 
+3.40    " 
+3-40    " 
+340    ' 
+3-40    " 
+
+3.40    " 
+3.40    ' 
+3-40    " 
+No  light. 
+No  light. 
+No  light. 
+
+IO.2OP.  M. 
+
+10.50    " 
+1  1.  20    ' 
+11.50    " 
+
+12.  10  A.M. 
+12.40     ' 
+1.20     " 
+1.50     " 
+2.dO     " 
+
+H.  M. 
+6.30 
+7.10 
+7-30 
+7.30 
+7.40 
+7.40 
+7-40 
+7.40 
+7.40 
+
+6.10 
+5.40 
+5.20 
+500 
+4.40 
+4.10 
+
+|    3.40 
+3.10 
+
+2.20 
+0.00 
+O.OO 
+0.00 
+2.30 
+3.00 
+3-30 
+4.00 
+4.20 
+4.50 
+5-30 
+
+6.00 
+6.e.o 
+
+3  
+
+4  
+5  
+
+4  o  
+
+c 
+
+6..    .. 
+
+6   
+
+7  
+
+7 
+
+8     ... 
+
+9  
+
+10     .    . 
+
+10  
+
+ii  
+
+II  
+
+12 
+
+12  
+
+13  
+
+1-2 
+
+14  
+
+15  
+
+1C 
+
+16 
+
+16  
+17  
+
+17    . 
+
+18   
+
+IQ    . 
+
+12.  3O  A.M. 
+1.20     " 
+
+No  light. 
+No  light. 
+No  light. 
+7.  50  P.M. 
+7.50    ' 
+7-50    ' 
+7-50    " 
+7.50    ' 
+7.50    ' 
+7-50    " 
+7-50    ' 
+
+7.C.O     " 
+
+18  
+
+IQ. 
+
+2O  
+
+2O  
+
+21  
+
+21  . 
+
+22  
+
+22  
+
+23  
+
+2J. 
+
+23  
+24  
+
+25  
+
+25.  . 
+
+26       
+
+26 
+
+27.  
+
+28.        . 
+
+28  
+
+2Q 
+
+29  
+
+30  
+
+3O  
+
+-2T  . 
+
+'U.  . 
+
+Auo\    I.  . 
+
+Total  number  of  hours, 
+
+
+157.40 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis: 
+Light  one-half  hour  after  sunset   and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+82        DYNAMO    TENDERS*  HAND-BOOK. 
+
+
+AUGUST. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I  
+.    2  
+
+H.  M. 
+7.50P.  M. 
+7.  CQ     " 
+
+2  
+
+-2  .  . 
+
+H.   M. 
+3.  30  A.  M. 
+
+4  oo    " 
+
+H.  M. 
+
+7.40 
+8  10 
+
+3  
+
+7.40     ' 
+
+4  
+
+4..OO      " 
+
+8  20 
+
+4.  .  . 
+
+7.4O     " 
+
+e 
+
+4  oo    ' 
+
+8  20 
+
+5  
+
+7.40     " 
+
+6  
+
+4..  CO     " 
+
+8  20 
+
+6     
+
+7  4O     " 
+
+7.  . 
+
+4  oo    *' 
+
+8  20 
+
+7  4O      (t 
+
+8 
+
+4  oo    (t 
+
+8  20 
+
+8 
+
+8  20      " 
+
+4  oo    '  ' 
+
+7  4O 
+
+Q  .  . 
+
+8.40     " 
+
+10  
+
+4  IO     " 
+
+7  3O 
+
+JO  
+
+q.OO      " 
+
+ii  
+
+4.10     " 
+
+7.  10 
+
+II  
+
+Q    aO        " 
+
+12  
+
+4.  IO     " 
+
+6  40 
+
+J2     
+
+Q    CO        " 
+
+iq 
+
+4.  IO     " 
+
+6  20 
+
+1-7       . 
+
+IO  3O      " 
+
+IJ, 
+
+A    IQ      " 
+
+e  AQ 
+
+14.  .  . 
+
+II   IO      " 
+
+1C   .  . 
+
+ie  .  . 
+
+4.  IO      " 
+
+|      5.00 
+
+16  
+
+17  ... 
+
+12.  00  A.M. 
+I  OO      " 
+
+16  
+
+17 
+
+4.10      ' 
+
+4  10    " 
+
+4.10 
+
+•3  10 
+
+18  
+
+No  light. 
+
+18  
+
+No  light 
+
+o.oo 
+
+IQ  . 
+
+No  light 
+
+IQ.  . 
+
+No  light 
+
+o.oo 
+
+20  
+
+No  light. 
+
+20    ..... 
+
+No  light. 
+
+o  oo 
+
+21  
+22  
+
+7.  20  P.  M. 
+7  2O     " 
+
+21  
+22  
+
+9.2O  P.  M. 
+Q  en     " 
+
+2.00 
+2  3O 
+
+23  
+
+7.2O     " 
+
+23  
+
+IO.  IO     ' 
+
+2.5O 
+
+24  .  . 
+
+7  2O     " 
+
+24..  . 
+
+10  40    " 
+
+3  20 
+
+2C  .  . 
+
+7  IO     " 
+
+2C     . 
+
+II   IO     " 
+
+4  OO 
+
+26     
+
+7  IO     " 
+
+26  
+
+11.  ^O     " 
+
+4  4° 
+
+27  
+
+7.IO     ' 
+
+28  
+
+12.  40  A.M. 
+
+5.30 
+
+28  
+
+7  IO     " 
+
+2Q  .  . 
+
+I.^O     " 
+
+6.  20 
+
+2Q 
+
+7  10     " 
+
+T.Q     . 
+
+2  ^O     il 
+
+7  20 
+
+30  
+
+7.IO     ' 
+
+31  
+
+3.2O     " 
+
+8.  TO 
+
+31  .' 
+
+7.oo    " 
+
+Sept.  I.  . 
+
+4.  30     '  : 
+
+Q.30 
+
+Total  number  of  hours, 
+
+
+167.00 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis  : 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise 
+
+
+LAMP  LIGHTING  SCHEDULE. 
+
+
+SEPTEMBER. 
+
+
+Day  of  Month, 
+
+Light. 
+
+Day 
+
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I    
+2    
+
+H.    M. 
+
+7.  cor.  M. 
+
+7.OO    " 
+
+2.  
+
+a  .  . 
+
+H.    M. 
+
+4.30A.M. 
+
+43O     '  ' 
+
+H.    M. 
+
+9-30 
+
+91Q 
+
+a 
+
+7  OO     " 
+
+J.   ^O     '* 
+
+90Q 
+
+7  oo   " 
+
+S 
+
+d    ^O      " 
+
+9qo 
+
+4.  ... 
+
+c 
+
+7  OO    " 
+
+6 
+
+4OO     " 
+
+9  an 
+
+6  
+
+7  OO     " 
+
+d    ^O      " 
+
+9  an 
+
+7  3O     " 
+
+8 
+
+4qo    " 
+
+Q  OO 
+
+8  
+
+8  oo   " 
+
+A    7O     '* 
+
+8  30 
+
+8  ^o   " 
+
+9.  .  . 
+
+10 
+
+4qo    '  ' 
+
+8  OO 
+
+9. 
+10   
+
+Q.OO     " 
+
+ii  
+
+d  4.O    " 
+
+7  J.O 
+
+ii    ... 
+
+Q  ^O     " 
+
+12       ... 
+
+4J.O    '  ' 
+
+6  50 
+
+12  
+
+10.40    '' 
+
+I*.  , 
+
+A    J.O      " 
+
+6  oo 
+
+1-3       . 
+
+II   ^O     '  4 
+
+) 
+
+14  
+
+14    
+
+4  4.O    " 
+
+\  4.50 
+
+15  
+
+16  
+
+I.OOA.  M 
+2.  2O     4< 
+
+15  
+
+16  
+
+4.40     " 
+
+4  40    " 
+
+3.40 
+
+2  2O 
+
+17 
+
+No  light 
+
+17    . 
+
+No  light 
+
+O  OO 
+
+IS  
+
+No  light. 
+
+18  
+
+No  light. 
+
+O  OO 
+
+IQ     . 
+
+No  light 
+
+IQ  . 
+
+No  light 
+
+O  OO 
+
+20  
+21  
+
+6.  30  P.  M. 
+6.30    " 
+
+20  
+21  
+
+8.40P  M. 
+910   " 
+
+2.10 
+2  J.O 
+
+22  ... 
+
+6  'j.o    " 
+
+22 
+
+Q   ^O     " 
+
+3  2O 
+
+2-3  .  . 
+
+6.30   " 
+
+2^  .  . 
+
+IO  ^O     " 
+
+A  OO 
+
+2J.     . 
+
+6  T.O   " 
+
+2  J.  . 
+
+II   2O     " 
+
+4  en 
+
+25  
+
+6.  20   " 
+
+26  
+
+12.  2O  A.  M. 
+
+6  oo 
+
+26    
+
+6.  20    " 
+
+27  .        ... 
+
+I  2O    " 
+
+7  OO 
+
+27  
+
+6.  20    " 
+
+28  
+
+2.  2O     " 
+
+8.00 
+
+28     
+
+6.  20    " 
+
+2Q 
+
+n.  2O    " 
+
+9  oo 
+
+2n 
+
+6  20    " 
+
+on 
+
+4  2O    " 
+
+IO  OO 
+
+3O  
+
+6.10    " 
+
+Oct.  i 
+
+^  .  OO     " 
+
+IO  £^O 
+
+Total  number  of  hours, 
+
+
+181.40 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis: 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+DYNAMO   TENDERS'  HANDBOOK. 
+
+
+OCTOBER. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I  
+2  
+
+H.  M. 
+6.IOP.  M. 
+
+6  10    ' 
+
+2.  ..... 
+
+o 
+
+H.   M. 
+5.  00  A.  M 
+
+5  oo    '  ' 
+
+H.    M. 
+10.50 
+IO  ^O 
+
+3   
+
+6  10    " 
+
+A 
+
+c,  oo    " 
+
+10  50 
+
+4  
+
+6.10   " 
+
+C 
+
+c  CO    " 
+
+10  50 
+
+5   
+
+6  10    " 
+
+6 
+
+5  oo   " 
+
+10  50 
+
+6  
+
+6.  10    " 
+
+7 
+
+c  OO     " 
+
+10  50 
+
+7  
+
+7  OO    " 
+
+8 
+
+c  OO     il 
+
+IO  OO 
+
+8  
+
+7.40    ' 
+
+5  .  oo   " 
+
+Q  2O 
+
+8  30    " 
+
+10 
+
+e   TO     " 
+
+8  40 
+
+10  
+
+9.  ^o    '  ' 
+
+ir         ... 
+
+c,  10    " 
+
+7  jo 
+
+ii  .... 
+
+10  40    ' 
+
+12 
+
+c    TO     *' 
+
+6  30 
+
+12  
+
+II  CQ    " 
+
+) 
+
+1-2 
+
+TO 
+
+5    TO     " 
+
+\  5.20 
+
+14  
+
+JC 
+
+I.IOA.M. 
+2  ^O     " 
+
+14..  
+
+T  c 
+
+5.10   " 
+510   l4 
+
+4.00 
+
+2  zlO 
+
+]6  
+
+No  light. 
+
+16     .  . 
+
+No  light 
+
+o  oo 
+
+17  
+
+No  light. 
+
+17  
+
+No  light- 
+
+o  oo 
+
+18  
+
+No  light 
+
+18. 
+
+No  light 
+
+o  oo 
+
+19   
+20  
+
+5.40P.M. 
+
+C   J.Q     " 
+
+19  
+
+20.    . 
+
+7.  40  P.  M 
+
+8  20     " 
+
+2.00 
+2  J.O 
+
+21  
+
+5.40     ' 
+
+21  .        . 
+
+Q  JO     " 
+
+•5     <5O 
+
+22       .             ... 
+
+c  40     tf 
+
+22 
+
+IO  IO    " 
+
+J.  ^O 
+
+23    
+
+5-4°    ' 
+
+2^.  . 
+
+II.  TO     " 
+
+c   7Q 
+
+2d 
+
+c  J.Q     " 
+
+2C 
+
+12  IO  A.  M 
+
+6  30 
+
+25     
+
+5.40    " 
+
+26  
+
+I.IO     " 
+
+7  qo 
+
+26            
+
+5.40    " 
+
+27    
+
+2  IO     " 
+
+8  30 
+
+27    
+
+5.30    " 
+
+28  
+
+3.IO    " 
+
+Q  4O 
+
+28       
+
+5.30    " 
+
+2Q    . 
+
+4  10   " 
+
+10  40 
+
+2Q.  . 
+
+5.30    " 
+
+30  
+
+S.io   " 
+
+II  40 
+
+^o  . 
+
+5.30    " 
+
+31        .... 
+
+5  30    " 
+
+1°  OO 
+
+^1  
+
+5.  so   " 
+
+Nov.   I  .  . 
+
+^.30     " 
+
+12  OO 
+
+Total  number  of  hours, 
+
+
+215-50 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis : 
+Light  one-half  hour  after  sunset  and   one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+LAMP   LIGHTING   SCHEDULE. 
+
+
+NOVEMBER. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hours. 
+
+I  
+2                    ... 
+
+H.  M. 
+
+5.  30  P.  M. 
+c  qo     " 
+
+2  
+
+-2  .   . 
+
+H.  M. 
+
+5-  30  A.M. 
+e  ao     " 
+
+H.  M. 
+12.00 
+12  GO 
+
+e  an     " 
+
+e   ao     '  ' 
+
+12  OO 
+
+A 
+
+^.20     " 
+
+C      . 
+
+e  40     " 
+
+12  2O 
+
+e   2O      " 
+
+6     
+
+SAO      " 
+
+12  2O 
+
+6     .  .      ... 
+
+7  20    " 
+
+7  
+
+c   do     " 
+
+IO  2O 
+
+7  
+
+8.30    " 
+
+8  
+
+C.4O     " 
+
+Q  IO 
+
+8      
+
+Q.4O      " 
+
+e  AQ     " 
+
+8  oo 
+
+10  50    ' 
+
+) 
+
+10  
+
+10  
+
+C    AQ       " 
+
+\     6-50 
+
+ir  
+
+12     
+
+1  2.  10  A.M. 
+I  2O     " 
+
+ii  
+
+12    
+
+5-40       ' 
+C.    AQ       " 
+
+5-30 
+
+A    2O 
+
+I  3    . 
+
+2  J.O     " 
+
+I  -7 
+
+c   40     " 
+
+a.  oo 
+
+14       
+
+3.50     ' 
+
+14    
+
+e   CQ     " 
+
+2  OO 
+
+I  c 
+
+No  li^lit 
+
+1C 
+
+No  light 
+
+o  oo 
+
+16   
+
+No  lifrht 
+
+16   
+
+No  lio-ht. 
+
+o  oo 
+
+17  .. 
+
+No  light 
+
+17 
+
+No  Jight 
+
+o  oo 
+
+18  
+
+IQ     . 
+
+5.10  P.  M. 
+
+Z   IO      " 
+
+18  
+
+IQ 
+
+7.  50  p.  M. 
+8  50    " 
+
+2.40 
+
+q  J.O 
+
+2O  
+
+5.IO      ' 
+
+2O                    ... 
+
+o  ao     " 
+
+4  20 
+
+21  ....       . 
+
+5    IO      " 
+
+21 
+
+II  OO     ' 
+
+C     CQ 
+
+22 
+
+e   10     " 
+
+22 
+
+12  OO      " 
+
+6  50 
+
+2^ 
+
+5.TO     ' 
+
+24 
+
+I   OOA    M 
+
+7  ^O 
+
+24 
+
+%   IO      " 
+
+2C.  . 
+
+2  OO      " 
+
+8  50 
+
+2^    . 
+
+^.IO     " 
+
+26  .::::: 
+
+a  OO     " 
+
+*       Q  ^O 
+
+2|    ....:. 
+
+^   IO 
+
+27 
+
+4  oo    " 
+
+10  50 
+
+27  
+
+D          ,. 
+
+^.IO      ' 
+
+28  
+
+•>  OO     " 
+
+IT.5O 
+
+28    
+
+D          .. 
+
+Z    IO 
+
+2Q 
+
+6  oo    " 
+
+12   50 
+
+2Q  
+
+,, 
+
+^.IO 
+
+30  
+
+6  oo    '  : 
+
+12  =;o 
+
+on   . 
+
+0 
+
+'i.OO 
+
+Dec.  i. 
+
+6  oo    " 
+
+13  oo 
+
+Total  number  of  hours, 
+
+
+2.21.00 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis  : 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+DYNAMO  TENDERS'  HAND-BOOK. 
+
+
+DECEMBER. 
+
+
+Day  of  Month. 
+
+Light. 
+
+Day 
+of  Month. 
+
+Extinguish. 
+
+Number  of 
+Hou-  s. 
+
+I  
+2  .  .  ".  
+
+H     M. 
+5.  OOP.  M 
+c   OO     *' 
+
+2  
+
+3  
+
+H.    M. 
+
+6.  10  A  M. 
+
+6.  10    " 
+
+H.   M. 
+I3.IO 
+I'}   IO 
+
+o  .  . 
+
+5  oo   ' 
+
+4  .  . 
+
+6  10    *' 
+
+13  10 
+
+4  
+
+c  QO     " 
+
+5  
+
+6.  10    " 
+
+11   IO 
+
+7-20     " 
+
+6   
+
+6  10   " 
+
+10  40 
+
+5.  .  . 
+
+6  
+
+8  4O     " 
+
+7  
+
+6.10   " 
+
+Q  1O 
+
+7 
+
+I  O  OO     '  ' 
+
+8     ... 
+
+6  10   " 
+
+8  10 
+
+8 
+
+1  1   IO     '  ' 
+
+) 
+
+6  10    " 
+
+j.     7.00 
+
+10  
+
+j  i 
+
+12.  2O  A.  M. 
+T   1O     '  ' 
+
+10  
+
+ii  .... 
+
+6.10   " 
+6  10    " 
+
+5-50 
+
+A   AQ 
+
+12 
+
+2   ^O     '  ' 
+
+12  
+
+6.  20   " 
+
+q  -20 
+
+13  
+
+4  oo    " 
+
+13  
+
+6.  20    " 
+
+2.  2O 
+
+I  J. 
+
+No  light 
+
+14  
+
+No  light. 
+
+O  OO 
+
+m   . 
+
+Noli^ht 
+
+15  
+
+No  light. 
+
+O  OO 
+
+16.  .  .  . 
+
+No  light 
+
+16  
+
+No  light. 
+
+O  OO 
+
+i?  
+
+18 
+
+5.  oo  P.  M 
+
+5    TO     " 
+
+17  
+18  
+
+7.40P.M. 
+8.40    " 
+
+2.40 
+
+•3    ^O 
+
+IQ  .  . 
+
+cio    " 
+
+IQ  .  . 
+
+Q.^o    " 
+
+4.40 
+
+2O 
+
+^   IO     ' 
+
+2O     .... 
+
+10.50    " 
+
+^.40 
+
+21 
+
+c    jo     " 
+
+21  
+
+11.50    '* 
+
+6.40 
+
+2°             .  .  • 
+
+5    jo     '  ' 
+
+27 
+
+12  50  A.  M. 
+
+7.40 
+
+21 
+
+5IO     '  ' 
+
+24.  .  . 
+
+I.5O     " 
+
+8.40 
+
+2/1 
+
+C    TO     <; 
+
+2C 
+
+2.5O     " 
+
+Q.  J.O 
+
+2C 
+
+C    TO     '  ' 
+
+26  
+
+3.50    '* 
+
+10.40 
+
+26 
+
+r    TO     '  ' 
+
+27 
+
+4.50    i( 
+
+11.40 
+
+27 
+
+5    TO     '  ' 
+
+28  
+
+6.00   " 
+
+12.50 
+
+28 
+
+c    JO     '  ' 
+
+2Q 
+
+6.  20   *' 
+
+13.  10 
+
+2Q  .  . 
+
+5.IO     ' 
+
+3O.  .. 
+
+6.20     " 
+
+13.10 
+
+ao    . 
+
+^    IO     " 
+
+31  
+
+6.20     " 
+
+13.10 
+
+11.  . 
+
+=;.io  " 
+
+Tan.  i.  '02 
+
+6.  20    " 
+
+13.10 
+
+Total  number  of  hours, 
+Grand  total  of  lighting  hours, 
+
+
+241.20 
+2197.40 
+
+
+The  foregoing  schedule  was  calculated  on  the  following  basis  : 
+Light  one-half  hour  after  sunset  and  one  hour  before  moonset. 
+Extinguish  one  hour  after  moonrise  and  one  hour  before  sunrise. 
+
+
+CONSTRUCTION    TOOLS. 
+
+
+PQ 
+o 
+
+J5 
+
+O 
+O 
+
+Q 
+I 
+
+
+I 
+
+
+PQ 
+O 
+
+
+38 
+
+
+EXX  HAND-BOOK. 
+
+
+o 
+o 
+
+
+O 
+vn 
+
+6 
+
+
+CONSTRUCTION    TOOLS. 
+
+
+89 
+
+
+90       DYNAMO    TENDERS'  HAND-BOOK. 
+
+
+CONSTRUCTION   TOOLS. 
+
+
+U 
+
+0 
+
+g 
+u 
+13 
+
+
+o 
+
+£ 
+
+
+DYNAMO    TENDERS' 
+
+
+-K-sssa" 
+
+* 
+
+FIG.  68. — MICROMETER  GAUGE. 
+
+
+FIG.  69. — STANDARD  WIRE  GAUGE. 
+
+
+FIG.  70  —TAPE  LINE. 
+
+
+WIRING HA-BOOK 
+
+BY  F.  B.  BADT. 
+
+PRICE,   ONE~DOLLAR. 
+
+Type  page  5)^x3  inches.  Flexible  cloth  binding; 
+pages;  41  cuts  and  5  tables,  three  of  which  are  f  2  x 
+inches.  1  hese  tables  give  AT  ONCE,  and  without  a 
+calculation,  the  size  of  wire  required  in  each  case  for  a 
+percentage  of  loss.  A  timely  book,  containing  full  instri 
+tions  for  Incandescent  Wiring  and  complete  informati 
+concerning  methods  of  running  wires,  location  of  safe 
+devices,  and  switches,  splices,  insulation  and  testing  f 
+faults,  wire  gauges,  general  electrical  data,  calculating  sr/ 
+of  wires,  wiring  of  fixtures,  elevators,  buildings,  isolat 
+and  central  station  plants. 
+
+The  only  complete  book  of  the  kind  published. 
+
+Sent  postage  free  on  receipt  of  price. 
+
+Electrician  Publishing  Co.,  6  Lakeside  Building,  Chicaj 
+
+DERIVATION  OF  PRACTICAL 
+ELECTRICAL  UNITS. 
+
+
+BY  LIEUT.  F.  B.  BADT  AND  PROP.  II.  S.  CARHAIIT. 
+
+
+PRICE,  POSTAGE  PREPAID,  75  CENTS. 
+
+This  is  a  very  handsome  book  of  60  pages,  printed 
+fine   heavy   paper,  with  neat  cloth  binding.      It  conta 
+PORTRAITS   and   BIOGRAPHIES   of    Ohm,    Watt,    Farad: 
+Joule,  Gauss,  Weber,  Sir  William  Siemens,  Dr.  Werner  v 
+Siemens,  Volta,    Ampere,  Daniell,    von   Jacobi,    togetl 
+with  a  carefully  prepared  table  of  the  Practical  Electri 
+Units,    with   their    relative   values.      In    no    other   sin: 
+volume  can  this  rare  collection  of  portraits  be  found. 
+ELECTRICIAN  PUBLISHING  COMPANY 
+
+6  LAKESIDE  BUILDING,  CHICAGO,  ILL. 
+
+
+PUBLISHED  WEEKLY.         ILLUSTRATED,  $3.00  A  YEAR. 
+
+
+THE  ONLY  ELECTRICAL  JOURNAL  PUBLISHED  IN  THE  WEST, 
+
+The  Brightest,  the  Best,  the  Handsomest. 
+
+
+Its  descriptive  articles  and  illustrations  cover  the  new  Electrical  In- 
+ventions of  America  and  Europe. 
+
+It  is  replete  with  the  Electrical  Ne^s  of  the  day. 
+
+No  Electric  Lighting  Company,  no  Dynamo  Tender,  no  Lineman,  no 
+Stationary  or  Marine  Engineer  who  wishes  to  fit  himself  to  take  charge 
+of  a  Dynamo  or  superintend  an  Electric  Light  Installation,  can  afford 
+to  be  without  it. 
+
+Subscript/on  Price  Only  $3.00  Per  Annum. 
+
+
+"Western  K^lectrician, 
+
+6  LAKESIDE  BUILDING,  CHICAGO,  ILL. 
+
+BELL  HANGERS' 
+
+HAND-BOOK, 
+
+
+T<\  B. 
+
+ions,  Flexibl 
+5)^x3  inc 
+
+PRICE,  OUE  DOLLAR. 
+
+
+106  Pages,  97  Illustrations,  Flexible  Cloth    Binding,  Type  Page 
+5)^x3  inches. 
+
+
+Just  the  Book  for  those  engaged  in  Selling,  Installing  or 
+Handling  Electric  Batteries,  Electric  Bells,  Elevator,  House  or 
+Hotel  Annunciators,  Burglar  or  Fire  Alarms,  Electric  Gas 
+Lighting  Apparatus,  Electric  Heat  Regulating  Apparatus,  etc., 
+etc. 
+
+THE  ONLY   BOOK   OF  THE   KIND   PUBLISHED. 
+
+
+Sent,  Postage  free,  on  receipt  of  Price. 
+
+ELECTRICIAN  PUBLISHING  CO., 
+
+6  Lakeside  Building,  Chicago. 
+
+
+**  j-i-ij^j  VY 
+
+
+WRITE  FOR  CATALOGUE. 
+
+The  Electrical  Supply  C°-> 
+
+171    RANDOLPH    STREET,    CHICAGO. 
+
+Branch,  125  W.  6th  St.,  KANSAS  CITY,  MO. 
+Factories:  ANSONIA,    CONN. 
+
+
+YA  02170 
+
+
+Every  Tool  required  by  Linemen, 
+including 
+
+Augers, 
+
+Crow  Bars, 
+
+Digging  Bars, 
+
+Tamping  Bars, 
+Spoons, 
+
+Shovels, 
+Screw-Drivers, 
+
+"Plain  and  Guard  Pikes, 
+
+
+YA-02170 
+
+
+UNIVERSITY  OF  CALIFORNIA  LIBRARY 
+
+
+Branch,  125  W.  6th  St.,  KANSAS  CITY,  MO. 
+Factories:  ANSONIA,  CONN. 
+
+
