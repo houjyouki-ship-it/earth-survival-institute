@@ -1,0 +1,139 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究114：手順の知識を持つ小さな集団は廃墟の材料で T2e の精密な道具を作り直せるか（open_problems 270） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="114-t2e-open_problems-270">研究114：手順の知識を持つ小さな集団は廃墟の材料で T2e の精密な道具を作り直せるか（open_problems 270）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・重い崩壊の割合は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第114回、JST 17〜18時台）。sim.py（seed 20261114、約207秒。113 の表を差 0 で再現、さらに 2 つの版で 113 の base_X_inf・workshop_1e4 と差 0 の assert。実行は 1 回で、再実行の一致は未確認）、results.json、stdout.txt、fig_scrap_tool.png、PREREGISTRATION.md（17:35 JST、新しい資料を開く前・sim.py の前）、sources/（Wikipedia の wikitext 5 本、SHA256SUMS.txt、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>113 で F_heavy（遅い κ）は N_tool/N_T2e の比 c だけで 1.07〜2.44 動き、史実の発明の社会（5×10⁶ 人以上）は上限しか与えなかった。下限の側、つまり手順を知る小さな集団が外の工場なしに道具を作り直した例を探し、模型に入れる。</p>
+<h2 id="_2">新しい資料（確認的な検証。資料を開く前に登録）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>人数</th>
+<th>廃墟・工業の材料</th>
+<th>何を作ったか</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gingery の連作</td>
+<td>1（"the hobbyist"、数値なし）</td>
+<td>自動車の廃部品の Al・Zn 合金、木炭の炉</td>
+<td>旋盤→形削り盤→フライス盤→ボール盤→割り出し台</td>
+</tr>
+<tr>
+<td>Johansson のブロックゲージ（1896）</td>
+<td>2（本人と妻）</td>
+<td>Singer のミシンを研削・ラップ盤に改造</td>
+<td>超精密のブロックゲージ</td>
+</tr>
+<tr>
+<td>Open Source Ecology</td>
+<td>中心の人数の記述なし（家は 50 人で 5 日）</td>
+<td>寄付・Kickstarter 63,573 ドル</td>
+<td>50 機械のうち 2014 年に 12 を試作、2018 年に 33%</td>
+</tr>
+<tr>
+<td>Colditz Cock（捕虜）</td>
+<td>14（2＋助手 12）</td>
+<td>寝台の板・床板・電線・寝袋</td>
+<td>滑空機と木工の道具（金属の精密な道具ではない）</td>
+</tr>
+<tr>
+<td>三面の擦り合わせ</td>
+<td>記述なし</td>
+<td>三枚の生の鋳物の平板、きさげ、光明丹</td>
+<td>基準なしに平面を生む</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/David_J._Gingery">David J. Gingery</a>）】"The hobbyist starts by constructing a small foundry capable of melting silicon-aluminum and zinc alloys from recycled automotive parts. Then green sand castings are used to make a metal lathe. The lathe is the first machine built since it can be used to help build itself." 「usually without the aid of power tools」。精度の数値と製作の年数の記述はない。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Gauge_block">Gauge block</a>）】"Johansson converted his wife's Singer sewing machine to a grinding and lapping machine ... as the grinding machines at the rifle factory were not good enough. His wife, Margareta, helped him with the initial prototyping." その後は勤め先が時間と資源を出した。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Open_Source_Ecology">Open Source Ecology</a>）】"In 2014, 12 of the 50 machines were designed, blueprinted, and prototyped"、2018 年に 33%。機械の一覧に Multimachine（フライス・ボール盤・旋盤）と誘導炉を含む。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Colditz_Cock">Colditz Cock</a>）】"assembled by Goldfinch and Best and 12 assistants"、骨は主に寝台の板、桁は床板、図書館の Aircraft Design を手引きにした。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Hand_scraper">Hand scraper</a>）】平面は三枚の生の鋳物の平板・平らなきさげ・engineer's blue から作られてきた（Moore 1970 を引用）。</li>
+</ul>
+<h2 id="_3">模型</h2>
+<p>T2e の道具に 2 つの経路を置いた【独自仮説】：(2) 113 の「作り直せない」（t_below ≤ L_myf）、(1) 群が N_small 人に達した時点 t_small で、廃墟の材料がまだ使える（t_small ≤ max(L_scrap, L_myf)）うえ、作った道具が T2e の精度に届く（確率 p_prec）。L_scrap の主は 112 の L_bulk（20 mm の鉄の部材、5〜95% で 299〜11,657 年、中央値 1,876 年）。</p>
+<h2 id="a_ordu3-f_heavy">結果（A_Ord/U3 の F_heavy。遅い κ／混合／速い）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>遅い</th>
+<th>混合</th>
+<th>速い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作り直せない（113 と差 0）</td>
+<td>1.075</td>
+<td>1.020</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td>N_small=10, L_bulk, p_prec=1</td>
+<td><strong>2.440</strong></td>
+<td>1.320</td>
+<td>1.033</td>
+</tr>
+<tr>
+<td>N_small=100, L_bulk</td>
+<td>2.433</td>
+<td>1.318</td>
+<td>1.033</td>
+</tr>
+<tr>
+<td>N_small=1,000, L_bulk</td>
+<td>2.421</td>
+<td>1.315</td>
+<td>1.033</td>
+</tr>
+<tr>
+<td>N_small=100, L_scrap=200 年</td>
+<td>2.381</td>
+<td>1.308</td>
+<td>1.033</td>
+</tr>
+<tr>
+<td>N_small=100, p_prec=0.5</td>
+<td>1.752</td>
+<td>1.171</td>
+<td>1.024</td>
+</tr>
+<tr>
+<td>N_small=100, p_prec=0.2</td>
+<td>1.345</td>
+<td>1.081</td>
+<td>1.013</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>L_scrap の走査（N_small=100）：0 年で 2.366、5,000 年で 2.441。廃墟の材料の寿命はほぼ効かない【計算】。</li>
+<li>p_prec の走査：遅い κ で 0→1.075、0.1→1.208、0.3→1.483、0.5→1.752、1→2.433。F≥1.1 は p_prec≥0.1（混合は ≥0.3）、F≥1.5 は遅い κ で ≥0.5（混合では届かない）【計算】。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ol>
+<li><strong>幅を決めるのは人数ではなく精度。</strong> 事例で N_small が 1〜14 人の桁に下がると、群はほぼ崩壊の直後に N_small を満たし、廃墟の道具がもつ間（L_myf）に間に合う。このため L_scrap も N_small（10〜1,000）もほぼ効かず、F_heavy は 113 の R の版（2.44）に張り付く。残る不確かさは p_prec＝「廃材の Al の鋳物の盤（Gingery 級）で T2e に要る精度に届くか」にまるごと移った【計算＋推測】。</li>
+<li>事例はどれも工業の社会の中にあり、食料・切削工具・砥粒・電動機・資金を外から得ている（H126b）。人数 1〜14 は「道具を作る手」の数で、社会を養う人数ではない。N_small=100〜1,000 の版はその補正の【推測】で、結果はほぼ変わらない。</li>
+<li>Gingery の頁にも OSE の頁にも精度の数値がない。Johansson は精度を出したが、鋼とミシン（精密な既製品）に乗っている。三面の方法は基準なしに平面を生むが、鋳鉄の平板が前提。よって p_prec を資料で置く根拠は今回ない。</li>
+<li>H126e は支持だが自明に近い：経路1 が L_myf の橋も使うため、L_scrap=0 でも F は 2.37。登録の時点でこの構造を見落としていた。</li>
+<li>模型の t_small は群の初めの人口が N_small 以上ならほぼ 0 になる。群が 10 人以下に落ちる例や、人口が増えない群（266）は扱っていない。</li>
+</ol>
+<h2 id="_5">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H126a（確認的）：<strong>支持</strong>（廃部品の Al・Zn、木炭の炉、旋盤が最初。人数は "the hobbyist" の単数で数値なし）。</li>
+<li>H126b（確認的）：<strong>支持</strong>（小さな集団 4/4 が工業の社会の材料に頼り、鉱石からの例 0 件）。</li>
+<li>H126c（確認的）：<strong>支持</strong>（中心の人数の記述なし、家は 50 人で 5 日）。弱い：数値がないことによる支持。</li>
+<li>H126d（予測）：<strong>支持</strong>（2.440 ≥ 1.5）。</li>
+<li>H126e（予測）：<strong>支持</strong>（分かれ目 0 年 &lt; 500）。ただし模型の構造による自明な支持。</li>
+<li>H126f（記述、支持に数えない）：事例の表。</li>
+</ul>
+<h2 id="_6">逸脱</h2>
+<p>p_prec の版と走査、L_scrap=200 の版は登録で名指ししていない。Gingery の人数は数値でなく単数の表現から 1 とした。OSE の家の 50 人は機械の製作ではない。再実行の一致は未確認。</p>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は N_tool（人数）の事例集めを止め、「廃材から作った盤・平面で T2e に要る精度（例：ねじ・軸受・部品の公差）に届くか」の資料（Gingery の盤の実測の精度、Moore の記述、要る公差）で p_prec を置く（271）。知識の束を作る人は、Gingery 式の手順（廃部品の Al の炉→盤が盤を作る）と三面の擦り合わせを合わせて入れてよく、模型の中ではその手順が T2e の精度に届く確率が 0.1 あるだけで F_heavy は 1.1 を越える。</p><footer><hr><small>自動生成</small></footer></body></html>

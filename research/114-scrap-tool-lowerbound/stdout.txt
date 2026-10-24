@@ -1,0 +1,42 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+check_113 0.0 X-113 {'slow_Tasmania': 0.0, 'trigger_mix': 0.0, 'fast_state': 0.0} 1e4-113 {'slow_Tasmania': 0.0, 'trigger_mix': 0.0, 'fast_state': 0.0}
+L_bulk_q [298.8584790129712, 1876.3782909360143, 11656.940218366852] L_myf_q [4.751727876586695, 70.01440869890646, 1005.2335925316253]
+slow_Tasmania|check_X F_heavy 1.0747
+trigger_mix|check_X F_heavy 1.0204
+fast_state|check_X F_heavy 1.0093
+slow_Tasmania|check_1e4_Lscrap0 F_heavy 1.9592
+trigger_mix|check_1e4_Lscrap0 F_heavy 1.2227
+fast_state|check_1e4_Lscrap0 F_heavy 1.0323
+slow_Tasmania|n10_Lbulk F_heavy 2.4401
+trigger_mix|n10_Lbulk F_heavy 1.3196
+fast_state|n10_Lbulk F_heavy 1.0328
+slow_Tasmania|n100_Lbulk F_heavy 2.4331
+trigger_mix|n100_Lbulk F_heavy 1.3183
+fast_state|n100_Lbulk F_heavy 1.0328
+slow_Tasmania|n1000_Lbulk F_heavy 2.4208
+trigger_mix|n1000_Lbulk F_heavy 1.3149
+fast_state|n1000_Lbulk F_heavy 1.0328
+slow_Tasmania|n100_Lbulk_prec0.5 F_heavy 1.7524
+trigger_mix|n100_Lbulk_prec0.5 F_heavy 1.1711
+fast_state|n100_Lbulk_prec0.5 F_heavy 1.0235
+slow_Tasmania|n100_Lbulk_prec0.2 F_heavy 1.3446
+trigger_mix|n100_Lbulk_prec0.2 F_heavy 1.0813
+fast_state|n100_Lbulk_prec0.2 F_heavy 1.0133
+slow_Tasmania|n100_L200 F_heavy 2.3812
+trigger_mix|n100_L200 F_heavy 1.3076
+fast_state|n100_L200 F_heavy 1.0328
+Lscrap slow_Tasmania [(0, 2.366), (25, 2.367), (50, 2.369), (75, 2.371), (100, 2.373), (150, 2.377), (200, 2.381), (300, 2.389), (500, 2.402), (1000, 2.427), (2000, 2.44), (5000, 2.441)]
+Lscrap trigger_mix [(0, 1.304), (25, 1.304), (50, 1.304), (75, 1.305), (100, 1.306), (150, 1.307), (200, 1.308), (300, 1.309), (500, 1.312), (1000, 1.317), (2000, 1.32), (5000, 1.32)]
+pprec slow_Tasmania [(0.0, 1.075), (0.1, 1.208), (0.2, 1.351), (0.3, 1.483), (0.5, 1.752), (0.7, 2.035), (1.0, 2.433)]
+pprec trigger_mix [(0.0, 1.02), (0.1, 1.055), (0.2, 1.073), (0.3, 1.117), (0.5, 1.176), (0.7, 1.231), (1.0, 1.318)]
+crit_Lscrap {'slow_Tasmania': {'F>=1.1': 0, 'F>=1.5': 0}, 'trigger_mix': {'F>=1.1': 0, 'F>=1.5': None}} crit_pprec {'slow_Tasmania': {'F>=1.1': 0.1, 'F>=1.5': 0.5}, 'trigger_mix': {'F>=1.1': 0.3, 'F>=1.5': None}}
+H126a confirmatory True Gingery: 'The hobbyist starts by constructing a small foundry capable of melting silicon-aluminum and zinc all
+H126b confirmatory True 4/4 の小さな集団（Gingery・Johansson・OSE・Colditz）が工業の社会の材料に頼る。鉱石から外の供給なしの例 0 件
+H126c confirmatory True OSE の頁に中心の人数の記述なし（家は 50 人で 5 日）。多数の工場の分業の記述なし。ただし資金・購入の材料に頼る
+H126d prediction True 2.440055518332935
+H126e prediction True 0
+H126f descriptive None cases 表
+runtime 206.8

@@ -1,0 +1,489 @@
+{
+ "study": "114-scrap-tool-lowerbound",
+ "seed": 20261114,
+ "check_113_table_reproduced_maxdiff": 0.0,
+ "cases": [
+  {
+   "case": "Gingery の Build Your Own Metal Working Shop From Scrap",
+   "people": 1,
+   "people_note": "'the hobbyist'（人数の数値なし、1 人の趣味の人を想定）",
+   "years": null,
+   "ruin_material": true,
+   "materials": "自動車の廃部品の Al・Zn 合金、木炭の炉、生砂の鋳型。旋盤→形削り盤→フライス盤→ボール盤→割り出し台",
+   "precision": "数値なし"
+  },
+  {
+   "case": "Johansson のブロックゲージ（1896）",
+   "people": 2,
+   "people_note": "本人と妻 Margareta（試作）",
+   "years": null,
+   "ruin_material": true,
+   "materials": "Singer のミシンを研削・ラップ盤に改造、鋼。のちに勤め先の工場が時間と資源を提供",
+   "precision": "超精密のブロック（数値は頁の別の節）"
+  },
+  {
+   "case": "Open Source Ecology（GVCS）",
+   "people": null,
+   "people_note": "中心の人数の記述なし。家は 50 人で 5 日",
+   "years": 10,
+   "ruin_material": true,
+   "materials": "Kickstarter 63,573 ドルなどの資金。50 機械のうち 2014 年に 12 を試作、2018 年に 33%。Multimachine（旋盤・フライス・ボール盤）を含む",
+   "precision": "記述なし"
+  },
+  {
+   "case": "Colditz Cock（捕虜の滑空機）",
+   "people": 14,
+   "people_note": "Goldfinch・Best と 12 人の助手",
+   "years": null,
+   "ruin_material": true,
+   "materials": "寝台の板・床板・電線・寝袋。道具も寝台の板などから手作り。金属の精密な道具ではない",
+   "precision": "該当なし（木工）"
+  },
+  {
+   "case": "三面の擦り合わせ（Hand scraper / Surface plate）",
+   "people": null,
+   "people_note": "人数の記述なし",
+   "years": null,
+   "ruin_material": null,
+   "materials": "三枚の生の鋳物の平板（応力を抜いたもの）、平らなきさげ、光明丹（engineer's blue）",
+   "precision": "より精密な基準なしに平面を生む"
+  }
+ ],
+ "table": {
+  "slow_Tasmania|check_X": {
+   "F_heavy": 1.074711163033657,
+   "F_total": 1.027088066432166,
+   "U3_heavy_rel_drop": 0.04566634258759139
+  },
+  "trigger_mix|check_X": {
+   "F_heavy": 1.0203597689905204,
+   "F_total": 1.0073818523573286,
+   "U3_heavy_rel_drop": 0.02339850923625353
+  },
+  "fast_state|check_X": {
+   "F_heavy": 1.0092547302093835,
+   "F_total": 1.0033554924932786,
+   "U3_heavy_rel_drop": 0.017485866551438467
+  },
+  "slow_Tasmania|check_1e4_Lscrap0": {
+   "F_heavy": 1.9591666470607771,
+   "F_total": 1.347765565413504,
+   "U3_heavy_rel_drop": 0.3369630189766303
+  },
+  "trigger_mix|check_1e4_Lscrap0": {
+   "F_heavy": 1.2226552796349641,
+   "F_total": 1.080728244097971,
+   "U3_heavy_rel_drop": 0.10466313780562453
+  },
+  "fast_state|check_1e4_Lscrap0": {
+   "F_heavy": 1.0322887864315982,
+   "F_total": 1.0117069626058308,
+   "U3_heavy_rel_drop": 0.04190702531417667
+  },
+  "slow_Tasmania|n10_Lbulk": {
+   "F_heavy": 2.440055518332935,
+   "F_total": 1.522121701264865,
+   "U3_heavy_rel_drop": 0.4566418206042274
+  },
+  "trigger_mix|n10_Lbulk": {
+   "F_heavy": 1.3195642716652782,
+   "F_total": 1.1158645892892354,
+   "U3_heavy_rel_drop": 0.12964603363220617
+  },
+  "fast_state|n10_Lbulk": {
+   "F_heavy": 1.032812027651823,
+   "F_total": 1.0118966744555462,
+   "U3_heavy_rel_drop": 0.04195743761477799
+  },
+  "slow_Tasmania|n100_Lbulk": {
+   "F_heavy": 2.4330733673785008,
+   "F_total": 1.5195901790503343,
+   "U3_heavy_rel_drop": 0.4551510568578734
+  },
+  "trigger_mix|n100_Lbulk": {
+   "F_heavy": 1.3182859558953453,
+   "F_total": 1.115401109655253,
+   "U3_heavy_rel_drop": 0.1292427352273955
+  },
+  "fast_state|n100_Lbulk": {
+   "F_heavy": 1.032812027651823,
+   "F_total": 1.0118966744555462,
+   "U3_heavy_rel_drop": 0.04195743761477799
+  },
+  "slow_Tasmania|n1000_Lbulk": {
+   "F_heavy": 2.4208255117609627,
+   "F_total": 1.5151494674732706,
+   "U3_heavy_rel_drop": 0.4515645817579489
+  },
+  "trigger_mix|n1000_Lbulk": {
+   "F_heavy": 1.3149459686633336,
+   "F_total": 1.114190128694047,
+   "U3_heavy_rel_drop": 0.1285009542328327
+  },
+  "fast_state|n1000_Lbulk": {
+   "F_heavy": 1.032812027651823,
+   "F_total": 1.0118966744555462,
+   "U3_heavy_rel_drop": 0.04195743761477799
+  },
+  "slow_Tasmania|n100_Lbulk_prec0.5": {
+   "F_heavy": 1.7523745845715302,
+   "F_total": 1.2727888564599856,
+   "U3_heavy_rel_drop": 0.25003060746822225
+  },
+  "trigger_mix|n100_Lbulk_prec0.5": {
+   "F_heavy": 1.1711394783333806,
+   "F_total": 1.0620501324035394,
+   "U3_heavy_rel_drop": 0.07584890713334047
+  },
+  "fast_state|n100_Lbulk_prec0.5": {
+   "F_heavy": 1.023526209354956,
+   "F_total": 1.0085299103377228,
+   "U3_heavy_rel_drop": 0.029671239782506853
+  },
+  "slow_Tasmania|n100_Lbulk_prec0.2": {
+   "F_heavy": 1.3445716006892623,
+   "F_total": 1.1249315099793542,
+   "U3_heavy_rel_drop": 0.12706060278707998
+  },
+  "trigger_mix|n100_Lbulk_prec0.2": {
+   "F_heavy": 1.0812993078022186,
+   "F_total": 1.0294767336126665,
+   "U3_heavy_rel_drop": 0.04483814050628354
+  },
+  "fast_state|n100_Lbulk_prec0.2": {
+   "F_heavy": 1.0133102819593514,
+   "F_total": 1.0048259160653588,
+   "U3_heavy_rel_drop": 0.022325447409167753
+  },
+  "slow_Tasmania|n100_L200": {
+   "F_heavy": 2.3812376146884504,
+   "F_total": 1.5007960624094667,
+   "U3_heavy_rel_drop": 0.43857261171725903
+  },
+  "trigger_mix|n100_L200": {
+   "F_heavy": 1.3076260711546948,
+   "F_total": 1.1115361495302996,
+   "U3_heavy_rel_drop": 0.1257282776997587
+  },
+  "fast_state|n100_L200": {
+   "F_heavy": 1.032812027651823,
+   "F_total": 1.0118966744555462,
+   "U3_heavy_rel_drop": 0.04195743761477799
+  }
+ },
+ "check_X_vs_113_base": {
+  "slow_Tasmania": 0.0,
+  "trigger_mix": 0.0,
+  "fast_state": 0.0
+ },
+ "check_1e4_vs_113_workshop": {
+  "slow_Tasmania": 0.0,
+  "trigger_mix": 0.0,
+  "fast_state": 0.0
+ },
+ "L_bulk_q": [
+  298.8584790129712,
+  1876.3782909360143,
+  11656.940218366852
+ ],
+ "L_myf_q": [
+  4.751727876586695,
+  70.01440869890646,
+  1005.2335925316253
+ ],
+ "sweep_Lscrap_n100": {
+  "slow_Tasmania": [
+   {
+    "L_scrap": 0,
+    "F_heavy": 2.3662801559991147,
+    "F_total": 1.4953729285941015,
+    "U3_heavy_rel_drop": 0.4342155485938569
+   },
+   {
+    "L_scrap": 25,
+    "F_heavy": 2.367238244697253,
+    "F_total": 1.4957203033269963,
+    "U3_heavy_rel_drop": 0.43438118901011846
+   },
+   {
+    "L_scrap": 50,
+    "F_heavy": 2.368674375236225,
+    "F_total": 1.4962410019463903,
+    "U3_heavy_rel_drop": 0.4346908645709553
+   },
+   {
+    "L_scrap": 75,
+    "F_heavy": 2.371069879032474,
+    "F_total": 1.497109541041974,
+    "U3_heavy_rel_drop": 0.43529581217817137
+   },
+   {
+    "L_scrap": 100,
+    "F_heavy": 2.372654677238965,
+    "F_total": 1.4976841421772782,
+    "U3_heavy_rel_drop": 0.4358863562709301
+   },
+   {
+    "L_scrap": 150,
+    "F_heavy": 2.3769556222160237,
+    "F_total": 1.4992435381032547,
+    "U3_heavy_rel_drop": 0.43715386554319247
+   },
+   {
+    "L_scrap": 200,
+    "F_heavy": 2.3812376146884504,
+    "F_total": 1.5007960624094667,
+    "U3_heavy_rel_drop": 0.43857261171725903
+   },
+   {
+    "L_scrap": 300,
+    "F_heavy": 2.388548875970937,
+    "F_total": 1.5034469103320685,
+    "U3_heavy_rel_drop": 0.44094919160275103
+   },
+   {
+    "L_scrap": 500,
+    "F_heavy": 2.4022530233947226,
+    "F_total": 1.50841563041001,
+    "U3_heavy_rel_drop": 0.4453278599978394
+   },
+   {
+    "L_scrap": 1000,
+    "F_heavy": 2.42700779411782,
+    "F_total": 1.5173909809015853,
+    "U3_heavy_rel_drop": 0.45270966115732236
+   },
+   {
+    "L_scrap": 2000,
+    "F_heavy": 2.439899348561285,
+    "F_total": 1.5220650787070387,
+    "U3_heavy_rel_drop": 0.45649058370242335
+   },
+   {
+    "L_scrap": 5000,
+    "F_heavy": 2.441484767333734,
+    "F_total": 1.5226399048412744,
+    "U3_heavy_rel_drop": 0.4570379172518094
+   }
+  ],
+  "trigger_mix": [
+   {
+    "L_scrap": 0,
+    "F_heavy": 1.304122343565864,
+    "F_total": 1.1102658011401443,
+    "U3_heavy_rel_drop": 0.12487126858953579
+   },
+   {
+    "L_scrap": 25,
+    "F_heavy": 1.304122343565864,
+    "F_total": 1.1102658011401443,
+    "U3_heavy_rel_drop": 0.12489287386122205
+   },
+   {
+    "L_scrap": 50,
+    "F_heavy": 1.304441400339084,
+    "F_total": 1.11038148172545,
+    "U3_heavy_rel_drop": 0.12495768967628107
+   },
+   {
+    "L_scrap": 75,
+    "F_heavy": 1.3050814121984786,
+    "F_total": 1.1106135311684076,
+    "U3_heavy_rel_drop": 0.12508732130639866
+   },
+   {
+    "L_scrap": 100,
+    "F_heavy": 1.305555355496792,
+    "F_total": 1.1107853690441476,
+    "U3_heavy_rel_drop": 0.12520975117928768
+   },
+   {
+    "L_scrap": 150,
+    "F_heavy": 1.3066774282874207,
+    "F_total": 1.111192199577365,
+    "U3_heavy_rel_drop": 0.12547621619675198
+   },
+   {
+    "L_scrap": 200,
+    "F_heavy": 1.3076260711546948,
+    "F_total": 1.1115361495302996,
+    "U3_heavy_rel_drop": 0.1257282776997587
+   },
+   {
+    "L_scrap": 300,
+    "F_heavy": 1.308910835223893,
+    "F_total": 1.1120019671276034,
+    "U3_heavy_rel_drop": 0.1262612077346872
+   },
+   {
+    "L_scrap": 500,
+    "F_heavy": 1.311610956347236,
+    "F_total": 1.112980951490771,
+    "U3_heavy_rel_drop": 0.12714702387382526
+   },
+   {
+    "L_scrap": 1000,
+    "F_heavy": 1.3173306680597985,
+    "F_total": 1.1150547504326094,
+    "U3_heavy_rel_drop": 0.1286954016780093
+   },
+   {
+    "L_scrap": 2000,
+    "F_heavy": 1.3195692494055047,
+    "F_total": 1.1158663940711777,
+    "U3_heavy_rel_drop": 0.12964603363220617
+   },
+   {
+    "L_scrap": 5000,
+    "F_heavy": 1.319727974662172,
+    "F_total": 1.1159239431725767,
+    "U3_heavy_rel_drop": 0.12970364769003628
+   }
+  ]
+ },
+ "sweep_pprec_n100_Lbulk": {
+  "slow_Tasmania": [
+   {
+    "p_prec": 0.0,
+    "F_heavy": 1.074711163033657,
+    "F_total": 1.027088066432166,
+    "U3_heavy_rel_drop": 0.04566634258759139
+   },
+   {
+    "p_prec": 0.1,
+    "F_heavy": 1.2079701179648143,
+    "F_total": 1.0754038371588246,
+    "U3_heavy_rel_drop": 0.08663713946202867
+   },
+   {
+    "p_prec": 0.2,
+    "F_heavy": 1.3511805386161966,
+    "F_total": 1.1273277161464328,
+    "U3_heavy_rel_drop": 0.1270534010298513
+   },
+   {
+    "p_prec": 0.3,
+    "F_heavy": 1.4833362277432198,
+    "F_total": 1.1752434751990495,
+    "U3_heavy_rel_drop": 0.1687443736271651
+   },
+   {
+    "p_prec": 0.5,
+    "F_heavy": 1.7521274376744926,
+    "F_total": 1.2726992482770365,
+    "U3_heavy_rel_drop": 0.24915199308631308
+   },
+   {
+    "p_prec": 0.7,
+    "F_heavy": 2.0345379970536057,
+    "F_total": 1.3750929961853682,
+    "U3_heavy_rel_drop": 0.33287242087069235
+   },
+   {
+    "p_prec": 1.0,
+    "F_heavy": 2.4330733673785008,
+    "F_total": 1.5195901790503343,
+    "U3_heavy_rel_drop": 0.4551510568578734
+   }
+  ],
+  "trigger_mix": [
+   {
+    "p_prec": 0.0,
+    "F_heavy": 1.0203597689905204,
+    "F_total": 1.0073818523573286,
+    "U3_heavy_rel_drop": 0.02339850923625353
+   },
+   {
+    "p_prec": 0.1,
+    "F_heavy": 1.0548072979460414,
+    "F_total": 1.0198715113973136,
+    "U3_heavy_rel_drop": 0.034575636455295045
+   },
+   {
+    "p_prec": 0.2,
+    "F_heavy": 1.0731646887976554,
+    "F_total": 1.026527360439387,
+    "U3_heavy_rel_drop": 0.04458607900327671
+   },
+   {
+    "p_prec": 0.3,
+    "F_heavy": 1.1174701520718673,
+    "F_total": 1.042591216009927,
+    "U3_heavy_rel_drop": 0.0549278023837817
+   },
+   {
+    "p_prec": 0.5,
+    "F_heavy": 1.1757655816939447,
+    "F_total": 1.063727421178934,
+    "U3_heavy_rel_drop": 0.07566886320262145
+   },
+   {
+    "p_prec": 0.7,
+    "F_heavy": 1.2305211583949047,
+    "F_total": 1.0835801799766918,
+    "U3_heavy_rel_drop": 0.09742537179071686
+   },
+   {
+    "p_prec": 1.0,
+    "F_heavy": 1.3182859558953453,
+    "F_total": 1.115401109655253,
+    "U3_heavy_rel_drop": 0.1292427352273955
+   }
+  ]
+ },
+ "crit_Lscrap": {
+  "slow_Tasmania": {
+   "F>=1.1": 0,
+   "F>=1.5": 0
+  },
+  "trigger_mix": {
+   "F>=1.1": 0,
+   "F>=1.5": null
+  }
+ },
+ "crit_pprec": {
+  "slow_Tasmania": {
+   "F>=1.1": 0.1,
+   "F>=1.5": 0.5
+  },
+  "trigger_mix": {
+   "F>=1.1": 0.3,
+   "F>=1.5": null
+  }
+ },
+ "hypotheses": {
+  "H126a": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Gingery: 'The hobbyist starts by constructing a small foundry capable of melting silicon-aluminum and zinc alloys from recycled automotive parts ... The lathe is the first machine built'。書名 The Charcoal Foundry。人数は数値なし（'the hobbyist' 単数）"
+  },
+  "H126b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "4/4 の小さな集団（Gingery・Johansson・OSE・Colditz）が工業の社会の材料に頼る。鉱石から外の供給なしの例 0 件"
+  },
+  "H126c": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "OSE の頁に中心の人数の記述なし（家は 50 人で 5 日）。多数の工場の分業の記述なし。ただし資金・購入の材料に頼る"
+  },
+  "H126d": {
+   "class": "prediction",
+   "value": 2.440055518332935,
+   "rule": ">= 1.5",
+   "supported": true
+  },
+  "H126e": {
+   "class": "prediction",
+   "value": 0,
+   "rule": "crit L_scrap (F>=1.1) < 500",
+   "supported": true
+  },
+  "H126f": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "cases 表"
+  }
+ },
+ "runtime_s": 206.75791263580322
+}
