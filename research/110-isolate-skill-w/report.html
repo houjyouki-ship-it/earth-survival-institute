@@ -1,0 +1,157 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究110：孤立した小さな集団の技能の喪失で遅い κ の重み w を置く（open_problems 262） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="110-w-open_problems-262">研究110：孤立した小さな集団の技能の喪失で遅い κ の重み w を置く（open_problems 262）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・重い崩壊の割合は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第110回、JST 9時台）。sim.py（seed 20261110、約72秒、2 回実行で stdout は runtime 以外一致、109 の全版を差 0 で再現の assert）、n_needed.py、results.json、stdout.txt、fig_isolate_w.png、cases.json（引用の抜粋）、PREREGISTRATION.md（09:42 JST、資料を開く前・sim.py の前）、sources/（wikitext 20 本、SHA256SUMS.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>109 で F_heavy（A_Ord/U3）の期待値は遅い κ（Tasmania 型）の重み w で決まり、w≥0.022 で 1.1、w≥0.336 で重い崩壊 −30%。孤立集団の事例を足すと w はどこに来るか。</p>
+<h2 id="sources">資料（本回取得、sources/ に保存、年代のある喪失だけを数えた）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Inughuit">Wikipedia: Inughuit</a>）】17 世紀ごろ寒冷化で他の Inuit から切り離され、"Around this period, the Inughuit also lost the knowledge to build kayaks or umiaks"。1818 年に初の接触。19 世紀半ばに Baffin の Inuit が舟・ヤス・弓矢を再導入し、Inughuit は進んだ橇の技術を教えた。1880 年以前の人口は 100〜200 人。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/History_of_Tonga">Wikipedia: History of Tonga</a>）】定住は約 3000 年前（貝の年代 3180±100 BP）、"By 1550 BP (400 AD), they ceased to produce any pottery at all"。原因の説は椰子の器・地炉への移行・粘土の不適。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Easter_Island">Wikipedia: Easter Island</a>）】定住は 1200 年ごろ（2007 年の研究）、"Loss of large trees meant that residents were no longer able to build seaworthy vessels"、木の消失は 17〜18 世紀の衰えと重なるとする説。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Andamanese_peoples">Wikipedia: Andamanese peoples</a>）】"The Andamanese knew of no method for making fire in the nineteenth century"、定住は約 26,000 年前。かつて持っていたかは不明なので感度の版だけ。</li>
+<li>Moriori・Tikopia・Torres 海峡・Samoa・Mangareva・Rivers の頁には年代つきの技能の喪失の記述がなく、数えていない。</li>
+</ul>
+<h2 id="ln-r-t_lossr-logu1110-00063">結果（κ = ln R / T_loss、R ~ logU(1.1,10)【推測】、遅い型＝κ 中央値 ≤0.0063／年）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>T_loss（中央値）</th>
+<th>κ 中央値</th>
+<th>型</th>
+<th>喪失の原因（資料）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inughuit の舟</td>
+<td>81 年（5〜95% 8〜173）</td>
+<td>0.0146</td>
+<td>速い</td>
+<td>孤立・小人数</td>
+</tr>
+<tr>
+<td>Inughuit の弓・ヤス（感度）</td>
+<td>—</td>
+<td>0.0118</td>
+<td>速い</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>Tonga の土器</td>
+<td>約 1,540 年</td>
+<td>0.0008</td>
+<td>遅い</td>
+<td>需要の置き換え・粘土</td>
+</tr>
+<tr>
+<td>Easter の外洋の舟</td>
+<td>約 450 年</td>
+<td>0.0024</td>
+<td>遅い</td>
+<td>木材（資本）の消失</td>
+</tr>
+<tr>
+<td>Andaman の火起こし（感度）</td>
+<td>不明</td>
+<td>0.0001</td>
+<td>遅い</td>
+<td>不明</td>
+</tr>
+<tr>
+<td>Tasmania（108）</td>
+<td>約 4,000 年</td>
+<td>0.0003</td>
+<td>遅い</td>
+<td>争いあり</td>
+</tr>
+<tr>
+<td>109 の国家の 4 件</td>
+<td>24〜55 年</td>
+<td>0.022〜0.050</td>
+<td>速い</td>
+<td>国の崩壊・需要</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>版（数えた事例）</th>
+<th>件数（遅い）</th>
+<th>w の事後（5〜50〜95%）</th>
+<th>F_heavy 登録の混合</th>
+<th>事例の κ をそのまま混ぜる</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主：孤立 4＋国家 4</td>
+<td>8（3）</td>
+<td>0.15〜0.38〜0.66</td>
+<td><strong>2.11</strong>（重い崩壊 −34%）</td>
+<td>1.70</td>
+</tr>
+<tr>
+<td>孤立 4 だけ</td>
+<td>4（3）</td>
+<td>0.35〜0.73〜0.95</td>
+<td>2.98</td>
+<td>2.38</td>
+</tr>
+<tr>
+<td>原因が孤立の 2 件だけ</td>
+<td>2（1）</td>
+<td>0.10〜0.50〜0.90</td>
+<td>2.44</td>
+<td>2.46</td>
+</tr>
+<tr>
+<td>原因が孤立＋国家 4</td>
+<td>6（1）</td>
+<td>0.03〜0.19〜0.50</td>
+<td><strong>1.63</strong></td>
+<td>1.51</td>
+</tr>
+<tr>
+<td>Inughuit を 2 件に分ける</td>
+<td>9（3）</td>
+<td>0.13〜0.34〜0.61</td>
+<td>2.02</td>
+<td>1.63</td>
+</tr>
+<tr>
+<td>Andaman を足す</td>
+<td>9（4）</td>
+<td>0.21〜0.45〜0.70</td>
+<td>2.30</td>
+<td>1.99</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>どの版でも F_heavy は 1.5 以上で、1.1 を大きく越える【計算】。</li>
+<li>遅い型が 1 件（Tasmania）でもあると、w の事後の中央値を 0.022 未満に下げるには速い型が <strong>53 件</strong>（95% 点なら 175 件）要る（n_needed.json）【計算】。今の数え方の事例の数では w を分かれ目の下に絞れない。</li>
+</ul>
+<h2 id="_2">批判的検討</h2>
+<ol>
+<li><strong>遅い型の 2 件（Tonga、Easter）は κ を測っていない可能性が高い</strong>。T_loss を定住から数えたが、どちらも喪失の引き金（需要の置き換え、木の消失）は定住よりずっと後で、引き金からの喪失はむしろ速い（Tonga の飾りは "rather suddenly" に止んだ）。人口が段の閾値を下回っていた証拠もない。108 の κ は「閾値の下にいる間の戻りの速さ」なので、この 2 件は定義に合わない【独自仮説】。これを除いた「原因が孤立＋国家」の版（w 中央値 0.19、F_heavy 1.63）が最も擁護できる。</li>
+<li>その版でも遅い型は Tasmania 1 件だけで、原因は争われている。Inughuit は 100〜200 人の群で約 1 世紀以内に舟を失い、速い型（κ 0.015）。孤立した小さな群でも喪失は速いという、二値の模型の側の証拠が 1 件増えた。</li>
+<li>それでも F_heavy が下がらないのは、Jeffreys 事前で 6 件に 1 件の遅い型があると w の中央値が 0.19 になるからで、結論を決めているのは事例の数の少なさと事前分布。データが w を 0.022 の下に押す力はまだない。</li>
+<li>選択の偏り：Wikipedia に残るのは目立つ喪失で、何千年も失われなかった技能（Sentinelese の舟、Inughuit の橇）は「喪失」の分母に入らない。保持の事例を数えると遅い型（κ 小さい）の側に寄せる可能性もあるが、人口が閾値を上回っていたなら κ を縛らない。</li>
+<li>Inughuit の喪失の時点は 1818 年より前としか分からず、一様と置いた【推測】。資料はすべて Wikipedia の要約で、一次資料は開いていない。</li>
+</ol>
+<h2 id="_3">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H122a（確認的）：<strong>支持</strong>（T_loss 中央値 81 年、P(T≤100)=0.62、κ 中央値 0.0146）。ただし T は上限しか分からない。</li>
+<li>H122b（確認的）：<strong>棄却</strong>（年代の分かる孤立の 3 件のうち速いのは 1 件）。ただし批判 1 のとおり、遅い 2 件は κ の定義に合わない疑いが強い。</li>
+<li>H122c（予測）：<strong>棄却</strong>（主の w 中央値 0.38 ≥ 0.336）。</li>
+<li>H122d（予測）：<strong>棄却</strong>（主の F_heavy 2.11 &gt; 2.0）。原因が孤立＋国家の版なら 1.63 で範囲内だが、登録の主ではない。</li>
+<li>H122e（記述、支持に数えない）：喪失の原因は需要・資本（Tonga、Easter、国家の 4 件）と孤立（Inughuit、Tasmania）に分かれた。</li>
+</ul>
+<h2 id="_4">逸脱</h2>
+<p>「事例の κ をそのまま混ぜる」版、「原因が孤立」の 2 版、n_needed.py は登録で名指ししていない。遅い型の閾値 0.0063 を 1 件ずつの中央値で当てたこと、Andaman の T（1,000〜26,000 年）は【推測】。</p>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は、w を事例の割合で置く方法をやめる。件数が 50 件以上ないと分かれ目の判定ができず、T_loss の数え始めを定住にするか引き金にするかで型が入れ替わるからだ。次は (a) T_loss を「引き金（人口減・孤立・需要の消失）から」で数え直す規則を決め、(b) 重い崩壊の段（製鉄・ガラス）にあたる「資本の要る技能」が引き金の後どれだけ速く消えるかを、技能と資本を分けた模型（261）で扱う。知識の束を作る人には、Inughuit のように 100〜200 人の群は 1 世紀以内に舟の作り方を失いうるので、群の外から再導入できる形（手順書）の価値を前提にしてよいという材料が 1 件増えた。</p><footer><hr><small>自動生成</small></footer></body></html>
