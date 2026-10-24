@@ -1,0 +1,1085 @@
+Electric light bulb with a resistively heated wire filament
+A 230-volt incandescent light bulb with a medium-sized E27 base. The coiled filament is visible between the vertical supply wires.
+An incandescent light bulb, also known as an incandescent lamp or incandescent light globe, is an electric light that produces illumination by Joule heating a filament until it glows. The filament is enclosed in a glass bulb that is either evacuated or filled with inert gas to protect the filament from oxidation. Electric current is supplied to the filament by terminals or wires embedded in the glass. A bulb socket provides mechanical support and electrical connections.
+Incandescent bulbs are manufactured in a wide range of sizes, light output, and voltage ratings, from 1.5 volts to about 300 volts. They require no external regulating equipment, have low manufacturing costs, and work equally well on either alternating current or direct current. As a result, the incandescent bulb became widely used in household and commercial lighting, for portable lighting such as table lamps, car headlamps, and flashlights, and for decorative and advertising lighting.
+Incandescent bulbs are much less efficient than other types of electric lighting. Less than 5% of the energy they consume is converted into visible light; the rest is released as heat.[1][2] The luminous efficacy of a typical incandescent bulb is 16 lumens per watt (lm/W) for a 120 V bulb or 13 lm/W for a 230 V bulb, compared with 60 lm/W for a compact fluorescent bulb or 100 lm/W for typical white LED lamps.[3] As a result, incandescent bulbs have declined in market share compared to LED bulbs. This has been accelerated by government bans aimed at reducing energy consumption. These bans have been controversial in some cases.
+History[edit]
+Original carbon-filament bulb from Thomas Edison's shop in Menlo Park
+Historians Robert Friedel and Paul Israel list inventors of incandescent lamps prior to Joseph Swan and Thomas Edison of General Electric.[4] They conclude that Edison's version was the first practical implementation, able to outstrip the others because of a combination of four factors: an effective incandescent material; a vacuum higher than other implementations; a high resistance that made power distribution from a centralized source economically viable; and the development of the associated components required for a large-scale lighting system. However, Joseph Swan's incandescent light bulb pre-dated Edison's and was sufficiently practical that it was actually installed and in daily use in London in 1881.
+Historian Thomas Hughes has attributed Edison's business success to his development of an entire, integrated system of electric lighting.
+The lamp was a small component in his system of electric lighting, and no more critical to its effective functioning than the Edison Jumbo generator, the Edison main and feeder, and the parallel-distribution system. Other inventors with generators and incandescent lamps, and with comparable ingenuity and excellence, have long been forgotten because their creators did not preside over their introduction in a system of lighting.— Thomas P. Hughes, in Technology at the Turning Point, edited by W. B. Pickett[5][6]
+Early pre-commercial research[edit]
+In 1761, Ebenezer Kinnersley demonstrated heating a wire to incandescence.[7] However such wires tended to melt or oxidize very rapidly (burn) in the presence of air.[8] Limelight became a popular form of stage lighting in the early 19th century, by heating a piece of calcium oxide to incandescence with an oxyhydrogen torch.[9]
+In 1802, Humphry Davy used what he described as "a battery of immense size",[10] consisting of 2,000 cells housed in the basement of the Royal Institution of Great Britain,[11] to create an incandescent light by passing the current through a thin strip of platinum, chosen because the metal had an extremely high melting point. It was not bright enough nor did it last long enough to be practical, but it was the precedent behind the efforts of scores of experimenters over the next 75 years.[12] Davy also demonstrated the electric arc, by passing high current between two pieces of charcoal.
+For the next 40 years, much research was given to turning the carbon arc lamp into a practical means of lighting.[8] The carbon arc itself was dim and violet in color, emitting most of its energy in the ultraviolet, but the positive electrode was heated to just below the melting point of carbon and glowed very brightly with incandescence very close to that of sunlight.[13] Arc lamps burned up their carbon rods very rapidly, expelled dangerous carbon monoxide, and tended to produce outputs in the tens of kilowatts. Therefore, they were only practical for lighting large areas, so researchers continued to search for a way to make lamps suitable for home use.[8]
+Over the first three-quarters of the 19th century, many experimenters worked with various combinations of platinum or iridium wires, carbon rods, and evacuated or semi-evacuated enclosures. Many of these devices were demonstrated and some were patented.[14]
+In 1835, James Bowman Lindsay demonstrated a constant electric light at a public meeting in Dundee, Scotland. He stated that he could "read a book at a distance of one and a half feet". However he did not develop the electric light any further.[15]
+In 1838, Belgian lithographer Marcellin Jobard invented an incandescent light bulb with a vacuum atmosphere using a carbon filament.[16]
+In 1840, British scientist Warren De la Rue enclosed a coiled platinum filament in a vacuum tube and passed an electric current through it.[17] The design was based on the concept that the high melting point of platinum would allow it to operate at high temperatures and that the evacuated chamber would contain fewer gas molecules to react with the platinum, improving its longevity. Although a workable design, the cost of the platinum made it impractical for commercial use.
+In 1841, Frederick de Moleyns of England was granted the first patent for an incandescent lamp, with a design using platinum wires contained within a vacuum bulb. He also used carbon.[18][19]
+In 1845, American John W. Starr patented an incandescent light bulb using carbon filaments.[20][21] His invention was never produced commercially.[22][better source needed]
+In 1851, Jean Eugène Robert-Houdin publicly demonstrated incandescent light bulbs on his estate in Blois, France. His light bulbs are on display in the museum of the Château de Blois.{{cite book |first1=Edwin J. |last1=Houston |first2=A. E. |last2=Kennely |name-list-style=amp |title=Electric Incandescent Lighting |publisher=The W. J. Johnston Company |location=New York |year=1896 |pages=[https://archive.org/details/electricincande00kenngoog/page/n29 18–42] |via=Internet Archive}}</ref>"}},"i":0}}]}'>[a]
+In 1859, Moses G. Farmer built an electric incandescent light bulb using a platinum filament.[23] Thomas Edison later saw one of these bulbs in a shop in Boston, Massachusetts, and asked Farmer for advice on the electric light business.
+Alexander Lodygin on 1951 Soviet postal stamp
+In 1872, Russian Alexander Lodygin invented an incandescent light bulb and obtained a Russian patent in 1874. He used as a burner two carbon rods of diminished section in a glass receiver, hermetically sealed, and filled with nitrogen, electrically arranged so that the current could be passed to the second carbon when the first had been consumed.[24] Later he lived in the US, changed his name to Alexander de Lodyguine and applied for and obtained patents for incandescent lamps having chromium, iridium, rhodium, ruthenium, osmium, molybdenum and tungsten filaments.[25]
+On 24 July 1874, a Canadian patent was filed by Henry Woodward and Mathew Evans for a lamp consisting of carbon rods mounted in a nitrogen-filled glass cylinder. They were unsuccessful at commercializing their lamp, and sold rights to their patent[26] to Thomas Edison in 1879. (Edison needed ownership of the novel claim of lamps connected in a parallel circuit.)[27][28] The government of Canada maintains that it is Woodward and Evans who invented the lightbulb.[29]
+Commercialization[edit]
+Carbon filament and vacuum[edit]
+Carbon filament lamps, showing darkening of bulb
+Sir Joseph Wilson Swan
+Joseph Swan (1828–1914) was a British physicist and chemist. In 1850, he began working with carbonized paper filaments in an evacuated glass bulb. By 1860, he was able to demonstrate a working device but the lack of a good vacuum and an adequate supply of electricity resulted in a short lifetime for the bulb and an inefficient source of light. By the mid-1870s better pumps had become available, and Swan returned to his experiments.[30]
+Historical plaque at Underhill, the first house to be lit by electric lights
+With the help of Charles Stearn, an expert on vacuum pumps, in 1878, Swan developed a method of processing that avoided the early bulb blackening. This received a British Patent in 1880.[31] On 18 December 1878, a lamp using a slender carbon rod was demonstrated at a meeting of the Newcastle Chemical Society though it only worked for a few minutes. Swan repeated the demonstration at another meeting on 17 January 1879 where it worked successfully.[32] It was shown to 700 who attended a meeting of the Literary and Philosophical Society of Newcastle upon Tyne on 3 February 1879.[33][32] The society's building was the first public building to be lit by electricity. The lamps Swan demonstrated used a carbon rod from an arc lamp rather than a slender filament. Thus they had low resistance and required very large conductors to supply the necessary current, so they were not commercially practical, although they furnished a demonstration of the possibilities of incandescent lighting with relatively high vacuum, a carbon conductor, and platinum lead-in wires. This bulb lasted about 40 hours.[33]
+Swan then turned his attention to producing a better carbon filament and the means of attaching its ends. He devised a method of treating cotton to produce 'parchmentised thread' in the early 1880s and obtained British Patent 4933 that same year.[31] From this year he began installing light bulbs in homes and landmarks in England. His house, Underhill, Low Fell, Gateshead, was the first in the world to be lit by a lightbulb. In the early 1880s he had started his company.[34] In 1881, the Savoy Theatre in the City of Westminster, London was lit by Swan incandescent lightbulbs, which was the first theatre, and the first public building in the world, to be lit entirely by electricity.[35] The first street in the world to be lit by incandescent lamps was Mosley Street, Newcastle upon Tyne, United Kingdom in 1880.[36][37]
+Comparison of Edison, Maxim, and Swan bulbs, 1885
+Edison carbon filament lamps, early 1880s
+Thomas Alva Edison with a light bulb from 1883.
+Thomas Edison began serious research into developing a practical incandescent lamp in 1878. Edison filed his first patent application for "Improvement in Electric Lights" on 14 October 1878.[38] After many experiments, first with carbon in the early 1880s and then with platinum and other metals, in the end Edison returned to a carbon filament.[39] The first successful test was on 22 October 1879,[40][41] and lasted 13.5 hours. (October 21 was celebrated annually for many decades in the United States as Edison Day to commemorate this innovation.[42]) Edison continued to improve this design and by 4 November 1879, filed for a US patent for an electric lamp using "a carbon filament or strip coiled and connected ... to platina contact wires."[43] Although the patent described several ways of creating the carbon filament including using "cotton and linen thread, wood splints, papers coiled in various ways,"[43] Edison and his team later discovered that a carbonized Japanese bamboo filament could last more than 1200 hours.[44][45] In 1880, the Oregon Railroad and Navigation Company steamer, Columbia, became the first application for Edison's incandescent electric lamps (it was also the first ship to use a dynamo).[46][47][48]
+Albon Man, a New York lawyer, started Electro-Dynamic Light Company in 1878 to exploit his patents and those of William Sawyer.[49][50] Weeks later the United States Electric Lighting Company was organized.[49][50][51] This company made their first commercial installation of incandescent lamps in the fall of 1880, at the Mercantile Safe Deposit Company in New York City, about six months after the Edison incandescent lamps had been installed on the Columbia. Hiram S. Maxim was the chief engineer at the United States Electric Lighting Company.[52] After the great success in the United States, the incandescent light bulb patented by Edison also began to gain widespread popularity in Europe; among other places, the first Edison light bulbs in the Nordic countries were installed at the weaving hall of the Finlayson's textile factory in Tampere, Finland in March 1882.[53]
+On 4 March 1880, just five months after Edison's light bulb, Alessandro Cruto developed a process to create thin carbon filaments by heating thin platinum filaments in the presence of gaseous ethyl alcohol to coat them with pure graphite, and then sublimating the platinum at high temperatures. In 1882 at the Munich Electrical Exhibition in Bavaria, Germany Cruto demonstrated bulbs that were more efficient than Edison's and produced a better, whiter light.[54]
+Lewis Latimer, employed at the time by the United States Electric Lighting Company, developed an improved method of heat-treating carbon filaments which reduced breakage and allowed them to be molded into novel shapes, such as the characteristic "M" shape of Maxim filaments. On 17 January 1882, Latimer received a patent for the "Process of Manufacturing Carbons", an improved method for the production of light bulb filaments, which was purchased by the United States Electric Light Company.[55] Latimer patented other improvements such as a better way of attaching filaments to their wire supports.[56]
+In Britain, the Edison and Swan companies merged into the Edison and Swan United Electric Company (later known as Ediswan, and ultimately incorporated into Thorn Lighting Limited). Edison was initially against this combination, but he was eventually forced to cooperate and the merger was made. Eventually, Edison acquired all of Swan's interest in the company. Swan sold his US patent rights to the Brush Electric Company in June 1882.
+U.S. patent 0,223,898 by Thomas Edison for an improved electric lamp, 27 January 1880
+The United States Patent Office issued a ruling 8 October 1883, that Edison's patents were based on the prior art of William Sawyer and were invalid. Litigation continued for a number of years. Eventually on 6 October 1889, a judge ruled that Edison's electric light improvement claim for "a filament of carbon of high resistance" was valid.[57]
+In 1893, Heinrich Göbel claimed he had designed the first incandescent light bulb in 1854, with a thin carbonized bamboo filament of high resistance, platinum lead-in wires in an all-glass envelope, and a high vacuum. Judges of four courts raised doubts about the alleged Göbel anticipation, but there was never a decision in a final hearing due to the expiration of Edison's patent. Research work published in 2007 concluded that the story of the Göbel lamps in the 1850s is fictitious.[58]
+The main difficulty with evacuating the lamps was moisture inside the bulb, which split when the lamp was lit, with resulting oxygen attacking the filament.[59] In the 1880s, phosphoric anhydride was used in combination with expensive mercury vacuum pumps.[60] However, about 1893, Italian inventor Arturo Malignani [it] (1865–1939), who lacked these pumps, discovered that phosphorus vapours did the job of chemically binding the remaining amounts of water and oxygen.[59][60] In 1896 he patented a process of introducing red phosphorus as the so-called getter inside the bulb[59] which allowed the production of economic bulbs lasting 800 hours; his patent was acquired by Edison in 1898.[30]
+In 1897, German physicist and chemist Walther Nernst developed the Nernst lamp, a form of incandescent lamp that used a ceramic globar and did not require enclosure in a vacuum or inert gas.[61][62] Twice as efficient as carbon filament lamps, Nernst lamps were briefly popular until overtaken by lamps using metal filaments.
+Metal filament, inert gas[edit]
+A tantalum lamp with a 1 meter long filament.
+US575002A patent on 01.Dec.1897 to Alexander Lodyguine (Lodygin, Russia) describes filaments made of rare metals, amongst them was tungsten. Lodygin invented a process where rare metals such as tungsten can be chemically treated and heat-vaporized onto an electrically heated thread-like wire (platinum, carbon, gold) acting as a temporary base or skeletal form. (US patent 575,002). Lodygin later sold the patent rights to General Electric.
+In 1902, Siemens developed a tantalum lamp filament that was more efficient than even graphitized carbon filaments since they could operate at higher temperature. Since tantalum metal has a lower resistivity than carbon, the tantalum lamp filament was quite long and required multiple internal supports. The metal filament gradually shortened in use; the filaments were installed with large slack loops. Lamps used for several hundred hours became quite fragile.[63] Metal filaments had the property of breaking and re-welding, though this would usually decrease resistance and shorten the life of the filament. General Electric bought the rights to use tantalum filaments and produced them in the US until 1913.[64]
+From 1898 to around 1905, osmium was also used as a filament in lamps made by Carl Auer von Welsbach. The metal was so expensive that used lamps could be returned for partial credit.[65] It could not be made for 110 V or 220 V so several lamps were wired in series for use on standard voltage circuits. These were primarily sold in Europe.
+Tungsten filament[edit]
+Hanaman (left) and Just (right), the inventors of the tungsten bulbs
+Hungarian advertising of the Tungsram bulb from 1906. The inscription reads: wire lamp with a drawn wire – indestructible.
+On 13 December 1904, Hungarian Sándor Just and Croatian Franjo Hanaman were granted a Hungarian patent (No. 34541) for a tungsten filament lamp that lasted longer and gave brighter light than the carbon filament.[30] Tungsten filament lamps were first marketed by the Hungarian company Tungsram in 1904. This type is often called Tungsram-bulbs in many European countries.[66] Filling a bulb with an inert gas such as argon or nitrogen slows the evaporation of the tungsten filament compared to operating it in a vacuum. This allows for greater temperatures and therefore greater efficacy with less reduction in filament life.[67]
+In 1906, William D. Coolidge developed a method of making "ductile tungsten" from sintered tungsten which could be made into filaments while working for General Electric Company.[68] By 1911 General Electric had begun selling incandescent light bulbs with ductile tungsten wire.[69]
+In 1913, Irving Langmuir found that filling a lamp with inert gas (nitrogen at first, and later argon) instead of a vacuum resulted in twice the luminous efficacy and reduced bulb blackening.[citation needed] He patented his device on April 18, 1916.[70]
+Scanning electron microscope image of a coiled coil tungsten filament
+In 1917, Burnie Lee Benbow was granted a patent for the coiled coil filament, in which a coiled filament is then itself wrapped into a coil by use of a mandrel.[71][72] In 1921, Junichi Miura created the first double-coil bulb using a coiled coil tungsten filament while working for Hakunetsusha (a predecessor of Toshiba). At the time, machinery to mass-produce coiled coil filaments did not exist. Hakunetsusha developed a method to mass-produce coiled coil filaments by 1936.[73]
+Between 1924 and the outbreak of the Second World War, the Phoebus cartel attempted to fix prices and sales quotas for bulb manufacturers outside of North America.[74]
+In 1925, Marvin Pipkin, an American chemist, patented a process for frosting the inside of lamp bulbs without weakening them.[75] In 1947, he patented a process for coating the inside of lamps with silica.[76]
+In 1930, Hungarian Imre Bródy filled lamps with krypton gas rather than argon, and designed a process to obtain krypton from air. Production of krypton filled lamps based on his invention started at Ajka, Hungary in 1937, in a factory co-designed by Polányi and Hungarian-born physicist Egon Orowan.[77][additional citation(s) needed]
+By 1964, improvements in efficiency and production of incandescent lamps had reduced the cost of providing a given quantity of light by a factor of thirty, compared with the cost at introduction of Edison's lighting system.[78]
+Consumption of incandescent light bulbs grew rapidly in the US. In 1885, an estimated 300,000 general lighting service lamps were sold, all with carbon filaments. When tungsten filaments were introduced, about 50 million lamp sockets existed in the US. In 1914, 88.5 million lamps were used, (only 15% with carbon filaments), and by 1945, annual sales of lamps were 795 million (more than 5 lamps per person per year).[79]
+Efficacy and efficiency[edit]
+Further information: Luminous efficacy
+Spectrum of an incandescent lamp at 2200 K, showing most of its emission as invisible infrared light
+Thermal image of an incandescent bulb. 22–175 °C (72–347 °F). Most of the mid and far-infrared is absorbed by the glass, heating it to scorching temperatures. This heats the surrounding air, which rises, helping cool the bulb from the bottom up.
+Less than 5% of the power consumed by a typical tungsten incandescent light bulb is converted into visible light, with most of the rest being emitted as invisible infrared radiation.[1][80] Some applications make use of the emitted infrared radiation, such as heat lamps in incubators, lava lamps, Edison effect bulbs, and the Easy-Bake Oven toy. Quartz envelope halogen infrared heaters are used for industrial processes such as paint curing and space heating.
+Light bulbs are rated by their luminous efficacy, which is the ratio of the amount of visible light emitted (luminous flux) to the electrical power consumed.[81] Luminous efficacy is measured in lumens per watt (lm/W).
+The luminous efficiency of a source is defined as the ratio of its luminous efficacy to the maximum possible luminous efficacy, which is 683 lm/W.[82][83] An ideal white light source could produce about 250 lumens per watt, corresponding to a luminous efficiency of 37%.[84]
+For a given quantity of light, an incandescent light bulb consumes more power and emits more heat than most other types of electric light. In buildings where air conditioning is used, incandescent lamps' heat output increases load on the air conditioning system.[85] While heat from lights will reduce the need to run a building's heating system, the latter can usually produce the same amount of heat at lower cost than incandescent lights.
+The chart below lists the luminous efficacy and efficiency for several types of incandescent bulb. A longer chart in luminous efficacy compares a broader array of light sources. 
+TypeOverall luminous efficiencyOverall luminous efficacy (lm/W)
+40 W tungsten incandescent (120 V, general service)
+1.9%
+12.6[1]
+60 W tungsten incandescent (120 V, general service)
+2.1%
+14.5[1]
+100 W tungsten incandescent (120 V, general service)
+2.6%
+17.5[1]
+Glass halogen
+2.3%
+16
+Quartz halogen
+3.5%
+24
+Photographic and projection lamps with very high filament temperatures and short lifetimes
+5.1%
+35[86]
+Theoretical maximum for a tungsten filament incandescent bulb
+7.6%
+52[78]
+Color rendering[edit]
+The spectrum of light produced by an incandescent lamp closely approximates that of a black body radiator at the same temperature.[87] The basis for light sources used as the standard for color perception is a tungsten incandescent lamp operating at a defined temperature.[88]
+Spectral power distribution of a 25 W incandescent light bulb.
+Light sources such as fluorescent lamps, high-intensity discharge lamps and LED lamps have higher luminous efficiency. These devices produce light by luminescence. Their light has bands of characteristic wavelengths, without the "tail" of invisible infrared emissions, instead of the continuous spectrum produced by a thermal source. By careful selection of fluorescent phosphor coatings or filters which modify the spectral distribution, the spectrum emitted can be tuned to mimic the appearance of incandescent sources, or other different color temperatures of white light. When used for tasks sensitive to color, such as motion picture lighting, these sources may require particular techniques to duplicate the appearance of incandescent lighting.[89] Metamerism describes the effect of different light spectrum distributions on the perception of color.
+Cost of lighting[edit]
+See also: Architectural lighting design
+The initial cost of an incandescent bulb is small compared to the cost of the energy it uses over its lifetime. Incandescent bulbs have a shorter life than most other lighting, an important factor if replacement is inconvenient or expensive. Some types of lamp, including incandescent and fluorescent, emit less light as they age; this may be an inconvenience, or may reduce effective lifetime due to lamp replacement before total failure. A comparison of incandescent lamp operating cost with other light sources must include illumination requirements, cost of the lamp and labor cost to replace lamps (taking into account effective lamp lifetime), cost of electricity used, effect of lamp operation on heating and air conditioning systems. When used for lighting in houses and commercial buildings, the energy lost to heat can significantly increase the energy required by a building's air conditioning system. During the heating season heat produced by the bulbs is not wasted,[90] although in most cases it is more cost effective to obtain heat from the building's heating system. Regardless, over the course of a year a more efficient lighting system than incandescent saves energy in nearly all climates.[91]
+Measures to ban[edit]
+Main article: Incandescent light bulb ban
+Since incandescent light bulbs use more energy than alternatives such as compact fluorescent lamps (CFLs) and LED lamps, many governments have introduced measures to ban them by setting minimum efficacy standards higher than can be achieved by incandescent lamps. Measures to ban light bulbs have been implemented in the European Union, the United States, Russia, Brazil, Argentina, Canada and Australia, among others. The European Commission has calculated that the ban contributes €5 billion to €10 billion to the economy and saves 40 TWh of electricity every year, translating in CO2 emission reductions of 15 million tonnes (33 billion pounds).[92][93]
+Objections to banning incandescent light bulbs include the higher initial cost of alternatives, lower quality of light of fluorescent lamps, and resistance to government regulation.[94] Some people have concerns about the health effects of fluorescent lamps. A 2017 review in the World Journal of Biological Psychiatry reported that blue-rich white LED lighting can suppress melatonin and disrupt sleep and circadian rhythms, with potential implications for mental illness.[95]
+Efforts to improve efficacy[edit]
+Xenon halogen lamp with an E27 base, which can replace a non-halogen bulb
+Some research has been carried out to improve the efficacy of commercial incandescent lamps. In 2007, General Electric announced a high efficiency incandescent (HEI) lamp project, which they claimed would ultimately be as much as four times more efficient than current incandescents, although their initial production goal was to be approximately twice as efficient.[96][97] The HEI program was terminated in 2008 due to slow progress.[98][99] US Department of Energy research at Sandia National Laboratories initially indicated the potential for dramatically improved efficiency from a photonic lattice filament.[96] However, later work indicated that initially promising results were in error.[100]
+Prompted by legislation in various countries mandating increased bulb efficiency, hybrid incandescent bulbs have been introduced by Philips. The Halogena Energy Saver incandescents can produce about 23 lm/W; about 30 percent more efficient than traditional incandescents, by using a reflective capsule to reflect formerly wasted infrared radiation back to the filament, from which some is re-emitted as visible light.[94] This concept was pioneered by Duro-Test in 1980 with a commercial product that produced 29.8 lm/W.[101][102] More advanced reflectors based on interference filters or photonic crystals can theoretically result in higher efficiency, up to a limit of about 270 lm/W (40% of the maximum efficacy possible).[103] Laboratory proof-of-concept experiments have produced as much as 45 lm/W, approaching the efficacy of compact fluorescent bulbs[103][104] which is still lower than LED bulbs.
+Construction[edit]
+Incandescent light bulbs consist of an air-tight glass enclosure (the envelope, or bulb) with a filament of tungsten wire inside the bulb, through which an electric current is passed. Contact wires and a base with two (or more) conductors provide electrical connections to the filament. Incandescent light bulbs usually contain a stem or glass mount anchored to the bulb's base that allows the electrical contacts to run through the envelope without air or gas leaks. Small wires embedded in the stem in turn support the filament and its lead wires.
+An electric current heats the filament to typically 2,000 to 3,300 K (1,730 to 3,030 °C; 3,140 to 5,480 °F), well below tungsten's melting point of 3,695 K (3,422 °C; 6,191 °F). Filament temperatures depend on the filament type, shape, size, and amount of current drawn. The heated filament emits light that approximates a continuous spectrum. The useful part of the emitted energy is visible light, but most energy is given off as heat in the near-infrared wavelengths.
+Bulbs[edit]
+Most light bulbs have either clear or coated glass. Coated glass bulbs have kaolin clay blown in and electrostatically deposited on the interior of the bulb. The powder layer diffuses the light from the filament. Pigments may be added to the clay to adjust the color of the light emitted. Kaolin diffused bulbs are used extensively in interior lighting because of their comparatively gentle light. Other kinds of colored bulbs are also made, including the various colors used for "party bulbs", Christmas tree lights and other decorative lighting. These are created by coloring the glass with a dopant; which is often a metal like cobalt (blue) or chromium (green).[105] Neodymium-containing glass is sometimes used to provide a more natural-appearing light.
+Outline of Glass bulb
+Low pressure inert gas (argon, nitrogen, krypton, xenon)
+Tungsten filament
+Contact wire (goes into stem)
+Contact wire (goes out of stem)
+Support wires (one end embedded in stem; conduct no current)
+Stem (glass mount)
+Contact wire (goes out of stem)
+Cap (sleeve)
+Insulation (vitrite)
+Electrical contact
+The glass bulb of a general service lamp can reach temperatures between 200 and 260 °C (392 and 500 °F). Lamps intended for high power operation or used for heating purposes will have envelopes made of hard glass or fused quartz.[78]
+If a light bulb envelope leaks, the hot tungsten filament reacts with air, yielding an aerosol of brown tungsten nitride, brown tungsten dioxide, violet-blue tungsten pentoxide, and yellow tungsten trioxide that then gets deposited on the nearby surfaces or the bulb interior.
+Gas fill[edit]
+Most modern bulbs are filled with an inert gas to reduce evaporation of the filament and prevent its oxidation. The gas is at a pressure of about 70 kPa (0.7 atm).[106]
+The gas reduces evaporation of the filament, but the fill must be chosen carefully to avoid introducing significant heat losses. For these properties, chemical inertness and high atomic or molecular weight is desirable. The presence of gas keeps the tungsten below its vapor pressure, allowing it to be operated at higher temperature without reducing its life (or, for operating at the same temperature, prolongs the filament life). On the other hand, the presence of the gas leads to heat loss from the filament—and therefore efficiency loss due to reduced incandescence—by heat conduction and heat convection.
+Early lamps used only a vacuum to protect the filament from oxygen. The vacuum increases evaporation of the filament but eliminates two modes of heat loss. Some small modern lamps use vacuum as well.
+The most commonly used fills are:[107]
+Vacuum, used in small lamps. Provides best thermal insulation of the filament but does not protect against its evaporation. Used also in larger lamps where the outer bulb surface temperature has to be limited.
+Argon (93%) and nitrogen (7%), where argon is used for its inertness, low thermal conductivity and low cost, and the nitrogen is added to increase the breakdown voltage and prevent arcing between parts of the filament.[106]
+Nitrogen, used in some higher-power lamps, e.g. projection lamps, and where higher breakdown voltage is needed due to proximity of filament parts or lead-in wires.
+Krypton, which is more advantageous than argon due to its higher atomic weight and lower thermal conductivity (which also allows use of smaller bulbs), but its use is hindered by much higher cost, confining it mostly to smaller-size bulbs.
+Krypton mixed with xenon, where xenon improves the gas properties further due to its higher atomic weight. Its use is however limited by its very high cost. The improvements by using xenon are modest in comparison to its cost.
+Hydrogen, in special flashing lamps where rapid filament cooling is required; its high thermal conductivity is exploited here.
+Halogen, a small amount mixed with inert gas which is used in halogen lamps, a distinct type of incandescent lamp.
+The gas fill must be free of traces of water, which greatly accelerates bulb blackening (see below).
+The gas layer close to the filament (called the Langmuir layer) is stagnant, with heat transfer occurring only by conduction. Only at some distance does convection occur to carry heat to the bulb's envelope.
+The orientation of the filament influences efficiency. Gas flow parallel to the filament, e.g., a vertically oriented bulb with vertical (or axial) filament, reduces convective losses.
+The efficiency of the lamp increases with a larger filament diameter. Thin-filament, low-power bulbs benefit less from a fill gas, so are often only evacuated.
+Early light bulbs with carbon filaments also used carbon monoxide, nitrogen, or mercury vapor. However, carbon filaments operate at lower temperatures than tungsten ones, so the effect of the fill gas was not significant as the heat losses offset any benefits.
+Manufacturing[edit]
+The 1902 tantalum filament light bulb was the first one to have a metal filament. This one is from 1908.
+Early bulbs were laboriously assembled by hand. After automatic machinery was developed, the cost of bulbs fell. Until 1910, when Libbey's Westlake machine went into production, bulbs were generally produced by a team of three workers (two gatherers and a master gaffer) blowing the bulbs into wooden or cast-iron molds, coated with a paste.[108] Around 150 bulbs per hour were produced by the hand-blowing process in the 1880s at Corning Glass Works.[108]
+The Westlake machine, developed by Libbey Glass, was based on an adaptation of the Owens-Libbey bottle-blowing machine. Corning Glass Works soon began developing competing automated bulb-blowing machines, the first of which to be used in production was the E-Machine.[108]
+Ribbon machine[edit]
+Corning continued developing automated bulb-production machines, installing the Ribbon Machine in 1926 in its Wellsboro, Pennsylvania, factory.[109] The Ribbon Machine surpassed any previous attempts to automate bulb production and was used to produce incandescent bulbs into the 21st century. The inventor, William Woods, along with his colleague at Corning Glass Works, David E. Gray, had created a machine that by 1939 was producing 1,000 bulbs per minute.[108]
+The Ribbon Machine works by passing a continuous ribbon of glass along a conveyor belt, heated in a furnace, and then blown by precisely aligned air nozzles through holes in the conveyor belt into molds. Thus the glass bulbs or envelopes are created. A typical machine can produce 50,000 to 120,000 bulbs per hour, depending on the size of the bulb.[110][111] By the 1970s, 15 ribbon machines installed in factories around the world produced the entire supply of incandescent bulbs.[112] The filament and its supports are assembled on a glass stem, which is then fused to the bulb. The air is pumped out of the bulb, and the evacuation tube in the stem press is sealed by a flame. The bulb is then inserted into the lamp base, and the whole assembly tested. The 2016 closing of Osram-Sylvania's Wellsboro, Pennsylvania plant meant that one of the last remaining ribbon machines in the United States was shut down.[112]
+Filament[edit]
+How a tungsten filament is made
+Carbon has the highest melting point of any element, and in carbon arc lamps it had been demonstrated to produce incandescence fairly close to that of sunlight. However, carbon has a tendency to sublimate before reaching its melting point depending on pressure, which led to rapid blackening of vacuumed bulbs. The first commercially successful light bulb filaments were made from carbonized paper or bamboo. Carbon filaments have a negative temperature coefficient of resistance—as they get hotter, their electrical resistance decreases. This made the lamp sensitive to fluctuations in the power supply, since a small increase of voltage would cause the filament to heat up, reducing its resistance and causing it to draw even more power and heat even further.
+Carbon filaments were "flashed" by heating in a hydrocarbon vapor (usually gasoline), to improve their strength and uniformity. Metallized or "graphitized" filaments were first heated to high temperature to transform them into graphite, which further strengthened and smoothed the filament. These filaments have a positive temperature coefficient, like a metallic conductor, which stabilized the lamps operating properties against minor variations in supply voltage.
+Metal filaments were tried in 1897[113] and started to displace carbon starting around 1904. Tungsten has the highest available melting point, but brittleness was an obstacle. By 1910, a process was developed by William D. Coolidge at General Electric for production of a ductile form of tungsten. The process required pressing tungsten powder into bars, then several steps of sintering, swaging, and then wire drawing. It was found that very pure tungsten formed filaments that sagged in use, and that a very small "doping" treatment with potassium, silicon, and aluminum oxides at the level of a few hundred parts per million (so-called AKS tungsten) greatly improved the life and durability of the tungsten filaments.[114]
+The predominant mechanism for failure in tungsten filaments even now is grain boundary sliding accommodated by diffusional creep.[115] During operation, the tungsten wire is stressed under the load of its own weight and because of the diffusion that can occur at high temperatures, grains begin to rotate and slide. This stress, because of variations in the filament, causes the filament to sag nonuniformly, which ultimately introduces further torque on the filament.[115] It is this sagging that inevitably results in a rupture of the filament, rendering the incandescent lightbulb useless.[115]
+Coiled coil filament[edit]
+To improve the efficiency of the lamp, the filament usually consists of multiple coils of coiled fine wire, also known as a coiled coil. Light bulbs using coiled coil filaments are sometimes referred to as double-coil bulbs. For a 60-watt 120-volt lamp, the uncoiled length of the tungsten filament is usually 580 millimetres (22.8 in),[78] and the filament diameter is 0.046 millimetres (0.0018 in). The advantage of the coiled coil is that there is less flow of gas in the bulb along the surface of the filament wire itself. Instead, gas only flows around the outside of whole coiled coil form, reducing both evaporation of the material and heat loss from the wire.[116] The coiled-coil filament evaporates more slowly than a straight filament of the same surface area and light-emitting power, meaning the bulb lasts longer. The increased heat retained in the filament means that it runs hotter, which results in a more efficient light source.
+Coiled coil filament of a 200-watt incandescent lightbulb highly magnified
+Filament of a burnt-out 50-watt incandescent lightbulb in an SEM in stereoscopic mode, presented as an anaglyph image. 3D red cyan glasses are recommended to view this image correctly.
+Filament of a 50-watt incandescent lightbulb in an SEM in stereoscopic mode, presented as an anaglyph image. 3D red cyan glasses are recommended to view this image correctly.
+Electrical filaments are also used in hot cathodes of fluorescent lamps and vacuum tubes as a source of electrons or in vacuum tubes to heat an electron-emitting electrode. When used as a source of electrons, they may have a special coating that increases electron production.
+Reducing filament evaporation[edit]
+During ordinary operation, the tungsten of the filament evaporates; hotter, more-efficient filaments evaporate faster.[117] Because of this, the lifetime of a filament lamp is a trade-off between efficiency and longevity. The trade-off is typically set to provide a lifetime of 1,000 to 2,000 hours for lamps used for general illumination. Theatrical, photographic, and projection lamps may have a useful life of only a few hours, trading life expectancy for high output in a compact form. Long-life general service lamps have lower efficiency, but prior to the development of compact fluorescent and LED lamps they were useful in applications where the bulb was difficult to change.
+Irving Langmuir found that an inert gas, instead of vacuum, would retard evaporation. General service incandescent light bulbs over about 25 watts in rating are now filled with a mixture of mostly argon and some nitrogen,[118] or sometimes krypton.[119] While inert gas reduces filament evaporation, it also conducts heat from the filament, thereby cooling the filament and reducing efficiency. At constant pressure and temperature, the thermal conductivity of a gas depends upon the molecular weight of the gas and the cross sectional area of the gas molecules. Higher molecular weight gases have lower thermal conductivity, because both the molecular weight and cross sectional area are higher. Xenon gas improves efficiency because of its high molecular weight, but is also more expensive, so its use is limited to smaller lamps.[120]
+Filament notching is due to uneven evaporation of the filament. Small variations in resistivity along the filament cause "hot spots" to form at points of higher resistivity;[79] a variation of diameter of only 1% will cause a 25% reduction in service life.[78] Since filament resistance is highly temperature-dependent, spots with higher temperature will have higher resistance, causing them to dissipate more energy, making them hotter – a positive feedback loop. These hot spots evaporate faster than the rest of the filament, permanently increasing the resistance at that point. The process ends in the familiar tiny gap in an otherwise healthy-looking filament.
+Lamps operated on direct current develop random stairstep irregularities on the filament surface which may cut lifespan in half compared to AC operation; different alloys of tungsten and rhenium can be used to counteract the effect.[121][122]
+Since a filament breaking in a gas-filled bulb can form an electric arc, which may spread between the terminals and draw very heavy current, intentionally thin lead-in wires or more elaborate protection devices are therefore often used as fuses built into the light bulb.[123] More nitrogen is used in higher-voltage lamps to reduce the possibility of arcing.[118]
+Bulb blackening[edit]
+In a conventional lamp, the evaporated tungsten condenses on the inner surface of the glass envelope, darkening it. For bulbs that contain a vacuum, the darkening is uniform across the entire surface of the envelope. When a filling of inert gas is used, the evaporated tungsten is carried in the thermal convection currents of the gas, and is deposited preferentially on the uppermost part of the envelope, blackening just that portion of the envelope. Study of the problem of bulb blackening led to the discovery of thermionic emission, the invention of the vacuum tube, and evaporation deposition used to make mirrors and other optical coatings.[124][125][126]
+A very small amount of water vapor inside a light bulb can significantly increase lamp darkening. Water vapor dissociates into hydrogen and oxygen at the hot filament. The oxygen attacks the tungsten metal, and the resulting tungsten oxide particles travel to cooler parts of the lamp. Hydrogen from water vapor reduces the oxide, reforming water vapor and continuing this water cycle.[79] The equivalent of a drop of water distributed over 500,000 lamps will significantly increase darkening.[78] Small amounts of substances such as zirconium are placed within the lamp as a getter to react with any oxygen that may bake out of the lamp components during operation.[127]
+Some old, high-powered lamps used in theater, projection, searchlight, and lighthouse service with heavy, sturdy filaments contained loose tungsten powder within the envelope. From time to time, the operator would remove the bulb and shake it, allowing the tungsten powder to scrub off most of the tungsten that had condensed on the interior of the envelope, removing the blackening and brightening the lamp again.[128]
+Halogen lamps[edit]
+Main article: Halogen lamp
+Close-up of a tungsten filament inside a halogen lamp. The two ring-shaped structures left and right are filament supports.
+The halogen lamp reduces uneven evaporation of the filament and eliminates darkening of the envelope by filling the lamp with a halogen gas at low pressure, along with an inert gas. The halogen cycle increases the lifetime of the bulb and prevents its darkening by redepositing tungsten from the inside of the bulb back onto the filament. The halogen lamp can operate its filament at a higher temperature than a standard gas filled lamp of similar power without loss of operating life. Such bulbs are much smaller than normal incandescent bulbs, and are widely used where intense illumination is needed in a limited space. Fiber-optic lamps for optical microscopy is one typical application.
+Incandescent arc lamps[edit]
+A variation of the incandescent lamp did not use a hot wire filament, but instead used an arc struck on a spherical bead electrode to produce heat. The electrode then became incandescent, with the arc contributing little to the light produced. Such lamps were used for projection or illumination for scientific instruments such as microscopes. These arc lamps ran on relatively low voltages and incorporated tungsten filaments to start ionization within the envelope. They provided the intense concentrated light of an arc lamp but were easier to operate. Developed around 1915, these lamps were displaced by mercury and xenon arc lamps.[129][130][131]
+Electrical characteristics[edit]
+Comparison of efficacy by power
+120-volt lamps[132]
+230-volt lamps[133]
+Power (W)Output (lm)Efficacy (lm/W)Output (lm)Efficacy (lm/W)
+5255
+151107.3
+252008.02309.2
+4050012.543010.8
+6085014.273012.2
+751,20016.0
+1001,70017.01,38013.8
+1502,85019.02,22014.8
+2003,90019.53,15015.8
+3006,20020.75,00016.7
+5008,40016.8
+Power[edit]
+Incandescent lamps are nearly pure resistive loads with a power factor of 1. Unlike discharge lamps or LED lamps, the power consumed is equal to the apparent power in the circuit. Incandescent light bulbs are usually marketed according to the electrical power consumed. This depends mainly on the operating resistance of the filament. For two bulbs of the same voltage, and type, the higher-powered bulb gives more light.
+The table shows the approximate typical output, in lumens, of standard 120 volt incandescent light bulbs at various powers. Light output of similar 230 V bulbs is usually slightly less, even though in this table the opposite holds true at 25 W. The lower current (higher voltage) filament is thinner and has to be operated at a slightly lower temperature for the same life expectancy, which reduces energy efficiency.[134]
+The lumen values for "soft white" bulbs will generally be slightly lower than for clear bulbs at the same power.
+Current and resistance[edit]
+The resistance of the filament is temperature dependent. The cold resistance of tungsten-filament lamps is about 1⁄15 the resistance when operating. For example, a 100-watt, 120-volt lamp has a resistance of 144 ohms when lit, but the cold resistance is much lower (about 9.5 ohms).[78]{{cite book |last1=Friedel |first1=Robert |last2=Israel |first2=Paul |year=2010 |name-list-style=amp |title=Edison's Electric Light: The Art of Invention |publisher=The Johns Hopkins University Press |edition=Revised |isbn=978-0-8018-9482-4 |pages=29–31}}</ref>"}},"i":0}}]}'>[b] Since incandescent lamps are resistive loads, simple phase-control TRIAC dimmers can be used to control brightness. Electrical contacts may carry a "T" rating symbol indicating that they are designed to control circuits with the high inrush current characteristic of tungsten lamps. For a 100-watt, 120-volt general-service lamp, the current stabilizes in about 0.10 seconds, and the lamp reaches 90% of its full brightness after about 0.13 seconds.[136]
+Physical characteristics[edit]
+Safety[edit]
+The filament in a tungsten light bulb is not easy to break when the bulb is cold, but filaments are more vulnerable when they are hot because the incandescent metal is less rigid. An impact on the outside of the bulb may cause the filament to break or experience a surge in electric current that causes part of it to melt or vaporize.
+In most modern incandescent bulbs, part of the wire inside the bulb acts like a fuse: if a broken filament produces an electrical short inside the bulb, the fusible section of wire will melt and cut the current off to prevent damage to the supply lines.
+A hot glass bulb may fracture on contact with cold objects. When the glass envelope breaks, the bulb implodes, exposing the filament to ambient air. The air then usually destroys the hot filament through oxidation.
+Bulb shapes[edit]
+Incandescent light bulbs come in a range of shapes and sizes.
+Bulb shape and size designations are given in national standards. Some designations are one or more letters followed by one or more numbers, e.g. A55 or PAR38, where the letters identify the shape and the numbers some characteristic size.
+National standards such as ANSI C79.1-2002, IS 14897:2000[137] and JIS C 7710:1988[138] cover a common terminology for bulb shapes.
+Examples
+DescriptionSIInchDetails
+"Standard" lightbulbA60 E26A19 E26⌀60 mm (~⌀19/8 in) A series bulb, ⌀26 mm Edison screw
+Candle-flame bulbCA35 E12CA11 E12⌀35 mm (~⌀11/8 in) candle-flame shape, ⌀12 mm Edison screw
+Flood lightBR95 E26BR30 E26⌀95 mm (~⌀30/8 in) flood light, ⌀26 mm Edison screw
+Halogen track-light bulbMR50 GU5.3MR16 GU5.3⌀50 mm (~⌀16/8 in) multifaceted reflector, 5.33 mm-spaced 12 V bi-pin connector
+Common shape codes[edit]
+General Service/General Lighting Service (GLS)
+Light emitted in (nearly) all directions. Available either clear or frosted.
+Types: General (A), elliptical (E), mushroom (M), sign (S), tubular (T)
+120 V sizes: A17, 19 and 21
+230 V sizes: A55 and 60[c]
+High Wattage General Service
+Lamps greater than 200 watts.
+Types: Pear-shaped (PS)
+Decorative
+lamps used in chandeliers, etc. Smaller candle-sized bulbs may use a smaller socket.
+Types: candle (B), twisted candle, bent-tip candle (CA & BA), flame (F), globe (G), lantern chimney (H), fancy round (P)
+230 V sizes: P45, G95
+Reflector (R)Reflective coating inside the bulb directs light forward. Flood types (FL) spread light. Spot types (SP) concentrate the light. Reflector (R) bulbs put approximately double the amount of light (foot-candles) on the front central area as General Service (A) of same wattage.
+Types: Standard reflector (R), bulged reflector (BR), elliptical reflector (ER), crown-silvered
+120 V sizes: R16, 20, 25 and 30
+230 V sizes: R50, 63, 80 and 95[c]
+Parabolic aluminized reflector (PAR)
+Parabolic aluminized reflector (PAR) bulbs control light more precisely. They produce about four times the concentrated light intensity of general service (A), and are used in recessed and track lighting. Weatherproof casings are available for outdoor spot and flood fixtures.
+120 V sizes: PAR 16, 20, 30, 38, 56 and 64
+230 V sizes: PAR 16, 20, 30, 38, 56 and 64
+Available in numerous spot and flood beam spreads. Like all light bulbs, the number represents the diameter of the bulb in 1⁄8 of an inch. Therefore, a PAR 16 is 51 mm (2 in) in diameter, a PAR 20 is 64 mm (2.5 in) in diameter, PAR 30 is 95 mm (3.75 in) and a PAR 38 is 121 mm (4.75 in) in diameter.
+A package of four 60-watt light bulbs
+Multifaceted reflector (MR)
+Multifaceted reflector bulbs are usually smaller in size and run at a lower voltage, often 12 V.
+Left to right: MR16 with GU10 base, MR16 with GU5.3 base, MR11 with GU4 or GZ4 base
+HIR/IRC"HIR" is a GE designation for a lamp with an infrared reflective coating. Since less heat escapes, the filament burns hotter and more efficiently.[139] The Osram designation for a similar coating is "IRC".[140]
+Lamp bases[edit]
+Main article: Lightbulb socket
+40-watt light bulbs with standard E10, E14 and E27 Edison screw base
+The double-contact bayonet cap on an incandescent bulb
+Large lamps may have a screw base or a bayonet base, with one or more contacts on the base. The shell may serve as an electrical contact or only as a mechanical support. Bayonet base lamps are frequently used in automotive lamps to resist loosening by vibration. Some tubular lamps have an electrical contact at either end. Miniature lamps may have a wedge base and wire contacts, and some automotive and special purpose lamps have screw terminals for connection to wires. Very small lamps may have the filament support wires extended through the base of the lamp for connections. A bi-pin base is often used for halogen or reflector lamps.[141]
+In the late 19th century, manufacturers introduced a multitude of incompatible lamp bases. General Electric's "Mazda" standard base sizes were soon adopted across the US.[citation needed]
+Lamp bases may be secured to the bulb with a cement, or by mechanical crimping to indentations molded into the glass bulb.[citation needed]
+Lamps intended for use in optical systems have bases with alignment features so that the filament is positioned accurately within the optical system. A screw-base lamp may have a random orientation of the filament when the lamp is installed in the socket.[citation needed]
+Contacts in the lightbulb socket allow the electric current to pass through the base to the filament. The socket provides electrical connections and mechanical support, and allows changing the lamp when it burns out.[citation needed]
+Light output and lifetime[edit]
+See also: Lamp rerating
+Incandescent lamps are very sensitive to changes in the supply voltage. These characteristics are of great practical and economic importance.
+For a supply voltage V near the rated voltage of the lamp:
+Light output is approximately proportional to V 3.4
+Power consumption is approximately proportional to V 1.6
+Lifetime is approximately proportional to V −16
+Color temperature is approximately proportional to V 0.42[117]
+A 5% reduction in voltage will double the life of the bulb, but reduce its light output by about 16%. Long-life bulbs take advantage of this trade-off in applications such as traffic signal lamps. Since electric energy they use costs more than the cost of the bulb, general service lamps emphasize efficiency over long operating life. The objective is to minimize the cost of light, not the cost of lamps.[78] Early bulbs had a life of up to 2500 hours, but in 1924 the Phoebus cartel agreed to limit life to 1000 hours.[142] When this was exposed in 1953, General Electric and other leading American manufacturers were banned from limiting the life.[143]
+The relationships above are valid for only a few percent change of voltage around standard rated conditions, but they indicate that a lamp operated at low voltage could last much longer than at rated voltage, albeit with greatly reduced light output. The "Centennial Light" is a light bulb that is accepted by the Guinness Book of World Records as having been burning almost continuously at a fire station in Livermore, California, since 1901. However, the bulb emits the equivalent light of a four watt bulb. A similar story can be told of a 40-watt bulb in Texas that has been illuminated since 21 September 1908. It once resided in an opera house where notable celebrities stopped to take in its glow, and was moved to an area museum in 1977.[144]
+Photoflood lamps used for photographic lighting favor light output over life, with some lasting only two hours. The upper temperature limit for the filament is the melting point of the metal. Tungsten is the metal with the highest melting point, 3,695 K (3,422 °C; 6,191 °F). A 50-hour-life projection bulb, for instance, is designed to operate only 50 °C (122 °F) below that melting point. Such a lamp may achieve up to 22 lumens per watt, compared with 17.5 for a 750-hour general service lamp.[78]
+Lamps of the same power rating but designed for different voltages have different luminous efficacy. For example, a 100-watt, 1000-hour, 120-volt lamp will produce about 17.1 lumens per watt. A similar lamp designed for 230 V would produce only around 12.8 lumens per watt, and one designed for 30 volts (train lighting) would produce as much as 19.8 lumens per watt.[78] Lower voltage lamps have a thicker filament, for the same power rating. They can run hotter for the same lifetime before the filament evaporates.
+The wires used to support the filament make it mechanically stronger, but remove heat, creating another tradeoff between efficiency and long life. Many general-service 120-volt lamps use no additional support wires, but lamps designed for "rough service" or "vibration service" may have as many as five. Low-voltage lamps have filaments made of heavier wire and do not require additional support wires.
+Very low voltages are inefficient since the lead wires would conduct too much heat away from the filament, so the practical lower limit for incandescent lamps is 1.5 volts. Very long filaments for high voltages are fragile, and lamp bases become more difficult to insulate, so lamps for illumination are not made with rated voltages over 300 volts.[78] Some infrared heating elements are made for higher voltages, but these use tubular bulbs with widely separated terminals.
+The Centennial Light is the longest-lasting light bulb in the world.
+Various lighting spectra as viewed in a diffraction grating. Upper left: fluorescent lamp, upper right: incandescent bulb, lower left: white LED, lower right: candle flame.
+See also[edit]
+Energy portalPhysics portal
+3-way lamp
+Flash (photography)
+Lampshade
+Light tube
+Lightbulb jokes
+List of light sources
+Longest-lasting light bulbs
+Light pollution
+Photometry (optics)
+Resistance wire
+Spectrometer
+Explanatory notes[edit]
+↑ Many of the above lamps are illustrated and described in the 1896 book Electric Incandescent Lighting[14]
+↑ Edison's research team was aware of the large negative temperature coefficient of resistance of possible lamp filament materials and worked extensively during the period 1878–1879 on devising an automatic regulator or ballast to stabilize current. It was not until 1879 that it was realized a self-limiting lamp could be built.[135]
+1 2 Size measured in millimetres. See also A-series light bulb.
+References[edit]
+1 2 3 4 5 Keefe, T. J. (2007). "The Nature of Light". Archived from the original on 23 April 2012. Retrieved 5 November 2007.
+↑ "High Efficiency Incandescent Lighting | MIT Technology Licensing Office". tlo.mit.edu. Retrieved 19 August 2022.
+↑ Vincenzo Balzani, Giacomo Bergamini, Paola Ceroni, Light: A Very Peculiar Reactant and Product. In: Angewandte Chemie International Edition 54, Issue 39, (2015), pp. 11320–11337, doi:10.1002/anie.201502325.
+↑ Friedel & Israel (2010), p. 91–93.
+↑ Hughes, Thomas P. (1977). "Edison's method". In Pickett, W. B. (ed.). Technology at the Turning Point. San Francisco: San Francisco Press. pp. 5–22.
+↑ Hughes, Thomas P. (2004). American Genesis: A Century of Invention and Technological Enthusiasm (2nd ed.). Chicago: University of Chicago Press. ISBN 978-0-22635-927-4.
+↑ Blake-Coleman, B. C. (Barrie Charles) (1992). Copper Wire and Electrical Conductors – The Shaping of a Technology. Harwood Academic Publishers. p. 127. ISBN 3-7186-5200-5. Archived from the original on 6 December 2017.
+1 2 3 Friedel & Israel (2010), p. 6–7.
+↑ "November 9, 1825: Public Demonstration of the Limelight". www.aps.org.
+↑ Jones, Bence (2011). The Royal Institution: Its Founder and Its First Professors. Cambridge University Press. p. 278. ISBN 978-1108037709.
+↑ "Popular Science Monthly (Mar-Apr 1879)". Wiki Source. Archived from the original on 10 September 2015. Retrieved 1 November 2015.
+↑ Davis, L. J. "Fleet Fire." Arcade Publishing, New York, 2003. ISBN 1-55970-655-4.
+↑ Herman Goodman, Clinical Medicine and Surgery, Volume 35, American Journal of Clinical Medicine, 1928, pp. 159–161.
+1 2 Houston, Edwin J. & Kennely, A. E. (1896). Electric Incandescent Lighting. New York: The W. J. Johnston Company. pp. 18–42 – via Internet Archive.
+↑ Challoner, Jack; et al. (2009). 1001 Inventions That Changed The World. Hauppauge NY: Barrons Educational Series. p. 305. ISBN 978-1844036110.
+↑ Friedel & Israel (2010), p. 91.
+↑ Peterson, Elizabeth; McKelvie, Callum (3 November 2022). "Who invented the lightbulb?". Live Science. Retrieved 16 November 2024.
+↑ Houston & Kennely (1896), p. 24.
+↑ Friedel & Israel (2010), p. 7.
+↑ Charles D. Wrege J.W. Starr: Cincinnati's Forgotten Genius, Cincinnati Historical Society, Bulletin 34 (Summer 1976), pp. 102–120. Retrieved 16 February 2010.
+↑ Derry, T.K.; Williams, Trevor (1960). A Short History of Technology. Oxford University Press. ISBN 0-486-27472-1. {{cite book}}: ISBN / Date incompatibility (help)
+↑ "John Wellington Starr". Retrieved 16 February 2010.
+↑ Conot, Robert (1979). A Streak of Luck. New York: Seaview Books. pp. 120–121. ISBN 0-87223-521-1.
+↑ Edison Electric Light Co. vs. United States Electric Lighting Co., Federal Reporter, F1, Vol. 47, 1891, p. 457.
+↑ U.S. Patent 575,002 Illuminant for Incandescent Lamps by A. de Lodyguine. Application on 4 January 1893
+↑ U.S. patent 181,613
+↑ "Patent no. 3738. Filing year 1874: Electric Light". Library and Archives Canada. Archived from the original on 19 June 2013. Retrieved 17 June 2013.
+↑ "Henry Woodward and Mathew Evans Lamp retrieved 2010 February 16". frognet.net. Archived from the original on 19 February 2005.
+↑ Immigration, Refugees and Citizenship Canada (2021). Discover Canada: The Rights and Responsibilities of Citizenship (PDF). Immigration, Refugees and Citizenship Canada = Immigration, réfugiés et citoyenneté Canada. ISBN 978-0-660-39273-8. Retrieved 15 August 2024.
+1 2 3 Guarnieri, M. (2015). "Switching the Light: From Chemical to Electrical" (PDF). IEEE Industrial Electronics Magazine. 9 (3): 44–47. Bibcode:2015IIEM....9c..44G. doi:10.1109/MIE.2015.2454038. hdl:11577/3164116. ISSN 1932-4529. S2CID 2986686. Archived (PDF) from the original on 14 February 2022. Retrieved 2 September 2019.
+1 2 Swan, K R (1946). Sir Joseph Swan and the Invention of the Incandescent Electric Lamp. Longmans, Green and Co. pp. 21–25.
+1 2 "Reward offered for oldest working light bulb in a British home". Royal society of chemistry. 30 January 2009. Retrieved 9 March 2025.
+1 2 "Dec. 18, 1878: Let There Be Light — Electric Light". WIRED. 18 December 2009. Archived from the original on 21 October 2016.
+↑ R.C. Chirnside. Sir Joseph Wilson Swan FRS – The Literary and Philosophical Society of Newcastle upon Tyne 1979.
+↑ "The Savoy Theatre", The Times, 3 October 1881
+↑ "Electric lighting". Newcastle University Library. 23 October 2013. Archived from the original on 6 June 2014.
+↑ Sir Joseph William Swan FRS (RSC National Chemical Landmark)[circular reference]
+↑ U.S. patent 0,214,636.
+↑ Burns, Elmer Ellsworth (1910). The story of great inventions. Harper & Brothers. p. 123.
+↑ Israel, Paul (1998). Edison: a Life of Invention. Wiley. p. 186.
+↑ "Thomas Edison: Original Letters and Primary Sources". Shapell Manuscript Foundation. Archived from the original on 19 January 2012.
+↑ Jennifer Vanasco (21 October 2026). "This was once Edison Day. We re-visit his creepy talking doll". NPR.
+1 2 U.S. patent 0,223,898 granted 27 January 1880
+↑ Levy, Joel (2002). Really useful: the origins of everyday things. New York: Firefly Books. p. 124. ISBN 9781552976227. bamboo filament edison patent 1200.
+↑ Takashi, Sasaki (August 2022). "Thomas Edison: The Incandescent Light Bulb and Japanese Bamboo". Government of Japan Public Relations Office. Retrieved 11 August 2026.
+↑ Belyk, Robert C. (2001). Great Shipwrecks of the Pacific Coast. New York: Wiley. ISBN 0-471-38420-8.
+↑ Jehl, Francis (1936). Menlo Park reminiscences, Volume 2. Edison's institute. p. 564. Archived from the original on 3 January 2021. Retrieved 18 October 2020.
+↑ Dalton, Anthony (2011). A Long, Dangerous Coastline: Shipwreck Tales from Alaska to California. Heritage House Publishing Company. p. 63. ISBN 9781926936116. Archived from the original on 22 May 2020. Retrieved 18 October 2016.
+1 2 "Reports of Companies". Electrical Engineer, Volume 10. Electrical Engineer. 16 July 1890. p. 72. Archived from the original on 26 January 2017. Retrieved 18 October 2016. The Consolidated Company was the successor of the Electro-Dynamic Light Company of New York, the first company organized in the United States for the manufacture and sale of electric incandescent lamps, and the owner of a large number of patents of date prior to those upon which rival companies were depending. ... The United States Electric Lighting Company was organized in 1878, a few weeks after the Electro-Dynamic Company
+1 2 "Electric Light News". Electrical Review, Volume 16. Delano. 19 July 1890. p. 9. Archived from the original on 27 January 2017. Retrieved 18 October 2016. The United States Electric Lighting Company was organized in 1878, a few weeks after the Electro-Dynamic Light Company
+↑ "The Westinghouse Electric Company". Western Electrician. Electrician Publishing Company. 19 July 1890. p. 36. Archived from the original on 27 January 2017. Retrieved 18 October 2016. The United States Electric Lighting Company was organized in 1878 a few weeks after the Electro-Dynamic company, and was the successor of the oldest company in the United States for the manufacture of electric power apparatus
+↑ The National Cyclopedia of American Biography, Vol VI, 1896, p. 34.
+↑ Kautonen, Mika (18 November 2015). "A history of continuous change and innovation". Smart Tampere Ecosystem. Archived from the original on 9 December 2021. Retrieved 9 December 2021.
+↑ https://ilglobo.com/news/alessandro-crutos-incandescent-light-bulb-33135/ [dead link]
+↑ U.S. Patent 252, 386 Process OF Manufacturing Carbons. by Lewis H. Latimer. Application on 19 February 1881
+↑ Fouché, Rayvon, Black Inventors in the Age of Segregation: Granville T. Woods, Lewis H. Latimer, and Shelby J. Davidson.) (Johns Hopkins University Press, Baltimore & London, 2003, pp. 115–116. ISBN 0-8018-7319-3
+↑ Consol. Elec. Light Co v. McKeesport Light Co, 40 F. 21 (C.C.W.D. Pa. 1889) aff'd, 159 U.S. 465, 16 S. Ct. 75, 40 L. Ed. 221 (1895).
+↑ Rohde, Hans-Christian (2007). Die Göbel-Legende – Der Kampf um die Erfindung der Glühlampe (in German). Springe: zu Klampen. ISBN 978-3-86674-006-8. OCLC 85243650.
+1 2 3 "Getters". Lamptech.co.uk. Retrieved 18 August 2022.
+1 2 "2yr.net - Antique & Vintage Light Bulb Collection Museum - History of the Incandescent Lamp - by John W. Howell and Henry Schroeder (1927) Chapter 4: The Vacuum, Getters and the Gas Filled Lamp".
+↑ Mills, Allan (June 2013). "The Nernst Lamp. Electrical Conductivity in Non-Metallic Materials". ERittenhouse. 24 (1). Archived from the original on 17 July 2013.
+↑ "Walther Nernst Chronology". nernst.de. Archived from the original on 22 February 2015. Retrieved 18 January 2015.
+↑ I. C. S. Reference Library, Volume 4B, Scranton, Pennsylvania, International Textbook Company, 1908, no ISBN.
+↑ "GE Tantalum Filament 25W of American Design". Museum of Electric Lamp Technology. Archived from the original on 13 November 2012. Retrieved 17 June 2013.
+↑ "The Osmium Filament Lamp". frognet.net. Archived from the original on 12 October 2008.
+↑ "The History of Tungsram" (PDF). Archived from the original (PDF) on 30 May 2005.
+↑ Giridharan, M. K. (2010). Electrical Systems Design. New Delhi: I. K. International. p. 25. ISBN 9789380578057. Archived from the original on 2 January 2016.
+↑ Briant and, C.L.; Bewlay, Bernard P. (1995). "The Coolidge Process for Making Tungsten Ductile: The Foundation of Incandescent Lighting". MRS Bulletin. 20 (8): 67–73. Bibcode:1995MRSBu..20...67B. doi:10.1557/S0883769400045164. S2CID 138257279.
+↑ Nair, Govind B.; Dhoble, Sanjay J. (9 July 2020). The Fundamentals and Applications of Light-Emitting Diodes: The Revolution in the Lighting Industry. Woodhead Publishing. p. 22. ISBN 978-0-12-823161-6. Archived from the original on 17 August 2021. Retrieved 5 August 2021.
+↑ "This Month in Physics History". www.aps.org.
+↑ "Burnie Lee Benbow". frognet. Archived from the original on 12 June 2012. Retrieved 19 February 2017.
+↑ Benbow, B. L., US patent 1247068: "Filament", filed 4 October 1913.
+↑ "Trial Production of the World's First Double-Coil Bulb". Toshiba. TOSHIBA CORP. Archived from the original on 19 February 2017. Retrieved 19 February 2017.
+↑ Markus Krajewski (24 September 2014). "The Great Lightbulb Conspiracy". IEEE Spectrum. Archived from the original on 29 October 2017. Retrieved 3 November 2017.
+↑ Payne, Kenneth Wilcox (1927). "A $10,000 Accident". Popular Science. New York City: Bonnier Corporation. p. 24. Archived from the original on 4 February 2021. Retrieved 31 July 2020.
+↑ Bonnier Corporation (March 1949). "Popular Science". The Popular Science Monthly. Bonnier Corporation: 125. ISSN 0161-7370. Archived from the original on 4 February 2021. Retrieved 4 January 2021.
+↑ "}},"i":0}}]}'/>"Ganz and Tungsram – the 20th century". Electric history: Hungarian Inventors and their Inventions in the Field of Heavy-Current Engineering. Geneva, Budapest: EnergoSolar. 2007. Archived from the original on 30 March 2009. / "XX. század - Ganz, Tungsram". Elektromos történelem: Magyar feltalálók és találmányaik az erősáramú elektrotechnika fontos területein (in Hungarian). EnergoSolar.com. 2007. Archived from the original on 15 September 2009.
+1 2 3 4 5 6 7 8 9 10 11 Incandescent Lamps, Publication Number TP-110, General Electric Company, Nela Park, Cleveland, Ohio (1964), p. 3.
+1 2 3 Raymond Kane, Heinz Sell Revolution in lamps: a chronicle of 50 years of progress (2nd ed.), The Fairmont Press, Inc. 2001 ISBN 0-88173-378-4 page 37, table 2-1
+↑ Vincent Pegoraro, Handbook of Digital Image Synthesis, CRC Press 2017, p. 690.
+↑ IEEE Standard 100: definition of luminous efficacy. p. 647.
+↑ "End of Incandescent Light Bulb". yuvaengineers.com. 23 June 2012. Archived from the original on 7 March 2017. Retrieved 7 March 2017.
+↑ "The Energy Efficiency of Light Bulbs Today Compared to the Past". kse-lights.co.uk. 13 February 2017. Archived from the original on 7 March 2017. Retrieved 7 March 2017.
+↑ 
+Murphy, Thomas W. (2012). "Maximum spectral luminous efficacy of white light". Journal of Applied Physics. 111 (10) 104909: 104909–104909–6. arXiv:1309.7039. Bibcode:2012JAP...111j4909M. doi:10.1063/1.4721897. S2CID 6543030.
+↑ Peter Lund, Helsinki University of Technology, Helsingin Sanomat, 23 October 2007, p. C5.
+↑ Klipstein, Donald L. (1996). "The Great Internet Light Bulb Book, Part I". Archived from the original on 2 May 2006.
+↑ "Incandescent Lamps". edisontechcenter.org. Archived from the original on 14 March 2013.
+↑ Janos Schanda (ed), Colorimetry: Understanding the CIE System, John Wiley & Sons, 2007, ISBN 0470175621, p. 44.
+↑ Blain Brown, Motion Picture and Video Lighting, Routledge, 2018, ISBN 0429866666, Chapter 7.
+↑ "Efficient lighting equals higher heat bills: study". CBC News. 4 March 2009. Archived from the original on 14 February 2011.
+↑ Parekh, Anil (January 2008). "Benchmarking Home Energy Savings from Energy-Efficient Lighting" (PDF). Canada Mortgage and Housing Corporation. Archived from the original (PDF) on 30 January 2016. Retrieved 14 January 2016.
+↑ Nicholas A. A. Howarth, Jan Rosenow: Banning the bulb: Institutional evolution and the phased ban of incandescent lighting in Germany. In: Energy Policy 67, (2014), pp. 737–746, doi:10.1016/j.enpol.2013.11.060.
+↑ "Frequently asked questions about the regulation on ecodesign requirements for non-directional household lamps". European Commission - European Commission. Retrieved 19 August 2022.
+1 2 Vestel, Leora Broydo (6 July 2009). "Incandescent Bulbs Return to the Cutting Edge". The New York Times. Archived from the original on 12 May 2011.
+↑ Bauer, Michael; Glenn, Tasha; Monteith, Scott; Gottlieb, John F.; Ritter, Philipp S.; Geddes, John; Whybrow, Peter C. (February 2018). "The potential influence of LED lighting on mental illness". The World Journal of Biological Psychiatry. 19 (1): 59–73. doi:10.1080/15622975.2017.1417639. ISSN 1814-1412. PMID 29251065.
+1 2 Daley, Dan (27 February 2008). "Incandescent's Not-So-Dim Future". Projection, Lights & Staging News. Timeless Communications Corp. p. 46. Archived from the original on 6 March 2014.
+↑ Freeman, Kim (23 February 2007). "GE Announces Advancement in Incandescent Technology; New High-Efficiency Lamps Targeted for Market by 2010" (Press release). Business Wire. Archived from the original on 16 May 2013.
+↑ Hamilton, Tyler (22 April 2009). "Why the brightest idea needs tinkering". Toronto Star. Archived from the original on 20 June 2013.
+↑ Rahim, Saqib (28 June 2010). "The Incandescent Bulb Heads Offstage After Century-Long Performance". The New York Times. Archived from the original on 18 May 2013.
+↑ "Revolutionary tungsten photonic crystal could provide more power for electrical devices". Sandia National Laboratories. 7 July 2003. Archived from the original on 21 February 2013.
+↑ "Prototype Heat-Mirror Tungsten Lamp". Smithsonian Museum of American History. Archived from the original on 23 December 2015.
+↑ Energy Efficient Incandescent Lamp: Final Report (Report). Lawrence Berkeley National Laboratory. April 1982.
+1 2 Ilic, Ognjen (2016). "Tailoring high-temperature radiation and the resurrection of the incandescent source" (PDF). Nature Nanotechnology. 11 (4): 320–4. Bibcode:2016NatNa..11..320I. doi:10.1038/nnano.2015.309. hdl:1721.1/109242. OSTI 1371442. PMID 26751172. Archived from the original on 14 February 2022. Retrieved 23 September 2019.
+↑ McGrath, Matt (12 January 2016). "New development could lead to more effective lightbulbs". BBC News. Archived from the original on 13 January 2016.
+↑ "Lamp Material Information Sheet – Incandescent Lamp" (PDF). Archived from the original on 21 May 2013. Retrieved 20 May 2013.
+1 2 "Argon (Ar) Properties, Uses, Applications Argon Gas and Liquid Argon". Gas Properties, Uses, Applications. Universal Industrial Gases, Inc. Archived from the original on 4 February 2012.
+↑ Ropp, Richard C. (22 October 2013). The Chemistry of Artificial Lighting Devices. Elsevier Science. ISBN 978-0080933153. Archived from the original on 6 December 2017.
+1 2 3 4 Graham, Margaret B. W.; Shuldiner, Alec T. (2001). Corning and the craft of innovation. Oxford [England]: Oxford University Press. pp. 85–95. ISBN 0195140974. OCLC 45493270.
+↑ Innovations in glass. Corning, New York: Corning Museum of Glass. 1999. p. 52. ISBN 0872901467. OCLC 42012660.
+↑ "Light Bulb: How Products are Made". Archived from the original on 14 September 2010.
+↑ "Running the ribbon machine: Stories from the team". Behind the Glass. 9 January 2018. Archived from the original on 8 February 2019. Retrieved 14 May 2018.
+1 2 "The machine that lit up the world". Behind the Glass. 27 January 2017. Archived from the original on 1 January 2018. Retrieved 14 May 2018.
+↑ "Tungsten Wire History". 4 December 2020. Archived from the original on 1 January 2023. Retrieved 1 January 2023.
+↑ Chapter 2 The Potassium Secret Behind Tungsten Wire Production
+1 2 3 Raj, R.; King, G. W. (1 July 1978). "Life Prediction of Tungsten Filaments in Incandescent Lamps". Metallurgical Transactions A. 9 (7): 941–946. Bibcode:1978MTA.....9..941R. doi:10.1007/BF02649838. ISSN 1543-1940. S2CID 135784495.
+↑ "Filament Coiling Effects". 30 December 2018. Retrieved 31 May 2026.
+1 2 Donald G. Fink and H. Wayne Beaty, Standard Handbook for Electrical Engineers, Eleventh Edition, McGraw-Hill, New York, 1978, ISBN 0-07-020974-X, p. 22–8.
+1 2 John Kaufman (ed.), IES Lighting Handbook 1981 Reference Volume, Illuminating Engineering Society of North America, New York, 1981, ISBN 0-87995-007-2, p. 8-6.
+↑ Burgin. Lighting Research and Technology, 1984, 16.2, pp. 61–72.
+↑ Lipstein, Don. "Premium Fill Gasses". Archived from the original on 11 October 2011. Retrieved 13 October 2011.
+↑ "Miniature Lamps: Technical Information". Toshiba Lighting & Technology Corporation. Archived from the original on 26 February 2019. Retrieved 25 February 2019.
+↑ John Kaufman (ed.), IES Lighting Handbook 1981 Reference Volume, Illuminating Engineering Society of North America, New York, 1981, ISBN 0-87995-007-2, p. 8-9.
+↑ Hunt, Robert (2001–2006). "Glass Blowing for Vacuum Devices – Lamp Autopsy". Teralab. Archived from the original on 11 March 2007. Retrieved 2 May 2007.
+↑ Preece, William Henry (1885). "On a peculiar behaviour of glow lamps when raised to high incandescence". Proceedings of the Royal Society of London. 38 (235–238): 219–230. doi:10.1098/rspl.1884.0093. Archived from the original on 26 June 2014. Preece coins the term the "Edison effect" on p. 229.
+↑ 
+Josephson, M. (1959). Edison. McGraw-Hill. ISBN 978-0-07-033046-7. {{cite book}}: ISBN / Date incompatibility (help)
+↑ The Foundations of Vacuum Coating Technology By D. M. Mattox – Springer 2004 Page 37
+↑ Corazza, Alessio & Giorgi, S. & Boffito, Claudio & Massaro, Vincenzo & Caccia, Debora. (2006). Characteristics of the getter materials used in High Intensity Discharge Lamps. Conference Record - IAS Annual Meeting (IEEE Industry Applications Society). 4. 1801-1807. 10.1109/IAS.2006.256780.
+↑ John Kaufman (ed.), IES Lighting Handbook 1981 Reference Volume, Illuminating Engineering Society of North America, New York, 1981, ISBN 0-87995-007-2, p. 8-10.
+↑ "Incandescent Arc Lamps". Museum of Electric Lamp Technology. 2004. Archived from the original on 1 August 2013.
+↑ G. Arncliffe Percival, The Electric Lamp Industry, Sir Isaac Pitman and Sons, Limited, London, England, 1920, pp. 73–74, available from the Internet Archive.
+↑ S. G. Starling, An Introduction to Technical Electricity, MacMillan and Co., Limited, London, England, 1920, pp. 97–98, available at the Internet Archive, good schematic diagram of the Pointolite lamp.
+↑ Wells, Quentin (2012), Smart Grid Home, Cengage Learning, p. 163, ISBN 978-1111318512, archived from the original on 17 August 2021, retrieved 8 November 2012
+↑ Häberle, Gregor D.; et al. (2013). Tabellenbuch Elektrotechnik (in German) (25 ed.). Haan-Gruiten: Verlag Europa-Lehrmittel. p. 190. ISBN 978-3-8085-3227-0.
+↑ "Light and Lighting Fun Facts". donklipstein.com. Archived from the original on 20 July 2013.
+↑ Friedel, Robert & Israel, Paul (2010). Edison's Electric Light: The Art of Invention (Revised ed.). The Johns Hopkins University Press. pp. 29–31. ISBN 978-0-8018-9482-4.
+↑ Friedel & Israel (2010), pp. 22–23.
+↑ "IS 14897 (2000): Glass Bulb Designation System for Lamps — Guide". New Delhi: Bureau of Indian Standards. pp. 1, 4. Retrieved 3 July 2018.
+↑ JIS C 7710:1988 電球類ガラス管球の形式の表し方 (in Japanese). Archived from the original on 11 November 2016. Retrieved 21 March 2017.
+↑ "Lighting Resources". GE Lighting North America. Archived from the original on 3 July 2007.
+↑ "IRC Saver calculator". Osram. Archived from the original on 23 December 2008.
+↑ "Single-Ended Halogen Bases". Bulbster.com. Archived from the original on 19 September 2013. Retrieved 17 June 2013.
+↑ Krajewski, Markus (24 September 2014). "The Great Lightbulb Conspiracy". IEEE Spectrum. IEEE. Archived from the original on 6 November 2014.
+↑ "Tests shine light on the secret of the Livermore light bulb". 6 February 2011. Archived from the original on 10 March 2012.
+↑ "Watts Up? – A parting look at lighting". Archived from the original on 7 February 2009.
+External links[edit]
+Wikimedia Commons has media related to Incandescent light bulbs.
+Light Source Spectra at the Wayback Machine (archived 2025-05-28) 60 W–100 W Incandescent light bulb spectra, from Cornell University Program of Computer Graphics
+Slow-motion video of an incandescent lightbulb filament
+Ribbon machine in operation at Osram-Sylvania in 2016
+vteLightingConcepts
+Accent lighting
+Color rendering index
+Color temperature
+Electric light
+Glare
+Light fixture
+Light pollution 
+Hawaii
+Hong Kong
+Lightbulb socket
+Bi-pin lamp base
+Edison screw
+Luminous efficacy
+Task lighting
+Methods of generationIncandescent
+Regular
+Edison
+Halogen
+Nernst
+Luminescent
+Cathodoluminescent
+Electron-stimulated
+Chemiluminescent
+Electrochemiluminescence
+Electroluminescent
+field-induced polymer
+light-emitting transistor
+Fluorescent
+Fluorescent lamp (compact)
+Fluorescent induction
+Photoluminescent
+Laser headlamp
+Radioluminescence
+Solid-state
+LED lamp
+Combustion
+Acetylene/Carbide
+Argand
+Campfire
+Candle
+Carcel
+Diya
+Flare
+Gas
+Kerosene
+Petromax
+Lantern
+Fanous
+Paper
+Limelight
+Luchina
+Magnesium torch
+Oil
+Qulliq
+Rushlight
+Safety
+Tilley
+Torch
+Electric arc
+Carbon arc
+Klieg light
+Yablochkov candle
+Gas discharge
+Deuterium arc
+Neon
+Neon lamp
+Plasma
+Sulfur
+Xenon arc
+Xenon flash
+High-intensitydischarge (HID)
+Mercury-vapor
+Metal-halide
+ceramic
+Hydrargyrum medium-arc iodide (HMI)
+Hydrargyrum quartz iodide (HQI)
+Sodium vapor
+Stationary
+Reflector
+Ellipsoidal reflector
+Multifaceted reflector
+Parabolic aluminized reflector (PAR)
+Aviation obstruction
+Balanced-arm lamp
+Chandelier
+Emergency light
+Gas lighting
+Gooseneck lamp
+Intelligent street lighting
+Light tube
+Marine aid to navigation light
+Nightlight
+Neon lighting
+Pendant light
+Recessed light
+Sconce
+Street light
+in the US
+Torchère
+Track lighting
+Troffer
+Portable
+Bicycle lighting
+Flashlight
+Mechanically powered
+Tactical
+Glow stick
+Headlamp
+outdoor
+Lantern
+Laser pointer
+Navigation light
+Searchlight
+Solar lamp
+Automotive
+Automotive light bulb types
+Daytime running lamp
+Headlamp
+hidden
+high-intensity discharge
+sealed beam
+Rear position lights
+Reversing lights
+Safety reflector
+retroreflector
+Stop lights
+Turn signals
+trafficators
+DisplayDecorative
+Aroma lamp
+Blacklight
+Bubble light
+Christmas lights
+Crackle tube
+DJ lighting
+Electroluminescent wire
+Lava lamp
+Marquee
+Plasma globe
+Strobe light
+TheatricalCinematic
+Floodlight
+Footlight
+Gobo
+Scoop
+Spotlight
+ellipsoidal reflector
+Stage lighting instrument
+IndustrialScientific
+Germicidal
+Grow light
+Infrared lamp
+Stroboscope
+Tanning
+Related topics
+Battlefield illumination
+Bioluminescence
+Laser
+Light art
+Luminous gemstones
+Signal lamp
+Sources
+Reflected
+vteThomas EdisonDiscoveriesand inventions
+List of Edison patents
+Carbon microphone
+Edison's Phonograph Doll
+Edison screw
+Etheric force
+Kinetoscope
+Phonograph
+Phonomotor
+Quadruplex telegraph
+Tasimeter
+Advancements
+Consolidated Edison
+Edison–Lalande cell
+Fluoroscopy
+Incandescent light bulb
+Movie camera
+Nickel–iron battery
+Thermionic emission
+Ticker tape
+Ventures
+Thomas A. Edison, Inc.
+Edison and Swan Electric Light Company
+Edison Gower-Bell Telephone Company of Europe
+Edison Illuminating Company
+Edison Machine Works
+Edison Manufacturing Company
+Edison Ore-Milling Company
+Edison Portland Cement Company
+Edison Records
+Edison Storage Battery Company
+Edison Studios
+General Electric
+Motion Picture Patents Company
+Mine Safety Appliances
+Oriental Telephone Company
+Monuments
+Birthplace
+Black Maria
+Depot Museum
+Memorial Tower and Museum
+National Historical Park
+Storage Battery Company Building
+General Electric Research Laboratory
+Winter Estates
+Family
+Charles Edison (son)
+Theodore Miller Edison (son)
+Films
+Young Tom Edison (1940)
+Edison, the Man (1940)
+"The Wizard of Evergreen Terrace" (1998)
+The Current War (2017)
+Tesla (2020)
+Literature
+The Future Eve (1886)
+Edison's Conquest of Mars (1898)
+Tales from the Bully Pulpit (2004)
+Productions
+The Execution of Mary, Queen of Scots (1895)
+The Kiss (1896)
+Frankenstein (1910)
+A Night of Terror (1911)
+Kidnapped (1917)
+Terms
+Edisonade
+Edisonian approach
+Related
+List of things named after Thomas Edison
+Thomas Edison in popular culture
+War of the currents
+Pearl Street Station
+Edison Museum
+Thomas Edison House
+Edison Award
+Edison Awards
+Edison Hotel
+Edison Medal
+Telephonoscope
+Statue of Thomas Edison
+Thomas Alva Edison silver dollar
+vteTechnology and related conceptsMajor technologiesNecessities
+Agriculture
+Domestication
+Grafting
+Working animal
+Clothing
+Sewing machine
+Cooking
+Beer
+Bread
+Cheese
+Milling
+Wine
+Food storage
+Pottery
+Sanitation
+Plumbing
+Toilet
+Tool / Equipment
+Blade
+Hammer
+Plough
+Wedge
+Weapon
+Gun
+Social
+Accounting
+Calculation
+Abacus
+Calendar
+Cryptography
+Lock and key
+Money
+Banknote
+Coin
+Musical instrument
+Phonograph
+Toy
+Game
+Video game
+Writing
+Book
+Map
+Printing press
+Typewriter
+Construction
+Aqueduct
+Canal
+Irrigation
+Arch
+Bridge
+Building
+Fortification
+Foundation
+Scaffolding
+Tower
+Dam
+Caisson
+Stonemasonry
+Road
+Tunnel
+Transport
+Aircraft
+Aerostat
+Airplane
+Seaplane
+Compass
+Elevator
+Horseback riding
+Stirrup
+Jet engine
+Rocket
+Motor vehicle
+Railroad
+Train
+Scuba set
+Spacecraft
+Satellite
+Space station
+Space suit
+Watercraft
+Sailing
+Ship
+Submarine
+Manufacturing
+3D printing
+Carpentry
+Casting
+Injection moulding
+Lost-wax casting
+Mass production
+Assembly line
+Interchangeable parts
+Machine tool
+Welding
+Simple machine
+Axle
+Bearing
+Ball bearing
+Belt
+Chain
+Lever
+Catapult
+Crane
+Shadoof
+Linkage
+Cam
+Clutch
+Four-bar linkage
+Piston
+Rack and pinion
+Pendulum
+Screw
+Archimedes' screw
+Propeller
+Spring
+Valve
+Wheel
+Block and tackle
+Flywheel
+Gear
+Potter's wheel
+Pulley
+Wing
+Machinery
+Agricultural machinery
+Appliance
+Dishwasher
+Washing machine
+Engine
+Electric motor
+Internal combustion
+Turbine
+Waterwheel
+Windmill
+Heavy equipment
+Hydraulics
+Cylinder
+Manifold
+Pump
+Mechanism
+Clock
+Differential
+Epicyclic gearing
+Gimbal
+Gyroscope
+Whippletree
+MEMS
+Pneumatics
+Compressor
+Jackhammer
+Rivet gun
+Vacuum pump
+Robotics
+Arm
+Leg
+Energy
+Fire
+Charcoal
+Oven
+Energy storage
+Battery
+Geothermal power
+Heat exchanger
+Heat pump
+Nuclear
+Power
+Weapon
+Oil drilling
+Fracking
+Refrigeration
+Air conditioning
+Refrigerator
+Solar power
+Photovoltaics
+Material
+Cement
+Concrete
+Ceramic
+Brick
+Chipped stone
+Glass
+Masonry
+Metallurgy
+Aluminum
+Bronze
+Ironworking
+Steel
+Nanomaterials
+Paper
+Plastic
+Rammed earth
+Recycling
+Rubber
+Vulcanization
+Textile
+Loom
+Spinning wheel
+Biotechnology
+Birth control
+Blood transfusion
+Dentistry
+Genetic engineering
+CRISPR gene editing
+Genetic testing
+PCR
+Hospital
+Medical imaging
+Medication
+Anesthesia
+Antibiotic
+Prosthesis
+Surgery
+Vaccine
+Chemical
+Cosmetics
+Detergent
+Soap
+Dye
+Explosive
+Dynamite
+Fireworks
+Gunpowder
+TNT
+Fertilizer
+Haber process
+Laboratory glassware
+Pesticide
+Pigment
+Separation
+Chromatography
+Distillation
+Filtration
+Spectrometer
+Synthesis
+Electromagnetism
+Display device
+Electromagnet
+Laser
+Optical disc
+Lens
+Eyeglasses
+Magnetic storage
+Microwave oven
+Mirror
+Optical fiber
+Optical instrument
+Microscope
+Telescope
+Particle accelerator
+Photography
+Camera
+Motion picture
+Radar
+Telecommunications
+Mobile phone
+Radio
+Telegraph
+Telephone
+Television
+Electricity
+Circuit
+AC
+Circuit breaker
+DC
+Electrical grid
+Fuse
+Generator
+Switch
+Transformer
+Electric light
+Fluorescent
+Incandescent
+LED
+Neon
+Electronics
+Capacitor
+Circuit board
+Resistor
+Inductor
+Vacuum tube
+Lightning rod
+Multimeter
+Oscilloscope
+Semiconductor
+Diode
+Integrated circuit
+Transistor
+Superconductor
+Computer
+Artificial intelligence
+Hardware
+CPU
+GPU
+Modem
+Motherboard
+Mouse
+RAM
+Router
+Storage
+Touchscreen
+Networking
+Client–server model
+Email
+Internet
+Peer-to-peer
+Social media
+World Wide Web
+Programming language
+Software
+Compiler
+Database
+GUI
+Graphics software
+Operating system
+Spreadsheet
+Web browser
+Word processor
+PerspectivesCriticism
+Appropriate technology
+Low technology
+Luddite
+Neo-Luddism
+Precautionary principle
+Ecotechnology
+Environmental technology
+Clean technology
+Sustainable design
+Sustainable engineering
+Policy & politics
+Government by algorithm
+Intellectual property
+Patent
+Trade secret
+Persuasive technology
+Science policy
+Strategy of Technology
+Technology assessment
+Technorealism
+Progressivism
+Technological utopianism
+Technocracy movement
+Technological singularity
+Transhumanism
+Studies
+Diffusion of innovations
+Technology transfer
+Futures studies
+Technology forecasting
+History
+Timeline of historic inventions
+Philosophy
+Social construction of technology
+Technological determinism
+Technology acceptance model
+Related conceptsApplied science
+Agronomy
+Architecture
+Construction
+Engineering
+Fishery
+Forensics
+Forestry
+Logistics
+Medicine
+Mining
+Navigation
+Surveying
+Innovation
+Design
+High tech
+Invention
+Mature technology
+Research and development
+Technological convergence
+Technology lifecycle
+ Category
+ Outline
+ Portal
+Authority control databases InternationalGNDFASTNationalIncandescent lamps</span>"}]]}'>United StatesLampes à incandescence</span>"}]]}'>FranceLampes à incandescence</span>"}]]}'>BnF dataJapanžárovky</span>"}]]}'>Czech RepublicIsraelOtherYale LUX
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Incandescent_light_bulb&oldid=1381361983"
+					Categories: Incandescent light bulbs1878 introductions19th-century inventionsDiscovery and invention controversiesEnglish inventionsThomas EdisonHidden categories: Articles with short descriptionShort description matches WikidataUse dmy dates from July 2022Use American English from July 2018All Wikipedia articles written in American EnglishAll articles lacking reliable referencesArticles lacking reliable references from November 2024CS1 errors: ISBN dateArticles lacking reliable references from September 2021All articles containing circular referencesAll articles with dead external linksArticles with dead external links from February 2022CS1 German-language sources (de)All articles with unsourced statementsArticles with unsourced statements from January 2021All articles needing additional referencesArticles needing additional references from April 2026CS1 Hungarian-language sources (hu)Pages with non-numeric formatnum argumentsCS1: unfit URLCS1 uses Japanese-language script (ja)CS1 Japanese-language sources (ja)Articles with unsourced statements from April 2026Commons category link is on WikidataWebarchive template wayback linksArticles containing video clips
+	 This page was last edited on 21 October 2026, at 22:30 (UTC).
+	Page was rendered with Parsoid.
+	Text is available under the Creative Commons Attribution-ShareAlike 4.0 License;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+	Privacy policy
+	About Wikipedia
+	Disclaimers
+	Contact Wikipedia
+	Legal & safety contacts
+	Code of Conduct
+	Developers
+	Statistics
+	Cookie statement
+	Mobile view
+Search
+						Search
+Toggle the table of contents
+				Incandescent light bulb
+100 languages
+Add topic

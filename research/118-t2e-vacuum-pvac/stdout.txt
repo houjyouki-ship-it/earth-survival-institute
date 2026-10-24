@@ -1,0 +1,80 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+check_117 0.0 0.0 p_prec_117main 0.456
+Pt_mg_per_lamp(2x1cm) 42.6 Hg_kg_small_pump 4.06
+p_vac vac1_117main 1.0 p_eff 0.456
+p_vac main 0.5696 p_eff 0.2597
+p_vac Hg0.2 0.44 p_eff 0.2006
+p_vac Hg0.8 0.6993 p_eff 0.3188
+p_vac Hg0_mech_only 0.3536 p_eff 0.1612
+p_vac mech0.8_cond 0.6757 p_eff 0.3081
+p_vac glass0.5 0.3165 p_eff 0.1443
+p_vac all_low 0.1159 p_eff 0.0529
+p_vac all_high 0.9081 p_eff 0.4141
+p_vac mc_q10 0.4051 p_eff 0.1847
+p_vac mc_q90 0.7292 p_eff 0.3325
+mc {'q10': 0.4050764070470079, 'q50': 0.5729779949389708, 'q90': 0.7292424745177014, 'mean': 0.5696176374941049, 'beta_strength': 10}
+slow_Tasmania|vac1_117main F_heavy 1.6821
+trigger_mix|vac1_117main F_heavy 1.1553
+fast_state|vac1_117main F_heavy 1.02
+slow_Tasmania|main F_heavy 1.4283
+trigger_mix|main F_heavy 1.1028
+fast_state|main F_heavy 1.0151
+slow_Tasmania|Hg0.2 F_heavy 1.3557
+trigger_mix|Hg0.2 F_heavy 1.0811
+fast_state|Hg0.2 F_heavy 1.0135
+slow_Tasmania|Hg0.8 F_heavy 1.5006
+trigger_mix|Hg0.8 F_heavy 1.1115
+fast_state|Hg0.8 F_heavy 1.0151
+slow_Tasmania|Hg0_mech_only F_heavy 1.2962
+trigger_mix|Hg0_mech_only F_heavy 1.0651
+fast_state|Hg0_mech_only F_heavy 1.0131
+slow_Tasmania|mech0.8_cond F_heavy 1.4923
+trigger_mix|mech0.8_cond F_heavy 1.1113
+fast_state|mech0.8_cond F_heavy 1.0175
+slow_Tasmania|glass0.5 F_heavy 1.2677
+trigger_mix|glass0.5 F_heavy 1.0652
+fast_state|glass0.5 F_heavy 1.0119
+slow_Tasmania|all_low F_heavy 1.1535
+trigger_mix|all_low F_heavy 1.0363
+fast_state|all_low F_heavy 1.0099
+slow_Tasmania|all_high F_heavy 1.6451
+trigger_mix|all_high F_heavy 1.1507
+fast_state|all_high F_heavy 1.019
+slow_Tasmania|mc_q10 F_heavy 1.329
+trigger_mix|mc_q10 F_heavy 1.0742
+fast_state|mc_q10 F_heavy 1.0145
+slow_Tasmania|mc_q90 F_heavy 1.5299
+trigger_mix|mc_q90 F_heavy 1.1223
+fast_state|mc_q90 F_heavy 1.0164
+sweep slow_Tasmania|0.1 1.1333
+sweep trigger_mix|0.1 1.0355
+sweep slow_Tasmania|0.2 1.2008
+sweep trigger_mix|0.2 1.0453
+sweep slow_Tasmania|0.3 1.2574
+sweep trigger_mix|0.3 1.0605
+sweep slow_Tasmania|0.4 1.3285
+sweep trigger_mix|0.4 1.077
+sweep slow_Tasmania|0.5 1.3955
+sweep trigger_mix|0.5 1.0893
+sweep slow_Tasmania|0.6 1.4457
+sweep trigger_mix|0.6 1.1001
+sweep slow_Tasmania|0.7 1.5122
+sweep trigger_mix|0.7 1.1153
+sweep slow_Tasmania|0.8 1.5649
+sweep trigger_mix|0.8 1.1264
+sweep slow_Tasmania|0.9 1.6312
+sweep trigger_mix|0.9 1.1445
+sweep slow_Tasmania|1.0 1.7046
+sweep trigger_mix|1.0 1.1569
+crossing {'slow_1.5': 0.6816175706574088, 'slow_1.1': None, 'mix_1.1': 0.599371592366356}
+H130a confirmatory True Sprengel/Geissler：ガラス管・水銀・ゴム。前段の機械のポンプは 'do not require to be of any very special construction'（Ram 
+H130b confirmatory True 1881 年 6 月に 1 灯 5 時間（Howell & Schroeder 1927）、改良後 30 分
+H130c confirmatory True 'Platinum wire is always used ... coefficient of expansion nearly the same as that of the glass'（Ram
+H130d confirmatory True Malignani 1896：機械のポンプ（約 1 mm）＋燐の蒸気、水銀のポンプなし。Novak 灯の臭素 1.5 mm（1894 以前）
+H130e prediction True {'p_vac': 0.5696325, 'F_heavy_slow': 1.4282656600017478}
+H130f descriptive None 部品の要件の表
+runtime 263.3
+EXIT 0

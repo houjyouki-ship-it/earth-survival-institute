@@ -1,0 +1,394 @@
+Exhaust emission control device
+A three-way catalytic converter on a gasoline-powered 1996 Dodge Ram
+Simulation of flow inside a catalytic converter
+A catalytic converter is an exhaust emission control device which converts toxic gases and pollutants in exhaust gas from an internal combustion engine into less-toxic pollutants by catalyzing a redox reaction. Catalytic converters are usually used with internal combustion engines fueled by gasoline (petrol), including lean-burn engines, and sometimes on kerosene heaters and stoves.
+The first widespread introduction of catalytic converters was in the United States automobile market. To comply with the US Environmental Protection Agency's stricter regulation of exhaust emissions, most gasoline-powered vehicles starting with the 1975 model year are equipped with catalytic converters.[1][2][3] These "two-way" oxidation converters combine oxygen with carbon monoxide (CO) and unburned hydrocarbons (HC) to produce carbon dioxide (CO2) and water (H2O). 
+"Three-way" converters, which also reduce oxides of nitrogen (NOx), were first commercialized by Volvo on the California-specification 1977 240 cars.[4] When U.S. federal emission control regulations began requiring tight control of NOx for the 1981 model year, almost all automakers met the tighter standards with three-way catalytic converters and associated engine control systems.[5] Oxidation-only two-way converters are still used on lean-burn engines[citation needed] to oxidize particulate matter and hydrocarbon emissions (including diesel engines, which typically use lean combustion), as three-way-converters require fuel-rich or stoichiometric combustion to successfully reduce NOx.
+Although catalytic converters are most commonly applied to exhaust systems in automobiles, they are also used on electrical generators, forklifts, mining equipment, trucks, buses, locomotives, motorcycles, and on ships. Rarely, devices similar to catalytic converters are used in appliances such as wood stoves to control emissions.[6]
+History[edit]
+Catalytic converter prototypes were first designed in France at the end of the 19th century, when only a few thousand "oil cars" were on the roads; these prototypes had inert clay-based materials coated with platinum, rhodium, and palladium and sealed into a double metallic cylinder.[7] A few decades later, a catalytic converter was patented by Eugene Houdry, a French mechanical engineer. Houdry was an expert in catalytic oil refining, having invented the catalytic cracking process that all modern refining is based on today.[8] Houdry moved to the United States in 1930 to live near the refineries in Philadelphia and develop his catalytic refining process. 
+When the results of early studies of smog in Los Angeles were published, Houdry became concerned about the role of smokestack exhaust and automobile exhaust in air pollution and founded a company called Oxy-Catalyst. Houdry first developed catalytic converters for smokestacks, and later developed catalytic converters for warehouse forklifts running on unleaded gasoline.[9] In the mid-1950s, he began research to develop catalytic converters for gasoline engines used on cars and was awarded United States Patent 2,742,437 for his work.[10]
+Catalytic converters were further developed by a series of engineers including Carl D. Keith, John J. Mooney, Antonio Eleazar, and Phillip Messina at Engelhard Corporation,[11] creating the first production catalytic converter in 1973.[12]
+The first widespread introduction of catalytic converters was in the United States automobile market. To comply with the U.S. Environmental Protection Agency's new exhaust emissions regulations, most gasoline-powered vehicles manufactured from 1975 onwards are equipped with catalytic converters. Early catalytic converters were "two-way", combining oxygen with carbon monoxide (CO) and unburned hydrocarbons (HC, chemical compounds in fuel of the form CmHn) to produce carbon dioxide (CO2) and water (H2O).[5][1][2][3] These stringent emission control regulations also resulted in the removal of the antiknock agent tetraethyl lead from automotive gasoline, to reduce lead in the air. Lead and its compounds are catalyst poisons and foul catalytic converters by coating the catalyst's surface. Requiring the removal of lead allowed the use of catalytic converters to meet the other emission standards in the regulations.[13] 
+To lower harmful NOx emissions, a twin-catalyst system was developed in the 1970s – this added a separate (rhodium/platinum) catalyst which reduced NOx ahead of the air pump, after which a two-way catalytic converter (palladium/platinum) removed HC and CO.[14] This cumbersome and expensive system was soon made redundant, after it was noted that under some conditions the initial catalyst also removed HC and CO. This led to the development of the three-way catalyst, made possible by electronics and engine management developments.[14]
+William C. Pfefferle developed a catalytic combustor for gas turbines in the early 1970s, allowing combustion without significant formation of nitrogen oxides and carbon monoxide.[15][16] Four-way catalytic converters have also been developed which also remove particulates from engine exhaust; since most of these particulates are unburned hydrocarbons, they can be burned to convert them into carbon dioxide.[17][18]
+Construction[edit]
+Cutaway of a metal-core converter
+Ceramic-core converter
+The catalytic converter's construction is as follows:
+The catalyst support or substrate. For automotive catalytic converters, the core is usually a ceramic monolith that has a honeycomb structure (commonly square, not hexagonal). (Prior to the mid 1980s, the catalyst material was deposited on a packed bed of alumina pellets in early GM applications.) Metallic foil monoliths made of Kanthal (FeCrAl)[19] are used in applications where particularly high heat resistance is required.[19] The substrate is structured to produce a large surface area. The cordierite ceramic substrate used in most catalytic converters was invented by Rodney Bagley, Irwin Lachman, and Ronald Lewis at Corning Glass, for which they were inducted into the National Inventors Hall of Fame in 2002.[5]
+The washcoat. A washcoat is a carrier for the catalytic materials and is used to disperse the materials over a large surface area. Aluminum oxide, titanium dioxide, silicon dioxide e.g. colloidal silica or a mixture of silica and alumina can be used. The catalytic materials are suspended in the washcoat prior to applying to the core. Washcoat materials are selected to form a rough, irregular surface, which increases the surface area compared to the smooth surface of the bare substrate.[20]
+Ceria or ceria-zirconia. These oxides are mainly added as oxygen storage promoters.[21]
+The catalyst itself is most often a mix of precious metals, mostly from the platinum group. Platinum is the most active catalyst and is widely used, but is not suitable for all applications because of unwanted additional reactions and historically high cost. Palladium and rhodium are two other precious metals used, though as of February 2023, platinum has become the least expensive of the platinum group metals. Rhodium is used as a reduction catalyst, palladium is used as an oxidation catalyst, and platinum is used both for reduction and oxidation. Cerium, iron, manganese, and nickel are also used,[according to whom?] although each has limitations[vague]. Copper can also be used[according to whom?] in most countries.[citation needed] Nickel is not legal for use in the European Union[citation needed] because of its reaction with carbon monoxide into toxic nickel tetracarbonyl.[citation needed]
+Upon failure, a catalytic converter can be recycled rather than being scrapped. The precious metals inside the converter – the platinum, palladium, and rhodium – are extracted.
+Placement of catalytic converters[edit]
+Catalytic converters require a temperature of 400 °C (750 °F) to operate effectively. Therefore, they are placed as close to the engine as possible, or one or more smaller catalytic converters (known as "pre-cats"[citation needed]) are placed immediately after the exhaust manifold.
+Types[edit]
+ Two-way[edit]
+A 2-way (or "oxidation", sometimes called an "oxi-cat") catalytic converter has two simultaneous tasks:
+Oxidation of carbon monoxide to carbon dioxide: 2</sub> → 2CO<sub>2</sub>"}},"i":0}}]}'>2CO + O2 → 2CO2
+Oxidation of hydrocarbons (unburnt and partially burned fuel) to carbon dioxide and water: ''x''</sub>H<sub>2''x''+2</sub> + [(3''x''+1)/2]O<sub>2</sub> → ''x''CO<sub>2</sub> + (''x''+1)H<sub>2</sub>O"}},"i":0}}]}'>CxH2x+2 + [(3x+1)/2]O2 → xCO2 + (x+1)H2O (a combustion reaction)
+The two-way catalytic converter is widely used on diesel engines to reduce hydrocarbon and carbon monoxide emissions. They were also used on gasoline engines in American and Canadian automobile markets until 1981. Because of their inability to control oxides of nitrogen, manufacturers briefly installed twin catalyst systems, with an NOx reducing, rhodium/platinum catalyst ahead of the air pump, which led to the development of the three-way catalytic converter.[14] The two-way catalytic converter also continued to be used on certain, lower-cost cars in some markets such as Europe, where NOx emissions were not universally regulated until the introduction of the Euro 3 emissions standard in 2000.[22]
+ Three-way[edit]
+The three-way catalytic converters have the additional advantage of controlling the emission of nitric oxide (NO) and nitrogen dioxide (NO2) (both together abbreviated with NOx and not to be confused with nitrous oxide (N2O)). NOx are precursors to acid rain and smog.[23]
+Since 1981, the three-way (oxidation-reduction) catalytic converters have been used in vehicle emission control systems in the United States and Canada; many other countries have also adopted stringent vehicle emission regulations which in effect require three-way converters on gasoline-powered vehicles. The reduction and oxidation catalysts are typically contained in a common housing; however, in some instances, they may be housed separately. A three-way catalytic converter does three simultaneous tasks:[23]
+Reduction of nitrogen oxides to nitrogen (N2)
+          C
+        +
+        2
+            NO
+            2
+        →
+            CO
+            2
+        +
+        2
+          NO
+    {\displaystyle {\text{C}}+2{\text{NO}}_{2}\,\rightarrow \,{\text{CO}}_{2}+2{\text{NO}}}
+          CO
+        +
+          NO
+        →
+            CO
+            2
+        +
+            1
+            2
+            N
+            2
+    {\displaystyle {\text{CO}}+{\text{NO}}\,\rightarrow \,{\text{CO}}_{2}+{\frac {1}{2}}{\text{N}}_{2}}
+        2
+          CO
+        +
+            NO
+            2
+        →
+        2
+            CO
+            2
+        +
+            1
+            2
+            N
+            2
+    {\displaystyle 2{\text{CO}}+{\text{NO}}_{2}\,\rightarrow \,2{\text{CO}}_{2}+{\frac {1}{2}}{\text{N}}_{2}}
+            H
+            2
+        +
+          NO
+        →
+            H
+            2
+          O
+        +
+            1
+            2
+            N
+            2
+    {\displaystyle {\text{H}}_{2}+{\text{NO}}\,\rightarrow \,{\text{H}}_{2}{\text{O}}+{\frac {1}{2}}{\text{N}}_{2}}
+Oxidation of carbon, hydrocarbons, and carbon monoxide to carbon dioxide
+          C
+        +
+            O
+            2
+        →
+            CO
+            2
+    {\displaystyle {\text{C}}+{\text{O}}_{2}\,\rightarrow \,{\text{CO}}_{2}}
+          CO
+        +
+            1
+            2
+            O
+            2
+        →
+            CO
+            2
+    {\displaystyle {\text{CO}}+{\frac {1}{2}}{\text{O}}_{2}\,\rightarrow \,{\text{CO}}_{2}}
+        a
+            C
+            x
+            H
+            y
+        +
+        b
+            O
+            2
+        →
+        c
+            CO
+            2
+        +
+        d
+            H
+            2
+          O
+        a
+        ,
+        b
+        ,
+        c
+        ,
+        d
+        ,
+        x
+        ,
+        y
+        ∈
+          Z
+    {\displaystyle a\,{\text{C}}_{x}{\text{H}}_{y}+b\,{\text{O}}_{2}\,\rightarrow \,c\,{\text{CO}}_{2}+d\,{\text{H}}_{2}{\text{O}}\qquad a,\,b,\,c,\,d,\,x,\,y\in \mathbb {Z} }
+These three reactions occur most efficiently when the engine runs within a narrow band of air-fuel ratios near the stoichiometric point.[24] Total conversion efficiency falls very rapidly when the engine is operated outside of this band. Slightly lean of stoichiometric, the exhaust gases from the engine contain excess oxygen, the production of NOx by the engine increases, and the efficiency of the catalyst at reducing NOx falls off rapidly. However, the conversion of HC and CO is very efficient due to the available oxygen, oxidizing to H2O and CO2. Slightly rich of stoichiometric, the production of CO and unburnt HC by the engine starts to increase dramatically, available oxygen decreases, and the efficiency of the catalyst for oxidizing CO and HC decreases significantly, especially as stored oxygen becomes depleted. However, the efficiency of the catalyst at reducing NOx is good, and the production of NOx by the engine decreases. 
+To maintain catalyst efficiency, the air–fuel ratio must stay close to stoichiometric and not remain rich or lean for too long. Therefore, engines fitted with regulated 3-way catalytic converters have a closed-loop feedback carburetor or fuel injection engine control system to manage a continuous rich-lean balance required for effective NOx reduction and HC+CO oxidation. The control system allows the catalyst to release oxygen during slightly rich operating conditions, which oxidizes CO and HC under conditions that also favor the reduction of NOx. Before the stored oxygen is depleted, the control system shifts the air-fuel ratio to become slightly lean, improving HC and CO oxidation while storing additional oxygen in the catalyst material, at a small penalty in NOx reduction efficiency. Then the air–fuel mixture is brought back to slightly rich, at a small penalty in CO and HC oxidation efficiency, and the cycle repeats. Efficiency is improved when this oscillation around the stoichiometric point is small and carefully controlled.[25]
+Closed-loop control under light to moderate load is accomplished by using one or more oxygen sensors in the exhaust system. When oxygen is detected by the sensor, the air-fuel ratio is lean of stoichiometric, and when oxygen is not detected, it is rich. The control system adjusts the amount of fuel being fed to the engine based on this signal to keep the air-fuel ratio near the stoichiometric point in order to maximize the catalyst conversion efficiency. The control algorithm is also affected by the time delay between the adjustment of the fuel flow rate and the sensing of the changed air–fuel ratio by the sensor, as well as the sigmoidal response of the oxygen sensors. Typical control systems are designed to rapidly sweep the air–fuel ratio such that it oscillates slightly around the stoichiometric point, staying near the optimal efficiency point while managing the levels of stored oxygen and unburnt HC.[24]
+Closed-loop control is often suspended during high load/maximum power operation, when an increase in emissions is permitted and a rich mixture is commanded to increase power and prevent exhaust gas temperature from exceeding design limits. This presents a challenge for control system and catalyst design. During such operations, large amounts of unburnt HC are produced by the engine, well beyond the capacity of the catalyst to release oxygen. The surface of the catalyst quickly becomes saturated with HC. When returning to lower power output and leaner air-fuel ratios, the control system must prevent excessive oxygen from reaching the catalyst too quickly, as this will rapidly burn the HC in the already hot catalyst, potentially exceeding the design temperature limit of the catalyst. Excessive catalyst temperature can prematurely age the catalyst, reducing its efficiency before reaching its design lifetime. Excessive catalyst temperature can also be caused by cylinder misfire, which continuously flows unburnt HC combined with oxygen to the hot catalyst, burning in the catalyst and increasing its temperature.[26]
+Unwanted reactions[edit]
+Unwanted reactions result in the formation of hydrogen sulfide and ammonia, which poison catalysts. Nickel or manganese is sometimes added to the washcoat to limit hydrogen-sulfide emissions.[citation needed] Sulfur-free or low-sulfur fuels eliminate or minimize problems with hydrogen sulfide.
+Diesel engines[edit]
+For compression-ignition (i.e., diesel) engines, the most commonly used catalytic converter is the diesel oxidation catalyst (DOC). DOCs contain palladium or platinum supported on alumina. This catalyst converts particulate matter (PM), hydrocarbons, and carbon monoxide to carbon dioxide and water. These converters often operate at 90 percent efficiency, virtually eliminating diesel odor and helping reduce visible particulates. These catalysts are ineffective for NOx, so NOx emissions from diesel engines are controlled by exhaust gas recirculation (EGR).
+In 2010, most light-duty diesel manufacturers in the U.S. added catalytic systems to their vehicles to meet federal emissions requirements. Two techniques have been developed for the catalytic reduction of NOx emissions under lean exhaust conditions, selective catalytic reduction (SCR) and the NOx adsorber.
+Instead of precious metal-containing NOx absorbers, most manufacturers selected base-metal SCR systems that use a reagent such as ammonia to reduce the NOx into nitrogen and water.[27] Ammonia is supplied to the catalyst system by the injection of urea into the exhaust, which then undergoes thermal decomposition and hydrolysis into ammonia. The urea solution is also referred to as diesel exhaust fluid (DEF).
+Diesel exhaust contains relatively high levels of particulate matter. Catalytic converters remove only 20–40% of PM so particulates are cleaned up by a soot trap or diesel particulate filter (DPF). In the U.S., all on-road light, medium, and heavy-duty diesel-powered vehicles built after 1 January 2007, are subject to diesel particulate emission limits, and so are equipped with a 2-way catalytic converter and a diesel particulate filter.[citation needed] As long as the engine was manufactured before 1 January 2007, the vehicle is not required to have the DPF system.[citation needed] This led to an inventory runup by engine manufacturers in late 2006 so they could continue selling pre-DPF vehicles well into 2007.[28]
+Lean-burn spark-ignition engines[edit]
+For lean-burn spark-ignition engines, an oxidation catalyst is used in the same manner as in a diesel engine. Emissions from lean burn spark ignition engines are very similar to emissions from a diesel compression ignition engine.
+Installation[edit]
+Many vehicles have a close-coupled catalytic converter located near the engine's exhaust manifold. The converter heats up quickly, due to its exposure to the very hot exhaust gases, allowing it to reduce undesirable emissions during the engine warm-up period. This is achieved by burning off the excess hydrocarbons which result from the extra-rich mixture required for a cold start.
+When catalytic converters were first introduced, most vehicles used carburetors that provided a relatively rich air-fuel ratio. Oxygen (O2) levels in the exhaust stream were therefore generally insufficient for the catalytic reaction to occur efficiently. Most designs of the time therefore included secondary air injection, which injected air into the exhaust stream. This increased the available oxygen, allowing the catalyst to function as intended.
+Some three-way catalytic converter systems have air injection systems with the air injected between the first (NOx reduction) and second (HC and CO oxidation) stages of the converter. As in two-way converters, this injected air provides oxygen for the oxidation reactions. An upstream air injection point, ahead of the catalytic converter, is also sometimes present to provide additional oxygen only during the engine warm up period. This causes unburned fuel to ignite in the exhaust tract, thereby preventing it reaching the catalytic converter at all. This technique reduces the engine runtime needed for the catalytic converter to reach its "light-off" or operating temperature.
+Most newer vehicles have electronic fuel injection systems, and do not require air injection systems in their exhausts. Instead, they provide a precisely controlled air-fuel mixture that quickly and continually cycles between lean and rich combustion. Oxygen sensors monitor the exhaust oxygen content before and after the catalytic converter, and the engine control unit uses this information to adjust the fuel injection so as to prevent the first (NOx reduction) catalyst from becoming oxygen-loaded, while simultaneously ensuring the second (HC and CO oxidation) catalyst is sufficiently oxygen-saturated.
+Damage[edit]
+Catalyst poisoning occurs when the catalytic converter is exposed to exhaust containing substances that coat the working surfaces, so that they cannot contact and react with the exhaust. The most notable contaminant is lead, so vehicles equipped with catalytic converters can run only on unleaded fuel. Other common catalyst poisons include sulfur, manganese (originating primarily from the gasoline additive MMT), and silicon, which can enter the exhaust stream if the engine has a leak that allows coolant into the combustion chamber. Phosphorus is another catalyst contaminant. Although phosphorus is no longer used in gasoline, it (and zinc, another low-level catalyst contaminant) was widely used in engine oil antiwear additives such as zinc dithiophosphate (ZDDP). Beginning in 2004, a limit of phosphorus concentration in engine oils was adopted in the API SM and ILSAC GF-4 specifications.
+Depending on the contaminant, catalyst poisoning can sometimes be reversed by running the engine under a very heavy load for an extended period of time.[citation needed] The increased exhaust temperature can sometimes vaporize or sublimate the contaminant, removing it from the catalytic surface.[citation needed] However, removal of lead deposits in this manner is usually not possible because of lead's high boiling point.[29]
+Any condition that causes abnormally high levels of unburned hydrocarbons (raw or partially burnt fuel or oils) to reach the converter will tend to significantly elevate its temperature bringing the risk of a meltdown of the substrate and resultant catalytic deactivation and severe exhaust restriction. These conditions include failure of the upstream components of the exhaust system (manifold or header assembly and associated clamps susceptible to rust, corrosion or fatigue such as the exhaust manifold splintering after repeated heat cycling), ignition system (e.g., coil packs, primary ignition components, distributor cap, wires, ignition coil and spark plugs) or damaged fuel system components (e.g., fuel injectors, fuel pressure regulator, and associated sensors). Oil and coolant leaks, perhaps caused by a head gasket leak, can also cause high unburned hydrocarbons.
+Regulations[edit]
+Emissions regulations vary considerably from jurisdiction to jurisdiction. Most automobile spark-ignition engines in North America have been fitted with catalytic converters since 1975,[5][1][2][3] and the technology used in non-automotive applications is generally based on automotive technology. In many jurisdictions, it is illegal to remove or disable a catalytic converter for any reason other than its direct and immediate replacement. Nevertheless, some vehicle owners remove or "gut" the catalytic converter on their vehicle.[30][31] In such cases, the converter may be replaced by a welded-in section of ordinary pipe or a flanged "test pipe", ostensibly meant to check if the converter is clogged by comparing how the engine runs with and without the converter. This facilitates temporary reinstallation of the converter in order to pass an emission test.[32]
+In the United States, it is a violation of Section 203(a)(3)(A) of the 1990 amended Clean Air Act for a vehicle repair shop to remove a converter from a vehicle, or cause a converter to be removed from a vehicle, except in order to replace it with another converter,[33] and Section 203(a)(3)(B) makes it illegal for any person to sell or to install any part that would bypass, defeat, or render inoperative any emission control system, device, or design element. Vehicles without functioning catalytic converters generally fail emission inspections. The automotive aftermarket supplies high-flow converters for vehicles with upgraded engines, or whose owners prefer an exhaust system with larger-than-stock capacity.[34]
+Catalytic converters have been mandatory on all new gasoline cars sold in the European Union and the United Kingdom since 1 January 1993 in order to comply with the Euro 1 emission standards.[35]
+Effect on exhaust flow[edit]
+Faulty catalytic converters as well as undamaged early types of converters can restrict the flow of exhaust, which negatively affects vehicle performance and fuel economy.[30] Modern catalytic converters do not significantly restrict exhaust flow. A 2006 test on a 1999 Honda Civic, for example, showed that removing the stock catalytic converter netted only a 3% increase in maximum horsepower; a new metallic core converter only cost the car 1% horsepower, compared to no converter.[32]
+Dangers[edit]
+Carburetors on pre-1981 vehicles without feedback fuel-air mixture control could easily provide too much fuel to the engine, which could cause the catalytic converter to overheat and potentially ignite flammable materials under the car.[36]
+Warm-up period[edit]
+Vehicles fitted with catalytic converters emit most of their total pollution during the first five minutes of engine operation; that is, before the catalytic converter has warmed up sufficiently to be fully effective.[37]
+In the early 2000s it became common to place the catalyst converter right next to the exhaust manifold, close to the engine, for much quicker warm-up.
+In 1995, Alpina introduced an electrically heated catalyst. Called "E-KAT", it was used in Alpina's B12 5,7 E-KAT based on the BMW 750i.[38] Heating coils inside the catalytic converter assemblies are electrified just after the engine is started, bringing the catalyst up to operating temperature very quickly to qualify the vehicle for low emission vehicle (LEV) designation.[39] BMW later introduced the same heated catalyst, developed jointly by Emitec, Alpina, and BMW,[38] in its 750i in 1999.[39]
+Some vehicles contain a pre-cat, a small catalytic converter upstream of the main catalytic converter which heats up faster on vehicle start up, reducing the emissions associated with cold starts. A pre-cat is most commonly used by an auto manufacturer when trying to attain the Ultra Low Emissions Vehicle (ULEV) rating, such as on the Toyota MR2 Roadster.[40]
+Environmental effect[edit]
+Catalytic converters have proven to be reliable and effective in reducing noxious tailpipe emissions. However, they also have some shortcomings in use, and also adverse environmental effects in production:
+An engine equipped with a three-way catalyst must run at the stoichiometric point, which means more fuel is consumed than in a lean-burn engine. This means approximately 10% more CO2 emissions from the vehicle.[citation needed]
+Catalytic converter production requires palladium or platinum; part of the world supply of these precious metals is produced near Norilsk, Russia, where the industry (among others) has caused Norilsk to be added to Time magazine's list of most-polluted places.[41][better source needed]
+The extreme heat of the converters themselves[42] can cause wildfires, especially in dry areas.[43][44][45]
+Theft[edit]
+See also: 2020–2022 catalytic converter theft ring
+Because of the external location and the use of valuable precious metals including platinum, palladium and rhodium, catalytic converters are a target for thieves. The problem is especially common among late-model pickup trucks and truck-based SUVs, because of their high ground clearance and easily removed bolt-on catalytic converters. Welded-on converters are also at risk of theft, as they can be easily cut off. Hybrid vehicles (most frequently the Toyota Prius) are considered high-value targets since catalytic converters need larger quantities of precious metals to work properly compared to conventional internal combustion vehicles because they do not get as hot as those installed on conventional vehicles, since the combustion engines run less often.[46][47][48]
+Pipecutters are often used to quietly remove the converter[49][50] but other tools such as a portable reciprocating saw can damage other components of the car, such as the oxygen sensor, wiring or fuel lines, with potentially dangerous consequences.
+In 2023, bipartisan legislation to combat catalytic converter theft was introduced in the U.S. Senate. The Preventing Auto Recycling Thefts Act (PART Act) would mandate catalytic converters in new vehicles to come with traceable identification numbers. Additionally, the legislation would make catalytic converter theft a federal criminal offense.[51]
+Statistics[edit]
+Rising metal prices in the U.S. during the 2000s commodities boom led to a significant increase in converter theft. A catalytic converter can cost more than $1,000 to replace, more if the vehicle is damaged during the theft.[52][53][54]  Apart from damaging other systems of the vehicle, theft can also cause death and injury to thieves.[55]
+Thefts of catalytic converters rose over tenfold in the United States from the late 2010s to early 2020s, driven presumably by the rise in the price of precious metals contained within the converters.[56] Study findings reveal an average price elasticity of 1.98, which means that a 10 percent increase in the price of metal leads to an approximate 20 percent increase in thefts.[57] According to the National Insurance Crime Bureau, there were 1,298 reported cases of catalytic converter theft in 2018, which increased to 14,433 in 2020.[58] In 2022, it was reported that the number of catalytic converter thefts in the United States sharply rose to 153,000 total thefts for the year.[57]
+From 2019 to 2020, thieves in the United Kingdom were targeting older-model hybrid cars (such as Toyota's hybrids) which have more precious metals than newer vehicles—sometimes worth more than the value of the car—leading to scarcity and long delays in replacing them.[59]
+In 2021 a trend emerged in the Democratic Republic of the Congo where catalytic converters were alleged to be stolen for use in illicit street drug production. The drug, a powder known as "bombé", was said to be a mixture of powdered pills/vitamins and pulverized honeycomb structures of catalytic converters.[60] In 2023, however, a study of various samples of the drug concluded that its alleged origin from catalytic exhausts was found to be unsubstantiated.[61]
+Diagnostics[edit]
+Various jurisdictions now require on-board diagnostics to monitor the function and condition of the emissions-control system, including the catalytic converter. Vehicles equipped with OBD-II diagnostic systems are designed to alert the driver to a misfire condition by means of illuminating the "check engine" light on the dashboard, or flashing it if the current misfire conditions are severe enough to potentially damage the catalytic converter.[62] On-board diagnostic systems take several forms.
+Temperature sensors are used for two purposes. The first is as a warning system, typically on two-way catalytic converters such as those used on LPG forklifts. The function of the sensor is to warn of catalytic converter temperature above the safe limit of 750 °C (1,380 °F). Modern catalytic-converter designs are not as susceptible to temperature damage and can withstand sustained temperatures of 900 °C (1,650 °F).[citation needed] Temperature sensors are also used to monitor catalyst functioning: usually two sensors will be fitted, with one before the catalyst and one after to monitor the temperature rise over the catalytic-converter core.[citation needed]
+The oxygen sensor is the basis of the closed-loop control system on a spark-ignited rich-burn engine; however, it is also used for diagnostics. In vehicles with OBD II, a second oxygen sensor is fitted after the catalytic converter to monitor the O2 levels. The O2 levels are monitored to see the efficiency of the burn process. The on-board computer makes comparisons between the readings of the two sensors. The readings are taken by voltage measurements. If both sensors show the same output or the rear O2 is "switching", the computer recognizes that the catalytic converter either is not functioning or has been removed, and will operate a malfunction indicator lamp and affect engine performance. Simple "oxygen sensor simulators" have been developed to circumvent this problem by simulating the change across the catalytic converter with plans and pre-assembled devices available on the Internet. Although these are not legal for on-road use, they have been used with mixed results.[63] Similar devices apply an offset to the sensor signals, allowing the engine to run a more fuel-economical lean burn that may, however, damage the engine or the catalytic converter.[64]
+NOx sensors are extremely expensive and are in general used only when a compression-ignition engine is fitted with a selective catalytic-reduction (SCR) converter, or a NOx absorber in a feedback system. When fitted to an SCR system, there may be one or two sensors. When one sensor is fitted it will be pre-catalyst; when two are fitted, the second one will be post-catalyst. They are used for the same reasons and in the same manner as an oxygen sensor; the only difference is the substance being monitored.[citation needed]
+See also[edit]
+Catalytic heater
+Cerium(III) oxide
+List of auto parts
+NOx adsorber
+Roadway air dispersion modeling
+References[edit]
+1 2 3 Petersen Publishing (1975). "The Catalytic Converter". In Erwin M. Rosen (ed.). The Petersen Automotive Troubleshooting & Repair Manual. New York, NY: Grosset & Dunlap. p. 493. ISBN 978-0-448-11946-5. For years, the exhaust system … remained virtually unchanged until 1975 when a strange new component was added. It's called a catalytic converter…
+1 2 3 "General Motors Believes it has an Answer to the Automotive Air Pollution Problem". The Blade: Toledo, Ohio. 12 September 1974. Retrieved 14 December 2011.
+1 2 3 "Catalytic Converter Heads Auto Fuel Economy Efforts". The Milwaukee Sentinel. 11 November 1974. Retrieved 14 December 2011.[permanent dead link]
+↑ Hartford, Bill (July 1977). "Driving the Lambda Sond Volvo". Popular Mechanics. Retrieved 8 April 2025.
+1 2 3 4 Palucka, Tim (Winter 2004). "Doing the Impossible". Invention & Technology. 19 (3). Archived from the original on 3 December 2008. Retrieved 14 December 2011.
+↑ "Choosing the Right Wood Stove". Burn Wise. US EPA. Retrieved 2 January 2012.
+↑ Castaignède, Laurent (2018). Airvore ou la face obscure des transports; chronique d'une pollution annoncée. Montréal (Québec): écosociété. pp. 109–110 and illustration p. 7. ISBN 9782897193591. OCLC 1030881466.
+↑ Csere, Csaba (January 1988). "10 Best Engineering Breakthroughs". Car and Driver. 33 (7): 63.
+↑ "Exhaust Gas Made Safe" Popular Mechanics, September 1951, p. 134, bottom of page
+↑ "His Smoke Eating Cats Now Attack Traffic Smog". Popular Science, June 1955, pp. 83-85/244.
+↑ Roberts, Sam (25 June 2020). "John J. Mooney, an Inventor of the Catalytic Converter, Dies at 90". The New York Times.
+↑ "Catalytic converter". intradefairs.com. Retrieved 3 May 2025.
+↑ "Eugene Houdry". Science History Institute. June 2016. Retrieved 27 October 2016.
+1 2 3 Twigg, Martyn V. (15 April 2005). "Controlling automotive exhaust emissions: successes and underlying science". Philosophical Transactions of the Royal Society A. 363 (1829): 1013–1033. Bibcode:2005RSPTA.363.1013T. doi:10.1098/rsta.2005.1547. PMID 15901550. S2CID 37283846.
+↑ Carter, Robert N.; Smith, Lance L.; Karim, Hasan; Castaldi, Marco; Etemad, Shah; Muench, George; Boorse, R. Samuel; Menacherry, Paul; Pfefferle, William C. (1998). "Catalytic Combustion Technology Development for Gas Turbine Engine Applications". MRS Proceedings. 549 93. doi:10.1557/PROC-549-93.
+↑ Worthy, Sharon. "Connecticut chemist receives award for cleaner air technology Archived 1 December 2017 at the Wayback Machine". Bio-Medicine. 23 June 2003. Retrieved 11 December 2012.
+↑ "BASF's new four-way conversion catalyst: TWC plus particulate filter". Green Car Congress. 10 December 2014. Retrieved 24 March 2025.
+↑ Millet, Claire-Noelle; Chédotal, Romain; Da Costa, Patrick (August 2009). "Synthetic gas bench study of a 4-way catalytic converter: Catalytic oxidation, NOx storage/reduction and impact of soot loading and regeneration". Applied Catalysis B: Environmental. 90 (3–4): 339–346. Bibcode:2009AppCB..90..339M. doi:10.1016/j.apcatb.2009.03.026.
+1 2 Pischinger, Univ.-Prof. Dr.-Ing. Stephan (2011). Verbrennungsmotoren Band 2 (24 ed.). Aachen, Germany: Lehrstuhl Für Verbrennungskraftmachinen. p. 335.
+↑ Votsmeier, Martin; Kreuzer, Thomas; Gieshoff, Jürgen; Lepperhoff, Gerhard (2009). "Automobile Exhaust Control". Ullmann's Encyclopedia of Industrial Chemistry. doi:10.1002/14356007.a03_189.pub2. ISBN 978-3-527-30385-4. S2CID 137166382.
+↑ Kašpar, J.; Fornasiero, P.; Graziani, M. (1999). "Use of CeO2-based oxides in the three-way catalysis". Catalysis Today. 50 (2): 285–298. doi:10.1016/S0920-5861(98)00510-0. ISSN 0920-5861.
+↑ Directive 98/69/EC of the European Parliament and of the Council of 13 October 1998 relating to measures to be taken against air pollution by emissions from motor vehicles and amending Council Directive 70/220/EEC
+1 2 Kaspar, Jan; Fornasiero, Paolo; Hickey, Neal (2003). "Automotive Catalytic Converters: Current Status and Some Perspectives". Catalysis Today. 77 (4): 419–449. doi:10.1016/S0920-5861(02)00384-X.
+1 2 "The three way catalytic converter". Archived from the original on 31 January 2022. Retrieved 31 January 2022.
+↑ Brandt, Erich; Wang, Yanying; Grizzle, Jessy (2000). "Dynamic Modeling of a Three Way Catalyst for SI Engine Exhaust Emission Control" (PDF). IEEE Transactions on Control Systems Technology. 8 (5): 767–776. Bibcode:2000ITCST...8..767B. doi:10.1109/87.865850.
+↑ Cooper, B. J. (October 1983). "Durability of Platinum-Containing Automotive Exhaust Control Catalysts: Improvements in Resistance to Thermal Degradation". Platinum Metals Review. 27 (4): 146–155. doi:10.1595/003214083X274146155. S2CID 36970773.
+↑ "Air Pollution Control Technology Fact Sheet (PDF, US Environmental Protection Agency)" (PDF).
+↑ "Heavy-Duty Engine and Vehicle Standards and Highway Diesel Fuel Sulfur Control Requirements" (PDF). 19 August 2015. Archived from the original (PDF) on 21 May 2008. (123 KB)
+↑ "Which cars are least likely to have catalytic converter stolen?". Auto Ride Of Reading. 15 July 2022.
+1 2 Crutsinger, Martin (29 September 1982). "Kits to Foil Auto Pollution Control Are Selling Well". The Gainesville Sun.
+↑ "Some of Us Can Only Afford a Clunker". The Palm Beach Post. 23 February 1996.
+1 2 "Beat the Law". Import Tuner. 1 October 2006. Archived from the original on 28 February 2014. Retrieved 9 January 2011.
+↑ Sale and Use of Aftermarket Catalytic Converters, US Environmental Protection Agency, US Federal Register Volume 51
+↑ Tanner, Keith. Mazda MX-5 Miata. p. 120.
+↑ "Euro emissions standards | AA". www.theaa.com. Retrieved 31 December 2022.
+↑ Ullman, Owen (14 June 1976). "Catalytic Converter Still Controversial after Two Years of Use". The Bulletin[clarification needed].
+↑ Catalytic converters, nsls.bnl.gov
+1 2 "Milestones". alpina-automobiles.com. Archived from the original on 30 June 2015. Retrieved 5 June 2015.
+1 2 Edgar, Julian (5 October 1999). "Goodbye 12 volts… hello 42 volts!". Autospeed. Archived from the original on 28 May 2012. Retrieved 2 January 2012. The current model BMW 750iL has a maximum electrical load of 428 amps (5.9 kW)! In this car, over half of the maximum load is from the short-term electrical heating of the catalytic converters
+↑ "Pre-cats - What You Should Know". Toyota Owners Club - Toyota Forum. 11 September 2007. Retrieved 15 April 2018.
+↑ Walsh, Bryan (12 September 2007). "Norilsk, Russia". The World's Most Polluted Places. Time. Archived from the original on 31 October 2007. Retrieved 7 January 2011.
+↑ "Here's how to avoid accidentally starting the next firestorm". pressenterprise.com. 6 September 2016.
+↑ "Catalytic converter-started fires are common". ocregister.com. 18 November 2008. Retrieved 15 April 2018.
+↑ "Catalytic converter blamed for causing SR-52 brush fire". fox5sandiego.com. 29 June 2017. Retrieved 15 April 2018.
+↑ "Crews have 400-acre Jennings Fire in Lakeside 100 percent contained - KUSI News - San Diego, CA". Archived from the original on 14 July 2017. Retrieved 14 July 2017.
+↑ "Catalytic converters make 2004-09 Toyota Prius unlikely theft target". IIHS. 18 November 2021. Retrieved 15 April 2023.
+↑ Medici, Joe (31 July 2007). "Underhanded thieves". Chroniclet.com. Archived from the original on 28 September 2007.
+↑ Murr, Andrew (9 January 2008). "An Exhausting New Crime — What Thieves Are Stealing from Today's Cars". Newsweek. Retrieved 7 January 2011.
+↑ "Catalytic converters are being stolen for valuable metals". RTÉ.ie. Raidió Teilifís Éireann. 11 December 2019.
+↑ "Cotati police bust catalytic converter theft suspects". 29 November 2019.
+↑ Pietrasz, Jake (2 February 2023). "Vance introduces legislation to address catalytic converter thefts". 13ABC. Retrieved 15 March 2023.
+↑ "Thieves Nationwide Are Slithering Under Cars, Swiping Catalytic Converters". The New York Times. 9 February 2021. Archived from the original on 28 December 2021.
+↑ Johnson, Alex (12 February 2008). "Stolen in 60 Seconds: The Treasure in Your Car — As Precious Metals Prices Soar, Catalytic Converters Are Targets for Thieves". NBC News. Retrieved 7 January 2011.
+↑ "Converters Taken by Car Lot Thieves". PoconoNews. 2 July 2009.
+↑ Razek, Raja (12 March 2023). "A man was crushed to death while allegedly attempting to steal a catalytic converter, police say". cnn.com. CNN. Retrieved 13 March 2023.
+↑ "WATCH: Catalytic converter thefts are skyrocketing. Here's why". PBS NewsHour. 12 August 2022. Retrieved 26 December 2022.
+1 2 Stickle, Ben; Rennhoff, Adam; Morris, Charles; Fritts, Samuel (2024). "Catalytic converter theft:An examination of the elasticity of crime". Crime Prevention and Community Safety. 26 (2): 139–156. doi:10.1057/s41300-024-00207-6. Retrieved 29 June 2024.
+↑ Pender, Caelyn (9 August 2022). "Why do people steal catalytic converters?". KRON4. Archived from the original on 15 March 2023. Retrieved 15 March 2023.
+↑ "Catalytic converter theft: hybrid car owners face insurance nightmare". the Guardian. 1 February 2020.
+↑ Nyemba, Benoit (27 September 2021). "Car-exhaust drug craze alarms Congo's capital". Reuters. Retrieved 8 October 2021.
+↑ Obadia, Paul; Kapia, Patrice; Bonneure, Arne; Duca, Radu-Corneliu; Creta, Matteo; Kayembe-Kitenge, Tony; Tytgat, Jan; Okitundu, Daniel; Nkulu, Célestin; Nemery, Benoit (2023). "Bombé, an undetermined substance that caused an outbreak of illicit drug use in Kinshasa, Democratic Republic of the Congo". Clinical Toxicology. 61 (12): 1055–1058. doi:10.1080/15563650.2023.2276040. PMID 38047882. S2CID 265607501. Retrieved 17 February 2024.
+↑ "Can A Catalytic Converter Cause A Misfire? - Carsneedcare". carsneedcare. 22 September 2022. Retrieved 17 March 2023.[dead link]
+↑ "Settlement Involves Illegal Emission Control 'Defeat Devices' Sold for Autos". 1 June 2007.
+↑ "Check Engine Lights Come on for a Reason". Concord Monitor. 12 January 2003.
+Further reading[edit]
+Keith, C. D., et al. U.S. patent 3,441,381: "Apparatus for purifying exhaust gases of an internal combustion engine". 29 April 1969
+Lachman, I. M. et al. U.S. patent 3,885,977: "Anisotropic Cordierite Monolith" (Ceramic substrate). 5 November 1973
+Charles H. Bailey. U.S. patent 4,094,645: "Combination muffler and catalytic converter having low backpressure". 13 June 1978
+Charles H. Bailey. U.S. patent 4,250,146: '"Caseless monolithic catalytic converter". 10 February 1981
+Srinivasan Gopalakrishnan. GB 2397782 : "Process And Synthesizer For Molecular Engineering of Materials". 13 March 2002.
+vteInternal combustion enginePart of the Automobile seriesEngine block and rotating assembly
+Balance shaft
+Block heater
+Bore
+Connecting rod
+Crankcase
+Crankcase ventilation system (PCV valve)
+Crankpin
+Crankshaft
+Core plug (freeze plug)
+Cylinder (bank, layout)
+Displacement
+Flywheel
+Firing order
+Stroke
+Main bearing
+Piston
+Piston ring
+Starter ring gear
+Wrist pin
+Valvetrain and Cylinder head
+Flathead layout
+Overhead camshaft layout
+Overhead valve (pushrod) layout
+Tappet / lifter
+Camshaft
+Chest
+Combustion chamber
+Compression ratio
+Head gasket
+Rocker arm
+Timing belt
+Valve
+Forced induction
+Blowoff valve
+Boost controller
+Intercooler
+Supercharger
+Turbocharger
+Fuel system
+Diesel engine
+Petrol engine
+Carburetor
+Fuel filter
+Fuel injection
+Fuel pump
+Fuel tank
+Ignition
+Magneto
+Compression ignition
+Coil-on-plug
+Distributor
+Glow plug
+Ignition coil
+Spark plug
+Spark plug wires
+Capacitor discharge ignition
+Engine management
+Engine control unit (ECU)
+Electrical system
+Alternator
+Battery
+Dynamo
+Starter motor
+Intake system
+Airbox
+Air filter
+Idle air control actuator
+Inlet manifold
+MAP sensor
+MAF sensor
+Throttle
+Throttle position sensor
+Exhaust system
+Catalytic converter
+Diesel particulate filter
+Gasoline particulate filter
+EGT sensor
+Exhaust manifold
+Muffler
+Oxygen sensor
+Cooling system
+Air cooling
+Water cooling
+Electric fan
+Radiator
+Thermostat
+Viscous fan (fan clutch)
+Lubrication
+Oil
+Oil filter
+Oil pump
+Sump (wet, dry)
+Other
+Knocking / pinging
+Power band
+Stratified charge
+Top dead centre
+Portal
+Category
+Authority control databases InternationalGNDNationalAutomobiles--Catalytic converters</span>"}]]}'>United Stateskatalyzátory výfukových plynů</span>"}]]}'>Czech RepublicIsraelOtherYale LUX
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Catalytic_converter&oldid=1380023844"
+					Categories: Air pollution control systemsFrench inventionsAutomotive technologiesCarbon monoxideCatalysisExhaust systemsNOx controlProducts introduced in 1975Hidden categories: Articles with short descriptionShort description is different from WikidataUse dmy dates from June 2025All articles with dead external linksArticles with dead external links from February 2022Articles with permanently dead external linksAll articles with unsourced statementsArticles with unsourced statements from April 2025Webarchive template wayback linksAll articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from October 2025All Wikipedia articles needing clarificationWikipedia articles needing clarification from October 2025Articles with unsourced statements from October 2025Articles with unsourced statements from October 2013Articles with unsourced statements from May 2021Wikipedia articles needing clarification from December 2010Articles with unsourced statements from August 2022All articles lacking reliable referencesArticles lacking reliable references from April 2025Articles with dead external links from January 2026Articles with unsourced statements from October 2007Articles with unsourced statements from July 2015
+	 This page was last edited on 13 October 2026, at 09:24 (UTC).
+	Page was rendered with Parsoid.
+	Text is available under the Creative Commons Attribution-ShareAlike 4.0 License;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+	Privacy policy
+	About Wikipedia
+	Disclaimers
+	Contact Wikipedia
+	Legal & safety contacts
+	Code of Conduct
+	Developers
+	Statistics
+	Cookie statement
+	Mobile view
+Search
+						Search
+Toggle the table of contents
+				Catalytic converter
+37 languages
+Add topic

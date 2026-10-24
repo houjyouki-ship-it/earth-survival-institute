@@ -1,0 +1,44 @@
+This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "Sprengel pump" – news · newspapers · books · scholar · JSTOR  (July 2023) (Learn how and when to remove this message)
+Type of vacuum pump
+ A pump of this type is capable of producing high vacuum in which the pressure is 1 mPa.[1]
+The Sprengel pump is a vacuum pump that uses drops of mercury falling through a small-bore capillary tube to trap air from the system to be evacuated.[Note 1] It was invented by Hanover-born chemist Hermann Sprengel in 1865 while he was working in London.[3] The pump created the highest vacuum achievable at that time, less than 1 mPa (approximately 1×10−8 atm).[1]
+Operation[edit]
+The supply of mercury is contained in the reservoir on the left. It flows over into the bulb B, where it forms drops which fall into the long tube on the right. These drops entrap between them the air in B. The mercury which runs out is collected and poured back into reservoir on the left. In this manner practically all the air can be removed from the bulb B, and hence from any vessel R, which may be connected with B. At M is a manometer which indicates the pressure in the vessel R, which is being exhausted.[citation needed]
+Falling mercury drops compress the air to atmospheric pressure, and it is released when the stream reaches the bottom of the tube. As the pressure drops, the cushioning effect of trapped air between the droplets diminishes, so a hammering or knocking sound can be heard, accompanied by flashes of light within the evacuated vessel due to electrostatic effects on the mercury.[citation needed]
+The speed, simplicity and efficiency of the Sprengel pump made it a popular device with experimenters.  Sprengel's earliest model could evacuate a half-litre vessel in 20 minutes.[4]
+Applications[edit]
+William Crookes used the pumps in series in his studies of electric discharges. William Ramsay used them to isolate the noble gases, and Joseph Swan and Thomas Edison used them to evacuate their new carbon-filament incandescent light bulbs. The Sprengel pump was the key tool which made it possible, in 1879, to sufficiently exhaust the air from a light bulb so a carbon-filament light bulb lasted long enough to be commercially practical.[5] Sprengel himself moved on to investigating explosives and was eventually elected as a Fellow of the Royal Society.[6]
+Notes[edit]
+↑ As Sprengel himself explained,[2] his vacuum pump was a modification of the "trompe" (or "trombe"), which had been known in Europe at least since the sixteenth century. In a trompe, water falls from a reservoir through a pipe. The pipe's upper end is closed except for a set of small-diameter tubes, each of which is open to the air at one end and which dips under the water at its other end. As the water falls, it entrains air from the tubes. The water carries the air to the bottom of the pipe, where the air collects in a reservoir at high pressure. The trompe was used to produce a constant stream of air for smelting and metal working, among other uses. Sprengel merely connected a tube to the pipe's upper end in order to use the flow of liquid to evacuate a vessel. See Basic principle of a trompe.
+References[edit]
+1 2 Beach, Chandler B., ed. (1914). "Air Pump" . The New Student's Reference Work . Chicago: F. E. Compton and Co.
+↑ Sprengel 1865, p. 17.
+↑ Sprengel, Hermann (1865). "III. Researches on the vacuum". Journal of the Chemical Society. 18: 9–21.
+↑ Sella, Andrea (28 January 2008). "Classic Kit: Sprengel pump". Chemistry World. Retrieved 4 September 2018.
+↑ Jehl, Francis (1990). Menlo Park Reminiscences, Volume 1 (Reprint of 1937 edition with new introduction ed.). New York: Dover Publications. ISBN 0-486-26357-6.
+↑ "Election Certificate: EC/1878/17". Royal Society Collections Catalogue. Retrieved 4 October 2026. Archive record for Fellow election certificate EC/1878/17{{cite web}}:  CS1 maint: url-status (link)
+Further reading[edit]
+Thompson, Silvanus Phillips, The Development of the Mercurial Air-pump (London, England: E. & F. N. Spon, 1888) pages 14–15.
+Cody'sLab (4 February 2017). Sprengel Vacuum Pump: The most efficient pump ever?. Retrieved 5 June 2018.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Sprengel_pump&oldid=1380657709"
+					Category: Vacuum pumpsHidden categories: Articles needing additional references from July 2023All articles needing additional referencesArticles with short descriptionShort description matches WikidataUse dmy dates from July 2022Wikipedia articles incorporating citation to the NSRWWikipedia articles incorporating citation to the NSRW with an wstitle parameterAll articles with unsourced statementsArticles with unsourced statements from July 2023CS1 maint: url-status
+	 This page was last edited on 17 October 2026, at 02:46 (UTC).
+	Page was rendered with Parsoid.
+	Text is available under the Creative Commons Attribution-ShareAlike 4.0 License;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+	Privacy policy
+	About Wikipedia
+	Disclaimers
+	Contact Wikipedia
+	Legal & safety contacts
+	Code of Conduct
+	Developers
+	Statistics
+	Cookie statement
+	Mobile view
+Search
+						Search
+Toggle the table of contents
+				Sprengel pump
+7 languages
+Add topic

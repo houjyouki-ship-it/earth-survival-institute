@@ -1,0 +1,15 @@
+取得：2026-10-25 01:43〜01:47 JST（curl、本文を開いて読めたものだけ）
+wp_Sprengel_pump.html            https://en.wikipedia.org/wiki/Sprengel_pump （oldid 1380657709）
+wp_Incandescent_light_bulb.html  https://en.wikipedia.org/wiki/Incandescent_light_bulb
+wp_Getter.html                   https://en.wikipedia.org/wiki/Getter
+wp_Vacuum_pump.html              https://en.wikipedia.org/wiki/Vacuum_pump
+wp_Catalytic_converter.html      https://en.wikipedia.org/wiki/Catalytic_converter （白金の量の数値は見つからず、数値には使わない）
+wp_Mercury_(element).html        https://en.wikipedia.org/wiki/Mercury_(element)
+wp_Platinum.html                 https://en.wikipedia.org/wiki/Platinum
+wp_Phosphorus.html               https://en.wikipedia.org/wiki/Phosphorus
+ia_incandescentlamp00ramgrich.*  https://archive.org/details/incandescentlamp00ramgrich （Ram, The incandescent lamp and its manufacture, 1894、OCR 本文）
+ia_developmentofmer00thom.*      https://archive.org/details/developmentofmer00thom （S. P. Thompson, The development of the mercurial air-pump, 1888、OCR 本文）
+web_2yr_ch4.html                 https://bulbs.2yr.net/history-of-the-incandescent-lamp-chapter4.php （Howell & Schroeder 1927, History of the Incandescent Lamp ch.4 の転載。Wikipedia の脚注が引く頁）
+gut_820.txt                      https://www.gutenberg.org/cache/epub/820/pg820.txt （Dyer & Martin, Edison: His Life and Inventions, 1910）
+開けなかった・使わなかったもの：Wikipedia の Arturo_Malignani・Dumet_wire（記事なし、削除）、lamptech.co.uk の Getters の頁（応答なし、削除）。
+*.txt（wp_・web_）は html から本文を抜いたもの。

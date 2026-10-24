@@ -1,0 +1,396 @@
+{
+ "study": "118-t2e-vacuum-pvac",
+ "seed": 20261118,
+ "check_117_pprec_maxdiff": 0.0,
+ "check_117_table_maxdiff": 0.0,
+ "p_prec_117main": 0.455955,
+ "parts": [
+  {
+   "part": "排気（水銀ポンプ）",
+   "need": "Sprengel 式・Geissler 式。ガラス管・水銀・ゴム管・ゴム栓、前段に機械のポンプ（Geissler 系、特別な作りは要らない）。Sprengel は前段なしでも動く",
+   "fact": "Ram 1894 ch.XII：機械のポンプでは足りず水銀のポンプが要る。Thompson 1888：Müller の小型ポンプは水銀 300 cc、Edison 社（1885）は鉄管に fall-tube を差すだけ",
+   "numbers": {
+    "Hg_cc_small_pump": 300,
+    "Hg_kg_small_pump": 4.0638,
+    "exhaust_h_1881": 5.0,
+    "exhaust_min_improved": 30
+   }
+  },
+  {
+   "part": "排気（化学の代わり）",
+   "need": "機械のピストンのポンプで約 1 mm Hg＋赤燐の蒸気（Malignani 1896）。水銀なし",
+   "fact": "Howell & Schroeder 1927 ch.4：Malignani は水銀のポンプを持たず機械のポンプで約 1 mm が限界、燐の蒸気で良い真空、排気は 30 分→2 分未満",
+   "numbers": {
+    "mech_limit_mmHg": 1.0,
+    "exhaust_min": 2
+   }
+  },
+  {
+   "part": "乾燥",
+   "need": "五酸化燐（phosphoric anhydride）を排気の管に。燐は骨灰・尿から（1669 Brand、1769 骨灰）",
+   "fact": "Howell & Schroeder 1927 ch.4・Wikipedia Phosphorus",
+   "numbers": {}
+  },
+  {
+   "part": "封じの導入線",
+   "need": "白金線（ガラスと熱膨張が近く、吹管の炎で溶けず酸化しない）。代わりの合金は長い封じが要り漏れやすい",
+   "fact": "Ram 1894 ch.IV：'Platinum wire is always used'、直径 0.014 in（1 A まで）。中は銅線を継げる",
+   "numbers": {
+    "Pt_wire_in": 0.014
+   }
+  },
+  {
+   "part": "フィラメント",
+   "need": "炭にした木綿糸（Edison 1879-10-21）、竹、Swan の羊皮紙化した木綿糸（硫酸）。炉で 8 時間以上かけて炭化、12 時間以上冷ます",
+   "fact": "Dyer & Martin 1910（Gutenberg 820）、Ram 1894 ch.II–III",
+   "numbers": {
+    "carbonise_heat_h_min": 8,
+    "cool_h_min": 12
+   }
+  },
+  {
+   "part": "フィラメントの計測",
+   "need": "径の測定は 1/5 mil（0.0002 in）まで読めるねじのマイクロメータ、またはランプとレンズで像を幕に映す方法。抵抗で揃える（flashing to resistance）",
+   "fact": "Ram 1894 ch.VIII・V",
+   "numbers": {
+    "micrometer_read_in": 0.0002
+   }
+  },
+  {
+   "part": "ガラス細工",
+   "need": "吹管でのランプの封じ・ポンプの製作と修理。'easy work'、ポンプは 'always breaking, and had to be repaired on the spot'",
+   "fact": "Thompson 1888 の討論（Swinburne の発言）",
+   "numbers": {
+    "pump_price_before_gbp": [
+     10,
+     15
+    ],
+    "pump_price_after_s": 10
+   }
+  }
+ ],
+ "Pt_mg_per_lamp_if_2x1cm": 42.60996425907013,
+ "p_vac_inputs": {
+  "vac1_117main": null,
+  "main": {
+   "p_Hg": 0.5,
+   "p_mech1mm": 0.5,
+   "p_P": 0.9,
+   "p_seal": 0.9,
+   "p_fil": 0.97,
+   "p_glass": 0.9
+  },
+  "Hg0.2": {
+   "p_Hg": 0.2,
+   "p_mech1mm": 0.5,
+   "p_P": 0.9,
+   "p_seal": 0.9,
+   "p_fil": 0.97,
+   "p_glass": 0.9
+  },
+  "Hg0.8": {
+   "p_Hg": 0.8,
+   "p_mech1mm": 0.5,
+   "p_P": 0.9,
+   "p_seal": 0.9,
+   "p_fil": 0.97,
+   "p_glass": 0.9
+  },
+  "Hg0_mech_only": {
+   "p_Hg": 0.0,
+   "p_mech1mm": 0.5,
+   "p_P": 0.9,
+   "p_seal": 0.9,
+   "p_fil": 0.97,
+   "p_glass": 0.9
+  },
+  "mech0.8_cond": {
+   "p_Hg": 0.5,
+   "p_mech1mm": 0.8,
+   "p_P": 0.9,
+   "p_seal": 0.9,
+   "p_fil": 0.97,
+   "p_glass": 0.9
+  },
+  "glass0.5": {
+   "p_Hg": 0.5,
+   "p_mech1mm": 0.5,
+   "p_P": 0.9,
+   "p_seal": 0.9,
+   "p_fil": 0.97,
+   "p_glass": 0.5
+  },
+  "all_low": {
+   "p_Hg": 0.2,
+   "p_mech1mm": 0.3,
+   "p_P": 0.7,
+   "p_seal": 0.7,
+   "p_fil": 0.9,
+   "p_glass": 0.5
+  },
+  "all_high": {
+   "p_Hg": 0.8,
+   "p_mech1mm": 0.8,
+   "p_P": 0.97,
+   "p_seal": 0.99,
+   "p_fil": 0.99,
+   "p_glass": 0.97
+  }
+ },
+ "p_vac_versions": {
+  "vac1_117main": 1.0,
+  "main": 0.5696325,
+  "Hg0.2": 0.439992,
+  "Hg0.8": 0.699273,
+  "Hg0_mech_only": 0.35356499999999996,
+  "mech0.8_cond": 0.6757020000000001,
+  "glass0.5": 0.3164625,
+  "all_low": 0.11591999999999995,
+  "all_high": 0.9081057744000001,
+  "mc_q10": 0.4050764070470079,
+  "mc_q90": 0.7292424745177014
+ },
+ "p_vac_mc": {
+  "q10": 0.4050764070470079,
+  "q50": 0.5729779949389708,
+  "q90": 0.7292424745177014,
+  "mean": 0.5696176374941049,
+  "beta_strength": 10
+ },
+ "table": {
+  "slow_Tasmania|vac1_117main": {
+   "F_heavy": 1.6820704777821553,
+   "F_total": 1.2472986587728374,
+   "U3_heavy_rel_drop": 0.23242231104389466
+  },
+  "trigger_mix|vac1_117main": {
+   "F_heavy": 1.155258299562853,
+   "F_total": 1.0562920849031499,
+   "U3_heavy_rel_drop": 0.07239926542076269
+  },
+  "fast_state|vac1_117main": {
+   "F_heavy": 1.0199748064256886,
+   "F_total": 1.0072422762738273,
+   "U3_heavy_rel_drop": 0.028771020128911418
+  },
+  "slow_Tasmania|main": {
+   "F_heavy": 1.4282656600017478,
+   "F_total": 1.155276509930873,
+   "U3_heavy_rel_drop": 0.15256202513413275
+  },
+  "trigger_mix|main": {
+   "F_heavy": 1.1028119326715429,
+   "F_total": 1.0372765775439943,
+   "U3_heavy_rel_drop": 0.05139173958445853
+  },
+  "fast_state|main": {
+   "F_heavy": 1.0151207271997509,
+   "F_total": 1.0054823301667113,
+   "U3_heavy_rel_drop": 0.02353534262360024
+  },
+  "slow_Tasmania|Hg0.2": {
+   "F_heavy": 1.3557137337818497,
+   "F_total": 1.1289713191477921,
+   "U3_heavy_rel_drop": 0.12767275215152485
+  },
+  "trigger_mix|Hg0.2": {
+   "F_heavy": 1.081060856291162,
+   "F_total": 1.0293902781204738,
+   "U3_heavy_rel_drop": 0.04434842101472758
+  },
+  "fast_state|Hg0.2": {
+   "F_heavy": 1.013514935565263,
+   "F_total": 1.0049001174329646,
+   "U3_heavy_rel_drop": 0.022296640380252697
+  },
+  "slow_Tasmania|Hg0.8": {
+   "F_heavy": 1.5006412714729689,
+   "F_total": 1.1815177741810075,
+   "U3_heavy_rel_drop": 0.1769399733534982
+  },
+  "trigger_mix|Hg0.8": {
+   "F_heavy": 1.1114674910145796,
+   "F_total": 1.0404148279724885,
+   "U3_heavy_rel_drop": 0.05769327715962691
+  },
+  "fast_state|Hg0.8": {
+   "F_heavy": 1.0151431011521768,
+   "F_total": 1.0054904423026367,
+   "U3_heavy_rel_drop": 0.02559504519102651
+  },
+  "slow_Tasmania|Hg0_mech_only": {
+   "F_heavy": 1.2962281412816812,
+   "F_total": 1.1074035959860553,
+   "U3_heavy_rel_drop": 0.11220337762414023
+  },
+  "trigger_mix|Hg0_mech_only": {
+   "F_heavy": 1.0650626617390204,
+   "F_total": 1.0235898041454146,
+   "U3_heavy_rel_drop": 0.0403658492672212
+  },
+  "fast_state|Hg0_mech_only": {
+   "F_heavy": 1.0130616571749291,
+   "F_total": 1.0047357720439882,
+   "U3_heavy_rel_drop": 0.02164848222966398
+  },
+  "slow_Tasmania|mech0.8_cond": {
+   "F_heavy": 1.4923217472475834,
+   "F_total": 1.178501359822691,
+   "U3_heavy_rel_drop": 0.172705340102985
+  },
+  "trigger_mix|mech0.8_cond": {
+   "F_heavy": 1.1112885382166848,
+   "F_total": 1.0403499449606228,
+   "U3_heavy_rel_drop": 0.05628893450001804
+  },
+  "fast_state|mech0.8_cond": {
+   "F_heavy": 1.0174909662484743,
+   "F_total": 1.0063417090092415,
+   "U3_heavy_rel_drop": 0.024990097583810433
+  },
+  "slow_Tasmania|glass0.5": {
+   "F_heavy": 1.267732021676236,
+   "F_total": 1.0970717426245502,
+   "U3_heavy_rel_drop": 0.10564977854596524
+  },
+  "trigger_mix|glass0.5": {
+   "F_heavy": 1.065167812792867,
+   "F_total": 1.023627928819377,
+   "U3_heavy_rel_drop": 0.039739296388318746
+  },
+  "fast_state|glass0.5": {
+   "F_heavy": 1.0119382844439861,
+   "F_total": 1.0043284701907143,
+   "U3_heavy_rel_drop": 0.02139642072665726
+  },
+  "slow_Tasmania|all_low": {
+   "F_heavy": 1.153546189279214,
+   "F_total": 1.055671324159785,
+   "U3_heavy_rel_drop": 0.06674588599618303
+  },
+  "trigger_mix|all_low": {
+   "F_heavy": 1.0363083601281777,
+   "F_total": 1.0131643415958067,
+   "U3_heavy_rel_drop": 0.028598177955421078
+  },
+  "fast_state|all_low": {
+   "F_heavy": 1.009932593479944,
+   "F_total": 1.0036012657426736,
+   "U3_heavy_rel_drop": 0.018652551222498315
+  },
+  "slow_Tasmania|all_high": {
+   "F_heavy": 1.6451115765869155,
+   "F_total": 1.233898450153605,
+   "U3_heavy_rel_drop": 0.21556299737135864
+  },
+  "trigger_mix|all_high": {
+   "F_heavy": 1.1507346777420833,
+   "F_total": 1.0546519529145764,
+   "U3_heavy_rel_drop": 0.06779734255158254
+  },
+  "fast_state|all_high": {
+   "F_heavy": 1.0190132142453325,
+   "F_total": 1.0068936312815067,
+   "U3_heavy_rel_drop": 0.02751071261387783
+  },
+  "slow_Tasmania|mc_q10": {
+   "F_heavy": 1.3289940671794052,
+   "F_total": 1.1192835553039038,
+   "U3_heavy_rel_drop": 0.12026214396312696
+  },
+  "trigger_mix|mc_q10": {
+   "F_heavy": 1.0742362509165795,
+   "F_total": 1.0269158772912867,
+   "U3_heavy_rel_drop": 0.042670411580425616
+  },
+  "fast_state|mc_q10": {
+   "F_heavy": 1.0145008591320643,
+   "F_total": 1.0052575842691123,
+   "U3_heavy_rel_drop": 0.022022973605559826
+  },
+  "slow_Tasmania|mc_q90": {
+   "F_heavy": 1.5299292126501838,
+   "F_total": 1.192136718714268,
+   "U3_heavy_rel_drop": 0.18186597529797266
+  },
+  "trigger_mix|mc_q90": {
+   "F_heavy": 1.1222639697143049,
+   "F_total": 1.0443293130424087,
+   "U3_heavy_rel_drop": 0.058629505599366194
+  },
+  "fast_state|mc_q90": {
+   "F_heavy": 1.0163845533110059,
+   "F_total": 1.005940556277379,
+   "U3_heavy_rel_drop": 0.02532858017356232
+  }
+ },
+ "sweep": {
+  "slow_Tasmania|0.1": 1.133264521860903,
+  "trigger_mix|0.1": 1.0355212107277796,
+  "slow_Tasmania|0.2": 1.200762408625326,
+  "trigger_mix|0.2": 1.0452746266953827,
+  "slow_Tasmania|0.3": 1.2574228012964919,
+  "trigger_mix|0.3": 1.0604718829820052,
+  "slow_Tasmania|0.4": 1.3285106268052949,
+  "trigger_mix|0.4": 1.0770407217967013,
+  "slow_Tasmania|0.5": 1.395544358078629,
+  "trigger_mix|0.5": 1.0893495674762077,
+  "slow_Tasmania|0.6": 1.4456952761245143,
+  "trigger_mix|0.6": 1.1000673513721597,
+  "slow_Tasmania|0.7": 1.5122308559489013,
+  "trigger_mix|0.7": 1.1153087968278796,
+  "slow_Tasmania|0.8": 1.5648637324004855,
+  "trigger_mix|0.8": 1.1264131058208198,
+  "slow_Tasmania|0.9": 1.6312259447104356,
+  "trigger_mix|0.9": 1.1445487033073152,
+  "slow_Tasmania|1.0": 1.70462337599103,
+  "trigger_mix|1.0": 1.1569409527147756
+ },
+ "p_vac_crossing": {
+  "slow_1.5": 0.6816175706574088,
+  "slow_1.1": null,
+  "mix_1.1": 0.599371592366356
+ },
+ "hypotheses": {
+  "H130a": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Sprengel/Geissler：ガラス管・水銀・ゴム。前段の機械のポンプは 'do not require to be of any very special construction'（Ram 1894 p.177）",
+   "note": "精密に削った部品を必須とする記述なし。Geissler 系の前段の弁は機械で開け閉めするとあり、ピストンのポンプ自体は要る（Sprengel は不要）"
+  },
+  "H130b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "1881 年 6 月に 1 灯 5 時間（Howell & Schroeder 1927）、改良後 30 分",
+   "note": "30 分以上"
+  },
+  "H130c": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "'Platinum wire is always used ... coefficient of expansion nearly the same as that of the glass'（Ram 1894 p.33）",
+   "note": "理由に加え吹管の炎で溶けず酸化しないこと"
+  },
+  "H130d": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Malignani 1896：機械のポンプ（約 1 mm）＋燐の蒸気、水銀のポンプなし。Novak 灯の臭素 1.5 mm（1894 以前）",
+   "note": "事前の知識と重なり独立性は弱い"
+  },
+  "H130e": {
+   "class": "prediction",
+   "value": {
+    "p_vac": 0.5696325,
+    "F_heavy_slow": 1.4282656600017478
+   },
+   "rule": "0.5<=p_vac<=0.95 かつ 1.30<=F_heavy(遅いκ)<=1.65",
+   "supported": true,
+   "note": "p_vac の主は登録の追記で置いた推測の積なので範囲に入るのは作りから。非自明なのは F_heavy の範囲だけ"
+  },
+  "H130f": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "部品の要件の表"
+  }
+ },
+ "runtime_s": 263.326092004776
+}

@@ -1,0 +1,106 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究118：T2e の機械以外の部品（電球の真空・封じ・フィラメント）の因子 p_vac（open_problems 276） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="118t2e-p_vacopen_problems-276">研究118：T2e の機械以外の部品（電球の真空・封じ・フィラメント）の因子 p_vac（open_problems 276）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・p_prec・p_exec・p_vac は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-25（第118回、JST 1時台）。sim.py（seed 20261118、約263秒。117 の p_prec と表 24 行を差 0 で再現の assert。実行は 1 回）、results.json、stdout.txt、fig_pvac.png、PREREGISTRATION.md（01:43 JST、資料を開く前・sim.py の前。式と主の値の追記 01:47 JST、資料を読んだ後・sim.py の前）、sources/（SHA256SUMS、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>115〜117 の p_prec・p_exec は機械（盤・軸受・はめあい）だけを見ていた。T2e のもう一つの柱である白熱電球は、真空のポンプ、導入線の封じ、フィラメントを要る。これらが廃材と手作業で作れるか、作れない分が p_prec と別の掛け算の因子 p_vac になるかを、1880〜90 年代の製法の資料で確かめる。</p>
+<h2 id="_2">資料（開いて確かめたもの）</h2>
+<ul>
+<li>【事実（<a href="https://archive.org/details/incandescentlamp00ramgrich">Ram 1894, <em>The incandescent lamp and its manufacture</em></a> ch.XII）】「機械のよい空気ポンプで排気してもフィラメントを焼くだけの空気が残る」ので "mercurial air-pumps, mechanical air-pumps not being good enough"。窒素を詰めて半分だけ排気する案は、対流で球が熱くなり明るさがそろわないので退けている。Geissler 系の前段の機械のポンプは "do not require to be of any very special construction"（弁は機械で開け閉め）。機械だけのポンプは「漏れと潤滑の油の蒸気」で難しく、1893 年ごろ Boston の展示例はその後の報告がない。</li>
+<li>【事実（Ram 1894 ch.IV）】"Platinum wire is always used"。理由は "a coefficient of expansion nearly the same as that of the glass" と、吹管の炎で溶けず酸化しないこと。代わりの合金は長い封じが要り漏れやすい。1 A までは直径 0.014 in の線。封じの中だけ白金にして、中は銅線を継げる。</li>
+<li>【事実（Ram 1894 ch.VIII）】フィラメントの径は 1/5 mil（0.0002 in）まで読めるねじのマイクロメータで測るか、ランプとレンズで像を幕に映す。抵抗で揃える flashing もある（ch.V）。炭化は炉で 8 時間以上、冷ますのに 12 時間以上（ch.III）。</li>
+<li>【事実（<a href="https://archive.org/details/developmentofmer00thom">Thompson 1888, <em>The development of the mercurial air-pump</em></a>）】Geissler の後継の Müller の小型ポンプは "only 300 cubic centimetres" の水銀で動く。Edison 社（New York、1885）の Sprengel 式は fall-tube を鉄管に差す簡単な作り。136 cc の容器を 1 mm Hg まで下げるのに 30 分で水銀 2,500 cc を流す例と、80 分で 1,600 cc の例（OCR の表、流量×時間が合う 2 行だけ読む）。討論で Swinburne：ポンプのガラス細工は "easy work"、1 台 £10〜15 だったものを女性の職工が 10s で作るようになった、ただしポンプは "always breaking, and had to be repaired on the spot"。</li>
+<li>【事実（<a href="https://bulbs.2yr.net/history-of-the-incandescent-lamp-chapter4.php">Howell &amp; Schroeder 1927, <em>History of the Incandescent Lamp</em> ch.4 の転載</a>）】"In June, 1881, it took five hours to exhaust a lamp"、1 人が約 50 台のポンプ。改良で 30 分。湿気は初めから五酸化燐で吸った。Malignani（Udine）は "did not have mercury pumps and his mechanical pump would not make a good enough vacuum, about one millimeter"、燐の蒸気で良い真空を得て排気を 30 分から 2 分未満にした（1896）。Novak 灯は真空の代わりに約 1.5 mm の臭素を入れた（1894 以前）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Incandescent_light_bulb">Wikipedia: Incandescent light bulb</a>）】1880 年代は "phosphoric anhydride was used in combination with expensive mercury vacuum pumps"、Malignani は "who lacked these pumps"、1896 年に赤燐の特許、1898 年に Edison が取得。Nernst 灯（1897）は真空も不活性の気体も要らない。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Sprengel_pump">Wikipedia: Sprengel pump</a>）】1865 年、1 mPa 未満。Sprengel の最初の型は 0.5 L を 20 分。Swan と Edison が電球の排気に使った。</li>
+<li>【事実（<a href="https://www.gutenberg.org/cache/epub/820/pg820.txt">Dyer &amp; Martin 1910, Gutenberg 820</a>）】1879-10-21 に「炭にした木綿の縫い糸」を百万分の一気圧まで排気した球に封じ、40 時間以上もった（Wikipedia の同じ試験は 13.5 時間で、数が合わない）。Edison は Princeton から水銀ポンプを借りた。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Mercury_(element)">Wikipedia: Mercury</a>）】主な源は辰砂で、Almadén・Monte Amiata・Idrija が 19 世紀末まで生産を支配、2020 年は China が世界の 88%（2,500 t 中 2,200 t）。温度計・気圧計・スイッチなどの使用は減っている。密度 13.546 g/cm³。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Phosphorus">Wikipedia: Phosphorus</a>）】1669 年 Brand が尿から、1769 年に骨灰から燐を得た。【事実（<a href="https://en.wikipedia.org/wiki/Platinum">Wikipedia: Platinum</a>）】密度 21.452 g/cm³、触媒の変換器・実験器具・電気の接点・宝飾に使う。</li>
+<li>使わなかったもの：Wikipedia の Catalytic converter は開いたが 1 台あたりの白金の量の数値がなく、数値に使わない。lamptech の getter の頁は応答なし、Wikipedia の Malignani・Dumet wire の記事はなし。</li>
+</ul>
+<h2 id="h130f">部品ごとの結論（H130f、記述）</h2>
+<table>
+<thead>
+<tr>
+<th>部品</th>
+<th>要るもの</th>
+<th>精密な機械が要るか</th>
+<th>廃材・手作業での縛り</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>排気（水銀）</td>
+<td>ガラス管、水銀 300 cc（≈4.06 kg）以上、五酸化燐</td>
+<td>要らない（Sprengel は前段なしでも動く）</td>
+<td><strong>水銀の入手</strong>【推測：辰砂は偏在、廃墟の水銀は使用が減っている】、壊れやすいポンプの修理</td>
+</tr>
+<tr>
+<td>排気（Malignani）</td>
+<td>約 1 mm Hg まで引ける機械のポンプ＋赤燐</td>
+<td>要る（漏れない筒と弁。p_prec と相関）</td>
+<td>ポンプの精度、燐の製造</td>
+</tr>
+<tr>
+<td>導入線</td>
+<td>白金線 0.014 in（2 本×1 cm なら約 43 mg【推測：長さ】）</td>
+<td>要らない</td>
+<td>白金の入手【推測：廃墟の実験器具・接点・宝飾から mg 単位】</td>
+</tr>
+<tr>
+<td>フィラメント</td>
+<td>炭にした木綿糸・竹、炭化の炉</td>
+<td>測定は 0.0002 in の読み（116 の最も厳しい部品 0.001 in より細かい）だが、レンズの投影と抵抗で代わる</td>
+<td>ほぼ縛りなし</td>
+</tr>
+<tr>
+<td>ガラス細工</td>
+<td>吹管での封じとポンプの製作</td>
+<td>要らない</td>
+<td>技能の実行（"easy work" だが壊れやすい）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>新しく分かったこと</strong>：真空の縛りは機械の精度（p_prec）とほぼ別で、主に<strong>水銀の入手</strong>で決まる。水銀がなくても Malignani の経路（1 mm の機械のポンプ＋燐）があるが、これは機械の精度に戻る。フィラメントは縛りにならない。</p>
+<h2 id="p_prec117-0456-p_vac">結果（すべて p_prec＝117 の主 0.456 に p_vac を掛けた）</h2>
+<p>p_vac の部品の値は資料が与えないので、すべて【推測】（登録の追記どおり）。主は p_Hg 0.5・p_mech1mm 0.5・p_P 0.9・p_seal 0.9・p_fil 0.97・p_glass 0.9。
+| 版 | p_vac | 遅い κ | 混合 | 速い |
+|---|---|---|---|---|
+| 117 の主（p_vac=1、再現） | 1.000 | 1.682 | 1.155 | 1.020 |
+| <strong>主</strong> | <strong>0.570</strong> | <strong>1.428</strong> | <strong>1.103</strong> | 1.015 |
+| 部品の不確かさ 10% 点（Beta 強さ 10） | 0.405 | 1.329 | 1.074 | 1.015 |
+| 同 90% 点 | 0.729 | 1.530 | 1.122 | 1.016 |
+| 水銀 0.2 | 0.440 | 1.356 | 1.081 | 1.014 |
+| 水銀 0.8 | 0.699 | 1.501 | 1.111 | 1.015 |
+| 水銀なし（機械のポンプだけ） | 0.354 | 1.296 | 1.065 | 1.013 |
+| 機械のポンプ 0.8（盤が成功した群の条件つき） | 0.676 | 1.492 | 1.111 | 1.017 |
+| ガラス細工 0.5（117 の p_exec と同じ悲観） | 0.317 | 1.268 | 1.065 | 1.012 |
+| 全部の下側 | 0.116 | 1.154 | 1.036 | 1.010 |
+| 全部の上側 | 0.908 | 1.645 | 1.151 | 1.019 |
+（117 の主の再現は 1.690 に対し 1.682。run の乱数が新しいためで、差 0.008 は assert の許容 0.02 内。走査の p_vac=1 は 1.705 で、版の差 0.02 未満は雑音。）</p>
+<p>走査（fig_pvac.png 左）：遅い κ の F_heavy は p_vac 0.1 で 1.133、1.0 で 1.705。<strong>1.5 を割るのは p_vac ≲ 0.68</strong>、1.1 は p_vac=0.1 でも割らない。混合の κ は p_vac ≲ 0.60 で 1.1 を割る。</p>
+<h2 id="_3">批判的検討</h2>
+<ol>
+<li><strong>p_vac の値は推測の積</strong>。資料が確かめたのは「何が要るか」（水銀、白金、1 mm のポンプ、燐）で、崩壊後の群がそれを手に入れる確率ではない。主の 0.57 は 6 つの推測の掛け算で、H130e が範囲に入ったのは作りからに近い。F_heavy の走査の方が本体の結果。</li>
+<li>水銀の入手が最大の未知。廃墟の水銀の在庫（温度計・気圧計・スイッチ・塩素の工場・歯の詰め物）は資料で数えていない。4 kg は 1 台の小型ポンプの量で、壊れて零す分（"always breaking"）は数えていない。</li>
+<li>部品を独立に掛けた。実際は、燐・白金・ガラス細工は同じ「化学とガラスの工房」の有無で揃って動き（正の相関）、Malignani の経路は p_prec と正の相関がある。正の相関なら p_vac の積は悲観に寄る【推測】。</li>
+<li><strong>T2e に電球が要るかは模型の定義しだい</strong>。アーク灯は真空が要らず、Nernst 灯（1897）も要らない。読み取り装置の光源だけならこれらや日光で代えられる可能性がある【推測】。その場合 p_vac は 1 に近い（表の 117 の主の行）。逆に、読み取りに電子の回路（真空管）が要るなら、要る真空は電球より厳しく、p_vac は下がる。これは調べていない（新しい問題 280）。</li>
+<li>資料は工場の製法（数十〜数百台のポンプ）で、群が数個の灯を作るなら 5 時間の排気や 50 台のポンプは縛りにならない。時間・労力の縛りは模型に入れていない。</li>
+<li>H130a・c・d は筆者の事前の知識と大筋が重なり、独立な検証としては弱い。H130b の 5 時間の数は事前に知らなかった。</li>
+</ol>
+<h2 id="_4">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H130a（確認的）：<strong>支持</strong>（Sprengel・Geissler 系はガラス管・水銀・ゴム。前段の機械のポンプは特別な作りが要らないと書かれる。Sprengel は前段なし）。</li>
+<li>H130b（確認的）：<strong>支持</strong>（1881 年 6 月に 1 灯 5 時間、改良後 30 分）。</li>
+<li>H130c（確認的）：<strong>支持</strong>（"Platinum wire is always used"、熱膨張が近いことが理由。加えて炎で溶けず酸化しない）。</li>
+<li>H130d（確認的）：<strong>支持</strong>（Malignani 1896：機械のポンプ約 1 mm＋燐、水銀なし。Novak 灯の臭素）。事前の知識と重なり弱い。</li>
+<li>H130e（予測）：<strong>支持</strong>（p_vac 0.570、遅い κ 1.428）。p_vac の範囲は作りから、F_heavy の範囲だけが非自明。下がる向きは自明。</li>
+<li>H130f（記述）：部品の表（results.json の parts）。</li>
+</ul>
+<h2 id="_5">逸脱</h2>
+<p>登録の資料の候補（Wikipedia・IA・Gutenberg）に加え、Wikipedia の脚注が引く Howell &amp; Schroeder の転載の頁（bulbs.2yr.net）を使った。版の値（Beta の強さ 10、全部の下側・上側の値）は sim.py を書くときに決めた。白金の 1 灯あたりの量は線の長さを 1 cm と置いた【推測】で、模型には入れていない。</p>
+<h2 id="_6">新規性</h2>
+<p>既存の Ord・XPT などは再建の技術の段を部品の製法まで分けない。本研究は T2e の電球を 1880〜90 年代の製法で部品に分け、縛りが機械の精度でなく水銀（と白金）の入手にあることを示した点が新しい【推測：既存研究の網羅的な確認はしていない】。</p>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は T2e の小さな群の経路に p_vac を掛け、遅い κ の F_heavy の主を 1.69 から 1.43（版 1.15〜1.65）に下げる。1.1 はどの版でも越えるが、1.5 は p_vac ≲ 0.68 で割る。次に結論を動かすのは水銀の入手（p_Hg）と、T2e に電球が本当に要るか。知識の束を作る人は、水銀のポンプの作り方に加えて、水銀なしの Malignani の燐の排気と、真空の要らないアーク灯・Nernst 灯の作り方を並べて書く方が、水銀のない群でも光源に届く【独自仮説】。</p><footer><hr><small>自動生成</small></footer></body></html>

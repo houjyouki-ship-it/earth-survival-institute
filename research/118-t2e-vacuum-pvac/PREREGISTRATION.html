@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究118 事前登録（2026-10-25 01:43 JST、新しい資料を開く前・sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="118-2026-10-25-0143-jstsimpy">研究118 事前登録（2026-10-25 01:43 JST、新しい資料を開く前・sim.py の前）</h1>
+<p>課題：open_problems 276。T2e の機械以外の部品（白熱電球のフィラメントと封じ、Sprengel 式などの真空ポンプ）が廃材と手作業で作れるか。p_prec・p_exec とは別の掛け算の因子 p_vac になりうるかを確かめる。
+指標の注：F_heavy・p_prec・p_exec・p_vac は模型の中の量で、生存確率でも復興確率でもない。</p>
+<h2 id="_1">資料の集め方（開く前に固定）</h2>
+<ul>
+<li>公開の資料だけ：Wikipedia（Sprengel pump、Incandescent light bulb、Getter など）、Internet Archive・Project Gutenberg の 1880〜1900 年ごろの電球の製法・真空ポンプの本や記事、必要なら Wayback の写し。</li>
+<li>実際に開けて本文を読めたものだけを使い、sources/ に保存して SHA256SUMS を作る。開けなかったものは使わない。</li>
+<li>記録する項目：排気の方法と道具（機械の部品の有無）、水銀の量、排気の時間、導入線の材料と量、フィラメントの材料、要る技能（ガラス吹き）。</li>
+</ul>
+<h2 id="_2">模型（計画）</h2>
+<p>117 の sim.py を「# ---------- 仮説」の前まで exec し、117 の p_prec と表（24 行）を差 0 で再現（assert）。p_vac を p_prec に掛けて t2e_two に入れ、遅い κ・混合・速い の F_heavy を再計算する。新しい乱数は seed 20261118。p_vac は部品ごとの確率の積（材料：水銀または代わり、導入線：白金または代わり、技能の実行）で置き、各部品の値は資料で決まる部分と【推測】の部分を分ける。</p>
+<h2 id="_3">確認的な仮説（未見の資料）</h2>
+<ul>
+<li>H130a：1880 年代前後の電球の排気は水銀を使うポンプ（Sprengel 系・Geissler 系）で行われ、そのポンプはガラス管・水銀・ゴム管などからなり、旋盤で削った精密な部品（ピストン・弁）を必須としない、と資料に書かれている。（反証：精密な機械の部品が必須と書かれる。）</li>
+<li>H130b：初期（手作業の水銀ポンプの頃）の電球 1 個の排気の時間は、資料の記述で 30 分以上。（反証：30 分未満の記述だけ。数値なしなら検定できず。）</li>
+<li>H130c：封じの導入線は白金で、ガラスと熱膨張が近いことがその理由として書かれている。（反証：白金以外が普通と書かれる、または理由が別。）</li>
+<li>H130d：1900 年以前に、水銀の Sprengel 式を使わずに電球の真空を得る方法（化学的な getter、機械のポンプだけ など）が実用にされたと書いた資料がある。（反証：見つけた資料に一つもない。）
+注：H130a・c・d の大筋は筆者の事前の知識と重なる（Edison が Sprengel 式を使った、白金の導入線、Malignani の getter の名）。資料で確かめる点は細部（機械の部品の有無・理由の書き方・年）だが、独立性は弱い。</li>
+</ul>
+<h2 id="simpy">入力判明後の予測（資料を読んだ後、sim.py の前に値を置いてから確かめる）</h2>
+<ul>
+<li>H130e：主の p_vac は 0.5 以上 0.95 以下で、遅い κ の F_heavy は 117 の主 1.690 から 1.30〜1.65 に下がる。自明さの点検：p_vac&lt;1 なら下がるのは構造から自明で、範囲だけが非自明。</li>
+</ul>
+<h2 id="_4">記述</h2>
+<ul>
+<li>H130f：部品ごとの材料・技能・代わりの表。支持に数えない。</li>
+</ul>
+<h2 id="2026-10-25-0147-jstsimpy-p_vac-h130e">追記（2026-10-25 01:47 JST、資料を読んだ後・sim.py の前）：p_vac の式と主の値（H130e の判定に使う）</h2>
+<ul>
+<li>p_vac = p_pump × p_seal × p_fil × p_glass。p_pump = 1 − (1 − p_Hg)(1 − p_mal)、p_mal = p_mech1mm × p_P（Malignani の経路：機械のポンプで約 1 mm＋赤燐）。</li>
+<li>主の値（すべて【推測】、資料は「何が要るか」だけを与える）：p_Hg 0.5（水銀 300 cc≈4 kg 以上を廃墟か辰砂から）、p_mech1mm 0.5、p_P 0.9、p_seal 0.9（白金を廃墟から）、p_fil 0.97（炭にした木綿糸・竹）、p_glass 0.9（ランプのガラス細工）。主の p_vac ≈ 0.57。</li>
+<li>版：p_Hg 0.2／0.8、p_mech1mm 0.8（盤が成功した群の条件つき）、p_glass 0.5（117 の p_exec と同じ悲観）、真空が要らない版（アーク灯・日光で足りる：p_vac=1）、全部の下側・上側。p_vac を 0.1〜1 で走査し、F_heavy が 1.5・1.1 を割る p_vac を出す。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
