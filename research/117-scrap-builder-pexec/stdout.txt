@@ -1,0 +1,51 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+check_116 0.0 0.0 P_acc 0.9119
+counts {'complete': 4, 'stalled': 3, 'not_started': 1, 'unknown': 1, 'N': 9}
+frac main_excl_unknown 0.5
+frac unknown_as_fail 0.4444
+frac unknown_as_complete 0.5556
+frac excl_nonstarter 0.5714
+frac strict_no_oliver 0.375
+frac stalled_excluded 1.0
+beta {'k': 4, 'n': 8, 'q10': 0.2909139797398405, 'q50': 0.49995435244223396, 'q90': 0.7096617949161342}
+p_exec exec1_116main 1.0 p_prec 0.9119
+p_exec main_single 0.5 p_prec 0.456
+p_exec beta_q10 0.2909 p_prec 0.2653
+p_exec beta_q90 0.7097 p_prec 0.6471
+p_exec strict_3of8 0.375 p_prec 0.342
+p_exec excl_nonstarter 0.5714 p_prec 0.5211
+p_exec attempts3_indep 0.875 p_prec 0.7979
+p_exec attempts3_rho0.5 0.6875 p_prec 0.6269
+slow_Tasmania|exec1_116main F_heavy 2.3029
+trigger_mix|exec1_116main F_heavy 1.2878
+fast_state|exec1_116main F_heavy 1.0306
+slow_Tasmania|main_single F_heavy 1.6898
+trigger_mix|main_single F_heavy 1.1544
+fast_state|main_single F_heavy 1.0184
+slow_Tasmania|beta_q10 F_heavy 1.4353
+trigger_mix|beta_q10 F_heavy 1.1012
+fast_state|beta_q10 F_heavy 1.0149
+slow_Tasmania|beta_q90 F_heavy 1.9539
+trigger_mix|beta_q90 F_heavy 1.2169
+fast_state|beta_q90 F_heavy 1.0219
+slow_Tasmania|strict_3of8 F_heavy 1.5428
+trigger_mix|strict_3of8 F_heavy 1.1161
+fast_state|strict_3of8 F_heavy 1.0166
+slow_Tasmania|excl_nonstarter F_heavy 1.7781
+trigger_mix|excl_nonstarter F_heavy 1.1815
+fast_state|excl_nonstarter F_heavy 1.0198
+slow_Tasmania|attempts3_indep F_heavy 2.1611
+trigger_mix|attempts3_indep F_heavy 1.2597
+fast_state|attempts3_indep F_heavy 1.0302
+slow_Tasmania|attempts3_rho0.5 F_heavy 1.9107
+trigger_mix|attempts3_rho0.5 F_heavy 1.1978
+fast_state|attempts3_rho0.5 F_heavy 1.0228
+H129a confirmatory True 0.5
+H129b confirmatory True 0.4444444444444444
+H129c confirmatory True 0.0
+H129d prediction True 1.6897885991909536
+H129e descriptive None 製作記録の表
+runtime 243.2

@@ -1,0 +1,285 @@
+{
+ "study": "117-scrap-builder-pexec",
+ "seed": 20261117,
+ "check_116_pprec_maxdiff": 0.0,
+ "check_116_table_maxdiff": 0.0,
+ "P_acc_116main": 0.91191,
+ "logs": [
+  {
+   "id": 1,
+   "who": "Lionel Oliver II",
+   "url": "https://web.archive.org/web/20140208043442/http://backyardmetalcasting.com/lathe7.html",
+   "status": "complete_used",
+   "evidence": "Part 7 で盤そのもので面板の木型を削った。'I've kinda lost interest in the lathe'、Part 8 は 'coming as soon as I get to it! 2002' のまま",
+   "accuracy_number": null
+  },
+  {
+   "id": 2,
+   "who": "Barry Workman（友人 M. Horgan の頁）",
+   "url": "https://web.archive.org/web/20111210175317/http://www.dm.net/~lughaid/barry.htm",
+   "status": "complete",
+   "evidence": "盤と shaper を完成、盤で機関 2 台と礼砲を作った（1998）",
+   "accuracy_number": null
+  },
+  {
+   "id": 3,
+   "who": "W. E. Johns",
+   "url": "https://web.archive.org/web/20121230212354/http://www.gizmology.net/gingerylathe.htm",
+   "status": "not_started",
+   "evidence": "'I hope to build one too'、AutoCAD で描いただけ（2003）",
+   "accuracy_number": null
+  },
+  {
+   "id": 4,
+   "who": "John C. Schwytzer",
+   "url": "https://web.archive.org/web/20120711143953/http://home.earthlink.net/~jschwytzer/lathe.html",
+   "status": "complete",
+   "evidence": "'The lathe took me nine months to build'、約 $230、四つ爪チャックなど付属品も（2002）",
+   "accuracy_number": null
+  },
+  {
+   "id": 5,
+   "who": "Jayson Craig",
+   "url": "https://web.archive.org/web/20041210014820/http://foundry.psibersport.com/lathe.html",
+   "status": "stalled",
+   "evidence": "2004-10-18 の更新で往復台の段階。途中で市販の 1.5hp の立てフライス盤を買う。2006・2008 の写しは空。往復台の寸法の狂い 0.0005〜0.0015 in を caliper で",
+   "accuracy_number": "0.0005-0.0015 in（未完成の部品）"
+  },
+  {
+   "id": 6,
+   "who": "goesworkshop.com",
+   "url": "https://web.archive.org/web/20050210065346/http://www.goesworkshop.com/lathe.html",
+   "status": "complete",
+   "evidence": "'This is my lathe i built around 2 years ago ... i have run the crap out of this thing'（2005）",
+   "accuracy_number": null
+  },
+  {
+   "id": 7,
+   "who": "T. Janstrom",
+   "url": "https://web.archive.org/web/20061128212929/http://www.tjanstrom.com/latheparttwo.html",
+   "status": "stalled",
+   "evidence": "2000 年 10 月に滑り面の擦り合わせの段階。2006 年の写しも同じ頁まで",
+   "accuracy_number": null
+  },
+  {
+   "id": 8,
+   "who": "daedalus.csgeeks.org/~stock",
+   "url": "https://web.archive.org/web/20060211003711/http://daedalus.csgeeks.org/~stock/foundry/gingery/",
+   "status": "stalled",
+   "evidence": "wiki で '(in progress)'。ベッドと往復台まで、Last Modified June 13, 2002（2006 年の写しも同じ）",
+   "accuracy_number": null
+  },
+  {
+   "id": 9,
+   "who": "Donald Qualls",
+   "url": "https://web.archive.org/web/20130312045009/http://silent1.home.netcom.com/HomebuiltLathe.htm",
+   "status": "unknown",
+   "evidence": "Gingery でない自前の設計（友人と 2 台）。目次は主軸・心押し台・ねじ切りの歯車まであるが完成・使用の明記なし",
+   "accuracy_number": null
+  }
+ ],
+ "counts": {
+  "complete": 4,
+  "stalled": 3,
+  "not_started": 1,
+  "unknown": 1,
+  "N": 9
+ },
+ "completion_fraction_versions": {
+  "main_excl_unknown": 0.5,
+  "unknown_as_fail": 0.4444444444444444,
+  "unknown_as_complete": 0.5555555555555556,
+  "excl_nonstarter": 0.5714285714285714,
+  "strict_no_oliver": 0.375,
+  "stalled_excluded": 1.0
+ },
+ "beta_posterior": {
+  "k": 4,
+  "n": 8,
+  "q10": 0.2909139797398405,
+  "q50": 0.49995435244223396,
+  "q90": 0.7096617949161342
+ },
+ "p_exec_versions": {
+  "exec1_116main": 1.0,
+  "main_single": 0.5,
+  "beta_q10": 0.2909139797398405,
+  "beta_q90": 0.7096617949161342,
+  "strict_3of8": 0.375,
+  "excl_nonstarter": 0.5714285714285714,
+  "attempts3_indep": 0.875,
+  "attempts3_rho0.5": 0.6875
+ },
+ "p_prec_versions": {
+  "exec1_116main": 0.91191,
+  "main_single": 0.455955,
+  "beta_q10": 0.265287367264558,
+  "beta_q90": 0.6471476874019719,
+  "strict_3of8": 0.34196625,
+  "excl_nonstarter": 0.5210914285714285,
+  "attempts3_indep": 0.79792125,
+  "attempts3_rho0.5": 0.626938125
+ },
+ "table": {
+  "slow_Tasmania|exec1_116main": {
+   "F_heavy": 2.302916815799709,
+   "F_total": 1.4723992483702746,
+   "U3_heavy_rel_drop": 0.41911346368513913
+  },
+  "trigger_mix|exec1_116main": {
+   "F_heavy": 1.2878422798700273,
+   "F_total": 1.1043631297185514,
+   "U3_heavy_rel_drop": 0.1200316877318065
+  },
+  "fast_state|exec1_116main": {
+   "F_heavy": 1.0306388159037285,
+   "F_total": 1.0111087319070273,
+   "U3_heavy_rel_drop": 0.03994814734795282
+  },
+  "slow_Tasmania|main_single": {
+   "F_heavy": 1.6897885991909536,
+   "F_total": 1.2500970221895449,
+   "U3_heavy_rel_drop": 0.2331280832523135
+  },
+  "trigger_mix|main_single": {
+   "F_heavy": 1.154409329698276,
+   "F_total": 1.0559842734442353,
+   "U3_heavy_rel_drop": 0.07157826509668352
+  },
+  "fast_state|main_single": {
+   "F_heavy": 1.0183514477680093,
+   "F_total": 1.0066536942550646,
+   "U3_heavy_rel_drop": 0.028439739296388322
+  },
+  "slow_Tasmania|beta_q10": {
+   "F_heavy": 1.4353287059876831,
+   "F_total": 1.1578373623003413,
+   "U3_heavy_rel_drop": 0.15410320118108822
+  },
+  "trigger_mix|beta_q10": {
+   "F_heavy": 1.1012250849509528,
+   "F_total": 1.036701233315265,
+   "U3_heavy_rel_drop": 0.05095963415073268
+  },
+  "fast_state|beta_q10": {
+   "F_heavy": 1.0149151616574097,
+   "F_total": 1.0054077981578253,
+   "U3_heavy_rel_drop": 0.023809009398293113
+  },
+  "slow_Tasmania|beta_q90": {
+   "F_heavy": 1.9538594108141218,
+   "F_total": 1.3458413179224584,
+   "U3_heavy_rel_drop": 0.3108638507795902
+  },
+  "trigger_mix|beta_q90": {
+   "F_heavy": 1.2168772718938017,
+   "F_total": 1.0786333087337918,
+   "U3_heavy_rel_drop": 0.09203125562637271
+  },
+  "fast_state|beta_q90": {
+   "F_heavy": 1.0219448649634526,
+   "F_total": 1.0079565614539707,
+   "U3_heavy_rel_drop": 0.033524179899895534
+  },
+  "slow_Tasmania|strict_3of8": {
+   "F_heavy": 1.5427948788985058,
+   "F_total": 1.1968014302229297,
+   "U3_heavy_rel_drop": 0.18543084512621077
+  },
+  "trigger_mix|strict_3of8": {
+   "F_heavy": 1.116113878254432,
+   "F_total": 1.0420994710848703,
+   "U3_heavy_rel_drop": 0.05942890065175899
+  },
+  "fast_state|strict_3of8": {
+   "F_heavy": 1.0166133403991995,
+   "F_total": 1.0060235077345934,
+   "U3_heavy_rel_drop": 0.025955133052464663
+  },
+  "slow_Tasmania|excl_nonstarter": {
+   "F_heavy": 1.7781297225430939,
+   "F_total": 1.2821269106411128,
+   "U3_heavy_rel_drop": 0.25737639984156135
+  },
+  "trigger_mix|excl_nonstarter": {
+   "F_heavy": 1.1814948319689549,
+   "F_total": 1.0658046785224726,
+   "U3_heavy_rel_drop": 0.07819667998991742
+  },
+  "fast_state|excl_nonstarter": {
+   "F_heavy": 1.0197582310164681,
+   "F_total": 1.0071637524116048,
+   "U3_heavy_rel_drop": 0.030189766302977872
+  },
+  "slow_Tasmania|attempts3_indep": {
+   "F_heavy": 2.161128137299492,
+   "F_total": 1.4209908511965799,
+   "U3_heavy_rel_drop": 0.37239566454214823
+  },
+  "trigger_mix|attempts3_indep": {
+   "F_heavy": 1.2596933766949545,
+   "F_total": 1.094157166804342,
+   "U3_heavy_rel_drop": 0.10801195491699978
+  },
+  "fast_state|attempts3_indep": {
+   "F_heavy": 1.0302324711400965,
+   "F_total": 1.0109614032682444,
+   "U3_heavy_rel_drop": 0.0371250585142775
+  },
+  "slow_Tasmania|attempts3_rho0.5": {
+   "F_heavy": 1.9107068262532303,
+   "F_total": 1.3301954622050403,
+   "U3_heavy_rel_drop": 0.30238018076410644
+  },
+  "trigger_mix|attempts3_rho0.5": {
+   "F_heavy": 1.1977916030215192,
+   "F_total": 1.0717134075393504,
+   "U3_heavy_rel_drop": 0.08988513197220116
+  },
+  "fast_state|attempts3_rho0.5": {
+   "F_heavy": 1.022821979126748,
+   "F_total": 1.0082745772063586,
+   "U3_heavy_rel_drop": 0.03253753915955493
+  }
+ },
+ "hypotheses": {
+  "H129a": {
+   "class": "confirmatory",
+   "value": 0.5,
+   "rule": "0.3<=f<=0.9（途中で止まった＝断念）",
+   "supported": true,
+   "range_versions": [
+    0.375,
+    0.5714285714285714
+   ],
+   "note": "n=8（不明 1 を除く）。Oliver の使ったが仕上げを断念した例を完成に数えた。版 0.375〜0.571 すべて範囲内"
+  },
+  "H129b": {
+   "class": "confirmatory",
+   "value": 0.4444444444444444,
+   "rule": ">=0.2",
+   "supported": true,
+   "note": "途中で止まった 4＋始めていない 1。始めていない者を除いても 4/9=0.44"
+  },
+  "H129c": {
+   "class": "confirmatory",
+   "value": 0.0,
+   "rule": "< 0.5",
+   "supported": true,
+   "note": "完成 4 件で精度の数値 0。数値は未完成の Craig の 1 件だけ"
+  },
+  "H129d": {
+   "class": "prediction",
+   "value": 1.6897885991909536,
+   "rule": "1.5<=F_heavy(遅いκ)<=2.2",
+   "supported": true,
+   "note": "下がるのは自明、範囲に入るかだけが非自明"
+  },
+  "H129e": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "製作記録の表"
+  }
+ },
+ "runtime_s": 243.21282505989075
+}

@@ -1,0 +1,114 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究117：廃材の盤の作り手の実行しきる確率 p_exec（open_problems 274） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="117-p_execopen_problems-274">研究117：廃材の盤の作り手の実行しきる確率 p_exec（open_problems 274）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・p_prec・p_exec は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第117回、JST 23時台〜25日 0時台）。sim.py（seed 20261117、約243秒。116 の p_prec と表を差 0 で再現の assert。実行は 1 回）、results.json、stdout.txt、fig_pexec.png、PREREGISTRATION.md（23:37 JST、資料を開く前・sim.py の前）、sources/（Wayback Machine の写し、SHA256SUMS.txt、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>115・116 の p_prec の届く精度は掲示板の成功例 1 件に頼っていた。始めた人のうち何割が盤を完成させて使ったか（p_exec）を、成功例だけを拾わない分母で数える。</p>
+<h2 id="_2">標本の取り方（成功例の偏りを減らす工夫）</h2>
+<p>検索の上位は完成した記録に偏る（検索の 1 頁目で見た <a href="https://www.isobevel.com/gingery_lathe1.htm">isobevel</a>・<a href="http://chris-eigenheer.blogspot.com/2013/03/building-my-own-gingery-metal-lathe.html">Eigenheer</a> はどちらも完成）。そこで、結末が分かる前の 2006 年に Gingery の機械の wiki（<a href="https://www.fennetic.net/machines/lathe.html">fennetic.net の lathe の頁</a>、最終更新 2006-12-14）が「盤の製作の頁」として挙げた 9 件を分母にし、各頁を Wayback Machine の最後の読める写しで確かめた。検索で見た 2 件は数えていない。</p>
+<h2 id="_3">資料（開いて確かめたもの）</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>作り手</th>
+<th>結末</th>
+<th>根拠（写し）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Lionel Oliver II</td>
+<td>完成・使用（仕上げは断念）</td>
+<td>【事実（<a href="https://web.archive.org/web/20140208043442/http://backyardmetalcasting.com/lathe7.html">Part 7</a>）】盤で面板の木型を削った。"I've kinda lost interest in the lathe"、Part 8 は 2002 年から "coming as soon as I get to it!" のまま</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Barry Workman</td>
+<td>完成</td>
+<td>【事実（<a href="https://web.archive.org/web/20111210175317/http://www.dm.net/~lughaid/barry.htm">dm.net</a>）】盤と shaper を作り、盤で機関 2 台を作った（1998）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>W. E. Johns</td>
+<td>始めていない</td>
+<td>【事実（<a href="https://web.archive.org/web/20121230212354/http://www.gizmology.net/gingerylathe.htm">gizmology</a>）】"I hope to build one too"、CAD で描いただけ</td>
+</tr>
+<tr>
+<td>4</td>
+<td>John C. Schwytzer</td>
+<td>完成</td>
+<td>【事実（<a href="https://web.archive.org/web/20120711143953/http://home.earthlink.net/~jschwytzer/lathe.html">earthlink</a>）】"The lathe took me nine months to build"、約 $230</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Jayson Craig</td>
+<td>途中で止まった</td>
+<td>【事実（<a href="https://web.archive.org/web/20041210014820/http://foundry.psibersport.com/lathe.html">psibersport</a>）】2004-10 に往復台の段階、途中で市販の立てフライス盤を買った。以後の写しは空</td>
+</tr>
+<tr>
+<td>6</td>
+<td>goesworkshop.com</td>
+<td>完成</td>
+<td>【事実（<a href="https://web.archive.org/web/20050210065346/http://www.goesworkshop.com/lathe.html">goesworkshop</a>）】"i built around 2 years ago ... i have run the crap out of this thing"</td>
+</tr>
+<tr>
+<td>7</td>
+<td>T. Janstrom</td>
+<td>途中で止まった</td>
+<td>【事実（<a href="https://web.archive.org/web/20061128212929/http://www.tjanstrom.com/latheparttwo.html">tjanstrom</a>）】2000 年 10 月に滑り面の擦り合わせの段階、2006 年の写しも同じ</td>
+</tr>
+<tr>
+<td>8</td>
+<td>daedalus.csgeeks.org/~stock</td>
+<td>途中で止まった</td>
+<td>【事実（<a href="https://web.archive.org/web/20060211003711/http://daedalus.csgeeks.org/~stock/foundry/gingery/">daedalus</a>）】ベッドと往復台まで、Last Modified June 13, 2002</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Donald Qualls</td>
+<td>不明</td>
+<td>【事実（<a href="https://web.archive.org/web/20130312045009/http://silent1.home.netcom.com/HomebuiltLathe.htm">silent1</a>）】Gingery でない自前の設計。目次はねじ切りの歯車まであるが完成の明記なし</td>
+</tr>
+</tbody>
+</table>
+<p>精度の数値を書いたのは未完成の #5（往復台の狂い 0.0005〜0.0015 in、caliper）だけで、完成の 4 件は 0 件。</p>
+<h2 id="_4">結果</h2>
+<ul>
+<li>完成の割合（途中で止まった＝断念、不明を除く）：<strong>4/8 = 0.50</strong>。版 0.375（#1 を未完成に）〜0.571（始めていない #3 を除く）。Jeffreys の事後の 10〜90% 点 0.29〜0.71。</li>
+<li>断念の理由として書かれていたのは「興味を失った」（#1）と「市販の工作機械を買った」（#5）で、技術的に行き詰まったと書いた例は 0 件。
+| 版 | p_exec | p_prec | 遅い κ | 混合 | 速い |
+|---|---|---|---|---|---|
+| 116 の主（p_exec=1、再現） | 1.000 | 0.912 | 2.303 | 1.288 | 1.031 |
+| <strong>主：1 回の試みの完成の割合</strong> | <strong>0.500</strong> | <strong>0.456</strong> | <strong>1.690</strong> | <strong>1.154</strong> | 1.018 |
+| 事後 10% 点 | 0.291 | 0.265 | 1.435 | 1.101 | 1.015 |
+| 事後 90% 点 | 0.710 | 0.647 | 1.954 | 1.217 | 1.022 |
+| 厳しい数え（3/8） | 0.375 | 0.342 | 1.543 | 1.116 | 1.017 |
+| 始めた人だけ（4/7） | 0.571 | 0.521 | 1.778 | 1.182 | 1.020 |
+| 3 回の独立な試み【推測】 | 0.875 | 0.798 | 2.161 | 1.260 | 1.030 |
+| 3 回、失敗の原因の半分が共通【推測】 | 0.688 | 0.627 | 1.911 | 1.198 | 1.023 |
+（116 の主の再現は 2.318 に対して 2.303。run の乱数が新しいためで、差 0.015 は assert の許容 0.02 内。）</li>
+</ul>
+<p>遅い κ の F_heavy はどの版でも 1.43〜2.16 で 1.1 を越える。p_exec で動く幅（1.43〜2.30）は、κ の重みで動く幅（主で 1.69／1.15／1.02）より小さい。</p>
+<h2 id="_5">批判的検討</h2>
+<ol>
+<li>標本は 9 件と小さく、wiki に載った時点で「頁を作るほど熱心な人」に選ばれている。頁を作らずに止めた人は数えられず、本当の完成の割合はもっと低い側と推測する【推測】。</li>
+<li>逆に、Wayback の写しが途中で止まっていても、頁を更新しなかっただけで盤は完成した可能性がある（#7・#8）。この偏りは高い側に働く。</li>
+<li>断念の理由（興味を失う、市販品を買う）は工業の社会の中の愛好家に特有で、崩壊後の群にはそのまま当てはまらない。どちらに働くかは分からない。崩壊後は市販品の逃げ道がない一方、材料・時間・食料の制約は重い【推測】。主を 1 回の試みの割合にしたのは保守の選択で、群が何度も試せるなら 3 回の版（0.69〜0.88）の側に寄る。</li>
+<li>「完成」の基準は「使った報告がある」で、精度の数値はない。完成した盤が T2e の精度に届くか（P(ε_a≤ε_r)=0.912）は 115・116 のまま。成功例の偏りの倍率は精度の数値が 0 件で置けなかった。</li>
+<li>登録で予定した「途中で止まったものを除く版」は完成の割合が定義上 1 になり、意味がないので表に入れていない。</li>
+</ol>
+<h2 id="_6">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H129a（確認的）：<strong>支持</strong>（0.50、版 0.375〜0.571 すべて 0.3〜0.9 内）。</li>
+<li>H129b（確認的）：<strong>支持</strong>（途中で止まった 4 ＋始めていない 1 で 5/9 = 0.56。始めていない者を除いても 0.44）。</li>
+<li>H129c（確認的）：<strong>支持</strong>（完成 4 件で精度の数値 0 件）。</li>
+<li>H129d（予測）：<strong>支持</strong>（遅い κ 1.690 が 1.5〜2.2 の内）。下がる向きは自明で、範囲だけが非自明。</li>
+<li>H129e（記述）：製作記録の表（results.json の logs）。</li>
+</ul>
+<h2 id="_7">逸脱</h2>
+<p>登録の検索語での収集は上位が完成した記録に偏ると分かり、資料を開いた後で、分母を wiki の 2006 年の一覧に替えた（検索で見た 2 件は数えない）。結果を見る前の変更だが、登録の手順とは違う。p_exec の 3 回の試みの版と相関 0.5 は sim.py を書くときに決めた。</p>
+<h2 id="_8">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は p_exec の主を 0.5（版 0.29〜0.88）に置き、遅い κ の F_heavy の主を 2.30 から 1.69 に下げる。それでも 1.1 は越えるので、「廃材の精密な道具で重い崩壊の T2e を早める」経路は模型に残る。残る最大の幅は再び κ の重みと、群が何度試せるか（試みの回数と相関）。知識の束を作る人は、作り方だけでなく「途中で止まりやすい所」（鋳物のやり直し、滑り面の擦り合わせの長さ）と、止まった作業を次の人が引き継げる書き方を入れる方が効く【独自仮説】。</p><footer><hr><small>自動生成</small></footer></body></html>
