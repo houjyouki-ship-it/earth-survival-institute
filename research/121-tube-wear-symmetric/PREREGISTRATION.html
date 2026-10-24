@@ -1,0 +1,23 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究121 事前登録（open_problems 285：真空管の経路のすり減り） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="121-open_problems-285">研究121 事前登録（open_problems 285：真空管の経路のすり減り）</h1>
+<p>登録：2026-10-25 07:39 JST、資料（Wikipedia の ENIAC・Colossus computer・Vacuum tube など）を本回に開く前、sim.py を書く前。
+注：F_heavy・p_tube・p_relay・p_vac は模型の中の量で、生存確率でも復興確率でもない。</p>
+<h2 id="_1">背景</h2>
+<p>120 は継電器の経路だけに接点のすり減り（点数×C×a÷寿命）を入れ、p_relay を 0.8→0.335 に下げた。真空管の経路 p_tube 0.235（119）にはすり減りがなく、比較が非対称。</p>
+<h2 id="_2">暗黙の前提（先に書き出す）</h2>
+<ul>
+<li>管の寿命は「動作の回数」ではなく「通電の時間」で決まる（ヒーター・陰極の消耗）。故障は通電の時間に比例し、入り切りの回数の効果は版で扱う。</li>
+<li>管の経路は 1 チャンネル C 本（主 50、20・100 の版）、119 の Colossus 級の 5,000 点/秒で 1 リール 5.28×10¹¹ 点を読む（1 チャンネルで約 3.35 年）。</li>
+<li>作り続ける能力は 120 と同じ形 S(M)=1/(1+M/M50)。管は継電器より作りにくいので M50 を継電器と同じ版と 1/10 の版を並べる。</li>
+<li>手作りの管の寿命は資料にない見込みが高く、資料の値（大戦期の管）から倍率を掛けた版を置く【推測】。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H133a（確認的）：Wikipedia の ENIAC の記事は、管の数を 17,000〜18,500 本とし、管の故障の頻度として「数日（3 日以内）に 1 本程度」にあたる数値か記述を挙げる。</li>
+<li>H133b（確認的）：Wikipedia の Colossus computer の記事は、管（valve）の故障を減らすために電源を入れたままにした（切らない）ことに触れる。</li>
+<li>H133c（確認的）：Wikipedia の Vacuum tube の記事は、管の寿命として数千時間以上の数値を少なくとも 1 つ挙げる。</li>
+<li>H133d（予測）：主の前提で 1 リールを読む間の管の作り直しは初めの本数の 10 倍未満で、継電器の汎用の経路（120 で 1,000 倍超）よりはるかに小さい。</li>
+<li>H133e（予測）：すり減りを入れた主の p_tube は 0.20〜0.235、対称にした主の p_vac は 0.45〜0.52、遅い κ の F_heavy は 1.34〜1.40（120 の 1.377 からほぼ動かない）。</li>
+<li>H133f（記述）：管の数・寿命・故障の頻度の表。</li>
+</ul>
+<h2 id="_4">手順</h2>
+<p>sim.py は 120 の sim.py を「# ---------- 仮説」の前まで exec して 120 の p_vac と表を再現（assert）し、管の経路に通電時間のすり減りを入れて p_tube と p_vac・F_heavy を再計算する。推測の値は【推測】と書く。</p><footer><hr><small>自動生成</small></footer></body></html>
