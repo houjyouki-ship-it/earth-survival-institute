@@ -1,0 +1,106 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究121：真空管の経路のすり減り（open_problems 285） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="121open_problems-285">研究121：真空管の経路のすり減り（open_problems 285）</h1>
+<p><strong>注：p_tube・p_relay・p_vac・F_heavy は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</strong></p>
+<h2 id="_1">問い</h2>
+<p>120 は読取装置の継電器の経路にだけ接点のすり減りを入れ（p_relay 0.8→0.335）、真空管の経路（p_tube 0.235、119）は消耗なしのままだった。管にも同じ物差し（1 リールを読む間に作り直す部品の数→作り続ける能力 S(M)=1/(1+M/M50)）を入れて、p_vac を対称にする。</p>
+<h2 id="sourcessha256sums">資料（本回取得、sources/、SHA256SUMS）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/ENIAC">ENIAC</a>）】1955 年の終わりに管 18,000 本。初めは「Several tubes burned out almost every day」、後に「one tube every two days」。故障の多くは暖機・冷却のとき。1954 年の無故障の最長は 116 時間。特別な高信頼の管は 1948 年まで無かった。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Colossus_computer">Colossus computer</a>）】Flowers は電源を切らないことで故障の率を「very low levels」にした（数値なし）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Vacuum_tube">Vacuum tube</a>）】寿命は主にフィラメントの断線か陰極の被膜の消耗で決まる。1950 年代後半の特別品質の小信号管は「hundreds of thousands of hours」、トリウムの陰極は「tens of thousands of hours」。Whirlwind 用に寿命の長い管を作った。</li>
+<li>Whirlwind I・Manchester Baby・Hot cathode は数値に使わない（背景）。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>【推測の読み】一定の故障率と置き、管 1 本の平均の寿命を ENIAC から 18,000×48 h＝8.64×10⁵ h（後期）、18,000×24/3＝1.44×10⁵ h（初期を 3 本/日と読む）とした。ENIAC は常時通電でなく、この値は運用時間あたり。</li>
+<li>【推測】手作りの管の寿命 L_h の主 10⁴ h（初期の ENIAC の約 1/14）、版 10²〜1.44×10⁵。管は継電器より作りにくいとして M50_tube 主 10⁴（継電器 10⁵）、版 10³・10⁵。入り切りの倍率 cyc（停電で暖機が増える）1・10。</li>
+<li>管は通電の時間で減る（動作の回数に依らない）。Colossus 級 5,000 点/秒の 1 チャンネル C=50 本で 1 リール 5.28×10¹¹ 点を 3.35 年、延べ 1.47×10⁶ 管・時間。</li>
+<li>120 の sim.py を exec し、120 の p_vac と F_heavy の表を差 0 で再現（assert）。</li>
+</ul>
+<h2 id="_3">結果</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>作り直し（本）</th>
+<th>p_tube</th>
+<th>p_vac（120 主の p_relay 0.335 と）</th>
+<th>遅い κ の F_heavy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>消耗なし（120）</td>
+<td>0</td>
+<td>0.235</td>
+<td>0.492</td>
+<td>1.378</td>
+</tr>
+<tr>
+<td>主 L 10⁴ h</td>
+<td>147（初めの 2.9 倍）</td>
+<td>0.231</td>
+<td>0.489</td>
+<td>1.375</td>
+</tr>
+<tr>
+<td>L 10³ h</td>
+<td>1,468</td>
+<td>0.204</td>
+<td>0.471</td>
+<td>—</td>
+</tr>
+<tr>
+<td>L 10² h</td>
+<td>14,700</td>
+<td>0.095</td>
+<td>0.399</td>
+<td>1.328</td>
+</tr>
+<tr>
+<td>入り切り×10</td>
+<td>1,468</td>
+<td>0.204</td>
+<td>0.471</td>
+<td>1.362</td>
+</tr>
+<tr>
+<td>悲観（L 10²・M50 10³・C 100・×10）</td>
+<td>2.9×10⁵</td>
+<td>0.0008</td>
+<td>0.336</td>
+<td>1.294</td>
+</tr>
+<tr>
+<td>管も継電器も悲観</td>
+<td>—</td>
+<td>—</td>
+<td>0.091</td>
+<td>1.131</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>1 点を読むごとの作り直しは、汎用の継電器（寿命 10⁶ 回）2.5×10⁻⁵ 個、リード継電器 2.5×10⁻⁸ 個、管（10⁴ h）2.8×10⁻¹⁰ 本。管が速く（5,000 点/秒）、時間で減るので、継電器より 10⁵ 倍軽い。管が 100 h しか持たなくてもリード継電器と同じ程度。</li>
+<li>p_tube が消耗なしの半分になる寿命の境目は M50_tube 10⁴ で約 160 h、10³ で約 1,600 h、10⁵ で約 16 h。ENIAC から出した値（4×10⁴〜9×10⁵ h）より 1〜3 桁短い。</li>
+<li>主の p_vac は 0.492→0.489、遅い κ の F_heavy は 1.378→1.375 で、乱数の揺れと同じ程度しか動かない。混合 1.090、速い 1.016。</li>
+</ul>
+<h2 id="_4">仮説の判定</h2>
+<ul>
+<li>H133a（確認的）支持：18,000 本（Vacuum tube の記事は over 17,000）、2 日に 1 本。</li>
+<li>H133b（確認的）支持：電源を切らないことで故障を減らした（数値はない）。</li>
+<li>H133c（確認的）支持：数十万時間・数万時間。</li>
+<li>H133d（予測）支持：作り直しは初めの本数の 2.9 倍（10 倍未満）、継電器の汎用は 3,156 倍。</li>
+<li>H133e（予測）支持：p_tube 0.231、p_vac 0.489、F 1.375。ただし範囲は 120 の値の近くに置いており、情報は少ない（弱い）。</li>
+<li>H133f（記述）：上の表。</li>
+</ul>
+<h2 id="_5">結論</h2>
+<p>120 の非対称は p_vac の向きを変えない。管の経路の弱いところはすり減りではなく、高真空を作れるか（119・118 の p_hard_Hg・p_cath など）で決まる。手作りの管が数百時間しか持たず、作れる数も千本程度という悲観が重なったときだけ、管の経路が実質的に消える。</p>
+<h2 id="_6">批判</h2>
+<ul>
+<li>手作りの管の寿命は資料がなく、主の 10⁴ h は推測。ENIAC の値は工場の管で、管の故障の定義（切れた本数）も運用時間あたりの粗い値。</li>
+<li>停電と暖機の効果は倍率 10 の推測だけ。Colossus の記事は数値を出さない。</li>
+<li>管の経路の光電管・電源・ヒーターの電力（50 本を 3 年点け続ける）を数えていない。電力は p_prec の側で、二重に数えないように外した。</li>
+<li>主の F の差 0.003 はモンテカルロの揺れと同じ程度で、「変わらない」以上は言えない。</li>
+</ul>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>p_vac の主は 0.49 のまま（遅い κ の F_heavy 1.375）でよい。読取装置の手引きで管の経路を書くなら、管の数を増やすより「電源を切らない」「ヒーターを下げて使う」ことを先に書く。継電器の経路の改良（リード継電器、動く接点を減らす回路）の方が、管の寿命を延ばすより p_vac に効く。</p><footer><hr><small>自動生成</small></footer></body></html>
