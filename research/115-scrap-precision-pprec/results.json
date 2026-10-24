@@ -1,0 +1,265 @@
+{
+ "study": "115-scrap-precision-pprec",
+ "seed": 20261115,
+ "check_114_table_reproduced_maxdiff": 0.0,
+ "achievable": [
+  {
+   "what": "Gingery 式の盤（廃材の Al の鋳物、きさげ）で試し削り 12 in の先細り",
+   "year": 2013,
+   "mm": 1.27e-05,
+   "over_mm": 0.30479999999999996,
+   "src": "https://www.madmodder.net/index.php?topic=8191.25（vtsteam、dial caliper で測定、'less than 1/2 a thou'。電動機・pillow bearings は市販）"
+  },
+  {
+   "what": "Maudslay の卓上の micrometer の読み",
+   "year": 1800,
+   "mm": 2.54e-06,
+   "over_mm": null,
+   "src": "https://en.wikipedia.org/wiki/Henry_Maudslay"
+  },
+  {
+   "what": "Nasmyth：Maudslay の測り方は千分の一インチを測れ、それは機械の要求を越えていた",
+   "year": 1830,
+   "mm": 2.54e-05,
+   "over_mm": null,
+   "src": "Roe 1916（https://www.gutenberg.org/cache/epub/72046/pg72046.txt）"
+  },
+  {
+   "what": "Whitworth の end measurement の絶対精度（分解能は百万分の一インチ）",
+   "year": 1840,
+   "mm": 0.0005,
+   "over_mm": null,
+   "src": "https://en.wikipedia.org/wiki/Joseph_Whitworth"
+  },
+  {
+   "what": "三面の擦り合わせの平面（'millionths of an inch'）",
+   "year": 1830,
+   "mm": 2.54e-08,
+   "over_mm": null,
+   "src": "https://en.wikipedia.org/wiki/Machine_tool"
+  }
+ ],
+ "required": [
+  {
+   "what": "Watt の 18 in のシリンダー（失敗：長径と短径の差）",
+   "year": 1769,
+   "mm": 0.009524999999999999,
+   "ok": false,
+   "src": "Roe 1916"
+  },
+  {
+   "what": "Wilkinson の 50 in のシリンダー（商業の成功：'thickness of an old shilling'）",
+   "year": 1776,
+   "mm": 0.0015875,
+   "ok": true,
+   "src": "Roe 1916（Boulton の言葉）＋ 1 シリングの厚さ約 1/16 in（https://chestofbooks.com/reference/Wonder-Book-Of-Knowledge/The-Beginning-Of-Precision-In-Mechanics.html）"
+  },
+  {
+   "what": "Nasmyth：千分の一インチは 'quite beyond all the requirements of engineering mechanism'（1830〜40 年代の見方）",
+   "year": 1840,
+   "mm": 2.54e-05,
+   "ok": true,
+   "src": "Roe 1916"
+  },
+  {
+   "what": "現代の旋盤の中ぐりで容易に保てる公差（参考）",
+   "year": 2020,
+   "mm": 0.25,
+   "ok": true,
+   "src": "https://en.wikipedia.org/wiki/Boring_(manufacturing)"
+  }
+ ],
+ "pprec_versions": {
+  "main": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    2.54e-05,
+    0.0015875,
+    1.0
+   ],
+   "p_prec": 0.90254
+  },
+  "report_median": {
+   "params_mm": [
+    1.27e-05,
+    1.0,
+    2.54e-05,
+    0.0015875,
+    1.0
+   ],
+   "p_prec": 0.964765
+  },
+  "pess_4x": {
+   "params_mm": [
+    0.0001016,
+    1.5,
+    2.54e-05,
+    0.0015875,
+    1.0
+   ],
+   "p_prec": 0.634335
+  },
+  "rolling_bearing": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    2.54e-06,
+    0.0015875,
+    1.0
+   ],
+   "p_prec": 0.6419325
+  },
+  "main_exec0.5": {
+   "params_mm": [
+    2.54e-05,
+    1.0,
+    2.54e-05,
+    0.0015875,
+    0.5
+   ],
+   "p_prec": 0.45183375
+  },
+  "worst": {
+   "params_mm": [
+    0.0001016,
+    1.5,
+    2.54e-06,
+    0.0015875,
+    0.5
+   ],
+   "p_prec": 0.21423125
+  }
+ },
+ "table": {
+  "slow_Tasmania|main": {
+   "F_heavy": 2.3061107934821257,
+   "F_total": 1.4735572905708114,
+   "U3_heavy_rel_drop": 0.4154477692556984
+  },
+  "trigger_mix|main": {
+   "F_heavy": 1.2909005049464013,
+   "F_total": 1.1054719520239409,
+   "U3_heavy_rel_drop": 0.11895862590472062
+  },
+  "fast_state|main": {
+   "F_heavy": 1.0303745316968587,
+   "F_total": 1.011012910240465,
+   "U3_heavy_rel_drop": 0.039429620827481804
+  },
+  "slow_Tasmania|report_median": {
+   "F_heavy": 2.3820088794829286,
+   "F_total": 1.5010757002994592,
+   "U3_heavy_rel_drop": 0.44066832307082926
+  },
+  "trigger_mix|report_median": {
+   "F_heavy": 1.3067082955759863,
+   "F_total": 1.1112033911467274,
+   "U3_heavy_rel_drop": 0.1255842425551834
+  },
+  "fast_state|report_median": {
+   "F_heavy": 1.032580895599813,
+   "F_total": 1.0118128727835438,
+   "U3_heavy_rel_drop": 0.04110042850455509
+  },
+  "slow_Tasmania|pess_4x": {
+   "F_heavy": 1.9518710947310496,
+   "F_total": 1.3451204130943253,
+   "U3_heavy_rel_drop": 0.3052680854128407
+  },
+  "trigger_mix|pess_4x": {
+   "F_heavy": 1.2129665732323485,
+   "F_total": 1.077215404623667,
+   "U3_heavy_rel_drop": 0.09061971120953505
+  },
+  "fast_state|pess_4x": {
+   "F_heavy": 1.0248096997255602,
+   "F_total": 1.0089952661294446,
+   "U3_heavy_rel_drop": 0.032998451622195835
+  },
+  "slow_Tasmania|rolling_bearing": {
+   "F_heavy": 1.9572528436420658,
+   "F_total": 1.3470716766820323,
+   "U3_heavy_rel_drop": 0.3075078319109863
+  },
+  "trigger_mix|rolling_bearing": {
+   "F_heavy": 1.2137641616555113,
+   "F_total": 1.077504586685823,
+   "U3_heavy_rel_drop": 0.09105181664326101
+  },
+  "fast_state|rolling_bearing": {
+   "F_heavy": 1.0266939120909193,
+   "F_total": 1.0096784260168388,
+   "U3_heavy_rel_drop": 0.033178495552914966
+  },
+  "slow_Tasmania|main_exec0.5": {
+   "F_heavy": 1.6891160160394787,
+   "F_total": 1.2498531633557572,
+   "U3_heavy_rel_drop": 0.23172374059270462
+  },
+  "trigger_mix|main_exec0.5": {
+   "F_heavy": 1.1561964135506597,
+   "F_total": 1.0566322173946117,
+   "U3_heavy_rel_drop": 0.07167908969788617
+  },
+  "fast_state|main_exec0.5": {
+   "F_heavy": 1.01869410033667,
+   "F_total": 1.0067779299805728,
+   "U3_heavy_rel_drop": 0.028662993770480094
+  },
+  "slow_Tasmania|worst": {
+   "F_heavy": 1.3745913603805489,
+   "F_total": 1.1358157903435737,
+   "U3_heavy_rel_drop": 0.13271398221165964
+  },
+  "trigger_mix|worst": {
+   "F_heavy": 1.0879478430105485,
+   "F_total": 1.0318872965872876,
+   "U3_heavy_rel_drop": 0.0455295092002449
+  },
+  "fast_state|worst": {
+   "F_heavy": 1.0151195654755107,
+   "F_total": 1.0054819089597307,
+   "U3_heavy_rel_drop": 0.02222462280796511
+  }
+ },
+ "hypotheses": {
+  "H127a": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "≤25 µm の記述 4 件（Maudslay の micrometer 0.0001 in・1800 年ごろ、Nasmyth の千分の一 in、三面の平面 'millionths'、Whitworth 1840 の絶対 約 500 nm）。ただし測る精度で、作る精度の数値ではない"
+  },
+  "H127b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "蒸気機関の 2 件：Wilkinson 1/16 in=1.59 mm（成功）、Watt 3/8 in=9.5 mm（失敗）はどちらも ≥0.1 mm。発電機の空隙は開いて確かめた資料がなく検定できず"
+  },
+  "H127c": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Wikipedia に数値なし。検索で開いて確かめた実測は 1 件（madmodder の vtsteam、<0.0005 in/12 in）。Gingery 本人の 0.001 in は無許可の複製の PDF の検索の抜粋でしか見えず、開いていないので数えない"
+  },
+  "H127d": {
+   "class": "prediction",
+   "value": {
+    "p_prec": 0.90254,
+    "F_slow": 2.3061107934821257
+   },
+   "rule": "p_prec>=0.5 and F_slow>=1.5",
+   "supported": true
+  },
+  "H127e": {
+   "class": "prediction",
+   "value": 1.6891160160394787,
+   "rule": ">=1.1",
+   "supported": true,
+   "note": "p_prec の主が 0.2 以上なので p_prec≥0.1 の構造から自明に近い"
+  },
+  "H127f": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "精度の表"
+  }
+ },
+ "runtime_s": 201.73785710334778
+}

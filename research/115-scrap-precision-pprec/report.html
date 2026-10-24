@@ -1,0 +1,49 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究115：廃材から作った盤・平面が T2e の精度に届く確率 p_prec（open_problems 272） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="115-t2e-p_precopen_problems-272">研究115：廃材から作った盤・平面が T2e の精度に届く確率 p_prec（open_problems 272）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・重い崩壊の割合は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第115回、JST 19時台）。sim.py（seed 20261115、約202秒。114 の表を差 0 で再現の assert。実行は 1 回）、results.json、stdout.txt、fig_pprec.png、PREREGISTRATION.md（19:36 JST、新しい資料を開く前・sim.py の前）、sources/（wikitext 11 本、Roe 1916 の Gutenberg 本文、madmodder の頁、chestofbooks の頁、SHA256SUMS.txt、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>114 で F_heavy（遅い κ）は p_prec だけで 1.075〜2.433 動いた。廃材と手作業の方法で届く精度 ε_a と、T2e の最初の世代が実際に要った精度 ε_r を資料で置き、p_prec = P(ε_a ≤ ε_r) × p_exec とする【独自仮説】。</p>
+<h2 id="_2">資料（開いて確かめたもの）</h2>
+<p>届く精度：
+- 【事実（<a href="https://www.madmodder.net/index.php?topic=8191.25">madmodder の Gingery 旋盤の記録</a>）】廃材の Al で作った Gingery 旋盤の試し削りで "The total taper was less than 1/2 a thou over the full 12" length of the bar"（dial caliper で測定）。主軸台・心押し台は盤の摺動面に沿って中ぐるので平行が自動的に出ると説明。電動機と pillow bearings は市販品。
+- 【事実（<a href="https://en.wikipedia.org/wiki/Henry_Maudslay">Henry Maudslay</a>）】Maudslay の卓上の micrometer は 0.0001 in（約 3 µm）まで測れた。
+- 【事実（<a href="https://www.gutenberg.org/cache/epub/72046/pg72046.txt">Roe 1916</a>）】Nasmyth は Maudslay の測り方を千分の一インチまで測れ "quite beyond all the requirements of engineering mechanism" と書いた。Whitworth は 1856 年に "easier to work to the ten-thousandth of an inch from standards of end measurements"。
+- 【事実（<a href="https://en.wikipedia.org/wiki/Joseph_Whitworth">Joseph Whitworth</a>）】1840 年の end measurement の分解能は百万分の一インチ、絶対精度は熱膨張などで約 500 nm。
+- 【事実（<a href="https://en.wikipedia.org/wiki/Machine_tool">Machine tool</a>、<a href="https://en.wikipedia.org/wiki/Surface_plate">Surface plate</a>）】三面の擦り合わせは基準なしに "plane surfaces accurate to within millionths of an inch" を生む。</p>
+<p>要る精度：
+- 【事実（Roe 1916）】Watt の 18 in のシリンダーは長径と短径の差が 3/8 in（9.5 mm）で、ピストンを密にできず失敗。
+- 【事実（Roe 1916 の Boulton の言葉、1776）】Wilkinson の 50 in のシリンダーは "does not err the thickness of an old shilling in any part" で、蒸気機関を商業の成功にした。【事実（<a href="https://chestofbooks.com/reference/Wonder-Book-Of-Knowledge/The-Beginning-Of-Precision-In-Mechanics.html">chestofbooks</a>）】シリングの厚さは約 1/16 in（1.6 mm）。
+- 発電機の空隙：検索の要約に 1883 年の Edison-Hopkinson 機で 1/4 in の記述が出たが、本文は有料で開けず数えない。</p>
+<h2 id="_3">模型と版</h2>
+<p>ε_a は対数正規、ε_r は対数一様【推測】。114 の t2e_two(N_small=100, L_scrap=L_bulk, p_prec) に当てた。
+| 版 | ε_a 中央値・σ | ε_r の幅 | p_exec | p_prec | 遅い κ | 混合 | 速い |
+|---|---|---|---|---|---|---|---|
+| 主 | 0.001 in・1.0（報告の 2 倍） | 0.001 in〜1/16 in | 1 | <strong>0.903</strong> | <strong>2.306</strong> | 1.291 | 1.030 |
+| 報告そのまま | 0.0005 in・1.0 | 同 | 1 | 0.965 | 2.382 | 1.307 | 1.033 |
+| 悲観（成功例の偏り 8 倍） | 0.004 in・1.5 | 同 | 1 | 0.634 | 1.952 | 1.213 | 1.025 |
+| 転がり軸受級の部品が要る | 0.001 in・1.0 | 0.0001 in〜1/16 in | 1 | 0.642 | 1.957 | 1.214 | 1.027 |
+| 実行しきる群が半分 | 主 | 主 | 0.5 | 0.452 | 1.689 | 1.156 | 1.019 |
+| 最悪の重ね | 0.004 in・1.5 | 0.0001 in〜 | 0.5 | 0.214 | 1.375 | 1.088 | 1.015 |</p>
+<h2 id="_4">批判的検討</h2>
+<ol>
+<li><strong>精度は縛りにならない側に寄った。</strong> 史実の T2e の最初の世代（蒸気機関）が要ったのは 1.6 mm の桁で、廃材の盤の報告（13 µm/305 mm）より 2 桁粗い。19 世紀の機械の要求でも千分の一インチは「要求を越える」と書かれている。p_prec を下げるのは、手順を実行しきれない（p_exec）か、T2e に 0.0001 in 級の部品が要る場合だけ【計算】。</li>
+<li>届く精度の実測は 1 件で、うまくいった人が掲示板に書いた例（成功例の偏り）。しかも dial caliper・市販の電動機と軸受・砥石に頼る。悲観の版はこれを 8 倍で補ったが、倍率は【推測】。</li>
+<li>Maudslay・Whitworth の数値は<strong>測る</strong>精度で、<strong>作る</strong>精度ではない。三面の擦り合わせの "millionths" は Wikipedia の記述で、条件（鋳鉄の平板、光明丹、きさげ）が要る。</li>
+<li>ε_r の分布の形と下端（Nasmyth の 0.001 in）は資料の記述を【推測】で分布にしたもの。T2e に発電機・電動機を入れると空隙の公差が要るが、開いて確かめた数値がない。</li>
+<li>主では F_heavy の幅は p_prec から κ の重みに戻った：遅い κ で 2.31、混合で 1.29、速い κ で 1.03。混合では p_prec=1 でも 1.5 に届かない（114 の 1.318）。</li>
+</ol>
+<h2 id="_5">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H127a（確認的）：<strong>支持</strong>（≤25 µm の記述 4 件。ただし測る精度）。</li>
+<li>H127b（確認的）：<strong>支持</strong>（蒸気機関の 2 件 1.6 mm・9.5 mm）。発電機の空隙は検定できず。</li>
+<li>H127c（確認的）：<strong>支持</strong>（開いて確かめた実測 1 件。Gingery 本人の 0.001 in は無許可の複製の PDF の検索の抜粋でしか見えず数えない）。</li>
+<li>H127d（予測）：<strong>支持</strong>（p_prec 0.903、F_heavy 2.306）。</li>
+<li>H127e（予測）：<strong>支持</strong>（1.689 ≥ 1.1）。主の p_prec が高いので、114 の構造（p_prec≥0.1 で 1.1 越え）から自明に近い。</li>
+<li>H127f（記述、支持に数えない）：精度の表。</li>
+</ul>
+<h2 id="_6">逸脱</h2>
+<p>登録で名指ししていない資料（Roe 1916、Boring (manufacturing)、Plain bearing、Shilling、chestofbooks、madmodder）を加えた。Engineering tolerance・Dynamo・Lapping の頁には使える数値がなかった。版の値（中央値の倍率、σ）は sim.py を書くときに決めたもので登録していない。再実行の一致は未確認。</p>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は p_prec の主を 0.9（版 0.21〜0.97）に置き、F_heavy の幅は再び κ の重みと p_exec（手順を実行しきれるか）で決まると記録する。知識の束を作る人は、精度の数値より「盤の摺動面に沿って中ぐる」「三面で擦り合わせる」のような、測らずに精度が出る手順と、その失敗のしかたを書く方が模型の中では効く。</p><footer><hr><small>自動生成</small></footer></body></html>

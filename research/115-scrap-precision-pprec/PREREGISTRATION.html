@@ -1,0 +1,25 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究115 事前登録（2026-10-24 19:36 JST、新しい資料を開く前・sim.py の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="115-2026-10-24-1936-jstsimpy">研究115 事前登録（2026-10-24 19:36 JST、新しい資料を開く前・sim.py の前）</h1>
+<p>課題：open_problems 272。廃材から作った盤・平面が T2e の精度に届く確率 p_prec を資料で置き、114 の走査に当てる。
+指標の注：F_heavy は模型の中の量で、生存確率でも復興確率でもない。</p>
+<h2 id="_1">模型（計画）</h2>
+<p>114 の sim.py を「# ---------- 仮説」の前まで exec して 114 の表を差 0 で再現（assert）。
+p_prec を 2 つの因子に分ける【独自仮説】：
+- 届く精度 ε_a：手作業の生成的な方法（三面の擦り合わせ・きさげ・ラップ・Maudslay 式のねじの補正）で、工業の機械なしに得られた精度の記録から対数正規で置く。
+- 要る精度 ε_r：T2e の段（初期の電気・蒸気の機械：発電機・電動機の空隙、蒸気機関のシリンダー、ねじ、軸受）で史実の最初の世代が実際に使った公差。代替のきかない部品の中で最も厳しいものを縛りとする。
+- p_prec = P(ε_a ≤ ε_r) × p_exec（手順を群が実行しきる確率。主は 1、版で 0.5）。
+p_prec を 114 の t2e_two(N_small=100, L_bulk, p_prec) に入れて F_heavy を出す。</p>
+<h2 id="wikipedia-surface-platehenry-maudslayjoseph-whitworthjohn-wilkinson-industrialistengineering-tolerance-gingery">確認的な仮説（未見の資料：Wikipedia の Surface plate、Henry Maudslay、Joseph Whitworth、John Wilkinson (industrialist)、Engineering tolerance、ほかに見つかれば Gingery の盤の実測の記録）</h2>
+<ul>
+<li>H127a：19 世紀前半までの手作業の生成的な方法（平面・ねじ・測定）で、25 µm（0.001 inch）以下の精度に届いたと書かれた記述が 1 件以上ある。</li>
+<li>H127b：T2e の最初の世代の主要な部品（蒸気機関のシリンダー、初期の発電機の空隙など）について資料にある公差・誤差は 0.1 mm より粗い（≥0.1 mm）。</li>
+<li>H127c：Gingery 式の盤の精度の実測の数値は、公開の資料（Wikipedia と検索で見つかる頁）に見つからないか、見つかっても 1〜2 件以下。</li>
+</ul>
+<h2 id="_2">入力判明後の予測</h2>
+<ul>
+<li>H127d：主の p_prec は 0.5 以上で、F_heavy（遅い κ）は 1.5 以上。</li>
+<li>H127e：p_exec を 0.5 にしても F_heavy（遅い κ）は 1.1 以上（構造からの自明さの点検：p_prec≥0.1 なら 1.1 を越えるので、p_prec の主が 0.2 未満なら自明でない）。</li>
+</ul>
+<h2 id="_3">記述</h2>
+<ul>
+<li>H127f：精度の表（方法・年・精度・出典）。支持に数えない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

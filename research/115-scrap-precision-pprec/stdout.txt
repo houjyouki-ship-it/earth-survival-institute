@@ -1,0 +1,37 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+check_114 0.0
+p_prec main 0.9025
+p_prec report_median 0.9648
+p_prec pess_4x 0.6343
+p_prec rolling_bearing 0.6419
+p_prec main_exec0.5 0.4518
+p_prec worst 0.2142
+slow_Tasmania|main F_heavy 2.3061
+trigger_mix|main F_heavy 1.2909
+fast_state|main F_heavy 1.0304
+slow_Tasmania|report_median F_heavy 2.382
+trigger_mix|report_median F_heavy 1.3067
+fast_state|report_median F_heavy 1.0326
+slow_Tasmania|pess_4x F_heavy 1.9519
+trigger_mix|pess_4x F_heavy 1.213
+fast_state|pess_4x F_heavy 1.0248
+slow_Tasmania|rolling_bearing F_heavy 1.9573
+trigger_mix|rolling_bearing F_heavy 1.2138
+fast_state|rolling_bearing F_heavy 1.0267
+slow_Tasmania|main_exec0.5 F_heavy 1.6891
+trigger_mix|main_exec0.5 F_heavy 1.1562
+fast_state|main_exec0.5 F_heavy 1.0187
+slow_Tasmania|worst F_heavy 1.3746
+trigger_mix|worst F_heavy 1.0879
+fast_state|worst F_heavy 1.0151
+H127a confirmatory True ≤25 µm の記述 4 件（Maudslay の micrometer 0.0001 in・1800 年ごろ、Nasmyth の千分の一 in、三面の平面 'millionths'、Whitworth 1840 の絶対 約 500 nm）
+H127b confirmatory True 蒸気機関の 2 件：Wilkinson 1/16 in=1.59 mm（成功）、Watt 3/8 in=9.5 mm（失敗）はどちらも ≥0.1 mm。発電機の空隙は開いて確かめた資料がなく検定できず
+H127c confirmatory True Wikipedia に数値なし。検索で開いて確かめた実測は 1 件（madmodder の vtsteam、<0.0005 in/12 in）。Gingery 本人の 0.001 in は無許可の複製の PDF の検索の抜粋でしか見えず、開
+H127d prediction True {'p_prec': 0.90254, 'F_slow': 2.3061107934821257}
+H127e prediction True 1.6891160160394787
+H127f descriptive None 精度の表
+runtime 201.7
+done
