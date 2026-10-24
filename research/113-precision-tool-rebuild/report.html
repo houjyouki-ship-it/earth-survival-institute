@@ -1,0 +1,159 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究113：閾値を下回った小さな群は T2e の段の精密な道具を作り直せるか（open_problems 267） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="113-t2e-open_problems-267">研究113：閾値を下回った小さな群は T2e の段の精密な道具を作り直せるか（open_problems 267）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・重い崩壊の割合は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-24（第113回、JST 15〜16時台）。sim.py（seed 20261113、約160秒。112 の表を差 0 で再現する assert。2 回実行し stdout は runtime 以外一致）、results.json、stdout.txt、fig_tool_rebuild.png、PREREGISTRATION.md（15:37 JST、新しい資料を開く前・sim.py の前）、sources/（Wikipedia の wikitext 12 本、SHA256SUMS.txt、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>112 で、資本で縛るのは T2e の段の精密な道具（平面・ねじ・目盛り）だけと分かり、F_heavy（遅い κ）は道具を作り直せないなら 1.07、作り直せるなら 2.43 だった。どちらに近いかは「作り直しに要る社会の大きさ N_tool」が N_T2e よりどれだけ小さいかで決まる。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>T2e の道具の条件を「群の人口が N_tool に達した時点で作り直せる。それまでは廃墟の道具（107 の Myford、中央値 70 年）でつなぐ」とした【独自仮説】。t_tool = max(0, t_below − ln(N_T2e/N_tool)/r_pop)、条件は min(t_below, t_tool) ≤ L。N_tool ≥ N_T2e なら 112 の X と同じ、N_tool=1 なら 112 の R と同じになる。製鉄・レンズは 112 の data_main をそのまま使った。</li>
+<li>N_tool の版：事例の社会の人口（最小 5.2×10⁶、England 1801 の 8.29×10⁶）、その 1/10、工房の規模（10³〜10⁵ の対数一様、10⁴）【推測】、比 c = N_tool/N_T2e の走査（10⁻⁴〜1）。</li>
+<li>模型の N_T2e は 5〜95% で 6.0×10⁵〜4.5×10⁶（中央値 1.8×10⁶）【計算】。</li>
+</ul>
+<h2 id="_3">新しい資料（確認的な検証。資料を開く前に登録）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>年</th>
+<th>社会と人口（下限）</th>
+<th>前提</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hindley の目盛り機・ねじ切り盤</td>
+<td>約1739</td>
+<td>England 5.2M</td>
+<td>時計の歯切り盤から</td>
+</tr>
+<tr>
+<td>Wilkinson の中ぐり盤</td>
+<td>1774</td>
+<td>England</td>
+<td>Watt は "trying for several years"</td>
+</tr>
+<tr>
+<td>Ramsden のねじ切り盤→目盛り機</td>
+<td>1775</td>
+<td>England</td>
+<td>最初の盤でより正確な盤を作った</td>
+</tr>
+<tr>
+<td>Senot のねじ切り盤</td>
+<td>1795</td>
+<td>France 24.6M</td>
+<td>不明</td>
+</tr>
+<tr>
+<td>D. Wilkinson の往復台</td>
+<td>1798</td>
+<td>US 5,308,483</td>
+<td>Britain と交易あり</td>
+</tr>
+<tr>
+<td>Maudslay の盤・平面・micrometer</td>
+<td>1797〜1800</td>
+<td>England 8,287,907（1801）</td>
+<td>Bramah の工房で 8 年、1810 年に 80 人を雇う</td>
+</tr>
+<tr>
+<td>Whitworth の三面の削り</td>
+<td>1830年代・1840 報告</td>
+<td>GB 10.5M（1801）</td>
+<td>Maudslay の工房の徒弟</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Surface_plate">Surface plate</a>）】"Unlike most mechanical precision instruments, surface plates do not derive their precision from more-precise standards. Instead they originate precision by application of the principle of 'automatic generation of gages'. In this process, three approximately flat surfaces are progressively refined ... by manually rubbing them against each other in pairs ... and then hand-scraping the high points." 平面の重要性は Maudslay が 1800 年ごろ初めて認めた。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Screw-cutting_lathe">Screw-cutting lathe</a>）】"The first truly modern screw-cutting lathe was likely constructed by Jesse Ramsden in 1775 ... Ramsden was able to use his first screw-cutting lathe to make even more accurate lathes." 15 世紀の Hausbuch に往復台と親ねじがあるが、その後 3 世紀の設計は "few were significantly accurate and practical to use"。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Henry_Maudslay">Henry Maudslay</a>）】Bramah の下で 8 年働いた後 1797 年に独立、"By 1810, Maudslay was employing 80 workers"、micrometer は 0.0001 in。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Joseph_Whitworth">Joseph Whitworth</a>）】三面の方法を 1830 年代に広め、1840 年の端の測定は分解能 100 万分の 1 in、絶対の精度は約 500 nm。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Machine_tool">Machine tool</a>）】Watt は精確な中ぐりのシリンダーを得られず数年試み、1774 年の Wilkinson の中ぐり盤で解決。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Dividing_engine">Dividing engine</a>）】最初の円の目盛り機は Hindley（約 1739、時計の歯切り盤から）、Ramsden は Chaulnes の 5 年後。製作の年数の記述はない。</li>
+<li>人口：【事実（<a href="https://en.wikipedia.org/wiki/Demographics_of_England">Demographics of England</a>）】1700 年 5,200,000、1801 年 8,287,907。【事実（<a href="https://en.wikipedia.org/wiki/Demographics_of_the_United_Kingdom">Demographics of the United Kingdom</a>）】1801 年の Great Britain 10.5M。【事実（<a href="https://en.wikipedia.org/wiki/1800_United_States_census">1800 United States census</a>）】5,308,483。【事実（<a href="https://en.wikipedia.org/wiki/Demographics_of_France">Demographics of France</a>）】1740 年 24,600,000。</li>
+</ul>
+<h2 id="a_ordu3-f_heavy">結果（A_Ord/U3 の F_heavy。遅い κ／引き金の混合／速い κ）</h2>
+<table>
+<thead>
+<tr>
+<th>版（N_tool）</th>
+<th>遅い</th>
+<th>混合</th>
+<th>速い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作り直せない（112 の data_main 相当）</td>
+<td>1.075</td>
+<td>1.020</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td>事例の社会の最小 5.2×10⁶</td>
+<td>1.075</td>
+<td>1.020</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td>England 1801 8.3×10⁶</td>
+<td>1.075</td>
+<td>1.020</td>
+<td>1.009</td>
+</tr>
+<tr>
+<td>事例の 1/10 = 5.2×10⁵</td>
+<td><strong>1.213</strong></td>
+<td>1.057</td>
+<td>1.021</td>
+</tr>
+<tr>
+<td>工房の規模 10³〜10⁵</td>
+<td>1.925</td>
+<td>1.215</td>
+<td>1.032</td>
+</tr>
+<tr>
+<td>工房 10⁴</td>
+<td>1.959</td>
+<td>1.223</td>
+<td>1.032</td>
+</tr>
+<tr>
+<td>作り直せる（N_tool=1、112 の R 相当）</td>
+<td>2.442</td>
+<td>1.320</td>
+<td>1.033</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>事例の社会の最小（5.2×10⁶）は模型の N_T2e の 95% 点（4.5×10⁶）より大きく、標本の 100% で N_T2e を上回る【計算】。事例の大きさを N_tool とすると、道具は段の閾値に届くまで作り直せず、112 の X と同じになる。</li>
+<li>比の走査：F_heavy ≥ 1.1 になるのは c = N_tool/N_T2e が遅い κ で ≤0.56、混合で ≤0.10。F_heavy ≥ 1.5 は遅い κ で c ≤ 0.056（混合では届かない）【計算】。</li>
+<li>検算：作り直せない版と 112 の data_main の差は 0.0009、N_tool=1 と 112 の R の差は 0.007（非鉄金属の乱数を引き直した揺れ）。</li>
+</ul>
+<h2 id="_4">批判的検討</h2>
+<ol>
+<li><strong>事例は N_tool の上限しか与えない。</strong> 7 件はすべて 500 万人以上の社会で起きたが、これは「初めて発明した」場所で、需要（時計・航海・蒸気機関）と職人の数が多い社会に発明が集まるのは当然である。手順を知った小さな群がいくつの人数で作り直せるかの下限には何も言えない。H125a の支持は選択の効果と区別できない【推測】。</li>
+<li>一方で、三面の方法は「より精密な基準を要らない」と明記されており、Ramsden は自分の盤からより正確な盤を作った。知識さえあれば、外の工場なしに精度を自分で上げられる経路は資料で確かめられた。ただし前提には鋳鉄の平板、焼き入れした削り刃、時計の歯切りの技能（Hindley）があり、これらは T2e より下の段（製鉄・鋳物）に乗る。</li>
+<li>結論の幅は、上の 2 点の間でどこに N_tool を置くかでまるごと決まる：事例の大きさなら 1.07、1 桁下で 1.21、工房の規模なら 1.9〜2.0。資料を足しても今回の種類（発明の年表）では幅は縮まない。縮めるには「外からの道具なしに、手順の知識を持つ小さな集団が精密な道具を作り直した例」が要る。</li>
+<li>二重の数えの判定：比 c が 0.1 以上なら N_tool は N_T2e と同じ桁で、R の版（2.43）は N_k と二重に数えている。c が 0.1 を下回るのは工房の規模の版だけで、それは【推測】である。よって 112 の R の版は、根拠のある版としては扱えない。</li>
+<li>模型の N_T2e（中央値 1.8×10⁶）自体が、史実の発明の社会（5〜10×10⁶）より小さい。N_T2e の較正（024・038）が楽観である可能性もある【推測】。</li>
+</ol>
+<h2 id="_5">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H125a（確認的）：<strong>支持</strong>（7 件すべて 5.2×10⁶ 以上、小さな孤立した群の例 0 件）。ただし選択の効果と区別できない。</li>
+<li>H125b（確認的）：<strong>支持</strong>（Surface plate の記述）。</li>
+<li>H125c（確認的）：<strong>検定できず</strong>（製作の年数の記述なし）。</li>
+<li>H125d（確認的）：<strong>支持</strong>（Bramah の工房で 8 年、1810 年に 80 人。Ramsden は盤から盤）。</li>
+<li>H125e（予測）：<strong>支持</strong>（1.075、差 0.000）。</li>
+<li>H125f（予測）：<strong>支持</strong>（1.213 &lt; 1.73）。</li>
+<li>H125g（記述、支持に数えない）：事例の表。</li>
+</ul>
+<h2 id="_6">逸脱</h2>
+<p>工房の規模の 2 版と比の走査は登録で名指ししていない。社会の人口は一部の事例で年の合わない下限（England 1700、GB 1801、France 1740）を使った。非鉄金属の S は 112 と同じ p 0.3 で引き直した。</p>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は、重い崩壊の主の版を「T2e の道具は作り直せない（F_heavy 1.07）」のまま置き、R の版（2.43）は「手順の知識で N_tool が N_T2e の 1/10 未満になる」という未検証の仮定つきの上限として扱う。知識の束を作る人は、三面の擦り合わせと「盤で盤を作る」手順（鋳鉄の平板・削り刃・ねじの親から子へ）を入れる根拠を得た。模型の中では、これが小さな群で効くなら F_heavy を最大 2.4 倍まで動かす最も大きい単一の項目である。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,471 @@
+{
+ "study": "113-precision-tool-rebuild",
+ "seed": 20261113,
+ "check_112_table_reproduced_maxdiff": 0.0,
+ "N_T2e_q": [
+  597624.2635147426,
+  1822581.50986058,
+  4458030.911463136
+ ],
+ "r_pop_q": [
+  0.00150697987174789,
+  0.0029188908722425303,
+  0.005664788169086829
+ ],
+ "cases": [
+  {
+   "case": "Hindley の目盛り機・ねじ切り盤",
+   "year": 1739,
+   "place": "England (York)",
+   "society_pop": 5200000.0,
+   "pop_note": "England 1700 5.2M (Demographics of England)",
+   "prereq": "時計の歯切り盤から（Dividing engine）"
+  },
+  {
+   "case": "Wilkinson の中ぐり盤",
+   "year": 1774,
+   "place": "England",
+   "society_pop": 5200000.0,
+   "pop_note": "下限として 1700 の値",
+   "prereq": "Watt は数年失敗（Machine tool）"
+  },
+  {
+   "case": "Ramsden のねじ切り盤→目盛り機",
+   "year": 1775,
+   "place": "London",
+   "society_pop": 5200000.0,
+   "pop_note": "下限として 1700 の値",
+   "prereq": "最初の盤でより正確な盤を作る（Screw-cutting lathe）。Dollond の家の工房と徒弟"
+  },
+  {
+   "case": "Senot のねじ切り盤",
+   "year": 1795,
+   "place": "France",
+   "society_pop": 24600000.0,
+   "pop_note": "France 1740 24.6M（下限）",
+   "prereq": "不明"
+  },
+  {
+   "case": "D. Wilkinson の往復台",
+   "year": 1798,
+   "place": "Rhode Island, US",
+   "society_pop": 5308000.0,
+   "pop_note": "1800 US census 5,308,483",
+   "prereq": "Britain の機械と交易あり"
+  },
+  {
+   "case": "Maudslay のねじ切り盤・平面の三枚・Lord Chancellor",
+   "year": 1800,
+   "place": "London",
+   "society_pop": 8290000.0,
+   "pop_note": "England 1801 census 8,287,907",
+   "prereq": "Bramah の工房で 8 年、1810 年に 80 人"
+  },
+  {
+   "case": "Whitworth の三面の削り（1830年代）・1840 年の報告",
+   "year": 1840,
+   "place": "Manchester",
+   "society_pop": 10500000.0,
+   "pop_note": "GB 1801 10.5M（下限）",
+   "prereq": "Maudslay の工房で徒弟（1825〜）"
+  }
+ ],
+ "case_society_pop_min_median": [
+  5200000.0,
+  5308000.0
+ ],
+ "table": {
+  "slow_Tasmania|base_X_inf": {
+   "F_heavy": 1.074711163033657,
+   "F_total": 1.027088066432166,
+   "U3_heavy_rel_drop": 0.04566634258759139
+  },
+  "trigger_mix|base_X_inf": {
+   "F_heavy": 1.0203597689905204,
+   "F_total": 1.0073818523573286,
+   "U3_heavy_rel_drop": 0.02339850923625353
+  },
+  "fast_state|base_X_inf": {
+   "F_heavy": 1.0092547302093835,
+   "F_total": 1.0033554924932786,
+   "U3_heavy_rel_drop": 0.017485866551438467
+  },
+  "slow_Tasmania|hist_min_5.2e6": {
+   "F_heavy": 1.074711163033657,
+   "F_total": 1.027088066432166,
+   "U3_heavy_rel_drop": 0.04566634258759139
+  },
+  "trigger_mix|hist_min_5.2e6": {
+   "F_heavy": 1.0203597689905204,
+   "F_total": 1.0073818523573286,
+   "U3_heavy_rel_drop": 0.02339850923625353
+  },
+  "fast_state|hist_min_5.2e6": {
+   "F_heavy": 1.0092547302093835,
+   "F_total": 1.0033554924932786,
+   "U3_heavy_rel_drop": 0.017485866551438467
+  },
+  "slow_Tasmania|hist_median_5.3e6": {
+   "F_heavy": 1.074711163033657,
+   "F_total": 1.027088066432166,
+   "U3_heavy_rel_drop": 0.04566634258759139
+  },
+  "trigger_mix|hist_median_5.3e6": {
+   "F_heavy": 1.0203597689905204,
+   "F_total": 1.0073818523573286,
+   "U3_heavy_rel_drop": 0.02339850923625353
+  },
+  "fast_state|hist_median_5.3e6": {
+   "F_heavy": 1.0092547302093835,
+   "F_total": 1.0033554924932786,
+   "U3_heavy_rel_drop": 0.017485866551438467
+  },
+  "slow_Tasmania|hist_England1801_8.3e6": {
+   "F_heavy": 1.074711163033657,
+   "F_total": 1.027088066432166,
+   "U3_heavy_rel_drop": 0.04566634258759139
+  },
+  "trigger_mix|hist_England1801_8.3e6": {
+   "F_heavy": 1.0203597689905204,
+   "F_total": 1.0073818523573286,
+   "U3_heavy_rel_drop": 0.02339850923625353
+  },
+  "fast_state|hist_England1801_8.3e6": {
+   "F_heavy": 1.0092547302093835,
+   "F_total": 1.0033554924932786,
+   "U3_heavy_rel_drop": 0.017485866551438467
+  },
+  "slow_Tasmania|hist_div10_5.2e5": {
+   "F_heavy": 1.212880018247716,
+   "F_total": 1.0771840223364884,
+   "U3_heavy_rel_drop": 0.12333729429980911
+  },
+  "trigger_mix|hist_div10_5.2e5": {
+   "F_heavy": 1.0571034934524806,
+   "F_total": 1.0207040442330244,
+   "U3_heavy_rel_drop": 0.054430881134996945
+  },
+  "fast_state|hist_div10_5.2e5": {
+   "F_heavy": 1.020681004052261,
+   "F_total": 1.007498322725871,
+   "U3_heavy_rel_drop": 0.03578553166972742
+  },
+  "slow_Tasmania|workshop_logu_1e3_1e5": {
+   "F_heavy": 1.924869619995992,
+   "F_total": 1.3353304739247236,
+   "U3_heavy_rel_drop": 0.32971084944726514
+  },
+  "trigger_mix|workshop_logu_1e3_1e5": {
+   "F_heavy": 1.2147468445494334,
+   "F_total": 1.0778608785494677,
+   "U3_heavy_rel_drop": 0.10291311079903498
+  },
+  "fast_state|workshop_logu_1e3_1e5": {
+   "F_heavy": 1.0321296404223061,
+   "F_total": 1.011649260951927,
+   "U3_heavy_rel_drop": 0.04180620071297392
+  },
+  "slow_Tasmania|workshop_1e4": {
+   "F_heavy": 1.9591666470607771,
+   "F_total": 1.347765565413504,
+   "U3_heavy_rel_drop": 0.3369630189766303
+  },
+  "trigger_mix|workshop_1e4": {
+   "F_heavy": 1.2226552796349641,
+   "F_total": 1.080728244097971,
+   "U3_heavy_rel_drop": 0.10466313780562453
+  },
+  "fast_state|workshop_1e4": {
+   "F_heavy": 1.0322887864315982,
+   "F_total": 1.0117069626058308,
+   "U3_heavy_rel_drop": 0.04190702531417667
+  },
+  "slow_Tasmania|tool_R": {
+   "F_heavy": 2.441484767333734,
+   "F_total": 1.5226399048412744,
+   "U3_heavy_rel_drop": 0.4570379172518094
+  },
+  "trigger_mix|tool_R": {
+   "F_heavy": 1.319727974662172,
+   "F_total": 1.1159239431725767,
+   "U3_heavy_rel_drop": 0.12970364769003628
+  },
+  "fast_state|tool_R": {
+   "F_heavy": 1.032812027651823,
+   "F_total": 1.0118966744555462,
+   "U3_heavy_rel_drop": 0.04195743761477799
+  }
+ },
+ "check_base_vs_112_data_main": {
+  "slow_Tasmania": 0.0009088997644590702,
+  "trigger_mix": -0.000604426153127946,
+  "fast_state": -0.00015981144460242014
+ },
+ "check_toolR_vs_112_T2e_tool_R": {
+  "slow_Tasmania": 0.007113921106749466,
+  "trigger_mix": -0.010730739496092934,
+  "fast_state": -0.0006535714261965975
+ },
+ "share_N_T2e_below_hist_min": 1.0,
+ "sweep_ratio": {
+  "slow_Tasmania": [
+   {
+    "c": 0.0001,
+    "F_heavy": 2.3456379516496093,
+    "F_total": 1.4878886734972578,
+    "U3_heavy_rel_drop": 0.4286557920132512
+   },
+   {
+    "c": 0.00017782794100389227,
+    "F_heavy": 2.3213169241398823,
+    "F_total": 1.479070585515075,
+    "U3_heavy_rel_drop": 0.4215692629001476
+   },
+   {
+    "c": 0.00031622776601683794,
+    "F_heavy": 2.2901135272857673,
+    "F_total": 1.4677571531902063,
+    "U3_heavy_rel_drop": 0.4130639876129776
+   },
+   {
+    "c": 0.0005623413251903491,
+    "F_heavy": 2.2501530037723416,
+    "F_total": 1.4532686447579635,
+    "U3_heavy_rel_drop": 0.40302473803608085
+   },
+   {
+    "c": 0.001,
+    "F_heavy": 2.1976000995874263,
+    "F_total": 1.4342145101151533,
+    "U3_heavy_rel_drop": 0.3911346368513917
+   },
+   {
+    "c": 0.0017782794100389228,
+    "F_heavy": 2.1338786349312175,
+    "F_total": 1.4111109845150405,
+    "U3_heavy_rel_drop": 0.3763134204745958
+   },
+   {
+    "c": 0.0031622776601683794,
+    "F_heavy": 2.0543085572224666,
+    "F_total": 1.3822612187843657,
+    "U3_heavy_rel_drop": 0.3589139750099024
+   },
+   {
+    "c": 0.005623413251903491,
+    "F_heavy": 1.9613831393067558,
+    "F_total": 1.348569200195342,
+    "U3_heavy_rel_drop": 0.3383457563645529
+   },
+   {
+    "c": 0.01,
+    "F_heavy": 1.858909999852569,
+    "F_total": 1.3114154590897844,
+    "U3_heavy_rel_drop": 0.31561701055057434
+   },
+   {
+    "c": 0.01778279410038923,
+    "F_heavy": 1.7557390782290114,
+    "F_total": 1.2740087227290116,
+    "U3_heavy_rel_drop": 0.29018760577580927
+   },
+   {
+    "c": 0.03162277660168379,
+    "F_heavy": 1.6319041288638203,
+    "F_total": 1.2291098187524123,
+    "U3_heavy_rel_drop": 0.26161103309207445
+   },
+   {
+    "c": 0.056234132519034905,
+    "F_heavy": 1.5144010743945668,
+    "F_total": 1.1865066733026268,
+    "U3_heavy_rel_drop": 0.2298728889849122
+   },
+   {
+    "c": 0.1,
+    "F_heavy": 1.3911540837514582,
+    "F_total": 1.141820945835085,
+    "U3_heavy_rel_drop": 0.1963343055705591
+   },
+   {
+    "c": 0.1778279410038923,
+    "F_heavy": 1.281852184814012,
+    "F_total": 1.1021912977429305,
+    "U3_heavy_rel_drop": 0.16014547549602098
+   },
+   {
+    "c": 0.31622776601683794,
+    "F_heavy": 1.1876665773933097,
+    "F_total": 1.0680423715695213,
+    "U3_heavy_rel_drop": 0.12304202225342975
+   },
+   {
+    "c": 0.5623413251903491,
+    "F_heavy": 1.1116071135953072,
+    "F_total": 1.0404654510064315,
+    "U3_heavy_rel_drop": 0.08416693673256281
+   },
+   {
+    "c": 1.0,
+    "F_heavy": 1.074711163033657,
+    "F_total": 1.027088066432166,
+    "U3_heavy_rel_drop": 0.04566634258759139
+   }
+  ],
+  "trigger_mix": [
+   {
+    "c": 0.0001,
+    "F_heavy": 1.2996666726831623,
+    "F_total": 1.1086503061596131,
+    "U3_heavy_rel_drop": 0.12371898743293352
+   },
+   {
+    "c": 0.00017782794100389227,
+    "F_heavy": 1.2945757251689551,
+    "F_total": 1.1068044785902396,
+    "U3_heavy_rel_drop": 0.1222210219293508
+   },
+   {
+    "c": 0.00031622776601683794,
+    "F_heavy": 1.2882013334692723,
+    "F_total": 1.1044933119745108,
+    "U3_heavy_rel_drop": 0.1204421878938462
+   },
+   {
+    "c": 0.0005623413251903491,
+    "F_heavy": 1.2811445914757065,
+    "F_total": 1.1019347452469355,
+    "U3_heavy_rel_drop": 0.11836088005473333
+   },
+   {
+    "c": 0.001,
+    "F_heavy": 1.270053117877718,
+    "F_total": 1.0979133037186113,
+    "U3_heavy_rel_drop": 0.11584746678189484
+   },
+   {
+    "c": 0.0017782794100389228,
+    "F_heavy": 1.2576450004971074,
+    "F_total": 1.0934144859481978,
+    "U3_heavy_rel_drop": 0.11278671995967016
+   },
+   {
+    "c": 0.0031622776601683794,
+    "F_heavy": 1.241943384887865,
+    "F_total": 1.087721542759455,
+    "U3_heavy_rel_drop": 0.10913542904468687
+   },
+   {
+    "c": 0.005623413251903491,
+    "F_heavy": 1.2244944934832727,
+    "F_total": 1.0813950888489154,
+    "U3_heavy_rel_drop": 0.10484318173634366
+   },
+   {
+    "c": 0.01,
+    "F_heavy": 1.200494480054347,
+    "F_total": 1.072693391114097,
+    "U3_heavy_rel_drop": 0.10006841669367317
+   },
+   {
+    "c": 0.01778279410038923,
+    "F_heavy": 1.1819376365736876,
+    "F_total": 1.0659652264253887,
+    "U3_heavy_rel_drop": 0.09478952864498924
+   },
+   {
+    "c": 0.03162277660168379,
+    "F_heavy": 1.1560184256701602,
+    "F_total": 1.0565676842333633,
+    "U3_heavy_rel_drop": 0.08841597349753338
+   },
+   {
+    "c": 0.056234132519034905,
+    "F_heavy": 1.129853658506078,
+    "F_total": 1.0470811105763114,
+    "U3_heavy_rel_drop": 0.08140866371394617
+   },
+   {
+    "c": 0.1,
+    "F_heavy": 1.1012881122565035,
+    "F_total": 1.036724085159226,
+    "U3_heavy_rel_drop": 0.07419970472795356
+   },
+   {
+    "c": 0.1778279410038923,
+    "F_heavy": 1.0754501247881738,
+    "F_total": 1.0273559921916424,
+    "U3_heavy_rel_drop": 0.06561521011126714
+   },
+   {
+    "c": 0.31622776601683794,
+    "F_heavy": 1.051594235057986,
+    "F_total": 1.0187065494635374,
+    "U3_heavy_rel_drop": 0.0559072413668934
+   },
+   {
+    "c": 0.5623413251903491,
+    "F_heavy": 1.030230189176573,
+    "F_total": 1.0109605758955063,
+    "U3_heavy_rel_drop": 0.043721868135825126
+   },
+   {
+    "c": 1.0,
+    "F_heavy": 1.0203597689905204,
+    "F_total": 1.0073818523573286,
+    "U3_heavy_rel_drop": 0.02339850923625353
+   }
+  ]
+ },
+ "ratio_crit": {
+  "slow_Tasmania": {
+   "F>=1.1": 0.5623413251903491,
+   "F>=1.5": 0.056234132519034905
+  },
+  "trigger_mix": {
+   "F>=1.1": 0.1,
+   "F>=1.5": null
+  }
+ },
+ "hypotheses": {
+  "H125a": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "7 件すべて人口 5.2e+06 以上の社会（England/France/US）。小さな孤立した群の例 0 件"
+  },
+  "H125b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Surface plate: 'surface plates do not derive their precision from more-precise standards ... three approximately flat surfaces are progressively refined'"
+  },
+  "H125c": {
+   "class": "confirmatory",
+   "supported": null,
+   "value": "Ramsden/Dividing engine の頁に製作の年数の記述なし（Chaulnes の 5 年後、1777 年に記述を出版のみ）→検定できず"
+  },
+  "H125d": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Maudslay: Bramah の工房で 8 年（管理者）、1810 年に 80 人を雇用。Ramsden は最初の盤でより正確な盤を作った"
+  },
+  "H125e": {
+   "class": "prediction",
+   "value": 1.074711163033657,
+   "base": 1.074711163033657,
+   "rule": "F - base < 0.1",
+   "supported": true
+  },
+  "H125f": {
+   "class": "prediction",
+   "value": 1.212880018247716,
+   "rule": "< 1.73",
+   "supported": true
+  },
+  "H125g": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "cases 表"
+  }
+ },
+ "runtime_s": 160.16056537628174
+}
