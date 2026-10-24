@@ -1,0 +1,23 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究120 事前登録（open_problems 282：継電器の並列の読み取り回路の部品数 C と接点の寿命） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="120-open_problems-282-c">研究120 事前登録（open_problems 282：継電器の並列の読み取り回路の部品数 C と接点の寿命）</h1>
+<p>登録：2026-10-25 05:36 JST、資料（Wikipedia の Relay・Harvard Mark I・Z4・Reed relay・Crossbar switch 等）を開く前、sim.py を書く前。
+注：F_heavy・p_relay・p_vac は模型の中の量で、生存確率でも復興確率でもない。</p>
+<h2 id="_1">背景</h2>
+<p>119 は読取装置の論理を「継電器か真空管のどちらか」とし、継電器の経路の確率 p_relay を 0.8 と推測した（主 p_vac 0.847、遅い κ の F_heavy 1.597）。数千個の継電器を 20 年動かすときの接点の寿命と交換の数は調べていない。</p>
+<h2 id="119-h131e">暗黙の前提（119 の H131e の反省で先に書き出す）</h2>
+<ul>
+<li>1 点の判定に 1 チャンネルの継電器 C 個のうち割合 a（主 0.5）が 1 回動く。1 リール 5.28×10¹¹ 点、20 年。</li>
+<li>接点の寿命は「動作の回数」で数え、時間の劣化（腐食）は入れない。信号の小さな負荷とする。</li>
+<li>全リールを読む版と、024 の非圧縮の割合 q=0.3、優先データ 10 MB の版を並べる。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H132a（確認的）：Wikipedia の Relay の記事は、電磁式の継電器の寿命（機械的または電気的）として 10⁵〜10⁸ 回の範囲の数値を少なくとも 1 つ挙げる。</li>
+<li>H132b（確認的）：Harvard Mark I は 10 年以上運用された（記事の年から）。</li>
+<li>H132c（確認的）：Reed relay（リード継電器）の記事は、接点をガラスの管に封じる（不活性ガスまたは真空）と述べ、通常の継電器より長い寿命（10⁸ 回以上など）を挙げる。</li>
+<li>H132d（予測）：主の前提（C=20〜100、a=0.5、寿命 10⁶〜10⁷ 回）で 1 リールを読むのに要る継電器の交換は、初めの個数の 100 倍を超える（作り続ける能力が要る）。</li>
+<li>H132e（予測）：交換の数を作る能力で p_relay を置き直すと、主の p_relay は 0.4〜0.7、遅い κ の F_heavy（どちらかの経路）は 1.35〜1.55。</li>
+<li>H132f（記述）：寿命と負荷・接点の材料の表。</li>
+</ul>
+<h2 id="_3">手順</h2>
+<p>sim.py は 119 の sim.py を「# ---------- 仮説」の前まで exec して 119 の p_vac と表を差 0 で再現（assert）し、新しい p_relay で F_heavy を再計算する。交換の数は 点数×C×a÷寿命。推測の値は【推測】と書く。
+登録時刻（実際）：2026-10-25 05:36 JST</p><footer><hr><small>自動生成</small></footer></body></html>

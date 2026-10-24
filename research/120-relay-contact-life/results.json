@@ -1,0 +1,675 @@
+{
+ "study": "120-relay-contact-life",
+ "check_119_pvac_maxdiff": 0.0,
+ "check_119_table_F_maxdiff_newrng": 0.0,
+ "demand": {
+  "reel_120GB|armature_rated_load|C20": {
+   "ops": 5280000000000.0,
+   "N0": 1673.1310365807285,
+   "replacements": 52800000.0,
+   "ratio_to_N0": 31557.600000000002,
+   "M_total": 52801673.13103658,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "reel_120GB|armature_rated_load|C50": {
+   "ops": 13200000000000.0,
+   "N0": 4182.827591451822,
+   "replacements": 132000000.0,
+   "ratio_to_N0": 31557.6,
+   "M_total": 132004182.82759145,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "reel_120GB|armature_rated_load|C100": {
+   "ops": 26400000000000.0,
+   "N0": 8365.655182903643,
+   "replacements": 264000000.0,
+   "ratio_to_N0": 31557.6,
+   "M_total": 264008365.6551829,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "reel_120GB|armature_mid|C20": {
+   "ops": 5280000000000.0,
+   "N0": 1673.1310365807285,
+   "replacements": 5280000.0,
+   "ratio_to_N0": 3155.76,
+   "M_total": 5281673.131036581,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "reel_120GB|armature_mid|C50": {
+   "ops": 13200000000000.0,
+   "N0": 4182.827591451822,
+   "replacements": 13200000.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 13204182.827591453,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "reel_120GB|armature_mid|C100": {
+   "ops": 26400000000000.0,
+   "N0": 8365.655182903643,
+   "replacements": 26400000.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 26408365.655182905,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "reel_120GB|armature_mech_dry|C20": {
+   "ops": 5280000000000.0,
+   "N0": 1673.1310365807285,
+   "replacements": 528000.0,
+   "ratio_to_N0": 315.576,
+   "M_total": 529673.1310365808,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "reel_120GB|armature_mech_dry|C50": {
+   "ops": 13200000000000.0,
+   "N0": 4182.827591451822,
+   "replacements": 1320000.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 1324182.8275914518,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "reel_120GB|armature_mech_dry|C100": {
+   "ops": 26400000000000.0,
+   "N0": 8365.655182903643,
+   "replacements": 2640000.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 2648365.6551829036,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "reel_120GB|reed_dry|C20": {
+   "ops": 5280000000000.0,
+   "N0": 1673.1310365807285,
+   "replacements": 5280.0,
+   "ratio_to_N0": 3.1557600000000003,
+   "M_total": 6953.1310365807285,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "reel_120GB|reed_dry|C50": {
+   "ops": 13200000000000.0,
+   "N0": 4182.827591451822,
+   "replacements": 13200.0,
+   "ratio_to_N0": 3.15576,
+   "M_total": 17382.827591451824,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "reel_120GB|reed_dry|C100": {
+   "ops": 26400000000000.0,
+   "N0": 8365.655182903643,
+   "replacements": 26400.0,
+   "ratio_to_N0": 3.15576,
+   "M_total": 34765.65518290365,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "q0.3_36GB|armature_rated_load|C20": {
+   "ops": 1584000000000.0,
+   "N0": 501.9393109742186,
+   "replacements": 15840000.0,
+   "ratio_to_N0": 31557.6,
+   "M_total": 15840501.939310974,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "q0.3_36GB|armature_rated_load|C50": {
+   "ops": 3960000000000.0,
+   "N0": 1254.8482774355466,
+   "replacements": 39600000.0,
+   "ratio_to_N0": 31557.599999999995,
+   "M_total": 39601254.848277435,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "q0.3_36GB|armature_rated_load|C100": {
+   "ops": 7920000000000.0,
+   "N0": 2509.696554871093,
+   "replacements": 79200000.0,
+   "ratio_to_N0": 31557.599999999995,
+   "M_total": 79202509.69655487,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "q0.3_36GB|armature_mid|C20": {
+   "ops": 1584000000000.0,
+   "N0": 501.9393109742186,
+   "replacements": 1584000.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 1584501.9393109742,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "q0.3_36GB|armature_mid|C50": {
+   "ops": 3960000000000.0,
+   "N0": 1254.8482774355466,
+   "replacements": 3960000.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 3961254.8482774356,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "q0.3_36GB|armature_mid|C100": {
+   "ops": 7920000000000.0,
+   "N0": 2509.696554871093,
+   "replacements": 7920000.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 7922509.696554871,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "q0.3_36GB|armature_mech_dry|C20": {
+   "ops": 1584000000000.0,
+   "N0": 501.9393109742186,
+   "replacements": 158400.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 158901.9393109742,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "q0.3_36GB|armature_mech_dry|C50": {
+   "ops": 3960000000000.0,
+   "N0": 1254.8482774355466,
+   "replacements": 396000.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 397254.8482774355,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "q0.3_36GB|armature_mech_dry|C100": {
+   "ops": 7920000000000.0,
+   "N0": 2509.696554871093,
+   "replacements": 792000.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 794509.696554871,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "q0.3_36GB|reed_dry|C20": {
+   "ops": 1584000000000.0,
+   "N0": 501.9393109742186,
+   "replacements": 1584.0,
+   "ratio_to_N0": 3.15576,
+   "M_total": 2085.9393109742186,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "q0.3_36GB|reed_dry|C50": {
+   "ops": 3960000000000.0,
+   "N0": 1254.8482774355466,
+   "replacements": 3960.0,
+   "ratio_to_N0": 3.1557599999999995,
+   "M_total": 5214.848277435547,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "q0.3_36GB|reed_dry|C100": {
+   "ops": 7920000000000.0,
+   "N0": 2509.696554871093,
+   "replacements": 7920.0,
+   "ratio_to_N0": 3.1557599999999995,
+   "M_total": 10429.696554871094,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "prio_10MB|armature_rated_load|C20": {
+   "ops": 440000000.0,
+   "N0": 0.1394275863817274,
+   "replacements": 4400.0,
+   "ratio_to_N0": 31557.6,
+   "M_total": 4400.139427586381,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "prio_10MB|armature_rated_load|C50": {
+   "ops": 1100000000.0,
+   "N0": 0.34856896595431847,
+   "replacements": 11000.0,
+   "ratio_to_N0": 31557.6,
+   "M_total": 11000.348568965954,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "prio_10MB|armature_rated_load|C100": {
+   "ops": 2200000000.0,
+   "N0": 0.6971379319086369,
+   "replacements": 22000.0,
+   "ratio_to_N0": 31557.6,
+   "M_total": 22000.697137931907,
+   "days_to_wear_one_relay": 0.23148148148148148
+  },
+  "prio_10MB|armature_mid|C20": {
+   "ops": 440000000.0,
+   "N0": 0.1394275863817274,
+   "replacements": 440.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 440.1394275863817,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "prio_10MB|armature_mid|C50": {
+   "ops": 1100000000.0,
+   "N0": 0.34856896595431847,
+   "replacements": 1100.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 1100.3485689659544,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "prio_10MB|armature_mid|C100": {
+   "ops": 2200000000.0,
+   "N0": 0.6971379319086369,
+   "replacements": 2200.0,
+   "ratio_to_N0": 3155.7599999999998,
+   "M_total": 2200.697137931909,
+   "days_to_wear_one_relay": 2.314814814814815
+  },
+  "prio_10MB|armature_mech_dry|C20": {
+   "ops": 440000000.0,
+   "N0": 0.1394275863817274,
+   "replacements": 44.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 44.13942758638173,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "prio_10MB|armature_mech_dry|C50": {
+   "ops": 1100000000.0,
+   "N0": 0.34856896595431847,
+   "replacements": 110.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 110.34856896595431,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "prio_10MB|armature_mech_dry|C100": {
+   "ops": 2200000000.0,
+   "N0": 0.6971379319086369,
+   "replacements": 220.0,
+   "ratio_to_N0": 315.57599999999996,
+   "M_total": 220.69713793190863,
+   "days_to_wear_one_relay": 23.14814814814815
+  },
+  "prio_10MB|reed_dry|C20": {
+   "ops": 440000000.0,
+   "N0": 0.1394275863817274,
+   "replacements": 0.44,
+   "ratio_to_N0": 3.15576,
+   "M_total": 0.5794275863817274,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "prio_10MB|reed_dry|C50": {
+   "ops": 1100000000.0,
+   "N0": 0.34856896595431847,
+   "replacements": 1.1,
+   "ratio_to_N0": 3.1557600000000003,
+   "M_total": 1.4485689659543186,
+   "days_to_wear_one_relay": 2314.814814814815
+  },
+  "prio_10MB|reed_dry|C100": {
+   "ops": 2200000000.0,
+   "N0": 0.6971379319086369,
+   "replacements": 2.2,
+   "ratio_to_N0": 3.1557600000000003,
+   "M_total": 2.897137931908637,
+   "days_to_wear_one_relay": 2314.814814814815
+  }
+ },
+ "reference_counts": {
+  "Z4_relays": 2500,
+  "MarkI_components": 765000,
+  "MarkI_years": 15
+ },
+ "base": {
+  "p_build": 0.8,
+  "M50": 100000.0,
+  "C": 50,
+  "a": 0.5,
+  "L_arm": 1000000.0,
+  "L_reed": 1000000000.0,
+  "p_NiFe": 0.6,
+  "refurb": 1.0,
+  "data": "reel_120GB"
+ },
+ "p_relay_versions": {
+  "main": {
+   "p_arm": 0.006013146469551558,
+   "p_reed": 0.33122391748238456,
+   "p_relay": 0.3352453660218958,
+   "M_arm": 13204182.827591453,
+   "M_reed": 17382.827591451824
+  },
+  "L_arm_1e5": {
+   "p_arm": 0.0006055826415762144,
+   "p_reed": 0.33122391748238456,
+   "p_relay": 0.3316289166690586,
+   "M_arm": 132004182.82759145,
+   "M_reed": 17382.827591451824
+  },
+  "L_arm_1e7": {
+   "p_arm": 0.05617256327636974,
+   "p_reed": 0.33122391748238456,
+   "p_relay": 0.36879078429532797,
+   "M_arm": 1324182.8275914518,
+   "M_reed": 17382.827591451824
+  },
+  "C20": {
+   "p_arm": 0.014865265513550607,
+   "p_reed": 0.36352371943839634,
+   "p_relay": 0.3729851083420217,
+   "M_arm": 5281673.131036581,
+   "M_reed": 6953.1310365807285
+  },
+  "C100": {
+   "p_arm": 0.0030179152136585396,
+   "p_reed": 0.2885008049508769,
+   "p_relay": 0.2906480491961214,
+   "M_arm": 26408365.655182905,
+   "M_reed": 34765.65518290365
+  },
+  "M50_3e4": {
+   "p_arm": 0.0018134856010877604,
+   "p_reed": 0.24616513181885888,
+   "p_relay": 0.24753220049790325,
+   "M_arm": 13204182.827591453,
+   "M_reed": 17382.827591451824
+  },
+  "M50_1e6": {
+   "p_arm": 0.05632143782646966,
+   "p_reed": 0.3821570302306396,
+   "p_relay": 0.41695483463902605,
+   "M_arm": 13204182.827591453,
+   "M_reed": 17382.827591451824
+  },
+  "refurb10": {
+   "p_arm": 0.05617256327636974,
+   "p_reed": 0.36852092865755753,
+   "p_relay": 0.403992726750244,
+   "M_arm": 1324182.8275914518,
+   "M_reed": 5502.827591451822
+  },
+  "q0.3": {
+   "p_arm": 0.019698345213162792,
+   "p_reed": 0.3695295924153154,
+   "p_relay": 0.38194881615060206,
+   "M_arm": 3961254.8482774356,
+   "M_reed": 5214.848277435547
+  },
+  "prio10MB": {
+   "p_arm": 0.7912930185935781,
+   "p_reed": 0.3887943680454432,
+   "p_relay": 0.87243711753616,
+   "M_arm": 1100.3485689659544,
+   "M_reed": 1.4485689659543186
+  },
+  "noreed": {
+   "p_arm": 0.006013146469551558,
+   "p_reed": 0.0,
+   "p_relay": 0.0060131464695515335,
+   "M_arm": 13204182.827591453,
+   "M_reed": 17382.827591451824
+  },
+  "optimistic": {
+   "p_arm": 0.7586727214315784,
+   "p_reed": 0.5819191197647063,
+   "p_relay": 0.8991056789513263,
+   "M_arm": 54473.13103658073,
+   "M_reed": 2201.1310365807285
+  },
+  "pessimistic": {
+   "p_arm": 9.089588151497067e-05,
+   "p_reed": 0.090047726430466,
+   "p_relay": 0.09013043734450865,
+   "M_arm": 264008365.6551829,
+   "M_reed": 34765.65518290365
+  }
+ },
+ "p_tube": 0.23535359999999997,
+ "p_vac_versions": {
+  "main": 0.4916977622453249,
+  "L_arm_1e5": 0.4889324572668956,
+  "L_arm_1e7": 0.517348145564599,
+  "C20": 0.5205553203473368,
+  "C100": 0.4575965844848371,
+  "M50_3e4": 0.4246282059947999,
+  "M50_1e6": 0.5541766132693265,
+  "refurb10": 0.5442651841357578,
+  "q0.3": 0.5274093872538197,
+  "prio10MB": 0.9024595011504016,
+  "noreed": 0.23995153080061526,
+  "optimistic": 0.9228515206296874,
+  "pessimistic": 0.30427151444590406,
+  "either_119_relay0.8": 0.84707072
+ },
+ "table": {
+  "slow_Tasmania|main": {
+   "F_heavy": 1.376461193353364,
+   "F_total": 1.1364937366869043,
+   "U3_heavy_rel_drop": 0.13793525620251346
+  },
+  "trigger_mix|main": {
+   "F_heavy": 1.0790679192082349,
+   "F_total": 1.0286676978539462,
+   "U3_heavy_rel_drop": 0.04688343955925245
+  },
+  "fast_state|main": {
+   "F_heavy": 1.014461825829988,
+   "F_total": 1.0052434319438535,
+   "U3_heavy_rel_drop": 0.022937596773612734
+  },
+  "slow_Tasmania|L_arm_1e5": {
+   "F_heavy": 1.3791636310594722,
+   "F_total": 1.137473560974727,
+   "U3_heavy_rel_drop": 0.136970220733859
+  },
+  "trigger_mix|L_arm_1e5": {
+   "F_heavy": 1.0818323995028294,
+   "F_total": 1.0296700169563358,
+   "U3_heavy_rel_drop": 0.04740196607972347
+  },
+  "fast_state|L_arm_1e5": {
+   "F_heavy": 1.013858817154779,
+   "F_total": 1.005024798765223,
+   "U3_heavy_rel_drop": 0.023153649490475603
+  },
+  "slow_Tasmania|L_arm_1e7": {
+   "F_heavy": 1.3777559161948836,
+   "F_total": 1.1369631650416274,
+   "U3_heavy_rel_drop": 0.14272442475964142
+  },
+  "trigger_mix|L_arm_1e7": {
+   "F_heavy": 1.085195115620618,
+   "F_total": 1.0308892387418425,
+   "U3_heavy_rel_drop": 0.04853984372186804
+  },
+  "fast_state|L_arm_1e7": {
+   "F_heavy": 1.0124407394770263,
+   "F_total": 1.004510645581399,
+   "U3_heavy_rel_drop": 0.023564149652515076
+  },
+  "slow_Tasmania|C20": {
+   "F_heavy": 1.4091620476358735,
+   "F_total": 1.1483501029543408,
+   "U3_heavy_rel_drop": 0.1430557055921644
+  },
+  "trigger_mix|C20": {
+   "F_heavy": 1.0969347557356233,
+   "F_total": 1.0351456863517092,
+   "U3_heavy_rel_drop": 0.04928162471643083
+  },
+  "fast_state|C20": {
+   "F_heavy": 1.0159391446372004,
+   "F_total": 1.0057790642157434,
+   "U3_heavy_rel_drop": 0.023506535594685074
+  },
+  "slow_Tasmania|C100": {
+   "F_heavy": 1.3632648184273117,
+   "F_total": 1.1317091199556721,
+   "U3_heavy_rel_drop": 0.1305678585574881
+  },
+  "trigger_mix|C100": {
+   "F_heavy": 1.077975407117499,
+   "F_total": 1.0282715851595354,
+   "U3_heavy_rel_drop": 0.04470850887616573
+  },
+  "fast_state|C100": {
+   "F_heavy": 1.0134993571737652,
+   "F_total": 1.004894469167208,
+   "U3_heavy_rel_drop": 0.02231824565193896
+  },
+  "slow_Tasmania|M50_3e4": {
+   "F_heavy": 1.3487262342730872,
+   "F_total": 1.1264378577050518,
+   "U3_heavy_rel_drop": 0.1250801195491701
+  },
+  "trigger_mix|M50_3e4": {
+   "F_heavy": 1.0792362818103207,
+   "F_total": 1.02872874117284,
+   "U3_heavy_rel_drop": 0.043678657592452486
+  },
+  "fast_state|M50_3e4": {
+   "F_heavy": 1.013559713280588,
+   "F_total": 1.0049163525132143,
+   "U3_heavy_rel_drop": 0.02216700875013511
+  },
+  "slow_Tasmania|M50_1e6": {
+   "F_heavy": 1.4355508742011547,
+   "F_total": 1.1579179139485993,
+   "U3_heavy_rel_drop": 0.1500054013179215
+  },
+  "trigger_mix|M50_1e6": {
+   "F_heavy": 1.1000757486526582,
+   "F_total": 1.0362845178374576,
+   "U3_heavy_rel_drop": 0.050455511144719356
+  },
+  "fast_state|M50_1e6": {
+   "F_heavy": 1.0132662735886762,
+   "F_total": 1.004809959926811,
+   "U3_heavy_rel_drop": 0.02367217601094662
+  },
+  "slow_Tasmania|refurb10": {
+   "F_heavy": 1.4216596303314066,
+   "F_total": 1.1528813582119466,
+   "U3_heavy_rel_drop": 0.14791689172158007
+  },
+  "trigger_mix|refurb10": {
+   "F_heavy": 1.0980455969680423,
+   "F_total": 1.0355484446528456,
+   "U3_heavy_rel_drop": 0.050023405710993396
+  },
+  "fast_state|refurb10": {
+   "F_heavy": 1.0164826393309403,
+   "F_total": 1.0059761193782086,
+   "U3_heavy_rel_drop": 0.023729790068776846
+  },
+  "slow_Tasmania|q0.3": {
+   "F_heavy": 1.391116761862043,
+   "F_total": 1.1418074140176324,
+   "U3_heavy_rel_drop": 0.14404234633250512
+  },
+  "trigger_mix|q0.3": {
+   "F_heavy": 1.0864640838311574,
+   "F_total": 1.0313493292262044,
+   "U3_heavy_rel_drop": 0.04854704547909683
+  },
+  "fast_state|q0.3": {
+   "F_heavy": 1.0146120980386173,
+   "F_total": 1.0052979162190938,
+   "U3_heavy_rel_drop": 0.02313924597601813
+  },
+  "slow_Tasmania|prio10MB": {
+   "F_heavy": 1.633868510181641,
+   "F_total": 1.2298220455398776,
+   "U3_heavy_rel_drop": 0.21540455871232578
+  },
+  "trigger_mix|prio10MB": {
+   "F_heavy": 1.1423255855158387,
+   "F_total": 1.0516030638381728,
+   "U3_heavy_rel_drop": 0.0674300529329156
+  },
+  "fast_state|prio10MB": {
+   "F_heavy": 1.0176853540360489,
+   "F_total": 1.0064121882935892,
+   "U3_heavy_rel_drop": 0.027805984660257077
+  },
+  "slow_Tasmania|noreed": {
+   "F_heavy": 1.2232706943645293,
+   "F_total": 1.0809513753463802,
+   "U3_heavy_rel_drop": 0.09027402686255437
+  },
+  "trigger_mix|noreed": {
+   "F_heavy": 1.0542736875923289,
+   "F_total": 1.0196780400053111,
+   "U3_heavy_rel_drop": 0.0350005401317921
+  },
+  "fast_state|noreed": {
+   "F_heavy": 1.010913890544678,
+   "F_total": 1.0039570551454864,
+   "U3_heavy_rel_drop": 0.020272946598970054
+  },
+  "slow_Tasmania|optimistic": {
+   "F_heavy": 1.6394261697657337,
+   "F_total": 1.231837089154624,
+   "U3_heavy_rel_drop": 0.21865255122249827
+  },
+  "trigger_mix|optimistic": {
+   "F_heavy": 1.1459573605019975,
+   "F_total": 1.052919838441821,
+   "U3_heavy_rel_drop": 0.06838068488711235
+  },
+  "fast_state|optimistic": {
+   "F_heavy": 1.0173735090206626,
+   "F_total": 1.0062991224791873,
+   "U3_heavy_rel_drop": 0.028202081307838966
+  },
+  "slow_Tasmania|pessimistic": {
+   "F_heavy": 1.2655425303832646,
+   "F_total": 1.0962778975927183,
+   "U3_heavy_rel_drop": 0.10244499657916528
+  },
+  "trigger_mix|pessimistic": {
+   "F_heavy": 1.063409720059546,
+   "F_total": 1.0229904961945813,
+   "U3_heavy_rel_drop": 0.037722804364264784
+  },
+  "fast_state|pessimistic": {
+   "F_heavy": 1.01353562318636,
+   "F_total": 1.0049076181548358,
+   "U3_heavy_rel_drop": 0.020676245003780958
+  },
+  "slow_Tasmania|either_119_relay0.8": {
+   "F_heavy": 1.5959769108207305,
+   "F_total": 1.216083668046718,
+   "U3_heavy_rel_drop": 0.20411220337762415
+  },
+  "trigger_mix|either_119_relay0.8": {
+   "F_heavy": 1.1334195812022625,
+   "F_total": 1.0483740090798817,
+   "U3_heavy_rel_drop": 0.06392999891973639
+  },
+  "fast_state|either_119_relay0.8": {
+   "F_heavy": 1.0166708789671388,
+   "F_total": 1.0060443695240162,
+   "U3_heavy_rel_drop": 0.02697778257894934
+  }
+ },
+ "hypotheses": {
+  "H132a": {
+   "class": "confirmatory",
+   "supported": false,
+   "value": "Relay の記事は寿命を『機械的寿命と接点の寿命があり負荷で変わる』と述べるだけで、回数の数値を挙げない（数値は Reed relay の 10^9 と Reed switch の『数千〜数十億』、データシートの 10^7／10^5）"
+  },
+  "H132b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Mark I 1944-08-07 運用開始、1959 年に解体：15 年"
+  },
+  "H132c": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "ガラスの管に封じ（hermetic seal）、寿命 10^9 回まで。ただし記事は封じの中身（不活性ガス・真空）を書かない"
+  },
+  "H132d": {
+   "class": "prediction",
+   "value": {
+    "ratio_L1e6": 3155.7599999999998,
+    "ratio_L1e7": 315.576
+   },
+   "rule": "寿命 1e6〜1e7 回で 交換数/初めの個数 > 100",
+   "supported": true,
+   "note": "比は rate×a×T/L で C・データの量に依らず、ほぼ算術で決まる（自明に近い予測）"
+  },
+  "H132e": {
+   "class": "prediction",
+   "value": {
+    "p_relay": 0.3352453660218958,
+    "F_heavy_slow": 1.376461193353364
+   },
+   "rule": "0.4<=p_relay<=0.7 かつ 1.35<=F_heavy<=1.55",
+   "supported": false
+  },
+  "H132f": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "寿命と負荷・材料の表"
+  }
+ },
+ "runtime_s": 293.25569701194763
+}

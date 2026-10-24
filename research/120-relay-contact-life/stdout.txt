@@ -1,0 +1,92 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+check_119 0.0 F newrng diff 0.0
+demand reel_120GB|armature_rated_load|C20 {'ops': '5.28e+12', 'N0': '1.67e+03', 'replacements': '5.28e+07', 'ratio_to_N0': '3.16e+04', 'M_total': '5.28e+07', 'days_to_wear_one_relay': '0.231'}
+demand reel_120GB|armature_rated_load|C50 {'ops': '1.32e+13', 'N0': '4.18e+03', 'replacements': '1.32e+08', 'ratio_to_N0': '3.16e+04', 'M_total': '1.32e+08', 'days_to_wear_one_relay': '0.231'}
+demand reel_120GB|armature_mid|C20 {'ops': '5.28e+12', 'N0': '1.67e+03', 'replacements': '5.28e+06', 'ratio_to_N0': '3.16e+03', 'M_total': '5.28e+06', 'days_to_wear_one_relay': '2.31'}
+demand reel_120GB|armature_mid|C50 {'ops': '1.32e+13', 'N0': '4.18e+03', 'replacements': '1.32e+07', 'ratio_to_N0': '3.16e+03', 'M_total': '1.32e+07', 'days_to_wear_one_relay': '2.31'}
+demand reel_120GB|armature_mech_dry|C20 {'ops': '5.28e+12', 'N0': '1.67e+03', 'replacements': '5.28e+05', 'ratio_to_N0': '316', 'M_total': '5.3e+05', 'days_to_wear_one_relay': '23.1'}
+demand reel_120GB|armature_mech_dry|C50 {'ops': '1.32e+13', 'N0': '4.18e+03', 'replacements': '1.32e+06', 'ratio_to_N0': '316', 'M_total': '1.32e+06', 'days_to_wear_one_relay': '23.1'}
+demand reel_120GB|reed_dry|C20 {'ops': '5.28e+12', 'N0': '1.67e+03', 'replacements': '5.28e+03', 'ratio_to_N0': '3.16', 'M_total': '6.95e+03', 'days_to_wear_one_relay': '2.31e+03'}
+demand reel_120GB|reed_dry|C50 {'ops': '1.32e+13', 'N0': '4.18e+03', 'replacements': '1.32e+04', 'ratio_to_N0': '3.16', 'M_total': '1.74e+04', 'days_to_wear_one_relay': '2.31e+03'}
+demand q0.3_36GB|armature_rated_load|C20 {'ops': '1.58e+12', 'N0': '502', 'replacements': '1.58e+07', 'ratio_to_N0': '3.16e+04', 'M_total': '1.58e+07', 'days_to_wear_one_relay': '0.231'}
+demand q0.3_36GB|armature_rated_load|C50 {'ops': '3.96e+12', 'N0': '1.25e+03', 'replacements': '3.96e+07', 'ratio_to_N0': '3.16e+04', 'M_total': '3.96e+07', 'days_to_wear_one_relay': '0.231'}
+demand q0.3_36GB|armature_mid|C20 {'ops': '1.58e+12', 'N0': '502', 'replacements': '1.58e+06', 'ratio_to_N0': '3.16e+03', 'M_total': '1.58e+06', 'days_to_wear_one_relay': '2.31'}
+demand q0.3_36GB|armature_mid|C50 {'ops': '3.96e+12', 'N0': '1.25e+03', 'replacements': '3.96e+06', 'ratio_to_N0': '3.16e+03', 'M_total': '3.96e+06', 'days_to_wear_one_relay': '2.31'}
+demand q0.3_36GB|armature_mech_dry|C20 {'ops': '1.58e+12', 'N0': '502', 'replacements': '1.58e+05', 'ratio_to_N0': '316', 'M_total': '1.59e+05', 'days_to_wear_one_relay': '23.1'}
+demand q0.3_36GB|armature_mech_dry|C50 {'ops': '3.96e+12', 'N0': '1.25e+03', 'replacements': '3.96e+05', 'ratio_to_N0': '316', 'M_total': '3.97e+05', 'days_to_wear_one_relay': '23.1'}
+demand q0.3_36GB|reed_dry|C20 {'ops': '1.58e+12', 'N0': '502', 'replacements': '1.58e+03', 'ratio_to_N0': '3.16', 'M_total': '2.09e+03', 'days_to_wear_one_relay': '2.31e+03'}
+demand q0.3_36GB|reed_dry|C50 {'ops': '3.96e+12', 'N0': '1.25e+03', 'replacements': '3.96e+03', 'ratio_to_N0': '3.16', 'M_total': '5.21e+03', 'days_to_wear_one_relay': '2.31e+03'}
+demand prio_10MB|armature_rated_load|C20 {'ops': '4.4e+08', 'N0': '0.139', 'replacements': '4.4e+03', 'ratio_to_N0': '3.16e+04', 'M_total': '4.4e+03', 'days_to_wear_one_relay': '0.231'}
+demand prio_10MB|armature_rated_load|C50 {'ops': '1.1e+09', 'N0': '0.349', 'replacements': '1.1e+04', 'ratio_to_N0': '3.16e+04', 'M_total': '1.1e+04', 'days_to_wear_one_relay': '0.231'}
+demand prio_10MB|armature_mid|C20 {'ops': '4.4e+08', 'N0': '0.139', 'replacements': '440', 'ratio_to_N0': '3.16e+03', 'M_total': '440', 'days_to_wear_one_relay': '2.31'}
+demand prio_10MB|armature_mid|C50 {'ops': '1.1e+09', 'N0': '0.349', 'replacements': '1.1e+03', 'ratio_to_N0': '3.16e+03', 'M_total': '1.1e+03', 'days_to_wear_one_relay': '2.31'}
+demand prio_10MB|armature_mech_dry|C20 {'ops': '4.4e+08', 'N0': '0.139', 'replacements': '44', 'ratio_to_N0': '316', 'M_total': '44.1', 'days_to_wear_one_relay': '23.1'}
+demand prio_10MB|armature_mech_dry|C50 {'ops': '1.1e+09', 'N0': '0.349', 'replacements': '110', 'ratio_to_N0': '316', 'M_total': '110', 'days_to_wear_one_relay': '23.1'}
+demand prio_10MB|reed_dry|C20 {'ops': '4.4e+08', 'N0': '0.139', 'replacements': '0.44', 'ratio_to_N0': '3.16', 'M_total': '0.579', 'days_to_wear_one_relay': '2.31e+03'}
+demand prio_10MB|reed_dry|C50 {'ops': '1.1e+09', 'N0': '0.349', 'replacements': '1.1', 'ratio_to_N0': '3.16', 'M_total': '1.45', 'days_to_wear_one_relay': '2.31e+03'}
+p_relay main {'p_arm': 0.006, 'p_reed': 0.3312, 'p_relay': 0.3352, 'M_arm': '1.32e+07', 'M_reed': '1.74e+04'} p_vac 0.4917
+p_relay L_arm_1e5 {'p_arm': 0.0006, 'p_reed': 0.3312, 'p_relay': 0.3316, 'M_arm': '1.32e+08', 'M_reed': '1.74e+04'} p_vac 0.4889
+p_relay L_arm_1e7 {'p_arm': 0.0562, 'p_reed': 0.3312, 'p_relay': 0.3688, 'M_arm': '1.32e+06', 'M_reed': '1.74e+04'} p_vac 0.5173
+p_relay C20 {'p_arm': 0.0149, 'p_reed': 0.3635, 'p_relay': 0.373, 'M_arm': '5.28e+06', 'M_reed': '6.95e+03'} p_vac 0.5206
+p_relay C100 {'p_arm': 0.003, 'p_reed': 0.2885, 'p_relay': 0.2906, 'M_arm': '2.64e+07', 'M_reed': '3.48e+04'} p_vac 0.4576
+p_relay M50_3e4 {'p_arm': 0.0018, 'p_reed': 0.2462, 'p_relay': 0.2475, 'M_arm': '1.32e+07', 'M_reed': '1.74e+04'} p_vac 0.4246
+p_relay M50_1e6 {'p_arm': 0.0563, 'p_reed': 0.3822, 'p_relay': 0.417, 'M_arm': '1.32e+07', 'M_reed': '1.74e+04'} p_vac 0.5542
+p_relay refurb10 {'p_arm': 0.0562, 'p_reed': 0.3685, 'p_relay': 0.404, 'M_arm': '1.32e+06', 'M_reed': '5.5e+03'} p_vac 0.5443
+p_relay q0.3 {'p_arm': 0.0197, 'p_reed': 0.3695, 'p_relay': 0.3819, 'M_arm': '3.96e+06', 'M_reed': '5.21e+03'} p_vac 0.5274
+p_relay prio10MB {'p_arm': 0.7913, 'p_reed': 0.3888, 'p_relay': 0.8724, 'M_arm': '1.1e+03', 'M_reed': 1.4486} p_vac 0.9025
+p_relay noreed {'p_arm': 0.006, 'p_reed': 0.0, 'p_relay': 0.006, 'M_arm': '1.32e+07', 'M_reed': '1.74e+04'} p_vac 0.24
+p_relay optimistic {'p_arm': 0.7587, 'p_reed': 0.5819, 'p_relay': 0.8991, 'M_arm': '5.45e+04', 'M_reed': '2.2e+03'} p_vac 0.9229
+p_relay pessimistic {'p_arm': 0.0001, 'p_reed': 0.09, 'p_relay': 0.0901, 'M_arm': '2.64e+08', 'M_reed': '3.48e+04'} p_vac 0.3043
+p_tube 0.2354
+slow_Tasmania|main F_heavy 1.3765
+trigger_mix|main F_heavy 1.0791
+fast_state|main F_heavy 1.0145
+slow_Tasmania|L_arm_1e5 F_heavy 1.3792
+trigger_mix|L_arm_1e5 F_heavy 1.0818
+fast_state|L_arm_1e5 F_heavy 1.0139
+slow_Tasmania|L_arm_1e7 F_heavy 1.3778
+trigger_mix|L_arm_1e7 F_heavy 1.0852
+fast_state|L_arm_1e7 F_heavy 1.0124
+slow_Tasmania|C20 F_heavy 1.4092
+trigger_mix|C20 F_heavy 1.0969
+fast_state|C20 F_heavy 1.0159
+slow_Tasmania|C100 F_heavy 1.3633
+trigger_mix|C100 F_heavy 1.078
+fast_state|C100 F_heavy 1.0135
+slow_Tasmania|M50_3e4 F_heavy 1.3487
+trigger_mix|M50_3e4 F_heavy 1.0792
+fast_state|M50_3e4 F_heavy 1.0136
+slow_Tasmania|M50_1e6 F_heavy 1.4356
+trigger_mix|M50_1e6 F_heavy 1.1001
+fast_state|M50_1e6 F_heavy 1.0133
+slow_Tasmania|refurb10 F_heavy 1.4217
+trigger_mix|refurb10 F_heavy 1.098
+fast_state|refurb10 F_heavy 1.0165
+slow_Tasmania|q0.3 F_heavy 1.3911
+trigger_mix|q0.3 F_heavy 1.0865
+fast_state|q0.3 F_heavy 1.0146
+slow_Tasmania|prio10MB F_heavy 1.6339
+trigger_mix|prio10MB F_heavy 1.1423
+fast_state|prio10MB F_heavy 1.0177
+slow_Tasmania|noreed F_heavy 1.2233
+trigger_mix|noreed F_heavy 1.0543
+fast_state|noreed F_heavy 1.0109
+slow_Tasmania|optimistic F_heavy 1.6394
+trigger_mix|optimistic F_heavy 1.146
+fast_state|optimistic F_heavy 1.0174
+slow_Tasmania|pessimistic F_heavy 1.2655
+trigger_mix|pessimistic F_heavy 1.0634
+fast_state|pessimistic F_heavy 1.0135
+slow_Tasmania|either_119_relay0.8 F_heavy 1.596
+trigger_mix|either_119_relay0.8 F_heavy 1.1334
+fast_state|either_119_relay0.8 F_heavy 1.0167
+H132a confirmatory False Relay の記事は寿命を『機械的寿命と接点の寿命があり負荷で変わる』と述べるだけで、回数の数値を挙げない（数値は Reed relay の 10^9 と Reed switch の『数千〜数十億』、データシートの 10^7／10^5）
+H132b confirmatory True Mark I 1944-08-07 運用開始、1959 年に解体：15 年
+H132c confirmatory True ガラスの管に封じ（hermetic seal）、寿命 10^9 回まで。ただし記事は封じの中身（不活性ガス・真空）を書かない
+H132d prediction True {'ratio_L1e6': 3155.7599999999998, 'ratio_L1e7': 315.576}
+H132e prediction False {'p_relay': 0.3352453660218958, 'F_heavy_slow': 1.376461193353364}
+H132f descriptive None 寿命と負荷・材料の表
+runtime 293.3

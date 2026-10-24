@@ -1,0 +1,65 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究120：継電器の並列の読み取り回路の接点の寿命（open_problems 282） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="120open_problems-282">研究120：継電器の並列の読み取り回路の接点の寿命（open_problems 282）</h1>
+<blockquote>
+<p>注：本報告の F_heavy・p_relay・p_vac は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-25（第120回、JST 5時台）。sim.py（約293秒。119 の p_vac を差 0 で再現の assert、119 の表も新しい乱数で差 0）、results.json、stdout.txt、fig_relay_wear.png、PREREGISTRATION.md（05:36 JST、資料を開く前・sim.py の前）、sources/（Wikipedia の raw 10 頁、データシート 3 件、SHA256SUMS、fetched_at.txt）。</p>
+<h2 id="_1">問い</h2>
+<p>119 は読取装置の論理を「継電器か真空管のどちらか」とし、継電器の経路の確率 p_relay を 0.8 と推測した。数千個の継電器を 20 年動かすと接点はどれだけ減り、作り直す数はいくつか。</p>
+<h2 id="_2">資料（開いて確かめたもの）</h2>
+<ul>
+<li>【事実（<a href="https://app.mectronic.com/dsheet/PFCA1_OMRON-INDUSTRIAL-AUTOMATION.pdf">Omron MK データシート</a>）】汎用継電器の寿命は機械 1,000 万回以上（18,000 回/時で）、定格負荷で 10 万回（1,800 回/時で）。接点は銀。</li>
+<li>【事実（<a href="https://docs.galco.com/techdoc/delt/relay_gp_260_cp.pdf">Deltrol 260</a>・<a href="https://www.industrialelectronics.biz/potter/pb077.html">Potter &amp; Brumfield KH</a>）】同じく機械 1,000 万回、定格負荷 10 万回以上。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Relay">Wikipedia: Relay</a>）】寿命は機械の寿命と接点の寿命があり、負荷の種類で変わる。開くときのアークが接点を削る。信号の切り替えには銀の接点、1ESS ではリードを負荷なし（dry）で切り替えて寿命を延ばした。回数の数値は挙げない。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Reed_relay">Wikipedia: Reed relay</a>・<a href="https://en.wikipedia.org/wiki/Reed_switch">Reed switch</a>）】接点はガラスの管に封じ（hermetic seal）腐食から守られ、寿命は 10⁹ 回まで。寿命は負荷しだいで数千回〜数十億回。製造は金属のリードをガラスの管の両端に入れ加熱して封じ、ガラスと金属の熱膨張を合わせる必要がある。銀めっきのリードは貴金属より信頼性が低かった。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Harvard_Mark_I">Wikipedia: Harvard Mark I</a>・<a href="https://en.wikipedia.org/wiki/Z4_(computer)">Z4</a>）】Mark I は 765,000 の電気機械部品、1944 年 8 月から 1959 年の解体まで 15 年。Z4 は約 2,500 個の継電器、ISL で 1959 年まで使われた。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Crossbar_switch">Wikipedia: Crossbar switch</a>）】クロスバー交換機の設計基準は 40 年で保守の停止 2 時間。</li>
+</ul>
+<h2 id="1">結果1：接点の消耗は「読むビットの数」で決まる（新しく分かったこと）</h2>
+<p>総動作数 ＝ 点数 × C × a（1 チャンネルの継電器 C 個、1 点ごとに動く割合 a=0.5【推測】）。これは読む速さやチャンネルの数に<strong>依らない</strong>。ゆっくり読んでも、並列を減らしても、すり減る接点の総数は同じ。
+| 1 リール（5.28×10¹¹ 点）、C=50 | 寿命 | 作る継電器の総数 | 1 個がすり減るまで（10 Hz） |
+|---|---|---|---|
+| 汎用・定格負荷 | 10⁵ | 1.3×10⁸ | 0.23 日 |
+| 汎用・中間【推測】 | 10⁶ | 1.3×10⁷ | 2.3 日 |
+| 汎用・機械の寿命（負荷なし） | 10⁷ | 1.3×10⁶ | 23 日 |
+| リード（負荷なし） | 10⁹ | 1.7×10⁴ | 6.3 年 |
+初めの一揃いは約 4,200 個（84 チャンネル）。汎用の継電器では 20 年で初めの数の <strong>316〜31,600 倍</strong>を作り直すことになり、寿命 10⁷ でも Mark I の部品の総数（76.5 万）を上回る。リード継電器なら初めの数の 3.2 倍、Z4 の約 7 倍で済む。024 の非圧縮の割合 q=0.3（36 GB）でも汎用の継電器は 40 万〜400 万個。優先データ 10 MB だけなら汎用でも 1,100 個（10⁶）。</p>
+<h2 id="2p_relay-f_heavy-p_tube0235-119">結果2：p_relay と F_heavy（真空管の経路 p_tube=0.235 は 119 のまま。部品の確率はすべて【推測】）</h2>
+<p>p_relay ＝ 汎用の経路 0.8×S(M) とリードの経路 0.8×封じ 0.9×ガラス 0.9×Ni-Fe の合金 0.6×S(M) のどちらか。S(M)=1/(1+M/M50)、作り続けられる数の中央 M50=10⁵【推測：1 日 15 個×20 年】。
+| 版 | p_relay | p_vac | 遅い κ | 混合 |
+|---|---|---|---|---|
+| 119 の主（p_relay 0.8、再現） | 0.800 | 0.847 | 1.596 | 1.133 |
+| <strong>主（1 リール、C=50、汎用 10⁶）</strong> | <strong>0.335</strong> | <strong>0.492</strong> | <strong>1.377</strong> | 1.079 |
+| 汎用 10⁷／10⁵ | 0.369／0.332 | 0.517／0.489 | 1.378／1.379 | — |
+| C=20／100 | 0.373／0.291 | 0.521／0.458 | 1.409／1.363 | — |
+| M50=3×10⁴／10⁶ | 0.248／0.417 | 0.425／0.554 | 1.349／1.436 | — |
+| 接点の磨き直しで手間 1/10 | 0.404 | 0.544 | 1.422 | 1.098 |
+| q=0.3（36 GB） | 0.382 | 0.527 | 1.391 | 1.087 |
+| 優先データ 10 MB だけ | 0.872 | 0.903 | 1.634 | 1.142 |
+| リードを作れない | 0.006 | 0.240 | 1.223 | 1.054 |
+| 楽観／悲観 | 0.899／0.090 | 0.923／0.304 | 1.639／1.266 | 1.146／1.063 |
+（F_heavy は乱数の揺れ約 ±0.005 を含む。汎用 10⁵ と 10⁷ が逆の順になっているのはそのため。）</p>
+<p>主は p_relay <strong>0.8→0.335</strong>、遅い κ の F_heavy <strong>1.60→1.38</strong>（版 1.22〜1.64）。1.1 は越えたまま、1.5 は楽観の版と優先データだけの版でしか越えない。汎用の継電器の経路は 1 リールを読むと事実上消え（p_arm 0.006）、継電器の経路はほぼ<strong>リード継電器</strong>（ガラスと金属の封じ、真空は要らない）に乗っている。</p>
+<h2 id="_3">批判的検討</h2>
+<ol>
+<li><strong>真空管の経路にすり減りを入れていない</strong>。管にも寿命があり（時間で減る）、ここでは継電器だけを厳しくした。真空管の経路が相対的に有利に見えるのは偏りの可能性がある（新規 285）。</li>
+<li>a=0.5、C=50 は推測。読取の回路を「光導電セルが 1 点ごとに 1 個の継電器を動かし、残りは行ごとにしか動かない」ように組めば C×a は数個まで下がりうる（新規 287）。C=20 でも結論は同じ向き。</li>
+<li>寿命の値は現代の工場の継電器のもの。崩壊後の手作りの継電器の寿命はもっと短い可能性が高い【推測】。逆に、接点を磨いて付け替える保守（Mark I・交換機で行われた）を数えると M は下がる（refurb10 の版）。</li>
+<li>リード継電器の Ni-Fe の合金（p_NiFe 0.6）と、ガラスの熱膨張を合わせる封じは資料で確かめていない（新規 286）。リードの記事は封じの中身（ガス・真空）を書かない。</li>
+<li>S(M) の形と M50 は推測で、主の数値の最大の未知はここ。</li>
+<li>H132a〜c は事前の知識と重なり弱い。H132d は算術でほぼ決まる自明に近い予測で、支持に数えない。</li>
+</ol>
+<h2 id="_4">仮説の判定（事前登録どおり、分類つき）</h2>
+<ul>
+<li>H132a（確認的）：<strong>棄却</strong>。Relay の記事は寿命に回数の数値を挙げない（数値はデータシートと Reed の記事から取った）。</li>
+<li>H132b（確認的）：<strong>支持</strong>（15 年）。</li>
+<li>H132c（確認的）：<strong>支持</strong>（ガラスに封じ、10⁹ 回まで）。ただし封じの中身は書かれていない。</li>
+<li>H132d（予測）：<strong>支持</strong>（交換は初めの数の 316 倍〜3,160 倍）。自明に近いので支持の数に入れない。</li>
+<li>H132e（予測）：<strong>棄却</strong>。p_relay は 0.335 で 0.4〜0.7 の外（F_heavy 1.377 は 1.35〜1.55 の内）。</li>
+<li>H132f（記述）：上の寿命の表。</li>
+</ul>
+<h2 id="_5">逸脱</h2>
+<p>リード継電器の経路（封じ・Ni-Fe）と S(M)、M50、磨き直しの版は資料を読んだ後・sim.py の前に加えた。Relay の記事に数値がなかったため、データシート 3 件を検索で探して加えた。</p>
+<h2 id="_6">新規性</h2>
+<p>読み取りの接点の消耗が速さでなく読むビットの数で決まり、1 リールでは汎用の継電器を 10⁶〜10⁸ 個作り直すことになる、という数を崩壊後の再建の文脈で示した例は見つけていない【推測：網羅的な確認はしていない】。</p>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>本研究所は p_relay の主を 0.8→0.335、遅い κ の F_heavy の主を 1.60→1.38（版 1.22〜1.64）に下げる。読取装置の手引きを書く人（024）は、汎用の継電器で機械読み層を全部読もうとする設計を避け、リード継電器の作り方（ガラスと金属の封じ）と、1 点あたりに動く接点の数を最小にする回路を書く方がよい【独自仮説】。媒体の作り手は、人が目で読める層と小さな優先データ（汎用の継電器でも約 1,000 個で読める）を重く置く方がよい【独自仮説】。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1684,4 +1684,16 @@
 <li>逸脱：並列の計算と「どちらか」の版は資料を読んだ後・sim.py の前に追加。</li>
 <li>批判：1 点 1 動作の並列は楽観（位置合わせ・灰色・誤り訂正）。出力の速さ、継電器の接点の寿命、冷陰極の管は未調査。p_relay 0.8 は推測。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：p_vac の主を 0.57→0.85、遅い κ の F_heavy の主を 1.43→1.60 に戻す。読取装置の手引きには光導電セル＋継電器の並列の回路を真空管と並べて。</li>
+</ul>
+<h2 id="120-2026-10-25jst-5">第120回 2026-10-25（JST 5時台）</h2>
+<ul>
+<li>主課題：next_plan の推奨 ＝ open_problems 282（継電器の並列の読み取り回路の部品数 C と接点の寿命）。固定の節は残した。戻らないと決めた系列には戻っていない。</li>
+<li>再現チェック：119 の sim.py を exec し 119 の p_vac を差 0 で再現（assert）。119 の表の F_heavy も差 0。実行は 1 回。</li>
+<li>文献・データ（本回取得、sources/、SHA256SUMS）：Wikipedia の Relay・Reed relay・Reed switch・Harvard Mark I・Z4・Crossbar switch・Electrical contact・Strowger switch・Stepping switch・Wire spring relay（最後の 4 つは数値に使わない）、データシート Omron MK・Deltrol 260・Potter &amp; Brumfield KH。</li>
+<li>研究120：<code>research/120-relay-contact-life/</code>（sim.py 約293秒）。成果物は results.json、stdout.txt、fig_relay_wear.png、report.md、PREREGISTRATION.md（05:36 JST、資料を開く前・sim.py の前）、sources/。</li>
+<li>主要数値：汎用継電器の寿命は機械 10⁷・定格負荷 10⁵ 回、リードは 10⁹ 回まで。総動作数は点数×C×a で速さに依らない。1 リール（C=50、a=0.5）で作る継電器は 10⁵ 寿命で 1.3×10⁸、10⁶ で 1.3×10⁷、10⁷ で 1.3×10⁶、リードで 1.7×10⁴（初めの一揃い約 4,200）。p_relay 主 0.335（汎用 0.006＋リード 0.331）、p_vac 0.492、遅い κ の F_heavy 1.377（版 1.22〜1.64）、混合 1.079。優先データ 10 MB だけなら p_relay 0.87、F 1.63。</li>
+<li>判定：確認的 H132a 棄却、b・c 支持（弱い）。予測 H132d 支持（自明に近く数えない）、H132e 棄却（p_relay 0.335 &lt; 0.4）。H132f は記述。</li>
+<li>逸脱：リードの経路・S(M)・M50・磨き直しの版は資料の後・sim.py の前に追加。Relay の記事に数値がなくデータシートを検索で加えた。</li>
+<li>批判：真空管の経路にすり減りを入れていない非対称。C×a・M50・p_NiFe は推測。手作りの継電器の寿命は不明。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：p_relay の主を 0.8→0.335、遅い κ の F_heavy の主を 1.60→1.38 に下げる。読取装置の手引きにはリード継電器の作り方と、1 点あたりに動く接点を減らす回路を書いて。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
