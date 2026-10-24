@@ -1,0 +1,400 @@
+{
+ "study": "119-t2e-reader-vacuum",
+ "check_118_pvac_maxdiff": 0.0,
+ "check_118_table_maxdiff": 0.0,
+ "p_prec_117main": 0.455955,
+ "reel_pixels": 528000000000.0,
+ "single_channel_years": {
+  "relay_Z3_5Hz": 3346.262073161457,
+  "relay_Z3_10Hz": 1673.1310365807285,
+  "relay_MarkI_3add": 5577.103455269095,
+  "photoresistor_10ms": 167.31310365807286,
+  "tube_Colossus_char": 3.346262073161457,
+  "tube_Colossus_bit": 0.6692524146322915
+ },
+ "parallel": {
+  "relay_Z3_10Hz|T1|C20": {
+   "channels": 1673.1310365807285,
+   "components": 33462.620731614574
+  },
+  "relay_Z3_10Hz|T1|C100": {
+   "channels": 1673.1310365807285,
+   "components": 167313.10365807285
+  },
+  "relay_Z3_10Hz|T5|C20": {
+   "channels": 334.6262073161457,
+   "components": 6692.524146322914
+  },
+  "relay_Z3_10Hz|T5|C100": {
+   "channels": 334.6262073161457,
+   "components": 33462.620731614574
+  },
+  "relay_Z3_10Hz|T20|C20": {
+   "channels": 83.65655182903643,
+   "components": 1673.1310365807285
+  },
+  "relay_Z3_10Hz|T20|C100": {
+   "channels": 83.65655182903643,
+   "components": 8365.655182903643
+  },
+  "relay_Z3_10Hz|T100|C20": {
+   "channels": 16.731310365807285,
+   "components": 334.6262073161457
+  },
+  "relay_Z3_10Hz|T100|C100": {
+   "channels": 16.731310365807285,
+   "components": 1673.1310365807285
+  },
+  "relay_Z3_5Hz|T1|C20": {
+   "channels": 3346.262073161457,
+   "components": 66925.24146322915
+  },
+  "relay_Z3_5Hz|T1|C100": {
+   "channels": 3346.262073161457,
+   "components": 334626.2073161457
+  },
+  "relay_Z3_5Hz|T5|C20": {
+   "channels": 669.2524146322914,
+   "components": 13385.048292645828
+  },
+  "relay_Z3_5Hz|T5|C100": {
+   "channels": 669.2524146322914,
+   "components": 66925.24146322915
+  },
+  "relay_Z3_5Hz|T20|C20": {
+   "channels": 167.31310365807286,
+   "components": 3346.262073161457
+  },
+  "relay_Z3_5Hz|T20|C100": {
+   "channels": 167.31310365807286,
+   "components": 16731.310365807287
+  },
+  "relay_Z3_5Hz|T100|C20": {
+   "channels": 33.46262073161457,
+   "components": 669.2524146322914
+  },
+  "relay_Z3_5Hz|T100|C100": {
+   "channels": 33.46262073161457,
+   "components": 3346.262073161457
+  },
+  "tube_Colossus_char|T1|C20": {
+   "channels": 3.346262073161457,
+   "components": 66.92524146322914
+  },
+  "tube_Colossus_char|T1|C100": {
+   "channels": 3.346262073161457,
+   "components": 334.6262073161457
+  },
+  "tube_Colossus_char|T5|C20": {
+   "channels": 0.6692524146322915,
+   "components": 13.385048292645829
+  },
+  "tube_Colossus_char|T5|C100": {
+   "channels": 0.6692524146322915,
+   "components": 66.92524146322914
+  },
+  "tube_Colossus_char|T20|C20": {
+   "channels": 0.16731310365807286,
+   "components": 3.346262073161457
+  },
+  "tube_Colossus_char|T20|C100": {
+   "channels": 0.16731310365807286,
+   "components": 16.731310365807285
+  },
+  "tube_Colossus_char|T100|C20": {
+   "channels": 0.03346262073161457,
+   "components": 0.6692524146322915
+  },
+  "tube_Colossus_char|T100|C100": {
+   "channels": 0.03346262073161457,
+   "components": 3.346262073161457
+  }
+ },
+ "years_prio10MB": {
+  "relay_Z3_5Hz": 0.2788551727634548,
+  "relay_Z3_10Hz": 0.1394275863817274,
+  "relay_MarkI_3add": 0.46475862127242457,
+  "photoresistor_10ms": 0.013942758638172738,
+  "tube_Colossus_char": 0.00027885517276345475,
+  "tube_Colossus_bit": 5.5771034552690955e-05
+ },
+ "years_q0.3_36GB": {
+  "relay_Z3_5Hz": 1003.8786219484372,
+  "relay_Z3_10Hz": 501.9393109742186,
+  "relay_MarkI_3add": 1673.1310365807285,
+  "photoresistor_10ms": 50.19393109742186,
+  "tube_Colossus_char": 1.0038786219484372,
+  "tube_Colossus_bit": 0.20077572438968744
+ },
+ "parts": [
+  {
+   "part": "光源",
+   "no_vac": "炭素のアーク灯（棒は空気中）、日光",
+   "vac": "白熱電球（118）",
+   "fact": "Wikipedia Arc lamp：'carbon rods in free air'"
+  },
+  {
+   "part": "光電素子",
+   "no_vac": "光導電セル（遅れ約 10 ms、暗への戻り最大 1 秒）",
+   "vac": "光電管（Colossus の 8 つの photocell の読み取り）",
+   "fact": "Wikipedia Photoresistor・Colossus computer"
+  },
+  {
+   "part": "論理",
+   "no_vac": "継電器（Z3 2,600 個・5–10 Hz、Mark I 3 加算/秒）",
+   "vac": "高真空の管（Colossus 1,600〜2,400 本、5,000 字/秒）",
+   "fact": "Wikipedia Z3・Harvard Mark I・Colossus"
+  },
+  {
+   "part": "高真空の作り",
+   "no_vac": "—",
+   "vac": "Geissler の水銀ポンプでは部分の真空（de Forest、青い光）。高真空は Arnold（AT&T）と Langmuir（GE、Gaede の拡散ポンプの改良）、GE は 1915 年に hard vacuum の三極管。今は barium の getter",
+   "fact": "Wikipedia Vacuum tube・Getter"
+  }
+ ],
+ "tube_inputs": {
+  "p_Hg": 0.5,
+  "p_mech1mm": 0.5,
+  "p_P": 0.9,
+  "p_seal": 0.9,
+  "p_glass": 0.9,
+  "p_hard_Hg": 0.8,
+  "p_hard_mech": 0.2,
+  "p_cath": 0.8,
+  "p_getter": 0.8
+ },
+ "p_relay_main": 0.8,
+ "p_vac_versions": {
+  "pvac118_bulb": 0.5696325,
+  "novac_upper": 1.0,
+  "relay_only": 0.8,
+  "tube_only_main": 0.23535359999999997,
+  "tube_Hg0.2": 0.12213504000000004,
+  "tube_Hg0.8": 0.34857216000000013,
+  "tube_low": 0.008749999999999997,
+  "tube_high": 0.7054699904999999,
+  "either_main": 0.84707072,
+  "either_relay0.5": 0.6176767999999999,
+  "either_relay0.2": 0.3882828799999999
+ },
+ "table": {
+  "slow_Tasmania|pvac118_bulb": {
+   "F_heavy": 1.4208472208176242,
+   "F_total": 1.1525868024590193,
+   "U3_heavy_rel_drop": 0.15267005149256407
+  },
+  "trigger_mix|pvac118_bulb": {
+   "F_heavy": 1.0969731037678514,
+   "F_total": 1.035159590218312,
+   "U3_heavy_rel_drop": 0.05114687983868049
+  },
+  "fast_state|pvac118_bulb": {
+   "F_heavy": 1.0175134163700357,
+   "F_total": 1.006349848761851,
+   "U3_heavy_rel_drop": 0.024133088473587527
+  },
+  "slow_Tasmania|novac_upper": {
+   "F_heavy": 1.7007219190780831,
+   "F_total": 1.2540611218421398,
+   "U3_heavy_rel_drop": 0.23374023261675847
+  },
+  "trigger_mix|novac_upper": {
+   "F_heavy": 1.159163566585255,
+   "F_total": 1.057708019660992,
+   "U3_heavy_rel_drop": 0.07234165136293247
+  },
+  "fast_state|novac_upper": {
+   "F_heavy": 1.0184838829569989,
+   "F_total": 1.0067017113525323,
+   "U3_heavy_rel_drop": 0.028979871088545606
+  },
+  "slow_Tasmania|relay_only": {
+   "F_heavy": 1.5710676978172864,
+   "F_total": 1.2070523213347641,
+   "U3_heavy_rel_drop": 0.196125454610925
+  },
+  "trigger_mix|relay_only": {
+   "F_heavy": 1.125676538168405,
+   "F_total": 1.0455666098162164,
+   "U3_heavy_rel_drop": 0.06210075258363046
+  },
+  "fast_state|relay_only": {
+   "F_heavy": 1.0170417054229723,
+   "F_total": 1.0061788202708999,
+   "U3_heavy_rel_drop": 0.026142378740412697
+  },
+  "slow_Tasmania|tube_only_main": {
+   "F_heavy": 1.2126924274304534,
+   "F_total": 1.0771160074333102,
+   "U3_heavy_rel_drop": 0.08966907925533818
+  },
+  "trigger_mix|tube_only_main": {
+   "F_heavy": 1.0519679793020946,
+   "F_total": 1.01884205811448,
+   "U3_heavy_rel_drop": 0.03454682942637988
+  },
+  "fast_state|tube_only_main": {
+   "F_heavy": 1.0122700519213486,
+   "F_total": 1.004448759302835,
+   "U3_heavy_rel_drop": 0.02025854308451258
+  },
+  "slow_Tasmania|tube_Hg0.2": {
+   "F_heavy": 1.1480040977837604,
+   "F_total": 1.0536619250752821,
+   "U3_heavy_rel_drop": 0.06819343919916454
+  },
+  "trigger_mix|tube_Hg0.2": {
+   "F_heavy": 1.0331757975347453,
+   "F_total": 1.0120285666970066,
+   "U3_heavy_rel_drop": 0.02926794137769617
+  },
+  "fast_state|tube_Hg0.2": {
+   "F_heavy": 1.0111795735182851,
+   "F_total": 1.0040533839636543,
+   "U3_heavy_rel_drop": 0.018969428540563937
+  },
+  "slow_Tasmania|tube_Hg0.8": {
+   "F_heavy": 1.2917176402471786,
+   "F_total": 1.1057682212079931,
+   "U3_heavy_rel_drop": 0.10945950811998117
+  },
+  "trigger_mix|tube_Hg0.8": {
+   "F_heavy": 1.0633831090571537,
+   "F_total": 1.0229808478291782,
+   "U3_heavy_rel_drop": 0.039739296388318746
+  },
+  "fast_state|tube_Hg0.8": {
+   "F_heavy": 1.01249586207186,
+   "F_total": 1.004530631410158,
+   "U3_heavy_rel_drop": 0.02125958733931077
+  },
+  "slow_Tasmania|tube_low": {
+   "F_heavy": 1.0811449892039136,
+   "F_total": 1.029420782235752,
+   "U3_heavy_rel_drop": 0.047308343235749506
+  },
+  "trigger_mix|tube_low": {
+   "F_heavy": 1.0213005415701253,
+   "F_total": 1.0077229487758441,
+   "U3_heavy_rel_drop": 0.023729790068776846
+  },
+  "fast_state|tube_low": {
+   "F_heavy": 1.0092646180135012,
+   "F_total": 1.0033590775197183,
+   "U3_heavy_rel_drop": 0.017572287638183748
+  },
+  "slow_Tasmania|tube_high": {
+   "F_heavy": 1.512114539186713,
+   "F_total": 1.1856776430065528,
+   "U3_heavy_rel_drop": 0.17842353534262356
+  },
+  "trigger_mix|tube_high": {
+   "F_heavy": 1.1169082160972996,
+   "F_total": 1.0423874745823865,
+   "U3_heavy_rel_drop": 0.057592452558424156
+  },
+  "fast_state|tube_high": {
+   "F_heavy": 1.0143708818215593,
+   "F_total": 1.0052104583259642,
+   "U3_heavy_rel_drop": 0.025162939757300773
+  },
+  "slow_Tasmania|either_main": {
+   "F_heavy": 1.5973795124918369,
+   "F_total": 1.2165922100865156,
+   "U3_heavy_rel_drop": 0.2030751503366821
+  },
+  "trigger_mix|either_main": {
+   "F_heavy": 1.133905615866089,
+   "F_total": 1.0485502309284978,
+   "U3_heavy_rel_drop": 0.06426127975225948
+  },
+  "fast_state|either_main": {
+   "F_heavy": 1.0193782162428837,
+   "F_total": 1.0070259702514286,
+   "U3_heavy_rel_drop": 0.027143422995210886
+  },
+  "slow_Tasmania|either_relay0.5": {
+   "F_heavy": 1.4481334517789413,
+   "F_total": 1.1624799858462274,
+   "U3_heavy_rel_drop": 0.16084404594721102
+  },
+  "trigger_mix|either_relay0.5": {
+   "F_heavy": 1.106753653097497,
+   "F_total": 1.0387057292319044,
+   "U3_heavy_rel_drop": 0.05244319613985804
+  },
+  "fast_state|either_relay0.5": {
+   "F_heavy": 1.0143802548975522,
+   "F_total": 1.0052138567271518,
+   "U3_heavy_rel_drop": 0.024226711317561378
+  },
+  "slow_Tasmania|either_relay0.2": {
+   "F_heavy": 1.314244198074681,
+   "F_total": 1.113935687355515,
+   "U3_heavy_rel_drop": 0.11840409059810586
+  },
+  "trigger_mix|either_relay0.2": {
+   "F_heavy": 1.074488011913154,
+   "F_total": 1.0270071584107787,
+   "U3_heavy_rel_drop": 0.042195095603327126
+  },
+  "fast_state|either_relay0.2": {
+   "F_heavy": 1.0137210162588828,
+   "F_total": 1.0049748362205257,
+   "U3_heavy_rel_drop": 0.02187893846098432
+  }
+ },
+ "hypotheses": {
+  "H131a": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Z3 5–10 Hz（2,600 継電器）、Mark I 3 加算/秒"
+  },
+  "H131b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "Colossus 5,000 字/秒（試験で 9,700、5 並列で実効 25,000）"
+  },
+  "H131c": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "de Forest は Geissler の水銀ポンプで hard vacuum でない。Arnold・Langmuir（Gaede の拡散ポンプ 1915 の改良）、GE の hard vacuum 三極管 1915"
+  },
+  "H131d": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "光導電セルの遅れ約 10 ms、暗へは最大 1 秒",
+   "note": "記事は光導電セル一般でセレンを名指ししない"
+  },
+  "H131e": {
+   "class": "prediction",
+   "value": {
+    "relay_Z3_5Hz": 3346.26,
+    "relay_Z3_10Hz": 1673.13,
+    "relay_MarkI_3add": 5577.1,
+    "photoresistor_10ms": 167.31,
+    "tube_Colossus_char": 3.35,
+    "tube_Colossus_bit": 0.67
+   },
+   "rule": "tube_Colossus_char < 20 年 かつ relay_Z3_10Hz > 500 年",
+   "supported": true,
+   "note": "1 チャンネルでの話。並列にすると継電器でも 20 年で読める（parallel の表）ので、『真空のない経路は足りない』という結論は支持されない"
+  },
+  "H131f": {
+   "class": "prediction",
+   "value": {
+    "p_vac_tube": 0.23535359999999997,
+    "F_heavy_slow": 1.2126924274304534
+   },
+   "rule": "0.25<=p_vac_tube<=0.50 かつ 1.20<=F_heavy<=1.40",
+   "supported": false,
+   "note": "p_vac の値は推測の積で範囲に入るのは作りから。非自明なのは F_heavy の範囲だけ"
+  },
+  "H131g": {
+   "class": "descriptive",
+   "supported": null,
+   "value": "部品の表"
+  }
+ },
+ "runtime_s": 309.192182302475
+}

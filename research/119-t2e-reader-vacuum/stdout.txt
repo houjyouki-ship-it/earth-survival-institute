@@ -1,0 +1,91 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+check_118 0.0 0.0
+reel_pixels 528000000000.0
+single_years relay_Z3_5Hz 3346.26
+single_years relay_Z3_10Hz 1673.13
+single_years relay_MarkI_3add 5577.1
+single_years photoresistor_10ms 167.31
+single_years tube_Colossus_char 3.35
+single_years tube_Colossus_bit 0.67
+parallel relay_Z3_10Hz|T1|C20 1673.1 33463
+parallel relay_Z3_10Hz|T1|C100 1673.1 167313
+parallel relay_Z3_10Hz|T5|C20 334.6 6693
+parallel relay_Z3_10Hz|T5|C100 334.6 33463
+parallel relay_Z3_10Hz|T20|C20 83.7 1673
+parallel relay_Z3_10Hz|T20|C100 83.7 8366
+parallel relay_Z3_10Hz|T100|C20 16.7 335
+parallel relay_Z3_10Hz|T100|C100 16.7 1673
+parallel relay_Z3_5Hz|T1|C20 3346.3 66925
+parallel relay_Z3_5Hz|T1|C100 3346.3 334626
+parallel relay_Z3_5Hz|T5|C20 669.3 13385
+parallel relay_Z3_5Hz|T5|C100 669.3 66925
+parallel relay_Z3_5Hz|T20|C20 167.3 3346
+parallel relay_Z3_5Hz|T20|C100 167.3 16731
+parallel relay_Z3_5Hz|T100|C20 33.5 669
+parallel relay_Z3_5Hz|T100|C100 33.5 3346
+parallel tube_Colossus_char|T1|C20 3.3 67
+parallel tube_Colossus_char|T1|C100 3.3 335
+parallel tube_Colossus_char|T5|C20 0.7 13
+parallel tube_Colossus_char|T5|C100 0.7 67
+parallel tube_Colossus_char|T20|C20 0.2 3
+parallel tube_Colossus_char|T20|C100 0.2 17
+parallel tube_Colossus_char|T100|C20 0.0 1
+parallel tube_Colossus_char|T100|C100 0.0 3
+q0.3 {'relay_Z3_5Hz': 1003.9, 'relay_Z3_10Hz': 501.9, 'relay_MarkI_3add': 1673.1, 'photoresistor_10ms': 50.2, 'tube_Colossus_char': 1.0, 'tube_Colossus_bit': 0.2}
+prio10MB {'relay_Z3_5Hz': 0.2789, 'relay_Z3_10Hz': 0.1394, 'relay_MarkI_3add': 0.4648, 'photoresistor_10ms': 0.0139, 'tube_Colossus_char': 0.0003, 'tube_Colossus_bit': 0.0001}
+p_vac pvac118_bulb 0.5696
+p_vac novac_upper 1.0
+p_vac relay_only 0.8
+p_vac tube_only_main 0.2354
+p_vac tube_Hg0.2 0.1221
+p_vac tube_Hg0.8 0.3486
+p_vac tube_low 0.0087
+p_vac tube_high 0.7055
+p_vac either_main 0.8471
+p_vac either_relay0.5 0.6177
+p_vac either_relay0.2 0.3883
+slow_Tasmania|pvac118_bulb F_heavy 1.4208
+trigger_mix|pvac118_bulb F_heavy 1.097
+fast_state|pvac118_bulb F_heavy 1.0175
+slow_Tasmania|novac_upper F_heavy 1.7007
+trigger_mix|novac_upper F_heavy 1.1592
+fast_state|novac_upper F_heavy 1.0185
+slow_Tasmania|relay_only F_heavy 1.5711
+trigger_mix|relay_only F_heavy 1.1257
+fast_state|relay_only F_heavy 1.017
+slow_Tasmania|tube_only_main F_heavy 1.2127
+trigger_mix|tube_only_main F_heavy 1.052
+fast_state|tube_only_main F_heavy 1.0123
+slow_Tasmania|tube_Hg0.2 F_heavy 1.148
+trigger_mix|tube_Hg0.2 F_heavy 1.0332
+fast_state|tube_Hg0.2 F_heavy 1.0112
+slow_Tasmania|tube_Hg0.8 F_heavy 1.2917
+trigger_mix|tube_Hg0.8 F_heavy 1.0634
+fast_state|tube_Hg0.8 F_heavy 1.0125
+slow_Tasmania|tube_low F_heavy 1.0811
+trigger_mix|tube_low F_heavy 1.0213
+fast_state|tube_low F_heavy 1.0093
+slow_Tasmania|tube_high F_heavy 1.5121
+trigger_mix|tube_high F_heavy 1.1169
+fast_state|tube_high F_heavy 1.0144
+slow_Tasmania|either_main F_heavy 1.5974
+trigger_mix|either_main F_heavy 1.1339
+fast_state|either_main F_heavy 1.0194
+slow_Tasmania|either_relay0.5 F_heavy 1.4481
+trigger_mix|either_relay0.5 F_heavy 1.1068
+fast_state|either_relay0.5 F_heavy 1.0144
+slow_Tasmania|either_relay0.2 F_heavy 1.3142
+trigger_mix|either_relay0.2 F_heavy 1.0745
+fast_state|either_relay0.2 F_heavy 1.0137
+H131a confirmatory True Z3 5–10 Hz（2,600 継電器）、Mark I 3 加算/秒
+H131b confirmatory True Colossus 5,000 字/秒（試験で 9,700、5 並列で実効 25,000）
+H131c confirmatory True de Forest は Geissler の水銀ポンプで hard vacuum でない。Arnold・Langmuir（Gaede の拡散ポンプ 1915 の改良）、GE の hard vacuum 三極管 1915
+H131d confirmatory True 光導電セルの遅れ約 10 ms、暗へは最大 1 秒
+H131e prediction True {'relay_Z3_5Hz': 3346.26, 'relay_Z3_10Hz': 1673.13, 'relay_MarkI_3add': 5577.1, 'photoresistor_10ms': 167.31, 'tube_Colo
+H131f prediction False {'p_vac_tube': 0.23535359999999997, 'F_heavy_slow': 1.2126924274304534}
+H131g descriptive None 部品の表
+runtime 309.2
+EXIT 0
