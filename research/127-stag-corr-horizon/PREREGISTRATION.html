@@ -1,0 +1,34 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究127 事前登録（2026-10-25 19:47 JST、sim.py を書く前・実行の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="127-2026-10-25-1947-jstsimpy">研究127 事前登録（2026-10-25 19:47 JST、sim.py を書く前・実行の前）</h1>
+<p><strong>注：F_heavy・V は生存確率や復興確率ではない。模型の中の相対的な価値の比である。</strong></p>
+<h2 id="_1">課題</h2>
+<p>open_problems 298（停滞と段の喪失の相関）＋299（地平 H の感度）。126 は停滞を p=0.6 で独立に抽選した。</p>
+<h2 id="_2">登録前に分かっていること（コードを読んだ範囲、計算はしていない）</h2>
+<ul>
+<li>126 の F_heavy は A_Ord/U3 の heavy の比で、U3 の成分だけで決まる。U3 の基準の段の喪失（st 4〜6）の割合は 0.694（126 の前半を exec して確認、19:46 JST の確認用スクリプト、削除済み）。</li>
+<li>待ち（停滞）は st≥4 の標本にだけ入り、new_st_stag は min(基準の st, 保てた段) なので新しい側の st は基準以下。
+  したがって停滞の確率は「基準で段を失った標本」の中の値だけが結果に効き、それ以外の標本の p は無関係のはず。
+  →「相関 完全・条件つき（段の喪失の標本で p=0.6、他は 0）」は 126 の V2b と差 0 になるはず（検算として assert する）。</li>
+<li>型（CASC/BIO）に寄せる版は U3 に型がないので F_heavy に効かない。今回は作らない（逸脱ではなく範囲外として記録）。</li>
+<li>V_m は 057 の名前空間の H（=1000）と寿命 life（標本ごと、中央 521 年）を使う。</li>
+</ul>
+<h2 id="_3">方法（登録時に固定）</h2>
+<ul>
+<li>126 の sim.py を「# ---------- 125 と同じ乱数」の前まで exec（126 内の assert 4 つが通る）。125 と同じ seed・同じ順で U_case, U_stag, U_pick を引く。</li>
+<li>停滞の版（長さは 126 の V2b と同じ 3 値）：</li>
+<li>C0：p=0.6 独立（126 の V2b）。</li>
+<li>Ccond：段の喪失の標本で p=0.6、他は 0。</li>
+<li>Cmid：段の喪失の標本で p=0.8、他は全体が 0.6 になる値（成分ごと、0 で切る）。</li>
+<li>Cmass：段の喪失の標本で p=min(1, 0.6/s_k)、他は 0（全体 0.6 を保つ完全相関。U3 で 0.865）。</li>
+<li>C1：段の喪失の標本で p=1（上限）。</li>
+<li>地平 H：1000・1500・2000 年（057 の名前空間の H を替える）。H=1000 で 126 の V0・V2b の table を差 0 で再現（assert）。</li>
+<li>形は W を主、WT は C0・Cmass だけ。遅い κ（slow_Tasmania）の D2rz|none・D1|main・D4|main、他の κ は D2rz だけ表に出す。</li>
+<li>結論は F_heavy と基準・新しい側の重い分の量（A_Ord/U3 heavy）を並べて出す。</li>
+</ul>
+<h2 id="_4">仮説</h2>
+<p>確認的（計算の前に登録）：
+- H139a：完全相関（Cmass）・W・H=1000 で D2rz の F_heavy は 126 の V2b（1.888）より 5 % 以上上がる。
+- H139b：H=2000 で V2b（C0）・W の D2rz の F_heavy の上げ幅（対 同じ H の V0）は H=1000 の上げ幅（0.359）の半分未満。
+- H139c：全ての版・H で遅い κ の D2rz ≥ D1 ≥ D4。
+予測：
+- H139d：V0 の基準の重い分の価値は H=2000 で H=1000 より 10 % 未満しか増えない（寿命 life の中央 521 年が先に効くため）。
+記述：版×H の F_heavy と量の表。</p><footer><hr><small>自動生成</small></footer></body></html>
