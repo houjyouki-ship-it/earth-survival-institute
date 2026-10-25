@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究131：同じ崩壊で段を保った地域と失った地域の停滞の比 phi（open_problems 306） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="131-phiopen_problems-306">研究131：同じ崩壊で段を保った地域と失った地域の停滞の比 phi（open_problems 306）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。事前登録 PREREGISTRATION.md（2026-10-26 03:37 JST、資料と計算の前）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<p>登録した 5 対（西ローマ：イタリア・Gaul・イベリア × Britain、青銅器時代末：Egypt × Greece、Assyria × Hittite）について本回 Wikipedia 16 頁（sources/、SHA256SUMS_sources）を開き、125 の規則（超過＝回復年数 − 038 の中央値の模型の予測、r_med=0.00292/年）で phi＝max(超過_kept,0)/超過_lost を出した（cases.py）。130 の仕組みで phi の格子 0〜2.5 の F_heavy（遅い κ、p|lost 0.9、D2rz・D1・D4）を回した（sim.py 約 363 秒、phi=0・0.5・1 で 130 と差 0 を assert）。</p>
+<h2 id="_2">結果</h2>
+<ul>
+<li>【事実（wiki_Demography_of_the_Roman_Empire, Frier の表）】164 CE：Iberia 7.5M、Gaul and Germany 9.0M、Italy 7.6M（Harper：Iberia 9M）。【事実（wiki_Demographics_of_France）】フランス（現在の範囲）120 年 7.2M、400 年 5.5M、850 年 7.0M、1226 年 16M。【事実（wiki_Medieval_demography）】Charlemagne の頃 Carolingian France 5M、Italy 4M、Iberia も同程度、表で 1000 年 Spain and Portugal 9M、Italy 1200 年 8M・1250 年 9M。</li>
+<li>【事実（wiki_Merovingian_dynasty, wiki_Francia, wiki_Visigothic_Kingdom）】Frank の tremissis（6 世紀半ば）・Theudebert I の金貨・Latin の行政文書、Visigoth の tremissis・Reccopolis の basilica・法典 → 規則でフランス・イベリアとも kept。</li>
+<li>取れず：Egypt（前 3 千年紀 1–1.5M・前 1 千年紀 2–3M のみ）、Hittite（王国 14–20 万のみ）、Assyria（時系列なし）、400 年のイタリア・イベリア。</li>
+<li>【計算（cases.json）】Britain の超過 +408 年（125）。崩壊前の極大からの規則（登録の主）：イタリア +802（phi 1.97）、フランス +651（1.60、谷を Carolingian 5M にすると 1.52）、イベリア +576（1.41、Harper 9M で 1.37）。新しい対の中央値 1.50、3 対の中央値 1.60。共通の始点 400 年の版（フランスのみ取れた）：L=0.09 で停滞なし、phi 0。</li>
+<li>【計算（results.json, fig_phi.png）】D2rz の F_heavy：phi 0→2.174、0.5→2.008、1→1.703、1.50→1.431、1.60→1.343、1.97→1.270、2.5→1.065。全格子で D2rz ≥ D1 ≥ D4、1 を割る phi は格子内になし。</li>
+<li>【計算・登録外（explore_posttrough.json、支持に数えない）】谷からの回復の遅れで測ると Britain +208 年、イタリア +167（phi 0.81）、フランス −62、イベリア −60（phi 0）。谷の後の回復の速さ r_eff は Britain 0.00188、イタリア 0.00177、フランス 0.0058、イベリア 0.0041。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>H143a（確認的）<strong>棄却</strong>：新しい対の phi の中央値 1.50（≥0.5）。</li>
+<li>H143b（確認的）検定できず：Egypt の減少と回復の数値なし。</li>
+<li>H143c（入力判明後の予測）前半支持（イタリア下限 1.96 ≥0.9）、後半は 400 年のイタリアの数値がなく検定できず。</li>
+<li>H143d（予測）<strong>棄却</strong>：主の phi 1.50 で F_heavy 1.43（予測 1.80〜2.10 の外）。</li>
+<li>H143e（記述の予測）支持：取れた新しい対は 2。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ol>
+<li>登録の規則（崩壊前の極大から数える）は大陸の 3 地域で 2 世紀の極大（Antonine の疫病・3 世紀の危機の前）を始点にし、Britain は 4 世紀を始点にした。phi&gt;1 の大半はこの約 240 年の始点の差で、「同じ崩壊」の比較になっていない【推測】。共通の始点（フランスのみ）と谷からの遅れの版では phi は 0（フランス・イベリア）〜0.8（イタリア）。</li>
+<li>つまり phi は資料で決まらず、定義の選び方で 0〜2 動き、F_heavy は 2.17〜1.27。決めているのは歴史の情報ではなく測り方。</li>
+<li>谷の年（800）は「Charlemagne の頃」の推定の年で、谷の深さも範囲の違う推定の混ぜ合わせ。イベリアは 711 以後の移入（量不明）を含む。</li>
+<li>それでも谷からの遅れでイタリアが Britain の 0.8 倍だったことは、段を保っても回復が遅い例があることを示す（1 件）【推測】。</li>
+</ol>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は F_heavy の主 2.17 を据え置かず「2.17（phi 0：フランス・イベリア型）〜1.82（phi 0.8：イタリア型）」の幅で示し、極大の規則の 1.27〜1.43 は始点の交絡を含む下端の感度として並べる。D2rz の推しは phi によらず不変。phi の定義は「谷からの遅れ」に揃えることを提案する（次回、登録して再検証）。</p><footer><hr><small>自動生成</small></footer></body></html>
