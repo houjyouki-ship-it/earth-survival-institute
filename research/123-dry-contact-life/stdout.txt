@@ -2,3 +2,106 @@
   gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
 /workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
   gap = np.log(N_T2e / N_small) / r_pop
+check_122 0.0 0.0
+ignition [30000000.0, 120000000.0] powerspark60 30000000.0 anchor 34641016.15137756
+dist main {'mu_log10': 6.5395906230238126, 'sigma': 0.58309518948453, 'L_median': 3464101.615137756}
+dist h0.03 {'mu_log10': 6.016711877743475, 'sigma': 0.58309518948453, 'L_median': 1039230.4845413271}
+dist h0.3 {'mu_log10': 7.016711877743475, 'sigma': 0.58309518948453, 'L_median': 10392304.845413271}
+dist wide {'mu_log10': 6.5395906230238126, 'sigma': 1.044030650891055, 'L_median': 3464101.615137756}
+dist silver_only_anchor1e7 {'mu_log10': 6.0, 'sigma': 0.58309518948453, 'L_median': 1000000.0}
+dist pess {'mu_log10': 5.477121254719663, 'sigma': 1.044030650891055, 'L_median': 300000.0000000001}
+E D1|main|refurb1 {'mean': 0.7173, 'p10': 0.5193, 'p50': 0.7424, 'p90': 0.8525}
+E D1|main|refurb3 {'mean': 0.7935, 'p10': 0.6446, 'p50': 0.8222, 'p90': 0.8687}
+E D1|main|refurb10 {'mean': 0.8429, 'p10': 0.7726, 'p50': 0.8594, 'p90': 0.8747}
+E D1|h0.03|refurb1 {'mean': 0.611, 'p10': 0.4365, 'p50': 0.6036, 'p90': 0.8036}
+E D1|h0.03|refurb3 {'mean': 0.7088, 'p10': 0.5097, 'p50': 0.732, 'p90': 0.85}
+E D1|h0.03|refurb10 {'mean': 0.7935, 'p10': 0.6446, 'p50': 0.8223, 'p90': 0.8688}
+E D1|h0.3|refurb1 {'mean': 0.7934, 'p10': 0.6444, 'p50': 0.8221, 'p90': 0.8687}
+E D1|h0.3|refurb3 {'mean': 0.8398, 'p10': 0.7636, 'p50': 0.8574, 'p90': 0.8744}
+E D1|h0.3|refurb10 {'mean': 0.8639, 'p10': 0.8366, 'p50': 0.8712, 'p90': 0.8764}
+E D1|wide|refurb1 {'mean': 0.6951, 'p10': 0.4231, 'p50': 0.7424, 'p90': 0.8718}
+E D1|wide|refurb3 {'mean': 0.7582, 'p10': 0.4805, 'p50': 0.8222, 'p90': 0.8754}
+E D1|wide|refurb10 {'mean': 0.8106, 'p10': 0.6018, 'p50': 0.8594, 'p90': 0.8767}
+E D1|silver_only_anchor1e7|refurb1 {'mean': 0.6076, 'p10': 0.4348, 'p50': 0.599, 'p90': 0.8011}
+E D1|silver_only_anchor1e7|refurb3 {'mean': 0.7055, 'p10': 0.5063, 'p50': 0.728, 'p90': 0.849}
+E D1|silver_only_anchor1e7|refurb10 {'mean': 0.7914, 'p10': 0.6399, 'p50': 0.8203, 'p90': 0.8684}
+E D1|pess|refurb1 {'mean': 0.5391, 'p10': 0.3912, 'p50': 0.4787, 'p90': 0.8211}
+E D1|pess|refurb3 {'mean': 0.6077, 'p10': 0.3979, 'p50': 0.5867, 'p90': 0.857}
+E D1|pess|refurb10 {'mean': 0.6863, 'p10': 0.4192, 'p50': 0.7281, 'p90': 0.871}
+E D4|main|refurb1 {'mean': 0.6179, 'p10': 0.4373, 'p50': 0.6152, 'p90': 0.8051}
+E D4|main|refurb3 {'mean': 0.7143, 'p10': 0.5181, 'p50': 0.74, 'p90': 0.8462}
+E D4|main|refurb10 {'mean': 0.7945, 'p10': 0.6565, 'p50': 0.8219, 'p90': 0.8624}
+E D4|h0.03|refurb1 {'mean': 0.5161, 'p10': 0.4, 'p50': 0.4872, 'p90': 0.7054}
+E D4|h0.03|refurb3 {'mean': 0.609, 'p10': 0.4332, 'p50': 0.6031, 'p90': 0.7993}
+E D4|h0.03|refurb10 {'mean': 0.7145, 'p10': 0.5184, 'p50': 0.7401, 'p90': 0.8462}
+E D4|h0.3|refurb1 {'mean': 0.7139, 'p10': 0.5173, 'p50': 0.7396, 'p90': 0.8459}
+E D4|h0.3|refurb3 {'mean': 0.7888, 'p10': 0.6436, 'p50': 0.8171, 'p90': 0.8616}
+E D4|h0.3|refurb10 {'mean': 0.8367, 'p10': 0.7693, 'p50': 0.8527, 'p90': 0.8673}
+E D4|wide|refurb1 {'mean': 0.6201, 'p10': 0.3947, 'p50': 0.6152, 'p90': 0.8543}
+E D4|wide|refurb3 {'mean': 0.6913, 'p10': 0.4194, 'p50': 0.74, 'p90': 0.8645}
+E D4|wide|refurb10 {'mean': 0.7589, 'p10': 0.4868, 'p50': 0.8219, 'p90': 0.8682}
+E D4|silver_only_anchor1e7|refurb1 {'mean': 0.5132, 'p10': 0.3993, 'p50': 0.484, 'p90': 0.7012}
+E D4|silver_only_anchor1e7|refurb3 {'mean': 0.6056, 'p10': 0.4315, 'p50': 0.5985, 'p90': 0.7969}
+E D4|silver_only_anchor1e7|refurb10 {'mean': 0.7114, 'p10': 0.5146, 'p50': 0.7364, 'p90': 0.8454}
+E D4|pess|refurb1 {'mean': 0.4781, 'p10': 0.383, 'p50': 0.4178, 'p90': 0.7376}
+E D4|pess|refurb3 {'mean': 0.5359, 'p10': 0.3863, 'p50': 0.4766, 'p90': 0.8161}
+E D4|pess|refurb10 {'mean': 0.6114, 'p10': 0.3943, 'p50': 0.5987, 'p90': 0.8523}
+E D3|main|refurb1 {'mean': 0.5514, 'p10': 0.4044, 'p50': 0.5308, 'p90': 0.7495}
+E D3|main|refurb3 {'mean': 0.6499, 'p10': 0.4565, 'p50': 0.6608, 'p90': 0.8168}
+E D3|main|refurb10 {'mean': 0.7463, 'p10': 0.5698, 'p50': 0.7762, 'p90': 0.8462}
+E D3|h0.03|refurb1 {'mean': 0.4641, 'p10': 0.3836, 'p50': 0.4349, 'p90': 0.6197}
+E D3|h0.03|refurb3 {'mean': 0.5439, 'p10': 0.4033, 'p50': 0.5213, 'p90': 0.741}
+E D3|h0.03|refurb10 {'mean': 0.6503, 'p10': 0.4571, 'p50': 0.6611, 'p90': 0.817}
+E D3|h0.3|refurb1 {'mean': 0.6489, 'p10': 0.4549, 'p50': 0.6598, 'p90': 0.8162}
+E D3|h0.3|refurb3 {'mean': 0.7387, 'p10': 0.5573, 'p50': 0.7684, 'p90': 0.8446}
+E D3|h0.3|refurb10 {'mean': 0.8055, 'p10': 0.6987, 'p50': 0.8284, 'p90': 0.8553}
+E D3|wide|refurb1 {'mean': 0.5689, 'p10': 0.3808, 'p50': 0.5308, 'p90': 0.8312}
+E D3|wide|refurb3 {'mean': 0.6411, 'p10': 0.3955, 'p50': 0.6608, 'p90': 0.85}
+E D3|wide|refurb10 {'mean': 0.7153, 'p10': 0.4361, 'p50': 0.7762, 'p90': 0.857}
+E D3|silver_only_anchor1e7|refurb1 {'mean': 0.4619, 'p10': 0.3833, 'p50': 0.4328, 'p90': 0.615}
+E D3|silver_only_anchor1e7|refurb3 {'mean': 0.5408, 'p10': 0.4023, 'p50': 0.5174, 'p90': 0.7375}
+E D3|silver_only_anchor1e7|refurb10 {'mean': 0.6469, 'p10': 0.4545, 'p50': 0.6566, 'p90': 0.8154}
+E D3|pess|refurb1 {'mean': 0.4432, 'p10': 0.3747, 'p50': 0.3934, 'p90': 0.6574}
+E D3|pess|refurb3 {'mean': 0.4925, 'p10': 0.3777, 'p50': 0.4293, 'p90': 0.7669}
+E D3|pess|refurb10 {'mean': 0.5616, 'p10': 0.3824, 'p50': 0.5179, 'p90': 0.8278}
+pt D1|L1e+05|refurb1 0.4225
+pt D1|L1e+05|refurb10 0.5993
+pt D1|L1e+06|refurb1 0.599
+pt D1|L1e+06|refurb10 0.8203
+pt D1|L1e+07|refurb1 0.8202
+pt D1|L1e+07|refurb10 0.8709
+pt D4|L1e+05|refurb1 0.3945
+pt D4|L1e+05|refurb10 0.4851
+pt D4|L1e+06|refurb1 0.484
+pt D4|L1e+06|refurb10 0.7364
+pt D4|L1e+07|refurb1 0.7359
+pt D4|L1e+07|refurb10 0.852
+pt D3|L1e+05|refurb1 0.3807
+pt D3|L1e+05|refurb10 0.4351
+pt D3|L1e+06|refurb1 0.4328
+pt D3|L1e+06|refurb10 0.6566
+pt D3|L1e+07|refurb1 0.6552
+pt D3|L1e+07|refurb10 0.8272
+p_vac D3|main|refurb1 0.655
+p_vac D1|main|refurb1 0.7825
+p_vac D4|main|refurb1 0.7061
+p_vac D3|pess|refurb1 0.5717
+p_vac D3|main|refurb10 0.8048
+slow_Tasmania|D3|main|refurb1 F_heavy 1.4801
+trigger_mix|D3|main|refurb1 F_heavy 1.1078
+fast_state|D3|main|refurb1 F_heavy 1.0163
+slow_Tasmania|D1|main|refurb1 F_heavy 1.5684
+trigger_mix|D1|main|refurb1 F_heavy 1.1322
+fast_state|D1|main|refurb1 F_heavy 1.0193
+slow_Tasmania|D3|pess|refurb1 F_heavy 1.4275
+trigger_mix|D3|pess|refurb1 F_heavy 1.0953
+fast_state|D3|pess|refurb1 F_heavy 1.0162
+H135a confirmatory False Contact breaker の記事に交換・点検の間隔の数値なし（『regular adjustment』『subject to wear』のみ）。間隔は howacarworks・Moss Motors で得た
+H135b confirmatory False Contact breaker の記事に材料の記述なし（タングステンは Powerspark の頁にあり）
+H135c confirmatory True 『some steel and titanium alloys exhibit a theoretical fatigue limit』。ただし『fatigue limits do not exist for any metals』とする研究もあると併記
+H135d confirmatory True Electrical contact：継電器を含む接点の典型の材料に Platinum-group metals、Platinum：用途に electrical contacts。電信の接点という記述はどれにもない
+H135e prediction True [30000000.0, 120000000.0]
+H135f prediction True {'D1': 0.717279477768568, 'D3': 0.5514355345460936}
+H135g prediction True {'refurb_1to10': 0.2237410445168655, 'L_1e6to1e7': 0.22239522618760332}
+H135h descriptive None 分布の版と p_relay の表
+runtime 330.7
