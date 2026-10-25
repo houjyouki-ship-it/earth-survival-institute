@@ -1,0 +1,344 @@
+{{Short description|Roman province (218 BC – 472 AD)}}
+{{Use dmy dates|date=December 2024}}{{Use Oxford spelling|date = December 2024}}
+{{other uses|Hispania (disambiguation)}}
+{{Infobox country
+| native_name            = {{native phrase|grc|Ἱσπανία}}
+| conventional_long_name = Hispania
+| common_name            = Roman Empire
+| national_motto         = 
+| coordinates            = {{coord|40.21|-4.35|dim:1000000|display=title}}
+| era                    = Classical antiquity
+| status                 = Empire
+| government_type        = [[Autocracy]]
+| p1                     = Carthaginian Iberia
+| flag_p1                = 
+| s1                     = Visigothic Kingdom
+| flag_s1                = 
+| s2                     = Kingdom of the Suebi
+| flag_s2                = 
+| s3                     = Spania
+| today                  = [[Spain]]<br>[[Portugal]]
+| flag_s3                = 
+| event_start            = 
+| year_start             = 218 BC
+| event_end              = 
+| year_end               = 472
+| event_pre              = 
+| date_pre               = 
+| event1                 = 
+| date_event1            = 
+| event2                 = 
+| date_event2            = 
+| event3                 = 
+| date_event3            = 
+| event_post             = 
+| date_post              = 
+| image_coat             = 
+| symbol_type            = 
+| image_map              = Conquista Hispania.svg
+| image_map_caption      = Timeline of the Roman conquest of Hispania (220 BC&ndash;19 BC), with Roman provincial boundaries shown
+| capital                = {{plainlist|
+[[Hispania Tarraconensis]]: [[Tarraco]]
+
+[[Hispania Baetica]]: [[Córdoba, Spain|Corduba]]
+
+[[Hispania Lusitania]]: [[Emerita Augusta]]}}
+| common_languages       = [[Latin]], various [[Paleohispanic languages]]
+| religion               = Traditional indigenous and [[Religion in ancient Rome|Roman religion]], followed by [[Christianity]]
+| leader1                = [[Trajan]]
+| leader2                = [[Hadrian]]
+| leader3                = [[Theodosius I]]
+| year_leader1           = AD 98 – AD 117
+| year_leader2           = AD 117 – AD 138
+| year_leader3           = AD 379 – AD 395
+| title_leader           = [[Roman Emperor|Emperor]]
+| title_representative   = 
+| representative1        = 
+| representative2        = 
+| year_representative1   = 
+| year_representative2   = 
+| legislature            = [[Senate of the Roman Empire|Roman Senate]]
+| stat_year1             = 
+| stat_area1             = 
+| stat_year2             = 
+| stat_pop1              = 5,000,000 or more
+| stat_area2             = 
+| stat_year3             = 
+| stat_area3             = 
+| stat_pop3              = 
+| stat_year4             = 
+| stat_area4             = 
+| footnotes              = 
+}}
+
+'''Hispania'''{{efn|{{langx|grc|Ἱσπανία|Hispanía}}; {{langx|la|Hispānia}} {{IPA|la|hɪsˈpaːnia}}}} was the Roman name for the [[Iberian Peninsula]]. Under the [[Roman Republic]], it was divided into two provinces: [[Hispania Citerior]] and [[Hispania Ulterior]]. During the [[Roman Empire]], under the [[Principate]], Hispania Ulterior was subdivided into [[Hispania Baetica|Baetica]] and [[Lusitania]], while Hispania Citerior was reorganized as [[Hispania Tarraconensis]].
+
+Beginning with Diocletian’s [[Tetrarchy]] (AD 293), the territory of [[Hispania Tarraconensis|Tarraconensis]] was further divided to create the provinces of [[Hispania Carthaginensis|Carthaginensis]] and [[Gallaecia]] (also called Callaecia, the origin of the name of modern [[Galicia (Spain)|Galicia]]). All the Hispanic provinces on the mainland, together with the [[Balearic Islands]] and the North African province of [[Mauretania Tingitana]], were later organized into the [[Diocese of Hispania|Diocesis Hispaniarum]], governed by a ''[[vicarius]]''. 
+
+The name Hispania was also used in the period of [[Visigothic Kingdom|Visigothic rule]]. The modern place names of [[Spain]] and [[Hispaniola]] are both derived from ''Hispania''.
+
+==Etymology==
+The origin of the [[Ancient Roman]] word ''Hispania'' is unknown. The evidence for the various speculations is based merely upon what are at best mere resemblances, likely to be accidental, and suspect supporting evidence. 
+
+The [[Phoenicians]] referred to the region as {{tlit|phn|i-shphan-im}} possibly meaning "land of [[European rabbit|rabbits]] or [[hyraxes]]",<ref>{{cite book | last=Castro | first=María Cruz Fernández | editor-last=Linch |editor-first=John |title=La Península Ibérica en época prerromana | publisher=El Pais | publication-place=Madrid | date=2007 | series=Historia de España |isbn=978-84-9815-764-2 | language=es |volume=2 |page=40 |chapter=La etimología de España; ¿tierra de conejos?}}</ref> "land of metals",<ref>{{cite web|url=http://www.abc.es/espana/20140829/abci-donde-procede-palabra-espana-201408281811.html|title="I-span-ya", el misterioso origen de la palabra España|last=ABC|date=28 August 2014|url-status=live|archive-url=https://web.archive.org/web/20161113170715/http://www.abc.es/espana/20140829/abci-donde-procede-palabra-espana-201408281811.html|archive-date=13 November 2016 |language=es}}</ref><ref name="Arechaga2009">{{cite journal |last1=Arechaga |first1=Juan |title=Science in Hispania: Spain and Portugal on the main route again |journal=The International Journal of Developmental Biology |date=2009 |volume=53 |issue=8–10 |pages=1119–1122 |doi=10.1387/ijdb.093019ja|pmid=19924620 }}</ref> "northern island",<ref>{{cite book | last1=Dietler | first1=Michael | last2=López-Ruiz | first2=Carolina | title=Colonial Encounters in Ancient Iberia | publisher=University of Chicago Press | year=2009 | isbn=978-0-226-14847-2 |page=274, n. 53}}</ref> or "lowland".<ref name="SPAL: Revista de prehistoria y arqueología de la Universidad de Sevilla">{{cite book|title=SPAL: Revista de prehistoria y arqueología de la Universidad de Sevilla|url=https://books.google.com/books?id=rFhpAAAAMAAJ|access-date=8 February 2013|year=1998|publisher=Secretariado de Publicaciones de la Universidad de Sevilla|page=93|quote=La presencia de fenicios en la antigua Sevilla parece constatada por el topónimo Spal que en diversas lenguas semíticas significa "zona baja", "llanura verde" o "valle profundo"}}</ref><ref>{{cite web|url= http://dialnet.unirioja.es/servlet/fichero_articulo?codigo=634185&orden=0|title= La Emergencia de Sevilla |format=PDF|publisher= Universidad de Sevilla |access-date=2011-05-11}}</ref> [[Roman coins]] struck in the region from the reign of [[Hadrian]] show a female figure with a rabbit at her feet,<ref name=burke>{{cite book|last = Burke|first = Ulick Ralph|title = A History of Spain from the Earliest Times to the Death of Ferdinand the Catholic, Volume 1|publisher=Longmans, Green & Co|year = 1895|location = London|page = 12|hdl = 2027/hvd.fl29jg?urlappend=%3Bseq=36}}</ref> and [[Strabo]] called it the "land of the rabbits".<ref name=Spain>{{CathEncy|wstitle=Spain}}</ref> [[Isidore of Sevilla]] considered ''Hispania'' of [[Iberian language|Iberian]] origin and derived it from the pre-Roman name for [[Seville]], ''Hispalis''.<ref>{{Cite web|url=https://books.google.com/books?id=TdWwnp6v4z0C&dq=hispania+etymology&pg=RA4-PA292|title=pg 292}}{{Dead link|date=March 2024 |bot=InternetArchiveBot |fix-attempted=yes }}</ref> This was revived for instance by the etymologist [[Eric Partridge]] (in his work ''Origins'') who felt that this might strongly hint at an ancient name for the country of ''*Hispa'', presumably an [[Iberian language|Iberian]] or [[Celtic languages|Celtic]] root whose meaning is now lost. ''Hispalis'' may alternatively derive from ''[[Heliopolis (ancient Egypt)|Heliopolis]]'' (Greek for 'city of the sun'). Occasionally Hispania was called {{Lang|la|Hesperia ultima}} 'farthest western land' by Roman writers since the name ''Hesperia'' 'western land' had already been used by the Greeks to refer to the Italian peninsula.
+
+During the 18th and 19th centuries, Jesuits scholars like Larramendi and [[José Francisco de Isla]] tied the name to the [[Basque language|Basque]] word {{Lang|eu|ezpain}} 'lip', but also 'border, edge', thus meaning the farthest area or place.<ref>Charles Anthon, [https://books.google.com/books?id=S1lDAAAAIAAJ&q=A+System+of+Ancient+and+Medi%C3%A6val+Geography+for+the+Use+of+Schools+and+Colleges ''A System of Ancient and Mediæval Geography for the Use of Schools and Colleges''] (New York, 1849), 14.</ref><ref>{{Cite web|url=https://books.google.com/books?id=r2YDAAAAQAAJ&dq=hispania+etymology&pg=PA253|title=Local Etymology: A Derivative Dictionary of Geographical Names|first=Richard Stephen|last=Charnock|authorlink=Richard Stephen Charnock|date=March 17, 1859|publisher=Houlston and Wright|via=Google Books}}</ref>
+
+During Antiquity and Middle Ages, the literary texts derive the term ''Hispania'' from an eponymous [[hero]] named [[Hispan]], who is mentioned for the first time in the work of the Roman historian [[Gnaeus Pompeius Trogus]], in the 1st century BC.
+
+{{stack|clear=true|
+[[File:Teatro Romano de Mérida (Badajoz, España) 02.jpg|thumb|265px|[[Emerita Augusta|Archaeological Roman Ensemble of Mérida]] (''Emerita Augusta''), Extremadura, Spain.]]
+[[Image:Spain LaCoruna tower.jpg|right|265px|thumb|The Roman [[Tower of Hercules]] is the oldest surviving Roman lighthouse]] 
+[[Image:AcueductoSegovia edit1.jpg|right|265px|thumb|The Roman [[Aqueduct of Segovia]], Castile, Spain.]] 
+[[Image:Evora-RomanTemple.jpg|right|265px|thumb|The [[Roman Temple of Évora]] (''Liberatias Iulia''), Alentejo, Portugal.]]
+}}
+
+{{Lang|la|Hispania}} is the [[Latin]] root for the modern name ''[[Spain]]'', and the words ''Spanish'' for {{Lang|la|Hispanicus}} or ''Hispanic'', or ''Spain'' for {{Lang|la|Hispania}}, can be interchangeable, depending on context. The {{Lang|osp|Estoria de España}} ('The History of Spain') written on the initiative of [[Alfonso X of Castile]] {{Lang|osp|El Sabio}} ('the Wise'), between 1260 and 1274, during the ''[[Reconquista]]'' ('reconquest') of Spain, is believed to be the first extended history of Spain in [[Old Castilian]] using the words {{Lang|osp|España}} ('Spain') and {{Lang|osp|Españoles}} ('Spaniards') to refer to Medieval Hispania. The use of Latin {{Lang|la|Hispania}}, Castilian {{Lang|es|España}}, [[Catalan language|Catalan]] {{Lang|ca|Espanya}} and [[Old French]] {{Lang|fro|Espaigne}}, among others, to refer to Roman Hispania or Visigothic Hispania was common throughout all the [[Late Medieval Period|Late Middle Ages]]. 
+
+A document dated 1292 mentions the names of foreigners from Medieval Spain as {{Lang|fro|Gracien d'Espaigne}}.<ref>{{Cite journal|url=https://www.persee.fr/doc/roma_0035-8029_1946_num_69_275_3623_t1_0406_0000_2|title=Paul Lebel, Les noms de personnes en France, 1946|first=Jacques|last=Monfrin|date=March 17, 1946|journal=Romania|volume=69|issue=275|pages=406–408|via=www.persee.fr}}</ref> Latin expressions using {{Lang|la|Hispania}} or {{Lang|la|Hispaniae}} (e.g. {{Lang|la|omnes reges Hispaniae}}) were often used in the Middle Ages, while the [[Iberian Romance languages|Spain Romance languages]] of the ''Reconquista'' use the [[Romance languages|Romance]] version interchangeably.{{Clarify|reason=What is the Romance version?|date=May 2020}} In the [[James I of Aragon|James Ist]] Chronicle ''[[Llibre dels fets]]'', written between 1208 and 1276, there are many instances of this.{{Efn|When it talks about the different Kings, "los V regnes de Espanya" ("The 5 Kingdoms of Spain"); when it talks about a military fort built by the Christians saying that it is "de los meylors de Espanya" ("from the best of Spain"); when it declared that [[Principality of Catalonia|Catalonia]], one of the integral parts of the [[Crown of Aragon]], is "lo meylor Regne Despanya, el pus honrat, el pus noble" ("the best kingdom of Spain, the most honest, the most noble"); when it talks about the conflict that has existed for long "entre los sarrains e los chrestians, en Espanya" ("between Saracens and Christians, in Spain").<ref>{{Cite book|url=https://books.google.com/books?id=3WoApUAccnoC&dq=bernat+desclot+espanya&pg=PA41|title=Las Raices Medievales de España|first=Julio Valdeón|last=Baruque|year= 2002|publisher=Real Academia de la Historia|isbn=9788495983954 |via=Google Books}}</ref>}} The borders of modern Spain do not coincide with those of the [[Roman province]] of Hispania or of the [[Visigothic Kingdom]], and thus medieval Spain and modern Spain exist in separate contexts. 
+
+The Latin term {{Lang|la|Hispania}}, often used during [[Classical Antiquity|Antiquity]] and the [[Low Middle Ages]], like with Roman Hispania, as a [[geography|geographical]] and political name, continued to be used geographically and politically in the [[Spania|Visigothic Spania]], as shown in the expression {{Lang|la|laus Hispaniae}}, 'Praise to Hispania', to describe the history of the peoples of the [[Iberian Peninsula]] of [[Isidore of Seville]]'s ''[[Historia de regibus Gothorum, Vandalorum et Suevorum]]'':
+
+<blockquote>You are, O [[Spain]], holy and always happy mother of princes and peoples, the most beautiful of all the lands that extend far from the West to [[India]]. You, by right, are now the queen of all provinces, from whom the lights are given not only the sunset, but also the East. You are the honor and ornament of the orb and the most illustrious portion of the Earth ... And for this reason, long ago, the golden [[Rome]] desired you</blockquote>
+
+In modern history, ''Spain'' and ''Spanish'' have become increasingly associated with the Kingdom of Spain alone, although this process took several centuries. After the union of the central peninsular [[Kingdom of Castile]] with the eastern peninsular [[Kingdom of Aragon]] in the 15th century under the [[Catholic Monarchs]] in 1492, only [[Kingdom of Navarre|Navarra]] and [[Kingdom of Portugal|Portugal]] were left to complete the whole peninsula under [[Monarchy of Spain|one monarchy]]. Navarre followed soon after in 1512, and Portugal, after over 400 years as an independent and sovereign nation, in 1580. During this time, the concept of [[Spain]] was still unchanged. It was after the restoration of Portugal's independence in 1640 when the concept of [[Spain]] started to shift and be applied to all the Peninsula except Portugal.
+
+==Languages==
+[[File:Ethnographic Iberia 200 BCE.PNG|thumb|320px|Linguistic map: This shows the Linguistic variation of the [[Iberian Peninsula]] at about 200 BC (at the end of the [[Second Punic War]]).]]
+{{Main|Languages of Iberia}}
+
+Latin was the official language of Hispania during Roman rule, which exceeded 600 years. After the [[Fall of the Western Roman Empire|fall of Rome]] and the invasion of the [[Germanic peoples|Germanic]] [[Visigoths]] and [[Suebi]], Latin was spoken by nearly all of the population,{{cn|date=September 2023}} but in its common form known as [[Vulgar Latin]], and the regional changes which led to the modern Iberian Romance languages had already begun.
+
+==History==
+===Background===
+{{Main|Prehistoric Iberia|Pre-Roman peoples of the Iberian Peninsula}}
+
+The Iberian Peninsula has long been inhabited, first by [[Homo (genus)|early hominids]] such as ''[[Homo erectus]]'', ''[[Homo heidelbergensis]]'' and ''[[Homo antecessor]]''. In the [[Paleolithic]] period, the [[Neanderthal]]s entered Iberia and eventually took refuge from the advancing migrations of [[Human|modern humans]]. In the 40th millennium BC, during the [[Upper Paleolithic]] and the [[Last glacial period|last ice age]], the first large settlement of [[Europe]] by modern humans occurred. These were [[nomadic]] [[hunter-gatherer]]s originating on the [[steppes]] of [[Central Asia]]. When the [[Last Glacial Period|last ice age]] reached its maximum extent, during the 30th millennium BC, these modern humans took refuge in [[Southern Europe]], namely in [[Iberian Peninsula|Iberia]], after retreating through [[Southern France]]. In the millennia that followed, the [[Neanderthal]]s became extinct and local modern human cultures thrived, producing [[pre-historic art]] such as that found in [[L'Arbreda Cave]] and in the [[Côa Valley Paleolithic Art|Côa Valley]].
+
+In the [[Mesolithic]] period, beginning in the 10th millennium BC, the [[Allerød Oscillation]] occurred. This was an interstadial [[Glaciation|deglaciation]] that lessened the harsh conditions of the Ice Age. The populations sheltered in [[Iberian Peninsula]] (descendants of the [[Cro-Magnon]]) migrated and recolonized all of [[Western Europe]]. In this period one finds the [[Azilian]] culture in [[Southern France]] and [[Iberian Peninsula|Northern Iberia]] (to the mouth of the [[Douro]] river), as well as the [[Muge Culture]] in the [[Tagus]] valley.
+
+The [[Neolithic]] brought changes to the human landscape of Iberia (from the 5th millennium BC onwards), with the development of [[agriculture]] and the beginning of the [[Megalith|European Megalith Culture]]. This spread to most of [[Europe]] and had one of its oldest and main centres in the territory of modern [[Portugal]], as well as the [[Chalcolithic]] and [[Beaker culture|Beaker]] cultures.
+
+During the 1st millennium BC, in the [[Bronze Age]], the first wave of migrations into Iberia of speakers of [[Indo-European languages]] occurred. These were later (7th and 5th centuries BC) followed by others that can be identified as [[Celt]]s. Eventually urban cultures developed in southern Iberia, such as [[Tartessos]], influenced by the [[Phoenicia]]n colonization of coastal [[Mediterranean]] Iberia, with strong competition from the [[Ancient Greece|Greek]] colonization. These two processes defined Iberia's cultural landscape &ndash; Mediterranean towards the southeast and Continental in the northwest.
+
+===Roman conquest===
+{{further|Roman conquest of the Iberian Peninsula|Romanization of Hispania}}
+[[Image:Hispania1c.jpg|thumb|left|200px|Hispania under Caesar Augustus's rule after the [[Cantabrian Wars]] in 29 BC]]
+
+Roman armies invaded the Iberian Peninsula in 218 BC and used it as a training ground for officers and as a proving ground for tactics during campaigns against the [[Carthage|Carthaginians]], the [[Iberians]], the [[Lusitanians]], the [[Gallaecia]]ns and other [[Celts]].{{cn|date=September 2023}} It was not until 19 BC that the Roman emperor [[Augustus]] (r. 27 BC&ndash;AD 14) was able to complete the conquest (see [[Cantabrian Wars]]). Until then, much of Hispania remained autonomous.
+
+[[Romanization (cultural)|Romanization]] proceeded quickly in some regions where there are references to the togati, and very slowly in others, after the time of [[Augustus]], and Hispania was divided into three separately governed provinces, and nine provinces by the 4th century. More importantly, Hispania was for 500 years part of a cosmopolitan world empire bound together by law, language, and the [[Roman road]]. But the impact of Hispania on the newcomers was also substantial. [[Caesar]] wrote that the soldiers from the Second Legion had become Hispanicized and regarded themselves as ''hispanici''.{{cn|date=September 2023}}
+
+===Roman rule===
+{{further|Hispanics in the Roman army}}
+{{History of Spain}}
+{{History of Portugal}}
+
+Some of the peninsula's population were admitted into the Roman aristocratic class and they participated in governing Hispania and the Roman Empire, although there was a native aristocracy class who ruled each local tribe. The ''[[latifundia]]'' (sing., ''latifundium''), large estates controlled by the aristocracy, were superimposed on the existing Iberian landholding system.
+
+The Romans improved existing cities, such as [[Lisbon]] (''Olissipo'') and [[Tarragona]] (''Tarraco''), established [[Zaragoza]] (''[[Caesaraugusta]]''), [[Mérida, Spain|Mérida]] (''Augusta Emerita''), and [[Valencia (city in Spain)|Valencia]] (''Valentia''), and reduced other native cities to mere villages. The peninsula's economy expanded under Roman tutelage. Hispania served as a granary and a major source of metals for the Roman market, and its harbors exported [[gold]], [[tin]], [[silver]], [[lead]], [[wool]], [[wheat]], [[olive oil]], [[wine]], [[fish]], and [[garum]]. Agricultural production increased with the introduction of irrigation projects, some of which remain in use today. The Romanized Iberian populations and the Iberian-born descendants of Roman soldiers and colonists had all achieved the status of full Roman citizenship by the end of the 1st century. The Iberian denarii, also called ''argentum oscense'' by Roman soldiers, circulated until the 1st century BC, after which it was replaced by Roman coins.
+
+Hispania was separated into two provinces (in 197 BC), each ruled by a [[praetor]]: ''[[Hispania Citerior]]'' ("Hither Hispania") and ''[[Hispania Ulterior]]'' ("Farther Hispania"). The long wars of conquest lasted two centuries, and only by the time of [[Augustus]] did [[Ancient Rome|Rome]] manage to control Hispania Ulterior. Hispania was divided into three provinces in the 1st century BC. In the imperial era, three Roman emperors were born in Hispania: [[Trajan]] (r. 98&ndash;117), [[Hadrian]] (r. 117&ndash;138), and [[Theodosius I|Theodosius]] (r. 379&ndash;395).
+
+In the 4th century, [[Latinius Pacatus Drepanius]], a Gallic rhetorician, dedicated part of his work to the depiction of the geography, climate and inhabitants of the peninsula, writing:
+{{Campaignbox Roman conquest of the Iberian Peninsula}}
+<blockquote>This Hispania produces tough soldiers, very skilled captains, prolific speakers, luminous bards. It is a mother of judges and princes; it has given [[Trajan]], [[Hadrian]], and [[Theodosius I|Theodosius]] to the Empire.</blockquote>
+
+[[Christianity]] was introduced into Hispania in the 1st century, and it became popular in the cities in the 2nd century. However, little headway was made in the countryside, until the late 4th century, by which time Christianity was the official religion of the Roman Empire. Some [[Christian heresy|heretical sects]] emerged in Hispania, most notably [[Priscillianism]], but overall the local bishops remained subordinate to the [[Bishop of Rome|Pope]]. Bishops who had official civil as well as ecclesiastical status in the late empire continued to exercise their authority to maintain order when civil governments broke down there in the 5th century. The Council of Bishops became an important instrument of stability during the ascendancy of the [[Visigoths]]. The last vestiges of (Western·classical) Roman rule ended in 472.
+
+===Germanic conquest===
+[[Image:Hispania3c.JPG|thumb|right|200px|Iberian Peninsula (AD 530&ndash;AD 570)]]
+[[Image:Iberia 560.svg|thumb|right|200px|The Iberian Peninsula in the year 560 AD]]
+
+The undoing of Roman Spain was the result of four tribes [[Crossing of the Rhine|crossing the Rhine]] in 406. After three years of depredation and wandering about northern and western Gaul, the [[Germanic tribes|Germanic]] [[Buri (Germanic tribe)|Buri]], [[Suevi]] and [[Vandals]], together with the [[Sarmatian]] [[Alans]] moved into Iberia in September or October 409 at the request of [[Gerontius (magister militum)|Gerontius]], a Roman usurper. The Suevi established a kingdom in Gallaecia in what is today modern [[Galicia (Spain)|Galicia]] and northern [[Portugal]]. The Alans' allies, the [[Hasdingi]] Vandals, also established a kingdom in another part of Gallaecia. The [[Alans]] established a kingdom in [[Lusitania]] &ndash; modern [[Alentejo]] and [[Algarve]], in [[Portugal]]. The [[Silingi]] Vandals briefly occupied parts of South Iberia in the province of [[Hispania Baetica|Baetica]]. 
+
+In an effort to retrieve the region, the Western Roman emperor, [[Honorius (emperor)|Honorius]] (r. 395&ndash;423), promised the Visigoths a home in southwest Gaul if they destroyed the invaders in Spain. They all but wiped out the Silingi and Alans. The remnant joined the Asding Vandals who had settled first in the northwest with the Sueves but south to Baetica. It is a mystery why the Visigoths were recalled by patrician Constantius (who in 418 married Honorius' sister who had been married briefly to the Visigothic king Ataulf). The Visigoths, the remnants of the two tribes who joined them and the Sueves were confined to a small area in the northwest of the peninsula. The diocese may even have been re-established with its capital at Mérida in 418.<ref>Kulikowski, M. "The Career of the 'comes Hispanarum' Asterius", ''Phoenix'', 2000a, 54: 123–141.</ref> The Roman attempt under General Castorius to dislodge the Vandals from Cordoba failed in 422.
+
+The Vandals and [[Alans]] crossed over to North Africa in 429, an event which is considered to have been decisive in hastening the decline of the Western Roman Empire. However, their departure allowed the Romans to recover 90% of the Iberian Peninsula until 439. After the departure of the Vandals only the Sueves remained in a northwest corner of the peninsula. Roman rule which had survived in the eastern quadrant was restored over most of Iberia until the Sueves occupied Mérida in 439, a move which coincides to the Vandal [[Battle of Carthage (439)|occupation of Carthage]] late the same year. Rome made attempts to restore control in 446 and 458. Success was temporary. 
+
+After the death of emperor Majorian in 461 Roman authority collapsed except in Tarraconensis the northeastern quadrant of the peninsula. The Visigoths, a [[Germanic tribes|Germanic people]], whose kingdom was located in southwest Gaul, took the province when they occupied Tarragona in 472. They also confined the Sueves who had ruled most of the region to Galicia and northern Portugal. In 484 the Visigoths established [[Toledo, Spain|Toledo]] as the capital of their kingdom. Successive Visigothic kings ruled Hispania as patricians who held imperial commissions to govern in the name of the Roman emperor. In 585 the Visigoths conquered the [[Suebic Kingdom of Galicia]], and thus controlled almost all of Hispania.
+
+A century later, taking advantage of a struggle for the throne between the Visigothic kings [[Agila I|Agila]] and [[Athanagild]], the [[Byzantine Empire|Byzantine emperor]] [[Justinian I]] sent an army under the command of [[Liberius (praetorian prefect)|Liberius]] to take back the peninsula from the Visigoths. This short-lived reconquest recovered only a small strip of land along the Mediterranean coast roughly corresponding to the ancient province of [[Hispania Baetica|Baetica]], known as [[Spania]].
+
+Under the Visigoths, culture was not as highly developed as it had been under Roman rule, when a goal of higher education had been to prepare gentlemen to take their places in municipal and imperial administration. With the collapse of the imperial administrative super-structure above the provincial level (which was practically moribund) the task of maintaining formal education and government shifted to the Church from the old ruling class of educated aristocrats and gentry. The clergy, for the most part, emerged as the qualified personnel to manage higher administration in concert with local powerful notables who gradually displaced the old town councils. As elsewhere in early medieval Europe, the church in Hispania stood as society's most cohesive institution. The Visigoths are also responsible for the introduction of mainstream Christianity to the Iberian Peninsula; the earliest representation of [[Christ]] in Spanish religious art can be found in a Visigothic hermitage, [[Santa Maria de Lara]]. It also embodied the continuity of Roman order. Native Hispano-Romans continued to run the civil administration and [[Latin]] continued to be the language of government and of commerce on behalf of the Visigoths.<ref>E.A. Thompson, ''The Visigoths in Spain'', 1969, pp.&nbsp;114–131.</ref>
+
+Religion was the most persistent source of friction between the [[Chalcedonian]] ([[Roman Catholic Church|Catholic]]) native Hispano-Romans and their [[Arianism|Arian]] Visigothic overlords, whom the former considered heretical. At times this tension invited open rebellion, and restive factions within the Visigothic aristocracy exploited it to weaken the monarchy. In 589, [[Recared]], a Visigothic ruler, renounced his [[Arianism]] before the Council of Bishops at Toledo and accepted [[Chalcedonian Christianity]] ([[Catholic Church]]), thus assuring an alliance between the Visigothic [[monarchy]] and the native Hispano-Romans. This alliance would not mark the last time in the history of the peninsula that political unity would be sought through religious unity.
+
+Court ceremonials &ndash; from [[Constantinople]] &ndash; that proclaimed the imperial sovereignty and unity of the Visigothic state were introduced at Toledo. Still, civil war, royal assassinations, and usurpation were commonplace, and warlords and great landholders assumed wide discretionary powers. Bloody family feuds went unchecked. The Visigoths had acquired and cultivated the apparatus of the Roman state but not the ability to make it operate to their advantage. In the absence of a well-defined hereditary system of succession to the throne, rival factions encouraged foreign intervention by the [[Greeks]], the [[Franks]], and finally the [[Muslims]] in internal disputes and in royal [[elections]].
+
+According to [[Isidore of Seville]], it is with the [[Visigothic Kingdom|Visigothic domination of Iberia]] that the idea of a peninsular unity is sought after, and the phrase ''Mother Hispania'' is first spoken. Up to that date, ''Hispania'' designated all of the peninsula's lands. In ''[[Historia Gothorum]]'', the Visigoth [[Suinthila]] appears as the first [[monarch]] under whose rule Hispania is dealt with as a [[Goths|Goth]]ic nation.
+
+==Administrative divisions==
+[[File:Prima Hispaniae provincialis divisio.png|thumb|225x225px|Hispania Ulterior and Citerior]]
+During the first stages of Romanization, the peninsula was divided in two by the Romans for administrative purposes. The closest one to Rome was called ''Citerior'' and the more remote one ''Ulterior''. The frontier between both was a sinuous line which ran from Cartago Nova (now [[Cartagena, Spain|Cartagena]]) to the [[Cantabrian Sea]].
+
+* ''[[Hispania Ulterior]]'' (comprised what are now [[Andalusia]], [[Portugal]], [[Extremadura]], [[León (province)|León]], a great portion of the former [[Castilla la Vieja]], [[Galicia (Spain)|Galicia]], [[Asturias]], and the [[Basque Country (greater region)|Basque Country]]);
+* ''[[Hispania Citerior]]'' (comprised the eastern part of former Castilla la Vieja, and what are now [[Aragon]], [[Valencian Community|Valencia]], [[Catalonia]], and a major part of former [[Castilla la Nueva]]).
+
+[[File:Iberia 17BC.svg|thumb|Administrative organization of Hispania into Baetica, Lusitania and Hispania Citerior]]
+In 27 BC, the general and politician [[Marcus Vipsanius Agrippa]] divided Hispania into three parts:
+
+* ''[[Hispania Baetica|Baetica]]'' (by division of Hispania Ulterior, approximately modern day [[Andalusia]]);
+* ''[[Lusitania]]'' (by division of Hispania Ulterior, including [[Gallaecia]] and [[Asturias]]); 
+* ''Hispania Citerior'' (by attaching [[Cantabria]] and the [[Basque Country (historical territory)|Basque Country]]).
+
+[[File:Iberia 29-19BC.svg|thumb|Administrative division of Hispania by Augustus in 27 BC]]
+The emperor [[Augustus]] in that same year returned to make a new division leaving the provinces as follows:
+*''Provincia Hispania Ulterior Baetica'' (or ''[[Hispania Baetica]]''), whose capital was [[Córdoba, Spain|Corduba, presently Córdoba]]. It included a little less territory than present-day Andalusia&mdash;since modern [[Almería (province)|Almería]] and a great portion of what today is [[Granada (province)|Granada]] and [[Jaén (Spanish province)|Jaén]] were left outside&mdash;plus the southern zone of present-day [[Badajoz (province)|Badajoz]]. The river ''Anas'' or ''Annas'' ([[Guadiana]], from Wadi-Anas) separated Hispania Baetica from Lusitania.
+*''Provincia Hispania Ulterior Lusitania'' (''[[Lusitania]]''), whose capital was [[Emerita Augusta]] (now [[Mérida, Spain|Mérida]]) and without [[Gallaecia]] and [[Asturias]].
+*''Provincia Hispania Citerior'' (or ''[[Tarraconensis]]''), whose capital was [[Tarraco]] (Tarragona). After gaining maximum importance this province was simply known as ''Tarraconensis'' and it comprised [[Gallaecia]] (modern [[Galicia (Spain)|Galicia]] and northern [[Portugal]]) and [[Asturias]].
+
+By the 3rd century the emperor [[Marcus Aurelius Antonius Caracalla|Caracalla]] made a new division which lasted only a short time. He split Hispania Citerior again into two parts, creating the new provinces ''Provincia Hispania Nova Citerior'' and ''Asturiae-Calleciae''. In the year 238 the unified province ''Tarraconensis'' or ''Hispania Citerior'' was re-established.
+
+In the 3rd century, under the Soldier Emperors, Hispania Nova (the northwestern corner of Spain) was split off from Tarraconensis, as a small province but the home of the only permanent legion in Hispania, [[Legio VII Gemina]]. 
+[[File:Diocesis Hispanorum map.png|thumb|Diocese of Hispania after AD 293, highlighting its ecclesial metropolitan sees and their suffragan dioceses.]]
+After [[Diocletian]]'s [[Tetrarchy]] reform in AD 293, the new ''[[Diocese of Hispania]]'' became one of the four [[Roman diocese|dioceses]]&mdash;governed by a ''vicarius''&mdash;of the [[praetorian prefecture of Gaul]] (also comprising the provinces of [[Gaul]], [[Germania]] and [[Roman Britain|Britannia]]), after the abolition of the imperial Tetrarchs under the Western Emperor (in Rome itself, later Ravenna). The diocese, with its capital at Emerita Augusta (modern [[Mérida, Spain|Mérida]]), comprised:
+
+* ''Baetica'' (under a governor styled ''[[consularis]]'');
+* ''Gallaecia'' (under a governor styled ''consularis'');
+* ''Lusitania'' (under a governor styled ''consularis'');  
+* ''Carthaginiensis'' (under a ''[[praeses]]'');
+* ''Tarraconensis'' (under a ''praeses'');
+* [[Hispania Balearica|''Insulae Baleares'']] (which were detached from Tarraconensis during Diocletian's reign);
+* ''[[Mauretania Tingitana]]'' (in North Africa).
+
+==Economy==
+{{main|Economy of Hispania}}
+Before the Punic Wars, Hispania was a land with much untapped mineral and agricultural wealth, limited by the primitive subsistence economies of its native peoples outside of a few trading ports along the [[Mediterranean Sea|Mediterranean]]. Occupation by the Carthaginians and then by the Romans for its abundant [[silver]] deposits developed Hispania into a thriving multifaceted economy. Several metals, olives, oil from Baetica, salted fish and [[garum]], and wines were some of the goods produced in Hispania and traded throughout the Empire. Gold mining was the most important activity in the north-west parts of the peninsula. This activity is attested in archaeological sites as [[Las Médulas]] (Spain) and Casais ([[Ponte de Lima]], Portugal).<ref>[https://www.academia.edu/16658430/L_exploration_mini%C3%A8re_d_alluvions_de_Casais_freguesia_de_Estor%C3%A3os_commune_de_Ponte_de_Lima_Portugal_ Encadré 5.2] de Silva, A. J. M. (2012), Vivre au-delà du fleuve de l'Oubli. Portrait de la communauté villageoise du Castro do Vieito au moment de l'intégration du NO de la péninsule ibérique dans l'orbis Romanum (estuaire du Rio Lima, NO du Portugal), Oxford, Archaeopress.</ref>
+
+==Climate==
+{{see also|Climate of Ancient Rome}}
+Precipitation levels were unusually high during the so-called [[Iberian–Roman Humid Period]]. Roman Spain experienced its three phases: the most humid interval in 550–190 BC, an arid interval in 190 BC–150 AD and another humid period in 150–350.<ref>{{cite journal | title =The Iberian–Roman Humid Period (2600–1600 cal yr BP) in the Zoñar Lake varve record (Andalucía, southern Spain) | volume =71 | issue =2 | pages =108–120 |author=Celia Martín-Puertas|journal =[[Quaternary Research]]|date=March 2009|doi=10.1016/j.yqres.2008.10.004| bibcode =2009QuRes..71..108M | s2cid =67777837 |display-authors=etal}}</ref> In 134 BC the army of [[Scipio Aemilianus]] in Spain had to march at night due to extreme heat, when some of its horses and mules died of thirst<ref name="Curchin">{{cite book | author=Leonard A Curchin | title =The Romanization of Central Spain: Complexity, Diversity and Change in a Provincial Hinterland| publisher =Routledge| year =2004 | page =7 | isbn =978-1134451128}}</ref> (even though earlier, in 181 BC, heavy spring rains prevented the [[Celtiberians]] from relieving the Roman [[siege of Contrebia]]).<ref name="Curchin"/> Through the 2nd century AD warm temperatures dominated particularly in the [[Cantabrian Mountains|mountains along the north coast]], punctuated by further cool spells from {{circa|155}} to 180.<ref name="McCormick">{{cite journal|url=http://www.people.fas.harvard.edu/~phuybers/Doc/McCormick_RomanClimate2012.pdf |title=Climate Change during and after the Roman Empire: Reconstructing the Past from Scientific and Historical Evidence |author=Michael McCormick |journal=[[Journal of Interdisciplinary History]] |date=Autumn 2012 |access-date=24 Aug 2014 |display-authors=etal |url-status=dead |archive-url=https://web.archive.org/web/20150714102251/http://www.people.fas.harvard.edu/~phuybers/Doc/McCormick_RomanClimate2012.pdf |archive-date=2015-07-14 }}</ref> After about 200 the temperatures fluctuated, trending toward cool.<ref name="McCormick"/>
+
+==Sources and references==
+{{Country study}}
+
+===Modern sources in Spanish and Portuguese===
+*Alarcão, Jorge, ''O Domínio Romano em Portugal'', Publicações Europa-América, 1988. (In Portuguese.)
+*Altamira y Crevea, Rafael ''Historia de España y de la civilización española''. Tomo I. Barcelona, 1900. Altamira was a professor at the University of Oviedo, a member of the Royal Academy of History, of the [[Lisbon Geographic Society|Geographic Society of Lisbon]] and of the Instituto de Coimbra. (In Spanish.)
+*Bosch Gimpera, Pedro; [[Aguado Bleye, Pedro]]; and Ferrandis, José. ''Historia de España. España romana, I'', created under the direction of Ramón Menéndez Pidal. [[Espasa-Calpe|Editorial Espasa-Calpe S.A.]], Madrid 1935. (In Spanish.)
+*[[José Camón Aznar|Camón Aznar, José]], ''Las artes y los pueblos de la España primitiva''. Editorial Espasa Calpe, S.A. Madrid, 1954. Camón was a professor at the University of Madrid. (In Spanish.)
+*García y Bellido, Antonio, ''España y los españoles hace dos mil años (según la Geografía de Estrabón)''. Colección Austral de Espasa Calpe S.A., Madrid 1945 (1st ed. 8-XI-1945). García y Bellido was an archeologist and a professor at the University of Madrid. (In Spanish.)
+*Mattoso, José (dir.), ''História de Portugal. Primeiro Volume: Antes de Portugal'', Lisboa, Círculo de Leitores, 1992. (in Portuguese)
+*Melón, Amando, ''Geografía histórica española'' Editorial Volvntad, S.A., Tomo primero, Vol. I Serie E. Madrid 1928. Melón was a member of the Royal Geographical Society of Madrid and a professor of geography at the Universities of Valladolid and Madrid. (In Spanish.)
+*Pellón, José R., ''Diccionario Espasa Íberos''. Espasa Calpe S.A. Madrid 2001. (In Spanish.)
+*Urbieto Arteta, Antonio, ''Historia ilustrada de España'', Volumen II. Editorial Debate, Madrid 1994. (In Spanish.)
+* El Housin Helal Ouriachen, 2009, La ciudad bética durante la Antigüedad Tardía. Persistencias y mutaciones locales en relación con la realidad urbana del Mediterraneo y del Atlántico, Tesis doctoral, Universidad de Granada, Granada.
+
+===Other modern sources===
+{{SPATRAcite|:es:Hispania|27 February 2005}}
+*Westermann ''Grosser Atlas zur Weltgeschichte'' (in German)
+*[http://countrystudies.us/spain/4.htm Hispania]
+
+===Classical sources===
+*The {{Lang|la|[[notitia dignitatum]]}} ({{Circa|AD 400}}; one edition online is [http://www.intratext.com/IXT/LAT0212/_PJ.HTM#1WJ Notitia Dignitatum: text - IntraText CT])
+Other classical sources have been accessed second-hand (see references above):
+*[[Strabo]], ''Geographiká. Book III, Iberia'', written between the years 29 and 7 BC and touched up in AD 18. The most prestigious and widely used edition is [[Karl Wilhelm Ludwig Müller|Karl Müller]]'s, published in Paris at the end of the 19th century, one volume, with 2 columns, [[Greek language|Greek]] and [[Latin]]. The most reputed [[French language|French]] translation is Tardieu, París 1886. The most reputed [[English language|English]] translation (with Greek text) is H.L. Jones, vol. I&ndash;VIII, London 1917ff., ND London 1931ff.
+*[[Ptolemy]] ([[Ancient Greece|Greek]] astronomer of the 2nd century) ''Geographiké Hyphaégesis'', geographic guidebook.
+*[[Pacatus]] ([[Gaul|Gallic]] [[rhetoric]]ian) directed a [[panegyric]] on Hispania to the emperor [[Theodosius I]] in 389, which he read to the [[Roman Senate|Senate]].
+*[[Paulus Orosius]] (390&ndash;418) historian, follower of [[Augustine of Hippo|Saint Augustine]] and author of ''Historiae adversus paganos'', the first Christian [[Universal history (genre)|universal history]], and of ''Hispania Universa'', an historical guide translated into [[Old English language|Anglo-Saxon]] by [[Alfred the Great]] and into [[Arabic language|Arabic]] by [[Abd-ar-Rahman III]].
+*[[Lucius Anneus Florus]] (between 1st and 2nd century). ''Compendium of Roman History'' and ''Epitome of the History of Titus Livius (Livy)''. The relevant texts of [[Livy]] have been lost, but we can read them via Florus.
+*[[Trogus Pompeius]]. Believed to be a Gaul with [[Roman citizen]]ship. ''Historia universal'' written in Latin in the times of [[Augustus Caesar]].
+*Titus Livius ([[Livy]]) (59 BC&ndash;17 BC). ''Ab urbe condita'', Book CXLII of Livy's surviving work.
+
+==See also==
+{{div col|colwidth=30em}}
+*[[Alans#Hispania and Africa|Alans in Hispania]]
+*[[Carthaginian Iberia]]
+*[[Celtiberians]]
+**[[Celtiberian language]]
+**[[Celtiberian script]]
+*''[[Hispania Baetica]]''
+*''[[Hispania Citerior]]''
+*''[[Gallaecia|Hispania Gallaecia]]''
+*''[[Hispania Tarraconensis]]''
+*''[[Hispania Ulterior]]''
+*[[Iberians]]
+*[[Iberian languages]] (all past and present languages spoken in Iberia)
+**[[Greco-Iberian alphabet]]
+**[[Hispano-Celtic languages]]
+**[[Iberian scripts]]
+***[[Northeastern Iberian script]]
+***[[Southeastern Iberian script]]
+**[[Paleohispanic languages]]
+***[[Paleohispanic scripts]]
+**[[Tartessian language]]
+*[[List of Roman sites in Spain]]
+*''[[Lusitania]]''
+**[[Lusitanians]]
+**[[Lusitanian language]]
+**[[Lusitanian mythology]]
+*[[Al-Andalus|Muslim-occupied Medieval Iberia]]
+**[[Reconquista|Christian reconquest of Medieval Iberia]]
+**[[History of Andalucía]]
+**[[Timeline of the Muslim presence in the Iberian Peninsula]]
+**[[Umayyad conquest of Hispania]]
+*[[Ophiussa]]
+**[[Oestriminis]]
+*[[Portugal]]
+**[[History of Portugal]]
+**[[Timeline of Portuguese history]]
+*[[Pre-Roman peoples of the Iberian Peninsula]]
+**[[Cynetes]]
+**[[Tartessos]] (early Iberian civilization)
+*[[Spain]]
+**[[History of Spain]]
+**[[Timeline of Spanish history]]
+*[[Kingdom of the Suebi|Suebic Kingdom of Galicia]]
+*[[Vandals#In Hispania|Vandals in Hispania]]
+*[[Visigothic Kingdom|Visigothic Kingdom of Hispania]]
+{{div col end}}
+
+==References==
+'''Footnotes'''
+{{notelist}}
+
+'''Citations'''
+{{Reflist}}
+
+==Further reading==
+* Abad Casal, Lorenzo, Simon Keay, and Sebastián F. Ramallo Asensio, eds. 2006. ''Early Roman Towns in Hispania Tarraconensis.'' Portsmouth, RI: Journal of Roman Archaeology.
+* Bowes, Kim, and Michael Kulikowski, eds. and trans. 2005. ''Hispania in Late Antiquity: Current Perspectives.'' Medieval and Early Modern Iberian World 24. Leiden, The Netherlands, and Boston: Brill.
+* Curchin, Leonard A. 1991. ''Roman Spain: Conquest and Assimilation.'' London and New York: Routledge.
+* Curchin, Leonard A. 2003. ''The Romanization of Central Spain: Complexity, Diversity, and Change in a Provincial Hinterland.'' Routledge Classical Monographs. London and New York: Routledge.
+*{{cite book |editor1-last=Jesús Bermejo Tirado and Ignasi Grau Mira |title=The Archaeology of Peasantry in Roman Spain |date=2022 |publisher=De Gruyter |isbn=978-3-11-075741-5 |language=en}}
+* Keay, Simon J. 2001. "Romanization and the Hispaniae." In ''Italy and the West: Comparative Issues in Romanization.'' Edited by Simon Keay and Nicola Terrenato, 117–144. Oxford: Oxford Univ. Press.
+* Keay, Simon, ed. 1998. ''The Archaeology of Early Roman Baetica.'' Portsmouth, RI: Journal of Roman Archaeology
+* Kulikowski, Michael. 2004. ''Late Roman Spain and its Cities.'' Ancient Society and History. Baltimore: Johns Hopkins Univ. Press.
+* Lowe, Benedict. 2009. ''Roman Iberia: Economy, Society and Culture.'' London: Duckworth.
+* Mierse, William E. 1999. ''Temples and Towns of Roman Iberia: The Social and Architectural Dynamics of Sanctuary Designs from the Third century B.C. to the Third century A.D.'' Berkeley: Univ. of California Press.
+* Richardson, J. S. 1996. ''The Romans in Spain. History of Spain.'' Oxford: Blackwell.
+
+==External links==
+{{Library resources box |by=no |onlinebooks=yes |others=yes |about=yes |label=Hispania
+|viaf= |lccn= |lcheading= |wikititle= }}
+{{commons category|Roman Hispania}}
+*[https://web.archive.org/web/20081006160601/http://www.arqueotavira.com/Mapas/Iberia/Populi.htm Detailed map of the Pre-Roman Peoples of Iberia (around 200 BC)] (archived 6 October 2008)
+*[http://www.w66.eu/hispania/ HISPANIA]: A Map of Roman Spain and Portugal.
+*[https://web.archive.org/web/20101030001728/http://www.barcelona-tourist-information.info/roman-buildings-in-barcelona.html Roman buildings in Barcelona] (archived 30 October 2010)
+*[http://amphorae.icac.cat/ Amphorae ex Hispania]
+*{{usurped|1=[https://web.archive.org/web/20090307013358/http://eda-bea.es/ Hispania Epigraphica]}}
+*[https://www.exofficinahispana.org/ Ex Officina Hispana- Ancient Ceramics in Spain]
+
+{{Roman history by territory}}
+{{Late Roman Provinces}}
+{{Spain topics}}
+
+{{Authority control}}
+
+[[Category:Hispania| ]]
+[[Category:Ancient history of the Iberian Peninsula]]
+[[Category:Spain in the Roman era|*]]
+[[Category:Portugal in the Roman era|*]]
+[[Category:Former countries on the Iberian Peninsula]]
+[[Category:New Testament places]]
+[[Category:Epistle to the Romans locations]]
+[[Category:States and territories established in the 3rd century BC]]
+[[Category:States and territories disestablished in the 5th century]]
+[[Category:218 BC]]
+[[Category:Pauline churches]]
+[[Category:210s BC establishments]]
+[[Category:3rd-century BC establishments in the Roman Republic]]
+[[Category:5th-century disestablishments in the Roman Empire]]
+[[Category:3rd-century BC establishments in Spain]]
+[[Category:5th-century disestablishments]]

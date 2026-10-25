@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究132 事前登録（2026-10-26 05:48 JST、sim.py を書く前・新しい資料を開く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="132-2026-10-26-0548-jstsimpy">研究132 事前登録（2026-10-26 05:48 JST、sim.py を書く前・新しい資料を開く前）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。</p>
+<h2 id="open_problems-307">課題（open_problems 307）</h2>
+<p>phi の定義と模型の停滞 stag の定義を揃える。主は next_plan の案1：「谷からの遅れ」（lag＝(t_rec−t_min) − ln(P0/Pmin)/r_med）で lost 側の stag と kept 側の phi を同じ定義で作る。副は案2：400 年前後のイタリア・イベリアの人口の公開の推定を探す（見つかれば共通の始点 400 の版を足す）。</p>
+<h2 id="_1">既知の入力（登録時点で見ているもの）</h2>
+<ul>
+<li>125 の stag_years_no_immig = [262.53 (Greece), 407.62 (Britain), 650 (Greenland 消滅の下限)]、r_med 0.0029189。</li>
+<li>125 の表の Greece：P0 60万→Pmin 30万、谷 前1000、回復 前700 → lag = 300 − ln2/r = 62.5 年。Britain：131 の explore で lag 207.6。Greenland は谷がなく消滅のため 650 を下限のまま使う。</li>
+<li>131 の谷の版の phi：Italy 0.807、France 0、Iberia 0（中央値 0、平均 0.269）。</li>
+<li>注意：125 の stag（始まりから）＝谷からの lag＋下り坂 200 年（Greece・Britain とも）であることを登録時に確認した。模型は下り坂を持たないので、始まりから数える A 定義は lost 側には模型に合う。A 定義に揃えるには kept 側も共通の始点が要る（案2）。</li>
+</ul>
+<h2 id="_2">版</h2>
+<ul>
+<li>VA0：125 の stag、phi=0（130/131 の 2.174 を再現、assert 差 0）。</li>
+<li>VB0：lag の stag [62.5, 207.6, 650]、phi=0。</li>
+<li>VB_mean：VB0 の stag、phi 0.269（3 対の平均）。VB_it：phi 0.807（Italy）。</li>
+<li>VAB（感度）：lost の stag は 125 の A、段を免れた標本の追加は phi_B × lag（同じ抽選の事例の lag）。phi_B 0.269・0.807。</li>
+<li>p|lost 0.9・p|kept 1/6、遅い κ、W、H1000、D2rz・D1・D4（131 と同じ）。乱数・抽選は 127 と同じ（事例の添字を保つ）。</li>
+</ul>
+<h2 id="_3">確認的な仮説（計算の前）</h2>
+<ul>
+<li>H144a：VB0 の D2rz の F_heavy は VA0（2.174）より 5 % 以上低い（&lt;2.065）。理由：Greece・Britain の stag が 200 年ずつ縮む。</li>
+<li>H144b：揃えた定義の範囲（VB0・VB_mean・VB_it）の D2rz の F_heavy はすべて 1.6 以上で、131 の極大の規則の下端 1.27〜1.43 より上。</li>
+<li>H144c：全版で D2rz ≥ D1 ≥ D4。</li>
+</ul>
+<h2 id="_4">入力判明後の予測</h2>
+<ul>
+<li>H144d：VB_it は VB0 より 10 % 以上低い。</li>
+<li>H144e（記述）：400 年前後のイタリアの人口の数値は公開の Wikipedia の頁で見つからない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

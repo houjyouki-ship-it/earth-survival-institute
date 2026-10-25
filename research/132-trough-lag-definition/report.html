@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究132：停滞の定義を「谷からの遅れ」に揃えた phi と F_heavy（open_problems 307） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="132-phi-f_heavyopen_problems-307">研究132：停滞の定義を「谷からの遅れ」に揃えた phi と F_heavy（open_problems 307）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。事前登録 PREREGISTRATION.md（2026-10-26 05:40 JST、新しい資料と sim.py の前、PREREG.sha256）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<p>131 の交絡（phi の始点が大陸 2 世紀・Britain 4 世紀で約 240 年ずれた）を解くため、lost 側の停滞年数 stag と kept 側の phi を同じ「谷からの遅れ」＝(t_rec − t_min) − ln(P0/Pmin)/r_med で測り直した（定義B）。lost の 3 値は Greece 62.5・Britain 207.6・Greenland 650（消滅の下限、変えず）で、125 の値（262.5・407.6・650）からちょうど下り坂の 200 年ずつ小さい（assert）。kept 側は 131 の explore_posttrough の値（Italy phi 0.807、France・Iberia 0）を主に格上げした。仕組みは 131 と同じ（127 の prefix を exec、遅い κ、p|lost 0.9、p|kept 1/6、H1000）。定義A・phi 0/0.5/1 で 131 の F_heavy と差 0（assert 9 個通過）。sim.py 約 354 秒。</p>
+<h2 id="_2">結果</h2>
+<ul>
+<li>【計算（results.json, fig_trough_lag.png）】D2rz の F_heavy：定義A・phi 0 は 2.174（131 再現）。定義B・phi 0 は <strong>1.898（−12.7 %）</strong>、phi 平均 0.269 で 1.884、Italy 0.807 で <strong>1.731</strong>、phi 1 で 1.668。D1 は 1.738→1.595、D4 は 1.498→1.396。</li>
+<li>【計算】混合（lost は下り坂込みの定義A、段を免れた標本の追加は phi_B×谷からの遅れ）：phi 0 で 2.174、平均で 2.156、Italy で 1.972。</li>
+<li>【計算】全 22 組で D2rz ≥ D1 ≥ D4。</li>
+<li>【事実（sources/wiki_Ostrogothic_Kingdom.wikitext）】489 年に Theodoric と共にイタリアへ入った Goth は約 10 万〜25 万人と書かれ、イタリア全体の c. 400 年の人口の数値は本回開いた 4 頁（Italy in the Middle Ages、Ostrogothic Kingdom、Gothic War (535–554)、Late antiquity）になかった。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>H144a（確認的）支持：定義B・phi 0 で 2.174→1.898（−12.7 %、閾値 −5 %）。</li>
+<li>H144b（確認的）支持：Italy の phi でも 1.731（≥1.6）。</li>
+<li>H144c（確認的）支持：全版で順位不変。</li>
+<li>H144d（予測）支持：定義B の phi 0〜0.807 の幅 0.168 は 131 の幅 0.904 の 19 %。</li>
+<li>H144e（記述、支持に数えない）：c. 400 年のイタリアの人口の数値は見つからず、共通の始点の版 A' は作れなかった。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ol>
+<li>定義を揃えると phi の効きは小さくなる（幅 0.17）が、代わりに stag をどう測るかの選び方そのもの（下り坂を含めるか）で F_heavy が 2.17 と 1.90 に分かれる。131 の「定義で動く」問題は phi から stag に移っただけで、消えていない。</li>
+<li>模型の T2 の時計は崩壊の時点から数え、人口は初めから谷の値に置かれ下り坂がない。だから史実の時間に合わせるなら lost の遅れは下り坂込み（定義A）が正しく、段を免れた標本は人口を待たないので下り坂は効かない、という混合版が模型の時計と最も筋が通る【独自仮説】。その場合 F_heavy は 2.17（phi 0）〜1.97（Italy）。定義B は lost 側の下限。</li>
+<li>phi は 3 対（うち 2 対が 0、移入を含む）と 1 件の Italy で決まり、谷の年 800 は「Charlemagne の頃」の推定の年。Greece の谷の年（前 1000）・Britain の谷の年（600）も推測を含む。</li>
+<li>Greenland の 650 は両定義で同じ値を置いたので、3 値のうち 1 つは定義の変更を受けていない。</li>
+</ol>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は遅い κ の F_heavy を「1.73〜2.17」で示す。主は混合版の 2.17〜1.97（模型の時計に合う）、定義B の 1.90〜1.73 は lost の遅れから下り坂を抜いた下限とする。131 の 1.27〜1.43 は始点の交絡による値として外してよい。D2rz の推しは全版で不変。</p>
+<h2 id="_6">ファイル</h2>
+<p>sim.py、results.json、stdout.txt、stderr.txt（無害な警告）、fig_trough_lag.png、PREREGISTRATION.md、PREREG.sha256、sources/（Wikipedia の wikitext 4 件、SHA256SUMS）、SHA256SUMS_outputs。</p><footer><hr><small>自動生成</small></footer></body></html>

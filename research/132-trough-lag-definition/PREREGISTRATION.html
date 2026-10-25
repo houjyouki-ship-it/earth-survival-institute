@@ -1,0 +1,27 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究132 事前登録（2026-10-26 05:40 JST、新しい資料を開く前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="132-2026-10-26-0540-jstsimpy">研究132 事前登録（2026-10-26 05:40 JST、新しい資料を開く前・sim.py を書く前）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。</p>
+<h2 id="open_problems-307">課題（open_problems 307）</h2>
+<p>phi（写しで段を免れた標本の停滞の倍率）と、模型の停滞年数 stag の定義を揃える。
+125 の stag_years（262.5・407.6・650）は「崩壊の始まりから数えた回復年数 − 038 の予測」で、
+谷までの下り坂（Greece・Britain とも 200 年）を含む。131 の phi は始点が地域で違い交絡した。</p>
+<h2 id="_1">定義（登録）</h2>
+<ul>
+<li>定義B（主）：谷からの遅れ ＝ (t_rec − t_min) − ln(P0/Pmin)/r_med（r_med=0.0029189、131 の cases.json）。
+  lost 側：Greece 300−237.47=62.53、Britain 207.62、Greenland は消滅で 650 を下限のまま。
+  kept 側（131 の explore_posttrough の数値、本回は登録外ではなく主として使う）：Italy 167.5（phi 0.807）、France・Iberia 負（phi 0）。
+  phi_B の代表：中央値 0、平均 0.269、上端 Italy 0.807。</li>
+<li>定義A（参照）：125 の stag（下り坂込み）、phi=0 → 130/131 の 2.174 を再現（assert）。</li>
+<li>混合（感度、確認的には使わない）：lost は定義A、段を免れた標本の追加は phi_B × 定義B の遅れ（同じ標本の pick）。</li>
+<li>仕組みは 131 の sim.py と同じ（127 の prefix を exec、遅い κ、p|lost 0.9、p|kept 1/6、H1000、D2rz・D1・D4）。</li>
+</ul>
+<h2 id="_2">確認的な仮説（計算の前）</h2>
+<ul>
+<li>H144a：定義B・phi 0 で D2rz の F_heavy は定義A（2.174）より 5 % 以上下がる（&lt;2.065）。理由：Greece・Britain の stag が 200 年ずつ縮む。</li>
+<li>H144b：定義B・phi_B 上端 0.807 でも D2rz の F_heavy は 1.6 以上。</li>
+<li>H144c：全版で D2rz ≥ D1 ≥ D4。</li>
+</ul>
+<h2 id="_3">入力判明後の予測</h2>
+<ul>
+<li>H144d：定義B の phi 0〜0.807 で D2rz の F_heavy の幅は 131 の幅（2.17〜1.27）の半分以下。</li>
+<li>H144e（記述）：公開の Wikipedia の頁でイタリアの c. 400 年の人口の数値は見つからない（見つかれば共通の始点の版 A' を足す）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
