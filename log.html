@@ -1744,4 +1744,16 @@
 <li>逸脱：D2 RZ の版は登録になく sim.py を書く段で加えた（資料の後・実行の前）。歩進の錨を 3×10⁵ と 10⁷ の幾何平均にしたのは資料の後。</li>
 <li>批判：D2 の接点は負荷を切るのに乾いた接点の分布のまま。歩進の錨は照明用の現行品。送りの機構は数えていない。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：読取装置の手引きは時刻や配りをカム・歩進の機構に任せず、継電器だけで点ごとに戻す回路（D2）か D3 を推す。p_relay の主は 0.55〜0.66、遅い κ の F_heavy の主は 1.48〜1.53。系列はここで閉じ、125 から人口の回復待ち・長い後退（57）へ。</li>
+</ul>
+<h2 id="125-2026-10-25jst-1516">第125回 2026-10-25（JST 15〜16時台）</h2>
+<ul>
+<li>主課題：固定の指示（読み取り装置の部品系列の区切り）どおり、重い崩壊の時間の大半を占める人口の回復待ち（038 で 0.86）と長い後退（open_problems 57・116・266）。まず現状を確認し、017 の後退の確率（一人あたり GDP）は 038 の T2 に入らず T2→T3 の梯子にだけ載ること、T2 年数を動かすのは r と停滞であることを登録の (a) に書いた。</li>
+<li>再現チェック：038 の sim.py を「感度」の前まで exec し、H50e 0.8631415437、BIO・CASC の t2 中央値・人口待ちの割合・R_tab_from_heavy、重み付き R_tab を差 0 で再現（assert）。</li>
+<li>文献・データ（本回取得、sources/、SHA256SUMS）：Wikipedia の Demographics_of_England（Broadberry et al. 2010 の表）、Black_Death、Greek_Dark_Ages、Anglo-Saxon_settlement_of_Britain、Roman_Britain、Classic_Maya_collapse、Petén（en・es、国勢調査 1880〜2024）、Norse_settlements_in_Greenland、Hawaii・Hawaiian_Kingdom（国勢調査）、Population_history_of_the_Indigenous_peoples_of_the_Americas、Easter_Island、Thirty_Years'_War、Great_Famine (Ireland)、Ireland、Demographics_of_Cambodia ほか。Murray 2017 ch.5（Cambridge の章の頁）、Canuto et al. 2018（Science、WebFetch で要旨、curl は 403）、Tulane 2025 の発表。Egypt・イラク・Iceland は回復の年の数値が取れず使っていない。</li>
+<li>研究125：<code>research/125-pop-recovery-history/</code>（sim.py 約 8 秒）。成果物は results.json、stdout.txt、fig_recovery.png、report.md、PREREGISTRATION.md（15:39 JST、資料を開く前・sim.py の前）、sources/。</li>
+<li>主要数値：L≥0.5 の 9 事例で、200 年以内に戻らなかった割合 7/8＝0.875（038 がその L で予測する割合 0.872）。KM の回復年数の中央値は国家・交易が崩れた C 784 年、残った S 203 年（比 3.86）。回復した事例の r_eff 中央 0.00513（移民なし 0.00231）で 038 の範囲内、谷までの下り坂 94〜200 年。038 の中央の予測との超過は C で +263・+408 年と消滅、S は全て負。入れ直しで、移民なしの r（V1b）は割合 0.868・T2 ±3 %、停滞 p=0.6（V2b）は割合 0.927・BIO ×1.22・CASC ×2.16・F_r 0.63／0.69、重み付き F_r 0.86〜0.99。</li>
+<li>判定：確認的 H137a 支持（ただし 038 自身の予測と同じで情報が薄い）、H137b 支持、H137c 支持。予測 H137d 棄却（V2a の BIO の T2 比 1.14&lt;1.2）。H137e は記述。</li>
+<li>逸脱：V2 の停滞の作り（038 の中央との超過）の細部は資料の後に決めた。V3（始まりからの r_all）・V4・ln あたりの年数・その L での 038 の予測は入力判明後の記述。メキシコ中央部は数値が取れず中南米全体で置いた。</li>
+<li>批判：n=9、長い側に選ばれた候補、Petén の P0 は密度を全域に当てた推測、S の速い 2 件は移入による、England は欧州の一部。017 の後退の確率は置き直していない。F_heavy の連鎖は再実行していない。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：模型の維持者は人口待ちの主の不確かさを r の幅から「停滞の確率と長さ」（V2b）に替え、F_heavy の連鎖をこの形で再実行する。r の幅は T2 を ±3 % しか動かさないが、停滞は CASC の T2 を 2 倍、重い崩壊分の価値を 3 割下げる。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
