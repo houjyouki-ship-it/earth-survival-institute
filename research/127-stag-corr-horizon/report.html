@@ -1,0 +1,68 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究127：停滞と段の喪失の相関、地平 H の感度（open_problems 298・299） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="127-h-open_problems-298299">研究127：停滞と段の喪失の相関、地平 H の感度（open_problems 298・299）</h1>
+<p><strong>注：F_heavy・V は生存確率や復興確率ではない。模型の中の相対的な価値の比である。提言は模型の中での順位（外部の検証はまだ）。</strong></p>
+<h2 id="_1">何をしたか</h2>
+<p>126 の sim.py を前半まで exec し（126 の assert 4 つが通る）、125 と同じ乱数で停滞を引き直した。
+停滞の確率を「基準で段を失った標本（st 4〜6）」とそれ以外で分ける 5 版（V0 なし、C0 独立 p=0.6、Ccond 段の喪失だけ p=0.6、Cmid 0.8／他で全体 0.6、Cmass 全体 0.6 を保つ完全相関で段の喪失の中 0.864、C1 段の喪失の中 1.0）を、地平 H=1000・1500・2000 年で計算した。
+H=1000 の V0・C0 は 126 の V0・V2b の table と差 0（assert）。</p>
+<h2 id="d2rz-w">結果（遅い κ、D2rz、形 W）【計算の結果】</h2>
+<table>
+<thead>
+<tr>
+<th>H</th>
+<th>V0</th>
+<th>C0 (=126 V2b)</th>
+<th>Cmid</th>
+<th>Cmass</th>
+<th>C1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1000</td>
+<td>1.529</td>
+<td>1.888</td>
+<td>2.069</td>
+<td>2.180</td>
+<td>2.293</td>
+</tr>
+<tr>
+<td>1500</td>
+<td>1.472</td>
+<td>1.766</td>
+<td>1.915</td>
+<td>1.999</td>
+<td>2.092</td>
+</tr>
+<tr>
+<td>2000</td>
+<td>1.466</td>
+<td>1.748</td>
+<td>1.889</td>
+<td>1.965</td>
+<td>2.047</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>新しい側の重い分の価値の量（V0・H1000 比）：C0 −10.2 %、Cmass −15.2 %、C1 −16.7 %（H2000 で −8.9 %、−13.7 %、−15.2 %）。比が上がるほど量は減る。</li>
+<li>Ccond は C0 と全セルで差 0：停滞は基準で段を失った標本にしか効かない（新しい側の st は基準以下）。だから「相関」の効き目は、段を失った標本の中の停滞の確率 p|lost だけで決まる。</li>
+<li>順位 D2rz ≥ D1 ≥ D4 は全 22 の組で不変。WT の形でも Cmass 1.909（H1000）。trigger_mix の D2rz は 1.118→1.23（C0）→1.32（Cmass）。</li>
+<li>H を 1000→2000 にすると V0 の基準の重い分の価値は +5.0 % しか増えず、停滞による上げ幅は 0.359→0.281（78 % が残る）。H より標本ごとの写しの媒体の寿命 life（024 系の claim×f_store の Weibull、10・50・90 % 点 170・521・1359 年）が先に切る。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H139a（確認的）：Cmass は C0 より +15.5 % → <strong>支持</strong>。</li>
+<li>H139b（確認的）：H2000 の上げ幅 0.281 は H1000 の 0.359 の半分未満ではない → <strong>棄却</strong>。H の切り捨ては上げ幅の約 2 割だけ。</li>
+<li>H139c（確認的）：順位不変 → <strong>支持</strong>。</li>
+<li>H139d（予測）：H2000 で基準の重い分は +5.0 % → <strong>支持</strong>。</li>
+<li>記述：Ccond＝C0 は登録時にコードから予想したとおり（仮説には数えない）。</li>
+</ul>
+<h2 id="_3">批判・限界</h2>
+<ul>
+<li>本当の問いは「125 の p=0.6 は周辺の確率か、段を失った社会の中の確率か」。125 の事例は人口が半分以上減った崩壊（L≥0.5）で、技術の段を失ったかは記録していない。条件つきと読めば 126 の 1.888 がそのまま正しく、周辺と読めば 2.18 になる。今回はこの幅を出しただけで、どちらかは決めていない【推測】。</li>
+<li>型（CASC/BIO）に寄せる版は、F_heavy が U3（型のない未知の人為リスク）だけで決まるので作っていない。</li>
+<li>H=∞ は作っていない（life が先に切るので H2000 との差は小さいと見込むが確かめていない）。</li>
+<li>停滞の長さは 3 値のまま、停滞の間の κ は変えていない（300）。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は、重い崩壊の F_heavy を 1 つの値でなく「p|lost の読み方の幅」で出す：H1000 で 1.89〜2.18、H2000 で 1.75〜1.97、量は −9〜−15 %。H を延ばす感度は小さいので優先を下げ、代わりに寿命 life の分布（中央 521 年）の出典を確かめる。読取装置の推し D2rz は変えなくてよい。</p><footer><hr><small>自動生成</small></footer></body></html>

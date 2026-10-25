@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究128 事前登録（open_problems 302） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="128-open_problems-302">研究128 事前登録（open_problems 302）</h1>
+<p>登録時刻：下の date の出力（資料の本文を本回開く前・sim.py を書く前）。
+注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。</p>
+<h2 id="_1">問い</h2>
+<p>125 の停滞の確率 0.6（移民なし・判定できる 5 事例のうち 3）は、崩壊した社会全体の周辺の値か、技術の段を失った社会の中の値か。
+127 では停滞が効くのは基準で段を失った標本だけで、効く量は p|lost だけで決まる（Ccond=C0 で 1.888、Cmass p|lost 0.864 で 2.180、C1 で 2.293）。</p>
+<h2 id="_2">分類の規則（資料を開く前に固定）</h2>
+<p>地域の社会（その地域に住むどの集団でもよい）について、崩壊の前にあった次の 4 つのうち <strong>2 つ以上が 50 年以上その地域で途絶えた</strong>か、<strong>住民が消滅・放棄した</strong>なら「段を失った（lost）」、それ以外は「保った（kept）」。
+1. 文字の日常の使用（碑文・文書の作成）  2. 地元での金属の生産・鍛冶  3. 石造・煉瓦の大きな建築の新築  4. 貨幣の鋳造・流通
+崩壊の前になかった項目は数えない（分母から外す）。判定は 125 の sources/ の頁（本回 grep で根拠の文を抜く）と、足りなければ本回開く頁で行う。根拠の文が見つからない項目は「不明」とし、不明を除いて 2 つ以上なら lost。
+停滞の有無と判定できるかは 125 の規則・値（excess_vs038_median&gt;0、Norse は消滅で停滞、打ち切りで超過が負は判定不能、区間は上限の超過で判定）をそのまま使い、変えない。</p>
+<h2 id="_3">集合</h2>
+<ul>
+<li>主（M）：125 の V2b と同じ 5 事例（L≥0.5、移民なし、判定できる）。</li>
+<li>拡張（X）：L≥0.5 で移民ありを含む判定できる事例（Hawaii・Latin America・Easter Island を加える）＋ L&lt;0.5 の補足のうち判定できるもの（Thirty Years' War、Cambodia）。</li>
+</ul>
+<h2 id="_4">事前の予想の分類（知識からの予想。著者は事例の概略を既に知っているので確認的の力は弱い）</h2>
+<p>Greece_LBA lost、Britain_postRoman lost、Norse_Greenland lost（消滅）、England_BlackDeath kept、Europe_BlackDeath kept、Hawaii kept、LatinAmerica kept（スペイン系の社会が文字・貨幣を保つ）、Easter_Island lost、ThirtyYearsWar kept、Cambodia kept（貨幣の廃止は 50 年未満）。</p>
+<h2 id="_5">仮説</h2>
+<ul>
+<li>H140a（確認的）：M で p|lost ≥ 0.75。</li>
+<li>H140b（確認的）：X で kept かつ停滞あり（超過&gt;0）の事例は 0 件。</li>
+<li>H140c（確認的）：X でも p|lost ≥ 0.75。</li>
+<li>H140d（入力判明後の予測）：M の p|lost の事後（Jeffreys の Beta(0.5,0.5) 事前）の平均での遅い κ・D2rz・W・H1000 の F_heavy ≥ 2.10（127 の Cmid 2.069 より上、周辺の読みの側）。</li>
+<li>H140e（予測）：同じ条件で新しい側の重い分の量は V0 比 −14 % 以下（より大きな減り）。</li>
+</ul>
+<h2 id="_6">計算</h2>
+<p>127 の CVER と同じ仕組み（U_stag・pick 共通）で、p|lost ∈ {0.5,0.6,0.7,0.75,0.8,0.864,0.9,0.95,1.0}、p|kept は効かない（127 で示した）ので 0。H=1000、W。遅い κ の D2rz・D1・D4、trigger_mix・fast_state の D2rz。
+再現：p=0.6 を 127 の Ccond、p=P0/share を Cmass、p=1 を C1 と差 0（assert）。
+事後：M・X の数え（k/n）に Jeffreys と一様の事前で Beta の事後を作り、格子の線形補間で F_heavy の平均と 10・50・90 % 点を出す。</p><footer><hr><small>自動生成</small></footer></body></html>
