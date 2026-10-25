@@ -1,0 +1,95 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究132b（132 と同時の別実行・独立の再現）：停滞 stag と phi を「谷からの遅れ」で揃えた F_heavy（open_problems 307） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="132b132-stag-phi-f_heavyopen_problems-307">研究132b（132 と同時の別実行・独立の再現）：停滞 stag と phi を「谷からの遅れ」で揃えた F_heavy（open_problems 307）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。事前登録 PREREGISTRATION.md（2026-10-26 05:48 JST、sim.py と新しい資料の前）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<p>125 の停滞の年数（始まりから数えた超過）が「谷からの遅れ lag ＋ 下り坂 200 年」に分かれることを確かめ（Greece 262.5＝62.5＋200、Britain 407.6＝207.6＋200、sim.py で assert）、lost 側の stag と kept 側の phi を同じ「谷からの遅れ」で作り直した。127 の仕組み（遅い κ、W、H1000、p|lost 0.9、p|kept 1/6、事例の抽選の添字は 127 と同じ）で 6 版を回した（sim.py 約 334 秒）。VA0 は 131 の phi=0 の F_heavy と D2rz・D1・D4 で差 0（assert）。あわせて 400 年前後のイタリアの人口の公開の推定を探した（sources/、SHA256SUMS）。</p>
+<h2 id="d2rz-d1-d4-f_heavyresultsjsonfig_trough_lagpng">結果（D2rz / D1 / D4 の F_heavy、results.json、fig_trough_lag.png）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>lost の stag</th>
+<th>段を免れた標本の追加</th>
+<th>D2rz</th>
+<th>D1</th>
+<th>D4</th>
+<th>D2rz の VA0 比</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VA0（再現）</td>
+<td>始まりから [262.5, 407.6, 650]</td>
+<td>なし</td>
+<td>2.174</td>
+<td>1.968</td>
+<td>1.661</td>
+<td>0</td>
+</tr>
+<tr>
+<td>VB0</td>
+<td>谷から [62.5, 207.6, 650]</td>
+<td>なし</td>
+<td>1.898</td>
+<td>1.738</td>
+<td>1.498</td>
+<td>−12.7 %</td>
+</tr>
+<tr>
+<td>VB_mean</td>
+<td>谷から</td>
+<td>0.269×lag</td>
+<td>1.884</td>
+<td>1.722</td>
+<td>1.490</td>
+<td>−13.4 %</td>
+</tr>
+<tr>
+<td>VB_it</td>
+<td>谷から</td>
+<td>0.807×lag</td>
+<td>1.731</td>
+<td>1.595</td>
+<td>1.396</td>
+<td>−20.4 %</td>
+</tr>
+<tr>
+<td>VAB_mean（感度）</td>
+<td>始まりから</td>
+<td>0.269×lag</td>
+<td>2.156</td>
+<td>1.948</td>
+<td>1.650</td>
+<td>−0.8 %</td>
+</tr>
+<tr>
+<td>VAB_it（感度）</td>
+<td>始まりから</td>
+<td>0.807×lag</td>
+<td>1.972</td>
+<td>1.796</td>
+<td>1.537</td>
+<td>−9.3 %</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>【事実（sources/itwiki_Demografia_d_27Italia.txt、https://it.wikipedia.org/wiki/Demografia_d%27Italia 、Malanima の本を出典に）】Augustus の頃 800 万、2 世紀に 1,000 万、Antonine の疫病の後に減り、西ローマの崩壊と Gothic War の後に大きく減り、Alto Medioevo を通して 400〜600 万。【事実（sources/wiki_Gothic_War_535_554.txt）】戦争の終わりにイタリアは荒廃し人口が減った（数値なし）。400 年前後のイタリア・イベリアの数値は、本回開いた英語版 6 頁・伊語版 2 頁（Storia_demografica は転送のみ）のどれにもなかった。</li>
+<li>【計算・登録外（explore_italy_trough.json）】イタリアの谷を Malanima の幅で 400 万→500 万→600 万にすると lag は 167→244→306 年、phi_Italy は 0.81→1.17→1.48（谷が浅いほど予測の回復が短く、遅れは長くなる）。【推測・線形外挿】VB の傾き（phi あたり −0.21）で D2rz の F_heavy は約 1.65（phi 1.17）、約 1.59（1.48）。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H144a（確認的）<strong>支持</strong>：VB0 は 1.898（−12.7 %、閾値 −5 %）。</li>
+<li>H144b（確認的）<strong>支持</strong>：揃えた 3 版は 1.73〜1.90 で 1.6 以上、131 の極大の規則の 1.27〜1.43 より上。</li>
+<li>H144c（確認的）<strong>支持</strong>：6 版すべてで D2rz ≥ D1 ≥ D4。</li>
+<li>H144d（予測）<strong>棄却</strong>：VB_it は VB0 の −8.8 %（閾値 −10 %）。</li>
+<li>H144e（記述）支持：400 年前後の数値は見つからなかった。</li>
+</ul>
+<h2 id="_3">批判</h2>
+<ol>
+<li>どちらの定義が模型に正しいかは決着していない。模型の人口は崩壊の直後に谷の大きさで始まり下り坂を持たないので、lost 側は始まりから数えた A（下り坂を含む）が模型の待ち時間に合う。B は下り坂 200 年を落とすので lost の待ちを短く見積もる側【推測】。一方、phi を A で測るには kept 側に共通の始点の人口が要り、それが見つからない。VAB（lost は A、免れた側は谷からの遅れの比）は両者の折衷で 2.16〜1.97。</li>
+<li>下り坂の 200 年は Greece・Britain とも 125 の推測の谷の年（Britain の 600、Greece の 前1000）から来ており、2 件とも丸めた値。</li>
+<li>phi_Italy は谷の高さ（400 万か 600 万か）で 0.8〜1.5 と動き、131 の「定義で決まる」問題はイタリアについて残る。France・Iberia の phi 0 は移入（Frank・Visigoth、711 以後）を含む。</li>
+<li>Greenland の 650 は消滅の下限で、定義に関係なく同じ値を使った。</li>
+</ol>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は遅い κ の重い崩壊の D2rz の F_heavy を、定義を揃えた範囲として「1.73〜1.90（谷からの遅れ）〜1.97〜2.16（lost は始まりから、免れた側は谷の比）」で示し、131 の 1.27〜1.43 は始点が揃っていない比較なので感度の表から外す。主の一点が要るなら、模型が下り坂を持たないことを根拠に VAB_mean の 2.16 を置き、下端を VB_it の 1.73 とする。D2rz の推しはどの版でも不変。</p><footer><hr><small>自動生成</small></footer></body></html>
