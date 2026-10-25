@@ -1,0 +1,40 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究133 事前登録（2026-10-26 07:43 JST、sim.py を書く前・計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="133-2026-10-26-0743-jstsimpy">研究133 事前登録（2026-10-26 07:43 JST、sim.py を書く前・計算の前）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-309">課題（open_problems 309）</h2>
+<p>模型は人口を崩壊の直後から谷の値 n に置き、下り坂（崩壊の始まりから谷まで）がない。132 では lost の停滞に下り坂を含める（定義A・混合、2.174）か抜く（定義B、1.898）かで F_heavy が分かれた。
+本回は下り坂 D を停滞（谷からの遅れ、定義B）と別の変数として T2 の時計に明示的に入れる：
+人口を待つ標本の待ち ＝ D ＋ lag_B ＋ ln(N_k/n)/r（N_k&gt;n のときだけ）。段を免れた標本（st 2・3）は人口を待たないので D は既定で効かず、phi_down×D で一部効かせる版を感度に置く。</p>
+<h2 id="125-resultsjson-decline_yearst_mint_start-125-sources-url">入力（新しい資料は開かない。125 の results.json の decline_years＝t_min−t_start、出典は 125 の sources/ と url）</h2>
+<ul>
+<li>C 型（国家・交易の崩れ）：主 Greece 200・Britain 200・Easter 155、補 Copán 425。</li>
+<li>S 型（疫病・戦争）：主 England 102・Hawaii 94・Latin America 150、補 Thirty Years War 30・Ireland 116・Cambodia 3。</li>
+<li>lag_B（132）：Greece 62.53・Britain 207.62・Greenland 650（消滅の下限、下り坂を含む値として D=0 を主）。</li>
+</ul>
+<h2 id="127-prefix-exec-plost-09pkept-16h1000w-d2rzd1d4">版（127 の prefix を exec、遅い κ、p|lost 0.9、p|kept 1/6、H1000、W 形、D2rz・D1・D4）</h2>
+<ul>
+<li>R0：132 の MIX|phi0（2.174）と定義B（1.898）を差 0 で再現（assert）。</li>
+<li>E4（検算）：D を pick と対にする（Greece・Britain 200、Greenland 0）と定義A と同じ配列になり 2.174 と差 0（assert）。</li>
+<li>E1（主）：停滞のある標本に D_C を pick と独立に {200,200,155} から引く。停滞のない標本は D=0（模型の破局は瞬時）。Greenland の pick は D=0。phi_down=0。</li>
+<li>E2：E1 ＋ 停滞のない標本に D_S {102,94,150}。</li>
+<li>E3：E1 で D_C に Copán 425 を足す。</li>
+<li>E5・E6：E2 ＋ phi_down 1・0.5（段を免れた標本に phi_down×D を足す）。</li>
+<li>E7：E2 で D_S に補の 3 件を足す。</li>
+<li>E8：E1 で Greenland の pick にも D_C を足す。</li>
+<li>E9：E2 ＋ 段を免れた標本の停滞 phi 0.807×lag_B（132 の Italy、混合と同じ作り）。
+乱数：D の引きは新しい種 20261026 の一様乱数（標本ごと）。</li>
+</ul>
+<h2 id="_1">確認的な仮説（計算の前）</h2>
+<ul>
+<li>H145a：主 E1 の D2rz の F_heavy は混合の 2.174 から ±3 % 以内（2.109〜2.239）。理由：D_C の平均 185 は 200 に近い。</li>
+<li>H145b：E2 は E1 から ±3 % 以内（停滞のない lost は 1 割だけ）。</li>
+<li>H145c：phi_down=1 の E5 は E2 より 5 % 以上低い。</li>
+<li>H145d：全版で D2rz ≥ D1 ≥ D4。</li>
+</ul>
+<h2 id="_2">入力判明後の予測</h2>
+<ul>
+<li>H145e：全版の D2rz の F_heavy は 132 の幅 1.73〜2.17 の中に入る（E5 を除く）。</li>
+</ul>
+<h2 id="_3">記述（支持に数えない、入力を知っている）</h2>
+<ul>
+<li>H145f：C 型の下り坂は S 型より長い（主 3 対 3、補込み 4 対 6。Mann-Whitney の正確な片側 p を記す）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

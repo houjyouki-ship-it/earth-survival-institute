@@ -1,0 +1,4 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
