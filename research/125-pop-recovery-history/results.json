@@ -1,0 +1,815 @@
+{
+ "study": "125-pop-recovery-history",
+ "check_038_maxdiff": 0.0,
+ "check_038": {
+  "H50e": 0.8631415436656069,
+  "BIO.t2_median_heavy": 1204.4788959017199,
+  "BIO.wait_share_median_heavy": 0.928490516481485,
+  "BIO.R_tab_from_heavy": 0.0015059999999999997,
+  "CASC.t2_median_heavy": 254.25685150729694,
+  "CASC.wait_share_median_heavy": 0.8169118458745954,
+  "CASC.R_tab_from_heavy": 0.0085905,
+  "W.A_Ord.R_tab": 0.01448707160130841,
+  "W.A_Ord.R_tab_from_heavy": 0.012506683655536026,
+  "W.A_XPT_S.R_tab": 0.017382865710925583,
+  "W.A_XPT_S.R_tab_from_heavy": 0.00815766398662402,
+  "W.A_XPT_E.R_tab": 0.0057738601271651495,
+  "W.A_XPT_E.R_tab_from_heavy": 0.0006469999999999999
+ },
+ "H137a": {
+  "k_not_recovered_200": 7,
+  "n": 8,
+  "share": 0.875,
+  "threshold_038_halving": 0.616,
+  "supported": true,
+  "binom_p_vs_0616": 0.12412403855267748,
+  "excl_Europe": [
+   6,
+   7,
+   0.8571428571428571
+  ],
+  "excl_immigration": [
+   6,
+   6,
+   1.0
+  ],
+  "038_predicted_share_for_each_case_own_L_mean": 0.8719102590761698,
+  "excluded": "Easter_Island（回復年が区間で 200 年の判定不能）"
+ },
+ "H137b": {
+  "main": {
+   "C_median": 784.0,
+   "C_max_obs_if_unreached": null,
+   "S_median": 203.0,
+   "ratio_C_over_S": 3.8620689655172415
+  },
+  "excl_immigration": {
+   "C_median": 784.0,
+   "C_max_obs_if_unreached": null,
+   "S_median": 203.0,
+   "ratio_C_over_S": 3.8620689655172415
+  },
+  "supported": true,
+  "years_per_unit_lnloss_descriptive": {
+   "England_BlackDeath": 304.6800586213407,
+   "Europe_BlackDeath": 292.8670933004596,
+   "Greece_LBA": 721.3475204444817,
+   "Britain_postRoman": 713.6275536754405,
+   "Maya_Peten": 198.27407207061236,
+   "Norse_Greenland": null,
+   "Hawaii_contact": 87.81744341972623,
+   "LatinAmerica_conquest": 258.188951510107,
+   "Easter_Island": null
+  }
+ },
+ "H137c": {
+  "r_eff": {
+   "England_BlackDeath": 0.00513173037538826,
+   "Greece_LBA": 0.0023104906018664843,
+   "Britain_postRoman": 0.001881185425801558,
+   "Hawaii_contact": 0.031971920365215525,
+   "LatinAmerica_conquest": 0.006575317838641884
+  },
+  "median": 0.00513173037538826,
+  "median_excl_immigration": 0.0023104906018664843,
+  "range_038": [
+   0.0014,
+   0.0061
+  ],
+  "supported": true,
+  "decline_years_before_trough": {
+   "England_BlackDeath": 102,
+   "Greece_LBA": 200,
+   "Britain_postRoman": 200,
+   "Hawaii_contact": 94,
+   "LatinAmerica_conquest": 150,
+   "Easter_Island": 155
+  }
+ },
+ "V2_inputs": {
+  "p_nr": 0.375,
+  "stag_years": [
+   262.53062861942044,
+   407.6199512919556,
+   650
+  ],
+  "n_determinable": 8,
+  "p_nr_no_immig": 0.6,
+  "stag_years_no_immig": [
+   262.53062861942044,
+   407.6199512919556,
+   650
+  ],
+  "n_det_no_immig": 5
+ },
+ "variants": {
+  "V0_038_check": {
+   "pooled_wait_share_median_heavy": 0.8631415436656069,
+   "BIO": {
+    "wait_share_median_heavy": 0.928490516481485,
+    "t2_median_heavy": 1204.4788959017199,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.0015059999999999997,
+    "t2_ratio_vs_038": 1.0,
+    "F_r": 1.0
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.8169118458745954,
+    "t2_median_heavy": 254.25685150729694,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.0085905,
+    "t2_ratio_vs_038": 1.0,
+    "F_r": 1.0
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.01448707160130841,
+     "R_tab_from_heavy": 0.012506683655536026,
+     "F_r": 1.0
+    },
+    "A_XPT_S": {
+     "R_tab": 0.017382865710925583,
+     "R_tab_from_heavy": 0.00815766398662402,
+     "F_r": 1.0
+    },
+    "A_XPT_E": {
+     "R_tab": 0.0057738601271651495,
+     "R_tab_from_heavy": 0.0006469999999999999,
+     "F_r": 1.0
+    }
+   }
+  },
+  "V1a_reff_all": {
+   "pooled_wait_share_median_heavy": 0.7528690814644866,
+   "BIO": {
+    "wait_share_median_heavy": 0.8739589142110837,
+    "t2_median_heavy": 735.0332023122605,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.0026414999999999998,
+    "t2_ratio_vs_038": 0.6102499635429361,
+    "F_r": 1.7539840637450201
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.674296126227616,
+    "t2_median_heavy": 162.80971757792182,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.009429,
+    "t2_ratio_vs_038": 0.6403356157867365,
+    "F_r": 1.0976078225947268
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.014695474061765353,
+     "R_tab_from_heavy": 0.012715086115992967,
+     "F_r": 1.0166632871028678
+    },
+    "A_XPT_S": {
+     "R_tab": 0.017522573743783975,
+     "R_tab_from_heavy": 0.00829737201948241,
+     "F_r": 1.0171259852192327
+    },
+    "A_XPT_E": {
+     "R_tab": 0.005963110127165151,
+     "R_tab_from_heavy": 0.00083625,
+     "F_r": 1.2925038639876354
+    }
+   }
+  },
+  "V1b_reff_no_immig": {
+   "pooled_wait_share_median_heavy": 0.867579396320638,
+   "BIO": {
+    "wait_share_median_heavy": 0.9304812510801961,
+    "t2_median_heavy": 1216.3844597939865,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.001494,
+    "t2_ratio_vs_038": 1.0098844105386784,
+    "F_r": 0.9920318725099604
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.8216992913034925,
+    "t2_median_heavy": 262.7107981396491,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.0086295,
+    "t2_ratio_vs_038": 1.033249631552641,
+    "F_r": 1.0045398987253362
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.014485373886018428,
+     "R_tab_from_heavy": 0.012504985940246044,
+     "F_r": 0.9998642553584355
+    },
+    "A_XPT_S": {
+     "R_tab": 0.01738896232331291,
+     "R_tab_from_heavy": 0.008163760599011341,
+     "F_r": 1.0007473478188509
+    },
+    "A_XPT_E": {
+     "R_tab": 0.00577186012716515,
+     "R_tab_from_heavy": 0.000645,
+     "F_r": 0.9969088098918084
+    }
+   }
+  },
+  "V2a_stag_all": {
+   "pooled_wait_share_median_heavy": 0.9090077000655806,
+   "BIO": {
+    "wait_share_median_heavy": 0.9398903614897818,
+    "t2_median_heavy": 1374.0636642340469,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.00117,
+    "t2_ratio_vs_038": 1.1407951346506318,
+    "F_r": 0.7768924302788847
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.8881652321505323,
+    "t2_median_heavy": 424.1708367910496,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.006950999999999999,
+    "t2_ratio_vs_038": 1.6682769187003652,
+    "F_r": 0.8091496420464466
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.014410732409744264,
+     "R_tab_from_heavy": 0.012430344463971878,
+     "F_r": 0.9938961283689016
+    },
+    "A_XPT_S": {
+     "R_tab": 0.017121367971757225,
+     "R_tab_from_heavy": 0.007896166247455656,
+     "F_r": 0.9679445317192352
+    },
+    "A_XPT_E": {
+     "R_tab": 0.00571786012716515,
+     "R_tab_from_heavy": 0.0005909999999999999,
+     "F_r": 0.9134466769706338
+    }
+   }
+  },
+  "V2b_stag_no_immig": {
+   "pooled_wait_share_median_heavy": 0.9271461881274413,
+   "BIO": {
+    "wait_share_median_heavy": 0.9454822159934182,
+    "t2_median_heavy": 1473.3241894586868,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.0009525,
+    "t2_ratio_vs_038": 1.223204652627557,
+    "F_r": 0.6324701195219125
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.9160953922453969,
+    "t2_median_heavy": 548.4887701040868,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.0059595,
+    "t2_ratio_vs_038": 2.157223165678765,
+    "F_r": 0.6937314475292475
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.014362052269146724,
+     "R_tab_from_heavy": 0.012381664323374338,
+     "F_r": 0.9900037983205605
+    },
+    "A_XPT_S": {
+     "R_tab": 0.016963136661783396,
+     "R_tab_from_heavy": 0.0077379349374818275,
+     "F_r": 0.9485478870139278
+    },
+    "A_XPT_E": {
+     "R_tab": 0.005681610127165149,
+     "R_tab_from_heavy": 0.0005547499999999999,
+     "F_r": 0.85741885625966
+    }
+   }
+  },
+  "V3a_rall_all": {
+   "pooled_wait_share_median_heavy": 0.8762645884992828,
+   "BIO": {
+    "wait_share_median_heavy": 0.9323142507508804,
+    "t2_median_heavy": 1232.407104416473,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.0016575,
+    "t2_ratio_vs_038": 1.0231869637648112,
+    "F_r": 1.1005976095617531
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.8340861364589355,
+    "t2_median_heavy": 271.18401323239124,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.0075555,
+    "t2_ratio_vs_038": 1.0665750465513355,
+    "F_r": 0.8795180722891567
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.014502783376352347,
+     "R_tab_from_heavy": 0.012522395430579963,
+     "F_r": 1.0012562702852872
+    },
+    "A_XPT_S": {
+     "R_tab": 0.01722003689440916,
+     "R_tab_from_heavy": 0.00799483517010759,
+     "F_r": 0.9800397740353836
+    },
+    "A_XPT_E": {
+     "R_tab": 0.00579911012716515,
+     "R_tab_from_heavy": 0.00067225,
+     "F_r": 1.0390262751159198
+    }
+   }
+  },
+  "V3b_rall_no_immig": {
+   "pooled_wait_share_median_heavy": 0.9130640300572459,
+   "BIO": {
+    "wait_share_median_heavy": 0.9510288969245135,
+    "t2_median_heavy": 1604.3093239107957,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.0011565,
+    "t2_ratio_vs_038": 1.3319530374251574,
+    "F_r": 0.7679282868525897
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.8817125012076198,
+    "t2_median_heavy": 359.6496231190287,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.006755999999999999,
+    "t2_ratio_vs_038": 1.4145130052029575,
+    "F_r": 0.786450148419766
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.014406303587248656,
+     "R_tab_from_heavy": 0.012425915641476272,
+     "F_r": 0.9935420119126462
+    },
+    "A_XPT_S": {
+     "R_tab": 0.01709042967574094,
+     "R_tab_from_heavy": 0.007865227951439372,
+     "F_r": 0.9641519881593371
+    },
+    "A_XPT_E": {
+     "R_tab": 0.00571561012716515,
+     "R_tab_from_heavy": 0.00058875,
+     "F_r": 0.9099690880989182
+    }
+   }
+  },
+  "V4_logU_0.0014_0.0051": {
+   "pooled_wait_share_median_heavy": 0.8751671665780996,
+   "BIO": {
+    "wait_share_median_heavy": 0.9352370561283172,
+    "t2_median_heavy": 1326.7693123910117,
+    "stage_median_heavy": 74.9080704143571,
+    "R_tab_from_heavy": 0.0013484999999999999,
+    "t2_ratio_vs_038": 1.101529729499943,
+    "F_r": 0.8954183266932272
+   },
+   "CASC": {
+    "wait_share_median_heavy": 0.8325607622649687,
+    "t2_median_heavy": 279.23060299511627,
+    "stage_median_heavy": 39.10706506359688,
+    "R_tab_from_heavy": 0.008380499999999999,
+    "t2_ratio_vs_038": 1.0982225310341445,
+    "F_r": 0.9755543914789593
+   },
+   "weighted": {
+    "A_Ord": {
+     "R_tab": 0.014457177049463069,
+     "R_tab_from_heavy": 0.012476789103690685,
+     "F_r": 0.9976097139202759
+    },
+    "A_XPT_S": {
+     "R_tab": 0.017348662090687143,
+     "R_tab_from_heavy": 0.008123460366385577,
+     "F_r": 0.9958071795682532
+    },
+    "A_XPT_E": {
+     "R_tab": 0.005747610127165151,
+     "R_tab_from_heavy": 0.00062075,
+     "F_r": 0.9594281298299847
+    }
+   }
+  }
+ },
+ "inputs": {
+  "r_eff_list": [
+   0.00513173037538826,
+   0.0023104906018664843,
+   0.001881185425801558,
+   0.031971920365215525,
+   0.006575317838641884
+  ],
+  "r_eff_list_no_immig": [
+   0.00513173037538826,
+   0.0023104906018664843,
+   0.001881185425801558
+  ],
+  "r_all_list": [
+   0.0032821314415027386,
+   0.003414518130837169,
+   0.0013862943611198907,
+   0.0014012911845256502,
+   0.005043523792883342,
+   0.0,
+   0.011387259308158955,
+   0.0038731324255013837
+  ],
+  "r_all_list_no_immig": [
+   0.0032821314415027386,
+   0.003414518130837169,
+   0.0013862943611198907,
+   0.0014012911845256502,
+   0.005043523792883342,
+   0.0
+  ],
+  "r_median_038": 0.0029188908722425303
+ },
+ "H137d": {
+  "V2_share": 0.9090077000655806,
+  "V2_BIO_t2_ratio": 1.1407951346506318,
+  "V2_CASC_t2_ratio": 1.6682769187003652,
+  "V1_share": 0.7528690814644866,
+  "supported": false
+ },
+ "H137e": {
+  "reproduced": true,
+  "maxdiff": 0.0,
+  "counted_as_support": false
+ },
+ "cases": [
+  {
+   "key": "England_BlackDeath",
+   "cls": "S",
+   "P0": 4810000.0,
+   "Pmin": 1900000.0,
+   "t_start": 1348,
+   "t_min": 1450,
+   "t_rec": 1631,
+   "status": "rec",
+   "immig": false,
+   "note": "Broadberry et al. 2010 表（1348 4.81M、1450 1.90M、1600 4.11M、1650 5.31M）。回復年は 1600–1650 の指数補間（推測）",
+   "url": [
+    "https://en.wikipedia.org/wiki/Demographics_of_England"
+   ],
+   "L": 0.604989604989605,
+   "lnratio": 0.928843197945275,
+   "T_rec": 283,
+   "event": 1,
+   "r_eff": 0.00513173037538826,
+   "r_all": 0.0032821314415027386,
+   "decline_years": 102,
+   "pred038_median_years": 318.2178569189405,
+   "pred038_P_notrec200": 0.8147417204472747,
+   "excess_vs038_median": -35.21785691894053
+  },
+  {
+   "key": "Europe_BlackDeath",
+   "cls": "S",
+   "P0": 1.0,
+   "Pmin": 0.5,
+   "L_range": [
+    0.45,
+    0.6
+   ],
+   "t_start": 1347,
+   "t_min": null,
+   "t_rec": 1550,
+   "t_rec_range": [
+    1500,
+    1600
+   ],
+   "status": "rec",
+   "immig": false,
+   "note": "死亡 45–50%（Daileader）〜60%（Benedictow）。『16世紀まで 14 世紀の水準に戻らなかった』→回復年は 16 世紀の中点 1550（推測）",
+   "url": [
+    "https://en.wikipedia.org/wiki/Black_Death"
+   ],
+   "L": 0.5,
+   "lnratio": 0.6931471805599453,
+   "T_rec": 203,
+   "event": 1,
+   "r_eff": null,
+   "r_all": 0.003414518130837169,
+   "decline_years": null,
+   "pred038_median_years": 237.4693713805796,
+   "pred038_P_notrec200": 0.6158734692455448,
+   "excess_vs038_median": -34.46937138057959
+  },
+  {
+   "key": "Greece_LBA",
+   "cls": "C",
+   "P0": 600000.0,
+   "Pmin": 300000.0,
+   "L_range": [
+    0.4,
+    0.6
+   ],
+   "t_start": -1200,
+   "t_min": -1000,
+   "t_rec": -700,
+   "t_rec_range": [
+    -800,
+    -700
+   ],
+   "status": "rec",
+   "immig": false,
+   "note": "Murray 2017 ch.5：LBA 50–70万、後宮殿期 25–35万（減少 40–60%）、幾何学様式期の終わり（前700頃）までに LBA の水準に回復",
+   "url": [
+    "https://www.cambridge.org/core/books/collapse-of-the-mycenaean-economy/demographic-and-domestic-economic-change-in-early-greece-factors-of-supply-and-demand/9AA296081882FB44BCBC905BA0F51DD3",
+    "https://en.wikipedia.org/wiki/Greek_Dark_Ages"
+   ],
+   "L": 0.5,
+   "lnratio": 0.6931471805599453,
+   "T_rec": 500,
+   "event": 1,
+   "r_eff": 0.0023104906018664843,
+   "r_all": 0.0013862943611198907,
+   "decline_years": 200,
+   "pred038_median_years": 237.4693713805796,
+   "pred038_P_notrec200": 0.6158734692455448,
+   "excess_vs038_median": 262.53062861942044
+  },
+  {
+   "key": "Britain_postRoman",
+   "cls": "C",
+   "P0": 3000000.0,
+   "Pmin": 1000000.0,
+   "L_range": [
+    0.5,
+    0.75
+   ],
+   "t_start": 400,
+   "t_min": 600,
+   "t_rec": 1184,
+   "status": "rec",
+   "immig": false,
+   "note": "4世紀 2–4M、1M へ減った可能性（Anglo-Saxon settlement 頁）。谷の年 600 は推測。回復年は England の 1086 1.71M・1190 3.10M の補間（England と Britain の範囲の違いあり）",
+   "url": [
+    "https://en.wikipedia.org/wiki/Anglo-Saxon_settlement_of_Britain",
+    "https://en.wikipedia.org/wiki/Roman_Britain",
+    "https://en.wikipedia.org/wiki/Demographics_of_England"
+   ],
+   "L": 0.6666666666666667,
+   "lnratio": 1.0986122886681098,
+   "T_rec": 784,
+   "event": 1,
+   "r_eff": 0.001881185425801558,
+   "r_all": 0.0014012911845256502,
+   "decline_years": 200,
+   "pred038_median_years": 376.3800487080444,
+   "pred038_P_notrec200": 0.9287934136709941,
+   "excess_vs038_median": 407.6199512919556
+  },
+  {
+   "key": "Maya_Peten",
+   "cls": "C",
+   "P0": 2870000.0,
+   "Pmin": 6752,
+   "t_start": 800,
+   "t_min": null,
+   "t_rec": null,
+   "censor": 2000,
+   "status": "cens",
+   "immig": false,
+   "note": "Late Classic 80–120 人/km²（Canuto 2018）× Petén 35,854 km²＝2.87–4.30M（面積に一様に当てるのは推測）。Petén の国勢調査 1893 6,752、2002 366,735、2024 640,151 → 2024 でも未回復。規則により 2000 で打ち切り",
+   "url": [
+    "https://www.science.org/doi/10.1126/science.aau0137",
+    "https://es.wikipedia.org/wiki/Departamento_de_Pet%C3%A9n",
+    "https://en.wikipedia.org/wiki/Pet%C3%A9n_Department"
+   ],
+   "L": 0.9976473867595819,
+   "lnratio": 6.0522285514600105,
+   "T_rec": 1200,
+   "event": 0,
+   "r_eff": null,
+   "r_all": 0.005043523792883342,
+   "decline_years": null,
+   "pred038_median_years": 2073.4685935038724,
+   "pred038_P_notrec200": 1.0,
+   "excess_vs038_median": -873.4685935038724
+  },
+  {
+   "key": "Norse_Greenland",
+   "cls": "C",
+   "P0": 2500,
+   "Pmin": 0,
+   "t_start": 1350,
+   "t_min": null,
+   "t_rec": null,
+   "censor": 2000,
+   "status": "cens",
+   "immig": false,
+   "note": "最盛期 2,000–2,500（改訂推定）、1350–1500 に放棄（西の入植地は 1350–1400、最後の記録 1408）。消滅＝回復しない",
+   "url": [
+    "https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland"
+   ],
+   "L": 1.0,
+   "lnratio": "inf",
+   "T_rec": 650,
+   "event": 0,
+   "r_eff": null,
+   "r_all": 0.0,
+   "decline_years": null,
+   "pred038_median_years": "inf",
+   "pred038_P_notrec200": 1.0,
+   "excess_vs038_median": null
+  },
+  {
+   "key": "Hawaii_contact",
+   "cls": "S",
+   "P0": 300000.0,
+   "Pmin": 56897,
+   "t_start": 1778,
+   "t_min": 1872,
+   "t_rec": 1924,
+   "status": "rec",
+   "immig": true,
+   "note": "1778 推定 300,000（Schmitt 1968）、1872 56,897、1920 255,912、1930 368,336（補間で 1924）。回復は移民による（先住ハワイ人は 1920 に 24,000 で底）",
+   "url": [
+    "https://en.wikipedia.org/wiki/Hawaii",
+    "https://en.wikipedia.org/wiki/Hawaiian_Kingdom"
+   ],
+   "L": 0.8103433333333333,
+   "lnratio": 1.6625398589912075,
+   "T_rec": 146,
+   "event": 1,
+   "r_eff": 0.031971920365215525,
+   "r_all": 0.011387259308158955,
+   "decline_years": 94,
+   "pred038_median_years": 569.5793134307582,
+   "pred038_P_notrec200": 1.0,
+   "excess_vs038_median": -423.57931343075825
+  },
+  {
+   "key": "LatinAmerica_conquest",
+   "cls": "S",
+   "P0": 37000000.0,
+   "Pmin": 9000000.0,
+   "t_start": 1500,
+   "t_min": 1650,
+   "t_rec": 1865,
+   "t_rec_range": [
+    1810,
+    1865
+   ],
+   "status": "rec",
+   "immig": true,
+   "note": "1492 約 37M、1650 9M（最低の推定で 80% 減）、1800 17M、1850 30M、1900 61M（37M は補間で 1865。本文は『19世紀初め』と書き数値と食い違う）。移民・奴隷の流入あり",
+   "url": [
+    "https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas"
+   ],
+   "L": 0.7567567567567568,
+   "lnratio": 1.413693335308005,
+   "T_rec": 365,
+   "event": 1,
+   "r_eff": 0.006575317838641884,
+   "r_all": 0.0038731324255013837,
+   "decline_years": 150,
+   "pred038_median_years": 484.3255185562626,
+   "pred038_P_notrec200": 1.0,
+   "excess_vs038_median": -119.32551855626258
+  },
+  {
+   "key": "Easter_Island",
+   "cls": "C",
+   "P0": 2500,
+   "Pmin": 111,
+   "t_start": 1722,
+   "t_min": 1877,
+   "t_rec": null,
+   "t_rec_upper": 2017,
+   "status": "interval",
+   "immig": true,
+   "note": "1722 2,000–3,000、1877 111。2017 の国勢調査 7,750（Rapa Nui 3,512）→ 1877〜2017 のどこかで回復。年は取れず（区間）",
+   "url": [
+    "https://en.wikipedia.org/wiki/Easter_Island"
+   ],
+   "L": 0.9556,
+   "lnratio": 3.114515809543958,
+   "T_rec": null,
+   "T_upper": 295,
+   "T_lower": 155,
+   "event": null,
+   "r_eff": null,
+   "r_all": null,
+   "decline_years": 155,
+   "pred038_median_years": 1067.0202984159982,
+   "pred038_P_notrec200": 1.0,
+   "excess_vs038_median": null
+  }
+ ],
+ "cases_supplementary": [
+  {
+   "key": "ThirtyYearsWar_Germany",
+   "cls": "S",
+   "P0": 19000000.0,
+   "Pmin": 12000000.0,
+   "t_start": 1618,
+   "t_min": 1648,
+   "t_rec": 1750,
+   "status": "rec",
+   "immig": false,
+   "note": "1600 18–20M → 1650 11–13M（約40%減）、1750 まで戦前に戻らず",
+   "url": [
+    "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+   ],
+   "L": 0.368421052631579,
+   "lnratio": 0.45953232937844013,
+   "T_rec": 132,
+   "event": 1,
+   "r_eff": 0.004505218915474903,
+   "r_all": 0.0034813055255942436,
+   "decline_years": 30,
+   "pred038_median_years": 157.43388481851323,
+   "pred038_P_notrec200": 0.3366042453338383,
+   "excess_vs038_median": -25.433884818513235
+  },
+  {
+   "key": "Ireland_famine",
+   "cls": "S",
+   "P0": 8200000.0,
+   "Pmin": 4500000.0,
+   "t_start": 1845,
+   "t_min": 1961,
+   "t_rec": null,
+   "censor": 2000,
+   "status": "cens",
+   "immig": false,
+   "note": "1841 8.2M → 1961 4.5M、島全体 2022 で 7M 強 → 未回復",
+   "url": [
+    "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)",
+    "https://en.wikipedia.org/wiki/Ireland"
+   ],
+   "L": 0.4512195121951219,
+   "lnratio": 0.6000567574939334,
+   "T_rec": 155,
+   "event": 0,
+   "r_eff": null,
+   "r_all": 0.0038713339193156993,
+   "decline_years": 116,
+   "pred038_median_years": 205.5769755561025,
+   "pred038_P_notrec200": 0.5178869957627532,
+   "excess_vs038_median": -50.5769755561025
+  },
+  {
+   "key": "Cambodia_KhmerRouge",
+   "cls": "S",
+   "P0": 7300000.0,
+   "Pmin": 5961000.0,
+   "t_start": 1975,
+   "t_min": 1978,
+   "t_rec": 1984,
+   "status": "rec",
+   "immig": false,
+   "note": "1975 7.3M、1978 5.961M、1981 6.682M、1991 8.81M（回復は補間で約1984）",
+   "url": [
+    "https://en.wikipedia.org/wiki/Demographics_of_Cambodia",
+    "https://en.wikipedia.org/wiki/Cambodian_genocide"
+   ],
+   "L": 0.18342465753424653,
+   "lnratio": 0.20263609591655596,
+   "T_rec": 9,
+   "event": 1,
+   "r_eff": 0.033772682652759324,
+   "r_all": 0.022515121768506216,
+   "decline_years": 3,
+   "pred038_median_years": 69.42229250279384,
+   "pred038_P_notrec200": 0.0,
+   "excess_vs038_median": -60.42229250279384
+  },
+  {
+   "key": "Copan_valley",
+   "cls": "C",
+   "P0": 28000,
+   "Pmin": 1000,
+   "t_start": 775,
+   "t_min": 1200,
+   "t_rec": null,
+   "censor": 1200,
+   "status": "cens",
+   "immig": false,
+   "note": "Copán 谷 最盛 28,000、900 に 15,000、1200 に 1,000 未満（記録の終わり 1200 で打ち切り）。Petén と同じマヤ低地で独立でない",
+   "url": [
+    "https://en.wikipedia.org/wiki/Classic_Maya_collapse"
+   ],
+   "L": 0.9642857142857143,
+   "lnratio": 3.332204510175204,
+   "T_rec": 425,
+   "event": 0,
+   "r_eff": null,
+   "r_all": 0.007840481200412244,
+   "decline_years": 425,
+   "pred038_median_years": 1141.5995513443543,
+   "pred038_P_notrec200": 1.0,
+   "excess_vs038_median": -716.5995513443543
+  }
+ ],
+ "not_obtained": {
+  "Egypt_BlackDeath": "Population_history_of_Egypt は遺伝の頁で国全体の人口の数値なし。Black_Death_in_the_Middle_East はカイロ 20万死亡（市の 1/3）と Asyut の納税者 6,000→116 のみで、回復の年の数値なし",
+  "Iraq_Mongol1258": "Siege_of_Baghdad は市の死者の推定（80万〜200万、後世の誇張とされる）のみで、地域の人口と回復の年の数値なし",
+  "Iceland_1402": "Iceland 頁は 1402–04 の死亡 50–60% と 1494–95 の 30–50% のみ。前後の人口・回復の年の数値なし"
+ },
+ "seed": 20261125,
+ "runtime_seconds": 8.17522382736206
+}

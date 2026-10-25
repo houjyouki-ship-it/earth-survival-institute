@@ -1,0 +1,33 @@
+[再現] 038 の H50e=0.8631415437（038: 0.8631415437）、BIO t2=1204.48、CASC t2=254.26、最大差 0.00e+00
+
+[事例] key / 類 / L / 回復年数（打ち切り）/ r_eff（谷から）/ r_all（始まりから）/ 038 予測中央値 / 超過
+  England_BlackDeath       S L=0.605 T=      283 r_eff=0.00513 r_all=0.00328 pred038=318 excess=-35
+  Europe_BlackDeath        S L=0.500 T=      203 r_eff=— r_all=0.00341 pred038=237 excess=-34
+  Greece_LBA               C L=0.500 T=      500 r_eff=0.00231 r_all=0.00139 pred038=237 excess=+263
+  Britain_postRoman        C L=0.667 T=      784 r_eff=0.00188 r_all=0.00140 pred038=376 excess=+408
+  Maya_Peten               C L=0.998 T=    1200+ r_eff=— r_all=0.00504 pred038=2073 excess=-873
+  Norse_Greenland          C L=1.000 T=     650+ r_eff=— r_all=0.00000 pred038=inf excess=—
+  Hawaii_contact           S L=0.810 T=      146 r_eff=0.03197 r_all=0.01139 pred038=570 excess=-424 移民あり
+  LatinAmerica_conquest    S L=0.757 T=      365 r_eff=0.00658 r_all=0.00387 pred038=484 excess=-119 移民あり
+  Easter_Island            C L=0.956 T=(155,295] r_eff=— r_all=— pred038=1067 excess=— 移民あり
+  ThirtyYearsWar_Germany   S L=0.368 T=      132 r_eff=0.00451 r_all=0.00348 pred038=157 excess=-25
+  Ireland_famine           S L=0.451 T=     155+ r_eff=— r_all=0.00387 pred038=206 excess=-51
+  Cambodia_KhmerRouge      S L=0.183 T=        9 r_eff=0.03377 r_all=0.02252 pred038=69 excess=-60
+  Copan_valley             C L=0.964 T=     425+ r_eff=— r_all=0.00784 pred038=1142 excess=-717
+
+[H137a] L≥0.5 で 200 年以内に戻らなかった割合 7/8 = 0.875（038 の半減の暗の値 0.616）→ 支持。二項 p=0.124。Europe 除く 6/7、移民除く 6/6。ただし各事例の L で 038 が予測する割合の平均は 0.872
+[H137b] KM 中央値 C=784.0 年、S=203.0 年、比 3.86 → 支持（移民除く：比 3.86）
+[H137c] 回復した事例の r_eff 中央値 0.00513（移民除く 0.00231）、038 の範囲 [0.0014, 0.0061] → 支持。谷までの下り坂の年数 {'England_BlackDeath': 102, 'Greece_LBA': 200, 'Britain_postRoman': 200, 'Hawaii_contact': 94, 'LatinAmerica_conquest': 150, 'Easter_Island': 155}
+
+[入れ直し] 変種 / 重い崩壊の人口待ちの割合の中央値 / BIO・CASC の T2 中央値（038 比）/ F_r（BIO, CASC, A_Ord, A_XPT_S, A_XPT_E）
+  V0_038_check             share=0.8631  BIO t2=1204.5（×1.00） CASC t2=254.3（×1.00）  F_r BIO=1.000 CASC=1.000  W: 1.000 1.000 1.000
+  V1a_reff_all             share=0.7529  BIO t2=735.0（×0.61） CASC t2=162.8（×0.64）  F_r BIO=1.754 CASC=1.098  W: 1.017 1.017 1.293
+  V1b_reff_no_immig        share=0.8676  BIO t2=1216.4（×1.01） CASC t2=262.7（×1.03）  F_r BIO=0.992 CASC=1.005  W: 1.000 1.001 0.997
+  V2a_stag_all             share=0.9090  BIO t2=1374.1（×1.14） CASC t2=424.2（×1.67）  F_r BIO=0.777 CASC=0.809  W: 0.994 0.968 0.913
+  V2b_stag_no_immig        share=0.9271  BIO t2=1473.3（×1.22） CASC t2=548.5（×2.16）  F_r BIO=0.632 CASC=0.694  W: 0.990 0.949 0.857
+  V3a_rall_all             share=0.8763  BIO t2=1232.4（×1.02） CASC t2=271.2（×1.07）  F_r BIO=1.101 CASC=0.880  W: 1.001 0.980 1.039
+  V3b_rall_no_immig        share=0.9131  BIO t2=1604.3（×1.33） CASC t2=359.6（×1.41）  F_r BIO=0.768 CASC=0.786  W: 0.994 0.964 0.910
+  V4_logU_0.0014_0.0051    share=0.8752  BIO t2=1326.8（×1.10） CASC t2=279.2（×1.10）  F_r BIO=0.895 CASC=0.976  W: 0.998 0.996 0.959
+[H137d] V2：割合 0.9090（>0.8631?）、T2 比 BIO 1.14・CASC 1.67（≥1.2?）→ 不支持
+
+実行時間 8.2 秒。results.json と fig_recovery.png を書いた。

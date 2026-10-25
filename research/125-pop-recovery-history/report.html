@@ -1,0 +1,249 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究125：大きな人口損失の後の回復年数と長い後退（open_problems 57・116・266） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="125open_problems-57116266">研究125：大きな人口損失の後の回復年数と長い後退（open_problems 57・116・266）</h1>
+<blockquote>
+<p><strong>指標は生存確率や復興確率ではない。</strong> 数値は 038 の模型の中の相対値（重い崩壊の人口待ちの割合、T2 到達までの年数の中央値、価値の式の重い崩壊分 R_tab_from_heavy の比 F_r）。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+</blockquote>
+<ul>
+<li>事前登録：PREREGISTRATION.md（2026-10-25 15:39 JST、史実の資料を開く前・sim.py を書く前、sha256 46dc0505…）。</li>
+<li>実行：<code>python3 sim.py</code>（約 8 秒、seed 20261125、ネット接続なし）。出力 stdout.txt、results.json、fig_recovery.png。資料は sources/（44 件、SHA256SUMS）。</li>
+</ul>
+<h2 id="1-038017">1. 現状の確認（登録時に 038・017 から読んだもの）</h2>
+<ul>
+<li>038 の人口の増え方は <code>r_pop = logU(0.0014, 0.0061)</code>（黒死病の回復で較正、中央 0.00292/年）で、谷から指数で増えるだけ（<strong>停滞も、谷までの下り坂もない</strong>）。人口待ちが律速する標本では T2 年数 ∝ 1/r。暗の「半減からの回復」は ln2/r の中央 237 年、200 年で戻らない割合 0.616。</li>
+<li>017 の「後退が先 0.208・100 年非倍増 2.3 %」は近代国家の一人あたり GDP の倍増の記録で、038 の T2 到達には入らず、T2→T3 の梯子（m23）にだけ載る。<strong>したがって本回の人口の史実で 017 の数は置き直さなかった</strong>（人口の記録は一人あたり GDP の後退を測らない）。T2 年数を動かすのは r と停滞の有無・長さ。</li>
+<li>F_heavy（108〜124 の連鎖）は 104→108 で 038 の r_pop を受け継ぐが、本回は連鎖を再実行せず、038 の価値の式の上での F_r を出した。</li>
+</ul>
+<h2 id="2-l-05">2. 史実の表（主の集合 L ≥ 0.5）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>類</th>
+<th>P0 → Pmin</th>
+<th>L</th>
+<th>始まり→谷→回復</th>
+<th>回復年数</th>
+<th>r_eff（谷から）</th>
+<th>038 の予測中央（その L で）</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>England 黒死病</td>
+<td>S</td>
+<td>4.81M(1348)→1.90M(1450)</td>
+<td>0.605</td>
+<td>1348→1450→1631</td>
+<td>283</td>
+<td>0.00513</td>
+<td>318</td>
+<td>【事実（https://en.wikipedia.org/wiki/Demographics_of_England 、Broadberry et al. 2010 の表）】回復年は 1600 4.11M・1650 5.31M の補間【推測】</td>
+</tr>
+<tr>
+<td>欧州 黒死病</td>
+<td>S</td>
+<td>死亡 45–60 %</td>
+<td>0.50</td>
+<td>1347→?→1550</td>
+<td>203（153〜253）</td>
+<td>—</td>
+<td>237</td>
+<td>【事実（https://en.wikipedia.org/wiki/Black_Death ：「45–50%」「60%」、「16 世紀まで 14 世紀の水準に戻らず」）】年は 16 世紀の中点【推測】</td>
+</tr>
+<tr>
+<td>後期青銅器のギリシャ</td>
+<td>C</td>
+<td>60万→30万（25–35万）</td>
+<td>0.50（0.40–0.60）</td>
+<td>前1200→前1000→前700</td>
+<td>500</td>
+<td>0.00231</td>
+<td>237</td>
+<td>【事実（Murray 2017 ch.5 https://www.cambridge.org/core/books/collapse-of-the-mycenaean-economy/demographic-and-domestic-economic-change-in-early-greece-factors-of-supply-and-demand/9AA296081882FB44BCBC905BA0F51DD3 ：LBA 50–70万、後宮殿期 25–35万、減少 40–60 %、幾何学様式期の終わりまでに LBA の水準に）】</td>
+</tr>
+<tr>
+<td>西ローマ後のブリテン</td>
+<td>C</td>
+<td>3M（2–4M）→1M</td>
+<td>0.67</td>
+<td>400→600?→1184</td>
+<td>784</td>
+<td>0.00188</td>
+<td>376</td>
+<td>【事実（https://en.wikipedia.org/wiki/Anglo-Saxon_settlement_of_Britain ：4 世紀 2–4M、1M へ減った可能性；https://en.wikipedia.org/wiki/Roman_Britain ）】谷の年 600 と England の 1086・1190 の値での回復年【推測】</td>
+</tr>
+<tr>
+<td>マヤ低地（Petén）</td>
+<td>C</td>
+<td>2.87M→≤6,752(1893)</td>
+<td>0.998</td>
+<td>800→?→未回復</td>
+<td>1200+（2000 で打切）</td>
+<td>—</td>
+<td>2073</td>
+<td>【事実（https://www.science.org/doi/10.1126/science.aau0137 ：Late Classic 80–120 人/km²；https://es.wikipedia.org/wiki/Departamento_de_Pet%C3%A9n ：国勢調査 1893 6,752、2024 640,151；面積 35,854 km² は https://en.wikipedia.org/wiki/Pet%C3%A9n_Department ）】密度を Petén 全域に当てるのは【推測】</td>
+</tr>
+<tr>
+<td>ノース人のグリーンランド</td>
+<td>C</td>
+<td>≤2,500→0</td>
+<td>1.0</td>
+<td>1350→放棄</td>
+<td>650+（消滅）</td>
+<td>—</td>
+<td>∞</td>
+<td>【事実（https://en.wikipedia.org/wiki/Norse_settlements_in_Greenland ）】</td>
+</tr>
+<tr>
+<td>Hawaii（接触後）</td>
+<td>S</td>
+<td>30万(1778 推定)→56,897(1872)</td>
+<td>0.81</td>
+<td>1778→1872→1924</td>
+<td>146</td>
+<td>0.0320</td>
+<td>570</td>
+<td>【事実（https://en.wikipedia.org/wiki/Hawaii の国勢調査の表、https://en.wikipedia.org/wiki/Hawaiian_Kingdom ）】回復は移民による</td>
+</tr>
+<tr>
+<td>中南米（征服後）</td>
+<td>S</td>
+<td>37M(1492)→9M(1650)</td>
+<td>0.76</td>
+<td>1500→1650→1865</td>
+<td>365</td>
+<td>0.00658</td>
+<td>484</td>
+<td>【事実（https://en.wikipedia.org/wiki/Population_history_of_the_Indigenous_peoples_of_the_Americas ：1800 17M、1850 30M、1900 61M）】37M の年は補間（本文の「19 世紀初め」と食い違う）。移民・奴隷の流入あり</td>
+</tr>
+<tr>
+<td>Easter Island</td>
+<td>C</td>
+<td>2,500(1722)→111(1877)</td>
+<td>0.96</td>
+<td>1722→1877→1877〜2017 のどこか</td>
+<td>区間 (155, 295]</td>
+<td>—</td>
+<td>1067</td>
+<td>【事実（https://en.wikipedia.org/wiki/Easter_Island ：2017 国勢調査 7,750、Rapa Nui 3,512）】回復の年は取れず</td>
+</tr>
+</tbody>
+</table>
+<p>補助（L&lt;0.5 か重複）：三十年戦争のドイツ L 0.37・132 年で回復（https://en.wikipedia.org/wiki/Thirty_Years%27_War ）、アイルランド大飢饉 L 0.45・2022 でも未回復（https://en.wikipedia.org/wiki/Great_Famine_(Ireland) 、https://en.wikipedia.org/wiki/Ireland ）、Cambodia L 0.18・約 9 年（https://en.wikipedia.org/wiki/Demographics_of_Cambodia ）、Copán 谷 28,000→&lt;1,000（1200）で 425+ 年（https://en.wikipedia.org/wiki/Classic_Maya_collapse ）。
+<strong>取れず</strong>：黒死病の Egypt（国全体の人口と回復の年の数値なし）、モンゴル後のイラク（Siege_of_Baghdad は市の死者の推定のみ）、Iceland 1402（死亡 50–60 % のみ）。登録の「メキシコ中央部」は数値が取れず、同じ頁の中南米全体で置いた。</p>
+<h2 id="3">3. 仮説の判定</h2>
+<ul>
+<li><strong>H137a（確認的）支持（ただし情報が薄い）</strong>：L≥0.5 で 200 年以内に戻らなかった割合 7/8 = 0.875 &gt; 0.616（二項 p=0.12；Europe を除くと 6/7、移民の事例を除くと 6/6）。しかし<strong>各事例の L で 038 自身が予測する割合の平均は 0.872</strong> で、差は損失の大きさで説明される。038 の半減の値 0.616 との比較は登録の作りが甘かった。</li>
+<li><strong>H137b（確認的）支持</strong>：KM 中央値 C 784 年、S 203 年、比 3.86（移民の事例を除いても 3.86；Greece を L=0.45 として外しても C の中央値 784 のまま、手計算）。ln(P0/Pmin) あたりの年数でも Greece 721・Britain 714 に対し England 305・欧州 293・中南米 258・Hawaii 88。反例は Easter Island（C で回復上限 295 年、ただし移入あり）。</li>
+<li><strong>H137c（確認的）支持</strong>：回復した事例の r_eff 中央 0.00513（移民を除くと 0.00231）で 038 の範囲内。ただし<strong>回復した全事例で谷までに 94〜200 年の下り坂</strong>（England 102、Greece 200、Britain 200【推測】、Hawaii 94、中南米 150）があり、038 はこれを持たない。</li>
+<li><strong>H137d（予測）棄却</strong>：V2（038 の r に確率 0.375 で 263/408/650 年の停滞を前置き）で割合 0.8631→0.909 は上がったが、BIO の T2 中央の比は 1.14（&lt;1.2）、CASC は 1.67。</li>
+<li><strong>H137e（記述、支持に数えない）</strong>：038 の H50e 0.8631415437、BIO 1,204.48 年、CASC 254.26 年、重み付き R_tab を差 0 で再現（assert）。</li>
+</ul>
+<h2 id="4-038-biocasc-t2-038-f_r">4. 038 の模型に入れ直した結果（BIO・CASC の T2 中央値の 038 比、F_r）</h2>
+<table>
+<thead>
+<tr>
+<th>変種</th>
+<th>人口待ちの割合</th>
+<th>BIO T2</th>
+<th>CASC T2</th>
+<th>F_r BIO</th>
+<th>F_r CASC</th>
+<th>重み付き F_r（Ord / XPT_S / XPT_E）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>038（再現）</td>
+<td>0.863</td>
+<td>1,204（×1.00）</td>
+<td>254（×1.00）</td>
+<td>1</td>
+<td>1</td>
+<td>1 / 1 / 1</td>
+</tr>
+<tr>
+<td>V1a r＝r_eff（移民込み 5 件）</td>
+<td>0.753</td>
+<td>735（×0.61）</td>
+<td>163（×0.64）</td>
+<td>1.75</td>
+<td>1.10</td>
+<td>1.017 / 1.017 / 1.293</td>
+</tr>
+<tr>
+<td>V1b r＝r_eff（移民なし 3 件）</td>
+<td>0.868</td>
+<td>1,216（×1.01）</td>
+<td>263（×1.03）</td>
+<td>0.99</td>
+<td>1.01</td>
+<td>1.000 / 1.001 / 0.997</td>
+</tr>
+<tr>
+<td>V2a 停滞 p=0.375</td>
+<td>0.909</td>
+<td>1,374（×1.14）</td>
+<td>424（×1.67）</td>
+<td>0.78</td>
+<td>0.81</td>
+<td>0.994 / 0.968 / 0.913</td>
+</tr>
+<tr>
+<td>V2b 停滞 p=0.6（移民なし）</td>
+<td>0.927</td>
+<td>1,473（×1.22）</td>
+<td>549（×2.16）</td>
+<td>0.63</td>
+<td>0.69</td>
+<td>0.990 / 0.949 / 0.857</td>
+</tr>
+<tr>
+<td>V3a 始まりからの r_all（全）</td>
+<td>0.876</td>
+<td>1,232（×1.02）</td>
+<td>271（×1.07）</td>
+<td>1.10</td>
+<td>0.88</td>
+<td>1.001 / 0.980 / 1.039</td>
+</tr>
+<tr>
+<td>V3b r_all（移民なし、消滅は r≈0）</td>
+<td>0.913</td>
+<td>1,604（×1.33）</td>
+<td>360（×1.41）</td>
+<td>0.77</td>
+<td>0.79</td>
+<td>0.994 / 0.964 / 0.910</td>
+</tr>
+<tr>
+<td>V4 logU(0.0014, 0.0051)</td>
+<td>0.875</td>
+<td>1,327（×1.10）</td>
+<td>279（×1.10）</td>
+<td>0.90</td>
+<td>0.98</td>
+<td>0.998 / 0.996 / 0.959</td>
+</tr>
+</tbody>
+</table>
+<p>読み：
+1. 【事実の計算】移民のない回復の事例の r は 038 の r とほぼ同じ（V1b で ±3 %）。<strong>038 の r の値そのものは史実と矛盾しない。</strong>
+2. 【事実の計算】史実が 038 と違うのは、<strong>国家・交易が崩れた事例（C）で長い停滞があること</strong>（038 の中央の予測を 263〜408 年超過、Greenland は消滅）。残った事例（S）はどれも 038 の中央より速く戻った（−34〜−424 年）。二峰に分かれる。
+3. 【推測】重い崩壊（BIO・CASC の重い状態）は国家と遠距離の交易が途切れた状態なので C 型に近く、V2b・V3b が近い側。そのとき人口待ちの割合は 0.86→0.91〜0.93、T2 までの中央は BIO ×1.2〜1.3、CASC ×1.4〜2.2、重い崩壊分の価値は BIO −23〜37 %、CASC −21〜31 %、重み付きでは −1〜−14 %（A_XPT_E が最も動く）。
+4. 【推測】F_heavy（遅い κ で 1.48〜1.53）は 104→108 で同じ r_pop を使うので、停滞を入れると分母・分子の両方の t2 が延びる。F_heavy の比がどちらへ動くかは連鎖を再実行しないと分からない（次回）。</p>
+<h2 id="5">5. 批判（自分の結果への反論）</h2>
+<ul>
+<li>n=9（判定可能 8）で、England は欧州の一部（独立でない）、Britain の回復年は England の系列で代用、Greece の L は 0.50 の境目（Murray の表の 33万を使えば 0.45 で主の集合から外れる）。</li>
+<li>候補は「長く回復しなかった社会」の例として next_plan に挙がったものを含み、<strong>長い側に選ばれている</strong>。C の事例の多くは考古の推定で幅が大きい（Petén の P0 は密度を全域に当てた推測で、仮に 10 分の 1 なら 1998 年頃に回復した計算になる）。</li>
+<li>回復の早い S の 2 件（Hawaii・中南米）は外からの移入で戻った。地球規模の重い崩壊には移入元がないので、主の読みは移民なしの版（V1b・V2b・V3b）に置いた。</li>
+<li>V2 の停滞の作り（038 の r の中央との超過を停滞とみなす、確率は正の超過の割合）は資料を見た後に細部を決めた（登録は形だけ）。V3・V4・ln あたりの年数・その L での 038 の予測との比較は入力判明後に足した記述。</li>
+<li>038 の重い崩壊の「最大のつながった集団」は数万〜数億人の規模で、事例の数千〜数千万人と同じ増え方をするかは確かめていない。</li>
+<li>017 の後退の確率（一人あたり GDP）は人口の記録では置き直せず、手を付けていない。</li>
+</ul>
+<h2 id="6">6. この結果を受けて、誰が何を変えるべきか（模型の中での順位（外部の検証はまだ））</h2>
+<p><strong>この研究所の模型の維持者は、038 以降の人口待ちを「r の幅」ではなく「停滞の確率と長さ」を主の不確かさとして持つ形（V2b：p≈0.6、263〜650 年）に変え、F_heavy の連鎖（104→124）をこの形で再実行すべき</strong>。r の幅（V1b）を広げても T2 は ±3 % しか動かないが、停滞は CASC の T2 を 2 倍にし重い崩壊分の価値を 3 割下げる。手引きの書き手にとっては【独自仮説】、人口を増やす知識より「崩壊後に統治と交易の単位を保つ／取り戻す」知識の方が重い崩壊の時間を縮める側に効く可能性があるが、停滞の原因は模型にないので、まだ順位にしない。</p>
+<h2 id="7">7. 新規性</h2>
+<p>Ord（The Precipice）や XPT は崩壊後の回復を確率の主観の見積もりで扱い、回復の時間の分布を史実の人口の系列で置いていない。本回は、038 の T2 の大半を占める人口待ちを、公開の人口の推定 9 件（＋補助 4 件）の回復年数で直接検証し、「r は合うが、国家・交易が崩れた事例だけに 263〜650 年以上の停滞がある（二峰）」ことを示し、それを模型に入れた効果（CASC の T2 ×1.7〜2.2）を出した点。</p>
+<h2 id="8">8. ファイル</h2>
+<p>sim.py、results.json、stdout.txt、fig_recovery.png、PREREGISTRATION.md（PREREG.sha256）、SHA256SUMS_outputs、sources/（Wikipedia の wikitext 40 件（表に使わなかった頁も含む）、es.wikipedia の Petén、Murray 2017 ch.5 の頁、Morris 2005（docslib）、Tulane の 2025 の発表、SHA256SUMS）。Canuto 2018 は WebFetch で要旨を開いた（curl は 403 で保存できず）。</p><footer><hr><small>自動生成</small></footer></body></html>
