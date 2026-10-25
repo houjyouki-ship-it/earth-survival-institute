@@ -1,0 +1,36 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究125 事前登録：大きな人口損失の後の回復年数と長い後退（open_problems 57・116・266、固定の指示） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="125-open_problems-57116266">研究125 事前登録：大きな人口損失の後の回復年数と長い後退（open_problems 57・116・266、固定の指示）</h1>
+<p>登録時刻：2026-10-25 15:39 JST（本回の史実の資料を1つも開く前、sim.py を書く前）。
+値は 038・017 の results.json から読み出した（下の数は登録時にシェルで読んだもの）。</p>
+<h2 id="a-017-038-r">(a) 現状の確認：017 の後退の確率と 038 の r はどの入力に載っているか</h2>
+<ul>
+<li>038 の r：<code>r_pop = logU(0.0014, 0.0061)</code>（黒死病の回復で較正、【推測：損失 30〜60%、150〜250 年】）。分位 5/50/95% = 0.00151 / 0.00292 / 0.00566 /年。
+  人口待ちは <code>wait(N_k) = max(0, ln(N_k / n_max) / r_pop)</code> の決定論の指数成長で、<strong>停滞・後退の期間はない</strong>。T2 到達 t2 = max(段の年数, wait(N_T2e)) の入れ子。
+  重い崩壊の人口待ちの割合の中央値 0.8631（BIO 0.928、CASC 0.817）、T2 までの中央値 BIO 1,204.5 年（段だけ 74.9）、CASC 254.3 年（39.1）。
+  したがって人口待ちが律速する標本では T2 年数 ∝ 1/r で、<strong>r の分布の中央と下の裾、および停滞の有無が T2 年数を直接動かす</strong>。</li>
+<li>038 が暗に置く「半減からの回復年数」＝ ln2/r：中央値 237 年（114〜495 年）。半減した集団が 100 年で戻らない割合 = 1.00、200 年で戻らない割合 = 0.616、300 年で 0.340。</li>
+<li>017 の「後退が先 0.208、100 年非倍増 2.3%（KM）」は、近代国家の一人あたり GDP の倍増の記録で、<strong>038 の T2 到達（人口待ち）には入っていない</strong>。載っているのは T2→T3 の梯子（m23＝943 年、e=1850、017 では 859 年）の中で、017 自身が「後退の遅れの大部分は R=1.18 に入っている」とした。よって 017 の数を史実で置き直しても 038 の T2 年数は動かず、動くのは T3 到達（価値の gen 項）だけ。T2 年数を動かすのは r と停滞の確率・長さ（open_problems 266）である。</li>
+<li>F_heavy（108〜124 の連鎖）は 104→108 で 038 の r_pop を受け継ぐ。本回は連鎖の再実行はせず（約6分×連鎖の書き換え）、038 の価値の式の上での重い崩壊分の比 F_r = R_tab_from_heavy(新 r)/R_tab_from_heavy(038) を代わりに出す。F_heavy への波及は次回以降。</li>
+</ul>
+<h2 id="b">(b) 事例の集め方（資料を開く前に決める）</h2>
+<ul>
+<li>候補（この順に開く）：後期青銅器の崩壊後のギリシャ／西ローマ崩壊後のブリテン／古典期マヤの低地／ノース人のグリーンランド／黒死病（欧州全体・England・Egypt か中東）／アイルランドの大飢饉／三十年戦争のドイツ／征服後のメキシコ中央部／モンゴルの侵攻後のイラク（Mesopotamia）／Hawaii の接触後／Easter Island／Cambodia（Khmer Rouge）。</li>
+<li>採る条件：公開の頁に損失の前の人口（か損失の割合）と、損失後の人口の数値があること。回復の判定に後の時点の人口の数値が要る。数値がなければ「取れず」と書き、捏造しない。</li>
+<li>回復年数の定義：損失の始まりの年から、損失の前の人口に戻る年まで。観測の終わり（同じ地域の記録の終わり、または 2000 年、放棄・消滅）までに戻らなければ右打ち切り。消滅（Greenland）は回復しない。</li>
+<li>損失の大きさ L = 1 − P_min/P_0。主の集合は L ≥ 0.5。</li>
+<li>国家・交易の残り方の分類（事前に決める）：残った（S）＝その地域を治める国家が途切れず、遠距離の交易が続いた：黒死病 England・欧州・Egypt、アイルランド、三十年戦争、Hawaii（王国が続いた）、メキシコ中央部（植民地国家に置き換わり交易は続いた）、Cambodia。崩れた（C）＝国家と遠距離の交易がともに途切れた：ギリシャ、ブリテン、マヤ低地、グリーンランド、イラク（Abbasid の灌漑の国家が破壊）、Easter Island。</li>
+</ul>
+<h2 id="_1">仮説</h2>
+<ul>
+<li><strong>H137a（確認的）</strong>：L ≥ 0.5 の事例のうち、損失の始まりから 200 年以内に元の人口に戻らなかった割合は、038 の暗の値 0.616 より大きい（打ち切りは 200 年以上観測されたものだけ数える）。</li>
+<li><strong>H137b（確認的）</strong>：回復年数の中央値（KM、打ち切り込み）は国家・交易が崩れた C の方が残った S より長く、比は 2 以上。分類は上のとおり事前に固定。</li>
+<li><strong>H137c（確認的）</strong>：回復した事例の谷からの実効の増え方 r_eff = ln(P_0/P_min)/(回復年 − 谷の年) の中央値は 038 の範囲 [0.0014, 0.0061] の中に入る。</li>
+<li><strong>H137d（予測、入力未見で登録）</strong>：史実の分布で r を置き直し（V1：事例の r_eff の経験分布、打ち切りは上限値で楽観側）、停滞の割合と長さを足す（V2：038 の r に、確率 p_nr で事例の停滞年数を前置き）と、重い崩壊の人口待ちの割合の中央値は 0.86 から上がり（V2 で &gt; 0.86）、BIO・CASC の T2 までの中央値は V2 で 038 比 1.2 倍以上になる。</li>
+<li><strong>H137e（記述）</strong>：038 の H50e の値 0.8631、BIO 1,204.5 年、CASC 254.3 年、重み付き R_tab の再現。支持に数えない。</li>
+</ul>
+<h2 id="_2">判定の規則</h2>
+<ul>
+<li>H137a：割合の点推定 &gt; 0.616 で支持（n が 6 未満なら「検定できず」）。</li>
+<li>H137b：KM 中央値の比 C/S ≥ 2 で支持。C の中央値が打ち切りで未到達なら、到達した最大の観測年数で下限を取り、それが S の 2 倍以上なら支持。</li>
+<li>H137c：中央値が [0.0014, 0.0061] に入れば支持。</li>
+<li>H137d：V2 で中央値 &gt; 0.8631 かつ BIO・CASC の T2 中央値の比 ≥ 1.2 で支持。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
