@@ -1720,4 +1720,16 @@
 <li>逸脱：補足の supp_nocopies（写しなしの p_relay）は結果を見た後に追加。</li>
 <li>批判：回路は机上の推測。接点の負荷・アーク・カムと歩進の切替器の摩耗はほぼ数えていない。5 重の写しはリールの実書式でなく、写しなしなら p_relay 0.382。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：p_relay の主を 0.335→0.43、遅い κ の F_heavy の主を 1.375→1.42 に。手引きには時刻を機械に任せる・直並列は歩進の切替器で・感知の接点は乾いた接点で・手読み層は攪拌しない、を。</li>
+</ul>
+<h2 id="123-2026-10-25jst-11">第123回 2026-10-25（JST 11時台）</h2>
+<ul>
+<li>主課題：next_plan の推奨 A ＝ open_problems 289（手作りの継電器の乾いた接点の寿命）。固定の節は残した。戻らないと決めた系列には戻っていない。</li>
+<li>再現チェック：122 の sim.py を exec し 122 の p_relay・p_vac の全版を差 0 で再現（assert）。</li>
+<li>文献・データ（本回取得、sources/、SHA256SUMS）：Wikipedia の Contact breaker・Fatigue (material)・Electrical contact・Relay・Platinum・Telegraph sounder・Telegraph key・Morse code・Tungsten・Ignition system・Distributor・Ignition magneto（後ろの 6 つは数値に使わない）、howacarworks・Moss Motors・Powerspark の点火の接点の頁。</li>
+<li>研究123：<code>research/123-dry-contact-life/</code>（sim.py 約344秒）。成果物は results.json、stdout.txt、fig_dry_contact.png、report.md、PREREGISTRATION.md（11:35 JST、資料を開く前・sim.py の前）、sources/。</li>
+<li>主要数値：点火の接点の交換までの開閉 3.0×10⁷〜1.2×10⁸ 回（工場・タングステン・負荷を切る）。錨 3.46×10⁷×手作りの倍率 0.1 で手作りの寿命の中央 3.5×10⁶（10〜90 % 約 6×10⁵〜2×10⁷）。E[p_relay] は D1 0.717（0.52〜0.85）、D4 0.618、D3 0.551（0.40〜0.75、版 0.44〜0.65）、磨き直し 10 で D3 0.746。p_vac（D3）0.564→0.655、遅い κ の F_heavy 1.421→1.480（悲観 1.428、D1 1.568）。</li>
+<li>判定：確認的 H135a・b 棄却、c 支持、d 支持（弱い）。予測 H135e 支持（概算の近くで弱い）、H135f 支持。H135g は 0.224 対 0.222 で式の上でほぼ同じになり数えない。H135h は記述。</li>
+<li>逸脱：H135e の入力は登録の記事でなく検索で見つけた 3 つの頁（資料の後・sim.py の前）。図の文字の位置だけ直して 2 回目を回した（数値は同じ）。</li>
+<li>批判：錨は工場の品で交換の基準も違う。乾いた回路の酸化膜は数えていない。手作りの倍率 h と幅は推測で結果の幅の大半を決める。電信の保守の記録は見つからなかった。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：p_relay の主を 0.43→0.55、遅い κ の F_heavy の主を 1.42→1.48 に。手引きには接点に白金族かタングステンを（廃墟の点火の接点・継電器から外して）使うこと、やすりの磨き直しの手順を書いて。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

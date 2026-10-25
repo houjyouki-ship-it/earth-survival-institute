@@ -1,0 +1,13 @@
+Telegraph sounder
+A telegraph sounder is an antique electromechanical device used as a receiver on electrical telegraph lines during the 19th century.  It was invented by Alfred Vail after 1850 to replace the previous receiving device, the cumbersome Morse register and was the first practical application of the electromagnet.  When a telegraph message comes in it produces an audible "clicking" sound representing the short and long keypresses – "dots" and "dashes" – which are used to represent text characters in Morse code.  A telegraph operator would translate the sounds into characters representing the telegraph message. The terms "dot" and "dash" originated because the original equipment used the electromagnets to move a pencil that actually marked dots and dashes on a moving strip of paper. This was abandonded because the mechanism was more complicated and failure prone than listening to the sounds. 
+Telegraph networks, used from the 1850s to the 1970s to transmit text messages long distances, transmitted information by pulses of current of two different lengths, called "dots" and "dashes" which spelled out text messages in Morse code.  A telegraph operator at the sending end of the line would create the message by tapping on a switch called a telegraph key, which rapidly connects and breaks the circuit to a battery, sending pulses of current down the line.
+The telegraph sounder was used at the receiving end of the line to make the Morse code message audible.  Its simple mechanism was similar to a relay. It consisted of an electromagnet attached to the telegraph line, with an iron armature near the magnet's pole balanced on a pivot, held up by a counterweight.  When current flowed through the electromagnet's winding, it created a magnetic field which attracted the armature, pulling it down to the electromagnet, resulting in a "click" sound.  When the current ended, the counterweight pulled the armature back up to its resting position, resulting in a "clack" sound.   Thus, as the telegraph key at the sending end makes and breaks the contact, the sounder echoes the up and down state of the key.
+It was important that a sounder make a sound both when the circuit was broken and when it was restored.  This was necessary for the operator clearly to distinguish the long and short keypresses – the "dashes" and "dots" – that make up the characters in morse code.
+
+
+== References ==
+
+
+== External links ==
+Morse Telegraph Club, Inc. (The Morse Telegraph Club is an international non-profit organization dedicated to the perpetuation of the knowledge and traditions of telegraphy.)
+Telegraph Sounders - A photo gallery of telegraph sounders from the 19th and 20th centuries

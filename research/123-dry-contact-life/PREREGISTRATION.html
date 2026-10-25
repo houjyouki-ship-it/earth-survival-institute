@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究123 手作りの継電器の乾いた接点の寿命（open_problems 289） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="123-open_problems-289">事前登録：研究123 手作りの継電器の乾いた接点の寿命（open_problems 289）</h1>
+<p>登録：2026-10-25 11:35 JST。資料（sources/）を開く前、sim.py を書く前。
+<strong>注：p_relay・p_vac・F_heavy は模型の中の量で、生存確率でも復興確率でもない。</strong></p>
+<h2 id="_1">問い</h2>
+<p>122 で p_relay は乾いた接点（負荷を切らない接点）の寿命 L_arm が 10⁶ か 10⁷ かで 0.60〜0.82（D1）動く。単一の値でなく、公開資料から寿命の分布を置き、122 の D1・D3・D4 で p_relay の期待値と幅を置き直す。</p>
+<h2 id="_2">使う予定の資料（まだ開いていない）</h2>
+<p>Wikipedia：Contact breaker（点火の接点）、Fatigue (material)、Telegraph sounder、Electrical contacts / Electrical contact、Morse code、Platinum、Tungsten。</p>
+<h2 id="_3">確認的な仮説（資料を開く前に登録）</h2>
+<ul>
+<li>H135a：Contact breaker の記事に、点火の接点の点検・交換の間隔が走行距離（mile か km）の数値で書かれている。</li>
+<li>H135b：Contact breaker の記事が点火の接点の材料としてタングステンを挙げる。</li>
+<li>H135c：Fatigue (material) の記事が、鋼には疲労限度（それ以下の応力ではほぼ無限に耐える）があると述べる。</li>
+<li>H135d：Telegraph sounder か Platinum か Electrical contact(s) のどれかの記事が、電信・継電器の接点に白金（または白金合金）を使ったと述べる。</li>
+</ul>
+<h2 id="_4">入力判明後の予測（登録前の概算を併記）</h2>
+<ul>
+<li>H135e：点火の接点の間隔から求めた交換までの開閉の回数は 2×10⁷〜1×10⁹ 回（概算：1.2 万 mile・平均 30 mph・4 気筒 2,000 rpm で約 10⁸）。負荷を切る接点の値なので乾いた接点の下限の目安として使う。</li>
+<li>H135f：寿命を対数正規の分布（中央と幅は資料から決める）で積分した p_relay の期待値は D1 で 0.60〜0.80、D3 で 0.42〜0.62。</li>
+<li>H135g：磨き直し（refurb）を入れると、寿命の幅より磨き直しの倍率の方が p_relay を大きく動かす（D3 で refurb 1→10 の差が L_arm 10⁶→10⁷ の差より大きい）。概算はなし（どちらに転ぶか分からない）。</li>
+</ul>
+<h2 id="_5">記述</h2>
+<ul>
+<li>H135h：寿命の分布の表と p_relay の版の表。</li>
+</ul>
+<h2 id="_6">判定の規則</h2>
+<p>数値は sim.py の results.json から。資料に数値がなければ確認的仮説は「棄却」と書く。予測の範囲は上のとおり、後から動かさない。</p><footer><hr><small>自動生成</small></footer></body></html>
