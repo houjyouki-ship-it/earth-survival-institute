@@ -2,3 +2,54 @@
   gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
 /workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
   gap = np.log(N_T2e / N_small) / r_pop
+check_121 0.0 F newrng diff 0.0
+bits {'rand_mean': 0.50028, 'page_mean': 0.1545125, 'N': 400000}
+design D1_min|rand relays 1 ops/pt 0.2498 incl_cam 0.7501  err 
+design D2_rz|rand relays 1 ops/pt 0.5003 incl_cam 0.5003  err 
+design D3_realistic|rand relays 38 ops/pt 1.4191 incl_cam 1.4191 {'clock_sense': 40000, 'copy_sense': 99763, 'majority': 19955, 'shift_register': 217718, 'output_latch': 40195, 'bit_counter': 140000, 'word_transfer': 10000} err 0
+design D4_stepper|rand relays 17 ops/pt 0.7249 incl_cam 0.7249 {'clock_sense': 40000, 'copy_sense': 99809, 'majority': 19955, 'output_latch': 40195, 'bit_counter': 80000, 'word_transfer': 10000} err 0
+design D3_nocopies|rand relays 34 ops/pt 6.0975 incl_cam 6.0975 {'clock_sense': 200000, 'copy_sense': 99924, 'majority': 99924, 'shift_register': 1089064, 'output_latch': 200082, 'bit_counter': 700000, 'word_transfer': 50000} err 4030
+design D1_min|page relays 1 ops/pt 0.0861 incl_cam 0.2406  err 
+design D2_rz|page relays 1 ops/pt 0.1545 incl_cam 0.1545  err 
+design D3_realistic|page relays 38 ops/pt 0.7534 incl_cam 0.7534 {'clock_sense': 40000, 'copy_sense': 32502, 'majority': 5937, 'shift_register': 62366, 'output_latch': 10563, 'bit_counter': 140000, 'word_transfer': 10000} err 1
+design D4_stepper|page relays 17 ops/pt 0.4472 incl_cam 0.4472 {'clock_sense': 40000, 'copy_sense': 32395, 'majority': 5938, 'output_latch': 10563, 'bit_counter': 80000, 'word_transfer': 10000} err 1
+design D3_nocopies|page relays 34 ops/pt 3.6847 incl_cam 3.6847 {'clock_sense': 200000, 'copy_sense': 37014, 'majority': 37014, 'shift_register': 385372, 'output_latch': 64481, 'bit_counter': 700000, 'word_transfer': 50000} err 3946
+design D0_120_assumption relays 50 ops/pt 25.0 incl_cam 25.0  err 
+k_half {'L1e+05': 0.01893939393939394, 'L1e+06': 0.1893939393939394, 'L1e+07': 1.893939393939394}
+p_relay 120_main {'p_arm': 0.006, 'p_reed': 0.3312, 'p_relay': 0.3352, 'M_arm': '1.32e+07', 'M_reed': '1.74e+04'} p_vac 0.4887
+p_relay D3_realistic {'p_arm': 0.0938, 'p_reed': 0.3741, 'p_relay': 0.4328, 'M_arm': '7.52e+05', 'M_reed': '3.93e+03'} p_vac 0.5638
+p_relay D4_stepper {'p_arm': 0.1652, 'p_reed': 0.3819, 'p_relay': 0.484, 'M_arm': '3.84e+05', 'M_reed': '1.8e+03'} p_vac 0.6031
+p_relay D1_min {'p_arm': 0.3448, 'p_reed': 0.388, 'p_relay': 0.599, 'M_arm': '1.32e+05', 'M_reed': '216'} p_vac 0.6916
+p_relay D1_min_incl_cam {'p_arm': 0.1612, 'p_reed': 0.3869, 'p_relay': 0.4858, 'M_arm': '3.96e+05', 'M_reed': '480'} p_vac 0.6045
+p_relay D1_min_dry_L1e7 {'p_arm': 0.7062, 'p_reed': 0.388, 'p_relay': 0.8202, 'M_arm': '1.33e+04', 'M_reed': '216'} p_vac 0.8617
+p_relay D3_page_noscramble {'p_arm': 0.1597, 'p_reed': 0.3754, 'p_relay': 0.4751, 'M_arm': '4.01e+05', 'M_reed': '3.58e+03'} p_vac 0.5963
+p_relay D3_L1e5 {'p_arm': 0.0105, 'p_reed': 0.3741, 'p_relay': 0.3807, 'M_arm': '7.5e+06', 'M_reed': '3.93e+03'} p_vac 0.5236
+p_relay D3_noreed {'p_arm': 0.0938, 'p_reed': 0.0, 'p_relay': 0.0938, 'M_arm': '7.52e+05', 'M_reed': '3.93e+03'} p_vac 0.303
+p_relay D1_noreed {'p_arm': 0.3448, 'p_reed': 0.0, 'p_relay': 0.3448, 'M_arm': '1.32e+05', 'M_reed': '216'} p_vac 0.4961
+p_relay D3_pess {'p_arm': 0.0032, 'p_reed': 0.1719, 'p_relay': 0.1745, 'M_arm': '7.5e+06', 'M_reed': '3.93e+03'} p_vac 0.3651
+slow_Tasmania|120_main F_heavy 1.3652
+trigger_mix|120_main F_heavy 1.0824
+fast_state|120_main F_heavy 1.0139
+slow_Tasmania|D3_realistic F_heavy 1.4213
+trigger_mix|D3_realistic F_heavy 1.0894
+fast_state|D3_realistic F_heavy 1.0144
+slow_Tasmania|D1_min F_heavy 1.4865
+trigger_mix|D1_min F_heavy 1.1108
+fast_state|D1_min F_heavy 1.0163
+slow_Tasmania|D3_noreed F_heavy 1.2607
+trigger_mix|D3_noreed F_heavy 1.0632
+fast_state|D3_noreed F_heavy 1.0124
+slow_Tasmania|D1_noreed F_heavy 1.3902
+trigger_mix|D1_noreed F_heavy 1.0923
+fast_state|D1_noreed F_heavy 1.0139
+slow_Tasmania|D3_pess F_heavy 1.2907
+trigger_mix|D3_pess F_heavy 1.067
+fast_state|D3_pess F_heavy 1.012
+H134a confirmatory False Teleprinter・Teletype Model 33・Model 28 の記事に selector magnet（1 個の電磁石で直列を並列に直す）の記述なし。近いのは Model 33 の『読み取りと端末の間は completely mechanical、時計と 8 ビットを金属のレバーで並列』と、start-stop の符号が電気機械の設計と結びついていたという記述
+H134b confirmatory True Z3：Elements 『Around 2,000 relays (1,400 for the memory)』（infobox は 2,600）
+H134c prediction True 0.249825
+H134d prediction True 1.4190775
+H134e prediction True {'p_relay': 0.43284274285359803, 'F_heavy_slow': 1.4212801021927908}
+H134f descriptive None 設計ごとの継電器数と動作数の表
+runtime 336.8
+EXIT 0

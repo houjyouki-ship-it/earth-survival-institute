@@ -1,0 +1,131 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究122：1 点あたりに動く接点の数を最小にする読み取り回路（open_problems 287） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="1221-open_problems-287">研究122：1 点あたりに動く接点の数を最小にする読み取り回路（open_problems 287）</h1>
+<p><strong>注：F_heavy・p_relay・p_vac は模型の中の量で、生存確率でも復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</strong></p>
+<h2 id="_1">問い</h2>
+<p>120 は継電器の読み取り回路で 1 チャンネル C=50 個のうち毎点 a=0.5 個が動く（1 点 25 動作）と推測し、汎用の継電器の経路はすり減りで潰れた（p_arm 0.006）。回路の設計で 1 点あたりの動作数（ops/pt）をどこまで下げられ、p_relay・F_heavy がどれだけ動くか。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>121 の sim.py を exec し、121 の p_vac を差 0 で再現（assert）。新しい乱数での表の F_heavy の差も 0（同じ乱数の流れ）。</li>
+<li>設計ごとに継電器の状態を 1 点ずつ進める離散の模擬（40 万点）で、各継電器の 0→1（1 サイクル）を数えた。ビット列は一様乱数（攪拌・圧縮済み）と、log.md を 1 ビットの画像にした攪拌なしの文書（黒 15%）。</li>
+<li>D1 最小：感知の継電器 1 個（連続の 1 の間は保持）、送りと時刻はカム（機械）。カムの接点が 1 の点ごとに出力の磁石の電流を切る（cam_ops、別に数える版あり）。</li>
+<li>D2：感知の継電器を点ごとに戻す（RZ）。</li>
+<li>D3 現実的（登録の主）：時刻のトラックの継電器、5 重の写しの感知の継電器（各写し 1% の読み誤り）、多数決、8 ビットの主従のシフトレジスタ、出力の保持 8 個、継電器の 2 進の数え（3 段×2）、語の転送。38 個。</li>
+<li>D4：D3 のシフトレジスタを外し、歩進の切替器（Stepping switch）の腕で多数決の出力を保持の継電器に配る。17 個。</li>
+<li>120 の prelay（S(M)=1/(1+M/M50) など、推測の値はそのまま）に C と a=ops/C を入れ直し、p_relay・p_vac（管の経路は 121 の p_tube 0.231）・F_heavy を再計算。</li>
+</ul>
+<h2 id="_3">結果（一様乱数）</h2>
+<table>
+<thead>
+<tr>
+<th>設計</th>
+<th>継電器</th>
+<th>ops/pt</th>
+<th>p_arm</th>
+<th>p_relay</th>
+<th>p_vac</th>
+<th>F_heavy 遅い κ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>120 の推測</td>
+<td>50</td>
+<td>25</td>
+<td>0.006</td>
+<td>0.335</td>
+<td>0.489</td>
+<td>1.365（新しい乱数）</td>
+</tr>
+<tr>
+<td>D3 現実的</td>
+<td>38</td>
+<td>1.42</td>
+<td>0.094</td>
+<td>0.433</td>
+<td>0.564</td>
+<td>1.421</td>
+</tr>
+<tr>
+<td>D4 歩進の切替器</td>
+<td>17</td>
+<td>0.72</td>
+<td>0.165</td>
+<td>0.484</td>
+<td>0.603</td>
+<td>—</td>
+</tr>
+<tr>
+<td>D1 最小</td>
+<td>1</td>
+<td>0.25（カム込み 0.75）</td>
+<td>0.345</td>
+<td>0.599（カム込み 0.486）</td>
+<td>0.692</td>
+<td>1.487</td>
+</tr>
+<tr>
+<td>D1 乾いた接点（寿命 10⁷）</td>
+<td>1</td>
+<td>0.25</td>
+<td>0.706</td>
+<td>0.820</td>
+<td>0.862</td>
+<td>—</td>
+</tr>
+<tr>
+<td>D3 写しなし（1 点＝1 ビット、supp）</td>
+<td>34</td>
+<td>6.10</td>
+<td>0.024</td>
+<td>0.382</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>D3 リードなし</td>
+<td>38</td>
+<td>1.42</td>
+<td>0.094</td>
+<td>0.094</td>
+<td>0.303</td>
+<td>1.261</td>
+</tr>
+<tr>
+<td>D3 悲観（寿命 10⁵・M50 3e4・p_NiFe 0.3）</td>
+<td>38</td>
+<td>1.42</td>
+<td>0.003</td>
+<td>0.175</td>
+<td>0.365</td>
+<td>1.291</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>D3 の動作の内訳（出力ビットあたり）：シフトレジスタ 2.72、数え 1.75、写しの感知 1.25、時刻 0.50、保持 0.50、多数決 0.25、語の転送 0.125（計 7.1、5 点で割って 1.42 ops/pt）。<strong>数えとシフトレジスタが 6 割</strong>で、ここを歩進の切替器に替える D4 で半分になる。</li>
+<li>攪拌なしの文書では動作は 0.3〜0.5 倍（D1 0.086、D3 0.75 ops/pt）。攪拌は動作を約 2 倍に増やす（019 の「手読み層は攪拌なし」と同じ向き）。</li>
+<li>汎用の継電器の経路が p_arm を半分に保つ上限は ops/pt ≤ M50×L/点数 = 0.19（寿命 10⁶）、0.019（10⁵）、1.9（10⁷）。現実的な回路では寿命 10⁶ の汎用の継電器は 1 リールに足りず、効くのは「動作を減らす」より「接点を負荷なしで切る（乾いた接点、寿命 10⁷）」こと。</li>
+<li>5 重の多数決で 1% の読み誤りは 0〜1 件/8 万ビットに下がった。</li>
+</ul>
+<h2 id="_4">仮説の判定</h2>
+<ul>
+<li>H134a（確認的）：<strong>棄却</strong>。Teleprinter・Teletype Model 33・Model 28 の記事に 1 個の selector magnet の記述はない。近いのは Model 33 の「読み取りと端末の間は completely mechanical、時計と 8 ビットを金属のレバーで並列」【事実（Teletype Model 33, Wikipedia）】。</li>
+<li>H134b（確認的）：<strong>支持</strong>。Z3 は「Around 2,000 relays (1,400 for the memory)」（infobox は 2,600）、5〜10 Hz【事実（Z3 (computer), Wikipedia）】。</li>
+<li>H134c（予測）：支持（D1 0.25 ops/pt）。ただし D1 は一様乱数で 1 の連続の始まりの割合 1/4 にほぼ等しく、算術に近い。</li>
+<li>H134d（予測）：支持（D3 1.42、25 の 1/18）。</li>
+<li>H134e（予測）：支持（p_relay 0.433、F_heavy 1.421）。登録前の概算（増分は限られる）どおりで、驚きは小さい。</li>
+<li>H134f：記述（上の表）。</li>
+</ul>
+<h2 id="_5">批判</h2>
+<ul>
+<li>回路はすべて机上の【推測】。継電器の 0→1 の 1 サイクルを接点の 1 回の消耗と数え、負荷・アーク・跳ね返り（bounce）の違いを入れていない。</li>
+<li>時刻を機械に任せるカムや歩進の切替器の接点・腕の摩耗は D1 のカム込みの版でしか数えていない。Stepping switch の記事は「長い寿命（保守つき）」と書くが回数の数値はない。</li>
+<li>5 重の写しの割り算（1 出力ビット＝5 点）は、リールの点が 5 重の写しを含むと置いたもの。Piql の実書式の大部分は 5 重ではなく、その場合は D3 写しなし（6.1 ops/pt、p_relay 0.382）が近い。</li>
+<li>120 の S(M)・M50・p_NiFe・p_build は推測のまま。p_relay は依然リードの経路（0.37〜0.39）が半分以上を占める。</li>
+<li>F_heavy の乱数の揺れは約 0.01（120_main が 121 の 1.375 に対し 1.365）。D3 との差 0.056 は揺れより大きい。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>p_relay の主を 0.335→0.43（D3）、p_vac 0.49→0.56、遅い κ の F_heavy の主を 1.375→1.42 に上げる。版は 0.17〜0.82。</li>
+<li>読取装置の手引きには（1）時刻と送りは機械（カム・歯車）に任せ時計の継電器を置かない、（2）直並列の変換は継電器のシフトレジスタでなく歩進の切替器か機械の分配で、（3）感知の継電器の接点は負荷を切らず（乾いた接点）、負荷はカムに切らせる、（4）手読みの層は攪拌しない、を書く。</li>
+<li>次の最大の未知は「乾いた接点の寿命が手作りの継電器で 10⁷ に届くか」と「カム・歩進の切替器の摩耗」。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
