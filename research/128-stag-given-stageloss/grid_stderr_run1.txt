@@ -1,0 +1,9 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+Traceback (most recent call last):
+  File "/workspace/earth-survival-institute/research/128-stag-given-stageloss/grid.py", line 35, in <module>
+    mx = max(chk.values()); print("check vs 127 maxdiff", mx); assert mx < 1e-12, chk
+                                                                      ^^^^^^^^^^
+AssertionError: {'Ccond|D2rz|none': 0.0, 'Ccond|D1|main': 0.0, 'Ccond|D4|main': 0.0, 'Cmass|D2rz|none': 0.04557195208939868, 'Cmass|D1|main': 0.03902420323751388, 'Cmass|D4|main': 0.02609776904891481, 'C1|D2rz|none': 0.0, 'C1|D1|main': 0.0, 'C1|D4|main': 0.0}

@@ -19,7 +19,7 @@ def S_of(p):  # 成分ごとの Cmass と同じ形（成分 k の share で上�
     return stag_of(lambda k: np.where(lost[k], p, 0.0))
 GRID = {}
 for p in PS:
-    S = S_of(p) if abs(p - pm) > 1e-12 else G["CVER"]["Cmass"]
+    S = S_of(p)  # 全成分で同じ p|lost（U3 では 127 の Cmass と同じ値になるはず：assert で確認）
     vb = base_val_k(S, r_pop)
     for vn in MAIN3: GRID[f"{p:.6f}|{SL}|{vn}"] = run_k(KAPS[SL], LK[vn], S, r_pop, False, vb)
     for kn in OTH: GRID[f"{p:.6f}|{kn}|D2rz|none"] = run_k(KAPS[kn], LK["D2rz|none"], S, r_pop, False, vb)
@@ -27,12 +27,17 @@ for p in PS:
 V0 = {}
 vb0 = base_val_k(G["CVER"]["V0"], r_pop)
 V0["new_heavy"] = run_k(KAPS[SL], LK["D2rz|none"], G["CVER"]["V0"], r_pop, False, vb0)["new_heavy"]
+# 127 の Cmass は成分ごとに p=P0/share[k]（成分で違う）なので、別に CVER["Cmass"] で回して 127 と比べる
+S = G["CVER"]["Cmass"]; vbm = base_val_k(S, r_pop)
+for vn in MAIN3: GRID[f"Cmass127|{SL}|{vn}"] = run_k(KAPS[SL], LK[vn], S, r_pop, False, vbm)
 chk = {}
-for p, v in ((0.6, "Ccond"), (pm, "Cmass"), (1.0, "C1")):
+for vn in MAIN3:
+    chk[f"Cmass|{vn}"] = abs(GRID[f"Cmass127|{SL}|{vn}"]["F_heavy"] - R127["table"][f"H1000|Cmass|W|{SL}|{vn}"]["F_heavy"])
+for p, v in ((0.6, "Ccond"), (1.0, "C1")):
     for vn in MAIN3:
         a = GRID[f"{p:.6f}|{SL}|{vn}"]["F_heavy"]; b = R127["table"][f"H1000|{v}|W|{SL}|{vn}"]["F_heavy"]
         chk[f"{v}|{vn}"] = abs(a - b)
 mx = max(chk.values()); print("check vs 127 maxdiff", mx); assert mx < 1e-12, chk
-json.dump({"PS": PS, "p_mass": pm, "share_lost": share, "GRID": GRID, "V0_new_heavy": V0["new_heavy"], "check_127": chk,
+json.dump({"PS": PS, "p_mass": pm, "share_by_comp": share, "uniform_vs_Cmass127_D2rz": GRID[f"{pm:.6f}|{SL}|D2rz|none"]["F_heavy"] - GRID[f"Cmass127|{SL}|D2rz|none"]["F_heavy"], "share_lost": share, "GRID": GRID, "V0_new_heavy": V0["new_heavy"], "check_127": chk,
            "runtime_s": time.time() - t0}, open(os.path.join(HERE, "grid.json"), "w"), indent=1, default=float)
 print("runtime", round(time.time() - t0))
