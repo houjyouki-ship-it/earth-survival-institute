@@ -2,3 +2,43 @@
   gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
 /workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
   gap = np.log(N_T2e / N_small) / r_pop
+check_123 0.0 0.0 D3vs123 7.575517990687786e-11
+anchors {'cam_factory_geo_mid': np.float64(60000000.00000003), 'stepper_factory_geo_mid': np.float64(1732050.8075688777), 'finder26_mech': 300000.0, 'finder26_elec': 100000.0} mech_ops {'D1_cam_every_point': 1.0, 'D1_cam_load_only': 0.50028, 'D4_stepper_steps': 0.2}
+E D1|main {'mean': 0.4401, 'p10': 0.1886, 'p50': 0.4427, 'p90': 0.6732, 'L_mech_median': '6e+06', 'sigma_mech': 0.5831, 'M_mech_median': '8.8e+04', 'M_mech_at_median_L': '8.8e+04'}
+E D1|loadonly {'mean': 0.5228, 'p10': 0.2782, 'p50': 0.5294, 'p90': 0.7413, 'L_mech_median': '6e+06', 'sigma_mech': 0.5831, 'M_mech_median': '4.4e+04', 'M_mech_at_median_L': '4.4e+04'}
+E D1|h0.3 {'mean': 0.5643, 'p10': 0.3322, 'p50': 0.577, 'p90': 0.7718, 'L_mech_median': '1.8e+07', 'sigma_mech': 0.5831, 'M_mech_median': '2.93e+04', 'M_mech_at_median_L': '2.93e+04'}
+E D1|file3 {'mean': 0.5643, 'p10': 0.3322, 'p50': 0.577, 'p90': 0.7718, 'L_mech_median': '6e+06', 'sigma_mech': 0.5831, 'M_mech_median': '2.93e+04', 'M_mech_at_median_L': '2.93e+04'}
+E D1|w0.3 {'mean': 0.5741, 'p10': 0.3458, 'p50': 0.5942, 'p90': 0.7756, 'L_mech_median': '6e+06', 'sigma_mech': 0.5831, 'M_mech_median': '2.64e+04', 'M_mech_at_median_L': '2.64e+04'}
+E D1|pess {'mean': 0.2391, 'p10': 0.0133, 'p50': 0.1607, 'p90': 0.6234, 'L_mech_median': '9e+05', 'sigma_mech': 1.044, 'M_mech_median': '5.87e+05', 'M_mech_at_median_L': '5.87e+05'}
+E D4|main {'mean': 0.12, 'p10': 0.0062, 'p50': 0.0585, 'p90': 0.3463, 'L_mech_median': '1.73e+05', 'sigma_mech': 0.9014, 'M_mech_median': '1.83e+06', 'M_mech_at_median_L': '1.83e+06'}
+E D4|tel1e7 {'mean': 0.2411, 'p10': 0.0639, 'p50': 0.2301, 'p90': 0.4453, 'L_mech_median': '1e+06', 'sigma_mech': 0.5831, 'M_mech_median': '3.17e+05', 'M_mech_at_median_L': '3.17e+05'}
+E D4|w1 {'mean': 0.1988, 'p10': 0.0177, 'p50': 0.1467, 'p90': 0.4762, 'L_mech_median': '1.73e+05', 'sigma_mech': 0.9014, 'M_mech_median': '6.1e+05', 'M_mech_at_median_L': '6.1e+05'}
+E D4|finder3e5 {'mean': 0.0227, 'p10': 0.0025, 'p50': 0.011, 'p90': 0.0478, 'L_mech_median': '3e+04', 'sigma_mech': 0.5831, 'M_mech_median': '1.06e+07', 'M_mech_at_median_L': '1.06e+07'}
+E D4|pess {'mean': 0.0247, 'p10': 0.0002, 'p50': 0.0034, 'p90': 0.0472, 'L_mech_median': '9e+03', 'sigma_mech': 1.044, 'M_mech_median': '3.52e+07', 'M_mech_at_median_L': '3.52e+07'}
+E D3|none {'mean': 0.5514, 'p10': 0.4206, 'p50': 0.5308, 'p90': 0.7053, 'L_mech_median': '1e+09', 'sigma_mech': 0.0, 'M_mech_median': 0.0, 'M_mech_at_median_L': 0.0}
+E D2rz|none {'mean': 0.6569, 'p10': 0.4979, 'p50': 0.6654, 'p90': 0.8063, 'L_mech_median': '1e+09', 'sigma_mech': 0.0, 'M_mech_median': 0.0, 'M_mech_at_median_L': 0.0}
+p_vac D1|main 0.5693
+p_vac D1|file3 0.6649
+p_vac D1|pess 0.4148
+p_vac D4|main 0.3231
+p_vac D4|tel1e7 0.4163
+p_vac D3|none 0.655
+p_vac D2rz|none 0.7361
+slow_Tasmania|D1|main F_heavy 1.426
+trigger_mix|D1|main F_heavy 1.0944
+fast_state|D1|main F_heavy 1.0135
+slow_Tasmania|D4|main F_heavy 1.2774
+trigger_mix|D4|main F_heavy 1.0629
+fast_state|D4|main F_heavy 1.0131
+slow_Tasmania|D2rz|none F_heavy 1.5287
+trigger_mix|D2rz|none F_heavy 1.1177
+fast_state|D2rz|none F_heavy 1.0182
+H136a confirmatory False Strowger switch の記事に保守・摩耗の記述なし。Telephone exchange の記事に『Strowger-based, step-by-step offices ... required continuous maintenance, such as cleaning』（登録の記事でないので数えない）
+H136b confirmatory False Crossbar switch の記事は『two hours of downtime for service every forty years ... a large improvement over earlier electromechanical systems』。step-by-step と名指しの摩耗・保守の比較はない（規則どおり棄却、内容は近い）
+H136c confirmatory False Cam (mechanism) の記事に wear の語なし
+H136d confirmatory False 見つかった数値は Finder 26 の歩進の継電器の機械 3×10⁵・電気 1×10⁵（10⁶ 未満）。電話の歩進の切替器の寿命の数値は見つからず（PO の uniselector の冊子は保守中で開けず）
+H136e prediction True {'D1_124': 0.44010137333282684, 'D1_123': 0.717279477768568, 'drop': 0.2771781044357412}
+H136f prediction False {'D4': 0.12001143791452071, 'D1': 0.44010137333282684}
+H136g prediction False {'best': 'D2rz|none', 'F_best': 1.5286672886984356, 'F_123_D3': 1.480067943469462, 'F_123_D1': 1.5684449892994323, 'move_vs_123_D3': 0.04859934522897369}
+H136h descriptive None 機械の作り直しの数と p_relay・p_vac・F_heavy の版
+runtime 336.9

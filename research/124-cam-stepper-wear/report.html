@@ -1,0 +1,105 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究124：時刻と送りを担うカム・歩進の切替器の摩耗（open_problems 290）— 読み取り装置の部品系列のまとめ - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="124open_problems-290">研究124：時刻と送りを担うカム・歩進の切替器の摩耗（open_problems 290）— 読み取り装置の部品系列のまとめ</h1>
+<p><strong>注：p_relay・p_vac・F_heavy は模型の中の量で、人類の生存確率でも文明の復興確率でもない。提言は「模型の中での順位（外部の検証はまだ）」。</strong>
+事前登録：PREREGISTRATION.md（2026-10-25 13:43 JST、124 の資料を開く前・sim.py の前）。実行：<code>python3 sim.py</code>（約337秒）。123 の E[p_relay] と F_heavy を差 0 で再現（assert）。</p>
+<h2 id="_1">問い</h2>
+<p>123 の最良 D1（E[p_relay] 0.717）は、時刻をカムに、出力の磁石を打つ仕事を「カムの接点」に移していたが、その摩耗を数えていなかった。D4 は歩進の切替器の機構の摩耗を数えていなかった。機械の部品の作り直しを継電器と同じ物差し（総動作数÷寿命、同じ作る力 M50 を分け合う）で入れる。</p>
+<h2 id="_2">入力</h2>
+<ul>
+<li>【事実（finder26.pdf, https://media.ic-find.com/datasheets/a37985c7bf2221699c8da31f08f6b6ab.pdf）】Finder 26 系の歩進の継電器（照明用の現行品）は機械的寿命 300·10³ 回、定格負荷の電気的寿命 100·10³ 回。</li>
+<li>【事実（Wikipedia: Telephone exchange）】「Strowger-based, step-by-step offices in the Bell System required continuous maintenance, such as cleaning」。</li>
+<li>【事実（Wikipedia: Crossbar switch）】設計の基準は 40 年で保守の停止 2 時間で、earlier electromechanical systems より大きく改善。</li>
+<li>【事実（123 の sources：howacarworks・Moss Motors・Powerspark）】カムで開閉し負荷を切る点火の接点の交換までの開閉 3.0×10⁷〜1.2×10⁸ 回（工場の品）。</li>
+<li>【推測】カムの接点の錨は点火の接点の幾何平均 6×10⁷、手作りの倍率 0.1（123 と同じ）、1 点に 1 回動く。歩進の機構の錨は 3×10⁵ と 10⁷（継電器の機械の寿命）の幾何平均 1.7×10⁶、1 ビット 1 歩（0.2 回/点）、機構 1 つの手間は継電器 3 個分。</li>
+</ul>
+<h2 id="resultsjson">結果（results.json）</h2>
+<table>
+<thead>
+<tr>
+<th>設計</th>
+<th>E[p_relay]（10〜90%）</th>
+<th>機械の作り直しの数（中央）</th>
+<th>p_vac</th>
+<th>遅い κ の F_heavy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1 123（機械なし）</td>
+<td>0.717</td>
+<td>—</td>
+<td>0.783</td>
+<td>1.568</td>
+</tr>
+<tr>
+<td>D1 主（カムの接点）</td>
+<td>0.440（0.19〜0.67）</td>
+<td>8.8×10⁴</td>
+<td>0.569</td>
+<td>1.426</td>
+</tr>
+<tr>
+<td>D1 やすりで 3 回戻す／h 0.3</td>
+<td>0.564</td>
+<td>2.9×10⁴</td>
+<td>0.665</td>
+<td>—</td>
+</tr>
+<tr>
+<td>D1 悲観</td>
+<td>0.239</td>
+<td>5.9×10⁵</td>
+<td>0.415</td>
+<td>—</td>
+</tr>
+<tr>
+<td>D4 主（歩進）</td>
+<td>0.120（0.006〜0.35）</td>
+<td>1.8×10⁶</td>
+<td>0.323</td>
+<td>1.277</td>
+</tr>
+<tr>
+<td>D4 電話級 10⁷ の錨</td>
+<td>0.241</td>
+<td>3.2×10⁵</td>
+<td>0.416</td>
+<td>—</td>
+</tr>
+<tr>
+<td>D3（継電器だけ、123 と同じ）</td>
+<td>0.551（0.42〜0.71）</td>
+<td>0</td>
+<td>0.655</td>
+<td>1.480（123）</td>
+</tr>
+<tr>
+<td>D2 RZ（カムなし、継電器 1 個が直接打つ）</td>
+<td>0.657（0.50〜0.81）</td>
+<td>0</td>
+<td>0.736</td>
+<td>1.529</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>カムの接点は 1 リール 5.28×10¹¹ 点で 5×10¹¹ 回動き、手作りの寿命 6×10⁶ では作り直しが作る力 M50（10⁵）に近い 8.8×10⁴ 個。この接点は継電器でないのでリードの経路にも乗り、D1 の利点は消えた。</li>
+<li>歩進の機構は現行の歩進の継電器の寿命（3×10⁵）を錨にすると 1 リールで 10⁶〜10⁷ 個の作り直しになり、最悪の設計になる。</li>
+<li>機械の寿命の中央が約 3×10⁷ 回（手作りで）を超えれば D1 は D3 より上に戻る（図の左）。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>確認的 H136a 棄却（Strowger switch の記事に保守の記述なし。Telephone exchange の記事にはある）、H136b 棄却（step-by-step と名指しの比較なし、内容は近い）、H136c 棄却（Cam の記事に wear の語なし）、H136d 棄却（見つかった数値は 3×10⁵ で 10⁶ 未満。PO の uniselector の冊子はサイトが保守中で開けず）。</li>
+<li>予測 H136e 支持（D1 0.717→0.440、0.28 の下げ）。H136f 棄却（D4 0.12 は D1 0.44 より下。歩進の機構の寿命の推定が登録前の概算 10⁷〜10⁸ より 2 桁低かった）。H136g 棄却（最良 D2 の F_heavy 1.529 は 1.480 から 0.049 動き、閾値 0.03 を超えた）。H136h は記述。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ul>
+<li>D2 の「継電器の接点が出力の磁石を直接打つ」接点は負荷を切るのに、123 の乾いた接点の寿命の分布のまま。点火の接点の錨（6×10⁷）は 123 の乾いた接点の錨（3.5×10⁷）より高いので、負荷の錨にしても D2 はほぼ動かない【推測】が、計算していない。</li>
+<li>歩進の機構の錨は照明用の現行品で、電話の交換用の品の寿命の数値は見つからなかった。電話級の錨 10⁷ でも D4 は 0.24。</li>
+<li>送りの機構（フィルムの送り）はどの設計にも共通として数えていない。手作りの倍率 h は 123 と同じ推測。</li>
+</ul>
+<h2 id="_5">この結果を受けて、誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>読取装置の手引きを書く人は、時刻や配りをカム・歩進の機構に任せる設計（D1・D4）をやめ、継電器だけで点ごとに戻す回路（D2）か D3 を推すべき。p_relay の主は 0.55〜0.66、遅い κ の F_heavy の主は 1.48〜1.53 とする。</p>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Ord・XPT などは崩壊後の読み取り装置の部品の摩耗を扱っていない。機械の部品と継電器の接点の消耗を一つの作る力の上で比べたのは本研究所の中でも初めて。</p>
+<h2 id="118124next_plan">系列のまとめ（118〜124、next_plan の固定の指示による）</h2>
+<p>遅い κ の F_heavy は 1.38（120）→1.42（122）→1.48（123）→1.48〜1.53（124）。最大の幅は手作りの倍率 h（291、低優先へ）と機械の部品の寿命。125 からは人口の回復待ちと長い後退（open_problems 57）に移る。</p><footer><hr><small>自動生成</small></footer></body></html>
