@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究122 事前登録（open_problems 287：1 点あたりに動く接点の数 C×a を最小にする読み取り回路） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="122-open_problems-2871-ca">研究122 事前登録（open_problems 287：1 点あたりに動く接点の数 C×a を最小にする読み取り回路）</h1>
+<p>登録：2026-10-25 09:40 JST、資料（Wikipedia の Teleprinter・Z3 など）を本回に開く前、sim.py を書く前。
+注：F_heavy・p_relay・p_vac は模型の中の量で、生存確率でも復興確率でもない。</p>
+<h2 id="_1">背景</h2>
+<p>120 は 1 チャンネルの継電器 C=50 のうち毎点 a=0.5 が動くと推測し（1 点 25 動作）、汎用の継電器の経路はすり減りで潰れ、p_relay 0.335 はほぼリードの経路に乗った。動作の総数は点数×(1 点あたりの動作数 ops/pt) で決まり、回路の設計しだいで 1 桁以上下がりうる。</p>
+<h2 id="_2">暗黙の前提（先に書き出す）</h2>
+<ul>
+<li>すり減りは「接点が閉じて開く 1 回（1 サイクル）」で数える。保持（閉じたまま）は数えない。</li>
+<li>点の送りの時刻はフィルムの送りの機械（カム・歯車）が決め、時計の継電器は使わない版を主にする（カムの接点のすり減りは別に数える版を置く）。</li>
+<li>光導電セルの電流は小さく、1 点ごとに少なくとも 1 個の感度の高い継電器（感知の継電器）が要る。</li>
+<li>データは攪拌・圧縮された一様乱数のビット列を主にし、攪拌なしの文書の画像（白が多く長い連続）を版にする。</li>
+<li>出力（穿孔・印字）の機械の消耗は 283 に残し数えない。ただし出力の磁石を継電器が駆動する分は数える。</li>
+<li>120 の S(M)・M50・p_NiFe などの推測はそのまま使い、変えるのは 1 チャンネルの継電器数 C と 1 点あたりの動作数だけ。</li>
+<li>登録の前の概算（頭の中）：ops/pt≈1 でも汎用の経路は 10⁶ 寿命で作り直し 5×10⁵ 個と M50 1e5 を越え、p_relay の増分は限られると見込む。予測の範囲はこの見込みより広く置く。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H134a（確認的）：Wikipedia の Teleprinter（または Teletype の機種の記事）は、受信の側が直列の符号を 1 個の電磁石（selector magnet）と機械の分配で並列に直すことを述べる。</li>
+<li>H134b（確認的）：Wikipedia の Z3 (computer) の記事は継電器の総数を 2,000〜3,000 個とし、そのうち記憶（メモリ）に使う分を 1,000 個以上とする内訳を挙げる。</li>
+<li>H134c（予測）：最小の設計（感知の継電器 1 個を連続の 1 の間は保持、時刻は機械）の動作数は一様乱数のビットで 0.2〜1.5 動作/点（120 の 25 の 1/17 以下）。</li>
+<li>H134d（予測）：現実的な設計（時刻のトラックの読み取り、5 重の多数決、8 ビットの組み立ての継電器のシフトレジスタを含む）は 1〜8 動作/点で、120 の 25 より 3 倍以上少ない。</li>
+<li>H134e（予測）：現実的な設計で置き直した主の p_relay は 0.36〜0.65、遅い κ の F_heavy は 1.38〜1.58。</li>
+<li>H134f（記述）：設計ごとの継電器数と継電器ごとの動作数の表。</li>
+</ul>
+<h2 id="_4">手順</h2>
+<p>sim.py は 121 の sim.py を「# ---------- 仮説」の前まで exec して 121 の p_vac と表を再現（assert）し、設計ごとに継電器の離散の模擬（1 点ずつ状態を進め、各継電器の閉じる回数を数える）で ops/pt を出し、120 の prelay の C と a を置き直して p_relay・p_vac・F_heavy を再計算する。推測の値は【推測】と書く。</p><footer><hr><small>自動生成</small></footer></body></html>
