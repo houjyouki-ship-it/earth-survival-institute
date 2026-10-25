@@ -22,7 +22,7 @@ R123 = json.load(open(os.path.join(os.path.dirname(P123), "results.json"), encod
 dE = max(abs(G["EXP"][k]["mean"] - R123["expected_prelay"][k]["mean"]) for k in R123["expected_prelay"])
 dF = max(abs(G["TAB"][t]["F_heavy"] - R123["table"][t]["F_heavy"]) for t in R123["table"])
 assert dE < 1e-12, dE
-G120 = G["G120"]
+G120 = G["G"]["G120"]
 from_design, DES, P_TUBE, DV = G["from_design"], G["DES"], G["P_TUBE"], G["DV"]
 run, KAPS, fe_d, le_d, t2e_two, L_bulk, PPREC = (G[k] for k in ("run", "KAPS", "fe_d", "le_d", "t2e_two", "L_bulk", "PPREC"))
 prelay, demand, S, TB, DATA = G120["prelay"], G120["demand"], G120["S"], G120["TB"], G120["DATA"]

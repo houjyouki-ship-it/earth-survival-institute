@@ -1,1 +1,5 @@
 Sun Oct 25 13:43:30 JST 2026
+Wikipedia raw (action=raw): Strowger_switch, Crossbar_switch, Cam_(mechanism), Uniselector(redirect to Stepping switch), Rotary_switch, Telephone_exchange
+finder26.pdf: https://media.ic-find.com/datasheets/a37985c7bf2221699c8da31f08f6b6ab.pdf (Finder 26 series step relays; Mechanical life 300·10^3 cycles, electrical life at rated load AC1 100·10^3)
+rfcafe_steppers_1967.html: https://www.rfcafe.com/references/radio-electronics/rotary-stepping-switches-radio-electronics-november-1967.htm (no life numbers)
+PO Educational Pamphlet Telephones 4/1 Uniselector Mechanisms (telephonecollectors.info): site "Down for Maintenance", not retrieved, not used.
