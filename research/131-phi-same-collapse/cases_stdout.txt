@@ -1,0 +1,12 @@
+Britain {'cls': 'lost', 'src': '125', 'L': 0.667, 'T_rec': 784, 'pred': 376.38, 'excess': 407.62}
+Italy|lo {'cls': 'kept', 't_rec': 1200.0, 'L': 0.5, 'T_rec': 1035.0, 'pred': 237.469, 'excess': 797.531}
+Italy|main {'cls': 'kept', 't_rec': 1225.736, 'L': 0.529, 'T_rec': 1060.736, 'pred': 258.239, 'excess': 802.497}
+Italy|hi {'cls': 'kept', 't_rec': 1250.0, 'L': 0.556, 'T_rec': 1085.0, 'pred': 277.821, 'excess': 807.179}
+France|Pmin5.5(400) {'cls': 'kept', 't_rec': 862.813, 'L': 0.236, 'T_rec': 742.813, 'pred': 92.272, 'excess': 650.541}
+France|Pmin5.0(Carolingian) {'cls': 'kept', 't_rec': 862.813, 'L': 0.306, 'T_rec': 742.813, 'pred': 124.925, 'excess': 617.888}
+Iberia|Frier7.5 {'cls': 'kept', 't_rec': 955.034, 'L': 0.467, 'T_rec': 791.034, 'pred': 215.359, 'excess': 575.675}
+Iberia|Harper9 {'cls': 'kept', 't_rec': 1000.0, 'L': 0.556, 'T_rec': 836.0, 'pred': 277.821, 'excess': 558.179}
+France|start400 {'cls': 'kept', 'L': 0.091, 'T_rec': None, 'pred': None, 'excess': 0.0, 'note': 'L<0.2 で停滞なし（規則）'}
+phi {'Italy|lo': 1.957, 'Italy|main': 1.969, 'Italy|hi': 1.98, 'France|Pmin5.5(400)': 1.596, 'France|Pmin5.0(Carolingian)': 1.516, 'Iberia|Frier7.5': 1.412, 'Iberia|Harper9': 1.369, 'France|start400': 0.0}
+median new(peak) 1.504 all(peak) 1.596 common start 0.0
+r_eff {'Britain': 0.00188, 'Italy': 0.00177, 'France': 0.00581, 'Iberia': 0.00405}

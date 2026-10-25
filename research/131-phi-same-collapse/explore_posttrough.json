@@ -1,0 +1,17 @@
+{
+ "lag_years": {
+  "Britain": 207.6199512919556,
+  "Italy": 167.49660153743514,
+  "France": -62.1122092261414,
+  "Iberia": -60.3247683287934
+ },
+ "phi": {
+  "Italy": 0.8067461748986786,
+  "France": 0.0,
+  "Iberia": 0.0
+ },
+ "median_all": 0.0,
+ "F_heavy_D2rz_at_median": 2.173894757694938,
+ "F_heavy_D2rz_at_Italy": 1.8248929692171576,
+ "note": "谷の年 800 は Charlemagne の頃の推定の年（Medieval_demography）。Britain の谷 600 は 125 の推測"
+}

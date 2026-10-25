@@ -1,0 +1,3566 @@
+{{Short description|none}}
+{{Cleanup infobox}}
+{{Use dmy dates|date=January 2020}}
+{{Infobox place demographics
+| place             = [[Spain]]
+|image              = ESP07_26.png
+|image_size         = 250
+|caption            = [[Population pyramid]] of Spain in 2026
+|size_of_population ={{Increase}} 49,801,559<ref>{{Cite web|url=https://www.ine.es/dyngs/INEbase/en/operacion.htm?c=Estadistica_C&cid=1254736177095&menu=ultiDatos&idp=1254735572981|title=INEbase / Continuous Population Statistics (CPS). 1st April 2026. Provisional data|website=ine.es|access-date=7 May 2026}}</ref> (1 July 2026)
+|growth      ={{Increase}} 0.90% (2026)
+|birth       ={{Decrease}} 7.67 births per 1,000 people/ (2026)<ref name="INE-demografia">{{Cite web | title = Indicadores demográficos básicos. Últimos datos | website = Instituto Nacional de Estadística | publisher = INE | date = 20 November 2024 | url = https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177003&menu=ultiDatos&idp=1254735573002 | access-date = 20 November 2025 }}</ref>
+|death       ={{Decreasepositive}} 8.9 deaths/1,000 people (2024)<ref name="INE-demografia" />
+|life             ={{Increase}} 84.01 years (2024)<ref name="INE-demografia" />
+|life_male        =81.38 years
+|life_female      =86.53 years
+|infant_mortality ={{Decreasepositive}} 2.4 deaths/1,000 live births (2024)
+|fertility        ={{Decrease}} 1.10 children per woman (2024)<ref name="INE-demografia" />
+|total_mf_ratio   =0.95 male(s)/female (2024)<ref name="INE-age-structure">{{Cite web|url=https://www.ine.es/jaxiT3/Tabla.htm?t=56936|title=INEbase / Población residente por fecha, sexo, grupo de edad y nacionalidad|website=ine.es|access-date=22 November 2025}}</ref>
+|sr_at_birth      =1.05 male(s)/female
+|sr_under_15      =1.06 male(s)/female (2024)<ref name="INE-age-structure" />
+|sr_15-64_years   =1.00 male(s)/female (2024)<ref name="INE-age-structure" />
+|sr_65_years_over =0.77 male(s)/female (2024)<ref name="INE-age-structure" />
+|net_migration    =4.1 migrant(s)/1,000 population (2024)
+|immigrant_share = 20.7% (2026)<ref name="r147">{{cite web | title=International Migrant Stock | website=United Nations Population Division | url=https://www.un.org/development/desa/pd/content/international-migrant-stock | access-date=12 June 2026}}</ref>
+|age_0–14_years   = {{decrease}} 12.6% (2025 est.)<ref>[https://genderdata.worldbank.org/en/indicator/sp-pop-zs?view=trend&geos=ESP]</ref>
+|age_15–64_years  = {{decrease}} 65.7% (2025 est.)<ref>[https://genderdata.worldbank.org/en/indicator/sp-pop-zs?view=trend&geos=ESP&age=15-64]</ref>
+|age_65_years     = {{increaseNegative}} 21.6% (2025 est.)<ref>[https://genderdata.worldbank.org/en/indicator/sp-pop-zs?view=trend&geos=ESP&age=65%2B]</ref>
+|nation           = [[Spanish nationality law|Spanish citizen]]
+|major_ethnic     = {{Unbulleted list
+|85.2% [[White people|White]] European{{Efn|name=p|This includes responses identified with terms that fall under the “White” category. These include {{Lang|es|Blanco/a}} (White, 79.0%), {{Lang|es|Español/a}} (Spaniard, 1.3%), {{Lang|es|Europeo/a}} (European, 0.4%), {{Lang|es|Caucásico/a}} (Caucasian, 0.3%) and {{Lang|es|Gentilicio de su comunidad autónoma}} (Demonym of their autonomous community, 0.3%).<ref>{{Cite book |title=Barómetro de abril 2025: Estudio nº 3505 |date=2025 |publisher=[[Centro de Investigaciones Sociológicas]] |url=https://www.cis.es/documents/d/cis/es3505mar_a |access-date=30 April 2025 |language=es}}, 4,009 respondents. The question was {{Lang|es|¿Con cuál de los siguientes términos se identifica más?}}.</ref>}}
+}}
+|minor_ethnic     = {{Unbulleted list
+|7.8% [[Latin American migration to Spain|Latin American]] 
+|1.6% [[Multiracial people|Mixed]]
+|1.3% [[Romani people in Spain|Romani]]
+|1.0% [[Arabs in Spain|Arab]]{{Efn|name=q|This includes responses identified as {{Lang|es|Magrebí}} ([[Maghrebis|Maghrebi]]) or {{lang|es|Árabe}} (Arab).}}
+|0.3% [[Afro-Spaniards|Black]]
+|6.7% not stated}}<ref>{{Cite book |title=Barómetro de abril 2025: Estudio nº 3505 |date=2025 |publisher=[[Centro de Investigaciones Sociológicas]] |url=https://www.cis.es/documents/d/cis/es3505mar_a |access-date=30 April 2025 |language=es}}, 4,009 respondents. The question was {{Lang|es|¿Con cuál de los siguientes términos se identifica más?}}.</ref>
+|official         =[[Spanish language|Spanish]]
+|density=98/km<sup>2</sup> (253.8/sq mi)}}
+[[File:Historical population of Spain.svg|alt=|thumb|415x415px|Historical population of Spain]]
+{{Historical populations
+|type =
+|percentages=pagr
+|footnote = Source: [[Instituto Nacional de Estadística (Spain)|INE]] and [[Our World in Data]]
+|0   | 4600000
+|500 | 4000000
+|1000| 4000000
+|1300| 7500000
+|1500| 6500000
+|1600| 8500000
+|1700| 8000000
+|1833| 12286941
+|1846| 12162872
+|1857| 15464340
+|1877| 16622175
+|1887| 17549608
+|1900| 18616630
+|1910| 19990669
+|1920| 21388551
+|1930| 23677095
+|1940| 26014278
+|1950| 28117873
+|1960| 30582936
+|1970| 33956047
+|1981| 37683363
+|1991| 38872268
+|2001| 40847371
+|2011| 46815916
+|2021| 47400798
+|2026| 49596376
+}}
+
+As of 1 July 2026, [[Spain]] had a total population of 49,801,559. Spain's population surpassed 49 million inhabitants for the first time in 2025.<ref>{{Cite web|url=https://www.ine.es/dyngs/INEbase/en/operacion.htm?c=Estadistica_C&cid=1254736177095&menu=ultiDatos&idp=1254735572981|title=INEbase / Continuous Population Statistics (CPS). 1st January 2026. Provisional data|website=ine.es|access-date=12 February 2026}}</ref> Its [[population density]], at {{convert|97|PD/km2}}, is much lower than other [[Western Europe]]an countries, yet, with the exception of [[microstate]]s, it has the highest real density population in [[Europe]], based on density of inhabited areas.<ref>{{Cite web|url=https://citymonitor.ai/fabric/these-maps-reveal-truth-about-population-density-across-europe-3625|title = These maps reveal the truth about population density across Europe|date = 25 January 2018}}</ref> With the notable exception of [[Madrid]], Spain's capital city, the most densely populated areas lie around the coast, though recent immigration has contributed to a modest population growth in the inland.
+
+The population of Spain doubled during the twentieth century, but the pattern of growth was extremely uneven due to large-scale internal migration from the rural interior to the industrial cities. Eleven of Spain's fifty provinces saw an absolute decline in population over the century. In the first 25 years of the 21st century, population of Spain grew from 40 million in 2000 to more than 49 million in 2025 mostly due to immigration.<ref>{{Cite web |title=Upsides and downsides as Spain's population reaches 50 million |url=https://www.realinstitutoelcano.org/en/commentaries/upsides-and-downsides-as-spains-population-reaches-50-million/ |access-date=2026-01-25 |website=Elcano Royal Institute |language=en-US}}</ref>
+
+In 2024, the average [[total fertility rate]] (TFR) across Spain was 1.10 children born per woman, one of the lowest in the world.<ref name="Indice coyuntural de fecundidad">{{cite web|url=https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177003&menu=ultiDatos&idp=1254735573002|title=Indice coyuntural de fecundidad|publisher=Instituto Nacional de Estadística|access-date=19 June 2024 }}</ref>
+
+==History==
+Spain has an interesting demographic evolution in the last two centuries, reflecting the tumultuous history of Spain during the 19th and 20th centuries. In 1808–1814 the [[Peninsular War]] happened in Spain, causing 1 million deaths. Spain maintained a steady population growth after this war, though the [[economic stagnation]] of Spain resulted in a [[Spanish diaspora|mass emigration to the Americas]], mostly to the Spanish-speaking countries of the Americas, as approximately 3,5 million Spaniards moved to Latin America from 1850 to 1950.<ref>{{Cite web|url=https://www.bruegel.org/blog-post/remarkable-case-spanish-immigration|title=The remarkable case of Spanish immigration|date=2016-07-04|website=Bruegel {{!}} The Brussels-based economic think tank|language=en|accessdate=2026-04-18}}</ref> The [[1918 flu pandemic|Flu pandemic]] in 1918-19 left more than 200,000 dead in Spain.
+
+The [[Spanish Civil War]] (1936–1939), which resulted in the establishment of a far-right [[Francoist Spain|dictatorship]], resulted in the emigration of hundreds of thousands of Spaniards. Some 25,000 moved to Mexico<ref>{{Cite web|url=https://english.elpais.com/elpais/2017/03/28/inenglish/1490695168_146996.html|title=Spanish exiles in Mexico: a story of gratitude|last=Kadner|first=Marién|date=2017-03-28|website=EL PAÍS English|language=en|accessdate=2026-04-18}}</ref> The deepening of [[Great Depression|economic depression]] after 1939 resulted in mass emigration to European and American countries due to economic and political motives, with approximately 1 million people settling in Latin America.<ref name=":01">{{Cite news|url=https://www.lemonde.fr/en/international/article/2025/10/05/returning-to-spain-after-generations-of-exile_6746114_4.html|title=Returning to Spain after generations of exile|work=Le Monde.fr|language=en-US|accessdate=2026-04-18}}</ref> In 1941, the government approved benefits for large families with at least four children,<ref name="todopapas">{{Cite web|url=https://www.todopapas.com/|title=La evolución de las familias numerosas|last=todopapas|website=www.todopapas.com|language=es|access-date=2022-11-25}}</ref> and in 1945 approved a law allowing tax deductions for parents.<ref>{{cite web|url=http://e-archivo.uc3m.es/bitstream/handle/10016/5416/olvidando_valiente_GAPP_1996.pdf?sequence=1|title=Forgetting the past: The familiar policy of Spain (1975-1996)|last=Fernández|first=Celia Valiente|publisher=Charles III University of Madrid}}</ref> The Spanish democratisation after 1975, resulted in return of some Civil War exiles, and after 1980 the birthrates declined as contraception and abortion were legalised. By 1988, after centuries of net negative migration, the first events of [[illegal immigration]] from Africa occurred,<ref>{{Cite web|url=https://www.publico.es/actualidad/primera-patera-llego-canarias-20.html|title=La primera patera llegó a Canarias hace 20 años|date=13 September 2008|website=www.publico.es|access-date=2022-11-25}}</ref> and in 1991 Spain became a net receiver of migrants after decades of [[Spanish diaspora|mass emigration]].<ref>{{cite web|url=http://www.perpe.es/2014/07/07/es4714/|title=Saldo migratorio en España desde 1940 / Net migration in Spain since 1940|date=7 July 2014}}</ref> In 1994 the government lowered threshold of requirements to become a large family: only three children needed.<ref name="todopapas" />
+
+The 2000s were characterised from a huge economic boom caused mainly by lower interest rates after adopting the Euro,<ref>{{Cite web|url=https://www.realinstitutoelcano.org/en/commentaries/upsides-and-downsides-as-spains-population-reaches-50-million/|title=Upsides and downsides as Spain's population reaches 50 million|website=Elcano Royal Institute|language=en-US|accessdate=2026-04-18}}</ref> resulting in the number of migrants skyrocketing from 924,000 in 2000 to 5,6 million in 2010,<ref>{{Cite news|url=https://www.theguardian.com/world/2010/feb/08/spain-sixfold-increase-immigrants|title=Spain sees sixfold increase in immigrants over decade|last=Worden|first=Tom|work=The Guardian|date=2010-02-08|language=en-GB|issn=0261-3077|accessdate=2026-04-18}}</ref> mostly from Africa, South America and Europe. Thus, Spain saw large-scale migration from its former colonies for the first time. Then, the economic crisis of Spain in 2008–2014 resulted in an emigration of hundreds of thousands of migrants.<ref>{{Cite news|url=https://www.bbc.com/news/world-europe-22251840|title=Spain's population shrinks as immigrants flee economic crisis|work=BBC News|date=2013-04-22|language=en-GB|accessdate=2026-04-18}}</ref> During the early 2000s, the mean year-on-year demographic growth set a new record with its 2003 peak variation of 2.1%, doubling the previous record reached back in the 1960s when a mean year-on-year growth of 1% was experienced.<ref>{{Cite journal |date=2006 |title=Official report on Spanish recent Macroeconomics, including data and comments on immigration |url=http://www.la-moncloa.es/NR/rdonlyres/2E85E75E-E2D9-4148-B1DF-950B06696A6C/74823/Chapter_2.PDF |url-status=dead |journal=National Reform Program |volume=2 |archive-url=https://web.archive.org/web/20080726044742/http://www.la-moncloa.es/NR/rdonlyres/2E85E75E-E2D9-4148-B1DF-950B06696A6C/74823/Chapter_2.PDF |archive-date=2008-07-26 |access-date=2022-11-25 |via=la-moncloa.es}}</ref> In 2005 alone, the immigrant population of Spain increased by 700,000 people.<ref>{{cite web |url=http://www.ine.es/inebase/cgi/axi?AXIS_PATH%3D%2Finebase%2Ftemas%2Ft20%2Fe245%2Fp08%2Fl0%2F%26FILE_AXIS%3D04001.px%26CGI_DEFAULT%3D%2Finebase%2Ftemas%2Fcgi.opt%26COMANDO%3DSELECCION%26CGI_URL%3D%2Finebase%2Fcgi%2F |title=Instituto Nacional de Estadística. Base de datos INEbase |access-date=29 September 2007 |url-status=dead |archive-url=https://web.archive.org/web/20070929140743/http://www.ine.es/inebase/cgi/axi?AXIS_PATH=%2Finebase%2Ftemas%2Ft20%2Fe245%2Fp08%2Fl0%2F&FILE_AXIS=04001.px&CGI_DEFAULT=%2Finebase%2Ftemas%2Fcgi.opt&COMANDO=SELECCION&CGI_URL=%2Finebase%2Fcgi%2F |archive-date=29 September 2007 }}</ref> The arrival of migrating young adults was the main reason for the slight increase in Spain's [[fertility rate]].<ref>{{Cite web |title=Evolution of the global fertility rate between 1975 and 2005 |url=http://www.ine.es/inebase2/tabla.jsp?searchString=&L=0&idTabla=18&periodicidad=12&unidades=Nacidos+por+1000+mujeres+de+15+a+49+a%F1os&diviDescripcion=Indicadores+Demogr%E1ficos+B%E1sicos&divi=IDB&capitulo=Natalidad+y+Fecundidad&tabla=Tasa+global+de+fecundidad%2C+por+1000+mujeres.+Total+nacional+y+comunidades+aut%F3nomas&his=0 |access-date=2022-11-25 |publisher=Instituto Nacional de Estadística |archive-date=29 September 2007 |archive-url=https://web.archive.org/web/20070929142153/http://www.ine.es/inebase2/tabla.jsp?searchString=&L=0&idTabla=18&periodicidad=12&unidades=Nacidos+por+1000+mujeres+de+15+a+49+a%F1os&diviDescripcion=Indicadores+Demogr%E1ficos+B%E1sicos&divi=IDB&capitulo=Natalidad+y+Fecundidad&tabla=Tasa+global+de+fecundidad,+por+1000+mujeres.+Total+nacional+y+comunidades+aut%F3nomas&his=0 |url-status=dead }}</ref> From 2002 through 2008 the Spanish population grew by 8%, of whom 75% were foreign.<ref>{{cite web|url=http://www.abc.es/20080804/nacional-sociedad/nuevos-habitantes-espana-extranjero-200808042246.html|title=El 75% de los nuevos habitantes de España es extranjero, según un estudio – Nacional_Sociedad – Nacional – ABC.es|last=ABC|website=ABC|date=4 August 2008}}</ref>
+
+After 2018, the population began to grow again, thanks to the growth of immigration from abroad, despite negative fertility. Despite growing population, Spain is struggling with a declining population in rural areas ([[Empty Spain]]).<ref>{{Cite web|url=https://www.voanews.com/a/europe_spain-battles-rural-depopulation/6203456.html|title=Spain Battles Rural Depopulation|date=2021-03-18|website=Voice of America|language=en|accessdate=2026-04-18}}</ref>
+
+In 2020s, due to the [[Democratic Memory Law]], which allowed hundreds of thousands of descendants of Civil War exiles to regain Spanish citizenship,<ref>{{Cite web|url=https://english.elpais.com/spain/2022-12-31/a-return-ticket-for-the-grandchildren-of-spanish-exiles-in-latin-america.html|title=A return ticket for the grandchildren of Spanish exiles in Latin America|last=Singer|first=Mar Centenera, Carmen Morán Breña, Florantonia|date=2022-12-31|website=EL PAÍS English|language=en-us|accessdate=2026-04-18}}</ref> many Latin Americans of Spanish descent obtained Spanish citizenship and some of them have moved to Spain.<ref name=":0" /> The 2020s have been characterised by a large growth of immigration in Spain, especially in provincial capitals and large cities.<ref>{{Cite web|url=https://www.caixabankresearch.com/en/sectoral-analysis/real-estate/population-and-home-prices-spain-close-relationship|title=Population and home prices in Spain: a close relationship|date=2024-03-08|website=CaixaBank Research|language=en|accessdate=2026-04-18}}</ref> Since 2022, more than 1,6 million people have moved to Spain.
+
+Spain has a low [[Total fertility rate|fertility rate]] of only 1,11 as of 2025. The number of births in Spain declined from 420,000 in 2015 to 321,000 in 2025. Though immigration has contributed to a small increase in the birthrates in 2025, the number of births to mothers under 25 years old in Spain is decreasing. Conversely, the share of births to mothers above the age of 40 has increased.<ref>{{Cite web |date=2026-03-06 |title=Spain's birth rate rises for first time in a decade — idealista/news |url=https://www.idealista.com/en/news/property-for-sale-in-spain/2026/03/06/885278-the-birth-rate-in-spain-is-growing-for-the-first-time-in-a-decade |access-date=2026-04-19 |website=www.idealista.com |language=en}}</ref>
+
+Also, due to the high immigration rates of Spain, many people are being naturalised every year. In 2025, 299,732 residents of Spain acquired the Spanish nationality,<ref>{{Cite web |title=INEbase. CONSUL |url=https://www.ine.es/consul/serie.do?d=true&s=ANES3445 |access-date=2026-05-28 |website=INE}}</ref> including 142,000 residents from South American countries.
+
+== Population ==
+
+{{flexbox wrap|min_width=700px|start}}
+{{Chart|definition=Spain Total Population.chart|data=Spain Total Population.tab|width=700px}}
+{{flexbox wrap|min_width=700px|break}}
+{{Chart|definition=Spain Population Change.chart|data=Spain Population Change.tab|width=700px}}
+{{flexbox wrap|min_width=700px|break}}
+{{Chart|definition=Spain Natural population growth.chart|data=Spain Natural population growth.tab|width=700px}}
+Note: Crude migration change (per 1,000) is a trend analysis, an extrapolation based on average population change (current year minus previous) minus natural change of the current year (see table vital statistics). Average population is an estimate of the population in the middle of the year and not at the end of the year.
+{{flexbox wrap|min_width=700px|break}}
+{{Chart|definition=Spain TFR.chart|data=Spain TFR.tab|width=700px}}
+{{flexbox wrap|end}}
+
+=== Population growth ===
+[[File:Natural population growth of Spain since 1950.png|thumb|right|300x300px|Birth and death rates and natural changes of Spain in 1950–2012.]]
+[[File:Life expectancy map of Spain 2023 with names.png|thumb|Provinces of Spain by life expectancy in 2023<ref>{{cite web |url=https://www.ine.es/jaxiT3/Tabla.htm?t=1485&L=1 |title=Spanish Statistical Office: Life expectancy at birth by Province and by sex |language=en |work=[[National Statistics Institute (Spain)]] |access-date=14 February 2025}}</ref>]]
+
+'''Population growth rate'''
+; 2022 est.: 0.13%
+; Country comparison to the world: 143rd
+; 2017 est.: 0.78%
+
+=== Life expectancy ===
+{{See also|List of Spanish provinces by life expectancy}}
+[[File:Life-expectancy, 1882 to 2023, ESP.svg|thumb|300px|Life expectancy in Spain since 1882]]
+{| class="wikitable" style="text-align:right;width:270px"
+|+1882–1950
+!Year !! Life expectancy in years
+|-
+|1882 || 29.5
+|-
+|1892 || 32.1
+|-
+|1900 || 34.8
+|-
+|1908 || 41.3
+|-
+|1909 || 41.0
+|-
+|1910 || 40.8
+|-
+|1911 || 39.7
+|-
+|1912 || 43.4
+|-
+|1913 || 42.5
+|-
+|1914 || 42.8
+|-
+|1915 || 43.0
+|-
+|1916 || 42.9
+|-
+|1917 || 42.5
+|-
+|1918 || 30.3
+|-
+|1919 || 41.1
+|-
+|1920<ref name=":0">{{Cite web|url=https://ourworldindata.org/grapher/life-expectancy?year=1810|title=Life expectancy|website=Our World in Data|access-date=28 August 2018}}</ref> || 39.2
+|-
+|1921 || 42.0
+|-
+|1922 || 44.1
+|-
+|1923 || 44.7
+|-
+|1924 || 46.2
+|-
+|1925 || 46.9
+|-
+|1926 || 47.7
+|-
+|1927 || 48.4
+|-
+|1928 || 48.6
+|-
+|1929 || rowspan="2" | 49.3
+|-
+|1930<ref name=":0" />
+|-
+|1931 || 49.2
+|-
+|1932 || 51.1
+|-
+|1933 || 51.5
+|-
+|1934 || 52.3
+|-
+|1935 || 52.6
+|-
+|1936 || 51.0
+|-
+|1937 || 47.3
+|-
+|1938 || 47.6
+|-
+|1939 || 47.2
+|-
+|1940<ref name=":0" /> || 48.4
+|-
+|1941 || 47.2
+|-
+|1942 || 52.5
+|-
+|1943 || 54.8
+|-
+|1944 || 56.2
+|-
+|1945 || 57.8
+|-
+|1946 || 57.5
+|-
+|1947 || 59.3
+|-
+|1948 || 61.2
+|-
+|1949 || 61.0
+|-
+|1950<ref name=":0" /> || 61.8
+|}
+Sources: [[Our World In Data]] and the [[United Nations]].
+[[File:Life expectancy by WBG -Spain -diff.png|thumb|300px|[[Life expectancy]] in Spain since 1960]]
+{| class="wikitable"
+|+1950-2015
+!Period
+!Life expectancy in years
+|-
+|1950–1955
+|64.6
+|-
+|1955–1960
+|67.8
+|-
+|1960–1965
+|69.9
+|-
+|1965–1970
+|71.4
+|-
+|1970–1975
+|72.7
+|-
+|1975–1980
+|74.4
+|-
+|1980–1985
+|76.1
+|-
+|1985–1990
+|76.9
+|-
+|1990–1995
+|77.6
+|-
+|2000–2005
+|79.9
+|-
+|2005–2010
+|81.2
+|-
+|2010–2015
+|82.5
+|}
+Source: ''UN World Population Prospects''<ref>{{cite web|title=World Population Prospects – Population Division – United Nations|url=https://esa.un.org/unpd/wpp/DataQuery/|access-date=15 July 2017|archive-url=https://web.archive.org/web/20160919061238/https://esa.un.org/unpd/wpp/DataQuery/|archive-date=19 September 2016|url-status=dead}}</ref>
+
+'''Life expectancy at birth'''
+
+;Total population: 84.01 years (2024)
+;Male: 81.38 years (2024)
+;Female: 86.53 years (2024)
+
+;Infant mortality rate: 3.14 deaths/1,000 live births (2021 est.)
+;Country comparison to the world: 216th
+;Crude death rate:9.78 deaths/1,000 population (2021 est.)
+;Country comparison to the world: 55th
+
+=== Fertility ===
+[[File:Total fertility rate of Spain overtime to 2016.svg|thumb|300x300px|TFR of Spain over time to 2016]]
+[[File:Spain total fertility rate by region 2014.png|thumb|Spain total fertility rate by province (2014)
+{{bulleted list
+|1={{legend|#ffff7f|1.5–1.7}}
+|2={{legend|#ffbf3f|1.4–1.5}}
+|3={{legend|#ff7f7e|1.3–1.4}}
+|4={{legend|#ff3e3e|< 1.3}}
+}}]]
+The [[total fertility rate]] is the number of children born per woman. It is based on fairly good data for the entire period. Sources: [[Our World In Data]] and [[Gapminder Foundation]].<ref name="ourworldindata.org">{{citation|url=https://ourworldindata.org/grapher/children-born-per-woman?year=1800&country=ESP|title=Total Fertility Rate around the world over the last centuries|author=Max Roser|date=2014|work=[[Our World In Data]], [[Gapminder Foundation]]|access-date=7 August 2018|archive-url=https://web.archive.org/web/20180807185751/https://ourworldindata.org/grapher/children-born-per-woman?year=1800&country=ESP|archive-date=7 August 2018|url-status=dead}}</ref>
+{| class="wikitable" style="text-align:right;width:270px"
+|+1850-1899
+|-
+!Year !! Fertility rate
+|-
+|-
+|1850 || style="color:#00e;"|5.13
+|-
+|1851 || style="color:#00e;"|5.07
+|-
+|1852 || style="color:#00e;"|5.01
+|-
+|1853 || style="color:#00e;"|4.95
+|-
+|1854 || style="color:#00e;"|4.89
+|-
+|1855 || style="color:#00e;"|4.83
+|-
+|1856 || style="color:#00e;"|4.78
+|-
+|1857 || style="color:#00e;"|4.72
+|-
+|1858 || style="color:#00e;"|4.66
+|-
+|1859 || style="color:#00e;"|4.75
+|-
+|1860<ref name="ourworldindata.org"/> || style="color:#00e;"|4.86
+|-
+|1861 || style="color:#00e;"|5.16
+|-
+|1862 || style="color:#00e;"|5.09
+|-
+|1863 || style="color:#00e;"|5
+|-
+|1864 || style="color:#00e;"|5.19
+|-
+|1865 || style="color:#00e;"|5.11
+|-
+|1866 || style="color:#00e;"|5.07
+|-
+|1867 || style="color:#00e;"|5.09
+|-
+|1868 || style="color:#00e;"|4.72
+|-
+|1869 || style="color:#00e;"|4.9
+|-
+|1870<ref name="ourworldindata.org"/> || style="color:#00e;"|4.84
+|-
+|1871 || rowspan="2" style="color:#00e;"|4.83
+|-
+|1872
+|-
+|1873 || style="color:#00e;"|4.82
+|-
+|1874 || style="color:#00e;"|4.81
+|-
+|1875 || style="color:#00e;"|4.8
+|-
+|1876 || style="color:#00e;"|4.79
+|-
+|1877 || rowspan="2" style="color:#00e;"|4.78
+|-
+|1878
+|-
+|1879 || style="color:#00e;"|4.74
+|-
+|1880<ref name="ourworldindata.org"/> || style="color:#00e;"|4.7
+|-
+|1881 || style="color:#00e;"|4.91
+|-
+|1882 || style="color:#00e;"|4.79
+|-
+|1883 || style="color:#00e;"|4.71
+|-
+|1884 || style="color:#00e;"|4.86
+|-
+|1885 || style="color:#00e;"|4.8
+|-
+|1886 || style="color:#00e;"|4.86
+|-
+|1887 || style="color:#00e;"|4.78
+|-
+|1888 || rowspan="2" style="color:#00e;"|4.82
+|-
+|1889
+|-
+|1890<ref name="ourworldindata.org"/> || style="color:#00e;"|4.55
+|-
+|1891 || style="color:#00e;"|4.67
+|-
+|1892 || rowspan="2" style="color:#00e;"|4.71
+|-
+|1893
+|-
+|1894 || style="color:#00e;"|4.6
+|-
+|1895 || style="color:#00e;"|4.63
+|-
+|1896 || style="color:#00e;"|4.75
+|-
+|1897 || style="color:#00e;"|4.51
+|-
+|1898 || style="color:#00e;"|4.41
+|-
+|1899<ref name="ourworldindata.org"/> || style="color:#00e;"|4.53
+|}
+;Crude birth rate: 8.05 births/1,000 population (2021 est.)
+;Country comparison to the world: 212th
+;Total fertility rate: 1.16 children born/woman (2022)<ref name="Indice coyuntural de fecundidad"/> Country comparison to the world: 207th
+;Mother's mean age at first birth: 30.9 years (2017 est.)
+
+=== Age structure ===
+;0–14 years: 15.02% (male 3,861,522/female 3,650,085)
+;15–24 years: 9.9% (male 2,557,504/female 2,392,498)
+;25–54 years: 43.61% (male 11,134,006/female 10,675,873)
+;55–64 years: 12.99% (male 3,177,080/female 3,319,823)
+;65 years and over: 18.49% (male 3,970,417/female 5,276,984) (2020 est.)
+
+====Structure of the population====
+
+{| class="wikitable collapsible" style="text-align:right"
+|+Population Estimates by Sex and Age Group (01.I.2021) (Data refer to registered resident population.)<ref>{{Cite web |title=UNSD — Demographic and Social Statistics |url=https://unstats.un.org/unsd/demographic-social/products/dyb/#statistics |access-date=2023-05-10 |website=unstats.un.org}}</ref>
+|-
+! width="80pt"|Age group
+! width="80pt"|Male
+! width="80pt"|Female
+! width="80pt"|Total
+! width="80pt"|%
+|-
+| 0–4
+| 989 957
+| 936 296
+| 1 926 253
+| 4.06
+|-
+| 5–9
+| 1 182 657
+| 1 111 874
+| 2 294 531
+| 4.84
+|-
+| 10–14
+| 1 310 725
+| 1 227 805
+| 2 538 530
+| 5.36
+|-
+| 15–19
+| 1 259 328
+| 1 178 983
+| 2 438 311
+| 5.14
+|-
+| 20–24
+| 1 228 307
+| 1 164 436
+| 2 392 743
+| 5.05
+|-
+| 25–29
+| 1 283 969
+| 1 247 891
+| 2 531 860
+| 5.34
+|-
+| 30–34
+| 1 373 686
+| 1 371 909
+| 2 745 595
+| 5.79
+|-
+| 35–39
+| 1 588 932
+| 1 607 493
+| 3 196 425
+| 6.74
+|-
+| 40–44
+| 1 949 687
+| 1 935 067
+| 3 884 754
+| 8.20
+|-
+| 45–49
+| 1 982 307
+| 1 949 746
+| 3 932 053
+| 8.30
+|-
+| 50–54
+| 1 847 825
+| 1 852 726
+| 3 700 551
+| 7.81
+|-
+| 55–59
+| 1 688 389
+| 1 740 775
+| 3 429 164
+| 7.23
+|-
+| 60–64
+| 1 464 713
+| 1 552 291
+| 3 017 004
+| 6.37
+|-
+| 65–69
+| 1 187 562
+| 1 303 094
+| 2 490 656
+| 5.25
+|-
+| 70–74
+| 1 024 938
+| 1 190 297
+| 2 215 235
+| 4.67
+|-
+| 75–79
+| 791 421
+| 990 173
+| 1 781 594
+| 3.76
+|-
+| 80–84
+| 533 545
+| 773 766
+| 1 307 311
+| 2.76
+|-
+| 85–89
+| 366 344
+| 630 406
+| 996 750
+| 2.10
+|-
+| 90–94
+| 140 288
+| 309 931
+| 450 219
+| 0.95
+|-
+| 95–99
+| 30 128
+| 86 008
+| 116 136
+| 0.25
+|-
+| 100+
+| 2 574
+| 10 446
+| 13 020
+| 0.03
+|-
+!scope="row"|Total
+| 23 227 282
+| 24 171 413
+| 47 398 695
+| 100
+|-
+! style="width:50px"|Age group
+! style="width:80pt"|Male
+! style="width:80px"|Female
+! style="width:80px"|Total
+! style="width:50px"|Percent
+|-
+| 0–14
+| 3 483 339
+| 3 275 975
+| 6 759 314
+| 14.26
+|-
+| 15–64
+| 15 667 143
+| 15 601 317
+| 31 268 460
+| 65.97
+|-
+| 65+
+| 4 076 800
+| 5 294 121
+| 9 370 921
+| 19.77
+|}
+
+'''Median age'''
+
+;Total: 43.9 years
+;Male: 42.7 years
+;Female: 45.1 years (2020 est.)
+;Country comparison to the world: 21st
+<gallery widths=320 heights=220 mode=packed>
+File:Pirámide de población de España (1900).png|Population pyramid of Spain in 1900
+File:Spain 1950-2014 Population pyramid.gif|Demographic evolution of Spain 1950–2014
+File:Spain_animated_population_pyramid_by_country_of_birth.gif|Demographic evolution by age, sex and country of birth (Spain, Foreign)  2002-2021
+</gallery>
+
+{{clear}}
+
+== Vital statistics ==
+===Statistics since 1858===
+Source: [[National Statistics Institute (Spain)|Instituto Nacional de Estadística]] (INE)<ref>{{cite web|url=http://www.ine.es/inebaseweb/25687.do|title=Fondo documental. Historia|website=www.ine.es}}</ref><ref>{{cite web|url=http://www.ine.es/en/inebmenu/mnu_mnp_en.htm|title=Instituto Nacional de Estadística Vital Statistics|access-date=8 March 2012|archive-url=https://web.archive.org/web/20120312051823/http://www.ine.es/en/inebmenu/mnu_mnp_en.htm|archive-date=12 March 2012|url-status=dead}}</ref><ref name="ourworldindata.org"/><ref>{{Cite book |last=Carreras |first=Albert |title=Estadísticas Históricas de España, siglos XIX–XX |publisher=Fundación BBVA |year=2005}}</ref>
+
+Notable events in Spanish demographics:
+
+* 1865, 1885 – [[History of cholera|Major cholera outbreaks]]
+* 1872–1876 – [[Third Carlist War]]
+* 1873 – [[Cantonal Rebellion]]
+* 1918–1920 – [[Spanish flu|Spanish Flu]]
+* 1936–1939 – [[Spanish Civil War]]
+* 1940–1947 – [[White Terror (Spain)|White Terror]]
+* 2020–2022 – [[COVID-19 pandemic in Spain|COVID-19 Pandemic]]
+
+{{sticky-header}}{{sort under}}{{table alignment}}
+{| class="wikitable sortable sort-under sticky-header-multi" style="text-align:right;"
+|-
+! width="80pt"|Year
+! width="80pt"|Average population<br />{{efn|1 January}}
+! width="80pt"|Live births
+! width="80pt"|Deaths
+! width="80pt"|Natural change
+! width="80pt"|Crude birth rate (per 1000)
+! width="80pt"|Crude death rate (per 1000)
+! width="80pt"|Natural change (per 1000)
+! width="80pt"|Crude migration change (per 1000)
+! width="80pt"|[[Total Fertility Rate|Total fertility rates]]{{efn|In fertility rates, 2.1 and above is a stable population and has been marked blue, 2 and below leads to an aging population and the result is that the population decreases. }}<ref name="ourworldindata.org"/>
+|-
+| 1858
+| align="right"  style="color: #d20" | 15,526,000
+| 546,200
+| 433,900
+| 112,300
+| 35.2
+| 28.0
+| 7.2
+|
+|align="right" style="color: blue" |4.66
+|-
+| 1859
+| 15,584,000
+| 559,000
+| 449,000
+| 110,000
+| 35.9
+| 28.8
+| 7.1
+| -3.4
+|align="right" style="color: blue" |4.75
+|-
+| 1860
+| 15,642,000
+| 573,500
+| 429,000
+| 144,500
+| 36.7
+| 27.4
+| 9.3
+| −5.6
+|align="right" style="color: blue" |4.86
+|-
+| 1861
+| 15,699,000
+| 611,600
+| 417,800
+| 193,800
+| 39.0
+| 26.6
+| 12.4
+| −8.8
+|align="right" style="color: blue" |5.16
+|-
+| 1862
+| 15,754,000
+| 607,100
+| 430,700
+| 176,400
+| 38.5
+| 27.3
+| 11.2
+| −7.7
+|align="right" style="color: blue" |5.09
+|-
+| 1863
+| 15,809,000
+| 598,100
+| 461,700
+| 136,400
+| 37.8
+| 29.2
+| 8.6
+| −5.2
+|align="right" style="color: blue" |5.00
+|-
+| 1864
+| 15,864,000
+| 621,500
+| 499,500
+| 122,000
+| style="color: blue" |39.2
+| 31.5
+| 7.7
+| −4.2
+|align="right" style="color: blue" |5.19
+|-
+| 1865
+| 15,920,000
+| 614,900
+| 538,600
+| 76,300
+| 38.6
+| 33.8
+| 4.8
+| −1.3
+|align="right" style="color: blue" |5.11
+|-
+| 1866
+| 15,976,000
+| 611,700
+| 463,700
+| 148,000
+| 38.3
+| 29.0
+| 9.3
+| −5.8
+|align="right" style="color: blue" |5.07
+|-
+| 1867
+| 16,032,000
+| 624,200
+| 487,200
+| 137,000
+| 38.8
+| 30.4
+| 8.4
+| −5.1
+|align="right" style="color: blue" |5.09
+|-
+| 1868
+| 16,088,000
+| 579,600
+| 548,700
+| 30,900
+| 35.9
+| 34.1
+| 1.8
+|1.6
+|align="right" style="color: blue" |4.72
+|-
+| 1869
+| 16,144,000
+| 602,300
+| 550,600
+| 51,700
+| 37.2
+| 34.1
+| 3.1
+|0.3
+|align="right" style="color: blue" |4.90
+|-
+| 1870
+| 16,201,000
+| 598,300
+| 512,200
+| 86,100
+| 36.8
+| 31.6
+| 5.2
+| −1.8
+|align="right" style="color: blue" |4.84
+|-
+| valign="top" |1871
+| valign="top" |16,258,000
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+|
+|align="right" style="color: blue" |4.83
+|-
+| valign="top" |1872
+| valign="top" |16,315,000
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+|
+|align="right" style="color: blue" |4.83
+|-
+| valign="top" |1873
+| valign="top" |16,372,000
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+|
+|align="right" style="color: blue" |4.82
+|-
+| valign="top" |1874
+| valign="top" |16,429,000
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+|
+|align="right" style="color: blue" |4.81
+|-
+| valign="top" |1875
+| valign="top" |16,487,000
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+|
+|align="right" style="color: blue" |4.80
+|-
+| valign="top" |1876
+| valign="top" |16,545,000
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+| valign="top" |
+|
+|align="right" style="color: blue" |4.79
+|-
+| valign="top" |1877
+| valign="top" |16,603,000
+|
+|
+|
+|
+|
+|
+|
+|align="right" style="color: blue" |4.78
+|-
+| 1878
+|16,677,000
+| 601,500
+| 508,300
+| 93,200
+| 36.1
+| 30.5
+| 5.6
+| −1.2
+|align="right" style="color: blue" |4.78
+|-
+| 1879
+| 16,768,000
+| 601,100
+| 511,500
+| 89,600
+| 35.8
+| 30.5
+| 5.3
+|0.1
+|align="right" style="color: blue" |4.74
+|-
+| 1880
+| 16,859,000
+| 598,200
+| 507,300
+| 90,900
+| 35.5
+| 30.1
+| 5.4
+|0.0
+|align="right" style="color: blue" |4.70
+|-
+| 1881
+| 16,951,000
+| 629,600
+| 511,800
+| 117,800
+| 37.1
+| 30.2
+| 6.9
+| −1.5
+|align="right" style="color: blue" |4.91
+|-
+| 1882
+| 17,043,000
+| 617,000
+| 534,900
+| 82,100
+| 36.2
+| 31.4
+| 4.8
+|0.6
+|align="right" style="color: blue" |4.79
+|-
+| 1883
+| 17,136,000
+| 610,700
+| 559,600
+| 51,100
+| 35.6
+| 32.7
+| 2.9
+|2.5
+|align="right" style="color: blue" |4.71
+|-
+| 1884
+| 17,230,000
+| 631,800
+| 526,500
+| 105,300
+| 36.7
+| 30.6
+| 6.1
+| −0.7
+|align="right" style="color: blue" |4.86
+|-
+| 1885
+| 17,323,000
+| 629,000
+| 657,700
+|align="right"  style="color: #d20" |−28,700
+| 36.3
+|  style="color: red" |38.0
+| −1.7
+|7.1
+|align="right" style="color: blue" |4.80
+|-
+| 1886
+| 17,418,000
+| 638,200
+| 509,600
+| 128,600
+| 36.7
+| 29.2
+| 7.5
+| −1.9
+|align="right" style="color: blue" |4.86
+|-
+| 1887
+| 17,513,000
+| 631,800
+| 573,400
+| 58,400
+| 36.1
+| 32.8
+| 3.3
+|2.1
+|align="right" style="color: blue" |4.78
+|-
+| 1888
+| 17,600,000
+| 640,200
+| 529,500
+| 110,700
+| 36.4
+| 30.1
+| 6.3
+| −1.4
+|align="right" style="color: blue" |4.82
+|-
+| 1889
+| 17,678,000
+| 647,600
+| 545,100
+| 102,500
+| 36.6
+| 30.8
+| 5.8
+| −1.4
+|align="right" style="color: blue" |4.82
+|-
+| 1890
+| 17,757,000
+| 615,500
+| 577,500
+| 38,000
+| 34.7
+| 32.5
+| 2.2
+|2.3
+|align="right" style="color: blue" |4.55
+|-
+| 1891
+| 17,836,000
+| 632,900
+| 566,000
+| 66,900
+| 35.5
+| 31.7
+| 3.8
+|0.7
+|align="right" style="color: blue" |4.67
+|-
+| 1892
+| 17,916,000
+| 645,400
+| 554,300
+| 91,100
+| 36.0
+| 30.9
+| 5.1
+| −0.6
+|align="right" style="color: blue" |4.71
+|-
+|1893
+|17,996,000
+|644,938
+|541,121
+|103,817
+|35.8
+|30.1
+|5.8
+| −1.3
+| align="right" style="color: blue" |4.71
+|-
+|1894
+|18,076,000
+|632,538
+|556,120
+|76,418
+|35.0
+|30.8
+|4.3
+|0.2
+| align="right" style="color: blue" |4.60
+|-
+|1895
+|18,151,000
+|636,130
+|527,192
+|108,938
+|35.1
+|29.1
+|6.0
+| −1.9
+| align="right" style="color: blue" |4.63
+|-
+|1896
+|18,238,000
+|654,796
+|539,145
+|115,651
+|35.9
+|29.6
+|6.3
+| −1.6
+| align="right" style="color: blue" |4.75
+|-
+|1897
+|18,320,000
+|625,249
+|520,165
+|105,084
+|34.1
+|28.4
+|5.7
+| −1.3
+| align="right" style="color: blue" |4.51
+|-
+|1898
+|18,402,000
+|612,288
+|518,750
+|93,538
+|33.3
+|28.2
+|5.1
+| −0.6
+| align="right" style="color: blue" |4.41
+|-
+|1899
+|18,454,000
+|632,588
+|533,109
+|99,479
+|34.3
+|28.9
+|5.4
+|0.7
+| align="right" style="color: blue" |4.53
+|-
+| 1900
+| 18,520,000
+| 627,848
+| 536,716
+| 91,132
+| 33.9
+| 29.0
+| 4.9
+| –1.4
+| align="right" style="color: blue" |4.49
+|-
+| 1901
+| 18,610,000
+| 650,649
+| 517,575
+| 133,074
+| 35.0
+| 27.8
+| 7.1
+| −1.2
+| align="right" style="color: blue" |4.71
+|-
+| 1902
+| 18,720,000
+| 666,687
+| 488,289
+| 178,398
+| 35.6
+| 26.1
+| 9.6
+| −4.8
+| align="right" style="color: blue" | 4.70
+|-
+| 1903
+| 18,810,000
+| 685,265
+| 470,387
+| 214,878
+| 36.4
+| 25.0
+| 11.4
+| −2.4
+| align="right" style="color: blue" | 4.68
+|-
+| 1904
+| 18,980,000
+| 649,878
+| 486,889
+| 162,989
+| 34.2
+| 25.7
+| 8.6
+| −1.8
+| align="right" style="color: blue" | 4.67
+|-
+| 1905
+| 19,110,000
+| 670,651
+| 491,369
+| 179,282
+| 35.1
+| 25.7
+|9.4
+| −2.1
+| align="right" style="color: blue" | 4.66
+|-
+| 1906
+| 19,250,000
+| 650,385
+| 499,018
+| 151,367
+| 33.8
+| 25.9
+| 7.8
+| −1.0
+| align="right" style="color: blue" | 4.61
+|-
+| 1907
+| 19,380,000
+| 646,371
+| 472,007
+| 174,364
+| 33.3
+| 24.4
+| 9.0
+| −1.3
+| align="right" style="color: blue" | 4.57
+|-
+| 1908
+| 19,530,000
+| 658,008
+| 460,946
+| 197,062
+| 33.7
+| 23.6
+| 10.1
+| −2.9
+| align="right" style="color: blue" | 4.52
+|-
+| 1909
+| 19,670,000
+| 650,498
+| 466,648
+| 183,850
+| 33.1
+| 23.7
+| 9.3
+| −4.2
+| align="right" style="color: blue" | 4.48
+|-
+| 1910
+| 19,770,000
+| 646,975
+| 456,158
+| 190,817
+| 32.7
+| 23.1
+| 9.7
+| −0.6
+| align="right" style="color: blue" | 4.43
+|-
+| 1911
+| 19,950,000
+| 628,443
+| 466,525
+| 161,918
+| 31.5
+| 23.4
+| 8.1
+| −3.6
+| align="right" style="color: blue" | 4.39
+|-
+| 1912
+| 20,040,000
+| 637,860
+| 426,297
+| 211,563
+| 31.8
+| 21.3
+| 10.6
+| −4.1
+| align="right" style="color: blue" | 4.35
+|-
+| 1913
+| 20,170,000
+| 617,850
+| 449,349
+| 168,501
+| 30.6
+| 22.3
+| 8.4
+| −1.5
+| align="right" style="color: blue" | 4.30
+|-
+| 1914
+| 20,310,000
+| 608,207
+| 450,340
+| 157,867
+| 29.9
+| 22.2
+| 7.8
+| −1.9
+| align="right" style="color: blue" | 4.26
+|-
+| 1915
+| 20,430,000
+| 631,462
+| 452,479
+| 178,983
+| 30.9
+| 22.1
+| 8.8
+| 0
+| align="right" style="color: blue" | 4.22
+|-
+| 1916
+| 20,610,000
+| 599,011
+| 441,673
+| 157,338
+| 29.1
+| 21.4
+| 7.6
+| −1.3
+| align="right" style="color: blue" | 4.20
+|-
+| 1917
+| 20,740,000
+| 602,139
+| 465,722
+| 136,417
+| 29.0
+| 22.5
+| 6.6
+| 1.6
+| align="right" style="color: blue" | 4.19
+|-
+| 1918
+| 20,910,000
+| 612,637
+| align="right"  style="color: #d20"| 695,758
+| align="right" style="color: #d20" |  −83,121
+| 29.3
+| 33.3
+| align="right" style="color: #d20" | −4.0
+| 8.3
+| align="right" style="color: blue" | 4.17
+|-
+| 1919
+| 21,000,000
+| 585,963
+| 482,752
+| 103,211
+| 27.9
+| 23.0
+| 4.9
+| 1.3
+| align="right" style="color: blue" | 4.16
+|-
+| 1920
+| 21,130,000
+| 623,339
+| 494,540
+| 128,799
+| 29.5
+| 23.4
+| 6.1
+| 0.5
+| align="right" style="color: blue" | 4.14
+|-
+| 1921
+| 21,270,000
+| 648,892
+| 455,469
+| 193,423
+| 30.5
+| 21.4
+| 9.1
+| 2.2
+| align="right" style="color: blue" | 4.08
+|-
+| 1922
+| 21,510,000
+| 656,093
+| 441,330
+| 214,763
+| 30.5
+| 20.5
+| 10.0
+| 0.7
+| align="right" style="color: blue" | 4.02
+|-
+| 1923
+| 21,740,000
+| 662,576
+| 449,683
+| 212,893
+| 30.5
+| 20.7
+| 9.8
+| 1.7
+| align="right" style="color: blue" | 4.02
+|-
+| 1924
+|21,990,000
+| 653,085
+| 430,590
+| 222,495
+| 29.7
+| 19.6
+| 10.1
+| −2.4
+| align="right" style="color: blue" | 3.92
+|-
+| 1925
+| 22,160,000
+| 644,741
+| 432,400
+| 212,341
+| 29.1
+| 19.5
+| 9.6
+| 1.2
+| align="right" style="color: blue" | 3.82
+|-
+| 1926
+| 22,400,000
+| 663,401
+| 420,838
+| 242,563
+| 29.6
+| 18.8
+| 10.8
+| −1.4
+| align="right" style="color: blue" | 3.87
+|-
+| 1927
+| 22,610,000
+| 636,028
+| 419,816
+| 216,212
+| 28.1
+| 18.6
+| 9.6
+| 1.7
+| align="right" style="color: blue" | 3.70
+|-
+| 1928
+| 22,860,000
+| 666,240
+| 413,002
+| 253,238
+| 29.1
+| 18.1
+| 11.1
+| 0.3
+| align="right" style="color: blue" | 3.80
+|-
+| 1929
+| 23,120,000
+| 653,668
+| 407,486
+| 246,182
+| 28.3
+| 17.6
+| 10.7
+| −1.2
+| align="right" style="color: blue" | 3.69
+|-
+| 1930
+| 23,340,000
+| 660,860
+| 394,488
+| 266,372
+| 28.3
+| 16.9
+| 11.4
+| −4.1
+| align="right" style="color: blue" | 3.68
+|-
+| 1931
+| 23,510,000
+| 649,276
+| 408,977
+| 240,299
+| 27.6
+| 17.4
+| 10.2
+| 6.3
+| align="right" style="color: blue" | 3.58
+|-
+| 1932
+| 23,897,000
+| 670,670
+| 388,900
+| 281,770
+| 28.3
+| 16.5
+| 11.8
+| −2.4
+| align="right" style="color: blue" | 3.64
+|-
+| 1933
+| 24,122,000
+| 667,866
+| 394,750
+| 273,116
+| 27.9
+| 16.5
+| 11.4
+| −2.0
+| align="right" style="color: blue" | 3.59
+|-
+| 1934
+| 24,349,000
+| 641,889
+| 392,793
+| 249,096
+| 26.4
+| 16.1
+| 10.2
+| −0.8
+| align="right" style="color: blue" | 3.38
+|-
+| 1935
+| 24,578,000
+| 636,725
+| 388,757
+| 247,968
+| 25.9
+| 15.8
+| 10.1
+| −0.7
+| align="right" style="color: blue" | 3.31
+|-
+| 1936
+| 24,810,000
+| 617,220
+| 417,108
+| 200,112
+| 24.9
+| 16.8
+| 8.1
+| 1.3
+| align="right" style="color: blue" | 3.18
+|-
+| 1937
+| 25,043,000
+| 568,977
+| 475,310
+| 93,667
+| 22.7
+| 19.0
+| 3.7
+| 5.7
+| align="right" style="color: blue" | 2.89
+|-
+| 1938
+| 25,279,000
+| 508,726
+| 487,546
+| 21,180
+| 20.1
+| 19.3
+| 0.1
+| 9.3
+| align="right" style="color: blue" | 2.56
+|-
+| 1939
+| 25,517,000
+| 422,345
+| 472,611
+| align="right" style="color: #d20" |  −50,266
+| 16.6
+| 18.5
+| align="right" style="color: #d20" | −2.0
+| 11.4
+| align="right" style="color: blue" | 2.12
+|-
+| 1940
+| 25,757,000
+| 631,285
+| 428,416
+| 202,869
+| 24.5
+| 16.6
+| 7.9
+| 1.5
+| align="right" style="color: blue" | 3.09
+|-
+| 1941
+| 25,999,000
+| 511,157
+| 487,748
+| 23,409
+| 19.7
+| 18.8
+| 0.9
+| 8.5
+| align="right" style="color: blue" | 2.47
+|-
+| 1942
+| 26,244,000
+| 530,845
+| 387,844
+| 143,001
+| 20.2
+| 14.8
+| 5.4
+| 1.5
+| align="right" style="color: blue" | 2.53
+|-
+| 1943
+| 26,491,000
+| 606,971
+| 352,587
+| 254,384
+| 22.9
+| 13.3
+| 9.6
+| −4.7
+| align="right" style="color: blue" | 2.88
+|-
+| 1944
+| 26,620,000
+| 602,091
+| 349,114
+| 253,796
+| 22.6
+| 13.1
+| 9.5
+| −3.9
+| align="right" style="color: blue" | 2.84
+|-
+| 1945
+| 26,770,000
+| 621,558
+| 330,581
+| 290,977
+| 23.2
+| 12.3
+| 10.9
+| −1.2
+| align="right" style="color: blue" | 2.91
+|-
+| 1946
+| 27,030,000
+| 585,381
+| 353,371
+| 232,010
+| 21.7
+| 13.1
+| 8.6
+| −4.2
+| align="right" style="color: blue" | 2.70
+|-
+| 1947
+| 27,150,000
+| 588,732
+| 330,341
+| 258,391
+| 21.7
+| 12.2
+| 9.5
+| 6.8
+| align="right" style="color: blue" | 2.67
+|-
+| 1948
+| 27,593,000
+| 642,041
+| 305,310
+| 336,731
+| 23.3
+| 11.1
+| 12.2
+| −4.3
+| align="right" style="color: blue" | 2.88
+|-
+| 1949
+| 27,811,000
+| 601,759
+| 321,541
+| 280,218
+| 21.6
+| 11.6
+| 10.1
+| −3.0
+| align="right" style="color: blue" | 2.68
+|-
+| 1950
+| 28,009,000
+| 565,378
+| 305,934
+| 259,444
+| 20.2
+| 10.9
+| 9.3
+| −1.2
+| align="right" style="color: blue" | 2.45
+|-
+| 1951
+| 28,236,000
+| 567,474
+| 327,236
+| 240,238
+| 20.1
+| 11.6
+| 8.5
+| −0.1
+| align="right" style="color: blue" | 2.47
+|-
+| 1952
+| 28,474,000
+| 593,019
+| 276,735
+| 316,284
+| 20.8
+| 9.7
+| 11.1
+| −2.7
+| align="right" style="color: blue" | 2.51
+|-
+| 1953
+| 28,713,000
+| 589,188
+| 278,522
+| 310,666
+| 20.5
+| 9.7
+| 10.8
+| −2.4
+| align="right" style="color: blue" | 2.55
+|-
+| 1954
+| 28,955,000
+| 577,886
+| 264,668
+| 313,218
+| 20.0
+| 9.1
+| 10.8
+| −2.4
+| align="right" style="color: blue" | 2.59
+|-
+| 1955
+| 29,199,000
+| 598,970
+| 274,188
+| 324,782
+| 20.5
+| 9.4
+| 11.1
+| −2.7
+| align="right" style="color: blue" | 2.62
+|-
+| 1956
+| 29,445,000
+| 608,121
+| 290,410
+| 317,711
+| 20.7
+| 9.9
+| 10.8
+| −2.4
+| align="right" style="color: blue" | 2.66
+|-
+| 1957
+| 29,693,000
+| 646,784
+| 293,502
+| 353,282
+| 21.8
+| 9.9
+| 11.9
+| −3.5
+| align="right" style="color: blue" | 2.69
+|-
+| 1958
+| 29,943,000
+| 653,216
+| align="right"  style="color: blue"| 260,683
+| 392,533
+| 21.8
+| 8.7
+| 13.1
+| −4.7
+| align="right" style="color: blue" | 2.72
+|-
+| 1959
+| 30,195,000
+| 654,474
+| 269,591
+| 384,883
+| 21.7
+| 8.9
+| 12.7
+| −4.1
+| align="right" style="color: blue" | 2.74
+|-
+| 1960
+| 30,455,000
+| 663,375
+| 268,941
+| 394,434
+| 21.8
+| 8.8
+| 13.0
+| −3.5
+| align="right" style="color: blue" | 2.77
+|-
+| 1961
+| 30,744,000
+| 654,616
+| 263,441
+| 391,175
+| 21.3
+| 8.6
+| 12.7
+| −2.2
+| align="right" style="color: blue" | 2.79
+|-
+| 1962
+| 31,067,000
+| 658,816
+| 278,575
+| 380,241
+| 21.2
+| 9.0
+| 12.2
+| −1.7
+| align="right" style="color: blue" | 2.8
+|-
+| 1963
+| 31,393,000
+| 671,520
+| 282,460
+| 389,060
+| 21.4
+| 9.0
+| 12.4
+| −1.9
+| align="right" style="color: blue" | 2.88
+|-
+| 1964
+| 31,723,000
+| align="right"  style="color: blue"| 697,697
+| 273,955
+| align="right" style="color: blue" | 423,742
+| 22.0
+| 8.6
+| style="color: blue"| 13.4
+| −2.9
+| style="color: blue" | 3.01
+|-
+| 1965
+| 32,056,000
+| 676,361
+| 274,271
+| 402,090
+| 21.1
+| 8.6
+| 12.5
+| −2.0
+| align="right" style="color: blue" | 2.94
+|-
+| 1966
+| 32,394,000
+| 669,919
+| 276,173
+| 393,746
+| 20.7
+| 8.5
+| 12.2
+| −1.7
+| align="right" style="color: blue" | 2.91
+|-
+| 1967
+| 32,734,000
+| 680,125
+| 280,494
+| 399,631
+| 20.8
+| 8.6
+| 12.2
+| −1.7
+| align="right" style="color: blue" | 2.85
+|-
+| 1968
+| 33,079,000
+| 667,311
+| 282,628
+| 384,683
+| 20.2
+| 8.5
+| 11.6
+| −1.1
+| align="right" style="color: blue" | 2.86
+|-
+| 1969
+| 33,427,000
+| 666,568
+| 303,402
+| 363,166
+| 19.9
+| 9.1
+| 10.9
+| −0.4
+| align="right" style="color: blue" | 2.87
+|-
+| 1970
+| 33,779,000
+| 663,667
+| 286,067
+| 377,600
+| 19.6
+| 8.5
+| 11.2
+| −3.5
+| align="right" style="color: blue" | 2.88
+|-
+| 1971
+| 34,040,642 <ref>[https://ine.es/jaxiT3/Datos.htm?t=56934 ines.es Resident population by date, sex and age, visited 27 August 2023]</ref>
+| 672,092
+| 308,516
+| 363,576
+| 19.7
+| 9.0
+| 10.6
+| 0.2
+| align="right" style="color: blue" | 2.88
+|-
+| 1972
+| 34,408,338
+| 672,405
+| 285,508
+| 386,897
+| 19.5
+| 8.3
+| 11.2
+| 0.2
+| align="right" style="color: blue" | 2.86
+|-
+| 1973
+| 34,800,600
+| 672,963
+| 301,803
+| 371,160
+| 19.3
+| 8.7
+| 10.7
+| −1.6
+| align="right" style="color: blue" | 2.84
+|-
+| 1974
+| 35,117,294
+| 688,711
+| 300,403
+| 388,308
+| 19.6
+| 8.5
+| 11.0
+| 1.9
+| align="right" style="color: blue" | 2.89
+|-
+| 1975
+| 35,569,375
+| 669,378
+| 298,192
+| 371,186
+| 18.8
+| 8.4
+| 10.5
+| 0.1
+| align="right" style="color: blue" | 2.75
+|-
+| 1976
+| 35,946,425
+| 677,456
+| 299,007
+| 378,449
+| 18.9
+| 8.3
+| 10.5
+| 0.1
+| align="right" style="color: blue" | 2.68
+|-
+| 1977
+| 36,329,199
+| 656,357
+| 294,324
+| 362,033
+| 18.1
+| 8.1
+| 10.0
+| 0
+| align="right" style="color: blue" | 2.59
+|-
+| 1978
+| 36,694,077
+| 636,892
+| 296,781
+| 340,111
+| 17.3
+| 8.1
+| 9.2
+| 0.1
+| align="right" style="color: blue" | 2.48
+|-
+| 1979
+| 37,035,719
+| 601,992
+| 291,213
+| 310,779
+| 16.2
+| 7.8
+| 8.4
+| 0
+| align="right" style="color: blue" | 2.36
+|-
+| 1980
+| 37,346,940
+| 571,018
+| 289,344
+| 281,674
+| 15.2
+| 7.7
+| 7.5
+| 0.2
+| align="right" style="color: blue" | 2.22
+|-
+| 1981
+| 37,635,389
+| 533,008
+| 293,386
+| 239,622
+| 14.1
+| 7.8
+| 6.3
+| 0.2
+| 2.09
+|-
+| 1982
+| 37,881,873
+| 515,706
+| 286,655
+| 229,051
+| 13.6
+| style="color:blue;" | 7.6
+| 6.0
+| −0.5
+| 1.96
+|-
+| 1983
+| 38,090,151
+| 485,352
+| 302,569
+| 182,783
+| 12.7
+| 7.9
+| 4.8
+| −0.5
+| 1.84
+|-
+| 1984
+| 38,252,899
+| 473,281
+| 299,409
+| 173,872
+| 12.4
+| 7.8
+| 4.5
+| −0.4
+| 1.73
+|-
+| 1985
+| 38,407,829
+| 456,298
+| 312,532
+| 143,766
+| 11.9
+| 8.1
+| 3.7
+| −0.5
+| 1.64
+|-
+| 1986
+| 38,531,195
+| 438,750
+| 310,413
+| 128,337
+| 11.4
+| 8.1
+| 3.3
+| −0.5
+| 1.56
+|-
+| 1987
+| 38,638,052
+| 426,782
+| 310,073
+| 116,709
+| 11.0
+| 8.0
+| 3.0
+| −0.6
+| 1.50
+|-
+| 1988
+| 38,731,578
+| 418,919
+| 319,437
+| 99,482
+| 10.8
+| 8.3
+| 2.6
+| −0.8
+| 1.45
+|-
+| 1989
+| 38,802,300
+| 408,434
+| 324,796
+| 83,638
+| 10.5
+| 8.4
+| 2.2
+| −0.9
+| 1.40
+|-
+| 1990
+| 38,853,227
+| 401,425
+| 333,142
+| 68,283
+| 10.3
+| 8.6
+| 1.8
+| −1.1
+| 1.36
+|-
+| 1991
+| 38,881,416
+| 395,989
+| 337,691
+| 58,298
+| 10.2
+| 8.7
+| 1.5
+| 2.9
+| 1.33
+|-
+| 1992
+| 39,051,336
+| 396,747
+| 331,515
+| 65,232
+| 10.2
+| 8.5
+| 1.7
+| 3.7
+| 1.32
+|-
+| 1993
+| 39,264,034
+| 385,786
+| 339,661
+| 46,125
+| 9.8
+| 8.7
+| 1.2
+| 3.8
+| 1.26
+|-
+| 1994
+| 39,458,489
+| 370,148
+| 338,242
+| 31,906
+| 9.4
+| 8.6
+| 0.8
+| 3.8
+| 1.21
+|-
+| 1995
+| 39,639,726
+| 363,469
+| 346,227
+| 17,242
+| 9.2
+| 8.8
+| 0.4
+| 3.9
+| 1.18
+|-
+| 1996
+| 39,808,374
+| 362,626
+| 351,449
+| 11,177
+| 9.2
+| 8.9
+| 0.3
+| 3.8
+| 1.17
+|-
+| 1997
+| 39,971,329
+| 369,035
+| 349,521
+| 19,514
+| 9.3
+| 8.8
+| 0.5
+| 3.8
+| 1.19
+|-
+| 1998
+| 40,143,449
+| 365,193
+| 360,511
+| 4,682
+| 9.2
+| 9.1
+| 0.1
+| 3.9
+| 1.15
+|-
+| 1999
+| 40,303,568
+| 380,130
+| 371,102
+| 9,028
+| 9.5
+| 9.3
+| 0.2
+| 3.9
+| 1.20
+|-
+| 2000
+| 40,470,182
+| 397,632
+| 360,391
+| 37,241
+| 9.9
+| 9.0
+| 0.9
+| 3.9
+| 1.23
+|-
+| 2001
+| 40,665,545
+| 406,380
+| 360,131
+| 46,249
+| 10.0
+| 8.8
+| 1.1
+| 8.0
+| 1.24
+|-
+| 2002
+| 41,035,271
+| 418,846
+| 368,618
+| 50,228
+| 10.1
+| 8.9
+| 1.2
+| style="color: blue"|18.1
+| 1.26
+|-
+| 2003
+| 41,827,836
+| 441,881
+| 384,828
+| 57,053
+| 10.5
+| 9.2
+| 1.4
+| 15.8
+| 1.31
+|-
+| 2004
+| 42,547,454
+| 454,591
+| 371,934
+| 82,657
+| 10.6
+| 8.7
+| 1.9
+| 15.7
+| 1.33
+|-
+| 2005
+| 43,296,335
+| 466,371
+| 387,355
+| 79,016
+| 10.7
+| 8.9
+| 1.8
+| 14.7
+| 1.35
+|-
+| 2006
+| 44,009,969
+| 482,957
+| 371,478
+| 111,479
+| 10.9
+| 8.4
+| 2.5
+| 15.1
+| 1.36
+|-
+| 2007
+| 44,784,659
+| 492,527
+| 385,361
+| 107,166
+| 10.9
+| 8.5
+| 2.4
+| 17.4
+| 1.40
+|-
+| 2008
+| 45,668,938
+| 519,779
+| 386,324
+| 133,455
+| 11.4
+| 8.4
+| 3.0
+| 9.6
+| 1.46
+|-
+| 2009
+| 46,239,271
+| 494,997
+| 384,933
+| 110,064
+| 10.7
+| 8.3
+| 2.4
+| 3.0
+| 1.39
+|-
+| 2010
+| 46,486,621
+| 486,575
+| 382,047
+| 104,528
+| 10.5
+| 8.2
+| 2.3
+| 1.6
+| 1.38
+|-
+| 2011
+| 46,667,175
+| 471,999
+| 387,911
+| 84,088
+| 10.2
+| 8.3
+| 1.9
+| 1.4
+| 1.34
+|-
+| 2012
+| 46,818,216
+| 454,648
+| 402,950
+| 51,698
+| 9.7
+| 8.6
+| 1.1
+| −3.4
+| 1.32
+|-
+| 2013
+| 46,712,650
+| 425,715
+| 390,419
+| 35,296
+| 9.1
+| 8.3
+| 0.8
+| style="color: #d20"|-5.4
+| 1.27
+|-
+| 2014
+| 46,495,744
+| 427,595
+| 395,830
+| 31,765
+| 9.1
+| 8.5
+| 0.6
+| −3.1
+| 1.32
+|-
+| 2015
+| 46,384,379
+| 420,290
+| 422,568
+| align="right" style="color: #d20" |  −2,278
+| 9.0
+| 9.1
+| align="right" style="color: #d20" | −0.1
+| 0.8
+| 1.33
+|-
+| 2016
+| 46,418,884
+| 410,583
+| 410,611
+| align="right" style="color: #d20" | −28
+| 8.8
+| 8.8
+| 0.0
+| 1.7
+| 1.34
+|-
+| 2017
+| 46,497,393
+| 393,181
+| 424,523
+| align="right" style="color: #d20" |  −31,342
+| 8.4
+| 9.1
+| align="right" style="color: #d20" | −0.7
+| 3.9
+| 1.31
+|-
+| 2018
+| 46,645,070
+| 372,777
+| 427,721
+| align="right" style="color: #d20" |  −54,944
+| 7.9
+| 9.1
+| align="right" style="color: #d20" | −1.2
+| 7.0
+| 1.26
+|-
+| 2019
+| 46,918,951
+| 360,617
+| 418,703
+| align="right" style="color: #d20" | −58,086
+| 7.6
+| 8.8
+| align="right"  style="color: #d20" | −1.2
+| 9.7
+| 1.24
+|-
+| 2020
+| 47,318,050
+| 341,315
+| 493,776
+| style="color: #d20" | −152,461
+| 7.2
+| 10.4
+| style="color: #d20" | −3.2
+| 5.0
+| 1.19
+|-
+| 2021
+| 47,400,798
+| 337,380
+|  450,744
+| style="color: #d20" | −113,354
+|  7.1
+|  9.5
+| style="color: #d20" | −2.4
+| 4.2
+|  1.19
+|-
+| 2022
+| 47,486,727
+| 329,251
+| 464,417
+| style="color: #d20" | −135,166
+|  6.9
+|  9.8
+| style="color: #d20" | −2.9
+| 15.5
+| 1.16
+|-
+| 2023
+| 48,085,361
+| 320,656
+| 436,124
+| style="color: #d20" | −115,468
+| 6.7
+| 9.1
+| style="color:#d20;" | −2.4
+| 13.7
+| 1.12
+|-
+| 2024
+| 48,630,010
+| style="color: #d20" | 318,005
+| 436,118
+| style="color: #d20" | −118,113
+| style="color:#d20;" | 6.5
+| 8.9
+| style="color:#d20;" | −2.4
+| 11.6
+| style="color:#d20;" |1.10
+|-
+| 2025
+| 49,128,297
+| 321,164
+| 443,331
+| style="color: #d20" | −122,167
+| style="color:#d20;" | 6.5
+| 9.0
+| style="color:#d20;" | −2.6
+| 12.7
+| 1.11(e)
+|-
+| 2026
+| style="color: blue" | 49,596,376<ref>{{Cite web |title=INEbase. CONSUL |url=https://www.ine.es/consul/serie.do?d=true&s=ECP320 |access-date=2026-05-07 |website=INE}}</ref>
+| style="color: #d20" | 
+| 
+| style="color: #d20" | 
+| style="color:#d20;" | 
+| 
+| style="color:#d20;" | 
+| 
+| style="color:#d20;" | 
+|}
+
+===Current vital statistics===
+{| class="wikitable"  style="text-align:center;"
+|+
+|-
+! Period
+! Live births
+! Deaths
+! Natural increase
+|-
+! January—August 2025
+| 209,986
+| 308,842
+| –98,856
+|-
+! January—August 2026
+| 212,856
+| 306,762
+| –93,906
+|-
+!scope="row"|Difference
+| {{increase}} +2,870 (+1.37%)
+| {{decreasepositive}} –2,080 (−0.67%)
+| {{increase}} +4,950 (+5.01%)
+|-
+! colspan="4" | Source:<ref>{{cite web |title=Monthly estimates of births|url=https://www.ine.es/en/experimental/nacimientos/experimental_nacimientos.htm?L=1|website=Instituto Nacional de Estadística }}</ref><ref>{{cite web |title=Weekly death estimates|url=https://www.ine.es/dyngs/INEbase/en/operacion.htm?c=Estadistica_C&cid=1254736177074&menu=ultiDatos&idp=1254735573002|website=Instituto Nacional de Estadística}}</ref>
+|-
+|}
+
+==== Birthplace of mothers ====
+In 2024, 212,191 (66.7%) babies were born to Spanish-born mothers, 52,167 (16.4%) to Americas born mothers (North, Central and South America), 27,412 (8.6%) to African-born mothers, 18,297 (5.8%) to European-born mothers (all countries of Europe except for Spain), and 7,895 (2.5%) to Asian-born mothers.<ref>{{Cite web|url=https://www.ine.es/jaxiT3/Datos.htm?t=58930|title=Births, by country of birth of the mother and month.|website=INE}}</ref>
+
+{| class="wikitable sortable mw-collapsible"
+|+Births by country of birth of the mother (2024)<ref>{{Cite web |title=Nacimientos por país de nacimiento de la madre.(58932) |url=https://www.ine.es/jaxiT3/Datos.htm?t=58932#_tabs-tabla |access-date=2025-05-06 |website=INE |language=es}}</ref>
+!Country
+!Births
+|-
+|{{flag|Spain}}
+|212,191
+|-
+!scope="row"|Europe (excluding Spain)
+|18,297
+|-
+|{{flag|Germany}}
+|840
+|-
+|{{flag|Austria}}
+|39
+|-
+|{{flag|Belgium}}
+|217
+|-
+|{{flag|Bulgaria}}
+|806
+|-
+|{{flag|Denmark}}
+|36
+|-
+|{{flag|Finland}}
+|63
+|-
+|{{flag|France}}
+|1,252
+|-
+|{{flag|Ireland}}
+|119
+|-
+|{{flag|Italy}}
+|1,238
+|-
+|{{flag|Norway}}
+|41
+|-
+|{{flag|Netherlands}}
+|359
+|-
+|{{flag|Poland}}
+|573
+|-
+|{{flag|Portugal}}
+|602
+|-
+|{{flag|United Kingdom}}
+|1,059
+|-
+|{{flag|Romania}}
+|5,249
+|-
+|{{flag|Russia}}
+|1,185
+|-
+|{{flag|Sweden}}
+|157
+|-
+|{{flag|Switzerland}}
+|374
+|-
+|{{flag|Ukraine}}
+|1,955
+|-
+!scope="row"|Rest of Europe
+|2,133
+|-
+!scope="row"|Africa
+|27,412
+|-
+|{{flag|Morocco}}
+|20,793
+|-
+!scope="row"|Rest of Africa
+|6,619
+|-
+!scope="row"|America
+|52,167
+|-
+|{{flag|Argentina}}
+|3,162
+|-
+|{{flag|Bolivia}}
+|1,981
+|-
+|{{flag|Brazil}}
+|2,701
+|-
+|{{flag|Cuba}}
+|1,901
+|-
+|{{flag|Chile}}
+|488
+|-
+|{{flag|Colombia}}
+|12,106
+|-
+|{{flag|Ecuador}}
+|4,542
+|-
+|{{flag|United States of America}}
+|691
+|-
+|{{flag|Peru}}
+|5,169
+|-
+|{{flag|Uruguay}}
+|598
+|-
+|{{flag|Venezuela}}
+|6,452
+|-
+!scope="row"|Rest of America
+|12,376
+|-
+!scope="row"|Asia
+|7,895
+|-
+|{{flag|China}}
+|1,524
+|-
+|{{flag|Pakistan}}
+|2,858
+|-
+!scope="row"|Rest of Asia
+|3,513
+|-
+!scope="row"|Foreign
+|105,814
+|-
+!scope="row"|National Total
+|318,005
+|}
+
+==== Nationality of mothers ====
+In 2024, 236,666 (74.4%) babies were born to mothers with Spanish nationality (including naturalized immigrants), 31,897 (10%) to mothers with an American nationality (North, Central, South America), 23,765 (7.5%) to mothers with an African nationality (including North Africa), 18,358 (5.8%) to mothers with a European nationality (both EU and non-EU countries of Europe), and 7,184 (2.3%) to mothers with an Asian nationality.<ref>{{Cite web|url=https://www.ine.es/jaxiT3/Datos.htm?t=58929|title=Births, by country of nationality of the mother and month.|website=INE}}</ref>
+
+===Total fertility rates by region===
+[[Total fertility rate]] (TFR) in Spain by [[Autonomous communities of Spain|Autonomous communities]] as of 2024:<ref>{{Cite journal |last=Vilchinskii |first=A. S. |date=2023-07-06 |title=Autonomous Community of Galicia in the Contemporary Political System of Spain |journal=Post-Soviet Issues |volume=10 |issue=1 |pages=67–79 |doi=10.24975/2313-8920-2023-10-1-67-79 |issn=2587-8174|doi-access=free }}</ref>
+{| class="wikitable sortable"
+|+2024
+!Autonomous communities
+!TFR
+|-
+|{{flag|Melilla}}
+|1.36
+|-
+|{{flag|Region of Murcia}}
+|1.32
+|-
+|{{flag|Ceuta}}
+|1.26
+|-
+|{{flag|Navarre}}
+|1.20
+|-
+|{{flag|Castilla–La Mancha}}
+|1.19
+|-
+|{{flag|Andalusia}}
+|1.18
+|-
+|{{flagicon image|Flag of La Rioja (with coat of arms).svg}} [[La Rioja]]
+|1.16
+|-
+|{{flag|Aragon}}
+|1.15
+|-
+|{{flag|Valencian Community}}
+|1.14
+|-
+|{{flag|Extremadura}}
+|1.13
+|-
+|'''{{flag|Spain}}'''
+|'''1.10'''
+|-
+|{{flag|Basque Country}}
+|1.10
+|-
+|{{flag|Community of Madrid}}
+|1.09
+|-
+|{{flag|Catalonia}}
+|1.08
+|-
+|{{flag|Balearic Islands}}
+|1.08
+|-
+|{{flag|Castile and León}}
+|1.07
+|-
+|{{flag|Cantabria}}
+|0.99
+|-
+|{{flag|Galicia}}
+|0.96
+|-
+|{{flag|Asturias}}
+|0.95
+|-
+|{{flag|Canary Islands}}
+|0.82
+|}
+
+====Total fertility rate by provinces and islands====
+<ref>{{Cite web |title=Fertility indicators by NUTS 3 region |url=https://ec.europa.eu/eurostat/databrowser/view/demo_r_find3/default/table?lang=en |access-date=2025-09-26 |website=ec.europa.eu}}</ref>
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+2023
+![[Provinces of Spain|Provinces]] and [[List of islands of Spain|Islands]]
+!TFR
+|-
+|{{flag|El Hierro}}
+|0.75
+|-
+| {{flag|Tenerife}}
+| 0.79
+|-
+| {{flag|La Gomera}}
+| 0.81
+|-
+| {{flag|Gran Canaria}}
+| 0.83
+|-
+| {{flag|La Palma}}
+| 0.84
+|-
+| {{flag|Ourense}}
+| 0.91
+|-
+| {{flag|Province of Zamora}}
+| 0.92
+|-
+| {{flag|Pontevedra}}
+| 0.96
+|-
+| {{flag|Cantabria}}
+| 0.96
+|-
+| {{flag|Menorca}}
+| 0.97
+|-
+| {{flag|León}}
+| 0.98
+|-
+| {{flag|Formentera}}
+| 0.98
+|-
+| {{flag|Fuerteventura}}
+| 0.99
+|-
+| {{flag|A Coruña}}
+| 1.00
+|-
+| {{flag|Salamanca}}
+| 1.02
+|-
+| {{flag|Lanzarote}}
+| 1.02
+|-
+| {{flag|Palencia}}
+| 1.03
+|-
+| {{flag|Illes Balears}}
+| 1.05
+|-
+| {{flag|Lugo}}
+| 1.06
+|-
+| {{flag|Province of Ávila}}
+| 1.06
+|-
+| {{flag|Barcelona}}
+| 1.07
+|-
+| {{flag|Mallorca}}
+| 1.07
+|-
+| {{flag|Málaga}}
+| 1.08
+|-
+| {{flag|Biscay}}
+| 1.09
+|-
+| {{flagicon image|Bandera de Soria.svg}} [[Soria]]
+| 1.09
+|-
+| {{flag|Madrid}}
+| 1.10
+|-
+| {{flag|Cáceres}}
+| 1.10
+|-
+| {{flag|Burgos}}
+| 1.11
+|-
+| {{flag|Valladolid}}
+| 1.12
+|-
+| {{flag|Segovia}}
+| 1.13
+|-
+| {{flag|Guadalajara}}
+| 1.13
+|-
+| {{flagicon image|Flag Cuenca Province.svg}} [[Province of Cuenca]]
+| 1.14
+|-
+| [[image:Escut de la Província de València.svg|20px]] [[Province of Valencia]]
+| 1.14
+|-
+| {{flag|Huesca}}
+| 1.15
+|-
+| [[image:Coat of Arms of Alicante Province.svg|18px]] [[Province of Alicante]]
+| 1.15
+|-
+| {{flag|Cádiz}}
+| 1.15
+|-
+| {{flag|Huelva}}
+| 1.15
+|-
+| {{flag|Zaragoza}}
+| 1.16
+|-
+| {{flag|Ciudad Real}}
+| 1.16
+|-
+| {{flag|Albacete}}
+| 1.17
+|-
+| {{flag|Gipuzkoa}}
+| 1.19
+|-
+| {{flag|Badajoz}}
+| 1.19
+|-
+| {{flag|Andalucía}}
+| 1.19
+|-
+| {{flag|Jaén}}
+| 1.19
+|-
+| {{flag|Teruel}}
+| 1.20
+|-
+| {{flag|Granada}}
+| 1.20
+|-
+| {{flag|Girona}}
+| 1.21
+|-
+| {{flag|Tarragona}}
+| 1.21
+|-
+| {{flag|Álava}}
+| 1.22
+|-
+| {{flagicon image|Bandera antigua de la provincia de Toledo.svg}} [[Province of Toledo]]
+| 1.22
+|-
+| [[image:Escut de la Província de Castelló.svg|16px]] [[Province of Castellón]]
+| 1.22
+|-
+| {{flag|Province of Seville}}
+| 1.23
+|-
+| {{flag|Córdoba}}
+| 1.24
+|-
+| {{flag|Lleida}}
+| 1.25
+|-
+| {{flag|Almería}}
+| 1.44
+|}
+
+== Employment and income ==
+;Youth unemployment, ages 15–24: 24.9% (total; as of January 2025<ref name=unemployment2024>{{cite web|title=Economically Active Population Survey. Fourth Quarter 2024.|url=https://www.ine.es/dyngs/INEbase/en/operacion.htm?c=Estadistica_C&cid=1254736176918&menu=ultiDatos&idp=1254735976595|website=INE Instituto Nacional de Estadística |access-date=29 January 2025}}</ref>)
+
+== Metropolitan areas ==
+[[File:Population_per_km2_by_municipality_in_Spain_(2018).svg|alt=|thumb|400x400px|Population density by municipality in Spain, 2018]]
+{{Further|List of metropolitan areas in Spain by population}}
+{{Largest cities of Spain}}
+
+===Islands===
+Islander population (The surface of the islands will be given in hectares except for the largest islands of the Canary and Balearic archipelagos, as well as the Plazas de Soberanía.):
+{{colbegin|colwidth=25em}}
+# [[Tenerife]] 886,033
+# [[Mallorca]] 846,210
+# [[Gran Canaria]] 829,597
+# [[Lanzarote]] 132,366
+# [[Ibiza]] 113,908
+# [[Fuerteventura]] 94,386
+# [[Menorca]] 86,697
+# [[La Palma]] 85,933
+# [[La Gomera]] 22,259
+# [[El Hierro]] 10,558
+# [[Formentera]] 7,957
+# [[A Illa de Arousa|Arousa]] 4,889
+# [[La Graciosa]] 658
+# [[Tabarca]] 105
+# [[Ons Island|Ons]] 61
+{{colend}}
+
+== Ethnic groups ==
+{{main|Spanish people|National and regional identity in Spain}}
+
+[[File:191026 60278 dc (48979567256).jpg|thumb|[[Catalans|Catalan people]] in Barcelona in 2019]]
+The [[Spanish Constitution of 1978]], in its second article, generically recognises contemporary entities—''[[nationalities and regions of Spain|nationalities]]'' and regions—{{efn|name=Nationalities|The term 'nationality' ({{Langx|es|nacionalidad|link=no}}) was chosen carefully in order to avoid the more politically charged term 'nation'.}} within the context of the Spanish nation.
+
+Spain has been described as a ''de facto'' [[plurinationalism|plurinational state]].<ref>{{cite web|url=http://cadmus.eui.eu/handle/1814/10056|title=Rival nationalisms in a plurinational state: Spain, Catalonia and the Basque Country|publisher=Oxford University Press|url-status=live|archive-url=https://web.archive.org/web/20170525185738/http://cadmus.eui.eu/handle/1814/10056|archive-date=25 May 2017}}</ref><ref>{{cite web|url=https://dialnet.unirioja.es/descarga/articulo/555054.pdf|title=España, una nación de naciones|publisher=University of Navarre|url-status=live|archive-url=https://web.archive.org/web/20170525185727/https://dialnet.unirioja.es/descarga/articulo/555054.pdf|archive-date=25 May 2017}}</ref> The identity of Spain rather accrues of an overlap of different territorial and ethnolinguistic identities than of a sole Spanish identity. In some cases some of the territorial identities may conflict with the dominant Spanish culture. Distinct traditional identities within Spain include the [[Basque people|Basques]], [[Canary Islanders|Canarians]], [[Catalan people|Catalans]], [[Galician people|Galicians]], [[Andalusians]] and [[Valencian people|Valencians]],{{failed verification|date=June 2021}}<ref>{{cite news|url=http://elpais.com/diario/1996/08/24/opinion/840837607_850215.html|title=Nacionalidades históricas|access-date=9 May 2016|work=El País|date=23 August 1996|url-status=live|archive-url=https://web.archive.org/web/20160428110601/http://elpais.com/diario/1996/08/24/opinion/840837607_850215.html|archive-date=28 April 2016|last1=Azaola|first1=José Miguel de}}</ref> although to some extent all of the 17 autonomous communities may claim a distinct local identity.
+Definition of ethnicity or nationality in Spain is fraught politically. The term "[[Spanish people]]" (''pueblo español'') is defined in the 1978 constitution as the political sovereign, i.e. the citizens of the Kingdom of Spain. The same constitution in its preamble speaks of "peoples and nationalities of Spain" (''pueblos y nacionalidades de España'') and their respective cultures, traditions, languages and institutions.
+The formerly nomadic [[Romani people in Spain|Gitanos]] and [[Merchero]]s are distinctly marked by [[endogamy]] and discrimination but they are dispersed through the country.{{citation needed|date=April 2022}}
+
+The native [[Canarian people|Canarian]]s are partly the descendants of the North African population of the [[Canary Islands]] prior to Spanish colonization in the 15th century although many [[Spaniards]] have varying levels of North African admixture as a result of the [[Al-Andalus|Islamic period]]. Also included are many Spanish citizens who are descendants of people from Spain's former colonies, mostly from [[Venezuela]], [[Argentina]], [[Dominican Republic]], [[Ecuador]], [[Peru]], [[Colombia]], [[Morocco]] and [[Cuba]]. There is also a sizable number of Spaniards of [[Eastern European]], [[Maghreb]]ian, [[Africa|Sub Saharan-African]], [[South Asia|Indian subcontinent]] and [[Middle Eastern]] descent.<ref>{{Cite news|url=https://study.com/academy/lesson/ethnic-groups-in-spain.html|title=Ethnic Groups in Spain {{!}} Study.com|work=Study.com|access-date=9 May 2018|language=en}}</ref>
+
+The arrival of the ''[[Roma in Spain|gitanos]]'' (Spanish for "gypsies"), a [[Romani people]], began in the 16th century; estimates of the Spanish Roma population range from 750,000 to over one million.<ref name="Diagnostico Social de la Comunidad Gitana en Espana – CIS">{{cite web|url=http://www.msc.es/ssi/familiasInfancia/inclusionSocial/poblacionGitana/docs/diagnosticosocial_autores.pdf|title=Diagnóstico social de la comunidad gitana en España|website=Msc.es|access-date=21 May 2016|url-status=live|archive-url=https://web.archive.org/web/20161227231426/http://www.msc.es/ssi/familiasInfancia/inclusionSocial/poblacionGitana/docs/diagnosticosocial_autores.pdf|archive-date=27 December 2016 }}</ref><ref>{{cite web|url=http://www.gfbv.it/3dossier/sinti-rom/img/n7a.jpg|format=JPG|title=Estimations|website=Gfbv.it|access-date=21 May 2016|url-status=live|archive-url=https://web.archive.org/web/20160405044724/http://www.gfbv.it/3dossier/sinti-rom/img/n7a.jpg|archive-date=5 April 2016 }}</ref><ref>{{cite web|url=http://www.eumap.org/reports/2002/eu/international/sections/spain/2002_m_spain.pdf|title=The Situation of Roma in Spain|publisher=Open Society Institute|year=2002|quote=The Spanish government estimates the number of ''Gitanos'' at a maximum of 650,000.|access-date=15 September 2010|archive-url=https://web.archive.org/web/20071201172552/http://www.eumap.org/reports/2002/eu/international/sections/spain/2002_m_spain.pdf|archive-date=1 December 2007}}</ref><ref name=immigration>[http://www.osce.org/hcnm/78034?download=true Recent Migration of Roma in Europe, A study by Mr. Claude Cahn and Professor Elspeth Guild] {{webarchive|url=https://web.archive.org/web/20170525185405/http://www.osce.org/hcnm/78034?download=true|date=25 May 2017 }}, pp. 87–88 (09.2010 figures)</ref><ref>{{cite web|url=http://www.eumap.org/reports/2002/eu/international/sections/spain/2002_m_spain.pdf|title=The Situation of Roma in Spain|access-date=14 August 2008|publisher=Open Society Institute|archive-url=https://web.archive.org/web/20080626103751/http://www.eumap.org/reports/2002/eu/international/sections/spain/2002_m_spain.pdf|archive-date=26 June 2008|url-status=dead }}</ref> There are also the ''[[merchero]]s'' (also called ''quinquis''), a formerly nomadic minority group. Their origin is unclear.
+
+Historically, [[Sephardic Jews]] and Moriscos are the main minority groups originating in Spain and with a contribution to Spanish culture.<ref>[https://www.jewishvirtuallibrary.org/jsource/Judaism/Sephardim.html Sephardim – Jewish Virtual Library] {{webarchive|url=https://web.archive.org/web/20120907212349/http://www.jewishvirtuallibrary.org/jsource/Judaism/Sephardim.html|date=7 September 2012 }} by Rebecca Weiner</ref> The Spanish government formerly offered Spanish citizenship to Sephardic Jews.<ref>{{cite web|url=http://es.euronews.com/2014/08/29/el-regreso-de-los-judios-sefardies-a-espana/|title=El regreso de los judíos sefardíes a España|work=euronewses|date=29 August 2014|url-status=live|archive-url=https://web.archive.org/web/20140908192753/http://es.euronews.com/2014/08/29/el-regreso-de-los-judios-sefardies-a-espana/|archive-date=8 September 2014}}</ref>
+{| class="wikitable"
+|+
+! rowspan="2" |Racial group
+! colspan="2" |2025<ref>{{Cite journal |title=BARÓMETRO DE ABRIL 2025 |url=https://www.cis.es/documents/d/cis/es3505mar_a |journal=Centro Investigaciones Sociológicas}}</ref>
+|-
+!Number
+!%
+|-
+|White
+|39,961,000
+|81.3%
+|-
+|[[Latin Americans|Latin American]]
+|3,834,000
+|7.8%
+|-
+|Multiracial
+|786,000
+|1.6%
+|-
+|Gypsy or Roma
+|639,000
+|1.3%
+|-
+|Maghrebi or Arab
+|491,000
+|1.0%
+|-
+|Black
+|147,000
+|0.3%
+|-
+|Asian
+|49,000
+|0.1%
+|-
+|Other
+|491,000
+|1.0%
+|-
+|not stated
+|2,801,000
+|5.7%
+|-
+!Total
+|49,315,949
+|100
+|}
+
+== Immigration ==
+{{main|Immigration to Spain}}
+
+In terms of emigration vs. immigration, after decades of net emigration after the [[Spanish Civil War]], Spain has experienced massive large-scale immigration for the first time in modern history over the past 30 years. As 1 July 2026, there were 10,291,807 foreign-born people in Spain, making up to 20.67% of the Spanish population<ref>{{Cite web |trans-title=Population (Spaniards/foreigners) by Country of Birth, sex and year|title=Población (españoles/extranjeros) por País de Nacimiento, sexo y año |url=https://www.ine.es/dyngs/Prensa/ECP2T26.htm |language=es|trans-work=National Institute of Statistics|work=[[Instituto Nacional de Estadística (Spain)|Instituto Nacional de Estadística]]}}</ref> Of these, 7,437,543 (14.93%) didn't have Spanish citizenship.<ref>{{Cite web |title=Instituto Nacional de Estadística. Estadística del Padrón Continuo |url=https://www.ine.es/dyngs/Prensa/ECP2T26.htm |website=ine.es |publisher=[[Instituto Nacional de Estadística (Spain)|Instituto Nacional de Estadística]] |access-date=25 July 2026 }}</ref><ref>{{cite news |year=2017 |title=Sube el número de inmigrantes que viven en España |language=es |work=Datosmacro |url=https://datosmacro.expansion.com/demografia/migracion/inmigracion/espana |access-date=7 June 2019}}</ref> This makes Spain one of the world's [[List of sovereign states and dependent territories by immigrant population|preferred destinations for migrants]], being the 4th country in Europe by immigration numbers and the 10th worldwide. Of these, more than 860,000 were [[Romanians|Romanian]], and 760,000 were [[Morocco|Moroccan]] while the number of [[Ecuadorian]]s was around 390,000. [[Colombian people|Colombian]] population amounted to around 300,000. There are also significant numbers of British (359,076 as of 2011, but more than one million are estimated to live permanently in Spain) and German (195,842) citizens, mainly in [[Alicante (province)|Alicante]], [[Málaga (province)|Málaga]] provinces, [[Balearic Islands]] and [[Canary Islands]]. The largest Asian immigrant group, the [[Chinese in Spain|Chinese]], number slightly over 166,000.<gallery widths="250" heights="180" mode="packed" caption="Foreign born and Spain born population pyramids">
+File:TESP1991.png|1991
+File:TESP2005.png|2005
+File:TESP2015.png|2015
+File:TESP2025.png|2025
+</gallery>
+
+===Spain migration data, 2008–2022===
+
+{{Table alignment}}
+{| class="wikitable col1left col2right col3right col4right"
+|-
+! Period !! Immigration  !! Emigration  !! Net Migration
+|-
+| 2008S1 || 329,772 || 134,650 || 195,121
+|-
+| 2008S2 || 269,302 || 153,782 || 115,520
+|-
+| 2009S1 || 205,091 || 184,140 || 20,951
+|-
+| 2009S2 || 187,872 || 195,978 || −8,106
+|-
+| 2010S1 || 173,714 || 197,032 || −23,318
+|-
+| 2010S2 || 186,990 || 206,347 || −19,357
+|-
+| 2011S1 || 176,808 || 200,634 || −23,826
+|-
+| 2011S2 || 194,527 || 208,400 || −13,873
+|-
+| 2012S1 || 153,205 || 212,457 || −59,253
+|-
+| 2012S2 || 150,849 || 234,148 || −83,299
+|-
+| 2013S1 || 127,796 || 269,691 || −141,895
+|-
+| 2013S2 || 152,976 || 262,612 || −109,636
+|-
+| 2014S1 || 138,274 || 199,552 || −61,278
+|-
+| 2014S2 || 167,180 || 200,877 || −33,698
+|-
+| 2015S1 || 154,659 || 173,062 || −18,404
+|-
+| 2015S2 || 187,455 || 170,812 || 16,643
+|-
+| 2016S1 || 186,918 || 166,819 || 20,098
+|-
+| 2016S2 || 227,829 || 160,505 || 67,323
+|-
+| 2017S1 || 234,070 || 197,140 || 36,930
+|-
+| 2017S2 || 298,062 || 171,720 || 126,342
+|-
+| 2018S1 || 286,230 || 169,124 || 117,106
+|-
+| 2018S2 || 357,454 || 140,402 || 217,052
+|-
+| 2019S1 || 349,941 || 137,367 || 212,574
+|-
+| 2019S2 || 400,539 || 158,881 || 241,658
+|-
+| 2020S1 || 248,029 || 130,413 || 117,616
+|-
+| 2020S2 || 219,889 || 118,148 || 101,741
+|-
+| 2021S1 || 201,329 || 197,376 || 3,953
+|-
+| 2021S2 || 327,527 || 183,410 || 144,117
+|-
+| 2022S1 || 478,990 || 220,443 || 258,547
+|}
+
+{| class="wikitable sortable"
+|+ Migration data for Spain (2021–2024)<ref>{{Cite web| title = Press Release: Statistics on Migrations and Changes of Residence (SMCR). Year 2023.| work = INE| access-date = 2025-08-06| date = 2024-12-12| url = https://www.ine.es/dyngs/Prensa/en/EMCR2023.htm}}</ref>
+! Year !! Total immigration !! Total emigration !! Total net migration !! Spanish immigration !! Spanish emigration !! Spanish net migration
+|-
+| 2021 || 887,960 || 696,866 || 191,094 || 135,651 || 155,533 || −19,882
+|-
+| 2022 || 1,258,894 || 531,889 || 727,005 || 138,420 || 141,124 || −2,704
+|-
+| 2023 || 1,250,991 || 608,695 || 642,296 || 152,963 || 126,901 || 26,062
+|-
+| 2024 || 1,288,562 || 662,294 || 626,268 || 144,335 || 137,719 || 6,616
+|}
+
+{| class="wikitable sortable mw-collapsible mw-collapsed"
+|+Population by country of birth as of 1 January 2025:<ref>{{Cite web |title=Población y edad media por sexo y nacimiento|url=https://www.ine.es/jaxiT3/Tabla.htm?t=68528&L=0 |publisher=[[Instituto Nacional de Estadística (Spain)|Instituto Nacional de Estadística]]}}</ref>
+!Country
+!Population
+|-
+| {{Flag|Spain}} || align="right" | 39,664,087
+|-
+|-
+| {{Flag|Morocco}} || align="right" | 1,165,955
+|-
+| {{Flag|Colombia}} || align="right" | 978,041
+|-
+| {{Flag|Venezuela}} || align="right" | 692,316
+|-
+| {{flagicon|EU}}{{Flag|Romania}} || align="right" | 521,181
+|-
+| {{Flag|Ecuador}} || align="right" | 468,751
+|-
+| {{Flag|Argentina}} || align="right" | 450,883
+|-
+| {{Flag|Peru}} || align="right" | 430,277
+|-
+| {{Flag|United Kingdom}} || align="right" | 281,584
+|-
+| {{Flag|Cuba}} || align="right" | 252,290
+|-
+| {{Flag|Honduras}} || align="right" | 220,593
+|-
+| {{flagicon|EU}}{{Flag|France}} || align="right" | 219,791
+|-
+| {{Flag|Ukraine}} || align="right" | 209,592
+|-
+| {{Flag|China}} || align="right" | 209,320
+|-
+| {{Flag|Dominican Republic}} || align="right" | 207,135
+|-
+| {{Flag|Bolivia}} || align="right" | 193,275
+|-
+| {{Flag|Brazil}} || align="right" | 189,712
+|-
+| {{flagicon|EU}}{{Flag|Germany}} || align="right" | 180,264
+|-
+| {{flagicon|EU}}{{Flag|Italy}} || align="right" | 164,380
+|-
+| {{Flag|Paraguay}} || align="right" | 162,633
+|-
+| {{Flag|Russia}} || align="right" | 141,438
+|-
+| {{Flag|Pakistan}} || align="right" | 135,696
+|-
+| {{Flag|Senegal}} || align="right" | 109,523
+|-
+| {{Flag|Algeria}} || align="right" | 103,935
+|-
+| {{flagicon|EU}}{{Flag|Bulgaria}} || align="right" | 101,578
+|-
+|-
+| {{flagicon|EU}}{{Flag|Portugal}} || align="right" | 96,773
+|-
+| {{Flag|Nicaragua}} || align="right" | 93,905
+|-
+| {{Flag|Uruguay}} || align="right" | 91,437
+|-
+| {{Flag|Mexico}} || align="right" | 87,575
+|-
+| {{Flag|Chile}} || align="right" | 82,165
+|-
+| {{Flag|USA}} || align="right" | 76,180
+|-
+| {{Flag|India}} || align="right" | 73,951
+|-
+| {{flagicon|EU}}{{flag|Netherlands}} || align="right" | 62,007
+|-
+| {{Flag|Philippines}} || align="right" | 60,756
+|-
+| {{Flag|Switzerland}} || align="right" | 60,164
+|-
+| {{flagicon|EU}}{{flag|Belgium}} || align="right" | 56,924
+|-
+| {{flagicon|EU}}{{Flag|Poland}} || align="right" | 56,656
+|-
+| {{Flag|El Salvador}} || align="right" | 40,811
+|-
+| {{Flag|Mali}} || align="right" | 38,855
+|-
+| {{Flag|Nigeria}} || align="right" | 34,793
+|-
+| {{Flag|Gambia}} || align="right" | 31,753
+|-
+| {{Flag|Equatorial Guinea}} || align="right" | 26,649
+|-
+| {{Flag|Bangladesh}} || align="right" | 25,883
+|-
+| {{Flag|Moldova}} || align="right" | 25,171
+|-
+| {{Flag|Ghana}} || align="right" | 23,953
+|-
+| {{Flag|Georgia}} || align="right" | 23,510
+|-
+| {{flagicon|EU}}{{Flag|Sweden}} || align="right" | 23,082
+|-
+| {{Flag|Guatemala}} || align="right" | 21,248
+|-
+| {{flagicon|EU}}{{Flag|Ireland}} || align="right" | 20,959
+|-
+| {{Flag|Guinea}} || align="right" | 15,873
+|-
+| {{flagicon|EU}}{{Flag|Lithuania}} || align="right" | 15,677
+|-
+| {{Flag|Iran}} || align="right" | 15,467
+|-
+| {{Flag|Armenia}} || align="right" | 15,055
+|-
+| {{Flag|Mauritania}} || align="right" | 13,909
+|-
+| {{flagicon|EU}}{{Flag|Hungary}} || align="right" | 13,770
+|-
+| {{Flag|Syria}} || align="right" | 12,888
+|-
+| {{flagicon|EU}}{{Flag|Finland}} || align="right" | 11,684
+|-
+| {{Flag|Norway}} || align="right" | 10,774
+|-
+| {{Flag|Belarus}} || align="right" | 10,640
+|-
+| {{Flag|Turkey}} || align="right" | 10,435
+|-
+| {{Flag|Canada}} || align="right" | 10,425
+|}
+
+=== Foreign population ===
+[[File:Percentage of people of foreign origin over two generations under the age of 15 in Spain.svg|thumb|Percentage of people of foreign origin over two generations under the age of 15 in Spain]]
+As of 1 January 2025, Spain had a foreign citizens population of 6,911,971.<ref>{{Cite web|url=https://www.ine.es/dyngs/Prensa/CensoVariables2025.htm|publisher=[[Instituto Nacional de Estadística (Spain)|Instituto Nacional de Estadística]]|title=Censo Anual de Población. Primeros resultados 2025. Ampliación 2022, 2023 y 2024.}}</ref><ref name="ine.es">{{Cite web|url=https://www.ine.es/jaxiT3/Tabla.htm?t=68525&L=0|publisher=[[Instituto Nacional de Estadística (Spain)|Instituto Nacional de Estadística]]|title=Población residente por fecha, sexo, generación (edad a 31 de diciembre), nacionalidad (agrupación de países) y lugar de nacimiento (agrupación de países).}}</ref> The largest groups of foreign citizens were those of Moroccan, Colombian, Romanian, Venezuelan and Italian citizenship.<ref>{{Cite web|url=https://www.ine.es/dyngs/Prensa/CensoVariables2025.htm|publisher=[[Instituto Nacional de Estadística (Spain)|Instituto Nacional de Estadística]]|title=Censo Anual de Población. Primeros resultados 2025. Ampliación 2022, 2023 y 2024.}}</ref>
+Meanwhile, as 1 January 2025, Spain had a foreign-born population of 9,464,210, being those born in the Americas the largest group, and Europe being the second most common continent of origin after South America.<ref name="ine.es"/>
+
+{{Table alignment}}
+{| class="wikitable sortable"
+!Foreign-born population by region of origin<ref name="ine.es"/>
+!Number
+|-
+|'''[[Americas]]'''
+|'''4,772,270'''
+|-
+|[[South America]]
+|3,739,859
+|-
+|[[Central America]]/[[Antilles|Caribbean]]
+|858,231
+|-
+|[[North America]]
+|174,180
+|-
+|'''[[Europe]]'''
+|'''2,417,433'''
+|-
+|[[European Union]]
+|1,601,863
+|-
+|Other Europe
+|815,570
+|-
+|[[Africa]]
+|1,647,410
+|-
+|[[Asia]]
+|616,222
+|-
+|[[Oceania]]
+|10,675
+|-
+!scope="row"|Total
+|'''9,464,210'''
+|}
+<div style="overflow:auto">
+{| class="wikitable"
+|+Country of birth in Spain
+! rowspan="3" |Resident Population groups
+! colspan="26" |Year
+|-
+! colspan="2" |2002<ref name=":24">{{Cite web|title=Resident population by date, sex, nationality (groups of countries) and place of birth (groups of countries)(9691)|url=https://www.ine.es/jaxiT3/Tabla.htm?t=9691&L=1|access-date=2022-01-05|website=INE|language=en|archive-date=5 January 2022|archive-url=https://web.archive.org/web/20220105201011/https://www.ine.es/jaxiT3/Tabla.htm?t=9691&L=1|url-status=dead}}</ref>
+! colspan="2" |2004<ref name=":24"/>
+! colspan="2" |2006<ref name=":24"/>
+! colspan="2" |2008<ref name=":24"/><ref name="ReferenceA">{{Cite web |title=Población residente por fecha, sexo, nacionalidad (agrupación de países) y lugar de nacimiento (agrupación de países)(9691) |url=https://www.ine.es/jaxiT3/Datos.htm?t=9691 |access-date=2023-07-13 |website=INE |language=es-ES |archive-date=25 October 2022 |archive-url=https://web.archive.org/web/20221025102106/https://ine.es/jaxiT3/Datos.htm?t=9691 |url-status=dead }}</ref>
+! colspan="2" |2010<ref name=":24"/>
+! colspan="2" |2012<ref name=":24"/>
+! colspan="2" |2014<ref name=":24"/>
+! colspan="2" |2016<ref name=":24"/>
+! colspan="2" |2018<ref name=":24"/>
+! colspan="2" |2020<ref name=":24"/>
+! colspan="2" |2022<ref name=":24"/><ref name="ReferenceA"/>
+! colspan="2" |2024<ref>{{cite web|author=Instituto Nacional de Estadística |title=Estadística Continua de Población (ECP). |url=https://ine.es/jaxiT3/Tabla.htm?t=56937&L=0}}<!-- auto-translated from Spanish by Module:CS1 translator --></ref>
+! colspan="2" |2026 (July)<ref>{{cite web|access-date=7 August 2026 |author=Instituto Nacional de Estadística |title=Estadística Continua de Población (ECP). Datos provisionales a 1 de julio de 2026 |url=https://www.ine.es/dyngs/Prensa/ECP2T26.htm |website=Instituto Nacional de Estadística}}<!-- auto-translated from Spanish by Module:CS1 translator --></ref>
+|-
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+!Number
+!%
+|-
+|[[File:Flag of the Kingdom of Spain.svg|20x20px]] Spaniards
+|38,701,173
+|94.31%
+|38,999,785
+|91.66%
+|39,371,997
+|89.46%
+|39,790,019
+|87.12%
+|40,206,557
+|86.49%
+|40,523,263
+|86.55%
+|40,542,974
+|87.20%
+|40,505,719
+|87.26%
+|40,437,561
+|86.69%
+|40,303,297
+|85.18%
+|40,018,611
+|84.27%
+|39,781,461
+|81.82%
+|39,509,752
+|79.33%
+|-
+|Foreigners
+|2,334,098
+|5.69%
+|3,547,669
+|8.34%
+|4,637,972
+|10.54%
+|5,878,919
+|12.88%
+|6,280,064
+|13.51%
+|6,294,953
+|13.45%
+|5,952,770
+|12.80%
+|5,913,165
+|12.74%
+|6,207,509
+|13.31%
+|7,014,753
+|14.82%
+|7,468,116
+|15.73%
+|8,838,234
+|18.18%
+|10,291,807
+|20.67%
+|-
+!scope="row"|Total
+|41,035,271
+|100%
+|42,547,454
+|100%
+|44,009,969
+|100%
+|45,668,938
+|100%
+|46,486,621
+|100%
+|46,818,216
+|100%
+|46,495,744
+|100%
+|46,418,884
+|100%
+|46,645,070
+|100%
+|47,318,050
+|100%
+|47,486,727
+|100%
+|48,619,695
+|100%
+|49,801,559
+|100%
+|}</div>
+Source: Continuous Population Statistics 2002-2026(INE)<ref>{{cite web|author=Instituto Nacional de Estadística |title=Estadística Continua de Población (ECP). |url=https://ine.es/jaxiT3/Tabla.htm?t=56937&L=0}}<!-- auto-translated from Spanish by Module:CS1 translator --></ref>
+
+== Religions ==
+{{main|Religion in Spain}}
+
+{{Pie chart
+|thumb = right
+|caption= Religion in Spain (CIS poll, December 2020)<ref>{{Cite report |url=http://datos.cis.es/pdf/Es3303marMT_A.pdf |title=BARÓMETRO DE DICIEMBRE 2020 |publisher=Centro de Investigaciones Sociológicas |year=2020 |pages=30 |language=es |archive-url=https://web.archive.org/web/20201221103849/http://datos.cis.es/pdf/Es3303marMT_A.pdf |archive-date=2020-12-21 |url-status=live}}</ref>
+|label1 = [[Catholic Church in Spain|Non-practicing Catholic]]
+|value1 = 41.6
+|color1 = DarkBlue
+|label2 = [[Catholic Church in Spain|Practicing Catholic]]
+|value2 = 20.1
+|color2 = Blue
+|label3 = [[Agnosticism|Agnostic]]/Non-believer
+|value3 = 20.8
+|color3 = LightGray
+|label4 = [[Atheism|Atheist]]
+|value4 = 13.6
+|color4 = Grey
+|label5 = Other denominations and religions
+|value5 = 2.7
+|color5 = Orange
+|label6 = Did not answer
+|value6 = 1.2
+|color6 = Black
+}}
+The [[Reconquista]] was the long process by which the Catholics reconquered Spain from Islamic rule by 1492.  The [[Spanish Inquisition]] was established in 1478  to complete the religious orthodoxy of the Iberian Peninsula. In the centuries that followed, Spain saw itself as the bulwark of Catholicism and doctrinal purity; since then, Catholicism has been the main religion in Spain.<ref>{{cite book|title=Encyclopedia of Global Religion|last1=Juergensmeyer|first1=Mark|last2=Roof|first2=Wade Clark|publisher=SAGE Publications|year=2011|page=1214|isbn=9781452266565|url=https://books.google.com/books?id=WwJzAwAAQBAJ&q=catholicism+hegemony+religion+spain&pg=PA1214}}</ref><ref>{{Cite book |last=Payne |first=Stanley G. |url=https://books.google.com/books?id=JGoqcg22N4gC |title=Spanish Catholicism: An Historical Overview |publisher=[[University of Wisconsin Press]] |year=1984 |isbn=9780299098049 |language=en}}</ref>
+
+Spanish missionaries carried Catholicism to the [[Americas]] and the [[Philippines]], establishing various missions in the newly colonized lands. The missions served as a base for both administering colonies as well as spreading Christianity.<ref>{{cite book|page=10|title=Laicidad and Religious Diversity in Latin America|isbn=9783319447452|publisher=Springer|year=2016}}</ref><ref>{{cite book|title=Being Catholic in the Contemporary Philippines: Young People Reinterpreting Religion|last=Cornelio|first=Jayeel Serrano|year=2016|publisher=Routledge|isbn=9781317621966}}</ref><ref>{{cite book|page=198|title=The Spanish Empire: A Historical Encyclopedia [2 volumes]: A Historical Encyclopedia|publisher=ABC-CLIO|year=2016|isbn=9781610694223|first1=H. Micheal|last1=Tarver Ph.D.|last2=Slape|first2=Emily}}</ref>
+
+The [[Constitution of Spain|Spanish Constitution of 1978]] abolished [[Catholic Church|Catholicism]] as the official state religion, but recognised the role it plays in Spanish society.<ref name=es_CONSTITUTION>{{cite act |italics=y<!--smallcaps--> |title=Constitución española |trans-title=[[Constitution of Spain]] |type=Constitution |date=29 December 1978 |pinpoint=art, 14, 16 & 27.3 |reporter=BOE |volume=311 |id=[https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229 BOE-A-1978-31229] |language=English |url=https://www.boe.es/legislacion/documentos/ConstitucionINGLES.pdf |access-date=2024-04-26 |quote=No religion shall have a state character. The public authorities shall take into account the religious beliefs of Spanish society and shall consequently maintain appropriate cooperation relations with the Catholic Church and other confessions. <!-- |access-date=5 March 2018 |archive-date=15 May 2019 |archive-url=https://web.archive.org/web/20190515160644/http://www.congreso.es/portal/page/portal/Congreso/Congreso/Hist_Normas/Norm/const_espa_texto_ingles_0.pdf -->}}</ref>
+From the end of the [[Francoist dictatorship]] to the present day, a [[secularization|secularisation]] process has taken place that has meant a progressive decrease in religious practice, in the attendance at the different religious rites (baptisms, communions and Catholic marriages) and in the percentage of Spaniards who identify as Catholic.<ref name=Santos/> Consequently, a majority of Spaniards today ignore Catholic doctrines on matters such as [[pre-marital sex]], homosexuality and contraception.<ref name="DAWN">{{cite news |last = Tarvainen |first = Sinikka |title = Reforms anger Spanish church |publisher = Dawn International |date = 26 September 2004 |url = https://www.dawn.com/news/396831/reforms-anger-spanish-church |access-date = 21 March 2008}}</ref><ref name="WWRN">{{cite news|title =Zapatero accused of rejecting religion|publisher =Worldwide Religious News|date =15 October 2004|url =http://www.wwrn.org/article.php?idd=15453&sec=59&con=53|access-date =21 March 2008|url-status =dead|archive-url =https://web.archive.org/web/20081023070458/http://www.wwrn.org/article.php?idd=15453&sec=59&con=53|archive-date =23 October 2008}}</ref> Despite the drop, Catholic identity nevertheless remains an important part of Spain's culture.<ref name=Santos>{{cite book|author=A. Santos|isbn=9781137296405|publisher=Springer|title=Social Movements and Sexual Citizenship in Southern Europe|year=2012|url=https://books.google.com/books?id=vMA7_9icqQwC&q=Catholic+identity+nevertheless+remains+an+important+part+of+Spain%27s+culture&pg=PT68}}</ref>
+
+{{As of|2018}}, 68.5% of the population define themselves as Catholic, 26.4% as non-believers or atheists, and 2.6% other religions according to the official Spanish Center for Sociological Research.<ref name=CIS2018>{{Cite web|url=http://datos.cis.es/pdf/Es3187sd_A.pdf|author=''Centro de Investigaciones Sociológicas'' (Centre for Sociological Research)|title=Barómetro de enero de 2018|date=January 2018|page=19|access-date=3 March 2018|language=es|archive-url=https://web.archive.org/web/20130712095356/http://dat/|archive-date=12 July 2013|url-status=dead}}</ref> Among believers, 59% assert they almost never go to any religious service, by contrast, 16.3% attend one or more religious service almost every week.<ref name=CIS2018 /><ref name=EUROBAROMETER69>{{cite web|url=http://ec.europa.eu/public_opinion/archives/eb/eb69/eb69_values_en.pdf|title=Eurobarometer 69 – Values of Europeans. p.16|access-date=24 March 2009}}</ref>
+
+There have been three Popes from what is now Spain, all of them from the [[Crown of Aragon]]: [[Pope Calixtus III|Calixtus III]], [[Pope Alexander VI|Alexander VI]] and [[Antipope Benedict XIII|Benedict XIII]]. [[Spanish mysticism]] provided an important intellectual resource against Protestantism with [[Carmelites]] like [[Teresa of Ávila]], a [[Counter-Reformation|reformist]] nun and [[John of the Cross]], a priest, taking the lead in their reform movement. Later, they became [[Doctors of the Church]]. The [[Society of Jesus]] was co-founded by [[Ignatius of Loyola]], whose [[Spiritual Exercises]] and movement led to the establishment of hundreds of [[Jesuit universities|colleges and universities]] in the world, including 28 in the United States alone. The Society's co-founder, [[Francis Xavier]], was a missionary who reached India and later Japan. In the 1960s, Jesuits [[Pedro Arrupe]] and [[Ignacio Ellacuría]] supported the movement of [[Liberation Theology]].{{Citation needed|date=October 2020}}
+
+A study made by the [[Union of Islamic Communities of Spain]] demonstrated that there were about 1,700,000 inhabitants of Muslim background living in Spain {{As of|2012|lc=y}}, accounting for 3–4% of the total population of Spain. The vast majority was composed of immigrants and descendants originating from [[Morocco]] and other African countries. More than 514,000 (30%) of them had Spanish nationality.<ref>{{cite journal|title=Explotación estadística del censo de ciudadanos musulmanes en España referido a fecha 31/12/2012|journal=Unión de Comunidades Islámicas de España|year=2012|pages=6–9|url=http://oban.multiplexor.es/estademograf.pdf|url-status=live|archive-url=https://web.archive.org/web/20130328084242/http://oban.multiplexor.es/estademograf.pdf|archive-date=28 March 2013}}</ref> The recent waves of immigration have also led to an increasing number of [[Muslims]], [[Buddhists]], [[Sikhs]] and [[Hindus]]. After the Reconquista in 1492, Muslims did not live in Spain for centuries. Their ranks have since been bolstered by recent immigration, especially from Morocco and Algeria.{{Citation needed|date=October 2020}}
+[[Judaism]] was practically non-existent in Spain from the 1492 expulsion until the 19th century, when Jews were again permitted to enter the country. Currently there are around 62,000 Jews in Spain, or 0.14% of the total population. Most are arrivals in the past century, while some are descendants of earlier Spanish Jews. Approximately 80,000 [[Jew]]s are thought to have lived in Spain prior to its expulsion.<ref>{{cite book|title=The Spanish Inquisition: A Historical Revision|url=https://archive.org/details/spanishinquisiti00henr|url-access=registration|year=1999|publisher=Yale University Press|author-link=Henry Kamen|last=Kamen|first=Henry|pages=[https://archive.org/details/spanishinquisiti00henr/page/29 29]–31}}</ref> However the Jewish Encyclopedia states the number over 800,000 to be too large and 235,000 as too small: 165,000 is given as expelled as possibly too small in favour of 200,000, and the numbers of converts after the 1391 pogroms as less. Other sources suggest 200,000 converts mostly after the pogroms of 1391 and upwards of 100,000 expelled. Up until recently, descendants of these Sephardic Jews expelled in 1492 were eligible for Spanish citizenship if they requested it.<ref>{{cite news|last=Sanz|first=Juan Carlos|title=Spain at last welcomes back the Sephardim|url=https://elpais.com/elpais/2016/01/22/inenglish/1453467510_159674.html|date=22 January 2016|access-date=26 May 2018|location=Tel Aviv|newspaper=[[El País]]}}</ref>
+
+== Languages ==
+*[[Spanish language|Spanish]] 99% (88% mother tongue<ref name="ec.europa.eu">{{cite web |url=http://ec.europa.eu/commfrontoffice/publicopinion/archives/ebs/ebs_243_en.pdf |title=Europeans and their languages|date=February 2006 |website= ec.europa.eu|publisher=European Commission}}</ref>) (official nationwide)
+*[[Catalan language|Catalan]] 16%<ref>{{Cite web|url=http://www.ethnologue.com/show_country.asp?name=ES|title=Spain}}</ref> (9% mother tongue<ref name="ec.europa.eu"/>) (co-official in [[Catalonia]], [[Balearic Islands]], and [[Valencian Community|Valencia]] — see [[Valencian language|Valencian]])
+*[[Galician language|Galician]] 7% (5% mother tongue<ref name="ec.europa.eu"/>) (co-official in [[Galicia (Spain)|Galicia]])
+*[[Basque language|Basque]] 1.6% (1% mother tongue<ref name="ec.europa.eu"/>) (co-official in [[Basque Country (autonomous community)|Basque Country]] and designated areas in [[Navarre]]).
+*[[Aranese]] (a variant of Gascon [[Occitan language|Occitan]]) is co-official in [[Val d'Aran]], a small valley in the Pyrenees.
+
+''Others with no official status:''
+*[[Astur-Leonese linguistic group|Asturian-Leonese]] (in the former [[Kingdom of León]] and [[Asturias]])
+*[[Aragonese language|Aragonese]] (in the province of [[Huesca (province)|Huesca]], [[Aragon]])
+*[[Moroccan Arabic|Arabic]] (in the autonomous city of [[Ceuta]])
+*[[Tarifit]] (in the autonomous city of [[Melilla]])
+
+=== First languages, 2021 official survey ===
+{{Table alignment}}
+{| class="wikitable sortable col1left col2right col3right"
+|+First language, 2021 census (2 years old or more)<ref>{{Cite web |title=INEbase / Demografía y población /Cifras de población y Censos demográficos /Encuesta de Características Esenciales de la Población y las Viviendas / Microdatos |url=https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177092&menu=resultados&idp=1254735572981# |access-date=2025-03-12 |website=INE |language=es}}</ref>
+! rowspan="2" |Language
+! colspan="2" |Initial language
+|-
+!Absolute
+!Percentage
+|-
+|[[Spanish language|Spanish]]
+|37,650,425
+|81.53
+|-
+|of which only Spanish
+|34,477,775
+|74.66
+|-
+|[[Catalan language|Catalan]] (including [[Valencian language|Valencian]] and [[Balearic Catalan|Balearic]] )
+|4,846,933
+|10.50
+|-
+|[[Galician language|Galician]]
+|1,742,974
+|3.77
+|-
+|[[Arabic language|Arabic]]
+|1,001,792
+|2.17
+|-
+|[[English language|English]]
+|730,251
+|1.58
+|-
+|[[Romanian language|Romanian]]
+|664,407
+|1.44
+|-
+|[[Basque language|Basque]]
+|658,030
+|1.42
+|-
+|[[French language|French]]
+|432,209
+|0.94
+|-
+|[[Portuguese language|Portuguese]]
+|251,497
+|0.54
+|-
+|[[Chinese language|Chinese]]
+|221,331
+|0.48
+|-
+|[[German language|German]]
+|205,289
+|0.44
+|-
+|[[Italian language|Italian]]
+|188,651
+|0.41
+|-
+|[[Bulgarian language|Bulgarian]]
+|152,037
+|0.33
+|-
+|[[Russian language|Russian]]
+|147,864
+|0.32
+|-
+|[[Ukrainian language|Ukrainian]]
+|76,297
+|0.17
+|-
+|[[Polish language|Polish]]
+|61,926
+|0.13
+|-
+|[[Berber languages|Berber]]
+|59,797
+|0.13
+|-
+|[[Dutch language|Dutch]]
+|51,672
+|0.11
+|-
+|[[Urdu]]
+|50,983
+|0.11
+|-
+|[[Guarani language|Guarani]]
+|36,807
+|0.08
+|-
+|[[Wolof language|Wolof]]
+|34,581
+|0.07
+|-
+|[[Asturian language|Asturian]]
+|26,584
+|0.06
+|-
+|Other languages
+|347,363
+|0.75
+|-
+!scope="row"|Total
+|46,181,637
+|>100.0
+|}
+
+==Educational system==
+About 70% of Spain's [[student]]s in non-university education attend public schools;<ref>{{Cite web |date=2021 |title=Facts and Figures 2021/2022 school year |url=https://www.educacionyfp.gob.es/dam/jcr:4d443eb4-40e5-4be4-b739-dd396aa5852f/datos-y-cifras-2021-2022-english.pdf |url-status=live |archive-url=https://web.archive.org/web/20211227201902/https://www.educacionyfp.gob.es/dam/jcr:4d443eb4-40e5-4be4-b739-dd396aa5852f/datos-y-cifras-2021-2022-english.pdf |archive-date=27 December 2021 |access-date=20 July 2022 |website=Ministerio de Educación y Formación Profesional}}</ref> 79.1% of students in higher education are enrolled in public universities.<ref>{{Cite web |date=25 April 2022 |title=Datos y Cifras del Sistema Universitario Español (Publicación 2021-2022) |url=https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=044e91d248552710VgnVCM1000001d04140aRCRD |url-status=live |archive-url=https://web.archive.org/web/20220130051151/https://www.universidades.gob.es/portal/site/universidades/menuitem.a9621cf716a24d251662c810026041a0/?vgnextoid=044e91d248552710VgnVCM1000001d04140aRCRD |archive-date=30 January 2022 |access-date=20 July 2022 |website=Ministerio de Universidades}}</ref> The remainder attend private schools or universities, many of which are operated by the Catholic Church.<ref>{{Cite web |last=Parcerisa |first=Elizabeth |date=2020-08-15 |title=Qué es un colegio concertado: características, ventajas y polémicas |url=https://www.niusdiario.es/sociedad/educacion/que-es-colegio-concertado-caracteristicas-ventajas-evn3m_18_2994870044.html |access-date=2022-06-29 |website=Nius Diario |language=es}}</ref>
+
+Compulsory education begins with primary school or general basic education for ages 6–16. It is free in public schools and in many private schools, most of which receive [[government]] [[subsidy|subsidies]].<ref>{{Cite journal |date=2020-12-06 |title=Education Policy Outlook in Spain |url=https://www.oecd.org/en/publications/education-policy-outlook-in-spain_4b31ce9f-en.html |access-date=2025-11-22 |website=OECD |series=OECD Education Policy Perspectives |language=en |doi=10.1787/4b31ce9f-en}}</ref> Following graduation, students attend either a secondary school offering a general high school diploma or a school of professional study in all fields – law, sciences, humanities, and medicine – and the technical schools offer programs in engineering and architecture.
+
+== See also ==
+{{commons category|Demographics of Spain}}
+* [[Health in Spain]]
+* [[Demographics of Madrid]]
+* [[List of Spaniards]]
+* [[Romani people in Spain]]
+* [[Ranked list of Spanish autonomous communities]]
+* [[Singular population entity]]
+* [[Contemporary history of Spain]]
+* [[Empty Spain]]
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [http://www.ine.es/en/inebmenu/indice_en.htm Spanish ''Instituto Nacional de Estadística'' Statistical data about demography and population]
+* {{Deprecated archive|url=https://archive.today/20150404121423/http://itbulk.org/population/population-by-country/|title=Build Spanish population graph 1960–2013 (World Bank data)|sec=el}}
+* {{Deprecated archive|url=https://archive.today/20150220095949/http://itbulk.org/population/population-projection-by-country/|title=Build Spanish population projection graph till 2100 (United Nation data)|sec=el}}
+* {{Deprecated archive|url=https://archive.today/20150404121433/http://itbulk.org/population/life-expectancy-by-country/|title=Build Spanish life expectancy at birth graph 1950–2013 (United Nation data)|sec=el}}
+
+{{Demographics of Europe}}
+{{Ethnic groups of Spain}}
+{{Spain topics|state=collapsed}}
+
+{{DEFAULTSORT:Demographics of Spain}}
+[[Category:Demographics of Spain| ]]
