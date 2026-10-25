@@ -1,0 +1,228 @@
+                Step relays 10 A
+
+
+
+
+Lighting control
+in corridors (for
+hotels, oﬃces
+and hospitals)
+
+Bedroom
+light control
+
+
+Living room
+light control
+                                   26
+                                   SЕRIES
+Prices, features, specifications, capabilities, appearance and availability of our products and services are subject to change without notice.
+             FINDER assumes no responsibility for the presence of possible errors or insufficient information in this document.
+                              In case of discrepancies between the printed and online versions, the latter prevails.
+                            26 SERIES                                                                                                                                                  26
+                            Step relays 10 A                                                                                                                                           SERIES
+
+
+                            1 or 2 Pole electromechanical step relay with                      26.01                      26.02, 04, 06, 08                         26.03
+                            electrically separate coil and contact circuits
+                            • Choice of 6 switching sequences
+                            • Screw terminal connections
+                            • AC coil
+                            • Panel mount
+                            • Cadmium free contact material
+                            26.01/02/04/06/08/03
+                            Screw terminal
+
+
+                                                                                   • Single phase switch 1 NO        • Double phase switch 2 NO        • 1 NO + 1 NC
+                                                                                     (SPST-NO)                         (DPST-NO)                         (SPST-NO + SPST-NC)
+                                                                                   • According to EN 60601-1         • According to EN 60601-1         • According to EN 60601-1
+                                                                                     2 x MOPP                          2 x MOOP                          2 x MOOP
+
+
+
+
+                            For outline drawing see page 6
+                            Contact specification
+                            Number of contacts                                             1 NO (SPST-NO)                    2 NO (DPST-NO)             1NO+1NC (SPST-NO+SPST-NC)
+                            Rated current/Maximum peak current                A                 10/20                             10/20                              10/20
+                            Rated voltage/
+                            Maximum switching voltage                      V AC                250/400                           250/400                            250/400
+                            Rated load AC1                                   VA                  2500                              2500                              2500
+                            Rated load AC15 (230 V AC)                       VA                  500                               500                                 500
+                            Nominal lamp rating:
+                                                 230 V incandescent/halogen W                    800                               800                                 800
+                                                      fluorescent tubes with
+                                                            electronic ballast W                 400                               400                                 400
+                                                      fluorescent tubes with
+                                                     electromagnetic ballast W                   360                               360                                 360
+                                                                         CFL W                   200                               200                                 200
+                                                                   230 V LED W                   200                               200                                 200
+                                                     LV halogen or LED with
+                                                            electronic ballast W                 200                               200                                 200
+                                                     LV halogen or LED with
+                                                     electromagnetic ballast W                   400                               400                                 400
+                            Minimum switching load                  mW (V/mA)                1000 (10/10)                      1000 (10/10)                      1000 (10/10)
+                            Standard contact material                                            AgNi                              AgNi                              AgNi
+                            Coil specification
+                            Nominal voltage (UN)                   V AC (50 Hz)         12 - 24 - 48 - 110 - 230          12 - 24 - 48 - 110 - 230          12 - 24 - 48 - 110 - 230
+                                                                          V DC                    —                                 —                                  —                    K
+                            Rated power AC/DC                      VA (50 Hz)/W                 4.5/—                             4.5/—                              4.5/—
+                            Operating range                          AC (50 Hz)              (0.8…1.1)UN                       (0.8…1.1)UN                       (0.8…1.1)UN
+                                                                            DC                    —                                 —                                  —
+                            Technical data
+                            Mechanical life AC/DC                        cycles                300 · 103                         300 · 103                          300 · 103
+                                                                                                          3                                3
+                            Electrical life at rated load in AC1         cycles                100 · 10                          100 · 10                           100 · 103
+                            Minimum/Maximum impulse duration                       0.1 s/1 h (according to EN 60669) 0.1 s/1 h (according to EN 60669) 0.1 s/1 h (according to EN 60669)
+X-2021, www.findernet.com
+
+
+
+
+                            Insulation between
+                            coil and contacts (1.2/50 µs)                    kV                    4                                 4                                 4
+                            Ambient temperature range                        °C               –40…+40                           –40…+40                           –40…+40
+                            Protection category                                                  IP 20                             IP 20                             IP 20
+                            Approvals (according to type)
+
+                                                                                                                                                                                        3
+26              26 SERIES
+SERIES          Step relays 10 A
+
+     Ordering information
+     Example: 26 series screw terminal, panel mount relay, double phase switch 2 NO (DPST-NO) 10 A contacts, coil rated 12 V AC.
+
+
+                        2 6 . 0                  2 . 8 . 0 1 2 . 0 . 0 . 0 . 0
+     Series                                                                                Coil voltage
+                                                                                           See coil specifications
+     Type
+     0 = Screw terminal                                                                    Coil version
+                                                                                           8 = AC (50 Hz)
+     No. of poles
+     1 = Single phase switch 1 NO (SPST-NO)
+     2 = Double phase switch 2 NO (DPST-NO)
+     3 = Double phase switch 1 NO + 1 NC (SPST-NO + SPST-NC)
+     4 = 4 sequences double phase switch 2 NO (DPST-NO)
+     6 = 3 sequences double phase switch 2 NO (DPST-NO)
+     8 = 4 sequences double phase switch 2 NO (DPST-NO)
+
+
+
+
+     Technical data
+     Insulation
+     Dielectric strength
+          between supply and contacts                 V AC 4000
+          between open contacts                       V AC 2000
+          between adjacent contacts                   V AC 2000
+     Other data                                              26.01, 26.03, 26.08                                  26.02, 26.04, 26.06
+     Power lost to the environment
+               with rated current and coil de-energised W 0.9                                                     1.8
+            Screw torque                               Nm 0.8                                                     0.8
+     Max. wire size                                          solid cable             stranded cable               solid cable             stranded cable
+                                                         2
+                                                      mm     1 x 4 / 2 x 2.5         1 x 2.5 / 2 x 2.5            1 x 4 / 2 x 2.5         1 x 2.5 / 2 x 2.5
+                                                      AWG 1 x 12 / 2 x 14            1 x 14 / 2 x 14              1 x 12 / 2 x 14         1 x 14 / 2 x 14
+
+
+
+
+     Coil specifications
+     AC version data
+         Nominal        Coil       Operating range       Resistance Consumption                                  Number             Sequence
+                                                                                                         Type
+         voltage       code                                           I at UN                                    of steps       1    2    3       4
+           UN                      Umin       Umax            R       (50 Hz)
+           V                         V          V             Ω                mA                        26.01       2
+
+          12           8.012         9.6       13.2            17              370
+                                                                                                         26.02       2
+          24           8.024        19.2       26.4            70              180
+ K        48           8.048        38.4       52.8           290               90
+                                                                                                         26.03       2
+         110           8.110        88       121             1500               40
+         230           8.230      184        253             6250               20                       26.04       4
+
+
+                                                                                                         26.06       3
+
+
+                                                                                                         26.08       4
+                                                                                                                                                              X-2021, www.findernet.com
+
+
+
+
+     4
+                            26 SERIES                                                                                                                                     26
+                            Step relays 10 A                                                                                                                              SERIES
+
+
+                            Wiring diagrams
+                                                                     L
+
+                                                                     N
+
+
+
+
+                            Accessories
+                            for 12 and 24 V DC control applications
+
+
+
+
+                            Type: 026.9.012                                                    Example of wiring for 24 V DC control application.
+                            Nominal voltage: 12 V DC
+                            Max temperature: +40 °C
+                            Operating range: (0.9…1.1)UN
+                            Type: 026.9.024
+                            Nominal voltage: 24 V DC
+                            Max temperature: +40 °C
+                            Operating range: (0.9…1.1)UN
+
+
+                            Module for use with illuminated push buttons (230 V AC applications)
+
+
+
+                                                                                                                                                                               K
+X-2021, www.findernet.com
+
+
+
+
+                            Type 026.00                                                        Example of wiring diagram of type 026.00
+                            Sealed construction, 7.5 cm insulated flexible wire termination.   This module is necessary when using between 1 and a maximum of 15
+                                                                                               illuminated push buttons in the coil circuit (Each 1 mA max, 230 V AC).
+                                                                                               It must be connected in parallel to the coil of the relay (see diagram).
+
+                                                                                                                                                                           5
+26            26 SERIES
+SERIES        Step relays 10 A
+
+     Outline drawings
+     Type 26.01
+                                 Types 26.02 / 04 / 06 / 08
+     Screw terminal
+                                 Screw terminal
+
+
+
+
+     Type 26.03
+     Screw terminal
+
+
+
+
+ K
+                                                                                                         X-2021, www.findernet.com
+
+
+
+
+     6                                                        Please see general technical information
+

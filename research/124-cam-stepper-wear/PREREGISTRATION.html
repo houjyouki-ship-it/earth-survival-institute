@@ -1,0 +1,30 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>事前登録：研究124 時刻と送りを担うカム・歩進の切替器の摩耗（open_problems 290） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="124-open_problems-290">事前登録：研究124 時刻と送りを担うカム・歩進の切替器の摩耗（open_problems 290）</h1>
+<p>登録：2026-10-25 13:43 JST。新しい資料（sources/ の 124 の分）を開く前、sim.py を書く前。123 の sources（点火の接点）は既読。
+<strong>注：p_relay・p_vac・F_heavy は模型の中の量で、生存確率でも復興確率でもない。</strong>
+next_plan【固定】の指示により、本回で読み取り装置の部品系列をまとめる（125 からは人口の回復待ち・open_problems 57 へ）。</p>
+<h2 id="_1">問い</h2>
+<p>123 で D1（最小の回路、E[p_relay] 0.717）が最良だが、D1 は時刻をカムに、出力の磁石の打ちを「カムの接点（負荷を切る）」に任せ、その摩耗を数えていない。
+D4 は歩進の切替器の腕（wiper）と接点の列（bank）の摩耗を数えていない。これらを継電器と同じ物差し（総動作数÷寿命＝作り直す数、同じ M50 の作る力を分け合う）で入れ、D1・D3・D4 の順位と遅い κ の F_heavy を置き直す。</p>
+<h2 id="123">登録前の概算（資料なし、123 の式から）</h2>
+<p>1 リール 5.28×10¹¹ 点。D1 のカムの接点は 1 点あたり 0.5 回の開閉（1 の点ごと）＝2.6×10¹¹ 回。寿命の中央を点火の接点の値（3×10⁷〜1.2×10⁸）×手作りの倍率 0.1 とすると約 5×10⁶、作り直しは約 5×10⁴ 個で M50 1×10⁵ の半分に当たる。カムの接点は継電器でないので、リードの経路にも同じ数が乗る。カムの山と従節の摩耗（1 点 1 回転）は 10⁹ 回転の寿命なら約 500 個で小さい。</p>
+<h2 id="_2">使う予定の資料（まだ開いていない）</h2>
+<p>Wikipedia：Strowger switch、Crossbar switch、Cam (mechanism)、Uniselector（なければ Rotary switch）、Telephone exchange。必要なら検索で歩進の切替器の寿命の公開の値（製造元・保守の頁）。</p>
+<h2 id="_3">確認的な仮説（資料を開く前に登録）</h2>
+<ul>
+<li>H136a：Strowger switch の記事に、切替器の保守（調整・掃除・部品の交換）が多く要ったことの記述がある（数値は問わない）。</li>
+<li>H136b：Crossbar switch の記事が、クロスバーは step-by-step（Strowger）より摩耗・保守が少ないと述べる。</li>
+<li>H136c：Cam (mechanism) の記事が、カムか従節の摩耗（wear）に触れる。</li>
+<li>H136d：歩進の切替器（stepping / rotary / uniselector）の寿命を動作の回数（10⁶ 回以上の数値）で書いた公開の頁が見つかる。</li>
+</ul>
+<h2 id="_4">入力判明後の予測（登録前の概算を併記）</h2>
+<ul>
+<li>H136e：カムの接点と機械の摩耗を入れた主の版で、D1 の E[p_relay] は 0.717 から 0.12 以上下がる（概算 0.717→約 0.5）。</li>
+<li>H136f：主の版で D4 の E[p_relay] は D1 を上回る（順位の入れ替わり）。概算：D4 の歩進の腕は 1 ビット 1 歩（0.2 回/点＝1.1×10¹¹）、寿命 10⁷〜10⁸ なら 10³〜10⁴ 個で D4 はほぼ 0.6 のまま。</li>
+<li>H136g：遅い κ の F_heavy（123 の D3 主 1.480 を基準に、本回の最良の設計で）の動きは 0.03 未満。</li>
+</ul>
+<h2 id="_5">記述</h2>
+<ul>
+<li>H136h：設計ごとの機械の部品の作り直しの数の表と p_relay・p_vac・F_heavy の版の表。</li>
+</ul>
+<h2 id="_6">判定の規則</h2>
+<p>数値は sim.py の results.json から。資料に記述がなければ確認的仮説は「棄却」。予測の範囲は上のとおり、後から動かさない。</p><footer><hr><small>自動生成</small></footer></body></html>
