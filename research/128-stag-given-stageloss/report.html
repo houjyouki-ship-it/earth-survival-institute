@@ -1,0 +1,81 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究128：125 の停滞の確率は「段を失った社会の中の値」か（open_problems 302） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="128125-open_problems-302">研究128：125 の停滞の確率は「段を失った社会の中の値」か（open_problems 302）</h1>
+<p><strong>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。提言は模型の中での順位で、外部の検証はまだ。</strong></p>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>資料を開く前（21:41 JST）に PREREGISTRATION.md で、段の喪失の規則（文字・金属の生産・石造の大建築・貨幣のうち崩壊の前にあったものの 2 つ以上が 50 年以上途絶、または住民の消滅）と仮説 H140a〜e を登録。停滞の有無は 125 の値・規則をそのまま使った。</li>
+<li>125 の sources/ の頁を本回 grep し、本回新しく Wikipedia の Moai・Rongorongo・Anglo-Saxon architecture・Coinage in Anglo-Saxon England を取得（sources/）。</li>
+<li>grid.py：127 の sim.py を exec し、全成分で同じ p|lost の格子 9 点で F_heavy を計算。127 の Ccond（p=0.6）・C1（p=1）・Cmass（成分ごとの p）の F_heavy を差 0 で再現（assert）。</li>
+<li>sim.py：分類 → 数え → Beta の事後 → 格子の補間で F_heavy の事後。</li>
+</ul>
+<h2 id="resultsjson-ev">分類（根拠は results.json の ev）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>段</th>
+<th>停滞</th>
+<th>根拠の要点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Greece_LBA</td>
+<td>lost</td>
+<td>あり（+263 年）</td>
+<td>【事実（Greek Dark Ages）】Linear B と宮殿の建築が消え、文字は前 950〜750 年に別の字で学び直し</td>
+</tr>
+<tr>
+<td>Britain_postRoman</td>
+<td>lost</td>
+<td>あり（+408 年）</td>
+<td>【事実（Sub-Roman Britain、Coinage in Anglo-Saxon England、Anglo-Saxon architecture）】石の建築が終わり、5 世紀初めに貨幣の生産が終わり 7 世紀まで戻らない。文字（ラテン語）と金属加工は続いた</td>
+</tr>
+<tr>
+<td>Norse_Greenland</td>
+<td>lost（消滅）</td>
+<td>あり</td>
+<td>【事実（Norse settlements in Greenland）】放棄</td>
+</tr>
+<tr>
+<td>England / Europe Black Death</td>
+<td>kept</td>
+<td>なし</td>
+<td>途絶の記述なし</td>
+</tr>
+<tr>
+<td>Hawaii・Latin America・Thirty Years' War・Cambodia（拡張）</td>
+<td>kept</td>
+<td>なし</td>
+<td>途絶の記述なし、または前に項目なし</td>
+</tr>
+<tr>
+<td>Easter_Island（拡張）</td>
+<td>kept（規則上）</td>
+<td>なし</td>
+<td>【事実（Rongorongo）】文字は 1860 年代に途絶。【事実（Moai）】像は主に 1250〜1500 年で 1722 の前に新造は終わっており、途絶は 1 項目だけ</td>
+</tr>
+</tbody>
+</table>
+<p>登録の予想との違いは Easter Island だけ（予想 lost → 規則で kept）。</p>
+<h2 id="_2">主な数値</h2>
+<ul>
+<li>主の集合 M（125 の V2b と同じ 5 事例）：p|lost = 3/3、p|kept = 0/2（周辺 3/5=0.6 を再現）。拡張 X：3/3 と 0/7（Fisher 片側 p=0.008、M では 0.10）。</li>
+<li>格子（遅い κ・D2rz・W・H1000）：F_heavy は p|lost 0.5→1.0 で 1.809→2.293、ほぼ直線（直線からのずれ最大 0.031）。全成分で同じ p=0.864 は 2.134 で、127 の Cmass 2.180 より 0.046 低い（127 は BIO・CASC など段の喪失の割合が小さい成分の p を 1 に上げていた）。</li>
+<li>事後（M）：Jeffreys で p|lost 平均 0.876、F_heavy 平均 2.161（10〜90 % 1.94〜2.29）、新しい側の重い分の量は V0 比 −14.7 %。一様の事前で 0.80・2.082・−13.4 %。</li>
+<li>感度（登録外の記述）：「前にあった項目の過半」の規則では Britain が kept・Easter が lost になり、X で p|lost 2/3、F_heavy 1.92（Jeffreys）と 127 の独立の読み（1.888）に戻る。</li>
+</ul>
+<h2 id="_3">判定</h2>
+<ul>
+<li>H140a（確認的）支持：3/3。H140b（確認的）支持：0/7。H140c（確認的）支持：3/3（X は lost を 1 件も足さなかったので情報は M と同じ）。</li>
+<li>H140d（予測）支持：2.161 ≥ 2.10。H140e（予測）支持：−14.7 % ≤ −14 %。</li>
+<li>著者は事例の概略を知っていたので、確認的と言っても力は弱い。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ul>
+<li>lost は 3 件しかなく、うち Norse は消滅で「段の喪失」と「停滞」が同じ事実から来る（除くと 2/2）。事後は広い（10 % 点 0.6 付近）。</li>
+<li>結論は規則に敏感：過半の規則では Britain（文字と金属が続いた）が kept になり p|lost は 2/3 に下がる。模型の「段の喪失」（T2 の技術を失う）は史実の文字・石造の喪失よりずっと深く、写像は【推測】。</li>
+<li>停滞は 038 の中央の予測との超過で定義していて、r の置き方に依存する。</li>
+<li>長い停滞を持つ lost の事例を増やすには、人口の回復の数値のある崩壊（Copán・Angkor・Indus 等）が要る。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は、遅い κ の重い崩壊の F_heavy の主を 127 の独立の読み 1.888 から「段を失った社会の中の値」の読み 2.08〜2.16（量 −13〜−15 %）に移し、1.89 は感度の下端として残す。報告では「段の喪失をどう数えるか」で 1.92〜2.16 動くことを並べて書く。読取装置の推し D2rz は変えない。</p><footer><hr><small>自動生成</small></footer></body></html>

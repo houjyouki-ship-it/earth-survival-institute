@@ -1,0 +1,19 @@
+{"M": {"lost_stag": 3, "n_lost": 3, "kept_stag": 0, "n_kept": 2, "lost": ["Greece_LBA", "Britain_postRoman", "Norse_Greenland"], "kept": ["England_BlackDeath", "Europe_BlackDeath"]}, "X": {"lost_stag": 3, "n_lost": 3, "kept_stag": 0, "n_kept": 7, "lost": ["Greece_LBA", "Britain_postRoman", "Norse_Greenland"], "kept": ["England_BlackDeath", "Europe_BlackDeath", "Hawaii_contact", "LatinAmerica_conquest", "Easter_Island", "ThirtyYearsWar_Germany", "Cambodia_KhmerRouge"]}, "M_alt": {"lost_stag": 2, "n_lost": 2, "kept_stag": 1, "n_kept": 3, "lost": ["Greece_LBA", "Norse_Greenland"], "kept": ["England_BlackDeath", "Europe_BlackDeath", "Britain_postRoman"]}, "X_alt": {"lost_stag": 2, "n_lost": 3, "kept_stag": 1, "n_kept": 7, "lost": ["Greece_LBA", "Norse_Greenland", "Easter_Island"], "kept": ["England_BlackDeath", "Europe_BlackDeath", "Britain_postRoman", "Hawaii_contact", "LatinAmerica_conquest", "ThirtyYearsWar_Germany", "Cambodia_KhmerRouge"]}}
+M|jeffreys 0.876 F slow D2rz 2.161 [1.9406220562857592, 2.2162734504664408, 2.290542458555932] new -0.1468
+M|uniform 0.8 F slow D2rz 2.082 [1.8573982788279617, 2.110510121092968, 2.264196195895516] new -0.1344
+X|jeffreys 0.875 F slow D2rz 2.16 [1.9395805534567212, 2.2152286388972775, 2.290543058959061] new -0.1467
+X|uniform 0.8 F slow D2rz 2.083 [1.8587034115711267, 2.1106362501778095, 2.26451139832811] new -0.1345
+M_alt|jeffreys 0.833 F slow D2rz 2.12 [1.849809645659276, 2.1790847560866684, 2.2893218972180445] new -0.1397
+M_alt|uniform 0.75 F slow D2rz 2.037 [1.7809531680581894, 2.0635417634759285, 2.2542985108181393] new -0.1261
+X_alt|jeffreys 0.625 F slow D2rz 1.923 [1.6634481302998887, 1.9276670242013978, 2.1722705747703106] new -0.105
+X_alt|uniform 0.6 F slow D2rz 1.899 [1.669152623170892, 1.9003058041422733, 2.12778539328972] new -0.101
+grid {'0.500': 1.8094, '0.600': 1.8881, '0.700': 1.9723, '0.750': 2.0235, '0.800': 2.0688, '0.864': 2.1343, '0.900': 2.1739, '0.950': 2.2372, '1.000': 2.2933} lin dev 0.0309
+mismatch ['Easter_Island']
+fisher M {'table': [[3, 0], [0, 2]], 'p_one_sided': 0.10000000000000002}
+fisher X {'table': [[3, 0], [0, 7]], 'p_one_sided': 0.008333333333333333}
+fisher X_alt {'table': [[2, 1], [1, 6]], 'p_one_sided': 0.18333333333333332}
+H140a confirmatory True 3/3
+H140b confirmatory True 0/7
+H140c confirmatory True 3/3
+H140d prediction True 2.1605418802319822
+H140e prediction True -0.1467958063019369
