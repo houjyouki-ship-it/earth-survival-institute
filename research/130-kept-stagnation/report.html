@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究130：段を保った社会（kept）の停滞を模型に入れる（open_problems 305） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="130keptopen_problems-305">研究130：段を保った社会（kept）の停滞を模型に入れる（open_problems 305）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない。事前登録 PREREGISTRATION.md（2026-10-26 01:36 JST、sim.py の前・資料の前）。</p>
+<h2 id="_1">何をしたか</h2>
+<p>127/128 の仕組みで、停滞を kept の標本にも p|kept で与える格子（p|lost 0.6/0.9/1.0 × p|kept 0〜0.5、遅い κ・W・H1000、D2rz・D1・D4）を回した（sim.py、約 13 分）。p|kept=0 で 127 の Ccond・C1 と差 0（assert 通過）。イタリアの途絶の根拠を本回 Wikipedia 5 頁（sources/）で確かめた。結果が構造的に 0 と分かったので、登録外の探索 explore_kdelay.py（支持に数えない）を足した。</p>
+<h2 id="_2">結果</h2>
+<ul>
+<li>【計算（results.json）】p|kept をどこに置いても F_heavy も F_total も <strong>完全に不変</strong>（p|lost 0.9 で F_heavy 2.1739、F_total 1.2978）。理由は模型の作り：F_heavy は基準で st∈{4,5,6}（＝lost）の標本だけの集計で、kept（st=2,3）の T2 は人口の待ちを含まない（126 の T2_stag）。つまり 129 の「p|kept が効かないのは仮定の結果」は、入れても効かない形で確かめられた。p|kept の事後（1/3 で平均 0.375、1/8 で 0.167）も F_heavy を動かさない。</li>
+<li>【計算・登録外（explore_kdelay.json）】kept の T2 に phi×停滞年数を足すと、p|lost 0.9・D2rz の F_heavy は phi 0.5 で 2.174→2.008（−7.6 %）、phi 1 で 1.703（−21.7 %）。値は p|kept によらない：効くのは基準の kept ではなく、<strong>写しの設計で段の喪失を免れた標本がそれでも停滞を抱える</strong>分。D1・D4 も同じ向き（1.968→1.831→1.581、1.661→1.566→1.382）で順位は不変。F_total は 1.298→1.259〜1.263（phi 0.5）、1.183〜1.191（phi 1）。</li>
+<li>【事実（sources/wiki_Tremissis）】tremissis は 5〜8 世紀に Lombards・Ostrogoths などが鋳造。【事実（sources/wiki_Kingdom_of_the_Lombards）】Cunipert（688–700）の Milan 鋳造の貨幣、Pavia の王が独自の金銀貨を発展、公用語は Medieval Latin、法典 Edictum Rothari。【事実（sources/wiki_Lombard_architecture）】Fara Gera d'Adda（c. 585）、Monza（c. 585・c. 635）、Pavia（c. 650）の聖堂、8 世紀の Benevento の Santa Sofia。→ 貨幣・文字・石造は 50 年以上の途絶の根拠なしで、イタリアは資料で見ても kept（ただし 554〜585 の間の新築は本回の頁で確認していない）。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>H142a（確認的）<strong>棄却</strong>：p|kept 0→0.375 で変化 0.0 %。</li>
+<li>H142b（確認的）支持：全 18 格子で D2rz ≥ D1 ≥ D4（探索でも不変）。</li>
+<li>H142c（予測）支持（ただし一定値なので自明）。</li>
+<li>H142d（予測）<strong>棄却</strong>：下がらず不変。分母が増えるという登録時の推測は、heavy が lost だけの集計であることを見落としていた。</li>
+<li>H142e（予測）支持：イタリアは kept のまま。129 の「根拠なし＝kept」の既定値はこの事例では偏りを生んでいない。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ol>
+<li>主の結果は算術的に自明だった（登録前にコードを読めば分かった）。確認的の失敗は模型の理解の不足で、史実の情報ではない。</li>
+<li>本当の問いは「写しで段を保てた社会も停滞するか」。Britain（lost）とイタリア（kept）が同じ崩壊で共に停滞したことは、停滞が段の喪失と独立に来る可能性を示し、その場合 D2rz の利得は最大 22 % 目減りしうる（phi=1）。phi の値の根拠は無く、0.5・1 は置いた値（独自仮説）。</li>
+<li>128/129 の Fisher（lost 5/5・kept 1/8）は停滞が lost に偏ることを示すので phi は 1 より小さい側が自然だが、kept の事例の多くは崩壊の深さが浅く、比較は交絡している（推測）。</li>
+</ol>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は F_heavy の主 2.17〜2.18 を据え置き、「段を保っても停滞が残る」場合の下端として phi 0.5 で 2.01、phi 1 で 1.70 を並べる。D2rz の推しは不変。次は phi を史実で詰める（306：同じ崩壊で段を保った地域と失った地域の停滞の長さの比）。</p><footer><hr><small>自動生成</small></footer></body></html>

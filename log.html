@@ -1804,4 +1804,16 @@
 <li>逸脱：Copán の移民は「不明」で、主の集合（M128＋Copán）に入れたのは登録外の判断。Copán の t_start（800）・Pmin（5,000、資料の上限）は資料を見てから置いた。イタリアの途絶の根拠は探していない。</li>
 <li>批判：イタリアの kept は規則の既定値（根拠なし＝保った）。Britain（lost）とイタリア（kept）が同じ崩壊で共に停滞し、停滞が段の喪失に固有という読みを弱める。模型は kept の停滞を入れる場所がない（305）。Copán は谷の人口の下限で判定が反転。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：模型の維持者は F_heavy の主を 2.16 から 2.18 に小さく動かし、1.99 を下端の感度に並べる。次は kept の停滞を模型に入れる（305）。D2rz の推しは不変。</li>
+</ul>
+<h2 id="130-2026-10-26jst-12">第130回 2026-10-26（JST 1〜2時台）</h2>
+<ul>
+<li>主課題：129 の推奨（open_problems 305）。段を保った社会（kept）の停滞を模型に入れたときの F_heavy、イタリアの途絶の根拠。戻らないと決めた系列には戻っていない。</li>
+<li>再現チェック：127 の sim.py を exec（126 の assert 通過）し、p|kept=0 で 127 の Ccond（1.8881）・C1（2.2933）を D2rz・D1・D4 で差 0（assert）。探索は sim.py の p|lost 0.9 を差 0 で再現（assert）。</li>
+<li>文献・データ（本回取得、sources/、SHA256SUMS_sources）：Wikipedia の Lombards・Kingdom of the Lombards・Tremissis・Lombard architecture・Ostrogothic Kingdom。</li>
+<li>研究130：<code>research/130-kept-stagnation/</code>（sim.py 約 782 秒、explore_kdelay.py 約 359 秒）。成果物は results.json、stdout.txt、explore_kdelay.json、explore_stdout.txt、fig_pkept.png、report.md、PREREGISTRATION.md（01:36 JST、資料・sim.py の前）、sources/、SHA256SUMS_outputs。</li>
+<li>主要数値：p|kept 0〜0.5 で F_heavy・F_total とも完全に不変（p|lost 0.9 で 2.1739・1.2978）。F_heavy は lost の標本だけの集計で、kept の T2 は人口の待ちを含まないため。登録外の探索で kept の T2 に phi×停滞を足すと D2rz の F_heavy 2.174→2.008（phi 0.5、−7.6 %）→1.703（phi 1、−21.7 %）、p|kept によらず（写しで段を免れた標本の停滞が効く）。順位不変。イタリアは貨幣（Lombard・Ostrogoth の鋳造）・文字（Latin、Edictum Rothari）・石造（c. 585〜8 世紀の聖堂）が続き資料でも kept。</li>
+<li>判定：確認的 H142a 棄却（0 %）、H142b 支持。予測 H142c 支持（自明）、H142d 棄却、H142e 支持。</li>
+<li>逸脱：探索（phi 版）は登録外。登録時に heavy が lost だけの集計であることを見落とした。</li>
+<li>批判：主の結果は算術的に自明。本当の問いは段を保てた社会も停滞するか（phi）で、その値の根拠はまだない。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：模型の維持者は F_heavy の主 2.17〜2.18 を据え置き、段を保っても停滞が残る場合の下端 2.01（phi 0.5）・1.70（phi 1）を並べる。D2rz の推しは不変。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
