@@ -1,0 +1,119 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究126：停滞を入れた人口待ちで F_heavy の連鎖を再実行する（open_problems 295） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="126-f_heavy-open_problems-295">研究126：停滞を入れた人口待ちで F_heavy の連鎖を再実行する（open_problems 295）</h1>
+<p><strong>注：F_heavy・V は生存確率や復興確率ではない。模型の中の相対的な価値の比・量である。提言は「模型の中での順位（外部の検証はまだ）」。</strong></p>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>124 の sim.py を「仮説」の前まで exec し、124 の table（3 設計×3 κ）の F_heavy を差 0 で再現（assert）。124 が使った T2e の条件（乱数込み）をそのまま取り出して使った。</li>
+<li>108 の T2_from を写し、人口の待ちを 125 と同じ形 <code>where(N_k&gt;n, STAG + ln(N_k/n)/r, 0)</code> に替えた。STAG=0 で B の T2s・112 の v0・124 の table と差 0（assert 3 つ）。</li>
+<li>基準（v0、比の分母）と段の保持後の新しい値の両方に同じ停滞を入れた。乱数は 125 と同じ seed 20261125・同じ順（125 と同じ標本に同じ停滞）。</li>
+<li>版：V0（停滞なし）、V2a（p 0.375）、V2b（p 0.6、移民なし）、V2b の長さを対数一様 263〜1000 年にした版【推測】、V3b（移民なしの r_all を r に）。形：W（停滞は T2 の待ちだけ）、WT（閾値の下にいる年数 t_below にも入り、廃墟の資本が先に尽きる）。</li>
+<li>停滞の確率・長さ・r_all は 125 の results.json から読んだ【事実の出典は 125 の sources/：Greece_LBA の超過 262.5 年、Britain 407.6 年、Norse Greenland は消滅で 650 年を下限】。新しい外部資料は使っていない。</li>
+</ul>
+<h2 id="slow_tasmaniaa_ordu3">主な数値（遅い κ＝slow_Tasmania、A_Ord/U3）</h2>
+<table>
+<thead>
+<tr>
+<th>版・形</th>
+<th>D2rz</th>
+<th>D1</th>
+<th>D4</th>
+<th>基準の重い分の価値（V0 比）</th>
+<th>D2rz の新しい重い分の価値（V0 比）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V0</td>
+<td>1.529</td>
+<td>1.426</td>
+<td>1.277</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>V2a W</td>
+<td>1.730</td>
+<td>1.594</td>
+<td>1.396</td>
+<td>−17 %</td>
+<td>−6 %</td>
+</tr>
+<tr>
+<td>V2a WT</td>
+<td>1.645</td>
+<td>1.522</td>
+<td>1.337</td>
+<td>−17 %</td>
+<td>−11 %</td>
+</tr>
+<tr>
+<td>V2b W</td>
+<td>1.888</td>
+<td>1.727</td>
+<td>1.490</td>
+<td>−27 %</td>
+<td>−10 %</td>
+</tr>
+<tr>
+<td>V2b WT</td>
+<td>1.738</td>
+<td>1.599</td>
+<td>1.389</td>
+<td>−27 %</td>
+<td>−17 %</td>
+</tr>
+<tr>
+<td>V2b 対数一様 W</td>
+<td>1.974</td>
+<td>1.801</td>
+<td>1.541</td>
+<td>−32 %</td>
+<td>−12 %</td>
+</tr>
+<tr>
+<td>V2b 対数一様 WT</td>
+<td>1.776</td>
+<td>1.631</td>
+<td>1.404</td>
+<td>−32 %</td>
+<td>−20 %</td>
+</tr>
+<tr>
+<td>V3b</td>
+<td>1.510</td>
+<td>1.406</td>
+<td>1.267</td>
+<td>−18 %</td>
+<td>−19 %</td>
+</tr>
+</tbody>
+</table>
+<p>trigger_mix の D2rz は 1.118→1.19〜1.26、fast_state は 1.018→1.03〜1.09。</p>
+<h2 id="1743-jst">仮説の判定（登録 17:43 JST、計算の前）</h2>
+<ul>
+<li>確認的 H138a（V2b・W で D2rz の F_heavy が 10 % 以上上がる）：<strong>支持</strong>（1.529→1.888、+23.5 %）。登録時の理由（基準の側が地平の外へ押し出される）は数値と合うが、下の通り主な仕組みは段を保つ標本が停滞を受けないこと。</li>
+<li>確認的 H138b（全版・全形で D2rz ≥ D1 ≥ D4）：<strong>支持</strong>（8 通りすべて）。</li>
+<li>予測 H138c（WT は W より F を大きく動かす）：<strong>棄却</strong>。WT の動きは W の 0.55〜0.58 倍。この連鎖の new_st は段を「保つ」側にしか動かさない（min(st, lev)）ので、t_below が延びると廃墟の資本が尽きて保てる標本が減り、上げ幅が縮む。登録時に向きを取り違えた。</li>
+<li>予測 H138d（V2b で基準の重い分の価値が 19 % 以上下がる）：<strong>支持</strong>（−27.3 %）。125 の F_r（0.63〜0.69）と同じ向き。</li>
+<li>予測 H138e（V3b は V2b より F を動かさない）：<strong>支持</strong>（|ΔF| 0.019 対 0.359）。ただし V3b でも基準の重い分の価値は −18 %（r_all の 1/6 が 0＝戻らない）で、比が動かないのは分母・分子が同じだけ下がるため。</li>
+</ul>
+<h2 id="_2">解釈</h2>
+<ul>
+<li>【独自仮説】停滞は段を失った標本の T2 にだけ乗り、段を保てた標本（T2=0）には乗らない。そのため停滞が長く・多いほど「段を保つ」介入（廃墟の資本・D2rz の読取装置）の相対的な価値（F_heavy）は上がり、絶対量は下がる。比だけを見ると停滞は介入を有利にしたように見えるが、重い崩壊分の価値の量は 6〜20 % 減る。</li>
+<li>設計の順位は変わらない（停滞は設計に依らず T2 に足されるため、ほぼ構造上の帰結。情報は薄い）。</li>
+<li>r の幅（V3b）は F をほぼ動かさない（−1.2 %）。125 の結論（効くのは停滞）と整合。</li>
+</ul>
+<h2 id="_3">批判</h2>
+<ul>
+<li>停滞は 125 の 3 値（n=3、長い側に選ばれた候補）からの独立な抽選で、段の喪失や崩壊の型（国家・交易の崩れ）と相関させていない。実際は国家の崩れと段の喪失は同じ標本に重なりやすいはず【推測】。</li>
+<li>停滞の間も人口が閾値の下に「いる」とする WT は一つの読み方で、停滞中に技能が床へ戻る速さ（κ）を変える版は作っていない。</li>
+<li>t2e_two の内側の gap は元の r のまま（V3b で r を替えたのは zmin・t_below・待ちだけ）。</li>
+<li>FIXED（AI, GEN）は停滞なし。地平 H=1000 年の切り捨てが比の上げ幅の多くを作っている可能性があり、H の感度は出していない。</li>
+</ul>
+<h2 id="_4">「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>模型の維持者は、重い崩壊の結論を F_heavy の比だけで伝えるのをやめ、基準の量と並べて出す（停滞で比は 1.53→1.74〜1.97 に上がるが、量は −10〜20 %）。</li>
+<li>読取装置の手引きの推し（D2rz＞D1＞D4）は停滞の有無で変えなくてよい。</li>
+<li>次に不確かさを減らすべきは停滞と段の喪失の相関（同じ「国家・交易の崩れ」から両方が来るか）。</li>
+</ul>
+<h2 id="_5">ファイル</h2>
+<p>sim.py（約 376 秒、ほぼ全部が 124 の連鎖の再現）、results.json、stdout.txt、fig_stag_fheavy.png、PREREGISTRATION.md（PREREG.sha256）。</p><footer><hr><small>自動生成</small></footer></body></html>

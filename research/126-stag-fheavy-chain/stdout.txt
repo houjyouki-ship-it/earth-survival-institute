@@ -1,0 +1,58 @@
+/workspace/earth-survival-institute/research/113-precision-tool-rebuild/sim.py:46: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_tool) / r_pop                     # N_tool に達してから N_T2e までの年数（負なら N_tool>N_T2e）
+/workspace/earth-survival-institute/research/114-scrap-tool-lowerbound/sim.py:47: RuntimeWarning: divide by zero encountered in log
+  gap = np.log(N_T2e / N_small) / r_pop
+V0 done 340 s
+V2a done 351 s
+V2b done 360 s
+V2b_logU263_1000 done 370 s
+V3b done 376 s
+/workspace/earth-survival-institute/research/126-stag-fheavy-chain/sim.py:168: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator. Otherwise, ticks may be mislabeled.
+  ax[1].set_xticklabels(kk, rotation=40, ha="right", fontsize=8); ax[1].set_ylabel("relative change"); ax[1].legend(fontsize=8)
+{"check_124_table_F_maxdiff": 0.0, "check_T2_stag0": 0.0, "check_v0": 0.0, "check_124_via_run_stag": 0.0, "inputs": {"p_V2a": 0.375, "p_V2b": 0.6, "stag_years": [262.53062861942044, 407.6199512919556, 650], "rall_no_immig": [0.0032821314415027386, 0.003414518130837169, 0.0013862943611198907, 0.0014012911845256502, 0.005043523792883342, 0.0], "share_stag_V2b": 0.600855}}
+V0|W|slow_Tasmania|D1|main F_heavy 1.426 base_h 0.00425 new_h 0.00606 drop 0.152
+V0|W|slow_Tasmania|D4|main F_heavy 1.2774 base_h 0.00425 new_h 0.00543 drop 0.106
+V0|W|slow_Tasmania|D2rz|none F_heavy 1.5287 base_h 0.00425 new_h 0.0065 drop 0.182
+V2a|W|slow_Tasmania|D1|main F_heavy 1.5943 base_h 0.00352 new_h 0.00561 drop 0.152
+V2a|W|slow_Tasmania|D4|main F_heavy 1.3959 base_h 0.00352 new_h 0.00491 drop 0.106
+V2a|W|slow_Tasmania|D2rz|none F_heavy 1.7304 base_h 0.00352 new_h 0.00609 drop 0.182
+V2a|WT|slow_Tasmania|D1|main F_heavy 1.5219 base_h 0.00352 new_h 0.00536 drop 0.136
+V2a|WT|slow_Tasmania|D4|main F_heavy 1.3371 base_h 0.00352 new_h 0.00471 drop 0.092
+V2a|WT|slow_Tasmania|D2rz|none F_heavy 1.6451 base_h 0.00352 new_h 0.00579 drop 0.164
+V2b|W|slow_Tasmania|D1|main F_heavy 1.727 base_h 0.00309 new_h 0.00534 drop 0.152
+V2b|W|slow_Tasmania|D4|main F_heavy 1.4903 base_h 0.00309 new_h 0.00461 drop 0.106
+V2b|W|slow_Tasmania|D2rz|none F_heavy 1.8881 base_h 0.00309 new_h 0.00584 drop 0.182
+V2b|WT|slow_Tasmania|D1|main F_heavy 1.5993 base_h 0.00309 new_h 0.00494 drop 0.127
+V2b|WT|slow_Tasmania|D4|main F_heavy 1.3885 base_h 0.00309 new_h 0.00429 drop 0.083
+V2b|WT|slow_Tasmania|D2rz|none F_heavy 1.7375 base_h 0.00309 new_h 0.00537 drop 0.154
+V2b_logU263_1000|W|slow_Tasmania|D1|main F_heavy 1.8013 base_h 0.00291 new_h 0.00524 drop 0.152
+V2b_logU263_1000|W|slow_Tasmania|D4|main F_heavy 1.5414 base_h 0.00291 new_h 0.00449 drop 0.106
+V2b_logU263_1000|W|slow_Tasmania|D2rz|none F_heavy 1.9744 base_h 0.00291 new_h 0.00575 drop 0.182
+V2b_logU263_1000|WT|slow_Tasmania|D1|main F_heavy 1.6307 base_h 0.00291 new_h 0.00475 drop 0.123
+V2b_logU263_1000|WT|slow_Tasmania|D4|main F_heavy 1.4042 base_h 0.00291 new_h 0.00409 drop 0.08
+V2b_logU263_1000|WT|slow_Tasmania|D2rz|none F_heavy 1.7755 base_h 0.00291 new_h 0.00517 drop 0.15
+V3b|W|slow_Tasmania|D1|main F_heavy 1.4058 base_h 0.00349 new_h 0.00491 drop 0.116
+V3b|W|slow_Tasmania|D4|main F_heavy 1.2667 base_h 0.00349 new_h 0.00442 drop 0.081
+V3b|W|slow_Tasmania|D2rz|none F_heavy 1.5097 base_h 0.00349 new_h 0.00527 drop 0.14
+V0|W|trigger_mix|D2rz|none F_heavy 1.1177
+V0|W|fast_state|D2rz|none F_heavy 1.0182
+V2a|W|trigger_mix|D2rz|none F_heavy 1.1812
+V2a|W|fast_state|D2rz|none F_heavy 1.0472
+V2a|WT|trigger_mix|D2rz|none F_heavy 1.1543
+V2a|WT|fast_state|D2rz|none F_heavy 1.0339
+V2b|W|trigger_mix|D2rz|none F_heavy 1.2306
+V2b|W|fast_state|D2rz|none F_heavy 1.0696
+V2b|WT|trigger_mix|D2rz|none F_heavy 1.1856
+V2b|WT|fast_state|D2rz|none F_heavy 1.0462
+V2b_logU263_1000|W|trigger_mix|D2rz|none F_heavy 1.2628
+V2b_logU263_1000|W|fast_state|D2rz|none F_heavy 1.0874
+V2b_logU263_1000|WT|trigger_mix|D2rz|none F_heavy 1.1988
+V2b_logU263_1000|WT|fast_state|D2rz|none F_heavy 1.0534
+V3b|W|trigger_mix|D2rz|none F_heavy 1.1157
+V3b|W|fast_state|D2rz|none F_heavy 1.0179
+H138a confirmatory True {"F_V0": 1.5286672886984356, "F_V2b_W": 1.8881146516762806, "rel": 0.23513773444049546}
+H138b confirmatory True {"V0|W": {"D2rz": 1.5286672886984356, "D1": 1.426043829866471, "D4": 1.27737909281509, "ok": true}, "V2a|WT": {"D2rz": 1.6451012481291722, "D1": 1.5218931787186358, "D4": 1.3370940645788718, "ok": true}, "V2a|W": {"D2rz": 1.7304288667435739, "D1": 1.5942662930682643, "D4": 1.3958985209279233, "ok": true}, "V2b_logU263_1000|WT": {"D2rz": 1.7755463448014521, "D1": 1.630741067630291, "D4": 1.40416489
+H138c prediction False {"dW": {"V2a": 0.20176157804513828, "V2b": 0.35944736297784496, "V2b_logU263_1000": 0.44576872013934565}, "dWT": {"V2a": 0.11643395943073664, "V2b": 0.20881896592875138, "V2b_logU263_1000": 0.24687905610301653}}
+H138d prediction True {"base_heavy_V0": 0.0042505071358433155, "base_heavy_V2b": 0.0030905208424264635, "rel": -0.27290538666198627}
+H138e prediction True {"dF_V3b": 0.01896967214041445, "dF_V2b": 0.35944736297784496}
+runtime 376 s

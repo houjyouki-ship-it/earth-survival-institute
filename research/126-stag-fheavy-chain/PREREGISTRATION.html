@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究126 事前登録（2026-10-25 17:43 JST、sim.py を書く前・実行の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="126-2026-10-25-1743-jstsimpy">研究126 事前登録（2026-10-25 17:43 JST、sim.py を書く前・実行の前）</h1>
+<p><strong>注：F_heavy・V は生存確率や復興確率ではない。模型の中の相対的な価値の比である。</strong></p>
+<h2 id="_1">課題</h2>
+<p>open_problems 295。125 で人口の回復待ちの主な不確かさは r の幅ではなく「国家・交易が崩れた型の停滞」だと分かった。
+104→108→112→…→124 の連鎖（遅い κ の F_heavy：D2rz 1.529、D1 1.426、D4 1.277）は 038 の r_pop と待ち時間をそのまま受け継ぐ。
+停滞を連鎖に入れ直して、F_heavy と設計の順位、重い崩壊分の価値の絶対量が動くかを確かめる。</p>
+<h2 id="_2">方法（登録時に固定）</h2>
+<ul>
+<li>124 の sim.py を「# ---------- 仮説」の前まで exec し、124 の table の F_heavy を差 0 で再現（assert）。</li>
+<li>108 の T2_from を写し、待ち wait(N_k) を 125 と同じ形 <code>where(N_k&gt;n, STAG + ln(N_k/n)/r, 0)</code> に替える。STAG=0 で元の T2_from・B の T2s と差 0（assert）。</li>
+<li>基準（v0）と新しい値（stage 喪失後）の両方に同じ STAG を入れる（比の分母も入れ直す）。FIXED（AI, GEN）は人口の待ちがないので停滞なし。</li>
+<li>乱数は 125 と同じ seed 20261125 から U_case, U_stag, U_pick を同じ順で引く（125 と同じ標本に同じ停滞）。</li>
+<li>版：V0（停滞なし、124 の再現）、V2a（p 0.375、長さ {262.5, 407.6, 650}）、V2b（p 0.6、同じ長さ）、V3b（移民なしの r_all {0.00328, 0.00341, 0.00139, 0.00140, 0.00504, 0→1e-9} を r に）。</li>
+<li>停滞の効き方の 2 つの形：W（待ち＝T2 だけに入る）、WT（加えて段の喪失を決める閾値の下の年数 t_below にも入る：停滞の間も人口は閾値の下にいる）。</li>
+<li>感度：V2b の長さを対数一様 263〜1000 年【推測】に替えた版。</li>
+<li>出すもの：遅い κ（slow_Tasmania）と trigger_mix, fast_state の F_heavy（D1・D4・D2rz）、重い崩壊分の価値（A_Ord/U3 の heavy、基準と新）の V0 比。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<p>確認的（計算の前に登録）：
+- H138a：V2b・W で遅い κ の D2rz の F_heavy は 124 の 1.529 から 10 % 以上動く。向きは上【理由：停滞は基準の T2 も地平 H=1000 年・寿命 life の外へ押し出し基準の重い分を減らすが、段の喪失で長くなった新しい側はもともと外にある標本が多く、減り方が相対的に小さい……と予想。ただし弱い理由】。
+- H138b：全ての版・形で、遅い κ の D2rz ≥ D1 ≥ D4 の順位は変わらない。
+予測：
+- H138c：WT の形は W の形より F_heavy を大きく動かす（|ΔF| が大きい）。
+- H138d：V2b・W で重い崩壊分の基準の価値（v0 の A_Ord/U3 heavy）は V0 より 19 % 以上下がる（125 の F_r BIO 0.63〜CASC 0.69 と合う向き）。
+- H138e：V3b は V2b より F_heavy を動かさない（125 で r の幅は T2 を ±3 % しか動かさなかったため）。
+記述：版ごとの F_heavy の表、段の喪失の割合。</p><footer><hr><small>自動生成</small></footer></body></html>
