@@ -1,0 +1,384 @@
+{
+ "study": "129-stageloss-more-cases",
+ "note": "F_heavy・V は生存確率や復興確率ではない",
+ "r_median_038": 0.0029188908722425303,
+ "check_128": {
+  "F_mean_rep": 2.1605418802319822,
+  "F_mean_128": 2.1605418802319822,
+  "note": "128 と同じ乱数の種・同じ引き数で差 0（assert は <2e-3）"
+ },
+ "cases": {
+  "Copan": {
+   "cls_items": {
+    "writing": "ceased",
+    "metal": null,
+    "masonry": "ceased",
+    "coin": null
+   },
+   "extinct": false,
+   "P0": 20000,
+   "P0_range": [
+    18000,
+    25000
+   ],
+   "Pmin_upper": 5000,
+   "t_start": 800,
+   "t_start_alt": 900,
+   "t_still_low": 1550,
+   "t_rec_upper": 2023,
+   "P_modern": 45312,
+   "immig": "不明",
+   "ev": [
+    "sources/wiki_Copan：'estimated total population of 18,000 to 25,000 people in the valley during the Late Classic'；'population declined in the 8th and 9th centuries from perhaps over 20,000 in the city to less than 5,000'；'abandoned in the early 10th century'；'last known king, Ukit Took', came to the throne on 6 February 822'；'only a few farming hamlets at the time of the arrival of the Spanish in the 16th century'；'Postclassic ... villagers who stole the stone from the monumental architecture ... to build their simple house platforms'",
+    "125-pop-recovery-history/sources/wiki_Copan_Ruinas：population_total 45312（2023 projection、citypopulation.de。自治体の面積と谷の範囲の一致は未確認）"
+   ],
+   "causes": {
+    "trade": "'had long needed to import basic necessities from outside'（依存はあるが途絶の記述なし）",
+    "disease": "'Shortage and disease afflicted the massively overpopulated valley'",
+    "land": "'deforestation of the Copán valley'；'overpopulation and a lack of local resources'",
+    "immig": "記述なし"
+   },
+   "lost": true,
+   "stag": true,
+   "pred": 474.9387427611592,
+   "T_upper": 1223,
+   "T_lower": 750,
+   "excess_upper": 748.0612572388409,
+   "excess_lower": 275.0612572388408,
+   "rule": "区間（上限で判定）"
+  },
+  "Cahokia": {
+   "extinct": true,
+   "P0": 12750.0,
+   "P0_range": [
+    6000,
+    40000
+   ],
+   "t_start": 1200,
+   "t_abandon": 1400,
+   "immig": "あり（後の住民は子孫とは限らない）",
+   "ev": [
+    "sources/wiki_Cahokia：'between AD 1050 and 1100, Cahokia's population increased ... to between 10,200 and 15,300'；'estimate ... between 6,000 and 40,000 at its peak'；'The city is abandoned by 1400 CE with brief Oneota reoccupation'；'the Cahokia tribe was not necessarily descended from the earlier Mississippian-era people'；'By the end of the 12th century ... decline'"
+   ],
+   "causes": {
+    "trade": "記述なし（交易網の存在のみ）",
+    "disease": "'Diseases ... are another possible cause'（可能性）",
+    "land": "'major floods ... 1100–1260 and 1340–1460'；'no evidence of human-caused erosion'；'droughts from CE 1100–1250'",
+    "immig": "'brief Oneota reoccupation'"
+   },
+   "lost": true,
+   "stag": true,
+   "rule": "放棄",
+   "length_years": null
+  },
+  "Italy_postRoman": {
+   "cls_items": {
+    "writing": "?",
+    "metal": "?",
+    "masonry": "?",
+    "coin": "?"
+   },
+   "extinct": false,
+   "P0": 8500000.0,
+   "P0_range": [
+    8000000.0,
+    13000000.0
+   ],
+   "Pmin": 4000000.0,
+   "t_start": 165,
+   "t_min": 800,
+   "t_rec_upper": 1300,
+   "P_rec": 11500000.0,
+   "immig": "不明（本回の頁で文を確認せず）",
+   "ev": [
+    "125-pop-recovery-history/sources/wiki_Demography_of_the_Roman_Empire：'Population of Italy and the islands in 165 CE' 標準の解釈 8–9（百万）、改訂の解釈 12–13",
+    "125-pop-recovery-history/sources/wiki_Medieval_demography：Charlemagne の頃 'estimates of 4 million for Italy'；'Italy's population around 1300 ... between 10 and 13 million'",
+    "途絶の根拠の文は本回探していない（規則では不明＝途絶に数えない）"
+   ],
+   "causes": {
+    "trade": "'limited trade and political, social and economic dislocation'（欧州全体の記述）",
+    "disease": "記述は本回なし",
+    "land": "記述なし",
+    "immig": "記述は本回なし"
+   },
+   "lost": false,
+   "stag": true,
+   "pred": 258.2391173114571,
+   "T_upper": 1135,
+   "T_lower": 635,
+   "excess_upper": 876.7608826885429,
+   "excess_lower": 376.7608826885429,
+   "rule": "区間（上限で判定）"
+  }
+ },
+ "not_obtained": {
+  "Indus": "wiki_Indus_Valley_Civilisation：成熟期 1–5 百万の推定のみ。後期の 'most of the post-urban Late Harappan settlements were abandoned' に人口の数値なし",
+  "Hittite_Anatolia": "wiki_Hittites：王国 14–15 万（Simon）または 20 万超（Bryce）。崩壊後の地域の人口の数値なし。なお wiki_Neo-Hittite_states に 'Luwian monumental inscriptions ... continue almost uninterrupted'（地域を北シリアまで取ると文字は途絶えず、予想の lost は崩れうる）",
+  "Angkor": "wiki_Angkor：'between 750,000 and 1,000,000'、1431 の後 'population to migrate south'、'sparsely populated' のみで後の数値なし"
+ },
+ "copan_sens": {
+  "Pmin_breakeven_upper": 563.2277162831948,
+  "Pmin_breakeven_lower": 2240.1976965751037,
+  "grid": {
+   "Pmin=5000|ts=800|P0=18000": 784.1573362871404,
+   "Pmin=5000|ts=800|P0=20000": 748.0612572388409,
+   "Pmin=5000|ts=800|P0=25000": 671.6131949161913,
+   "Pmin=5000|ts=900|P0=18000": 684.1573362871404,
+   "Pmin=5000|ts=900|P0=20000": 648.0612572388409,
+   "Pmin=5000|ts=900|P0=25000": 571.6131949161913,
+   "Pmin=2000|ts=800|P0=18000": 470.2399025839112,
+   "Pmin=2000|ts=800|P0=20000": 434.14382353561166,
+   "Pmin=2000|ts=800|P0=25000": 357.6957612129621,
+   "Pmin=2000|ts=900|P0=18000": 370.2399025839112,
+   "Pmin=2000|ts=900|P0=20000": 334.14382353561166,
+   "Pmin=2000|ts=900|P0=25000": 257.6957612129621,
+   "Pmin=1000|ts=800|P0=18000": 232.77053120333176,
+   "Pmin=1000|ts=800|P0=20000": 196.6744521550322,
+   "Pmin=1000|ts=800|P0=25000": 120.22638983238267,
+   "Pmin=1000|ts=900|P0=18000": 132.77053120333176,
+   "Pmin=1000|ts=900|P0=20000": 96.67445215503221,
+   "Pmin=1000|ts=900|P0=25000": 20.226389832382665,
+   "Pmin=500|ts=800|P0=18000": -4.698840177247803,
+   "Pmin=500|ts=800|P0=20000": -40.794919225547346,
+   "Pmin=500|ts=800|P0=25000": -117.2429815481969,
+   "Pmin=500|ts=900|P0=18000": -104.6988401772478,
+   "Pmin=500|ts=900|P0=20000": -140.79491922554735,
+   "Pmin=500|ts=900|P0=25000": -217.2429815481969
+  }
+ },
+ "italy_sens": {
+  "P0=8000000.0": {
+   "stag": true,
+   "pred": 237.4693713805796,
+   "T_upper": 1135,
+   "T_lower": 635,
+   "excess_upper": 897.5306286194204,
+   "excess_lower": 397.53062861942044,
+   "rule": "区間（上限で判定）"
+  },
+  "P0=8500000.0": {
+   "stag": true,
+   "pred": 258.2391173114571,
+   "T_upper": 1135,
+   "T_lower": 635,
+   "excess_upper": 876.7608826885429,
+   "excess_lower": 376.7608826885429,
+   "rule": "区間（上限で判定）"
+  },
+  "P0=9000000.0": {
+   "stag": true,
+   "pred": 277.82135465492956,
+   "T_upper": 1135,
+   "T_lower": 635,
+   "excess_upper": 857.1786453450704,
+   "excess_lower": 357.17864534507044,
+   "rule": "区間（上限で判定）"
+  },
+  "P0=12500000.0": {
+   "stag": true,
+   "pred": 390.3654960258786,
+   "T_upper": 1135,
+   "T_lower": 635,
+   "excess_upper": 744.6345039741213,
+   "excess_lower": 244.6345039741214,
+   "rule": "区間（上限で判定）"
+  }
+ },
+ "counts": {
+  "M128": {
+   "lost_stag": 3,
+   "n_lost": 3,
+   "kept_stag": 0,
+   "n_kept": 2,
+   "fisher_one_sided": 0.10000000000000002
+  },
+  "M128+Copan": {
+   "lost_stag": 4,
+   "n_lost": 4,
+   "kept_stag": 0,
+   "n_kept": 2,
+   "fisher_one_sided": 0.06666666666666667
+  },
+  "all_new(M128+Copan+Cahokia, kept+Italy)": {
+   "lost_stag": 5,
+   "n_lost": 5,
+   "kept_stag": 1,
+   "n_kept": 3,
+   "fisher_one_sided": 0.10714285714285714
+  },
+  "X128+new": {
+   "lost_stag": 5,
+   "n_lost": 5,
+   "kept_stag": 1,
+   "n_kept": 8,
+   "fisher_one_sided": 0.004662004662004662
+  },
+  "Copan_no(Pmin<=breakeven)": {
+   "lost_stag": 3,
+   "n_lost": 4,
+   "kept_stag": 0,
+   "n_kept": 2,
+   "fisher_one_sided": 0.20000000000000004
+  }
+ },
+ "posterior": {
+  "M128|jeffreys": {
+   "k": 3,
+   "n": 3,
+   "p_mean": 0.8748292095798167,
+   "F_mean": 2.15981195658827,
+   "F_q10_50_90": [
+    1.9389161234978256,
+    2.21567715531548,
+    2.2905831700934995
+   ],
+   "new_heavy_rel_V0_mean": -0.14666402326822991
+  },
+  "M128|uniform": {
+   "k": 3,
+   "n": 3,
+   "p_mean": 0.8000714607168548,
+   "F_mean": 2.0826662315169355,
+   "F_q10_50_90": [
+    1.8592194093632048,
+    2.1107277441293775,
+    2.2638600017778896
+   ],
+   "new_heavy_rel_V0_mean": -0.1344927213603174
+  },
+  "M128+Copan|jeffreys": {
+   "k": 4,
+   "n": 4,
+   "p_mean": 0.8997891258714402,
+   "F_mean": 2.1842877624690074,
+   "F_q10_50_90": [
+    2.0007253775252503,
+    2.2346958001916017,
+    2.291189776494469
+   ],
+   "new_heavy_rel_V0_mean": -0.15077949297328616
+  },
+  "M128+Copan|uniform": {
+   "k": 4,
+   "n": 4,
+   "p_mean": 0.8335942557217899,
+   "F_mean": 2.114532541826937,
+   "F_q10_50_90": [
+    1.9142906443737548,
+    2.141506621626905,
+    2.2701176359752226
+   ],
+   "new_heavy_rel_V0_mean": -0.14005330815234654
+  },
+  "all_new(M128+Copan+Cahokia, kept+Italy)|jeffreys": {
+   "k": 5,
+   "n": 5,
+   "p_mean": 0.9168579410890569,
+   "F_mean": 2.2015257255033758,
+   "F_q10_50_90": [
+    2.045160290359699,
+    2.245741527732286,
+    2.2915797068056762
+   ],
+   "new_heavy_rel_V0_mean": -0.15356898986243353
+  },
+  "all_new(M128+Copan+Cahokia, kept+Italy)|uniform": {
+   "k": 5,
+   "n": 5,
+   "p_mean": 0.8573580352264643,
+   "F_mean": 2.1377460464230116,
+   "F_q10_50_90": [
+    1.9564092331630067,
+    2.16427863305063,
+    2.2737107293785472
+   ],
+   "new_heavy_rel_V0_mean": -0.1439576292876086
+  },
+  "X128+new|jeffreys": {
+   "k": 5,
+   "n": 5,
+   "p_mean": 0.9168510914697457,
+   "F_mean": 2.2015161776096095,
+   "F_q10_50_90": [
+    2.045452724145014,
+    2.245925877667586,
+    2.291586647842361
+   ],
+   "new_heavy_rel_V0_mean": -0.15356912181957585
+  },
+  "X128+new|uniform": {
+   "k": 5,
+   "n": 5,
+   "p_mean": 0.8566757525220282,
+   "F_mean": 2.1370577805050406,
+   "F_q10_50_90": [
+    1.9550919197041805,
+    2.163292525537866,
+    2.2737998815708695
+   ],
+   "new_heavy_rel_V0_mean": -0.14384768156621078
+  },
+  "Copan_no(Pmin<=breakeven)|jeffreys": {
+   "k": 3,
+   "n": 4,
+   "p_mean": 0.7005501930779274,
+   "F_mean": 1.9883959908778648,
+   "F_q10_50_90": [
+    1.7566434414646483,
+    2.0013851845147492,
+    2.2056932555378004
+   ],
+   "new_heavy_rel_V0_mean": -0.11795784152417234
+  },
+  "Copan_no(Pmin<=breakeven)|uniform": {
+   "k": 3,
+   "n": 4,
+   "p_mean": 0.6668054311725146,
+   "F_mean": 1.9562113031845558,
+   "F_q10_50_90": [
+    1.7436456176305495,
+    1.9611904196134473,
+    2.1603991081911205
+   ],
+   "new_heavy_rel_V0_mean": -0.11238346273344894
+  }
+ },
+ "hypotheses": {
+  "H141a": {
+   "class": "confirmatory",
+   "value": "5/5",
+   "supported": true
+  },
+  "H141b": {
+   "class": "confirmatory",
+   "value": {
+    "Copan_excess_lower_upper": [
+     275.0612572388408,
+     748.0612572388409
+    ],
+    "Cahokia": "放棄の長さは数値なし"
+   },
+   "supported": null,
+   "note": "Copán だけが測れ、下限と上限が 300 年をまたぐので判定保留"
+  },
+  "H141c": {
+   "class": "confirmatory",
+   "value": "kept の停滞 1/1（新しい kept）",
+   "supported": false
+  },
+  "H141d": {
+   "class": "prediction",
+   "value": 2.1842877624690074,
+   "supported": true
+  },
+  "H141e": {
+   "class": "prediction(descriptive)",
+   "value": "判定できた 3/6",
+   "supported": false
+  }
+ },
+ "prereg_class_mismatch": [],
+ "prereg_stag_mismatch": [
+  "Italy_postRoman"
+ ]
+}

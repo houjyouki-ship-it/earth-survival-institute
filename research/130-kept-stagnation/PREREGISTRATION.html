@@ -1,0 +1,20 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究130 事前登録（open_problems 305：段を保った社会の停滞を模型に入れる） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="130-open_problems-305">研究130 事前登録（open_problems 305：段を保った社会の停滞を模型に入れる）</h1>
+<p>登録時刻：2026-10-26 01:36 JST。sim.py の実行前・本回の資料を開く前に書いた。
+注：F_heavy・V は生存確率や復興確率ではない。</p>
+<h2 id="_1">設計</h2>
+<ul>
+<li>127/128 の仕組みをそのまま使い、停滞を lost の標本だけでなく kept の標本にも与える：
+  S_k = pick if U_stag &lt; (lost ? p_lost : p_kept) else 0（U_stag・pick は 126〜128 と共通）。</li>
+<li>格子：p_lost ∈ {0.6, 0.9, 1.0}、p_kept ∈ {0, 0.1, 1/6, 0.25, 3/8, 0.5}。遅い κ（slow_Tasmania）、W、H1000、D2rz・D1・D4。</li>
+<li>検算：p_kept=0 で p_lost=0.6 は 127 の Ccond、1.0 は C1 と差 0（assert）。</li>
+<li>p_kept の事後：主の集合（M128＋Copán＋イタリア）で kept 1/3 → Jeffreys Beta(1.5, 2.5)、平均 0.375。拡張（X＋129）で 1/8 → Beta(1.5, 7.5)、平均 0.167。p_lost=0.9 で格子を線形補間して事後平均の F_heavy を出す。</li>
+<li>イタリアの途絶の根拠：本回 Wikipedia（Lombards・Lombard 王国の貨幣／建築など）を開き、128 の規則（4 項目のうち 2 つ以上が 50 年以上途絶）で再判定する。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H142a（確認的）：p_lost=0.9 で p_kept=0 → 0.375 にすると D2rz の F_heavy は 3 % 以上動く（向きは問わない）。</li>
+<li>H142b（確認的）：全格子で順位 D2rz ≥ D1 ≥ D4 は不変。</li>
+<li>H142c（予測）：p_lost=0.9 で F_heavy は p_kept について単調。</li>
+<li>H142d（予測）：kept に停滞を入れると F_heavy は下がる（kept の標本の基準の重い分が増え、分母が大きくなるため、と推測）。p_kept=0.375 で p_kept=0 より低い。</li>
+<li>H142e（予測）：イタリアは資料で再判定しても kept のまま（ランゴバルドの貨幣・建築の記述があると予想）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究129：段を失った崩壊の事例を増やして p|lost を詰める（open_problems 303＋297） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="129-plost-open_problems-303297">研究129：段を失った崩壊の事例を増やして p|lost を詰める（open_problems 303＋297）</h1>
+<p><strong>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。</strong> 結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<p>128 の規則（4 項目のうち 2 つ以上が 50 年以上途絶、または放棄で lost）と 125 の停滞の規則（038 の中央値の模型の回復年数を超えたら停滞、区間は上限で判定）を変えずに、6 候補（Copán・Indus・Hittite・Cahokia・Angkor・イタリア）を資料を開く前に登録（PREREGISTRATION.md、23:44 JST）。本回開いた Wikipedia の頁（sources/）と 125 の sources/ の数値だけで判定した。</p>
+<h2 id="stdouttxtresultsjson">結果（stdout.txt、results.json）</h2>
+<ul>
+<li>判定できたのは 3/6。Indus・Hittite・Angkor は崩壊後の地域の人口の数値がなく取れず。</li>
+<li>【事実（sources/wiki_Copan）】Copán は谷で 1.8〜2.5 万（後古典期の前）、8〜9 世紀に 5 千未満へ、16 世紀は少数の集落のみ。現在の自治体は 45,312（2023 推計、125 の sources/wiki_Copan_Ruinas）。分類 lost（文字・石造）。停滞の超過は Pmin=5,000 で上限 +748 年・下限 +275 年、規則で停滞あり。<strong>ただし Pmin が 563 人より小さいと上限でも超過が負</strong>になり、判定は谷の人口に強く依存する（図の右）。</li>
+<li>【事実（sources/wiki_Cahokia）】Cahokia は 1.02〜1.53 万（1050〜1100）、1400 年までに放棄（短い Oneota の再居住）。放棄で lost・停滞。長さは数値なし。後の住民は子孫とは限らない（移民あり）。</li>
+<li>【事実（125 の sources/ の Roman Empire・Medieval demography）】イタリアは 165 年 800〜900 万、Charlemagne の頃 400 万、1300 年 1,000〜1,300 万。途絶の根拠の文がないので規則で kept。超過は下限 +377 年・上限 +877 年で停滞あり（改訂の解釈 1,250 万でも +245〜+745）。</li>
+<li>p|lost：M128＋Copán 4/4 で Jeffreys の事後平均 0.900、F_heavy（遅い κ・D2rz・W・H1000）2.184（10〜90 % 2.00〜2.29）、量 −15.1 %。Cahokia も足すと 5/5 で 0.917・2.202・−15.4 %。Copán を停滞なしにすると 3/4 で 0.701・1.988・−11.8 %。</li>
+<li>段の喪失と停滞の関連（Fisher 片側）：128 の X に本回を足すと lost 5/5・kept 1/8 で p=0.005。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H141a（確認的）支持：5/5（≥0.75）。</li>
+<li>H141b（確認的）判定保留：測れたのは Copán だけで、下限 275・上限 748 年が 300 年をまたぐ。</li>
+<li>H141c（確認的）<strong>棄却</strong>：新しい kept のイタリアに停滞あり（登録の予想「停滞なし」も外れ）。</li>
+<li>H141d（予測）支持：2.184（2.08〜2.29）。</li>
+<li>H141e（記述の予測）棄却：判定できたのは 3（≤2 の予想）。
+著者は事例の概略を知っていたので確認的の力は弱い。</li>
+</ul>
+<h2 id="297">297（停滞の原因、記述・支持に数えない）</h2>
+<p>Copán：耕地・森の荒廃（'deforestation of the Copán valley'、'overpopulation and a lack of local resources'）、病と欠乏（'Shortage and disease afflicted'）、外からの必需品の依存。Cahokia：洪水（1100–1260、1340–1460）と干ばつ（1100–1250）、病は可能性のみ、人による侵食の証拠はなし。イタリア：欧州全体で交易の縮小と政治の混乱の記述のみ。3 件とも移入の量の数値はない。</p>
+<h2 id="_3">批判</h2>
+<ol>
+<li>イタリアの kept は「途絶の根拠を探さなかった」ことから来る既定値で、規則の偏り（根拠なし＝保った）がそのまま出た。同じ西ローマの崩壊で Britain は lost・イタリアは kept・どちらも停滞で、停滞が段の喪失に固有という読みを弱める。</li>
+<li>模型（127）では停滞は lost の標本にしか効かないので、イタリアの型（段を保ったまま数百年の停滞）は模型に入る場所がない。p|kept が F_heavy に効かないのは仮定の結果で、史実の支持ではない（新しい課題 305）。</li>
+<li>Copán の判定は谷の人口の下限（資料は「5 千未満」「少数の集落」だけ）で反転する。自治体と谷の範囲の一致、近代の回復への移民の寄与も未確認。</li>
+<li>Cahokia の「放棄＝停滞」は人の移動（散らばり）と人口の回復の失敗を区別しない。</li>
+</ol>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は遅い κ の重い崩壊の F_heavy の主を 2.16 から 2.18（M128＋Copán、量 −15 %）に小さく動かし、Copán の判定が反転したときの 1.99 を下端の感度として並べる。次は段を保った社会の停滞（イタリア型）を模型に入れたときの F_heavy の動き（305）を先に調べる。D2rz の推しは不変。</p><footer><hr><small>自動生成</small></footer></body></html>

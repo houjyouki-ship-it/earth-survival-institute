@@ -1,0 +1,18 @@
+check {'F_mean_rep': 2.1605418802319822, 'F_mean_128': 2.1605418802319822, 'note': '128 と同じ乱数の種・同じ引き数で差 0（assert は <2e-3）'}
+Copan lost True stag True {'pred': 474.9, 'T_upper': 1223, 'T_lower': 750, 'excess_upper': 748.1, 'excess_lower': 275.1}
+Cahokia lost True stag True {}
+Italy_postRoman lost False stag True {'pred': 258.2, 'T_upper': 1135, 'T_lower': 635, 'excess_upper': 876.8, 'excess_lower': 376.8}
+copan breakeven {'Pmin_breakeven_upper': 563, 'Pmin_breakeven_lower': 2240}
+{'Pmin=5000|ts=800|P0=18000': 784, 'Pmin=5000|ts=800|P0=20000': 748, 'Pmin=5000|ts=800|P0=25000': 672, 'Pmin=5000|ts=900|P0=18000': 684, 'Pmin=5000|ts=900|P0=20000': 648, 'Pmin=5000|ts=900|P0=25000': 572, 'Pmin=2000|ts=800|P0=18000': 470, 'Pmin=2000|ts=800|P0=20000': 434, 'Pmin=2000|ts=800|P0=25000': 358, 'Pmin=2000|ts=900|P0=18000': 370, 'Pmin=2000|ts=900|P0=20000': 334, 'Pmin=2000|ts=900|P0=25000': 258, 'Pmin=1000|ts=800|P0=18000': 233, 'Pmin=1000|ts=800|P0=20000': 197, 'Pmin=1000|ts=800|P0=25000': 120, 'Pmin=1000|ts=900|P0=18000': 133, 'Pmin=1000|ts=900|P0=20000': 97, 'Pmin=1000|ts=900|P0=25000': 20, 'Pmin=500|ts=800|P0=18000': -5, 'Pmin=500|ts=800|P0=20000': -41, 'Pmin=500|ts=800|P0=25000': -117, 'Pmin=500|ts=900|P0=18000': -105, 'Pmin=500|ts=900|P0=20000': -141, 'Pmin=500|ts=900|P0=25000': -217}
+italy {'P0=8000000.0': (398, 898), 'P0=8500000.0': (377, 877), 'P0=9000000.0': (357, 857), 'P0=12500000.0': (245, 745)}
+M128 {'lost_stag': 3, 'n_lost': 3, 'kept_stag': 0, 'n_kept': 2, 'fisher_one_sided': 0.10000000000000002} {'jeffreys': (0.875, 2.16, [1.939, 2.216, 2.291], -0.1467), 'uniform': (0.8, 2.083, [1.859, 2.111, 2.264], -0.1345)}
+M128+Copan {'lost_stag': 4, 'n_lost': 4, 'kept_stag': 0, 'n_kept': 2, 'fisher_one_sided': 0.06666666666666667} {'jeffreys': (0.9, 2.184, [2.001, 2.235, 2.291], -0.1508), 'uniform': (0.834, 2.115, [1.914, 2.142, 2.27], -0.1401)}
+all_new(M128+Copan+Cahokia, kept+Italy) {'lost_stag': 5, 'n_lost': 5, 'kept_stag': 1, 'n_kept': 3, 'fisher_one_sided': 0.10714285714285714} {'jeffreys': (0.917, 2.202, [2.045, 2.246, 2.292], -0.1536), 'uniform': (0.857, 2.138, [1.956, 2.164, 2.274], -0.144)}
+X128+new {'lost_stag': 5, 'n_lost': 5, 'kept_stag': 1, 'n_kept': 8, 'fisher_one_sided': 0.004662004662004662} {'jeffreys': (0.917, 2.202, [2.045, 2.246, 2.292], -0.1536), 'uniform': (0.857, 2.137, [1.955, 2.163, 2.274], -0.1438)}
+Copan_no(Pmin<=breakeven) {'lost_stag': 3, 'n_lost': 4, 'kept_stag': 0, 'n_kept': 2, 'fisher_one_sided': 0.20000000000000004} {'jeffreys': (0.701, 1.988, [1.757, 2.001, 2.206], -0.118), 'uniform': (0.667, 1.956, [1.744, 1.961, 2.16], -0.1124)}
+H141a confirmatory True 5/5
+H141b confirmatory None {'Copan_excess_lower_upper': [275.0612572388408, 748.0612572388409], 'Cahokia': '放棄の長さは数値なし'}
+H141c confirmatory False kept の停滞 1/1（新しい kept）
+H141d prediction True 2.1842877624690074
+H141e prediction(descriptive) False 判定できた 3/6
+mismatch class [] stag ['Italy_postRoman']

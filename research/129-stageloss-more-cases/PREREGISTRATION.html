@@ -1,0 +1,73 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究129 事前登録（open_problems 303＋297） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="129-open_problems-303297">研究129 事前登録（open_problems 303＋297）</h1>
+<p>登録時刻：下の date の出力（本回の新しい資料を開く前・sim.py を書く前）。
+注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。</p>
+<h2 id="_1">問い</h2>
+<p>128 の p|lost は lost 3 件（Greece・Britain・Norse）だけ。段を失った崩壊の事例を増やして p|lost を詰め、停滞の長さの原因（297）を記録する。</p>
+<h2 id="128125">規則（128・125 のまま変えない）</h2>
+<ul>
+<li>分類：前にあった 4 項目（文字の日常の使用、地元の金属の生産、石造・煉瓦の大きな建築の新築、貨幣）のうち 2 つ以上が 50 年以上途絶、または住民が消滅・放棄で lost。前になかった項目は分母から外す。根拠の文がなければ「不明」。</li>
+<li>停滞：125 の 038 の中央値の模型 pred = ln(P0/Pmin)/r_med038（r_med038 は 125 の results.json の値）で、超過 T_rec−pred&gt;0 なら停滞。打ち切りで超過が負は判定不能。区間は上限で判定。消滅（その地域で人がいなくなる）は停滞。</li>
+<li>人口の P0・Pmin・回復の年は本回実際に開いた資料の数値だけを使う。数値がなければ「取れず」と記録し数えない。移民の有無も記録（M 相当は移民なし）。</li>
+<li>地域：その事例の地域の人口（考古学の調査地域の推定でよい）。</li>
+</ul>
+<h2 id="_2">候補と事前の予想（知識からの予想。著者は概略を知っているので確認的の力は弱い）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>予想の分類</th>
+<th>予想の停滞</th>
+<th>予想の判定可能性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Copan（Copán 谷）</td>
+<td>lost（文字・石造）</td>
+<td>あり</td>
+<td>判定できる見込み</td>
+</tr>
+<tr>
+<td>Indus（ハラッパー）</td>
+<td>lost（文字・煉瓦の都市）</td>
+<td>あり</td>
+<td>人口の数値なしで取れず</td>
+</tr>
+<tr>
+<td>Hittite_Anatolia（中央アナトリア）</td>
+<td>lost（楔形文字・大建築）</td>
+<td>あり</td>
+<td>人口の数値なしで取れず</td>
+</tr>
+<tr>
+<td>Cahokia（American Bottom）</td>
+<td>lost（放棄）</td>
+<td>あり（移民ありの回復）</td>
+<td>判定できるかは半々</td>
+</tr>
+<tr>
+<td>Angkor（アンコール地域）</td>
+<td>kept（文字は残る、新築の停止のみ）</td>
+<td>不明</td>
+<td>人口の数値なしで取れず</td>
+</tr>
+<tr>
+<td>Italy_postRoman（イタリア）</td>
+<td>kept</td>
+<td>なし</td>
+<td>判定できるかは半々</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H141a（確認的）：128 の M の lost（3/3）に本回判定できた lost の事例を足しても、p|lost の点推定は ≥0.75。</li>
+<li>H141b（確認的）：本回判定できた lost の事例の停滞の長さ（超過、消滅・放棄は観測できた年数）の中央は ≥300 年。</li>
+<li>H141c（確認的）：本回判定できた kept の事例に停滞ありは 0 件。</li>
+<li>H141d（予測）：更新後の Jeffreys 事後の平均での遅い κ・D2rz・W・H1000 の F_heavy は 2.08〜2.29 に入る（128 の grid.json の格子を使う）。</li>
+<li>H141e（記述の予測）：6 候補のうち人口の前後と回復の両方が取れて判定できるのは 2 件以下。</li>
+<li>297（記述）：各事例に交易の途絶・病の繰り返し・耕地の荒廃・移入の有無を根拠の文つきで記録する。支持には数えない。</li>
+</ul>
+<h2 id="_4">計算</h2>
+<p>sim.py：128 の results.json の counts を再現（assert）、本回の事例を足して k/n、Jeffreys と一様の事前で Beta の事後、128 の grid.json の格子に線形補間して F_heavy と量の平均・10/50/90 % 点。図 1 枚。
+2026-10-25 23:44:19 JST</p><footer><hr><small>自動生成</small></footer></body></html>
