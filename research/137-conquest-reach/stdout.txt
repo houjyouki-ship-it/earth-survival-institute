@@ -1,0 +1,15 @@
+Aztec_1520 9026 2551 
+Inca_conquest 9128 2072 
+Taino_Hispaniola 6696 6696 nostage
+Herero_1904 8280 0 colony
+Moriori_1835 786 774 
+median D_home 8280 D_stage 2072 D_stage(Herero=home) 2551
+self-sufficiency {'Argentina': 1.166, 'Australia': 0.209, 'Sri Lanka': 0.0, 'Dominican Republic': 0.0}
+main 0.237 0.24 1.962 ['Antigua and Barbuda', 'Bangladesh', 'Bermuda', 'Cape Verde', 'Colombia', 'Grenada', 'Guinea', 'Lesotho', 'Liberia', 'Mexico', 'Saint Kitts and Nevis', 'South Africa', 'Trinidad and Tobago', 'Venezuela']
+all_home 1.0 0.723 2.086 
+all_stage 0.11 0.16 1.945 
+cap_unlimited 1.0 0.723 2.086 
+main_HereroHome 0.26 0.254 1.966 
+cap_only_home 0.207 0.221 1.958 
+main rule all tables/thresholds F 1.945 2.05  all rules 1.93 2.086
+hyp {"H149a": {"val": 8279.689211253244, "ok": true}, "H149b": {"val": 2072.1413914029686, "ok": false}, "H149c": {"val": {"Argentina": 1.1655540720961282, "Australia": 0.20938314509122502, "Sri Lanka": 0.0, "Dominican Republic": 0.0}, "ok": true}, "H149d": {"val": 1.9624997367206747, "ok": true}}

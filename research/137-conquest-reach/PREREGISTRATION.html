@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究137 事前登録（2026-10-26 15:36 JST、本回の資料を開く前・analyze.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="137-2026-10-26-1536-jstanalyzepy">研究137 事前登録（2026-10-26 15:36 JST、本回の資料を開く前・analyze.py を書く前）</h1>
+<p>注：F_heavy・c_C は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-317">課題（open_problems 317）</h2>
+<p>136 の P_ext（外の征服の圧力）は「征服の届く距離 D」でほぼ決まった（2,000 km で 0.08、距離なしで 1）。
+(1) 135 の征服つき 5 件（Aztec 1520、Inca、Taíno、Herero 1904、Moriori 1835）の征服者の距離の分布で D を置く。
+(2) 150 Tg の無傷の 4 か国（Argentina・Australia・Sri Lanka・Dominican Republic）の燃料の自給（原油の国内生産 / 石油の消費）を公開の数値で置き、遠征の能力を分ける。
+(3) 無傷の国が T3（計算機の使える社会）を保つ場合の F_heavy の扱いを式で示す。</p>
+<h2 id="136-136-centroidsjson">距離の定義（136 と揃える：国の重心の大圏距離、136 の centroids.json）</h2>
+<ul>
+<li>D_home：征服者の本国の重心 → 被害地の重心。Spain→Mexico、Spain→Peru、Spain→Dominican Republic、Germany→Namibia、New Zealand（本島の重心）→ Chatham 諸島（座標は Wikipedia の頁）。</li>
+<li>D_stage：征服の遠征が出た最後の既存の拠点（資料が名指しする地）→ 被害地。拠点の座標はその地の重心（国なら centroids.json、島・町なら Wikipedia の座標）。資料で拠点が名指しされないときは D_home を使い、印 nostage を付ける。被害地の中にすでに征服者の植民地があった場合（Herero）は D_stage=0。</li>
+<li>中央値は 5 件の中央値。</li>
+</ul>
+<h2 id="_1">燃料の自給</h2>
+<ul>
+<li>自給率 = 原油（コンデンセートを含む資料ならそのまま）の国内生産 / 石油製品の消費（同じ資料の同じ年を優先、なければ近い年）。資料は EIA または Wikipedia の国別の一覧（開いた URL のみ）。</li>
+<li>遠征可能国 = 自給率 ≥ 0.8。</li>
+<li>主の規則：遠征可能国の届く距離 = D_home の中央値、それ以外の無傷の国 = D_stage の中央値。各重い国は、どれかの無傷の国の届く距離内なら圧力あり。136 の run を一般化（国ごとの D）。c_C = P·0.723 + (1−P)·0.09、F_heavy は 134 の cC_curve の線形補間（136 と同じ）。</li>
+<li>版：全員 D_home、全員 D_stage、遠征可能国のみ距離なし、表 S4〜S9、重い国の閾値 0.5/0.75/0.9。</li>
+</ul>
+<h2 id="_2">確認的な仮説（資料を開く前）</h2>
+<ul>
+<li>H149a：D_home の中央値 &gt; 2,000 km。</li>
+<li>H149b：D_stage の中央値 &lt; 2,000 km。</li>
+<li>H149c：4 か国のうち自給率 ≥ 0.8 は Argentina だけ。</li>
+<li>H149d：主の規則の F_heavy（S4、閾値 0.75）は 1.93 以上 2.00 未満。
+注：a・b は 135 の頁の記憶からほぼ予想がつく（情報は薄い）。c・d が本回の主な検証。</li>
+</ul>
+<h2 id="_3">入力判明後の予測／記述は判明後に別に書く。</h2><footer><hr><small>自動生成</small></footer></body></html>

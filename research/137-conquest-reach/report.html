@@ -1,0 +1,119 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究137：征服の届く距離と無傷の国の遠征の能力（open_problems 317） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="137open_problems-317">研究137：征服の届く距離と無傷の国の遠征の能力（open_problems 317）</h1>
+<blockquote>
+<p>注：F_heavy・c_C は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>136 の外の征服の圧力 P_ext は「届く距離 D」で 0.08（2,000 km）〜1（距離なし）と決まらなかった。135 の征服つき 5 件で D を史実で置き、150 Tg の無傷の 4 か国を燃料の自給で「遠征できる国」と「できない国」に分けて、P_ext・c_C・F_heavy の主を決める。</p>
+<h2 id="sourcesreadme_sourcestxt">資料（本回開いて確認、sources/README_sources.txt）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire">Aztec の征服</a>）】Cortés の遠征は Cuba から出航（1519 年 2 月 10 日）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Francisco_Pizarro">Francisco Pizarro</a>）】第 3 の遠征は 1530 年 12 月 27 日に Panama から Peru へ。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Herero_and_Nama_genocide">Herero・Nama の虐殺</a>）】1884 年からの植民地。1904 年の蜂起は本国 Germany からの増援の到着後に鎮圧。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Chatham_Islands">Chatham 諸島</a>）】1835 年、Wellington にいた Ngāti Mutunga・Ngāti Tama の約 900 人が Lord Rodney 号で上陸。座標 44.00°S 176.50°W。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide">Taíno の虐殺</a>）】期間 1493〜1550。出航の拠点の名指しはない（nostage として本国の距離を使用）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/List_of_countries_by_oil_extraction">原油の産出の一覧</a>、EIA 2026 年 1 月）】Argentina 873、Australia 241 千 bbl/日。Sri Lanka・Dominican Republic は記載なし。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/List_of_countries_by_oil_consumption">石油の消費の一覧</a>、Global Firepower 2026）】Australia 1,151,000、Argentina 749,000、Dominican Republic 146,000、Sri Lanka 100,000 bbl/日。</li>
+</ul>
+<h2 id="analyzepy-1">方法（analyze.py、約 1 秒）</h2>
+<p>PREREGISTRATION.md（15:36 JST、資料の前）どおり。距離は 136 と同じ国の重心の大圏距離。自給率 ≥ 0.8 の国は D_home の中央値まで、それ以外は D_stage の中央値まで届くとし、136 の run を国ごとの距離に一般化。再現：2,000 km 一律で 136 の主（P_ext 0.0801）と差 0 を assert。</p>
+<h2 id="_2">結果</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>本国→被害地</th>
+<th>拠点→被害地</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aztec 1520（Spain、拠点 Cuba）</td>
+<td>9,026 km</td>
+<td>2,551 km</td>
+</tr>
+<tr>
+<td>Inca（Spain、拠点 Panama）</td>
+<td>9,128 km</td>
+<td>2,072 km</td>
+</tr>
+<tr>
+<td>Taíno（Spain、拠点の名指しなし）</td>
+<td>6,696 km</td>
+<td>6,696 km</td>
+</tr>
+<tr>
+<td>Herero 1904（Germany、既存の植民地）</td>
+<td>8,280 km</td>
+<td>0 km</td>
+</tr>
+<tr>
+<td>Moriori 1835（New Zealand、拠点 Wellington）</td>
+<td>786 km</td>
+<td>774 km</td>
+</tr>
+<tr>
+<td>- 中央値は本国から <strong>8,280 km</strong>、拠点から <strong>2,072 km</strong>（Herero を本国の増援で数えると 2,551 km）。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 燃料の自給率：Argentina <strong>1.17</strong>、Australia 0.21、Sri Lanka・Dominican Republic 0。遠征できる国は Argentina だけ。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 主の規則（S4、150 Tg、重い国の閾値 0.75）：<strong>P_ext 0.237</strong>、c_C 0.240、<strong>F_heavy 1.962</strong>。圧力下は 14 か国（Mexico・Venezuela・Colombia・South Africa・Bangladesh・Guinea・Liberia・カリブの島々など）。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 版：全員が拠点の距離で 1.945、Herero を本国で数える版 1.966、Argentina だけ本国の距離で他は届かない版 1.958、全員が本国の距離または Argentina の距離なしで 2.086（P=1）。主の規則の 6 表×3 閾値で <strong>1.945〜2.050</strong>、全規則で 1.930〜2.086。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H149a 本国からの中央値 &gt; 2,000 km</td>
+<td>8,280 km</td>
+<td>支持（情報は薄い）</td>
+</tr>
+<tr>
+<td>H149b 拠点からの中央値 &lt; 2,000 km</td>
+<td>2,072 km</td>
+<td>棄却（僅差、Panama の重心の選び方で動く）</td>
+</tr>
+<tr>
+<td>H149c 自給率 ≥ 0.8 は Argentina だけ</td>
+<td>1.17／0.21／0／0</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H149d 主の F_heavy は 1.93 以上 2.00 未満</td>
+<td>1.962</td>
+<td>支持</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">逸脱</h2>
+<p>なし。Santiago de Cuba・Panama City の座標は取得したが、登録どおり国の重心を使った。</p>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li>5 件は征服者が圧倒的な技術の差を持ち、かつ遠征の前に本国が無傷だった例だけ。核の冬の後の Argentina（Xia の表の 2010 年人口 4,040 万、無傷）が 8,000 km 先へ遠征・入植する動機と余力は史実と同じではない【推測】。逆に Moriori の例は 800 km で小集団でも政体を消せることを示す。</li>
+<li>自給率は平時の量。核の冬の後は需要（輸送・農業）が落ちる一方、精製所・部品・海運保険は輸入に依存しうる。原油の量だけで遠征の能力を決めるのは粗い【推測】。Australia の 0.21 は国内の精製が小さいことも含め、外からの燃料が止まれば遠征は難しい側に倒れる。</li>
+<li>圧力下に入る国の多くは Argentina から 6,000〜8,300 km（Mexico・South Africa・西アフリカ）で、主の値は「Argentina が遠征するか」の一点にほぼ依存する。Argentina も拠点の距離までしか届かないとすると 1.945。</li>
+<li>構造（T3）【独自仮説】：無傷の 4 か国は食料が足り、既存の計算機と電力を保つ可能性が高い。そのとき世界には T3 が残り、032 の分類では NUC_G の標本の大部分は「重い崩壊」ではなく T3 保持（金庫を読む必要が薄い）に移る。NUC_G が F_heavy に寄与する重みは (1 − q_T3) 倍になり、q_T3 を 0.5 とすれば半分。P_ext と T3 保持は同じ「無傷の国の能力」から来るので、P_ext が高い標本ほど T3 が残って F_heavy の対象から外れる負の相関がある。主の 1.962 は「無傷の国が T3 を失うのに遠征はする」という組み合わせを含み、上限寄り。</li>
+<li>4 か国は 150 Tg の S4 の値。交易ありの表では無傷の国が変わる（136）。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は NUC_G の F_heavy の主を 1.96（幅 1.945〜2.05）とし、136 の 1.94〜2.09 の幅を半分ほどに狭める。次は q_T3（無傷の国が計算機の社会を保つ割合）を 032 の NUC_G の T3 保持の割合と突き合わせ、P_ext と T3 保持の相関を入れた式に直す。D2rz の推しは不変。</p><footer><hr><small>自動生成</small></footer></body></html>
