@@ -1,0 +1,36 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究145：停滞の規則に再入植の型を入れる（333）と停滞の判定の r 依存（334） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="145333-r-334">研究145：停滞の規則に再入植の型を入れる（333）と停滞の判定の r 依存（334）</h1>
+<p><strong>注：F_heavy・p|lost は生存確率や復興確率ではない（模型の中の量）。提言は模型の中での順位で、外部の検証はまだ。</strong></p>
+<p>事前登録：PREREGISTRATION.md（2026-10-27 07:42 JST、計算の前、PREREG.sha256）。新しい資料は開いていない（入力は 038・128・143・144 の results.json と 038 の sim.py の写し）。</p>
+<h2 id="_1">再現</h2>
+<ul>
+<li>144 の主（その場 2/2＋Copán w=0.0704）と登録外 2/2 の p・F を差 &lt;4e-10 で assert。</li>
+<li>144 の w（MC）を格子で再計算して差 0.0007（MC 誤差の範囲）。</li>
+<li>038 の sim を /tmp/rep145 の写しで実行し、EVID 4 シナリオの重い標本の割合を差 0 で assert。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<ol>
+<li><strong>334（r 依存）</strong>【計算】：Copán の停滞の確率 w は r で決まる。038 の r 事前（対数一様 0.0014〜0.0061）の四分位で w は 0（r 0.00202）・0.071（0.00292）・0.924（0.00422）、その場の F_heavy は 1.923・1.940・2.142。停滞になる損益分岐の r は 0.00273（Pmin 1,000）〜0.00407（Pmin 200）で、038 の中央値 0.00292 はその間にある。r を事前で周辺化すると <strong>w 0.372、その場の p 0.718、F_heavy 2.011</strong>。144 の 1.94 は「r を中央値に固定」した値だった。</li>
+<li><strong>333（再入植の型、R333）</strong>【計算】：谷が頂点の 5 % 未満か放棄の事例をその場の集合から外すと、Copán（谷 0.75〜3.8 %）が外れて 2/2、F 2.120（H157c、144 の登録外 2.120 と一致）。閾値 1 % では Copán が深い確率 0.17 で F 1.971、2 % で 0.61・2.049。閾値が Copán の谷の割合の上にちょうど乗るので、規則では決まらない。Greece（50 %）・Britain（33 %）はどの閾値でも浅い側。</li>
+<li><strong>模型の側</strong>【計算】：038 の重い標本の世界の生き残りの割合 s は二つに割れる。BIO の裾は中央値 2.6×10⁻⁵（5〜95 % 8.9×10⁻⁷〜1.4×10⁻³、全部 1 % 未満）、CASC は 0.22〜0.84（10 % 未満 0）。NUC_G・NUC_R の重い標本は 0。重み付きの深い割合 f_deep は A_Ord 0.88、A_XPT_S 0.017、A_XPT_E 1.0 で、閾値（1〜10 %）にはまったく依存せず、どのアンカーかだけで決まる。さらに重い崩壊の重みのうち s を持たない AI・GEN が A_Ord で 94 %、A_XPT_S で 82 %、A_XPT_E で 48 % を占める。</li>
+<li><strong>結合</strong>：深い側に再入植の型（放棄 6＋Copán、7/7、F 2.223）を当てる読み A で 2.122（XPT_S）〜2.223（XPT_E）、深い側を群の喪失として停滞の集計から外す読み B で 1.971〜2.120。全版 1.971〜2.223。</li>
+</ol>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>H157a（確認的）：A_XPT_S の重い標本で s&lt;5 % の割合 ≥0.5 → <strong>棄却</strong>（0.017）。A_Ord・A_XPT_E では成り立つので、答えはアンカーで反転する。</li>
+<li>H157b（確認的）：r 上の四分位で w ≥0.5、下の四分位で w &lt;0.1 → <strong>支持</strong>（0.924、0.000）。</li>
+<li>H157c（予測）：R333(5 %) のその場の F が 2.12 と差 &lt;0.001 → <strong>支持</strong>（入力が既知なので情報は薄い）。</li>
+<li>H157d（予測）：結合の F が全版で 1.94〜2.24 → <strong>支持</strong>（1.971〜2.223）。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ul>
+<li>【推測】世界の生き残りの割合 s を地域の谷の割合の代理にした。地域ごとの s のばらつきがあれば、CASC の中にも深い地域が出る。</li>
+<li>【独自仮説】読み A は放棄＝停滞と数えるが、放棄の史実は外から移り住む人がいた。世界規模の重い崩壊では外の人口がないので、深い標本の正しい対応は「停滞」ではなく「群の喪失」（070 の G）かもしれない。その場合は読み B が正しく、二重に数えないためには G の模型と F_heavy の模型をつなぐ必要がある。</li>
+<li>F を標本の型の割合で線形に混ぜた。格子の F(p) の直線からのずれは最大 0.031 なので、読み A の値はその程度の誤差を持つ。</li>
+<li>r の周辺化は 038 の事前（黒死病からの較正、推測）に頼る。125 の史実の r_eff（移入なし 0.0019〜0.0051）はその範囲の中にある。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>模型の維持者：その場の F_heavy の主を 144 の 1.94（r を中央値に固定）から、r を事前で周辺化した <strong>2.01</strong> に改め、幅は 1.92（r 下の四分位）〜2.14（上の四分位）とする。事例を足して p|lost を詰める作業はやめる：Copán の判定を決めているのは人口の資料ではなく r であり、重い崩壊の大部分（AI・GEN）は生き残りの割合を持たないので、史実の型との対応づけ自体ができない。</li>
+<li>次に効くのは、AI・GEN の重い標本に生き残りの割合 s と群の数を与えること（open_problems 335）と、深い標本を停滞と群の喪失のどちらで数えるかを G の模型とつないで決めること（336）。</li>
+<li>D2rz の推しと 142 の媒体の提言は不変（p の幅 0.64〜0.94 の中）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
