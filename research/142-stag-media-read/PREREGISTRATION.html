@@ -1,0 +1,20 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究142 事前登録（sim.py を書く前・計算の前に記録、2026-10-27 01:45 JST） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="142-simpy-2026-10-27-0145-jst">研究142 事前登録（sim.py を書く前・計算の前に記録、2026-10-27 01:45 JST）</h1>
+<p>注：P_read・量×読める確率は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-326next_plan-142-a">課題（open_problems 326、next_plan 第142回の推奨 A）</h2>
+<p>141 は停滞を「確率 0.9、logU(300〜900) 年の 1 回の遅れ」として粗く足した。本回は停滞の系列（125・132・133）で史実から置いた値をそのまま使う：
+- 重い崩壊の標本は段を失った標本なので p|lost＝0.9（126〜133 の主）。
+- 版 A（132 の混合版＝模型の時計に合う主）：停滞する標本に VA＝{262.5, 407.6, 650}（下り坂込みの谷からの遅れ、125・132 の results.json）を一様に引く。停滞しない標本は 0。
+- 版 E1（133 の主）：停滞する標本に VB＝{62.5, 207.6, 650}＋D_C 主 {200,200,155} を独立に引く。
+- 版 E2：E1＋停滞しない標本に D_S 主 {102,94,150}。
+- 版 E3：E1 で D_C に Copán 425 を足す（上の感度）。
+- 版 pl05：版 A で p|lost＝0.5（下の感度）。版 noGL：版 A から Greenland 650（消滅の下限）を外す。
+- 遅れは 141 と同じく R1 以上の段の時刻に足す（R0 は 0 のまま）。
+再現：141 の sim を写しで実行し、公開の results.json の main と stag_0.9 の P_read を差 0 で assert。</p>
+<h2 id="_1">仮説（入力の値は既知なので「確認的」ではなく「予測」に分類する。計算の前に登録）</h2>
+<ul>
+<li>H154a（予測）：版 A で MOM 10 倍（mom_mf）の P_read ≥ 0.9、銀塩フィッシュ 24 倍 &lt; 0.5。</li>
+<li>H154b（予測）：版 A・E1・E2・E3・pl05・noGL のすべてで、量×読める確率の最大は Silica のまま。</li>
+<li>H154c（予測）：版 A で、500 年級の媒体（fiche24・fiche48・piql・silica）の P_read はすべて 141 の主（停滞なし）と 141 の stag_0.9 の間に入る。</li>
+<li>H154d（予測、141 の結論 3 の検査）：版 A で、読取装置を作る知識（P_K2e）を MOM 10 倍のセラミックに置いた値は、500 年級の最良（fiche24・fiche48・piql_hand の最大）の 1.5 倍以上。</li>
+<li>H154e（予測）：版 A の Piql の P_read ≥ 0.5。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

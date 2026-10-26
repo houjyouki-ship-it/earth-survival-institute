@@ -1,0 +1,160 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究142：史実の停滞の値で媒体の「読める確率」を出し直す（open_problems 326） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="142open_problems-326">研究142：史実の停滞の値で媒体の「読める確率」を出し直す（open_problems 326）</h1>
+<p>注：P_read・量×読める確率は模型の中の量で、生存確率でも復興確率でもない。事前登録 PREREGISTRATION.md（2026-10-27 01:45 JST、sim.py と計算の前、PREREG.sha256）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<p>141 は停滞を「確率 0.9・logU(300〜900) 年」の粗い 1 回の遅れとして足し、500 年級の媒体が大きく落ちた。本回は停滞の系列で史実から置いた値をそのまま使った【計算の入力の出典：132 の results.json の VA/VB、125 の decline_years。新しい資料は開いていない】。
+- 版 A（主、132 の混合版）：p|lost 0.9 で VA＝{262.5, 407.6, 650} 年。平均の遅れ 396 年（141 の粗い版は 491 年）。
+- E1（133 の主）：VB＋下り坂 D_C{200,200,155}。E2：E1＋停滞しない標本に D_S{102,94,150}。E3：D_C に Copán 425。A_pl05：p 0.5。A_noGL：Greenland 650（消滅の下限）を外す。
+- 141 の sim を写しで実行し、全 8 版×14 媒体の P_read を公開の results.json と差 0 で assert。本回の run() は 141 と同じ乱数の消費順で遅れだけを差し替え（共通乱数）、遅れなし・粗い版で 141 の main・stag_0.9 を差 0 で再現。sim.py 約 9 秒。</p>
+<h2 id="1000-resultsjsonfig_stag_mediapng">結果（1,000 年に読める確率、重い崩壊の重み付き、results.json・fig_stag_media.png）【計算】</h2>
+<table>
+<thead>
+<tr>
+<th>媒体</th>
+<th>停滞なし</th>
+<th>141 粗い版</th>
+<th><strong>A（主）</strong></th>
+<th>E1</th>
+<th>E2</th>
+<th>E3</th>
+<th>p 0.5</th>
+<th>Greenland 抜き</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>石・MOM 肉眼・紙（R0）</td>
+<td>1.000</td>
+<td>1.000</td>
+<td><strong>1.000</strong></td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+<td>1.000</td>
+</tr>
+<tr>
+<td>MOM 10 倍（R1）</td>
+<td>0.991</td>
+<td>0.949</td>
+<td><strong>0.966</strong></td>
+<td>0.947</td>
+<td>0.946</td>
+<td>0.877</td>
+<td>0.977</td>
+<td>0.978</td>
+</tr>
+<tr>
+<td>銀塩フィッシュ 24 倍</td>
+<td>0.867</td>
+<td>0.139</td>
+<td><strong>0.187</strong></td>
+<td>0.195</td>
+<td>0.166</td>
+<td>0.172</td>
+<td>0.491</td>
+<td>0.230</td>
+</tr>
+<tr>
+<td>フィッシュ 48 倍</td>
+<td>0.720</td>
+<td>0.107</td>
+<td><strong>0.142</strong></td>
+<td>0.148</td>
+<td>0.118</td>
+<td>0.132</td>
+<td>0.401</td>
+<td>0.172</td>
+</tr>
+<tr>
+<td>Rosetta（ニッケル）</td>
+<td>0.975</td>
+<td>0.837</td>
+<td><strong>0.882</strong></td>
+<td>0.841</td>
+<td>0.839</td>
+<td>0.779</td>
+<td>0.923</td>
+<td>0.919</td>
+</tr>
+<tr>
+<td>Piql 手読み QR</td>
+<td>0.894</td>
+<td>0.430</td>
+<td><strong>0.509</strong></td>
+<td>0.486</td>
+<td>0.476</td>
+<td>0.440</td>
+<td>0.682</td>
+<td>0.589</td>
+</tr>
+<tr>
+<td>Piql 機械読み</td>
+<td>0.875</td>
+<td>0.410</td>
+<td><strong>0.486</strong></td>
+<td>0.462</td>
+<td>0.451</td>
+<td>0.419</td>
+<td>0.659</td>
+<td>0.563</td>
+</tr>
+<tr>
+<td>Silica</td>
+<td>0.870</td>
+<td>0.516</td>
+<td><strong>0.621</strong></td>
+<td>0.538</td>
+<td>0.533</td>
+<td>0.498</td>
+<td>0.733</td>
+<td>0.723</td>
+</tr>
+<tr>
+<td>M-DISC</td>
+<td>0.097</td>
+<td>0.013</td>
+<td><strong>0.015</strong></td>
+<td>0.016</td>
+<td>0.010</td>
+<td>0.014</td>
+<td>0.051</td>
+<td>0.018</td>
+</tr>
+<tr>
+<td>LTO・SSD</td>
+<td>0</td>
+<td>0</td>
+<td><strong>0</strong></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>141 の粗い版は史実の値の版より 0.03〜0.11 だけ悲観側だった。結論の向きは変わらない：銀塩フィッシュは停滞があると 0.14〜0.23（p 0.5 でも 0.49）に落ち、Piql・Silica は 0.45〜0.62。</li>
+<li>量×読める確率の最大は全 8 版で Silica（MOM 10 倍の 7.9×10⁵〜1.2×10⁶ 倍）。Piql の読める割合の期待は A で 0.279（停滞なし 0.586）。</li>
+<li>読取装置を作る知識が「装置を作る前に」読める確率（P_K2e）は A で MOM 10 倍 0.999、Rosetta 0.928、Piql 手読み 0.517、フィッシュ 24 倍 0.187。</li>
+<li>製鉄・ガラス・レンズの知識がレンズの段の前に読める確率（P_K01）は肉眼の媒体で 0.985、R1 以上は 0（141 と同じ構造）。</li>
+</ul>
+<h2 id="_2">仮説の判定（すべて予測。入力の値は既知のため確認的なものはない）</h2>
+<ul>
+<li>H154a 支持：A で MOM 10 倍 0.966（≥0.9）、フィッシュ 24 倍 0.187（&lt;0.5）。</li>
+<li>H154b 支持：全版で量×読める確率の最大は Silica。</li>
+<li>H154c 支持：fiche24・fiche48・Piql・Silica とも A の値は粗い版と停滞なしの間。</li>
+<li>H154d 支持：P_K2e の比はセラミック 0.999 ÷ 500 年級の最良（Piql 手読み 0.517）＝1.93（閾値 1.5）。</li>
+<li>H154e 棄却：A の Piql は 0.486（閾値 0.5 のわずか下）。p 0.5 の版なら 0.659。</li>
+</ul>
+<h2 id="_3">批判</h2>
+<ol>
+<li>遅れは 141 と同様に R1 以上の段へ一律に足した。停滞の間にも媒体は老いるが、停滞の後の段の進みを短くする効果（技能の残り）は入れていない。</li>
+<li>停滞の値は 3 件（Greece・Britain・Greenland）からの一様な引きで、Greenland 650 は消滅の下限。抜くと 500 年級が 0.04〜0.10 上がる。</li>
+<li>重い崩壊の標本すべてに p|lost 0.9 を当てた。p はもっとも効く入力で（0.5 で fiche24 0.19→0.49）、模型の重い崩壊が史実の国家・交易の崩れ型（C 型）に近いかで決まる【推測】。</li>
+<li>Rosetta の 650 倍が手作りの顕微鏡で読めるかは未確認（141 から残る）。寿命の主張に宣伝・要出典を含む。費用は入れていない。</li>
+</ol>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>長期保存の写しの設計者は、141 の三つの提言（製鉄・ガラス・レンズは肉眼の板、読取装置を作る知識は 1 万年級のセラミックにも、大量は Silica）をそのまま保つ。停滞を史実の値で入れても順位は変わらず、とくに銀塩フィッシュを読取装置の知識の唯一の置き場にしない（0.19）。顕微鏡の段で読む中間の層を置くなら、フィルムより Rosetta 型の金属（0.88）が停滞に強い。記録の単純さの系列はこれで閉じてよい（収穫は 0.03〜0.11 の修正のみ）。</p>
+<h2 id="_5">ファイル</h2>
+<p>sim.py、results.json、stdout.txt（先頭は 141・038 の写しの出力）、stderr.txt、fig_stag_media.png、PREREGISTRATION.md、PREREG.sha256、SHA256SUMS_outputs。</p><footer><hr><small>自動生成</small></footer></body></html>
