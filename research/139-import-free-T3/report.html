@@ -1,0 +1,72 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究139：輸入なしで無傷の国は計算機の社会（T3）を何年保つか（open_problems 321 (a)） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="139t3open_problems-321-a">研究139：輸入なしで無傷の国は計算機の社会（T3）を何年保つか（open_problems 321 (a)）</h1>
+<blockquote>
+<p>注：L_T3・状態の割合・ΔV は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>138 は発電だけなら無傷の国の T3 は 0.97 以上残ると示した。032 の NUC_G の重い崩壊 0.19 を支えうる (a)「部品の輸入なしの摩耗」を、公開の故障率で既存の計算機の台数の減り方として模擬し、032 の NUC_G の状態の割合と重み付きの ΔV を置き直す。</p>
+<h2 id="sourcesreadme_sourcestxt">資料（本回開いて確認、sources/README_sources.txt）</h2>
+<ul>
+<li>【事実（<a href="https://www.backblaze.com/blog/how-long-do-disk-drives-last/">Backblaze 2021</a>）】HDD は 4 年で約 90%、6 年で 65% が生存、故障率は 4 年目から上がる。→ Weibull η 7.65 年、β 3.47。</li>
+<li>【事実（<a href="https://www.backblaze.com/blog/drive-failure-over-time-the-bathtub-curve-is-leaking/">Backblaze 浴槽曲線 2021</a>）】2013 年のデータでは 3〜4 年目の故障率 11.8%、2021 年のデータでは 6 年生存 88%。</li>
+<li>【事実（<a href="https://www.usenix.org/legacy/events/fast07/tech/schroeder/schroeder_html/index.html">Schroeder &amp; Gibson, FAST'07</a>）】現場の年間の交換率の加重平均 3.01%、交換率は年齢とともに上がる。部品別の交換の割合（Table 3）：HDD 30.6/18.1/49.1%、電源 1.6/34.8/10.1%、メモリ・CPU・基板の合計 46.8/22.1/29.0%（HPC1/COM1/COM2）。</li>
+<li>【事実（<a href="https://www.backblaze.com/blog/ssd-drive-stats-mid-2022-review/">Backblaze SSD 2022</a>）】SSD の生涯 AFR 0.92%。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Electrolytic_capacitor">Wikipedia 電解コンデンサ</a>）】10 度則で 2000 h/105°C の品は 45°C で約 15 年。多くの系列の保管は 2 年まで、GBL 系は 10 年まで。</li>
+<li>人口：Xia 2022 表 S4（136 の xia_tables.json）Argentina 4,040 万、Australia 2,240 万。</li>
+</ul>
+<h2 id="simpy-50">方法（sim.py、約 50 秒）</h2>
+<p>PREREGISTRATION.md（19:37 JST、資料の前）どおり。部品の型ごとに既存の在庫 N0＝人口×1 人あたり台数を予備の山とし、使用中の N_thr 台の故障を更新の率 N_thr/μ で埋め、予備は保管で使用の a 倍の速さで年を取る。山が尽きた年を型ごとに出し、最短を L_T3 とする（記憶装置は SSD と HDD の両方が尽きた年）。IC の故障率は Schroeder の比×3.01%、電源のコンデンサは η 15 年・β 3【推測：β は資料なし】。032 への写像は L≥80 で T3、20〜80 で T3_fragile、&lt;20 で重い崩壊。032 は一時の写しで NUC_G の平均だけ置き換えて再実行し、元の値の再現を assert（差 0）。</p>
+<h2 id="_2">結果</h2>
+<ul>
+<li>主の版（予備は年を取らない a=0、N_thr 10⁴、1 人 0.5 台）：<strong>どの型も 1,000 年の地平で尽きない</strong>。使用中の台数は在庫の 1/2,000 で、在庫を使い切るのに数万年かかる。N_thr・台数・β・HDD/SSD の版を 1 つずつ動かしても同じ。</li>
+<li>効くのは保管の老化 a だけ：a=0.1 で 294 年、0.3 で 103 年、1.0 で 32.5 年（すべてコンデンサが決める）。コンデンサを手で付け替えられるなら a=1 でも 207 年（IC）。すべてが摩耗型で a=1 の悲観の角で 12〜14 年（記憶装置）。</li>
+<li>版の MC（a〜U(0,1)・a_cap〜U(0,1.5) などの模型の版の幅で、確率の主張ではない）：L_T3 の中央値 45.5 年、10 % 点 24 年。L&lt;20 は 0.02、20〜80 は 0.67、80 以上は 0.31。80 未満で決める型は IC 0.45・コンデンサ 0.42・記憶装置 0.14。</li>
+<li>032 の NUC_G の重い崩壊の割合：元 0.19 → 主 0.0001（Q 独立）／0.016（Q 完全相関）、MC 版 0.035。</li>
+<li>重い崩壊の手引きの重み付き ΔV（元 A_Ord 0.01779、A_XPT_S 0.01508、A_XPT_E 0.0076）：主の版で −0.6〜−0.7 %（A_Ord）、−14〜−15 %（A_XPT_S）、−20〜−22 %（A_XPT_E）。MC 版では T3_fragile が増えるので逆に +0.3 %、+8.8 %、+13 %。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H151a HDD の故障率は年齢とともに上がる（β&gt;1）</td>
+<td>β 3.47、Schroeder も同じ向き</td>
+<td>支持（よく知られた事実で情報は薄い）</td>
+</tr>
+<tr>
+<td>H151b 主の版で L_T3 中央値 ≥ 20 年</td>
+<td>1,000 年以上（地平の上限）</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H151c 決める部品は記憶装置ではなくコンデンサ（または β の大きい部品）</td>
+<td>80 年未満で記憶装置は 0.14、IC 0.45・コンデンサ 0.42</td>
+<td>一部支持（記憶装置でないは支持、コンデンサが主とは言えない）</td>
+</tr>
+<tr>
+<td>H151d 置き直した重い崩壊 &lt; 0.19</td>
+<td>0.016（MC 版 0.035）</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>入力判明後の記述：結論を決めるのは故障率でなく保管の老化 a で、a の値を与える資料は本回にない。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li>主の版の「数万年」は、在庫が国のどこにあっても集められ、部品を融通する技能と組織が保たれるという強い仮定つき【推測】。人の側（技術者・組織）の持続は入っていない。</li>
+<li>保管の老化の資料は電解コンデンサの「保管 2〜10 年」だけで、これは漏れ電流の規格で、再化成で戻ることもあり、部品の死ではない【推測】。IC・SSD の無通電の劣化（データ保持は別）の資料は開いていない。</li>
+<li>交換は故障と同じではない（Schroeder 自身が注記）。データセンターの 24 時間の使用の率を家庭の在庫に当てている。</li>
+<li>032 の T3 は「世界のどこかに T3 が残る」の意味で使っており、生き残りの大半（北半球）が T3 を使えるかは別の問い【独自仮説】。</li>
+<li>032 の L→状態の写像（20・80 年）は 032 の脆い窓の定義からで、資料ではない。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は 032 の NUC_G の重い崩壊 0.19 を下げる（主 0.016、版 0.0001〜0.035）。ただし T3 か T3_fragile かは保管の老化 a で逆向きに動き、重み付きの ΔV は XPT の重みで −15 % から +9 % まで振れるので、次は在庫の保管の老化（コンデンサ・IC・フラッシュの無通電の寿命）の資料で a を置く。D2rz の推しは不変。</p><footer><hr><small>自動生成</small></footer></body></html>

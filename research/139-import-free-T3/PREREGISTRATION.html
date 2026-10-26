@@ -1,0 +1,23 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究139 事前登録（2026-10-26 19:37 JST、本回の資料を開く前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="139-2026-10-26-1937-jstsimpy">研究139 事前登録（2026-10-26 19:37 JST、本回の資料を開く前・sim.py を書く前）</h1>
+<p>注：L_T3・q_T3・F_heavy・ΔV は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-321-a">課題（open_problems 321 (a)）</h2>
+<p>150 Tg（NUC_G）で電力を保った無傷の国が、半導体・部品の輸入なしに計算機の使える社会（T3）を何年保つか（L_T3）を、
+公開の故障率の資料で既存の計算機の台数の減り方を模擬して出し、032 の NUC_G の状態の割合（T3 0.65 / T3_fragile 0.15 / 重い 0.19）を置き直す。</p>
+<h2 id="simpy">模型（sim.py）</h2>
+<ul>
+<li>1 台の計算機は部品の型 j（記憶装置 HDD/SSD、電源・電解コンデンサ、その他）が 1 つずつ揃えば動く。共食い（部品の融通）ありとし、
+  動く台数 W(t) = min_j N0·u_j·S_j(t)。S_j は Weibull（尺度 η_j、形 β_j）。使わない予備は劣化しない版／使用と同じに劣化する版。</li>
+<li>初期の台数 N0 は国の人口 × 1 人あたりの台数（資料で置く、なければ版で 0.3〜1.0）。T3 の閾値 N_thr は 10³ / 10⁴ / 10⁵ 台（模型の版、資料なし）。</li>
+<li>L_T3 = W(t) &lt; N_thr となる最初の t。β と η は資料（AFR と年齢の曲線）で置く。β=1（摩耗なし）を版として必ず併記する。</li>
+<li>032 への写像：L_T3 ≥ 80 年 → T3 を保つ、20 ≤ L_T3 &lt; 80 → T3_fragile、L_T3 &lt; 20 → 重い崩壊（T2 以下）。電力で T3 を失う分（138 の 1−Q）は重い崩壊。
+  得た割合で 032 の sim.py の NUC_G の平均を置き換えて（mean_override）、A_Ord・A_XPT_S の重み付き ΔV を出す。</li>
+<li>再現：032 の sim を NUC_G の元の平均で回して results.json の重み付き ΔV（A_Ord 0.0178）と一致を assert。</li>
+</ul>
+<h2 id="_1">確認的な仮説（資料を開く前）</h2>
+<ul>
+<li>H151a：公開の資料の記憶装置（HDD）の年間の故障率は年齢とともに上がる（β&gt;1、摩耗あり）。</li>
+<li>H151b：主の版（共食いあり、予備は劣化しない、N_thr=10⁴）で L_T3 の中央値は 20 年以上（重い崩壊にはならない）。</li>
+<li>H151c：L_T3 を決める部品は記憶装置ではなく電源・コンデンサ（または β の大きい部品）。</li>
+<li>H151d：置き直した NUC_G の重い崩壊の割合は 032 の 0.19 未満。</li>
+</ul>
+<h2 id="_2">入力判明後の予測／記述は判明後に別に書く。</h2><footer><hr><small>自動生成</small></footer></body></html>
