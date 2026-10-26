@@ -1,0 +1,67 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究136：重い崩壊のシナリオごとの征服の圧力（open_problems 315） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="136open_problems-315">研究136：重い崩壊のシナリオごとの征服の圧力（open_problems 315）</h1>
+<blockquote>
+<p>注：F_heavy・c_C は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>135 で国家の解体（C 型の長い下り坂）は征服つき 5/5・征服なし 0/12 だった。現代の核の冬で、飢えの少ない「無傷の国」が飢えの重い国の近くに残る割合（外の征服の圧力 P_ext）はどれだけか。c_C = P·0.723 + (1−P)·0.09 として 134 の cC_curve で F_heavy に変える。</p>
+<h2 id="_2">資料（本回開いて確認）</h2>
+<ul>
+<li>【事実（<a href="https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43016-022-00573-0/MediaObjects/43016_2022_573_MOESM1_ESM.pdf">Xia et al. 2022 補足 MOESM1</a>）】表 S4〜S9：国別の 2 年目の餓死数（百万人）と 2010 年人口、煤 5〜150 Tg、家畜の 3 ケース×交易なし/あり。150 Tg の合計 50.4〜54.4 億人（S4 交易なし・家畜継続 5441.9）。</li>
+<li>【事実（<a href="https://www.nature.com/articles/s43016-022-00573-0">Xia et al. 2022 本文</a>）】豪州・NZ の影響は小さく、アジアからの難民の流入がありうる。</li>
+<li>【事実（<a href="https://developers.google.com/public-data/docs/canonical/countries_csv">Google countries.csv</a>）】国の重心の緯度経度。</li>
+<li>抽出の検査：6 表とも国の和が Total と 0.8 百万以内（Taiwan の行の改行による China の上書きを直してから）。</li>
+</ul>
+<h2 id="analyzepy-1">方法（analyze.py、約 1 秒）</h2>
+<p>PREREGISTRATION.md（13:44 JST、表の値と座標を開く前）の定義どおり。無傷 = 餓死の割合 &lt; 0.25 かつ人口 1,000 万以上、重い国 = ≥ 0.75、圧力 = 重心の大圏距離 2,000 km 内に無傷の国。P_ext は重い国の生き残りで重みづけ。</p>
+<h2 id="_3">結果</h2>
+<ul>
+<li>150 Tg（主 S4）：無傷の国は Argentina・Australia・Sri Lanka・Dominican Republic の 4 か国（世界人口の 1.4 %）。重い国 97、その生き残り 1.89 億人。2,000 km 内で圧力下はカリブ・Venezuela・Colombia の 7 か国だけで <strong>P_ext 0.080</strong>、c_C 0.141、<strong>F_heavy 1.941</strong>。</li>
+<li>距離の感度（150 Tg、6 表）：1,000 km で 0〜0.02、2,000 km で 0〜0.19、4,000 km で 0.31〜0.89、距離なしで 1.0。150 Tg 系の全版（表×家庭の廃棄×距離×閾値）で F_heavy <strong>1.930〜2.086</strong>。</li>
+<li>印パ 47 Tg（S4）：無傷の国に住む世界人口は 0.428（大きさ不問で 0.442）、重い国 38 の生き残りの P_ext は 0.75。27 Tg では 0.514。</li>
+</ul>
+<h2 id="_4">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H148a 150 Tg の P_ext（2,000 km）&lt; 0.5</td>
+<td>0.080</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H148b 無傷の国の重心はすべて北緯 30 度より南</td>
+<td>最北は Dominican Republic 18.7°</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H148c 150 Tg の F_heavy &lt; 2.0</td>
+<td>1.941</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H148d 47 Tg で無傷の国に住む割合 ≥ 0.5</td>
+<td>0.428</td>
+<td>棄却</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">逸脱</h2>
+<ul>
+<li>主の表の規則「50 億人超に合う表」は 6 表すべてが満たしたため、最大で本文の見出しの条件（交易なし・家畜継続）の S4 を主にした（他は感度で併記）。</li>
+</ul>
+<h2 id="_6">批判的検討</h2>
+<ul>
+<li>結論は距離の仮定でほぼ決まる。135 の征服の例（Spain→Inca・Aztec、Germany→Herero）は海を越えた数千〜1 万 km の遠征で、2,000 km の線は史実の征服者には短すぎる【推測】。距離なしなら P=1 で F_heavy 2.086（135 の「圧力あり」に一致）。H148a・c の支持は 2,000 km の選択に依存し、4,000 km の S8・S9（交易あり）では P 0.87〜0.89 で逆になる。</li>
+<li>無傷の国の能力は小さい：4 か国で 9,400 万人。史実の征服者は技術の差が大きかったが、核の冬の後の Argentina・Australia が遠征の余力を持つかは資料がない。逆に Xia は難民が無傷の国へ流れると書いており、圧力の向きが逆（無傷の国が圧力を受ける）になる可能性がある。</li>
+<li>構造の問題【独自仮説】：無傷の国が計算機の使える社会（T3）を保つなら、032 の分類では「重い崩壊」ではなく T3 保持に入る。模型の F_heavy が意味を持つのは T3 が世界に残らない標本なので、P_ext は「T3 を失うが組織だけは残る国」の割合で測るべきで、本回の値は上限寄り。</li>
+<li>47 Tg で無傷の国に住むのは 43 %：地域の核戦争は世界の大半が重い崩壊には入らない（032 の NUC_R の 93 % が T3 保持と整合）。</li>
+<li>内の圧力（生き残りどうしの内戦・略奪）は測っていない。</li>
+</ul>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は NUC_G の F_heavy を 1.94（近隣の圧力のみ）〜2.09（遠征あり）の幅で示し、主の値の決定は「核の冬の後に遠征の能力が残るか」と「無傷の国が T3 を保つか」に移す。D2rz の推しは不変（F_heavy の幅の中で順位は動かない：134 の全版で D2rz ≥ D1 ≥ D4）。</p><footer><hr><small>自動生成</small></footer></body></html>

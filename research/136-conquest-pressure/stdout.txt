@@ -1,0 +1,17 @@
+main {'n_intact': 4, 'n_heavy': 97, 'heavy_survivors_M': 188.6, 'Pext': 0.08006362672322373, 'cC': 0.1406802757158006, 'F_heavy': 1.9412007885784013, 'share_pop_intact': 0.013969315264760312}
+intact [('Argentina', 40.4, 0.03, -38.4), ('Australia', 22.4, 0.0, -25.3), ('Sri Lanka', 20.8, 0.197, 7.9), ('Dominican Republic', 10.0, 0.24, 18.7)]
+pressured ['Antigua and Barbuda', 'Bermuda', 'Colombia', 'Grenada', 'Saint Kitts and Nevis', 'Trinidad and Tobago', 'Venezuela']
+
+150Tg main thresholds, by table x D:
+S4 [(1000, 0.0), (2000, 0.08), (4000, 0.467), (None, 1.0)]
+S5 [(1000, 0.0), (2000, 0.08), (4000, 0.479), (None, 1.0)]
+S6 [(1000, 0.0), (2000, 0.0), (4000, 0.312), (None, 1.0)]
+S7 [(1000, 0.012), (2000, 0.07), (4000, 0.579), (None, 1.0)]
+S8 [(1000, 0.019), (2000, 0.169), (4000, 0.866), (None, 1.0)]
+S9 [(1000, 0.018), (2000, 0.193), (4000, 0.894), (None, 1.0)]
+47 share_pop_intact 0.428 any size 0.442 Pext 0.749 nheavy 38
+37 share_pop_intact 0.458 any size 0.473 Pext 0.911 nheavy 32
+27 share_pop_intact 0.514 any size 0.531 Pext 0.099 nheavy 21
+
+hyp {"H148a": {"val": 0.08006362672322373, "ok": true}, "H148b": {"val": [["Argentina", -38.4], ["Australia", -25.3], ["Sri Lanka", 7.9], ["Dominican Republic", 18.7]], "ok": true}, "H148c": {"val": 1.9412007885784013, "ok": true}, "H148d": {"val": 0.42755656378723655, "ok": false}}
+range150 {'Pext': [0.0, 0.9856250000000001], 'F': [1.9303354467896066, 2.086344133825101]}
