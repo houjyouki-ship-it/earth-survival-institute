@@ -1,0 +1,94 @@
+{{short description|Type of paper used for preservation}}
+{{Redirect|♾|the infinity symbol|∞}}
+[[Image:Perennial symbol.svg|thumb|The acid-free-paper symbol;<br />{{unichar|267E|Permanent paper sign|html=}}]]
+
+'''Acid-free paper''' is [[paper]] that, if infused in water, yields a neutral or [[basic (chemistry)|basic]] [[pH]] (7 or slightly greater). It can be made from any [[cellulose fiber]] as long as the active acid pulp is eliminated during processing. Acid-free paper addresses part of the problem of [[Preservation (library and archival science)|preserving documents]] and [[Conservation (cultural heritage)|preserving artwork]] for long periods. '''Archival paper''' has a more exacting specification and is expected to last even longer.
+
+== Overview ==
+[[File:Acid paper damage.jpg|thumb|Paper showing acid damage from the cardboard box in which it was stored]]
+Paper made from wood-based pulp that has not had its [[lignin]] removed succumbs to [[slow fire]]: it turns yellow, becomes brittle and deteriorates.<ref>Teygeler, R. (2004). Preserving paper: Recent advances. In J. Feather. (Ed.),'' Managing preservation for libraries and archives: Current practice and future development.''  90. Burlington: Ashgate. {{ISBN|0-7546-0705-4}}</ref> When exposed to light and/or heat, the molecules in the acidic paper will break down faster.<ref>Arnold, B.R. (2002). [http://cool.conservation-us.org/byauth/arnold/astm-aging-research/index.html ASTM's Paper Aging Research Program]. Retrieved November 4, 2007, [https://web.archive.org/web/20011223104404/http://palimpsest.stanford.edu/byauth/arnold/astm-aging-research/ archive 2001-12-23]/</ref> Acidic [[wood-pulp paper]] became commonplace in the late 19th century, and in the 1930s, [[William Barrow (chemist)|William Barrow]] (a chemist and librarian) published a report about the deterioration of acidic paper in the libraries.<ref>Cedzova, M. et al. (2006). Patents for Paper Deacidification. ''Restaurator: International Journal for the Preservation of Library and Archival Material,'' 27, 35.</ref> For fear of the gradual disintegration of written materials, measures have since been taken to improve the quality of paper.
+
+During production, acid-free paper may be treated with a mild base (usually calcium or magnesium [[bicarbonate]]) to neutralize the natural [[acid]]s occurring in [[wood pulp]], and it may also be [[buffer (chemistry)|buffered]] to prevent the formation of additional acids (as may develop from the application of [[sizing]]).
+
+The bicarbonate is added in excess, to supply the paper with an [[alkaline]] reserve to provide protection from further attack by acids remaining in the paper or supplied by the environment (e.g. atmospheric [[sulfur dioxide]]).<ref name=niso1992 /> The bicarbonate during drying loses [[carbon dioxide]] and water and is converted to [[calcium carbonate]] or [[magnesium carbonate]].  For paper to last at least 100 years it must have an alkaline reserve of 2 percent or more.<ref>Teygeler, R. (2004). Preserving paper: Recent advances. In J. Feather. (Ed.), ''Managing preservation for libraries and archives: Current practice and future development.'' 89. Burlington: Ashgate. {{ISBN|0-7546-0705-4}}</ref>
+
+Much commercially produced paper is acid-free but this is largely the result of a shift from [[kaolin clay]] to precipitated calcium carbonate (PCC) as the main filler material in the pulp.<ref>Dahlo, R. (2000). The Rationale of permanent Paper. In W. Manning & V. Kremp (Eds.), ''IFLA Publications 91: A Reader in preservation and conservation.'' 59. Munchen: K. G. Saur. {{ISBN|3-598-21817-6}}.</ref> PCC reacts with acids and requires the pulp to be chemically neutral or alkaline. The [[sizing]] additives mixed into the pulp and/or applied to the surface of the paper must also be acid-free.
+
+Alkaline paper has a life expectancy of over 1,000 years for the best paper and 500 years for average grades.<ref>ASTM D 3290-00, "Standard Specification for Bond and Ledger Papers for Permanent Records", section 3.2.3.2 and Appendix X1</ref> The making of alkaline paper has several other advantages in addition to the preservation benefits afforded to the publications and documents printed on it. Because there are fewer corrosive chemicals used in making alkaline paper, the process is much easier on the machinery, reducing downtime and maintenance and extending machines' useful life. The process is also significantly more environmentally friendly. Waste water and byproducts of the paper making process can be recycled; energy can be saved in the drying and refining process; and alkaline paper can be more easily recycled.<ref>Lundeen, G.W. (1983) Preservation of paper based materials: Present and future research and developments in the paper industry. In K.L. Henderson and W.T. Henderson (eds) ''Conserving and preserving library materials (Papers presented at the Allerton Park Institute November 15–18, 1981)'': 73-88. Retrieved from http://hdl.handle.net/2142/459
+</ref>
+
+==Standards==
+{{globalize|section|date=December 2010}}
+
+=== Permanent paper ===
+
+The company [[Hercules Inc.|Hercules Incorporated]] developed the first alkaline sizing in the 1950s that made acid-free paper possible.<ref>{{cite journal
+|url=https://www.ideals.illinois.edu/items/482
+|title=Preservation of paper based materials: Present and future research and developments in the paper industry
+|publisher=www.ideals.illinois.edu
+|author=Gerald W. Lundeen
+|journal=Allerton Park Institute (27th : 1981)
+|date=1983
+|access-date=2009-06-25
+}}</ref> Despite the advances in paper making and the identification of and concern around the brittle book problem, it took decades before the adoption of [[ANSI]] [[NISO]] Standard Z39.48-1984 - ''Permanence of Paper for Publications and Documents in Libraries'' in 1984. This voluntary standard covered pH value, tear resistance, alkaline reserve, and lignin thresholds for paper to last thousands of years and was developed to encourage the use of acid-free paper in library materials.<ref name=niso1992>{{cite web|url=http://www.niso.org/standards/resources/Z39-48-1992R2002.pdf|title=ANSI NISO Standard Z39.48-1992R2002|access-date=2007-12-10|archive-url=https://web.archive.org/web/20080310074426/http://www.niso.org/standards/resources/Z39-48-1992R2002.pdf|archive-date=2008-03-10|url-status=dead}}</ref> The development of the initial standard was a result of the work of the Council on Library Resources, which effectively lobbied ANSI to adopt the guidelines.<ref>Ward Brown, J. (May 1985). The Once and Future Book: The Preservation Crisis. Wilson Library Bulletin, 59, 591-6.</ref>
+
+In 1986, Standards Committee II of [[NISO]] was established to expand Z39.48-1984 to develop standards for [[coated paper]], and was again called upon in 1988 to review and revise the standards for uncoated paper.
+
+There are various standards for "acid-free" paper, with differing requirements. In some quarters, slightly-acidic paper having a pH between 6 and 7 is often also considered "acid-free".{{explain|date=May 2012}} Acid-free (alkaline) paper that additionally is ''uncoated'' and meets certain ''standards for folding and tearing'' is authorized by the [[American National Standards Institute]] (ANSI) to carry the following notice: "The paper used in this publication meets the minimum requirements of the American National Standard for Information Sciences—Permanence of Paper for Printed Library Materials, ANSI/NISO Z39.48-1992."
+
+The objective of ANSI Z39.48-1992 "<ref>[https://groups.niso.org/apps/group_public/download.php/13464/Z39-48-1992_r2009.pdf ANSI/NISO Z39.48-1992 (R2009) Permanence of Paper for Publications and Documents in Libraries and Archives] {{ISSN|1041-5653}}</ref> is to establish criteria for coated and uncoated paper to last several hundred years" under optimal conditions in libraries and archives.<ref>{{cite web
+|url=http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI%2FNISO+Z39.48-1992+(R2002)
+|author=American National Standards Institute
+|title=Permanence of paper for publications and documents in libraries and archives
+|date=October 26, 1992
+|publisher=NISO Press
+|access-date=2009-06-24
+}}</ref> The desired outcome of the standard is to reduce future preservation problems.
+
+The scope of the standard is to cover publications and documents bought and maintained by libraries and archives. Such works include scholarly journals, periodicals, monographs, government documents, original documents, and significant works in fiction and non-fiction.
+
+An equivalent international standard, ISO 9706, was published in 1994.<ref name=iso9706>Information and documentation – Paper for documents – Requirements for permanence. International Standard ISO 9706:1994, [[International Organization for Standardization]], Geneva.</ref>
+
+Manufacturers of acid-free paper can indicate the compliance of their product with the test requirements of the ISO 9706 or ANSI Z39.48-1992 standards using a circled [[infinity symbol]] (Unicode code point 267E, ♾).<ref name=iso9706/><ref>{{cite web|url=http://www.chicagomanualofstyle.org/ch01/ch01_sec035.html|title=The Chicago Manual of Style, 17th Edition|website=The Chicago Manual of Style Online}}</ref>
+
+=== Archival paper ===
+
+'''Archival paper''' is an especially long-life, durable acid-free paper.  Archival paper is meant to be used for publications of high legal, historical, or significant value. In the USA, such paper must also be approved in accordance with the ANSI standards.<ref>{{cite web
+|url=http://archive.ifla.org/IV/ifla64/115-114e.htm
+|title=Standards for Permanent Paper
+|work=64th IFLA General Conference - Conference Programme and Proceedings
+|publisher=archive.ifla.org
+|author=Ivar A. L. Hoel
+|access-date=2009-06-24
+}}</ref> The international standard for "permanent" paper is ISO 9706 and for "archival" paper, the standard is ISO 11108.<ref>Dahlo, R. (2000).  The Rationale of permanent Paper. In W. Manning & V. Kremp (Eds.), ''IFLA Publications 91: A Reader in preservation and conservation.'' 58. Munchen: K. G. Saur. {{ISBN|3-598-21817-6}}.</ref>
+
+Often, [[cotton paper|cotton rag]] paper is used for archival purposes, as it is not made from wood-based pulp. Thus, "archival paper" is sometimes broken down into two categories:{{Citation needed|date=May 2020}}
+* '''Conservation-grade'''—acid-free, buffered paper made from wood-based pulp.
+* '''Archival-grade''' (also Museum-grade)—cotton rag paper made from cotton pulp.
+
+==Deacidification==
+The [[mass deacidification]] of collections is spreading in many large heritage institutions around the world.<ref>{{cite |title=La désacidification de masse des documents|url=https://www.culture.gouv.fr/Media/Medias-creation-rapide/Desacidification-de-masse.pdf|format=pdf|pages=11}}</ref>
+
+==See also==
+* {{Annotated link |Acidic paper}}
+* {{Annotated link |Paper chemicals}}
+* {{Annotated link |Preservation (library and archival science)}}
+* {{Annotated link |Print permanence}}
+* {{Annotated link |United States Permanent Paper Law}}
+* {{Annotated link |Vellum}}
+
+==References==
+{{Reflist|2}}
+
+==External links==
+* {{Commons category-inline}}
+* [[ASTM]] D1994-07 Standard Test Method for Determination of Acid Numbers of Hot-Melt Adhesives
+* National Archives of Australia:  [http://www.naa.gov.au/services/family-historians/looking-after/about-paper.aspx descriptions of permanent and archival paper];  archival quality [http://www.naa.gov.au/records-management/secure-and-store/physical-preservation/quality-trademark/index.aspx trademark] and [http://www.naa.gov.au/records-management/secure-and-store/physical-preservation/quality-trademark/register.aspx register of certified products]
+{{Authority control}}
+{{Paper}}
+
+{{DEFAULTSORT:Acid-Free Paper}}
+[[Category:Printing and writing paper]]
+[[Category:Paper]]
+[[Category:Paper products]]
+[[Category:Product certification]]

@@ -1,0 +1,119 @@
+{{Short description|Write-once optical disc technology}}
+{{Infobox storage medium
+| title = 
+| name = M-DISC (Millennial Disc)
+| logo = Logo of M-DISC.svg
+| logo_size = 120px
+| type = [[Write once read many|Write-once]] [[optical disc]]
+| encoding = [[Universal Disk Format]] (UDF)
+| standard = [[DVD]], [[Blu-ray]], [[Blu-ray BDXL]]
+| owner = Millenniata, Inc.
+| manufacturer = Millenniata, Verbatim, Ritek
+| dimensions = Diameter: 120 mm (4.7 in)
+| use = [[Media preservation|Archival storage]]
+| extended from = [[DVD+R]], [[BD-R]], [[BD-R DL]], [[BDXL-R TL]]
+| released = 2009
+}}
+{{optical disc authoring}}
+
+'''M-DISC''' ('''Millennial Disc''') is a [[Write once read many|write-once]] [[Optical disc recording technologies|optical disc technology]] introduced in 2009 by Millenniata, Inc.<ref>{{Cite news |last=Wright |first=Randy |date=July 17, 2009 |title=Springville company introduces new DVD to protect data for a thousand years or more |pages=1 |work=Daily Herald |url=http://www.heraldextra.com/news/local/article_b25c9a30-7242-11de-9feb-001cc4c03286.html |access-date=October 18, 2022 |archive-url=https://web.archive.org/web/20120704112223/http://www.heraldextra.com/news/local/article_b25c9a30-7242-11de-9feb-001cc4c03286.html |archive-date=2012-07-04}}</ref> and available as [[DVD]] and [[Blu-ray]] discs.<ref>{{Cite web |title=New 1,000-Year DVD Disc Writes Data in Stone, Literally |url=https://www.pcmag.com/archive/new-1000-year-dvd-disc-writes-data-in-stone-literally-286353 |access-date=2022-10-18 |website=PCMAG |language=en}}</ref>
+
+== Overview ==
+M-DISC's design is intended to provide [[Media preservation|archival media longevity]].<ref>{{Cite journal |last=Svrcek |first=Ivan |date=November 10, 2009 |title=Accelerated Life Cycle Comparison of Millenniata Archival DVD |url=https://www.esystor.com/images/China_Lake_Full_Report.pdf |journal=Life Cycle and Environmental Engineering Branch |volume=1 |issue=1 |pages=1–75}}</ref><ref>{{Cite news |last=Maltz |first=Andy |date=February 21, 2014 |title=WILL TODAY'S DIGITAL MOVIES EXIST IN 100 YEARS? |pages=1 |work=IEEE Spectrum |url=https://spectrum.ieee.org/will-todays-digital-movies-exist-in-100-years |access-date=October 18, 2022}}</ref> M-Disc claims that properly stored M-DISC DVD recordings will last up to 1000 years.<ref>{{Cite web |date=2018-08-16 |title=MDISC Archive Service |url=http://www.mdisc.com/ |archive-url=https://web.archive.org/web/20180816032100/http://www.mdisc.com/ |archive-date=2018-08-16 |access-date=2022-10-18}}</ref> The M-DISC DVD looks like a standard disc, except it is almost transparent with later DVD and BD-R M-Disks having standard and [[Inkjet printing|inkjet]] printable labels.
+[[File:M-disc-comparison-blank-vs-written.jpg|thumb|317x317px|On the left is an 25GB BD-R M-disc written with information, on the right is an unwritten, blank 25GB BD-R M-disc. These discs have been discontinued, and the M-Disc currently available has a darker tint as shown in the below image.]]
+[[File:M-disc-comparison.png|thumb|upright|On the top is a 25GB Verbatim BD-R M-DISC currently sold on the market (media ID: VERBAT-IMe, MABL-based), and on the bottom is a discontinued 25GB Verbatim BD-R M-DISC (media ID: MILLEN-MR1) available prior to 2022. Both discs have been written with information.]]
+The patents protecting the M-DISC technology assert that the data layer is a [[glassy carbon]] material that is substantially inert to [[Redox|oxidation]] and has a [[melting point]] of {{Convert|200-1000|C|F|abbr=on|comma=off}}.<ref>{{Cite patent|number=US8389095B2|title=Optical data storage media containing substantially inert low melting temperature data layer|gdate=2013-03-05|invent1=Allred|invent2=Bard|invent3=Davis|invent4=Hansen|inventor1-first=David E.|inventor2-first=Erik C.|inventor3-first=Robert C.|inventor4-first=Douglas P.|url=https://patents.google.com/patent/US8389095/en}}</ref><ref>{{Cite patent|number=US7613869B2|title=Long-term digital data storage|gdate=2009-11-03|invent1=Lunt|invent2=Linford|inventor1-first=Barry M.|inventor2-first=Matthew R.|url=https://patents.google.com/patent/US7613869/en}}</ref><ref>{{Cite web |date=2014-08-21 |title=mDisc Review: A Thousand Years of Storage - Network Computing |url=http://www.networkcomputing.com/storage/mdisc-review-a-thousand-years-of-storage/d/d-id/1099593 |archive-url=https://web.archive.org/web/20140821055103/http://www.networkcomputing.com/storage/mdisc-review-a-thousand-years-of-storage/d/d-id/1099593 |archive-date=2014-08-21 |access-date=2022-10-18}}</ref>
+
+M-Discs are readable by most regular DVD players made after 2005 and [[Blu-ray|Blu-Ray]] and [[BDXL]] disc drives and writable by most made after 2011.<ref name="RITEK">{{Cite web |title=RITEK M-DISC BD DVD |url=http://www.ridata.com/M-DISC/eng/p5-faq.asp |access-date=2022-10-18 |website=www.ridata.com}}</ref>
+
+Available recording capacities conform to standard DVD/Blu-ray sizes: 4.7&nbsp;GB [[DVD+R]] to 25&nbsp;GB [[BD-R]], 50&nbsp;GB [[BD-R]] and 100&nbsp;GB [[BD-XL|BDXL]].
+
+== History ==
+M-DISC developer Millenniata, Inc. was co-founded by [[Brigham Young University]] professors Barry Lunt, [[Matthew Linford]], [[CEO]] Henry O'Connell and [[Chief technology officer|CTO]] Doug Hansen.<ref>{{Cite web |title=Barry Lunt Website |url=http://it.et.byu.edu/faculty/barry-lunt |url-status=dead |archive-url=https://web.archive.org/web/20131016020629/http://it.et.byu.edu/faculty/barry-lunt |archive-date=2013-10-16 |access-date=2012-10-12}}</ref><ref>{{Cite web |title=Matthew Linford Website |url=http://www.chem.byu.edu/faculty/matthew-r-linford |url-status=dead |archive-url=https://web.archive.org/web/20180817055822/http://www.chem.byu.edu/faculty/matthew-r-linford/ |archive-date=2018-08-17 |access-date=2014-07-23}}</ref><ref>[http://www.storagevisions.com/2012/Book/Doug%20Hansen.pdf Douglas Hansen Biography] {{webarchive|url=https://web.archive.org/web/20120501054247/http://www.storagevisions.com/2012/Book/Doug%20Hansen.pdf|date=2012-05-01}}</ref> The company was incorporated on May 13, 2010, in [[American Fork, Utah]].<ref name="dhintro">[http://www.heraldextra.com/news/local/article_b25c9a30-7242-11de-9feb-001cc4c03286.html "Springville company introduces new DVD to protect data for a thousand years or more"]'' Daily Herald. Retrieved 17 July 2009.''</ref>
+
+Millenniata, Inc. officially went bankrupt in December 2016.  Under the direction of CEO Paul Brockbank, Millenniata had issued [[convertible debt]].  When the obligation for conversion was not satisfied, the company defaulted on the debt payment and the debt holders took possession of all of the company's assets. The debt holders subsequently started a new company, Yours.co, to sell M-DISCs and related services.{{Citation needed|date=January 2025}}
+
+As of the 2020s, there are only 2 licensed manufacturers of M-Discs: [[Ritek]], sold under the Ritek and RiDATA brands, and [[Verbatim (brand)|Verbatim]] with co-branded discs, marketed as the "Verbatim M-DISC".<ref>{{Cite web |date=2013-09-15 |title=Millenniata Archiving Blu-ray M-Disc Available in Spring 2013 |url=http://www.storagenewsletter.com/news/optical/millenniata-blu-ray-m-disc |archive-url=https://web.archive.org/web/20130915023555/http://www.storagenewsletter.com/news/optical/millenniata-blu-ray-m-disc |archive-date=2013-09-15 |access-date=2022-10-18}}</ref><ref>{{Cite web |date=2014-03-25 |title=M-Disc™ Ready » The M-DISC™ |url=http://www.mdisc.com/m-ready/ |archive-url=https://web.archive.org/web/20140325203319/http://www.mdisc.com/m-ready/ |archive-date=2014-03-25 |access-date=2022-10-18}}</ref>
+
+128&nbsp;GB [[BD-XL|BDXL]] never made it to market due to the 2016 bankruptcy.{{clarify|date=November 2024}}{{cn|date=November 2024}}
+
+Early in 2022, Verbatim changed the formulation of their M-DISC branded Blu-rays. These new discs could be written at a faster rate than the previous ones – 6× speed instead of 4×. The new discs also had different colouration and markings compared with older version. Later in the year customers accused Verbatim of selling an inferior product and deceptive marketing.<ref>{{cite web |title=Verbatim M-Discs werden nicht als solche erkannt |url=https://www.computerbase.de/forum/threads/verbatim-m-discs-werden-nicht-als-solche-erkannt.2097388/ |website=[[ComputerBase]] |date=8 August 2022 |access-date=27 October 2023|lang=de}}</ref> Verbatim responded that the new discs were a further development of the older discs and should have the same longevity, and that the technical changes therein were responsible for the altered appearance and higher write speeds.<ref>{{cite news |title=Langzeitarchivierung: Verwirrung um die M-Disc |url=https://www.heise.de/news/Langzeitarchivierung-Verwirrung-um-die-M-Disc-7349953.html |access-date=27 October 2023 |work=c't – Magazin für Computertechnik |publisher=Heise Gruppe |date=2022-11-22|lang=de}}</ref> The updated M-DISC currently sold on the market uses the same metal ablative layer (MABL) metal oxide inorganic recording layer used in many of Verbatim's regular Blu-ray products.<ref name=":1">{{Cite web |title=M-DISC - Verbatim Japan（バーベイタムジャパン） |url=https://www.verbatim.jp/products_mdisc.html |access-date=2025-01-24 |website=www.verbatim.jp}}</ref>
+
+== Durability claims ==
+The original M-DISC DVD+R was tested according to ISO/IEC 10995:2011<ref>{{Cite web |title=ISO/IEC 10995:2011 Information technology — Digitally recorded media for information interchange and storage — Test method for the estimation of the archival lifetime of optical media|url=https://www.iso.org/standard/56910.html |access-date=2022-12-06 |website=ISO |language=en}}</ref> and [https://www.ecma-international.org/wp-content/uploads/ECMA-379_3rd_edition_june_2010.pdf ECMA-379] with a projected rated lifespan of several hundred years in archival use.<ref>{{Cite web |last=Millenniata, Inc. |date=June 3, 2013 |title=Summary Report of ISO/IEC 10995 Test Program Performed by Millenniata on M-DISC™ DVD |url=https://www.verbatim.jp/download/products/mdisc/M-DISC_1sheet_Test_Summary.pdf |access-date=January 24, 2025 |website=Verbatim Japan}}</ref>
+
+The glassy carbon layers, in theory if preserved correctly in an environment like a salt mine, could store the data for over 10,000 years before going outside of readable specifications. However, the [[Polycarbonate|polycarbonate plastics]], which are commonly used by almost all optical media and heavily in [[CBRN defense|CBRN]] and [[Ballistic shield|ballistic]] protective equipment due to their optical, physical impact and chemical resistant properties, have a lifespan rating of only around 1000 years before degradation.{{Citation needed|date=December 2024}}
+
+Verbatim Japan claims that M-DISCs now use a titanium layer to prevent moisture ingression and to provide environmental stability.<ref name=":1" /> M-DISCs sold in Japan are advertised to have a projected lifespan of 100 years or more based on internal ISO/IEC 16963 testing,<ref name=":1" /> while other regional Verbatim websites claim that M-DISCs have a projected lifespan of "several hundred years" based on ISO/IEC 16963 testing.<ref>{{Cite web |title=M DISC - Optical Media {{!}} Verbatim |url=https://www.verbatim.com/subcat/optical-media/m-disc/ |access-date=2025-01-24 |website=www.verbatim.com}}</ref>
+
+== Durability testing ==
+In 2009, testing was done by the US Department of Defense ([[United States Department of Defense|DoD]]) producing the China Lake Report<ref>{{Cite web |last=Ivan Svrcek |url=http://archive.org/details/millenniata-archival-dvd-m-disk-china-lake-full-report-november-10-2009 |title=Millenniata Archival DVD (M-Disk) China Lake Full Report November 10 2009 |website=archive.org|date=2009}}</ref> testing Millenniata's M-Disk DVD to current market offerings from Delkin, MAM-A, [[Mitsubishi]], [[Taiyo Yuden]] and [[Verbatim (brand)|Verbatim]] with all brands using organic dyes failing to pass the series of accelerated aging tests.
+
+From 2010 to 2012, the French National Laboratory of Metrology and Testing ([[Laboratoire national de métrologie et d'essais|LNE]]) used high-temperature [[accelerated aging]] testing,<ref name=":0">{{Cite web |last=Jacques Perdereau |url=http://archive.org/details/lne-syylex-glass-dvd-accelerated-aging-report |title=LNE Syylex Glass DVD Accelerated Aging Report |website=archive.org|date=2012}}</ref> at {{convert|90|C|F}} and 85% relative humidity inside a CLIMATS Excal 5423-U, for 250 to 1000 hours with a mix of inorganic DVD+R discs from MPO, Verbatim, [[Maxell]], Syylex and DataTresor. The summary of the tests states that Syylex Glass Master Disc was rated for 1000+ hours, DataTresor Disc 250 hours+ and M-Disk under 250 hours.  The Syylex disc was a custom-ordered product that could not be burned in a consumer player when they were still purchaseable from Syylex before their bankruptcy, so it was not truly in the same category as the others.  
+
+In 2016, a consumer Mol Smith<ref>{{Cite web |date=2022-08-28 |title=Micscape Microscopy and Microscope Magazine |url=http://www.microscopy-uk.org.uk/mag/indexmag.html?http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html |access-date=2022-12-05 |archive-url=https://web.archive.org/web/20220828091742/http://www.microscopy-uk.org.uk/mag/indexmag.html?http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html |archive-date=2022-08-28|website=www.microscopy-uk.org.uk}}</ref>{{Unreliable source?|reason=The ability of a video bluray to play vs data being identical to the original aren't the same thing, as players are tolerant of minor bitstream errors and playback slow enough that multiple re-read attempts can occur.  Also, the sandwiched organic dye layer on regular discs tends to be exposed on the edges so fluid exposure at the edge can quickly wreck it and the adhesion of the backing, throwing it in the sink for a while would have likely caused the same issues.|date=March 2024}} did real world [[stress testing]] on the 25 GB BD-R M-Disc alongside TDK's standard BD-R 25 GB disc using a copied movie, which demonstrated the reliability of M-Disc's molding compared to standard discs; after 60 days of outdoor direct exposure the M-Disk was played without error, while the TDK disc was physically destroyed.
+
+In 2022, the [[National Institute of Standards and Technology|NIST]] Interagency Report NIST IR 8387<ref>{{Cite web |url=http://archive.org/details/nist-ir-8387 |title=NIST Interagency Report NIST IR 8387 Digital Evidence Preservation |website=archive.org|date=2022|page=12}}</ref> listed the M-Disc as an acceptable archival format rated for 100+ years, citing the aforementioned 2009 and 2012 tests by the US Department of Defense and French National Laboratory of Metrology and Testing as sources.
+
+== Commercial support ==
+While recorded discs are readable in conventional DVD and BD drives, M-disc DVDs can only be burned by drives with firmware that supports the slightly higher power mode that M-Disk requires for burning its inorganic layers, as such writing speed is typically 2× speed.
+
+Blu-ray M-discs can be both written and read in most standard Blu-ray drives and are certified by the Blu-ray Disc Association to meet all current standard specifications as of 2019.<ref>{{cite web|url=https://www.mdisc.com/drive-compatibility.html|title=Drive Compatibility|publisher=M-DISC|access-date=September 14, 2026}}</ref>
+
+Typically, the M-Discs cost 1.5–3× the price of standard Blu-Ray discs with DVD M-Discs now having sparse availability.
+
+With the first-generation DVD M-DISCs, it was difficult to determine which was the writable side of the disc due to being near fully translucent, until coloring and later labels similar to that on standard DVD discs was added to discs to help distinguish the sides preventing user error.
+
+[[Asus]], [[LG Electronics]], [[Lite-On]], [[Pioneer Corporation|Pioneer]], [[Melco|Buffalo Technology]], and [[Hitachi-LG Data Storage|Hitachi-LG]] produce drives that can record M-DISC media while Verbatim and Ritek produce M-DISC discs.
+
+== Adoption ==
+The regional government of the U.S. state of Utah has used M-Disc since 2011.<ref>{{Cite web |website=State of Utah Division of Purchasing |date=2011 |title=Notice of Proposed Sole Source Procurement |url=https://www.esystor.com/images/Notice_of_Proposed_Sole_Source_Procurement.pdf |url-status=live |archive-url=https://web.archive.org/web/20121029020414/https://www.esystor.com/images/Notice_of_Proposed_Sole_Source_Procurement.pdf |archive-date=2012-10-29}}</ref>
+
+Some consumers and avid [[Digital hoarding|datahoarders]] have adopted the format for cold digital data storage.<ref>{{cite web |url=https://old.reddit.com/r/DataHoarder/comments/zv1nte/mdisc_is_really_underrated/ |title=M-Disc is really underrated |last=x0y0z0 |date=2022-12-25 |website=[[Reddit]] |access-date=2024-03-23}}</ref><!-- WP:SELFSOURCE exception to cite Reddit -->
+
+== Alternative technologies ==
+
+=== Optical ===
+{{See also|5D optical data storage|Write Once Read Forever}}
+Syylex Glass Master Disc:<ref name="Blu-Ray 25GB and Blu-Ray 50GB - Fabricated on demand at the cost of €1000"<ref>{{Cite web |title=Glass Master Blu-Ray Discs |url=https://hofa-shop.com/erp/shop__blu-ray__11111::324::337::346::354::360 |archive-url=https://web.archive.org/web/20211127052014/https://hofa-shop.com/erp/shop__blu-ray__11111::324::337::346::354::360 |archive-date=2021-11-27 |access-date=2022-12-06 |website=hofa-shop.com}}</ref> these discs use etched glass and are only typically degradable by physical or chemical damage, but not by normal ageing inside an archival environment.
+
+Current BD 25&nbsp;GB, BD-R DL 50&nbsp;GB & BDXL 100&nbsp;GB (three layer) and Sony's BDXL 128&nbsp;GB (four layer) discs are rated for up to 50 years (Standard inorganic HTL discs).{{Citation needed|date=January 2025}}
+
+[[Sony]]'s [[Optical Disc Archive]], is an optical competitor to the [[Linear Tape-Open|LTO]] tape-based data storage system, currently with up to 5.5&nbsp;TB cartridges of dual-sided 120mm discs, with desktop readers and automated [[19-inch rack|rackmount standard]] archival systems allowing for large scale archival and data retrieval<ref>{{Cite web |title=PetaSite Scalable Solutions - Sony Pro |url=https://pro.sony/en_GB/products/optical-disc/petasite-solutions |access-date=2022-12-04 |website=pro.sony |language=en}}</ref> rated for an estimated 100+ years.
+
+[[Pioneer DM for Archive]] is a disc media and drive combination developed by Pioneer to meet the requirements laid out by the Japanese government for preservation of financial data for a minimum of 100 years.<ref>{{Cite web |title=These Blu-Ray Discs Are Guaranteed to Last 100 Years - Toms Hardware |url=https://www.tomshardware.com/news/pioneer-new-blu-ray-recorder-and-bdr-promise-100-years-lifespan |access-date=2025-01-15 |website=tomshardware.com |language=en}}</ref>  The discs use a MABL type recording layer and are manufactured with tight tolerances.  Although burnable in any BD Writer, when burned in Pioneers DM for Archive writers using the DM Archiver software the media and burn quality meet ISO/IEC 18630 which defines the testing methods needed for ensuring media and burn quality.<ref>{{Cite web |title=What's DM（Defect Management）for Archive ? - Pioneer |url=https://global.pioneer/en/pcperipherals/bdd/dma/us/ |access-date=2025-01-15 |website=global.pioneer |language=en}}</ref>
+
+=== Magnetic ===
+[[Linear Tape-Open]] (LTO) is rated for up to 30 years in a climate-controlled environment{{Cn|date=January 2025}} and is currently in use by most industries, including broadcast and corporate digital data systems. The latest generation released in 2026 is LTO-10, it defines two unique cartridge types which can hold 30 TB or 40 TB each
+
+[[Hard disk drive]]s<ref>{{Cite web |last=Jacobi |first=Jon |date=February 29, 2016 |title=Hard-core data preservation: The best media and methods for archiving your data |url=https://www.pcworld.com/article/423607/hard-core-data-preservation-the-best-media-and-methods-for-archiving-your-data.html |access-date=2022-10-24 |website=PCWorld |language=en}}</ref> are currently available up to 30&nbsp;TB (HDD) capacity in 3.5-inch format and 5 TB in 2.5-inch laptop format. However, unlike optical media, they are limited to 5–25 years of operation lifespan due to inevitable mechanical failure or magnetic instability.
+
+==Gallery==
+<gallery widths="200" heights="155">
+File:M-disc-03.jpg|M-DISC optical storage medium transparency demonstration
+File:M-disc-02.jpg|M-DISC (DVD) medium in an open case
+File:LG WH14NS40.jpg|The M-DISC "swirl" logo on an [[LG Electronics|LG]] [[Blu-ray]] optical drive
+File:Verbatim M-Disc BDXL 100GB In Frount of Jewel Case 2.jpg|A Verbatim M-Disc BDXL 100GB in front of the jewel case
+File:Verbatim M-Disc BDXL 100GB In Frount of Jewel Case 1.jpg|A Verbatim M-Disc BDXL 100GB in front of the jewel case
+File:Verbatim M-Disc BDXL.jpg|A Verbatim M-Disc BDXL 100GB
+</gallery>
+
+== Notes ==
+Accelerated thermal tests are only representative from a materials science perspective, this data is mostly used for manufacturing development. These discs would never pass 50&nbsp;°C in real-world situations as even basic burial archival depth of 1–2 meters would keep them below 20&nbsp;°C.<ref>{{Cite web |title=Soil temperature at 2m depth| url=https://renouvelable-habitat.fr/en/soil-temperature-at-2m-depth |access-date=2026-04-11 |website=renouvelable-habitat.fr |language=en}}</ref>
+* Ideal storage condition, e.g., 15&nbsp;°C and 10% RH
+* Controlled storage condition, e.g., 25&nbsp;°C and 50% RH, using the [[Eyring equation|Eyring model]]
+* Uncontrolled storage condition, e.g., 30&nbsp;°C and 80% RH, using the [[Arrhenius equation|Arrhenius model]]
+
+== References ==
+<references />
+
+== External links ==
+{{Commons category|Millennial Disc}}
+* {{Official website|https://www.mdisc.com/}}
+
+[[Category:Audiovisual introductions in 2009]]
+[[Category:Blu-ray Disc]]
+[[Category:Digital media]]
+[[Category:DVD]]
+[[Category:Rotating disc computer storage media]]
+[[Category:Optical computer storage media]]

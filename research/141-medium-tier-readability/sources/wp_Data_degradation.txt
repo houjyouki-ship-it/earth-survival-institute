@@ -1,0 +1,112 @@
+{{Short description|Accumulation of data corruption on a storage device over time}}
+{{Use dmy dates|date=February 2025}}
+{{Distinguish|Software rot}}
+{{Original research|date=April 2015}}
+
+'''Data degradation''' is the gradual [[Data corruption|corruption]] of [[Data (computing)|computer data]] due to an accumulation of non-critical failures in a [[data storage device]]. It is also referred to as '''data decay''', '''data rot''', '''digital decay''', or '''bit rot'''.<ref name="Rouse_2020"/> This results in a decline in data quality over time, even when the data is not being utilized. 
+
+==Manifestations==
+
+===Primary storages===
+Data degradation in [[dynamic random-access memory]] (DRAM) can occur when the [[electric charge]] of a [[bit]] in DRAM disperses, possibly altering program code or stored data. DRAM may be altered by [[cosmic ray]]s<ref>{{Cite web|url=https://www.lanl.gov/science/NSS/issue1_2012/story4full.shtml|title=The Invisible Neutron Threat {{!}} National Security Science Magazine|website=Los Alamos National Laboratory|access-date=2020-03-13}}</ref> or other high-energy particles. Such data degradation is known as a [[soft error]].<ref name="O'Gorman_1996"/> [[ECC memory]] can be used to mitigate this type of data degradation.<ref name="Normand_1996"/>
+
+===Secondary storages===
+Data degradation results from the gradual decay of [[storage media]] over the course of years or longer. Causes vary by medium.
+
+====Solid-state media====
+[[EPROM]]s, [[flash memory]] and other [[solid-state drive]] store data using electrical charges, which can slowly leak away due to imperfect [[Insulator (electricity)|insulation]]. Modern flash controller chips account for this leak by trying several lower threshold voltages (until [[Error correction code|ECC]] passes), prolonging the age of data. [[Multi-level cell]]s with much lower distance between voltage levels cannot be considered stable without this functionality.<ref name="Li_2022"/>
+
+The chip itself is not affected by this, so reprogramming it approximately once per decade prevents decay. An undamaged copy of the master data is required for the reprogramming. A [[checksum]] can be used to assure that the on-chip data is not yet damaged and ready for reprogramming.
+
+The typical SD card, USB stick and M.2 NVMe all have a limited endurance. Power on can usually recover data{{Citation Needed|date=January 2025}} but error rates will eventually degrade the media to illegibility. Writing zeros to a degraded NAND device can revive the storage to close to new condition for further use.{{Citation needed|date=February 2025}} Refresh cycles should be no longer than 6 months to  be sure the device is legible.
+
+====Magnetic media====
+[[Magnetic storage|Magnetic media]], such as [[hard disk drive]]s, [[floppy disk]]s and [[magnetic tape]]s, may experience data decay as bits lose their magnetic orientation. Higher temperature speeds up the rate of magnetic loss. As with solid-state media, re-writing is useful as long as the medium itself is not damaged (see below).<ref name="NAA"/> Modern hard drives use [[Giant magnetoresistance]] and have a higher magnetic lifespan on the order of decades. They also automatically correct any errors detected by ECC through rewriting. The reliance on a [[servowriter]] can complicate data recovery if it becomes unrecoverable, however.
+
+Floppy disks and tapes are poorly protected against ambient air. In warm/humid conditions, they are prone to the physical [[decomposition]] of the storage medium.<ref name="Riss_1993"/><ref name="NAA"/>
+
+====Optical media====
+[[Optical storage|Optical media]] such as [[CD-R]], [[DVD-R]] and [[BD-R]], may experience data decay from the [[disc rot|breakdown]] of the storage medium. This can be mitigated by storing discs in a dark, cool, low humidity location. "Archival quality" discs are available with an extended lifetime, but are still not permanent. However, [[Optical disc#Surface error scanning|data integrity scanning]] that measures the rates of various types of errors is able to predict data decay on optical media well ahead of uncorrectable data loss occurring.<ref name="qpx-g"/>
+
+Both the disc dye and the disc backing layer are potentially susceptible to breakdown. Early cyanine-based dyes used in CD-R were notorious for their lack of UV stability. Early CDs also suffered from [[CD bronzing]], and is related to a combination of bad lacquer material and failure of the aluminum reflection layer.<ref name="IASA_1997"/> Later discs use more stable dyes or forgo them for an inorganic mixture. The aluminum layer is also commonly swapped out for gold or silver alloy.
+
+====Paper media====
+[[Paper data storage|Paper media]], such as [[punched cards]] and [[punched tape]], may literally [[Decomposition|rot]]. [[Mylar]] punched tape is another approach that does not rely on electromagnetic stability. Degradation of [[books]] and [[Printing_and_writing_paper|printing paper]] is primarily driven by [[acid hydrolysis]] of [[glycosidic bonds]] within the [[cellulose]] molecule as well as by [[oxidation]];<ref name="Malachowska_2021"/> degradation of paper is accelerated by high [[relative humidity]], high temperature, as well as by exposure to acids, oxygen, light, and various pollutants, including various [[volatile organic compounds]] and [[nitrogen dioxide]].<ref name="Menart_2011"/>
+
+====Streaming media====
+Data degradation occurs in [[streaming media]] transmission, causing data quality issues.<ref name="Yu_2022"/>
+
+===Example===
+One manifestation of data degradation is when one or a few bits are randomly flipped over a long period.{{Sfn|Rosenthal|2010|p=50}} This is illustrated by several digital images below, all consisting of 326,272 bits. The original photo is displayed first. In the next image, a single bit was changed from 0 to 1. In the next two images, two and three bits were flipped. On [[Linux]] systems, the binary difference between files can be revealed using the {{code|cmp}} command (e.g. {{code|cmp -b bitrot-original.jpg bitrot-1bit-changed.jpg}}).
+
+<gallery>
+File:Bitrot in JPEG files, 0 bits flipped.jpg|0 bits flipped
+File:Bitrot in JPEG files, 1 bit flipped.jpg|1 bit flipped
+File:Bitrot in JPEG files, 2 bits flipped.jpg|2 bits flipped
+File:Bitrot in JPEG files, 3 bits flipped.jpg|3 bits flipped
+</gallery>
+
+The JPEG format does not store a bitwise image, but the parameters for decoding. Therefore, changing just one bit leads to noticeable changes. The coefficient of the encoding function changed, for example, several times if the bit was in one of the higher digits.{{cn|date=February 2026}}
+
+==Causes==
+This deterioration can be caused by a variety of factors that impact the reliability and integrity of digital information, including physical factors, [[software error]]s, security breaches, [[human error]], obsolete technology, and unauthorized access incidents.<ref name="ShengLance_2015"/><ref name="PCMag"/><ref name="Hakob_2023"/><ref name="Triches_2006"/>
+
+Most disk, [[disk controller]] and higher-level systems are subject to a slight chance of unrecoverable failure. With ever-growing disk capacities, file sizes, and increases in the amount of data stored on a disk, the likelihood of the occurrence of data decay and other forms of uncorrected and undetected [[data corruption]] increases.<ref>{{cite journal|last1=Gray |first1=Jim|last2=van Ingen|first2=Catharine|title=Empirical Measurements of Disk Failure Rates and Error Rates |journal=Microsoft Research Technical Report MSR-TR-2005-166|date=December 2005 |url=http://research.microsoft.com/pubs/64599/tr-2005-166.pdf|access-date=4 March 2013}}</ref>
+
+Low-level disk controllers typically employ [[error correction code]]s (ECC) to correct erroneous data.<ref>{{cite web |title=ECC and Spare Blocks help to keep Kingston SSD data protected from errors|url=https://www.kingston.com/en/ssd/data-protection |website=Kingston Technology Company|access-date=30 March 2021}}</ref>
+
+Higher-level software systems may be employed to mitigate the risk of such underlying failures by increasing redundancy and implementing integrity checking, error correction codes and self-repairing algorithms.<ref name="Salter_2014"/> The [[ZFS]] [[file system]] was designed to address many of these data corruption issues.<ref name="Bonwick_2009"/> The [[Btrfs]] file system also includes data protection and recovery mechanisms,<ref>{{cite web|author=<!--wiki-->|title=btrfs Wiki: Features|publisher=The btrfs Project | url = https://btrfs.wiki.kernel.org/index.php/Main_Page#Features | access-date = 19 September 2013}}</ref>{{Better source needed|date=February 2025}} as does [[ReFS]].<ref name="Wlodarz_2014"/>
+
+==Mitigation==
+There is no solution that completely eliminates the threat of data degradation,{{Sfn|Rosenthal|2010|p=47}} but various measures exist that can stave it off. One of these is to [[replication (computing)|replicate the data]] as [[backup]]s. Both the original and backed data are then [[data auditing|audited]] for any faults due to storage media errors by [[checksum]]ming the data or comparing it with that of other copies. This is the only way to detect ''latent'' faults proactively,{{Sfn|Baker et al.|2006|p=229}} which might otherwise go unnoticed until the data is actually accessed.<ref name="Baker_2006-p224"/> Current storage systems such as those based on [[RAID]] already employ such measures internally.{{Sfn|Rosenthal|2010|p=51}} Ideally, and especially for data that must be [[digital preservation|preserved digitally]], the replicas should be distributed across multiple administrative sites that function autonomously and deploy various hardware and software, increasing resistance to failure, as well as human error and cyberattacks.{{Sfn|Baker|Keeton|Martin|2005|p=5}}
+
+==See also==
+{{Div col|colwidth=25em}}
+* [[Cliff effect]]
+* [[Database integrity]]
+* [[Data curation]]
+* [[Data preservation]]
+* [[Data scrubbing]]
+* [[Digital permanence]]
+* [[Disc rot]]
+* [[Error detection and correction]]
+* [[Link rot]]
+* [[Media preservation]]
+* [[RAR (file format)|RAR]] archive file format has optional recovery
+* [[Parchive|PAR2]] recovery file format
+{{div col end}}
+
+==References==
+{{Reflist|refs=
+<ref name="NAA">{{cite web|title=Preserving magnetic media|url=https://www.naa.gov.au/information-management/storing-and-preserving-information/preserving-information/preserving-magnetic-media|access-date=3 November 2020|website=National Archives of Australia|quote=High temperature and humidity and fluctuations may cause the magnetic and base layers in a reel of tape to separate, or cause adjacent loops to block together. High temperatures may also weaken the magnetic signal, and ultimately de-magnetise the magnetic layer.}}</ref>
+<ref name="qpx-g">{{cite web |title=QPxTool glossary |url=https://qpxtool.sourceforge.io/glossar.html |website=qpxtool.sourceforge.io |publisher=QPxTool |access-date=22 July 2020 |date=2008-08-01 |ref=QPx-Glossary}}{{Better source needed|date=February 2025}}</ref>
+<ref name="Riss_1993">{{cite web|last=Riss|first=Dan|date=July 1993|title=Conserve O Gram (number 19/8) Preservation Of Magnetic Media|url=https://www.nps.gov/museum/publications/conserveogram/19-08.pdf|website=nps.gov|publisher=National Park Service / Department of the Interior (US)|page=2|publication-place=Harpers Ferry, West Virginia|quote=The longevity of magnetic media is most seriously affected by processes that attack the binder resin. Moisture from the air is absorbed by the binder and reacts with the resin. The result is a gummy residue that can deposit on tape heads and cause tape layers to stick together. Reaction with moisture also can result in breaks in the long molecular chains of the binder. This weakens the physical properties of the binder and can result in a lack of adhesion to the backing. These reactions are greatly accelerated by the presence of acids. Typical sources would be the usual pollutant gases in the air, such as sulphur dioxide (SO2) and nitrous oxides (NOx), which react with moist air to form acids. Though acid inhibitors are usually built into the binder layer, over time they can lose their effectiveness.}}</ref>
+<ref name="O'Gorman_1996">{{cite journal |last1=O'Gorman |first1=T. J. |last2=Ross |first2=J. M. |last3=Taber |first3=A. H. |last4=Ziegler |first4=J. F. |last5=Muhlfeld |first5=H. P. |last6=Montrose |first6=C. J. |last7=Curtis |first7=H. W. |last8=Walsh |first8=J. L. |title=Field testing for cosmic ray soft errors in semiconductor memories|journal=IBM Journal of Research and Development |date=January 1996 |volume=40 |issue=1 |pages=41–50 |doi=10.1147/rd.401.0041}}</ref>
+<ref name="Normand_1996">{{cite journal|last=Normand|first=Eugene|date=December 1996|url=http://pdf.yuri.se/files/art/2.pdf|title=Single Event Upset at Ground Level|journal=[[IEEE Transactions on Nuclear Science]]|volume=43|issue=6|pages=2742–2750 |doi=10.1109/23.556861|bibcode=1996ITNS...43.2742N |archive-url=https://web.archive.org/web/20131021190327/http://pdf.yuri.se/files/art/2.pdf|archive-date=21 October 2013}}</ref>
+<ref name="IASA_1997">{{cite web|url=http://www.iasa-web.org/content/information-bulletin-no-22-july-1997
+|title=Bronzed CD alert!|work=IASA Information Bulletin no. 22|date=July 1997|access-date=3 August 2007|archive-url=https://web.archive.org/web/20110722224026/http://www.iasa-web.org/content/information-bulletin-no-22-july-1997|archive-date=22 July 2011}}</ref>
+<ref name="Baker_2006-p224">{{harvnb|Baker et al.|2006|p=224}}: "While many faults are detected at the time an error causes them, some occur silently. These are called 'latent faults.' There are many sources of latent faults, but media errors are the best known. While a [[head crash]] would be detectable, bit rot might not be uncovered until the affected faulty data are actually accessed and audited. As another example, a sector on a disk might become unreadable; this would not be detected until the next read of that sector. Further, a sector might be readable but contain incorrect information due to a previous misplaced sector write."</ref>
+<ref name="Triches_2006">{{cite web|last=Triches|first=Robert|url=https://www.aftonbladet.se/nyheter/a/ddR9kw/forskare-billiga-cd-skivor-haller-bara-i-tva-ar|title=Forskare: Billiga cd-skivor håller bara i två år|website=[[Aftonbladet]]|date=16 March 2006|access-date=10 April 2024}}</ref>
+<ref name="Bonwick_2009">{{cite web|last=Bonwick|first=Jeff|date=2009|title=ZFS: The Last Word in File Systems|publisher=Storage Networking Industry Association (SNIA)|url=http://www.snia.org/sites/default/files2/sdc_archives/2009_presentations/monday/JeffBonwickzfs-Basic_and_Advanced.pdf |access-date=4 March 2013|archive-url=https://web.archive.org/web/20130921055345/http://www.snia.org/sites/default/files2/sdc_archives/2009_presentations/monday/JeffBonwickzfs-Basic_and_Advanced.pdf|archive-date=21 September 2013}}</ref>
+<ref name="Menart_2011">{{cite journal|last1=Menart|first1=Eva|last2=De Bruin|first2=Gerrit|last3=Strlič|first3=Matija|title=Dose–response functions for historic paper|journal=Polymer Degradation and Stability|date=9 September 2011|volume=96|issue=12|pages=2029–2039|doi=10.1016/j.polymdegradstab.2011.09.002|url=https://discovery.ucl.ac.uk/1335848/1/Menart_PDSt_2011_EPS.pdf|access-date=5 June 2023}}</ref>
+<ref name="Salter_2014">{{cite web |last=Salter|first=Jim |title=Bitrot and atomic COWs: Inside "next-gen" filesystems|date=15 January 2014|publisher=[[Ars Technica]] |url=https://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/|access-date=15 January 2014|archive-url=https://web.archive.org/web/20150306225935/http://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/|archive-date=6 March 2015}}</ref>
+<ref name="Wlodarz_2014">{{cite web|last=Wlodarz|first=Derrick|title=Windows Storage Spaces and ReFS: is it time to ditch RAID for good?|date=15 January 2014|publisher=Betanews|url=http://betanews.com/2014/01/15/windows-storage-spaces-and-refs-is-it-time-to-ditch-raid-for-good/|access-date=2014-02-09}}</ref>
+<ref name="ShengLance_2015">{{cite web|last=Sheng Lance|first=Li|url=https://www.techinasia.com/talk/data-decay-affect-business|title=What is data decay?|date=22 July 2015|website=[[Tech in Asia]]|access-date=10 April 2024}}</ref>
+<ref name="PCMag">{{cite web|url=https://www.pcmag.com/encyclopedia/term/data-fade|title=Definition of data degradation|website=[[PC Magazine]]|access-date=10 April 2024}}</ref>
+<ref name="Rouse_2020">{{cite web|last=Rouse|first=Margaret|url=https://www.techopedia.com/definition/33108/bit-rot|title=What is Bit Rot?|website=Techopedia Dictionary|date=25 March 2020|access-date=10 April 2024}}</ref>
+<ref name="Li_2022">{{cite journal |last1=Li |first1=Qianhui |last2=Wang |first2=Qi |last3=Yang |first3=Liu |last4=Yu |first4=Xiaolei |last5=Jiang |first5=Yiyang |last6=He |first6=Jing |last7=Huo |first7=Zongliang |title=Optimal read voltages decision scheme eliminating read retry operations for 3D NAND flash memories |journal=Microelectronics Reliability |date=April 2022 |volume=131 |article-number=114509 |doi=10.1016/j.microrel.2022.114509|bibcode=2022MiRe..13114509L }}{{Page needed|date=February 2025}}</ref>
+<ref name="Malachowska_2021">{{cite journal|last1=Małachowska|first1=Edyta|last2=Pawcenis|first2=Dominika|last3=Dańczak|first3=Jacek|last4=Paczkowska|first4=Joanna|last5=Przybysz|first5=Kamila|date=26 March 2021|title=Paper Ageing: The Effect of Paper Chemical Composition on Hydrolysis and Oxidation|journal=[[Polymers (journal)|Polymers]]|volume=13|issue=7|page=1029|doi=10.3390/polym13071029|pmid=33810293|pmc=8036582|doi-access=free}}</ref>
+<ref name="Yu_2022">{{cite journal|last1=Yu|first1=Wenwu|last2=Jiang|first2=Jingjing|last3=Zhai|first3=Yue|last4=Xu|first4=Peng|date=2022-05-20|editor-last=Rajakani|editor-first=Kalidoss|title=Perceived Integrity of Distributed Streaming Media Based on AWTC-TT Algorithm Optimization|journal=[[Wireless Communications and Mobile Computing]]|pages=1–17|doi=10.1155/2022/7522174|doi-access=free|issn=1530-8677}}</ref>
+<ref name="Hakob_2023">{{cite web|url=https://formstory.io/learn/data-decay/|title=Data Decay: What are the Causes?|website=FormStory|author-first=Mike|author-last=Hakob|date=27 December 2023 |access-date=10 April 2024}}{{Better source needed|date=February 2025}}</ref>
+}}
+
+==Sources==
+* {{cite conference|last1=Baker|first1=Mary|last2=Keeton|first2=Kimberly|author2-link=Kimberly Keeton|last3=Martin|first3=Sean|date=30 June 2005|url=http://www.hpl.hp.com/techreports/2005/HPL-2005-120.pdf|title=Why Traditional Storage Systems Don't Help Us Save Stuff Forever|conference=HotDep'05: Proceedings of the First conference on Hot topics in system dependability|publisher=[[USENIX]]|access-date=15 February 2025|archive-url=https://web.archive.org/web/20060907054345/http://www.hpl.hp.com/techreports/2005/HPL-2005-120.pdf|archive-date=7 September 2006}}
+* {{cite conference|ref={{harvid|Baker et al.|2006}}|last1=Baker|first1=Mary|last2=Shah|first2=Mehul|last3=Rosenthal|first3=David S. H.|author3-link=David S. H. Rosenthal|last4=Roussopoulos|first4=Mema|last5=Maniatis|first5=Petros|last6=Giuli|first6=TJ|last7=Bungale|first7=Prashanth|date=18 April 2006|title=A fresh look at the reliability of long-term digital storage|conference=EuroSys '06: Proceedings of the 1st ACM SIGOPS/EuroSys European Conference on Computer Systems 2006|publisher=[[Association for Computing Machinery]]|pages=221–234|doi=10.1145/1217935.1217957}}
+* {{cite journal|last=Rosenthal|first=David S. H.|author-link=David S. H. Rosenthal|date=November 2010|title=Keeping Bits safe: how hard can it Be?|journal=[[Communications of the ACM]]|volume=53|issue=11|pages=47–55|doi=10.1145/1839676.1839692|doi-access=free}}
+
+{{Data}}
+
+[[Category:Computer jargon]]
+[[Category:Data quality]]
+[[Category:Digital preservation]]

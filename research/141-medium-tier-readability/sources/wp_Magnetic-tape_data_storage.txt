@@ -1,0 +1,263 @@
+{{Short description|Data storage technologies that use magnetic tape}}
+{{Refimprove|date=July 2022}}
+{{Memory types}}
+
+'''Magnetic-tape data storage''' is a system for storing [[digital information]] on [[magnetic tape]] using [[digital recording]]. Commercial magnetic tape products used for data storage were first released in the 1950s and have continued to be developed and released to the present day.
+
+Tape was an important medium for [[primary data storage]] in early computers, typically using large open [[reel]]s of [[IBM 7-track|7-track]], later [[9-track tape|9-track]] tape. Modern magnetic tape is most commonly packaged in [[tape cartridge|cartridges]] and [[cassette tape (format)|cassettes]], such as the widely supported [[Linear Tape-Open]] (LTO)<ref name="ultrium-lto-licensees">{{cite web|url=http://www.ultrium.com/newsite/html/licensing_certified.html|title=LTO Compliance-Verified Licencees |publisher=Ultrium |access-date=2013-03-29 |url-status=dead|archive-url=https://web.archive.org/web/20061113034424/http://www.ultrium.com/newsite/html/licensing_certified.html |archive-date=2006-11-13}}</ref> and [[IBM&nbsp;3592]] series. The device that performs the writing or reading of data is called a [[tape drive]]. [[Autoloader (data storage device)|Autoloaders]] and [[tape library|tape libraries]] are often used to automate cartridge handling and exchange. Compatibility was important to enable transferring data.
+
+Tape data storage<ref>{{cite book |title=Cobol Programming |page=18 |url=https://books.google.com/books?id=N066w1XgJXcC |isbn=0074603183 |author1=M. K. Roy |author2=Debabrata Ghosh Dastidar |date=1989 |publisher=Tata Mcgraw-Hill Publishing Company }}</ref> is now used more for system backup,<ref>{{cite web |title=Ten Reasons Why Tape Is Still The Best Way To Backup Data |url=https://www.overlandstorage.com/blog/?p=323 |archive-url=https://web.archive.org/web/20130823164812/https://www.overlandstorage.com/blog/?p=323 |archive-date=2013-08-23}}</ref> data archive and data exchange. The low cost of tape has kept it viable for long-term storage and archive.<ref>{{Cite web |last=Coughlin |first=Tom |title=The Costs Of Storage |url=https://www.forbes.com/sites/tomcoughlin/2016/07/24/the-costs-of-storage/ |access-date=2020-11-03 |website=Forbes |language=en}}</ref><ref>{{cite web |last1=Lantz |first1=Mark |title=Why the Future of Data Storage is (Still) Magnetic Tape – IEEE Spectrum |url=https://spectrum.ieee.org/why-the-future-of-data-storage-is-still-magnetic-tape |website=spectrum.ieee.org |access-date=24 June 2025 |language=en}}</ref>
+
+==Usage==
+[[file:IBM_704_mainframe.gif|thumb|left|Early computer system, featuring 5 tape drives]]
+The earliest commercially available computers predate the existence of [[disk storage]].  [[computer data storage|Primary storage]] for these systems was done using tape.<ref name="ibm-history-mag-tape">{{Cite web|url=https://www.ibm.com/history/magnetic-tape|title=Magnetic tape &#124; IBM|website=www.ibm.com}}</ref>  The [[IBM_701#Hardware_configuration|IBM 701]], released in 1952, had the option of a [[IBM 726|7-track tape drive]],<ref>{{Cite web |date=July 2003 |title=IBM 701 Tape Drive |url=https://columbia.edu/cu/computinghistory/701-tape.html |url-status=live |access-date=March 19, 2026 |website=Columbia University Computer History}}</ref> holding over a million characters (bytes) per reel. [[IBM_drum_storage#IBM_731|Drum storage]] was also available, but it was much lower capacity, holding around 9 thousand bytes, and it was not interchangeable.  Years later and until disks became more affordable, mainframes could still be used with only tape storage, by running [[DOS/360_and_successors#TOS/360|TOS/360]] and its successors.
+
+[[File:SunOS 4.1.1 P1270750.jpg|thumb|An example of commercial software distributed on tape]]
+Looking beyond primary storage, writing data to tape on one computer and then reading it on another has long been a form of data interchange, predating modern data networks and the internet.  This form of data transfer has been called [[Sneakernet]]. The high-bandwidth, high-latency nature of this is captured by an old, widely repeated quote:
+
+{{Quote|text=Never underestimate the bandwidth of a [[station wagon]] full of tapes hurtling down the highway.|sign=[[Andrew S. Tanenbaum]] & others|source=[[Sneakernet#Non-fiction]]}}
+
+Tape has long been used for making copies of data as part of an orderly [[backup]] process.  While many other technologies are also used for backups, tape continues to be used for this, particularly at the largest scale.
+
+Similarly, tape continues to see use as an [[archive]] for [[digital preservation]] efforts.  With a low marginal unit cost and long lifespan, tape makes sense for many archiving scenarios.
+
+==Open reels==
+Initially, magnetic tape for data storage was wound on {{convert|10.5|in|cm|adj=on}} [[reel]]s.<ref>{{Cite book |url=https://books.google.com/books?id=ySILAAAAQBAJ&pg=PA698 |title=Computer Organization & Architecture: Themes and Variations |last=Clements |first=Alan |date=2013-01-01 |publisher=Cengage Learning |isbn=978-1285415420 |language=en |url-status=live |archive-url=https://web.archive.org/web/20201210152141/https://books.google.com/books?id=ySILAAAAQBAJ&pg=PA698 |archive-date=2020-12-10 }}</ref> This standard for large computer systems persisted through the late 1980s, with steadily increasing capacity due to thinner substrates and changes in encoding. 
+
+===UNIVAC===
+[[File:Univac I Census dedication.jpg|thumb|UNISERVO tape drives with a UNIVAC computer system.]]
+Magnetic tape was first used to record computer data in 1951 on the [[UNIVAC&nbsp;I]].<ref>{{Cite web |last=Staff |first=History Computer |date=2021-01-04 |title=Magnetic Tape Explained – Everything You Need To Know |url=https://history-computer.com/magnetic-tape/ |access-date=2022-09-18 |website=History-Computer |language=en-US}}</ref> The [[UNISERVO]] drive recording medium was a thin metal strip of {{convert|0.5|in|mm|sigfig=3|abbr=out|adj=on}} wide [[nickel]]-plated [[phosphor bronze]]. Recording density was 128 characters per inch (198 micrometres per character) on eight tracks at a linear speed of {{convert|100|in/s|m/s|sigfig=3|abbr=on}}, yielding a data rate of 12,800 characters per second. Of the eight tracks, six were data, one was for [[parity bit|parity]], and one was a clock, or timing track. Making allowances for the empty space between tape blocks, the actual transfer rate was around 7,200 characters per second. A small reel of [[mylar]] tape provided separation between the metal tape and the read/write head.<ref>{{cite web |url=https://www.computer.org/csdl/proceedings/afips/1952/5041/00/50410047.pdf|title=The Uniservo – Tape Reader and Recorder|author1=H. F. Welsh|author2=H. Lukoff|publisher=American Federation of Information Processing Societies|via=IEEE Computer Society|date=1952}}</ref>
+
+===IBM formats===
+
+[[IBM 700/7000 series|IBM computers from the 1950s]] used [[Iron(III) oxide#Gamma phase|ferric-oxide]]-coated tape similar to that used in audio recording. IBM's technology soon became the [[de facto standard|de facto industry standard]]. Magnetic tape dimensions were {{convert|0.5|in|mm|sigfig=3|abbr=out|adj=on}} wide and wound on removable reels. Different tape lengths were available with {{convert|1200|ft|m|sigfig=2|abbr=out}} and {{convert|2400|ft|m|sigfig=2|abbr=out}} on [[Thousandth of an inch|mil]] and one half thickness being somewhat standard.{{clarify|date=September 2012}}<!-- 1.5 mil or 1.0 mil and 0.5 mil? --> During the 1980s, longer tape lengths such as {{convert|3600|ft|m|sigfig=2|abbr=out}} became available using a much thinner [[PET film (biaxially oriented)|PET film]]. Most tape drives could support a maximum reel size of {{convert|10.5|in|mm|sigfig=3|abbr=out}}. A so-called ''mini-reel'' was common for smaller data sets, such as for software distribution. These were {{convert|7|in|cm|adj=on}} reels, often with no fixed length—the tape was sized to fit the amount of data recorded on it as a cost-saving measure.{{citation needed|date=April 2017}}
+
+[[Image:Largetape.jpg|thumb|left|{{convert|10+1/2|in|adj=on}} diameter reel of 9-track tape]]
+
+[[Control Data Corporation|CDC]] used IBM-compatible {{convert|1/2|in|adj=on}} magnetic tapes, but also offered a {{convert|1|in|mm|adj=mid|-wide}} variant, with 14 tracks (12 data tracks corresponding to the 12-bit word of [[CDC 6000 series]] peripheral processors, plus 2 parity bits) in the CDC&nbsp;626 drive.<ref>{{cite book |title=Control Data 6400/6600 Computing Systems' Configurator |date=October 1966 |publisher=Control Data Corporation |page=4}}</ref>
+
+Early IBM tape drives, such as the [[IBM&nbsp;727]] and [[IBM&nbsp;729]], were mechanically sophisticated floor-standing drives that used [[Vacuum column (tape drive)|vacuum columns]] to buffer long u-shaped loops of tape. Between servo control of powerful reel motors, a low-mass capstan drive, and the low-friction and controlled tension of the vacuum columns, fast start and stop of the tape at the tape-to-head interface could be achieved.{{efn|1.5&nbsp;ms from stopped tape to full speed of {{convert|112.5|in/s|m/s|sigfig=3|abbr=out}}.{{citation needed|date=September 2012}}<!-- these numbers seem to be for a 0.3 inch IRG which is not consistent with "early" tape drives. Prolay idler/capstan motor issue, too. -->}} The fast acceleration is possible because the tape [[mass]] in the vacuum columns is small; the length of tape buffered in the columns provides time to accelerate the high-[[inertia]] reels. When active, the two tape reels thus fed tape into or pulled tape out of the vacuum columns, intermittently spinning in rapid, unsynchronized bursts, resulting in visually striking action. Stock shots of such vacuum-column tape drives in motion were emblematically representative of computers in movies and television.<ref>{{Cite web|url=https://www.metv.com/lists/11-super-high-tech-computers-seen-on-1960s-television|title=11 super high tech computers seen on 1960s television|website=Me-TV Network}}</ref>
+
+Early half-inch tape had seven parallel tracks of data along the length of the tape, allowing 6-bit characters plus 1&nbsp;bit of [[parity bit|parity]] written across the tape. This was known as [[IBM 7 track|7-track tape]]. With the introduction of the [[IBM System/360]] mainframe, [[9-track tape]]s were introduced to support the new 8-bit characters that it used. The end of a file was designated by a special recorded pattern called a [[tape mark]], and end of the recorded data on a tape by two successive tape marks. The physical beginning and end of usable tape was indicated by reflective adhesive strips of aluminum foil placed on the backside.{{citation needed|date=April 2017}}
+
+Recording density increased over time. Common 7-track densities started at 200 characters per inch (CPI), then 556, and finally 800; 9-track tapes had densities of 800 (using [[NRZI]]), then 1600 (using [[Phase encoding|PE]]), and finally 6250 (using [[Group-coded recording|GCR]]). This translates into about 5&nbsp;megabytes to 140&nbsp;megabytes per standard length ({{cvt|2400|ft|disp=comma}}) reel of tape. Effective density also increased as the interblock gap ([[inter-record gap]]) decreased from a nominal {{convert|3/4|in|mm}} on 7-track tape reel to a nominal {{convert|0.30|in}} on a 6250&nbsp;bpi{{clarify|date=April 2022}} 9-track tape reel.<ref>{{cite web |url=https://www.ibm.com/ibm/history/exhibits/storage/storage_3420.html |title=IBM 3420 magnetic tape drive |date=23 January 2003 |publisher=IBM |access-date= June 2, 2019}}</ref>
+
+
+At least partly due to the success of the System/360, and the resultant standardization on 8-bit character codes and byte addressing, 9-track tapes were very widely used throughout the computer industry during the 1970s and 1980s.<ref>{{cite web |url=https://ricehistorycorner.com/2015/05/13/obsolete-technology-reel-to-reel/ |title=Obsolete Technology: Reel to Reel |date=May 15, 2015 |website=Rice History Corner |publisher=Rice University |access-date=June 2, 2019 |quote=...became de rigueur on many different computers, from mainframes to minis.}}</ref> IBM discontinued new reel-to-reel products replacing them with cartridge based products beginning with its 1984 introduction of the cartridge-based [[IBM 3480 Family|3480&nbsp;family]].{{citation needed|date=July 2022}}
+
+===DEC format===
+[[File:CHM Artifacts Please turn off the Dectape after use... thx (2635585080).jpg|thumb|Dual drive DECtape unit]]
+[[LINCtape]], and its derivative, [[DECtape]] were variations on this "round tape". They were essentially a personal storage medium,<ref>{{cite web|url=http://simh.trailing-edge.com/docs/decsys.pdf|title=Technical Notes on DECsys |author=Bob Supnik|date=June 19, 2006}}</ref> used tape that was {{convert|0.75|in|mm}} wide and featured a fixed formatting track which, unlike standard tape, made it feasible to read and rewrite blocks repeatedly in place. LINCtapes and DECtapes had similar capacity and data transfer rate to the [[diskette]]s that displaced them, but their [[access time]]s were on the order of thirty seconds to a minute.{{citation needed|date=July 2022}}
+
+==Cartridges and cassettes==
+{{More citations needed section|date=September 2025}}
+[[File:3590Tape.JPG|right|thumb|An [[IBM 3590]] data cartridge can hold up to 10[[GiB]] uncompressed.]]
+
+In the context of magnetic tape, the term ''cassette'' or ''cartridge'' means a length of magnetic tape in a plastic enclosure with one or two reels for storing the tape. The type of packaging affects the load and unload times as well as the length of tape that can be held. In a single-reel cartridge, there is a takeup reel in the drive while a dual reel cartridge has both takeup and supply reels in the cartridge. A tape drive uses one or more precisely controlled motors to wind the tape from one reel to the other, passing a read/write head as it does.{{citation needed|date=July 2022}}
+
+Tape cartridges and cassettes were available starting in the mid-1970s and were frequently used with small computer systems. With the introduction of the IBM 3480 cartridge in 1984, described as "about one-fourth the size ... yet it stored up to 20 percent more data",<ref>{{cite web |title=IBM Archives: IBM 3480 cartridge with standard tape reel |website=[[IBM]] |date=23 January 2003 |url=https://www.ibm.com/ibm/history/exhibits/storage/storage_PH3480B.html}}</ref> large computer systems started to move away from open-reel tapes and towards cartridges.<ref>{{cite web |title=IBM 3480 tape cartridge (200&nbsp;MB) |url=https://www.computerhistory.org/revolution/memory-storage/8/258/1038 |quote=... it replaced the standard ... |website=ComputerHistory.org}}</ref>
+
+The [[IBM 7340]] Hypertape drive, introduced in 1961, used a large dual reel cassette with a {{convert|1|in|cm|adj=mid|-wide}} tape capable of holding in excess of 40 million six-bit characters per cassette depending upon record length.<ref>{{cite conference |first=B.E. |last=Cunningham |title=The IBM Hypertape system |book-title=Proceedings of the October 27-29, 1964, Fall Joint Computer Conference, Part I |publisher=ACM |orig-date=1964 |isbn=978-1-4503-7889-5 |pages=423–434 |doi=10.1145/1464052.1464089 |quote=The IBM Hypertape system was designed as a high-speed I/O device for the IBM 7074-7080-7090-7094 computers.|doi-access=free }}</ref> 
+
+[[File:Compact cassette apple starwatrs.jpg|thumb|A Compact Cassette from the late 1970s with a [https://apple.fandom.com/wiki/Star_Warriors game] for an Apple computer of the era.]]
+In the 1970s and 1980s, audio [[Compact Cassette#Data recording|Compact Cassette]]s were frequently used as an inexpensive data storage system for [[home computers]],{{efn|Experienced computer gamers could tell a lot by listening to the loading noise from the tape.<ref>{{cite news |last1=Stuart |first1=Keith |title=Click, whir, ping: the lost sounds of loading video games |url=https://www.theguardian.com/games/2019/aug/27/click-whir-ping-lost-sounds-of-loading-video-games |access-date=14 October 2019 |work=The Guardian |date=27 August 2019}}</ref>}} or in some cases for diagnostics or boot code for larger systems such as the [[Burroughs B1700]].<ref>{{Cite web |url=http://bitsavers.trailing-edge.com/pdf/burroughs/B1700/1053360_B1700_FE_Tech_May73.pdf |title=B1700 Central System |series=Burroughs Field Engineering Technical Manual |date=1973 |id=1053360 |via=bitsavers, archive.org |page=1-3, 2-97– |quote= |access-date=2025-09-19 |archive-date=2015-04-22 |archive-url=https://web.archive.org/web/20150422043547/http://bitsavers.trailing-edge.com/pdf/burroughs/B1700/1053360_B1700_FE_Tech_May73.pdf |url-status=bot: unknown }}</ref> Compact cassettes are logically, as well as physically, sequential; they must be rewound and read from the start to load data. Early cartridges were available before personal computers had affordable disk drives, and could be used as [[random access]] devices, automatically winding and positioning the tape, albeit with access times of many seconds.
+
+[[File:Comparison-of-stringy-floppies-1.png|thumb|left|Three types of "stringy floppy" endless-loop magnetic tape data storage cartridges]]
+In the world of radio broadcasting, an analog audio recording product called the [[Fidelipac]] saw extensive usage from the 1950s through the 1990s. This type of cartridge has a continuous loop of tape wound on a special reel that allows tape to be withdrawn from the center of the reel and then wrapped up around the edge.  The [[Stringy floppy]] was developed in the late 1970s through the mid 1980s as a data storage product based on the same concept of an endless-loop of magnetic tape in a convenient size cartridge.  Notably, in an endless-loop cartridge, the tape can only move forward.  Rewind is not possible. 
+
+In 1984 IBM introduced the [[IBM 3480 Family|3480 family]] of single reel cartridges and tape drives which were then manufactured by a number of vendors through at least 2004.  Initially providing 200 megabytes per cartridge, the family capacity increased over time to 2.4 gigabytes per cartridge. [[Digital Linear Tape|DLT]] (Digital Linear Tape), also a cartridge-based tape, was available beginning 1984 but as of 2007 future development was stopped in favor of LTO.{{citation needed|date=July 2022}}
+
+In 2003 IBM introduced the [[IBM 3592|3592 family]] to supersede the [[IBM 3590]]. While the name is similar, there is no compatibility between the 3590 and the 3592. Like the 3590 and 3480 before it, this tape format has {{convert|1/2|in|mm|0|adj=on}} tape spooled into a single reel cartridge. Initially introduced to support 300 gigabytes, the seventh generation drive released in 2023 supports the JF cartridge with a native capacity of 50 terabytes.
+
+[[Linear Tape-Open]] (LTO) single-reel cartridge was announced in 1997 at 100 gigabytes and in its tenth generation supports 40 terabytes in the same sized cartridge.
+
+==Technical details==
+===Linear density===
+'''{{Visible anchor|Bytes per inch}}''' ('''BPI''') is the metric for the density at which data is stored on magnetic media. The term BPI can refer to '''{{Visible anchor|bits per inch}}''',<ref>{{cite web |title=BPI |url=https://www.merriam-webster.com/dictionary/bpi |website=www.merriam-webster.com |publisher=Merriam-Webster, Inc. |access-date=4 February 2025 |language=en}}</ref> but more often refers to [[byte]]s per inch.<ref>{{cite book|url=https://archive.org/details/economicsofcompu00shar|url-access=registration|isbn=0231083106 |title=The Economics of Computers |page=[https://archive.org/details/economicsofcompu00shar/page/426 426]|author=William F. Sharpe  |date=1969}}</ref>
+
+The term BPI can mean [[byte]]s per inch when the tracks of a particular format are byte-organized, as in nine-track tapes.<ref>{{cite book |url=https://archive.org/details/economicsofcompu00will |url-access=registration |isbn=0231083106 |title=The Economics of Computers |page=[https://archive.org/details/economicsofcompu00will/page/426 426] |author=William F. Sharpe |date=1969}}</ref>
+
+===Tape width===
+The width of the media is the primary classification criterion for tape technologies. {{convert|1/2|in|mm|spell=In|adj=on}} has historically been the most common width of tape for high-capacity data storage.<ref>{{Cite web |url=http://downloads.quantum.com/sdlt320/handbook.pdf |title=SDLT 320 handbook |access-date=2013-03-28 |archive-date=2014-07-29 |archive-url=https://web.archive.org/web/20140729065735/http://downloads.quantum.com/sdlt320/handbook.pdf |url-status=dead }}</ref> Many other sizes exist and most were developed to either have smaller packaging or higher capacity.<ref>{{Cite web |title=Magnetic Tape for Data |url=https://obsoletemedia.org/data/tape/ |access-date=2024-08-27 |website=Museum of Obsolete Media |language=en-GB}}</ref>
+
+===Recording method===
+{{Unreferenced section|date=April 2017}}
+[[Image:Linear tape drive.png|thumb|Linear]]
+
+Recording method is also an important way to classify tape technologies, generally falling into two categories: linear and scanning.{{citation needed|date=July 2022}}
+
+====Linear====
+[[Image:Linear serpentine tape drive.png|thumb|Linear serpentine]]
+
+The linear method arranges data in long parallel tracks that span the length of the tape. Multiple tape heads simultaneously write parallel tape tracks on a single medium. This method was used in early tape drives. It is the simplest recording method, but also has the lowest data density.{{citation needed|date=July 2022}}
+
+A variation on linear technology is linear serpentine recording, which uses more tracks than tape heads. Each head still writes one track at a time. After making a pass over the whole length of the tape, all heads shift slightly and make another pass in the reverse direction, writing another set of tracks. This procedure is repeated until all tracks have been read or written. By using the linear serpentine method, the tape medium can have many more tracks than read/write heads. Compared to simple linear recording, using the same tape length and the same number of heads, data storage capacity is substantially higher.{{citation needed|date=July 2022}}
+
+====Scanning====
+[[Image:Helical tape drive.png|thumb|Helical]]
+
+Scanning recording methods write short dense tracks across the width of the tape medium, not along the length. Tape heads are placed on a drum or disk which rapidly rotates while the relatively slow-moving tape passes it.{{citation needed|date=July 2022}}
+
+An early method used to get a higher data rate than the prevailing linear method was ''transverse scan''. In this method, a spinning disk with the tape heads embedded in the outer edge is placed perpendicular to the path of the tape. This method is used in [[Ampex]]'s DCRsi instrumentation data recorders and the old Ampex [[quadruplex videotape]] system. Another early method was ''arcuate scan''. In this method, the heads are on the face of a spinning disk which is laid flat against the tape. The path of the tape heads forms an arc.{{citation needed|date=July 2022}}
+
+[[Helical scan]] recording writes short dense tracks in a ''diagonal'' manner. This method is used by virtually all current [[videotape]] systems and several data tape formats.{{citation needed|date=July 2022}}
+
+===Block layout and speed matching===
+In a typical format, data is written to tape in blocks with inter-block gaps between them, and each block is written in a single operation with the tape running continuously during the write. However, since the rate at which data is written or read to the tape drive varies as a tape drive usually has to cope with a difference between the rate at which data goes on and off the tape and the rate at which data is supplied or demanded by its host.{{citation needed|date=July 2022}}
+
+Various methods have been used alone and in combination to cope with this difference. If the host cannot keep up with the tape drive transfer rate, the tape drive can be stopped, backed up, and restarted (known as [[Tape drive#Problems|shoe-shining]]). A large memory buffer can be used to queue the data. In the past, the host block size affected the data density on tape, but on modern drives, data is typically organized into fixed-sized blocks which may or may not be compressed or encrypted, and host block size no longer affects data density on tape. Modern tape drives offer a speed matching feature, where the drive can dynamically decrease the physical tape speed as needed to avoid shoe-shining.<ref>{{cite web|url=http://www-01.ibm.com/support/docview.wss?uid=tss1wp102594&aid=1 |title=Info |publisher=www-01.ibm.com |access-date=2019-12-28}}</ref>
+
+In the past, the size of the inter-block gap was constant, while the size of the data block was based on host block size, affecting tape capacity – for example, on [[count key data]] storage. On most modern drives, this is no longer the case. [[Linear Tape-Open]] type drives use a fixed-size block for tape (a [[fixed-block architecture]]), independent of the host block size, and the inter-block gap is variable to assist with speed matching during writes.{{citation needed|date=July 2022}} 
+
+On drives with compression, the compressibility of the data will affect the capacity.{{how?|reason=how does compression interact with block size. [[#Data compression]] does not discuss this.|date=November 2021}}
+
+===Sequential access to data===
+Tape is characterized by [[sequential access]] to data, similar to [[punched tape]] or [[Microform#Microfilm|microfilm]]. The physical nature of a tape on a spool means that to load a specific file, the tape must be moved into position under the read head. By contrast, [[Drum memory|drum]] or [[disk storage]] allows for much more rapid positioning of read heads ([[random access]]).<ref>[https://apps.dtic.mil/sti/citations/tr/ADA299906 "Guide to Multimedia Storage (Le Guide des Memoires Multimedia)".] Defense Technical Information Center. ADVISORY GROUP FOR AEROSPACE RESEARCH AND DEVELOPMENT. August 1, 1995.</ref> Serpentine tape drives (e.g., [[Quarter-inch cartridge|QIC]],) offer improved access time by switching to the appropriate track; tape partitions are used for directory information.<ref>Wangtek Corporation, OEM Manual, Series 5099ES/5125ES/5150ES SCSI Interface Streaming 1/4 Inch Tape Cartridge Drive, Rev D, 1991. QFA (Quick File Access) Partition, page 4-29–4-31.</ref>
+
+For some systems, [[metadata]] such as file name or modification time may not stored. Modern [[file archiver]] and [[backup]] tools allow for both compression and retention of metadata on tape backups. The [[Linear Tape File System]] is a method of storing file metadata on a separate part of the tape. This makes it possible to [[copy and paste]] files or directories to a tape as if it were a disk, but does not change the fundamental sequential access nature of tape.{{citation needed|date=July 2022}}
+
+===Access time===
+Tape has a long random access time since the deck must wind an average of one-third the tape length to move from one arbitrary position to another. Tape systems attempt to alleviate the intrinsic long latency, either using indexing, where a separate lookup table (''tape directory'') is maintained which gives the physical tape location for a given data block number (a must for serpentine drives), or by marking blocks with a [[tape mark]] that can be detected while winding the tape at high speed.{{citation needed|date=April 2017}}
+
+===Data compression===
+Most tape drives now include some kind of [[lossless data compression]]. There are several algorithms that provide similar results: [[LZW]]{{cn|reason=formerly said LZ but this is unlikely|date=March 2022}} (widely supported), IDRC (Exabyte), ALDC (IBM, QIC) and DLZ1 (DLT).{{cn|reason=no information about any of these algorithms elsewhere on WP|date=March 2022}} Embedded in tape drive hardware, these compress a relatively small buffer of data at a time, so cannot achieve extremely high compression even of highly redundant data. A ratio of 2:1 is typical, with some vendors claiming 2.6:1 or 3:1. The ratio actually obtained depends on the nature of the data so the [[data compression ratio|compression ratio]] cannot be relied upon when specifying the capacity of equipment, e.g., a drive claiming a compressed capacity of 500&nbsp;GB may not be adequate to back up 500&nbsp;GB of real data. Data that is already stored efficiently may not allow ''any'' significant compression and a sparse database may offer much larger factors. Software compression can achieve much better results with sparse data, but uses the host computer's processor, and can slow the backup if the host computer is unable to compress as fast as the data is written.{{citation needed|date=July 2022}}
+
+The compression algorithms used in low-end products are not optimally effective, and better results may be obtained by turning off hardware compression and using software compression (and encryption if desired) instead.{{citation needed|date=July 2022}}
+
+Plain text, raw images, and database files ([[Text file|TXT]], [[ASCII]], [[BMP file format|BMP]], [[dBASE|DBF]], etc.) typically compress much better than other types of data stored on computer systems. By contrast, encrypted data and pre-compressed data ([[Pretty Good Privacy|PGP]], [[ZIP (file format)|ZIP]], [[JPEG]], [[MPEG]], [[MP3]], etc.) normally ''increase'' in size{{efn|As illustrated by the [[pigeonhole principle]], every lossless data compression algorithm will end up increasing the size of ''some'' inputs.}} if data compression is applied. In some cases, this data expansion can be as much as 15%.{{citation needed|date=July 2022}}
+
+===Encryption===
+Standards exist to [[encryption|encrypt]] tapes.<ref>{{cite web|title=Tape Encryption Purchase Considerations|website=[[Computer Weekly]]|url=http://www.computerweekly.com/feature/Tape-encryption-purchase-considerations|date=Oct 2007|access-date=11 May 2015|url-status=live|archive-url=https://web.archive.org/web/20150518093552/http://www.computerweekly.com/feature/Tape-encryption-purchase-considerations|archive-date=18 May 2015}}</ref> Encryption is used so that even if a tape is stolen, the thieves cannot use the data on the tape. Key management is crucial to maintain security. Compression is more efficient if done before encryption, as encrypted data cannot be compressed effectively due to the entropy it introduces. Some enterprise tape drives include hardware that can quickly encrypt data.<ref>{{Cite web |title=Configuring tape drive encryption |url=https://www.ibm.com/docs/en/storage-protect/8.1.23?topic=methods-configuring-tape-drive-encryption |access-date=2024-08-27 |website=www.ibm.com |language=en-us}}</ref>
+
+===Cartridge memory and self-identification===
+Some tape cartridges, notably [[LTO cartridge]]s, have small associated data storage chips built in to record metadata about the tape, such as the type of encoding, the size of the storage, dates and other information. It is also common for tape cartridges to have bar codes on their labels in order to assist an automated tape library.<ref>{{cite web |url=https://www.ibm.com/docs/en/ts3500-tape-library?topic=media-lto-bar-code-label |title=LTO bar code label |website=[[IBM]] |access-date=2022-06-28}}</ref>
+
+==Viability==
+Tape remains viable in modern data centers because:<ref>{{cite web|url=http://esj.com/articles/2009/02/17/in-the-tape-vs-disk-war-think-tape-and-disk.aspx|title=In the Tape vs. Disk War, Think Tape AND Disk – Enterprise Systems   |publisher=Esj.com |date=2009-02-17 |accessdate=2012-01-31 |url-status=live |archiveurl=https://web.archive.org/web/20120201160318/http://esj.com/articles/2009/02/17/in-the-tape-vs-disk-war-think-tape-and-disk.aspx |archivedate=2012-02-01}}</ref><ref>{{cite web|url=http://h71036.www7.hp.com/hho/cache/565958-0-0-225-121.html |title=HP article on backup for home users, recommending several methods, but not tape, 2011 |publisher=H71036.www7.hp.com |date=2010-03-25 |accessdate=2012-01-31 |url-status=live |archiveurl=https://web.archive.org/web/20111209125241/http://h71036.www7.hp.com/hho/cache/565958-0-0-225-121.html |archivedate=2011-12-09 }}</ref><ref>{{cite web|url=https://www.oracle.com/storage/tape-storage/sl8500-modular-library-system|title=Oracle StorageTek SL8500 Modular Library System |access-date=2020-06-29}}</ref> 
+
+#it is the lowest cost medium for storing large amounts of data;
+#as a removable medium it allows the creation of an [[Air gap (networking)|air gap]] that can prevent data from being hacked, encrypted or deleted;
+#its longevity allows for extended data retention which may be required by regulatory agencies.<ref name="Techradar">{{cite web
+ |url=https://www.techradar.com/news/the-role-of-tape-in-the-modern-data-center|title=The role of tape in the modern data center |author=<!--Not stated--> |date=July 8, 2020 |website=Techradar Pro|access-date=July 16, 2020 |quote=Tape still offers several benefits that cloud storage doesn’t}}</ref>
+
+The lowest cost tiers of [[cloud storage]] can be supported by tape.<ref name="Techradar"/>
+
+== Comparison to disk storage ==
+Tape and disk storage have some important fundamental differences, which result in the technologies being used differently in practice.
+
+One significant difference is how the raw media is packaged with or without the mechanism to use it. In disk storage, the [[hard disk drive platter]]s that actually store the data are packaged together with the mechanism that reads and writes to it into a drive, while tape media is sold separately from the drive that reads and writes it.  At scale, this has a large impact on cost, since expanding capacity does not require paying for additional mechanisms to use it.  It also simplifies transporting and storing the storage media.  
+
+In recordable [[surface area]], as of 2025, a current [[Linear Tape-Open|LTO]] cartridge contains about {{Convert|20,000|sqin|sqm}} of surface area, while a current [[hard disk]] drive of similar capacity with 10 platters only has around {{Convert|200|sqin|sqm}} of surface area, a factor of 100 difference.  This dramatically affects seek time. Disks can generally return the first bytes requests within 10 ms, but tape can take over 100 sec, a factor of 10,000 difference. 
+
+Despite the slow seek time of tape, streaming throughput can be substantially faster than disk.  While modern disk commonly have multiple read/write heads, only one operates at a time.  Tape on the other hand, has long had multiple read/write heads that operate in parallel.  Modern tape drives have 32 read/write elements, traversing the tape media at over 3 meters/sec. 
+
+Total costs get complicated when considering large storage systems. Besides the simple unit cost of the data storage media, there is the cost of the hardware that makes use of and manages the media and the cost of the power to run it all. As HDD prices have dropped, disk has become cheaper relative to tape drives and cartridges. For decades, the cost of a new LTO tape cartridge plus the tape drive required to make use of it, has been much greater than that of an equivalently sized HDD. However, at very large subsystem capacities, the total price of tape-based subsystems can be lower than HDD based subsystems, particularly when the higher operating costs of HDDs are included in any calculation.<ref name="ProStorage">{{cite web |url=https://getprostorage.com/blog/disk-vs-tape-vs-cloud/ | title=Disk vs Tape vs Cloud: What Archiving Strategy is Right for Your Business? |date=February 20, 2018 | publisher=ProStorage |access-date=June 6, 2019 }}</ref>  Large robotic tape libraries are capable of managing hundreds of petabytes of data. Since most tapes in a library sit passively in their storage slot, the system uses relatively little power per TB stored.   By contrast, disks must be kept powered on, spinning, and attached to some sort of computer system. The cost and capacity of storage arrays and tape libraries varies widely.
+
+Disk generally has much lower initial costs, much better access times, and is better suited to online, interactive datasets which are more common in normal everyday usage.  Tape generally has lower marginal costs and is more portable. These attributes make tape very appealing for large, primarily offline data sets, such as [[backup]]s, [[archive]]s, or an offline copy for protection against [[ransomware]].<ref name="Schwartz">{{cite web |url=https://www.itprotoday.com/backup/tape-storage-still-here |title=Tape Storage Is 'Still Here' | last=Schwartz |first=Karen D. |date=February 7, 2019 |publisher=ITPro Today |access-date=July 15, 2021 }}</ref>
+
+==High-density magnetic media==
+In 2002, [[Imation]] received a [[US$]]11.9 million grant from the U.S. [[National Institute of Standards and Technology]] for research into increasing the data capacity of magnetic tape.<ref>{{cite web|title=The Future of Tape: Containing the Information Explosion|url=https://www.datasafe.com/assets/downloads/articles/Tape_Data_Storage.pdf|access-date=12 December 2017|archive-url=https://web.archive.org/web/20171213010536/https://www.datasafe.com/assets/downloads/articles/Tape_Data_Storage.pdf|archive-date=13 December 2017|url-status=dead}}</ref>
+
+In 2014, [[Sony]] and [[IBM]] announced that they had been able to record 148 gigabits per square inch with magnetic tape media developed using a new vacuum thin-film forming technology able to form extremely fine crystal particles, a tape storage technology with the highest reported magnetic tape data density, 148&nbsp;Gbit/in² (23&nbsp;Gbit/cm²), potentially allowing a native tape capacity of 185&nbsp;TB.<ref name="Sony2014">{{cite web |url=http://www.sony.net/SonyInfo/News/Press/201404/14-044E/index.html |title=Sony develops magnetic tape technology with the world's highest*1 areal recording density of 148 Gb/in2 |publisher=Sony Global |access-date=4 May 2014 |archive-url=https://web.archive.org/web/20140505022337/http://www.sony.net/SonyInfo/News/Press/201404/14-044E/index.html |archive-date=5 May 2014 |url-status=dead }}</ref><ref name="Finags">{{cite news|url=https://www.engadget.com/2014/04/30/sony-185tb-data-tape/|title=Sony's 185TB data tape puts your hard drive to shame|last=Fingas|first=Jon|date=4 May 2014|publisher=Engadget|access-date=4 May 2014|archive-url=https://web.archive.org/web/20140503234818/http://www.engadget.com/2014/04/30/sony-185tb-data-tape/|archive-date=3 May 2014|url-status=live}}</ref> It was further developed by [[Sony]], with announcement in 2017, about reported data density of 201&nbsp;Gbit/in² (31&nbsp;Gbit/cm²), giving standard compressed tape capacity of 330&nbsp;TB.<ref name=breakthrough2017>{{cite web|title=Sony Develops Magnetic Tape Storage Technology with the Industry's Highest*1 Recording Areal Density of 201 Gb/in2|url=https://www.sony.net/SonyInfo/News/Press/201708/17-070E/index.html|publisher=Sony|access-date=2018-02-18}}</ref>
+
+In May 2014, [[Fujifilm]] followed Sony and made an announcement that it will develop a 154&nbsp;TB tape cartridge in conjunction with [[IBM]], which will have an [[Areal density (computer storage)|areal data storage density]] of 85.9 GBit/in² (13.3 billion bits per cm²) on linear magnetic particulate tape.<ref>{{cite web |url=http://www.fujifilm.com/news/n140521.html |title=Fujifilm achieves new data storage record of 154TB on advanced prototype tape |access-date=2017-06-07 |url-status=dead |archive-url=https://web.archive.org/web/20170616130841/http://www.fujifilm.com/news/n140521.html |archive-date=2017-06-16 }}</ref> The technology developed by Fujifilm, called NANOCUBIC, reduces the particulate volume of BaFe magnetic tape, simultaneously increasing the smoothness of the tape, increasing the signal to noise ratio during read and write while enabling high-frequency response.{{citation needed|date=July 2022}}
+
+In December 2020, [[Fujifilm]] and [[IBM]] announced technology that could lead to a tape cassette with a capacity of 580 terabytes, using [[Ferrite (magnet)#Strontium_ferrite|strontium ferrite]] as the recording medium.<ref>{{cite web |last1=Grad |first1=Peter |title=Fujifilm, IBM unveil 580-terabyte magnetic tape |url=https://techxplore.com/news/2020-12-fujifilm-ibm-unveil-terabyte-magnetic.html |website=techxplore.com |access-date=31 December 2020 |language=en}}</ref>
+
+==Chronological list of tape formats==
+{{see also|Tape drive#History}}
+[[Image:Ibm-729v.jpg|thumb|IBM 729V]]
+
+{{Div col|colwidth=20em}}
+* 1951: [[UNISERVO]]
+* 1952: [[IBM 7-track]]
+* 1958: [[TX-2 Tape System]]
+* 1961: [[IBM 7340|IBM 7340 Hypertape]]
+* 1962: [[LINCtape]]
+* 1963: [[DECtape]]
+* 1964: [[9-track tape|9-track]]
+* 1964: [[Magnetic tape selectric typewriter]]
+* 1972: [[Quarter-inch cartridge]] (QIC)
+* 1975: [[Kansas City standard|KC standard, Compact Cassette]]
+* 1976: [[DC100]]
+* 1976: [[Compucolor#Compucolor_8001|Compucolor Floppy Tape]]<ref>{{Cite web|url=http://www.oldcomputers.net/compucolor-8001.html|archive-url=https://web.archive.org/web/20160129004542/http://www.oldcomputers.net/compucolor-8001.html|url-status=dead|title=Compucolor 8001 computer|archive-date=January 29, 2016 |publisher=www.oldcomputers.net}}</ref>
+* 1977: [[Tarbell Cassette Interface]]
+* 1977: [[Commodore Datasette]]
+* 1979: [[DECtape II|DECtape II cartridge]]
+* 1979: [[Exatron]] [[Stringy Floppy]]
+* 1981: [[IBM PC Cassette Interface]]
+* 1983: [[Sinclair ZX Microdrive]]
+* 1984: [[Sinclair QL Microdrive]]
+* 1984: [[Rotronics Wafadrive]]
+* 1984: [[IBM 3480 Family|IBM 3480 cartridge]]
+* 1984: [[Digital Linear Tape]] (DLT)
+* 1986: [[Scalable Linear Recording|SLR]]
+* 1987: [[Data8]]
+* 1989: [[Digital Data Storage]] (DDS) on [[Digital Audio Tape]] (DAT)
+* 1992: [[Data Storage Technology|Ampex DST]]
+* 1994: [[8 mm backup format|Mammoth]]
+* 1995: [[IBM 3590 Family|IBM 3590]]
+* 1995: [[StorageTek tape formats|StorageTek Redwood SD-3]]
+* 1995: [[Travan]]
+* 1996: [[Advanced Intelligent Tape|AIT]]
+* 1997: [[IBM Magstar MP 3570|IBM 3570 MP]]
+* 1998: [[StorageTek tape formats|StorageTek T9840]]
+* 1999: [[VXA]]
+* 2000: [[StorageTek tape formats|StorageTek T9940]]
+* 2000: [[Linear Tape-Open|LTO-1]]
+* 2003: [[Advanced Intelligent Tape|SAIT]]
+* 2003: [[LTO-2]]
+* 2003: [[IBM 3592|3592]]
+* 2005: [[LTO-3]]
+* 2005: [[IBM 3592|TS1120]]
+* 2006: [[StorageTek tape formats|StorageTek T10000]]
+* 2007: [[LTO-4]]
+* 2008: [[IBM 3592|TS1130]]
+* 2008: [[StorageTek tape formats|StorageTek T10000B]]
+* 2010: [[LTO-5]]
+* 2011: [[IBM 3592|TS1140]]
+* 2011: [[StorageTek tape formats|StorageTek T10000C]]
+* 2012: [[LTO-6]]
+* 2013: [[StorageTek tape formats|StorageTek T10000D]]
+* 2014: [[IBM 3592|TS1150]]
+* 2015: [[LTO-7]]
+* 2017: [[IBM 3592|TS1155]]
+* 2017: [[LTO-8]]
+* 2018: [[IBM 3592|TS1160]]
+* 2021: [[LTO-9]]
+* 2023: [[IBM 3592|TS1170]]
+* 2025: [[LTO-10]]
+{{Div col end}}
+
+==See also==
+* [[Computer data storage]]
+* [[Data proliferation]]
+* [[Information repository]]
+* [[Linear Tape-Open]]
+* [[Magnetic storage]]
+* [[Tape drive]]
+* [[Tape mark]]
+
+== Explanatory notes ==
+{{Notelist}}
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.iso.org/iso/en/CatalogueListPage.CatalogueList?ICS1=35&ICS2=220&ICS3=22&scopelist=ALL ISC 35.220.22 Magnetic Tapes]
+* [http://www.iso.org/iso/en/CatalogueListPage.CatalogueList?ICS1=35&ICS2=220&ICS3=23&scopelist=ALL ISC 35.220.23 Cassettes and cartridges for magnetic tapes]
+* [https://dl.acm.org/doi/10.1145/3708997 ''Magnetic Tape Storage Technology'', ACM Transactions on Storage, Volume 21, Issue 1, Lantz et al., 08 January 2025]
+* [https://insic.org/wp-content/uploads/2024/08/INSIC-International-Magnetic-Tape-Storage-Technology-Roadmap-2024-1.pdf ''INSIC International Magnetic Tape Storage Technology Roadmap 2024'', Information Storage Industry Consortium white paper, March 2024]
+
+{{Magnetic tape data formats|state=collapsed}}
+{{Audio format}}
+
+[[Category:Computer storage tape media|*]]
+[[Category:1951 in computing]]
+[[Category:1951 in technology]]
+[[Category:Computer-related introductions in 1951]]
+[[Category:Magnetic data storage]]
+[[Category:Magnetic devices]]
+[[Category:Storage media]]
+[[Category:Tape recording]]

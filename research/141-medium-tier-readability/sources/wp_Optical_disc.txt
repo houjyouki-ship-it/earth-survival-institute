@@ -1,0 +1,499 @@
+{{Short description|Flat, usually circular disc that encodes binary data}}
+{{About|storage media such as CDs and DVDs|a similarly-named anatomic feature of the eye|optic disc}}
+{{Redirect|Optical media|transmission media for light|Optical medium|broader definition|optical storage}}
+{{AI-generated|partial=y|date=March 2026|reason=[[Special:Diff/1245518279|this 2024 edit]]; one of many AI edits by this user around this time; note [[WP:AISIGNS]] throughout their other edits/edit summaries, this likely also is}}
+
+[[File:Compact Disc.png|thumb|The bottom surface of a 12&nbsp;cm [[compact disc]] ([[CD-R]]), showing characteristic [[iridescence]]]]
+[[File:CD drive lens.jpg|thumb|The optical lens of a [[compact disc]] [[Optical disc drive|drive]]]]
+{{Memory types}}
+{{Optical disc}}
+
+An '''optical disc''' is a flat, usually{{Efn|See [[shaped compact disc]] and [[bootable business card]] for instance, for exceptions.}} disc-shaped object that stores information in the form of physical variations on its surface that can be read with a beam of light. Optical discs can be reflective, where the light source and detector are on the same side of the disc, or transmissive, where light shines through the disc to be detected on the other side. They may contain [[Analog signal|analog]] or [[Digital electronics|digital]] information, or a mixture of the two. Their main uses are the distribution of [[electronic media]] and data, and [[archival]] storage.
+
+== Design and technology ==
+The encoding material sits atop a thicker substrate (usually [[polycarbonate]]) that makes up the bulk of the disc and forms a dust-defocusing layer. The encoding pattern follows a continuous, spiral path covering the entire disc surface and extending from the innermost track to the outermost track.
+
+The data are stored on the disc with a [[laser]] or [[Replication (optical media)|stamping machine]], and can be accessed when the data path is illuminated with a [[laser diode]] in an [[optical disc drive]] that spins the disc at speeds of about 200 to 4,000 [[RPM]] or more, depending on the drive type, disc format, and the distance of the read head from the center of the disc (outer tracks are read at a higher data speed due to higher [[constant linear velocity|linear velocities]] at the same [[constant angular velocity|angular velocities]]).
+
+Most optical discs exhibit a characteristic [[iridescence]] as a result of the [[diffraction grating]] formed by their grooves.<ref>{{cite book |author=Shinya Yoshioka |editor=Shuichi Kinoshita |title=Pattern formations and oscillatory phenomena |date=2013|publisher=Elsevier|location=Waltham|isbn=978-0-12-397014-5|page=240|edition=Online-Ausg.|doi=10.1016/B978-0-12-397014-5.00006-7|chapter=Structural Color in Nature: Basic Observations and Analysis}}</ref><ref>{{cite journal|last=Cornwall|first=Malcolm G. |title=CD means Colourful Diffraction|journal=Physics Education|date=January 1993|volume=28|issue=1|pages=12–14|doi=10.1088/0031-9120/28/1/002|bibcode=1993PhyEd..28...12C|s2cid=250742863 }}</ref> This side of the disc contains the actual data and is typically coated with a transparent material, usually [[lacquer]].
+
+The reverse side of an optical disc usually has a printed label, sometimes made of paper but often printed or stamped onto the disc itself. Unlike the 3{{frac|1|2}}-inch [[floppy disk]], most optical discs do not have an integrated protective casing and are therefore susceptible to data transfer problems due to scratches, fingerprints, and other environmental problems. Blu-rays have a coating called [[durabis]] that mitigates these problems.
+
+Optical discs have been offered between {{convert|7.6|and|30|cm|in|abbr=on}} in diameter, with {{convert|12|cm|in|abbr=on}} becoming the dominant size beginning 1997.<ref>{{cite report
+ |title=1998 Disk/Trend Report-Optical Disk Drives
+ |last1=Porter |first1=James |last2=Katzive  |first2=Robert |date=August 1998 |page=SUM-16 |quote=Table 7 shows 120mm drives at 98% of 1997 shipments}}</ref> The so-called ''program area'' that contains the data commonly starts 25 millimeters away from the center point.<ref>{{Cite web|url=https://docplayer.es/74808946-Fundamentos-de-hardware.html|title=Fundamentos De Hardware. - PDF Free Download|website=docplayer.es|access-date=2020-08-02|archive-date=2022-02-23|archive-url=https://web.archive.org/web/20220223102343/https://docplayer.es/74808946-fundamentos-de-hardware.html|url-status=dead}}</ref> A typical disc is about {{convert|1.2|mm|in|abbr=on}} thick, while the track pitch (distance from the center of one track to the center of the next) ranges from 1.6 [[μm]] (for CDs) to 320 [[nanometre|nm]] (for [[Blu-ray Disc|Blu-ray discs]]).
+
+=== Recording types ===
+An optical disc is designed to support one of three recording types: read-only (such as CD and [[CD-ROM]]), recordable (write-once, like [[CD-R]]), or re-recordable (rewritable, like [[CD-RW]]). Write-once optical discs commonly have an organic dye (may also be a ([[phthalocyanine]]) [[azo dye]], mainly used by [[Verbatim (brand)|Verbatim]], or an oxonol dye, used by [[Fujifilm]]<ref name="fujifilm">{{Cite web |url=https://www.fujifilm.com/products/storage/pdf/fujifilm_datamedia_catalog_dvd_01.pdf |title=Fujifilm &#91;Global&#93; |access-date=2020-04-13 |archive-url=https://web.archive.org/web/20180714050219/http://www.fujifilm.com/products/storage/pdf/fujifilm_datamedia_catalog_dvd_01.pdf |archive-date=2018-07-14 |url-status=live }}</ref>) recording layer between the substrate and the reflective layer. Rewritable discs typically contain an [[alloy]] recording layer composed of a [[phase change material]], most often [[AgInSbTe]], an alloy of [[silver]], [[indium]], [[antimony]], and [[tellurium]].<ref>[http://www.pctechguide.com/33CDR-RW_CD-RW.htm Guides/Storage/CD-R/CD-RW – PC Technology Guide] {{webarchive|url=https://web.archive.org/web/20090330222151/http://www.pctechguide.com/33CDR-RW_CD-RW.htm |date=2009-03-30 }}. Pctechguide.com (1999-02-22). Retrieved on 2011-10-09.</ref> Azo dyes were introduced in 1996 and phthalocyanine only began to see wide use in 2002. The type of dye and the material used on the reflective layer on an optical disc may be determined by shining a light through the disc, as different dye and material combinations have different colors.
+
+[[Blu-ray Disc recordable]] discs do not usually use an organic dye recording layer, instead using an inorganic recording layer. Those that do are known as low-to-high (LTH) discs and can be made in existing CD and DVD production lines, but are of lower quality than traditional Blu-ray recordable discs.
+
+=== File systems ===
+File systems specifically created for optical discs are [[ISO9660]] and the [[Universal Disk Format]] (UDF).
+
+ISO9660 can be extended using the Joliet extension to store longer file names than standalone ISO9660. The Rock Ridge extension can store even longer file names and Unix/Linux-style file permissions, but is not recognized by Windows and by DVD players and similar devices that can read data discs.
+
+For [[cross-platform]] compatibility, multiple file systems can co-exist on one disc and reference the same files.<ref>[http://www.osta.org/specs/pdf/udf260.pdf UDF 2.60 specification]: 6.11.4 UDF Bridge format.</ref><ref>[http://www.osta.org/specs/pdf/udf102.pdf UDF 1.02 specification]: 6.9 Requirements for DVD-ROM</ref>
+
+=== Usage ===
+Optical discs are most commonly used for [[digital preservation]], storing music (particularly for use in a [[CD player]]), video (such as for use in a [[Blu-ray]] player), or data and programs for [[personal computer]]s (PC), as well as offline [[hard copy]] data distribution due to lower per-unit prices than other types of media. The [[Optical Storage Technology Association]] (OSTA) promoted standardized [[optical storage]] formats.
+
+Libraries and archives enact [[optical media preservation]] procedures to ensure continued usability in the computer's optical disc drive or corresponding disc player.
+
+[[File operation]]s of traditional [[mass storage]] devices such as [[flash drives]], [[memory card]]s and [[hard drive]]s can be simulated using a [[Universal Disk Format|UDF]] live file system.
+
+For computer data backup and physical data transfer, optical discs such as CDs and [[DVD]]s are gradually being replaced with faster, smaller solid-state devices, especially the [[USB flash drive]].<ref>{{Cite book|url=https://books.google.com/books?id=NyXU3KBCdMcC&q=For+computer+data+backup+and+physical+data+transfer,+optical+discs+such+as+CDs+and+DVDs+are+gradually+being+replaced+with+faster,+smaller+solid-state+devices,+especially+the+USB+flash+drive&pg=PA193|title=An Introduction to Lasers Theory and Applications|last=Avadhanulu|first=M. N.|date=2001|publisher=S. Chand Publishing|isbn=9788121920711|language=en|url-status=live|archive-url=https://web.archive.org/web/20180203005723/https://books.google.co.in/books?id=NyXU3KBCdMcC&pg=PA193&lpg=PA193&dq=For+computer+data+backup+and+physical+data+transfer,+optical+discs+such+as+CDs+and+DVDs+are+gradually+being+replaced+with+faster,+smaller+solid-state+devices,+especially+the+USB+flash+drive&source=bl&ots=KX0_cTnEeE&sig=CXcINH7FyhROxjqO-xgYYFWv1XM&hl=en&sa=X&ved=0ahUKEwiR3Z6c5obZAhWJybwKHYIHBUEQ6AEILjAB#v=onepage&q=For%20computer%20data%20backup%20and%20physical%20data%20transfer,%20optical%20discs%20such%20as%20CDs%20and%20DVDs%20are%20gradually%20being%20replaced%20with%20faster,%20smaller%20solid-state%20devices,%20especially%20the%20USB%20flash%20drive&f=false|archive-date=2018-02-03}}</ref> This trend is expected to continue as USB flash drives continue to increase in capacity and drop in price.{{Citation needed|date=July 2013}}
+
+Additionally, music, movies, games, software and TV shows purchased, shared or streamed over the Internet have significantly reduced the number of audio CDs, video DVDs and Blu-ray discs sold annually. However, audio CDs and Blu-rays are still preferred and bought by some, as a way of supporting their favorite works while getting something tangible in return and also since audio CDs (alongside [[vinyl record]]s and [[cassette tape]]s) contain uncompressed audio without the artifacts introduced by [[lossy compression]] algorithms like [[MP3]],<!--and FLAC files are hard to find--> and Blu-rays offer better image and sound quality than streaming media, without visible compression artifacts, due to higher bitrates and more available storage space.<ref>https://www.reviewgeek.com/6416/is-it-better-to-watch-a-4k-movie-on-blu-ray-or-through-streaming/ {{Webarchive|url=https://web.archive.org/web/20200412125930/https://www.reviewgeek.com/6416/is-it-better-to-watch-a-4k-movie-on-blu-ray-or-through-streaming/ |date=2020-04-12 }} (For streaming 4K content, streaming media provider Netflix recommends a 25&nbsp;Mbps internet connection, suggesting a 25&nbsp;Mbit/s bitrate. https://help.netflix.com/en/node/306 {{Webarchive|url=https://web.archive.org/web/20200411122511/https://help.netflix.com/en/node/306 |date=2020-04-11 }} The 2018 [[Ultra HD Blu-ray]] optical disc specification, in comparison, allows for bitrates from 72 to 144&nbsp;Mbit/s for 4K content http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_General_5th_20180216.pdf {{Webarchive|url=https://web.archive.org/web/20200411062740/http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_General_5th_20180216.pdf |date=2020-04-11 }})</ref> However, Blu-rays may sometimes be [[BitTorrent|torrented]] over the internet, but torrenting may not be an option for some, due to restrictions put in place by [[Internet service provider]]s on legal or copyright grounds, low download speeds or not having enough available storage space, since the content may weigh up to several dozen gigabytes. Blu-rays may be the only option for those looking to play large games without having to download them over an unreliable or slow internet connection, which is the reason why they are still (as of 2020) widely used by gaming consoles, like the [[PlayStation 4]] and [[Xbox One X]]. As of 2020, it is unusual for PC games to be available in a physical format like Blu-ray.
+
+Optical discs are typically stored [[Optical disc packaging|in special cases]], sometimes called ''jewel cases''. Discs should not have any stickers and should not be stored together with paper; papers must be removed from the jewel case before storage. Discs should be handled by the edges to prevent scratching, with the thumb on the inner edge of the disc. The ISO Standard 18938:2014 is about best optical disc handling techniques. Optical disc cleaning should never be done in a circular pattern, to avoid concentric circles from forming on the disc. Improper cleaning can scratch the disc. Recordable discs should not be exposed to light for extended periods of time. Optical discs should be stored in dry and cool conditions to increase longevity, with temperatures between -10 and 23&nbsp;°C, never exceeding 32&nbsp;°C, and with humidity never falling below 10%, with recommended storage at 20 to 50% of humidity without fluctuations of more than ±10%.<ref>{{citation |title=ISO 18938:2014 |url=https://www.iso.org/standard/63076.html |publisher=[[ISO]]}}</ref>
+
+=== Durability ===
+[[File:Water running on CD-RW - label side.jpg|thumb|Optical discs are not vulnerable to water.]]
+
+Although optical discs are more durable than earlier audio-visual and data storage formats, they are susceptible to environmental and daily-use damage if handled improperly.
+
+Optical discs are not prone to uncontrollable [[catastrophic failure]]s such as [[head crash]]es, [[Voltage spike|power surge]]s, or exposure to water like [[hard disk drive]]s and [[flash storage]], since optical drives' storage controllers are not tied to optical discs themselves like with hard disk drives and [[flash memory controller]]s, and a disc is usually recoverable from a defective optical drive by pushing an unsharp needle into the emergency ejection pinhole, and has no point of immediate water ingress and no integrated circuitry.
+
+=== Security ===
+As the media itself is accessed only through a laser beam and has no internal control circuitry, it cannot contain malicious hardware in the same way as so-called ''rubber-duckies'' or ''[[USB killer]]s''. Like any data storage media, optical discs can contain malicious ''data,'' and they are able to contain and spread [[malware]] - as happened in the case of the [[Sony BMG copy protection rootkit scandal]] in 2005, where Sony misused discs by pre-loading them with malware.<ref>{{Cite web |title=Inside the Spyware Scandal |url=https://www.technologyreview.com/2006/05/01/229261/inside-the-spyware-scandal/ |access-date=2024-10-15 |website=MIT Technology Review |language=en}}</ref>
+
+Many types of optical discs are factory-pressed or finalized [[write once read many]] storage devices and would therefore not be effective at spreading [[computer worm]]s that are designed to spread by copying themselves onto optical media, because data on those discs can not be modified once pressed or written. However, re-writable disc technologies (such as [[CD-RW]]) ''are'' able to spread this type of malware.<ref>{{Cite web |date=2023-05-16 |title=Autorun worm definition – Glossary |publisher=NordVPN |url=https://nordvpn.com/cybersecurity/glossary/autorun-worm/ |access-date=2024-10-15 |website=nordvpn.com |language=en}}</ref>
+
+== History ==
+{{See also|History of optical storage media}}
+[[File:Lichttonorgelversuchsscheibe.jpg|thumb|An earlier analog optical disc recorded in 1935 for {{interlanguage link|Lichttonorgel|de}} (sampling organ)]]
+{{Multiple image
+| total_width = 230px
+| image1      = Lichtorgel.jpg
+| image2      = Lichtscheiben.jpg
+| footer      = Lichttonorgel & optical disc system
+}}
+
+The first recorded historical use of an optical disc was in 1884 when [[Alexander Graham Bell]], [[Chichester Bell]] and [[Charles Sumner Tainter]] recorded sound on a glass disc using a beam of light.<ref>{{cite web|url=http://newsdesk.si.edu/releases/playback-130-year-old-sounds-revealed|title=Playback: 130-Year-Old Sounds Revealed - Newsdesk|website=newsdesk.si.edu|access-date=3 May 2018|url-status=live|archive-url=https://web.archive.org/web/20170930085522/http://newsdesk.si.edu/releases/playback-130-year-old-sounds-revealed|archive-date=30 September 2017}}</ref>
+
+Optophonie is a very early (1931) example of a recording device using light for both recording and playing back sound signals on a transparent photograph.<ref>{{Cite web|url=https://www.radiomuseum.org/forumdata/users/5100/Funkschau_4Jg_0131_1v1_v20.pdf |archive-url=https://ghostarchive.org/archive/20221009/https://www.radiomuseum.org/forumdata/users/5100/Funkschau_4Jg_0131_1v1_v20.pdf |archive-date=2022-10-09 |url-status=live|title=Das Photo als Schalplatte|language=de|access-date=2020-07-02}}</ref>
+
+An early analogue optical disc system existed in 1935, used on Welte's {{interlanguage link|Lichttonorgel|de}} sampling organ.<ref name=BushKassel2004p164>{{cite book |chapter=Electronic Organ |chapter-url=https://books.google.com/books?id=pmRuBwAAQBAJ&dq=Lichttonorgel%20sample&pg=PA164 |editor-first1=Douglas |editor-last1=Bush |editor-first2=Richard |editor-last2=Kassel |date=2004 |title=The Organ: An Encyclopedia |publisher=Taylor & Francis |isbn=978-1-135-94796-5 |page=164 |quote=In most recent instruments the itmbres have been "samples" (digitally recorded) from existing pipe organs, or resynthesized from samples. (This technology was anticipated by electromechanical oscillators during the 1930s, in what can retrospectively be described as "analog sampling"; examples included the photoelectric LichttonOrgel and the electrostatic Compton Electrone, both of which featured waveforms derived from well-known pipe organs.) |access-date=2023-03-21 |archive-date=2023-06-05 |archive-url=https://web.archive.org/web/20230605104243/https://books.google.com/books?id=pmRuBwAAQBAJ&dq=Lichttonorgel%20sample&pg=PA164 |url-status=live }}</ref>
+
+An early analog optical disc used for video recording was invented by [[David Paul Gregg]] in 1958<ref>{{cite book |first=T.D. |last=Milster |chapter=Optical data storage |title=The Optics Encyclopedia: Basic Foundations and Practical Applications |publisher=Wiley |volume=3 [M–O] |date=2004 |isbn=978-3-527-40320-2 |pages= |oclc=314463541}}</ref> and patented in the US in 1961 and 1969. This form of optical disc was a very early form of the DVD <!--the DVD was developed from Greggs version rather than the earlier optical discs -->({{US Patent|3,430,966}}). It is of special interest that {{US Patent|4,893,297}}, filed 1989, issued 1990, generated [[royalty income]] for Pioneer Corporation's DVA until 2007 —then encompassing the CD, [[DVD]], and Blu-ray systems. In the early 1960s, the Music Corporation of America bought Gregg's patents and his company, Gauss Electrophysics.
+
+American inventor [[James Russell (inventor)|James T. Russell]] has been credited with inventing the first system to record a digital signal on an optical transparent foil that is lit from behind by a high-power halogen lamp. Russell's patent application was first filed in 1966 and he was granted a patent in 1970. Following litigation, Sony and Philips licensed Russell's patents (then held by a Canadian company, Optical Recording Corp.) in the 1980s.<ref>{{cite news|last=Dudley|first=Brier|date=2004-11-29|title=Scientist's invention was let go for a song|newspaper=[[The Seattle Times]]|url=https://archive.seattletimes.com/archive/?date=20041129&slug=cdman29|url-status=live|access-date=2014-07-24|archive-url=https://web.archive.org/web/20140810225444/http://seattletimes.com/html/businesstechnology/2002103322_cdman29.html|archive-date=2014-08-10}}</ref><ref>{{cite press release |date=2000 |publisher=Reed College public affairs office |title=Inventor and Physicist James Russell '53 Will Receive Vollum Award at Reed's Convocation |access-date=2014-07-24 |url=http://reed.edu/news_center/press_releases/2000-2001/288.html |url-status=live |archive-url=https://web.archive.org/web/20131009170700/http://www.reed.edu/news_center/press_releases/2000-2001/288.html |archive-date=2013-10-09 }}</ref><ref>{{cite web|url=http://web.mit.edu/invent/iow/russell.html |title=Inventor of the Week - James T. Russell - The Compact Disc |date=December 1999 |publisher=[[MIT]] |url-status=dead |archive-url=https://web.archive.org/web/20030417162935/http://web.mit.edu/invent/iow/russell.html |archive-date=April 17, 2003 }}</ref>
+
+Both Gregg's and Russell's discs are floppy media read in transparent mode, which imposes serious drawbacks; after this were developed four generations of optical drive that includes Laserdisc (1969), WORM (1979), [[compact disc]] (1984), DVD (1995), Blu-ray (2005), [[HD DVD]] (2006).
+
+===First-generation===
+At the start, optical discs were read-only media used to store broadcast-quality analog video, and later digital media such as music or computer software. The [[LaserDisc]] format stored [[analog video]] signals for the distribution of [[home video]], but commercially lost to the [[VHS]] [[Videocassette#Cassette formats|videocassette]] format, due mainly to its high cost and non-re-recordability; other first-generation disc formats were designed only to store digital data and were not initially capable of use as a [[digital video]] medium.
+
+Most first-generation disc devices had an [[infrared laser]] reading head. The minimum size of the laser spot is proportional to the [[wavelength]] of the laser, so wavelength is a limiting factor upon the amount of information that can be stored in a given physical area on the disc. The infrared range is beyond the long-wavelength end of the visible light spectrum, so it supports less density than shorter-wavelength visible light. One example of high-density data storage capacity, achieved with an infrared laser, is 700&nbsp;MB of net user data for a 12&nbsp;cm compact disc.
+
+Other factors that affect data storage density include: the existence of multiple layers of data on the disc, the method of rotation ([[Constant linear velocity]] (CLV), [[Constant angular velocity]] (CAV), or zoned-CAV), the composition of lands and pits, and how much margin is unused is at the center and the edge of the disc.
+
+Sony and Philips developed the CD in the mid-1980s. 16-bit samples of the analog signal were taken at the rate of [[44,100 Hz|44,100 samples per second]]. This sample rate was based on the [[Nyquist rate]] of 40,000 samples per second required to capture the audible frequency range to 20&nbsp;kHz without aliasing, with an additional tolerance to allow the use of less-than-perfect analog [[anti-aliasing filter]]s.<ref>Hass, J. ''Introduction to Computer Music'', Indiana University CECM (retrieved 8 October 2014), Volume One, Chapter Five: Digital Audio.{{cite web|title=Chapter Five: Principles of Digital Audio|url=http://www.indiana.edu/~emusic/etext/digital_audio/chapter5_rate.shtml|url-status=dead|archive-url=https://web.archive.org/web/20140608134439/http://www.indiana.edu/%7Eemusic/etext/digital_audio/chapter5_rate.shtml|archive-date=2014-06-08|access-date=2014-10-08}}</ref> The standard allows up to 74 minutes of music or 650&nbsp;MB of data storage.
+
+'''Types of Read-only Optical Discs:'''
+* [[Compact disc]] (CD) and derivatives
+** [[Audio CD]]
+** [[Video CD]] (VCD)
+** [[Super Video CD]]
+** [[CD Video]]
+** [[CD-Interactive]]
+* [[LaserDisc]]
+* [[GD-ROM]]
+* [[Double Density Compact Disc]] (DDCD)
+* [[MiniDisc]] (MD)
+** [[MD Data]]
+** [[Hi-MD]]
+
+====Laserdisc====
+In the [[Netherlands]] in 1969, [[Philips]] Research [[physicist]], Pieter Kramer invented an optical [[videodisc]] in reflective mode with a protective layer read by a focused [[laser]] beam {{US Patent|5,068,846}}, filed 1972, issued 1991. Kramer's physical format is used in all optical discs.
+
+In 1975, Philips and MCA began to work together, and in 1978, commercially much too late, they presented their long-awaited [[Laserdisc]] in [[Atlanta]]. MCA delivered the discs and Philips the players. However, the presentation was a commercial failure, and the cooperation ended.
+
+In Japan and the U.S., [[Pioneer Corporation|Pioneer]] succeeded with the Laserdisc until the advent of the DVD. In 1979, Philips and [[Sony]], in consortium, successfully developed the [[audio compact disc]].
+
+====CD-ROM====
+
+The [[CD-ROM]] format was developed by Sony and [[Philips]], introduced in 1984, as an extension of [[Compact Disc Digital Audio]] and adapted to hold any form of digital data. The same year, Sony demonstrated a [[LaserDisc]] data storage format, with a larger data capacity of 3.28&nbsp;GB.<ref>[https://www.youtube.com/watch?v=rbh1XP4kCT4 Japanese PCs (1984)] {{Webarchive|url=https://web.archive.org/web/20170707091011/https://www.youtube.com/watch?v=rbh1XP4kCT4 |date=2017-07-07 }} (14:24), ''[[Computer Chronicles]]''</ref>
+
+'''Types of recordable Optical Discs'''
+* [[Magneto-optical disc]]
+* [[Phase-change Dual]]
+* [[Write Once Read Many]] (WORM)
+
+====Magneto-optical drive====
+Magneto-optical discs are erasable media, they can be written and read many times; the media and drives were first introduced in late 1987 and early 1988 by [[Sharp Corporation|Sharp]], [[Panasonic|MCI]], [[Sony]] and others, all using SCSI interface. Capacity ranged from 512 MB on 130&nbsp;mm media to 160 Mb on 90&nbsp;mm media.<ref>{{cite report |title=1988 DISK/TREND REPORT-OPTICAL DISK DRIVES |last1=Porter |first1=James |last2=Katzive  |first2=Robert |date=August 1988 |pages=OSPEC-4 to -19 |quote=Five MO models shown out of 80 total models}}</ref> By 1998 there were more than 50 models offered by 12 vendors with media of 86 and 130&nbsp;mm in diameter and offering capacities up to 2,600 MB, almost all using SCSI interface.<ref>{{cite report |title=1998 DISK/TREND REPORT-OPTICAL DISK DRIVES |last1=Porter |first1=James |last2=Katzive  |first2=Robert |date=August 1998 |pages=OSPEC-4 to -16}}</ref>
+
+====WORM drive====
+In 1979, Exxon STAR Systems in Pasadena, CA built a computer controlled WORM drive that utilized thin film coatings of Tellurium and Selenium on a 12" diameter glass disk. The recording system utilized blue light at 457&nbsp;nm to record and red light at 632.8&nbsp;nm to read. STAR Systems was bought by Storage Technology Corporation (STC) in 1981 and moved to Boulder, CO. Development of the WORM technology was continued using 14" diameter aluminum substrates. Beta testing of the disk drives, originally labeled the Laser Storage Drive 2000 (LSD-2000), was only moderately successful. Many of the disks were shipped to RCA Laboratories (now David Sarnoff Research Center) to be used in the Library of Congress archiving efforts. The STC disks utilized a sealed cartridge with an optical window for protection {{US Patent|4,542,495}}.
+
+===Second-generation===
+Second-generation optical discs were for storing great amounts of data, including broadcast-quality digital video. Such discs usually are read with a visible-light laser (usually red); the shorter wavelength and greater [[numerical aperture]]<ref name="Crutchfield Advisor">[http://www.crutchfieldadvisor.com/S-UNO5yLxzuZf/learningcenter/home/hd_blu.html?page=2 Format War Update: Blu-ray Wins Over HD DVD] {{webarchive|url=https://web.archive.org/web/20080110072357/http://www.crutchfieldadvisor.com/S-UNO5yLxzuZf/learningcenter/home/hd_blu.html?page=2 |date=2008-01-10 }}. Crutchfieldadvisor.com. Retrieved on 2011-10-09.</ref> allow a narrower light beam, permitting smaller pits and lands in the disc. In the DVD format, this allows 4.7&nbsp;GB storage on a standard 12&nbsp;cm, single-sided, single-layer disc; alternatively, smaller media, such as the [[DataPlay]] format, can have capacity comparable to that of the larger, standard compact 12&nbsp;cm disc.<ref>{{cite web|title=Optical Carriers|url=http://webworld.unesco.org/safeguarding/en/pdf/txt_opti.pdf|url-status=dead|archive-url=https://web.archive.org/web/20151214233640/http://webworld.unesco.org/safeguarding/en/pdf/txt_opti.pdf|archive-date=2015-12-14|access-date=2013-11-27}}</ref>
+
+* [[DVD]] and derivatives
+** [[DVD-Video]]
+** [[DVD-Audio]]
+** [[DualDisc]]
+** [[Digital Video Express]] (DIVX)
+** [[DVD-RAM]]
+** [[DVD±R]]
+* [[Hi-Vision LD]]
+* [[Nintendo GameCube Game Disc]] (miniDVD derivative)
+* [[Wii Optical Disc]] (DVD derivative)
+* [[Super Audio CD]] (SACD)
+* [[Enhanced Versatile Disc]]
+* [[DataPlay]]
+* [[Universal Media Disc]] (UMD)
+* [[Ultra Density Optical]]
+
+====DVD-ROM====
+
+In 1995, a consortium of manufacturers (Sony, Philips, [[Toshiba]], [[Panasonic]]) developed the second generation of the optical disc, the [[DVD]].<ref>{{cite thesis|last=Hawan Kim|first=Sung|title=June 2004|url=http://dspace.mit.edu/bitstream/handle/1721.1/17865/56611707.pdf|publisher=Massachusetts Institute of Technology|url-status=live|archive-url=https://web.archive.org/web/20131204001454/http://dspace.mit.edu/bitstream/handle/1721.1/17865/56611707.pdf|archive-date=2013-12-04|year=2004|type=Thesis}}</ref> The [[DVD]] disc appeared after the CD-ROM had become widespread in society.
+
+===Third-generation===
+Third-generation optical discs are used for distributing [[HDTV|high-definition video]] and videogames and support greater data storage capacities, accomplished with short-wavelength visible-light lasers and greater numerical apertures. Blu-ray Disc and HD DVD uses [[blue-violet lasers]] and focusing optics of greater aperture, for use with discs with smaller pits and lands, thereby greater data storage capacity per layer.<ref name="Crutchfield Advisor" />
+In practice, the effective multimedia presentation capacity is improved with enhanced video [[data compression]] [[codec]]s such as [[H.264/MPEG-4 AVC]] and [[VC-1]].
+
+* [[Blu-ray]] and derivatives (up to 400&nbsp;GB - experimental<ref>{{cite web|last=Ricker|first=Thomas|date=2008-07-07|title=Pioneer's Blu-ray disc hits 400GB across 16-layers|url=https://www.engadget.com/2008/07/07/pioneers-blu-ray-disc-hits-400gb/|url-status=live|archive-url=https://web.archive.org/web/20170824205025/https://www.engadget.com/2008/07/07/pioneers-blu-ray-disc-hits-400gb/|archive-date=2017-08-24|website=EnGadget.com}}</ref><ref>{{cite web | website = www.gizmag.com | url = http://www.gizmag.com/pioneer-develops-16-layer-400-gb-optical-disc/9598/ | title = Pioneer's 400 GB Blu-ray Disc | date = 8 July 2008 | url-status = live | archive-url = https://web.archive.org/web/20130925124548/http://www.gizmag.com/pioneer-develops-16-layer-400-gb-optical-disc/9598/ | archive-date = 2013-09-25 }}</ref>)
+** [[Blu-ray Disc recordable|BD-R and BD-RE]]
+** [[High Fidelity Pure Audio]]
+** [[AVCHD]] and [[AVCREC]]
+** BDXL and Blu-ray 3D
+** [[Ultra HD Blu-ray]] (4K Blu-ray) and 8K Blu-ray<ref>{{cite web|url=https://displaydaily.com/blu-ray-disc-association-settles-on-8k-format/|title=Blu-ray Disc Association Settles on 8K Format|first=Chris|last=Chinnock|date=January 22, 2018|access-date=August 24, 2023}}</ref>
+* [[Wii U Optical Disc]] (25 GB per layer)
+* [[HD DVD]] (discontinued disc format, up to 51&nbsp;GB triple layer)
+* [[CBHD]] (a derivative of the HD DVD format)
+* [[HD VMD]]
+* [[Professional Disc]]
+Announced but not released:
+* [[Digital Multilayer Disk]]
+* [[Fluorescent Multilayer Disc]]
+* [[Forward Versatile Disc]]
+
+====Blu-ray and HD DVD====
+The third generation optical disc was developed in 2000–2006 and was introduced as Blu-ray Disc. First movies on Blu-ray Discs were released in June 2006.<ref>{{cite web|last=Drawbaugh|first=Ben|date=June 19, 2006|title=HD DVD and Blu-ray movies released on June 20th 2006|url=https://www.engadget.com/2006/06/19/hd-dvd-and-blu-ray-movies-released-on-june-20th-2006/|url-status=live|archive-url=https://web.archive.org/web/20180411111451/https://www.engadget.com/2006/06/19/hd-dvd-and-blu-ray-movies-released-on-june-20th-2006/|archive-date=2018-04-11|publisher=Engadget International Editions}}</ref> Blu-ray eventually prevailed in a [[high definition optical disc format war]] over a competing format, the [[HD DVD]]. A standard Blu-ray disc can hold about 25&nbsp;GB of data, a DVD about 4.7&nbsp;GB, and a CD about 700&nbsp;MB.
+
+[[File:Comparison CD DVD HDDVD BD.svg|thumb|upright=1.2|Comparison of various optical storage media]]
+
+===Fourth-generation===
+The following formats go beyond the current third-generation discs and have the potential to hold more than one terabyte (1 [[Terabyte|TB]]) of data and at least some are meant for cold [[computer data storage|data storage]] in [[data centers]]:<ref>{{Cite news |title=Sony Everspan Optical Disc Data Archive System Ready For IoT |url=http://www.hughsnews.ca/sony-everspan-optical-disc-data-archive-system-ready-for-iot-0056191 |access-date=2023-03-02 |work=Hughsnews.ca |archive-date=2023-06-05 |archive-url=https://web.archive.org/web/20230605104244/http://www.hughsnews.ca/sony-everspan-optical-disc-data-archive-system-ready-for-iot-0056191 |url-status=live }}</ref>{{Dubious|date=May 2020}}
+* [[Ultra HD Blu-ray]]
+* [[Archival Disc]]
+* [[Optical Disc Archive]]
+Announced but abandoned:
+* [[Holographic Versatile Disc]]
+Announced but not released:
+* [[LS-R]]
+* Protein-coated disc
+* [[Stacked Volumetric Optical Disc]]
+* 5D DVD
+* [[3D optical data storage]] (not a single technology, examples are [[Hyper CD-ROM]] and [[Fluorescent Multilayer Disc]])
+
+In 2004, development of the [[Holographic Versatile Disc]] (HVD) commenced, which promised the storage of several terabytes of data per disc. However, development stagnated towards the late 2000s due to lack of funding.
+
+In 2006, it was reported that Japanese researchers developed ultraviolet ray lasers with a wavelength of 210 nanometers, which would enable a higher [[bit]] density than Blu-ray discs.<ref>{{Cite web |last=Kleiner |first=Kurt |date=17 May 2006 |title=Ultraviolet LED may boost disc capacity |url=https://www.newscientist.com/article/dn9183-ultraviolet-led-may-boost-disc-capacity/ |access-date=2022-04-18 |website=New Scientist |language=en-US |archive-date=2022-04-18 |archive-url=https://web.archive.org/web/20220418211948/https://www.newscientist.com/article/dn9183-ultraviolet-led-may-boost-disc-capacity/ |url-status=live }}</ref> As of 2022, no updates on that project have been reported.
+
+===Overview of optical types===
+{| class="wikitable sortable"
+|-
+! Name !! Capacity !! Experimental<ref group=Note>Prototypes and theoretical values.</ref> !! Years<ref group=Note>Years from (known) start of development till end of sales or development.</ref>
+|-
+| [[LaserDisc]] (LD) || N/A || || 1971–2007
+|-
+| [[Write Once Read Many Disk]] (WORM) || 0.2–6.0 GB || || 1979–1984
+|-
+| [[Compact disc]] (CD) || 0.7–0.9 GB || || 1982–present
+|-
+| Electron Trapping Optical Memory (ETOM) || 6.0–12.0 GB || || 1987–1996
+|-
+| [[MiniDisc]] (MD) || 0.14–1.0 GB || || 1989–2025
+|-
+| [[Magneto-optical drive|Magneto Optical Disc]] (MOD) || 0.1–16.7 GB || || 1990–present
+|-
+| [[Digital Versatile Disc]] (DVD) || 4.7–17 GB || || 1995–present
+|-
+| [[LIMDOW]] (Laser Intensity Modulation Direct OverWrite) || 2.6 GB||10 GB||1996–present
+|-
+| [[GD-ROM]] || 1.2 GB || || 1997–2006
+|-
+| [[Fluorescent Multilayer Disc]] || || 50–140 GB || 1998-2003
+|-
+| [[Versatile Multilayer Disc]] (VMD) || 5–20 GB || 100 GB || 1999-2010
+|-
+| [[Hyper CD-ROM]] || 1 PB ''(supposedly; no working prototype)'' || 100 EB ''(only theoretically)'' ||1999–present
+|-
+| [[DataPlay]] || 500 MB || || 1999-2006
+|-
+| [[Ultra Density Optical]] (UDO) || 30–60 GB || || 2000–present
+|-
+| [[Forward Versatile Disc]] (FVD) || 5.4–15 GB || || 2005–2006<ref>{{cite web |author1=Computer Language Company |title=Definition: FVD |url=https://www.computerlanguage.com/results.php?definition=Forward+Versatile+Disc |access-date=11 October 2024 |ref=CLCFVD}}</ref>
+|-
+| [[Enhanced Versatile Disc]] (EVD) || DVD || || 2002-2004
+|-
+| [[HD DVD]] || 15–51 GB || 1 TB{{Citation_needed|reason=|date=December 2015}} || 2002-2008
+|-
+| [[Blu-ray Disc]] (BD) || 25 GB<br />50 GB || || 2002–present
+|-
+| [[BDXL]] || 100 GB, 128 GB || 1 TB || 2010–present
+|-
+| [[Professional Disc for Data]] (PDD) || 23 GB || || 2003-2006
+|-
+| [[Professional Disc]] || 23–128 GB || || 2003–present
+|-
+| [[Digital Multilayer Disk]] || || 22-32 GB || 2004–2007
+|-
+| [[Multiplexed Optical Data Storage]] (MODS-Disc) || || 250 GB–1 TB || 2004–present
+|-
+| [[Universal Media Disc]] (UMD) ||0.9–1.8 GB || || 2004–2014
+|-
+| [[Holographic Versatile Disc]] (HVD) || || 6.0 TB || 2004–2012
+|-
+| Protein-coated disc (PCD) || || 50 TB || 2005–2006
+|-
+| [[M-DISC]] || 4.7 GB (DVD format)<br />25 GB (Blu-ray format)<br />50 GB (Blu-ray format)<br /> 100 GB ([[BDXL]] format)<ref>{{cite web |url=http://www.mdisc.com/100gb |title=100 GB Disc - M-DISC |website=MDisc.com |archive-url=https://web.archive.org/web/20151018064310/http://www.mdisc.com/100gb/ |archive-date=18 October 2015 }}</ref> || || 2009–present
+|-
+| [[Archival Disc]] || 0.3-1 TB || || 2014–2024
+|-
+| [[Optical Disc Archive]] || 0.3-5.5 TB || || 2012–2024
+|-
+| [[Ultra HD Blu-ray]] || 50 GB<br />66 GB<br />100 GB<br />128 GB || || 2015–present
+|}
+====Notes====
+<references group=Note/>
+
+==Recordable and writable optical discs==
+{{Main|Optical disc recording technologies}}
+There are numerous formats of optical [[direct to disk recording]] devices on the market, all of which are based on using a laser to change the [[reflectivity]] of the [[digital recording]] medium in order to duplicate the effects of the pits and lands created when a commercial optical disc is pressed. Formats such as [[CD-R]] and [[DVD-R]] are [[write once read many]] or write-once, while [[CD-RW]] and [[DVD-RW]] are rewritable, more like a [[magnetic recording]] [[hard disk drive]] (HDD).
+
+Media technologies vary, for example, [[M-DISC]] media uses a rock-like layer to retain data for longer than conventional recordable media. While being read-only compatible with existing DVD and Blu-ray drives, M-DISC media can only be written to using a stronger laser specifically made for this purpose, which is built into fewer optical drive models.
+
+==Surface error scanning==
+{{expand section|date=July 2020}}
+[[File:QPxTool DVD error rate graph.png|thumb|Error rate measurement on a DVD+R. The error rate is still within a healthy range.]]
+
+Optical media can [[Predictive failure analysis|predictively]] be scanned for errors and [[disc rot|media deterioration]] well before any data becomes unreadable.<ref>{{Cite web|url=https://qpxtool.sourceforge.io/faq.html|title=QPxTool - check the quality|website=qpxtool.sourceforge.io|access-date=2020-07-06|archive-date=2020-08-06|archive-url=https://web.archive.org/web/20200806024813/https://qpxtool.sourceforge.io/faq.html|url-status=live}}</ref> Optical formats include some redundancy for [[error correction]], which works until the amount of error exceeds a threshold. A higher rate of errors may indicate deteriorating or low-quality media, physical damage, an unclean surface or media written using a defective optical drive.
+
+Precise error scanning requires access to the raw, uncorrected readout of a disc, which is not always provided by a drive. As a result, support of this functionality varies per optical drive manufacturer and model. On ordinary drives without this functionality, it is possible to still look for unexpected reduction in read speed as an indirect, much less reliable measure.<ref>{{cite web| url = https://qpxtool.sourceforge.io/supported.html| title = List of supported devices by disc quality scanning software QPxTool| access-date = 2020-07-06| archive-date = 2020-07-06| archive-url = https://web.archive.org/web/20200706162837/https://qpxtool.sourceforge.io/supported.html| url-status = live}}</ref>
+
+Optical media, such as [[CD]]s and [[DVD]]s, can be scanned to detect errors and signs of deterioration well before data becomes unreadable. These formats include built-in [[error correction]] mechanisms, which function by adding redundant data. However, once the rate of errors surpasses the correction threshold, the media becomes vulnerable to failure. A high error rate can signal physical deterioration, low-quality manufacturing, surface contamination, or data recorded by a faulty optical drive.
+
+Several specialized tools are available for performing error scans on optical media. Popular programs include [[Nero DiscSpeed]], [[KProbe|K-Probe]], Opti Drive Control (previously known as CD Speed 2000), and DVD Info Pro for [[Windows]]. For cross-platform users, QPxTool is available to help monitor and maintain optical media integrity. Each of these tools allows for detailed analysis of the error rates and conditions affecting optical discs.
+
+=== Error types ===
+There are different types of error measurements, including so-called ''"C1"'', ''"[[C2 error|C2]]"'' and ''"CU"'' errors [[Compact disc#Measurement|on CDs]], and ''"PI/PO (parity inner/outer) errors"'' and the more critical [[DVD#Disc quality measurements|''"PI/PO failures"'' on DVDs]]. Finer-grain error measurements on CDs supported by very few optical drives are called ''E11'', ''E21'', ''E31'', ''E21'', ''E22'', ''E32''.
+
+''"CU"'' and ''"POF"'' represent uncorrectable errors on data CDs and DVDs respectively, thus [[data loss]], and can be a result of too many consecutive smaller errors.<ref>{{cite web |title=QPxTool glossary |url=https://qpxtool.sourceforge.io/glossar.html |website=qpxtool.sourceforge.io |publisher=QPxTool |access-date=22 July 2020 |ref=QPx-Glossary |archive-date=1 August 2021 |archive-url=https://web.archive.org/web/20210801053045/https://qpxtool.sourceforge.io/glossar.html |url-status=live }}</ref>
+
+Due to the weaker error correction used on [[Audio CD]]s ([[Compact Disc Digital Audio|Red Book]] standard) and [[Video CD]]s ([[White Book (CD standard)|White Book]] standard), [[C2 error]]s already lead to data loss. However, even with C2 errors, the damage is inaudible to some extent.
+
+[[Blu-ray]] discs use so-called ''LDC'' (''Long Distance Code''s) and ''BIS'' (''Burst Indication Subcode''s) error parameters. According to the developer of the ''Opti Drive Control'' software, a disc can be considered healthy at an ''LDC'' error rate below 13 and ''BIS'' error rate below 15.<ref name="cdrinfo-BD">{{cite web |title=Blu-Ray Writing Quality Tests Vol 2 |url=https://www.cdrinfo.com/Sections/Reviews/Print.aspx?ArticleId=25532 |website=CdrInfo.com |publisher=CDR Info |access-date=1 August 2020 |date=2009-06-19 |archive-date=2010-01-07 |archive-url=https://web.archive.org/web/20100107203123/https://www.cdrinfo.com/Sections/Reviews/Print.aspx?ArticleId=25532 |url-status=live }}</ref>
+
+==Optical disc manufacturing==
+{{Main|CD manufacturing}}
+
+Optical discs are made using replication. This process can be used with all disc types. Recordable discs have pre-recorded vital information, like manufacturer, disc type, maximum read and write speeds, etc. In replication, a [[cleanroom]] with yellow light is necessary to protect the light-sensitive photoresist and to prevent dust from corrupting the data on the disc.
+
+A glass master is used in replication. The master is placed in a machine that cleans it as much as possible using a rotating brush and deionized water, preparing it for the next step. In the next step, a surface analyzer inspects the cleanliness of the master before photoresist is applied on the master.
+ 
+The photoresist is then baked in an oven to solidify it. Then, in the exposure process, the master is placed in a turntable where a laser selectively exposes the resist to light. At the same time, a developer and deionized water are applied to the disc to remove the exposed resist. This process forms the pits and lands that represent the data on the disc.
+
+A thin coating of metal is then applied to the master, making a negative of the master with the pits and lands in it. The negative is then peeled off the master and coated in a thin layer of plastic. The plastic protects the coating while a punching press punches a hole into the center of the disc, and punches excess material.
+
+The negative is now a stamper - a part of the mold that will be used for replication. It is placed on one side of the mold with the data side containing the pits and lands facing out. This is done inside an injection molding machine. The machine then closes the mold and injects polycarbonate in the cavity formed by the walls of the mold, which forms or molds the disc with the data on it.
+
+The molten polycarbonate fills the pits or spaces between the lands on the negative, acquiring their shape when it solidifies. This step is somewhat similar to [[Production of phonograph records|record pressing]].
+
+The polycarbonate disc cools quickly and is promptly removed from the machine, before forming another disc. The disc is then metallized, covered with a thin reflective layer of aluminum. The aluminum fills the space once occupied by the negative.
+
+A layer of varnish is then applied to protect the aluminum coating and provide a surface suitable for printing. The varnish is applied near the center of the disc, and the disc is spun, evenly distributing the varnish on the surface of the disc. The varnish is hardened using UV light. The discs are then silkscreened or a label is otherwise applied.<ref>{{Cite web|url=https://www.singulus.com/en/skyline-ii.html|title=CD Production Replication Machine |date=March 3, 2020 |publisher=Singulus Technologies |access-date=April 11, 2020|archive-date=April 11, 2020|archive-url=https://web.archive.org/web/20200411062834/https://www.singulus.com/en/skyline-ii.html|url-status=live}}</ref><ref>{{Cite web |title=Skyline II Replication Line for CD & DVD 5 |url=https://www.singulus.com/fileadmin/user_upload/202003/SKYLINE_II_2_2020.pdf |url-status=dead |archive-url=https://web.archive.org/web/20200411071527/https://www.singulus.com/fileadmin/user_upload/202003/SKYLINE_II_2_2020.pdf |archive-date=April 11, 2020 |publisher=Singulus Technologies }}</ref><ref>How it's made: Compact discs, Season 1, Episode 2</ref>
+
+Recordable discs add a dye layer, and rewritable discs add a phase change alloy layer instead, which is protected by upper and lower dielectric (electrically insulating) layers. The layers may be sputtered. The additional layer is between the grooves and the reflective layer of the disc. Grooves are made in recordable discs in place of the traditional pits and lands found in replicated discs, and the two can be made in the same exposure process.<ref>{{Cite web |url=http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_BD-R_7th_20150818_clean.pdf |title=White Paper Blu-ray Disc™ Format |access-date=2020-04-11 |archive-url=https://web.archive.org/web/20151016221203/http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_BD-R_7th_20150818_clean.pdf |archive-date=2015-10-16 |url-status=dead }}</ref><ref name="wp">{{Cite web |title=White Paper, Blu-ray Disc Format |url=http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_BD-RE_5th_20180216.pdf |url-status=dead |archive-url=https://web.archive.org/web/20200411111052/http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_BD-RE_5th_20180216.pdf |archive-date=April 11, 2020 |website=Blu-Ray Disc}}</ref><ref name="wpg">{{Cite web |url=http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_General_5th_20180216.pdf |title=White Paper Blu-ray Disc™ Format General 5th Edition |access-date=2020-04-11 |archive-date=2020-04-11 |archive-url=https://web.archive.org/web/20200411062740/http://www.blu-raydisc.com/Assets/Downloadablefile/White_Paper_General_5th_20180216.pdf |url-status=dead }}</ref><ref>{{Cite web |url=http://www.blu-raydisc.com/Assets/Downloadablefile/White%20Paper%20BD-ROM_Part1_9th_20150806_clean.pdf |title=White Paper Blu-ray Disc™ Format 1.C Physical Format Specifications for BD-ROM 9th Edition |access-date=2020-04-11 |archive-url=https://web.archive.org/web/20190531020530/http://www.blu-raydisc.com/Assets/Downloadablefile/White%20Paper%20BD-ROM_Part1_9th_20150806_clean.pdf |archive-date=2019-05-31}}</ref><ref>{{Cite web|url=http://art-design-glossary.musabi.ac.jp/|title=MAU ART & DESIGN GLOSSARY｜Musashino Art University|website=MAU ART & DESIGN GLOSSARY｜Musashino Art University|access-date=2020-04-09|archive-url=https://web.archive.org/web/20191004043421/http://art-design-glossary.musabi.ac.jp/|archive-date=2019-10-04|url-status=live}}</ref> In DVDs, the same processes as in CDs are carried out, but in a thinner disc. The thinner disc is then bonded to a second, equally thin but blank, disc using UV-curable [[Liquid optically clear adhesive]], forming a DVD disc.<ref>{{Cite web |url=https://electronics.howstuffworks.com/blu-ray2.htm |title=How Blu-ray Discs Work |date=16 October 2004 |access-date=2020-04-21 |archive-url=https://web.archive.org/web/20191220124440/https://electronics.howstuffworks.com/blu-ray2.htm |archive-date=2019-12-20 |url-status=live }}</ref><ref name="fujifilm"/><ref>{{Cite web |title=SPACELINE II |url=https://www.singulus.com/fileadmin/user_upload/202003/SPACELINE_II_2_2020.pdf |url-status=dead |archive-url=https://web.archive.org/web/20200411071530/https://www.singulus.com/fileadmin/user_upload/202003/SPACELINE_II_2_2020.pdf |archive-date=April 11, 2020 |publisher=Singulus Technologies }}</ref><ref>{{Cite web|url=https://www.singulus.com/en/spaceline-ii.html|title=DVD Production Replication Machine |date=March 3, 2020 |publisher=Singulus Technologies |access-date=April 11, 2020|archive-date=April 11, 2020|archive-url=https://web.archive.org/web/20200411062811/https://www.singulus.com/en/spaceline-ii.html|url-status=live}}</ref> This leaves the data in the middle of the disc, which is necessary for DVDs to achieve their storage capacity. In multi layer discs, semi reflective instead of reflective coatings are used for all layers except the last layer, which is the deepest one and uses a traditional reflective coating.<ref>{{cite web |url=https://docs-europe.electrocomponents.com/webdocs/0bdc/0900766b80bdcccf.pdf |title=TDK BD-R(E) 25/50GB |website=docs-europe.electrocomponents.com |access-date=14 January 2022 |archive-url=https://web.archive.org/web/20200413022441/https://docs-europe.electrocomponents.com/webdocs/0bdc/0900766b80bdcccf.pdf |archive-date=13 April 2020 |url-status=dead}}</ref><ref>{{Cite web|url=https://www.techpowerup.com/10670/tdk-developing-quad-and-octal-layer-blu-ray-discs|title=TDK developing Quad and Octal layer Blu-ray discs|website=TechPowerUp|date=12 April 2006 |access-date=2020-04-09|archive-date=2020-04-21|archive-url=https://web.archive.org/web/20200421205738/https://www.techpowerup.com/10670/tdk-developing-quad-and-octal-layer-blu-ray-discs|url-status=live}}</ref><ref>{{Cite web|url=https://www.cdrom2go.com/dvd-plus-r-dl-double-layer|title=Knowledge Base {{pipe}} DVD+R DL - CDROM2GO|website=Cdrom2Go.com|access-date=2020-04-09|archive-date=2020-04-21|archive-url=https://web.archive.org/web/20200421205801/https://www.cdrom2go.com/dvd-plus-r-dl-double-layer|url-status=live}}</ref>
+
+Dual layer DVDs are made slightly differently. After metallization (with a thinner metal layer to allow some light to pass through), base and pit transfer resins are applied and pre-cured in the center of the disc. Then the disc is pressed again using a different stamper, and the resins are completely cured using UV light before being separated from the stamper. Then the disc receives another, thicker metallization layer, and is then bonded to the blank disc using LOCA glue. DVD-R DL and DVD+R DL discs receive a dye layer after curing, but before metallization. CD-R, DVD-R, and DVD+R discs receive the dye layer after pressing but before metallization. CD-RW, DVD-RW and DVD+RW receive a metal alloy layer sandwiched between 2 dielectric layers. HD DVD is made in the same way as DVD. In recordable and rewritable media, most of the stamper is composed of grooves, not pits and lands. The grooves contain a [[wobble frequency]] that is used to locate the position of the reading or writing laser on the disc. DVDs use pre-pits instead, with a constant frequency wobble.<ref name="wp"/>
+
+===Blu-ray===
+''HTL'' ([[Blu-ray Disc recordable#HTL (high to low)|high-to-low type]]) Blu-ray discs are made differently. First, a [[silicon wafer]] is used instead of a glass master.<ref>{{Cite web |title=Post-mastering: galvanics and stamper preparation |url=http://www.media-tech.net/fileadmin/templates/BD_News/OTO222forMTA.pdf |url-status=dead |archive-url=https://web.archive.org/web/20090919181009/http://www.media-tech.net/fileadmin/templates/BD_News/OTO222forMTA.pdf |archive-date=September 19, 2009}}</ref> The wafer is processed in the same way a glass master would.
+
+The wafer is then electroplated to form a 300-micron thick nickel stamper, which is peeled off from the wafer. The stamper is mounted onto a mold inside a press or embosser.
+
+The polycarbonate discs are molded in a similar fashion to DVD and CD discs. If the discs being produced are BD-Rs or BD-REs, the mold is fitted with a stamper that stamps a groove pattern onto the discs, in lieu of the pits and lands found on BD-ROM discs.
+
+After cooling, a 35 nanometre-thick layer of silver alloy is applied to the disc using [[Sputter deposition|sputtering]].<ref name="bluline">{{Cite web |title=BLULINE II |url=https://www.singulus.de/fileadmin/user_upload/202003/BLULINE_II_2_2020.pdf |url-status=dead |archive-url=https://web.archive.org/web/20200411062738/https://www.singulus.de/fileadmin/user_upload/202003/BLULINE_II_2_2020.pdf |archive-date=April 11, 2020 |publisher=Singulus Technologies }}</ref><ref>{{Cite web |title=How to produce a Blu-ray? |url=https://hofa-shop.com/erp/owweb/spezi/en_14061.pdf |website=HOFA |access-date=2020-04-11 |archive-date=2020-04-11 |archive-url=https://web.archive.org/web/20200411062739/https://hofa-shop.com/erp/owweb/spezi/en_14061.pdf |url-status=live }}</ref><ref>{{Cite web |url=https://www.digital-scrapbooking-storage.com/blu-ray-technology.html |title=Blu Ray Technology and Disc Structure |access-date=2020-04-21 |archive-url=https://web.archive.org/web/20120305192336/http://www.digital-scrapbooking-storage.com/blu-ray-technology.html |archive-date=2012-03-05 |url-status=live }}</ref> Then the second layer is made by applying base and pit transfer resins to the disc, and are pre-cured in its center.
+
+After application and pre-curing, the disc is pressed or embossed using a stamper and the resins are immediately cured using intense UV light, before the disc is separated from the stamper. The stamper contains the data that will be transferred to the disc. This process is known as embossing and is the step that engraves the data onto the disc, replacing the pressing process used in the first layer, and it is also used for multi layer DVD discs.
+
+Then, a 30 nanometre-thick layer of silver alloy is then sputtered onto the disc and the process is repeated as many times as required. Each repetition creates a new data layer. (The resins are applied again, pre-cured, stamped (with data or grooves) and cured, silver alloy is sputtered and so on)
+
+BD-R and BD-RE discs receive (through sputtering) a metal (recording layer) alloy (that is sandwiched between two dielectric layers, also sputtered, in BD-RE), before receiving the 30 nanometre metallization (silver alloy, aluminum or gold) layer, which is sputtered. Alternatively, the silver alloy may be applied before the recording layer is applied. Silver alloys are usually used in Blu-rays, and aluminum is usually used on CDs and DVDs. Gold is used in some ''archival'' CDs and DVDs, since it is more chemically inert and resistant to corrosion than aluminum, which corrodes into [[aluminum oxide]], which can be seen in [[disc rot]] as transparent patches or dots in the disc, that prevent the disc from being read, since the laser light passes through the disc instead of being reflected back into the laser pickup assembly to be read. Normally, aluminum does not corrode since it has a thin oxide layer that forms on contact with oxygen. In this case, it can corrode due to its thinness.
+
+Then, the 98 micron-thick cover layer is applied using UV-curable [[liquid optically clear adhesive]], and a 2 micron-thick hard coat (such as [[Durabis]]) is also applied and cured using UV light. In the last step, a 10 nanometre-thick [[silicon nitride]] barrier layer is applied to the label side of the disc to protect against humidity.<ref name="wpg"/><ref name="bluline"/><ref>{{Cite web |title=BLULINE II: Enabling Fascination 3D |url=https://www.singulus.com/uploads/tx_pspublications/BLULINE_II_2012.pdf |url-status=dead |archive-url=https://web.archive.org/web/20200411062743/https://www.singulus.com/uploads/tx_pspublications/BLULINE_II_2012.pdf |archive-date=April 11, 2020}}</ref><ref>{{Cite web |title=BLULINE III |url=https://www.singulus.com/fileadmin/user_upload/202003/BLULINE_III_2_2020.pdf |url-status=dead |archive-url=https://web.archive.org/web/20200411062738/https://www.singulus.com/fileadmin/user_upload/202003/BLULINE_III_2_2020.pdf |archive-date=April 11, 2020 |publisher=Singulus Technologies }}</ref> Blu-rays have their data very close to the read surface of the disc, which is necessary for Blu-rays to achieve their capacity.
+
+Discs in large quantities can either be replicated or duplicated. In replication, the process explained above is used to make the discs, while in duplication, CD-R, DVD-R or BD-R discs are recorded and finalized to prevent further recording and allow for wider compatibility.<ref>{{Cite web|url=https://www.replicat.com.au/content/replication-and-duplication|title=The Difference Between Replication & Duplication |website=Replicat |access-date=2020-04-09|archive-url=https://web.archive.org/web/20200311170517/https://www.replicat.com.au/content/replication-and-duplication|archive-date=2020-03-11}}</ref> (See [[Optical disc authoring]]). The equipment is also different: replication is carried out by fully automated purpose-built machinery whose cost is in the hundreds of thousands of US dollars in the used market,<ref>{{Cite web|url=https://www.cdvdpacking.com/A_Cinram/index.html |title=Cinram Machines|website=CDvdPacking.com|access-date=2020-04-11|archive-url=https://web.archive.org/web/20190930070519/http://www.cdvdpacking.com/A_Cinram/index.html|archive-date=2019-09-30|url-status=live}}</ref> while duplication can be automated (using what's known as an autoloader<ref>{{Cite web |url=https://www.vinpowerdigital.com/products/aero220-s0t-bd-bk |title=Aero Blu-ray/DVD/CD Autoloader - CD Copier, DVD Duplicator, Blu-Ray Duplicator |website=Vinpower Digital |access-date=2020-04-11 |archive-date=2020-04-11 |archive-url=https://web.archive.org/web/20200411101902/https://www.vinpowerdigital.com/products/aero220-s0t-bd-bk |url-status=live }}</ref>) or be done by hand, and only requires a small tabletop duplicator.<ref>{{Cite web |url=https://www.vinpowerdigital.com/products/slimmicro_bd_s0 |title=Slim Micro Blu-ray DVD CD Duplicator - CD Copier, DVD Duplicator, Blu-Ray Duplicator |website=Vinpower Digital |access-date=2020-04-11 |archive-date=2020-04-11 |archive-url=https://web.archive.org/web/20200411101859/https://www.vinpowerdigital.com/products/slimmicro_bd_s0 |url-status=live }}</ref>
+
+==Specifications==
+{| class="wikitable"
+|+ Base (1×) and (current) maximum speeds by generation
+|-
+!rowspan="2"| Generation
+! Base
+!colspan="2"| Max
+|-
+! (Mbit/s)
+! (Mbit/s)
+! ×
+|-
+| 1st (CD)
+| 1.17
+| 65.6 || 56× <!-- speeds above 48x can result in [[CD shattering]], and so 48x and 52x are the most common maximum speeds for CD drives, though some drives have been sold at 56x [http://reviews.cnet.com/cd-drives/benq-656a-56x-cd/4505-3207_7-20383339.html] -->
+|-
+| 2nd (DVD)
+| 10.57
+| 253.6 || 24× <!-- industry maximum speed currently at 24x [http://www.pioneerelectronics.com/PUSA/Computer/Computer+Drives/DVR-S19MBK] -->
+|-
+| 3rd (BD)
+| 36
+| 504 || 14×<ref>{{cite news |url=http://www.cdrlabs.com/Reviews/lg-bh14ns40-14x-blu-ray-disc-rewriter.html |title=LG BH14NS40 14x Blu-ray Disc ReWriter |publisher=CDRinfo.com |url-status=live |archive-url=https://web.archive.org/web/20121011141018/http://cdrlabs.com/Reviews/lg-bh14ns40-14x-blu-ray-disc-rewriter.html |archive-date=2012-10-11 }}</ref>
+|-
+| 4th (AD)
+| ?
+| ? || 14×
+|}
+
+{| class="wikitable"
+|+ Capacity and nomenclature<ref>{{cite web | url = http://www.mpeg.org/MPEG/DVD/Book_A/Specs.html | title = DVD, Book A – Physical parameters | publisher = MPEG | access-date = 2011-10-09 | url-status = live | archive-url = https://web.archive.org/web/20120117074555/http://www.mpeg.org/MPEG/DVD/Book_A/Specs.html | archive-date = 2012-01-17 }}</ref><ref>{{cite web|url=http://www.cinram.com/dvd/tech/dvdindetail.pdf |archive-url=https://web.archive.org/web/20081029171711/http://www.cinram.com/dvd/tech/dvdindetail.pdf |archive-date=October 29, 2008 |title=DVD in Detail |publisher=Cinram |date=27 November 2000 |url-status=unfit }}</ref>
+|-
+!colspan="2" rowspan="2"| Designation
+!rowspan="2"| Sides !!rowspan="2"| Layers<br />(total) !! Diameter !!colspan="2"| Capacity <!-- raw or user data? -->
+|-
+! (cm) !! ([[Gigabyte|GB]])
+|-
+| BD ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 8 ||align=right| 7.8
+|-
+| BD ||title="single-sided, double-layer"| SS DL
+|align=right| 1 ||align=right| 2 ||align=right| 8 ||align=right| 15.6
+|-
+| BD ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 25
+|-
+| BD ||title="single-sided, double-layer"| SS DL
+|align=right| 1 ||align=right| 2 ||align=right| 12 ||align=right| 50
+|-
+| BD ||title="single-sided, triple-layer"| SS TL
+|align=right| 1 ||align=right| 3 ||align=right| 12 ||align=right| 100
+|-
+| BD ||title="single-sided, Quad-layer"| SS QL
+|align=right| 1 ||align=right| 4 ||align=right| 12 ||align=right| 128
+|-
+| CD–ROM 74 min ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 0.682
+|-
+| CD–ROM 80 min ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 0.737
+|-
+| CD–ROM ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 8 ||align=right| 0.194
+|-
+| DDCD–ROM ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 1.364
+|-
+| DDCD–ROM ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 8 ||align=right| 0.387
+|-
+| DVD–1 ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 8 ||align=right| 1.46
+|-
+| DVD–2 || title="single-sided, double-layer"| SS DL
+|align=right| 1 ||align=right| 2 ||align=right| 8 ||align=right| 2.66
+|-
+| DVD–3 || title="double-sided, single-layer"| DS SL
+|align=right| 2 ||align=right| 2 ||align=right| 8 ||align=right| 2.92
+<!--|-
+| DVD–4? ||title="double-sided, double- and single-layer"| DS DL/SL
+|align=right| 2 ||align=right| 3 ||align=right| 8 ||align=right| 4.12--><!-- calculated, doubtful such discs ever existed -->
+|-
+| DVD–4 ||title="double-sided, double-layer"| DS DL
+|align=right| 2 ||align=right| 4 ||align=right| 8 ||align=right| 5.32
+|-
+| DVD–5 ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 4.70
+|-
+| DVD–9 ||title="single-sided, double-layer"| SS DL
+|align=right| 1 ||align=right| 2 ||align=right| 12 ||align=right| 8.54
+|-
+| DVD–10 ||title="double-sided, single-layer"| DS SL
+|align=right| 2 ||align=right| 2 ||align=right| 12 ||align=right| 9.40
+|-
+| DVD–14 ||title="double-sided, double- and single-layer"| DS DL/SL
+|align=right| 2 ||align=right| 3 ||align=right| 12 ||align=right| 13.24 <!--calculated from data above-->
+|-
+| DVD–18 ||title="double-sided, double-layer"| DS DL
+|align=right| 2 ||align=right| 4 ||align=right| 12 ||align=right| 17.08
+|-
+| DVD–R 1.0 ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 3.95
+|-
+| DVD–R (2.0), +R, –RW, +RW ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 4.7
+|-
+| DVD-R, +R, –RW, +RW ||title="double-sided, single-layer"| DS SL
+|align=right| 2 ||align=right| 2 ||align=right| 12 ||align=right| 9.40
+|-
+| DVD–RAM ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 8 ||align=right| 1.46<!--*-->
+|-
+| DVD–RAM ||title="double-sided, single-layer"| DS SL
+|align=right| 2 ||align=right| 2 ||align=right| 8 ||align=right| 2.65<!--*-->
+|-
+| DVD–RAM 1.0 ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 2.58
+|-
+| DVD–RAM 2.0 ||title="single-sided, single-layer"| SS SL
+|align=right| 1 ||align=right| 1 ||align=right| 12 ||align=right| 4.70
+|-
+| DVD–RAM 1.0 ||title="double-sided, single-layer"| DS SL
+|align=right| 2 ||align=right| 2 ||align=right| 12 ||align=right| 5.16
+|-
+| DVD–RAM 2.0 ||title="double-sided, single-layer"| DS SL
+|align=right| 2 ||align=right| 2 ||align=right| 12 ||align=right| 9.40<!--*-->
+|}
+
+==See also==
+* [[Disc Description Protocol]]
+* [[List of optical disc manufacturers]]
+* [[Universal Disk Format]] (UDF)
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{cite report |last=Byers |first=Fred R. |date=2003 |url=http://www.itl.nist.gov/iad/894.05/docs/CDandDVDCareandHandlingGuide.pdf |url-status=dead |title=Care and Handling of CDs and DVDs — A Guide for Librarians and Archivists |publisher=[[National Institute of Standards and Technology]] |archive-url=https://web.archive.org/web/20080923012505/http://www.itl.nist.gov/iad/894.05/docs/CDandDVDCareandHandlingGuide.pdf |archive-date=September 23, 2008 |access-date=July 17, 2009 }}
+* {{cite news|title=Scientist's invention was let go for a song|newspaper=The Seattle Times|date=November 29, 2004|url=https://archive.seattletimes.com/archive/?date=20041129&slug=cdman29|access-date=2007-07-13|first=Brier|last=Dudley}}
+* {{cite web | url = http://www.ant-audio.co.uk/Tape_Recording/Library/Reference_Guide_for_Optical_Media.pdf | title = Reference Guide for Optical Media | first = Terence | last = O'Kelly | publisher = Memorex Inc. |via=A.N.T. Audio}}
+* {{cite web | url = http://www.romeyn.ca/ | title = 50th-anniversary -of-the-optical-disc | first = Jacob | last = Romeyn | access-date = 2011-06-28 | archive-date = 2015-02-08 | archive-url = https://web.archive.org/web/20150208145857/http://www.romeyn.ca/ | url-status = dead }}
+
+==External links==
+{{Commons category|Optical discs}}
+* {{cite web |title=Inventor of the Week Archive: The Digital Compact Disc |publisher=Massachusetts Institute of Technology |date=December 1999 |url=http://web.mit.edu/invent/iow/russell.html |access-date=2007-07-13 | archive-url = https://web.archive.org/web/20080619013250/http://web.mit.edu/invent/iow/russell.html | archive-date = 2008-06-19 }}
+* {{cite web |title=David Gregg and the Optical Disk |website=About.com |url=http://inventors.about.com/library/inventors/blopticaldisk.htm |access-date=2007-07-13 |archive-date=2020-08-19 |archive-url=https://web.archive.org/web/20200819105952/https://www.thoughtco.com/david-gregg-and-the-optical-disk-1992209 |url-status=dead }}
+* [http://www.osta.org/ Optical Storage Technology Association]
+* {{cite web | url = http://5eshs.hpdst.gr/abstracts/139 | title = The history of ideas "the optical disc as a "unique" carrier of information in the systems management | publisher = European Society of the History of Science | access-date = 2013-06-11 | archive-url = https://web.archive.org/web/20150518082128/http://5eshs.hpdst.gr/abstracts/139 | archive-date = 2015-05-18 | url-status = dead }}
+* [http://www.cedmagic.com/history/thomson-csf-1980.html Thomson-CSF's transmissive videodisc]
+* {{cite web |url=http://lib.utsa.edu/knowyourmedia/ |title=Know Your Digital Storage Media: a guide to the most common types of digital storage media found in archives |publisher=University of Texas at San Antonio |location=US }}
+* [https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/longevity-recordable-cds-dvds.html Longevity of Recordable CDs, DVDs and Blu-rays — Canadian Conservation Institute (CCI) Notes 19/1]
+
+{{Optical storage media}}
+{{Authority control}}
+
+[[Category:Audiovisual introductions in 1884]]
+[[Category:Compact disc]]
+[[Category:DVD]]
+[[Category:Optical computer storage media]]
+[[Category:Optical disc authoring]]
+[[Category:Optical discs]]
+[[Category:Optoelectronics]]
+
+[[et:Optiline andmekandja]]

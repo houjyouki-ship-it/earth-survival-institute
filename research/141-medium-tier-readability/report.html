@@ -1,0 +1,189 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究141：媒体と書き方ごとの「読むのに要る最低の段 × 劣化 × 段に届く時刻」（next_plan 固定の節「記録の単純さ」、open_problems 324） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="141-next_plan-open_problems-324">研究141：媒体と書き方ごとの「読むのに要る最低の段 × 劣化 × 段に届く時刻」（next_plan 固定の節「記録の単純さ」、open_problems 324）</h1>
+<blockquote>
+<p>注：P_read・量×読める確率は模型の中の量で、<strong>生存確率でも復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>実施：2026-10-26〜27（第141回、JST 23 時台）。sim.py（seed 20261141、約 8 秒。038 を一時の写しで実行し、BIO・CASC の重い崩壊の割合と t2 の中央値を公開済みの results.json と差 0 で assert、t2 を 038 の times() と配列一致で assert）、results.json、stdout.txt、fig_medium_tier.png、PREREGISTRATION.md（23:41 JST、媒体の資料を開く前・sim.py の前、PREREG.sha256）、sources/（Wikipedia の本文 8 件、SHA256SUMS.txt、fetched_at.txt）。</p>
+<h2 id="_1">既に扱った部分（重複を避けた）</h2>
+<p>012（媒体の読取の梯子）、018〜021（Piql の手読み層）、033（読者の RAM）、038（肉眼の T0 手引き +14〜16 %）、053（板の費用の 99 % は執筆）。本回は、肉眼・電気の段と紙・石・マイクロフィッシュ・SSD を同じ表に入れ、段に届く時刻を重い崩壊の標本（人口待ちつき）で引き、中身を「どの段の前に要るか」で分けて循環を数えた点が新しい。</p>
+<h2 id="sources">資料（本回開いて確認、sources/）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Microform">Microform</a>）】マイクロフィッシュは 105×148 mm・24:1 が標準で、NMA Type I は 98 コマ。4×6 in の COM は 48 倍で 240 頁。ウルトラフィッシュは 150 倍で 2,380 コマ（British National Bibliography）。銀塩の保存用フィルムは適正な保管で約 500 年（Saffady 2000）、ジアゾは 20 年未満。低〜中の縮小率のフィッシュは「強い拡大鏡があれば足りる」。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Acid-free_paper">Acid-free paper</a>）】アルカリ紙は最良で 1,000 年超、平均の等級で 500 年（ASTM D 3290-00）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/M-DISC">M-DISC</a>）】NIST IR 8387 は 100 年超と評価。日本向けは 100 年以上、他地域は「数百年」と宣伝。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Optical_disc">Optical disc</a>）】LTO は空調下で最大 30 年（要出典の記載）、通常の BD は最大 50 年（要出典）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Behistun_inscription">Behistun inscription</a>）】前 522〜486 年の崖の刻字が現存（20 世紀の射撃の損傷あり）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Data_degradation">Data degradation</a>）】フラッシュは電荷の漏れ、磁気媒体は磁化の喪失で劣化し、高温で速まる。SSD の無通電の保持の約 1 年は 140 で確認した <a href="https://en.wikipedia.org/wiki/Flash_memory">Flash memory</a>。</li>
+<li>MOM・Rosetta・Piql・Silica の値は 012・019・053 で確認済みのものを使った。</li>
+</ul>
+<h2 id="_2">方法</h2>
+<ul>
+<li>段：R0 肉眼（時刻 0）、R1 レンズ＝t1（変形で廃墟の 10 倍級の拡大鏡を確率 p_salv で 1〜20 年に使える、寿命は 104 の幅）、R2 顕微鏡＝t2、R2e 電気の自作読取装置＝t2＋024 の t_build、R3 計算機＝t2＋m23（中央値 300 年、σ 0.8【推測、012 の走査の中央】）、R3d＝R3＋専用の駆動装置（変形で 10〜100 年）。</li>
+<li>重い崩壊の標本：GEN・AI は 032 の d01・d12（識字喪失の倍率つき）、BIO・CASC は 038 の人口待ちつきの時刻。混合の重みは 038 の A_XPT_S（変形で A_Ord）の mean_weights × 重い崩壊の割合。</li>
+<li>寿命：Weibull(k=2)、中央値＝主張の寿命（表の幅で対数一様）× 保管の割引 logU(0.3, 1)。発見と識字は全媒体に共通なので 1 とした。</li>
+<li>Piql の機械読みは R2e では 033 の q(M)（0.03〜0.43）の割合だけ読め、R3 で全量。</li>
+<li>量：1 頁 3,000 字・1 字 1 バイト【推測】。地平 H = 1,000 年。</li>
+</ul>
+<h2 id="a_xpt_s">結果（主、A_XPT_S の重い崩壊）</h2>
+<p>段の到達の中央値（GEN、重い崩壊の重みの大半）：R1 26 年、R2 67 年、R2e 94 年、R3 409 年。BIO の t2 の中央値は 1,204 年、CASC は 254 年。</p>
+<table>
+<thead>
+<tr>
+<th>媒体</th>
+<th>段</th>
+<th>1,000 年に読める</th>
+<th>レンズの段の前に読める（K01）</th>
+<th>単位の字数 × 読める割合</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>石の刻字（1 m²）</td>
+<td>R0</td>
+<td>1.000</td>
+<td>0.847</td>
+<td>1.3e5</td>
+</tr>
+<tr>
+<td>MOM の板（肉眼）</td>
+<td>R0</td>
+<td>1.000</td>
+<td>0.847</td>
+<td>5.0e4</td>
+</tr>
+<tr>
+<td>アルカリ紙の本</td>
+<td>R0</td>
+<td>1.000</td>
+<td>0.847</td>
+<td>1.5e6</td>
+</tr>
+<tr>
+<td>MOM の極小文字（10 倍）</td>
+<td>R1</td>
+<td>0.991</td>
+<td>0</td>
+<td>5.0e6</td>
+</tr>
+<tr>
+<td>マイクロフィッシュ 24 倍</td>
+<td>R1</td>
+<td>0.867</td>
+<td>0</td>
+<td>2.6e5</td>
+</tr>
+<tr>
+<td>マイクロフィッシュ 48 倍・150 倍</td>
+<td>R2</td>
+<td>0.720</td>
+<td>0</td>
+<td>5.2e5・5.1e6</td>
+</tr>
+<tr>
+<td>Rosetta ディスク</td>
+<td>R2</td>
+<td>0.975</td>
+<td>0</td>
+<td>3.8e7</td>
+</tr>
+<tr>
+<td>Piql の手読み QR（1 %）</td>
+<td>R2</td>
+<td>0.894</td>
+<td>0</td>
+<td>1.7e6</td>
+</tr>
+<tr>
+<td>Piql の機械読み（1 リール）</td>
+<td>R2e/R3</td>
+<td>0.875（読める割合の期待 0.586）</td>
+<td>0</td>
+<td>6.6e10</td>
+</tr>
+<tr>
+<td>Project Silica</td>
+<td>R3</td>
+<td>0.870</td>
+<td>0</td>
+<td>6.1e12</td>
+</tr>
+<tr>
+<td>M-DISC</td>
+<td>R3d</td>
+<td>0.097</td>
+<td>0</td>
+<td>9.7e9</td>
+</tr>
+<tr>
+<td>LTO・SSD</td>
+<td>R3d</td>
+<td>0.000</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>0.847 は残りの 15 % が既にレンズの段の標本（T1 から再出発）であるため。</p>
+<p>変形：
+- <strong>停滞あり（重い崩壊の 9 割に 300〜900 年の停滞、128〜133 の p|lost 0.9 と 125 のイタリアの超過の幅を借用）</strong>：MOM 10 倍 0.949、フィッシュ 24 倍 <strong>0.139</strong>、Rosetta 0.837、Piql 0.41（読める割合の期待 0.224）、Silica 0.516、M-DISC 0.013。寿命が数百年の媒体がここで大きく落ちる。
+- m23 100／800 年：Silica 0.972／0.518、M-DISC 0.266／0.020、Piql の読める割合 0.783／0.333。R0〜R2 は不変。
+- 廃墟の拡大鏡 p_salv 0.5／0.9：MOM 10 倍の K01 は 0→0.395／0.714（肉眼の 0.47／0.84 倍）、フィッシュ 24 倍の P_read 0.933／0.985。
+- 駆動装置の追加 10〜100 年：M-DISC 0.097→0.072。A_Ord の重み：ほぼ同じ（MOM 10 倍 0.971、Piql 0.875）。</p>
+<p>面積あたり（字/cm² × 読める確率）：フィッシュ 24 倍 1,640、48 倍 3,350、MOM 10 倍 12,400、Piql の手読み QR 45,400、Rosetta 834,000。<strong>登録外の計算</strong>：021 と同じ画素（7 × 0.847 µm）で 5×7 画素の字形の文字を直接焼くと 59,300 字/cm² で、手読み QR（7 複製の多数決）の 1.17 倍、かつ復号の作業が要らない。</p>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>分類</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H153a R0・R1 の長寿命 ≥ 0.85、R3 の媒体 &lt; 0.25</td>
+<td>確認的</td>
+<td>最小 0.991、最大 0.097（M-DISC）</td>
+<td><strong>支持</strong></td>
+</tr>
+<tr>
+<td>H153b 量×読める確率の最大は高い段のフィルム系で、低い段の最良の 10³ 倍以上</td>
+<td>確認的</td>
+<td>最大は Silica（R3）で MOM 10 倍の 1.2×10⁶ 倍。フィルム系（Piql）は 2 位</td>
+<td><strong>支持</strong>（「フィルム系」の部分は Silica に替わった）</td>
+</tr>
+<tr>
+<td>H153c T0→T1 の知識を R1 の媒体に置くと肉眼の 0.2 倍未満</td>
+<td>確認的</td>
+<td>主で 0（構造上そうなる、検定としては弱い）。廃墟の拡大鏡 0.5 で 0.47、0.9 で 0.84</td>
+<td><strong>主で支持・廃墟の拡大鏡ありで棄却</strong></td>
+</tr>
+<tr>
+<td>H153d フィッシュ 24 倍が面積あたりで手読み QR を上回る</td>
+<td>確認的</td>
+<td>0.036 倍（48 倍でも 0.074 倍）</td>
+<td><strong>棄却</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li>H153c の主の支持は「R1 の時刻＝レンズの段に着いた時刻」という定義から来ていて、独立の検定ではない。意味があるのは廃墟の拡大鏡の変形で、p_salv は資料がない（104 は眼鏡の数を出したが、10 倍級の拡大鏡やスマートフォンのレンズの数は未確認）【推測】。</li>
+<li>停滞の版は 125〜133 の値を借りた粗い置き方で、停滞を 1 回の遅れとして全段に足した。重い崩壊の主の F_heavy（128〜133）は停滞ありの側なので、本当の主はこちらに近い可能性がある【推測】。どちらで読むかで、数百年の寿命の媒体（銀塩フィルム・Piql・紙の下端）の評価が 0.87→0.14〜0.41 と大きく変わる。</li>
+<li>寿命の主張は宣伝や要出典の記載を含み（LTO、BD、MOM の 100 万年）、保管の割引 f も 012 の推測のまま。石・ニッケル・Silica の寿命の下端は推測。</li>
+<li>1 頁 3,000 字・1 字 1 バイトは推測で、日本語なら字数は約半分になる【推測】。量の比較は桁の比較としてだけ読むべき。</li>
+<li>Rosetta の 650 倍は Leeuwenhoek 級（021 で最良 266 倍、分解能 1.35〜4 µm）で読めるか確かめていない。R2 への割り当ては楽観側。</li>
+<li>費用は入れていない。053 では板の費用の 99 % が執筆で、媒体の差は大量の側でしか効かない。</li>
+<li>発見と識字を共通として比から落とした。肉眼の大きな媒体（石・本）は見つけやすく、小さい媒体は見落とされやすい【推測】ので、比は低い段にさらに有利に動くかもしれない。</li>
+</ul>
+<h2 id="_5">結論：二段構えと現行の推奨のずれ</h2>
+<ol>
+<li>「少量の要点は低い段、大量は高い段」は模型の中で支持された。大量の側の最良は Silica（R3）、要点の側は R0〜R1 のセラミック。SSD・LTO・通常の光ディスクは重い崩壊では 0（M-DISC も 0.1 未満）。</li>
+<li>ずれ①：現行の板の手引きは MOM の極小文字（10 倍レンズ）を想定している。製鉄・ガラス・レンズの部分（T0→T1）はこの媒体ではレンズの段の後にしか読めず、廃墟の拡大鏡がなければ役に立たない。038 の「肉眼の T0 手引き」をこの部分の置き場として明示すべき【独自仮説】。</li>
+<li>ずれ②：停滞ありの版では寿命 500 年級の媒体（銀塩フィッシュ、Piql）が 0.14〜0.41 に落ち、1 万年級のセラミックは 0.95 を保つ。読取装置の作り方など T2→T2e の中身は、Piql のガイド部でなくセラミック・ニッケルにも写すべき【独自仮説】。</li>
+<li>ずれ③：手読み層は QR の多数決でなく、同じ線幅の文字を直接焼いても密度は同程度（1.17 倍）で、復号の作業（021 で 1.7〜3.9 人年/MB）が要らない【独自仮説、登録外の計算】。ただし数表やコードの誤り耐性は検証していない。</li>
+</ol>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>長期保存の写しを設計する人は、製鉄・ガラス・レンズの知識だけは肉眼で読める板（MOM の文字だけの板なら 5 万字/枚）に分けて置き、読取装置を作る知識は 500 年級のフィルムだけでなく 1 万年級のセラミックにも写し、大量の知識は SSD や通常の光ディスクではなく石英ガラスか銀塩フィルムに置くこと。D2rz の推しは不変（読取装置の到達は R2e の時刻で、媒体の比較とは別の量）。</p>
+<h2 id="_7">新規性</h2>
+<p>媒体ごとの読取の段・寿命・量を、重い崩壊の段の到達時刻の分布（人口待ちつき）と同じ模型で掛け合わせ、中身の段ごとの循環（レンズの段に着くための知識をレンズでしか読めない媒体に置く）を数えた公開の計算は、確かめた資料（Microform、M-DISC、012 の各資料）には見当たらない。</p><footer><hr><small>自動生成</small></footer></body></html>
