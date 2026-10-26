@@ -1,0 +1,39 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究144：Copán 谷の谷の人口の下限と、その場の集合の p|lost（open_problems 331） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="144copan-plostopen_problems-331">研究144：Copán 谷の谷の人口の下限と、その場の集合の p|lost（open_problems 331）</h1>
+<p><strong>注：F_heavy・V・P_read は生存確率や復興確率ではない（模型の中の量）。</strong> 結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>資料を開く前（05:34 JST）に PREREGISTRATION.md で H156a〜e と決定の規則を登録（PREREG.sha256 で照合 OK）。</li>
+<li>本回取得（sources/、SHA256SUMS）：Webster・Sanders・van Rossum 1992（Ancient Mesoamerica 3:185-198）の Cambridge Core の英・西語抄録（https://doi.org/10.1017/s095653610000239x）、Manahan の FAMSI 報告 98038（https://www.ancientamericas.org/sites/default/files/98038Manahan01.pdf）、英語版 Wikipedia の Copán と Copán Ruinas、citypopulation.de の Copán Ruinas 自治体、UNAH の自治体の人口の概要（https://oee.unah.edu.hn/assets/Perfiles-Sociodemograficos/Copan-04/Reporte-de-0404-Copan-Copan-Ruinas.pdf）。検索で見た Paine・Freter 1996、Webster・Freter 1990 の抄録には谷の人口の数はない（数えない）。</li>
+<li>sim.py（約 12 秒）：143 のその場の 3/3・2/3 の事後と損益分岐 789 人を差 0 で再現（assert）。142 の sim を写しで実行し、143 の媒体の値を差 0 で再現（assert）。</li>
+</ul>
+<h2 id="_2">結果</h2>
+<ul>
+<li>【事実（webster1992_abstract_es.txt）】頂点は <strong>26,000〜27,000 人、750〜900 年</strong>。急な人口崩壊はなく、1000〜1050 年にまだ約 3 分の 1、<strong>その 200 年後に谷は「esencialmente despoblado（ほぼ無人）」</strong>。数はない。</li>
+<li>【事実（manahan.txt）】Ejar 期（1000〜1200）の村は中心から 200 m 以内の「very small」なもの。王朝の終わりから 1 世紀で谷は「virtually devoid of inhabitants」とする（Webster らより早く深い減少を主張）。</li>
+<li>【事実（citypop_copan_ruinas.html、unah.txt）】Copán Ruinas 自治体（361 km²）は 2001 年 30,703、2013 年 38,109。1950〜2013 の年平均 2.26%。→ 谷が頂点に戻った年 T_rec は <strong>2001 年以前</strong>（143 は上限 2023）。【推測】2.26% 一定で逆算すると 27,000 到達は 1998 年、1950 年は約 9,300 人。</li>
+<li><strong>登録の誤り</strong>：PREREGISTRATION の H156a と決定の規則は「789 未満なら 3/3」と書いたが、143 の規則（pred = ln(P0/Pmin)/r、超過 &gt; 0 で停滞）では <strong>谷が深いほど回復の遅さは説明され停滞なし</strong>。789 未満は 2/3 が正しい（143 の報告もそう書いている）。計算は 143 の規則のまま行い、登録文の向きの誤りとして記録する。</li>
+<li>損益分岐（Pmin、これを下回ると停滞なし）：P0 26,000〜27,000・t_start 800・T_rec 1985〜2001 で <strong>781〜850 人</strong>、t_start 900 で 1,045〜1,138 人。</li>
+<li>登録の規則（数なし→Pmin を [200,1000] の対数一様）での Copán の停滞の確率 <strong>w = 0.070</strong>（t_start 800 のみで 0.139、143 の T_rec 2023 で 0.094）。その場の集合の p|lost <strong>0.643</strong>、F_heavy（遅い κ・D2rz・W・H1000）<strong>1.940</strong>（2/3 の 1.923 と 3/3 の 2.160 の間で、2/3 側にほぼ寄る）。</li>
+<li>登録外：「ほぼ無人」を [50,1000] と置くと w 0.037・F 1.932、[50,500] で 0・1.923。Copán を「放棄」と数えるとその場の集合から外れ 2/2 で p 0.833・F 2.120（規則の外の読み）。</li>
+<li>142 の媒体の表（1,000 年に読める確率、主）：銀塩フィッシュ 24 倍 <strong>0.382</strong>（143 の 3/3 で 0.206）、Silica 0.693、Piql 0.597、MOM 10 倍 0.973、Rosetta 0.909。順位は不変。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>H156a（確認的）<strong>判定保留</strong>：原典の要約に数がない（規則どおり混合で閉じた）。質的な記述（ほぼ無人、very small）は 789 未満の側を示すが、それは 143 の 2/3 の側で、登録文の「→3/3」は向きが逆だった。</li>
+<li>H156b（確認的）支持：2001 年に 30,703。1900 年より後（逆算で 1990 年代、推測）。</li>
+<li>H156c（確認的）支持：原典の頂点は 750〜900 年の 26,000〜27,000。Wikipedia の「400〜450 年に 28,000」とは食い違い、143 の P0 28,000 はやや高すぎた。</li>
+<li>H156d（予測）<strong>棄却</strong>：停滞の割合は 0.07（予測は 2/3 以上）。</li>
+<li>H156e（予測）<strong>棄却</strong>：1.940（予測 2.0〜2.17）。</li>
+<li>著者は Webster らの「数百年の漸減」を概略知っていたので確認的の力は弱い。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ol>
+<li>現代の自治体（361 km²）と考古学の調査範囲（谷 476 km² の農村＋中心 24 km²）は一致しない。T_rec を数年動かしても損益分岐は 30 人程度しか動かないので結論は変わらない。</li>
+<li>谷の現代の人口は 19〜20 世紀の移住で埋まったもので、「同じ人々のその場の回復」ではない。この読みでは Copán は放棄に近く、その場の集合から外すべきかもしれない（2/2、2.12）。規則（128・129）は回復を誰が担ったかを問わないので、規則の欠陥として 333 に残す。</li>
+<li>Webster ら（漸減）と Manahan（早い急減）は谷の人口の経過が食い違う。どちらでも谷が ~1,000 人より深い点は一致し、w は 0.15 を超えない。</li>
+<li>停滞の判定は 038 の中央値の r に依存し、r が 2 倍なら損益分岐は大きく動く（未計算）。</li>
+</ol>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は、その場の集合の F_heavy の主を 143 の 2.16 から <strong>1.94 に下げ</strong>、2.12（Copán を放棄と数える）と 1.92 を幅として並べる。写しの設計者には、p|lost の主が 0.64 に下がると銀塩フィッシュの 1,000 年に読める確率は 0.38 まで上がるが Silica・MOM・Rosetta との順位は変わらず、142 の提言（フィッシュを読取装置の知識の唯一の置き場にしない）は不変と伝える。D2rz の推しは不変。</p>
+<h2 id="_6">既存研究に対する新規性</h2>
+<p>Webster らの人口の再構成（数百年の漸減）と現代の国勢調査を、崩壊後の回復の速さの模型（038 の r）での停滞の判定につないだ例は、開いた資料の中にはない。</p><footer><hr><small>自動生成</small></footer></body></html>

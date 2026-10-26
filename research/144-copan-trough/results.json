@@ -1,0 +1,239 @@
+{
+ "study": "144-copan-trough",
+ "note": "F_heavy・P_read は生存確率や復興確率ではない",
+ "r_median_038": 0.0029188908722425303,
+ "check": {
+  "insitu(Greece,Britain,Copan_stag)|jeffreys": {
+   "p_diff": 0.0,
+   "F_diff": 0.0
+  },
+  "insitu_Copan_no|jeffreys": {
+   "p_diff": 0.0,
+   "F_diff": 0.0
+  },
+  "breakeven_143": 0.0,
+  "143_media_insitu_fiche24": 0.0
+ },
+ "evidence": {
+  "P0_timing": "sources/webster1992_abstract_es.txt（Webster・Sanders・van Rossum 1992, Ancient Mesoamerica 3:185-198 の西語抄録）：'Un pico máximo de 26,000 a 27,000 personas se alcanzó entre 750 y 900 d.C'",
+  "decline": "sources/同：'No hubo un colapso demográfico abrupto, y cerca de un tercio de la población estaba presente todavía hacia 1000–1050 d.C; 200 años después el valle estaba esencialmente despoblado'。英語抄録：simulation 'between A.D. 400–1250'、2,048 の水和年代、既知の遺跡の 15%",
+  "manahan": "sources/manahan.txt（FAMSI 98038、Manahan）：Ejar 期（1000〜1200）の村は 'very small yet discrete ... within 200 meters of the site center'；'left the valley virtually devoid of inhabitants within a century following the end of the Copán dynasty'（Webster らより早く深い減少を主張）",
+  "wiki_2026": "sources/wiki_Copan_2026.wikitext：Late Classic の谷 18,000〜25,000（中心 6,000〜9,000、農村 476 km²）；'only a few farming hamlets at the time of the arrival of the Spanish'",
+  "census": "sources/citypop_copan_ruinas.html：Copán Ruinas 自治体（361 km²）2001 年 30,703、2013 年 38,109、2023 推計 45,312（INE、過少計数を補正）。sources/unah.txt：1950〜2013 の年平均増加 2.26%、2013 年 農村 29,974＋都市 8,027。1950〜1988 の各回の値は図のみで文字なし（取れず）"
+ },
+ "numbers": {
+  "Pmin_number_found": null,
+  "P0_range": [
+   26000,
+   27000
+  ],
+  "P0_window": [
+   750,
+   900
+  ],
+  "third_at_1000_1050": true,
+  "essentially_depopulated_by": [
+   1200,
+   1250
+  ],
+  "census": {
+   "2001": 30703,
+   "2013": 38109,
+   "2023proj": 45312
+  },
+  "growth_1950_2013": 0.0226
+ },
+ "T_rec": {
+  "upper_2001": 2001,
+  "interp_2.26pct_27000": 1997.7069341368901,
+  "interp_2.26pct_26000": 1996.0182082417139,
+  "pop1950_backcalc": 9296.732964978126
+ },
+ "breakeven_Pmin": {
+  "P0=26000|ts=800|Trec=1985": 818.0849101836877,
+  "P0=26000|ts=800|Trec=1994": 796.8736351130689,
+  "P0=26000|ts=800|Trec=2001": 780.7569356494424,
+  "P0=26000|ts=800|Trec=2023": 732.1960311681532,
+  "P0=26000|ts=900|Trec=1985": 1095.3784737074075,
+  "P0=26000|ts=900|Trec=1994": 1066.9775414532903,
+  "P0=26000|ts=900|Trec=2001": 1045.398014145172,
+  "P0=26000|ts=900|Trec=2023": 980.3771724569638,
+  "P0=27000|ts=800|Trec=1985": 849.5497144215219,
+  "P0=27000|ts=800|Trec=1994": 827.5226210789561,
+  "P0=27000|ts=800|Trec=2001": 810.7860485590363,
+  "P0=27000|ts=800|Trec=2023": 760.3574169823129,
+  "P0=27000|ts=900|Trec=1985": 1137.5084150038463,
+  "P0=27000|ts=900|Trec=1994": 1108.0151392014936,
+  "P0=27000|ts=900|Trec=2001": 1085.6056300738326,
+  "P0=27000|ts=900|Trec=2023": 1018.0839867822316,
+  "P0=28000|ts=800|Trec=1985": 881.014518659356,
+  "P0=28000|ts=800|Trec=1994": 858.1716070448434,
+  "P0=28000|ts=800|Trec=2001": 840.8151614686302,
+  "P0=28000|ts=800|Trec=2023": 788.5188027964726,
+  "P0=28000|ts=900|Trec=1985": 1179.6383563002848,
+  "P0=28000|ts=900|Trec=1994": 1149.0527369496972,
+  "P0=28000|ts=900|Trec=2001": 1125.813246002493,
+  "P0=28000|ts=900|Trec=2023": 1055.7908011074994
+ },
+ "variants": {
+  "main_reg[200,1000]": {
+   "w": 0.070375,
+   "cells": {
+    "P0=26000|ts=800|Trec=1997": 0.148995,
+    "P0=26000|ts=800|Trec=2001": 0.156335,
+    "P0=26000|ts=900|Trec=1997": 0.0,
+    "P0=26000|ts=900|Trec=2001": 0.0,
+    "P0=27000|ts=800|Trec=1997": 0.12498,
+    "P0=27000|ts=800|Trec=2001": 0.13269,
+    "P0=27000|ts=900|Trec=1997": 0.0,
+    "P0=27000|ts=900|Trec=2001": 0.0
+   },
+   "p_mean": 0.6425937500000001,
+   "F_mean": 1.9395667581156266
+  },
+  "reg_ts800_only": {
+   "w": 0.13939625,
+   "cells": {
+    "P0=26000|ts=800|Trec=1997": 0.147605,
+    "P0=26000|ts=800|Trec=2001": 0.155045,
+    "P0=27000|ts=800|Trec=1997": 0.12397,
+    "P0=27000|ts=800|Trec=2001": 0.130965
+   },
+   "p_mean": 0.6598490625,
+   "F_mean": 1.9559260495291417
+  },
+  "143_inputs_Trec2023": {
+   "w": 0.09355875,
+   "cells": {
+    "P0=26000|ts=800|Trec=2023": 0.192545,
+    "P0=26000|ts=900|Trec=2023": 0.0127,
+    "P0=27000|ts=800|Trec=2023": 0.16899,
+    "P0=27000|ts=900|Trec=2023": 0.0
+   },
+   "p_mean": 0.6483896874999999,
+   "F_mean": 1.9450617285713654
+  },
+  "unreg_[50,1000](esencialmente despoblado)": {
+   "w": 0.037321875000000004,
+   "cells": {
+    "P0=26000|ts=800|Trec=1997": 0.078915,
+    "P0=26000|ts=800|Trec=2001": 0.08297,
+    "P0=26000|ts=900|Trec=1997": 0.0,
+    "P0=26000|ts=900|Trec=2001": 0.0,
+    "P0=27000|ts=800|Trec=1997": 0.06642,
+    "P0=27000|ts=800|Trec=2001": 0.07027,
+    "P0=27000|ts=900|Trec=1997": 0.0,
+    "P0=27000|ts=900|Trec=2001": 0.0
+   },
+   "p_mean": 0.63433046875,
+   "F_mean": 1.9317325664338894
+  },
+  "unreg_[50,500]": {
+   "w": 0.0,
+   "cells": {
+    "P0=26000|ts=800|Trec=1997": 0.0,
+    "P0=26000|ts=800|Trec=2001": 0.0,
+    "P0=26000|ts=900|Trec=1997": 0.0,
+    "P0=26000|ts=900|Trec=2001": 0.0,
+    "P0=27000|ts=800|Trec=1997": 0.0,
+    "P0=27000|ts=800|Trec=2001": 0.0,
+    "P0=27000|ts=900|Trec=1997": 0.0,
+    "P0=27000|ts=900|Trec=2001": 0.0
+   },
+   "p_mean": 0.625,
+   "F_mean": 1.922886603738492
+  },
+  "unreg_Copan_as_abandon(insitu 2/2)": {
+   "w": NaN,
+   "cells": {},
+   "p_mean": 0.8333333333333334,
+   "F_mean": 2.1204017561415065
+  }
+ },
+ "media_P_read_1000y": {
+  "insitu_3/3(143)": {
+   "p": 0.875,
+   "mom_mf": 0.9663928853234633,
+   "fiche24": 0.20582098817207223,
+   "rosetta": 0.8845383456436898,
+   "piql": 0.4963767554999711,
+   "silica": 0.6275900386100413
+  },
+  "main_reg[200,1000]": {
+   "p": 0.6425937500000001,
+   "mom_mf": 0.9728307098835283,
+   "fiche24": 0.38230092975215485,
+   "rosetta": 0.9086810432708039,
+   "piql": 0.5972097888279176,
+   "silica": 0.6926341532663743
+  },
+  "reg_ts800_only": {
+   "p": 0.6598490625,
+   "mom_mf": 0.9723055780264904,
+   "fiche24": 0.36914872967830775,
+   "rosetta": 0.9068354003890928,
+   "piql": 0.5895867813164031,
+   "silica": 0.6877909448620844
+  },
+  "143_inputs_Trec2023": {
+   "p": 0.6483896874999999,
+   "mom_mf": 0.9726424171259733,
+   "fiche24": 0.3779020327927917,
+   "rosetta": 0.9080417898074883,
+   "piql": 0.594665855071984,
+   "silica": 0.6909832108870594
+  },
+  "unreg_[50,1000](esencialmente despoblado)": {
+   "p": 0.63433046875,
+   "mom_mf": 0.9730577511943959,
+   "fiche24": 0.3886615744319298,
+   "rosetta": 0.9095296873142787,
+   "piql": 0.6010175117984442,
+   "silica": 0.6949770571352757
+  },
+  "unreg_[50,500]": {
+   "p": 0.625,
+   "mom_mf": 0.9733297144799068,
+   "fiche24": 0.3959028057272497,
+   "rosetta": 0.9104635993739376,
+   "piql": 0.6051321190714274,
+   "silica": 0.6975935948383958
+  },
+  "unreg_Copan_as_abandon(insitu 2/2)": {
+   "p": 0.8333333333333334,
+   "mom_mf": 0.9674915733726285,
+   "fiche24": 0.23739775209406194,
+   "rosetta": 0.8888217782738503,
+   "piql": 0.5143398462612914,
+   "silica": 0.6394904291167955
+  }
+ },
+ "hypotheses": {
+  "H156a": {
+   "class": "confirmatory",
+   "supported": null,
+   "value": "登録文の向きの誤り：143 の規則では Pmin が小さいほど停滞なし（789 未満→2/3）。原典の要約に数なし（'esencialmente despoblado' 1200〜1250、Manahan 'virtually devoid'）。規則により判定保留、混合で閉じる"
+  },
+  "H156b": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "自治体（361 km²）は 2001 年に 30,703 ≥ 27,000、1950 年の逆算 9297。2.26% 一定の逆算で 27,000 到達は 1998 年（推測）"
+  },
+  "H156c": {
+   "class": "confirmatory",
+   "supported": true,
+   "value": "頂点 26,000〜27,000 は 750〜900 年（Webster ら 1992）。Wikipedia の 400〜450 年 28,000 とは食い違う"
+  },
+  "H156d": {
+   "class": "prediction",
+   "supported": false,
+   "value": 0.070375
+  },
+  "H156e": {
+   "class": "prediction",
+   "supported": false,
+   "value": 1.9395667581156266
+  }
+ },
+ "runtime_s": 12.096835136413574
+}

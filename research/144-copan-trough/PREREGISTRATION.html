@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究144 事前登録（open_problems 331：Copán 谷の谷の人口の下限） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="144-open_problems-331copan">研究144 事前登録（open_problems 331：Copán 谷の谷の人口の下限）</h1>
+<p>登録時刻：末尾の date の出力（本回の新しい資料を開く前・sim.py を書く前）。
+注：F_heavy・V・P_read は生存確率や復興確率ではない（模型の中の量）。</p>
+<h2 id="_1">問い</h2>
+<p>143 で Copán の停滞の判定は谷の人口 Pmin の損益分岐 ≈789 人（P0 28,000、t_start 800、回復の上限 2023、r=0.002919/年＝038 の中央値）をまたいだ。資料は「1200 年に 1,000 未満」だけ。原典（Webster・Freter・Gonlin、Paine・Freter など）の要約で谷の下限と調査範囲を確かめ、「その場」集合を 3/3 か 2/3 に決める。</p>
+<h2 id="128129143">規則（128・129・143 のまま）</h2>
+<ul>
+<li>停滞：pred = ln(P0/Pmin)/r、超過 = T_rec − pred &gt; 0 なら停滞。区間は上限で判定（143 と同じ）。</li>
+<li>数値は本回実際に開いた公開の頁（抄録・大学の頁・Wikipedia）だけ。取れなければ「取れず」。</li>
+<li>新たに見る入力：(1) 谷の最小の人口 Pmin、(2) 頂点 P0 とその時期、(3) 谷が P0 に戻った年 T_rec（国勢調査など。143 は上限 2023 を置いた）。</li>
+</ul>
+<h2 id="_2">決定の規則（登録）</h2>
+<ul>
+<li>原典に 789 未満の数（または範囲の上端が 789 未満）があれば 3/3、789 以上の下限があれば 2/3。</li>
+<li>「1,000 未満」のままなら判定保留とし、Pmin を [200, 1000] の対数一様と置いた混合（停滞の確率 w）で その場の p|lost の事後を Beta の混合として出し、これで 331 を閉じる（1 回で打ち切り）。</li>
+<li>T_rec が分かり、それで符号が変わるなら T_rec の値を優先して報告する。</li>
+</ul>
+<h2 id="_3">仮説</h2>
+<ul>
+<li>H156a（確認的）：原典の要約での 1200 年前後の谷の人口の推定は 789 人未満（→3/3）。著者は「数百人」とする記述をうろ覚えで知っている可能性があり、確認的の力は弱い。</li>
+<li>H156b（確認的）：Copán 谷（または同じ範囲の自治体）が P0（2〜2.8 万）に戻ったのは 1900 年より後。</li>
+<li>H156c（確認的）：原典では頂点は 8 世紀（Late Classic）で、28,000 の「400〜450 年」は Wikipedia の要約の誤りか別の値。</li>
+<li>H156d（予測）：資料で置き直した入力の妥当な組（P0×Pmin×t_start×T_rec）のうち 2/3 以上で停滞。</li>
+<li>H156e（予測）：その場の F_heavy（遅い κ・D2rz・W・H1000）は 2.0〜2.17 に入る。
+2026-10-27 05:34:42 JST</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
