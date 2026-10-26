@@ -1,0 +1,73 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究143 事前登録（open_problems 303＋329） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="143-open_problems-303329">研究143 事前登録（open_problems 303＋329）</h1>
+<p>登録時刻：末尾の date の出力（本回の新しい資料を開く前・sim.py を書く前）。
+注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。</p>
+<h2 id="_1">問い</h2>
+<p>129 までの p|lost は lost 5/5（Greece_LBA・Britain・Norse・Copán・Cahokia、うち放棄・消滅が 2）。129 で取れなかった Indus・Hittite・Angkor の代わりに、人口の推定が公開の資料にありそうな別の候補を足し、p|lost を詰める。とくに「段を失ったのに停滞しなかった」反例を探す（反例が 0 のままなら選び方の偏りを疑う）。</p>
+<h2 id="128129">規則（128・129 のまま変えない）</h2>
+<ul>
+<li>分類：前にあった 4 項目（文字の日常の使用、地元の金属の生産、石造・煉瓦の大きな建築の新築、貨幣）のうち 2 つ以上が 50 年以上途絶、または住民が消滅・放棄で lost。前になかった項目は分母から外す。根拠の文がなければ「不明」（途絶に数えない）。</li>
+<li>停滞：pred = ln(P0/Pmin)/r_med038（125 の results.json の値）、超過 T_rec−pred&gt;0 なら停滞。区間は上限で判定。消滅・放棄は停滞。</li>
+<li>数値は本回実際に開いた資料（Wikipedia 英語版の wikitext を sources/ に保存）だけ。なければ「取れず」で数えない。</li>
+</ul>
+<h2 id="_2">追加の副集合（新規・登録）</h2>
+<ul>
+<li>「その場」集合：放棄・消滅を除いた lost（段の喪失と停滞が同じ事実から来るのを避ける）。</li>
+</ul>
+<h2 id="_3">候補と事前の予想（著者は概略を知っているので確認的の力は弱い）</h2>
+<table>
+<thead>
+<tr>
+<th>事例</th>
+<th>予想の分類</th>
+<th>予想の停滞</th>
+<th>判定できる見込み</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maya_Peten（Tikal を含む南部低地）</td>
+<td>lost（文字・石造）</td>
+<td>あり</td>
+<td>半々</td>
+</tr>
+<tr>
+<td>Teotihuacan（メキシコ盆地）</td>
+<td>不明（文字は限定的・石造の新築は盆地の外へ）</td>
+<td>なし</td>
+<td>半々</td>
+</tr>
+<tr>
+<td>Great_Zimbabwe</td>
+<td>lost（放棄・石造）</td>
+<td>あり</td>
+<td>低い</td>
+</tr>
+<tr>
+<td>Tiwanaku</td>
+<td>lost（放棄・石造）</td>
+<td>あり</td>
+<td>低い</td>
+</tr>
+<tr>
+<td>Ancestral_Puebloan（Mesa Verde・Chaco）</td>
+<td>lost（放棄）</td>
+<td>あり</td>
+<td>半々</td>
+</tr>
+<tr>
+<td>Egypt_FIP（第1中間期）</td>
+<td>kept（文字は続く）</td>
+<td>なし</td>
+<td>低い</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">仮説</h2>
+<ul>
+<li>H155a（確認的）：本回判定できた lost を足しても p|lost の点推定（k/n）は ≥0.75。</li>
+<li>H155b（確認的）：「その場」集合（放棄・消滅を除く）でも p|lost ≥0.75。</li>
+<li>H155c（予測）：本回、段を失ったのに停滞なしの反例が 1 件以上見つかる（見つからなければ偏りの懸念は残る、と書く）。</li>
+<li>H155d（予測）：更新後の Jeffreys 事後の平均での遅い κ・D2rz・W・H1000 の F_heavy は 2.10〜2.29（128 の grid.json）。</li>
+<li>H155e（予測）：p|lost の事後平均を 142 の媒体の表（銀塩フィッシュ 24 倍）に入れても 1,000 年に読める確率は 0.3 未満に留まる。
+2026-10-27 03:34:24 JST</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

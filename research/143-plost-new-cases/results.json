@@ -1,0 +1,375 @@
+{
+ "study": "143-plost-new-cases",
+ "note": "F_heavy・P_read は生存確率や復興確率ではない",
+ "r_median_038": 0.0029188908722425303,
+ "check_129": {
+  "M128+Copan": {
+   "p_diff": 0.00021087412855980148,
+   "F_diff": 0.000186500076829077
+  },
+  "all_new(M128+Copan+Cahokia, kept+Italy)": {
+   "p_diff": 0.00019127442239030845,
+   "F_diff": 0.0001895255937598428
+  },
+  "142A|stone": 0.0,
+  "142A|mom_eye": 0.0,
+  "142A|paper": 0.0,
+  "142A|mom_mf": 0.0,
+  "142A|fiche24": 0.0,
+  "142A|fiche48": 0.0,
+  "142A|ultra": 0.0,
+  "142A|rosetta": 0.0,
+  "142A|piql_hand": 0.0,
+  "142A|piql": 0.0,
+  "142A|silica": 0.0,
+  "142A|mdisc": 0.0,
+  "142A|lto": 0.0,
+  "142A|ssd": 0.0
+ },
+ "copan": {
+  "P0": 28000,
+  "Pmin_upper": 1000,
+  "t_start": 800,
+  "t_trough": 1200,
+  "t_still_low": 1550,
+  "t_rec_upper": 2023,
+  "ev": [
+   "sources/wiki_Classic_Maya_collapse（Freter・Gonlin・Webster の黒曜石の水和年代）：'Between 400 and 450, the population was estimated at a peak of twenty-eight thousand, between 750 and 800 the population then began to steadily decline. By 900 the population had fallen to fifteen thousand, and by 1200 the population was again less than 1000'",
+   "129 の sources/wiki_Copan：'only a few farming hamlets ... 16th century'。現在の自治体 45,312（2023、125 の sources/）"
+  ],
+  "pred": 1141.5995513443543,
+  "T_upper": 1223,
+  "excess_upper": 81.40044865564573,
+  "excess_lower": -391.59955134435427,
+  "stag": true,
+  "Pmin_breakeven_upper": 788.5188027964726,
+  "grid_excess_upper": {
+   "P0=20000|Pmin=1000|ts=750": 246.7,
+   "P0=20000|Pmin=1000|ts=800": 196.7,
+   "P0=20000|Pmin=1000|ts=900": 96.7,
+   "P0=20000|Pmin=800|ts=750": 170.2,
+   "P0=20000|Pmin=800|ts=800": 120.2,
+   "P0=20000|Pmin=800|ts=900": 20.2,
+   "P0=20000|Pmin=500|ts=750": 9.2,
+   "P0=20000|Pmin=500|ts=800": -40.8,
+   "P0=20000|Pmin=500|ts=900": -140.8,
+   "P0=20000|Pmin=200|ts=750": -304.7,
+   "P0=20000|Pmin=200|ts=800": -354.7,
+   "P0=20000|Pmin=200|ts=900": -454.7,
+   "P0=28000|Pmin=1000|ts=750": 131.4,
+   "P0=28000|Pmin=1000|ts=800": 81.4,
+   "P0=28000|Pmin=1000|ts=900": -18.6,
+   "P0=28000|Pmin=800|ts=750": 55.0,
+   "P0=28000|Pmin=800|ts=800": 5.0,
+   "P0=28000|Pmin=800|ts=900": -95.0,
+   "P0=28000|Pmin=500|ts=750": -106.1,
+   "P0=28000|Pmin=500|ts=800": -156.1,
+   "P0=28000|Pmin=500|ts=900": -256.1,
+   "P0=28000|Pmin=200|ts=750": -420.0,
+   "P0=28000|Pmin=200|ts=800": -470.0,
+   "P0=28000|Pmin=200|ts=900": -570.0
+  }
+ },
+ "abandon": {
+  "Tikal": {
+   "P0_range": [
+    10000,
+    90000
+   ],
+   "t_abandon": "950〜11 世紀",
+   "ev": "sources/wiki_Tikal：'Population estimates for Tikal vary from 10,000 to as high as 90,000'；'After 950, Tikal was all but deserted'；'Even these final inhabitants abandoned the city in the 10th or 11th centuries and the rainforest claimed the ruins for the next thousand years'；'Some of Tikal's population may have migrated to the Peten Lakes region'",
+   "migr": "一部は移住の可能性"
+  },
+  "Tiwanaku": {
+   "P0_range": [
+    10000,
+    null
+   ],
+   "t_abandon": "c.1050",
+   "ev": "sources/wiki_Tiwanaku：'had a population greater than 10,000 individuals'；infobox 'abandoned = circa 1050 AD'；'collapsed around AD 1000'（乾燥化の説）",
+   "migr": "記述なし"
+  },
+  "Mesa_Verde": {
+   "P0_range": [
+    20000,
+    20000
+   ],
+   "t_abandon": "1260〜1300",
+   "ev": "sources/wiki_Mesa_Verde_National_Park：'An estimated 20,000 people lived in the region during the 13th century, but by the start of the 14th century the area was nearly uninhabited'；'tens of thousands of people emigrated or died from starvation'；'Many surviving emigrants may have relocated to southern Arizona and New Mexico'",
+   "migr": "あり（移住）"
+  },
+  "Great_Zimbabwe": {
+   "P0_range": [
+    10000,
+    20000
+   ],
+   "t_abandon": "16〜17 世紀",
+   "ev": "sources/wiki_Great_Zimbabwe：'Earlier estimates suggest a peak population of around 20,000 ... did not exceed 10,000'；'Major construction ... continued until the 15th century. The city was abandoned in the 16th or 17th century'；'It is unknown what caused Great Zimbabwe's demise'",
+   "migr": "不明"
+  }
+ },
+ "not_obtained": {
+  "Teotihuacan": "sources/wiki_Teotihuacan：都市 10〜20 万、'continued to be inhabited, though it never reached its previous levels of population'。盆地の崩壊後の人口の数値なし、4 項目の途絶の根拠の文なし",
+  "Egypt_FIP": "sources/wiki_First_Intermediate_Period_of_Egypt：'drastic reduction in population in the Nile Valley'（数値なし）。小さなピラミッド（Ibi、Merikare）は造られ、分類も kept 寄り",
+  "Chaco": "sources/wiki_Chaco_Culture_National_Historical_Park：放棄の記述はあるが人口の数値なし"
+ },
+ "tikal_hiatus_note": "sources/wiki_Tikal：'The \"Tikal hiatus\" refers to a period between the late 6th to late 7th century where there was a lapse in the writing of inscriptions and large-scale construction'；'In 682, Jasaw Chan K'awiil I erected the first dated monument at Tikal in 120 years'；その後 Late Classic に人口の頂点。文字は『日常の使用』でなく碑文の途絶で、規則の項目に厳密には当たらない",
+ "counts": {
+  "M129(5/5)": {
+   "lost_stag": 5,
+   "n_lost": 5
+  },
+  "M129+abandon": {
+   "lost_stag": 9,
+   "n_lost": 9
+  },
+  "insitu(Greece,Britain,Copan_stag)": {
+   "lost_stag": 3,
+   "n_lost": 3
+  },
+  "insitu_Copan_no": {
+   "lost_stag": 2,
+   "n_lost": 3
+  },
+  "all_Copan_no": {
+   "lost_stag": 8,
+   "n_lost": 9
+  },
+  "unregistered:+TikalHiatus_as_lost_nostag(all)": {
+   "lost_stag": 9,
+   "n_lost": 10
+  },
+  "unregistered:+TikalHiatus(insitu)": {
+   "lost_stag": 3,
+   "n_lost": 4
+  }
+ },
+ "posterior": {
+  "M129(5/5)|jeffreys": {
+   "k": 5,
+   "n": 5,
+   "p_mean": 0.9166666666666666,
+   "p_q10_90": [
+    0.7732754713709072,
+    0.998498948003159
+   ],
+   "F_mean": 2.201336199909616
+  },
+  "M129(5/5)|uniform": {
+   "k": 5,
+   "n": 5,
+   "p_mean": 0.8571428571428571,
+   "p_q10_90": [
+    0.6812920690579614,
+    0.9825931938526898
+   ],
+   "F_mean": 2.1375209597596583
+  },
+  "M129+abandon|jeffreys": {
+   "k": 9,
+   "n": 9,
+   "p_mean": 0.95,
+   "p_q10_90": [
+    0.864033022350016,
+    0.9991471213100018
+   ],
+   "F_mean": 2.236583820451694
+  },
+  "M129+abandon|uniform": {
+   "k": 9,
+   "n": 9,
+   "p_mean": 0.9090909090909091,
+   "p_q10_90": [
+    0.7943282347242815,
+    0.9895192582062144
+   ],
+   "F_mean": 2.1907604993646195
+  },
+  "insitu(Greece,Britain,Copan_stag)|jeffreys": {
+   "k": 3,
+   "n": 3,
+   "p_mean": 0.875,
+   "p_q10_90": [
+    0.6610366433328637,
+    0.9975806939729063
+   ],
+   "F_mean": 2.159904788321881
+  },
+  "insitu(Greece,Britain,Copan_stag)|uniform": {
+   "k": 3,
+   "n": 3,
+   "p_mean": 0.8,
+   "p_q10_90": [
+    0.5623413251903491,
+    0.9740037464252967
+   ],
+   "F_mean": 2.0826337035775686
+  },
+  "insitu_Copan_no|jeffreys": {
+   "k": 2,
+   "n": 3,
+   "p_mean": 0.625,
+   "p_q10_90": [
+    0.31528967839199074,
+    0.8984626744524907
+   ],
+   "F_mean": 1.922886603738492
+  },
+  "insitu_Copan_no|uniform": {
+   "k": 2,
+   "n": 3,
+   "p_mean": 0.6,
+   "p_q10_90": [
+    0.3204605837218183,
+    0.8574406832899693
+   ],
+   "F_mean": 1.899073565792813
+  },
+  "all_Copan_no|jeffreys": {
+   "k": 8,
+   "n": 9,
+   "p_mean": 0.85,
+   "p_q10_90": [
+    0.6992344936808601,
+    0.9671340185957641
+   ],
+   "F_mean": 2.127885592849599
+  },
+  "all_Copan_no|uniform": {
+   "k": 8,
+   "n": 9,
+   "p_mean": 0.8181818181818182,
+   "p_q10_90": [
+    0.6631522766932753,
+    0.9454713800023292
+   ],
+   "F_mean": 2.0946797232568035
+  },
+  "unregistered:+TikalHiatus_as_lost_nostag(all)|jeffreys": {
+   "k": 9,
+   "n": 10,
+   "p_mean": 0.8636363636363636,
+   "p_q10_90": [
+    0.7254382498463097,
+    0.9704588680658168
+   ],
+   "F_mean": 2.1416714666624737
+  },
+  "unregistered:+TikalHiatus_as_lost_nostag(all)|uniform": {
+   "k": 9,
+   "n": 10,
+   "p_mean": 0.8333333333333334,
+   "p_q10_90": [
+    0.6897565521874544,
+    0.9505481528297316
+   ],
+   "F_mean": 2.1096103310705288
+  },
+  "unregistered:+TikalHiatus(insitu)|jeffreys": {
+   "k": 3,
+   "n": 4,
+   "p_mean": 0.7,
+   "p_q10_90": [
+    0.43150701531066565,
+    0.9247429264997867
+   ],
+   "F_mean": 1.9879184669939036
+  },
+  "unregistered:+TikalHiatus(insitu)|uniform": {
+   "k": 3,
+   "n": 4,
+   "p_mean": 0.6666666666666666,
+   "p_q10_90": [
+    0.4161096253804711,
+    0.8877650414541415
+   ],
+   "F_mean": 1.9560992343120829
+  }
+ },
+ "missing_quick_cases_to_drop_below_0.75": {
+  "M129(5/5)": 2,
+  "M129+abandon": 4,
+  "insitu(Greece,Britain,Copan_stag)": 2,
+  "insitu_Copan_no": 0,
+  "all_Copan_no": 2
+ },
+ "media_P_read_1000y": {
+  "p=0.9(142)": {
+   "p": 0.9,
+   "mean_delay": 396.04804331781924,
+   "mom_mf": 0.9656639643159589,
+   "fiche24": 0.18715618972877074,
+   "rosetta": 0.8818862819979871,
+   "piql": 0.4857040312891766,
+   "silica": 0.6205717966080562
+  },
+  "all": {
+   "p": 0.95,
+   "mean_delay": 418.30400073352973,
+   "mom_mf": 0.9642704261232844,
+   "fiche24": 0.1493653317443045,
+   "rosetta": 0.8766554010560252,
+   "piql": 0.4639984791154969,
+   "silica": 0.6062241143263118
+  },
+  "insitu": {
+   "p": 0.875,
+   "mean_delay": 385.1558466747914,
+   "mom_mf": 0.9663928853234633,
+   "fiche24": 0.20582098817207223,
+   "rosetta": 0.8845383456436898,
+   "piql": 0.4963767554999711,
+   "silica": 0.6275900386100413
+  },
+  "insitu_Copan_no": {
+   "p": 0.625,
+   "mean_delay": 274.36841657851187,
+   "mom_mf": 0.9733297144799068,
+   "fiche24": 0.3959028057272497,
+   "rosetta": 0.9104635993739376,
+   "piql": 0.6051321190714274,
+   "silica": 0.6975935948383958
+  },
+  "unreg_insitu+Tikal": {
+   "p": 0.7,
+   "mean_delay": 307.77860527867296,
+   "mom_mf": 0.9713041217418371,
+   "fiche24": 0.33860673837720656,
+   "rosetta": 0.9027456703990137,
+   "piql": 0.572350313753691,
+   "silica": 0.676590241328269
+  }
+ },
+ "hypotheses": {
+  "H155a": {
+   "class": "confirmatory",
+   "value": "9/9",
+   "supported": true
+  },
+  "H155b": {
+   "class": "confirmatory",
+   "value": {
+    "Copan_stag": "3/3",
+    "Copan_no": "2/3=0.667"
+   },
+   "supported": null,
+   "note": "Copán の谷の人口の下限が『1,000 未満』で損益分岐 789 人をまたぐため、3/3 か 2/3 かが決まらず判定保留"
+  },
+  "H155c": {
+   "class": "prediction",
+   "value": "規則で数えられる反例 0（Tikal の空白期は人口の数値なしで数えない）",
+   "supported": false
+  },
+  "H155d": {
+   "class": "prediction",
+   "value": 2.236583820451694,
+   "supported": true
+  },
+  "H155e": {
+   "class": "prediction",
+   "value": 0.1493653317443045,
+   "supported": true
+  }
+ },
+ "runtime_s": 11.9
+}

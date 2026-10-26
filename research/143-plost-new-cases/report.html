@@ -1,0 +1,79 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究143：段を失った崩壊の事例を増やし p|lost を詰める（open_problems 303＋329） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="143-plost-open_problems-303329">研究143：段を失った崩壊の事例を増やし p|lost を詰める（open_problems 303＋329）</h1>
+<p><strong>注：F_heavy・V・P_read は生存確率や復興確率ではない（模型の中の量）。</strong> 結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<ul>
+<li>資料を開く前（03:34 JST）に PREREGISTRATION.md で候補 6 件・仮説 H155a〜e・新しい副集合「その場」（放棄・消滅を除く lost）を登録。規則は 128・129 のまま。</li>
+<li>本回取得：英語版 Wikipedia の Tikal、Teotihuacan、Great Zimbabwe、Tiwanaku、Ancestral Puebloans、Mesa Verde National Park、Chaco Culture NHP、First Intermediate Period of Egypt、Classic Maya collapse、Petén Department（sources/、SHA256SUMS）。</li>
+<li>sim.py（約 12 秒）：129 の事後を数値積分で再現（差 &lt;2.1e-4、MC の誤差内で assert）、142 の sim を /tmp の写しで実行して版 A の 14 媒体の P_read を差 0 で再現（assert）し、その run() に本回の p を入れた。</li>
+</ul>
+<h2 id="stdouttxt-resultsjson">結果（stdout.txt の末尾、results.json）</h2>
+<ul>
+<li>【事実（sources/wiki_Classic_Maya_collapse）】Copán 谷（Freter・Gonlin・Webster）：頂点 28,000、750〜800 年から減少、900 年 15,000、<strong>1200 年に 1,000 未満</strong>。129 の Pmin（5,000 未満）より一桁深い谷が分かった。</li>
+<li>【計算】Copán の停滞の超過（上限、t_start 800）は Pmin=1,000 で +81 年（停滞あり）。損益分岐は <strong>Pmin≈789 人</strong>で、資料の「1,000 未満」はこれをまたぐ。t_start を 900 にすると Pmin=1,000 でも −19 年。<strong>Copán の判定は 129 より不安定になった。</strong></li>
+<li>新しい lost は 4 件すべて放棄（Tikal 1〜9 万、Tiwanaku 1 万超、Mesa Verde 2 万、Great Zimbabwe 1〜2 万）で、規則では自動的に停滞。Teotihuacan・エジプト第1中間期・Chaco は人口の数値がなく取れず。</li>
+<li>p|lost（Jeffreys の事後平均、F_heavy は遅い κ・D2rz・W・H1000）：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>集合</th>
+<th>k/n</th>
+<th>p</th>
+<th>F_heavy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>129 の主（5 件）</td>
+<td>5/5</td>
+<td>0.917</td>
+<td>2.201</td>
+</tr>
+<tr>
+<td>＋放棄 4 件</td>
+<td>9/9</td>
+<td>0.950</td>
+<td>2.237</td>
+</tr>
+<tr>
+<td>その場（Greece・Britain・Copán 停滞）</td>
+<td>3/3</td>
+<td>0.875</td>
+<td>2.160</td>
+</tr>
+<tr>
+<td>その場（Copán 停滞なし）</td>
+<td>2/3</td>
+<td>0.625</td>
+<td>1.923</td>
+</tr>
+<tr>
+<td>登録外：その場＋Tikal の空白期</td>
+<td>3/4</td>
+<td>0.700</td>
+<td>1.988</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>選び方の偏り：「段を失ったがすぐ戻った」事例が記録から <strong>2 件</strong>抜けているだけで、主・その場の点推定は 0.75 を割る（9/9 でも 4 件）。</li>
+<li>質的な反例候補（数えない）：【事実（sources/wiki_Tikal）】Tikal の空白期（562 年の敗戦〜682 年、'the first dated monument at Tikal in 120 years'、碑文と大建築の途絶）の後に Late Classic の頂点が来た。人口の数値がなく、途絶したのは「日常の文字」でなく碑文なので規則では数えない。</li>
+<li>142 の媒体の表（1,000 年に読める確率）：銀塩フィッシュ 24 倍は p 0.95 で 0.149、0.875 で 0.206、0.625 で 0.396。Silica 0.606〜0.698、MOM 10 倍 0.964〜0.973、Rosetta 0.877〜0.910。順位は不変。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H155a（確認的）支持：9/9。ただし新しい 4 件は放棄で、段の喪失と停滞が同じ事実から来る。</li>
+<li>H155b（確認的）<strong>判定保留</strong>：その場の集合は Copán の谷の人口で 3/3 か 2/3 に分かれる。</li>
+<li>H155c（予測）<strong>棄却</strong>：規則で数えられる反例は 0（Tikal の空白期は質的な候補のみ）。</li>
+<li>H155d（予測）支持：2.237（2.10〜2.29）。H155e（予測）支持：0.149 &lt; 0.3（その場で Copán 停滞なしなら 0.396 で外れる）。</li>
+<li>著者は事例の概略を知っていたので確認的の力は弱い。</li>
+</ul>
+<h2 id="_3">批判</h2>
+<ol>
+<li>放棄を足すほど p|lost は 1 に寄るが、それは規則（放棄＝停滞）の結果で、模型の「生き残りがその場で T2 に戻れない」状況の証拠ではない。移住（Mesa Verde、Tikal の一部）は人口の回復の失敗と区別できない。</li>
+<li>公開の要約で人口の数値があるのは有名な長い崩壊に偏る。2 件の見落としで結論が動くので、p|lost の主を 0.9 超に上げる根拠はない。</li>
+<li>Copán の頂点 28,000 は「400〜450 年」とあり 129 の 1.8〜2.5 万（Late Classic）と時期・範囲が食い違う。地域の範囲と自治体の現人口の対応も未確認。</li>
+<li>r は 038 の中央値の模型の値で、停滞の定義そのものがこの値に依存する。</li>
+</ol>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は、放棄を足した 2.24 に主を上げず、その場の集合の 2.16 を主に据え置き、Copán の谷が 789 人未満だった場合の 1.92 と Tikal の空白期を数えた場合の 1.99 を下端の感度として並べる。写しの設計者には 142 の提言（銀塩フィッシュを読取装置の知識の唯一の置き場にしない）がこの幅（0.15〜0.40）のどこでも成り立つと伝える。D2rz の推しは不変。</p><footer><hr><small>自動生成</small></footer></body></html>
