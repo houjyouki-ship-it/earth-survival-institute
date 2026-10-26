@@ -1,0 +1,115 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究134：現代の重い崩壊の下り坂 D_mod（open_problems 311） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="134-d_modopen_problems-311">研究134：現代の重い崩壊の下り坂 D_mod（open_problems 311）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。事前登録 PREREGISTRATION.md（2026-10-26 09:36 JST、資料を開く前・sim.py の前、PREREG.sha256）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<p>133 で「停滞する標本に C 型の下り坂（約 200 年）を付けるか」で F_heavy が 1.90〜2.15 と分かれたので、現代の重い崩壊の急性の下り坂を公開の数値で置き、133 の sim（127 の prefix、遅い κ、p|lost 0.9、p|kept 1/6、W 形）に入れた。国家・交易の二次の崩れで C 型の下り坂に入る確率 c_C は資料から決まらないので感度に置いた。
+- 【事実（Xia et al. 2022, Nature Food, https://www.nature.com/articles/s43016-022-00573-0）】150 Tg で作物のカロリー生産は戦争の 3〜4 年後に約 90 % 減り、気温の低下は 10 年以上続く。本文は 15 年の実行。
+- 【計算（同論文の OSF https://osf.io/yrbse/ の CLM5 格子収量、095 の sources/nw150.nc）】4 大作物の生産の比の代理（収量×cos 緯度、面積なし、天水・灌漑を等しく）：年 1〜15 で 0.47, 0.19, 0.12, 0.13, 0.18, 0.25, 0.34, 0.48, 0.66, 0.82, 0.94, 0.99, 0.97, 1.00, 0.98。最小は年 3（0.12、本文の「約 90 % 減」と合う）。対照 28 年の最小は 0.978 なので、平時を下回る年は 0.95 を閾値に 11 年（0.9 で 10 年、0.8 で 9 年）。
+- 【事実（Wikipedia の Black Death・1918 flu pandemic、sources/）】黒死病は欧州で 1346〜1353 年（7 年）、1918 年の流行は 1918〜1920 年（約 2 年）。
+- 再現：定義B（D=0）1.898 と 133 の E1（D_C 主）2.149 を D2rz・D1・D4 で差 0（assert）。sim.py 約 351 秒。</p>
+<h2 id="d2rz-d1-d4-f_heavyresultsjsonfig_modern_downhillpng">結果（D2rz / D1 / D4 の F_heavy、results.json・fig_modern_downhill.png）【計算】</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>中身</th>
+<th>D2rz</th>
+<th>D1</th>
+<th>D4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R0_B</td>
+<td>D=0（定義B）</td>
+<td>1.898</td>
+<td>1.738</td>
+<td>1.498</td>
+</tr>
+<tr>
+<td>M1_min3</td>
+<td>D=3（谷＝生産の最小の年）</td>
+<td>1.903</td>
+<td>1.741</td>
+<td>1.500</td>
+</tr>
+<tr>
+<td>M1（主）</td>
+<td>D=11（核の冬、0.95 未満の年）</td>
+<td><strong>1.911</strong></td>
+<td>1.748</td>
+<td>1.505</td>
+</tr>
+<tr>
+<td>M1_15</td>
+<td>D=15</td>
+<td>1.918</td>
+<td>1.754</td>
+<td>1.510</td>
+</tr>
+<tr>
+<td>M2_pan</td>
+<td>D={7,2}（大疫病）</td>
+<td>1.905</td>
+<td>1.744</td>
+<td>1.502</td>
+</tr>
+<tr>
+<td>M5</td>
+<td>M1＋停滞のない標本にも 11 年</td>
+<td>1.914</td>
+<td>1.750</td>
+<td>1.507</td>
+</tr>
+<tr>
+<td>M3_c025</td>
+<td>11＋確率 0.25 で C 型</td>
+<td>1.965</td>
+<td>1.792</td>
+<td>1.536</td>
+</tr>
+<tr>
+<td>M3_c05</td>
+<td>11＋確率 0.5 で C 型</td>
+<td>2.022</td>
+<td>1.840</td>
+<td>1.571</td>
+</tr>
+<tr>
+<td>M4_c1</td>
+<td>11＋必ず C 型</td>
+<td>2.166</td>
+<td>1.961</td>
+<td>1.656</td>
+</tr>
+<tr>
+<td>R_E1</td>
+<td>133 の E1（C 型のみ）</td>
+<td>2.149</td>
+<td>1.947</td>
+<td>1.646</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>急性の下り坂（核の冬 3〜15 年、疫病 2〜7 年）は F_heavy を +0.2〜+1.0 % しか動かさない。F_heavy はほぼ c_C だけで決まり、c_C にほぼ線形（0→1 で 1.911→2.166、傾き約 0.255）。F_total は 1.26〜1.30。</li>
+<li>全 10 版で D2rz ≥ D1 ≥ D4。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H146a（確認的）支持：D_nw 11 年、D_pan 7・2 年で、いずれも 20 年以下、S 型の中央値 98 年より瞬時に近い。</li>
+<li>H146b（確認的）支持：M1 は定義B の +0.66 %。</li>
+<li>H146c（確認的）支持：c_C=0.5 で 2.022、中点 2.024 から −0.09 %。</li>
+<li>H146d（確認的）支持。</li>
+<li>逸脱：「平時を下回る年」の閾値 0.95 は対照の揺れ（最小 0.978）を見てから決めた。0.9・0.8・最小の年（3）・15 を併記し、結論は変わらない。</li>
+</ul>
+<h2 id="_3">批判</h2>
+<ol>
+<li>結果の大半は算術：急性の年数は 200 年に比べて小さいので、効かないのは計算する前から見込めた。新しく分かったのは、現代の急性の下り坂が史実の S 型（約 100 年）よりさらに 1 桁短いという入力の側【計算】。</li>
+<li>史実の S 型の約 100 年は、1 回の波ではなく繰り返しの流行（England の黒死病の後のペスト）や征服後の支配を含む。人工の疫病が繰り返すか（風土病になるか）は資料にない。繰り返すなら S 型に近づく【推測】。</li>
+<li>格子の代理は面積を使っておらず、国ごとの在庫・交易・適応（Xia の Partial Livestock）も入れていない。年数の幅はこの代理のものだけ。</li>
+<li>二次の崩れ c_C が F_heavy の 1.91〜2.17 の幅のほぼ全部を持つ。現代の 8 割以上が死ぬ破局で国家・交易が残る確率の外部根拠はまだない【独自仮説：c_C は高い側、0.5 以上】。</li>
+</ol>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は F_heavy を「急性の下り坂だけなら 1.91、二次の崩れが必ず起きるなら 2.17」と c_C の関数で示す。急性の年数を詰める作業（Xia の国別・在庫）は効きが +1 % 未満なので打ち切ってよい。次に詰めるべきは c_C（大きな死の後に国家・交易が崩れて長い下り坂に入る割合）。D2rz の推しは不変。</p>
+<h2 id="_5">ファイル</h2>
+<p>sim.py、nw_years.py、nw_years.json、results.json、stdout.txt、stderr.txt（無害な警告）、fig_modern_downhill.png、PREREGISTRATION.md、PREREG.sha256、SHA256SUMS_outputs、sources/（xia2022.html/txt、wp_*、SHA256SUMS）。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,1 @@
+Xia 2022 https://www.nature.com/articles/s43016-022-00573-0 ; wp https://en.wikipedia.org/wiki/Black_Death https://en.wikipedia.org/wiki/Spanish_flu ; 格子収量は ../../095-farming-halt-correlation/sources/nw150.nc（OSF https://osf.io/yrbse/）

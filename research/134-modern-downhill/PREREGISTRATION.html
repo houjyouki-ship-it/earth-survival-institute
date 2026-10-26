@@ -1,0 +1,26 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究134 事前登録（2026-10-26 09:36 JST、資料を開く前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="134-2026-10-26-0936-jstsimpy">研究134 事前登録（2026-10-26 09:36 JST、資料を開く前・sim.py を書く前）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-311">課題（open_problems 311）</h2>
+<p>現代の重い崩壊（核の冬・人工の疫病）で、破局の後に人口が減り続ける年数 D_mod は C 型（約200年）・S 型（約100年）・瞬時（0）のどれに近いか。133 の sim の D に D_mod を入れて F_heavy を出す。</p>
+<h2 id="_1">入力の取り方（資料を開く前に決める）</h2>
+<ul>
+<li>核の冬の急性の下り坂 D_nw：Xia et al. 2022（Nature Food）の 150 Tg の年ごとの食料（カロリー）の不足が、平時の水準を下回る年数。図表から読める年数を使い、読めなければ煤の減衰の時定数を記した公開資料で置く。数値は開いた資料のものだけ。</li>
+<li>人工の疫病の急性の下り坂 D_pan：大きな疫病の死の大半が起きた年数の公開の数値（例：黒死病の第1波、1918 年のインフルエンザ）。開けた資料の値だけ。</li>
+<li>二次の崩れ（国家・交易が崩れて C 型の長い下り坂に入る）は資料から決まらないので、確率 c_C を 0, 0.5, 1 の感度で置き、c_C の標本では D = D_acute + D_C（133 の主 {200,200,155}）。</li>
+</ul>
+<h2 id="133-sim-plost-09pkept-16w-d2rzd1d4">版（133 の sim を流用、遅い κ、p|lost 0.9、p|kept 1/6、W 形、D2rz・D1・D4）</h2>
+<ul>
+<li>再現：D=D_C 主で 133 の E1（2.149）と差 0（assert）、D=0 で定義B 1.898 と差 0（assert）。</li>
+<li>M1（主）：停滞のある標本に D = D_nw（c_C=0）。</li>
+<li>M2：D = D_pan（c_C=0）。</li>
+<li>M3：c_C=0.5（標本ごとに二次の崩れを引く）。M4：c_C=1。</li>
+<li>M5：停滞のない標本にも D_acute。</li>
+</ul>
+<h2 id="_2">確認的な仮説（計算の前）</h2>
+<ul>
+<li>H146a：D_nw と D_pan はどちらも 20 年以下で、S 型の中央値 98 年より瞬時に近い。</li>
+<li>H146b：M1 の D2rz の F_heavy は定義B 1.898 から +3 % 以内（下限の側）。</li>
+<li>H146c：c_C=0.5 の M3 は 1.898 と 2.149 の中点（2.02）から ±3 % 以内。</li>
+<li>H146d：全版で D2rz ≥ D1 ≥ D4。</li>
+</ul>
+<h2 id="_3">入力判明後の予測／記述は判明後に別に書く。</h2><footer><hr><small>自動生成</small></footer></body></html>
