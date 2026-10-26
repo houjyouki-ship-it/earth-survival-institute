@@ -1,0 +1,24 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究138 事前登録（2026-10-26 17:35 JST、本回の資料を開く前・analyze.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="138-2026-10-26-1735-jstanalyzepy">研究138 事前登録（2026-10-26 17:35 JST、本回の資料を開く前・analyze.py を書く前）</h1>
+<p>注：F_heavy・c_C・q_T3 は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-319">課題（open_problems 319）</h2>
+<p>150 Tg（Xia 2022 S4）で無傷の 4 か国（Argentina・Australia・Sri Lanka・Dominican Republic）が計算機の使える社会（T3）を保つ割合 q_T3 を、発電の国内自給で置く。
+(1) 4 か国の q_T3 から、世界に T3 が残る割合 Q = 1 − Π(1 − q_i) を出し、032 の NUC_G の T3 保持（T3 0.65 + T3_fragile 0.15 = 0.80、重い崩壊 0.19）と突き合わせる。
+(2) 重い崩壊の標本は「4 か国すべてが T3 を失った」標本なので、その中で Argentina が遠征の能力を保つ条件付きの割合 π を置き直し、条件付きの P_ext・F_heavy を出す（137 は π=1 に相当）。</p>
+<h2 id="_1">資料</h2>
+<p>Our World in Data の energy-data（GitHub owid/energy-data の CSV、Ember・Energy Institute 由来）。開いた URL のみ使う。</p>
+<h2 id="_2">定義</h2>
+<ul>
+<li>年：4 か国すべてで発電の内訳がそろう最新の年（同じ年）。燃料の生産・消費は同じ年、欠けていれば最も近い年。</li>
+<li>燃料ごとの自給 s_f = min(1, 生産_f / 消費_f)（f = coal, gas, oil；TWh）。生産が欠ける国は 0（産出なしの扱い、印を付ける）。</li>
+<li>国内の発電の割合 d = (再生可能 + 原子力 + Σ_f 火力_f × s_f) / 発電量。原子力は燃料の備蓄が年単位あるとして国内扱い（版で除外）。輸入電力は国外扱い（分母は発電量）。</li>
+<li>主の規則：q_i = d_i。版：(閾値) d≥0.8 で 1、0.5≤d&lt;0.8 で 0.5、それ未満 0；(厳しい) q = d × s_oil^0.5（輸送の燃料も要る）；(原子力を国外扱い)。</li>
+<li>条件付き：重い崩壊の標本では 4 か国とも T3 を失っている。Argentina の遠征の能力 π ∈ {0, 0.25, 0.5, 1}。π=0 では Argentina も拠点の距離（2,072 km）まで（137 の「全員が拠点」の版）、さらに「無傷の国がどこにも届かない」下限（P_ext=0）も示す。F_heavy は 134 の cC_curve の補間、c_C = P·0.723 + (1−P)·0.09（137 と同じ）。</li>
+</ul>
+<h2 id="_3">確認的な仮説（資料を開く前）</h2>
+<ul>
+<li>H150a：4 か国のうち d ≥ 0.8 の国は 2 か国以上（予想は Argentina・Australia）。</li>
+<li>H150b：主の規則の Q は 032 の NUC_G の T3 保持 0.80 以上（032 の重い崩壊 0.19 は 150 Tg S4 では多すぎる側）。</li>
+<li>H150c：条件付きの F_heavy の幅（π と下限の全版）は 0.04 未満（系列を閉じる基準：収穫 0.02 未満と合わせて判断）。</li>
+<li>H150d：Dominican Republic の d は 0.5 未満。</li>
+</ul>
+<h2 id="_4">入力判明後の予測／記述は判明後に別に書く。</h2><footer><hr><small>自動生成</small></footer></body></html>

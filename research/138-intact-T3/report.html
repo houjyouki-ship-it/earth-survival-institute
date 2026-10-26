@@ -1,0 +1,97 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究138：無傷の国の T3 保持と征服の圧力の相関（open_problems 319） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="138-t3-open_problems-319">研究138：無傷の国の T3 保持と征服の圧力の相関（open_problems 319）</h1>
+<blockquote>
+<p>注：F_heavy・c_C・q_T3 は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>137 は NUC_G（150 Tg）の F_heavy の主を 1.962 としたが、これは「無傷の国が T3 を失うのに遠征はする」組み合わせを含む。無傷の 4 か国が T3 を保つ割合 q_T3 を発電の国内自給で置き、(1) 032 の NUC_G の T3 保持 0.80 と突き合わせ、(2) 重い崩壊の標本（4 か国とも T3 を失った標本）の中の条件付きの P_ext・F_heavy を出す。</p>
+<h2 id="sourcesreadme_sourcestxt">資料（本回開いて確認、sources/README_sources.txt）</h2>
+<ul>
+<li>【事実（<a href="https://github.com/owid/energy-data">OWID energy-data</a>、2024 年、TWh）】発電量：Argentina 152.51（ガス 81.95、再生可能 52.44、原子力 10.45、石油 6.36、石炭 1.31、純輸入 9.17）、Australia 281.64（石炭 127.33、再生可能 98.79、ガス 49.10、石油 6.42）、Sri Lanka 17.07（再生可能 9.43、石炭 5.61、石油 2.03）、Dominican Republic 24.03（石炭 7.20、ガス 7.00、石油 5.30、再生可能 4.53）。</li>
+<li>【事実（同）】燃料の生産/消費（TWh）：Argentina ガス 441.1/456.2、石油 682.0/339.0（石炭の生産は欠測）；Australia 石炭 3,282.6/423.0、ガス 1,501.4/369.9、石油 173.4/620.5；Sri Lanka は生産の列が欠測（石炭の消費 19.4、石油 64.8）；Dominican Republic は生産・消費とも欠測。</li>
+</ul>
+<h2 id="analyzepy-1">方法（analyze.py、約 1 秒）</h2>
+<p>PREREGISTRATION.md（17:35 JST、資料の前）どおり。d = (再生可能 + 原子力 + Σ 火力×min(1, 生産/消費)) / 発電量、主の q_T3 = d。重い崩壊の上限は 4 か国とも T3 を失う確率（独立 Π(1−q)、完全相関 min(1−q)）。条件付きの P_ext = π·P_ext(137 の主) + (1−π)·P_ext(全員が拠点の距離)。再現：137 の主の P_ext 0.2370 と差 0 を assert、134 の cC_curve を assert。</p>
+<h2 id="_2">結果</h2>
+<table>
+<thead>
+<tr>
+<th>国</th>
+<th>燃料の自給（石炭/ガス/石油）</th>
+<th>d</th>
+<th>原子力を国外扱い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Argentina</td>
+<td>0（欠測→0）/0.967/1.0</td>
+<td><strong>0.974</strong></td>
+<td>0.905</td>
+</tr>
+<tr>
+<td>Australia</td>
+<td>1.0/1.0/0.28</td>
+<td><strong>0.984</strong></td>
+<td>0.984</td>
+</tr>
+<tr>
+<td>Sri Lanka</td>
+<td>0/0/0（欠測→0）</td>
+<td>0.552</td>
+<td>0.552</td>
+</tr>
+<tr>
+<td>Dominican Republic</td>
+<td>0/0/0（欠測→0）</td>
+<td><strong>0.189</strong></td>
+<td>0.189</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>世界に T3 が残る割合 Q（無傷の 4 か国から）：主 0.9998（独立）／0.984（完全相関）。版：閾値 1.0、輸送の燃料も要る厳しい版 0.986（Australia が 0.45 に落ちる）／0.974、原子力を国外扱い 0.9994／0.984。032 の NUC_G の T3 保持は 0.80、重い崩壊は 0.19。発電だけで見ると、重い崩壊の上限は 0.0002〜0.026。</li>
+<li>条件付きの F_heavy（重い崩壊の標本の中）：π=1 で 1.9625（137 の主）、0.5 で 1.954、0 で 1.945、無傷の国がどこにも届かない下限 1.930。幅 <strong>0.032</strong>。</li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H150a d≥0.8 が 2 か国以上</td>
+<td>Argentina・Australia</td>
+<td>支持（Australia は石炭・ガスの輸出国で予想しやすく、情報は薄い）</td>
+</tr>
+<tr>
+<td>H150b 主の Q ≥ 0.80</td>
+<td>0.9998</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H150c 条件付き F_heavy の幅 &lt; 0.04</td>
+<td>0.032</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H150d Dominican Republic の d &lt; 0.5</td>
+<td>0.189</td>
+<td>支持</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">逸脱</h2>
+<p>Sri Lanka の 2024 年のガス発電の列が欠測で、0 として埋めた（登録には生産の欠測しか書いていない。2021〜2025 年すべて欠測で、ガス火力を持たない扱い）。Argentina の石炭の生産の欠測は登録どおり 0（実際は小さな産出がある【推測】ので d は下限寄り）。</p>
+<h2 id="_5">批判的検討</h2>
+<ul>
+<li>d は T3 の必要条件の一部でしかない。電力があっても、半導体・交換部品・通信の輸入が止まれば計算機の社会は年単位で摩耗する【推測】。だから Q 0.98〜1.0 は上限で、032 の 0.80 が誤りとはまだ言えない。ただし 032 の 0.19 を正当化するには、電力以外の理由（部品の輸入の途絶、無傷の国自体への攻撃、交易ありの表で無傷の国が変わること）が要ると分かった【独自仮説】。</li>
+<li>4 か国の T3 の喪失は独立ではない（同じ世界の交易の途絶が原因）。完全相関の版でも上限 0.016〜0.026 で、結論の向きは変わらない。</li>
+<li>重い崩壊の標本の中での Argentina の遠征の確率 π は資料で決まらない。T3 を失った Argentina は燃料・船の整備も失っている側【推測】で、π は 1 より小さい側に寄る。そのとき F_heavy は 137 の 1.962 から 1.93〜1.95 へ下がるが、差は 0.03 以下。</li>
+<li>2024 年の平時の量で、核の冬の後の水力（雨の減少）や需要の低下は入っていない。</li>
+</ul>
+<h2 id="_6">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は NUC_G の F_heavy を 1.93〜1.96（主は π=0.5 の 1.954、π は未決）とし、征服の圧力の系列（135〜138）はここで閉じる（本回の動きは 0.01〜0.03）。より大きいのは 032 の NUC_G の重い崩壊の重み 0.19 で、発電だけなら 0.03 未満になる。次は「無傷の国が部品の輸入なしに計算機の社会を何年保つか」を公開の故障率の資料で確かめ、この重みを置き直す。D2rz の推しは不変。</p><footer><hr><small>自動生成</small></footer></body></html>

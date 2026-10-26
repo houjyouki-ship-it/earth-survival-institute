@@ -1,0 +1,203 @@
+{
+ "note": "q_T3・F_heavy・c_C は模型の中の量。発電は OWID energy-data 2024 年（TWh）。",
+ "year": 2024,
+ "countries": {
+  "Argentina": {
+   "gen": 152.51,
+   "ren": 52.44,
+   "nuc": 10.45,
+   "coal": 1.31,
+   "gas": 81.95,
+   "oil": 6.36,
+   "net_imports": 9.17,
+   "s": {
+    "coal": 0.0,
+    "gas": 0.9669177118358007,
+    "oil": 1.0
+   },
+   "d": 0.9736339025961831,
+   "d_nonuclear": 0.9051138055533663,
+   "s_oil137": 1.1655540720961282,
+   "prod_missing_as0": [
+    "coal_production"
+   ]
+  },
+  "Australia": {
+   "gen": 281.64,
+   "ren": 98.79,
+   "nuc": 0.0,
+   "coal": 127.33,
+   "gas": 49.1,
+   "oil": 6.42,
+   "net_imports": 0.0,
+   "s": {
+    "coal": 1.0,
+    "gas": 1.0,
+    "oil": 0.2795016140651718
+   },
+   "d": 0.9835761978493767,
+   "d_nonuclear": 0.9835761978493767,
+   "s_oil137": 0.20938314509122502,
+   "prod_missing_as0": []
+  },
+  "Sri Lanka": {
+   "gen": 17.07,
+   "ren": 9.43,
+   "nuc": 0.0,
+   "coal": 5.61,
+   "gas": 0.0,
+   "oil": 2.03,
+   "net_imports": 0.0,
+   "s": {
+    "coal": 0.0,
+    "gas": 0.0,
+    "oil": 0.0
+   },
+   "d": 0.552431165787932,
+   "d_nonuclear": 0.552431165787932,
+   "s_oil137": 0.0,
+   "prod_missing_as0": [
+    "coal_production",
+    "gas_production",
+    "oil_production"
+   ]
+  },
+  "Dominican Republic": {
+   "gen": 24.03,
+   "ren": 4.53,
+   "nuc": 0.0,
+   "coal": 7.2,
+   "gas": 7.0,
+   "oil": 5.3,
+   "net_imports": 0.0,
+   "s": {
+    "coal": 0.0,
+    "gas": 0.0,
+    "oil": 0.0
+   },
+   "d": 0.18851435705368288,
+   "d_nonuclear": 0.18851435705368288,
+   "s_oil137": 0.0,
+   "prod_missing_as0": [
+    "coal_production",
+    "gas_production",
+    "oil_production"
+   ]
+  }
+ },
+ "q": {
+  "main": {
+   "q": {
+    "Argentina": 0.9736339025961831,
+    "Australia": 0.9835761978493767,
+    "Sri Lanka": 0.552431165787932,
+    "Dominican Republic": 0.18851435705368288
+   },
+   "Q_independent": 0.9998427248040904,
+   "Q_comonotone": 0.9835761978493767,
+   "P_all_lose_ind": 0.00015727519590958384,
+   "P_all_lose_comono": 0.016423802150623334
+  },
+  "threshold": {
+   "q": {
+    "Argentina": 1.0,
+    "Australia": 1.0,
+    "Sri Lanka": 0.5,
+    "Dominican Republic": 0.0
+   },
+   "Q_independent": 1.0,
+   "Q_comonotone": 1.0,
+   "P_all_lose_ind": 0.0,
+   "P_all_lose_comono": 0.0
+  },
+  "strict_oil": {
+   "q": {
+    "Argentina": 0.9736339025961831,
+    "Australia": 0.45006876104754756,
+    "Sri Lanka": 0.0,
+    "Dominican Republic": 0.0
+   },
+   "Q_independent": 0.9855004593883779,
+   "Q_comonotone": 0.9736339025961831,
+   "P_all_lose_ind": 0.014499540611622069,
+   "P_all_lose_comono": 0.0263660974038169
+  },
+  "nuclear_foreign": {
+   "q": {
+    "Argentina": 0.9051138055533663,
+    "Australia": 0.9835761978493767,
+    "Sri Lanka": 0.552431165787932,
+    "Dominican Republic": 0.18851435705368288
+   },
+   "Q_independent": 0.999433998722217,
+   "Q_comonotone": 0.9835761978493767,
+   "P_all_lose_ind": 0.0005660012777829157,
+   "P_all_lose_comono": 0.016423802150623334
+  }
+ },
+ "conditional": [
+  {
+   "pi": 0,
+   "Pext": 0.11028632025450684,
+   "cC": 0.15981124072110284,
+   "F_heavy": 1.9453022752139066
+  },
+  {
+   "pi": 0.25,
+   "Pext": 0.14196712619300103,
+   "cC": 0.17986519088016964,
+   "F_heavy": 1.9496016405905987
+  },
+  {
+   "pi": 0.5,
+   "Pext": 0.1736479321314952,
+   "cC": 0.19991914103923647,
+   "F_heavy": 1.9539010059672905
+  },
+  {
+   "pi": 1.0,
+   "Pext": 0.2370095440084836,
+   "cC": 0.24002704135737013,
+   "F_heavy": 1.9624997367206747
+  },
+  {
+   "pi": "no_reach",
+   "Pext": 0.0,
+   "cC": 0.09,
+   "F_heavy": 1.9303354467896066
+  }
+ ],
+ "F_range": [
+  1.9303354467896066,
+  1.9624997367206747
+ ],
+ "P_main137": 0.2370095440084836,
+ "P_stage": 0.11028632025450684,
+ "compare032": {
+  "T3_032": 0.8,
+  "heavy_032": 0.19000000000000003,
+  "heavy_upper_ind": 0.00015727519590958384,
+  "heavy_upper_comono": 0.016423802150623334
+ },
+ "hyp": {
+  "H150a": {
+   "val": [
+    "Argentina",
+    "Australia"
+   ],
+   "ok": 1.0
+  },
+  "H150b": {
+   "val": 0.9998427248040904,
+   "ok": true
+  },
+  "H150c": {
+   "val": 0.032164289931068124,
+   "ok": true
+  },
+  "H150d": {
+   "val": 0.18851435705368288,
+   "ok": 1.0
+  }
+ }
+}

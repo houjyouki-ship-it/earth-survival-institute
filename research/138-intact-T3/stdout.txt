@@ -1,0 +1,17 @@
+Argentina {'coal': np.float64(0.0), 'gas': np.float64(0.967), 'oil': 1.0} d 0.974 d_noNuc 0.905 missing->0 ['coal_production']
+Australia {'coal': 1.0, 'gas': 1.0, 'oil': np.float64(0.28)} d 0.984 d_noNuc 0.984 missing->0 []
+Sri Lanka {'coal': np.float64(0.0), 'gas': 0.0, 'oil': np.float64(0.0)} d 0.552 d_noNuc 0.552 missing->0 ['coal_production', 'gas_production', 'oil_production']
+Dominican Republic {'coal': 0.0, 'gas': 0.0, 'oil': 0.0} d 0.189 d_noNuc 0.189 missing->0 ['coal_production', 'gas_production', 'oil_production']
+main {'Argentina': np.float64(0.974), 'Australia': np.float64(0.984), 'Sri Lanka': np.float64(0.552), 'Dominican Republic': np.float64(0.189)} Q ind 0.9998 Q comono 0.984
+threshold {'Argentina': 1.0, 'Australia': 1.0, 'Sri Lanka': 0.5, 'Dominican Republic': 0.0} Q ind 1.0 Q comono 1.0
+strict_oil {'Argentina': np.float64(0.974), 'Australia': np.float64(0.45), 'Sri Lanka': np.float64(0.0), 'Dominican Republic': np.float64(0.0)} Q ind 0.9855 Q comono 0.974
+nuclear_foreign {'Argentina': np.float64(0.905), 'Australia': np.float64(0.984), 'Sri Lanka': np.float64(0.552), 'Dominican Republic': np.float64(0.189)} Q ind 0.9994 Q comono 0.984
+pi 0 0.11 1.9453
+pi 0.25 0.142 1.9496
+pi 0.5 0.174 1.9539
+pi 1.0 0.237 1.9625
+pi no_reach 0.0 1.9303
+H150a {'val': ['Argentina', 'Australia'], 'ok': np.True_}
+H150b {'val': 0.9998427248040904, 'ok': True}
+H150c {'val': 0.032164289931068124, 'ok': True}
+H150d {'val': np.float64(0.18851435705368288), 'ok': np.True_}
