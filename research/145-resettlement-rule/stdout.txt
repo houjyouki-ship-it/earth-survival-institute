@@ -1,0 +1,116 @@
+check {'144_main': {'p': np.float64(0.0), 'F': 3.629214706535322e-10}, '144_2of2': {'p': np.float64(0.0), 'F': 0.0}, '144_w_regrid': 0.0007095491636270879, '038_heavy_share_NUC_G': 0.0, '038_heavy_share_NUC_R': 0.0, '038_heavy_share_BIO': 0.0, '038_heavy_share_CASC': 0.0, 'Fx_linearity_maxdev_0.5_1': 0.03092076364985541}
+rq {0.25: 0.0020226860791869527, 0.5: 0.0029223278392404932, 0.75: 0.004222108456608737} 038 [0.00150697987174789, 0.0029188908722425303, 0.005664788169086829]
+rdep 0.25 {'r': 0.0020226860791869527, 'w_Copan': 0.0, 'insitu_p': np.float64(0.625), 'insitu_F': 1.922886603738492}
+rdep 0.5 {'r': 0.0029223278392404932, 'w_Copan': 0.07094638513403717, 'insitu_p': np.float64(0.6427365962835093), 'insitu_F': 1.9397021871457154}
+rdep 0.75 {'r': 0.004222108456608737, 'w_Copan': 0.9241358146604634, 'insitu_p': np.float64(0.8560339536651158), 'insitu_F': 2.1419235968378065}
+rdep 038_median_exact {'r': 0.0029188908722425303, 'w_Copan': 0.0696654508363729, 'insitu_p': np.float64(0.6424163627090933), 'insitu_F': 1.9393985824239124}
+rdep marginal_over_r_prior {'w_Copan': 0.37199602675467885, 'insitu_p': np.float64(0.7179990066886697), 'insitu_F': 2.01105642667212, 'F_check_coarse': 2.0119122036144828}
+rdep r_breakeven_Pmin1000 0.0027286800441233775
+rdep r_breakeven_Pmin200 0.00406876156988033
+rule 0.01 {'P_Copan_deep': 0.1748513920692844, 'insitu_p': np.float64(0.6759448316685486), 'insitu_F': 1.971186009554762, 'deep_set_n': 7.174851392069284, 'shallow_set': ['Greece_LBA', 'Britain_postRoman', 'Copan(partial)']}
+rule 0.02 {'P_Copan_deep': 0.6055279501426775, 'insitu_p': np.float64(0.7580918989069018), 'insitu_F': 2.049067403927455, 'deep_set_n': 7.605527950142678, 'shallow_set': ['Greece_LBA', 'Britain_postRoman', 'Copan(partial)']}
+rule 0.05 {'P_Copan_deep': 1.0, 'insitu_p': np.float64(0.8333333333333334), 'insitu_F': 2.1204017561415065, 'deep_set_n': 8.0, 'shallow_set': ['Greece_LBA', 'Britain_postRoman']}
+rule 0.10 {'P_Copan_deep': 1.0, 'insitu_p': np.float64(0.8333333333333334), 'insitu_F': 2.1204017561415065, 'deep_set_n': 8.0, 'shallow_set': ['Greece_LBA', 'Britain_postRoman']}
+{
+ "per_scen": {
+  "NUC_G": {
+   "heavy_share": 0.0,
+   "n_heavy": 0,
+   "s_q05_50_95_heavy": null,
+   "f_deep": {
+    "0.01": null,
+    "0.02": null,
+    "0.05": null,
+    "0.10": null
+   }
+  },
+  "NUC_R": {
+   "heavy_share": 0.0,
+   "n_heavy": 0,
+   "s_q05_50_95_heavy": null,
+   "f_deep": {
+    "0.01": null,
+    "0.02": null,
+    "0.05": null,
+    "0.10": null
+   }
+  },
+  "BIO": {
+   "heavy_share": 0.0978,
+   "n_heavy": 19560,
+   "s_q05_50_95_heavy": [
+    8.850905856458022e-07,
+    2.580688579626638e-05,
+    0.0013988869324509654
+   ],
+   "f_deep": {
+    "0.01": 1.0,
+    "0.02": 1.0,
+    "0.05": 1.0,
+    "0.10": 1.0
+   }
+  },
+  "CASC": {
+   "heavy_share": 0.218205,
+   "n_heavy": 43641,
+   "s_q05_50_95_heavy": [
+    0.22054045894306362,
+    0.45393337906614506,
+    0.8425499554543368
+   ],
+   "f_deep": {
+    "0.01": 0.0,
+    "0.02": 0.0,
+    "0.05": 0.0,
+    "0.10": 0.0
+   }
+  }
+ },
+ "weighted": {
+  "A_Ord": {
+   "f_deep_EVID": {
+    "0.01": 0.8819367981365703,
+    "0.02": 0.8819367981365703,
+    "0.05": 0.8819367981365703,
+    "0.10": 0.8819367981365703
+   },
+   "heavy_weight_EVID": 0.019488980667838312,
+   "heavy_weight_AI_GEN_no_s": 0.282082425307557,
+   "share_of_heavy_without_s": 0.9353752369035001
+  },
+  "A_XPT_S": {
+   "f_deep_EVID": {
+    "0.01": 0.017241768784535934,
+    "0.02": 0.017241768784535934,
+    "0.05": 0.017241768784535934,
+    "0.10": 0.017241768784535934
+   },
+   "heavy_weight_EVID": 0.03513212874382088,
+   "heavy_weight_AI_GEN_no_s": 0.15690385628089565,
+   "share_of_heavy_without_s": 0.8170544508140019
+  },
+  "A_XPT_E": {
+   "f_deep_EVID": {
+    "0.01": 1.0,
+    "0.02": 1.0,
+    "0.05": 1.0,
+    "0.10": 1.0
+   },
+   "heavy_weight_EVID": 0.0163,
+   "heavy_weight_AI_GEN_no_s": 0.0148775,
+   "share_of_heavy_without_s": 0.47718707401170724
+  }
+ }
+}
+deep7/7 0.9375 2.2230951406930397
+comb A_Ord|th=0.05 {'f_deep': 0.8819, 'F_readA': 2.211, 'F_readB': 2.1204, 'p_readA': np.float64(0.9252)}
+comb A_Ord|th=0.01 {'f_deep': 0.8819, 'F_readA': 2.1934, 'F_readB': 1.9712, 'p_readA': np.float64(0.9066)}
+comb A_Ord|th=0.10 {'f_deep': 0.8819, 'F_readA': 2.211, 'F_readB': 2.1204, 'p_readA': np.float64(0.9252)}
+comb A_XPT_S|th=0.05 {'f_deep': 0.0172, 'F_readA': 2.1222, 'F_readB': 2.1204, 'p_readA': np.float64(0.8351)}
+comb A_XPT_S|th=0.01 {'f_deep': 0.0172, 'F_readA': 1.9755, 'F_readB': 1.9712, 'p_readA': np.float64(0.6805)}
+comb A_XPT_S|th=0.10 {'f_deep': 0.0172, 'F_readA': 2.1222, 'F_readB': 2.1204, 'p_readA': np.float64(0.8351)}
+comb A_XPT_E|th=0.05 {'f_deep': 1.0, 'F_readA': 2.2231, 'F_readB': 2.1204, 'p_readA': np.float64(0.9375)}
+comb A_XPT_E|th=0.01 {'f_deep': 1.0, 'F_readA': 2.2231, 'F_readB': 1.9712, 'p_readA': np.float64(0.9375)}
+comb A_XPT_E|th=0.10 {'f_deep': 1.0, 'F_readA': 2.2231, 'F_readB': 2.1204, 'p_readA': np.float64(0.9375)}
+{'H157a': (False, 0.017241768784535934), 'H157b': (True, [0.9241358146604634, 0.0]), 'H157c': (True, 2.1204017561415065), 'H157d': (True, [1.971186009554762, 2.2230951406930397])}
+runtime 18.0

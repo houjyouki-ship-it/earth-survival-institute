@@ -1,0 +1,18 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究145 事前登録（2026-10-27 07:42 JST、計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="145-2026-10-27-0742-jst">研究145 事前登録（2026-10-27 07:42 JST、計算の前）</h1>
+<p>注：F_heavy・p|lost は生存確率や復興確率ではない（模型の中の量）。</p>
+<h2 id="_1">課題</h2>
+<p>open_problems 333（停滞の規則は回復を誰が担ったかを問わない）を 1 回だけ確認し、334（停滞の判定の r 依存）を同時に片付ける。p|lost の系列には戻らない（規則の欠陥の 1 回の確認としてのみ）。</p>
+<h2 id="r333">規則 R333（データを見る前に固定）</h2>
+<ul>
+<li>谷の人口 Pmin が頂点 P0 の 5 % 未満、または放棄（消滅）の事例を「再入植の型」とし、その場の集合（in-situ）から外す。</li>
+<li>感度：閾値 1 %・2 %・10 %。Copán の Pmin は 144 の登録どおり [200,1000] の対数一様、P0 は 26,500。</li>
+<li>模型の側：038 の sim（写しで実行、乱数そのまま）の EVID 4 シナリオで、重い標本（st 4〜6）の世界の生き残りの割合 s を数え、s &lt; 閾値の割合 f_deep を出す（s を地域の谷の割合の代理と置くのは【推測】）。AI・GEN は s がないので別に記す。</li>
+<li>結合：重い標本のうち深い側には「再入植の型」の p（放棄込み 7〜8 件、規則で停滞）、浅い側には in-situ の p を当て、p_eff を 128 の格子で F_heavy に変える。もう一つの読み：深い側は群の消滅（模型では停滞でなく群の喪失＝070 の G で扱う）として p の集計から外す＝in-situ の p のみ。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H157a（確認的）：038 の重い標本（EVID 4 シナリオ、A_XPT_S の重み）のうち s &lt; 5 % の割合 f_deep は 0.5 以上。</li>
+<li>H157b（確認的）：r を 038 の r_pop の上の四分位にすると Copán の停滞の確率 w は 0.5 以上（下の四分位では 0.1 未満）。</li>
+<li>H157c（入力判明後の予測）：R333 の in-situ の F_heavy は 2.12（144 の登録外の値）と差 0.001 未満で再現される。</li>
+<li>H157d（予測）：結合の F_heavy は全版で 1.94〜2.24 の間に入る。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

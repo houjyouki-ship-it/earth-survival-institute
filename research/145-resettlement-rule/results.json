@@ -1,0 +1,336 @@
+{
+ "study": "145-resettlement-rule",
+ "note": "F_heavy・p|lost は生存確率や復興確率ではない",
+ "check": {
+  "144_main": {
+   "p": 0.0,
+   "F": 3.629214706535322e-10
+  },
+  "144_2of2": {
+   "p": 0.0,
+   "F": 0.0
+  },
+  "144_w_regrid": 0.0007095491636270879,
+  "038_heavy_share_NUC_G": 0.0,
+  "038_heavy_share_NUC_R": 0.0,
+  "038_heavy_share_BIO": 0.0,
+  "038_heavy_share_CASC": 0.0,
+  "Fx_linearity_maxdev_0.5_1": 0.03092076364985541
+ },
+ "cases": {
+  "Greece_LBA": {
+   "frac": 0.5,
+   "stag": true
+  },
+  "Britain_postRoman": {
+   "frac": 0.3333333333333333,
+   "stag": true
+  },
+  "Norse_Greenland": {
+   "frac": 0.0,
+   "stag": true,
+   "abandon": true
+  },
+  "Cahokia": {
+   "frac": null,
+   "stag": true,
+   "abandon": true
+  },
+  "Tikal": {
+   "frac": null,
+   "stag": true,
+   "abandon": true
+  },
+  "Tiwanaku": {
+   "frac": null,
+   "stag": true,
+   "abandon": true
+  },
+  "Mesa_Verde": {
+   "frac": null,
+   "stag": true,
+   "abandon": true
+  },
+  "Great_Zimbabwe": {
+   "frac": null,
+   "stag": true,
+   "abandon": true
+  },
+  "Copan": {
+   "frac": "logU[200,1000]/26500",
+   "stag": "w(r)"
+  }
+ },
+ "r_quartiles": {
+  "0.25": 0.0020226860791869527,
+  "0.5": 0.0029223278392404932,
+  "0.75": 0.004222108456608737
+ },
+ "r_quartiles_038_results": [
+  0.00150697987174789,
+  0.0029188908722425303,
+  0.005664788169086829
+ ],
+ "r_dependence": {
+  "0.25": {
+   "r": 0.0020226860791869527,
+   "w_Copan": 0.0,
+   "insitu_p": 0.625,
+   "insitu_F": 1.922886603738492
+  },
+  "0.5": {
+   "r": 0.0029223278392404932,
+   "w_Copan": 0.07094638513403717,
+   "insitu_p": 0.6427365962835093,
+   "insitu_F": 1.9397021871457154
+  },
+  "0.75": {
+   "r": 0.004222108456608737,
+   "w_Copan": 0.9241358146604634,
+   "insitu_p": 0.8560339536651158,
+   "insitu_F": 2.1419235968378065
+  },
+  "038_median_exact": {
+   "r": 0.0029188908722425303,
+   "w_Copan": 0.0696654508363729,
+   "insitu_p": 0.6424163627090933,
+   "insitu_F": 1.9393985824239124
+  },
+  "marginal_over_r_prior": {
+   "w_Copan": 0.37199602675467885,
+   "insitu_p": 0.7179990066886697,
+   "insitu_F": 2.01105642667212,
+   "F_check_coarse": 2.0119122036144828
+  },
+  "r_breakeven_Pmin1000": 0.0027286800441233775,
+  "r_breakeven_Pmin200": 0.00406876156988033
+ },
+ "rule_R333": {
+  "0.01": {
+   "P_Copan_deep": 0.1748513920692844,
+   "insitu_p": 0.6759448316685486,
+   "insitu_F": 1.971186009554762,
+   "deep_set_n": 7.174851392069284,
+   "shallow_set": [
+    "Greece_LBA",
+    "Britain_postRoman",
+    "Copan(partial)"
+   ]
+  },
+  "0.02": {
+   "P_Copan_deep": 0.6055279501426775,
+   "insitu_p": 0.7580918989069018,
+   "insitu_F": 2.049067403927455,
+   "deep_set_n": 7.605527950142678,
+   "shallow_set": [
+    "Greece_LBA",
+    "Britain_postRoman",
+    "Copan(partial)"
+   ]
+  },
+  "0.05": {
+   "P_Copan_deep": 1.0,
+   "insitu_p": 0.8333333333333334,
+   "insitu_F": 2.1204017561415065,
+   "deep_set_n": 8.0,
+   "shallow_set": [
+    "Greece_LBA",
+    "Britain_postRoman"
+   ]
+  },
+  "0.10": {
+   "P_Copan_deep": 1.0,
+   "insitu_p": 0.8333333333333334,
+   "insitu_F": 2.1204017561415065,
+   "deep_set_n": 8.0,
+   "shallow_set": [
+    "Greece_LBA",
+    "Britain_postRoman"
+   ]
+  }
+ },
+ "model_survival_fraction": {
+  "per_scen": {
+   "NUC_G": {
+    "heavy_share": 0.0,
+    "n_heavy": 0,
+    "s_q05_50_95_heavy": null,
+    "f_deep": {
+     "0.01": null,
+     "0.02": null,
+     "0.05": null,
+     "0.10": null
+    }
+   },
+   "NUC_R": {
+    "heavy_share": 0.0,
+    "n_heavy": 0,
+    "s_q05_50_95_heavy": null,
+    "f_deep": {
+     "0.01": null,
+     "0.02": null,
+     "0.05": null,
+     "0.10": null
+    }
+   },
+   "BIO": {
+    "heavy_share": 0.0978,
+    "n_heavy": 19560,
+    "s_q05_50_95_heavy": [
+     8.850905856458022e-07,
+     2.580688579626638e-05,
+     0.0013988869324509654
+    ],
+    "f_deep": {
+     "0.01": 1.0,
+     "0.02": 1.0,
+     "0.05": 1.0,
+     "0.10": 1.0
+    }
+   },
+   "CASC": {
+    "heavy_share": 0.218205,
+    "n_heavy": 43641,
+    "s_q05_50_95_heavy": [
+     0.22054045894306362,
+     0.45393337906614506,
+     0.8425499554543368
+    ],
+    "f_deep": {
+     "0.01": 0.0,
+     "0.02": 0.0,
+     "0.05": 0.0,
+     "0.10": 0.0
+    }
+   }
+  },
+  "weighted": {
+   "A_Ord": {
+    "f_deep_EVID": {
+     "0.01": 0.8819367981365703,
+     "0.02": 0.8819367981365703,
+     "0.05": 0.8819367981365703,
+     "0.10": 0.8819367981365703
+    },
+    "heavy_weight_EVID": 0.019488980667838312,
+    "heavy_weight_AI_GEN_no_s": 0.282082425307557,
+    "share_of_heavy_without_s": 0.9353752369035001
+   },
+   "A_XPT_S": {
+    "f_deep_EVID": {
+     "0.01": 0.017241768784535934,
+     "0.02": 0.017241768784535934,
+     "0.05": 0.017241768784535934,
+     "0.10": 0.017241768784535934
+    },
+    "heavy_weight_EVID": 0.03513212874382088,
+    "heavy_weight_AI_GEN_no_s": 0.15690385628089565,
+    "share_of_heavy_without_s": 0.8170544508140019
+   },
+   "A_XPT_E": {
+    "f_deep_EVID": {
+     "0.01": 1.0,
+     "0.02": 1.0,
+     "0.05": 1.0,
+     "0.10": 1.0
+    },
+    "heavy_weight_EVID": 0.0163,
+    "heavy_weight_AI_GEN_no_s": 0.0148775,
+    "share_of_heavy_without_s": 0.47718707401170724
+   }
+  }
+ },
+ "deep_set_7of7": {
+  "p": 0.9375,
+  "F": 2.2230951406930397
+ },
+ "combined": {
+  "A_Ord|th=0.05": {
+   "f_deep": 0.8819367981365703,
+   "F_readA": 2.210970830902693,
+   "F_readB": 2.1204017561415065,
+   "p_readA": 0.9252017498058928
+  },
+  "A_Ord|th=0.01": {
+   "f_deep": 0.8819367981365703,
+   "F_readA": 2.19335394209222,
+   "F_readB": 1.971186009554762,
+   "p_readA": 0.9066199593628606
+  },
+  "A_Ord|th=0.10": {
+   "f_deep": 0.8819367981365703,
+   "F_readA": 2.210970830902693,
+   "F_readB": 2.1204017561415065,
+   "p_readA": 0.9252017498058928
+  },
+  "A_XPT_S|th=0.05": {
+   "f_deep": 0.017241768784535934,
+   "F_readA": 2.1221723717336456,
+   "F_readB": 2.1204017561415065,
+   "p_readA": 0.8351293509150558
+  },
+  "A_XPT_S|th=0.01": {
+   "f_deep": 0.017241768784535934,
+   "F_readA": 1.9755293685485615,
+   "F_readB": 1.971186009554762,
+   "p_readA": 0.6804545054053198
+  },
+  "A_XPT_S|th=0.10": {
+   "f_deep": 0.017241768784535934,
+   "F_readA": 2.1221723717336456,
+   "F_readB": 2.1204017561415065,
+   "p_readA": 0.8351293509150558
+  },
+  "A_XPT_E|th=0.05": {
+   "f_deep": 1.0,
+   "F_readA": 2.2230951406930397,
+   "F_readB": 2.1204017561415065,
+   "p_readA": 0.9375
+  },
+  "A_XPT_E|th=0.01": {
+   "f_deep": 1.0,
+   "F_readA": 2.2230951406930397,
+   "F_readB": 1.971186009554762,
+   "p_readA": 0.9375
+  },
+  "A_XPT_E|th=0.10": {
+   "f_deep": 1.0,
+   "F_readA": 2.2230951406930397,
+   "F_readB": 2.1204017561415065,
+   "p_readA": 0.9375
+  }
+ },
+ "hypotheses": {
+  "H157a": {
+   "class": "confirmatory",
+   "rule": "A_XPT_S の重い標本（EVID）で s<5% の割合 >= 0.5",
+   "value": 0.017241768784535934,
+   "supported": false
+  },
+  "H157b": {
+   "class": "confirmatory",
+   "rule": "r 上の四分位で w>=0.5 かつ下の四分位で w<0.1",
+   "value": [
+    0.9241358146604634,
+    0.0
+   ],
+   "supported": true
+  },
+  "H157c": {
+   "class": "prediction",
+   "rule": "R333(5%) のその場の F が 2.12 と差 <0.001",
+   "value": 2.1204017561415065,
+   "supported": true
+  },
+  "H157d": {
+   "class": "prediction",
+   "rule": "結合の F が全版で 1.94〜2.24",
+   "value": [
+    1.971186009554762,
+    2.2230951406930397
+   ],
+   "supported": true
+  }
+ },
+ "runtime_s": 17.953081369400024
+}
