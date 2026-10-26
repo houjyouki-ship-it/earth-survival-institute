@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究135 事前登録（2026-10-26 11:43 JST、資料を開く前・fit.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="135-2026-10-26-1143-jstfitpy">研究135 事前登録（2026-10-26 11:43 JST、資料を開く前・fit.py を書く前）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-313">課題（open_problems 313）</h2>
+<p>死亡率の高い史実の破局で、その後に国家が解体し人口が減り続けた（C 型の長い下り坂に入った）かを二値で符号化し、死亡率に対するロジスティックの傾きから、8 割以上が死ぬ現代の重い崩壊の c_C を外挿する。得た c_C を 134 の cC_curve（c=0,0.25,0.5,1 → F=1.9110,1.9646,2.0219,2.1664）の線形補間で D2rz の F_heavy に変える。</p>
+<h2 id="_1">候補（資料を開く前に記憶から並べた。資料で死亡率が取れたものだけ使う）</h2>
+<p>Black Death の England・Egypt（マムルーク朝）・Norway、Iceland の 1402 年のペスト、Justinian のペスト（東ローマ）、Athens のペスト、Antonine のペスト、30年戦争（ドイツ）、Aztec（1520 天然痘＋征服）、Inca（1520 年代）、Hispaniola の Taíno、Cocoliztli 1545、1616〜19 年の New England の疫病、Hawaii（125）、Easter Island（125）、Taiping の乱、Paraguay 戦争、Irish の大飢饉、Khmer Rouge、Mongol の Khwarezm 征服、1695〜97 年の Finland の大飢饉、1770 年の Bengal 飢饉、Russia の 1601〜03 年の飢饉、Herero・Nama の虐殺、Tasmania の先住民、Chatham 諸島の Moriori。</p>
+<h2 id="_2">符号化の規則（資料を開く前に決める）</h2>
+<ul>
+<li>死亡率 m：破局の開始から 25 年以内の死（または人口の減少）の割合。資料に幅があれば中点。25 年を越える長期の減少しか書いていなければ使うが long の印を付ける。</li>
+<li>採用：m ≥ 0.25 を主の標本。0.10 ≤ m &lt; 0.25 は下の錨として版 V_low にだけ入れる。</li>
+<li>結果 Y=1：(i) 被害を受けた人々を治めていた主な政体が開始から 100 年以内に消えた（後継の中央の権力なく分裂、または他に併合）、かつ (ii) 資料が破局の後もさらに人口が減り続けた（または低いまま回復しなかった期間が 50 年以上）と述べる。(ii) が資料から分からないときは (i) だけで決め unk の印。</li>
+<li>征服の印 X=1：政体の消滅の直接の原因が外からの征服。</li>
+<li>下り坂そのものが死亡率である例（長い崩壊の総減少）は循環になるので除く。</li>
+</ul>
+<h2 id="_3">推定</h2>
+<ul>
+<li>主：最尤のロジスティック logit P(Y)=a+b·m、m=0.8・0.9 での予測と、個体のブートストラップ 2,000 回の 90 % 区間。完全分離なら Firth の罰則つきに切り替える。</li>
+<li>版：V_noconq（X=1 の Y を 0 とする、征服を除いた内からの崩れ）、V_low（0.10〜0.25 を足す）、V_nolong（long を除く）、V_nounk（unk を除く）、境界 c_C=0 と 1 を必ず併記。</li>
+<li>F_heavy：c_C を cC_curve の線形補間で変換（ブートストラップの分布も通す）。</li>
+</ul>
+<h2 id="_4">確認的な仮説（資料を開く前）</h2>
+<ul>
+<li>H147a：傾き b は正（主の点推定、かつブートストラップで b&gt;0 が 80 % 以上）。</li>
+<li>H147b：主の m=0.8 の c_C は 0.5 以上（134 の独自仮説）。</li>
+<li>H147c：V_noconq の m=0.8 の c_C は主より低い（征服を除くと崩れは減る）。</li>
+<li>H147d：主の F_heavy（m=0.8）は 2.02 以上。</li>
+</ul>
+<h2 id="_5">入力判明後の予測／記述は判明後に別に書く。</h2><footer><hr><small>自動生成</small></footer></body></html>

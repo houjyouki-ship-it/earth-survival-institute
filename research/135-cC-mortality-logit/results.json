@@ -1,0 +1,430 @@
+{
+ "note": "F_heavy は生存確率ではない。c_C は史実の破局の二値の符号化からの外挿。",
+ "cases": [
+  {
+   "k": "England_BlackDeath",
+   "m": 0.5,
+   "Y": 0,
+   "X": 0,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_England",
+   "ev": "40–60% widely accepted; 王国は存続"
+  },
+  {
+   "k": "Norway_BlackDeath",
+   "m": 0.625,
+   "Y": 0,
+   "X": 0,
+   "fl": [
+    "ambig"
+   ],
+   "Yalt": 1,
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_Norway",
+   "ev": "60–65% died; 1380 Denmark と同君連合、1397 Kalmar、1537 から従属。15世紀の人口は1300の半分未満"
+  },
+  {
+   "k": "Egypt_BlackDeath",
+   "m": 0.3333333333333333,
+   "Y": 0,
+   "X": 0,
+   "fl": [
+    "city"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Black_Death_in_the_Middle_East",
+   "ev": "Cairo 200,000 = a third; Mamluk は 1517 に Ottoman が征服（170年後）"
+  },
+  {
+   "k": "Justinian_EastMed",
+   "m": 0.25,
+   "Y": 0,
+   "X": 0,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Plague_of_Justinian",
+   "ev": "up to a quarter of the Eastern Mediterranean"
+  },
+  {
+   "k": "Athens_430BC",
+   "m": 0.25,
+   "Y": 0,
+   "X": 0,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Plague_of_Athens",
+   "ev": "around 25% of the population"
+  },
+  {
+   "k": "ThirtyYears_Germany",
+   "m": 0.4,
+   "Y": 0,
+   "X": 0,
+   "fl": [
+    "long"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+   "ev": "decline of roughly 40% 1600–1650, regained by 1750; 帝国は存続"
+  },
+  {
+   "k": "Aztec_1520",
+   "m": 0.5,
+   "Y": 1,
+   "X": 1,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+   "ev": "lost approximately 50% from smallpox; 1521 陥落、後の cocoliztli でさらに減少"
+  },
+  {
+   "k": "Inca_conquest",
+   "m": 0.93,
+   "Y": 1,
+   "X": 1,
+   "fl": [
+    "long"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire",
+   "ev": "decline of 93 percent in the Andes; 1572 Spanish victory"
+  },
+  {
+   "k": "Taino_Hispaniola",
+   "m": 0.85,
+   "Y": 1,
+   "X": 1,
+   "fl": [
+    "long"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Ta%C3%ADno_genocide",
+   "ev": "In thirty years 80–90% died; 1565 200人"
+  },
+  {
+   "k": "Cocoliztli_NewSpain",
+   "m": 0.75,
+   "Y": 0,
+   "X": 0,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Cocoliztli_epidemics",
+   "ev": "60–90% decreased; 副王領は 1821 まで（https://en.wikipedia.org/wiki/New_Spain）"
+  },
+  {
+   "k": "Hawaii_contact",
+   "m": 0.4453125,
+   "Y": 0,
+   "X": 0,
+   "fl": [
+    "long",
+    "ambig"
+   ],
+   "Yalt": 1,
+   "src": "https://en.wikipedia.org/wiki/Hawaiian_Kingdom",
+   "ev": "128,000 (1778)→71,000 (1853)→24,000 (1920); 王国は 1893 に倒れる（115年後）"
+  },
+  {
+   "k": "Paraguay_war",
+   "m": 0.65,
+   "Y": 0,
+   "X": 0,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Paraguayan_War",
+   "ev": "60–70% died; 1876 まで占領、国は存続"
+  },
+  {
+   "k": "Herero_1904",
+   "m": 0.8,
+   "Y": 1,
+   "X": 1,
+   "fl": [
+    "unk"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide",
+   "ev": "80 percent of pre-war population; 土地と家畜を奪われ 1910年代 約15,000"
+  },
+  {
+   "k": "Moriori_1835",
+   "m": 0.95,
+   "Y": 1,
+   "X": 1,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Moriori",
+   "ev": "killing or displacing nearly 95%; 1862 に 2,000 のうち 101"
+  },
+  {
+   "k": "Finland_1695",
+   "m": 0.3333333333333333,
+   "Y": 0,
+   "X": 0,
+   "fl": [],
+   "src": "https://en.wikipedia.org/wiki/Great_Famine_of_1695%E2%80%931697",
+   "ev": "about a third of the Finnish population; Sweden の王国は存続"
+  },
+  {
+   "k": "Bengal_1770",
+   "m": 0.29,
+   "Y": 0,
+   "X": 0,
+   "fl": [
+    "contested"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Great_Bengal_famine_of_1770",
+   "ev": "a quarter and third (Dutta 4–5%)"
+  },
+  {
+   "k": "Russia_1601",
+   "m": 0.3,
+   "Y": 0,
+   "X": 0,
+   "fl": [
+    "ambig"
+   ],
+   "Yalt": 1,
+   "src": "https://en.wikipedia.org/wiki/Russian_famine_of_1601%E2%80%931603",
+   "ev": "about 30%; 動乱 1598–1613、1613 に回復"
+  }
+ ],
+ "low": [
+  {
+   "k": "Antonine",
+   "m": 0.1,
+   "Y": 0,
+   "X": 0,
+   "src": "https://en.wikipedia.org/wiki/Antonine_Plague",
+   "ev": "about 10%"
+  },
+  {
+   "k": "Taiping",
+   "m": 0.15,
+   "Y": 0,
+   "X": 0,
+   "src": "https://en.wikipedia.org/wiki/Taiping_Rebellion",
+   "ev": "5–10% to 25%（中点 0.15）; 移民で再入植"
+  },
+  {
+   "k": "Ireland_famine",
+   "m": 0.225,
+   "Y": 0,
+   "X": 0,
+   "src": "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)",
+   "ev": "population fall by 20–25% 1841–1871"
+  },
+  {
+   "k": "Cambodia_KR",
+   "m": 0.225,
+   "Y": 0,
+   "X": 0,
+   "src": "https://en.wikipedia.org/wiki/Cambodian_genocide",
+   "ev": "20% to 25% of 1975 population"
+  }
+ ],
+ "versions": {
+  "main": {
+   "n": 17,
+   "k1": 5,
+   "firth": false,
+   "a": -7.470493791849139,
+   "b": 10.539132946221109,
+   "c80": 0.7232844647010702,
+   "c90": 0.8823345495370313,
+   "c80_90ci": [
+    0.4230669639540256,
+    0.9519841978135489
+   ],
+   "c90_90ci": [
+    0.6503215166557407,
+    0.9891233572632535
+   ],
+   "P_b_pos": 1.0,
+   "F80": 2.08642635034262,
+   "F80_90ci": [
+    2.004273233270202,
+    2.1525255729992807
+   ],
+   "F80_bootmean": 2.080639872018098
+  },
+  "noconq": {
+   "n": 17,
+   "k1": 0,
+   "firth": true,
+   "a": -3.446381274256194,
+   "b": 0.9736793542218447,
+   "c80": 0.06492234045076511,
+   "c90": 0.07108969097486013,
+   "c80_90ci": [
+    0.04789481538977939,
+    0.09971126143180059
+   ],
+   "c90_90ci": [
+    0.04568573123882955,
+    0.1254053930407575
+   ],
+   "P_b_pos": 0.8505,
+   "F80": 1.9249590486067427,
+   "F80_90ci": [
+    1.9213085183562297,
+    1.9324174436447257
+   ],
+   "F80_bootmean": 1.9256968763536984
+  },
+  "low": {
+   "n": 21,
+   "k1": 5,
+   "firth": false,
+   "a": -7.600972512898405,
+   "b": 10.715713426549911,
+   "c80": 0.7254379439571692,
+   "c90": 0.8852556203293118,
+   "c80_90ci": [
+    0.4390714159331467,
+    0.944455731748791
+   ],
+   "c90_90ci": [
+    0.6575985843793752,
+    0.9858695170205046
+   ],
+   "P_b_pos": 1.0,
+   "F80": 2.087048752926559,
+   "F80_90ci": [
+    2.007938535720388,
+    2.1503496817207686
+   ],
+   "F80_bootmean": 2.0819763817142523
+  },
+  "nolong": {
+   "n": 13,
+   "k1": 3,
+   "firth": false,
+   "a": -6.0331197154006295,
+   "b": 8.154117476989924,
+   "c80": 0.6201474841450364,
+   "c90": 0.7867735989248441,
+   "c80_90ci": [
+    0.14868782279155252,
+    0.9200398519239904
+   ],
+   "c90_90ci": [
+    0.181369524462371,
+    0.9772472990947878
+   ],
+   "P_b_pos": 0.992,
+   "F80": 2.056617508202187,
+   "F80_90ci": [
+    1.942917526197506,
+    2.143292958676391
+   ],
+   "F80_bootmean": 2.0488229599361847
+  },
+  "nounk": {
+   "n": 16,
+   "k1": 4,
+   "firth": false,
+   "a": -7.1047705812112145,
+   "b": 9.691181269688322,
+   "c80": 0.6565989578325577,
+   "c90": 0.8344214024214965,
+   "c80_90ci": [
+    0.3298760895818934,
+    0.9169166629062729
+   ],
+   "c90_90ci": [
+    0.5307343818913483,
+    0.9749274855467348
+   ],
+   "P_b_pos": 0.998,
+   "F80": 2.0671527809926014,
+   "F80_90ci": [
+    1.9829308754927066,
+    2.142390288771746
+   ],
+   "F80_bootmean": 2.0599297070794163
+  },
+  "ambig1": {
+   "n": 17,
+   "k1": 8,
+   "firth": false,
+   "a": -3.1220930344027447,
+   "b": 5.60639446728172,
+   "c80": 0.7962505004418002,
+   "c90": 0.8725462364964848,
+   "c80_90ci": [
+    0.5405267235218535,
+    0.9980762787568718
+   ],
+   "c90_90ci": [
+    0.6236989447615233,
+    0.9997008801823289
+   ],
+   "P_b_pos": 0.994,
+   "F80": 2.107515129840357,
+   "F80_90ci": [
+    2.0336053677291765,
+    2.1658471920476208
+   ],
+   "F80_bootmean": 2.1078766314828212
+  },
+  "noconq_ambig1": {
+   "n": 17,
+   "k1": 3,
+   "firth": false,
+   "a": -0.5561950393941886,
+   "b": -1.9521200360142454,
+   "c80": 0.10737002680292852,
+   "c90": 0.09004356861851186,
+   "c80_90ci": [
+    0.0014454480826908628,
+    0.2976781284170337
+   ],
+   "c90_90ci": [
+    0.0005006495139596341,
+    0.30917966420666554
+   ],
+   "P_b_pos": 0.2105,
+   "F80": 1.9340594059715317,
+   "F80_90ci": [
+    1.911350240810643,
+    1.9755569731496265
+   ],
+   "F80_bootmean": 1.9368747356954434
+  },
+  "nocontested_city": {
+   "n": 15,
+   "k1": 5,
+   "firth": false,
+   "a": -7.249359684244763,
+   "b": 10.246967371521745,
+   "c80": 0.7207559000553085,
+   "c90": 0.8779234343588718,
+   "c80_90ci": [
+    0.4094058024303284,
+    0.9354754053707606
+   ],
+   "c90_90ci": [
+    0.6340415122685376,
+    0.9843692864664264
+   ],
+   "P_b_pos": 0.998,
+   "F80": 2.0856955398810277,
+   "F80_90ci": [
+    2.001144585761964,
+    2.147754171071445
+   ],
+   "F80_bootmean": 2.078879491886877
+  }
+ },
+ "desc": {
+  "Y_given_X1": "5/5",
+  "Y_given_X0": "0/12",
+  "noconq_m50": [
+   "England_BlackDeath",
+   "Norway_BlackDeath",
+   "Cocoliztli_NewSpain",
+   "Paraguay_war"
+  ],
+  "rule_of_three_upper95": 0.75,
+  "Y_ambig1_given_X0": "3/12"
+ },
+ "bounds": {
+  "F_c0": 1.9110403512681224,
+  "F_c1": 2.1664031895428884
+ },
+ "hyp": {
+  "H147a": true,
+  "H147b": true,
+  "H147c": true,
+  "H147d": true
+ }
+}

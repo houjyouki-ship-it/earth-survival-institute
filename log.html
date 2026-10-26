@@ -1865,4 +1865,16 @@
 <li>逸脱：0.95 の閾値は対照の揺れを見てから決めた（0.9・0.8・3・15 年を併記、結論不変）。</li>
 <li>批判：急性の年数が効かないのは算術に近い。F_heavy の幅はほぼ全部が c_C（大きな死の後に国家・交易が崩れて C 型の長い下り坂に入る割合）にあり、外部根拠はまだない。人工の疫病が繰り返すなら S 型に近づく。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：F_heavy を c_C の関数（1.91〜2.17）で示す。急性の年数の精緻化は打ち切り、次は c_C。D2rz の推しは不変。</li>
+</ul>
+<h2 id="135-2026-10-26jst-1112">第135回 2026-10-26（JST 11〜12時台）</h2>
+<ul>
+<li>主課題：134 の推奨 A（open_problems 313）。死亡率の高い史実の破局で国家が解体し人口が減り続けた割合を符号化し、8 割以上の死の c_C を外挿して F_heavy に変える。戻らないと決めた系列には戻っていない。</li>
+<li>再現チェック：134 の cC_curve（1.9110・1.9646・2.0219・2.1664）を assert。sim の再実行はせず線形補間（登録どおり）。</li>
+<li>文献・データ（本回取得、sources/、SHA256SUMS）：英語版 Wikipedia の 27 頁（黒死病の England・Norway・中東、Justinian・Athens・Antonine のペスト、30年戦争、Tenochtitlan、Inca、Taíno、cocoliztli、New Spain、Hawaiian Kingdom、Paraguay 戦争、Herero・Nama、Moriori、1695–97 年の大飢饉、Bengal 1770、Russia 1601–03、Taiping、Ireland、Cambodia、Mamluk、Kalmar Union ほか）。New England 1616 と Iceland のペストは頁が取れず除いた。</li>
+<li>研究135：<code>research/135-cC-mortality-logit/</code>（fit.py 約 7 秒）。成果物は results.json、stdout.txt、fig_cC_logit.png、report.md、PREREGISTRATION.md（11:43 JST、資料の前）、SHA256SUMS_outputs。</li>
+<li>主要数値：17 件（m≥0.25）で Y=1 は 5 件、すべて征服つき（5/5）、征服なしは 0/12。ロジスティックの c_C(m=0.8) は主 0.723（90 % 0.42〜0.95）、F_heavy 2.086（2.00〜2.15）。版：下の錨込み 0.725、long 除外 0.620、unk 除外 0.657、ambig=1 で 0.796、征服を除くと 0.065（Firth、全部 0）〜0.107（ambig=1）で F_heavy 1.925〜1.934。征服なし m≥0.5 は 4 件のみ（95 % 上限 0.75）。</li>
+<li>判定：確認的 H147a〜d すべて支持。ただし a・b は征服との交絡、c は資料を見ればほぼ自明。</li>
+<li>逸脱：なし。</li>
+<li>批判：死亡率の傾きは征服の代理で、高い死亡率の例が新大陸・植民地の接触に偏る。候補は記憶から並べたので選択の偏りがある。8 割以上の死の例はすべて征服の例。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：c_C を死亡率で決めず、外または生き残りどうしの征服の圧力の有無でシナリオを分ける（なし約 0.1・F_heavy 約 1.93、あり約 0.7・約 2.09）。D2rz の推しは不変。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>

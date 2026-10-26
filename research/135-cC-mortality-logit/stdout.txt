@@ -1,0 +1,11 @@
+main               n=17 k1=5 firth=False b=  10.54 P(b>0)=1.00 c80=0.723 [0.423,0.952] c90=0.882 F80=2.086 [2.004,2.153]
+noconq             n=17 k1=0 firth=True  b=   0.97 P(b>0)=0.85 c80=0.065 [0.048,0.100] c90=0.071 F80=1.925 [1.921,1.932]
+low                n=21 k1=5 firth=False b=  10.72 P(b>0)=1.00 c80=0.725 [0.439,0.944] c90=0.885 F80=2.087 [2.008,2.150]
+nolong             n=13 k1=3 firth=False b=   8.15 P(b>0)=0.99 c80=0.620 [0.149,0.920] c90=0.787 F80=2.057 [1.943,2.143]
+nounk              n=16 k1=4 firth=False b=   9.69 P(b>0)=1.00 c80=0.657 [0.330,0.917] c90=0.834 F80=2.067 [1.983,2.142]
+ambig1             n=17 k1=8 firth=False b=   5.61 P(b>0)=0.99 c80=0.796 [0.541,0.998] c90=0.873 F80=2.108 [2.034,2.166]
+noconq_ambig1      n=17 k1=3 firth=False b=  -1.95 P(b>0)=0.21 c80=0.107 [0.001,0.298] c90=0.090 F80=1.934 [1.911,1.976]
+nocontested_city   n=15 k1=5 firth=False b=  10.25 P(b>0)=1.00 c80=0.721 [0.409,0.935] c90=0.878 F80=2.086 [2.001,2.148]
+{'Y_given_X1': '5/5', 'Y_given_X0': '0/12', 'noconq_m50': ['England_BlackDeath', 'Norway_BlackDeath', 'Cocoliztli_NewSpain', 'Paraguay_war'], 'rule_of_three_upper95': 0.75, 'Y_ambig1_given_X0': '3/12'}
+{'F_c0': 1.9110403512681224, 'F_c1': 2.1664031895428884}
+{'H147a': True, 'H147b': True, 'H147c': True, 'H147d': True}

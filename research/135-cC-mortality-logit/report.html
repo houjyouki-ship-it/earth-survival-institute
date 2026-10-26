@@ -1,0 +1,103 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究135：大きな死の後に国家が解体し長い下り坂に入る割合 c_C（open_problems 313） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="135-c_copen_problems-313">研究135：大きな死の後に国家が解体し長い下り坂に入る割合 c_C（open_problems 313）</h1>
+<p>注：F_heavy・V は生存確率や復興確率ではない（模型の中の価値の比）。事前登録 PREREGISTRATION.md（2026-10-26 11:43 JST、資料を開く前・fit.py の前、PREREG.sha256）。結論は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="_1">何をしたか</h2>
+<p>134 で F_heavy（D2rz、遅い κ、p|lost 0.9）の幅 1.911〜2.166 がほぼ全部、二次の崩れの確率 c_C に移ったので、死亡率 25 % 以上の史実の破局 17 件（＋下の錨 4 件）を英語版 Wikipedia（sources/、SHA256SUMS）で符号化し、Y（100 年以内に政体が消え、かつ人口が減り続けた）を死亡率 m のロジスティックで回帰して m=0.8 に外挿、134 の cC_curve の線形補間で F_heavy に変えた（fit.py、ブートストラップ 2,000 回）。</p>
+<h2 id="url-resultsjson-casessrc">資料から取った値【事実（各 URL は results.json の cases.src）】</h2>
+<ul>
+<li>征服なし・Y=0：England の黒死病 40–60 %、Norway 60–65 %（1380 に同君連合、1537 から従属＝ambig）、Cairo 1/3（Mamluk は 170 年後の 1517 に征服）、Justinian（東地中海で最大 1/4）、Athens 25 %、30年戦争のドイツ約 40 %（1750 に回復）、cocoliztli 60–90 %（副王領は 1821 まで）、Hawaii 128,000→71,000（1778→1853、王国は 115 年後の 1893 に倒れる＝ambig）、Paraguay 60–70 %（1876 まで占領、国は存続）、Finland 1695–97 約 1/3、Bengal 1770 1/4–1/3（Dutta は 4–5 %）、Russia 1601–03 約 30 %（動乱 1598–1613＝ambig）。</li>
+<li>征服あり・Y=1：Aztec 約 50 %（1521 陥落）、Inca 93 %（1572）、Taíno 30 年で 80–90 %、Herero 80 %、Moriori 約 95 %（1862 に 2,000 のうち 101）。</li>
+<li>下の錨（m&lt;0.25）：Antonine 約 10 %、Taiping 中点 15 %、Ireland 20–25 %、Cambodia 20–25 %、すべて Y=0。</li>
+</ul>
+<h2 id="resultsjsonfig_cc_logitpng">結果【計算】（results.json、fig_cC_logit.png）</h2>
+<table>
+<thead>
+<tr>
+<th>版</th>
+<th>n</th>
+<th>Y=1</th>
+<th>c_C(m=0.8) [90 %]</th>
+<th>F_heavy [90 %]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主</td>
+<td>17</td>
+<td>5</td>
+<td><strong>0.723</strong> [0.42, 0.95]</td>
+<td><strong>2.086</strong> [2.00, 2.15]</td>
+</tr>
+<tr>
+<td>征服を除く（Firth）</td>
+<td>17</td>
+<td>0</td>
+<td>0.065 [0.05, 0.10]</td>
+<td>1.925</td>
+</tr>
+<tr>
+<td>下の錨を足す</td>
+<td>21</td>
+<td>5</td>
+<td>0.725</td>
+<td>2.087</td>
+</tr>
+<tr>
+<td>long を除く</td>
+<td>13</td>
+<td>3</td>
+<td>0.620 [0.15, 0.92]</td>
+<td>2.057</td>
+</tr>
+<tr>
+<td>unk を除く</td>
+<td>16</td>
+<td>4</td>
+<td>0.657</td>
+<td>2.067</td>
+</tr>
+<tr>
+<td>ambig を 1 に</td>
+<td>17</td>
+<td>8</td>
+<td>0.796</td>
+<td>2.108</td>
+</tr>
+<tr>
+<td>征服を除く＋ambig を 1</td>
+<td>17</td>
+<td>3</td>
+<td>0.107 [0.00, 0.30]</td>
+<td>1.934</td>
+</tr>
+<tr>
+<td>境界</td>
+<td></td>
+<td></td>
+<td>0 / 1</td>
+<td>1.911 / 2.166</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>決定的な記述：<strong>Y=1 の 5 件はすべて征服つき（5/5）、征服なしは 0/12</strong>。m の傾きは征服の代理で、高い死亡率の例が新大陸・植民地の接触に偏っていることから来る。征服なしで m≥0.5 は 4 件（England・Norway・cocoliztli・Paraguay）だけで、0/4 の 95 % 上限（3/n）は 0.75 と広い。</li>
+<li>征服を除いた版の 0.065 は全部 0 のときの Firth の罰則が作る値で、資料の情報ではない。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H147a（確認的）支持：b=10.5、P(b&gt;0)=1.00。ただし征服と交絡（下の批判 1）。</li>
+<li>H147b（確認的）支持：主の c_C 0.723。ただし征服を除くと 0.07〜0.11 で、支持は征服込みの定義に依存。</li>
+<li>H147c（確認的）支持：征服を除くと 0.065 で主より低い。Y=1 が全部征服なので、資料を見ればほぼ自明だった。</li>
+<li>H147d（確認的）支持：2.086 ≥ 2.02。</li>
+<li>逸脱：なし。Herero の (ii)、Taiping の (i) は資料に書かれておらず unk／Y=0 のまま扱った。</li>
+</ul>
+<h2 id="_3">批判</h2>
+<ol>
+<li>結果は「死亡率が高いと国家が崩れる」ではなく「外の征服者が来ると崩れる」を示す。現代の世界規模の重い崩壊（全面核戦争・人工の疫病）では、無傷の外の征服者はいない、または同時に打撃を受けている【推測】。それなら当てはまるのは征服なしの系列で、c_C は 0.1 前後、F_heavy は 1.92〜1.93 と境界の下側に寄る【独自仮説】。逆に、生き残りの集団どうしの奪い合い（内からの征服）が Aztec 型の役割を果たすなら主の 0.72 に近い。</li>
+<li>標本は記憶から並べた候補で、選択の偏りがある（よく知られた大惨事に寄る）。m は資料の幅の中点で、long の例は 25 年を越える減少。</li>
+<li>政体の「消滅」の判定は Norway・Russia・Hawaii で揺れ、ambig を 1 にしても征服なしの c_C は 0.11。</li>
+<li>134 の 8 割以上の死は史実の範囲の上端（0.85〜0.95）にしか例がなく、そこは全部征服の例。外挿ではなく、征服の有無の二択の問題になる。</li>
+</ol>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は c_C を死亡率で決めるのをやめ、「外からの（または生き残りどうしの）征服の圧力があるか」でシナリオを分ける：圧力なしで c_C 約 0.1（F_heavy 約 1.93）、圧力ありで約 0.7（約 2.09）。F_heavy の主の幅は 1.92〜2.09、境界 1.91〜2.17。次に詰めるのは、重い崩壊の生き残りの集団どうしの暴力による政体の消滅（open_problems 315）。D2rz の推しは不変（cC_curve は 134 の全版で D2rz ≥ D1 ≥ D4）。</p>
+<h2 id="_5">ファイル</h2>
+<p>fit.py、results.json、stdout.txt、stderr.txt、fig_cC_logit.png、PREREGISTRATION.md、PREREG.sha256、SHA256SUMS_outputs、sources/（wp_*.json・txt、SHA256SUMS）。</p><footer><hr><small>自動生成</small></footer></body></html>
