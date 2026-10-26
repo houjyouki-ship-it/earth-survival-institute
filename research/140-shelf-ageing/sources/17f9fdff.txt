@@ -1,0 +1,214 @@
+ 
+ Hard disk drive failure - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Causes 
+ 2 
+ Signs of drive failure 
+ Toggle Signs of drive failure subsection 
+ 2.1 
+ Landing zones and load/unload technology 
+ 2.1.1 
+ Landing zones 
+ 2.1.2 
+ Unloading 
+ 2.2 
+ Modes of failure 
+ 2.3 
+ Metrics of failures 
+ 2.4 
+ Example drive families with high failure rates 
+ 3 
+ Mitigation 
+ 4 
+ Data recovery 
+ 5 
+ See also 
+ 6 
+ References 
+ 7 
+ External links 
+ Toggle the table of contents 
+ Hard disk drive failure 
+ 3 languages 
+ Deutsch हिन्दी 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Electromechanical malfunctioning 
+ A head crash , one type of disk failure. The platters should normally be smooth in modern drives, and a head crash results in partial to total data loss, as well as irreversible damage to the platters and heads. Particles may also be liberated during this process, making the insides of the drive not clean enough for operation. 
+ A hard disk drive failure occurs when a hard disk drive malfunctions and the stored information cannot be accessed with a properly configured computer. 
+ A hard disk failure may occur in the course of normal operation, or due to an external factor such as exposure to fire or water or high magnetic fields , or suffering a sharp impact or environmental contamination, which can lead to a head crash . 
+ The stored information on a hard drive may also be rendered inaccessible as a result of data corruption , disruption or destruction of the hard drive's master boot record , or by malware deliberately destroying the disk's contents. 
+ Causes [ edit ] 
+ There are a number of causes for hard drives to fail including: human error, hardware failure, firmware corruption, media damage, heat, water damage, power issues and mishaps. [ 1 ] Drive manufacturers typically specify a mean time between failures (MTBF) or an annualized failure rate (AFR) which are population statistics that can't predict the behavior of an individual unit. [ 2 ] These are calculated by constantly running samples of the drive for a short period of time, analyzing the resultant wear and tear upon the physical components of the drive, and extrapolating to provide a reasonable estimate of its lifespan. Hard disk drive failures tend to follow the concept of the bathtub curve . [ 3 ] Drives typically fail within a short time if there is a defect present from manufacturing. If a drive proves reliable for a period of a few months after installation, the drive has a significantly greater chance of remaining reliable. Therefore, even if a drive is subjected to several years of heavy daily use, it may not show any notable signs of wear unless closely inspected. On the other hand, a drive can fail at any time in many different situations. 
+ The most notorious cause of drive failure is a head crash , where the internal read-and-write head of the device, usually just hovering above the surface, touches a platter , or scratches the magnetic data-storage surface. A head crash usually incurs severe data loss , and data recovery attempts may cause further damage if not done by a specialist with proper equipment. Drive platters are coated with an extremely thin layer of non- electrostatic lubricant, so that the read-and-write head will likely simply glance off the surface of the platter should a collision occur. However, this head hovers mere nanometers from the platter's surface which makes a collision an acknowledged risk. 
+ Another cause of failure is a faulty air filter . The air filters on today's drives equalize the atmospheric pressure and moisture between the drive enclosure and its outside environment. If the filter fails to capture a dust particle, the particle can land on the platter, causing a head crash if the head happens to sweep over it. After a head crash, particles from the damaged platter and head media can cause one or more bad sectors . These, in addition to platter damage, will quickly render a drive useless. 
+ A drive also includes controller electronics, which occasionally fail. In such cases, it may be possible to recover all data by replacing the controller board. On newer drives this usually requires soldering the ROM chip to the donor PCB. 
+ Signs of drive failure [ edit ] 
+ Failure of a hard disk drive can be catastrophic or gradual. The former typically presents as a drive that can no longer be detected by CMOS setup , or that fails to pass BIOS POST so that the operating system never sees it. Gradual hard-drive failure can be harder to diagnose, because its symptoms, such as corrupted data and slowing down of the PC (caused by gradually failing areas of the hard drive requiring repeated read attempts before successful access), can be caused by many other computer issues, such as malware . A rising number of bad sectors can be a sign of a failing hard drive, but because the hard drive automatically adds them to its own growth defect table, [ 4 ] they may not become evident to utilities such as ScanDisk unless the utility can catch them before the hard drive's defect management system does, or the backup sectors held in reserve by the internal hard-drive defect management system run out (by which point the drive is on the point of failing outright). A cyclical repetitive pattern of seek activity such as rapid or slower seek-to-end noises ( click of death ) can be indicative of hard drive problems. [ 5 ] 
+ Landing zones and load/unload technology [ edit ] 
+ Read/write head from circa-1998 Fujitsu 3.5" hard disk (approx. 2.0 mm x 3.0 mm) 
+ Microphotograph of an older generation hard disk drive head and slider (1990s) 
+ Noises from an old hard drive while attempting to read data from bad sectors 
+ During normal operation, heads in HDDs fly above the data recorded on the disks. Modern HDDs prevent power interruptions or other malfunctions from landing its heads in the data zone by either physically moving ( parking ) the heads to a special landing zone on the platters that is not used for data storage, or by physically locking the heads in a suspended ( unloaded ) position raised off the platters. Some early PC HDDs did not park the heads automatically when power was prematurely disconnected and the heads would land on data. In some other early units the user would run a program to manually park the heads. 
+ Landing zones [ edit ] 
+ A landing zone is an area of the platter usually near its inner diameter (ID), where no data is stored. This area is called the Contact Start/Stop (CSS) zone, or the landing zone. Disks are designed such that either a spring or, more recently, rotational inertia in the platters is used to park the heads in the case of unexpected power loss. In this case, the spindle motor temporarily acts as a generator , providing power to the actuator. 
+ Spring tension from the head mounting constantly pushes the heads towards the platter. While the disk is spinning, the heads are supported by an air bearing and experience no physical contact or wear. In CSS drives the sliders carrying the head sensors (often also just called heads ) are designed to survive a number of landings and takeoffs from the media surface, though wear and tear on these microscopic components eventually takes its toll. Most manufacturers design the sliders to survive 50,000 contact cycles before the chance of damage on startup rises above 50%. However, the decay rate is not linear: when a disk is younger and has had fewer start-stop cycles, it has a better chance of surviving the next startup than an older, higher-mileage disk (as the head literally drags along the disk's surface until the air bearing is established). For example, the Seagate Barracuda 7200.10 series of desktop hard disk drives are rated to 50,000 start – stop cycles; in other words, no failures attributed to the head – platter interface were seen before at least 50,000 start – stop cycles during testing. [ 6 ] 
+ Around 1995 IBM pioneered a technology where a landing zone on the disk is made by a precision laser process( Laser Zone Texture) producing an array of smooth nanometer-scale "bumps" in a landing zone, [ 7 ] thus vastly improving stiction and wear performance. This technology is still in use today, predominantly in older/refurbished hard drives and more recent lower-capacity Seagate desktop drives from the early 2010s onwards in cheaper models including the 7200.12 series, 7200.14 series models that are 500GB and under and was even still used in the 16th generation in one model (BarraCuda Compute 1TB ST1000DM010) introduced in 2016 being one of the last known hard drives to use CSS, [ 8 ] but had already been phased out in all 2.5" drives(since the late 90s and early 2000s), as well as higher-capacity desktop, NAS, and enterprise drives since around 2012 in favor of load/unload ramps. Western Digital and Toshiba also fully phased out CSS in all their hard drives including the cheapest models. Some early adopters included IBM and Hitachi. In general, CSS technology can be prone to increased stiction (the tendency for the heads to stick to the platter surface), e.g. as a consequence of increased humidity. Excessive stiction can cause physical damage to the platter and slider or spindle motor. Though this older technology is still often found in older used/refurbished units that are still quite good for budget conscious users. 
+ Unloading [ edit ] 
+ Load/unload technology relies on the heads being lifted off the platters into a safe location, thus eliminating the risks of wear and stiction altogether. The first HDD RAMAC and most early disk drives used complex mechanisms to load and unload the heads. Almost all modern HDDs use ramp loading, first introduced by Memorex in 1967, [ 9 ] to load/unload onto plastic "ramps" near the outer disk edge. Laptop drives adopted this early due to the need for increased shock resistance, and then ultimately it was adopted on most desktop drives around the late 2000s-early2010s when adoption accelerated. The only exception today would be lower capacity cheaper Seagate drives in their BarraCuda (ST1000DM010) and formerly Skyhawk/Pipeline HD/Video 3.5 HDD(these three discontinued and now use ramps) as well as used/refurbished drives. 
+ Addressing shock robustness, IBM also created a technology for their ThinkPad line of laptop computers called the Active Protection System. When a sudden, sharp movement is detected by the built-in accelerometer in the ThinkPad, internal hard disk heads automatically unload themselves to reduce the risk of any potential data loss or scratch defects. Apple later also utilized this technology in their PowerBook , iBook , MacBook Pro , and MacBook line, known as the Sudden Motion Sensor . Sony , [ 10 ] HP with their HP 3D DriveGuard, [ 11 ] and Toshiba [ 12 ] have released similar technology in their notebook computers. However, this technology is obsolete today due to almost all (96%) [ citation needed ] of laptops lacking a 2.5 inch bay, and SSDs typically being the only option, even in workstation and gaming laptops. 
+ Modes of failure [ edit ] 
+ Hard drives may fail in a number of ways. Failure may be immediate and total, progressive, or limited. Data may be totally destroyed, or partially or totally recoverable. 
+ Earlier drives had a tendency toward developing bad sectors with use and wear; these bad sectors could be "mapped out" so they were not used and did not affect operation of a drive, and this was considered normal unless many bad sectors developed in a short period of time. Some early drives even had a table attached to a drive's case on which bad sectors were to be listed as they appeared. [ 13 ] Later drives map out bad sectors automatically, in a way invisible to the user; a drive with remapped sectors may continue to be used, though performance may decrease as the drive must physically move the heads to the remapped sector. Statistics and logs available through S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) provide information about the remapping. In modern HDDs, each drive ships with zero user-visible bad sectors, and any bad/reallocated sectors may predict the impending failure of a drive. [ citation needed ] 
+ Other failures, which may be either progressive or limited, are usually considered to be a reason to replace a drive; the value of data potentially at risk usually far outweighs the cost saved by continuing to use a drive which may be failing. Repeated but recoverable read or write errors, unusual noises, excessive and unusual heating, and other abnormalities, are warning signs. 
+ Head crash : a head may contact the rotating platter due to mechanical shock or other reason. At best this will cause irreversible damage and data loss where contact was made. In the worst case the debris scraped off the damaged area may contaminate all heads and platters, and destroy all data on all platters. If damage is initially only partial, continued rotation of the drive may extend the damage until it is total. [ 14 ] 
+ Bad sectors : some magnetic sectors may become faulty without rendering the whole drive unusable. This may be a limited occurrence or a sign of imminent failure. A drive that has any reallocated sectors at all has a significantly increased chance of failing soon. [ citation needed ] 
+ Stiction : after a time the head may not "take off" when started up as it tends to stick to the platter, a phenomenon known as stiction . This is usually due to unsuitable lubrication properties of the platter surface, a design or manufacturing defect rather than wear. This occasionally happened with some designs until the early 1990s. 
+ Circuit failure : components of the electronic circuitry may fail making the drive inoperable, often due to electrostatic discharge or user error . 
+ Bearing and motor failure : electric motors may fail or burn out, and bearings may wear enough to prevent proper operation. Since modern drives use fluid dynamic bearings, this is a relatively uncommon reason for modern hard drive failure. [ 15 ] 
+ Miscellaneous mechanical failures : parts, particularly moving parts, of any mechanism can break or fail, preventing normal operation, with possible further damage caused by fragments. 
+ Metrics of failures [ edit ] 
+ Most major hard disk and motherboard vendors support S.M.A.R.T , which measures drive characteristics such as operating temperature , spin-up time, data error rates, etc. Certain trends and sudden changes in these parameters are thought to be associated with increased likelihood of drive failure and data loss. However, S.M.A.R.T. parameters alone may not be useful for predicting individual drive failures. [ 16 ] While several S.M.A.R.T. parameters affect failure probability, a large fraction of failed drives do not produce predictive S.M.A.R.T. parameters. [ 16 ] Unpredictable breakdown may occur at any time in normal use, with potential loss of all data. Recovery of some or even all data from a damaged drive is sometimes, but not always possible, and is normally costly. 
+ A 2007 study published by Google suggested very little correlation between failure rates and either high temperature or activity level. Indeed, the Google study indicated that "one of our key findings has been the lack of a consistent pattern of higher failure rates for higher temperature drives or for those drives at higher utilization levels.". [ 17 ] Hard drives with S.M.A.R.T.-reported average temperatures below 27   °C (81   °F) had higher failure rates than hard drives with the highest reported average temperature of 50   °C (122   °F) , failure rates at least twice as high as the optimum S.M.A.R.T.-reported temperature range of 36   °C (97   °F) to 47   °C (117   °F) . [ 16 ] The correlation between manufacturers, models and the failure rate was relatively strong. Statistics in this matter are kept highly secret by most entities; Google did not relate manufacturers' names with failure rates, [ 16 ] though it has been revealed that Google uses Hitachi Deskstar drives in some of its servers. [ 18 ] A different 2026 peer-reviewed study is more explicit about manufacturer differences, using Backblaze public hard-drive histories to statistically estimate manufacturer-level differences. [ 19 ] The study found significant short- to medium-term reliability differences among HGST, Seagate, Toshiba, and Western Digital drives. 
+ Google's 2007 study found, based on a large field sample of drives, that actual annualized failure rates ( AFRs ) for individual drives ranged from 1.7% for first year drives to over 8.6% for three-year-old drives. [ 20 ] A similar 2007 study at CMU on enterprise drives showed that measured MTBF was 3–4 times lower than the manufacturer's specification, with an estimated 3% mean AFR over 1–5 years based on replacement logs for a large sample of drives, and that hard drive failures were highly correlated in time. [ 21 ] 
+ A 2007 study of latent sector errors (as opposed to the above studies of complete disk failures) showed that 3.45% of 1.5 million disks developed latent sector errors over 32 months (3.15% of nearline disks and 1.46% of enterprise class disks developed at least one latent sector error within twelve months of their ship date), with the annual sector error rate increasing between the first and second years. Enterprise drives showed less sector errors than consumer drives. Background scrubbing was found to be effective in correcting these errors. [ 22 ] 
+ SCSI , SAS , and FC drives are more expensive than consumer-grade SATA drives, and usually used in servers and disk arrays , where SATA drives were sold to the home computer and desktop and near-line storage market and were perceived to be less reliable. This distinction is now becoming blurred. 
+ The mean time between failures (MTBF) of SATA drives is usually specified to be about 1   million hours. Some drives such as Western Digital Raptor have rated 1.4   million hours MTBF, [ 23 ] while SAS/FC drives are rated for upwards of 1.6   million hours. [ 24 ] Modern helium-filled drives are completely sealed without a breather port, thus eliminating the risk of debris ingression, resulting in a typical MTBF of 2.5 million hours. However, independent research indicates that MTBF is not a reliable estimate of a drive's longevity ( service life ). [ 25 ] MTBF is conducted in laboratory environments in test chambers and is an important metric to determine the quality of a disk drive, but is designed to only measure the relatively constant failure rate over the service life of the drive (the middle of the " bathtub curve ") before final wear-out phase. [ 21 ] [ 26 ] [ 27 ] A more interpretable, but equivalent, metric to MTBF is annualized failure rate (AFR). AFR is the percentage of drive failures expected per year. Both AFR and MTBF tend to measure reliability only in the initial part of the life of a hard disk drive thereby understating the real probability of failure of a used drive. [ 28 ] Server and industrial drives usually have higher MTBF and lower AFR. 
+ The cloud storage company Backblaze produces an annual report into hard drive reliability. However, the company states that it mainly uses commodity consumer drives, which are deployed in enterprise conditions, rather than in their representative conditions and for their intended use. Consumer drives are also not tested to work with enterprise RAID cards of the kind used in a datacenter, and may not respond in the time a RAID controller expects; such cards will be identified as having failed when they have not. [ 29 ] The result of tests of this kind may be relevant or irrelevant to different users, since they accurately represent the performance of consumer drives in the enterprise or under extreme stress, but may not accurately represent their performance in normal or intended use. [ 30 ] 
+ Example drive families with high failure rates [ edit ] 
+ IBM 3380 DASD, 1984 ca. [ 31 ] 
+ Computer Memories Inc. 20MB HDD for PC/AT, 1985 ca. [ 32 ] 
+ Fujitsu MPG3 and MPF3 series, 2002 ca. [ 33 ] 
+ IBM Deskstar 75GXP , 2001 ca. [ 34 ] 
+ Seagate ST3000DM001 , 2012 ca. [ 35 ] 
+ Mitigation [ edit ] 
+ In order to avoid the loss of data due to disk failure, common solutions include: 
+ Data backup , to allow restoration of data after a failure 
+ Data scrubbing , to detect and repair latent corruption 
+ Data redundancy , to allow systems to tolerate failures of individual drives 
+ Active hard-drive protection , to protect laptop drives from external mechanical forces 
+ S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) included in hard-drives, to provide early warning of predictable failure modes 
+ Base isolation used under server racks in data centers 
+ Data recovery [ edit ] 
+ Data from a failed drive can sometimes be partially or totally recovered if the platters' magnetic coating is not totally destroyed. Specialized companies carry out data recovery, at significant cost. It may be possible to recover data by opening the drives in a clean room and using appropriate equipment to replace or revitalize failed components. [ 36 ] If the electronics have failed, it is sometimes possible to replace the electronics board, though often drives of nominally exactly the same model manufactured at different times have different circuit boards that are incompatible. Moreover, electronics boards of modern drives usually contain drive-specific adaptation data required for accessing their system areas , so the related componentry needs to be either reprogrammed (if possible) or unsoldered and transferred between two electronics boards. [ 37 ] [ 38 ] [ 39 ] 
+ Sometimes operation can be restored for long enough to recover data, perhaps requiring reconstruction techniques such as file carving . Risky techniques may be justifiable if the drive is otherwise dead. If a drive is started up once it may continue to run for a shorter or longer time but never start again, so as much data as possible is recovered as soon as the drive starts. 
+ See also [ edit ] 
+ Solid-state drive#Failure and recovery 
+ Cascading failure 
+ Single point of failure 
+ References [ edit ] 
+ http://nvl.nist.gov/pub/nistpubs/jres/109/5/j95sla.pdf</ref>\n<ref name=\"AutoJK-2\">http://www.qedata.se/e_js_n-dvd.htm {{Bare URL inline|date=April 2022}}</ref-->\n<ref name=\"AutoJK-3\">{{cite web|url=https://www.pcmag.com/encyclopedia_term/0%2C2542%2Ct%3Dhard+disk+defect+management%26i%3D55545%2C00.asp|title=Definition of:hard disk defect management|publisher=PC Mag|access-date=2017-08-29|archive-date=2009-08-27|archive-url=https://web.archive.org/web/20090827003211/http://www.pcmag.com/encyclopedia_term/0%2C2542%2Ct%3Dhard+disk+defect+management%26i%3D55545%2C00.asp|url-status=dead}}</ref>\n<ref name=\"AutoJK-4\">{{cite web |url=http://users.iafrica.com/c/cq/cquirke/baddata.htm |title=Hard Drive Data Corruption |first=Chris |last=Quirke |archive-url=https://web.archive.org/web/20141226230315/http://users.iafrica.com/c/cq/cquirke/baddata.htm |archive-date=26 December 2014 }}</ref>\n<ref name=\"AutoMK-84\">{{ cite web | url = http://www.seagate.com/support/disc/manuals/sata/100402371a.pdf | title = Barracuda 7200.10 Serial ATA Product Manual | access-date = 26 April 2012 }}</ref>\n<ref name=\"AutoMK-85\">{{Cite journal |last1=Baumgart |first1=P. |last2=Krajnovich |first2=D.J. |last3=Nguyen |first3=T.A. |last4=Tam |first4=A.G. |date=November 1995 |title=A new laser texturing technique for high performance magnetic disk drives |journal=IEEE Transactions on Magnetics |volume=31 |issue=6 |pages=2946–295 |doi=10.1109/20.490199|bibcode=1995ITM....31.2946B }}[https://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=490199 IEEE.org], Baumgart, P.; Krajnovich, D.J.; Nguyen, T.A.; Tam, A.G.; IEEE Trans. Magn.</ref>\n<ref name=\"AutoMK-86\">Pugh et al.; \"IBM's 360 and Early 370 Systems\"; MIT Press, 1991, pp.270</ref>\n<ref name=\"AutoMK-87\">{{cite web | url = http://b2b.sony.com/Solutions/lpage.do?page=/vaio_smb/index.html&name=VAIO%20SMB | title = Sony &#124; For Business &#124; VAIO SMB | publisher = B2b.sony.com | access-date = 13 March 2009 | archive-date = 18 December 2008 | archive-url = https://web.archive.org/web/20081218000424/http://b2b.sony.com/Solutions/lpage.do?page=%2Fvaio_smb%2Findex.html&name=VAIO%20SMB | url-status = dead }}</ref>\n<ref name=\"AutoMK-88\">{{ cite web | url = http://www.hp.com/sbso/solutions/pc_expertise/professional_innovations/hp-3d-drive-guard.pdf | title = HP.com | access-date = 26 April 2012 }}</ref>\n<ref name=\"AutoMK-89\">{{cite web | url = http://eu.computers.toshiba-europe.com/Contents/Toshiba_teg/EU/WORKSHOP/files/EXP-2005-04-HDD-Protection-EN.pdf | title = Toshiba HDD Protection measures. | access-date = 26 April 2012 | archive-date = 4 July 2011 | archive-url = https://web.archive.org/web/20110704131336/http://eu.computers.toshiba-europe.com/Contents/Toshiba_teg/EU/WORKSHOP/files/EXP-2005-04-HDD-Protection-EN.pdf | url-status = dead }}</ref>\n<ref name=headcrash>{{ cite web | url = http://www.escotal.com/harddrive.html | title = Hard Drives | publisher = escotal.com | access-date = 16 July 2011 }}</ref>\n<ref name=google>{{ cite conference | author = Eduardo Pinheiro, Wolf-Dietrich Weber and Luiz André Barroso |date=February 2007 | title = Failure Trends in a Large Disk Drive Population |conference-url=http://www.usenix.org/event/fast07/ | url = https://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/disk_failures.pdf | conference = 5th USENIX Conference on File and Storage Technologies (FAST 2007) | access-date = 15 September 2008 }}</ref>\n<ref name=\"AutoMK-90\">{{ cite web | last = Shankland | first = Stephen | url = http://news.cnet.com/8301-1001_3-10209580-92.html | title = CNet.com | publisher = News.cnet.com | date = 1 April 2009 | access-date = 26 April 2012 }}</ref>\n<ref name=\"AutoMK-91\">{{ cite web | url = http://www.wdc.com/wdproducts/library/SpecSheet/ENG/2879-701284.pdf | title = WD VelociRaptor Drive Specification Sheet (PDF) | access-date = 26 April 2012 }}</ref>\n<ref name=\"AutoMK-92\">{{ cite web | url = http://storagemojo.com/?p=383 | title = Everything You Know About Disks Is Wrong | publisher = StorageMojo | date = 20 February 2007 | access-date = 29 August 2007 }}</ref>"}},"i":0}}]}'> ↑ "Top 7 Causes Of Hard Disk Failure" . ADRECA. 2015-08-05 . Retrieved December 23, 2019 . 
+ ↑ Scheier, Robert (2007-03-02). "Study: Hard Drive Failure Rates Much Higher Than Makers Estimate" . PC World. Archived from the original on 2021-05-09 . Retrieved 9 February 2016 . 
+ ↑ "How long do hard drives actually live for?" . ExtremeTech. 12 November 2013 . Retrieved August 3, 2015 . 
+ ↑ "Definition of:hard disk defect management" . PC Mag. Archived from the original on 2009-08-27 . Retrieved 2017-08-29 . 
+ ↑ Quirke, Chris. "Hard Drive Data Corruption" . Archived from the original on 26 December 2014. 
+ ↑ "Barracuda 7200.10 Serial ATA Product Manual" (PDF) . Retrieved 26 April 2012 . 
+ ↑ Baumgart, P.; Krajnovich, D.J.; Nguyen, T.A.; Tam, A.G. (November 1995). "A new laser texturing technique for high performance magnetic disk drives". IEEE Transactions on Magnetics . 31 (6): 2946– 295. Bibcode : 1995ITM....31.2946B . doi : 10.1109/20.490199 . IEEE.org , Baumgart, P.; Krajnovich, D.J.; Nguyen, T.A.; Tam, A.G.; IEEE Trans. Magn. 
+ ↑ "Seagate Barracuda 3.5" Desktop HDD Datasheet" (PDF) . 
+ ↑ Pugh et al.; "IBM's 360 and Early 370 Systems"; MIT Press, 1991, pp.270 
+ ↑ "Sony | For Business | VAIO SMB" . B2b.sony.com. Archived from the original on 18 December 2008 . Retrieved 13 March 2009 . 
+ ↑ "HP.com" (PDF) . Retrieved 26 April 2012 . 
+ ↑ "Toshiba HDD Protection measures" (PDF) . Archived from the original (PDF) on 4 July 2011 . Retrieved 26 April 2012 . 
+ ↑ Adaptec ACB-2072 XT to RLL Installation Guide A defect list "may be put in from a file or entered from a keyboard." 
+ ↑ "Hard Drives" . escotal.com . Retrieved 16 July 2011 . 
+ ↑ "How to Manage for Hard Drive Failures and Data Corruption" . Backblaze Blog | Cloud Storage & Cloud Backup . 2019-07-11 . Retrieved 2021-10-12 . 
+ 1 2 3 4 Eduardo Pinheiro, Wolf-Dietrich Weber and Luiz André Barroso (February 2007). Failure Trends in a Large Disk Drive Population (PDF) . 5th USENIX Conference on File and Storage Technologies (FAST 2007) . Retrieved 15 September 2008 . 
+ ↑ Conclusions: Failure Trends in Large Disk Drive Population , p. 12 
+ ↑ Shankland, Stephen (1 April 2009). "CNet.com" . News.cnet.com . Retrieved 26 April 2012 . 
+ ↑ Siemroth, Christoph; Park, Yeomyung (2026). "Are There Manufacturer Differences in Hard-Drive Reliability?" . IEEE Transactions on Cloud Computing : 1– 10. arXiv : 2606.29078 . doi : 10.1109/TCC.2026.3679404 . ISSN   2168-7161 . 
+ ↑ AFR broken down by age groups: Failure Trends in Large Disk Drive Population , p. 4, figure 2 and subsequent figures. 
+ 1 2 Bianca Schroeder ; Garth A. Gibson. " "Disk Failures in the Real World: What Does an MTTF of 1,000,000 Hours Mean to You?". Proceedings 5th USENIX Conference on File and Storage Technologies. 2007" . 
+ ↑ "L.N. Bairavasundaram, GR Goodson, S. Pasupathy, J.Schindler. "An analysis of latent sector errors in disk drives". Proceedings of SIGMETRICS'07, June 12-16, 2007" (PDF) . 
+ ↑ "WD VelociRaptor Drive Specification Sheet (PDF)" (PDF) . Retrieved 26 April 2012 . 
+ ↑ "},"access-date":{"wt":"6 January 2016"}},"i":0}}]}'/> Jay White (May 2013). "Technical Report: Storage Subsystem Resiliency Guide (TR-3437)" (PDF) . NetApp . p.   5 . Retrieved 6 January 2016 . [ permanent dead link ] 
+ ↑ "Everything You Know About Disks Is Wrong" . StorageMojo. 20 February 2007 . Retrieved 29 August 2007 . 
+ ↑ "One aspect of disk failures that single-value metrics such as MTTF and AFR cannot capture is that in real life failure rates are not constant. Failure rates of hardware products typically follow a "bathtub curve" with high failure rates at the beginning (infant mortality) and the end (wear-out) of the lifecycle."(Schroeder et al. 2007) 
+ ↑ David A. Patterson; John L. Hennessy (13 October 2011). Computer Organization and Design, Revised Fourth Edition: The Hardware/Software Interface. Section 6.12 . Elsevier. pp.   613–. ISBN   978-0-08-088613-8 .   – "...disk manufacturers argue that the calculation [of MTBF] corresponds to a user who buys a disk and keeps replacing the disk every five years- the planned lifetime of the disk." 
+ ↑ "Decrypting hard-drive failures – MTBF and AFR" . snowark.com . 
+ ↑ This is the case of Software RAID and desktop drives without ERC configured. The problem is known as timeout mismatch . 
+ ↑ Brown, Cody (March 25, 2022). "What Are the Most Dependable Hard Drives? Understanding the Backblaze Tests" . Retrieved November 15, 2022 . So surely, the data they provide is invaluable to average consumers… right? Well, maybe not. 
+ ↑ Henkel, Tom (December 24, 1984). "IBM 3380 damage: Tip of a larger problem?" . ComputerWorld . p.   41. 
+ ↑ Burke, Steven (18 November 1985). "Drive Problems Continue in PC AT" . InfoWorld . 
+ ↑ Krazit, Tom (22 October 2003). "Fujitsu hard disk lawsuit settlement proposed" . ComputerWorld . 
+ ↑ "IBM 75GXP: The infamous Deathstar" (PDF) . Computer History Museum . 2000. 
+ ↑ Hruska, Joel (2 February 2016). "Seagate faces class-action lawsuit over 3TB hard drive failure rates" . ExtremeTech . 
+ ↑ "HddSurgery - Professional tools for data recovery and computer forensics experts" . Retrieved April 10, 2020 . 
+ ↑ "Hard Drive Circuit Board Replacement Guide or How To Swap HDD PCB" . donordrives.com . Archived from the original on May 27, 2015 . Retrieved May 27, 2015 . 
+ ↑ "Firmware Adaptation Service – ROM Swap" . pcb4you.com . Archived from the original on April 18, 2015 . Retrieved May 27, 2015 . 
+ ↑ "How to Maximize the Lifespan of Your Computer's Hard Drive" . 
+ External links [ edit ] 
+ Wikibooks has a book on the topic of: Minimizing Hard Disk Drive Failure and Data Loss 
+ Backblaze: Hard Drive Annual Failure Rates, 2019 , Q2-2020 
+ Failure Trends in a Large Disk Drive Population – Google, Inc. February 2007 
+ A Clean-Slate Look at Disk Scrubbing 
+ Noises made by defective and failing hard disk drives 
+ Hard disk drive anatomy: Logical and physical failures 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Hard_disk_drive_failure&oldid=1373596751 " 
+ Categories : Hard disk drives Technological failures Hidden categories: Articles with short description Short description is different from Wikidata All articles with unsourced statements Articles with unsourced statements from March 2026 Articles with unsourced statements from February 2025 All articles with dead external links Articles with dead external links from August 2025 Articles with permanently dead external links 
+ This page was last edited on 6 September 2026, at 20:51  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Hard disk drive failure 
+ 3 languages 
+ Add topic 
+ 

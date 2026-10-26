@@ -1,0 +1,173 @@
+ 
+ Whisker (metallurgy) - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Mechanism 
+ 2 
+ Effects 
+ 3 
+ Mitigation and elimination 
+ Toggle Mitigation and elimination subsection 
+ 3.1 
+ Conformal coatings 
+ 3.2 
+ Altering plating chemistry 
+ 4 
+ Tin whisker examples and incidents 
+ Toggle Tin whisker examples and incidents subsection 
+ 4.1 
+ Galaxy IV 
+ 4.2 
+ Millstone Nuclear Power Plant 
+ 4.3 
+ Toyota accelerator position sensors false positive 
+ 5 
+ See also 
+ 6 
+ References 
+ 7 
+ External links 
+ Toggle the table of contents 
+ Whisker (metallurgy) 
+ 14 languages 
+ العربية Čeština Deutsch Español فارسی Français עברית Italiano 日本語 Nederlands Polski Svenska Українська 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Phenomenon in electrical devices 
+ Silver whiskers growing out of surface-mount resistors 
+ Metal whiskering is a phenomenon that occurs in electrical devices when metals form long whisker-like projections over time. Tin whiskers were noticed and documented in the vacuum tube era of electronics early in the 20th century in equipment that used pure, or almost pure, tin solder in their production. It was noticed that small metal hairs or tendrils grew between metal solder pads, causing short circuits . Metal whiskers form in the presence of compressive stress. Germanium , zinc , cadmium , and even lead whiskers have been documented. [ 1 ] Many techniques are used to mitigate the problem, including changes to the annealing process (heating and cooling), the addition of elements like copper and nickel, and the inclusion of conformal coatings . [ 2 ] 
+ Traditionally, lead has been added to slow down whisker growth in tin-based solders. Following the Restriction of Hazardous Substances Directive (RoHS), the European Union banned the use of lead in most consumer electronic products from 2006 due to health problems associated with lead and the "high-tech trash" problem, leading to a re-focusing on the issue of whisker formation in lead-free solders . 
+ Mechanism [ edit ] 
+ Microscopic view of tin used to solder electronic components, showing a whisker 
+ Metal whiskering is a crystalline metallurgical phenomenon involving the spontaneous growth of tiny, filiform hairs from a metallic surface. The effect is primarily seen on elemental metals but also occurs with alloys . 
+ The mechanism behind metal whisker growth is an unsolved problem in physics , but seems to be encouraged by compressive mechanical stresses including: 
+ energy gained due to electrostatic polarization of metal filaments in the electric field, [ 3 ] [ 4 ] 
+ residual stresses caused by electroplating , 
+ mechanically induced stresses, 
+ stresses induced by diffusion of different metals, 
+ thermally induced stresses, and 
+ strain gradients in materials. [ 5 ] 
+ Metal whiskers differ from metallic dendrites in several respects: dendrites are fern -shaped and grow across the surface of the metal, while metal whiskers are hair-like and project normal to the surface. Dendrite growth requires moisture capable of dissolving the metal into a solution of metal ions, which are then redistributed by electromigration in the presence of an electromagnetic field . While the precise mechanism for whisker formation remains unknown, it is known that whisker formation does not require either dissolution of the metal or the presence of an electromagnetic field. 
+ Effects [ edit ] 
+ Millimeter-long zinc whiskers on zinc-coated steel 
+ Whiskers can cause short circuits and arcing in electrical equipment. The phenomenon was discovered by telephone companies in the late 1940s and it was later found that the addition of lead to tin solder provided mitigation. [ 6 ] The European Restriction of Hazardous Substances Directive (RoHS), which took effect on July 1, 2006, restricted the use of lead in various types of electronic and electrical equipment. This has driven the use of lead-free alloys with a focus on preventing whisker formation (see §   Mitigation and elimination ) . Others have focused on the development of oxygen-barrier coatings to prevent whisker formation. [ 7 ] 
+ Airborne zinc whiskers have been responsible for increased system failure rates in computer server rooms . Zinc whiskers grow from galvanized (electroplated) metal surfaces at a rate of up to a millimeter per year with a diameter of a few micrometers. Whiskers can form on the underside of zinc electroplated floor tiles on raised floors. These whiskers can then become airborne within the floor plenum when the tiles are disturbed, usually during maintenance. Whiskers can be small enough to pass through air filters and can settle inside equipment, resulting in short circuits and system failure. [ 8 ] 
+ Tin whiskers do not have to be airborne to damage equipment, as they are typically already growing directly in the environment where they can produce short circuits, i.e., the electronic equipment itself. At frequencies above 6   gigahertz or in fast digital circuits , tin whiskers can act like miniature antennas , affecting the circuit impedance and causing reflections. In computer disk drives they can break off and cause head crashes or bearing failures. [ 9 ] Tin whiskers often cause failures in relays and have been found upon examination of failed relays in nuclear power facilities. [ 10 ] Pacemakers have been recalled due to tin whiskers. [ 11 ] Research has also identified a particular failure mode for tin whiskers in vacuum (such as in space), where in high-power components a short-circuiting tin whisker is ionized into a plasma that is capable of conducting hundreds of amperes of current, massively increasing the damaging effect of the short circuit. [ 12 ] The possible increase in the use of pure tin in electronics due to the RoHS directive drove the Joint Electron Device Engineering Council (JEDEC) and IPC electronic trade association to release a tin whisker acceptance testing standard and mitigation practices guideline intended to help manufacturers reduce the risk of tin whiskers in lead-free products. [ 13 ] 
+ Silver whiskers often appear in conjunction with a layer of silver sulfide , which forms on the surface of silver electrical contacts operating in an atmosphere rich in hydrogen sulfide and high humidity . Such atmospheres can exist in sewage treatment plants and paper mills . 
+ Whiskers over 20   micrometres (μm) in length were observed on gold-plated surfaces and noted in a 2003 NASA internal memorandum. [ 14 ] 
+ Mitigation and elimination [ edit ] 
+ Several approaches are used to reduce or eliminate whisker growth, with ongoing research in the area. 
+ Conformal coatings [ edit ] 
+ Conformal compound coatings stop the whiskers from penetrating a barrier, reaching a nearby termination and forming a short. [ 12 ] 
+ Altering plating chemistry [ edit ] 
+ Termination finishes of nickel, gold or palladium have been shown to eliminate whisker formation in controlled trials. [ 15 ] 
+ Tin whisker examples and incidents [ edit ] 
+ Galaxy IV [ edit ] 
+ Galaxy IV was a telecommunications satellite that was disabled and lost due to short circuits caused by tin whiskers in 1998. It was initially thought that space weather contributed to the failure, but later it was discovered that a conformal coating had been misapplied, allowing whiskers to form in the pure tin plating, find their way through a missing coating area, and cause a failure of the main control computer. The manufacturer, Hughes, has moved to nickel plating, rather than tin, to reduce the risk of whisker growth. The trade-off has been an increase in weight, adding 50 to 100 kilograms (110 to 220   lb) per payload. [ 16 ] 
+ Millstone Nuclear Power Plant [ edit ] 
+ On April 17, 2005, the Millstone Nuclear Power Plant in Connecticut was shut down due to a "false alarm" that indicated an unsafe pressure drop in the reactor's steam system when the steam pressure was actually nominal. The false alarm was caused by a tin whisker that short circuited the logic board responsible for monitoring the steam pressure lines in the power plant. [ 17 ] 
+ Toyota accelerator position sensors false positive [ edit ] 
+ In September 2011, three NASA investigators claimed that they identified tin whiskers on the accelerator position sensors [ 18 ] of sampled Toyota Camry models that could contribute to the "stuck accelerator" crashes affecting certain Toyota models during 2005–2010. [ 19 ] This contradicted an earlier 10-month joint investigation by the National Highway Traffic Safety Administration (NHTSA) and a large group of other NASA researchers that found no electronic defects. [ 20 ] 
+ In 2012, NHTSA maintained: "We do not believe that tin whiskers are a plausible explanation for these incidents...[the likely cause was] pedal misapplication ." [ 21 ] 
+ Toyota also maintains that tin whiskers were not the cause of any stuck accelerator issues: "In the words of U.S. Transportation Secretary Ray LaHood, 'The verdict is in. There is no electronic-based cause for unintended high-speed acceleration in Toyotas. Period. ' " According to a Toyota press release, "no data indicates that tin whiskers are more prone to occur in Toyota vehicles than any other vehicle in the marketplace." Toyota also states that "their systems are designed to reduce the risk that tin whiskers will form in the first place." [ 22 ] 
+ See also [ edit ] 
+ Wikimedia Commons has media related to Whiskers (metal) . 
+ Monocrystalline whisker 
+ Dendrite (metal) 
+ Crystal growth 
+ Gold-aluminium intermetallic 
+ Impurity 
+ References [ edit ] 
+ ↑ Lyudmyla Panashchenko. "Whisker Resistant Metal Coatings" (PDF) . NEPP NASA . Retrieved 23 October 2013 . 
+ ↑ Craig Hillman; Gregg Kittlesen & Randy Schueller. "A New (Better) Approach to Tin Whisker Mitigation" (PDF) . DFR Solutions . Retrieved 23 October 2013 . 
+ ↑ Karpov, V. G. (2014-05-15). "Electrostatic Theory of Metal Whiskers" . Physical Review Applied . 1 (4) 044001. arXiv : 1401.7689 . Bibcode : 2014PhRvP...1d4001K . doi : 10.1103/PhysRevApplied.1.044001 . S2CID   118446963 . 
+ ↑ Borra, Vamsi; Itapu, Srikanth; Karpov, Victor G.; Georgiev, Daniel G. (2022-02-01). "Modification of Tin (Sn) metal surfaces by surface plasmon polariton excitation" . Scripta Materialia . 208 114357. arXiv : 2310.18495 . doi : 10.1016/j.scriptamat.2021.114357 . ISSN   1359-6462 . S2CID   240093482 . 
+ ↑ Sun, Yong; Hoffman, Elizabeth N.; Lam, Poh-Sang; Li, Xiaodong (2011). "Evaluation of local strain evolution from metallic whisker formation" . Scripta Materialia . 65 (5): 388– 391. doi : 10.1016/j.scriptamat.2011.05.007 . 
+ ↑ George T. Galyon. "A History of Tin Whisker Theory: 1946 to 2004" (PDF) . iNEMI . Retrieved 21 December 2012 . 
+ ↑ "Whisker Effect" . INELCO . Archived from the original on September 17, 2008 . Retrieved 5 January 2011 . 
+ ↑ Brusse, Jay (April 2, 2003). "Zinc Whiskers. Could Zinc Whiskers Be Impacting Your Electronics?" (PDF) . NASA . Retrieved December 24, 2022 . 
+ ↑ Quinnell, Richard (2005-09-01). "Tackling tin whisker test" . EDN . Retrieved 2022-12-25 . 
+ ↑ "Event Notification Report for July 12, 1999" . U.S. Nuclear Regulatory Commission . Retrieved 21 December 2012 . 
+ ↑ "ITG Subject: Tin Whiskers – Problem, Causes, and Solutions" . Food and Drug Administration. 1986-03-14. Archived from the original on October 18, 2007 . Retrieved 21 December 2012 . 
+ 1 2 Jay Brusse; Henning Leidecker; Lyudmyla Panashchenko (December 5, 2007). "Metal Whiskers: Failure Modes and Mitigation Strategies" (PDF) . NASA . Retrieved 21 December 2012 . 
+ ↑ "JEDEC and IPC Release Tin Whisker Acceptance Testing Standard and Mitigation Practices Guideline" . JEDEC.org . 4 May 2006 . Retrieved 5 January 2011 . 
+ ↑ Alexander Teverovsky (April 2003). "Introducing a New Member to the Family: Gold Whiskers" (PDF) . NASA . Retrieved 21 December 2012 . 
+ ↑ Keun-Soo Kim, Suk-Sik Kim, Seong-Jun Kim, Katusaki Suganuma, ISIR, Osaka University, Masanobu Tsujimoto, Isamu Yanad, C. Uyemura & Co., Ltd., Prevention of Sn whisker formation by surface treatment of Sn plating Part II , TMS Annual Meeting, 2008 
+ ↑ Felps, Bruce. " 'Whiskers' Caused Satellite Failure: Galaxy IV Outage Blamed On Interstellar Phenomenon" . Archived from the original on March 3, 2009 . Retrieved 19 October 2019 . 
+ ↑ "Reactor Shutdown: Dominion Learns Big Lesson From A Tiny 'tin Whisker' " (PDF) . 
+ ↑ "Treatise" (PDF) . nepp.nasa.gov . 
+ ↑ Bunkley, Nick (27 March 2018). "Toyota Issues a 2nd Recall Over Accelerators" . The New York Times . 
+ ↑ "U.S. Department of Transportation Releases Results from NHTSA-NASA Study of Unintended Acceleration in Toyota Vehicles" . nhtsa.gov. Archived from the original on Dec 23, 2016 . Retrieved July 28, 2025 . 
+ ↑ "NHTSA rejects 'tin whiskers' theory for Toyota's unintended acceleration incidents" . Automotive News . 27 July 2012 . Retrieved 14 November 2014 . 
+ ↑ " 'Tin Whiskers' and Other Discredited Unintended Acceleration Theories" . Toyota. 24 January 2012 . Retrieved 29 September 2019 . 
+ External links [ edit ] 
+ Images of silver whiskers NASA 
+ Authority control databases : National Japan 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Whisker_(metallurgy)&oldid=1314654184 " 
+ Categories : Electronic engineering Metallurgy Soldering defects Hidden categories: Articles with short description Short description is different from Wikidata CS1: unfit URL Commons category link is on Wikidata 
+ This page was last edited on 2 October 2025, at 15:35  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Whisker (metallurgy) 
+ 14 languages 
+ Add topic 
+ 

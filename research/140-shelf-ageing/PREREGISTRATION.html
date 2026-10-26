@@ -1,0 +1,21 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究140 事前登録（2026-10-26 21:41 JST、本回の資料を開く前・sim.py を書く前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="140-2026-10-26-2141-jstsimpy">研究140 事前登録（2026-10-26 21:41 JST、本回の資料を開く前・sim.py を書く前）</h1>
+<p>注：a・L_T3・状態の割合・ΔV は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+<h2 id="open_problems-322">課題（open_problems 322）</h2>
+<p>139 の模型で L_T3 を決めるのは保管の老化 a（無通電の予備が使用中の何倍の速さで劣化するか）だけだった。
+部品の型ごと（電解コンデンサ、IC、SSD、HDD）に、公開の資料が示す主な劣化の機構が無通電でも進むか、進むなら温度・時間の則から a を置き、
+139 の sim.py の L_T3 と 032 の NUC_G の重み付き ΔV を置き直す。</p>
+<h2 id="_1">方法</h2>
+<ul>
+<li>機構ごとに a = (保管条件での劣化の速さ)/(使用条件での速さ)。温度則（10 度で 2 倍など）が資料にあれば保管 25°C・使用 45°C（139 と同じ）で計算。
+  機構が通電・電圧・電流を要するなら a=0、無通電でも進む別の機構（例：はんだのウィスカー、湿気）があれば別に扱い、資料がなければ版として幅で置く。</li>
+<li>可逆な劣化（コンデンサの再化成で戻る漏れ電流など）は部品の死に数えない版と数える版を併記。</li>
+<li>139 の L_T3 関数を import して a の型ごとの値で再計算。032 は 139 と同じ写し方で再実行し、139 の結果の再現を assert。</li>
+</ul>
+<h2 id="_2">確認的な仮説（資料を開く前）</h2>
+<ul>
+<li>H152a：電解コンデンサの不可逆の摩耗（電解液の減少）の a は 0.3 未満。</li>
+<li>H152b：IC の主な故障機構の a は 0.1 未満（通電が要る）。</li>
+<li>H152c：資料で置いた a の主の版で L_T3 ≥ 80 年（T3 側）、NUC_G の重い崩壊 &lt; 0.05。</li>
+<li>H152d：資料で置いた a の主の版で L_T3 を決める部品は電解コンデンサ。</li>
+</ul>
+<h2 id="h152c-l_t3-100-139-a03-103">予測：H152c の L_T3 は 100 年台（139 の a=0.3 の 103 年に近い）。</h2><footer><hr><small>自動生成</small></footer></body></html>

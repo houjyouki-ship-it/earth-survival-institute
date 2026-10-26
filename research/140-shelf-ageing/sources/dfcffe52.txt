@@ -1,0 +1,1245 @@
+ 
+ Flash memory - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ History 
+ Toggle History subsection 
+ 1.1 
+ Background 
+ 1.2 
+ Invention and commercialization 
+ 1.3 
+ Later developments 
+ 1.3.1 
+ Charge trap flash 
+ 1.3.2 
+ 3D integrated circuit technology 
+ 2 
+ Principles of operation 
+ Toggle Principles of operation subsection 
+ 2.1 
+ Floating-gate MOSFET 
+ 2.2 
+ Fowler–Nordheim tunneling 
+ 2.3 
+ Internal charge pumps 
+ 2.4 
+ NOR flash 
+ 2.4.1 
+ Programming 
+ 2.4.2 
+ Erasing 
+ 2.5 
+ NAND flash 
+ 2.5.1 
+ Writing and erasing 
+ 2.6 
+ Vertical NAND 
+ 2.6.1 
+ Structure 
+ 2.6.2 
+ Construction 
+ 2.6.3 
+ Performance 
+ 2.6.4 
+ Cost 
+ 3 
+ Limitations 
+ Toggle Limitations subsection 
+ 3.1 
+ Block erasure 
+ 3.2 
+ Data retention 
+ 3.3 
+ Memory wear 
+ 3.4 
+ Read disturb 
+ 3.5 
+ X-ray effects 
+ 4 
+ Low-level access 
+ Toggle Low-level access subsection 
+ 4.1 
+ NOR memories 
+ 4.2 
+ NAND memories 
+ 4.3 
+ Standardization 
+ 5 
+ Distinction between NOR and NAND flash 
+ Toggle Distinction between NOR and NAND flash subsection 
+ 5.1 
+ Write endurance 
+ 6 
+ Flash file systems 
+ 7 
+ Capacity 
+ 8 
+ Transfer rates 
+ 9 
+ Applications 
+ Toggle Applications subsection 
+ 9.1 
+ Serial flash 
+ 9.1.1 
+ Firmware storage 
+ 9.2 
+ Flash memory as a replacement for hard drives 
+ 9.3 
+ Flash memory as RAM 
+ 9.4 
+ Archival or long-term storage 
+ 9.4.1 
+ Data retention 
+ 9.5 
+ FPGA configuration 
+ 10 
+ Industry 
+ Toggle Industry subsection 
+ 10.1 
+ Manufacturers 
+ 10.2 
+ Shipments 
+ 11 
+ Flash scalability 
+ Toggle Flash scalability subsection 
+ 11.1 
+ Timeline 
+ 12 
+ See also 
+ 13 
+ Explanatory notes 
+ 14 
+ References 
+ 15 
+ External links 
+ Toggle the table of contents 
+ Flash memory 
+ 63 languages 
+ Afrikaans العربية Azərbaycanca Беларуская Български বাংলা Bosanski Català Čeština Dansk Deutsch Zazaki Ελληνικά Esperanto Español Eesti Euskara فارسی Suomi Français Galego עברית हिन्दी Hrvatski Magyar Հայերեն Interlingua Bahasa Indonesia Italiano 日本語 Jawa Qaraqalpaqsha Қазақша 한국어 Latina Lietuvių Latviešu Олык марий Bahasa Melayu Nederlands Norsk bokmål Polski Português Runa Simi Română Русский Srpskohrvatski / српскохрватски Simple English Slovenčina Slovenščina Shqip Српски / srpski Svenska தமிழ் ไทย Türkçe Українська اردو Oʻzbekcha / ўзбекча Tiếng Việt 吴语 粵語 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Electronic non-volatile computer storage device 
+ "FlashROM" redirects here. For programming utility, see Flashrom (utility) . Flash memory A collection of non-volatile flash memory storage formats, including various sizes of Secure Digital (SD) and CompactFlash cards. Media type Solid-state storage / Non-volatile memory Capacity Megabytes to several Terabytes Block   size Erased in sectors or blocks (typically 4 KB to 4 MB); read/written at the page/byte level Read   mechanism Fast (slower than RAM, significantly faster than mechanical hard drives) Write   mechanism Fast sequential; limited by blocks needing an explicit erase phase before being overwritten For the neuropsychological concept related to human memory, see Flashbulb memory . 
+ A disassembled USB flash drive in 2005. The chip on the left is flash memory. The Silicon Motion controller is on the right. 
+ Computer memory and data storage types 
+ General 
+ Memory cell 
+ Memory coherence 
+ Cache coherence 
+ Memory hierarchy 
+ Memory access pattern 
+ Memory map 
+ Secondary storage 
+ MOS memory 
+ floating-gate 
+ Continuous availability 
+ Areal density (computer storage) 
+ Block (data storage) 
+ Object storage 
+ Direct-attached storage 
+ Network-attached storage 
+ Storage area network 
+ Block-level storage 
+ Single-instance storage 
+ Data 
+ Structured data 
+ Unstructured data 
+ Big data 
+ Metadata 
+ Data compression 
+ Data corruption 
+ Data cleansing 
+ Data degradation 
+ Data integrity 
+ Data security 
+ Data validation 
+ Data validation and reconciliation 
+ Data recovery 
+ Storage 
+ Data cluster 
+ Directory 
+ Shared resource 
+ File sharing 
+ File system 
+ Clustered file system 
+ Distributed file system 
+ Distributed file system for cloud 
+ Distributed data store 
+ Distributed database 
+ Database 
+ Data bank 
+ Data storage 
+ Data store 
+ Data deduplication 
+ Data structure 
+ Data redundancy 
+ Replication (computing) 
+ Memory refresh 
+ Storage record 
+ Information repository 
+ Knowledge base 
+ Computer file 
+ Object file 
+ File deletion 
+ File copying 
+ Backup 
+ Core dump 
+ Hex dump 
+ Data communication 
+ Information transfer 
+ Temporary file 
+ Copy protection 
+ Digital rights management 
+ Volume (computing) 
+ Boot sector 
+ Master boot record 
+ Volume boot record 
+ GUID Partition Table 
+ Disk array 
+ Disk image 
+ Disk mirroring 
+ Disk aggregation 
+ Disk partitioning 
+ Memory segmentation 
+ Locality of reference 
+ Logical disk 
+ Storage virtualization 
+ Virtual memory 
+ Memory-mapped file 
+ Software entropy 
+ Software rot 
+ In-memory database 
+ In-memory processing 
+ Persistence (computer science) 
+ Persistent data structure 
+ RAID 
+ Non-RAID drive architectures 
+ Memory paging 
+ Bank switching 
+ Grid computing 
+ Cloud computing 
+ Cloud storage 
+ Fog computing 
+ Edge computing 
+ Dew computing 
+ Amdahl's law 
+ Moore's law 
+ Kryder's law 
+ Volatile 
+ RAM 
+ Hardware cache 
+ CPU cache 
+ Scratchpad memory 
+ DRAM 
+ eDRAM 
+ SDRAM 
+ SGRAM 
+ DDR 
+ GDDR 
+ LPDDR 
+ QDRSRAM 
+ EDO DRAM 
+ XDR DRAM 
+ RDRAM 
+ HBM 
+ SRAM 
+ 1T-SRAM 
+ ReRAM 
+ QRAM 
+ Content-addressable memory (CAM) 
+ Computational RAM 
+ VRAM 
+ Dual-ported RAM 
+ Video RAM (dual-ported DRAM) 
+ Historical 
+ Williams–Kilburn tube (1946–1947) 
+ Delay-line memory (1947) 
+ Mellon optical memory (1951) 
+ Selectron tube (1952) 
+ Dekatron 
+ T-RAM (2009) 
+ Z-RAM (2002–2010) 
+ Non-volatile 
+ ROM 
+ Diode matrix 
+ MROM 
+ PROM 
+ EPROM 
+ EEPROM 
+ ROM cartridge 
+ Solid-state storage (SSS)
+ Flash memory is used in: 
+ Solid-state drive (SSD) 
+ Solid-state hybrid drive (SSHD) 
+ USB flash drive 
+ IBM FlashSystem 
+ Flash Core Module 
+ Memory card 
+ Memory Stick 
+ CompactFlash 
+ PC Card 
+ MultiMediaCard 
+ SD card 
+ SIM card 
+ SmartMedia 
+ Universal Flash Storage 
+ SxS 
+ MicroP2 
+ XQD card 
+ Programmable metallization cell 
+ NVRAM 
+ Memistor 
+ Memristor 
+ PCM ( 3D XPoint ) 
+ MRAM 
+ Electrochemical RAM (ECRAM) 
+ Nano-RAM 
+ CBRAM 
+ Early-stage NVRAM 
+ FeRAM 
+ ReRAM 
+ FeFET memory 
+ Analog recording 
+ Phonograph cylinder 
+ Phonograph record 
+ Quadruplex videotape 
+ Vision Electronic Recording Apparatus 
+ Magnetic recording 
+ Magnetic storage 
+ Magnetic tape 
+ Magnetic-tape data storage 
+ Tape drive 
+ Tape library 
+ Digital Data Storage (DDS) 
+ Videotape 
+ Cassette tape 
+ Linear Tape-Open 
+ Betamax 
+ 8 mm video format 
+ DV 
+ MiniDV 
+ MicroMV 
+ U-matic 
+ VHS 
+ S-VHS 
+ VHS-C 
+ D-VHS 
+ Hard disk drive 
+ Optical 
+ 3D optical data storage 
+ Optical disc 
+ LaserDisc 
+ Compact Disc Digital Audio (CDDA) 
+ CD 
+ CD Video 
+ CD-R 
+ CD-RW 
+ Video CD 
+ Super Video CD 
+ Mini CD 
+ Nintendo optical discs 
+ CD-ROM 
+ Hyper CD-ROM 
+ DVD 
+ DVD+R 
+ DVD-Video 
+ DVD card 
+ DVD-RAM 
+ MiniDVD 
+ HD DVD 
+ Blu-ray 
+ Ultra HD Blu-ray 
+ Holographic Versatile Disc 
+ WORM 
+ In development 
+ CBRAM 
+ Racetrack memory 
+ NRAM 
+ Millipede memory 
+ ECRAM 
+ Patterned media 
+ Holographic data storage 
+ Electronic quantum holography 
+ 5D optical data storage 
+ DNA digital data storage 
+ Universal memory 
+ Time crystal 
+ Quantum memory 
+ UltraRAM 
+ Historical 
+ Paper data storage (1725) 
+ Punched card (1725) 
+ Punched tape (1725) 
+ Plugboard 
+ Drum memory (1932) 
+ Magnetic-core memory (1949) 
+ Plated-wire memory (1957) 
+ Core rope memory (1960s) 
+ Thin-film memory (1962) 
+ Disk pack (1962) 
+ Twistor memory (~1968) 
+ Bubble memory (~1970) 
+ Floppy disk (1971) 
+ v t e 
+ Flash memory is an electronic non-volatile computer memory storage medium that can be electrically erased and reprogrammed. The two main types of flash memory, NOR flash and NAND flash , are named for the NOR and NAND logic gates . Both of these use the same cell design, consisting of floating-gate MOSFETs . They differ at the circuit level, depending on whether the state of the bit line or word lines is pulled high or low; in NAND flash, the relationship between the bit line and the word lines resembles a NAND gate; in NOR flash, it resembles a NOR gate. 
+ Flash memory, a type of floating-gate memory, was invented by Fujio Masuoka at Toshiba in 1980 and is based on EEPROM technology. Toshiba began marketing flash memory in 1987. [ 1 ] EPROMs had to be erased completely before they could be rewritten. NAND flash memory, however, may be erased, written, and read in blocks (or pages), which generally are much smaller than the entire device. NOR flash memory allows a single machine word to be written   – to an erased location   – or read independently. A flash memory device typically consists of one or more flash memory chips (each holding many flash memory cells), along with a separate flash memory controller chip. 
+ The NAND type is found mainly in memory cards , USB flash drives , solid-state drives (those produced since 2009), feature phones , smartphones , and similar products, for general storage and transfer of data. NAND or NOR flash memory is also often used to store configuration data in digital products, a task previously made possible by EEPROM or battery-powered static RAM . A key disadvantage of flash memory is that it can endure only a relatively small number of write cycles in a specific block. [ 2 ] 
+ NOR flash is known for its direct random-access capabilities, making it apt for executing code directly. Its architecture allows for individual byte access, facilitating faster read speeds compared to NAND flash. NAND flash memory operates with a different architecture, relying on a serial access approach. This makes NAND suitable for high-density data storage, but less efficient for random-access tasks. NAND flash is often employed in scenarios where cost-effective, high-capacity storage is crucial, such as in USB drives, memory cards, and solid-state drives ( SSDs ). 
+ The primary differentiator lies in their use cases and internal structures. NOR flash is optimal for applications requiring quick access to individual bytes, as in embedded systems for program execution. NAND flash, on the other hand, shines in scenarios demanding cost-effective, high-capacity storage with sequential data access. 
+ Flash memory [ 3 ] is used in computers , PDAs , digital audio players , digital cameras , mobile phones , synthesizers , video games , scientific instrumentation , industrial robotics , and medical electronics . Flash memory has a fast read access time but is not as fast as static RAM or ROM. In portable devices, it is preferred to use flash memory because of its mechanical shock resistance, since mechanical drives are more prone to mechanical damage. [ 4 ] 
+ Because erase cycles are slow, the large block sizes used in flash memory erasing give it a significant speed advantage over non-flash EEPROM when writing large amounts of data. As of 2019 , [ update ] flash memory costs much less than byte-programmable EEPROM and has become the dominant memory type wherever a system required a significant amount of non-volatile solid-state storage . EEPROMs, however, are still used in applications that require only small amounts of storage, e.g. in SPD implementations on computer-memory modules. [ 5 ] [ 6 ] 
+ Flash memory packages can use die stacking with through-silicon vias and several dozen layers of 3D TLC NAND cells (per die) simultaneously to achieve capacities of up to 1 tebibyte per package using 16 stacked dies and an integrated flash controller as a separate die inside the package. [ 7 ] [ 8 ] [ 9 ] [ 10 ] 
+ History [ edit ] 
+ Background [ edit ] 
+ The origins of flash memory can be traced to the development of the floating-gate MOSFET (FGMOS) , also known as the floating-gate transistor. [ 11 ] [ 12 ] The original MOSFET was invented at Bell Labs between 1959 and 1960. [ 13 ] [ 14 ] Dawon Kahng went on to develop a variation, the floating-gate MOSFET, with Taiwanese-American engineer Simon Min Sze at Bell Labs in 1967. [ 15 ] They proposed that it could be used as floating-gate memory cells for storing a form of programmable read-only memory ( PROM ) that is both non-volatile and re-programmable. [ 15 ] 
+ Early types of floating-gate memory included EPROM (erasable PROM) and EEPROM (electrically erasable PROM) in the 1970s. [ 15 ] However, early floating-gate memory required engineers to build a memory cell for each bit of data, which proved to be cumbersome, [ 16 ] slow, [ 17 ] and expensive, restricting floating-gate memory to niche applications in the 1970s, such as military equipment and the earliest experimental mobile phones . [ 11 ] 
+ Modern EEPROM based on Fowler-Nordheim tunnelling to erase data was invented by Bernward and patented by Siemens in 1974. [ 18 ] It was further developed between 1976 and 1978 by Eliyahou Harari at Hughes Aircraft Company , as well as by George Perlegos and others at Intel. [ 19 ] [ 20 ] 
+ Invention and commercialization [ edit ] 
+ Fujio Masuoka invented flash memory at Toshiba in 1980. [ 16 ] [ 21 ] [ 22 ] The improvement between EEPROM and flash is that flash is programmed in blocks while EEPROM is programmed in bytes. According to Toshiba, the name "flash" was suggested by Masuoka's colleague, Shōji Ariizumi, because the erasure process of the memory contents reminded him of the flash of a camera . [ 23 ] Masuoka and colleagues presented the invention of NOR flash in 1984, [ 24 ] [ 25 ] and then NAND flash at the IEEE 1987 International Electron Devices Meeting (IEDM) held in San Francisco. [ 26 ] 
+ Toshiba commercially launched NAND flash memory in 1987. [ 1 ] [ 15 ] Intel Corporation introduced the first commercial NOR type flash chip in 1988. [ 27 ] NOR-based flash has long erase and write times, but provides full address and data buses , allowing random access to any memory location . This makes it a suitable replacement for older read-only memory (ROM) chips, which are used to store program code that rarely needs to be updated, such as a computer's BIOS or the firmware of set-top boxes . Its endurance may be from as little as 100 erase cycles for an on-chip flash memory, [ 28 ] to a more typical 10,000 or 100,000 erase cycles, up to 1,000,000 erase cycles. [ 29 ] NOR-based flash was the basis of early flash-based removable media; CompactFlash was originally based on it, although later cards moved to less expensive NAND   flash. 
+ NAND flash has reduced erase and write times, and requires less chip area per cell, thus allowing greater storage density and lower cost per bit than NOR   flash. However, the I/O interface of NAND   flash does not provide a random-access external address bus. Rather, data must be read on a block-wise basis, with typical block sizes of hundreds to thousands of bits. This makes NAND   flash unsuitable as a drop-in replacement for program ROM, since most microprocessors and microcontrollers require byte-level random access. In this regard, NAND   flash is similar to other secondary data storage devices , such as hard disks and optical media , and is thus highly suitable for use in mass-storage devices, such as memory cards and solid-state drives (SSD). For example, SSDs store data using multiple NAND flash memory chips. 
+ The first NAND-based removable memory card format was SmartMedia , released in 1995. Many others followed, including MultiMediaCard , Secure Digital , Memory Stick , and xD-Picture Card . 
+ Later developments [ edit ] 
+ A new generation of memory card formats, including RS-MMC , miniSD and microSD , feature extremely small form factors. For example, the microSD card has an area of just over 1.5   cm 2 , with a thickness of less than 1   mm. 
+ NAND flash has achieved significant levels of memory density as a result of several major technologies that were commercialized during the late 2000s to early 2010s. [ 30 ] 
+ NOR flash was the most common type of Flash memory sold until 2005, when NAND flash overtook NOR flash in sales. [ 31 ] 
+ Multi-level cell (MLC) technology stores more than one bit in each memory cell . NEC demonstrated multi-level cell (MLC) technology in 1998, with an 80   Mb flash memory chip storing 2 bits per cell. [ 32 ] STMicroelectronics also demonstrated MLC in 2000, with a 64   MB NOR flash memory chip. [ 33 ] In 2009, Toshiba and SanDisk introduced NAND flash chips with QLC technology storing 4 bits per cell and holding a capacity of 64   Gb. [ 34 ] [ 35 ] Samsung Electronics introduced triple-level cell (TLC) technology storing 3-bits per cell, and began mass-producing NAND chips with TLC technology in 2010. [ 36 ] 
+ Charge trap flash [ edit ] 
+ Main article: Charge trap flash 
+ Charge trap flash (CTF) technology replaces the polysilicon floating gate, which is sandwiched between a blocking gate oxide above and a tunneling oxide below it, with an electrically insulating silicon nitride layer; the silicon nitride layer traps electrons. In theory, CTF is less prone to electron leakage, providing improved data retention. [ 37 ] [ 38 ] [ 39 ] [ 40 ] [ 41 ] [ 42 ] 
+ Because CTF replaces the polysilicon with an electrically insulating nitride, it allows for smaller cells and higher endurance (lower degradation or wear). However, electrons can become trapped and accumulate in the nitride, leading to degradation. Leakage is exacerbated at high temperatures since electrons become more excited with increasing temperatures. CTF technology, however, still uses a tunneling oxide and blocking layer, which are the weak points of the technology, since they can still be damaged in the usual ways (the tunnel oxide can be degraded due to extremely high electric fields and the blocking layer due to Anode Hot Hole Injection (AHHI). [ 43 ] [ 44 ] 
+ Degradation or wear of the oxides is the reason why flash memory has limited endurance. Data retention goes down (the potential for data loss increases) with increasing degradation, since the oxides lose their electrically-insulating characteristics as they degrade. The oxides must insulate against electrons to prevent them from leaking, which would cause data loss. 
+ In 1991, NEC researchers, including N. Kodama, K. Oyama and Hiroki Shirai, described a type of flash memory with a charge-trap method. [ 45 ] In 1998, Boaz Eitan of Saifun Semiconductors (later acquired by Spansion ) patented a flash memory technology named NROM that took advantage of a charge trapping layer to replace the conventional floating gate used in conventional flash memory designs. [ 46 ] In 2000, an Advanced Micro Devices (AMD) research team led by Richard M. Fastow, Egyptian engineer Khaled Z. Ahmed and Jordanian engineer Sameer Haddad (who later joined Spansion) demonstrated a charge-trapping mechanism for NOR flash memory cells. [ 47 ] CTF was later commercialized by AMD and Fujitsu in 2002. [ 48 ] 3D V-NAND (vertical NAND) technology stacks NAND flash memory cells vertically within a chip using 3D charge trap flash (CTP) technology. 3D V-NAND technology was first announced by Toshiba in 2007, [ 49 ] and the first device, with 24 layers, was commercialized by Samsung Electronics in 2013. [ 50 ] [ 51 ] 
+ 3D integrated circuit technology [ edit ] 
+ 3D integrated circuit (3D IC) technology stacks integrated circuit (IC) chips vertically into a single 3D IC package. [ 30 ] Toshiba introduced 3D IC technology to NAND flash memory in April 2007, when they debuted a 16   GB eMMC compliant (product number THGAM0G7D8DBAI6, often abbreviated THGAM on consumer websites) embedded NAND flash memory package, which was manufactured with eight stacked 2   GB NAND flash chips. [ 52 ] In September 2007, Hynix Semiconductor (now SK Hynix ) introduced 24-layer 3D IC technology, with a 16   GB flash memory package that was manufactured with 24 stacked NAND flash chips using a wafer bonding process. [ 53 ] Toshiba also used an eight-layer 3D IC for their 32   GB THGBM flash package and in 2008. [ 54 ] In 2010, Toshiba used a 16-layer 3D IC for their 128   GB THGBM2 flash package, which was manufactured with 16 stacked 8   GB chips. [ 55 ] In the 2010s, 3D ICs came into widespread commercial use for NAND flash memory in mobile devices . [ 30 ] 
+ In 2016, Micron and Intel introduced a technology known as CMOS Under the Array/CMOS Under Array (CUA), Core over Periphery (COP), Periphery Under Cell (PUA), or Xtacking, [ 56 ] in which the control circuitry for the flash memory is placed under or above the flash memory cell array. This has allowed for an increase in the number of planes or sections a flash memory chip has, increasing from two planes to four, without increasing the area dedicated to the control or periphery circuitry. This increases the number of IO operations per flash chip or die, but it also introduces challenges when building capacitors for charge pumps used to write to the flash memory. [ 57 ] [ 58 ] [ 59 ] Some flash dies have as many as 6 planes. [ 60 ] 
+ As of August 2017, microSD cards with a capacity up to 400 GB (400 billion bytes) were available. [ 61 ] [ 62 ] Samsung combined 3D IC chip stacking with its 3D V-NAND and TLC technologies to manufacture its 512   GB KLUFG8R1EM flash memory package with eight stacked 64-layer V-NAND chips. [ 8 ] In 2019, Samsung produced a 1024   GB flash package, with eight stacked 96-layer V-NAND package and with QLC technology. [ 63 ] [ 64 ] The first 1 TB eUFS flash memory device for smartphones was introduced in 2019. [ 65 ] 
+ In 2025, researchers announced experimental success with a device having a 400-picosecond write time. [ 66 ] 
+ Principles of operation [ edit ] 
+ A flash memory cell 
+ Flash memory stores information in an array of memory cells made from floating-gate transistors . In single-level cell (SLC) devices, each cell stores only one bit of information. Multi-level cell (MLC) devices, including triple-level cell (TLC) devices, can store more than one bit per cell. 
+ The floating gate may be conductive (typically polysilicon in most kinds of flash memory) or non-conductive (as in SONOS flash memory). [ 67 ] 
+ Floating-gate MOSFET [ edit ] 
+ Main article: Floating-gate MOSFET 
+ In flash memory, each memory cell resembles a standard metal–oxide–semiconductor field-effect transistor (MOSFET) except that the transistor has two gates instead of one. The cells can be seen as an electrical switch in which current flows between two terminals (source and drain) and is controlled by a floating gate (FG) and a control gate (CG). The CG is similar to the gate in other MOS transistors, but below this is the FG, which is insulated all around by an oxide layer. The FG is interposed between the CG and the MOSFET channel. Because the FG is electrically isolated by its insulating layer, electrons placed on it are trapped. When the FG is charged with electrons, this charge screens the electric field from the CG, thus increasing the threshold voltage (V T ) of the cell. This means that the V T of the cell can be changed between the uncharged FG threshold voltage (V T1 ) and the higher charged FG threshold voltage (V T2 ) by changing the FG charge. In order to read a value from the cell, an intermediate voltage (V I ) between V T1 and V T2 is applied to the CG. If the channel conducts at V I , the FG must be uncharged (if it were charged, there would not be conduction because V I is less than V T2 ). If the channel does not conduct at the V I , it indicates that the FG is charged. The binary value of the cell is sensed by determining whether there is current flowing through the transistor when V I is asserted on the CG. In a multi-level cell device, which stores more than one bit per cell, the amount of current flow is sensed (rather than simply its presence or absence), in order to determine more precisely the level of charge on the FG. 
+ Floating gate MOSFETs are so named because there is an electrically insulating tunnel oxide layer between the floating gate and the silicon, so the gate "floats" above the silicon. The oxide keeps the electrons confined to the floating gate. Degradation or wear (and the limited endurance of floating gate Flash memory) occurs due to the extremely high electric field (10 million volts per centimeter) experienced by the oxide. Such high voltage densities can break atomic bonds over time in the relatively thin oxide, gradually degrading its electrically insulating properties and allowing electrons to be trapped in and pass through freely (leak) from the floating gate into the oxide, increasing the likelihood of data loss since the electrons (the quantity of which is used to represent different charge levels, each assigned to a different combination of bits in MLC Flash) are normally in the floating gate. This is why data retention goes down and the risk of data loss increases with increasing degradation. [ 68 ] [ 69 ] [ 41 ] [ 70 ] [ 71 ] The silicon oxide in a cell degrades with every erase operation. The degradation increases the amount of negative charge in the cell over time due to trapped electrons in the oxide and negates some of the control gate voltage. Over time, this also makes erasing the cell slower; to maintain the performance and reliability of the NAND chip, the cell must be retired from use. Endurance also decreases with the number of bits in a cell. With more bits in a cell, the number of possible states (each represented by a different voltage level) in a cell increases and is more sensitive to the voltages used for programming. Voltages may be adjusted to compensate for degradation of the silicon oxide, and as the number of bits increases, the number of possible states also increases and thus the cell is less tolerant of adjustments to programming voltages, because there is less space between the voltage levels that define each state in a cell. [ 72 ] 
+ Fowler–Nordheim tunneling [ edit ] 
+ Main article: Fowler–Nordheim tunneling 
+ The process of moving electrons from the control gate and into the floating gate is called Fowler–Nordheim tunneling , and it fundamentally changes the characteristics of the cell by increasing the MOSFET's threshold voltage. This, in turn, changes the drain-source current that flows through the transistor for a given gate voltage, which is ultimately used to encode a binary value. The Fowler-Nordheim tunneling effect is reversible, so electrons can be added to or removed from the floating gate, processes traditionally known as writing and erasing. [ 73 ] 
+ Internal charge pumps [ edit ] 
+ Despite the need for relatively high programming and erasing voltages, virtually all flash chips today require only a single supply voltage and produce the high voltages that are required using on-chip charge pumps . 
+ Over half the energy used by a 1.8   V-NAND flash chip is lost in the charge pump itself. Since boost converters are inherently more efficient than charge pumps, researchers developing low-power SSDs have proposed returning to the dual Vcc/Vpp supply voltages used on all early flash chips, driving the high Vpp voltage for all flash chips in an SSD with a single shared external boost converter. [ 74 ] [ 75 ] [ 76 ] [ 77 ] [ 78 ] [ 79 ] [ 80 ] [ 81 ] 
+ In spacecraft and other high-radiation environments, the on-chip charge pump is the first part of the flash chip to fail, although flash memories will continue to work   – in read-only mode   – at much higher radiation levels. [ 82 ] 
+ NOR flash [ edit ] 
+ NOR flash memory wiring and structure on silicon 
+ In both NOR and NAND flash memories, the cells are arranged in a grid. We can think of the memory as consisting of "words" of a certain number of bits (or cells), with each word being confined to a particular column of the grid, and the bits being in different rows. All the bits of a particular word are linked by a wordline , a conductor connecting to the control gates of all the bits of that word. All the first bits of a certain number of adjacent words (columns) are linked by a bitline , as are all the second bits and so on. The bitlines connect to one of the terminals (source or drain) of the cells. By manipulating the voltages on the wordlines one can read a certain bit by measuring the voltage on the corresponding bitline. The way to do this depends on whether the memory chip is a NOR or a NAND flash. 
+ In NOR flash, each cell has one end connected directly to ground, and the other end connected directly to a bit line. This arrangement is called "NOR flash" because it acts like a NOR   gate   – if any of the word lines (connected to the CG of the cells) is brought high, the corresponding storage transistor may act to pull the output bit line low, but this depends on the charge in the floating gate. Since several words are connected by the bit line, the output does not depend on only two (the bitline staying high if neither the first NOR the second wordline is high) but on all (the bitline remaining high if NONE of the wordlines is high). So to read a bit of a certain word, all the wordlines except that of the desired word are put low. 
+ NOR flash continues to be the technology of choice for embedded applications requiring a discrete non-volatile memory device. [ citation needed ] The low read latencies characteristic of NOR   devices allow for both direct code execution and data storage in a single memory product. [ 83 ] 
+ Programming [ edit ] 
+ Programming a NOR memory cell (setting it to logical 0), via hot-electron injection 
+ Erasing a NOR memory cell (setting it to logical 1), via quantum tunneling 
+ A single-level NOR flash cell in its default state is logically equivalent to a binary "1" value, because current will flow through the channel under application of an appropriate voltage to the control gate, so that the bitline voltage is pulled down. A NOR   flash cell can be programmed, or set to a binary "0" value, by the following procedure: 
+ an elevated on-voltage (typically >5   V) is applied to the CG 
+ the channel is now turned on, so electrons can flow from the source to the drain (assuming an NMOS   transistor) 
+ the source-drain current is sufficiently high to cause some high energy electrons to jump through the insulating layer onto the FG, via a process called hot-electron injection . 
+ Erasing [ edit ] 
+ To erase a NOR flash cell (resetting it to the "1" state), a large voltage of the opposite polarity is applied between the CG and source terminal, pulling the electrons off the FG through Fowler–Nordheim tunneling (FN tunneling). [ 84 ] This is known as Negative gate source erase. Newer NOR memories can erase using negative gate channel erase, which biases the wordline on a NOR memory cell block and the P-well of the memory cell block to allow FN tunneling to be carried out, erasing the cell block. Older memories used source erase, in which a high voltage was applied to the source and then electrons from the FG were moved to the source. [ 85 ] [ 86 ] Modern NOR   flash memory chips are divided into erase segments (often called blocks or sectors). The erase operation can be performed only on a block-wise basis; all the cells in an erase segment must be erased together. [ 87 ] Programming of NOR cells, however, generally can be performed one byte or word at a time. 
+ NAND flash memory wiring and structure on silicon 
+ NAND flash [ edit ] 
+ NAND flash also uses a grid of floating-gate transistors (see above), but they are connected in a way that resembles a NAND gate : the transistors corresponding to a given bit of several words are connected in series, and the bitline is pulled low if all the word lines are pulled high (above the transistors' V T ). To read the bit of a particular word, its wordline is put low and all the other wordlines are put high, and then the bitline will reflect the state of the floating gate of the desired cell. These groups are then connected via some additional transistors to a NOR-style bit line array in the same way that single transistors are linked in NOR   flash. 
+ Compared to NOR flash, replacing single transistors with serial-linked groups adds an extra level of addressing. Whereas NOR   flash might address memory by page then word, NAND   flash might address it by page, word and bit. Bit-level addressing suits bit-serial applications (such as hard disk emulation), which access only one bit at a time. Execute-in-place applications, on the other hand, require every bit in a word to be accessed simultaneously. This requires word-level addressing. In any case, both bit and word addressing modes are possible with either NOR or NAND   flash. 
+ To read data, first the desired group is selected (in the same way that a single transistor is selected from a NOR array). Next, most of the word lines are pulled up above V T2 , while one of them is pulled up to V I . The series group will conduct (and pull the bit line low) if the selected bit has not been programmed. 
+ Despite the additional transistors, the reduction in ground wires and bit lines allows a denser layout and greater storage capacity per chip. (The ground wires and bit lines are actually much wider than the lines in the diagrams.) In addition, NAND   flash is typically permitted to contain a certain number of faults (NOR   flash, as is used for a BIOS   ROM, is expected to be fault-free). Manufacturers try to maximize the amount of usable storage by shrinking the size of the transistors or cells, however the industry can avoid this and achieve higher storage densities per die by using 3D NAND, which stacks cells on top of each other. 
+ NAND flash cells are read by analysing their response to various voltages. [ 70 ] 
+ Writing and erasing [ edit ] 
+ NAND flash uses tunnel injection for writing and tunnel release for erasing. NAND   flash memory forms the core of the removable USB storage devices known as USB flash drives , as well as most memory card formats and solid-state drives available today. 
+ The hierarchical structure of NAND flash starts at a cell level which establishes strings, then pages, blocks, planes and ultimately a die. A string is a series of connected NAND cells in which the source of one cell is connected to the drain of the next one. Depending on the NAND technology, a string typically consists of 32 to 128 NAND cells. Strings are organised into pages which are then organised into blocks in which each string is connected to a separate line called a bitline. All cells with the same position in the string are connected through the control gates by a wordline. A plane contains a certain number of blocks that are connected through the same bitline. A flash die consists of one or more planes, and the peripheral circuitry that is needed to perform all the read, write, and erase operations. 
+ The architecture of NAND flash means that data can be read and programmed (written) in pages, typically between 4 KiB and 16 KiB in size, but can only be erased at the level of entire blocks consisting of multiple pages. When a block is erased, all the cells are logically set to 1. Data can only be programmed in one pass to a page in a block that was erased. The programming process is set one or more cells from 1 to 0. Any cells that have been set to 0 by programming can only be reset to 1 by erasing the entire block. This means that before new data can be programmed into a page that already contains data, the current contents of the page plus the new data must all be copied to a new, erased page. If a suitable erased page is available, the data can be written to it immediately. If no erased page is available, a block must be erased before copying the data to a page in that block. The old page is then marked as invalid and is available for erasing and reuse. [ 88 ] This is different from operating system LBA view, for example, if operating system writes 1100 0011 to the flash storage device (such as SSD ), the data actually written to the flash memory may be 0011 1100. 
+ Vertical NAND [ edit ] 
+ 3D NAND continues scaling beyond 2D. 
+ Vertical NAND (V-NAND) or 3D NAND memory stacks memory cells vertically and uses a charge trap flash architecture. The vertical layers allow larger areal bit densities without requiring smaller individual cells. [ 89 ] It is also sold under the trademark BiCS Flash , which is a trademark of Kioxia Corporation (formerly Toshiba Memory Corporation). 3D NAND was first announced by Toshiba in 2007. [ 49 ] V-NAND was first commercially manufactured by Samsung Electronics in 2013. [ 50 ] [ 51 ] [ 90 ] [ 91 ] 
+ Structure [ edit ] 
+ V-NAND uses a charge trap flash geometry (which was commercially introduced in 2002 by AMD and Fujitsu ) [ 48 ] that stores charge on an embedded silicon nitride film. Such a film is more robust against point defects and can be made thicker to hold larger numbers of electrons. V-NAND wraps a planar charge trap cell into a cylindrical form. [ 89 ] As of 2020, 3D NAND flash memories by Micron and Intel instead use floating gates, however, Micron 128 layer and above 3D NAND memories use a conventional charge trap structure, due to the dissolution of the partnership between Micron and Intel. Charge trap 3D NAND flash is thinner than floating gate 3D NAND. In floating gate 3D NAND, the memory cells are completely separated from one another, whereas in charge trap 3D NAND, vertical groups of memory cells share the same silicon nitride material. [ 92 ] 
+ An individual memory cell is made up of one planar polysilicon layer containing a hole filled by multiple concentric vertical cylinders. The hole's polysilicon surface acts as the gate electrode. The outermost silicon dioxide cylinder acts as the gate dielectric, enclosing a silicon nitride cylinder that stores charge, in turn enclosing a silicon dioxide cylinder as the tunnel dielectric that surrounds a central rod of conducting polysilicon which acts as the conducting channel. [ 89 ] 
+ Memory cells in different vertical layers do not interfere with each other, as the charges cannot move vertically through the silicon nitride storage medium, and the electric fields associated with the gates are closely confined within each layer. The vertical collection is electrically identical to the serial-linked groups in which conventional NAND   flash memory is configured. [ 89 ] There is also string stacking, which builds several 3D NAND memory arrays or "plugs" [ 93 ] separately, but stacked together to create a product with a higher number of 3D NAND layers on a single die. Often, two or 3 arrays are stacked. The misalignment between plugs is in the order of 30 to 10nm. [ 57 ] [ 94 ] [ 95 ] 
+ Construction [ edit ] 
+ Growth of a group of V-NAND cells begins with an alternating stack of conducting (doped) polysilicon layers and insulating silicon dioxide layers. [ 89 ] 
+ The next step is to form a cylindrical hole through these layers. In practice, a 128   Gbit V-NAND chip with 24 layers of memory cells requires about 2.9 billion such holes. Next, the hole's inner surface receives multiple coatings, first silicon dioxide, then silicon nitride, then a second layer of silicon dioxide. Finally, the hole is filled with conducting (doped) polysilicon. [ 89 ] 
+ Performance [ edit ] 
+ As of 2013 , [ update ] V-NAND flash architecture allows read and write operations twice as fast as conventional NAND and can last up to 10 times as long, while consuming 50 percent less power. They offer comparable physical bit density using 10-nm lithography but may be able to increase bit density by up to two orders of magnitude, given V-NAND's use of up to several hundred layers. [ 89 ] As of 2020, V-NAND chips with 160 layers are under development by Samsung. [ 96 ] As the number of layers increases, the capacity and endurance of flash memory may be increased. 
+ Cost [ edit ] 
+ Minimum bit cost of 3D NAND from non-vertical sidewall. The top opening widens with more layers, counteracting the increase in bit density. 
+ The wafer cost of a 3D NAND is comparable with scaled down (32   nm or less) planar NAND flash. [ 97 ] However, with planar NAND scaling stopping at 16   nm, the cost per bit reduction can continue by 3D NAND starting with 16 layers. However, due to the non-vertical sidewall of the hole etched through the layers; even a slight deviation leads to a minimum bit cost, i.e., minimum equivalent design rule (or maximum density), for a given number of layers; this minimum bit cost layer number decreases for smaller hole diameter. [ 98 ] 
+ Limitations [ edit ] 
+ Block erasure [ edit ] 
+ One limitation of flash memory is that it can be erased only a block at a time. This generally sets all bits in the block to 1. Starting with a freshly erased block, any location within that block can be programmed. However, once a bit has been set to 0, only by erasing the entire block can it be changed back to 1. In other words, flash memory (specifically NOR   flash) offers random-access read and programming operations but does not offer arbitrary random-access rewrite or erase operations. A location can, however, be rewritten as long as the new value's 0 bits are a superset of the over-written values. For example, a nibble value may be erased to 1111, then written as 1110. Successive writes to that nibble can change it to 1010, then 0010, and finally 0000. Essentially, erasure sets all bits to 1, and programming can only clear bits to 0. [ 99 ] 
+Some file systems designed for flash devices make use of this rewrite capability, for example YAFFS1 , to represent sector metadata. Other flash file systems, such as YAFFS2 , never make use of this "rewrite" capability – they do a lot of extra work to meet a "write once rule". 
+ Although data structures in flash memory cannot be updated in completely general ways, this allows members to be "removed" by marking them as invalid. This technique may need to be modified for multi-level cell devices, where one memory cell holds more than one bit. 
+ Common flash devices such as USB flash drives and memory cards provide only a block-level interface, or flash translation layer (FTL), which writes to a different cell each time to wear-level the device. This prevents incremental writing within a block; however, it does help the device from being prematurely worn out by intensive write patterns. 
+ Data retention [ edit ] 
+ 45nm NOR flash memory example of data retention varying with temperatures 
+ Data stored on flash cells is steadily lost due to electron detrapping [ definition needed ] . The rate of loss increases exponentially as the absolute temperature increases. For example: For a 45   nm NOR flash, at 1000 hours, the threshold voltage (Vt) loss at 25°C is about half that at 90°C. [ 100 ] 
+ Memory wear [ edit ] 
+ Another limitation is that flash memory has a finite number of program–erase cycles (typically written as P/E   cycles). [ 101 ] [ 102 ] Micron Technology and Sun Microsystems announced an SLC   NAND flash memory chip rated for 1,000,000   P/E   cycles on 17 December 2008. [ 103 ] 
+ The guaranteed cycle count may apply only to block zero (as is the case with TSOP   NAND devices), or to all blocks (as in NOR). This effect is mitigated in some chip firmware or file system drivers by counting the writes and dynamically remapping blocks in order to spread write operations between sectors; this technique is called wear leveling . Another approach is to perform write verification and remapping to spare sectors in case of write failure, a technique called bad block management (BBM). For portable consumer devices, these wear out management techniques typically extend the life of the flash memory beyond the life of the device itself, and some data loss may be acceptable in these applications. For high-reliability data storage, however, it is not advisable to use flash memory that would have to go through a large number of programming cycles. This limitation also exists for "read-only" applications such as thin clients and routers , which are programmed only once or at most a few times during their lifetimes, due to read disturb (see below). 
+ In December 2012, Taiwanese engineers from Macronix revealed their intention to announce at the 2012 IEEE International Electron Devices Meeting that they had figured out how to improve NAND   flash storage read/write cycles from 10,000 to 100 million cycles using a "self-healing" process that used a flash chip with "onboard heaters that could anneal small groups of memory cells." [ 104 ] The built-in thermal annealing was to replace the usual erase cycle with a local high temperature process that not only erased the stored charge, but also repaired the electron-induced stress in the chip, giving write cycles of at least 100 million. [ 105 ] The result was to be a chip that could be erased and rewritten over and over, even when it should theoretically break down. As promising as Macronix's breakthrough might have been for the mobile industry, however, there were no plans for a commercial product featuring this capability to be released any time in the near future. [ 106 ] 
+ Read disturb [ edit ] 
+ The method used to read NAND   flash memory can cause nearby cells in the same memory block to change over time (become programmed). This is known as read disturb. The threshold number of reads is generally in the hundreds of thousands of reads between intervening erase operations. If reading continually from one cell, that cell will not fail but rather one of the surrounding cells will on a subsequent read. To avoid the read disturb problem the flash controller will typically count the total number of reads to a block since the last erase. When the count exceeds a target limit, the affected block is copied over to a new block, erased, then released to the block pool. The original block is as good as new after the erase. If the flash controller does not intervene in time, however, a read disturb error will occur with possible data loss if the errors are too numerous to correct with an error-correcting code . [ 107 ] [ 108 ] [ 109 ] 
+ X-ray effects [ edit ] 
+ Most flash ICs come in ball grid array (BGA) packages, and even the ones that do not are often mounted on a PCB next to other BGA packages. After PCB assembly , boards with BGA packages are often X-rayed to see if the balls are making proper connections to the proper pad, or if the BGA needs rework . These X-rays can erase programmed bits in a flash chip (convert programmed "0" bits into erased "1" bits). Erased bits ("1" bits) are not affected by X-rays. [ 110 ] [ 111 ] 
+ Some manufacturers are now making X-ray-proof SD [ 112 ] and USB [ 113 ] memory devices. 
+ Low-level access [ edit ] 
+ The low-level interface to flash memory chips differs from those of other memory types such as DRAM , ROM , and EEPROM , which support bit-alterability (both zero to one and one to zero) and random access via externally accessible address buses . 
+ NOR memory has an external address bus for reading and programming. For NOR memory, reading and programming are random-access, and unlocking and erasing are block-wise. For NAND memory, reading and programming are page-wise, and unlocking and erasing are block-wise. 
+ NOR memories [ edit ] 
+ NOR flash by Intel 
+ Reading from NOR flash is similar to reading from random-access memory, provided the address and data bus are mapped correctly. Because of this, most microprocessors can use NOR   flash memory as execute in place (XIP) memory, [ 114 ] meaning that programs stored in NOR   flash can be executed directly from the NOR   flash without needing to be copied into RAM first. NOR   flash may be programmed in a random-access manner similar to reading. Programming changes bits from a logical one to a zero. Bits that are already zero are left unchanged. Erasure must happen a block at a time, and resets all the bits in the erased block back to one. Typical block sizes are 64, 128, or 256   KiB . 
+ Bad block management is a relatively new feature in NOR   chips. In older NOR devices not supporting bad block management, the software or device driver controlling the memory chip must correct for blocks that wear out, or the device will cease to work reliably. 
+ The specific commands used to lock, unlock, program, or erase NOR memories differ for each manufacturer. To avoid needing unique driver software for every device made, special Common Flash Memory Interface (CFI) commands allow the device to identify itself and its critical operating parameters. 
+ Besides its use as random-access ROM, NOR   flash can also be used as a storage device, by taking advantage of random-access programming. Some devices offer read-while-write functionality so that code continues to execute even while a program or erase operation is occurring in the background. For sequential data writes, NOR   flash chips typically have slow write speeds, compared with NAND   flash. 
+ Typical NOR flash does not need an error correcting code . [ 115 ] 
+ NAND memories [ edit ] 
+ NAND flash architecture was introduced by Toshiba in 1989. [ 116 ] These memories are accessed much like block devices , such as hard disks. Each block consists of a number of pages. The pages are typically 512, [ 117 ] 2,048, or 4,096 bytes in size. Associated with each page are a few bytes (typically 1/32 of the data size) that can be used for storage of an error correcting code (ECC) checksum . 
+ Typical block sizes include: 
+ 32 pages of 512+16 bytes each for a block size (effective) of 16   KiB 
+ 64 pages of 2,048+64 bytes each for a block size of 128   KiB [ 118 ] 
+ 64 pages of 4,096+128 bytes each for a block size of 256   KiB [ 119 ] 
+ 128 pages of 4,096+128 bytes each for a block size of 512   KiB 
+ 2048 pages of 16,386+128 bytes each for a block size of 32768   KiB [ 120 ] 
+ Modern NAND flash may have erase block size between 1 MiB to 128 MiB. [ 121 ] While reading and programming is performed on a page basis, erasure can only be performed on a block basis. [ 122 ] Since changing a cell from 0 to 1 requires erasing an entire block instead of just modifying some pages, making changes to the data of a block may in reality be a read-erase-write (REW) or read-modify-erase-write (RMEW) process, where the new data is actually moved to another block. 
+ NAND devices also require bad block management by the device driver software or by the flash memory controller chip. Some SD   cards, for example, include controller circuitry to perform bad block management and wear leveling . When a logical block is accessed by high-level software, it is mapped to a physical block by the device driver or controller. A number of blocks on the flash chip may be set aside for storing mapping tables to deal with bad blocks, or the system may simply check each block at power-up to create a bad block map in RAM. The overall memory capacity gradually shrinks as more blocks are marked as bad. 
+ NAND relies on ECC to compensate for bits that may spontaneously fail during normal device operation. A typical ECC will correct a one-bit error in each 2048   bits (256   bytes) using 22   bits of ECC, or a one-bit error in each 4096   bits (512   bytes) using 24   bits of ECC. [ 123 ] If the ECC cannot correct the error during read, it may still detect the error. When doing erase or program operations, the device can detect blocks that fail to program or erase and mark them bad. The data is then written to a different, good block, and the bad block map is updated. 
+ Hamming codes are the most commonly used ECC for SLC   NAND flash. Reed–Solomon codes and BCH codes (Bose–Chaudhuri–Hocquenghem codes) are commonly used ECC for MLC   NAND flash. Some MLC   NAND flash chips internally generate the appropriate BCH error correction codes. [ 115 ] 
+ Most NAND devices are shipped from the factory with some bad blocks. These are typically marked according to a specified bad block marking strategy. By allowing some bad blocks, manufacturers achieve far higher yields than would be possible if all blocks had to be verified to be good. This significantly reduces NAND   flash costs and only slightly decreases the storage capacity of the parts. 
+ When executing software from NAND memories, virtual memory strategies are often used: memory contents must first be paged or copied into memory-mapped RAM and executed there (leading to the common combination of NAND + RAM). A memory management unit (MMU) in the system is helpful, but this can also be accomplished with overlays . For this reason, some systems will use a combination of NOR and NAND memories, where a smaller NOR memory is used as software ROM and a larger NAND memory is partitioned with a file system for use as a non-volatile data storage area. 
+ NAND sacrifices the random-access and execute-in-place advantages of NOR. NAND is best suited to systems requiring high capacity data storage. It offers higher densities, larger capacities, and lower cost. It has faster erases, sequential writes, and sequential reads. 
+ Further information on the NAND flash memory or SSD operation: Copyback 
+ Standardization [ edit ] 
+ A group called the Open NAND Flash Interface Working Group (ONFI) has developed a standardized low-level interface for NAND   flash chips. This allows interoperability between conforming NAND devices from different vendors. The ONFI specification version 1.0 [ 124 ] was released on 28 December 2006. It specifies: 
+ A standard physical interface ( pinout ) for NAND flash in TSOP -48, WSOP-48, LGA -52, and BGA -63 packages 
+ A standard command set for reading, writing, and erasing NAND flash chips 
+ A mechanism for self-identification (comparable to the serial presence detection feature of SDRAM memory modules) 
+ The ONFI group is supported by major NAND flash manufacturers, including Hynix , Intel , Micron Technology , and Numonyx , as well as by major manufacturers of devices incorporating NAND   flash chips. [ 125 ] 
+ Two major flash device manufacturers, Toshiba and Samsung , have chosen to use an NAND flash interface of their own design known as Toggle Mode (and now Toggle). This interface isn't pin-to-pin compatible with the ONFI specification. The result is that a product designed for one vendor's devices may not be able to use another vendor's devices. [ 126 ] 
+ A group of vendors, including Intel , Dell , and Microsoft , formed a Non-Volatile Memory Host Controller Interface (NVMHCI) Working Group. [ 127 ] The goal of the group is to provide standard software and hardware programming interfaces for nonvolatile memory subsystems, including the "flash cache" device connected to the PCI Express bus. 
+ Distinction between NOR and NAND flash [ edit ] 
+ NOR and NAND flash differ in two important ways: 
+ The connections of the individual memory cells are different. [ 128 ] 
+ The interface provided for reading and writing the memory is different; NOR allows random access [ 129 ] as it can be either byte-addressable or word-addressable, with words being for example 32 bits long, [ 130 ] [ 131 ] [ 132 ] while NAND allows only page access. [ 133 ] 
+ NOR [ 134 ] and NAND flash get their names from the structure of the interconnections between memory cells. [ 135 ] In NOR   flash, cells are connected in parallel to the bit lines, allowing cells to be read and programmed individually. [ 136 ] The parallel connection of cells resembles the parallel connection of transistors in a CMOS NOR gate. [ 137 ] In NAND   flash, cells are connected in series, [ 136 ] resembling a CMOS NAND gate. The series connections consume less space than parallel ones, reducing the cost of NAND   flash. [ 136 ] It does not, by itself, prevent NAND cells from being read and programmed individually. [ citation needed ] 
+ Each NOR flash cell is larger than a NAND   flash cell   – 10   F 2 vs 4   F 2   – [ vague ] even when using exactly the same semiconductor device fabrication and so each transistor, contact, etc. is exactly the same size   – because NOR   flash cells require a separate metal contact for each cell. [ 138 ] [ 139 ] 
+ Because of the series connection and removal of wordline contacts, a large grid of NAND   flash memory cells will occupy perhaps only 60% of the area of equivalent NOR cells [ 140 ] (assuming the same CMOS process resolution, for example, 130   nm , 90   nm, or 65   nm). NAND   flash's designers realized that the area of a NAND chip, and thus the cost, could be further reduced by removing the external address and data bus circuitry. Instead, external devices could communicate with NAND   flash via sequentially accessed command and data registers, which would internally retrieve and output the necessary data. This design choice made random access to NAND   flash memory impossible, but the goal of NAND   flash was to replace mechanical hard disks , not ROMs. 
+ The first GSM phones and many feature phones had NOR flash memory, on which processor instructions could be executed directly in an execute-in-place architecture, allowing for short boot times. With smartphones, NAND flash memory was adopted for its larger storage capacity and lower cost, but it causes longer boot times because instructions cannot be executed directly from it and must be copied to RAM before execution. [ 141 ] 
+ Attribute NAND NOR 
+ Main application File storage Code execution 
+ Storage capacity Higher Lower 
+ Cost per bit Lower Higher 
+ Active power Lower Higher 
+ Standby power Higher Lower 
+ Write speed Faster Slower 
+ Random read speed Slower Faster 
+ Execute in place [ 142 ] (XIP) No Yes 
+ Reliability Lower Higher 
+ Required flash memory controller Usually Yes No 
+ Write endurance [ edit ] 
+ The write endurance of SLC floating-gate NOR flash is typically equal to or greater than that of NAND   flash, while MLC   NOR and NAND   flash have similar endurance capabilities. Examples of endurance cycle ratings listed in datasheets for NAND and NOR   flash, as well as in storage devices using flash memory, are provided. [ 143 ] 
+ Type of flash memory Endurance rating (erases per block ) Example(s) of flash memory or storage device 
+ SLC NAND 50,000–100,000 Samsung OneNAND KFW4G16Q2M, Toshiba SLC NAND flash chips, [ 144 ] [ 145 ] [ 146 ] [ 147 ] [ 148 ] Transcend SD500, Fujitsu S26361-F3298 
+ MLC NAND 5,000–10,000 for medium-capacity; 1,000 to 3,000 for high-capacity [ 149 ] Samsung K9G8G08U0M (example for medium-capacity applications), Memblaze PBlaze4, [ 150 ] ADATA SU900, Mushkin Reactor 
+ TLC NAND 1,000 Samsung SSD 840 
+ QLC NAND Unknown SanDisk X4 NAND flash SD cards [ 151 ] [ 152 ] [ 153 ] [ 154 ] 
+ 3D SLC NAND >100,000 Samsung Z-NAND [ 155 ] 
+ 3D MLC NAND 6,000–40,000 Samsung SSD 850 PRO, Samsung SSD 845DC PRO, [ 156 ] [ 157 ] Samsung 860 PRO 
+ 3D TLC NAND 1,500–5,000 Samsung SSD 850 EVO, Samsung SSD 845DC EVO, Crucial MX300 [ 158 ] [ 157 ] [ 159 ] ，Memblaze PBlaze5 900, Memblaze PBlaze5 700, Memblaze PBlaze5 910/916, Memblaze PBlaze5 510/516, [ 160 ] [ 161 ] [ 162 ] [ 163 ] ADATA SX 8200 PRO (also being sold under "XPG Gammix" branding, model S11 PRO) 
+ 3D QLC NAND 100–1,500 Samsung SSD 860 QVO SATA, Intel SSD 660p, Micron 5210 ION, Crucial P1, Samsung SSD BM991 NVMe [ 164 ] [ 165 ] [ 166 ] [ 167 ] [ 168 ] [ 169 ] [ 170 ] [ 171 ] 
+ 3D PLC NAND Unknown In development by SK Hynix (formerly Intel) [ 172 ] and Kioxia (formerly Toshiba Memory). [ 149 ] 
+ SLC (floating- gate) NOR 100,000–1,000,000 Numonyx M58BW (Endurance rating of 100,000 erases per block); Spansion S29CD016J (Endurance rating of 1,000,000 erases per block) 
+ MLC (floating- gate) NOR 100,000 Numonyx J3 flash 
+ 3D SLC NOR >1,000,000 
+ 3D MLC NOR 100,000-1,000,000 
+ However, by applying certain algorithms and design paradigms, such as wear leveling , flash over-provisioning and high-quality flash memory (such as pSLC and eTLC), the endurance of a storage system can be tuned to serve specific requirements. [ 173 ] 
+ To compute the longevity of the NAND   flash, one must account for the size of the memory chip, the type of memory (e.g., SLC/MLC/TLC), and the usage pattern. Industrial NAND and server NAND are in demand due to their capacity, longer endurance and reliability in sensitive environments. 
+ As the number of bits per cell increases, the performance and life of NAND flash may degrade, increasing random read times to 100μs for TLC NAND, which is 4 times the time required in SLC NAND and twice the time required in MLC NAND for random reads. [ 72 ] 
+ Flash file systems [ edit ] 
+ Main article: Flash file system 
+ Because of the particular characteristics of flash memory, it is best used with either a controller to perform wear leveling and error correction or specifically designed flash file systems, which spread writes over the media and deal with the long erase times of NOR   flash blocks. The basic concept behind flash file systems is the following: when the flash store is to be updated, the file system will write a new copy of the changed data to a fresh block, remap the file pointers, then erase the old block later when it has time. 
+ In practice, flash file systems are used only for memory technology devices (MTDs), which are embedded flash memories that do not have a controller. Removable flash memory cards , SSDs, eMMC / eUFS chips and USB flash drives have built-in controllers to perform wear leveling and error correction so use of a specific flash file system may not add benefit. 
+ Capacity [ edit ] 
+ Multiple chips are often arrayed or die stacked to achieve higher capacities [ 174 ] for use in consumer electronic devices such as multimedia players or GPSs . The capacity scaling (increase) of flash chips used to follow Moore's law because they are manufactured with many of the same integrated circuits techniques and equipment. Since the introduction of 3D NAND, scaling is no longer necessarily associated with Moore's law since ever smaller transistors (cells) are no longer used. 
+ Consumer flash storage devices typically are advertised with usable sizes expressed as a small integer power of two (2, 4, 8, etc.) and a conventional designation of megabytes (MB) or gigabytes (GB); e.g., 512   MB, 8   GB. This includes SSDs marketed as hard drive replacements, in accordance with traditional hard drives , which use decimal prefixes . [ 175 ] Thus, an SSD marked as "64   GB " is at least 3</sup>"}},"i":0}}]}'>64 × 1000 3 bytes (64   GB). Most users will have slightly less capacity than this available for their files, due to the space taken by file system metadata and because some operating systems report SSD capacity using binary prefixes which are somewhat larger than conventional prefixes. 
+ The flash memory chips inside them are sized in strict binary multiples, but the actual total capacity of the chips is not usable at the drive interface. It is considerably larger than the advertised capacity in order to allow for distribution of writes ( wear leveling ), for sparing, for error correction codes , and for other metadata needed by the device's internal firmware. 
+ In 2005, Toshiba and SanDisk developed a NAND   flash chip capable of storing 1   GB of data using multi-level cell (MLC) technology, capable of storing two bits of data per cell. In September 2005, Samsung Electronics announced that it had developed the world's first 2   GB chip. [ 176 ] 
+ In March 2006, Samsung announced flash hard drives with capacity of 4   GB, essentially the same order of magnitude as smaller laptop hard drives, and in September 2006, Samsung announced an 8   GB chip produced using a 40   nm manufacturing process. [ 177 ] 
+In January 2008, SanDisk announced availability of their 16   GB MicroSDHC and 32   GB SDHC Plus cards. [ 178 ] [ 179 ] 
+ More recent flash drives (as of 2012) have much greater capacities, holding 64, 128, and 256   GB. [ 180 ] [ 181 ] 
+ A joint development at Intel and Micron will allow the production of 32-layer 3.5 terabyte (TB [ clarification needed ] ) NAND   flash sticks and 10   TB standard-sized SSDs. The device includes 5 packages of 16 × 48   GB   TLC dies, using a floating gate cell design. [ 182 ] 
+ Flash chips continue to be manufactured with capacities under or around 1   MB (e.g. for BIOS-ROMs and embedded applications). 
+ In July 2016, Samsung announced the 4   TB [ clarification needed ] Samsung 850 EVO which utilizes their 256   Gbit 48-layer TLC 3D V-NAND. [ 183 ] In August 2016, Samsung announced a 32   TB 2.5-inch SAS   SSD based on their 512   Gbit 64-layer TLC 3D   V-NAND. 
+ In March 2016, Nimbus Data announced the ExaDrive DC100, a 100TB 3.5 inch SSD that utilises 3D NAND Flash [ 184 ] . This capactiy remained unmatched for 7 years until Kioxia released their LCP 122.88TB SSD [ 185 ] . 
+ Transfer rates [ edit ] 
+ Flash memory devices are typically much faster at reading than writing. [ 186 ] Performance also depends on the quality of storage controllers, which become more critical when devices are partially full. [ vague ] [ 186 ] Even when the only change to manufacturing is die-shrink, the absence of an appropriate controller can result in degraded speeds. [ 187 ] 
+ Applications [ edit ] 
+ Serial flash [ edit ] 
+ Serial Flash: Silicon Storage Tech SST25VF080B 
+ Serial flash is a small, low-power flash memory that provides only serial access to the data - rather than addressing individual bytes, the user reads or writes large contiguous groups of bytes in the address space serially. Serial Peripheral Interface Bus (SPI) is a typical protocol for accessing the device. 
+When incorporated into an embedded system , serial flash requires fewer wires on the PCB than parallel flash memories, since it transmits and receives data one bit at a time. This may permit a reduction in board space, power consumption, and total system cost. 
+ There are several reasons why a serial device, with fewer external pins than a parallel device, can significantly reduce overall cost: 
+ Many ASICs are pad-limited, meaning that the size of the die is constrained by the number of wire bond pads, rather than the complexity and number of gates used for the device logic. Eliminating bond pads thus permits a more compact integrated circuit, on a smaller die; this increases the number of dies that may be fabricated on a wafer , and thus reduces the cost per die. 
+ Reducing the number of external pins also reduces assembly and packaging costs. A serial device may be packaged in a smaller and simpler package than a parallel device. 
+ Smaller and lower pin-count packages occupy less PCB area. 
+ Lower pin-count devices simplify PCB routing . 
+ There are two major SPI flash types. The first type is characterized by small blocks and one internal SRAM block buffer allowing a complete block to be read to the buffer, partially modified, and then written back (for example, the Atmel AT45 DataFlash or the Micron Technology Page Erase NOR   Flash). The second type has larger sectors where the smallest sectors typically found in this type of SPI flash are 4   KB, but they can be as large as 64   KB. Since this type of SPI flash lacks an internal SRAM buffer, the complete block must be read out and modified before being written back, making it slow to manage. However, the second type is cheaper than the first and is therefore a good choice when the application is code shadowing. 
+ The two types are not easily exchangeable, since they do not have the same pinout, and the command sets are incompatible. 
+ Most FPGAs are based on SRAM configuration cells and require an external configuration device, often a serial flash chip, to reload the configuration bitstream every power cycle. [ 188 ] 
+ Firmware storage [ edit ] 
+ With the increasing speed of modern CPUs, parallel flash devices are often much slower than the memory bus of the computer they are connected to. Conversely, modern SRAM offers access times below 10   ns , while DDR2 SDRAM offers access times below 20   ns. Because of this, it is often desirable to shadow code stored in flash into RAM; that is, the code is copied from flash into RAM before execution, so that the CPU may access it at full speed. Device firmware may be stored in a serial flash chip, and then copied into SDRAM or SRAM when the device is powered-up. [ 189 ] Using an external serial flash device rather than on-chip flash removes the need for significant process compromise (a manufacturing process that is good for high-speed logic is generally not good for flash and vice versa). Once it is decided to read the firmware in as one big block it is common to add compression to allow a smaller flash chip to be used. Since 2005, many devices use serial NOR flash to deprecate parallel NOR flash for firmware storage. Typical applications for serial NOR flash include storing firmware for hard drives , BIOS , Option ROM of expansion cards , DSL modems , etc. 
+ Flash memory as a replacement for hard drives [ edit ] 
+ Main article: Solid-state drive 
+ An Intel mSATA SSD in 2020 
+ One more recent application for flash memory is as a replacement for hard disks . Flash memory does not have the mechanical limitations and latencies of hard drives, so a solid-state drive (SSD) is attractive in terms of speed, noise, power consumption, and reliability. Flash drives are gaining traction as mobile device secondary storage devices; they are also used as substitutes for hard drives in high-performance desktop computers and some servers with RAID and SAN architectures. 
+ There remain some aspects of flash-based SSDs that make them unattractive. The cost per gigabyte of flash memory remains significantly higher than that of hard disks. [ 190 ] Also, flash memory has a finite number of P/E ( program/erase ) cycles, but this seems to be currently under control since warranties on flash-based SSDs are approaching those of current hard drives. [ 191 ] In addition, deleted files on SSDs can remain for an indefinite period of time before being overwritten by fresh data; erasure or shred techniques or software that work well on magnetic hard disk drives have no effect on SSDs, compromising security and forensic examination. However, due to the so-called TRIM command employed by most solid state drives, which marks the logical block addresses occupied by the deleted file as unused to enable garbage collection , data recovery software is not able to restore files deleted from such. 
+ For relational databases or other systems that require ACID transactions, even a modest amount of flash storage can offer vast speedups over arrays of disk drives. [ 192 ] 
+ In May 2006, Samsung Electronics announced two flash-memory based PCs, the Q1-SSD and Q30-SSD were expected to become available in June 2006, both of which used 32   GB SSDs, and were at least initially available only in South Korea . [ 193 ] The Q1-SSD and Q30-SSD launch was delayed and finally was shipped in late August 2006. [ 194 ] 
+ The first flash-memory based PC to become available was the Sony Vaio UX90, announced for pre-order on 27 June 2006 and began to be shipped in Japan on 3 July 2006 with a 16   GB flash memory hard drive. [ 195 ] In late September 2006 Sony upgraded the flash-memory in the Vaio UX90 to 32   GB. [ 196 ] 
+ A solid-state drive was offered as an option with the first MacBook Air introduced in 2008, and from 2010 onwards, all models were shipped with an SSD. Starting in late 2011, as part of Intel 's Ultrabook initiative, an increasing number of ultra-thin laptops are being shipped with SSDs standard. 
+ There are also hybrid techniques such as hybrid drive and ReadyBoost that attempt to combine the advantages of both technologies, using flash as a high-speed non-volatile cache for files on the disk that are often referenced, but rarely modified, such as application and operating system executable files. 
+ On smartphones , the NAND flash products are used as file storage device, for example, eMMC and eUFS . 
+ Flash memory as RAM [ edit ] 
+ As of 2012 , [ update ] there are attempts to use flash memory as the main computer memory, DRAM . [ 197 ] 
+ Archival or long-term storage [ edit ] 
+ Floating-gate transistors in the flash storage device hold charge which represents data. This charge gradually leaks over time, leading to an accumulation of logical errors , also known as " bit rot " or "bit fading". [ 198 ] 
+ Data retention [ edit ] 
+ It is unclear how long data on flash memory will persist under archival conditions (i.e., benign temperature and humidity with infrequent access with or without prophylactic rewrite). Datasheets of Atmel's flash-based " ATmega " microcontrollers typically promise retention times of 20 years at 85   °C (185   °F) and 100 years at 25   °C (77   °F). [ 199 ] 
+ The retention span varies among types and models of flash storage. When supplied with power and idle, the charge of the transistors holding the data is routinely refreshed by the firmware of the flash storage. [ 198 ] The ability to retain data varies among flash storage devices due to differences in firmware, data redundancy , and error correction algorithms. [ 200 ] 
+ An article from CMU in 2015 states "Today's flash devices, which do not require flash refresh, have a typical retention age of 1 year at room temperature." And that retention time decreases exponentially with increasing temperature. The phenomenon can be modeled by the Arrhenius equation . [ 201 ] [ 202 ] 
+ While flash storage retains data for a longer time if stored at colder temperatures, a higher but not extreme temperature while writing reduces stress and wear on the drive, given that electrons are able to flow more easily, according to Tim Schulte, Pranav Kalavade, and Johnmichael Hands from Intel. [ 203 ] 
+ FPGA configuration [ edit ] 
+ Some FPGAs are based on flash configuration cells that are used directly as (programmable) switches to connect internal elements together, using the same kind of floating-gate transistor as the flash data storage cells in data storage devices. [ 188 ] 
+ Industry [ edit ] 
+ See also: Semiconductor industry 
+ One source states that, in 2008, the flash memory industry includes about US$9.1 billion in production and sales. Other sources put the flash memory market at a size of more than US$20 billion in 2006, accounting for more than eight percent of the overall semiconductor market and more than 34 percent of the total semiconductor memory market. [ 204 ] 
+In 2012, the market was estimated at $26.8 billion. [ 205 ] It can take up to 10 weeks to produce a flash memory chip. [ 206 ] 
+ Manufacturers [ edit ] 
+ Main articles: List of flash memory controller manufacturers and List of solid-state drive manufacturers 
+ The following were the largest NAND flash memory manufacturers, as of the third quarter of 2025. [ 207 ] [ non-primary source needed ] 
+ Samsung Electronics – 30% 
+ SK Hynix – 20% 
+ Kioxia – 14% 
+ Micron Technology – 13% 
+ YMTC – 13% 
+ Western Digital Corporation – 11% 
+ Notes: Samsung remains the largest NAND flash memory manufacturer as of Q3 2025. 
+ Kioxia spun out and got renamed of Toshiba in 2018/2019. [ 208 ] 
+ SK Hynix acquired Intel's NAND business at the end of 2021. [ 209 ] 
+ Shipments [ edit ] 
+ See also: Electronics industry and Transistor count 
+ Flash memory shipments ( estimation</span>"}]],"parts":[{"template":{"target":{"wt":"estimation","href":"./Template:Estimation"},"params":{},"i":0}}]}'>est. manufactured units) 
+ Year(s) 
+ Discrete flash memory chips 
+ Flash memory data capacity ( gigabytes ) 
+ Floating-gate MOSFET memory cells (billions) 
+ 1992 
+ 26,000,000 [ 210 ] 
+ 3 [ 210 ] 
+ 24 <ref name=\"toshiba-sd-2009\"/>"}},"i":0}}]}'> [ a ] 
+ 1993 
+ 73,000,000 [ 210 ] 
+ 17 [ 210 ] 
+ 139 [ a ] 
+ 1994 
+ 112,000,000 [ 210 ] 
+ 25 [ 210 ] 
+ 203 [ a ] 
+ 1995 
+ 235,000,000 [ 210 ] 
+ 38 [ 210 ] 
+ 300 [ a ] 
+ 1996 
+ 359,000,000 [ 210 ] 
+ 140 [ 210 ] 
+ 1,121 [ a ] 
+ 1997 
+ 477,200,000 + [ 211 ] 
+ 317 + [ 211 ] 
+ 2,533 + [ a ] 
+ 1998 
+ 762,195,122 [ 212 ] 
+ 455 + [ 211 ] 
+ 3,642 + [ a ] 
+ 1999 
+ 12,800,000,000 [ 213 ] 
+ 635 + [ 211 ] 
+ 5,082 + [ a ] 
+ 2000 – 2004 
+ 134,217,728,000 (NAND) [ 214 ] 
+ 1,073,741,824,000 (NAND) [ 214 ] 
+ 2005 – 2007 
+ ? 
+ 2008 
+ 1,226,215,645 (mobile NAND) [ 215 ] 
+ 2009 
+ 1,226,215,645 + (mobile NAND) 
+ 2010 
+ 7,280,000,000+ {{Cite press release |date=9 June 2011 |title=NOR Flash Memory Finds Growth Opportunities in Tablets and E-Book Readers |url=https://technology.ihs.com/389310/nor-flash-memory-finds-growth-opportunities-in-tablets-and-e-book-readers |url-status=dead |archive-url=https://web.archive.org/web/20191016173757/https://technology.ihs.com/389310/nor-flash-memory-finds-growth-opportunities-in-tablets-and-e-book-readers |archive-date=16 October 2019 |access-date=16 October 2019 |work=IHS Technology |publisher=[[IHS Markit]] }}</ref>\n*NAND {{ndash}} 3.64{{nbsp}}billion+ ({{estimation}})\n"}},"i":0}}]}'> [ b ] 
+ 2011 
+ 8,700,000,000 [ 217 ] 
+ 2012 
+ 5,151,515,152 ( serial ) [ 218 ] 
+ 2013 
+ ? 
+ 2014 
+ ? 
+ 59,000,000,000 [ 219 ] 
+ 118,000,000,000 + [ a ] 
+ 2015 
+ 7,692,307,692 (NAND) [ 220 ] 
+ 85,000,000,000 [ 221 ] 
+ 170,000,000,000 + [ a ] 
+ 2016 
+ ? 
+ 100,000,000,000 [ 222 ] 
+ 200,000,000,000 + [ a ] 
+ 2017 
+ ? 
+ 148,200,000,000 {{Cite web |last1=Reinsel |first1=David |last2=Gantz |first2=John |last3=Rydning |first3=John |date=November 2018 |title=IDC White Paper: The Digitization of the World |url=https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf#page=14 |url-status=live |archive-url=https://web.archive.org/web/20231128141338/https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf#page=14 |archive-date=28 November 2023 |access-date=17 October 2019 |website=[[Seagate Technology]] |publisher=[[International Data Corporation]] |page=14 |id=US44413318 }}</ref>\n*[[Solid-state drive]] (SSD) {{ndash}} 63.2{{nbsp}}exabytes<ref>{{Cite news |last=Mellor |first=Chris |date=28 February 2018 |title=Who was the storage dollar daddy in 2017? S. S. D |work=[[The Register]] |url=https://www.theregister.co.uk/2018/02/28/crossover_ssd_dollars_exceeded_disk_drive_dollars_in_2017/ |url-status=live |access-date=17 October 2019 |archive-url=https://web.archive.org/web/20231110163436/https://www.theregister.com/2018/02/28/crossover_ssd_dollars_exceeded_disk_drive_dollars_in_2017/ |archive-date=10 November 2023 }}</ref>\n"}},"i":0}}]}'> [ c ] 
+ 296,400,000,000 + [ a ] 
+ 2018 
+ ? 
+ 231,640,000,000 \n*SSD {{ndash}} {{#expr:63.2*1.45}}{{nbsp}}exabytes<ref>{{Cite press release |date=7 March 2019 |title=Combined SSD, HDD Storage Shipped Jumps 21% to 912 Exabytes in 2018 |url=https://www.businesswire.com/news/home/20190307005812/en/TRENDFOCUS-Combined-SSD-HDD-Storage-Shipped-Jumps |url-status=live |archive-url=https://web.archive.org/web/20231102133652/https://www.businesswire.com/news/home/20190307005812/en/TRENDFOCUS-Combined-SSD-HDD-Storage-Shipped-Jumps |archive-date=2 November 2023 |access-date=17 October 2019 |publisher=Trendfocus |place=Cupertino, Calif. |via=[[Business Wire]] }}</ref>\n"}},"i":0}}]}'> [ d ] 
+ 463,280,000,000 + [ a ] 
+ 2019 
+ ? 
+ ? 
+ ? 
+ 2020 
+ ? 
+ ? 
+ ? 
+ 1992 – 2020 
+ 45,358,454,134+ memory chips 
+ 758,057,729,630+ gigabytes 
+ 2,321,421,837,044   billion+ cells 
+ In addition to individual flash memory chips, flash memory is also embedded in microcontroller (MCU) chips and system-on-chip (SoC) devices. [ 226 ] Flash memory is embedded in ARM chips , [ 226 ] which have sold 150   billion units worldwide as of 2019 [ update ] , [ 227 ] and in programmable system-on-chip (PSoC) devices, which have sold 1.1   billion units as of 2012 [ update ] . [ 228 ] This adds up to at least 151.1   billion MCU and SoC chips with embedded flash memory, in addition to the 45.4   billion known individual flash chip sales as of 2015 [ update ] , totalling at least 196.5   billion chips containing flash memory. 
+ Flash scalability [ edit ] 
+ See also: List of semiconductor scale examples and Moore's law 
+ Due to its relatively simple structure and high demand for higher capacity, NAND   flash memory is the most aggressively scaled technology among electronic devices . The heavy competition among the top few manufacturers only adds to the aggressiveness in shrinking the floating-gate MOSFET design rule or process technology node. [ 108 ] While the expected shrink timeline is a factor of two every three years per the original version of Moore's law , this has recently been accelerated in the case of NAND   flash to a factor of two every two years. 
+ ITRS or company 2010 2011 2012 2013 2014 2015 2016 2017 2018 
+ ITRS Flash Roadmap 2011 [ 229 ] 32 nm 22 nm 20   nm 18   nm 16   nm 
+ Updated ITRS Flash Roadmap [ 230 ] 17   nm 15   nm 14 nm 
+ Samsung [ 229 ] [ 230 ] [ 231 ] (Samsung 3D NAND) [ 230 ] 35– 20 nm [ 36 ] 27   nm 21   nm ( MLC , TLC ) 19–16   nm 19– 10 nm (MLC, TLC) [ 232 ] 19–10   nm V-NAND (24L) 16–10   nm V-NAND (32L) 16–10   nm 12–10   nm 12–10   nm 
+ Micron , Intel [ 229 ] [ 230 ] [ 231 ] 34–25   nm 25   nm 20   nm (MLC + HKMG) 20   nm (TLC) 16   nm 16   nm 3D NAND 16   nm 3D NAND 12   nm 3D NAND 12   nm 3D NAND 
+ Toshiba , WD ( SanDisk ) [ 229 ] [ 230 ] [ 231 ] 43–32   nm 24   nm (Toshiba) [ 233 ] 24   nm 19   nm (MLC, TLC) 15   nm 15   nm 3D NAND 15   nm 3D NAND 12   nm 3D   NAND 12   nm 3D   NAND 
+ SK Hynix [ 229 ] [ 230 ] [ 231 ] 46–35   nm 26   nm 20   nm (MLC) 16   nm 16   nm 16   nm 12   nm 12   nm 
+ As the MOSFET feature size of flash memory cells reaches the 15–16   nm minimum limit, further flash density increases will be driven by TLC (3   bits/cell) combined with vertical stacking of NAND memory planes. The decrease in endurance and increase in uncorrectable bit error rates that accompany feature size shrinking can be compensated by improved error correction mechanisms. [ 234 ] Even with these advances, it may be impossible to economically scale flash to smaller and smaller dimensions as the number of electron holding capacity reduces. Many promising new technologies (such as FeRAM , MRAM , PMC , PCM , ReRAM , and others) are under investigation and development as possible more scalable replacements for flash. [ 235 ] 
+ Timeline [ edit ] 
+ See also: Read-only memory §   Timeline , Random-access memory §   Timeline , and Transistor count §   Memory 
+ Date of introduction Chip name Memory package capacity megabits (Mb), gigabits (Gb), terabits (Tb) Flash type Cell type Layers or stacks of layers Manufacturer(s) Process Area Ref 
+ 1984 ? ? NOR SLC 1 Toshiba ? ? [ 24 ] 
+ 1985 ? 256 kb NOR SLC 1 Toshiba 2,000   nm ? [ 33 ] 
+ 1987 ? ? NAND SLC 1 Toshiba ? ? [ 1 ] 
+ 1989 ? 1 Mb NOR SLC 1 Seeq, Intel ? ? [ 33 ] 
+ 4 Mb NAND SLC 1 Toshiba 1,000   nm 
+ 1991 ? 16 Mb NOR SLC 1 Mitsubishi 600   nm ? [ 33 ] 
+ 1993 DD28F032SA 32 Mb NOR SLC 1 Intel ? 280   mm² [ 236 ] [ 237 ] 
+ 1994 ? 64 Mb NOR SLC 1 NEC 400   nm ? [ 33 ] 
+ 1995 ? 16 Mb DINOR SLC 1 Mitsubishi, Hitachi ? ? [ 33 ] [ 238 ] 
+ NAND SLC 1 Toshiba ? ? [ 239 ] 
+ 32 Mb NAND SLC 1 Hitachi, Samsung, Toshiba ? ? [ 33 ] 
+ 34 Mb Serial SLC 1 SanDisk 
+ 1996 ? 64 Mb NAND SLC 1 Hitachi, Mitsubishi 400   nm ? [ 33 ] 
+ QLC 1 NEC 
+ 128 Mb NAND SLC 1 Samsung, Hitachi ? 
+ 1997 ? 32 Mb NOR SLC 1 Intel, Sharp 400   nm ? [ 240 ] 
+ NAND SLC 1 AMD, Fujitsu 350   nm 
+ 1999 ? 256 Mb NAND SLC 1 Toshiba 250   nm ? [ 33 ] 
+ MLC 1 Hitachi 1 
+ 2000 ? 32 Mb NOR SLC 1 Toshiba 250   nm ? [ 33 ] 
+ 64 Mb NOR QLC 1 STMicroelectronics 180   nm 
+ 512 Mb NAND SLC 1 Toshiba ? ? [ 116 ] 
+ 2001 ? 512 Mb NAND MLC 1 Hitachi ? ? [ 33 ] 
+ 1 Gibit NAND MLC 1 Samsung 
+ 1 Toshiba, SanDisk 160   nm ? [ 241 ] 
+ 2002 ? 512 Mb NROM MLC 1 Saifun 170   nm ? [ 33 ] 
+ 2 GB NAND SLC 1 Samsung, Toshiba ? ? [ 242 ] [ 243 ] 
+ 2003 ? 128 Mb NOR MLC 1 Intel 130   nm ? [ 33 ] 
+ 1 GB NAND MLC 1 Hitachi 
+ 2004 ? 8 GB NAND SLC 1 Samsung 60   nm ? [ 242 ] 
+ 2005 ? 16 GB NAND SLC 1 Samsung 50   nm ? [ 36 ] 
+ 2006 ? 32 GB NAND SLC 1 Samsung 40   nm 
+ Apr-07 THGAM 128 GB Stacked NAND SLC Toshiba 56   nm 252   mm² [ 52 ] 
+ Sep-07 ? 128 GB Stacked NAND SLC Hynix ? ? [ 53 ] 
+ 2008 THGBM 256 GB Stacked NAND SLC Toshiba 43   nm 353   mm² [ 54 ] 
+ 2009 ? 32 GB NAND TLC Toshiba 32   nm 113   mm² [ 34 ] 
+ 64 GB NAND QLC Toshiba, SanDisk 43   nm ? [ 34 ] [ 35 ] 
+ 2010 ? 64 GB NAND SLC Hynix 20   nm ? [ 244 ] 
+ TLC Samsung 20   nm ? [ 36 ] 
+ THGBM2 1 Tb Stacked NAND QLC Toshiba 32   nm 374   mm² [ 55 ] 
+ 2011 KLMCG8GE4A 512 GB Stacked NAND MLC Samsung ? 192   mm² [ 245 ] 
+ 2013 ? ? NAND SLC SK Hynix 16   nm ? [ 244 ] 
+ 128 GB V-NAND TLC Samsung 10   nm ? 
+ 2015 ? 256 GB V-NAND TLC Samsung ? ? [ 232 ] 
+ 2017 eUFS 2.1 512 GB V-NAND TLC 8 of 64 Samsung ? ? [ 8 ] 
+ 768 GB V-NAND QLC Toshiba ? ? [ 246 ] 
+ KLUFG8R1EM 4 Tb Stacked V-NAND TLC Samsung ? 150   mm² [ 8 ] 
+ 2018 ? 1 Tb V-NAND QLC Samsung ? ? [ 247 ] 
+ 1.33 Tb V-NAND QLC Toshiba ? 158   mm² [ 248 ] [ 249 ] 
+ 2019 ? 512 GB V-NAND QLC Samsung ? ? [ 63 ] [ 64 ] 
+ 1 Tb V-NAND TLC SK Hynix ? ? [ 250 ] 
+ eUFS 2.1 1 Tb Stacked V-NAND [ 251 ] QLC 16 of 64 Samsung ? 150   mm² [ 63 ] [ 64 ] [ 252 ] 
+ 2023 eUFS 4.0 8 Tb 3D NAND QLC 232 Micron ? ? [ 253 ] 
+ See also [ edit ] 
+ eMMC 
+ Flash memory controller 
+ Intel hex file format 
+ List of flash file systems 
+ List of flash memory controller manufacturers 
+ microSDXC (up to 2   TB ), and the successor format Secure Digital Ultra Capacity ( SDUC ) supporting cards up to 128   TiB 
+ NOR flash replacement 
+ Open NAND Flash Interface Working Group 
+ Read-mostly memory (RMM) 
+ Universal Flash Storage 
+ USB flash drive security 
+ Write amplification 
+ Explanatory notes [ edit ] 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 Single-level cell (1- bit per cell ) up until 2009. Multi-level cell (up to 4-bit or half- byte per cell) commercialised in 2009. [ 34 ] [ 35 ] 
+ ↑ Flash memory chip shipments in 2010:
+ NOR – 3.64   billion [ 216 ] 
+ NAND – 3.64   billion+ ( estimation</span>"}]]}'>est. ) 
+ ↑ Flash memory data capacity shipments in 2017:
+ NAND non-volatile memory (NVM) – 85   exabytes ( estimation</span>"}]]}'>est. ) [ 223 ] 
+ Solid-state drive (SSD) – 63.2   exabytes [ 224 ] 
+ ↑ Flash memory data capacity shipments in 2018 ( estimation</span>"}]]}'>est. )
+ NAND NVM – 140   exabytes [ 223 ] 
+ SSD – 91.64   exabytes [ 225 ] 
+ References [ edit ] 
+ 1 2 3 "1987: Toshiba Launches NAND Flash" . eWeek . 11 April 2012 . Retrieved 20 June 2019 . 
+ ↑ "A Flash Storage Technical and Economic Primer" . FlashStorage.com . 30 March 2015. Archived from the original on 20 July 2015. 
+ ↑ "Flash Memory Guide" (PDF) . Kingston Technology . 2012. MKF-283US. Archived (PDF) from the original on 19 October 2023 . Retrieved 4 December 2023 . 
+ ↑ Bauer, Roderick (6 March 2018). "HDD vs SSD: What Does the Future for Storage Hold?" . Backblaze . Archived from the original on 22 December 2022. 
+ ↑ "Memory Module Serial Presence-Detect Introduction" (PDF) . Micron Technology . TN-04-42. Archived (PDF) from the original on 26 July 2022 . Retrieved 1 June 2022 . 
+ ↑ "Serial Presence Detect - Technical Reference" (PDF) . Texas Instruments . January 1998. SMMU001. Archived (PDF) from the original on 4 December 2023. 
+ ↑ Shilov, Anton (30 January 2019). "Samsung Starts Production of 1 TB eUFS 2.1 Storage for Smartphones" . AnandTech . Archived from the original on 2 November 2023. 
+ 1 2 3 4 Shilov, Anton (5 December 2017). "Samsung Starts Production of 512 GB UFS NAND Flash Memory: 64-Layer V-NAND, 860 MB/s Reads" . AnandTech . Archived from the original on 3 November 2023. 
+ ↑ Kim, Chulbum; Cho, Ji-Ho; Jeong, Woopyo; Park, Il-han; Park, Hyun-Wook; Kim, Doo-Hyun; Kang, Daewoon; Lee, Sunghoon; Lee, Ji-Sang; Kim, Wontae; Park, Jiyoon; Ahn, Yang-lo; Lee, Jiyoung; Lee, Jong-Hoon; Kim, Seungbum; Yoon, Hyun-Jun; Yu, Jaedoeg; Choi, Nayoung; Kwon, Yelim; Kim, Nahyun; Jang, Hwajun; Park, Jonghoon; Song, Seunghwan; Park, Yongha; Bang, Jinbae; Hong, Sangki; Jeong, Byunghoon; Kim, Hyun-Jin; Lee, Chunan; et   al. (2017). 11.4 a 512Gb 3b/Cell 64-stacked WL 3D V-NAND flash memory . International Solid-State Circuits Conference . San Francisco: IEEE . pp.   202– 203. doi : 10.1109/ISSCC.2017.7870331 . ISBN   978-1-5090-3758-2 . ISSN   2376-8606 . S2CID   206998691 . 
+ ↑ Tyson, Mark. "Samsung enables 1TB eUFS 2.1 smartphones" . Hexus . Archived from the original on 23 April 2023. 
+ 1 2 "Not just a flash in the pan" . The Economist . Reuters . 11 March 2006. Archived from the original on 21 November 2023 . Retrieved 10 September 2019 . 
+ ↑ Bez, R.; Pirovano, A. (2019). Advances in Non-Volatile Memory and Storage Technology . Woodhead Publishing . ISBN   9780081025857 . 
+ ↑ KAHNG, D. (1961). "Silicon-Silicon Dioxide Surface Device" . Technical Memorandum of Bell Laboratories : 583– 596. doi : 10.1142/9789814503464_0076 . ISBN   978-981-02-0209-5 . {{ cite journal }} : ISBN / Date incompatibility ( help ) CS1 maint: periodical has ISBN ( link ) 
+ ↑ Lojek, Bo (2007). History of Semiconductor Engineering . Springer Science & Business Media . pp.   120, 321. ISBN   9783540342588 . 
+ 1 2 3 4 "1971: Reusable semiconductor ROM introduced" . The Storage Engine . Computer History Museum . 11 June 2018. Archived from the original on 10 August 2023 . Retrieved 19 June 2019 . 
+ 1 2 Fulford, Adel (24 June 2002). "Unsung hero" . Forbes . Archived from the original on 3 March 2008 . Retrieved 18 March 2008 . 
+ ↑ Tyson, Jeff (29 August 2000). "How ROM Works" . HowStuffWorks . Archived from the original on 2 December 2023 . Retrieved 10 September 2019 . 
+ ↑ GB1517925A , "Storage field effect transistors", issued 19 July 1978   Archived 12 September 2024 at the Wayback Machine 
+ ↑ Simko, Richard T. (17 March 1977). "Electrically programmable and electrically erasable MOS memory cell" . Archived from the original on 8 July 2025. 
+ ↑ Frohman-Bentchkowsky, Dov; Mar, Jerry; Perlegos, George; Johnson, William S. (15 December 1978). "Electrically programmable and erasable MOS floating gate memory device employing tunneling and method of fabricating same" . 
+ ↑ US 4531203   Fujio Masuoka 
+ ↑ Semiconductor memory device and method for manufacturing the same 
+ ↑ "NAND Flash Memory: 25 Years of Invention, Development – Data Storage – News & Reviews" . eWeek.com . Retrieved 18 August 2014 . {{ cite web }} : CS1 maint: deprecated archival service ( link ) 
+ 1 2 "Toshiba: Inventor of Flash Memory" . Toshiba . Archived from the original on 20 June 2019 . Retrieved 20 June 2019 . 
+ ↑ 2</sup>PROM cell using triple polysilicon technology"},"conference":{"wt":"1984 [[International Electron Devices Meeting]]"},"location":{"wt":"San Francisco"},"pages":{"wt":"464–467"},"doi":{"wt":"10.1109/IEDM.1984.190752"},"s2cid":{"wt":"25967023"},"first1":{"wt":"F."},"last1":{"wt":"Masuoka"}},"i":0}}]}'/> Masuoka, F.; Asano, M.; Iwahashi, H.; Komuro, T.; Tanaka, S. (December 1984). A new flash E 2 PROM cell using triple polysilicon technology . 1984 International Electron Devices Meeting . San Francisco. pp.   464– 467. doi : 10.1109/IEDM.1984.190752 . S2CID   25967023 . 
+ ↑ Masuoka, F.; Momodomi, M.; Iwata, Y.; Shirota, R. (1987). "New ultra high density EPROM and flash EEPROM with NAND structure cell". Electron Devices Meeting, 1987 International . IEDM 1987. IEEE . pp.   552– 555. doi : 10.1109/IEDM.1987.191485 . 
+ ↑ Tal, Arie (February 2002). "NAND vs. NOR flash technology: The designer should weigh the options when using flash memory" . Archived from the original on 28 July 2010 . Retrieved 31 July 2010 . 
+ ↑ "H8S/2357 Group, H8S/2357F-ZTATTM, H8S/2398F-ZTATTM Hardware Manual" . Renesas . October 2004. p.   574. Archived from the original on 9 January 2023 . Retrieved 23 January 2012 . The flash memory can be reprogrammed up to 100 times. 
+ ↑ "AMD DL160 and DL320 Series Flash: New Densities, New Features" (PDF) . AMD . July 2003. 22271A. Archived from the original (PDF) on 24 September 2015 . Retrieved 13 November 2014 . The devices offer single-power-supply operation (2.7 V to 3.6 V), sector architecture, Embedded Algorithms, high performance, and a 1,000,000 program/erase cycle endurance guarantee. 
+ 1 2 3 James, Dick (May 2014). 3D ICs in the real world . 25th Annual SEMI Advanced Semiconductor Manufacturing Conference (ASMC 2014). Saratoga Springs, NY. pp.   113– 119. doi : 10.1109/ASMC.2014.6846988 . ISBN   978-1-4799-3944-2 . ISSN   2376-6697 . S2CID   42565898 . Archived from the original on 26 April 2021 . Retrieved 20 July 2019 . 
+ ↑ "NAND overtakes NOR in flash memory" . CNET. 
+ ↑ Bridgman, Aston (28 October 1997). "NEC and SanDisk Develop 80Mb Flash Memory" (Press release). NEC . 97/10/28-01. Archived from the original on 18 October 2020. 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 "Memory" . STOL (Semiconductor Technology Online) . Archived from the original on 2 November 2023 . Retrieved 25 June 2019 . 
+ 1 2 3 4 "Toshiba Makes Major Advances in NAND Flash Memory with 3-bit-per-cell 32nm generation and with 4-bit-per-cell 43nm technology" (Press release). Toshiba . 11 February 2009. PR1102. Archived from the original on 19 April 2023 . Retrieved 21 June 2019 . 
+ 1 2 3 "SanDisk ships world's first memory cards with 64 gigabit X4 NAND flash" . SlashGear . 13 October 2009. Archived from the original on 18 April 2023 . Retrieved 20 June 2019 . 
+ 1 2 3 4 "History" . Samsung Electronics . Samsung . Archived from the original on 19 June 2019 . Retrieved 19 June 2019 . 
+ ↑ Wong, Bill (15 April 2013). "Interview: Spansion's CTO Talks About Embedded Charge Trap NOR Flash Technology" . Electronic Design . Archived from the original on 4 December 2023. 
+ ↑ Ito, Takashi; Taito, Yasuhiko (9 September 2017). "SONOS Split-Gate eFlash Memory". In Hidaka, Hideto (ed.). Embedded Flash Memory for Embedded Systems: Technology, Design for Sub-systems, and Innovations . Integrated Circuits and Systems. Springer Publishing . pp.   209– 244. doi : 10.1007/978-3-319-55306-1_7 . ISBN   978-3-319-55306-1 . 
+ ↑ Bez, Roberto; Camerlenghi, E.; Modelli, Alberto; Visconti, Angelo (April 2003). "Introduction to flash memory". Proceedings of the IEEE . 91 (4). Institute of Electrical and Electronics Engineers : 498– 502. Bibcode : 2003IEEEP..91..489B . doi : 10.1109/JPROC.2003.811702 . 
+ ↑ Lee, Jang-Sik (18 October 2011). "Review paper: Nano-floating gate memory devices". Electronic Materials Letters . 7 (3). Korean Institute of Metals and Materials: 175– 183. Bibcode : 2011EML.....7..175L . doi : 10.1007/s13391-011-0901-5 . S2CID   110503864 . 
+ 1 2 Aravindan, Avinash (13 November 2018). "Flash 101: Types of NAND Flash" . embedded.com . Archived from the original on 6 November 2023. 
+ ↑ Meena, Jagan Singh; Sze, Simon Min; Chand, Umesh; Tseng, Tseung-Yuen (25 September 2014). "Overview of emerging nonvolatile memory technologies" . Nanoscale Research Letters . 9 (1): 526. Bibcode : 2014NRL.....9..526M . doi : 10.1186/1556-276x-9-526 . ISSN   1556-276X . PMC   4182445 . PMID   25278820 . 526. 
+ ↑ Sheldon, Robert (19 June 2023). "Charge trap technology advantages for 3D NAND flash drives" . SearchStorage . Archived from the original on 9 August 2023. 
+ ↑ Grossi, A.; Zambelli, C.; Olivo, P. (7 June 2016). "Reliability of 3D NAND Flash Memories". In Micheloni, Rino (ed.). 3D Flash Memories . Dordrecht: Springer Science+Business Media . pp.   29– 62. doi : 10.1007/978-94-017-7512-0_2 . ISBN   978-94-017-7512-0 . 
+ ↑ Kodama, N.; Oyama, K.; Shirai, H.; Saitoh, K.; Okazawa, T.; Hokari, Y. (December 1991). A symmetrical side wall (SSW)-DSA cell for a 64 Mbit flash memory . International Electron Devices Meeting . Washington, DC: IEEE . pp.   303– 306. doi : 10.1109/IEDM.1991.235443 . ISBN   0-7803-0243-5 . ISSN   0163-1918 . S2CID   111203629 . 
+ ↑ Eitan, Boaz. "US Patent 5,768,192: Non-volatile semiconductor memory cell utilizing asymmetrical charge trapping" . US Patent & Trademark Office. Archived from the original on 22 February 2020 . Retrieved 22 May 2012 . 
+ ↑ Fastow, Richard M.; Ahmed, Khaled Z.; Haddad, Sameer; Randolph, Mark; Huster, C.; Hom, P. (April 2000). "Bake induced charge gain in NOR flash cells" . IEEE Electron Device Letters . 21 (4): 184– 186. Bibcode : 2000IEDL...21..184F . doi : 10.1109/55.830976 . ISSN   1558-0563 . S2CID   24724751 . 
+ 1 2 Hruska, Joel (6 August 2013). "Samsung produces first 3D NAND, aims to boost densities, drive lower cost per GB" . ExtremeTech . Archived from the original on 2 November 2023 . Retrieved 4 July 2019 . 
+ 1 2 Melanson, Donald (12 June 2007). "Toshiba announces new "3D" NAND flash technology" . Engadget . Archived from the original on 17 December 2022 . Retrieved 10 July 2019 . 
+ 1 2 "Samsung Introduces World's First 3D V-NAND Based SSD for Enterprise Applications" (Press release). Samsung . 13 August 2013. Archived from the original on 14 April 2019. 
+ 1 2 Clarke, Peter (8 August 2013). "Samsung Confirms 24 Layers in 3D NAND" . EE Times . Archived from the original on 19 February 2020. 
+ 1 2 "Toshiba commercializes Industry's Highest Capacity Embedded NAND Flash Memory for Mobile Consumer Products" (Press release). Toshiba . 17 April 2007. PR1702. Archived from the original on 18 May 2022 . Retrieved 23 November 2010 . 
+ 1 2 "Hynix Surprises NAND Chip Industry" . The Korea Times . 5 September 2007. Archived from the original on 21 November 2023 . Retrieved 8 July 2019 . 
+ 1 2 "Toshiba Launches the Largest Density Embedded NAND Flash Memory Devices" (Press release). Toshiba . 7 August 2008. PR0701. Archived from the original on 7 November 2023 . Retrieved 21 June 2019 . 
+ 1 2 "Toshiba Launches Industry's Largest Embedded NAND Flash Memory Modules" (Press release). Toshiba . 17 June 2010. PR1701. Archived from the original on 6 November 2023 . Retrieved 21 June 2019 . 
+ ↑ Mellor, Chris. "NAND we'll send foreign tech packing, says China of Xtacking: DRAM-speed... but light on layer-stacking" . The Register . Archived from the original on 13 February 2024 . Retrieved 13 February 2024 . 
+ 1 2 Tallis, Billy. "2021 NAND Flash Updates from ISSCC: The Leaning Towers of TLC and QLC" . anandtech.com . Archived from the original on 19 February 2021. 
+ ↑ Mellor, Chris. "What the PUC: SK Hynix next to join big boys in 96-layer 3D NAND land" . The Register . Archived from the original on 13 February 2024 . Retrieved 13 February 2024 . 
+ ↑ Mellor, Chris. "Look who's avoided getting chatty about XPoint again. Micron... let's get non-volatile" . The Register . Archived from the original on 13 February 2024 . Retrieved 13 February 2024 . 
+ ↑ Alcorn, Paul (26 July 2022). "Micron Takes Lead With 232-Layer NAND Flash, up to 2TB per Chip Package" . Tom's Hardware . Archived from the original on 31 May 2024 . Retrieved 31 May 2024 . 
+ ↑ "Western Digital Breaks Boundaries with World's Highest-Capacity microSD Card" (Press release). Berlin: SanDisk . 31 August 2017. Archived from the original on 1 September 2017 . Retrieved 2 September 2017 . 
+ ↑ Bradley, Tony (31 August 2017). "Expand Your Mobile Storage With New 400GB microSD Card From SanDisk" . Forbes . Archived from the original on 1 September 2017 . Retrieved 2 September 2017 . 
+ 1 2 3 Manners, David (30 January 2019). "Samsung makes 1TB flash eUFS module" . Electronics Weekly . Archived from the original on 10 February 2023 . Retrieved 23 June 2019 . 
+ 1 2 3 Tallis, Billy (17 October 2018). "Samsung Shares SSD Roadmap for QLC NAND And 96-layer 3D NAND" . AnandTech . Archived from the original on 6 November 2023 . Retrieved 27 June 2019 . 
+ ↑ "Samsung produces 1TB eUFS memory for smartphones" . Zdnet.com . Retrieved 9 August 2026 . 
+ ↑ Shaikh, Kaif. "China scientists develop flash memory 10,000× faster than current tech" . Interesting Engineering . Archived from the original on 20 April 2025 . Retrieved 20 April 2025 . 
+ ↑ Basinger, Matt (18 January 2007), PSoC Designer Device Selection Guide (PDF) , AN2209, archived from the original on 31 October 2009, The PSoC ... utilizes a unique Flash process: SONOS 
+ ↑ Windbacher, T. "2.1.1 Flash Memory" . Engineering Gate Stacks for Field-Effect Transistors . Archived from the original on 9 November 2023. 
+ ↑ "Floating Gate MOS Memory" . University of Minnesota . Archived from the original on 8 August 2022. 
+ 1 2 Shimpi, Anand Lal (30 September 2011). "The Intel SSD 710 (200GB) Review" . AnandTech . Archived from the original on 2 November 2023. 
+ ↑ "Flash Memory Reliability, Life & Wear" . Electronics Notes . Archived from the original on 2 November 2023. 
+ 1 2 Vättö, Kristian (23 February 2012). "Understanding TLC NAND" . AnandTech . Archived from the original on 2 November 2023. 
+ ↑ "Solid State bit density, and the Flash Memory Controller" . hyperstone.com . 17 April 2018. Archived from the original on 9 June 2023 . Retrieved 29 May 2018 . 
+ ↑ Yasufuku, Tadashi; Ishida, Koichi; Miyamoto, Shinji; Nakai, Hiroto; Takamiya, Makoto; Sakurai, Takayasu; Takeuchi, Ken (2009). "Inductor design of 20-V boost converter for low power 3D solid state drive with NAND flash memories" . Proceedings of the 2009 ACM/IEEE international symposium on Low power electronics and design . pp.   87– 92. doi : 10.1145/1594233.1594253 . ISBN   978-1-60558-684-7 . Archived from the original on 5 March 2016. 
+ ↑ Micheloni, Rino; Marelli, Alessia; Eshghi, Kam (2012), Inside Solid State Drives (SSDs) , Springer, Bibcode : 2013issd.book.....M , ISBN   9789400751460 , archived from the original on 9 February 2017 
+ ↑ Micheloni, Rino; Crippa, Luca (2010), Inside NAND Flash Memories , Springer, ISBN   9789048194315 , archived from the original on 9 February 2017 In particular, Takeuchi, K. (2010). "Low power 3D-integrated SSD". Inside NAND Flash Memories . pp.   515– 536. doi : 10.1007/978-90-481-9431-5_18 . ISBN   978-90-481-9430-8 . 
+ ↑ Mozel, Tracey (2009), CMOSET Fall 2009 Circuits and Memories Track Presentation Slides , CMOS Emerging Technologies, ISBN   9781927500217 , archived from the original on 9 February 2017 
+ ↑ Yasufuku, Tadashi; Ishida, Koichi; Miyamoto, Shinji; Nakai, Hiroto; Takamiya, Makoto; Sakurai, Takayasu; Takeuchi, Ken (2010). "Inductor and TSV Design of 20-V Boost Converter for Low Power 3D Solid State Drive with NAND Flash Memories" . IEICE Transactions on Electronics . 93 (3): 317– 323. Bibcode : 2010IEITE..93..317Y . doi : 10.1587/transele.E93.C.317 . Archived from the original on 4 February 2016 . Retrieved 6 December 2017 . 
+ ↑ "4-times faster rising VPASS (10V), 15% lower power VPGM (20V), wide output voltage range voltage generator system for 4-times faster 3D-integrated solid-state drives" . June 2011. pp.   200– 201. Archived from the original on 31 July 2020 . Retrieved 19 February 2020 . 
+ ↑ Takeuchi, Ken (May 2010). Low power 3D-integrated Solid-State Drive (SSD) with adaptive voltage generator . IEEE International Memory Workshop (IMW). Seoul, Korea. doi : 10.1109/IMW.2010.5488397 . ISBN   978-1-4244-6721-1 . ISSN   2159-4864 . 
+ ↑ Ishida, Koichi; Yasufuku, Tadashi; Miyamoto, Shinji; Nakai, Hiroto; Takamiya, Makoto; Sakurai, Takayasu; Takeuchi, Ken (May 2011). "1.8 V Low-Transient-Energy Adaptive Program-Voltage Generator Based on Boost Converter for 3D-Integrated NAND Flash SSD". IEEE Journal of Solid-State Circuits . 46 (6). Institute of Electrical and Electronics Engineers : 1478– 1487. Bibcode : 2011IJSSC..46.1478I . doi : 10.1109/JSSC.2011.2131810 . ISSN   1558-173X . S2CID   13701601 . 
+ ↑ A. H. Johnston, "Space Radiation Effects in Advanced Flash Memories" Archived 4 March 2016 at the Wayback Machine .
+NASA Electronic Parts and Packaging Program (NEPP). 2001. "... internal transistors used for the charge pump and erase/write control have much thicker oxides because of the requirement for high voltage. This causes flash devices to be considerably more sensitive to total dose damage compared to other ULSI technologies. It also implies that write and erase functions will be the first parameters to fail from total dose. ... Flash memories will work at much higher radiation levels in the read mode. ... The charge pumps that are required to generate the high voltage for erasing and writing are usually the most sensitive circuit functions, usually failing below 10 krad (SI)." 
+ ↑ Zitlaw, Cliff (2 May 2011). "The Future of NOR Flash Memory" . Memory Designline . UBM Media. Archived from the original on 1 June 2023 . Retrieved 3 May 2011 . 
+ ↑ Springer Handbook of Semiconductor Devices . Springer. 10 November 2022. ISBN   978-3-030-79827-7 . 
+ ↑ CMOS Processors and Memories . Springer. 9 August 2010. ISBN   978-90-481-9216-8 . 
+ ↑ Tanzawa, T.; Takano, Y.; Watanabe, K.; Atsumi, S. (2002). "High-voltage transistor scaling circuit techniques for high-density negative-gate channel-erasing NOR flash memories". IEEE Journal of Solid-State Circuits . 37 (10): 1318– 1325. Bibcode : 2002IJSSC..37.1318T . doi : 10.1109/JSSC.2002.803045 . 
+ ↑ Flash Memories: Economic Principles of Performance, Cost and Reliability Optimization . Springer. 12 September 2013. ISBN   978-94-007-6082-0 . 
+ ↑ "NAND Flash Controllers - The key to endurance and reliability" . hyperstone.com . 7 June 2018. Archived from the original on 5 June 2023 . Retrieved 1 June 2022 . 
+ 1 2 3 4 5 6 7 "Samsung moves into mass production of 3D flash memory" . Gizmag.com. 27 August 2013. Archived from the original on 27 August 2013 . Retrieved 27 August 2013 . 
+ ↑ "Samsung Electronics Starts Mass Production of Industry First 3-bit 3D V-NAND Flash Memory" (Press release). Samsung . 9 October 2014. Archived from the original on 30 March 2023. 
+ ↑ "Samsung V-NAND technology" (PDF) . Samsung . September 2014. Archived from the original (PDF) on 27 March 2016 . Retrieved 27 March 2016 . 
+ ↑ Tallis, Billy (9 November 2020). "Micron Announces 176-layer 3D NAND" . AnandTech . Archived from the original on 2 November 2023. 
+ ↑ Mellor, Chris (18 August 2023). "Samsung has 300-layer NAND coming, with 430 layers after that – report" . Archived from the original on 13 February 2024 . Retrieved 13 February 2024 . 
+ ↑ Dube, Belinda Langelihle (2020). "Manufacturing Challenges and Cost Evaluation of New Generation 3D Memories". 2020 China Semiconductor Technology International Conference (CSTIC) . pp.   1– 3. doi : 10.1109/CSTIC49141.2020.9282426 . ISBN   978-1-7281-6558-5 . S2CID   229376195 . 
+ ↑ Choe, Jeongdong (2019). "Comparison of Current 3D NAND Chip & Cell Architecture" (PDF) . pp.   21, 24. Archived (PDF) from the original on 3 May 2024 . Retrieved 31 May 2024 . 
+ ↑ Potoroaca, Adrian (20 April 2020). "Samsung said to be developing industry's first 160-layer NAND flash memory chip" . TechSpot . Archived from the original on 2 November 2023. 
+ ↑ "Toshiba's Cost Model for 3D NAND" . linkedin.com . Archived from the original on 7 October 2025. 
+ ↑ "Calculating the Maximum Density and Equivalent 2D Design Rule of 3D NAND Flash" . linkedin.com . Archived from the original on 11 March 2025 . Retrieved 1 June 2022 . ; "Calculating the Maximum Density and Equivalent 2D Design Rule of 3D NAND Flash" . semwiki.com . 21 February 2021. Archived from the original on 9 April 2022 . Retrieved 1 June 2022 . 
+ ↑ "AVR105: Power Efficient High Endurance Parameter Storage in Flash Memory" Archived 8 November 2019 at the Wayback Machine .
+p. 3 
+ ↑ Calabrese, Marcello (May 2013). "Accelerated reliability testing of flash memory: Accuracy and issues on a 45nm NOR technology". Proceedings of 2013 International Conference on IC Design & Technology (ICICDT) . pp.   37– 40. doi : 10.1109/ICICDT.2013.6563298 . ISBN   978-1-4673-4743-3 . S2CID   37127243 . 
+ ↑ Thatcher, Jonathan; Coughlin, Tom; Handy, Jim; Ekker, Neal (April 2009). NAND Flash Solid State Storage for the Enterprise, An In-depth Look at Reliability (PDF) (Technical report). Solid State Storage Initiative (SSSI) of the Storage Network Industry Association (SNIA). Archived (PDF) from the original on 14 October 2011 . Retrieved 6 December 2011 . 
+ ↑ "Difference between SLC, MLC, TLC and 3D NAND in USB flash drives, SSDs and memory cards" . Kingston Technology . February 2022. Archived from the original on 28 November 2023. 
+ ↑ Bordner, Kirstin (17 December 2008). "Micron Collaborates with Sun Microsystems to Extend Lifespan of Flash-Based Storage, Achieves One Million Write Cycles" (Press release). Boise, Idaho: Micron Technology . Archived from the original on 20 March 2022. 
+ ↑ Owano, Nancy (2 December 2012). "Taiwan engineers defeat limits of flash memory" . phys.org . Archived from the original on 9 February 2016. 
+ ↑ Sharwood, Simon (3 December 2012). "Flash memory made immortal by fiery heat" . The Register . Archived from the original on 13 September 2017. 
+ ↑ Wong, Raymond (4 December 2012). "Flash memory breakthrough could lead to even more reliable data storage" . Yahoo! News . Archived from the original on 2 November 2023. 
+ ↑ "NAND Flash Design and Use Considerations Introduction" (PDF) . Micron Technology . April 2010. TN-29-17. Archived (PDF) from the original on 3 March 2022 . Retrieved 29 July 2011 . 
+ 1 2 Kawamatus, Tatsuya. "Technology For Managing NAND Flash" (PDF) . Hagiwara sys-com co., LTD. Archived from the original (PDF) on 15 May 2018 . Retrieved 15 May 2018 . 
+ ↑ Cooke, Jim (August 2007). The Inconvenient Truths of NAND Flash Memory (PDF) . Flash Memory Summit 2007. Micron Technology . Archived (PDF) from the original on 15 February 2018. 
+ ↑ 
+Richard Blish.
+ "Dose Minimization During X-ray Inspection of Surface-Mounted Flash ICs" Archived 20 February 2016 at the Wayback Machine .
+p. 1.
+ ↑ 
+Richard Blish.
+ "Impact of X-Ray Inspection on Spansion Flash Memory" Archived 4 March 2016 at the Wayback Machine 
+ ↑ "SanDisk Extreme PRO SDHC/SDXC UHS-I Memory Card" . Archived from the original on 27 January 2016 . Retrieved 3 February 2016 . 
+ ↑ "Samsung 32GB USB 3.0 Flash Drive FIT MUF-32BB/AM" . Archived from the original on 3 February 2016 . Retrieved 3 February 2016 . 
+ ↑ Micheloni, Rino; Crippa, Luca; Marelli, Alessia (27 July 2010). Inside NAND Flash Memories . Springer. ISBN   978-90-481-9431-5 . 
+ 1 2 
+Spansion.
+ "What Types of ECC Should Be Used on Flash Memory?" Archived 4 March 2016 at the Wayback Machine .
+2011.
+ 1 2 "Toshiba announces 0.13 micron 1Gb monolithic NAND featuring large block size for improved write/erase speed performance" (Press release). Toshiba . 9 September 2002. Archived from the original on 11 March 2006 . Retrieved 11 March 2006 . 
+ ↑ 
+ Kim, Jesung; Kim, John Min; Noh, Sam H.; Min, Sang Lyul; Cho, Yookun (May 2002). "A Space-Efficient Flash Translation Layer for CompactFlash Systems". Proceedings of the IEEE . Vol.   48, no.   2. pp.   366– 375. doi : 10.1109/TCE.2002.1010143 . 
+ ↑ "Small-Block vs. Large-Block NAND flash Devices" (PDF). TN-29-07. Archived from the original on 29 October 2023. 
+ ↑ "LPC313x NAND flash data and bad block management" (PDF) . NXP Semiconductors . 11 August 2009. AN10860. Archived (PDF) from the original on 8 December 2023. 
+ ↑ "Automated bot check in progress" . Archived from the original on 14 January 2026. 
+ ↑ "Automated bot check in progress" . Archived from the original on 5 November 2025 . Retrieved 25 October 2025 . 
+ ↑ Thatcher, Jonathan (18 August 2009). "NAND Flash Solid State Storage Performance and Capability – an In-depth Look" (PDF) . SNIA. Archived (PDF) from the original on 7 September 2012 . Retrieved 28 August 2012 . 
+ ↑ "Samsung ECC algorithm" (PDF) . Samsung. June 2008. Archived (PDF) from the original on 12 October 2008 . Retrieved 15 August 2008 . 
+ ↑ "Open NAND Flash Interface Specification" (PDF) . Open NAND Flash Interface. 28 December 2006. Archived from the original (PDF) on 27 July 2011 . Retrieved 31 July 2010 . 
+ ↑ A list of ONFi members is available at "Membership - ONFi" . Archived from the original on 29 August 2009 . Retrieved 21 September 2009 . 
+ ↑ "Toshiba Introduces Double Data Rate Toggle Mode NAND in MLC And SLC Configurations" (Press release). Irvine, Calif.: Toshiba . 11 August 2010. Archived from the original on 25 December 2015. 
+ ↑ "Dell, Intel And Microsoft Join Forces To Increase Adoption of NAND-Based Flash Memory in PC Platforms" (Press release). Redmond, Wash: Microsoft . 30 May 2007. Archived from the original on 3 June 2023 . Retrieved 12 August 2014 . 
+ ↑ Micheloni, Rino; Crippa, Luca; Marelli, Alessia (27 July 2010). Inside NAND Flash Memories . Springer Science & Business Media. ISBN   9789048194315 – via Google Books. 
+ ↑ Richter, Detlev (12 September 2013). Flash Memories: Economic Principles of Performance, Cost and Reliability Optimization . Springer. ISBN   978-94-007-6082-0 . 
+ ↑ Daintith, John; Wright, Edmund (14 May 2014). The Facts on File Dictionary of Computer Science . Infobase Publishing. ISBN   9781438109398 – via Google Books. 
+ ↑ Bhattacharyya, Arup (6 July 2017). Silicon Based Unified Memory Devices and Technology . CRC Press. ISBN   9781351798327 – via Google Books. 
+ ↑ Rajaraman, V.; Adabala, Neeharika (15 December 2014). Fundamentals of Computers . PHI Learning Pvt. Ltd. ISBN   9788120350670 – via Google Books. 
+ ↑ Aravindan, Avinash (23 July 2018). "Flash 101: NAND Flash vs NOR Flash" . Embedded.com . Retrieved 23 December 2020 . 
+ ↑ Veendrick, Harry (21 June 2018). Bits on Chips . Springer. ISBN   978-3-319-76096-4 . 
+ ↑ "NAND and NOR Gates" . bob.cs.sonoma.edu . Retrieved 3 November 2024 . 
+ 1 2 3 Micheloni, Rino; Crippa, Luca; Marelli, Alessia (27 July 2010). Inside NAND Flash Memories . Springer Science & Business Media. ISBN   9789048194315 – via Google Books. 
+ ↑ Rudan, Massimo; Brunetti, Rossella; Reggiani, Susanna (10 November 2022). Springer Handbook of Semiconductor Devices . Springer Nature. ISBN   9783030798277 – via Google Books. 
+ ↑ NAND Flash 101: An Introduction to NAND Flash and How to Design It in to Your Next Product (PDF) , Micron, pp.   2– 3, TN-29-19, archived from the original (PDF) on 4 June 2016 
+ ↑ Iniewski, Krzysztof (9 August 2010). CMOS Processors and Memories . Springer. ISBN   978-90-481-9216-8 . 
+ ↑ Pavan, Paolo; Bez, Roberto; Olivo, Piero; Zanoni, Enrico (1997). "Flash Memory Cells – An Overview" . Proceedings of the IEEE . Vol.   85, no.   8 (published August 1997). pp.   1248– 1271. doi : 10.1109/5.622505 . Archived from the original on 2 February 2017 . Retrieved 15 August 2008 . 
+ ↑ Micheloni, Rino; Crippa, Luca; Marelli, Alessia (27 July 2010). Inside NAND Flash Memories . Springer. ISBN   978-90-481-9431-5 . 
+ ↑ Gervasi, Osvaldo (29 August 2007). Computational Science and Its Applications – ICCSA 2007: International Conference, Kuala Lumpur, Malaysia, August 26-29, 2007. Proceedings, Part I . Springer. ISBN   978-3-540-74472-6 . 
+ ↑ "The Fundamentals of Flash Memory Storage" . 20 March 2012. Archived from the original on 4 January 2017 . Retrieved 3 January 2017 . 
+ ↑ "SLC NAND Flash Memory | Toshiba Memory | Europe(EMEA)" . business.toshiba-memory.com . Archived from the original on 1 January 2019 . Retrieved 1 January 2019 . 
+ ↑ "SLC NAND" . Toshiba.com . Archived from the original on 1 September 2018. 
+ ↑ "Serial Interface NAND | Toshiba Memory | Europe(EMEA)" . business.toshiba-memory.com . Archived from the original on 1 January 2019 . Retrieved 1 January 2019 . 
+ ↑ "BENAND | Toshiba Memory | Europe(EMEA)" . business.toshiba-memory.com . Archived from the original on 1 January 2019 . Retrieved 1 January 2019 . 
+ ↑ "SLC NAND Flash Memory | Toshiba Memory | Europe(EMEA)" . business.toshiba-memory.com . Archived from the original on 1 January 2019 . Retrieved 1 January 2019 . 
+ 1 2 Salter, Jim (28 September 2019). "SSDs are on track to get bigger and cheaper thanks to PLC technology" . Ars Technica . 
+ ↑ "PBlaze4_Memblaze" . memblaze.com . Archived from the original on 9 July 2017 . Retrieved 28 March 2019 . 
+ ↑ Crothers, Brooke. "SanDisk to begin making 'X4' flash chips" . CNET. 
+ ↑ Crothers, Brooke. "SanDisk ships 'X4' flash chips" . CNET. Archived from the original on 16 September 2020 . Retrieved 3 September 2020 . 
+ ↑ "SanDisk Ships Flash Memory Cards With 64 Gigabit X4 NAND Technology" . phys.org . Archived from the original on 13 September 2020 . Retrieved 3 September 2020 . 
+ ↑ "SanDisk Begins Mass Production of X4 Flash Memory Chips" . 17 February 2012. Archived from the original on 15 September 2020 . Retrieved 3 September 2020 . 
+ ↑ Tallis, Billy. "The Samsung 983 ZET (Z-NAND) SSD Review: How Fast Can Flash Memory Get?" . AnandTech.com . Archived from the original on 19 February 2019. 
+ ↑ Vättö, Kristian. "Testing Samsung 850 Pro Endurance & Measuring V-NAND Die Size" . AnandTech . Archived from the original on 26 June 2017 . Retrieved 11 June 2017 . 
+ 1 2 Vättö, Kristian. "Samsung SSD 845DC EVO/PRO Performance Preview & Exploring IOPS Consistency" . AnandTech . p.   3. Archived from the original on 22 October 2016 . Retrieved 11 June 2017 . 
+ ↑ Vättö, Kristian. "Samsung SSD 850 EVO (120GB, 250GB, 500GB & 1TB) Review" . AnandTech . p.   4. Archived from the original on 31 May 2017 . Retrieved 11 June 2017 . 
+ ↑ Ramseyer, Chris (9 June 2017). "Flash Industry Trends Could Lead Users Back to Spinning Disks" . Tom's Hardware . Archived from the original on 6 November 2023 . Retrieved 11 June 2017 . 
+ ↑ "PBlaze5 700" . memblaze.com . Archived from the original on 28 March 2019 . Retrieved 28 March 2019 . 
+ ↑ "PBlaze5 900" . memblaze.com . Archived from the original on 28 March 2019 . Retrieved 28 March 2019 . 
+ ↑ "PBlaze5 910/916 series NVMe SSD" . memblaze.com . Archived from the original on 27 March 2019 . Retrieved 26 March 2019 . 
+ ↑ "PBlaze5 510/516 series NVMe™ SSD" . memblaze.com . Archived from the original on 27 March 2019 . Retrieved 26 March 2019 . 
+ ↑ Evans, Chris (7 November 2018). "QLC NAND - What can we expect from the technology?" . Archived from the original on 2 November 2023. 
+ ↑ Dicker, Derek (5 November 2018). "Say Hello: Meet the World's First QLC SSD, the Micron 5210 ION" (Press release). Micron Technology . Archived from the original on 30 January 2019. 
+ ↑ "QLC NAND" . Micron.com . Archived from the original on 30 January 2019. 
+ ↑ Tallis, Billy. "The Intel SSD 660p SSD Review: QLC NAND Arrives For Consumer SSDs" . AnandTech . Archived from the original on 2 November 2023. 
+ ↑ "SSD endurance myths and legends articles on StorageSearch.com" . StorageSearch.com . Archived from the original on 25 June 2008 . Retrieved 1 January 2019 . 
+ ↑ Webster, Sean (19 October 2018). "Samsung Announces QLC SSDs And Second-Gen Z-NAND" . Tom's Hardware . Archived from the original on 2 November 2023. 
+ ↑ James, Dave (8 January 2019). "Samsung 860 QVO review: the first QLC SATA SSD, but it can't topple TLC yet" . PCGamesN . Archived from the original on 21 November 2023. 
+ ↑ "Samsung Electronics Starts Mass Production of Industry's First 4-bit Consumer SSD" (Press release). Samsung . 7 August 2018. Archived from the original on 2 November 2023. 
+ ↑ Jin, Hyunjoo; Nellis, Stephen; Hu, Krystal; Bera, Ayanti; Lee, Joyce (20 October 2020). Coates, Stephen (ed.). "South Korea's SK Hynix to buy Intel's NAND business for $9 billion" . Reuters . Archived from the original on 2 November 2023. 
+ ↑ "NAND Evolution and its Effects on Solid State Drive Useable Life" (PDF) . Western Digital. 2009. Archived from the original (PDF) on 12 November 2011 . Retrieved 22 April 2012 . 
+ ↑ "Flash vs DRAM follow-up: chip stacking" . The Daily Circuit . 22 April 2012. Archived from the original on 24 November 2012 . Retrieved 22 April 2012 . 
+ ↑ "Computer data storage unit conversion - non-SI quantity" . Archived from the original on 8 May 2015 . Retrieved 20 May 2015 . 
+ ↑ Shilov, Anton (12 September 2005). "Samsung Unveils 2GB Flash Memory Chip" . X-bit labs. Archived from the original on 24 December 2008 . Retrieved 30 November 2008 . 
+ ↑ Gruener, Wolfgang (11 September 2006). "Samsung announces 40 nm Flash, predicts 20 nm devices" . TG Daily. Archived from the original on 23 March 2008 . Retrieved 30 November 2008 . 
+ ↑ "SanDisk Announces the 12-Gigabyte microSDHC Card - the World's Largest Capacity Card for Mobile Phones" (Press release). Las Vegas, Nevada: SanDisk . 7 January 2008. 4079. Archived from the original on 19 December 2008. 
+ ↑ "SanDisk UltraII Line Picks Up Speed and Boosts Capacity with New 32- AND 16-Gigabyte SDHC and 8GB SDHC Plus Cards" (Press release). Las Vegas, Nevada: SanDisk . 31 January 2008. 4091. Archived from the original on 19 December 2008. 
+ ↑ [ dead link ] 
+ ↑ "Kingston outs the first 256GB flash drive" . 20 July 2009. Archived from the original on 8 July 2017 . Retrieved 28 August 2017 . 
+ ↑ Borghino, Dario (31 March 2015). "3D flash technology moves forward with 10   TB SSDs and the first 48-layer memory cells" . Gizmag . Archived from the original on 18 May 2015 . Retrieved 31 March 2015 . 
+ ↑ "Samsung Launches Monster 4TB 850 EVO SSD Priced at $1,499 | Custom PC Review" . Custom PC Review . 13 July 2016. Archived from the original on 9 October 2016 . Retrieved 8 October 2016 . 
+ ↑ "Nimbus Data Launches the World's Largest Solid State Drive – 100 Terabytes – to Power Data-driven Innovation | Nimbus Data" . Nimbus Data | Nimbus Data . 19 March 2018 . Retrieved 6 October 2026 . 
+ ↑ "Kioxia becomes fifth SSD vendor to launch 120TB-class SSD but this is the only one that is a Gen5 2.5-inch model" . TechRadar . 20 March 2025 . Retrieved 6 October 2026 . 
+ 1 2 Master, Neal; Andrews, Mathew; Hick, Jason; Canon, Shane; Wright, Nicholas (2010). "Performance analysis of commodity and enterprise class flash devices" (PDF) . IEEE Petascale Data Storage Workshop . Archived (PDF) from the original on 6 May 2016. 
+ ↑ Ng, Jansen. "Samsung Confirms 32nm Flash Problems, Working on New SSD Controller" . dailytech.com . Archived from the original on 4 March 2016 . Retrieved 3 October 2009 . 
+ 1 2 
+Clive Maxfield.
+ "Bebop to the Boolean Boogie: An Unconventional Guide to Electronics" .
+p. 232.
+ ↑ Many serial flash devices implement a bulk read mode and incorporate an internal address counter, so that it is trivial to configure them to transfer their entire contents to RAM on power-up. When clocked at 50   MHz, for example, a serial flash could transfer a 64 Mbit firmware image in less than two seconds. 
+ ↑ Lyth0s (17 March 2011). "SSD vs. HDD" . elitepcbuilding.com . Archived from the original on 20 August 2011 . Retrieved 11 July 2011 . 
+ ↑ "Flash Solid State Disks – Inferior Technology or Closet Superstar?" . STORAGEsearch. Archived from the original on 24 December 2008 . Retrieved 30 November 2008 . 
+ ↑ Matsunobu, Yoshinori (15 April 2010). "SSD Deployment Strategies for MySQL" . Archived from the original on 3 March 2016. 
+ ↑ "Samsung Electronics Launches the World's First PCs with NAND Flash-based Solid State Disk" . Press Release . Samsung. 24 May 2006. Archived from the original on 20 December 2008 . Retrieved 30 November 2008 . 
+ ↑ "Samsung's SSD Notebook" . 22 August 2006. Archived from the original on 15 October 2018 . Retrieved 15 October 2018 . 
+ ↑ "文庫本サイズの「VAIO type U」 フラッシュメモリー搭載モデル発売" [ Release of the "VAIO type U" paperback-sized model with flash memory ] (Press release) (in Japanese). Sony . 27 June 2006. Archived from the original on 10 May 2023. 
+ ↑ "Sony Vaio UX UMPC – now with 32 GB Flash memory | NBnews.info. Laptop and notebook news, reviews, test, specs, price | Каталог ноутбуков, ультрабуков и планшетов, новости, обзоры" . Archived from the original on 28 June 2022 . Retrieved 7 November 2018 . 
+ ↑ Perry, Douglas (25 July 2012). "Princeton: Replacing RAM with Flash Can Save Massive Power" . Tom's Hardware . Archived from the original on 6 November 2023. 
+ 1 2 "Understanding Life Expectancy of Flash Storage" . ni.com . 23 July 2020. Archived from the original on 1 December 2023 . Retrieved 19 December 2020 . 
+ ↑ "8-Bit AVR Microcontroller ATmega32A Datasheet Complete" (PDF) . 19 February 2016. p.   18. Archived from the original (PDF) on 9 April 2016 . Retrieved 29 May 2016 . Reliability Qualification results show that the projected data retention failure rate is much less than 1 PPM over 20 years at 85   °C or 100 years at 25   °C 
+ ↑ "On Hacking MicroSD Cards" . bunnie's blog . 29 December 2013. Archived from the original on 2 November 2023. 
+ ↑ "Data Retention in MLC NAND Flash Memory: Characterization, Optimization, and Recovery" (PDF) . 27 January 2015. p.   10. Archived (PDF) from the original on 7 October 2016 . Retrieved 27 April 2016 . 
+ ↑ "JEDEC SSD Specifications Explained" (PDF) . p. 27. Archived (PDF) from the original on 7 February 2019 . Retrieved 9 January 2019 . 
+ ↑ Linus Sebastian from Techquickie (9 September 2020). Is cooling your SSD a mistake? . Archived from the original on 4 July 2025 . Retrieved 9 July 2025 . (all-uppercase words in title changed to lowercase) 
+ ↑ Yinug, Christopher Falan (July 2007). "The Rise of the Flash Memory Market: Its Impact on Firm Behavior and Global Semiconductor Trade Patterns" (PDF) . Journal of International Commerce and Economics . Archived from the original (PDF) on 29 May 2008 . Retrieved 19 April 2008 . 
+ ↑ Hajdarbegovic, Nermin (17 April 2013). "NAND memory market rockets" . TG Daily . Archived from the original on 8 February 2016 . Retrieved 18 April 2013 . 
+ ↑ Owen, Malcolm. "Power outage may have ruined 15 exabytes of WD and Toshiba flash storage" . AppleInsider . Archived from the original on 2 November 2023. 
+ ↑ "China's Semiconductor Memory Maker YMTC Surpasses 10% Global Market Share" . Archived from the original on 31 December 2025 . Retrieved 27 December 2025 . 
+ ↑ Kwan, Campbell. "Former Toshiba memory business to rebrand as Kioxia" . ZDNet . Archived from the original on 4 October 2023 . Retrieved 12 July 2023 . 
+ ↑ "SK Hynix completes first phase of $9 bln Intel NAND business buy" . Reuters . 29 December 2021. Archived from the original on 27 June 2022 . Retrieved 27 June 2022 . 
+ 1 2 3 4 5 6 7 8 9 10 "The Flash Memory Market" (PDF) . Integrated Circuit Engineering Corporation. 1997. p.   4. Archived (PDF) from the original on 19 April 2023 . Retrieved 16 October 2019 – via Smithsonian Institution . 
+ 1 2 3 4 Cappelletti, Paulo; Golla, Carla; Olivo, Piero; Zanoni, Enrico (2013). Flash Memories . Springer Science & Business Media . p.   32. ISBN   9781461550150 . 
+ ↑ "Not Flashing Quite As Fast" . Electronic Business . 26 ( 7– 13). Cahners Publishing Company : 504. 2000. Unit shipments increased 64% in 1999 from the prior year, and are forecast to increase 44% to 1.8 billion units in 2000. 
+ ↑ Sze, Simon Min. "Evolution of Nonvoltatile Semiconductor Memory: From Invention to Nanocrystal Memory" (PDF) . CERN . National Yang Ming Chiao Tung University . p.   41. Archived (PDF) from the original on 2 November 2023 . Retrieved 22 October 2019 . 
+ 1 2 Handy, Jim (26 May 2014). "How Many Transistors Have Ever Shipped?" . Forbes . Archived from the original on 2 November 2023 . Retrieved 21 October 2019 . 
+ ↑ "Markit View: Major events in the 2008 DRAM industry; End application demand remains weak, 2009 NAND Flash demand bit growth being revised down to 81%" . DRAMeXchange . 30 December 2008. Archived from the original on 15 April 2023 . Retrieved 16 October 2019 . 
+ ↑ "NOR Flash Memory Finds Growth Opportunities in Tablets and E-Book Readers" . IHS Technology (Press release). IHS Markit . 9 June 2011. Archived from the original on 16 October 2019 . Retrieved 16 October 2019 . 
+ ↑ "Samsung to unveil new mass-storage memory cards" . The Korea Times . 29 August 2012. Archived from the original on 2 November 2023 . Retrieved 16 October 2019 . 
+ ↑ "Winbond Top Serial Flash Memory Supplier Worldwide, Ships 1.7 Billion Units in 2012, Ramps 58nm Production" (Press release). San Jose, Calif. & Taichung, Taiwan: Winbond . 10 April 2013. Archived from the original on 2 November 2023 . Retrieved 16 October 2019 – via Business Wire . 
+ ↑ Shilov, Anton (1 October 2015). "Samsung: NAND flash industry will triple output to 253EB by 2020" . KitGuru . Archived from the original on 7 November 2023 . Retrieved 16 October 2019 . 
+ ↑ "Flash memory prices rebound as makers introduce larger-capacity chips" . Nikkei Asian Review . Nikkei, Inc. 21 July 2016. Archived from the original on 2 November 2023 . Retrieved 16 October 2019 . 
+ ↑ Tidwell, William (30 August 2016). "Data 9, Storage 1 - NAND Production Falls Behind in the Age of Hyperscale" . Seeking Alpha . Micron . Archived from the original on 18 April 2023 . Retrieved 17 October 2019 . 
+ ↑ Coughlin, Thomas M. (2017). Digital Storage in Consumer Electronics: The Essential Guide . Springer. p.   217. ISBN   9783319699073 . 
+ 1 2 Reinsel, David; Gantz, John; Rydning, John (November 2018). "IDC White Paper: The Digitization of the World" (PDF) . Seagate Technology . International Data Corporation . p.   14. US44413318. Archived (PDF) from the original on 28 November 2023 . Retrieved 17 October 2019 . 
+ ↑ Mellor, Chris (28 February 2018). "Who was the storage dollar daddy in 2017? S. S. D" . The Register . Archived from the original on 10 November 2023 . Retrieved 17 October 2019 . 
+ ↑ "Combined SSD, HDD Storage Shipped Jumps 21% to 912 Exabytes in 2018" (Press release). Cupertino, Calif.: Trendfocus. 7 March 2019. Archived from the original on 2 November 2023 . Retrieved 17 October 2019 – via Business Wire . 
+ 1 2 Yiu, Joseph (February 2015). Design of SoC for High Reliability Systems with Embedded Processors (PDF) . Embedded World 2015. ARM . Archived (PDF) from the original on 4 December 2023 . Retrieved 23 October 2019 . 
+ ↑ Smith, Ryan (8 October 2019). "Arm TechCon 2019 Keynote Live Blog (Starts at 10am PT/17:00 UTC)" . AnandTech . Archived from the original on 21 November 2023 . Retrieved 15 October 2019 . 
+ ↑ "2011 Annual Report" . Cypress Semiconductor . 2012. Archived from the original on 16 October 2019 . Retrieved 16 October 2019 . 
+ 1 2 3 4 5 "Technology Roadmap for NAND Flash Memory" . techinsights. April 2013. Archived from the original on 9 January 2015 . Retrieved 9 January 2015 . 
+ 1 2 3 4 5 6 "Technology Roadmap for NAND Flash Memory" . techinsights. April 2014. Archived from the original on 9 January 2015 . Retrieved 9 January 2015 . 
+ 1 2 3 4 "NAND Flash Memory Roadmap" (PDF) . TechInsights . June 2016. Archived from the original (PDF) on 25 June 2018 . Retrieved 25 June 2018 . 
+ 1 2 Parrish, Kevin (11 April 2013). "Samsung Mass Producing 128Gb 3-bit MLC NAND Flash" . Tom's Hardware . Archived from the original on 21 June 2019 . Retrieved 21 June 2019 . 
+ ↑ "Toshiba   : News Release (31 Aug, 2010): Toshiba launches 24nm process NAND flash memory" . Toshiba.co.jp . Archived from the original on 23 February 2020 . Retrieved 3 July 2019 . 
+ ↑ Shimpi, Anand Lal (2 December 2010). "Micron's ClearNAND: 25nm + ECC, Combats Increasing Error Rates" . AnandTech . Archived from the original on 3 December 2010 . Retrieved 2 December 2010 . 
+ ↑ Kim, Kinam; Koh, Gwan-Hyeob (16 May 2004). Future memory technology including emerging new memories . 24th International Conference on Microelectronics. Niš, Serbia: Institute of Electrical and Electronics Engineers . pp.   377– 384. doi : 10.1109/ICMEL.2004.1314646 . ISBN   978-0-7803-8166-7 . S2CID   40985239 . 
+ ↑ "A chronological list of Intel products. The products are sorted by date" (PDF) . Intel museum . Intel . July 2005. Archived from the original (PDF) on 9 August 2007 . Retrieved 31 July 2007 . 
+ ↑ "DD28F032SA Datasheet" (PDF) . Intel . Archived (PDF) from the original on 4 December 2023 . Retrieved 27 June 2019 . 
+ ↑ "Japanese Company Profiles" (PDF) . Integrated Circuit Engineering Corporation. 1996. Archived from the original (PDF) on 19 April 2023 . Retrieved 27 June 2019 – via Smithsonian Institution . 
+ ↑ "Toshiba to Introduce Flash Memory Cards" (Press release). Tokyo: Toshiba . 2 March 1995. PR0201. Archived from the original on 6 November 2023 . Retrieved 20 June 2019 . 
+ ↑ "Worldwide IC Manufacturers" (PDF) . Integrated Circuit Engineering Corporation. 1997. Archived from the original (PDF) on 14 August 2023 . Retrieved 10 July 2019 – via Smithsonian Institution . 
+ ↑ "Toshiba and SanDisk introduce a one gigabit NAND flash memory chip, doubling capacity of future flash products" (Press release). Las Vegas, Nv. and Tokyo, Japan: Toshiba . 12 November 2001. pr1202. Archived from the original on 19 April 2023 . Retrieved 20 June 2019 . 
+ 1 2 "History: Continuing the legacy 2000-2009" . Samsung Semiconductor . Samsung . Archived from the original on 1 December 2023 . Retrieved 25 June 2019 . 
+ ↑ "Toshiba announces 1 gigabyte CompactFlash™ card" (Press release). Toshiba . 9 September 2002. Archived from the original on 11 March 2006 . Retrieved 11 March 2006 . 
+ 1 2 "History: 2010s" . SK Hynix . Archived from the original on 17 May 2021 . Retrieved 8 July 2019 . 
+ ↑ "e.MMC 4.41 Specification compatibility Rev 1.1" (PDF) . Samsung Electronics . December 2011. Archived (PDF) from the original on 4 December 2023 . Retrieved 15 July 2019 . 
+ ↑ "Toshiba Develops World's First 4-bit Per Cell QLC NAND Flash Memory" (Press release). Toshiba . 28 June 2017. Archived from the original on 2 November 2023 . Retrieved 20 June 2019 – via TechPowerUp. 
+ ↑ Shilov, Anton (6 August 2018). "Samsung Starts Mass Production of QLC V-NAND-Based SSDs" . AnandTech . Archived from the original on 2 November 2023 . Retrieved 23 June 2019 . 
+ ↑ Dent, Steve (20 July 2018). "Toshiba's flash chips could boost SSD capacity by 500 percent" . Engadget . Archived from the original on 6 November 2023 . Retrieved 23 June 2019 . 
+ ↑ McGrath, Dylan (20 February 2019). "Toshiba Claims Highest-Capacity NAND" . EE Times . San Francisco. Archived from the original on 23 April 2023 . Retrieved 23 June 2019 . 
+ ↑ Shilov, Anton (26 June 2019). "SK Hynix Starts Production of 128-Layer 4D NAND, 176-Layer Being Developed" . AnandTech . Archived from the original on 22 June 2023 . Retrieved 8 July 2019 . 
+ ↑ Mu-Hyun, Cho. "Samsung produces 1TB eUFS memory for smartphones" . ZDNet . Archived from the original on 2 November 2023. 
+ ↑ "Samsung Breaks Terabyte Threshold for Smartphone Storage with Industry's First 1TB Embedded Universal Flash Storage" (Press release). Samsung . 30 January 2019. Archived from the original on 30 November 2023 . Retrieved 13 July 2019 . 
+ ↑ "UFS 4.0 Infographic" (PDF) . Micron . 2023. Archived (PDF) from the original on 29 October 2023. 
+ External links [ edit ] 
+ Wikimedia Commons has media related to Flash memory . 
+ Semiconductor Characterization System has diverse functions Archived 22 October 2018 at the Wayback Machine 
+ Understanding and selecting higher performance NAND architectures Archived 31 October 2012 at the Wayback Machine 
+ How flash storage works, presentation by David Woodhouse from Intel 
+ Flash endurance testing 
+ NAND Flash Data Recovery Cookbook 
+ Type of Flash Memory by OpenWrt 
+ v t e Solid-state drives Key terminology 
+ Encryption 
+ ECC 
+ Flash file system 
+ Flash memory 
+ SLC/MLC 
+ Flash memory controller 
+ Garbage collection 
+ IOPS 
+ MB/s 
+ Memory wear 
+ Open-channel SSD 
+ Over-provisioning 
+ Read disturb 
+ Secure erase 
+ Solid-state storage 
+ Trim command 
+ Wear leveling 
+ Write amplification 
+ Flash manufacturers 
+ Micron 
+ Samsung 
+ SK Hynix 
+ Bought Intel 's NAND flash chips and NAND flash SSD businesses and renamed the SSD business as Solidigm 
+ Flash Forward (joint venture between Sandisk and Kioxia ) 
+ YMTC 
+ XMC 
+ Controllers Captive 
+ Sandisk 
+ Western Digital 
+ Fusion-io 
+ HGST 
+ sTec 
+ Kioxia 
+ OCZ (bankrupt, assets sold to Toshiba, which later spun off its SSD and flash business to Kioxia) 
+ Indilinx (bought by OCZ) 
+ Micron 
+ Samsung 
+ Seagate 
+ SandForce 
+ SK Hynix 
+ Bought Intel 's NAND flash chips and NAND flash SSD businesses including controllers and renamed the SSD business Solidigm 
+ FADU 
+ Independent 
+ Greenliant Systems 
+ Goke 
+ Maxiotek 
+ Marvell 
+ Phison 
+ PMC-Sierra 
+ SMI 
+ SSD manufacturers 
+ List of solid-state drive manufacturers 
+ Interfaces 
+ Advanced Host Controller Interface (AHCI) 
+ Fibre Channel (FC) 
+ NVM Express (NVMe) 
+ PCI Express (PCIe) 
+ SATA Express 
+ Serial ATA (SATA) 
+ Serial attached SCSI (SAS) 
+ Universal Serial Bus (USB) 
+ Configurations 
+ HDD form factors 
+ mSATA 
+ M.2 
+ PCI Express expansion card 
+ Thunderbolt 
+ USB Type-C 
+ U.2 
+ U.3 
+ EDSFF 
+ Related organizations 
+ INCITS 
+ JEDEC / JC-42, JC-64.8 
+ ONFI 
+ NVMHCI Work Group 
+ USB-IF 
+ SATA-IO 
+ SFF Committee 
+ SNIA 
+ SSSI 
+ T10/SCSI 
+ T11/FC 
+ T13/ATA 
+ Category 
+ Authority control databases National United States Latvia Israel Other Yale LUX 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Flash_memory&oldid=1381256139 " 
+ Categories : 20th-century inventions Computer memory Japanese inventions Non-volatile memory Solid-state computer storage media Hidden categories: Articles with short description Short description matches Wikidata Pages using infobox storage medium with unknown parameters Use dmy dates from February 2026 Articles containing potentially dated statements from 2019 All articles containing potentially dated statements CS1 errors: ISBN date CS1 maint: periodical has ISBN Webarchive template wayback links CS1 maint: deprecated archival service CS1: unfit URL All articles with unsourced statements Articles with unsourced statements from May 2022 Articles containing potentially dated statements from 2013 Wikipedia articles needing clarification from December 2022 Articles with unsourced statements from September 2020 All Wikipedia articles needing clarification Wikipedia articles needing clarification from October 2024 All articles with dead external links Articles with dead external links from June 2022 Wikipedia articles needing clarification from February 2020 Wikipedia articles needing clarification from December 2020 CS1 Japanese-language sources (ja) Articles containing potentially dated statements from 2012 All pages needing factual verification Wikipedia articles needing factual verification from February 2026 Articles containing potentially dated statements from 2015 Inconsistent wikidata for Commons category 
+ This page was last edited on 21 October 2026, at 02:01  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Flash memory 
+ 63 languages 
+ Add topic 
+ 

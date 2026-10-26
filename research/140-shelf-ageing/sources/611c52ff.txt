@@ -1,0 +1,98 @@
+ 
+ Time-dependent gate oxide breakdown - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ Models 
+ 2 
+ Test method 
+ 3 
+ See also 
+ 4 
+ References 
+ Toggle the table of contents 
+ Time-dependent gate oxide breakdown 
+ 3 languages 
+ Català فارسی Italiano 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Failure mechanism in MOSFETs 
+ Time-dependent gate oxide breakdown (or time-dependent dielectric breakdown , TDDB ) is a kind of transistor aging , a failure mechanism in MOSFETs , when the gate oxide breaks down as a result of long-time application of relatively low electric field (as opposed to immediate breakdown, which is caused by strong electric field). The breakdown is caused by formation of a conducting path through the gate oxide to substrate due to electron tunneling current, when MOSFETs are operated close to or beyond their specified operating voltages. 
+ Models [ edit ] 
+ The defect generation in the dielectric is a stochastic process . There are two modes of breakdown, intrinsic and extrinsic. Intrinsic breakdown is caused by electrical stress induced defect generation. Extrinsic breakdown is caused by defects induced by the manufacturing process. For Integrated circuits, the time to breakdown is dependent on the thickness of the dielectric (gate oxide) and also on the material type, which is dependent on the manufacturing process node . Older generation products with gate oxide thickness > 4   nm are based on SiO2 and the advanced process nodes with gate oxide < 4   nm are based on high-k dielectric materials. There are different breakdown models and thickness of the gate oxide determines the validity of the model. E model, 1/E model and power law exponential model are common models which depict the breakdown behavior. 
+ The failure types for integrated circuit (IC) components follow the classic bath tub curve . There is infant mortality, which is decreasing failure rate typically due to manufacturing defects. A low constant failure rate which is random in nature. Wear out failures are increasing failures due to aging semiconductor degradation mechanisms. TDDB is one of the intrinsic wear out failure mechanisms. Performance of the IC components can be evaluated for semiconductor wear out mechanisms including TDDB for any given operating conditions. The breakdown models mentioned above could be used to predict the time to fail for the component due to time dependent dielectric breakdown (TDDB). 
+ Test method [ edit ] 
+ The most commonly used test for the investigation of TDDB behavior is "constant stress". [ 1 ] Constant stress tests can be applied in form of constant voltage stress (CVS) or constant current stress. In the former, a voltage (that is often lower than the breakdown voltage of the oxide) is applied to the gate, while its leakage current is being monitored. The time it will take for the oxide to break under this constant applied voltage is called the time-to-failure. The test is then repeated several times to obtain a distribution of time-to-failure. [ 1 ] These distributions are used to create reliability plots and to predict the TDDB behavior of oxide at other voltages. 
+ See also [ edit ] 
+ QBD 
+ High-temperature operating life 
+ References [ edit ] 
+ 1 2 Elhami Khorasani, Arash; Griswold, Mark; Alford, T. L. (2014). "A Fast $I{-}V$ Screening Measurement for TDDB Assessment of Ultra-Thick Inter-Metal Dielectrics". IEEE Electron Device Letters . 35 (1): 117– 119. doi : 10.1109/LED.2013.2290538 . ISSN   0741-3106 . 
+ This electronics-related article is a stub . You can help Wikipedia by adding missing information . v t e 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Time-dependent_gate_oxide_breakdown&oldid=1343781613 " 
+ Categories : Semiconductor device defects Electronics stubs Hidden categories: Articles with short description Short description matches Wikidata All stub articles 
+ This page was last edited on 16 March 2026, at 09:56  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Time-dependent gate oxide breakdown 
+ 3 languages 
+ Add topic 
+ 

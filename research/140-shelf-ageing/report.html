@@ -1,0 +1,73 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究140：計算機の部品の保管の老化 a を機構から置く（open_problems 322） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="140-a-open_problems-322">研究140：計算機の部品の保管の老化 a を機構から置く（open_problems 322）</h1>
+<blockquote>
+<p>注：a・L_T3・状態の割合・ΔV は模型の中の量で、生存確率でも復興確率でもない。提言は模型の中での順位で、外部の検証はまだ。</p>
+</blockquote>
+<h2 id="_1">問い</h2>
+<p>139 では保管の老化 a（無通電の予備が使用中の何倍の速さで劣化するか）だけが L_T3 を決め、重み付き ΔV の符号まで a で反転した。型ごとに主な劣化の機構が無通電で進むかを公開の資料で確かめ、a を置き直す。</p>
+<h2 id="sourcesreadme_sourcestxt">資料（本回開いて確認、sources/README_sources.txt）</h2>
+<ul>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Aluminum_electrolytic_capacitor">Wikipedia アルミ電解コンデンサ</a>）】寿命は電解液の蒸発で決まり、10 度下がるごとに寿命が 2 倍。無電圧の 1000 h 上限温度の保管試験はほぼ全系列が満たし、室温で最低 5 年の保管に相当、現代品は保管後の前処理が不要。2 年の保管規定は端子の酸化（はんだ付け性）による。古い品は約 1 kΩ 経由で定格電圧を 1 時間かける再化成で漏れ電流が戻る。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Electromigration">Wikipedia Electromigration</a>、<a href="https://en.wikipedia.org/wiki/Time-dependent_gate_oxide_breakdown">TDDB</a>）】IC の摩耗の機構は電流密度・ジュール熱、ゲートへの長時間の電界で進む。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Whisker_(metallurgy)">Wikipedia Whisker</a>）】金属のウィスカーは圧縮応力で生じ、電磁場を要しない（無通電でも進む機構）。速さの資料はない（亜鉛で最大 1 mm/年のみ）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Flash_memory">Wikipedia Flash memory</a>）】フラッシュの摩耗は消去ごとの高電界。リフレッシュなしのデータ保持は室温で典型的に 1 年（CMU 2015）。</li>
+<li>【事実（<a href="https://en.wikipedia.org/wiki/Hard_disk_drive_failure">Wikipedia HDD failure</a>）】ランプ式のロード・アンロードは摩耗とスティクションの危険をほぼ無くす。</li>
+</ul>
+<h2 id="simpy-75">方法（sim.py、約 75 秒）</h2>
+<p>139 の sim.py の資料の値と部品の関数をそのまま取り込み、a を型ごとに分けた。主の a：コンデンサ 2^((25−45)/10)=0.25【推測：保管 25°C・使用中のケース 45°C は 139 と同じ仮定】、IC・SSD・HDD は 0【推測：資料の機構は通電を要する】。版でウィスカー（IC の a 0.1・0.3）、HDD 0.2、保管温度 10〜35°C、使用 55°C、再化成なしで保管 5・10 年で予備が死ぬ悲観の段を動かした。MC は 139 と同じ版の幅で a だけ機構から引いた（Ts〜U(10,35)、Tu〜U(40,55)、a_ic〜U(0,0.3) など）。再現：139 の主（1,000 年）と a=1（32.5 年）を assert、032 の元の重み付き R_tab を assert（差 0）。</p>
+<h2 id="_2">結果</h2>
+<ul>
+<li>主の版：<strong>L_T3 = 122.8 年（コンデンサが決める）</strong>、IC・記憶装置は 1,000 年以上。N_thr 10³〜10⁵ で 104.5〜133.5 年。</li>
+<li>保管温度で大きく動く：10°C で 330 年、15°C で 238 年、35°C で 63 年（T3_fragile）。</li>
+<li>ウィスカーの a=0.3 で IC は 581 年、ただし IC の摩耗型（β=3）と重なると 60.5 年で IC が決める。</li>
+<li>再化成をしない悲観の段（保管 5・10 年で予備が死ぬ）では 5・10 年で重い崩壊。手で付け替える版は 1,000 年以上。</li>
+<li>MC 版：中央値 171 年、10 % 点 76 年。重い 0.00、T3_fragile 0.12、T3 0.88（139 の MC は 0.02/0.67/0.31）。80 年未満を決めるのは IC 0.54・コンデンサ 0.45。</li>
+<li>032 の NUC_G の重い崩壊は 0.19 → 0.016（Q 完全相関、主と MC で同じ）。重み付き ΔV は主で A_Ord −0.6 %・A_XPT_S −14 %・A_XPT_E −20 %、MC 版で −0.3 %・−10 %・−15 %。<strong>139 の MC 版の +8.8 %・+13 % の符号は反転し、T3 側（負）に揃った。</strong></li>
+</ul>
+<h2 id="_3">仮説の判定</h2>
+<table>
+<thead>
+<tr>
+<th>仮説</th>
+<th>結果</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H152a コンデンサの不可逆の a &lt; 0.3</td>
+<td>0.25（保管 25°C）、35°C なら 0.5</td>
+<td>支持（保管温度の仮定に依存、余裕は小さい）</td>
+</tr>
+<tr>
+<td>H152b IC の a &lt; 0.1</td>
+<td>主 0（電界・電流の機構）、ウィスカーの割合は資料なし</td>
+<td>支持（ウィスカーを 0.1 以下と置いた仮定込み）</td>
+</tr>
+<tr>
+<td>H152c 主で L_T3 ≥ 80、重い &lt; 0.05</td>
+<td>122.8 年、0.016</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>H152d 決めるのはコンデンサ</td>
+<td>PSU_cap</td>
+<td>支持（ただし MC で 80 年未満は IC が 0.54）</td>
+</tr>
+<tr>
+<td>予測（100 年台）は当たった。</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_4">批判的検討</h2>
+<ul>
+<li>10 度則は使用中の蒸発の則で、無電圧の保管でも同じ係数で進むかは資料にない。無電圧・リプルなしなら蒸発はさらに遅い可能性【推測】→ a=0.25 は上限寄り。</li>
+<li>保管温度 35°C（暑い倉庫）で 63 年と T3_fragile に落ちる。核の冬の寒冷化は逆に有利【推測】。</li>
+<li>再化成なしの悲観の段は、現代品が前処理不要とする資料と食い違うので MC から外した（登録外の判断）。古い在庫が多い国では効く【推測】。</li>
+<li>IC の無通電の故障（ウィスカー・湿気・腐食）の割合は資料がなく、版の幅で置いただけ。ここが残る最大の穴【推測】。</li>
+<li>交換≠故障、データセンターの率を家庭の在庫に当てる、人と組織の持続が入っていない、の 139 の限界はそのまま。</li>
+<li>データ（SSD の中身）は無通電で 1 年程度で失われうるので、部品の在庫が残っても<strong>中身の写しは通電の回転か別媒体が要る</strong>【独自仮説】。部品の寿命と別の問題。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<p>模型の維持者は 032 の NUC_G の重い崩壊を 0.19 から 0.016 に下げ、ΔV の符号の不定（139）を「T3 側、A_XPT_S −10〜−14 %」として閉じる。現実の在庫の管理者がいるなら、効くのは電源の予備を涼しく（15°C 以下で 238 年以上）置くことと、電解コンデンサの付け替え・再化成の技能を残すこと【推測】。D2rz の推しは不変。保管の老化の系列はこれで閉じ、次は固定の節の「記録の単純さ」（媒体ごとの読むのに要る技術段×劣化速度×段に届く確率）へ移る。</p><footer><hr><small>自動生成</small></footer></body></html>

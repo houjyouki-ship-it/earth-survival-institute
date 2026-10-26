@@ -1,0 +1,645 @@
+ 
+ Electromigration - Wikipedia 
+ Jump to content 
+ Main menu 
+ Main menu 
+ move to sidebar 
+ hide 
+ Navigation
+ Main page Contents Current events Random article About Wikipedia Contact us 
+ Contribute
+ Help Learn to edit Community portal Recent changes Upload file Special pages 
+ Search 
+ Search 
+ Appearance 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Contents 
+ move to sidebar 
+ hide 
+ (Top) 
+ 1 
+ History 
+ 2 
+ Practical implications of electromigration 
+ 3 
+ Fundamentals 
+ Toggle Fundamentals subsection 
+ 3.1 
+ Forces on ions in an electrical field 
+ 3.2 
+ Step bunching due to electromigration 
+ 4 
+ Failure mechanisms 
+ Toggle Failure mechanisms subsection 
+ 4.1 
+ Diffusion mechanisms 
+ 4.2 
+ Thermal effects 
+ 4.3 
+ Balance of atom concentration 
+ 5 
+ Electromigration-aware design 
+ Toggle Electromigration-aware design subsection 
+ 5.1 
+ Electromigration reliability of a wire (Black's equation) 
+ 5.2 
+ Wire material 
+ 5.3 
+ Bamboo structure and metal slotting 
+ 5.4 
+ Blech length 
+ 5.5 
+ Via arrangements and corner bends 
+ 5.6 
+ Electromigration in solder joints 
+ 5.7 
+ Electromigration and technology computer aided design 
+ 5.7.1 
+ Constraint programming 
+ 5.8 
+ Prediction tools 
+ 5.9 
+ Healing 
+ 6 
+ Electromigrated nanogaps 
+ 7 
+ Reference standards 
+ 8 
+ See also 
+ 9 
+ References 
+ 10 
+ Further reading 
+ Toggle Further reading subsection 
+ 10.1 
+ Books 
+ 11 
+ External links 
+ Toggle the table of contents 
+ Electromigration 
+ 14 languages 
+ Azərbaycanca Català Deutsch Español Suomi Français Italiano 日本語 한국어 Lietuvių Nederlands Русский Türkçe 中文 
+ Edit links 
+ Article 
+ Talk 
+ English 
+ Read 
+ Edit 
+ View history 
+ Tools 
+ Tools 
+ move to sidebar 
+ hide 
+ Actions
+ Read 
+ Edit 
+ View history 
+ General
+ What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser 
+ Print/export
+ Download as PDF Printable version 
+ In other projects
+ Wikimedia Commons Wikidata item 
+ Appearance 
+ move to sidebar 
+ hide 
+ From Wikipedia, the free encyclopedia 
+ Movement of ions in an electrical field 
+ Electromigration (red arrow) is due to the momentum transfer from the electrons moving in a wire 
+ Electromigration is the transport of material caused by the gradual movement of the ions in a conductor due to the momentum transfer between conducting electrons and diffusing metal atoms . The effect is important in applications where high direct current densities are used, such as in microelectronics and related structures. As the structure size in electronics such as integrated circuits (ICs) decreases, the practical significance of this effect increases. 
+ History [ edit ] 
+ The phenomenon of electromigration has been known for over 100 years, having been discovered by obscure French scientist under the name of Gerardin. [ 1 ] [ 2 ] The topic first became of practical interest during the late 1960s when packaged ICs first appeared. The earliest commercially available ICs failed in a mere three weeks of use from runaway electromigration, which led to a major industry effort to correct this problem. The first observation of electromigration in thin films was made by I. Blech. [ 3 ] Research in this field was pioneered by a number of investigators throughout the fledgling semiconductor industry. One of the most important engineering studies was performed by Jim Black of Motorola , after whom Black's equation is named. [ 4 ] At the time, the metal interconnects in ICs were still about 10 micrometres wide. Currently interconnects are only hundreds to tens of nanometers in width, making research in electromigration increasingly important. 
+ Practical implications of electromigration [ edit ] 
+ Top visualization of electromigration under scanning electron microscope of a nanoconstriction (60 nm width) on silicon oxide substrate. [ 5 ] 
+ SEM image of a failure caused by electromigration in a copper interconnect . The passivation has been removed by reactive ion etching and hydrofluoric acid . 
+ Electromigration decreases the reliability of integrated circuits (ICs). It can cause the eventual loss of connections or failure of a circuit. Reliability is critically important for space travel , military purposes , anti-lock braking systems , medical equipment like automated external defibrillators , and is even important for personal computers or home entertainment systems, so the reliability of chips (ICs) is a major focus of research efforts. 
+ Due to the difficulty of testing under real-world conditions, Black's equation is used to predict the life span of integrated circuits. To use Black's equation , the component is put through high-temperature operating life (HTOL) testing. The component's expected life span under real conditions is extrapolated from data gathered during this testing. [ 4 ] 
+ Although damage from electromigration ultimately results in the failure of the affected IC, the first symptoms are intermittent glitches, which are quite challenging to diagnose. As some interconnects fail before others, the circuit exhibits seemingly random errors, which may be indistinguishable from other failure mechanisms (such as electrostatic discharge damage). In a laboratory setting, electromigration failure is readily imaged with an electron microscope, as interconnect erosion leaves telltale visual markers on the metal layers of the IC. 
+ With increasing miniaturization, the probability of failure due to electromigration increases in VLSI and ULSI circuits because both the power density and the current density increase. [ 6 ] Specifically, line widths will continue to decrease over time, as will wire cross-sectional areas. Currents are also reduced due to lower supply voltages and shrinking gate capacitances. [ 6 ] However, as current reduction is constrained by increasing frequencies, the more marked decrease in cross-sectional areas (compared to current reduction) will give rise to increased current densities in ICs going forward. [ 7 ] 
+ In advanced semiconductor manufacturing processes, copper has replaced aluminium as the interconnect material of choice. Despite its greater fragility in the fabrication process, copper is preferred for its superior conductivity. It is also intrinsically less susceptible to electromigration. However, electromigration (EM) continues to be an ever-present challenge to device fabrication, and therefore the EM research for copper interconnects is ongoing (though a relatively new field). [ 7 ] 
+ In modern consumer electronic devices, ICs rarely fail due to electromigration effects. This is because proper semiconductor design practices incorporate the effects of electromigration into the IC's layout. [ 7 ] Nearly all IC design houses use automated EDA tools to check and correct electromigration problems at the transistor layout-level. When operated within the manufacturer's specified temperature and voltage range, a properly designed IC device is more likely to fail from other (environmental) causes, such as cumulative damage from gamma-ray bombardment. 
+ Nevertheless, there have been documented cases of product failures due to electromigration. In the late 1980s, one line of Western Digital 's desktop drives suffered widespread, predictable failure after 12–18 months of field usage. Using forensic analysis of the returned bad units, engineers identified improper design-rules in a third-party supplier's IC controller. By replacing the bad component with that of a different supplier, WD corrected the flaw, but not before significant damage was done to the company's reputation. 
+ Electromigration can be a cause of degradation in some power semiconductor devices such as low voltage power MOSFETs , in which the lateral current through the source contact metallisation (often aluminium) can reach the critical current densities during overload conditions. The degradation of the aluminium layer causes an increase in on-state resistance, and can eventually lead to complete failure. 
+ Fundamentals [ edit ] 
+ The material properties of the metal interconnects have a strong influence on their life span. The characteristics are predominantly the composition of the metal alloy and the dimensions of the conductor. The shape of the conductor, the crystallographic orientation of the grains in the metal, procedures for the layer deposition, heat treatment or annealing , characteristics of the passivation , and the interface to other materials also affect the durability of the interconnects. There are also important differences with time dependent current: direct current or different alternating current waveforms cause different effects. 
+ Forces on ions in an electrical field [ edit ] 
+ Two forces affect ionized atoms in a conductor: 1) The direct electrostatic force F e , as a result of the electric field 
+ E 
+ {\displaystyle E} 
+ , which has the same direction as the electric field, and 2) The force from the exchange of momentum with other charge carriers F p , toward the flow of charge carriers, is in the opposite direction of the electric field. In metallic conductors F p is caused by a so-called "electron wind" or " ion wind ". 
+ The resulting force F res on an activated ion in the electrical field can be written as 
+ F 
+ r 
+ e 
+ s 
+ = 
+ F 
+ e 
+ − 
+ F 
+ p 
+ = 
+ q 
+ ⋅ 
+ ( 
+ Z 
+ e 
+ − 
+ Z 
+ p 
+ ) 
+ ⋅ 
+ E 
+ = 
+ q 
+ ⋅ 
+ Z 
+ ∗ 
+ ⋅ 
+ E 
+ = 
+ q 
+ ⋅ 
+ Z 
+ ∗ 
+ ⋅ 
+ j 
+ ⋅ 
+ ρ 
+ {\displaystyle F_{res}=F_{e}-F_{p}=q\cdot (Z_{e}-Z_{p})\cdot E=q\cdot Z^{*}\cdot E=q\cdot Z^{*}\cdot j\cdot \rho } 
+ where 
+ q 
+ {\displaystyle q} 
+ is the electric charge of the ions, 
+ Z 
+ e 
+ {\displaystyle Z_{e}} 
+ and 
+ Z 
+ p 
+ {\displaystyle Z_{p}} 
+ the valences corresponding to the electrostatic and wind force respectively, 
+ Z 
+ ∗ 
+ {\displaystyle Z^{*}} 
+ the so-called effective valence of the material, 
+ j 
+ {\displaystyle j} 
+ the current density, and 
+ ρ 
+ {\displaystyle \rho } 
+ the resistivity of the material. [ 8 ] 
+Electromigration occurs when some of the momentum of a moving electron is transferred to a nearby activated ion. This causes the ion to move from its original position. Over time this force knocks a significant number of atoms far from their original positions. A break or gap can develop in the conducting material, preventing the flow of electricity. In narrow interconnect conductors, such as those linking transistors and other components in integrated circuits, this is known as a void or internal failure ( open circuit ). Electromigration can also cause the atoms of a conductor to pile up and drift toward other nearby conductors, creating an unintended electrical connection known as a hillock failure or whisker failure ( short circuit ). Both of these situations can lead to a malfunction of the circuit. 
+ Step bunching due to electromigration [ edit ] 
+ Step bunching is a phenomenon in which a smooth surface forms 3D shapes that look like stair steps. Step bunching on DC-heated sublimating vicinal crystal surfaces of Si(111) was observed by A. Latyshev et al. in 1989. [ 9 ] Soon after, Stoyan Stoyanov advanced a model in which as the reason for step bunching is identified the biased diffusion of the adatoms. [ 10 ] In 1998, Stoyanov and Tonchev extended Stoyanov's model by incorporating step-step repulsions [ 11 ] and derived a scaling relation for the minimal step-step distance in a bunch under diffusion-limited sublimation, non-transparent steps, and step-down current conditions: 
+ l 
+ min 
+ ∼ 
+ N 
+ − 
+ 2 
+ / 
+ 3 
+ {\displaystyle l_{\min }\sim N^{-2/3}} 
+ where 
+ N 
+ {\displaystyle N} 
+ is the number of steps in the bunch, and the proportionality coefficient has the dimension of length. This scaling law has been confirmed by numerous experimental studies. [ 12 ] [ 13 ] [ 14 ] [ 15 ] In 2018, Toktarbaiuly et al. reported electromigration-induced step bunching on vicinal W(110) surfaces. Their study revealed that step bunching occurred for both step-up and step-down current directions at the same temperature, T = 1500°C, with distinct size-scaling exponents depending on the current direction. [ 16 ] 
+ More recently, Usov et al. (2020) demonstrated that electromigration-induced step bunching is not limited to silicon surfaces but can also occur on dielectric surfaces, such as sapphire (Al₂O₃(0001)). [ 17 ] This study suggests that the fundamental mechanism of step bunching on W(110), Al₂O₃(0001), and Si(111) follows similar principles. Moreover, annealing W(110) offcut in the [001] direction with an up-step current produced a morphology where the bunch edges formed zigzag segments meeting at right angles. 
+ Failure mechanisms [ edit ] 
+ Diffusion mechanisms [ edit ] 
+ In a homogeneous crystalline structure, because of the uniform lattice structure of the metal ions, there is hardly any momentum transfer between the conduction electrons and the metal ions. However, this symmetry does not exist at the grain boundaries and material interfaces, and so here momentum is transferred much more vigorously. Since the metal ions in these regions are bonded more weakly than in a regular crystal lattice, once the electron wind has reached a certain strength, atoms become separated from the grain boundaries and are transported in the direction of the current. This direction is also influenced by the grain boundary itself, because atoms tend to move along grain boundaries. [ 18 ] 
+ Diffusion processes caused by electromigration can be divided into grain boundary diffusion, bulk diffusion, and surface diffusion . [ 18 ] In general, grain boundary diffusion is the major electromigration process in aluminum wires, whereas surface diffusion is dominant in copper interconnects. [ 18 ] 
+ Thermal effects [ edit ] 
+ This section needs more citations . Please help improve this section by adding citations to reliable sources . Unsourced material may be challenged and removed . ( August 2022 ) ( Learn how and when to remove this message ) 
+ In an ideal conductor, where atoms are arranged in a perfect lattice structure, the electrons moving through it would experience no collisions and electromigration would not occur. In real conductors, defects in the lattice structure and the random thermal vibration of the atoms about their positions causes electrons to collide with the atoms and scatter , which is the source of electrical resistance (at least in metals; see electrical conduction ). Normally, the amount of momentum imparted by the relatively low- mass electrons is not enough to permanently displace the atoms. However, in high-power situations (such as with the increasing current draw and decreasing wire sizes in modern VLSI microprocessors ), if many electrons bombard the atoms with enough force to become significant, this will accelerate the process of electromigration by causing the atoms of the conductor to vibrate further from their ideal lattice positions, increasing the amount of electron scattering . High current density increases the number of electrons scattering against the atoms of the conductor, and hence the rate at which those atoms are displaced. 
+ In integrated circuits, electromigration does not occur in semiconductors directly, but in the metal interconnects deposited onto them (see semiconductor device fabrication ). 
+ Electromigration is exacerbated by high current densities and the Joule heating of the conductor (see electrical resistance ), and can lead to eventual failure of electrical components. Localized increase of current density is known as current crowding . 
+ Balance of atom concentration [ edit ] 
+ A governing equation which describes the atom concentration evolution throughout some interconnect segment, is the conventional mass balance (continuity) equation 
+ ∂ 
+ N 
+ ∂ 
+ t 
+ + 
+ ∇ 
+ ⋅ 
+ J 
+ → 
+ = 
+ 0 
+ {\displaystyle {\frac {\partial N}{\partial t}}+\nabla \cdot {\vec {J}}=0} 
+ where 
+ N 
+ ( 
+ x 
+ → 
+ , 
+ t 
+ ) 
+ {\displaystyle N({\vec {x}},t)} 
+ is the atom concentration at the point with a coordinates 
+ x 
+ → 
+ = 
+ ( 
+ x 
+ , 
+ y 
+ , 
+ z 
+ ) 
+ {\displaystyle {\vec {x}}=(x,y,z)} 
+ at the moment of time 
+ t 
+ {\displaystyle t} 
+ , and 
+ J 
+ {\displaystyle J} 
+ is the total atomic flux at this location. The total atomic flux 
+ J 
+ {\displaystyle J} 
+ is a combination of the fluxes caused by the different atom migration forces. The major forces are induced by the electric current , and by the gradients of temperature, mechanical stress and concentration. 
+ J 
+ → 
+ = 
+ J 
+ → 
+ c 
+ + 
+ J 
+ → 
+ T 
+ + 
+ J 
+ → 
+ σ 
+ + 
+ J 
+ → 
+ N 
+ {\displaystyle {\vec {J}}={\vec {J}}_{c}+{\vec {J}}_{T}+{\vec {J}}_{\sigma }+{\vec {J}}_{N}} 
+ . 
+ To define the fluxes mentioned above: 
+ J 
+ → 
+ c 
+ = 
+ N 
+ e 
+ Z 
+ D 
+ ρ 
+ k 
+ T 
+ j 
+ → 
+ {\displaystyle {\vec {J}}_{c}={\frac {NeZD\rho }{kT}}\,{\vec {j}}} 
+ . 
+ Here 
+ e 
+ {\displaystyle e} 
+ is the electron charge, 
+ e 
+ Z 
+ {\displaystyle eZ} 
+ is the effective charge of the migrating atom, 
+ ρ 
+ {\displaystyle \rho } 
+ the resistivity of the conductor where atom migration takes place, 
+ j 
+ → 
+ {\displaystyle {\vec {j}}} 
+ is the local current density, 
+ k 
+ {\displaystyle k} 
+ is the Boltzmann constant , 
+ T 
+ {\displaystyle T} 
+ is the absolute temperature . 
+ D 
+ ( 
+ x 
+ → 
+ , 
+ t 
+ ) 
+ {\displaystyle D({\vec {x}},t)} 
+ is the time and position dependent atom diffusivity. 
+ J 
+ → 
+ T 
+ = 
+ − 
+ N 
+ D 
+ Q 
+ k 
+ T 
+ 2 
+ ∇ 
+ T 
+ {\displaystyle {\vec {J}}_{T}=-{\frac {NDQ}{kT^{2}}}\nabla T} 
+ .   We use 
+ Q 
+ {\displaystyle Q} 
+ the heat of thermal diffusion. 
+ J 
+ → 
+ σ 
+ = 
+ N 
+ D 
+ Ω 
+ k 
+ T 
+ ∇ 
+ H 
+ {\displaystyle {\vec {J}}_{\sigma }={\frac {ND\Omega }{kT}}\nabla \!H} 
+ , 
+ here 
+ Ω 
+ = 
+ 1 
+ / 
+ N 
+ 0 
+ {\displaystyle \Omega =1/N_{0}} 
+ is the atomic volume and 
+ N 
+ 0 
+ {\displaystyle N_{0}} 
+ is initial atomic concentration , 
+ H 
+ = 
+ ( 
+ σ 
+ 11 
+ + 
+ σ 
+ 22 
+ + 
+ σ 
+ 33 
+ ) 
+ / 
+ 3 
+ {\displaystyle H=(\sigma _{11}+\sigma _{22}+\sigma _{33})/3} 
+ is the hydrostatic stress and 
+ σ 
+ 11 
+ , 
+ σ 
+ 22 
+ , 
+ σ 
+ 33 
+ {\displaystyle \sigma _{11},\sigma _{22},\sigma _{33}} 
+ are the components of principal stress. 
+ J 
+ → 
+ N 
+ = 
+ − 
+ D 
+ ∇ 
+ N 
+ {\displaystyle {\vec {J}}_{N}=-D\,\nabla \!N} 
+ . 
+ Assuming a vacancy mechanism for atom diffusion we can express 
+ D 
+ {\displaystyle D} 
+ as a function of the hydrostatic stress 
+ D 
+ = 
+ D 
+ 0 
+ exp 
+ ⁡ 
+ ( 
+ Ω 
+ H 
+ − 
+ E 
+ A 
+ k 
+ T 
+ ) 
+ {\displaystyle D=D_{0}\exp \left({\tfrac {\Omega H-E_{A}}{kT}}\right)} 
+ where 
+ E 
+ A 
+ {\displaystyle E_{A}} 
+ is the effective activation energy of the thermal diffusion of metal atoms. The vacancy concentration represents availability of empty lattice sites, which might be occupied by a migrating atom. 
+ Electromigration-aware design [ edit ] 
+ Electromigration reliability of a wire (Black's equation) [ edit ] 
+ Main article: Black's equation 
+ At the end of the 1960s J. R. Black developed an empirical model to estimate the MTTF (mean time to failure) of a wire, taking electromigration into consideration. Since then, the formula has gained popularity in the semiconductor industry: [ 4 ] [ 19 ] 
+ MTTF 
+ = 
+ A 
+ J 
+ n 
+ exp 
+ ⁡ 
+ ( 
+ E 
+ a 
+ k 
+ T 
+ ) 
+ {\displaystyle {\text{MTTF}}={\frac {A}{J^{n}}}\exp {\left({\frac {E_{\text{a}}}{kT}}\right)}} 
+ . 
+ Here 
+ A 
+ {\displaystyle A} 
+ is a constant based on the cross-sectional area of the interconnect, 
+ J 
+ {\displaystyle J} 
+ is the current density, 
+ E 
+ a 
+ {\displaystyle E_{\text{a}}} 
+ is the activation energy (e.g. 0.7 eV for grain boundary diffusion in aluminum), 
+ k 
+ {\displaystyle k} 
+ is the Boltzmann constant , 
+ T 
+ {\displaystyle T} 
+ is the temperature in kelvins , and 
+ n 
+ {\displaystyle n} 
+ a scaling factor (usually set to 2 according to Black). [ 4 ] The temperature of the conductor appears in the exponent, i.e. it strongly affects the MTTF of the interconnect. For an interconnect of a given construction to remain reliable as the temperature rises, the current density within the conductor must be reduced. However, as interconnect technology advances at the nanometer scale, the validity of Black's equation becomes increasingly questionable. 
+ Wire material [ edit ] 
+ Historically, aluminium has been used as conductor in integrated circuits, due to its good adherence to substrate, good conductivity, and ability to form ohmic contacts with silicon. [ 6 ] However, pure aluminium is susceptible to electromigration. Research shows that adding 2-4% of copper to aluminium increases resistance to electromigration about 50 times. The effect is attributed to the grain boundary segregation of copper, which greatly inhibits the diffusion of aluminium atoms across grain boundaries. [ 20 ] 
+ Pure copper wires can withstand approximately five times more current density than aluminum wires while maintaining similar reliability requirements. [ 21 ] This is mainly due to the higher electromigration activation energy levels of copper, caused by its superior electrical and thermal conductivity as well as its higher melting point . Further improvements can be achieved by alloying copper with about 1% palladium which inhibits diffusion of copper atoms along grain boundaries in the same way as the addition of copper to aluminium interconnect. 
+ Bamboo structure and metal slotting [ edit ] 
+ A wider wire results in smaller current density and, hence, less likelihood of electromigration. Also, the metal grain size has influence; the smaller grains, the more grain boundaries and the higher likelihood of electromigration effects. However, if one reduces wire width to below the average grain size of the wire material, grain boundaries become "crosswise", more or less perpendicular to the length of the wire. The resulting structure resembles the joints in a stalk of bamboo. With such a structure, the resistance to electromigration increases, despite an increase in current density. This apparent contradiction is caused by the perpendicular position of the grain boundaries; the boundary diffusion factor is excluded, and material transport is correspondingly reduced. [ 21 ] [ 22 ] 
+ However, the maximum wire width possible for a bamboo structure is usually too narrow for signal lines of large-magnitude currents in analog circuits or for power supply lines. In these circumstances, slotted wires are often used, whereby rectangular holes are carved in the wires. Here, the widths of the individual metal structures in between the slots lie within the area of a bamboo structure, while the resulting total width of all the metal structures meets power requirements. [ 21 ] [ 22 ] 
+ Blech length [ edit ] 
+ There is a lower limit for the length of the interconnect that will allow higher current carrying capability. It is known as "Blech length". [ 3 ] Any wire that has a length below this limit will have a stretched limit for electromigration. Here, a mechanical stress buildup causes an atom back flow process which reduces or even compensates the effective material flow toward the anode . The Blech length must be considered when designing test structures to evaluate electromigration. This minimum length is typically some tens of microns for chip traces, and interconnections shorter than this are sometimes referred to as 'electromigration immortal'. 
+ Via arrangements and corner bends [ edit ] 
+ Particular attention must be paid to vias and contact holes. The current carrying capacity of a via is much less than a metallic wire of same length. Hence multiple vias are often used, whereby the geometry of the via array is very significant: multiple vias must be organized such that the resulting current is distributed as evenly as possible through all the vias. 
+ Attention must also be paid to bends in interconnects. In particular, 90-degree corner bends must be avoided, since the current density in such bends is significantly higher than that in oblique angles (e.g., 135 degrees). [ 21 ] 
+ Electromigration in solder joints [ edit ] 
+ The typical current density at which electromigration occurs in Cu or Al interconnects is 10 6 to 10 7 A/cm 2 . For solder joints (SnPb or SnAgCu lead-free) used in IC chips, however, electromigration occurs at much lower current densities, e.g. 10 4 A/cm 2 . It causes a net atom transport along the direction of electron flow. The atoms accumulate at the anode, while voids are generated at the cathode and back stress is induced during electromigration. The typical failure of a solder joint due to electromigration will occur at the cathode side. Due to the current crowding effect, voids form first at the corners of the solder joint. Then the voids extend and join to cause a failure. Electromigration also influences formation of intermetallic compounds , as the migration rates are a function of atomic mass . 
+ Electromigration and technology computer aided design [ edit ] 
+ The complete mathematical model describing electromigration consists of several partial differential equations (PDEs) [ 23 ] which need to be solved for three-dimensional geometrical domains representing segments of an interconnect structure. Such a mathematical model forms the basis for simulation of electromigration in modern technology computer aided design (TCAD) tools. [ 24 ] Use of TCAD tools for detailed investigations of electromigration induced interconnect degradation is gaining importance. Results of TCAD studies in combination with reliability tests lead to modification of design rules improving the interconnect resistance to electromigration. [ 25 ] 
+ Constraint programming [ edit ] 
+ Constraint programming can be used to produce a layout of a chip's power grid while satisfying multiple requirements including predicted electromigration. Another of these constraints is IR drop noise, which is the load-dependent voltage drop caused by the wire's electrical resistance. [ 26 ] 
+ Prediction tools [ edit ] 
+ A 2020 study describes a neural network-based supervised learning approach. Using current density, interconnect length, interconnect temperature as input, the machine learning model predicts the mean time to failure of the design due to EM. [ 27 ] [ 28 ] 
+ Healing [ edit ] 
+ In as early as the 1990s it was noted that electromigration failure takes much longer to develop under alternating current (AC) than under direct current (DC). This suggests that a backward current can induce metal ions to move in the backward direction and partially "heal" electromigration. [ 29 ] Although it has been consistently shown that such "healing" is never complete, it does provide a large amount of recovery between 70% and 90% in the bidirectional pulse case. [ 30 ] 
+ Even without a backward component (unidirectional), an intermittently "on" pulse can allow a short lead to heal, possibly due to mechanical stress reduction during the "off" phase. [ 30 ] A 2016 work further shows the significant contribution of healing in the unidirectional case, suggesting that more aggressive power-saving methods that turn off parts of a chip (e.g. deeper C states ) can also reduce electromigration. Further more, this passive healing is faster and more complete under a higher temperature. [ 31 ] It is possible to prolong the lifespan of a wire by periodically subjecting it to a reverse current, but applying it for too long would also break the wire by causing too much electromigration in the other direction. [ 32 ] 
+ Electromigrated nanogaps [ edit ] 
+ Electromigrated nanogaps are gaps formed in metallic bridges formed by the process of electromigration. A nanosized contact formed by electromigration acts like a waveguide for electrons. The nanocontact essentially acts like a one-dimensional wire with a conductance of 
+ G 
+ = 
+ 2 
+ e 
+ 2 
+ / 
+ h 
+ {\displaystyle G=2\,e^{2}\!/h} 
+ . The current in a wire is the velocity of the electrons multiplied by the charge and number per unit length, 
+ I 
+ = 
+ v 
+ e 
+ N 
+ / 
+ L 
+ {\displaystyle \,I=veN/L\ } 
+ or 
+ G 
+ = 
+ v 
+ e 
+ N 
+ / 
+ L 
+ V 
+ {\displaystyle \ G=veN/LV} 
+ . This gives a conductance of 
+ G 
+ = 
+ v 
+ e 
+ 2 
+ N 
+ / 
+ L 
+ E 
+ {\displaystyle G=ve^{2}\!N/LE} 
+ . In nanoscale bridges the conductance falls in discrete steps of multiples of the quantum conductance 
+ G 
+ = 
+ 2 
+ e 
+ 2 
+ / 
+ h 
+ {\displaystyle G=2\,e^{2}\!/h} 
+ . 
+ Electromigrated nanogaps have been proposed for use as electrodes in molecular scale electronics and as quantum tunneling sensors. [ 33 ] [ 34 ] Researchers have used feedback controlled electromigration to investigate the magnetoresistance of a quantum spin valve . [ citation needed ] 
+ Reference standards [ edit ] 
+ EIA / JEDEC Standard EIA/JESD61 : Isothermal Electromigration Test Procedure. 
+ EIA / JEDEC Standard EIA/JESD63 : Standard method for calculating the electromigration model parameters for current density and temperature. 
+ Fundamentals of electromigration, Chapter 2 In: Fundamentals of Electromigration-Aware Integrated Circuit Design, Springer (2025) 
+ See also [ edit ] 
+ Kirkendall effect 
+ Sealing current 
+ References [ edit ] 
+ ↑ Rost, Tim (2005). "Preface". 2005 IEEE International Reliability Physics Symposium, 2005. Proceedings. 43rd Annual . pp.   iii– iv. doi : 10.1109/RELPHY.2005.1493049 . ISBN   978-0-7803-8803-1 . 
+ ↑ M. Gerardin, "Compte Rendu de l’Académie des Sciences", 53, 727, 1861. 
+ 1 2 I. Blech: Electromigration in Thin Aluminum Films on Titanium Nitride. Journal of Applied Physics, Vol 47, pp. 1203-1208, April 1976. 
+ 1 2 3 4 J.R. Black: Electromigration - A Brief Survey and Some Recent Results. IEEE Trans. Electron Devices, Vol. ED-16 (No. 4), pp. 338-347, April 1969. 
+ ↑ Lombardo, Joseph; Baumans, Xavier D. A.; Željko, Jelić L.; Scheerder, Jeroen E.; Zharinov, Vyacheslav S.; Kramer, Roman; Van de Vondel, Joris; Silhanek, Alejandro V. (2018-03-07). "Healing effect of controlled anti-electromigration on conventional and high-Tc superconducting nanowires" . Small . 13 (26) 1700384. doi : 10.1002/smll.201700384 . hdl : 2268/214980 . PMID   28544388 . 
+ 1 2 3 J. Lienig, S. Rothe, M. Thiele (2025). "Introduction" . Fundamentals of Electromigration-Aware Integrated Circuit Design . Springer. pp.   1– 12. doi : 10.1007/978-3-031-80023-8 . ISBN   978-3-031-80023-8 . {{ cite book }} : CS1 maint: multiple names: authors list ( link ) 
+ 1 2 3 J. Lienig, M. Thiele: "The Pressing Need for Electromigration-Aware Physical Design " (Download paper) , Proc. of the Int. Symposium on Physical Design (ISPD) 2018 , pp. 144–151, March 2018 
+ ↑ Lodder, A.; Dekker, J. P. (1998). "The electromigration force in metallic bulk" . AIP Conference Proceedings . 418 (1): 315– 328. arXiv : cond-mat/9803172 . Bibcode : 1998AIPC..418..315L . doi : 10.1063/1.54652 . S2CID   18376825 . Retrieved 2021-01-15 . 
+ ↑ A. V. Latyshev, A. L. Aseev, A. B. Krasilnikov, and S. I. Stenin, "Transformations on clean Si(111) stepped surface during sublimation", Surface Science 213 , 157 (1989). 
+ ↑ S. Stoyanov, "Electromigration induced step bunching on Si surfaces—how does it depend on the temperature and heating current direction?", Japanese Journal of Applied Physics 30 , 1 (1991). 
+ ↑ S. Stoyanov and V. Tonchev, "Properties and dynamic interaction of step density waves at a crystal surface during electromigration-affected sublimation", Physical Review B 58 , 1590 (1998). doi : 10.1103/PhysRevB.58.1590 
+ ↑ K. Fujita, M. Ichikawa, and S. S. Stoyanov, "Size-scaling exponents of current-induced step bunching on silicon surfaces", *Physical Review B* 60 , 16006 (1999). doi : 10.1103/PhysRevB.60.16006 
+ ↑ Y. Homma and N. Aizawa, "Electric-current-induced step bunching on Si(111)", Physical Review B 62 , 8323 (2000). doi : 10.1103/PhysRevB.62.8323 
+ ↑ B. J. Gibbons, S. Schaepe, and J. P. Pelz, "Evidence for diffusion-limited kinetics during electromigration-induced step bunching on Si(111)", Surface Science 600 , 2417 (2006). doi : 10.1016/j.susc.2006.02.025 
+ ↑ V. Usov, C. O. Coileain, and I. V. Shvets, "Experimental quantitative study into the effects of electromigration field moderation on step bunching instability development on Si(111)", Physical Review B 83 (2011). doi : 10.1103/PhysRevB.83.245429 
+ ↑ O. Toktarbaiuly et al., "Electromigration-induced step bunching on tungsten (110) surfaces", Physical Review B 97 , 035436 (2018). doi : 10.1103/PhysRevB.97.035436 
+ ↑ V. Usov et al., "Revealing electromigration on dielectrics and metals through the step-bunching instability", Physical Review B 102 , 035407 (2020). doi : 10.1103/PhysRevB.102.035407 
+ 1 2 3 J. Lienig, S. Rothe, M. Thiele (2025). "Fundamentals of Electromigration" . Fundamentals of Electromigration-Aware Integrated Circuit Design . Springer. pp.   13– 61. doi : 10.1007/978-3-031-80023-8 . ISBN   978-3-031-80023-8 . {{ cite book }} : CS1 maint: multiple names: authors list ( link ) 
+ ↑ Wilson, Syd R.; Tracy, Clarence J.; Freeman, John L. (1993). Handbook of multilevel metallization for integrated circuits: materials, technology, and applications . William Andrew. p.   607. ISBN   978-0-8155-1340-7 . , Page 607, equation 24 
+ ↑ M. Braunovic, N. K. Myshkin, V. V. Konchits (2006). Electrical Contacts: Fundamentals, Applications and Technology . CRC Press. ISBN   978-1-5744-47279 . {{ cite book }} : CS1 maint: multiple names: authors list ( link ) 
+ 1 2 3 4 J. Lienig: "Introduction to Electromigration-Aware Physical Design" (Download paper) , Proc. of the Int. Symposium on Physical Design (ISPD) 2006 , pp. 39–46, April 2006. 
+ 1 2 M. Zamri et al "In Situ TEM Observation of Fe-Included Carbon Nanofiber: Evolution of Structural and Electrical Properties in Field Emission Process", ACS Nano, 2012, 6 (11), pp 9567–9573. [Link http://pubs.acs.org/doi/abs/10.1021/nn302889e ] doi : 10.1021/nn302889e 
+ ↑ C. Basaran, M. Lin, and H. Ye   : A Thermodynamic Model for Electrical Current Induced Damage. International Journal of Solids and Structures, Vol 40, pp. 7315-7327, 2003. 
+ ↑ Ceric, H.; Selberherr, S. (2011). "Electromigration in submicron interconnect features of integrated circuits". Materials Science and Engineering: R: Reports . 71 ( 5– 6): 53– 86. doi : 10.1016/j.mser.2010.09.001 . ISSN   0927-796X . 
+ ↑ de Orio, R.L.; Ceric, H.; Selberherr, S. (2012). "Electromigration failure in a copper dual-damascene structure with a through silicon via" . Microelectronics Reliability . 52 ( 9– 10): 1981– 1986. Bibcode : 2012MiRe...52.1981D . doi : 10.1016/j.microrel.2012.07.021 . ISSN   0026-2714 . PMC   3608028 . PMID   23564974 . 
+ ↑ Dey, Sukanta; Dash, Satyabrata; Nandi, Sukumar; Trivedi, Gaurav (2018). "PGIREM: Reliability-Constrained IR Drop Minimization and Electromigration Assessment of VLSI Power Grid Networks Using Cooperative Coevolution". 2018 IEEE Computer Society Annual Symposium on VLSI (ISVLSI) . pp.   40– 45. doi : 10.1109/ISVLSI.2018.00018 . ISBN   978-1-5386-7099-6 . S2CID   51984331 . 
+ ↑ Dey, Sukanta; Nandi, Sukumar; Trivedi, Gaurav (2020). "Machine Learning Approach for Fast Electromigration Aware Aging Prediction in Incremental Design of Large Scale On-chip Power Grid Network". ACM Transactions on Design Automation of Electronic Systems . 25 (5): 1– 29. doi : 10.1145/3399677 . S2CID   222110488 . 
+ ↑ Dey, Sukanta; Nandi, Sukumar; Trivedi, Gaurav (2020). "Machine Learning Approach for Fast Electromigration Aware Aging Prediction in Incremental Design of Large Scale On-chip Power Grid Network" . ACM Transactions on Design Automation of Electronic Systems . 25 (5): 1– 29. doi : 10.1145/3399677 . S2CID   222110488 . 
+ ↑ Tao, J.; Cheung, N.W.; Hu, C. (December 1993). "Metal electromigration damage healing under bidirectional current stress". IEEE Electron Device Letters . 14 (12): 554– 556. Bibcode : 1993IEDL...14..554T . doi : 10.1109/55.260787 . 
+ 1 2 Lee, Ki-Don (April 2012). "Electromigration recovery and short lead effect under bipolar- and unipolar-pulse current". 2012 IEEE International Reliability Physics Symposium (IRPS) . pp.   6B.3.1–6B.3.4. doi : 10.1109/IRPS.2012.6241869 . ISBN   978-1-4577-1680-5 . 
+ ↑ Huang, Xin; Sukharev, Valeriy; Kim, Taeyoung; Chen, Haibao; Tan, Sheldon X.-D. (January 2016). "Electromigration recovery modeling and analysis under time-dependent current and temperature stressing". 2016 21st Asia and South Pacific Design Automation Conference (ASP-DAC) . pp.   244– 249. doi : 10.1109/ASPDAC.2016.7428018 . ISBN   978-1-4673-9569-4 . 
+ ↑ Guo, Xinfei; Stan, Mircea R. (2020). "Summary: EM vs. BTI". Circadian Rhythms for Future Resilient Electronic Systems: Accelerated Active Self-Healing for Integrated Circuits (1st 2020   ed.). Cham: Springer. ISBN   978-3-030-20050-3 . 
+ ↑ Raja, Shyamprasad N.; Jain, Saumey; Kipen, Javier; Jaldén, Joakim; Stemme, Göran; Herland, Anna; Niklaus, Frank (2024-07-17). "Electromigrated Gold Nanogap Tunnel Junction Arrays: Fabrication and Electrical Behavior in Liquid and Gaseous Media" . ACS Applied Materials & Interfaces . 16 (28): 37131– 37146. Bibcode : 2024AAMI...1637131R . doi : 10.1021/acsami.4c03282 . ISSN   1944-8244 . PMC   11261569 . PMID   38954436 . 
+ ↑ Liang; et   al. (2002). "Kondo resonance in a single-molecule transistor". Nature . 417 (6890): 725– 9. Bibcode : 2002Natur.417..725L . doi : 10.1038/nature00790 . PMID   12066180 . S2CID   4405025 . 
+ Further reading [ edit ] 
+ Black, J. R. (April 1969). "Electromigration - A Brief Survey and Some Recent Results". IEEE Transactions on Electron Devices . 16 (4): 338– 347. Bibcode : 1969ITED...16..338B . doi : 10.1109/T-ED.1969.16754 . S2CID   109036679 . 
+ Black, J. R. (September 1969). "Electromigration Failure Modes in Aluminium Metallization for Semiconductor Devices". Proceedings of the IEEE . 57 (9): 1587– 94. doi : 10.1109/PROC.1969.7340 . S2CID   49732804 . 
+ Ho, P. S. (1982). "Basic problems for Electromigration in VLSI applications". 20th International Reliability Physics Symposium . pp.   288– 291. doi : 10.1109/IRPS.1982.361947 . S2CID   26418320 . 
+ Ho, P. S.; Kwok, T. (1989). "Electromigration in metals". Reports on Progress in Physics . 52 (3): 301– 348. Bibcode : 1989RPPh...52..301H . doi : 10.1088/0034-4885/52/3/002 . S2CID   250876558 . 
+ Gardner, D. S.; Meindl, J. D.; Saraswat, K. C. (March 1987). "Interconnection and Electromigration Scaling Theory". IEEE Transactions on Electron Devices . 34 (3): 633– 643. Bibcode : 1987ITED...34..633G . doi : 10.1109/T-ED.1987.22974 . S2CID   317983 . 
+ Ghate, P. B. (1982). "Electromigration-Induced Failures in VLSI Interconnects". 20th International Reliability Physics Symposium . pp.   292– 299. doi : 10.1109/IRPS.1982.361948 . 
+ Jerke, G.; Lienig, J. (January 2004). "Hierarchical Current Density Verification in Arbitrarily Shaped Metallization Patterns of Analog Circuits". IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems . 23 (1): 80– 90. Bibcode : 2004ITCAD..23...80J . doi : 10.1109/TCAD.2003.819899 . S2CID   2586433 . 
+ Knowlton, B. D.; Thompson, C. V. (1998). "Simulation of temperature and current density scaling of the electromigration-limited reliability of near-bamboo interconnects". Journal of Materials Research . 13 (5): 1164– 1170. Bibcode : 1998JMatR..13.1164K . doi : 10.1557/JMR.1998.0166 (inactive 12 July 2025). {{ cite journal }} : CS1 maint: DOI inactive as of July 2025 ( link ) 
+ Lienig, Jens (2006). "Introduction to electromigration-aware physical design" (PDF) . Proceedings of the 2006 international symposium on Physical design . pp.   39– 46. doi : 10.1145/1123008.1123017 . ISBN   1-59593-299-2 . 
+ Lienig, Jens; Thiele, Matthias (2018). "The Pressing Need for Electromigration-Aware Physical Design" (PDF) . Proceedings of the 2018 International Symposium on Physical Design . pp.   144– 151. doi : 10.1145/3177540.3177560 . ISBN   978-1-4503-5626-8 . 
+ Louie Liu, H.C., Murarka, S.: "Modeling of Temperature Increase Due to Joule Heating During Elektromigration Measurements. Center for Integrated Electronics and Electronics Manufacturing", Materials Research Society Symposium Proceedings Vol. 427:p.   113 119. 
+ Ogurtani, Tarik Omer; Oren, Ersin Emre (June 2005). "Irreversible thermodynamics of triple junctions during the intergranular void motion under the electromigration forces". International Journal of Solids and Structures . 42 (13): 3918– 52. doi : 10.1016/j.ijsolstr.2004.11.013 . hdl : 11511/64560 . 
+ Ren, Fei; Nah, Woong; Tu, K. N.; Xiong, Bingshou; Xu, Luhua; Pang, John H. L. (2006). "Electromigration induced ductile-to-brittle transition in lead-free solder joints". Applied Physics Letters . 89 (14) 141914. Bibcode : 2006ApPhL..89n1914R . doi : 10.1063/1.2358113 . 
+ Roy, Arijit; Tan, Cher Ming (2008). "Very High Current Density Package Level Electromigration Test for Copper Interconnects". Journal of Applied Physics . 103 (9) 093707: 093707–093707–7. Bibcode : 2008JAP...103i3707R . doi : 10.1063/1.2917065 . 
+ Tan, Cher Ming; Roy, Arijit (2007). "Electromigration in ULSI interconnects". Materials Science and Engineering: R: Reports . 58 ( 1– 2): 1– 75. doi : 10.1016/j.mser.2007.04.002 . 
+ Tu, K. N. (2003). "Recent advances on electromigration in very-large-scale-integration of interconnects". Journal of Applied Physics . 94 (9): 5451– 5473. Bibcode : 2003JAP....94.5451T . doi : 10.1063/1.1611263 . 
+ Xu, Luhua; Pang, John H. L.; Tu, K. N. (2006). "Effect of electromigration-induced back stress gradient on nano-indentation marker movement in SnAgCu solder joints". Applied Physics Letters . 89 (22) 221909. Bibcode : 2006ApPhL..89v1909X . doi : 10.1063/1.2397549 . 
+ Books [ edit ] 
+ Christou, A (1993). Electromigration and Electronic Device Degradation . Wiley. ISBN   978-0-471-58489-6 . 
+ Lienig, J., Thiele, M. (2018). Fundamentals of Electromigration-Aware Integrated Circuit Design . Springer. doi : 10.1007/978-3-319-73558-0 . ISBN   978-3-319-73557-3 . {{ cite book }} : CS1 maint: multiple names: authors list ( link ) 
+ External links [ edit ] 
+ Wikimedia Commons has media related to Electromigration . 
+ What is Electromigration? , Computer Simulation Laboratory, Middle East Technical University. 
+ Electromigration for Designers: An Introduction for the Non-Specialist , J.R. Lloyd, EETimes. 
+ Semiconductor electromigration in-depth at DWPG.Com 
+ Modeling of electromigration process with void formation at UniPro R&D site 
+ DoITPoMS Teaching and Learning Package- "Electromigration" 
+ Authority control databases International GND Other Yale LUX 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Electromigration&oldid=1379566890 " 
+ Categories : Electric and magnetic fields in matter Electrochemistry Electronic design automation Semiconductor device defects Transport phenomena Hidden categories: Articles with short description Short description is different from Wikidata CS1 maint: multiple names: authors list Articles needing additional references from August 2022 All articles needing additional references All articles with unsourced statements Articles with unsourced statements from December 2018 CS1 maint: DOI inactive as of July 2025 Commons category link from Wikidata 
+ This page was last edited on 10 October 2026, at 19:27  (UTC) . 
+ Page was rendered with Parsoid . 
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization. 
+ Privacy policy 
+ About Wikipedia 
+ Disclaimers 
+ Contact Wikipedia 
+ Legal & safety contacts 
+ Code of Conduct 
+ Developers 
+ Statistics 
+ Cookie statement 
+ Mobile view 
+ Search 
+ Search 
+ Toggle the table of contents 
+ Electromigration 
+ 14 languages 
+ Add topic 
+ 
