@@ -1,0 +1,4741 @@
+{
+ "study": "149-rosetta-lifetime",
+ "note": "P_read は生存確率や復興確率ではない（模型の中の量）",
+ "life_variants": {
+  "L141_press2000": [
+   2000,
+   10000.0
+  ],
+  "N98_1k_5k": [
+   1000,
+   5000
+  ],
+  "N98_literal": [
+   1,
+   5000
+  ],
+  "B08_2000": [
+   2000,
+   2000
+  ],
+  "UNION_1k_10k": [
+   1000,
+   10000.0
+  ],
+  "HI_10k_100k": [
+   10000.0,
+   100000.0
+  ]
+ },
+ "check_max_diff_vs_148": 0.0,
+ "n_checks": 480,
+ "media": {
+  "1000|P_BIO|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.6275516760052215,
+    "fiche24": 0.3186091242444871,
+    "fiche48": 0.10210344009464116,
+    "rosetta": 0.39374439671843436,
+    "piql_hand": 0.24635288268392125,
+    "piql": 0.23422152841367194,
+    "silica": 0.26673707180895145,
+    "mdisc": 0.011256942825321168
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.5569488676771418,
+    "fiche24": 0.21699110889452763,
+    "fiche48": 0.04155441654162799,
+    "rosetta": 0.2873166091989915,
+    "piql_hand": 0.15031858247627056,
+    "piql": 0.14150125768180516,
+    "silica": 0.16571970589977938,
+    "mdisc": 0.00441830014655903
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.4328604377569419,
+    "fiche24": 0.0518159611482492,
+    "fiche48": 0.014194131983703806,
+    "rosetta": 0.2026221350297374,
+    "piql_hand": 0.08870720678780374,
+    "piql": 0.0820989494120172,
+    "silica": 0.09757542587935492,
+    "mdisc": 0.0013894887047581613
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.6275516760052215,
+    "fiche24": 0.3186091242444871,
+    "fiche48": 0.10210344009464116,
+    "rosetta": 0.3460693096040013,
+    "piql_hand": 0.24635288268392125,
+    "piql": 0.23422152841367194,
+    "silica": 0.26673707180895145,
+    "mdisc": 0.011256942825321168
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.5569488676771418,
+    "fiche24": 0.21699110889452763,
+    "fiche48": 0.04155441654162799,
+    "rosetta": 0.2416324318983288,
+    "piql_hand": 0.15031858247627056,
+    "piql": 0.14150125768180516,
+    "silica": 0.16571970589977938,
+    "mdisc": 0.00441830014655903
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.4328604377569419,
+    "fiche24": 0.0518159611482492,
+    "fiche48": 0.014194131983703806,
+    "rosetta": 0.16236633156896255,
+    "piql_hand": 0.08870720678780374,
+    "piql": 0.0820989494120172,
+    "silica": 0.09757542587935492,
+    "mdisc": 0.0013894887047581613
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.6275516760052215,
+    "fiche24": 0.3186091242444871,
+    "fiche48": 0.10210344009464116,
+    "rosetta": 0.09593871413075052,
+    "piql_hand": 0.24635288268392125,
+    "piql": 0.23422152841367194,
+    "silica": 0.26673707180895145,
+    "mdisc": 0.011256942825321168
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_BIO|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.5569488676771418,
+    "fiche24": 0.21699110889452763,
+    "fiche48": 0.04155441654162799,
+    "rosetta": 0.05923117568146153,
+    "piql_hand": 0.15031858247627056,
+    "piql": 0.14150125768180516,
+    "silica": 0.16571970589977938,
+    "mdisc": 0.00441830014655903
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_BIO|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.4328604377569419,
+    "fiche24": 0.0518159611482492,
+    "fiche48": 0.014194131983703806,
+    "rosetta": 0.037033797360962156,
+    "piql_hand": 0.08870720678780374,
+    "piql": 0.0820989494120172,
+    "silica": 0.09757542587935492,
+    "mdisc": 0.0013894887047581613
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_BIO|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.6275516760052215,
+    "fiche24": 0.3186091242444871,
+    "fiche48": 0.10210344009464116,
+    "rosetta": 0.34633738810525183,
+    "piql_hand": 0.24635288268392125,
+    "piql": 0.23422152841367194,
+    "silica": 0.26673707180895145,
+    "mdisc": 0.011256942825321168
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.5569488676771418,
+    "fiche24": 0.21699110889452763,
+    "fiche48": 0.04155441654162799,
+    "rosetta": 0.24090186084477808,
+    "piql_hand": 0.15031858247627056,
+    "piql": 0.14150125768180516,
+    "silica": 0.16571970589977938,
+    "mdisc": 0.00441830014655903
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.4328604377569419,
+    "fiche24": 0.0518159611482492,
+    "fiche48": 0.014194131983703806,
+    "rosetta": 0.1610187004861566,
+    "piql_hand": 0.08870720678780374,
+    "piql": 0.0820989494120172,
+    "silica": 0.09757542587935492,
+    "mdisc": 0.0013894887047581613
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.6275516760052215,
+    "fiche24": 0.3186091242444871,
+    "fiche48": 0.10210344009464116,
+    "rosetta": 0.36513274923397254,
+    "piql_hand": 0.24635288268392125,
+    "piql": 0.23422152841367194,
+    "silica": 0.26673707180895145,
+    "mdisc": 0.011256942825321168
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.5569488676771418,
+    "fiche24": 0.21699110889452763,
+    "fiche48": 0.04155441654162799,
+    "rosetta": 0.26014106225078637,
+    "piql_hand": 0.15031858247627056,
+    "piql": 0.14150125768180516,
+    "silica": 0.16571970589977938,
+    "mdisc": 0.00441830014655903
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.4328604377569419,
+    "fiche24": 0.0518159611482492,
+    "fiche48": 0.014194131983703806,
+    "rosetta": 0.17883368920722692,
+    "piql_hand": 0.08870720678780374,
+    "piql": 0.0820989494120172,
+    "silica": 0.09757542587935492,
+    "mdisc": 0.0013894887047581613
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.6275516760052215,
+    "fiche24": 0.3186091242444871,
+    "fiche48": 0.10210344009464116,
+    "rosetta": 0.41783140847646505,
+    "piql_hand": 0.24635288268392125,
+    "piql": 0.23422152841367194,
+    "silica": 0.26673707180895145,
+    "mdisc": 0.011256942825321168
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.5569488676771418,
+    "fiche24": 0.21699110889452763,
+    "fiche48": 0.04155441654162799,
+    "rosetta": 0.311035555110341,
+    "piql_hand": 0.15031858247627056,
+    "piql": 0.14150125768180516,
+    "silica": 0.16571970589977938,
+    "mdisc": 0.00441830014655903
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_BIO|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.4328604377569419,
+    "fiche24": 0.0518159611482492,
+    "fiche48": 0.014194131983703806,
+    "rosetta": 0.22382616169441055,
+    "piql_hand": 0.08870720678780374,
+    "piql": 0.0820989494120172,
+    "silica": 0.09757542587935492,
+    "mdisc": 0.0013894887047581613
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_BIO|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8606924704991865,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.6195624669746665,
+    "piql_hand": 0.27801478560065174,
+    "piql": 0.26574830521795384,
+    "silica": 0.6167149608149136,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_BIO|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8339494672341137,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.552449195271655,
+    "piql_hand": 0.18726360454315794,
+    "piql": 0.17834213274674138,
+    "silica": 0.547228797144237,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_BIO|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7661764872989335,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.46641872061007533,
+    "piql_hand": 0.12352422579594782,
+    "piql": 0.11713494381000415,
+    "silica": 0.45124021480058074,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_BIO|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8606924704991865,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.47534706313106256,
+    "piql_hand": 0.27801478560065174,
+    "piql": 0.26574830521795384,
+    "silica": 0.6167149608149136,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8339494672341137,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.3931099166628264,
+    "piql_hand": 0.18726360454315794,
+    "piql": 0.17834213274674138,
+    "silica": 0.547228797144237,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7661764872989335,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.3109162617238422,
+    "piql_hand": 0.12352422579594782,
+    "piql": 0.11713494381000415,
+    "silica": 0.45124021480058074,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8606924704991865,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.12053179294888075,
+    "piql_hand": 0.27801478560065174,
+    "piql": 0.26574830521795384,
+    "silica": 0.6167149608149136,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8339494672341137,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.08808286068327907,
+    "piql_hand": 0.18726360454315794,
+    "piql": 0.17834213274674138,
+    "silica": 0.547228797144237,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7661764872989335,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.06580019284630989,
+    "piql_hand": 0.12352422579594782,
+    "piql": 0.11713494381000415,
+    "silica": 0.45124021480058074,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8606924704991865,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.4526283366709823,
+    "piql_hand": 0.27801478560065174,
+    "piql": 0.26574830521795384,
+    "silica": 0.6167149608149136,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8339494672341137,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.3650953220855757,
+    "piql_hand": 0.18726360454315794,
+    "piql": 0.17834213274674138,
+    "silica": 0.547228797144237,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7661764872989335,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.2815011940740213,
+    "piql_hand": 0.12352422579594782,
+    "piql": 0.11713494381000415,
+    "silica": 0.45124021480058074,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8606924704991865,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.540130323919096,
+    "piql_hand": 0.27801478560065174,
+    "piql": 0.26574830521795384,
+    "silica": 0.6167149608149136,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8339494672341137,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.4655436227368563,
+    "piql_hand": 0.18726360454315794,
+    "piql": 0.17834213274674138,
+    "silica": 0.547228797144237,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7661764872989335,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.3819852761085206,
+    "piql_hand": 0.12352422579594782,
+    "piql": 0.11713494381000415,
+    "silica": 0.45124021480058074,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_BIO|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8606924704991865,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.7323641334043666,
+    "piql_hand": 0.27801478560065174,
+    "piql": 0.26574830521795384,
+    "silica": 0.6167149608149136,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_BIO|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8339494672341137,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.6811711532020784,
+    "piql_hand": 0.18726360454315794,
+    "piql": 0.17834213274674138,
+    "silica": 0.547228797144237,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_BIO|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7661764872989335,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.5956760603373636,
+    "piql_hand": 0.12352422579594782,
+    "piql": 0.11713494381000415,
+    "silica": 0.45124021480058074,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_BIO|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9931099178172234,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.721519986844348,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9563709250049626,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9917790294792359,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.6738534028935668,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9489462618669607,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9864618186985344,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.6178580571762228,
+    "piql_hand": 0.12738925199470216,
+    "piql": 0.12102390247567814,
+    "silica": 0.9301633993595516,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9931099178172234,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.51147963620432,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9563709250049626,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9917790294792359,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.43610507293759726,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9489462618669607,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9864618186985344,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.3637428054298289,
+    "piql_hand": 0.12738925199470216,
+    "piql": 0.12102390247567814,
+    "silica": 0.9301633993595516,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9931099178172234,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.12756729762766883,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9563709250049626,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9917790294792359,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.09647885273180967,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9489462618669607,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9864618186985344,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.07607390132252925,
+    "piql_hand": 0.12738925199470216,
+    "piql": 0.12102390247567814,
+    "silica": 0.9301633993595516,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9931099178172234,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.46863634464124504,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9563709250049626,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9917790294792359,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.3841392775175388,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9489462618669607,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9864618186985344,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.30507425268690636,
+    "piql_hand": 0.12738925199470216,
+    "piql": 0.12102390247567814,
+    "silica": 0.9301633993595516,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9931099178172234,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.6128603611927111,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9563709250049626,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9917790294792359,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.5522035364549797,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9489462618669607,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9864618186985344,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.490061972062342,
+    "piql_hand": 0.12738925199470216,
+    "piql": 0.12102390247567814,
+    "silica": 0.9301633993595516,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_BIO|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9931099178172234,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.9738609147732992,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9563709250049626,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_BIO|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9917790294792359,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.9689952714532892,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9489462618669607,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_BIO|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9864618186985344,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.9554065632625253,
+    "piql_hand": 0.12738925199470216,
+    "piql": 0.12102390247567814,
+    "silica": 0.9301633993595516,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_BIO|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947267880007251,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.7226389483443272,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9723431007155156,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9937237790202272,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.6751801502931388,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9678732001947952,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912444128216555,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.620349730151719,
+    "piql_hand": 0.12739343161209554,
+    "piql": 0.12102390247567814,
+    "silica": 0.9613114605056696,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947267880007251,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.5116513277281465,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9723431007155156,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9937237790202272,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.43630553812358536,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9678732001947952,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912444128216555,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.3640090354978795,
+    "piql_hand": 0.12739343161209554,
+    "piql": 0.12102390247567814,
+    "silica": 0.9613114605056696,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947267880007251,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.12759253893737785,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9723431007155156,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9937237790202272,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.09651028662192022,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9678732001947952,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912444128216555,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.07612856355934068,
+    "piql_hand": 0.12739343161209554,
+    "piql": 0.12102390247567814,
+    "silica": 0.9613114605056696,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947267880007251,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.4686447038760318,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9723431007155156,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9937237790202272,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.3841487669937986,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9678732001947952,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912444128216555,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.3050826119216931,
+    "piql_hand": 0.12739343161209554,
+    "piql": 0.12102390247567814,
+    "silica": 0.9613114605056696,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947267880007251,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.6136695401895333,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9723431007155156,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9937237790202272,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.5531702768489458,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9678732001947952,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912444128216555,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.49175272043012175,
+    "piql_hand": 0.12739343161209554,
+    "piql": 0.12102390247567814,
+    "silica": 0.9613114605056696,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_BIO|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947267880007251,
+    "fiche24": 0.31866378648129856,
+    "fiche48": 0.10215826593680125,
+    "rosetta": 0.980693198181981,
+    "piql_hand": 0.2806131960882013,
+    "piql": 0.2684096910910879,
+    "silica": 0.9723431007155156,
+    "mdisc": 0.01126530206010795
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_BIO|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9937237790202272,
+    "fiche24": 0.21705872141287863,
+    "fiche48": 0.041620427710860164,
+    "rosetta": 0.977131904253794,
+    "piql_hand": 0.19034946360438895,
+    "piql": 0.18151517637110923,
+    "silica": 0.9678732001947952,
+    "mdisc": 0.004423222812368797
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_BIO|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912444128216555,
+    "fiche24": 0.05184554568070028,
+    "fiche48": 0.014265349084740142,
+    "rosetta": 0.9712810431528647,
+    "piql_hand": 0.12739343161209554,
+    "piql": 0.12102390247567814,
+    "silica": 0.9613114605056696,
+    "mdisc": 0.0014147300144671834
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9893821934063055,
+    "fiche24": 0.7996504851639769,
+    "fiche48": 0.32970820900668363,
+    "rosetta": 0.9133852028407766,
+    "piql_hand": 0.6695171507296914,
+    "piql": 0.6456615869797886,
+    "silica": 0.733018831029608,
+    "mdisc": 0.03606389957476063
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9655303445692226,
+    "fiche24": 0.7592203085965509,
+    "fiche48": 0.2961774055682494,
+    "rosetta": 0.8736496298828625,
+    "piql_hand": 0.6262879560616494,
+    "piql": 0.6045594951879657,
+    "silica": 0.6910079337027532,
+    "mdisc": 0.03213597780076904
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9102862131369008,
+    "fiche24": 0.1329854103657323,
+    "fiche48": 0.04664257544367212,
+    "rosetta": 0.6019868647617871,
+    "piql_hand": 0.2698191292522596,
+    "piql": 0.25425201918954965,
+    "silica": 0.3055150161911585,
+    "mdisc": 0.004368668559649994
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9893821934063055,
+    "fiche24": 0.7996504851639769,
+    "fiche48": 0.32970820900668363,
+    "rosetta": 0.8436825917693473,
+    "piql_hand": 0.6695171507296914,
+    "piql": 0.6456615869797886,
+    "silica": 0.733018831029608,
+    "mdisc": 0.03606389957476063
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9655303445692226,
+    "fiche24": 0.7592203085965509,
+    "fiche48": 0.2961774055682494,
+    "rosetta": 0.8026799486638133,
+    "piql_hand": 0.6262879560616494,
+    "piql": 0.6045594951879657,
+    "silica": 0.6910079337027532,
+    "mdisc": 0.03213597780076904
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9102862131369008,
+    "fiche24": 0.1329854103657323,
+    "fiche48": 0.04664257544367212,
+    "rosetta": 0.4866588934486278,
+    "piql_hand": 0.2698191292522596,
+    "piql": 0.25425201918954965,
+    "silica": 0.3055150161911585,
+    "mdisc": 0.004368668559649994
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9893821934063055,
+    "fiche24": 0.7996504851639769,
+    "fiche48": 0.32970820900668363,
+    "rosetta": 0.253244098459724,
+    "piql_hand": 0.6695171507296914,
+    "piql": 0.6456615869797886,
+    "silica": 0.733018831029608,
+    "mdisc": 0.03606389957476063
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_CASC|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9655303445692226,
+    "fiche24": 0.7592203085965509,
+    "fiche48": 0.2961774055682494,
+    "rosetta": 0.23612785918072843,
+    "piql_hand": 0.6262879560616494,
+    "piql": 0.6045594951879657,
+    "silica": 0.6910079337027532,
+    "mdisc": 0.03213597780076904
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_CASC|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9102862131369008,
+    "fiche24": 0.1329854103657323,
+    "fiche48": 0.04664257544367212,
+    "rosetta": 0.1120082154488326,
+    "piql_hand": 0.2698191292522596,
+    "piql": 0.25425201918954965,
+    "silica": 0.3055150161911585,
+    "mdisc": 0.004368668559649994
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_CASC|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9893821934063055,
+    "fiche24": 0.7996504851639769,
+    "fiche48": 0.32970820900668363,
+    "rosetta": 0.8471701665719068,
+    "piql_hand": 0.6695171507296914,
+    "piql": 0.6456615869797886,
+    "silica": 0.733018831029608,
+    "mdisc": 0.03606389957476063
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9655303445692226,
+    "fiche24": 0.7592203085965509,
+    "fiche48": 0.2961774055682494,
+    "rosetta": 0.8055693796429173,
+    "piql_hand": 0.6262879560616494,
+    "piql": 0.6045594951879657,
+    "silica": 0.6910079337027532,
+    "mdisc": 0.03213597780076904
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9102862131369008,
+    "fiche24": 0.1329854103657323,
+    "fiche48": 0.04664257544367212,
+    "rosetta": 0.4838260571060461,
+    "piql_hand": 0.2698191292522596,
+    "piql": 0.25425201918954965,
+    "silica": 0.3055150161911585,
+    "mdisc": 0.004368668559649994
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9893821934063055,
+    "fiche24": 0.7996504851639769,
+    "fiche48": 0.32970820900668363,
+    "rosetta": 0.8709633943246121,
+    "piql_hand": 0.6695171507296914,
+    "piql": 0.6456615869797886,
+    "silica": 0.733018831029608,
+    "mdisc": 0.03606389957476063
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9655303445692226,
+    "fiche24": 0.7592203085965509,
+    "fiche48": 0.2961774055682494,
+    "rosetta": 0.8306886584468964,
+    "piql_hand": 0.6262879560616494,
+    "piql": 0.6045594951879657,
+    "silica": 0.6910079337027532,
+    "mdisc": 0.03213597780076904
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9102862131369008,
+    "fiche24": 0.1329854103657323,
+    "fiche48": 0.04664257544367212,
+    "rosetta": 0.5335501189203093,
+    "piql_hand": 0.2698191292522596,
+    "piql": 0.25425201918954965,
+    "silica": 0.3055150161911585,
+    "mdisc": 0.004368668559649994
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9893821934063055,
+    "fiche24": 0.7996504851639769,
+    "fiche48": 0.32970820900668363,
+    "rosetta": 0.9447047750175652,
+    "piql_hand": 0.6695171507296914,
+    "piql": 0.6456615869797886,
+    "silica": 0.733018831029608,
+    "mdisc": 0.03606389957476063
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9655303445692226,
+    "fiche24": 0.7592203085965509,
+    "fiche48": 0.2961774055682494,
+    "rosetta": 0.9056735842900567,
+    "piql_hand": 0.6262879560616494,
+    "piql": 0.6045594951879657,
+    "silica": 0.6910079337027532,
+    "mdisc": 0.03213597780076904
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_CASC|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9102862131369008,
+    "fiche24": 0.1329854103657323,
+    "fiche48": 0.04664257544367212,
+    "rosetta": 0.6617075042619874,
+    "piql_hand": 0.2698191292522596,
+    "piql": 0.25425201918954965,
+    "silica": 0.3055150161911585,
+    "mdisc": 0.004368668559649994
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_CASC|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9989352692402569,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9538061342726347,
+    "piql_hand": 0.6769642717247653,
+    "piql": 0.6533885893964573,
+    "silica": 0.9687299485576752,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9900379298620532,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.9296522417590736,
+    "piql_hand": 0.6359538724004904,
+    "piql": 0.6145533267478457,
+    "silica": 0.9446580829277851,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9958649809962246,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.8459056883610965,
+    "piql_hand": 0.31192881514555415,
+    "piql": 0.29876420001172466,
+    "silica": 0.8964418363461122,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9989352692402569,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.8691689976450566,
+    "piql_hand": 0.6769642717247653,
+    "piql": 0.6533885893964573,
+    "silica": 0.9687299485576752,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9900379298620532,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8370773540131666,
+    "piql_hand": 0.6359538724004904,
+    "piql": 0.6145533267478457,
+    "silica": 0.9446580829277851,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9958649809962246,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.6356767894811427,
+    "piql_hand": 0.31192881514555415,
+    "piql": 0.29876420001172466,
+    "silica": 0.8964418363461122,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9989352692402569,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.25810424240717844,
+    "piql_hand": 0.6769642717247653,
+    "piql": 0.6533885893964573,
+    "silica": 0.9687299485576752,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9900379298620532,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.24270705174386303,
+    "piql_hand": 0.6359538724004904,
+    "piql": 0.6145533267478457,
+    "silica": 0.9446580829277851,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9958649809962246,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.1413265608536656,
+    "piql_hand": 0.31192881514555415,
+    "piql": 0.29876420001172466,
+    "silica": 0.8964418363461122,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9989352692402569,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.8693584624743921,
+    "piql_hand": 0.6769642717247653,
+    "piql": 0.6533885893964573,
+    "silica": 0.9687299485576752,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9900379298620532,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8348484747685906,
+    "piql_hand": 0.6359538724004904,
+    "piql": 0.6145533267478457,
+    "silica": 0.9446580829277851,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9958649809962246,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.6129567093570989,
+    "piql_hand": 0.31192881514555415,
+    "piql": 0.29876420001172466,
+    "silica": 0.8964418363461122,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9989352692402569,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9030185450753526,
+    "piql_hand": 0.6769642717247653,
+    "piql": 0.6533885893964573,
+    "silica": 0.9687299485576752,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9900379298620532,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8748404686011517,
+    "piql_hand": 0.6359538724004904,
+    "piql": 0.6145533267478457,
+    "silica": 0.9446580829277851,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9958649809962246,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.7258860120010769,
+    "piql_hand": 0.31192881514555415,
+    "piql": 0.29876420001172466,
+    "silica": 0.8964418363461122,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_CASC|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9989352692402569,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9969899852728481,
+    "piql_hand": 0.6769642717247653,
+    "piql": 0.6533885893964573,
+    "silica": 0.9687299485576752,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_CASC|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9900379298620532,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.9799649808862768,
+    "piql_hand": 0.6359538724004904,
+    "piql": 0.6145533267478457,
+    "silica": 0.9446580829277851,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_CASC|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9958649809962246,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.9838745705144749,
+    "piql_hand": 0.31192881514555415,
+    "piql": 0.29876420001172466,
+    "silica": 0.8964418363461122,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_CASC|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998021828247571,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9543570691947142,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.9942691153059265,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993388759875997,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.9365546282507975,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9917516159517594,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984141015357343,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.8511019534307871,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9872287473749595,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998021828247571,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.8693685564903983,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.9942691153059265,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993388759875997,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8394839255372062,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9917516159517594,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984141015357343,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.6377278171888918,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9872287473749595,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998021828247571,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.2581441541762468,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.9942691153059265,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993388759875997,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.2431872644137661,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9917516159517594,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984141015357343,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.14167994075343673,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9872287473749595,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998021828247571,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.8694393341730573,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.9942691153059265,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993388759875997,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8359140561674995,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9917516159517594,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984141015357343,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.6141021809646444,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9872287473749595,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998021828247571,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9034085925452253,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.9942691153059265,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993388759875997,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8798274410530542,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9917516159517594,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984141015357343,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.729521198759042,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9872287473749595,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_CASC|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998021828247571,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9983166993122645,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.9942691153059265,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_CASC|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993388759875997,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.996583214961232,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9917516159517594,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_CASC|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984141015357343,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.9940522327088284,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9872287473749595,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_CASC|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998091025793263,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9543607212874037,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.994536289303947,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9994676385089503,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.936622586248177,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9929400224890897,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984306320605388,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.8511106031239988,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9877862153647495,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998091025793263,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.8693689409212078,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.994536289303947,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9994676385089503,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8394910790106145,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9929400224890897,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984306320605388,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.63772897048132,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9877862153647495,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998091025793263,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.2581443463916515,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.994536289303947,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9994676385089503,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.24319084115047027,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9929400224890897,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984306320605388,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.14168032518424617,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9877862153647495,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998091025793263,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.8694393341730573,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.994536289303947,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9994676385089503,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.8359140561674995,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9929400224890897,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984306320605388,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.6141021809646444,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9877862153647495,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998091025793263,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9034116679917007,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.994536289303947,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9994676385089503,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.879884668840321,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9929400224890897,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984306320605388,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.7295267730057784,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9877862153647495,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_CASC|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9998091025793263,
+    "fiche24": 0.7996508695947863,
+    "fiche48": 0.32973824875500196,
+    "rosetta": 0.9983407262378524,
+    "piql_hand": 0.6769778319349942,
+    "piql": 0.6534027262529005,
+    "silica": 0.994536289303947,
+    "mdisc": 0.03607863112581273
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_CASC|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9994676385089503,
+    "fiche24": 0.7592274620699592,
+    "fiche48": 0.2962169642761977,
+    "rosetta": 0.9970303070492544,
+    "piql_hand": 0.636120548330905,
+    "piql": 0.6147307328883731,
+    "silica": 0.9929400224890897,
+    "mdisc": 0.03214763796242467
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_CASC|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9984306320605388,
+    "fiche24": 0.13302507893268065,
+    "fiche48": 0.04673846115076813,
+    "rosetta": 0.9941094258159252,
+    "piql_hand": 0.3121636969555843,
+    "piql": 0.2990271994160261,
+    "silica": 0.9877862153647495,
+    "mdisc": 0.004413055428210969
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.79346616792462,
+    "fiche24": 0.540914614662532,
+    "fiche48": 0.20768335386247536,
+    "rosetta": 0.6328844414385746,
+    "piql_hand": 0.44154922382664696,
+    "piql": 0.42326445535528817,
+    "silica": 0.4812445612853575,
+    "mdisc": 0.02325703255712511
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7415741033336809,
+    "fiche24": 0.46395939277217135,
+    "fiche48": 0.15802651798689074,
+    "rosetta": 0.5532771754958253,
+    "piql_hand": 0.3667601276024835,
+    "piql": 0.351090478819286,
+    "silica": 0.4038657640964877,
+    "mdisc": 0.01767208667464771
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.653634284801925,
+    "fiche24": 0.08932732797258452,
+    "fiche48": 0.02896088752695074,
+    "rosetta": 0.3869974741517467,
+    "piql_hand": 0.1711456596733639,
+    "piql": 0.16072071081811856,
+    "silica": 0.19262820708326345,
+    "mdisc": 0.0028776839406646497
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.79346616792462,
+    "fiche24": 0.540914614662532,
+    "fiche48": 0.20768335386247536,
+    "rosetta": 0.5755587991267451,
+    "piql_hand": 0.44154922382664696,
+    "piql": 0.42326445535528817,
+    "silica": 0.4812445612853575,
+    "mdisc": 0.02325703255712511
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7415741033336809,
+    "fiche24": 0.46395939277217135,
+    "fiche48": 0.15802651798689074,
+    "rosetta": 0.4966863054168153,
+    "piql_hand": 0.3667601276024835,
+    "piql": 0.351090478819286,
+    "silica": 0.4038657640964877,
+    "mdisc": 0.01767208667464771
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.653634284801925,
+    "fiche24": 0.08932732797258452,
+    "fiche48": 0.02896088752695074,
+    "rosetta": 0.3125654004226079,
+    "piql_hand": 0.1711456596733639,
+    "piql": 0.16072071081811856,
+    "silica": 0.19262820708326345,
+    "mdisc": 0.0028776839406646497
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.79346616792462,
+    "fiche24": 0.540914614662532,
+    "fiche48": 0.20768335386247536,
+    "rosetta": 0.1676661012628242,
+    "piql_hand": 0.44154922382664696,
+    "piql": 0.42326445535528817,
+    "silica": 0.4812445612853575,
+    "mdisc": 0.02325703255712511
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_MIX|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7415741033336809,
+    "fiche24": 0.46395939277217135,
+    "fiche48": 0.15802651798689074,
+    "rosetta": 0.13865022885143433,
+    "piql_hand": 0.3667601276024835,
+    "piql": 0.351090478819286,
+    "silica": 0.4038657640964877,
+    "mdisc": 0.01767208667464771
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_MIX|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.653634284801925,
+    "fiche24": 0.08932732797258452,
+    "fiche48": 0.02896088752695074,
+    "rosetta": 0.07060389299069328,
+    "piql_hand": 0.1711456596733639,
+    "piql": 0.16072071081811856,
+    "silica": 0.19262820708326345,
+    "mdisc": 0.0028776839406646497
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_MIX|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.79346616792462,
+    "fiche24": 0.540914614662532,
+    "fiche48": 0.20768335386247536,
+    "rosetta": 0.57749315855437,
+    "piql_hand": 0.44154922382664696,
+    "piql": 0.42326445535528817,
+    "silica": 0.4812445612853575,
+    "mdisc": 0.02325703255712511
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7415741033336809,
+    "fiche24": 0.46395939277217135,
+    "fiche48": 0.15802651798689074,
+    "rosetta": 0.4978154368189311,
+    "piql_hand": 0.3667601276024835,
+    "piql": 0.351090478819286,
+    "silica": 0.4038657640964877,
+    "mdisc": 0.01767208667464771
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.653634284801925,
+    "fiche24": 0.08932732797258452,
+    "fiche48": 0.02896088752695074,
+    "rosetta": 0.31055077131667846,
+    "piql_hand": 0.1711456596733639,
+    "piql": 0.16072071081811856,
+    "silica": 0.19262820708326345,
+    "mdisc": 0.0028776839406646497
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.79346616792462,
+    "fiche24": 0.540914614662532,
+    "fiche48": 0.20768335386247536,
+    "rosetta": 0.5980636105755693,
+    "piql_hand": 0.44154922382664696,
+    "piql": 0.42326445535528817,
+    "silica": 0.4812445612853575,
+    "mdisc": 0.02325703255712511
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7415741033336809,
+    "fiche24": 0.46395939277217135,
+    "fiche48": 0.15802651798689074,
+    "rosetta": 0.5191061652636718,
+    "piql_hand": 0.3667601276024835,
+    "piql": 0.351090478819286,
+    "silica": 0.4038657640964877,
+    "mdisc": 0.01767208667464771
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.653634284801925,
+    "fiche24": 0.08932732797258452,
+    "fiche48": 0.02896088752695074,
+    "rosetta": 0.34281318925601384,
+    "piql_hand": 0.1711456596733639,
+    "piql": 0.16072071081811856,
+    "silica": 0.19262820708326345,
+    "mdisc": 0.0028776839406646497
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.79346616792462,
+    "fiche24": 0.540914614662532,
+    "fiche48": 0.20768335386247536,
+    "rosetta": 0.660936226627217,
+    "piql_hand": 0.44154922382664696,
+    "piql": 0.42326445535528817,
+    "silica": 0.4812445612853575,
+    "mdisc": 0.02325703255712511
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.7415741033336809,
+    "fiche24": 0.46395939277217135,
+    "fiche48": 0.15802651798689074,
+    "rosetta": 0.5815216725203773,
+    "piql_hand": 0.3667601276024835,
+    "piql": 0.351090478819286,
+    "silica": 0.4038657640964877,
+    "mdisc": 0.01767208667464771
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_MIX|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.653634284801925,
+    "fiche24": 0.08932732797258452,
+    "fiche48": 0.02896088752695074,
+    "rosetta": 0.42635732401907767,
+    "piql_hand": 0.1711456596733639,
+    "piql": 0.16072071081811856,
+    "silica": 0.19262820708326345,
+    "mdisc": 0.0028776839406646497
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_MIX|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9242583708838001,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.7725478258646666,
+    "piql_hand": 0.4610799285610068,
+    "piql": 0.4436933482078837,
+    "silica": 0.7785616507420218,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9046890404412823,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.7225848263856713,
+    "piql_hand": 0.39019304113437625,
+    "piql": 0.3755689996753066,
+    "silica": 0.7273751397715137,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8717541153689851,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.6411118378471277,
+    "piql_hand": 0.2090284814916331,
+    "piql": 0.19979486170318578,
+    "silica": 0.6571139046168809,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9242583708838001,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.65679318644716,
+    "piql_hand": 0.4610799285610068,
+    "piql": 0.4436933482078837,
+    "silica": 0.7785616507420218,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9046890404412823,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.5947167907974105,
+    "piql_hand": 0.39019304113437625,
+    "piql": 0.3755689996753066,
+    "silica": 0.7273751397715137,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8717541153689851,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.4616204923809529,
+    "piql_hand": 0.2090284814916331,
+    "piql": 0.19979486170318578,
+    "silica": 0.6571139046168809,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9242583708838001,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.1835934869859302,
+    "piql_hand": 0.4610799285610068,
+    "piql": 0.4436933482078837,
+    "silica": 0.7785616507420218,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9046890404412823,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.15791018087826475,
+    "piql_hand": 0.39019304113437625,
+    "piql": 0.3755689996753066,
+    "silica": 0.7273751397715137,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8717541153689851,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.0990698982641427,
+    "piql_hand": 0.2090284814916331,
+    "piql": 0.19979486170318578,
+    "silica": 0.6571139046168809,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9242583708838001,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.6446235452035649,
+    "piql_hand": 0.4610799285610068,
+    "piql": 0.4436933482078837,
+    "silica": 0.7785616507420218,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9046890404412823,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.5783992467788271,
+    "piql_hand": 0.39019304113437625,
+    "piql": 0.3755689996753066,
+    "silica": 0.7273751397715137,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8717541153689851,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.4351000868624381,
+    "piql_hand": 0.2090284814916331,
+    "piql": 0.19979486170318578,
+    "silica": 0.6571139046168809,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9242583708838001,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.7073034571867073,
+    "piql_hand": 0.4610799285610068,
+    "piql": 0.4436933482078837,
+    "silica": 0.7785616507420218,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9046890404412823,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.6513509792646937,
+    "piql_hand": 0.39019304113437625,
+    "piql": 0.3755689996753066,
+    "silica": 0.7273751397715137,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8717541153689851,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.5410775189189515,
+    "piql_hand": 0.2090284814916331,
+    "piql": 0.19979486170318578,
+    "silica": 0.6571139046168809,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_MIX|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9242583708838001,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.8536306782882245,
+    "piql_hand": 0.4610799285610068,
+    "piql": 0.4436933482078837,
+    "silica": 0.7785616507420218,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_MIX|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9046890404412823,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.8160995643324431,
+    "piql_hand": 0.39019304113437625,
+    "piql": 0.3755689996753066,
+    "silica": 0.7273751397715137,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_MIX|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.8717541153689851,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.7742556793373896,
+    "piql_hand": 0.2090284814916331,
+    "piql": 0.19979486170318578,
+    "silica": 0.6571139046168809,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_MIX|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961114964759146,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.828229708467374,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9738948596860506,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9951259031446231,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.7925349447427916,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9684913197537102,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9920043807835578,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.7254036419086993,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.956256493013946,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961114964759146,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.6760057246142261,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9738948596860506,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9951259031446231,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.6188662734766373,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9684913197537102,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9920043807835578,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.4907701453809876,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.956256493013946,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961114964759146,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.18714020855108787,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9738948596860506,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9951259031446231,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.16240044309263982,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9684913197537102,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9920043807835578,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.10456152048665947,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.956256493013946,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961114964759146,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.6529165941351202,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9738948596860506,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9951259031446231,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.5888583030228908,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9684913197537102,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9920043807835578,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.4477104931539764,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.956256493013946,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961114964759146,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.7469689566630192,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9738948596860506,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9951259031446231,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.7012322330570792,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9684913197537102,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9920043807835578,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.6011712598631747,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.956256493013946,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_MIX|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961114964759146,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.9851614029474874,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9738948596860506,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_MIX|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9951259031446231,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.9815518138180859,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9684913197537102,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_MIX|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9920043807835578,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.9731582253419744,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.956256493013946,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_MIX|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.997072788418988,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.8288605799280834,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9828514974299565,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9963418010190587,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.793321549607693,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9796233025174016,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947241317361413,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.7268630941883275,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.9737463273821635,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.997072788418988,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.6761054146838167,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9828514974299565,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9963418010190587,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.6189868905457813,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9796233025174016,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947241317361413,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.49096536371139676,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.9737463273821635,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.997072788418988,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.18715844649246852,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9828514974299565,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9963418010190587,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.16242443681069535,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9796233025174016,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947241317361413,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.10460702696753918,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.9737463273821635,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.997072788418988,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.6529165941351202,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9828514974299565,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9963418010190587,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.5888583030228908,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9796233025174016,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947241317361413,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.4477150084530355,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.9737463273821635,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.997072788418988,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.7474119696104664,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9828514974299565,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9963418010190587,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.7017918703187526,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9796233025174016,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947241317361413,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.6021967297934738,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.9737463273821635,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_MIX|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.997072788418988,
+    "fiche24": 0.5409420599471747,
+    "fiche48": 0.2077200064903804,
+    "rosetta": 0.9888720423568257,
+    "piql_hand": 0.46233179035016464,
+    "piql": 0.4451711653866718,
+    "silica": 0.9828514974299565,
+    "mdisc": 0.02327509375336202
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_MIX|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9963418010190587,
+    "fiche24": 0.4639970045464205,
+    "fiche48": 0.15807275453006261,
+    "rosetta": 0.9862111344729225,
+    "piql_hand": 0.39177014173737734,
+    "piql": 0.37742689162744397,
+    "silica": 0.9796233025174016,
+    "mdisc": 0.017687844711100395
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_MIX|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9947241317361413,
+    "fiche24": 0.08935928855628657,
+    "fiche48": 0.02904002537250389,
+    "rosetta": 0.9819040608955094,
+    "piql_hand": 0.2110006838800676,
+    "piql": 0.2021224222350389,
+    "silica": 0.9737463273821635,
+    "mdisc": 0.002913983078282194
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.98199734002348,
+    "fiche24": 0.7899057793968932,
+    "fiche48": 0.32403460321247973,
+    "rosetta": 0.9041054188105355,
+    "piql_hand": 0.6623968961441147,
+    "piql": 0.6381106310207679,
+    "silica": 0.7225817250607306,
+    "mdisc": 0.036301711562565606
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9570144267444967,
+    "fiche24": 0.7479841088553805,
+    "fiche48": 0.2896849051002496,
+    "rosetta": 0.8629772945704401,
+    "piql_hand": 0.6182188892590933,
+    "piql": 0.5959031118983277,
+    "silica": 0.6790219359519167,
+    "mdisc": 0.032410204643597486
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9014601062550057,
+    "fiche24": 0.1311165672963239,
+    "fiche48": 0.045806901083950816,
+    "rosetta": 0.5937245850613659,
+    "piql_hand": 0.2660468351316305,
+    "piql": 0.2490960047818503,
+    "silica": 0.30063373399031584,
+    "mdisc": 0.004800128246376421
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.98199734002348,
+    "fiche24": 0.7899057793968932,
+    "fiche48": 0.32403460321247973,
+    "rosetta": 0.8344150596532569,
+    "piql_hand": 0.6623968961441147,
+    "piql": 0.6381106310207679,
+    "silica": 0.7225817250607306,
+    "mdisc": 0.036301711562565606
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9570144267444967,
+    "fiche24": 0.7479841088553805,
+    "fiche48": 0.2896849051002496,
+    "rosetta": 0.7920487025372184,
+    "piql_hand": 0.6182188892590933,
+    "piql": 0.5959031118983277,
+    "silica": 0.6790219359519167,
+    "mdisc": 0.032410204643597486
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9014601062550057,
+    "fiche24": 0.1311165672963239,
+    "fiche48": 0.045806901083950816,
+    "rosetta": 0.48050346938707766,
+    "piql_hand": 0.2660468351316305,
+    "piql": 0.2490960047818503,
+    "silica": 0.30063373399031584,
+    "mdisc": 0.004800128246376421
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.98199734002348,
+    "fiche24": 0.7899057793968932,
+    "fiche48": 0.32403460321247973,
+    "rosetta": 0.2493309051022591,
+    "piql_hand": 0.6623968961441147,
+    "piql": 0.6381106310207679,
+    "silica": 0.7225817250607306,
+    "mdisc": 0.036301711562565606
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_EVIDW|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9570144267444967,
+    "fiche24": 0.7479841088553805,
+    "fiche48": 0.2896849051002496,
+    "rosetta": 0.23152432979928572,
+    "piql_hand": 0.6182188892590933,
+    "piql": 0.5959031118983277,
+    "silica": 0.6790219359519167,
+    "mdisc": 0.032410204643597486
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_EVIDW|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9014601062550057,
+    "fiche24": 0.1311165672963239,
+    "fiche48": 0.045806901083950816,
+    "rosetta": 0.11035931062928463,
+    "piql_hand": 0.2660468351316305,
+    "piql": 0.2490960047818503,
+    "silica": 0.30063373399031584,
+    "mdisc": 0.004800128246376421
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "1000|P_EVIDW|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.98199734002348,
+    "fiche24": 0.7899057793968932,
+    "fiche48": 0.32403460321247973,
+    "rosetta": 0.8375242273431631,
+    "piql_hand": 0.6623968961441147,
+    "piql": 0.6381106310207679,
+    "silica": 0.7225817250607306,
+    "mdisc": 0.036301711562565606
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9570144267444967,
+    "fiche24": 0.7479841088553805,
+    "fiche48": 0.2896849051002496,
+    "rosetta": 0.7944378857579913,
+    "piql_hand": 0.6182188892590933,
+    "piql": 0.5959031118983277,
+    "silica": 0.6790219359519167,
+    "mdisc": 0.032410204643597486
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9014601062550057,
+    "fiche24": 0.1311165672963239,
+    "fiche48": 0.045806901083950816,
+    "rosetta": 0.47659617353228706,
+    "piql_hand": 0.2660468351316305,
+    "piql": 0.2490960047818503,
+    "silica": 0.30063373399031584,
+    "mdisc": 0.004800128246376421
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.98199734002348,
+    "fiche24": 0.7899057793968932,
+    "fiche48": 0.32403460321247973,
+    "rosetta": 0.8618968675003214,
+    "piql_hand": 0.6623968961441147,
+    "piql": 0.6381106310207679,
+    "silica": 0.7225817250607306,
+    "mdisc": 0.036301711562565606
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9570144267444967,
+    "fiche24": 0.7479841088553805,
+    "fiche48": 0.2896849051002496,
+    "rosetta": 0.8202400961085125,
+    "piql_hand": 0.6182188892590933,
+    "piql": 0.5959031118983277,
+    "silica": 0.6790219359519167,
+    "mdisc": 0.032410204643597486
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9014601062550057,
+    "fiche24": 0.1311165672963239,
+    "fiche48": 0.045806901083950816,
+    "rosetta": 0.5270684115295822,
+    "piql_hand": 0.2660468351316305,
+    "piql": 0.2490960047818503,
+    "silica": 0.30063373399031584,
+    "mdisc": 0.004800128246376421
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.98199734002348,
+    "fiche24": 0.7899057793968932,
+    "fiche48": 0.32403460321247973,
+    "rosetta": 0.9355905428684382,
+    "piql_hand": 0.6623968961441147,
+    "piql": 0.6381106310207679,
+    "silica": 0.7225817250607306,
+    "mdisc": 0.036301711562565606
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9570144267444967,
+    "fiche24": 0.7479841088553805,
+    "fiche48": 0.2896849051002496,
+    "rosetta": 0.8952503518939611,
+    "piql_hand": 0.6182188892590933,
+    "piql": 0.5959031118983277,
+    "silica": 0.6790219359519167,
+    "mdisc": 0.032410204643597486
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "1000|P_EVIDW|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9014601062550057,
+    "fiche24": 0.1311165672963239,
+    "fiche48": 0.045806901083950816,
+    "rosetta": 0.6532655664685972,
+    "piql_hand": 0.2660468351316305,
+    "piql": 0.2490960047818503,
+    "silica": 0.30063373399031584,
+    "mdisc": 0.004800128246376421
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_EVIDW|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961709940633973,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.9469049499549187,
+    "piql_hand": 0.6698380788540484,
+    "piql": 0.646026185763408,
+    "silica": 0.9616269040197822,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9868419750267975,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.9216574773452353,
+    "piql_hand": 0.6278556603497485,
+    "piql": 0.6060984414410496,
+    "silica": 0.9364588490747862,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912509330808675,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.839048573026492,
+    "piql_hand": 0.3073311916948182,
+    "piql": 0.2925972639094905,
+    "silica": 0.8883601575477309,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961709940633973,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.8607506604317279,
+    "piql_hand": 0.6698380788540484,
+    "piql": 0.646026185763408,
+    "silica": 0.9616269040197822,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9868419750267975,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.8274149802329127,
+    "piql_hand": 0.6278556603497485,
+    "piql": 0.6060984414410496,
+    "silica": 0.9364588490747862,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912509330808675,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.6296416838934273,
+    "piql_hand": 0.3073311916948182,
+    "piql": 0.2925972639094905,
+    "silica": 0.8883601575477309,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961709940633973,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.25435060849352414,
+    "piql_hand": 0.6698380788540484,
+    "piql": 0.646026185763408,
+    "silica": 0.9616269040197822,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9868419750267975,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.23830066067837508,
+    "piql_hand": 0.6278556603497485,
+    "piql": 0.6060984414410496,
+    "silica": 0.9364588490747862,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912509330808675,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.13900720548093506,
+    "piql_hand": 0.3073311916948182,
+    "piql": 0.2925972639094905,
+    "silica": 0.8883601575477309,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961709940633973,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.8605994287193137,
+    "piql_hand": 0.6698380788540484,
+    "piql": 0.646026185763408,
+    "silica": 0.9616269040197822,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9868419750267975,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.8247120529351628,
+    "piql_hand": 0.6278556603497485,
+    "piql": 0.6060984414410496,
+    "silica": 0.9364588490747862,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912509330808675,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.6056725079519653,
+    "piql_hand": 0.3073311916948182,
+    "piql": 0.2925972639094905,
+    "silica": 0.8883601575477309,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961709940633973,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.8954225071689402,
+    "piql_hand": 0.6698380788540484,
+    "piql": 0.646026185763408,
+    "silica": 0.9616269040197822,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9868419750267975,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.8660511462660503,
+    "piql_hand": 0.6278556603497485,
+    "piql": 0.6060984414410496,
+    "silica": 0.9364588490747862,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912509330808675,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.7204416021021016,
+    "piql_hand": 0.3073311916948182,
+    "piql": 0.2925972639094905,
+    "silica": 0.8883601575477309,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "2000|P_EVIDW|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9961709940633973,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.9914349340766092,
+    "piql_hand": 0.6698380788540484,
+    "piql": 0.646026185763408,
+    "silica": 0.9616269040197822,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_EVIDW|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9868419750267975,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.9735564870718001,
+    "piql_hand": 0.6278556603497485,
+    "piql": 0.6060984414410496,
+    "silica": 0.9364588490747862,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "2000|P_EVIDW|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9912509330808675,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.9761530177682602,
+    "piql_hand": 0.3073311916948182,
+    "piql": 0.2925972639094905,
+    "silica": 0.8883601575477309,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_EVIDW|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997027111930101,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.9497134764837839,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9934325199573665,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.999222974269639,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.9311730517906307,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9907830734572013,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9983954144773414,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.8471941258673252,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9862308363790909,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997027111930101,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.861771175799284,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9934325199573665,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.999222974269639,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.8307718851981513,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9907830734572013,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9983954144773414,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.6327681743267546,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9862308363790909,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997027111930101,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.25454440179725873,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9934325199573665,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.999222974269639,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.23896026380707147,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9907830734572013,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9983954144773414,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.1396478656019343,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9862308363790909,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997027111930101,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.861110479317083,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9934325199573665,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.999222974269639,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.8262740797332935,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9907830734572013,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9983954144773414,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.6073126051435865,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9862308363790909,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997027111930101,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.8975034209384145,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9934325199573665,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.999222974269639,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.872994959230716,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9907830734572013,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9983954144773414,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.7264034545281213,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9862308363790909,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "5000|P_EVIDW|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997027111930101,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.9978947400851128,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9934325199573665,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_EVIDW|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.999222974269639,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.9961110260962298,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9907830734572013,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "5000|P_EVIDW|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9983954144773414,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.9934016156401102,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9862308363790909,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_EVIDW|L141_press2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997389559927663,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.9497415741372299,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9940460038952609,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|L141_press2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993853293525957,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.9312691830897498,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9923705216433212,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|L141_press2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9985146118352125,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.8472663372277444,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9875271253449118,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|N98_1k_5k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997389559927663,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.8617715587713476,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9940460038952609,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|N98_1k_5k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993853293525957,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.830779006035123,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9923705216433212,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|N98_1k_5k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9985146118352125,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.632769323242946,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9875271253449118,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|N98_literal|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997389559927663,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.25454459328329065,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9940460038952609,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|N98_literal|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993853293525957,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.23896382422555737,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9923705216433212,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|N98_literal|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9985146118352125,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.1396482485739981,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9875271253449118,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|B08_2000|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997389559927663,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.861110479317083,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9940460038952609,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|B08_2000|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993853293525957,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.8262740797332935,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9923705216433212,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|B08_2000|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9985146118352125,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.6073126051435865,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9875271253449118,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|UNION_1k_10k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997389559927663,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.8975211603662291,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9940460038952609,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|UNION_1k_10k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993853293525957,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.8730690159352226,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9923705216433212,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|UNION_1k_10k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9985146118352125,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.7264481426931901,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9875271253449118,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "silica"
+  },
+  "10000|P_EVIDW|HI_10k_100k|main": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9997389559927663,
+    "fiche24": 0.7899061623689569,
+    "fiche48": 0.32405474520564737,
+    "rosetta": 0.9980556485846038,
+    "piql_hand": 0.6698858307956279,
+    "piql": 0.646084295930619,
+    "silica": 0.9940460038952609,
+    "mdisc": 0.03631638721386956
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_EVIDW|HI_10k_100k|A_Ord": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9993853293525957,
+    "fiche24": 0.7479912296923522,
+    "fiche48": 0.2897128899895488,
+    "rosetta": 0.9967155851551341,
+    "piql_hand": 0.6280614525382331,
+    "piql": 0.6063263082241467,
+    "silica": 0.9923705216433212,
+    "mdisc": 0.03242181160786149
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  },
+  "10000|P_EVIDW|HI_10k_100k|stag_0.9": {
+   "P_read_H": {
+    "stone": 1.0,
+    "mom_eye": 1.0,
+    "mom_mf": 0.9985146118352125,
+    "fiche24": 0.13114630157099563,
+    "fiche48": 0.04592199048209059,
+    "rosetta": 0.9937911171078981,
+    "piql_hand": 0.3076776955584903,
+    "piql": 0.2928887393623711,
+    "silica": 0.9875271253449118,
+    "mdisc": 0.00485902233762415
+   },
+   "argmax_amount": "silica",
+   "rank_rosetta_vs_silica": "rosetta"
+  }
+ },
+ "hypotheses": {
+  "H161a": {
+   "class": "prediction",
+   "value_UNION": 0.7469689566630192,
+   "values": {
+    "L141_press2000": 0.828229708467374,
+    "N98_1k_5k": 0.6760057246142261,
+    "N98_literal": 0.18714020855108787,
+    "B08_2000": 0.6529165941351202,
+    "UNION_1k_10k": 0.7469689566630192,
+    "HI_10k_100k": 0.9851614029474874
+   },
+   "supported": 0.0
+  },
+  "H161b": {
+   "class": "confirmatory",
+   "failures": [],
+   "n": 96,
+   "supported": true
+  },
+  "H161c": {
+   "class": "confirmatory",
+   "diff_at_1000_P_MIX_main": {
+    "L141_press2000": 0.0,
+    "N98_1k_5k": 0.05732564231182946,
+    "N98_literal": 0.46521834017575037,
+    "B08_2000": 0.055391282884204585,
+    "UNION_1k_10k": 0.03482083086300525,
+    "HI_10k_100k": 0.028051785188642375
+   },
+   "supported": 0.0
+  },
+  "H161d": {
+   "class": "prediction",
+   "rosetta": 0.8536306782882245,
+   "silica": 0.7785616507420218,
+   "supported": 1.0
+  }
+ },
+ "R2_rosetta_not_max": [
+  "1000|P_BIO|N98_literal|main",
+  "1000|P_BIO|N98_literal|A_Ord",
+  "1000|P_BIO|N98_literal|stag_0.9",
+  "1000|P_CASC|N98_literal|main",
+  "1000|P_CASC|N98_literal|A_Ord",
+  "1000|P_CASC|N98_literal|stag_0.9",
+  "1000|P_MIX|N98_literal|main",
+  "1000|P_MIX|N98_literal|A_Ord",
+  "1000|P_MIX|N98_literal|stag_0.9",
+  "1000|P_EVIDW|N98_literal|main",
+  "1000|P_EVIDW|N98_literal|A_Ord",
+  "1000|P_EVIDW|N98_literal|stag_0.9",
+  "2000|P_BIO|N98_literal|main",
+  "2000|P_BIO|N98_literal|A_Ord",
+  "2000|P_BIO|N98_literal|stag_0.9",
+  "2000|P_CASC|N98_literal|main",
+  "2000|P_CASC|N98_literal|A_Ord",
+  "2000|P_CASC|N98_literal|stag_0.9",
+  "2000|P_MIX|N98_literal|main",
+  "2000|P_MIX|N98_literal|A_Ord",
+  "2000|P_MIX|N98_literal|stag_0.9",
+  "2000|P_EVIDW|N98_literal|main",
+  "2000|P_EVIDW|N98_literal|A_Ord",
+  "2000|P_EVIDW|N98_literal|stag_0.9",
+  "5000|P_BIO|N98_literal|main",
+  "5000|P_BIO|N98_literal|A_Ord",
+  "5000|P_BIO|N98_literal|stag_0.9",
+  "5000|P_CASC|N98_literal|main",
+  "5000|P_CASC|N98_literal|A_Ord",
+  "5000|P_CASC|N98_literal|stag_0.9",
+  "5000|P_MIX|N98_literal|main",
+  "5000|P_MIX|N98_literal|A_Ord",
+  "5000|P_MIX|N98_literal|stag_0.9",
+  "5000|P_EVIDW|N98_literal|main",
+  "5000|P_EVIDW|N98_literal|A_Ord",
+  "5000|P_EVIDW|N98_literal|stag_0.9",
+  "10000|P_BIO|N98_literal|main",
+  "10000|P_BIO|N98_literal|A_Ord",
+  "10000|P_BIO|N98_literal|stag_0.9",
+  "10000|P_CASC|N98_literal|main",
+  "10000|P_CASC|N98_literal|A_Ord",
+  "10000|P_CASC|N98_literal|stag_0.9",
+  "10000|P_MIX|N98_literal|main",
+  "10000|P_MIX|N98_literal|A_Ord",
+  "10000|P_MIX|N98_literal|stag_0.9",
+  "10000|P_EVIDW|N98_literal|main",
+  "10000|P_EVIDW|N98_literal|A_Ord",
+  "10000|P_EVIDW|N98_literal|stag_0.9"
+ ],
+ "silica_overtakes_rosetta_first_H_P_MIX_main": {
+  "L141_press2000": 2000,
+  "N98_1k_5k": 2000,
+  "N98_literal": 1000,
+  "B08_2000": 2000,
+  "UNION_1k_10k": 2000,
+  "HI_10k_100k": null
+ },
+ "argmax_amount_all_silica": true,
+ "runtime_s": 44.52749681472778
+}

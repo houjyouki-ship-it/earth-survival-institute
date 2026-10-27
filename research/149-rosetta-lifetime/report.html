@@ -1,0 +1,100 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究149：Rosetta 型（ニッケル）の寿命の幅を出典で置き直す（open_problems 341） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="149rosetta-open_problems-341">研究149：Rosetta 型（ニッケル）の寿命の幅を出典で置き直す（open_problems 341）</h1>
+<p>事前登録：PREREGISTRATION.md（2026-10-27 15:35 JST、資料・計算の前）。計算：sim.py（約 45 秒、ネット接続なし）。出典：sources.md。</p>
+<h2 id="_1">資料で分かったこと</h2>
+<ul>
+<li>【事実（BBC 2000、Mercury News 2000）】Long Now 側の主張は「2,000〜10,000 年」。141 で【推測】と書いた幅 2,000〜1 万年は、この 2000 年の報道の主張とちょうど一致していた（出典つきに格上げ。ただし推進側の主張で独立の試験ではない）。</li>
+<li>【事実（Rose 1998 のメール）】製造元 Norsam の COO の話は「1-5000 year medium」。【推測】1,000〜5,000 年の書き方と読むのが自然だが、字義どおり 1〜5,000 年とも読める。</li>
+<li>【事実（Rosetta Project ブログ 2008、Wikipedia）】完成版について出てくる数は「2,000 年」だけで、時代とともに主張は控えめになっている。</li>
+<li>【事実（二次の転載）】唯一の試験の要約（Los Alamos）は「7 日間の測定で約 1 mm/年」「長時間には外挿できない」。【独自仮説】この 1 mm/年は、同じ抄録の「試験した円盤はシリコンの上の薄いニッケルの層」「塩水 15 週で判読に影響なし」と矛盾する（1 mm/年なら 15 週で約 0.29 mm 削れ、1998 のメールにある 300 µm の板でもほぼ消え、100〜130 nm の画素は残らない）。単位の写し間違い（µm か mil）の疑いが強く、寿命の推定には使わなかった。原典は開けていない。</li>
+<li>結論：開けた資料には独立した長期の腐食の試験も、1 万年を超える主張もない。寿命の主張はすべて推進側の 1,000〜10,000 年の範囲。</li>
+</ul>
+<h2 id="148-a_xpt_sp_mixmain">計算（148 と同じ段の時刻、A_XPT_S、P_MIX、main）</h2>
+<table>
+<thead>
+<tr>
+<th>寿命の版</th>
+<th>H=1,000</th>
+<th>2,000</th>
+<th>5,000</th>
+<th>10,000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L141（2,000〜1 万年＝2000 年の報道）</td>
+<td>0.633</td>
+<td>0.773</td>
+<td>0.828</td>
+<td>0.829</td>
+</tr>
+<tr>
+<td>Norsam 1998（1,000〜5,000 と読む）</td>
+<td>0.576</td>
+<td>0.657</td>
+<td>0.676</td>
+<td>0.676</td>
+</tr>
+<tr>
+<td>Norsam 1998（字義の 1〜5,000）</td>
+<td>0.168</td>
+<td>0.184</td>
+<td>0.187</td>
+<td>0.187</td>
+</tr>
+<tr>
+<td>2008 ブログ・Wikipedia（2,000 年の 1 点）</td>
+<td>0.577</td>
+<td>0.645</td>
+<td>0.653</td>
+<td>0.653</td>
+</tr>
+<tr>
+<td>出典の和（1,000〜1 万年）＝主</td>
+<td>0.598</td>
+<td>0.707</td>
+<td>0.747</td>
+<td>0.747</td>
+</tr>
+<tr>
+<td>仮の上振れ 1 万〜10 万年（出典なし）</td>
+<td>0.661</td>
+<td>0.854</td>
+<td>0.985</td>
+<td>0.989</td>
+</tr>
+<tr>
+<td>Silica（参考、変えていない）</td>
+<td>0.481</td>
+<td>0.779</td>
+<td>0.974</td>
+<td>0.983</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>再現：L141 の版で 148 の 10 媒体 × 4 地平 × 4 人口版 × 3 版 = 480 値を差 0（assert）。rosetta 以外の媒体は全版で不変（assert）。</li>
+<li>Rosetta÷銀塩フィッシュ 24 倍（H=1,000）：L141 1.17、Norsam 1.06、2008 1.07、出典の和 1.11。H=5,000 で 1.21〜1.53。</li>
+<li>Silica が Rosetta を抜く地平：出典のある版はすべて 2,000 年（字義の版は 1,000 年）。上振れの版だけ 1 万年まで抜かれない。</li>
+<li>R2（顕微鏡の段）の中の最大は字義の版を除く全 240 件で Rosetta。字義の版では 48 件すべてで崩れる。</li>
+<li>量×読める確率の最大は全 288 件で Silica。</li>
+</ul>
+<h2 id="_2">仮説の判定</h2>
+<ul>
+<li>H161a（予測：出典の幅で H=5,000 の Rosetta ≥ 0.90）：<strong>棄却</strong>。出典の和で 0.747、最も楽観の出典（L141）でも 0.828。0.90 を超えるのは出典のない上振れの版だけ（0.985）。</li>
+<li>H161b（確認的：H≥5,000 で Silica ≥ Rosetta）：<strong>支持</strong>（出典のある 4 版 × 96 件で例外 0）。</li>
+<li>H161c（確認的：H=1,000 の変化 &lt; 0.05）：<strong>棄却</strong>。出典の和は 0.035 だが、Norsam の版 0.057、2008 の版 0.055、字義の版 0.465。登録の「寿命の上端に鈍い」は当たったが、下端（1,000〜2,000 年）は 1,000 年以内の読める確率に効く。</li>
+<li>H161d（予測：下端 ≥ 1 万年なら H=2,000 で Rosetta &gt; Silica）：<strong>支持</strong>（0.854 対 0.779）。ただし出典のない版なので、中間層の推奨を動かす根拠にはならない。</li>
+</ul>
+<h2 id="_3">批判</h2>
+<ul>
+<li>出典はすべて推進側（Long Now・Norsam）の主張で、独立した長期の試験がない。2000 年の報道の「2,000〜1 万年」が最も楽観で、後の資料ほど控えめ。</li>
+<li>寿命の主張が「中央値」か「下限」かは書かれていない。141 の掛け算（0.3〜1 の傷みの係数とワイブル形状 2）はそのまま使った【推測】。</li>
+<li>容器の球（ステンレスと光学ガラス）による保護、埋没・水没の環境の違いを分けていない。</li>
+<li>腐食速度から寿命を作る道は、唯一の試験の値の単位が疑わしく使えなかった。</li>
+</ul>
+<h2 id="_4">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>模型の維持者：Rosetta の寿命の主の幅を 1,000〜1 万年（出典の和）に替える。H=5,000 の P_read は 0.83→0.75、H=1,000 は 0.633→0.598。順位（Silica が 2,000 年で抜く、R2 の中で Rosetta が最大、量の最大は Silica）は変わらない。</li>
+<li>写しの設計者：中間層の Rosetta 型の利点は銀塩フィッシュに対し 1,000 年で 1.06〜1.17 倍と薄い。ニッケルを選ぶ理由は寿命より「熱・水・電磁に強い」点で、寿命で選ぶなら 1 万年を超える根拠（独立の腐食試験、またはステンレス・イリジウムなど、1998 のメールにある別の基板）が要る。</li>
+<li>試験をする側（外部）：ニッケルの微細な刻みの長期腐食の独立した試験か、Los Alamos の原典の公開が、この中間層の推奨を確定させる最小の資料。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
