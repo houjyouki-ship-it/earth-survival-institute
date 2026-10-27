@@ -1,0 +1,136 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究148：媒体の読める確率の地平依存（open_problems 340） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="148open_problems-340">研究148：媒体の読める確率の地平依存（open_problems 340）</h1>
+<p>注：P_read は生存確率や復興確率ではない（模型の中の量）。提言は「模型の中での順位（外部の検証はまだ）」。</p>
+<h2 id="_1">何をしたか</h2>
+<p>147 の割り当て直した AI・GEN の段の到達時刻（P_BIO・P_CASC・P_MIX・P_EVIDW の 4 引き直し）のまま、141 の run() の地平 H を 1,000・2,000・5,000・10,000 年に替え、媒体ごとに「地平までに段に届き、そのとき媒体が残っている」確率 P_read と量×読める確率を出した。版は 141 の main（A_XPT_S）・A_Ord・stag_0.9。新しい資料は開いていない。事前登録は PREREGISTRATION.md（13:34 JST、計算の前）。
+再現：H=1,000 で 147 の media の P_read_H 120 値を差 0、argmax 12 版を一致（assert）。実行 約 23 秒。</p>
+<h2 id="resultsjsona_xpt_sp_mix-main">主な数値（results.json、A_XPT_S・P_MIX の main）【計算】</h2>
+<table>
+<thead>
+<tr>
+<th>H（年）</th>
+<th>MOM 10 倍</th>
+<th>フィッシュ 24 倍</th>
+<th>フィッシュ 48 倍</th>
+<th>Rosetta</th>
+<th>Piql 手読み</th>
+<th>Piql</th>
+<th>Silica</th>
+<th>M-DISC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1,000</td>
+<td>0.793</td>
+<td>0.541</td>
+<td>0.208</td>
+<td>0.633</td>
+<td>0.442</td>
+<td>0.423</td>
+<td>0.481</td>
+<td>0.023</td>
+</tr>
+<tr>
+<td>2,000</td>
+<td>0.924</td>
+<td>0.541</td>
+<td>0.208</td>
+<td>0.773</td>
+<td>0.461</td>
+<td>0.444</td>
+<td>0.779</td>
+<td>0.023</td>
+</tr>
+<tr>
+<td>5,000</td>
+<td>0.996</td>
+<td>0.541</td>
+<td>0.208</td>
+<td>0.828</td>
+<td>0.462</td>
+<td>0.445</td>
+<td>0.974</td>
+<td>0.023</td>
+</tr>
+<tr>
+<td>10,000</td>
+<td>0.997</td>
+<td>0.541</td>
+<td>0.208</td>
+<td>0.829</td>
+<td>0.462</td>
+<td>0.445</td>
+<td>0.983</td>
+<td>0.023</td>
+</tr>
+<tr>
+<td>- Rosetta ÷ フィッシュ 24 倍：1.17（H=1,000）→1.43→1.53→1.53。stag_0.9 では フィッシュ 24 倍が 0.089 に落ち、比は 4.3〜8.2。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 量×読める確率の最大は 4 地平 × 4 引き直し × 3 版の 48 件すべて Silica。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- R2 の段（fiche48・Rosetta・Piql 手読み層）の中で Rosetta が最大：48 件すべて。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 段の到達（P_MIX、標本の分位）：GEN の t2 中央値 781 年・90 % 点 2,700 年、t2 が 1,000 年を超える割合 42 %、5,000 年を超えるのは 0.6 %。BIO は 58 %・0.7 %。つまり H=5,000 でほぼ全員がどの段にも届き、それ以後の P_read は媒体の寿命だけで決まる。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">判定</h2>
+<ul>
+<li>H160a（予測，Rosetta÷フィッシュ 24 倍 ≥3 at H=5,000）：<strong>棄却</strong>（1.53）。フィッシュは寿命 250〜500 年のため、早く段に届く標本（54 %）の分で H=1,000 の時点で頭打ちしており、地平を延ばしても増えない（H160d）。一方 Rosetta も寿命の範囲（2,000〜1 万年、【推測】）で 0.83 に頭打ちし、差は 1.5 倍にしか開かなかった。</li>
+<li>H160b（確認的，最大は常に Silica）：<strong>支持</strong>。</li>
+<li>H160c（予測，Silica ≥0.80 at H=5,000）：<strong>支持</strong>（0.974）。147 の 0.481 は「届くのが遅い」ことによる地平の打ち切りで、届けばほぼ読める。</li>
+<li>H160d（予測，フィッシュ 24 倍の増加 &lt;0.05）：<strong>支持</strong>（増加 0.00003）。</li>
+<li>H160e（確認的，R2 の中で Rosetta が最大）：<strong>支持</strong>（48/48）。</li>
+</ul>
+<h2 id="_3">新しく分かったこと【計算／推測】</h2>
+<ul>
+<li>1,000 年の地平では Rosetta（0.633）が Silica（0.481）より読めたが、2,000 年で逆転し（0.773 対 0.779）、5,000 年では Silica 0.974 対 Rosetta 0.828。中間層の Rosetta の上限は、段の到達ではなく自身の寿命の仮定（2,000〜1 万年、出典の確認なし＝【推測】）で決まっている。</li>
+<li>地平を延ばして増えるのは寿命 1 万年級の媒体だけで、数百年級（フィッシュ・Piql・M-DISC）は H=1,000 の値のまま。重い崩壊の 4 割以上は段に届くのが 1,000 年より後なので、その標本に届く写しは 1 万年級の媒体しかない。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ul>
+<li>媒体の寿命分布（141 の lo〜hi × 0.3〜1.0 × Weibull 形 2）は粗く、Rosetta の幅は【推測】。Rosetta の上限 0.83 はこの仮定の直接の結果で、寿命の主張の出典を確かめない限り「Silica が 2,000 年以上で上」は模型の仮定次第。</li>
+<li>段の到達時刻は 038 の人口の待ちつきの模型のまま。長い地平では 2 度目の崩壊・写しの散逸・保管場所の発見の失敗が効くはずだが入っていない（P_read は「残っている」だけで「見つかる」を含まない）。</li>
+<li>AI・GEN の人口の形は BIO・CASC からの借用（146・147 と同じ）。</li>
+<li>地平を長くするほど、読めた時点の価値（知識が古くなる、既に自力で再発見している）を割り引くべきだが割り引いていない。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>写しの設計者：二段構え（要点は肉眼の R0、大量は Silica）は地平によらず保たれる。中間層の Rosetta 型は R2 の中では最良だが、H≥2,000 では Silica に読める確率で並ばれるので、中間層の役割は「1,000 年以内に顕微鏡の段に届く社会向け」に限って書く。フィッシュは早く届く社会だけの保険で、地平を延ばしても価値は増えない。</li>
+<li>模型の維持者：Rosetta の寿命の幅を出典で確かめる（新規 341）。P_read に「見つかる確率」の時間減衰を入れる（新規 342）。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
