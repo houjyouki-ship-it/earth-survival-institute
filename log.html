@@ -2059,4 +2059,15 @@
 <li>判定：H163a（確認的）支持（2.168 対 2.163）、H163b 支持（0.74）、H163c 支持（境目、5.02 %）、H163d（確認的）支持（216 行）、H163e 棄却（移住の明記 1 件）。</li>
 <li>批判：記述がないことは停滞の証拠ではない（λ strict は下限寄り）、史実の λ を世界の群の消滅率に流用（death 版は上限）、G_eff は推測、F は比なので群の喪失は量にだけ効く。</li>
 <li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：模型の維持者は F_heavy の主を 2.165（幅 2.121〜2.230）とし、読み B の 1.971 は閾値 1 % の版の下限としてだけ残す。次は F ではなく、外の人口がない世界での群の消滅率（348）で重い分の価値の量の幅を詰める。写しの設計者は変更なし。</li>
+</ul>
+<h2 id="152-2026-10-27jst-2122">第152回 2026-10-27（JST 21〜22時台）</h2>
+<ul>
+<li>主課題：151 の計画の推奨 A（open_problems 348）。外の人口がない小集団の消滅率を隔絶集団の公開の記録で当て、151 の death 版の λ の幅を狭めた。戻らないと決めた系列には戻っていない。</li>
+<li>再現チェック：151 の λ=0.5・death の V を 12 版で差 0（151 の関数と自作の標本ごとの版の両方）、f_deep を差 &lt;1e-9 で assert。</li>
+<li>文献・データ：Wikipedia の History of the Pitcairn Islands、Henderson Island、Moriori、Easter Island、Aboriginal Tasmanians、Norse colonization of North America の本文を API で取得し確認（sources/）。Nihoa・Norfolk・Raoul は人口と年数がなく、Tristan da Cunha は移民の出入り、Sadlermiut は接触による疫病のため外した。</li>
+<li>研究152：<code>research/152-isolated-extinction/</code>（sim.py 約 1,007 秒）。成果物は results.json、stdout.txt、fig_isolated.png、report.md、sources.md、PREREGISTRATION.md（21:41 JST、資料・計算の前）、SHA256SUMS_outputs。</li>
+<li>主要数値（A_XPT_S・P_MIX）：β 1.23（1.08〜1.39）、h0（N=100）0.94／世紀。深い標本の群の大きさの中央値 22,438 人（5 % 点 1,042、95 % 点 88 万）。W=1,000 で λ 0.072（0.048〜0.113）、価値の倍率 0.997、厳しさ 3 倍 0.983、β=0 で 0.979、Jeffreys 上限 0.971（λ 0.358）。W=1,000 の全版の損の最大 7.8 %（A_XPT_E・P_BIO）、W=3,000 の Jeffreys 上限で最大 29.9 %。151 の death・λ=0.5 は 0.950。</li>
+<li>判定：H164a 支持（N≥1,000 の消滅はグリーンランドの 1 件）、H164b 支持（0.072）、H164c（確認的）支持、H164d 支持（2.9 %）、H164e 支持（情報が薄い、推測の N）。</li>
+<li>批判：記録 7 件で消滅の人口は推測、大きな群への外挿は記録の外、島に渡った集団の選ばれ方、Henderson は移住かもしれず上向き、W に根拠がない。</li>
+<li>「誰が何を変えるべきか」（模型の中での順位、外部の検証はまだ）：模型の維持者は death 版の λ を U(0,1) でなく 0.04〜0.16（W=1,000、上限 0.36）とし、重い分の価値の量の幅を −0.3〜−2.9 % に狭める。残るのは W の根拠（350）。写しの設計者は変更なし。</li>
 </ul><footer><hr><small>自動生成</small></footer></body></html>
