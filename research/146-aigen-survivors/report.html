@@ -1,0 +1,134 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究146：AI・GEN の重い標本に生き残りの割合 s と群の数を与える（open_problems 335） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="146aigen-s-open_problems-335">研究146：AI・GEN の重い標本に生き残りの割合 s と群の数を与える（open_problems 335）</h1>
+<p><strong>注：F_heavy・TC・R_tab は生存確率や復興確率ではない（模型の中の量）。提言は模型の中での順位で、外部の検証はまだ。</strong></p>
+<p>事前登録：PREREGISTRATION.md（2026-10-27 09:41 JST、計算の前、PREREG.sha256）。新しい資料は開いていない（入力は 038 の sim.py の写し、070・145 の results.json）。sim.py 約 11 秒、seed 20261146。</p>
+<h2 id="_1">問い</h2>
+<p>145 で、重い崩壊の重みの 94 %（A_Ord）・82 %（A_XPT_S）・48 %（A_XPT_E）は、032 の状態だけを持ち生き残りの割合 s を持たない AI・GEN から来ていた。038 は AI・GEN の T0 からの再出発に<strong>人口の回復待ちを入れていない</strong>（BIO・CASC・NUC には入れた）。AI・GEN に s を与えると、145 の F_heavy の結合と 038 の重い分の価値はどれだけ動くか。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>【推測】AI・GEN の重い標本（T1・T0）に、038 の BIO か CASC の重い標本から (s、総人口、最大のつながった集団、mcap) を組で引き直す。状態を合わせ、T1 には 038 の割り当てが T1 の標本、T0 には T0_iron か T00 の標本から引く（引き元の数：BIO 4,572／14,988、CASC 30,903／12,738。NUC の重い標本は 0）。</li>
+<li>版：P_BIO、P_CASC、P_MIX（1:1）、P_EVIDW（アンカーごとの EVID の重い重みの比。A_XPT_E は CASC の重みが 0 なので P_BIO と同じ）。</li>
+<li>価値：引き直した人口で 038 の times() により T2 到達を計算し直し（人口の待ちを入れる）、032 と同じ価値の式（recs_gen）で R_tab を出す。状態は 032 のまま。</li>
+<li>群の数【推測、粗い代理】：G_eff = 総人口÷最大の集団（1〜10 に丸め）。070 の G の走査（D_nat、広まりなし）を log G で補間した TC を重い重みで平均。</li>
+</ul>
+<h2 id="_3">再現</h2>
+<ul>
+<li>AI・GEN を 032 のままにした版で 038 の weighted_038 の R_tab_from_heavy を 3 アンカーとも差 0（assert）。</li>
+<li>145 の EVID だけの f_deep（閾値 5 %）を 3 アンカーとも差 0（assert）。</li>
+</ul>
+<h2 id="_4">結果</h2>
+<h3 id="1-f_heavy-a-5-2223-2120">1. F_heavy の読み A（閾値 5 %、深い側 2.223・その場 2.120）</h3>
+<table>
+<thead>
+<tr>
+<th>アンカー</th>
+<th>145（EVID のみ）</th>
+<th>P_BIO</th>
+<th>P_CASC</th>
+<th>P_MIX</th>
+<th>P_EVIDW</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A_Ord</td>
+<td>2.211</td>
+<td>2.222</td>
+<td>2.126</td>
+<td>2.174</td>
+<td>2.211</td>
+</tr>
+<tr>
+<td>A_XPT_S</td>
+<td>2.122</td>
+<td>2.205</td>
+<td>2.121</td>
+<td>2.163</td>
+<td>2.122</td>
+</tr>
+<tr>
+<td>A_XPT_E</td>
+<td>2.223</td>
+<td>2.223</td>
+<td>2.174</td>
+<td>2.199</td>
+<td>2.223</td>
+</tr>
+<tr>
+<td>重い重み全体の深い割合 f_deep は A_Ord で 0.057（CASC）〜0.992（BIO）。読み A の幅は構造上 2.120〜2.223 の 0.103 に閉じており、AI・GEN の s の置き方で動くのはその中だけ。読み B（2.120）は s に依らない。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-038-r_tab_from_heavy">2. 重い分の価値（038 の R_tab_from_heavy に対する比）【計算】</h3>
+<table>
+<thead>
+<tr>
+<th>アンカー</th>
+<th>P_BIO</th>
+<th>P_CASC</th>
+<th>P_MIX</th>
+<th>P_EVIDW</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A_Ord</td>
+<td><strong>0.195</strong></td>
+<td>0.779</td>
+<td>0.490</td>
+<td>0.267</td>
+</tr>
+<tr>
+<td>A_XPT_S</td>
+<td>0.308</td>
+<td>0.810</td>
+<td>0.562</td>
+<td>0.803</td>
+</tr>
+<tr>
+<td>A_XPT_E</td>
+<td>0.706</td>
+<td>0.905</td>
+<td>0.810</td>
+<td>0.706</td>
+</tr>
+<tr>
+<td>変わったのは AI・GEN の重い分だけなので、全体の R_tab（板の手引きの価値）の比は 038 の値から引き算で出せる：A_Ord で 0.305（BIO）・0.809（CASC）・0.560（MIX）、A_XPT_S で 0.675・0.911・0.795、A_XPT_E で 0.967〜0.989。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>最も楽観的な CASC 型の生き残り（世界の 20〜90 %）を与えても、重い分の価値は 2 割以上下がる。</strong> 032 の GEN が「T0 から人口の待ちなしに再出発」と置いていたことが、重い分の価値を 1.2〜5 倍高く見せていた。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="3">3. 群の数（記述、判定に数えない）</h3>
+<p>G_eff の重み付きの中央値は 6〜10（多くは上限 10 に張り付く）。G_eff=1 の割合は 0〜0.11。070 の走査で補間した TC は 0.837〜0.867 で、070 の主（G 1〜10 の一様、0.819）より 0.02〜0.05 高い。G_eff の定義は粗く、群の地理を持たないので参考値。</p>
+<h2 id="_5">仮説の判定</h2>
+<ul>
+<li>H158a（確認的）：P_MIX で読み A の F の差が 3 アンカーとも &lt;0.05 → <strong>支持</strong>（−0.037・+0.040・−0.025）。ただし構造上の上限が 0.103 なので、試験は弱い。</li>
+<li>H158b（確認的）：版の間の幅が A_Ord・A_XPT_S で ≥0.05 → <strong>支持</strong>（0.096・0.084。A_XPT_E は 0.049）。</li>
+<li>H158c（予測）：P_BIO で A_Ord の重い分の価値が 038 の 0.8 倍以下 → <strong>支持</strong>（0.195）。</li>
+</ul>
+<h2 id="_6">批判</h2>
+<ul>
+<li>【推測】AI・GEN の生き残りの型を BIO・CASC から借りた。AI の重い崩壊（恒久的な無力化から外れた生き残り）や GEN（未知の危険）の人口の形について資料はなく、型の選び方そのものが最大の不確実性。</li>
+<li>状態（T1・T0）は 032 のまま固定し、人口から状態を割り当て直していない。BIO の裾の人口なら 038 の規則では多くが絶滅か T00 になるはずで、価値の低下はむしろ控えめかもしれない。</li>
+<li>G_eff は総人口と最大の集団の比の代理で、群の数の定義ではない。070 の地理（小地域・大陸）とつながっていない。</li>
+<li>F_heavy の読み A は 145 の線形の混合（誤差 最大 0.031）をそのまま使った。</li>
+</ul>
+<h2 id="_7">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>模型の維持者：F_heavy の主（その場 2.01、読み A・B の幅 1.97〜2.22）は AI・GEN を入れても幅の外に出ないので<strong>据え置く</strong>。一方、038 の重い分の価値は AI・GEN に人口の待ちが入っていないため過大で、<strong>A_Ord では全体の板の手引きの価値を 0.56 倍（幅 0.31〜0.81）に下げる版</strong>を感度として並べるべき。XPT のアンカーでは 0.68〜0.99 倍。</li>
+<li>次に効くのは、AI・GEN の状態を人口から割り当て直す版（037/038 の assign を使う、337）と、価値の低下が 142 の媒体・D2rz の推しの順位を変えるか（338）。順位が変わらなければこの系列は閉じる。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>

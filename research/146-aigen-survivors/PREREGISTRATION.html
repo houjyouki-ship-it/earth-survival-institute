@@ -1,0 +1,16 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究146 事前登録（2026-10-27 09:41 JST、計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="146-2026-10-27-0941-jst">研究146 事前登録（2026-10-27 09:41 JST、計算の前）</h1>
+<p>注：F_heavy・p|lost・TC は生存確率や復興確率ではない（模型の中の量）。</p>
+<p>課題：open_problems 335。038 の AI・GEN の重い標本（状態 T1=4・T0=5）は 032 の状態だけを持ち、生き残りの割合 s・人数・群の数を持たない。
+これに s を与える【推測】版を作り、145 の結合（読み A：深い側に再入植の型の F 2.223、閾値 5 %）と、038 の重い分の価値 R_tab_from_heavy、070 の群の数 G の走査がどれだけ動くかを出す。</p>
+<p>方法（固定）：
+- AI・GEN の重い標本ごとに、038 の BIO または CASC の重い標本から (s, ntot, nmax, mcap) を組で引き直す（seed 20261146）。状態を合わせる：GEN/AI の T1(4) には 038 の割り当てが 4 の標本、T0(5) には 5 か 6 の標本から引く（無ければ重い標本全体から）。
+- 版：P_BIO（BIO のみ）、P_CASC（CASC のみ）、P_MIX（1:1）、P_EVIDW（アンカーごとの EVID の重い重みの比で BIO・CASC・NUC_G・NUC_R を混ぜる）。
+- 深い割合 f_deep は s&lt;閾値（1・5・10 %）。読み A の F = f·2.223 + (1−f)·F_insitu(閾値)（145 の RULE の値）。読み B は f に依らない。
+- 価値：AI・GEN の重い標本の T2 到達を 038 の times() で人口の待ちを入れて計算し直し、recs_gen で R_tab を出す。状態は 032 のまま固定。
+- 群の数【推測】：G_eff = clip(round(ntot/nmax), 1, 10)。070 の scan_G（nospread_mix）を log G で補間した TC の重い重み付き平均を並べる。
+- 再現：AI・GEN を 032 のままにした版で 038 の weighted_038 の R_tab_from_heavy と差 &lt;1e-12（assert）、145 の EVID だけの f_deep（5 %）と差 &lt;1e-12（assert）。</p>
+<p>仮説：
+- H158a（確認的）：P_MIX で、AI・GEN を含めた重み付きの読み A の F（閾値 5 %）は、145 の EVID だけの読み A の F と、3 つのアンカーすべてで差 &lt;0.05。
+- H158b（確認的）：読み A の F の版（P_BIO・P_CASC・P_MIX・P_EVIDW）の間の幅は A_Ord と A_XPT_S で ≥0.05。
+- H158c（予測）：P_BIO で重み付きの R_tab_from_heavy（A_Ord）は 038 の値の 0.8 倍以下。
+- 記述（判定に数えない）：G_eff の中央値、070 の TC の補間値。</p><footer><hr><small>自動生成</small></footer></body></html>

@@ -1,0 +1,16 @@
+check {'038_Rtab_heavy_A_Ord': 0.0, '038_Rtab_heavy_A_XPT_S': 0.0, '038_Rtab_heavy_A_XPT_E': 0.0, '145_fdeep_A_Ord': 0.0, '145_fdeep_A_XPT_S': 0.0, '145_fdeep_A_XPT_E': 0.0}
+pools {'NUC_G|4': 0, 'NUC_G|5': 0, 'NUC_R|4': 0, 'NUC_R|5': 0, 'BIO|4': 4572, 'BIO|5': 14988, 'CASC|4': 30903, 'CASC|5': 12738}
+A_Ord|P_BIO {'fA5': 2.2223, 'f_all': 0.992, 'f_AIGEN': 1.0, 'shareAIGEN': 0.935, 'dF': 0.0113, 'Rh_ratio': 0.195, 'Gmed': 6.0, 'G1': 0.097, 'TC': 0.8391, 'GmedAIGEN': 6.0}
+A_Ord|P_CASC {'fA5': 2.1263, 'f_all': 0.057, 'f_AIGEN': 0.0, 'shareAIGEN': 0.935, 'dF': -0.0847, 'Rh_ratio': 0.779, 'Gmed': 10.0, 'G1': 0.006, 'TC': 0.8657, 'GmedAIGEN': 10.0}
+A_Ord|P_MIX {'fA5': 2.1741, 'f_all': 0.523, 'f_AIGEN': 0.498, 'shareAIGEN': 0.935, 'dF': -0.0368, 'Rh_ratio': 0.49, 'Gmed': 10.0, 'G1': 0.051, 'TC': 0.8524, 'GmedAIGEN': 10.0}
+A_Ord|P_EVIDW {'fA5': 2.211, 'f_all': 0.882, 'f_AIGEN': 0.882, 'shareAIGEN': 0.935, 'dF': -0.0, 'Rh_ratio': 0.267, 'Gmed': 8.0, 'G1': 0.086, 'TC': 0.8422, 'GmedAIGEN': 8.0}
+A_XPT_S|P_BIO {'fA5': 2.2046, 'f_all': 0.82, 'f_AIGEN': 1.0, 'shareAIGEN': 0.817, 'dF': 0.0825, 'Rh_ratio': 0.308, 'Gmed': 9.0, 'G1': 0.08, 'TC': 0.8441, 'GmedAIGEN': 6.0}
+A_XPT_S|P_CASC {'fA5': 2.1207, 'f_all': 0.003, 'f_AIGEN': 0.0, 'shareAIGEN': 0.817, 'dF': -0.0014, 'Rh_ratio': 0.81, 'Gmed': 10.0, 'G1': 0.0, 'TC': 0.8672, 'GmedAIGEN': 10.0}
+A_XPT_S|P_MIX {'fA5': 2.1625, 'f_all': 0.41, 'f_AIGEN': 0.498, 'shareAIGEN': 0.817, 'dF': 0.0404, 'Rh_ratio': 0.562, 'Gmed': 10.0, 'G1': 0.04, 'TC': 0.8557, 'GmedAIGEN': 10.0}
+A_XPT_S|P_EVIDW {'fA5': 2.1222, 'f_all': 0.017, 'f_AIGEN': 0.017, 'shareAIGEN': 0.817, 'dF': -0.0, 'Rh_ratio': 0.803, 'Gmed': 10.0, 'G1': 0.002, 'TC': 0.8668, 'GmedAIGEN': 10.0}
+A_XPT_E|P_BIO {'fA5': 2.2231, 'f_all': 1.0, 'f_AIGEN': 1.0, 'shareAIGEN': 0.477, 'dF': 0.0, 'Rh_ratio': 0.706, 'Gmed': 6.0, 'G1': 0.108, 'TC': 0.8371, 'GmedAIGEN': 6.0}
+A_XPT_E|P_CASC {'fA5': 2.1741, 'f_all': 0.523, 'f_AIGEN': 0.0, 'shareAIGEN': 0.477, 'dF': -0.049, 'Rh_ratio': 0.905, 'Gmed': 10.0, 'G1': 0.054, 'TC': 0.852, 'GmedAIGEN': 10.0}
+A_XPT_E|P_MIX {'fA5': 2.1986, 'f_all': 0.761, 'f_AIGEN': 0.499, 'shareAIGEN': 0.477, 'dF': -0.0245, 'Rh_ratio': 0.81, 'Gmed': 10.0, 'G1': 0.08, 'TC': 0.8446, 'GmedAIGEN': 10.0}
+A_XPT_E|P_EVIDW {'fA5': 2.2231, 'f_all': 1.0, 'f_AIGEN': 1.0, 'shareAIGEN': 0.477, 'dF': 0.0, 'Rh_ratio': 0.706, 'Gmed': 6.0, 'G1': 0.108, 'TC': 0.8371, 'GmedAIGEN': 6.0}
+{'H158a': (True, {'A_Ord': -0.03683507759774951, 'A_XPT_S': 0.040376811581881, 'A_XPT_E': -0.024539033434654023}), 'H158b': (True, {'A_Ord': 0.09605684890331245, 'A_XPT_S': 0.08390608691698365, 'A_XPT_E': 0.04900395569450522}), 'H158c': (True, 0.19462957100056028)}
+runtime 10.9
