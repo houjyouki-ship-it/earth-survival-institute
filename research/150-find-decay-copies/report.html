@@ -1,0 +1,146 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究150：見つかる確率の減衰と部数・費用を入れた媒体の比較（open_problems 342＋344） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="150open_problems-342344">研究150：見つかる確率の減衰と部数・費用を入れた媒体の比較（open_problems 342＋344）</h1>
+<blockquote>
+<p>注：P_read は模型の中の量で、<strong>生存確率でも文明の復興確率でもない</strong>。提言は<strong>模型の中での順位で、外部の検証はまだ</strong>。</p>
+</blockquote>
+<p>2026-10-27、第150回。計算のみ（sim.py、約 164 秒）。事前登録：PREREGISTRATION.md（17:36 JST、資料・計算の前）。</p>
+<h2 id="_1">問い</h2>
+<p>148・149 の P_read は「媒体が残り、読む段に届けば読める」とした。地平が数千年に延びると置き場所の記憶が消え、見つからない。060 の D(T)=m+(1−m)ρ、m=exp(−T/τ)（T は読める段に届いた時刻）を掛けると 1 万年級の利点はどれだけ削られるか。中間層（Rosetta、R2）は同じ費用で R1（フィッシュ 24 倍）の部数を増やす方が良いか。</p>
+<h2 id="_2">方法</h2>
+<ul>
+<li>147 の割り当て直した段の時刻、141 の run() をそのまま写し（乱数の順は不変）、発見と追加の写しを別の乱数で足した。Rosetta の寿命は 149 の出典の和（1,000〜1 万年）。</li>
+<li>発見の版：none、vault（060 の主：τ logU(100,1000)、ρ logU(0.02,0.8)）、half1000（半減期 1,000 年、ρ=0）、mem_long（τ 1,000〜5,000）、marker（ρ=0.9）【すべて推測、幅は 060】。τ・ρ は標本ごとに共有、発見の当否と寿命は写しごとに独立【推測】。</li>
+<li>中身をそろえる：Rosetta 1 枚（13,000 頁）＝フィッシュ 24 倍 133 枚を 1 部。費用（sources.md）：Rosetta $25,000/枚（2008、手作り）、フィッシュ 1 部 $638（$4.80/枚）〜$206（$1.55/枚）→ 同じ費用でフィッシュ 39〜121 部。</li>
+<li>再現：発見 none・1 部で 149 の UNION_1k_10k の 480 値を差 0（assert 済み）。</li>
+</ul>
+<h2 id="a_xpt_sp_mixmain1">結果（A_XPT_S・P_MIX・main、1 部）</h2>
+<table>
+<thead>
+<tr>
+<th>発見</th>
+<th>H</th>
+<th>MOM 10 倍</th>
+<th>フィッシュ 24 倍</th>
+<th>Rosetta</th>
+<th>Silica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>none</td>
+<td>1,000</td>
+<td>0.793</td>
+<td>0.541</td>
+<td>0.598</td>
+<td>0.481</td>
+</tr>
+<tr>
+<td>none</td>
+<td>5,000</td>
+<td>0.996</td>
+<td>0.541</td>
+<td>0.747</td>
+<td>0.974</td>
+</tr>
+<tr>
+<td>vault</td>
+<td>1,000</td>
+<td>0.618</td>
+<td>0.510</td>
+<td>0.322</td>
+<td>0.192</td>
+</tr>
+<tr>
+<td>vault</td>
+<td>5,000</td>
+<td>0.668</td>
+<td>0.510</td>
+<td>0.359</td>
+<td>0.311</td>
+</tr>
+<tr>
+<td>half1000</td>
+<td>5,000</td>
+<td>0.769</td>
+<td>0.530</td>
+<td>0.521</td>
+<td>0.467</td>
+</tr>
+<tr>
+<td>mem_long</td>
+<td>5,000</td>
+<td>0.858</td>
+<td>0.535</td>
+<td>0.611</td>
+<td>0.662</td>
+</tr>
+<tr>
+<td>marker</td>
+<td>5,000</td>
+<td>0.954</td>
+<td>0.537</td>
+<td>0.698</td>
+<td>0.890</td>
+</tr>
+<tr>
+<td>- 見つかる確率は<strong>読める段に届くのが遅い媒体ほど強く削る</strong>。R1 のフィッシュは 0.541→0.510 しか落ちないが、R2 の Rosetta は 0.747→0.359、R3 の Silica は 0.974→0.311（vault、H=5,000）。目印（marker）なら Silica 0.89 に戻る。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 部数（独立の場所）：vault・H=1,000 で Rosetta 1→10 部は 0.322→0.612、上限 0.662（段に届く確率で頭打ち）。フィッシュは 0.510→0.718（160 部）。H=5,000 では Rosetta 160 部で 0.984、Silica 0.989、フィッシュは寿命で 0.72 に頭打ち。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 同じ費用（Rosetta 1 枚＝フィッシュ 39 部）：45 条件（3 地平×5 発見×3 版）のうち <strong>36 条件でフィッシュ 39 部が Rosetta 1 枚より上</strong>（vault・H=1,000 で 0.671 対 0.322）。Rosetta が上なのは発見の減衰なし・弱い（none・marker・mem_long の一部）かつ H≥2,000 の 9 条件だけ。Rosetta が今の 1/10 の値段になると（フィッシュ 3.9 部と比べる）フィッシュが上は 19/45 に減る。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 損益分岐 k*（Rosetta 1 枚と同じ P に要るフィッシュの部数）：vault・H=1,000 で 1（1 部でもう上）、none で 2.9、停滞 0.9 の版で 5.3、none・H=5,000 で 97。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 量×読める確率の最大は 240 条件すべて Silica、R2 の中の最大は 240 条件すべて Rosetta（フィッシュ 48 倍・Piql 手読みより上）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説の検証</h2>
+<ul>
+<li>H162a（予測、vault で H=5,000 の Silica &lt; 0.5）：<strong>支持</strong>（0.311）。</li>
+<li>H162b（確認的、量×P の最大は Silica）：<strong>支持</strong>（240/240）。</li>
+<li>H162c（確認的、R2 の中の最大は Rosetta）：<strong>支持</strong>（240/240）。</li>
+<li>H162d（予測、vault・H=1,000 で k* ≤ 3）：<strong>支持</strong>（k*=1：1 部どうしでフィッシュが上）。</li>
+<li>H162e（予測、vault で H=5,000 の Rosetta÷フィッシュ &lt; 1.2）：<strong>支持</strong>（0.70、減衰なしは 1.38）。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ol>
+<li>発見の幅は 060 の借用で、隠し場所の史実 5 件と失われた町の一覧から置いた【推測】。発見は段に届いた時点の 1 回だけで、後で探し当てる道を入れていない（Silica などに不利）。</li>
+<li>部数の比べ方は媒体の値段だけで、置き場所ごとの費用（建物・管理・目印）を入れていない。39 か所に置く費用は 1 か所より大きいはずで、フィッシュの有利を過大に見ている。</li>
+<li>Rosetta の $25,000 は 2008 年の手作りの試作の値。量産の値は出典がない。フィッシュの $4.80 は作業代込みで銀塩か書かれていない。MOM 10 倍の値段は出典がなく、部数の比較から外した。</li>
+<li>写しの寿命と発見を独立にしたが、同じ地域の写しは一緒に失われやすい（062 の相関）。</li>
+<li>AI・GEN の人口の形は借用（147 から）。</li>
+</ol>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>写しの設計者：中間層の中身は、<strong>Rosetta 型を 1 枚置くより、同じ費用で R1（フィッシュ 24 倍・MOM 10 倍）を多くの場所に置く方が上</strong>（45 条件中 36）。Rosetta 型は「目印つきで場所が忘れられにくい、数千年級の保管」の時だけ選ぶ。大量の層（Silica）を選ぶなら目印への投資が前提（目印なしでは H=5,000 で 0.97→0.31）。</li>
+<li>模型の維持者：P_read に発見の版を標準で付ける（主は vault、marker を上限）。置き場所の費用（open_problems 345）と、後から探し当てる道（346）を入れるまで部数の結論は上限の扱い。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
