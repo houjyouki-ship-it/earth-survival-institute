@@ -1,0 +1,15 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究152 事前登録（資料を開く前・計算の前） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="152">研究152 事前登録（資料を開く前・計算の前）</h1>
+<p>登録時刻：2026-10-27 21:4x JST（下の <code>date</code> の行を参照）</p>
+<p>課題：open_problems 348。外の人口（移住先・救援）がない小集団の消滅率を、隔絶した集団の公開の記録で 1 回だけ詰め、151 の death 版の λ（群ごとに失われる確率）の幅を狭める。</p>
+<p>方法【独自仮説】：
+- 資料：Wikipedia の本文（API で取得し sources/ に保存）から、外からの移入がほぼない期間の集団について (初期または代表の人口 N、隔絶の年数 T、結末＝存続／消滅) を拾う。候補は Pitcairn（Bounty の入植）、Norse Greenland、Tasmanian Aboriginal（海面上昇後の隔絶）、Moriori（Chatham）、Rapa Nui、Henderson・Pitcairn・Norfolk・Raoul・Nihoa などの先史の「謎の島」、Tristan da Cunha。外からの接触（征服・疫病の持ち込み）で終わった期間は、接触の時点で打ち切り（消滅に数えない）。
+- 模型：100 年あたりの消滅の危険率 h(N) = h0·(N/100)^(−β)、生存は exp(−h T/100)。最尤で (h0, β) を当て、β は 0〜2 に制限した版と β=0（大きさに依らない）の版も並べる。0 件の消滅の大きな集団には Jeffreys の上限（片側 95 %）の版も出す。
+- 深い標本（s&lt;5 %）の群の大きさ n = ntot/G_eff を 146 の引き直しから取り、各標本で λ_iso = 1 − exp(−h(n)·W/100)、W（外の人口がない期間）＝300・1,000・3,000 年。各標本の λ で 151 の death 版の価値の倍率（070 の TC(G) の補間）を出す。
+- 再現：151 の λ=0.5・death の V_rel_lam0 を 12 版で差 0（assert）。</p>
+<p>仮説：
+- H164a（予測、資料の前）：拾った記録のうち N≥1,000 の隔絶集団の消滅は 1 件以下（グリーンランドの北欧人だけと予想）。
+- H164b（予測）：主の当てはめ（W=1,000）で深い標本の λ_iso の重い重みの平均は 0.143（151 の strict）未満。
+- H164c（確認的）：151 の λ=0.5・death の V を差 0 で再現。
+- H164d（予測）：上限の版（β=0、Jeffreys 上限）でも W=1,000 の death 版の価値の損は 5 % 未満（A_XPT_S・P_MIX）。
+- H164e（予測、資料の前）：拾った消滅の事例の N の中央値は 100 未満。
+2026-10-27 21:41:02 JST</p><footer><hr><small>自動生成</small></footer></body></html>
