@@ -1,0 +1,101 @@
+check max 4.440892098500626e-16
+F_in {'D2rz': 2.1204017561415065, 'D1': 1.9221018651801522, 'D4': 1.629495329287994}
+lam 0.14285714285714285 0.35714285714285715
+merge|0.0 A_Ord P_BIO {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.9924, 'F_D2rz': np.float64(2.2357), 'F_D1': np.float64(2.0188), 'F_D4': np.float64(1.6982), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_Ord P_CASC {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.057, 'F_D2rz': np.float64(2.127), 'F_D1': np.float64(1.9277), 'F_D4': np.float64(1.6334), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_Ord P_MIX {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5232, 'F_D2rz': np.float64(2.1812), 'F_D1': np.float64(1.9731), 'F_D4': np.float64(1.6657), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_Ord P_EVIDW {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8819, 'F_D2rz': np.float64(2.2229), 'F_D1': np.float64(2.008), 'F_D4': np.float64(1.6905), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_S P_BIO {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8202, 'F_D2rz': np.float64(2.2157), 'F_D1': np.float64(2.002), 'F_D4': np.float64(1.6862), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_S P_CASC {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0032, 'F_D2rz': np.float64(2.1208), 'F_D1': np.float64(1.9224), 'F_D4': np.float64(1.6297), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_S P_MIX {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.4104, 'F_D2rz': np.float64(2.1681), 'F_D1': np.float64(1.9621), 'F_D4': np.float64(1.6579), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_S P_EVIDW {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0171, 'F_D2rz': np.float64(2.1224), 'F_D1': np.float64(1.9238), 'F_D4': np.float64(1.6307), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_E P_BIO {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2366), 'F_D1': np.float64(2.0195), 'F_D4': np.float64(1.6987), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_E P_CASC {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5228, 'F_D2rz': np.float64(2.1811), 'F_D1': np.float64(1.973), 'F_D4': np.float64(1.6657), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_E P_MIX {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.761, 'F_D2rz': np.float64(2.2088), 'F_D1': np.float64(1.9963), 'F_D4': np.float64(1.6822), 'pos_B0_A1': np.float64(1.1313)}
+merge|0.0 A_XPT_E P_EVIDW {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2366), 'F_D1': np.float64(2.0195), 'F_D4': np.float64(1.6987), 'pos_B0_A1': np.float64(1.1313)}
+merge|src_strict A_Ord P_BIO {'V_rel_lam0': 0.9925, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.9924, 'F_D2rz': np.float64(2.229), 'F_D1': np.float64(2.0132), 'F_D4': np.float64(1.6942), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_Ord P_CASC {'V_rel_lam0': 0.9996, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.057, 'F_D2rz': np.float64(2.1266), 'F_D1': np.float64(1.9273), 'F_D4': np.float64(1.6332), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_Ord P_MIX {'V_rel_lam0': 0.9961, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5232, 'F_D2rz': np.float64(2.1777), 'F_D1': np.float64(1.9702), 'F_D4': np.float64(1.6636), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_Ord P_EVIDW {'V_rel_lam0': 0.9934, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8819, 'F_D2rz': np.float64(2.2169), 'F_D1': np.float64(2.0031), 'F_D4': np.float64(1.687), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_S P_BIO {'V_rel_lam0': 0.9939, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8202, 'F_D2rz': np.float64(2.2102), 'F_D1': np.float64(1.9974), 'F_D4': np.float64(1.683), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_S P_CASC {'V_rel_lam0': 1.0, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0032, 'F_D2rz': np.float64(2.1207), 'F_D1': np.float64(1.9224), 'F_D4': np.float64(1.6297), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_S P_MIX {'V_rel_lam0': 0.997, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.4104, 'F_D2rz': np.float64(2.1653), 'F_D1': np.float64(1.9598), 'F_D4': np.float64(1.6563), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_S P_EVIDW {'V_rel_lam0': 0.9999, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0171, 'F_D2rz': np.float64(2.1223), 'F_D1': np.float64(1.9237), 'F_D4': np.float64(1.6306), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_E P_BIO {'V_rel_lam0': 0.9924, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2299), 'F_D1': np.float64(2.0139), 'F_D4': np.float64(1.6947), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_E P_CASC {'V_rel_lam0': 0.9961, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5228, 'F_D2rz': np.float64(2.1776), 'F_D1': np.float64(1.9701), 'F_D4': np.float64(1.6636), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_E P_MIX {'V_rel_lam0': 0.9943, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.761, 'F_D2rz': np.float64(2.2037), 'F_D1': np.float64(1.992), 'F_D4': np.float64(1.6791), 'pos_B0_A1': np.float64(1.066)}
+merge|src_strict A_XPT_E P_EVIDW {'V_rel_lam0': 0.9924, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2299), 'F_D1': np.float64(2.0139), 'F_D4': np.float64(1.6947), 'pos_B0_A1': np.float64(1.066)}
+merge|src_lenient A_Ord P_BIO {'V_rel_lam0': 0.9787, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.9924, 'F_D2rz': np.float64(2.2158), 'F_D1': np.float64(2.0022), 'F_D4': np.float64(1.6864), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_Ord P_CASC {'V_rel_lam0': 0.9988, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.057, 'F_D2rz': np.float64(2.1259), 'F_D1': np.float64(1.9267), 'F_D4': np.float64(1.6328), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_Ord P_MIX {'V_rel_lam0': 0.989, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5232, 'F_D2rz': np.float64(2.1707), 'F_D1': np.float64(1.9643), 'F_D4': np.float64(1.6595), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_Ord P_EVIDW {'V_rel_lam0': 0.9811, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8819, 'F_D2rz': np.float64(2.2052), 'F_D1': np.float64(1.9933), 'F_D4': np.float64(1.68), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_S P_BIO {'V_rel_lam0': 0.9825, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8202, 'F_D2rz': np.float64(2.1993), 'F_D1': np.float64(1.9883), 'F_D4': np.float64(1.6765), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_S P_CASC {'V_rel_lam0': 0.9999, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0032, 'F_D2rz': np.float64(2.1207), 'F_D1': np.float64(1.9224), 'F_D4': np.float64(1.6297), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_S P_MIX {'V_rel_lam0': 0.9914, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.4104, 'F_D2rz': np.float64(2.1599), 'F_D1': np.float64(1.9552), 'F_D4': np.float64(1.653), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_S P_EVIDW {'V_rel_lam0': 0.9996, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0171, 'F_D2rz': np.float64(2.122), 'F_D1': np.float64(1.9235), 'F_D4': np.float64(1.6305), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_E P_BIO {'V_rel_lam0': 0.9784, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2165), 'F_D1': np.float64(2.0028), 'F_D4': np.float64(1.6868), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_E P_CASC {'V_rel_lam0': 0.9889, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5228, 'F_D2rz': np.float64(2.1707), 'F_D1': np.float64(1.9643), 'F_D4': np.float64(1.6594), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_E P_MIX {'V_rel_lam0': 0.9837, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.761, 'F_D2rz': np.float64(2.1936), 'F_D1': np.float64(1.9835), 'F_D4': np.float64(1.6731), 'pos_B0_A1': np.float64(0.9363)}
+merge|src_lenient A_XPT_E P_EVIDW {'V_rel_lam0': 0.9784, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2165), 'F_D1': np.float64(2.0028), 'F_D4': np.float64(1.6868), 'pos_B0_A1': np.float64(0.9363)}
+merge|U01 A_Ord P_BIO {'F_D2rz': 2.1955, 'F_D1': 1.9852, 'F_D4': 1.6742, 'V_rel_lam0': 0.9592, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_Ord P_CASC {'F_D2rz': 2.1247, 'F_D1': 1.9257, 'F_D4': 1.6321, 'V_rel_lam0': 0.9977, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_Ord P_MIX {'F_D2rz': 2.16, 'F_D1': 1.9554, 'F_D4': 1.6531, 'V_rel_lam0': 0.9788, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_Ord P_EVIDW {'F_D2rz': 2.1871, 'F_D1': 1.9781, 'F_D4': 1.6693, 'V_rel_lam0': 0.9639, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_S P_BIO {'F_D2rz': 2.1825, 'F_D1': 1.9742, 'F_D4': 1.6665, 'V_rel_lam0': 0.9665, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_S P_CASC {'F_D2rz': 2.1206, 'F_D1': 1.9223, 'F_D4': 1.6296, 'V_rel_lam0': 0.9999, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_S P_MIX {'F_D2rz': 2.1515, 'F_D1': 1.9482, 'F_D4': 1.648, 'V_rel_lam0': 0.9834, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_S P_EVIDW {'F_D2rz': 2.1217, 'F_D1': 1.9232, 'F_D4': 1.6303, 'V_rel_lam0': 0.9993, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_E P_BIO {'F_D2rz': 2.1961, 'F_D1': 1.9856, 'F_D4': 1.6746, 'V_rel_lam0': 0.9593, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_E P_CASC {'F_D2rz': 2.16, 'F_D1': 1.9553, 'F_D4': 1.6531, 'V_rel_lam0': 0.9789, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_E P_MIX {'F_D2rz': 2.178, 'F_D1': 1.9705, 'F_D4': 1.6638, 'V_rel_lam0': 0.9692, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|U01 A_XPT_E P_EVIDW {'F_D2rz': 2.1961, 'F_D1': 1.9856, 'F_D4': 1.6746, 'V_rel_lam0': 0.9593, 'P_ext_heavy': 0.0, 'pos_B0_A1': 0.7369}
+merge|1.0 A_Ord P_BIO {'V_rel_lam0': 0.902, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.9924, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_Ord P_CASC {'V_rel_lam0': 0.9946, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.057, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_Ord P_MIX {'V_rel_lam0': 0.9491, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5232, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_Ord P_EVIDW {'V_rel_lam0': 0.9132, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8819, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_S P_BIO {'V_rel_lam0': 0.9194, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.8202, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_S P_CASC {'V_rel_lam0': 0.9997, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0032, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_S P_MIX {'V_rel_lam0': 0.9602, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.4104, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_S P_EVIDW {'V_rel_lam0': 0.9984, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.0171, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_E P_BIO {'V_rel_lam0': 0.9031, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_E P_CASC {'V_rel_lam0': 0.9496, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.5228, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_E P_MIX {'V_rel_lam0': 0.9266, 'P_ext_heavy': 0.0, 'f_deep_surv': 0.761, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+merge|1.0 A_XPT_E P_EVIDW {'V_rel_lam0': 0.9031, 'P_ext_heavy': 0.0, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.1204), 'F_D1': np.float64(1.9221), 'F_D4': np.float64(1.6295), 'pos_B0_A1': np.float64(0.0)}
+death|src_strict A_Ord P_BIO {'V_rel_lam0': 0.9774, 'P_ext_heavy': 0.0168, 'f_deep_surv': 0.9922, 'F_D2rz': np.float64(2.229), 'F_D1': np.float64(2.0132), 'F_D4': np.float64(1.6942), 'pos_B0_A1': np.float64(1.0659)}
+death|src_strict A_Ord P_CASC {'V_rel_lam0': 0.9987, 'P_ext_heavy': 0.001, 'f_deep_surv': 0.056, 'F_D2rz': np.float64(2.1265), 'F_D1': np.float64(1.9272), 'F_D4': np.float64(1.6331), 'pos_B0_A1': np.float64(1.0482)}
+death|src_strict A_Ord P_MIX {'V_rel_lam0': 0.9882, 'P_ext_heavy': 0.0089, 'f_deep_surv': 0.519, 'F_D2rz': np.float64(2.1772), 'F_D1': np.float64(1.9698), 'F_D4': np.float64(1.6633), 'pos_B0_A1': np.float64(1.0573)}
+death|src_strict A_Ord P_EVIDW {'V_rel_lam0': 0.98, 'P_ext_heavy': 0.0149, 'f_deep_surv': 0.8801, 'F_D2rz': np.float64(2.2168), 'F_D1': np.float64(2.0029), 'F_D4': np.float64(1.6869), 'pos_B0_A1': np.float64(1.0639)}
+death|src_strict A_XPT_S P_BIO {'V_rel_lam0': 0.9815, 'P_ext_heavy': 0.0139, 'f_deep_surv': 0.8177, 'F_D2rz': np.float64(2.2099), 'F_D1': np.float64(1.9972), 'F_D4': np.float64(1.6828), 'pos_B0_A1': np.float64(1.0628)}
+death|src_strict A_XPT_S P_CASC {'V_rel_lam0': 0.9999, 'P_ext_heavy': 0.0001, 'f_deep_surv': 0.0031, 'F_D2rz': np.float64(2.1207), 'F_D1': np.float64(1.9224), 'F_D4': np.float64(1.6297), 'pos_B0_A1': np.float64(1.0472)}
+death|src_strict A_XPT_S P_MIX {'V_rel_lam0': 0.9908, 'P_ext_heavy': 0.0069, 'f_deep_surv': 0.4063, 'F_D2rz': np.float64(2.1649), 'F_D1': np.float64(1.9594), 'F_D4': np.float64(1.656), 'pos_B0_A1': np.float64(1.0553)}
+death|src_strict A_XPT_S P_EVIDW {'V_rel_lam0': 0.9996, 'P_ext_heavy': 0.0003, 'f_deep_surv': 0.0169, 'F_D2rz': np.float64(2.1222), 'F_D1': np.float64(1.9237), 'F_D4': np.float64(1.6306), 'pos_B0_A1': np.float64(1.0487)}
+death|src_strict A_XPT_E P_BIO {'V_rel_lam0': 0.9756, 'P_ext_heavy': 0.0186, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2299), 'F_D1': np.float64(2.0139), 'F_D4': np.float64(1.6947), 'pos_B0_A1': np.float64(1.066)}
+death|src_strict A_XPT_E P_CASC {'V_rel_lam0': 0.9879, 'P_ext_heavy': 0.0093, 'f_deep_surv': 0.5184, 'F_D2rz': np.float64(2.1771), 'F_D1': np.float64(1.9697), 'F_D4': np.float64(1.6633), 'pos_B0_A1': np.float64(1.0569)}
+death|src_strict A_XPT_E P_MIX {'V_rel_lam0': 0.9819, 'P_ext_heavy': 0.0138, 'f_deep_surv': 0.7577, 'F_D2rz': np.float64(2.2034), 'F_D1': np.float64(1.9917), 'F_D4': np.float64(1.6789), 'pos_B0_A1': np.float64(1.0614)}
+death|src_strict A_XPT_E P_EVIDW {'V_rel_lam0': 0.9756, 'P_ext_heavy': 0.0186, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2299), 'F_D1': np.float64(2.0139), 'F_D4': np.float64(1.6947), 'pos_B0_A1': np.float64(1.066)}
+death|0.5 A_Ord P_BIO {'V_rel_lam0': 0.8758, 'P_ext_heavy': 0.1005, 'f_deep_surv': 0.9915, 'F_D2rz': np.float64(2.2038), 'F_D1': np.float64(1.9921), 'F_D4': np.float64(1.6792), 'pos_B0_A1': np.float64(0.8181)}
+death|0.5 A_Ord P_CASC {'V_rel_lam0': 0.9929, 'P_ext_heavy': 0.006, 'f_deep_surv': 0.0513, 'F_D2rz': np.float64(2.1247), 'F_D1': np.float64(1.9257), 'F_D4': np.float64(1.6321), 'pos_B0_A1': np.float64(0.7376)}
+death|0.5 A_Ord P_MIX {'V_rel_lam0': 0.9355, 'P_ext_heavy': 0.0531, 'f_deep_surv': 0.4965, 'F_D2rz': np.float64(2.1622), 'F_D1': np.float64(1.9572), 'F_D4': np.float64(1.6544), 'pos_B0_A1': np.float64(0.777)}
+death|0.5 A_Ord P_EVIDW {'V_rel_lam0': 0.8901, 'P_ext_heavy': 0.0893, 'f_deep_surv': 0.8703, 'F_D2rz': np.float64(2.1936), 'F_D1': np.float64(1.9836), 'F_D4': np.float64(1.6731), 'pos_B0_A1': np.float64(0.808)}
+death|0.5 A_XPT_S P_BIO {'V_rel_lam0': 0.8982, 'P_ext_heavy': 0.0828, 'f_deep_surv': 0.804, 'F_D2rz': np.float64(2.188), 'F_D1': np.float64(1.9789), 'F_D4': np.float64(1.6698), 'pos_B0_A1': np.float64(0.8026)}
+death|0.5 A_XPT_S P_CASC {'V_rel_lam0': 0.9996, 'P_ext_heavy': 0.0003, 'f_deep_surv': 0.0028, 'F_D2rz': np.float64(2.1206), 'F_D1': np.float64(1.9223), 'F_D4': np.float64(1.6296), 'pos_B0_A1': np.float64(0.7334)}
+death|0.5 A_XPT_S P_MIX {'V_rel_lam0': 0.9498, 'P_ext_heavy': 0.0414, 'f_deep_surv': 0.3849, 'F_D2rz': np.float64(2.1528), 'F_D1': np.float64(1.9493), 'F_D4': np.float64(1.6488), 'pos_B0_A1': np.float64(0.768)}
+death|0.5 A_XPT_S P_EVIDW {'V_rel_lam0': 0.9979, 'P_ext_heavy': 0.0017, 'f_deep_surv': 0.0154, 'F_D2rz': np.float64(2.1217), 'F_D1': np.float64(1.9232), 'F_D4': np.float64(1.6303), 'pos_B0_A1': np.float64(0.7378)}
+death|0.5 A_XPT_E P_BIO {'V_rel_lam0': 0.868, 'P_ext_heavy': 0.1086, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2045), 'F_D1': np.float64(1.9927), 'F_D4': np.float64(1.6796), 'pos_B0_A1': np.float64(0.8188)}
+death|0.5 A_XPT_E P_CASC {'V_rel_lam0': 0.9341, 'P_ext_heavy': 0.0547, 'f_deep_surv': 0.4952, 'F_D2rz': np.float64(2.162), 'F_D1': np.float64(1.9571), 'F_D4': np.float64(1.6543), 'pos_B0_A1': np.float64(0.7756)}
+death|0.5 A_XPT_E P_MIX {'V_rel_lam0': 0.9017, 'P_ext_heavy': 0.0812, 'f_deep_surv': 0.7399, 'F_D2rz': np.float64(2.1826), 'F_D1': np.float64(1.9744), 'F_D4': np.float64(1.6666), 'pos_B0_A1': np.float64(0.7961)}
+death|0.5 A_XPT_E P_EVIDW {'V_rel_lam0': 0.868, 'P_ext_heavy': 0.1086, 'f_deep_surv': 1.0, 'F_D2rz': np.float64(2.2045), 'F_D1': np.float64(1.9927), 'F_D4': np.float64(1.6796), 'pos_B0_A1': np.float64(0.8188)}
+death|U01 A_Ord P_BIO {'F_D2rz': 2.1954, 'F_D1': 1.9851, 'F_D4': 1.6742, 'V_rel_lam0': 0.782, 'P_ext_heavy': 0.1966, 'pos_B0_A1': 0.736}
+death|U01 A_Ord P_CASC {'F_D2rz': 2.1243, 'F_D1': 1.9254, 'F_D4': 1.6318, 'V_rel_lam0': 0.9877, 'P_ext_heavy': 0.0115, 'pos_B0_A1': 0.6631}
+death|U01 A_Ord P_MIX {'F_D2rz': 2.1577, 'F_D1': 1.9534, 'F_D4': 1.6517, 'V_rel_lam0': 0.8868, 'P_ext_heavy': 0.1037, 'pos_B0_A1': 0.6944}
+death|U01 A_Ord P_EVIDW {'F_D2rz': 2.186, 'F_D1': 1.9772, 'F_D4': 1.6686, 'V_rel_lam0': 0.8071, 'P_ext_heavy': 0.1747, 'pos_B0_A1': 0.7242}
+death|U01 A_XPT_S P_BIO {'F_D2rz': 2.1809, 'F_D1': 1.9729, 'F_D4': 1.6656, 'V_rel_lam0': 0.8211, 'P_ext_heavy': 0.1623, 'pos_B0_A1': 0.7184}
+death|U01 A_XPT_S P_CASC {'F_D2rz': 2.1206, 'F_D1': 1.9223, 'F_D4': 1.6296, 'V_rel_lam0': 0.9993, 'P_ext_heavy': 0.0006, 'pos_B0_A1': 0.66}
+death|U01 A_XPT_S P_MIX {'F_D2rz': 2.1493, 'F_D1': 1.9464, 'F_D4': 1.6467, 'V_rel_lam0': 0.9117, 'P_ext_heavy': 0.0812, 'pos_B0_A1': 0.6867}
+death|U01 A_XPT_S P_EVIDW {'F_D2rz': 2.1216, 'F_D1': 1.9231, 'F_D4': 1.6302, 'V_rel_lam0': 0.9964, 'P_ext_heavy': 0.0034, 'pos_B0_A1': 0.6629}
+death|U01 A_XPT_E P_BIO {'F_D2rz': 2.1961, 'F_D1': 1.9856, 'F_D4': 1.6746, 'V_rel_lam0': 0.7743, 'P_ext_heavy': 0.2048, 'pos_B0_A1': 0.7369}
+death|U01 A_XPT_E P_CASC {'F_D2rz': 2.1576, 'F_D1': 1.9534, 'F_D4': 1.6517, 'V_rel_lam0': 0.8857, 'P_ext_heavy': 0.1051, 'pos_B0_A1': 0.6934}
+death|U01 A_XPT_E P_MIX {'F_D2rz': 2.1761, 'F_D1': 1.9688, 'F_D4': 1.6627, 'V_rel_lam0': 0.8308, 'P_ext_heavy': 0.1546, 'pos_B0_A1': 0.7121}
+death|U01 A_XPT_E P_EVIDW {'F_D2rz': 2.1961, 'F_D1': 1.9856, 'F_D4': 1.6746, 'V_rel_lam0': 0.7743, 'P_ext_heavy': 0.2048, 'pos_B0_A1': 0.7369}
+{"H163a": {"class": "confirmatory", "value": 2.1680852083504814, "ref_readA": 2.1625491833155266, "supported": 1.0}, "H163b": {"class": "prediction", "value": 0.7368684904562118, "supported": true}, "H163c": {"class": "prediction", "value": 0.05022904742090839, "supported": true}, "H163d": {"class": "confirmatory", "value": true, "supported": true}, "H163e": {"class": "prediction", "value": {"n_migration_explicit": 1, "lam_strict": 0.14285714285714285, "lam_lenient": 0.35714285714285715, "pos_at_strict": 1.0660373706062887}, "supported": false}}
+runtime 101.1

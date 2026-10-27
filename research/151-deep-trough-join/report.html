@@ -1,0 +1,130 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究151：深い谷の標本を停滞と群の喪失のどちらで数えるか（open_problems 336） - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="151open_problems-336">研究151：深い谷の標本を停滞と群の喪失のどちらで数えるか（open_problems 336）</h1>
+<p><strong>注：F_heavy・TC・V は生存確率や復興確率ではない（模型の中の量）。提言は模型の中での順位で、外部の検証はまだ。</strong></p>
+<p>事前登録：PREREGISTRATION.md（2026-10-27 19:45 JST、資料と計算の前、PREREG.sha256）。sim.py 約 101 秒、seed 20261146（146 と同じ引き直し）。</p>
+<h2 id="_1">つなぐ式【独自仮説】</h2>
+<p>史実の放棄 7 件（放棄 6＋Copán）の各々を、確率 λ で「群の喪失」、1−λ で「その場の停滞」の事例として<strong>どちらか一方にだけ</strong>数える。
+- 停滞の側：深い標本（s&lt;5 %）の p は、その場の 2/2 に停滞として残る放棄 K〜Bin(7,1−λ) を足した (K+2)/(K+2) の Jeffreys 事後。F は 128 の格子（slow_Tasmania）を事後で積分。浅い標本は 145 のその場の F（2.1204）。
+- 群の喪失の側：深い標本の各群（146 の G_eff）を確率 λ で失う。merge 版は合流（最後の 1 群は残る）、death 版は群ごと消える（全群が消えれば絶滅）。重い分の価値の倍率は 070 の TC(G) の補間。
+- λ=0 は「9/9」（読み A の 7/7 にその場の 2/2 を足した形）、λ=1・merge は読み B と一致。</p>
+<h2 id="assert-1e-9">再現（assert、すべて差 &lt;1e-9）</h2>
+<p>146 の f_deep_all（閾値 5 %）・TC_070_interp_heavy・F_readA を 12 版、145 のその場の F（2/2）と深い 7/7 の F、λ=1・merge の F＝読み B。</p>
+<h2 id="_2">λ の資料</h2>
+<p>Wikipedia の 6 件の本文（sources.md）で、全住民の移住がはっきり書かれたのは Mesa Verde の 1 件だけ（Tikal は "may have migrated"、Cahokia は一部の住民が "leave the city"、Great Zimbabwe は権力の移動）。λ strict = 1/7 = 0.143、lenient = 2.5/7 = 0.357。</p>
+<h2 id="a_xpt_sp_mix-3-4">結果（A_XPT_S・P_MIX を主、幅は 3 アンカー×4 版）</h2>
+<table>
+<thead>
+<tr>
+<th>λ</th>
+<th>F（D2rz）</th>
+<th>位置（読み B=0、読み A=1）</th>
+<th>価値の倍率 merge</th>
+<th>death</th>
+<th>death の絶滅</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2.168</td>
+<td>1.13</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0.143（strict）</td>
+<td><strong>2.165</strong></td>
+<td>1.07</td>
+<td>0.997</td>
+<td>0.991</td>
+<td>0.007</td>
+</tr>
+<tr>
+<td>0.357（lenient）</td>
+<td>2.160</td>
+<td>0.94</td>
+<td>0.991</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td>2.153（death）</td>
+<td>0.77</td>
+<td>—</td>
+<td><strong>0.950</strong></td>
+<td>0.041</td>
+</tr>
+<tr>
+<td>U(0,1)</td>
+<td>2.152</td>
+<td><strong>0.74</strong></td>
+<td>0.983</td>
+<td>0.912</td>
+<td>0.081</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2.120</td>
+<td>0</td>
+<td>0.960</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>- 出典の λ（strict・lenient）での F は全 12 版で <strong>2.121〜2.230</strong>、位置 0.94〜1.07。読み A（146：2.121〜2.223）とほぼ同じ値で、読み B（1.971〜2.120）の下端の 1.971 は閾値 1 % の版にだけある。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 位置は版によらずほぼ同じ（merge で 1.131・1.066・0.936・0.737）：f_deep が分子と分母に同じく掛かるため。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 価値の倍率：merge では群が減っても最大 −10 %（λ=1、A_Ord・P_BIO）で、出典の λ では −2.2 % 以下。death では λ〜U(0,1) で −0.1 %〜<strong>−22.6 %</strong>（A_Ord・P_BIO、絶滅 0.20）。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- 設計の順位 D2rz ≥ D1 ≥ D4 は全 λ・全版で不変。</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">仮説の判定</h2>
+<ul>
+<li>H163a（確認的）：λ=0 の F が読み A と差 &lt;0.02 → <strong>支持</strong>（2.168 対 2.163）。</li>
+<li>H163b（予測）：λ〜U(0,1) の位置 ≥0.5 → <strong>支持</strong>（0.74。事後の p が停滞の数に凹なので、少数を足すだけで読み A 側に寄る）。</li>
+<li>H163c（予測）：death・λ=0.5 で価値が 5 % 以上下がる → <strong>支持（境目）</strong>（5.02 %）。</li>
+<li>H163d（確認的）：D2rz ≥ D1 ≥ D4 → <strong>支持</strong>（全 216 行）。</li>
+<li>H163e（予測）：移住と書かれたのが 4 件以上で、その λ で位置 &lt;0.5 → <strong>棄却</strong>（はっきり書かれたのは 1 件、位置 1.07）。</li>
+</ul>
+<h2 id="_4">批判</h2>
+<ul>
+<li>【推測】Wikipedia に移住が書かれていないことは「その場で停滞した」証拠ではない。考古学の記述が原因（干ばつ・征服）に集中し行き先を書かないだけかもしれず、λ strict は下限に近い。それでも λ=0.357 で位置 0.94 なので、F が読み B 側（位置 &lt;0.5）に寄るには λ が約 0.76 以上（全事例の 4 分の 3 超が群の喪失）を要する（merge で λ=0.75 の位置 0.52、0.9 で 0.24）。</li>
+<li>λ を「史実の事例の解釈」と「世界規模での群の失われる率」に同じ値で使った。前者は移住先があった時代の数字で、外の人口がない世界では死に絶える率はずっと低いはず（深い標本でも 1 群あたり数万人）なので、death 版の大きな損（−22.6 %）は上限の版。</li>
+<li>F は比なので、群の喪失は F をほとんど動かさず価値の量だけを動かす。読み A と読み B の差（最大 0.25）は、価値の量の不確実性（death 版で最大 23 %）より小さい。</li>
+<li>G_eff は 146 の ntot/nmax による推測で、群の地理（070）とは独立に引いていない。</li>
+</ul>
+<h2 id="_5">誰が何を変えるべきか（模型の中での順位、外部の検証はまだ）</h2>
+<ul>
+<li>模型の維持者：深い谷の標本は<strong>読み A 寄りのつないだ式</strong>（λ strict 0.143）で数え、F_heavy の主を <strong>2.165（A_XPT_S・P_MIX）、幅 2.121〜2.230</strong> とする。読み B の 1.971 は閾値 1 % の版の下限としてだけ残す。336 は閉じる。</li>
+<li>次に効くのは F ではなく、深い標本で群が失われる率（死か合流か）が重い分の価値の量を最大 2 割動かすこと。外の人口がない世界での小集団の消滅率を、隔絶した集団の史実（例：タスマニア、ピトケアン、グリーンランドの北欧人）の公開の数で 1 回だけ詰める（348）。</li>
+<li>写しの設計者：変更なし（D2rz の推しは全版で不変）。</li>
+</ul>
+<h2 id="_6">ファイル</h2>
+<p>sim.py、results.json、stdout.txt、stderr.txt、fig_join.png、sources.md、sources/*.txt、PREREGISTRATION.md、PREREG.sha256、SHA256SUMS_outputs。</p><footer><hr><small>自動生成</small></footer></body></html>
