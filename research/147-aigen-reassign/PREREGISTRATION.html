@@ -1,0 +1,17 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究147 事前登録（計算の前）— open_problems 337＋338 - 地球存続研究所</title><style>body{font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;max-width:860px;margin:2em auto;padding:0 1em;line-height:1.8;color:#222}a{color:#0a58ca}pre{background:#f4f4f4;padding:1em;overflow:auto}code{background:#f4f4f4}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3em .6em}img{max-width:100%}nav{border-bottom:1px solid #ddd;padding-bottom:.5em;margin-bottom:1em}.flag{background:#fee;padding:.5em}</style></head><body><nav><a href="../../index.html">🌍 地球存続研究所 トップ</a></nav><h1 id="147-open_problems-337338">研究147 事前登録（計算の前）— open_problems 337＋338</h1>
+<p>登録時刻：2026-10-27 11:42 JST（sim.py の実行の前）。新しい資料は開かない（入力は 038・141・146 の sim.py／results.json）。seed は 146 と同じ 20261146（引き直し）。</p>
+<h2 id="_1">方法（要点）</h2>
+<ul>
+<li>146 と同じ引き直し（P_BIO・P_CASC・P_MIX・P_EVIDW）で AI・GEN の重い標本（032 の状態 4・5）に (s, ntot, nmax, mcap) を与え、<strong>038 の assign で状態を割り当て直す</strong>（337）。重い以外の標本は 032 のまま。T2 は 038 の times（人口の待ちつき）、primer は times(primer=True)。</li>
+<li>価値：038 の recs_gen で R_tab・R_c4・R_dep・R_primer_on_tab を出し、038 の重みで合計。038・146 と比べる。</li>
+<li>338：141 の sim.py を写しで実行し、AI・GEN の重い標本の段の到達時刻（t1・t2）を割り当て直した版に差し替えて媒体の 1,000 年に読める確率と量×読める確率を出す（main＝A_XPT_S、A_Ord、stag_0.9）。</li>
+<li>再現：割り当て直しをしない版で 038 の weighted_038 の R_tab を差 0、146 の P_MIX の R_tab_from_heavy を差 &lt;1e-12、141 の main の P_read_H を差 0（assert）。</li>
+</ul>
+<h2 id="_2">仮説</h2>
+<ul>
+<li>H159a（予測）：A_Ord・P_MIX で全体の R_tab の 038 比が 146 の 0.560 から 0.10 以上下がる（≤0.46）。</li>
+<li>H159b（確認的）：4 介入の順位 R_c4 &gt; R_dep &gt; R_tab &gt; R_primer_on_tab が 3 アンカー × 4 版のすべてで不変。</li>
+<li>H159c（予測）：A_XPT_S・P_MIX で Project Silica の 1,000 年に読める確率が 141 の 0.870 から 0.70 未満に下がる。</li>
+<li>H159d（確認的）：3 アンカー相当（main・A_Ord）× 4 版のすべてで、MOM 10 倍の読める確率 ≥0.85 かつ量×読める確率の最大が piql か silica（141 の二段構えが保たれる）。</li>
+<li>判定の外：D2rz の推し（126・127）と 070 の費用あたりの順位は本回は再計算しない。</li>
+</ul><footer><hr><small>自動生成</small></footer></body></html>
